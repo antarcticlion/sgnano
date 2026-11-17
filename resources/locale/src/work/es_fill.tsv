@@ -1,0 +1,179 @@
+# Español — strings added since 2026-11-04 (machine translation, unreviewed; 2026-11-16)
+U004	Marcar todo / invertir las marcas (como PC-98 FD)
+U006	Marcar y avanzar / solo marcar
+U008	Elegir un rango (Espacio marca el rango)
+U009	Entrar en una carpeta / abrir un archivo (F2/X ejecutar)
+U012	Copiar (Shift+C / Shift+F3 elige el destino en el árbol)
+U014	Borrar (Shift+D / Shift+F4 borra una carpeta)
+U016	Cambiar los atributos
+U018	Ver como texto (Shift+V / Ctrl+Alt+F7 hex)
+U019	Información de la unidad
+U020	Carpeta nueva / archivo nuevo
+U021	Shell sgsh / expulsar el medio
+U022	Recargar
+U023	Guardar la pantalla como PNG
+U024	Cerrar la ventana / quitar la selección (en una subcarpeta: subir)
+U025	Operaciones de archivo (como FD: marcas, luego rango, luego cursor)
+U026	Copiar: elegir el destino en el árbol de unidades y carpetas. ESC detiene
+U027	Borrar: confirmar con y. Marcas y rangos a la vez. Carpetas con su contenido
+U028	Borrar una carpeta (con su contenido)
+U030	Atributos: R solo lectura, H oculto, S sistema, A archivo
+U031	Carpeta nueva
+U032	Archivo nuevo (vacío)
+U033	Ver como texto (Shift+V / Ctrl+Alt+F7 hex)
+U034	Shell sgsh (exit / Ctrl-D vuelve al gestor de archivos)
+U036	Expulsar el medio FDD / LS-120 / CD
+U037	Recargar la lista (CD: desde la TOC)
+U038	Recibir del PC por ZMODEM (zm.sh put)
+U039	Enviar al PC por ZMODEM (zm.sh get)
+U041	REPL de Ruby (línea a línea, Ctrl-D / ESC para terminar)
+U042	REPL de MicroPython
+U043	Dividir en partes de 4 MB / unir desde .001
+U044	Dividir / unir (igual que Ctrl+F11 / F12)
+U045	Pantalla (Alt+F, no choca con las teclas F de FD)
+U047	Página de visualización del FB (0-3)
+U048	Borrar el FB a 0 / reducir el brillo a la mitad (RGB555)
+U050	Borrar la página de visualización del FB / reducir el brillo a la mitad
+U057	Comprobar S: (pregunta antes de reparar)
+U061	Exportar VGM/VGZ a WAV de 96 kHz / 24 bits
+U073	Editor (E / Shift+F8)
+U082	Shell (subconjunto de csh. exit / Ctrl-D para volver, help lista las órdenes)
+U092	Comprobar la unidad S:
+U093	Archivos %lu  carpetas %lu
+U094	El tamaño no coincide con la cadena
+U095	Clústeres no usados por nada
+U096	Clústeres con enlace cruzado
+U097	Entradas dañadas
+U098	Las dos copias de la FAT difieren
+U099	Sin errores.
+U100	Se encontraron errores. ¿Repararlos?
+U101	Reparado (se corrigieron los números de arriba).
+U102	No se pudo comprobar ni reparar (S: está ocupada).
+U103	[ Reparar ]
+U104	[ Cancelar ]
+U112	¿Fijar %c: en qué letra? (A-Z excepto S. ESC cancela)
+U113	Unidad  letra / Enter elegir  F2 fijar/liberar la letra  F3 fijar como...  L / ESC cancelar
+U114	  partición %u
+U115	%c:* (fijada, no conectada) %04X:%04X%s  %s
+U135	2 Ejec
+U136	3 Copiar
+U137	4 Borrar
+U138	5 Nombre
+U139	7 BorFB
+U140	8 AtenFB
+U141	9 Unidad
+U142	10 EP
+U145	1 Atrib
+U146	2 Info
+U147	3 Mover
+U148	5 Carp
+U149	6 Shell
+U150	8 Editar
+U151	9 Ver
+U152	10 S:ver
+U154	12Reinic
+U172	10 ZMenv
+U176	7 Hex
+U177	9 Licen
+U178	11 Ajust
+U179	Ajustar el reloj (hora de Japón. NTP no pudo ajustarlo)
+U180	Ejecutar con parámetros
+U183	Hora:
+U184	Ejec:
+U186	AAAA-MM-DD hh:mm  Enter ajustar  ESC dejar
+U187	Enter ejecutar  <-> mover  BS / Supr borrar  ESC cancelar
+U188	Enter renombrar  <-> mover  BS / Supr borrar  ESC cancelar
+U189	Enter crear  <-> mover  BS / Supr borrar  ESC cancelar
+U191	 elementos
+U192	Las carpetas se borran con su contenido. ¿Está seguro?
+U194	(No se puede deshacer. También se borran los archivos de las carpetas)
+U206	2 Guard
+U207	5 Color
+U208	6 Hira
+U209	7 Kata
+U210	8 Pred
+U211	10 Salir
+U212	1 Inicio
+U213	2 Final
+U214	3 InsSob
+U215	4 Dicc
+U216	6 HHira
+U217	7 HKata
+U229	 F5                            Coloreado (por extensión; C/C++, mruby, MicroPython, SG BASIC, ninguno)
+U236	                               Hiragana de media anchura (Shift+F6) / katakana de media anchura (Shift+F7)
+U242	       Mayús+← → Acortar/alargar un carácter el extremo derecho de la frase (nuevos candidatos)
+U243	       ↑ ↓ / Tab               Candidato anterior / siguiente en la ventana (bajo el texto, encima cerca del fondo)
+U244	       Enter en →→→            Todos los candidatos (2 x 8, ← → columna y página, Enter elige)
+U245	       Enter                   Frase siguiente (en la última confirma todo)
+U247	 Shift+F1 / F2 / F3 / F4       Inicio / final / insertar-sobrescribir / al diccionario de usuario
+U250	Modificado  Y: guardar y cerrar  N: cerrar sin guardar  ESC: volver
+U251	[Predicción] Tab/↑↓: candidato  Espacio: convertir  Esc: cancelar
+U252	[Candidatos] ↑↓: elegir  ←→: columna/página  Enter: tomar
+U253	[Convertir] ↑↓cand ←→frase Mayús+←→límite Enter sig
+U254	[한국어] Tab/↑↓: candidato  Enter/Espacio: confirmar
+U255	[English] Tab/↑↓: candidato  Enter: confirmar
+U256	Entrada Hangul de 2 juegos  Ctrl-Espacio: alfanumérico
+U257	Completado predictivo  Ctrl-Espacio: entrada directa
+U258	Sin diccionario: solo hiragana/katakana  F6/F7
+U259	Espacio: convertir  F7: katakana  Ctrl-Espacio: alfanumérico
+U260	Espacio: convertir  F6: hiragana  Ctrl-Espacio: alfanumérico
+U261	Media anchura  F6: hiragana  F7: katakana  Shift+F6/F7: media
+U262	IME desactivado
+U263	 predicción
+U268	Coloreado: %s
+U276	Candidatos
+U295	Cambiar el coloreado (C/C++, mruby, MicroPython, SG BASIC, ninguno)
+U309	 De: %s
+U310	 A: %s
+U329	 Espacio: pausa  m: MIDI OUT  q / ESC: detener
+M727	Comprobación de S:: espere -- se está leyendo o escribiendo un archivo
+M728	Comprobación de S:: la unidad está ocupada o no está lista
+M729	nada para este elemento (ContextMenu.cfg)
+M730	orden incorrecta en ContextMenu.cfg
+M731	acción desconocida en ContextMenu.cfg
+M732	menú
+# 2026-11-17: archive window, compress name field, WAV export window (machine translation, unreviewed)
+U342	Nombre del archivo comprimido (los elementos marcados, o el del cursor si no hay)
+U343	Enter comprimir  ←→ mover  BS / Supr borrar  ESC cancelar
+U344	Exportar WAV: %s cancelado (%s)
+U345	Exportar WAV: %s falló (%s)
+U346	Exportar WAV: %s total %s
+U347	 Exportar WAV (96kHz / 24bit): %s
+U348	Cancelado
+U349	Falló
+U350	 Total %s
+U351	 Cancelado (%s; se borró el archivo parcial)
+U352	 No se pudo exportar (%s). Motivo:
+U353	 (motivo desconocido)
+U354	 %u%%   transcurrido %s%s
+U355	 ESC: detener (se borra el archivo parcial)
+U356	Archivo comprimido: %s
+U357	Leyendo... (ESC para cancelar)
+U358	 %u elementos%s  total %s bytes  destino: %s
+U359	 Enter extraer  X extraer todo  ↑↓ mover  ESC cerrar
+U360	Comprimir
+U361	Lista
+U362	Extraer
+U363	 Total %s   %u elementos
+U364	 Total %s   %u archivos
+U365	 Cancelado (%s; se borró el archivo incompleto)
+U366	 No se pudo (%s): %s
+U367	 %u%%   transcurrido %s   %s bytes%s
+U368	 transcurrido %s   %s bytes%s
+U369	 ESC: detener (se borra el archivo incompleto)
+U370	Archivo comprimido: %s falló (%s)
+U371	Comprimido: %s (%u elementos)
+U372	Extraído: %s (%u archivos)
+# 2026-11-17: archive / compress messages (machine translation, unreviewed)
+M733	elija un archivo o carpeta
+M734	no se puede escribir en esta unidad
+M735	ya hay un trabajo de archivo en curso
+M736	no hay PSRAM para la tarea de archivo
+M737	no se pudo iniciar la tarea de archivo
+M738	demasiados elementos (32 como máximo)
+M739	nada que comprimir
+M740	sin nombre (o el nombre tiene / o \\)
+M741	32 elementos como máximo (marque menos o póngalos en una carpeta)
+M742	archivo comprimido
+M743	comprimir
+M744	exportar WAV

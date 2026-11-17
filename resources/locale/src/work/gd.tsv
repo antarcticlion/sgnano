@@ -1,0 +1,373 @@
+# gd: machine translation (Google), unreviewed; 2026-11-17
+U001	Liosta (faidhlichean agus pasganan ann an 2 cholbh x 19 sreathan)
+U002	Gluais an cursair (clì / deas: an colbh eile)
+U003	An duilleag roimhe / an ath dhuilleag
+U004	Comharraich a h-uile / cuir a-steach na comharran (mar ann am PC-98 FD)
+U005	An toiseach/mu dheireadh
+U006	Comharraich agus gluais air adhart / comharra a-mhàin
+U007	Shift+Saigheadan
+U008	Tagh raon (Tha àite a’ comharrachadh an raoin)
+U009	Cuir a-steach pasgan / fosgail faidhle (ruith F2 / X)
+U010	Suas gu pasgan pàrant
+U011	Tagh draibhear (USB, sùbailte, CD, S: togte)
+U012	Dèan lethbhreac (tagh Shift + C / Shift + F3 an ceann-uidhe bhon chraoibh)
+U013	Gluais
+U014	Sguab às (Shift + D / Shift + F4 sguab às pasgan)
+U015	Ath-ainmich
+U016	Atharraich na feartan
+U017	Fosgail anns an deasaiche
+U018	Seall mar theacsa (Shift+V/Ctrl+Alt+F7 hex)
+U019	Fiosrachadh drive
+U020	Pasgan ùr / faidhle ùr
+U021	Shell sgsh / cuir a-mach am meadhan
+U022	Ath-luchdaich
+U023	Sàbhail an sgrion mar PNG
+U024	Dùin an uinneag / glan an taghadh (ann am fo-phasgan: rachaibh suas)
+U025	Obraichean faidhle (mar ann am FD: comharran, an uairsin an raon, an uairsin an cursair)
+U026	Dèan lethbhreac: tagh an ceann-uidhe bhon draibhear agus craobh pasgan. Tha ESC a’ stad
+U027	Sguab às: dearbhaich le y. Comharran agus raointean aig an aon àm. Faidhlichean leis an t-susbaint aca
+U028	Sguab às pasgan (leis na th' ann)
+U029	Ath-ainmich (deasaich an t-ainm, cuir a-steach)
+U030	Feartan: R leughadh a-mhàin, H falaichte, siostam S, tasglann A
+U031	Pasgan ùr
+U032	Faidhle ùr (falamh).
+U033	Seall mar theacsa (Shift+V/Ctrl+Alt+F7 hex)
+U034	Shell sgsh (fàgail / Ctrl-D air ais chun fhaidhle)
+U035	Dearbh-aithne an draibhidh (Sealladh, aithnichear)
+U036	Cuir a-mach am meadhan FDD / LS-120 / CD
+U037	Ath-luchdaich an liosta (CD: bhon TOC)
+U038	Faigh bhon PC le ZMODEM (zm.sh put)
+U039	Cuir chun PC le ZMODEM (zm.sh get)
+U040	Cruinnich .rb agus sgrìobh .mrb
+U041	Ruby REPL (aon loidhne aig an aon àm, Ctrl-D / ESC gu crìch)
+U042	MicroPython REPL
+U043	Roinn ann am pàirtean 4 MB / ceangail bho .001
+U044	Split / join (coltach ri Ctrl+F11/F12)
+U045	Sgrion (Alt+F, chan eil e an aghaidh nan iuchraichean FD F)
+U046	Seall / falaich an FB (dealbh) / an teacsa
+U047	Duilleag taisbeanaidh FB (0-3)
+U048	Glan an FB gu 0 / leth a shoilleireachd (RGB555)
+U049	Puingean crìochnachaidh USB agus staid LAN
+U050	Glan an duilleag taisbeanaidh FB / cuir sìos a shoilleireachd gu leth
+U051	Samhlaidhean teacsa buadhan
+U052	Cum sùil air EDID (leugh aig bròg)
+U053	Ceadan agus creideasan cruth ROM
+U054	Roghainnean (cànan taisbeanaidh, IME agus locale meur-chlàr)
+U055	Cloc (ùine Iapan air a shuidheachadh le NTP; s sioncranachadh a-nis)
+U056	Clèithe fosgailte (SGCALC)
+U057	Thoir sùil air S: airson mearachdan (faighneachd mus dèan thu càradh)
+U058	Fosgail Tracker
+U059	Ath-thòisich (iarr an toiseach)
+U060	Cluich an cuir a-steach stereo ADC (GP40 / 41)
+U061	Às-mhalairt VGM/VGZ gu WAV 96 kHz / 24-bit
+U062	An cuideachadh seo
+U063	Atharraich an duilleag
+U064	Dùin
+U065	Sealladair teacsa / heics (mar nas lugha)
+U066	Aon loidhne
+U067	Aon duilleag
+U068	Leth-dhuilleag
+U069	Rannsaich (air adhart / air ais) / an ath / roimhe
+U070	Air ais dhan liosta (F1: cuideachadh an neach-seallaidh)
+U071	Sealladair ìomhaigh
+U072	Air ais dhan liosta (obair F2 F3 F6 F7 Shift+F2 F3)
+U073	Deasaiche (E / Shift+F8)
+U074	Sàbhail (UTF-8; cinn loidhne agus BOM air a chumail)
+U075	Dùin (ma thèid atharrachadh: Y / N / ESC)
+U076	Cuir a-steach / sgrìobhadh thairis
+U077	IME air / dheth (Seapanais / Beurla / Coirèanais)
+U078	Cànan IME (Iapanais / Beurla / Coirèanais)
+U079	Dèan dealas mar hiragana / katakana
+U080	Cuideachadh an neach-deasachaidh
+U081	Slige
+U082	Shell (fo-sheata csh. fàgail / Ctrl-D airson tilleadh, cuidich le liosta nan òrduighean)
+U083	Dèan liosta agus gluasad
+U084	Obraichean faidhle
+U085	Sgrion agus innealan
+U086	Luchd-amhairc agus an neach-deasachaidh
+U087	Cuidich % u / %u %s
+U088	Clì Deas: atharraich an duilleag F1 / ESC: dùin
+U089	Ath-thòisich sgnano?
+U090	[ Ath-thòisich ]
+U091	[ Sguir dheth ]
+U092	Thoir sùil air an draibhear S: airson mearachdan
+U093	Faidhlichean %lu pasgain %lu
+U094	Chan eil am meud a’ freagairt ris an t-sreath
+U095	Cruinneachaidhean air an cleachdadh le rud sam bith
+U096	Braislichean tar-cheangailte
+U097	Inntrigidhean briste
+U098	Tha an dà leth-bhreac FAT eadar-dhealaichte
+U099	Gun mhearachdan.
+U100	Chaidh mearachdan a lorg. Càradh iad?
+U101	Càradh (chaidh na h-àireamhan gu h-àrd a shuidheachadh).
+U102	Cha b' urrainn dhuinn sgrùdadh no càradh (S: tha e trang).
+U103	[ càradh ]
+U104	[ Sguir dheth ]
+U105	Bidh iuchair sam bith a’ dùnadh
+U106	Suidhichidhean
+U107	Cànan taisbeanaidh
+U108	Ionad meur-chlàr
+U109	Suas / Sìos Enter tagh cuir dheth ESC
+U110	Cànan taisbeanaidh
+U111	Suas / sìos Cuir a-steach: suidhich ESC: air ais
+U112	Ceartaich %c: dè an litir? (AZ ach a-mhàin S. ESC air a chuir dheth)
+U113	Litir draibhidh / Cuir a-steach tagh F2 socraich / dì-stàlaich an litir F3 mar ... cuir dheth L / ESC
+U114	sgaradh %u
+U115	%c:* (stèidhichte, gun cheangal) %04X:%04X%s %s
+U116	Sanas
+U117	Dràibheadh ​​%c: %s
+U118	Drive (chan eil gin)
+U119	CD fuaime % u tracaichean
+U120	Faidhlichean %u fhaidhlichean %u iomlan %s
+U121	A' leughadh...
+U122	* comharraichte %u %s
+U123	%lu bytes
+U124	Chruthaich attr %s atharraichte %s %s %s
+U125	ghrian
+U126	Mon
+U127	Dimàirt
+U128	Dòs
+U129	Thu
+U130	Fri
+U131	Sat
+U132	Chan eil an gleoc air a shuidheachadh (NTP thairis air an LAN)
+U133	Taisbeanadh FB % u sgrìobh % u
+U134	1 Cuideachadh
+U135	2 Ruith
+U136	3 Dèan lethbhreac
+U137	4 Del
+U138	5 Ath-ainmich
+U139	7 FBclr
+U140	8 FBdim
+U141	9 Druim
+U142	10 EP
+U143	11 Cloc
+U144	12 CALC
+U145	1 Atr
+U146	2 Fios
+U147	3 Gluais
+U148	5 Mkdir
+U149	6 Slige
+U150	8 Deasaich
+U151	9 Sealladh
+U152	10 S:chk
+U153	11 TRÀTH
+U154	12 Ath-thòisich
+U155	1 Ùr
+U156	2 Fillte
+U157	3 Ath-ainmich
+U158	4 Adhbhar
+U159	6 Dèan lethbhreac
+U160	7 Gluais
+U161	8 Sguab às
+U162	9 Deasaich
+U163	10 mhbr
+U164	11 Sgoilt
+U165	12 Thig còmhla
+U166	1 Atrs
+U167	2 FB
+U168	3 Teacs
+U169	5 Sgrios
+U170	6 DispPg
+U171	9 ZMrecv
+U172	10ZMsend
+U173	2 FBclr
+U174	3 FBDim
+U175	5 Ath-luchdaich
+U176	7 heics
+U177	9 Leic
+U178	11 Suidhich
+U179	Suidhich an uaireadair (àm Iapanach. Cha b’ urrainn do NTP a shuidheachadh)
+U180	Ruith le paramadairean
+U181	Pasgan ùr
+U182	Faidhle ùr
+U183	Uair:
+U184	Ruith:
+U185	Ainm:
+U186	YYYY-MM-DD hh: mm Cuir a-steach seata ESC cumail
+U187	Cuir a-steach ruith <-> gluais BS / Del sguab às ESC
+U188	Cuir a-steach ath-ainm <-> gluais BS / Del sguab às ESC
+U189	Cuir a-steach cruthaich <-> gluais BS / Del sguab às ESC
+U190	Sguab às
+U191	nithean
+U192	Thèid pasganan a sguabadh às leis na tha annta. A bheil thu cinnteach?
+U193	Sguab às am faidhle seo?
+U194	(Cha ghabh seo a thoirt air falbh. Thèid faidhlichean sna pasganan a sguabadh às cuideachd)
+U195	[ Tha (Y)]
+U196	[Chan eil (N)]
+U197	sealladair hex: tagh faidhle
+U198	sealladair teacsa: tagh faidhle
+U199	Gluais gu
+U200	Dèan lethbhreac gu
+U201	Tha am bufair làn
+U202	Tha an draibhear ri leughadh a-mhàin
+U203	Cha ghabh sàbhaladh (chan eil sgrìobhadair ann)
+U204	Cha b’ urrainn dhuinn tòiseachadh air sàbhaladh (tha an draibhear trang?)
+U205	A' sàbhaladh...
+U206	2 Sàbhail
+U207	5 Dath
+U208	6 Hira
+U209	7 Ceit
+U210	8 Pred
+U211	10 Sguir
+U212	1 Bàrr
+U213	2 Deireadh
+U214	3 InOvr
+U215	4 Dict
+U216	6 HHira
+U217	7 Hatha
+U218	%s %s Ln %lu/%lu Col % u %s %s %s %s%s
+U219	*modh
+U220	OVR
+U221	INS
+U222	R/O
+U223	Deasaiche (deasachadh sgnano) F1 / ESC a’ dùnadh
+U224	Saighdean / Deireadh Dachaigh / PgUp PgDn gluais an cursair
+U225	Ctrl-T / Ctrl-B mullach / deireadh an fhaidhle
+U226	BS / Del sguab às roimhe / aig a’ chursair
+U227	Cuir a-steach loidhne ùr (a’ cumail an indent)
+U228	Tab / Ins tab / cuir a-steach no cuir thairis air
+U229	Dathadh F5 (bhon leudachadh; C/C ++, mruby, MicroPython, SG BASIC, gin)
+U230	Sàbhail F2 (Ctrl-S) (UTF-8, cinn loidhne air an cumail)
+U231	F10 / ESC dùin (a’ faighneachd an deach atharrachadh)
+U232	IME: Ctrl-Space / F12 air / dheth (あ / A)
+U233	Cànan F9 IME (an deasaiche seo a-mhàin; air ath-nuadhachadh faisg air làimh)
+U234	F8 Tionndadh ro-innse Iapanach air / dheth
+U235	romaji Iapanach -> hiragana (F6) / katakana (F7)
+U236	Hiragana leth-leud (Shift+F6) / katakana leth-leud (Shift+F7)
+U237	Dèan ro-innse le 2 charactar no barrachd, tionndaidh clàs leantainneach le Space
+U238	Beurla Crìochnachadh ro-innseach le 2 charactar no barrachd
+U239	한국어 2 Hangul ann an stoidhle Bol
+U240	Àite / Cuir a-steach Tionndadh / Dearbhaich
+U241	← → Tagh abairt
+U242	Shift+← → Lùghdaich/fas ceann deas a’ chlàs le aon charactar (tagraichean ùra)
+U243	↑ ↓ / Tab Roimhe / an ath thagraiche anns a’ priob-uinneag (fon teacsa, gu h-àrd faisg air a’ bhonn)
+U244	Cuir a-steach air →→→ A h-uile tagraiche (2 x 8, ← → colbh agus duilleag, tha Enter a’ taghadh)
+U245	Cuir a-steach An ath chlàs (a’ dearbhadh an t-iomlan aig a’ chlàs mu dheireadh)
+U246	Ctrl-U Cuir am facal gnàthach ri faclair luchd-cleachdaidh
+U247	Shift + F1 / F2 / F3 / F4 Top / deireadh / cuir a-steach - ath-sgrìobhadh / gu faclair an neach-cleachdaidh
+U248	BS / ESC Rach air ais aon charactar / Sguir dheth
+U249	, . - [ ] / 、 。 ー 「 」 ・
+U250	Atharraichte Y: sàbhail agus dùin N: dùin gun a bhith a’ sàbhaladh ESC: air ais
+U251	[Ro-innse] Tab/↑↓: tagraiche Àite: tionndaidh Esc: cuir dheth
+U252	[Tagraichean] ↑↓: tagh ←→: colbh/duilleag Cuir a-steach: tagh
+U253	[Tionndaidh] ↑↓cand ←→ clàs Shift+← → Ceangailte Cuir a-steach an ath rud
+U254	[한국어] Tab/↑↓: tagraiche Cuir a-steach/Space: dearbhaich
+U255	[Beurla] Tab/↑↓: tagraiche Cuir a-steach: dearbhaich
+U256	Cuir a-steach Hangul 2-seata Ctrl-Space: alphanumeric
+U257	Crìochnachadh ro-innseach Ctrl-Space: cuir a-steach dìreach
+U258	Gun fhaclair: hiragana/katakana a-mhàin F6/F7
+U259	Àite: tionndadh F7: katakana Ctrl-Space: alphanumeric
+U260	Àite: tionndadh F6: hiragana Ctrl-Space: alphanumeric
+U261	Leth-leud F6: hiragana F7: katakana Shift+F6/F7: leth
+U262	IME dheth
+U263	ro-innse
+U264	Eadar-theangachadh Iapanach ro-innseach: Air adhart
+U265	Eadar-theangachadh ro-innseach airson Seapanais: Off
+U266	Cleachd le IME Iapanach
+U267	Cha ghabh a chur ri faclair a' chleachdaiche
+U268	Dathan: %s
+U269	A' luchdachadh...
+U270	Cha b' urrainn dhuinn am faidhle a leughadh
+U271	%lu loidhnichean %s %s
+U272	fhosgladh Shift_JIS mar UTF-8 (sàbhail mar UTF-8)
+U273	leughadh a-mhàin
+U274	Air a shàbhaladh
+U275	Cha b' urrainn dhuinn sàbhaladh (dh'fhàillig an sgrìobhadh)
+U276	Tagraichean
+U277	7 WrtPg
+U278	9 Teacs
+U279	9 Heics
+U280	A’ luchdachadh %lu%%
+U281	(an toiseach a-mhàin)
+U282	Hex q ESC: cùl F1: cuideachadh
+U283	Teacs q ESC: air ais F1: cuideachadh
+U284	Iuchraichean sealladair (mar nas lugha; an aon rud airson teacsa agus hex)
+U285	Aon loidhne sìos
+U286	Aon loidhne suas
+U287	Aon duilleag sìos
+U288	Aon duilleag suas
+U289	Leth-dhuilleag sìos/suas
+U290	/teacs ?text
+U291	Rannsaich sìos / suas (leig seachad a’ chùis)
+U292	An ath gheam / an geama roimhe
+U293	Seall mar hex (aig an aon àite)
+U294	Seall mar theacsa (aig an aon àite)
+U295	Atharraich an dath (C/C ++, mruby, MicroPython, SG BASIC, gin)
+U296	Seall / falaich an FB / an teacsa
+U297	Duilleag taisbeanaidh FB / duilleag sgrìobhaidh
+U298	Air ais chun an fhaidhle
+U299	Dùin an cuideachadh seo
+U300	Dèan lethbhreac
+U301	%s: a’ leughadh nam pasgain... %u
+U302	%s: A’ cunntadh an àite saor aig a’ cheann-uidhe…
+U303	%s: chan eil àite gu leòr an-asgaidh aig a’ cheann-uidhe
+U304	Gluais: thoir air falbh na pasganan tùsail
+U305	Dèanta
+U306	Sguir
+U307	%s a' dol air adhart %s
+U308	(stad)
+U309	bho: %s
+U310	Gu: %s
+U311	Faidhlichean %u / %u pasgain %u %s / %s (%u %%) %s
+U312	cus: only some
+U313	Feumaidh %s, saor %s. Lean air adhart?
+U314	Y: lean air adhart N / ESC: cuir dheth
+U315	Brùth iuchair sam bith gus a dhùnadh
+U316	ESC: stad
+U317	%s: ←→ draibheadh ​​↑↓ pasgan Àite fosgailte/dùin Cuir a-steach tagh cuir dheth ESC
+U318	Cha ghabh leughadh: %s
+U319	A' leughadh nam pasganan... (stad an ESC) %u
+U320	%u pasgain %s
+U321	(cus no ro dhomhainn: dìreach cuid)
+U322	Sguir am pasgan fhosgladh
+U323	Bidh Space ga fhosgladh a-rithist. ESC a-rithist air a chuir dheth
+U324	Cluicheadair SMF / SGT %s
+U325	A' luchdachadh... %lu / %lu bytes
+U326	%s / %s %s puirt % u
+U327	Stad
+U328	A' cluich
+U329	Àite: stad m: MIDI OUT q / ESC: stad
+U330	q / ESC: cuir dheth
+U331	Ceadan agus creideasan cruth ROM\n\nROM: %s (dreach %lu.%lu, %lu caractaran, o 0x%08lX san flash)
+U332	== Cruthan san ROM (clàr tùsail an ROM) ==
+U333	(chan eil clàr aig an ROM)
+U334	== Raon creideasan an ROM ==
+U335	(chan eil sgìre mar sin)
+U336	== Ceadan a' bhathar-bhog togte ==
+U337	A' sàbhaladh %s mar PNG %s
+U338	Sgrion
+U339	Togalach... %lu / %lu sreathan
+U340	Sgrìobhadh... %lu / %lu KB (tha am FB falaichte)
+U341	Cha b' urrainn sgrìobhadh
+U342	Ainm an tasglann (na nithean comharraichte, no an rud cursair mura h-eil ann)
+U343	Cuir a-steach compress ←→ gluais BS / Del sguab às ESC
+U344	Às-mhalairt WAV: %s air a chur dheth (%s)
+U345	Às-mhalairt WAV: %s air fàilligeadh (%s)
+U346	Às-mhalairt WAV: %s iomlan %s
+U347	Às-mhalairt WAV (96kHz / 24bit): %s
+U348	Air a chur dheth
+U349	Dh'fhàillig
+U350	Iomlan %s
+U351	Sguir dheth (%s; chaidh am faidhle pàirteach a sguabadh às)
+U352	Cha b' urrainn dhuinn às-mhalairt (%s). Adhbhar:
+U353	(adhbhar neo-aithnichte)
+U354	Dh'fhalbh %u%% %s%s
+U355	ESC: stad (tha am faidhle pàirt air a sguabadh às)
+U356	Tasglann: %s
+U357	Leughadh... (ESC ri chur dheth)
+U358	%u nithean %s iomlan %s bytes earrann gu: %s
+U359	Cuir a-steach earrann earrann X thoir a-mach a h-uile ↑↓ gluais ESC dlùth
+U360	Dùmhlachadh
+U361	Liosta
+U362	Earrann
+U363	Iomlan %s %u nithean
+U364	Iomlan %s %u fhaidhlichean
+U365	Sguir dheth (%s; chaidh am faidhle neo-chrìochnaichte a sguabadh às)
+U366	Cha b' urrainn dhi a dhèanamh (%s): %s
+U367	Chaidh %u%% seachad air %s %s bytes%s
+U368	chaidh %s %s bytes%s seachad
+U369	ESC: stad (tha am faidhle neo-chrìochnaichte air a sguabadh às)
+U370	Tasglann: Dh'fhàillig %s (%s)
+U371	Dùmhlaichte: %s (%u items)
+U372	Air a thoirt a-mach: %s (%u files)

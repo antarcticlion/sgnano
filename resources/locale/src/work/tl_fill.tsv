@@ -1,0 +1,45 @@
+# 2026-11-17: archive window, compress name field, WAV export window (machine translation, unreviewed)
+U342	Pangalan ng archive (ang mga minarkahan, o ang nasa cursor kung wala)
+U343	Enter i-compress  ←→ ilipat  BS / Del burahin  ESC kanselahin
+U344	I-export ang WAV: %s kinansela (%s)
+U345	I-export ang WAV: %s nabigo (%s)
+U346	I-export ang WAV: %s kabuuan %s
+U347	 I-export ang WAV (96kHz / 24bit): %s
+U348	Kinansela
+U349	Nabigo
+U350	 Kabuuan %s
+U351	 Kinansela (%s; binura ang kulang na file)
+U352	 Hindi ma-export (%s). Dahilan:
+U353	 (hindi alam ang dahilan)
+U354	 %u%%   lumipas %s%s
+U355	 ESC: ihinto (buburahin ang kulang na file)
+U356	Archive: %s
+U357	Binabasa... (ESC para kanselahin)
+U358	 %u item%s  kabuuan %s byte  i-extract sa: %s
+U359	 Enter i-extract  X lahat  ↑↓ ilipat  ESC isara
+U360	I-compress
+U361	Listahan
+U362	I-extract
+U363	 Kabuuan %s   %u item
+U364	 Kabuuan %s   %u file
+U365	 Kinansela (%s; binura ang hindi tapos na file)
+U366	 Hindi magawa (%s): %s
+U367	 %u%%   lumipas %s   %s byte%s
+U368	 lumipas %s   %s byte%s
+U369	 ESC: ihinto (buburahin ang hindi tapos na file)
+U370	Archive: %s nabigo (%s)
+U371	Na-compress: %s (%u item)
+U372	Na-extract: %s (%u file)
+# 2026-11-17: archive / compress messages (machine translation, unreviewed)
+M733	pumili ng file o folder
+M734	hindi masusulatan ang drive na ito
+M735	may tumatakbo nang gawain sa archive
+M736	walang PSRAM para sa gawain sa archive
+M737	hindi masimulan ang gawain sa archive
+M738	masyadong maraming item (hanggang 32)
+M739	walang i-compress
+M740	walang pangalan (o may / o \\ ang pangalan)
+M741	hanggang 32 item lang (magmarka ng mas kaunti o ilagay sa isang folder)
+M742	archive
+M743	i-compress
+M744	i-export ang WAV

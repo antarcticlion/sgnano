@@ -1,0 +1,787 @@
+# ga: machine translation (Google), unreviewed; 2026-11-17
+M001	d'imigh an tiomántán
+M002	ag léamh na ndeighiltí arís...
+M003	Níorbh fhéidir an toirt a oscailt (gan chuimhne?)
+M004	an toirt a oscailt...
+M005	gan aon chuimhne don liosta comhad
+M006	ag léamh an eolaire... (ag iarraidh arís)
+M007	níorbh fhéidir an t-eolaire a léamh
+M008	ag léamh an eolaire...
+M009	níor fhreagair an tiomántán -- ag léamh na ndeighiltí arís
+M010	Níorbh fhéidir an t-eolaire a léamh (ní FAT12/16/32?)
+M011	an iomarca iontrálacha -- ag taispeáint na chéad cinn
+M012	níor aimsíodh aon chóras comhaid ar an deighilt seo
+M013	tá an cosán ró-fhada
+M014	ag gabháil...
+M015	scoilteadh...
+M016	ag athainmniú...
+M017	ag cruthú an fhillteáin...
+M018	ag cruthú an chomhaid...
+M019	ag scriosadh...
+M020	ag scríobh na tréithe...
+M021	Tá an tiomáint gnóthach
+M022	gnóthach
+M023	roghnaigh comhaid nó fillteáin
+M024	roghnaigh comhaid nó fillteáin (ní "..")
+M025	stop an CD ar dtús
+M026	ní féidir an CD a athrú (cóip ina ionad sin)
+M027	ní féidir fillteán córais a bhogadh
+M028	ní féidir tiomántán ar bith a scríobh (FAT / exFAT / NTFS amháin)
+M029	tá an tiomáint imithe
+M030	rud ar bith roghnaithe
+M031	rud ar bith roghnaithe
+M032	níorbh fhéidir tosú
+M033	níorbh fhéidir a oscailt
+M034	ach amháin ar thiomáint FAT / exFAT / NTFS
+M035	gan ainm
+M036	tá an t-ainm sin ann cheana
+M037	níorbh fhéidir tosú (drochainm nó tá an tiomáint gnóthach)
+M038	níorbh fhéidir tosú (tá an tiomántán gnóthach)
+M039	ní féidir / nó \\ (taobh istigh den fhillteán seo amháin) a bheith san ainm
+M040	tá an t-ainm mar an gcéanna
+M041	tá an mhír inléite amháin (A le hathrú)
+M042	roghnaigh comhad .rb ar thiomántán inscríofa
+M043	roghnaigh comhad .rb
+M044	tá an tiomántán inléite amháin
+M045	roghnaigh fillteán ar thiomántán inscríofa
+M046	fan nóiméad
+M047	roghnaigh comhad
+M048	roghnaigh comhad (ní fillteán)
+M049	roghnaigh comhad .001
+M050	roghnaigh an comhad .001
+M051	cuir an IWAD i bhfillteán DoomFiles nó Doom2Files
+M052	Glacann DoomFiles freedoom1 / doom / doomu / doom1.wad
+M053	Glacann Doom2Files freedoom2 / doom2 / plutonia / tnt.wad
+M054	cuir na comhaid cluiche ar stóráil sheachtrach, ní S:
+M055	caithfidh an IWAD a bheith ar thiomáint FAT / exFAT / NTFS (ní CD)
+M056	fós ag obair
+M057	tá íomhá á luchtú
+M058	gan maolán fráma
+M059	oibríonn leath gile ach amháin i RGB555
+M060	imréitigh...
+M061	an gile á leathú...
+M062	is rian sonraí é sin
+M063	fan -- tá comhad á scríobh
+M064	tiomáineann flapacha / LS-120 / CD amháin
+M065	iarrtha
+M066	ag léamh an diosca...
+M067	ag stopadh...
+M068	ag oscailt...
+M069	déanta
+M070	aon chuimhne
+M071	oscailte cheana féin
+M072	ag rith cheana féin
+M073	shábháil cheana féin
+M074	ag imirt cheana féin
+M075	gan tiomáint den sórt sin
+M076	gan PSRAM
+M077	gan PSRAM don chomhad
+M078	gan PSRAM don innéacs líne
+M079	gan PSRAM don teirminéal
+M080	gan chuimhne (PSRAM)
+M081	gan chuimhne (32KB SRAM)
+M082	gan aon chuimhne ar an maolán
+M083	gan aon chuimhne ar na maoláin íomhá
+M084	gan aon chuimhne don mhaolán léite
+M085	gan spás don chuimhne oibre (dún an eitleán lowres?)
+M086	gan aon leathanach maolán fráma
+M087	rómhór (4 MB ar a mhéad)
+M088	tá an comhad rómhór (1 MB ar a mhéad)
+M089	tá an comhad rómhór (1MB ar a mhéad)
+M090	rómhór do SMF (1MB ar a mhéad)
+M091	Tá an comhad folamh
+M092	níorbh fhéidir an comhad a oscailt
+M093	níorbh fhéidir an comhad a léamh
+M094	níorbh fhéidir an toirt a oscailt
+M095	níorbh fhéidir an ceann scríbe a oscailt (gan chuimhne?)
+M096	níorbh fhéidir an fillteán fréimhe a léamh
+M097	níorbh fhéidir an tasc a thosú
+M098	níorbh fhéidir tosú ag scríobh (drochainm nó gnóthach)
+M099	imleabhar eile oscailte (gnóthach)
+M100	tá cóip ar siúl
+M101	ní féidir le fillteán dul isteach ann féin
+M102	is é sin an fillteán céanna
+M103	ní féidir an tiomántán seo a athrú (inléite amháin)
+M104	níl an tiomántán inscríofa
+M105	ní mór iolraí de 512 a bheith i méid na coda
+M106	ní thacaítear le comhaid de 4 GB nó níos mó
+M107	cosán dona
+M108	ainm comhaid dona
+M109	níl an cló ROM ann
+M110	níl an fhuaim oscailte
+M111	aon chainéal den sórt sin
+M112	Tá an seicheamhóir gnóthach
+M113	ní leor PSRAM don amhrán
+M114	ní comhad caighdeánach MIDI é (gan MThd)
+M115	aon rianta
+M116	tá rian briste (MTrk)
+M117	SMPTE Ní thacaítear le roinnt ama
+M118	Ní thacaítear le formáid SMF 2 (0 agus 1 amháin)
+M119	ní tiomántán Bulc Amháin
+M120	ní tiomáint optúil é
+M121	ní féidir fillteán córais a scriosadh nó a athainmniú
+M122	aon meáin sa tiomáint
+M123	ag éirí réidh
+M124	nach bhfuil réidh
+M125	meáin athraithe
+M126	earráid mheánach
+M127	iarratas mídhleathach
+M128	droch-iontráil eolaire
+M129	níl eolaire ar an mbealach ann
+M130	tá an t-ainm sin ar chomhad
+M131	tá an t-ainm sin ar fhillteán
+M132	ní eolaire é ainm ar an mbealach
+M133	ar ceal
+M134	níorbh fhéidir mount
+M135	níorbh fhéidir léamh a thosú
+M136	níorbh fhéidir scríobh a thosú
+M137	is eolaire
+M138	is eolaire é sin
+M139	gan braislí
+M140	gan spás don liosta cnuasach
+M141	aon chomhad nó eolaire den sórt sin
+M142	aon chomhad den sórt sin
+M143	gan toirt
+M144	ní NTFS
+M145	ní exFAT
+M146	ní eolaire
+M147	ní bhfuarthas
+M148	earráid léite
+M149	earráid scríobh
+M150	theip ar léamh na saille
+M151	tá an slabhra braisle níos giorra ná an comhad
+M152	níl an t-eolaire folamh
+M153	tá an diosca lán
+M154	níor fhreagair an tiomántán
+M155	tá an comhad inléite amháin
+M156	tá an comhad ró-ilroinnte
+M157	tá an comhad rómhór (4GB)
+M158	tá an t-ainm nua ann cheana féin
+M159	tá an eolaire fréimhe lán
+M160	an iomarca comhad leis an ainm gearr céanna
+M161	Níl comhad nó eolaire den sórt sin ann
+M162	Tá an comhad ann
+M163	Cead diúltaithe
+M164	Níl an t-eolaire folamh
+M165	Ní eolaire
+M166	Is eolaire
+M167	Córas comhaid inléite amháin
+M168	Níl spás fágtha ar an ngléas
+M169	Earráid ionchuir/aschuir
+M170	Ní thacaítear leis ar an tiomántán seo
+M171	Conair neamhbhailí
+M172	As cuimhne
+M173	Uimh tiomáint den sórt sin
+M174	stoptha
+M175	curtha ar ceal (gan dóthain spáis saor in aisce)
+M176	níorbh fhéidir an spás saor a chomhaireamh
+M177	cealaíodh an glacadóir
+M178	gan glacadóir (rith rz ar an ríomhaire)
+M179	tá an consól UART in úsáid
+M180	d'athraigh modh an scáileáin
+M181	níor tháinig na línte (an bhfuil an taispeáint ag rith?)
+M182	cóip
+M183	bogadh
+M184	scrios
+M185	athainmnigh
+M186	tréithe
+M187	comhad nua
+M188	fillteán nua
+M189	íomhá
+M190	mrbc
+M191	rubaidh
+M192	bhreathnóir
+M193	eagar
+M194	AITHEANTA
+M195	ZMODEM
+M196	ZMODEM fháil
+M197	ZMODEM sheoladh
+M198	scoilt
+M199	isteach
+M200	Seirbigh
+M201	SMF
+M202	CD
+M203	FB
+M204	Díchuir
+M205	atosaigh
+M206	ceadúnas
+M207	clog
+M208	ADC isteach
+M209	scáileán -> PNG
+M210	FB -> PNG
+M211	níorbh fhéidir an toirt a oscailt
+M212	faighte
+M213	seolta
+M214	shábháil
+M215	cruthaithe
+M216	athainmnithe go
+M217	scriosta
+M218	athraigh
+M219	isteach
+M220	scoilt
+M221	níorbh fhéidir a chruthú
+M222	Níorbh fhéidir a scriosadh
+M223	níorbh fhéidir é a athainmniú go
+M224	níorbh fhéidir athrú
+M225	Níorbh fhéidir léamh
+M226	níorbh fhéidir scríobh
+M227	níorbh fhéidir cóip a dhéanamh
+M228	Níorbh fhéidir a dhéanamh
+M229	níorbh fhéidir an fillteán a bhaint
+M230	Níorbh fhéidir a bhaint
+M231	aon chuimhne le haghaidh
+M232	iomarca earráidí agus tú á sheoladh
+M233	níor ghlac an glacadóir
+M234	sciob an glacadóir
+M235	Leathanach FB
+M236	bearta an ceann)
+M237	bearta)
+M238	KB)
+M239	páirteanna isteach
+M240	páirteanna (
+M241	isteach
+M242	: glanta
+M243	: gile leath
+M244	% léite
+M245	sraitheanna
+M246	-- gan tacaíocht go fóill (FAT / exFAT / NTFS amháin)
+M247	comhaid
+M248	(
+M249	Gan teideal
+M250	1 Comhad
+M251	2 Cuir in eagar
+M252	3 Graf
+M253	4 Bileog
+M254	5 Cabhrú
+M255	FOLAMH
+M256	UIMHIR
+M257	TÉACS
+M258	FOIRMLE
+M259	Clóscríobh le hiontráil, F2 le cur in eagar, F1 chun cabhair a fháil
+M260	5 CSV
+M261	6 ODS
+M262	[SHIFT]
+M263	[CTRL]
+M264	[ALT]
+M265	Réidh
+M266	SGCALC
+M267	Brúigh eochair ar bith
+M268	Y = tá N = níl Esc = cealaigh
+M269	Iontráil = OK Esc = cealaigh Ctrl-U = soiléir
+M270	An chéad ró/colún = lipéid; úsáideann cairteacha an 640x480 CLUT8 FB.
+M271	SGCALC - CABHAIR
+M272	Brúigh eochair ar bith chun filleadh
+M273	Brúigh eochair ar bith chun filleadh.
+M274	FAOI SGCALC
+M275	Nua
+M276	Tosaigh bileog nua
+M277	Oscail...
+M278	Oscail comhad ODS, FODS nó CSV
+M279	Sábháil
+M280	Sábháil an comhad reatha
+M281	Sábháil Mar...
+M282	Sábháil le hainm nó formáid nua
+M283	Easpórtáil CSV...
+M284	Scríobh cóip CSV
+M285	Easpórtáil ODS...
+M286	Scríobh cóip LibreOffice
+M287	Scoir
+M288	Fág SGCALC
+M289	Glan
+M290	Glan na cealla roghnaithe
+M291	Cóip
+M292	Cóipeáil an rogha
+M293	Greamaigh
+M294	Greamaigh ag an cúrsóir
+M295	Gearr
+M296	Cóipeáil agus soiléir an roghnú
+M297	Roghnaigh go léir
+M298	Roghnaigh gach cealla a úsáidtear
+M299	Dath an téacs...
+M300	Roghnaigh dath an téacs
+M301	Cúlra...
+M302	Roghnaigh cúlra na cille
+M303	Líne
+M304	Tarraing líneghraf ón roghnú
+M305	barra
+M306	Tarraing barraghraf ón roghnúchán
+M307	Measctha
+M308	Barraí don chéad sraith, línte don chuid eile
+M309	pióg
+M310	Tarraing píghraf ón roghnúchán
+M311	Raon...
+M312	Socraigh an raon graf go sainráite
+M313	Tarraing arís
+M314	Atarraing an graf deireanach
+M315	Chuaigh...
+M316	Léim go cill (mar shampla C12)
+M317	Leithead an cholúin...
+M318	Athraigh leithead na gcolún roghnaithe
+M319	Airde na sraithe...
+M320	Athraigh airde na sraitheanna roghnaithe
+M321	Auto oiriúnach
+M322	Cuir leithead/airde leis an ábhar (F7)
+M323	Athríomh
+M324	Déan na foirmlí go léir a athmheas
+M325	Léirscrios ar fad
+M326	Glan an bhileog iomlán
+M327	Eochracha
+M328	Taispeáin an treoir eochair
+M329	Maidir
+M330	Maidir le SGCALC
+M331	Comhad
+M332	Cuir in eagar
+M333	Graf
+M334	Bileog
+M335	Cabhrú
+M336	Comhad: nua, oscailte, sábháil, easpórtáil, scor
+M337	Cuir: soiléir, cóipeáil, greamaigh, gearrtha, roghnaigh gach rud
+M338	Graf: líne, barra, measctha, pie (tarraingíonn sé san FB)
+M339	Bileog: goto, leithead colún, athríomh, scrios
+M340	Cabhair: eochracha agus faoi
+M341	Clé/Deas = roghchlár Suas/Síos = mír Iontráil = roghnaigh Esc = cealaigh
+M342	Ar ceal
+M343	Tá an rogha ró-mhór nó tá cuimhne íseal.
+M344	na cille
+M345	an roghnú
+M346	Ní dhéanfaidh aon ní a ghreamú
+M347	Pasted
+M348	TÉIGH GO CILLE
+M349	Tagairt cille (A1):
+M350	Goto
+M351	Leithead COLÚN
+M352	Leithead i gcarachtar (4..30):
+M353	ROW HEIGHT
+M354	Airde i sraitheanna téacs (1..8):
+M355	Feisteas uathoibríoch: tá an leathán folamh
+M356	DATH CÚLRA
+M357	Dath TÉACS
+M358	Saigheada: roghnaigh Iontráil: cuir i bhfeidhm Esc: cealaigh
+M359	Innéacs dathanna (PC-98 pailéad 16-dath)
+M360	acht 123
+M361	Cuir isteach = cuir i bhfeidhm Esc = cealaigh
+M362	Dath
+M363	Cúlra
+M364	Téacs
+M365	RAON GRAIF
+M366	Raon (mar shampla A1:C10):
+M367	Raon graf
+M368	Úsáid raon mar A1:C10.
+M369	Ní féidir an graf a tharraingt.
+M370	líne
+M371	barra
+M372	measctha
+M373	pióg
+M374	Glan gach cill sa bhileog seo?
+M375	Leathán scriosta
+M376	Roghnaíodh gach cealla a úsáidtear
+M377	Athríomh
+M378	Cuimhne
+M379	Ní leor PSRAM don scarbhileog.
+M380	Tá an leathán folamh.
+M381	Níl aon sonraí uimhriúla sa raon roghnaithe.
+M382	Eile
+M383	Gan luachanna dearfacha le haghaidh píchairt
+M384	LÍNE
+M385	BAR
+M386	Measctha
+M387	PIE
+M388	S:/
+M389	Fillteán
+M390	SÁBHÁIL MAR
+M391	COMHAD OSCAILTE
+M392	LibreOffice / CSV
+M393	ODS FODS CSV
+M394	Ainm:
+M395	(clóscríobh ainm, nó roghnaigh thíos)
+M396	Ainm
+M397	Méid
+M398	Iontráil=sábháil Clé=suas ar dheis/Iontráil ar [DIR]=oscail Tab=drive Esc=cealaigh
+M399	Iontráil=oscail Clé=suas ar dheis/Iontráil ar [DIR]=oscail Tab=drive Esc=cealaigh
+M400	Ní leor cuimhne.
+M401	Forscríobh
+M402	Oscail
+M403	Tá an comhad ró-mhór (teorainn 8 MB).
+M404	Níl go leor cuimhne chun an comhad a léamh.
+M405	Drochshonraí ZIP/ODS.
+M406	Earráid CRC sa chomhad ODS.
+M407	Comhad gan tacaíocht nó damáiste.
+M408	Shábháil
+M409	Onnmhairithe
+M410	Athruithe gan sábháil
+M411	Sábháil an leathán reatha roimh leanúint ar aghaidh?
+M412	Bileog nua
+M413	SGTRK
+M414	AONTAITHE
+M415	Tá an t-amhrán ró-mhór
+M416	comhad folamh
+M417	ní comhad SGT é
+M418	BPM dona
+M419	luas dona
+M420	fad teidil dona
+M421	teideal teasctha
+M422	droch-charachtar sa teideal
+M423	ordú teasctha
+M424	fad ordú dona
+M425	uimhir patrún dona in ord
+M426	liosta patrún teasctha
+M427	comhaireamh patrún dona
+M428	innéacs patrún dona
+M429	patrún dúblach
+M430	sonraí patrún teasctha
+M431	sonraí patrún neamhbhailí
+M432	rianú sonraí i gcomhad
+M433	tagraíonn ordú do phatrún in easnamh
+M434	A:/
+M435	(gan teideal)
+M436	Réidh. Brúigh F1 chun cabhair a fháil.
+M437	Lean OFF
+M438	Ní dhéanfaidh aon ní le cealú
+M439	Cealaigh
+M440	Nóta OFF
+M441	Socraigh litir éifeacht ar dtús
+M442	Éifeacht glanta
+M443	Paraiméadar glanta
+M444	Nóta glanta
+M445	An ionstraim glanta
+M446	Toirt glanta
+M447	Tá liosta na n-orduithe iomlán
+M448	Ordú curtha isteach
+M449	Ní féidir an t-ordú deiridh a scriosadh
+M450	Ordú scriosta
+M451	Ag imirt amhrán
+M452	Stopadh
+M453	Amhrán nua
+M454	An bhfuil fonn ort athruithe gan sábháil a scriosadh agus amhrán nua a thosú? (Y/N)
+M455	An bhfuil fonn ort athruithe gan sábháil a scriosadh agus amhrán a oscailt? (Y/N)
+M456	An bhfuil fonn ort na hathruithe gan sábháil a scriosadh agus scor? (Y/N)
+M457	Nuashonraíodh socruithe amhráin
+M458	Tá ainm an chomhaid folamh
+M459	Sábháil cealaithe
+M460	Oscailte cealaithe
+M461	Cuir ON
+M462	Cuir OFF
+M463	Lean ON
+M464	Tá an t-eagar múchta. Brúigh F8 chun eagarthóireacht a dhéanamh.
+M465	Earráid I/O
+M466	Tá an comhad ró-mhór
+M467	comhad teasctha
+M468	PAD SINE
+M469	TRIANGLE
+M470	Chonaic LEAD
+M471	Cearnóg
+M472	PULSE 25
+M473	ORGÁN
+M474	BÁS
+M475	GLOINE
+M476	NÓS
+M477	SINE
+M478	Chonaic
+M479	AS
+M480	AR AGHAIDH
+M481	ROW
+M482	CHAN LEIBHÉAL
+M483	F1 CABHAIR F2 Amhrán
+M484	F3 INS F4 SAVE
+M485	F5 IMIR F6 PAT
+M486	F7 STOP F8 Edit
+M487	F9/F10 OCTAVE
+M488	F11 LEAN
+M489	F12 Scoir
+M490	SPÁS IMIR/STOP
+M491	CTRL-S SAVE
+M492	CTRL-O OSCAILTE
+M493	C-N NUA C-Z UNDO
+M494	C-C STOP
+M495	#IOMPAR AGUS COMHAD
+M496	LIOSTA #ORDÚ
+M497	#TAISTEAL
+M498	#EAGARTHÓIREACHT
+M499	#EFFECTS (tá an pharaiméadar heicsidheachúil)
+M500	ISTEACH ISTEACH AN LEATHANACH Clé/DEIS NÓ F1 DÚN
+M501	SOCRUITHE AMHÁIN
+M502	UP/SÍOS ROGHNAIGH AR Clé/DEIS COigeartú ISTEACH/F2 DÚN
+M503	Clóscríobh chun an teideal a chur in eagar. Scrios Backspace an carachtar deiridh.
+M504	Raon BPM 32..255. Raon luais 1..31.
+M505	Is féidir le héifeachtaí patrún luas agus BPM a athrú freisin agus iad ag imirt.
+M506	IONSTRAIMÍ
+M507	UP/SÍOS ROGHNAIGH RÉAMHRÁ SPÁS ISTEACH ÚSÁID F3 DÚN
+M508	Úsáideann na ceithre chainéal sintéis tonnchláir.
+M509	Imríonn Réamhamharc C-4 ar an rian faoin cúrsóir eagarthóireachta.
+M510	SÁBHÁIL AMACH MAR
+M511	ISTEACH SÁBHÁIL F4 NÓ CEAL CTRL-C
+M512	Eolaire:
+M513	Ainm comhaid:
+M514	Cuirtear an síneadh .SGT leis go huathoibríoch.
+M515	Is féidir comhad atá ann cheana a fhorscríobh.
+M516	Amhrán OSCAILTE
+M517	ISTEACH OSCAILTE BS Tuismitheoir CTRL-O/CTRL-C CEAL
+M518	(níl comhaid .SGT san fhillteán seo)
+M519	DEIMHNIÚ
+M520	Y = TÁ N / ISTEACH / CTRL-C = NÍL
+M521	Y = tá N = níl
+M522	C-
+M523	C#
+M524	D-
+M525	D#
+M526	E-
+M527	F-
+M528	F#
+M529	G-
+M530	G#
+M531	A-
+M532	A#
+M533	B-
+M534	A:/dir/ainm
+M535	MThd
+M536	MThd briste
+M537	ALLMHAIRÍ MIDI
+M538	MTrk
+M539	am delta briste
+M540	stádas reatha briste
+M541	imeacht meta briste
+M542	imeacht sysex briste
+M543	imeacht cainéal briste
+M544	Tá aschur SMF ró-bheag
+M545	Tá aschur SMF ró-mhór
+M546	tá an t-amhrán ró-fhada le haghaidh SMF
+M547	TRK1
+M548	%s%d
+M549	%s%d: %s%d
+M550	%s
+M551	%.40s%s
+M552	[%s] %s
+M553	Eagar
+M554	LÉACHT
+M555	%4d
+M556	%s Suim %.7g N %ld%s
+M557	Saigheada bogadh an cúrsóir cille
+M558	Leathnaigh SHIFT+ARR an rogha (do ghraif/cóip)
+M559	ENTER in eagar an chill; in eagar, tiomnaigh agus bog síos
+M560	An chéad chill eile TAB SHIFT+TAB an chill roimhe seo
+M561	DELETE Glan na cill(í) roghnaithe ESC a chur ar ceal
+M562	Bogfaidh PGUP/PGDN scáileán amháin BAILE/CRÍOCH an chéad cholún/colún deiridh
+M563	CTRL+HOME A1 CTRL+END an chill dheireanach a úsáideadh
+M564	F1 cabhrú F2 in eagar F3 cóip F4 greamaigh F5 goto F6 dath
+M565	F7 auto-oiriúnach F8 cúlra F9 athríomh F10 graf F11 shábháil roghchlár F12
+M566	SHIFT+F1 faoi airde ró SHIFT+F2 Leithead colúin SHIFT+F3
+M567	SHIFT+F4 roghnaigh gach raon graf SHIFT+F10 SHIFT+F11 ach amháin mar
+M568	CTRL+F1 nua CTRL+F2 oscailte CTRL+F3 sábháil CTRL+F4 sábháil mar
+M569	Easpórtáil CTRL+F5 CSV Easpórtáil CTRL+F6 ODS ALT+F12 scor
+M570	Bun 2 líne: eochracha feidhm; Is maith le [SHIFT]/[CTRL]/[ALT] an comhdaitheoir
+M571	Sábháil CTRL+S CTRL+O oscail CTRL+N nua CTRL+C/V/X cóip/greamaigh/gearr
+M572	Fuair ​​CTRL+G / oscail an roghchlár (1 Chomhad, 2 Edit, ...)
+M573	Feidhmeanna ionsuite: SUM AVERAGE MIN MAX COUNT COUNTA
+M574	TÁIRGE ABS SQRT INT ROUND MOD POWER MÁSÁID AGUS NÓ NÁ
+M575	IFERROR LE CÉILE AR DHEIREADH PI COMHDHÁITEAMH TRIM LÁR UACHTARACH
+M576	Tagraí cille: A1, $A$1, A1:B10.  Tosaíonn foirmlí le '='.
+M577	Comhaid: .ods (LibreOffice), .fods (XML cothrom), .csv
+M578	Coinníonn ODS/FODS foirmlí, leithead, airde agus dathanna.
+M579	Coinníonn CSV luachanna agus foirmlí (gan dathanna/airde).
+M580	Graf: roghnaigh raon, brúigh F10, agus roghnaigh Line/Bar/Mixed/Pie.
+M581	SGCALC do sgnano
+M582	Leagan
+M583	Scarbhileog stíl Lotus 1-2-3 mar chlár SGX.
+M584	SGX ABI %u.%u
+M585	Modh scáileáin 3: téacs + CLUT8 FB (íslíonn sé díchumasaithe)
+M586	Bileog: %d rónna x %d colúin
+M587	Formáidí: .ods / .fods (LibreOffice), .csv
+M588	Tá an eangach tarraingthe ar an eitleán téacs.
+M589	Úsáideann cairteacha agus an cúlra 640x480 an FB.
+M590	%d %s
+M591	Ní féidir an chill a stóráil (%d).
+M592	Cóipeáladh %d x %d cealla
+M593	Glanta %s
+M594	Ní tagairt chill é ‘%s’.
+M595	%d
+M596	Leithead an cholúin = %d
+M597	Airde na sraithe = %d
+M598	Feistiú uathoibríoch: %d colún(s), %d ró(s)
+M599	%2d
+M600	Ní féidir an dath a chur i bhfeidhm (%d).
+M601	dath %s = %d
+M602	Ní raon bailí.\nÚsáid raon mar A1:C10.
+M603	Raon graf %s
+M604	Graf: %s
+M605	SGCALC: ní féidir mód scáileáin 3 a shocrú: %s
+M606	%.2g
+M607	%.6g
+M608	%s %.0f%%
+M609	GRAF %s%s
+M610	%s%s
+M611	%s/%s
+M612	%.*s
+M613	%*s/
+M614	Ní féidir %s a léamh\n%s
+M615	Fillteán: %s
+M616	[DIR] %s
+M617	%s
+M618	%lu.%luM
+M619	%luK
+M620	%luB
+M621	LEABHAR1%s
+M622	%c :/
+M623	Síneadh nach dtacaítear leis.\nÚsáid .csv, .ods nó .fods.
+M624	Tá %s ann cheana.\nForscríobh é?
+M625	Seans nach bhfuil %s inscríofa.\nBain triail as mar sin féin?
+M626	Cineál comhaid anaithnid le haghaidh %s
+M627	Cineál comhaid nach dtacaítear leis.\nÚsáid .csv, .ods nó .fods.
+M628	Ní féidir %s a oscailt\n%s
+M629	Is fillteán é %s.
+M630	Ní féidir %s a iompórtáil\n%s
+M631	Luchtaithe %s
+M632	Ní féidir an comhad %s a thógáil.
+M633	Ní féidir %s a scríobh\n%s
+M634	%s %s
+M635	leagan gan tacaíocht %u
+M636	%d:%d:%d:%d:%d:%d
+M637	Octave %d
+M638	Nóta %s
+M639	Ionstraim %d
+M640	Imleabhar %s
+M641	Éifeacht %c
+M642	Paraiméadar %s
+M643	Patrún %s
+M644	Patrún imeartha %s
+M645	SAVE EARRÁID: %s
+M646	Sábháilte %s
+M647	EARRÁID LUACH: %s
+M648	BPM %d
+M649	Luas %d
+M650	Réamhamharc %s
+M651	Ionstraim %s %s
+M652	Forscríobh %s? (Y/N)
+M653	| BPM %s SPD %s
+M654	Lorgaire SGN 1.0 |
+M655	COMHAD
+M656	PAT %s
+M657	ORD %d/%d
+M658	INS %s
+M659	OCT %d
+M660	Eagar %s
+M661	AR AGHAIDH
+M662	FOL %s
+M663	RIAN %d
+M664	%c%s
+M665	%s %s %s %s
+M666	%s
+M667	%d %s %s
+M668	ORDÚ %d/%d
+M669	PAT %s
+M670	INS %s %s
+M671	OCT %d Cuir %s in eagar
+M672	LEAN %s
+M673	ORD imeartha %d/%d PAT %s ROW %s/%d SPD %s BPM %d F7 STOP
+M674	READY Edit %s OCT %d F1 CABHAIR F5 PLAY CTRL-S SAVE
+M675	%s
+M676	F5 Seinn an t-amhrán ón ord reatha
+M677	F6 Seinn an patrún reatha
+M678	F7/Ctrl-C Stop athsheinm
+M679	Spás Seinn / stop
+M680	F4 Sábháil mar
+M681	Sábháil Ctrl-S (iarr ainm más nua)
+M682	Ctrl-O Oscail amhrán
+M683	Ctrl-N amhrán nua
+M684	F12 Scoir (dearbhú má athraíodh é)
+M685	[ ] An iontráil roimhe seo / an chéad ordú eile
+M686	{ } Cuir isteach / scrios iontráil ordaithe
+M687	- + Athraigh an patrún san iontráil
+M688	F11 Lean athsheinm (múch é nuair a bhogtar de láimh)
+M689	Cabhair F1; Leathanach athruithe Clé/Deas
+M690	F8 Scoránaigh mód eagarthóireachta
+M691	Saigheada Bog an cúrsóir
+M692	PgUp/PgDn Léim 16 sraitheanna
+M693	Baile/Críoch An chéad / an tsraith dheireanach
+M694	F9/F10 Octave síos / suas
+M695	Z S X D C V G B H N J M sraith íochtair an phianó
+M696	Q 2 W 3 E R 5 T 6 Y 7 U sraith uachtarach an phianó
+M697	1 Nóta as
+M698	Glanann 0 / Del 0 nóta/inst/fx; Glanann Del aon
+M699	Ctrl-Z Cealaigh an patrún/eagar ordaithe deiridh
+M700	Sleamhnán toirte Axy: suas x, síos y
+M701	Cxx Nóta gearrtha tar éis sceartáin xx
+M702	Dxx Socraigh toirt (00.. 7F)
+M703	Luas Fxx más xx < 20, nó BPM
+M704	Hxy Arpeggio x, y leathtóin
+M705	Pxx Pic sleamhnán suas
+M706	Qxx Pic sleamhnán síos
+M707	Socruithe amhrán F2, liosta uirlisí F3
+M708	CABHAIR %d/2
+M709	Teideal
+M710	[%s_]
+M711	BPM : %d (clé/deas -1/+1, -/+ -5/+5)
+M712	Luas : %d ticeanna/as a chéile
+M713	Sraitheanna : %d (seasta)
+M714	Ordú: %d iontrálacha
+M715	Patrúin in úsáid : %d
+M716	# AINM TONN A D S R VOL
+M717	% c %d %-9s %-9s % 3d % 3d % 3d % 3d % 4d
+M718	Uirlis reatha: %s %s
+M719	%s
+M720	DIR %s
+M721	%c %s%s
+M722	Comhaid: %d
+M723	%02d
+M724	%03d
+M725	%02X
+M726	SGNO Tracker: SGX ABI neamh-chomhoiriúnach
+M727	S: seiceáil: fan -- comhad á léamh nó á scríobh
+M728	S: seiceáil: tá an tiomáint gnóthach nó nach bhfuil réidh
+M729	faic don mhír seo (ContextMenu.cfg)
+M730	droch-ordú i ContextMenu.cfg
+M731	gníomh anaithnid in ContextMenu.cfg
+M732	roghchlár
+M733	roghnaigh comhad nó fillteán
+M734	ní féidir an tiomántán seo a scríobh
+M735	tá post cartlainne ar siúl cheana féin
+M736	gan PSRAM don tasc cartlainne
+M737	níorbh fhéidir an tasc cartlainne a thosú
+M738	an iomarca míreanna (32 ar a mhéad)
+M739	rud ar bith a chomhbhrú
+M740	gan ainm (nó tá / nó \\) ag an ainm
+M741	32 mír ar a mhéad (marcáil níos lú, nó cuir i bhfillteán iad)
+M742	chartlann
+M743	comhbhrú
+M744	rindreáil
+N001	5 Macra
+N002	6 Cabhrú
+N003	Rith reatha
+N004	Rith an macra ag an chúrsóir (#! cill cheanntásc agus na cealla faoina bhun)
+N005	Rith roghnú
+N006	Rith na cealla roghnaithe mar mhacra amháin (is é an ceanntásc #! an chill ar bharr na láimhe clé)
+N007	Rith go léir
+N008	Rith gach macra ar an mbileog, barr-chlé go bun ar dheis
+N009	Earráid dheireanach
+N010	Taispeáin an macra-earráid dheireanach
+N011	Macra
+N012	Macra: rith #!ruby / #!python / #!cealla bunúsacha
+N013	Cuir an chill in eagar (F2)
+N014	Cuir leithead/airde leis an ábhar
+N015	An earráid dheireanach macra
+N016	Gan earráid macra.
+N017	IME ar aghaidh
+N018	IME as
+N019	Macra: %s %s...
+N020	%s: ní féidir leis an bhfirmware seo macraí a rith (SGX ABI 5.10 nó níos déanaí)
+N021	Earráid mhacra: %s
+N022	Macra: %s déanta
+N023	tá macra ar siúl cheana féin
+N024	níl an teanga seo ar fáil
+N025	ní leor cuimhne
+N026	stop an macra le earráid
+N027	Earráid mhacra %s: %s
+N028	Macra: ní leor cuimhne
+N029	Macra: níl an cúrsóir ar mhacra (cill bhunaidh #!ruby / #!python / #!nó na cealla faoina bhun)
+N030	Macra: níl aon mhacra sa bhileog
+N031	Rith gach macraí
+N032	Macraí: %d. Rith iad go léir, ó chlé go bun ar dheis? Ní féidir athruithe a chealú.
+N033	Macra: %d of %d done
+N034	Glanadh an chill
+N035	Glanadh an rogha
+N036	Dath an chúlra = %d
+N037	Dath an téacs = %d
+N038	Graf: líne
+N039	Graf: barra
+N040	Graf: measctha
+N041	Graf: pióg
+N042	Onnmhairithe %s

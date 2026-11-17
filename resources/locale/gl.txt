@@ -1,0 +1,1162 @@
+# sgnano filer strings: Galego (2026-11-17). ui <TAB> Japanese <TAB> translation / msg.* <TAB> English <TAB> translation
+# status: unreviewed (machine translation, not checked by a native speaker; 2026-11-17). 未検証: ネイティブの確認をしていない仮の訳
+@lang gl
+@name Galego
+ui	一覧（ファイルとフォルダを 2 列 x 19 行に並べる）	Lista (arquivos e cartafoles en 2 columnas x 19 filas)
+ui	カーソルを動かす（左右は隣の列へ）	Move o cursor (esquerda/dereita: a outra columna)
+ui	前のページ / 次のページ	Páxina anterior / páxina seguinte
+ui	全部に印 / 印を反転（PC-98 FD と同じ）	Marcar todo / inverter as marcas (como en PC-98 FD)
+ui	先頭 / 最後	Primeiro/último
+ui	印を付けて次へ / 印だけ付ける	Marcar e seguir adiante / marcar só
+ui	Shift+矢印	Maiús+Frechas
+ui	範囲を選ぶ（Space でその範囲に印）	Seleccione un intervalo (o espazo marca o intervalo)
+ui	フォルダに入る・ファイルを開く（F2/X は実行）	Introduce un cartafol/abre un ficheiro (execución F2/X)
+ui	上のフォルダへ	Ata o cartafol principal
+ui	ドライブを選ぶ（USB・フロッピー・CD・S: 内蔵）	Escolla unha unidade (USB, disquete, CD, S: integrado)
+ui	コピー（Shift+C / Shift+F3 は行き先を木から）	Copiar (Maiús+C / Maiús+F3 escolle o destino da árbore)
+ui	移動	Mover
+ui	削除（Shift+D / Shift+F4 はフォルダ削除）	Eliminar (Maiús+D / Maiús+F4 elimina un cartafol)
+ui	名前を変える	Cambiar o nome
+ui	属性を変える	Cambia os atributos
+ui	エディタで開く	Abre no editor
+ui	テキスト表示（Shift+V / Ctrl+Alt+F7 は 16 進）	Ver como texto (Maiús+V/Ctrl+Alt+F7 hexadecimal)
+ui	ドライブの情報	Información da condución
+ui	フォルダを作る / 新しいファイル	Novo cartafol / novo ficheiro
+ui	シェル sgsh / 媒体を取り出す	Shell sgsh / expulsar o medio
+ui	読み直す	Recarga
+ui	見えている画面を PNG で保存	Garda a pantalla como PNG
+ui	窓を閉じる・選択を解く（サブフォルダでは上位へ）	Pecha a xanela / borra a selección (nun subcartafol: sube)
+ui	ファイルの操作（FD と同じ。印・範囲・カーソルの順に選ぶ）	Operacións de ficheiros (como en FD: marcas, despois o intervalo e despois o cursor)
+ui	コピー: 行き先はドライブとフォルダの木から。ESC で止める	Copiar: escolla o destino da unidade e da árbore de cartafoles. ESC para
+ui	削除: y で確かめる。印・範囲をまとめて。フォルダは中身ごと	Eliminar: confirmar con y. Marcas e intervalos á vez. Carpetas co seu contido
+ui	フォルダを削除（中身ごと）	Eliminar un cartafol (co seu contido)
+ui	名前を変える（今の名前を直して Enter）	Cambiar o nome (editar o nome, Intro)
+ui	属性: R 読み出し専用・H 隠し・S システム・A アーカイブ	Atributos: R só lectura, H oculto, S sistema, A arquivo
+ui	フォルダを作る	Novo cartafol
+ui	新しいファイル（空）を作る	Ficheiro novo (baleiro).
+ui	テキストで表示（Shift+V / Ctrl+Alt+F7 は 16 進）	Ver como texto (Maiús+V/Ctrl+Alt+F7 hexadecimal)
+ui	シェル sgsh（exit / Ctrl-D でファイラーへ）	Shell sgsh (saír / Ctrl-D de volta ao ficheiro)
+ui	選んでいるドライブの素性（INQUIRY・IDENTIFY）	Identidade da unidade (CONSULTA, IDENTIFICACIÓN)
+ui	FDD・LS-120・CD の媒体を取り出す	Expulsa o medio FDD/LS-120/CD
+ui	一覧を読み直す（CD は TOC から）	Volver cargar a lista (CD: do TOC)
+ui	ZMODEM で PC から受け取る（zm.sh put）	Recibir dende o PC por ZMODEM (zm.sh put)
+ui	ZMODEM で PC へ送る（zm.sh get）	Enviar ao PC por ZMODEM (zm.sh get)
+ui	.rb をコンパイルして .mrb を書き出す	Compila .rb e escribe .mrb
+ui	Ruby の REPL（1 行ずつ、Ctrl-D / ESC で終わり）	Ruby REPL (unha liña á vez, Ctrl-D / ESC para rematar)
+ui	MicroPython の REPL	MicroPython REPL
+ui	4MB ずつ分割 / .001 から結合	Dividir en partes de 4 MB/unir desde .001
+ui	分割 / 結合（Ctrl+F11 / F12 と同じ）	Dividir/unir (igual que Ctrl+F11/F12)
+ui	画面（Alt+F。FD の F キーとぶつからない）	Pantalla (Alt+F, non choca coas teclas FD F)
+ui	FB（絵）/ テキスト面を出す・隠す	Mostrar/ocultar o FB (foto)/o texto
+ui	FB の表示ページ（0〜3）	Páxina de visualización de FB (0-3)
+ui	FB を 0 で消す / 明るさを 1/2 に（RGB555）	Borrar o FB a 0 / reducir o seu brillo á metade (RGB555)
+ui	USB のエンドポイントと LAN の状態	Puntos finais USB e estado da LAN
+ui	FB の表示ページを消す / 明るさを 1/2 に	Borrar a páxina de visualización de FB / reducir o seu brillo á metade
+ui	テキストの属性の見本	Mostras de atributos de texto
+ui	モニタの EDID（起動時に読んだもの）	Monitor EDID (léase no arranque)
+ui	フォント ROM のライセンスとクレジット	Licenzas e créditos de fonte ROM
+ui	設定（表示の言語・IME・キーボードロケール）	Configuración (idioma de visualización, IME e configuración rexional do teclado)
+ui	時計（NTP で合わせた日本時間。s ですぐ合わせる）	Reloxo (hora de Xapón definida por NTP; s sincroniza agora)
+ui	表計算（SGCALC）を開く	Abrir folla de cálculo (SGCALC)
+ui	S: ドライブのエラー検査（誤りがあれば直すか聞く）	Comprobe S: para detectar erros (pregunta antes de reparar)
+ui	トラッカー（TRACKER）を開く	Abre TRACKER
+ui	再起動（確かめの窓が出る）	Reiniciar (pregunta primeiro)
+ui	ADC のステレオ入力（GP40 / 41）を鳴らす	Reproducir a entrada estéreo ADC (GP40/41)
+ui	VGM/VGZ を 96kHz/24bit WAV に書き出す	Exportar VGM/VGZ a un WAV de 96 kHz/24 bits
+ui	このヘルプ	Esta axuda
+ui	ページを替える	Cambia a páxina
+ui	閉じる	Pechar
+ui	テキスト・16 進のビュアー（less 風）	Visor de texto/hexadecimal (como menos)
+ui	1 行	Unha liña
+ui	1 ページ	Unha páxina
+ui	半ページ	Media páxina
+ui	探す（前へ・後ろへ）/ 次・前	Busca (adiante / atrás) / seguinte / anterior
+ui	一覧へ戻る（F1 はビュアーのヘルプ）	Volver á lista (F1: axuda do espectador)
+ui	画像のビュアー	Visor de imaxes
+ui	一覧へ戻る（F2 F3 F6 F7 Shift+F2 F3 は効く）	Volver á lista (F2 F3 F6 F7 Maiús+F2 F3 funcionan)
+ui	エディタ（E / Shift+F8）	Editor (E/Maiús+F8)
+ui	保存する（UTF-8。改行と BOM は元のまま）	Gardar (UTF-8; remates de liña e BOM mantense)
+ui	閉じる（変わっていれば Y / N / ESC）	Pechar (se se modifica: S/N/ESC)
+ui	挿入 / 上書き	Inserir/sobrescribir
+ui	IME（日本語・英語・ハングル）の入・切	IME activado/desactivado (xaponés/inglés/coreano)
+ui	IME の言語（日本語 / English / 한국어）	Idioma IME (xaponés/inglés/coreano)
+ui	ひらがな / カタカナで確定	Comprometerse como hiragana/katakana
+ui	エディタのヘルプ	Axuda do editor
+ui	シェル	Concha
+ui	シェル（csh のサブセット。exit / Ctrl-D で戻る、help で一覧）	Shell (un subconxunto csh. saír / Ctrl-D para volver, axuda lista os comandos)
+ui	一覧と移動	Lista e mudanza
+ui	ファイルの操作	Operacións de arquivo
+ui	画面と機器	Pantalla e dispositivos
+ui	ビュアーとエディタ	Os espectadores e o editor
+ui	ヘルプ  %u / %u  %s	Axuda %u / %u %s
+ui	Left Right: ページを替える    F1 / ESC: 閉じる	Esquerda Dereita: cambiar a páxina F1 / ESC: pechar
+ui	sgnano を再起動しますか？	Reiniciar Sgnano?
+ui	[ 再起動 ]	[Reiniciar]
+ui	[ キャンセル ]	[ Cancelar ]
+ui	S: ドライブのエラー検査	Comprobe a unidade S: para detectar erros
+ui	ファイル %lu  フォルダ %lu	Ficheiros %lu cartafoles %lu
+ui	大きさが鎖と合わない	O tamaño non coincide coa cadea
+ui	どこからも使われていないクラスタ	Clústeres usados ​​por nada
+ui	重なったクラスタ	Clústeres entrecruzados
+ui	壊れた項目	Entradas rotas
+ui	FAT の 2 つの写しの食い違い	As dúas copias FAT difiren
+ui	エラーはありません。	Sen erros.
+ui	エラーが見つかりました。修復しますか？	Atopáronse erros. Reparalos?
+ui	修復しました（上は直した数）。	Reparouse (arranxáronse os números anteriores).
+ui	検査・修復できませんでした（S: が使用中）。	Non se puido comprobar nin reparar (S: está ocupado).
+ui	[ 修復する ]	[Reparación]
+ui	[ やめる ]	[ Cancelar ]
+ui	何かキーで閉じる	Calquera chave pecha
+ui	設定	Configuración
+ui	表示の言語	Idioma de visualización
+ui	キーボードロケール	Localización do teclado
+ui	Up / Down  Enter 決める  ESC やめる	Arriba / Abaixo Intro, escolla ESC cancelar
+ui	表示の言語 (Language)	Idioma de visualización
+ui	Up / Down  Enter 決める  ESC 戻る	Arriba / Abaixo Intro: establecer ESC: atrás
+ui	%c: をどの文字に固定しますか（A〜Z、S を除く。ESC でやめる）	Fix %c: como que letra? (A-Z excepto S. ESC cancela)
+ui	ドライブ  文字 / Enter 選ぶ  F2 文字を固定・解除  F3 文字を決めて固定  L / ESC やめる	Letra da unidade/Introduza, seleccione F2 corrixir/desfixar a letra F3 corrixir como... L/ESC cancelar
+ui	  区画 %u	partición %u
+ui	%c:* （固定・つながっていません）%04X:%04X%s  %s	%c:* (fixo, non conectado) %04X:%04X%s %s
+ui	お知らせ	Aviso
+ui	ドライブ %c:  %s	Condución %c: %s
+ui	ドライブ  (なし)	Conducir (ningunha)
+ui	音楽 CD  %u トラック	CD de audio %u pistas
+ui	フォルダ %u  ファイル %u  合計 %s	Cartafoles %u ficheiros %u total %s
+ui	読んでいます...	Lendo...
+ui	* 印 %u 個  %s	* marcado %u %s
+ui	%lu バイト	%lu bytes
+ui	属性 %s   更新日時 %s   作成日時 %s   %s	Attr %s modificado %s creado %s %s
+ui	日	Sol
+ui	月	lun
+ui	火	mar
+ui	水	Mér
+ui	木	Xov
+ui	金	ven
+ui	土	Sáb
+ui	時計は合わせていません（LAN の NTP）	O reloxo non está configurado (NTP a través da LAN)
+ui	FB  表示 %u  書込 %u	Mostrar FB %u escribir %u
+ui	1 ヘルプ	1 Axuda
+ui	2 実行	2 Corre
+ui	3 ｺﾋﾟｰ	3 Copia
+ui	4 削除	4 Del
+ui	5 名前	5 Rename
+ui	7 FB消去	7 FBclr
+ui	8 FB減光	8 FBdim
+ui	9 ﾄﾞﾗｲﾌﾞ	9 Drive
+ui	10 EP表	10 EPs
+ui	11 時計	11 Clock
+ui	12 表計	12 CALC
+ui	1 属性	1 Atr
+ui	2 情報	2 Info
+ui	3 移動	3 Mover
+ui	5 作成	5 Mkdir
+ui	6 シェル	6 Concha
+ui	8 編集	8 Editar
+ui	9 表示	9 Vista
+ui	10S:検査	10 S:chk
+ui	11 ﾄﾗｯｸ	11 PISTA
+ui	12再起動	12Reboot
+ui	1 新規	1 Novo
+ui	2 ﾌｫﾙﾀﾞ	2 Folder
+ui	3 名前	3 Rename
+ui	4 属性	4 Attrib
+ui	6 ｺﾋﾟｰ	6 Copia
+ui	7 移動	7 Mover
+ui	8 削除	8 Delete
+ui	9 編集	9 Editar
+ui	10ｺﾝﾊﾟｲﾙ	10 mrbc
+ui	11 分割	11 Split
+ui	12 結合	12 Únete
+ui	1 属性例	1 Atr
+ui	2 FB切替	2 FB
+ui	3 文字面	3 Texto
+ui	5 画面写	5 ScrSht
+ui	6 表示頁	6 Páx
+ui	9 ZM受信	9 ZMrecv
+ui	10ZM送信	10ZMsend
+ui	2 FB消去	2 FBClr
+ui	3 FB減光	3 FBDim
+ui	5 再読込	5 Reload
+ui	7 16進	7 Hex
+ui	9 ﾗｲｾﾝｽ	9 Lic
+ui	8 設定	11 Setup
+ui	時刻を合わせる（日本時間。NTP で合わせられませんでした）	Axustar o reloxo (hora de Xapón. NTP non puido configuralo)
+ui	起動のパラメタ	Executar con parámetros
+ui	新しいフォルダ	Novo cartafol
+ui	新しいファイル	Novo ficheiro
+ui	時刻:	Tempo:
+ui	実行:	Executar:
+ui	名前:	Nome:
+ui	年-月-日 時:分  Enter 合わせる  ESC そのまま	AAAA-MM-DD hh:mm Introduza a configuración ESC keep
+ui	Enter 走らせる  ←→ 動かす  BS / Del 消す  ESC やめる	Introducir executar <-> mover BS / Borrar eliminar ESC cancelar
+ui	Enter 変える  ←→ 動かす  BS / Del 消す  ESC やめる	Introduza renomear <-> mover BS / Borrar eliminar ESC cancelar
+ui	Enter 作る  ←→ 動かす  BS / Del 消す  ESC やめる	Introduce crear <-> mover BS / Borrar eliminar ESC cancelar
+ui	消す	Eliminar
+ui	個の項目	elementos
+ui	フォルダは中身ごと消します。よろしいですか？	Elimínanse os cartafoles co seu contido. Estás seguro?
+ui	このファイルを消しますか？	Queres eliminar este ficheiro?
+ui	（元に戻せません。フォルダの中のファイルも消えます）	(Isto non se pode desfacer. Os ficheiros dos cartafoles tamén se eliminan)
+ui	[ はい (Y) ]	[Si (Y)]
+ui	[ いいえ (N) ]	[Non (N)]
+ui	バイナリビュアー: ファイルを選んでください	visor hexadecimal: escolla un ficheiro
+ui	テキストビュアー: ファイルを選んでください	visor de texto: escolla un ficheiro
+ui	移動先	Mover a
+ui	コピー先	Copiar a
+ui	バッファがいっぱいです (buffer full)	O buffer está cheo
+ui	読み出し専用のドライブです (read-only)	A unidade é de só lectura
+ui	保存できません (no writer)	Non se pode gardar (sen escritor)
+ui	保存を始められません (the drive is busy?)	Non se puido comezar a gardar (a unidade está ocupada?)
+ui	保存しています... (saving)	Gardando...
+ui	2 保存	2 Gardar
+ui	5 色分け	5 Cor
+ui	6 ﾞ	6 Hira
+ui	7 ｶﾀｶﾅ	7 Kata
+ui	8 予測	8 Pred
+ui	10 終了	10 Saír
+ui	1 先頭	1 Arriba
+ui	2 最後	2 Fin
+ui	3 挿/上	3 InsOvr
+ui	4 辞書	4 Dict
+ui	6 半	6 HHira
+ui	7 半ｶﾅ	7 HKata
+ui	 %s  %s  行 %lu/%lu 桁 %u  %s  %s %s%s%s	%s %s Ln %lu/%lu Col %u %s %s %s%s%s
+ui	*変更	*mod
+ui	上書	OVR
+ui	挿入	INS
+ui	  読出専用	R/O
+ui	 エディタ (sgnano edit)                      F1 / ESC で閉じる	Editor (sgnano edit) F1/ESC péchase
+ui	 矢印 / Home End / PgUp PgDn   カーソルを動かす	Frechas / Inicio Fin / PgAp PgDn moven o cursor
+ui	 Ctrl-T / Ctrl-B               ファイルの先頭 / 最後	Ctrl-T / Ctrl-B arriba / final do ficheiro
+ui	 BS / Del                      前の字 / カーソルの字を消す	BS / Borrar antes / no cursor
+ui	 Enter                         改行（前の行の字下げを引き継ぐ）	Introduce unha nova liña (mantén a sangría)
+ui	 Tab / Ins                     タブ / 挿入と上書きの切り替え	Tab / Ins tab / inserir ou sobrescribir
+ui	 F5                            色分け（拡張子から。C/C++・mruby・MicroPython・SG BASIC・なし）	F5 Coloring (da extensión; C/C++, mruby, MicroPython, SG BASIC, ningún)
+ui	 F2  (Ctrl-S)                  保存（UTF-8、改行は元の形）	F2 (Ctrl-S) gardar (UTF-8, os extremos das liñas mantéñense)
+ui	 F10 / ESC                     閉じる（変更があれば聞く）	F10 / ESC pechar (pregunta se cambiou)
+ui	 IME:  Ctrl-Space / F12        オン・オフ（あ / A）	IME: Ctrl-Espazo/F12 activado/desactivado (あ/A)
+ui	       F9                      IME の言語（このエディタの間だけ。閉じると戻る）	Idioma IME F9 (só neste editor; restaurado ao pechar)
+ui	       F8                      日本語の予測変換 オン・オフ	F8 Conversión preditiva xaponesa activada/desactivada
+ui	       日本語                  ローマ字 -> ひらがな（F6）・カタカナ（F7）	Xaponés romaji -> hiragana (F6) / katakana (F7)
+ui	                               半角ひらがな（Shift+F6）・半角カタカナ（Shift+F7）	Hiragana de medio ancho (Maiús+F6)/katakana de medio ancho (Maiús+F7)
+ui	                               2 字以上で予測、Space で連文節変換	Predicir con 2 ou máis caracteres, converter a cláusula continua con espazo
+ui	       English                 2 字以上で予測補完	Inglés Finalización preditiva con 2 ou máis caracteres
+ui	       한국어                  2 ボル式ハングル	한국어 2 Hangul estilo Bol
+ui	       Space / Enter           変換 / 確定	Espazo/Intro Convertir/Confirmar
+ui	       ← →                    文節を選ぶ	← → Seleccione unha frase
+ui	       Shift+← →               文節の右端を 1 字 縮/拡（候補を出し直す）	Maiús+← → Reducir/aumentar o extremo dereito da cláusula nun carácter (novos candidatos)
+ui	       ↑ ↓ / Tab               候補の窓で前 / 次の候補（窓は変換の下、画面の下では上）	↑ ↓ / Tab Candidato anterior / seguinte na ventá emerxente (debaixo do texto, arriba preto da parte inferior)
+ui	       →→→ で Enter            すべての候補（2 列 x 8 個、← → で列とページ、Enter で決める）	Entra en →→→ Todos os candidatos (2 x 8, ← → columna e páxina, Intro elixe)
+ui	       Enter                   次の文節へ（最後の文節で全体を確定）	Introduza a seguinte cláusula (confirma a totalidade na última cláusula)
+ui	       Ctrl-U                  いまの語をユーザー辞書へ	Ctrl-U Engade a palabra actual ao dicionario do usuario
+ui	 Shift+F1 / F2 / F3 / F4       先頭 / 最後 / 挿入と上書き / ユーザー辞書へ	Maiús+F1 / F2 / F3 / F4 Arriba / final / inserir-sobrescribir / ao dicionario do usuario
+ui	       BS / ESC                1 字戻す / 取り消し	BS / ESC Volver un carácter atrás / Cancelar
+ui	       , . - [ ] /             、 。 ー 「 」 ・	, . - [ ] / 、 。 ー 「 」 ・
+ui	変更あり  Y: 保存して閉じる  N: 保存せず閉じる  ESC: 戻る	Modificado Y: gardar e pechar N: pechar sen gardar ESC: atrás
+ui	[予測] Tab/↑↓: 候補  Space: 変換  Esc: 取消	[Predición] Tab/↑↓: candidato Espazo: converter Esc: cancelar
+ui	[候補] ↑↓: 選ぶ  ←→: 列・ページ  Enter: 決める	[Candidatos] ↑↓: seleccionar ←→: columna/páxina Entrar: escoller
+ui	[変換] ↑↓候補 ←→文節 Shift+←→区切り Enter次へ	[Converter] ↑↓cand ←→cláusula Maiús+←→limitado Intro seguinte
+ui	[한국어] Tab/↑↓: 候補  Enter/Space: 確定	[한국어] Tab/↑↓: candidato Intro/Espazo: confirmar
+ui	[English] Tab/↑↓: 候補  Enter: 確定	[Inglés] Tab/↑↓: candidato Introduza: confirmar
+ui	2ボル式ハングル入力  Ctrl-Space: 英数	Entrada Hangul de 2 conxuntos Ctrl-Espazo: alfanumérico
+ui	予測補完  Ctrl-Space: 直接入力	Finalización preditiva Ctrl-Espazo: entrada directa
+ui	辞書なし: ひらがな/カタカナ入力のみ  F6/F7	Sen dicionario: só hiragana/katakana F6/F7
+ui	Space: 変換  F7: カタカナ  Ctrl-Space: 英数	Espazo: converter F7: katakana Ctrl-Espazo: alfanumérico
+ui	Space: 変換  F6: ひらがな  Ctrl-Space: 英数	Espazo: converter F6: hiragana Ctrl-Espazo: alfanumérico
+ui	半角  F6: ひらがな  F7: カタカナ  Shift+F6/F7: 半角	Medio ancho F6: hiragana F7: katakana Maiús+F6/F7: metade
+ui	IME オフ	IME desactivado
+ui	 予測	prever
+ui	日本語の予測変換: オン	Tradución preditiva xaponesa: On
+ui	日本語の予測変換: オフ	Tradución preditiva para xaponés: Off
+ui	日本語IMEで使います	Use con IME xaponés
+ui	ユーザー辞書に追加できません	Non se pode engadir ao dicionario do usuario
+ui	色分け: %s	Coloración: %s
+ui	読み込んでいます... (loading)	Cargando...
+ui	読み込めませんでした (could not read)	Non se puido ler o ficheiro
+ui	%lu 行%s%s	%lu liñas%s%s
+ui	  Shift_JIS を UTF-8 で開きました（保存は UTF-8）	abriu Shift_JIS como UTF-8 (gardado como UTF-8)
+ui	  読み出し専用	só lectura
+ui	保存しました (saved)	Gardado
+ui	保存できませんでした (write failed)	Non se puido gardar (fallou a escritura)
+ui	候補	Candidatos
+ui	7 書込頁	7 Páx
+ui	9 ﾃｷｽﾄ	9 Texto
+ui	9 ﾊﾞｲﾅﾘ	9 Hex
+ui	読み込み中 %lu%%  	Cargando %lu%%
+ui	（先頭だけ）  	(só o comezo)
+ui	16 進  q ESC: 戻る  F1: ヘルプ	Hex q ESC: atrás F1: axuda
+ui	テキスト  q ESC: 戻る  F1: ヘルプ	Texto q ESC: atrás F1: axuda
+ui	ビュアーのキー（less 風。テキストと 16 進で共通）	Teclas do visor (como menos; o mesmo para texto e hexadecimal)
+ui	1 行進む	Unha liña máis abaixo
+ui	1 行戻る	Unha fila
+ui	1 ページ進む	Unha páxina máis abaixo
+ui	1 ページ戻る	Unha páxina arriba
+ui	半ページ進む / 戻る	Media páxina cara abaixo/arriba
+ui	/文字列  ?文字列	/texto ?texto
+ui	下へ探す / 上へ探す（大文字小文字は区別しない）	Busca cara abaixo/arriba (ignora maiúsculas e minúsculas)
+ui	次 / 前を探す	Seguinte/anterior partido
+ui	16 進で表示する（いま見ている所のまま）	Mostrar como hexadecimal (no mesmo lugar)
+ui	テキストで表示する（いま見ている所のまま）	Mostrar como texto (no mesmo lugar)
+ui	色分けを替える（C/C++・mruby・MicroPython・SG BASIC・なし）	Cambiar a cor (C/C++, mruby, MicroPython, SG BASIC, ningún)
+ui	FB / テキスト面を出す・隠す	Mostrar/ocultar o FB/o texto
+ui	FB の表示ページ / 書き込みページ	Páxina de visualización de FB / páxina de escritura
+ui	ファイラーへ戻る	Volver ao ficheiro
+ui	このヘルプを閉じる	Pecha esta axuda
+ui	コピー	Copiar
+ui	 %s: フォルダを読んでいます... %u 個	%s: lendo os cartafoles... %u
+ui	 %s: 行き先の空きを数えています...	%s: contando o espazo libre no destino...
+ui	 %s: 行き先の空きが足りません	%s: non hai espazo libre suficiente no destino
+ui	 移動: 元のフォルダを消しています	Mover: eliminando os cartafoles de orixe
+ui	終了しました	Feito
+ui	止まりました	Detido
+ui	 %s中%s	%s en curso%s
+ui	（止めています）	(parando)
+ui	 元: %s	Dende: %s
+ui	 先: %s	Para: %s
+ui	 ファイル %u / %u 個  フォルダ %u 個  %s / %s  (%u%%)%s	Ficheiros %u / %u cartafoles %u %s / %s (%u%%)%s
+ui	  多すぎるので一部だけ	demasiados: só algúns
+ui	 要る大きさ %s、空き %s。続けますか？	Necesita %s, gratuíto %s. Queres continuar?
+ui	 Y: 続ける   N / ESC: やめる	Y: continuar N / ESC: cancelar
+ui	 何かキーを押すと閉じます	Preme calquera tecla para pechar
+ui	 ESC: 止める	ESC: parar
+ui	 %s: ←→ ドライブ  ↑↓ フォルダ  Space 開く・閉じる  Enter 決める  ESC やめる	%s: ←→ unidade ↑↓ cartafol Espazo abrir/pechar Entrar escolla ESC cancelar
+ui	 読めません: %s	Non se pode ler: %s
+ui	 フォルダを読んでいます...（ESC で止める）  %u 個	Lendo os cartafoles... (ESC detense) %u
+ui	 フォルダ %u 個%s	%u cartafoles%s
+ui	（多すぎるか深すぎるので、一部だけ）	(demasiado ou moi profundo: só algúns)
+ui	フォルダの展開を止めました	Deixou de abrir o cartafol
+ui	Space で開き直せます。もう一度 ESC でやめます	O espazo ábreo de novo. ESC cancela unha vez máis
+ui	 SMF / SGT プレイヤー   %s	Reprodutor SMF/SGT %s
+ui	 読み込んでいます... %lu / %lu バイト	Cargando... %lu / %lu bytes
+ui	 %s / %s   %s   ポート %u	%s / %s %s portos %u
+ui	一時停止	En pausa
+ui	再生中	Xogando
+ui	 Space: 一時停止  m: MIDI OUT  q / ESC: 止める	Espazo: pausa m: MIDI OUT q / ESC: parar
+ui	 q / ESC: やめる	q/ESC: cancelar
+ui	フォント ROM のライセンスとクレジット\n\nROM: %s（版 %lu.%lu、%lu 文字、フラッシュの 0x%08lX から）\n\n	Licenzas e créditos de fonte ROM\n\nROM: %s (versión %lu.%lu, %lu caracteres, desde 0x%08lX no flash)
+ui	== 収めているフォント（ROM の出所の表）==\n	== Tipos de letra na ROM (a táboa de orixe da ROM) ==
+ui	  （表が無い ROM）\n	(a ROM non ten táboa)
+ui	\n== ROM のクレジットの区画 ==\n\n	== A área de créditos do ROM ==
+ui	（区画が無い）\n	(non hai esa zona)
+ui	\n== 組み込んだソフトウェアのライセンス ==\n	== Licenzas do software incorporado ==
+ui	 %s を PNG で保存   %s	Gardando %s como PNG %s
+ui	画面	Pantalla
+ui	 組み立てています... %lu / %lu 行	Construíndo... %lu / %lu filas
+ui	 書いています... %lu / %lu KB（FB は隠しています）	Escribindo... %lu / %lu KB (o FB está oculto)
+ui	書けませんでした	Non se puido escribir
+ui	書庫の名前（印の付いた項目、無ければカーソルの項目を入れる）	Nome do arquivo (os elementos marcados ou o elemento do cursor se non hai ningún)
+ui	Enter 圧縮する  ←→ 動かす  BS / Del 消す  ESC やめる	Introduce comprimir ←→ mover BS / Borrar eliminar ESC cancelar
+ui	WAV 書き出し: %s 中止（%s）	Exportación WAV: %s cancelada (%s)
+ui	WAV 書き出し: %s 失敗（%s）	Exportación WAV: %s fallou (%s)
+ui	WAV 書き出し: %s 合計 %s	Exportación WAV: %s total %s
+ui	 WAV 書き出し（96kHz / 24bit）: %s	Exportación WAV (96 kHz / 24 bits): %s
+ui	中止しました	Cancelado
+ui	失敗しました	Fallou
+ui	 合計 %s	Total %s
+ui	 中止しました（%s。半端なファイルは消しました）	Cancelado (%s; o ficheiro parcial foi eliminado)
+ui	 書き出せませんでした（%s）。理由:	Non se puido exportar (%s). Motivo:
+ui	 （理由は分かりません）	(motivo descoñecido)
+ui	 %u%%   経過 %s%s	%u%% transcorridos %s%s
+ui	 ESC: 止める（半端なファイルは消します）	ESC: parar (elimínase o ficheiro parcial)
+ui	書庫: %s	Arquivo: %s
+ui	読み込み中…（ESC でやめる）	Lendo... (ESC para cancelar)
+ui	 %u 項目%s  合計 %s バイト  展開先: %s	%u elementos%s total de %s bytes extraídos a: %s
+ui	 Enter 項目を展開  X 全部を展開  ↑↓ 動かす  ESC 閉じる	Introduza extraer o elemento X extraer todo ↑↓ mover ESC pechar
+ui	圧縮	Comprimir
+ui	一覧	Lista
+ui	展開	Extraer
+ui	 合計 %s   %u 項目	Total de %s %u elementos
+ui	 合計 %s   %u ファイル	Total de %s %u ficheiros
+ui	 中止しました（%s。書きかけのファイルは消しました）	Cancelado (%s; o ficheiro sen rematar foi eliminado)
+ui	 できませんでした（%s）: %s	Non puido facelo (%s): %s
+ui	 %u%%   経過 %s   %s バイト%s	%u%% transcorridos %s %s bytes%s
+ui	 経過 %s   %s バイト%s	transcorridos %s %s bytes%s
+ui	 ESC: 止める（書きかけのファイルは消します）	ESC: parar (elimínase o ficheiro inacabado)
+ui	書庫: %s 失敗（%s）	Arquivo: %s fallou (%s)
+ui	圧縮: %s（%u 項目）	Comprimido: %s (%u elementos)
+ui	展開: %s（%u ファイル）	Extraído: %s (%u ficheiros)
+msg.phrase	the drive went away	a unidade foise
+msg.phrase	reading the partitions again...	lendo de novo as particións...
+msg.phrase	could not open the volume (no memory?)	non se puido abrir o volume (sen memoria?)
+msg.phrase	opening the volume...	abrindo o volume...
+msg.phrase	no memory for the file list	non hai memoria para a lista de ficheiros
+msg.phrase	reading the directory... (retrying)	lendo o directorio... (tentando de novo)
+msg.phrase	could not read the directory	non puido ler o directorio
+msg.phrase	reading the directory...	lendo o directorio...
+msg.phrase	the drive did not answer -- reading the partitions again	a unidade non respondeu -- lendo as particións de novo
+msg.phrase	could not read the directory (not FAT12/16/32?)	non puido ler o directorio (non FAT12/16/32?)
+msg.phrase	too many entries -- showing the first ones	demasiadas entradas, mostrando as primeiras
+msg.phrase	no file system found on this partition	non se atopou ningún sistema de ficheiros nesta partición
+msg.phrase	the path is too long	o camiño é demasiado longo
+msg.phrase	joining...	unirse...
+msg.phrase	splitting...	dividindo...
+msg.phrase	renaming...	renomeando...
+msg.phrase	creating the folder...	creando o cartafol...
+msg.phrase	creating the file...	creando o ficheiro...
+msg.phrase	deleting...	eliminando...
+msg.phrase	writing the attributes...	escribindo os atributos...
+msg.phrase	the drive is busy	a unidade está ocupada
+msg.phrase	busy	ocupado
+msg.phrase	choose files or folders	escoller ficheiros ou cartafoles
+msg.phrase	choose files or folders (not "..")	escoller ficheiros ou cartafoles (non "..")
+msg.phrase	stop the CD first	primeiro para o CD
+msg.phrase	the CD cannot be changed (copy instead)	o CD non se pode cambiar (copia no seu lugar)
+msg.phrase	a system folder cannot be moved	non se pode mover un cartafol do sistema
+msg.phrase	no drive can be written (FAT / exFAT / NTFS only)	non se pode escribir ningunha unidade (só FAT / exFAT / NTFS)
+msg.phrase	the drive is gone	a unidade desapareceu
+msg.phrase	nothing chosen	nada escollido
+msg.phrase	nothing selected	nada seleccionado
+msg.phrase	could not start	non puido comezar
+msg.phrase	could not open	non puido abrir
+msg.phrase	only on a FAT / exFAT / NTFS drive	só nunha unidade FAT/exFAT/NTFS
+msg.phrase	no name	sen nome
+msg.phrase	that name already exists	ese nome xa existe
+msg.phrase	could not start (bad name or the drive is busy)	non se puido iniciar (mal nome ou a unidade está ocupada)
+msg.phrase	could not start (the drive is busy)	non se puido iniciar (a unidade está ocupada)
+msg.phrase	the name cannot have / or \\ (only inside this folder)	o nome non pode ter / ou \\ (só dentro deste cartafol)
+msg.phrase	the name is the same	o nome é o mesmo
+msg.phrase	the item is read-only (A to change)	o elemento é de só lectura (A para cambiar)
+msg.phrase	choose a .rb file on a writable drive	escolle un ficheiro .rb nunha unidade gravable
+msg.phrase	choose a .rb file	escolla un ficheiro .rb
+msg.phrase	the drive is read-only	a unidade é de só lectura
+msg.phrase	choose a folder on a writable drive	escolle un cartafol nunha unidade de escritura
+msg.phrase	wait a moment	agarda un momento
+msg.phrase	choose a file	escolle un ficheiro
+msg.phrase	choose a file (not a folder)	escoller un ficheiro (non un cartafol)
+msg.phrase	choose a .001 file	escolla un ficheiro .001
+msg.phrase	choose the .001 file	escolla o ficheiro .001
+msg.phrase	put the IWAD in a DoomFiles or Doom2Files folder	coloque o IWAD nun cartafol DoomFiles ou Doom2Files
+msg.phrase	DoomFiles takes freedoom1 / doom / doomu / doom1.wad	DoomFiles leva freedoom1 / doom / doomu / doom1.wad
+msg.phrase	Doom2Files takes freedoom2 / doom2 / plutonia / tnt.wad	Doom2Files leva freedoom2 / doom2 / plutonia / tnt.wad
+msg.phrase	put the game files on external storage, not S:	coloque os ficheiros do xogo nun almacenamento externo, non en S:
+msg.phrase	the IWAD must be on a FAT / exFAT / NTFS drive (not a CD)	o IWAD debe estar nunha unidade FAT/exFAT/NTFS (non nun CD)
+msg.phrase	still working	aínda traballando
+msg.phrase	an image is loading	estase cargando unha imaxe
+msg.phrase	no framebuffer	sen framebuffer
+msg.phrase	half brightness works only in RGB555	a metade do brillo só funciona en RGB555
+msg.phrase	clearing...	despexando...
+msg.phrase	halving the brightness...	reducindo o brillo á metade...
+msg.phrase	that is a data track	que é unha pista de datos
+msg.phrase	wait -- a file is being written	agardar: estase a escribir un ficheiro
+msg.phrase	only floppy / LS-120 / CD drives	só unidades de disquete / LS-120 / CD
+msg.phrase	requested	solicitado
+msg.phrase	reading the disc...	lendo o disco...
+msg.phrase	stopping...	parando...
+msg.phrase	opening...	apertura...
+msg.phrase	done	feito
+msg.phrase	no memory	sen memoria
+msg.phrase	already open	xa aberto
+msg.phrase	already running	xa funcionando
+msg.phrase	already saving	xa gardando
+msg.phrase	already playing	xa xogando
+msg.phrase	no such drive	non hai tal unidade
+msg.phrase	no PSRAM	sen PSRAM
+msg.phrase	no PSRAM for the file	sen PSRAM para o ficheiro
+msg.phrase	no PSRAM for the line index	sen PSRAM para o índice de liña
+msg.phrase	no PSRAM for the terminal	sen PSRAM para o terminal
+msg.phrase	no memory (PSRAM)	sen memoria (PSRAM)
+msg.phrase	no memory (32KB SRAM)	sen memoria (32 KB SRAM)
+msg.phrase	no memory for the buffer	non hai memoria para o buffer
+msg.phrase	no memory for the image buffers	non hai memoria para os búfers de imaxe
+msg.phrase	no memory for the read buffer	non hai memoria para o búfer de lectura
+msg.phrase	no room for the work memory (close the lowres plane?)	non hai espazo para a memoria de traballo (pechar o plano inferior?)
+msg.phrase	no framebuffer page	sen páxina de framebuffer
+msg.phrase	too large (4 MB at most)	demasiado grande (4 MB como máximo)
+msg.phrase	the file is too large (1 MB at most)	o ficheiro é demasiado grande (1 MB como máximo)
+msg.phrase	the file is too large (1 MB max)	o ficheiro é demasiado grande (1 MB como máximo)
+msg.phrase	too large for an SMF (1MB at most)	demasiado grande para un SMF (1 MB como máximo)
+msg.phrase	the file is empty	o ficheiro está baleiro
+msg.phrase	could not open the file	non se puido abrir o ficheiro
+msg.phrase	could not read the file	non puido ler o ficheiro
+msg.phrase	could not open the volume	non puido abrir o volume
+msg.phrase	could not open the destination (no memory?)	non se puido abrir o destino (sen memoria?)
+msg.phrase	could not read the root folder	non se puido ler o cartafol raíz
+msg.phrase	could not start the task	non puido comezar a tarefa
+msg.phrase	could not start writing (bad name or busy)	non puiden comezar a escribir (mal nome ou ocupado)
+msg.phrase	another volume is open (busy)	outro volume está aberto (ocupado)
+msg.phrase	a copy is running	está a executarse unha copia
+msg.phrase	a folder cannot go into itself	un cartafol non pode entrar en si mesmo
+msg.phrase	that is the same folder	ese é o mesmo cartafol
+msg.phrase	this drive cannot be changed (read only)	esta unidade non se pode cambiar (só lectura)
+msg.phrase	the drive is not writable	a unidade non se pode escribir
+msg.phrase	the part size must be a multiple of 512	o tamaño da peza debe ser múltiplo de 512
+msg.phrase	files of 4 GB or more are not supported	Non se admiten ficheiros de 4 GB ou máis
+msg.phrase	bad path	mal camiño
+msg.phrase	bad file name	nome do ficheiro incorrecto
+msg.phrase	the font ROM is not there	a ROM da fonte non está alí
+msg.phrase	the sound is not open	o son non está aberto
+msg.phrase	no such channel	ningunha canle deste tipo
+msg.phrase	the sequencer is busy	o secuenciador está ocupado
+msg.phrase	not enough PSRAM for the song	non hai PSRAM suficiente para a canción
+msg.phrase	not a standard MIDI file (no MThd)	non é un ficheiro MIDI estándar (sen MThd)
+msg.phrase	no tracks	sen pistas
+msg.phrase	a track is broken (MTrk)	unha pista está rota (MTrk)
+msg.phrase	SMPTE time division is not supported	Non se admite a división de tempo SMPTE
+msg.phrase	SMF format 2 is not supported (0 and 1 only)	O formato SMF 2 non é compatible (só 0 e 1)
+msg.phrase	not a Bulk-Only drive	non é unha unidade só masiva
+msg.phrase	not an optical drive	non é unha unidade óptica
+msg.phrase	a system folder cannot be deleted or renamed	un cartafol do sistema non se pode eliminar nin renomear
+msg.phrase	no media in the drive	non hai medios na unidade
+msg.phrase	becoming ready	preparándose
+msg.phrase	not ready	non está preparado
+msg.phrase	media changed	medios cambiaron
+msg.phrase	medium error	erro medio
+msg.phrase	illegal request	petición ilegal
+msg.phrase	a bad directory entry	unha mala entrada do directorio
+msg.phrase	a directory on the way does not exist	un directorio no camiño non existe
+msg.phrase	a file has that name	un ficheiro ten ese nome
+msg.phrase	a folder has that name	un cartafol ten ese nome
+msg.phrase	a name on the way is not a directory	un nome no camiño non é un directorio
+msg.phrase	cancelled	cancelado
+msg.phrase	could not mount	non puido montar
+msg.phrase	could not start a read	non puido iniciar unha lectura
+msg.phrase	could not start a write	non puido comezar a escribir
+msg.phrase	is a directory	é un directorio
+msg.phrase	that is a directory	que é un directorio
+msg.phrase	no clusters	sen clusters
+msg.phrase	no room for the cluster list	non hai espazo para a lista de clúster
+msg.phrase	no such file or directory	ningún ficheiro ou directorio deste tipo
+msg.phrase	no such file	ningún ficheiro deste tipo
+msg.phrase	no volume	sen volume
+msg.phrase	not NTFS	non NTFS
+msg.phrase	not exFAT	non exFAT
+msg.phrase	not a directory	non un directorio
+msg.phrase	not found	non atopado
+msg.phrase	read error	erro de lectura
+msg.phrase	write error	erro de escritura
+msg.phrase	reading the FAT failed	fallou a lectura do FAT
+msg.phrase	the cluster chain is shorter than the file	a cadea de clúster é máis curta que o ficheiro
+msg.phrase	the directory is not empty	o directorio non está baleiro
+msg.phrase	the disk is full	o disco está cheo
+msg.phrase	the drive did not answer	a unidade non respondeu
+msg.phrase	the file is read-only	o ficheiro é de só lectura
+msg.phrase	the file is too fragmented	o ficheiro está demasiado fragmentado
+msg.phrase	the file is too large (4GB)	o ficheiro é demasiado grande (4 GB)
+msg.phrase	the new name already exists	o novo nome xa existe
+msg.phrase	the root directory is full	o directorio raíz está cheo
+msg.phrase	too many files with the same short name	demasiados ficheiros co mesmo nome curto
+msg.phrase	No such file or directory	Non hai ningún ficheiro ou directorio deste tipo
+msg.phrase	File exists	O ficheiro existe
+msg.phrase	Permission denied	Permiso denegado
+msg.phrase	Directory not empty	O directorio non está baleiro
+msg.phrase	Not a directory	Non é un directorio
+msg.phrase	Is a directory	É un directorio
+msg.phrase	Read-only file system	Sistema de ficheiros de só lectura
+msg.phrase	No space left on device	Non queda espazo no dispositivo
+msg.phrase	Input/output error	Erro de entrada/saída
+msg.phrase	Not supported on this drive	Non é compatible con esta unidade
+msg.phrase	Invalid path	Camiño non válido
+msg.phrase	Out of memory	Fóra de memoria
+msg.phrase	No such drive	Non hai tal unidade
+msg.phrase	stopped	parou
+msg.phrase	cancelled (not enough free space)	cancelado (non hai espazo libre suficiente)
+msg.phrase	could not count the free space	non puido contar o espazo libre
+msg.phrase	the receiver cancelled	o receptor cancelado
+msg.phrase	no receiver (run rz on the PC)	sen receptor (executar rz no PC)
+msg.phrase	the console UART is in use	a consola UART está en uso
+msg.phrase	the screen mode changed	cambiou o modo de pantalla
+msg.phrase	the lines did not come (is the display running?)	non chegaron as liñas (a pantalla está funcionando?)
+msg.prefix	copy	copiar
+msg.prefix	move	moverse
+msg.prefix	delete	eliminar
+msg.prefix	rename	renomear
+msg.prefix	attributes	atributos
+msg.prefix	new file	novo ficheiro
+msg.prefix	new folder	novo cartafol
+msg.prefix	image	imaxe
+msg.prefix	mrbc	mrbc
+msg.prefix	ruby	rubí
+msg.prefix	viewer	espectador
+msg.prefix	edit	editar
+msg.prefix	IDENTIFY	IDENTIFICAR
+msg.prefix	ZMODEM	ZMODEM
+msg.prefix	ZMODEM receive	ZMODEM recibe
+msg.prefix	ZMODEM send	Enviar ZMODEM
+msg.prefix	split	dividir
+msg.prefix	join	únete
+msg.prefix	Doom	Perdición
+msg.prefix	SMF	SMF
+msg.prefix	CD	CD
+msg.prefix	FB	FB
+msg.prefix	Eject	Expulsar
+msg.prefix	reboot	reiniciar
+msg.prefix	license	licenza
+msg.prefix	clock	reloxo
+msg.prefix	ADC in	ADC en
+msg.prefix	screen -> PNG	pantalla -> PNG
+msg.prefix	FB -> PNG	FB -> PNG
+msg.prefix	could not open the volume	non puido abrir o volume
+msg.pattern	received 	recibido %s
+msg.pattern	sent 	enviado %s
+msg.pattern	saved 	gardado %s
+msg.pattern	created 	creado %s
+msg.pattern	renamed to 	renomeado a %s
+msg.pattern	deleted 	eliminado %s
+msg.pattern	changed 	cambiou %s
+msg.pattern	joined 	unido %s
+msg.pattern	split 	dividir %s
+msg.pattern	could not create 	non puido crear %s
+msg.pattern	could not delete 	non se puido eliminar %s
+msg.pattern	could not rename to 	non se puido cambiar o nome a %s
+msg.pattern	could not change 	non puido cambiar %s
+msg.pattern	could not read 	non sabía ler %s
+msg.pattern	could not write 	non podía escribir %s
+msg.pattern	could not copy 	non puido copiar %s
+msg.pattern	could not make 	non puido facer %s
+msg.pattern	could not remove the folder 	non se puido eliminar o cartafol %s
+msg.pattern	could not remove 	non puido eliminar %s
+msg.pattern	no memory for 	sen memoria para %s
+msg.pattern	too many errors while sending 	demasiados erros ao enviar %s
+msg.pattern	the receiver did not take 	o receptor non colleu %s
+msg.pattern	the receiver skipped 	saltou o receptor %s
+msg.pattern	FB page 	Páxina de FB %s
+msg.word	 bytes each)	bytes cada un)
+msg.word	 bytes)	bytes)
+msg.word	 KB)	KB)
+msg.word	 parts into 	partes en
+msg.word	 parts (	partes (
+msg.word	 into 	en
+msg.word	: cleared	: despexado
+msg.word	: brightness halved	: brillo reducido á metade
+msg.word	% read	% lido
+msg.word	 rows	filas
+msg.word	 -- not supported yet (FAT / exFAT / NTFS only)	-- aínda non é compatible (só FAT/exFAT/NTFS)
+msg.word	 files	ficheiros
+msg.word	 (	(
+msg.phrase	Untitled	Sen título
+msg.phrase	1 File	1 Arquivo
+msg.phrase	2 Edit	2 Editar
+msg.phrase	3 Graph	3 Gráfico
+msg.phrase	4 Sheet	4 Folla
+msg.phrase	5 Help	5 Axuda
+msg.phrase	EMPTY	BALEIRO
+msg.phrase	NUMBER	NÚMERO
+msg.phrase	TEXT	TEXTO
+msg.phrase	FORMULA	FÓRMULA
+msg.phrase	Type to enter, F2 to edit, F1 for help	Escribe para entrar, F2 para editar, F1 para obter axuda
+msg.phrase	5 CSV	5 CSV
+msg.phrase	6 ODS	6 ODS
+msg.phrase	[SHIFT]	[MAYÚS]
+msg.phrase	[CTRL]	[CTRL]
+msg.phrase	[ALT]	[ALT]
+msg.phrase	Ready	Listo
+msg.phrase	SGCALC	SGCALC
+msg.phrase	Press any key	Preme calquera tecla
+msg.phrase	Y = yes    N = no    Esc = cancel	Y = si N = non Esc = cancelar
+msg.phrase	Enter = OK    Esc = cancel    Ctrl-U = clear	Intro = Aceptar Esc = cancelar Ctrl-U = borrar
+msg.phrase	First row/column = labels; charts use the 640x480 CLUT8 FB.	Primeira fila/columna = etiquetas; os gráficos usan o FB CLUT8 de 640x480.
+msg.phrase	SGCALC - HELP	SGCAC - AXUDA
+msg.phrase	Press any key to return	Preme calquera tecla para volver
+msg.phrase	Press any key to return.	Preme calquera tecla para volver.
+msg.phrase	ABOUT SGCALC	SOBRE SGCALC
+msg.phrase	New	Novo
+msg.phrase	Start a new sheet	Comeza unha nova folla
+msg.phrase	Open...	Abrir...
+msg.phrase	Open an ODS, FODS or CSV file	Abre un ficheiro ODS, FODS ou CSV
+msg.phrase	Save	Gardar
+msg.phrase	Save the current file	Garda o ficheiro actual
+msg.phrase	Save As...	Gardar como...
+msg.phrase	Save with a new name or format	Garda cun novo nome ou formato
+msg.phrase	Export CSV...	Exportar CSV...
+msg.phrase	Write a CSV copy	Escribe unha copia CSV
+msg.phrase	Export ODS...	Exportar ODS...
+msg.phrase	Write a LibreOffice copy	Escribe unha copia de LibreOffice
+msg.phrase	Quit	Saír
+msg.phrase	Leave SGCALC	Deixa o SGCLC
+msg.phrase	Clear	Limpar
+msg.phrase	Clear the selected cells	Limpar as celas seleccionadas
+msg.phrase	Copy	Copiar
+msg.phrase	Copy the selection	Copia a selección
+msg.phrase	Paste	Pegar
+msg.phrase	Paste at the cursor	Pega no cursor
+msg.phrase	Cut	Corte
+msg.phrase	Copy and clear the selection	Copia e borra a selección
+msg.phrase	Select all	Selecciona todo
+msg.phrase	Select all used cells	Seleccione todas as celas usadas
+msg.phrase	Text color...	Cor do texto...
+msg.phrase	Choose the text colour	Escolla a cor do texto
+msg.phrase	Background...	Fondo...
+msg.phrase	Choose the cell background	Escolla o fondo da cela
+msg.phrase	Line	Liña
+msg.phrase	Draw a line graph from the selection	Debuxa un gráfico de liñas a partir da selección
+msg.phrase	Bar	Bar
+msg.phrase	Draw a bar graph from the selection	Debuxa un gráfico de barras a partir da selección
+msg.phrase	Mixed	Mixto
+msg.phrase	Bars for the first series, lines for the rest	Compases para a primeira serie, liñas para o resto
+msg.phrase	Pie	Empanada
+msg.phrase	Draw a pie graph from the selection	Debuxa un gráfico circular a partir da selección
+msg.phrase	Range...	Rango...
+msg.phrase	Set the graph range explicitly	Establece o intervalo do gráfico de forma explícita
+msg.phrase	Draw again	Debuxa de novo
+msg.phrase	Redraw the last graph	Redebuxa o último gráfico
+msg.phrase	Goto...	Ir a...
+msg.phrase	Jump to a cell (for example C12)	Ir a unha cela (por exemplo C12)
+msg.phrase	Column width...	Ancho da columna...
+msg.phrase	Change the selected columns' width	Cambia o ancho das columnas seleccionadas
+msg.phrase	Row height...	Altura da fila...
+msg.phrase	Change the selected rows' height	Cambia a altura das filas seleccionadas
+msg.phrase	Auto fit	Ajuste automático
+msg.phrase	Fit widths/heights to the contents (F7)	Axustar anchos/alturas ao contido (F7)
+msg.phrase	Recalculate	Recalcular
+msg.phrase	Re-evaluate all formulas	Reavaliar todas as fórmulas
+msg.phrase	Erase all	Borrar todo
+msg.phrase	Clear the whole sheet	Limpar toda a folla
+msg.phrase	Keys	Chaves
+msg.phrase	Show the key guide	Mostra a guía clave
+msg.phrase	About	Sobre
+msg.phrase	About SGCALC	Acerca de SGCLC
+msg.phrase	File	Arquivo
+msg.phrase	Edit	Editar
+msg.phrase	Graph	Gráfico
+msg.phrase	Sheet	Folla
+msg.phrase	Help	Axuda
+msg.phrase	File: new, open, save, export, quit	Ficheiro: novo, abrir, gardar, exportar, saír
+msg.phrase	Edit: clear, copy, paste, cut, select all	Editar: borrar, copiar, pegar, cortar, seleccionar todo
+msg.phrase	Graph: line, bar, mixed, pie (draws in the FB)	Gráfico: liña, barra, mixto, torta (debuxos no FB)
+msg.phrase	Sheet: goto, column width, recalculate, erase	Folla: ir a, ancho da columna, recalcular, borrar
+msg.phrase	Help: keys and about	Axuda: chaves e sobre
+msg.phrase	Left/Right = menu    Up/Down = item    Enter = choose    Esc = cancel	Esquerda/Dereita = menú Arriba/Abaixo = elemento Intro = escoller Esc = cancelar
+msg.phrase	Cancelled	Cancelado
+msg.phrase	The selection is too large or memory is low.	A selección é demasiado grande ou a memoria é pouca.
+msg.phrase	the cell	a célula
+msg.phrase	the selection	a selección
+msg.phrase	Nothing to paste	Nada que pegar
+msg.phrase	Pasted	Pegado
+msg.phrase	GO TO CELL	IR A CELULAR
+msg.phrase	Cell reference (A1):	Referencia da cela (A1):
+msg.phrase	Goto	Ir a
+msg.phrase	COLUMN WIDTH	LARGO DA COLUMNA
+msg.phrase	Width in characters (4..30):	Ancho en caracteres (4..30):
+msg.phrase	ROW HEIGHT	ALTURA DA FILA
+msg.phrase	Height in text rows (1..8):	Altura nas filas de texto (1..8):
+msg.phrase	Auto fit: the sheet is empty	Axuste automático: a folla está baleira
+msg.phrase	BACKGROUND COLOUR	COR DE FONDO
+msg.phrase	TEXT COLOUR	COR DO TEXTO
+msg.phrase	Arrows: choose    Enter: apply    Esc: cancel	Frechas: escolla Intro: aplicar Esc: cancelar
+msg.phrase	Colour index (PC-98 16-colour palette)	Índice de cores (paleta de 16 cores PC-98)
+msg.phrase	Aa 123	Aa 123
+msg.phrase	Enter = apply    Esc = cancel	Intro = aplicar Esc = cancelar
+msg.phrase	Colour	Cor
+msg.phrase	Background	Fondo
+msg.phrase	Text	Texto
+msg.phrase	GRAPH RANGE	RANGO GRÁFICO
+msg.phrase	Range (for example A1:C10):	Intervalo (por exemplo A1:C10):
+msg.phrase	Graph range	Rango gráfico
+msg.phrase	Use a range such as A1:C10.	Use un rango como A1:C10.
+msg.phrase	Cannot draw the graph.	Non se pode debuxar o gráfico.
+msg.phrase	line	liña
+msg.phrase	bar	bar
+msg.phrase	mixed	mesturado
+msg.phrase	pie	empanada
+msg.phrase	Clear every cell in this sheet?	Queres borrar todas as celas desta folla?
+msg.phrase	Sheet erased	Folla borrada
+msg.phrase	Selected all used cells	Seleccionáronse todas as celas usadas
+msg.phrase	Recalculated	Recalculado
+msg.phrase	Memory	Memoria
+msg.phrase	Not enough PSRAM for the spreadsheet.	Non hai suficiente PSRAM para a folla de cálculo.
+msg.phrase	The sheet is empty.	A folla está baleira.
+msg.phrase	No numeric data in the selected range.	Non hai datos numéricos no intervalo seleccionado.
+msg.phrase	Other	Outros
+msg.phrase	No positive values for a pie chart	Non hai valores positivos para un gráfico circular
+msg.phrase	LINE	LIÑA
+msg.phrase	BAR	BAR
+msg.phrase	MIXED	MIXTO
+msg.phrase	PIE	TORTA
+msg.phrase	S:/	S:/
+msg.phrase	Folder	Cartafol
+msg.phrase	SAVE AS	GARDAR COMO
+msg.phrase	OPEN FILE	ABRIR ARQUIVO
+msg.phrase	LibreOffice / CSV	LibreOffice / CSV
+msg.phrase	ODS  FODS  CSV	ODS FODS CSV
+msg.phrase	Name:	Nome:
+msg.phrase	(type a name, or choose below)	(escriba un nome ou escolla a continuación)
+msg.phrase	Name	Nome
+msg.phrase	Size	Tamaño
+msg.phrase	Enter=save  Left=up  Right/Enter on [DIR]=open  Tab=drive  Esc=cancel	Enter=gardar Esquerda=arriba Dereita/Intro en [DIR]=abrir Tab=unidade Esc=cancelar
+msg.phrase	Enter=open  Left=up  Right/Enter on [DIR]=open  Tab=drive  Esc=cancel	Intro=abrir Esquerda=arriba Dereita/Intro en [DIR]=abrir Tab=unidade Esc=cancelar
+msg.phrase	Not enough memory.	Non hai memoria suficiente.
+msg.phrase	Overwrite	Sobrescribir
+msg.phrase	Open	Aberto
+msg.phrase	The file is too large (limit 8 MB).	O ficheiro é demasiado grande (límite 8 MB).
+msg.phrase	Not enough memory to read the file.	Non hai memoria suficiente para ler o ficheiro.
+msg.phrase	Bad ZIP/ODS data.	Datos ZIP/ODS incorrectos.
+msg.phrase	CRC error in the ODS file.	Erro CRC no ficheiro ODS.
+msg.phrase	Unsupported or damaged file.	Ficheiro non compatible ou danado.
+msg.phrase	Saved	Gardado
+msg.phrase	Exported	Exportouse
+msg.phrase	Unsaved changes	Cambios sen gardar
+msg.phrase	Save the current sheet before continuing?	Queres gardar a folla actual antes de continuar?
+msg.phrase	New sheet	Folla nova
+msg.phrase	SGTRK	SGTRK
+msg.phrase	UNTITLED	SIN TÍTULO
+msg.phrase	song is too large	a canción é demasiado grande
+msg.phrase	empty file	arquivo baleiro
+msg.phrase	not an SGT file	non é un ficheiro SGT
+msg.phrase	bad BPM	mal BPM
+msg.phrase	bad speed	mala velocidade
+msg.phrase	bad title length	mala lonxitude do título
+msg.phrase	truncated title	título truncado
+msg.phrase	bad character in title	mal carácter no título
+msg.phrase	truncated order	orde truncada
+msg.phrase	bad order length	lonxitude de orde incorrecta
+msg.phrase	bad pattern number in order	número de patrón incorrecto en orde
+msg.phrase	truncated pattern list	lista de patróns truncados
+msg.phrase	bad pattern count	conta de patróns malos
+msg.phrase	bad pattern index	índice de patrón malo
+msg.phrase	duplicate pattern	patrón duplicado
+msg.phrase	truncated pattern data	datos de patrón truncado
+msg.phrase	invalid pattern data	datos de patrón non válidos
+msg.phrase	trailing data in file	datos finais no ficheiro
+msg.phrase	order refers to a missing pattern	orde refírese a un patrón que falta
+msg.phrase	A:/	A:/
+msg.phrase	(untitled)	(sen título)
+msg.phrase	Ready. Press F1 for help.	Listo. Preme F1 para obter axuda.
+msg.phrase	Follow OFF	Seguir OFF
+msg.phrase	Nothing to undo	Nada que desfacer
+msg.phrase	Undo	Desfacer
+msg.phrase	Note OFF	Nota OFF
+msg.phrase	Set an effect letter first	Establece primeiro unha letra de efecto
+msg.phrase	Effect cleared	Efecto borrado
+msg.phrase	Parameter cleared	Borrouse o parámetro
+msg.phrase	Note cleared	Borrouse a nota
+msg.phrase	Instrument cleared	Instrumento borrado
+msg.phrase	Volume cleared	Borrouse o volume
+msg.phrase	Order list is full	A lista de pedidos está chea
+msg.phrase	Order inserted	Orde inserida
+msg.phrase	Cannot delete the last order	Non se pode eliminar o último pedido
+msg.phrase	Order deleted	Eliminouse o pedido
+msg.phrase	Playing song	Tocando canción
+msg.phrase	Stopped	Detido
+msg.phrase	New song	Nova canción
+msg.phrase	Discard unsaved changes and start a new song? (Y/N)	Queres descartar os cambios non gardados e comezar unha canción nova? (S/N)
+msg.phrase	Discard unsaved changes and open a song? (Y/N)	Queres descartar os cambios non gardados e abrir unha canción? (S/N)
+msg.phrase	Discard unsaved changes and quit? (Y/N)	Descartar os cambios non gardados e saír? (S/N)
+msg.phrase	Song settings updated	Actualizouse a configuración da canción
+msg.phrase	Filename is empty	O nome do ficheiro está baleiro
+msg.phrase	Save cancelled	Gardar cancelado
+msg.phrase	Open cancelled	Aberto cancelado
+msg.phrase	Edit ON	Editar ON
+msg.phrase	Edit OFF	Edición OFF
+msg.phrase	Follow ON	Siga ON
+msg.phrase	Edit is OFF. Press F8 to edit.	A edición está desactivada. Preme F8 para editar.
+msg.phrase	I/O error	Erro de E/S
+msg.phrase	file is too large	o ficheiro é demasiado grande
+msg.phrase	truncated file	ficheiro truncado
+msg.phrase	SINE PAD	SINE PAD
+msg.phrase	TRIANGLE	TRIÁNGULO
+msg.phrase	SAW LEAD	POMBO DE SERRA
+msg.phrase	SQUARE	PRAZA
+msg.phrase	PULSE 25	PULSO 25
+msg.phrase	ORGAN	ÓRGANO
+msg.phrase	BASS	BAIXO
+msg.phrase	BELL	CAMPÁ
+msg.phrase	NOISE	RUÍDO
+msg.phrase	SINE	SINE
+msg.phrase	SAW	SERRO
+msg.phrase	OFF	DESACTIVADO
+msg.phrase	ON	ON
+msg.phrase	ROW	FILA
+msg.phrase	CHAN LEVEL	NIVEL CHAN
+msg.phrase	F1 HELP F2 SONG	F1 AXUDA F2 CANCIÓN
+msg.phrase	F3 INS  F4 SAVE	F3 INS F4 GARDAR
+msg.phrase	F5 PLAY F6 PAT	F5 PLAY F6 PAT
+msg.phrase	F7 STOP F8 EDIT	F7 PARAR F8 EDITAR
+msg.phrase	F9/F10 OCTAVE	F9/F10 OCTAVA
+msg.phrase	F11 FOLLOW	F11 SEGUIR
+msg.phrase	F12 QUIT	F12 SAÍR
+msg.phrase	SPACE PLAY/STOP	ESPAZO PLAY/STOP
+msg.phrase	CTRL-S SAVE	CTRL-S GARDAR
+msg.phrase	CTRL-O OPEN	CTRL-O ABRIR
+msg.phrase	C-N NEW C-Z UNDO	C-N NOVO C-Z UNDO
+msg.phrase	C-C STOP	C-C PARADA
+msg.phrase	#TRANSPORT AND FILES	# TRANSPORTE E ARQUIVOS
+msg.phrase	#ORDER LIST	#LISTA DE PEDIDOS
+msg.phrase	#DISPLAY	#PANTALLA
+msg.phrase	#EDITING	#EDICIÓN
+msg.phrase	#EFFECTS (parameter is hexadecimal)	#EFFECTS (o parámetro é hexadecimal)
+msg.phrase	LEFT/RIGHT PAGE   ENTER OR F1 CLOSE	PÁXINA ESQUERDA/DEREITA INTRO OU F1 PECHA
+msg.phrase	SONG SETTINGS	CONFIGURACIÓN DA CANCIÓN
+msg.phrase	UP/DOWN SELECT   LEFT/RIGHT ADJUST   ENTER/F2 CLOSE	ARRIBA/ABAIXO SELECCIONAR ESQUERDA/DEREITA Axustar ENTER/F2 PECHAR
+msg.phrase	Type to edit the title. Backspace deletes the last character.	Escribe para editar o título. Retroceso elimina o último carácter.
+msg.phrase	BPM range 32..255. Speed range 1..31.	Rango de BPM 32..255. Rango de velocidade 1..31.
+msg.phrase	Pattern effects can also change speed and BPM while playing.	Os efectos do patrón tamén poden cambiar a velocidade e o BPM mentres se xoga.
+msg.phrase	INSTRUMENTS	INSTRUMENTOS
+msg.phrase	UP/DOWN SELECT   SPACE PREVIEW   ENTER USE   F3 CLOSE	ARRIBA/ABAIXO SELECCIONAR ESPAZO VISTA PREVIA INTRO USAR F3 PECHAR
+msg.phrase	All four channels use wavetable synthesis.	As catro canles usan síntese de táboa de ondas.
+msg.phrase	Preview plays C-4 on the track under the edit cursor.	A vista previa reproduce C-4 na pista debaixo do cursor de edición.
+msg.phrase	SAVE SONG AS	GARDAR A CANCIÓN COMO
+msg.phrase	ENTER SAVE   F4 OR CTRL-C CANCEL	ENTER GARDAR F4 OU CTRL-C CANCELAR
+msg.phrase	Directory:	Directorio:
+msg.phrase	File name:	Nome do ficheiro:
+msg.phrase	The extension .SGT is added automatically.	A extensión .SGT engádese automaticamente.
+msg.phrase	An existing file can be overwritten.	Pódese sobrescribir un ficheiro existente.
+msg.phrase	OPEN SONG	CANCIÓN ABERTA
+msg.phrase	ENTER OPEN  BS PARENT  CTRL-O/CTRL-C CANCEL	INTRODUCIR ABRIR BS PAIS CTRL-O/CTRL-C CANCELAR
+msg.phrase	(no .SGT files in this folder)	(non hai ficheiros .SGT neste cartafol)
+msg.phrase	CONFIRM	CONFIRMAR
+msg.phrase	Y = YES   N / ENTER / CTRL-C = NO	Y = SI N / ENTER / CTRL-C = NON
+msg.phrase	Y = yes        N = no	Y = si N = non
+msg.phrase	C-	C-
+msg.phrase	C#	C#
+msg.phrase	D-	D-
+msg.phrase	D#	D#
+msg.phrase	E-	E-
+msg.phrase	F-	F-
+msg.phrase	F#	F#
+msg.phrase	G-	G-
+msg.phrase	G#	G#
+msg.phrase	A-	A-
+msg.phrase	A#	A#
+msg.phrase	B-	B-
+msg.phrase	A:/dir/name	A:/dir/nome
+msg.phrase	MThd	MThd
+msg.phrase	broken MThd	MThd roto
+msg.phrase	MIDI IMPORT	IMPORTACIÓN MIDI
+msg.phrase	MTrk	MTrk
+msg.phrase	broken delta time	tempo delta roto
+msg.phrase	broken running status	estado de funcionamento roto
+msg.phrase	broken meta event	meta evento roto
+msg.phrase	broken sysex event	evento sysex roto
+msg.phrase	broken channel event	evento de canal roto
+msg.phrase	SMF output is too small	A saída SMF é demasiado pequena
+msg.phrase	SMF output is too large	A saída SMF é demasiado grande
+msg.phrase	the song is too long for SMF	a canción é demasiado longa para SMF
+msg.phrase	TRK1	TRK1
+msg.phrase	%s%d	%s%d
+msg.phrase	%s%d:%s%d	%s%d:%s%d
+msg.phrase	%s	%s
+msg.phrase	%.40s%s	%.40s%s
+msg.phrase	  [%s]   %s	[%s] %s
+msg.phrase	EDIT  	EDITAR
+msg.phrase	READY 	LISTO
+msg.phrase	%4d 	%4d
+msg.phrase	%s Sum %.7g N %ld%s	%s Suma %.7g N %ld%s
+msg.phrase	ARROWS      move the cell cursor\n	AS FRECCHAS moven o cursor da cela
+msg.phrase	SHIFT+ARR   extend the selection (for graphs/copy)\n	SHIFT+ARR amplía a selección (para gráficos/copia)
+msg.phrase	ENTER       edit the cell; in edit, commit and move down\n	ENTER editar a cela; en editar, confirmar e baixar
+msg.phrase	TAB         next cell    SHIFT+TAB  previous cell\n	TAB seguinte cela SHIFT+TAB cela anterior
+msg.phrase	DELETE      clear the selected cell(s)    ESC  cancel\n	BORRAR borrar as celas seleccionadas ESC cancelar
+msg.phrase	PGUP/PGDN   move one screen    HOME/END  first/last column\n	PGUP/PGDN move unha pantalla INICIO/FIN primeira/última columna
+msg.phrase	CTRL+HOME   A1    CTRL+END  last used cell\n	CTRL+INICIO A1 CTRL+FIN a última cela utilizada
+msg.phrase	F1 help  F2 edit  F3 copy  F4 paste  F5 goto  F6 colour\n	F1 axuda F2 editar F3 copiar F4 pegar F5 ir á cor F6
+msg.phrase	F7 auto-fit  F8 background  F9 recalc  F10 graph  F11 save  F12 menu\n	F7 axuste automático F8 fondo F9 recalc F10 gráfico F11 gardar menú F12
+msg.phrase	SHIFT+F1 about  SHIFT+F2 row height  SHIFT+F3 column width\n	MAYÚS+F1 sobre MAIÚS+F2 altura da fila MAIÚS+F3 ancho da columna
+msg.phrase	SHIFT+F4 select all  SHIFT+F10 graph range  SHIFT+F11 save as\n	MAIÚS+F4 selecciona todos os intervalos de gráficos MAIÚS+F10 MAIÚS+F11 gardar como
+msg.phrase	CTRL+F1 new  CTRL+F2 open  CTRL+F3 save  CTRL+F4 save as\n	CTRL+F1 novo CTRL+F2 abrir CTRL+F3 gardar CTRL+F4 gardar como
+msg.phrase	CTRL+F5 export CSV  CTRL+F6 export ODS  ALT+F12 quit\n	CTRL+F5 exportar CSV CTRL+F6 exportar ODS ALT+F12 saír
+msg.phrase	Bottom 2 lines: function keys; [SHIFT]/[CTRL]/[ALT] like the filer\n	2 liñas inferiores: teclas de función; [SHIFT]/[CTRL]/[ALT] como o ficheiro
+msg.phrase	CTRL+S save  CTRL+O open  CTRL+N new  CTRL+C/V/X copy/paste/cut\n	CTRL+S gardar CTRL+O abrir CTRL+N novo CTRL+C/V/X copiar/pegar/cortar
+msg.phrase	CTRL+G goto    /  open the menu (1 File, 2 Edit, ...)\n	CTRL+G ir a / abrir o menú (1 Ficheiro, 2 Editar, ...)
+msg.phrase	Built-in functions: SUM AVERAGE MIN MAX COUNT COUNTA\n	Funcións integradas: SUMA MEDIA MIN MAX COUNT COUNTA
+msg.phrase	PRODUCT ABS SQRT INT ROUND MOD POWER IF AND OR NOT\n	PRODUTO ABS SQRT INT REDONDA MOD POTENCIA SE E OU NON
+msg.phrase	IFERROR LEN LEFT RIGHT MID UPPER LOWER TRIM CONCATENATE PI\n	IFERROR LEN ESQUERDA DEREITA MEDIO SUPERIOR INFERIOR TRIM CONCATENAR PI
+msg.phrase	Cell refs: A1, $A$1, A1:B10.  Formulas begin with '='.\n	Referencias de cela: A1, $A$1, A1:B10.  As fórmulas comezan por '='.
+msg.phrase	Files: .ods (LibreOffice), .fods (flat XML), .csv\n	Ficheiros: .ods (LibreOffice), .fods (XML plano), .csv
+msg.phrase	ODS/FODS keeps formulas, widths, heights and colours.\n	ODS/FODS mantén fórmulas, anchos, alturas e cores.
+msg.phrase	CSV keeps values and formulas (no colours/heights).\n	CSV mantén valores e fórmulas (sen cores nin alturas).
+msg.phrase	Graph: select a range, press F10, and choose Line/Bar/Mixed/Pie.\n	Gráfico: seleccione un rango, prema F10 e escolla Liña/Barra/Mixtado/Pastel.
+msg.phrase	SGCALC for sgnano\n	SGCALC para sgnano
+msg.phrase	Version 	Versión
+msg.phrase	A Lotus 1-2-3 style spreadsheet as an SGX program.\n\n	Unha folla de cálculo de estilo Lotus 1-2-3 como programa SGX.
+msg.phrase	SGX ABI %u.%u\n	SGX ABI %u.%u
+msg.phrase	Screen mode 3: text + CLUT8 FB (lowres disabled)\n	Modo de pantalla 3: texto + CLUT8 FB (lowres desactivado)
+msg.phrase	Sheet: %d rows x %d columns\n	Folla: %d filas x %d columnas
+msg.phrase	Formats: .ods / .fods (LibreOffice), .csv\n\n	Formatos: .ods / .fods (LibreOffice), .csv
+msg.phrase	The grid is drawn on the text plane.\n	A grella está debuxada no plano do texto.
+msg.phrase	Charts and the 640x480 background use the FB.\n\n	Os gráficos e o fondo de 640x480 usan o FB.
+msg.phrase	%d %s	%d %s
+msg.phrase	Cannot store the cell (%d).	Non se pode almacenar a cela (%d).
+msg.phrase	Copied %d x %d cells	Copiáronse %d x %d celas
+msg.phrase	Cleared %s	Borrado %s
+msg.phrase	'%s' is not a cell reference.	'%s' non é unha referencia de cela.
+msg.phrase	%d	%d
+msg.phrase	Column width = %d	Ancho da columna = %d
+msg.phrase	Row height = %d	Altura da fila = %d
+msg.phrase	Auto fit: %d column(s), %d row(s)	Axuste automático: %d columna(s), %d fila(s)
+msg.phrase	%2d	%2d
+msg.phrase	Cannot apply the colour (%d).	Non se pode aplicar a cor (%d).
+msg.phrase	%s colour = %d	%s cor = %d
+msg.phrase	Not a valid range.\nUse a range such as A1:C10.	Non é un intervalo válido.\nUse un rango como A1:C10.
+msg.phrase	Graph range %s	Rango gráfico %s
+msg.phrase	Graph: %s	Gráfico: %s
+msg.phrase	SGCALC: cannot set screen mode 3: %s\n	SGCALC: non se pode establecer o modo de pantalla 3: %s
+msg.phrase	%.2g	%.2g
+msg.phrase	%.6g	%.6g
+msg.phrase	%s  %.0f%%	%s %.0f%%
+msg.phrase	GRAPH  %s  %s	GRÁFICA %s %s
+msg.phrase	%s%s	%s%s
+msg.phrase	%s/%s	%s/%s
+msg.phrase	%.*s	%.*s
+msg.phrase	%.*s/	%.*s/
+msg.phrase	Cannot read %s\n%s	Non se pode ler %s\n%s
+msg.phrase	Folder: %s	Cartafol: %s
+msg.phrase	[DIR] %s	[DIR] %s
+msg.phrase	      %s	%s
+msg.phrase	%lu.%luM	%lu.%luM
+msg.phrase	%luK	%luK
+msg.phrase	%luB	%luB
+msg.phrase	BOOK1%s	LIBRO1%s
+msg.phrase	%c:/	%c:/
+msg.phrase	Unsupported extension.\nUse .csv, .ods or .fods.	Extensión non compatible.\nUse .csv, .ods ou .fods.
+msg.phrase	%s already exists.\nOverwrite it?	%s xa existe.\nSobreescribilo?
+msg.phrase	%s may not be writable.\nTry anyway?	É posible que %s non se poida escribir.\nProba de todos os xeitos?
+msg.phrase	Unknown file type for %s	Tipo de ficheiro descoñecido para %s
+msg.phrase	Unsupported file type.\nUse .csv, .ods or .fods.	Tipo de ficheiro non compatible.\nUse .csv, .ods ou .fods.
+msg.phrase	Cannot open %s\n%s	Non se pode abrir %s\n%s
+msg.phrase	%s is a folder.	%s é un cartafol.
+msg.phrase	Cannot import %s\n%s	Non se pode importar %s\n%s
+msg.phrase	Loaded %s	Cargado %s
+msg.phrase	Cannot build the %s file.	Non se pode construír o ficheiro %s.
+msg.phrase	Cannot write %s\n%s	Non se pode escribir %s\n%s
+msg.phrase	%s %s	%s %s
+msg.phrase	unsupported version %u	versión non compatible %u
+msg.phrase	%d:%d:%d:%d:%d:%d	%d:%d:%d:%d:%d:%d
+msg.phrase	Octave %d	Oitava %d
+msg.phrase	Note %s	Nota %s
+msg.phrase	Instrument %d	Instrumento %d
+msg.phrase	Volume %s	Volume %s
+msg.phrase	Effect %c	Efecto %c
+msg.phrase	Parameter %s	Parámetro %s
+msg.phrase	Pattern %s	Patrón %s
+msg.phrase	Playing pattern %s	Patrón de reprodución %s
+msg.phrase	SAVE ERROR: %s	GARDAR ERRO: %s
+msg.phrase	Saved %s	Gardado %s
+msg.phrase	LOAD ERROR: %s	ERRO DE CARGA: %s
+msg.phrase	BPM %d	BPM %d
+msg.phrase	Speed %d	Velocidade %d
+msg.phrase	Preview %s	Vista previa %s
+msg.phrase	Instrument %s %s	Instrumento %s %s
+msg.phrase	Overwrite %s? (Y/N)	Sobrescribir %s? (S/N)
+msg.phrase	 | BPM %s SPD %s 	| BPM %s SPD %s
+msg.phrase	 SGNO TRACKER 1.0 | 	SGNO TRACKER 1.0 |
+msg.phrase	FILE 	FICHEIRO
+msg.phrase	 PAT %s	PAT %s
+msg.phrase	 ORD %d/%d	ORD %d/%d
+msg.phrase	 INS %s 	INS %s
+msg.phrase	 OCT %d	OUT %d
+msg.phrase	 EDIT %s	EDITAR %s
+msg.phrase	ON 	ON
+msg.phrase	 FOL %s	FOL %s
+msg.phrase	TRACK %d	PISTA %d
+msg.phrase	%c%s	%c%s
+msg.phrase	%s %s %s %s	%s %s %s %s
+msg.phrase	%s 	%s
+msg.phrase	%d %s %s	%d %s %s
+msg.phrase	ORDER %d/%d	ORDE %d/%d
+msg.phrase	PAT   %s	PAT %s
+msg.phrase	INS %s %s	INS %s %s
+msg.phrase	OCT %d  EDIT %s	OCT %d EDITAR %s
+msg.phrase	FOLLOW %s	SEGUIR %s
+msg.phrase	PLAYING  ORD %d/%d  PAT %s  ROW %s/%d  SPD %s  BPM %d  F7 STOP	PLAYING ORD %d/%d PAT %s ROW %s/%d SPD %s BPM %d F7 STOP
+msg.phrase	READY  EDIT %s  OCT %d  F1 HELP  F5 PLAY  CTRL-S SAVE	LISTO EDICIÓN %s OUT %d F1 AXUDA F5 REPRODUCIR CTRL-S GARDAR
+msg.phrase	 %s 	%s
+msg.phrase	  F5          Play the song from the current order	F5 Reproduce a canción desde a orde actual
+msg.phrase	  F6          Play the current pattern	F6 Reproduce o patrón actual
+msg.phrase	  F7/Ctrl-C   Stop playback	F7/Ctrl-C Deter a reprodución
+msg.phrase	  Space       Play / stop	Space Play / parar
+msg.phrase	  F4          Save as	F4 Gardar como
+msg.phrase	  Ctrl-S      Save (asks for a name if new)	Ctrl-S Gardar (pide un nome se é novo)
+msg.phrase	  Ctrl-O      Open a song	Ctrl-O Abre unha canción
+msg.phrase	  Ctrl-N      New song	Ctrl-N Nova canción
+msg.phrase	  F12         Quit (confirmation if modified)	F12 Saír (confirmación se se modifica)
+msg.phrase	  [ ]         Previous / next order entry	[ ] Entrada de pedido anterior / seguinte
+msg.phrase	  { }         Insert / delete an order entry	{ } Inserir/eliminar unha entrada de pedido
+msg.phrase	  - +         Change the pattern in the entry	- + Cambia o patrón na entrada
+msg.phrase	  F11         Follow playback (turns off on manual move)	F11 Seguir a reprodución (desactiva o movemento manual)
+msg.phrase	  F1          Help; Left/Right changes page	F1 Axuda; Esquerda/Dereita cambia a páxina
+msg.phrase	  F8          Toggle edit mode	F8 Alterna o modo de edición
+msg.phrase	  Arrows      Move the cursor	Frechas Move o cursor
+msg.phrase	  PgUp/PgDn   Jump 16 rows	PgUp/PgDn Saltar 16 filas
+msg.phrase	  Home/End    First / last row	Inicio/Fin Primeira/última fila
+msg.phrase	  F9/F10      Octave down / up	F9/F10 Octava abaixo/arriba
+msg.phrase	  Z S X D C V G B H N J M      lower piano row	Z S X D C V G B H N J M fila inferior de piano
+msg.phrase	  Q 2 W 3 E R 5 T 6 Y 7 U      upper piano row	Q 2 W 3 E R 5 T 6 Y 7 U fila superior de piano
+msg.phrase	  1           Note off	1 Nota desactivada
+msg.phrase	  0 / Del     0 clears note/inst/fx; Del clears any	0 / Del 0 borra nota/inst/fx; Del borra calquera
+msg.phrase	  Ctrl-Z      Undo the last pattern/order edit	Ctrl-Z Desfacer a última edición do patrón/orde
+msg.phrase	  Axy   Volume slide: up x, down y	Slide Volume Axy: arriba x, abaixo y
+msg.phrase	  Cxx   Note cut after xx ticks	Cxx Nota cortada despois de xx ticks
+msg.phrase	  Dxx   Set volume (00..7F)	Dxx Establecer volume (00..7F)
+msg.phrase	  Fxx   Speed if xx < 20, otherwise BPM	Fxx Velocidade se xx < 20, en caso contrario, BPM
+msg.phrase	  Hxy   Arpeggio x, y semitones	Hxy Arpexo x, y semitonos
+msg.phrase	  Pxx   Pitch slide up	Pxx Desliza cara arriba
+msg.phrase	  Qxx   Pitch slide down	Qxx Desliza cara abaixo
+msg.phrase	  F2 song settings, F3 instrument list	Configuración de cancións F2, lista de instrumentos F3
+msg.phrase	HELP %d/2	AXUDA %d/2
+msg.phrase	  Title	Título
+msg.phrase	  [%s_]	[%s_]
+msg.phrase	  BPM   : %d     (left/right -1/+1, -/+ -5/+5)	BPM: %d (esquerda/dereita -1/+1, -/+ -5/+5)
+msg.phrase	  Speed : %d ticks/row	Velocidade: %d ticks/fila
+msg.phrase	  Rows  : %d (fixed)	Filas: %d (fixo)
+msg.phrase	  Order : %d entries	Orde: %d entradas
+msg.phrase	  Patterns in use : %d	Patróns en uso: %d
+msg.phrase	 #  NAME       WAVE       A   D   S   R  VOL	# NAME WAVE A D S R VOL
+msg.phrase	 %c %d  %-9s %-9s %3d %3d %3d %3d %4d	%c %d %-9s %-9s %3d %3d %3d %3d %4d
+msg.phrase	Current instrument: %s %s	Instrumento actual: %s %s
+msg.phrase	  %s	%s
+msg.phrase	DIR  %s	DIR %s
+msg.phrase	 %c %s%s	%c %s%s
+msg.phrase	Files: %d	Arquivos: %d
+msg.phrase	%02d	%02d
+msg.phrase	%03d	%03d
+msg.phrase	%02X	%02X
+msg.phrase	SGNO TRACKER: incompatible SGX ABI\n	SGNO TRACKER: SGX ABI incompatible
+msg.phrase	S: check: wait -- a file is being read or written	S: comproba: agarda -- estase lendo ou escribindo un ficheiro
+msg.phrase	S: check: the drive is busy or not ready	S: comproba: a unidade está ocupada ou non está lista
+msg.phrase	nothing for this item (ContextMenu.cfg)	nada para este elemento (ContextMenu.cfg)
+msg.phrase	bad command in ContextMenu.cfg	comando incorrecto en ContextMenu.cfg
+msg.phrase	unknown action in ContextMenu.cfg	acción descoñecida en ContextMenu.cfg
+msg.prefix	menu	menú
+msg.phrase	choose a file or folder	escolle un ficheiro ou cartafol
+msg.phrase	this drive cannot be written	esta unidade non se pode escribir
+msg.phrase	an archive job is already running	xa se está a executar un traballo de arquivo
+msg.phrase	no PSRAM for the archive task	sen PSRAM para a tarefa de arquivo
+msg.phrase	could not start the archive task	non se puido iniciar a tarefa de arquivo
+msg.phrase	too many items (32 at most)	demasiados elementos (32 como máximo)
+msg.phrase	nothing to compress	nada que comprimir
+msg.phrase	no name (or the name has / or \\)	sen nome (ou o nome ten / ou \\)
+msg.phrase	32 items at most (mark fewer, or put them in a folder)	32 elementos como máximo (marca menos ou colócaos nun cartafol)
+msg.prefix	archive	arquivo
+msg.prefix	compress	comprimir
+msg.prefix	render	render
+msg.phrase	5 Macro	5 Macro
+msg.phrase	6 Help	6 Axuda
+msg.phrase	Run current	Executar corrente
+msg.phrase	Run the macro at the cursor (#! header cell and the cells below it)	Executar a macro no cursor (#! cela de cabeceira e as celas debaixo dela)
+msg.phrase	Run selection	Executar selección
+msg.phrase	Run the selected cells as one macro (top-left cell is the #! header)	Executar as celas seleccionadas como unha macro (a cela superior esquerda é a cabeceira #!)
+msg.phrase	Run all	Corre todos
+msg.phrase	Run every macro in the sheet, top-left to bottom-right	Executar todas as macros da folla, de arriba á esquerda a abaixo á dereita
+msg.phrase	Last error	Último erro
+msg.phrase	Show the last macro error	Mostra o último erro de macro
+msg.phrase	Macro	Macro
+msg.phrase	Macro: run #!ruby / #!python / #!basic cells	Macro: executa #!ruby / #!python / #!celdas básicas
+msg.phrase	Edit the cell (F2)	Editar a cela (F2)
+msg.phrase	Fit widths/heights to the contents	Axustar anchos/alturas ao contido
+msg.phrase	Last macro error	Último erro de macro
+msg.phrase	No macro error.	Non hai erro de macro.
+msg.phrase	IME on	IME activado
+msg.phrase	IME off	IME desactivado
+msg.phrase	Macro: %s %s ...	Macro: %s %s...
+msg.phrase	%s: this firmware cannot run macros (SGX ABI 5.10 or later)	%s: este firmware non pode executar macros (SGX ABI 5.10 ou posterior)
+msg.phrase	Macro error: %s	Erro de macro: %s
+msg.phrase	Macro: %s done	Macro: %s feito
+msg.phrase	a macro is already running	xa se está a executar unha macro
+msg.phrase	this language is not available	este idioma non está dispoñible
+msg.phrase	not enough memory	memoria insuficiente
+msg.phrase	the macro stopped with an error	a macro detívose cun erro
+msg.phrase	Macro error %s: %s	Erro de macro %s: %s
+msg.phrase	Macro: not enough memory	Macro: memoria insuficiente
+msg.phrase	Macro: the cursor is not on a macro (a #!ruby / #!python / #!basic cell or the cells below it)	Macro: o cursor non está nunha macro (unha cela básica #!ruby / #!python / #! ou as celas debaixo dela)
+msg.phrase	Macro: no macro in the sheet	Macro: non hai macro na folla
+msg.phrase	Run all macros	Executar todas as macros
+msg.phrase	Macros: %d. Run them all, top-left to bottom-right? Changes cannot be undone.	Macros: %d. Execútalos todos, de arriba á esquerda a abaixo á dereita? Os cambios non se poden desfacer.
+msg.phrase	Macro: %d of %d done	Macro: %d de %d feito
+msg.phrase	Cleared the cell	Limpou a cela
+msg.phrase	Cleared the selection	Borrou a selección
+msg.phrase	Background colour = %d	Cor de fondo = %d
+msg.phrase	Text colour = %d	Cor do texto = %d
+msg.phrase	Graph: line	Gráfico: liña
+msg.phrase	Graph: bar	Gráfico: barra
+msg.phrase	Graph: mixed	Gráfico: mixto
+msg.phrase	Graph: pie	Gráfico: torta
+msg.phrase	Exported %s	Exportado %s

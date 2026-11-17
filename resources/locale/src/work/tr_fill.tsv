@@ -1,0 +1,179 @@
+# Türkçe — strings added since 2026-11-04 (machine translation, unreviewed; 2026-11-16)
+U004	Tümünü işaretle / işaretleri ters çevir (PC-98 FD gibi)
+U006	İşaretle ve ilerle / yalnızca işaretle
+U008	Aralık seç (Boşluk aralığı işaretler)
+U009	Klasöre gir / dosyayı aç (F2/X çalıştır)
+U012	Kopyala (Shift+C / Shift+F3 hedefi ağaçtan seçer)
+U014	Sil (Shift+D / Shift+F4 klasörü siler)
+U016	Öznitelikleri değiştir
+U018	Metin olarak göster (Shift+V / Ctrl+Alt+F7 hex)
+U019	Sürücü bilgisi
+U020	Yeni klasör / yeni dosya
+U021	Shell sgsh / ortamı çıkar
+U022	Yeniden yükle
+U023	Ekranı PNG olarak kaydet
+U024	Pencereyi kapat / seçimi kaldır (alt klasörde: yukarı çık)
+U025	Dosya işlemleri (FD gibi: işaretler, sonra aralık, sonra imleç)
+U026	Kopyala: hedefi sürücü ve klasör ağacından seç. ESC durdurur
+U027	Sil: y ile onayla. İşaretler ve aralıklar birlikte. Klasörler içerikleriyle
+U028	Klasörü sil (içeriğiyle)
+U030	Öznitelikler: R salt okunur, H gizli, S sistem, A arşiv
+U031	Yeni klasör
+U032	Yeni (boş) dosya
+U033	Metin olarak göster (Shift+V / Ctrl+Alt+F7 hex)
+U034	Shell sgsh (exit / Ctrl-D dosya yöneticisine döner)
+U036	FDD / LS-120 / CD ortamını çıkar
+U037	Listeyi yeniden yükle (CD: TOC'den)
+U038	PC'den ZMODEM ile al (zm.sh put)
+U039	PC'ye ZMODEM ile gönder (zm.sh get)
+U041	Ruby REPL (her seferde bir satır, Ctrl-D / ESC bitirir)
+U042	MicroPython REPL
+U043	4 MB'lik parçalara böl / .001'den birleştir
+U044	Böl / birleştir (Ctrl+F11 / F12 ile aynı)
+U045	Ekran (Alt+F, FD'nin F tuşlarıyla çakışmaz)
+U047	FB görüntü sayfası (0-3)
+U048	FB'yi 0'a temizle / parlaklığı yarıya indir (RGB555)
+U050	FB görüntü sayfasını temizle / parlaklığı yarıya indir
+U057	S:'yi hatalar için denetle (onarmadan önce sorar)
+U061	VGM/VGZ'yi 96 kHz / 24 bit WAV olarak dışa aktar
+U073	Düzenleyici (E / Shift+F8)
+U082	Shell (csh alt kümesi. exit / Ctrl-D döner, help komutları listeler)
+U092	S: sürücüsünü hatalar için denetle
+U093	Dosyalar %lu  klasörler %lu
+U094	Boyut zincirle uyuşmuyor
+U095	Hiçbir şeyin kullanmadığı kümeler
+U096	Çapraz bağlı kümeler
+U097	Bozuk girdiler
+U098	İki FAT kopyası farklı
+U099	Hata yok.
+U100	Hatalar bulundu. Onarılsın mı?
+U101	Onarıldı (yukarıdaki sayılar düzeltildi).
+U102	Denetlenemedi veya onarılamadı (S: meşgul).
+U103	[ Onar ]
+U104	[ İptal ]
+U112	%c: hangi harfe sabitlensin? (S hariç A-Z. ESC iptal eder)
+U113	Sürücü  harf / Enter seç  F2 harfi sabitle/çöz  F3 şu harfe sabitle...  L / ESC iptal
+U114	  bölüm %u
+U115	%c:* (sabit, bağlı değil) %04X:%04X%s  %s
+U135	2 Çalış
+U136	3 Kopya
+U137	4 Sil
+U138	5 Ad
+U139	7 TemFB
+U140	8 KarFB
+U141	9 Sürücü
+U142	10 EP
+U145	1 Özn
+U146	2 Bilgi
+U147	3 Taşı
+U148	5 Klasör
+U149	6 Shell
+U150	8 Düzen
+U151	9 Göster
+U152	10 S:den
+U154	12YenBaş
+U172	10 ZMgön
+U176	7 Hex
+U177	9 Lisans
+U178	11 Ayar
+U179	Saati ayarla (Japonya saati. NTP ayarlayamadı)
+U180	Parametrelerle çalıştır
+U183	Saat:
+U184	Çalış:
+U186	YYYY-AA-GG ss:dd  Enter ayarla  ESC koru
+U187	Enter çalıştır  <-> taşı  BS / Del sil  ESC iptal
+U188	Enter yeniden adlandır  <-> taşı  BS / Del sil  ESC iptal
+U189	Enter oluştur  <-> taşı  BS / Del sil  ESC iptal
+U191	 öğe
+U192	Klasörler içerikleriyle silinir. Emin misiniz?
+U194	(Geri alınamaz. Klasörlerdeki dosyalar da silinir)
+U206	2 Kaydet
+U207	5 Renk
+U208	6 Hira
+U209	7 Kata
+U210	8 Tahmin
+U211	10 Çıkış
+U212	1 Baş
+U213	2 Son
+U214	3 EklÜzr
+U215	4 Sözlük
+U216	6 HHira
+U217	7 HKata
+U229	 F5                            Renklendirme (uzantıdan; C/C++, mruby, MicroPython, SG BASIC, yok)
+U236	                               Yarım genişlik hiragana (Shift+F6) / yarım genişlik katakana (Shift+F7)
+U242	       Shift+← → Öbeğin sağ ucunu bir karakter kısalt/uzat (yeni adaylar)
+U243	       ↑ ↓ / Tab               Penceredeki önceki / sonraki aday (metnin altında, alta yakınsa üstte)
+U244	       →→→ üzerinde Enter      Tüm adaylar (2 x 8, ← → sütun ve sayfa, Enter seçer)
+U245	       Enter                   Sonraki öbek (sonuncusunda hepsini onaylar)
+U247	 Shift+F1 / F2 / F3 / F4       Baş / son / ekle-üzerine yaz / kullanıcı sözlüğüne
+U250	Değiştirildi  Y: kaydet ve kapat  N: kaydetmeden kapat  ESC: geri
+U251	[Tahmin] Tab/↑↓: aday  Boşluk: dönüştür  Esc: iptal
+U252	[Adaylar] ↑↓: seç  ←→: sütun/sayfa  Enter: al
+U253	[Dönüştür] ↑↓aday ←→öbek Shift+←→sınır Enter sonraki
+U254	[한국어] Tab/↑↓: aday  Enter/Boşluk: onayla
+U255	[English] Tab/↑↓: aday  Enter: onayla
+U256	2 setli Hangul girişi  Ctrl-Space: alfanümerik
+U257	Tahmine dayalı tamamlama  Ctrl-Space: doğrudan giriş
+U258	Sözlük yok: yalnızca hiragana/katakana  F6/F7
+U259	Boşluk: dönüştür  F7: katakana  Ctrl-Space: alfanümerik
+U260	Boşluk: dönüştür  F6: hiragana  Ctrl-Space: alfanümerik
+U261	Yarım genişlik  F6: hiragana  F7: katakana  Shift+F6/F7: yarım
+U262	IME kapalı
+U263	 tahmin
+U268	Renklendirme: %s
+U276	Adaylar
+U295	Renklendirmeyi değiştir (C/C++, mruby, MicroPython, SG BASIC, yok)
+U309	 Kaynak: %s
+U310	 Hedef: %s
+U329	 Boşluk: duraklat  m: MIDI OUT  q / ESC: durdur
+M727	S: denetimi: bekleyin -- bir dosya okunuyor veya yazılıyor
+M728	S: denetimi: sürücü meşgul veya hazır değil
+M729	bu öğe için bir şey yok (ContextMenu.cfg)
+M730	ContextMenu.cfg içinde hatalı komut
+M731	ContextMenu.cfg içinde bilinmeyen eylem
+M732	menü
+# 2026-11-17: archive window, compress name field, WAV export window (machine translation, unreviewed)
+U342	Arşiv adı (işaretli öğeler, yoksa imleçteki öğe)
+U343	Enter sıkıştır  ←→ taşı  BS / Del sil  ESC iptal
+U344	WAV dışa aktarma: %s iptal edildi (%s)
+U345	WAV dışa aktarma: %s başarısız (%s)
+U346	WAV dışa aktarma: %s toplam %s
+U347	 WAV dışa aktarma (96kHz / 24bit): %s
+U348	İptal edildi
+U349	Başarısız
+U350	 Toplam %s
+U351	 İptal edildi (%s; yarım kalan dosya silindi)
+U352	 Dışa aktarılamadı (%s). Neden:
+U353	 (neden bilinmiyor)
+U354	 %u%%   geçen %s%s
+U355	 ESC: durdur (yarım kalan dosya silinir)
+U356	Arşiv: %s
+U357	Okunuyor... (iptal için ESC)
+U358	 %u öğe%s  toplam %s bayt  çıkarma yeri: %s
+U359	 Enter çıkar  X hepsini çıkar  ↑↓ taşı  ESC kapat
+U360	Sıkıştır
+U361	Liste
+U362	Çıkar
+U363	 Toplam %s   %u öğe
+U364	 Toplam %s   %u dosya
+U365	 İptal edildi (%s; bitmemiş dosya silindi)
+U366	 Yapılamadı (%s): %s
+U367	 %u%%   geçen %s   %s bayt%s
+U368	 geçen %s   %s bayt%s
+U369	 ESC: durdur (bitmemiş dosya silinir)
+U370	Arşiv: %s başarısız (%s)
+U371	Sıkıştırıldı: %s (%u öğe)
+U372	Çıkarıldı: %s (%u dosya)
+# 2026-11-17: archive / compress messages (machine translation, unreviewed)
+M733	bir dosya veya klasör seçin
+M734	bu sürücüye yazılamaz
+M735	bir arşiv işi zaten çalışıyor
+M736	arşiv işi için PSRAM yok
+M737	arşiv işi başlatılamadı
+M738	çok fazla öğe (en çok 32)
+M739	sıkıştırılacak bir şey yok
+M740	ad yok (veya adda / ya da \\ var)
+M741	en çok 32 öğe (daha az işaretleyin ya da bir klasöre koyun)
+M742	arşiv
+M743	sıkıştır
+M744	WAV dışa aktarma

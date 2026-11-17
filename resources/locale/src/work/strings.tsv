@@ -1,0 +1,1104 @@
+U001	List (files and folders in 2 columns x 19 rows)
+U002	Move the cursor (left / right: the other column)
+U003	Previous page / next page
+U004	Mark all / invert the marks (as in PC-98 FD)
+U005	First / last
+U006	Mark and move on / mark only
+U007	Shift+Arrows
+U008	Select a range (Space marks the range)
+U009	Enter a folder / open a file (F2/X run)
+U010	Up to the parent folder
+U011	Choose a drive (USB, floppy, CD, S: built-in)
+U012	Copy (Shift+C / Shift+F3 picks the destination from the tree)
+U013	Move
+U014	Delete (Shift+D / Shift+F4 delete a folder)
+U015	Rename
+U016	Change the attributes
+U017	Open in the editor
+U018	View as text (Shift+V / Ctrl+Alt+F7 hex)
+U019	Drive information
+U020	New folder / new file
+U021	Shell sgsh / eject the medium
+U022	Reload
+U023	Save the screen as PNG
+U024	Close the window / clear the selection (in a subfolder: go up)
+U025	File operations (as in FD: marks, then the range, then the cursor)
+U026	Copy: pick the destination from the drive and folder tree. ESC stops
+U027	Delete: confirm with y. Marks and ranges at once. Folders with their contents
+U028	Delete a folder (with its contents)
+U029	Rename (edit the name, Enter)
+U030	Attributes: R read-only, H hidden, S system, A archive
+U031	New folder
+U032	New (empty) file
+U033	View as text (Shift+V / Ctrl+Alt+F7 hex)
+U034	Shell sgsh (exit / Ctrl-D back to the filer)
+U035	Identity of the drive (INQUIRY, IDENTIFY)
+U036	Eject the FDD / LS-120 / CD medium
+U037	Reload the list (CD: from the TOC)
+U038	Receive from the PC by ZMODEM (zm.sh put)
+U039	Send to the PC by ZMODEM (zm.sh get)
+U040	Compile .rb and write .mrb
+U041	Ruby REPL (one line at a time, Ctrl-D / ESC to end)
+U042	MicroPython REPL
+U043	Split into 4 MB parts / join from .001
+U044	Split / join (same as Ctrl+F11 / F12)
+U045	Screen (Alt+F, does not clash with the FD F keys)
+U046	Show / hide the FB (picture) / the text
+U047	FB display page (0-3)
+U048	Clear the FB to 0 / halve its brightness (RGB555)
+U049	USB endpoints and the LAN state
+U050	Clear the FB display page / halve its brightness
+U051	Text attribute samples
+U052	Monitor EDID (read at boot)
+U053	Font ROM licenses and credits
+U054	Settings (display language, IME and keyboard locale)
+U055	Clock (Japan time set by NTP; s syncs now)
+U056	Open spreadsheet (SGCALC)
+U057	Check S: for errors (asks before repairing)
+U058	Open TRACKER
+U059	Reboot (asks first)
+U060	Play the ADC stereo input (GP40 / 41)
+U061	Export VGM/VGZ to a 96 kHz / 24-bit WAV
+U062	This help
+U063	Change the page
+U064	Close
+U065	Text / hex viewer (like less)
+U066	One line
+U067	One page
+U068	Half a page
+U069	Search (forward / backward) / next / previous
+U070	Back to the list (F1: the viewer's help)
+U071	Image viewer
+U072	Back to the list (F2 F3 F6 F7 Shift+F2 F3 work)
+U073	Editor (E / Shift+F8)
+U074	Save (UTF-8; line ends and BOM kept)
+U075	Close (if changed: Y / N / ESC)
+U076	Insert / overwrite
+U077	IME on/off (Japanese / English / Korean)
+U078	IME language (Japanese / English / Korean)
+U079	Commit as hiragana / katakana
+U080	The editor's help
+U081	Shell
+U082	Shell (a csh subset. exit / Ctrl-D to return, help lists the commands)
+U083	List and moving
+U084	File operations
+U085	Screen and devices
+U086	Viewers and the editor
+U087	Help  %u / %u  %s
+U088	Left Right: change the page    F1 / ESC: close
+U089	Reboot sgnano?
+U090	[ Reboot ]
+U091	[ Cancel ]
+U092	Check the S: drive for errors
+U093	Files %lu  folders %lu
+U094	Size does not match the chain
+U095	Clusters used by nothing
+U096	Cross-linked clusters
+U097	Broken entries
+U098	The two FAT copies differ
+U099	No errors.
+U100	Errors were found. Repair them?
+U101	Repaired (the numbers above were fixed).
+U102	Could not check or repair (S: is busy).
+U103	[ Repair ]
+U104	[ Cancel ]
+U105	Any key closes
+U106	Settings
+U107	Display language
+U108	Keyboard locale
+U109	Up / Down  Enter choose  ESC cancel
+U110	Display language
+U111	Up / Down  Enter: set  ESC: back
+U112	Fix %c: as which letter? (A-Z except S. ESC cancels)
+U113	Drive  letter / Enter select  F2 fix/unfix the letter  F3 fix as...  L / ESC cancel
+U114	  partition %u
+U115	%c:* (fixed, not connected) %04X:%04X%s  %s
+U116	Notice
+U117	Drive %c:  %s
+U118	Drive  (none)
+U119	Audio CD  %u tracks
+U120	Folders %u  files %u  total %s
+U121	Reading...
+U122	* marked %u  %s
+U123	%lu bytes
+U124	Attr %s   modified %s   created %s   %s
+U125	Sun
+U126	Mon
+U127	Tue
+U128	Wed
+U129	Thu
+U130	Fri
+U131	Sat
+U132	The clock is not set (NTP over the LAN)
+U133	FB  display %u  write %u
+U134	[F8] 1 Help
+U135	[F8] 2 Run
+U136	[F8] 3 Copy
+U137	[F8] 4 Del
+U138	[F8] 5 Rename
+U139	[F8] 7 FBclr
+U140	[F8] 8 FBdim
+U141	[F8] 9 Drive
+U142	[F8] 10 EPs
+U143	[F8] 11 Clock
+U144	[F8] 12 CALC
+U145	[F8] 1 Attr
+U146	[F8] 2 Info
+U147	[F8] 3 Move
+U148	[F8] 5 Mkdir
+U149	[F8] 6 Shell
+U150	[F8] 8 Edit
+U151	[F8] 9 View
+U152	[F8] 10 S:chk
+U153	[F8] 11 TRACK
+U154	[F8] 12Reboot
+U155	[F8] 1 New
+U156	[F8] 2 Folder
+U157	[F8] 3 Rename
+U158	[F8] 4 Attrib
+U159	[F8] 6 Copy
+U160	[F8] 7 Move
+U161	[F8] 8 Delete
+U162	[F8] 9 Edit
+U163	[F8] 10 mrbc
+U164	[F8] 11 Split
+U165	[F8] 12 Join
+U166	[F8] 1 Attrs
+U167	[F8] 2 FB
+U168	[F8] 3 Text
+U169	[F8] 5 ScrSht
+U170	[F8] 6 DispPg
+U171	[F8] 9 ZMrecv
+U172	[F8] 10ZMsend
+U173	[F8] 2 FBClr
+U174	[F8] 3 FBDim
+U175	[F8] 5 Reload
+U176	[F8] 7 Hex
+U177	[F8] 9 Lic
+U178	[F8] 11 Setup
+U179	Set the clock (Japan time. NTP could not set it)
+U180	Run with parameters
+U181	New folder
+U182	New file
+U183	Time:
+U184	Run: 
+U185	Name:
+U186	YYYY-MM-DD hh:mm  Enter set  ESC keep
+U187	Enter run  <-> move  BS / Del delete  ESC cancel
+U188	Enter rename  <-> move  BS / Del delete  ESC cancel
+U189	Enter create  <-> move  BS / Del delete  ESC cancel
+U190	Delete
+U191	 items
+U192	Folders are deleted with their contents. Are you sure?
+U193	Delete this file?
+U194	(This cannot be undone. Files in the folders are deleted too)
+U195	[ Yes (Y) ]
+U196	[ No (N) ]
+U197	hex viewer: choose a file
+U198	text viewer: choose a file
+U199	Move to
+U200	Copy to
+U201	The buffer is full
+U202	The drive is read-only
+U203	Cannot save (no writer)
+U204	Could not start saving (the drive is busy?)
+U205	Saving...
+U206	[F8] 2 Save
+U207	[F8] 5 Colour
+U208	[F8] 6 Hira
+U209	[F8] 7 Kata
+U210	[F8] 8 Pred
+U211	[F8] 10 Quit
+U212	[F8] 1 Top
+U213	[F8] 2 End
+U214	[F8] 3 InsOvr
+U215	[F8] 4 Dict
+U216	[F8] 6 HHira
+U217	[F8] 7 HKata
+U218	 %s  %s  Ln %lu/%lu Col %u  %s  %s %s%s%s
+U219	*mod
+U220	OVR
+U221	INS
+U222	  R/O
+U223	 Editor (sgnano edit)                        F1 / ESC closes
+U224	 Arrows / Home End / PgUp PgDn  move the cursor
+U225	 Ctrl-T / Ctrl-B               top / end of the file
+U226	 BS / Del                      erase before / at the cursor
+U227	 Enter                         new line (keeps the indent)
+U228	 Tab / Ins                     tab / insert or overwrite
+U229	 F5                            Colouring (from the extension; C/C++, mruby, MicroPython, SG BASIC, none)
+U230	 F2  (Ctrl-S)                  save (UTF-8, line ends kept)
+U231	 F10 / ESC                     close (asks if changed)
+U232	 IME:  Ctrl-Space / F12        on / off (あ / A)
+U233	       F9                      IME language (this editor only; restored on close)
+U234	       F8 Japanese predictive conversion on/off
+U235	       Japanese                romaji -> hiragana (F6) / katakana (F7)
+U236	                               Half-width hiragana (Shift+F6) / half-width katakana (Shift+F7)
+U237	                               Predict with 2 or more characters, convert continuous clause with Space
+U238	       English Predictive completion with 2 or more characters
+U239	       한국어 2 Bol-style Hangul
+U240	       Space / Enter Convert / Confirm
+U241	       ← → Select a phrase
+U242	       Shift+← → Shrink/grow the right end of the clause by one character (new candidates)
+U243	       ↑ ↓ / Tab               Previous / next candidate in the popup (below the text, above near the bottom)
+U244	       Enter on →→→            All candidates (2 x 8, ← → column and page, Enter chooses)
+U245	       Enter                   Next clause (confirms the whole at the last clause)
+U246	       Ctrl-U Add current word to user dictionary
+U247	 Shift+F1 / F2 / F3 / F4       Top / end / insert-overwrite / to the user dictionary
+U248	       BS / ESC Go back one character / Cancel
+U249	       , . - [ ] /             、 。 ー 「 」 ・
+U250	Modified  Y: save and close  N: close without saving  ESC: back
+U251	[Prediction] Tab/↑↓: candidate  Space: convert  Esc: cancel
+U252	[Candidates] ↑↓: select  ←→: column/page  Enter: choose
+U253	[Convert] ↑↓cand ←→clause Shift+←→bound Enter next
+U254	[한국어] Tab/↑↓: candidate  Enter/Space: confirm
+U255	[English] Tab/↑↓: candidate  Enter: confirm
+U256	2-set Hangul input  Ctrl-Space: alphanumeric
+U257	Predictive completion  Ctrl-Space: direct input
+U258	No dictionary: hiragana/katakana only  F6/F7
+U259	Space: convert  F7: katakana  Ctrl-Space: alphanumeric
+U260	Space: convert  F6: hiragana  Ctrl-Space: alphanumeric
+U261	Half-width  F6: hiragana  F7: katakana  Shift+F6/F7: half
+U262	IME off
+U263	 predict
+U264	Predictive Japanese translation: On
+U265	Predictive translation for Japanese: Off
+U266	Use with Japanese IME
+U267	Cannot add to user dictionary
+U268	Colouring: %s
+U269	Loading...
+U270	Could not read the file
+U271	%lu lines%s%s
+U272	  opened Shift_JIS as UTF-8 (saved as UTF-8)
+U273	  read-only
+U274	Saved
+U275	Could not save (write failed)
+U276	Candidates
+U277	[F8] 7 WrtPg
+U278	[F8] 9 Text
+U279	[F8] 9 Hex
+U280	Loading %lu%%  
+U281	(the start only)  
+U282	Hex  q ESC: back  F1: help
+U283	Text  q ESC: back  F1: help
+U284	Viewer keys (like less; the same for text and hex)
+U285	One line down
+U286	One line up
+U287	One page down
+U288	One page up
+U289	Half a page down / up
+U290	/text  ?text
+U291	Search down / up (ignores case)
+U292	Next / previous match
+U293	Show as hex (at the same place)
+U294	Show as text (at the same place)
+U295	Change the colouring (C/C++, mruby, MicroPython, SG BASIC, none)
+U296	Show / hide the FB / the text
+U297	FB display page / write page
+U298	Back to the filer
+U299	Close this help
+U300	Copy
+U301	 %s: reading the folders... %u
+U302	 %s: counting the free space at the destination...
+U303	 %s: not enough free space at the destination
+U304	 Move: removing the source folders
+U305	Done
+U306	Stopped
+U307	 %s in progress%s
+U308	 (stopping)
+U309	 From: %s
+U310	 To: %s
+U311	 Files %u / %u  folders %u  %s / %s  (%u%%)%s
+U312	  too many: only some
+U313	 Needs %s, free %s. Continue?
+U314	 Y: continue   N / ESC: cancel
+U315	 Press any key to close
+U316	 ESC: stop
+U317	 %s: ←→ drive  ↑↓ folder  Space open/close  Enter choose  ESC cancel
+U318	 Cannot read: %s
+U319	 Reading the folders... (ESC stops)  %u
+U320	 %u folders%s
+U321	 (too many or too deep: only some)
+U322	Stopped opening the folder
+U323	Space opens it again. ESC once more cancels
+U324	 SMF / SGT player   %s
+U325	 Loading... %lu / %lu bytes
+U326	 %s / %s   %s   ports %u
+U327	Paused
+U328	Playing
+U329	 Space: pause  m: MIDI OUT  q / ESC: stop
+U330	 q / ESC: cancel
+U331	Font ROM licenses and credits\n\nROM: %s (version %lu.%lu, %lu characters, from 0x%08lX in the flash)\n\n
+U332	== Fonts in the ROM (the origin table of the ROM) ==\n
+U333	  (the ROM has no table)\n
+U334	\n== The credits area of the ROM ==\n\n
+U335	(no such area)\n
+U336	\n== Licenses of the built-in software ==\n
+U337	 Saving %s as PNG   %s
+U338	Screen
+U339	 Building... %lu / %lu rows
+U340	 Writing... %lu / %lu KB (the FB is hidden)
+U341	Could not write
+M001	msg.phrase	the drive went away
+M002	msg.phrase	reading the partitions again...
+M003	msg.phrase	could not open the volume (no memory?)
+M004	msg.phrase	opening the volume...
+M005	msg.phrase	no memory for the file list
+M006	msg.phrase	reading the directory... (retrying)
+M007	msg.phrase	could not read the directory
+M008	msg.phrase	reading the directory...
+M009	msg.phrase	the drive did not answer -- reading the partitions again
+M010	msg.phrase	could not read the directory (not FAT12/16/32?)
+M011	msg.phrase	too many entries -- showing the first ones
+M012	msg.phrase	no file system found on this partition
+M013	msg.phrase	the path is too long
+M014	msg.phrase	joining...
+M015	msg.phrase	splitting...
+M016	msg.phrase	renaming...
+M017	msg.phrase	creating the folder...
+M018	msg.phrase	creating the file...
+M019	msg.phrase	deleting...
+M020	msg.phrase	writing the attributes...
+M021	msg.phrase	the drive is busy
+M022	msg.phrase	busy
+M023	msg.phrase	choose files or folders
+M024	msg.phrase	choose files or folders (not "..")
+M025	msg.phrase	stop the CD first
+M026	msg.phrase	the CD cannot be changed (copy instead)
+M027	msg.phrase	a system folder cannot be moved
+M028	msg.phrase	no drive can be written (FAT / exFAT / NTFS only)
+M029	msg.phrase	the drive is gone
+M030	msg.phrase	nothing chosen
+M031	msg.phrase	nothing selected
+M032	msg.phrase	could not start
+M033	msg.phrase	could not open
+M034	msg.phrase	only on a FAT / exFAT / NTFS drive
+M035	msg.phrase	no name
+M036	msg.phrase	that name already exists
+M037	msg.phrase	could not start (bad name or the drive is busy)
+M038	msg.phrase	could not start (the drive is busy)
+M039	msg.phrase	the name cannot have / or \\ (only inside this folder)
+M040	msg.phrase	the name is the same
+M041	msg.phrase	the item is read-only (A to change)
+M042	msg.phrase	choose a .rb file on a writable drive
+M043	msg.phrase	choose a .rb file
+M044	msg.phrase	the drive is read-only
+M045	msg.phrase	choose a folder on a writable drive
+M046	msg.phrase	wait a moment
+M047	msg.phrase	choose a file
+M048	msg.phrase	choose a file (not a folder)
+M049	msg.phrase	choose a .001 file
+M050	msg.phrase	choose the .001 file
+M051	msg.phrase	put the IWAD in a DoomFiles or Doom2Files folder
+M052	msg.phrase	DoomFiles takes freedoom1 / doom / doomu / doom1.wad
+M053	msg.phrase	Doom2Files takes freedoom2 / doom2 / plutonia / tnt.wad
+M054	msg.phrase	put the game files on external storage, not S:
+M055	msg.phrase	the IWAD must be on a FAT / exFAT / NTFS drive (not a CD)
+M056	msg.phrase	still working
+M057	msg.phrase	an image is loading
+M058	msg.phrase	no framebuffer
+M059	msg.phrase	half brightness works only in RGB555
+M060	msg.phrase	clearing...
+M061	msg.phrase	halving the brightness...
+M062	msg.phrase	that is a data track
+M063	msg.phrase	wait -- a file is being written
+M064	msg.phrase	only floppy / LS-120 / CD drives
+M065	msg.phrase	requested
+M066	msg.phrase	reading the disc...
+M067	msg.phrase	stopping...
+M068	msg.phrase	opening...
+M069	msg.phrase	done
+M070	msg.phrase	no memory
+M071	msg.phrase	already open
+M072	msg.phrase	already running
+M073	msg.phrase	already saving
+M074	msg.phrase	already playing
+M075	msg.phrase	no such drive
+M076	msg.phrase	no PSRAM
+M077	msg.phrase	no PSRAM for the file
+M078	msg.phrase	no PSRAM for the line index
+M079	msg.phrase	no PSRAM for the terminal
+M080	msg.phrase	no memory (PSRAM)
+M081	msg.phrase	no memory (32KB SRAM)
+M082	msg.phrase	no memory for the buffer
+M083	msg.phrase	no memory for the image buffers
+M084	msg.phrase	no memory for the read buffer
+M085	msg.phrase	no room for the work memory (close the lowres plane?)
+M086	msg.phrase	no framebuffer page
+M087	msg.phrase	too large (4 MB at most)
+M088	msg.phrase	the file is too large (1 MB at most)
+M089	msg.phrase	the file is too large (1 MB max)
+M090	msg.phrase	too large for an SMF (1MB at most)
+M091	msg.phrase	the file is empty
+M092	msg.phrase	could not open the file
+M093	msg.phrase	could not read the file
+M094	msg.phrase	could not open the volume
+M095	msg.phrase	could not open the destination (no memory?)
+M096	msg.phrase	could not read the root folder
+M097	msg.phrase	could not start the task
+M098	msg.phrase	could not start writing (bad name or busy)
+M099	msg.phrase	another volume is open (busy)
+M100	msg.phrase	a copy is running
+M101	msg.phrase	a folder cannot go into itself
+M102	msg.phrase	that is the same folder
+M103	msg.phrase	this drive cannot be changed (read only)
+M104	msg.phrase	the drive is not writable
+M105	msg.phrase	the part size must be a multiple of 512
+M106	msg.phrase	files of 4 GB or more are not supported
+M107	msg.phrase	bad path
+M108	msg.phrase	bad file name
+M109	msg.phrase	the font ROM is not there
+M110	msg.phrase	the sound is not open
+M111	msg.phrase	no such channel
+M112	msg.phrase	the sequencer is busy
+M113	msg.phrase	not enough PSRAM for the song
+M114	msg.phrase	not a standard MIDI file (no MThd)
+M115	msg.phrase	no tracks
+M116	msg.phrase	a track is broken (MTrk)
+M117	msg.phrase	SMPTE time division is not supported
+M118	msg.phrase	SMF format 2 is not supported (0 and 1 only)
+M119	msg.phrase	not a Bulk-Only drive
+M120	msg.phrase	not an optical drive
+M121	msg.phrase	a system folder cannot be deleted or renamed
+M122	msg.phrase	no media in the drive
+M123	msg.phrase	becoming ready
+M124	msg.phrase	not ready
+M125	msg.phrase	media changed
+M126	msg.phrase	medium error
+M127	msg.phrase	illegal request
+M128	msg.phrase	a bad directory entry
+M129	msg.phrase	a directory on the way does not exist
+M130	msg.phrase	a file has that name
+M131	msg.phrase	a folder has that name
+M132	msg.phrase	a name on the way is not a directory
+M133	msg.phrase	cancelled
+M134	msg.phrase	could not mount
+M135	msg.phrase	could not start a read
+M136	msg.phrase	could not start a write
+M137	msg.phrase	is a directory
+M138	msg.phrase	that is a directory
+M139	msg.phrase	no clusters
+M140	msg.phrase	no room for the cluster list
+M141	msg.phrase	no such file or directory
+M142	msg.phrase	no such file
+M143	msg.phrase	no volume
+M144	msg.phrase	not NTFS
+M145	msg.phrase	not exFAT
+M146	msg.phrase	not a directory
+M147	msg.phrase	not found
+M148	msg.phrase	read error
+M149	msg.phrase	write error
+M150	msg.phrase	reading the FAT failed
+M151	msg.phrase	the cluster chain is shorter than the file
+M152	msg.phrase	the directory is not empty
+M153	msg.phrase	the disk is full
+M154	msg.phrase	the drive did not answer
+M155	msg.phrase	the file is read-only
+M156	msg.phrase	the file is too fragmented
+M157	msg.phrase	the file is too large (4GB)
+M158	msg.phrase	the new name already exists
+M159	msg.phrase	the root directory is full
+M160	msg.phrase	too many files with the same short name
+M161	msg.phrase	No such file or directory
+M162	msg.phrase	File exists
+M163	msg.phrase	Permission denied
+M164	msg.phrase	Directory not empty
+M165	msg.phrase	Not a directory
+M166	msg.phrase	Is a directory
+M167	msg.phrase	Read-only file system
+M168	msg.phrase	No space left on device
+M169	msg.phrase	Input/output error
+M170	msg.phrase	Not supported on this drive
+M171	msg.phrase	Invalid path
+M172	msg.phrase	Out of memory
+M173	msg.phrase	No such drive
+M174	msg.phrase	stopped
+M175	msg.phrase	cancelled (not enough free space)
+M176	msg.phrase	could not count the free space
+M177	msg.phrase	the receiver cancelled
+M178	msg.phrase	no receiver (run rz on the PC)
+M179	msg.phrase	the console UART is in use
+M180	msg.phrase	the screen mode changed
+M181	msg.phrase	the lines did not come (is the display running?)
+M182	msg.prefix	copy
+M183	msg.prefix	move
+M184	msg.prefix	delete
+M185	msg.prefix	rename
+M186	msg.prefix	attributes
+M187	msg.prefix	new file
+M188	msg.prefix	new folder
+M189	msg.prefix	image
+M190	msg.prefix	mrbc
+M191	msg.prefix	ruby
+M192	msg.prefix	viewer
+M193	msg.prefix	edit
+M194	msg.prefix	IDENTIFY
+M195	msg.prefix	ZMODEM
+M196	msg.prefix	ZMODEM receive
+M197	msg.prefix	ZMODEM send
+M198	msg.prefix	split
+M199	msg.prefix	join
+M200	msg.prefix	Doom
+M201	msg.prefix	SMF
+M202	msg.prefix	CD
+M203	msg.prefix	FB
+M204	msg.prefix	Eject
+M205	msg.prefix	reboot
+M206	msg.prefix	license
+M207	msg.prefix	clock
+M208	msg.prefix	ADC in
+M209	msg.prefix	screen -> PNG
+M210	msg.prefix	FB -> PNG
+M211	msg.prefix	could not open the volume
+M212	msg.pattern	received 
+M213	msg.pattern	sent 
+M214	msg.pattern	saved 
+M215	msg.pattern	created 
+M216	msg.pattern	renamed to 
+M217	msg.pattern	deleted 
+M218	msg.pattern	changed 
+M219	msg.pattern	joined 
+M220	msg.pattern	split 
+M221	msg.pattern	could not create 
+M222	msg.pattern	could not delete 
+M223	msg.pattern	could not rename to 
+M224	msg.pattern	could not change 
+M225	msg.pattern	could not read 
+M226	msg.pattern	could not write 
+M227	msg.pattern	could not copy 
+M228	msg.pattern	could not make 
+M229	msg.pattern	could not remove the folder 
+M230	msg.pattern	could not remove 
+M231	msg.pattern	no memory for 
+M232	msg.pattern	too many errors while sending 
+M233	msg.pattern	the receiver did not take 
+M234	msg.pattern	the receiver skipped 
+M235	msg.pattern	FB page 
+M236	msg.word	 bytes each)
+M237	msg.word	 bytes)
+M238	msg.word	 KB)
+M239	msg.word	 parts into 
+M240	msg.word	 parts (
+M241	msg.word	 into 
+M242	msg.word	: cleared
+M243	msg.word	: brightness halved
+M244	msg.word	% read
+M245	msg.word	 rows
+M246	msg.word	 -- not supported yet (FAT / exFAT / NTFS only)
+M247	msg.word	 files
+M248	msg.word	 (
+M249	msg.phrase	Untitled
+M250	msg.phrase	1 File
+M251	msg.phrase	2 Edit
+M252	msg.phrase	3 Graph
+M253	msg.phrase	4 Sheet
+M254	msg.phrase	5 Help
+M255	msg.phrase	EMPTY
+M256	msg.phrase	NUMBER
+M257	msg.phrase	TEXT
+M258	msg.phrase	FORMULA
+M259	msg.phrase	Type to enter, F2 to edit, F1 for help
+M260	msg.phrase	5 CSV
+M261	msg.phrase	6 ODS
+M262	msg.phrase	[SHIFT]
+M263	msg.phrase	[CTRL]
+M264	msg.phrase	[ALT]
+M265	msg.phrase	Ready
+M266	msg.phrase	SGCALC
+M267	msg.phrase	Press any key
+M268	msg.phrase	Y = yes    N = no    Esc = cancel
+M269	msg.phrase	Enter = OK    Esc = cancel    Ctrl-U = clear
+M270	msg.phrase	First row/column = labels; charts use the 640x480 CLUT8 FB.
+M271	msg.phrase	SGCALC - HELP
+M272	msg.phrase	Press any key to return
+M273	msg.phrase	Press any key to return.
+M274	msg.phrase	ABOUT SGCALC
+M275	msg.phrase	New
+M276	msg.phrase	Start a new sheet
+M277	msg.phrase	Open...
+M278	msg.phrase	Open an ODS, FODS or CSV file
+M279	msg.phrase	Save
+M280	msg.phrase	Save the current file
+M281	msg.phrase	Save As...
+M282	msg.phrase	Save with a new name or format
+M283	msg.phrase	Export CSV...
+M284	msg.phrase	Write a CSV copy
+M285	msg.phrase	Export ODS...
+M286	msg.phrase	Write a LibreOffice copy
+M287	msg.phrase	Quit
+M288	msg.phrase	Leave SGCALC
+M289	msg.phrase	Clear
+M290	msg.phrase	Clear the selected cells
+M291	msg.phrase	Copy
+M292	msg.phrase	Copy the selection
+M293	msg.phrase	Paste
+M294	msg.phrase	Paste at the cursor
+M295	msg.phrase	Cut
+M296	msg.phrase	Copy and clear the selection
+M297	msg.phrase	Select all
+M298	msg.phrase	Select all used cells
+M299	msg.phrase	Text color...
+M300	msg.phrase	Choose the text colour
+M301	msg.phrase	Background...
+M302	msg.phrase	Choose the cell background
+M303	msg.phrase	Line
+M304	msg.phrase	Draw a line graph from the selection
+M305	msg.phrase	Bar
+M306	msg.phrase	Draw a bar graph from the selection
+M307	msg.phrase	Mixed
+M308	msg.phrase	Bars for the first series, lines for the rest
+M309	msg.phrase	Pie
+M310	msg.phrase	Draw a pie graph from the selection
+M311	msg.phrase	Range...
+M312	msg.phrase	Set the graph range explicitly
+M313	msg.phrase	Draw again
+M314	msg.phrase	Redraw the last graph
+M315	msg.phrase	Goto...
+M316	msg.phrase	Jump to a cell (for example C12)
+M317	msg.phrase	Column width...
+M318	msg.phrase	Change the selected columns' width
+M319	msg.phrase	Row height...
+M320	msg.phrase	Change the selected rows' height
+M321	msg.phrase	Auto fit
+M322	msg.phrase	Fit widths/heights to the contents (F7)
+M323	msg.phrase	Recalculate
+M324	msg.phrase	Re-evaluate all formulas
+M325	msg.phrase	Erase all
+M326	msg.phrase	Clear the whole sheet
+M327	msg.phrase	Keys
+M328	msg.phrase	Show the key guide
+M329	msg.phrase	About
+M330	msg.phrase	About SGCALC
+M331	msg.phrase	File
+M332	msg.phrase	Edit
+M333	msg.phrase	Graph
+M334	msg.phrase	Sheet
+M335	msg.phrase	Help
+M336	msg.phrase	File: new, open, save, export, quit
+M337	msg.phrase	Edit: clear, copy, paste, cut, select all
+M338	msg.phrase	Graph: line, bar, mixed, pie (draws in the FB)
+M339	msg.phrase	Sheet: goto, column width, recalculate, erase
+M340	msg.phrase	Help: keys and about
+M341	msg.phrase	Left/Right = menu    Up/Down = item    Enter = choose    Esc = cancel
+M342	msg.phrase	Cancelled
+M343	msg.phrase	The selection is too large or memory is low.
+M344	msg.phrase	the cell
+M345	msg.phrase	the selection
+M346	msg.phrase	Nothing to paste
+M347	msg.phrase	Pasted
+M348	msg.phrase	GO TO CELL
+M349	msg.phrase	Cell reference (A1):
+M350	msg.phrase	Goto
+M351	msg.phrase	COLUMN WIDTH
+M352	msg.phrase	Width in characters (4..30):
+M353	msg.phrase	ROW HEIGHT
+M354	msg.phrase	Height in text rows (1..8):
+M355	msg.phrase	Auto fit: the sheet is empty
+M356	msg.phrase	BACKGROUND COLOUR
+M357	msg.phrase	TEXT COLOUR
+M358	msg.phrase	Arrows: choose    Enter: apply    Esc: cancel
+M359	msg.phrase	Colour index (PC-98 16-colour palette)
+M360	msg.phrase	Aa 123
+M361	msg.phrase	Enter = apply    Esc = cancel
+M362	msg.phrase	Colour
+M363	msg.phrase	Background
+M364	msg.phrase	Text
+M365	msg.phrase	GRAPH RANGE
+M366	msg.phrase	Range (for example A1:C10):
+M367	msg.phrase	Graph range
+M368	msg.phrase	Use a range such as A1:C10.
+M369	msg.phrase	Cannot draw the graph.
+M370	msg.phrase	line
+M371	msg.phrase	bar
+M372	msg.phrase	mixed
+M373	msg.phrase	pie
+M374	msg.phrase	Clear every cell in this sheet?
+M375	msg.phrase	Sheet erased
+M376	msg.phrase	Selected all used cells
+M377	msg.phrase	Recalculated
+M378	msg.phrase	Memory
+M379	msg.phrase	Not enough PSRAM for the spreadsheet.
+M380	msg.phrase	The sheet is empty.
+M381	msg.phrase	No numeric data in the selected range.
+M382	msg.phrase	Other
+M383	msg.phrase	No positive values for a pie chart
+M384	msg.phrase	LINE
+M385	msg.phrase	BAR
+M386	msg.phrase	MIXED
+M387	msg.phrase	PIE
+M388	msg.phrase	S:/
+M389	msg.phrase	Folder
+M390	msg.phrase	SAVE AS
+M391	msg.phrase	OPEN FILE
+M392	msg.phrase	LibreOffice / CSV
+M393	msg.phrase	ODS  FODS  CSV
+M394	msg.phrase	Name:
+M395	msg.phrase	(type a name, or choose below)
+M396	msg.phrase	Name
+M397	msg.phrase	Size
+M398	msg.phrase	Enter=save  Left=up  Right/Enter on [DIR]=open  Tab=drive  Esc=cancel
+M399	msg.phrase	Enter=open  Left=up  Right/Enter on [DIR]=open  Tab=drive  Esc=cancel
+M400	msg.phrase	Not enough memory.
+M401	msg.phrase	Overwrite
+M402	msg.phrase	Open
+M403	msg.phrase	The file is too large (limit 8 MB).
+M404	msg.phrase	Not enough memory to read the file.
+M405	msg.phrase	Bad ZIP/ODS data.
+M406	msg.phrase	CRC error in the ODS file.
+M407	msg.phrase	Unsupported or damaged file.
+M408	msg.phrase	Saved
+M409	msg.phrase	Exported
+M410	msg.phrase	Unsaved changes
+M411	msg.phrase	Save the current sheet before continuing?
+M412	msg.phrase	New sheet
+M413	msg.phrase	SGTRK
+M414	msg.phrase	UNTITLED
+M415	msg.phrase	song is too large
+M416	msg.phrase	empty file
+M417	msg.phrase	not an SGT file
+M418	msg.phrase	bad BPM
+M419	msg.phrase	bad speed
+M420	msg.phrase	bad title length
+M421	msg.phrase	truncated title
+M422	msg.phrase	bad character in title
+M423	msg.phrase	truncated order
+M424	msg.phrase	bad order length
+M425	msg.phrase	bad pattern number in order
+M426	msg.phrase	truncated pattern list
+M427	msg.phrase	bad pattern count
+M428	msg.phrase	bad pattern index
+M429	msg.phrase	duplicate pattern
+M430	msg.phrase	truncated pattern data
+M431	msg.phrase	invalid pattern data
+M432	msg.phrase	trailing data in file
+M433	msg.phrase	order refers to a missing pattern
+M434	msg.phrase	A:/
+M435	msg.phrase	(untitled)
+M436	msg.phrase	Ready. Press F1 for help.
+M437	msg.phrase	Follow OFF
+M438	msg.phrase	Nothing to undo
+M439	msg.phrase	Undo
+M440	msg.phrase	Note OFF
+M441	msg.phrase	Set an effect letter first
+M442	msg.phrase	Effect cleared
+M443	msg.phrase	Parameter cleared
+M444	msg.phrase	Note cleared
+M445	msg.phrase	Instrument cleared
+M446	msg.phrase	Volume cleared
+M447	msg.phrase	Order list is full
+M448	msg.phrase	Order inserted
+M449	msg.phrase	Cannot delete the last order
+M450	msg.phrase	Order deleted
+M451	msg.phrase	Playing song
+M452	msg.phrase	Stopped
+M453	msg.phrase	New song
+M454	msg.phrase	Discard unsaved changes and start a new song? (Y/N)
+M455	msg.phrase	Discard unsaved changes and open a song? (Y/N)
+M456	msg.phrase	Discard unsaved changes and quit? (Y/N)
+M457	msg.phrase	Song settings updated
+M458	msg.phrase	Filename is empty
+M459	msg.phrase	Save cancelled
+M460	msg.phrase	Open cancelled
+M461	msg.phrase	Edit ON
+M462	msg.phrase	Edit OFF
+M463	msg.phrase	Follow ON
+M464	msg.phrase	Edit is OFF. Press F8 to edit.
+M465	msg.phrase	I/O error
+M466	msg.phrase	file is too large
+M467	msg.phrase	truncated file
+M468	msg.phrase	SINE PAD
+M469	msg.phrase	TRIANGLE
+M470	msg.phrase	SAW LEAD
+M471	msg.phrase	SQUARE
+M472	msg.phrase	PULSE 25
+M473	msg.phrase	ORGAN
+M474	msg.phrase	BASS
+M475	msg.phrase	BELL
+M476	msg.phrase	NOISE
+M477	msg.phrase	SINE
+M478	msg.phrase	SAW
+M479	msg.phrase	OFF
+M480	msg.phrase	ON
+M481	msg.phrase	ROW
+M482	msg.phrase	CHAN LEVEL
+M483	msg.phrase	F1 HELP F2 SONG
+M484	msg.phrase	F3 INS  F4 SAVE
+M485	msg.phrase	F5 PLAY F6 PAT
+M486	msg.phrase	F7 STOP F8 EDIT
+M487	msg.phrase	F9/F10 OCTAVE
+M488	msg.phrase	F11 FOLLOW
+M489	msg.phrase	F12 QUIT
+M490	msg.phrase	SPACE PLAY/STOP
+M491	msg.phrase	CTRL-S SAVE
+M492	msg.phrase	CTRL-O OPEN
+M493	msg.phrase	C-N NEW C-Z UNDO
+M494	msg.phrase	C-C STOP
+M495	msg.phrase	#TRANSPORT AND FILES
+M496	msg.phrase	#ORDER LIST
+M497	msg.phrase	#DISPLAY
+M498	msg.phrase	#EDITING
+M499	msg.phrase	#EFFECTS (parameter is hexadecimal)
+M500	msg.phrase	LEFT/RIGHT PAGE   ENTER OR F1 CLOSE
+M501	msg.phrase	SONG SETTINGS
+M502	msg.phrase	UP/DOWN SELECT   LEFT/RIGHT ADJUST   ENTER/F2 CLOSE
+M503	msg.phrase	Type to edit the title. Backspace deletes the last character.
+M504	msg.phrase	BPM range 32..255. Speed range 1..31.
+M505	msg.phrase	Pattern effects can also change speed and BPM while playing.
+M506	msg.phrase	INSTRUMENTS
+M507	msg.phrase	UP/DOWN SELECT   SPACE PREVIEW   ENTER USE   F3 CLOSE
+M508	msg.phrase	All four channels use wavetable synthesis.
+M509	msg.phrase	Preview plays C-4 on the track under the edit cursor.
+M510	msg.phrase	SAVE SONG AS
+M511	msg.phrase	ENTER SAVE   F4 OR CTRL-C CANCEL
+M512	msg.phrase	Directory:
+M513	msg.phrase	File name:
+M514	msg.phrase	The extension .SGT is added automatically.
+M515	msg.phrase	An existing file can be overwritten.
+M516	msg.phrase	OPEN SONG
+M517	msg.phrase	ENTER OPEN  BS PARENT  CTRL-O/CTRL-C CANCEL
+M518	msg.phrase	(no .SGT files in this folder)
+M519	msg.phrase	CONFIRM
+M520	msg.phrase	Y = YES   N / ENTER / CTRL-C = NO
+M521	msg.phrase	Y = yes        N = no
+M522	msg.phrase	C-
+M523	msg.phrase	C#
+M524	msg.phrase	D-
+M525	msg.phrase	D#
+M526	msg.phrase	E-
+M527	msg.phrase	F-
+M528	msg.phrase	F#
+M529	msg.phrase	G-
+M530	msg.phrase	G#
+M531	msg.phrase	A-
+M532	msg.phrase	A#
+M533	msg.phrase	B-
+M534	msg.phrase	A:/dir/name
+M535	msg.phrase	MThd
+M536	msg.phrase	broken MThd
+M537	msg.phrase	MIDI IMPORT
+M538	msg.phrase	MTrk
+M539	msg.phrase	broken delta time
+M540	msg.phrase	broken running status
+M541	msg.phrase	broken meta event
+M542	msg.phrase	broken sysex event
+M543	msg.phrase	broken channel event
+M544	msg.phrase	SMF output is too small
+M545	msg.phrase	SMF output is too large
+M546	msg.phrase	the song is too long for SMF
+M547	msg.phrase	TRK1
+M548	msg.phrase	%s%d
+M549	msg.phrase	%s%d:%s%d
+M550	msg.phrase	%s
+M551	msg.phrase	%.40s%s
+M552	msg.phrase	  [%s]   %s
+M553	msg.phrase	EDIT  
+M554	msg.phrase	READY 
+M555	msg.phrase	%4d 
+M556	msg.phrase	%s Sum %.7g N %ld%s
+M557	msg.phrase	ARROWS      move the cell cursor\n
+M558	msg.phrase	SHIFT+ARR   extend the selection (for graphs/copy)\n
+M559	msg.phrase	ENTER       edit the cell; in edit, commit and move down\n
+M560	msg.phrase	TAB         next cell    SHIFT+TAB  previous cell\n
+M561	msg.phrase	DELETE      clear the selected cell(s)    ESC  cancel\n
+M562	msg.phrase	PGUP/PGDN   move one screen    HOME/END  first/last column\n
+M563	msg.phrase	CTRL+HOME   A1    CTRL+END  last used cell\n
+M564	msg.phrase	F1 help  F2 edit  F3 copy  F4 paste  F5 goto  F6 colour\n
+M565	msg.phrase	F7 auto-fit  F8 background  F9 recalc  F10 graph  F11 save  F12 menu\n
+M566	msg.phrase	SHIFT+F1 about  SHIFT+F2 row height  SHIFT+F3 column width\n
+M567	msg.phrase	SHIFT+F4 select all  SHIFT+F10 graph range  SHIFT+F11 save as\n
+M568	msg.phrase	CTRL+F1 new  CTRL+F2 open  CTRL+F3 save  CTRL+F4 save as\n
+M569	msg.phrase	CTRL+F5 export CSV  CTRL+F6 export ODS  ALT+F12 quit\n
+M570	msg.phrase	Bottom 2 lines: function keys; [SHIFT]/[CTRL]/[ALT] like the filer\n
+M571	msg.phrase	CTRL+S save  CTRL+O open  CTRL+N new  CTRL+C/V/X copy/paste/cut\n
+M572	msg.phrase	CTRL+G goto    /  open the menu (1 File, 2 Edit, ...)\n
+M573	msg.phrase	Built-in functions: SUM AVERAGE MIN MAX COUNT COUNTA\n
+M574	msg.phrase	PRODUCT ABS SQRT INT ROUND MOD POWER IF AND OR NOT\n
+M575	msg.phrase	IFERROR LEN LEFT RIGHT MID UPPER LOWER TRIM CONCATENATE PI\n
+M576	msg.phrase	Cell refs: A1, $A$1, A1:B10.  Formulas begin with '='.\n
+M577	msg.phrase	Files: .ods (LibreOffice), .fods (flat XML), .csv\n
+M578	msg.phrase	ODS/FODS keeps formulas, widths, heights and colours.\n
+M579	msg.phrase	CSV keeps values and formulas (no colours/heights).\n
+M580	msg.phrase	Graph: select a range, press F10, and choose Line/Bar/Mixed/Pie.\n
+M581	msg.phrase	SGCALC for sgnano\n
+M582	msg.phrase	Version 
+M583	msg.phrase	A Lotus 1-2-3 style spreadsheet as an SGX program.\n\n
+M584	msg.phrase	SGX ABI %u.%u\n
+M585	msg.phrase	Screen mode 3: text + CLUT8 FB (lowres disabled)\n
+M586	msg.phrase	Sheet: %d rows x %d columns\n
+M587	msg.phrase	Formats: .ods / .fods (LibreOffice), .csv\n\n
+M588	msg.phrase	The grid is drawn on the text plane.\n
+M589	msg.phrase	Charts and the 640x480 background use the FB.\n\n
+M590	msg.phrase	%d %s
+M591	msg.phrase	Cannot store the cell (%d).
+M592	msg.phrase	Copied %d x %d cells
+M593	msg.phrase	Cleared %s
+M594	msg.phrase	'%s' is not a cell reference.
+M595	msg.phrase	%d
+M596	msg.phrase	Column width = %d
+M597	msg.phrase	Row height = %d
+M598	msg.phrase	Auto fit: %d column(s), %d row(s)
+M599	msg.phrase	%2d
+M600	msg.phrase	Cannot apply the colour (%d).
+M601	msg.phrase	%s colour = %d
+M602	msg.phrase	Not a valid range.\nUse a range such as A1:C10.
+M603	msg.phrase	Graph range %s
+M604	msg.phrase	Graph: %s
+M605	msg.phrase	SGCALC: cannot set screen mode 3: %s\n
+M606	msg.phrase	%.2g
+M607	msg.phrase	%.6g
+M608	msg.phrase	%s  %.0f%%
+M609	msg.phrase	GRAPH  %s  %s
+M610	msg.phrase	%s%s
+M611	msg.phrase	%s/%s
+M612	msg.phrase	%.*s
+M613	msg.phrase	%.*s/
+M614	msg.phrase	Cannot read %s\n%s
+M615	msg.phrase	Folder: %s
+M616	msg.phrase	[DIR] %s
+M617	msg.phrase	      %s
+M618	msg.phrase	%lu.%luM
+M619	msg.phrase	%luK
+M620	msg.phrase	%luB
+M621	msg.phrase	BOOK1%s
+M622	msg.phrase	%c:/
+M623	msg.phrase	Unsupported extension.\nUse .csv, .ods or .fods.
+M624	msg.phrase	%s already exists.\nOverwrite it?
+M625	msg.phrase	%s may not be writable.\nTry anyway?
+M626	msg.phrase	Unknown file type for %s
+M627	msg.phrase	Unsupported file type.\nUse .csv, .ods or .fods.
+M628	msg.phrase	Cannot open %s\n%s
+M629	msg.phrase	%s is a folder.
+M630	msg.phrase	Cannot import %s\n%s
+M631	msg.phrase	Loaded %s
+M632	msg.phrase	Cannot build the %s file.
+M633	msg.phrase	Cannot write %s\n%s
+M634	msg.phrase	%s %s
+M635	msg.phrase	unsupported version %u
+M636	msg.phrase	%d:%d:%d:%d:%d:%d
+M637	msg.phrase	Octave %d
+M638	msg.phrase	Note %s
+M639	msg.phrase	Instrument %d
+M640	msg.phrase	Volume %s
+M641	msg.phrase	Effect %c
+M642	msg.phrase	Parameter %s
+M643	msg.phrase	Pattern %s
+M644	msg.phrase	Playing pattern %s
+M645	msg.phrase	SAVE ERROR: %s
+M646	msg.phrase	Saved %s
+M647	msg.phrase	LOAD ERROR: %s
+M648	msg.phrase	BPM %d
+M649	msg.phrase	Speed %d
+M650	msg.phrase	Preview %s
+M651	msg.phrase	Instrument %s %s
+M652	msg.phrase	Overwrite %s? (Y/N)
+M653	msg.phrase	 | BPM %s SPD %s 
+M654	msg.phrase	 SGNO TRACKER 1.0 | 
+M655	msg.phrase	FILE 
+M656	msg.phrase	 PAT %s
+M657	msg.phrase	 ORD %d/%d
+M658	msg.phrase	 INS %s 
+M659	msg.phrase	 OCT %d
+M660	msg.phrase	 EDIT %s
+M661	msg.phrase	ON 
+M662	msg.phrase	 FOL %s
+M663	msg.phrase	TRACK %d
+M664	msg.phrase	%c%s
+M665	msg.phrase	%s %s %s %s
+M666	msg.phrase	%s 
+M667	msg.phrase	%d %s %s
+M668	msg.phrase	ORDER %d/%d
+M669	msg.phrase	PAT   %s
+M670	msg.phrase	INS %s %s
+M671	msg.phrase	OCT %d  EDIT %s
+M672	msg.phrase	FOLLOW %s
+M673	msg.phrase	PLAYING  ORD %d/%d  PAT %s  ROW %s/%d  SPD %s  BPM %d  F7 STOP
+M674	msg.phrase	READY  EDIT %s  OCT %d  F1 HELP  F5 PLAY  CTRL-S SAVE
+M675	msg.phrase	 %s 
+M676	msg.phrase	  F5          Play the song from the current order
+M677	msg.phrase	  F6          Play the current pattern
+M678	msg.phrase	  F7/Ctrl-C   Stop playback
+M679	msg.phrase	  Space       Play / stop
+M680	msg.phrase	  F4          Save as
+M681	msg.phrase	  Ctrl-S      Save (asks for a name if new)
+M682	msg.phrase	  Ctrl-O      Open a song
+M683	msg.phrase	  Ctrl-N      New song
+M684	msg.phrase	  F12         Quit (confirmation if modified)
+M685	msg.phrase	  [ ]         Previous / next order entry
+M686	msg.phrase	  { }         Insert / delete an order entry
+M687	msg.phrase	  - +         Change the pattern in the entry
+M688	msg.phrase	  F11         Follow playback (turns off on manual move)
+M689	msg.phrase	  F1          Help; Left/Right changes page
+M690	msg.phrase	  F8          Toggle edit mode
+M691	msg.phrase	  Arrows      Move the cursor
+M692	msg.phrase	  PgUp/PgDn   Jump 16 rows
+M693	msg.phrase	  Home/End    First / last row
+M694	msg.phrase	  F9/F10      Octave down / up
+M695	msg.phrase	  Z S X D C V G B H N J M      lower piano row
+M696	msg.phrase	  Q 2 W 3 E R 5 T 6 Y 7 U      upper piano row
+M697	msg.phrase	  1           Note off
+M698	msg.phrase	  0 / Del     0 clears note/inst/fx; Del clears any
+M699	msg.phrase	  Ctrl-Z      Undo the last pattern/order edit
+M700	msg.phrase	  Axy   Volume slide: up x, down y
+M701	msg.phrase	  Cxx   Note cut after xx ticks
+M702	msg.phrase	  Dxx   Set volume (00..7F)
+M703	msg.phrase	  Fxx   Speed if xx < 20, otherwise BPM
+M704	msg.phrase	  Hxy   Arpeggio x, y semitones
+M705	msg.phrase	  Pxx   Pitch slide up
+M706	msg.phrase	  Qxx   Pitch slide down
+M707	msg.phrase	  F2 song settings, F3 instrument list
+M708	msg.phrase	HELP %d/2
+M709	msg.phrase	  Title
+M710	msg.phrase	  [%s_]
+M711	msg.phrase	  BPM   : %d     (left/right -1/+1, -/+ -5/+5)
+M712	msg.phrase	  Speed : %d ticks/row
+M713	msg.phrase	  Rows  : %d (fixed)
+M714	msg.phrase	  Order : %d entries
+M715	msg.phrase	  Patterns in use : %d
+M716	msg.phrase	 #  NAME       WAVE       A   D   S   R  VOL
+M717	msg.phrase	 %c %d  %-9s %-9s %3d %3d %3d %3d %4d
+M718	msg.phrase	Current instrument: %s %s
+M719	msg.phrase	  %s
+M720	msg.phrase	DIR  %s
+M721	msg.phrase	 %c %s%s
+M722	msg.phrase	Files: %d
+M723	msg.phrase	%02d
+M724	msg.phrase	%03d
+M725	msg.phrase	%02X
+M726	msg.phrase	SGNO TRACKER: incompatible SGX ABI\n
+M727	msg.phrase	S: check: wait -- a file is being read or written
+M728	msg.phrase	S: check: the drive is busy or not ready
+M729	msg.phrase	nothing for this item (ContextMenu.cfg)
+M730	msg.phrase	bad command in ContextMenu.cfg
+M731	msg.phrase	unknown action in ContextMenu.cfg
+M732	msg.prefix	menu
+U342	Archive name (the marked items, or the cursor item if none)
+U343	Enter compress  ←→ move  BS / Del delete  ESC cancel
+U344	WAV export: %s canceled (%s)
+U345	WAV export: %s failed (%s)
+U346	WAV export: %s total %s
+U347	 WAV export (96kHz / 24bit): %s
+U348	Canceled
+U349	Failed
+U350	 Total %s
+U351	 Canceled (%s; the partial file was deleted)
+U352	 Could not export (%s). Reason:
+U353	 (reason unknown)
+U354	 %u%%   elapsed %s%s
+U355	 ESC: stop (the partial file is deleted)
+U356	Archive: %s
+U357	Reading... (ESC to cancel)
+U358	 %u items%s  total %s bytes  extract to: %s
+U359	 Enter extract item  X extract all  ↑↓ move  ESC close
+U360	Compress
+U361	List
+U362	Extract
+U363	 Total %s   %u items
+U364	 Total %s   %u files
+U365	 Canceled (%s; the unfinished file was deleted)
+U366	 Could not do it (%s): %s
+U367	 %u%%   elapsed %s   %s bytes%s
+U368	 elapsed %s   %s bytes%s
+U369	 ESC: stop (the unfinished file is deleted)
+U370	Archive: %s failed (%s)
+U371	Compressed: %s (%u items)
+U372	Extracted: %s (%u files)

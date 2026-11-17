@@ -1,0 +1,373 @@
+# gl: machine translation (Google), unreviewed; 2026-11-17
+U001	Lista (arquivos e cartafoles en 2 columnas x 19 filas)
+U002	Move o cursor (esquerda/dereita: a outra columna)
+U003	Páxina anterior / páxina seguinte
+U004	Marcar todo / inverter as marcas (como en PC-98 FD)
+U005	Primeiro/último
+U006	Marcar e seguir adiante / marcar só
+U007	Maiús+Frechas
+U008	Seleccione un intervalo (o espazo marca o intervalo)
+U009	Introduce un cartafol/abre un ficheiro (execución F2/X)
+U010	Ata o cartafol principal
+U011	Escolla unha unidade (USB, disquete, CD, S: integrado)
+U012	Copiar (Maiús+C / Maiús+F3 escolle o destino da árbore)
+U013	Mover
+U014	Eliminar (Maiús+D / Maiús+F4 elimina un cartafol)
+U015	Cambiar o nome
+U016	Cambia os atributos
+U017	Abre no editor
+U018	Ver como texto (Maiús+V/Ctrl+Alt+F7 hexadecimal)
+U019	Información da condución
+U020	Novo cartafol / novo ficheiro
+U021	Shell sgsh / expulsar o medio
+U022	Recarga
+U023	Garda a pantalla como PNG
+U024	Pecha a xanela / borra a selección (nun subcartafol: sube)
+U025	Operacións de ficheiros (como en FD: marcas, despois o intervalo e despois o cursor)
+U026	Copiar: escolla o destino da unidade e da árbore de cartafoles. ESC para
+U027	Eliminar: confirmar con y. Marcas e intervalos á vez. Carpetas co seu contido
+U028	Eliminar un cartafol (co seu contido)
+U029	Cambiar o nome (editar o nome, Intro)
+U030	Atributos: R só lectura, H oculto, S sistema, A arquivo
+U031	Novo cartafol
+U032	Ficheiro novo (baleiro).
+U033	Ver como texto (Maiús+V/Ctrl+Alt+F7 hexadecimal)
+U034	Shell sgsh (saír / Ctrl-D de volta ao ficheiro)
+U035	Identidade da unidade (CONSULTA, IDENTIFICACIÓN)
+U036	Expulsa o medio FDD/LS-120/CD
+U037	Volver cargar a lista (CD: do TOC)
+U038	Recibir dende o PC por ZMODEM (zm.sh put)
+U039	Enviar ao PC por ZMODEM (zm.sh get)
+U040	Compila .rb e escribe .mrb
+U041	Ruby REPL (unha liña á vez, Ctrl-D / ESC para rematar)
+U042	MicroPython REPL
+U043	Dividir en partes de 4 MB/unir desde .001
+U044	Dividir/unir (igual que Ctrl+F11/F12)
+U045	Pantalla (Alt+F, non choca coas teclas FD F)
+U046	Mostrar/ocultar o FB (foto)/o texto
+U047	Páxina de visualización de FB (0-3)
+U048	Borrar o FB a 0 / reducir o seu brillo á metade (RGB555)
+U049	Puntos finais USB e estado da LAN
+U050	Borrar a páxina de visualización de FB / reducir o seu brillo á metade
+U051	Mostras de atributos de texto
+U052	Monitor EDID (léase no arranque)
+U053	Licenzas e créditos de fonte ROM
+U054	Configuración (idioma de visualización, IME e configuración rexional do teclado)
+U055	Reloxo (hora de Xapón definida por NTP; s sincroniza agora)
+U056	Abrir folla de cálculo (SGCALC)
+U057	Comprobe S: para detectar erros (pregunta antes de reparar)
+U058	Abre TRACKER
+U059	Reiniciar (pregunta primeiro)
+U060	Reproducir a entrada estéreo ADC (GP40/41)
+U061	Exportar VGM/VGZ a un WAV de 96 kHz/24 bits
+U062	Esta axuda
+U063	Cambia a páxina
+U064	Pechar
+U065	Visor de texto/hexadecimal (como menos)
+U066	Unha liña
+U067	Unha páxina
+U068	Media páxina
+U069	Busca (adiante / atrás) / seguinte / anterior
+U070	Volver á lista (F1: axuda do espectador)
+U071	Visor de imaxes
+U072	Volver á lista (F2 F3 F6 F7 Maiús+F2 F3 funcionan)
+U073	Editor (E/Maiús+F8)
+U074	Gardar (UTF-8; remates de liña e BOM mantense)
+U075	Pechar (se se modifica: S/N/ESC)
+U076	Inserir/sobrescribir
+U077	IME activado/desactivado (xaponés/inglés/coreano)
+U078	Idioma IME (xaponés/inglés/coreano)
+U079	Comprometerse como hiragana/katakana
+U080	Axuda do editor
+U081	Concha
+U082	Shell (un subconxunto csh. saír / Ctrl-D para volver, axuda lista os comandos)
+U083	Lista e mudanza
+U084	Operacións de arquivo
+U085	Pantalla e dispositivos
+U086	Os espectadores e o editor
+U087	Axuda %u / %u %s
+U088	Esquerda Dereita: cambiar a páxina F1 / ESC: pechar
+U089	Reiniciar Sgnano?
+U090	[Reiniciar]
+U091	[ Cancelar ]
+U092	Comprobe a unidade S: para detectar erros
+U093	Ficheiros %lu cartafoles %lu
+U094	O tamaño non coincide coa cadea
+U095	Clústeres usados ​​por nada
+U096	Clústeres entrecruzados
+U097	Entradas rotas
+U098	As dúas copias FAT difiren
+U099	Sen erros.
+U100	Atopáronse erros. Reparalos?
+U101	Reparouse (arranxáronse os números anteriores).
+U102	Non se puido comprobar nin reparar (S: está ocupado).
+U103	[Reparación]
+U104	[ Cancelar ]
+U105	Calquera chave pecha
+U106	Configuración
+U107	Idioma de visualización
+U108	Localización do teclado
+U109	Arriba / Abaixo Intro, escolla ESC cancelar
+U110	Idioma de visualización
+U111	Arriba / Abaixo Intro: establecer ESC: atrás
+U112	Fix %c: como que letra? (A-Z excepto S. ESC cancela)
+U113	Letra da unidade/Introduza, seleccione F2 corrixir/desfixar a letra F3 corrixir como... L/ESC cancelar
+U114	partición %u
+U115	%c:* (fixo, non conectado) %04X:%04X%s %s
+U116	Aviso
+U117	Condución %c: %s
+U118	Conducir (ningunha)
+U119	CD de audio %u pistas
+U120	Cartafoles %u ficheiros %u total %s
+U121	Lendo...
+U122	* marcado %u %s
+U123	%lu bytes
+U124	Attr %s modificado %s creado %s %s
+U125	Sol
+U126	lun
+U127	mar
+U128	Mér
+U129	Xov
+U130	ven
+U131	Sáb
+U132	O reloxo non está configurado (NTP a través da LAN)
+U133	Mostrar FB %u escribir %u
+U134	1 Axuda
+U135	2 Corre
+U136	3 Copia
+U137	4 Del
+U138	5 Cambiar o nome
+U139	7 FBclr
+U140	8 FBdim
+U141	9 Condución
+U142	10 EPs
+U143	11 Reloxo
+U144	12 CALC
+U145	1 Atr
+U146	2 Información
+U147	3 Mover
+U148	5 Mkdir
+U149	6 Concha
+U150	8 Editar
+U151	9 Vista
+U152	10 S: chk
+U153	11 PISTA
+U154	12 Reinicie
+U155	1 Novo
+U156	2 Cartafol
+U157	3 Cambiar o nome
+U158	4 Atribucións
+U159	6 Copia
+U160	7 Mover
+U161	8 Eliminar
+U162	9 Editar
+U163	10 mrbc
+U164	11 Dividir
+U165	12 Únete
+U166	1 Atr
+U167	2 FB
+U168	3 Texto
+U169	5 ScrSht
+U170	6 Páx
+U171	9 ZMrecv
+U172	10ZM enviar
+U173	2 FBClr
+U174	3 FBDim
+U175	5 Recarga
+U176	7 Hex
+U177	9 Lic
+U178	11 Configuración
+U179	Axustar o reloxo (hora de Xapón. NTP non puido configuralo)
+U180	Executar con parámetros
+U181	Novo cartafol
+U182	Novo ficheiro
+U183	Tempo:
+U184	Executar:
+U185	Nome:
+U186	AAAA-MM-DD hh:mm Introduza a configuración ESC keep
+U187	Introducir executar <-> mover BS / Borrar eliminar ESC cancelar
+U188	Introduza renomear <-> mover BS / Borrar eliminar ESC cancelar
+U189	Introduce crear <-> mover BS / Borrar eliminar ESC cancelar
+U190	Eliminar
+U191	elementos
+U192	Elimínanse os cartafoles co seu contido. Estás seguro?
+U193	Queres eliminar este ficheiro?
+U194	(Isto non se pode desfacer. Os ficheiros dos cartafoles tamén se eliminan)
+U195	[Si (Y)]
+U196	[Non (N)]
+U197	visor hexadecimal: escolla un ficheiro
+U198	visor de texto: escolla un ficheiro
+U199	Mover a
+U200	Copiar a
+U201	O buffer está cheo
+U202	A unidade é de só lectura
+U203	Non se pode gardar (sen escritor)
+U204	Non se puido comezar a gardar (a unidade está ocupada?)
+U205	Gardando...
+U206	2 Gardar
+U207	5 Cor
+U208	6 Hira
+U209	7 Kata
+U210	8 Pred
+U211	10 Saír
+U212	1 Arriba
+U213	2 Fin
+U214	3 InsOvr
+U215	4 Dict
+U216	6 HHira
+U217	7 HKata
+U218	%s %s Ln %lu/%lu Col %u %s %s %s%s%s
+U219	*mod
+U220	OVR
+U221	INS
+U222	R/O
+U223	Editor (sgnano edit) F1/ESC péchase
+U224	Frechas / Inicio Fin / PgAp PgDn moven o cursor
+U225	Ctrl-T / Ctrl-B arriba / final do ficheiro
+U226	BS / Borrar antes / no cursor
+U227	Introduce unha nova liña (mantén a sangría)
+U228	Tab / Ins tab / inserir ou sobrescribir
+U229	F5 Coloring (da extensión; C/C++, mruby, MicroPython, SG BASIC, ningún)
+U230	F2 (Ctrl-S) gardar (UTF-8, os extremos das liñas mantéñense)
+U231	F10 / ESC pechar (pregunta se cambiou)
+U232	IME: Ctrl-Espazo/F12 activado/desactivado (あ/A)
+U233	Idioma IME F9 (só neste editor; restaurado ao pechar)
+U234	F8 Conversión preditiva xaponesa activada/desactivada
+U235	Xaponés romaji -> hiragana (F6) / katakana (F7)
+U236	Hiragana de medio ancho (Maiús+F6)/katakana de medio ancho (Maiús+F7)
+U237	Predicir con 2 ou máis caracteres, converter a cláusula continua con espazo
+U238	Inglés Finalización preditiva con 2 ou máis caracteres
+U239	한국어 2 Hangul estilo Bol
+U240	Espazo/Intro Convertir/Confirmar
+U241	← → Seleccione unha frase
+U242	Maiús+← → Reducir/aumentar o extremo dereito da cláusula nun carácter (novos candidatos)
+U243	↑ ↓ / Tab Candidato anterior / seguinte na ventá emerxente (debaixo do texto, arriba preto da parte inferior)
+U244	Entra en →→→ Todos os candidatos (2 x 8, ← → columna e páxina, Intro elixe)
+U245	Introduza a seguinte cláusula (confirma a totalidade na última cláusula)
+U246	Ctrl-U Engade a palabra actual ao dicionario do usuario
+U247	Maiús+F1 / F2 / F3 / F4 Arriba / final / inserir-sobrescribir / ao dicionario do usuario
+U248	BS / ESC Volver un carácter atrás / Cancelar
+U249	, . - [ ] / 、 。 ー 「 」 ・
+U250	Modificado Y: gardar e pechar N: pechar sen gardar ESC: atrás
+U251	[Predición] Tab/↑↓: candidato Espazo: converter Esc: cancelar
+U252	[Candidatos] ↑↓: seleccionar ←→: columna/páxina Entrar: escoller
+U253	[Converter] ↑↓cand ←→cláusula Maiús+←→limitado Intro seguinte
+U254	[한국어] Tab/↑↓: candidato Intro/Espazo: confirmar
+U255	[Inglés] Tab/↑↓: candidato Introduza: confirmar
+U256	Entrada Hangul de 2 conxuntos Ctrl-Espazo: alfanumérico
+U257	Finalización preditiva Ctrl-Espazo: entrada directa
+U258	Sen dicionario: só hiragana/katakana F6/F7
+U259	Espazo: converter F7: katakana Ctrl-Espazo: alfanumérico
+U260	Espazo: converter F6: hiragana Ctrl-Espazo: alfanumérico
+U261	Medio ancho F6: hiragana F7: katakana Maiús+F6/F7: metade
+U262	IME desactivado
+U263	prever
+U264	Tradución preditiva xaponesa: On
+U265	Tradución preditiva para xaponés: Off
+U266	Use con IME xaponés
+U267	Non se pode engadir ao dicionario do usuario
+U268	Coloración: %s
+U269	Cargando...
+U270	Non se puido ler o ficheiro
+U271	%lu liñas%s%s
+U272	abriu Shift_JIS como UTF-8 (gardado como UTF-8)
+U273	só lectura
+U274	Gardado
+U275	Non se puido gardar (fallou a escritura)
+U276	Candidatos
+U277	7 Páx
+U278	9 Texto
+U279	9 Hex
+U280	Cargando %lu%%
+U281	(só o comezo)
+U282	Hex q ESC: atrás F1: axuda
+U283	Texto q ESC: atrás F1: axuda
+U284	Teclas do visor (como menos; o mesmo para texto e hexadecimal)
+U285	Unha liña máis abaixo
+U286	Unha fila
+U287	Unha páxina máis abaixo
+U288	Unha páxina arriba
+U289	Media páxina cara abaixo/arriba
+U290	/texto ?texto
+U291	Busca cara abaixo/arriba (ignora maiúsculas e minúsculas)
+U292	Seguinte/anterior partido
+U293	Mostrar como hexadecimal (no mesmo lugar)
+U294	Mostrar como texto (no mesmo lugar)
+U295	Cambiar a cor (C/C++, mruby, MicroPython, SG BASIC, ningún)
+U296	Mostrar/ocultar o FB/o texto
+U297	Páxina de visualización de FB / páxina de escritura
+U298	Volver ao ficheiro
+U299	Pecha esta axuda
+U300	Copiar
+U301	%s: lendo os cartafoles... %u
+U302	%s: contando o espazo libre no destino...
+U303	%s: non hai espazo libre suficiente no destino
+U304	Mover: eliminando os cartafoles de orixe
+U305	Feito
+U306	Detido
+U307	%s en curso%s
+U308	(parando)
+U309	Dende: %s
+U310	Para: %s
+U311	Ficheiros %u / %u cartafoles %u %s / %s (%u%%)%s
+U312	demasiados: só algúns
+U313	Necesita %s, gratuíto %s. Queres continuar?
+U314	Y: continuar N / ESC: cancelar
+U315	Preme calquera tecla para pechar
+U316	ESC: parar
+U317	%s: ←→ unidade ↑↓ cartafol Espazo abrir/pechar Entrar escolla ESC cancelar
+U318	Non se pode ler: %s
+U319	Lendo os cartafoles... (ESC detense) %u
+U320	%u cartafoles%s
+U321	(demasiado ou moi profundo: só algúns)
+U322	Deixou de abrir o cartafol
+U323	O espazo ábreo de novo. ESC cancela unha vez máis
+U324	Reprodutor SMF/SGT %s
+U325	Cargando... %lu / %lu bytes
+U326	%s / %s %s portos %u
+U327	En pausa
+U328	Xogando
+U329	Espazo: pausa m: MIDI OUT q / ESC: parar
+U330	q/ESC: cancelar
+U331	Licenzas e créditos de fonte ROM\n\nROM: %s (versión %lu.%lu, %lu caracteres, desde 0x%08lX no flash)
+U332	== Tipos de letra na ROM (a táboa de orixe da ROM) ==
+U333	(a ROM non ten táboa)
+U334	== A área de créditos do ROM ==
+U335	(non hai esa zona)
+U336	== Licenzas do software incorporado ==
+U337	Gardando %s como PNG %s
+U338	Pantalla
+U339	Construíndo... %lu / %lu filas
+U340	Escribindo... %lu / %lu KB (o FB está oculto)
+U341	Non se puido escribir
+U342	Nome do arquivo (os elementos marcados ou o elemento do cursor se non hai ningún)
+U343	Introduce comprimir ←→ mover BS / Borrar eliminar ESC cancelar
+U344	Exportación WAV: %s cancelada (%s)
+U345	Exportación WAV: %s fallou (%s)
+U346	Exportación WAV: %s total %s
+U347	Exportación WAV (96 kHz / 24 bits): %s
+U348	Cancelado
+U349	Fallou
+U350	Total %s
+U351	Cancelado (%s; o ficheiro parcial foi eliminado)
+U352	Non se puido exportar (%s). Motivo:
+U353	(motivo descoñecido)
+U354	%u%% transcorridos %s%s
+U355	ESC: parar (elimínase o ficheiro parcial)
+U356	Arquivo: %s
+U357	Lendo... (ESC para cancelar)
+U358	%u elementos%s total de %s bytes extraídos a: %s
+U359	Introduza extraer o elemento X extraer todo ↑↓ mover ESC pechar
+U360	Comprimir
+U361	Lista
+U362	Extraer
+U363	Total de %s %u elementos
+U364	Total de %s %u ficheiros
+U365	Cancelado (%s; o ficheiro sen rematar foi eliminado)
+U366	Non puido facelo (%s): %s
+U367	%u%% transcorridos %s %s bytes%s
+U368	transcorridos %s %s bytes%s
+U369	ESC: parar (elimínase o ficheiro inacabado)
+U370	Arquivo: %s fallou (%s)
+U371	Comprimido: %s (%u elementos)
+U372	Extraído: %s (%u ficheiros)

@@ -1,0 +1,373 @@
+# ga: machine translation (Google), unreviewed; 2026-11-17
+U001	Liosta (comhaid agus fillteáin i 2 cholún x 19 ró)
+U002	Bog an cúrsóir (ar chlé / ar dheis: an colún eile)
+U003	An leathanach roimhe / an chéad leathanach eile
+U004	Marcáil na marcanna go léir / inbhéartaigh (mar atá i PC-98 FD)
+U005	Céad / deireanach
+U006	Marcáil agus bogadh ar aghaidh / marcáil amháin
+U007	Shift+Saigheada
+U008	Roghnaigh raon (marcálann spás an raon)
+U009	Cuir isteach fillteán / oscail comhad (rith F2/X)
+U010	Suas go dtí an fillteán tuismitheora
+U011	Roghnaigh tiomántán (USB, flapach, CD, S: ionsuite)
+U012	Cóipeáil (Roghnaíonn Shift+C / Shift+F3 an ceann scríbe ón gcrann)
+U013	Bog
+U014	Scrios (Shift+D / Shift+F4 scrios fillteán)
+U015	Athainmnigh
+U016	Athraigh na tréithe
+U017	Oscail san eagarthóir
+U018	Féach mar théacs (Shift+V / Ctrl+Alt+F7 heicsidheachúlach)
+U019	Faisnéis tiomáint
+U020	Fillteán nua / comhad nua
+U021	Shell sgsh / scaoil amach an meán
+U022	Athlódáil
+U023	Sábháil an scáileán mar PNG
+U024	Dún an fhuinneog / glan an roghnú (i bhfofhillteán: téigh suas)
+U025	Oibríochtaí comhaid (mar atá i FD: marcanna, ansin an raon, ansin an cúrsóir)
+U026	Cóip: roghnaigh an ceann scríbe ón tiomáint agus crann fillteán. ESC stadanna
+U027	Scrios: deimhnigh le y. Marcanna agus raonta ag an am céanna. Fillteáin lena n-ábhar
+U028	Scrios fillteán (lena bhfuil ann)
+U029	Athainmnigh (cuir an t-ainm in eagar, Iontráil)
+U030	Tréithe: R inléite amháin, H i bhfolach, córas S, cartlann A
+U031	Fillteán nua
+U032	Comhad nua (folamh).
+U033	Féach mar théacs (Shift+V / Ctrl+Alt+F7 heicsidheachúlach)
+U034	Shell sgsh (scoir / Ctrl-D ar ais go dtí an comhdóir)
+U035	Céannacht an tiomántáin (FIOSRÚCHÁN, SAINAITHINT)
+U036	Díchuir an meán FDD / LS-120 / CD
+U037	Athlódáil an liosta (CD: ón TOC)
+U038	Faigh ón ríomhaire ag ZMODEM (zm.sh put)
+U039	Seol chuig an ríomhaire trí ZMODEM (zm.sh get)
+U040	Tiomsaigh .rb agus scríobh .mrb
+U041	Ruby REPL (líne amháin ag an am, Ctrl-D / ESC chun deiridh)
+U042	MicroPython REPL
+U043	Scoilt ina 4 páirteanna MB / ceangail ó .001
+U044	Scoilt / ceangail (mar an gcéanna le Ctrl+F11 / F12)
+U045	Scáileán (Alt+F, ní thagann sé salach ar a chéile leis na heochracha FD F)
+U046	Taispeáin / folaigh an FB (pictiúr) / an téacs
+U047	Leathanach taispeána FB (0-3)
+U048	Glan an FB go 0 / leath a ghile (RGB555)
+U049	Críochphointí USB agus an staid LAN
+U050	Glan an leathanach taispeána FB / leath a ghile
+U051	Samplaí tréithe téacs
+U052	Monatóireacht a dhéanamh ar EDID (léigh ag an tosaithe)
+U053	Cló ROM ceadúnais agus creidmheasanna
+U054	Socruithe (teanga taispeána, IME agus locale méarchláir)
+U055	Clog (am na Seapáine socraithe ag NTP; s sioncrónaithe anois)
+U056	Oscail scarbhileog (SGCALC)
+U057	Seiceáil S: le haghaidh earráidí (iarr roimh dheisiú)
+U058	Lorgaire Oscailte
+U059	Atosaigh (fiafraíonn sé ar dtús)
+U060	Seinn an t-ionchur steirió ADC (GP40 / 41)
+U061	Easpórtáil VGM/VGZ go WAV 96 kHz / 24-giotán
+U062	An chabhair seo
+U063	Athraigh an leathanach
+U064	Dún
+U065	Amharcóir téacs / heicsidheachúlach (cosúil le níos lú)
+U066	Líne amháin
+U067	leathanach amháin
+U068	Leath leathanach
+U069	Cuardaigh (ar aghaidh / siar) / seo chugainn / roimhe seo
+U070	Ar ais go dtí an liosta (F1: cabhair an lucht féachana)
+U071	Breathnóir íomhá
+U072	Ar ais chuig an liosta (obair F2 F3 F6 F7 Shift+F2 F3)
+U073	Eagarthóir (E / Shift+F8)
+U074	Sábháil (UTF-8; foircinn líne agus BOM coinnithe)
+U075	Dún (má athraítear é: T / N / ESC)
+U076	Ionsáigh / forscríobh
+U077	IME ar / as (Seapáinis / Béarla / Cóiréis)
+U078	Teanga GS (Seapáinis / Béarla / Cóiréis)
+U079	Tiomantas mar hiragana / katakana
+U080	Cabhair an eagarthóra
+U081	Bhlaosc
+U082	Shell (fothacar csh. scoir / Ctrl-D le filleadh, liostaíonn cuidigh na horduithe)
+U083	Liosta agus bogadh
+U084	Oibríochtaí comhaid
+U085	Scáileán agus gléasanna
+U086	Lucht féachana agus eagarthóir
+U087	Cabhair %u / %u%s
+U088	Clé Ar dheis: athraigh an leathanach F1 / ESC: dún
+U089	Atosaigh sgnano?
+U090	[ Atosaigh ]
+U091	[ Cealaigh ]
+U092	Seiceáil an S: tiomántán le haghaidh earráidí
+U093	Comhaid %lu fillteáin %lu
+U094	Ní hionann an méid agus an slabhra
+U095	Braislí a úsáidtear ag rud ar bith
+U096	Cnuasaigh tras-nasctha
+U097	Iontrálacha briste
+U098	Tá difríocht idir an dá chóip saille
+U099	Uimh earráidí.
+U100	Fuarthas earráidí. Deisiúchán iad?
+U101	Deisíodh (socraíodh na huimhreacha thuas).
+U102	Níorbh fhéidir seiceáil nó deisiú (S: Tá gnóthach).
+U103	[ Deisiúchán ]
+U104	[ Cealaigh ]
+U105	Dúnann aon eochair
+U106	Socruithe
+U107	Teanga taispeána
+U108	Logán méarchláir
+U109	Suas / Síos Iontráil roghnaigh cealú ESC
+U110	Teanga taispeána
+U111	Suas / Síos Iontráil: socraigh ESC: ar ais
+U112	Deisigh %c: cén litir? (A-Z seachas S. ESC cealaithe)
+U113	Litir tiomáint / Iontráil roghnaigh F2 Ceartaigh/Díshocrú an litir F3 Ceartaigh mar... L / ESC ar ceal
+U114	deighilt %u
+U115	%c:* (seasta, gan a bheith ceangailte) %04X:%04X%s %s
+U116	Fógra
+U117	Tiomántán %c: %s
+U118	Tiomántán (aon cheann)
+U119	Dlúthdhiosca fuaime % u rianta
+U120	Fillteáin %u comhaid %u iomlán %s
+U121	Ag léamh...
+U122	* marcáilte %u %s
+U123	%lu beart
+U124	Attr %s modhnaithe %s cruthaithe %s %s
+U125	Ghrian
+U126	Mon
+U127	Dé Máirt
+U128	Céad
+U129	Thu
+U130	Aoine
+U131	Sath
+U132	Níl an clog socraithe (NTP thar an LAN)
+U133	Taispeáint FB %u scríobh %u
+U134	1 Cabhair
+U135	2 Rith
+U136	3 Cóip
+U137	4 Del
+U138	5 Athainmnigh
+U139	7 FBclr
+U140	8 FBdim
+U141	9 Tiomáint
+U142	10 n-eagla
+U143	11 Clog
+U144	12 CALC
+U145	1 Attr
+U146	2 Eolas
+U147	3 Bog
+U148	5 Mhichíl
+U149	6 Bhlaosc
+U150	8 Cuir in eagar
+U151	9 Amharc
+U152	10 S:chk
+U153	11 RIAN
+U154	12 Atosaigh
+U155	1 Nua
+U156	2 Fillteán
+U157	3 Athainmnigh
+U158	4 Attrib
+U159	6 Cóip
+U160	7 Bog
+U161	8 Scrios
+U162	9 Cuir in eagar
+U163	10 mbc
+U164	11 Scoilt
+U165	12 Bígí
+U166	1 Atrs
+U167	2 FB
+U168	3 Téacs
+U169	5 ScrSht
+U170	6 DiopPg
+U171	9 ZMrecv
+U172	10ZMsend
+U173	2 FBclr
+U174	3 FBDim
+U175	5 Athlódáil
+U176	7 Heics
+U177	9 Lic
+U178	11 Socrú
+U179	Socraigh an clog (am na Seapáine. Níorbh fhéidir le NTP é a shocrú)
+U180	Rith le paraiméadair
+U181	Fillteán nua
+U182	Comhad nua
+U183	Am:
+U184	Rith:
+U185	Ainm:
+U186	BBBB-MM-LL hh:mm Cuir isteach coimeád ESC socraithe
+U187	Iontráil rith <-> bog BS/Del scrios ESC ceal
+U188	Iontráil athainmnigh <-> bog BS/Del delete ESC ceal
+U189	Iontráil cruthaigh <-> bog BS/Del scrios ESC ceal
+U190	Scrios
+U191	míreanna
+U192	Scriostar fillteáin lena n-inneachar. An bhfuil tú cinnte?
+U193	An bhfuil fonn ort an comhad seo a scriosadh?
+U194	(Ní féidir é seo a chealú. Scriostar comhaid sna fillteáin freisin)
+U195	[ Tá (Y) ]
+U196	[ Níl (N) ]
+U197	breathnóir heicsidheachúlach: roghnaigh comhad
+U198	breathnóir téacs: roghnaigh comhad
+U199	Bog go
+U200	Cóipeáil chuig
+U201	Tá an maolán lán
+U202	Tá an tiomáint inléite amháin
+U203	Ní féidir a shábháil (gan scríbhneoir)
+U204	Níorbh fhéidir tús a shábháil (tá an tiomántán gnóthach?)
+U205	Ag sábháil...
+U206	2 Sábháil
+U207	5 Dath
+U208	6 Hiorá
+U209	7 Cáit
+U210	8 Creach
+U211	10 Scoir
+U212	1 Barr
+U213	2 Deireadh
+U214	3 InsOvr
+U215	4 Dict
+U216	6 HHira
+U217	7 Haca
+U218	%s %s Ln %lu/%lu Col %u %s %s %s%s%s
+U219	*mod
+U220	OVR
+U221	INS
+U222	R/O
+U223	Eagarthóir (eagar scnano) Dúnann F1 / ESC
+U224	Saigheada / Deireadh Baile / PgUp PgDn bogadh an cúrsóir
+U225	Ctrl-T / Ctrl-B barr / deireadh an chomhaid
+U226	BS / Del scriosadh roimh / ag an cúrsóir
+U227	Iontráil líne nua (coimeádann sé an fleasc)
+U228	Tab / Ins tab / cuir isteach nó forscríobh
+U229	Dathúcháin F5 (ón síneadh; C/C++, mruby, MicroPython, SG BASIC, gan aon)
+U230	Sábháil F2 (Ctrl-S) (UTF-8, coimeádtar foircinn na líne)
+U231	Dún F10 / ESC (fiafraíonn sé má athraíodh é)
+U232	IME: Ctrl-Space / F12 ar / as (あ / A)
+U233	F9 teanga GS (an t-eagarthóir seo amháin; athchóirithe faoi dheireadh)
+U234	F8 tiontú tuarthach na Seapáine ar siúl / as
+U235	romaji Seapáinis -> hiragana (F6) / katakana (F7)
+U236	Hiragana leathleithead (Shift+F6) / katakana leathleithead (Shift+F7)
+U237	Déan réamh-mheas le 2 charachtar nó níos mó, tiontaigh clásal leanúnach le Spás
+U238	Béarla Críochnú tuartha le 2 charachtar nó níos mó
+U239	Cluiche 2 Bol-stíl Hangul
+U240	Spás / Iontráil Tiontaigh / Deimhnigh
+U241	← → Roghnaigh frása
+U242	Shift+← → Laghdaigh/fás foirceann dheas an chlásail le carachtar amháin (iarrthóirí nua)
+U243	↑ ↓ / Cluaisín Roimhe / seo chugainn iarrthóir sa phreabfhuinneog (faoi bhun an téacs, thuas in aice leis an mbun)
+U244	Cuir isteach ar →→→ Gach iarrthóir (2 x 8, ← → colún agus leathanach, roghnaíonn Iontráil)
+U245	Iontráil an Chéad Chlásal Eile (deimhníonn sé an t-iomlán ag an gclásal deiridh)
+U246	Ctrl-U Cuir an focal reatha le foclóir an úsáideora
+U247	Shift+F1 / F2 / F3 / F4 Barr / deireadh / cuir isteach- forscríobh / chuig an bhfoclóir úsáideora
+U248	BS / ESC Téigh siar carachtar amháin / Cealaigh
+U249	, . - [ ] / 、 。 ー 「 」 ・
+U250	Athraithe Y: sábháil agus dún N: dún gan sábháil ESC: ar ais
+U251	[Tuar] Cluaisín/↑↓: iarrthóir Spás: tiontaigh Esc: cealaigh
+U252	[Iarrthóirí] ↑↓: roghnaigh ←→: colún/leathanach Iontráil: roghnaigh
+U253	[Tiontaigh] ↑↓cand ←→ clásal Shift+←→ faoi cheangal Iontráil seo chugainn
+U254	[한국어] Cluaisín/↑↓: iarrthóir Iontráil/Spás: deimhnigh
+U255	[Béarla] Táb/↑↓: iarrthóir Cuir isteach: deimhnigh
+U256	Ionchur Hangul 2-thacar Ctrl-Space: alfa-uimhriúil
+U257	Críochnú tuartha Ctrl-Space: ionchur díreach
+U258	Gan foclóir: hiragana/katakana amháin F6/F7
+U259	Spás: tiontaigh F7: katakana Ctrl-Space: alfa-uimhriúil
+U260	Spás: tiontaigh F6: hiragana Ctrl-Spás: alfa-uimhriúil
+U261	Leathleithead F6: hiragana F7: katakana Shift+F6/F7: leath
+U262	IME as
+U263	thuar
+U264	Aistriúchán Seapáinise tuartha: Ar
+U265	Aistriúchán tuarthach don tSeapáinis: Off
+U266	Bain úsáid as le GS na Seapáine
+U267	Ní féidir é a chur le foclóir an úsáideora
+U268	Dathú: %s
+U269	Á lódáil...
+U270	Níorbh fhéidir an comhad a léamh
+U271	%lu línte %s%s
+U272	oscail Shift_JIS mar UTF-8 (shábháil mar UTF-8)
+U273	inléite amháin
+U274	Shábháil
+U275	Níorbh fhéidir a shábháil (theip ar scríobh)
+U276	Iarrthóirí
+U277	7 WrtPg
+U278	9 Téacs
+U279	9 Heics
+U280	%lu%% á lódáil
+U281	(an tús amháin)
+U282	Heics q ESC: ais F1: cabhrú
+U283	Téacs q ESC: ar ais F1: cabhair
+U284	Eochracha radhairc (ar nós níos lú; mar an gcéanna le haghaidh téacs agus heicsidheachúlach)
+U285	Líne amháin síos
+U286	Líne amháin suas
+U287	Leathanach amháin síos
+U288	Leathanach amháin suas
+U289	Leath leathanach síos / suas
+U290	/téacs ?téacs
+U291	Cuardaigh síos / suas (neamhaird an cás)
+U292	Cluiche eile / roimhe seo
+U293	Taispeáin mar heics (san áit chéanna)
+U294	Taispeáin mar théacs (san áit chéanna)
+U295	Athraigh an dathú (C/C++, mruby, MicroPython, SG BASIC, gan aon)
+U296	Taispeáin / folaigh an FB / an téacs
+U297	Leathanach taispeána FB / leathanach scríobh
+U298	Ar ais go dtí an comhdóir
+U299	Dún an chabhair seo
+U300	Cóip
+U301	%s: ag léamh na bhfillteán... %u
+U302	%s: an spás saor ag an gceann scríbe a chomhaireamh...
+U303	%s: níl dóthain spáis in aisce ag an gceann scríbe
+U304	Bog: na fillteáin foinse a bhaint
+U305	Déanta
+U306	Stopadh
+U307	%s ar siúl %s
+U308	(ag stopadh)
+U309	Ó: %s
+U310	Chuig: %s
+U311	Comhaid %u / %u fillteáin %u %s / %s (%u%%)%s
+U312	an iomarca: ach roinnt
+U313	Riachtanais %s, saor %s. Lean ort?
+U314	Y: ar aghaidh N / ESC: cealaigh
+U315	Brúigh eochair ar bith le dúnadh
+U316	ESC: stop
+U317	%s: ←→ tiomáint ↑↓ fillteán Spás oscailte/dún Iontráil roghnaigh ESC ceal
+U318	Ní féidir a léamh: %s
+U319	Na fillteáin á léamh... (Stopann an ESC) %u
+U320	%u fillteáin%s
+U321	(iomarca nó ró-dhomhain: ach cuid acu)
+U322	Stop an fillteán a oscailt
+U323	Osclaíonn spás arís é. Cuireann ESC ar ceal arís
+U324	Seinnteoir SMF / SGT %s
+U325	Ag lódáil... %lu / %lu beart
+U326	%s / %s %s poirt %u
+U327	Sos
+U328	Ag imirt
+U329	Spás: sos m: MIDI AMACH q / ESC: stop
+U330	q / ESC: cealú
+U331	Cló ROM ceadúnais agus creidmheasanna\n\nROM: %s (leagan %lu.%lu, %lu carachtair, ó 0x%08lX sa flash)
+U332	== Clónna sa ROM (tábla tionscnaimh an ROM) ==
+U333	(níl aon tábla ag an ROM)
+U334	== Réimse creidmheasanna an ROM ==
+U335	(gan a leithéid de cheantar)
+U336	== Ceadúnais na mbogearraí ionsuite ==
+U337	Ag sábháil %s mar PNG %s
+U338	Scáileán
+U339	Ag tógáil... %lu / %lu sraitheanna
+U340	Ag scríobh... %lu / %lu KB (tá an FB i bhfolach)
+U341	Níorbh fhéidir scríobh
+U342	Ainm na cartlainne (na míreanna marcáilte, nó mír an chúrsóra mura bhfuil aon cheann acu)
+U343	Iontráil compress ←→ bogadh BS / Del scriosadh ESC ceal
+U344	Easpórtáil WAV: %s cealaithe (%s)
+U345	Easpórtáil WAV: %s theip air (%s)
+U346	Easpórtáil WAV: %s iomlán %s
+U347	Easpórtáil WAV (96kHz / 24bit): %s
+U348	Ar ceal
+U349	Theip
+U350	Iomlán %s
+U351	Cealaithe (%s; scriosadh an páirtchomhad)
+U352	Níorbh fhéidir (%s) a easpórtáil. Cúis:
+U353	(cúis anaithnid)
+U354	%u%% caite %s%s
+U355	ESC: stop (scriostar an comhad páirteach)
+U356	Cartlann: %s
+U357	Ag léamh... (ESC le cur ar ceal)
+U358	%u míreanna%s iomlán %s bytes sliocht go: %s
+U359	Cuir isteach mír sliocht X sliocht go léir ↑↓ bogadh ESC dhúnadh
+U360	Comhbhrúigh
+U361	Liosta
+U362	Sliocht
+U363	Iomlán %s %u míreanna
+U364	Iomlán %s %u comhaid
+U365	Cealaithe (%s; scriosadh an comhad neamhchríochnaithe)
+U366	Níorbh fhéidir é a dhéanamh (%s): %s
+U367	%u%% caite %s %s bytes%s
+U368	caite %s%s bytes%s
+U369	ESC: stop (scriostar an comhad neamhchríochnaithe)
+U370	Cartlann: Theip ar %s (%s)
+U371	Comhbhrúite: %s (%u míreanna)
+U372	Bainte: %s (%u comhaid)

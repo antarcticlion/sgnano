@@ -1,0 +1,342 @@
+# Kiswahili (sw) — UI. Machine translation, unreviewed (2026-11-16)
+U001	Orodha (faili na folda katika safu 2 x mistari 19)
+U002	Sogeza kiteuzi (kushoto / kulia: safu nyingine)
+U003	Ukurasa uliopita / unaofuata
+U004	Weka alama zote / geuza alama (kama PC-98 FD)
+U005	Mwanzo / mwisho
+U006	Weka alama na uendelee / weka alama tu
+U007	Shift+mishale
+U008	Chagua eneo (Space huweka alama eneo)
+U009	Ingia kwenye folda / fungua faili (F2/X endesha)
+U010	Panda kwenye folda mzazi
+U011	Chagua diski (USB, diski laini, CD, S: ya ndani)
+U012	Nakili (Shift+C / Shift+F3 huchagua mahali kutoka kwenye mti)
+U013	Hamisha
+U014	Futa (Shift+D / Shift+F4 futa folda)
+U015	Badilisha jina
+U016	Badilisha sifa
+U017	Fungua kwenye kihariri
+U018	Tazama kama maandishi (Shift+V / Ctrl+Alt+F7 hex)
+U019	Taarifa za diski
+U020	Folda mpya / faili mpya
+U021	Shell sgsh / toa diski
+U022	Pakia upya
+U023	Hifadhi skrini kama PNG
+U024	Funga dirisha / ondoa uteuzi (kwenye folda ndogo: panda juu)
+U025	Shughuli za faili (kama FD: alama, kisha eneo, kisha kiteuzi)
+U026	Nakili: chagua mahali kutoka kwenye mti wa diski na folda. ESC husimamisha
+U027	Futa: thibitisha kwa y. Alama na maeneo kwa pamoja. Folda pamoja na yaliyomo
+U028	Futa folda (pamoja na yaliyomo)
+U029	Badilisha jina (hariri jina, Enter)
+U030	Sifa: R kusoma tu, H iliyofichwa, S mfumo, A hifadhi
+U031	Folda mpya
+U032	Faili mpya (tupu)
+U033	Tazama kama maandishi (Shift+V / Ctrl+Alt+F7 hex)
+U034	Shell sgsh (exit / Ctrl-D kurudi kwenye kidhibiti faili)
+U035	Utambulisho wa diski (INQUIRY, IDENTIFY)
+U036	Toa diski ya FDD / LS-120 / CD
+U037	Pakia orodha upya (CD: kutoka TOC)
+U038	Pokea kutoka PC kwa ZMODEM (zm.sh put)
+U039	Tuma kwa PC kwa ZMODEM (zm.sh get)
+U040	Kusanya .rb na uandike .mrb
+U041	REPL ya Ruby (mstari mmoja kwa wakati, Ctrl-D / ESC kumaliza)
+U042	REPL ya MicroPython
+U043	Gawa katika sehemu za MB 4 / unganisha kutoka .001
+U044	Gawa / unganisha (sawa na Ctrl+F11 / F12)
+U045	Skrini (Alt+F, haigongani na vitufe F vya FD)
+U046	Onyesha / ficha FB (picha) / maandishi
+U047	Ukurasa wa kuonyesha wa FB (0-3)
+U048	Futa FB hadi 0 / punguza mwangaza nusu (RGB555)
+U049	Vituo vya USB na hali ya LAN
+U050	Futa ukurasa wa kuonyesha wa FB / punguza mwangaza nusu
+U051	Mifano ya sifa za maandishi
+U052	EDID ya skrini (husomwa wakati wa kuwasha)
+U053	Leseni na sifa za ROM ya fonti
+U054	Mipangilio (lugha ya kuonyesha, IME na mpangilio wa kibodi)
+U055	Saa (saa ya Japani kwa NTP; s husawazisha sasa)
+U056	Fungua lahajedwali (SGCALC)
+U057	Kagua makosa ya S: (huuliza kabla ya kurekebisha)
+U058	Fungua TRACKER
+U059	Washa upya (huuliza kwanza)
+U060	Cheza ingizo la stereo la ADC (GP40 / 41)
+U061	Hamisha VGM/VGZ kuwa WAV ya kHz 96 / biti 24
+U062	Msaada huu
+U063	Badilisha ukurasa
+U064	Funga
+U065	Kitazamaji maandishi / hex (kama less)
+U066	Mstari mmoja
+U067	Ukurasa mmoja
+U068	Nusu ukurasa
+U069	Tafuta (mbele / nyuma) / unaofuata / uliopita
+U070	Rudi kwenye orodha (F1: msaada wa kitazamaji)
+U071	Kitazamaji picha
+U072	Rudi kwenye orodha (F2 F3 F6 F7 Shift+F2 F3 hufanya kazi)
+U073	Kihariri (E / Shift+F8)
+U074	Hifadhi (UTF-8; miisho ya mistari na BOM hubaki)
+U075	Funga (kama imebadilishwa: Y / N / ESC)
+U076	Ingiza / andika juu
+U077	Washa/zima IME (Kijapani / Kiingereza / Kikorea)
+U078	Lugha ya IME (Kijapani / Kiingereza / Kikorea)
+U079	Thibitisha kama hiragana / katakana
+U080	Msaada wa kihariri
+U081	Shell
+U082	Shell (sehemu ya csh. exit / Ctrl-D kurudi, help huorodhesha amri)
+U083	Orodha na kusogea
+U084	Shughuli za faili
+U085	Skrini na vifaa
+U086	Vitazamaji na kihariri
+U087	Msaada  %u / %u  %s
+U088	Kushoto Kulia: badilisha ukurasa    F1 / ESC: funga
+U089	Washa upya sgnano?
+U090	[ Washa upya ]
+U091	[ Ghairi ]
+U092	Kagua makosa ya diski S:
+U093	Faili %lu  folda %lu
+U094	Ukubwa haulingani na mnyororo
+U095	Klasta zisizotumiwa na chochote
+U096	Klasta zilizounganishwa kwa msalaba
+U097	Maingizo yaliyoharibika
+U098	Nakala mbili za FAT zinatofautiana
+U099	Hakuna makosa.
+U100	Makosa yamepatikana. Yarekebishwe?
+U101	Imerekebishwa (namba hapo juu zimerekebishwa).
+U102	Haikuweza kukagua au kurekebisha (S: ina shughuli).
+U103	[ Rekebisha ]
+U104	[ Ghairi ]
+U105	Kitufe chochote hufunga
+U106	Mipangilio
+U107	Lugha ya kuonyesha
+U108	Mpangilio wa kibodi
+U109	Juu / Chini  Enter chagua  ESC ghairi
+U110	Lugha ya kuonyesha
+U111	Juu / Chini  Enter: weka  ESC: rudi
+U112	Funga %c: kama herufi ipi? (A-Z isipokuwa S. ESC hughairi)
+U113	Diski  herufi / Enter chagua  F2 funga/fungua herufi  F3 funga kama...  L / ESC ghairi
+U114	  kizigeu %u
+U115	%c:* (imefungwa, haijaunganishwa) %04X:%04X%s  %s
+U116	Taarifa
+U117	Diski %c:  %s
+U118	Diski  (hakuna)
+U119	CD ya sauti  nyimbo %u
+U120	Folda %u  faili %u  jumla %s
+U121	Inasoma...
+U122	* zenye alama %u  %s
+U123	baiti %lu
+U124	Sifa %s   imebadilishwa %s   imeundwa %s   %s
+U125	Jpi
+U126	Jtt
+U127	Jnn
+U128	Jtn
+U129	Alh
+U130	Iju
+U131	Jmo
+U132	Saa haijawekwa (NTP kupitia LAN)
+U133	FB  onyesho %u  kuandika %u
+U134	1 Msaada
+U135	2 Endes
+U136	3 Nakili
+U137	4 Futa
+U138	5 Jina
+U139	7 FutaFB
+U140	8 FifiFB
+U141	9 Diski
+U142	10 EP
+U143	11 Saa
+U144	12 CALC
+U145	1 Sifa
+U146	2 Habari
+U147	3 Hamia
+U148	5 Folda
+U149	6 Shell
+U150	8 Hariri
+U151	9 Tazama
+U152	10 S:kag
+U153	11 TRACK
+U154	12 Washa
+U155	1 Mpya
+U156	2 Folda
+U157	3 Jina
+U158	4 Sifa
+U159	6 Nakili
+U160	7 Hamia
+U161	8 Futa
+U162	9 Hariri
+U163	10 mrbc
+U164	11 Gawa
+U165	12 Unga
+U166	1 Sifa
+U167	2 FB
+U168	3 Maandi
+U169	5 Picha
+U170	6 Ukura
+U171	9 ZMpok
+U172	10 ZMtum
+U173	2 FutaFB
+U174	3 FifiFB
+U175	5 Upya
+U176	7 Hex
+U177	9 Leseni
+U178	11 Mipa
+U179	Weka saa (saa ya Japani. NTP haikuweza kuiweka)
+U180	Endesha na vigezo
+U181	Folda mpya
+U182	Faili mpya
+U183	Saa:
+U184	Endesha:
+U185	Jina:
+U186	YYYY-MM-DD hh:mm  Enter weka  ESC acha hivyo
+U187	Enter endesha  <-> sogeza  BS / Del futa  ESC ghairi
+U188	Enter badilisha jina  <-> sogeza  BS / Del futa  ESC ghairi
+U189	Enter unda  <-> sogeza  BS / Del futa  ESC ghairi
+U190	Futa
+U191	 vipengee
+U192	Folda zitafutwa pamoja na yaliyomo. Una uhakika?
+U193	Futa faili hii?
+U194	(Hili haliwezi kutenduliwa. Faili zilizo ndani ya folda zitafutwa pia)
+U195	[ Ndiyo (Y) ]
+U196	[ Hapana (N) ]
+U197	kitazamaji hex: chagua faili
+U198	kitazamaji maandishi: chagua faili
+U199	Hamisha hadi
+U200	Nakili hadi
+U201	Bafa imejaa
+U202	Diski ni ya kusoma tu
+U203	Haiwezi kuhifadhi (hakuna mwandishi)
+U204	Haikuweza kuanza kuhifadhi (diski ina shughuli?)
+U205	Inahifadhi...
+U206	2 Hifad
+U207	5 Rangi
+U208	6 Hira
+U209	7 Kata
+U210	8 Tabiri
+U211	10 Toka
+U212	1 Juu
+U213	2 Mwisho
+U214	3 Ingiza
+U215	4 Kamusi
+U216	6 HHira
+U217	7 HKata
+U218	 %s  %s  Mst %lu/%lu Saf %u  %s  %s %s%s%s
+U219	*imebad
+U220	JUU
+U221	ING
+U222	  Kusoma tu
+U223	 Kihariri (sgnano edit)                      F1 / ESC hufunga
+U224	 Mishale / Home End / PgUp PgDn  sogeza kiteuzi
+U225	 Ctrl-T / Ctrl-B               mwanzo / mwisho wa faili
+U226	 BS / Del                      futa kabla / kwenye kiteuzi
+U227	 Enter                         mstari mpya (huhifadhi ujongezaji)
+U228	 Tab / Ins                     tab / ingiza au andika juu
+U229	 F5                            Rangi (kutoka kiendelezi; C/C++, mruby, MicroPython, SG BASIC, hakuna)
+U230	 F2  (Ctrl-S)                  hifadhi (UTF-8, miisho ya mistari hubaki)
+U231	 F10 / ESC                     funga (huuliza kama imebadilishwa)
+U232	 IME:  Ctrl-Space / F12        washa / zima (あ / A)
+U233	       F9                      lugha ya IME (kihariri hiki tu; hurudishwa wakati wa kufunga)
+U234	       F8 Washa/zima ubadilishaji wa kutabiri wa Kijapani
+U235	       Kijapani                romaji -> hiragana (F6) / katakana (F7)
+U236	                               Hiragana nusu upana (Shift+F6) / katakana nusu upana (Shift+F7)
+U237	                               Tabiri kwa herufi 2 au zaidi, badilisha vishazi mfululizo kwa Space
+U238	       Kiingereza: ukamilishaji wa kutabiri kwa herufi 2 au zaidi
+U239	       한국어 Hangul ya seti 2
+U240	       Space / Enter Badilisha / Thibitisha
+U241	       ← → Chagua kishazi
+U242	       Shift+← → Punguza/ongeza mwisho wa kulia wa kishazi kwa herufi moja (chaguo mpya)
+U243	       ↑ ↓ / Tab               Chaguo lililopita / linalofuata kwenye dirisha (chini ya maandishi, juu karibu na chini)
+U244	       Enter juu ya →→→        Chaguo zote (2 x 8, ← → safu na ukurasa, Enter huchagua)
+U245	       Enter                   Kishazi kinachofuata (kwenye cha mwisho huthibitisha vyote)
+U246	       Ctrl-U Ongeza neno la sasa kwenye kamusi ya mtumiaji
+U247	 Shift+F1 / F2 / F3 / F4       Mwanzo / mwisho / ingiza-andika juu / kwenye kamusi ya mtumiaji
+U248	       BS / ESC Rudi herufi moja / Ghairi
+U249	       , . - [ ] /             、 。 ー 「 」 ・
+U250	Imebadilishwa  Y: hifadhi na funga  N: funga bila kuhifadhi  ESC: rudi
+U251	[Utabiri] Tab/↑↓: chaguo  Space: badilisha  Esc: ghairi
+U252	[Chaguo] ↑↓: chagua  ←→: safu/ukurasa  Enter: chukua
+U253	[Badilisha] ↑↓chaguo ←→kishazi Shift+←→mpaka Enter ijayo
+U254	[한국어] Tab/↑↓: chaguo  Enter/Space: thibitisha
+U255	[English] Tab/↑↓: chaguo  Enter: thibitisha
+U256	Ingizo la Hangul la seti 2  Ctrl-Space: herufi na namba
+U257	Ukamilishaji wa kutabiri  Ctrl-Space: ingizo la moja kwa moja
+U258	Hakuna kamusi: hiragana/katakana tu  F6/F7
+U259	Space: badilisha  F7: katakana  Ctrl-Space: herufi na namba
+U260	Space: badilisha  F6: hiragana  Ctrl-Space: herufi na namba
+U261	Nusu upana  F6: hiragana  F7: katakana  Shift+F6/F7: nusu
+U262	IME imezimwa
+U263	 tabiri
+U264	Ubadilishaji wa kutabiri wa Kijapani: Umewashwa
+U265	Ubadilishaji wa kutabiri wa Kijapani: Umezimwa
+U266	Tumia na IME ya Kijapani
+U267	Haiwezi kuongeza kwenye kamusi ya mtumiaji
+U268	Rangi: %s
+U269	Inapakia...
+U270	Haikuweza kusoma faili
+U271	mistari %lu%s%s
+U272	  Shift_JIS imefunguliwa kama UTF-8 (huhifadhiwa kama UTF-8)
+U273	  kusoma tu
+U274	Imehifadhiwa
+U275	Haikuweza kuhifadhi (kuandika kumeshindwa)
+U276	Chaguo
+U277	7 UkAnd
+U278	9 Maandi
+U279	9 Hex
+U280	Inapakia %lu%%
+U281	(mwanzo tu)
+U282	Hex  q ESC: rudi  F1: msaada
+U283	Maandishi  q ESC: rudi  F1: msaada
+U284	Vitufe vya kitazamaji (kama less; sawa kwa maandishi na hex)
+U285	Mstari mmoja chini
+U286	Mstari mmoja juu
+U287	Ukurasa mmoja chini
+U288	Ukurasa mmoja juu
+U289	Nusu ukurasa chini / juu
+U290	/maandishi  ?maandishi
+U291	Tafuta chini / juu (bila kujali herufi kubwa)
+U292	Ulinganifu unaofuata / uliopita
+U293	Onyesha kama hex (mahali hapo hapo)
+U294	Onyesha kama maandishi (mahali hapo hapo)
+U295	Badilisha rangi (C/C++, mruby, MicroPython, SG BASIC, hakuna)
+U296	Onyesha / ficha FB / maandishi
+U297	Ukurasa wa kuonyesha / wa kuandika wa FB
+U298	Rudi kwenye kidhibiti faili
+U299	Funga msaada huu
+U300	Nakili
+U301	 %s: inasoma folda... %u
+U302	 %s: inahesabu nafasi tupu mahali pa kufikia...
+U303	 %s: nafasi tupu haitoshi mahali pa kufikia
+U304	 Hamisha: inaondoa folda za chanzo
+U305	Imekamilika
+U306	Imesimamishwa
+U307	 %s inaendelea%s
+U308	 (inasimama)
+U309	 Kutoka: %s
+U310	 Hadi: %s
+U311	 Faili %u / %u  folda %u  %s / %s  (%u%%)%s
+U312	  nyingi mno: baadhi tu
+U313	 Inahitaji %s, tupu %s. Endelea?
+U314	 Y: endelea   N / ESC: ghairi
+U315	 Bonyeza kitufe chochote kufunga
+U316	 ESC: simamisha
+U317	 %s: ←→ diski  ↑↓ folda  Space fungua/funga  Enter chagua  ESC ghairi
+U318	 Haiwezi kusoma: %s
+U319	 Inasoma folda... (ESC husimamisha)  %u
+U320	 folda %u%s
+U321	 (nyingi mno au ndani mno: baadhi tu)
+U322	Kufungua folda kumesimamishwa
+U323	Space huifungua tena. ESC mara moja zaidi hughairi
+U324	 Kicheza SMF / SGT   %s
+U325	 Inapakia... %lu / %lu baiti
+U326	 %s / %s   %s   bandari %u
+U327	Imesitishwa
+U328	Inacheza
+U329	 Space: sitisha  m: MIDI OUT  q / ESC: simamisha
+U330	 q / ESC: ghairi
+U331	Leseni na sifa za ROM ya fonti\n\nROM: %s (toleo %lu.%lu, herufi %lu, kutoka 0x%08lX kwenye flash)\n\n
+U332	== Fonti zilizo kwenye ROM (jedwali la asili la ROM) ==\n
+U333	  (ROM haina jedwali)\n
+U334	\n== Eneo la sifa la ROM ==\n\n
+U335	(hakuna eneo kama hilo)\n
+U336	\n== Leseni za programu zilizojengwa ndani ==\n
+U337	 Inahifadhi %s kama PNG   %s
+U338	Skrini
+U339	 Inajenga... mistari %lu / %lu
+U340	 Inaandika... %lu / %lu KB (FB imefichwa)
+U341	Haikuweza kuandika

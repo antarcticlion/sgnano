@@ -1,0 +1,995 @@
+# Oʻzbekcha (uz) — UI and messages. Machine translation, unreviewed (2026-11-16)
+U001	Roʻyxat (fayllar va jildlar 2 ustun x 19 qatorda)
+U002	Kursorni siljitish (chap / oʻng: boshqa ustun)
+U003	Oldingi sahifa / keyingi sahifa
+U004	Hammasini belgilash / belgilarni teskari qilish (PC-98 FD kabi)
+U005	Birinchi / oxirgi
+U006	Belgilab davom etish / faqat belgilash
+U007	Shift+strelkalar
+U008	Oraliqni tanlash (Space oraliqni belgilaydi)
+U009	Jildga kirish / faylni ochish (F2/X ishga tushirish)
+U010	Yuqori jildga chiqish
+U011	Diskni tanlash (USB, disketa, CD, ichki S:)
+U012	Nusxalash (Shift+C / Shift+F3 manzilni daraxtdan tanlaydi)
+U013	Koʻchirish
+U014	Oʻchirish (Shift+D / Shift+F4 jildni oʻchirish)
+U015	Nomini oʻzgartirish
+U016	Atributlarni oʻzgartirish
+U017	Muharrirda ochish
+U018	Matn sifatida koʻrish (Shift+V / Ctrl+Alt+F7 hex)
+U019	Disk maʼlumoti
+U020	Yangi jild / yangi fayl
+U021	Shell sgsh / diskni chiqarish
+U022	Qayta yuklash
+U023	Ekranni PNG sifatida saqlash
+U024	Oynani yopish / tanlovni bekor qilish (ichki jildda: yuqoriga)
+U025	Fayl amallari (FD kabi: belgilar, keyin oraliq, keyin kursor)
+U026	Nusxalash: manzilni disk va jildlar daraxtidan tanlang. ESC toʻxtatadi
+U027	Oʻchirish: y bilan tasdiqlang. Belgilar va oraliqlar birga. Jildlar ichidagilari bilan
+U028	Jildni oʻchirish (ichidagilari bilan)
+U029	Nomini oʻzgartirish (nomni tahrirlang, Enter)
+U030	Atributlar: R faqat oʻqish, H yashirin, S tizim, A arxiv
+U031	Yangi jild
+U032	Yangi (boʻsh) fayl
+U033	Matn sifatida koʻrish (Shift+V / Ctrl+Alt+F7 hex)
+U034	Shell sgsh (exit / Ctrl-D fayl boshqaruvchisiga qaytish)
+U035	Disk identifikatori (INQUIRY, IDENTIFY)
+U036	FDD / LS-120 / CD diskini chiqarish
+U037	Roʻyxatni qayta yuklash (CD: TOC dan)
+U038	ZMODEM orqali PC dan qabul qilish (zm.sh put)
+U039	ZMODEM orqali PC ga yuborish (zm.sh get)
+U040	.rb ni kompilyatsiya qilib .mrb yozish
+U041	Ruby REPL (bir vaqtda bir qator, tugatish uchun Ctrl-D / ESC)
+U042	MicroPython REPL
+U043	4 MB qismlarga boʻlish / .001 dan birlashtirish
+U044	Boʻlish / birlashtirish (Ctrl+F11 / F12 bilan bir xil)
+U045	Ekran (Alt+F, FD ning F tugmalari bilan toʻqnashmaydi)
+U046	FB (rasm) / matnni koʻrsatish / yashirish
+U047	FB koʻrsatish sahifasi (0-3)
+U048	FB ni 0 ga tozalash / yorqinlikni yarmiga tushirish (RGB555)
+U049	USB oxirgi nuqtalari va LAN holati
+U050	FB koʻrsatish sahifasini tozalash / yorqinlikni yarmiga tushirish
+U051	Matn atributlari namunalari
+U052	Monitor EDID (yuklashda oʻqilgan)
+U053	Shrift ROM litsenziyalari va mualliflari
+U054	Sozlamalar (koʻrsatish tili, IME va klaviatura tartibi)
+U055	Soat (NTP orqali Yaponiya vaqti; s hozir sinxronlaydi)
+U056	Elektron jadvalni ochish (SGCALC)
+U057	S: ni xatolarga tekshirish (tuzatishdan oldin soʻraydi)
+U058	TRACKER ni ochish
+U059	Qayta yuklash (avval soʻraydi)
+U060	ADC stereo kirishini ijro etish (GP40 / 41)
+U061	VGM/VGZ ni 96 kHz / 24 bit WAV ga eksport qilish
+U062	Ushbu yordam
+U063	Sahifani almashtirish
+U064	Yopish
+U065	Matn / hex koʻruvchi (less kabi)
+U066	Bir qator
+U067	Bir sahifa
+U068	Yarim sahifa
+U069	Qidirish (oldinga / orqaga) / keyingi / oldingi
+U070	Roʻyxatga qaytish (F1: koʻruvchi yordami)
+U071	Rasm koʻruvchi
+U072	Roʻyxatga qaytish (F2 F3 F6 F7 Shift+F2 F3 ishlaydi)
+U073	Muharrir (E / Shift+F8)
+U074	Saqlash (UTF-8; qator oxirlari va BOM saqlanadi)
+U075	Yopish (oʻzgargan boʻlsa: Y / N / ESC)
+U076	Qoʻshish / ustiga yozish
+U077	IME yoqish/oʻchirish (yapon / ingliz / koreys)
+U078	IME tili (yapon / ingliz / koreys)
+U079	Hiragana / katakana sifatida tasdiqlash
+U080	Muharrir yordami
+U081	Shell
+U082	Shell (csh qismi. Qaytish uchun exit / Ctrl-D, help buyruqlarni sanaydi)
+U083	Roʻyxat va harakat
+U084	Fayl amallari
+U085	Ekran va qurilmalar
+U086	Koʻruvchilar va muharrir
+U087	Yordam  %u / %u  %s
+U088	Chap Oʻng: sahifani almashtirish    F1 / ESC: yopish
+U089	sgnano qayta yuklansinmi?
+U090	[ Qayta yuklash ]
+U091	[ Bekor qilish ]
+U092	S: diskini xatolarga tekshirish
+U093	Fayllar %lu  jildlar %lu
+U094	Hajm zanjirga mos kelmaydi
+U095	Hech narsa ishlatmaydigan klasterlar
+U096	Kesishgan bogʻlangan klasterlar
+U097	Buzilgan yozuvlar
+U098	FAT ning ikki nusxasi farq qiladi
+U099	Xato yoʻq.
+U100	Xatolar topildi. Tuzatilsinmi?
+U101	Tuzatildi (yuqoridagi raqamlar tuzatildi).
+U102	Tekshirib yoki tuzatib boʻlmadi (S: band).
+U103	[ Tuzatish ]
+U104	[ Bekor qilish ]
+U105	Istalgan tugma yopadi
+U106	Sozlamalar
+U107	Koʻrsatish tili
+U108	Klaviatura tartibi
+U109	Yuqori / Pastki  Enter tanlash  ESC bekor qilish
+U110	Koʻrsatish tili
+U111	Yuqori / Pastki  Enter: oʻrnatish  ESC: orqaga
+U112	%c: qaysi harfga biriktirilsin? (S dan tashqari A-Z. ESC bekor qiladi)
+U113	Disk  harf / Enter tanlash  F2 harfni biriktirish/yechish  F3 ...ga biriktirish  L / ESC bekor qilish
+U114	  boʻlim %u
+U115	%c:* (biriktirilgan, ulanmagan) %04X:%04X%s  %s
+U116	Xabar
+U117	Disk %c:  %s
+U118	Disk  (yoʻq)
+U119	Audio CD  %u trek
+U120	Jildlar %u  fayllar %u  jami %s
+U121	Oʻqilmoqda...
+U122	* belgilangan %u  %s
+U123	%lu bayt
+U124	Atribut %s   oʻzgargan %s   yaratilgan %s   %s
+U125	Yak
+U126	Dush
+U127	Sesh
+U128	Chor
+U129	Pay
+U130	Jum
+U131	Shan
+U132	Soat oʻrnatilmagan (LAN orqali NTP)
+U133	FB  koʻrsatish %u  yozish %u
+U134	1 Yordam
+U135	2 Ishga
+U136	3 Nusxa
+U137	4 Oʻchir
+U138	5 Nom
+U139	7 FBtoz
+U140	8 FBxira
+U141	9 Disk
+U142	10 EP
+U143	11 Soat
+U144	12 CALC
+U145	1 Atrib
+U146	2 Maʼlum
+U147	3 Koʻch
+U148	5 Jild
+U149	6 Shell
+U150	8 Tahrir
+U151	9 Koʻr
+U152	10 S:tek
+U153	11 TRACK
+U154	12 Qayta
+U155	1 Yangi
+U156	2 Jild
+U157	3 Nom
+U158	4 Atrib
+U159	6 Nusxa
+U160	7 Koʻch
+U161	8 Oʻchir
+U162	9 Tahrir
+U163	10 mrbc
+U164	11 Boʻl
+U165	12 Birl
+U166	1 Atrib
+U167	2 FB
+U168	3 Matn
+U169	5 Skrin
+U170	6 Sahifa
+U171	9 ZMqab
+U172	10 ZMyub
+U173	2 FBtoz
+U174	3 FBxira
+U175	5 Yangi
+U176	7 Hex
+U177	9 Lits
+U178	11 Sozla
+U179	Soatni oʻrnatish (Yaponiya vaqti. NTP oʻrnata olmadi)
+U180	Parametrlar bilan ishga tushirish
+U181	Yangi jild
+U182	Yangi fayl
+U183	Vaqt:
+U184	Ishga:
+U185	Nom:
+U186	YYYY-MM-DD hh:mm  Enter oʻrnatish  ESC oʻzgartirmaslik
+U187	Enter ishga tushirish  <-> siljitish  BS / Del oʻchirish  ESC bekor qilish
+U188	Enter nomini oʻzgartirish  <-> siljitish  BS / Del oʻchirish  ESC bekor qilish
+U189	Enter yaratish  <-> siljitish  BS / Del oʻchirish  ESC bekor qilish
+U190	Oʻchirish
+U191	 element
+U192	Jildlar ichidagilari bilan oʻchiriladi. Ishonchingiz komilmi?
+U193	Bu fayl oʻchirilsinmi?
+U194	(Buni qaytarib boʻlmaydi. Jildlardagi fayllar ham oʻchiriladi)
+U195	[ Ha (Y) ]
+U196	[ Yoʻq (N) ]
+U197	hex koʻruvchi: fayl tanlang
+U198	matn koʻruvchi: fayl tanlang
+U199	Koʻchirish joyi
+U200	Nusxalash joyi
+U201	Bufer toʻldi
+U202	Disk faqat oʻqish uchun
+U203	Saqlab boʻlmaydi (yozuvchi yoʻq)
+U204	Saqlashni boshlab boʻlmadi (disk bandmi?)
+U205	Saqlanmoqda...
+U206	2 Saqla
+U207	5 Rang
+U208	6 Hira
+U209	7 Kata
+U210	8 Bashor
+U211	10 Chiq
+U212	1 Bosh
+U213	2 Oxiri
+U214	3 Qoʻsh
+U215	4 Lugʻat
+U216	6 HHira
+U217	7 HKata
+U218	 %s  %s  Qat %lu/%lu Ust %u  %s  %s %s%s%s
+U219	*oʻzgardi
+U220	USTI
+U221	QOʻSH
+U222	  Faqat oʻqish
+U223	 Muharrir (sgnano edit)                      F1 / ESC yopadi
+U224	 Strelkalar / Home End / PgUp PgDn  kursorni siljitish
+U225	 Ctrl-T / Ctrl-B               faylning boshi / oxiri
+U226	 BS / Del                      kursordan oldin / kursordagini oʻchirish
+U227	 Enter                         yangi qator (chekinishni saqlaydi)
+U228	 Tab / Ins                     tab / qoʻshish yoki ustiga yozish
+U229	 F5                            Ranglash (kengaytmadan; C/C++, mruby, MicroPython, SG BASIC, yoʻq)
+U230	 F2  (Ctrl-S)                  saqlash (UTF-8, qator oxirlari saqlanadi)
+U231	 F10 / ESC                     yopish (oʻzgargan boʻlsa soʻraydi)
+U232	 IME:  Ctrl-Space / F12        yoqish / oʻchirish (あ / A)
+U233	       F9                      IME tili (faqat shu muharrir; yopilganda tiklanadi)
+U234	       F8 Yapon bashoratli oʻgirishni yoqish/oʻchirish
+U235	       Yapon                   romaji -> hiragana (F6) / katakana (F7)
+U236	                               Yarim kenglikdagi hiragana (Shift+F6) / yarim kenglikdagi katakana (Shift+F7)
+U237	                               2 va undan ortiq harfdan bashorat, ketma-ket boʻlaklarni Space bilan oʻgirish
+U238	       Ingliz: 2 va undan ortiq harfdan bashoratli toʻldirish
+U239	       한국어 2 toʻplamli Hangul
+U240	       Space / Enter Oʻgirish / Tasdiqlash
+U241	       ← → Boʻlakni tanlash
+U242	       Shift+← → Boʻlakning oʻng chetini bir harfga qisqartirish/uzaytirish (yangi variantlar)
+U243	       ↑ ↓ / Tab               Oynada oldingi / keyingi variant (matn ostida, pastga yaqin boʻlsa ustida)
+U244	       →→→ da Enter            Barcha variantlar (2 x 8, ← → ustun va sahifa, Enter tanlaydi)
+U245	       Enter                   Keyingi boʻlak (oxirgisida hammasini tasdiqlaydi)
+U246	       Ctrl-U Joriy soʻzni foydalanuvchi lugʻatiga qoʻshish
+U247	 Shift+F1 / F2 / F3 / F4       Bosh / oxir / qoʻshish-ustiga / foydalanuvchi lugʻatiga
+U248	       BS / ESC Bir harf orqaga / Bekor qilish
+U249	       , . - [ ] /             、 。 ー 「 」 ・
+U250	Oʻzgardi  Y: saqlab yopish  N: saqlamasdan yopish  ESC: orqaga
+U251	[Bashorat] Tab/↑↓: variant  Space: oʻgirish  Esc: bekor
+U252	[Variantlar] ↑↓: tanlash  ←→: ustun/sahifa  Enter: olish
+U253	[Oʻgirish] ↑↓variant ←→boʻlak Shift+←→chegara Enter keyingi
+U254	[한국어] Tab/↑↓: variant  Enter/Space: tasdiqlash
+U255	[English] Tab/↑↓: variant  Enter: tasdiqlash
+U256	2 toʻplamli Hangul kiritish  Ctrl-Space: harf va raqam
+U257	Bashoratli toʻldirish  Ctrl-Space: toʻgʻridan-toʻgʻri kiritish
+U258	Lugʻat yoʻq: faqat hiragana/katakana  F6/F7
+U259	Space: oʻgirish  F7: katakana  Ctrl-Space: harf va raqam
+U260	Space: oʻgirish  F6: hiragana  Ctrl-Space: harf va raqam
+U261	Yarim kenglik  F6: hiragana  F7: katakana  Shift+F6/F7: yarim
+U262	IME oʻchiq
+U263	 bashorat
+U264	Yapon bashoratli oʻgirish: Yoqilgan
+U265	Yapon bashoratli oʻgirish: Oʻchirilgan
+U266	Yapon IME bilan foydalaning
+U267	Foydalanuvchi lugʻatiga qoʻshib boʻlmaydi
+U268	Ranglash: %s
+U269	Yuklanmoqda...
+U270	Faylni oʻqib boʻlmadi
+U271	%lu qator%s%s
+U272	  Shift_JIS UTF-8 sifatida ochildi (UTF-8 sifatida saqlanadi)
+U273	  faqat oʻqish
+U274	Saqlandi
+U275	Saqlab boʻlmadi (yozish muvaffaqiyatsiz)
+U276	Variantlar
+U277	7 YozSah
+U278	9 Matn
+U279	9 Hex
+U280	Yuklanmoqda %lu%%
+U281	(faqat boshi)
+U282	Hex  q ESC: orqaga  F1: yordam
+U283	Matn  q ESC: orqaga  F1: yordam
+U284	Koʻruvchi tugmalari (less kabi; matn va hex uchun bir xil)
+U285	Bir qator pastga
+U286	Bir qator yuqoriga
+U287	Bir sahifa pastga
+U288	Bir sahifa yuqoriga
+U289	Yarim sahifa pastga / yuqoriga
+U290	/matn  ?matn
+U291	Pastga / yuqoriga qidirish (katta-kichik harfga qaramaydi)
+U292	Keyingi / oldingi moslik
+U293	Hex sifatida koʻrsatish (shu joyda)
+U294	Matn sifatida koʻrsatish (shu joyda)
+U295	Ranglashni oʻzgartirish (C/C++, mruby, MicroPython, SG BASIC, yoʻq)
+U296	FB / matnni koʻrsatish / yashirish
+U297	FB koʻrsatish / yozish sahifasi
+U298	Fayl boshqaruvchisiga qaytish
+U299	Ushbu yordamni yopish
+U300	Nusxalash
+U301	 %s: jildlar oʻqilmoqda... %u
+U302	 %s: manzildagi boʻsh joy hisoblanmoqda...
+U303	 %s: manzilda boʻsh joy yetarli emas
+U304	 Koʻchirish: manba jildlari olib tashlanmoqda
+U305	Tayyor
+U306	Toʻxtatildi
+U307	 %s davom etmoqda%s
+U308	 (toʻxtatilmoqda)
+U309	 Qayerdan: %s
+U310	 Qayerga: %s
+U311	 Fayllar %u / %u  jildlar %u  %s / %s  (%u%%)%s
+U312	  juda koʻp: faqat bir qismi
+U313	 Kerak %s, boʻsh %s. Davom etilsinmi?
+U314	 Y: davom etish   N / ESC: bekor qilish
+U315	 Yopish uchun istalgan tugmani bosing
+U316	 ESC: toʻxtatish
+U317	 %s: ←→ disk  ↑↓ jild  Space ochish/yopish  Enter tanlash  ESC bekor
+U318	 Oʻqib boʻlmaydi: %s
+U319	 Jildlar oʻqilmoqda... (ESC toʻxtatadi)  %u
+U320	 %u jild%s
+U321	 (juda koʻp yoki juda chuqur: faqat bir qismi)
+U322	Jildni ochish toʻxtatildi
+U323	Space uni qayta ochadi. Yana bir ESC bekor qiladi
+U324	 SMF / SGT pleyeri   %s
+U325	 Yuklanmoqda... %lu / %lu bayt
+U326	 %s / %s   %s   portlar %u
+U327	Pauza
+U328	Ijro etilmoqda
+U329	 Space: pauza  m: MIDI OUT  q / ESC: toʻxtatish
+U330	 q / ESC: bekor qilish
+U331	Shrift ROM litsenziyalari va mualliflari\n\nROM: %s (versiya %lu.%lu, %lu belgi, flash da 0x%08lX dan)\n\n
+U332	== ROM dagi shriftlar (ROM ning kelib chiqish jadvali) ==\n
+U333	  (ROM da jadval yoʻq)\n
+U334	\n== ROM ning mualliflar boʻlimi ==\n\n
+U335	(bunday boʻlim yoʻq)\n
+U336	\n== Ichki dasturiy taʼminot litsenziyalari ==\n
+U337	 %s PNG sifatida saqlanmoqda   %s
+U338	Ekran
+U339	 Qurilmoqda... %lu / %lu qator
+U340	 Yozilmoqda... %lu / %lu KB (FB yashirilgan)
+U341	Yozib boʻlmadi
+M001	disk uzildi
+M002	boʻlimlar qayta oʻqilmoqda...
+M003	tomni ochib boʻlmadi (xotira yetmayaptimi?)
+M004	tom ochilmoqda...
+M005	fayllar roʻyxati uchun xotira yetarli emas
+M006	jild oʻqilmoqda... (qayta urinish)
+M007	jildni oʻqib boʻlmadi
+M008	jild oʻqilmoqda...
+M009	disk javob bermadi -- boʻlimlar qayta oʻqilmoqda
+M010	jildni oʻqib boʻlmadi (FAT12/16/32 emasmi?)
+M011	yozuvlar juda koʻp -- birinchilari koʻrsatilmoqda
+M012	bu boʻlimda fayl tizimi topilmadi
+M013	yoʻl juda uzun
+M014	birlashtirilmoqda...
+M015	boʻlinmoqda...
+M016	nomi oʻzgartirilmoqda...
+M017	jild yaratilmoqda...
+M018	fayl yaratilmoqda...
+M019	oʻchirilmoqda...
+M020	atributlar yozilmoqda...
+M021	disk band
+M022	band
+M023	fayl yoki jildlarni tanlang
+M024	fayl yoki jildlarni tanlang (".." emas)
+M025	avval CD ni toʻxtating
+M026	CD ni oʻzgartirib boʻlmaydi (oʻrniga nusxalang)
+M027	tizim jildini koʻchirib boʻlmaydi
+M028	yozish mumkin boʻlgan disk yoʻq (faqat FAT / exFAT / NTFS)
+M029	disk yoʻq
+M030	hech narsa tanlanmagan
+M031	hech narsa tanlanmagan
+M032	boshlab boʻlmadi
+M033	ochib boʻlmadi
+M034	faqat FAT / exFAT / NTFS diskida
+M035	nom yoʻq
+M036	bu nom allaqachon mavjud
+M037	boshlab boʻlmadi (notoʻgʻri nom yoki disk band)
+M038	boshlab boʻlmadi (disk band)
+M039	nomda / yoki \\ boʻlishi mumkin emas (faqat shu jild ichida)
+M040	nom bir xil
+M041	element faqat oʻqish uchun (oʻzgartirish uchun A)
+M042	yoziladigan diskdagi .rb faylni tanlang
+M043	.rb faylni tanlang
+M044	disk faqat oʻqish uchun
+M045	yoziladigan diskdagi jildni tanlang
+M046	biroz kuting
+M047	fayl tanlang
+M048	fayl tanlang (jild emas)
+M049	.001 faylni tanlang
+M050	.001 faylini tanlang
+M051	IWAD ni DoomFiles yoki Doom2Files jildiga joylang
+M052	DoomFiles freedoom1 / doom / doomu / doom1.wad ni qabul qiladi
+M053	Doom2Files freedoom2 / doom2 / plutonia / tnt.wad ni qabul qiladi
+M054	oʻyin fayllarini S: ga emas, tashqi xotiraga joylang
+M055	IWAD FAT / exFAT / NTFS diskida boʻlishi kerak (CD emas)
+M056	hali ishlamoqda
+M057	rasm yuklanmoqda
+M058	kadr buferi yoʻq
+M059	yorqinlikni yarmiga tushirish faqat RGB555 da ishlaydi
+M060	tozalanmoqda...
+M061	yorqinlik yarmiga tushirilmoqda...
+M062	bu maʼlumotlar treki
+M063	kuting -- fayl yozilmoqda
+M064	faqat disketa / LS-120 / CD disklari
+M065	soʻraldi
+M066	disk oʻqilmoqda...
+M067	toʻxtatilmoqda...
+M068	ochilmoqda...
+M069	tayyor
+M070	xotira yetarli emas
+M071	allaqachon ochiq
+M072	allaqachon ishlamoqda
+M073	allaqachon saqlanmoqda
+M074	allaqachon ijro etilmoqda
+M075	bunday disk yoʻq
+M076	PSRAM yoʻq
+M077	fayl uchun PSRAM yetarli emas
+M078	qatorlar indeksi uchun PSRAM yetarli emas
+M079	terminal uchun PSRAM yetarli emas
+M080	xotira yetarli emas (PSRAM)
+M081	xotira yetarli emas (32KB SRAM)
+M082	bufer uchun xotira yetarli emas
+M083	rasm buferlari uchun xotira yetarli emas
+M084	oʻqish buferi uchun xotira yetarli emas
+M085	ishchi xotira uchun joy yoʻq (lowres ni yopish kerakmi?)
+M086	kadr buferi sahifasi yoʻq
+M087	juda katta (koʻpi bilan 4 MB)
+M088	fayl juda katta (koʻpi bilan 1 MB)
+M089	fayl juda katta (koʻpi bilan 1 MB)
+M090	SMF uchun juda katta (koʻpi bilan 1MB)
+M091	fayl boʻsh
+M092	faylni ochib boʻlmadi
+M093	faylni oʻqib boʻlmadi
+M094	tomni ochib boʻlmadi
+M095	manzilni ochib boʻlmadi (xotira yetmayaptimi?)
+M096	ildiz jildni oʻqib boʻlmadi
+M097	vazifani boshlab boʻlmadi
+M098	yozishni boshlab boʻlmadi (notoʻgʻri nom yoki band)
+M099	boshqa tom ochiq (band)
+M100	nusxalash davom etmoqda
+M101	jild oʻz ichiga kira olmaydi
+M102	bu oʻsha jild
+M103	bu diskni oʻzgartirib boʻlmaydi (faqat oʻqish)
+M104	diskka yozib boʻlmaydi
+M105	qism hajmi 512 ga karrali boʻlishi kerak
+M106	4 GB va undan katta fayllar qoʻllab-quvvatlanmaydi
+M107	notoʻgʻri yoʻl
+M108	notoʻgʻri fayl nomi
+M109	shrift ROM i yoʻq
+M110	ovoz ochilmagan
+M111	bunday kanal yoʻq
+M112	sekvensor band
+M113	qoʻshiq uchun PSRAM yetarli emas
+M114	standart MIDI fayl emas (MThd yoʻq)
+M115	treklar yoʻq
+M116	trek buzilgan (MTrk)
+M117	SMPTE vaqt boʻlinishi qoʻllab-quvvatlanmaydi
+M118	SMF 2-format qoʻllab-quvvatlanmaydi (faqat 0 va 1)
+M119	Bulk-Only disk emas
+M120	optik disk emas
+M121	tizim jildini oʻchirib yoki nomini oʻzgartirib boʻlmaydi
+M122	diskovodda disk yoʻq
+M123	tayyorlanmoqda
+M124	tayyor emas
+M125	disk almashtirildi
+M126	tashuvchi xatosi
+M127	notoʻgʻri soʻrov
+M128	notoʻgʻri jild yozuvi
+M129	yoʻldagi jild mavjud emas
+M130	bunday nomli fayl bor
+M131	bunday nomli jild bor
+M132	yoʻldagi nom jild emas
+M133	bekor qilindi
+M134	ulab boʻlmadi
+M135	oʻqishni boshlab boʻlmadi
+M136	yozishni boshlab boʻlmadi
+M137	jild hisoblanadi
+M138	bu jild
+M139	klasterlar yoʻq
+M140	klasterlar roʻyxati uchun joy yoʻq
+M141	bunday fayl yoki jild yoʻq
+M142	bunday fayl yoʻq
+M143	tom yoʻq
+M144	NTFS emas
+M145	exFAT emas
+M146	jild emas
+M147	topilmadi
+M148	oʻqish xatosi
+M149	yozish xatosi
+M150	FAT ni oʻqish muvaffaqiyatsiz
+M151	klaster zanjiri fayldan qisqa
+M152	jild boʻsh emas
+M153	disk toʻla
+M154	disk javob bermadi
+M155	fayl faqat oʻqish uchun
+M156	fayl juda parchalangan
+M157	fayl juda katta (4GB)
+M158	yangi nom allaqachon mavjud
+M159	ildiz jild toʻla
+M160	bir xil qisqa nomli fayllar juda koʻp
+M161	Bunday fayl yoki jild yoʻq
+M162	Fayl mavjud
+M163	Ruxsat berilmadi
+M164	Jild boʻsh emas
+M165	Jild emas
+M166	Jild hisoblanadi
+M167	Faqat oʻqish uchun fayl tizimi
+M168	Qurilmada joy qolmadi
+M169	Kiritish/chiqarish xatosi
+M170	Bu diskda qoʻllab-quvvatlanmaydi
+M171	Notoʻgʻri yoʻl
+M172	Xotira tugadi
+M173	Bunday disk yoʻq
+M174	toʻxtatildi
+M175	bekor qilindi (boʻsh joy yetarli emas)
+M176	boʻsh joyni hisoblab boʻlmadi
+M177	qabul qiluvchi bekor qildi
+M178	qabul qiluvchi yoʻq (PC da rz ni ishga tushiring)
+M179	konsol UART i band
+M180	ekran rejimi oʻzgardi
+M181	qatorlar kelmadi (displey ishlayaptimi?)
+M182	nusxalash
+M183	koʻchirish
+M184	oʻchirish
+M185	nomini oʻzgartirish
+M186	atributlar
+M187	yangi fayl
+M188	yangi jild
+M189	rasm
+M190	mrbc
+M191	ruby
+M192	koʻruvchi
+M193	tahrirlash
+M194	IDENTIFY
+M195	ZMODEM
+M196	ZMODEM qabul
+M197	ZMODEM yuborish
+M198	boʻlish
+M199	birlashtirish
+M200	Doom
+M201	SMF
+M202	CD
+M203	FB
+M204	Chiqarish
+M205	qayta yuklash
+M206	litsenziya
+M207	soat
+M208	ADC kirish
+M209	ekran -> PNG
+M210	FB -> PNG
+M211	tomni ochib boʻlmadi
+M212	qabul qilindi %s
+M213	yuborildi %s
+M214	saqlandi %s
+M215	yaratildi %s
+M216	nomi %s ga oʻzgartirildi
+M217	oʻchirildi %s
+M218	oʻzgartirildi %s
+M219	birlashtirildi %s
+M220	boʻlindi %s
+M221	yaratib boʻlmadi %s
+M222	oʻchirib boʻlmadi %s
+M223	nomini %s ga oʻzgartirib boʻlmadi
+M224	oʻzgartirib boʻlmadi %s
+M225	oʻqib boʻlmadi %s
+M226	yozib boʻlmadi %s
+M227	nusxalab boʻlmadi %s
+M228	yasab boʻlmadi %s
+M229	jildni olib tashlab boʻlmadi %s
+M230	olib tashlab boʻlmadi %s
+M231	xotira yetarli emas: %s
+M232	yuborishda xatolar juda koʻp: %s
+M233	qabul qiluvchi qabul qilmadi: %s
+M234	qabul qiluvchi oʻtkazib yubordi: %s
+M235	FB sahifasi %s
+M236	 baytdan)
+M237	 bayt)
+M238	 KB)
+M239	 qismga boʻlindi:
+M240	 qism (
+M241	 →
+M242	: tozalandi
+M243	: yorqinlik yarmiga tushirildi
+M244	% oʻqildi
+M245	 qator
+M246	 -- hali qoʻllab-quvvatlanmaydi (faqat FAT / exFAT / NTFS)
+M247	 fayl
+M248	 (
+M249	Nomsiz
+M250	1 Fayl
+M251	2 Tahrir
+M252	3 Grafik
+M253	4 Varaq
+M254	5 Yordam
+M255	BOʻSH
+M256	SON
+M257	MATN
+M258	FORMULA
+M259	Kiritish uchun yozing, tahrir uchun F2, yordam uchun F1
+M265	Tayyor
+M267	Istalgan tugmani bosing
+M268	Y = ha    N = yoʻq    Esc = bekor
+M269	Enter = OK    Esc = bekor    Ctrl-U = tozalash
+M270	Birinchi qator/ustun = yorliqlar; grafiklar 640x480 CLUT8 FB dan foydalanadi.
+M271	SGCALC - YORDAM
+M272	Qaytish uchun istalgan tugmani bosing
+M273	Qaytish uchun istalgan tugmani bosing.
+M274	SGCALC HAQIDA
+M275	Yangi
+M276	Yangi varaq boshlash
+M277	Ochish...
+M278	ODS, FODS yoki CSV faylni ochish
+M279	Saqlash
+M280	Joriy faylni saqlash
+M281	Boshqacha saqlash...
+M282	Yangi nom yoki format bilan saqlash
+M283	CSV eksport...
+M284	CSV nusxasini yozish
+M285	ODS eksport...
+M286	LibreOffice nusxasini yozish
+M287	Chiqish
+M288	SGCALC dan chiqish
+M289	Tozalash
+M290	Tanlangan kataklarni tozalash
+M291	Nusxalash
+M292	Tanlovni nusxalash
+M293	Qoʻyish
+M294	Kursorga qoʻyish
+M295	Kesish
+M296	Tanlovni nusxalab tozalash
+M297	Hammasini tanlash
+M298	Barcha ishlatilgan kataklarni tanlash
+M299	Matn rangi...
+M300	Matn rangini tanlash
+M301	Fon...
+M302	Katak fonini tanlash
+M303	Chiziq
+M304	Tanlovdan chiziqli grafik chizish
+M305	Ustun
+M306	Tanlovdan ustunli grafik chizish
+M307	Aralash
+M308	Birinchi qator uchun ustunlar, qolganlari uchun chiziqlar
+M309	Doira
+M310	Tanlovdan doiraviy grafik chizish
+M311	Oraliq...
+M312	Grafik oraligʻini aniq belgilash
+M313	Qayta chizish
+M314	Oxirgi grafikni qayta chizish
+M315	Oʻtish...
+M316	Katakka oʻtish (masalan C12)
+M317	Ustun kengligi...
+M318	Tanlangan ustunlar kengligini oʻzgartirish
+M319	Qator balandligi...
+M320	Tanlangan qatorlar balandligini oʻzgartirish
+M321	Avto moslash
+M322	Kenglik/balandlikni tarkibga moslash (F7)
+M323	Qayta hisoblash
+M324	Barcha formulalarni qayta hisoblash
+M325	Hammasini oʻchirish
+M326	Butun varaqni tozalash
+M327	Tugmalar
+M328	Tugmalar qoʻllanmasini koʻrsatish
+M329	Haqida
+M330	SGCALC haqida
+M331	Fayl
+M332	Tahrir
+M333	Grafik
+M334	Varaq
+M335	Yordam
+M336	Fayl: yangi, ochish, saqlash, eksport, chiqish
+M337	Tahrir: tozalash, nusxalash, qoʻyish, kesish, hammasini tanlash
+M338	Grafik: chiziq, ustun, aralash, doira (FB da chiziladi)
+M339	Varaq: oʻtish, ustun kengligi, qayta hisoblash, oʻchirish
+M340	Yordam: tugmalar va haqida
+M341	Chap/Oʻng = menyu    Yuqori/Pastki = element    Enter = tanlash    Esc = bekor
+M342	Bekor qilindi
+M343	Tanlov juda katta yoki xotira kam.
+M344	katakni
+M345	tanlovni
+M346	Qoʻyish uchun hech narsa yoʻq
+M347	Qoʻyildi
+M348	KATAKKA OʻTISH
+M349	Katak manzili (A1):
+M350	Oʻtish
+M351	USTUN KENGLIGI
+M352	Belgilardagi kenglik (4..30):
+M353	QATOR BALANDLIGI
+M354	Matn qatorlaridagi balandlik (1..8):
+M355	Avto moslash: varaq boʻsh
+M356	FON RANGI
+M357	MATN RANGI
+M358	Strelkalar: tanlash    Enter: qoʻllash    Esc: bekor
+M359	Rang raqami (PC-98 ning 16 rangli palitrasi)
+M361	Enter = qoʻllash    Esc = bekor
+M362	Rang
+M363	Fon
+M364	Matn
+M365	GRAFIK ORALIGʻI
+M366	Oraliq (masalan A1:C10):
+M367	Grafik oraligʻi
+M368	A1:C10 kabi oraliqdan foydalaning.
+M369	Grafikni chizib boʻlmaydi.
+M370	chiziq
+M371	ustun
+M372	aralash
+M373	doira
+M374	Bu varaqdagi barcha kataklar tozalansinmi?
+M375	Varaq oʻchirildi
+M376	Barcha ishlatilgan kataklar tanlandi
+M377	Qayta hisoblandi
+M378	Xotira
+M379	Elektron jadval uchun PSRAM yetarli emas.
+M380	Varaq boʻsh.
+M381	Tanlangan oraliqda raqamli maʼlumot yoʻq.
+M382	Boshqa
+M383	Doiraviy grafik uchun musbat qiymatlar yoʻq
+M384	CHIZIQ
+M385	USTUN
+M386	ARALASH
+M387	DOIRA
+M389	Jild
+M390	BOSHQACHA SAQLASH
+M391	FAYLNI OCHISH
+M394	Nom:
+M395	(nom yozing yoki pastdan tanlang)
+M396	Nom
+M397	Hajm
+M398	Enter=saqlash  Chap=yuqori  Oʻng/[DIR] da Enter=ochish  Tab=disk  Esc=bekor
+M399	Enter=ochish  Chap=yuqori  Oʻng/[DIR] da Enter=ochish  Tab=disk  Esc=bekor
+M400	Xotira yetarli emas.
+M401	Ustiga yozish
+M402	Ochish
+M403	Fayl juda katta (chegara 8 MB).
+M404	Faylni oʻqish uchun xotira yetarli emas.
+M405	Notoʻgʻri ZIP/ODS maʼlumoti.
+M406	ODS faylda CRC xatosi.
+M407	Qoʻllab-quvvatlanmaydigan yoki buzilgan fayl.
+M408	Saqlandi
+M409	Eksport qilindi
+M410	Saqlanmagan oʻzgarishlar
+M411	Davom etishdan oldin joriy varaq saqlansinmi?
+M412	Yangi varaq
+M415	qoʻshiq juda katta
+M416	boʻsh fayl
+M417	SGT fayl emas
+M418	notoʻgʻri BPM
+M419	notoʻgʻri tezlik
+M420	notoʻgʻri sarlavha uzunligi
+M421	sarlavha kesilgan
+M422	sarlavhada notoʻgʻri belgi
+M423	tartib kesilgan
+M424	notoʻgʻri tartib uzunligi
+M425	tartibda notoʻgʻri pattern raqami
+M426	pattern roʻyxati kesilgan
+M427	notoʻgʻri pattern soni
+M428	notoʻgʻri pattern indeksi
+M429	takroriy pattern
+M430	pattern maʼlumoti kesilgan
+M431	notoʻgʻri pattern maʼlumoti
+M432	fayl oxirida ortiqcha maʼlumot
+M433	tartib mavjud boʻlmagan patternga ishora qiladi
+M435	(nomsiz)
+M436	Tayyor. Yordam uchun F1 ni bosing.
+M437	Kuzatish OʻCHIQ
+M438	Bekor qilinadigan narsa yoʻq
+M439	Bekor qilish
+M440	Nota oʻchirish
+M441	Avval effekt harfini belgilang
+M442	Effekt tozalandi
+M443	Parametr tozalandi
+M444	Nota tozalandi
+M445	Cholgʻu tozalandi
+M446	Ovoz balandligi tozalandi
+M447	Tartib roʻyxati toʻla
+M448	Tartib qoʻshildi
+M449	Oxirgi tartibni oʻchirib boʻlmaydi
+M450	Tartib oʻchirildi
+M451	Qoʻshiq ijro etilmoqda
+M452	Toʻxtatildi
+M453	Yangi qoʻshiq
+M454	Saqlanmagan oʻzgarishlarni tashlab, yangi qoʻshiq boshlansinmi? (Y/N)
+M455	Saqlanmagan oʻzgarishlarni tashlab, qoʻshiq ochilsinmi? (Y/N)
+M456	Saqlanmagan oʻzgarishlarni tashlab, chiqilsinmi? (Y/N)
+M457	Qoʻshiq sozlamalari yangilandi
+M458	Fayl nomi boʻsh
+M459	Saqlash bekor qilindi
+M460	Ochish bekor qilindi
+M461	Tahrir YONIQ
+M462	Tahrir OʻCHIQ
+M463	Kuzatish YONIQ
+M464	Tahrir oʻchiq. Tahrirlash uchun F8 ni bosing.
+M465	I/O xatosi
+M466	fayl juda katta
+M467	fayl kesilgan
+M495	#IJRO VA FAYLLAR
+M496	#TARTIB ROʻYXATI
+M497	#KOʻRSATISH
+M498	#TAHRIRLASH
+M499	#EFFEKTLAR (parametr oʻn oltilik)
+M500	CHAP/OʻNG SAHIFA   ENTER YOKI F1 YOPISH
+M501	QOʻSHIQ SOZLAMALARI
+M502	YUQORI/PAST TANLASH   CHAP/OʻNG SOZLASH   ENTER/F2 YOPISH
+M503	Sarlavhani tahrirlash uchun yozing. Backspace oxirgi belgini oʻchiradi.
+M504	BPM 32..255. Tezlik 1..31.
+M505	Pattern effektlari ijro paytida tezlik va BPM ni ham oʻzgartirishi mumkin.
+M506	CHOLGʻULAR
+M507	YUQORI/PAST TANLASH   SPACE TINGLASH   ENTER ISHLATISH   F3 YOPISH
+M508	Toʻrtta kanalning hammasi toʻlqin jadvali sintezidan foydalanadi.
+M509	Tinglash tahrir kursori ostidagi trekda C-4 ni chaladi.
+M510	QOʻSHIQNI BOSHQACHA SAQLASH
+M511	ENTER SAQLASH   F4 YOKI CTRL-C BEKOR
+M512	Jild:
+M513	Fayl nomi:
+M514	.SGT kengaytmasi avtomatik qoʻshiladi.
+M515	Mavjud fayl ustiga yozish mumkin.
+M516	QOʻSHIQNI OCHISH
+M517	ENTER OCHISH  BS YUQORI  CTRL-O/CTRL-C BEKOR
+M518	(bu jildda .SGT fayllar yoʻq)
+M519	TASDIQLASH
+M520	Y = HA   N / ENTER / CTRL-C = YOʻQ
+M521	Y = ha        N = yoʻq
+M536	MThd buzilgan
+M537	MIDI IMPORT
+M539	delta vaqt buzilgan
+M540	running status buzilgan
+M541	meta hodisa buzilgan
+M542	sysex hodisa buzilgan
+M543	kanal hodisasi buzilgan
+M544	SMF chiqishi juda kichik
+M545	SMF chiqishi juda katta
+M546	qoʻshiq SMF uchun juda uzun
+M557	STRELKALAR  katak kursorini siljitish\n
+M558	SHIFT+STR   tanlovni kengaytirish (grafik/nusxa uchun)\n
+M559	ENTER       katakni tahrirlash; tahrirda tasdiqlab pastga oʻtish\n
+M560	TAB         keyingi katak    SHIFT+TAB  oldingi katak\n
+M561	DELETE      tanlangan kataklarni tozalash    ESC  bekor\n
+M562	PGUP/PGDN   bir ekran    HOME/END  birinchi/oxirgi ustun\n
+M563	CTRL+HOME   A1    CTRL+END  oxirgi ishlatilgan katak\n
+M564	F1 yordam  F2 tahrir  F3 nusxa  F4 qoʻyish  F5 oʻtish  F6 rang\n
+M565	F7 moslash  F8 fon  F9 hisob  F10 grafik  F11 saqlash  F12 menyu\n
+M566	SHIFT+F1 haqida  SHIFT+F2 qator balandligi  SHIFT+F3 ustun kengligi\n
+M567	SHIFT+F4 hammasini tanlash  SHIFT+F10 grafik oraligʻi  SHIFT+F11 boshqacha saqlash\n
+M568	CTRL+F1 yangi  CTRL+F2 ochish  CTRL+F3 saqlash  CTRL+F4 boshqacha saqlash\n
+M569	CTRL+F5 CSV eksport  CTRL+F6 ODS eksport  ALT+F12 chiqish\n
+M570	Pastki 2 qator: funksiya tugmalari; [SHIFT]/[CTRL]/[ALT] fayl boshqaruvchisi kabi\n
+M571	CTRL+S saqlash  CTRL+O ochish  CTRL+N yangi  CTRL+C/V/X nusxa/qoʻyish/kesish\n
+M572	CTRL+G oʻtish    /  menyuni ochish (1 Fayl, 2 Tahrir, ...)\n
+M573	Ichki funksiyalar: SUM AVERAGE MIN MAX COUNT COUNTA\n
+M576	Katak manzillari: A1, $A$1, A1:B10.  Formulalar '=' bilan boshlanadi.\n
+M577	Fayllar: .ods (LibreOffice), .fods (tekis XML), .csv\n
+M578	ODS/FODS formulalar, kenglik, balandlik va ranglarni saqlaydi.\n
+M579	CSV qiymat va formulalarni saqlaydi (rang/balandliksiz).\n
+M580	Grafik: oraliqni tanlang, F10 ni bosing va Chiziq/Ustun/Aralash/Doira ni tanlang.\n
+M581	sgnano uchun SGCALC\n
+M582	Versiya
+M583	SGX dasturi koʻrinishidagi Lotus 1-2-3 uslubidagi elektron jadval.\n\n
+M585	Ekran rejimi 3: matn + CLUT8 FB (lowres oʻchirilgan)\n
+M586	Varaq: %d qator x %d ustun\n
+M587	Formatlar: .ods / .fods (LibreOffice), .csv\n\n
+M588	Toʻr matn qatlamida chiziladi.\n
+M589	Grafiklar va 640x480 fon FB dan foydalanadi.\n\n
+M591	Katakni saqlab boʻlmaydi (%d).
+M592	%d x %d katak nusxalandi
+M593	Tozalandi: %s
+M594	'%s' katak manzili emas.
+M596	Ustun kengligi = %d
+M597	Qator balandligi = %d
+M598	Avto moslash: %d ustun, %d qator
+M600	Rangni qoʻllab boʻlmaydi (%d).
+M602	Notoʻgʻri oraliq.\nA1:C10 kabi oraliqdan foydalaning.
+M603	Grafik oraligʻi %s
+M604	Grafik: %s
+M605	SGCALC: 3-ekran rejimini oʻrnatib boʻlmaydi: %s\n
+M614	%s ni oʻqib boʻlmaydi\n%s
+M615	Jild: %s
+M623	Qoʻllab-quvvatlanmaydigan kengaytma.\n.csv, .ods yoki .fods dan foydalaning.
+M624	%s allaqachon mavjud.\nUstiga yozilsinmi?
+M625	%s ga yozib boʻlmasligi mumkin.\nBaribir urinib koʻrilsinmi?
+M626	%s uchun nomaʼlum fayl turi
+M627	Qoʻllab-quvvatlanmaydigan fayl turi.\n.csv, .ods yoki .fods dan foydalaning.
+M628	%s ni ochib boʻlmaydi\n%s
+M629	%s jild hisoblanadi.
+M630	%s ni import qilib boʻlmaydi\n%s
+M631	Yuklandi: %s
+M632	%s faylini qurib boʻlmaydi.
+M633	%s ga yozib boʻlmaydi\n%s
+M635	%u versiya qoʻllab-quvvatlanmaydi
+M637	Oktava %d
+M638	Nota %s
+M639	Cholgʻu %d
+M640	Ovoz %s
+M641	Effekt %c
+M642	Parametr %s
+M643	Pattern %s
+M644	Pattern ijro etilmoqda: %s
+M645	SAQLASH XATOSI: %s
+M646	Saqlandi: %s
+M647	YUKLASH XATOSI: %s
+M648	BPM %d
+M649	Tezlik %d
+M650	Tinglash %s
+M651	Cholgʻu %s %s
+M652	%s ustiga yozilsinmi? (Y/N)
+M676	  F5          Qoʻshiqni joriy tartibdan ijro etish
+M677	  F6          Joriy patternni ijro etish
+M678	  F7/Ctrl-C   Ijroni toʻxtatish
+M679	  Space       Ijro / toʻxtatish
+M680	  F4          Boshqacha saqlash
+M681	  Ctrl-S      Saqlash (yangi boʻlsa nom soʻraydi)
+M682	  Ctrl-O      Qoʻshiqni ochish
+M683	  Ctrl-N      Yangi qoʻshiq
+M684	  F12         Chiqish (oʻzgargan boʻlsa tasdiqlaydi)
+M685	  [ ]         Oldingi / keyingi tartib yozuvi
+M686	  { }         Tartib yozuvini qoʻshish / oʻchirish
+M687	  - +         Yozuvdagi patternni oʻzgartirish
+M688	  F11         Ijroni kuzatish (qoʻlda siljitilsa oʻchadi)
+M689	  F1          Yordam; Chap/Oʻng sahifani almashtiradi
+M690	  F8          Tahrir rejimini almashtirish
+M691	  Strelkalar  Kursorni siljitish
+M692	  PgUp/PgDn   16 qatorga sakrash
+M693	  Home/End    Birinchi / oxirgi qator
+M694	  F9/F10      Oktava past / yuqori
+M695	  Z S X D C V G B H N J M      pastki pianino qatori
+M696	  Q 2 W 3 E R 5 T 6 Y 7 U      yuqori pianino qatori
+M697	  1           Nota oʻchirish
+M698	  0 / Del     0 nota/cholgʻu/effektni tozalaydi; Del istalganini tozalaydi
+M699	  Ctrl-Z      Oxirgi pattern/tartib tahririni bekor qilish
+M700	  Axy   Ovoz sirpanishi: yuqori x, past y
+M701	  Cxx   xx tickdan keyin notani kesish
+M702	  Dxx   Ovoz balandligini oʻrnatish (00..7F)
+M703	  Fxx   xx < 20 boʻlsa tezlik, aks holda BPM
+M704	  Hxy   Arpedjio x, y yarim ton
+M705	  Pxx   Ton yuqoriga sirpanishi
+M706	  Qxx   Ton pastga sirpanishi
+M707	  F2 qoʻshiq sozlamalari, F3 cholgʻular roʻyxati
+M708	YORDAM %d/2
+M709	  Sarlavha
+M711	  BPM   : %d     (chap/oʻng -1/+1, -/+ -5/+5)
+M712	  Tezlik : %d tick/qator
+M713	  Qatorlar : %d (qatʼiy)
+M714	  Tartib : %d yozuv
+M715	  Ishlatilayotgan patternlar : %d
+M718	Joriy cholgʻu: %s %s
+M722	Fayllar: %d
+M726	SGNO TRACKER: mos kelmaydigan SGX ABI\n
+M727	S: tekshiruvi: kuting -- fayl oʻqilmoqda yoki yozilmoqda
+M728	S: tekshiruvi: disk band yoki tayyor emas
+M729	bu element uchun hech narsa yoʻq (ContextMenu.cfg)
+M730	ContextMenu.cfg da notoʻgʻri buyruq
+M731	ContextMenu.cfg da nomaʼlum amal
+M732	menyu
+N001	5 Makros
+N002	6 Yordam
+N003	Joriyni ishga tushirish
+N004	Kursordagi makrosni ishga tushirish (#! sarlavha katagi va undan pastdagi kataklar)
+N005	Tanlovni ishga tushirish
+N006	Tanlangan kataklarni bitta makros sifatida ishga tushirish (yuqori chap katak #! sarlavha)
+N007	Hammasini ishga tushirish
+N008	Varaqdagi har bir makrosni yuqori chapdan pastki oʻngga ishga tushirish
+N009	Oxirgi xato
+N010	Oxirgi makros xatosini koʻrsatish
+N011	Makros
+N012	Makros: #!ruby / #!python / #!basic kataklarni ishga tushirish
+N013	Katakni tahrirlash (F2)
+N014	Kenglik/balandlikni tarkibga moslash
+N015	Oxirgi makros xatosi
+N016	Makros xatosi yoʻq.
+N017	IME yoniq
+N018	IME oʻchiq
+N019	Makros: %s %s ...
+N020	%s: bu proshivka makroslarni ishga tushira olmaydi (SGX ABI 5.10 yoki keyingisi)
+N021	Makros xatosi: %s
+N022	Makros: %s tayyor
+N023	makros allaqachon ishlamoqda
+N024	bu til mavjud emas
+N025	xotira yetarli emas
+N026	makros xato bilan toʻxtadi
+N027	Makros xatosi %s: %s
+N028	Makros: xotira yetarli emas
+N029	Makros: kursor makrosda emas (#!ruby / #!python / #!basic katak yoki undan pastdagi kataklar)
+N030	Makros: varaqda makros yoʻq
+N031	Barcha makroslarni ishga tushirish
+N032	Makroslar: %d. Hammasi yuqori chapdan pastki oʻngga ishga tushirilsinmi? Oʻzgarishlarni qaytarib boʻlmaydi.
+N033	Makros: %d tasi tayyor (jami %d)
+N034	Katak tozalandi
+N035	Tanlov tozalandi
+N036	Fon rangi = %d
+N037	Matn rangi = %d
+N038	Grafik: chiziq
+N039	Grafik: ustun
+N040	Grafik: aralash
+N041	Grafik: doira
+N042	Eksport qilindi: %s

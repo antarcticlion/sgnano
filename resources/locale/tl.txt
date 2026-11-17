@@ -1,0 +1,1041 @@
+# sgnano filer strings: Filipino (2026-11-16). ui <TAB> Japanese <TAB> translation / msg.* <TAB> English <TAB> translation
+# status: unreviewed (machine translation, not checked by a native speaker; 2026-11-16). 未検証: ネイティブの確認をしていない仮の訳
+@lang tl
+@name Filipino
+ui	一覧（ファイルとフォルダを 2 列 x 19 行に並べる）	Listahan (mga file at folder sa 2 hanay x 19 na linya)
+ui	カーソルを動かす（左右は隣の列へ）	Ilipat ang cursor (kaliwa / kanan: ang kabilang hanay)
+ui	前のページ / 次のページ	Nakaraang pahina / susunod na pahina
+ui	全部に印 / 印を反転（PC-98 FD と同じ）	Markahan lahat / baligtarin ang marka (gaya ng PC-98 FD)
+ui	先頭 / 最後	Una / huli
+ui	印を付けて次へ / 印だけ付ける	Markahan at magpatuloy / markahan lang
+ui	Shift+矢印	Shift+mga arrow
+ui	範囲を選ぶ（Space でその範囲に印）	Pumili ng saklaw (Space ang nagmamarka sa saklaw)
+ui	フォルダに入る・ファイルを開く（F2/X は実行）	Pumasok sa folder / buksan ang file (F2/X patakbuhin)
+ui	上のフォルダへ	Umakyat sa parent folder
+ui	ドライブを選ぶ（USB・フロッピー・CD・S: 内蔵）	Pumili ng drive (USB, floppy, CD, S: built-in)
+ui	コピー（Shift+C / Shift+F3 は行き先を木から）	Kopyahin (Shift+C / Shift+F3 pumili ng patutunguhan sa puno)
+ui	移動	Ilipat
+ui	削除（Shift+D / Shift+F4 はフォルダ削除）	Burahin (Shift+D / Shift+F4 burahin ang folder)
+ui	名前を変える	Palitan ang pangalan
+ui	属性を変える	Baguhin ang mga katangian
+ui	エディタで開く	Buksan sa editor
+ui	テキスト表示（Shift+V / Ctrl+Alt+F7 は 16 進）	Tingnan bilang teksto (Shift+V / Ctrl+Alt+F7 hex)
+ui	ドライブの情報	Impormasyon ng drive
+ui	フォルダを作る / 新しいファイル	Bagong folder / bagong file
+ui	シェル sgsh / 媒体を取り出す	Shell sgsh / ilabas ang disk
+ui	読み直す	I-reload
+ui	見えている画面を PNG で保存	I-save ang screen bilang PNG
+ui	窓を閉じる・選択を解く（サブフォルダでは上位へ）	Isara ang window / alisin ang pinili (sa subfolder: umakyat)
+ui	ファイルの操作（FD と同じ。印・範囲・カーソルの順に選ぶ）	Mga operasyon sa file (gaya ng FD: marka, saklaw, saka cursor)
+ui	コピー: 行き先はドライブとフォルダの木から。ESC で止める	Kopya: pumili ng patutunguhan sa puno ng drive at folder. ESC para huminto
+ui	削除: y で確かめる。印・範囲をまとめて。フォルダは中身ごと	Burahin: kumpirmahin sa y. Marka at saklaw nang sabay. Folder kasama ang laman
+ui	フォルダを削除（中身ごと）	Burahin ang folder (kasama ang laman)
+ui	名前を変える（今の名前を直して Enter）	Palitan ang pangalan (i-edit ang pangalan, Enter)
+ui	属性: R 読み出し専用・H 隠し・S システム・A アーカイブ	Katangian: R read-only, H nakatago, S system, A archive
+ui	フォルダを作る	Bagong folder
+ui	新しいファイル（空）を作る	Bagong (walang laman) na file
+ui	テキストで表示（Shift+V / Ctrl+Alt+F7 は 16 進）	Tingnan bilang teksto (Shift+V / Ctrl+Alt+F7 hex)
+ui	シェル sgsh（exit / Ctrl-D でファイラーへ）	Shell sgsh (exit / Ctrl-D pabalik sa filer)
+ui	選んでいるドライブの素性（INQUIRY・IDENTIFY）	Pagkakakilanlan ng drive (INQUIRY, IDENTIFY)
+ui	FDD・LS-120・CD の媒体を取り出す	Ilabas ang disk ng FDD / LS-120 / CD
+ui	一覧を読み直す（CD は TOC から）	I-reload ang listahan (CD: mula sa TOC)
+ui	ZMODEM で PC から受け取る（zm.sh put）	Tumanggap mula sa PC sa ZMODEM (zm.sh put)
+ui	ZMODEM で PC へ送る（zm.sh get）	Magpadala sa PC sa ZMODEM (zm.sh get)
+ui	.rb をコンパイルして .mrb を書き出す	I-compile ang .rb at isulat ang .mrb
+ui	Ruby の REPL（1 行ずつ、Ctrl-D / ESC で終わり）	Ruby REPL (isang linya bawat isa, Ctrl-D / ESC para tapusin)
+ui	MicroPython の REPL	MicroPython REPL
+ui	4MB ずつ分割 / .001 から結合	Hatiin sa 4 MB na bahagi / pagsamahin mula .001
+ui	分割 / 結合（Ctrl+F11 / F12 と同じ）	Hatiin / pagsamahin (katulad ng Ctrl+F11 / F12)
+ui	画面（Alt+F。FD の F キーとぶつからない）	Screen (Alt+F, hindi bumabangga sa mga F key ng FD)
+ui	FB（絵）/ テキスト面を出す・隠す	Ipakita / itago ang FB (larawan) / ang teksto
+ui	FB の表示ページ（0〜3）	Display page ng FB (0-3)
+ui	FB を 0 で消す / 明るさを 1/2 に（RGB555）	Burahin ang FB sa 0 / hatiin ang liwanag (RGB555)
+ui	USB のエンドポイントと LAN の状態	Mga USB endpoint at estado ng LAN
+ui	FB の表示ページを消す / 明るさを 1/2 に	Burahin ang display page ng FB / hatiin ang liwanag
+ui	テキストの属性の見本	Mga halimbawa ng katangian ng teksto
+ui	モニタの EDID（起動時に読んだもの）	EDID ng monitor (binasa sa boot)
+ui	フォント ROM のライセンスとクレジット	Mga lisensya at kredito ng font ROM
+ui	設定（表示の言語・IME・キーボードロケール）	Mga setting (wika ng display, IME at keyboard locale)
+ui	時計（NTP で合わせた日本時間。s ですぐ合わせる）	Orasan (oras ng Japan sa NTP; s para i-sync ngayon)
+ui	表計算（SGCALC）を開く	Buksan ang spreadsheet (SGCALC)
+ui	S: ドライブのエラー検査（誤りがあれば直すか聞く）	Suriin ang S: sa error (nagtatanong bago ayusin)
+ui	トラッカー（TRACKER）を開く	Buksan ang TRACKER
+ui	再起動（確かめの窓が出る）	I-reboot (nagtatanong muna)
+ui	ADC のステレオ入力（GP40 / 41）を鳴らす	I-play ang stereo input ng ADC (GP40 / 41)
+ui	VGM/VGZ を 96kHz/24bit WAV に書き出す	I-export ang VGM/VGZ sa WAV na 96 kHz / 24-bit
+ui	このヘルプ	Ang tulong na ito
+ui	ページを替える	Palitan ang pahina
+ui	閉じる	Isara
+ui	テキスト・16 進のビュアー（less 風）	Viewer ng teksto / hex (gaya ng less)
+ui	1 行	Isang linya
+ui	1 ページ	Isang pahina
+ui	半ページ	Kalahating pahina
+ui	探す（前へ・後ろへ）/ 次・前	Maghanap (pasulong / paatras) / susunod / nakaraan
+ui	一覧へ戻る（F1 はビュアーのヘルプ）	Balik sa listahan (F1: tulong ng viewer)
+ui	画像のビュアー	Viewer ng larawan
+ui	一覧へ戻る（F2 F3 F6 F7 Shift+F2 F3 は効く）	Balik sa listahan (gumagana ang F2 F3 F6 F7 Shift+F2 F3)
+ui	エディタ（E / Shift+F8）	Editor (E / Shift+F8)
+ui	保存する（UTF-8。改行と BOM は元のまま）	I-save (UTF-8; pinapanatili ang dulo ng linya at BOM)
+ui	閉じる（変わっていれば Y / N / ESC）	Isara (kung binago: Y / N / ESC)
+ui	挿入 / 上書き	Insert / overwrite
+ui	IME（日本語・英語・ハングル）の入・切	IME on/off (Hapon / Ingles / Koreano)
+ui	IME の言語（日本語 / English / 한국어）	Wika ng IME (Hapon / Ingles / Koreano)
+ui	ひらがな / カタカナで確定	Kumpirmahin bilang hiragana / katakana
+ui	エディタのヘルプ	Tulong ng editor
+ui	シェル	Shell
+ui	シェル（csh のサブセット。exit / Ctrl-D で戻る、help で一覧）	Shell (bahagi ng csh. exit / Ctrl-D pabalik, help para sa mga utos)
+ui	一覧と移動	Listahan at paggalaw
+ui	ファイルの操作	Mga operasyon sa file
+ui	画面と機器	Screen at mga device
+ui	ビュアーとエディタ	Mga viewer at ang editor
+ui	ヘルプ  %u / %u  %s	Tulong  %u / %u  %s
+ui	Left Right: ページを替える    F1 / ESC: 閉じる	Kaliwa Kanan: palitan ang pahina    F1 / ESC: isara
+ui	sgnano を再起動しますか？	I-reboot ang sgnano?
+ui	[ 再起動 ]	[ I-reboot ]
+ui	[ キャンセル ]	[ Kanselahin ]
+ui	S: ドライブのエラー検査	Suriin ang S: drive sa error
+ui	ファイル %lu  フォルダ %lu	File %lu  folder %lu
+ui	大きさが鎖と合わない	Hindi tugma ang laki sa chain
+ui	どこからも使われていないクラスタ	Mga cluster na walang gumagamit
+ui	重なったクラスタ	Mga cross-linked na cluster
+ui	壊れた項目	Mga sirang entry
+ui	FAT の 2 つの写しの食い違い	Magkaiba ang dalawang kopya ng FAT
+ui	エラーはありません。	Walang error.
+ui	エラーが見つかりました。修復しますか？	May nakitang error. Ayusin?
+ui	修復しました（上は直した数）。	Naayos na (naitama ang mga numero sa itaas).
+ui	検査・修復できませんでした（S: が使用中）。	Hindi masuri o maayos (abala ang S:).
+ui	[ 修復する ]	[ Ayusin ]
+ui	[ やめる ]	[ Kanselahin ]
+ui	何かキーで閉じる	Anumang key para isara
+ui	設定	Mga setting
+ui	表示の言語	Wika ng display
+ui	キーボードロケール	Keyboard locale
+ui	Up / Down  Enter 決める  ESC やめる	Taas / Baba  Enter piliin  ESC kanselahin
+ui	表示の言語 (Language)	Wika ng display
+ui	Up / Down  Enter 決める  ESC 戻る	Taas / Baba  Enter: itakda  ESC: bumalik
+ui	%c: をどの文字に固定しますか（A〜Z、S を除く。ESC でやめる）	Ayusin ang %c: bilang aling titik? (A-Z maliban sa S. ESC kanselahin)
+ui	ドライブ  文字 / Enter 選ぶ  F2 文字を固定・解除  F3 文字を決めて固定  L / ESC やめる	Drive  titik / Enter piliin  F2 ayusin/alisin  F3 ayusin bilang...  L / ESC kanselahin
+ui	  区画 %u	  partition %u
+ui	%c:* （固定・つながっていません）%04X:%04X%s  %s	%c:* (nakapirmi, hindi nakakonekta) %04X:%04X%s  %s
+ui	お知らせ	Paunawa
+ui	ドライブ %c:  %s	Drive %c:  %s
+ui	ドライブ  (なし)	Drive  (wala)
+ui	音楽 CD  %u トラック	Audio CD  %u track
+ui	フォルダ %u  ファイル %u  合計 %s	Folder %u  file %u  kabuuan %s
+ui	読んでいます...	Nagbabasa...
+ui	* 印 %u 個  %s	* may marka %u  %s
+ui	%lu バイト	%lu byte
+ui	属性 %s   更新日時 %s   作成日時 %s   %s	Katangian %s   binago %s   ginawa %s   %s
+ui	日	Lin
+ui	月	Lun
+ui	火	Mar
+ui	水	Miy
+ui	木	Huw
+ui	金	Biy
+ui	土	Sab
+ui	時計は合わせていません（LAN の NTP）	Hindi pa nakatakda ang orasan (NTP sa LAN)
+ui	FB  表示 %u  書込 %u	FB  display %u  sulat %u
+ui	1 ヘルプ	1 Tulong
+ui	2 実行	2 Takbo
+ui	3 ｺﾋﾟｰ	3 Kopya
+ui	4 削除	4 Bura
+ui	5 名前	5 Ngalan
+ui	7 FB消去	7 BuraFB
+ui	8 FB減光	8 DimFB
+ui	9 ﾄﾞﾗｲﾌﾞ	9 Drive
+ui	10 EP表	10 EP
+ui	11 時計	11 Oras
+ui	12 表計	12 CALC
+ui	1 属性	1 Katang
+ui	2 情報	2 Info
+ui	3 移動	3 Lipat
+ui	5 作成	5 Folder
+ui	6 シェル	6 Shell
+ui	8 編集	8 Edit
+ui	9 表示	9 Tingin
+ui	10S:検査	10 S:chk
+ui	11 ﾄﾗｯｸ	11 TRACK
+ui	12再起動	12Reboot
+ui	1 新規	1 Bago
+ui	2 ﾌｫﾙﾀﾞ	2 Folder
+ui	3 名前	3 Ngalan
+ui	4 属性	4 Katang
+ui	6 ｺﾋﾟｰ	6 Kopya
+ui	7 移動	7 Lipat
+ui	8 削除	8 Bura
+ui	9 編集	9 Edit
+ui	10ｺﾝﾊﾟｲﾙ	10 mrbc
+ui	11 分割	11 Hati
+ui	12 結合	12 Sama
+ui	1 属性例	1 Katang
+ui	2 FB切替	2 FB
+ui	3 文字面	3 Teksto
+ui	5 画面写	5 Kuha
+ui	6 表示頁	6 Pahina
+ui	9 ZM受信	9 ZMtang
+ui	10ZM送信	10 ZMpad
+ui	2 FB消去	2 BuraFB
+ui	3 FB減光	3 DimFB
+ui	5 再読込	5 Reload
+ui	7 16進	7 Hex
+ui	9 ﾗｲｾﾝｽ	9 Lisens
+ui	8 設定	8 Setup
+ui	時刻を合わせる（日本時間。NTP で合わせられませんでした）	Itakda ang orasan (oras ng Japan. Hindi naitakda ng NTP)
+ui	起動のパラメタ	Patakbuhin na may parameter
+ui	新しいフォルダ	Bagong folder
+ui	新しいファイル	Bagong file
+ui	時刻:	Oras:
+ui	実行:	Takbo:
+ui	名前:	Pangalan:
+ui	年-月-日 時:分  Enter 合わせる  ESC そのまま	YYYY-MM-DD hh:mm  Enter itakda  ESC panatilihin
+ui	Enter 走らせる  ←→ 動かす  BS / Del 消す  ESC やめる	Enter patakbuhin  <-> ilipat  BS / Del burahin  ESC kanselahin
+ui	Enter 変える  ←→ 動かす  BS / Del 消す  ESC やめる	Enter palitan  <-> ilipat  BS / Del burahin  ESC kanselahin
+ui	Enter 作る  ←→ 動かす  BS / Del 消す  ESC やめる	Enter gawin  <-> ilipat  BS / Del burahin  ESC kanselahin
+ui	消す	Burahin
+ui	個の項目	 item
+ui	フォルダは中身ごと消します。よろしいですか？	Buburahin ang mga folder kasama ang laman. Sigurado ka ba?
+ui	このファイルを消しますか？	Burahin ang file na ito?
+ui	（元に戻せません。フォルダの中のファイルも消えます）	(Hindi na maibabalik. Mabubura rin ang mga file sa loob ng folder)
+ui	[ はい (Y) ]	[ Oo (Y) ]
+ui	[ いいえ (N) ]	[ Hindi (N) ]
+ui	バイナリビュアー: ファイルを選んでください	hex viewer: pumili ng file
+ui	テキストビュアー: ファイルを選んでください	text viewer: pumili ng file
+ui	移動先	Ilipat sa
+ui	コピー先	Kopyahin sa
+ui	バッファがいっぱいです (buffer full)	Puno na ang buffer
+ui	読み出し専用のドライブです (read-only)	Read-only ang drive
+ui	保存できません (no writer)	Hindi ma-save (walang writer)
+ui	保存を始められません (the drive is busy?)	Hindi masimulan ang pag-save (abala ang drive?)
+ui	保存しています... (saving)	Nagse-save...
+ui	2 保存	2 Save
+ui	5 色分け	5 Kulay
+ui	6 ﾞ	6 Hira
+ui	7 ｶﾀｶﾅ	7 Kata
+ui	8 予測	8 Hula
+ui	10 終了	10 Labas
+ui	1 先頭	1 Taas
+ui	2 最後	2 Dulo
+ui	3 挿/上	3 InsOvr
+ui	4 辞書	4 Diks
+ui	6 半	6 HHira
+ui	7 半ｶﾅ	7 HKata
+ui	 %s  %s  行 %lu/%lu 桁 %u  %s  %s %s%s%s	 %s  %s  Ln %lu/%lu Col %u  %s  %s %s%s%s
+ui	*変更	*binago
+ui	上書	OVR
+ui	挿入	INS
+ui	  読出専用	  R/O
+ui	 エディタ (sgnano edit)                      F1 / ESC で閉じる	 Editor (sgnano edit)                        F1 / ESC isara
+ui	 矢印 / Home End / PgUp PgDn   カーソルを動かす	 Arrow / Home End / PgUp PgDn  ilipat ang cursor
+ui	 Ctrl-T / Ctrl-B               ファイルの先頭 / 最後	 Ctrl-T / Ctrl-B               simula / dulo ng file
+ui	 BS / Del                      前の字 / カーソルの字を消す	 BS / Del                      burahin bago / sa cursor
+ui	 Enter                         改行（前の行の字下げを引き継ぐ）	 Enter                         bagong linya (pinapanatili ang indent)
+ui	 Tab / Ins                     タブ / 挿入と上書きの切り替え	 Tab / Ins                     tab / insert o overwrite
+ui	 F5                            色分け（拡張子から。C/C++・mruby・MicroPython・SG BASIC・なし）	 F5                            Kulay (mula sa extension; C/C++, mruby, MicroPython, SG BASIC, wala)
+ui	 F2  (Ctrl-S)                  保存（UTF-8、改行は元の形）	 F2  (Ctrl-S)                  i-save (UTF-8, pinapanatili ang dulo ng linya)
+ui	 F10 / ESC                     閉じる（変更があれば聞く）	 F10 / ESC                     isara (nagtatanong kung binago)
+ui	 IME:  Ctrl-Space / F12        オン・オフ（あ / A）	 IME:  Ctrl-Space / F12        on / off (あ / A)
+ui	       F9                      IME の言語（このエディタの間だけ。閉じると戻る）	       F9                      wika ng IME (editor na ito lang; ibinabalik sa pagsara)
+ui	       F8                      日本語の予測変換 オン・オフ	       F8 On/off ng predictive na conversion sa Hapon
+ui	       日本語                  ローマ字 -> ひらがな（F6）・カタカナ（F7）	       Hapon                   romaji -> hiragana (F6) / katakana (F7)
+ui	                               半角ひらがな（Shift+F6）・半角カタカナ（Shift+F7）	                               Half-width hiragana (Shift+F6) / half-width katakana (Shift+F7)
+ui	                               2 字以上で予測、Space で連文節変換	                               Hula mula 2 titik pataas, conversion ng magkakasunod na sugnay sa Space
+ui	       English                 2 字以上で予測補完	       Ingles: predictive completion mula 2 titik pataas
+ui	       한국어                  2 ボル式ハングル	       한국어 2-set na Hangul
+ui	       Space / Enter           変換 / 確定	       Space / Enter I-convert / Kumpirmahin
+ui	       ← →                    文節を選ぶ	       ← → Pumili ng sugnay
+ui	       Shift+← →               文節の右端を 1 字 縮/拡（候補を出し直す）	       Shift+← → Paikliin/pahabain ang kanang dulo ng sugnay ng isang titik (bagong kandidato)
+ui	       ↑ ↓ / Tab               候補の窓で前 / 次の候補（窓は変換の下、画面の下では上）	       ↑ ↓ / Tab               Nakaraan / susunod na kandidato sa popup (sa ilalim ng teksto, sa itaas kung malapit sa ibaba)
+ui	       →→→ で Enter            すべての候補（2 列 x 8 個、← → で列とページ、Enter で決める）	       Enter sa →→→            Lahat ng kandidato (2 x 8, ← → hanay at pahina, Enter pumili)
+ui	       Enter                   次の文節へ（最後の文節で全体を確定）	       Enter                   Susunod na sugnay (sa huli, kumpirmahin lahat)
+ui	       Ctrl-U                  いまの語をユーザー辞書へ	       Ctrl-U Idagdag ang salita sa diksyunaryo ng user
+ui	 Shift+F1 / F2 / F3 / F4       先頭 / 最後 / 挿入と上書き / ユーザー辞書へ	 Shift+F1 / F2 / F3 / F4       Simula / dulo / insert-overwrite / sa diksyunaryo ng user
+ui	       BS / ESC                1 字戻す / 取り消し	       BS / ESC Bumalik ng isang titik / Kanselahin
+ui	       , . - [ ] /             、 。 ー 「 」 ・	       , . - [ ] /             、 。 ー 「 」 ・
+ui	変更あり  Y: 保存して閉じる  N: 保存せず閉じる  ESC: 戻る	Binago  Y: i-save at isara  N: isara nang hindi sine-save  ESC: bumalik
+ui	[予測] Tab/↑↓: 候補  Space: 変換  Esc: 取消	[Hula] Tab/↑↓: kandidato  Space: i-convert  Esc: kanselahin
+ui	[候補] ↑↓: 選ぶ  ←→: 列・ページ  Enter: 決める	[Kandidato] ↑↓: pumili  ←→: hanay/pahina  Enter: kunin
+ui	[変換] ↑↓候補 ←→文節 Shift+←→区切り Enter次へ	[Convert] ↑↓kand ←→sugnay Shift+←→hangganan Enter sunod
+ui	[한국어] Tab/↑↓: 候補  Enter/Space: 確定	[한국어] Tab/↑↓: kandidato  Enter/Space: kumpirmahin
+ui	[English] Tab/↑↓: 候補  Enter: 確定	[English] Tab/↑↓: kandidato  Enter: kumpirmahin
+ui	2ボル式ハングル入力  Ctrl-Space: 英数	2-set na Hangul input  Ctrl-Space: alphanumeric
+ui	予測補完  Ctrl-Space: 直接入力	Predictive completion  Ctrl-Space: direktang input
+ui	辞書なし: ひらがな/カタカナ入力のみ  F6/F7	Walang diksyunaryo: hiragana/katakana lang  F6/F7
+ui	Space: 変換  F7: カタカナ  Ctrl-Space: 英数	Space: i-convert  F7: katakana  Ctrl-Space: alphanumeric
+ui	Space: 変換  F6: ひらがな  Ctrl-Space: 英数	Space: i-convert  F6: hiragana  Ctrl-Space: alphanumeric
+ui	半角  F6: ひらがな  F7: カタカナ  Shift+F6/F7: 半角	Half-width  F6: hiragana  F7: katakana  Shift+F6/F7: half
+ui	IME オフ	IME off
+ui	 予測	 hula
+ui	日本語の予測変換: オン	Predictive na conversion sa Hapon: On
+ui	日本語の予測変換: オフ	Predictive na conversion sa Hapon: Off
+ui	日本語IMEで使います	Gamitin kasama ang Japanese IME
+ui	ユーザー辞書に追加できません	Hindi maidagdag sa diksyunaryo ng user
+ui	色分け: %s	Kulay: %s
+ui	読み込んでいます... (loading)	Naglo-load...
+ui	読み込めませんでした (could not read)	Hindi mabasa ang file
+ui	%lu 行%s%s	%lu linya%s%s
+ui	  Shift_JIS を UTF-8 で開きました（保存は UTF-8）	  binuksan ang Shift_JIS bilang UTF-8 (sine-save bilang UTF-8)
+ui	  読み出し専用	  read-only
+ui	保存しました (saved)	Na-save
+ui	保存できませんでした (write failed)	Hindi ma-save (nabigo ang pagsulat)
+ui	候補	Mga kandidato
+ui	7 書込頁	7 SulPg
+ui	9 ﾃｷｽﾄ	9 Teksto
+ui	9 ﾊﾞｲﾅﾘ	9 Hex
+ui	読み込み中 %lu%%  	Naglo-load %lu%%
+ui	（先頭だけ）  	(simula lang)
+ui	16 進  q ESC: 戻る  F1: ヘルプ	Hex  q ESC: bumalik  F1: tulong
+ui	テキスト  q ESC: 戻る  F1: ヘルプ	Teksto  q ESC: bumalik  F1: tulong
+ui	ビュアーのキー（less 風。テキストと 16 進で共通）	Mga key ng viewer (gaya ng less; pareho sa teksto at hex)
+ui	1 行進む	Pababa ng isang linya
+ui	1 行戻る	Pataas ng isang linya
+ui	1 ページ進む	Pababa ng isang pahina
+ui	1 ページ戻る	Pataas ng isang pahina
+ui	半ページ進む / 戻る	Pababa / pataas ng kalahating pahina
+ui	/文字列  ?文字列	/teksto  ?teksto
+ui	下へ探す / 上へ探す（大文字小文字は区別しない）	Maghanap pababa / pataas (hindi pansin ang laki ng titik)
+ui	次 / 前を探す	Susunod / nakaraang tugma
+ui	16 進で表示する（いま見ている所のまま）	Ipakita bilang hex (sa parehong lugar)
+ui	テキストで表示する（いま見ている所のまま）	Ipakita bilang teksto (sa parehong lugar)
+ui	色分けを替える（C/C++・mruby・MicroPython・SG BASIC・なし）	Palitan ang kulay (C/C++, mruby, MicroPython, SG BASIC, wala)
+ui	FB / テキスト面を出す・隠す	Ipakita / itago ang FB / ang teksto
+ui	FB の表示ページ / 書き込みページ	Display page / write page ng FB
+ui	ファイラーへ戻る	Balik sa filer
+ui	このヘルプを閉じる	Isara ang tulong na ito
+ui	コピー	Kopya
+ui	 %s: フォルダを読んでいます... %u 個	 %s: binabasa ang mga folder... %u
+ui	 %s: 行き先の空きを数えています...	 %s: binibilang ang bakanteng espasyo sa patutunguhan...
+ui	 %s: 行き先の空きが足りません	 %s: kulang ang bakanteng espasyo sa patutunguhan
+ui	 移動: 元のフォルダを消しています	 Ilipat: inaalis ang mga pinagmulang folder
+ui	終了しました	Tapos na
+ui	止まりました	Huminto
+ui	 %s中%s	 %s ginagawa%s
+ui	（止めています）	 (humihinto)
+ui	 元: %s	 Mula: %s
+ui	 先: %s	 Sa: %s
+ui	 ファイル %u / %u 個  フォルダ %u 個  %s / %s  (%u%%)%s	 File %u / %u  folder %u  %s / %s  (%u%%)%s
+ui	  多すぎるので一部だけ	  sobrang dami: ilan lang
+ui	 要る大きさ %s、空き %s。続けますか？	 Kailangan %s, bakante %s. Magpatuloy?
+ui	 Y: 続ける   N / ESC: やめる	 Y: magpatuloy   N / ESC: kanselahin
+ui	 何かキーを押すと閉じます	 Pindutin ang anumang key para isara
+ui	 ESC: 止める	 ESC: huminto
+ui	 %s: ←→ ドライブ  ↑↓ フォルダ  Space 開く・閉じる  Enter 決める  ESC やめる	 %s: ←→ drive  ↑↓ folder  Space buksan/isara  Enter piliin  ESC kanselahin
+ui	 読めません: %s	 Hindi mabasa: %s
+ui	 フォルダを読んでいます...（ESC で止める）  %u 個	 Binabasa ang mga folder... (ESC humihinto)  %u
+ui	 フォルダ %u 個%s	 %u folder%s
+ui	（多すぎるか深すぎるので、一部だけ）	 (sobrang dami o lalim: ilan lang)
+ui	フォルダの展開を止めました	Itinigil ang pagbukas ng folder
+ui	Space で開き直せます。もう一度 ESC でやめます	Space para buksan muli. ESC muli para kanselahin
+ui	 SMF / SGT プレイヤー   %s	 SMF / SGT player   %s
+ui	 読み込んでいます... %lu / %lu バイト	 Naglo-load... %lu / %lu byte
+ui	 %s / %s   %s   ポート %u	 %s / %s   %s   port %u
+ui	一時停止	Naka-pause
+ui	再生中	Tumutugtog
+ui	 Space: 一時停止  m: MIDI OUT  q / ESC: 止める	 Space: i-pause  m: MIDI OUT  q / ESC: ihinto
+ui	 q / ESC: やめる	 q / ESC: kanselahin
+ui	フォント ROM のライセンスとクレジット\n\nROM: %s（版 %lu.%lu、%lu 文字、フラッシュの 0x%08lX から）\n\n	Mga lisensya at kredito ng font ROM\n\nROM: %s (bersyon %lu.%lu, %lu titik, mula 0x%08lX sa flash)\n\n
+ui	== 収めているフォント（ROM の出所の表）==\n	== Mga font sa ROM (talaan ng pinagmulan ng ROM) ==\n
+ui	  （表が無い ROM）\n	  (walang talaan ang ROM)\n
+ui	\n== ROM のクレジットの区画 ==\n\n	\n== Ang bahagi ng kredito ng ROM ==\n\n
+ui	（区画が無い）\n	(walang ganoong bahagi)\n
+ui	\n== 組み込んだソフトウェアのライセンス ==\n	\n== Mga lisensya ng built-in na software ==\n
+ui	 %s を PNG で保存   %s	 Sine-save ang %s bilang PNG   %s
+ui	画面	Screen
+ui	 組み立てています... %lu / %lu 行	 Binubuo... %lu / %lu linya
+ui	 書いています... %lu / %lu KB（FB は隠しています）	 Nagsusulat... %lu / %lu KB (nakatago ang FB)
+ui	書けませんでした	Hindi maisulat
+ui	書庫の名前（印の付いた項目、無ければカーソルの項目を入れる）	Pangalan ng archive (ang mga minarkahan, o ang nasa cursor kung wala)
+ui	Enter 圧縮する  ←→ 動かす  BS / Del 消す  ESC やめる	Enter i-compress  ←→ ilipat  BS / Del burahin  ESC kanselahin
+ui	WAV 書き出し: %s 中止（%s）	I-export ang WAV: %s kinansela (%s)
+ui	WAV 書き出し: %s 失敗（%s）	I-export ang WAV: %s nabigo (%s)
+ui	WAV 書き出し: %s 合計 %s	I-export ang WAV: %s kabuuan %s
+ui	 WAV 書き出し（96kHz / 24bit）: %s	 I-export ang WAV (96kHz / 24bit): %s
+ui	中止しました	Kinansela
+ui	失敗しました	Nabigo
+ui	 合計 %s	 Kabuuan %s
+ui	 中止しました（%s。半端なファイルは消しました）	 Kinansela (%s; binura ang kulang na file)
+ui	 書き出せませんでした（%s）。理由:	 Hindi ma-export (%s). Dahilan:
+ui	 （理由は分かりません）	 (hindi alam ang dahilan)
+ui	 %u%%   経過 %s%s	 %u%%   lumipas %s%s
+ui	 ESC: 止める（半端なファイルは消します）	 ESC: ihinto (buburahin ang kulang na file)
+ui	書庫: %s	Archive: %s
+ui	読み込み中…（ESC でやめる）	Binabasa... (ESC para kanselahin)
+ui	 %u 項目%s  合計 %s バイト  展開先: %s	 %u item%s  kabuuan %s byte  i-extract sa: %s
+ui	 Enter 項目を展開  X 全部を展開  ↑↓ 動かす  ESC 閉じる	 Enter i-extract  X lahat  ↑↓ ilipat  ESC isara
+ui	圧縮	I-compress
+ui	一覧	Listahan
+ui	展開	I-extract
+ui	 合計 %s   %u 項目	 Kabuuan %s   %u item
+ui	 合計 %s   %u ファイル	 Kabuuan %s   %u file
+ui	 中止しました（%s。書きかけのファイルは消しました）	 Kinansela (%s; binura ang hindi tapos na file)
+ui	 できませんでした（%s）: %s	 Hindi magawa (%s): %s
+ui	 %u%%   経過 %s   %s バイト%s	 %u%%   lumipas %s   %s byte%s
+ui	 経過 %s   %s バイト%s	 lumipas %s   %s byte%s
+ui	 ESC: 止める（書きかけのファイルは消します）	 ESC: ihinto (buburahin ang hindi tapos na file)
+ui	書庫: %s 失敗（%s）	Archive: %s nabigo (%s)
+ui	圧縮: %s（%u 項目）	Na-compress: %s (%u item)
+ui	展開: %s（%u ファイル）	Na-extract: %s (%u file)
+msg.phrase	the drive went away	natanggal ang drive
+msg.phrase	reading the partitions again...	binabasa muli ang mga partition...
+msg.phrase	could not open the volume (no memory?)	hindi mabuksan ang volume (kulang ang memorya?)
+msg.phrase	opening the volume...	binubuksan ang volume...
+msg.phrase	no memory for the file list	kulang ang memorya para sa listahan ng file
+msg.phrase	reading the directory... (retrying)	binabasa ang folder... (inuulit)
+msg.phrase	could not read the directory	hindi mabasa ang folder
+msg.phrase	reading the directory...	binabasa ang folder...
+msg.phrase	the drive did not answer -- reading the partitions again	hindi sumagot ang drive -- binabasa muli ang mga partition
+msg.phrase	could not read the directory (not FAT12/16/32?)	hindi mabasa ang folder (hindi FAT12/16/32?)
+msg.phrase	too many entries -- showing the first ones	sobrang daming entry -- ipinapakita ang mga una
+msg.phrase	no file system found on this partition	walang file system sa partition na ito
+msg.phrase	the path is too long	masyadong mahaba ang path
+msg.phrase	joining...	pinagsasama...
+msg.phrase	splitting...	hinahati...
+msg.phrase	renaming...	pinapalitan ang pangalan...
+msg.phrase	creating the folder...	ginagawa ang folder...
+msg.phrase	creating the file...	ginagawa ang file...
+msg.phrase	deleting...	binubura...
+msg.phrase	writing the attributes...	isinusulat ang mga katangian...
+msg.phrase	the drive is busy	abala ang drive
+msg.phrase	busy	abala
+msg.phrase	choose files or folders	pumili ng mga file o folder
+msg.phrase	choose files or folders (not "..")	pumili ng mga file o folder (hindi "..")
+msg.phrase	stop the CD first	ihinto muna ang CD
+msg.phrase	the CD cannot be changed (copy instead)	hindi mababago ang CD (kopyahin na lang)
+msg.phrase	a system folder cannot be moved	hindi maililipat ang system folder
+msg.phrase	no drive can be written (FAT / exFAT / NTFS only)	walang drive na masusulatan (FAT / exFAT / NTFS lang)
+msg.phrase	the drive is gone	wala na ang drive
+msg.phrase	nothing chosen	walang napili
+msg.phrase	nothing selected	walang napili
+msg.phrase	could not start	hindi masimulan
+msg.phrase	could not open	hindi mabuksan
+msg.phrase	only on a FAT / exFAT / NTFS drive	sa FAT / exFAT / NTFS na drive lang
+msg.phrase	no name	walang pangalan
+msg.phrase	that name already exists	mayroon nang ganyang pangalan
+msg.phrase	could not start (bad name or the drive is busy)	hindi masimulan (maling pangalan o abala ang drive)
+msg.phrase	could not start (the drive is busy)	hindi masimulan (abala ang drive)
+msg.phrase	the name cannot have / or \\ (only inside this folder)	hindi puwedeng may / o \\ ang pangalan (sa loob lang ng folder na ito)
+msg.phrase	the name is the same	pareho ang pangalan
+msg.phrase	the item is read-only (A to change)	read-only ang item (A para baguhin)
+msg.phrase	choose a .rb file on a writable drive	pumili ng .rb file sa drive na masusulatan
+msg.phrase	choose a .rb file	pumili ng .rb file
+msg.phrase	the drive is read-only	read-only ang drive
+msg.phrase	choose a folder on a writable drive	pumili ng folder sa drive na masusulatan
+msg.phrase	wait a moment	sandali lang
+msg.phrase	choose a file	pumili ng file
+msg.phrase	choose a file (not a folder)	pumili ng file (hindi folder)
+msg.phrase	choose a .001 file	pumili ng .001 file
+msg.phrase	choose the .001 file	piliin ang .001 file
+msg.phrase	put the IWAD in a DoomFiles or Doom2Files folder	ilagay ang IWAD sa folder na DoomFiles o Doom2Files
+msg.phrase	DoomFiles takes freedoom1 / doom / doomu / doom1.wad	tumatanggap ang DoomFiles ng freedoom1 / doom / doomu / doom1.wad
+msg.phrase	Doom2Files takes freedoom2 / doom2 / plutonia / tnt.wad	tumatanggap ang Doom2Files ng freedoom2 / doom2 / plutonia / tnt.wad
+msg.phrase	put the game files on external storage, not S:	ilagay ang mga file ng laro sa external storage, hindi sa S:
+msg.phrase	the IWAD must be on a FAT / exFAT / NTFS drive (not a CD)	dapat nasa FAT / exFAT / NTFS na drive ang IWAD (hindi CD)
+msg.phrase	still working	gumagana pa
+msg.phrase	an image is loading	naglo-load ng larawan
+msg.phrase	no framebuffer	walang framebuffer
+msg.phrase	half brightness works only in RGB555	gumagana lang ang paghati ng liwanag sa RGB555
+msg.phrase	clearing...	binubura...
+msg.phrase	halving the brightness...	hinahati ang liwanag...
+msg.phrase	that is a data track	data track iyan
+msg.phrase	wait -- a file is being written	sandali -- may isinusulat na file
+msg.phrase	only floppy / LS-120 / CD drives	floppy / LS-120 / CD drive lang
+msg.phrase	requested	hiniling
+msg.phrase	reading the disc...	binabasa ang disc...
+msg.phrase	stopping...	humihinto...
+msg.phrase	opening...	binubuksan...
+msg.phrase	done	tapos
+msg.phrase	no memory	kulang ang memorya
+msg.phrase	already open	bukas na
+msg.phrase	already running	tumatakbo na
+msg.phrase	already saving	nagse-save na
+msg.phrase	already playing	tumutugtog na
+msg.phrase	no such drive	walang ganyang drive
+msg.phrase	no PSRAM	walang PSRAM
+msg.phrase	no PSRAM for the file	kulang ang PSRAM para sa file
+msg.phrase	no PSRAM for the line index	kulang ang PSRAM para sa index ng linya
+msg.phrase	no PSRAM for the terminal	kulang ang PSRAM para sa terminal
+msg.phrase	no memory (PSRAM)	kulang ang memorya (PSRAM)
+msg.phrase	no memory (32KB SRAM)	kulang ang memorya (32KB SRAM)
+msg.phrase	no memory for the buffer	kulang ang memorya para sa buffer
+msg.phrase	no memory for the image buffers	kulang ang memorya para sa mga image buffer
+msg.phrase	no memory for the read buffer	kulang ang memorya para sa read buffer
+msg.phrase	no room for the work memory (close the lowres plane?)	walang lugar para sa work memory (isara ang lowres plane?)
+msg.phrase	no framebuffer page	walang pahina ng framebuffer
+msg.phrase	too large (4 MB at most)	masyadong malaki (hanggang 4 MB)
+msg.phrase	the file is too large (1 MB at most)	masyadong malaki ang file (hanggang 1 MB)
+msg.phrase	the file is too large (1 MB max)	masyadong malaki ang file (max 1 MB)
+msg.phrase	too large for an SMF (1MB at most)	masyadong malaki para sa SMF (hanggang 1MB)
+msg.phrase	the file is empty	walang laman ang file
+msg.phrase	could not open the file	hindi mabuksan ang file
+msg.phrase	could not read the file	hindi mabasa ang file
+msg.phrase	could not open the volume	hindi mabuksan ang volume
+msg.phrase	could not open the destination (no memory?)	hindi mabuksan ang patutunguhan (kulang ang memorya?)
+msg.phrase	could not read the root folder	hindi mabasa ang root folder
+msg.phrase	could not start the task	hindi masimulan ang task
+msg.phrase	could not start writing (bad name or busy)	hindi masimulan ang pagsulat (maling pangalan o abala)
+msg.phrase	another volume is open (busy)	may ibang volume na bukas (abala)
+msg.phrase	a copy is running	may kinokopya pa
+msg.phrase	a folder cannot go into itself	hindi maaaring pumasok ang folder sa sarili nito
+msg.phrase	that is the same folder	iyon din ang folder
+msg.phrase	this drive cannot be changed (read only)	hindi mababago ang drive na ito (read only)
+msg.phrase	the drive is not writable	hindi masusulatan ang drive
+msg.phrase	the part size must be a multiple of 512	dapat multiple ng 512 ang laki ng bahagi
+msg.phrase	files of 4 GB or more are not supported	hindi suportado ang mga file na 4 GB pataas
+msg.phrase	bad path	maling path
+msg.phrase	bad file name	maling pangalan ng file
+msg.phrase	the font ROM is not there	wala ang font ROM
+msg.phrase	the sound is not open	hindi bukas ang tunog
+msg.phrase	no such channel	walang ganyang channel
+msg.phrase	the sequencer is busy	abala ang sequencer
+msg.phrase	not enough PSRAM for the song	kulang ang PSRAM para sa kanta
+msg.phrase	not a standard MIDI file (no MThd)	hindi standard MIDI file (walang MThd)
+msg.phrase	no tracks	walang track
+msg.phrase	a track is broken (MTrk)	sira ang isang track (MTrk)
+msg.phrase	SMPTE time division is not supported	hindi suportado ang SMPTE time division
+msg.phrase	SMF format 2 is not supported (0 and 1 only)	hindi suportado ang SMF format 2 (0 at 1 lang)
+msg.phrase	not a Bulk-Only drive	hindi Bulk-Only na drive
+msg.phrase	not an optical drive	hindi optical drive
+msg.phrase	a system folder cannot be deleted or renamed	hindi mabubura o mapapalitan ang pangalan ng system folder
+msg.phrase	no media in the drive	walang media sa drive
+msg.phrase	becoming ready	naghahanda
+msg.phrase	not ready	hindi handa
+msg.phrase	media changed	napalitan ang media
+msg.phrase	medium error	error sa media
+msg.phrase	illegal request	ilegal na kahilingan
+msg.phrase	a bad directory entry	sirang entry ng folder
+msg.phrase	a directory on the way does not exist	may folder sa daan na hindi umiiral
+msg.phrase	a file has that name	may file na may ganyang pangalan
+msg.phrase	a folder has that name	may folder na may ganyang pangalan
+msg.phrase	a name on the way is not a directory	may pangalan sa daan na hindi folder
+msg.phrase	cancelled	kinansela
+msg.phrase	could not mount	hindi ma-mount
+msg.phrase	could not start a read	hindi masimulan ang pagbasa
+msg.phrase	could not start a write	hindi masimulan ang pagsulat
+msg.phrase	is a directory	ay isang folder
+msg.phrase	that is a directory	folder iyan
+msg.phrase	no clusters	walang cluster
+msg.phrase	no room for the cluster list	walang lugar para sa listahan ng cluster
+msg.phrase	no such file or directory	walang ganyang file o folder
+msg.phrase	no such file	walang ganyang file
+msg.phrase	no volume	walang volume
+msg.phrase	not NTFS	hindi NTFS
+msg.phrase	not exFAT	hindi exFAT
+msg.phrase	not a directory	hindi folder
+msg.phrase	not found	hindi nakita
+msg.phrase	read error	error sa pagbasa
+msg.phrase	write error	error sa pagsulat
+msg.phrase	reading the FAT failed	nabigo ang pagbasa ng FAT
+msg.phrase	the cluster chain is shorter than the file	mas maikli ang cluster chain kaysa sa file
+msg.phrase	the directory is not empty	hindi walang laman ang folder
+msg.phrase	the disk is full	puno na ang disk
+msg.phrase	the drive did not answer	hindi sumagot ang drive
+msg.phrase	the file is read-only	read-only ang file
+msg.phrase	the file is too fragmented	sobrang hati-hati ang file
+msg.phrase	the file is too large (4GB)	masyadong malaki ang file (4GB)
+msg.phrase	the new name already exists	mayroon na ang bagong pangalan
+msg.phrase	the root directory is full	puno na ang root folder
+msg.phrase	too many files with the same short name	sobrang daming file na may parehong maikling pangalan
+msg.phrase	No such file or directory	Walang ganyang file o folder
+msg.phrase	File exists	May file na
+msg.phrase	Permission denied	Tinanggihan ang pahintulot
+msg.phrase	Directory not empty	Hindi walang laman ang folder
+msg.phrase	Not a directory	Hindi folder
+msg.phrase	Is a directory	Ay isang folder
+msg.phrase	Read-only file system	Read-only na file system
+msg.phrase	No space left on device	Wala nang espasyo sa device
+msg.phrase	Input/output error	Error sa input/output
+msg.phrase	Not supported on this drive	Hindi suportado sa drive na ito
+msg.phrase	Invalid path	Hindi wastong path
+msg.phrase	Out of memory	Ubos na ang memorya
+msg.phrase	No such drive	Walang ganyang drive
+msg.phrase	stopped	huminto
+msg.phrase	cancelled (not enough free space)	kinansela (kulang ang bakanteng espasyo)
+msg.phrase	could not count the free space	hindi mabilang ang bakanteng espasyo
+msg.phrase	the receiver cancelled	kinansela ng tagatanggap
+msg.phrase	no receiver (run rz on the PC)	walang tagatanggap (patakbuhin ang rz sa PC)
+msg.phrase	the console UART is in use	ginagamit ang console UART
+msg.phrase	the screen mode changed	nagbago ang screen mode
+msg.phrase	the lines did not come (is the display running?)	hindi dumating ang mga linya (tumatakbo ba ang display?)
+msg.prefix	copy	kopya
+msg.prefix	move	lipat
+msg.prefix	delete	bura
+msg.prefix	rename	palit-pangalan
+msg.prefix	attributes	katangian
+msg.prefix	new file	bagong file
+msg.prefix	new folder	bagong folder
+msg.prefix	image	larawan
+msg.prefix	mrbc	mrbc
+msg.prefix	ruby	ruby
+msg.prefix	viewer	viewer
+msg.prefix	edit	edit
+msg.prefix	IDENTIFY	IDENTIFY
+msg.prefix	ZMODEM	ZMODEM
+msg.prefix	ZMODEM receive	ZMODEM tanggap
+msg.prefix	ZMODEM send	ZMODEM padala
+msg.prefix	split	hati
+msg.prefix	join	sama
+msg.prefix	Doom	Doom
+msg.prefix	SMF	SMF
+msg.prefix	CD	CD
+msg.prefix	FB	FB
+msg.prefix	Eject	Ilabas
+msg.prefix	reboot	reboot
+msg.prefix	license	lisensya
+msg.prefix	clock	orasan
+msg.prefix	ADC in	ADC in
+msg.prefix	screen -> PNG	screen -> PNG
+msg.prefix	FB -> PNG	FB -> PNG
+msg.prefix	could not open the volume	hindi mabuksan ang volume
+msg.pattern	received 	natanggap ang %s
+msg.pattern	sent 	naipadala ang %s
+msg.pattern	saved 	na-save ang %s
+msg.pattern	created 	nagawa ang %s
+msg.pattern	renamed to 	pinalitan ang pangalan sa %s
+msg.pattern	deleted 	nabura ang %s
+msg.pattern	changed 	nabago ang %s
+msg.pattern	joined 	napagsama ang %s
+msg.pattern	split 	nahati ang %s
+msg.pattern	could not create 	hindi magawa ang %s
+msg.pattern	could not delete 	hindi mabura ang %s
+msg.pattern	could not rename to 	hindi mapalitan ang pangalan sa %s
+msg.pattern	could not change 	hindi mabago ang %s
+msg.pattern	could not read 	hindi mabasa ang %s
+msg.pattern	could not write 	hindi maisulat ang %s
+msg.pattern	could not copy 	hindi makopya ang %s
+msg.pattern	could not make 	hindi magawa ang %s
+msg.pattern	could not remove the folder 	hindi maalis ang folder %s
+msg.pattern	could not remove 	hindi maalis ang %s
+msg.pattern	no memory for 	kulang ang memorya para sa %s
+msg.pattern	too many errors while sending 	sobrang daming error habang ipinapadala ang %s
+msg.pattern	the receiver did not take 	hindi tinanggap ng tagatanggap ang %s
+msg.pattern	the receiver skipped 	nilaktawan ng tagatanggap ang %s
+msg.pattern	FB page 	Pahina ng FB %s
+msg.word	 bytes each)	 byte bawat isa)
+msg.word	 bytes)	 byte)
+msg.word	 KB)	 KB)
+msg.word	 parts into 	 bahagi sa
+msg.word	 parts (	 bahagi (
+msg.word	 into 	 sa
+msg.word	: cleared	: nabura
+msg.word	: brightness halved	: hinati ang liwanag
+msg.word	% read	% nabasa
+msg.word	 rows	 linya
+msg.word	 -- not supported yet (FAT / exFAT / NTFS only)	 -- hindi pa suportado (FAT / exFAT / NTFS lang)
+msg.word	 files	 file
+msg.word	 (	 (
+msg.phrase	Untitled	Walang pamagat
+msg.phrase	1 File	1 File
+msg.phrase	2 Edit	2 Edit
+msg.phrase	3 Graph	3 Graph
+msg.phrase	4 Sheet	4 Sheet
+msg.phrase	5 Help	5 Tulong
+msg.phrase	EMPTY	WALANG LAMAN
+msg.phrase	NUMBER	NUMERO
+msg.phrase	TEXT	TEKSTO
+msg.phrase	FORMULA	FORMULA
+msg.phrase	Type to enter, F2 to edit, F1 for help	Mag-type para maglagay, F2 para mag-edit, F1 para sa tulong
+msg.phrase	Ready	Handa
+msg.phrase	Press any key	Pindutin ang anumang key
+msg.phrase	Y = yes    N = no    Esc = cancel	Y = oo    N = hindi    Esc = kanselahin
+msg.phrase	Enter = OK    Esc = cancel    Ctrl-U = clear	Enter = OK    Esc = kanselahin    Ctrl-U = burahin
+msg.phrase	First row/column = labels; charts use the 640x480 CLUT8 FB.	Unang hanay/linya = label; gumagamit ang chart ng 640x480 CLUT8 FB.
+msg.phrase	SGCALC - HELP	SGCALC - TULONG
+msg.phrase	Press any key to return	Pindutin ang anumang key para bumalik
+msg.phrase	Press any key to return.	Pindutin ang anumang key para bumalik.
+msg.phrase	ABOUT SGCALC	TUNGKOL SA SGCALC
+msg.phrase	New	Bago
+msg.phrase	Start a new sheet	Magsimula ng bagong sheet
+msg.phrase	Open...	Buksan...
+msg.phrase	Open an ODS, FODS or CSV file	Buksan ang ODS, FODS o CSV na file
+msg.phrase	Save	I-save
+msg.phrase	Save the current file	I-save ang kasalukuyang file
+msg.phrase	Save As...	I-save bilang...
+msg.phrase	Save with a new name or format	I-save sa bagong pangalan o format
+msg.phrase	Export CSV...	I-export ang CSV...
+msg.phrase	Write a CSV copy	Sumulat ng kopyang CSV
+msg.phrase	Export ODS...	I-export ang ODS...
+msg.phrase	Write a LibreOffice copy	Sumulat ng kopyang LibreOffice
+msg.phrase	Quit	Lumabas
+msg.phrase	Leave SGCALC	Umalis sa SGCALC
+msg.phrase	Clear	Burahin
+msg.phrase	Clear the selected cells	Burahin ang mga napiling cell
+msg.phrase	Copy	Kopyahin
+msg.phrase	Copy the selection	Kopyahin ang napili
+msg.phrase	Paste	I-paste
+msg.phrase	Paste at the cursor	I-paste sa cursor
+msg.phrase	Cut	I-cut
+msg.phrase	Copy and clear the selection	Kopyahin at burahin ang napili
+msg.phrase	Select all	Piliin lahat
+msg.phrase	Select all used cells	Piliin ang lahat ng ginamit na cell
+msg.phrase	Text color...	Kulay ng teksto...
+msg.phrase	Choose the text colour	Piliin ang kulay ng teksto
+msg.phrase	Background...	Background...
+msg.phrase	Choose the cell background	Piliin ang background ng cell
+msg.phrase	Line	Linya
+msg.phrase	Draw a line graph from the selection	Gumuhit ng line graph mula sa napili
+msg.phrase	Bar	Bar
+msg.phrase	Draw a bar graph from the selection	Gumuhit ng bar graph mula sa napili
+msg.phrase	Mixed	Halo
+msg.phrase	Bars for the first series, lines for the rest	Bar para sa unang serye, linya para sa iba
+msg.phrase	Pie	Pie
+msg.phrase	Draw a pie graph from the selection	Gumuhit ng pie graph mula sa napili
+msg.phrase	Range...	Saklaw...
+msg.phrase	Set the graph range explicitly	Itakda nang tahasan ang saklaw ng graph
+msg.phrase	Draw again	Iguhit muli
+msg.phrase	Redraw the last graph	Iguhit muli ang huling graph
+msg.phrase	Goto...	Pumunta...
+msg.phrase	Jump to a cell (for example C12)	Tumalon sa cell (halimbawa C12)
+msg.phrase	Column width...	Lapad ng hanay...
+msg.phrase	Change the selected columns' width	Baguhin ang lapad ng mga napiling hanay
+msg.phrase	Row height...	Taas ng linya...
+msg.phrase	Change the selected rows' height	Baguhin ang taas ng mga napiling linya
+msg.phrase	Auto fit	Auto fit
+msg.phrase	Fit widths/heights to the contents (F7)	Iangkop ang lapad/taas sa laman (F7)
+msg.phrase	Recalculate	Kalkulahin muli
+msg.phrase	Re-evaluate all formulas	Suriin muli ang lahat ng formula
+msg.phrase	Erase all	Burahin lahat
+msg.phrase	Clear the whole sheet	Burahin ang buong sheet
+msg.phrase	Keys	Mga key
+msg.phrase	Show the key guide	Ipakita ang gabay ng mga key
+msg.phrase	About	Tungkol
+msg.phrase	About SGCALC	Tungkol sa SGCALC
+msg.phrase	File	File
+msg.phrase	Edit	Edit
+msg.phrase	Graph	Graph
+msg.phrase	Sheet	Sheet
+msg.phrase	Help	Tulong
+msg.phrase	File: new, open, save, export, quit	File: bago, buksan, i-save, i-export, lumabas
+msg.phrase	Edit: clear, copy, paste, cut, select all	Edit: burahin, kopyahin, i-paste, i-cut, piliin lahat
+msg.phrase	Graph: line, bar, mixed, pie (draws in the FB)	Graph: linya, bar, halo, pie (iginuguhit sa FB)
+msg.phrase	Sheet: goto, column width, recalculate, erase	Sheet: pumunta, lapad ng hanay, kalkulahin muli, burahin
+msg.phrase	Help: keys and about	Tulong: mga key at tungkol
+msg.phrase	Left/Right = menu    Up/Down = item    Enter = choose    Esc = cancel	Kaliwa/Kanan = menu    Taas/Baba = item    Enter = piliin    Esc = kanselahin
+msg.phrase	Cancelled	Kinansela
+msg.phrase	The selection is too large or memory is low.	Masyadong malaki ang napili o kulang ang memorya.
+msg.phrase	the cell	ang cell
+msg.phrase	the selection	ang napili
+msg.phrase	Nothing to paste	Walang ipe-paste
+msg.phrase	Pasted	Na-paste
+msg.phrase	GO TO CELL	PUMUNTA SA CELL
+msg.phrase	Cell reference (A1):	Reference ng cell (A1):
+msg.phrase	Goto	Pumunta
+msg.phrase	COLUMN WIDTH	LAPAD NG HANAY
+msg.phrase	Width in characters (4..30):	Lapad sa titik (4..30):
+msg.phrase	ROW HEIGHT	TAAS NG LINYA
+msg.phrase	Height in text rows (1..8):	Taas sa linya ng teksto (1..8):
+msg.phrase	Auto fit: the sheet is empty	Auto fit: walang laman ang sheet
+msg.phrase	BACKGROUND COLOUR	KULAY NG BACKGROUND
+msg.phrase	TEXT COLOUR	KULAY NG TEKSTO
+msg.phrase	Arrows: choose    Enter: apply    Esc: cancel	Arrow: pumili    Enter: ilapat    Esc: kanselahin
+msg.phrase	Colour index (PC-98 16-colour palette)	Index ng kulay (16-kulay na palette ng PC-98)
+msg.phrase	Enter = apply    Esc = cancel	Enter = ilapat    Esc = kanselahin
+msg.phrase	Colour	Kulay
+msg.phrase	Background	Background
+msg.phrase	Text	Teksto
+msg.phrase	GRAPH RANGE	SAKLAW NG GRAPH
+msg.phrase	Range (for example A1:C10):	Saklaw (halimbawa A1:C10):
+msg.phrase	Graph range	Saklaw ng graph
+msg.phrase	Use a range such as A1:C10.	Gumamit ng saklaw gaya ng A1:C10.
+msg.phrase	Cannot draw the graph.	Hindi maiguhit ang graph.
+msg.phrase	line	linya
+msg.phrase	bar	bar
+msg.phrase	mixed	halo
+msg.phrase	pie	pie
+msg.phrase	Clear every cell in this sheet?	Burahin ang bawat cell sa sheet na ito?
+msg.phrase	Sheet erased	Nabura ang sheet
+msg.phrase	Selected all used cells	Napili ang lahat ng ginamit na cell
+msg.phrase	Recalculated	Nakalkula muli
+msg.phrase	Memory	Memorya
+msg.phrase	Not enough PSRAM for the spreadsheet.	Kulang ang PSRAM para sa spreadsheet.
+msg.phrase	The sheet is empty.	Walang laman ang sheet.
+msg.phrase	No numeric data in the selected range.	Walang numerong datos sa napiling saklaw.
+msg.phrase	Other	Iba pa
+msg.phrase	No positive values for a pie chart	Walang positibong halaga para sa pie chart
+msg.phrase	LINE	LINYA
+msg.phrase	BAR	BAR
+msg.phrase	MIXED	HALO
+msg.phrase	PIE	PIE
+msg.phrase	Folder	Folder
+msg.phrase	SAVE AS	I-SAVE BILANG
+msg.phrase	OPEN FILE	BUKSAN ANG FILE
+msg.phrase	Name:	Pangalan:
+msg.phrase	(type a name, or choose below)	(mag-type ng pangalan, o pumili sa ibaba)
+msg.phrase	Name	Pangalan
+msg.phrase	Size	Laki
+msg.phrase	Enter=save  Left=up  Right/Enter on [DIR]=open  Tab=drive  Esc=cancel	Enter=i-save  Kaliwa=taas  Kanan/Enter sa [DIR]=buksan  Tab=drive  Esc=kanselahin
+msg.phrase	Enter=open  Left=up  Right/Enter on [DIR]=open  Tab=drive  Esc=cancel	Enter=buksan  Kaliwa=taas  Kanan/Enter sa [DIR]=buksan  Tab=drive  Esc=kanselahin
+msg.phrase	Not enough memory.	Kulang ang memorya.
+msg.phrase	Overwrite	I-overwrite
+msg.phrase	Open	Buksan
+msg.phrase	The file is too large (limit 8 MB).	Masyadong malaki ang file (limit 8 MB).
+msg.phrase	Not enough memory to read the file.	Kulang ang memorya para basahin ang file.
+msg.phrase	Bad ZIP/ODS data.	Sirang datos ng ZIP/ODS.
+msg.phrase	CRC error in the ODS file.	CRC error sa ODS file.
+msg.phrase	Unsupported or damaged file.	Hindi suportado o sirang file.
+msg.phrase	Saved	Na-save
+msg.phrase	Exported	Na-export
+msg.phrase	Unsaved changes	Hindi na-save na pagbabago
+msg.phrase	Save the current sheet before continuing?	I-save ang kasalukuyang sheet bago magpatuloy?
+msg.phrase	New sheet	Bagong sheet
+msg.phrase	song is too large	masyadong malaki ang kanta
+msg.phrase	empty file	walang laman na file
+msg.phrase	not an SGT file	hindi SGT na file
+msg.phrase	bad BPM	maling BPM
+msg.phrase	bad speed	maling bilis
+msg.phrase	bad title length	maling haba ng pamagat
+msg.phrase	truncated title	putol na pamagat
+msg.phrase	bad character in title	maling titik sa pamagat
+msg.phrase	truncated order	putol na order
+msg.phrase	bad order length	maling haba ng order
+msg.phrase	bad pattern number in order	maling numero ng pattern sa order
+msg.phrase	truncated pattern list	putol na listahan ng pattern
+msg.phrase	bad pattern count	maling bilang ng pattern
+msg.phrase	bad pattern index	maling index ng pattern
+msg.phrase	duplicate pattern	dobleng pattern
+msg.phrase	truncated pattern data	putol na datos ng pattern
+msg.phrase	invalid pattern data	hindi wastong datos ng pattern
+msg.phrase	trailing data in file	may sobrang datos sa dulo ng file
+msg.phrase	order refers to a missing pattern	tumutukoy ang order sa wala nang pattern
+msg.phrase	(untitled)	(walang pamagat)
+msg.phrase	Ready. Press F1 for help.	Handa. Pindutin ang F1 para sa tulong.
+msg.phrase	Follow OFF	Follow OFF
+msg.phrase	Nothing to undo	Walang ia-undo
+msg.phrase	Undo	Undo
+msg.phrase	Note OFF	Note OFF
+msg.phrase	Set an effect letter first	Magtakda muna ng titik ng effect
+msg.phrase	Effect cleared	Nabura ang effect
+msg.phrase	Parameter cleared	Nabura ang parameter
+msg.phrase	Note cleared	Nabura ang nota
+msg.phrase	Instrument cleared	Nabura ang instrumento
+msg.phrase	Volume cleared	Nabura ang volume
+msg.phrase	Order list is full	Puno na ang listahan ng order
+msg.phrase	Order inserted	Naisingit ang order
+msg.phrase	Cannot delete the last order	Hindi mabura ang huling order
+msg.phrase	Order deleted	Nabura ang order
+msg.phrase	Playing song	Tinutugtog ang kanta
+msg.phrase	Stopped	Huminto
+msg.phrase	New song	Bagong kanta
+msg.phrase	Discard unsaved changes and start a new song? (Y/N)	Itapon ang hindi na-save na pagbabago at magsimula ng bagong kanta? (Y/N)
+msg.phrase	Discard unsaved changes and open a song? (Y/N)	Itapon ang hindi na-save na pagbabago at magbukas ng kanta? (Y/N)
+msg.phrase	Discard unsaved changes and quit? (Y/N)	Itapon ang hindi na-save na pagbabago at lumabas? (Y/N)
+msg.phrase	Song settings updated	Na-update ang setting ng kanta
+msg.phrase	Filename is empty	Walang laman ang pangalan ng file
+msg.phrase	Save cancelled	Kinansela ang pag-save
+msg.phrase	Open cancelled	Kinansela ang pagbukas
+msg.phrase	Edit ON	Edit ON
+msg.phrase	Edit OFF	Edit OFF
+msg.phrase	Follow ON	Follow ON
+msg.phrase	Edit is OFF. Press F8 to edit.	Naka-OFF ang edit. Pindutin ang F8 para mag-edit.
+msg.phrase	I/O error	Error sa I/O
+msg.phrase	file is too large	masyadong malaki ang file
+msg.phrase	truncated file	putol na file
+msg.phrase	#TRANSPORT AND FILES	#PAGTUGTOG AT MGA FILE
+msg.phrase	#ORDER LIST	#LISTAHAN NG ORDER
+msg.phrase	#DISPLAY	#DISPLAY
+msg.phrase	#EDITING	#PAG-EDIT
+msg.phrase	#EFFECTS (parameter is hexadecimal)	#MGA EFFECT (hexadecimal ang parameter)
+msg.phrase	LEFT/RIGHT PAGE   ENTER OR F1 CLOSE	KALIWA/KANAN PAHINA   ENTER O F1 ISARA
+msg.phrase	SONG SETTINGS	SETTING NG KANTA
+msg.phrase	UP/DOWN SELECT   LEFT/RIGHT ADJUST   ENTER/F2 CLOSE	TAAS/BABA PUMILI   KALIWA/KANAN AYUSIN   ENTER/F2 ISARA
+msg.phrase	Type to edit the title. Backspace deletes the last character.	Mag-type para i-edit ang pamagat. Binubura ng Backspace ang huling titik.
+msg.phrase	BPM range 32..255. Speed range 1..31.	BPM 32..255. Bilis 1..31.
+msg.phrase	Pattern effects can also change speed and BPM while playing.	Kaya ring baguhin ng pattern effect ang bilis at BPM habang tumutugtog.
+msg.phrase	INSTRUMENTS	MGA INSTRUMENTO
+msg.phrase	UP/DOWN SELECT   SPACE PREVIEW   ENTER USE   F3 CLOSE	TAAS/BABA PUMILI   SPACE PAKINGGAN   ENTER GAMITIN   F3 ISARA
+msg.phrase	All four channels use wavetable synthesis.	Lahat ng apat na channel ay gumagamit ng wavetable synthesis.
+msg.phrase	Preview plays C-4 on the track under the edit cursor.	Tinutugtog ng preview ang C-4 sa track sa ilalim ng edit cursor.
+msg.phrase	SAVE SONG AS	I-SAVE ANG KANTA BILANG
+msg.phrase	ENTER SAVE   F4 OR CTRL-C CANCEL	ENTER I-SAVE   F4 O CTRL-C KANSELAHIN
+msg.phrase	Directory:	Folder:
+msg.phrase	File name:	Pangalan ng file:
+msg.phrase	The extension .SGT is added automatically.	Awtomatikong idinadagdag ang extension na .SGT.
+msg.phrase	An existing file can be overwritten.	Maaaring i-overwrite ang umiiral na file.
+msg.phrase	OPEN SONG	BUKSAN ANG KANTA
+msg.phrase	ENTER OPEN  BS PARENT  CTRL-O/CTRL-C CANCEL	ENTER BUKSAN  BS PATAAS  CTRL-O/CTRL-C KANSELAHIN
+msg.phrase	(no .SGT files in this folder)	(walang .SGT na file sa folder na ito)
+msg.phrase	CONFIRM	KUMPIRMAHIN
+msg.phrase	Y = YES   N / ENTER / CTRL-C = NO	Y = OO   N / ENTER / CTRL-C = HINDI
+msg.phrase	Y = yes        N = no	Y = oo        N = hindi
+msg.phrase	broken MThd	sirang MThd
+msg.phrase	MIDI IMPORT	MIDI IMPORT
+msg.phrase	broken delta time	sirang delta time
+msg.phrase	broken running status	sirang running status
+msg.phrase	broken meta event	sirang meta event
+msg.phrase	broken sysex event	sirang sysex event
+msg.phrase	broken channel event	sirang channel event
+msg.phrase	SMF output is too small	masyadong maliit ang SMF output
+msg.phrase	SMF output is too large	masyadong malaki ang SMF output
+msg.phrase	the song is too long for SMF	masyadong mahaba ang kanta para sa SMF
+msg.phrase	ARROWS      move the cell cursor\n	ARROW       ilipat ang cursor ng cell\n
+msg.phrase	SHIFT+ARR   extend the selection (for graphs/copy)\n	SHIFT+ARR   palawakin ang napili (para sa graph/kopya)\n
+msg.phrase	ENTER       edit the cell; in edit, commit and move down\n	ENTER       i-edit ang cell; habang nag-e-edit, kumpirmahin at bumaba\n
+msg.phrase	TAB         next cell    SHIFT+TAB  previous cell\n	TAB         susunod na cell    SHIFT+TAB  nakaraang cell\n
+msg.phrase	DELETE      clear the selected cell(s)    ESC  cancel\n	DELETE      burahin ang napiling cell    ESC  kanselahin\n
+msg.phrase	PGUP/PGDN   move one screen    HOME/END  first/last column\n	PGUP/PGDN   isang screen    HOME/END  una/huling hanay\n
+msg.phrase	CTRL+HOME   A1    CTRL+END  last used cell\n	CTRL+HOME   A1    CTRL+END  huling ginamit na cell\n
+msg.phrase	F1 help  F2 edit  F3 copy  F4 paste  F5 goto  F6 colour\n	F1 tulong  F2 edit  F3 kopya  F4 paste  F5 punta  F6 kulay\n
+msg.phrase	F7 auto-fit  F8 background  F9 recalc  F10 graph  F11 save  F12 menu\n	F7 auto-fit  F8 background  F9 kalkula  F10 graph  F11 save  F12 menu\n
+msg.phrase	SHIFT+F1 about  SHIFT+F2 row height  SHIFT+F3 column width\n	SHIFT+F1 tungkol  SHIFT+F2 taas ng linya  SHIFT+F3 lapad ng hanay\n
+msg.phrase	SHIFT+F4 select all  SHIFT+F10 graph range  SHIFT+F11 save as\n	SHIFT+F4 piliin lahat  SHIFT+F10 saklaw ng graph  SHIFT+F11 save bilang\n
+msg.phrase	CTRL+F1 new  CTRL+F2 open  CTRL+F3 save  CTRL+F4 save as\n	CTRL+F1 bago  CTRL+F2 buksan  CTRL+F3 save  CTRL+F4 save bilang\n
+msg.phrase	CTRL+F5 export CSV  CTRL+F6 export ODS  ALT+F12 quit\n	CTRL+F5 export CSV  CTRL+F6 export ODS  ALT+F12 lumabas\n
+msg.phrase	Bottom 2 lines: function keys; [SHIFT]/[CTRL]/[ALT] like the filer\n	Huling 2 linya: function key; [SHIFT]/[CTRL]/[ALT] gaya ng filer\n
+msg.phrase	CTRL+S save  CTRL+O open  CTRL+N new  CTRL+C/V/X copy/paste/cut\n	CTRL+S save  CTRL+O buksan  CTRL+N bago  CTRL+C/V/X kopya/paste/cut\n
+msg.phrase	CTRL+G goto    /  open the menu (1 File, 2 Edit, ...)\n	CTRL+G punta    /  buksan ang menu (1 File, 2 Edit, ...)\n
+msg.phrase	Built-in functions: SUM AVERAGE MIN MAX COUNT COUNTA\n	Built-in na function: SUM AVERAGE MIN MAX COUNT COUNTA\n
+msg.phrase	Cell refs: A1, $A$1, A1:B10.  Formulas begin with '='.\n	Reference ng cell: A1, $A$1, A1:B10.  Nagsisimula sa '=' ang formula.\n
+msg.phrase	Files: .ods (LibreOffice), .fods (flat XML), .csv\n	File: .ods (LibreOffice), .fods (flat XML), .csv\n
+msg.phrase	ODS/FODS keeps formulas, widths, heights and colours.\n	Pinapanatili ng ODS/FODS ang formula, lapad, taas at kulay.\n
+msg.phrase	CSV keeps values and formulas (no colours/heights).\n	Pinapanatili ng CSV ang halaga at formula (walang kulay/taas).\n
+msg.phrase	Graph: select a range, press F10, and choose Line/Bar/Mixed/Pie.\n	Graph: pumili ng saklaw, pindutin ang F10, at piliin ang Linya/Bar/Halo/Pie.\n
+msg.phrase	SGCALC for sgnano\n	SGCALC para sa sgnano\n
+msg.phrase	Version 	Bersyon
+msg.phrase	A Lotus 1-2-3 style spreadsheet as an SGX program.\n\n	Spreadsheet na istilong Lotus 1-2-3 bilang SGX na programa.\n\n
+msg.phrase	Screen mode 3: text + CLUT8 FB (lowres disabled)\n	Screen mode 3: teksto + CLUT8 FB (naka-off ang lowres)\n
+msg.phrase	Sheet: %d rows x %d columns\n	Sheet: %d linya x %d hanay\n
+msg.phrase	Formats: .ods / .fods (LibreOffice), .csv\n\n	Format: .ods / .fods (LibreOffice), .csv\n\n
+msg.phrase	The grid is drawn on the text plane.\n	Iginuguhit ang grid sa text plane.\n
+msg.phrase	Charts and the 640x480 background use the FB.\n\n	Gumagamit ng FB ang chart at ang 640x480 na background.\n\n
+msg.phrase	Cannot store the cell (%d).	Hindi maiimbak ang cell (%d).
+msg.phrase	Copied %d x %d cells	Nakopya ang %d x %d cell
+msg.phrase	Cleared %s	Nabura ang %s
+msg.phrase	'%s' is not a cell reference.	Hindi reference ng cell ang '%s'.
+msg.phrase	Column width = %d	Lapad ng hanay = %d
+msg.phrase	Row height = %d	Taas ng linya = %d
+msg.phrase	Auto fit: %d column(s), %d row(s)	Auto fit: %d hanay, %d linya
+msg.phrase	Cannot apply the colour (%d).	Hindi mailapat ang kulay (%d).
+msg.phrase	Not a valid range.\nUse a range such as A1:C10.	Hindi wastong saklaw.\nGumamit ng saklaw gaya ng A1:C10.
+msg.phrase	Graph range %s	Saklaw ng graph %s
+msg.phrase	Graph: %s	Graph: %s
+msg.phrase	SGCALC: cannot set screen mode 3: %s\n	SGCALC: hindi maitakda ang screen mode 3: %s\n
+msg.phrase	Cannot read %s\n%s	Hindi mabasa ang %s\n%s
+msg.phrase	Folder: %s	Folder: %s
+msg.phrase	Unsupported extension.\nUse .csv, .ods or .fods.	Hindi suportadong extension.\nGumamit ng .csv, .ods o .fods.
+msg.phrase	%s already exists.\nOverwrite it?	Mayroon nang %s.\nI-overwrite?
+msg.phrase	%s may not be writable.\nTry anyway?	Maaaring hindi masulatan ang %s.\nSubukan pa rin?
+msg.phrase	Unknown file type for %s	Hindi kilalang uri ng file para sa %s
+msg.phrase	Unsupported file type.\nUse .csv, .ods or .fods.	Hindi suportadong uri ng file.\nGumamit ng .csv, .ods o .fods.
+msg.phrase	Cannot open %s\n%s	Hindi mabuksan ang %s\n%s
+msg.phrase	%s is a folder.	Folder ang %s.
+msg.phrase	Cannot import %s\n%s	Hindi ma-import ang %s\n%s
+msg.phrase	Loaded %s	Na-load ang %s
+msg.phrase	Cannot build the %s file.	Hindi mabuo ang %s na file.
+msg.phrase	Cannot write %s\n%s	Hindi maisulat ang %s\n%s
+msg.phrase	unsupported version %u	hindi suportadong bersyon %u
+msg.phrase	Octave %d	Octave %d
+msg.phrase	Note %s	Nota %s
+msg.phrase	Instrument %d	Instrumento %d
+msg.phrase	Volume %s	Volume %s
+msg.phrase	Effect %c	Effect %c
+msg.phrase	Parameter %s	Parameter %s
+msg.phrase	Pattern %s	Pattern %s
+msg.phrase	Playing pattern %s	Tinutugtog ang pattern %s
+msg.phrase	SAVE ERROR: %s	ERROR SA SAVE: %s
+msg.phrase	Saved %s	Na-save ang %s
+msg.phrase	LOAD ERROR: %s	ERROR SA LOAD: %s
+msg.phrase	BPM %d	BPM %d
+msg.phrase	Speed %d	Bilis %d
+msg.phrase	Preview %s	Preview %s
+msg.phrase	Instrument %s %s	Instrumento %s %s
+msg.phrase	Overwrite %s? (Y/N)	I-overwrite ang %s? (Y/N)
+msg.phrase	  F5          Play the song from the current order	  F5          Tugtugin ang kanta mula sa kasalukuyang order
+msg.phrase	  F6          Play the current pattern	  F6          Tugtugin ang kasalukuyang pattern
+msg.phrase	  F7/Ctrl-C   Stop playback	  F7/Ctrl-C   Ihinto ang pagtugtog
+msg.phrase	  Space       Play / stop	  Space       Tugtog / hinto
+msg.phrase	  F4          Save as	  F4          I-save bilang
+msg.phrase	  Ctrl-S      Save (asks for a name if new)	  Ctrl-S      I-save (nagtatanong ng pangalan kung bago)
+msg.phrase	  Ctrl-O      Open a song	  Ctrl-O      Magbukas ng kanta
+msg.phrase	  Ctrl-N      New song	  Ctrl-N      Bagong kanta
+msg.phrase	  F12         Quit (confirmation if modified)	  F12         Lumabas (nagkukumpirma kung binago)
+msg.phrase	  [ ]         Previous / next order entry	  [ ]         Nakaraan / susunod na order entry
+msg.phrase	  { }         Insert / delete an order entry	  { }         Magsingit / magbura ng order entry
+msg.phrase	  - +         Change the pattern in the entry	  - +         Palitan ang pattern sa entry
+msg.phrase	  F11         Follow playback (turns off on manual move)	  F11         Sundan ang pagtugtog (naka-off kapag ginalaw nang manu-mano)
+msg.phrase	  F1          Help; Left/Right changes page	  F1          Tulong; Kaliwa/Kanan pinapalitan ang pahina
+msg.phrase	  F8          Toggle edit mode	  F8          I-toggle ang edit mode
+msg.phrase	  Arrows      Move the cursor	  Arrow       Ilipat ang cursor
+msg.phrase	  PgUp/PgDn   Jump 16 rows	  PgUp/PgDn   Tumalon ng 16 linya
+msg.phrase	  Home/End    First / last row	  Home/End    Una / huling linya
+msg.phrase	  F9/F10      Octave down / up	  F9/F10      Octave baba / taas
+msg.phrase	  Z S X D C V G B H N J M      lower piano row	  Z S X D C V G B H N J M      mababang hanay ng piano
+msg.phrase	  Q 2 W 3 E R 5 T 6 Y 7 U      upper piano row	  Q 2 W 3 E R 5 T 6 Y 7 U      mataas na hanay ng piano
+msg.phrase	  1           Note off	  1           Note off
+msg.phrase	  0 / Del     0 clears note/inst/fx; Del clears any	  0 / Del     0 binubura ang nota/inst/fx; Del binubura kahit ano
+msg.phrase	  Ctrl-Z      Undo the last pattern/order edit	  Ctrl-Z      I-undo ang huling edit ng pattern/order
+msg.phrase	  Axy   Volume slide: up x, down y	  Axy   Volume slide: taas x, baba y
+msg.phrase	  Cxx   Note cut after xx ticks	  Cxx   Putulin ang nota pagkatapos ng xx tick
+msg.phrase	  Dxx   Set volume (00..7F)	  Dxx   Itakda ang volume (00..7F)
+msg.phrase	  Fxx   Speed if xx < 20, otherwise BPM	  Fxx   Bilis kung xx < 20, kung hindi BPM
+msg.phrase	  Hxy   Arpeggio x, y semitones	  Hxy   Arpeggio x, y semitone
+msg.phrase	  Pxx   Pitch slide up	  Pxx   Pitch slide pataas
+msg.phrase	  Qxx   Pitch slide down	  Qxx   Pitch slide pababa
+msg.phrase	  F2 song settings, F3 instrument list	  F2 setting ng kanta, F3 listahan ng instrumento
+msg.phrase	HELP %d/2	TULONG %d/2
+msg.phrase	  Title	  Pamagat
+msg.phrase	  BPM   : %d     (left/right -1/+1, -/+ -5/+5)	  BPM   : %d     (kaliwa/kanan -1/+1, -/+ -5/+5)
+msg.phrase	  Speed : %d ticks/row	  Bilis : %d tick/linya
+msg.phrase	  Rows  : %d (fixed)	  Linya : %d (nakapirmi)
+msg.phrase	  Order : %d entries	  Order : %d entry
+msg.phrase	  Patterns in use : %d	  Pattern na ginagamit : %d
+msg.phrase	Current instrument: %s %s	Kasalukuyang instrumento: %s %s
+msg.phrase	Files: %d	File: %d
+msg.phrase	SGNO TRACKER: incompatible SGX ABI\n	SGNO TRACKER: hindi tugmang SGX ABI\n
+msg.phrase	S: check: wait -- a file is being read or written	Suri ng S:: sandali -- may binabasa o isinusulat na file
+msg.phrase	S: check: the drive is busy or not ready	Suri ng S:: abala o hindi handa ang drive
+msg.phrase	nothing for this item (ContextMenu.cfg)	walang aksyon para sa item na ito (ContextMenu.cfg)
+msg.phrase	bad command in ContextMenu.cfg	maling utos sa ContextMenu.cfg
+msg.phrase	unknown action in ContextMenu.cfg	hindi kilalang aksyon sa ContextMenu.cfg
+msg.prefix	menu	menu
+msg.phrase	5 Macro	5 Macro
+msg.phrase	6 Help	6 Tulong
+msg.phrase	Run current	Patakbuhin ang kasalukuyan
+msg.phrase	Run the macro at the cursor (#! header cell and the cells below it)	Patakbuhin ang macro sa cursor (header cell na #! at mga cell sa ilalim)
+msg.phrase	Run selection	Patakbuhin ang napili
+msg.phrase	Run the selected cells as one macro (top-left cell is the #! header)	Patakbuhin ang mga napiling cell bilang isang macro (ang kaliwang-itaas na cell ang header na #!)
+msg.phrase	Run all	Patakbuhin lahat
+msg.phrase	Run every macro in the sheet, top-left to bottom-right	Patakbuhin ang bawat macro sa sheet, mula kaliwang-itaas hanggang kanang-ibaba
+msg.phrase	Last error	Huling error
+msg.phrase	Show the last macro error	Ipakita ang huling error ng macro
+msg.phrase	Macro	Macro
+msg.phrase	Macro: run #!ruby / #!python / #!basic cells	Macro: patakbuhin ang mga cell na #!ruby / #!python / #!basic
+msg.phrase	Edit the cell (F2)	I-edit ang cell (F2)
+msg.phrase	Fit widths/heights to the contents	Iangkop ang lapad/taas sa laman
+msg.phrase	Last macro error	Huling error ng macro
+msg.phrase	No macro error.	Walang error ng macro.
+msg.phrase	IME on	IME on
+msg.phrase	IME off	IME off
+msg.phrase	Macro: %s %s ...	Macro: %s %s ...
+msg.phrase	%s: this firmware cannot run macros (SGX ABI 5.10 or later)	%s: hindi kayang patakbuhin ng firmware na ito ang macro (SGX ABI 5.10 o mas bago)
+msg.phrase	Macro error: %s	Error ng macro: %s
+msg.phrase	Macro: %s done	Macro: tapos ang %s
+msg.phrase	a macro is already running	may macro nang tumatakbo
+msg.phrase	this language is not available	hindi available ang wikang ito
+msg.phrase	not enough memory	kulang ang memorya
+msg.phrase	the macro stopped with an error	huminto ang macro dahil sa error
+msg.phrase	Macro error %s: %s	Error ng macro %s: %s
+msg.phrase	Macro: not enough memory	Macro: kulang ang memorya
+msg.phrase	Macro: the cursor is not on a macro (a #!ruby / #!python / #!basic cell or the cells below it)	Macro: wala sa macro ang cursor (cell na #!ruby / #!python / #!basic o mga cell sa ilalim)
+msg.phrase	Macro: no macro in the sheet	Macro: walang macro sa sheet
+msg.phrase	Run all macros	Patakbuhin ang lahat ng macro
+msg.phrase	Macros: %d. Run them all, top-left to bottom-right? Changes cannot be undone.	Mga macro: %d. Patakbuhin lahat, mula kaliwang-itaas hanggang kanang-ibaba? Hindi na maibabalik.
+msg.phrase	Macro: %d of %d done	Macro: tapos ang %d sa %d
+msg.phrase	Cleared the cell	Nabura ang cell
+msg.phrase	Cleared the selection	Nabura ang napili
+msg.phrase	Background colour = %d	Kulay ng background = %d
+msg.phrase	Text colour = %d	Kulay ng teksto = %d
+msg.phrase	Graph: line	Graph: linya
+msg.phrase	Graph: bar	Graph: bar
+msg.phrase	Graph: mixed	Graph: halo
+msg.phrase	Graph: pie	Graph: pie
+msg.phrase	Exported %s	Na-export ang %s
+msg.phrase	choose a file or folder	pumili ng file o folder
+msg.phrase	this drive cannot be written	hindi masusulatan ang drive na ito
+msg.phrase	an archive job is already running	may tumatakbo nang gawain sa archive
+msg.phrase	no PSRAM for the archive task	walang PSRAM para sa gawain sa archive
+msg.phrase	could not start the archive task	hindi masimulan ang gawain sa archive
+msg.phrase	too many items (32 at most)	masyadong maraming item (hanggang 32)
+msg.phrase	nothing to compress	walang i-compress
+msg.phrase	no name (or the name has / or \\)	walang pangalan (o may / o \\ ang pangalan)
+msg.phrase	32 items at most (mark fewer, or put them in a folder)	hanggang 32 item lang (magmarka ng mas kaunti o ilagay sa isang folder)
+msg.prefix	archive	archive
+msg.prefix	compress	i-compress
+msg.prefix	render	i-export ang WAV

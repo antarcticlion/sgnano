@@ -1,0 +1,1162 @@
+# sgnano filer strings: Català (2026-11-17). ui <TAB> Japanese <TAB> translation / msg.* <TAB> English <TAB> translation
+# status: unreviewed (machine translation, not checked by a native speaker; 2026-11-17). 未検証: ネイティブの確認をしていない仮の訳
+@lang ca
+@name Català
+ui	一覧（ファイルとフォルダを 2 列 x 19 行に並べる）	Llista (fitxers i carpetes en 2 columnes x 19 files)
+ui	カーソルを動かす（左右は隣の列へ）	Mou el cursor (esquerra / dreta: l'altra columna)
+ui	前のページ / 次のページ	Pàgina anterior / pàgina següent
+ui	全部に印 / 印を反転（PC-98 FD と同じ）	Marca-ho tot / inverteix les marques (com a PC-98 FD)
+ui	先頭 / 最後	Primer/últim
+ui	印を付けて次へ / 印だけ付ける	Marca i segueix endavant / marca només
+ui	Shift+矢印	Maj+Fletxes
+ui	範囲を選ぶ（Space でその範囲に印）	Seleccioneu un interval (l'espai marca l'interval)
+ui	フォルダに入る・ファイルを開く（F2/X は実行）	Introduïu una carpeta / obriu un fitxer (execució F2/X)
+ui	上のフォルダへ	Fins a la carpeta principal
+ui	ドライブを選ぶ（USB・フロッピー・CD・S: 内蔵）	Trieu una unitat (USB, disquet, CD, S: integrat)
+ui	コピー（Shift+C / Shift+F3 は行き先を木から）	Còpia (Maj+C / Maj+F3 tria la destinació de l'arbre)
+ui	移動	Mou-te
+ui	削除（Shift+D / Shift+F4 はフォルダ削除）	Suprimeix (Maj+D / Maj+F4 suprimeix una carpeta)
+ui	名前を変える	Canvia el nom
+ui	属性を変える	Canvia els atributs
+ui	エディタで開く	Obre a l'editor
+ui	テキスト表示（Shift+V / Ctrl+Alt+F7 は 16 進）	Mostra com a text (Maj+V/Ctrl+Alt+F7 hexadecimal)
+ui	ドライブの情報	Informació de la unitat
+ui	フォルダを作る / 新しいファイル	Carpeta nova / fitxer nou
+ui	シェル sgsh / 媒体を取り出す	Shell sgsh / expulsar el mitjà
+ui	読み直す	Torna a carregar
+ui	見えている画面を PNG で保存	Desa la pantalla com a PNG
+ui	窓を閉じる・選択を解く（サブフォルダでは上位へ）	Tanca la finestra / esborra la selecció (en una subcarpeta: puja)
+ui	ファイルの操作（FD と同じ。印・範囲・カーソルの順に選ぶ）	Operacions amb fitxers (com a FD: marques, després l'interval i després el cursor)
+ui	コピー: 行き先はドライブとフォルダの木から。ESC で止める	Còpia: trieu la destinació de l'arbre de la unitat i de la carpete. L'ESC s'atura
+ui	削除: y で確かめる。印・範囲をまとめて。フォルダは中身ごと	Eliminar: confirmar amb y. Marques i rangs alhora. Carpetes amb el seu contingut
+ui	フォルダを削除（中身ごと）	Suprimir una carpeta (amb el seu contingut)
+ui	名前を変える（今の名前を直して Enter）	Canvia el nom (editar el nom, Enter)
+ui	属性: R 読み出し専用・H 隠し・S システム・A アーカイブ	Atributs: R només de lectura, H ocult, S sistema, A arxiu
+ui	フォルダを作る	Carpeta nova
+ui	新しいファイル（空）を作る	Fitxer nou (buit).
+ui	テキストで表示（Shift+V / Ctrl+Alt+F7 は 16 進）	Mostra com a text (Maj+V/Ctrl+Alt+F7 hexadecimal)
+ui	シェル sgsh（exit / Ctrl-D でファイラーへ）	Shell sgsh (sortir / Ctrl-D tornar al fitxer)
+ui	選んでいるドライブの素性（INQUIRY・IDENTIFY）	Identitat de la unitat (CONSULTA, IDENTIFICACIÓ)
+ui	FDD・LS-120・CD の媒体を取り出す	Expulsa el medi FDD / LS-120 / CD
+ui	一覧を読み直す（CD は TOC から）	Torna a carregar la llista (CD: de la TOC)
+ui	ZMODEM で PC から受け取る（zm.sh put）	Rebre des del PC per ZMODEM (zm.sh put)
+ui	ZMODEM で PC へ送る（zm.sh get）	Enviar a l'ordinador per ZMODEM (zm.sh get)
+ui	.rb をコンパイルして .mrb を書き出す	Compileu .rb i escriviu .mrb
+ui	Ruby の REPL（1 行ずつ、Ctrl-D / ESC で終わり）	Ruby REPL (una línia a la vegada, Ctrl-D / ESC per acabar)
+ui	MicroPython の REPL	MicroPython REPL
+ui	4MB ずつ分割 / .001 から結合	Divideix en parts de 4 MB/uneix-te des de .001
+ui	分割 / 結合（Ctrl+F11 / F12 と同じ）	Dividir/unir (igual que Ctrl+F11/F12)
+ui	画面（Alt+F。FD の F キーとぶつからない）	Pantalla (Alt+F, no xoca amb les tecles FD F)
+ui	FB（絵）/ テキスト面を出す・隠す	Mostra / amaga el FB (imatge) / el text
+ui	FB の表示ページ（0〜3）	Pàgina de visualització de FB (0-3)
+ui	FB を 0 で消す / 明るさを 1/2 に（RGB555）	Netegeu l'FB a 0 / redueix la seva brillantor a la meitat (RGB555)
+ui	USB のエンドポイントと LAN の状態	Punts finals USB i estat de la LAN
+ui	FB の表示ページを消す / 明るさを 1/2 に	Netegeu la pàgina de visualització de FB / reduïu-ne la brillantor a la meitat
+ui	テキストの属性の見本	Exemples d'atributs de text
+ui	モニタの EDID（起動時に読んだもの）	Monitor EDID (llegit a l'arrencada)
+ui	フォント ROM のライセンスとクレジット	Llicències i crèdits de font ROM
+ui	設定（表示の言語・IME・キーボードロケール）	Configuració (idioma de visualització, IME i configuració regional del teclat)
+ui	時計（NTP で合わせた日本時間。s ですぐ合わせる）	Rellotge (hora del Japó establerta per NTP; ara se sincronitza)
+ui	表計算（SGCALC）を開く	Full de càlcul obert (SGCALC)
+ui	S: ドライブのエラー検査（誤りがあれば直すか聞く）	Comproveu S: si hi ha errors (demana abans de reparar)
+ui	トラッカー（TRACKER）を開く	Obriu TRACKER
+ui	再起動（確かめの窓が出る）	Reinicieu (demana primer)
+ui	ADC のステレオ入力（GP40 / 41）を鳴らす	Reprodueix l'entrada estèreo ADC (GP40/41)
+ui	VGM/VGZ を 96kHz/24bit WAV に書き出す	Exporta VGM/VGZ a un WAV de 96 kHz/24 bits
+ui	このヘルプ	Aquesta ajuda
+ui	ページを替える	Canvia la pàgina
+ui	閉じる	Tancar
+ui	テキスト・16 進のビュアー（less 風）	Visualitzador de text/hexadecimal (com menys)
+ui	1 行	Una línia
+ui	1 ページ	Una pàgina
+ui	半ページ	Mitja pàgina
+ui	探す（前へ・後ろへ）/ 次・前	Cerca (endavant / enrere) / següent / anterior
+ui	一覧へ戻る（F1 はビュアーのヘルプ）	Tornar a la llista (F1: ajuda de l'espectador)
+ui	画像のビュアー	Visor d'imatges
+ui	一覧へ戻る（F2 F3 F6 F7 Shift+F2 F3 は効く）	Tornar a la llista (F2 F3 F6 F7 Maj+F2 F3 funciona)
+ui	エディタ（E / Shift+F8）	Editor (E/Maj+F8)
+ui	保存する（UTF-8。改行と BOM は元のまま）	Desa (UTF-8; els extrems de la línia i la BOM es conserva)
+ui	閉じる（変わっていれば Y / N / ESC）	Tanca (si es modifica: S/N/ESC)
+ui	挿入 / 上書き	Inserir/sobreescriure
+ui	IME（日本語・英語・ハングル）の入・切	IME activat/desactivat (japonès/anglès/coreà)
+ui	IME の言語（日本語 / English / 한국어）	Idioma IME (japonès/anglès/coreà)
+ui	ひらがな / カタカナで確定	Compromís com a hiragana / katakana
+ui	エディタのヘルプ	L'ajuda de l'editor
+ui	シェル	Shell
+ui	シェル（csh のサブセット。exit / Ctrl-D で戻る、help で一覧）	Shell (un subconjunt de csh. Exit / Ctrl-D per tornar, l'ajuda mostra les ordres)
+ui	一覧と移動	Llista i moviment
+ui	ファイルの操作	Operacions de fitxers
+ui	画面と機器	Pantalla i dispositius
+ui	ビュアーとエディタ	Els espectadors i l'editor
+ui	ヘルプ  %u / %u  %s	Ajuda %u / %u %s
+ui	Left Right: ページを替える    F1 / ESC: 閉じる	Esquerra Dreta: canviar la pàgina F1 / ESC: tancar
+ui	sgnano を再起動しますか？	Reiniciar Sgnano?
+ui	[ 再起動 ]	[Reiniciar]
+ui	[ キャンセル ]	[ Cancel·lar ]
+ui	S: ドライブのエラー検査	Comproveu la unitat S: per detectar errors
+ui	ファイル %lu  フォルダ %lu	Fitxers %lu carpetes %lu
+ui	大きさが鎖と合わない	La mida no coincideix amb la cadena
+ui	どこからも使われていないクラスタ	Clústers utilitzats per res
+ui	重なったクラスタ	Clústers entrecreuats
+ui	壊れた項目	Entrades trencades
+ui	FAT の 2 つの写しの食い違い	Les dues còpies FAT difereixen
+ui	エラーはありません。	Sense errors.
+ui	エラーが見つかりました。修復しますか？	S'han trobat errors. Reparar-los?
+ui	修復しました（上は直した数）。	Reparat (els números anteriors es van arreglar).
+ui	検査・修復できませんでした（S: が使用中）。	No s'ha pogut comprovar ni reparar (S: està ocupat).
+ui	[ 修復する ]	[Reparació]
+ui	[ やめる ]	[ Cancel·lar ]
+ui	何かキーで閉じる	Qualsevol clau es tanca
+ui	設定	Configuració
+ui	表示の言語	Idioma de visualització
+ui	キーボードロケール	Localització del teclat
+ui	Up / Down  Enter 決める  ESC やめる	Amunt / Avall Introduïu seleccioneu ESC cancel·la
+ui	表示の言語 (Language)	Idioma de visualització
+ui	Up / Down  Enter 決める  ESC 戻る	Amunt / Avall Entrar: establir ESC: enrere
+ui	%c: をどの文字に固定しますか（A〜Z、S を除く。ESC でやめる）	Corregir %c: com a quina lletra? (A-Z excepte S. ESC cancel·la)
+ui	ドライブ  文字 / Enter 選ぶ  F2 文字を固定・解除  F3 文字を決めて固定  L / ESC やめる	Lletra de la unitat / Introduïu seleccioneu F2 arregla/desfixa la lletra F3 corregeix com... L / ESC cancel·la
+ui	  区画 %u	partició %u
+ui	%c:* （固定・つながっていません）%04X:%04X%s  %s	%c:* (fix, no connectat) %04X:%04X%s %s
+ui	お知らせ	Avís
+ui	ドライブ %c:  %s	Condueix %c: %s
+ui	ドライブ  (なし)	Condueix (cap)
+ui	音楽 CD  %u トラック	CD d'àudio %u pistes
+ui	フォルダ %u  ファイル %u  合計 %s	Carpetes %u fitxers %u total %s
+ui	読んでいます...	Llegint...
+ui	* 印 %u 個  %s	* marcat %u %s
+ui	%lu バイト	%lu bytes
+ui	属性 %s   更新日時 %s   作成日時 %s   %s	Attr %s modificat %s creat %s %s
+ui	日	Sol
+ui	月	Dl
+ui	火	Dt
+ui	水	Dc
+ui	木	Dj
+ui	金	dv
+ui	土	ds
+ui	時計は合わせていません（LAN の NTP）	El rellotge no està configurat (NTP a través de la LAN)
+ui	FB  表示 %u  書込 %u	Mostra FB %u escriure %u
+ui	1 ヘルプ	1 Ajuda
+ui	2 実行	2 Corre
+ui	3 ｺﾋﾟｰ	3 Còpia
+ui	4 削除	4 Del
+ui	5 名前	5 Rename
+ui	7 FB消去	7 FBclr
+ui	8 FB減光	8 FBdim
+ui	9 ﾄﾞﾗｲﾌﾞ	9 Drive
+ui	10 EP表	10 EP
+ui	11 時計	11 Clock
+ui	12 表計	12 CALC
+ui	1 属性	1 Attr
+ui	2 情報	2 Info
+ui	3 移動	3 Move
+ui	5 作成	5 Mkdir
+ui	6 シェル	6 closca
+ui	8 編集	8 Edita
+ui	9 表示	9 Veure
+ui	10S:検査	10 S:chk
+ui	11 ﾄﾗｯｸ	11 PISTA
+ui	12再起動	12Reboot
+ui	1 新規	1 Nou
+ui	2 ﾌｫﾙﾀﾞ	2 Folder
+ui	3 名前	3 Rename
+ui	4 属性	4 Attrib
+ui	6 ｺﾋﾟｰ	6 Còpia
+ui	7 移動	7 Mou-te
+ui	8 削除	8 Delete
+ui	9 編集	9 Edita
+ui	10ｺﾝﾊﾟｲﾙ	10 mrbc
+ui	11 分割	11 Split
+ui	12 結合	12 Join
+ui	1 属性例	1 Atr
+ui	2 FB切替	2 FB
+ui	3 文字面	3 Text
+ui	5 画面写	5 ScrSht
+ui	6 表示頁	6 Pàg
+ui	9 ZM受信	9 ZMrecv
+ui	10ZM送信	10ZMsend
+ui	2 FB消去	2 FBClr
+ui	3 FB減光	3 FBDim
+ui	5 再読込	5 Reload
+ui	7 16進	7 Hex
+ui	9 ﾗｲｾﾝｽ	9 Lic
+ui	8 設定	11 Setup
+ui	時刻を合わせる（日本時間。NTP で合わせられませんでした）	Estableix el rellotge (hora del Japó. NTP no l'ha pogut configurar)
+ui	起動のパラメタ	Executar amb paràmetres
+ui	新しいフォルダ	Carpeta nova
+ui	新しいファイル	Nou fitxer
+ui	時刻:	Hora:
+ui	実行:	Executar:
+ui	名前:	Nom:
+ui	年-月-日 時:分  Enter 合わせる  ESC そのまま	AAAA-MM-DD hh:mm Introduïu el manteniment d'ESC establert
+ui	Enter 走らせる  ←→ 動かす  BS / Del 消す  ESC やめる	Introduïu execució <-> moure BS / Eliminar esborrar ESC cancel·lar
+ui	Enter 変える  ←→ 動かす  BS / Del 消す  ESC やめる	Introduïu canviar el nom <-> moure BS / Eliminar esborrar ESC cancel·lar
+ui	Enter 作る  ←→ 動かす  BS / Del 消す  ESC やめる	Introduïu crear <-> moure BS / Eliminar esborrar ESC cancel·lar
+ui	消す	Suprimeix
+ui	個の項目	elements
+ui	フォルダは中身ごと消します。よろしいですか？	Les carpetes s'eliminen amb el seu contingut. N'estàs segur?
+ui	このファイルを消しますか？	Vols suprimir aquest fitxer?
+ui	（元に戻せません。フォルダの中のファイルも消えます）	(Això no es pot desfer. Els fitxers de les carpetes també s'eliminen)
+ui	[ はい (Y) ]	[Sí (Y)]
+ui	[ いいえ (N) ]	[No (N)]
+ui	バイナリビュアー: ファイルを選んでください	Visor hexadecimal: tria un fitxer
+ui	テキストビュアー: ファイルを選んでください	Visor de text: tria un fitxer
+ui	移動先	Mou a
+ui	コピー先	Copia a
+ui	バッファがいっぱいです (buffer full)	El buffer està ple
+ui	読み出し専用のドライブです (read-only)	La unitat és només de lectura
+ui	保存できません (no writer)	No es pot desar (sense escriptor)
+ui	保存を始められません (the drive is busy?)	No s'ha pogut començar a desar (la unitat està ocupada?)
+ui	保存しています... (saving)	S'està desant...
+ui	2 保存	2 Desa
+ui	5 色分け	5 Color
+ui	6 ﾞ	6 Hira
+ui	7 ｶﾀｶﾅ	7 Kata
+ui	8 予測	8 Pred
+ui	10 終了	10 Surt
+ui	1 先頭	1 Top
+ui	2 最後	2 Final
+ui	3 挿/上	3 InsOvr
+ui	4 辞書	4 Dict
+ui	6 半	6 HHira
+ui	7 半ｶﾅ	7 HKata
+ui	 %s  %s  行 %lu/%lu 桁 %u  %s  %s %s%s%s	%s %s Ln %lu/%lu Col %u %s %s %s%s%s
+ui	*変更	*mod
+ui	上書	OVR
+ui	挿入	INS
+ui	  読出専用	R/O
+ui	 エディタ (sgnano edit)                      F1 / ESC で閉じる	Editor (sgnano edit) F1 / ESC es tanca
+ui	 矢印 / Home End / PgUp PgDn   カーソルを動かす	Les fletxes / Inici Final / PgAp PgDn mouen el cursor
+ui	 Ctrl-T / Ctrl-B               ファイルの先頭 / 最後	Ctrl-T / Ctrl-B superior / final del fitxer
+ui	 BS / Del                      前の字 / カーソルの字を消す	BS / Del esborra abans / al cursor
+ui	 Enter                         改行（前の行の字下げを引き継ぐ）	Introduïu una línia nova (manté el sagnat)
+ui	 Tab / Ins                     タブ / 挿入と上書きの切り替え	Pestanya / Pestanya Ins / inserir o sobreescriure
+ui	 F5                            色分け（拡張子から。C/C++・mruby・MicroPython・SG BASIC・なし）	F5 Coloring (de l'extensió; C/C++, mruby, MicroPython, SG BASIC, cap)
+ui	 F2  (Ctrl-S)                  保存（UTF-8、改行は元の形）	F2 (Ctrl-S) desa (UTF-8, els finals de línia es mantenen)
+ui	 F10 / ESC                     閉じる（変更があれば聞く）	Tanca F10 / ESC (demana si s'ha canviat)
+ui	 IME:  Ctrl-Space / F12        オン・オフ（あ / A）	IME: Ctrl-Espai/F12 activat/desactivat (あ/A)
+ui	       F9                      IME の言語（このエディタの間だけ。閉じると戻る）	F9 Idioma IME (només aquest editor; restaurat al tancar)
+ui	       F8                      日本語の予測変換 オン・オフ	F8 Conversió predictiva japonesa activada/desactivada
+ui	       日本語                  ローマ字 -> ひらがな（F6）・カタカナ（F7）	Romaji japonès -> hiragana (F6) / katakana (F7)
+ui	                               半角ひらがな（Shift+F6）・半角カタカナ（Shift+F7）	Hiragana de mitja amplada (Maj+F6)/katakana de mitja amplada (Maj+F7)
+ui	                               2 字以上で予測、Space で連文節変換	Prediu amb 2 o més caràcters, convertiu la clàusula contínua amb espai
+ui	       English                 2 字以上で予測補完	Anglès Finalització predictiva amb 2 o més caràcters
+ui	       한국어                  2 ボル式ハングル	한국어 2 Hangul estil Bol
+ui	       Space / Enter           変換 / 確定	Espai / Intro Convertir / Confirmar
+ui	       ← →                    文節を選ぶ	← → Seleccioneu una frase
+ui	       Shift+← →               文節の右端を 1 字 縮/拡（候補を出し直す）	Maj+← → Redueix/augmenta l'extrem dret de la clàusula en un caràcter (candidats nous)
+ui	       ↑ ↓ / Tab               候補の窓で前 / 次の候補（窓は変換の下、画面の下では上）	↑ ↓ / Pestanya Candidat anterior / següent a la finestra emergent (a sota del text, a dalt a prop de la part inferior)
+ui	       →→→ で Enter            すべての候補（2 列 x 8 個、← → で列とページ、Enter で決める）	Introduïu a →→→ Tots els candidats (2 x 8, ← → columna i pàgina, Enter tria)
+ui	       Enter                   次の文節へ（最後の文節で全体を確定）	Introduïu la clàusula següent (confirma tot a l'última clàusula)
+ui	       Ctrl-U                  いまの語をユーザー辞書へ	Ctrl-U Afegeix la paraula actual al diccionari de l'usuari
+ui	 Shift+F1 / F2 / F3 / F4       先頭 / 最後 / 挿入と上書き / ユーザー辞書へ	Maj+F1/F2/F3/F4 Amunt/final/inserir-sobreescriure/al diccionari de l'usuari
+ui	       BS / ESC                1 字戻す / 取り消し	BS / ESC Torna un caràcter enrere / Cancel·la
+ui	       , . - [ ] /             、 。 ー 「 」 ・	, . - [ ] / 、 。 ー 「 」 ・
+ui	変更あり  Y: 保存して閉じる  N: 保存せず閉じる  ESC: 戻る	Modificat Y: guardar i tancar N: tancar sense desar ESC: enrere
+ui	[予測] Tab/↑↓: 候補  Space: 変換  Esc: 取消	[Predicció] Tab/↑↓: candidat Espai: convertir Esc: cancel·lar
+ui	[候補] ↑↓: 選ぶ  ←→: 列・ページ  Enter: 決める	[Candidats] ↑↓: seleccioneu ←→: columna/pàgina Introduïu: trieu
+ui	[変換] ↑↓候補 ←→文節 Shift+←→区切り Enter次へ	[Convertir] ↑↓cand ←→clàusula Maj+←→limitat Introduïu següent
+ui	[한국어] Tab/↑↓: 候補  Enter/Space: 確定	[한국어] Pestanya/↑↓: candidat Intro/Espai: confirmar
+ui	[English] Tab/↑↓: 候補  Enter: 確定	[Català] Tab/↑↓: candidat Introduïu: confirma
+ui	2ボル式ハングル入力  Ctrl-Space: 英数	Entrada Hangul de 2 conjunts Ctrl-Espai: alfanumèric
+ui	予測補完  Ctrl-Space: 直接入力	Finalització predictiva Ctrl-Espai: entrada directa
+ui	辞書なし: ひらがな/カタカナ入力のみ  F6/F7	Sense diccionari: només hiragana/katakana F6/F7
+ui	Space: 変換  F7: カタカナ  Ctrl-Space: 英数	Espai: convertir F7: katakana Ctrl-Espai: alfanumèric
+ui	Space: 変換  F6: ひらがな  Ctrl-Space: 英数	Espai: convertir F6: hiragana Ctrl-Espai: alfanumèric
+ui	半角  F6: ひらがな  F7: カタカナ  Shift+F6/F7: 半角	Mitja amplada F6: hiragana F7: katakana Maj+F6/F7: meitat
+ui	IME オフ	IME apagat
+ui	 予測	predir
+ui	日本語の予測変換: オン	Traducció predictiva al japonès: activat
+ui	日本語の予測変換: オフ	Traducció predictiva per al japonès: Off
+ui	日本語IMEで使います	Utilitzeu-lo amb l'IME japonès
+ui	ユーザー辞書に追加できません	No es pot afegir al diccionari de l'usuari
+ui	色分け: %s	Colorant: %s
+ui	読み込んでいます... (loading)	Carregant...
+ui	読み込めませんでした (could not read)	No s'ha pogut llegir el fitxer
+ui	%lu 行%s%s	%lu línies%s%s
+ui	  Shift_JIS を UTF-8 で開きました（保存は UTF-8）	va obrir Shift_JIS com a UTF-8 (desat com a UTF-8)
+ui	  読み出し専用	només de lectura
+ui	保存しました (saved)	Desat
+ui	保存できませんでした (write failed)	No s'ha pogut desar (error d'escriptura)
+ui	候補	Candidats
+ui	7 書込頁	7 Pàg
+ui	9 ﾃｷｽﾄ	9 Text
+ui	9 ﾊﾞｲﾅﾘ	9 Hex
+ui	読み込み中 %lu%%  	Carregant %lu%%
+ui	（先頭だけ）  	(només el començament)
+ui	16 進  q ESC: 戻る  F1: ヘルプ	Hex q ESC: enrere F1: ajuda
+ui	テキスト  q ESC: 戻る  F1: ヘルプ	Text q ESC: enrere F1: ajuda
+ui	ビュアーのキー（less 風。テキストと 16 進で共通）	Tecles del visor (com menys; el mateix per a text i hexadecimal)
+ui	1 行進む	Una línia més avall
+ui	1 行戻る	Una fila
+ui	1 ページ進む	Una pàgina més avall
+ui	1 ページ戻る	Una pàgina amunt
+ui	半ページ進む / 戻る	Mitja pàgina avall / amunt
+ui	/文字列  ?文字列	/text ?text
+ui	下へ探す / 上へ探す（大文字小文字は区別しない）	Cerca cap avall/amunt (ignora majúscules i minúscules)
+ui	次 / 前を探す	Següent/anterior partit
+ui	16 進で表示する（いま見ている所のまま）	Mostra com a hexadecimal (al mateix lloc)
+ui	テキストで表示する（いま見ている所のまま）	Mostra com a text (al mateix lloc)
+ui	色分けを替える（C/C++・mruby・MicroPython・SG BASIC・なし）	Canvieu el color (C/C++, mruby, MicroPython, SG BASIC, cap)
+ui	FB / テキスト面を出す・隠す	Mostra / amaga el FB / el text
+ui	FB の表示ページ / 書き込みページ	Pàgina de visualització de FB / pàgina d'escriptura
+ui	ファイラーへ戻る	Tornar al fitxer
+ui	このヘルプを閉じる	Tanca aquesta ajuda
+ui	コピー	Còpia
+ui	 %s: フォルダを読んでいます... %u 個	%s: llegint les carpetes... %u
+ui	 %s: 行き先の空きを数えています...	%s: comptant l'espai lliure a la destinació...
+ui	 %s: 行き先の空きが足りません	%s: no hi ha prou espai lliure a la destinació
+ui	 移動: 元のフォルダを消しています	Moure: eliminació de les carpetes d'origen
+ui	終了しました	Fet
+ui	止まりました	Parat
+ui	 %s中%s	%s en curs%s
+ui	（止めています）	(aturada)
+ui	 元: %s	De: %s
+ui	 先: %s	A: %s
+ui	 ファイル %u / %u 個  フォルダ %u 個  %s / %s  (%u%%)%s	Fitxers %u / %u carpetes %u %s / %s (%u%%)%s
+ui	  多すぎるので一部だけ	massa: només alguns
+ui	 要る大きさ %s、空き %s。続けますか？	Necessitats %s, gratuïtes %s. Continuar?
+ui	 Y: 続ける   N / ESC: やめる	Y: continuar N / ESC: cancel·lar
+ui	 何かキーを押すと閉じます	Premeu qualsevol tecla per tancar
+ui	 ESC: 止める	ESC: parar
+ui	 %s: ←→ ドライブ  ↑↓ フォルダ  Space 開く・閉じる  Enter 決める  ESC やめる	%s: ←→ unitat ↑↓ carpeta Espai obrir/tancar Entrar triar ESC cancel·lar
+ui	 読めません: %s	No es pot llegir: %s
+ui	 フォルダを読んでいます...（ESC で止める）  %u 個	Llegint les carpetes... (ESC s'atura) %u
+ui	 フォルダ %u 個%s	%u carpetes%s
+ui	（多すぎるか深すぎるので、一部だけ）	(massa o massa profund: només alguns)
+ui	フォルダの展開を止めました	Va deixar d'obrir la carpeta
+ui	Space で開き直せます。もう一度 ESC でやめます	L'espai el torna a obrir. ESC es cancel·la una vegada més
+ui	 SMF / SGT プレイヤー   %s	Reproductor SMF/SGT %s
+ui	 読み込んでいます... %lu / %lu バイト	S'està carregant... %lu / %lu bytes
+ui	 %s / %s   %s   ポート %u	Ports %s / %s %s %u
+ui	一時停止	En pausa
+ui	再生中	Jugant
+ui	 Space: 一時停止  m: MIDI OUT  q / ESC: 止める	Espai: pausa m: MIDI OUT q / ESC: parada
+ui	 q / ESC: やめる	q/ESC: cancel·lar
+ui	フォント ROM のライセンスとクレジット\n\nROM: %s（版 %lu.%lu、%lu 文字、フラッシュの 0x%08lX から）\n\n	Llicències i crèdits de font ROM\n\nROM: %s (versió %lu.%lu, %lu caràcters, a partir de 0x%08lX al flash)
+ui	== 収めているフォント（ROM の出所の表）==\n	== Tipus de lletra a la ROM (la taula d'origen de la ROM) ==
+ui	  （表が無い ROM）\n	(la ROM no té taula)
+ui	\n== ROM のクレジットの区画 ==\n\n	== L'àrea de crèdits de la ROM ==
+ui	（区画が無い）\n	(no hi ha aquesta zona)
+ui	\n== 組み込んだソフトウェアのライセンス ==\n	== Llicències del programari integrat ==
+ui	 %s を PNG で保存   %s	Desant %s com a PNG %s
+ui	画面	Pantalla
+ui	 組み立てています... %lu / %lu 行	Construint... %lu / %lu files
+ui	 書いています... %lu / %lu KB（FB は隠しています）	S'està escrivint... %lu / %lu KB (l'FB està amagat)
+ui	書けませんでした	No he pogut escriure
+ui	書庫の名前（印の付いた項目、無ければカーソルの項目を入れる）	Nom de l'arxiu (els elements marcats o l'element del cursor si no n'hi ha cap)
+ui	Enter 圧縮する  ←→ 動かす  BS / Del 消す  ESC やめる	Introduïu comprimir ←→ moure BS / Eliminar esborrar ESC cancel·lar
+ui	WAV 書き出し: %s 中止（%s）	Exportació WAV: %s cancel·lada (%s)
+ui	WAV 書き出し: %s 失敗（%s）	Exportació WAV: %s ha fallat (%s)
+ui	WAV 書き出し: %s 合計 %s	Exportació WAV: %s total %s
+ui	 WAV 書き出し（96kHz / 24bit）: %s	Exportació WAV (96 kHz / 24 bits): %s
+ui	中止しました	Cancel·lat
+ui	失敗しました	Ha fallat
+ui	 合計 %s	Total %s
+ui	 中止しました（%s。半端なファイルは消しました）	Cancel·lat (%s; el fitxer parcial s'ha suprimit)
+ui	 書き出せませんでした（%s）。理由:	No s'ha pogut exportar (%s). Motiu:
+ui	 （理由は分かりません）	(motiu desconegut)
+ui	 %u%%   経過 %s%s	%u%% transcorregut %s%s
+ui	 ESC: 止める（半端なファイルは消します）	ESC: aturar (el fitxer parcial s'elimina)
+ui	書庫: %s	Arxiu: %s
+ui	読み込み中…（ESC でやめる）	Llegint... (ESC per cancel·lar)
+ui	 %u 項目%s  合計 %s バイト  展開先: %s	%u elements%s total de %s bytes extreu a: %s
+ui	 Enter 項目を展開  X 全部を展開  ↑↓ 動かす  ESC 閉じる	Introduïu l'element d'extracció X extreu-ho tot ↑↓ tanqueu l'ESC
+ui	圧縮	Comprimir
+ui	一覧	Llista
+ui	展開	Extracte
+ui	 合計 %s   %u 項目	Total %s %u articles
+ui	 合計 %s   %u ファイル	Total %s %u fitxers
+ui	 中止しました（%s。書きかけのファイルは消しました）	Cancel·lat (%s; el fitxer sense acabar s'ha suprimit)
+ui	 できませんでした（%s）: %s	No podria fer-ho (%s): %s
+ui	 %u%%   経過 %s   %s バイト%s	%u%% transcorreguts %s %s bytes%s
+ui	 経過 %s   %s バイト%s	transcorreguts %s %s bytes%s
+ui	 ESC: 止める（書きかけのファイルは消します）	ESC: aturar (el fitxer inacabat s'elimina)
+ui	書庫: %s 失敗（%s）	Arxiu: %s ha fallat (%s)
+ui	圧縮: %s（%u 項目）	Comprimit: %s (%u elements)
+ui	展開: %s（%u ファイル）	Extret: %s (%u fitxers)
+msg.phrase	the drive went away	la unitat se'n va anar
+msg.phrase	reading the partitions again...	tornant a llegir les particions...
+msg.phrase	could not open the volume (no memory?)	no s'ha pogut obrir el volum (no hi ha memòria?)
+msg.phrase	opening the volume...	obrint el volum...
+msg.phrase	no memory for the file list	no hi ha memòria per a la llista de fitxers
+msg.phrase	reading the directory... (retrying)	llegint el directori... (reprovant)
+msg.phrase	could not read the directory	no ha pogut llegir el directori
+msg.phrase	reading the directory...	llegint el directori...
+msg.phrase	the drive did not answer -- reading the partitions again	la unitat no va respondre, tornant a llegir les particions
+msg.phrase	could not read the directory (not FAT12/16/32?)	no s'ha pogut llegir el directori (no FAT12/16/32?)
+msg.phrase	too many entries -- showing the first ones	massa entrades, mostrant les primeres
+msg.phrase	no file system found on this partition	no s'ha trobat cap sistema de fitxers en aquesta partició
+msg.phrase	the path is too long	el camí és massa llarg
+msg.phrase	joining...	unint-se...
+msg.phrase	splitting...	dividint...
+msg.phrase	renaming...	canviant el nom...
+msg.phrase	creating the folder...	creant la carpeta...
+msg.phrase	creating the file...	creant el fitxer...
+msg.phrase	deleting...	esborrant...
+msg.phrase	writing the attributes...	escrivint els atributs...
+msg.phrase	the drive is busy	la unitat està ocupada
+msg.phrase	busy	ocupat
+msg.phrase	choose files or folders	triar fitxers o carpetes
+msg.phrase	choose files or folders (not "..")	triar fitxers o carpetes (no "..")
+msg.phrase	stop the CD first	primer atura el CD
+msg.phrase	the CD cannot be changed (copy instead)	el CD no es pot canviar (copiar en lloc d'això)
+msg.phrase	a system folder cannot be moved	una carpeta del sistema no es pot moure
+msg.phrase	no drive can be written (FAT / exFAT / NTFS only)	no es pot escriure cap unitat (només FAT / exFAT / NTFS)
+msg.phrase	the drive is gone	la unitat ha desaparegut
+msg.phrase	nothing chosen	res escollit
+msg.phrase	nothing selected	res seleccionat
+msg.phrase	could not start	no va poder començar
+msg.phrase	could not open	no va poder obrir
+msg.phrase	only on a FAT / exFAT / NTFS drive	només en una unitat FAT / exFAT / NTFS
+msg.phrase	no name	sense nom
+msg.phrase	that name already exists	aquest nom ja existeix
+msg.phrase	could not start (bad name or the drive is busy)	no s'ha pogut iniciar (mal nom o la unitat està ocupada)
+msg.phrase	could not start (the drive is busy)	no s'ha pogut iniciar (la unitat està ocupada)
+msg.phrase	the name cannot have / or \\ (only inside this folder)	el nom no pot tenir / o \\ (només dins d'aquesta carpeta)
+msg.phrase	the name is the same	el nom és el mateix
+msg.phrase	the item is read-only (A to change)	l'element és només de lectura (A per canviar)
+msg.phrase	choose a .rb file on a writable drive	trieu un fitxer .rb en una unitat d'escriptura
+msg.phrase	choose a .rb file	tria un fitxer .rb
+msg.phrase	the drive is read-only	la unitat és només de lectura
+msg.phrase	choose a folder on a writable drive	tria una carpeta en una unitat d'escriptura
+msg.phrase	wait a moment	espera un moment
+msg.phrase	choose a file	triar un fitxer
+msg.phrase	choose a file (not a folder)	triar un fitxer (no una carpeta)
+msg.phrase	choose a .001 file	trieu un fitxer .001
+msg.phrase	choose the .001 file	trieu el fitxer .001
+msg.phrase	put the IWAD in a DoomFiles or Doom2Files folder	col·loqueu l'IWAD en una carpeta DoomFiles o Doom2Files
+msg.phrase	DoomFiles takes freedoom1 / doom / doomu / doom1.wad	DoomFiles pren freedoom1 / doom / doomu / doom1.wad
+msg.phrase	Doom2Files takes freedoom2 / doom2 / plutonia / tnt.wad	Doom2Files pren freedoom2 / doom2 / plutonia / tnt.wad
+msg.phrase	put the game files on external storage, not S:	posa els fitxers del joc a l'emmagatzematge extern, no a S:
+msg.phrase	the IWAD must be on a FAT / exFAT / NTFS drive (not a CD)	l'IWAD ha d'estar en una unitat FAT / exFAT / NTFS (no un CD)
+msg.phrase	still working	encara treballant
+msg.phrase	an image is loading	s'està carregant una imatge
+msg.phrase	no framebuffer	sense framebuffer
+msg.phrase	half brightness works only in RGB555	la mitja brillantor només funciona en RGB555
+msg.phrase	clearing...	netejant...
+msg.phrase	halving the brightness...	reduint la brillantor a la meitat...
+msg.phrase	that is a data track	això és una pista de dades
+msg.phrase	wait -- a file is being written	espera: s'està escrivint un fitxer
+msg.phrase	only floppy / LS-120 / CD drives	només unitats de disquet / LS-120 / CD
+msg.phrase	requested	demanat
+msg.phrase	reading the disc...	llegint el disc...
+msg.phrase	stopping...	parant...
+msg.phrase	opening...	obertura...
+msg.phrase	done	fet
+msg.phrase	no memory	sense memòria
+msg.phrase	already open	ja obert
+msg.phrase	already running	ja en marxa
+msg.phrase	already saving	ja estalviant
+msg.phrase	already playing	ja jugant
+msg.phrase	no such drive	no tal unitat
+msg.phrase	no PSRAM	sense PSRAM
+msg.phrase	no PSRAM for the file	no hi ha PSRAM per al fitxer
+msg.phrase	no PSRAM for the line index	no hi ha PSRAM per a l'índex de línia
+msg.phrase	no PSRAM for the terminal	sense PSRAM per al terminal
+msg.phrase	no memory (PSRAM)	sense memòria (PSRAM)
+msg.phrase	no memory (32KB SRAM)	sense memòria (32 KB SRAM)
+msg.phrase	no memory for the buffer	no hi ha memòria per al buffer
+msg.phrase	no memory for the image buffers	no hi ha memòria per als buffers d'imatge
+msg.phrase	no memory for the read buffer	no hi ha memòria per al buffer de lectura
+msg.phrase	no room for the work memory (close the lowres plane?)	no hi ha espai per a la memòria de treball (tancar el pla de baixa resolució?)
+msg.phrase	no framebuffer page	sense pàgina de framebuffer
+msg.phrase	too large (4 MB at most)	massa gran (4 MB com a màxim)
+msg.phrase	the file is too large (1 MB at most)	el fitxer és massa gran (1 MB com a màxim)
+msg.phrase	the file is too large (1 MB max)	el fitxer és massa gran (1 MB com a màxim)
+msg.phrase	too large for an SMF (1MB at most)	massa gran per a un SMF (1 MB com a màxim)
+msg.phrase	the file is empty	el fitxer està buit
+msg.phrase	could not open the file	no ha pogut obrir el fitxer
+msg.phrase	could not read the file	no ha pogut llegir el fitxer
+msg.phrase	could not open the volume	no ha pogut obrir el volum
+msg.phrase	could not open the destination (no memory?)	no s'ha pogut obrir la destinació (no hi ha memòria?)
+msg.phrase	could not read the root folder	no s'ha pogut llegir la carpeta arrel
+msg.phrase	could not start the task	no va poder iniciar la tasca
+msg.phrase	could not start writing (bad name or busy)	no he pogut començar a escriure (mal nom o ocupat)
+msg.phrase	another volume is open (busy)	un altre volum està obert (ocupat)
+msg.phrase	a copy is running	s'està executant una còpia
+msg.phrase	a folder cannot go into itself	una carpeta no pot entrar en ella mateixa
+msg.phrase	that is the same folder	és la mateixa carpeta
+msg.phrase	this drive cannot be changed (read only)	aquesta unitat no es pot canviar (només de lectura)
+msg.phrase	the drive is not writable	la unitat no es pot escriure
+msg.phrase	the part size must be a multiple of 512	la mida de la part ha de ser múltiple de 512
+msg.phrase	files of 4 GB or more are not supported	Els fitxers de 4 GB o més no són compatibles
+msg.phrase	bad path	mal camí
+msg.phrase	bad file name	nom de fitxer dolent
+msg.phrase	the font ROM is not there	la ROM del tipus de lletra no hi és
+msg.phrase	the sound is not open	el so no està obert
+msg.phrase	no such channel	cap canal d'aquest tipus
+msg.phrase	the sequencer is busy	el seqüenciador està ocupat
+msg.phrase	not enough PSRAM for the song	no hi ha prou PSRAM per a la cançó
+msg.phrase	not a standard MIDI file (no MThd)	no és un fitxer MIDI estàndard (no MThd)
+msg.phrase	no tracks	sense pistes
+msg.phrase	a track is broken (MTrk)	una pista està trencada (MTrk)
+msg.phrase	SMPTE time division is not supported	La divisió de temps SMPTE no és compatible
+msg.phrase	SMF format 2 is not supported (0 and 1 only)	El format SMF 2 no és compatible (només 0 i 1)
+msg.phrase	not a Bulk-Only drive	no és una unitat només de volum
+msg.phrase	not an optical drive	no una unitat òptica
+msg.phrase	a system folder cannot be deleted or renamed	una carpeta del sistema no es pot suprimir ni canviar el nom
+msg.phrase	no media in the drive	no hi ha suport a la unitat
+msg.phrase	becoming ready	preparant-se
+msg.phrase	not ready	no llestos
+msg.phrase	media changed	els mitjans van canviar
+msg.phrase	medium error	error mitjà
+msg.phrase	illegal request	petició il·legal
+msg.phrase	a bad directory entry	una mala entrada de directori
+msg.phrase	a directory on the way does not exist	un directori en camí no existeix
+msg.phrase	a file has that name	un fitxer té aquest nom
+msg.phrase	a folder has that name	una carpeta té aquest nom
+msg.phrase	a name on the way is not a directory	un nom en camí no és un directori
+msg.phrase	cancelled	cancel·lat
+msg.phrase	could not mount	no va poder muntar
+msg.phrase	could not start a read	no ha pogut començar una lectura
+msg.phrase	could not start a write	no podia començar una escriptura
+msg.phrase	is a directory	és un directori
+msg.phrase	that is a directory	això és un directori
+msg.phrase	no clusters	sense clústers
+msg.phrase	no room for the cluster list	no hi ha espai per a la llista de clúster
+msg.phrase	no such file or directory	no hi ha cap fitxer o directori
+msg.phrase	no such file	cap fitxer d'aquest tipus
+msg.phrase	no volume	sense volum
+msg.phrase	not NTFS	no NTFS
+msg.phrase	not exFAT	no exFAT
+msg.phrase	not a directory	no un directori
+msg.phrase	not found	no trobat
+msg.phrase	read error	error de lectura
+msg.phrase	write error	error d'escriptura
+msg.phrase	reading the FAT failed	la lectura del FAT ha fallat
+msg.phrase	the cluster chain is shorter than the file	la cadena de clúster és més curta que el fitxer
+msg.phrase	the directory is not empty	el directori no està buit
+msg.phrase	the disk is full	el disc està ple
+msg.phrase	the drive did not answer	la unitat no va respondre
+msg.phrase	the file is read-only	el fitxer és només de lectura
+msg.phrase	the file is too fragmented	el fitxer està massa fragmentat
+msg.phrase	the file is too large (4GB)	el fitxer és massa gran (4 GB)
+msg.phrase	the new name already exists	el nou nom ja existeix
+msg.phrase	the root directory is full	el directori arrel està ple
+msg.phrase	too many files with the same short name	massa fitxers amb el mateix nom curt
+msg.phrase	No such file or directory	No hi ha cap fitxer o directori
+msg.phrase	File exists	El fitxer existeix
+msg.phrase	Permission denied	Permís denegat
+msg.phrase	Directory not empty	Directori no buit
+msg.phrase	Not a directory	No és un directori
+msg.phrase	Is a directory	És un directori
+msg.phrase	Read-only file system	Sistema de fitxers de només lectura
+msg.phrase	No space left on device	No queda espai al dispositiu
+msg.phrase	Input/output error	Error d'entrada/sortida
+msg.phrase	Not supported on this drive	No és compatible amb aquesta unitat
+msg.phrase	Invalid path	Camí no vàlid
+msg.phrase	Out of memory	Sense memòria
+msg.phrase	No such drive	No tal unitat
+msg.phrase	stopped	aturat
+msg.phrase	cancelled (not enough free space)	cancel·lat (no hi ha prou espai lliure)
+msg.phrase	could not count the free space	no podia comptar l'espai lliure
+msg.phrase	the receiver cancelled	el receptor cancel·lat
+msg.phrase	no receiver (run rz on the PC)	sense receptor (executa rz al PC)
+msg.phrase	the console UART is in use	la consola UART està en ús
+msg.phrase	the screen mode changed	el mode de pantalla ha canviat
+msg.phrase	the lines did not come (is the display running?)	les línies no van venir (la pantalla funciona?)
+msg.prefix	copy	còpia
+msg.prefix	move	moure's
+msg.prefix	delete	esborrar
+msg.prefix	rename	canviar el nom
+msg.prefix	attributes	atributs
+msg.prefix	new file	nou fitxer
+msg.prefix	new folder	carpeta nova
+msg.prefix	image	imatge
+msg.prefix	mrbc	mrbc
+msg.prefix	ruby	robí
+msg.prefix	viewer	espectador
+msg.prefix	edit	editar
+msg.prefix	IDENTIFY	IDENTIFICAR
+msg.prefix	ZMODEM	ZMODEM
+msg.prefix	ZMODEM receive	Rebre ZMODEM
+msg.prefix	ZMODEM send	Enviar ZMODEM
+msg.prefix	split	dividir
+msg.prefix	join	uneix-te
+msg.prefix	Doom	Doom
+msg.prefix	SMF	SMF
+msg.prefix	CD	CD
+msg.prefix	FB	FB
+msg.prefix	Eject	Expulsar
+msg.prefix	reboot	reiniciar
+msg.prefix	license	llicència
+msg.prefix	clock	rellotge
+msg.prefix	ADC in	ADC en
+msg.prefix	screen -> PNG	pantalla -> PNG
+msg.prefix	FB -> PNG	FB -> PNG
+msg.prefix	could not open the volume	no ha pogut obrir el volum
+msg.pattern	received 	rebut %s
+msg.pattern	sent 	enviat %s
+msg.pattern	saved 	guardat %s
+msg.pattern	created 	creat %s
+msg.pattern	renamed to 	rebatejat a %s
+msg.pattern	deleted 	esborrat %s
+msg.pattern	changed 	canviat %s
+msg.pattern	joined 	unit %s
+msg.pattern	split 	dividir %s
+msg.pattern	could not create 	no va poder crear %s
+msg.pattern	could not delete 	no s'ha pogut suprimir %s
+msg.pattern	could not rename to 	no s'ha pogut canviar el nom a %s
+msg.pattern	could not change 	no podia canviar %s
+msg.pattern	could not read 	no sabia llegir %s
+msg.pattern	could not write 	no sabia escriure %s
+msg.pattern	could not copy 	no ha pogut copiar %s
+msg.pattern	could not make 	no podia fer %s
+msg.pattern	could not remove the folder 	no s'ha pogut eliminar la carpeta %s
+msg.pattern	could not remove 	no va poder eliminar %s
+msg.pattern	no memory for 	sense memòria per %s
+msg.pattern	too many errors while sending 	massa errors durant l'enviament %s
+msg.pattern	the receiver did not take 	el receptor no va prendre %s
+msg.pattern	the receiver skipped 	el receptor va saltar %s
+msg.pattern	FB page 	Pàgina FB %s
+msg.word	 bytes each)	bytes cadascun)
+msg.word	 bytes)	bytes)
+msg.word	 KB)	KB)
+msg.word	 parts into 	parts en
+msg.word	 parts (	parts (
+msg.word	 into 	a
+msg.word	: cleared	: esborrat
+msg.word	: brightness halved	: brillantor reduïda a la meitat
+msg.word	% read	% llegit
+msg.word	 rows	files
+msg.word	 -- not supported yet (FAT / exFAT / NTFS only)	-- encara no és compatible (només FAT / exFAT / NTFS)
+msg.word	 files	fitxers
+msg.word	 (	(
+msg.phrase	Untitled	Sense títol
+msg.phrase	1 File	1 Fitxa
+msg.phrase	2 Edit	2 Edita
+msg.phrase	3 Graph	3 Gràfic
+msg.phrase	4 Sheet	4 Full
+msg.phrase	5 Help	5 Ajuda
+msg.phrase	EMPTY	BUIT
+msg.phrase	NUMBER	NÚMERO
+msg.phrase	TEXT	TEXT
+msg.phrase	FORMULA	FÒRMULA
+msg.phrase	Type to enter, F2 to edit, F1 for help	Escriviu per entrar, F2 per editar, F1 per obtenir ajuda
+msg.phrase	5 CSV	5 CSV
+msg.phrase	6 ODS	6 ODS
+msg.phrase	[SHIFT]	[MAJÚS]
+msg.phrase	[CTRL]	[CTRL]
+msg.phrase	[ALT]	[ALT]
+msg.phrase	Ready	A punt
+msg.phrase	SGCALC	SGCALC
+msg.phrase	Press any key	Premeu qualsevol tecla
+msg.phrase	Y = yes    N = no    Esc = cancel	Y = sí N = no Esc = cancel·la
+msg.phrase	Enter = OK    Esc = cancel    Ctrl-U = clear	Enter = D'acord Esc = cancel·la Ctrl-U = esborra
+msg.phrase	First row/column = labels; charts use the 640x480 CLUT8 FB.	Primera fila/columna = etiquetes; Els gràfics utilitzen el FB CLUT8 de 640x480.
+msg.phrase	SGCALC - HELP	SGCAC - AJUDA
+msg.phrase	Press any key to return	Premeu qualsevol tecla per tornar
+msg.phrase	Press any key to return.	Premeu qualsevol tecla per tornar.
+msg.phrase	ABOUT SGCALC	SOBRE SGCALC
+msg.phrase	New	Nou
+msg.phrase	Start a new sheet	Comença un full nou
+msg.phrase	Open...	Obre...
+msg.phrase	Open an ODS, FODS or CSV file	Obriu un fitxer ODS, FODS o CSV
+msg.phrase	Save	Desa
+msg.phrase	Save the current file	Desa el fitxer actual
+msg.phrase	Save As...	Desa com a...
+msg.phrase	Save with a new name or format	Desa amb un nom o format nou
+msg.phrase	Export CSV...	Exporta CSV...
+msg.phrase	Write a CSV copy	Escriu una còpia CSV
+msg.phrase	Export ODS...	Exporta ODS...
+msg.phrase	Write a LibreOffice copy	Escriu una còpia de LibreOffice
+msg.phrase	Quit	Surt
+msg.phrase	Leave SGCALC	Sortir de SGCLC
+msg.phrase	Clear	Clar
+msg.phrase	Clear the selected cells	Esborra les cel·les seleccionades
+msg.phrase	Copy	Còpia
+msg.phrase	Copy the selection	Copia la selecció
+msg.phrase	Paste	Enganxa
+msg.phrase	Paste at the cursor	Enganxa al cursor
+msg.phrase	Cut	Tallar
+msg.phrase	Copy and clear the selection	Copia i esborra la selecció
+msg.phrase	Select all	Seleccioneu-ho tot
+msg.phrase	Select all used cells	Seleccioneu totes les cel·les utilitzades
+msg.phrase	Text color...	Color del text...
+msg.phrase	Choose the text colour	Trieu el color del text
+msg.phrase	Background...	Fons...
+msg.phrase	Choose the cell background	Trieu el fons de la cel·la
+msg.phrase	Line	Línia
+msg.phrase	Draw a line graph from the selection	Dibuixa un gràfic de línies a partir de la selecció
+msg.phrase	Bar	Bar
+msg.phrase	Draw a bar graph from the selection	Dibuixa un gràfic de barres a partir de la selecció
+msg.phrase	Mixed	Mixt
+msg.phrase	Bars for the first series, lines for the rest	Comptes per a la primera sèrie, línies per a la resta
+msg.phrase	Pie	Pastís
+msg.phrase	Draw a pie graph from the selection	Dibuixa un gràfic circular a partir de la selecció
+msg.phrase	Range...	Gamma...
+msg.phrase	Set the graph range explicitly	Estableix l'interval del gràfic de manera explícita
+msg.phrase	Draw again	Torna a dibuixar
+msg.phrase	Redraw the last graph	Torna a dibuixar l'últim gràfic
+msg.phrase	Goto...	Anar a...
+msg.phrase	Jump to a cell (for example C12)	Saltar a una cel·la (per exemple, C12)
+msg.phrase	Column width...	Amplada de la columna...
+msg.phrase	Change the selected columns' width	Canvieu l'amplada de les columnes seleccionades
+msg.phrase	Row height...	Alçada de fila...
+msg.phrase	Change the selected rows' height	Canvia l'alçada de les files seleccionades
+msg.phrase	Auto fit	Ajust automàtic
+msg.phrase	Fit widths/heights to the contents (F7)	Ajusta amplades/altures al contingut (F7)
+msg.phrase	Recalculate	Recalcular
+msg.phrase	Re-evaluate all formulas	Torna a avaluar totes les fórmules
+msg.phrase	Erase all	Esborra-ho tot
+msg.phrase	Clear the whole sheet	Netegeu tot el full
+msg.phrase	Keys	Les claus
+msg.phrase	Show the key guide	Mostra la guia de claus
+msg.phrase	About	Sobre
+msg.phrase	About SGCALC	Sobre SGCALC
+msg.phrase	File	Fitxer
+msg.phrase	Edit	Edita
+msg.phrase	Graph	Gràfic
+msg.phrase	Sheet	Full
+msg.phrase	Help	Ajuda
+msg.phrase	File: new, open, save, export, quit	Fitxer: nou, obrir, desar, exportar, sortir
+msg.phrase	Edit: clear, copy, paste, cut, select all	Edita: esborra, copia, enganxa, retalla, selecciona-ho tot
+msg.phrase	Graph: line, bar, mixed, pie (draws in the FB)	Gràfic: línia, barra, mixt, pastís (dibuixa al FB)
+msg.phrase	Sheet: goto, column width, recalculate, erase	Full: anar a, amplada de columna, recalcular, esborrar
+msg.phrase	Help: keys and about	Ajuda: claus i sobre
+msg.phrase	Left/Right = menu    Up/Down = item    Enter = choose    Esc = cancel	Esquerra/Dreta = menú Amunt/Avall = element Enter = triar Esc = cancel·lar
+msg.phrase	Cancelled	Cancel·lat
+msg.phrase	The selection is too large or memory is low.	La selecció és massa gran o la memòria és baixa.
+msg.phrase	the cell	la cèl·lula
+msg.phrase	the selection	la selecció
+msg.phrase	Nothing to paste	Res a enganxar
+msg.phrase	Pasted	Enganxat
+msg.phrase	GO TO CELL	ANAR A LA CEL·LULA
+msg.phrase	Cell reference (A1):	Referència cel·lular (A1):
+msg.phrase	Goto	Vés a
+msg.phrase	COLUMN WIDTH	AMPLADA DE COLUMNA
+msg.phrase	Width in characters (4..30):	Amplada en caràcters (4..30):
+msg.phrase	ROW HEIGHT	ALÇADA DE FILA
+msg.phrase	Height in text rows (1..8):	Alçada a les files de text (1..8):
+msg.phrase	Auto fit: the sheet is empty	Ajust automàtic: el full està buit
+msg.phrase	BACKGROUND COLOUR	COLOR DE FONS
+msg.phrase	TEXT COLOUR	COLOR DEL TEXT
+msg.phrase	Arrows: choose    Enter: apply    Esc: cancel	Fletxes: escolliu Enter: aplica Esc: cancel·la
+msg.phrase	Colour index (PC-98 16-colour palette)	Índex de colors (PC-98 paleta de 16 colors)
+msg.phrase	Aa 123	Aa 123
+msg.phrase	Enter = apply    Esc = cancel	Enter = aplicar Esc = cancel·lar
+msg.phrase	Colour	Color
+msg.phrase	Background	Fons
+msg.phrase	Text	Text
+msg.phrase	GRAPH RANGE	GAMMA GRÀFICA
+msg.phrase	Range (for example A1:C10):	Interval (per exemple A1:C10):
+msg.phrase	Graph range	Interval gràfic
+msg.phrase	Use a range such as A1:C10.	Utilitzeu un rang com A1:C10.
+msg.phrase	Cannot draw the graph.	No es pot dibuixar el gràfic.
+msg.phrase	line	línia
+msg.phrase	bar	bar
+msg.phrase	mixed	barrejat
+msg.phrase	pie	pastís
+msg.phrase	Clear every cell in this sheet?	Esborra totes les cel·les d'aquest full?
+msg.phrase	Sheet erased	Full esborrat
+msg.phrase	Selected all used cells	S'han seleccionat totes les cel·les utilitzades
+msg.phrase	Recalculated	Recalculat
+msg.phrase	Memory	Memòria
+msg.phrase	Not enough PSRAM for the spreadsheet.	No hi ha prou PSRAM per al full de càlcul.
+msg.phrase	The sheet is empty.	El full està buit.
+msg.phrase	No numeric data in the selected range.	No hi ha dades numèriques a l'interval seleccionat.
+msg.phrase	Other	Altres
+msg.phrase	No positive values for a pie chart	No hi ha valors positius per a un gràfic circular
+msg.phrase	LINE	LÍNIA
+msg.phrase	BAR	BAR
+msg.phrase	MIXED	MIXTES
+msg.phrase	PIE	PASTÍS
+msg.phrase	S:/	S:/
+msg.phrase	Folder	Carpeta
+msg.phrase	SAVE AS	DESA COM
+msg.phrase	OPEN FILE	OBRIR FITXER
+msg.phrase	LibreOffice / CSV	LibreOffice / CSV
+msg.phrase	ODS  FODS  CSV	ODS FODS CSV
+msg.phrase	Name:	Nom:
+msg.phrase	(type a name, or choose below)	(escriu un nom o tria a continuació)
+msg.phrase	Name	Nom
+msg.phrase	Size	Mida
+msg.phrase	Enter=save  Left=up  Right/Enter on [DIR]=open  Tab=drive  Esc=cancel	Enter=desa a l'esquerra=a dalt a la dreta/Enter a [DIR]=obre la pestanya=drive Esc=cancel·la
+msg.phrase	Enter=open  Left=up  Right/Enter on [DIR]=open  Tab=drive  Esc=cancel	Enter=obrir a l'esquerra=amunt a la dreta/Enter a [DIR]=obrir la pestanya=unitat Esc=cancel·lar
+msg.phrase	Not enough memory.	No hi ha prou memòria.
+msg.phrase	Overwrite	Sobreescriure
+msg.phrase	Open	Obert
+msg.phrase	The file is too large (limit 8 MB).	El fitxer és massa gran (límit de 8 MB).
+msg.phrase	Not enough memory to read the file.	No hi ha prou memòria per llegir el fitxer.
+msg.phrase	Bad ZIP/ODS data.	Dades ZIP/ODS incorrectes.
+msg.phrase	CRC error in the ODS file.	Error CRC al fitxer ODS.
+msg.phrase	Unsupported or damaged file.	Fitxer no compatible o danyat.
+msg.phrase	Saved	Desat
+msg.phrase	Exported	Exportat
+msg.phrase	Unsaved changes	Canvis no desats
+msg.phrase	Save the current sheet before continuing?	Deseu el full actual abans de continuar?
+msg.phrase	New sheet	Full nou
+msg.phrase	SGTRK	SGTRK
+msg.phrase	UNTITLED	SENSE TÍTOL
+msg.phrase	song is too large	la cançó és massa gran
+msg.phrase	empty file	fitxer buit
+msg.phrase	not an SGT file	no és un fitxer SGT
+msg.phrase	bad BPM	mal BPM
+msg.phrase	bad speed	mala velocitat
+msg.phrase	bad title length	mala durada del títol
+msg.phrase	truncated title	títol truncat
+msg.phrase	bad character in title	mal personatge al títol
+msg.phrase	truncated order	ordre truncat
+msg.phrase	bad order length	mala durada de la comanda
+msg.phrase	bad pattern number in order	nombre de patró dolent en ordre
+msg.phrase	truncated pattern list	llista de patrons truncats
+msg.phrase	bad pattern count	recompte de patrons dolents
+msg.phrase	bad pattern index	índex de patrons dolents
+msg.phrase	duplicate pattern	patró duplicat
+msg.phrase	truncated pattern data	dades de patrons truncats
+msg.phrase	invalid pattern data	dades de patró no vàlides
+msg.phrase	trailing data in file	dades al final del fitxer
+msg.phrase	order refers to a missing pattern	L'ordre fa referència a un patró que falta
+msg.phrase	A:/	A:/
+msg.phrase	(untitled)	(sense títol)
+msg.phrase	Ready. Press F1 for help.	A punt. Premeu F1 per obtenir ajuda.
+msg.phrase	Follow OFF	Seguiu OFF
+msg.phrase	Nothing to undo	Res a desfer
+msg.phrase	Undo	Desfer
+msg.phrase	Note OFF	Nota OFF
+msg.phrase	Set an effect letter first	Estableix primer una lletra d'efecte
+msg.phrase	Effect cleared	Efecte esborrat
+msg.phrase	Parameter cleared	S'ha esborrat el paràmetre
+msg.phrase	Note cleared	Nota esborrada
+msg.phrase	Instrument cleared	Instrument esborrat
+msg.phrase	Volume cleared	Volum esborrat
+msg.phrase	Order list is full	La llista de comandes està plena
+msg.phrase	Order inserted	S'ha inserit l'ordre
+msg.phrase	Cannot delete the last order	No es pot suprimir l'última comanda
+msg.phrase	Order deleted	S'ha suprimit la comanda
+msg.phrase	Playing song	Tocant cançó
+msg.phrase	Stopped	Parat
+msg.phrase	New song	Cançó nova
+msg.phrase	Discard unsaved changes and start a new song? (Y/N)	Vols descartar els canvis no desats i començar una cançó nova? (S/N)
+msg.phrase	Discard unsaved changes and open a song? (Y/N)	Vols descartar els canvis no desats i obrir una cançó? (S/N)
+msg.phrase	Discard unsaved changes and quit? (Y/N)	Vols descartar els canvis no desats i sortir? (S/N)
+msg.phrase	Song settings updated	S'ha actualitzat la configuració de la cançó
+msg.phrase	Filename is empty	El nom del fitxer és buit
+msg.phrase	Save cancelled	Desa cancel·lada
+msg.phrase	Open cancelled	Obert cancel·lat
+msg.phrase	Edit ON	Edita ON
+msg.phrase	Edit OFF	Edita OFF
+msg.phrase	Follow ON	Segueix ON
+msg.phrase	Edit is OFF. Press F8 to edit.	L'edició està DESACTIVADA. Premeu F8 per editar.
+msg.phrase	I/O error	Error d'E/S
+msg.phrase	file is too large	el fitxer és massa gran
+msg.phrase	truncated file	fitxer truncat
+msg.phrase	SINE PAD	SINE PAD
+msg.phrase	TRIANGLE	TRIANGLE
+msg.phrase	SAW LEAD	PLOMB DE SERRA
+msg.phrase	SQUARE	PLAÇA
+msg.phrase	PULSE 25	PULSO 25
+msg.phrase	ORGAN	ÒRGAN
+msg.phrase	BASS	BAIX
+msg.phrase	BELL	CAMPANA
+msg.phrase	NOISE	SOroll
+msg.phrase	SINE	SINE
+msg.phrase	SAW	SAW
+msg.phrase	OFF	OFF
+msg.phrase	ON	ON
+msg.phrase	ROW	FILA
+msg.phrase	CHAN LEVEL	NIVELL CHAN
+msg.phrase	F1 HELP F2 SONG	F1 AJUDA F2 CANÇÓ
+msg.phrase	F3 INS  F4 SAVE	F3 INS F4 DESA
+msg.phrase	F5 PLAY F6 PAT	F5 PLAY F6 PAT
+msg.phrase	F7 STOP F8 EDIT	F7 STOP F8 EDIT
+msg.phrase	F9/F10 OCTAVE	F9/F10 OCTAVE
+msg.phrase	F11 FOLLOW	F11 SEGUIR
+msg.phrase	F12 QUIT	F12 SORTIR
+msg.phrase	SPACE PLAY/STOP	ESPAI PLAY/STOP
+msg.phrase	CTRL-S SAVE	CTRL-S DESA
+msg.phrase	CTRL-O OPEN	CTRL-O OBRIR
+msg.phrase	C-N NEW C-Z UNDO	C-N NOU C-Z DESFER
+msg.phrase	C-C STOP	C-C STOP
+msg.phrase	#TRANSPORT AND FILES	#TRANSPORT I FITXES
+msg.phrase	#ORDER LIST	#LLISTA DE COMANDES
+msg.phrase	#DISPLAY	#PANTALLA
+msg.phrase	#EDITING	#EDICIÓ
+msg.phrase	#EFFECTS (parameter is hexadecimal)	#EFFECTS (el paràmetre és hexadecimal)
+msg.phrase	LEFT/RIGHT PAGE   ENTER OR F1 CLOSE	PÀGINA ESQUERRA/DRETA INTRO O F1 TANCAR
+msg.phrase	SONG SETTINGS	Configuració de la cançó
+msg.phrase	UP/DOWN SELECT   LEFT/RIGHT ADJUST   ENTER/F2 CLOSE	AUP/BAIX SELECCIONAR ESQUERRA/DRETA AJUSTAR INTRO/F2 TANCAR
+msg.phrase	Type to edit the title. Backspace deletes the last character.	Escriu per editar el títol. Retrocés esborra l'últim caràcter.
+msg.phrase	BPM range 32..255. Speed range 1..31.	Interval de BPM 32..255. Interval de velocitat 1..31.
+msg.phrase	Pattern effects can also change speed and BPM while playing.	Els efectes del patró també poden canviar la velocitat i el BPM mentre es reprodueix.
+msg.phrase	INSTRUMENTS	INSTRUMENTS
+msg.phrase	UP/DOWN SELECT   SPACE PREVIEW   ENTER USE   F3 CLOSE	UP/DOWN SELECCIONAR ESPAI PREVISUALITZACIÓ ENTER USE F3 TANCAR
+msg.phrase	All four channels use wavetable synthesis.	Els quatre canals utilitzen síntesi de taula d'ones.
+msg.phrase	Preview plays C-4 on the track under the edit cursor.	La vista prèvia reprodueix C-4 a la pista sota el cursor d'edició.
+msg.phrase	SAVE SONG AS	DESA LA CANÇÓ COM
+msg.phrase	ENTER SAVE   F4 OR CTRL-C CANCEL	ENTREU DESA F4 O CTRL-C CANCEL·LA
+msg.phrase	Directory:	Directori:
+msg.phrase	File name:	Nom del fitxer:
+msg.phrase	The extension .SGT is added automatically.	L'extensió .SGT s'afegeix automàticament.
+msg.phrase	An existing file can be overwritten.	Es pot sobreescriure un fitxer existent.
+msg.phrase	OPEN SONG	CANÇÓ OBERTA
+msg.phrase	ENTER OPEN  BS PARENT  CTRL-O/CTRL-C CANCEL	INTRODUCIR OBRIR BS PARENT CTRL-O/CTRL-C CANCEL·LAR
+msg.phrase	(no .SGT files in this folder)	(no hi ha fitxers .SGT en aquesta carpeta)
+msg.phrase	CONFIRM	CONFIRMAR
+msg.phrase	Y = YES   N / ENTER / CTRL-C = NO	Y = SI N / ENTER / CTRL-C = NO
+msg.phrase	Y = yes        N = no	Y = sí N = no
+msg.phrase	C-	C-
+msg.phrase	C#	C#
+msg.phrase	D-	D-
+msg.phrase	D#	D#
+msg.phrase	E-	E-
+msg.phrase	F-	F-
+msg.phrase	F#	F#
+msg.phrase	G-	G-
+msg.phrase	G#	G#
+msg.phrase	A-	A-
+msg.phrase	A#	A#
+msg.phrase	B-	B-
+msg.phrase	A:/dir/name	A:/dir/nom
+msg.phrase	MThd	MThd
+msg.phrase	broken MThd	MThd trencat
+msg.phrase	MIDI IMPORT	IMPORTACIÓ MIDI
+msg.phrase	MTrk	MTrk
+msg.phrase	broken delta time	temps delta trencat
+msg.phrase	broken running status	estat de funcionament trencat
+msg.phrase	broken meta event	meta esdeveniment trencat
+msg.phrase	broken sysex event	esdeveniment sysex trencat
+msg.phrase	broken channel event	esdeveniment de canal trencat
+msg.phrase	SMF output is too small	La sortida SMF és massa petita
+msg.phrase	SMF output is too large	La sortida SMF és massa gran
+msg.phrase	the song is too long for SMF	la cançó és massa llarga per a SMF
+msg.phrase	TRK1	TRK1
+msg.phrase	%s%d	%s%d
+msg.phrase	%s%d:%s%d	%s%d:%s%d
+msg.phrase	%s	%s
+msg.phrase	%.40s%s	%.40s%s
+msg.phrase	  [%s]   %s	[%s] %s
+msg.phrase	EDIT  	EDITAR
+msg.phrase	READY 	PREPARAT
+msg.phrase	%4d 	%4d
+msg.phrase	%s Sum %.7g N %ld%s	%s Suma %.7g N %ld%s
+msg.phrase	ARROWS      move the cell cursor\n	FLETXES mouen el cursor de la cel·la
+msg.phrase	SHIFT+ARR   extend the selection (for graphs/copy)\n	MAJ+ARR amplia la selecció (per a gràfics/còpia)
+msg.phrase	ENTER       edit the cell; in edit, commit and move down\n	ENTER editeu la cel·la; en editar, confirmar i moure cap avall
+msg.phrase	TAB         next cell    SHIFT+TAB  previous cell\n	TAB cel·la següent MAJÚS+TAB cel·la anterior
+msg.phrase	DELETE      clear the selected cell(s)    ESC  cancel\n	ELIMINAR esborra les cel·les seleccionades ESC cancel·la
+msg.phrase	PGUP/PGDN   move one screen    HOME/END  first/last column\n	PGUP/PGDN mou una pantalla HOME/END primera/última columna
+msg.phrase	CTRL+HOME   A1    CTRL+END  last used cell\n	CTRL+INICIO A1 CTRL+FI darrera cel·la utilitzada
+msg.phrase	F1 help  F2 edit  F3 copy  F4 paste  F5 goto  F6 colour\n	F1 ajuda F2 edició F3 copiar F4 enganxar F5 anar a F6 color
+msg.phrase	F7 auto-fit  F8 background  F9 recalc  F10 graph  F11 save  F12 menu\n	F7 ajust automàtic F8 fons F9 recalc F10 gràfic F11 desa el menú F12
+msg.phrase	SHIFT+F1 about  SHIFT+F2 row height  SHIFT+F3 column width\n	MAJ+F1 sobre MAJ+F2 alçada de fila MAJ+F3 amplada de columna
+msg.phrase	SHIFT+F4 select all  SHIFT+F10 graph range  SHIFT+F11 save as\n	MAJ+F4 seleccioneu tot l'interval de gràfics MAJ+F10 deseu com a
+msg.phrase	CTRL+F1 new  CTRL+F2 open  CTRL+F3 save  CTRL+F4 save as\n	CTRL+F1 nou CTRL+F2 obre CTRL+F3 desa CTRL+F4 desa com
+msg.phrase	CTRL+F5 export CSV  CTRL+F6 export ODS  ALT+F12 quit\n	CTRL+F5 exporta CSV CTRL+F6 exporta ODS ALT+F12 surt
+msg.phrase	Bottom 2 lines: function keys; [SHIFT]/[CTRL]/[ALT] like the filer\n	2 línies inferiors: tecles de funció; [MAJÚS]/[CTRL]/[ALT] com el fitxer
+msg.phrase	CTRL+S save  CTRL+O open  CTRL+N new  CTRL+C/V/X copy/paste/cut\n	CTRL+S desa CTRL+O obre CTRL+N nou CTRL+C/V/X copiar/enganxar/tallar
+msg.phrase	CTRL+G goto    /  open the menu (1 File, 2 Edit, ...)\n	CTRL+G anar a / obrir el menú (1 Fitxer, 2 Edita, ...)
+msg.phrase	Built-in functions: SUM AVERAGE MIN MAX COUNT COUNTA\n	Funcions integrades: SUMA MITJANA MIN MAX COUNT COUNTA
+msg.phrase	PRODUCT ABS SQRT INT ROUND MOD POWER IF AND OR NOT\n	PRODUCTE ABS SQRT INT ROUND MOD POTÈNCIA SI I O NO
+msg.phrase	IFERROR LEN LEFT RIGHT MID UPPER LOWER TRIM CONCATENATE PI\n	IFERROR LEN ESQUERRA DRET MITJÀ SUPERIOR INFERIOR TRIM CONCATENAR PI
+msg.phrase	Cell refs: A1, $A$1, A1:B10.  Formulas begin with '='.\n	Referències de cel·la: A1, $A$1, A1:B10.  Les fórmules comencen amb "=".
+msg.phrase	Files: .ods (LibreOffice), .fods (flat XML), .csv\n	Fitxers: .ods (LibreOffice), .fods (XML pla), .csv
+msg.phrase	ODS/FODS keeps formulas, widths, heights and colours.\n	ODS/FODS manté fórmules, amplades, alçades i colors.
+msg.phrase	CSV keeps values and formulas (no colours/heights).\n	CSV conserva valors i fórmules (sense colors ni alçades).
+msg.phrase	Graph: select a range, press F10, and choose Line/Bar/Mixed/Pie.\n	Gràfic: seleccioneu un rang, premeu F10 i trieu Línia/Barra/Mixt/Pastel.
+msg.phrase	SGCALC for sgnano\n	SGCALC per sgnano
+msg.phrase	Version 	Versió
+msg.phrase	A Lotus 1-2-3 style spreadsheet as an SGX program.\n\n	Un full de càlcul d'estil Lotus 1-2-3 com a programa SGX.
+msg.phrase	SGX ABI %u.%u\n	SGX ABI %u.%u
+msg.phrase	Screen mode 3: text + CLUT8 FB (lowres disabled)\n	Mode de pantalla 3: text + CLUT8 FB (lowres inhabilitat)
+msg.phrase	Sheet: %d rows x %d columns\n	Full: %d files x %d columnes
+msg.phrase	Formats: .ods / .fods (LibreOffice), .csv\n\n	Formats: .ods / .fods (LibreOffice), .csv
+msg.phrase	The grid is drawn on the text plane.\n	La quadrícula es dibuixa al pla de text.
+msg.phrase	Charts and the 640x480 background use the FB.\n\n	Els gràfics i el fons de 640 x 480 utilitzen el FB.
+msg.phrase	%d %s	%d %s
+msg.phrase	Cannot store the cell (%d).	No es pot emmagatzemar la cel·la (%d).
+msg.phrase	Copied %d x %d cells	S'han copiat %d x %d cel·les
+msg.phrase	Cleared %s	Esborrat %s
+msg.phrase	'%s' is not a cell reference.	'%s' no és una referència de cel·la.
+msg.phrase	%d	%d
+msg.phrase	Column width = %d	Amplada de la columna = %d
+msg.phrase	Row height = %d	Alçada de fila = %d
+msg.phrase	Auto fit: %d column(s), %d row(s)	Ajust automàtic: %d columnes, %d files
+msg.phrase	%2d	%2d
+msg.phrase	Cannot apply the colour (%d).	No es pot aplicar el color (%d).
+msg.phrase	%s colour = %d	%s color = %d
+msg.phrase	Not a valid range.\nUse a range such as A1:C10.	No és un interval vàlid.\nUtilitzeu un rang com A1:C10.
+msg.phrase	Graph range %s	Interval gràfic %s
+msg.phrase	Graph: %s	Gràfic: %s
+msg.phrase	SGCALC: cannot set screen mode 3: %s\n	SGCALC: no es pot establir el mode de pantalla 3: %s
+msg.phrase	%.2g	%.2g
+msg.phrase	%.6g	%.6g
+msg.phrase	%s  %.0f%%	%s %.0f%%
+msg.phrase	GRAPH  %s  %s	GRÀFIC %s %s
+msg.phrase	%s%s	%s%s
+msg.phrase	%s/%s	%s/%s
+msg.phrase	%.*s	%.*s
+msg.phrase	%.*s/	%.*s/
+msg.phrase	Cannot read %s\n%s	No es pot llegir %s\n%s
+msg.phrase	Folder: %s	Carpeta: %s
+msg.phrase	[DIR] %s	[DIR] %s
+msg.phrase	      %s	%s
+msg.phrase	%lu.%luM	%lu.%luM
+msg.phrase	%luK	%luK
+msg.phrase	%luB	%luB
+msg.phrase	BOOK1%s	LLIBRE 1%s
+msg.phrase	%c:/	%c:/
+msg.phrase	Unsupported extension.\nUse .csv, .ods or .fods.	Extensió no compatible.\nUtilitzeu .csv, .ods o .fods.
+msg.phrase	%s already exists.\nOverwrite it?	%s ja existeix.\nSobreescriure-ho?
+msg.phrase	%s may not be writable.\nTry anyway?	És possible que %s no es pugui escriure.\nProvar de totes maneres?
+msg.phrase	Unknown file type for %s	Tipus de fitxer desconegut per a %s
+msg.phrase	Unsupported file type.\nUse .csv, .ods or .fods.	Tipus de fitxer no compatible.\nUtilitzeu .csv, .ods o .fods.
+msg.phrase	Cannot open %s\n%s	No es pot obrir %s\n%s
+msg.phrase	%s is a folder.	%s és una carpeta.
+msg.phrase	Cannot import %s\n%s	No es pot importar %s\n%s
+msg.phrase	Loaded %s	Carregat %s
+msg.phrase	Cannot build the %s file.	No es pot crear el fitxer %s.
+msg.phrase	Cannot write %s\n%s	No es pot escriure %s\n%s
+msg.phrase	%s %s	%s %s
+msg.phrase	unsupported version %u	versió no compatible %u
+msg.phrase	%d:%d:%d:%d:%d:%d	%d:%d:%d:%d:%d:%d
+msg.phrase	Octave %d	Octava %d
+msg.phrase	Note %s	Nota %s
+msg.phrase	Instrument %d	Instrument %d
+msg.phrase	Volume %s	Volum %s
+msg.phrase	Effect %c	Efecte %c
+msg.phrase	Parameter %s	Paràmetre %s
+msg.phrase	Pattern %s	Patró %s
+msg.phrase	Playing pattern %s	Patró de reproducció %s
+msg.phrase	SAVE ERROR: %s	DESA L'ERROR: %s
+msg.phrase	Saved %s	Desat %s
+msg.phrase	LOAD ERROR: %s	ERROR DE CARREGA: %s
+msg.phrase	BPM %d	BPM %d
+msg.phrase	Speed %d	Velocitat %d
+msg.phrase	Preview %s	Vista prèvia %s
+msg.phrase	Instrument %s %s	Instrument %s %s
+msg.phrase	Overwrite %s? (Y/N)	Sobreescriure %s? (S/N)
+msg.phrase	 | BPM %s SPD %s 	| BPM %s SPD %s
+msg.phrase	 SGNO TRACKER 1.0 | 	SGNO TRACKER 1.0 |
+msg.phrase	FILE 	FITXA
+msg.phrase	 PAT %s	PAT %s
+msg.phrase	 ORD %d/%d	ORD %d/%d
+msg.phrase	 INS %s 	INS %s
+msg.phrase	 OCT %d	OCTUBRE %d
+msg.phrase	 EDIT %s	EDITAR %s
+msg.phrase	ON 	ON
+msg.phrase	 FOL %s	FOL %s
+msg.phrase	TRACK %d	PISTA %d
+msg.phrase	%c%s	%c%s
+msg.phrase	%s %s %s %s	%s %s %s %s
+msg.phrase	%s 	%s
+msg.phrase	%d %s %s	%d %s %s
+msg.phrase	ORDER %d/%d	COMANDA %d/%d
+msg.phrase	PAT   %s	PAT %s
+msg.phrase	INS %s %s	INS %s %s
+msg.phrase	OCT %d  EDIT %s	OCT %d EDITAR %s
+msg.phrase	FOLLOW %s	SEGUIR %s
+msg.phrase	PLAYING  ORD %d/%d  PAT %s  ROW %s/%d  SPD %s  BPM %d  F7 STOP	PLAYING ORD %d/%d PAT %s ROW %s/%d SPD %s BPM %d F7 STOP
+msg.phrase	READY  EDIT %s  OCT %d  F1 HELP  F5 PLAY  CTRL-S SAVE	PREPARAT EDITAR %s OCT %d F1 AJUDA F5 REPRODUCIR CTRL-S DESA
+msg.phrase	 %s 	%s
+msg.phrase	  F5          Play the song from the current order	F5 Reprodueix la cançó des de l'ordre actual
+msg.phrase	  F6          Play the current pattern	F6 Reprodueix el patró actual
+msg.phrase	  F7/Ctrl-C   Stop playback	F7/Ctrl-C Atura la reproducció
+msg.phrase	  Space       Play / stop	Space Play / stop
+msg.phrase	  F4          Save as	F4 Desa com
+msg.phrase	  Ctrl-S      Save (asks for a name if new)	Ctrl-S Desa (demana un nom si és nou)
+msg.phrase	  Ctrl-O      Open a song	Ctrl-O Obre una cançó
+msg.phrase	  Ctrl-N      New song	Ctrl-N Cançó nova
+msg.phrase	  F12         Quit (confirmation if modified)	F12 Surt (confirmació si es modifica)
+msg.phrase	  [ ]         Previous / next order entry	[ ] Entrada de comanda anterior/següent
+msg.phrase	  { }         Insert / delete an order entry	{ } Inserir/suprimir una entrada de comanda
+msg.phrase	  - +         Change the pattern in the entry	- + Canvia el patró a l'entrada
+msg.phrase	  F11         Follow playback (turns off on manual move)	F11 Seguiu la reproducció (desactiva el moviment manual)
+msg.phrase	  F1          Help; Left/Right changes page	Ajuda F1; Esquerra/Dreta canvia la pàgina
+msg.phrase	  F8          Toggle edit mode	F8 Canvia el mode d'edició
+msg.phrase	  Arrows      Move the cursor	Fletxes Mou el cursor
+msg.phrase	  PgUp/PgDn   Jump 16 rows	PgUp/PgDn Salta 16 files
+msg.phrase	  Home/End    First / last row	Inici/Fi Primera/última fila
+msg.phrase	  F9/F10      Octave down / up	F9/F10 Octava avall / amunt
+msg.phrase	  Z S X D C V G B H N J M      lower piano row	Z S X D C V G B H N J M fila inferior del piano
+msg.phrase	  Q 2 W 3 E R 5 T 6 Y 7 U      upper piano row	Q 2 W 3 E R 5 T 6 Y 7 U fila superior de piano
+msg.phrase	  1           Note off	1 Nota desactivada
+msg.phrase	  0 / Del     0 clears note/inst/fx; Del clears any	0 / Del 0 esborra nota/inst/fx; Del esborra qualsevol
+msg.phrase	  Ctrl-Z      Undo the last pattern/order edit	Ctrl-Z Desfer l'última edició de patró/ordre
+msg.phrase	  Axy   Volume slide: up x, down y	Diapositiva de volum Axy: amunt x, avall y
+msg.phrase	  Cxx   Note cut after xx ticks	Cxx Nota tallada després de xx ticks
+msg.phrase	  Dxx   Set volume (00..7F)	Dxx Configura el volum (00..7F)
+msg.phrase	  Fxx   Speed if xx < 20, otherwise BPM	Fxx Velocitat si xx < 20, en cas contrari, BPM
+msg.phrase	  Hxy   Arpeggio x, y semitones	Hxy Arpegi x, y semitons
+msg.phrase	  Pxx   Pitch slide up	Pxx Llisca cap amunt
+msg.phrase	  Qxx   Pitch slide down	Qxx Llisca cap avall
+msg.phrase	  F2 song settings, F3 instrument list	Configuració de cançons F2, llista d'instruments F3
+msg.phrase	HELP %d/2	AJUDA %d/2
+msg.phrase	  Title	Títol
+msg.phrase	  [%s_]	[%s_]
+msg.phrase	  BPM   : %d     (left/right -1/+1, -/+ -5/+5)	BPM: %d (esquerra/dreta -1/+1, -/+ -5/+5)
+msg.phrase	  Speed : %d ticks/row	Velocitat: %d ticks/fila
+msg.phrase	  Rows  : %d (fixed)	Files: %d (fixes)
+msg.phrase	  Order : %d entries	Ordre: %d entrades
+msg.phrase	  Patterns in use : %d	Patrons en ús: %d
+msg.phrase	 #  NAME       WAVE       A   D   S   R  VOL	# NOM ONADA A D S R VOL
+msg.phrase	 %c %d  %-9s %-9s %3d %3d %3d %3d %4d	%c %d %-9s %-9s %3d %3d %3d %3d %4d
+msg.phrase	Current instrument: %s %s	Instrument actual: %s %s
+msg.phrase	  %s	%s
+msg.phrase	DIR  %s	DIR %s
+msg.phrase	 %c %s%s	%c %s%s
+msg.phrase	Files: %d	Fitxers: %d
+msg.phrase	%02d	%02d
+msg.phrase	%03d	%03d
+msg.phrase	%02X	%02X
+msg.phrase	SGNO TRACKER: incompatible SGX ABI\n	SGNO TRACKER: SGX ABI incompatible
+msg.phrase	S: check: wait -- a file is being read or written	S: comproveu: espereu -- s'està llegint o escrivint un fitxer
+msg.phrase	S: check: the drive is busy or not ready	S: comproveu: la unitat està ocupada o no està preparada
+msg.phrase	nothing for this item (ContextMenu.cfg)	res per a aquest element (ContextMenu.cfg)
+msg.phrase	bad command in ContextMenu.cfg	ordre incorrecta a ContextMenu.cfg
+msg.phrase	unknown action in ContextMenu.cfg	acció desconeguda a ContextMenu.cfg
+msg.prefix	menu	menú
+msg.phrase	choose a file or folder	tria un fitxer o carpeta
+msg.phrase	this drive cannot be written	aquesta unitat no es pot escriure
+msg.phrase	an archive job is already running	una tasca d'arxiu ja s'està executant
+msg.phrase	no PSRAM for the archive task	no hi ha PSRAM per a la tasca d'arxiu
+msg.phrase	could not start the archive task	no s'ha pogut iniciar la tasca d'arxiu
+msg.phrase	too many items (32 at most)	massa elements (32 com a màxim)
+msg.phrase	nothing to compress	res a comprimir
+msg.phrase	no name (or the name has / or \\)	sense nom (o el nom té / o \\)
+msg.phrase	32 items at most (mark fewer, or put them in a folder)	32 elements com a màxim (marqueu menys o col·loqueu-los en una carpeta)
+msg.prefix	archive	arxiu
+msg.prefix	compress	comprimir
+msg.prefix	render	render
+msg.phrase	5 Macro	5 Macro
+msg.phrase	6 Help	6 Ajuda
+msg.phrase	Run current	Executar corrent
+msg.phrase	Run the macro at the cursor (#! header cell and the cells below it)	Executeu la macro al cursor (#! cel·la de la capçalera i les cel·les que hi ha a sota)
+msg.phrase	Run selection	Executar la selecció
+msg.phrase	Run the selected cells as one macro (top-left cell is the #! header)	Executeu les cel·les seleccionades com una macro (la cel·la superior esquerra és la capçalera #!)
+msg.phrase	Run all	Corre tots
+msg.phrase	Run every macro in the sheet, top-left to bottom-right	Executeu totes les macros del full, de dalt a l'esquerra a baix a la dreta
+msg.phrase	Last error	Últim error
+msg.phrase	Show the last macro error	Mostra l'últim error de macro
+msg.phrase	Macro	Macro
+msg.phrase	Macro: run #!ruby / #!python / #!basic cells	Macro: executeu #!ruby / #!python / #!cel·les bàsiques
+msg.phrase	Edit the cell (F2)	Edita la cel·la (F2)
+msg.phrase	Fit widths/heights to the contents	Ajustar amplades/altures al contingut
+msg.phrase	Last macro error	Últim error de macro
+msg.phrase	No macro error.	Cap error de macro.
+msg.phrase	IME on	IME activat
+msg.phrase	IME off	IME apagat
+msg.phrase	Macro: %s %s ...	Macro: %s %s...
+msg.phrase	%s: this firmware cannot run macros (SGX ABI 5.10 or later)	%s: aquest microprogramari no pot executar macros (SGX ABI 5.10 o posterior)
+msg.phrase	Macro error: %s	Error de macro: %s
+msg.phrase	Macro: %s done	Macro: %s fet
+msg.phrase	a macro is already running	ja s'està executant una macro
+msg.phrase	this language is not available	aquest idioma no està disponible
+msg.phrase	not enough memory	no hi ha prou memòria
+msg.phrase	the macro stopped with an error	la macro es va aturar amb un error
+msg.phrase	Macro error %s: %s	Error de macro %s: %s
+msg.phrase	Macro: not enough memory	Macro: memòria insuficient
+msg.phrase	Macro: the cursor is not on a macro (a #!ruby / #!python / #!basic cell or the cells below it)	Macro: el cursor no es troba en una macro (una #!ruby / #!python / #!cel·la bàsica o les cel·les que hi ha a sota)
+msg.phrase	Macro: no macro in the sheet	Macro: no hi ha macro al full
+msg.phrase	Run all macros	Executeu totes les macros
+msg.phrase	Macros: %d. Run them all, top-left to bottom-right? Changes cannot be undone.	Macros: %d. Executeu-los tots, de dalt a l'esquerra a baix a la dreta? Els canvis no es poden desfer.
+msg.phrase	Macro: %d of %d done	Macro: %d de %d fet
+msg.phrase	Cleared the cell	Va netejar la cel·la
+msg.phrase	Cleared the selection	S'ha esborrat la selecció
+msg.phrase	Background colour = %d	Color de fons = %d
+msg.phrase	Text colour = %d	Color del text = %d
+msg.phrase	Graph: line	Gràfic: línia
+msg.phrase	Graph: bar	Gràfic: barra
+msg.phrase	Graph: mixed	Gràfic: mixt
+msg.phrase	Graph: pie	Gràfic: pastís
+msg.phrase	Exported %s	Exportat %s

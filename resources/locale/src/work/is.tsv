@@ -1,0 +1,373 @@
+# is: machine translation (Google), unreviewed; 2026-11-17
+U001	Listi (skrár og möppur í 2 dálkum x 19 raðir)
+U002	Færðu bendilinn (vinstri / hægri: hinn dálkinn)
+U003	Fyrri síða / næsta síða
+U004	Merktu öll / snúðu við merkjunum (eins og í PC-98 FD)
+U005	Fyrst/síðast
+U006	Merktu og farðu áfram / merktu aðeins
+U007	Shift+örvar
+U008	Veldu svið (bil merkir svið)
+U009	Sláðu inn möppu / opnaðu skrá (F2/X keyrsla)
+U010	Upp í foreldramöppuna
+U011	Veldu drif (USB, diskling, CD, S: innbyggt)
+U012	Afrita (Shift+C / Shift+F3 velur áfangastað úr trénu)
+U013	Færa
+U014	Eyða (Shift+D / Shift+F4 eyða möppu)
+U015	Endurnefna
+U016	Breyttu eiginleikum
+U017	Opnaðu í ritlinum
+U018	Skoða sem texta (Shift+V / Ctrl+Alt+F7 hex)
+U019	Drif upplýsingar
+U020	Ný mappa / ný skrá
+U021	Skelja sgsh / kasta út miðlinum
+U022	Endurhlaða
+U023	Vistaðu skjáinn sem PNG
+U024	Lokaðu glugganum / hreinsaðu valið (í undirmöppu: farðu upp)
+U025	Skráaraðgerðir (eins og í FD: merki, síðan svið, síðan bendill)
+U026	Afrita: veldu áfangastað úr drif- og möpputrénu. ESC hættir
+U027	Eyða: staðfestu með y. Merkir og svið í einu. Möppur með innihaldi þeirra
+U028	Eyða möppu (með innihaldi hennar)
+U029	Endurnefna (breyta nafninu, slá inn)
+U030	Eiginleikar: R skrifvarinn, H falinn, S kerfi, A skjalasafn
+U031	Ný mappa
+U032	Ný (tóm) skrá
+U033	Skoða sem texta (Shift+V / Ctrl+Alt+F7 hex)
+U034	Shell sgsh (hætta / Ctrl-D til baka í skrána)
+U035	Auðkenni drifsins (Fyrirspurn, auðkenna)
+U036	Taktu út FDD / LS-120 / CD miðilinn
+U037	Endurhlaða listann (CD: frá TOC)
+U038	Fáðu frá tölvunni með ZMODEM (zm.sh setja)
+U039	Senda á tölvuna með ZMODEM (zm.sh get)
+U040	Settu saman .rb og skrifaðu .mrb
+U041	Ruby REPL (ein lína í einu, Ctrl-D / ESC til að enda)
+U042	MicroPython REPL
+U043	Skiptu í 4 MB hluta / sameinast frá .001
+U044	Skipta / sameina (sama og Ctrl+F11 / F12)
+U045	Skjár (Alt+F, stangast ekki á við FD F takkana)
+U046	Sýna / fela FB (mynd) / textann
+U047	FB birtingarsíða (0-3)
+U048	Hreinsaðu FB í 0 / helminga birtustig þess (RGB555)
+U049	USB endapunktar og staðarnetsstaða
+U050	Hreinsaðu FB skjásíðuna / helmingaðu birtustig hennar
+U051	Dæmi um eiginleika texta
+U052	Skjár EDID (lesið við ræsingu)
+U053	Letur ROM leyfi og inneign
+U054	Stillingar (skjátungumál, IME og staðsetning lyklaborðs)
+U055	Klukka (tími Japans stilltur af NTP; s samstillast núna)
+U056	Opna töflureikni (SGCALC)
+U057	Athugaðu S: fyrir villur (spyr áður en viðgerð er gerð)
+U058	Opnaðu TRACKER
+U059	Endurræsa (spyr fyrst)
+U060	Spilaðu ADC steríóinntakið (GP40 / 41)
+U061	Flyttu út VGM/VGZ í 96 kHz / 24-bita WAV
+U062	Þessi hjálp
+U063	Skiptu um síðu
+U064	Loka
+U065	Texti / hex skoðari (eins og minna)
+U066	Ein lína
+U067	Ein síða
+U068	Hálf síða
+U069	Leita (fram / afturábak) / næst / fyrri
+U070	Til baka í listann (F1: hjálp áhorfandans)
+U071	Myndaskoðari
+U072	Til baka í listann (F2 F3 F6 F7 Shift+F2 F3 vinna)
+U073	Ritstjóri (E / Shift+F8)
+U074	Vista (UTF-8; línu lýkur og uppskrift geymd)
+U075	Loka (ef breytt: J / N / ESC)
+U076	Setja inn / skrifa yfir
+U077	IME kveikt/slökkt (japanska / enska / kóreska)
+U078	IME tungumál (japanska / enska / kóreska)
+U079	Skuldbinda sig sem hiragana / katakana
+U080	Aðstoð ritstjórans
+U081	Skel
+U082	Skel (csh undirmengi. hætta / Ctrl-D til að fara aftur, hjálp sýnir skipanirnar)
+U083	Listi og flytur
+U084	Skráaraðgerðir
+U085	Skjár og tæki
+U086	Áhorfendur og ritstjóri
+U087	Hjálp %u / %u %s
+U088	Vinstri Hægri: breyta síðu F1 / ESC: loka
+U089	Endurræsa sgnano?
+U090	[Endurræsa]
+U091	[Hætta við]
+U092	Athugaðu S: drifið fyrir villur
+U093	Skrár %lu möppur %lu
+U094	Stærðin passar ekki við keðjuna
+U095	Klasar notaðir af engu
+U096	Krosstengdir klasar
+U097	Brotnar færslur
+U098	FAT eintökin tvö eru ólík
+U099	Engar villur.
+U100	Villur fundust. gera við þær?
+U101	Lagað (númerin hér að ofan voru lagfærð).
+U102	Gat ekki athugað eða gert við (S: er upptekinn).
+U103	[Viðgerð]
+U104	[Hætta við]
+U105	Allir lyklar lokast
+U106	Stillingar
+U107	Sýna tungumál
+U108	Staðsetning lyklaborðs
+U109	Upp / Niður Sláðu inn veldu ESC hætta við
+U110	Sýna tungumál
+U111	Upp / Niður Sláðu inn: stilltu ESC: til baka
+U112	Lagaðu %c: sem hvaða staf? (A-Ö nema S. ESC hættir við)
+U113	Drifstafur / Enter veldu F2 laga/aflétta bókstafnum F3 laga sem... L / ESC hætta við
+U114	skipting %u
+U115	%c:* (fast, ekki tengt) %04X:%04X%s %s
+U116	Takið eftir
+U117	Akstur %c: %s
+U118	Drive (enginn)
+U119	Hljóðgeisladisk %u lög
+U120	Möppur %u skrár %u samtals %s
+U121	Að lesa...
+U122	* merkt %u %s
+U123	%lu bæti
+U124	Attr %s breytt %s búið til %s %s
+U125	Sun
+U126	mán
+U127	þri
+U128	miðvikud
+U129	fim
+U130	fös
+U131	lau
+U132	Klukkan er ekki stillt (NTP yfir LAN)
+U133	FB skjár %u skrifa %u
+U134	1 Hjálp
+U135	2 Hlaupa
+U136	3 Afrita
+U137	4 Del
+U138	5 Endurnefna
+U139	7 FBclr
+U140	8 FBdim
+U141	9 Ekið
+U142	10 EP
+U143	11 Klukka
+U144	12 CALC
+U145	1 Attr
+U146	2 Upplýsingar
+U147	3 Færa
+U148	5 Mkdir
+U149	6 Skel
+U150	8 Breyta
+U151	9 Skoða
+U152	10 S:chk
+U153	11 LÖK
+U154	12Endurræstu
+U155	1 Nýtt
+U156	2 Mappa
+U157	3 Endurnefna
+U158	4 Atrib
+U159	6 Afrit
+U160	7 Færa
+U161	8 Eyða
+U162	9 Breyta
+U163	10 mrbc
+U164	11 Skipt
+U165	12 Vertu með
+U166	1 Attrs
+U167	2 FB
+U168	3 Texti
+U169	5 ScrSht
+U170	6 DispBls
+U171	9 ZMrecv
+U172	10ZMsend
+U173	2 FBClr
+U174	3 FBDim
+U175	5 Endurhlaða
+U176	7 Hex
+U177	9 Lic
+U178	11 Uppsetning
+U179	Stilltu klukkuna (tími Japans. NTP gat ekki stillt hana)
+U180	Keyra með breytum
+U181	Ný mappa
+U182	Ný skrá
+U183	Tími:
+U184	Hlaupa:
+U185	Nafn:
+U186	ÁÁÁÁ-MM-DD kl:mm Sláðu inn stillt ESC keep
+U187	Sláðu inn keyra <-> færa BS / Del eyða ESC hætta við
+U188	Sláðu inn endurnefna <-> færa BS / Del eyða ESC hætta við
+U189	Sláðu inn búa til <-> færa BS / Del eyða ESC hætta við
+U190	Eyða
+U191	atriði
+U192	Möppum er eytt með innihaldi þeirra. Ertu viss?
+U193	Eyða þessari skrá?
+U194	(Ekki er hægt að afturkalla þetta. Skrám í möppunum er líka eytt)
+U195	[Já (Y)]
+U196	[Nei (N)]
+U197	hex skoðari: veldu skrá
+U198	textaskoðari: veldu skrá
+U199	Færa til
+U200	Afrita til
+U201	Stuðpúðinn er fullur
+U202	Drifið er skrifvarið
+U203	Get ekki vistað (enginn rithöfundur)
+U204	Gat ekki byrjað að vista (drifið er upptekið?)
+U205	Vistar...
+U206	2 Vista
+U207	5 Litur
+U208	6 Hira
+U209	7 Kata
+U210	8 Pred
+U211	10 Hætta
+U212	1 efst
+U213	2 Lok
+U214	3 InsOvr
+U215	4 Dikt
+U216	6 HHira
+U217	7 HKata
+U218	%s %s Ln %lu/%lu Col %u %s %s %s%s%s
+U219	*mod
+U220	OVR
+U221	INS
+U222	R/O
+U223	Ritstjóri (sgnano edit) F1 / ESC lokar
+U224	Örvar / Heimalok / PgUp PgDn færðu bendilinn
+U225	Ctrl-T / Ctrl-B efst / lok skráarinnar
+U226	BS / Del eyða fyrir / við bendilinn
+U227	Sláðu inn nýja línu (heldur inndráttinn)
+U228	Flipi / Ins flipi / setja inn eða skrifa yfir
+U229	F5 litarefni (frá viðbótinni; C/C++, mruby, MicroPython, SG BASIC, engin)
+U230	F2 (Ctrl-S) vista (UTF-8, línuenda haldið)
+U231	F10 / ESC loka (spyr hvort breytt sé)
+U232	IME: Ctrl-Blás / F12 kveikt / slökkt (あ / A)
+U233	F9 IME tungumál (aðeins þessi ritstjóri; endurheimt við lokun)
+U234	F8 japanska forspárbreyting kveikt/slökkt
+U235	Japanskt romaji -> hiragana (F6) / katakana (F7)
+U236	Hálfbreidd hiragana (Shift+F6) / hálfbreidd katakana (Shift+F7)
+U237	Spáðu fyrir með 2 eða fleiri stöfum, umbreyttu samfelldu ákvæði með bili
+U238	Enska forspárútfylling með 2 eða fleiri stöfum
+U239	한국어 2 Bol-stíl Hangul
+U240	Bil / Enter Umbreyta / Staðfesta
+U241	← → Veldu setningu
+U242	Shift+← → Minnka/stækka hægri enda setningarinnar um einn staf (nýir umsækjendur)
+U243	↑ ↓ / Flipi Fyrri / næsti frambjóðandi í sprettiglugga (fyrir neðan textann, fyrir ofan nálægt neðst)
+U244	Sláðu inn á →→→ Allir frambjóðendur (2 x 8, ← → dálkur og síða, Enter velur)
+U245	Sláðu inn næsta klausu (staðfestir heildina í síðasta setningunni)
+U246	Ctrl-U Bættu núverandi orði við notandaorðabók
+U247	Shift+F1 / F2 / F3 / F4 efst / enda / setja inn-skrifa yfir / í notendaorðabókina
+U248	BS / ESC Fara til baka einn staf / Hætta við
+U249	, . - [ ] / 、 。 ー 「 」 ・
+U250	Breytt Y: vista og loka N: loka án þess að vista ESC: til baka
+U251	[Spá] Flipi/↑↓: frambjóðandi Rúm: umbreyta Esc: hætta við
+U252	[Kandidatar] ↑↓: veldu ←→: dálkur/síðu Sláðu inn: veldu
+U253	[Breyta] ↑↓cand ←→ákvæði Shift+←→bundið Sláðu inn næst
+U254	[한국어] Tab/↑↓: frambjóðandi Sláðu inn/Blás: staðfesta
+U255	[Enska] Tab/↑↓: frambjóðandi Sláðu inn: staðfesta
+U256	2-sett Hangul inntak Ctrl-Space: alfanumerískt
+U257	Fyrirsjáanleg frágangur Ctrl-Space: beint inntak
+U258	Engin orðabók: aðeins hiragana/katakana F6/F7
+U259	Blás: umbreyta F7: katakana Ctrl-Blás: alfanumerískt
+U260	Bil: umbreyta F6: hiragana Ctrl-Blás: tölustafur
+U261	Hálfbreidd F6: hiragana F7: katakana Shift+F6/F7: hálf
+U262	IME slökkt
+U263	spá
+U264	Sjálfvirk japönsk þýðing: Kveikt
+U265	Sjálfvirk þýðing fyrir japönsku: Slökkt
+U266	Notaðu með japönsku IME
+U267	Ekki er hægt að bæta við notandaorðabók
+U268	Litur: %s
+U269	Hleður...
+U270	Gat ekki lesið skrána
+U271	%lu línur%s%s
+U272	opnaði Shift_JIS sem UTF-8 (vistað sem UTF-8)
+U273	skrifvarinn
+U274	Vistað
+U275	Gat ekki vistað (ritun mistókst)
+U276	Frambjóðendur
+U277	7 WrtBls
+U278	9 Texti
+U279	9 Hex
+U280	Hleður %lu%%
+U281	(aðeins byrjunin)
+U282	Hex q ESC: aftur F1: hjálp
+U283	Texti q ESC: aftur F1: hjálp
+U284	Skoðunarlyklar (eins og minna; það sama fyrir texta og hex)
+U285	Ein lína niður
+U286	Ein lína upp
+U287	Einni síðu niður
+U288	Ein blaðsíða upp
+U289	Hálf síða niður/upp
+U290	/texti ?texti
+U291	Leita niður / upp (hundsar hástafi)
+U292	Næsta / fyrri leikur
+U293	Sýna sem sexkant (á sama stað)
+U294	Sýna sem texta (á sama stað)
+U295	Skiptu um litun (C/C++, mruby, MicroPython, SG BASIC, enginn)
+U296	Sýna / fela FB / textann
+U297	FB birta síðu / skrifa síðu
+U298	Aftur að skránni
+U299	Lokaðu þessari hjálp
+U300	Afrita
+U301	%s: lesa möppurnar... %u
+U302	%s: að telja laust pláss á áfangastað...
+U303	%s: ekki nóg pláss á áfangastað
+U304	Færa: fjarlægir upprunamöppurnar
+U305	Búið
+U306	Hætt
+U307	%s í vinnslu%s
+U308	(hætta)
+U309	Frá: %s
+U310	Til: %s
+U311	Skrár %u / %u möppur %u %s / %s (%u%%)%s
+U312	of margir: aðeins sumir
+U313	Þarfir %s, ókeypis %s. Halda áfram?
+U314	Y: halda áfram N / ESC: hætta við
+U315	Ýttu á hvaða takka sem er til að loka
+U316	ESC: hættu
+U317	%s: ←→ drif ↑↓ mappa Pláss opna/loka Sláðu inn veldu ESC hætta við
+U318	Get ekki lesið: %s
+U319	Að lesa möppurnar... (ESC hættir) %u
+U320	%u möppur%s
+U321	(of margir eða of djúpir: aðeins sumir)
+U322	Hætti að opna möppuna
+U323	Rýmið opnar það aftur. ESC hættir enn og aftur
+U324	SMF / SGT spilari %s
+U325	Hleður... %lu / %lu bæti
+U326	%s / %s %s tengi %u
+U327	Gert hlé
+U328	Að spila
+U329	Bil: hlé m: MIDI OUT q / ESC: hætta
+U330	q / ESC: hætta við
+U331	Letur ROM leyfi og inneign\n\nROM: %s (útgáfa %lu.%lu, %lu stafir, frá 0x%08lX í flassinu)
+U332	== Leturgerðir í ROM (upprunatöflu ROM) ==
+U333	(ROM hefur enga töflu)
+U334	== Einingasvæði ROM ==
+U335	(ekkert slíkt svæði)
+U336	== Leyfi fyrir innbyggða hugbúnaðinn ==
+U337	Vistar %s sem PNG %s
+U338	Skjár
+U339	Byggja... %lu / %lu raðir
+U340	Skrifar... %lu / %lu KB (FB er falið)
+U341	Gat ekki skrifað
+U342	Heiti skjalasafns (merktu atriðin, eða bendilinn ef enginn)
+U343	Sláðu inn þjappa ←→ færa BS / Eyða eyða ESC hætta við
+U344	WAV útflutningur: %s hætt (%s)
+U345	WAV útflutningur: %s mistókst (%s)
+U346	WAV útflutningur: %s samtals %s
+U347	WAV útflutningur (96kHz / 24bit): %s
+U348	Hætt við
+U349	Mistókst
+U350	Samtals %s
+U351	Hætt við (%s; skránni að hluta var eytt)
+U352	Gat ekki flutt út (%s). Ástæða:
+U353	(ástæða óþekkt)
+U354	%u%% liðinn %s%s
+U355	ESC: hætta (að hluta skránni er eytt)
+U356	Skjalasafn: %s
+U357	Les... (ESC til að hætta við)
+U358	%u atriði%s samtals %s bæti draga út til: %s
+U359	Sláðu inn útdráttaratriði X draga allt út ↑↓ færa ESC nálægt
+U360	Þjappa saman
+U361	Listi
+U362	Útdráttur
+U363	Samtals %s %u atriði
+U364	Samtals %s %u skrár
+U365	Hætt við (%s; ókláruðu skránni var eytt)
+U366	Gat ekki gert það (%s): %s
+U367	%u%% liðin %s %s bæti%s
+U368	liðin %s %s bæti%s
+U369	ESC: hætta (ókláruðu skránni er eytt)
+U370	Skjalasafn: %s mistókst (%s)
+U371	Þjappað: %s (%u hlutir)
+U372	Dregið út: %s (%u skrár)

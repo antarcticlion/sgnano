@@ -1,0 +1,373 @@
+# nl: machine translation (Google), unreviewed; 2026-11-17
+U001	Lijst (bestanden en mappen in 2 kolommen x 19 rijen)
+U002	Verplaats de cursor (links / rechts: de andere kolom)
+U003	Vorige pagina / volgende pagina
+U004	Markeer alles / keer de markeringen om (zoals in PC-98 FD)
+U005	Eerste / laatste
+U006	Markeer en ga verder / markeer alleen
+U007	Shift+pijlen
+U008	Selecteer een bereik (spatie markeert het bereik)
+U009	Voer een map in / open een bestand (F2/X run)
+U010	Tot aan de bovenliggende map
+U011	Kies een station (USB, floppy, CD, S: ingebouwd)
+U012	Kopiëren (Shift+C / Shift+F3 kiest de bestemming uit de boom)
+U013	Beweging
+U014	Verwijderen (Shift+D / Shift+F4 een map verwijderen)
+U015	Hernoemen
+U016	Wijzig de attributen
+U017	Openen in de editor
+U018	Bekijken als tekst (Shift+V / Ctrl+Alt+F7 hex)
+U019	Rij-informatie
+U020	Nieuwe map / nieuw bestand
+U021	Shell sgsh / werp het medium uit
+U022	Herladen
+U023	Sla het scherm op als PNG
+U024	Sluit het venster / wis de selectie (in een submap: ga naar boven)
+U025	Bestandsbewerkingen (zoals in FD: markeringen, dan het bereik en dan de cursor)
+U026	Kopiëren: kies de bestemming uit de stations- en mapstructuur. ESC stopt
+U027	Verwijderen: bevestig met y. Markeert en bereikt in één keer. Mappen met hun inhoud
+U028	Een map verwijderen (met de inhoud ervan)
+U029	Hernoemen (bewerk de naam, Enter)
+U030	Kenmerken: R alleen-lezen, H verborgen, S-systeem, A-archief
+U031	Nieuwe map
+U032	Nieuw (leeg) bestand
+U033	Bekijken als tekst (Shift+V / Ctrl+Alt+F7 hex)
+U034	Shell sgsh (afsluiten / Ctrl-D terug naar de filer)
+U035	Identiteit van de schijf (INQUIRY, IDENTIFY)
+U036	Werp het FDD/LS-120/CD-medium uit
+U037	Laad de lijst opnieuw (CD: uit de inhoudsopgave)
+U038	Ontvangen van de pc door ZMODEM (zm.sh put)
+U039	Verzenden naar de pc via ZMODEM (zm.sh get)
+U040	Compileer .rb en schrijf .mrb
+U041	Ruby REPL (één regel tegelijk, Ctrl-D / ESC om te eindigen)
+U042	MicroPython REPL
+U043	Opgesplitst in delen van 4 MB/join vanaf .001
+U044	Splitsen / samenvoegen (hetzelfde als Ctrl+F11 / F12)
+U045	Scherm (Alt+F, botst niet met de FD F-toetsen)
+U046	Toon / verberg de FB (foto) / de tekst
+U047	FB-weergavepagina (0-3)
+U048	Wis de FB naar 0 / halveer de helderheid (RGB555)
+U049	USB-eindpunten en de LAN-status
+U050	Wis de FB-weergavepagina / halveer de helderheid
+U051	Voorbeelden van tekstkenmerken
+U052	Monitor EDID (lezen bij opstarten)
+U053	Lettertype-ROM-licenties en -tegoeden
+U054	Instellingen (weergavetaal, IME en toetsenbordlandinstelling)
+U055	Klok (Japanse tijd ingesteld door NTP; s wordt nu gesynchroniseerd)
+U056	Spreadsheet openen (SGCALC)
+U057	Controleer S: op fouten (vraagt ​​voordat u repareert)
+U058	TRACKER openen
+U059	Opnieuw opstarten (eerst gevraagd)
+U060	Speel de ADC-stereo-ingang af (GP40 / 41)
+U061	Exporteer VGM/VGZ naar een 96 kHz / 24-bit WAV
+U062	Deze hulp
+U063	Wijzig de pagina
+U064	Dichtbij
+U065	Tekst- / hex-viewer (zoals minder)
+U066	Eén regel
+U067	Eén pagina
+U068	Een halve pagina
+U069	Zoeken (vooruit / achteruit) / volgende / vorige
+U070	Terug naar de lijst (F1: hulp van de kijker)
+U071	Afbeeldingsviewer
+U072	Terug naar de lijst (F2 F3 F6 F7 Shift+F2 F3 werk)
+U073	Editor (E / Shift+F8)
+U074	Opslaan (UTF-8; regel eindigt en stuklijst bewaard)
+U075	Sluiten (indien gewijzigd: J / N / ESC)
+U076	Invoegen / overschrijven
+U077	IME aan/uit (Japans / Engels / Koreaans)
+U078	IME-taal (Japans / Engels / Koreaans)
+U079	Commiteer als hiragana / katakana
+U080	Hulp van de redacteur
+U081	Schelp
+U082	Shell (een csh-subset. exit / Ctrl-D om terug te keren, help geeft de opdrachten weer)
+U083	Lijst en verhuizen
+U084	Bestandsbewerkingen
+U085	Scherm en apparaten
+U086	Kijkers en de redacteur
+U087	Hulp %u / %u %s
+U088	Links Rechts: de pagina wijzigen F1 / ESC: sluiten
+U089	Sgnano opnieuw opstarten?
+U090	[ Opnieuw opstarten ]
+U091	[ Annuleren ]
+U092	Controleer de S:-schijf op fouten
+U093	Bestanden %lu mappen %lu
+U094	Maat komt niet overeen met de ketting
+U095	Clusters die door niets worden gebruikt
+U096	Verknoopte clusters
+U097	Gebroken vermeldingen
+U098	De twee FAT-kopieën verschillen
+U099	Geen fouten.
+U100	Er zijn fouten gevonden. Repareer ze?
+U101	Gerepareerd (de bovenstaande cijfers zijn opgelost).
+U102	Kon niet controleren of repareren (S: is bezet).
+U103	[ Reparatie ]
+U104	[ Annuleren ]
+U105	Elke sleutel sluit
+U106	Instellingen
+U107	Weergavetaal
+U108	Toetsenbordlandinstelling
+U109	Omhoog / Omlaag Enter kies ESC annuleren
+U110	Weergavetaal
+U111	Omhoog / Omlaag Enter: instellen ESC: terug
+U112	Fix %c: als welke letter? (A-Z behalve S. ESC annuleert)
+U113	Stationsletter / Enter selecteer F2 fix/unfix de letter F3 fix as... L / ESC annuleren
+U114	partitie %u
+U115	%c:* (vast, niet aangesloten) %04X:%04X%s %s
+U116	Kennisgeving
+U117	Rijd %c: %s
+U118	Rijden (geen)
+U119	Audio-cd %u nummers
+U120	Mappen %u bestanden %u totaal %s
+U121	Lezing...
+U122	* gemarkeerd met %u %s
+U123	%lu bytes
+U124	Attr %s gewijzigd %s gemaakt %s %s
+U125	Zon
+U126	ma
+U127	di
+U128	wo
+U129	Do
+U130	Vr
+U131	Zat
+U132	De klok is niet ingesteld (NTP via LAN)
+U133	FB-display %u schrijf %u
+U134	1 Hulp
+U135	2 Rennen
+U136	3 Kopiëren
+U137	4 del
+U138	5 Hernoemen
+U139	7 FBclr
+U140	8 FBdim
+U141	9 Rijden
+U142	10 EP's
+U143	11 Klok
+U144	12 KALK
+U145	1 Attr
+U146	2 Info
+U147	3 Verplaatsen
+U148	5 MKdir
+U149	6 Schaal
+U150	8 Bewerken
+U151	9 Bekijken
+U152	10 S:chk
+U153	11 SPOOR
+U154	12Herstart
+U155	1 Nieuw
+U156	2 Map
+U157	3 Hernoemen
+U158	4 Attrib
+U159	6 Kopiëren
+U160	7 Verplaatsen
+U161	8 Verwijderen
+U162	9 Bewerken
+U163	10 mrbc
+U164	11 Splitsen
+U165	12 Doe mee
+U166	1 Attr
+U167	2 FB
+U168	3 Tekst
+U169	5 SchrSht
+U170	6 WeergavePg
+U171	9 ZMrecv
+U172	10ZMverzenden
+U173	2 FBClr
+U174	3 FBAfm
+U175	5 Herladen
+U176	7 Hex
+U177	9 Licentie
+U178	11 Installatie
+U179	Stel de klok in (Japanse tijd. NTP kon deze niet instellen)
+U180	Uitvoeren met parameters
+U181	Nieuwe map
+U182	Nieuw bestand
+U183	Tijd:
+U184	Loop:
+U185	Naam:
+U186	JJJJ-MM-DD uu:mm Voer de ingestelde ESC-waarde in
+U187	Enter uitvoeren <-> verplaatsen BS / Del verwijderen ESC annuleren
+U188	Voer hernoemen in <-> verplaats BS / Del verwijderen ESC annuleren
+U189	Enter creëren <-> verplaatsen BS / Del verwijderen ESC annuleren
+U190	Verwijderen
+U191	artikelen
+U192	Mappen worden met hun inhoud verwijderd. Weet je het zeker?
+U193	Dit bestand verwijderen?
+U194	(Dit kan niet ongedaan worden gemaakt. Bestanden in de mappen worden ook verwijderd)
+U195	[ Ja (J) ]
+U196	[ Nee (N) ]
+U197	hex-viewer: kies een bestand
+U198	tekstviewer: kies een bestand
+U199	Verplaats naar
+U200	Kopiëren naar
+U201	De buffer is vol
+U202	De schijf is alleen-lezen
+U203	Kan niet opslaan (geen schrijver)
+U204	Kan het opslaan niet starten (de schijf is bezet?)
+U205	Besparing...
+U206	2 Opslaan
+U207	5 Kleur
+U208	6 Hira
+U209	7 Kat
+U210	8 Voord
+U211	10 Stop
+U212	1 Boven
+U213	2 Einde
+U214	3 InsOvr
+U215	4 Dict
+U216	6 HHira
+U217	7 HKata
+U218	%s %s Ln %lu/%lu Col %u %s %s %s%s%s
+U219	*mod
+U220	ALG
+U221	INS
+U222	R/O
+U223	Editor (sgnano edit) F1 / ESC wordt gesloten
+U224	Pijlen / Home End / PgUp PgDn verplaatsen de cursor
+U225	Ctrl-T / Ctrl-B bovenaan/einde van het bestand
+U226	BS / Del wissen voor / bij de cursor
+U227	Nieuwe regel invoeren (behoudt de inspringing)
+U228	Tab / Ins tab / invoegen of overschrijven
+U229	F5 Kleuren (van de extensie; C/C++, mruby, MicroPython, SG BASIC, geen)
+U230	F2 (Ctrl-S) opslaan (UTF-8, regeleinden behouden)
+U231	F10 / ESC close (vraagt ​​of er gewijzigd is)
+U232	IME: Ctrl-Spatie / F12 aan/uit (あ / A)
+U233	F9 IME-taal (alleen deze editor; hersteld bij afsluiten)
+U234	F8 Japanse voorspellende conversie aan/uit
+U235	Japanse romaji -> hiragana (F6) / katakana (F7)
+U236	Hiragana met halve breedte (Shift+F6) / Katakana met halve breedte (Shift+F7)
+U237	Voorspel met 2 of meer tekens, converteer doorlopende clausule met spatie
+U238	Engels Voorspellende voltooiing met 2 of meer karakters
+U239	한국어 2 Hangul in Bol-stijl
+U240	Spatie / Enter Converteren / Bevestigen
+U241	← → Selecteer een zin
+U242	Shift+← → Verklein/groei het rechteruiteinde van de zin met één teken (nieuwe kandidaten)
+U243	↑ ↓ / Tab Vorige/volgende kandidaat in de pop-up (onder de tekst, bovenaan bijna onderaan)
+U244	Enter op →→→ Alle kandidaten (2 x 8, ← → kolom en pagina, Enter kiest)
+U245	Volgende clausule invoeren (bevestigt het geheel bij de laatste clausule)
+U246	Ctrl-U Huidig ​​woord toevoegen aan gebruikerswoordenboek
+U247	Shift+F1 / F2 / F3 / F4 Boven / Einde / Invoegen-overschrijven / naar het gebruikerswoordenboek
+U248	BS / ESC Eén teken teruggaan / Annuleren
+U249	, . - [ ] / 、 。 ー 「 」 ・
+U250	Gewijzigd Y: opslaan en sluiten N: sluiten zonder opslaan ESC: terug
+U251	[Voorspelling] Tab/↑↓: kandidaat Spatie: converteren Esc: annuleren
+U252	[Kandidaten] ↑↓: selecteren ←→: kolom/pagina Enter: kiezen
+U253	[Converteren] ↑↓cand ←→clausule Shift+←→bound Enter volgende
+U254	[한국어] Tab/↑↓: kandidaat Enter/Spatie: bevestigen
+U255	[Engels] Tab/↑↓: kandidaat Enter: bevestigen
+U256	2-set Hangul-invoer Ctrl-Spatie: alfanumeriek
+U257	Voorspellende voltooiing Ctrl-Space: directe invoer
+U258	Geen woordenboek: alleen hiragana/katakana F6/F7
+U259	Spatie: converteren F7: katakana Ctrl-Spatie: alfanumeriek
+U260	Spatie: converteren F6: hiragana Ctrl-Spatie: alfanumeriek
+U261	Halve breedte F6: hiragana F7: katakana Shift+F6/F7: half
+U262	IME uit
+U263	voorspellen
+U264	Voorspellende Japanse vertaling: Aan
+U265	Voorspellende vertaling voor Japans: Uit
+U266	Gebruik met Japanse IME
+U267	Kan niet toevoegen aan gebruikerswoordenboek
+U268	Kleurstelling: %s
+U269	Laden...
+U270	Kon het bestand niet lezen
+U271	%lu lijnen%s%s
+U272	Shift_JIS geopend als UTF-8 (opgeslagen als UTF-8)
+U273	alleen-lezen
+U274	Opgeslagen
+U275	Kon niet opslaan (schrijven mislukt)
+U276	Kandidaten
+U277	7 WrtPg
+U278	9 Tekst
+U279	9 Hex
+U280	%lu%% laden
+U281	(alleen het begin)
+U282	Hex q ESC: terug F1: help
+U283	Tekst q ESC: terug F1: help
+U284	Viewertoetsen (zoals minder; hetzelfde voor tekst en hex)
+U285	Eén regel naar beneden
+U286	Eén rij
+U287	Eén pagina naar beneden
+U288	Eén pagina omhoog
+U289	Een halve pagina omlaag/omhoog
+U290	/tekst?tekst
+U291	Zoek omlaag/omhoog (negt hoofdlettergebruik)
+U292	Volgende/vorige wedstrijd
+U293	Weergeven als hex (op dezelfde plaats)
+U294	Toon als tekst (op dezelfde plaats)
+U295	Verander de kleuring (C/C++, mruby, MicroPython, SG BASIC, geen)
+U296	Toon / verberg de FB / de tekst
+U297	FB-weergavepagina / schrijfpagina
+U298	Terug naar de filer
+U299	Sluit deze hulp
+U300	Kopiëren
+U301	%s: de mappen lezen... %u
+U302	%s: het tellen van de vrije ruimte op de bestemming...
+U303	%s: onvoldoende vrije ruimte op de bestemming
+U304	Verplaatsen: de bronmappen verwijderen
+U305	Klaar
+U306	Gestopt
+U307	%s in uitvoering%s
+U308	(stoppen)
+U309	Van: %s
+U310	Aan: %s
+U311	Bestanden %u / %u mappen %u %s / %s (%u%%)%s
+U312	te veel: slechts enkele
+U313	Heeft %s nodig, gratis %s. Doorgaan?
+U314	Y: doorgaan N / ESC: annuleren
+U315	Druk op een willekeurige toets om te sluiten
+U316	ESC: stop
+U317	%s: ←→ station ↑↓ map Spatie openen/sluiten Enter kies ESC annuleren
+U318	Kan niet lezen: %s
+U319	De mappen lezen... (ESC stopt) %u
+U320	%u mappen%s
+U321	(te veel of te diep: slechts enkele)
+U322	Gestopt met het openen van de map
+U323	De ruimte opent het weer. ESC annuleert opnieuw
+U324	SMF / SGT-speler %s
+U325	Bezig met laden... %lu / %lu bytes
+U326	%s / %s %s poorten %u
+U327	Gepauzeerd
+U328	Spelen
+U329	Spatie: pauze m: MIDI OUT q / ESC: stop
+U330	q / ESC: annuleren
+U331	Lettertype-ROM-licenties en -tegoeden\n\nROM: %s (versie %lu.%lu, %lu tekens, vanaf 0x%08lX in de flash)
+U332	== Lettertypen in het ROM (de oorsprongstabel van het ROM) ==
+U333	(de ROM heeft geen tabel)
+U334	== Het creditsgebied van de ROM ==
+U335	(geen dergelijk gebied)
+U336	== Licenties van de ingebouwde software ==
+U337	%s opslaan als PNG %s
+U338	Scherm
+U339	Bouwen... %lu / %lu rijen
+U340	Schrijven... %lu / %lu KB (de FB is verborgen)
+U341	Kon niet schrijven
+U342	Archiefnaam (de gemarkeerde items, of het cursoritem als er geen is)
+U343	Enter comprimeren ←→ verplaatsen BS / Del verwijderen ESC annuleren
+U344	WAV-export: %s geannuleerd (%s)
+U345	WAV-export: %s mislukt (%s)
+U346	WAV-export: %s totaal %s
+U347	WAV-export (96 kHz / 24 bit): %s
+U348	Geannuleerd
+U349	Mislukt
+U350	Totaal %s
+U351	Geannuleerd (%s; het gedeeltelijke bestand is verwijderd)
+U352	Kan niet exporteren (%s). Reden:
+U353	(reden onbekend)
+U354	%u%% verstreken %s%s
+U355	ESC: stop (het gedeeltelijke bestand wordt verwijderd)
+U356	Archief: %s
+U357	Lezen... (ESC om te annuleren)
+U358	%u items%s totaal %s bytes extraheren naar: %s
+U359	Voer item uitpakken X uitpakken alles ↑↓ beweeg ESC sluiten
+U360	Comprimeren
+U361	Lijst
+U362	Extract
+U363	Totaal %s %u artikelen
+U364	Totaal %s %u bestanden
+U365	Geannuleerd (%s; het onvoltooide bestand is verwijderd)
+U366	Kon het niet doen (%s): %s
+U367	%u%% verstreken %s %s bytes%s
+U368	verstreken %s %s bytes%s
+U369	ESC: stop (het onvoltooide bestand wordt verwijderd)
+U370	Archief: %s mislukt (%s)
+U371	Gecomprimeerd: %s (%u items)
+U372	Uitgepakt: %s (%u bestanden)

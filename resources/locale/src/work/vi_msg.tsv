@@ -1,0 +1,654 @@
+# Tiếng Việt (vi) — messages. Machine translation, unreviewed (2026-11-16)
+M001	ổ đĩa đã bị rút ra
+M002	đang đọc lại các phân vùng...
+M003	không mở được ổ (thiếu bộ nhớ?)
+M004	đang mở ổ...
+M005	không đủ bộ nhớ cho danh sách tệp
+M006	đang đọc thư mục... (thử lại)
+M007	không đọc được thư mục
+M008	đang đọc thư mục...
+M009	ổ đĩa không trả lời -- đang đọc lại các phân vùng
+M010	không đọc được thư mục (không phải FAT12/16/32?)
+M011	quá nhiều mục -- chỉ hiện những mục đầu
+M012	không tìm thấy hệ thống tệp trên phân vùng này
+M013	đường dẫn quá dài
+M014	đang ghép...
+M015	đang chia...
+M016	đang đổi tên...
+M017	đang tạo thư mục...
+M018	đang tạo tệp...
+M019	đang xóa...
+M020	đang ghi thuộc tính...
+M021	ổ đĩa đang bận
+M022	bận
+M023	hãy chọn tệp hoặc thư mục
+M024	hãy chọn tệp hoặc thư mục (không phải "..")
+M025	hãy dừng CD trước
+M026	không thể thay đổi CD (hãy sao chép)
+M027	không thể di chuyển thư mục hệ thống
+M028	không có ổ nào ghi được (chỉ FAT / exFAT / NTFS)
+M029	ổ đĩa không còn
+M030	chưa chọn gì
+M031	chưa chọn gì
+M032	không thể bắt đầu
+M033	không thể mở
+M034	chỉ trên ổ FAT / exFAT / NTFS
+M035	chưa có tên
+M036	tên đó đã tồn tại
+M037	không thể bắt đầu (tên sai hoặc ổ đĩa bận)
+M038	không thể bắt đầu (ổ đĩa bận)
+M039	tên không được chứa / hoặc \\ (chỉ trong thư mục này)
+M040	tên vẫn như cũ
+M041	mục này chỉ đọc (A để đổi)
+M042	hãy chọn tệp .rb trên ổ ghi được
+M043	hãy chọn tệp .rb
+M044	ổ đĩa chỉ đọc
+M045	hãy chọn thư mục trên ổ ghi được
+M046	vui lòng chờ một chút
+M047	hãy chọn một tệp
+M048	hãy chọn một tệp (không phải thư mục)
+M049	hãy chọn tệp .001
+M050	hãy chọn tệp .001
+M051	hãy đặt IWAD trong thư mục DoomFiles hoặc Doom2Files
+M052	DoomFiles nhận freedoom1 / doom / doomu / doom1.wad
+M053	Doom2Files nhận freedoom2 / doom2 / plutonia / tnt.wad
+M054	hãy đặt tệp trò chơi trên bộ nhớ ngoài, không phải S:
+M055	IWAD phải nằm trên ổ FAT / exFAT / NTFS (không phải CD)
+M056	vẫn đang làm
+M057	đang tải ảnh
+M058	không có bộ đệm khung
+M059	giảm nửa độ sáng chỉ dùng được với RGB555
+M060	đang xóa...
+M061	đang giảm nửa độ sáng...
+M062	đó là rãnh dữ liệu
+M063	chờ đã -- đang ghi một tệp
+M064	chỉ ổ đĩa mềm / LS-120 / CD
+M065	đã yêu cầu
+M066	đang đọc đĩa...
+M067	đang dừng...
+M068	đang mở...
+M069	xong
+M070	không đủ bộ nhớ
+M071	đã mở rồi
+M072	đang chạy rồi
+M073	đang lưu rồi
+M074	đang phát rồi
+M075	không có ổ đĩa này
+M076	không có PSRAM
+M077	không đủ PSRAM cho tệp
+M078	không đủ PSRAM cho chỉ mục dòng
+M079	không đủ PSRAM cho thiết bị đầu cuối
+M080	không đủ bộ nhớ (PSRAM)
+M081	không đủ bộ nhớ (SRAM 32KB)
+M082	không đủ bộ nhớ cho bộ đệm
+M083	không đủ bộ nhớ cho bộ đệm ảnh
+M084	không đủ bộ nhớ cho bộ đệm đọc
+M085	không đủ chỗ cho bộ nhớ làm việc (đóng mặt phẳng lowres?)
+M086	không có trang bộ đệm khung
+M087	quá lớn (tối đa 4 MB)
+M088	tệp quá lớn (tối đa 1 MB)
+M089	tệp quá lớn (tối đa 1 MB)
+M090	quá lớn cho SMF (tối đa 1MB)
+M091	tệp rỗng
+M092	không mở được tệp
+M093	không đọc được tệp
+M094	không mở được ổ
+M095	không mở được đích (thiếu bộ nhớ?)
+M096	không đọc được thư mục gốc
+M097	không khởi động được tác vụ
+M098	không thể bắt đầu ghi (tên sai hoặc bận)
+M099	một ổ khác đang mở (bận)
+M100	đang có một lần sao chép
+M101	không thể đưa thư mục vào chính nó
+M102	đó là cùng một thư mục
+M103	không thể thay đổi ổ này (chỉ đọc)
+M104	ổ đĩa không ghi được
+M105	kích thước phần phải là bội số của 512
+M106	không hỗ trợ tệp từ 4 GB trở lên
+M107	đường dẫn sai
+M108	tên tệp sai
+M109	không có ROM phông chữ
+M110	âm thanh chưa được mở
+M111	không có kênh này
+M112	bộ tuần tự đang bận
+M113	không đủ PSRAM cho bài hát
+M114	không phải tệp MIDI chuẩn (không có MThd)
+M115	không có rãnh nào
+M116	một rãnh bị hỏng (MTrk)
+M117	không hỗ trợ chia thời gian SMPTE
+M118	không hỗ trợ SMF định dạng 2 (chỉ 0 và 1)
+M119	không phải ổ Bulk-Only
+M120	không phải ổ quang
+M121	không thể xóa hoặc đổi tên thư mục hệ thống
+M122	không có đĩa trong ổ
+M123	đang sẵn sàng
+M124	chưa sẵn sàng
+M125	đĩa đã thay đổi
+M126	lỗi phương tiện
+M127	yêu cầu không hợp lệ
+M128	mục thư mục bị hỏng
+M129	một thư mục trên đường dẫn không tồn tại
+M130	đã có tệp mang tên đó
+M131	đã có thư mục mang tên đó
+M132	một tên trên đường dẫn không phải thư mục
+M133	đã hủy
+M134	không gắn được
+M135	không thể bắt đầu đọc
+M136	không thể bắt đầu ghi
+M137	là một thư mục
+M138	đó là một thư mục
+M139	không còn cụm
+M140	không đủ chỗ cho danh sách cụm
+M141	không có tệp hoặc thư mục này
+M142	không có tệp này
+M143	không có ổ
+M144	không phải NTFS
+M145	không phải exFAT
+M146	không phải thư mục
+M147	không tìm thấy
+M148	lỗi đọc
+M149	lỗi ghi
+M150	đọc FAT thất bại
+M151	chuỗi cụm ngắn hơn tệp
+M152	thư mục không rỗng
+M153	đĩa đã đầy
+M154	ổ đĩa không trả lời
+M155	tệp chỉ đọc
+M156	tệp bị phân mảnh quá nhiều
+M157	tệp quá lớn (4GB)
+M158	tên mới đã tồn tại
+M159	thư mục gốc đã đầy
+M160	quá nhiều tệp có cùng tên ngắn
+M161	Không có tệp hoặc thư mục này
+M162	Tệp đã tồn tại
+M163	Không có quyền
+M164	Thư mục không rỗng
+M165	Không phải thư mục
+M166	Là một thư mục
+M167	Hệ thống tệp chỉ đọc
+M168	Không còn chỗ trên thiết bị
+M169	Lỗi vào/ra
+M170	Ổ này không hỗ trợ
+M171	Đường dẫn không hợp lệ
+M172	Hết bộ nhớ
+M173	Không có ổ đĩa này
+M174	đã dừng
+M175	đã hủy (không đủ dung lượng trống)
+M176	không đếm được dung lượng trống
+M177	bên nhận đã hủy
+M178	không có bên nhận (chạy rz trên PC)
+M179	UART của bảng điều khiển đang được dùng
+M180	chế độ màn hình đã thay đổi
+M181	không nhận được các dòng (màn hình có đang chạy?)
+M182	sao chép
+M183	di chuyển
+M184	xóa
+M185	đổi tên
+M186	thuộc tính
+M187	tệp mới
+M188	thư mục mới
+M189	ảnh
+M190	mrbc
+M191	ruby
+M192	trình xem
+M193	sửa
+M194	IDENTIFY
+M195	ZMODEM
+M196	ZMODEM nhận
+M197	ZMODEM gửi
+M198	chia
+M199	ghép
+M200	Doom
+M201	SMF
+M202	CD
+M203	FB
+M204	Đẩy ra
+M205	khởi động lại
+M206	giấy phép
+M207	đồng hồ
+M208	ADC vào
+M209	màn hình -> PNG
+M210	FB -> PNG
+M211	không mở được ổ
+M212	đã nhận %s
+M213	đã gửi %s
+M214	đã lưu %s
+M215	đã tạo %s
+M216	đã đổi tên thành %s
+M217	đã xóa %s
+M218	đã thay đổi %s
+M219	đã ghép %s
+M220	đã chia %s
+M221	không tạo được %s
+M222	không xóa được %s
+M223	không đổi tên được thành %s
+M224	không thay đổi được %s
+M225	không đọc được %s
+M226	không ghi được %s
+M227	không sao chép được %s
+M228	không tạo được %s
+M229	không gỡ được thư mục %s
+M230	không gỡ được %s
+M231	không đủ bộ nhớ cho %s
+M232	quá nhiều lỗi khi gửi %s
+M233	bên nhận không nhận %s
+M234	bên nhận đã bỏ qua %s
+M235	Trang FB %s
+M236	 byte mỗi phần)
+M237	 byte)
+M238	 KB)
+M239	 phần thành
+M240	 phần (
+M241	 thành
+M242	: đã xóa
+M243	: đã giảm nửa độ sáng
+M244	% đã đọc
+M245	 dòng
+M246	 -- chưa hỗ trợ (chỉ FAT / exFAT / NTFS)
+M247	 tệp
+M248	 (
+M249	Chưa đặt tên
+M250	1 Tệp
+M251	2 Sửa
+M252	3 Biểu đồ
+M253	4 Trang tính
+M254	5 Trợ giúp
+M255	TRỐNG
+M256	SỐ
+M257	CHỮ
+M258	CÔNG THỨC
+M259	Gõ để nhập, F2 để sửa, F1 để xem trợ giúp
+M265	Sẵn sàng
+M267	Nhấn phím bất kỳ
+M268	Y = có    N = không    Esc = hủy
+M269	Enter = OK    Esc = hủy    Ctrl-U = xóa
+M270	Hàng/cột đầu = nhãn; biểu đồ dùng FB CLUT8 640x480.
+M271	SGCALC - TRỢ GIÚP
+M272	Nhấn phím bất kỳ để quay lại
+M273	Nhấn phím bất kỳ để quay lại.
+M274	GIỚI THIỆU SGCALC
+M275	Mới
+M276	Bắt đầu trang tính mới
+M277	Mở...
+M278	Mở tệp ODS, FODS hoặc CSV
+M279	Lưu
+M280	Lưu tệp hiện tại
+M281	Lưu thành...
+M282	Lưu với tên hoặc định dạng mới
+M283	Xuất CSV...
+M284	Ghi một bản CSV
+M285	Xuất ODS...
+M286	Ghi một bản LibreOffice
+M287	Thoát
+M288	Rời SGCALC
+M289	Xóa
+M290	Xóa các ô đã chọn
+M291	Sao chép
+M292	Sao chép vùng chọn
+M293	Dán
+M294	Dán tại con trỏ
+M295	Cắt
+M296	Sao chép và xóa vùng chọn
+M297	Chọn tất cả
+M298	Chọn mọi ô đã dùng
+M299	Màu chữ...
+M300	Chọn màu chữ
+M301	Nền...
+M302	Chọn màu nền ô
+M303	Đường
+M304	Vẽ biểu đồ đường từ vùng chọn
+M305	Cột
+M306	Vẽ biểu đồ cột từ vùng chọn
+M307	Kết hợp
+M308	Cột cho dãy đầu, đường cho phần còn lại
+M309	Tròn
+M310	Vẽ biểu đồ tròn từ vùng chọn
+M311	Vùng...
+M312	Đặt vùng biểu đồ rõ ràng
+M313	Vẽ lại
+M314	Vẽ lại biểu đồ trước
+M315	Đi đến...
+M316	Nhảy đến một ô (ví dụ C12)
+M317	Độ rộng cột...
+M318	Đổi độ rộng các cột đã chọn
+M319	Chiều cao hàng...
+M320	Đổi chiều cao các hàng đã chọn
+M321	Tự khớp
+M322	Khớp độ rộng/chiều cao theo nội dung (F7)
+M323	Tính lại
+M324	Tính lại mọi công thức
+M325	Xóa hết
+M326	Xóa toàn bộ trang tính
+M327	Phím
+M328	Hiện hướng dẫn phím
+M329	Giới thiệu
+M330	Giới thiệu SGCALC
+M331	Tệp
+M332	Sửa
+M333	Biểu đồ
+M334	Trang tính
+M335	Trợ giúp
+M336	Tệp: mới, mở, lưu, xuất, thoát
+M337	Sửa: xóa, sao chép, dán, cắt, chọn tất cả
+M338	Biểu đồ: đường, cột, kết hợp, tròn (vẽ trên FB)
+M339	Trang tính: đi đến, độ rộng cột, tính lại, xóa
+M340	Trợ giúp: phím và giới thiệu
+M341	Trái/Phải = menu    Lên/Xuống = mục    Enter = chọn    Esc = hủy
+M342	Đã hủy
+M343	Vùng chọn quá lớn hoặc thiếu bộ nhớ.
+M344	ô này
+M345	vùng chọn
+M346	Không có gì để dán
+M347	Đã dán
+M348	ĐI ĐẾN Ô
+M349	Tham chiếu ô (A1):
+M350	Đi đến
+M351	ĐỘ RỘNG CỘT
+M352	Độ rộng theo ký tự (4..30):
+M353	CHIỀU CAO HÀNG
+M354	Chiều cao theo dòng chữ (1..8):
+M355	Tự khớp: trang tính trống
+M356	MÀU NỀN
+M357	MÀU CHỮ
+M358	Mũi tên: chọn    Enter: áp dụng    Esc: hủy
+M359	Chỉ số màu (bảng 16 màu PC-98)
+M361	Enter = áp dụng    Esc = hủy
+M362	Màu
+M363	Nền
+M364	Chữ
+M365	VÙNG BIỂU ĐỒ
+M366	Vùng (ví dụ A1:C10):
+M367	Vùng biểu đồ
+M368	Hãy dùng vùng như A1:C10.
+M369	Không vẽ được biểu đồ.
+M370	đường
+M371	cột
+M372	kết hợp
+M373	tròn
+M374	Xóa mọi ô trong trang tính này?
+M375	Đã xóa trang tính
+M376	Đã chọn mọi ô đã dùng
+M377	Đã tính lại
+M378	Bộ nhớ
+M379	Không đủ PSRAM cho bảng tính.
+M380	Trang tính trống.
+M381	Không có dữ liệu số trong vùng đã chọn.
+M382	Khác
+M383	Không có giá trị dương cho biểu đồ tròn
+M384	ĐƯỜNG
+M385	CỘT
+M386	KẾT HỢP
+M387	TRÒN
+M389	Thư mục
+M390	LƯU THÀNH
+M391	MỞ TỆP
+M394	Tên:
+M395	(gõ tên, hoặc chọn bên dưới)
+M396	Tên
+M397	Cỡ
+M398	Enter=lưu  Trái=lên  Phải/Enter trên [DIR]=mở  Tab=ổ  Esc=hủy
+M399	Enter=mở  Trái=lên  Phải/Enter trên [DIR]=mở  Tab=ổ  Esc=hủy
+M400	Không đủ bộ nhớ.
+M401	Ghi đè
+M402	Mở
+M403	Tệp quá lớn (giới hạn 8 MB).
+M404	Không đủ bộ nhớ để đọc tệp.
+M405	Dữ liệu ZIP/ODS hỏng.
+M406	Lỗi CRC trong tệp ODS.
+M407	Tệp không được hỗ trợ hoặc bị hỏng.
+M408	Đã lưu
+M409	Đã xuất
+M410	Thay đổi chưa lưu
+M411	Lưu trang tính hiện tại trước khi tiếp tục?
+M412	Trang tính mới
+M415	bài hát quá lớn
+M416	tệp rỗng
+M417	không phải tệp SGT
+M418	BPM sai
+M419	tốc độ sai
+M420	độ dài tiêu đề sai
+M421	tiêu đề bị cắt
+M422	ký tự sai trong tiêu đề
+M423	thứ tự bị cắt
+M424	độ dài thứ tự sai
+M425	số mẫu sai trong thứ tự
+M426	danh sách mẫu bị cắt
+M427	số lượng mẫu sai
+M428	chỉ số mẫu sai
+M429	mẫu bị trùng
+M430	dữ liệu mẫu bị cắt
+M431	dữ liệu mẫu không hợp lệ
+M432	dữ liệu thừa ở cuối tệp
+M433	thứ tự trỏ tới mẫu không có
+M435	(chưa đặt tên)
+M436	Sẵn sàng. Nhấn F1 để xem trợ giúp.
+M437	Theo dõi TẮT
+M438	Không có gì để hoàn tác
+M439	Hoàn tác
+M440	Tắt nốt
+M441	Hãy đặt chữ hiệu ứng trước
+M442	Đã xóa hiệu ứng
+M443	Đã xóa tham số
+M444	Đã xóa nốt
+M445	Đã xóa nhạc cụ
+M446	Đã xóa âm lượng
+M447	Danh sách thứ tự đã đầy
+M448	Đã chèn thứ tự
+M449	Không thể xóa thứ tự cuối cùng
+M450	Đã xóa thứ tự
+M451	Đang phát bài hát
+M452	Đã dừng
+M453	Bài hát mới
+M454	Bỏ thay đổi chưa lưu và bắt đầu bài mới? (Y/N)
+M455	Bỏ thay đổi chưa lưu và mở bài hát? (Y/N)
+M456	Bỏ thay đổi chưa lưu và thoát? (Y/N)
+M457	Đã cập nhật cài đặt bài hát
+M458	Tên tệp trống
+M459	Đã hủy lưu
+M460	Đã hủy mở
+M461	Sửa BẬT
+M462	Sửa TẮT
+M463	Theo dõi BẬT
+M464	Đang tắt chế độ sửa. Nhấn F8 để sửa.
+M465	Lỗi vào/ra
+M466	tệp quá lớn
+M467	tệp bị cắt
+M495	#PHÁT VÀ TỆP
+M496	#DANH SÁCH THỨ TỰ
+M497	#HIỂN THỊ
+M498	#CHỈNH SỬA
+M499	#HIỆU ỨNG (tham số là hệ 16)
+M500	TRÁI/PHẢI TRANG   ENTER HOẶC F1 ĐÓNG
+M501	CÀI ĐẶT BÀI HÁT
+M502	LÊN/XUỐNG CHỌN   TRÁI/PHẢI CHỈNH   ENTER/F2 ĐÓNG
+M503	Gõ để sửa tiêu đề. Backspace xóa ký tự cuối.
+M504	BPM 32..255. Tốc độ 1..31.
+M505	Hiệu ứng trong mẫu cũng có thể đổi tốc độ và BPM khi đang phát.
+M506	NHẠC CỤ
+M507	LÊN/XUỐNG CHỌN   SPACE NGHE THỬ   ENTER DÙNG   F3 ĐÓNG
+M508	Cả bốn kênh đều dùng tổng hợp bảng sóng.
+M509	Nghe thử phát C-4 trên rãnh dưới con trỏ sửa.
+M510	LƯU BÀI HÁT THÀNH
+M511	ENTER LƯU   F4 HOẶC CTRL-C HỦY
+M512	Thư mục:
+M513	Tên tệp:
+M514	Đuôi .SGT được thêm tự động.
+M515	Có thể ghi đè tệp đã có.
+M516	MỞ BÀI HÁT
+M517	ENTER MỞ  BS LÊN TRÊN  CTRL-O/CTRL-C HỦY
+M518	(không có tệp .SGT trong thư mục này)
+M519	XÁC NHẬN
+M520	Y = CÓ   N / ENTER / CTRL-C = KHÔNG
+M521	Y = có        N = không
+M536	MThd hỏng
+M537	NHẬP MIDI
+M539	thời gian delta hỏng
+M540	running status hỏng
+M541	sự kiện meta hỏng
+M542	sự kiện sysex hỏng
+M543	sự kiện kênh hỏng
+M544	đầu ra SMF quá nhỏ
+M545	đầu ra SMF quá lớn
+M546	bài hát quá dài cho SMF
+M557	MŨI TÊN     di chuyển con trỏ ô\n
+M558	SHIFT+MŨI   mở rộng vùng chọn (cho biểu đồ/sao chép)\n
+M559	ENTER       sửa ô; khi sửa, xác nhận và đi xuống\n
+M560	TAB         ô sau    SHIFT+TAB  ô trước\n
+M561	DELETE      xóa (các) ô đã chọn    ESC  hủy\n
+M562	PGUP/PGDN   đi một màn hình    HOME/END  cột đầu/cuối\n
+M563	CTRL+HOME   A1    CTRL+END  ô cuối đã dùng\n
+M564	F1 trợ giúp  F2 sửa  F3 chép  F4 dán  F5 đi đến  F6 màu\n
+M565	F7 tự khớp  F8 nền  F9 tính lại  F10 biểu đồ  F11 lưu  F12 menu\n
+M566	SHIFT+F1 giới thiệu  SHIFT+F2 cao hàng  SHIFT+F3 rộng cột\n
+M567	SHIFT+F4 chọn tất cả  SHIFT+F10 vùng biểu đồ  SHIFT+F11 lưu thành\n
+M568	CTRL+F1 mới  CTRL+F2 mở  CTRL+F3 lưu  CTRL+F4 lưu thành\n
+M569	CTRL+F5 xuất CSV  CTRL+F6 xuất ODS  ALT+F12 thoát\n
+M570	2 dòng cuối: phím chức năng; [SHIFT]/[CTRL]/[ALT] như trình quản lý tệp\n
+M571	CTRL+S lưu  CTRL+O mở  CTRL+N mới  CTRL+C/V/X chép/dán/cắt\n
+M572	CTRL+G đi đến    /  mở menu (1 Tệp, 2 Sửa, ...)\n
+M573	Hàm có sẵn: SUM AVERAGE MIN MAX COUNT COUNTA\n
+M576	Tham chiếu ô: A1, $A$1, A1:B10.  Công thức bắt đầu bằng '='.\n
+M577	Tệp: .ods (LibreOffice), .fods (XML phẳng), .csv\n
+M578	ODS/FODS giữ công thức, độ rộng, chiều cao và màu.\n
+M579	CSV giữ giá trị và công thức (không màu/chiều cao).\n
+M580	Biểu đồ: chọn vùng, nhấn F10, rồi chọn Đường/Cột/Kết hợp/Tròn.\n
+M581	SGCALC cho sgnano\n
+M582	Phiên bản
+M583	Bảng tính kiểu Lotus 1-2-3, chạy như chương trình SGX.\n\n
+M585	Chế độ màn hình 3: văn bản + FB CLUT8 (tắt lowres)\n
+M586	Trang tính: %d hàng x %d cột\n
+M587	Định dạng: .ods / .fods (LibreOffice), .csv\n\n
+M588	Lưới được vẽ trên mặt phẳng văn bản.\n
+M589	Biểu đồ và nền 640x480 dùng FB.\n\n
+M591	Không lưu được ô (%d).
+M592	Đã chép %d x %d ô
+M593	Đã xóa %s
+M594	'%s' không phải tham chiếu ô.
+M596	Độ rộng cột = %d
+M597	Chiều cao hàng = %d
+M598	Tự khớp: %d cột, %d hàng
+M600	Không áp dụng được màu (%d).
+M602	Vùng không hợp lệ.\nHãy dùng vùng như A1:C10.
+M603	Vùng biểu đồ %s
+M604	Biểu đồ: %s
+M605	SGCALC: không đặt được chế độ màn hình 3: %s\n
+M614	Không đọc được %s\n%s
+M615	Thư mục: %s
+M623	Đuôi tệp không được hỗ trợ.\nHãy dùng .csv, .ods hoặc .fods.
+M624	%s đã tồn tại.\nGhi đè?
+M625	%s có thể không ghi được.\nVẫn thử?
+M626	Không rõ loại tệp của %s
+M627	Loại tệp không được hỗ trợ.\nHãy dùng .csv, .ods hoặc .fods.
+M628	Không mở được %s\n%s
+M629	%s là một thư mục.
+M630	Không nhập được %s\n%s
+M631	Đã tải %s
+M632	Không dựng được tệp %s.
+M633	Không ghi được %s\n%s
+M635	phiên bản %u không được hỗ trợ
+M637	Quãng tám %d
+M638	Nốt %s
+M639	Nhạc cụ %d
+M640	Âm lượng %s
+M641	Hiệu ứng %c
+M642	Tham số %s
+M643	Mẫu %s
+M644	Đang phát mẫu %s
+M645	LỖI LƯU: %s
+M646	Đã lưu %s
+M647	LỖI TẢI: %s
+M648	BPM %d
+M649	Tốc độ %d
+M650	Nghe thử %s
+M651	Nhạc cụ %s %s
+M652	Ghi đè %s? (Y/N)
+M676	  F5          Phát bài từ thứ tự hiện tại
+M677	  F6          Phát mẫu hiện tại
+M678	  F7/Ctrl-C   Dừng phát
+M679	  Space       Phát / dừng
+M680	  F4          Lưu thành
+M681	  Ctrl-S      Lưu (hỏi tên nếu là bài mới)
+M682	  Ctrl-O      Mở bài hát
+M683	  Ctrl-N      Bài hát mới
+M684	  F12         Thoát (hỏi nếu đã sửa)
+M685	  [ ]         Mục thứ tự trước / sau
+M686	  { }         Chèn / xóa mục thứ tự
+M687	  - +         Đổi mẫu trong mục
+M688	  F11         Theo dõi khi phát (tắt khi di chuyển tay)
+M689	  F1          Trợ giúp; Trái/Phải đổi trang
+M690	  F8          Bật/tắt chế độ sửa
+M691	  Mũi tên     Di chuyển con trỏ
+M692	  PgUp/PgDn   Nhảy 16 hàng
+M693	  Home/End    Hàng đầu / cuối
+M694	  F9/F10      Quãng tám xuống / lên
+M695	  Z S X D C V G B H N J M      hàng phím đàn dưới
+M696	  Q 2 W 3 E R 5 T 6 Y 7 U      hàng phím đàn trên
+M697	  1           Tắt nốt
+M698	  0 / Del     0 xóa nốt/nhạc cụ/hiệu ứng; Del xóa bất kỳ
+M699	  Ctrl-Z      Hoàn tác sửa mẫu/thứ tự cuối
+M700	  Axy   Trượt âm lượng: lên x, xuống y
+M701	  Cxx   Cắt nốt sau xx tick
+M702	  Dxx   Đặt âm lượng (00..7F)
+M703	  Fxx   Tốc độ nếu xx < 20, còn lại là BPM
+M704	  Hxy   Arpeggio x, y nửa cung
+M705	  Pxx   Trượt cao độ lên
+M706	  Qxx   Trượt cao độ xuống
+M707	  F2 cài đặt bài hát, F3 danh sách nhạc cụ
+M708	TRỢ GIÚP %d/2
+M709	  Tiêu đề
+M711	  BPM   : %d     (trái/phải -1/+1, -/+ -5/+5)
+M712	  Tốc độ: %d tick/hàng
+M713	  Hàng  : %d (cố định)
+M714	  Thứ tự: %d mục
+M715	  Mẫu đang dùng : %d
+M718	Nhạc cụ hiện tại: %s %s
+M722	Tệp: %d
+M726	SGNO TRACKER: SGX ABI không tương thích\n
+M727	Kiểm tra S:: chờ đã -- đang đọc hoặc ghi một tệp
+M728	Kiểm tra S:: ổ đĩa bận hoặc chưa sẵn sàng
+M729	không có gì cho mục này (ContextMenu.cfg)
+M730	lệnh sai trong ContextMenu.cfg
+M731	hành động không rõ trong ContextMenu.cfg
+M732	menu
+N001	5 Macro
+N002	6 Trợ giúp
+N003	Chạy macro hiện tại
+N004	Chạy macro tại con trỏ (ô tiêu đề #! và các ô bên dưới)
+N005	Chạy vùng chọn
+N006	Chạy các ô đã chọn như một macro (ô trên cùng bên trái là tiêu đề #!)
+N007	Chạy tất cả
+N008	Chạy mọi macro trong trang tính, từ trên trái xuống dưới phải
+N009	Lỗi cuối
+N010	Hiện lỗi macro gần nhất
+N011	Macro
+N012	Macro: chạy các ô #!ruby / #!python / #!basic
+N013	Sửa ô (F2)
+N014	Khớp độ rộng/chiều cao theo nội dung
+N015	Lỗi macro gần nhất
+N016	Không có lỗi macro.
+N017	IME bật
+N018	IME tắt
+N019	Macro: %s %s ...
+N020	%s: firmware này không chạy được macro (cần SGX ABI 5.10 trở lên)
+N021	Lỗi macro: %s
+N022	Macro: %s xong
+N023	đang có một macro chạy
+N024	ngôn ngữ này không có sẵn
+N025	không đủ bộ nhớ
+N026	macro dừng vì lỗi
+N027	Lỗi macro %s: %s
+N028	Macro: không đủ bộ nhớ
+N029	Macro: con trỏ không ở trên macro (ô #!ruby / #!python / #!basic hoặc các ô bên dưới)
+N030	Macro: không có macro trong trang tính
+N031	Chạy mọi macro
+N032	Số macro: %d. Chạy tất cả, từ trên trái xuống dưới phải? Không thể hoàn tác.
+N033	Macro: xong %d / %d
+N034	Đã xóa ô này
+N035	Đã xóa vùng chọn
+N036	Màu nền = %d
+N037	Màu chữ = %d
+N038	Biểu đồ: đường
+N039	Biểu đồ: cột
+N040	Biểu đồ: kết hợp
+N041	Biểu đồ: tròn
+N042	Đã xuất %s

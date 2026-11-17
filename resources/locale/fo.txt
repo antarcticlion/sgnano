@@ -1,0 +1,1162 @@
+# sgnano filer strings: Føroyskt (2026-11-17). ui <TAB> Japanese <TAB> translation / msg.* <TAB> English <TAB> translation
+# status: unreviewed (machine translation, not checked by a native speaker; 2026-11-17). 未検証: ネイティブの確認をしていない仮の訳
+@lang fo
+@name Føroyskt
+ui	一覧（ファイルとフォルダを 2 列 x 19 行に並べる）	Listi (fílur og mappur í 2 súlum x 19 røðum)
+ui	カーソルを動かす（左右は隣の列へ）	Flyt markørin (vinstrumegin / høgrumegin: hin súlan)
+ui	前のページ / 次のページ	Fyrra síða / næsta síða
+ui	全部に印 / 印を反転（PC-98 FD と同じ）	Merk øll / vend merkjunum (sum í PC-98 FD)
+ui	先頭 / 最後	Fyrsti / seinasti
+ui	印を付けて次へ / 印だけ付ける	Merk og far víðari / merk einans
+ui	Shift+矢印	Skift+Pílar
+ui	範囲を選ぶ（Space でその範囲に印）	Vel eitt øki (Bús merkir økið)
+ui	フォルダに入る・ファイルを開く（F2/X は実行）	Skriva eina mappu / opna eina fílu (F2/X koyra)
+ui	上のフォルダへ	Upp í foreldramappuna
+ui	ドライブを選ぶ（USB・フロッピー・CD・S: 内蔵）	Vel eitt driv (USB, disketta, fløga, S: innbygt)
+ui	コピー（Shift+C / Shift+F3 は行き先を木から）	Avrita (Vift+C / Vaki+F3 velur ferðamálið úr trænum)
+ui	移動	Rørsla
+ui	削除（Shift+D / Shift+F4 はフォルダ削除）	Strika (Skift+D / Skift+F4 strika eina mappu)
+ui	名前を変える	Umnevna
+ui	属性を変える	Broyt eginleikarnar
+ui	エディタで開く	Opna í ritstjóranum
+ui	テキスト表示（Shift+V / Ctrl+Alt+F7 は 16 進）	Vís sum tekstur (Skift+V / Stýr+Alt+F7 hex)
+ui	ドライブの情報	Koyriupplýsingar
+ui	フォルダを作る / 新しいファイル	Nýggj mappa / nýggj fíla
+ui	シェル sgsh / 媒体を取り出す	Skel sgsh / skúgva út miðil
+ui	読み直す	Endurlesa
+ui	見えている画面を PNG で保存	Goym skermin sum PNG
+ui	窓を閉じる・選択を解く（サブフォルダでは上位へ）	Lat vindeygað aftur / rudda valið (í undirmappu: far upp)
+ui	ファイルの操作（FD と同じ。印・範囲・カーソルの順に選ぶ）	Fíluvirksemi (sum í FD: merki, síðani økið, síðani markørurin)
+ui	コピー: 行き先はドライブとフォルダの木から。ESC で止める	Avrita: vel ferðamálið úr koyri- og mapputrænum. ESC steðgar
+ui	削除: y で確かめる。印・範囲をまとめて。フォルダは中身ごと	Strika: vátta við y. Merki og rák í senn. Mappur við innihaldinum
+ui	フォルダを削除（中身ごと）	Strika eina mappu (við innihaldinum)
+ui	名前を変える（今の名前を直して Enter）	Umnevna (rætta navnið, Skriva inn)
+ui	属性: R 読み出し専用・H 隠し・S システム・A アーカイブ	Eginleikar: R bert lesandi, H dult, S skipan, A arkiv
+ui	フォルダを作る	Nýggj mappa
+ui	新しいファイル（空）を作る	Nýggj (tóm) fíla
+ui	テキストで表示（Shift+V / Ctrl+Alt+F7 は 16 進）	Vís sum tekstur (Skift+V / Stýr+Alt+F7 hex)
+ui	シェル sgsh（exit / Ctrl-D でファイラーへ）	Skel sgsh (far út / Ctrl-D aftur til fíluna)
+ui	選んでいるドライブの素性（INQUIRY・IDENTIFY）	Samleiki á koyringini (FYRISPYRINING, IDENTIFERING)
+ui	FDD・LS-120・CD の媒体を取り出す	Koyr FDD / LS-120 / fløgu miðil út
+ui	一覧を読み直す（CD は TOC から）	Endurlesa listan (CD: frá TOC)
+ui	ZMODEM で PC から受け取る（zm.sh put）	Móttaka frá telduni hjá ZMODEM (zm.sh sett)
+ui	ZMODEM で PC へ送る（zm.sh get）	Send til PC við ZMODEM (zm.sh fá)
+ui	.rb をコンパイルして .mrb を書き出す	Samla .rb og skriva .mrb .
+ui	Ruby の REPL（1 行ずつ、Ctrl-D / ESC で終わり）	Ruby REPL (ein linju í senn, Ctrl-D / ESC fyri at enda)
+ui	MicroPython の REPL	Mikropyton REPL
+ui	4MB ずつ分割 / .001 から結合	Být í 4 MB partar / melda frá .001
+ui	分割 / 結合（Ctrl+F11 / F12 と同じ）	Být / legg saman (sama sum Ctrl + F11 / F12)
+ui	画面（Alt+F。FD の F キーとぶつからない）	Skjár (Alt+F, brestur ikki saman við FD F-knapparnar)
+ui	FB（絵）/ テキスト面を出す・隠す	Vís / goym FB (mynd) / tekstin
+ui	FB の表示ページ（0〜3）	FB sýnissíða (0-3)
+ui	FB を 0 で消す / 明るさを 1/2 に（RGB555）	Rudda FB til 0 / helvta ljósstyrkina (RGB555)
+ui	USB のエンドポイントと LAN の状態	USB endapunkt og LAN-tilstandurin
+ui	FB の表示ページを消す / 明るさを 1/2 に	Rudda FB skjálvtasíðuna / helvta ljósstyrkina
+ui	テキストの属性の見本	Sýni av teksteginleikum
+ui	モニタの EDID（起動時に読んだもの）	Eftirlit við EDID (les við uppstarti)
+ui	フォント ROM のライセンスとクレジット	Skrift ROM loyvi og stig
+ui	設定（表示の言語・IME・キーボードロケール）	Innstillingar (sýnismál, IME og knappaborðsstað)
+ui	時計（NTP で合わせた日本時間。s ですぐ合わせる）	Klokka (Japan tíð sett av NTP; s synkronar nú)
+ui	表計算（SGCALC）を開く	Opið rokniark (SGCALC)
+ui	S: ドライブのエラー検査（誤りがあれば直すか聞く）	Kanna S: fyri feilum (spyr áðrenn viðgerð)
+ui	トラッカー（TRACKER）を開く	Opna TRACKER
+ui	再起動（確かめの窓が出る）	Endurbyrja (spyr fyrst)
+ui	ADC のステレオ入力（GP40 / 41）を鳴らす	Spæl ADC stereoinntakið (GP40 / 41)
+ui	VGM/VGZ を 96kHz/24bit WAV に書き出す	Útflyt VGM/VGZ til ein 96 kHz / 24-bita WAV
+ui	このヘルプ	Henda hjálp
+ui	ページを替える	Broyt síðuna
+ui	閉じる	Lata aftur
+ui	テキスト・16 進のビュアー（less 風）	Tekstur / hex hyggjari (sum minni)
+ui	1 行	Ein linja
+ui	1 ページ	Ein síða .
+ui	半ページ	Hálva síðu
+ui	探す（前へ・後ろへ）/ 次・前	Leita (fram / aftur) / næsta / fyrra
+ui	一覧へ戻る（F1 はビュアーのヘルプ）	Aftur til listan (F1: hyggjarans hjálp)
+ui	画像のビュアー	Myndahyggjari
+ui	一覧へ戻る（F2 F3 F6 F7 Shift+F2 F3 は効く）	Aftur til listan (F2 F3 F6 F7 Vakt+F2 F3 arbeiði)
+ui	エディタ（E / Shift+F8）	Ritstjóri (E / Skift+F8)
+ui	保存する（UTF-8。改行と BOM は元のまま）	Goym (UTF-8; linjuendar og BOM varðveitt)
+ui	閉じる（変わっていれば Y / N / ESC）	Lat aftur (um broytt: Ja / Nei / ESC)
+ui	挿入 / 上書き	Set inn / skriva yvir
+ui	IME（日本語・英語・ハングル）の入・切	IME á/sløkt (japanskt / enskt / koreanskt)
+ui	IME の言語（日本語 / English / 한국어）	IME mál (japanskt / enskt / koreanskt)
+ui	ひらがな / カタカナで確定	Bind sum hiragana / katakana
+ui	エディタのヘルプ	Hjálp ritstjórans
+ui	シェル	Skal
+ui	シェル（csh のサブセット。exit / Ctrl-D で戻る、help で一覧）	Skel (eitt csh undirmegi. út / Ctrl-D fyri at venda aftur, hjálp lista skipanirnar)
+ui	一覧と移動	Listi og flyting
+ui	ファイルの操作	Fílurakstur
+ui	画面と機器	Skjár og tól
+ui	ビュアーとエディタ	Hyggjarar og ritstjórin
+ui	ヘルプ  %u / %u  %s	Hjálp %u / %u %s
+ui	Left Right: ページを替える    F1 / ESC: 閉じる	Vinstru Høgru: broyt síðuna F1 / ESC: lukka
+ui	sgnano を再起動しますか？	Endurbyrja sgnano?
+ui	[ 再起動 ]	[ Endurbyrja ]
+ui	[ キャンセル ]	[ Strika ]
+ui	S: ドライブのエラー検査	Kanna S: drivið fyri feilum
+ui	ファイル %lu  フォルダ %lu	Fílur %lu mappur %lu
+ui	大きさが鎖と合わない	Støddin passar ikki til ketuna
+ui	どこからも使われていないクラスタ	Klyngur, sum einki brúkar
+ui	重なったクラスタ	Tvørbundnir bólkar
+ui	壊れた項目	Brotnar upplýsingar
+ui	FAT の 2 つの写しの食い違い	Tey bæði FAT-eintøkini eru ymisk
+ui	エラーはありません。	Ongin feilur.
+ui	エラーが見つかりました。修復しますか？	Feilir vórðu funnir. Umvæla tey?
+ui	修復しました（上は直した数）。	Viðgjørt (tølini omanfyri vóru fastløgd).
+ui	検査・修復できませんでした（S: が使用中）。	Kundi ikki kanna ella umvæla (S: er upptikin).
+ui	[ 修復する ]	[ Umvæla ]
+ui	[ やめる ]	[ Strika ]
+ui	何かキーで閉じる	Ein og hvør lykil letur aftur.
+ui	設定	Innstillingar
+ui	表示の言語	Vís mál
+ui	キーボードロケール	Lyklaborðsstaður
+ui	Up / Down  Enter 決める  ESC やめる	Upp / Niður Skriva vel ESC avlýs
+ui	表示の言語 (Language)	Vís mál
+ui	Up / Down  Enter 決める  ESC 戻る	Upp / Niður Skriva: set ESC: aftur
+ui	%c: をどの文字に固定しますか（A〜Z、S を除く。ESC でやめる）	Fixa %c: sum hvønn bókstav? (A-Z undantikið S. ESC avlýsir)
+ui	ドライブ  文字 / Enter 選ぶ  F2 文字を固定・解除  F3 文字を決めて固定  L / ESC やめる	Koyr bókstav / Skriva vel F2 rætta/avrætta bókstavin F3 rætta sum... L / ESC avlýsa
+ui	  区画 %u	býti %u
+ui	%c:* （固定・つながっていません）%04X:%04X%s  %s	%c:* (fast, ikki tengt at) %04X:%04X%s %s
+ui	お知らせ	Leggja til merkis
+ui	ドライブ %c:  %s	Koyr %c: %s
+ui	ドライブ  (なし)	Koyr (eingin)
+ui	音楽 CD  %u トラック	Ljóðfløgu %u løg
+ui	フォルダ %u  ファイル %u  合計 %s	Mappur %u fílur %u tilsamans %s
+ui	読んでいます...	Lesing...
+ui	* 印 %u 個  %s	* merkt %u %s
+ui	%lu バイト	%lu byte
+ui	属性 %s   更新日時 %s   作成日時 %s   %s	Attr %s broytt %s stovnað %s %s
+ui	日	Sól
+ui	月	mán
+ui	火	týs
+ui	水	Miðv.
+ui	木	Hós
+ui	金	Frí
+ui	土	Sat
+ui	時計は合わせていません（LAN の NTP）	Klokkan er ikki sett (NTP yvir LAN)
+ui	FB  表示 %u  書込 %u	FB vísa %u skriva %u
+ui	1 ヘルプ	1 Hjálp
+ui	2 実行	2 Run
+ui	3 ｺﾋﾟｰ	3 Avrit
+ui	4 削除	4 Del
+ui	5 名前	5 Rename
+ui	7 FB消去	7 FBclr
+ui	8 FB減光	8 FBdim
+ui	9 ﾄﾞﾗｲﾌﾞ	9 Koyr
+ui	10 EP表	10 EP'ir
+ui	11 時計	11 Clock
+ui	12 表計	12 CALC
+ui	1 属性	1 Attr
+ui	2 情報	2 Info
+ui	3 移動	3 Flyt
+ui	5 作成	5 Mkdir
+ui	6 シェル	6 Skel
+ui	8 編集	8 Rætta
+ui	9 表示	9 Sýn
+ui	10S:検査	10 S:sk
+ui	11 ﾄﾗｯｸ	11 TRACK
+ui	12再起動	12Reboot
+ui	1 新規	1 Nýtt
+ui	2 ﾌｫﾙﾀﾞ	2 Mappa
+ui	3 名前	3 Rename
+ui	4 属性	4 Attrib
+ui	6 ｺﾋﾟｰ	6 Avrit
+ui	7 移動	7 Flyt
+ui	8 削除	8 Strika
+ui	9 編集	9 Rætta
+ui	10ｺﾝﾊﾟｲﾙ	10 mrbc
+ui	11 分割	11 Kloyv
+ui	12 結合	12 Join
+ui	1 属性例	1 Attrs
+ui	2 FB切替	2 FB
+ui	3 文字面	3 Text
+ui	5 画面写	5 Skriva
+ui	6 表示頁	6 Sýn
+ui	9 ZM受信	9 ZMrekv
+ui	10ZM送信	10ZMsend
+ui	2 FB消去	2 FBClr
+ui	3 FB減光	3 FBDim
+ui	5 再読込	5 Reload
+ui	7 16進	7 Hex
+ui	9 ﾗｲｾﾝｽ	9 Lic
+ui	8 設定	11 Setup
+ui	時刻を合わせる（日本時間。NTP で合わせられませんでした）	Stilla klokkuna (Japanska tíð. NTP kundi ikki seta hana)
+ui	起動のパラメタ	Koyr við parametrum
+ui	新しいフォルダ	Nýggj mappa
+ui	新しいファイル	Nýggj skrá
+ui	時刻:	Tíð:
+ui	実行:	Renna:
+ui	名前:	Navn:
+ui	年-月-日 時:分  Enter 合わせる  ESC そのまま	ÁÁÁ-MM-DD hh:mm Skriva sett ESC halt
+ui	Enter 走らせる  ←→ 動かす  BS / Del 消す  ESC やめる	Skriva koyra <-> flyta BS / Del strika ESC avlýsa
+ui	Enter 変える  ←→ 動かす  BS / Del 消す  ESC やめる	Skriva umnevn <-> flyt BS / Del strika ESC avlýsa
+ui	Enter 作る  ←→ 動かす  BS / Del 消す  ESC やめる	Skriva stovna <-> flyta BS / Del strika ESC avlýsa
+ui	消す	Strúka burtur
+ui	個の項目	lutir
+ui	フォルダは中身ごと消します。よろしいですか？	Mappur eru strikaðar við innihaldinum. Ert tú vísur?
+ui	このファイルを消しますか？	Strika hesa fíluna?
+ui	（元に戻せません。フォルダの中のファイルも消えます）	(Hetta kann ikki rættast. Fílur í mappunum eru eisini strikaðar)
+ui	[ はい (Y) ]	[ Ja (J) ]
+ui	[ いいえ (N) ]	[ Nei (N) ]
+ui	バイナリビュアー: ファイルを選んでください	hex hyggjari: vel eina fílu
+ui	テキストビュアー: ファイルを選んでください	teksthyggjari: vel eina fílu
+ui	移動先	Flyt til
+ui	コピー先	Avrit til
+ui	バッファがいっぱいです (buffer full)	Bufferin er fullur
+ui	読み出し専用のドライブです (read-only)	Koyringin er bert lestrar
+ui	保存できません (no writer)	Kann ikki goyma (eingin rithøvundur)
+ui	保存を始められません (the drive is busy?)	Kundi ikki byrja at goyma (koyringin er upptikin?)
+ui	保存しています... (saving)	Spar...
+ui	2 保存	2 Goym
+ui	5 色分け	5 Litur
+ui	6 ﾞ	6 Hira
+ui	7 ｶﾀｶﾅ	7 Kata
+ui	8 予測	8 Pred
+ui	10 終了	10 Gevst
+ui	1 先頭	1 Topp
+ui	2 最後	2 Endi
+ui	3 挿/上	3 InsÓvr
+ui	4 辞書	4 Dict
+ui	6 半	6 HHira
+ui	7 半ｶﾅ	7 HKata
+ui	 %s  %s  行 %lu/%lu 桁 %u  %s  %s %s%s%s	%s %s Ln %lu/%lu Kol %u %s %s %s%s%s
+ui	*変更	*mod
+ui	上書	OVR
+ui	挿入	INS
+ui	  読出専用	R/O
+ui	 エディタ (sgnano edit)                      F1 / ESC で閉じる	Ritstjóri (sgnano rætta) F1 / ESC letur aftur
+ui	 矢印 / Home End / PgUp PgDn   カーソルを動かす	Pílar / Heimaenda / PgUp PgDn flyta markørin
+ui	 Ctrl-T / Ctrl-B               ファイルの先頭 / 最後	Stríð-T / Stríð-B ovast / enda á fíluni
+ui	 BS / Del                      前の字 / カーソルの字を消す	BS / Del strika áðrenn / við markørinum
+ui	 Enter                         改行（前の行の字下げを引き継ぐ）	Skriva nýggja linju (heldur innskotið)
+ui	 Tab / Ins                     タブ / 挿入と上書きの切り替え	Flipa / Ins flipa / seta inn ella skriva yvir
+ui	 F5                            色分け（拡張子から。C/C++・mruby・MicroPython・SG BASIC・なし）	F5 Liting (frá útbyggingini; C/C++, mruby, Mikropyton, SG GRUNDLEIÐING, eingin)
+ui	 F2  (Ctrl-S)                  保存（UTF-8、改行は元の形）	F2 (Stýr-S) goyma (UTF-8, linjuendarnir haldast)
+ui	 F10 / ESC                     閉じる（変更があれば聞く）	F10 / ESC lukka (spyr um broytt)
+ui	 IME:  Ctrl-Space / F12        オン・オフ（あ / A）	IME: Stýr-Bús / F12 tendrað / sløkt (あ / A)
+ui	       F9                      IME の言語（このエディタの間だけ。閉じると戻る）	F9 IME mál (bert hesin ritstjórin; endurnýggjaður við stongdum)
+ui	       F8                      日本語の予測変換 オン・オフ	F8 Japansk forsøgn umrokning á/sløkkja
+ui	       日本語                  ローマ字 -> ひらがな（F6）・カタカナ（F7）	Japansk romaji -> hiragana (F6) / katakana (F7)
+ui	                               半角ひらがな（Shift+F6）・半角カタカナ（Shift+F7）	Hiragana í hálvbreidd (skifti+F6) / katakana í hálvbreidd (skifti+F7)
+ui	                               2 字以上で予測、Space で連文節変換	Spáa við 2 ella fleiri stavum, umrokna samfeldan setning við Búsi
+ui	       English                 2 字以上で予測補完	Enskt Forsøgn liðugtgerð við 2 ella fleiri stavum
+ui	       한국어                  2 ボル式ハングル	한국어 2 Bol-stíl Hangul
+ui	       Space / Enter           変換 / 確定	Pláss / Skriva Umrokna / Staðfest
+ui	       ← →                    文節を選ぶ	← → Vel eitt orðatak
+ui	       Shift+← →               文節の右端を 1 字 縮/拡（候補を出し直す）	Shift+← → Minka/vaksa høgra enda av setninginum við einum stavi (nýggj valevni)
+ui	       ↑ ↓ / Tab               候補の窓で前 / 次の候補（窓は変換の下、画面の下では上）	↑ ↓ / Flikkan Fyrri / næsti valevni í popup-vindeyganum (undir tekstinum, omanfyri nærhendis botninum)
+ui	       →→→ で Enter            すべての候補（2 列 x 8 個、← → で列とページ、Enter で決める）	Skriva á →→→ Allir valevnini (2 x 8, ← → súla og síða, Skriva velur)
+ui	       Enter                   次の文節へ（最後の文節で全体を確定）	Skriva Næsta setning (staðfestir heildina við seinasta setning)
+ui	       Ctrl-U                  いまの語をユーザー辞書へ	Ctrl-U Legg núverandi orð til brúkaraorðabókina
+ui	 Shift+F1 / F2 / F3 / F4       先頭 / 最後 / 挿入と上書き / ユーザー辞書へ	Skift+F1 / F2 / F3 / F4 Ovast / enda / seta inn-yvirskriva / til brúkaraorðabókina
+ui	       BS / ESC                1 字戻す / 取り消し	BS / ESC Far aftur ein stavn / Avlýs
+ui	       , . - [ ] /             、 。 ー 「 」 ・	, . - [ ] / 、 。 ー 「 」 ・
+ui	変更あり  Y: 保存して閉じる  N: 保存せず閉じる  ESC: 戻る	Broytt Y: goyma og lata aftur N: lata aftur uttan at goyma ESC: aftur
+ui	[予測] Tab/↑↓: 候補  Space: 変換  Esc: 取消	[Spá] Flipa/↑↓: valevni Pláss: umskipa Esc: avlýsa
+ui	[候補] ↑↓: 選ぶ  ←→: 列・ページ  Enter: 決める	[Próvtakarar] ↑↓: vel ←→: dálka/síða Skriva inn: vel
+ui	[変換] ↑↓候補 ←→文節 Shift+←→区切り Enter次へ	[Umrokna] ↑↓kand ←→setningur Skift+←→bundið Skriva næsta
+ui	[한국어] Tab/↑↓: 候補  Enter/Space: 確定	[한국어] Flipa/↑↓: valevni Skriva/Bláss: staðfest
+ui	[English] Tab/↑↓: 候補  Enter: 確定	[Føroyskt] Flipa/↑↓: valevni Skriva inn: vátta
+ui	2ボル式ハングル入力  Ctrl-Space: 英数	2-sett Hangul inntøka Ctrl-Bús: bókstavtal
+ui	予測補完  Ctrl-Space: 直接入力	Forútsigulig liðugtgerð Ctrl-Búm: beinleiðis inntøka
+ui	辞書なし: ひらがな/カタカナ入力のみ  F6/F7	Eingin orðabók: hiragana/katakana bert F6/F7.
+ui	Space: 変換  F7: カタカナ  Ctrl-Space: 英数	Pláss: umrokna F7: katakana Stýr-Bláss: bókstavtal
+ui	Space: 変換  F6: ひらがな  Ctrl-Space: 英数	Pláss: umrokna F6: hiragana Stýr-Bláss: bókstavtal
+ui	半角  F6: ひらがな  F7: カタカナ  Shift+F6/F7: 半角	Hálvbreidd F6: hiragana F7: katakana Skift+F6/F7: hálvt
+ui	IME オフ	IME av
+ui	 予測	spáa
+ui	日本語の予測変換: オン	Forsøgn japansk týðing: Á
+ui	日本語の予測変換: オフ	Forsøgn týðing til japanskt: Off
+ui	日本語IMEで使います	Brúka við japanskum IME
+ui	ユーザー辞書に追加できません	Kann ikki leggja til brúkaraorðabók
+ui	色分け: %s	Lit: %s
+ui	読み込んでいます... (loading)	Heinta...
+ui	読み込めませんでした (could not read)	Kundi ikki lesa fíluna
+ui	%lu 行%s%s	%lu linjur%s%s
+ui	  Shift_JIS を UTF-8 で開きました（保存は UTF-8）	opnað Shift_JIS sum UTF-8 (goymt sum UTF-8)
+ui	  読み出し専用	bert lesandi
+ui	保存しました (saved)	Goymt
+ui	保存できませんでした (write failed)	Kundi ikki goyma (skriva miseydnaðist)
+ui	候補	Valevni
+ui	7 書込頁	7 Wrtpg
+ui	9 ﾃｷｽﾄ	9 Text
+ui	9 ﾊﾞｲﾅﾘ	9 Hex
+ui	読み込み中 %lu%%  	Heinta %lu%%
+ui	（先頭だけ）  	(bara byrjanin)
+ui	16 進  q ESC: 戻る  F1: ヘルプ	Hex q ESC: aftur F1: hjálp
+ui	テキスト  q ESC: 戻る  F1: ヘルプ	Tekstur q ESC: aftur F1: hjálp
+ui	ビュアーのキー（less 風。テキストと 16 進で共通）	Hyggjaralyklar (sum minni; tað sama fyri tekst og hex)
+ui	1 行進む	Ein lína niður
+ui	1 行戻る	Ein uppstilling
+ui	1 ページ進む	Ein síða niður
+ui	1 ページ戻る	Ein síða upp
+ui	半ページ進む / 戻る	Hálva síðu niður / upp .
+ui	/文字列  ?文字列	/tekstur ?tekstur
+ui	下へ探す / 上へ探す（大文字小文字は区別しない）	Leita niður / upp (ignorerar fall)
+ui	次 / 前を探す	Næsti / fyrri dystur
+ui	16 進で表示する（いま見ている所のまま）	Vís sum hex (á sama stað)
+ui	テキストで表示する（いま見ている所のまま）	Vís sum tekstur (á sama stað)
+ui	色分けを替える（C/C++・mruby・MicroPython・SG BASIC・なし）	Broyt litingina (C/C++, mruby, mikropython, SG grundleggjandi, eingin)
+ui	FB / テキスト面を出す・隠す	Vís / goym FB / tekstin
+ui	FB の表示ページ / 書き込みページ	FB sýnissíða / skrivasíða
+ui	ファイラーへ戻る	Aftur til skrásetara
+ui	このヘルプを閉じる	Lat hesa hjálp aftur
+ui	コピー	Avrit
+ui	 %s: フォルダを読んでいます... %u 個	%s: at lesa mappurnar... %u
+ui	 %s: 行き先の空きを数えています...	%s: at telja fríplássið á ferðamálinum...
+ui	 %s: 行き先の空きが足りません	%s: ikki nóg mikið frítt pláss á ferðamálinum
+ui	 移動: 元のフォルダを消しています	Flyt: strika keldumappurnar
+ui	終了しました	Gjørdur
+ui	止まりました	Steðgað
+ui	 %s中%s	%s í gongd%s
+ui	（止めています）	(steðgar)
+ui	 元: %s	Frá: %s
+ui	 先: %s	Til: %s
+ui	 ファイル %u / %u 個  フォルダ %u 個  %s / %s  (%u%%)%s	Fílur %u / %u mappur %u %s / %s (%u%%)%s
+ui	  多すぎるので一部だけ	ov nógv: bert sum
+ui	 要る大きさ %s、空き %s。続けますか？	Tørvar %s, ókeypis %s. Halda á fram?
+ui	 Y: 続ける   N / ESC: やめる	Y: halt fram N / ESC: avlýs
+ui	 何かキーを押すと閉じます	Trýst á ein og hvønn knøtt fyri at lata aftur
+ui	 ESC: 止める	ESC: steðga
+ui	 %s: ←→ ドライブ  ↑↓ フォルダ  Space 開く・閉じる  Enter 決める  ESC やめる	%s: ←→ koyra ↑↓ mappa Pláss opið/lukka Skriva vel ESC avlýs
+ui	 読めません: %s	Kann ikki lesa: %s
+ui	 フォルダを読んでいます...（ESC で止める）  %u 個	Lesa mappurnar... (ESC steðgar) %u
+ui	 フォルダ %u 個%s	%u mappur%s
+ui	（多すぎるか深すぎるので、一部だけ）	(ov nógv ella ov djúpt: bert nøkur)
+ui	フォルダの展開を止めました	Steðgaði við at lata mappuna upp.
+ui	Space で開き直せます。もう一度 ESC でやめます	Rúmdin letur tað upp aftur. ESC avlýsir enn einaferð
+ui	 SMF / SGT プレイヤー   %s	SMF / SGT spælari %s
+ui	 読み込んでいます... %lu / %lu バイト	Heinta... %lu / %lu bytur
+ui	 %s / %s   %s   ポート %u	%s / %s %s havnir %u
+ui	一時停止	Steðgur
+ui	再生中	Spælur
+ui	 Space: 一時停止  m: MIDI OUT  q / ESC: 止める	Pláss: steðgur m: MIDI ÚT q / ESC: steðgur
+ui	 q / ESC: やめる	q / ESC: avlýsa
+ui	フォント ROM のライセンスとクレジット\n\nROM: %s（版 %lu.%lu、%lu 文字、フラッシュの 0x%08lX から）\n\n	Skrift ROM loyvi og stig\n\nROM: %s (útgáva %lu.%lu, %lu stavir, frá 0x%08lX í blitsinum)
+ui	== 収めているフォント（ROM の出所の表）==\n	== Skrift í ROM (upprunatalvan hjá ROM) ==
+ui	  （表が無い ROM）\n	(ROM hevur onga borð)
+ui	\n== ROM のクレジットの区画 ==\n\n	== Eintøkuøkið í ROM ==
+ui	（区画が無い）\n	(einki slíkt øki)
+ui	\n== 組み込んだソフトウェアのライセンス ==\n	== Loyvi til innbygda forritið ==
+ui	 %s を PNG で保存   %s	Goyma %s sum PNG %s
+ui	画面	Skýggi
+ui	 組み立てています... %lu / %lu 行	Bygging... %lu / %lu røðir
+ui	 書いています... %lu / %lu KB（FB は隠しています）	Skriva... %lu / %lu KB (FB er fjalt)
+ui	書けませんでした	Fekk ikki skriva
+ui	書庫の名前（印の付いた項目、無ければカーソルの項目を入れる）	Arkivnavn (merktu lutirnir, ella markørluturin um eingin)
+ui	Enter 圧縮する  ←→ 動かす  BS / Del 消す  ESC やめる	Skriva trýst ←→ flyta BS / Del strika ESC avlýsa
+ui	WAV 書き出し: %s 中止（%s）	WAV útflutningur: %s avlýstur (%s)
+ui	WAV 書き出し: %s 失敗（%s）	WAV-útflutningur: %s miseydnaðist (%s)
+ui	WAV 書き出し: %s 合計 %s	WAV útflutningur: %s samlað %s
+ui	 WAV 書き出し（96kHz / 24bit）: %s	WAV-útflutningur (96kHz / 24bit): %s
+ui	中止しました	Avlýst
+ui	失敗しました	Miseydnað
+ui	 合計 %s	Tilsamans %s
+ui	 中止しました（%s。半端なファイルは消しました）	Avlýst (%s; partvísa fílan varð strikað)
+ui	 書き出せませんでした（%s）。理由:	Kundi ikki útflyta (%s). Orsøk:
+ui	 （理由は分かりません）	(orsøkin er ókend)
+ui	 %u%%   経過 %s%s	%u%% farin frá %s%s
+ui	 ESC: 止める（半端なファイルは消します）	ESC: steðga (partvísa fílan er strikað)
+ui	書庫: %s	Skjalasavn: %s
+ui	読み込み中…（ESC でやめる）	Lestur... (ESC at avlýsa)
+ui	 %u 項目%s  合計 %s バイト  展開先: %s	%u lutir%s tilsamans %s byte úrdráttur til: %s
+ui	 Enter 項目を展開  X 全部を展開  ↑↓ 動かす  ESC 閉じる	Skriva úrdráttur lutur X úrdráttur alt ↑↓ flyt ESC tætt
+ui	圧縮	Komprimera
+ui	一覧	Listi
+ui	展開	Úrdráttur
+ui	 合計 %s   %u 項目	Tilsamans %s %u lutir
+ui	 合計 %s   %u ファイル	%s %u fílur tilsamans
+ui	 中止しました（%s。書きかけのファイルは消しました）	Avlýst (%s; óliðugt fílan varð strikað)
+ui	 できませんでした（%s）: %s	Kundi ikki gera tað (%s): %s
+ui	 %u%%   経過 %s   %s バイト%s	%u%% farin út %s %s byte%s
+ui	 経過 %s   %s バイト%s	farin út %s %s byte%s
+ui	 ESC: 止める（書きかけのファイルは消します）	ESC: steðga (óliðugt fílan er strikað)
+ui	書庫: %s 失敗（%s）	Arkiv: %s miseydnaðist (%s)
+ui	圧縮: %s（%u 項目）	Komprimerað: %s (%u lutir)
+ui	展開: %s（%u ファイル）	Útdráttur: %s (%u fílur)
+msg.phrase	the drive went away	koyringin fór avstað
+msg.phrase	reading the partitions again...	lesa býtið aftur...
+msg.phrase	could not open the volume (no memory?)	kundi ikki lata bindið upp (einki minni?)
+msg.phrase	opening the volume...	at lata bindið upp...
+msg.phrase	no memory for the file list	einki minni til fílulistan
+msg.phrase	reading the directory... (retrying)	lesa skrásetingina... (royna aftur)
+msg.phrase	could not read the directory	kundi ikki lesa skrásetingina
+msg.phrase	reading the directory...	lesa skrásetingina...
+msg.phrase	the drive did not answer -- reading the partitions again	Koyringin svaraði ikki -- lesa partitiónirnar aftur
+msg.phrase	could not read the directory (not FAT12/16/32?)	kundi ikki lesa mappuna (ikki FAT12/16/32?)
+msg.phrase	too many entries -- showing the first ones	ov nógvar upplýsingar -- vísa tær fyrstu
+msg.phrase	no file system found on this partition	eingin fíluskipan funnin á hesum partitiónini
+msg.phrase	the path is too long	leiðin er ov long
+msg.phrase	joining...	at melda seg til...
+msg.phrase	splitting...	býta sundur...
+msg.phrase	renaming...	umnevna...
+msg.phrase	creating the folder...	at stovna mappuna...
+msg.phrase	creating the file...	at stovna fíluna...
+msg.phrase	deleting...	strika...
+msg.phrase	writing the attributes...	at skriva eginleikarnar...
+msg.phrase	the drive is busy	koyringin er upptikin
+msg.phrase	busy	íðin
+msg.phrase	choose files or folders	velja fílur ella mappur
+msg.phrase	choose files or folders (not "..")	vel fílur ella mappur (ikki "..")
+msg.phrase	stop the CD first	Steðga fløguni fyrst
+msg.phrase	the CD cannot be changed (copy instead)	fløgan kann ikki broytast (kopiera ístaðin)
+msg.phrase	a system folder cannot be moved	ein skipanarmappa kann ikki flytast
+msg.phrase	no drive can be written (FAT / exFAT / NTFS only)	eingin driv kann skrivast (bara FAT / exFAT / NTFS)
+msg.phrase	the drive is gone	koyringin er farin
+msg.phrase	nothing chosen	einki valt
+msg.phrase	nothing selected	einki valt
+msg.phrase	could not start	kundi ikki byrja
+msg.phrase	could not open	kundi ikki lata upp
+msg.phrase	only on a FAT / exFAT / NTFS drive	bert á einum FAT / exFAT / NTFS drivi
+msg.phrase	no name	einki navn
+msg.phrase	that name already exists	hatta navnið er longu til
+msg.phrase	could not start (bad name or the drive is busy)	kundi ikki byrja (ill navn ella koyringin er upptikin)
+msg.phrase	could not start (the drive is busy)	kundi ikki byrja (koyringin er upptikin)
+msg.phrase	the name cannot have / or \\ (only inside this folder)	navnið kann ikki hava / ella \\ (bert inni í hesi mappuni)
+msg.phrase	the name is the same	navnið er tað sama .
+msg.phrase	the item is read-only (A to change)	luturin er bert lesandi (A at broyta)
+msg.phrase	choose a .rb file on a writable drive	velja eina .rb fílu á einum skriviførum drivi
+msg.phrase	choose a .rb file	vel eina .rb fílu
+msg.phrase	the drive is read-only	koyringin er bert lesandi
+msg.phrase	choose a folder on a writable drive	velja eina mappu á einum skrividrivi
+msg.phrase	wait a moment	bíða eina løtu
+msg.phrase	choose a file	vel eina fílu
+msg.phrase	choose a file (not a folder)	vel eina fílu (ikki eina mappu)
+msg.phrase	choose a .001 file	vel eina .001 fílu
+msg.phrase	choose the .001 file	vel .001 fíluna
+msg.phrase	put the IWAD in a DoomFiles or Doom2Files folder	seta IWAD í eina DoomFílur ella Doom2Fílur mappu
+msg.phrase	DoomFiles takes freedoom1 / doom / doomu / doom1.wad	DoomFiles tekur frælsidóm1 / dóm / dómu / dóm1.wad
+msg.phrase	Doom2Files takes freedoom2 / doom2 / plutonia / tnt.wad	Doom2Fílur tekur frælsidóm2 / dóm2 / plutonia / tnt.wad
+msg.phrase	put the game files on external storage, not S:	seta spælifílurnar á eksterna goymslu, ikki S:
+msg.phrase	the IWAD must be on a FAT / exFAT / NTFS drive (not a CD)	IWAD skal vera á einum FAT / exFAT / NTFS drivi (ikki fløgu)
+msg.phrase	still working	enn arbeiðir
+msg.phrase	an image is loading	Ein mynd er heintað
+msg.phrase	no framebuffer	eingin rammubuffer
+msg.phrase	half brightness works only in RGB555	hálv ljósstyrki virkar bert í RGB555
+msg.phrase	clearing...	ruddingar...
+msg.phrase	halving the brightness...	helvta ljósstyrkin...
+msg.phrase	that is a data track	tað er eitt dátuspor.
+msg.phrase	wait -- a file is being written	bíða -- ein fíla er skrivað
+msg.phrase	only floppy / LS-120 / CD drives	einar diskettir / LS-120 / CD-drivar
+msg.phrase	requested	biðið
+msg.phrase	reading the disc...	lesa fløguna...
+msg.phrase	stopping...	steðga...
+msg.phrase	opening...	opning...
+msg.phrase	done	gjørdur
+msg.phrase	no memory	einki minni
+msg.phrase	already open	longu opið
+msg.phrase	already running	longu í gongd
+msg.phrase	already saving	longu spara
+msg.phrase	already playing	longu spæla
+msg.phrase	no such drive	eingin slík koyring
+msg.phrase	no PSRAM	eingin PSRAM
+msg.phrase	no PSRAM for the file	einki PSRAM til fíluna
+msg.phrase	no PSRAM for the line index	einki PSRAM til linjuvísitalið
+msg.phrase	no PSRAM for the terminal	einki PSRAM til terminalin
+msg.phrase	no memory (PSRAM)	einki minni (PSRAM)
+msg.phrase	no memory (32KB SRAM)	einki minni (32KB SRAM)
+msg.phrase	no memory for the buffer	einki minni til bufferin
+msg.phrase	no memory for the image buffers	einki minni til myndapuffarnar
+msg.phrase	no memory for the read buffer	einki minni til lestrarpufferin
+msg.phrase	no room for the work memory (close the lowres plane?)	einki pláss fyri arbeiðsminninum (lukka lowresflogfarið?)
+msg.phrase	no framebuffer page	eingin rammubuffersíða
+msg.phrase	too large (4 MB at most)	ov stór (4 MB í mesta lagi)
+msg.phrase	the file is too large (1 MB at most)	fílan er ov stór (1 MB í mesta lagi)
+msg.phrase	the file is too large (1 MB max)	fílan er ov stór (1 MB max)
+msg.phrase	too large for an SMF (1MB at most)	ov stór til ein SMF (1MB í mesta lagi)
+msg.phrase	the file is empty	skráin er tóm
+msg.phrase	could not open the file	kundi ikki opna fíluna
+msg.phrase	could not read the file	fekk ikki lisið fíluna
+msg.phrase	could not open the volume	kundi ikki lata bindið upp.
+msg.phrase	could not open the destination (no memory?)	kundi ikki opna ferðamálið (einki minni?)
+msg.phrase	could not read the root folder	kundi ikki lesa rótmappuna
+msg.phrase	could not start the task	kundi ikki byrja uppgávuna
+msg.phrase	could not start writing (bad name or busy)	kundi ikki byrja at skriva (ill navn ella upptikin)
+msg.phrase	another volume is open (busy)	eitt annað bindi er opið (upptikið)
+msg.phrase	a copy is running	eitt eintak er í gongd
+msg.phrase	a folder cannot go into itself	ein mappa kann ikki fara inn í seg sjálvan
+msg.phrase	that is the same folder	tað er sami mappa
+msg.phrase	this drive cannot be changed (read only)	hesin drivurin kann ikki broytast (bert lesa)
+msg.phrase	the drive is not writable	drivið er ikki skrivandi
+msg.phrase	the part size must be a multiple of 512	partastøddin skal vera eitt margfald av 512 .
+msg.phrase	files of 4 GB or more are not supported	fílur á 4 GB ella meira verða ikki stuðlaðar
+msg.phrase	bad path	ring leið
+msg.phrase	bad file name	ringt fílunavn
+msg.phrase	the font ROM is not there	skriftslags-ROM er ikki har
+msg.phrase	the sound is not open	ljóðið er ikki opið
+msg.phrase	no such channel	eingin slík rás
+msg.phrase	the sequencer is busy	sekvensarin er upptikin
+msg.phrase	not enough PSRAM for the song	ikki nóg mikið av PSRAM til sangin
+msg.phrase	not a standard MIDI file (no MThd)	ikki ein vanlig MIDI fíla (einki MThd)
+msg.phrase	no tracks	einki spor
+msg.phrase	a track is broken (MTrk)	ein spor er brotin (MTrk)
+msg.phrase	SMPTE time division is not supported	SMPTE tíðarbýtið er ikki stuðlað
+msg.phrase	SMF format 2 is not supported (0 and 1 only)	SMF snið 2 er ikki stuðlað (bara 0 og 1)
+msg.phrase	not a Bulk-Only drive	ikki ein einans hópkoyring
+msg.phrase	not an optical drive	ikki ein optiskur driv
+msg.phrase	a system folder cannot be deleted or renamed	ein skipanarmappa kann ikki strikast ella umdoypast
+msg.phrase	no media in the drive	eingin miðil í koyringini
+msg.phrase	becoming ready	at gerast klárur
+msg.phrase	not ready	ikki klár
+msg.phrase	media changed	miðlar broyttir
+msg.phrase	medium error	miðal feilur
+msg.phrase	illegal request	ólóglig áheitan
+msg.phrase	a bad directory entry	ein ring skrásetingarfrágreiðing
+msg.phrase	a directory on the way does not exist	ein skrá á leiðini er ikki til
+msg.phrase	a file has that name	ein fíla hevur hatta navnið
+msg.phrase	a folder has that name	ein mappa hevur hatta navnið
+msg.phrase	a name on the way is not a directory	eitt navn á leiðini er ikki ein skrá
+msg.phrase	cancelled	avlýst
+msg.phrase	could not mount	kundi ikki montera
+msg.phrase	could not start a read	kundi ikki byrja ein lesnað
+msg.phrase	could not start a write	kundi ikki byrja eina skriving
+msg.phrase	is a directory	er ein skrá .
+msg.phrase	that is a directory	hatta er ein skrá.
+msg.phrase	no clusters	ongar bólkar
+msg.phrase	no room for the cluster list	einki pláss fyri bólkalistanum
+msg.phrase	no such file or directory	eingin slík fíla ella mappa
+msg.phrase	no such file	eingin slík skrá
+msg.phrase	no volume	einki rúmd
+msg.phrase	not NTFS	ikki NTFS
+msg.phrase	not exFAT	ikki exFAT
+msg.phrase	not a directory	ikki ein skrá
+msg.phrase	not found	ikki funnið
+msg.phrase	read error	lesa feilur
+msg.phrase	write error	skriva feilur
+msg.phrase	reading the FAT failed	at lesa FAT miseydnaðist
+msg.phrase	the cluster chain is shorter than the file	klassaketan er styttri enn fílan
+msg.phrase	the directory is not empty	Skráin er ikki tóm.
+msg.phrase	the disk is full	diskurin er fullur
+msg.phrase	the drive did not answer	koyringin svaraði ikki
+msg.phrase	the file is read-only	Skráin er bert lesandi
+msg.phrase	the file is too fragmented	skráin er ov sundurbýtt
+msg.phrase	the file is too large (4GB)	fílan er ov stór (4GB)
+msg.phrase	the new name already exists	nýggja navnið er longu til
+msg.phrase	the root directory is full	rótarmappan er full
+msg.phrase	too many files with the same short name	ov nógvar fílur við sama stutta navni
+msg.phrase	No such file or directory	Eingin slík fíla ella mappa
+msg.phrase	File exists	Skráin er til
+msg.phrase	Permission denied	Loyvi noktað
+msg.phrase	Directory not empty	Skráin ikki tóm
+msg.phrase	Not a directory	Ikki ein skrá
+msg.phrase	Is a directory	Er ein skrá
+msg.phrase	Read-only file system	Fíluskipan, sum bert kann lesast
+msg.phrase	No space left on device	Einki pláss eftir á tólinum
+msg.phrase	Input/output error	Inntak/útgangsfeilur
+msg.phrase	Not supported on this drive	Ikki stuðlað á hesum drivinum
+msg.phrase	Invalid path	Ógyldug leið
+msg.phrase	Out of memory	Út úr minninum
+msg.phrase	No such drive	Eingin slík koyring
+msg.phrase	stopped	steðgað
+msg.phrase	cancelled (not enough free space)	avlýst (ikki nóg mikið av fríplássi)
+msg.phrase	could not count the free space	kundi ikki telja fríplássið
+msg.phrase	the receiver cancelled	móttakarin avlýstur
+msg.phrase	no receiver (run rz on the PC)	eingin móttakari (koyr rz á telduni)
+msg.phrase	the console UART is in use	konsollin UART er í nýtslu
+msg.phrase	the screen mode changed	skermhátturin er broyttur
+msg.phrase	the lines did not come (is the display running?)	linjurnar komu ikki (er skjárin í gongd?)
+msg.prefix	copy	avrit
+msg.prefix	move	rørsla
+msg.prefix	delete	strúka burtur
+msg.prefix	rename	umdoypa
+msg.prefix	attributes	eginleikar
+msg.prefix	new file	nýggj skrá
+msg.prefix	new folder	nýggj mappa
+msg.prefix	image	mynd
+msg.prefix	mrbc	mrbc
+msg.prefix	ruby	rubin
+msg.prefix	viewer	hyggjari
+msg.prefix	edit	rætta
+msg.prefix	IDENTIFY	EYÐMERKJA
+msg.prefix	ZMODEM	ZMODEM
+msg.prefix	ZMODEM receive	ZMODEM fáa
+msg.prefix	ZMODEM send	ZMODEM senda
+msg.prefix	split	klúgva
+msg.prefix	join	luttaka
+msg.prefix	Doom	Doom
+msg.prefix	SMF	SMF
+msg.prefix	CD	fløga
+msg.prefix	FB	FB
+msg.prefix	Eject	Skoyta út
+msg.prefix	reboot	endurstarta
+msg.prefix	license	loyvi
+msg.prefix	clock	klokka
+msg.prefix	ADC in	ADC í
+msg.prefix	screen -> PNG	skermur -> PNG
+msg.prefix	FB -> PNG	FB -> PNG
+msg.prefix	could not open the volume	kundi ikki lata bindið upp.
+msg.pattern	received 	fáa %s
+msg.pattern	sent 	sent %s
+msg.pattern	saved 	goymt %s
+msg.pattern	created 	skapt %s
+msg.pattern	renamed to 	umdoypt til %s
+msg.pattern	deleted 	strikað %s
+msg.pattern	changed 	broytt %s
+msg.pattern	joined 	við %s
+msg.pattern	split 	klúgva %s
+msg.pattern	could not create 	kundi ikki skapa %s
+msg.pattern	could not delete 	kundi ikki strika %s
+msg.pattern	could not rename to 	kundi ikki umdoypa til %s
+msg.pattern	could not change 	kundi ikki broytast %s
+msg.pattern	could not read 	dugdi ikki at lesa %s
+msg.pattern	could not write 	dugdi ikki at skriva %s
+msg.pattern	could not copy 	kundi ikki avrita %s
+msg.pattern	could not make 	kundi ikki gera %s
+msg.pattern	could not remove the folder 	kundi ikki strika mappuna %s
+msg.pattern	could not remove 	kundi ikki taka burtur %s
+msg.pattern	no memory for 	einki minni fyri %s
+msg.pattern	too many errors while sending 	ov nógvir feilir, meðan tú sendir %s
+msg.pattern	the receiver did not take 	móttakarin tók ikki %s
+msg.pattern	the receiver skipped 	móttakarin slepti %s
+msg.pattern	FB page 	FB síða %s
+msg.word	 bytes each)	byte hvørt)
+msg.word	 bytes)	byte)
+msg.word	 KB)	KB)
+msg.word	 parts into 	partar í
+msg.word	 parts (	partar (
+msg.word	 into 	inn í
+msg.word	: cleared	: ruddað
+msg.word	: brightness halved	: ljósstyrkin helvtaður
+msg.word	% read	% lesa
+msg.word	 rows	røðir
+msg.word	 -- not supported yet (FAT / exFAT / NTFS only)	-- ikki stuðlað enn (bara FAT / exFAT / NTFS)
+msg.word	 files	fílur
+msg.word	 (	(
+msg.phrase	Untitled	Óheiti
+msg.phrase	1 File	1 Skrá
+msg.phrase	2 Edit	2 Rætta
+msg.phrase	3 Graph	3 Graf
+msg.phrase	4 Sheet	4 Ark
+msg.phrase	5 Help	5 Hjálp
+msg.phrase	EMPTY	TØMA
+msg.phrase	NUMBER	NUMMAR
+msg.phrase	TEXT	TEKSTUR
+msg.phrase	FORMULA	FRIMMEL
+msg.phrase	Type to enter, F2 to edit, F1 for help	Skriva fyri at skriva inn, F2 fyri at rætta, F1 fyri hjálp
+msg.phrase	5 CSV	5 CSV
+msg.phrase	6 ODS	6 ODS
+msg.phrase	[SHIFT]	[SKIFTI]
+msg.phrase	[CTRL]	[CTRL]
+msg.phrase	[ALT]	[ALT]
+msg.phrase	Ready	Til reiðar
+msg.phrase	SGCALC	SGCALC
+msg.phrase	Press any key	Trýst á ein og hvønn knøtt
+msg.phrase	Y = yes    N = no    Esc = cancel	Y = ja N = nei Esc = avlýs
+msg.phrase	Enter = OK    Esc = cancel    Ctrl-U = clear	Skriva = OK Esc = avlýs Ctrl-U = rudda
+msg.phrase	First row/column = labels; charts use the 640x480 CLUT8 FB.	Fyrsta røð/súla = merki; kort brúka 640x480 CLUT8 FB.
+msg.phrase	SGCALC - HELP	SGCALC - HJÁLP
+msg.phrase	Press any key to return	Trýst á ein og hvønn knøtt fyri at venda aftur
+msg.phrase	Press any key to return.	Trýst á ein og hvønn knøtt fyri at venda aftur.
+msg.phrase	ABOUT SGCALC	UM SGCALC
+msg.phrase	New	Nýgjgur
+msg.phrase	Start a new sheet	Byrja eitt nýtt ark
+msg.phrase	Open...	Opin...
+msg.phrase	Open an ODS, FODS or CSV file	Opna eina ODS, FODS ella CSV fílu
+msg.phrase	Save	Bjarga
+msg.phrase	Save the current file	Goym núverandi fílu
+msg.phrase	Save As...	Goym sum...
+msg.phrase	Save with a new name or format	Goym við nýggjum navni ella sniði
+msg.phrase	Export CSV...	Útflyt CSV...
+msg.phrase	Write a CSV copy	Skriva eitt CSV avrit
+msg.phrase	Export ODS...	Útflyt ODS...
+msg.phrase	Write a LibreOffice copy	Skriva eitt LibreOffice eintak .
+msg.phrase	Quit	Fara úr
+msg.phrase	Leave SGCALC	Far úr SGCALC
+msg.phrase	Clear	Reinsa
+msg.phrase	Clear the selected cells	Rudda valdu kyknurnar
+msg.phrase	Copy	Avrit
+msg.phrase	Copy the selection	Avrita valið
+msg.phrase	Paste	Líma
+msg.phrase	Paste at the cursor	Líma við markørinum
+msg.phrase	Cut	Skera
+msg.phrase	Copy and clear the selection	Avrita og rudda valið
+msg.phrase	Select all	Vel øll
+msg.phrase	Select all used cells	Vel allar brúktar kyknur
+msg.phrase	Text color...	Tekstur litur...
+msg.phrase	Choose the text colour	Vel tekstlitin
+msg.phrase	Background...	Baksýni...
+msg.phrase	Choose the cell background	Vel kyknubakgrundina
+msg.phrase	Line	Lína
+msg.phrase	Draw a line graph from the selection	Tekna ein linjugraf úr valinum
+msg.phrase	Bar	Barr
+msg.phrase	Draw a bar graph from the selection	Tekna ein strikugraf úr valinum
+msg.phrase	Mixed	Blandað
+msg.phrase	Bars for the first series, lines for the rest	Stengur til fyrstu røðina, linjur til restina
+msg.phrase	Pie	Køka
+msg.phrase	Draw a pie graph from the selection	Tekna ein snúrugraf úr valinum
+msg.phrase	Range...	Rað...
+msg.phrase	Set the graph range explicitly	Set graføkið beinleiðis
+msg.phrase	Draw again	Javnleikur aftur
+msg.phrase	Redraw the last graph	Tekna seinasta grafikkin aftur
+msg.phrase	Goto...	Far...
+msg.phrase	Jump to a cell (for example C12)	Hoppa til eina kyknu (til dømis C12)
+msg.phrase	Column width...	Súlubreidd...
+msg.phrase	Change the selected columns' width	Broyt breiddina á valdu súlunum
+msg.phrase	Row height...	Raðhædd...
+msg.phrase	Change the selected rows' height	Broyt hæddina á valdu røðunum
+msg.phrase	Auto fit	Sjálvvirkandi passa
+msg.phrase	Fit widths/heights to the contents (F7)	Passa breiddir/hæddir til innihaldið (F7)
+msg.phrase	Recalculate	Rokna aftur
+msg.phrase	Re-evaluate all formulas	Eftirmeta allar frymlar
+msg.phrase	Erase all	Strika alt
+msg.phrase	Clear the whole sheet	Rudda alt arkið
+msg.phrase	Keys	Lyklar
+msg.phrase	Show the key guide	Vís lyklavegleiðingina
+msg.phrase	About	Um
+msg.phrase	About SGCALC	Um SGCALC
+msg.phrase	File	Fíla
+msg.phrase	Edit	Rætta
+msg.phrase	Graph	Graf
+msg.phrase	Sheet	Ark
+msg.phrase	Help	Hjálp
+msg.phrase	File: new, open, save, export, quit	Fíla: nýggj, opna, goyma, útflyta, slepp
+msg.phrase	Edit: clear, copy, paste, cut, select all	Rætta: rudda, avrita, líma inn, klippa, velja alt
+msg.phrase	Graph: line, bar, mixed, pie (draws in the FB)	Graf: linja, strika, blandað, pie (teknar í FB)
+msg.phrase	Sheet: goto, column width, recalculate, erase	Ark: goto, súlubreidd, umrokna, strika
+msg.phrase	Help: keys and about	Hjálp: lyklar og um
+msg.phrase	Left/Right = menu    Up/Down = item    Enter = choose    Esc = cancel	Vinstru/Høgru = valmynd Upp/Niður = lutur Skriva inn = vel Esc = avlýs
+msg.phrase	Cancelled	Avlýst
+msg.phrase	The selection is too large or memory is low.	Úrvalið er ov stórt ella minnið er lágt.
+msg.phrase	the cell	kyknuna
+msg.phrase	the selection	valið
+msg.phrase	Nothing to paste	Einki at líma
+msg.phrase	Pasted	Límað
+msg.phrase	GO TO CELL	FAR TIL KYMNU
+msg.phrase	Cell reference (A1):	Tilvísing til kyknuna (A1):
+msg.phrase	Goto	Far
+msg.phrase	COLUMN WIDTH	SÚLUBREIDD
+msg.phrase	Width in characters (4..30):	Breidd í stavum (4..30):
+msg.phrase	ROW HEIGHT	RÓÐHÆDD
+msg.phrase	Height in text rows (1..8):	Hædd í tekstrøðum (1..8):
+msg.phrase	Auto fit: the sheet is empty	Sjálvvirkandi passa: arkið er tómt
+msg.phrase	BACKGROUND COLOUR	BAKGRUNDSLITUR
+msg.phrase	TEXT COLOUR	TEKSTUR LITUR
+msg.phrase	Arrows: choose    Enter: apply    Esc: cancel	Pílar: vel Skriva: nýt Esc: avlýs
+msg.phrase	Colour index (PC-98 16-colour palette)	Litvísital (PC-98 16-lit paletta)
+msg.phrase	Aa 123	Aa 123
+msg.phrase	Enter = apply    Esc = cancel	Skriva = nýta Esc = avlýsa
+msg.phrase	Colour	Litur
+msg.phrase	Background	Baksýni
+msg.phrase	Text	Tekstur
+msg.phrase	GRAPH RANGE	GRAFØK
+msg.phrase	Range (for example A1:C10):	Øki (til dømis A1:C10):
+msg.phrase	Graph range	Graføki
+msg.phrase	Use a range such as A1:C10.	Brúka eitt øki sum A1:C10.
+msg.phrase	Cannot draw the graph.	Kann ikki tekna grafin.
+msg.phrase	line	lína
+msg.phrase	bar	barr
+msg.phrase	mixed	blandað
+msg.phrase	pie	pie
+msg.phrase	Clear every cell in this sheet?	Rudda hvørja kyknu í hesum arkinum?
+msg.phrase	Sheet erased	Ark strikað
+msg.phrase	Selected all used cells	Valdar allar brúktar kyknur
+msg.phrase	Recalculated	Endurroknað
+msg.phrase	Memory	Minni
+msg.phrase	Not enough PSRAM for the spreadsheet.	Ikki nokk av PSRAM til rokniark.
+msg.phrase	The sheet is empty.	Arkið er tómt.
+msg.phrase	No numeric data in the selected range.	Ongar talgildar dátur í valda økinum.
+msg.phrase	Other	Onnur
+msg.phrase	No positive values for a pie chart	Eingi positiv virði fyri eitt snúrudiagramm
+msg.phrase	LINE	LÍNA
+msg.phrase	BAR	BARR
+msg.phrase	MIXED	BLANDAÐ
+msg.phrase	PIE	PIE
+msg.phrase	S:/	S:/
+msg.phrase	Folder	Mappa
+msg.phrase	SAVE AS	GOYM SUM
+msg.phrase	OPEN FILE	OPNA FÍLU
+msg.phrase	LibreOffice / CSV	Ókeypis Skrivstova / CSV
+msg.phrase	ODS  FODS  CSV	ODS FODS CSV
+msg.phrase	Name:	Navn:
+msg.phrase	(type a name, or choose below)	(skriva eitt navn, ella vel niðanfyri)
+msg.phrase	Name	Navn
+msg.phrase	Size	Stødd
+msg.phrase	Enter=save  Left=up  Right/Enter on [DIR]=open  Tab=drive  Esc=cancel	Skriva=goym Vinstru=upp Høgru/Skriva á [DIR]=opna Tab=koyra Esc=avlýs
+msg.phrase	Enter=open  Left=up  Right/Enter on [DIR]=open  Tab=drive  Esc=cancel	Skriva=opna Vinstru=upp Høgru/Skriva á [DIR]=opna Tab=koyra Esc=avlýs
+msg.phrase	Not enough memory.	Ikki nóg mikið av minni.
+msg.phrase	Overwrite	Skriva yvir
+msg.phrase	Open	Opin
+msg.phrase	The file is too large (limit 8 MB).	Skráin er ov stór (mark 8 MB).
+msg.phrase	Not enough memory to read the file.	Ikki nóg mikið av minni til at lesa fíluna.
+msg.phrase	Bad ZIP/ODS data.	Ring ZIP/ODS dáta.
+msg.phrase	CRC error in the ODS file.	CRC feilur í ODS fíluni.
+msg.phrase	Unsupported or damaged file.	Óstuðlað ella skadd fíla.
+msg.phrase	Saved	Goymt
+msg.phrase	Exported	Útflutt
+msg.phrase	Unsaved changes	Ógoymdar broytingar
+msg.phrase	Save the current sheet before continuing?	Goym núverandi ark áðrenn tú heldur fram?
+msg.phrase	New sheet	Nýtt blað
+msg.phrase	SGTRK	SGTRK
+msg.phrase	UNTITLED	ÓHEITI
+msg.phrase	song is too large	sangurin er ov stórur
+msg.phrase	empty file	tóm fíla
+msg.phrase	not an SGT file	ikki ein SGT fíla
+msg.phrase	bad BPM	ringt BPM
+msg.phrase	bad speed	ring ferð
+msg.phrase	bad title length	ring tittullongd
+msg.phrase	truncated title	stytt heiti
+msg.phrase	bad character in title	ringur persónur í heitinum
+msg.phrase	truncated order	stytt skipan
+msg.phrase	bad order length	ring bíleggingarlongd
+msg.phrase	bad pattern number in order	ringt mynsturnummar í raðfylgju
+msg.phrase	truncated pattern list	styttur mynsturlisti
+msg.phrase	bad pattern count	ringt mynstur telja
+msg.phrase	bad pattern index	ringt mynsturvísital
+msg.phrase	duplicate pattern	dupult mynstur
+msg.phrase	truncated pattern data	stytt mynsturdáta
+msg.phrase	invalid pattern data	ógyldug mynsturdáta
+msg.phrase	trailing data in file	fylgjandi dátur í skrá
+msg.phrase	order refers to a missing pattern	skipan vísir til eitt vantandi mynstur
+msg.phrase	A:/	EIN:/
+msg.phrase	(untitled)	(óheiti)
+msg.phrase	Ready. Press F1 for help.	Til reiðar. Trýst á F1 fyri at fáa hjálp.
+msg.phrase	Follow OFF	Fylg við OFF
+msg.phrase	Nothing to undo	Einki at angra
+msg.phrase	Undo	Angra
+msg.phrase	Note OFF	Viðmerking OFF
+msg.phrase	Set an effect letter first	Set ein effektbókstav fyrst
+msg.phrase	Effect cleared	Effekt ruddað
+msg.phrase	Parameter cleared	Parametur ruddaður
+msg.phrase	Note cleared	Viðmerking ruddað
+msg.phrase	Instrument cleared	Tól ruddað
+msg.phrase	Volume cleared	Rúmd ruddað
+msg.phrase	Order list is full	Bíleggingarlistin er fullur
+msg.phrase	Order inserted	Skipan sett inn
+msg.phrase	Cannot delete the last order	Kann ikki strika seinastu bíleggingina
+msg.phrase	Order deleted	Bílegging strikað
+msg.phrase	Playing song	Spæla sang
+msg.phrase	Stopped	Steðgað
+msg.phrase	New song	Nýggjur sangur
+msg.phrase	Discard unsaved changes and start a new song? (Y/N)	Koyr ógoymdar broytingar burtur og byrja ein nýggjan sang? (J/Nei)
+msg.phrase	Discard unsaved changes and open a song? (Y/N)	Koyr ógoymdar broytingar burtur og opna ein sang? (J/Nei)
+msg.phrase	Discard unsaved changes and quit? (Y/N)	Koyr ógoymdar broytingar burtur og slepp? (J/Nei)
+msg.phrase	Song settings updated	Sanginnstillingar dagførdar
+msg.phrase	Filename is empty	Fílunavnið er tómt
+msg.phrase	Save cancelled	Goym avlýst
+msg.phrase	Open cancelled	Opið avlýst
+msg.phrase	Edit ON	Rætta TIL
+msg.phrase	Edit OFF	Rætta SLÁK
+msg.phrase	Follow ON	Fylg á
+msg.phrase	Edit is OFF. Press F8 to edit.	Rætta er SLÁKT. Trýst á F8 fyri at rætta.
+msg.phrase	I/O error	I/O feilur
+msg.phrase	file is too large	fílan er ov stór
+msg.phrase	truncated file	stytt fíla
+msg.phrase	SINE PAD	SINUPÚTA
+msg.phrase	TRIANGLE	Tríkantur
+msg.phrase	SAW LEAD	SAG BLYG
+msg.phrase	SQUARE	FÝRKANTUR
+msg.phrase	PULSE 25	PULSURI 25
+msg.phrase	ORGAN	ORGANI
+msg.phrase	BASS	BASSUR
+msg.phrase	BELL	KLOKKA
+msg.phrase	NOISE	LARMUR
+msg.phrase	SINE	SINUS
+msg.phrase	SAW	SÁ
+msg.phrase	OFF	FARA
+msg.phrase	ON	Á
+msg.phrase	ROW	RØÐ
+msg.phrase	CHAN LEVEL	CHAN STIG
+msg.phrase	F1 HELP F2 SONG	F1 HJÁLP F2 SANGUR .
+msg.phrase	F3 INS  F4 SAVE	F3 INS F4 SPAR
+msg.phrase	F5 PLAY F6 PAT	F5 SPÆL F6 KLAPP
+msg.phrase	F7 STOP F8 EDIT	F7 STEÐGA F8 RÆTT
+msg.phrase	F9/F10 OCTAVE	F9/F10 OKTAV
+msg.phrase	F11 FOLLOW	F11 FYLG
+msg.phrase	F12 QUIT	F12 SLETT
+msg.phrase	SPACE PLAY/STOP	RÚMSPÆL/STOPPA
+msg.phrase	CTRL-S SAVE	CTRL-S GOYM
+msg.phrase	CTRL-O OPEN	CTRL-O OPNA
+msg.phrase	C-N NEW C-Z UNDO	C-N NÝTT C-Z ÓGRAVA
+msg.phrase	C-C STOP	C-C STEÐGA
+msg.phrase	#TRANSPORT AND FILES	#FLUTNINGUR OG FÍLUR
+msg.phrase	#ORDER LIST	#BÍLEGGINGARLISTI
+msg.phrase	#DISPLAY	#SÝNA FRAM
+msg.phrase	#EDITING	#RÆTTING
+msg.phrase	#EFFECTS (parameter is hexadecimal)	#ÁVIRKINGAR (parameturin er heksadesimal)
+msg.phrase	LEFT/RIGHT PAGE   ENTER OR F1 CLOSE	VINSTRU/HØGRU SÍÐU SKRIVA ELLA F1 LUKKA
+msg.phrase	SONG SETTINGS	SANGINNSTILINGAR
+msg.phrase	UP/DOWN SELECT   LEFT/RIGHT ADJUST   ENTER/F2 CLOSE	UP/NIÐUR VEL VINSTRU/HØGRU STILLA ENTER/F2 LUKKA
+msg.phrase	Type to edit the title. Backspace deletes the last character.	Skriva fyri at broyta heitið. Backspace strikar seinasta stavilsið.
+msg.phrase	BPM range 32..255. Speed range 1..31.	BPM-økið 32,255. Ferðaøki 1..31.
+msg.phrase	Pattern effects can also change speed and BPM while playing.	Mynstureffektir kunnu eisini broyta ferð og BPM, meðan tú spælir.
+msg.phrase	INSTRUMENTS	LÓÐFØR
+msg.phrase	UP/DOWN SELECT   SPACE PREVIEW   ENTER USE   F3 CLOSE	UP/NIÐUR VEL PLÁSS FORSÓGVING SKRIVA BRÚKA F3 LUKKA
+msg.phrase	All four channels use wavetable synthesis.	Allar fýra rásirnar brúka bylgjutalvusyntesu.
+msg.phrase	Preview plays C-4 on the track under the edit cursor.	Forskoðan spælir C-4 á lagnum undir rættingarmarkørinum.
+msg.phrase	SAVE SONG AS	GOYM SANG SUM
+msg.phrase	ENTER SAVE   F4 OR CTRL-C CANCEL	SKRIVA GOYM F4 ELLA CTRL-C AVLÝSA
+msg.phrase	Directory:	Skrá:
+msg.phrase	File name:	Fílunavn:
+msg.phrase	The extension .SGT is added automatically.	Víðkanin .SGT verður løgd afturat sjálvvirkandi.
+msg.phrase	An existing file can be overwritten.	Ein verandi fíla kann skrivast yvir.
+msg.phrase	OPEN SONG	OPIÐ SANGUR
+msg.phrase	ENTER OPEN  BS PARENT  CTRL-O/CTRL-C CANCEL	SKRIVA OPNA BS FORELDUR CTRL-O/CTRL-C AVLÝSA
+msg.phrase	(no .SGT files in this folder)	(ongar .SGT fílur í hesi mappuni)
+msg.phrase	CONFIRM	VÁTTA
+msg.phrase	Y = YES   N / ENTER / CTRL-C = NO	Y = JA N / SKRIVA / CTRL-C = NEI
+msg.phrase	Y = yes        N = no	Y = ja N = nei
+msg.phrase	C-	C-
+msg.phrase	C#	C#
+msg.phrase	D-	D-
+msg.phrase	D#	D#
+msg.phrase	E-	E-
+msg.phrase	F-	F-
+msg.phrase	F#	F#
+msg.phrase	G-	G-
+msg.phrase	G#	G#
+msg.phrase	A-	EIN-
+msg.phrase	A#	EIN#
+msg.phrase	B-	B-
+msg.phrase	A:/dir/name	A:/leikstjóri/navn
+msg.phrase	MThd	MThd
+msg.phrase	broken MThd	brotin MThd
+msg.phrase	MIDI IMPORT	MIDI INNFLYTING
+msg.phrase	MTrk	MTrk
+msg.phrase	broken delta time	brotin delta tíð
+msg.phrase	broken running status	brotin koyristøða
+msg.phrase	broken meta event	brotin meta hending
+msg.phrase	broken sysex event	brotin sysex hending
+msg.phrase	broken channel event	brotin rásahending
+msg.phrase	SMF output is too small	SMF-útflutningurin er ov lítil
+msg.phrase	SMF output is too large	SMF framleiðslan er ov stór
+msg.phrase	the song is too long for SMF	sangurin er ov langur til SMF
+msg.phrase	TRK1	TRK1.
+msg.phrase	%s%d	%s%d
+msg.phrase	%s%d:%s%d	%s%d:%s%d
+msg.phrase	%s	%s
+msg.phrase	%.40s%s	%.40s%s
+msg.phrase	  [%s]   %s	[%s] %s
+msg.phrase	EDIT  	RÆTTA
+msg.phrase	READY 	TIL REIÐAR
+msg.phrase	%4d 	%4d
+msg.phrase	%s Sum %.7g N %ld%s	%s Summa %.7g N %ld%s
+msg.phrase	ARROWS      move the cell cursor\n	PÍLAR flyta kyknumarkørin
+msg.phrase	SHIFT+ARR   extend the selection (for graphs/copy)\n	SHIFT+ARR víðka valið (til grafar/avrit)
+msg.phrase	ENTER       edit the cell; in edit, commit and move down\n	ENTER rætta kyknuna; í rætta, binda og flyta niður
+msg.phrase	TAB         next cell    SHIFT+TAB  previous cell\n	TAB næsta kykna SHIFT+TAB fyrra kykna
+msg.phrase	DELETE      clear the selected cell(s)    ESC  cancel\n	STRIKA strika valdu kyknurnar ESC avlýsa
+msg.phrase	PGUP/PGDN   move one screen    HOME/END  first/last column\n	PGUP/PGDN flyta ein skerm HEIM/END fyrsta/síðsta dálka
+msg.phrase	CTRL+HOME   A1    CTRL+END  last used cell\n	CTRL+HEIM A1 CTRL+END seinast brúkta kyknu
+msg.phrase	F1 help  F2 edit  F3 copy  F4 paste  F5 goto  F6 colour\n	F1 hjálpa F2 rætta F3 avrita F4 líma inn F5 goto F6 lit
+msg.phrase	F7 auto-fit  F8 background  F9 recalc  F10 graph  F11 save  F12 menu\n	F7 sjálvvirkandi passandi F8 bakgrund F9 endurrokning F10 graf F11 goym F12 valmynd
+msg.phrase	SHIFT+F1 about  SHIFT+F2 row height  SHIFT+F3 column width\n	SKIFT+F1 um SKIFT+F2 røðhædd SKIFT+F3 súlubreidd
+msg.phrase	SHIFT+F4 select all  SHIFT+F10 graph range  SHIFT+F11 save as\n	SKYFT+F4 vel alt SKYFT+F10 graføkið SKYFT+F11 goym sum
+msg.phrase	CTRL+F1 new  CTRL+F2 open  CTRL+F3 save  CTRL+F4 save as\n	CTRL+F1 nýtt CTRL+F2 opna CTRL+F3 goym CTRL+F4 goym sum
+msg.phrase	CTRL+F5 export CSV  CTRL+F6 export ODS  ALT+F12 quit\n	CTRL+F5 útflutningur CSV CTRL+F6 útflutningur ODS ALT+F12 slepp
+msg.phrase	Bottom 2 lines: function keys; [SHIFT]/[CTRL]/[ALT] like the filer\n	Niðast 2 linjur: funktiónstastar; [SKIFTA]/[CTRL]/[ALT] sum skrásetingin
+msg.phrase	CTRL+S save  CTRL+O open  CTRL+N new  CTRL+C/V/X copy/paste/cut\n	CTRL+S goym CTRL+O opna CTRL+N nýtt CTRL+C/V/X avrita/líma/klipp
+msg.phrase	CTRL+G goto    /  open the menu (1 File, 2 Edit, ...)\n	CTRL+G goto / opna valmyndina (1 Fíla, 2 Rætta, ...)
+msg.phrase	Built-in functions: SUM AVERAGE MIN MAX COUNT COUNTA\n	Innbygdar funkur: SUMMA MIÐAL MIN MAX TAL TAL
+msg.phrase	PRODUCT ABS SQRT INT ROUND MOD POWER IF AND OR NOT\n	VØRA ABS SQRT INT RUND MOD KRAFT UM OG ELLA IKKI
+msg.phrase	IFERROR LEN LEFT RIGHT MID UPPER LOWER TRIM CONCATENATE PI\n	IFFEROR LEN VINSTRI HØGRI MIÐ OVARI NÆÐARI TRIM SAMMANDI PI
+msg.phrase	Cell refs: A1, $A$1, A1:B10.  Formulas begin with '='.\n	Frumutilvísingar: A1, $1, A1:B10.  Frymlar byrja við '='.
+msg.phrase	Files: .ods (LibreOffice), .fods (flat XML), .csv\n	Fílur: .ods (LibreOffice), .fods (flat XML), .csv
+msg.phrase	ODS/FODS keeps formulas, widths, heights and colours.\n	ODS/FODS heldur frymlar, breiddir, hæddir og litir.
+msg.phrase	CSV keeps values and formulas (no colours/heights).\n	CSV heldur virði og frymlar (ongir litir/hæddir).
+msg.phrase	Graph: select a range, press F10, and choose Line/Bar/Mixed/Pie.\n	Graf: vel eitt øki, trýst á F10, og vel Linja/Stong/Blandað/Pie.
+msg.phrase	SGCALC for sgnano\n	SGCALC fyri sgnano
+msg.phrase	Version 	Útlegging
+msg.phrase	A Lotus 1-2-3 style spreadsheet as an SGX program.\n\n	Eitt Lotus 1-2-3 stíl rokniark sum SGX forrit.
+msg.phrase	SGX ABI %u.%u\n	SGX ABI %u.%u
+msg.phrase	Screen mode 3: text + CLUT8 FB (lowres disabled)\n	Skjálvtastilling 3: tekstur + CLUT8 FB (lágur sløkt)
+msg.phrase	Sheet: %d rows x %d columns\n	Ark: %d røðir x %d súlur
+msg.phrase	Formats: .ods / .fods (LibreOffice), .csv\n\n	Snið: .ods / .fods (LibreOffice), .csv
+msg.phrase	The grid is drawn on the text plane.\n	Grindin er teknað á tekstfløtuni.
+msg.phrase	Charts and the 640x480 background use the FB.\n\n	Kort og 640x480 bakgrundin brúka FB.
+msg.phrase	%d %s	%d %s
+msg.phrase	Cannot store the cell (%d).	Kann ikki goyma kyknuna (%d).
+msg.phrase	Copied %d x %d cells	Avritaðar %d x %d kyknur
+msg.phrase	Cleared %s	Ruddað %s
+msg.phrase	'%s' is not a cell reference.	'%s' er ikki ein cellutilvísing.
+msg.phrase	%d	%d
+msg.phrase	Column width = %d	Súlubreidd = %d
+msg.phrase	Row height = %d	Raðhædd = %d
+msg.phrase	Auto fit: %d column(s), %d row(s)	Sjálvvirkandi passan: %d súla(r), %d røð(ir)
+msg.phrase	%2d	%2d
+msg.phrase	Cannot apply the colour (%d).	Kann ikki leggja litin (%d).
+msg.phrase	%s colour = %d	%s litur = %d
+msg.phrase	Not a valid range.\nUse a range such as A1:C10.	Ikki eitt gyldugt øki.\nBrúka eitt øki sum A1:C10.
+msg.phrase	Graph range %s	Graføki %s
+msg.phrase	Graph: %s	Graf: %s
+msg.phrase	SGCALC: cannot set screen mode 3: %s\n	SGCALC: kann ikki stilla skermstilling 3: %s
+msg.phrase	%.2g	%.2g
+msg.phrase	%.6g	%.6g
+msg.phrase	%s  %.0f%%	%s %.0f%%
+msg.phrase	GRAPH  %s  %s	MYNDUR %s %s
+msg.phrase	%s%s	%s%s
+msg.phrase	%s/%s	%s/%s
+msg.phrase	%.*s	%.*s
+msg.phrase	%.*s/	%.*s/
+msg.phrase	Cannot read %s\n%s	Kann ikki lesa %s\n%s
+msg.phrase	Folder: %s	Mappa: %s
+msg.phrase	[DIR] %s	[DIR] %s
+msg.phrase	      %s	%s
+msg.phrase	%lu.%luM	%lu.%lu M
+msg.phrase	%luK	%luK
+msg.phrase	%luB	%luB
+msg.phrase	BOOK1%s	BÓK1%s
+msg.phrase	%c:/	%c:/
+msg.phrase	Unsupported extension.\nUse .csv, .ods or .fods.	Óstuðlað víðkan.\nBrúka .csv, .ods ella .fods.
+msg.phrase	%s already exists.\nOverwrite it?	%s er longu til.\nSkriva tað yvir?
+msg.phrase	%s may not be writable.\nTry anyway?	%s kann ikki skrivast.\nRoyn allíkavæl?
+msg.phrase	Unknown file type for %s	Ókent fíluslag fyri %s
+msg.phrase	Unsupported file type.\nUse .csv, .ods or .fods.	Óstuðlað fíluslag.\nBrúka .csv, .ods ella .fods.
+msg.phrase	Cannot open %s\n%s	Kann ikki opna %s\n%s
+msg.phrase	%s is a folder.	%s er ein mappa.
+msg.phrase	Cannot import %s\n%s	Kann ikki innflyta %s\n%s
+msg.phrase	Loaded %s	Heintað %s
+msg.phrase	Cannot build the %s file.	Kann ikki byggja %s fíluna.
+msg.phrase	Cannot write %s\n%s	Kann ikki skriva %s\n%s
+msg.phrase	%s %s	%s %s
+msg.phrase	unsupported version %u	óstuðlað útgáva %u
+msg.phrase	%d:%d:%d:%d:%d:%d	%d:%d:%d:%d:%d:%d
+msg.phrase	Octave %d	Oktava %d
+msg.phrase	Note %s	Viðmæli %s
+msg.phrase	Instrument %d	Ljóðføri %d
+msg.phrase	Volume %s	Bind %s
+msg.phrase	Effect %c	Ávirkan %c
+msg.phrase	Parameter %s	Parametur %s
+msg.phrase	Pattern %s	Mynstur %s
+msg.phrase	Playing pattern %s	Spælimynstur %s
+msg.phrase	SAVE ERROR: %s	GOYMA FEILUR: %s
+msg.phrase	Saved %s	Goymt %s
+msg.phrase	LOAD ERROR: %s	HENSINGARFEILUR: %s
+msg.phrase	BPM %d	BPM %d
+msg.phrase	Speed %d	Ferð %d
+msg.phrase	Preview %s	Forskoðan %s
+msg.phrase	Instrument %s %s	Ljóðføri %s %s
+msg.phrase	Overwrite %s? (Y/N)	Skriva yvir %s? (J/Nei)
+msg.phrase	 | BPM %s SPD %s 	| BPM %s SPD %s
+msg.phrase	 SGNO TRACKER 1.0 | 	SGNO SPORI 1.0 |
+msg.phrase	FILE 	FÍLA
+msg.phrase	 PAT %s	PAT %s
+msg.phrase	 ORD %d/%d	ORD %d/%d
+msg.phrase	 INS %s 	ÍNS %s
+msg.phrase	 OCT %d	OKT %d
+msg.phrase	 EDIT %s	RÆTT %s
+msg.phrase	ON 	Á
+msg.phrase	 FOL %s	FOL %s
+msg.phrase	TRACK %d	SPOR %d
+msg.phrase	%c%s	%c%s
+msg.phrase	%s %s %s %s	%s %s %s %s
+msg.phrase	%s 	%s
+msg.phrase	%d %s %s	%d %s %s
+msg.phrase	ORDER %d/%d	BÍLEGG %d/%d
+msg.phrase	PAT   %s	PAT %s
+msg.phrase	INS %s %s	ÍNS %s %s
+msg.phrase	OCT %d  EDIT %s	OKT %d RÆTT %s
+msg.phrase	FOLLOW %s	FYLG %s
+msg.phrase	PLAYING  ORD %d/%d  PAT %s  ROW %s/%d  SPD %s  BPM %d  F7 STOP	SPÆLIORD %d/%d PAT %s RØÐ %s/%d SPD %s BPM %d F7 STOP
+msg.phrase	READY  EDIT %s  OCT %d  F1 HELP  F5 PLAY  CTRL-S SAVE	KLÁRUR RÆTTING %s OKT %d F1 HJÁLP F5 SPÆL CTRL-S GOYM
+msg.phrase	 %s 	%s
+msg.phrase	  F5          Play the song from the current order	F5 Spæl sangin frá núverandi raðfylgju .
+msg.phrase	  F6          Play the current pattern	F6 Spæl núverandi mynstrið .
+msg.phrase	  F7/Ctrl-C   Stop playback	F7/Ctrl-C Steðga avspælingini
+msg.phrase	  Space       Play / stop	Rúmdarspæl / steðg
+msg.phrase	  F4          Save as	F4 Goym sum
+msg.phrase	  Ctrl-S      Save (asks for a name if new)	Ctrl-S Goym (spyr um navn um nýtt)
+msg.phrase	  Ctrl-O      Open a song	Ctrl-O Opna ein sang
+msg.phrase	  Ctrl-N      New song	Ctrl-N Nýggjur sangur
+msg.phrase	  F12         Quit (confirmation if modified)	F12 Slepp (váttan um broytt)
+msg.phrase	  [ ]         Previous / next order entry	[ ] Fyrra / næsta bíleggingarfrágreiðing
+msg.phrase	  { }         Insert / delete an order entry	{ } Set inn / strika bíleggingarfrágreiðing
+msg.phrase	  - +         Change the pattern in the entry	- + Broyt mynstrið í upptøkuni
+msg.phrase	  F11         Follow playback (turns off on manual move)	F11 Fylg við avspæling (sløkkir við manuellum flyting)
+msg.phrase	  F1          Help; Left/Right changes page	F1 Hjálp; Vinstra/Høgra broytir síðu
+msg.phrase	  F8          Toggle edit mode	F8 Skift rættingarstilling
+msg.phrase	  Arrows      Move the cursor	Pílar Flyt markørin
+msg.phrase	  PgUp/PgDn   Jump 16 rows	PgUpp/PgDn Hoppa 16 umfør
+msg.phrase	  Home/End    First / last row	Heim/Endi Fyrsta / seinasta røð
+msg.phrase	  F9/F10      Octave down / up	F9/F10 Oktava niður / upp
+msg.phrase	  Z S X D C V G B H N J M      lower piano row	Z S X D C V G B H N J M niðara klaverrøð
+msg.phrase	  Q 2 W 3 E R 5 T 6 Y 7 U      upper piano row	Q 2 B 3 E R 5 T 6 Y 7 Ovara klaverrøð
+msg.phrase	  1           Note off	1 Viðmerking av
+msg.phrase	  0 / Del     0 clears note/inst/fx; Del clears any	0 / Del 0 ruddar viðmerking/inst/fx; Del rudda nakrar
+msg.phrase	  Ctrl-Z      Undo the last pattern/order edit	Ctrl-Z Angra seinasta mynstur/skipanarrættingina
+msg.phrase	  Axy   Volume slide: up x, down y	Axy Rúmdarrennibreyt: upp x, niður y
+msg.phrase	  Cxx   Note cut after xx ticks	Cxx Viðmæli klipt eftir xx tikk
+msg.phrase	  Dxx   Set volume (00..7F)	Dxx Sett rúmd (00,7F)
+msg.phrase	  Fxx   Speed if xx < 20, otherwise BPM	Fxx Ferð um xx < 20, annars BPM
+msg.phrase	  Hxy   Arpeggio x, y semitones	Hxy Arpeggio x, y hálvtónar
+msg.phrase	  Pxx   Pitch slide up	Pxx Hæddin rennur upp
+msg.phrase	  Qxx   Pitch slide down	Qxx Vøllur renna niður
+msg.phrase	  F2 song settings, F3 instrument list	F2 sangstillingar, F3 ljóðførislisti
+msg.phrase	HELP %d/2	HJÁLP %d/2.
+msg.phrase	  Title	Heiti
+msg.phrase	  [%s_]	[%s_]
+msg.phrase	  BPM   : %d     (left/right -1/+1, -/+ -5/+5)	BPM : %d (vinstru/høgru -1/+1, -/+ -5/+5)
+msg.phrase	  Speed : %d ticks/row	Ferð : %d tikkar/røð
+msg.phrase	  Rows  : %d (fixed)	Røðir : %d (fast)
+msg.phrase	  Order : %d entries	Skipan : %d upptøkur
+msg.phrase	  Patterns in use : %d	Mynstur í nýtslu : %d
+msg.phrase	 #  NAME       WAVE       A   D   S   R  VOL	# NAVN BYLGJA A D S R BINDI
+msg.phrase	 %c %d  %-9s %-9s %3d %3d %3d %3d %4d	%c %d %-9s %-9s %3d %3d %3d %3d %4d
+msg.phrase	Current instrument: %s %s	Núverandi ljóðføri: %s %s
+msg.phrase	  %s	%s
+msg.phrase	DIR  %s	DIR %s
+msg.phrase	 %c %s%s	%c %s%s
+msg.phrase	Files: %d	Fílur: %d
+msg.phrase	%02d	%02d
+msg.phrase	%03d	%03d
+msg.phrase	%02X	%02X
+msg.phrase	SGNO TRACKER: incompatible SGX ABI\n	SGNO SPORI: ósambærligt SGX ABI
+msg.phrase	S: check: wait -- a file is being read or written	S: kanna: bíða -- ein fíla verður lisin ella skrivað
+msg.phrase	S: check: the drive is busy or not ready	S: kanna: koyringin er upptikin ella ikki klár
+msg.phrase	nothing for this item (ContextMenu.cfg)	einki fyri hendan lutin (Samanhangsvalmynd.cfg)
+msg.phrase	bad command in ContextMenu.cfg	ring skipan í Samanhangsvalmynd.cfg
+msg.phrase	unknown action in ContextMenu.cfg	ókend handling í Samanhangsvalmynd.cfg
+msg.prefix	menu	matskrá
+msg.phrase	choose a file or folder	vel eina fílu ella mappu
+msg.phrase	this drive cannot be written	hendan koyringin kann ikki skrivast
+msg.phrase	an archive job is already running	eitt skjalasavnsarbeiði er longu í gongd
+msg.phrase	no PSRAM for the archive task	eingin PSRAM til arkivuppgávuna
+msg.phrase	could not start the archive task	kundi ikki byrja skjalasavnsuppgávuna
+msg.phrase	too many items (32 at most)	ov nógvir lutir (32 í mesta lagi)
+msg.phrase	nothing to compress	einki at trýsta
+msg.phrase	no name (or the name has / or \\)	einki navn (ella navnið hevur / ella \\)
+msg.phrase	32 items at most (mark fewer, or put them in a folder)	32 lutir í mesta lagi (merk færri, ella legg teir í mappu)
+msg.prefix	archive	skráseta
+msg.prefix	compress	trýsta
+msg.prefix	render	veiting
+msg.phrase	5 Macro	5 Makro
+msg.phrase	6 Help	6 Hjálp
+msg.phrase	Run current	Koyr núverandi
+msg.phrase	Run the macro at the cursor (#! header cell and the cells below it)	Koyr makroina við markørinum (#! høvuðskyknuna og kyknurnar undir henni)
+msg.phrase	Run selection	Koyr val
+msg.phrase	Run the selected cells as one macro (top-left cell is the #! header)	Koyr valdu kyknurnar sum eina makro (kyknan ovast til vinstru er #! yvirskriftin)
+msg.phrase	Run all	Koyr alt
+msg.phrase	Run every macro in the sheet, top-left to bottom-right	Koyr hvønn makro í arkinum, ovast til vinstru til niðast til høgru
+msg.phrase	Last error	Seinasti feilur
+msg.phrase	Show the last macro error	Vís seinasta makro feilin
+msg.phrase	Macro	Makro
+msg.phrase	Macro: run #!ruby / #!python / #!basic cells	Makro: koyr #!rubin / #!pyton / #!grundleggjandi kyknur
+msg.phrase	Edit the cell (F2)	Rætta kyknuna (F2)
+msg.phrase	Fit widths/heights to the contents	Passa breiddir/hæddir til innihaldið
+msg.phrase	Last macro error	Seinasti makro feilur
+msg.phrase	No macro error.	Eingin makro feilur.
+msg.phrase	IME on	IME á
+msg.phrase	IME off	IME av
+msg.phrase	Macro: %s %s ...	Makro: %s %s ...
+msg.phrase	%s: this firmware cannot run macros (SGX ABI 5.10 or later)	%s: hetta fastforritið kann ikki koyra makroir (SGX ABI 5.10 ella nýggjari)
+msg.phrase	Macro error: %s	Makro feilur: %s
+msg.phrase	Macro: %s done	Makro: %s gjørt
+msg.phrase	a macro is already running	ein makro koyrir longu
+msg.phrase	this language is not available	hetta málið er ikki tøkt
+msg.phrase	not enough memory	ikki nóg mikið av minni
+msg.phrase	the macro stopped with an error	makroin steðgaði við einum feili.
+msg.phrase	Macro error %s: %s	Makrofeilur %s: %s
+msg.phrase	Macro: not enough memory	Makro: ikki nóg mikið av minni
+msg.phrase	Macro: the cursor is not on a macro (a #!ruby / #!python / #!basic cell or the cells below it)	Makro: markørurin er ikki á einum makro (ein #!ruby / #!python / #!grundkykna ella kyknurnar undir henni)
+msg.phrase	Macro: no macro in the sheet	Makro: eingin makro í arkinum
+msg.phrase	Run all macros	Koyr allar makroir
+msg.phrase	Macros: %d. Run them all, top-left to bottom-right? Changes cannot be undone.	Makroir: %d. Koyr tey øll, ovast-vinstrumegin til niðast-høgrumegin? Broytingar kunnu ikki ógildast.
+msg.phrase	Macro: %d of %d done	Makro: %d av %d gjørt
+msg.phrase	Cleared the cell	Ruddað kyknuna
+msg.phrase	Cleared the selection	Ruddað valið
+msg.phrase	Background colour = %d	Bakgrundslitur = %d
+msg.phrase	Text colour = %d	Tekstlitur = %d
+msg.phrase	Graph: line	Graf: linja
+msg.phrase	Graph: bar	Graf: strika
+msg.phrase	Graph: mixed	Graf: blandað
+msg.phrase	Graph: pie	Graf: køka
+msg.phrase	Exported %s	Útflutt %s

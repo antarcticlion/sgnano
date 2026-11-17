@@ -1,0 +1,1161 @@
+# sgnano filer strings: Svenska. Machine translation (unreviewed; 2026-11-04).
+@lang sv
+@name Svenska
+ui	一覧（ファイルとフォルダを 2 列 x 19 行に並べる）	Lista (filer och mappar ordnade i 2 kolumner x 19 rader)
+ui	カーソルを動かす（左右は隣の列へ）	Flytta markören (vänster och höger till nästa kolumn)
+ui	前のページ / 次のページ	Föregående sida / Nästa sida
+ui	全部に印 / 印を反転（PC-98 FD と同じ）	Markera alla / invertera markeringarna (som PC-98 FD)
+ui	先頭 / 最後	Första/sista
+ui	印を付けて次へ / 印だけ付ける	Markera och gå vidare / bara markera
+ui	Shift+矢印	Skift+pil
+ui	範囲を選ぶ（Space でその範囲に印）	Välj ett område (Mellanslag markerar området)
+ui	フォルダに入る・ファイルを開く（F2/X は実行）	Öppna en mapp / öppna en fil (F2/X kör)
+ui	上のフォルダへ	Gå till den övre mappen
+ui	ドライブを選ぶ（USB・フロッピー・CD・S: 内蔵）	Välj enhet (USB, diskett, CD, S: inbyggd)
+ui	コピー（Shift+C / Shift+F3 は行き先を木から）	Kopiera (Shift+C / Shift+F3 väljer målet i trädet)
+ui	移動	flytta
+ui	削除（Shift+D / Shift+F4 はフォルダ削除）	Ta bort (Shift+D / Shift+F4 tar bort en mapp)
+ui	名前を変える	byta namn
+ui	属性を変える	Ändra attributen
+ui	エディタで開く	öppna i editorn
+ui	テキスト表示（Shift+V / Ctrl+Alt+F7 は 16 進）	Visa som text (Shift+V / Ctrl+Alt+F7 hex)
+ui	ドライブの情報	Enhetsinformation
+ui	フォルダを作る / 新しいファイル	Ny mapp / ny fil
+ui	シェル sgsh / 媒体を取り出す	Shell sgsh / mata ut mediet
+ui	読み直す	Läs om
+ui	見えている画面を PNG で保存	Spara skärmen som PNG
+ui	窓を閉じる・選択を解く（サブフォルダでは上位へ）	Stäng fönstret / avmarkera (i en undermapp: gå upp)
+ui	ファイルの操作（FD と同じ。印・範囲・カーソルの順に選ぶ）	Filåtgärder (som FD: markeringar, sedan område, sedan markör)
+ui	コピー: 行き先はドライブとフォルダの木から。ESC で止める	Kopiera: välj målet i trädet med enheter och mappar. ESC stoppar
+ui	削除: y で確かめる。印・範囲をまとめて。フォルダは中身ごと	Ta bort: bekräfta med y. Markeringar och områden tillsammans. Mappar med innehåll
+ui	フォルダを削除（中身ごと）	Ta bort en mapp (med innehåll)
+ui	名前を変える（今の名前を直して Enter）	Ändra namnet (korrigera det aktuella namnet och tryck på Enter)
+ui	属性: R 読み出し専用・H 隠し・S システム・A アーカイブ	Attribut: R skrivskyddad, H dold, S system, A arkiv
+ui	フォルダを作る	Ny mapp
+ui	新しいファイル（空）を作る	Ny (tom) fil
+ui	テキストで表示（Shift+V / Ctrl+Alt+F7 は 16 進）	Visa som text (Shift+V / Ctrl+Alt+F7 hex)
+ui	シェル sgsh（exit / Ctrl-D でファイラーへ）	Shell sgsh (exit / Ctrl-D tillbaka till filhanteraren)
+ui	選んでいるドライブの素性（INQUIRY・IDENTIFY）	Identiteten för den valda enheten (FÖRFRÅGA/IDENTIFIERA)
+ui	FDD・LS-120・CD の媒体を取り出す	Mata ut FDD / LS-120 / CD-mediet
+ui	一覧を読み直す（CD は TOC から）	Läs om listan (CD: från TOC)
+ui	ZMODEM で PC から受け取る（zm.sh put）	Ta emot från PC via ZMODEM (zm.sh put)
+ui	ZMODEM で PC へ送る（zm.sh get）	Skicka till PC via ZMODEM (zm.sh get)
+ui	.rb をコンパイルして .mrb を書き出す	Kompilera .rb och skriv .mrb
+ui	Ruby の REPL（1 行ずつ、Ctrl-D / ESC で終わり）	Ruby-REPL (en rad i taget, Ctrl-D / ESC avslutar)
+ui	MicroPython の REPL	MicroPython-REPL
+ui	4MB ずつ分割 / .001 から結合	Dela i delar om 4 MB / foga ihop från .001
+ui	分割 / 結合（Ctrl+F11 / F12 と同じ）	Dela / foga ihop (som Ctrl+F11 / F12)
+ui	画面（Alt+F。FD の F キーとぶつからない）	Skärm (Alt+F, krockar inte med FD:s F-tangenter)
+ui	FB（絵）/ テキスト面を出す・隠す	FB (bild)/Visa/dölj textsida
+ui	FB の表示ページ（0〜3）	FB-visningssida (0-3)
+ui	FB を 0 で消す / 明るさを 1/2 に（RGB555）	Rensa FB till 0 / halvera ljusstyrkan (RGB555)
+ui	USB のエンドポイントと LAN の状態	USB-ändpunkt och LAN-status
+ui	FB の表示ページを消す / 明るさを 1/2 に	Rensa FB-visningssidan / halvera ljusstyrkan
+ui	テキストの属性の見本	Exempel på textattribut
+ui	モニタの EDID（起動時に読んだもの）	Övervaka EDID (läs vid start)
+ui	フォント ROM のライセンスとクレジット	Font ROM-licenser och krediter
+ui	設定（表示の言語・IME・キーボードロケール）	Inställningar (visningsspråk, IME, tangentbordsspråk)
+ui	時計（NTP で合わせた日本時間。s ですぐ合わせる）	Klocka (Japan-tid inställd med NTP. Ställ omedelbart med s)
+ui	表計算（SGCALC）を開く	Öppna kalkylark (SGCALC)
+ui	S: ドライブのエラー検査（誤りがあれば直すか聞く）	Kontrollera S: (frågar innan reparation)
+ui	トラッカー（TRACKER）を開く	Öppna TRACKER
+ui	再起動（確かめの窓が出る）	Starta om (ett bekräftelsefönster visas)
+ui	ADC のステレオ入力（GP40 / 41）を鳴らす	Spela ADC stereoingång (GP40/41)
+ui	VGM/VGZ を 96kHz/24bit WAV に書き出す	Exportera VGM/VGZ till WAV 96 kHz / 24 bitar
+ui	このヘルプ	Denna hjälp
+ui	ページを替える	byt sida
+ui	閉じる	Stäng
+ui	テキスト・16 進のビュアー（less 風）	Text/Hex viewer (mindre stil)
+ui	1 行	One line
+ui	1 ページ	One page
+ui	半ページ	halv sida
+ui	探す（前へ・後ろへ）/ 次・前	Sök (föregående/bakåt)/nästa/föregående
+ui	一覧へ戻る（F1 はビュアーのヘルプ）	Återgå till listan (F1 är visningshjälp)
+ui	画像のビュアー	bildvisare
+ui	一覧へ戻る（F2 F3 F6 F7 Shift+F2 F3 は効く）	Återgå till listan (F2 F3 F6 F7 Shift+F2 F3 fungerar)
+ui	エディタ（E / Shift+F8）	Redigerare (E / Shift+F8)
+ui	保存する（UTF-8。改行と BOM は元のまま）	Spara (UTF-8; radbrytningar och stycklista förblir som original)
+ui	閉じる（変わっていれば Y / N / ESC）	Stäng (J/N/ESC om ändrat)
+ui	挿入 / 上書き	infoga/skriva över
+ui	IME（日本語・英語・ハングル）の入・切	Slå på/av IME (japanska/engelska/hangul)
+ui	IME の言語（日本語 / English / 한국어）	IME-språk (japanska / engelska / 한국어)
+ui	ひらがな / カタカナで確定	Bekräftat i Hiragana/Katakana
+ui	エディタのヘルプ	Redaktörshjälp
+ui	シェル	skal
+ui	シェル（csh のサブセット。exit / Ctrl-D で戻る、help で一覧）	Shell (en del av csh. exit / Ctrl-D tillbaka, help listar kommandona)
+ui	一覧と移動	Lista och flytta
+ui	ファイルの操作	Filoperationer
+ui	画面と機器	skärm och utrustning
+ui	ビュアーとエディタ	tittare och redaktör
+ui	ヘルプ  %u / %u  %s	Hjälp %u / %u %s
+ui	Left Right: ページを替える    F1 / ESC: 閉じる	Vänster Höger: Byt sida F1 / ESC: Stäng
+ui	sgnano を再起動しますか？	Vill du starta om sgnano?
+ui	[ 再起動 ]	[Starta om]
+ui	[ キャンセル ]	[Avbryt]
+ui	S: ドライブのエラー検査	Kontrollera enheten S:
+ui	ファイル %lu  フォルダ %lu	Filer %lu  mappar %lu
+ui	大きさが鎖と合わない	Storleken stämmer inte med kedjan
+ui	どこからも使われていないクラスタ	Kluster som inget använder
+ui	重なったクラスタ	Korslänkade kluster
+ui	壊れた項目	Trasiga poster
+ui	FAT の 2 つの写しの食い違い	De två FAT-kopiorna skiljer sig
+ui	エラーはありません。	Inga fel.
+ui	エラーが見つかりました。修復しますか？	Fel hittades. Reparera dem?
+ui	修復しました（上は直した数）。	Reparerat (talen ovan har rättats).
+ui	検査・修復できませんでした（S: が使用中）。	Kunde inte kontrollera eller reparera (S: är upptagen).
+ui	[ 修復する ]	[ Reparera ]
+ui	[ やめる ]	[ Avbryt ]
+ui	何かキーで閉じる	stäng med valfri nyckel
+ui	設定	inställningar
+ui	表示の言語	Visningsspråk
+ui	キーボードロケール	tangentbordsspråk
+ui	Up / Down  Enter 決める  ESC やめる	Upp / Ner Enter Bestäm ESC-stopp
+ui	表示の言語 (Language)	Visningsspråk
+ui	Up / Down  Enter 決める  ESC 戻る	Upp / Ner Enter Bestäm ESC Tillbaka
+ui	%c: をどの文字に固定しますか（A〜Z、S を除く。ESC でやめる）	Lås %c: som vilken bokstav? (A-Z utom S. ESC avbryter)
+ui	ドライブ  文字 / Enter 選ぶ  F2 文字を固定・解除  F3 文字を決めて固定  L / ESC やめる	Enhet  bokstav / Enter välj  F2 lås/lås upp bokstaven  F3 lås som...  L / ESC avbryt
+ui	  区画 %u	  partition %u
+ui	%c:* （固定・つながっていません）%04X:%04X%s  %s	%c:* (låst, inte ansluten) %04X:%04X%s  %s
+ui	お知らせ	Observera
+ui	ドライブ %c:  %s	Enhet %c: %s
+ui	ドライブ  (なし)	Kör (ingen)
+ui	音楽 CD  %u トラック	Musik-CD %u spår
+ui	フォルダ %u  ファイル %u  合計 %s	Mapp %u Filer %u Totalt %s
+ui	読んでいます...	Läser...
+ui	* 印 %u 個  %s	* markera %u stycken %s
+ui	%lu バイト	%lu byte
+ui	属性 %s   更新日時 %s   作成日時 %s   %s	Attribut %s Datum och tid skrivet %s Datum och tid skapat %s %s
+ui	日	dag
+ui	月	månen
+ui	火	eld
+ui	水	vatten
+ui	木	träd
+ui	金	pengar
+ui	土	jord
+ui	時計は合わせていません（LAN の NTP）	Klockan är inte inställd (NTP på LAN)
+ui	FB  表示 %u  書込 %u	FB-display %u skriv %u
+ui	1 ヘルプ	1 Help
+ui	2 実行	2 Kör
+ui	3 ｺﾋﾟｰ	3 Kopia
+ui	4 削除	4 Radera
+ui	5 名前	5 Namn
+ui	7 FB消去	7 RensFB
+ui	8 FB減光	8 MörkFB
+ui	9 ﾄﾞﾗｲﾌﾞ	9 Enhet
+ui	10 EP表	10 EP
+ui	11 時計	11 Clock
+ui	12 表計	12 CALC
+ui	1 属性	1 Attr
+ui	2 情報	2 Info
+ui	3 移動	3 Flytta
+ui	5 作成	5 Mapp
+ui	6 シェル	6 Shell
+ui	8 編集	8 Redig
+ui	9 表示	9 Visa
+ui	10S:検査	10 S:kon
+ui	11 ﾄﾗｯｸ	11 TRACK
+ui	12再起動	12 Omst
+ui	1 新規	1 New
+ui	2 ﾌｫﾙﾀﾞ	2 Folder
+ui	3 名前	3 Rename
+ui	4 属性	4 Attrib
+ui	6 ｺﾋﾟｰ	6 Copy
+ui	7 移動	7 Move
+ui	8 削除	8 Delete
+ui	9 編集	9 Edit
+ui	10ｺﾝﾊﾟｲﾙ	10 mrbc
+ui	11 分割	11 Split
+ui	12 結合	12 Join
+ui	1 属性例	1 Attrs
+ui	2 FB切替	2 FB
+ui	3 文字面	3 Text
+ui	5 画面写	5 ScrSht
+ui	6 表示頁	6 DispPg
+ui	9 ZM受信	9 ZMrecv
+ui	10ZM送信	10 ZMsk
+ui	2 FB消去	2 FBClr
+ui	3 FB減光	3 FBDim
+ui	5 再読込	5 Reload
+ui	7 16進	7 Hex
+ui	9 ﾗｲｾﾝｽ	9 Licens
+ui	8 設定	8 Inst
+ui	時刻を合わせる（日本時間。NTP で合わせられませんでした）	Ställ klockan (japansk tid. NTP kunde inte ställa den)
+ui	起動のパラメタ	Kör med parametrar
+ui	新しいフォルダ	ny mapp
+ui	新しいファイル	ny fil
+ui	時刻:	Tid:
+ui	実行:	Kör:
+ui	名前:	Namn:
+ui	年-月-日 時:分  Enter 合わせる  ESC そのまま	ÅÅÅÅ-MM-DD hh:mm  Enter ställ  ESC behåll
+ui	Enter 走らせる  ←→ 動かす  BS / Del 消す  ESC やめる	Enter kör  <-> flytta  BS / Del radera  ESC avbryt
+ui	Enter 変える  ←→ 動かす  BS / Del 消す  ESC やめる	Enter byt namn  <-> flytta  BS / Del radera  ESC avbryt
+ui	Enter 作る  ←→ 動かす  BS / Del 消す  ESC やめる	Enter skapa  <-> flytta  BS / Del radera  ESC avbryt
+ui	消す	radera
+ui	個の項目	 objekt
+ui	フォルダは中身ごと消します。よろしいですか？	Mapparna tas bort med sitt innehåll. Är du säker?
+ui	このファイルを消しますか？	Vill du ta bort den här filen?
+ui	（元に戻せません。フォルダの中のファイルも消えます）	(Kan inte ångras. Filerna i mapparna tas också bort)
+ui	[ はい (Y) ]	[Ja (Y)]
+ui	[ いいえ (N) ]	[Nej (N)]
+ui	バイナリビュアー: ファイルを選んでください	Binär visningsprogram: välj fil
+ui	テキストビュアー: ファイルを選んでください	Textvisare: Välj fil
+ui	移動先	destination
+ui	コピー先	Kopiera destination
+ui	バッファがいっぱいです (buffer full)	buffert full
+ui	読み出し専用のドライブです (read-only)	Detta är en skrivskyddad enhet.
+ui	保存できません (no writer)	Kan inte spara (ingen författare)
+ui	保存を始められません (the drive is busy?)	Det går inte att börja spara (disken är upptagen?)
+ui	保存しています... (saving)	Sparar... (sparar)
+ui	2 保存	2 Spara
+ui	5 色分け	5 Färg
+ui	6 ﾞ	6 Hira
+ui	7 ｶﾀｶﾅ	7 Kata
+ui	8 予測	8 Förut
+ui	10 終了	10 Avsl
+ui	1 先頭	1 Början
+ui	2 最後	2 Slut
+ui	3 挿/上	3 InfErs
+ui	4 辞書	4 Ordbok
+ui	6 半	6 HHira
+ui	7 半ｶﾅ	7 HKata
+ui	 %s  %s  行 %lu/%lu 桁 %u  %s  %s %s%s%s	 %s %s rad %lu/%lu kolumn %u %s %s %s%s%s
+ui	*変更	*Ändra
+ui	上書	Skriv över
+ui	挿入	infoga
+ui	  読出専用	  endast läs
+ui	 エディタ (sgnano edit)                      F1 / ESC で閉じる	 Redaktör (sgnano edit) Stäng med F1 / ESC
+ui	 矢印 / Home End / PgUp PgDn   カーソルを動かす	 Pil / Home End / PgUp PgDn Flytta markören
+ui	 Ctrl-T / Ctrl-B               ファイルの先頭 / 最後	 Ctrl-T / Ctrl-B Start / Slut på fil
+ui	 BS / Del                      前の字 / カーソルの字を消す	 BS / Del Radera föregående tecken / tecken under markören
+ui	 Enter                         改行（前の行の字下げを引き継ぐ）	 Ange radbrytning (ärver indrag från föregående rad)
+ui	 Tab / Ins                     タブ / 挿入と上書きの切り替え	 Tab / Ins Tab / Växla mellan infoga och skriv över
+ui	 F5                            色分け（拡張子から。C/C++・mruby・MicroPython・SG BASIC・なし）	 F5                            Färgning (efter filändelse; C/C++, mruby, MicroPython, SG BASIC, ingen)
+ui	 F2  (Ctrl-S)                  保存（UTF-8、改行は元の形）	 F2 (Ctrl-S) Spara (UTF-8, radbrytningar i originalform)
+ui	 F10 / ESC                     閉じる（変更があれば聞く）	 F10 / ESC Stäng (lyssna efter eventuella ändringar)
+ui	 IME:  Ctrl-Space / F12        オン・オフ（あ / A）	IME: Ctrl-Space / F12 On/Off (A / A)
+ui	       F9                      IME の言語（このエディタの間だけ。閉じると戻る）	       F9 IME-språk (endast under denna redigerare, återvänd när stängt)
+ui	       F8                      日本語の予測変換 オン・オフ	       F8 Japanese predictive conversion on/off
+ui	       日本語                  ローマ字 -> ひらがな（F6）・カタカナ（F7）	       Japanese Romaji -> Hiragana (F6) / Katakana (F7)
+ui	                               半角ひらがな（Shift+F6）・半角カタカナ（Shift+F7）	                               Halvbredd hiragana (Shift+F6) / halvbredd katakana (Shift+F7)
+ui	                               2 字以上で予測、Space で連文節変換	                               Förutsäg med 2 eller fler tecken, konvertera kontinuerlig sats med mellanslag
+ui	       English                 2 字以上で予測補完	       Engelska Prediktiv komplettering med 2 eller fler tecken
+ui	       한국어                  2 ボル式ハングル	       한국어 2 Bol-style Hangul
+ui	       Space / Enter           変換 / 確定	       Space / Enter Convert / Confirm
+ui	       ← →                    文節を選ぶ	       ← → Välj en fras
+ui	       Shift+← →               文節の右端を 1 字 縮/拡（候補を出し直す）	       Shift+← → Korta/förläng frasens högra kant med ett tecken (nya kandidater)
+ui	       ↑ ↓ / Tab               候補の窓で前 / 次の候補（窓は変換の下、画面の下では上）	       ↑ ↓ / Tab               Föregående / nästa kandidat i fönstret (under texten, ovanför nära botten)
+ui	       →→→ で Enter            すべての候補（2 列 x 8 個、← → で列とページ、Enter で決める）	       Enter på →→→            Alla kandidater (2 x 8, ← → kolumn och sida, Enter väljer)
+ui	       Enter                   次の文節へ（最後の文節で全体を確定）	       Enter                   Nästa fras (vid den sista bekräftas allt)
+ui	       Ctrl-U                  いまの語をユーザー辞書へ	Ctrl-U Add current word to user dictionary
+ui	 Shift+F1 / F2 / F3 / F4       先頭 / 最後 / 挿入と上書き / ユーザー辞書へ	 Shift+F1 / F2 / F3 / F4       Början / slut / infoga-ersätt / till användarordboken
+ui	       BS / ESC                1 字戻す / 取り消し	       BS / ESC Go back one character / Cancel
+ui	       , . - [ ] /             、 。 ー 「 」 ・	       , . - [ ] / , . - "" ・
+ui	変更あり  Y: 保存して閉じる  N: 保存せず閉じる  ESC: 戻る	Ändrad  Y: spara och stäng  N: stäng utan att spara  ESC: tillbaka
+ui	[予測] Tab/↑↓: 候補  Space: 変換  Esc: 取消	[Förutsägelse] Tab/↑↓: kandidat  Mellanslag: konvertera  Esc: avbryt
+ui	[候補] ↑↓: 選ぶ  ←→: 列・ページ  Enter: 決める	[Kandidater] ↑↓: välj  ←→: kolumn/sida  Enter: ta
+ui	[変換] ↑↓候補 ←→文節 Shift+←→区切り Enter次へ	[Konvertera] ↑↓kand ←→fras Shift+←→gräns Enter nästa
+ui	[한국어] Tab/↑↓: 候補  Enter/Space: 確定	[한국어] Tab/↑↓: kandidat  Enter/Mellanslag: bekräfta
+ui	[English] Tab/↑↓: 候補  Enter: 確定	[English] Tab/↑↓: kandidat  Enter: bekräfta
+ui	2ボル式ハングル入力  Ctrl-Space: 英数	Hangul-inmatning 2-set  Ctrl-Space: alfanumeriskt
+ui	予測補完  Ctrl-Space: 直接入力	Förutsägande komplettering  Ctrl-Space: direktinmatning
+ui	辞書なし: ひらがな/カタカナ入力のみ  F6/F7	Ingen ordbok: bara hiragana/katakana  F6/F7
+ui	Space: 変換  F7: カタカナ  Ctrl-Space: 英数	Mellanslag: konvertera  F7: katakana  Ctrl-Space: alfanumeriskt
+ui	Space: 変換  F6: ひらがな  Ctrl-Space: 英数	Mellanslag: konvertera  F6: hiragana  Ctrl-Space: alfanumeriskt
+ui	半角  F6: ひらがな  F7: カタカナ  Shift+F6/F7: 半角	Halvbredd  F6: hiragana  F7: katakana  Shift+F6/F7: halv
+ui	IME オフ	IME av
+ui	 予測	 förutsägelse
+ui	日本語の予測変換: オン	Förutsägande japansk översättning: På
+ui	日本語の予測変換: オフ	Prediktiv översättning för japanska: Av
+ui	日本語IMEで使います	Använd med japansk IME
+ui	ユーザー辞書に追加できません	Kan inte lägga till i användarordlistan
+ui	色分け: %s	Färgning: %s
+ui	読み込んでいます... (loading)	Laddar... (lastar)
+ui	読み込めませんでした (could not read)	kunde inte läsa
+ui	%lu 行%s%s	%lu rad%s%s
+ui	  Shift_JIS を UTF-8 で開きました（保存は UTF-8）	  Shift_JIS öppnades i UTF-8 (sparad i UTF-8)
+ui	  読み出し専用	  endast läs
+ui	保存しました (saved)	sparat
+ui	保存できませんでした (write failed)	Kunde inte spara (skriv misslyckades)
+ui	候補	Kandidater
+ui	7 書込頁	7 WrtPg
+ui	9 ﾃｷｽﾄ	9 Text
+ui	9 ﾊﾞｲﾅﾘ	9 Hex
+ui	読み込み中 %lu%%  	Laddar %lu%%
+ui	（先頭だけ）  	(bara början)
+ui	16 進  q ESC: 戻る  F1: ヘルプ	hex q ESC: Tillbaka F1: Hjälp
+ui	テキスト  q ESC: 戻る  F1: ヘルプ	Text q ESC: Tillbaka F1: Hjälp
+ui	ビュアーのキー（less 風。テキストと 16 進で共通）	Viewer-nyckel (mindre stil, vanlig för text och hexadecimal)
+ui	1 行進む	flytta fram en rad
+ui	1 行戻る	Gå tillbaka en rad
+ui	1 ページ進む	Gå framåt en sida
+ui	1 ページ戻る	Gå tillbaka 1 sida
+ui	半ページ進む / 戻る	Gå en halv sida framåt / gå tillbaka
+ui	/文字列  ?文字列	/sträng ?sträng
+ui	下へ探す / 上へ探す（大文字小文字は区別しない）	Sök ner / Sök upp (okänslig för skiftläge)
+ui	次 / 前を探す	Hitta nästa/föregående
+ui	16 進で表示する（いま見ている所のまま）	Visa i hexadecimal (som du för närvarande tittar på)
+ui	テキストで表示する（いま見ている所のまま）	Visa som text (som du för närvarande tittar på)
+ui	色分けを替える（C/C++・mruby・MicroPython・SG BASIC・なし）	Byt färgning (C/C++, mruby, MicroPython, SG BASIC, ingen)
+ui	FB / テキスト面を出す・隠す	FB / Visa/dölj textsida
+ui	FB の表示ページ / 書き込みページ	FB visa sida/skrivsida
+ui	ファイラーへ戻る	Återgå till fil
+ui	このヘルプを閉じる	Stäng den här hjälpen
+ui	コピー	kopia
+ui	 %s: フォルダを読んでいます... %u 個	 %s: Läser mapp... %u stycken
+ui	 %s: 行き先の空きを数えています...	 %s: Räknar tillgänglighet på destinationen...
+ui	 %s: 行き先の空きが足りません	 %s: Inte tillräckligt med utrymme på destinationen
+ui	 移動: 元のフォルダを消しています	Flytta: Tar bort den ursprungliga mappen
+ui	終了しました	Färdig
+ui	止まりました	Det tog stopp
+ui	 %s中%s	 %s av %s
+ui	（止めています）	(stoppad)
+ui	 元: %s	 Från: %s
+ui	 先: %s	 Till: %s
+ui	 ファイル %u / %u 個  フォルダ %u 個  %s / %s  (%u%%)%s	 Filer %u / %u Mappar %u %s / %s (%u%%)%s
+ui	  多すぎるので一部だけ	  Det finns för många, så bara några
+ui	 要る大きさ %s、空き %s。続けますか？	 Obligatorisk storlek %s, ledigt utrymme %s. Vill du fortsätta?
+ui	 Y: 続ける   N / ESC: やめる	 Y: Fortsätt N / ESC: Stopp
+ui	 何かキーを押すと閉じます	 Tryck på valfri knapp för att stänga
+ui	 ESC: 止める	 ESC: Sluta
+ui	 %s: ←→ ドライブ  ↑↓ フォルダ  Space 開く・閉じる  Enter 決める  ESC やめる	 %s: ←→ Drive ↑↓ Mapputrymme Öppna/Stäng Enter Bestäm ESC Avsluta
+ui	 読めません: %s	Oläsbar: %s
+ui	 フォルダを読んでいます...（ESC で止める）  %u 個	 Läser mapp... (sluta med ESC) %u stycken
+ui	 フォルダ %u 個%s	 Mapp %u stycken%s
+ui	（多すぎるか深すぎるので、一部だけ）	(Det finns för många eller för djupa, så bara några)
+ui	フォルダの展開を止めました	Jag slutade extrahera mappen.
+ui	Space で開き直せます。もう一度 ESC でやめます	Du kan öppna den igen med Space. Tryck på ESC igen för att avsluta
+ui	 SMF / SGT プレイヤー   %s	 SMF / SGT-spelare %s
+ui	 読み込んでいます... %lu / %lu バイト	 Laddar... %lu / %lu bytes
+ui	 %s / %s   %s   ポート %u	 %s / %s %s port %u
+ui	一時停止	pausa
+ui	再生中	Spelar nu
+ui	 Space: 一時停止  m: MIDI OUT  q / ESC: 止める	 Mellanslag: paus  m: MIDI OUT  q / ESC: stoppa
+ui	 q / ESC: やめる	q / ESC: Avsluta
+ui	フォント ROM のライセンスとクレジット\n\nROM: %s（版 %lu.%lu、%lu 文字、フラッシュの 0x%08lX から）\n\n	Font ROM-licenser och krediter\n\nROM: %s (version %lu.%lu, %lu tecken, från 0x%08lX i flash)
+ui	== 収めているフォント（ROM の出所の表）==\n	== Inkluderade teckensnitt (ROM-källtabell) ==
+ui	  （表が無い ROM）\n	(ROM utan tabell)
+ui	\n== ROM のクレジットの区画 ==\n\n	== ROM-poängsektion ==
+ui	（区画が無い）\n	(Det finns ingen uppdelning)
+ui	\n== 組み込んだソフトウェアのライセンス ==\n	\n== Licenser för den inbyggda programvaran ==\n
+ui	 %s を PNG で保存   %s	Spara %s som PNG %s
+ui	画面	skärmen
+ui	 組み立てています... %lu / %lu 行	Montering... %lu / %lu linje
+ui	 書いています... %lu / %lu KB（FB は隠しています）	Jag skriver... %lu / %lu KB (FB är dolt)
+ui	書けませんでした	Jag kunde inte skriva
+ui	書庫の名前（印の付いた項目、無ければカーソルの項目を入れる）	Arkivets namn (de markerade objekten, annars objektet vid markören)
+ui	Enter 圧縮する  ←→ 動かす  BS / Del 消す  ESC やめる	Enter komprimera  ←→ flytta  BS / Del radera  ESC avbryt
+ui	WAV 書き出し: %s 中止（%s）	WAV-export: %s avbruten (%s)
+ui	WAV 書き出し: %s 失敗（%s）	WAV-export: %s misslyckades (%s)
+ui	WAV 書き出し: %s 合計 %s	WAV-export: %s totalt %s
+ui	 WAV 書き出し（96kHz / 24bit）: %s	 WAV-export (96kHz / 24bit): %s
+ui	中止しました	Avbrutet
+ui	失敗しました	Misslyckades
+ui	 合計 %s	 Totalt %s
+ui	 中止しました（%s。半端なファイルは消しました）	 Avbrutet (%s; den ofullständiga filen raderades)
+ui	 書き出せませんでした（%s）。理由:	 Kunde inte exportera (%s). Orsak:
+ui	 （理由は分かりません）	 (okänd orsak)
+ui	 %u%%   経過 %s%s	 %u%%   förflutet %s%s
+ui	 ESC: 止める（半端なファイルは消します）	 ESC: stoppa (den ofullständiga filen raderas)
+ui	書庫: %s	Arkiv: %s
+ui	読み込み中…（ESC でやめる）	Läser... (ESC för att avbryta)
+ui	 %u 項目%s  合計 %s バイト  展開先: %s	 %u objekt%s  totalt %s byte  packa upp till: %s
+ui	 Enter 項目を展開  X 全部を展開  ↑↓ 動かす  ESC 閉じる	 Enter packa upp  X allt  ↑↓ flytta  ESC stäng
+ui	圧縮	Komprimera
+ui	一覧	Lista
+ui	展開	Packa upp
+ui	 合計 %s   %u 項目	 Totalt %s   %u objekt
+ui	 合計 %s   %u ファイル	 Totalt %s   %u filer
+ui	 中止しました（%s。書きかけのファイルは消しました）	 Avbrutet (%s; den halvfärdiga filen raderades)
+ui	 できませんでした（%s）: %s	 Gick inte (%s): %s
+ui	 %u%%   経過 %s   %s バイト%s	 %u%%   förflutet %s   %s byte%s
+ui	 経過 %s   %s バイト%s	 förflutet %s   %s byte%s
+ui	 ESC: 止める（書きかけのファイルは消します）	 ESC: stoppa (den halvfärdiga filen raderas)
+ui	書庫: %s 失敗（%s）	Arkiv: %s misslyckades (%s)
+ui	圧縮: %s（%u 項目）	Komprimerat: %s (%u objekt)
+ui	展開: %s（%u ファイル）	Uppackat: %s (%u filer)
+msg.phrase	the drive went away	körningen gick bort
+msg.phrase	reading the partitions again...	läser partitionerna igen...
+msg.phrase	could not open the volume (no memory?)	kunde inte öppna volymen (inget minne?)
+msg.phrase	opening the volume...	öppnar volymen...
+msg.phrase	no memory for the file list	inget minne för fillistan
+msg.phrase	reading the directory... (retrying)	läser katalogen... (försöker igen)
+msg.phrase	could not read the directory	kunde inte läsa katalogen
+msg.phrase	reading the directory...	läser katalogen...
+msg.phrase	the drive did not answer -- reading the partitions again	enheten svarade inte -- läste partitionerna igen
+msg.phrase	could not read the directory (not FAT12/16/32?)	kunde inte läsa katalogen (inte FAT12/16/32?)
+msg.phrase	too many entries -- showing the first ones	för många poster -- visar de första
+msg.phrase	no file system found on this partition	inget filsystem hittades på denna partition
+msg.phrase	the path is too long	vägen är för lång
+msg.phrase	joining...	går med...
+msg.phrase	splitting...	dela...
+msg.phrase	renaming...	byter namn...
+msg.phrase	creating the folder...	skapar mappen...
+msg.phrase	creating the file...	skapar filen...
+msg.phrase	deleting...	raderar...
+msg.phrase	writing the attributes...	skriva attributen...
+msg.phrase	the drive is busy	enheten är upptagen
+msg.phrase	busy	upptagen
+msg.phrase	choose files or folders	välj filer eller mappar
+msg.phrase	choose files or folders (not "..")	välj filer eller mappar (inte "..")
+msg.phrase	stop the CD first	stoppa CD-skivan först
+msg.phrase	the CD cannot be changed (copy instead)	CD:n kan inte ändras (kopiera istället)
+msg.phrase	a system folder cannot be moved	en systemmapp kan inte flyttas
+msg.phrase	no drive can be written (FAT / exFAT / NTFS only)	ingen enhet kan skrivas (endast FAT / exFAT / NTFS)
+msg.phrase	the drive is gone	drevet är borta
+msg.phrase	nothing chosen	inget valt
+msg.phrase	nothing selected	inget valt
+msg.phrase	could not start	kunde inte starta
+msg.phrase	could not open	kunde inte öppna
+msg.phrase	only on a FAT / exFAT / NTFS drive	endast på en FAT / exFAT / NTFS-enhet
+msg.phrase	no name	inget namn
+msg.phrase	that name already exists	det namnet finns redan
+msg.phrase	could not start (bad name or the drive is busy)	kunde inte starta (dåligt namn eller enheten är upptagen)
+msg.phrase	could not start (the drive is busy)	kunde inte starta (enheten är upptagen)
+msg.phrase	the name cannot have / or \\ (only inside this folder)	namnet kan inte ha / eller \\ (endast i den här mappen)
+msg.phrase	the name is the same	namnet är detsamma
+msg.phrase	the item is read-only (A to change)	objektet är skrivskyddat (A för att ändra)
+msg.phrase	choose a .rb file on a writable drive	välj en .rb-fil på en skrivbar enhet
+msg.phrase	choose a .rb file	välj en .rb-fil
+msg.phrase	the drive is read-only	enheten är skrivskyddad
+msg.phrase	choose a folder on a writable drive	välj en mapp på en skrivbar enhet
+msg.phrase	wait a moment	vänta ett ögonblick
+msg.phrase	choose a file	välj en fil
+msg.phrase	choose a file (not a folder)	välj en fil (inte en mapp)
+msg.phrase	choose a .001 file	välj en .001-fil
+msg.phrase	choose the .001 file	välj filen .001
+msg.phrase	put the IWAD in a DoomFiles or Doom2Files folder	placera IWAD i en DoomFiles- eller Doom2Files-mapp
+msg.phrase	DoomFiles takes freedoom1 / doom / doomu / doom1.wad	DoomFiles tar freedoom1 / doom / doomu / doom1.wad
+msg.phrase	Doom2Files takes freedoom2 / doom2 / plutonia / tnt.wad	Doom2Files tar freedoom2 / doom2 / plutonia / tnt.wad
+msg.phrase	put the game files on external storage, not S:	lägg spelfilerna på extern lagring, inte S:
+msg.phrase	the IWAD must be on a FAT / exFAT / NTFS drive (not a CD)	IWAD måste finnas på en FAT / exFAT / NTFS-enhet (inte en CD)
+msg.phrase	still working	jobbar fortfarande
+msg.phrase	an image is loading	en bild laddas
+msg.phrase	no framebuffer	ingen rambuffert
+msg.phrase	half brightness works only in RGB555	halv ljusstyrka fungerar bara i RGB555
+msg.phrase	clearing...	rensar...
+msg.phrase	halving the brightness...	halvera ljusstyrkan...
+msg.phrase	that is a data track	det är ett dataspår
+msg.phrase	wait -- a file is being written	vänta -- en fil skrivs
+msg.phrase	only floppy / LS-120 / CD drives	endast floppy / LS-120 / CD-enheter
+msg.phrase	requested	begärt
+msg.phrase	reading the disc...	läser skivan...
+msg.phrase	stopping...	slutar...
+msg.phrase	opening...	öppning...
+msg.phrase	done	gjort
+msg.phrase	no memory	inget minne
+msg.phrase	already open	redan öppen
+msg.phrase	already running	redan igång
+msg.phrase	already saving	redan sparar
+msg.phrase	already playing	spelar redan
+msg.phrase	no such drive	ingen sådan enhet
+msg.phrase	no PSRAM	inget PSRAM
+msg.phrase	no PSRAM for the file	inget PSRAM för filen
+msg.phrase	no PSRAM for the line index	inget PSRAM för linjeindex
+msg.phrase	no PSRAM for the terminal	inget PSRAM för terminalen
+msg.phrase	no memory (PSRAM)	inget minne (PSRAM)
+msg.phrase	no memory (32KB SRAM)	inget minne (32KB SRAM)
+msg.phrase	no memory for the buffer	inget minne för bufferten
+msg.phrase	no memory for the image buffers	inget minne för bildbuffertarna
+msg.phrase	no memory for the read buffer	inget minne för läsbufferten
+msg.phrase	no room for the work memory (close the lowres plane?)	inget utrymme för arbetsminnet (stäng nedre planet?)
+msg.phrase	no framebuffer page	ingen framebuffer-sida
+msg.phrase	too large (4 MB at most)	för stor (max 4 MB)
+msg.phrase	the file is too large (1 MB at most)	filen är för stor (max 1 MB)
+msg.phrase	the file is too large (1 MB max)	filen är för stor (max 1 MB)
+msg.phrase	too large for an SMF (1MB at most)	för stor för en SMF (max 1 MB)
+msg.phrase	the file is empty	filen är tom
+msg.phrase	could not open the file	kunde inte öppna filen
+msg.phrase	could not read the file	kunde inte läsa filen
+msg.phrase	could not open the volume	kunde inte öppna volymen
+msg.phrase	could not open the destination (no memory?)	kunde inte öppna destinationen (inget minne?)
+msg.phrase	could not read the root folder	kunde inte läsa rotmappen
+msg.phrase	could not start the task	kunde inte starta uppgiften
+msg.phrase	could not start writing (bad name or busy)	kunde inte börja skriva (dåligt namn eller upptagen)
+msg.phrase	another volume is open (busy)	en annan volym är öppen (upptagen)
+msg.phrase	a copy is running	en kopia körs
+msg.phrase	a folder cannot go into itself	en mapp kan inte gå in i sig själv
+msg.phrase	that is the same folder	det är samma mapp
+msg.phrase	this drive cannot be changed (read only)	denna enhet kan inte ändras (skrivskyddad)
+msg.phrase	the drive is not writable	enheten är inte skrivbar
+msg.phrase	the part size must be a multiple of 512	delstorleken måste vara en multipel av 512
+msg.phrase	files of 4 GB or more are not supported	filer på 4 GB eller mer stöds inte
+msg.phrase	bad path	dålig väg
+msg.phrase	bad file name	dåligt filnamn
+msg.phrase	the font ROM is not there	teckensnittets ROM finns inte där
+msg.phrase	the sound is not open	ljudet är inte öppet
+msg.phrase	no such channel	ingen sådan kanal
+msg.phrase	the sequencer is busy	sequencern är upptagen
+msg.phrase	not enough PSRAM for the song	inte tillräckligt med PSRAM för låten
+msg.phrase	not a standard MIDI file (no MThd)	inte en standard MIDI-fil (ingen MThd)
+msg.phrase	no tracks	inga spår
+msg.phrase	a track is broken (MTrk)	ett spår är brutet (MTrk)
+msg.phrase	SMPTE time division is not supported	SMPTE-tidsdelning stöds inte
+msg.phrase	SMF format 2 is not supported (0 and 1 only)	SMF-format 2 stöds inte (endast 0 och 1)
+msg.phrase	not a Bulk-Only drive	inte en bulkdisk
+msg.phrase	not an optical drive	inte en optisk enhet
+msg.phrase	a system folder cannot be deleted or renamed	en systemmapp kan inte tas bort eller byta namn
+msg.phrase	no media in the drive	inget media i enheten
+msg.phrase	becoming ready	blir redo
+msg.phrase	not ready	inte redo
+msg.phrase	media changed	media förändrats
+msg.phrase	medium error	medelfel
+msg.phrase	illegal request	olaglig begäran
+msg.phrase	a bad directory entry	en dålig katalogpost
+msg.phrase	a directory on the way does not exist	en katalog på vägen finns inte
+msg.phrase	a file has that name	en fil har det namnet
+msg.phrase	a folder has that name	en mapp har det namnet
+msg.phrase	a name on the way is not a directory	ett namn på vägen är inte en katalog
+msg.phrase	cancelled	inställd
+msg.phrase	could not mount	kunde inte monteras
+msg.phrase	could not start a read	kunde inte starta en läsning
+msg.phrase	could not start a write	kunde inte börja skriva
+msg.phrase	is a directory	är en katalog
+msg.phrase	that is a directory	det är en katalog
+msg.phrase	no clusters	inga kluster
+msg.phrase	no room for the cluster list	inget utrymme för klusterlistan
+msg.phrase	no such file or directory	ingen sådan fil eller katalog
+msg.phrase	no such file	ingen sådan fil
+msg.phrase	no volume	ingen volym
+msg.phrase	not NTFS	inte NTFS
+msg.phrase	not exFAT	inte exFAT
+msg.phrase	not a directory	inte en katalog
+msg.phrase	not found	hittades inte
+msg.phrase	read error	läsfel
+msg.phrase	write error	skrivfel
+msg.phrase	reading the FAT failed	läsning av FAT misslyckades
+msg.phrase	the cluster chain is shorter than the file	klusterkedjan är kortare än filen
+msg.phrase	the directory is not empty	katalogen är inte tom
+msg.phrase	the disk is full	disken är full
+msg.phrase	the drive did not answer	körningen svarade inte
+msg.phrase	the file is read-only	filen är skrivskyddad
+msg.phrase	the file is too fragmented	filen är för fragmenterad
+msg.phrase	the file is too large (4GB)	filen är för stor (4GB)
+msg.phrase	the new name already exists	det nya namnet finns redan
+msg.phrase	the root directory is full	rotkatalogen är full
+msg.phrase	too many files with the same short name	för många filer med samma korta namn
+msg.phrase	No such file or directory	Ingen sådan fil eller katalog
+msg.phrase	File exists	Filen finns
+msg.phrase	Permission denied	Tillstånd nekad
+msg.phrase	Directory not empty	Katalogen är inte tom
+msg.phrase	Not a directory	Inte en katalog
+msg.phrase	Is a directory	Är en katalog
+msg.phrase	Read-only file system	Skrivskyddat filsystem
+msg.phrase	No space left on device	Inget utrymme kvar på enheten
+msg.phrase	Input/output error	Inmatnings-/utgångsfel
+msg.phrase	Not supported on this drive	Stöds inte på den här enheten
+msg.phrase	Invalid path	Ogiltig sökväg
+msg.phrase	Out of memory	Slut på minne
+msg.phrase	No such drive	Ingen sådan enhet
+msg.phrase	stopped	stannade
+msg.phrase	cancelled (not enough free space)	avbruten (inte tillräckligt med ledigt utrymme)
+msg.phrase	could not count the free space	kunde inte räkna ledigt utrymme
+msg.phrase	the receiver cancelled	mottagaren avbröts
+msg.phrase	no receiver (run rz on the PC)	ingen mottagare (kör rz på datorn)
+msg.phrase	the console UART is in use	konsolen UART används
+msg.phrase	the screen mode changed	skärmläget ändrades
+msg.phrase	the lines did not come (is the display running?)	linjerna kom inte (körs displayen?)
+msg.prefix	copy	kopia
+msg.prefix	move	flytta
+msg.prefix	delete	ta bort
+msg.prefix	rename	byta namn
+msg.prefix	attributes	attribut
+msg.prefix	new file	ny fil
+msg.prefix	new folder	ny mapp
+msg.prefix	image	bild
+msg.prefix	mrbc	mrbc
+msg.prefix	ruby	rubin
+msg.prefix	viewer	tittare
+msg.prefix	edit	redigera
+msg.prefix	IDENTIFY	IDENTIFIERA
+msg.prefix	ZMODEM	ZMODEM
+msg.prefix	ZMODEM receive	ZMODEM ta emot
+msg.prefix	ZMODEM send	ZMODEM skicka
+msg.prefix	split	split
+msg.prefix	join	gå med
+msg.prefix	Doom	Doom
+msg.prefix	SMF	SMF
+msg.prefix	CD	CD
+msg.prefix	FB	FB
+msg.prefix	Eject	Mata ut
+msg.prefix	reboot	starta om
+msg.prefix	license	licens
+msg.prefix	clock	klocka
+msg.prefix	ADC in	ADC in
+msg.prefix	screen -> PNG	skärm -> PNG
+msg.prefix	FB -> PNG	FB -> PNG
+msg.prefix	could not open the volume	kunde inte öppna volymen
+msg.pattern	received 	mottagits %s
+msg.pattern	sent 	skickas %s
+msg.pattern	saved 	sparat %s
+msg.pattern	created 	skapas %s
+msg.pattern	renamed to 	bytt namn till %s
+msg.pattern	deleted 	raderad %s
+msg.pattern	changed 	ändrats %s
+msg.pattern	joined 	gick med %s
+msg.pattern	split 	split %s
+msg.pattern	could not create 	kunde inte skapa %s
+msg.pattern	could not delete 	kunde inte radera %s
+msg.pattern	could not rename to 	kunde inte byta namn till %s
+msg.pattern	could not change 	kunde inte ändras %s
+msg.pattern	could not read 	kunde inte läsa %s
+msg.pattern	could not write 	kunde inte skriva %s
+msg.pattern	could not copy 	kunde inte kopiera %s
+msg.pattern	could not make 	kunde inte göra %s
+msg.pattern	could not remove the folder 	kunde inte ta bort mappen %s
+msg.pattern	could not remove 	kunde inte ta bort %s
+msg.pattern	no memory for 	inget minne för %s
+msg.pattern	too many errors while sending 	för många fel vid sändning %s
+msg.pattern	the receiver did not take 	mottagaren tog inte %s
+msg.pattern	the receiver skipped 	mottagaren hoppade över %s
+msg.pattern	FB page 	FB sida %s
+msg.word	 bytes each)	 byte vardera)
+msg.word	 bytes)	 byte)
+msg.word	 KB)	 KB)
+msg.word	 parts into 	 delar in i 
+msg.word	 parts (	 delar (
+msg.word	 into 	in i 
+msg.word	: cleared	: rensat
+msg.word	: brightness halved	: ljusstyrkan halverad
+msg.word	% read	% read
+msg.word	 rows	 rader
+msg.word	 -- not supported yet (FAT / exFAT / NTFS only)	 -- stöds inte ännu (endast FAT / exFAT / NTFS)
+msg.word	 files	 filer
+msg.word	 (	 (
+msg.phrase	Untitled	Namnlös
+msg.phrase	%s%d	%s%d
+msg.phrase	%s%d:%s%d	%s%d:%s%d
+msg.phrase	1 File	1 Fil
+msg.phrase	2 Edit	2 Redigera
+msg.phrase	3 Graph	3 Graf
+msg.phrase	4 Sheet	4 ark
+msg.phrase	5 Help	5 Hjälp
+msg.phrase	%s	%s
+msg.phrase	%.40s%s	%.40s%s
+msg.phrase	EMPTY	TOM
+msg.phrase	NUMBER	NUMBER
+msg.phrase	TEXT	TEXT
+msg.phrase	FORMULA	FORMEL
+msg.phrase	  [%s]   %s	  [%s] %s
+msg.phrase	EDIT  	REDIGERA
+msg.phrase	READY 	KLAR
+msg.phrase	Type to enter, F2 to edit, F1 for help	Skriv för att gå in, F2 för att redigera, F1 för hjälp
+msg.phrase	%4d 	%4d
+msg.phrase	5 CSV	5 CSV
+msg.phrase	6 ODS	6 ODS
+msg.phrase	[SHIFT]	[SKIFT]
+msg.phrase	[CTRL]	[CTRL]
+msg.phrase	[ALT]	[ALT]
+msg.phrase	Ready	Redo
+msg.phrase	%s Sum %.7g N %ld%s	%s Summa %.7g N %ld%s
+msg.phrase	SGCALC	SGCALC
+msg.phrase	Press any key	Tryck på valfri tangent
+msg.phrase	Y = yes    N = no    Esc = cancel	Y = ja N = nej Esc = avbryt
+msg.phrase	Enter = OK    Esc = cancel    Ctrl-U = clear	Enter = OK Esc = avbryt Ctrl-U = radera
+msg.phrase	ARROWS      move the cell cursor\n	PILAR flyttar cellmarkören
+msg.phrase	SHIFT+ARR   extend the selection (for graphs/copy)\n	SKIFT+ARR utökar markeringen (för grafer/kopia)
+msg.phrase	ENTER       edit the cell; in edit, commit and move down\n	ENTER redigera cellen; i redigera, commit och flytta ner
+msg.phrase	TAB         next cell    SHIFT+TAB  previous cell\n	TAB nästa cell SKIFT+TABB föregående cell
+msg.phrase	DELETE      clear the selected cell(s)    ESC  cancel\n	DELETE radera markerade celler ESC avbryt
+msg.phrase	PGUP/PGDN   move one screen    HOME/END  first/last column\n	PGUP/PGDN flytta en skärm HOME/END första/sista kolumnen
+msg.phrase	CTRL+HOME   A1    CTRL+END  last used cell\n	CTRL+HEM A1 CTRL+END senast använda cell
+msg.phrase	F1 help  F2 edit  F3 copy  F4 paste  F5 goto  F6 colour\n	F1 hjälp F2 redigera F3 kopiera F4 klistra in F5 gå till F6 färg
+msg.phrase	F7 auto-fit  F8 background  F9 recalc  F10 graph  F11 save  F12 menu\n	F7 auto-fit F8 bakgrund F9 recalc F10 graf F11 spara F12 meny
+msg.phrase	SHIFT+F1 about  SHIFT+F2 row height  SHIFT+F3 column width\n	SHIFT+F1 om SHIFT+F2 radhöjd SHIFT+F3 kolumnbredd
+msg.phrase	SHIFT+F4 select all  SHIFT+F10 graph range  SHIFT+F11 save as\n	SHIFT+F4 markera alla SHIFT+F10 grafintervall SHIFT+F11 spara som
+msg.phrase	CTRL+F1 new  CTRL+F2 open  CTRL+F3 save  CTRL+F4 save as\n	CTRL+F1 ny CTRL+F2 öppna CTRL+F3 spara CTRL+F4 spara som
+msg.phrase	CTRL+F5 export CSV  CTRL+F6 export ODS  ALT+F12 quit\n	CTRL+F5 export CSV CTRL+F6 export ODS ALT+F12 avsluta
+msg.phrase	Bottom 2 lines: function keys; [SHIFT]/[CTRL]/[ALT] like the filer\n	Nedre 2 raderna: funktionstangenter; [SHIFT]/[CTRL]/[ALT] som filerna
+msg.phrase	CTRL+S save  CTRL+O open  CTRL+N new  CTRL+C/V/X copy/paste/cut\n	CTRL+S spara CTRL+O öppna CTRL+N ny CTRL+C/V/X kopiera/klistra in/klipp ut
+msg.phrase	CTRL+G goto    /  open the menu (1 File, 2 Edit, ...)\n	CTRL+G gå till / öppna menyn (1 fil, 2 redigera, ...)
+msg.phrase	Built-in functions: SUM AVERAGE MIN MAX COUNT COUNTA\n	Inbyggda funktioner: SUMMEDEL MIN MAX ANTAL
+msg.phrase	PRODUCT ABS SQRT INT ROUND MOD POWER IF AND OR NOT\n	PRODUKT ABS SQRT INT RUND MOD POWER OM OCH ELLER INTE
+msg.phrase	IFERROR LEN LEFT RIGHT MID UPPER LOWER TRIM CONCATENATE PI\n	IFERROR LEN VÄNSTER HÖGER MIDDEN ÖVRE UNDRE TRIM KONKATENERA PI
+msg.phrase	Cell refs: A1, $A$1, A1:B10.  Formulas begin with '='.\n	Cellreferenser: A1, $A$1, A1:B10.  Formler börjar med '='.
+msg.phrase	Files: .ods (LibreOffice), .fods (flat XML), .csv\n	Filer: .ods (LibreOffice), .fods (platt XML), .csv
+msg.phrase	ODS/FODS keeps formulas, widths, heights and colours.\n	ODS/FODS håller formler, bredder, höjder och färger.
+msg.phrase	CSV keeps values and formulas (no colours/heights).\n	CSV behåller värden och formler (inga färger/höjder).
+msg.phrase	Graph: select a range, press F10, and choose Line/Bar/Mixed/Pie.\n	Graf: välj ett intervall, tryck på F10 och välj Linje/Bar/Blandat/Paj.
+msg.phrase	First row/column = labels; charts use the 640x480 CLUT8 FB.	Första raden/kolumnen = etiketter; diagram använder 640x480 CLUT8 FB.
+msg.phrase	SGCALC - HELP	SGCALC - HJÄLP
+msg.phrase	Press any key to return	Tryck på valfri tangent för att gå tillbaka
+msg.phrase	SGCALC for sgnano\n	SGCALC för sgnano
+msg.phrase	Version 	Version
+msg.phrase	A Lotus 1-2-3 style spreadsheet as an SGX program.\n\n	Ett Lotus 1-2-3 stilkalkylblad som ett SGX-program.
+msg.phrase	SGX ABI %u.%u\n	SGX ABI %u.%u
+msg.phrase	Screen mode 3: text + CLUT8 FB (lowres disabled)\n	Skärmläge 3: text + CLUT8 FB (lowres inaktiverad)
+msg.phrase	Sheet: %d rows x %d columns\n	Blad: %d rader x %d kolumner
+msg.phrase	Formats: .ods / .fods (LibreOffice), .csv\n\n	Format: .ods / .fods (LibreOffice), .csv
+msg.phrase	The grid is drawn on the text plane.\n	Rutnätet ritas på textplanet.
+msg.phrase	Charts and the 640x480 background use the FB.\n\n	Diagram och bakgrunden på 640x480 använder FB.
+msg.phrase	Press any key to return.	Tryck på valfri tangent för att gå tillbaka.
+msg.phrase	ABOUT SGCALC	OM SGCALC
+msg.phrase	New	Ny
+msg.phrase	Start a new sheet	Starta ett nytt ark
+msg.phrase	Open...	Öppna...
+msg.phrase	Open an ODS, FODS or CSV file	Öppna en ODS-, FODS- eller CSV-fil
+msg.phrase	Save	Spara
+msg.phrase	Save the current file	Spara den aktuella filen
+msg.phrase	Save As...	Spara som...
+msg.phrase	Save with a new name or format	Spara med ett nytt namn eller format
+msg.phrase	Export CSV...	Exportera CSV...
+msg.phrase	Write a CSV copy	Skriv en CSV-kopia
+msg.phrase	Export ODS...	Exportera ODS...
+msg.phrase	Write a LibreOffice copy	Skriv en LibreOffice-kopia
+msg.phrase	Quit	Avsluta
+msg.phrase	Leave SGCALC	Lämna SGCALC
+msg.phrase	Clear	Rensa
+msg.phrase	Clear the selected cells	Rensa de markerade cellerna
+msg.phrase	Copy	Kopiera
+msg.phrase	Copy the selection	Kopiera markeringen
+msg.phrase	Paste	Klistra in
+msg.phrase	Paste at the cursor	Klistra in vid markören
+msg.phrase	Cut	Klipp
+msg.phrase	Copy and clear the selection	Kopiera och rensa markeringen
+msg.phrase	Select all	Välj alla
+msg.phrase	Select all used cells	Markera alla använda celler
+msg.phrase	Text color...	Textfärg...
+msg.phrase	Choose the text colour	Välj textfärg
+msg.phrase	Background...	Bakgrund...
+msg.phrase	Choose the cell background	Välj cellbakgrund
+msg.phrase	Line	Linje
+msg.phrase	Draw a line graph from the selection	Rita ett linjediagram från markeringen
+msg.phrase	Bar	Bar
+msg.phrase	Draw a bar graph from the selection	Rita ett stapeldiagram från markeringen
+msg.phrase	Mixed	Blandat
+msg.phrase	Bars for the first series, lines for the rest	Barer för första serien, linjer för resten
+msg.phrase	Pie	Paj
+msg.phrase	Draw a pie graph from the selection	Rita ett cirkeldiagram från markeringen
+msg.phrase	Range...	Räckvidd...
+msg.phrase	Set the graph range explicitly	Ställ in grafområdet explicit
+msg.phrase	Draw again	Rita igen
+msg.phrase	Redraw the last graph	Rita om den sista grafen
+msg.phrase	Goto...	Gå till...
+msg.phrase	Jump to a cell (for example C12)	Hoppa till en cell (till exempel C12)
+msg.phrase	Column width...	Kolumnbredd...
+msg.phrase	Change the selected columns' width	Ändra de valda kolumnernas bredd
+msg.phrase	Row height...	Radhöjd...
+msg.phrase	Change the selected rows' height	Ändra de markerade radernas höjd
+msg.phrase	Auto fit	Autopassning
+msg.phrase	Fit widths/heights to the contents (F7)	Anpassa bredder/höjder till innehållet (F7)
+msg.phrase	Recalculate	Räkna om
+msg.phrase	Re-evaluate all formulas	Omvärdera alla formler
+msg.phrase	Erase all	Radera alla
+msg.phrase	Clear the whole sheet	Rensa hela arket
+msg.phrase	Keys	Nycklar
+msg.phrase	Show the key guide	Visa nyckelguiden
+msg.phrase	About	Om
+msg.phrase	About SGCALC	Om SGCALC
+msg.phrase	File	Arkiv
+msg.phrase	Edit	Redigera
+msg.phrase	Graph	Graf
+msg.phrase	Sheet	Ark
+msg.phrase	Help	Hjälp
+msg.phrase	File: new, open, save, export, quit	Fil: ny, öppna, spara, exportera, avsluta
+msg.phrase	Edit: clear, copy, paste, cut, select all	Redigera: rensa, kopiera, klistra in, klipp ut, välj alla
+msg.phrase	Graph: line, bar, mixed, pie (draws in the FB)	Graf: linje, stapel, blandad, paj (ritar i FB)
+msg.phrase	Sheet: goto, column width, recalculate, erase	Blad: gå till, kolumnbredd, räkna om, radera
+msg.phrase	Help: keys and about	Hjälp: nycklar och om
+msg.phrase	%d %s	%d %s
+msg.phrase	Left/Right = menu    Up/Down = item    Enter = choose    Esc = cancel	Vänster/Höger = meny Upp/Ner = objekt Enter = välj Esc = avbryt
+msg.phrase	Cannot store the cell (%d).	Kan inte lagra cellen (%d).
+msg.phrase	Cancelled	Avbruten
+msg.phrase	Copied %d x %d cells	Kopierade %d x %d celler
+msg.phrase	The selection is too large or memory is low.	Urvalet är för stort eller minnet är lågt.
+msg.phrase	Cleared %s	Rensade %s
+msg.phrase	the cell	cellen
+msg.phrase	the selection	urvalet
+msg.phrase	Nothing to paste	Inget att klistra in
+msg.phrase	Pasted	Klistras in
+msg.phrase	GO TO CELL	GÅ TILL CELL
+msg.phrase	Cell reference (A1):	Cellreferens (A1):
+msg.phrase	Goto	Gå till
+msg.phrase	'%s' is not a cell reference.	'%s' är inte en cellreferens.
+msg.phrase	%d	%d
+msg.phrase	COLUMN WIDTH	KOLUMNBREDD
+msg.phrase	Width in characters (4..30):	Bredd i tecken (4..30):
+msg.phrase	Column width = %d	Kolumnbredd = %d
+msg.phrase	ROW HEIGHT	RADHÖJD
+msg.phrase	Height in text rows (1..8):	Höjd i textrader (1..8):
+msg.phrase	Row height = %d	Radhöjd = %d
+msg.phrase	Auto fit: the sheet is empty	Autopassning: arket är tomt
+msg.phrase	Auto fit: %d column(s), %d row(s)	Autopassning: %d kolumn(er), %d rad(er)
+msg.phrase	BACKGROUND COLOUR	BAKGRUNDSFÄRG
+msg.phrase	TEXT COLOUR	TEXT FÄRG
+msg.phrase	Arrows: choose    Enter: apply    Esc: cancel	Pilar: välj Enter: tillämpa Esc: avbryt
+msg.phrase	Colour index (PC-98 16-colour palette)	Färgindex (PC-98 16-färgspalett)
+msg.phrase	%2d	%2d
+msg.phrase	Aa 123	Aa 123
+msg.phrase	Enter = apply    Esc = cancel	Enter = tillämpa Esc = avbryt
+msg.phrase	Colour	Färg
+msg.phrase	Cannot apply the colour (%d).	Kan inte tillämpa färgen (%d).
+msg.phrase	%s colour = %d	%s färg = %d
+msg.phrase	Background	Bakgrund
+msg.phrase	Text	Text
+msg.phrase	GRAPH RANGE	GRAFOMRÅDE
+msg.phrase	Range (for example A1:C10):	Område (till exempel A1:C10):
+msg.phrase	Graph range	Grafintervall
+msg.phrase	Use a range such as A1:C10.	Använd ett intervall som A1:C10.
+msg.phrase	Not a valid range.\nUse a range such as A1:C10.	Inte ett giltigt intervall.\nAnvänd ett intervall som A1:C10.
+msg.phrase	Graph range %s	Diagramintervall %s
+msg.phrase	Cannot draw the graph.	Kan inte rita grafen.
+msg.phrase	Graph: %s	Graf: %s
+msg.phrase	line	linje
+msg.phrase	bar	bar
+msg.phrase	mixed	blandad
+msg.phrase	pie	paj
+msg.phrase	Clear every cell in this sheet?	Rensa alla celler i det här arket?
+msg.phrase	Sheet erased	Ark raderat
+msg.phrase	Selected all used cells	Markerade alla använda celler
+msg.phrase	Recalculated	Omräknat
+msg.phrase	SGCALC: cannot set screen mode 3: %s\n	SGCALC: kan inte ställa in skärmläge 3: %s
+msg.phrase	Memory	Minne
+msg.phrase	Not enough PSRAM for the spreadsheet.	Inte tillräckligt med PSRAM för kalkylarket.
+msg.phrase	The sheet is empty.	Arket är tomt.
+msg.phrase	No numeric data in the selected range.	Inga numeriska data i det valda området.
+msg.phrase	%.2g	%.2g
+msg.phrase	%.6g	%.6g
+msg.phrase	Other	Annat
+msg.phrase	No positive values for a pie chart	Inga positiva värden för ett cirkeldiagram
+msg.phrase	%s  %.0f%%	%s %.0f%%
+msg.phrase	GRAPH  %s  %s	GRAPH %s %s
+msg.phrase	LINE	LINE
+msg.phrase	BAR	BAR
+msg.phrase	MIXED	BLANDAD
+msg.phrase	PIE	PAJ
+msg.phrase	S:/	S:/
+msg.phrase	%s%s	%s%s
+msg.phrase	%s/%s	%s/%s
+msg.phrase	%.*s	%.*s
+msg.phrase	%.*s/	%.*s/
+msg.phrase	Folder	Mapp
+msg.phrase	Cannot read %s\n%s	Kan inte läsa %s\n%s
+msg.phrase	SAVE AS	SPARA SOM
+msg.phrase	OPEN FILE	ÖPPNA FIL
+msg.phrase	LibreOffice / CSV	LibreOffice / CSV
+msg.phrase	ODS  FODS  CSV	ODS FODS CSV
+msg.phrase	Folder: %s	Mapp: %s
+msg.phrase	Name:	Namn:
+msg.phrase	(type a name, or choose below)	(skriv ett namn eller välj nedan)
+msg.phrase	Name	Namn
+msg.phrase	Size	Storlek
+msg.phrase	[DIR] %s	[DIR] %s
+msg.phrase	      %s	%s
+msg.phrase	%lu.%luM	%lu.%luM
+msg.phrase	%luK	%luK
+msg.phrase	%luB	%luB
+msg.phrase	Enter=save  Left=up  Right/Enter on [DIR]=open  Tab=drive  Esc=cancel	Enter=spara Vänster=upp Höger/Enter på [DIR]=öppna Tab=enhet Esc=avbryt
+msg.phrase	Enter=open  Left=up  Right/Enter on [DIR]=open  Tab=drive  Esc=cancel	Enter=öppna Vänster=upp Höger/Enter på [DIR]=öppna Tab=enhet Esc=avbryt
+msg.phrase	BOOK1%s	BOKA1%s
+msg.phrase	Not enough memory.	Inte tillräckligt med minne.
+msg.phrase	%c:/	%c:/
+msg.phrase	Unsupported extension.\nUse .csv, .ods or .fods.	Tillägget stöds inte.\nAnvänd .csv, .ods eller .fods.
+msg.phrase	Overwrite	Skriva över
+msg.phrase	%s already exists.\nOverwrite it?	%s finns redan.\nVill du skriva över det?
+msg.phrase	%s may not be writable.\nTry anyway?	%s kanske inte går att skriva.\nProva ändå?
+msg.phrase	Unknown file type for %s	Okänd filtyp för %s
+msg.phrase	Open	Öppna
+msg.phrase	Unsupported file type.\nUse .csv, .ods or .fods.	Filtyp som inte stöds.\nAnvänd .csv, .ods eller .fods.
+msg.phrase	Cannot open %s\n%s	Kan inte öppna %s\n%s
+msg.phrase	%s is a folder.	%s är en mapp.
+msg.phrase	The file is too large (limit 8 MB).	Filen är för stor (högst 8 MB).
+msg.phrase	Not enough memory to read the file.	Inte tillräckligt med minne för att läsa filen.
+msg.phrase	Cannot import %s\n%s	Kan inte importera %s\n%s
+msg.phrase	Bad ZIP/ODS data.	Dålig ZIP/ODS-data.
+msg.phrase	CRC error in the ODS file.	CRC-fel i ODS-filen.
+msg.phrase	Unsupported or damaged file.	Filen stöds inte eller är skadad.
+msg.phrase	Loaded %s	Laddade %s
+msg.phrase	Cannot build the %s file.	Kan inte bygga %s-filen.
+msg.phrase	Cannot write %s\n%s	Kan inte skriva %s\n%s
+msg.phrase	%s %s	%s %s
+msg.phrase	Saved	Sparad
+msg.phrase	Exported	Exporterad
+msg.phrase	Unsaved changes	Osparade ändringar
+msg.phrase	Save the current sheet before continuing?	Spara det aktuella arket innan du fortsätter?
+msg.phrase	New sheet	Nytt blad
+msg.phrase	SGTRK	SGTRK
+msg.phrase	UNTITLED	UTAN TITEL
+msg.phrase	song is too large	låten är för stor
+msg.phrase	empty file	tom fil
+msg.phrase	not an SGT file	inte en SGT-fil
+msg.phrase	unsupported version %u	version %u som inte stöds
+msg.phrase	bad BPM	dålig BPM
+msg.phrase	bad speed	dålig hastighet
+msg.phrase	bad title length	dålig titellängd
+msg.phrase	truncated title	trunkerad titel
+msg.phrase	bad character in title	dålig karaktär i titeln
+msg.phrase	truncated order	trunkerad ordning
+msg.phrase	bad order length	dålig orderlängd
+msg.phrase	bad pattern number in order	dåligt mönsternummer i ordning
+msg.phrase	truncated pattern list	trunkerad mönsterlista
+msg.phrase	bad pattern count	dåligt antal mönster
+msg.phrase	bad pattern index	dåligt mönsterindex
+msg.phrase	duplicate pattern	dubblettmönster
+msg.phrase	truncated pattern data	trunkerade mönsterdata
+msg.phrase	invalid pattern data	ogiltig mönsterdata
+msg.phrase	trailing data in file	efterföljande data i filen
+msg.phrase	order refers to a missing pattern	ordning hänvisar till ett saknat mönster
+msg.phrase	A:/	A:/
+msg.phrase	(untitled)	(namnlös)
+msg.phrase	Ready. Press F1 for help.	Klar. Tryck på F1 för hjälp.
+msg.phrase	%d:%d:%d:%d:%d:%d	%d:%d:%d:%d:%d:%d
+msg.phrase	Follow OFF	Följ AV
+msg.phrase	Octave %d	Oktav %d
+msg.phrase	Nothing to undo	Inget att ångra
+msg.phrase	Undo	Ångra
+msg.phrase	Note OFF	Notera AV
+msg.phrase	Note %s	Notera %s
+msg.phrase	Instrument %d	Instrument %d
+msg.phrase	Volume %s	Volym %s
+msg.phrase	Effect %c	Effekt %c
+msg.phrase	Set an effect letter first	Ställ in en effektbokstav först
+msg.phrase	Parameter %s	Parameter %s
+msg.phrase	Effect cleared	Effekten rensades
+msg.phrase	Parameter cleared	Parametern raderades
+msg.phrase	Note cleared	Anteckning rensad
+msg.phrase	Instrument cleared	Instrumentet har rensats
+msg.phrase	Volume cleared	Volymen rensades
+msg.phrase	Order list is full	Beställningslistan är full
+msg.phrase	Order inserted	Beställning införd
+msg.phrase	Cannot delete the last order	Kan inte ta bort den senaste beställningen
+msg.phrase	Order deleted	Beställning raderad
+msg.phrase	Pattern %s	Mönster %s
+msg.phrase	Playing song	Spelar låt
+msg.phrase	Playing pattern %s	Spelar mönster %s
+msg.phrase	Stopped	Slutade
+msg.phrase	New song	Ny låt
+msg.phrase	Discard unsaved changes and start a new song? (Y/N)	Vill du ignorera osparade ändringar och starta en ny låt? (J/N)
+msg.phrase	SAVE ERROR: %s	SPARA FEL: %s
+msg.phrase	Saved %s	Sparade %s
+msg.phrase	LOAD ERROR: %s	LADDA FEL: %s
+msg.phrase	Discard unsaved changes and open a song? (Y/N)	Släng osparade ändringar och öppna en låt? (J/N)
+msg.phrase	Discard unsaved changes and quit? (Y/N)	Släng osparade ändringar och avsluta? (J/N)
+msg.phrase	BPM %d	BPM %d
+msg.phrase	Speed %d	Hastighet %d
+msg.phrase	Song settings updated	Låtinställningar uppdaterade
+msg.phrase	Preview %s	Förhandsgranska %s
+msg.phrase	Instrument %s %s	Instrument %s %s
+msg.phrase	Filename is empty	Filnamnet är tomt
+msg.phrase	Overwrite %s? (Y/N)	Vill du skriva över %s? (J/N)
+msg.phrase	Save cancelled	Spara avbröts
+msg.phrase	Open cancelled	Öppet avbröts
+msg.phrase	Edit ON	Redigera PÅ
+msg.phrase	Edit OFF	Redigera AV
+msg.phrase	Follow ON	Följ PÅ
+msg.phrase	Edit is OFF. Press F8 to edit.	Edit är AV. Tryck på F8 för att redigera.
+msg.phrase	I/O error	I/O-fel
+msg.phrase	file is too large	filen är för stor
+msg.phrase	truncated file	trunkerad fil
+msg.phrase	SINE PAD	SINESKYDD
+msg.phrase	TRIANGLE	TRIANGEL
+msg.phrase	SAW LEAD	SÅG BLY
+msg.phrase	SQUARE	KVADRATUR
+msg.phrase	PULSE 25	PULS 25
+msg.phrase	ORGAN	ORGEL
+msg.phrase	BASS	BASS
+msg.phrase	BELL	KLOCKA
+msg.phrase	NOISE	BULLER
+msg.phrase	SINE	SINUS
+msg.phrase	SAW	SÅG
+msg.phrase	 | BPM %s SPD %s 	 | BPM %s SPD %s
+msg.phrase	 SGNO TRACKER 1.0 | 	SGNO TRACKER 1.0 |
+msg.phrase	FILE 	FIL
+msg.phrase	 PAT %s	 PAT %s
+msg.phrase	 ORD %d/%d	 ORD %d/%d
+msg.phrase	 INS %s 	 INS %s
+msg.phrase	 OCT %d	 OKT %d
+msg.phrase	 EDIT %s	 REDIGERA %s
+msg.phrase	ON 	PÅ
+msg.phrase	OFF	AV
+msg.phrase	 FOL %s	 FOL %s
+msg.phrase	ON	PÅ
+msg.phrase	ROW	RAD
+msg.phrase	TRACK %d	SPÅR %d
+msg.phrase	CHAN LEVEL	CHAN-NIVÅ
+msg.phrase	%c%s	%c%s
+msg.phrase	%s %s %s %s	%s %s %s %s
+msg.phrase	%s 	%s
+msg.phrase	%d %s %s	%d %s %s
+msg.phrase	ORDER %d/%d	BESTÄLL %d/%d
+msg.phrase	PAT   %s	PAT %s
+msg.phrase	INS %s %s	INS %s %s
+msg.phrase	OCT %d  EDIT %s	OKT %d REDIGERA %s
+msg.phrase	FOLLOW %s	FÖLJ %s
+msg.phrase	F1 HELP F2 SONG	F1 HJÄLP F2 SONG
+msg.phrase	F3 INS  F4 SAVE	F3 INS F4 SPARA
+msg.phrase	F5 PLAY F6 PAT	F5 SPELA F6 PAT
+msg.phrase	F7 STOP F8 EDIT	F7 STOPP F8 REDIGERA
+msg.phrase	F9/F10 OCTAVE	F9/F10 OCTAVE
+msg.phrase	F11 FOLLOW	F11 FÖLJ
+msg.phrase	F12 QUIT	F12 AVSLUTA
+msg.phrase	SPACE PLAY/STOP	SPACE PLAY/STOPP
+msg.phrase	CTRL-S SAVE	CTRL-S SPARA
+msg.phrase	CTRL-O OPEN	CTRL-O ÖPPEN
+msg.phrase	C-N NEW C-Z UNDO	C-N NYTT C-Z ÅNgra
+msg.phrase	C-C STOP	C-C STOPP
+msg.phrase	PLAYING  ORD %d/%d  PAT %s  ROW %s/%d  SPD %s  BPM %d  F7 STOP	SPELA ORD %d/%d PAT %s RAD %s/%d SPD %s BPM %d F7 STOP
+msg.phrase	READY  EDIT %s  OCT %d  F1 HELP  F5 PLAY  CTRL-S SAVE	REDO EDIT %s OKT %d F1 HJÄLP F5 SPELA CTRL-S SPARA
+msg.phrase	 %s 	 %s
+msg.phrase	#TRANSPORT AND FILES	#TRANSPORT OCH FILER
+msg.phrase	  F5          Play the song from the current order	  F5 Spela låten från den aktuella ordningen
+msg.phrase	  F6          Play the current pattern	  F6 Spela upp det aktuella mönstret
+msg.phrase	  F7/Ctrl-C   Stop playback	  F7/Ctrl-C Stoppa uppspelningen
+msg.phrase	  Space       Play / stop	  Mellanslag Spela / stoppa
+msg.phrase	  F4          Save as	  F4 Spara som
+msg.phrase	  Ctrl-S      Save (asks for a name if new)	  Ctrl-S Spara (frågar om ett namn om det är nytt)
+msg.phrase	  Ctrl-O      Open a song	  Ctrl-O Öppna en låt
+msg.phrase	  Ctrl-N      New song	  Ctrl-N Ny låt
+msg.phrase	  F12         Quit (confirmation if modified)	  F12 Avsluta (bekräftelse om modifierad)
+msg.phrase	#ORDER LIST	#ORDELLISTA
+msg.phrase	  [ ]         Previous / next order entry	  [ ] Föregående/nästa orderinmatning
+msg.phrase	  { }         Insert / delete an order entry	  { } Infoga/ta bort en beställningspost
+msg.phrase	  - +         Change the pattern in the entry	  - + Ändra mönstret i posten
+msg.phrase	#DISPLAY	#DISPLAY
+msg.phrase	  F11         Follow playback (turns off on manual move)	  F11 Följ uppspelning (stänger av vid manuell flyttning)
+msg.phrase	  F1          Help; Left/Right changes page	  F1 Hjälp; Vänster/Höger byter sida
+msg.phrase	#EDITING	#REDIGERING
+msg.phrase	  F8          Toggle edit mode	  F8 Växla redigeringsläge
+msg.phrase	  Arrows      Move the cursor	  Pilar Flytta markören
+msg.phrase	  PgUp/PgDn   Jump 16 rows	  PgUp/PgDn Hoppa 16 rader
+msg.phrase	  Home/End    First / last row	  Hem/Slut Första/sista raden
+msg.phrase	  F9/F10      Octave down / up	F9/F10 Oktav ner/upp
+msg.phrase	  Z S X D C V G B H N J M      lower piano row	  Z S X D C V G B H N J M nedre pianoraden
+msg.phrase	  Q 2 W 3 E R 5 T 6 Y 7 U      upper piano row	  Q 2 W 3 E R 5 T 6 Y 7 U övre pianoraden
+msg.phrase	  1           Note off	  1 Not av
+msg.phrase	  0 / Del     0 clears note/inst/fx; Del clears any	  0 / Del 0 rensar not/inst/fx; Del rensar någon
+msg.phrase	  Ctrl-Z      Undo the last pattern/order edit	  Ctrl-Z Ångra den senaste mönstret/beställningsredigeringen
+msg.phrase	#EFFECTS (parameter is hexadecimal)	#EFFECTS (parametern är hexadecimal)
+msg.phrase	  Axy   Volume slide: up x, down y	  Axy Volym glida: upp x, ner y
+msg.phrase	  Cxx   Note cut after xx ticks	  Cxx Notera skär efter xx fästingar
+msg.phrase	  Dxx   Set volume (00..7F)	  Dxx Ställ in volym (00..7F)
+msg.phrase	  Fxx   Speed if xx < 20, otherwise BPM	  Fxx Hastighet om xx < 20, annars BPM
+msg.phrase	  Hxy   Arpeggio x, y semitones	  Hxy Arpeggio x, y halvtoner
+msg.phrase	  Pxx   Pitch slide up	Pxx Pitch glida upp
+msg.phrase	  Qxx   Pitch slide down	  Qxx Pitch glida ner
+msg.phrase	  F2 song settings, F3 instrument list	  F2-låtinställningar, F3-instrumentlista
+msg.phrase	HELP %d/2	HJÄLP %d/2
+msg.phrase	LEFT/RIGHT PAGE   ENTER OR F1 CLOSE	VÄNSTER/HÖGER SIDA ENTER ELLER F1 STÄNG
+msg.phrase	SONG SETTINGS	SÅNGINSTÄLLNINGAR
+msg.phrase	UP/DOWN SELECT   LEFT/RIGHT ADJUST   ENTER/F2 CLOSE	UPP/NER VÄLJ VÄNSTER/HÖGER JUSTERA ENTER/F2 STÄNG
+msg.phrase	  Title	  Titel
+msg.phrase	  [%s_]	  [%s_]
+msg.phrase	  BPM   : %d     (left/right -1/+1, -/+ -5/+5)	  BPM : %d (vänster/höger -1/+1, -/+ -5/+5)
+msg.phrase	  Speed : %d ticks/row	  Hastighet : %d markeringar/rad
+msg.phrase	  Rows  : %d (fixed)	  Rader: %d (fast)
+msg.phrase	  Order : %d entries	Beställning: %d poster
+msg.phrase	  Patterns in use : %d	  Mönster som används: %d
+msg.phrase	Type to edit the title. Backspace deletes the last character.	Skriv för att redigera titeln. Backsteg tar bort det sista tecknet.
+msg.phrase	BPM range 32..255. Speed range 1..31.	BPM-intervall 32..255. Hastighetsområde 1..31.
+msg.phrase	Pattern effects can also change speed and BPM while playing.	Mönstereffekter kan också ändra hastighet och BPM medan du spelar.
+msg.phrase	INSTRUMENTS	INSTRUMENT
+msg.phrase	UP/DOWN SELECT   SPACE PREVIEW   ENTER USE   F3 CLOSE	UPP/NER VÄLJ MELLANSLAG FÖRHANDSVISNING ENTER ANVÄND F3 STÄNG
+msg.phrase	 #  NAME       WAVE       A   D   S   R  VOL	 # NAME WAVE A D S R VOL
+msg.phrase	 %c %d  %-9s %-9s %3d %3d %3d %3d %4d	 %c %d %-9s %-9s %3d %3d %3d %3d %4d
+msg.phrase	All four channels use wavetable synthesis.	Alla fyra kanalerna använder vågbar syntes.
+msg.phrase	Preview plays C-4 on the track under the edit cursor.	Preview spelar C-4 på spåret under redigeringsmarkören.
+msg.phrase	Current instrument: %s %s	Aktuellt instrument: %s %s
+msg.phrase	SAVE SONG AS	SPARA LÅT SOM
+msg.phrase	ENTER SAVE   F4 OR CTRL-C CANCEL	ENTER SPARA F4 ELLER CTRL-C AVBRYT
+msg.phrase	Directory:	Katalog:
+msg.phrase	  %s	  %s
+msg.phrase	File name:	Filnamn:
+msg.phrase	The extension .SGT is added automatically.	Tillägget .SGT läggs till automatiskt.
+msg.phrase	An existing file can be overwritten.	En befintlig fil kan skrivas över.
+msg.phrase	OPEN SONG	ÖPPEN SÅNG
+msg.phrase	ENTER OPEN  BS PARENT  CTRL-O/CTRL-C CANCEL	ENTER ÖPPEN BS FÖRÄLDRE CTRL-O/CTRL-C AVBRYT
+msg.phrase	DIR  %s	DIR %s
+msg.phrase	(no .SGT files in this folder)	(inga .SGT-filer i den här mappen)
+msg.phrase	 %c %s%s	 %c %s%s
+msg.phrase	Files: %d	Filer: %d
+msg.phrase	CONFIRM	BEKRÄFTA
+msg.phrase	Y = YES   N / ENTER / CTRL-C = NO	Y = JA N / ENTER / CTRL-C = NEJ
+msg.phrase	Y = yes        N = no	Y = ja N = nej
+msg.phrase	%02d	%02d
+msg.phrase	%03d	%03d
+msg.phrase	%02X	%02X
+msg.phrase	C-	C-
+msg.phrase	C#	C#
+msg.phrase	D-	D-
+msg.phrase	D#	D#
+msg.phrase	E-	E-
+msg.phrase	F-	F-
+msg.phrase	F#	F#
+msg.phrase	G-	G-
+msg.phrase	G#	G#
+msg.phrase	A-	A-
+msg.phrase	A#	A#
+msg.phrase	B-	B-
+msg.phrase	A:/dir/name	A:/dir/namn
+msg.phrase	MThd	MThd
+msg.phrase	broken MThd	bruten MThd
+msg.phrase	MIDI IMPORT	MIDI IMPORT
+msg.phrase	MTrk	MTrk
+msg.phrase	broken delta time	bruten deltatid
+msg.phrase	broken running status	trasig körstatus
+msg.phrase	broken meta event	trasig metahändelse
+msg.phrase	broken sysex event	trasig sysexhändelse
+msg.phrase	broken channel event	trasig kanalhändelse
+msg.phrase	SMF output is too small	SMF-utgången är för liten
+msg.phrase	SMF output is too large	SMF-utgången är för stor
+msg.phrase	the song is too long for SMF	låten är för lång för SMF
+msg.phrase	TRK1	TRK1
+msg.phrase	SGNO TRACKER: incompatible SGX ABI\n	SGNO TRACKER: inkompatibel SGX ABI
+msg.phrase	5 Macro	5 Makro
+msg.phrase	6 Help	6 Hjälp
+msg.phrase	Run current	Kör aktuell
+msg.phrase	Run the macro at the cursor (#! header cell and the cells below it)	Kör makrot vid markören (#!-rubrikcell och cellerna under)
+msg.phrase	Run selection	Kör markering
+msg.phrase	Run the selected cells as one macro (top-left cell is the #! header)	Kör de markerade cellerna som ett makro (cellen överst till vänster är #!-rubriken)
+msg.phrase	Run all	Kör alla
+msg.phrase	Run every macro in the sheet, top-left to bottom-right	Kör alla makron i bladet, från övre vänster till nedre höger
+msg.phrase	Last error	Senaste fel
+msg.phrase	Show the last macro error	Visa det senaste makrofelet
+msg.phrase	Macro	Makro
+msg.phrase	Macro: run #!ruby / #!python / #!basic cells	Makro: kör #!ruby / #!python / #!basic-celler
+msg.phrase	Edit the cell (F2)	Redigera cellen (F2)
+msg.phrase	Fit widths/heights to the contents	Anpassa bredd/höjd till innehållet
+msg.phrase	Last macro error	Senaste makrofel
+msg.phrase	No macro error.	Inget makrofel.
+msg.phrase	IME on	IME på
+msg.phrase	IME off	IME av
+msg.phrase	Macro: %s %s ...	Makro: %s %s ...
+msg.phrase	%s: this firmware cannot run macros (SGX ABI 5.10 or later)	%s: denna firmware kan inte köra makron (SGX ABI 5.10 eller senare)
+msg.phrase	Macro error: %s	Makrofel: %s
+msg.phrase	Macro: %s done	Makro: %s klart
+msg.phrase	a macro is already running	ett makro körs redan
+msg.phrase	this language is not available	detta språk är inte tillgängligt
+msg.phrase	not enough memory	inte tillräckligt med minne
+msg.phrase	the macro stopped with an error	makrot stoppade med ett fel
+msg.phrase	Macro error %s: %s	Makrofel %s: %s
+msg.phrase	Macro: not enough memory	Makro: inte tillräckligt med minne
+msg.phrase	Macro: the cursor is not on a macro (a #!ruby / #!python / #!basic cell or the cells below it)	Makro: markören står inte på ett makro (#!ruby / #!python / #!basic-cell eller cellerna under)
+msg.phrase	Macro: no macro in the sheet	Makro: inga makron i bladet
+msg.phrase	Run all macros	Kör alla makron
+msg.phrase	Macros: %d. Run them all, top-left to bottom-right? Changes cannot be undone.	Makron: %d. Kör alla, från övre vänster till nedre höger? Ändringar kan inte ångras.
+msg.phrase	Macro: %d of %d done	Makro: %d klara (av %d)
+msg.phrase	Cleared the cell	Cellen rensad
+msg.phrase	Cleared the selection	Markeringen rensad
+msg.phrase	Background colour = %d	Bakgrundsfärg = %d
+msg.phrase	Text colour = %d	Textfärg = %d
+msg.phrase	Graph: line	Diagram: linje
+msg.phrase	Graph: bar	Diagram: stapel
+msg.phrase	Graph: mixed	Diagram: blandat
+msg.phrase	Graph: pie	Diagram: cirkel
+msg.phrase	Exported %s	Exporterade %s
+msg.phrase	S: check: wait -- a file is being read or written	Kontroll av S:: vänta -- en fil läses eller skrivs
+msg.phrase	S: check: the drive is busy or not ready	Kontroll av S:: enheten är upptagen eller inte redo
+msg.phrase	nothing for this item (ContextMenu.cfg)	inget för detta objekt (ContextMenu.cfg)
+msg.phrase	bad command in ContextMenu.cfg	felaktigt kommando i ContextMenu.cfg
+msg.phrase	unknown action in ContextMenu.cfg	okänd åtgärd i ContextMenu.cfg
+msg.prefix	menu	meny
+msg.phrase	choose a file or folder	välj en fil eller mapp
+msg.phrase	this drive cannot be written	det går inte att skriva på den här enheten
+msg.phrase	an archive job is already running	ett arkivjobb körs redan
+msg.phrase	no PSRAM for the archive task	inget PSRAM för arkivjobbet
+msg.phrase	could not start the archive task	kunde inte starta arkivjobbet
+msg.phrase	too many items (32 at most)	för många objekt (högst 32)
+msg.phrase	nothing to compress	inget att komprimera
+msg.phrase	no name (or the name has / or \\)	inget namn (eller namnet innehåller / eller \\)
+msg.phrase	32 items at most (mark fewer, or put them in a folder)	högst 32 objekt (markera färre eller lägg dem i en mapp)
+msg.prefix	archive	arkiv
+msg.prefix	compress	komprimera
+msg.prefix	render	WAV-export

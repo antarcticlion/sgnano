@@ -1,0 +1,42 @@
+N001	msg.phrase	5 Macro
+N002	msg.phrase	6 Help
+N003	msg.phrase	Run current
+N004	msg.phrase	Run the macro at the cursor (#! header cell and the cells below it)
+N005	msg.phrase	Run selection
+N006	msg.phrase	Run the selected cells as one macro (top-left cell is the #! header)
+N007	msg.phrase	Run all
+N008	msg.phrase	Run every macro in the sheet, top-left to bottom-right
+N009	msg.phrase	Last error
+N010	msg.phrase	Show the last macro error
+N011	msg.phrase	Macro
+N012	msg.phrase	Macro: run #!ruby / #!python / #!basic cells
+N013	msg.phrase	Edit the cell (F2)
+N014	msg.phrase	Fit widths/heights to the contents
+N015	msg.phrase	Last macro error
+N016	msg.phrase	No macro error.
+N017	msg.phrase	IME on
+N018	msg.phrase	IME off
+N019	msg.phrase	Macro: %s %s ...
+N020	msg.phrase	%s: this firmware cannot run macros (SGX ABI 5.10 or later)
+N021	msg.phrase	Macro error: %s
+N022	msg.phrase	Macro: %s done
+N023	msg.phrase	a macro is already running
+N024	msg.phrase	this language is not available
+N025	msg.phrase	not enough memory
+N026	msg.phrase	the macro stopped with an error
+N027	msg.phrase	Macro error %s: %s
+N028	msg.phrase	Macro: not enough memory
+N029	msg.phrase	Macro: the cursor is not on a macro (a #!ruby / #!python / #!basic cell or the cells below it)
+N030	msg.phrase	Macro: no macro in the sheet
+N031	msg.phrase	Run all macros
+N032	msg.phrase	Macros: %d. Run them all, top-left to bottom-right? Changes cannot be undone.
+N033	msg.phrase	Macro: %d of %d done
+N034	msg.phrase	Cleared the cell
+N035	msg.phrase	Cleared the selection
+N036	msg.phrase	Background colour = %d
+N037	msg.phrase	Text colour = %d
+N038	msg.phrase	Graph: line
+N039	msg.phrase	Graph: bar
+N040	msg.phrase	Graph: mixed
+N041	msg.phrase	Graph: pie
+N042	msg.phrase	Exported %s

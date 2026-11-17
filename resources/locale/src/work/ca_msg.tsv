@@ -1,0 +1,787 @@
+# ca: machine translation (Google), unreviewed; 2026-11-17
+M001	la unitat se'n va anar
+M002	tornant a llegir les particions...
+M003	no s'ha pogut obrir el volum (no hi ha memòria?)
+M004	obrint el volum...
+M005	no hi ha memòria per a la llista de fitxers
+M006	llegint el directori... (reprovant)
+M007	no ha pogut llegir el directori
+M008	llegint el directori...
+M009	la unitat no va respondre, tornant a llegir les particions
+M010	no s'ha pogut llegir el directori (no FAT12/16/32?)
+M011	massa entrades, mostrant les primeres
+M012	no s'ha trobat cap sistema de fitxers en aquesta partició
+M013	el camí és massa llarg
+M014	unint-se...
+M015	dividint...
+M016	canviant el nom...
+M017	creant la carpeta...
+M018	creant el fitxer...
+M019	esborrant...
+M020	escrivint els atributs...
+M021	la unitat està ocupada
+M022	ocupat
+M023	triar fitxers o carpetes
+M024	triar fitxers o carpetes (no "..")
+M025	primer atura el CD
+M026	el CD no es pot canviar (copiar en lloc d'això)
+M027	una carpeta del sistema no es pot moure
+M028	no es pot escriure cap unitat (només FAT / exFAT / NTFS)
+M029	la unitat ha desaparegut
+M030	res escollit
+M031	res seleccionat
+M032	no va poder començar
+M033	no va poder obrir
+M034	només en una unitat FAT / exFAT / NTFS
+M035	sense nom
+M036	aquest nom ja existeix
+M037	no s'ha pogut iniciar (mal nom o la unitat està ocupada)
+M038	no s'ha pogut iniciar (la unitat està ocupada)
+M039	el nom no pot tenir / o \\ (només dins d'aquesta carpeta)
+M040	el nom és el mateix
+M041	l'element és només de lectura (A per canviar)
+M042	trieu un fitxer .rb en una unitat d'escriptura
+M043	tria un fitxer .rb
+M044	la unitat és només de lectura
+M045	tria una carpeta en una unitat d'escriptura
+M046	espera un moment
+M047	triar un fitxer
+M048	triar un fitxer (no una carpeta)
+M049	trieu un fitxer .001
+M050	trieu el fitxer .001
+M051	col·loqueu l'IWAD en una carpeta DoomFiles o Doom2Files
+M052	DoomFiles pren freedoom1 / doom / doomu / doom1.wad
+M053	Doom2Files pren freedoom2 / doom2 / plutonia / tnt.wad
+M054	posa els fitxers del joc a l'emmagatzematge extern, no a S:
+M055	l'IWAD ha d'estar en una unitat FAT / exFAT / NTFS (no un CD)
+M056	encara treballant
+M057	s'està carregant una imatge
+M058	sense framebuffer
+M059	la mitja brillantor només funciona en RGB555
+M060	netejant...
+M061	reduint la brillantor a la meitat...
+M062	això és una pista de dades
+M063	espera: s'està escrivint un fitxer
+M064	només unitats de disquet / LS-120 / CD
+M065	demanat
+M066	llegint el disc...
+M067	parant...
+M068	obertura...
+M069	fet
+M070	sense memòria
+M071	ja obert
+M072	ja en marxa
+M073	ja estalviant
+M074	ja jugant
+M075	no tal unitat
+M076	sense PSRAM
+M077	no hi ha PSRAM per al fitxer
+M078	no hi ha PSRAM per a l'índex de línia
+M079	sense PSRAM per al terminal
+M080	sense memòria (PSRAM)
+M081	sense memòria (32 KB SRAM)
+M082	no hi ha memòria per al buffer
+M083	no hi ha memòria per als buffers d'imatge
+M084	no hi ha memòria per al buffer de lectura
+M085	no hi ha espai per a la memòria de treball (tancar el pla de baixa resolució?)
+M086	sense pàgina de framebuffer
+M087	massa gran (4 MB com a màxim)
+M088	el fitxer és massa gran (1 MB com a màxim)
+M089	el fitxer és massa gran (1 MB com a màxim)
+M090	massa gran per a un SMF (1 MB com a màxim)
+M091	el fitxer està buit
+M092	no ha pogut obrir el fitxer
+M093	no ha pogut llegir el fitxer
+M094	no ha pogut obrir el volum
+M095	no s'ha pogut obrir la destinació (no hi ha memòria?)
+M096	no s'ha pogut llegir la carpeta arrel
+M097	no va poder iniciar la tasca
+M098	no he pogut començar a escriure (mal nom o ocupat)
+M099	un altre volum està obert (ocupat)
+M100	s'està executant una còpia
+M101	una carpeta no pot entrar en ella mateixa
+M102	és la mateixa carpeta
+M103	aquesta unitat no es pot canviar (només de lectura)
+M104	la unitat no es pot escriure
+M105	la mida de la part ha de ser múltiple de 512
+M106	Els fitxers de 4 GB o més no són compatibles
+M107	mal camí
+M108	nom de fitxer dolent
+M109	la ROM del tipus de lletra no hi és
+M110	el so no està obert
+M111	cap canal d'aquest tipus
+M112	el seqüenciador està ocupat
+M113	no hi ha prou PSRAM per a la cançó
+M114	no és un fitxer MIDI estàndard (no MThd)
+M115	sense pistes
+M116	una pista està trencada (MTrk)
+M117	La divisió de temps SMPTE no és compatible
+M118	El format SMF 2 no és compatible (només 0 i 1)
+M119	no és una unitat només de volum
+M120	no una unitat òptica
+M121	una carpeta del sistema no es pot suprimir ni canviar el nom
+M122	no hi ha suport a la unitat
+M123	preparant-se
+M124	no llestos
+M125	els mitjans van canviar
+M126	error mitjà
+M127	petició il·legal
+M128	una mala entrada de directori
+M129	un directori en camí no existeix
+M130	un fitxer té aquest nom
+M131	una carpeta té aquest nom
+M132	un nom en camí no és un directori
+M133	cancel·lat
+M134	no va poder muntar
+M135	no ha pogut començar una lectura
+M136	no podia començar una escriptura
+M137	és un directori
+M138	això és un directori
+M139	sense clústers
+M140	no hi ha espai per a la llista de clúster
+M141	no hi ha cap fitxer o directori
+M142	cap fitxer d'aquest tipus
+M143	sense volum
+M144	no NTFS
+M145	no exFAT
+M146	no un directori
+M147	no trobat
+M148	error de lectura
+M149	error d'escriptura
+M150	la lectura del FAT ha fallat
+M151	la cadena de clúster és més curta que el fitxer
+M152	el directori no està buit
+M153	el disc està ple
+M154	la unitat no va respondre
+M155	el fitxer és només de lectura
+M156	el fitxer està massa fragmentat
+M157	el fitxer és massa gran (4 GB)
+M158	el nou nom ja existeix
+M159	el directori arrel està ple
+M160	massa fitxers amb el mateix nom curt
+M161	No hi ha cap fitxer o directori
+M162	El fitxer existeix
+M163	Permís denegat
+M164	Directori no buit
+M165	No és un directori
+M166	És un directori
+M167	Sistema de fitxers de només lectura
+M168	No queda espai al dispositiu
+M169	Error d'entrada/sortida
+M170	No és compatible amb aquesta unitat
+M171	Camí no vàlid
+M172	Sense memòria
+M173	No tal unitat
+M174	aturat
+M175	cancel·lat (no hi ha prou espai lliure)
+M176	no podia comptar l'espai lliure
+M177	el receptor cancel·lat
+M178	sense receptor (executa rz al PC)
+M179	la consola UART està en ús
+M180	el mode de pantalla ha canviat
+M181	les línies no van venir (la pantalla funciona?)
+M182	còpia
+M183	moure's
+M184	esborrar
+M185	canviar el nom
+M186	atributs
+M187	nou fitxer
+M188	carpeta nova
+M189	imatge
+M190	mrbc
+M191	robí
+M192	espectador
+M193	editar
+M194	IDENTIFICAR
+M195	ZMODEM
+M196	Rebre ZMODEM
+M197	Enviar ZMODEM
+M198	dividir
+M199	uneix-te
+M200	Doom
+M201	SMF
+M202	CD
+M203	FB
+M204	Expulsar
+M205	reiniciar
+M206	llicència
+M207	rellotge
+M208	ADC en
+M209	pantalla -> PNG
+M210	FB -> PNG
+M211	no ha pogut obrir el volum
+M212	rebut
+M213	enviat
+M214	guardat
+M215	creat
+M216	rebatejat a
+M217	esborrat
+M218	canviat
+M219	unit
+M220	dividir
+M221	no va poder crear
+M222	no s'ha pogut suprimir
+M223	no s'ha pogut canviar el nom a
+M224	no podia canviar
+M225	no sabia llegir
+M226	no sabia escriure
+M227	no ha pogut copiar
+M228	no podia fer
+M229	no s'ha pogut eliminar la carpeta
+M230	no va poder eliminar
+M231	sense memòria per
+M232	massa errors durant l'enviament
+M233	el receptor no va prendre
+M234	el receptor va saltar
+M235	Pàgina FB
+M236	bytes cadascun)
+M237	bytes)
+M238	KB)
+M239	parts en
+M240	parts (
+M241	a
+M242	: esborrat
+M243	: brillantor reduïda a la meitat
+M244	% llegit
+M245	files
+M246	-- encara no és compatible (només FAT / exFAT / NTFS)
+M247	fitxers
+M248	(
+M249	Sense títol
+M250	1 Fitxa
+M251	2 Edita
+M252	3 Gràfic
+M253	4 Full
+M254	5 Ajuda
+M255	BUIT
+M256	NÚMERO
+M257	TEXT
+M258	FÒRMULA
+M259	Escriviu per entrar, F2 per editar, F1 per obtenir ajuda
+M260	5 CSV
+M261	6 ODS
+M262	[MAJÚS]
+M263	[CTRL]
+M264	[ALT]
+M265	A punt
+M266	SGCALC
+M267	Premeu qualsevol tecla
+M268	Y = sí N = no Esc = cancel·la
+M269	Enter = D'acord Esc = cancel·la Ctrl-U = esborra
+M270	Primera fila/columna = etiquetes; Els gràfics utilitzen el FB CLUT8 de 640x480.
+M271	SGCAC - AJUDA
+M272	Premeu qualsevol tecla per tornar
+M273	Premeu qualsevol tecla per tornar.
+M274	SOBRE SGCALC
+M275	Nou
+M276	Comença un full nou
+M277	Obre...
+M278	Obriu un fitxer ODS, FODS o CSV
+M279	Desa
+M280	Desa el fitxer actual
+M281	Desa com a...
+M282	Desa amb un nom o format nou
+M283	Exporta CSV...
+M284	Escriu una còpia CSV
+M285	Exporta ODS...
+M286	Escriu una còpia de LibreOffice
+M287	Surt
+M288	Sortir de SGCLC
+M289	Clar
+M290	Esborra les cel·les seleccionades
+M291	Còpia
+M292	Copia la selecció
+M293	Enganxa
+M294	Enganxa al cursor
+M295	Tallar
+M296	Copia i esborra la selecció
+M297	Seleccioneu-ho tot
+M298	Seleccioneu totes les cel·les utilitzades
+M299	Color del text...
+M300	Trieu el color del text
+M301	Fons...
+M302	Trieu el fons de la cel·la
+M303	Línia
+M304	Dibuixa un gràfic de línies a partir de la selecció
+M305	Bar
+M306	Dibuixa un gràfic de barres a partir de la selecció
+M307	Mixt
+M308	Comptes per a la primera sèrie, línies per a la resta
+M309	Pastís
+M310	Dibuixa un gràfic circular a partir de la selecció
+M311	Gamma...
+M312	Estableix l'interval del gràfic de manera explícita
+M313	Torna a dibuixar
+M314	Torna a dibuixar l'últim gràfic
+M315	Anar a...
+M316	Saltar a una cel·la (per exemple, C12)
+M317	Amplada de la columna...
+M318	Canvieu l'amplada de les columnes seleccionades
+M319	Alçada de fila...
+M320	Canvia l'alçada de les files seleccionades
+M321	Ajust automàtic
+M322	Ajusta amplades/altures al contingut (F7)
+M323	Recalcular
+M324	Torna a avaluar totes les fórmules
+M325	Esborra-ho tot
+M326	Netegeu tot el full
+M327	Les claus
+M328	Mostra la guia de claus
+M329	Sobre
+M330	Sobre SGCALC
+M331	Fitxer
+M332	Edita
+M333	Gràfic
+M334	Full
+M335	Ajuda
+M336	Fitxer: nou, obrir, desar, exportar, sortir
+M337	Edita: esborra, copia, enganxa, retalla, selecciona-ho tot
+M338	Gràfic: línia, barra, mixt, pastís (dibuixa al FB)
+M339	Full: anar a, amplada de columna, recalcular, esborrar
+M340	Ajuda: claus i sobre
+M341	Esquerra/Dreta = menú Amunt/Avall = element Enter = triar Esc = cancel·lar
+M342	Cancel·lat
+M343	La selecció és massa gran o la memòria és baixa.
+M344	la cèl·lula
+M345	la selecció
+M346	Res a enganxar
+M347	Enganxat
+M348	ANAR A LA CEL·LULA
+M349	Referència cel·lular (A1):
+M350	Vés a
+M351	AMPLADA DE COLUMNA
+M352	Amplada en caràcters (4..30):
+M353	ALÇADA DE FILA
+M354	Alçada a les files de text (1..8):
+M355	Ajust automàtic: el full està buit
+M356	COLOR DE FONS
+M357	COLOR DEL TEXT
+M358	Fletxes: escolliu Enter: aplica Esc: cancel·la
+M359	Índex de colors (PC-98 paleta de 16 colors)
+M360	Aa 123
+M361	Enter = aplicar Esc = cancel·lar
+M362	Color
+M363	Fons
+M364	Text
+M365	GAMMA GRÀFICA
+M366	Interval (per exemple A1:C10):
+M367	Interval gràfic
+M368	Utilitzeu un rang com A1:C10.
+M369	No es pot dibuixar el gràfic.
+M370	línia
+M371	bar
+M372	barrejat
+M373	pastís
+M374	Esborra totes les cel·les d'aquest full?
+M375	Full esborrat
+M376	S'han seleccionat totes les cel·les utilitzades
+M377	Recalculat
+M378	Memòria
+M379	No hi ha prou PSRAM per al full de càlcul.
+M380	El full està buit.
+M381	No hi ha dades numèriques a l'interval seleccionat.
+M382	Altres
+M383	No hi ha valors positius per a un gràfic circular
+M384	LÍNIA
+M385	BAR
+M386	MIXTES
+M387	PASTÍS
+M388	S:/
+M389	Carpeta
+M390	DESA COM
+M391	OBRIR FITXER
+M392	LibreOffice / CSV
+M393	ODS FODS CSV
+M394	Nom:
+M395	(escriu un nom o tria a continuació)
+M396	Nom
+M397	Mida
+M398	Enter=desa a l'esquerra=a dalt a la dreta/Enter a [DIR]=obre la pestanya=drive Esc=cancel·la
+M399	Enter=obrir a l'esquerra=amunt a la dreta/Enter a [DIR]=obrir la pestanya=unitat Esc=cancel·lar
+M400	No hi ha prou memòria.
+M401	Sobreescriure
+M402	Obert
+M403	El fitxer és massa gran (límit de 8 MB).
+M404	No hi ha prou memòria per llegir el fitxer.
+M405	Dades ZIP/ODS incorrectes.
+M406	Error CRC al fitxer ODS.
+M407	Fitxer no compatible o danyat.
+M408	Desat
+M409	Exportat
+M410	Canvis no desats
+M411	Deseu el full actual abans de continuar?
+M412	Full nou
+M413	SGTRK
+M414	SENSE TÍTOL
+M415	la cançó és massa gran
+M416	fitxer buit
+M417	no és un fitxer SGT
+M418	mal BPM
+M419	mala velocitat
+M420	mala durada del títol
+M421	títol truncat
+M422	mal personatge al títol
+M423	ordre truncat
+M424	mala durada de la comanda
+M425	nombre de patró dolent en ordre
+M426	llista de patrons truncats
+M427	recompte de patrons dolents
+M428	índex de patrons dolents
+M429	patró duplicat
+M430	dades de patrons truncats
+M431	dades de patró no vàlides
+M432	dades al final del fitxer
+M433	L'ordre fa referència a un patró que falta
+M434	A:/
+M435	(sense títol)
+M436	A punt. Premeu F1 per obtenir ajuda.
+M437	Seguiu OFF
+M438	Res a desfer
+M439	Desfer
+M440	Nota OFF
+M441	Estableix primer una lletra d'efecte
+M442	Efecte esborrat
+M443	S'ha esborrat el paràmetre
+M444	Nota esborrada
+M445	Instrument esborrat
+M446	Volum esborrat
+M447	La llista de comandes està plena
+M448	S'ha inserit l'ordre
+M449	No es pot suprimir l'última comanda
+M450	S'ha suprimit la comanda
+M451	Tocant cançó
+M452	Parat
+M453	Cançó nova
+M454	Vols descartar els canvis no desats i començar una cançó nova? (S/N)
+M455	Vols descartar els canvis no desats i obrir una cançó? (S/N)
+M456	Vols descartar els canvis no desats i sortir? (S/N)
+M457	S'ha actualitzat la configuració de la cançó
+M458	El nom del fitxer és buit
+M459	Desa cancel·lada
+M460	Obert cancel·lat
+M461	Edita ON
+M462	Edita OFF
+M463	Segueix ON
+M464	L'edició està DESACTIVADA. Premeu F8 per editar.
+M465	Error d'E/S
+M466	el fitxer és massa gran
+M467	fitxer truncat
+M468	SINE PAD
+M469	TRIANGLE
+M470	PLOMB DE SERRA
+M471	PLAÇA
+M472	PULSO 25
+M473	ÒRGAN
+M474	BAIX
+M475	CAMPANA
+M476	SOroll
+M477	SINE
+M478	SAW
+M479	OFF
+M480	ON
+M481	FILA
+M482	NIVELL CHAN
+M483	F1 AJUDA F2 CANÇÓ
+M484	F3 INS F4 DESA
+M485	F5 PLAY F6 PAT
+M486	F7 STOP F8 EDIT
+M487	F9/F10 OCTAVE
+M488	F11 SEGUIR
+M489	F12 SORTIR
+M490	ESPAI PLAY/STOP
+M491	CTRL-S DESA
+M492	CTRL-O OBRIR
+M493	C-N NOU C-Z DESFER
+M494	C-C STOP
+M495	#TRANSPORT I FITXES
+M496	#LLISTA DE COMANDES
+M497	#PANTALLA
+M498	#EDICIÓ
+M499	#EFFECTS (el paràmetre és hexadecimal)
+M500	PÀGINA ESQUERRA/DRETA INTRO O F1 TANCAR
+M501	Configuració de la cançó
+M502	AUP/BAIX SELECCIONAR ESQUERRA/DRETA AJUSTAR INTRO/F2 TANCAR
+M503	Escriu per editar el títol. Retrocés esborra l'últim caràcter.
+M504	Interval de BPM 32..255. Interval de velocitat 1..31.
+M505	Els efectes del patró també poden canviar la velocitat i el BPM mentre es reprodueix.
+M506	INSTRUMENTS
+M507	UP/DOWN SELECCIONAR ESPAI PREVISUALITZACIÓ ENTER USE F3 TANCAR
+M508	Els quatre canals utilitzen síntesi de taula d'ones.
+M509	La vista prèvia reprodueix C-4 a la pista sota el cursor d'edició.
+M510	DESA LA CANÇÓ COM
+M511	ENTREU DESA F4 O CTRL-C CANCEL·LA
+M512	Directori:
+M513	Nom del fitxer:
+M514	L'extensió .SGT s'afegeix automàticament.
+M515	Es pot sobreescriure un fitxer existent.
+M516	CANÇÓ OBERTA
+M517	INTRODUCIR OBRIR BS PARENT CTRL-O/CTRL-C CANCEL·LAR
+M518	(no hi ha fitxers .SGT en aquesta carpeta)
+M519	CONFIRMAR
+M520	Y = SI N / ENTER / CTRL-C = NO
+M521	Y = sí N = no
+M522	C-
+M523	C#
+M524	D-
+M525	D#
+M526	E-
+M527	F-
+M528	F#
+M529	G-
+M530	G#
+M531	A-
+M532	A#
+M533	B-
+M534	A:/dir/nom
+M535	MThd
+M536	MThd trencat
+M537	IMPORTACIÓ MIDI
+M538	MTrk
+M539	temps delta trencat
+M540	estat de funcionament trencat
+M541	meta esdeveniment trencat
+M542	esdeveniment sysex trencat
+M543	esdeveniment de canal trencat
+M544	La sortida SMF és massa petita
+M545	La sortida SMF és massa gran
+M546	la cançó és massa llarga per a SMF
+M547	TRK1
+M548	%s%d
+M549	%s%d:%s%d
+M550	%s
+M551	%.40s%s
+M552	[%s] %s
+M553	EDITAR
+M554	PREPARAT
+M555	%4d
+M556	%s Suma %.7g N %ld%s
+M557	FLETXES mouen el cursor de la cel·la
+M558	MAJ+ARR amplia la selecció (per a gràfics/còpia)
+M559	ENTER editeu la cel·la; en editar, confirmar i moure cap avall
+M560	TAB cel·la següent MAJÚS+TAB cel·la anterior
+M561	ELIMINAR esborra les cel·les seleccionades ESC cancel·la
+M562	PGUP/PGDN mou una pantalla HOME/END primera/última columna
+M563	CTRL+INICIO A1 CTRL+FI darrera cel·la utilitzada
+M564	F1 ajuda F2 edició F3 copiar F4 enganxar F5 anar a F6 color
+M565	F7 ajust automàtic F8 fons F9 recalc F10 gràfic F11 desa el menú F12
+M566	MAJ+F1 sobre MAJ+F2 alçada de fila MAJ+F3 amplada de columna
+M567	MAJ+F4 seleccioneu tot l'interval de gràfics MAJ+F10 deseu com a
+M568	CTRL+F1 nou CTRL+F2 obre CTRL+F3 desa CTRL+F4 desa com
+M569	CTRL+F5 exporta CSV CTRL+F6 exporta ODS ALT+F12 surt
+M570	2 línies inferiors: tecles de funció; [MAJÚS]/[CTRL]/[ALT] com el fitxer
+M571	CTRL+S desa CTRL+O obre CTRL+N nou CTRL+C/V/X copiar/enganxar/tallar
+M572	CTRL+G anar a / obrir el menú (1 Fitxer, 2 Edita, ...)
+M573	Funcions integrades: SUMA MITJANA MIN MAX COUNT COUNTA
+M574	PRODUCTE ABS SQRT INT ROUND MOD POTÈNCIA SI I O NO
+M575	IFERROR LEN ESQUERRA DRET MITJÀ SUPERIOR INFERIOR TRIM CONCATENAR PI
+M576	Referències de cel·la: A1, $A$1, A1:B10.  Les fórmules comencen amb "=".
+M577	Fitxers: .ods (LibreOffice), .fods (XML pla), .csv
+M578	ODS/FODS manté fórmules, amplades, alçades i colors.
+M579	CSV conserva valors i fórmules (sense colors ni alçades).
+M580	Gràfic: seleccioneu un rang, premeu F10 i trieu Línia/Barra/Mixt/Pastel.
+M581	SGCALC per sgnano
+M582	Versió
+M583	Un full de càlcul d'estil Lotus 1-2-3 com a programa SGX.
+M584	SGX ABI %u.%u
+M585	Mode de pantalla 3: text + CLUT8 FB (lowres inhabilitat)
+M586	Full: %d files x %d columnes
+M587	Formats: .ods / .fods (LibreOffice), .csv
+M588	La quadrícula es dibuixa al pla de text.
+M589	Els gràfics i el fons de 640 x 480 utilitzen el FB.
+M590	%d %s
+M591	No es pot emmagatzemar la cel·la (%d).
+M592	S'han copiat %d x %d cel·les
+M593	Esborrat %s
+M594	'%s' no és una referència de cel·la.
+M595	%d
+M596	Amplada de la columna = %d
+M597	Alçada de fila = %d
+M598	Ajust automàtic: %d columnes, %d files
+M599	%2d
+M600	No es pot aplicar el color (%d).
+M601	%s color = %d
+M602	No és un interval vàlid.\nUtilitzeu un rang com A1:C10.
+M603	Interval gràfic %s
+M604	Gràfic: %s
+M605	SGCALC: no es pot establir el mode de pantalla 3: %s
+M606	%.2g
+M607	%.6g
+M608	%s %.0f%%
+M609	GRÀFIC %s %s
+M610	%s%s
+M611	%s/%s
+M612	%.*s
+M613	%.*s/
+M614	No es pot llegir %s\n%s
+M615	Carpeta: %s
+M616	[DIR] %s
+M617	%s
+M618	%lu.%luM
+M619	%luK
+M620	%luB
+M621	LLIBRE 1%s
+M622	%c:/
+M623	Extensió no compatible.\nUtilitzeu .csv, .ods o .fods.
+M624	%s ja existeix.\nSobreescriure-ho?
+M625	És possible que %s no es pugui escriure.\nProvar de totes maneres?
+M626	Tipus de fitxer desconegut per a %s
+M627	Tipus de fitxer no compatible.\nUtilitzeu .csv, .ods o .fods.
+M628	No es pot obrir %s\n%s
+M629	%s és una carpeta.
+M630	No es pot importar %s\n%s
+M631	Carregat %s
+M632	No es pot crear el fitxer %s.
+M633	No es pot escriure %s\n%s
+M634	%s %s
+M635	versió no compatible %u
+M636	%d:%d:%d:%d:%d:%d
+M637	Octava %d
+M638	Nota %s
+M639	Instrument %d
+M640	Volum %s
+M641	Efecte %c
+M642	Paràmetre %s
+M643	Patró %s
+M644	Patró de reproducció %s
+M645	DESA L'ERROR: %s
+M646	Desat %s
+M647	ERROR DE CARREGA: %s
+M648	BPM %d
+M649	Velocitat %d
+M650	Vista prèvia %s
+M651	Instrument %s %s
+M652	Sobreescriure %s? (S/N)
+M653	| BPM %s SPD %s
+M654	SGNO TRACKER 1.0 |
+M655	FITXA
+M656	PAT %s
+M657	ORD %d/%d
+M658	INS %s
+M659	OCTUBRE %d
+M660	EDITAR %s
+M661	ON
+M662	FOL %s
+M663	PISTA %d
+M664	%c%s
+M665	%s %s %s %s
+M666	%s
+M667	%d %s %s
+M668	COMANDA %d/%d
+M669	PAT %s
+M670	INS %s %s
+M671	OCT %d EDITAR %s
+M672	SEGUIR %s
+M673	PLAYING ORD %d/%d PAT %s ROW %s/%d SPD %s BPM %d F7 STOP
+M674	PREPARAT EDITAR %s OCT %d F1 AJUDA F5 REPRODUCIR CTRL-S DESA
+M675	%s
+M676	F5 Reprodueix la cançó des de l'ordre actual
+M677	F6 Reprodueix el patró actual
+M678	F7/Ctrl-C Atura la reproducció
+M679	Space Play / stop
+M680	F4 Desa com
+M681	Ctrl-S Desa (demana un nom si és nou)
+M682	Ctrl-O Obre una cançó
+M683	Ctrl-N Cançó nova
+M684	F12 Surt (confirmació si es modifica)
+M685	[ ] Entrada de comanda anterior/següent
+M686	{ } Inserir/suprimir una entrada de comanda
+M687	- + Canvia el patró a l'entrada
+M688	F11 Seguiu la reproducció (desactiva el moviment manual)
+M689	Ajuda F1; Esquerra/Dreta canvia la pàgina
+M690	F8 Canvia el mode d'edició
+M691	Fletxes Mou el cursor
+M692	PgUp/PgDn Salta 16 files
+M693	Inici/Fi Primera/última fila
+M694	F9/F10 Octava avall / amunt
+M695	Z S X D C V G B H N J M fila inferior del piano
+M696	Q 2 W 3 E R 5 T 6 Y 7 U fila superior de piano
+M697	1 Nota desactivada
+M698	0 / Del 0 esborra nota/inst/fx; Del esborra qualsevol
+M699	Ctrl-Z Desfer l'última edició de patró/ordre
+M700	Diapositiva de volum Axy: amunt x, avall y
+M701	Cxx Nota tallada després de xx ticks
+M702	Dxx Configura el volum (00..7F)
+M703	Fxx Velocitat si xx < 20, en cas contrari, BPM
+M704	Hxy Arpegi x, y semitons
+M705	Pxx Llisca cap amunt
+M706	Qxx Llisca cap avall
+M707	Configuració de cançons F2, llista d'instruments F3
+M708	AJUDA %d/2
+M709	Títol
+M710	[%s_]
+M711	BPM: %d (esquerra/dreta -1/+1, -/+ -5/+5)
+M712	Velocitat: %d ticks/fila
+M713	Files: %d (fixes)
+M714	Ordre: %d entrades
+M715	Patrons en ús: %d
+M716	# NOM ONADA A D S R VOL
+M717	%c %d %-9s %-9s %3d %3d %3d %3d %4d
+M718	Instrument actual: %s %s
+M719	%s
+M720	DIR %s
+M721	%c %s%s
+M722	Fitxers: %d
+M723	%02d
+M724	%03d
+M725	%02X
+M726	SGNO TRACKER: SGX ABI incompatible
+M727	S: comproveu: espereu -- s'està llegint o escrivint un fitxer
+M728	S: comproveu: la unitat està ocupada o no està preparada
+M729	res per a aquest element (ContextMenu.cfg)
+M730	ordre incorrecta a ContextMenu.cfg
+M731	acció desconeguda a ContextMenu.cfg
+M732	menú
+M733	tria un fitxer o carpeta
+M734	aquesta unitat no es pot escriure
+M735	una tasca d'arxiu ja s'està executant
+M736	no hi ha PSRAM per a la tasca d'arxiu
+M737	no s'ha pogut iniciar la tasca d'arxiu
+M738	massa elements (32 com a màxim)
+M739	res a comprimir
+M740	sense nom (o el nom té / o \\)
+M741	32 elements com a màxim (marqueu menys o col·loqueu-los en una carpeta)
+M742	arxiu
+M743	comprimir
+M744	render
+N001	5 Macro
+N002	6 Ajuda
+N003	Executar corrent
+N004	Executeu la macro al cursor (#! cel·la de la capçalera i les cel·les que hi ha a sota)
+N005	Executar la selecció
+N006	Executeu les cel·les seleccionades com una macro (la cel·la superior esquerra és la capçalera #!)
+N007	Corre tots
+N008	Executeu totes les macros del full, de dalt a l'esquerra a baix a la dreta
+N009	Últim error
+N010	Mostra l'últim error de macro
+N011	Macro
+N012	Macro: executeu #!ruby / #!python / #!cel·les bàsiques
+N013	Edita la cel·la (F2)
+N014	Ajustar amplades/altures al contingut
+N015	Últim error de macro
+N016	Cap error de macro.
+N017	IME activat
+N018	IME apagat
+N019	Macro: %s %s...
+N020	%s: aquest microprogramari no pot executar macros (SGX ABI 5.10 o posterior)
+N021	Error de macro: %s
+N022	Macro: %s fet
+N023	ja s'està executant una macro
+N024	aquest idioma no està disponible
+N025	no hi ha prou memòria
+N026	la macro es va aturar amb un error
+N027	Error de macro %s: %s
+N028	Macro: memòria insuficient
+N029	Macro: el cursor no es troba en una macro (una #!ruby / #!python / #!cel·la bàsica o les cel·les que hi ha a sota)
+N030	Macro: no hi ha macro al full
+N031	Executeu totes les macros
+N032	Macros: %d. Executeu-los tots, de dalt a l'esquerra a baix a la dreta? Els canvis no es poden desfer.
+N033	Macro: %d de %d fet
+N034	Va netejar la cel·la
+N035	S'ha esborrat la selecció
+N036	Color de fons = %d
+N037	Color del text = %d
+N038	Gràfic: línia
+N039	Gràfic: barra
+N040	Gràfic: mixt
+N041	Gràfic: pastís
+N042	Exportat %s

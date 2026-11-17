@@ -1,0 +1,45 @@
+# 2026-11-17: archive window, compress name field, WAV export window (machine translation, unreviewed)
+U342	Arxiv nomi (belgilangan elementlar, bo'lmasa kursordagi element)
+U343	Enter siqish  ←→ surish  BS / Del o'chirish  ESC bekor
+U344	WAV eksport: %s bekor qilindi (%s)
+U345	WAV eksport: %s muvaffaqiyatsiz (%s)
+U346	WAV eksport: %s jami %s
+U347	 WAV eksport (96kHz / 24bit): %s
+U348	Bekor qilindi
+U349	Muvaffaqiyatsiz
+U350	 Jami %s
+U351	 Bekor qilindi (%s; chala fayl o'chirildi)
+U352	 Eksport qilib bo'lmadi (%s). Sabab:
+U353	 (sabab noma'lum)
+U354	 %u%%   o'tdi %s%s
+U355	 ESC: to'xtatish (chala fayl o'chiriladi)
+U356	Arxiv: %s
+U357	O'qilmoqda... (bekor qilish uchun ESC)
+U358	 %u element%s  jami %s bayt  ochish joyi: %s
+U359	 Enter ochish  X hammasi  ↑↓ surish  ESC yopish
+U360	Siqish
+U361	Ro'yxat
+U362	Ochish
+U363	 Jami %s   %u element
+U364	 Jami %s   %u fayl
+U365	 Bekor qilindi (%s; tugallanmagan fayl o'chirildi)
+U366	 Bo'lmadi (%s): %s
+U367	 %u%%   o'tdi %s   %s bayt%s
+U368	 o'tdi %s   %s bayt%s
+U369	 ESC: to'xtatish (tugallanmagan fayl o'chiriladi)
+U370	Arxiv: %s muvaffaqiyatsiz (%s)
+U371	Siqildi: %s (%u element)
+U372	Ochildi: %s (%u fayl)
+# 2026-11-17: archive / compress messages (machine translation, unreviewed)
+M733	fayl yoki papka tanlang
+M734	bu diskka yozib bo'lmaydi
+M735	arxiv ishi allaqachon bajarilmoqda
+M736	arxiv ishi uchun PSRAM yetmaydi
+M737	arxiv ishini boshlab bo'lmadi
+M738	elementlar juda ko'p (ko'pi bilan 32)
+M739	siqiladigan narsa yo'q
+M740	nom yo'q (yoki nomda / yoki \\ bor)
+M741	ko'pi bilan 32 element (kamroq belgilang yoki papkaga soling)
+M742	arxiv
+M743	siqish
+M744	WAV eksport

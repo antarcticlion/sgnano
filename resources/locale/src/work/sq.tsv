@@ -1,0 +1,373 @@
+# sq: machine translation (Google), unreviewed; 2026-11-17
+U001	Lista (skedarët dhe dosjet në 2 kolona x 19 rreshta)
+U002	Lëvizni kursorin (majtas / djathtas: kolona tjetër)
+U003	Faqja e mëparshme / faqja tjetër
+U004	Shënoni të gjitha / përmbysni shenjat (si në PC-98 FD)
+U005	E para / e fundit
+U006	Shënoni dhe vazhdoni / shënoni vetëm
+U007	Shift + Shigjeta
+U008	Zgjidh një varg (Hapësira shënon diapazonin)
+U009	Futni një dosje / hapni një skedar (F2/X ekzekutim)
+U010	Deri në dosjen prind
+U011	Zgjidhni një disk (USB, floppy, CD, S: i integruar)
+U012	Kopjo (Shift+C / Shift+F3 zgjedh destinacionin nga pema)
+U013	Lëvizni
+U014	Fshi (Shift+D / Shift+F4 fshini një dosje)
+U015	Riemërto
+U016	Ndryshoni atributet
+U017	Hapni në redaktues
+U018	Shiko si tekst (Shift+V / Ctrl+Alt+F7 hex)
+U019	Informacioni i makinës
+U020	Dosje e re / skedar i ri
+U021	Shell sgsh / nxjerr mediumin
+U022	Ringarko
+U023	Ruaje ekranin si PNG
+U024	Mbyllni dritaren / pastroni përzgjedhjen (në një nënfolder: shkoni lart)
+U025	Operacionet e skedarit (si në FD: shenjat, pastaj diapazoni, pastaj kursori)
+U026	Kopjo: zgjidhni destinacionin nga pema e diskut dhe dosjeve. ESC ndalon
+U027	Fshij: konfirmo me y. Shënon dhe shkon menjëherë. Dosjet me përmbajtjen e tyre
+U028	Fshi një dosje (me përmbajtjen e saj)
+U029	Riemërto (redakto emrin, Enter)
+U030	Atributet: R vetëm për lexim, H i fshehur, sistemi S, një arkiv
+U031	Dosje e re
+U032	Skedar i ri (bosh).
+U033	Shiko si tekst (Shift+V / Ctrl+Alt+F7 hex)
+U034	Shell sgsh (dalja / Ctrl-D përsëri te skedari)
+U035	Identiteti i diskut (KËRKESË, IDENTIFIKIM)
+U036	Nxirrni mediumin FDD / LS-120 / CD
+U037	Rifresko listën (CD: nga TOC)
+U038	Merre nga kompjuteri me ZMODEM (zm.sh vendos)
+U039	Dërgo në PC me ZMODEM (zm.sh merr)
+U040	Përpiloni .rb dhe shkruani .mrb
+U041	Ruby REPL (një rresht në një kohë, Ctrl-D / ESC deri në fund)
+U042	MicroPython REPL
+U043	Ndani në pjesë 4 MB / bashkohuni nga 0,001
+U044	Ndarje / bashkohu (njëlloj si Ctrl+F11 / F12)
+U045	Ekrani (Alt+F, nuk përplaset me tastet FD F)
+U046	Shfaq / fshih FB (foto) / tekstin
+U047	Faqja e shfaqur në FB (0-3)
+U048	Pastro FB-në në 0 / përgjysmo ndriçimin e saj (RGB555)
+U049	Pikat fundore të USB-së dhe gjendja e LAN
+U050	Pastroni faqen e ekranit FB / përgjysmoni ndriçimin e saj
+U051	Shembuj të atributeve të tekstit
+U052	Monitoroni EDID (lexoni në nisje)
+U053	Licencat dhe kreditet ROM të shkronjave
+U054	Cilësimet (gjuha e ekranit, IME dhe vendndodhja e tastierës)
+U055	Ora (ora e Japonisë e caktuar nga NTP; s sinkronizohet tani)
+U056	Hap fletëllogaritëse (SGCALC)
+U057	Kontrollo S: për gabime (pyet para riparimit)
+U058	Hap TRACKER
+U059	Rinis (pyet fillimisht)
+U060	Luaj hyrjen stereo ADC (GP40 / 41)
+U061	Eksporto VGM/VGZ në një WAV 96 kHz / 24-bit
+U062	Kjo ndihmë
+U063	Ndrysho faqen
+U064	Mbylle
+U065	Shikuesi i tekstit / gjashtëkëndor (si më pak)
+U066	Një rresht
+U067	Një faqe
+U068	Gjysmë faqe
+U069	Kërko (përpara / prapa) / tjetër / e mëparshme
+U070	Kthehu në listë (F1: ndihma e shikuesit)
+U071	Shikuesi i imazhit
+U072	Kthehu në listë (F2 F3 F6 F7 Shift+F2 F3 punë)
+U073	Redaktori (E / Shift + F8)
+U074	Ruaj (UTF-8; rreshti përfundon dhe BOM ruhet)
+U075	Mbylle (nëse ndryshohet: Y / Jo / ESC)
+U076	Fut / mbishkruaj
+U077	Aktivizimi/çaktivizimi i IME (Japonisht / Anglisht / Koreanisht)
+U078	Gjuha IME (Japoneze / Anglisht / Koreane)
+U079	Kryeni si hiragana / katakana
+U080	Ndihma e redaktorit
+U081	Shell
+U082	Shell (një nëngrup csh. dil / Ctrl-D për t'u kthyer, ndihma liston komandat)
+U083	Listoni dhe lëvizni
+U084	Operacionet e skedarëve
+U085	Ekrani dhe pajisjet
+U086	Shikuesit dhe redaktori
+U087	Ndihmë %u / %u %s
+U088	Majtas Djathtas: ndryshoni faqen F1 / ESC: mbyll
+U089	Të rindizet sgnano?
+U090	[Rinisni]
+U091	[Anulo]
+U092	Kontrolloni diskun S: për gabime
+U093	Skedarët %lu dosjet %lu
+U094	Madhësia nuk përputhet me zinxhirin
+U095	Grupe të përdorura nga asgjë
+U096	Grupe të ndërlidhura
+U097	Regjistrimet e thyera
+U098	Dy kopjet FAT ndryshojnë
+U099	Nuk ka gabime.
+U100	U gjetën gabime. Riparoni ato?
+U101	Riparuar (numrat e mësipërm janë rregulluar).
+U102	Nuk mund të kontrollohej ose riparohej (S: është i zënë).
+U103	[Riparim]
+U104	[Anulo]
+U105	Çdo çelës mbyllet
+U106	Cilësimet
+U107	Gjuha e shfaqjes
+U108	Vendndodhja e tastierës
+U109	Lart / Poshtë Shkruani zgjidhni ESC anuloni
+U110	Gjuha e shfaqjes
+U111	Lart / Poshtë Hyni: vendosni ESC: mbrapa
+U112	Fix %c: si cila shkronjë? (A-Z përveç S. ESC anulon)
+U113	Shkronja e diskut / Shkruani zgjidhni F2 rregulloni/zgjidhni shkronjën F3 rregulloni si... L / ESC anuloni
+U114	ndarje %u
+U115	%c:* (i fiksuar, jo i lidhur) %04X:%04X%s %s
+U116	Njoftim
+U117	Ngasja %c: %s
+U118	Vozitje (asnjë)
+U119	%u këngë të CD-së audio
+U120	Dosjet %u skedarët %u gjithsej %s
+U121	Duke lexuar...
+U122	* shënuar %u %s
+U123	%lu bajt
+U124	Attr %s modifikuar %s krijuar %s %s
+U125	dielli
+U126	e hënë
+U127	e martë
+U128	e mërkurë
+U129	e enjte
+U130	e premte
+U131	Shtu
+U132	Ora nuk është vendosur (NTP mbi LAN)
+U133	Ekrani FB %u shkruani %u
+U134	1 Ndihmë
+U135	2 Vraponi
+U136	3 Kopjo
+U137	4 Del
+U138	5 Riemërto
+U139	7 FBclr
+U140	8 FBdim
+U141	9 Ngasni
+U142	10 EP
+U143	11 Ora
+U144	12 CALC
+U145	1 Attr
+U146	2 Informacion
+U147	3 Lëviz
+U148	5 Mkdir
+U149	6 Shell
+U150	8 Redakto
+U151	9 Pamje
+U152	10 S:chk
+U153	11 TRACK
+U154	12 Rinisni
+U155	1 E re
+U156	2 Dosja
+U157	3 Riemërto
+U158	4 Atribut
+U159	6 Kopjo
+U160	7 Lëviz
+U161	8 Fshij
+U162	9 Redakto
+U163	10 mrbc
+U164	11 Ndarje
+U165	12 Bashkohu
+U166	1 Attrs
+U167	2 FB
+U168	3 Teksti
+U169	5 ScrSht
+U170	6 DispPg
+U171	9 ZMrecv
+U172	10ZM dërgo
+U173	2 FBClr
+U174	3 FBDim
+U175	5 Rifresko
+U176	7 Heks
+U177	9 Lic
+U178	11 Konfigurimi
+U179	Cakto orën (ora e Japonisë. NTP nuk mund ta caktojë)
+U180	Drejtoni me parametra
+U181	Dosje e re
+U182	Skedar i ri
+U183	Koha:
+U184	Vraponi:
+U185	Emri:
+U186	YYYY-MM-DD hh:mm Fut vendosjen e mbajtjes ESC
+U187	Fut ekzekutimin <-> zhvendos BS / Del delete ESC anuloj
+U188	Futni riemërtimin <-> zhvendosni BS / Delete fshini ESC anuloni
+U189	Futni krijimin <-> zhvendosni BS / Delete fshini ESC anuloni
+U190	Fshije
+U191	artikuj
+U192	Dosjet fshihen me përmbajtjen e tyre. je i sigurt?
+U193	Të fshihet ky skedar?
+U194	(Kjo nuk mund të zhbëhet. Skedarët në dosje fshihen gjithashtu)
+U195	[Po (Y)]
+U196	[Jo (N)]
+U197	shikues hex: zgjidhni një skedar
+U198	shikues teksti: zgjidhni një skedar
+U199	Lëvizni në
+U200	Kopjo në
+U201	Buferi është plot
+U202	Disku është vetëm për lexim
+U203	Nuk mund të ruhet (pa shkrimtar)
+U204	Nuk mund të fillonte të ruani (disku është i zënë?)
+U205	Po ruan...
+U206	2 Ruaj
+U207	5 Ngjyra
+U208	6 Hira
+U209	7 Kata
+U210	8 Pred
+U211	10 Hiq dorë
+U212	1 Top
+U213	2 Fund
+U214	3 InsOvr
+U215	4 Dikt
+U216	6 HHira
+U217	7 HKata
+U218	%s %s Ln %lu/%lu Col %u %s %s %s%s%s
+U219	*mod
+U220	OVR
+U221	INS
+U222	R/O
+U223	Redaktori (sgnano edit) F1 / ESC mbyllet
+U224	Shigjetat / Fundi kryesor / PgUp PgDn lëvizin kursorin
+U225	Ctrl-T / Ctrl-B krye / fundi i skedarit
+U226	BS / Fshij para / në kursor
+U227	Fut rreshtin e ri (mban dhëmbëzimin)
+U228	Skeda / Skeda Ins / fut ose mbishkruaj
+U229	Ngjyrosje F5 (nga zgjerimi; C/C++, mruby, MicroPython, SG BASIC, asnjë)
+U230	F2 (Ctrl-S) ruaj (UTF-8, fundet e rreshtit ruhen)
+U231	F10 / ESC mbyllet (pyet nëse është ndryshuar)
+U232	IME: Ctrl-Space / F12 ndezur / fikur (あ / A)
+U233	Gjuha F9 IME (vetëm ky redaktues; restaurohet në mbyllje)
+U234	F8 Konvertimi parashikues japonez aktiv/çaktiv
+U235	Romani japonez -> hiragana (F6) / katakana (F7)
+U236	Hiragana me gjysmë gjerësi (Shift+F6) / katakana gjysmë gjerësi (Shift+F7)
+U237	Parashikoni me 2 ose më shumë karaktere, konvertoni fjalinë e vazhdueshme me Hapësirë
+U238	Anglisht Plotësimi parashikues me 2 ose më shumë karaktere
+U239	한국어 2 Hangulli i stilit Bol
+U240	Hapësirë ​​/ Fut Konverto / Konfirmo
+U241	← → Zgjidhni një frazë
+U242	Shift+← → Tkurre/rrite fundin e djathtë të klauzolës me një karakter (kandidatë të rinj)
+U243	↑ ↓ / Skeda e mëparshme / kandidati tjetër në dritaren kërcyese (poshtë tekstit, sipër afër fundit)
+U244	Hyni në →→→ Të gjithë kandidatët (2 x 8, ← → kolona dhe faqja, Enter zgjedh)
+U245	Fut klauzolën tjetër (konfirmon të tërën në klauzolën e fundit)
+U246	Ctrl-U Shtoni fjalën aktuale në fjalorin e përdoruesit
+U247	Shift+F1 / F2 / F3 / F4 Top / fund / fut-mbishkruaj / në fjalorin e përdoruesit
+U248	BS / ESC Kthehu prapa një karakter / Anulo
+U249	, . - [ ] / 、 。 ー 「 」 ・
+U250	Modifikuar Y: ruaj dhe mbyll N: mbyll pa ruajtur ESC: mbrapa
+U251	[Parashikimi] Tab/↑↓: kandidat Hapësira: konverto Esc: anuloje
+U252	[Kandidatët] ↑↓: zgjidhni ←→: kolona/faqe Shkruani: zgjidhni
+U253	[Konverto] ↑↓kand ←→klauzola Shift+←→lidhur Shkruani tjetër
+U254	[한국어] Skeda/↑↓: kandidati Hyni/Hapësira: konfirmoni
+U255	[Anglisht] Tab/↑↓: kandidati Shkruani: konfirmoni
+U256	Hyrja Hangul me 2 grupe Ctrl-Hapësirë: alfanumerik
+U257	Ctrl-Hapësira e përfundimit parashikues: hyrje e drejtpërdrejtë
+U258	Nuk ka fjalor: vetëm hiragana/katakana F6/F7
+U259	Hapësira: konverto F7: katakana Ctrl-Hapësirë: alfanumerik
+U260	Hapësira: konverto F6: hiragana Ctrl-Hapësirë: alfanumerik
+U261	Gjysma e gjerësisë F6: hiragana F7: katakana Shift+F6/F7: gjysma
+U262	IME fikur
+U263	parashikojnë
+U264	Përkthimi parashikues japonez: On
+U265	Përkthim parashikues për japonisht: Off
+U266	Përdorni me IME japoneze
+U267	Nuk mund të shtohet në fjalorin e përdoruesit
+U268	Ngjyrosja: %s
+U269	Po ngarkohet...
+U270	Skedari nuk mund të lexohej
+U271	%lu linjat%s%s
+U272	hapi Shift_JIS si UTF-8 (ruajtur si UTF-8)
+U273	vetëm për lexim
+U274	U ruajt
+U275	Nuk mundi të ruhej (shkrimi dështoi)
+U276	Kandidatët
+U277	7 WrtPg
+U278	9 Teksti
+U279	9 Heks
+U280	Duke u ngarkuar %lu%%
+U281	(vetëm fillimi)
+U282	Hex q ESC: prapa F1: ndihmë
+U283	Teksti q ESC: mbrapa F1: ndihmë
+U284	Çelësat e shikuesit (si më pak; e njëjta gjë për tekstin dhe heksin)
+U285	Një rresht më poshtë
+U286	Një rresht
+U287	Një faqe më poshtë
+U288	Një faqe më lart
+U289	Gjysmë faqe poshtë / lart
+U290	/tekst ?tekst
+U291	Kërko poshtë / lart (injoron shkronjat)
+U292	Ndeshja tjetër / e mëparshme
+U293	Shfaq si heks (në të njëjtin vend)
+U294	Shfaq si tekst (në të njëjtin vend)
+U295	Ndrysho ngjyrosjen (C/C++, mruby, MicroPython, SG BASIC, asnjë)
+U296	Shfaq / fshih FB / tekstin
+U297	FB shfaq faqe / faqe shkrimi
+U298	Kthehu te skedari
+U299	Mbylle këtë ndihmë
+U300	Kopjo
+U301	%s: leximi i dosjeve... %u
+U302	%s: numërimi i hapësirës së lirë në destinacion...
+U303	%s: nuk ka hapësirë ​​të mjaftueshme të lirë në destinacion
+U304	Zhvendos: heqja e dosjeve burimore
+U305	U krye
+U306	Ndaloi
+U307	%s në vazhdim%s
+U308	(duke ndaluar)
+U309	Nga: %s
+U310	Për: %s
+U311	Skedarët %u / %u dosjet %u %s / %s (%u%%)%s
+U312	shumë: vetëm disa
+U313	Nevojë për %s, %s falas. Të vazhdohet?
+U314	Y: vazhdoni N / ESC: anuloni
+U315	Shtypni çdo tast për ta mbyllur
+U316	ESC: ndalo
+U317	%s: ←→ disku ↑↓ dosja Hapësira hap/mbyll Fut zgjidh ESC anulo
+U318	Nuk mund të lexohet: %s
+U319	Leximi i dosjeve... (ESC ndalon) %u
+U320	%u dosjet%s
+U321	(shumë ose shumë e thellë: vetëm disa)
+U322	Ndaloi hapjen e dosjes
+U323	Hapësira e hap përsëri. ESC anulon edhe një herë
+U324	Lojtar SMF / SGT %s
+U325	Po ngarkohet... %lu / %lu bajt
+U326	%s / %s %s portat %u
+U327	Në pauzë
+U328	Duke luajtur
+U329	Hapësira: pauzë m: MIDI OUT q / ESC: ndalesë
+U330	q / ESC: anuloni
+U331	Licencat dhe kreditet ROM të shkronjave\n\nROM: %s (versioni %lu.%lu, %lu karaktere, nga 0x%08lX në blic)
+U332	== Fontet në ROM (tabela e origjinës së ROM) ==
+U333	(ROM nuk ka tabelë)
+U334	== Zona e kreditit të ROM ==
+U335	(nuk ka një zonë të tillë)
+U336	== Licencat e softuerit të integruar ==
+U337	Ruajtja %s si PNG %s
+U338	Ekrani
+U339	Ndërtimi i... %lu / %lu rreshtave
+U340	Shkrimi... %lu / %lu KB (FB-ja është e fshehur)
+U341	Nuk mund të shkruante
+U342	Emri i arkivit (artikujt e shënuar, ose artikulli i kursorit nëse nuk ka)
+U343	Futni kompresimin ←→ lëvizni BS / Delete fshini ESC anuloni
+U344	Eksporti WAV: %s anuluar (%s)
+U345	Eksportimi WAV: %s dështoi (%s)
+U346	Eksporti WAV: %s total %s
+U347	Eksporti WAV (96kHz / 24bit): %s
+U348	Anuluar
+U349	Dështoi
+U350	Gjithsej %s
+U351	U anulua (%s; skedari i pjesshëm u fshi)
+U352	Nuk mund të eksportohej (%s). Arsyeja:
+U353	(Arsyeja nuk dihet)
+U354	%u%% ka kaluar %s%s
+U355	ESC: ndaloni (skedari i pjesshëm fshihet)
+U356	Arkivi: %s
+U357	Duke lexuar... (ESC për të anuluar)
+U358	%u artikujt%s %s bajt gjithsej ekstraktoni në: %s
+U359	Fut artikullin ekstrakt X ekstrakt të gjitha ↑↓ zhvendos ESC afër
+U360	Kompresoni
+U361	Lista
+U362	Ekstrakt
+U363	Gjithsej %s %u artikuj
+U364	Gjithsej %s %u skedarë
+U365	U anulua (%s; skedari i papërfunduar u fshi)
+U366	Nuk mund ta bëja (%s): %s
+U367	%u%% ka kaluar %s %s bajt%s
+U368	%s %s bajt%s të kaluara
+U369	ESC: ndaloni (skedari i papërfunduar fshihet)
+U370	Arkivi: %s dështoi (%s)
+U371	Të ngjeshur: %s (%u artikuj)
+U372	Ekstraktuar: %s (%u skedarë)

@@ -1,0 +1,3354 @@
+{
+ "ui": [
+  "一覧（ファイルとフォルダを 2 列 x 19 行に並べる）",
+  "カーソルを動かす（左右は隣の列へ）",
+  "前のページ / 次のページ",
+  "全部に印 / 印を反転（PC-98 FD と同じ）",
+  "先頭 / 最後",
+  "印を付けて次へ / 印だけ付ける",
+  "Shift+矢印",
+  "範囲を選ぶ（Space でその範囲に印）",
+  "フォルダに入る・ファイルを開く（F2/X は実行）",
+  "上のフォルダへ",
+  "ドライブを選ぶ（USB・フロッピー・CD・S: 内蔵）",
+  "コピー（Shift+C / Shift+F3 は行き先を木から）",
+  "移動",
+  "削除（Shift+D / Shift+F4 はフォルダ削除）",
+  "名前を変える",
+  "属性を変える",
+  "エディタで開く",
+  "テキスト表示（Shift+V / Ctrl+Alt+F7 は 16 進）",
+  "ドライブの情報",
+  "フォルダを作る / 新しいファイル",
+  "シェル sgsh / 媒体を取り出す",
+  "読み直す",
+  "見えている画面を PNG で保存",
+  "窓を閉じる・選択を解く（サブフォルダでは上位へ）",
+  "ファイルの操作（FD と同じ。印・範囲・カーソルの順に選ぶ）",
+  "コピー: 行き先はドライブとフォルダの木から。ESC で止める",
+  "削除: y で確かめる。印・範囲をまとめて。フォルダは中身ごと",
+  "フォルダを削除（中身ごと）",
+  "名前を変える（今の名前を直して Enter）",
+  "属性: R 読み出し専用・H 隠し・S システム・A アーカイブ",
+  "フォルダを作る",
+  "新しいファイル（空）を作る",
+  "テキストで表示（Shift+V / Ctrl+Alt+F7 は 16 進）",
+  "シェル sgsh（exit / Ctrl-D でファイラーへ）",
+  "選んでいるドライブの素性（INQUIRY・IDENTIFY）",
+  "FDD・LS-120・CD の媒体を取り出す",
+  "一覧を読み直す（CD は TOC から）",
+  "ZMODEM で PC から受け取る（zm.sh put）",
+  "ZMODEM で PC へ送る（zm.sh get）",
+  ".rb をコンパイルして .mrb を書き出す",
+  "Ruby の REPL（1 行ずつ、Ctrl-D / ESC で終わり）",
+  "MicroPython の REPL",
+  "4MB ずつ分割 / .001 から結合",
+  "分割 / 結合（Ctrl+F11 / F12 と同じ）",
+  "画面（Alt+F。FD の F キーとぶつからない）",
+  "FB（絵）/ テキスト面を出す・隠す",
+  "FB の表示ページ（0〜3）",
+  "FB を 0 で消す / 明るさを 1/2 に（RGB555）",
+  "USB のエンドポイントと LAN の状態",
+  "FB の表示ページを消す / 明るさを 1/2 に",
+  "テキストの属性の見本",
+  "モニタの EDID（起動時に読んだもの）",
+  "フォント ROM のライセンスとクレジット",
+  "設定（表示の言語・IME・キーボードロケール）",
+  "時計（NTP で合わせた日本時間。s ですぐ合わせる）",
+  "表計算（SGCALC）を開く",
+  "S: ドライブのエラー検査（誤りがあれば直すか聞く）",
+  "トラッカー（TRACKER）を開く",
+  "再起動（確かめの窓が出る）",
+  "ADC のステレオ入力（GP40 / 41）を鳴らす",
+  "VGM/VGZ を 96kHz/24bit WAV に書き出す",
+  "このヘルプ",
+  "ページを替える",
+  "閉じる",
+  "テキスト・16 進のビュアー（less 風）",
+  "1 行",
+  "1 ページ",
+  "半ページ",
+  "探す（前へ・後ろへ）/ 次・前",
+  "一覧へ戻る（F1 はビュアーのヘルプ）",
+  "画像のビュアー",
+  "一覧へ戻る（F2 F3 F6 F7 Shift+F2 F3 は効く）",
+  "エディタ（E / Shift+F8）",
+  "保存する（UTF-8。改行と BOM は元のまま）",
+  "閉じる（変わっていれば Y / N / ESC）",
+  "挿入 / 上書き",
+  "IME（日本語・英語・ハングル）の入・切",
+  "IME の言語（日本語 / English / 한국어）",
+  "ひらがな / カタカナで確定",
+  "エディタのヘルプ",
+  "シェル",
+  "シェル（csh のサブセット。exit / Ctrl-D で戻る、help で一覧）",
+  "一覧と移動",
+  "ファイルの操作",
+  "画面と機器",
+  "ビュアーとエディタ",
+  "ヘルプ  %u / %u  %s",
+  "Left Right: ページを替える    F1 / ESC: 閉じる",
+  "sgnano を再起動しますか？",
+  "[ 再起動 ]",
+  "[ キャンセル ]",
+  "S: ドライブのエラー検査",
+  "ファイル %lu  フォルダ %lu",
+  "大きさが鎖と合わない",
+  "どこからも使われていないクラスタ",
+  "重なったクラスタ",
+  "壊れた項目",
+  "FAT の 2 つの写しの食い違い",
+  "エラーはありません。",
+  "エラーが見つかりました。修復しますか？",
+  "修復しました（上は直した数）。",
+  "検査・修復できませんでした（S: が使用中）。",
+  "[ 修復する ]",
+  "[ やめる ]",
+  "何かキーで閉じる",
+  "設定",
+  "表示の言語",
+  "キーボードロケール",
+  "Up / Down  Enter 決める  ESC やめる",
+  "表示の言語 (Language)",
+  "Up / Down  Enter 決める  ESC 戻る",
+  "%c: をどの文字に固定しますか（A〜Z、S を除く。ESC でやめる）",
+  "ドライブ  文字 / Enter 選ぶ  F2 文字を固定・解除  F3 文字を決めて固定  L / ESC やめる",
+  "  区画 %u",
+  "%c:* （固定・つながっていません）%04X:%04X%s  %s",
+  "お知らせ",
+  "ドライブ %c:  %s",
+  "ドライブ  (なし)",
+  "音楽 CD  %u トラック",
+  "フォルダ %u  ファイル %u  合計 %s",
+  "読んでいます...",
+  "* 印 %u 個  %s",
+  "%lu バイト",
+  "属性 %s   更新日時 %s   作成日時 %s   %s",
+  "日",
+  "月",
+  "火",
+  "水",
+  "木",
+  "金",
+  "土",
+  "時計は合わせていません（LAN の NTP）",
+  "FB  表示 %u  書込 %u",
+  "1 ヘルプ",
+  "2 実行",
+  "3 ｺﾋﾟｰ",
+  "4 削除",
+  "5 名前",
+  "7 FB消去",
+  "8 FB減光",
+  "9 ﾄﾞﾗｲﾌﾞ",
+  "10 EP表",
+  "11 時計",
+  "12 表計",
+  "1 属性",
+  "2 情報",
+  "3 移動",
+  "5 作成",
+  "6 シェル",
+  "8 編集",
+  "9 表示",
+  "10S:検査",
+  "11 ﾄﾗｯｸ",
+  "12再起動",
+  "1 新規",
+  "2 ﾌｫﾙﾀﾞ",
+  "3 名前",
+  "4 属性",
+  "6 ｺﾋﾟｰ",
+  "7 移動",
+  "8 削除",
+  "9 編集",
+  "10ｺﾝﾊﾟｲﾙ",
+  "11 分割",
+  "12 結合",
+  "1 属性例",
+  "2 FB切替",
+  "3 文字面",
+  "5 画面写",
+  "6 表示頁",
+  "9 ZM受信",
+  "10ZM送信",
+  "2 FB消去",
+  "3 FB減光",
+  "5 再読込",
+  "7 16進",
+  "9 ﾗｲｾﾝｽ",
+  "8 設定",
+  "時刻を合わせる（日本時間。NTP で合わせられませんでした）",
+  "起動のパラメタ",
+  "新しいフォルダ",
+  "新しいファイル",
+  "時刻:",
+  "実行:",
+  "名前:",
+  "年-月-日 時:分  Enter 合わせる  ESC そのまま",
+  "Enter 走らせる  ←→ 動かす  BS / Del 消す  ESC やめる",
+  "Enter 変える  ←→ 動かす  BS / Del 消す  ESC やめる",
+  "Enter 作る  ←→ 動かす  BS / Del 消す  ESC やめる",
+  "消す",
+  "個の項目",
+  "フォルダは中身ごと消します。よろしいですか？",
+  "このファイルを消しますか？",
+  "（元に戻せません。フォルダの中のファイルも消えます）",
+  "[ はい (Y) ]",
+  "[ いいえ (N) ]",
+  "バイナリビュアー: ファイルを選んでください",
+  "テキストビュアー: ファイルを選んでください",
+  "移動先",
+  "コピー先",
+  "バッファがいっぱいです (buffer full)",
+  "読み出し専用のドライブです (read-only)",
+  "保存できません (no writer)",
+  "保存を始められません (the drive is busy?)",
+  "保存しています... (saving)",
+  "2 保存",
+  "5 色分け",
+  "6 ﾞ",
+  "7 ｶﾀｶﾅ",
+  "8 予測",
+  "10 終了",
+  "1 先頭",
+  "2 最後",
+  "3 挿/上",
+  "4 辞書",
+  "6 半",
+  "7 半ｶﾅ",
+  " %s  %s  行 %lu/%lu 桁 %u  %s  %s %s%s%s",
+  "*変更",
+  "上書",
+  "挿入",
+  "  読出専用",
+  " エディタ (sgnano edit)                      F1 / ESC で閉じる",
+  " 矢印 / Home End / PgUp PgDn   カーソルを動かす",
+  " Ctrl-T / Ctrl-B               ファイルの先頭 / 最後",
+  " BS / Del                      前の字 / カーソルの字を消す",
+  " Enter                         改行（前の行の字下げを引き継ぐ）",
+  " Tab / Ins                     タブ / 挿入と上書きの切り替え",
+  " F5                            色分け（拡張子から。C/C++・mruby・MicroPython・SG BASIC・なし）",
+  " F2  (Ctrl-S)                  保存（UTF-8、改行は元の形）",
+  " F10 / ESC                     閉じる（変更があれば聞く）",
+  " IME:  Ctrl-Space / F12        オン・オフ（あ / A）",
+  "       F9                      IME の言語（このエディタの間だけ。閉じると戻る）",
+  "       F8                      日本語の予測変換 オン・オフ",
+  "       日本語                  ローマ字 -> ひらがな（F6）・カタカナ（F7）",
+  "                               半角ひらがな（Shift+F6）・半角カタカナ（Shift+F7）",
+  "                               2 字以上で予測、Space で連文節変換",
+  "       English                 2 字以上で予測補完",
+  "       한국어                  2 ボル式ハングル",
+  "       Space / Enter           変換 / 確定",
+  "       ← →                    文節を選ぶ",
+  "       Shift+← →               文節の右端を 1 字 縮/拡（候補を出し直す）",
+  "       ↑ ↓ / Tab               候補の窓で前 / 次の候補（窓は変換の下、画面の下では上）",
+  "       →→→ で Enter            すべての候補（2 列 x 8 個、← → で列とページ、Enter で決める）",
+  "       Enter                   次の文節へ（最後の文節で全体を確定）",
+  "       Ctrl-U                  いまの語をユーザー辞書へ",
+  " Shift+F1 / F2 / F3 / F4       先頭 / 最後 / 挿入と上書き / ユーザー辞書へ",
+  "       BS / ESC                1 字戻す / 取り消し",
+  "       , . - [ ] /             、 。 ー 「 」 ・",
+  "変更あり  Y: 保存して閉じる  N: 保存せず閉じる  ESC: 戻る",
+  "[予測] Tab/↑↓: 候補  Space: 変換  Esc: 取消",
+  "[候補] ↑↓: 選ぶ  ←→: 列・ページ  Enter: 決める",
+  "[変換] ↑↓候補 ←→文節 Shift+←→区切り Enter次へ",
+  "[한국어] Tab/↑↓: 候補  Enter/Space: 確定",
+  "[English] Tab/↑↓: 候補  Enter: 確定",
+  "2ボル式ハングル入力  Ctrl-Space: 英数",
+  "予測補完  Ctrl-Space: 直接入力",
+  "辞書なし: ひらがな/カタカナ入力のみ  F6/F7",
+  "Space: 変換  F7: カタカナ  Ctrl-Space: 英数",
+  "Space: 変換  F6: ひらがな  Ctrl-Space: 英数",
+  "半角  F6: ひらがな  F7: カタカナ  Shift+F6/F7: 半角",
+  "IME オフ",
+  " 予測",
+  "日本語の予測変換: オン",
+  "日本語の予測変換: オフ",
+  "日本語IMEで使います",
+  "ユーザー辞書に追加できません",
+  "色分け: %s",
+  "読み込んでいます... (loading)",
+  "読み込めませんでした (could not read)",
+  "%lu 行%s%s",
+  "  Shift_JIS を UTF-8 で開きました（保存は UTF-8）",
+  "  読み出し専用",
+  "保存しました (saved)",
+  "保存できませんでした (write failed)",
+  "候補",
+  "7 書込頁",
+  "9 ﾃｷｽﾄ",
+  "9 ﾊﾞｲﾅﾘ",
+  "読み込み中 %lu%%  ",
+  "（先頭だけ）  ",
+  "16 進  q ESC: 戻る  F1: ヘルプ",
+  "テキスト  q ESC: 戻る  F1: ヘルプ",
+  "ビュアーのキー（less 風。テキストと 16 進で共通）",
+  "1 行進む",
+  "1 行戻る",
+  "1 ページ進む",
+  "1 ページ戻る",
+  "半ページ進む / 戻る",
+  "/文字列  ?文字列",
+  "下へ探す / 上へ探す（大文字小文字は区別しない）",
+  "次 / 前を探す",
+  "16 進で表示する（いま見ている所のまま）",
+  "テキストで表示する（いま見ている所のまま）",
+  "色分けを替える（C/C++・mruby・MicroPython・SG BASIC・なし）",
+  "FB / テキスト面を出す・隠す",
+  "FB の表示ページ / 書き込みページ",
+  "ファイラーへ戻る",
+  "このヘルプを閉じる",
+  "コピー",
+  " %s: フォルダを読んでいます... %u 個",
+  " %s: 行き先の空きを数えています...",
+  " %s: 行き先の空きが足りません",
+  " 移動: 元のフォルダを消しています",
+  "終了しました",
+  "止まりました",
+  " %s中%s",
+  "（止めています）",
+  " 元: %s",
+  " 先: %s",
+  " ファイル %u / %u 個  フォルダ %u 個  %s / %s  (%u%%)%s",
+  "  多すぎるので一部だけ",
+  " 要る大きさ %s、空き %s。続けますか？",
+  " Y: 続ける   N / ESC: やめる",
+  " 何かキーを押すと閉じます",
+  " ESC: 止める",
+  " %s: ←→ ドライブ  ↑↓ フォルダ  Space 開く・閉じる  Enter 決める  ESC やめる",
+  " 読めません: %s",
+  " フォルダを読んでいます...（ESC で止める）  %u 個",
+  " フォルダ %u 個%s",
+  "（多すぎるか深すぎるので、一部だけ）",
+  "フォルダの展開を止めました",
+  "Space で開き直せます。もう一度 ESC でやめます",
+  " SMF / SGT プレイヤー   %s",
+  " 読み込んでいます... %lu / %lu バイト",
+  " %s / %s   %s   ポート %u",
+  "一時停止",
+  "再生中",
+  " Space: 一時停止  m: MIDI OUT  q / ESC: 止める",
+  " q / ESC: やめる",
+  "フォント ROM のライセンスとクレジット\n\nROM: %s（版 %lu.%lu、%lu 文字、フラッシュの 0x%08lX から）\n\n",
+  "== 収めているフォント（ROM の出所の表）==\n",
+  "  （表が無い ROM）\n",
+  "\n== ROM のクレジットの区画 ==\n\n",
+  "（区画が無い）\n",
+  "\n== 組み込んだソフトウェアのライセンス ==\n",
+  " %s を PNG で保存   %s",
+  "画面",
+  " 組み立てています... %lu / %lu 行",
+  " 書いています... %lu / %lu KB（FB は隠しています）",
+  "書けませんでした",
+  "書庫の名前（印の付いた項目、無ければカーソルの項目を入れる）",
+  "Enter 圧縮する  ←→ 動かす  BS / Del 消す  ESC やめる",
+  "WAV 書き出し: %s 中止（%s）",
+  "WAV 書き出し: %s 失敗（%s）",
+  "WAV 書き出し: %s 合計 %s",
+  " WAV 書き出し（96kHz / 24bit）: %s",
+  "中止しました",
+  "失敗しました",
+  " 合計 %s",
+  " 中止しました（%s。半端なファイルは消しました）",
+  " 書き出せませんでした（%s）。理由:",
+  " （理由は分かりません）",
+  " %u%%   経過 %s%s",
+  " ESC: 止める（半端なファイルは消します）",
+  "書庫: %s",
+  "読み込み中…（ESC でやめる）",
+  " %u 項目%s  合計 %s バイト  展開先: %s",
+  " Enter 項目を展開  X 全部を展開  ↑↓ 動かす  ESC 閉じる",
+  "圧縮",
+  "一覧",
+  "展開",
+  " 合計 %s   %u 項目",
+  " 合計 %s   %u ファイル",
+  " 中止しました（%s。書きかけのファイルは消しました）",
+  " できませんでした（%s）: %s",
+  " %u%%   経過 %s   %s バイト%s",
+  " 経過 %s   %s バイト%s",
+  " ESC: 止める（書きかけのファイルは消します）",
+  "書庫: %s 失敗（%s）",
+  "圧縮: %s（%u 項目）",
+  "展開: %s（%u ファイル）"
+ ],
+ "msg": [
+  [
+   "msg.phrase",
+   "the drive went away"
+  ],
+  [
+   "msg.phrase",
+   "reading the partitions again..."
+  ],
+  [
+   "msg.phrase",
+   "could not open the volume (no memory?)"
+  ],
+  [
+   "msg.phrase",
+   "opening the volume..."
+  ],
+  [
+   "msg.phrase",
+   "no memory for the file list"
+  ],
+  [
+   "msg.phrase",
+   "reading the directory... (retrying)"
+  ],
+  [
+   "msg.phrase",
+   "could not read the directory"
+  ],
+  [
+   "msg.phrase",
+   "reading the directory..."
+  ],
+  [
+   "msg.phrase",
+   "the drive did not answer -- reading the partitions again"
+  ],
+  [
+   "msg.phrase",
+   "could not read the directory (not FAT12/16/32?)"
+  ],
+  [
+   "msg.phrase",
+   "too many entries -- showing the first ones"
+  ],
+  [
+   "msg.phrase",
+   "no file system found on this partition"
+  ],
+  [
+   "msg.phrase",
+   "the path is too long"
+  ],
+  [
+   "msg.phrase",
+   "joining..."
+  ],
+  [
+   "msg.phrase",
+   "splitting..."
+  ],
+  [
+   "msg.phrase",
+   "renaming..."
+  ],
+  [
+   "msg.phrase",
+   "creating the folder..."
+  ],
+  [
+   "msg.phrase",
+   "creating the file..."
+  ],
+  [
+   "msg.phrase",
+   "deleting..."
+  ],
+  [
+   "msg.phrase",
+   "writing the attributes..."
+  ],
+  [
+   "msg.phrase",
+   "the drive is busy"
+  ],
+  [
+   "msg.phrase",
+   "busy"
+  ],
+  [
+   "msg.phrase",
+   "choose files or folders"
+  ],
+  [
+   "msg.phrase",
+   "choose files or folders (not \"..\")"
+  ],
+  [
+   "msg.phrase",
+   "stop the CD first"
+  ],
+  [
+   "msg.phrase",
+   "the CD cannot be changed (copy instead)"
+  ],
+  [
+   "msg.phrase",
+   "a system folder cannot be moved"
+  ],
+  [
+   "msg.phrase",
+   "no drive can be written (FAT / exFAT / NTFS only)"
+  ],
+  [
+   "msg.phrase",
+   "the drive is gone"
+  ],
+  [
+   "msg.phrase",
+   "nothing chosen"
+  ],
+  [
+   "msg.phrase",
+   "nothing selected"
+  ],
+  [
+   "msg.phrase",
+   "could not start"
+  ],
+  [
+   "msg.phrase",
+   "could not open"
+  ],
+  [
+   "msg.phrase",
+   "only on a FAT / exFAT / NTFS drive"
+  ],
+  [
+   "msg.phrase",
+   "no name"
+  ],
+  [
+   "msg.phrase",
+   "that name already exists"
+  ],
+  [
+   "msg.phrase",
+   "could not start (bad name or the drive is busy)"
+  ],
+  [
+   "msg.phrase",
+   "could not start (the drive is busy)"
+  ],
+  [
+   "msg.phrase",
+   "the name cannot have / or \\ (only inside this folder)"
+  ],
+  [
+   "msg.phrase",
+   "the name is the same"
+  ],
+  [
+   "msg.phrase",
+   "the item is read-only (A to change)"
+  ],
+  [
+   "msg.phrase",
+   "choose a .rb file on a writable drive"
+  ],
+  [
+   "msg.phrase",
+   "choose a .rb file"
+  ],
+  [
+   "msg.phrase",
+   "the drive is read-only"
+  ],
+  [
+   "msg.phrase",
+   "choose a folder on a writable drive"
+  ],
+  [
+   "msg.phrase",
+   "wait a moment"
+  ],
+  [
+   "msg.phrase",
+   "choose a file"
+  ],
+  [
+   "msg.phrase",
+   "choose a file (not a folder)"
+  ],
+  [
+   "msg.phrase",
+   "choose a .001 file"
+  ],
+  [
+   "msg.phrase",
+   "choose the .001 file"
+  ],
+  [
+   "msg.phrase",
+   "put the IWAD in a DoomFiles or Doom2Files folder"
+  ],
+  [
+   "msg.phrase",
+   "DoomFiles takes freedoom1 / doom / doomu / doom1.wad"
+  ],
+  [
+   "msg.phrase",
+   "Doom2Files takes freedoom2 / doom2 / plutonia / tnt.wad"
+  ],
+  [
+   "msg.phrase",
+   "put the game files on external storage, not S:"
+  ],
+  [
+   "msg.phrase",
+   "the IWAD must be on a FAT / exFAT / NTFS drive (not a CD)"
+  ],
+  [
+   "msg.phrase",
+   "still working"
+  ],
+  [
+   "msg.phrase",
+   "an image is loading"
+  ],
+  [
+   "msg.phrase",
+   "no framebuffer"
+  ],
+  [
+   "msg.phrase",
+   "half brightness works only in RGB555"
+  ],
+  [
+   "msg.phrase",
+   "clearing..."
+  ],
+  [
+   "msg.phrase",
+   "halving the brightness..."
+  ],
+  [
+   "msg.phrase",
+   "that is a data track"
+  ],
+  [
+   "msg.phrase",
+   "wait -- a file is being written"
+  ],
+  [
+   "msg.phrase",
+   "only floppy / LS-120 / CD drives"
+  ],
+  [
+   "msg.phrase",
+   "requested"
+  ],
+  [
+   "msg.phrase",
+   "reading the disc..."
+  ],
+  [
+   "msg.phrase",
+   "stopping..."
+  ],
+  [
+   "msg.phrase",
+   "opening..."
+  ],
+  [
+   "msg.phrase",
+   "done"
+  ],
+  [
+   "msg.phrase",
+   "no memory"
+  ],
+  [
+   "msg.phrase",
+   "already open"
+  ],
+  [
+   "msg.phrase",
+   "already running"
+  ],
+  [
+   "msg.phrase",
+   "already saving"
+  ],
+  [
+   "msg.phrase",
+   "already playing"
+  ],
+  [
+   "msg.phrase",
+   "no such drive"
+  ],
+  [
+   "msg.phrase",
+   "no PSRAM"
+  ],
+  [
+   "msg.phrase",
+   "no PSRAM for the file"
+  ],
+  [
+   "msg.phrase",
+   "no PSRAM for the line index"
+  ],
+  [
+   "msg.phrase",
+   "no PSRAM for the terminal"
+  ],
+  [
+   "msg.phrase",
+   "no memory (PSRAM)"
+  ],
+  [
+   "msg.phrase",
+   "no memory (32KB SRAM)"
+  ],
+  [
+   "msg.phrase",
+   "no memory for the buffer"
+  ],
+  [
+   "msg.phrase",
+   "no memory for the image buffers"
+  ],
+  [
+   "msg.phrase",
+   "no memory for the read buffer"
+  ],
+  [
+   "msg.phrase",
+   "no room for the work memory (close the lowres plane?)"
+  ],
+  [
+   "msg.phrase",
+   "no framebuffer page"
+  ],
+  [
+   "msg.phrase",
+   "too large (4 MB at most)"
+  ],
+  [
+   "msg.phrase",
+   "the file is too large (1 MB at most)"
+  ],
+  [
+   "msg.phrase",
+   "the file is too large (1 MB max)"
+  ],
+  [
+   "msg.phrase",
+   "too large for an SMF (1MB at most)"
+  ],
+  [
+   "msg.phrase",
+   "the file is empty"
+  ],
+  [
+   "msg.phrase",
+   "could not open the file"
+  ],
+  [
+   "msg.phrase",
+   "could not read the file"
+  ],
+  [
+   "msg.phrase",
+   "could not open the volume"
+  ],
+  [
+   "msg.phrase",
+   "could not open the destination (no memory?)"
+  ],
+  [
+   "msg.phrase",
+   "could not read the root folder"
+  ],
+  [
+   "msg.phrase",
+   "could not start the task"
+  ],
+  [
+   "msg.phrase",
+   "could not start writing (bad name or busy)"
+  ],
+  [
+   "msg.phrase",
+   "another volume is open (busy)"
+  ],
+  [
+   "msg.phrase",
+   "a copy is running"
+  ],
+  [
+   "msg.phrase",
+   "a folder cannot go into itself"
+  ],
+  [
+   "msg.phrase",
+   "that is the same folder"
+  ],
+  [
+   "msg.phrase",
+   "this drive cannot be changed (read only)"
+  ],
+  [
+   "msg.phrase",
+   "the drive is not writable"
+  ],
+  [
+   "msg.phrase",
+   "the part size must be a multiple of 512"
+  ],
+  [
+   "msg.phrase",
+   "files of 4 GB or more are not supported"
+  ],
+  [
+   "msg.phrase",
+   "bad path"
+  ],
+  [
+   "msg.phrase",
+   "bad file name"
+  ],
+  [
+   "msg.phrase",
+   "the font ROM is not there"
+  ],
+  [
+   "msg.phrase",
+   "the sound is not open"
+  ],
+  [
+   "msg.phrase",
+   "no such channel"
+  ],
+  [
+   "msg.phrase",
+   "the sequencer is busy"
+  ],
+  [
+   "msg.phrase",
+   "not enough PSRAM for the song"
+  ],
+  [
+   "msg.phrase",
+   "not a standard MIDI file (no MThd)"
+  ],
+  [
+   "msg.phrase",
+   "no tracks"
+  ],
+  [
+   "msg.phrase",
+   "a track is broken (MTrk)"
+  ],
+  [
+   "msg.phrase",
+   "SMPTE time division is not supported"
+  ],
+  [
+   "msg.phrase",
+   "SMF format 2 is not supported (0 and 1 only)"
+  ],
+  [
+   "msg.phrase",
+   "not a Bulk-Only drive"
+  ],
+  [
+   "msg.phrase",
+   "not an optical drive"
+  ],
+  [
+   "msg.phrase",
+   "a system folder cannot be deleted or renamed"
+  ],
+  [
+   "msg.phrase",
+   "no media in the drive"
+  ],
+  [
+   "msg.phrase",
+   "becoming ready"
+  ],
+  [
+   "msg.phrase",
+   "not ready"
+  ],
+  [
+   "msg.phrase",
+   "media changed"
+  ],
+  [
+   "msg.phrase",
+   "medium error"
+  ],
+  [
+   "msg.phrase",
+   "illegal request"
+  ],
+  [
+   "msg.phrase",
+   "a bad directory entry"
+  ],
+  [
+   "msg.phrase",
+   "a directory on the way does not exist"
+  ],
+  [
+   "msg.phrase",
+   "a file has that name"
+  ],
+  [
+   "msg.phrase",
+   "a folder has that name"
+  ],
+  [
+   "msg.phrase",
+   "a name on the way is not a directory"
+  ],
+  [
+   "msg.phrase",
+   "cancelled"
+  ],
+  [
+   "msg.phrase",
+   "could not mount"
+  ],
+  [
+   "msg.phrase",
+   "could not start a read"
+  ],
+  [
+   "msg.phrase",
+   "could not start a write"
+  ],
+  [
+   "msg.phrase",
+   "is a directory"
+  ],
+  [
+   "msg.phrase",
+   "that is a directory"
+  ],
+  [
+   "msg.phrase",
+   "no clusters"
+  ],
+  [
+   "msg.phrase",
+   "no room for the cluster list"
+  ],
+  [
+   "msg.phrase",
+   "no such file or directory"
+  ],
+  [
+   "msg.phrase",
+   "no such file"
+  ],
+  [
+   "msg.phrase",
+   "no volume"
+  ],
+  [
+   "msg.phrase",
+   "not NTFS"
+  ],
+  [
+   "msg.phrase",
+   "not exFAT"
+  ],
+  [
+   "msg.phrase",
+   "not a directory"
+  ],
+  [
+   "msg.phrase",
+   "not found"
+  ],
+  [
+   "msg.phrase",
+   "read error"
+  ],
+  [
+   "msg.phrase",
+   "write error"
+  ],
+  [
+   "msg.phrase",
+   "reading the FAT failed"
+  ],
+  [
+   "msg.phrase",
+   "the cluster chain is shorter than the file"
+  ],
+  [
+   "msg.phrase",
+   "the directory is not empty"
+  ],
+  [
+   "msg.phrase",
+   "the disk is full"
+  ],
+  [
+   "msg.phrase",
+   "the drive did not answer"
+  ],
+  [
+   "msg.phrase",
+   "the file is read-only"
+  ],
+  [
+   "msg.phrase",
+   "the file is too fragmented"
+  ],
+  [
+   "msg.phrase",
+   "the file is too large (4GB)"
+  ],
+  [
+   "msg.phrase",
+   "the new name already exists"
+  ],
+  [
+   "msg.phrase",
+   "the root directory is full"
+  ],
+  [
+   "msg.phrase",
+   "too many files with the same short name"
+  ],
+  [
+   "msg.phrase",
+   "No such file or directory"
+  ],
+  [
+   "msg.phrase",
+   "File exists"
+  ],
+  [
+   "msg.phrase",
+   "Permission denied"
+  ],
+  [
+   "msg.phrase",
+   "Directory not empty"
+  ],
+  [
+   "msg.phrase",
+   "Not a directory"
+  ],
+  [
+   "msg.phrase",
+   "Is a directory"
+  ],
+  [
+   "msg.phrase",
+   "Read-only file system"
+  ],
+  [
+   "msg.phrase",
+   "No space left on device"
+  ],
+  [
+   "msg.phrase",
+   "Input/output error"
+  ],
+  [
+   "msg.phrase",
+   "Not supported on this drive"
+  ],
+  [
+   "msg.phrase",
+   "Invalid path"
+  ],
+  [
+   "msg.phrase",
+   "Out of memory"
+  ],
+  [
+   "msg.phrase",
+   "No such drive"
+  ],
+  [
+   "msg.phrase",
+   "stopped"
+  ],
+  [
+   "msg.phrase",
+   "cancelled (not enough free space)"
+  ],
+  [
+   "msg.phrase",
+   "could not count the free space"
+  ],
+  [
+   "msg.phrase",
+   "the receiver cancelled"
+  ],
+  [
+   "msg.phrase",
+   "no receiver (run rz on the PC)"
+  ],
+  [
+   "msg.phrase",
+   "the console UART is in use"
+  ],
+  [
+   "msg.phrase",
+   "the screen mode changed"
+  ],
+  [
+   "msg.phrase",
+   "the lines did not come (is the display running?)"
+  ],
+  [
+   "msg.prefix",
+   "copy"
+  ],
+  [
+   "msg.prefix",
+   "move"
+  ],
+  [
+   "msg.prefix",
+   "delete"
+  ],
+  [
+   "msg.prefix",
+   "rename"
+  ],
+  [
+   "msg.prefix",
+   "attributes"
+  ],
+  [
+   "msg.prefix",
+   "new file"
+  ],
+  [
+   "msg.prefix",
+   "new folder"
+  ],
+  [
+   "msg.prefix",
+   "image"
+  ],
+  [
+   "msg.prefix",
+   "mrbc"
+  ],
+  [
+   "msg.prefix",
+   "ruby"
+  ],
+  [
+   "msg.prefix",
+   "viewer"
+  ],
+  [
+   "msg.prefix",
+   "edit"
+  ],
+  [
+   "msg.prefix",
+   "IDENTIFY"
+  ],
+  [
+   "msg.prefix",
+   "ZMODEM"
+  ],
+  [
+   "msg.prefix",
+   "ZMODEM receive"
+  ],
+  [
+   "msg.prefix",
+   "ZMODEM send"
+  ],
+  [
+   "msg.prefix",
+   "split"
+  ],
+  [
+   "msg.prefix",
+   "join"
+  ],
+  [
+   "msg.prefix",
+   "Doom"
+  ],
+  [
+   "msg.prefix",
+   "SMF"
+  ],
+  [
+   "msg.prefix",
+   "CD"
+  ],
+  [
+   "msg.prefix",
+   "FB"
+  ],
+  [
+   "msg.prefix",
+   "Eject"
+  ],
+  [
+   "msg.prefix",
+   "reboot"
+  ],
+  [
+   "msg.prefix",
+   "license"
+  ],
+  [
+   "msg.prefix",
+   "clock"
+  ],
+  [
+   "msg.prefix",
+   "ADC in"
+  ],
+  [
+   "msg.prefix",
+   "screen -> PNG"
+  ],
+  [
+   "msg.prefix",
+   "FB -> PNG"
+  ],
+  [
+   "msg.prefix",
+   "could not open the volume"
+  ],
+  [
+   "msg.pattern",
+   "received "
+  ],
+  [
+   "msg.pattern",
+   "sent "
+  ],
+  [
+   "msg.pattern",
+   "saved "
+  ],
+  [
+   "msg.pattern",
+   "created "
+  ],
+  [
+   "msg.pattern",
+   "renamed to "
+  ],
+  [
+   "msg.pattern",
+   "deleted "
+  ],
+  [
+   "msg.pattern",
+   "changed "
+  ],
+  [
+   "msg.pattern",
+   "joined "
+  ],
+  [
+   "msg.pattern",
+   "split "
+  ],
+  [
+   "msg.pattern",
+   "could not create "
+  ],
+  [
+   "msg.pattern",
+   "could not delete "
+  ],
+  [
+   "msg.pattern",
+   "could not rename to "
+  ],
+  [
+   "msg.pattern",
+   "could not change "
+  ],
+  [
+   "msg.pattern",
+   "could not read "
+  ],
+  [
+   "msg.pattern",
+   "could not write "
+  ],
+  [
+   "msg.pattern",
+   "could not copy "
+  ],
+  [
+   "msg.pattern",
+   "could not make "
+  ],
+  [
+   "msg.pattern",
+   "could not remove the folder "
+  ],
+  [
+   "msg.pattern",
+   "could not remove "
+  ],
+  [
+   "msg.pattern",
+   "no memory for "
+  ],
+  [
+   "msg.pattern",
+   "too many errors while sending "
+  ],
+  [
+   "msg.pattern",
+   "the receiver did not take "
+  ],
+  [
+   "msg.pattern",
+   "the receiver skipped "
+  ],
+  [
+   "msg.pattern",
+   "FB page "
+  ],
+  [
+   "msg.word",
+   " bytes each)"
+  ],
+  [
+   "msg.word",
+   " bytes)"
+  ],
+  [
+   "msg.word",
+   " KB)"
+  ],
+  [
+   "msg.word",
+   " parts into "
+  ],
+  [
+   "msg.word",
+   " parts ("
+  ],
+  [
+   "msg.word",
+   " into "
+  ],
+  [
+   "msg.word",
+   ": cleared"
+  ],
+  [
+   "msg.word",
+   ": brightness halved"
+  ],
+  [
+   "msg.word",
+   "% read"
+  ],
+  [
+   "msg.word",
+   " rows"
+  ],
+  [
+   "msg.word",
+   " -- not supported yet (FAT / exFAT / NTFS only)"
+  ],
+  [
+   "msg.word",
+   " files"
+  ],
+  [
+   "msg.word",
+   " ("
+  ],
+  [
+   "msg.phrase",
+   "Untitled"
+  ],
+  [
+   "msg.phrase",
+   "1 File"
+  ],
+  [
+   "msg.phrase",
+   "2 Edit"
+  ],
+  [
+   "msg.phrase",
+   "3 Graph"
+  ],
+  [
+   "msg.phrase",
+   "4 Sheet"
+  ],
+  [
+   "msg.phrase",
+   "5 Help"
+  ],
+  [
+   "msg.phrase",
+   "EMPTY"
+  ],
+  [
+   "msg.phrase",
+   "NUMBER"
+  ],
+  [
+   "msg.phrase",
+   "TEXT"
+  ],
+  [
+   "msg.phrase",
+   "FORMULA"
+  ],
+  [
+   "msg.phrase",
+   "Type to enter, F2 to edit, F1 for help"
+  ],
+  [
+   "msg.phrase",
+   "5 CSV"
+  ],
+  [
+   "msg.phrase",
+   "6 ODS"
+  ],
+  [
+   "msg.phrase",
+   "[SHIFT]"
+  ],
+  [
+   "msg.phrase",
+   "[CTRL]"
+  ],
+  [
+   "msg.phrase",
+   "[ALT]"
+  ],
+  [
+   "msg.phrase",
+   "Ready"
+  ],
+  [
+   "msg.phrase",
+   "SGCALC"
+  ],
+  [
+   "msg.phrase",
+   "Press any key"
+  ],
+  [
+   "msg.phrase",
+   "Y = yes    N = no    Esc = cancel"
+  ],
+  [
+   "msg.phrase",
+   "Enter = OK    Esc = cancel    Ctrl-U = clear"
+  ],
+  [
+   "msg.phrase",
+   "First row/column = labels; charts use the 640x480 CLUT8 FB."
+  ],
+  [
+   "msg.phrase",
+   "SGCALC - HELP"
+  ],
+  [
+   "msg.phrase",
+   "Press any key to return"
+  ],
+  [
+   "msg.phrase",
+   "Press any key to return."
+  ],
+  [
+   "msg.phrase",
+   "ABOUT SGCALC"
+  ],
+  [
+   "msg.phrase",
+   "New"
+  ],
+  [
+   "msg.phrase",
+   "Start a new sheet"
+  ],
+  [
+   "msg.phrase",
+   "Open..."
+  ],
+  [
+   "msg.phrase",
+   "Open an ODS, FODS or CSV file"
+  ],
+  [
+   "msg.phrase",
+   "Save"
+  ],
+  [
+   "msg.phrase",
+   "Save the current file"
+  ],
+  [
+   "msg.phrase",
+   "Save As..."
+  ],
+  [
+   "msg.phrase",
+   "Save with a new name or format"
+  ],
+  [
+   "msg.phrase",
+   "Export CSV..."
+  ],
+  [
+   "msg.phrase",
+   "Write a CSV copy"
+  ],
+  [
+   "msg.phrase",
+   "Export ODS..."
+  ],
+  [
+   "msg.phrase",
+   "Write a LibreOffice copy"
+  ],
+  [
+   "msg.phrase",
+   "Quit"
+  ],
+  [
+   "msg.phrase",
+   "Leave SGCALC"
+  ],
+  [
+   "msg.phrase",
+   "Clear"
+  ],
+  [
+   "msg.phrase",
+   "Clear the selected cells"
+  ],
+  [
+   "msg.phrase",
+   "Copy"
+  ],
+  [
+   "msg.phrase",
+   "Copy the selection"
+  ],
+  [
+   "msg.phrase",
+   "Paste"
+  ],
+  [
+   "msg.phrase",
+   "Paste at the cursor"
+  ],
+  [
+   "msg.phrase",
+   "Cut"
+  ],
+  [
+   "msg.phrase",
+   "Copy and clear the selection"
+  ],
+  [
+   "msg.phrase",
+   "Select all"
+  ],
+  [
+   "msg.phrase",
+   "Select all used cells"
+  ],
+  [
+   "msg.phrase",
+   "Text color..."
+  ],
+  [
+   "msg.phrase",
+   "Choose the text colour"
+  ],
+  [
+   "msg.phrase",
+   "Background..."
+  ],
+  [
+   "msg.phrase",
+   "Choose the cell background"
+  ],
+  [
+   "msg.phrase",
+   "Line"
+  ],
+  [
+   "msg.phrase",
+   "Draw a line graph from the selection"
+  ],
+  [
+   "msg.phrase",
+   "Bar"
+  ],
+  [
+   "msg.phrase",
+   "Draw a bar graph from the selection"
+  ],
+  [
+   "msg.phrase",
+   "Mixed"
+  ],
+  [
+   "msg.phrase",
+   "Bars for the first series, lines for the rest"
+  ],
+  [
+   "msg.phrase",
+   "Pie"
+  ],
+  [
+   "msg.phrase",
+   "Draw a pie graph from the selection"
+  ],
+  [
+   "msg.phrase",
+   "Range..."
+  ],
+  [
+   "msg.phrase",
+   "Set the graph range explicitly"
+  ],
+  [
+   "msg.phrase",
+   "Draw again"
+  ],
+  [
+   "msg.phrase",
+   "Redraw the last graph"
+  ],
+  [
+   "msg.phrase",
+   "Goto..."
+  ],
+  [
+   "msg.phrase",
+   "Jump to a cell (for example C12)"
+  ],
+  [
+   "msg.phrase",
+   "Column width..."
+  ],
+  [
+   "msg.phrase",
+   "Change the selected columns' width"
+  ],
+  [
+   "msg.phrase",
+   "Row height..."
+  ],
+  [
+   "msg.phrase",
+   "Change the selected rows' height"
+  ],
+  [
+   "msg.phrase",
+   "Auto fit"
+  ],
+  [
+   "msg.phrase",
+   "Fit widths/heights to the contents (F7)"
+  ],
+  [
+   "msg.phrase",
+   "Recalculate"
+  ],
+  [
+   "msg.phrase",
+   "Re-evaluate all formulas"
+  ],
+  [
+   "msg.phrase",
+   "Erase all"
+  ],
+  [
+   "msg.phrase",
+   "Clear the whole sheet"
+  ],
+  [
+   "msg.phrase",
+   "Keys"
+  ],
+  [
+   "msg.phrase",
+   "Show the key guide"
+  ],
+  [
+   "msg.phrase",
+   "About"
+  ],
+  [
+   "msg.phrase",
+   "About SGCALC"
+  ],
+  [
+   "msg.phrase",
+   "File"
+  ],
+  [
+   "msg.phrase",
+   "Edit"
+  ],
+  [
+   "msg.phrase",
+   "Graph"
+  ],
+  [
+   "msg.phrase",
+   "Sheet"
+  ],
+  [
+   "msg.phrase",
+   "Help"
+  ],
+  [
+   "msg.phrase",
+   "File: new, open, save, export, quit"
+  ],
+  [
+   "msg.phrase",
+   "Edit: clear, copy, paste, cut, select all"
+  ],
+  [
+   "msg.phrase",
+   "Graph: line, bar, mixed, pie (draws in the FB)"
+  ],
+  [
+   "msg.phrase",
+   "Sheet: goto, column width, recalculate, erase"
+  ],
+  [
+   "msg.phrase",
+   "Help: keys and about"
+  ],
+  [
+   "msg.phrase",
+   "Left/Right = menu    Up/Down = item    Enter = choose    Esc = cancel"
+  ],
+  [
+   "msg.phrase",
+   "Cancelled"
+  ],
+  [
+   "msg.phrase",
+   "The selection is too large or memory is low."
+  ],
+  [
+   "msg.phrase",
+   "the cell"
+  ],
+  [
+   "msg.phrase",
+   "the selection"
+  ],
+  [
+   "msg.phrase",
+   "Nothing to paste"
+  ],
+  [
+   "msg.phrase",
+   "Pasted"
+  ],
+  [
+   "msg.phrase",
+   "GO TO CELL"
+  ],
+  [
+   "msg.phrase",
+   "Cell reference (A1):"
+  ],
+  [
+   "msg.phrase",
+   "Goto"
+  ],
+  [
+   "msg.phrase",
+   "COLUMN WIDTH"
+  ],
+  [
+   "msg.phrase",
+   "Width in characters (4..30):"
+  ],
+  [
+   "msg.phrase",
+   "ROW HEIGHT"
+  ],
+  [
+   "msg.phrase",
+   "Height in text rows (1..8):"
+  ],
+  [
+   "msg.phrase",
+   "Auto fit: the sheet is empty"
+  ],
+  [
+   "msg.phrase",
+   "BACKGROUND COLOUR"
+  ],
+  [
+   "msg.phrase",
+   "TEXT COLOUR"
+  ],
+  [
+   "msg.phrase",
+   "Arrows: choose    Enter: apply    Esc: cancel"
+  ],
+  [
+   "msg.phrase",
+   "Colour index (PC-98 16-colour palette)"
+  ],
+  [
+   "msg.phrase",
+   "Aa 123"
+  ],
+  [
+   "msg.phrase",
+   "Enter = apply    Esc = cancel"
+  ],
+  [
+   "msg.phrase",
+   "Colour"
+  ],
+  [
+   "msg.phrase",
+   "Background"
+  ],
+  [
+   "msg.phrase",
+   "Text"
+  ],
+  [
+   "msg.phrase",
+   "GRAPH RANGE"
+  ],
+  [
+   "msg.phrase",
+   "Range (for example A1:C10):"
+  ],
+  [
+   "msg.phrase",
+   "Graph range"
+  ],
+  [
+   "msg.phrase",
+   "Use a range such as A1:C10."
+  ],
+  [
+   "msg.phrase",
+   "Cannot draw the graph."
+  ],
+  [
+   "msg.phrase",
+   "line"
+  ],
+  [
+   "msg.phrase",
+   "bar"
+  ],
+  [
+   "msg.phrase",
+   "mixed"
+  ],
+  [
+   "msg.phrase",
+   "pie"
+  ],
+  [
+   "msg.phrase",
+   "Clear every cell in this sheet?"
+  ],
+  [
+   "msg.phrase",
+   "Sheet erased"
+  ],
+  [
+   "msg.phrase",
+   "Selected all used cells"
+  ],
+  [
+   "msg.phrase",
+   "Recalculated"
+  ],
+  [
+   "msg.phrase",
+   "Memory"
+  ],
+  [
+   "msg.phrase",
+   "Not enough PSRAM for the spreadsheet."
+  ],
+  [
+   "msg.phrase",
+   "The sheet is empty."
+  ],
+  [
+   "msg.phrase",
+   "No numeric data in the selected range."
+  ],
+  [
+   "msg.phrase",
+   "Other"
+  ],
+  [
+   "msg.phrase",
+   "No positive values for a pie chart"
+  ],
+  [
+   "msg.phrase",
+   "LINE"
+  ],
+  [
+   "msg.phrase",
+   "BAR"
+  ],
+  [
+   "msg.phrase",
+   "MIXED"
+  ],
+  [
+   "msg.phrase",
+   "PIE"
+  ],
+  [
+   "msg.phrase",
+   "S:/"
+  ],
+  [
+   "msg.phrase",
+   "Folder"
+  ],
+  [
+   "msg.phrase",
+   "SAVE AS"
+  ],
+  [
+   "msg.phrase",
+   "OPEN FILE"
+  ],
+  [
+   "msg.phrase",
+   "LibreOffice / CSV"
+  ],
+  [
+   "msg.phrase",
+   "ODS  FODS  CSV"
+  ],
+  [
+   "msg.phrase",
+   "Name:"
+  ],
+  [
+   "msg.phrase",
+   "(type a name, or choose below)"
+  ],
+  [
+   "msg.phrase",
+   "Name"
+  ],
+  [
+   "msg.phrase",
+   "Size"
+  ],
+  [
+   "msg.phrase",
+   "Enter=save  Left=up  Right/Enter on [DIR]=open  Tab=drive  Esc=cancel"
+  ],
+  [
+   "msg.phrase",
+   "Enter=open  Left=up  Right/Enter on [DIR]=open  Tab=drive  Esc=cancel"
+  ],
+  [
+   "msg.phrase",
+   "Not enough memory."
+  ],
+  [
+   "msg.phrase",
+   "Overwrite"
+  ],
+  [
+   "msg.phrase",
+   "Open"
+  ],
+  [
+   "msg.phrase",
+   "The file is too large (limit 8 MB)."
+  ],
+  [
+   "msg.phrase",
+   "Not enough memory to read the file."
+  ],
+  [
+   "msg.phrase",
+   "Bad ZIP/ODS data."
+  ],
+  [
+   "msg.phrase",
+   "CRC error in the ODS file."
+  ],
+  [
+   "msg.phrase",
+   "Unsupported or damaged file."
+  ],
+  [
+   "msg.phrase",
+   "Saved"
+  ],
+  [
+   "msg.phrase",
+   "Exported"
+  ],
+  [
+   "msg.phrase",
+   "Unsaved changes"
+  ],
+  [
+   "msg.phrase",
+   "Save the current sheet before continuing?"
+  ],
+  [
+   "msg.phrase",
+   "New sheet"
+  ],
+  [
+   "msg.phrase",
+   "SGTRK"
+  ],
+  [
+   "msg.phrase",
+   "UNTITLED"
+  ],
+  [
+   "msg.phrase",
+   "song is too large"
+  ],
+  [
+   "msg.phrase",
+   "empty file"
+  ],
+  [
+   "msg.phrase",
+   "not an SGT file"
+  ],
+  [
+   "msg.phrase",
+   "bad BPM"
+  ],
+  [
+   "msg.phrase",
+   "bad speed"
+  ],
+  [
+   "msg.phrase",
+   "bad title length"
+  ],
+  [
+   "msg.phrase",
+   "truncated title"
+  ],
+  [
+   "msg.phrase",
+   "bad character in title"
+  ],
+  [
+   "msg.phrase",
+   "truncated order"
+  ],
+  [
+   "msg.phrase",
+   "bad order length"
+  ],
+  [
+   "msg.phrase",
+   "bad pattern number in order"
+  ],
+  [
+   "msg.phrase",
+   "truncated pattern list"
+  ],
+  [
+   "msg.phrase",
+   "bad pattern count"
+  ],
+  [
+   "msg.phrase",
+   "bad pattern index"
+  ],
+  [
+   "msg.phrase",
+   "duplicate pattern"
+  ],
+  [
+   "msg.phrase",
+   "truncated pattern data"
+  ],
+  [
+   "msg.phrase",
+   "invalid pattern data"
+  ],
+  [
+   "msg.phrase",
+   "trailing data in file"
+  ],
+  [
+   "msg.phrase",
+   "order refers to a missing pattern"
+  ],
+  [
+   "msg.phrase",
+   "A:/"
+  ],
+  [
+   "msg.phrase",
+   "(untitled)"
+  ],
+  [
+   "msg.phrase",
+   "Ready. Press F1 for help."
+  ],
+  [
+   "msg.phrase",
+   "Follow OFF"
+  ],
+  [
+   "msg.phrase",
+   "Nothing to undo"
+  ],
+  [
+   "msg.phrase",
+   "Undo"
+  ],
+  [
+   "msg.phrase",
+   "Note OFF"
+  ],
+  [
+   "msg.phrase",
+   "Set an effect letter first"
+  ],
+  [
+   "msg.phrase",
+   "Effect cleared"
+  ],
+  [
+   "msg.phrase",
+   "Parameter cleared"
+  ],
+  [
+   "msg.phrase",
+   "Note cleared"
+  ],
+  [
+   "msg.phrase",
+   "Instrument cleared"
+  ],
+  [
+   "msg.phrase",
+   "Volume cleared"
+  ],
+  [
+   "msg.phrase",
+   "Order list is full"
+  ],
+  [
+   "msg.phrase",
+   "Order inserted"
+  ],
+  [
+   "msg.phrase",
+   "Cannot delete the last order"
+  ],
+  [
+   "msg.phrase",
+   "Order deleted"
+  ],
+  [
+   "msg.phrase",
+   "Playing song"
+  ],
+  [
+   "msg.phrase",
+   "Stopped"
+  ],
+  [
+   "msg.phrase",
+   "New song"
+  ],
+  [
+   "msg.phrase",
+   "Discard unsaved changes and start a new song? (Y/N)"
+  ],
+  [
+   "msg.phrase",
+   "Discard unsaved changes and open a song? (Y/N)"
+  ],
+  [
+   "msg.phrase",
+   "Discard unsaved changes and quit? (Y/N)"
+  ],
+  [
+   "msg.phrase",
+   "Song settings updated"
+  ],
+  [
+   "msg.phrase",
+   "Filename is empty"
+  ],
+  [
+   "msg.phrase",
+   "Save cancelled"
+  ],
+  [
+   "msg.phrase",
+   "Open cancelled"
+  ],
+  [
+   "msg.phrase",
+   "Edit ON"
+  ],
+  [
+   "msg.phrase",
+   "Edit OFF"
+  ],
+  [
+   "msg.phrase",
+   "Follow ON"
+  ],
+  [
+   "msg.phrase",
+   "Edit is OFF. Press F8 to edit."
+  ],
+  [
+   "msg.phrase",
+   "I/O error"
+  ],
+  [
+   "msg.phrase",
+   "file is too large"
+  ],
+  [
+   "msg.phrase",
+   "truncated file"
+  ],
+  [
+   "msg.phrase",
+   "SINE PAD"
+  ],
+  [
+   "msg.phrase",
+   "TRIANGLE"
+  ],
+  [
+   "msg.phrase",
+   "SAW LEAD"
+  ],
+  [
+   "msg.phrase",
+   "SQUARE"
+  ],
+  [
+   "msg.phrase",
+   "PULSE 25"
+  ],
+  [
+   "msg.phrase",
+   "ORGAN"
+  ],
+  [
+   "msg.phrase",
+   "BASS"
+  ],
+  [
+   "msg.phrase",
+   "BELL"
+  ],
+  [
+   "msg.phrase",
+   "NOISE"
+  ],
+  [
+   "msg.phrase",
+   "SINE"
+  ],
+  [
+   "msg.phrase",
+   "SAW"
+  ],
+  [
+   "msg.phrase",
+   "OFF"
+  ],
+  [
+   "msg.phrase",
+   "ON"
+  ],
+  [
+   "msg.phrase",
+   "ROW"
+  ],
+  [
+   "msg.phrase",
+   "CHAN LEVEL"
+  ],
+  [
+   "msg.phrase",
+   "F1 HELP F2 SONG"
+  ],
+  [
+   "msg.phrase",
+   "F3 INS  F4 SAVE"
+  ],
+  [
+   "msg.phrase",
+   "F5 PLAY F6 PAT"
+  ],
+  [
+   "msg.phrase",
+   "F7 STOP F8 EDIT"
+  ],
+  [
+   "msg.phrase",
+   "F9/F10 OCTAVE"
+  ],
+  [
+   "msg.phrase",
+   "F11 FOLLOW"
+  ],
+  [
+   "msg.phrase",
+   "F12 QUIT"
+  ],
+  [
+   "msg.phrase",
+   "SPACE PLAY/STOP"
+  ],
+  [
+   "msg.phrase",
+   "CTRL-S SAVE"
+  ],
+  [
+   "msg.phrase",
+   "CTRL-O OPEN"
+  ],
+  [
+   "msg.phrase",
+   "C-N NEW C-Z UNDO"
+  ],
+  [
+   "msg.phrase",
+   "C-C STOP"
+  ],
+  [
+   "msg.phrase",
+   "#TRANSPORT AND FILES"
+  ],
+  [
+   "msg.phrase",
+   "#ORDER LIST"
+  ],
+  [
+   "msg.phrase",
+   "#DISPLAY"
+  ],
+  [
+   "msg.phrase",
+   "#EDITING"
+  ],
+  [
+   "msg.phrase",
+   "#EFFECTS (parameter is hexadecimal)"
+  ],
+  [
+   "msg.phrase",
+   "LEFT/RIGHT PAGE   ENTER OR F1 CLOSE"
+  ],
+  [
+   "msg.phrase",
+   "SONG SETTINGS"
+  ],
+  [
+   "msg.phrase",
+   "UP/DOWN SELECT   LEFT/RIGHT ADJUST   ENTER/F2 CLOSE"
+  ],
+  [
+   "msg.phrase",
+   "Type to edit the title. Backspace deletes the last character."
+  ],
+  [
+   "msg.phrase",
+   "BPM range 32..255. Speed range 1..31."
+  ],
+  [
+   "msg.phrase",
+   "Pattern effects can also change speed and BPM while playing."
+  ],
+  [
+   "msg.phrase",
+   "INSTRUMENTS"
+  ],
+  [
+   "msg.phrase",
+   "UP/DOWN SELECT   SPACE PREVIEW   ENTER USE   F3 CLOSE"
+  ],
+  [
+   "msg.phrase",
+   "All four channels use wavetable synthesis."
+  ],
+  [
+   "msg.phrase",
+   "Preview plays C-4 on the track under the edit cursor."
+  ],
+  [
+   "msg.phrase",
+   "SAVE SONG AS"
+  ],
+  [
+   "msg.phrase",
+   "ENTER SAVE   F4 OR CTRL-C CANCEL"
+  ],
+  [
+   "msg.phrase",
+   "Directory:"
+  ],
+  [
+   "msg.phrase",
+   "File name:"
+  ],
+  [
+   "msg.phrase",
+   "The extension .SGT is added automatically."
+  ],
+  [
+   "msg.phrase",
+   "An existing file can be overwritten."
+  ],
+  [
+   "msg.phrase",
+   "OPEN SONG"
+  ],
+  [
+   "msg.phrase",
+   "ENTER OPEN  BS PARENT  CTRL-O/CTRL-C CANCEL"
+  ],
+  [
+   "msg.phrase",
+   "(no .SGT files in this folder)"
+  ],
+  [
+   "msg.phrase",
+   "CONFIRM"
+  ],
+  [
+   "msg.phrase",
+   "Y = YES   N / ENTER / CTRL-C = NO"
+  ],
+  [
+   "msg.phrase",
+   "Y = yes        N = no"
+  ],
+  [
+   "msg.phrase",
+   "C-"
+  ],
+  [
+   "msg.phrase",
+   "C#"
+  ],
+  [
+   "msg.phrase",
+   "D-"
+  ],
+  [
+   "msg.phrase",
+   "D#"
+  ],
+  [
+   "msg.phrase",
+   "E-"
+  ],
+  [
+   "msg.phrase",
+   "F-"
+  ],
+  [
+   "msg.phrase",
+   "F#"
+  ],
+  [
+   "msg.phrase",
+   "G-"
+  ],
+  [
+   "msg.phrase",
+   "G#"
+  ],
+  [
+   "msg.phrase",
+   "A-"
+  ],
+  [
+   "msg.phrase",
+   "A#"
+  ],
+  [
+   "msg.phrase",
+   "B-"
+  ],
+  [
+   "msg.phrase",
+   "A:/dir/name"
+  ],
+  [
+   "msg.phrase",
+   "MThd"
+  ],
+  [
+   "msg.phrase",
+   "broken MThd"
+  ],
+  [
+   "msg.phrase",
+   "MIDI IMPORT"
+  ],
+  [
+   "msg.phrase",
+   "MTrk"
+  ],
+  [
+   "msg.phrase",
+   "broken delta time"
+  ],
+  [
+   "msg.phrase",
+   "broken running status"
+  ],
+  [
+   "msg.phrase",
+   "broken meta event"
+  ],
+  [
+   "msg.phrase",
+   "broken sysex event"
+  ],
+  [
+   "msg.phrase",
+   "broken channel event"
+  ],
+  [
+   "msg.phrase",
+   "SMF output is too small"
+  ],
+  [
+   "msg.phrase",
+   "SMF output is too large"
+  ],
+  [
+   "msg.phrase",
+   "the song is too long for SMF"
+  ],
+  [
+   "msg.phrase",
+   "TRK1"
+  ],
+  [
+   "msg.phrase",
+   "%s%d"
+  ],
+  [
+   "msg.phrase",
+   "%s%d:%s%d"
+  ],
+  [
+   "msg.phrase",
+   "%s"
+  ],
+  [
+   "msg.phrase",
+   "%.40s%s"
+  ],
+  [
+   "msg.phrase",
+   "  [%s]   %s"
+  ],
+  [
+   "msg.phrase",
+   "EDIT  "
+  ],
+  [
+   "msg.phrase",
+   "READY "
+  ],
+  [
+   "msg.phrase",
+   "%4d "
+  ],
+  [
+   "msg.phrase",
+   "%s Sum %.7g N %ld%s"
+  ],
+  [
+   "msg.phrase",
+   "ARROWS      move the cell cursor\n"
+  ],
+  [
+   "msg.phrase",
+   "SHIFT+ARR   extend the selection (for graphs/copy)\n"
+  ],
+  [
+   "msg.phrase",
+   "ENTER       edit the cell; in edit, commit and move down\n"
+  ],
+  [
+   "msg.phrase",
+   "TAB         next cell    SHIFT+TAB  previous cell\n"
+  ],
+  [
+   "msg.phrase",
+   "DELETE      clear the selected cell(s)    ESC  cancel\n"
+  ],
+  [
+   "msg.phrase",
+   "PGUP/PGDN   move one screen    HOME/END  first/last column\n"
+  ],
+  [
+   "msg.phrase",
+   "CTRL+HOME   A1    CTRL+END  last used cell\n"
+  ],
+  [
+   "msg.phrase",
+   "F1 help  F2 edit  F3 copy  F4 paste  F5 goto  F6 colour\n"
+  ],
+  [
+   "msg.phrase",
+   "F7 auto-fit  F8 background  F9 recalc  F10 graph  F11 save  F12 menu\n"
+  ],
+  [
+   "msg.phrase",
+   "SHIFT+F1 about  SHIFT+F2 row height  SHIFT+F3 column width\n"
+  ],
+  [
+   "msg.phrase",
+   "SHIFT+F4 select all  SHIFT+F10 graph range  SHIFT+F11 save as\n"
+  ],
+  [
+   "msg.phrase",
+   "CTRL+F1 new  CTRL+F2 open  CTRL+F3 save  CTRL+F4 save as\n"
+  ],
+  [
+   "msg.phrase",
+   "CTRL+F5 export CSV  CTRL+F6 export ODS  ALT+F12 quit\n"
+  ],
+  [
+   "msg.phrase",
+   "Bottom 2 lines: function keys; [SHIFT]/[CTRL]/[ALT] like the filer\n"
+  ],
+  [
+   "msg.phrase",
+   "CTRL+S save  CTRL+O open  CTRL+N new  CTRL+C/V/X copy/paste/cut\n"
+  ],
+  [
+   "msg.phrase",
+   "CTRL+G goto    /  open the menu (1 File, 2 Edit, ...)\n"
+  ],
+  [
+   "msg.phrase",
+   "Built-in functions: SUM AVERAGE MIN MAX COUNT COUNTA\n"
+  ],
+  [
+   "msg.phrase",
+   "PRODUCT ABS SQRT INT ROUND MOD POWER IF AND OR NOT\n"
+  ],
+  [
+   "msg.phrase",
+   "IFERROR LEN LEFT RIGHT MID UPPER LOWER TRIM CONCATENATE PI\n"
+  ],
+  [
+   "msg.phrase",
+   "Cell refs: A1, $A$1, A1:B10.  Formulas begin with '='.\n"
+  ],
+  [
+   "msg.phrase",
+   "Files: .ods (LibreOffice), .fods (flat XML), .csv\n"
+  ],
+  [
+   "msg.phrase",
+   "ODS/FODS keeps formulas, widths, heights and colours.\n"
+  ],
+  [
+   "msg.phrase",
+   "CSV keeps values and formulas (no colours/heights).\n"
+  ],
+  [
+   "msg.phrase",
+   "Graph: select a range, press F10, and choose Line/Bar/Mixed/Pie.\n"
+  ],
+  [
+   "msg.phrase",
+   "SGCALC for sgnano\n"
+  ],
+  [
+   "msg.phrase",
+   "Version "
+  ],
+  [
+   "msg.phrase",
+   "A Lotus 1-2-3 style spreadsheet as an SGX program.\n\n"
+  ],
+  [
+   "msg.phrase",
+   "SGX ABI %u.%u\n"
+  ],
+  [
+   "msg.phrase",
+   "Screen mode 3: text + CLUT8 FB (lowres disabled)\n"
+  ],
+  [
+   "msg.phrase",
+   "Sheet: %d rows x %d columns\n"
+  ],
+  [
+   "msg.phrase",
+   "Formats: .ods / .fods (LibreOffice), .csv\n\n"
+  ],
+  [
+   "msg.phrase",
+   "The grid is drawn on the text plane.\n"
+  ],
+  [
+   "msg.phrase",
+   "Charts and the 640x480 background use the FB.\n\n"
+  ],
+  [
+   "msg.phrase",
+   "%d %s"
+  ],
+  [
+   "msg.phrase",
+   "Cannot store the cell (%d)."
+  ],
+  [
+   "msg.phrase",
+   "Copied %d x %d cells"
+  ],
+  [
+   "msg.phrase",
+   "Cleared %s"
+  ],
+  [
+   "msg.phrase",
+   "'%s' is not a cell reference."
+  ],
+  [
+   "msg.phrase",
+   "%d"
+  ],
+  [
+   "msg.phrase",
+   "Column width = %d"
+  ],
+  [
+   "msg.phrase",
+   "Row height = %d"
+  ],
+  [
+   "msg.phrase",
+   "Auto fit: %d column(s), %d row(s)"
+  ],
+  [
+   "msg.phrase",
+   "%2d"
+  ],
+  [
+   "msg.phrase",
+   "Cannot apply the colour (%d)."
+  ],
+  [
+   "msg.phrase",
+   "%s colour = %d"
+  ],
+  [
+   "msg.phrase",
+   "Not a valid range.\nUse a range such as A1:C10."
+  ],
+  [
+   "msg.phrase",
+   "Graph range %s"
+  ],
+  [
+   "msg.phrase",
+   "Graph: %s"
+  ],
+  [
+   "msg.phrase",
+   "SGCALC: cannot set screen mode 3: %s\n"
+  ],
+  [
+   "msg.phrase",
+   "%.2g"
+  ],
+  [
+   "msg.phrase",
+   "%.6g"
+  ],
+  [
+   "msg.phrase",
+   "%s  %.0f%%"
+  ],
+  [
+   "msg.phrase",
+   "GRAPH  %s  %s"
+  ],
+  [
+   "msg.phrase",
+   "%s%s"
+  ],
+  [
+   "msg.phrase",
+   "%s/%s"
+  ],
+  [
+   "msg.phrase",
+   "%.*s"
+  ],
+  [
+   "msg.phrase",
+   "%.*s/"
+  ],
+  [
+   "msg.phrase",
+   "Cannot read %s\n%s"
+  ],
+  [
+   "msg.phrase",
+   "Folder: %s"
+  ],
+  [
+   "msg.phrase",
+   "[DIR] %s"
+  ],
+  [
+   "msg.phrase",
+   "      %s"
+  ],
+  [
+   "msg.phrase",
+   "%lu.%luM"
+  ],
+  [
+   "msg.phrase",
+   "%luK"
+  ],
+  [
+   "msg.phrase",
+   "%luB"
+  ],
+  [
+   "msg.phrase",
+   "BOOK1%s"
+  ],
+  [
+   "msg.phrase",
+   "%c:/"
+  ],
+  [
+   "msg.phrase",
+   "Unsupported extension.\nUse .csv, .ods or .fods."
+  ],
+  [
+   "msg.phrase",
+   "%s already exists.\nOverwrite it?"
+  ],
+  [
+   "msg.phrase",
+   "%s may not be writable.\nTry anyway?"
+  ],
+  [
+   "msg.phrase",
+   "Unknown file type for %s"
+  ],
+  [
+   "msg.phrase",
+   "Unsupported file type.\nUse .csv, .ods or .fods."
+  ],
+  [
+   "msg.phrase",
+   "Cannot open %s\n%s"
+  ],
+  [
+   "msg.phrase",
+   "%s is a folder."
+  ],
+  [
+   "msg.phrase",
+   "Cannot import %s\n%s"
+  ],
+  [
+   "msg.phrase",
+   "Loaded %s"
+  ],
+  [
+   "msg.phrase",
+   "Cannot build the %s file."
+  ],
+  [
+   "msg.phrase",
+   "Cannot write %s\n%s"
+  ],
+  [
+   "msg.phrase",
+   "%s %s"
+  ],
+  [
+   "msg.phrase",
+   "unsupported version %u"
+  ],
+  [
+   "msg.phrase",
+   "%d:%d:%d:%d:%d:%d"
+  ],
+  [
+   "msg.phrase",
+   "Octave %d"
+  ],
+  [
+   "msg.phrase",
+   "Note %s"
+  ],
+  [
+   "msg.phrase",
+   "Instrument %d"
+  ],
+  [
+   "msg.phrase",
+   "Volume %s"
+  ],
+  [
+   "msg.phrase",
+   "Effect %c"
+  ],
+  [
+   "msg.phrase",
+   "Parameter %s"
+  ],
+  [
+   "msg.phrase",
+   "Pattern %s"
+  ],
+  [
+   "msg.phrase",
+   "Playing pattern %s"
+  ],
+  [
+   "msg.phrase",
+   "SAVE ERROR: %s"
+  ],
+  [
+   "msg.phrase",
+   "Saved %s"
+  ],
+  [
+   "msg.phrase",
+   "LOAD ERROR: %s"
+  ],
+  [
+   "msg.phrase",
+   "BPM %d"
+  ],
+  [
+   "msg.phrase",
+   "Speed %d"
+  ],
+  [
+   "msg.phrase",
+   "Preview %s"
+  ],
+  [
+   "msg.phrase",
+   "Instrument %s %s"
+  ],
+  [
+   "msg.phrase",
+   "Overwrite %s? (Y/N)"
+  ],
+  [
+   "msg.phrase",
+   " | BPM %s SPD %s "
+  ],
+  [
+   "msg.phrase",
+   " SGNO TRACKER 1.0 | "
+  ],
+  [
+   "msg.phrase",
+   "FILE "
+  ],
+  [
+   "msg.phrase",
+   " PAT %s"
+  ],
+  [
+   "msg.phrase",
+   " ORD %d/%d"
+  ],
+  [
+   "msg.phrase",
+   " INS %s "
+  ],
+  [
+   "msg.phrase",
+   " OCT %d"
+  ],
+  [
+   "msg.phrase",
+   " EDIT %s"
+  ],
+  [
+   "msg.phrase",
+   "ON "
+  ],
+  [
+   "msg.phrase",
+   " FOL %s"
+  ],
+  [
+   "msg.phrase",
+   "TRACK %d"
+  ],
+  [
+   "msg.phrase",
+   "%c%s"
+  ],
+  [
+   "msg.phrase",
+   "%s %s %s %s"
+  ],
+  [
+   "msg.phrase",
+   "%s "
+  ],
+  [
+   "msg.phrase",
+   "%d %s %s"
+  ],
+  [
+   "msg.phrase",
+   "ORDER %d/%d"
+  ],
+  [
+   "msg.phrase",
+   "PAT   %s"
+  ],
+  [
+   "msg.phrase",
+   "INS %s %s"
+  ],
+  [
+   "msg.phrase",
+   "OCT %d  EDIT %s"
+  ],
+  [
+   "msg.phrase",
+   "FOLLOW %s"
+  ],
+  [
+   "msg.phrase",
+   "PLAYING  ORD %d/%d  PAT %s  ROW %s/%d  SPD %s  BPM %d  F7 STOP"
+  ],
+  [
+   "msg.phrase",
+   "READY  EDIT %s  OCT %d  F1 HELP  F5 PLAY  CTRL-S SAVE"
+  ],
+  [
+   "msg.phrase",
+   " %s "
+  ],
+  [
+   "msg.phrase",
+   "  F5          Play the song from the current order"
+  ],
+  [
+   "msg.phrase",
+   "  F6          Play the current pattern"
+  ],
+  [
+   "msg.phrase",
+   "  F7/Ctrl-C   Stop playback"
+  ],
+  [
+   "msg.phrase",
+   "  Space       Play / stop"
+  ],
+  [
+   "msg.phrase",
+   "  F4          Save as"
+  ],
+  [
+   "msg.phrase",
+   "  Ctrl-S      Save (asks for a name if new)"
+  ],
+  [
+   "msg.phrase",
+   "  Ctrl-O      Open a song"
+  ],
+  [
+   "msg.phrase",
+   "  Ctrl-N      New song"
+  ],
+  [
+   "msg.phrase",
+   "  F12         Quit (confirmation if modified)"
+  ],
+  [
+   "msg.phrase",
+   "  [ ]         Previous / next order entry"
+  ],
+  [
+   "msg.phrase",
+   "  { }         Insert / delete an order entry"
+  ],
+  [
+   "msg.phrase",
+   "  - +         Change the pattern in the entry"
+  ],
+  [
+   "msg.phrase",
+   "  F11         Follow playback (turns off on manual move)"
+  ],
+  [
+   "msg.phrase",
+   "  F1          Help; Left/Right changes page"
+  ],
+  [
+   "msg.phrase",
+   "  F8          Toggle edit mode"
+  ],
+  [
+   "msg.phrase",
+   "  Arrows      Move the cursor"
+  ],
+  [
+   "msg.phrase",
+   "  PgUp/PgDn   Jump 16 rows"
+  ],
+  [
+   "msg.phrase",
+   "  Home/End    First / last row"
+  ],
+  [
+   "msg.phrase",
+   "  F9/F10      Octave down / up"
+  ],
+  [
+   "msg.phrase",
+   "  Z S X D C V G B H N J M      lower piano row"
+  ],
+  [
+   "msg.phrase",
+   "  Q 2 W 3 E R 5 T 6 Y 7 U      upper piano row"
+  ],
+  [
+   "msg.phrase",
+   "  1           Note off"
+  ],
+  [
+   "msg.phrase",
+   "  0 / Del     0 clears note/inst/fx; Del clears any"
+  ],
+  [
+   "msg.phrase",
+   "  Ctrl-Z      Undo the last pattern/order edit"
+  ],
+  [
+   "msg.phrase",
+   "  Axy   Volume slide: up x, down y"
+  ],
+  [
+   "msg.phrase",
+   "  Cxx   Note cut after xx ticks"
+  ],
+  [
+   "msg.phrase",
+   "  Dxx   Set volume (00..7F)"
+  ],
+  [
+   "msg.phrase",
+   "  Fxx   Speed if xx < 20, otherwise BPM"
+  ],
+  [
+   "msg.phrase",
+   "  Hxy   Arpeggio x, y semitones"
+  ],
+  [
+   "msg.phrase",
+   "  Pxx   Pitch slide up"
+  ],
+  [
+   "msg.phrase",
+   "  Qxx   Pitch slide down"
+  ],
+  [
+   "msg.phrase",
+   "  F2 song settings, F3 instrument list"
+  ],
+  [
+   "msg.phrase",
+   "HELP %d/2"
+  ],
+  [
+   "msg.phrase",
+   "  Title"
+  ],
+  [
+   "msg.phrase",
+   "  [%s_]"
+  ],
+  [
+   "msg.phrase",
+   "  BPM   : %d     (left/right -1/+1, -/+ -5/+5)"
+  ],
+  [
+   "msg.phrase",
+   "  Speed : %d ticks/row"
+  ],
+  [
+   "msg.phrase",
+   "  Rows  : %d (fixed)"
+  ],
+  [
+   "msg.phrase",
+   "  Order : %d entries"
+  ],
+  [
+   "msg.phrase",
+   "  Patterns in use : %d"
+  ],
+  [
+   "msg.phrase",
+   " #  NAME       WAVE       A   D   S   R  VOL"
+  ],
+  [
+   "msg.phrase",
+   " %c %d  %-9s %-9s %3d %3d %3d %3d %4d"
+  ],
+  [
+   "msg.phrase",
+   "Current instrument: %s %s"
+  ],
+  [
+   "msg.phrase",
+   "  %s"
+  ],
+  [
+   "msg.phrase",
+   "DIR  %s"
+  ],
+  [
+   "msg.phrase",
+   " %c %s%s"
+  ],
+  [
+   "msg.phrase",
+   "Files: %d"
+  ],
+  [
+   "msg.phrase",
+   "%02d"
+  ],
+  [
+   "msg.phrase",
+   "%03d"
+  ],
+  [
+   "msg.phrase",
+   "%02X"
+  ],
+  [
+   "msg.phrase",
+   "SGNO TRACKER: incompatible SGX ABI\n"
+  ],
+  [
+   "msg.phrase",
+   "S: check: wait -- a file is being read or written"
+  ],
+  [
+   "msg.phrase",
+   "S: check: the drive is busy or not ready"
+  ],
+  [
+   "msg.phrase",
+   "nothing for this item (ContextMenu.cfg)"
+  ],
+  [
+   "msg.phrase",
+   "bad command in ContextMenu.cfg"
+  ],
+  [
+   "msg.phrase",
+   "unknown action in ContextMenu.cfg"
+  ],
+  [
+   "msg.prefix",
+   "menu"
+  ],
+  [
+   "msg.phrase",
+   "choose a file or folder"
+  ],
+  [
+   "msg.phrase",
+   "this drive cannot be written"
+  ],
+  [
+   "msg.phrase",
+   "an archive job is already running"
+  ],
+  [
+   "msg.phrase",
+   "no PSRAM for the archive task"
+  ],
+  [
+   "msg.phrase",
+   "could not start the archive task"
+  ],
+  [
+   "msg.phrase",
+   "too many items (32 at most)"
+  ],
+  [
+   "msg.phrase",
+   "nothing to compress"
+  ],
+  [
+   "msg.phrase",
+   "no name (or the name has / or \\)"
+  ],
+  [
+   "msg.phrase",
+   "32 items at most (mark fewer, or put them in a folder)"
+  ],
+  [
+   "msg.prefix",
+   "archive"
+  ],
+  [
+   "msg.prefix",
+   "compress"
+  ],
+  [
+   "msg.prefix",
+   "render"
+  ]
+ ]
+}

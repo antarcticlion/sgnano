@@ -1,0 +1,375 @@
+# sgnano filer strings: English. Machine translation (unreviewed; 2026-11-04).
+@lang en
+@name English
+ui	一覧（ファイルとフォルダを 2 列 x 19 行に並べる）	List (files and folders in 2 columns x 19 rows)
+ui	カーソルを動かす（左右は隣の列へ）	Move the cursor (left / right: the other column)
+ui	前のページ / 次のページ	Previous page / next page
+ui	全部に印 / 印を反転（PC-98 FD と同じ）	Mark all / invert the marks (as in PC-98 FD)
+ui	先頭 / 最後	First / last
+ui	印を付けて次へ / 印だけ付ける	Mark and move on / mark only
+ui	Shift+矢印	Shift+Arrows
+ui	範囲を選ぶ（Space でその範囲に印）	Select a range (Space marks the range)
+ui	フォルダに入る・ファイルを開く（F2/X は実行）	Enter a folder / open a file (F2/X run)
+ui	上のフォルダへ	Up to the parent folder
+ui	ドライブを選ぶ（USB・フロッピー・CD・S: 内蔵）	Choose a drive (USB, floppy, CD, S: built-in)
+ui	コピー（Shift+C / Shift+F3 は行き先を木から）	Copy (Shift+C / Shift+F3 picks the destination from the tree)
+ui	移動	Move
+ui	削除（Shift+D / Shift+F4 はフォルダ削除）	Delete (Shift+D / Shift+F4 delete a folder)
+ui	名前を変える	Rename
+ui	属性を変える	Change the attributes
+ui	エディタで開く	Open in the editor
+ui	テキスト表示（Shift+V / Ctrl+Alt+F7 は 16 進）	View as text (Shift+V / Ctrl+Alt+F7 hex)
+ui	ドライブの情報	Drive information
+ui	フォルダを作る / 新しいファイル	New folder / new file
+ui	シェル sgsh / 媒体を取り出す	Shell sgsh / eject the medium
+ui	読み直す	Reload
+ui	見えている画面を PNG で保存	Save the screen as PNG
+ui	窓を閉じる・選択を解く（サブフォルダでは上位へ）	Close the window / clear the selection (in a subfolder: go up)
+ui	ファイルの操作（FD と同じ。印・範囲・カーソルの順に選ぶ）	File operations (as in FD: marks, then the range, then the cursor)
+ui	コピー: 行き先はドライブとフォルダの木から。ESC で止める	Copy: pick the destination from the drive and folder tree. ESC stops
+ui	削除: y で確かめる。印・範囲をまとめて。フォルダは中身ごと	Delete: confirm with y. Marks and ranges at once. Folders with their contents
+ui	フォルダを削除（中身ごと）	Delete a folder (with its contents)
+ui	名前を変える（今の名前を直して Enter）	Rename (edit the name, Enter)
+ui	属性: R 読み出し専用・H 隠し・S システム・A アーカイブ	Attributes: R read-only, H hidden, S system, A archive
+ui	フォルダを作る	New folder
+ui	新しいファイル（空）を作る	New (empty) file
+ui	テキストで表示（Shift+V / Ctrl+Alt+F7 は 16 進）	View as text (Shift+V / Ctrl+Alt+F7 hex)
+ui	シェル sgsh（exit / Ctrl-D でファイラーへ）	Shell sgsh (exit / Ctrl-D back to the filer)
+ui	選んでいるドライブの素性（INQUIRY・IDENTIFY）	Identity of the drive (INQUIRY, IDENTIFY)
+ui	FDD・LS-120・CD の媒体を取り出す	Eject the FDD / LS-120 / CD medium
+ui	一覧を読み直す（CD は TOC から）	Reload the list (CD: from the TOC)
+ui	ZMODEM で PC から受け取る（zm.sh put）	Receive from the PC by ZMODEM (zm.sh put)
+ui	ZMODEM で PC へ送る（zm.sh get）	Send to the PC by ZMODEM (zm.sh get)
+ui	.rb をコンパイルして .mrb を書き出す	Compile .rb and write .mrb
+ui	Ruby の REPL（1 行ずつ、Ctrl-D / ESC で終わり）	Ruby REPL (one line at a time, Ctrl-D / ESC to end)
+ui	MicroPython の REPL	MicroPython REPL
+ui	4MB ずつ分割 / .001 から結合	Split into 4 MB parts / join from .001
+ui	分割 / 結合（Ctrl+F11 / F12 と同じ）	Split / join (same as Ctrl+F11 / F12)
+ui	画面（Alt+F。FD の F キーとぶつからない）	Screen (Alt+F, does not clash with the FD F keys)
+ui	FB（絵）/ テキスト面を出す・隠す	Show / hide the FB (picture) / the text
+ui	FB の表示ページ（0〜3）	FB display page (0-3)
+ui	FB を 0 で消す / 明るさを 1/2 に（RGB555）	Clear the FB to 0 / halve its brightness (RGB555)
+ui	USB のエンドポイントと LAN の状態	USB endpoints and the LAN state
+ui	FB の表示ページを消す / 明るさを 1/2 に	Clear the FB display page / halve its brightness
+ui	テキストの属性の見本	Text attribute samples
+ui	モニタの EDID（起動時に読んだもの）	Monitor EDID (read at boot)
+ui	フォント ROM のライセンスとクレジット	Font ROM licenses and credits
+ui	設定（表示の言語・IME・キーボードロケール）	Settings (display language, IME and keyboard locale)
+ui	時計（NTP で合わせた日本時間。s ですぐ合わせる）	Clock (Japan time set by NTP; s syncs now)
+ui	表計算（SGCALC）を開く	Open spreadsheet (SGCALC)
+ui	S: ドライブのエラー検査（誤りがあれば直すか聞く）	Check S: for errors (asks before repairing)
+ui	トラッカー（TRACKER）を開く	Open TRACKER
+ui	再起動（確かめの窓が出る）	Reboot (asks first)
+ui	ADC のステレオ入力（GP40 / 41）を鳴らす	Play the ADC stereo input (GP40 / 41)
+ui	VGM/VGZ を 96kHz/24bit WAV に書き出す	Export VGM/VGZ to a 96 kHz / 24-bit WAV
+ui	このヘルプ	This help
+ui	ページを替える	Change the page
+ui	閉じる	Close
+ui	テキスト・16 進のビュアー（less 風）	Text / hex viewer (like less)
+ui	1 行	One line
+ui	1 ページ	One page
+ui	半ページ	Half a page
+ui	探す（前へ・後ろへ）/ 次・前	Search (forward / backward) / next / previous
+ui	一覧へ戻る（F1 はビュアーのヘルプ）	Back to the list (F1: the viewer's help)
+ui	画像のビュアー	Image viewer
+ui	一覧へ戻る（F2 F3 F6 F7 Shift+F2 F3 は効く）	Back to the list (F2 F3 F6 F7 Shift+F2 F3 work)
+ui	エディタ（E / Shift+F8）	Editor (E / Shift+F8)
+ui	保存する（UTF-8。改行と BOM は元のまま）	Save (UTF-8; line ends and BOM kept)
+ui	閉じる（変わっていれば Y / N / ESC）	Close (if changed: Y / N / ESC)
+ui	挿入 / 上書き	Insert / overwrite
+ui	IME（日本語・英語・ハングル）の入・切	IME on/off (Japanese / English / Korean)
+ui	IME の言語（日本語 / English / 한국어）	IME language (Japanese / English / Korean)
+ui	ひらがな / カタカナで確定	Commit as hiragana / katakana
+ui	エディタのヘルプ	The editor's help
+ui	シェル	Shell
+ui	シェル（csh のサブセット。exit / Ctrl-D で戻る、help で一覧）	Shell (a csh subset. exit / Ctrl-D to return, help lists the commands)
+ui	一覧と移動	List and moving
+ui	ファイルの操作	File operations
+ui	画面と機器	Screen and devices
+ui	ビュアーとエディタ	Viewers and the editor
+ui	ヘルプ  %u / %u  %s	Help  %u / %u  %s
+ui	Left Right: ページを替える    F1 / ESC: 閉じる	Left Right: change the page    F1 / ESC: close
+ui	sgnano を再起動しますか？	Reboot sgnano?
+ui	[ 再起動 ]	[ Reboot ]
+ui	[ キャンセル ]	[ Cancel ]
+ui	S: ドライブのエラー検査	Check the S: drive for errors
+ui	ファイル %lu  フォルダ %lu	Files %lu  folders %lu
+ui	大きさが鎖と合わない	Size does not match the chain
+ui	どこからも使われていないクラスタ	Clusters used by nothing
+ui	重なったクラスタ	Cross-linked clusters
+ui	壊れた項目	Broken entries
+ui	FAT の 2 つの写しの食い違い	The two FAT copies differ
+ui	エラーはありません。	No errors.
+ui	エラーが見つかりました。修復しますか？	Errors were found. Repair them?
+ui	修復しました（上は直した数）。	Repaired (the numbers above were fixed).
+ui	検査・修復できませんでした（S: が使用中）。	Could not check or repair (S: is busy).
+ui	[ 修復する ]	[ Repair ]
+ui	[ やめる ]	[ Cancel ]
+ui	何かキーで閉じる	Any key closes
+ui	設定	Settings
+ui	表示の言語	Display language
+ui	キーボードロケール	Keyboard locale
+ui	Up / Down  Enter 決める  ESC やめる	Up / Down  Enter choose  ESC cancel
+ui	表示の言語 (Language)	Display language
+ui	Up / Down  Enter 決める  ESC 戻る	Up / Down  Enter: set  ESC: back
+ui	%c: をどの文字に固定しますか（A〜Z、S を除く。ESC でやめる）	Fix %c: as which letter? (A-Z except S. ESC cancels)
+ui	ドライブ  文字 / Enter 選ぶ  F2 文字を固定・解除  F3 文字を決めて固定  L / ESC やめる	Drive  letter / Enter select  F2 fix/unfix the letter  F3 fix as...  L / ESC cancel
+ui	  区画 %u	  partition %u
+ui	%c:* （固定・つながっていません）%04X:%04X%s  %s	%c:* (fixed, not connected) %04X:%04X%s  %s
+ui	お知らせ	Notice
+ui	ドライブ %c:  %s	Drive %c:  %s
+ui	ドライブ  (なし)	Drive  (none)
+ui	音楽 CD  %u トラック	Audio CD  %u tracks
+ui	フォルダ %u  ファイル %u  合計 %s	Folders %u  files %u  total %s
+ui	読んでいます...	Reading...
+ui	* 印 %u 個  %s	* marked %u  %s
+ui	%lu バイト	%lu bytes
+ui	属性 %s   更新日時 %s   作成日時 %s   %s	Attr %s   modified %s   created %s   %s
+ui	日	Sun
+ui	月	Mon
+ui	火	Tue
+ui	水	Wed
+ui	木	Thu
+ui	金	Fri
+ui	土	Sat
+ui	時計は合わせていません（LAN の NTP）	The clock is not set (NTP over the LAN)
+ui	FB  表示 %u  書込 %u	FB  display %u  write %u
+ui	1 ヘルプ	1 Help
+ui	2 実行	2 Run
+ui	3 ｺﾋﾟｰ	3 Copy
+ui	4 削除	4 Del
+ui	5 名前	5 Rename
+ui	7 FB消去	7 FBclr
+ui	8 FB減光	8 FBdim
+ui	9 ﾄﾞﾗｲﾌﾞ	9 Drive
+ui	10 EP表	10 EPs
+ui	11 時計	11 Clock
+ui	12 表計	12 CALC
+ui	1 属性	1 Attr
+ui	2 情報	2 Info
+ui	3 移動	3 Move
+ui	5 作成	5 Mkdir
+ui	6 シェル	6 Shell
+ui	8 編集	8 Edit
+ui	9 表示	9 View
+ui	10S:検査	10 S:chk
+ui	11 ﾄﾗｯｸ	11 TRACK
+ui	12再起動	12Reboot
+ui	1 新規	1 New
+ui	2 ﾌｫﾙﾀﾞ	2 Folder
+ui	3 名前	3 Rename
+ui	4 属性	4 Attrib
+ui	6 ｺﾋﾟｰ	6 Copy
+ui	7 移動	7 Move
+ui	8 削除	8 Delete
+ui	9 編集	9 Edit
+ui	10ｺﾝﾊﾟｲﾙ	10 mrbc
+ui	11 分割	11 Split
+ui	12 結合	12 Join
+ui	1 属性例	1 Attrs
+ui	2 FB切替	2 FB
+ui	3 文字面	3 Text
+ui	5 画面写	5 ScrSht
+ui	6 表示頁	6 DispPg
+ui	9 ZM受信	9 ZMrecv
+ui	10ZM送信	10ZMsend
+ui	2 FB消去	2 FBClr
+ui	3 FB減光	3 FBDim
+ui	5 再読込	5 Reload
+ui	7 16進	7 Hex
+ui	9 ﾗｲｾﾝｽ	9 Lic
+ui	8 設定	8 Setup
+ui	時刻を合わせる（日本時間。NTP で合わせられませんでした）	Set the clock (Japan time. NTP could not set it)
+ui	起動のパラメタ	Run with parameters
+ui	新しいフォルダ	New folder
+ui	新しいファイル	New file
+ui	時刻:	Time:
+ui	実行:	Run: 
+ui	名前:	Name:
+ui	年-月-日 時:分  Enter 合わせる  ESC そのまま	YYYY-MM-DD hh:mm  Enter set  ESC keep
+ui	Enter 走らせる  ←→ 動かす  BS / Del 消す  ESC やめる	Enter run  <-> move  BS / Del delete  ESC cancel
+ui	Enter 変える  ←→ 動かす  BS / Del 消す  ESC やめる	Enter rename  <-> move  BS / Del delete  ESC cancel
+ui	Enter 作る  ←→ 動かす  BS / Del 消す  ESC やめる	Enter create  <-> move  BS / Del delete  ESC cancel
+ui	消す	Delete
+ui	個の項目	 items
+ui	フォルダは中身ごと消します。よろしいですか？	Folders are deleted with their contents. Are you sure?
+ui	このファイルを消しますか？	Delete this file?
+ui	（元に戻せません。フォルダの中のファイルも消えます）	(This cannot be undone. Files in the folders are deleted too)
+ui	[ はい (Y) ]	[ Yes (Y) ]
+ui	[ いいえ (N) ]	[ No (N) ]
+ui	バイナリビュアー: ファイルを選んでください	hex viewer: choose a file
+ui	テキストビュアー: ファイルを選んでください	text viewer: choose a file
+ui	移動先	Move to
+ui	コピー先	Copy to
+ui	バッファがいっぱいです (buffer full)	The buffer is full
+ui	読み出し専用のドライブです (read-only)	The drive is read-only
+ui	保存できません (no writer)	Cannot save (no writer)
+ui	保存を始められません (the drive is busy?)	Could not start saving (the drive is busy?)
+ui	保存しています... (saving)	Saving...
+ui	2 保存	2 Save
+ui	5 色分け	5 Colour
+ui	6 ﾞ	6 Hira
+ui	7 ｶﾀｶﾅ	7 Kata
+ui	8 予測	8 Pred
+ui	10 終了	10 Quit
+ui	1 先頭	1 Top
+ui	2 最後	2 End
+ui	3 挿/上	3 InsOvr
+ui	4 辞書	4 Dict
+ui	6 半	6 HHira
+ui	7 半ｶﾅ	7 HKata
+ui	 %s  %s  行 %lu/%lu 桁 %u  %s  %s %s%s%s	 %s  %s  Ln %lu/%lu Col %u  %s  %s %s%s%s
+ui	*変更	*mod
+ui	上書	OVR
+ui	挿入	INS
+ui	  読出専用	  R/O
+ui	 エディタ (sgnano edit)                      F1 / ESC で閉じる	 Editor (sgnano edit)                        F1 / ESC closes
+ui	 矢印 / Home End / PgUp PgDn   カーソルを動かす	 Arrows / Home End / PgUp PgDn  move the cursor
+ui	 Ctrl-T / Ctrl-B               ファイルの先頭 / 最後	 Ctrl-T / Ctrl-B               top / end of the file
+ui	 BS / Del                      前の字 / カーソルの字を消す	 BS / Del                      erase before / at the cursor
+ui	 Enter                         改行（前の行の字下げを引き継ぐ）	 Enter                         new line (keeps the indent)
+ui	 Tab / Ins                     タブ / 挿入と上書きの切り替え	 Tab / Ins                     tab / insert or overwrite
+ui	 F5                            色分け（拡張子から。C/C++・mruby・MicroPython・SG BASIC・なし）	 F5                            Colouring (from the extension; C/C++, mruby, MicroPython, SG BASIC, none)
+ui	 F2  (Ctrl-S)                  保存（UTF-8、改行は元の形）	 F2  (Ctrl-S)                  save (UTF-8, line ends kept)
+ui	 F10 / ESC                     閉じる（変更があれば聞く）	 F10 / ESC                     close (asks if changed)
+ui	 IME:  Ctrl-Space / F12        オン・オフ（あ / A）	 IME:  Ctrl-Space / F12        on / off (あ / A)
+ui	       F9                      IME の言語（このエディタの間だけ。閉じると戻る）	       F9                      IME language (this editor only; restored on close)
+ui	       F8                      日本語の予測変換 オン・オフ	       F8 Japanese predictive conversion on/off
+ui	       日本語                  ローマ字 -> ひらがな（F6）・カタカナ（F7）	       Japanese                romaji -> hiragana (F6) / katakana (F7)
+ui	                               半角ひらがな（Shift+F6）・半角カタカナ（Shift+F7）	                               Half-width hiragana (Shift+F6) / half-width katakana (Shift+F7)
+ui	                               2 字以上で予測、Space で連文節変換	                               Predict with 2 or more characters, convert continuous clause with Space
+ui	       English                 2 字以上で予測補完	       English Predictive completion with 2 or more characters
+ui	       한국어                  2 ボル式ハングル	       한국어 2 Bol-style Hangul
+ui	       Space / Enter           変換 / 確定	       Space / Enter Convert / Confirm
+ui	       ← →                    文節を選ぶ	       ← → Select a phrase
+ui	       Shift+← →               文節の右端を 1 字 縮/拡（候補を出し直す）	       Shift+← → Shrink/grow the right end of the clause by one character (new candidates)
+ui	       ↑ ↓ / Tab               候補の窓で前 / 次の候補（窓は変換の下、画面の下では上）	       ↑ ↓ / Tab               Previous / next candidate in the popup (below the text, above near the bottom)
+ui	       →→→ で Enter            すべての候補（2 列 x 8 個、← → で列とページ、Enter で決める）	       Enter on →→→            All candidates (2 x 8, ← → column and page, Enter chooses)
+ui	       Enter                   次の文節へ（最後の文節で全体を確定）	       Enter                   Next clause (confirms the whole at the last clause)
+ui	       Ctrl-U                  いまの語をユーザー辞書へ	       Ctrl-U Add current word to user dictionary
+ui	 Shift+F1 / F2 / F3 / F4       先頭 / 最後 / 挿入と上書き / ユーザー辞書へ	 Shift+F1 / F2 / F3 / F4       Top / end / insert-overwrite / to the user dictionary
+ui	       BS / ESC                1 字戻す / 取り消し	       BS / ESC Go back one character / Cancel
+ui	       , . - [ ] /             、 。 ー 「 」 ・	       , . - [ ] /             、 。 ー 「 」 ・
+ui	変更あり  Y: 保存して閉じる  N: 保存せず閉じる  ESC: 戻る	Modified  Y: save and close  N: close without saving  ESC: back
+ui	[予測] Tab/↑↓: 候補  Space: 変換  Esc: 取消	[Prediction] Tab/↑↓: candidate  Space: convert  Esc: cancel
+ui	[候補] ↑↓: 選ぶ  ←→: 列・ページ  Enter: 決める	[Candidates] ↑↓: select  ←→: column/page  Enter: choose
+ui	[変換] ↑↓候補 ←→文節 Shift+←→区切り Enter次へ	[Convert] ↑↓cand ←→clause Shift+←→bound Enter next
+ui	[한국어] Tab/↑↓: 候補  Enter/Space: 確定	[한국어] Tab/↑↓: candidate  Enter/Space: confirm
+ui	[English] Tab/↑↓: 候補  Enter: 確定	[English] Tab/↑↓: candidate  Enter: confirm
+ui	2ボル式ハングル入力  Ctrl-Space: 英数	2-set Hangul input  Ctrl-Space: alphanumeric
+ui	予測補完  Ctrl-Space: 直接入力	Predictive completion  Ctrl-Space: direct input
+ui	辞書なし: ひらがな/カタカナ入力のみ  F6/F7	No dictionary: hiragana/katakana only  F6/F7
+ui	Space: 変換  F7: カタカナ  Ctrl-Space: 英数	Space: convert  F7: katakana  Ctrl-Space: alphanumeric
+ui	Space: 変換  F6: ひらがな  Ctrl-Space: 英数	Space: convert  F6: hiragana  Ctrl-Space: alphanumeric
+ui	半角  F6: ひらがな  F7: カタカナ  Shift+F6/F7: 半角	Half-width  F6: hiragana  F7: katakana  Shift+F6/F7: half
+ui	IME オフ	IME off
+ui	 予測	 predict
+ui	日本語の予測変換: オン	Predictive Japanese translation: On
+ui	日本語の予測変換: オフ	Predictive translation for Japanese: Off
+ui	日本語IMEで使います	Use with Japanese IME
+ui	ユーザー辞書に追加できません	Cannot add to user dictionary
+ui	色分け: %s	Colouring: %s
+ui	読み込んでいます... (loading)	Loading...
+ui	読み込めませんでした (could not read)	Could not read the file
+ui	%lu 行%s%s	%lu lines%s%s
+ui	  Shift_JIS を UTF-8 で開きました（保存は UTF-8）	  opened Shift_JIS as UTF-8 (saved as UTF-8)
+ui	  読み出し専用	  read-only
+ui	保存しました (saved)	Saved
+ui	保存できませんでした (write failed)	Could not save (write failed)
+ui	候補	Candidates
+ui	7 書込頁	7 WrtPg
+ui	9 ﾃｷｽﾄ	9 Text
+ui	9 ﾊﾞｲﾅﾘ	9 Hex
+ui	読み込み中 %lu%%  	Loading %lu%%  
+ui	（先頭だけ）  	(the start only)  
+ui	16 進  q ESC: 戻る  F1: ヘルプ	Hex  q ESC: back  F1: help
+ui	テキスト  q ESC: 戻る  F1: ヘルプ	Text  q ESC: back  F1: help
+ui	ビュアーのキー（less 風。テキストと 16 進で共通）	Viewer keys (like less; the same for text and hex)
+ui	1 行進む	One line down
+ui	1 行戻る	One line up
+ui	1 ページ進む	One page down
+ui	1 ページ戻る	One page up
+ui	半ページ進む / 戻る	Half a page down / up
+ui	/文字列  ?文字列	/text  ?text
+ui	下へ探す / 上へ探す（大文字小文字は区別しない）	Search down / up (ignores case)
+ui	次 / 前を探す	Next / previous match
+ui	16 進で表示する（いま見ている所のまま）	Show as hex (at the same place)
+ui	テキストで表示する（いま見ている所のまま）	Show as text (at the same place)
+ui	色分けを替える（C/C++・mruby・MicroPython・SG BASIC・なし）	Change the colouring (C/C++, mruby, MicroPython, SG BASIC, none)
+ui	FB / テキスト面を出す・隠す	Show / hide the FB / the text
+ui	FB の表示ページ / 書き込みページ	FB display page / write page
+ui	ファイラーへ戻る	Back to the filer
+ui	このヘルプを閉じる	Close this help
+ui	コピー	Copy
+ui	 %s: フォルダを読んでいます... %u 個	 %s: reading the folders... %u
+ui	 %s: 行き先の空きを数えています...	 %s: counting the free space at the destination...
+ui	 %s: 行き先の空きが足りません	 %s: not enough free space at the destination
+ui	 移動: 元のフォルダを消しています	 Move: removing the source folders
+ui	終了しました	Done
+ui	止まりました	Stopped
+ui	 %s中%s	 %s in progress%s
+ui	（止めています）	 (stopping)
+ui	 元: %s	 From: %s
+ui	 先: %s	 To: %s
+ui	 ファイル %u / %u 個  フォルダ %u 個  %s / %s  (%u%%)%s	 Files %u / %u  folders %u  %s / %s  (%u%%)%s
+ui	  多すぎるので一部だけ	  too many: only some
+ui	 要る大きさ %s、空き %s。続けますか？	 Needs %s, free %s. Continue?
+ui	 Y: 続ける   N / ESC: やめる	 Y: continue   N / ESC: cancel
+ui	 何かキーを押すと閉じます	 Press any key to close
+ui	 ESC: 止める	 ESC: stop
+ui	 %s: ←→ ドライブ  ↑↓ フォルダ  Space 開く・閉じる  Enter 決める  ESC やめる	 %s: ←→ drive  ↑↓ folder  Space open/close  Enter choose  ESC cancel
+ui	 読めません: %s	 Cannot read: %s
+ui	 フォルダを読んでいます...（ESC で止める）  %u 個	 Reading the folders... (ESC stops)  %u
+ui	 フォルダ %u 個%s	 %u folders%s
+ui	（多すぎるか深すぎるので、一部だけ）	 (too many or too deep: only some)
+ui	フォルダの展開を止めました	Stopped opening the folder
+ui	Space で開き直せます。もう一度 ESC でやめます	Space opens it again. ESC once more cancels
+ui	 SMF / SGT プレイヤー   %s	 SMF / SGT player   %s
+ui	 読み込んでいます... %lu / %lu バイト	 Loading... %lu / %lu bytes
+ui	 %s / %s   %s   ポート %u	 %s / %s   %s   ports %u
+ui	一時停止	Paused
+ui	再生中	Playing
+ui	 Space: 一時停止  m: MIDI OUT  q / ESC: 止める	 Space: pause  m: MIDI OUT  q / ESC: stop
+ui	 q / ESC: やめる	 q / ESC: cancel
+ui	フォント ROM のライセンスとクレジット\n\nROM: %s（版 %lu.%lu、%lu 文字、フラッシュの 0x%08lX から）\n\n	Font ROM licenses and credits\n\nROM: %s (version %lu.%lu, %lu characters, from 0x%08lX in the flash)\n\n
+ui	== 収めているフォント（ROM の出所の表）==\n	== Fonts in the ROM (the origin table of the ROM) ==\n
+ui	  （表が無い ROM）\n	  (the ROM has no table)\n
+ui	\n== ROM のクレジットの区画 ==\n\n	\n== The credits area of the ROM ==\n\n
+ui	（区画が無い）\n	(no such area)\n
+ui	\n== 組み込んだソフトウェアのライセンス ==\n	\n== Licenses of the built-in software ==\n
+ui	 %s を PNG で保存   %s	 Saving %s as PNG   %s
+ui	画面	Screen
+ui	 組み立てています... %lu / %lu 行	 Building... %lu / %lu rows
+ui	 書いています... %lu / %lu KB（FB は隠しています）	 Writing... %lu / %lu KB (the FB is hidden)
+ui	書けませんでした	Could not write
+ui	書庫の名前（印の付いた項目、無ければカーソルの項目を入れる）	Archive name (the marked items, or the cursor item if none)
+ui	Enter 圧縮する  ←→ 動かす  BS / Del 消す  ESC やめる	Enter compress  ←→ move  BS / Del delete  ESC cancel
+ui	WAV 書き出し: %s 中止（%s）	WAV export: %s canceled (%s)
+ui	WAV 書き出し: %s 失敗（%s）	WAV export: %s failed (%s)
+ui	WAV 書き出し: %s 合計 %s	WAV export: %s total %s
+ui	 WAV 書き出し（96kHz / 24bit）: %s	 WAV export (96kHz / 24bit): %s
+ui	中止しました	Canceled
+ui	失敗しました	Failed
+ui	 合計 %s	 Total %s
+ui	 中止しました（%s。半端なファイルは消しました）	 Canceled (%s; the partial file was deleted)
+ui	 書き出せませんでした（%s）。理由:	 Could not export (%s). Reason:
+ui	 （理由は分かりません）	 (reason unknown)
+ui	 %u%%   経過 %s%s	 %u%%   elapsed %s%s
+ui	 ESC: 止める（半端なファイルは消します）	 ESC: stop (the partial file is deleted)
+ui	書庫: %s	Archive: %s
+ui	読み込み中…（ESC でやめる）	Reading... (ESC to cancel)
+ui	 %u 項目%s  合計 %s バイト  展開先: %s	 %u items%s  total %s bytes  extract to: %s
+ui	 Enter 項目を展開  X 全部を展開  ↑↓ 動かす  ESC 閉じる	 Enter extract item  X extract all  ↑↓ move  ESC close
+ui	圧縮	Compress
+ui	一覧	List
+ui	展開	Extract
+ui	 合計 %s   %u 項目	 Total %s   %u items
+ui	 合計 %s   %u ファイル	 Total %s   %u files
+ui	 中止しました（%s。書きかけのファイルは消しました）	 Canceled (%s; the unfinished file was deleted)
+ui	 できませんでした（%s）: %s	 Could not do it (%s): %s
+ui	 %u%%   経過 %s   %s バイト%s	 %u%%   elapsed %s   %s bytes%s
+ui	 経過 %s   %s バイト%s	 elapsed %s   %s bytes%s
+ui	 ESC: 止める（書きかけのファイルは消します）	 ESC: stop (the unfinished file is deleted)
+ui	書庫: %s 失敗（%s）	Archive: %s failed (%s)
+ui	圧縮: %s（%u 項目）	Compressed: %s (%u items)
+ui	展開: %s（%u ファイル）	Extracted: %s (%u files)

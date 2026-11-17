@@ -1,0 +1,1161 @@
+# sgnano filer strings: Українська. Machine translation (unreviewed; 2026-11-04).
+@lang uk
+@name Українська
+ui	一覧（ファイルとフォルダを 2 列 x 19 行に並べる）	Список (файли та папки, упорядковані у 2 стовпці x 19 рядків)
+ui	カーソルを動かす（左右は隣の列へ）	Перемістити курсор (вліво і вправо до наступного стовпця)
+ui	前のページ / 次のページ	Попередня сторінка / Наступна сторінка
+ui	全部に印 / 印を反転（PC-98 FD と同じ）	Позначити все / інвертувати позначки (як PC-98 FD)
+ui	先頭 / 最後	Перший/Останній
+ui	印を付けて次へ / 印だけ付ける	Позначити й далі / лише позначити
+ui	Shift+矢印	Shift+стрілка
+ui	範囲を選ぶ（Space でその範囲に印）	Вибрати діапазон (Space позначає діапазон)
+ui	フォルダに入る・ファイルを開く（F2/X は実行）	Увійти в теку / відкрити файл (F2/X запуск)
+ui	上のフォルダへ	Перейти до верхньої папки
+ui	ドライブを選ぶ（USB・フロッピー・CD・S: 内蔵）	Виберіть дисковод (USB, дисковод, CD, S: вбудований)
+ui	コピー（Shift+C / Shift+F3 は行き先を木から）	Копіювати (Shift+C / Shift+F3 вибір місця з дерева)
+ui	移動	рухатися
+ui	削除（Shift+D / Shift+F4 はフォルダ削除）	Видалити (Shift+D / Shift+F4 видалити теку)
+ui	名前を変える	змінити назву
+ui	属性を変える	Змінити атрибути
+ui	エディタで開く	відкрити в редакторі
+ui	テキスト表示（Shift+V / Ctrl+Alt+F7 は 16 進）	Переглянути як текст (Shift+V / Ctrl+Alt+F7 hex)
+ui	ドライブの情報	Відомості про диск
+ui	フォルダを作る / 新しいファイル	Нова тека / новий файл
+ui	シェル sgsh / 媒体を取り出す	Shell sgsh / вийняти носій
+ui	読み直す	Перечитати
+ui	見えている画面を PNG で保存	Зберегти екран як PNG
+ui	窓を閉じる・選択を解く（サブフォルダでは上位へ）	Закрити вікно / зняти виділення (у підтеці: вгору)
+ui	ファイルの操作（FD と同じ。印・範囲・カーソルの順に選ぶ）	Дії з файлами (як FD: позначки, потім діапазон, потім курсор)
+ui	コピー: 行き先はドライブとフォルダの木から。ESC で止める	Копіювання: виберіть місце в дереві дисків і тек. ESC зупиняє
+ui	削除: y で確かめる。印・範囲をまとめて。フォルダは中身ごと	Видалення: підтвердьте y. Позначки й діапазони разом. Теки з вмістом
+ui	フォルダを削除（中身ごと）	Видалити теку (з вмістом)
+ui	名前を変える（今の名前を直して Enter）	Змініть назву (виправте поточну назву та натисніть Enter)
+ui	属性: R 読み出し専用・H 隠し・S システム・A アーカイブ	Атрибути: R лише читання, H прихований, S системний, A архівний
+ui	フォルダを作る	Нова тека
+ui	新しいファイル（空）を作る	Новий (порожній) файл
+ui	テキストで表示（Shift+V / Ctrl+Alt+F7 は 16 進）	Переглянути як текст (Shift+V / Ctrl+Alt+F7 hex)
+ui	シェル sgsh（exit / Ctrl-D でファイラーへ）	Shell sgsh (exit / Ctrl-D назад до менеджера файлів)
+ui	選んでいるドライブの素性（INQUIRY・IDENTIFY）	Ідентичність вибраного диска (ЗАПИТ/ІДЕНТИФІКАЦІЯ)
+ui	FDD・LS-120・CD の媒体を取り出す	Вийняти носій FDD / LS-120 / CD
+ui	一覧を読み直す（CD は TOC から）	Перечитати список (CD: з TOC)
+ui	ZMODEM で PC から受け取る（zm.sh put）	Прийняти з ПК через ZMODEM (zm.sh put)
+ui	ZMODEM で PC へ送る（zm.sh get）	Надіслати на ПК через ZMODEM (zm.sh get)
+ui	.rb をコンパイルして .mrb を書き出す	Скомпілюйте .rb і запишіть .mrb
+ui	Ruby の REPL（1 行ずつ、Ctrl-D / ESC で終わり）	Ruby REPL (по рядку, Ctrl-D / ESC для завершення)
+ui	MicroPython の REPL	MicroPython REPL
+ui	4MB ずつ分割 / .001 から結合	Розділити на частини по 4 МБ / з'єднати з .001
+ui	分割 / 結合（Ctrl+F11 / F12 と同じ）	Розділити / з'єднати (як Ctrl+F11 / F12)
+ui	画面（Alt+F。FD の F キーとぶつからない）	Екран (Alt+F, не конфліктує з клавішами F у FD)
+ui	FB（絵）/ テキスト面を出す・隠す	FB (картинка)/Показати/сховати текстову сторону
+ui	FB の表示ページ（0〜3）	Сторінка показу FB (0-3)
+ui	FB を 0 で消す / 明るさを 1/2 に（RGB555）	Очистити FB до 0 / зменшити яскравість удвічі (RGB555)
+ui	USB のエンドポイントと LAN の状態	Кінцева точка USB і стан локальної мережі
+ui	FB の表示ページを消す / 明るさを 1/2 に	Очистити сторінку показу FB / зменшити яскравість удвічі
+ui	テキストの属性の見本	Зразок атрибутів тексту
+ui	モニタの EDID（起動時に読んだもの）	Монітор EDID (читання під час запуску)
+ui	フォント ROM のライセンスとクレジット	Ліцензії та кредити ПЗП шрифтів
+ui	設定（表示の言語・IME・キーボードロケール）	Налаштування (мова відображення, IME, мовні налаштування клавіатури)
+ui	時計（NTP で合わせた日本時間。s ですぐ合わせる）	Годинник (час у Японії встановлюється за допомогою NTP. Встановлюється негайно за допомогою s)
+ui	表計算（SGCALC）を開く	Відкрити електронну таблицю (SGCALC)
+ui	S: ドライブのエラー検査（誤りがあれば直すか聞く）	Перевірити S: (питає перед виправленням)
+ui	トラッカー（TRACKER）を開く	Відкрийте TRACKER
+ui	再起動（確かめの窓が出る）	Перезапустіть (з'явиться вікно підтвердження)
+ui	ADC のステレオ入力（GP40 / 41）を鳴らす	Відтворення стерео входу АЦП (GP40/41)
+ui	VGM/VGZ を 96kHz/24bit WAV に書き出す	Експортувати VGM/VGZ у WAV 96 кГц / 24 біти
+ui	このヘルプ	Ця допомога
+ui	ページを替える	змінити сторінку
+ui	閉じる	Закрити
+ui	テキスト・16 進のビュアー（less 風）	Перегляд тексту/шістнадцяткового формату (менше стилю)
+ui	1 行	One line
+ui	1 ページ	One page
+ui	半ページ	половина сторінки
+ui	探す（前へ・後ろへ）/ 次・前	Пошук (попередній/назад)/наступний/попередній
+ui	一覧へ戻る（F1 はビュアーのヘルプ）	Повернутися до списку (F1 — довідка переглядача)
+ui	画像のビュアー	переглядач зображень
+ui	一覧へ戻る（F2 F3 F6 F7 Shift+F2 F3 は効く）	Повернутися до списку (F2 F3 F6 F7 Shift+F2 F3 працює)
+ui	エディタ（E / Shift+F8）	Редактор (E / Shift+F8)
+ui	保存する（UTF-8。改行と BOM は元のまま）	Зберегти (UTF-8; розриви рядків і специфікація залишаються оригінальними)
+ui	閉じる（変わっていれば Y / N / ESC）	Закрити (Y/N/ESC, якщо змінено)
+ui	挿入 / 上書き	вставити/перезаписати
+ui	IME（日本語・英語・ハングル）の入・切	Увімкнення/вимкнення IME (японська/англійська/хангул)
+ui	IME の言語（日本語 / English / 한국어）	Мова IME (японська / англійська / 한국어)
+ui	ひらがな / カタカナで確定	Підтверджено хіраґаною/катаканою
+ui	エディタのヘルプ	Довідка редактора
+ui	シェル	оболонка
+ui	シェル（csh のサブセット。exit / Ctrl-D で戻る、help で一覧）	Shell (підмножина csh. exit / Ctrl-D назад, help — список команд)
+ui	一覧と移動	Список і переміщення
+ui	ファイルの操作	Файлові операції
+ui	画面と機器	екран і обладнання
+ui	ビュアーとエディタ	глядач і редактор
+ui	ヘルプ  %u / %u  %s	Допомога %u / %u %s
+ui	Left Right: ページを替える    F1 / ESC: 閉じる	Ліворуч Праворуч: змінити сторінку F1 / ESC: закрити
+ui	sgnano を再起動しますか？	Ви хочете перезапустити sgnano?
+ui	[ 再起動 ]	[Перезапустити]
+ui	[ キャンセル ]	[Скасувати]
+ui	S: ドライブのエラー検査	Перевірити диск S: на помилки
+ui	ファイル %lu  フォルダ %lu	Файли %lu  теки %lu
+ui	大きさが鎖と合わない	Розмір не відповідає ланцюжку
+ui	どこからも使われていないクラスタ	Кластери, які ніщо не використовує
+ui	重なったクラスタ	Перехресно зв'язані кластери
+ui	壊れた項目	Пошкоджені записи
+ui	FAT の 2 つの写しの食い違い	Дві копії FAT різняться
+ui	エラーはありません。	Помилок немає.
+ui	エラーが見つかりました。修復しますか？	Знайдено помилки. Виправити?
+ui	修復しました（上は直した数）。	Виправлено (числа вище виправлено).
+ui	検査・修復できませんでした（S: が使用中）。	Не вдалося перевірити чи виправити (S: зайнятий).
+ui	[ 修復する ]	[ Виправити ]
+ui	[ やめる ]	[ Скасувати ]
+ui	何かキーで閉じる	закрити будь-яким ключем
+ui	設定	налаштування
+ui	表示の言語	Мова дисплея
+ui	キーボードロケール	мова клавіатури
+ui	Up / Down  Enter 決める  ESC やめる	Вгору/Вниз Введіть Вирішіть ESC Стоп
+ui	表示の言語 (Language)	Мова дисплея
+ui	Up / Down  Enter 決める  ESC 戻る	Вгору/Вниз Введіть Вирішіть ESC Назад
+ui	%c: をどの文字に固定しますか（A〜Z、S を除く。ESC でやめる）	Закріпити %c: за якою літерою? (A-Z, крім S. ESC скасовує)
+ui	ドライブ  文字 / Enter 選ぶ  F2 文字を固定・解除  F3 文字を決めて固定  L / ESC やめる	Диск  літера / Enter вибір  F2 закріпити/відкріпити  F3 закріпити як...  L / ESC скасувати
+ui	  区画 %u	  розділ %u
+ui	%c:* （固定・つながっていません）%04X:%04X%s  %s	%c:* (закріплено, не під'єднано) %04X:%04X%s  %s
+ui	お知らせ	Повідомлення
+ui	ドライブ %c:  %s	Проїхати %c: %s
+ui	ドライブ  (なし)	Диск (немає)
+ui	音楽 CD  %u トラック	Музичний компакт-диск %u трек
+ui	フォルダ %u  ファイル %u  合計 %s	Папка %u Файли %u Всього %s
+ui	読んでいます...	читання...
+ui	* 印 %u 個  %s	* позначити %u штук %s
+ui	%lu バイト	%lu байт
+ui	属性 %s   更新日時 %s   作成日時 %s   %s	Атрибут %s Дата й час написання %s Дата й час створення %s %s
+ui	日	день
+ui	月	місяць
+ui	火	вогонь
+ui	水	води
+ui	木	дерево
+ui	金	гроші
+ui	土	ґрунт
+ui	時計は合わせていません（LAN の NTP）	Годинник не встановлено (NTP в локальній мережі)
+ui	FB  表示 %u  書込 %u	FB дисплей %u запис %u
+ui	1 ヘルプ	1 Help
+ui	2 実行	2 Run
+ui	3 ｺﾋﾟｰ	3 Copy
+ui	4 削除	4 Del
+ui	5 名前	5 Rename
+ui	7 FB消去	7 FBclr
+ui	8 FB減光	8 FBdim
+ui	9 ﾄﾞﾗｲﾌﾞ	9 Drive
+ui	10 EP表	10 EPs
+ui	11 時計	11 Clock
+ui	12 表計	12 CALC
+ui	1 属性	1 Attr
+ui	2 情報	2 Info
+ui	3 移動	3 Move
+ui	5 作成	5 Mkdir
+ui	6 シェル	6 Shell
+ui	8 編集	8 Edit
+ui	9 表示	9 View
+ui	10S:検査	10 S:chk
+ui	11 ﾄﾗｯｸ	11 TRACK
+ui	12再起動	12Reboot
+ui	1 新規	1 New
+ui	2 ﾌｫﾙﾀﾞ	2 Folder
+ui	3 名前	3 Rename
+ui	4 属性	4 Attrib
+ui	6 ｺﾋﾟｰ	6 Copy
+ui	7 移動	7 Move
+ui	8 削除	8 Delete
+ui	9 編集	9 Edit
+ui	10ｺﾝﾊﾟｲﾙ	10 mrbc
+ui	11 分割	11 Split
+ui	12 結合	12 Join
+ui	1 属性例	1 Attrs
+ui	2 FB切替	2 FB
+ui	3 文字面	3 Text
+ui	5 画面写	5 ScrSht
+ui	6 表示頁	6 DispPg
+ui	9 ZM受信	9 ZMrecv
+ui	10ZM送信	10ZMsend
+ui	2 FB消去	2 FBClr
+ui	3 FB減光	3 FBDim
+ui	5 再読込	5 Reload
+ui	7 16進	7 Hex
+ui	9 ﾗｲｾﾝｽ	9 Lic
+ui	8 設定	8 Setup
+ui	時刻を合わせる（日本時間。NTP で合わせられませんでした）	Налаштувати годинник (японський час. NTP не зміг)
+ui	起動のパラメタ	Запуск з параметрами
+ui	新しいフォルダ	нова папка
+ui	新しいファイル	новий файл
+ui	時刻:	Час:
+ui	実行:	Запуск:
+ui	名前:	Ім'я:
+ui	年-月-日 時:分  Enter 合わせる  ESC そのまま	YYYY-MM-DD hh:mm  Enter встановити  ESC залишити
+ui	Enter 走らせる  ←→ 動かす  BS / Del 消す  ESC やめる	Enter запуск  <-> рух  BS / Del видалити  ESC скасувати
+ui	Enter 変える  ←→ 動かす  BS / Del 消す  ESC やめる	Enter перейменувати  <-> рух  BS / Del видалити  ESC скасувати
+ui	Enter 作る  ←→ 動かす  BS / Del 消す  ESC やめる	Enter створити  <-> рух  BS / Del видалити  ESC скасувати
+ui	消す	стерти
+ui	個の項目	 елементів
+ui	フォルダは中身ごと消します。よろしいですか？	Теки видаляються разом із вмістом. Ви впевнені?
+ui	このファイルを消しますか？	Ви бажаєте видалити цей файл?
+ui	（元に戻せません。フォルダの中のファイルも消えます）	(Цього не скасувати. Файли в теках теж буде видалено)
+ui	[ はい (Y) ]	[Так (Y)]
+ui	[ いいえ (N) ]	[Ні (N)]
+ui	バイナリビュアー: ファイルを選んでください	Двійковий переглядач: виберіть файл
+ui	テキストビュアー: ファイルを選んでください	Перегляд тексту: виберіть файл
+ui	移動先	призначення
+ui	コピー先	Копіювати призначення
+ui	バッファがいっぱいです (buffer full)	буфер повний
+ui	読み出し専用のドライブです (read-only)	Це диск лише для читання.
+ui	保存できません (no writer)	Неможливо зберегти (немає автора)
+ui	保存を始められません (the drive is busy?)	Неможливо почати збереження (диск зайнятий?)
+ui	保存しています... (saving)	Збереження... (збереження)
+ui	2 保存	2 Save
+ui	5 色分け	5 Colour
+ui	6 ﾞ	6 Hira
+ui	7 ｶﾀｶﾅ	7 Kata
+ui	8 予測	8 Pred
+ui	10 終了	10 Quit
+ui	1 先頭	1 Top
+ui	2 最後	2 End
+ui	3 挿/上	3 InsOvr
+ui	4 辞書	4 Dict
+ui	6 半	6 HHira
+ui	7 半ｶﾅ	7 HKata
+ui	 %s  %s  行 %lu/%lu 桁 %u  %s  %s %s%s%s	 %s %s рядок %lu/%lu стовпець %u %s %s %s%s%s
+ui	*変更	*Змінити
+ui	上書	Перезаписати
+ui	挿入	вставка
+ui	  読出専用	  тільки для читання
+ui	 エディタ (sgnano edit)                      F1 / ESC で閉じる	 Редактор (sgnano edit) Закрийте за допомогою F1 / ESC
+ui	 矢印 / Home End / PgUp PgDn   カーソルを動かす	 Стрілка / Home End / PgUp PgDn Перемістити курсор
+ui	 Ctrl-T / Ctrl-B               ファイルの先頭 / 最後	 Ctrl-T / Ctrl-B Початок / Кінець файлу
+ui	 BS / Del                      前の字 / カーソルの字を消す	 BS / Del Видалити попередній символ / символ під курсором
+ui	 Enter                         改行（前の行の字下げを引き継ぐ）	 Введіть розрив рядка (успадковує відступ від попереднього рядка)
+ui	 Tab / Ins                     タブ / 挿入と上書きの切り替え	 Tab / Ins Tab / Перемикання між вставкою та перезаписом
+ui	 F5                            色分け（拡張子から。C/C++・mruby・MicroPython・SG BASIC・なし）	 F5                            Підсвічування (за розширенням; C/C++, mruby, MicroPython, SG BASIC, немає)
+ui	 F2  (Ctrl-S)                  保存（UTF-8、改行は元の形）	 F2 (Ctrl-S) Зберегти (UTF-8, розриви рядків у вихідній формі)
+ui	 F10 / ESC                     閉じる（変更があれば聞く）	 F10 / ESC Закрити (прослухати будь-які зміни)
+ui	 IME:  Ctrl-Space / F12        オン・オフ（あ / A）	IME: Ctrl-пробіл / F12 увімк./вимк. (A / A)
+ui	       F9                      IME の言語（このエディタの間だけ。閉じると戻る）	       F9 Мова IME (тільки під час цього редактора; повертається після закриття)
+ui	       F8                      日本語の予測変換 オン・オフ	       F8 Увімкнення/вимкнення інтелектуального перетворення японської мови
+ui	       日本語                  ローマ字 -> ひらがな（F6）・カタカナ（F7）	       Японська ромадзі -> хірагана (F6) / катакана (F7)
+ui	                               半角ひらがな（Shift+F6）・半角カタカナ（Shift+F7）	                               Хірагана половинної ширини (Shift+F6) / катакана половинної ширини (Shift+F7)
+ui	                               2 字以上で予測、Space で連文節変換	                               Передбачення з 2 або більше символів, перетворення безперервного речення за допомогою пробілу
+ui	       English                 2 字以上で予測補完	       Англійська Прогнозне завершення з 2 або більше символів
+ui	       한국어                  2 ボル式ハングル	       한국어 2 хангиль у стилі Бол
+ui	       Space / Enter           変換 / 確定	       Пробіл / Enter Перетворити / Підтвердити
+ui	       ← →                    文節を選ぶ	       ← → Виберіть фразу
+ui	       Shift+← →               文節の右端を 1 字 縮/拡（候補を出し直す）	       Shift+← → Скоротити/подовжити правий край фрази на один символ (нові варіанти)
+ui	       ↑ ↓ / Tab               候補の窓で前 / 次の候補（窓は変換の下、画面の下では上）	       ↑ ↓ / Tab               Попередній / наступний варіант у вікні (під текстом, над ним біля низу)
+ui	       →→→ で Enter            すべての候補（2 列 x 8 個、← → で列とページ、Enter で決める）	       Enter на →→→            Усі варіанти (2 x 8, ← → стовпець і сторінка, Enter вибір)
+ui	       Enter                   次の文節へ（最後の文節で全体を確定）	       Enter                   Наступна фраза (на останній підтверджує все)
+ui	       Ctrl-U                  いまの語をユーザー辞書へ	Ctrl-U Додати поточне слово до словника користувача
+ui	 Shift+F1 / F2 / F3 / F4       先頭 / 最後 / 挿入と上書き / ユーザー辞書へ	 Shift+F1 / F2 / F3 / F4       Початок / кінець / вставка-заміна / у словник користувача
+ui	       BS / ESC                1 字戻す / 取り消し	       BS / ESC Повернутися на один символ назад / Скасувати
+ui	       , . - [ ] /             、 。 ー 「 」 ・	       , . - [ ] / , . - " " ・
+ui	変更あり  Y: 保存して閉じる  N: 保存せず閉じる  ESC: 戻る	Змінено  Y: зберегти й закрити  N: закрити без збереження  ESC: назад
+ui	[予測] Tab/↑↓: 候補  Space: 変換  Esc: 取消	[Передбачення] Tab/↑↓: варіант  Space: перетворити  Esc: скасувати
+ui	[候補] ↑↓: 選ぶ  ←→: 列・ページ  Enter: 決める	[Варіанти] ↑↓: вибір  ←→: стовпець/сторінка  Enter: взяти
+ui	[変換] ↑↓候補 ←→文節 Shift+←→区切り Enter次へ	[Перетвор.] ↑↓варіант ←→фраза Shift+←→межа Enter далі
+ui	[한국어] Tab/↑↓: 候補  Enter/Space: 確定	[한국어] Tab/↑↓: варіант  Enter/Space: підтвердити
+ui	[English] Tab/↑↓: 候補  Enter: 確定	[English] Tab/↑↓: варіант  Enter: підтвердити
+ui	2ボル式ハングル入力  Ctrl-Space: 英数	Введення хангиль (2 набори)  Ctrl-Space: латиниця й цифри
+ui	予測補完  Ctrl-Space: 直接入力	Передбачуване доповнення  Ctrl-Space: пряме введення
+ui	辞書なし: ひらがな/カタカナ入力のみ  F6/F7	Немає словника: лише хірагана/катакана  F6/F7
+ui	Space: 変換  F7: カタカナ  Ctrl-Space: 英数	Space: перетворити  F7: катакана  Ctrl-Space: латиниця й цифри
+ui	Space: 変換  F6: ひらがな  Ctrl-Space: 英数	Space: перетворити  F6: хірагана  Ctrl-Space: латиниця й цифри
+ui	半角  F6: ひらがな  F7: カタカナ  Shift+F6/F7: 半角	Половинна ширина  F6: хірагана  F7: катакана  Shift+F6/F7: половинна
+ui	IME オフ	IME вимкнено
+ui	 予測	 передбачення
+ui	日本語の予測変換: オン	Інтелектуальний переклад японською мовою: Увімк
+ui	日本語の予測変換: オフ	Інтелектуальний переклад для японської: вимкнено
+ui	日本語IMEで使います	Використовуйте з IME японською мовою
+ui	ユーザー辞書に追加できません	Неможливо додати до словника користувача
+ui	色分け: %s	Підсвічування: %s
+ui	読み込んでいます... (loading)	Завантаження... (завантаження)
+ui	読み込めませんでした (could not read)	не міг прочитати
+ui	%lu 行%s%s	%lu лінія%s%s
+ui	  Shift_JIS を UTF-8 で開きました（保存は UTF-8）	  Shift_JIS відкрито в UTF-8 (збережено в UTF-8)
+ui	  読み出し専用	  тільки для читання
+ui	保存しました (saved)	збережено
+ui	保存できませんでした (write failed)	Не вдалося зберегти (не вдалося записувати)
+ui	候補	Варіанти
+ui	7 書込頁	7 WrtPg
+ui	9 ﾃｷｽﾄ	9 Text
+ui	9 ﾊﾞｲﾅﾘ	9 Hex
+ui	読み込み中 %lu%%  	Завантаження %lu%%
+ui	（先頭だけ）  	(тільки початок)
+ui	16 進  q ESC: 戻る  F1: ヘルプ	hex q ESC: Назад F1: Довідка
+ui	テキスト  q ESC: 戻る  F1: ヘルプ	Текст q ESC: Назад F1: Довідка
+ui	ビュアーのキー（less 風。テキストと 16 進で共通）	Ключ перегляду (менше стилю, загальний для тексту та шістнадцяткового)
+ui	1 行進む	вперед на один рядок
+ui	1 行戻る	Поверніться на один рядок назад
+ui	1 ページ進む	Перейти на одну сторінку вперед
+ui	1 ページ戻る	Повернутися на 1 сторінку назад
+ui	半ページ進む / 戻る	Перейти на півсторінки вперед / повернутися назад
+ui	/文字列  ?文字列	/string ?рядок
+ui	下へ探す / 上へ探す（大文字小文字は区別しない）	Пошук вниз / Пошук вгору (незалежно від регістру)
+ui	次 / 前を探す	Знайти наступний/попередній
+ui	16 進で表示する（いま見ている所のまま）	Відображення в шістнадцятковому форматі (як ви зараз переглядаєте)
+ui	テキストで表示する（いま見ている所のまま）	Відображати як текст (як ви зараз переглядаєте)
+ui	色分けを替える（C/C++・mruby・MicroPython・SG BASIC・なし）	Змінити підсвічування (C/C++, mruby, MicroPython, SG BASIC, немає)
+ui	FB / テキスト面を出す・隠す	FB / Показати/сховати текстову сторону
+ui	FB の表示ページ / 書き込みページ	Сторінка відображення FB/сторінка запису
+ui	ファイラーへ戻る	Повернутися до файлера
+ui	このヘルプを閉じる	Закрийте цю довідку
+ui	コピー	копія
+ui	 %s: フォルダを読んでいます... %u 個	 %s: папка для читання... %u штук
+ui	 %s: 行き先の空きを数えています...	 %s: підрахунок доступності в пункті призначення...
+ui	 %s: 行き先の空きが足りません	 %s: Недостатньо місця в пункті призначення
+ui	 移動: 元のフォルダを消しています	Перемістити: видалення оригінальної папки
+ui	終了しました	Готово
+ui	止まりました	Воно зупинилося
+ui	 %s中%s	 %s з %s
+ui	（止めています）	(зупинено)
+ui	 元: %s	 Звідки: %s
+ui	 先: %s	 Куди: %s
+ui	 ファイル %u / %u 個  フォルダ %u 個  %s / %s  (%u%%)%s	 Файли %u / %u Папки %u %s / %s (%u%%)%s
+ui	  多すぎるので一部だけ	  Їх занадто багато, тому лише деякі
+ui	 要る大きさ %s、空き %s。続けますか？	 Необхідний розмір %s, вільне місце %s. Ви хочете продовжити?
+ui	 Y: 続ける   N / ESC: やめる	 Y: Продовжити N / ESC: Зупинити
+ui	 何かキーを押すと閉じます	 Натисніть будь-яку клавішу, щоб закрити
+ui	 ESC: 止める	 ESC: зупинка
+ui	 %s: ←→ ドライブ  ↑↓ フォルダ  Space 開く・閉じる  Enter 決める  ESC やめる	 %s: ←→ Диск ↑↓ Простір папки Відкрити/Закрити Ввести Вирішити ESC Вийти
+ui	 読めません: %s	Нечитабельно: %s
+ui	 フォルダを読んでいます...（ESC で止める）  %u 個	 Читання папки... (зупинити за допомогою ESC) %u шт
+ui	 フォルダ %u 個%s	 Папка %u шт.%s
+ui	（多すぎるか深すぎるので、一部だけ）	(Їх занадто багато або занадто глибоко, тому лише деякі)
+ui	フォルダの展開を止めました	Я перестав витягувати папку.
+ui	Space で開き直せます。もう一度 ESC でやめます	Ви можете знову відкрити його за допомогою пробілу. Натисніть ESC ще раз, щоб вийти
+ui	 SMF / SGT プレイヤー   %s	 Гравець SMF / SGT %s
+ui	 読み込んでいます... %lu / %lu バイト	 Завантаження... %lu / %lu байт
+ui	 %s / %s   %s   ポート %u	 %s / %s %s порт %u
+ui	一時停止	пауза
+ui	再生中	Зараз грає
+ui	 Space: 一時停止  m: MIDI OUT  q / ESC: 止める	 Space: пауза  m: MIDI OUT  q / ESC: стоп
+ui	 q / ESC: やめる	q / ESC: Вийти
+ui	フォント ROM のライセンスとクレジット\n\nROM: %s（版 %lu.%lu、%lu 文字、フラッシュの 0x%08lX から）\n\n	Ліцензії та кредити ПЗП шрифтів\n\nПЗУ: %s (версія %lu.%lu, символ %lu, від 0x%08lX у флеш-пам’яті)
+ui	== 収めているフォント（ROM の出所の表）==\n	== Включені шрифти (вихідна таблиця ПЗУ) ==
+ui	  （表が無い ROM）\n	(ROM без таблиці)
+ui	\n== ROM のクレジットの区画 ==\n\n	== Розділ кредитів ROM ==
+ui	（区画が無い）\n	(Поділу немає)
+ui	\n== 組み込んだソフトウェアのライセンス ==\n	\n== Ліцензії вбудованого програмного забезпечення ==\n
+ui	 %s を PNG で保存   %s	Зберегти %s як PNG %s
+ui	画面	екран
+ui	 組み立てています... %lu / %lu 行	Збирання... рядок %lu / %lu
+ui	 書いています... %lu / %lu KB（FB は隠しています）	Я пишу... %lu / %lu КБ (FB приховано)
+ui	書けませんでした	Я не міг писати
+ui	書庫の名前（印の付いた項目、無ければカーソルの項目を入れる）	Назва архіву (позначені елементи, або елемент під курсором)
+ui	Enter 圧縮する  ←→ 動かす  BS / Del 消す  ESC やめる	Enter стиснути  ←→ рух  BS / Del стерти  ESC скасувати
+ui	WAV 書き出し: %s 中止（%s）	Експорт WAV: %s скасовано (%s)
+ui	WAV 書き出し: %s 失敗（%s）	Експорт WAV: %s помилка (%s)
+ui	WAV 書き出し: %s 合計 %s	Експорт WAV: %s разом %s
+ui	 WAV 書き出し（96kHz / 24bit）: %s	 Експорт WAV (96kHz / 24bit): %s
+ui	中止しました	Скасовано
+ui	失敗しました	Помилка
+ui	 合計 %s	 Разом %s
+ui	 中止しました（%s。半端なファイルは消しました）	 Скасовано (%s; неповний файл видалено)
+ui	 書き出せませんでした（%s）。理由:	 Не вдалося експортувати (%s). Причина:
+ui	 （理由は分かりません）	 (причина невідома)
+ui	 %u%%   経過 %s%s	 %u%%   минуло %s%s
+ui	 ESC: 止める（半端なファイルは消します）	 ESC: зупинити (неповний файл буде видалено)
+ui	書庫: %s	Архів: %s
+ui	読み込み中…（ESC でやめる）	Читання... (ESC — скасувати)
+ui	 %u 項目%s  合計 %s バイト  展開先: %s	 %u елементів%s  разом %s байт  куди розпакувати: %s
+ui	 Enter 項目を展開  X 全部を展開  ↑↓ 動かす  ESC 閉じる	 Enter розпакувати  X усе  ↑↓ рух  ESC закрити
+ui	圧縮	Стиснути
+ui	一覧	Список
+ui	展開	Розпакувати
+ui	 合計 %s   %u 項目	 Разом %s   %u елементів
+ui	 合計 %s   %u ファイル	 Разом %s   %u файлів
+ui	 中止しました（%s。書きかけのファイルは消しました）	 Скасовано (%s; недописаний файл видалено)
+ui	 できませんでした（%s）: %s	 Не вдалося (%s): %s
+ui	 %u%%   経過 %s   %s バイト%s	 %u%%   минуло %s   %s байт%s
+ui	 経過 %s   %s バイト%s	 минуло %s   %s байт%s
+ui	 ESC: 止める（書きかけのファイルは消します）	 ESC: зупинити (недописаний файл буде видалено)
+ui	書庫: %s 失敗（%s）	Архів: %s помилка (%s)
+ui	圧縮: %s（%u 項目）	Стиснуто: %s (%u елементів)
+ui	展開: %s（%u ファイル）	Розпаковано: %s (%u файлів)
+msg.phrase	the drive went away	диск пішов
+msg.phrase	reading the partitions again...	знову читаю розділи...
+msg.phrase	could not open the volume (no memory?)	не вдалося відкрити том (немає пам'яті?)
+msg.phrase	opening the volume...	відкриття тома...
+msg.phrase	no memory for the file list	немає пам'яті для списку файлів
+msg.phrase	reading the directory... (retrying)	читання каталогу... (повторна спроба)
+msg.phrase	could not read the directory	не вдалося прочитати каталог
+msg.phrase	reading the directory...	читаю довідник...
+msg.phrase	the drive did not answer -- reading the partitions again	диск не відповідає -- знову читаю розділи
+msg.phrase	could not read the directory (not FAT12/16/32?)	не вдалося прочитати каталог (не FAT12/16/32?)
+msg.phrase	too many entries -- showing the first ones	занадто багато записів -- показ перших
+msg.phrase	no file system found on this partition	у цьому розділі не знайдено жодної файлової системи
+msg.phrase	the path is too long	шлях занадто довгий
+msg.phrase	joining...	приєднання...
+msg.phrase	splitting...	розщеплення...
+msg.phrase	renaming...	перейменування...
+msg.phrase	creating the folder...	створення папки...
+msg.phrase	creating the file...	створення файлу...
+msg.phrase	deleting...	видалення...
+msg.phrase	writing the attributes...	написання атрибутів...
+msg.phrase	the drive is busy	диск зайнятий
+msg.phrase	busy	зайнятий
+msg.phrase	choose files or folders	вибрати файли або папки
+msg.phrase	choose files or folders (not "..")	виберіть файли або папки (не "..")
+msg.phrase	stop the CD first	спочатку зупиніть компакт-диск
+msg.phrase	the CD cannot be changed (copy instead)	CD не можна змінити (замість цього скопіюйте)
+msg.phrase	a system folder cannot be moved	системну папку неможливо перемістити
+msg.phrase	no drive can be written (FAT / exFAT / NTFS only)	жоден диск не можна записати (лише FAT / exFAT / NTFS)
+msg.phrase	the drive is gone	пропав диск
+msg.phrase	nothing chosen	нічого не вибрано
+msg.phrase	nothing selected	нічого не вибрано
+msg.phrase	could not start	не міг запуститися
+msg.phrase	could not open	не вдалося відкрити
+msg.phrase	only on a FAT / exFAT / NTFS drive	тільки на диску FAT / exFAT / NTFS
+msg.phrase	no name	без імені
+msg.phrase	that name already exists	така назва вже існує
+msg.phrase	could not start (bad name or the drive is busy)	не вдалося запустити (погане ім'я або диск зайнятий)
+msg.phrase	could not start (the drive is busy)	не вдалося запустити (диск зайнятий)
+msg.phrase	the name cannot have / or \\ (only inside this folder)	назва не може містити / або \\ (лише всередині цієї папки)
+msg.phrase	the name is the same	назва та сама
+msg.phrase	the item is read-only (A to change)	елемент доступний лише для читання (A для зміни)
+msg.phrase	choose a .rb file on a writable drive	виберіть файл .rb на записуваному диску
+msg.phrase	choose a .rb file	виберіть файл .rb
+msg.phrase	the drive is read-only	диск доступний лише для читання
+msg.phrase	choose a folder on a writable drive	виберіть папку на записуваному диску
+msg.phrase	wait a moment	почекай хвилинку
+msg.phrase	choose a file	виберіть файл
+msg.phrase	choose a file (not a folder)	вибрати файл (не папку)
+msg.phrase	choose a .001 file	виберіть файл .001
+msg.phrase	choose the .001 file	виберіть файл .001
+msg.phrase	put the IWAD in a DoomFiles or Doom2Files folder	помістіть IWAD у папку DoomFiles або Doom2Files
+msg.phrase	DoomFiles takes freedoom1 / doom / doomu / doom1.wad	DoomFiles використовує freedoom1 / doom / doomu / doom1.wad
+msg.phrase	Doom2Files takes freedoom2 / doom2 / plutonia / tnt.wad	Doom2Files використовує freedoom2 / doom2 / plutonia / tnt.wad
+msg.phrase	put the game files on external storage, not S:	помістіть файли гри на зовнішню пам'ять, а не на S:
+msg.phrase	the IWAD must be on a FAT / exFAT / NTFS drive (not a CD)	IWAD має бути на диску FAT / exFAT / NTFS (не на CD)
+msg.phrase	still working	все ще працює
+msg.phrase	an image is loading	завантажується зображення
+msg.phrase	no framebuffer	відсутність кадрового буфера
+msg.phrase	half brightness works only in RGB555	половина яскравості працює тільки в RGB555
+msg.phrase	clearing...	очищення...
+msg.phrase	halving the brightness...	зменшення яскравості вдвічі...
+msg.phrase	that is a data track	це трек даних
+msg.phrase	wait -- a file is being written	зачекайте -- записується файл
+msg.phrase	only floppy / LS-120 / CD drives	тільки дисководи для дискет / LS-120 / CD
+msg.phrase	requested	просив
+msg.phrase	reading the disc...	читаю диск...
+msg.phrase	stopping...	зупинка...
+msg.phrase	opening...	відкриття...
+msg.phrase	done	зроблено
+msg.phrase	no memory	немає пам'яті
+msg.phrase	already open	вже відкрито
+msg.phrase	already running	вже працює
+msg.phrase	already saving	вже економить
+msg.phrase	already playing	вже грає
+msg.phrase	no such drive	немає такого приводу
+msg.phrase	no PSRAM	немає PSRAM
+msg.phrase	no PSRAM for the file	немає PSRAM для файлу
+msg.phrase	no PSRAM for the line index	відсутність PSRAM для рядкового індексу
+msg.phrase	no PSRAM for the terminal	немає PSRAM для терміналу
+msg.phrase	no memory (PSRAM)	немає пам'яті (PSRAM)
+msg.phrase	no memory (32KB SRAM)	немає пам'яті (32KB SRAM)
+msg.phrase	no memory for the buffer	немає пам'яті для буфера
+msg.phrase	no memory for the image buffers	відсутність пам'яті для буферів зображень
+msg.phrase	no memory for the read buffer	немає пам'яті для буфера читання
+msg.phrase	no room for the work memory (close the lowres plane?)	немає місця для робочої пам'яті (закрити площину низької роздільної здатності?)
+msg.phrase	no framebuffer page	немає сторінки кадрового буфера
+msg.phrase	too large (4 MB at most)	занадто великий (не більше 4 МБ)
+msg.phrase	the file is too large (1 MB at most)	файл завеликий (не більше 1 МБ)
+msg.phrase	the file is too large (1 MB max)	файл завеликий (макс. 1 МБ)
+msg.phrase	too large for an SMF (1MB at most)	занадто великий для SMF (не більше 1 МБ)
+msg.phrase	the file is empty	файл порожній
+msg.phrase	could not open the file	не вдалося відкрити файл
+msg.phrase	could not read the file	не вдалося прочитати файл
+msg.phrase	could not open the volume	не вдалося відкрити том
+msg.phrase	could not open the destination (no memory?)	не вдалося відкрити пункт призначення (немає пам'яті?)
+msg.phrase	could not read the root folder	не вдалося прочитати кореневу папку
+msg.phrase	could not start the task	не вдалося розпочати завдання
+msg.phrase	could not start writing (bad name or busy)	не можу почати писати (погане ім'я або зайнятий)
+msg.phrase	another volume is open (busy)	інший том відкритий (зайнятий)
+msg.phrase	a copy is running	виконується копія
+msg.phrase	a folder cannot go into itself	папка не може зайти сама в себе
+msg.phrase	that is the same folder	це та сама папка
+msg.phrase	this drive cannot be changed (read only)	цей диск не можна змінити (лише читання)
+msg.phrase	the drive is not writable	на диск не можна записувати
+msg.phrase	the part size must be a multiple of 512	розмір частини повинен бути кратним 512
+msg.phrase	files of 4 GB or more are not supported	файли розміром 4 ГБ і більше не підтримуються
+msg.phrase	bad path	поганий шлях
+msg.phrase	bad file name	неправильне ім'я файлу
+msg.phrase	the font ROM is not there	ПЗУ шрифтів немає
+msg.phrase	the sound is not open	звук не відкритий
+msg.phrase	no such channel	немає такого каналу
+msg.phrase	the sequencer is busy	секвенсор зайнятий
+msg.phrase	not enough PSRAM for the song	недостатньо PSRAM для пісні
+msg.phrase	not a standard MIDI file (no MThd)	не стандартний файл MIDI (без MThd)
+msg.phrase	no tracks	немає доріжок
+msg.phrase	a track is broken (MTrk)	колія зламана (MTrk)
+msg.phrase	SMPTE time division is not supported	Поділ часу SMPTE не підтримується
+msg.phrase	SMF format 2 is not supported (0 and 1 only)	Формат SMF 2 не підтримується (лише 0 і 1)
+msg.phrase	not a Bulk-Only drive	а не накопичувач лише для масового використання
+msg.phrase	not an optical drive	не оптичний привід
+msg.phrase	a system folder cannot be deleted or renamed	a system folder cannot be deleted or renamed
+msg.phrase	no media in the drive	у дисководі немає носія
+msg.phrase	becoming ready	стає готовим
+msg.phrase	not ready	не готовий
+msg.phrase	media changed	ЗМІ змінено
+msg.phrase	medium error	середня помилка
+msg.phrase	illegal request	незаконний запит
+msg.phrase	a bad directory entry	неправильний запис каталогу
+msg.phrase	a directory on the way does not exist	a directory on the way does not exist
+msg.phrase	a file has that name	файл має таку назву
+msg.phrase	a folder has that name	папка має таку назву
+msg.phrase	a name on the way is not a directory	a name on the way is not a directory
+msg.phrase	cancelled	скасовано
+msg.phrase	could not mount	не вдалося встановити
+msg.phrase	could not start a read	не вдалося розпочати читання
+msg.phrase	could not start a write	не вдалося почати запис
+msg.phrase	is a directory	це каталог
+msg.phrase	that is a directory	тобто каталог
+msg.phrase	no clusters	немає кластерів
+msg.phrase	no room for the cluster list	немає місця для списку кластерів
+msg.phrase	no such file or directory	немає такого файлу чи каталогу
+msg.phrase	no such file	такого файлу немає
+msg.phrase	no volume	немає гучності
+msg.phrase	not NTFS	не NTFS
+msg.phrase	not exFAT	не exFAT
+msg.phrase	not a directory	не каталог
+msg.phrase	not found	не знайдено
+msg.phrase	read error	помилка читання
+msg.phrase	write error	помилка запису
+msg.phrase	reading the FAT failed	не вдалося прочитати FAT
+msg.phrase	the cluster chain is shorter than the file	ланцюжок кластера коротший за файл
+msg.phrase	the directory is not empty	каталог не порожній
+msg.phrase	the disk is full	диск заповнений
+msg.phrase	the drive did not answer	диск не відповідав
+msg.phrase	the file is read-only	файл доступний лише для читання
+msg.phrase	the file is too fragmented	файл надто фрагментований
+msg.phrase	the file is too large (4GB)	файл завеликий (4 ГБ)
+msg.phrase	the new name already exists	нова назва вже існує
+msg.phrase	the root directory is full	кореневий каталог заповнений
+msg.phrase	too many files with the same short name	занадто багато файлів з однаковою короткою назвою
+msg.phrase	No such file or directory	Такого файлу чи каталогу немає
+msg.phrase	File exists	Файл існує
+msg.phrase	Permission denied	У дозволі відмовлено
+msg.phrase	Directory not empty	Каталог не порожній
+msg.phrase	Not a directory	Не каталог
+msg.phrase	Is a directory	Це каталог
+msg.phrase	Read-only file system	Файлова система лише для читання
+msg.phrase	No space left on device	На пристрої не залишилося місця
+msg.phrase	Input/output error	Помилка введення/виведення
+msg.phrase	Not supported on this drive	Не підтримується на цьому диску
+msg.phrase	Invalid path	Недійсний шлях
+msg.phrase	Out of memory	Брак пам'яті
+msg.phrase	No such drive	Немає такого приводу
+msg.phrase	stopped	зупинився
+msg.phrase	cancelled (not enough free space)	скасовано (недостатньо вільного місця)
+msg.phrase	could not count the free space	не міг порахувати вільний простір
+msg.phrase	the receiver cancelled	приймач скасовано
+msg.phrase	no receiver (run rz on the PC)	немає приймача (запустіть rz на ПК)
+msg.phrase	the console UART is in use	консоль UART використовується
+msg.phrase	the screen mode changed	змінився режим екрану
+msg.phrase	the lines did not come (is the display running?)	рядки не прийшли (дисплей працює?)
+msg.prefix	copy	копія
+msg.prefix	move	рухатися
+msg.prefix	delete	видалити
+msg.prefix	rename	перейменувати
+msg.prefix	attributes	атрибути
+msg.prefix	new file	новий файл
+msg.prefix	new folder	нова папка
+msg.prefix	image	зображення
+msg.prefix	mrbc	mrbc
+msg.prefix	ruby	рубін
+msg.prefix	viewer	глядач
+msg.prefix	edit	редагувати
+msg.prefix	IDENTIFY	ІДЕНТИФІКУВАТИ
+msg.prefix	ZMODEM	ЗМОДЕМ
+msg.prefix	ZMODEM receive	ZMODEM отримати
+msg.prefix	ZMODEM send	ZMODEM відправити
+msg.prefix	split	розкол
+msg.prefix	join	приєднатися
+msg.prefix	Doom	Дум
+msg.prefix	SMF	SMF
+msg.prefix	CD	CD
+msg.prefix	FB	FB
+msg.prefix	Eject	Витягнути
+msg.prefix	reboot	перезавантаження
+msg.prefix	license	ліцензія
+msg.prefix	clock	годинник
+msg.prefix	ADC in	АЦП в
+msg.prefix	screen -> PNG	екран -> PNG
+msg.prefix	FB -> PNG	FB -> PNG
+msg.prefix	could not open the volume	не вдалося відкрити том
+msg.pattern	received 	отримано %s
+msg.pattern	sent 	надіслано %s
+msg.pattern	saved 	збережено %s
+msg.pattern	created 	створений %s
+msg.pattern	renamed to 	перейменовано на %s
+msg.pattern	deleted 	видалено %s
+msg.pattern	changed 	змінено %s
+msg.pattern	joined 	приєднався %s
+msg.pattern	split 	розкол %s
+msg.pattern	could not create 	не міг створити %s
+msg.pattern	could not delete 	не вдалося видалити %s
+msg.pattern	could not rename to 	не вдалося перейменувати на %s
+msg.pattern	could not change 	не міг змінитися %s
+msg.pattern	could not read 	не міг прочитати %s
+msg.pattern	could not write 	не міг написати %s
+msg.pattern	could not copy 	не вдалося скопіювати %s
+msg.pattern	could not make 	не міг зробити %s
+msg.pattern	could not remove the folder 	не вдалося видалити папку %s
+msg.pattern	could not remove 	не вдалося видалити %s
+msg.pattern	no memory for 	немає пам'яті для %s
+msg.pattern	too many errors while sending 	занадто багато помилок під час надсилання %s
+msg.pattern	the receiver did not take 	приймач не брав %s
+msg.pattern	the receiver skipped 	— проскочила слухавка %s
+msg.pattern	FB page 	Сторінка у ФБ %s
+msg.word	 bytes each)	 байтів кожен)
+msg.word	 bytes)	 байти)
+msg.word	 KB)	 КБ)
+msg.word	 parts into 	 частини в 
+msg.word	 parts (	 частини (
+msg.word	 into 	в 
+msg.word	: cleared	: очищено
+msg.word	: brightness halved	: яскравість зменшена вдвічі
+msg.word	% read	% read
+msg.word	 rows	 рядки
+msg.word	 -- not supported yet (FAT / exFAT / NTFS only)	 -- ще не підтримується (лише FAT / exFAT / NTFS)
+msg.word	 files	 файли
+msg.word	 (	 (
+msg.phrase	Untitled	Без назви
+msg.phrase	%s%d	%s%d
+msg.phrase	%s%d:%s%d	%s%d:%s%d
+msg.phrase	1 File	1 файл
+msg.phrase	2 Edit	2 Редагувати
+msg.phrase	3 Graph	3 Графік
+msg.phrase	4 Sheet	4 лист
+msg.phrase	5 Help	5 Довідка
+msg.phrase	%s	%s
+msg.phrase	%.40s%s	%.40s%s
+msg.phrase	EMPTY	ПУСТИЙ
+msg.phrase	NUMBER	НОМЕР
+msg.phrase	TEXT	ТЕКСТ
+msg.phrase	FORMULA	ФОРМУЛА
+msg.phrase	  [%s]   %s	  [%s] %s
+msg.phrase	EDIT  	РЕДАГУВАТИ
+msg.phrase	READY 	ГОТОВИЙ
+msg.phrase	Type to enter, F2 to edit, F1 for help	Введіть для входу, F2 для редагування, F1 для довідки
+msg.phrase	%4d 	%4d
+msg.phrase	5 CSV	5 CSV
+msg.phrase	6 ODS	6 ОДС
+msg.phrase	[SHIFT]	[SHIFT]
+msg.phrase	[CTRL]	[CTRL]
+msg.phrase	[ALT]	[ALT]
+msg.phrase	Ready	Готовий
+msg.phrase	%s Sum %.7g N %ld%s	%s Сума %.7g N %ld%s
+msg.phrase	SGCALC	SGCALC
+msg.phrase	Press any key	Натисніть будь-яку клавішу
+msg.phrase	Y = yes    N = no    Esc = cancel	Y = так N = ні Esc = скасувати
+msg.phrase	Enter = OK    Esc = cancel    Ctrl-U = clear	Enter = OK Esc = скасувати Ctrl-U = очистити
+msg.phrase	ARROWS      move the cell cursor\n	СТРІЛКИ пересувають курсор клітинки
+msg.phrase	SHIFT+ARR   extend the selection (for graphs/copy)\n	SHIFT+ARR розширити виділення (для графіків/копіювати)
+msg.phrase	ENTER       edit the cell; in edit, commit and move down\n	ENTER редагувати клітинку; у редагуванні, зафіксуйте та перемістіть вниз
+msg.phrase	TAB         next cell    SHIFT+TAB  previous cell\n	TAB наступна клітинка SHIFT+TAB попередня клітинка
+msg.phrase	DELETE      clear the selected cell(s)    ESC  cancel\n	DELETE очистити вибрані клітинки ESC скасувати
+msg.phrase	PGUP/PGDN   move one screen    HOME/END  first/last column\n	PGUP/PGDN перемістити на один екран HOME/END перший/останній стовпець
+msg.phrase	CTRL+HOME   A1    CTRL+END  last used cell\n	CTRL+HOME A1 CTRL+END остання використана клітинка
+msg.phrase	F1 help  F2 edit  F3 copy  F4 paste  F5 goto  F6 colour\n	F1 допомога F2 редагувати F3 копіювати F4 вставити F5 перейти F6 колір
+msg.phrase	F7 auto-fit  F8 background  F9 recalc  F10 graph  F11 save  F12 menu\n	F7 автопідгонка F8 фон F9 повторне обчислення F10 графік F11 збереження F12 меню
+msg.phrase	SHIFT+F1 about  SHIFT+F2 row height  SHIFT+F3 column width\n	SHIFT+F1 про висоту рядка SHIFT+F2, ширину стовпця SHIFT+F3
+msg.phrase	SHIFT+F4 select all  SHIFT+F10 graph range  SHIFT+F11 save as\n	SHIFT+F4 вибрати весь діапазон графіка SHIFT+F10 SHIFT+F11 зберегти як
+msg.phrase	CTRL+F1 new  CTRL+F2 open  CTRL+F3 save  CTRL+F4 save as\n	CTRL+F1 новий CTRL+F2 відкрити CTRL+F3 зберегти CTRL+F4 зберегти як
+msg.phrase	CTRL+F5 export CSV  CTRL+F6 export ODS  ALT+F12 quit\n	CTRL+F5 експорт CSV CTRL+F6 експорт ODS ALT+F12 вийти
+msg.phrase	Bottom 2 lines: function keys; [SHIFT]/[CTRL]/[ALT] like the filer\n	2 нижні рядки: функціональні клавіші; [SHIFT]/[CTRL]/[ALT] як файл
+msg.phrase	CTRL+S save  CTRL+O open  CTRL+N new  CTRL+C/V/X copy/paste/cut\n	CTRL+S зберегти CTRL+O відкрити CTRL+N новий CTRL+C/V/X скопіювати/вставити/вирізати
+msg.phrase	CTRL+G goto    /  open the menu (1 File, 2 Edit, ...)\n	CTRL+G перейти / відкрити меню (1 файл, 2 редагувати, ...)
+msg.phrase	Built-in functions: SUM AVERAGE MIN MAX COUNT COUNTA\n	Вбудовані функції: SUM AVERAGE MIN MAX COUNTA
+msg.phrase	PRODUCT ABS SQRT INT ROUND MOD POWER IF AND OR NOT\n	PRODUCT ABS SQRT INT ROUND MOD POWER ЯКЩО І АБО НІ
+msg.phrase	IFERROR LEN LEFT RIGHT MID UPPER LOWER TRIM CONCATENATE PI\n	IFERROR LEN ЛІВА ПРАВА СЕРЕДНЯ ВЕРХНЯ НИЖНЯ ОБРІБКА З’ЄДНАТИ ПІ
+msg.phrase	Cell refs: A1, $A$1, A1:B10.  Formulas begin with '='.\n	Посилання на клітинку: A1, $A$1, A1:B10.  Формули починаються з «=».
+msg.phrase	Files: .ods (LibreOffice), .fods (flat XML), .csv\n	Файли: .ods (LibreOffice), .fods (плоский XML), .csv
+msg.phrase	ODS/FODS keeps formulas, widths, heights and colours.\n	ODS/FODS зберігає формули, ширину, висоту та кольори.
+msg.phrase	CSV keeps values and formulas (no colours/heights).\n	CSV зберігає значення та формули (без кольорів/висоти).
+msg.phrase	Graph: select a range, press F10, and choose Line/Bar/Mixed/Pie.\n	Графік: виберіть діапазон, натисніть клавішу F10 і виберіть Лінія/Стовпчик/Змішаний/Сектор.
+msg.phrase	First row/column = labels; charts use the 640x480 CLUT8 FB.	Перший рядок/стовпець = мітки; діаграми використовують 640x480 CLUT8 FB.
+msg.phrase	SGCALC - HELP	SGCALC - ДОПОМОГА
+msg.phrase	Press any key to return	Натисніть будь-яку клавішу, щоб повернутися
+msg.phrase	SGCALC for sgnano\n	SGCALC для снано
+msg.phrase	Version 	Версія
+msg.phrase	A Lotus 1-2-3 style spreadsheet as an SGX program.\n\n	Електронна таблиця у стилі Lotus 1-2-3 як програма SGX.
+msg.phrase	SGX ABI %u.%u\n	SGX ABI %u.%u
+msg.phrase	Screen mode 3: text + CLUT8 FB (lowres disabled)\n	Режим екрану 3: текст + CLUT8 FB (вимкнено низьку роздільну здатність)
+msg.phrase	Sheet: %d rows x %d columns\n	Аркуш: %d рядків x %d стовпців
+msg.phrase	Formats: .ods / .fods (LibreOffice), .csv\n\n	Формати: .ods / .fods (LibreOffice), .csv
+msg.phrase	The grid is drawn on the text plane.\n	На текстовій площині малюється сітка.
+msg.phrase	Charts and the 640x480 background use the FB.\n\n	Графіки та фон 640x480 використовують FB.
+msg.phrase	Press any key to return.	Натисніть будь-яку клавішу, щоб повернутися.
+msg.phrase	ABOUT SGCALC	ПРО SGCALC
+msg.phrase	New	новий
+msg.phrase	Start a new sheet	Почніть новий аркуш
+msg.phrase	Open...	ВІДЧИНЕНО...
+msg.phrase	Open an ODS, FODS or CSV file	Відкрийте файл ODS, FODS або CSV
+msg.phrase	Save	зберегти
+msg.phrase	Save the current file	Збережіть поточний файл
+msg.phrase	Save As...	Зберегти як...
+msg.phrase	Save with a new name or format	Збережіть із новою назвою чи форматом
+msg.phrase	Export CSV...	Експорт CSV...
+msg.phrase	Write a CSV copy	Напишіть копію CSV
+msg.phrase	Export ODS...	Експорт ODS...
+msg.phrase	Write a LibreOffice copy	Напишіть копію LibreOffice
+msg.phrase	Quit	Вийти
+msg.phrase	Leave SGCALC	Залиште SGCALC
+msg.phrase	Clear	ясно
+msg.phrase	Clear the selected cells	Очистити виділені клітинки
+msg.phrase	Copy	Копія
+msg.phrase	Copy the selection	Скопіюйте виділення
+msg.phrase	Paste	Вставити
+msg.phrase	Paste at the cursor	Вставте на курсор
+msg.phrase	Cut	Вирізати
+msg.phrase	Copy and clear the selection	Скопіюйте та зніміть виділення
+msg.phrase	Select all	Вибрати все
+msg.phrase	Select all used cells	Виділіть усі використані комірки
+msg.phrase	Text color...	Колір тексту...
+msg.phrase	Choose the text colour	Виберіть колір тексту
+msg.phrase	Background...	Фон...
+msg.phrase	Choose the cell background	Виберіть фон комірки
+msg.phrase	Line	лінія
+msg.phrase	Draw a line graph from the selection	Намалюйте лінійний графік із виділення
+msg.phrase	Bar	Бар
+msg.phrase	Draw a bar graph from the selection	Намалюйте гістограму з виділення
+msg.phrase	Mixed	змішаний
+msg.phrase	Bars for the first series, lines for the rest	Смуги для першої серії, рядки для решти
+msg.phrase	Pie	пиріг
+msg.phrase	Draw a pie graph from the selection	Намалюйте кругову діаграму з виділення
+msg.phrase	Range...	діапазон...
+msg.phrase	Set the graph range explicitly	Явно встановіть діапазон графіка
+msg.phrase	Draw again	Малюйте знову
+msg.phrase	Redraw the last graph	Перемалюйте останній графік
+msg.phrase	Goto...	Гото...
+msg.phrase	Jump to a cell (for example C12)	Перейти до клітинки (наприклад, C12)
+msg.phrase	Column width...	Ширина стовпця...
+msg.phrase	Change the selected columns' width	Змініть ширину вибраних стовпців
+msg.phrase	Row height...	Висота рядка...
+msg.phrase	Change the selected rows' height	Змінити висоту вибраних рядків
+msg.phrase	Auto fit	Автопідгонка
+msg.phrase	Fit widths/heights to the contents (F7)	Пристосування ширини/висоти до вмісту (F7)
+msg.phrase	Recalculate	Перерахувати
+msg.phrase	Re-evaluate all formulas	Переоцініть усі формули
+msg.phrase	Erase all	Видалити все
+msg.phrase	Clear the whole sheet	Очистити весь аркуш
+msg.phrase	Keys	Ключі
+msg.phrase	Show the key guide	Показати посібник з ключів
+msg.phrase	About	про
+msg.phrase	About SGCALC	Про SGCALC
+msg.phrase	File	Файл
+msg.phrase	Edit	Редагувати
+msg.phrase	Graph	Графік
+msg.phrase	Sheet	Аркуш
+msg.phrase	Help	Довідка
+msg.phrase	File: new, open, save, export, quit	Файл: створити, відкрити, зберегти, експортувати, вийти
+msg.phrase	Edit: clear, copy, paste, cut, select all	Редагувати: очистити, скопіювати, вставити, вирізати, вибрати все
+msg.phrase	Graph: line, bar, mixed, pie (draws in the FB)	Графік: лінійний, стовпчиковий, змішаний, круговий (малює в ФБ)
+msg.phrase	Sheet: goto, column width, recalculate, erase	Аркуш: перейти, ширина стовпця, перерахувати, стерти
+msg.phrase	Help: keys and about	Довідка: ключі та про
+msg.phrase	%d %s	%d %s
+msg.phrase	Left/Right = menu    Up/Down = item    Enter = choose    Esc = cancel	Ліворуч/Праворуч = меню Вгору/Вниз = пункт Enter = вибрати Esc = скасувати
+msg.phrase	Cannot store the cell (%d).	Неможливо зберегти клітинку (%d).
+msg.phrase	Cancelled	Скасовано
+msg.phrase	Copied %d x %d cells	Скопійовано %d x %d клітинок
+msg.phrase	The selection is too large or memory is low.	Вибір занадто великий або мало пам'яті.
+msg.phrase	Cleared %s	Очищено %s
+msg.phrase	the cell	клітина
+msg.phrase	the selection	вибір
+msg.phrase	Nothing to paste	Нічого вставити
+msg.phrase	Pasted	Вставив
+msg.phrase	GO TO CELL	ПЕРЕЙТИ ДО КЛІТКИ
+msg.phrase	Cell reference (A1):	Посилання на клітинку (A1):
+msg.phrase	Goto	Гото
+msg.phrase	'%s' is not a cell reference.	'%s' не є посиланням на клітинку.
+msg.phrase	%d	%d
+msg.phrase	COLUMN WIDTH	ШИРИНА СТОВПЦЯ
+msg.phrase	Width in characters (4..30):	Ширина в символах (4..30):
+msg.phrase	Column width = %d	Ширина стовпця = %d
+msg.phrase	ROW HEIGHT	ВИСОТА РЯДКУ
+msg.phrase	Height in text rows (1..8):	Висота в рядках тексту (1..8):
+msg.phrase	Row height = %d	Висота рядка = %d
+msg.phrase	Auto fit: the sheet is empty	Авторозмір: аркуш порожній
+msg.phrase	Auto fit: %d column(s), %d row(s)	Автопідгонка: %d стовпців, %d рядків
+msg.phrase	BACKGROUND COLOUR	КОЛІР ФОНУ
+msg.phrase	TEXT COLOUR	КОЛІР ТЕКСТУ
+msg.phrase	Arrows: choose    Enter: apply    Esc: cancel	Стрілки: вибрати Enter: застосувати Esc: скасувати
+msg.phrase	Colour index (PC-98 16-colour palette)	Кольоровий індекс (16-колірна палітра PC-98)
+msg.phrase	%2d	%2d
+msg.phrase	Aa 123	Aa 123
+msg.phrase	Enter = apply    Esc = cancel	Enter = застосувати Esc = скасувати
+msg.phrase	Colour	колір
+msg.phrase	Cannot apply the colour (%d).	Неможливо застосувати колір (%d).
+msg.phrase	%s colour = %d	%s колір = %d
+msg.phrase	Background	Фон
+msg.phrase	Text	текст
+msg.phrase	GRAPH RANGE	ДІАПАЗОН ГРАФІКУ
+msg.phrase	Range (for example A1:C10):	Діапазон (наприклад, A1:C10):
+msg.phrase	Graph range	Діапазон графіка
+msg.phrase	Use a range such as A1:C10.	Використовуйте діапазон, наприклад A1:C10.
+msg.phrase	Not a valid range.\nUse a range such as A1:C10.	Недійсний діапазон.\nВикористовуйте діапазон, наприклад A1:C10.
+msg.phrase	Graph range %s	Діапазон графіка %s
+msg.phrase	Cannot draw the graph.	Не можу намалювати графік.
+msg.phrase	Graph: %s	Графік: %s
+msg.phrase	line	лінія
+msg.phrase	bar	бар
+msg.phrase	mixed	змішаний
+msg.phrase	pie	пиріг
+msg.phrase	Clear every cell in this sheet?	Очистити кожну клітинку на цьому аркуші?
+msg.phrase	Sheet erased	Аркуш стертий
+msg.phrase	Selected all used cells	Вибрано всі використані комірки
+msg.phrase	Recalculated	Перераховано
+msg.phrase	SGCALC: cannot set screen mode 3: %s\n	SGCALC: неможливо встановити режим екрана 3: %s
+msg.phrase	Memory	Пам'ять
+msg.phrase	Not enough PSRAM for the spreadsheet.	Недостатньо PSRAM для електронної таблиці.
+msg.phrase	The sheet is empty.	Аркуш порожній.
+msg.phrase	No numeric data in the selected range.	У вибраному діапазоні немає числових даних.
+msg.phrase	%.2g	%.2g
+msg.phrase	%.6g	%.6g
+msg.phrase	Other	інше
+msg.phrase	No positive values for a pie chart	Немає позитивних значень для кругової діаграми
+msg.phrase	%s  %.0f%%	%s %.0f%%
+msg.phrase	GRAPH  %s  %s	ГРАФ %s %s
+msg.phrase	LINE	ЛІНІЯ
+msg.phrase	BAR	БАР
+msg.phrase	MIXED	ЗМІШАНИЙ
+msg.phrase	PIE	ПИРІГ
+msg.phrase	S:/	S:/
+msg.phrase	%s%s	%s%s
+msg.phrase	%s/%s	%s/%s
+msg.phrase	%.*s	%.*s
+msg.phrase	%.*s/	%.*s/
+msg.phrase	Folder	Папка
+msg.phrase	Cannot read %s\n%s	Неможливо прочитати %s\n%s
+msg.phrase	SAVE AS	ЗБЕРЕГТИ ЯК
+msg.phrase	OPEN FILE	ВІДКРИТИ ФАЙЛ
+msg.phrase	LibreOffice / CSV	LibreOffice / CSV
+msg.phrase	ODS  FODS  CSV	ODS FODS CSV
+msg.phrase	Folder: %s	Папка: %s
+msg.phrase	Name:	Ім'я:
+msg.phrase	(type a name, or choose below)	(введіть назву або виберіть нижче)
+msg.phrase	Name	Ім'я
+msg.phrase	Size	Розмір
+msg.phrase	[DIR] %s	[DIR] %s
+msg.phrase	      %s	%s
+msg.phrase	%lu.%luM	%lu.%luM
+msg.phrase	%luK	%luK
+msg.phrase	%luB	%luB
+msg.phrase	Enter=save  Left=up  Right/Enter on [DIR]=open  Tab=drive  Esc=cancel	Enter=зберегти вліво=вгору вправо/Ввести в [DIR]=відкрити вкладку=диск Esc=скасувати
+msg.phrase	Enter=open  Left=up  Right/Enter on [DIR]=open  Tab=drive  Esc=cancel	Enter=відкрити вліво=вгору вправо/Ввести в [DIR]=відкрити вкладку=диск Esc=скасувати
+msg.phrase	BOOK1%s	КНИГА1%s
+msg.phrase	Not enough memory.	Недостатньо пам'яті.
+msg.phrase	%c:/	%c:/
+msg.phrase	Unsupported extension.\nUse .csv, .ods or .fods.	Непідтримуване розширення.\nВикористовуйте .csv, .ods або .fods.
+msg.phrase	Overwrite	Перезаписати
+msg.phrase	%s already exists.\nOverwrite it?	%s вже існує.\nПерезаписати?
+msg.phrase	%s may not be writable.\nTry anyway?	%s може бути недоступним для запису.\nВсе одно спробувати?
+msg.phrase	Unknown file type for %s	Невідомий тип файлу для %s
+msg.phrase	Open	ВІДЧИНЕНО
+msg.phrase	Unsupported file type.\nUse .csv, .ods or .fods.	Непідтримуваний тип файлу.\nВикористовуйте .csv, .ods або .fods.
+msg.phrase	Cannot open %s\n%s	Неможливо відкрити %s\n%s
+msg.phrase	%s is a folder.	%s — папка.
+msg.phrase	The file is too large (limit 8 MB).	Файл завеликий (обмеження 8 МБ).
+msg.phrase	Not enough memory to read the file.	Недостатньо пам'яті для читання файлу.
+msg.phrase	Cannot import %s\n%s	Неможливо імпортувати %s\n%s
+msg.phrase	Bad ZIP/ODS data.	Неправильні дані ZIP/ODS.
+msg.phrase	CRC error in the ODS file.	Помилка CRC у файлі ODS.
+msg.phrase	Unsupported or damaged file.	Непідтримуваний або пошкоджений файл.
+msg.phrase	Loaded %s	Завантажено %s
+msg.phrase	Cannot build the %s file.	Не вдається створити файл %s.
+msg.phrase	Cannot write %s\n%s	Неможливо записати %s\n%s
+msg.phrase	%s %s	%s %s
+msg.phrase	Saved	Збережено
+msg.phrase	Exported	Експортовано
+msg.phrase	Unsaved changes	Незбережені зміни
+msg.phrase	Save the current sheet before continuing?	Зберегти поточний аркуш перед продовженням?
+msg.phrase	New sheet	Новий аркуш
+msg.phrase	SGTRK	СГТРК
+msg.phrase	UNTITLED	БЕЗ НАЗВИ
+msg.phrase	song is too large	пісня завелика
+msg.phrase	empty file	порожній файл
+msg.phrase	not an SGT file	не файл SGT
+msg.phrase	unsupported version %u	непідтримувана версія %u
+msg.phrase	bad BPM	поганий BPM
+msg.phrase	bad speed	погана швидкість
+msg.phrase	bad title length	погана довжина назви
+msg.phrase	truncated title	усічений заголовок
+msg.phrase	bad character in title	поганий символ у назві
+msg.phrase	truncated order	усічений порядок
+msg.phrase	bad order length	неправильна довжина замовлення
+msg.phrase	bad pattern number in order	неправильний номер шаблону в порядку
+msg.phrase	truncated pattern list	усічений список шаблонів
+msg.phrase	bad pattern count	погана кількість шаблонів
+msg.phrase	bad pattern index	поганий індекс шаблону
+msg.phrase	duplicate pattern	дублюючий шаблон
+msg.phrase	truncated pattern data	усічені шаблонні дані
+msg.phrase	invalid pattern data	недійсні дані шаблону
+msg.phrase	trailing data in file	кінцеві дані у файлі
+msg.phrase	order refers to a missing pattern	порядок посилається на відсутній шаблон
+msg.phrase	A:/	A:/
+msg.phrase	(untitled)	(без назви)
+msg.phrase	Ready. Press F1 for help.	Готовий. Натисніть F1, щоб отримати допомогу.
+msg.phrase	%d:%d:%d:%d:%d:%d	%d:%d:%d:%d:%d:%d
+msg.phrase	Follow OFF	Дотримуйтесь OFF
+msg.phrase	Octave %d	Октава %d
+msg.phrase	Nothing to undo	Нічого не можна скасовувати
+msg.phrase	Undo	Скасувати
+msg.phrase	Note OFF	Примітка ВИМК
+msg.phrase	Note %s	Примітка %s
+msg.phrase	Instrument %d	Інструмент %d
+msg.phrase	Volume %s	Том %s
+msg.phrase	Effect %c	Ефект %c
+msg.phrase	Set an effect letter first	Спочатку встановіть букву ефекту
+msg.phrase	Parameter %s	Параметр %s
+msg.phrase	Effect cleared	Ефект очищено
+msg.phrase	Parameter cleared	Параметр очищено
+msg.phrase	Note cleared	Нотатку очищено
+msg.phrase	Instrument cleared	Інструмент очищено
+msg.phrase	Volume cleared	Том очищено
+msg.phrase	Order list is full	Список замовлень повний
+msg.phrase	Order inserted	Замовлення вставлено
+msg.phrase	Cannot delete the last order	Неможливо видалити останнє замовлення
+msg.phrase	Order deleted	Замовлення видалено
+msg.phrase	Pattern %s	Шаблон %s
+msg.phrase	Playing song	Грає пісня
+msg.phrase	Playing pattern %s	Відтворюється шаблон %s
+msg.phrase	Stopped	Зупинився
+msg.phrase	New song	Нова пісня
+msg.phrase	Discard unsaved changes and start a new song? (Y/N)	Скасувати незбережені зміни та почати нову пісню? (Так/Ні)
+msg.phrase	SAVE ERROR: %s	ПОМИЛКА ЗБЕРЕЖЕННЯ: %s
+msg.phrase	Saved %s	Збережено %s
+msg.phrase	LOAD ERROR: %s	ПОМИЛКА ЗАВАНТАЖЕННЯ: %s
+msg.phrase	Discard unsaved changes and open a song? (Y/N)	Скасувати незбережені зміни та відкрити пісню? (Так/Ні)
+msg.phrase	Discard unsaved changes and quit? (Y/N)	Скасувати незбережені зміни та вийти? (Так/Ні)
+msg.phrase	BPM %d	BPM %d
+msg.phrase	Speed %d	Швидкість %d
+msg.phrase	Song settings updated	Налаштування пісні оновлено
+msg.phrase	Preview %s	Попередній перегляд %s
+msg.phrase	Instrument %s %s	Інструмент %s %s
+msg.phrase	Filename is empty	Назва файлу порожня
+msg.phrase	Overwrite %s? (Y/N)	Перезаписати %s? (Так/Ні)
+msg.phrase	Save cancelled	Збереження скасовано
+msg.phrase	Open cancelled	Відкриття скасовано
+msg.phrase	Edit ON	Редагувати УВІМК
+msg.phrase	Edit OFF	Редагування ВИМКНЕНО
+msg.phrase	Follow ON	Слідуйте ON
+msg.phrase	Edit is OFF. Press F8 to edit.	Редагування ВИМКНЕНО. Натисніть F8 для редагування.
+msg.phrase	I/O error	Помилка введення/виведення
+msg.phrase	file is too large	файл завеликий
+msg.phrase	truncated file	усічений файл
+msg.phrase	SINE PAD	SINE PAD
+msg.phrase	TRIANGLE	ТРИКУТНИК
+msg.phrase	SAW LEAD	ПИЛА СВИНЕЦЬ
+msg.phrase	SQUARE	КВАДРАТ
+msg.phrase	PULSE 25	ПУЛЬС 25
+msg.phrase	ORGAN	ОРГАН
+msg.phrase	BASS	БАС
+msg.phrase	BELL	ДЗВІНОЧОК
+msg.phrase	NOISE	ШУМ
+msg.phrase	SINE	СИНУС
+msg.phrase	SAW	ПИЛА
+msg.phrase	 | BPM %s SPD %s 	 | BPM %s SPD %s
+msg.phrase	 SGNO TRACKER 1.0 | 	SGNO TRACKER 1.0 |
+msg.phrase	FILE 	ФАЙЛ
+msg.phrase	 PAT %s	 PAT %s
+msg.phrase	 ORD %d/%d	 ORD %d/%d
+msg.phrase	 INS %s 	 INS %s
+msg.phrase	 OCT %d	 Жовтень %d
+msg.phrase	 EDIT %s	 РЕДАГУВАТИ %s
+msg.phrase	ON 	УВІМКНЕНО
+msg.phrase	OFF	ВИМКНЕНО
+msg.phrase	 FOL %s	 FOL %s
+msg.phrase	ON	УВІМКНЕНО
+msg.phrase	ROW	РЯД
+msg.phrase	TRACK %d	ТРЕК %d
+msg.phrase	CHAN LEVEL	РІВЕНЬ ЧАН
+msg.phrase	%c%s	%c%s
+msg.phrase	%s %s %s %s	%s %s %s %s
+msg.phrase	%s 	%s
+msg.phrase	%d %s %s	%d %s %s
+msg.phrase	ORDER %d/%d	ЗАМОВИТИ %d/%d
+msg.phrase	PAT   %s	PAT %s
+msg.phrase	INS %s %s	INS %s %s
+msg.phrase	OCT %d  EDIT %s	ЖОВТЕНЬ %d РЕДАГУВАТИ %s
+msg.phrase	FOLLOW %s	ПІДПИШІТЬСЯ на %s
+msg.phrase	F1 HELP F2 SONG	F1 ДОПОМОГА F2 ПІСНЯ
+msg.phrase	F3 INS  F4 SAVE	F3 INS F4 ЗБЕРЕГТИ
+msg.phrase	F5 PLAY F6 PAT	F5 ГРАТИ F6 ПАТ
+msg.phrase	F7 STOP F8 EDIT	F7 СТОП F8 РЕДАГУВАТИ
+msg.phrase	F9/F10 OCTAVE	F9/F10 ОКТАВА
+msg.phrase	F11 FOLLOW	F11 СЛЕДУЙТЕ
+msg.phrase	F12 QUIT	F12 ВИЙТИ
+msg.phrase	SPACE PLAY/STOP	КОСМІЧНА ГРА/СТОП
+msg.phrase	CTRL-S SAVE	CTRL-S ЗБЕРЕГТИ
+msg.phrase	CTRL-O OPEN	CTRL-O ВІДКРИТИ
+msg.phrase	C-N NEW C-Z UNDO	C-N НОВИЙ C-Z СКАСУВАТИ
+msg.phrase	C-C STOP	C-C СТОП
+msg.phrase	PLAYING  ORD %d/%d  PAT %s  ROW %s/%d  SPD %s  BPM %d  F7 STOP	ВІДТВОРЕННЯ ORD %d/%d PAT %s ROW %s/%d SPD %s BPM %d F7 STOP
+msg.phrase	READY  EDIT %s  OCT %d  F1 HELP  F5 PLAY  CTRL-S SAVE	ГОТОВО РЕДАГУВАТИ %s ЖОВТ %d F1 ДОВІДКА F5 ВІДТВОРЕННЯ CTRL-S ЗБЕРЕГТИ
+msg.phrase	 %s 	 %s
+msg.phrase	#TRANSPORT AND FILES	#ТРАНСПОРТ ТА ФАЙЛИ
+msg.phrase	  F5          Play the song from the current order	  F5 Відтворення пісні з поточного порядку
+msg.phrase	  F6          Play the current pattern	  F6 Відтворити поточний патерн
+msg.phrase	  F7/Ctrl-C   Stop playback	  F7/Ctrl-C Зупинити відтворення
+msg.phrase	  Space       Play / stop	  Космос Відтворення / зупинка
+msg.phrase	  F4          Save as	  F4 Зберегти як
+msg.phrase	  Ctrl-S      Save (asks for a name if new)	  Ctrl-S Зберегти (запитує назву, якщо вона нова)
+msg.phrase	  Ctrl-O      Open a song	  Ctrl-O Відкрити пісню
+msg.phrase	  Ctrl-N      New song	  Ctrl-N Нова пісня
+msg.phrase	  F12         Quit (confirmation if modified)	  F12 Вийти (підтвердження, якщо змінено)
+msg.phrase	#ORDER LIST	#СПИСОК ЗАМОВЛЕНЬ
+msg.phrase	  [ ]         Previous / next order entry	  [ ] Попередній / наступний запис замовлення
+msg.phrase	  { }         Insert / delete an order entry	  { } Вставити/видалити запис замовлення
+msg.phrase	  - +         Change the pattern in the entry	  - + Змінити шаблон у записі
+msg.phrase	#DISPLAY	#ДИСПЛЕЙ
+msg.phrase	  F11         Follow playback (turns off on manual move)	  F11 Слідкуйте за відтворенням (вимикається під час ручного переміщення)
+msg.phrase	  F1          Help; Left/Right changes page	  Довідка F1; Ліворуч/Праворуч змінює сторінку
+msg.phrase	#EDITING	#РЕДАГУВАННЯ
+msg.phrase	  F8          Toggle edit mode	  F8 Перемкнути режим редагування
+msg.phrase	  Arrows      Move the cursor	  Стрілки Переміщення курсору
+msg.phrase	  PgUp/PgDn   Jump 16 rows	  PgUp/PgDn Перейти на 16 рядів
+msg.phrase	  Home/End    First / last row	  Home/End Перший/останній рядок
+msg.phrase	  F9/F10      Octave down / up	F9/F10 Октава вниз / вгору
+msg.phrase	  Z S X D C V G B H N J M      lower piano row	  Z S X D C V G B H N J M нижній ряд піаніно
+msg.phrase	  Q 2 W 3 E R 5 T 6 Y 7 U      upper piano row	  Q 2 W 3 E R 5 T 6 Y 7 U верхній ряд піаніно
+msg.phrase	  1           Note off	  1 Примітка вимкнена
+msg.phrase	  0 / Del     0 clears note/inst/fx; Del clears any	  0 / Del 0 очищає note/inst/fx; Del очищає будь-які
+msg.phrase	  Ctrl-Z      Undo the last pattern/order edit	  Ctrl-Z Скасувати останнє редагування шаблону/порядку
+msg.phrase	#EFFECTS (parameter is hexadecimal)	#EFFECTS (параметр шістнадцятковий)
+msg.phrase	  Axy   Volume slide: up x, down y	  Повзунок гучності Axy: вгору x, вниз y
+msg.phrase	  Cxx   Note cut after xx ticks	  Cxx Нота вирізана після xx галочок
+msg.phrase	  Dxx   Set volume (00..7F)	  Dxx Встановити гучність (00..7F)
+msg.phrase	  Fxx   Speed if xx < 20, otherwise BPM	  Fxx Швидкість, якщо xx < 20, інакше BPM
+msg.phrase	  Hxy   Arpeggio x, y semitones	  Hxy Арпеджіо x, y півтони
+msg.phrase	  Pxx   Pitch slide up	Pxx Pitch слайд вгору
+msg.phrase	  Qxx   Pitch slide down	  Qxx Ковзання вниз
+msg.phrase	  F2 song settings, F3 instrument list	  Налаштування пісень F2, список інструментів F3
+msg.phrase	HELP %d/2	ДОПОМОГА %d/2
+msg.phrase	LEFT/RIGHT PAGE   ENTER OR F1 CLOSE	ЛІВИЙ/ПРАВИЙ ВВІД СТОРІНКИ АБО F1 ЗАКРИТИ
+msg.phrase	SONG SETTINGS	НАЛАШТУВАННЯ ПІСНІ
+msg.phrase	UP/DOWN SELECT   LEFT/RIGHT ADJUST   ENTER/F2 CLOSE	ВГОРУ/ВНИЗ ВИБРАТИ ВЛІВО/ВПРАВО РЕГУЛЮВАТИ ENTER/F2 ЗАКРИТИ
+msg.phrase	  Title	  Назва
+msg.phrase	  [%s_]	  [%s_]
+msg.phrase	  BPM   : %d     (left/right -1/+1, -/+ -5/+5)	  BPM: %d (лівий/правий -1/+1, -/+ -5/+5)
+msg.phrase	  Speed : %d ticks/row	  Швидкість: %d кліків/рядок
+msg.phrase	  Rows  : %d (fixed)	  Рядки: %d (виправлено)
+msg.phrase	  Order : %d entries	Порядок: %d записів
+msg.phrase	  Patterns in use : %d	  Використовувані шаблони: %d
+msg.phrase	Type to edit the title. Backspace deletes the last character.	Введіть, щоб змінити назву. Backspace видаляє останній символ.
+msg.phrase	BPM range 32..255. Speed range 1..31.	Діапазон BPM 32..255. Діапазон швидкостей 1..31.
+msg.phrase	Pattern effects can also change speed and BPM while playing.	Ефекти патернів також можуть змінювати швидкість і BPM під час гри.
+msg.phrase	INSTRUMENTS	ІНСТРУМЕНТИ
+msg.phrase	UP/DOWN SELECT   SPACE PREVIEW   ENTER USE   F3 CLOSE	ВГОРУ/ВНИЗ ВИБІР ПРОБІЛ ПОПЕРЕДНИЙ ПЕРЕГЛЯД ВВЕДЕННЯ ВИКОРИСТОВУЙТЕ F3 ЗАКРИТИ
+msg.phrase	 #  NAME       WAVE       A   D   S   R  VOL	 # НАЗВА ХВИЛЯ A D S R VOL
+msg.phrase	 %c %d  %-9s %-9s %3d %3d %3d %3d %4d	 %c %d %-9s %-9s %3d %3d %3d %3d %4d
+msg.phrase	All four channels use wavetable synthesis.	Усі чотири канали використовують синтез хвильової таблиці.
+msg.phrase	Preview plays C-4 on the track under the edit cursor.	Попередній перегляд відтворює C-4 на доріжці під курсором редагування.
+msg.phrase	Current instrument: %s %s	Поточний інструмент: %s %s
+msg.phrase	SAVE SONG AS	ЗБЕРЕГТИ ПІСНЯ ЯК
+msg.phrase	ENTER SAVE   F4 OR CTRL-C CANCEL	ВВЕДІТЬ ЗБЕРЕГТИ F4 АБО CTRL-C СКАСУВАТИ
+msg.phrase	Directory:	каталог:
+msg.phrase	  %s	  %s
+msg.phrase	File name:	Ім'я файлу:
+msg.phrase	The extension .SGT is added automatically.	Розширення .SGT додається автоматично.
+msg.phrase	An existing file can be overwritten.	Існуючий файл можна перезаписати.
+msg.phrase	OPEN SONG	ВІДКРИТА ПІСНЯ
+msg.phrase	ENTER OPEN  BS PARENT  CTRL-O/CTRL-C CANCEL	ENTER OPEN BS PARENT CTRL-O/CTRL-C CANCEL
+msg.phrase	DIR  %s	DIR %s
+msg.phrase	(no .SGT files in this folder)	(у цій папці немає файлів .SGT)
+msg.phrase	 %c %s%s	 %c %s%s
+msg.phrase	Files: %d	Файли: %d
+msg.phrase	CONFIRM	ПІДТВЕРДИТИ
+msg.phrase	Y = YES   N / ENTER / CTRL-C = NO	Y = ТАК N / ENTER / CTRL-C = НІ
+msg.phrase	Y = yes        N = no	Y = так N = ні
+msg.phrase	%02d	%02d
+msg.phrase	%03d	%03d
+msg.phrase	%02X	%02X
+msg.phrase	C-	C-
+msg.phrase	C#	C#
+msg.phrase	D-	D-
+msg.phrase	D#	D#
+msg.phrase	E-	E-
+msg.phrase	F-	F-
+msg.phrase	F#	F#
+msg.phrase	G-	G-
+msg.phrase	G#	G#
+msg.phrase	A-	А-
+msg.phrase	A#	A#
+msg.phrase	B-	B-
+msg.phrase	A:/dir/name	A:/dir/name
+msg.phrase	MThd	MThd
+msg.phrase	broken MThd	зламаний MThd
+msg.phrase	MIDI IMPORT	ІМПОРТ MIDI
+msg.phrase	MTrk	MTrk
+msg.phrase	broken delta time	порушений дельта-час
+msg.phrase	broken running status	непрацюючий стан
+msg.phrase	broken meta event	зламана метаподія
+msg.phrase	broken sysex event	зламана подія Sysex
+msg.phrase	broken channel event	подія зламаного каналу
+msg.phrase	SMF output is too small	Результат SMF замалий
+msg.phrase	SMF output is too large	Результат SMF завеликий
+msg.phrase	the song is too long for SMF	пісня занадто довга для SMF
+msg.phrase	TRK1	ТРК1
+msg.phrase	SGNO TRACKER: incompatible SGX ABI\n	SGNO TRACKER: несумісний SGX ABI
+msg.phrase	5 Macro	5 Макрос
+msg.phrase	6 Help	6 Довідка
+msg.phrase	Run current	Виконати поточний
+msg.phrase	Run the macro at the cursor (#! header cell and the cells below it)	Виконати макрос під курсором (клітинка заголовка #! і клітинки нижче)
+msg.phrase	Run selection	Виконати виділене
+msg.phrase	Run the selected cells as one macro (top-left cell is the #! header)	Виконати виділені клітинки як один макрос (ліва верхня клітинка — заголовок #!)
+msg.phrase	Run all	Виконати всі
+msg.phrase	Run every macro in the sheet, top-left to bottom-right	Виконати всі макроси аркуша зліва згори донизу праворуч
+msg.phrase	Last error	Остання помилка
+msg.phrase	Show the last macro error	Показати останню помилку макросу
+msg.phrase	Macro	Макрос
+msg.phrase	Macro: run #!ruby / #!python / #!basic cells	Макрос: виконати клітинки #!ruby / #!python / #!basic
+msg.phrase	Edit the cell (F2)	Редагувати клітинку (F2)
+msg.phrase	Fit widths/heights to the contents	Підігнати ширину/висоту під вміст
+msg.phrase	Last macro error	Остання помилка макросу
+msg.phrase	No macro error.	Помилок макросу немає.
+msg.phrase	IME on	IME увімкнено
+msg.phrase	IME off	IME вимкнено
+msg.phrase	Macro: %s %s ...	Макрос: %s %s ...
+msg.phrase	%s: this firmware cannot run macros (SGX ABI 5.10 or later)	%s: ця прошивка не може виконувати макроси (потрібен SGX ABI 5.10 або новіший)
+msg.phrase	Macro error: %s	Помилка макросу: %s
+msg.phrase	Macro: %s done	Макрос: %s виконано
+msg.phrase	a macro is already running	макрос уже виконується
+msg.phrase	this language is not available	ця мова недоступна
+msg.phrase	not enough memory	недостатньо пам'яті
+msg.phrase	the macro stopped with an error	макрос зупинився з помилкою
+msg.phrase	Macro error %s: %s	Помилка макросу %s: %s
+msg.phrase	Macro: not enough memory	Макрос: недостатньо пам'яті
+msg.phrase	Macro: the cursor is not on a macro (a #!ruby / #!python / #!basic cell or the cells below it)	Макрос: курсор не на макросі (клітинка #!ruby / #!python / #!basic або клітинки нижче)
+msg.phrase	Macro: no macro in the sheet	Макрос: на аркуші немає макросів
+msg.phrase	Run all macros	Виконати всі макроси
+msg.phrase	Macros: %d. Run them all, top-left to bottom-right? Changes cannot be undone.	Макросів: %d. Виконати всі зліва згори донизу праворуч? Зміни не можна скасувати.
+msg.phrase	Macro: %d of %d done	Макрос: виконано %d (з %d)
+msg.phrase	Cleared the cell	Клітинку очищено
+msg.phrase	Cleared the selection	Виділене очищено
+msg.phrase	Background colour = %d	Колір тла = %d
+msg.phrase	Text colour = %d	Колір тексту = %d
+msg.phrase	Graph: line	Діаграма: лінія
+msg.phrase	Graph: bar	Діаграма: стовпці
+msg.phrase	Graph: mixed	Діаграма: змішана
+msg.phrase	Graph: pie	Діаграма: кругова
+msg.phrase	Exported %s	Експортовано %s
+msg.phrase	S: check: wait -- a file is being read or written	Перевірка S:: зачекайте -- файл читається або записується
+msg.phrase	S: check: the drive is busy or not ready	Перевірка S:: диск зайнятий або не готовий
+msg.phrase	nothing for this item (ContextMenu.cfg)	нічого для цього елемента (ContextMenu.cfg)
+msg.phrase	bad command in ContextMenu.cfg	хибна команда в ContextMenu.cfg
+msg.phrase	unknown action in ContextMenu.cfg	невідома дія в ContextMenu.cfg
+msg.prefix	menu	меню
+msg.phrase	choose a file or folder	виберіть файл або теку
+msg.phrase	this drive cannot be written	на цей диск не можна записувати
+msg.phrase	an archive job is already running	робота з архівом уже виконується
+msg.phrase	no PSRAM for the archive task	немає PSRAM для роботи з архівом
+msg.phrase	could not start the archive task	не вдалося запустити роботу з архівом
+msg.phrase	too many items (32 at most)	забагато елементів (не більше 32)
+msg.phrase	nothing to compress	нічого стискати
+msg.phrase	no name (or the name has / or \\)	немає назви (або в назві є / чи \\)
+msg.phrase	32 items at most (mark fewer, or put them in a folder)	не більше 32 елементів (позначте менше або покладіть їх у теку)
+msg.prefix	archive	архів
+msg.prefix	compress	стиснути
+msg.prefix	render	експорт WAV

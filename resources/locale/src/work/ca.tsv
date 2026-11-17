@@ -1,0 +1,373 @@
+# ca: machine translation (Google), unreviewed; 2026-11-17
+U001	Llista (fitxers i carpetes en 2 columnes x 19 files)
+U002	Mou el cursor (esquerra / dreta: l'altra columna)
+U003	Pàgina anterior / pàgina següent
+U004	Marca-ho tot / inverteix les marques (com a PC-98 FD)
+U005	Primer/últim
+U006	Marca i segueix endavant / marca només
+U007	Maj+Fletxes
+U008	Seleccioneu un interval (l'espai marca l'interval)
+U009	Introduïu una carpeta / obriu un fitxer (execució F2/X)
+U010	Fins a la carpeta principal
+U011	Trieu una unitat (USB, disquet, CD, S: integrat)
+U012	Còpia (Maj+C / Maj+F3 tria la destinació de l'arbre)
+U013	Mou-te
+U014	Suprimeix (Maj+D / Maj+F4 suprimeix una carpeta)
+U015	Canvia el nom
+U016	Canvia els atributs
+U017	Obre a l'editor
+U018	Mostra com a text (Maj+V/Ctrl+Alt+F7 hexadecimal)
+U019	Informació de la unitat
+U020	Carpeta nova / fitxer nou
+U021	Shell sgsh / expulsar el mitjà
+U022	Torna a carregar
+U023	Desa la pantalla com a PNG
+U024	Tanca la finestra / esborra la selecció (en una subcarpeta: puja)
+U025	Operacions amb fitxers (com a FD: marques, després l'interval i després el cursor)
+U026	Còpia: trieu la destinació de l'arbre de la unitat i de la carpete. L'ESC s'atura
+U027	Eliminar: confirmar amb y. Marques i rangs alhora. Carpetes amb el seu contingut
+U028	Suprimir una carpeta (amb el seu contingut)
+U029	Canvia el nom (editar el nom, Enter)
+U030	Atributs: R només de lectura, H ocult, S sistema, A arxiu
+U031	Carpeta nova
+U032	Fitxer nou (buit).
+U033	Mostra com a text (Maj+V/Ctrl+Alt+F7 hexadecimal)
+U034	Shell sgsh (sortir / Ctrl-D tornar al fitxer)
+U035	Identitat de la unitat (CONSULTA, IDENTIFICACIÓ)
+U036	Expulsa el medi FDD / LS-120 / CD
+U037	Torna a carregar la llista (CD: de la TOC)
+U038	Rebre des del PC per ZMODEM (zm.sh put)
+U039	Enviar a l'ordinador per ZMODEM (zm.sh get)
+U040	Compileu .rb i escriviu .mrb
+U041	Ruby REPL (una línia a la vegada, Ctrl-D / ESC per acabar)
+U042	MicroPython REPL
+U043	Divideix en parts de 4 MB/uneix-te des de .001
+U044	Dividir/unir (igual que Ctrl+F11/F12)
+U045	Pantalla (Alt+F, no xoca amb les tecles FD F)
+U046	Mostra / amaga el FB (imatge) / el text
+U047	Pàgina de visualització de FB (0-3)
+U048	Netegeu l'FB a 0 / redueix la seva brillantor a la meitat (RGB555)
+U049	Punts finals USB i estat de la LAN
+U050	Netegeu la pàgina de visualització de FB / reduïu-ne la brillantor a la meitat
+U051	Exemples d'atributs de text
+U052	Monitor EDID (llegit a l'arrencada)
+U053	Llicències i crèdits de font ROM
+U054	Configuració (idioma de visualització, IME i configuració regional del teclat)
+U055	Rellotge (hora del Japó establerta per NTP; ara se sincronitza)
+U056	Full de càlcul obert (SGCALC)
+U057	Comproveu S: si hi ha errors (demana abans de reparar)
+U058	Obriu TRACKER
+U059	Reinicieu (demana primer)
+U060	Reprodueix l'entrada estèreo ADC (GP40/41)
+U061	Exporta VGM/VGZ a un WAV de 96 kHz/24 bits
+U062	Aquesta ajuda
+U063	Canvia la pàgina
+U064	Tancar
+U065	Visualitzador de text/hexadecimal (com menys)
+U066	Una línia
+U067	Una pàgina
+U068	Mitja pàgina
+U069	Cerca (endavant / enrere) / següent / anterior
+U070	Tornar a la llista (F1: ajuda de l'espectador)
+U071	Visor d'imatges
+U072	Tornar a la llista (F2 F3 F6 F7 Maj+F2 F3 funciona)
+U073	Editor (E/Maj+F8)
+U074	Desa (UTF-8; els extrems de la línia i la BOM es conserva)
+U075	Tanca (si es modifica: S/N/ESC)
+U076	Inserir/sobreescriure
+U077	IME activat/desactivat (japonès/anglès/coreà)
+U078	Idioma IME (japonès/anglès/coreà)
+U079	Compromís com a hiragana / katakana
+U080	L'ajuda de l'editor
+U081	Shell
+U082	Shell (un subconjunt de csh. Exit / Ctrl-D per tornar, l'ajuda mostra les ordres)
+U083	Llista i moviment
+U084	Operacions de fitxers
+U085	Pantalla i dispositius
+U086	Els espectadors i l'editor
+U087	Ajuda %u / %u %s
+U088	Esquerra Dreta: canviar la pàgina F1 / ESC: tancar
+U089	Reiniciar Sgnano?
+U090	[Reiniciar]
+U091	[ Cancel·lar ]
+U092	Comproveu la unitat S: per detectar errors
+U093	Fitxers %lu carpetes %lu
+U094	La mida no coincideix amb la cadena
+U095	Clústers utilitzats per res
+U096	Clústers entrecreuats
+U097	Entrades trencades
+U098	Les dues còpies FAT difereixen
+U099	Sense errors.
+U100	S'han trobat errors. Reparar-los?
+U101	Reparat (els números anteriors es van arreglar).
+U102	No s'ha pogut comprovar ni reparar (S: està ocupat).
+U103	[Reparació]
+U104	[ Cancel·lar ]
+U105	Qualsevol clau es tanca
+U106	Configuració
+U107	Idioma de visualització
+U108	Localització del teclat
+U109	Amunt / Avall Introduïu seleccioneu ESC cancel·la
+U110	Idioma de visualització
+U111	Amunt / Avall Entrar: establir ESC: enrere
+U112	Corregir %c: com a quina lletra? (A-Z excepte S. ESC cancel·la)
+U113	Lletra de la unitat / Introduïu seleccioneu F2 arregla/desfixa la lletra F3 corregeix com... L / ESC cancel·la
+U114	partició %u
+U115	%c:* (fix, no connectat) %04X:%04X%s %s
+U116	Avís
+U117	Condueix %c: %s
+U118	Condueix (cap)
+U119	CD d'àudio %u pistes
+U120	Carpetes %u fitxers %u total %s
+U121	Llegint...
+U122	* marcat %u %s
+U123	%lu bytes
+U124	Attr %s modificat %s creat %s %s
+U125	Sol
+U126	Dl
+U127	Dt
+U128	Dc
+U129	Dj
+U130	dv
+U131	ds
+U132	El rellotge no està configurat (NTP a través de la LAN)
+U133	Mostra FB %u escriure %u
+U134	1 Ajuda
+U135	2 Corre
+U136	3 Còpia
+U137	4 Del
+U138	5 Canvia el nom
+U139	7 FBclr
+U140	8 FBdim
+U141	9 Condueix
+U142	10 EP
+U143	11 Rellotge
+U144	12 CALC
+U145	1 Attr
+U146	2 Informació
+U147	3 Moure's
+U148	5 Mkdir
+U149	6 closca
+U150	8 Edita
+U151	9 Veure
+U152	10 S:chk
+U153	11 PISTA
+U154	12 Reinicieu
+U155	1 Nou
+U156	2 Carpeta
+U157	3 Canvia el nom
+U158	4 Atribucions
+U159	6 Còpia
+U160	7 Mou-te
+U161	8 Suprimeix
+U162	9 Edita
+U163	10 mrbc
+U164	11 Divisió
+U165	12 Uneix-te
+U166	1 Atr
+U167	2 FB
+U168	3 Text
+U169	5 ScrSht
+U170	6 Pàg
+U171	9 ZMrecv
+U172	10ZMenviar
+U173	2 FBClr
+U174	3 FBDim
+U175	5 Torna a carregar
+U176	7 Hex
+U177	9 Lic
+U178	11 Configuració
+U179	Estableix el rellotge (hora del Japó. NTP no l'ha pogut configurar)
+U180	Executar amb paràmetres
+U181	Carpeta nova
+U182	Nou fitxer
+U183	Hora:
+U184	Executar:
+U185	Nom:
+U186	AAAA-MM-DD hh:mm Introduïu el manteniment d'ESC establert
+U187	Introduïu execució <-> moure BS / Eliminar esborrar ESC cancel·lar
+U188	Introduïu canviar el nom <-> moure BS / Eliminar esborrar ESC cancel·lar
+U189	Introduïu crear <-> moure BS / Eliminar esborrar ESC cancel·lar
+U190	Suprimeix
+U191	elements
+U192	Les carpetes s'eliminen amb el seu contingut. N'estàs segur?
+U193	Vols suprimir aquest fitxer?
+U194	(Això no es pot desfer. Els fitxers de les carpetes també s'eliminen)
+U195	[Sí (Y)]
+U196	[No (N)]
+U197	Visor hexadecimal: tria un fitxer
+U198	Visor de text: tria un fitxer
+U199	Mou a
+U200	Copia a
+U201	El buffer està ple
+U202	La unitat és només de lectura
+U203	No es pot desar (sense escriptor)
+U204	No s'ha pogut començar a desar (la unitat està ocupada?)
+U205	S'està desant...
+U206	2 Desa
+U207	5 Color
+U208	6 Hira
+U209	7 Kata
+U210	8 Pred
+U211	10 Surt
+U212	1 superior
+U213	2 Final
+U214	3 InsOvr
+U215	4 Dict
+U216	6 HHira
+U217	7 HKata
+U218	%s %s Ln %lu/%lu Col %u %s %s %s%s%s
+U219	*mod
+U220	OVR
+U221	INS
+U222	R/O
+U223	Editor (sgnano edit) F1 / ESC es tanca
+U224	Les fletxes / Inici Final / PgAp PgDn mouen el cursor
+U225	Ctrl-T / Ctrl-B superior / final del fitxer
+U226	BS / Del esborra abans / al cursor
+U227	Introduïu una línia nova (manté el sagnat)
+U228	Pestanya / Pestanya Ins / inserir o sobreescriure
+U229	F5 Coloring (de l'extensió; C/C++, mruby, MicroPython, SG BASIC, cap)
+U230	F2 (Ctrl-S) desa (UTF-8, els finals de línia es mantenen)
+U231	Tanca F10 / ESC (demana si s'ha canviat)
+U232	IME: Ctrl-Espai/F12 activat/desactivat (あ/A)
+U233	F9 Idioma IME (només aquest editor; restaurat al tancar)
+U234	F8 Conversió predictiva japonesa activada/desactivada
+U235	Romaji japonès -> hiragana (F6) / katakana (F7)
+U236	Hiragana de mitja amplada (Maj+F6)/katakana de mitja amplada (Maj+F7)
+U237	Prediu amb 2 o més caràcters, convertiu la clàusula contínua amb espai
+U238	Anglès Finalització predictiva amb 2 o més caràcters
+U239	한국어 2 Hangul estil Bol
+U240	Espai / Intro Convertir / Confirmar
+U241	← → Seleccioneu una frase
+U242	Maj+← → Redueix/augmenta l'extrem dret de la clàusula en un caràcter (candidats nous)
+U243	↑ ↓ / Pestanya Candidat anterior / següent a la finestra emergent (a sota del text, a dalt a prop de la part inferior)
+U244	Introduïu a →→→ Tots els candidats (2 x 8, ← → columna i pàgina, Enter tria)
+U245	Introduïu la clàusula següent (confirma tot a l'última clàusula)
+U246	Ctrl-U Afegeix la paraula actual al diccionari de l'usuari
+U247	Maj+F1/F2/F3/F4 Amunt/final/inserir-sobreescriure/al diccionari de l'usuari
+U248	BS / ESC Torna un caràcter enrere / Cancel·la
+U249	, . - [ ] / 、 。 ー 「 」 ・
+U250	Modificat Y: guardar i tancar N: tancar sense desar ESC: enrere
+U251	[Predicció] Tab/↑↓: candidat Espai: convertir Esc: cancel·lar
+U252	[Candidats] ↑↓: seleccioneu ←→: columna/pàgina Introduïu: trieu
+U253	[Convertir] ↑↓cand ←→clàusula Maj+←→limitat Introduïu següent
+U254	[한국어] Pestanya/↑↓: candidat Intro/Espai: confirmar
+U255	[Català] Tab/↑↓: candidat Introduïu: confirma
+U256	Entrada Hangul de 2 conjunts Ctrl-Espai: alfanumèric
+U257	Finalització predictiva Ctrl-Espai: entrada directa
+U258	Sense diccionari: només hiragana/katakana F6/F7
+U259	Espai: convertir F7: katakana Ctrl-Espai: alfanumèric
+U260	Espai: convertir F6: hiragana Ctrl-Espai: alfanumèric
+U261	Mitja amplada F6: hiragana F7: katakana Maj+F6/F7: meitat
+U262	IME apagat
+U263	predir
+U264	Traducció predictiva al japonès: activat
+U265	Traducció predictiva per al japonès: Off
+U266	Utilitzeu-lo amb l'IME japonès
+U267	No es pot afegir al diccionari de l'usuari
+U268	Colorant: %s
+U269	Carregant...
+U270	No s'ha pogut llegir el fitxer
+U271	%lu línies%s%s
+U272	va obrir Shift_JIS com a UTF-8 (desat com a UTF-8)
+U273	només de lectura
+U274	Desat
+U275	No s'ha pogut desar (error d'escriptura)
+U276	Candidats
+U277	7 Pàg
+U278	9 Text
+U279	9 Hex
+U280	Carregant %lu%%
+U281	(només el començament)
+U282	Hex q ESC: enrere F1: ajuda
+U283	Text q ESC: enrere F1: ajuda
+U284	Tecles del visor (com menys; el mateix per a text i hexadecimal)
+U285	Una línia més avall
+U286	Una fila
+U287	Una pàgina més avall
+U288	Una pàgina amunt
+U289	Mitja pàgina avall / amunt
+U290	/text ?text
+U291	Cerca cap avall/amunt (ignora majúscules i minúscules)
+U292	Següent/anterior partit
+U293	Mostra com a hexadecimal (al mateix lloc)
+U294	Mostra com a text (al mateix lloc)
+U295	Canvieu el color (C/C++, mruby, MicroPython, SG BASIC, cap)
+U296	Mostra / amaga el FB / el text
+U297	Pàgina de visualització de FB / pàgina d'escriptura
+U298	Tornar al fitxer
+U299	Tanca aquesta ajuda
+U300	Còpia
+U301	%s: llegint les carpetes... %u
+U302	%s: comptant l'espai lliure a la destinació...
+U303	%s: no hi ha prou espai lliure a la destinació
+U304	Moure: eliminació de les carpetes d'origen
+U305	Fet
+U306	Parat
+U307	%s en curs%s
+U308	(aturada)
+U309	De: %s
+U310	A: %s
+U311	Fitxers %u / %u carpetes %u %s / %s (%u%%)%s
+U312	massa: només alguns
+U313	Necessitats %s, gratuïtes %s. Continuar?
+U314	Y: continuar N / ESC: cancel·lar
+U315	Premeu qualsevol tecla per tancar
+U316	ESC: parar
+U317	%s: ←→ unitat ↑↓ carpeta Espai obrir/tancar Entrar triar ESC cancel·lar
+U318	No es pot llegir: %s
+U319	Llegint les carpetes... (ESC s'atura) %u
+U320	%u carpetes%s
+U321	(massa o massa profund: només alguns)
+U322	Va deixar d'obrir la carpeta
+U323	L'espai el torna a obrir. ESC es cancel·la una vegada més
+U324	Reproductor SMF/SGT %s
+U325	S'està carregant... %lu / %lu bytes
+U326	Ports %s / %s %s %u
+U327	En pausa
+U328	Jugant
+U329	Espai: pausa m: MIDI OUT q / ESC: parada
+U330	q/ESC: cancel·lar
+U331	Llicències i crèdits de font ROM\n\nROM: %s (versió %lu.%lu, %lu caràcters, a partir de 0x%08lX al flash)
+U332	== Tipus de lletra a la ROM (la taula d'origen de la ROM) ==
+U333	(la ROM no té taula)
+U334	== L'àrea de crèdits de la ROM ==
+U335	(no hi ha aquesta zona)
+U336	== Llicències del programari integrat ==
+U337	Desant %s com a PNG %s
+U338	Pantalla
+U339	Construint... %lu / %lu files
+U340	S'està escrivint... %lu / %lu KB (l'FB està amagat)
+U341	No he pogut escriure
+U342	Nom de l'arxiu (els elements marcats o l'element del cursor si no n'hi ha cap)
+U343	Introduïu comprimir ←→ moure BS / Eliminar esborrar ESC cancel·lar
+U344	Exportació WAV: %s cancel·lada (%s)
+U345	Exportació WAV: %s ha fallat (%s)
+U346	Exportació WAV: %s total %s
+U347	Exportació WAV (96 kHz / 24 bits): %s
+U348	Cancel·lat
+U349	Ha fallat
+U350	Total %s
+U351	Cancel·lat (%s; el fitxer parcial s'ha suprimit)
+U352	No s'ha pogut exportar (%s). Motiu:
+U353	(motiu desconegut)
+U354	%u%% transcorregut %s%s
+U355	ESC: aturar (el fitxer parcial s'elimina)
+U356	Arxiu: %s
+U357	Llegint... (ESC per cancel·lar)
+U358	%u elements%s total de %s bytes extreu a: %s
+U359	Introduïu l'element d'extracció X extreu-ho tot ↑↓ tanqueu l'ESC
+U360	Comprimir
+U361	Llista
+U362	Extracte
+U363	Total %s %u articles
+U364	Total %s %u fitxers
+U365	Cancel·lat (%s; el fitxer sense acabar s'ha suprimit)
+U366	No podria fer-ho (%s): %s
+U367	%u%% transcorreguts %s %s bytes%s
+U368	transcorreguts %s %s bytes%s
+U369	ESC: aturar (el fitxer inacabat s'elimina)
+U370	Arxiu: %s ha fallat (%s)
+U371	Comprimit: %s (%u elements)
+U372	Extret: %s (%u fitxers)

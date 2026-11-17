@@ -1,0 +1,654 @@
+# Filipino (tl) — messages. Machine translation, unreviewed (2026-11-16)
+M001	natanggal ang drive
+M002	binabasa muli ang mga partition...
+M003	hindi mabuksan ang volume (kulang ang memorya?)
+M004	binubuksan ang volume...
+M005	kulang ang memorya para sa listahan ng file
+M006	binabasa ang folder... (inuulit)
+M007	hindi mabasa ang folder
+M008	binabasa ang folder...
+M009	hindi sumagot ang drive -- binabasa muli ang mga partition
+M010	hindi mabasa ang folder (hindi FAT12/16/32?)
+M011	sobrang daming entry -- ipinapakita ang mga una
+M012	walang file system sa partition na ito
+M013	masyadong mahaba ang path
+M014	pinagsasama...
+M015	hinahati...
+M016	pinapalitan ang pangalan...
+M017	ginagawa ang folder...
+M018	ginagawa ang file...
+M019	binubura...
+M020	isinusulat ang mga katangian...
+M021	abala ang drive
+M022	abala
+M023	pumili ng mga file o folder
+M024	pumili ng mga file o folder (hindi "..")
+M025	ihinto muna ang CD
+M026	hindi mababago ang CD (kopyahin na lang)
+M027	hindi maililipat ang system folder
+M028	walang drive na masusulatan (FAT / exFAT / NTFS lang)
+M029	wala na ang drive
+M030	walang napili
+M031	walang napili
+M032	hindi masimulan
+M033	hindi mabuksan
+M034	sa FAT / exFAT / NTFS na drive lang
+M035	walang pangalan
+M036	mayroon nang ganyang pangalan
+M037	hindi masimulan (maling pangalan o abala ang drive)
+M038	hindi masimulan (abala ang drive)
+M039	hindi puwedeng may / o \\ ang pangalan (sa loob lang ng folder na ito)
+M040	pareho ang pangalan
+M041	read-only ang item (A para baguhin)
+M042	pumili ng .rb file sa drive na masusulatan
+M043	pumili ng .rb file
+M044	read-only ang drive
+M045	pumili ng folder sa drive na masusulatan
+M046	sandali lang
+M047	pumili ng file
+M048	pumili ng file (hindi folder)
+M049	pumili ng .001 file
+M050	piliin ang .001 file
+M051	ilagay ang IWAD sa folder na DoomFiles o Doom2Files
+M052	tumatanggap ang DoomFiles ng freedoom1 / doom / doomu / doom1.wad
+M053	tumatanggap ang Doom2Files ng freedoom2 / doom2 / plutonia / tnt.wad
+M054	ilagay ang mga file ng laro sa external storage, hindi sa S:
+M055	dapat nasa FAT / exFAT / NTFS na drive ang IWAD (hindi CD)
+M056	gumagana pa
+M057	naglo-load ng larawan
+M058	walang framebuffer
+M059	gumagana lang ang paghati ng liwanag sa RGB555
+M060	binubura...
+M061	hinahati ang liwanag...
+M062	data track iyan
+M063	sandali -- may isinusulat na file
+M064	floppy / LS-120 / CD drive lang
+M065	hiniling
+M066	binabasa ang disc...
+M067	humihinto...
+M068	binubuksan...
+M069	tapos
+M070	kulang ang memorya
+M071	bukas na
+M072	tumatakbo na
+M073	nagse-save na
+M074	tumutugtog na
+M075	walang ganyang drive
+M076	walang PSRAM
+M077	kulang ang PSRAM para sa file
+M078	kulang ang PSRAM para sa index ng linya
+M079	kulang ang PSRAM para sa terminal
+M080	kulang ang memorya (PSRAM)
+M081	kulang ang memorya (32KB SRAM)
+M082	kulang ang memorya para sa buffer
+M083	kulang ang memorya para sa mga image buffer
+M084	kulang ang memorya para sa read buffer
+M085	walang lugar para sa work memory (isara ang lowres plane?)
+M086	walang pahina ng framebuffer
+M087	masyadong malaki (hanggang 4 MB)
+M088	masyadong malaki ang file (hanggang 1 MB)
+M089	masyadong malaki ang file (max 1 MB)
+M090	masyadong malaki para sa SMF (hanggang 1MB)
+M091	walang laman ang file
+M092	hindi mabuksan ang file
+M093	hindi mabasa ang file
+M094	hindi mabuksan ang volume
+M095	hindi mabuksan ang patutunguhan (kulang ang memorya?)
+M096	hindi mabasa ang root folder
+M097	hindi masimulan ang task
+M098	hindi masimulan ang pagsulat (maling pangalan o abala)
+M099	may ibang volume na bukas (abala)
+M100	may kinokopya pa
+M101	hindi maaaring pumasok ang folder sa sarili nito
+M102	iyon din ang folder
+M103	hindi mababago ang drive na ito (read only)
+M104	hindi masusulatan ang drive
+M105	dapat multiple ng 512 ang laki ng bahagi
+M106	hindi suportado ang mga file na 4 GB pataas
+M107	maling path
+M108	maling pangalan ng file
+M109	wala ang font ROM
+M110	hindi bukas ang tunog
+M111	walang ganyang channel
+M112	abala ang sequencer
+M113	kulang ang PSRAM para sa kanta
+M114	hindi standard MIDI file (walang MThd)
+M115	walang track
+M116	sira ang isang track (MTrk)
+M117	hindi suportado ang SMPTE time division
+M118	hindi suportado ang SMF format 2 (0 at 1 lang)
+M119	hindi Bulk-Only na drive
+M120	hindi optical drive
+M121	hindi mabubura o mapapalitan ang pangalan ng system folder
+M122	walang media sa drive
+M123	naghahanda
+M124	hindi handa
+M125	napalitan ang media
+M126	error sa media
+M127	ilegal na kahilingan
+M128	sirang entry ng folder
+M129	may folder sa daan na hindi umiiral
+M130	may file na may ganyang pangalan
+M131	may folder na may ganyang pangalan
+M132	may pangalan sa daan na hindi folder
+M133	kinansela
+M134	hindi ma-mount
+M135	hindi masimulan ang pagbasa
+M136	hindi masimulan ang pagsulat
+M137	ay isang folder
+M138	folder iyan
+M139	walang cluster
+M140	walang lugar para sa listahan ng cluster
+M141	walang ganyang file o folder
+M142	walang ganyang file
+M143	walang volume
+M144	hindi NTFS
+M145	hindi exFAT
+M146	hindi folder
+M147	hindi nakita
+M148	error sa pagbasa
+M149	error sa pagsulat
+M150	nabigo ang pagbasa ng FAT
+M151	mas maikli ang cluster chain kaysa sa file
+M152	hindi walang laman ang folder
+M153	puno na ang disk
+M154	hindi sumagot ang drive
+M155	read-only ang file
+M156	sobrang hati-hati ang file
+M157	masyadong malaki ang file (4GB)
+M158	mayroon na ang bagong pangalan
+M159	puno na ang root folder
+M160	sobrang daming file na may parehong maikling pangalan
+M161	Walang ganyang file o folder
+M162	May file na
+M163	Tinanggihan ang pahintulot
+M164	Hindi walang laman ang folder
+M165	Hindi folder
+M166	Ay isang folder
+M167	Read-only na file system
+M168	Wala nang espasyo sa device
+M169	Error sa input/output
+M170	Hindi suportado sa drive na ito
+M171	Hindi wastong path
+M172	Ubos na ang memorya
+M173	Walang ganyang drive
+M174	huminto
+M175	kinansela (kulang ang bakanteng espasyo)
+M176	hindi mabilang ang bakanteng espasyo
+M177	kinansela ng tagatanggap
+M178	walang tagatanggap (patakbuhin ang rz sa PC)
+M179	ginagamit ang console UART
+M180	nagbago ang screen mode
+M181	hindi dumating ang mga linya (tumatakbo ba ang display?)
+M182	kopya
+M183	lipat
+M184	bura
+M185	palit-pangalan
+M186	katangian
+M187	bagong file
+M188	bagong folder
+M189	larawan
+M190	mrbc
+M191	ruby
+M192	viewer
+M193	edit
+M194	IDENTIFY
+M195	ZMODEM
+M196	ZMODEM tanggap
+M197	ZMODEM padala
+M198	hati
+M199	sama
+M200	Doom
+M201	SMF
+M202	CD
+M203	FB
+M204	Ilabas
+M205	reboot
+M206	lisensya
+M207	orasan
+M208	ADC in
+M209	screen -> PNG
+M210	FB -> PNG
+M211	hindi mabuksan ang volume
+M212	natanggap ang %s
+M213	naipadala ang %s
+M214	na-save ang %s
+M215	nagawa ang %s
+M216	pinalitan ang pangalan sa %s
+M217	nabura ang %s
+M218	nabago ang %s
+M219	napagsama ang %s
+M220	nahati ang %s
+M221	hindi magawa ang %s
+M222	hindi mabura ang %s
+M223	hindi mapalitan ang pangalan sa %s
+M224	hindi mabago ang %s
+M225	hindi mabasa ang %s
+M226	hindi maisulat ang %s
+M227	hindi makopya ang %s
+M228	hindi magawa ang %s
+M229	hindi maalis ang folder %s
+M230	hindi maalis ang %s
+M231	kulang ang memorya para sa %s
+M232	sobrang daming error habang ipinapadala ang %s
+M233	hindi tinanggap ng tagatanggap ang %s
+M234	nilaktawan ng tagatanggap ang %s
+M235	Pahina ng FB %s
+M236	 byte bawat isa)
+M237	 byte)
+M238	 KB)
+M239	 bahagi sa
+M240	 bahagi (
+M241	 sa
+M242	: nabura
+M243	: hinati ang liwanag
+M244	% nabasa
+M245	 linya
+M246	 -- hindi pa suportado (FAT / exFAT / NTFS lang)
+M247	 file
+M248	 (
+M249	Walang pamagat
+M250	1 File
+M251	2 Edit
+M252	3 Graph
+M253	4 Sheet
+M254	5 Tulong
+M255	WALANG LAMAN
+M256	NUMERO
+M257	TEKSTO
+M258	FORMULA
+M259	Mag-type para maglagay, F2 para mag-edit, F1 para sa tulong
+M265	Handa
+M267	Pindutin ang anumang key
+M268	Y = oo    N = hindi    Esc = kanselahin
+M269	Enter = OK    Esc = kanselahin    Ctrl-U = burahin
+M270	Unang hanay/linya = label; gumagamit ang chart ng 640x480 CLUT8 FB.
+M271	SGCALC - TULONG
+M272	Pindutin ang anumang key para bumalik
+M273	Pindutin ang anumang key para bumalik.
+M274	TUNGKOL SA SGCALC
+M275	Bago
+M276	Magsimula ng bagong sheet
+M277	Buksan...
+M278	Buksan ang ODS, FODS o CSV na file
+M279	I-save
+M280	I-save ang kasalukuyang file
+M281	I-save bilang...
+M282	I-save sa bagong pangalan o format
+M283	I-export ang CSV...
+M284	Sumulat ng kopyang CSV
+M285	I-export ang ODS...
+M286	Sumulat ng kopyang LibreOffice
+M287	Lumabas
+M288	Umalis sa SGCALC
+M289	Burahin
+M290	Burahin ang mga napiling cell
+M291	Kopyahin
+M292	Kopyahin ang napili
+M293	I-paste
+M294	I-paste sa cursor
+M295	I-cut
+M296	Kopyahin at burahin ang napili
+M297	Piliin lahat
+M298	Piliin ang lahat ng ginamit na cell
+M299	Kulay ng teksto...
+M300	Piliin ang kulay ng teksto
+M301	Background...
+M302	Piliin ang background ng cell
+M303	Linya
+M304	Gumuhit ng line graph mula sa napili
+M305	Bar
+M306	Gumuhit ng bar graph mula sa napili
+M307	Halo
+M308	Bar para sa unang serye, linya para sa iba
+M309	Pie
+M310	Gumuhit ng pie graph mula sa napili
+M311	Saklaw...
+M312	Itakda nang tahasan ang saklaw ng graph
+M313	Iguhit muli
+M314	Iguhit muli ang huling graph
+M315	Pumunta...
+M316	Tumalon sa cell (halimbawa C12)
+M317	Lapad ng hanay...
+M318	Baguhin ang lapad ng mga napiling hanay
+M319	Taas ng linya...
+M320	Baguhin ang taas ng mga napiling linya
+M321	Auto fit
+M322	Iangkop ang lapad/taas sa laman (F7)
+M323	Kalkulahin muli
+M324	Suriin muli ang lahat ng formula
+M325	Burahin lahat
+M326	Burahin ang buong sheet
+M327	Mga key
+M328	Ipakita ang gabay ng mga key
+M329	Tungkol
+M330	Tungkol sa SGCALC
+M331	File
+M332	Edit
+M333	Graph
+M334	Sheet
+M335	Tulong
+M336	File: bago, buksan, i-save, i-export, lumabas
+M337	Edit: burahin, kopyahin, i-paste, i-cut, piliin lahat
+M338	Graph: linya, bar, halo, pie (iginuguhit sa FB)
+M339	Sheet: pumunta, lapad ng hanay, kalkulahin muli, burahin
+M340	Tulong: mga key at tungkol
+M341	Kaliwa/Kanan = menu    Taas/Baba = item    Enter = piliin    Esc = kanselahin
+M342	Kinansela
+M343	Masyadong malaki ang napili o kulang ang memorya.
+M344	ang cell
+M345	ang napili
+M346	Walang ipe-paste
+M347	Na-paste
+M348	PUMUNTA SA CELL
+M349	Reference ng cell (A1):
+M350	Pumunta
+M351	LAPAD NG HANAY
+M352	Lapad sa titik (4..30):
+M353	TAAS NG LINYA
+M354	Taas sa linya ng teksto (1..8):
+M355	Auto fit: walang laman ang sheet
+M356	KULAY NG BACKGROUND
+M357	KULAY NG TEKSTO
+M358	Arrow: pumili    Enter: ilapat    Esc: kanselahin
+M359	Index ng kulay (16-kulay na palette ng PC-98)
+M361	Enter = ilapat    Esc = kanselahin
+M362	Kulay
+M363	Background
+M364	Teksto
+M365	SAKLAW NG GRAPH
+M366	Saklaw (halimbawa A1:C10):
+M367	Saklaw ng graph
+M368	Gumamit ng saklaw gaya ng A1:C10.
+M369	Hindi maiguhit ang graph.
+M370	linya
+M371	bar
+M372	halo
+M373	pie
+M374	Burahin ang bawat cell sa sheet na ito?
+M375	Nabura ang sheet
+M376	Napili ang lahat ng ginamit na cell
+M377	Nakalkula muli
+M378	Memorya
+M379	Kulang ang PSRAM para sa spreadsheet.
+M380	Walang laman ang sheet.
+M381	Walang numerong datos sa napiling saklaw.
+M382	Iba pa
+M383	Walang positibong halaga para sa pie chart
+M384	LINYA
+M385	BAR
+M386	HALO
+M387	PIE
+M389	Folder
+M390	I-SAVE BILANG
+M391	BUKSAN ANG FILE
+M394	Pangalan:
+M395	(mag-type ng pangalan, o pumili sa ibaba)
+M396	Pangalan
+M397	Laki
+M398	Enter=i-save  Kaliwa=taas  Kanan/Enter sa [DIR]=buksan  Tab=drive  Esc=kanselahin
+M399	Enter=buksan  Kaliwa=taas  Kanan/Enter sa [DIR]=buksan  Tab=drive  Esc=kanselahin
+M400	Kulang ang memorya.
+M401	I-overwrite
+M402	Buksan
+M403	Masyadong malaki ang file (limit 8 MB).
+M404	Kulang ang memorya para basahin ang file.
+M405	Sirang datos ng ZIP/ODS.
+M406	CRC error sa ODS file.
+M407	Hindi suportado o sirang file.
+M408	Na-save
+M409	Na-export
+M410	Hindi na-save na pagbabago
+M411	I-save ang kasalukuyang sheet bago magpatuloy?
+M412	Bagong sheet
+M415	masyadong malaki ang kanta
+M416	walang laman na file
+M417	hindi SGT na file
+M418	maling BPM
+M419	maling bilis
+M420	maling haba ng pamagat
+M421	putol na pamagat
+M422	maling titik sa pamagat
+M423	putol na order
+M424	maling haba ng order
+M425	maling numero ng pattern sa order
+M426	putol na listahan ng pattern
+M427	maling bilang ng pattern
+M428	maling index ng pattern
+M429	dobleng pattern
+M430	putol na datos ng pattern
+M431	hindi wastong datos ng pattern
+M432	may sobrang datos sa dulo ng file
+M433	tumutukoy ang order sa wala nang pattern
+M435	(walang pamagat)
+M436	Handa. Pindutin ang F1 para sa tulong.
+M437	Follow OFF
+M438	Walang ia-undo
+M439	Undo
+M440	Note OFF
+M441	Magtakda muna ng titik ng effect
+M442	Nabura ang effect
+M443	Nabura ang parameter
+M444	Nabura ang nota
+M445	Nabura ang instrumento
+M446	Nabura ang volume
+M447	Puno na ang listahan ng order
+M448	Naisingit ang order
+M449	Hindi mabura ang huling order
+M450	Nabura ang order
+M451	Tinutugtog ang kanta
+M452	Huminto
+M453	Bagong kanta
+M454	Itapon ang hindi na-save na pagbabago at magsimula ng bagong kanta? (Y/N)
+M455	Itapon ang hindi na-save na pagbabago at magbukas ng kanta? (Y/N)
+M456	Itapon ang hindi na-save na pagbabago at lumabas? (Y/N)
+M457	Na-update ang setting ng kanta
+M458	Walang laman ang pangalan ng file
+M459	Kinansela ang pag-save
+M460	Kinansela ang pagbukas
+M461	Edit ON
+M462	Edit OFF
+M463	Follow ON
+M464	Naka-OFF ang edit. Pindutin ang F8 para mag-edit.
+M465	Error sa I/O
+M466	masyadong malaki ang file
+M467	putol na file
+M495	#PAGTUGTOG AT MGA FILE
+M496	#LISTAHAN NG ORDER
+M497	#DISPLAY
+M498	#PAG-EDIT
+M499	#MGA EFFECT (hexadecimal ang parameter)
+M500	KALIWA/KANAN PAHINA   ENTER O F1 ISARA
+M501	SETTING NG KANTA
+M502	TAAS/BABA PUMILI   KALIWA/KANAN AYUSIN   ENTER/F2 ISARA
+M503	Mag-type para i-edit ang pamagat. Binubura ng Backspace ang huling titik.
+M504	BPM 32..255. Bilis 1..31.
+M505	Kaya ring baguhin ng pattern effect ang bilis at BPM habang tumutugtog.
+M506	MGA INSTRUMENTO
+M507	TAAS/BABA PUMILI   SPACE PAKINGGAN   ENTER GAMITIN   F3 ISARA
+M508	Lahat ng apat na channel ay gumagamit ng wavetable synthesis.
+M509	Tinutugtog ng preview ang C-4 sa track sa ilalim ng edit cursor.
+M510	I-SAVE ANG KANTA BILANG
+M511	ENTER I-SAVE   F4 O CTRL-C KANSELAHIN
+M512	Folder:
+M513	Pangalan ng file:
+M514	Awtomatikong idinadagdag ang extension na .SGT.
+M515	Maaaring i-overwrite ang umiiral na file.
+M516	BUKSAN ANG KANTA
+M517	ENTER BUKSAN  BS PATAAS  CTRL-O/CTRL-C KANSELAHIN
+M518	(walang .SGT na file sa folder na ito)
+M519	KUMPIRMAHIN
+M520	Y = OO   N / ENTER / CTRL-C = HINDI
+M521	Y = oo        N = hindi
+M536	sirang MThd
+M537	MIDI IMPORT
+M539	sirang delta time
+M540	sirang running status
+M541	sirang meta event
+M542	sirang sysex event
+M543	sirang channel event
+M544	masyadong maliit ang SMF output
+M545	masyadong malaki ang SMF output
+M546	masyadong mahaba ang kanta para sa SMF
+M557	ARROW       ilipat ang cursor ng cell\n
+M558	SHIFT+ARR   palawakin ang napili (para sa graph/kopya)\n
+M559	ENTER       i-edit ang cell; habang nag-e-edit, kumpirmahin at bumaba\n
+M560	TAB         susunod na cell    SHIFT+TAB  nakaraang cell\n
+M561	DELETE      burahin ang napiling cell    ESC  kanselahin\n
+M562	PGUP/PGDN   isang screen    HOME/END  una/huling hanay\n
+M563	CTRL+HOME   A1    CTRL+END  huling ginamit na cell\n
+M564	F1 tulong  F2 edit  F3 kopya  F4 paste  F5 punta  F6 kulay\n
+M565	F7 auto-fit  F8 background  F9 kalkula  F10 graph  F11 save  F12 menu\n
+M566	SHIFT+F1 tungkol  SHIFT+F2 taas ng linya  SHIFT+F3 lapad ng hanay\n
+M567	SHIFT+F4 piliin lahat  SHIFT+F10 saklaw ng graph  SHIFT+F11 save bilang\n
+M568	CTRL+F1 bago  CTRL+F2 buksan  CTRL+F3 save  CTRL+F4 save bilang\n
+M569	CTRL+F5 export CSV  CTRL+F6 export ODS  ALT+F12 lumabas\n
+M570	Huling 2 linya: function key; [SHIFT]/[CTRL]/[ALT] gaya ng filer\n
+M571	CTRL+S save  CTRL+O buksan  CTRL+N bago  CTRL+C/V/X kopya/paste/cut\n
+M572	CTRL+G punta    /  buksan ang menu (1 File, 2 Edit, ...)\n
+M573	Built-in na function: SUM AVERAGE MIN MAX COUNT COUNTA\n
+M576	Reference ng cell: A1, $A$1, A1:B10.  Nagsisimula sa '=' ang formula.\n
+M577	File: .ods (LibreOffice), .fods (flat XML), .csv\n
+M578	Pinapanatili ng ODS/FODS ang formula, lapad, taas at kulay.\n
+M579	Pinapanatili ng CSV ang halaga at formula (walang kulay/taas).\n
+M580	Graph: pumili ng saklaw, pindutin ang F10, at piliin ang Linya/Bar/Halo/Pie.\n
+M581	SGCALC para sa sgnano\n
+M582	Bersyon
+M583	Spreadsheet na istilong Lotus 1-2-3 bilang SGX na programa.\n\n
+M585	Screen mode 3: teksto + CLUT8 FB (naka-off ang lowres)\n
+M586	Sheet: %d linya x %d hanay\n
+M587	Format: .ods / .fods (LibreOffice), .csv\n\n
+M588	Iginuguhit ang grid sa text plane.\n
+M589	Gumagamit ng FB ang chart at ang 640x480 na background.\n\n
+M591	Hindi maiimbak ang cell (%d).
+M592	Nakopya ang %d x %d cell
+M593	Nabura ang %s
+M594	Hindi reference ng cell ang '%s'.
+M596	Lapad ng hanay = %d
+M597	Taas ng linya = %d
+M598	Auto fit: %d hanay, %d linya
+M600	Hindi mailapat ang kulay (%d).
+M602	Hindi wastong saklaw.\nGumamit ng saklaw gaya ng A1:C10.
+M603	Saklaw ng graph %s
+M604	Graph: %s
+M605	SGCALC: hindi maitakda ang screen mode 3: %s\n
+M614	Hindi mabasa ang %s\n%s
+M615	Folder: %s
+M623	Hindi suportadong extension.\nGumamit ng .csv, .ods o .fods.
+M624	Mayroon nang %s.\nI-overwrite?
+M625	Maaaring hindi masulatan ang %s.\nSubukan pa rin?
+M626	Hindi kilalang uri ng file para sa %s
+M627	Hindi suportadong uri ng file.\nGumamit ng .csv, .ods o .fods.
+M628	Hindi mabuksan ang %s\n%s
+M629	Folder ang %s.
+M630	Hindi ma-import ang %s\n%s
+M631	Na-load ang %s
+M632	Hindi mabuo ang %s na file.
+M633	Hindi maisulat ang %s\n%s
+M635	hindi suportadong bersyon %u
+M637	Octave %d
+M638	Nota %s
+M639	Instrumento %d
+M640	Volume %s
+M641	Effect %c
+M642	Parameter %s
+M643	Pattern %s
+M644	Tinutugtog ang pattern %s
+M645	ERROR SA SAVE: %s
+M646	Na-save ang %s
+M647	ERROR SA LOAD: %s
+M648	BPM %d
+M649	Bilis %d
+M650	Preview %s
+M651	Instrumento %s %s
+M652	I-overwrite ang %s? (Y/N)
+M676	  F5          Tugtugin ang kanta mula sa kasalukuyang order
+M677	  F6          Tugtugin ang kasalukuyang pattern
+M678	  F7/Ctrl-C   Ihinto ang pagtugtog
+M679	  Space       Tugtog / hinto
+M680	  F4          I-save bilang
+M681	  Ctrl-S      I-save (nagtatanong ng pangalan kung bago)
+M682	  Ctrl-O      Magbukas ng kanta
+M683	  Ctrl-N      Bagong kanta
+M684	  F12         Lumabas (nagkukumpirma kung binago)
+M685	  [ ]         Nakaraan / susunod na order entry
+M686	  { }         Magsingit / magbura ng order entry
+M687	  - +         Palitan ang pattern sa entry
+M688	  F11         Sundan ang pagtugtog (naka-off kapag ginalaw nang manu-mano)
+M689	  F1          Tulong; Kaliwa/Kanan pinapalitan ang pahina
+M690	  F8          I-toggle ang edit mode
+M691	  Arrow       Ilipat ang cursor
+M692	  PgUp/PgDn   Tumalon ng 16 linya
+M693	  Home/End    Una / huling linya
+M694	  F9/F10      Octave baba / taas
+M695	  Z S X D C V G B H N J M      mababang hanay ng piano
+M696	  Q 2 W 3 E R 5 T 6 Y 7 U      mataas na hanay ng piano
+M697	  1           Note off
+M698	  0 / Del     0 binubura ang nota/inst/fx; Del binubura kahit ano
+M699	  Ctrl-Z      I-undo ang huling edit ng pattern/order
+M700	  Axy   Volume slide: taas x, baba y
+M701	  Cxx   Putulin ang nota pagkatapos ng xx tick
+M702	  Dxx   Itakda ang volume (00..7F)
+M703	  Fxx   Bilis kung xx < 20, kung hindi BPM
+M704	  Hxy   Arpeggio x, y semitone
+M705	  Pxx   Pitch slide pataas
+M706	  Qxx   Pitch slide pababa
+M707	  F2 setting ng kanta, F3 listahan ng instrumento
+M708	TULONG %d/2
+M709	  Pamagat
+M711	  BPM   : %d     (kaliwa/kanan -1/+1, -/+ -5/+5)
+M712	  Bilis : %d tick/linya
+M713	  Linya : %d (nakapirmi)
+M714	  Order : %d entry
+M715	  Pattern na ginagamit : %d
+M718	Kasalukuyang instrumento: %s %s
+M722	File: %d
+M726	SGNO TRACKER: hindi tugmang SGX ABI\n
+M727	Suri ng S:: sandali -- may binabasa o isinusulat na file
+M728	Suri ng S:: abala o hindi handa ang drive
+M729	walang aksyon para sa item na ito (ContextMenu.cfg)
+M730	maling utos sa ContextMenu.cfg
+M731	hindi kilalang aksyon sa ContextMenu.cfg
+M732	menu
+N001	5 Macro
+N002	6 Tulong
+N003	Patakbuhin ang kasalukuyan
+N004	Patakbuhin ang macro sa cursor (header cell na #! at mga cell sa ilalim)
+N005	Patakbuhin ang napili
+N006	Patakbuhin ang mga napiling cell bilang isang macro (ang kaliwang-itaas na cell ang header na #!)
+N007	Patakbuhin lahat
+N008	Patakbuhin ang bawat macro sa sheet, mula kaliwang-itaas hanggang kanang-ibaba
+N009	Huling error
+N010	Ipakita ang huling error ng macro
+N011	Macro
+N012	Macro: patakbuhin ang mga cell na #!ruby / #!python / #!basic
+N013	I-edit ang cell (F2)
+N014	Iangkop ang lapad/taas sa laman
+N015	Huling error ng macro
+N016	Walang error ng macro.
+N017	IME on
+N018	IME off
+N019	Macro: %s %s ...
+N020	%s: hindi kayang patakbuhin ng firmware na ito ang macro (SGX ABI 5.10 o mas bago)
+N021	Error ng macro: %s
+N022	Macro: tapos ang %s
+N023	may macro nang tumatakbo
+N024	hindi available ang wikang ito
+N025	kulang ang memorya
+N026	huminto ang macro dahil sa error
+N027	Error ng macro %s: %s
+N028	Macro: kulang ang memorya
+N029	Macro: wala sa macro ang cursor (cell na #!ruby / #!python / #!basic o mga cell sa ilalim)
+N030	Macro: walang macro sa sheet
+N031	Patakbuhin ang lahat ng macro
+N032	Mga macro: %d. Patakbuhin lahat, mula kaliwang-itaas hanggang kanang-ibaba? Hindi na maibabalik.
+N033	Macro: tapos ang %d sa %d
+N034	Nabura ang cell
+N035	Nabura ang napili
+N036	Kulay ng background = %d
+N037	Kulay ng teksto = %d
+N038	Graph: linya
+N039	Graph: bar
+N040	Graph: halo
+N041	Graph: pie
+N042	Na-export ang %s

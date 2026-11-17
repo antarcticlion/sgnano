@@ -1,0 +1,1162 @@
+# sgnano filer strings: Lietuvių (2026-11-17). ui <TAB> Japanese <TAB> translation / msg.* <TAB> English <TAB> translation
+# status: unreviewed (machine translation, not checked by a native speaker; 2026-11-17). 未検証: ネイティブの確認をしていない仮の訳
+@lang lt
+@name Lietuvių
+ui	一覧（ファイルとフォルダを 2 列 x 19 行に並べる）	Sąrašas (failai ir aplankai 2 stulpeliais x 19 eilučių)
+ui	カーソルを動かす（左右は隣の列へ）	Perkelkite žymeklį (kairėn / dešinėn: kitas stulpelis)
+ui	前のページ / 次のページ	Ankstesnis puslapis / kitas puslapis
+ui	全部に印 / 印を反転（PC-98 FD と同じ）	Pažymėti viską / apversti žymes (kaip PC-98 FD)
+ui	先頭 / 最後	Pirmas / paskutinis
+ui	印を付けて次へ / 印だけ付ける	Pažymėkite ir judėkite toliau / tik pažymėkite
+ui	Shift+矢印	Shift + rodyklės
+ui	範囲を選ぶ（Space でその範囲に印）	Pasirinkite diapazoną (tarpas žymi diapazoną)
+ui	フォルダに入る・ファイルを開く（F2/X は実行）	Įveskite aplanką / atidarykite failą (paleisti F2/X)
+ui	上のフォルダへ	Iki pirminio aplanko
+ui	ドライブを選ぶ（USB・フロッピー・CD・S: 内蔵）	Pasirinkite diską (USB, diskelį, CD, S: įmontuotą)
+ui	コピー（Shift+C / Shift+F3 は行き先を木から）	Kopijuoti (Shift + C / Shift + F3 pasirenka paskirties vietą iš medžio)
+ui	移動	Judėti
+ui	削除（Shift+D / Shift+F4 はフォルダ削除）	Ištrinti (Shift + D / Shift + F4 ištrinti aplanką)
+ui	名前を変える	Pervardyti
+ui	属性を変える	Pakeiskite atributus
+ui	エディタで開く	Atidaryti redaktoriuje
+ui	テキスト表示（Shift+V / Ctrl+Alt+F7 は 16 進）	Žiūrėti kaip tekstą (Shift + V / Ctrl + Alt + F7 šešioliktainis)
+ui	ドライブの情報	Vairavimo informacija
+ui	フォルダを作る / 新しいファイル	Naujas aplankas / naujas failas
+ui	シェル sgsh / 媒体を取り出す	Shell sgsh / išstumti laikmeną
+ui	読み直す	Įkelti iš naujo
+ui	見えている画面を PNG で保存	Išsaugokite ekraną kaip PNG
+ui	窓を閉じる・選択を解く（サブフォルダでは上位へ）	Uždaryti langą / išvalyti pasirinkimą (poaplanke: eiti aukštyn)
+ui	ファイルの操作（FD と同じ。印・範囲・カーソルの順に選ぶ）	Failų operacijos (kaip FD: žymės, tada diapazonas, tada žymeklis)
+ui	コピー: 行き先はドライブとフォルダの木から。ESC で止める	Kopijuoti: pasirinkite paskirties vietą iš disko ir aplankų medžio. ESC sustoja
+ui	削除: y で確かめる。印・範囲をまとめて。フォルダは中身ごと	Ištrinti: patvirtinkite y. Žymi ir diapazonai vienu metu. Aplankai su jų turiniu
+ui	フォルダを削除（中身ごと）	Ištrinkite aplanką (su jo turiniu)
+ui	名前を変える（今の名前を直して Enter）	Pervardyti (redaguoti pavadinimą, įveskite)
+ui	属性: R 読み出し専用・H 隠し・S システム・A アーカイブ	Atributai: R tik skaitomas, H paslėptas, S sistema, A archyvas
+ui	フォルダを作る	Naujas aplankas
+ui	新しいファイル（空）を作る	Naujas (tuščias) failas
+ui	テキストで表示（Shift+V / Ctrl+Alt+F7 は 16 進）	Žiūrėti kaip tekstą (Shift + V / Ctrl + Alt + F7 šešioliktainis)
+ui	シェル sgsh（exit / Ctrl-D でファイラーへ）	Shell sgsh (išeiti / Ctrl-D grįžti į failą)
+ui	選んでいるドライブの素性（INQUIRY・IDENTIFY）	Disko tapatybė (PAŽIŪRĖTI, IDENTIFIKATI)
+ui	FDD・LS-120・CD の媒体を取り出す	Išimkite FDD / LS-120 / CD laikmeną
+ui	一覧を読み直す（CD は TOC から）	Iš naujo įkelti sąrašą (CD: iš TOC)
+ui	ZMODEM で PC から受け取る（zm.sh put）	Gaukite iš kompiuterio per ZMODEM (zm.sh put)
+ui	ZMODEM で PC へ送る（zm.sh get）	Siųsti į kompiuterį naudojant ZMODEM (zm.sh get)
+ui	.rb をコンパイルして .mrb を書き出す	Sukompiliuokite .rb ir parašykite .mrb
+ui	Ruby の REPL（1 行ずつ、Ctrl-D / ESC で終わり）	Ruby REPL (po vieną eilutę, Ctrl-D / ESC iki pabaigos)
+ui	MicroPython の REPL	MicroPython REPL
+ui	4MB ずつ分割 / .001 から結合	Padalinti į 4 MB dalis / prisijungti nuo .001
+ui	分割 / 結合（Ctrl+F11 / F12 と同じ）	Padalyti / prisijungti (tas pats kaip Ctrl + F11 / F12)
+ui	画面（Alt+F。FD の F キーとぶつからない）	Ekranas (Alt + F, nesikerta su FD F klavišais)
+ui	FB（絵）/ テキスト面を出す・隠す	Rodyti / slėpti FB (paveikslėlį) / tekstą
+ui	FB の表示ページ（0〜3）	FB rodymo puslapis (0-3)
+ui	FB を 0 で消す / 明るさを 1/2 に（RGB555）	Išvalykite FB iki 0 / perpus sumažinkite jo ryškumą (RGB555)
+ui	USB のエンドポイントと LAN の状態	USB galiniai taškai ir LAN būsena
+ui	FB の表示ページを消す / 明るさを 1/2 に	Išvalykite FB ekrano puslapį / per pusę jo ryškumą
+ui	テキストの属性の見本	Teksto atributų pavyzdžiai
+ui	モニタの EDID（起動時に読んだもの）	Stebėti EDID (skaityti paleidžiant)
+ui	フォント ROM のライセンスとクレジット	Šrifto ROM licencijos ir kreditai
+ui	設定（表示の言語・IME・キーボードロケール）	Nustatymai (vaizdo kalba, IME ir klaviatūros lokalė)
+ui	時計（NTP で合わせた日本時間。s ですぐ合わせる）	Laikrodis (Japonijos laikas nustatytas NTP; s sinchronizuojasi dabar)
+ui	表計算（SGCALC）を開く	Atidaryti skaičiuoklę (SGCALC)
+ui	S: ドライブのエラー検査（誤りがあれば直すか聞く）	Patikrinkite S: ar nėra klaidų (paklausti prieš taisant)
+ui	トラッカー（TRACKER）を開く	Atidarykite TRACKER
+ui	再起動（確かめの窓が出る）	Perkraukite (pirmiausia klausia)
+ui	ADC のステレオ入力（GP40 / 41）を鳴らす	Leiskite ADC stereo įvestį (GP40 / 41)
+ui	VGM/VGZ を 96kHz/24bit WAV に書き出す	Eksportuokite VGM / VGZ į 96 kHz / 24 bitų WAV
+ui	このヘルプ	Ši pagalba
+ui	ページを替える	Pakeiskite puslapį
+ui	閉じる	Uždaryti
+ui	テキスト・16 進のビュアー（less 風）	Tekstas / šešioliktainė peržiūros priemonė (patinka mažiau)
+ui	1 行	Viena eilutė
+ui	1 ページ	Vienas puslapis
+ui	半ページ	Pusė puslapio
+ui	探す（前へ・後ろへ）/ 次・前	Ieškoti (pirmyn / atgal) / kitas / ankstesnis
+ui	一覧へ戻る（F1 はビュアーのヘルプ）	Atgal į sąrašą (F1: pagalba žiūrovui)
+ui	画像のビュアー	Vaizdų peržiūros priemonė
+ui	一覧へ戻る（F2 F3 F6 F7 Shift+F2 F3 は効く）	Atgal į sąrašą (F2 F3 F6 F7 Shift + F2 F3 veikia)
+ui	エディタ（E / Shift+F8）	Redaktorius (E / Shift + F8)
+ui	保存する（UTF-8。改行と BOM は元のまま）	Išsaugoti (UTF-8; eilutės baigiasi ir KS išsaugota)
+ui	閉じる（変わっていれば Y / N / ESC）	Uždaryti (jei pakeista: Y / N / ESC)
+ui	挿入 / 上書き	Įterpti / perrašyti
+ui	IME（日本語・英語・ハングル）の入・切	IME įjungimas / išjungimas (japonų / anglų / korėjiečių)
+ui	IME の言語（日本語 / English / 한국어）	IME kalba (japonų / anglų / korėjiečių)
+ui	ひらがな / カタカナで確定	Įsipareigokite kaip hiragana / katakana
+ui	エディタのヘルプ	Redaktorės pagalba
+ui	シェル	Lukštas
+ui	シェル（csh のサブセット。exit / Ctrl-D で戻る、help で一覧）	Shell (csh poaibis. exit / Ctrl-D, kad grįžtumėte, žinynas pateikia komandų sąrašą)
+ui	一覧と移動	Sąrašas ir judėjimas
+ui	ファイルの操作	Failų operacijos
+ui	画面と機器	Ekranas ir įrenginiai
+ui	ビュアーとエディタ	Žiūrovai ir redaktorius
+ui	ヘルプ  %u / %u  %s	Pagalba %u / %u %s
+ui	Left Right: ページを替える    F1 / ESC: 閉じる	Kairėn dešinėn: pakeisti puslapį F1 / ESC: uždaryti
+ui	sgnano を再起動しますか？	Iš naujo paleisti sgnano?
+ui	[ 再起動 ]	[Paleisti iš naujo]
+ui	[ キャンセル ]	[ Atšaukti ]
+ui	S: ドライブのエラー検査	Patikrinkite, ar S: diske nėra klaidų
+ui	ファイル %lu  フォルダ %lu	Failai %lu aplankai %lu
+ui	大きさが鎖と合わない	Dydis neatitinka grandinėlės
+ui	どこからも使われていないクラスタ	Nieko nenaudojami klasteriai
+ui	重なったクラスタ	Kryžminio ryšio klasteriai
+ui	壊れた項目	Sugedę įrašai
+ui	FAT の 2 つの写しの食い違い	Dvi FAT kopijos skiriasi
+ui	エラーはありません。	Jokių klaidų.
+ui	エラーが見つかりました。修復しますか？	Buvo rasta klaidų. Remontuoti juos?
+ui	修復しました（上は直した数）。	Sutaisytas (aukščiau pateikti skaičiai buvo pataisyti).
+ui	検査・修復できませんでした（S: が使用中）。	Nepavyko patikrinti ar suremontuoti (S: užimtas).
+ui	[ 修復する ]	[Remontas]
+ui	[ やめる ]	[ Atšaukti ]
+ui	何かキーで閉じる	Bet koks raktas užsidaro
+ui	設定	Nustatymai
+ui	表示の言語	Ekrano kalba
+ui	キーボードロケール	Klaviatūros lokalė
+ui	Up / Down  Enter 決める  ESC やめる	Aukštyn / žemyn Įveskite pasirinkite ESC atšaukti
+ui	表示の言語 (Language)	Ekrano kalba
+ui	Up / Down  Enter 決める  ESC 戻る	Aukštyn / žemyn Įveskite: nustatykite ESC: atgal
+ui	%c: をどの文字に固定しますか（A〜Z、S を除く。ESC でやめる）	Pataisyti %c: kaip kokia raidė? (A–Z, išskyrus S. ESC atšaukia)
+ui	ドライブ  文字 / Enter 選ぶ  F2 文字を固定・解除  F3 文字を決めて固定  L / ESC やめる	Disko raidė / Įveskite pasirinkite F2 pataisyti/ištaisyti raidę F3 pataisyti kaip... L / ESC atšaukti
+ui	  区画 %u	pertvara %u
+ui	%c:* （固定・つながっていません）%04X:%04X%s  %s	%c:* (fiksuota, neprijungta) %04X:%04X%s %s
+ui	お知らせ	Pastaba
+ui	ドライブ %c:  %s	Vairuoti %c: %s
+ui	ドライブ  (なし)	Vairuoti (nėra)
+ui	音楽 CD  %u トラック	Audio CD %u takeliai
+ui	フォルダ %u  ファイル %u  合計 %s	Aplankai %u failai %u iš viso %s
+ui	読んでいます...	Skaitymas...
+ui	* 印 %u 個  %s	* pažymėta %u %s
+ui	%lu バイト	%lu baitų
+ui	属性 %s   更新日時 %s   作成日時 %s   %s	Attr %s modifikuotas %s sukurtas %s %s
+ui	日	Saulė
+ui	月	Pirm
+ui	火	antradienis
+ui	水	trečia
+ui	木	Ketvirtadienis
+ui	金	penk
+ui	土	Šešt
+ui	時計は合わせていません（LAN の NTP）	Laikrodis nenustatytas (NTP per LAN)
+ui	FB  表示 %u  書込 %u	FB ekranas %u rašyti %u
+ui	1 ヘルプ	1 Help
+ui	2 実行	2 Run
+ui	3 ｺﾋﾟｰ	3 Copy
+ui	4 削除	4 Del
+ui	5 名前	5 Rename
+ui	7 FB消去	7 FBclr
+ui	8 FB減光	8 FBdim
+ui	9 ﾄﾞﾗｲﾌﾞ	9 Drive
+ui	10 EP表	10 EP
+ui	11 時計	11 Clock
+ui	12 表計	12 CALC
+ui	1 属性	1 Attr
+ui	2 情報	2 Info
+ui	3 移動	3 Move
+ui	5 作成	5 Mkdir
+ui	6 シェル	6 Shell
+ui	8 編集	8 Edit
+ui	9 表示	9 View
+ui	10S:検査	10 S:chk
+ui	11 ﾄﾗｯｸ	11 TRACK
+ui	12再起動	12Reboot
+ui	1 新規	1 Naujas
+ui	2 ﾌｫﾙﾀﾞ	2 Folder
+ui	3 名前	3 Rename
+ui	4 属性	4 Attrib
+ui	6 ｺﾋﾟｰ	6 Copy
+ui	7 移動	7 Judėti
+ui	8 削除	8 Delete
+ui	9 編集	9 Edit
+ui	10ｺﾝﾊﾟｲﾙ	10 mrbc
+ui	11 分割	11 Split
+ui	12 結合	12 Join
+ui	1 属性例	1 Attr
+ui	2 FB切替	2 FB
+ui	3 文字面	3 Text
+ui	5 画面写	5 ScrSht
+ui	6 表示頁	6 DispPg
+ui	9 ZM受信	9 ZMrecv
+ui	10ZM送信	10ZMsend
+ui	2 FB消去	2 FBClr
+ui	3 FB減光	3 FBDim
+ui	5 再読込	5 Reload
+ui	7 16進	7 Hex
+ui	9 ﾗｲｾﾝｽ	9 Lic
+ui	8 設定	11 Setup
+ui	時刻を合わせる（日本時間。NTP で合わせられませんでした）	Nustatyti laikrodį (Japonijos laikas. NTP nepavyko jo nustatyti)
+ui	起動のパラメタ	Vykdykite su parametrais
+ui	新しいフォルダ	Naujas aplankas
+ui	新しいファイル	Naujas failas
+ui	時刻:	Laikas:
+ui	実行:	Vykdyti:
+ui	名前:	Vardas:
+ui	年-月-日 時:分  Enter 合わせる  ESC そのまま	YYYY-MM-DD hh:mm Įveskite rinkinį ESC išlaikyti
+ui	Enter 走らせる  ←→ 動かす  BS / Del 消す  ESC やめる	Įveskite paleisti <-> perkelti BS / Del ištrinti ESC atšaukti
+ui	Enter 変える  ←→ 動かす  BS / Del 消す  ESC やめる	Įveskite pervadinti <-> perkelti BS / Del ištrinti ESC atšaukti
+ui	Enter 作る  ←→ 動かす  BS / Del 消す  ESC やめる	Įveskite sukurti <-> perkelti BS / Del ištrinti ESC atšaukti
+ui	消す	Ištrinti
+ui	個の項目	daiktų
+ui	フォルダは中身ごと消します。よろしいですか？	Aplankai su jų turiniu ištrinami. Ar esi tikras?
+ui	このファイルを消しますか？	Ištrinti šį failą?
+ui	（元に戻せません。フォルダの中のファイルも消えます）	(To negalima anuliuoti. Failai aplankuose taip pat ištrinami)
+ui	[ はい (Y) ]	[Taip (Y)]
+ui	[ いいえ (N) ]	[Ne (N)]
+ui	バイナリビュアー: ファイルを選んでください	Hex Viewer: pasirinkite failą
+ui	テキストビュアー: ファイルを選んでください	teksto peržiūros programa: pasirinkite failą
+ui	移動先	Perkelti į
+ui	コピー先	Kopijuoti į
+ui	バッファがいっぱいです (buffer full)	Buferis pilnas
+ui	読み出し専用のドライブです (read-only)	Diskas yra tik skaitomas
+ui	保存できません (no writer)	Neįmanoma išsaugoti (nėra rašytojo)
+ui	保存を始められません (the drive is busy?)	Nepavyko pradėti išsaugoti (diskas užimtas?)
+ui	保存しています... (saving)	Išsaugoma...
+ui	2 保存	2 Save
+ui	5 色分け	5 Spalva
+ui	6 ﾞ	6 Hira
+ui	7 ｶﾀｶﾅ	7 Kata
+ui	8 予測	8 Pred
+ui	10 終了	10 Quit
+ui	1 先頭	1 viršus
+ui	2 最後	2 End
+ui	3 挿/上	3 InsOvr
+ui	4 辞書	4 Dikt
+ui	6 半	6 HHira
+ui	7 半ｶﾅ	7 HKata
+ui	 %s  %s  行 %lu/%lu 桁 %u  %s  %s %s%s%s	%s %s Ln %lu/%lu Col %u %s %s %s%s%s
+ui	*変更	*mod
+ui	上書	OVR
+ui	挿入	INS
+ui	  読出専用	R/O
+ui	 エディタ (sgnano edit)                      F1 / ESC で閉じる	Redaktorius (sgnano redaguoti) F1 / ESC užsidaro
+ui	 矢印 / Home End / PgUp PgDn   カーソルを動かす	Rodyklės / Home End / PgUp PgDn perkelkite žymeklį
+ui	 Ctrl-T / Ctrl-B               ファイルの先頭 / 最後	Ctrl-T / Ctrl-B failo viršuje / gale
+ui	 BS / Del                      前の字 / カーソルの字を消す	BS / Del trynimo prieš / ties žymekliu
+ui	 Enter                         改行（前の行の字下げを引き継ぐ）	Įveskite naują eilutę (išlaiko įtrauką)
+ui	 Tab / Ins                     タブ / 挿入と上書きの切り替え	Tab / Ins skirtukas / įterpimas arba perrašymas
+ui	 F5                            色分け（拡張子から。C/C++・mruby・MicroPython・SG BASIC・なし）	F5 spalvinimas (iš plėtinio; C/C++, mruby, MicroPython, SG BASIC, nėra)
+ui	 F2  (Ctrl-S)                  保存（UTF-8、改行は元の形）	F2 (Ctrl-S) išsaugoti (UTF-8, eilutės galai išlaikyti)
+ui	 F10 / ESC                     閉じる（変更があれば聞く）	F10 / ESC uždaryti (klausia, ar pakeista)
+ui	 IME:  Ctrl-Space / F12        オン・オフ（あ / A）	IME: Ctrl-Space / F12 įjungti / išjungti (あ / A)
+ui	       F9                      IME の言語（このエディタの間だけ。閉じると戻る）	F9 IME kalba (tik šiam redaktoriui; atkurta uždarius)
+ui	       F8                      日本語の予測変換 オン・オフ	F8 japoniškas nuspėjamasis konvertavimas įjungtas / išjungtas
+ui	       日本語                  ローマ字 -> ひらがな（F6）・カタカナ（F7）	Japonų romaji -> hiragana (F6) / katakana (F7)
+ui	                               半角ひらがな（Shift+F6）・半角カタカナ（Shift+F7）	Pusės pločio hiragana (Shift + F6) / pusės pločio katakana (Shift + F7)
+ui	                               2 字以上で予測、Space で連文節変換	Numatykite naudodami 2 ar daugiau simbolių, konvertuokite tęstinį sakinį naudodami tarpą
+ui	       English                 2 字以上で予測補完	Anglų kalbos nuspėjamasis užbaigimas naudojant 2 ar daugiau simbolių
+ui	       한국어                  2 ボル式ハングル	한국어 2 Bol stiliaus hangul
+ui	       Space / Enter           変換 / 確定	Tarpas / Enter Konvertuoti / Patvirtinti
+ui	       ← →                    文節を選ぶ	← → Pasirinkite frazę
+ui	       Shift+← →               文節の右端を 1 字 縮/拡（候補を出し直す）	Shift + ← → Sumažinkite / padidinkite dešinįjį sakinio galą vienu simboliu (nauji kandidatai)
+ui	       ↑ ↓ / Tab               候補の窓で前 / 次の候補（窓は変換の下、画面の下では上）	↑ ↓ / Skirtukas Ankstesnis / Kitas kandidatas iššokančiajame lange (po tekstu, viršuje netoli apačios)
+ui	       →→→ で Enter            すべての候補（2 列 x 8 個、← → で列とページ、Enter で決める）	Įveskite → → → Visi kandidatai (2 x 8, ← → stulpelis ir puslapis, Enter pasirenka)
+ui	       Enter                   次の文節へ（最後の文節で全体を確定）	Įveskite kitą sakinį (paskutinėje dalyje patvirtinama visa)
+ui	       Ctrl-U                  いまの語をユーザー辞書へ	Ctrl-U Pridėti dabartinį žodį į vartotojo žodyną
+ui	 Shift+F1 / F2 / F3 / F4       先頭 / 最後 / 挿入と上書き / ユーザー辞書へ	Shift + F1 / F2 / F3 / F4 Į viršų / pabaiga / įterpti-perrašyti / į vartotojo žodyną
+ui	       BS / ESC                1 字戻す / 取り消し	BS / ESC Grįžti vienu simboliu atgal / Atšaukti
+ui	       , . - [ ] /             、 。 ー 「 」 ・	, . - [ ] / 、 。 ー 「 」 ・
+ui	変更あり  Y: 保存して閉じる  N: 保存せず閉じる  ESC: 戻る	Modifikuotas Y: išsaugoti ir uždaryti N: uždaryti neišsaugojus ESC: atgal
+ui	[予測] Tab/↑↓: 候補  Space: 変換  Esc: 取消	[Numatymas] Tab/↑↓: kandidatas Tarpas: konvertuoti Esc: atšaukti
+ui	[候補] ↑↓: 選ぶ  ←→: 列・ページ  Enter: 決める	[Kandidatai] ↑↓: pasirinkite ←→: stulpelis/puslapis Įveskite: pasirinkite
+ui	[変換] ↑↓候補 ←→文節 Shift+←→区切り Enter次へ	[Konvertuoti] ↑↓cand ←→ sąlyga Shift+←→ribota Įveskite kitą
+ui	[한국어] Tab/↑↓: 候補  Enter/Space: 確定	[한국어] Tab/↑↓: kandidatas Enter/Space: patvirtinti
+ui	[English] Tab/↑↓: 候補  Enter: 確定	[Anglų kalba] Tab/↑↓: kandidatas Įveskite: patvirtinkite
+ui	2ボル式ハングル入力  Ctrl-Space: 英数	2 rinkinių Hangul įvestis Ctrl-tarpas: raidinė ir skaitmeninė
+ui	予測補完  Ctrl-Space: 直接入力	Nuspėjamas užbaigimas Ctrl-Space: tiesioginė įvestis
+ui	辞書なし: ひらがな/カタカナ入力のみ  F6/F7	Nėra žodyno: tik hiragana/katakana F6/F7
+ui	Space: 変換  F7: カタカナ  Ctrl-Space: 英数	Tarpas: konvertuoti F7: katakana Ctrl-tarpas: raidinis ir skaitinis
+ui	Space: 変換  F6: ひらがな  Ctrl-Space: 英数	Tarpas: konvertuoti F6: hiragana Ctrl-tarpas: raidinis ir skaitinis
+ui	半角  F6: ひらがな  F7: カタカナ  Shift+F6/F7: 半角	Pusės pločio F6: hiragana F7: katakana Shift + F6 / F7: pusė
+ui	IME オフ	IME išjungtas
+ui	 予測	prognozuoti
+ui	日本語の予測変換: オン	Nuspėjamasis vertimas į japonų kalbą: Įjungta
+ui	日本語の予測変換: オフ	Nuspėjamasis vertimas į japonų kalbą: išjungtas
+ui	日本語IMEで使います	Naudokite su japonų IME
+ui	ユーザー辞書に追加できません	Negalima įtraukti į vartotojo žodyną
+ui	色分け: %s	Spalva: %s
+ui	読み込んでいます... (loading)	Įkeliama...
+ui	読み込めませんでした (could not read)	Nepavyko perskaityti failo
+ui	%lu 行%s%s	%lu linijos%s%s
+ui	  Shift_JIS を UTF-8 で開きました（保存は UTF-8）	atidarytas Shift_JIS kaip UTF-8 (išsaugotas kaip UTF-8)
+ui	  読み出し専用	tik skaityti
+ui	保存しました (saved)	Išsaugota
+ui	保存できませんでした (write failed)	Nepavyko išsaugoti (įrašyti nepavyko)
+ui	候補	Kandidatai
+ui	7 書込頁	7 WrtPg
+ui	9 ﾃｷｽﾄ	9 Text
+ui	9 ﾊﾞｲﾅﾘ	9 Hex
+ui	読み込み中 %lu%%  	Įkeliama %lu%%
+ui	（先頭だけ）  	(tik pradžia)
+ui	16 進  q ESC: 戻る  F1: ヘルプ	Hex q ESC: atgal F1: pagalba
+ui	テキスト  q ESC: 戻る  F1: ヘルプ	Tekstas q ESC: atgal F1: žinynas
+ui	ビュアーのキー（less 風。テキストと 16 進で共通）	Žiūrėjimo klavišai (pavyzdžiui, mažiau; tas pats teksto ir šešioliktadienio)
+ui	1 行進む	Viena eilute žemyn
+ui	1 行戻る	Viena eilutė
+ui	1 ページ進む	Vienu puslapiu žemyn
+ui	1 ページ戻る	Vienu puslapiu aukštyn
+ui	半ページ進む / 戻る	Pusė puslapio žemyn / aukštyn
+ui	/文字列  ?文字列	/tekstas ?tekstas
+ui	下へ探す / 上へ探す（大文字小文字は区別しない）	Ieškoti žemyn / aukštyn (nepaisoma didžiųjų ir mažųjų raidžių)
+ui	次 / 前を探す	Kitas / ankstesnis mačas
+ui	16 進で表示する（いま見ている所のまま）	Rodyti kaip šešiakampį (toje pačioje vietoje)
+ui	テキストで表示する（いま見ている所のまま）	Rodyti kaip tekstą (toje pačioje vietoje)
+ui	色分けを替える（C/C++・mruby・MicroPython・SG BASIC・なし）	Pakeiskite spalvą (C/C++, mruby, MicroPython, SG BASIC, jokios)
+ui	FB / テキスト面を出す・隠す	Rodyti / slėpti FB / tekstą
+ui	FB の表示ページ / 書き込みページ	FB rodyti puslapį / rašyti puslapį
+ui	ファイラーへ戻る	Grįžti į failą
+ui	このヘルプを閉じる	Uždarykite šią žinyną
+ui	コピー	Kopijuoti
+ui	 %s: フォルダを読んでいます... %u 個	%s: aplankų skaitymas... %u
+ui	 %s: 行き先の空きを数えています...	%s: skaičiuojant laisvą vietą paskirties vietoje...
+ui	 %s: 行き先の空きが足りません	%s: paskirties vietoje nepakanka laisvos vietos
+ui	 移動: 元のフォルダを消しています	Perkelti: šaltinio aplankų pašalinimas
+ui	終了しました	Atlikta
+ui	止まりました	Sustojo
+ui	 %s中%s	%s vyksta%s
+ui	（止めています）	(sustabdo)
+ui	 元: %s	Nuo: %s
+ui	 先: %s	Kam: %s
+ui	 ファイル %u / %u 個  フォルダ %u 個  %s / %s  (%u%%)%s	Failai %u / %u aplankai %u %s / %s (%u%%)%s
+ui	  多すぎるので一部だけ	per daug: tik kai kurie
+ui	 要る大きさ %s、空き %s。続けますか？	Reikia %s, nemokamai %s. Tęsti?
+ui	 Y: 続ける   N / ESC: やめる	Y: tęsti N / ESC: atšaukti
+ui	 何かキーを押すと閉じます	Norėdami uždaryti, paspauskite bet kurį klavišą
+ui	 ESC: 止める	ESC: sustokite
+ui	 %s: ←→ ドライブ  ↑↓ フォルダ  Space 開く・閉じる  Enter 決める  ESC やめる	%s: ←→ diskas ↑↓ aplankas Tarpas atidaryti/uždaryti Įveskite pasirinkti ESC atšaukti
+ui	 読めません: %s	Negaliu skaityti: %s
+ui	 フォルダを読んでいます...（ESC で止める）  %u 個	Aplankų skaitymas... (ESC sustoja) %u
+ui	 フォルダ %u 個%s	%u aplankai%s
+ui	（多すぎるか深すぎるので、一部だけ）	(per daug arba per giliai: tik kai kurie)
+ui	フォルダの展開を止めました	Nustojo atidaryti aplanką
+ui	Space で開き直せます。もう一度 ESC でやめます	Erdvė ją vėl atveria. ESC dar kartą atšaukiamas
+ui	 SMF / SGT プレイヤー   %s	SMF / SGT grotuvas %s
+ui	 読み込んでいます... %lu / %lu バイト	Įkeliama... %lu / %lu baitų
+ui	 %s / %s   %s   ポート %u	%s / %s %s prievadai %u
+ui	一時停止	Pristabdyta
+ui	再生中	Žaidžia
+ui	 Space: 一時停止  m: MIDI OUT  q / ESC: 止める	Tarpas: pauzė m: MIDI OUT q / ESC: sustabdyti
+ui	 q / ESC: やめる	q / ESC: atšaukti
+ui	フォント ROM のライセンスとクレジット\n\nROM: %s（版 %lu.%lu、%lu 文字、フラッシュの 0x%08lX から）\n\n	Šrifto ROM licencijos ir kreditai\n\nROM: %s (versija %lu.%lu, %lu simbolių, nuo 0x%08lX Flash)
+ui	== 収めているフォント（ROM の出所の表）==\n	== Šriftai ROM (ROM kilmės lentelė) ==
+ui	  （表が無い ROM）\n	(ROM neturi lentelės)
+ui	\n== ROM のクレジットの区画 ==\n\n	== ROM kreditų sritis ==
+ui	（区画が無い）\n	(nėra tokio ploto)
+ui	\n== 組み込んだソフトウェアのライセンス ==\n	== Integruotos programinės įrangos licencijos ==
+ui	 %s を PNG で保存   %s	Išsaugomas %s kaip PNG %s
+ui	画面	Ekranas
+ui	 組み立てています... %lu / %lu 行	Pastatas... %lu / %lu eilučių
+ui	 書いています... %lu / %lu KB（FB は隠しています）	Rašoma... %lu / %lu KB (FB paslėptas)
+ui	書けませんでした	Nepavyko parašyti
+ui	書庫の名前（印の付いた項目、無ければカーソルの項目を入れる）	Archyvo pavadinimas (pažymėti elementai arba žymeklio elementas, jei jo nėra)
+ui	Enter 圧縮する  ←→ 動かす  BS / Del 消す  ESC やめる	Įveskite kompresą ← → perkelti BS / Del ištrinti ESC atšaukti
+ui	WAV 書き出し: %s 中止（%s）	WAV eksportavimas: %s atšauktas (%s)
+ui	WAV 書き出し: %s 失敗（%s）	WAV eksportavimas: %s nepavyko (%s)
+ui	WAV 書き出し: %s 合計 %s	WAV eksportas: %s iš viso %s
+ui	 WAV 書き出し（96kHz / 24bit）: %s	WAV eksportas (96 kHz / 24 bitai): %s
+ui	中止しました	Atšaukta
+ui	失敗しました	Nepavyko
+ui	 合計 %s	Iš viso %s
+ui	 中止しました（%s。半端なファイルは消しました）	Atšaukta (%s; dalinis failas buvo ištrintas)
+ui	 書き出せませんでした（%s）。理由:	Nepavyko eksportuoti (%s). Priežastis:
+ui	 （理由は分かりません）	(priežastis nežinoma)
+ui	 %u%%   経過 %s%s	%u%% praėjo %s%s
+ui	 ESC: 止める（半端なファイルは消します）	ESC: sustabdyti (ištrinama dalis failo)
+ui	書庫: %s	Archyvas: %s
+ui	読み込み中…（ESC でやめる）	Skaitoma... (ESC atšaukti)
+ui	 %u 項目%s  合計 %s バイト  展開先: %s	%u elementai%s iš viso %s baitų išskleiskite į: %s
+ui	 Enter 項目を展開  X 全部を展開  ↑↓ 動かす  ESC 閉じる	Įveskite ekstrakto elementą X išskleiskite viską ↑↓ perkelti ESC uždaryti
+ui	圧縮	Suspausti
+ui	一覧	Sąrašas
+ui	展開	Ištrauka
+ui	 合計 %s   %u 項目	Iš viso %s %u prekių
+ui	 合計 %s   %u ファイル	Iš viso %s %u failų
+ui	 中止しました（%s。書きかけのファイルは消しました）	Atšaukta (%s; nebaigtas failas buvo ištrintas)
+ui	 できませんでした（%s）: %s	Nepavyko to padaryti (%s): %s
+ui	 %u%%   経過 %s   %s バイト%s	%u%% praėjo %s %s baitai%s
+ui	 経過 %s   %s バイト%s	praėjo %s %s baitai%s
+ui	 ESC: 止める（書きかけのファイルは消します）	ESC: sustabdyti (neužbaigtas failas ištrinamas)
+ui	書庫: %s 失敗（%s）	Archyvas: %s nepavyko (%s)
+ui	圧縮: %s（%u 項目）	Suspausta: %s (%u elementai)
+ui	展開: %s（%u ファイル）	Ištraukta: %s (%u failai)
+msg.phrase	the drive went away	pavara nuėjo
+msg.phrase	reading the partitions again...	dar kartą skaitant pertvaras...
+msg.phrase	could not open the volume (no memory?)	nepavyko atidaryti tomo (nėra atminties?)
+msg.phrase	opening the volume...	atidaryti tomą...
+msg.phrase	no memory for the file list	nėra atminties failų sąrašui
+msg.phrase	reading the directory... (retrying)	skaityti katalogą... (bandoma dar kartą)
+msg.phrase	could not read the directory	negalėjo perskaityti katalogo
+msg.phrase	reading the directory...	skaitau katalogą...
+msg.phrase	the drive did not answer -- reading the partitions again	diskas neatsakė -- dar kartą skaitydamas skaidinius
+msg.phrase	could not read the directory (not FAT12/16/32?)	nepavyko nuskaityti katalogo (ne FAT12/16/32?)
+msg.phrase	too many entries -- showing the first ones	per daug įrašų – rodomi pirmieji
+msg.phrase	no file system found on this partition	šiame skaidinyje nerasta failų sistemos
+msg.phrase	the path is too long	kelias per ilgas
+msg.phrase	joining...	prisijungiu...
+msg.phrase	splitting...	skilimas...
+msg.phrase	renaming...	pervadinimas...
+msg.phrase	creating the folder...	kuriant aplanką...
+msg.phrase	creating the file...	kuriant failą...
+msg.phrase	deleting...	ištrinama...
+msg.phrase	writing the attributes...	rašyti atributus...
+msg.phrase	the drive is busy	važiavimas užimtas
+msg.phrase	busy	užimtas
+msg.phrase	choose files or folders	pasirinkti failus arba aplankus
+msg.phrase	choose files or folders (not "..")	pasirinkite failus arba aplankus (ne "..")
+msg.phrase	stop the CD first	pirmiausia sustabdykite kompaktinį diską
+msg.phrase	the CD cannot be changed (copy instead)	CD negalima pakeisti (vietoj jo kopijuoti)
+msg.phrase	a system folder cannot be moved	sistemos aplanko negalima perkelti
+msg.phrase	no drive can be written (FAT / exFAT / NTFS only)	negalima įrašyti jokio disko (tik FAT / exFAT / NTFS)
+msg.phrase	the drive is gone	pavara dingo
+msg.phrase	nothing chosen	nieko nepasirinkta
+msg.phrase	nothing selected	nieko nepasirinkta
+msg.phrase	could not start	negalėjo pradėti
+msg.phrase	could not open	negalėjo atidaryti
+msg.phrase	only on a FAT / exFAT / NTFS drive	tik FAT / exFAT / NTFS diske
+msg.phrase	no name	jokio vardo
+msg.phrase	that name already exists	toks pavadinimas jau yra
+msg.phrase	could not start (bad name or the drive is busy)	nepavyko paleisti (blogas pavadinimas arba diskas užimtas)
+msg.phrase	could not start (the drive is busy)	nepavyko paleisti (variklis užimtas)
+msg.phrase	the name cannot have / or \\ (only inside this folder)	pavadinimas negali turėti / arba \\ (tik šiame aplanke)
+msg.phrase	the name is the same	pavadinimas tas pats
+msg.phrase	the item is read-only (A to change)	elementas yra tik skaitomas (A pakeisti)
+msg.phrase	choose a .rb file on a writable drive	pasirinkite .rb failą įrašomajame diske
+msg.phrase	choose a .rb file	pasirinkite .rb failą
+msg.phrase	the drive is read-only	diskas yra tik skaitomas
+msg.phrase	choose a folder on a writable drive	pasirinkite aplanką įrašomajame diske
+msg.phrase	wait a moment	palaukite akimirką
+msg.phrase	choose a file	pasirinkti failą
+msg.phrase	choose a file (not a folder)	pasirinkti failą (ne aplanką)
+msg.phrase	choose a .001 file	pasirinkite .001 failą
+msg.phrase	choose the .001 file	pasirinkite .001 failą
+msg.phrase	put the IWAD in a DoomFiles or Doom2Files folder	įdėkite IWAD į DoomFiles arba Doom2Files aplanką
+msg.phrase	DoomFiles takes freedoom1 / doom / doomu / doom1.wad	DoomFiles paima freedoom1 / doom / doomu / doom1.wad
+msg.phrase	Doom2Files takes freedoom2 / doom2 / plutonia / tnt.wad	Doom2Files užima freedoom2 / doom2 / plutonia / tnt.wad
+msg.phrase	put the game files on external storage, not S:	Įdėkite žaidimo failus į išorinę atmintį, o ne S:
+msg.phrase	the IWAD must be on a FAT / exFAT / NTFS drive (not a CD)	IWAD turi būti FAT / exFAT / NTFS diske (ne kompaktiniame diske)
+msg.phrase	still working	vis dar dirba
+msg.phrase	an image is loading	įkeliamas vaizdas
+msg.phrase	no framebuffer	nėra kadrų buferio
+msg.phrase	half brightness works only in RGB555	pusė šviesumo veikia tik RGB555
+msg.phrase	clearing...	išvalymas...
+msg.phrase	halving the brightness...	perpus sumažinti šviesumą...
+msg.phrase	that is a data track	tai yra duomenų takelis
+msg.phrase	wait -- a file is being written	palauk – rašomas failas
+msg.phrase	only floppy / LS-120 / CD drives	tik diskelių / LS-120 / CD diskų įrenginiai
+msg.phrase	requested	paprašė
+msg.phrase	reading the disc...	skaitant diską...
+msg.phrase	stopping...	sustojimas...
+msg.phrase	opening...	atidarymas...
+msg.phrase	done	padaryta
+msg.phrase	no memory	jokios atminties
+msg.phrase	already open	jau atidaryta
+msg.phrase	already running	jau bėga
+msg.phrase	already saving	jau taupo
+msg.phrase	already playing	jau žaidžia
+msg.phrase	no such drive	tokio važiavimo nėra
+msg.phrase	no PSRAM	nėra PSRAM
+msg.phrase	no PSRAM for the file	nėra failo PSRAM
+msg.phrase	no PSRAM for the line index	nėra PSRAM linijos indeksui
+msg.phrase	no PSRAM for the terminal	terminalui nėra PSRAM
+msg.phrase	no memory (PSRAM)	nėra atminties (PSRAM)
+msg.phrase	no memory (32KB SRAM)	nėra atminties (32KB SRAM)
+msg.phrase	no memory for the buffer	nėra buferio atminties
+msg.phrase	no memory for the image buffers	nėra atminties vaizdo buferiams
+msg.phrase	no memory for the read buffer	nėra atminties skaitymo buferiui
+msg.phrase	no room for the work memory (close the lowres plane?)	nėra vietos darbo atminčiai (uždaryti žemos plokštumos?)
+msg.phrase	no framebuffer page	nėra kadrų buferio puslapio
+msg.phrase	too large (4 MB at most)	per didelis (daugiausia 4 MB)
+msg.phrase	the file is too large (1 MB at most)	failas per didelis (daugiausia 1 MB)
+msg.phrase	the file is too large (1 MB max)	failas per didelis (maks. 1 MB)
+msg.phrase	too large for an SMF (1MB at most)	per didelis SMF (daugiausia 1 MB)
+msg.phrase	the file is empty	failas tuščias
+msg.phrase	could not open the file	nepavyko atidaryti failo
+msg.phrase	could not read the file	negalėjo perskaityti failo
+msg.phrase	could not open the volume	negalėjo atidaryti tomo
+msg.phrase	could not open the destination (no memory?)	nepavyko atidaryti paskirties vietos (nėra atminties?)
+msg.phrase	could not read the root folder	nepavyko nuskaityti šakninio aplanko
+msg.phrase	could not start the task	negalėjo pradėti užduoties
+msg.phrase	could not start writing (bad name or busy)	negalėjo pradėti rašyti (blogas vardas arba užimtas)
+msg.phrase	another volume is open (busy)	kitas tomas atidarytas (užimtas)
+msg.phrase	a copy is running	veikia kopija
+msg.phrase	a folder cannot go into itself	aplankas negali patekti į save
+msg.phrase	that is the same folder	tai tas pats aplankas
+msg.phrase	this drive cannot be changed (read only)	šio disko pakeisti negalima (tik skaityti)
+msg.phrase	the drive is not writable	diskas nerašomas
+msg.phrase	the part size must be a multiple of 512	dalies dydis turi būti kartotinis iš 512
+msg.phrase	files of 4 GB or more are not supported	4 GB ar didesni failai nepalaikomi
+msg.phrase	bad path	blogas kelias
+msg.phrase	bad file name	blogas failo pavadinimas
+msg.phrase	the font ROM is not there	šrifto ROM nėra
+msg.phrase	the sound is not open	garsas nėra atidarytas
+msg.phrase	no such channel	tokio kanalo nera
+msg.phrase	the sequencer is busy	sekvencija užimta
+msg.phrase	not enough PSRAM for the song	nepakanka PSRAM dainai
+msg.phrase	not a standard MIDI file (no MThd)	ne standartinis MIDI failas (be MThd)
+msg.phrase	no tracks	jokių pėdsakų
+msg.phrase	a track is broken (MTrk)	nutrūkęs takelis (MTrk)
+msg.phrase	SMPTE time division is not supported	SMPTE laiko padalijimas nepalaikomas
+msg.phrase	SMF format 2 is not supported (0 and 1 only)	2 SMF formatas nepalaikomas (tik 0 ir 1)
+msg.phrase	not a Bulk-Only drive	ne tik masinis diskas
+msg.phrase	not an optical drive	ne optinis diskas
+msg.phrase	a system folder cannot be deleted or renamed	sistemos aplanko negalima ištrinti arba pervardyti
+msg.phrase	no media in the drive	diske nėra laikmenos
+msg.phrase	becoming ready	tampa pasiruošęs
+msg.phrase	not ready	nepasiruošęs
+msg.phrase	media changed	pasikeitė žiniasklaida
+msg.phrase	medium error	vidutinė klaida
+msg.phrase	illegal request	neteisėtą prašymą
+msg.phrase	a bad directory entry	blogas katalogo įrašas
+msg.phrase	a directory on the way does not exist	pakeliui esantis katalogas neegzistuoja
+msg.phrase	a file has that name	failas turi tokį pavadinimą
+msg.phrase	a folder has that name	aplankas turi tokį pavadinimą
+msg.phrase	a name on the way is not a directory	pakeliui esantis vardas nėra katalogas
+msg.phrase	cancelled	atšauktas
+msg.phrase	could not mount	negalėjo užsimontuoti
+msg.phrase	could not start a read	negalėjo pradėti skaityti
+msg.phrase	could not start a write	negalėjo pradėti rašyti
+msg.phrase	is a directory	yra katalogas
+msg.phrase	that is a directory	tai yra katalogas
+msg.phrase	no clusters	jokių klasterių
+msg.phrase	no room for the cluster list	nėra vietos klasterių sąrašui
+msg.phrase	no such file or directory	tokio failo ar katalogo nėra
+msg.phrase	no such file	tokio failo nėra
+msg.phrase	no volume	jokio tūrio
+msg.phrase	not NTFS	ne NTFS
+msg.phrase	not exFAT	ne exFAT
+msg.phrase	not a directory	ne katalogas
+msg.phrase	not found	nerasta
+msg.phrase	read error	skaitymo klaida
+msg.phrase	write error	rašymo klaida
+msg.phrase	reading the FAT failed	nepavyko perskaityti FAT
+msg.phrase	the cluster chain is shorter than the file	klasterio grandinė yra trumpesnė už failą
+msg.phrase	the directory is not empty	katalogas nėra tuščias
+msg.phrase	the disk is full	diskas pilnas
+msg.phrase	the drive did not answer	vairuotojas neatsiliepė
+msg.phrase	the file is read-only	failas yra tik skaitomas
+msg.phrase	the file is too fragmented	failas per daug suskaidytas
+msg.phrase	the file is too large (4GB)	failas per didelis (4 GB)
+msg.phrase	the new name already exists	naujas pavadinimas jau yra
+msg.phrase	the root directory is full	šakninis katalogas pilnas
+msg.phrase	too many files with the same short name	per daug failų tuo pačiu trumpuoju pavadinimu
+msg.phrase	No such file or directory	Nėra tokio failo ar katalogo
+msg.phrase	File exists	Failas egzistuoja
+msg.phrase	Permission denied	Leidimas atmestas
+msg.phrase	Directory not empty	Katalogas nėra tuščias
+msg.phrase	Not a directory	Ne katalogas
+msg.phrase	Is a directory	Yra katalogas
+msg.phrase	Read-only file system	Tik skaitoma failų sistema
+msg.phrase	No space left on device	Įrenginyje neliko vietos
+msg.phrase	Input/output error	Įvesties/išvesties klaida
+msg.phrase	Not supported on this drive	Šiame diske nepalaikoma
+msg.phrase	Invalid path	Neteisingas kelias
+msg.phrase	Out of memory	Pritrūko atminties
+msg.phrase	No such drive	Nėra tokio važiavimo
+msg.phrase	stopped	sustojo
+msg.phrase	cancelled (not enough free space)	atšaukta (nepakanka laisvos vietos)
+msg.phrase	could not count the free space	negalėjo suskaičiuoti laisvos vietos
+msg.phrase	the receiver cancelled	imtuvas atšauktas
+msg.phrase	no receiver (run rz on the PC)	nėra imtuvo (paleiskite rz kompiuteryje)
+msg.phrase	the console UART is in use	konsolė UART yra naudojama
+msg.phrase	the screen mode changed	pasikeitė ekrano režimas
+msg.phrase	the lines did not come (is the display running?)	linijos neatėjo (ar veikia ekranas?)
+msg.prefix	copy	kopija
+msg.prefix	move	judėti
+msg.prefix	delete	ištrinti
+msg.prefix	rename	pervadinti
+msg.prefix	attributes	atributai
+msg.prefix	new file	naujas failas
+msg.prefix	new folder	naujas aplankas
+msg.prefix	image	vaizdas
+msg.prefix	mrbc	mrbc
+msg.prefix	ruby	rubinas
+msg.prefix	viewer	žiūrovas
+msg.prefix	edit	redaguoti
+msg.prefix	IDENTIFY	IDENTIFIKUOTI
+msg.prefix	ZMODEM	ZMODEM
+msg.prefix	ZMODEM receive	ZMODEM gauti
+msg.prefix	ZMODEM send	ZMODEM siuntimas
+msg.prefix	split	padalintas
+msg.prefix	join	prisijungti
+msg.prefix	Doom	Doom
+msg.prefix	SMF	SMF
+msg.prefix	CD	CD
+msg.prefix	FB	FB
+msg.prefix	Eject	Išstumti
+msg.prefix	reboot	paleisti iš naujo
+msg.prefix	license	licencija
+msg.prefix	clock	laikrodis
+msg.prefix	ADC in	ADC viduje
+msg.prefix	screen -> PNG	ekranas -> PNG
+msg.prefix	FB -> PNG	FB -> PNG
+msg.prefix	could not open the volume	negalėjo atidaryti tomo
+msg.pattern	received 	gavo %s
+msg.pattern	sent 	išsiųstas %s
+msg.pattern	saved 	išsaugotas %s
+msg.pattern	created 	sukurtas %s
+msg.pattern	renamed to 	pervadintas į %s
+msg.pattern	deleted 	ištrintas %s
+msg.pattern	changed 	pasikeitė %s
+msg.pattern	joined 	prisijungė %s
+msg.pattern	split 	padalintas %s
+msg.pattern	could not create 	negalėjo sukurti %s
+msg.pattern	could not delete 	nepavyko ištrinti %s
+msg.pattern	could not rename to 	negalėjo pervardyti į %s
+msg.pattern	could not change 	negalėjo pakeisti %s
+msg.pattern	could not read 	nemokėjo skaityti %s
+msg.pattern	could not write 	negalėjo rašyti %s
+msg.pattern	could not copy 	negalėjo kopijuoti %s
+msg.pattern	could not make 	negalėjo padaryti %s
+msg.pattern	could not remove the folder 	nepavyko pašalinti aplanko %s
+msg.pattern	could not remove 	negalėjo pašalinti %s
+msg.pattern	no memory for 	nėra atminties %s
+msg.pattern	too many errors while sending 	per daug klaidų siunčiant %s
+msg.pattern	the receiver did not take 	imtuvas nepaėmė %s
+msg.pattern	the receiver skipped 	imtuvas praleido %s
+msg.pattern	FB page 	FB puslapyje %s
+msg.word	 bytes each)	baitai kiekvienas)
+msg.word	 bytes)	baitai)
+msg.word	 KB)	KB)
+msg.word	 parts into 	dalys į
+msg.word	 parts (	dalys (
+msg.word	 into 	į
+msg.word	: cleared	: išvalyta
+msg.word	: brightness halved	: ryškumas sumažėjo perpus
+msg.word	% read	% perskaityta
+msg.word	 rows	eilučių
+msg.word	 -- not supported yet (FAT / exFAT / NTFS only)	– dar nepalaikoma (tik FAT / exFAT / NTFS)
+msg.word	 files	failus
+msg.word	 (	(
+msg.phrase	Untitled	Be pavadinimo
+msg.phrase	1 File	1 failas
+msg.phrase	2 Edit	2 Redaguoti
+msg.phrase	3 Graph	3 Grafikas
+msg.phrase	4 Sheet	4 lapas
+msg.phrase	5 Help	5 Pagalba
+msg.phrase	EMPTY	TUŠČIA
+msg.phrase	NUMBER	NUMERIS
+msg.phrase	TEXT	TEKSTAS
+msg.phrase	FORMULA	FORMULĖ
+msg.phrase	Type to enter, F2 to edit, F1 for help	Įveskite norėdami įvesti, F2 norėdami redaguoti, F1, jei norite pagalbos
+msg.phrase	5 CSV	5 CSV
+msg.phrase	6 ODS	6 ODS
+msg.phrase	[SHIFT]	[SHIFT]
+msg.phrase	[CTRL]	[CTRL]
+msg.phrase	[ALT]	[ALT]
+msg.phrase	Ready	Paruošta
+msg.phrase	SGCALC	SGCALC
+msg.phrase	Press any key	Paspauskite bet kurį klavišą
+msg.phrase	Y = yes    N = no    Esc = cancel	Y = taip N = ne Esc = atšaukti
+msg.phrase	Enter = OK    Esc = cancel    Ctrl-U = clear	Enter = OK Esc = atšaukti Ctrl-U = išvalyti
+msg.phrase	First row/column = labels; charts use the 640x480 CLUT8 FB.	Pirma eilutė / stulpelis = etiketės; diagramose naudojamas 640 x 480 CLUT8 FB.
+msg.phrase	SGCALC - HELP	SGCALC – PAGALBA
+msg.phrase	Press any key to return	Norėdami grįžti, paspauskite bet kurį klavišą
+msg.phrase	Press any key to return.	Norėdami grįžti, paspauskite bet kurį klavišą.
+msg.phrase	ABOUT SGCALC	APIE SGCALC
+msg.phrase	New	Nauja
+msg.phrase	Start a new sheet	Pradėkite naują lapą
+msg.phrase	Open...	Atidaryti...
+msg.phrase	Open an ODS, FODS or CSV file	Atidarykite ODS, FODS arba CSV failą
+msg.phrase	Save	Išsaugoti
+msg.phrase	Save the current file	Išsaugokite esamą failą
+msg.phrase	Save As...	Išsaugoti kaip...
+msg.phrase	Save with a new name or format	Išsaugokite nauju pavadinimu arba formatu
+msg.phrase	Export CSV...	Eksportuoti CSV...
+msg.phrase	Write a CSV copy	Parašykite CSV kopiją
+msg.phrase	Export ODS...	Eksportuoti ODS...
+msg.phrase	Write a LibreOffice copy	Parašykite „LibreOffice“ kopiją
+msg.phrase	Quit	Išeik
+msg.phrase	Leave SGCALC	Palikite SGCALC
+msg.phrase	Clear	Aišku
+msg.phrase	Clear the selected cells	Išvalykite pasirinktus langelius
+msg.phrase	Copy	Kopijuoti
+msg.phrase	Copy the selection	Nukopijuokite pasirinkimą
+msg.phrase	Paste	Įklijuoti
+msg.phrase	Paste at the cursor	Įklijuokite ties žymekliu
+msg.phrase	Cut	Iškirpti
+msg.phrase	Copy and clear the selection	Nukopijuokite ir išvalykite pasirinkimą
+msg.phrase	Select all	Pasirinkite viską
+msg.phrase	Select all used cells	Pasirinkite visas naudojamas ląsteles
+msg.phrase	Text color...	Teksto spalva...
+msg.phrase	Choose the text colour	Pasirinkite teksto spalvą
+msg.phrase	Background...	Fonas...
+msg.phrase	Choose the cell background	Pasirinkite langelio foną
+msg.phrase	Line	Linija
+msg.phrase	Draw a line graph from the selection	Iš pasirinkimo nubrėžkite linijinę grafiką
+msg.phrase	Bar	Baras
+msg.phrase	Draw a bar graph from the selection	Iš pasirinkimo nubrėžkite juostinę diagramą
+msg.phrase	Mixed	Mišrus
+msg.phrase	Bars for the first series, lines for the rest	Barai pirmajai serijai, eilutės likusioms
+msg.phrase	Pie	Pyragas
+msg.phrase	Draw a pie graph from the selection	Iš pasirinkimo nubrėžkite skritulinę diagramą
+msg.phrase	Range...	Diapazonas...
+msg.phrase	Set the graph range explicitly	Aiškiai nustatykite diagramos diapazoną
+msg.phrase	Draw again	Dar kartą pieškite
+msg.phrase	Redraw the last graph	Perbraižykite paskutinę grafiką
+msg.phrase	Goto...	Eik...
+msg.phrase	Jump to a cell (for example C12)	Peršokti į langelį (pvz., C12)
+msg.phrase	Column width...	Stulpelio plotis...
+msg.phrase	Change the selected columns' width	Pakeiskite pasirinktų stulpelių plotį
+msg.phrase	Row height...	Eilės aukštis...
+msg.phrase	Change the selected rows' height	Pakeiskite pasirinktų eilučių aukštį
+msg.phrase	Auto fit	Automatiškai tinka
+msg.phrase	Fit widths/heights to the contents (F7)	Pritaikykite plotį/aukštį prie turinio (F7)
+msg.phrase	Recalculate	Perskaičiuoti
+msg.phrase	Re-evaluate all formulas	Iš naujo įvertinkite visas formules
+msg.phrase	Erase all	Ištrinti viską
+msg.phrase	Clear the whole sheet	Išvalykite visą lapą
+msg.phrase	Keys	Raktai
+msg.phrase	Show the key guide	Parodykite raktų vadovą
+msg.phrase	About	Apie
+msg.phrase	About SGCALC	Apie SGCALC
+msg.phrase	File	Failas
+msg.phrase	Edit	Redaguoti
+msg.phrase	Graph	Grafikas
+msg.phrase	Sheet	Lapas
+msg.phrase	Help	Pagalba
+msg.phrase	File: new, open, save, export, quit	Failas: naujas, atidaryti, išsaugoti, eksportuoti, išeiti
+msg.phrase	Edit: clear, copy, paste, cut, select all	Redaguoti: išvalyti, nukopijuoti, įklijuoti, iškirpti, pasirinkti viską
+msg.phrase	Graph: line, bar, mixed, pie (draws in the FB)	Grafikas: linija, juosta, mišrus, pyragas (piešia FB)
+msg.phrase	Sheet: goto, column width, recalculate, erase	Lapas: Goto, stulpelio plotis, perskaičiuoti, ištrinti
+msg.phrase	Help: keys and about	Pagalba: raktai ir apie
+msg.phrase	Left/Right = menu    Up/Down = item    Enter = choose    Esc = cancel	Kairėn/dešinėn = meniu Aukštyn/Žemyn = elementas Enter = pasirinkite Esc = atšaukti
+msg.phrase	Cancelled	Atšaukta
+msg.phrase	The selection is too large or memory is low.	Pasirinkimas per didelis arba trūksta atminties.
+msg.phrase	the cell	ląstelė
+msg.phrase	the selection	atranka
+msg.phrase	Nothing to paste	Nėra ką įklijuoti
+msg.phrase	Pasted	Įklijuota
+msg.phrase	GO TO CELL	EITI Į CELL
+msg.phrase	Cell reference (A1):	Langelio nuoroda (A1):
+msg.phrase	Goto	Goto
+msg.phrase	COLUMN WIDTH	Stulpelio PLOTIS
+msg.phrase	Width in characters (4..30):	Plotis simboliais (4..30):
+msg.phrase	ROW HEIGHT	EILĖS AUKŠTIS
+msg.phrase	Height in text rows (1..8):	Aukštis teksto eilutėse (1..8):
+msg.phrase	Auto fit: the sheet is empty	Automatinis pritaikymas: lapas tuščias
+msg.phrase	BACKGROUND COLOUR	FONO SPALVA
+msg.phrase	TEXT COLOUR	TEKSTO SPALVA
+msg.phrase	Arrows: choose    Enter: apply    Esc: cancel	Rodyklės: pasirinkite Enter: taikyti Esc: atšaukti
+msg.phrase	Colour index (PC-98 16-colour palette)	Spalvų indeksas (PC-98 16 spalvų paletė)
+msg.phrase	Aa 123	Aa 123
+msg.phrase	Enter = apply    Esc = cancel	Enter = taikyti Esc = atšaukti
+msg.phrase	Colour	Spalva
+msg.phrase	Background	Fonas
+msg.phrase	Text	Tekstas
+msg.phrase	GRAPH RANGE	GRAFŲ DIAPAZONAS
+msg.phrase	Range (for example A1:C10):	Diapazonas (pvz., A1:C10):
+msg.phrase	Graph range	Grafiko diapazonas
+msg.phrase	Use a range such as A1:C10.	Naudokite diapazoną, pvz., A1:C10.
+msg.phrase	Cannot draw the graph.	Negalima nubraižyti grafiko.
+msg.phrase	line	linija
+msg.phrase	bar	baras
+msg.phrase	mixed	sumaišytas
+msg.phrase	pie	pyragas
+msg.phrase	Clear every cell in this sheet?	Išvalyti kiekvieną šio lapo langelį?
+msg.phrase	Sheet erased	Lapas ištrintas
+msg.phrase	Selected all used cells	Pasirinktos visos panaudotos ląstelės
+msg.phrase	Recalculated	Perskaičiuota
+msg.phrase	Memory	Atmintis
+msg.phrase	Not enough PSRAM for the spreadsheet.	Nepakanka PSRAM skaičiuoklei.
+msg.phrase	The sheet is empty.	Lapas tuščias.
+msg.phrase	No numeric data in the selected range.	Pasirinktame diapazone nėra skaitmeninių duomenų.
+msg.phrase	Other	Kita
+msg.phrase	No positive values for a pie chart	Nėra teigiamų skritulinės diagramos verčių
+msg.phrase	LINE	LINIJA
+msg.phrase	BAR	BARAS
+msg.phrase	MIXED	MIŠRAUS
+msg.phrase	PIE	PYRAGAS
+msg.phrase	S:/	S:/
+msg.phrase	Folder	Aplankas
+msg.phrase	SAVE AS	IŠSAUGOTI KAIP
+msg.phrase	OPEN FILE	ATIDARYTI FAILĄ
+msg.phrase	LibreOffice / CSV	LibreOffice / CSV
+msg.phrase	ODS  FODS  CSV	ODS FODS CSV
+msg.phrase	Name:	Vardas:
+msg.phrase	(type a name, or choose below)	(įveskite pavadinimą arba pasirinkite žemiau)
+msg.phrase	Name	Vardas
+msg.phrase	Size	Dydis
+msg.phrase	Enter=save  Left=up  Right/Enter on [DIR]=open  Tab=drive  Esc=cancel	Enter=išsaugoti Kairėn=aukštyn dešinėn/įvesti [DIR]=atidaryti Tab=vairuoti Esc=atšaukti
+msg.phrase	Enter=open  Left=up  Right/Enter on [DIR]=open  Tab=drive  Esc=cancel	Enter=atidaryti Kairėn=aukštyn dešinėn/įvesti [DIR]=atidaryti Tab=vairuoti Esc=atšaukti
+msg.phrase	Not enough memory.	Nepakanka atminties.
+msg.phrase	Overwrite	Perrašyti
+msg.phrase	Open	Atidaryti
+msg.phrase	The file is too large (limit 8 MB).	Failas per didelis (ne daugiau kaip 8 MB).
+msg.phrase	Not enough memory to read the file.	Nepakanka atminties failui skaityti.
+msg.phrase	Bad ZIP/ODS data.	Blogi ZIP / ODS duomenys.
+msg.phrase	CRC error in the ODS file.	CRC klaida ODS faile.
+msg.phrase	Unsupported or damaged file.	Nepalaikomas arba sugadintas failas.
+msg.phrase	Saved	Išsaugota
+msg.phrase	Exported	Eksportuota
+msg.phrase	Unsaved changes	Neišsaugoti pakeitimai
+msg.phrase	Save the current sheet before continuing?	Išsaugoti dabartinį lapą prieš tęsiant?
+msg.phrase	New sheet	Naujas lapas
+msg.phrase	SGTRK	SGTRK
+msg.phrase	UNTITLED	BE pavadinimų
+msg.phrase	song is too large	daina per didelė
+msg.phrase	empty file	tuščias failas
+msg.phrase	not an SGT file	ne SGT failas
+msg.phrase	bad BPM	blogas BPM
+msg.phrase	bad speed	blogas greitis
+msg.phrase	bad title length	blogas pavadinimo ilgis
+msg.phrase	truncated title	sutrumpintas pavadinimas
+msg.phrase	bad character in title	blogas veikėjas pavadinime
+msg.phrase	truncated order	sutrumpinta tvarka
+msg.phrase	bad order length	blogas užsakymo ilgis
+msg.phrase	bad pattern number in order	netinkamas modelio numeris
+msg.phrase	truncated pattern list	sutrumpintas šablonų sąrašas
+msg.phrase	bad pattern count	blogas modelių skaičius
+msg.phrase	bad pattern index	blogas modelio indeksas
+msg.phrase	duplicate pattern	pasikartojantis modelis
+msg.phrase	truncated pattern data	sutrumpinti šablono duomenys
+msg.phrase	invalid pattern data	neteisingi modelio duomenys
+msg.phrase	trailing data in file	faile esantys duomenys
+msg.phrase	order refers to a missing pattern	užsakymas nurodo trūkstamą šabloną
+msg.phrase	A:/	A:/
+msg.phrase	(untitled)	(be pavadinimo)
+msg.phrase	Ready. Press F1 for help.	Paruošta. Norėdami gauti pagalbos, paspauskite F1.
+msg.phrase	Follow OFF	Sekite OFF
+msg.phrase	Nothing to undo	Nėra ko anuliuoti
+msg.phrase	Undo	Anuliuoti
+msg.phrase	Note OFF	Pastaba IŠJUNGTA
+msg.phrase	Set an effect letter first	Pirmiausia nustatykite efekto raidę
+msg.phrase	Effect cleared	Efektas išvalytas
+msg.phrase	Parameter cleared	Parametras išvalytas
+msg.phrase	Note cleared	Pastaba išvalyta
+msg.phrase	Instrument cleared	Priemonė išvalyta
+msg.phrase	Volume cleared	Tomas išvalytas
+msg.phrase	Order list is full	Užsakymų sąrašas pilnas
+msg.phrase	Order inserted	Užsakymas įdėtas
+msg.phrase	Cannot delete the last order	Negalima ištrinti paskutinio užsakymo
+msg.phrase	Order deleted	Užsakymas ištrintas
+msg.phrase	Playing song	Groja daina
+msg.phrase	Stopped	Sustojo
+msg.phrase	New song	Nauja daina
+msg.phrase	Discard unsaved changes and start a new song? (Y/N)	Atmesti neišsaugotus pakeitimus ir pradėti naują dainą? (Y/N)
+msg.phrase	Discard unsaved changes and open a song? (Y/N)	Atmesti neišsaugotus pakeitimus ir atidaryti dainą? (Y/N)
+msg.phrase	Discard unsaved changes and quit? (Y/N)	Atmesti neišsaugotus pakeitimus ir išeiti? (Y/N)
+msg.phrase	Song settings updated	Dainos nustatymai atnaujinti
+msg.phrase	Filename is empty	Failo pavadinimas tuščias
+msg.phrase	Save cancelled	Išsaugojimas atšauktas
+msg.phrase	Open cancelled	Atidarymas atšauktas
+msg.phrase	Edit ON	Redaguoti ĮJUNGTA
+msg.phrase	Edit OFF	Redaguoti IŠJUNGTA
+msg.phrase	Follow ON	Sekite ĮJUNGTA
+msg.phrase	Edit is OFF. Press F8 to edit.	Redagavimas IŠJUNGTAS. Norėdami redaguoti, paspauskite F8.
+msg.phrase	I/O error	I/O klaida
+msg.phrase	file is too large	failas per didelis
+msg.phrase	truncated file	sutrumpintas failas
+msg.phrase	SINE PAD	SINE PAD
+msg.phrase	TRIANGLE	TRIKAMPIS
+msg.phrase	SAW LEAD	Pjūklo švinas
+msg.phrase	SQUARE	Kvadratas
+msg.phrase	PULSE 25	PULSAS 25
+msg.phrase	ORGAN	ORGANAI
+msg.phrase	BASS	BASAS
+msg.phrase	BELL	VARPAS
+msg.phrase	NOISE	TRIUKŠMAS
+msg.phrase	SINE	SINE
+msg.phrase	SAW	Pjūklas
+msg.phrase	OFF	IŠJUNGTA
+msg.phrase	ON	ĮJUNGTA
+msg.phrase	ROW	EILUTĖ
+msg.phrase	CHAN LEVEL	KANALŲ LYGIS
+msg.phrase	F1 HELP F2 SONG	F1 PAGALBA F2 DAINA
+msg.phrase	F3 INS  F4 SAVE	F3 INS F4 SAVE
+msg.phrase	F5 PLAY F6 PAT	F5 PLAY F6 PAT
+msg.phrase	F7 STOP F8 EDIT	F7 STOP F8 REDAGUOTI
+msg.phrase	F9/F10 OCTAVE	F9/F10 OCTAVE
+msg.phrase	F11 FOLLOW	F11 SEKITE
+msg.phrase	F12 QUIT	F12 UŽDARYTI
+msg.phrase	SPACE PLAY/STOP	PLAY/STOP
+msg.phrase	CTRL-S SAVE	CTRL-S IŠSAUGOTI
+msg.phrase	CTRL-O OPEN	CTRL-O ATIDARYTA
+msg.phrase	C-N NEW C-Z UNDO	C-N NAUJAS C-Z UNDO
+msg.phrase	C-C STOP	C-C STOP
+msg.phrase	#TRANSPORT AND FILES	#TRANSPORTAS IR FAILAI
+msg.phrase	#ORDER LIST	#UŽSAKYMAI SĄRAŠAS
+msg.phrase	#DISPLAY	#DISPLAY
+msg.phrase	#EDITING	#REDAGAVIMAS
+msg.phrase	#EFFECTS (parameter is hexadecimal)	#EFFECTS (parametras yra šešioliktainis)
+msg.phrase	LEFT/RIGHT PAGE   ENTER OR F1 CLOSE	KAIRĖSIS/DEŠINĖSIS PUSLAPIO ĮVEIKTI ARBA F1 UŽDARYTI
+msg.phrase	SONG SETTINGS	DAINŲ NUSTATYMAI
+msg.phrase	UP/DOWN SELECT   LEFT/RIGHT ADJUST   ENTER/F2 CLOSE	AUKŠTYN/ŽEMYN PASIRINKITE KAIRĮ/DEŠINĘ REGULIUOTI ENTER/F2 UŽDARYTI
+msg.phrase	Type to edit the title. Backspace deletes the last character.	Įveskite norėdami redaguoti pavadinimą. Backspace ištrina paskutinį simbolį.
+msg.phrase	BPM range 32..255. Speed range 1..31.	BPM diapazonas 32...255. Greičio diapazonas 1...31.
+msg.phrase	Pattern effects can also change speed and BPM while playing.	Šablono efektai taip pat gali keisti greitį ir BPM žaidžiant.
+msg.phrase	INSTRUMENTS	INSTRUMENTAI
+msg.phrase	UP/DOWN SELECT   SPACE PREVIEW   ENTER USE   F3 CLOSE	AUKŠTYN/ŽEMYN PASIRINKITE ERDVĄ PERŽIŪRA Įveskite NAUDOTI F3 UŽDARYTI
+msg.phrase	All four channels use wavetable synthesis.	Visi keturi kanalai naudoja bangų sintezę.
+msg.phrase	Preview plays C-4 on the track under the edit cursor.	Peržiūra leidžia C-4 takelyje po redagavimo žymekliu.
+msg.phrase	SAVE SONG AS	IŠSAUGOTI DAINĄ KAIP
+msg.phrase	ENTER SAVE   F4 OR CTRL-C CANCEL	Įveskite SAVE F4 ARBA CTRL-C ATŠAUKTI
+msg.phrase	Directory:	Katalogas:
+msg.phrase	File name:	Failo pavadinimas:
+msg.phrase	The extension .SGT is added automatically.	Plėtinys .SGT pridedamas automatiškai.
+msg.phrase	An existing file can be overwritten.	Esamas failas gali būti perrašytas.
+msg.phrase	OPEN SONG	ATVIRAS DAINA
+msg.phrase	ENTER OPEN  BS PARENT  CTRL-O/CTRL-C CANCEL	Įveskite OPEN BS PARENT CTRL-O/CTRL-C ATŠAUKTI
+msg.phrase	(no .SGT files in this folder)	(šiame aplanke nėra .SGT failų)
+msg.phrase	CONFIRM	PATVIRTINTI
+msg.phrase	Y = YES   N / ENTER / CTRL-C = NO	Y = TAIP N / ENTER / CTRL-C = NE
+msg.phrase	Y = yes        N = no	Y = taip N = ne
+msg.phrase	C-	C-
+msg.phrase	C#	C#
+msg.phrase	D-	D-
+msg.phrase	D#	D#
+msg.phrase	E-	el.
+msg.phrase	F-	F-
+msg.phrase	F#	F#
+msg.phrase	G-	G-
+msg.phrase	G#	G#
+msg.phrase	A-	A-
+msg.phrase	A#	A#
+msg.phrase	B-	B-
+msg.phrase	A:/dir/name	A:/vad./vardas
+msg.phrase	MThd	MThd
+msg.phrase	broken MThd	sugedęs MThd
+msg.phrase	MIDI IMPORT	MIDI IMPORTAS
+msg.phrase	MTrk	MTrk
+msg.phrase	broken delta time	sulaužytas delta laikas
+msg.phrase	broken running status	sugedo bėgimo būsena
+msg.phrase	broken meta event	sulaužytas meta įvykis
+msg.phrase	broken sysex event	sugedęs sysex įvykis
+msg.phrase	broken channel event	sugedęs kanalo įvykis
+msg.phrase	SMF output is too small	SMF išvestis per maža
+msg.phrase	SMF output is too large	SMF išvestis per didelė
+msg.phrase	the song is too long for SMF	daina per ilga SMF
+msg.phrase	TRK1	TRK1
+msg.phrase	%s%d	%s%d
+msg.phrase	%s%d:%s%d	%s%d:%s%d
+msg.phrase	%s	%s
+msg.phrase	%.40s%s	%.40s%s
+msg.phrase	  [%s]   %s	[%s] %s
+msg.phrase	EDIT  	REDAGUOTI
+msg.phrase	READY 	PASIRUOŠTA
+msg.phrase	%4d 	%4d
+msg.phrase	%s Sum %.7g N %ld%s	%s Suma %.7g N %ld%s
+msg.phrase	ARROWS      move the cell cursor\n	RODYKLĖS perkelia langelio žymeklį
+msg.phrase	SHIFT+ARR   extend the selection (for graphs/copy)\n	SHIFT + ARR išplėsti pasirinkimą (grafams / kopijai)
+msg.phrase	ENTER       edit the cell; in edit, commit and move down\n	ENTER redaguoti langelį; redaguodami, įsipareigokite ir pereikite žemyn
+msg.phrase	TAB         next cell    SHIFT+TAB  previous cell\n	Kitas langelis TAB SHIFT + TAB ankstesnis langelis
+msg.phrase	DELETE      clear the selected cell(s)    ESC  cancel\n	DELETE išvalyti pasirinktą langelį (-ius) ESC atšaukti
+msg.phrase	PGUP/PGDN   move one screen    HOME/END  first/last column\n	PGUP/PGDN perkelti vieną ekraną HOME/END pirmas / paskutinis stulpelis
+msg.phrase	CTRL+HOME   A1    CTRL+END  last used cell\n	CTRL+HOME A1 CTRL+END paskutinį kartą naudotas langelis
+msg.phrase	F1 help  F2 edit  F3 copy  F4 paste  F5 goto  F6 colour\n	F1 pagalba F2 redaguoti F3 kopijuoti F4 įklijuoti F5 gavo F6 spalvą
+msg.phrase	F7 auto-fit  F8 background  F9 recalc  F10 graph  F11 save  F12 menu\n	F7 automatinis pritaikymas F8 fonas F9 perskaičiuoti F10 grafikas F11 išsaugoti F12 meniu
+msg.phrase	SHIFT+F1 about  SHIFT+F2 row height  SHIFT+F3 column width\n	SHIFT+F1 apie SHIFT+F2 eilutės aukštį SHIFT+F3 stulpelio plotį
+msg.phrase	SHIFT+F4 select all  SHIFT+F10 graph range  SHIFT+F11 save as\n	SHIFT+F4 pasirinkti visą SHIFT+F10 diagramų diapazoną SHIFT+F11 išsaugoti kaip
+msg.phrase	CTRL+F1 new  CTRL+F2 open  CTRL+F3 save  CTRL+F4 save as\n	CTRL+F1 naujas CTRL+F2 atidaryti CTRL+F3 išsaugoti CTRL+F4 išsaugoti kaip
+msg.phrase	CTRL+F5 export CSV  CTRL+F6 export ODS  ALT+F12 quit\n	CTRL+F5 eksportuoti CSV CTRL+F6 eksportuoti ODS ALT+F12 išeiti
+msg.phrase	Bottom 2 lines: function keys; [SHIFT]/[CTRL]/[ALT] like the filer\n	Apačios 2 eilutės: funkciniai klavišai; [SHIFT]/[CTRL]/[ALT] kaip failas
+msg.phrase	CTRL+S save  CTRL+O open  CTRL+N new  CTRL+C/V/X copy/paste/cut\n	CTRL+S išsaugoti CTRL+O atidaryti CTRL+N naujas CTRL+C/V/X kopijuoti/įklijuoti/iškirpti
+msg.phrase	CTRL+G goto    /  open the menu (1 File, 2 Edit, ...)\n	CTRL + G pereikite / atidarykite meniu (1 failas, 2 redagavimas, ...)
+msg.phrase	Built-in functions: SUM AVERAGE MIN MAX COUNT COUNTA\n	Integruotos funkcijos: SUM AVERAGE MIN MAX COUNTA
+msg.phrase	PRODUCT ABS SQRT INT ROUND MOD POWER IF AND OR NOT\n	PRODUKTAS ABS SQRT INT ROUND MOD POWER JEI IR AR NE
+msg.phrase	IFERROR LEN LEFT RIGHT MID UPPER LOWER TRIM CONCATENATE PI\n	IFERROR LEN LEFT LEFT DEŠININĖ VIDURĖ VIRŠUTINĖ APATINĖ APDARBOS SUJUNGTA PI
+msg.phrase	Cell refs: A1, $A$1, A1:B10.  Formulas begin with '='.\n	Langelių nuorodos: A1, $A$1, A1:B10.  Formulės prasideda '='.
+msg.phrase	Files: .ods (LibreOffice), .fods (flat XML), .csv\n	Failai: .ods (LibreOffice), .fods (plokščias XML), .csv
+msg.phrase	ODS/FODS keeps formulas, widths, heights and colours.\n	ODS/FODS išlaiko formules, plotį, aukštį ir spalvas.
+msg.phrase	CSV keeps values and formulas (no colours/heights).\n	CSV išlaiko reikšmes ir formules (be spalvų / aukščio).
+msg.phrase	Graph: select a range, press F10, and choose Line/Bar/Mixed/Pie.\n	Grafikas: pasirinkite diapazoną, paspauskite F10 ir pasirinkite Line/Bar/Mixed/Pie.
+msg.phrase	SGCALC for sgnano\n	SGCALC skirtas sgnano
+msg.phrase	Version 	Versija
+msg.phrase	A Lotus 1-2-3 style spreadsheet as an SGX program.\n\n	Lotus 1-2-3 stiliaus skaičiuoklė kaip SGX programa.
+msg.phrase	SGX ABI %u.%u\n	SGX ABI %u.%u
+msg.phrase	Screen mode 3: text + CLUT8 FB (lowres disabled)\n	3 ekrano režimas: tekstas + CLUT8 FB (žemi dažniai išjungti)
+msg.phrase	Sheet: %d rows x %d columns\n	Lapas: %d eilučių x %d stulpelių
+msg.phrase	Formats: .ods / .fods (LibreOffice), .csv\n\n	Formatai: .ods / .fods (LibreOffice), .csv
+msg.phrase	The grid is drawn on the text plane.\n	Tinklelis nubraižytas teksto plokštumoje.
+msg.phrase	Charts and the 640x480 background use the FB.\n\n	Diagramose ir 640 x 480 fone naudojamas FB.
+msg.phrase	%d %s	%d %s
+msg.phrase	Cannot store the cell (%d).	Negalima saugoti langelio (%d).
+msg.phrase	Copied %d x %d cells	Nukopijuota %d x %d langelių
+msg.phrase	Cleared %s	Išvalyta %s
+msg.phrase	'%s' is not a cell reference.	„%s“ nėra langelio nuoroda.
+msg.phrase	%d	%d
+msg.phrase	Column width = %d	Stulpelio plotis = %d
+msg.phrase	Row height = %d	Eilės aukštis = %d
+msg.phrase	Auto fit: %d column(s), %d row(s)	Automatinis pritaikymas: %d stulpelis (-iai), %d eilutė (-ės)
+msg.phrase	%2d	%2d
+msg.phrase	Cannot apply the colour (%d).	Negalima pritaikyti spalvos (%d).
+msg.phrase	%s colour = %d	%s spalva = %d
+msg.phrase	Not a valid range.\nUse a range such as A1:C10.	Netinkamas diapazonas.\nNaudokite diapazoną, pvz., A1:C10.
+msg.phrase	Graph range %s	Grafiko diapazonas %s
+msg.phrase	Graph: %s	Grafikas: %s
+msg.phrase	SGCALC: cannot set screen mode 3: %s\n	SGCALC: negalima nustatyti 3 ekrano režimo: %s
+msg.phrase	%.2g	%.2g
+msg.phrase	%.6g	%.6g
+msg.phrase	%s  %.0f%%	%s %.0f%%
+msg.phrase	GRAPH  %s  %s	GRAFIKAS %s %s
+msg.phrase	%s%s	%s%s
+msg.phrase	%s/%s	%s/%s
+msg.phrase	%.*s	%.*s
+msg.phrase	%.*s/	%.*s/
+msg.phrase	Cannot read %s\n%s	Neįmanoma perskaityti %s\n%s
+msg.phrase	Folder: %s	Aplankas: %s
+msg.phrase	[DIR] %s	[DIR] %s
+msg.phrase	      %s	%s
+msg.phrase	%lu.%luM	%lu.%luM
+msg.phrase	%luK	%luK
+msg.phrase	%luB	%luB
+msg.phrase	BOOK1%s	KNYGA1%s
+msg.phrase	%c:/	%c:/
+msg.phrase	Unsupported extension.\nUse .csv, .ods or .fods.	Nepalaikomas plėtinys.\nNaudokite .csv, .ods arba .fods.
+msg.phrase	%s already exists.\nOverwrite it?	%s jau yra.\nPerrašyti?
+msg.phrase	%s may not be writable.\nTry anyway?	%s gali būti neįrašomas.\nVisgi pabandyti?
+msg.phrase	Unknown file type for %s	Nežinomas %s failo tipas
+msg.phrase	Unsupported file type.\nUse .csv, .ods or .fods.	Nepalaikomas failo tipas.\nNaudokite .csv, .ods arba .fods.
+msg.phrase	Cannot open %s\n%s	Nepavyko atidaryti %s\n%s
+msg.phrase	%s is a folder.	%s yra aplankas.
+msg.phrase	Cannot import %s\n%s	Nepavyko importuoti %s\n%s
+msg.phrase	Loaded %s	Įkeltas %s
+msg.phrase	Cannot build the %s file.	Nepavyko sukurti %s failo.
+msg.phrase	Cannot write %s\n%s	Nepavyksta parašyti %s\n%s
+msg.phrase	%s %s	%s %s
+msg.phrase	unsupported version %u	nepalaikoma versija %u
+msg.phrase	%d:%d:%d:%d:%d:%d	%d:%d:%d:%d:%d:%d
+msg.phrase	Octave %d	oktava %d
+msg.phrase	Note %s	Pastaba %s
+msg.phrase	Instrument %d	Instrumentas %d
+msg.phrase	Volume %s	Apimtis %s
+msg.phrase	Effect %c	Efektas %c
+msg.phrase	Parameter %s	Parametras %s
+msg.phrase	Pattern %s	Raštas %s
+msg.phrase	Playing pattern %s	Žaidimo modelis %s
+msg.phrase	SAVE ERROR: %s	IŠSAUGOJIMO KLAIDA: %s
+msg.phrase	Saved %s	Išsaugotas %s
+msg.phrase	LOAD ERROR: %s	ĮKELIMO KLAIDA: %s
+msg.phrase	BPM %d	BPM %d
+msg.phrase	Speed %d	Greitis %d
+msg.phrase	Preview %s	Peržiūra %s
+msg.phrase	Instrument %s %s	Prietaisas %s %s
+msg.phrase	Overwrite %s? (Y/N)	Perrašyti %s? (Y/N)
+msg.phrase	 | BPM %s SPD %s 	| BPM %s SPD %s
+msg.phrase	 SGNO TRACKER 1.0 | 	SGNO TRACKER 1.0 |
+msg.phrase	FILE 	FAILAS
+msg.phrase	 PAT %s	PAT %s
+msg.phrase	 ORD %d/%d	UŽSAKYTI %d/%d
+msg.phrase	 INS %s 	INS %s
+msg.phrase	 OCT %d	SPAL %d
+msg.phrase	 EDIT %s	REDAGUOTI %s
+msg.phrase	ON 	ĮJUNGTA
+msg.phrase	 FOL %s	FOL %s
+msg.phrase	TRACK %d	TRAKAS %d
+msg.phrase	%c%s	%c%s
+msg.phrase	%s %s %s %s	%s %s %s %s
+msg.phrase	%s 	%s
+msg.phrase	%d %s %s	%d %s %s
+msg.phrase	ORDER %d/%d	UŽSAKYTI %d/%d
+msg.phrase	PAT   %s	PAT %s
+msg.phrase	INS %s %s	INS %s %s
+msg.phrase	OCT %d  EDIT %s	OCT %d REDAGUOTI %s
+msg.phrase	FOLLOW %s	SEKITE %s
+msg.phrase	PLAYING  ORD %d/%d  PAT %s  ROW %s/%d  SPD %s  BPM %d  F7 STOP	GROJIMO KARDAS %d/%d PAT %s EILUTĖ %s/%d SPD %s BPM %d F7 STOP
+msg.phrase	READY  EDIT %s  OCT %d  F1 HELP  F5 PLAY  CTRL-S SAVE	READY (PARUOŠTAS) REDAGUOTI %s OCT %d F1 PAGALBA F5 PAŽEISTI CTRL-S IŠSAUGOTI
+msg.phrase	 %s 	%s
+msg.phrase	  F5          Play the song from the current order	F5 Leisti dainą iš dabartinės tvarkos
+msg.phrase	  F6          Play the current pattern	F6 Leisti dabartinį šabloną
+msg.phrase	  F7/Ctrl-C   Stop playback	F7/Ctrl-C Sustabdyti atkūrimą
+msg.phrase	  Space       Play / stop	Space Play / stop
+msg.phrase	  F4          Save as	F4 Išsaugoti kaip
+msg.phrase	  Ctrl-S      Save (asks for a name if new)	Ctrl-S Išsaugoti (prašo įvesti vardą, jei naujas)
+msg.phrase	  Ctrl-O      Open a song	Ctrl-O Atidaryti dainą
+msg.phrase	  Ctrl-N      New song	Ctrl-N Nauja daina
+msg.phrase	  F12         Quit (confirmation if modified)	F12 Baigti (patvirtinimas, jei pakeistas)
+msg.phrase	  [ ]         Previous / next order entry	[ ] Ankstesnis / kitas užsakymo įrašas
+msg.phrase	  { }         Insert / delete an order entry	{ } Įterpti / ištrinti užsakymo įrašą
+msg.phrase	  - +         Change the pattern in the entry	- + Pakeiskite šabloną įraše
+msg.phrase	  F11         Follow playback (turns off on manual move)	F11 Stebėti atkūrimą (išsijungia rankiniu būdu judant)
+msg.phrase	  F1          Help; Left/Right changes page	F1 Pagalba; Kairė/dešinė keičia puslapį
+msg.phrase	  F8          Toggle edit mode	F8 Perjungti redagavimo režimą
+msg.phrase	  Arrows      Move the cursor	Rodyklės Perkelkite žymeklį
+msg.phrase	  PgUp/PgDn   Jump 16 rows	PgUp/PgDn Peršokti 16 eilučių
+msg.phrase	  Home/End    First / last row	Pagrindinis / Pabaiga Pirma / paskutinė eilutė
+msg.phrase	  F9/F10      Octave down / up	F9/F10 oktava žemyn / aukštyn
+msg.phrase	  Z S X D C V G B H N J M      lower piano row	Z S X D C V G B H N J M žemutinė fortepijono eilė
+msg.phrase	  Q 2 W 3 E R 5 T 6 Y 7 U      upper piano row	Q 2 W 3 E R 5 T 6 Y 7 U viršutinė fortepijono eilė
+msg.phrase	  1           Note off	1 Pastaba išjungta
+msg.phrase	  0 / Del     0 clears note/inst/fx; Del clears any	0 / Del 0 išvalo note/inst/fx; Del išvalo bet kurį
+msg.phrase	  Ctrl-Z      Undo the last pattern/order edit	Ctrl-Z Anuliuoti paskutinį šablono/užsakymo redagavimą
+msg.phrase	  Axy   Volume slide: up x, down y	„Axy Volume“ slankiklis: aukštyn x, žemyn y
+msg.phrase	  Cxx   Note cut after xx ticks	Cxx Pastaba iškirpta po xx erkių
+msg.phrase	  Dxx   Set volume (00..7F)	Dxx Nustatyti garsumą (00..7F)
+msg.phrase	  Fxx   Speed if xx < 20, otherwise BPM	Fxx greitis, jei xx < 20, kitu atveju BPM
+msg.phrase	  Hxy   Arpeggio x, y semitones	Hxy Arpeggio x, y pustoniai
+msg.phrase	  Pxx   Pitch slide up	Pxx Pakelkite aukštyn
+msg.phrase	  Qxx   Pitch slide down	Qxx Žingsnis slysta žemyn
+msg.phrase	  F2 song settings, F3 instrument list	F2 dainų nustatymai, F3 instrumentų sąrašas
+msg.phrase	HELP %d/2	PAGALBA %d/2
+msg.phrase	  Title	Pavadinimas
+msg.phrase	  [%s_]	[%s_]
+msg.phrase	  BPM   : %d     (left/right -1/+1, -/+ -5/+5)	BPM: %d (kairė/dešinė -1/+1, -/+ -5/+5)
+msg.phrase	  Speed : %d ticks/row	Greitis: %d varnelė/eilutė
+msg.phrase	  Rows  : %d (fixed)	Eilutės: %d (fiksuota)
+msg.phrase	  Order : %d entries	Užsakymas: %d įrašai
+msg.phrase	  Patterns in use : %d	Naudojami raštai: %d
+msg.phrase	 #  NAME       WAVE       A   D   S   R  VOL	# PAVADINIMAS WAVE A D S R VOL
+msg.phrase	 %c %d  %-9s %-9s %3d %3d %3d %3d %4d	%c %d %-9s %-9s %3d %3d %3d %3d %4d
+msg.phrase	Current instrument: %s %s	Dabartinis instrumentas: %s %s
+msg.phrase	  %s	%s
+msg.phrase	DIR  %s	REŽ. %s
+msg.phrase	 %c %s%s	%c %s%s
+msg.phrase	Files: %d	Failai: %d
+msg.phrase	%02d	%02d
+msg.phrase	%03d	%03d
+msg.phrase	%02X	%02X
+msg.phrase	SGNO TRACKER: incompatible SGX ABI\n	SGNO TRACKER: nesuderinamas SGX ABI
+msg.phrase	S: check: wait -- a file is being read or written	S: check: palauk – failas skaitomas arba rašomas
+msg.phrase	S: check: the drive is busy or not ready	S: patikrinkite: diskas užimtas arba neparengtas
+msg.phrase	nothing for this item (ContextMenu.cfg)	nieko šiam elementui (ContextMenu.cfg)
+msg.phrase	bad command in ContextMenu.cfg	bloga komanda ContextMenu.cfg
+msg.phrase	unknown action in ContextMenu.cfg	nežinomas veiksmas ContextMenu.cfg
+msg.prefix	menu	meniu
+msg.phrase	choose a file or folder	pasirinkite failą arba aplanką
+msg.phrase	this drive cannot be written	šio disko negalima įrašyti
+msg.phrase	an archive job is already running	archyvo darbas jau vykdomas
+msg.phrase	no PSRAM for the archive task	nėra PSRAM archyvavimo užduočiai
+msg.phrase	could not start the archive task	nepavyko pradėti archyvavimo užduoties
+msg.phrase	too many items (32 at most)	per daug prekių (daugiausia 32)
+msg.phrase	nothing to compress	nėra ką suspausti
+msg.phrase	no name (or the name has / or \\)	nėra vardo (arba varde yra / arba \\)
+msg.phrase	32 items at most (mark fewer, or put them in a folder)	Daugiausia 32 elementai (pažymėkite mažiau arba įdėkite juos į aplanką)
+msg.prefix	archive	archyvas
+msg.prefix	compress	suspausti
+msg.prefix	render	pateikti
+msg.phrase	5 Macro	5 Makro
+msg.phrase	6 Help	6 Pagalba
+msg.phrase	Run current	Paleisti srovę
+msg.phrase	Run the macro at the cursor (#! header cell and the cells below it)	Paleiskite makrokomandą ties žymekliu (#! antraštės langelis ir langeliai po juo)
+msg.phrase	Run selection	Vykdykite pasirinkimą
+msg.phrase	Run the selected cells as one macro (top-left cell is the #! header)	Vykdykite pasirinktus langelius kaip vieną makrokomandą (viršutiniame kairiajame langelyje yra #! antraštė)
+msg.phrase	Run all	Paleisti visus
+msg.phrase	Run every macro in the sheet, top-left to bottom-right	Vykdykite kiekvieną lapo makrokomandą iš viršaus į kairę į apačią į dešinę
+msg.phrase	Last error	Paskutinė klaida
+msg.phrase	Show the last macro error	Rodyti paskutinę makrokomandos klaidą
+msg.phrase	Macro	Makro
+msg.phrase	Macro: run #!ruby / #!python / #!basic cells	Makrokomandas: paleiskite #!ruby / #!python / #!pagrindinius langelius
+msg.phrase	Edit the cell (F2)	Redaguoti langelį (F2)
+msg.phrase	Fit widths/heights to the contents	Pritaikykite plotį/aukštį prie turinio
+msg.phrase	Last macro error	Paskutinė makro klaida
+msg.phrase	No macro error.	Nėra makro klaidų.
+msg.phrase	IME on	IME įjungtas
+msg.phrase	IME off	IME išjungtas
+msg.phrase	Macro: %s %s ...	Makro: %s %s ...
+msg.phrase	%s: this firmware cannot run macros (SGX ABI 5.10 or later)	%s: ši programinė įranga negali paleisti makrokomandų (SGX ABI 5.10 arba naujesnė versija)
+msg.phrase	Macro error: %s	Makro klaida: %s
+msg.phrase	Macro: %s done	Makrokomandas: %s atlikta
+msg.phrase	a macro is already running	makrokomanda jau veikia
+msg.phrase	this language is not available	ši kalba nepasiekiama
+msg.phrase	not enough memory	nepakanka atminties
+msg.phrase	the macro stopped with an error	makrokomanda sustojo su klaida
+msg.phrase	Macro error %s: %s	Makro klaida %s: %s
+msg.phrase	Macro: not enough memory	Makrokomandas: nepakanka atminties
+msg.phrase	Macro: the cursor is not on a macro (a #!ruby / #!python / #!basic cell or the cells below it)	Makrokomandas: žymeklis yra ne ant makrokomandos (#!ruby / #!python / #!pagrindinis langelis arba langeliai po juo)
+msg.phrase	Macro: no macro in the sheet	Makrokomandos: lape makrokomandų nėra
+msg.phrase	Run all macros	Vykdykite visas makrokomandas
+msg.phrase	Macros: %d. Run them all, top-left to bottom-right? Changes cannot be undone.	Makrokomandos: %d. Paleisti juos visus, iš viršaus į kairę į apačią į dešinę? Pakeitimų anuliuoti negalima.
+msg.phrase	Macro: %d of %d done	Makrokomandas: %d iš %d atlikta
+msg.phrase	Cleared the cell	Išvalė ląstelę
+msg.phrase	Cleared the selection	Išvalė pasirinkimą
+msg.phrase	Background colour = %d	Fono spalva = %d
+msg.phrase	Text colour = %d	Teksto spalva = %d
+msg.phrase	Graph: line	Grafikas: linija
+msg.phrase	Graph: bar	Grafikas: juosta
+msg.phrase	Graph: mixed	Grafikas: mišrus
+msg.phrase	Graph: pie	Grafikas: pyragas
+msg.phrase	Exported %s	Eksportuota %s

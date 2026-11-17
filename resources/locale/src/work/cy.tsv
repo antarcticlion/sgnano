@@ -1,0 +1,373 @@
+# cy: machine translation (Google), unreviewed; 2026-11-17
+U001	Rhestr (ffeiliau a ffolderi mewn 2 golofn x 19 rhes)
+U002	Symudwch y cyrchwr (chwith / dde: y golofn arall)
+U003	Tudalen flaenorol / tudalen nesaf
+U004	Marcio'r cyfan / gwrthdroi'r marciau (fel yn PC-98 FD)
+U005	Cyntaf / olaf
+U006	Marcio a symud ymlaen / marcio yn unig
+U007	Shift+Saethau
+U008	Dewiswch ystod (Mae gofod yn nodi'r amrediad)
+U009	Rhowch ffolder / agor ffeil (rhedeg F2 / X)
+U010	Hyd at y ffolder rhiant
+U011	Dewiswch yriant (USB, hyblyg, CD, S: adeiledig)
+U012	Copi (Shift + C / Shift + F3 yn dewis y cyrchfan o'r goeden)
+U013	Symud
+U014	Dileu (Shift+D / Shift+F4 dileu ffolder)
+U015	Ailenwi
+U016	Newidiwch y priodoleddau
+U017	Agor yn y golygydd
+U018	Gweld fel testun (hecs Shift+V / Ctrl+Alt+F7)
+U019	Gwybodaeth Drive
+U020	Ffolder newydd / ffeil newydd
+U021	Cragen sgsh / diarddel y cyfrwng
+U022	Ail-lwytho
+U023	Arbedwch y sgrin fel PNG
+U024	Caewch y ffenestr / cliriwch y dewisiad (mewn is-ffolder: ewch i fyny)
+U025	Gweithrediadau ffeil (fel yn FD: marciau, yna'r amrediad, yna'r cyrchwr)
+U026	Copi: dewiswch y gyrchfan o'r gyriant a'r goeden ffolder. ESC yn stopio
+U027	Dileu: cadarnhau gyda y. Marciau ac amrediadau ar unwaith. Ffolderi gyda'u cynnwys
+U028	Dileu ffolder (gyda'i gynnwys)
+U029	Ail-enwi (golygu'r enw, Enter)
+U030	Nodweddion: R darllen yn unig, H cudd, system S, archif A
+U031	Ffolder newydd
+U032	Ffeil newydd (gwag).
+U033	Gweld fel testun (hecs Shift+V / Ctrl+Alt+F7)
+U034	Cragen sgsh (allanfa / Ctrl-D yn ôl i'r ffeiliwr)
+U035	Hunaniaeth y gyriant (YMCHWILIAD, ADNABOD)
+U036	Taflwch y cyfrwng FDD / LS-120 / CD
+U037	Ail-lwythwch y rhestr (CD: o'r TOC)
+U038	Derbyn o'r PC gan ZMODEM (zm.sh put)
+U039	Anfon i'r PC gan ZMODEM (zm.sh get)
+U040	Llunio .rb ac ysgrifennu .mrb
+U041	Ruby REPL (un llinell ar y tro, Ctrl-D / ESC i ben)
+U042	MicroPython REPL
+U043	Wedi'i rannu'n 4 rhan MB / ymuno o .001
+U044	Rhannu / ymuno (yr un fath â Ctrl+F11 / F12)
+U045	Sgrin (Alt+F, ddim yn gwrthdaro â'r bysellau FD F)
+U046	Dangos / cuddio'r FB (llun) / y testun
+U047	Tudalen arddangos FB (0-3)
+U048	Clirio'r FB i 0 / haneru ei ddisgleirdeb (RGB555)
+U049	Terfynbwyntiau USB a chyflwr LAN
+U050	Cliriwch y dudalen arddangos FB / hanerwch ei disgleirdeb
+U051	Samplau priodoledd testun
+U052	Monitro EDID (darllenwch ar y cychwyn)
+U053	Ffont ROM trwyddedau a chredydau
+U054	Gosodiadau (iaith arddangos, IME a locale bysellfwrdd)
+U055	Cloc (amser Japan wedi'i osod gan NTP; s cysoni nawr)
+U056	Taenlen agored (SGCALC)
+U057	Gwiriwch S: am wallau (gofyn cyn atgyweirio)
+U058	Traciwr Agored
+U059	Ailgychwyn (gofyn yn gyntaf)
+U060	Chwarae mewnbwn stereo ADC (GP40 / 41)
+U061	Allforio VGM/VGZ i WAV 96 kHz / 24-did
+U062	Mae hyn yn helpu
+U063	Newidiwch y dudalen
+U064	Cau
+U065	Gwyliwr testun / hecs (fel llai)
+U066	Un llinell
+U067	Un dudalen
+U068	Hanner tudalen
+U069	Chwilio (ymlaen / yn ôl) / nesaf / blaenorol
+U070	Yn ôl i'r rhestr (F1: cymorth y gwyliwr)
+U071	Gwyliwr delwedd
+U072	Yn ôl i'r rhestr (gwaith F2 F3 F6 F7 Shift+F2 F3)
+U073	Golygydd (E/Shift+F8)
+U074	Cadw (UTF-8; diwedd llinellau a BOM yn cael ei gadw)
+U075	Cau (os caiff ei newid: O / N / ESC)
+U076	Mewnosod / trosysgrifo
+U077	IME ymlaen / i ffwrdd (Siapan / Saesneg / Corëeg)
+U078	Iaith IME (Siapaneaidd / Saesneg / Corëeg)
+U079	Ymrwymo fel hiragana / katakana
+U080	Cymorth y golygydd
+U081	Cragen
+U082	Shell (is-set csh. ymadael / Ctrl-D i ddychwelyd, help yn rhestru'r gorchmynion)
+U083	Rhestrwch a symud
+U084	Gweithrediadau ffeil
+U085	Sgrin a dyfeisiau
+U086	Gwylwyr a'r golygydd
+U087	Help %u / %u %s
+U088	Chwith Dde: newidiwch y dudalen F1 / ESC: cau
+U089	Ailgychwyn sganno?
+U090	[ Ailgychwyn ]
+U091	[ Canslo ]
+U092	Gwiriwch y gyriant S: am wallau
+U093	Ffeiliau %lu ffolderi %lu
+U094	Nid yw maint yn cyfateb i'r gadwyn
+U095	Clystyrau a ddefnyddir gan ddim
+U096	Clystyrau traws-gysylltiedig
+U097	Cofnodion wedi torri
+U098	Mae'r ddau gopi FAT yn wahanol
+U099	Dim gwallau.
+U100	Canfuwyd gwallau. Atgyweirio nhw?
+U101	Atgyweirio (roedd y niferoedd uchod yn sefydlog).
+U102	Methu gwirio na thrwsio (S: yn brysur).
+U103	[ Atgyweirio ]
+U104	[ Canslo ]
+U105	Unrhyw allwedd yn cau
+U106	Gosodiadau
+U107	Iaith arddangos
+U108	Lleoliad bysellfwrdd
+U109	Up / Down Enter dewiswch canslo ESC
+U110	Iaith arddangos
+U111	Up / Down Enter: gosod ESC: yn ôl
+U112	Trwsio %c: fel pa lythyren? (A-Z ac eithrio S. ESC yn canslo)
+U113	Llythyr gyrru / Enter dewiswch F2 trwsio / dad-ddwyso'r llythyren F3 atgyweiria fel... L / ESC canslo
+U114	rhaniad %u
+U115	%c:* (sefydlog, heb fod yn gysylltiedig) %04X:%04X%s %s
+U116	Hysbysiad
+U117	Gyrrwch %c: %s
+U118	Gyrru (dim)
+U119	CD sain % u traciau
+U120	Ffolderi %u ffeiliau %u cyfanswm %s
+U121	Darllen...
+U122	* wedi'i farcio %u %s
+U123	%lu beit
+U124	Attr %s addaswyd %s creu %s %s
+U125	Haul
+U126	Mon
+U127	Maw
+U128	Merch
+U129	Iau
+U130	Gwe
+U131	Sad
+U132	Nid yw'r cloc wedi'i osod (NTP dros y LAN)
+U133	Arddangosfa FB %u ysgrifennu %u
+U134	1 Help
+U135	2 Rhedeg
+U136	3 Copi
+U137	4 Del
+U138	5 Ailenwi
+U139	7 FBclr
+U140	8 FBdim
+U141	9 Gyrru
+U142	10 EP
+U143	11 Cloc
+U144	12 CALC
+U145	1 Attr
+U146	2 Gwybodaeth
+U147	3 Symud
+U148	5 Mkdir
+U149	6 Cragen
+U150	8 Golygu
+U151	9 Golwg
+U152	10 S:chk
+U153	11 TRAC
+U154	12 Ailgychwyn
+U155	1 Newydd
+U156	2 Ffolder
+U157	3 Ailenwi
+U158	4 Attodiad
+U159	6 Copi
+U160	7 Symud
+U161	8 Dileu
+U162	9 Golygu
+U163	10 mrbc
+U164	11 Hollti
+U165	12 Ymuno
+U166	1 Attrs
+U167	2 FB
+U168	3 Testun
+U169	5 ScrSht
+U170	6 DispPg
+U171	9 ZMrecv
+U172	10ZMsend
+U173	2 FBClr
+U174	3 FBDim
+U175	5 Ail-lwytho
+U176	7 Hecs
+U177	9 Lic
+U178	11 Gosod
+U179	Gosodwch y cloc (amser Japan. Ni allai NTP ei osod)
+U180	Rhedeg gyda pharamedrau
+U181	Ffolder newydd
+U182	Ffeil newydd
+U183	Amser:
+U184	Rhedeg:
+U185	Enw:
+U186	BBBB-MM-DD hh:mm Rhowch gadw ESC set
+U187	Rhowch redeg <-> symud BS / Del dileu ESC canslo
+U188	Rhowch ailenwi <-> symud BS/Del dileu ESC canslo
+U189	Rhowch creu <-> symud BS / Del dileu ESC canslo
+U190	Dileu
+U191	eitemau
+U192	Mae ffolderi'n cael eu dileu gyda'u cynnwys. Ydych chi'n siŵr?
+U193	Dileu'r ffeil hon?
+U194	(Ni ellir dadwneud hyn. Mae ffeiliau yn y ffolderi yn cael eu dileu hefyd)
+U195	[ Ydw (Y) ]
+U196	[ Na (N) ]
+U197	gwyliwr hecs: dewiswch ffeil
+U198	gwyliwr testun: dewiswch ffeil
+U199	Symud i
+U200	Copi i
+U201	Mae'r byffer yn llawn
+U202	Mae'r gyriant yn ddarllen-yn-unig
+U203	Methu cadw (dim ysgrifennwr)
+U204	Methu dechrau cadw (mae'r gyriant yn brysur?)
+U205	Wrthi'n cadw...
+U206	2 Arbed
+U207	5 Lliw
+U208	6 Hira
+U209	7 Kata
+U210	8 Pred
+U211	10 Ymadael
+U212	1 Uchaf
+U213	2 Diwedd
+U214	3 InsOvr
+U215	4 Dict
+U216	6 HHira
+U217	7 HKata
+U218	%s %s Ln %lu/%lu Col %u %s %s %s%s%s
+U219	*mod
+U220	OVR
+U221	INS
+U222	R/O
+U223	Golygydd (golygu sgnano) F1 / ESC yn cau
+U224	Saethau / Diwedd Cartref / PgUp PgDn symudwch y cyrchwr
+U225	Ctrl-T / Ctrl-B uchaf / diwedd y ffeil
+U226	BS / Del dileu cyn / wrth y cyrchwr
+U227	Rhowch linell newydd (yn cadw'r mewnoliad)
+U228	Tab / Ins tab / mewnosod neu trosysgrifo
+U229	Lliwio F5 (o'r estyniad; C/C++, mruby, MicroPython, SG BASIC, dim)
+U230	Arbed F2 (Ctrl-S) (UTF-8, cedwir pennau llinellau)
+U231	Cau F10 / ESC (yn gofyn a yw wedi newid)
+U232	IME: Ctrl-Space / F12 ymlaen / i ffwrdd (あ / A)
+U233	F9 Iaith IME (y golygydd hwn yn unig; adferwyd ar gau)
+U234	F8 trosi rhagfynegol Japaneaidd ymlaen/i ffwrdd
+U235	romaji Japaneaidd -> hiragana (F6) / katakana (F7)
+U236	Hiragana hanner lled (Shift+F6) / katakana hanner lled (Shift+F7)
+U237	Rhagfynegi gyda 2 nod neu fwy, trosi cymal parhaus gyda Space
+U238	Saesneg Cwblhad rhagfynegol gyda 2 nod neu fwy
+U239	한국어 2 Bol-arddull Hangul
+U240	Gofod / Rhowch Trosi / Cadarnhau
+U241	← → Dewiswch ymadrodd
+U242	Shift+← → Crebachu/tyfu pen dde'r cymal gan un nod (ymgeiswyr newydd)
+U243	↑ ↓ / Tab Ymgeisydd blaenorol / nesaf yn y ffenestr naid (o dan y testun, uchod ger y gwaelod)
+U244	Rhowch ar →→→ Pob ymgeisydd (2 x 8, ← → colofn a thudalen, Enter sy'n dewis)
+U245	Rhowch y cymal nesaf (yn cadarnhau'r cyfan yn y cymal olaf)
+U246	Ctrl-U Ychwanegu gair cyfredol i eiriadur defnyddiwr
+U247	Shift+F1 / F2 / F3 / F4 Top / diwedd / mewnosod - trosysgrifo / i'r geiriadur defnyddiwr
+U248	BS / ESC Mynd yn ôl un nod / Diddymu
+U249	, . - [ ] / 、 。 ー 「 」 ・
+U250	Wedi'i addasu Y: arbed a chau N: cau heb arbed ESC: yn ôl
+U251	[Rhagfynegiad] Tab/↑↓: ymgeisydd Gofod: trosi Esc: canslo
+U252	[Ymgeiswyr] ↑↓: dewiswch ←→: colofn/tudalen Rhowch: dewiswch
+U253	[Trosi] ↑↓cand ←→ cymal Shift+←→ rhwym Enter nesaf
+U254	[한국어] Tab/↑↓: ymgeisydd Enter/Gofod: cadarnhau
+U255	[Saesneg] Tab/↑↓: ymgeisydd Rhowch: cadarnhau
+U256	Mewnbwn Hangul 2-set Ctrl-Space: alffaniwmerig
+U257	Cwblhad rhagfynegol Ctrl-Space: mewnbwn uniongyrchol
+U258	Dim geiriadur: hiragana/katakana yn unig F6/F7
+U259	Gofod: trosi F7: katakana Ctrl-Space: alffaniwmerig
+U260	Gofod: trosi F6: hiragana Ctrl-Space: alffaniwmerig
+U261	Hanner lled F6: hiragana F7: katakana Shift + F6/F7: hanner
+U262	IME i ffwrdd
+U263	rhagfynegi
+U264	Cyfieithiad Japaneaidd rhagfynegol: Ar
+U265	Cyfieithiad rhagfynegol ar gyfer Japaneg: Wedi'i ddiffodd
+U266	Defnyddiwch gyda IME Japaneaidd
+U267	Methu ychwanegu at eiriadur defnyddiwr
+U268	Lliwio: %s
+U269	Wrthi'n llwytho...
+U270	Methu darllen y ffeil
+U271	%lu llinellau %s%s
+U272	agor Shift_JIS fel UTF-8 (wedi'i gadw fel UTF-8)
+U273	darllen-yn-unig
+U274	Cadwedig
+U275	Methu cadw (ysgrifennu wedi methu)
+U276	Ymgeiswyr
+U277	7 WrtPg
+U278	9 Testun
+U279	9 Hecs
+U280	Wrthi'n llwytho %lu%%
+U281	(y dechrau yn unig)
+U282	Hex q ESC: cefn F1: help
+U283	Testun q ESC: cefn F1: help
+U284	Allweddi gwyliwr (fel llai; yr un peth ar gyfer testun a hecs)
+U285	Un llinell i lawr
+U286	Un llinell i fyny
+U287	Un dudalen i lawr
+U288	Un dudalen i fyny
+U289	Hanner tudalen i lawr / i fyny
+U290	/testun ?testun
+U291	Chwilio i lawr / i fyny (anwybyddu achos)
+U292	Gêm nesaf/blaenorol
+U293	Dangoswch fel hecs (yn yr un lle)
+U294	Dangos fel testun (yn yr un lle)
+U295	Newid y lliw (C/C++, mruby, MicroPython, SG BASIC, dim)
+U296	Dangos / cuddio'r FB / y testun
+U297	Tudalen arddangos FB / tudalen ysgrifennu
+U298	Yn ôl i'r ffeiliwr
+U299	Caewch y cymorth hwn
+U300	Copi
+U301	%s: darllen y ffolderi... %u
+U302	%s: cyfrif y gofod rhydd yn y cyrchfan...
+U303	%s: dim digon o le rhydd yn y cyrchfan
+U304	Symud: dileu'r ffolderi ffynhonnell
+U305	Wedi'i wneud
+U306	Wedi stopio
+U307	%s ar y gweill%s
+U308	(stopio)
+U309	Oddi wrth: %s
+U310	I: %s
+U311	Ffeiliau %u / %u ffolderi %u %s / %s (%u%%)%s
+U312	gormod: dim ond rhai
+U313	Angen %s, rhad ac am ddim %s. Parhau?
+U314	Y: parhau N / ESC: canslo
+U315	Pwyswch unrhyw allwedd i gau
+U316	ESC: stopiwch
+U317	%s: ←→ gyriant ↑↓ ffolder Gofod ar agor/cau Rhowch dewis canslo ESC
+U318	Methu darllen: %s
+U319	Darllen y ffolderi... (ESC yn stopio) %u
+U320	%u ffolderi%s
+U321	(gormod neu rhy ddwfn: dim ond rhai)
+U322	Wedi stopio agor y ffolder
+U323	Mae gofod yn ei agor eto. Mae ESC unwaith eto yn canslo
+U324	Chwaraewr SMF / SGT %s
+U325	Wrthi'n llwytho... %lu / %lu beit
+U326	%s / %s %s porthladdoedd %u
+U327	Wedi seibio
+U328	Chwarae
+U329	Gofod: saib m: MIDI ALLAN q / ESC: stop
+U330	q / ESC: canslo
+U331	Ffont ROM trwyddedau a chredydau\n\nROM: %s (fersiwn %lu.%lu, %lu nod, o 0x%08lX yn y fflach)
+U332	== Ffontiau yn y ROM (tabl tarddiad y ROM) ==
+U333	(nid oes bwrdd ar y ROM)
+U334	== Maes credydau'r ROM ==
+U335	(dim ardal o'r fath)
+U336	== Trwyddedau'r meddalwedd adeiledig ==
+U337	Arbed %s fel PNG %s
+U338	Sgrin
+U339	Adeiladu... %lu / %lu rhesi
+U340	Ysgrifennu... %lu / %lu KB (mae'r FB wedi'i guddio)
+U341	Methu ysgrifennu
+U342	Enw'r archif (yr eitemau sydd wedi'u marcio, neu'r eitem cyrchwr os nad oes un)
+U343	Rhowch cywasgu ←→ symud BS / Del dileu ESC canslo
+U344	Allforio WAV: %s wedi'i ganslo (%s)
+U345	Allforio WAV: %s methu (%s)
+U346	Allforio WAV: %s cyfanswm %s
+U347	Allforio WAV (96kHz / 24bit): %s
+U348	Wedi'i ganslo
+U349	Wedi methu
+U350	Cyfanswm %s
+U351	Wedi'i ganslo (%s; cafodd y ffeil rannol ei dileu)
+U352	Methu allforio (%s). Rheswm:
+U353	(rheswm anhysbys)
+U354	%u%% aeth heibio %s%s
+U355	ESC: stop (mae'r ffeil rannol yn cael ei dileu)
+U356	Archif: %s
+U357	Darllen... (ESC i ganslo)
+U358	%u eitemau%s cyfanswm %s beit dyfyniad i: %s
+U359	Rhowch eitem echdynnu X echdynnu holl ↑↓ symud ESC agos
+U360	Cywasgu
+U361	Rhestr
+U362	Dyfyniad
+U363	Cyfanswm %s %u eitemau
+U364	Cyfanswm %s %u ffeil
+U365	Wedi'i ganslo (%s; cafodd y ffeil anorffenedig ei dileu)
+U366	Methu ei wneud (%s): %s
+U367	%u%% aeth heibio %s %s bytes%s
+U368	aeth heibio %s%s bytes%s
+U369	ESC: stop (mae'r ffeil anorffenedig yn cael ei dileu)
+U370	Archif: %s methu (%s)
+U371	Cywasgedig: %s (%ueitemau)
+U372	Wedi'i dynnu: %s (%u ffeiliau)

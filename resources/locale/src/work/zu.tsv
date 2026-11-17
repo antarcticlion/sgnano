@@ -1,0 +1,995 @@
+# isiZulu (zu) — UI and messages. Machine translation, unreviewed (2026-11-16)
+U001	Uhlu (amafayela namafolda ngamakholomu angu-2 x imigqa engu-19)
+U002	Hambisa ikhesa (kwesobunxele / kwesokudla: elinye ikholomu)
+U003	Ikhasi elidlule / ikhasi elilandelayo
+U004	Maka konke / phendula amamaki (njenge-PC-98 FD)
+U005	Okokuqala / okokugcina
+U006	Maka bese uqhubeka / maka kuphela
+U007	Shift+imicibisholo
+U008	Khetha ububanzi (i-Space imaka ububanzi)
+U009	Ngena efolda / vula ifayela (F2/X qalisa)
+U010	Khuphukela kufolda engumzali
+U011	Khetha idrayivu (USB, floppy, CD, S: yangaphakathi)
+U012	Kopisha (Shift+C / Shift+F3 khetha lapho iya khona esihlahleni)
+U013	Hambisa
+U014	Susa (Shift+D / Shift+F4 susa ifolda)
+U015	Qamba kabusha
+U016	Shintsha izimfanelo
+U017	Vula kumhleli
+U018	Buka njengombhalo (Shift+V / Ctrl+Alt+F7 hex)
+U019	Ulwazi lwedrayivu
+U020	Ifolda entsha / ifayela elisha
+U021	Shell sgsh / khipha idiski
+U022	Layisha kabusha
+U023	Londoloza isikrini njenge-PNG
+U024	Vala iwindi / susa ukukhetha (kufolda engaphansi: khuphuka)
+U025	Imisebenzi yefayela (njenge-FD: amamaki, bese ububanzi, bese ikhesa)
+U026	Kopisha: khetha lapho iya khona esihlahleni samadrayivu namafolda. I-ESC iyamisa
+U027	Susa: qinisekisa ngo-y. Amamaki nobubanzi ndawonye. Amafolda nokuqukethwe kwawo
+U028	Susa ifolda (nokuqukethwe kwayo)
+U029	Qamba kabusha (hlela igama, Enter)
+U030	Izimfanelo: R ukufunda kuphela, H kufihliwe, S isistimu, A ingobo yomlando
+U031	Ifolda entsha
+U032	Ifayela elisha (elingenalutho)
+U033	Buka njengombhalo (Shift+V / Ctrl+Alt+F7 hex)
+U034	Shell sgsh (exit / Ctrl-D ubuyela kumphathi wamafayela)
+U035	Ubunikazi bedrayivu (INQUIRY, IDENTIFY)
+U036	Khipha idiski ye-FDD / LS-120 / CD
+U037	Layisha uhlu kabusha (CD: kusuka ku-TOC)
+U038	Thola kusuka ku-PC nge-ZMODEM (zm.sh put)
+U039	Thumela ku-PC nge-ZMODEM (zm.sh get)
+U040	Hlanganisa i-.rb bese ubhala i-.mrb
+U041	I-REPL ye-Ruby (umugqa owodwa ngesikhathi, Ctrl-D / ESC ukuqeda)
+U042	I-REPL ye-MicroPython
+U043	Hlukanisa ezingxenyeni ze-MB 4 / hlanganisa kusuka ku-.001
+U044	Hlukanisa / hlanganisa (kufana no-Ctrl+F11 / F12)
+U045	Isikrini (Alt+F, akushayisani nezinkinobho ze-F ze-FD)
+U046	Bonisa / fihla i-FB (isithombe) / umbhalo
+U047	Ikhasi lokubonisa le-FB (0-3)
+U048	Sula i-FB ibe ngu-0 / nciphisa ukukhanya ngohhafu (RGB555)
+U049	Iziphetho ze-USB nesimo se-LAN
+U050	Sula ikhasi lokubonisa le-FB / nciphisa ukukhanya ngohhafu
+U051	Izibonelo zezimfanelo zombhalo
+U052	I-EDID yesikrini (ifundwe ekuqaleni)
+U053	Amalayisensi nokubonga kwe-ROM yefonti
+U054	Izilungiselelo (ulimi lokubonisa, i-IME nokuhlelwa kwekhibhodi)
+U055	Iwashi (isikhathi sase-Japan nge-NTP; s ivumelanisa manje)
+U056	Vula ishidi lokubala (SGCALC)
+U057	Hlola amaphutha e-S: (ibuza ngaphambi kokulungisa)
+U058	Vula i-TRACKER
+U059	Qala kabusha (ibuza kuqala)
+U060	Dlala okufakwayo kwe-stereo kwe-ADC (GP40 / 41)
+U061	Thumela i-VGM/VGZ ibe yi-WAV ye-kHz 96 / bit 24
+U062	Lolu sizo
+U063	Shintsha ikhasi
+U064	Vala
+U065	Isibukeli sombhalo / hex (njenge-less)
+U066	Umugqa owodwa
+U067	Ikhasi elilodwa
+U068	Uhhafu wekhasi
+U069	Sesha (phambili / emuva) / okulandelayo / okwedlule
+U070	Buyela ohlwini (F1: usizo lwesibukeli)
+U071	Isibukeli sezithombe
+U072	Buyela ohlwini (F2 F3 F6 F7 Shift+F2 F3 ziyasebenza)
+U073	Umhleli (E / Shift+F8)
+U074	Londoloza (UTF-8; iziphetho zemigqa ne-BOM kuyagcinwa)
+U075	Vala (uma kushintshiwe: Y / N / ESC)
+U076	Faka / bhala phezulu
+U077	Vula/vala i-IME (isiJapane / isiNgisi / isiKorea)
+U078	Ulimi lwe-IME (isiJapane / isiNgisi / isiKorea)
+U079	Qinisekisa njenge-hiragana / katakana
+U080	Usizo lomhleli
+U081	Shell
+U082	Shell (ingxenye ye-csh. exit / Ctrl-D ukubuyela, help ibala imiyalo)
+U083	Uhlu nokuhamba
+U084	Imisebenzi yefayela
+U085	Isikrini namadivayisi
+U086	Izibukeli nomhleli
+U087	Usizo  %u / %u  %s
+U088	Kwesobunxele Kwesokudla: shintsha ikhasi    F1 / ESC: vala
+U089	Qala kabusha i-sgnano?
+U090	[ Qala kabusha ]
+U091	[ Khansela ]
+U092	Hlola amaphutha edrayivu S:
+U093	Amafayela %lu  amafolda %lu
+U094	Usayizi awuhambisani noxhumano
+U095	Amaqoqo angasetshenziswa yilutho
+U096	Amaqoqo axhunywe ngokuphambanayo
+U097	Okufakiwe okonakele
+U098	Amakhophi amabili e-FAT ahlukile
+U099	Awekho amaphutha.
+U100	Kutholwe amaphutha. Awalungiswe?
+U101	Kulungisiwe (izinombolo ezingenhla zilungisiwe).
+U102	Ayikwazanga ukuhlola noma ukulungisa (i-S: imatasa).
+U103	[ Lungisa ]
+U104	[ Khansela ]
+U105	Noma iyiphi inkinobho iyavala
+U106	Izilungiselelo
+U107	Ulimi lokubonisa
+U108	Ukuhlelwa kwekhibhodi
+U109	Phezulu / Phansi  Enter khetha  ESC khansela
+U110	Ulimi lokubonisa
+U111	Phezulu / Phansi  Enter: setha  ESC: buyela
+U112	Mise i-%c: njengaluphi uhlamvu? (A-Z ngaphandle kwe-S. ESC khansela)
+U113	Idrayivu  uhlamvu / Enter khetha  F2 mise/khulula  F3 mise njenge...  L / ESC khansela
+U114	  ukwahlukanisa %u
+U115	%c:* (imisiwe, ayixhunyiwe) %04X:%04X%s  %s
+U116	Isaziso
+U117	Idrayivu %c:  %s
+U118	Idrayivu  (ayikho)
+U119	I-CD yomsindo  amathrekhi %u
+U120	Amafolda %u  amafayela %u  isamba %s
+U121	Iyafunda...
+U122	* amakiwe %u  %s
+U123	amabhayithi %lu
+U124	Izimfanelo %s   kushintshwe %s   kudalwe %s   %s
+U125	Son
+U126	Mso
+U127	Bil
+U128	Tha
+U129	Sin
+U130	Hla
+U131	Mgq
+U132	Iwashi alisethiwe (NTP nge-LAN)
+U133	FB  ukubonisa %u  ukubhala %u
+U134	1 Usizo
+U135	2 Qalisa
+U136	3 Kopi
+U137	4 Susa
+U138	5 Igama
+U139	7 SulaFB
+U140	8 FiFB
+U141	9 Idray
+U142	10 EP
+U143	11 Wash
+U144	12 CALC
+U145	1 Izimf
+U146	2 Ulwazi
+U147	3 Hamba
+U148	5 Ifolda
+U149	6 Shell
+U150	8 Hlela
+U151	9 Buka
+U152	10 S:hlo
+U153	11 TRACK
+U154	12 Qala
+U155	1 Okusha
+U156	2 Ifolda
+U157	3 Igama
+U158	4 Izimf
+U159	6 Kopi
+U160	7 Hamba
+U161	8 Susa
+U162	9 Hlela
+U163	10 mrbc
+U164	11 Hluk
+U165	12 Hlan
+U166	1 Izimf
+U167	2 FB
+U168	3 Mbhal
+U169	5 Sith
+U170	6 Ikhasi
+U171	9 ZMtho
+U172	10 ZMthu
+U173	2 SulaFB
+U174	3 FiFB
+U175	5 Layis
+U176	7 Hex
+U177	9 Ilayis
+U178	11 Set
+U179	Setha iwashi (isikhathi sase-Japan. I-NTP ayikwazanga ukulisetha)
+U180	Qalisa ngamapharamitha
+U181	Ifolda entsha
+U182	Ifayela elisha
+U183	Isikhathi:
+U184	Qalisa:
+U185	Igama:
+U186	YYYY-MM-DD hh:mm  Enter setha  ESC shiya kunjalo
+U187	Enter qalisa  <-> hambisa  BS / Del susa  ESC khansela
+U188	Enter qamba kabusha  <-> hambisa  BS / Del susa  ESC khansela
+U189	Enter dala  <-> hambisa  BS / Del susa  ESC khansela
+U190	Susa
+U191	 izinto
+U192	Amafolda azosuswa nokuqukethwe kwawo. Uqinisekile?
+U193	Susa leli fayela?
+U194	(Lokhu akunakuhlehliswa. Namafayela asemafoldeni azosuswa)
+U195	[ Yebo (Y) ]
+U196	[ Cha (N) ]
+U197	isibukeli se-hex: khetha ifayela
+U198	isibukeli sombhalo: khetha ifayela
+U199	Hambisa uye ku
+U200	Kopisha uye ku
+U201	Isigcinalwazi sesikhashana sigcwele
+U202	Idrayivu ingeyokufunda kuphela
+U203	Ayikwazi ukulondoloza (akukho mbhali)
+U204	Ayikwazanga ukuqala ukulondoloza (idrayivu imatasa?)
+U205	Iyalondoloza...
+U206	2 Londa
+U207	5 Umbala
+U208	6 Hira
+U209	7 Kata
+U210	8 Bikez
+U211	10 Phuma
+U212	1 Phez
+U213	2 Ekugc
+U214	3 Faka
+U215	4 Isich
+U216	6 HHira
+U217	7 HKata
+U218	 %s  %s  Umg %lu/%lu Kh %u  %s  %s %s%s%s
+U219	*kushintsh
+U220	PHEZ
+U221	FAKA
+U222	  Ukufunda kuphela
+U223	 Umhleli (sgnano edit)                       F1 / ESC iyavala
+U224	 Imicibisholo / Home End / PgUp PgDn  hambisa ikhesa
+U225	 Ctrl-T / Ctrl-B               ukuqala / ukuphela kwefayela
+U226	 BS / Del                      susa ngaphambili / ekhesa
+U227	 Enter                         umugqa omusha (igcina ukuhlehlisa)
+U228	 Tab / Ins                     ithebhu / faka noma bhala phezulu
+U229	 F5                            Umbala (kusuka kusandiso; C/C++, mruby, MicroPython, SG BASIC, lutho)
+U230	 F2  (Ctrl-S)                  londoloza (UTF-8, iziphetho zemigqa ziyagcinwa)
+U231	 F10 / ESC                     vala (ibuza uma kushintshiwe)
+U232	 IME:  Ctrl-Space / F12        vula / vala (あ / A)
+U233	       F9                      ulimi lwe-IME (lo mhleli kuphela; luyabuyiselwa uma kuvalwa)
+U234	       F8 Vula/vala ukuguqula okubikezelwayo kwesiJapane
+U235	       IsiJapane               romaji -> hiragana (F6) / katakana (F7)
+U236	                               I-hiragana yobubanzi obuhhafu (Shift+F6) / i-katakana yobubanzi obuhhafu (Shift+F7)
+U237	                               Bikezela kusuka kuzinhlamvu ezi-2 noma ngaphezulu, guqula imisho elandelanayo nge-Space
+U238	       IsiNgisi: ukuqedwa okubikezelwayo kusuka kuzinhlamvu ezi-2 noma ngaphezulu
+U239	       한국어 I-Hangul yesethi-2
+U240	       Space / Enter Guqula / Qinisekisa
+U241	       ← → Khetha isigaba
+U242	       Shift+← → Nciphisa/nweba isiphetho sokudla sesigaba ngohlamvu olulodwa (okukhethwayo okusha)
+U243	       ↑ ↓ / Tab               Okukhethwa okwedlule / okulandelayo ewindini (ngaphansi kombhalo, phezulu uma kuseduze phansi)
+U244	       Enter ku-→→→            Konke okukhethwayo (2 x 8, ← → ikholomu nekhasi, Enter khetha)
+U245	       Enter                   Isigaba esilandelayo (kwesokugcina siqinisekisa konke)
+U246	       Ctrl-U Engeza leli gama kusichazamazwi somsebenzisi
+U247	 Shift+F1 / F2 / F3 / F4       Ukuqala / ukuphela / faka-bhala phezulu / kusichazamazwi somsebenzisi
+U248	       BS / ESC Buyela emuva uhlamvu olulodwa / Khansela
+U249	       , . - [ ] /             、 。 ー 「 」 ・
+U250	Kushintshiwe  Y: londoloza uvale  N: vala ungalondolozi  ESC: buyela
+U251	[Bikezela] Tab/↑↓: okukhethwayo  Space: guqula  Esc: khansela
+U252	[Okukhethwayo] ↑↓: khetha  ←→: ikholomu/ikhasi  Enter: thatha
+U253	[Guqula] ↑↓okhethwa ←→isigaba Shift+←→umngcele Enter olandelayo
+U254	[한국어] Tab/↑↓: okukhethwayo  Enter/Space: qinisekisa
+U255	[English] Tab/↑↓: okukhethwayo  Enter: qinisekisa
+U256	Ukufaka kwe-Hangul yesethi-2  Ctrl-Space: izinhlamvu nezinombolo
+U257	Ukuqedwa okubikezelwayo  Ctrl-Space: ukufaka okuqondile
+U258	Asikho isichazamazwi: hiragana/katakana kuphela  F6/F7
+U259	Space: guqula  F7: katakana  Ctrl-Space: izinhlamvu nezinombolo
+U260	Space: guqula  F6: hiragana  Ctrl-Space: izinhlamvu nezinombolo
+U261	Ububanzi obuhhafu  F6: hiragana  F7: katakana  Shift+F6/F7: uhhafu
+U262	I-IME ivaliwe
+U263	 bikezela
+U264	Ukuguqula okubikezelwayo kwesiJapane: Kuvuliwe
+U265	Ukuguqula okubikezelwayo kwesiJapane: Kuvaliwe
+U266	Sebenzisa ne-IME yesiJapane
+U267	Ayikwazi ukwengeza kusichazamazwi somsebenzisi
+U268	Umbala: %s
+U269	Iyalayisha...
+U270	Ayikwazanga ukufunda ifayela
+U271	imigqa %lu%s%s
+U272	  i-Shift_JIS ivulwe njenge-UTF-8 (ilondolozwa njenge-UTF-8)
+U273	  ukufunda kuphela
+U274	Kulondoloziwe
+U275	Ayikwazanga ukulondoloza (ukubhala kwehlulekile)
+U276	Okukhethwayo
+U277	7 KhB
+U278	9 Umbha
+U279	9 Hex
+U280	Iyalayisha %lu%%
+U281	(ukuqala kuphela)
+U282	Hex  q ESC: buyela  F1: usizo
+U283	Umbhalo  q ESC: buyela  F1: usizo
+U284	Izinkinobho zesibukeli (njenge-less; kuyafana kombhalo ne-hex)
+U285	Umugqa owodwa phansi
+U286	Umugqa owodwa phezulu
+U287	Ikhasi elilodwa phansi
+U288	Ikhasi elilodwa phezulu
+U289	Uhhafu wekhasi phansi / phezulu
+U290	/umbhalo  ?umbhalo
+U291	Sesha phansi / phezulu (ayinaki osonhlamvukazi)
+U292	Okufanayo okulandelayo / okwedlule
+U293	Bonisa njenge-hex (endaweni efanayo)
+U294	Bonisa njengombhalo (endaweni efanayo)
+U295	Shintsha imibala (C/C++, mruby, MicroPython, SG BASIC, lutho)
+U296	Bonisa / fihla i-FB / umbhalo
+U297	Ikhasi lokubonisa / lokubhala le-FB
+U298	Buyela kumphathi wamafayela
+U299	Vala lolu sizo
+U300	Kopisha
+U301	 %s: ifunda amafolda... %u
+U302	 %s: ibala isikhala esingenalutho lapho iya khona...
+U303	 %s: isikhala esingenalutho asanele lapho iya khona
+U304	 Hambisa: isusa amafolda omthombo
+U305	Kuqediwe
+U306	Kumisiwe
+U307	 %s kuyaqhubeka%s
+U308	 (iyama)
+U309	 Kusuka: %s
+U310	 Kuya: %s
+U311	 Amafayela %u / %u  amafolda %u  %s / %s  (%u%%)%s
+U312	  maningi kakhulu: amanye kuphela
+U313	 Kudingeka %s, okungenalutho %s. Qhubeka?
+U314	 Y: qhubeka   N / ESC: khansela
+U315	 Cindezela noma iyiphi inkinobho ukuvala
+U316	 ESC: misa
+U317	 %s: ←→ idrayivu  ↑↓ ifolda  Space vula/vala  Enter khetha  ESC khansela
+U318	 Ayikwazi ukufunda: %s
+U319	 Ifunda amafolda... (i-ESC iyamisa)  %u
+U320	 amafolda %u%s
+U321	 (maningi kakhulu noma ajule kakhulu: amanye kuphela)
+U322	Ukuvula ifolda kumisiwe
+U323	I-Space iyayivula futhi. I-ESC futhi iyakhansela
+U324	 Isidlali se-SMF / SGT   %s
+U325	 Iyalayisha... %lu / %lu amabhayithi
+U326	 %s / %s   %s   amachweba %u
+U327	Kumisiwe isikhashana
+U328	Iyadlala
+U329	 Space: misa isikhashana  m: MIDI OUT  q / ESC: misa
+U330	 q / ESC: khansela
+U331	Amalayisensi nokubonga kwe-ROM yefonti\n\nROM: %s (inguqulo %lu.%lu, izinhlamvu %lu, kusuka ku-0x%08lX ku-flash)\n\n
+U332	== Amafonti aku-ROM (ithebula lemvelaphi ye-ROM) ==\n
+U333	  (i-ROM ayinalo ithebula)\n
+U334	\n== Indawo yokubonga ye-ROM ==\n\n
+U335	(ayikho indawo enjalo)\n
+U336	\n== Amalayisensi esofthiwe eyakhelwe ngaphakathi ==\n
+U337	 Ilondoloza %s njenge-PNG   %s
+U338	Isikrini
+U339	 Iyakha... imigqa %lu / %lu
+U340	 Iyabhala... %lu / %lu KB (i-FB ifihliwe)
+U341	Ayikwazanga ukubhala
+M001	idrayivu ihambile
+M002	ifunda ukwahlukaniswa futhi...
+M003	ayikwazanga ukuvula ivolumu (inkumbulo ayanele?)
+M004	ivula ivolumu...
+M005	inkumbulo ayanele ohlwini lwamafayela
+M006	ifunda ifolda... (iyazama futhi)
+M007	ayikwazanga ukufunda ifolda
+M008	ifunda ifolda...
+M009	idrayivu ayiphendulanga -- ifunda ukwahlukaniswa futhi
+M010	ayikwazanga ukufunda ifolda (akuyona i-FAT12/16/32?)
+M011	okufakiwe kuningi kakhulu -- kubonisa okokuqala
+M012	ayikho isistimu yamafayela kulokhu kwahlukaniswa
+M013	indlela inde kakhulu
+M014	iyahlanganisa...
+M015	iyahlukanisa...
+M016	iqamba kabusha...
+M017	idala ifolda...
+M018	idala ifayela...
+M019	iyasusa...
+M020	ibhala izimfanelo...
+M021	idrayivu imatasa
+M022	imatasa
+M023	khetha amafayela noma amafolda
+M024	khetha amafayela noma amafolda (hhayi "..")
+M025	misa i-CD kuqala
+M026	i-CD ayikwazi ukushintshwa (kopisha esikhundleni)
+M027	ifolda yesistimu ayikwazi ukuhanjiswa
+M028	ayikho idrayivu engabhalelwa (FAT / exFAT / NTFS kuphela)
+M029	idrayivu ayisekho
+M030	akukho okukhethiwe
+M031	akukho okukhethiwe
+M032	ayikwazanga ukuqala
+M033	ayikwazanga ukuvula
+M034	kudrayivu ye-FAT / exFAT / NTFS kuphela
+M035	alikho igama
+M036	lelo gama selikhona
+M037	ayikwazanga ukuqala (igama elingalungile noma idrayivu imatasa)
+M038	ayikwazanga ukuqala (idrayivu imatasa)
+M039	igama alikwazi ukuba ne-/ noma i-\\ (ngaphakathi kwale folda kuphela)
+M040	igama liyafana
+M041	into ingeyokufunda kuphela (A ukushintsha)
+M042	khetha ifayela le-.rb kudrayivu engabhalelwa
+M043	khetha ifayela le-.rb
+M044	idrayivu ingeyokufunda kuphela
+M045	khetha ifolda kudrayivu engabhalelwa
+M046	linda kancane
+M047	khetha ifayela
+M048	khetha ifayela (hhayi ifolda)
+M049	khetha ifayela le-.001
+M050	khetha ifayela le-.001
+M051	beka i-IWAD kufolda ye-DoomFiles noma ye-Doom2Files
+M052	I-DoomFiles yamukela freedoom1 / doom / doomu / doom1.wad
+M053	I-Doom2Files yamukela freedoom2 / doom2 / plutonia / tnt.wad
+M054	beka amafayela omdlalo endaweni yokugcina yangaphandle, hhayi ku-S:
+M055	i-IWAD kufanele ibe kudrayivu ye-FAT / exFAT / NTFS (hhayi i-CD)
+M056	isasebenza
+M057	isithombe siyalayishwa
+M058	ayikho i-framebuffer
+M059	ukunciphisa ukukhanya ngohhafu kusebenza nge-RGB555 kuphela
+M060	iyasula...
+M061	inciphisa ukukhanya ngohhafu...
+M062	lelo ithrekhi yedatha
+M063	linda -- kubhalwa ifayela
+M064	amadrayivu e-floppy / LS-120 / CD kuphela
+M065	kuceliwe
+M066	ifunda idiski...
+M067	iyama...
+M068	iyavula...
+M069	kuqediwe
+M070	inkumbulo ayanele
+M071	sekuvuliwe
+M072	sekuyasebenza
+M073	sekuyalondoloza
+M074	sekuyadlala
+M075	ayikho idrayivu enjalo
+M076	ayikho i-PSRAM
+M077	i-PSRAM ayanele efayeleni
+M078	i-PSRAM ayanele enkombeni yemigqa
+M079	i-PSRAM ayanele kutheminali
+M080	inkumbulo ayanele (PSRAM)
+M081	inkumbulo ayanele (SRAM 32KB)
+M082	inkumbulo ayanele esigcinalwazini sesikhashana
+M083	inkumbulo ayanele esigcinalwazini sezithombe
+M084	inkumbulo ayanele esigcinalwazini sokufunda
+M085	asikho isikhala senkumbulo yokusebenza (vala i-lowres?)
+M086	alikho ikhasi le-framebuffer
+M087	likhulu kakhulu (okuningi i-MB 4)
+M088	ifayela likhulu kakhulu (okuningi i-MB 1)
+M089	ifayela likhulu kakhulu (okuningi i-MB 1)
+M090	likhulu kakhulu ku-SMF (okuningi i-MB 1)
+M091	ifayela alinalutho
+M092	ayikwazanga ukuvula ifayela
+M093	ayikwazanga ukufunda ifayela
+M094	ayikwazanga ukuvula ivolumu
+M095	ayikwazanga ukuvula lapho iya khona (inkumbulo ayanele?)
+M096	ayikwazanga ukufunda ifolda yempande
+M097	ayikwazanga ukuqala umsebenzi
+M098	ayikwazanga ukuqala ukubhala (igama elingalungile noma imatasa)
+M099	enye ivolumu ivuliwe (imatasa)
+M100	ukukopisha kuyaqhubeka
+M101	ifolda ayikwazi ukungena kuyo uqobo
+M102	lena yifolda efanayo
+M103	le drayivu ayikwazi ukushintshwa (ukufunda kuphela)
+M104	idrayivu ayibhaleleki
+M105	usayizi wengxenye kufanele ube ngophindaphindiwe ka-512
+M106	amafayela e-GB 4 noma ngaphezulu awasekelwa
+M107	indlela engalungile
+M108	igama lefayela elingalungile
+M109	i-ROM yefonti ayikho
+M110	umsindo awuvuliwe
+M111	ayikho isiteshi esinjalo
+M112	umlandelanisi umatasa
+M113	i-PSRAM ayanele engomeni
+M114	akulona ifayela le-MIDI elijwayelekile (ayikho i-MThd)
+M115	awekho amathrekhi
+M116	ithrekhi yonakele (MTrk)
+M117	ukwahlukaniswa kwesikhathi kwe-SMPTE akusekelwa
+M118	i-SMF yefomethi 2 ayisekelwa (0 no-1 kuphela)
+M119	akuyona idrayivu ye-Bulk-Only
+M120	akuyona idrayivu ye-optical
+M121	ifolda yesistimu ayikwazi ukususwa noma ukuqanjwa kabusha
+M122	ayikho idiski kudrayivu
+M123	iyalungela
+M124	ayikakulungeli
+M125	idiski ishintshiwe
+M126	iphutha ledivayisi
+M127	isicelo esingekho emthethweni
+M128	okufakiwe kwefolda okonakele
+M129	ifolda esendleleni ayikho
+M130	ifayela linalelo gama
+M131	ifolda inalelo gama
+M132	igama elisendleleni akuyona ifolda
+M133	kukhanseliwe
+M134	ayikwazanga ukukhweza
+M135	ayikwazanga ukuqala ukufunda
+M136	ayikwazanga ukuqala ukubhala
+M137	iyifolda
+M138	lena yifolda
+M139	awekho amaqoqo
+M140	asikho isikhala sohlu lwamaqoqo
+M141	alikho ifayela noma ifolda enjalo
+M142	alikho ifayela elinjalo
+M143	ayikho ivolumu
+M144	akuyona i-NTFS
+M145	akuyona i-exFAT
+M146	akuyona ifolda
+M147	akutholakalanga
+M148	iphutha lokufunda
+M149	iphutha lokubhala
+M150	ukufunda i-FAT kwehlulekile
+M151	uchungechunge lwamaqoqo lufushane kunefayela
+M152	ifolda ayinalutho
+M153	idiski igcwele
+M154	idrayivu ayiphendulanga
+M155	ifayela lingelokufunda kuphela
+M156	ifayela lihlukene kakhulu
+M157	ifayela likhulu kakhulu (GB 4)
+M158	igama elisha selikhona
+M159	ifolda yempande igcwele
+M160	amafayela amaningi kakhulu anegama elifushane elifanayo
+M161	Alikho ifayela noma ifolda enjalo
+M162	Ifayela selikhona
+M163	Imvume yenqatshiwe
+M164	Ifolda ayinalutho
+M165	Akuyona ifolda
+M166	Iyifolda
+M167	Isistimu yamafayela yokufunda kuphela
+M168	Asisekho isikhala kudivayisi
+M169	Iphutha lokufaka/lokukhipha
+M170	Akusekelwa kule drayivu
+M171	Indlela engavumelekile
+M172	Inkumbulo iphelile
+M173	Ayikho idrayivu enjalo
+M174	kumisiwe
+M175	kukhanseliwe (isikhala esingenalutho asanele)
+M176	ayikwazanga ukubala isikhala esingenalutho
+M177	umamukeli ukhanselile
+M178	akekho umamukeli (qalisa i-rz ku-PC)
+M179	i-UART yekhonsoli iyasetshenziswa
+M180	imodi yesikrini ishintshile
+M181	imigqa ayifikanga (ukubonisa kuyasebenza?)
+M182	kopisha
+M183	hambisa
+M184	susa
+M185	qamba kabusha
+M186	izimfanelo
+M187	ifayela elisha
+M188	ifolda entsha
+M189	isithombe
+M190	mrbc
+M191	ruby
+M192	isibukeli
+M193	hlela
+M194	IDENTIFY
+M195	ZMODEM
+M196	ZMODEM thola
+M197	ZMODEM thumela
+M198	hlukanisa
+M199	hlanganisa
+M200	Doom
+M201	SMF
+M202	CD
+M203	FB
+M204	Khipha
+M205	qala kabusha
+M206	ilayisensi
+M207	iwashi
+M208	ADC okufakwayo
+M209	isikrini -> PNG
+M210	FB -> PNG
+M211	ayikwazanga ukuvula ivolumu
+M212	kutholiwe %s
+M213	kuthunyelwe %s
+M214	kulondoloziwe %s
+M215	kudaliwe %s
+M216	kuqanjwe kabusha kwaba %s
+M217	kususiwe %s
+M218	kushintshiwe %s
+M219	kuhlanganisiwe %s
+M220	kuhlukanisiwe %s
+M221	ayikwazanga ukudala %s
+M222	ayikwazanga ukususa %s
+M223	ayikwazanga ukuqamba kabusha kube %s
+M224	ayikwazanga ukushintsha %s
+M225	ayikwazanga ukufunda %s
+M226	ayikwazanga ukubhala %s
+M227	ayikwazanga ukukopisha %s
+M228	ayikwazanga ukwenza %s
+M229	ayikwazanga ukususa ifolda %s
+M230	ayikwazanga ukususa %s
+M231	inkumbulo ayanele ku-%s
+M232	amaphutha amaningi kakhulu ngenkathi ithumela %s
+M233	umamukeli akamukelanga %s
+M234	umamukeli weqe %s
+M235	Ikhasi le-FB %s
+M236	 amabhayithi ngalinye)
+M237	 amabhayithi)
+M238	 KB)
+M239	 izingxenye kuya ku
+M240	 izingxenye (
+M241	 kuya ku
+M242	: kusuliwe
+M243	: ukukhanya kunciphiswe ngohhafu
+M244	% kufundiwe
+M245	 imigqa
+M246	 -- akukasekelwa (FAT / exFAT / NTFS kuphela)
+M247	 amafayela
+M248	 (
+M249	Akunasihloko
+M250	1 Ifayela
+M251	2 Hlela
+M252	3 Igrafu
+M253	4 Ishidi
+M254	5 Usizo
+M255	AKULUTHO
+M256	INOMBOLO
+M257	UMBHALO
+M258	IFOMULA
+M259	Bhala ukufaka, F2 ukuhlela, F1 ukuthola usizo
+M265	Kulungile
+M267	Cindezela noma iyiphi inkinobho
+M268	Y = yebo    N = cha    Esc = khansela
+M269	Enter = KULUNGILE    Esc = khansela    Ctrl-U = sula
+M270	Umugqa/ikholomu yokuqala = amalebula; amashadi asebenzisa i-FB ye-CLUT8 640x480.
+M271	SGCALC - USIZO
+M272	Cindezela noma iyiphi inkinobho ukubuyela
+M273	Cindezela noma iyiphi inkinobho ukubuyela.
+M274	MAYELANA NE-SGCALC
+M275	Okusha
+M276	Qala ishidi elisha
+M277	Vula...
+M278	Vula ifayela le-ODS, FODS noma CSV
+M279	Londoloza
+M280	Londoloza ifayela lamanje
+M281	Londoloza njenge...
+M282	Londoloza ngegama noma ifomethi entsha
+M283	Thumela i-CSV...
+M284	Bhala ikhophi ye-CSV
+M285	Thumela i-ODS...
+M286	Bhala ikhophi ye-LibreOffice
+M287	Phuma
+M288	Shiya i-SGCALC
+M289	Sula
+M290	Sula amaseli akhethiwe
+M291	Kopisha
+M292	Kopisha okukhethiwe
+M293	Namathisela
+M294	Namathisela ekhesa
+M295	Sika
+M296	Kopisha bese usula okukhethiwe
+M297	Khetha konke
+M298	Khetha wonke amaseli asetshenzisiwe
+M299	Umbala wombhalo...
+M300	Khetha umbala wombhalo
+M301	Ingemuva...
+M302	Khetha ingemuva leseli
+M303	Umugqa
+M304	Dweba igrafu yomugqa kusuka kokukhethiwe
+M305	Ibha
+M306	Dweba igrafu yebha kusuka kokukhethiwe
+M307	Okuxubile
+M308	Amabha ochungechunge lokuqala, imigqa yabanye
+M309	Uphaya
+M310	Dweba igrafu kaphaya kusuka kokukhethiwe
+M311	Ububanzi...
+M312	Setha ububanzi begrafu ngokucacile
+M313	Dweba futhi
+M314	Dweba futhi igrafu yokugcina
+M315	Iya ku...
+M316	Gxumela eselini (isibonelo C12)
+M317	Ububanzi bekholomu...
+M318	Shintsha ububanzi bamakholomu akhethiwe
+M319	Ukuphakama komugqa...
+M320	Shintsha ukuphakama kwemigqa ekhethiwe
+M321	Lingana ngokuzenzakalela
+M322	Linganisa ububanzi/ukuphakama nokuqukethwe (F7)
+M323	Bala kabusha
+M324	Hlola kabusha wonke amafomula
+M325	Sula konke
+M326	Sula lonke ishidi
+M327	Izinkinobho
+M328	Bonisa umhlahlandlela wezinkinobho
+M329	Mayelana
+M330	Mayelana ne-SGCALC
+M331	Ifayela
+M332	Hlela
+M333	Igrafu
+M334	Ishidi
+M335	Usizo
+M336	Ifayela: okusha, vula, londoloza, thumela, phuma
+M337	Hlela: sula, kopisha, namathisela, sika, khetha konke
+M338	Igrafu: umugqa, ibha, okuxubile, uphaya (kudwetshwa ku-FB)
+M339	Ishidi: iya ku, ububanzi bekholomu, bala kabusha, sula
+M340	Usizo: izinkinobho nokuthi mayelana
+M341	Kwesobunxele/Kwesokudla = imenyu    Phezulu/Phansi = into    Enter = khetha    Esc = khansela
+M342	Kukhanseliwe
+M343	Okukhethiwe kukhulu kakhulu noma inkumbulo iphansi.
+M344	iseli
+M345	okukhethiwe
+M346	Akukho okunganamathiselwa
+M347	Kunamathiselwe
+M348	IYA ESELINI
+M349	Ireferensi yeseli (A1):
+M350	Iya ku
+M351	UBUBANZI BEKHOLOMU
+M352	Ububanzi ngezinhlamvu (4..30):
+M353	UKUPHAKAMA KOMUGQA
+M354	Ukuphakama ngemigqa yombhalo (1..8):
+M355	Lingana ngokuzenzakalela: ishidi alinalutho
+M356	UMBALA WENGEMUVA
+M357	UMBALA WOMBHALO
+M358	Imicibisholo: khetha    Enter: sebenzisa    Esc: khansela
+M359	Inombolo yombala (imibala engu-16 ye-PC-98)
+M361	Enter = sebenzisa    Esc = khansela
+M362	Umbala
+M363	Ingemuva
+M364	Umbhalo
+M365	UBUBANZI BEGRAFU
+M366	Ububanzi (isibonelo A1:C10):
+M367	Ububanzi begrafu
+M368	Sebenzisa ububanzi obufana no-A1:C10.
+M369	Ayikwazi ukudweba igrafu.
+M370	umugqa
+M371	ibha
+M372	okuxubile
+M373	uphaya
+M374	Sula wonke amaseli akuleli shidi?
+M375	Ishidi lisuliwe
+M376	Wonke amaseli asetshenzisiwe akhethiwe
+M377	Kubalwe kabusha
+M378	Inkumbulo
+M379	I-PSRAM ayanele eshidini lokubala.
+M380	Ishidi alinalutho.
+M381	Ayikho idatha yezinombolo kububanzi obukhethiwe.
+M382	Okunye
+M383	Awekho amanani amahle eshadi likaphaya
+M384	UMUGQA
+M385	IBHA
+M386	OKUXUBILE
+M387	UPHAYA
+M389	Ifolda
+M390	LONDOLOZA NJENGE
+M391	VULA IFAYELA
+M394	Igama:
+M395	(bhala igama, noma ukhethe ngezansi)
+M396	Igama
+M397	Usayizi
+M398	Enter=londoloza  Kwesobunxele=phezulu  Kwesokudla/Enter ku-[DIR]=vula  Tab=idrayivu  Esc=khansela
+M399	Enter=vula  Kwesobunxele=phezulu  Kwesokudla/Enter ku-[DIR]=vula  Tab=idrayivu  Esc=khansela
+M400	Inkumbulo ayanele.
+M401	Bhala phezulu
+M402	Vula
+M403	Ifayela likhulu kakhulu (umkhawulo MB 8).
+M404	Inkumbulo ayanele ukufunda ifayela.
+M405	Idatha ye-ZIP/ODS engalungile.
+M406	Iphutha le-CRC efayeleni le-ODS.
+M407	Ifayela elingasekelwa noma elonakele.
+M408	Kulondoloziwe
+M409	Kuthunyelwe
+M410	Izinguquko ezingalondolozwanga
+M411	Londoloza ishidi lamanje ngaphambi kokuqhubeka?
+M412	Ishidi elisha
+M415	ingoma inkulu kakhulu
+M416	ifayela elingenalutho
+M417	akulona ifayela le-SGT
+M418	i-BPM engalungile
+M419	isivinini esingalungile
+M420	ubude besihloko obungalungile
+M421	isihloko sinqunyiwe
+M422	uhlamvu olungalungile esihlokweni
+M423	uhlelo lunqunyiwe
+M424	ubude bohlelo obungalungile
+M425	inombolo yephethini engalungile ohlelweni
+M426	uhlu lwamaphethini lunqunyiwe
+M427	inani lamaphethini elingalungile
+M428	inkomba yephethini engalungile
+M429	iphethini ephindwe kabili
+M430	idatha yephethini inqunyiwe
+M431	idatha yephethini engavumelekile
+M432	idatha eyengeziwe ekupheleni kwefayela
+M433	uhlelo lubhekisela kuphethini engekho
+M435	(akunasihloko)
+M436	Kulungile. Cindezela u-F1 ukuthola usizo.
+M437	Landela KUVALIWE
+M438	Akukho okungahlehliswa
+M439	Hlehlisa
+M440	Misa inothi
+M441	Setha uhlamvu lomphumela kuqala
+M442	Umphumela usuliwe
+M443	Ipharamitha isuliwe
+M444	Inothi lisuliwe
+M445	Insimbi isuliwe
+M446	Ivolumu isuliwe
+M447	Uhlu lohlelo lugcwele
+M448	Uhlelo lufakiwe
+M449	Ayikwazi ukususa uhlelo lokugcina
+M450	Uhlelo lususiwe
+M451	Idlala ingoma
+M452	Kumisiwe
+M453	Ingoma entsha
+M454	Lahla izinguquko ezingalondolozwanga bese uqala ingoma entsha? (Y/N)
+M455	Lahla izinguquko ezingalondolozwanga bese uvula ingoma? (Y/N)
+M456	Lahla izinguquko ezingalondolozwanga bese uphuma? (Y/N)
+M457	Izilungiselelo zengoma zibuyekeziwe
+M458	Igama lefayela alinalutho
+M459	Ukulondoloza kukhanseliwe
+M460	Ukuvula kukhanseliwe
+M461	Ukuhlela KUVULIWE
+M462	Ukuhlela KUVALIWE
+M463	Landela KUVULIWE
+M464	Ukuhlela kuvaliwe. Cindezela u-F8 ukuhlela.
+M465	Iphutha le-I/O
+M466	ifayela likhulu kakhulu
+M467	ifayela linqunyiwe
+M495	#UKUDLALA NAMAFAYELA
+M496	#UHLU LOHLELO
+M497	#UKUBONISA
+M498	#UKUHLELA
+M499	#IMIPHUMELA (ipharamitha i-hexadecimal)
+M500	KWESOBUNXELE/KWESOKUDLA IKHASI   ENTER NOMA F1 VALA
+M501	IZILUNGISELELO ZENGOMA
+M502	PHEZULU/PHANSI KHETHA   KWESOBUNXELE/KWESOKUDLA LUNGISA   ENTER/F2 VALA
+M503	Bhala ukuhlela isihloko. I-Backspace isusa uhlamvu lokugcina.
+M504	BPM 32..255. Isivinini 1..31.
+M505	Imiphumela yephethini nayo ingashintsha isivinini ne-BPM ngesikhathi kudlalwa.
+M506	IZINSIMBI
+M507	PHEZULU/PHANSI KHETHA   SPACE LALELA   ENTER SEBENZISA   F3 VALA
+M508	Zonke iziteshi ezine zisebenzisa ukuhlanganiswa kwethebula lamaza.
+M509	Ukulalela kudlala u-C-4 ethrekhini engaphansi kwekhesa lokuhlela.
+M510	LONDOLOZA INGOMA NJENGE
+M511	ENTER LONDOLOZA   F4 NOMA CTRL-C KHANSELA
+M512	Ifolda:
+M513	Igama lefayela:
+M514	Isandiso esithi .SGT sengezwa ngokuzenzakalela.
+M515	Ifayela elikhona lingabhalwa phezulu.
+M516	VULA INGOMA
+M517	ENTER VULA  BS PHEZULU  CTRL-O/CTRL-C KHANSELA
+M518	(awekho amafayela e-.SGT kule folda)
+M519	QINISEKISA
+M520	Y = YEBO   N / ENTER / CTRL-C = CHA
+M521	Y = yebo        N = cha
+M536	i-MThd yonakele
+M537	UKUNGENISA I-MIDI
+M539	isikhathi se-delta sonakele
+M540	i-running status yonakele
+M541	umcimbi we-meta wonakele
+M542	umcimbi we-sysex wonakele
+M543	umcimbi wesiteshi wonakele
+M544	okukhishwayo kwe-SMF kuncane kakhulu
+M545	okukhishwayo kwe-SMF kukhulu kakhulu
+M546	ingoma inde kakhulu ku-SMF
+M557	IMICIBISH   hambisa ikhesa yeseli\n
+M558	SHIFT+IMIC  nweba okukhethiwe (kwegrafu/ukukopisha)\n
+M559	ENTER       hlela iseli; uma uhlela, qinisekisa bese wehla\n
+M560	TAB         iseli elilandelayo    SHIFT+TAB  iseli elidlule\n
+M561	DELETE      sula amaseli akhethiwe    ESC  khansela\n
+M562	PGUP/PGDN   isikrini esisodwa    HOME/END  ikholomu yokuqala/yokugcina\n
+M563	CTRL+HOME   A1    CTRL+END  iseli lokugcina elisetshenzisiwe\n
+M564	F1 usizo  F2 hlela  F3 kopisha  F4 namathisela  F5 iya  F6 umbala\n
+M565	F7 linganisa  F8 ingemuva  F9 bala  F10 igrafu  F11 londoloza  F12 imenyu\n
+M566	SHIFT+F1 mayelana  SHIFT+F2 ukuphakama komugqa  SHIFT+F3 ububanzi bekholomu\n
+M567	SHIFT+F4 khetha konke  SHIFT+F10 ububanzi begrafu  SHIFT+F11 londoloza njenge\n
+M568	CTRL+F1 okusha  CTRL+F2 vula  CTRL+F3 londoloza  CTRL+F4 londoloza njenge\n
+M569	CTRL+F5 thumela i-CSV  CTRL+F6 thumela i-ODS  ALT+F12 phuma\n
+M570	Imigqa emi-2 engezansi: izinkinobho zemisebenzi; [SHIFT]/[CTRL]/[ALT] njengomphathi wamafayela\n
+M571	CTRL+S londoloza  CTRL+O vula  CTRL+N okusha  CTRL+C/V/X kopisha/namathisela/sika\n
+M572	CTRL+G iya ku    /  vula imenyu (1 Ifayela, 2 Hlela, ...)\n
+M573	Imisebenzi eyakhelwe ngaphakathi: SUM AVERAGE MIN MAX COUNT COUNTA\n
+M576	Amareferensi amaseli: A1, $A$1, A1:B10.  Amafomula aqala ngo-'='.\n
+M577	Amafayela: .ods (LibreOffice), .fods (XML eyisicaba), .csv\n
+M578	I-ODS/FODS igcina amafomula, ububanzi, ukuphakama nemibala.\n
+M579	I-CSV igcina amanani namafomula (ngaphandle kwemibala/ukuphakama).\n
+M580	Igrafu: khetha ububanzi, cindezela u-F10, bese ukhetha Umugqa/Ibha/Okuxubile/Uphaya.\n
+M581	SGCALC ye-sgnano\n
+M582	Inguqulo
+M583	Ishidi lokubala lohlobo lwe-Lotus 1-2-3 njengohlelo lwe-SGX.\n\n
+M585	Imodi yesikrini 3: umbhalo + i-FB ye-CLUT8 (i-lowres ivaliwe)\n
+M586	Ishidi: imigqa %d x amakholomu %d\n
+M587	Amafomethi: .ods / .fods (LibreOffice), .csv\n\n
+M588	Igridi idwetshwa endaweni yombhalo.\n
+M589	Amashadi nengemuva le-640x480 kusebenzisa i-FB.\n\n
+M591	Ayikwazi ukugcina iseli (%d).
+M592	Kukopishwe amaseli %d x %d
+M593	Kusuliwe %s
+M594	'%s' akuyona ireferensi yeseli.
+M596	Ububanzi bekholomu = %d
+M597	Ukuphakama komugqa = %d
+M598	Lingana ngokuzenzakalela: amakholomu %d, imigqa %d
+M600	Ayikwazi ukusebenzisa umbala (%d).
+M602	Ububanzi obungavumelekile.\nSebenzisa ububanzi obufana no-A1:C10.
+M603	Ububanzi begrafu %s
+M604	Igrafu: %s
+M605	SGCALC: ayikwazi ukusetha imodi yesikrini 3: %s\n
+M614	Ayikwazi ukufunda %s\n%s
+M615	Ifolda: %s
+M623	Isandiso esingasekelwa.\nSebenzisa .csv, .ods noma .fods.
+M624	%s sekukhona.\nBhala phezulu?
+M625	%s kungenzeka kungabhaleleki.\nZama noma kunjalo?
+M626	Uhlobo lwefayela olungaziwa lwe-%s
+M627	Uhlobo lwefayela olungasekelwa.\nSebenzisa .csv, .ods noma .fods.
+M628	Ayikwazi ukuvula %s\n%s
+M629	%s iyifolda.
+M630	Ayikwazi ukungenisa %s\n%s
+M631	Kulayishiwe %s
+M632	Ayikwazi ukwakha ifayela le-%s.
+M633	Ayikwazi ukubhala %s\n%s
+M635	inguqulo %u engasekelwa
+M637	I-Octave %d
+M638	Inothi %s
+M639	Insimbi %d
+M640	Ivolumu %s
+M641	Umphumela %c
+M642	Ipharamitha %s
+M643	Iphethini %s
+M644	Idlala iphethini %s
+M645	IPHUTHA LOKULONDOLOZA: %s
+M646	Kulondoloziwe %s
+M647	IPHUTHA LOKULAYISHA: %s
+M648	BPM %d
+M649	Isivinini %d
+M650	Lalela %s
+M651	Insimbi %s %s
+M652	Bhala phezulu %s? (Y/N)
+M676	  F5          Dlala ingoma kusuka ohlelweni lwamanje
+M677	  F6          Dlala iphethini yamanje
+M678	  F7/Ctrl-C   Misa ukudlala
+M679	  Space       Dlala / misa
+M680	  F4          Londoloza njenge
+M681	  Ctrl-S      Londoloza (ibuza igama uma intsha)
+M682	  Ctrl-O      Vula ingoma
+M683	  Ctrl-N      Ingoma entsha
+M684	  F12         Phuma (iyaqinisekisa uma kushintshiwe)
+M685	  [ ]         Okufakiwe kohlelo okwedlule / okulandelayo
+M686	  { }         Faka / susa okufakiwe kohlelo
+M687	  - +         Shintsha iphethini kokufakiwe
+M688	  F11         Landela ukudlala (kuyavaleka uma uhambisa ngesandla)
+M689	  F1          Usizo; Kwesobunxele/Kwesokudla kushintsha ikhasi
+M690	  F8          Vula/vala imodi yokuhlela
+M691	  Imicibish   Hambisa ikhesa
+M692	  PgUp/PgDn   Gxuma imigqa engu-16
+M693	  Home/End    Umugqa wokuqala / wokugcina
+M694	  F9/F10      I-octave phansi / phezulu
+M695	  Z S X D C V G B H N J M      umugqa ophansi wepiyano
+M696	  Q 2 W 3 E R 5 T 6 Y 7 U      umugqa ophezulu wepiyano
+M697	  1           Misa inothi
+M698	  0 / Del     0 isula inothi/insimbi/umphumela; Del isula noma yini
+M699	  Ctrl-Z      Hlehlisa ukuhlela kokugcina kwephethini/kohlelo
+M700	  Axy   Ukushelela kwevolumu: phezulu x, phansi y
+M701	  Cxx   Sika inothi ngemva kwama-tick xx
+M702	  Dxx   Setha ivolumu (00..7F)
+M703	  Fxx   Isivinini uma xx < 20, kungenjalo BPM
+M704	  Hxy   I-arpeggio x, y amahafu ethoni
+M705	  Pxx   Ukushelela kwephimbo phezulu
+M706	  Qxx   Ukushelela kwephimbo phansi
+M707	  F2 izilungiselelo zengoma, F3 uhlu lwezinsimbi
+M708	USIZO %d/2
+M709	  Isihloko
+M711	  BPM   : %d     (kwesobunxele/kwesokudla -1/+1, -/+ -5/+5)
+M712	  Isivinini : ama-tick %d/umugqa
+M713	  Imigqa : %d (engaguquki)
+M714	  Uhlelo : okufakiwe %d
+M715	  Amaphethini asetshenziswayo : %d
+M718	Insimbi yamanje: %s %s
+M722	Amafayela: %d
+M726	SGNO TRACKER: i-SGX ABI engahambisani\n
+M727	Ukuhlola kwe-S:: linda -- ifayela liyafundwa noma liyabhalwa
+M728	Ukuhlola kwe-S:: idrayivu imatasa noma ayikakulungeli
+M729	akukho lutho kule nto (ContextMenu.cfg)
+M730	umyalo ongalungile ku-ContextMenu.cfg
+M731	isenzo esingaziwa ku-ContextMenu.cfg
+M732	imenyu
+N001	5 Macro
+N002	6 Usizo
+N003	Qalisa okwamanje
+N004	Qalisa i-macro ekhesa (iseli lesihloko #! namaseli angaphansi kwalo)
+N005	Qalisa okukhethiwe
+N006	Qalisa amaseli akhethiwe njenge-macro eyodwa (iseli eliphezulu kwesobunxele yisihloko #!)
+N007	Qalisa konke
+N008	Qalisa yonke i-macro eshidini, kusuka phezulu kwesobunxele kuya phansi kwesokudla
+N009	Iphutha lokugcina
+N010	Bonisa iphutha le-macro lokugcina
+N011	Macro
+N012	Macro: qalisa amaseli e-#!ruby / #!python / #!basic
+N013	Hlela iseli (F2)
+N014	Linganisa ububanzi/ukuphakama nokuqukethwe
+N015	Iphutha le-macro lokugcina
+N016	Alikho iphutha le-macro.
+N017	I-IME ivuliwe
+N018	I-IME ivaliwe
+N019	Macro: %s %s ...
+N020	%s: le firmware ayikwazi ukuqalisa ama-macro (SGX ABI 5.10 noma kamuva)
+N021	Iphutha le-macro: %s
+N022	Macro: %s kuqediwe
+N023	i-macro isivele iyasebenza
+N024	lolu limi alutholakali
+N025	inkumbulo ayanele
+N026	i-macro imise ngephutha
+N027	Iphutha le-macro %s: %s
+N028	Macro: inkumbulo ayanele
+N029	Macro: ikhesa ayikho ku-macro (iseli le-#!ruby / #!python / #!basic noma amaseli angaphansi kwalo)
+N030	Macro: ayikho i-macro eshidini
+N031	Qalisa wonke ama-macro
+N032	Ama-macro: %d. Wonke aqaliswe, kusuka phezulu kwesobunxele kuya phansi kwesokudla? Izinguquko azinakuhlehliswa.
+N033	Macro: kuqediwe %d kwangu-%d
+N034	Iseli lisuliwe
+N035	Okukhethiwe kusuliwe
+N036	Umbala wengemuva = %d
+N037	Umbala wombhalo = %d
+N038	Igrafu: umugqa
+N039	Igrafu: ibha
+N040	Igrafu: okuxubile
+N041	Igrafu: uphaya
+N042	Kuthunyelwe %s

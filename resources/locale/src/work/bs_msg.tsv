@@ -1,0 +1,787 @@
+# bs: machine translation (Google), unreviewed; 2026-11-17
+M001	pogon je nestao
+M002	ponovo čitam particije...
+M003	nije mogao otvoriti volumen (nema memorije?)
+M004	otvaranje zvuka...
+M005	nema memorije za listu datoteka
+M006	čitanje imenika... (ponovo pokušavam)
+M007	nije mogao pročitati direktorij
+M008	čitam imenik...
+M009	disk nije odgovorio -- ponovo čitajući particije
+M010	nije mogao pročitati direktorij (nije FAT12/16/32?)
+M011	previše unosa -- prikazuju se prvi
+M012	na ovoj particiji nije pronađen sistem datoteka
+M013	put je predugačak
+M014	pridruživanje...
+M015	razdvajanje...
+M016	preimenovanje...
+M017	kreiranje foldera...
+M018	kreiranje fajla...
+M019	brisanje...
+M020	pisanje atributa...
+M021	pogon je zauzet
+M022	zauzet
+M023	izaberite fajlove ili fascikle
+M024	odaberite fajlove ili fascikle (ne "..")
+M025	prvo zaustavite CD
+M026	CD se ne može promijeniti (umjesto kopirajte)
+M027	sistemski folder se ne može premjestiti
+M028	nijedan disk se ne može upisati (samo FAT / exFAT / NTFS)
+M029	pogon je nestao
+M030	ništa odabrano
+M031	ništa nije odabrano
+M032	nije mogao započeti
+M033	nije mogao otvoriti
+M034	samo na FAT / exFAT / NTFS disku
+M035	bez imena
+M036	to ime već postoji
+M037	nije mogao pokrenuti (loš naziv ili je disk zauzet)
+M038	nije mogao pokrenuti (pogon je zauzet)
+M039	ime ne može imati / ili \\ (samo unutar ovog foldera)
+M040	ime je isto
+M041	stavka je samo za čitanje (A za promjenu)
+M042	izaberite .rb datoteku na disku za upisivanje
+M043	izaberite .rb datoteku
+M044	disk je samo za čitanje
+M045	izaberite fasciklu na disku za pisanje
+M046	sačekaj trenutak
+M047	izaberite datoteku
+M048	odaberite fajl (ne folder)
+M049	izaberite .001 datoteku
+M050	izaberite datoteku .001
+M051	stavite IWAD u fasciklu DoomFiles ili Doom2Files
+M052	DoomFiles uzima freedoom1 / doom / doomu / doom1.wad
+M053	Doom2Files uzima freedoom2 / doom2 / plutonia / tnt.wad
+M054	stavite fajlove igre na eksternu pohranu, a ne na S:
+M055	IWAD mora biti na FAT/exFAT/NTFS drajvu (ne na CD-u)
+M056	još uvijek radi
+M057	slika se učitava
+M058	nema framebuffera
+M059	pola svjetline radi samo u RGB555
+M060	čišćenje...
+M061	prepoloviti osvetljenost...
+M062	to je trag podataka
+M063	čekajte -- datoteka se piše
+M064	samo floppy / LS-120 / CD drajv
+M065	zatraženo
+M066	čitanje diska...
+M067	zaustavljanje...
+M068	otvaranje...
+M069	urađeno
+M070	nema memorije
+M071	već otvoren
+M072	već radi
+M073	već štedi
+M074	već svira
+M075	nema takvog pogona
+M076	no PSRAM
+M077	nema PSRAM za fajl
+M078	nema PSRAM za linijski indeks
+M079	nema PSRAM za terminal
+M080	nema memorije (PSRAM)
+M081	nema memorije (32KB SRAM)
+M082	nema memorije za bafer
+M083	nema memorije za bafere slika
+M084	nema memorije za bafer za čitanje
+M085	nema mjesta za radnu memoriju (zatvoriti ravan niske rezolucije?)
+M086	nema stranicu bafera okvira
+M087	prevelik (najviše 4 MB)
+M088	fajl je prevelik (najviše 1 MB)
+M089	fajl je prevelik (maksimalno 1 MB)
+M090	prevelik za SMF (najviše 1MB)
+M091	fajl je prazan
+M092	nije mogao otvoriti fajl
+M093	nije mogao pročitati fajl
+M094	nije mogao otvoriti zvuk
+M095	nije mogao otvoriti odredište (nema memorije?)
+M096	nije mogao pročitati korijenski folder
+M097	nije mogao započeti zadatak
+M098	nije mogao početi pisati (loše ime ili zauzeto)
+M099	drugi volumen je otvoren (zauzet)
+M100	kopija je pokrenuta
+M101	folder ne može da ide u sebe
+M102	to je isti folder
+M103	ovaj disk se ne može promijeniti (samo za čitanje)
+M104	disk nije upisiv
+M105	veličina dijela mora biti višestruka od 512
+M106	datoteke od 4 GB ili više nisu podržane
+M107	loš put
+M108	loše ime datoteke
+M109	ROM fontova nije tu
+M110	zvuk nije otvoren
+M111	nema takvog kanala
+M112	sekvencer je zauzet
+M113	nema dovoljno PSRAM-a za pjesmu
+M114	nije standardni MIDI fajl (bez MThd)
+M115	nema tragova
+M116	staza je prekinuta (MTrk)
+M117	SMPTE vremenska podjela nije podržana
+M118	SMF format 2 nije podržan (samo 0 i 1)
+M119	nije Bulk-Only pogon
+M120	nije optički pogon
+M121	sistemski folder se ne može izbrisati ili preimenovati
+M122	nema medija u drajvu
+M123	postaje spreman
+M124	nije spreman
+M125	promijenjeni mediji
+M126	srednja greška
+M127	nezakonit zahtjev
+M128	loš unos u imenik
+M129	direktorij na putu ne postoji
+M130	fajl ima to ime
+M131	folder ima to ime
+M132	ime na putu nije imenik
+M133	otkazan
+M134	nije mogao montirati
+M135	nije mogao započeti čitanje
+M136	nije mogao započeti pisanje
+M137	je imenik
+M138	to je imenik
+M139	nema klastera
+M140	nema mjesta za listu klastera
+M141	nema takve datoteke ili direktorija
+M142	nema takvog fajla
+M143	nema jačine zvuka
+M144	ne NTFS
+M145	ne exFAT
+M146	nije imenik
+M147	nije pronađeno
+M148	greška čitanja
+M149	greška u pisanju
+M150	očitavanje FAT-a nije uspjelo
+M151	lanac klastera je kraći od datoteke
+M152	direktorij nije prazan
+M153	disk je pun
+M154	pogon nije odgovorio
+M155	datoteka je samo za čitanje
+M156	datoteka je previše fragmentirana
+M157	fajl je prevelik (4GB)
+M158	novo ime već postoji
+M159	korijenski direktorij je pun
+M160	previše datoteka sa istim kratkim imenom
+M161	Nema takve datoteke ili direktorija
+M162	Fajl postoji
+M163	Dozvola odbijena
+M164	Imenik nije prazan
+M165	Nije imenik
+M166	Je imenik
+M167	Sistem datoteka samo za čitanje
+M168	Nema više prostora na uređaju
+M169	Greška u ulazu/izlazu
+M170	Nije podržano na ovom disku
+M171	Nevažeći put
+M172	Bez memorije
+M173	Nema takvog pogona
+M174	stao
+M175	otkazano (nema dovoljno slobodnog prostora)
+M176	nije mogao prebrojati slobodan prostor
+M177	prijemnik otkazan
+M178	nema prijemnika (pokreni rz na PC-u)
+M179	UART konzole je u upotrebi
+M180	mod ekrana se promijenio
+M181	linije nisu došle (da li je ekran uključen?)
+M182	kopija
+M183	pokret
+M184	izbrisati
+M185	preimenovati
+M186	atributi
+M187	novi fajl
+M188	novi folder
+M189	slika
+M190	mrbc
+M191	ruby
+M192	gledalac
+M193	edit
+M194	IDENTIFIKOVATI
+M195	ZMODEM
+M196	ZMODEM primiti
+M197	ZMODEM poslati
+M198	split
+M199	pridruži se
+M200	Doom
+M201	SMF
+M202	CD
+M203	FB
+M204	Izbaci
+M205	ponovno pokretanje
+M206	licence
+M207	sat
+M208	ADC in
+M209	ekran -> PNG
+M210	FB -> PNG
+M211	nije mogao otvoriti zvuk
+M212	primljeno
+M213	poslano
+M214	sacuvan
+M215	kreiran
+M216	preimenovan u
+M217	obrisano
+M218	promijenio
+M219	pridružio
+M220	split
+M221	nije mogao stvoriti
+M222	nije mogao izbrisati
+M223	nije mogao preimenovati u
+M224	nije mogao promijeniti
+M225	nije mogao čitati
+M226	nije mogao napisati
+M227	nije mogao kopirati
+M228	nije mogao napraviti
+M229	nije mogao ukloniti folder
+M230	nije mogao ukloniti
+M231	nema memorije za
+M232	previše grešaka pri slanju
+M233	prijemnik nije uzeo
+M234	prijemnik je preskočio
+M235	FB stranica
+M236	bajtova svaki)
+M237	bajtova)
+M238	KB)
+M239	dijelovi u
+M240	dijelovi (
+M241	into
+M242	: očišćeno
+M243	: osvjetljenje prepolovljeno
+M244	% pročitano
+M245	redova
+M246	-- još nije podržano (samo FAT / exFAT / NTFS)
+M247	datoteke
+M248	(
+M249	Untitled
+M250	1 Fajl
+M251	2 Uredi
+M252	3 Graf
+M253	4 List
+M254	5 Pomoć
+M255	PRAZNO
+M256	BROJ
+M257	TEKST
+M258	FORMULA
+M259	Unesite za unos, F2 za uređivanje, F1 za pomoć
+M260	5 CSV
+M261	6 ODS
+M262	[SHIFT]
+M263	[CTRL]
+M264	[ALT]
+M265	Spreman
+M266	SGCALC
+M267	Pritisnite bilo koji taster
+M268	Y = da N = ne Esc = otkazati
+M269	Enter = OK Esc = poništi Ctrl-U = obriši
+M270	Prvi red/kolona = oznake; grafikoni koriste 640x480 CLUT8 FB.
+M271	SGCALC - POMOĆ
+M272	Pritisnite bilo koji taster za povratak
+M273	Pritisnite bilo koji taster za povratak.
+M274	O SGCALC-u
+M275	Novo
+M276	Započnite novi list
+M277	Otvori...
+M278	Otvorite ODS, FODS ili CSV datoteku
+M279	Sačuvaj
+M280	Sačuvajte trenutni fajl
+M281	Sačuvaj kao...
+M282	Sačuvajte pod novim imenom ili formatom
+M283	Izvezi CSV...
+M284	Napišite CSV kopiju
+M285	Izvezi ODS...
+M286	Napišite kopiju LibreOfficea
+M287	Prestani
+M288	Napusti SGCALC
+M289	Jasno
+M290	Obrišite odabrane ćelije
+M291	Kopiraj
+M292	Kopirajte odabir
+M293	Zalijepi
+M294	Zalijepi na kursor
+M295	Cut
+M296	Kopirajte i obrišite odabir
+M297	Odaberite sve
+M298	Odaberite sve korištene ćelije
+M299	Boja teksta...
+M300	Odaberite boju teksta
+M301	Pozadina...
+M302	Odaberite pozadinu ćelije
+M303	Linija
+M304	Nacrtajte linijski grafikon iz odabira
+M305	Bar
+M306	Nacrtajte trakasti grafikon iz odabira
+M307	Miješano
+M308	Taktovi za prvu seriju, linije za ostale
+M309	Pita
+M310	Nacrtajte kružni graf iz selekcije
+M311	Raspon...
+M312	Eksplicitno postavite raspon grafikona
+M313	Ponovo nacrtaj
+M314	Ponovo nacrtajte zadnji graf
+M315	Idi na...
+M316	Skoči na ćeliju (na primjer C12)
+M317	Širina kolone...
+M318	Promijenite širinu odabranih kolona
+M319	Visina reda...
+M320	Promijenite visinu odabranih redova
+M321	Auto fit
+M322	Prilagodite širine/visine sadržaju (F7)
+M323	Preračunaj
+M324	Ponovo procijenite sve formule
+M325	Obriši sve
+M326	Očistite cijeli list
+M327	Ključevi
+M328	Pokažite vodič za ključeve
+M329	O
+M330	O SGCALC
+M331	File
+M332	Uredi
+M333	Graf
+M334	List
+M335	Upomoć
+M336	Fajl: novi, otvori, sačuvaj, izvezi, zatvori
+M337	Uredi: obrišite, kopirajte, zalijepite, izrežite, odaberite sve
+M338	Grafikon: linija, traka, mješovito, pita (crta na FB)
+M339	List: goto, širina kolone, ponovno izračunavanje, brisanje
+M340	Pomoć: ključevi i o tome
+M341	Lijevo/Desno = meni Gore/Dolje = stavka Enter = odaberite Esc = poništi
+M342	Otkazano
+M343	Izbor je prevelik ili je malo memorije.
+M344	ćelija
+M345	izbor
+M346	Ništa za zalijepiti
+M347	Zalijepljen
+M348	IDI NA ĆELIJU
+M349	Referenca ćelije (A1):
+M350	Goto
+M351	ŠIRINA COLUMN
+M352	Širina u znakovima (4..30):
+M353	VISINA REDA
+M354	Visina u redovima teksta (1..8):
+M355	Automatsko uklapanje: list je prazan
+M356	BACKGLOUN COLOR
+M357	BOJA TEKSTA
+M358	Strelice: odaberite Enter: primijeni Esc: poništi
+M359	Indeks boja (PC-98 paleta od 16 boja)
+M360	Aa 123
+M361	Enter = primijeni Esc = poništi
+M362	Boja
+M363	Pozadina
+M364	Tekst
+M365	GRAPH RANGE
+M366	Raspon (na primjer A1:C10):
+M367	Raspon grafikona
+M368	Koristite raspon kao što je A1:C10.
+M369	Nije moguće nacrtati grafikon.
+M370	linija
+M371	bar
+M372	mješovito
+M373	pita
+M374	Obrisati svaku ćeliju na ovom listu?
+M375	List izbrisan
+M376	Odabrane su sve korištene ćelije
+M377	Preračunato
+M378	Memorija
+M379	Nema dovoljno PSRAM-a za tabelu.
+M380	List je prazan.
+M381	Nema numeričkih podataka u odabranom rasponu.
+M382	Ostalo
+M383	Nema pozitivnih vrijednosti za kružni grafikon
+M384	LINE
+M385	BAR
+M386	MIXED
+M387	PIE
+M388	S:/
+M389	Folder
+M390	SAVE AS
+M391	OPEN FILE
+M392	LibreOffice / CSV
+M393	ODS FODS CSV
+M394	ime:
+M395	(upišite ime ili odaberite ispod)
+M396	Ime
+M397	Veličina
+M398	Enter=sačuvaj Lijevo=gore desno/Enter na [DIR]=otvori Tab=pogon Esc=otkaži
+M399	Enter=otvori Lijevo=gore Desno/Enter na [DIR]=otvori Tab=pogon Esc=otkaži
+M400	Nema dovoljno memorije.
+M401	Overwrite
+M402	Otvori
+M403	Datoteka je prevelika (ograničenje 8 MB).
+M404	Nema dovoljno memorije za čitanje datoteke.
+M405	Loši ZIP/ODS podaci.
+M406	CRC greška u ODS datoteci.
+M407	Nepodržana ili oštećena datoteka.
+M408	Sačuvano
+M409	Izvezeno
+M410	Nesačuvane promjene
+M411	Sačuvati trenutni list prije nastavka?
+M412	Novi list
+M413	SGTRK
+M414	UNTITLED
+M415	pesma je prevelika
+M416	prazan fajl
+M417	nije SGT fajl
+M418	loš BPM
+M419	loša brzina
+M420	loša dužina naslova
+M421	skraćeni naslov
+M422	loš lik u naslovu
+M423	skraćeni red
+M424	loša dužina narudžbe
+M425	loš broj uzorka po redu
+M426	skraćena lista uzoraka
+M427	loš broj uzoraka
+M428	indeks lošeg uzorka
+M429	duplikat uzorka
+M430	skraćeni podaci uzorka
+M431	nevažeći podaci uzorka
+M432	zadnji podaci u datoteci
+M433	poredak se odnosi na obrazac koji nedostaje
+M434	A:/
+M435	(bez naslova)
+M436	Spreman. Pritisnite F1 za pomoć.
+M437	Pratite OFF
+M438	Ništa za poništiti
+M439	Poništi
+M440	Napomena OFF
+M441	Prvo postavite slovo efekta
+M442	Efekat je obrisan
+M443	Parametar je obrisan
+M444	Napomena je obrisana
+M445	Instrument je očišćen
+M446	Volumen je obrisan
+M447	Lista narudžbi je puna
+M448	Narudžba umetnuta
+M449	Nije moguće izbrisati posljednju narudžbu
+M450	Narudžba je izbrisana
+M451	Reproducira pjesmu
+M452	Zaustavljeno
+M453	Nova pjesma
+M454	Odbaciti nesačuvane promjene i započeti novu pjesmu? (Da/N)
+M455	Odbaciti nesačuvane promjene i otvoriti pjesmu? (Da/N)
+M456	Odbaciti nesačuvane promjene i zatvoriti? (Da/N)
+M457	Postavke pjesme su ažurirane
+M458	Ime datoteke je prazno
+M459	Čuvanje je otkazano
+M460	Otvaranje otkazano
+M461	Uredi UKLJUČENO
+M462	Uredi OFF
+M463	Follow ON
+M464	Uređivanje je ISKLJUČENO. Pritisnite F8 za uređivanje.
+M465	I/O greška
+M466	datoteka je prevelika
+M467	skraćeni fajl
+M468	SINE PAD
+M469	TROUGAO
+M470	SAW LEAD
+M471	SQUARE
+M472	PULS 25
+M473	ORGAN
+M474	BASS
+M475	BELL
+M476	BUKA
+M477	SINE
+M478	SAW
+M479	OFF
+M480	ON
+M481	ROW
+M482	CHAN LEVEL
+M483	F1 POMOĆ F2 PJESMA
+M484	F3 INS F4 SAVE
+M485	F5 PLAY F6 PAT
+M486	F7 STOP F8 EDIT
+M487	F9/F10 OKTAVA
+M488	F11 PRATI
+M489	F12 ODUSTAJ
+M490	SPACE PLAY/STOP
+M491	CTRL-S SAČUVAJ
+M492	CTRL-O OTVORENO
+M493	C-N NOVO C-Z PONIŠTI
+M494	C-C STOP
+M495	#TRANSPORT I DATOTEKE
+M496	#LISTA ZA NARUDŽBE
+M497	#DISPLAY
+M498	#EDITING
+M499	#EFFECTS (parametar je heksadecimalan)
+M500	ULAZ NA LIJEVO/DESNO STRANICU ILI ZATVORI F1
+M501	POSTAVKE PJESME
+M502	GORE/DOLJE ODABIR LIJEVO/DESNO PODEŠAVANJE ENTER/F2 ZATVORI
+M503	Unesite da uredite naslov. Backspace briše zadnji znak.
+M504	BPM raspon 32..255. Raspon brzine 1..31.
+M505	Efekti uzorka također mogu promijeniti brzinu i BPM tokom igranja.
+M506	INSTRUMENTI
+M507	GORE/DOLJE ODABIR PROSTOR PREGLED ENTER KORISTI F3 ZATVORI
+M508	Sva četiri kanala koriste talasnu sintezu.
+M509	Pregled reproducira C-4 na stazi ispod kursora za uređivanje.
+M510	SAČUVAJ PJESMU KAO
+M511	ENTER SAVE F4 ILI CTRL-C OTKAZI
+M512	Imenik:
+M513	Naziv fajla:
+M514	Ekstenzija .SGT se dodaje automatski.
+M515	Postojeća datoteka može biti prepisana.
+M516	OTVORENA PJESMA
+M517	ENTER OTVOREN BS PARENT CTRL-O/CTRL-C OTKAZI
+M518	(nema .SGT fajlova u ovoj fascikli)
+M519	POTVRDI
+M520	Y = DA N / ENTER / CTRL-C = NE
+M521	Y = da N = ne
+M522	C-
+M523	C#
+M524	D-
+M525	D#
+M526	E-
+M527	F-
+M528	F#
+M529	G-
+M530	G#
+M531	A-
+M532	A#
+M533	B-
+M534	A:/dir/ime
+M535	MThd
+M536	pokvaren MThd
+M537	MIDI IMPORT
+M538	MTrk
+M539	slomljeno delta vrijeme
+M540	pokvaren status u radu
+M541	prekinuti meta događaj
+M542	pokvareni sysex događaj
+M543	događaj prekinutog kanala
+M544	SMF izlaz je premali
+M545	SMF izlaz je prevelik
+M546	pjesma je preduga za SMF
+M547	TRK1
+M548	%s%d
+M549	%s%d:%s%d
+M550	%s
+M551	%.40s%s
+M552	[%s] %s
+M553	EDIT
+M554	READY
+M555	%4d
+M556	%s Zbir %.7g N %ld%s
+M557	STRELICE pomeraju kursor ćelije
+M558	SHIFT+ARR produžava odabir (za grafikone/kopiju)
+M559	ENTER uredite ćeliju; u uređivanju, urezivanju i pomicanju prema dolje
+M560	TAB sljedeća ćelija SHIFT+TAB prethodna ćelija
+M561	DELETE obrišite odabrane ćelije. ESC otkazivanje
+M562	PGUP/PGDN pomjeri jedan ekran HOME/KRAJ prve/zadnje kolone
+M563	CTRL+HOME A1 CTRL+END zadnja korištena ćelija
+M564	F1 pomoć F2 uređivanje F3 kopiranje F4 lijepljenje F5 prelazak na F6 boju
+M565	F7 automatsko prilagođavanje F8 pozadina F9 ponovno izračunavanje F10 grafikon F11 spremanje F12 meni
+M566	SHIFT+F1 oko SHIFT+F2 visine reda SHIFT+F3 širine kolone
+M567	SHIFT+F4 odaberite sav raspon grafikona SHIFT+F10 SHIFT+F11 sačuvajte kao
+M568	CTRL+F1 novi CTRL+F2 otvori CTRL+F3 sačuvaj CTRL+F4 sačuvaj kao
+M569	CTRL+F5 izvoz CSV CTRL+F6 izvoz ODS ALT+F12 zatvaranje
+M570	Donja 2 reda: funkcijske tipke; [SHIFT]/[CTRL]/[ALT] kao filer
+M571	CTRL+S sačuvaj CTRL+O otvori CTRL+N novi CTRL+C/V/X kopiraj/zalijepi/isecaj
+M572	CTRL+G idite / otvorite meni (1 Fajl, 2 Uredi, ...)
+M573	Ugrađene funkcije: SUM PROSJEČAN MIN MAX COUNT COUNTA
+M574	PROIZVOD ABS SQRT INT ROUND MOD SNAGA AKO I ILI NE
+M575	AKO GREŠKA LEVO LIJEVO DESNO SREDINA GORNJA DONJA TRIM KONKATENAT PI
+M576	Ref. ćelije: A1, $A$1, A1:B10.  Formule počinju sa '='.
+M577	Fajlovi: .ods (LibreOffice), .fods (flat XML), .csv
+M578	ODS/FODS čuva formule, širine, visine i boje.
+M579	CSV čuva vrijednosti i formule (bez boja/visina).
+M580	Grafikon: odaberite raspon, pritisnite F10 i odaberite Linija/Bar/Mixed/Pie.
+M581	SGCALC za sgnano
+M582	Verzija
+M583	Tabela u stilu Lotus 1-2-3 kao SGX program.
+M584	SGX ABI %u.%u
+M585	Režim ekrana 3: tekst + CLUT8 FB (niži rez je onemogućen)
+M586	List: %d redova x %d kolona
+M587	Formati: .ods / .fods (LibreOffice), .csv
+M588	Mreža je nacrtana u ravni teksta.
+M589	Grafikoni i pozadina 640x480 koriste FB.
+M590	%d %s
+M591	Nije moguće pohraniti ćeliju (%d).
+M592	Kopirano %d x %d ćelija
+M593	Očišćeno %s
+M594	'%s' nije referenca ćelije.
+M595	%d
+M596	Širina kolone = %d
+M597	Visina reda = %d
+M598	Automatsko uklapanje: %d kolona(e), %d red(ovi)
+M599	%2d
+M600	Nije moguće primijeniti boju (%d).
+M601	%s boja = %d
+M602	Nije važeći raspon.\nKoristite raspon kao što je A1:C10.
+M603	Raspon grafikona %s
+M604	Grafikon: %s
+M605	SGCALC: ne može se postaviti mod ekrana 3: %s
+M606	%.2g
+M607	%.6g
+M608	%s %.0f%%
+M609	GRAFIKON %s %s
+M610	%s%s
+M611	%s/%s
+M612	%.*s
+M613	%.*s/
+M614	Ne mogu čitati %s\n%s
+M615	Fascikla: %s
+M616	[DIR] %s
+M617	%s
+M618	%lu.%luM
+M619	%luK
+M620	%luB
+M621	BOOK1%s
+M622	%c:/
+M623	Nepodržana ekstenzija.\nKoristite .csv, .ods ili .fods.
+M624	%s već postoji.\nPrepisati?
+M625	%s se možda ne može pisati.\nPokušati ipak?
+M626	Nepoznata vrsta datoteke za %s
+M627	Nepodržana vrsta datoteke.\nKoristite .csv, .ods ili .fods.
+M628	Nije moguće otvoriti %s\n%s
+M629	%s je fascikla.
+M630	Nije moguće uvesti %s\n%s
+M631	Učitano %s
+M632	Nije moguće napraviti datoteku %s.
+M633	Ne mogu napisati %s\n%s
+M634	%s %s
+M635	nepodržana verzija %u
+M636	%d:%d:%d:%d:%d:%d
+M637	Oktava %d
+M638	Napomena %s
+M639	Instrument %d
+M640	Volumen %s
+M641	Efekat %c
+M642	Parametar %s
+M643	Uzorak %s
+M644	Reprodukcija šablona %s
+M645	GREŠKA SAČUVANJA: %s
+M646	Sačuvano %s
+M647	GREŠKA Učitavanja: %s
+M648	BPM %d
+M649	Brzina %d
+M650	Pregled %s
+M651	Instrument %s %s
+M652	Prepisati %s? (Da/N)
+M653	| BPM %s SPD %s
+M654	SGNO TRACKER 1.0 |
+M655	FILE
+M656	PAT %s
+M657	ORD %d/%d
+M658	INS %s
+M659	OKT %d
+M660	EDIT %s
+M661	ON
+M662	FOL %s
+M663	TRACK %d
+M664	%c%s
+M665	%s %s %s %s
+M666	%s
+M667	%d %s %s
+M668	NARUDŽITE %d/%d
+M669	PAT %s
+M670	INS %s %s
+M671	OKTOBAR %d EDIT %s
+M672	PRATI %s
+M673	PLAYING ORD %d/%d PAT %s ROW %s/%d SPD %s BPM %d F7 STOP
+M674	READY EDIT %s OKTOBAR %d F1 POMOĆ F5 PLAY CTRL-S SAVE
+M675	%s
+M676	F5 Pustite pjesmu iz trenutnog reda
+M677	F6 Pusti trenutni obrazac
+M678	F7/Ctrl-C Zaustavljanje reprodukcije
+M679	Space Play / stop
+M680	F4 Sačuvaj kao
+M681	Ctrl-S Sačuvaj (traži ime ako je novo)
+M682	Ctrl-O Otvaranje pjesme
+M683	Ctrl-N Nova pjesma
+M684	F12 Prekini (potvrda ako je izmijenjeno)
+M685	[ ] Prethodni / sljedeći unos naloga
+M686	{ } Umetanje / brisanje unosa naloga
+M687	- + Promijenite obrazac u unosu
+M688	F11 Prati reprodukciju (isključuje se pri ručnom pomjeranju)
+M689	F1 Pomoć; Lijevo/Desno mijenja stranicu
+M690	F8 Uključi/isključi mod za uređivanje
+M691	Strelice Pomjerite kursor
+M692	PgUp/PgDn Skoči 16 redova
+M693	Početna/Kraj Prvi/zadnji red
+M694	F9/F10 Oktava dolje / gore
+M695	Z S X D C V G B H N J M donji red klavira
+M696	Q 2 W 3 E R 5 T 6 Y 7 Gornji red klavira
+M697	1 Napomena isključena
+M698	0 / Del 0 briše notu/inst/fx; Del briše sve
+M699	Ctrl-Z Poništite posljednju izmjenu uzorka/reda
+M700	Axy Volume slajd: gore x, dolje y
+M701	Cxx Napomena isječena nakon xx tikova
+M702	Dxx Postavi jačinu zvuka (00..7F)
+M703	Fxx Brzina ako je xx < 20, inače BPM
+M704	Hxy Arpeggio x, y polutonovi
+M705	Pxx Pitch klizanje gore
+M706	Qxx Pitch klizi prema dolje
+M707	F2 postavke pjesme, F3 lista instrumenata
+M708	POMOĆ %d/2
+M709	Naslov
+M710	[%s_]
+M711	BPM : %d (lijevo/desno -1/+1, -/+ -5/+5)
+M712	Brzina: %d krpelja/red
+M713	Redovi: %d (fiksno)
+M714	Redoslijed : %d unosa
+M715	Uzorci u upotrebi: %d
+M716	# IME WAVE A D S R VOL
+M717	%c %d %-9s %-9s %3d %3d %3d %3d %4d
+M718	Trenutni instrument: %s %s
+M719	%s
+M720	DIR %s
+M721	%c %s%s
+M722	Fajlovi: %d
+M723	%02d
+M724	%03d
+M725	%02X
+M726	SGNO TRACKER: nekompatibilan SGX ABI
+M727	S: provjerite: čekajte -- datoteka se čita ili upisuje
+M728	S: provjerite: disk je zauzet ili nije spreman
+M729	ništa za ovu stavku (ContextMenu.cfg)
+M730	loša komanda u ContextMenu.cfg
+M731	nepoznata radnja u ContextMenu.cfg
+M732	meni
+M733	izaberite datoteku ili folder
+M734	ovaj disk se ne može upisati
+M735	posao arhiviranja je već pokrenut
+M736	nema PSRAM za zadatak arhiviranja
+M737	nije mogao pokrenuti zadatak arhiviranja
+M738	previše stavki (najviše 32)
+M739	ništa za kompresiju
+M740	bez imena (ili ime ima / ili \\)
+M741	najviše 32 stavke (označite manje ili ih stavite u folder)
+M742	arhiva
+M743	komprimirati
+M744	render
+N001	5 Makro
+N002	6 Pomoć
+N003	Pokreni struju
+N004	Pokrenite makro na kursoru (#! ćelija zaglavlja i ćelije ispod nje)
+N005	Pokreni odabir
+N006	Pokrenite odabrane ćelije kao jedan makro (u gornjem lijevom kutu je zaglavlje #!)
+N007	Pokreni sve
+N008	Pokrenite svaki makro na listu, od gornjeg lijevog do donjeg desnog
+N009	Zadnja greška
+N010	Prikaži zadnju grešku makroa
+N011	Makro
+N012	Makro: pokrenite #!ruby / #!python / #!osnovne ćelije
+N013	Uredite ćeliju (F2)
+N014	Prilagodite širine/visine sadržaju
+N015	Zadnja greška makroa
+N016	Nema makro greške.
+N017	IME uključen
+N018	IME isključen
+N019	Makro: %s %s ...
+N020	%s: ovaj firmver ne može pokrenuti makroe (SGX ABI 5.10 ili noviji)
+N021	Makro greška: %s
+N022	Makro: %s gotovo
+N023	makro je već pokrenut
+N024	ovaj jezik nije dostupan
+N025	nema dovoljno memorije
+N026	makro je zaustavljen sa greškom
+N027	Makro greška %s: %s
+N028	Makro: nema dovoljno memorije
+N029	Makro: kursor nije na makrou (#!ruby / #!python / #!basic ćelija ili ćelije ispod nje)
+N030	Makro: nema makroa u listu
+N031	Pokrenite sve makroe
+N032	Makroi: %d. Pokrenuti ih sve, gore-lijevo do dolje desno? Promjene se ne mogu poništiti.
+N033	Makro: %d od %d gotovo
+N034	Očistio ćeliju
+N035	Obrisan izbor
+N036	Boja pozadine = %d
+N037	Boja teksta = %d
+N038	Grafikon: linija
+N039	Grafikon: traka
+N040	Grafikon: mješovito
+N041	Grafikon: pita
+N042	Izvezeno %s

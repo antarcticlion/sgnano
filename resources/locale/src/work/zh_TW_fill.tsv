@@ -1,0 +1,179 @@
+# 繁體中文 — strings added since 2026-11-04 (machine translation, unreviewed; 2026-11-16)
+U004	全部標記 / 反轉標記（同 PC-98 FD）
+U006	標記並前進 / 只標記
+U008	選取範圍（Space 標記該範圍）
+U009	進入資料夾 / 開啟檔案（F2/X 執行）
+U012	複製（Shift+C / Shift+F3 從樹狀圖選擇目的地）
+U014	刪除（Shift+D / Shift+F4 刪除資料夾）
+U016	變更屬性
+U018	以文字檢視（Shift+V / Ctrl+Alt+F7 十六進位）
+U019	磁碟資訊
+U020	新資料夾 / 新檔案
+U021	Shell sgsh / 退出媒體
+U022	重新讀取
+U023	將畫面存成 PNG
+U024	關閉視窗 / 取消選取（在子資料夾中：上一層）
+U025	檔案操作（同 FD：標記、範圍、游標的順序）
+U026	複製：從磁碟與資料夾的樹狀圖選擇目的地。ESC 停止
+U027	刪除：按 y 確認。標記與範圍一起處理。資料夾連同內容
+U028	刪除資料夾（連同內容）
+U030	屬性：R 唯讀、H 隱藏、S 系統、A 封存
+U031	新資料夾
+U032	新檔案（空）
+U033	以文字檢視（Shift+V / Ctrl+Alt+F7 十六進位）
+U034	Shell sgsh（exit / Ctrl-D 回到檔案管理員）
+U036	退出 FDD / LS-120 / CD 媒體
+U037	重新讀取清單（CD：從 TOC）
+U038	以 ZMODEM 從 PC 接收（zm.sh put）
+U039	以 ZMODEM 傳送到 PC（zm.sh get）
+U041	Ruby REPL（逐行，Ctrl-D / ESC 結束）
+U042	MicroPython REPL
+U043	分割成 4 MB / 從 .001 合併
+U044	分割 / 合併（同 Ctrl+F11 / F12）
+U045	畫面（Alt+F，不與 FD 的 F 鍵衝突）
+U047	FB 顯示頁（0-3）
+U048	將 FB 清為 0 / 亮度減半（RGB555）
+U050	清除 FB 顯示頁 / 亮度減半
+U057	檢查 S:（修復前會詢問）
+U061	將 VGM/VGZ 匯出為 96 kHz / 24 位元 WAV
+U073	編輯器（E / Shift+F8）
+U082	Shell（csh 子集。exit / Ctrl-D 返回，help 列出命令）
+U092	檢查 S: 磁碟錯誤
+U093	檔案 %lu  資料夾 %lu
+U094	大小與鏈結不符
+U095	沒有被使用的叢集
+U096	交叉連結的叢集
+U097	損壞的項目
+U098	兩份 FAT 不同
+U099	沒有錯誤。
+U100	發現錯誤。要修復嗎？
+U101	已修復（上方的數字已修正）。
+U102	無法檢查或修復（S: 忙碌中）。
+U103	[ 修復 ]
+U104	[ 取消 ]
+U112	將 %c: 固定為哪個字母？（A-Z，S 除外。ESC 取消）
+U113	磁碟  字母 / Enter 選擇  F2 固定/解除字母  F3 指定字母固定  L / ESC 取消
+U114	  分割區 %u
+U115	%c:*（已固定，未連接）%04X:%04X%s  %s
+U135	2 執行
+U136	3 複製
+U137	4 刪除
+U138	5 更名
+U139	7 FB清
+U140	8 FB暗
+U141	9 磁碟
+U142	10 EP
+U145	1 屬性
+U146	2 資訊
+U147	3 移動
+U148	5 建立
+U149	6 Shell
+U150	8 編輯
+U151	9 檢視
+U152	10 S:檢
+U154	12 重啟
+U172	10ZM送
+U176	7 十六
+U177	9 授權
+U178	11 設定
+U179	設定時鐘（日本時間。NTP 無法設定）
+U180	以參數執行
+U183	時間：
+U184	執行：
+U186	YYYY-MM-DD hh:mm  Enter 設定  ESC 保持
+U187	Enter 執行  <-> 移動  BS / Del 刪除  ESC 取消
+U188	Enter 更名  <-> 移動  BS / Del 刪除  ESC 取消
+U189	Enter 建立  <-> 移動  BS / Del 刪除  ESC 取消
+U191	 個項目
+U192	資料夾會連同內容一起刪除。確定嗎？
+U194	（無法復原。資料夾中的檔案也會刪除）
+U206	2 儲存
+U207	5 色彩
+U208	6 平假
+U209	7 片假
+U210	8 預測
+U211	10 結束
+U212	1 開頭
+U213	2 結尾
+U214	3 插/覆
+U215	4 辭典
+U216	6 半平
+U217	7 半片
+U229	 F5                            著色（依副檔名；C/C++、mruby、MicroPython、SG BASIC、無）
+U236	                               半形平假名（Shift+F6）/ 半形片假名（Shift+F7）
+U242	       Shift+← → 將文節右端縮短/延長一個字（新的候選）
+U243	       ↑ ↓ / Tab               視窗中的上一個 / 下一個候選（在文字下方，接近底部時在上方）
+U244	       在 →→→ 按 Enter          所有候選（2 x 8，← → 欄與頁，Enter 選擇）
+U245	       Enter                   下一個文節（在最後一個時全部確定）
+U247	 Shift+F1 / F2 / F3 / F4       開頭 / 結尾 / 插入-覆寫 / 加入使用者辭典
+U250	已變更  Y：儲存並關閉  N：不儲存關閉  ESC：返回
+U251	[預測] Tab/↑↓：候選  Space：轉換  Esc：取消
+U252	[候選] ↑↓：選擇  ←→：欄/頁  Enter：採用
+U253	[轉換] ↑↓候選 ←→文節 Shift+←→邊界 Enter 下一個
+U254	[한국어] Tab/↑↓：候選  Enter/Space：確定
+U255	[English] Tab/↑↓：候選  Enter：確定
+U256	2 組式韓文輸入  Ctrl-Space：英數
+U257	預測補完  Ctrl-Space：直接輸入
+U258	無辭典：僅平假名/片假名  F6/F7
+U259	Space：轉換  F7：片假名  Ctrl-Space：英數
+U260	Space：轉換  F6：平假名  Ctrl-Space：英數
+U261	半形  F6：平假名  F7：片假名  Shift+F6/F7：半形
+U262	IME 關閉
+U263	 預測
+U268	著色：%s
+U276	候選
+U295	變更著色（C/C++、mruby、MicroPython、SG BASIC、無）
+U309	 來源：%s
+U310	 目的地：%s
+U329	 Space：暫停  m：MIDI OUT  q / ESC：停止
+M727	S: 檢查：請等待 -- 正在讀寫檔案
+M728	S: 檢查：磁碟忙碌中或未就緒
+M729	此項目沒有可用的操作（ContextMenu.cfg）
+M730	ContextMenu.cfg 中的命令錯誤
+M731	ContextMenu.cfg 中有未知的操作
+M732	選單
+# 2026-11-17: archive window, compress name field, WAV export window (machine translation, unreviewed)
+U342	壓縮檔名稱（已標記的項目，沒有則為游標所在項目）
+U343	Enter 壓縮  ←→ 移動  BS / Del 刪除  ESC 取消
+U344	WAV 匯出：%s 已中止（%s）
+U345	WAV 匯出：%s 失敗（%s）
+U346	WAV 匯出：%s 總計 %s
+U347	 WAV 匯出（96kHz / 24bit）：%s
+U348	已中止
+U349	失敗
+U350	 總計 %s
+U351	 已中止（%s。已刪除未完成的檔案）
+U352	 無法匯出（%s）。原因：
+U353	 （原因不明）
+U354	 %u%%   經過 %s%s
+U355	 ESC：停止（會刪除未完成的檔案）
+U356	壓縮檔：%s
+U357	讀取中…（按 ESC 取消）
+U358	 %u 個項目%s  總計 %s 位元組  解壓到：%s
+U359	 Enter 解壓項目  X 全部解壓  ↑↓ 移動  ESC 關閉
+U360	壓縮
+U361	清單
+U362	解壓
+U363	 總計 %s   %u 個項目
+U364	 總計 %s   %u 個檔案
+U365	 已中止（%s。已刪除寫到一半的檔案）
+U366	 無法完成（%s）：%s
+U367	 %u%%   經過 %s   %s 位元組%s
+U368	 經過 %s   %s 位元組%s
+U369	 ESC：停止（會刪除寫到一半的檔案）
+U370	壓縮檔：%s 失敗（%s）
+U371	已壓縮：%s（%u 個項目）
+U372	已解壓：%s（%u 個檔案）
+# 2026-11-17: archive / compress messages (machine translation, unreviewed)
+M733	請選擇檔案或資料夾
+M734	無法寫入這個磁碟機
+M735	壓縮工作已在執行
+M736	壓縮工作的 PSRAM 不足
+M737	無法開始壓縮工作
+M738	項目太多（最多 32 個）
+M739	沒有可壓縮的東西
+M740	沒有名稱（或名稱含有 / 或 \\）
+M741	最多 32 個（請少標記一些，或放進一個資料夾）
+M742	壓縮檔
+M743	壓縮
+M744	WAV 匯出

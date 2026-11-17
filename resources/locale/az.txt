@@ -1,0 +1,1162 @@
+# sgnano filer strings: Azərbaycanca (2026-11-17). ui <TAB> Japanese <TAB> translation / msg.* <TAB> English <TAB> translation
+# status: unreviewed (machine translation, not checked by a native speaker; 2026-11-17). 未検証: ネイティブの確認をしていない仮の訳
+@lang az
+@name Azərbaycanca
+ui	一覧（ファイルとフォルダを 2 列 x 19 行に並べる）	Siyahı (2 sütun x 19 sətirdəki fayl və qovluqlar)
+ui	カーソルを動かす（左右は隣の列へ）	Kursoru hərəkət etdirin (sola / sağa: digər sütun)
+ui	前のページ / 次のページ	Əvvəlki səhifə / sonrakı səhifə
+ui	全部に印 / 印を反転（PC-98 FD と同じ）	Hamısını qeyd edin / işarələri çevirin (PC-98 FD-də olduğu kimi)
+ui	先頭 / 最後	İlk / sonuncu
+ui	印を付けて次へ / 印だけ付ける	İşarələyin və davam edin / yalnız işarələyin
+ui	Shift+矢印	Shift+Oxlar
+ui	範囲を選ぶ（Space でその範囲に印）	Aralığı seçin (Boşluq aralığı qeyd edir)
+ui	フォルダに入る・ファイルを開く（F2/X は実行）	Qovluq daxil edin / faylı açın (F2/X işə salın)
+ui	上のフォルダへ	Ana qovluğa qədər
+ui	ドライブを選ぶ（USB・フロッピー・CD・S: 内蔵）	Sürücü seçin (USB, disket, CD, S: daxili)
+ui	コピー（Shift+C / Shift+F3 は行き先を木から）	Kopyalayın (Shift+C / Shift+F3 ağacdan təyinatı seçir)
+ui	移動	Hərəkət edin
+ui	削除（Shift+D / Shift+F4 はフォルダ削除）	Sil (Shift+D / Shift+F4 qovluğu silin)
+ui	名前を変える	Adını dəyişdirin
+ui	属性を変える	Atributları dəyişdirin
+ui	エディタで開く	Redaktorda açın
+ui	テキスト表示（Shift+V / Ctrl+Alt+F7 は 16 進）	Mətn kimi baxın (Shift+V / Ctrl+Alt+F7 hex)
+ui	ドライブの情報	Sürücü məlumatı
+ui	フォルダを作る / 新しいファイル	Yeni qovluq / yeni fayl
+ui	シェル sgsh / 媒体を取り出す	Shell sgsh / mühiti çıxarın
+ui	読み直す	Yenidən yükləyin
+ui	見えている画面を PNG で保存	Ekranı PNG olaraq qeyd edin
+ui	窓を閉じる・選択を解く（サブフォルダでは上位へ）	Pəncərəni bağlayın / seçimi silin (alt qovluqda: yuxarı qalxın)
+ui	ファイルの操作（FD と同じ。印・範囲・カーソルの順に選ぶ）	Fayl əməliyyatları (FD-də olduğu kimi: işarələr, sonra diapazon, sonra kursor)
+ui	コピー: 行き先はドライブとフォルダの木から。ESC で止める	Kopyalayın: sürücü və qovluq ağacından təyinatı seçin. ESC dayanır
+ui	削除: y で確かめる。印・範囲をまとめて。フォルダは中身ごと	Sil: y ilə təsdiqləyin. Bir anda işarələr və diapazonlar. Məzmunu olan qovluqlar
+ui	フォルダを削除（中身ごと）	Qovluğu silin (məzmunu ilə)
+ui	名前を変える（今の名前を直して Enter）	Adını dəyişdirin (adı redaktə edin, daxil edin)
+ui	属性: R 読み出し専用・H 隠し・S システム・A アーカイブ	Atributlar: R yalnız oxunur, H gizli, S sistemi, A arxivi
+ui	フォルダを作る	Yeni qovluq
+ui	新しいファイル（空）を作る	Yeni (boş) fayl
+ui	テキストで表示（Shift+V / Ctrl+Alt+F7 は 16 進）	Mətn kimi baxın (Shift+V / Ctrl+Alt+F7 hex)
+ui	シェル sgsh（exit / Ctrl-D でファイラーへ）	Shell sgsh (çıxın / Ctrl-D fayla qayıdın)
+ui	選んでいるドライブの素性（INQUIRY・IDENTIFY）	Sürücünün şəxsiyyəti (SORUŞTUR, MÜƏYYƏN EDİN)
+ui	FDD・LS-120・CD の媒体を取り出す	FDD / LS-120 / CD mühitini çıxarın
+ui	一覧を読み直す（CD は TOC から）	Siyahını yenidən yükləyin (CD: TOC-dan)
+ui	ZMODEM で PC から受け取る（zm.sh put）	ZMODEM tərəfindən PC-dən alın (zm.sh put)
+ui	ZMODEM で PC へ送る（zm.sh get）	ZMODEM ilə PC-yə göndərin (zm.sh get)
+ui	.rb をコンパイルして .mrb を書き出す	.rb tərtib edin və .mrb yazın
+ui	Ruby の REPL（1 行ずつ、Ctrl-D / ESC で終わり）	Ruby REPL (hər dəfə bir sətir, Ctrl-D / ESC bitir)
+ui	MicroPython の REPL	MicroPython REPL
+ui	4MB ずつ分割 / .001 から結合	4 MB hissələrə bölün / .001-dən qoşulun
+ui	分割 / 結合（Ctrl+F11 / F12 と同じ）	Bölün / birləşdirin (Ctrl+F11 / F12 ilə eyni)
+ui	画面（Alt+F。FD の F キーとぶつからない）	Ekran (Alt+F, FD F düymələri ilə ziddiyyət təşkil etmir)
+ui	FB（絵）/ テキスト面を出す・隠す	FB (şəkil) / mətni göstər / gizlət
+ui	FB の表示ページ（0〜3）	FB ekran səhifəsi (0-3)
+ui	FB を 0 で消す / 明るさを 1/2 に（RGB555）	FB-ni 0-a qədər təmizləyin / parlaqlığını yarıya endirin (RGB555)
+ui	USB のエンドポイントと LAN の状態	USB son nöqtələri və LAN vəziyyəti
+ui	FB の表示ページを消す / 明るさを 1/2 に	FB ekran səhifəsini silin / parlaqlığını yarıya endirin
+ui	テキストの属性の見本	Mətn atribut nümunələri
+ui	モニタの EDID（起動時に読んだもの）	Monitor EDID (yüklənərkən oxuyun)
+ui	フォント ROM のライセンスとクレジット	Font ROM lisenziyaları və kreditləri
+ui	設定（表示の言語・IME・キーボードロケール）	Parametrlər (ekran dili, IME və klaviatura dili)
+ui	時計（NTP で合わせた日本時間。s ですぐ合わせる）	Saat (Yaponiya vaxtı NTP tərəfindən təyin olunur; indi sinxronizasiya olunur)
+ui	表計算（SGCALC）を開く	Açıq cədvəl (SGCALC)
+ui	S: ドライブのエラー検査（誤りがあれば直すか聞く）	S: səhvləri yoxlayın (təmir etməzdən əvvəl soruşur)
+ui	トラッカー（TRACKER）を開く	TRACKER-i açın
+ui	再起動（確かめの窓が出る）	Yenidən başladın (ilk soruşur)
+ui	ADC のステレオ入力（GP40 / 41）を鳴らす	ADC stereo girişini çalın (GP40 / 41)
+ui	VGM/VGZ を 96kHz/24bit WAV に書き出す	VGM/VGZ-ni 96 kHz / 24 bit WAV-a ixrac edin
+ui	このヘルプ	Bu kömək
+ui	ページを替える	Səhifəni dəyişdirin
+ui	閉じる	Bağlayın
+ui	テキスト・16 進のビュアー（less 風）	Mətn / hex görüntüleyici (daha az kimi)
+ui	1 行	Bir xətt
+ui	1 ページ	Bir səhifə
+ui	半ページ	Yarım səhifə
+ui	探す（前へ・後ろへ）/ 次・前	Axtarış (irəli / geri) / sonrakı / əvvəlki
+ui	一覧へ戻る（F1 はビュアーのヘルプ）	Siyahıya qayıt (F1: izləyicinin köməyi)
+ui	画像のビュアー	Şəkil izləyicisi
+ui	一覧へ戻る（F2 F3 F6 F7 Shift+F2 F3 は効く）	Siyahıya qayıt (F2 F3 F6 F7 Shift+F2 F3 iş)
+ui	エディタ（E / Shift+F8）	Redaktor (E / Shift+F8)
+ui	保存する（UTF-8。改行と BOM は元のまま）	Saxla (UTF-8; xətt bitir və BOM saxlanılır)
+ui	閉じる（変わっていれば Y / N / ESC）	Bağlayın (əgər dəyişdirilərsə: Y / N / ESC)
+ui	挿入 / 上書き	Daxil et / üzərinə yaz
+ui	IME（日本語・英語・ハングル）の入・切	IME-ni yandır/söndür (Yapon/İngilis/Koreya)
+ui	IME の言語（日本語 / English / 한국어）	IME dili (Yapon / İngilis / Koreya)
+ui	ひらがな / カタカナで確定	Hiraqana / katakana kimi qəbul edin
+ui	エディタのヘルプ	Redaktorun köməyi
+ui	シェル	Shell
+ui	シェル（csh のサブセット。exit / Ctrl-D で戻る、help で一覧）	Shell (csh alt çoxluğu. exit / qayıtmaq üçün Ctrl-D, kömək əmrləri siyahıya alır)
+ui	一覧と移動	Siyahı və hərəkət
+ui	ファイルの操作	Fayl əməliyyatları
+ui	画面と機器	Ekran və cihazlar
+ui	ビュアーとエディタ	İzləyicilər və redaktor
+ui	ヘルプ  %u / %u  %s	Kömək %u / %u %s
+ui	Left Right: ページを替える    F1 / ESC: 閉じる	Sol Sağ: səhifəni dəyişdirin F1 / ESC: bağlayın
+ui	sgnano を再起動しますか？	Sgnano yenidən başlasın?
+ui	[ 再起動 ]	[Yenidən başladın]
+ui	[ キャンセル ]	[ Ləğv et ]
+ui	S: ドライブのエラー検査	S: sürücüsünü səhvlər üçün yoxlayın
+ui	ファイル %lu  フォルダ %lu	Fayllar %lu qovluqlar %lu
+ui	大きさが鎖と合わない	Ölçü zəncirə uyğun gəlmir
+ui	どこからも使われていないクラスタ	Heç bir şey tərəfindən istifadə edilən klasterlər
+ui	重なったクラスタ	Çapraz bağlı klasterlər
+ui	壊れた項目	Qırılmış girişlər
+ui	FAT の 2 つの写しの食い違い	İki FAT nüsxəsi fərqlidir
+ui	エラーはありません。	Səhv yoxdur.
+ui	エラーが見つかりました。修復しますか？	Səhvlər tapıldı. Onları təmir etmək?
+ui	修復しました（上は直した数）。	Təmir olunub (yuxarıdakı nömrələr düzəldilib).
+ui	検査・修復できませんでした（S: が使用中）。	Yoxlamaq və ya təmir etmək mümkün olmadı (S: məşğuldur).
+ui	[ 修復する ]	[ Təmir ]
+ui	[ やめる ]	[ Ləğv et ]
+ui	何かキーで閉じる	İstənilən açar bağlanır
+ui	設定	Parametrlər
+ui	表示の言語	Ekran dili
+ui	キーボードロケール	Klaviatura dili
+ui	Up / Down  Enter 決める  ESC やめる	Yuxarı / Aşağı Enter ESC ləğv seçin
+ui	表示の言語 (Language)	Ekran dili
+ui	Up / Down  Enter 決める  ESC 戻る	Yuxarı / Aşağı Daxil edin: ESC təyin edin: geri
+ui	%c: をどの文字に固定しますか（A〜Z、S を除く。ESC でやめる）	Düzəlt %c: hansı hərf kimi? (S. ESC istisna olmaqla, A-Z ləğv edilir)
+ui	ドライブ  文字 / Enter 選ぶ  F2 文字を固定・解除  F3 文字を決めて固定  L / ESC やめる	Sürücü məktubu / Daxil edin F2-ni seçin F3 hərfini düzəldin/açın... L / ESC ləğv edin
+ui	  区画 %u	bölmə %u
+ui	%c:* （固定・つながっていません）%04X:%04X%s  %s	%c:* (sabit, bağlı deyil) %04X:%04X%s %s
+ui	お知らせ	Xəbərdarlıq
+ui	ドライブ %c:  %s	Sürücü %c: %s
+ui	ドライブ  (なし)	Sürücü (heç biri)
+ui	音楽 CD  %u トラック	Audio CD %u treklər
+ui	フォルダ %u  ファイル %u  合計 %s	Qovluqlar %u fayllar %u cəmi %s
+ui	読んでいます...	Oxuyur...
+ui	* 印 %u 個  %s	* işarələnmiş %u %s
+ui	%lu バイト	%lu bayt
+ui	属性 %s   更新日時 %s   作成日時 %s   %s	Attr %s dəyişdirilmiş %s yaradılmış %s %s
+ui	日	Günəş
+ui	月	Bazar ertəsi
+ui	火	Çərşənbə axşamı
+ui	水	Çərşənbə
+ui	木	Cr
+ui	金	Cümə
+ui	土	şənbə
+ui	時計は合わせていません（LAN の NTP）	Saat təyin edilməyib (LAN üzərindən NTP)
+ui	FB  表示 %u  書込 %u	FB ekranı %u yazın %u
+ui	1 ヘルプ	1 Kömək
+ui	2 実行	2 Qaçış
+ui	3 ｺﾋﾟｰ	3 Copy
+ui	4 削除	4 Del
+ui	5 名前	5 Rename
+ui	7 FB消去	7 FBclr
+ui	8 FB減光	8 FBdim
+ui	9 ﾄﾞﾗｲﾌﾞ	9 Sür
+ui	10 EP表	10 EP
+ui	11 時計	11 Saat
+ui	12 表計	12 KALK
+ui	1 属性	1 Attr
+ui	2 情報	2 Info
+ui	3 移動	3 Move
+ui	5 作成	5 Mkdir
+ui	6 シェル	6 Qabıq
+ui	8 編集	8 Edit
+ui	9 表示	9 Baxış
+ui	10S:検査	10 S:çk
+ui	11 ﾄﾗｯｸ	11 TREK
+ui	12再起動	12Reboot
+ui	1 新規	1 Yeni
+ui	2 ﾌｫﾙﾀﾞ	2 Qovluq
+ui	3 名前	3 Rename
+ui	4 属性	4 Attrib
+ui	6 ｺﾋﾟｰ	6 Copy
+ui	7 移動	7 Move
+ui	8 削除	8 Sil
+ui	9 編集	9 Edit
+ui	10ｺﾝﾊﾟｲﾙ	10 mrbc
+ui	11 分割	11 bölün
+ui	12 結合	12 Join
+ui	1 属性例	1 Attr
+ui	2 FB切替	2 FB
+ui	3 文字面	3 Mətn
+ui	5 画面写	5 ScrSht
+ui	6 表示頁	6 DispPg
+ui	9 ZM受信	9 ZMrecv
+ui	10ZM送信	10ZMsend
+ui	2 FB消去	2 FBClr
+ui	3 FB減光	3 FBDim
+ui	5 再読込	5 Reload
+ui	7 16進	7 Hex
+ui	9 ﾗｲｾﾝｽ	9 Lic
+ui	8 設定	11 Setup
+ui	時刻を合わせる（日本時間。NTP で合わせられませんでした）	Saatı təyin edin (Yaponiya vaxtı. NTP onu təyin edə bilmədi)
+ui	起動のパラメタ	Parametrlərlə işləyin
+ui	新しいフォルダ	Yeni qovluq
+ui	新しいファイル	Yeni fayl
+ui	時刻:	Vaxt:
+ui	実行:	Qaçış:
+ui	名前:	Adı:
+ui	年-月-日 時:分  Enter 合わせる  ESC そのまま	YYYY-AA-GG ss:mm ESC saxlama dəstini daxil edin
+ui	Enter 走らせる  ←→ 動かす  BS / Del 消す  ESC やめる	Daxil edin run <-> hərəkət BS / Del sil ESC ləğv
+ui	Enter 変える  ←→ 動かす  BS / Del 消す  ESC やめる	Adını dəyişdirin <-> BS köçürün / Sil ESC ləğv edin
+ui	Enter 作る  ←→ 動かす  BS / Del 消す  ESC やめる	Daxil edin yaratmaq <-> hərəkət BS / Del sil ESC ləğv et
+ui	消す	Sil
+ui	個の項目	maddələr
+ui	フォルダは中身ごと消します。よろしいですか？	Qovluqlar məzmunu ilə birlikdə silinir. əminsən?
+ui	このファイルを消しますか？	Bu fayl silinsin?
+ui	（元に戻せません。フォルダの中のファイルも消えます）	(Bu, geri qaytarıla bilməz. Qovluqlardakı fayllar da silinir)
+ui	[ はい (Y) ]	[ Bəli (Y) ]
+ui	[ いいえ (N) ]	[ Xeyr (N) ]
+ui	バイナリビュアー: ファイルを選んでください	hex görüntüleyici: fayl seçin
+ui	テキストビュアー: ファイルを選んでください	mətn görüntüləyicisi: fayl seçin
+ui	移動先	-a köçürün
+ui	コピー先	kopyalayın
+ui	バッファがいっぱいです (buffer full)	Bufer doludur
+ui	読み出し専用のドライブです (read-only)	Sürücü yalnız oxunur
+ui	保存できません (no writer)	Saxlamaq mümkün deyil (yazıçı yoxdur)
+ui	保存を始められません (the drive is busy?)	Yaddaşa başlamaq mümkün olmadı (sürücü məşğuldur?)
+ui	保存しています... (saving)	Yadda saxlanılır...
+ui	2 保存	2 Saxla
+ui	5 色分け	5 Rəng
+ui	6 ﾞ	6 Hira
+ui	7 ｶﾀｶﾅ	7 Kat
+ui	8 予測	8 Pred
+ui	10 終了	10 Çıxın
+ui	1 先頭	1 Üst
+ui	2 最後	2 Son
+ui	3 挿/上	3 InsOvr
+ui	4 辞書	4 Dikt
+ui	6 半	6 HHira
+ui	7 半ｶﾅ	7 HKata
+ui	 %s  %s  行 %lu/%lu 桁 %u  %s  %s %s%s%s	%s %s Ln %lu/%lu Col %u %s %s %s%s%s
+ui	*変更	*mod
+ui	上書	OVR
+ui	挿入	INS
+ui	  読出専用	R/O
+ui	 エディタ (sgnano edit)                      F1 / ESC で閉じる	Redaktor (sgnano redaktə) F1 / ESC bağlanır
+ui	 矢印 / Home End / PgUp PgDn   カーソルを動かす	Oklar / Home End / PgUp PgDn kursoru hərəkət etdirin
+ui	 Ctrl-T / Ctrl-B               ファイルの先頭 / 最後	Ctrl-T / Ctrl-B faylın yuxarı / sonu
+ui	 BS / Del                      前の字 / カーソルの字を消す	BS / Sil kursordan əvvəl / sil
+ui	 Enter                         改行（前の行の字下げを引き継ぐ）	Yeni sətir daxil edin (absorbsiyanı saxlayır)
+ui	 Tab / Ins                     タブ / 挿入と上書きの切り替え	Tab / Ins nişanı / daxil edin və ya üzərinə yazın
+ui	 F5                            色分け（拡張子から。C/C++・mruby・MicroPython・SG BASIC・なし）	F5 Coloring (uzatmadan; C/C++, mruby, MicroPython, SG BASIC, heç biri)
+ui	 F2  (Ctrl-S)                  保存（UTF-8、改行は元の形）	F2 (Ctrl-S) saxla (UTF-8, sətir ucları saxlanılır)
+ui	 F10 / ESC                     閉じる（変更があれば聞く）	F10 / ESC qapalı (dəyişiklik olub olmadığını soruşur)
+ui	 IME:  Ctrl-Space / F12        オン・オフ（あ / A）	IME: Ctrl-Space / F12 yandır / söndür (あ / A)
+ui	       F9                      IME の言語（このエディタの間だけ。閉じると戻る）	F9 IME dili (yalnız bu redaktor; yaxından bərpa olunur)
+ui	       F8                      日本語の予測変換 オン・オフ	F8 Yapon proqnozlaşdırıcı konversiyasını yandır/söndür
+ui	       日本語                  ローマ字 -> ひらがな（F6）・カタカナ（F7）	Yapon romaji -> hiragana (F6) / katakana (F7)
+ui	                               半角ひらがな（Shift+F6）・半角カタカナ（Shift+F7）	Yarım enli hiragana (Shift+F6) / yarım enli katakana (Shift+F7)
+ui	                               2 字以上で予測、Space で連文節変換	2 və ya daha çox simvol ilə proqnozlaşdırın, Boşluq ilə davamlı bəndi çevirin
+ui	       English                 2 字以上で予測補完	İngilis dili 2 və ya daha çox simvol ilə proqnozlaşdırılan tamamlama
+ui	       한국어                  2 ボル式ハングル	2 Bol tipli Hanqul
+ui	       Space / Enter           変換 / 確定	Boşluq / Convert / Təsdiq edin
+ui	       ← →                    文節を選ぶ	← → İfadə seçin
+ui	       Shift+← →               文節の右端を 1 字 縮/拡（候補を出し直す）	Shift+← → bəndin sağ ucunu bir simvolla daralt/böyüt (yeni namizədlər)
+ui	       ↑ ↓ / Tab               候補の窓で前 / 次の候補（窓は変換の下、画面の下では上）	↑ ↓ / Tab Əvvəlki / popupda növbəti namizəd (mətnin altında, yuxarıda aşağıya yaxın)
+ui	       →→→ で Enter            すべての候補（2 列 x 8 個、← → で列とページ、Enter で決める）	Daxil edin →→→ Bütün namizədlər (2 x 8, ← → sütun və səhifə, Enter seçir)
+ui	       Enter                   次の文節へ（最後の文節で全体を確定）	Sonrakı bəndi daxil edin (son bənddə bütövü təsdiqləyir)
+ui	       Ctrl-U                  いまの語をユーザー辞書へ	Ctrl-U İstifadəçi lüğətinə cari sözü əlavə edin
+ui	 Shift+F1 / F2 / F3 / F4       先頭 / 最後 / 挿入と上書き / ユーザー辞書へ	Shift+F1 / F2 / F3 / F4 Yuxarı / son / daxil et-üzerinə yaz / istifadəçi lüğətinə
+ui	       BS / ESC                1 字戻す / 取り消し	BS / ESC Bir simvol geri qayıt / Ləğv et
+ui	       , . - [ ] /             、 。 ー 「 」 ・	, . - [ ] / 、 。 ー 「 」 ・
+ui	変更あり  Y: 保存して閉じる  N: 保存せず閉じる  ESC: 戻る	Dəyişdirilmiş Y: saxla və bağla N: saxlamadan bağla ESC: geri
+ui	[予測] Tab/↑↓: 候補  Space: 変換  Esc: 取消	[Proqnoz] Tab/↑↓: namizəd Boşluq: çevirmək Esc: ləğv
+ui	[候補] ↑↓: 選ぶ  ←→: 列・ページ  Enter: 決める	[Namizədlər] ↑↓: seçin ←→: sütun/səhifə Daxil edin: seçin
+ui	[変換] ↑↓候補 ←→文節 Shift+←→区切り Enter次へ	[Convert] ↑↓cand ←→bənd Shift+←→bound Sonrakı daxil edin
+ui	[한국어] Tab/↑↓: 候補  Enter/Space: 確定	[한국어] Tab/↑↓: namizəd Daxil edin/Boşluq: təsdiqləyin
+ui	[English] Tab/↑↓: 候補  Enter: 確定	[İngilis dili] Tab/↑↓: namizəd Daxil edin: təsdiqləyin
+ui	2ボル式ハングル入力  Ctrl-Space: 英数	2-dəst Hangul girişi Ctrl-Space: alfasayısal
+ui	予測補完  Ctrl-Space: 直接入力	Proqnozlaşdırılmış tamamlama Ctrl-Space: birbaşa daxiletmə
+ui	辞書なし: ひらがな/カタカナ入力のみ  F6/F7	Lüğət yoxdur: yalnız hiragana/katakana F6/F7
+ui	Space: 変換  F7: カタカナ  Ctrl-Space: 英数	Boşluq: çevirmək F7: katakana Ctrl-Boşluq: alfasayısal
+ui	Space: 変換  F6: ひらがな  Ctrl-Space: 英数	Boşluq: çevirmək F6: hiragana Ctrl-Boşluq: alfasayısal
+ui	半角  F6: ひらがな  F7: カタカナ  Shift+F6/F7: 半角	Yarım eni F6: hiragana F7: katakana Shift+F6/F7: yarım
+ui	IME オフ	IME söndürülür
+ui	 予測	proqnozlaşdırmaq
+ui	日本語の予測変換: オン	Proqnozlaşdırılan Yapon tərcüməsi: On
+ui	日本語の予測変換: オフ	Yapon dili üçün proqnozlaşdırıcı tərcümə: Off
+ui	日本語IMEで使います	Yapon IME ilə istifadə edin
+ui	ユーザー辞書に追加できません	İstifadəçi lüğətinə əlavə etmək mümkün deyil
+ui	色分け: %s	Rəngləmə: %s
+ui	読み込んでいます... (loading)	Yüklənir...
+ui	読み込めませんでした (could not read)	Faylı oxumaq mümkün olmadı
+ui	%lu 行%s%s	%lu xətlər%s%s
+ui	  Shift_JIS を UTF-8 で開きました（保存は UTF-8）	Shift_JIS-i UTF-8 olaraq açdı (UTF-8 olaraq yadda saxlanıldı)
+ui	  読み出し専用	yalnız oxumaq üçün
+ui	保存しました (saved)	Saxlandı
+ui	保存できませんでした (write failed)	Yadda saxlamaq mümkün olmadı (yazmaq alınmadı)
+ui	候補	Namizədlər
+ui	7 書込頁	7 WrtPg
+ui	9 ﾃｷｽﾄ	9 Mətn
+ui	9 ﾊﾞｲﾅﾘ	9 Hex
+ui	読み込み中 %lu%%  	Yüklənir %lu%%
+ui	（先頭だけ）  	(yalnız başlanğıc)
+ui	16 進  q ESC: 戻る  F1: ヘルプ	Hex q ESC: geri F1: kömək
+ui	テキスト  q ESC: 戻る  F1: ヘルプ	Mətn q ESC: geri F1: kömək
+ui	ビュアーのキー（less 風。テキストと 16 進で共通）	Viewer düymələri (daha az kimi; mətn və hex üçün eyni)
+ui	1 行進む	Bir xətt aşağı
+ui	1 行戻る	Bir sıra
+ui	1 ページ進む	Bir səhifə aşağı
+ui	1 ページ戻る	Bir səhifə yuxarı
+ui	半ページ進む / 戻る	Yarım səhifə aşağı/yuxarı
+ui	/文字列  ?文字列	/mətn ?mətn
+ui	下へ探す / 上へ探す（大文字小文字は区別しない）	Aşağı/yuxarı axtarın (hüquqlara məhəl qoymur)
+ui	次 / 前を探す	Növbəti / əvvəlki matç
+ui	16 進で表示する（いま見ている所のまま）	Hex kimi göstərin (eyni yerdə)
+ui	テキストで表示する（いま見ている所のまま）	Mətn kimi göstər (eyni yerdə)
+ui	色分けを替える（C/C++・mruby・MicroPython・SG BASIC・なし）	Rəngi ​​dəyişdirin (C/C++, mruby, MicroPython, SG BASIC, heç biri)
+ui	FB / テキスト面を出す・隠す	FB / mətni göstər / gizlət
+ui	FB の表示ページ / 書き込みページ	FB ekran səhifəsi/yazma səhifəsi
+ui	ファイラーへ戻る	Fayla qayıt
+ui	このヘルプを閉じる	Bu yardımı bağlayın
+ui	コピー	Kopyalayın
+ui	 %s: フォルダを読んでいます... %u 個	%s: qovluqların oxunması... %u
+ui	 %s: 行き先の空きを数えています...	%s: təyinat yerindəki boş yerin hesablanması...
+ui	 %s: 行き先の空きが足りません	%s: təyinat yerində kifayət qədər boş yer yoxdur
+ui	 移動: 元のフォルダを消しています	Köçürün: mənbə qovluqlarının silinməsi
+ui	終了しました	Bitdi
+ui	止まりました	Dayandı
+ui	 %s中%s	%s davam edir%s
+ui	（止めています）	(dayanmaq)
+ui	 元: %s	Kimdən: %s
+ui	 先: %s	Kimə: %s
+ui	 ファイル %u / %u 個  フォルダ %u 個  %s / %s  (%u%%)%s	Fayllar %u / %u qovluqlar %u %s / %s (%u%%)%s
+ui	  多すぎるので一部だけ	çox: yalnız bəziləri
+ui	 要る大きさ %s、空き %s。続けますか？	Ehtiyaclar %s, pulsuz %s. Davam edilsin?
+ui	 Y: 続ける   N / ESC: やめる	Y: davam et N / ESC: ləğv et
+ui	 何かキーを押すと閉じます	Bağlamaq üçün istənilən düyməni basın
+ui	 ESC: 止める	ESC: dayan
+ui	 %s: ←→ ドライブ  ↑↓ フォルダ  Space 開く・閉じる  Enter 決める  ESC やめる	%s: ←→ sürücü ↑↓ qovluğu Boşluq açın/bağlayın Daxil edin ESC ləğv et seçin
+ui	 読めません: %s	Oxuya bilmir: %s
+ui	 フォルダを読んでいます...（ESC で止める）  %u 個	Qovluqların oxunması... (ESC dayanır) %u
+ui	 フォルダ %u 個%s	%u qovluqlar%s
+ui	（多すぎるか深すぎるので、一部だけ）	(çox çox və ya çox dərin: yalnız bəziləri)
+ui	フォルダの展開を止めました	Qovluğu açmağı dayandırdı
+ui	Space で開き直せます。もう一度 ESC でやめます	Kosmos onu yenidən açır. ESC bir daha ləğv edir
+ui	 SMF / SGT プレイヤー   %s	SMF / SGT pleyer %s
+ui	 読み込んでいます... %lu / %lu バイト	Yüklənir... %lu / %lu bayt
+ui	 %s / %s   %s   ポート %u	%s / %s %s portlar %u
+ui	一時停止	Fasilə verildi
+ui	再生中	Oynamaq
+ui	 Space: 一時停止  m: MIDI OUT  q / ESC: 止める	Boşluq: fasilə m: MIDI OUT q / ESC: dayandırın
+ui	 q / ESC: やめる	q / ESC: ləğv edin
+ui	フォント ROM のライセンスとクレジット\n\nROM: %s（版 %lu.%lu、%lu 文字、フラッシュの 0x%08lX から）\n\n	Font ROM lisenziyaları və kreditləri\n\nROM: %s (versiya %lu.%lu, %lu simvol, flaşda 0x%08lX-dən)
+ui	== 収めているフォント（ROM の出所の表）==\n	== ROM-dakı şriftlər (ROM-un mənşə cədvəli) ==
+ui	  （表が無い ROM）\n	(ROM-da cədvəl yoxdur)
+ui	\n== ROM のクレジットの区画 ==\n\n	== ROM-un kredit sahəsi ==
+ui	（区画が無い）\n	(belə sahə yoxdur)
+ui	\n== 組み込んだソフトウェアのライセンス ==\n	== Daxili proqram təminatının lisenziyaları ==
+ui	 %s を PNG で保存   %s	%s PNG %s kimi yadda saxlayın
+ui	画面	Ekran
+ui	 組み立てています... %lu / %lu 行	Bina... %lu / %lu sıra
+ui	 書いています... %lu / %lu KB（FB は隠しています）	Yazılır... %lu / %lu KB (FB gizlidir)
+ui	書けませんでした	Yaza bilmədim
+ui	書庫の名前（印の付いた項目、無ければカーソルの項目を入れる）	Arxiv adı (işarələnmiş elementlər, yoxsa kursor elementi)
+ui	Enter 圧縮する  ←→ 動かす  BS / Del 消す  ESC やめる	Kompressi daxil edin ←→ BS-ni köçürün / Del silin ESC ləğv edin
+ui	WAV 書き出し: %s 中止（%s）	WAV ixracı: %s ləğv edildi (%s)
+ui	WAV 書き出し: %s 失敗（%s）	WAV ixracı: %s uğursuz (%s)
+ui	WAV 書き出し: %s 合計 %s	WAV ixracı: %s cəmi %s
+ui	 WAV 書き出し（96kHz / 24bit）: %s	WAV ixracı (96kHz / 24bit): %s
+ui	中止しました	Ləğv edildi
+ui	失敗しました	Uğursuz oldu
+ui	 合計 %s	Cəmi %s
+ui	 中止しました（%s。半端なファイルは消しました）	Ləğv edildi (%s; qismən fayl silindi)
+ui	 書き出せませんでした（%s）。理由:	İxrac etmək mümkün olmadı (%s). Səbəb:
+ui	 （理由は分かりません）	(səbəbi bilinmir)
+ui	 %u%%   経過 %s%s	%u%% keçdi %s%s
+ui	 ESC: 止める（半端なファイルは消します）	ESC: dayandır (fayl qismən silinir)
+ui	書庫: %s	Arxiv: %s
+ui	読み込み中…（ESC でやめる）	Oxuyur... (ləğv etmək üçün ESC)
+ui	 %u 項目%s  合計 %s バイト  展開先: %s	%u maddələr%s cəmi %s bayt çıxarış: %s
+ui	 Enter 項目を展開  X 全部を展開  ↑↓ 動かす  ESC 閉じる	X çıxarış elementini daxil edin, hamısını çıxarın ↑↓ ESC-ni bağlayın
+ui	圧縮	Kompress
+ui	一覧	Siyahı
+ui	展開	Çıxarış
+ui	 合計 %s   %u 項目	Cəmi %s %u maddələr
+ui	 合計 %s   %u ファイル	Cəmi %s %u fayl
+ui	 中止しました（%s。書きかけのファイルは消しました）	Ləğv edildi (%s; tamamlanmamış fayl silindi)
+ui	 できませんでした（%s）: %s	Edə bilmədi (%s): %s
+ui	 %u%%   経過 %s   %s バイト%s	%u%% keçdi %s %s bayt%s
+ui	 経過 %s   %s バイト%s	keçən %s %s bayt%s
+ui	 ESC: 止める（書きかけのファイルは消します）	ESC: dayandırın (yarımçıq fayl silinir)
+ui	書庫: %s 失敗（%s）	Arxiv: %s alınmadı (%s)
+ui	圧縮: %s（%u 項目）	Sıxılmış: %s (%u maddələr)
+ui	展開: %s（%u ファイル）	Çıxarılan: %s (%u fayllar)
+msg.phrase	the drive went away	sürücü getdi
+msg.phrase	reading the partitions again...	arakəsmələri yenidən oxumaq...
+msg.phrase	could not open the volume (no memory?)	səsi aça bilmədi (yaddaş yoxdur?)
+msg.phrase	opening the volume...	səsi açır...
+msg.phrase	no memory for the file list	fayl siyahısı üçün yaddaş yoxdur
+msg.phrase	reading the directory... (retrying)	kataloqu oxuyur... (yenidən cəhd edilir)
+msg.phrase	could not read the directory	kataloqu oxuya bilmədi
+msg.phrase	reading the directory...	kataloqu oxuyur...
+msg.phrase	the drive did not answer -- reading the partitions again	sürücü cavab vermədi - arakəsmələri yenidən oxuyun
+msg.phrase	could not read the directory (not FAT12/16/32?)	kataloqu oxuya bilmədi (FAT12/16/32 deyil?)
+msg.phrase	too many entries -- showing the first ones	həddən artıq çox giriş -- birinciləri göstərir
+msg.phrase	no file system found on this partition	bu bölmədə heç bir fayl sistemi tapılmadı
+msg.phrase	the path is too long	yol çox uzundur
+msg.phrase	joining...	qoşulur...
+msg.phrase	splitting...	parçalanma...
+msg.phrase	renaming...	adının dəyişdirilməsi...
+msg.phrase	creating the folder...	qovluğu yaratmaq...
+msg.phrase	creating the file...	faylın yaradılması...
+msg.phrase	deleting...	silinir...
+msg.phrase	writing the attributes...	atributların yazılması...
+msg.phrase	the drive is busy	sürücü məşğuldur
+msg.phrase	busy	məşğul
+msg.phrase	choose files or folders	faylları və ya qovluqları seçin
+msg.phrase	choose files or folders (not "..")	faylları və ya qovluqları seçin (".." deyil)
+msg.phrase	stop the CD first	əvvəlcə CD-ni dayandırın
+msg.phrase	the CD cannot be changed (copy instead)	CD dəyişdirilə bilməz (əvəzinə kopyalayın)
+msg.phrase	a system folder cannot be moved	sistem qovluğu köçürülə bilməz
+msg.phrase	no drive can be written (FAT / exFAT / NTFS only)	heç bir sürücü yazıla bilməz (yalnız FAT / exFAT / NTFS)
+msg.phrase	the drive is gone	sürücü getdi
+msg.phrase	nothing chosen	heç nə seçilməyib
+msg.phrase	nothing selected	heç nə seçilməyib
+msg.phrase	could not start	başlaya bilmədi
+msg.phrase	could not open	aça bilmədi
+msg.phrase	only on a FAT / exFAT / NTFS drive	yalnız FAT / exFAT / NTFS sürücüsündə
+msg.phrase	no name	adı yoxdu
+msg.phrase	that name already exists	bu ad artıq mövcuddur
+msg.phrase	could not start (bad name or the drive is busy)	başlaya bilmədi (pis ad və ya sürücü məşğuldur)
+msg.phrase	could not start (the drive is busy)	başlaya bilmədi (sürücü məşğuldur)
+msg.phrase	the name cannot have / or \\ (only inside this folder)	adda / və ya \\ ola bilməz (yalnız bu qovluqda)
+msg.phrase	the name is the same	adı eynidir
+msg.phrase	the item is read-only (A to change)	element yalnız oxunur (dəyişmək üçün A)
+msg.phrase	choose a .rb file on a writable drive	yazıla bilən diskdə .rb faylı seçin
+msg.phrase	choose a .rb file	.rb faylı seçin
+msg.phrase	the drive is read-only	sürücü yalnız oxumaq üçündür
+msg.phrase	choose a folder on a writable drive	yazıla bilən sürücüdə bir qovluq seçin
+msg.phrase	wait a moment	bir an gözləyin
+msg.phrase	choose a file	fayl seçin
+msg.phrase	choose a file (not a folder)	fayl seçin (qovluq deyil)
+msg.phrase	choose a .001 file	.001 faylı seçin
+msg.phrase	choose the .001 file	.001 faylını seçin
+msg.phrase	put the IWAD in a DoomFiles or Doom2Files folder	IWAD-ı DoomFiles və ya Doom2Files qovluğuna qoyun
+msg.phrase	DoomFiles takes freedoom1 / doom / doomu / doom1.wad	DoomFiles freedoom1 / doom / doomu / doom1.wad alır
+msg.phrase	Doom2Files takes freedoom2 / doom2 / plutonia / tnt.wad	Doom2Files freedoom2 / doom2 / plutonia / tnt.wad alır
+msg.phrase	put the game files on external storage, not S:	oyun fayllarını S deyil, xarici yaddaşa qoyun:
+msg.phrase	the IWAD must be on a FAT / exFAT / NTFS drive (not a CD)	IWAD FAT / exFAT / NTFS sürücüsündə olmalıdır (CD deyil)
+msg.phrase	still working	hələ də işləyir
+msg.phrase	an image is loading	şəkil yüklənir
+msg.phrase	no framebuffer	çərçivə buferi yoxdur
+msg.phrase	half brightness works only in RGB555	yarım parlaqlıq yalnız RGB555-də işləyir
+msg.phrase	clearing...	təmizləmə...
+msg.phrase	halving the brightness...	parlaqlığı yarıya endirmək...
+msg.phrase	that is a data track	bu məlumat izidir
+msg.phrase	wait -- a file is being written	gözləyin -- fayl yazılır
+msg.phrase	only floppy / LS-120 / CD drives	yalnız disket / LS-120 / CD sürücüləri
+msg.phrase	requested	xahiş etdi
+msg.phrase	reading the disc...	diski oxuyur...
+msg.phrase	stopping...	dayanmaq...
+msg.phrase	opening...	açılış...
+msg.phrase	done	edildi
+msg.phrase	no memory	yaddaş yoxdur
+msg.phrase	already open	artıq açıqdır
+msg.phrase	already running	artıq qaçır
+msg.phrase	already saving	artıq qənaət edir
+msg.phrase	already playing	artıq oynayır
+msg.phrase	no such drive	belə sürücü yoxdur
+msg.phrase	no PSRAM	PSRAM yoxdur
+msg.phrase	no PSRAM for the file	fayl üçün PSRAM yoxdur
+msg.phrase	no PSRAM for the line index	xətt indeksi üçün PSRAM yoxdur
+msg.phrase	no PSRAM for the terminal	terminal üçün PSRAM yoxdur
+msg.phrase	no memory (PSRAM)	yaddaş yoxdur (PSRAM)
+msg.phrase	no memory (32KB SRAM)	yaddaş yoxdur (32KB SRAM)
+msg.phrase	no memory for the buffer	bufer üçün yaddaş yoxdur
+msg.phrase	no memory for the image buffers	şəkil buferləri üçün yaddaş yoxdur
+msg.phrase	no memory for the read buffer	oxumaq buferi üçün yaddaş yoxdur
+msg.phrase	no room for the work memory (close the lowres plane?)	iş yaddaşı üçün yer yoxdur (aşağı müstəvini bağlayın?)
+msg.phrase	no framebuffer page	çərçivə bufer səhifəsi yoxdur
+msg.phrase	too large (4 MB at most)	çox böyük (ən çox 4 MB)
+msg.phrase	the file is too large (1 MB at most)	fayl çox böyükdür (ən çox 1 MB)
+msg.phrase	the file is too large (1 MB max)	fayl çox böyükdür (maks. 1 MB)
+msg.phrase	too large for an SMF (1MB at most)	SMF üçün çox böyük (ən çox 1MB)
+msg.phrase	the file is empty	fayl boşdur
+msg.phrase	could not open the file	faylı aça bilmədi
+msg.phrase	could not read the file	faylı oxuya bilmədi
+msg.phrase	could not open the volume	səsi aça bilmədi
+msg.phrase	could not open the destination (no memory?)	təyinatı aça bilmədi (yaddaş yoxdur?)
+msg.phrase	could not read the root folder	kök qovluğu oxuya bilmədi
+msg.phrase	could not start the task	tapşırığa başlaya bilmədi
+msg.phrase	could not start writing (bad name or busy)	yazmağa başlaya bilmədi (pis ad və ya məşğul)
+msg.phrase	another volume is open (busy)	başqa cild açıqdır (məşğul)
+msg.phrase	a copy is running	surəti işləyir
+msg.phrase	a folder cannot go into itself	qovluq özünə daxil ola bilməz
+msg.phrase	that is the same folder	bu eyni qovluqdur
+msg.phrase	this drive cannot be changed (read only)	bu disk dəyişdirilə bilməz (yalnız oxumaq üçün)
+msg.phrase	the drive is not writable	sürücü yazılmır
+msg.phrase	the part size must be a multiple of 512	hissənin ölçüsü 512-yə çox olmalıdır
+msg.phrase	files of 4 GB or more are not supported	4 GB və ya daha çox olan fayllar dəstəklənmir
+msg.phrase	bad path	pis yol
+msg.phrase	bad file name	pis fayl adı
+msg.phrase	the font ROM is not there	şrift ROMu orada deyil
+msg.phrase	the sound is not open	səs açıq deyil
+msg.phrase	no such channel	belə kanal yoxdur
+msg.phrase	the sequencer is busy	sequencer məşğuldur
+msg.phrase	not enough PSRAM for the song	mahnı üçün PSRAM kifayət deyil
+msg.phrase	not a standard MIDI file (no MThd)	standart MIDI faylı deyil (MThd yoxdur)
+msg.phrase	no tracks	iz yoxdur
+msg.phrase	a track is broken (MTrk)	trek pozuldu (MTrk)
+msg.phrase	SMPTE time division is not supported	SMPTE vaxt bölgüsü dəstəklənmir
+msg.phrase	SMF format 2 is not supported (0 and 1 only)	SMF formatı 2 dəstəklənmir (yalnız 0 və 1)
+msg.phrase	not a Bulk-Only drive	Yalnız toplu sürücü deyil
+msg.phrase	not an optical drive	optik sürücü deyil
+msg.phrase	a system folder cannot be deleted or renamed	sistem qovluğunu silmək və ya adını dəyişmək mümkün deyil
+msg.phrase	no media in the drive	sürücüdə media yoxdur
+msg.phrase	becoming ready	hazırlaşır
+msg.phrase	not ready	hazır deyil
+msg.phrase	media changed	media dəyişdi
+msg.phrase	medium error	orta səhv
+msg.phrase	illegal request	qanunsuz tələb
+msg.phrase	a bad directory entry	pis kataloq girişi
+msg.phrase	a directory on the way does not exist	yolda bir kataloq mövcud deyil
+msg.phrase	a file has that name	faylın bu adı var
+msg.phrase	a folder has that name	qovluğun belə adı var
+msg.phrase	a name on the way is not a directory	yolda bir ad bir kataloq deyil
+msg.phrase	cancelled	ləğv edildi
+msg.phrase	could not mount	minə bilmədi
+msg.phrase	could not start a read	oxumağa başlaya bilmədi
+msg.phrase	could not start a write	yazmağa başlaya bilmədi
+msg.phrase	is a directory	kataloqdur
+msg.phrase	that is a directory	bu bir kataloqdur
+msg.phrase	no clusters	klasterlər yoxdur
+msg.phrase	no room for the cluster list	klaster siyahısı üçün yer yoxdur
+msg.phrase	no such file or directory	belə fayl və ya qovluq yoxdur
+msg.phrase	no such file	belə fayl yoxdur
+msg.phrase	no volume	həcmi yoxdur
+msg.phrase	not NTFS	NTFS deyil
+msg.phrase	not exFAT	exFAT deyil
+msg.phrase	not a directory	kataloq deyil
+msg.phrase	not found	tapılmadı
+msg.phrase	read error	oxu xətası
+msg.phrase	write error	yazma xətası
+msg.phrase	reading the FAT failed	FAT oxumaq uğursuz oldu
+msg.phrase	the cluster chain is shorter than the file	klaster zənciri fayldan daha qısadır
+msg.phrase	the directory is not empty	kataloq boş deyil
+msg.phrase	the disk is full	disk doludur
+msg.phrase	the drive did not answer	sürücü cavab vermədi
+msg.phrase	the file is read-only	fayl yalnız oxumaq üçündür
+msg.phrase	the file is too fragmented	fayl çox parçalanmışdır
+msg.phrase	the file is too large (4GB)	fayl çox böyükdür (4 GB)
+msg.phrase	the new name already exists	yeni ad artıq mövcuddur
+msg.phrase	the root directory is full	kök kataloqu doludur
+msg.phrase	too many files with the same short name	eyni qısa ada malik çoxlu fayl
+msg.phrase	No such file or directory	Belə bir fayl və ya kataloq yoxdur
+msg.phrase	File exists	Fayl mövcuddur
+msg.phrase	Permission denied	İcazə rədd edildi
+msg.phrase	Directory not empty	Kataloq boş deyil
+msg.phrase	Not a directory	Kataloq deyil
+msg.phrase	Is a directory	kataloqdur
+msg.phrase	Read-only file system	Yalnız oxumaq üçün fayl sistemi
+msg.phrase	No space left on device	Cihazda yer qalmayıb
+msg.phrase	Input/output error	Giriş/çıxış xətası
+msg.phrase	Not supported on this drive	Bu diskdə dəstəklənmir
+msg.phrase	Invalid path	Yanlış yol
+msg.phrase	Out of memory	Yaddaş tükəndi
+msg.phrase	No such drive	Belə sürücü yoxdur
+msg.phrase	stopped	dayandı
+msg.phrase	cancelled (not enough free space)	ləğv edildi (kifayət qədər boş yer yoxdur)
+msg.phrase	could not count the free space	boş yeri saya bilmədi
+msg.phrase	the receiver cancelled	qəbuledici ləğv edildi
+msg.phrase	no receiver (run rz on the PC)	qəbuledici yoxdur (PC-də rz-ni işə salın)
+msg.phrase	the console UART is in use	UART konsolu istifadə olunur
+msg.phrase	the screen mode changed	ekran rejimi dəyişdi
+msg.phrase	the lines did not come (is the display running?)	xətlər gəlmədi (ekran işləyir?)
+msg.prefix	copy	surəti
+msg.prefix	move	hərəkət
+msg.prefix	delete	silin
+msg.prefix	rename	adını dəyişin
+msg.prefix	attributes	atributlar
+msg.prefix	new file	yeni fayl
+msg.prefix	new folder	yeni qovluq
+msg.prefix	image	şəkil
+msg.prefix	mrbc	mrbc
+msg.prefix	ruby	yaqut
+msg.prefix	viewer	tamaşaçı
+msg.prefix	edit	redaktə et
+msg.prefix	IDENTIFY	MÜƏYYƏNDİRİN
+msg.prefix	ZMODEM	ZMODEM
+msg.prefix	ZMODEM receive	ZMODEM qəbul edir
+msg.prefix	ZMODEM send	ZMODEM göndərin
+msg.prefix	split	bölün
+msg.prefix	join	qoşulun
+msg.prefix	Doom	Əzab
+msg.prefix	SMF	SMF
+msg.prefix	CD	CD
+msg.prefix	FB	FB
+msg.prefix	Eject	Çıxar
+msg.prefix	reboot	yenidən başladın
+msg.prefix	license	lisenziya
+msg.prefix	clock	saat
+msg.prefix	ADC in	ADC daxil
+msg.prefix	screen -> PNG	ekran -> PNG
+msg.prefix	FB -> PNG	FB -> PNG
+msg.prefix	could not open the volume	səsi aça bilmədi
+msg.pattern	received 	aldı %s
+msg.pattern	sent 	göndərildi %s
+msg.pattern	saved 	xilas oldu %s
+msg.pattern	created 	yaradılmışdır %s
+msg.pattern	renamed to 	olaraq adlandırıldı %s
+msg.pattern	deleted 	silindi %s
+msg.pattern	changed 	dəyişdi %s
+msg.pattern	joined 	qoşuldu %s
+msg.pattern	split 	bölün %s
+msg.pattern	could not create 	yarada bilmədi %s
+msg.pattern	could not delete 	silə bilmədi %s
+msg.pattern	could not rename to 	adını dəyişdirə bilmədi %s
+msg.pattern	could not change 	dəyişə bilmədi %s
+msg.pattern	could not read 	oxuya bilmirdi %s
+msg.pattern	could not write 	yaza bilmirdi %s
+msg.pattern	could not copy 	köçürə bilmədi %s
+msg.pattern	could not make 	edə bilmədi %s
+msg.pattern	could not remove the folder 	qovluğu silə bilmədi %s
+msg.pattern	could not remove 	silə bilmədi %s
+msg.pattern	no memory for 	üçün yaddaş yoxdur %s
+msg.pattern	too many errors while sending 	göndərərkən çoxlu səhvlər %s
+msg.pattern	the receiver did not take 	qəbuledici qəbul etmədi %s
+msg.pattern	the receiver skipped 	qəbuledici atladı %s
+msg.pattern	FB page 	FB səhifəsi %s
+msg.word	 bytes each)	hər biri bayt)
+msg.word	 bytes)	bayt)
+msg.word	 KB)	KB)
+msg.word	 parts into 	hissələrə daxil olur
+msg.word	 parts (	hissələri (
+msg.word	 into 	daxil
+msg.word	: cleared	: təmizləndi
+msg.word	: brightness halved	: parlaqlıq yarıya endirildi
+msg.word	% read	% oxu
+msg.word	 rows	sıralar
+msg.word	 -- not supported yet (FAT / exFAT / NTFS only)	-- hələ dəstəklənmir (yalnız FAT / exFAT / NTFS)
+msg.word	 files	fayllar
+msg.word	 (	(
+msg.phrase	Untitled	Başlıqsız
+msg.phrase	1 File	1 Fayl
+msg.phrase	2 Edit	2 Redaktə edin
+msg.phrase	3 Graph	3 Qrafik
+msg.phrase	4 Sheet	4 Vərəq
+msg.phrase	5 Help	5 Kömək
+msg.phrase	EMPTY	BOŞ
+msg.phrase	NUMBER	NUMBER
+msg.phrase	TEXT	MƏTN
+msg.phrase	FORMULA	FORMULA
+msg.phrase	Type to enter, F2 to edit, F1 for help	Daxil etmək üçün yazın, redaktə etmək üçün F2, kömək üçün F1
+msg.phrase	5 CSV	5 CSV
+msg.phrase	6 ODS	6 ODS
+msg.phrase	[SHIFT]	[SHIFT]
+msg.phrase	[CTRL]	[CTRL]
+msg.phrase	[ALT]	[ALT]
+msg.phrase	Ready	Hazır
+msg.phrase	SGCALC	SGCALC
+msg.phrase	Press any key	İstənilən düyməni basın
+msg.phrase	Y = yes    N = no    Esc = cancel	Y = bəli N = yox Esc = ləğv edin
+msg.phrase	Enter = OK    Esc = cancel    Ctrl-U = clear	Daxil edin = OK Esc = ləğv edin Ctrl-U = təmizləyin
+msg.phrase	First row/column = labels; charts use the 640x480 CLUT8 FB.	Birinci sətir/sütun = etiketlər; diaqramlarda 640x480 CLUT8 FB istifadə olunur.
+msg.phrase	SGCALC - HELP	SGCALC - HELP
+msg.phrase	Press any key to return	Geri qayıtmaq üçün istənilən düyməni basın
+msg.phrase	Press any key to return.	Geri qayıtmaq üçün istənilən düyməni basın.
+msg.phrase	ABOUT SGCALC	SGCALC HAQQINDA
+msg.phrase	New	Yeni
+msg.phrase	Start a new sheet	Yeni vərəqə başlayın
+msg.phrase	Open...	Açıq...
+msg.phrase	Open an ODS, FODS or CSV file	ODS, FODS və ya CSV faylını açın
+msg.phrase	Save	Saxla
+msg.phrase	Save the current file	Cari faylı yadda saxlayın
+msg.phrase	Save As...	Fərqli Saxla...
+msg.phrase	Save with a new name or format	Yeni ad və ya formatla yadda saxlayın
+msg.phrase	Export CSV...	CSV ixrac edin...
+msg.phrase	Write a CSV copy	CSV surətini yazın
+msg.phrase	Export ODS...	ODS ixrac edin...
+msg.phrase	Write a LibreOffice copy	LibreOffice surətini yazın
+msg.phrase	Quit	Çıxın
+msg.phrase	Leave SGCALC	SGCALC-ni tərk edin
+msg.phrase	Clear	Təmiz
+msg.phrase	Clear the selected cells	Seçilmiş hüceyrələri təmizləyin
+msg.phrase	Copy	Kopyalayın
+msg.phrase	Copy the selection	Seçimi kopyalayın
+msg.phrase	Paste	Yapışdırın
+msg.phrase	Paste at the cursor	Kursor üzərinə yapışdırın
+msg.phrase	Cut	kəsmək
+msg.phrase	Copy and clear the selection	Seçimi kopyalayın və silin
+msg.phrase	Select all	Hamısını seçin
+msg.phrase	Select all used cells	Bütün istifadə olunan xanaları seçin
+msg.phrase	Text color...	Mətn rəngi...
+msg.phrase	Choose the text colour	Mətnin rəngini seçin
+msg.phrase	Background...	Fon...
+msg.phrase	Choose the cell background	Hüceyrə fonunu seçin
+msg.phrase	Line	Xətt
+msg.phrase	Draw a line graph from the selection	Seçimdən xətt qrafiki çəkin
+msg.phrase	Bar	Bar
+msg.phrase	Draw a bar graph from the selection	Seçimdən bir bar qrafiki çəkin
+msg.phrase	Mixed	Qarışıq
+msg.phrase	Bars for the first series, lines for the rest	Birinci seriya üçün barlar, qalanları üçün xətlər
+msg.phrase	Pie	Piroq
+msg.phrase	Draw a pie graph from the selection	Seçimdən pasta qrafiki çəkin
+msg.phrase	Range...	Menzil...
+msg.phrase	Set the graph range explicitly	Qrafik diapazonunu açıq şəkildə təyin edin
+msg.phrase	Draw again	Yenidən çəkin
+msg.phrase	Redraw the last graph	Son qrafiki yenidən çəkin
+msg.phrase	Goto...	Get...
+msg.phrase	Jump to a cell (for example C12)	Xanaya keçin (məsələn, C12)
+msg.phrase	Column width...	Sütun eni...
+msg.phrase	Change the selected columns' width	Seçilmiş sütunların enini dəyişdirin
+msg.phrase	Row height...	Sıra hündürlüyü...
+msg.phrase	Change the selected rows' height	Seçilmiş sıraların hündürlüyünü dəyişdirin
+msg.phrase	Auto fit	Avtomatik uyğunlaşma
+msg.phrase	Fit widths/heights to the contents (F7)	Genişlikləri/hündürlükləri məzmuna uyğunlaşdırın (F7)
+msg.phrase	Recalculate	Yenidən hesablayın
+msg.phrase	Re-evaluate all formulas	Bütün düsturları yenidən qiymətləndirin
+msg.phrase	Erase all	Hamısını silin
+msg.phrase	Clear the whole sheet	Bütün vərəqi təmizləyin
+msg.phrase	Keys	Açarlar
+msg.phrase	Show the key guide	Əsas bələdçini göstərin
+msg.phrase	About	Haqqında
+msg.phrase	About SGCALC	SGCALC haqqında
+msg.phrase	File	Fayl
+msg.phrase	Edit	Redaktə et
+msg.phrase	Graph	Qrafik
+msg.phrase	Sheet	Vərəq
+msg.phrase	Help	Kömək edin
+msg.phrase	File: new, open, save, export, quit	Fayl: yeni, açın, saxla, ixrac edin, çıxın
+msg.phrase	Edit: clear, copy, paste, cut, select all	Redaktə edin: təmizləyin, kopyalayın, yapışdırın, kəsin, hamısını seçin
+msg.phrase	Graph: line, bar, mixed, pie (draws in the FB)	Qrafik: xətt, bar, qarışıq, pasta (FB-də çəkir)
+msg.phrase	Sheet: goto, column width, recalculate, erase	Vərəq: get, sütun eni, yenidən hesabla, sil
+msg.phrase	Help: keys and about	Kömək: açarlar və haqqında
+msg.phrase	Left/Right = menu    Up/Down = item    Enter = choose    Esc = cancel	Sol/Sağ = menyu Yuxarı/Aşağı = element Daxil edin = Esc seçin = ləğv edin
+msg.phrase	Cancelled	Ləğv edildi
+msg.phrase	The selection is too large or memory is low.	Seçim çox böyükdür və ya yaddaş azdır.
+msg.phrase	the cell	hüceyrə
+msg.phrase	the selection	seçim
+msg.phrase	Nothing to paste	Yapışdırmaq üçün heç bir şey yoxdur
+msg.phrase	Pasted	Yapışdırıldı
+msg.phrase	GO TO CELL	HƏYƏYƏYƏ GEDİN
+msg.phrase	Cell reference (A1):	Hüceyrə arayışı (A1):
+msg.phrase	Goto	Get
+msg.phrase	COLUMN WIDTH	SÜTUN ENI
+msg.phrase	Width in characters (4..30):	Simvollarda en (4..30):
+msg.phrase	ROW HEIGHT	SƏTİR HÜKÜMÜ
+msg.phrase	Height in text rows (1..8):	Mətn sətirlərində hündürlük (1..8):
+msg.phrase	Auto fit: the sheet is empty	Avtomatik uyğunlaşdırma: vərəq boşdur
+msg.phrase	BACKGROUND COLOUR	FON RƏNGİ
+msg.phrase	TEXT COLOUR	MƏTN RƏNGİ
+msg.phrase	Arrows: choose    Enter: apply    Esc: cancel	Oxlar: Enter seçin: tətbiq Esc: ləğv edin
+msg.phrase	Colour index (PC-98 16-colour palette)	Rəng indeksi (PC-98 16 rəng palitrası)
+msg.phrase	Aa 123	Aa 123
+msg.phrase	Enter = apply    Esc = cancel	Daxil edin = tətbiq edin Esc = ləğv edin
+msg.phrase	Colour	Rəng
+msg.phrase	Background	Fon
+msg.phrase	Text	Mətn
+msg.phrase	GRAPH RANGE	QRAF ARALIĞI
+msg.phrase	Range (for example A1:C10):	Aralıq (məsələn, A1:C10):
+msg.phrase	Graph range	Qrafik diapazon
+msg.phrase	Use a range such as A1:C10.	A1:C10 kimi diapazondan istifadə edin.
+msg.phrase	Cannot draw the graph.	Qrafiki çəkmək mümkün deyil.
+msg.phrase	line	xətt
+msg.phrase	bar	bar
+msg.phrase	mixed	qarışıq
+msg.phrase	pie	pasta
+msg.phrase	Clear every cell in this sheet?	Bu vərəqdəki hər xana silinsin?
+msg.phrase	Sheet erased	Vərəq silindi
+msg.phrase	Selected all used cells	Bütün istifadə edilən xanalar seçildi
+msg.phrase	Recalculated	Yenidən hesablanıb
+msg.phrase	Memory	Yaddaş
+msg.phrase	Not enough PSRAM for the spreadsheet.	Cədvəl üçün kifayət qədər PSRAM yoxdur.
+msg.phrase	The sheet is empty.	Vərəq boşdur.
+msg.phrase	No numeric data in the selected range.	Seçilmiş diapazonda rəqəmsal məlumat yoxdur.
+msg.phrase	Other	Digər
+msg.phrase	No positive values for a pie chart	Pasta diaqramı üçün müsbət dəyərlər yoxdur
+msg.phrase	LINE	XƏT
+msg.phrase	BAR	BAR
+msg.phrase	MIXED	QARŞIQ
+msg.phrase	PIE	PIE
+msg.phrase	S:/	S:/
+msg.phrase	Folder	Qovluq
+msg.phrase	SAVE AS	KİMİ YAXŞ EDİN
+msg.phrase	OPEN FILE	FAYI AÇIN
+msg.phrase	LibreOffice / CSV	LibreOffice / CSV
+msg.phrase	ODS  FODS  CSV	ODS FODS CSV
+msg.phrase	Name:	Adı:
+msg.phrase	(type a name, or choose below)	(ad yazın və ya aşağıda seçin)
+msg.phrase	Name	ad
+msg.phrase	Size	Ölçü
+msg.phrase	Enter=save  Left=up  Right/Enter on [DIR]=open  Tab=drive  Esc=cancel	Enter=save Sol=yuxarı Sağ/Daxil edin [DIR]=açıq Tab=sürücü Esc=ləğv et
+msg.phrase	Enter=open  Left=up  Right/Enter on [DIR]=open  Tab=drive  Esc=cancel	Enter=açıq Sol=yuxarı Sağ/Daxil edin [DIR]=açıq Tab=sürücü Esc=ləğv et
+msg.phrase	Not enough memory.	Kifayət qədər yaddaş yoxdur.
+msg.phrase	Overwrite	Üzərinə yaz
+msg.phrase	Open	Açıq
+msg.phrase	The file is too large (limit 8 MB).	Fayl çox böyükdür (məhdud 8 MB).
+msg.phrase	Not enough memory to read the file.	Faylı oxumaq üçün kifayət qədər yaddaş yoxdur.
+msg.phrase	Bad ZIP/ODS data.	Səhv ZIP/ODS datası.
+msg.phrase	CRC error in the ODS file.	ODS faylında CRC xətası.
+msg.phrase	Unsupported or damaged file.	Dəstəklənməyən və ya zədələnmiş fayl.
+msg.phrase	Saved	Saxlandı
+msg.phrase	Exported	İxrac edildi
+msg.phrase	Unsaved changes	Saxlanmamış dəyişikliklər
+msg.phrase	Save the current sheet before continuing?	Davam etməzdən əvvəl cari cədvəl yadda saxlansın?
+msg.phrase	New sheet	Yeni vərəq
+msg.phrase	SGTRK	SGTRK
+msg.phrase	UNTITLED	ADLI
+msg.phrase	song is too large	mahnı çox böyükdür
+msg.phrase	empty file	boş fayl
+msg.phrase	not an SGT file	SGT faylı deyil
+msg.phrase	bad BPM	pis BPM
+msg.phrase	bad speed	pis sürət
+msg.phrase	bad title length	pis başlıq uzunluğu
+msg.phrase	truncated title	kəsilmiş başlıq
+msg.phrase	bad character in title	başlıqdakı pis xarakter
+msg.phrase	truncated order	kəsilmiş sifariş
+msg.phrase	bad order length	pis sifariş uzunluğu
+msg.phrase	bad pattern number in order	qaydasında pis nümunə nömrəsi
+msg.phrase	truncated pattern list	kəsilmiş nümunə siyahısı
+msg.phrase	bad pattern count	pis nümunə sayı
+msg.phrase	bad pattern index	pis nümunə indeksi
+msg.phrase	duplicate pattern	dublikat nümunəsi
+msg.phrase	truncated pattern data	kəsilmiş nümunə məlumatları
+msg.phrase	invalid pattern data	yanlış nümunə datası
+msg.phrase	trailing data in file	faylda arxada qalan məlumatlar
+msg.phrase	order refers to a missing pattern	sifariş çatışmayan nümunəyə aiddir
+msg.phrase	A:/	A:/
+msg.phrase	(untitled)	(başlıqsız)
+msg.phrase	Ready. Press F1 for help.	Hazır. Kömək üçün F1 düyməsini basın.
+msg.phrase	Follow OFF	İzləyin OFF
+msg.phrase	Nothing to undo	Geri qaytarılacaq heç nə yoxdur
+msg.phrase	Undo	Geri al
+msg.phrase	Note OFF	Qeyd OFF
+msg.phrase	Set an effect letter first	Əvvəlcə effekt məktubu təyin edin
+msg.phrase	Effect cleared	Effekt təmizləndi
+msg.phrase	Parameter cleared	Parametr təmizləndi
+msg.phrase	Note cleared	Qeyd təmizləndi
+msg.phrase	Instrument cleared	Alət təmizləndi
+msg.phrase	Volume cleared	Səs təmizləndi
+msg.phrase	Order list is full	Sifariş siyahısı doludur
+msg.phrase	Order inserted	Sifariş daxil edildi
+msg.phrase	Cannot delete the last order	Son sifarişi silmək mümkün deyil
+msg.phrase	Order deleted	Sifariş silindi
+msg.phrase	Playing song	Mahnı çalınır
+msg.phrase	Stopped	Dayandı
+msg.phrase	New song	Yeni mahnı
+msg.phrase	Discard unsaved changes and start a new song? (Y/N)	Yadda saxlanmamış dəyişikliklər ləğv edilsin və yeni mahnı başlasın? (Y/N)
+msg.phrase	Discard unsaved changes and open a song? (Y/N)	Yadda saxlanmamış dəyişikliklər ləğv edilsin və mahnı açılsın? (Y/N)
+msg.phrase	Discard unsaved changes and quit? (Y/N)	Yadda saxlanmamış dəyişikliklər ləğv edilsin və çıxılsın? (Y/N)
+msg.phrase	Song settings updated	Mahnı parametrləri yeniləndi
+msg.phrase	Filename is empty	Fayl adı boşdur
+msg.phrase	Save cancelled	Saxlama ləğv edildi
+msg.phrase	Open cancelled	Açıq ləğv edildi
+msg.phrase	Edit ON	Redaktə et ON
+msg.phrase	Edit OFF	Redaktə et OFF
+msg.phrase	Follow ON	İzləyin ON
+msg.phrase	Edit is OFF. Press F8 to edit.	Redaktə etmək DEĞİLDİR. Redaktə etmək üçün F8 düyməsini basın.
+msg.phrase	I/O error	I/O xətası
+msg.phrase	file is too large	fayl çox böyükdür
+msg.phrase	truncated file	kəsilmiş fayl
+msg.phrase	SINE PAD	SINE PAD
+msg.phrase	TRIANGLE	Üçbucaq
+msg.phrase	SAW LEAD	QURŞUNU GÖRDÜ
+msg.phrase	SQUARE	Kvadrat
+msg.phrase	PULSE 25	PULSE 25
+msg.phrase	ORGAN	ORQAN
+msg.phrase	BASS	BASS
+msg.phrase	BELL	ZƏNG
+msg.phrase	NOISE	SƏY
+msg.phrase	SINE	SINE
+msg.phrase	SAW	SAW
+msg.phrase	OFF	OFF
+msg.phrase	ON	ON
+msg.phrase	ROW	SƏRƏ
+msg.phrase	CHAN LEVEL	ÇAN SƏVİYYƏSİ
+msg.phrase	F1 HELP F2 SONG	F1 YARDIM F2 MAHNISI
+msg.phrase	F3 INS  F4 SAVE	F3 INS F4 SAXLA
+msg.phrase	F5 PLAY F6 PAT	F5 PLAY F6 PAT
+msg.phrase	F7 STOP F8 EDIT	F7 STOP F8 EDIT
+msg.phrase	F9/F10 OCTAVE	F9/F10 OKTAV
+msg.phrase	F11 FOLLOW	F11 TAKİP EDİN
+msg.phrase	F12 QUIT	F12 QUIT
+msg.phrase	SPACE PLAY/STOP	SPACE PLAY/STOP
+msg.phrase	CTRL-S SAVE	CTRL-S YAXŞI
+msg.phrase	CTRL-O OPEN	CTRL-O AÇIQ
+msg.phrase	C-N NEW C-Z UNDO	C-N YENİ C-Z GERİ ALIN
+msg.phrase	C-C STOP	C-C STOP
+msg.phrase	#TRANSPORT AND FILES	#NƏQLİM VƏ FAYLLAR
+msg.phrase	#ORDER LIST	#SİFARİŞ SİYAHISI
+msg.phrase	#DISPLAY	#EKRAN
+msg.phrase	#EDITING	#redaktə
+msg.phrase	#EFFECTS (parameter is hexadecimal)	#EFFECTS (parametr onaltılıqdır)
+msg.phrase	LEFT/RIGHT PAGE   ENTER OR F1 CLOSE	SOL/SAĞ SƏHİFƏ GİRİN VƏ YA F1 BAĞLA
+msg.phrase	SONG SETTINGS	MAHNI AYARLARI
+msg.phrase	UP/DOWN SELECT   LEFT/RIGHT ADJUST   ENTER/F2 CLOSE	YUXARİ/AŞAĞI SEÇİN SOL/SAĞ tənzimləyin ENTER/F2 YAPIN
+msg.phrase	Type to edit the title. Backspace deletes the last character.	Başlığı redaktə etmək üçün yazın. Backspace son simvolu silir.
+msg.phrase	BPM range 32..255. Speed range 1..31.	BPM diapazonu 32..255. Sürət diapazonu 1..31.
+msg.phrase	Pattern effects can also change speed and BPM while playing.	Nümunə effektləri oynayarkən sürəti və BPM-ni də dəyişə bilər.
+msg.phrase	INSTRUMENTS	Alətlər
+msg.phrase	UP/DOWN SELECT   SPACE PREVIEW   ENTER USE   F3 CLOSE	YUKARI/AŞAĞI SEÇMƏSİNİ ÖNİZƏ GÖRÜNTÜLƏNİN F3 İSTİFADƏSİ YAPIN
+msg.phrase	All four channels use wavetable synthesis.	Dörd kanalın hamısı dalğa cədvəli sintezindən istifadə edir.
+msg.phrase	Preview plays C-4 on the track under the edit cursor.	Preview, redaktə kursorunun altındakı trekdə C-4 oynayır.
+msg.phrase	SAVE SONG AS	MAHNINI KİMİ SAXLA
+msg.phrase	ENTER SAVE   F4 OR CTRL-C CANCEL	SAXLAMA F4 VEYA CTRL-C LƏĞV EDİN
+msg.phrase	Directory:	Kataloq:
+msg.phrase	File name:	Fayl adı:
+msg.phrase	The extension .SGT is added automatically.	.SGT genişləndirilməsi avtomatik olaraq əlavə edilir.
+msg.phrase	An existing file can be overwritten.	Mövcud faylın üzərinə yazıla bilər.
+msg.phrase	OPEN SONG	AÇIQ MAHNI
+msg.phrase	ENTER OPEN  BS PARENT  CTRL-O/CTRL-C CANCEL	OPEN BS PARENT CTRL-O/CTRL-C LƏĞV EDİN
+msg.phrase	(no .SGT files in this folder)	(bu qovluqda .SGT faylı yoxdur)
+msg.phrase	CONFIRM	TƏSDİQ EDİN
+msg.phrase	Y = YES   N / ENTER / CTRL-C = NO	Y = BƏLİ N / ENTER / CTRL-C = NO
+msg.phrase	Y = yes        N = no	Y = bəli N = yox
+msg.phrase	C-	C-
+msg.phrase	C#	C#
+msg.phrase	D-	D-
+msg.phrase	D#	D#
+msg.phrase	E-	e-
+msg.phrase	F-	F-
+msg.phrase	F#	F#
+msg.phrase	G-	G-
+msg.phrase	G#	G#
+msg.phrase	A-	A-
+msg.phrase	A#	A#
+msg.phrase	B-	B-
+msg.phrase	A:/dir/name	A:/dir/ad
+msg.phrase	MThd	MThd
+msg.phrase	broken MThd	sınmış MThd
+msg.phrase	MIDI IMPORT	MIDI İDXAL
+msg.phrase	MTrk	MTrk
+msg.phrase	broken delta time	qırılmış delta vaxtı
+msg.phrase	broken running status	pozulmuş qaçış statusu
+msg.phrase	broken meta event	pozulmuş meta hadisəsi
+msg.phrase	broken sysex event	pozulmuş syseks hadisəsi
+msg.phrase	broken channel event	pozulmuş kanal hadisəsi
+msg.phrase	SMF output is too small	SMF çıxışı çox kiçikdir
+msg.phrase	SMF output is too large	SMF çıxışı çox böyükdür
+msg.phrase	the song is too long for SMF	mahnı SMF üçün çox uzundur
+msg.phrase	TRK1	TRK1
+msg.phrase	%s%d	%s%d
+msg.phrase	%s%d:%s%d	%s%d:%s%d
+msg.phrase	%s	%s
+msg.phrase	%.40s%s	%.40s%s
+msg.phrase	  [%s]   %s	[%s] %s
+msg.phrase	EDIT  	EDİN
+msg.phrase	READY 	HAZIR
+msg.phrase	%4d 	%4d
+msg.phrase	%s Sum %.7g N %ld%s	%s Cəm %.7g N %ld%s
+msg.phrase	ARROWS      move the cell cursor\n	OXLAR xana kursorunu hərəkət etdirir
+msg.phrase	SHIFT+ARR   extend the selection (for graphs/copy)\n	SHIFT+ARR seçimi genişləndirir (qrafiklər/nüsxə üçün)
+msg.phrase	ENTER       edit the cell; in edit, commit and move down\n	ENTER xananı redaktə edin; redaktə etmək, öhdəliyi götürmək və aşağı hərəkət etmək
+msg.phrase	TAB         next cell    SHIFT+TAB  previous cell\n	TAB növbəti xana SHIFT+TAB əvvəlki xana
+msg.phrase	DELETE      clear the selected cell(s)    ESC  cancel\n	SİL Seçilmiş xana(ları) təmizləyin ESC ləğvi
+msg.phrase	PGUP/PGDN   move one screen    HOME/END  first/last column\n	PGUP/PGDN bir ekranı HOME/END birinci/son sütuna köçürün
+msg.phrase	CTRL+HOME   A1    CTRL+END  last used cell\n	CTRL+HOME A1 CTRL+END son istifadə olunan xana
+msg.phrase	F1 help  F2 edit  F3 copy  F4 paste  F5 goto  F6 colour\n	F1 kömək F2 redaktə etmək üçün F3-ü kopyalayın F4 yapışdırın F5 F6 rənginə keçin
+msg.phrase	F7 auto-fit  F8 background  F9 recalc  F10 graph  F11 save  F12 menu\n	F7 avtomatik uyğunlaşma F8 fonu F9 yenidən hesablama F10 qrafiki F11 yadda saxla F12 menyusu
+msg.phrase	SHIFT+F1 about  SHIFT+F2 row height  SHIFT+F3 column width\n	SHIFT+F1 haqqında SHIFT+F2 sıra hündürlüyü SHIFT+F3 sütun eni
+msg.phrase	SHIFT+F4 select all  SHIFT+F10 graph range  SHIFT+F11 save as\n	SHIFT+F4 bütün SHIFT+F10 qrafik diapazonunu seçin SHIFT+F11 kimi saxla
+msg.phrase	CTRL+F1 new  CTRL+F2 open  CTRL+F3 save  CTRL+F4 save as\n	CTRL+F1 yeni CTRL+F2 CTRL+F3-ü açın CTRL+F4 kimi saxla
+msg.phrase	CTRL+F5 export CSV  CTRL+F6 export ODS  ALT+F12 quit\n	CTRL+F5 ixrac CSV CTRL+F6 ODS ixrac ALT+F12 çıxın
+msg.phrase	Bottom 2 lines: function keys; [SHIFT]/[CTRL]/[ALT] like the filer\n	Aşağı 2 sətir: funksiya düymələri; [SHIFT]/[CTRL]/[ALT] fayl kimi
+msg.phrase	CTRL+S save  CTRL+O open  CTRL+N new  CTRL+C/V/X copy/paste/cut\n	CTRL+S saxla CTRL+O açın CTRL+N yeni CTRL+C/V/X kopyala/yapışdır/kəs
+msg.phrase	CTRL+G goto    /  open the menu (1 File, 2 Edit, ...)\n	CTRL+G menyunu açın / açın (1 Fayl, 2 Redaktə et, ...)
+msg.phrase	Built-in functions: SUM AVERAGE MIN MAX COUNT COUNTA\n	Quraşdırılmış funksiyalar: CAM ORTA MIN MAX SAYI
+msg.phrase	PRODUCT ABS SQRT INT ROUND MOD POWER IF AND OR NOT\n	MƏHSUL ABS SQRT INT ROUND MOD POWER VƏ VƏ YA YOXDUR
+msg.phrase	IFERROR LEN LEFT RIGHT MID UPPER LOWER TRIM CONCATENATE PI\n	IFERROR LEN SOL SAĞ ORTA YUXARİ AŞAĞI KƏSİM BİRLAŞTIRMA PI
+msg.phrase	Cell refs: A1, $A$1, A1:B10.  Formulas begin with '='.\n	Hüceyrə istinadları: A1, $A$1, A1:B10.  Formulalar '=' ilə başlayır.
+msg.phrase	Files: .ods (LibreOffice), .fods (flat XML), .csv\n	Fayllar: .ods (LibreOffice), .fods (düz XML), .csv
+msg.phrase	ODS/FODS keeps formulas, widths, heights and colours.\n	ODS/FODS formulları, genişlikləri, hündürlükləri və rəngləri saxlayır.
+msg.phrase	CSV keeps values and formulas (no colours/heights).\n	CSV dəyərləri və düsturları saxlayır (rənglər/hündürlüklər yoxdur).
+msg.phrase	Graph: select a range, press F10, and choose Line/Bar/Mixed/Pie.\n	Qrafik: diapazon seçin, F10 düyməsini basın və Xətt/Bar/Qarışıq/Pie seçin.
+msg.phrase	SGCALC for sgnano\n	Sgnano üçün SGCALC
+msg.phrase	Version 	Versiya
+msg.phrase	A Lotus 1-2-3 style spreadsheet as an SGX program.\n\n	SGX proqramı kimi Lotus 1-2-3 üslublu elektron cədvəl.
+msg.phrase	SGX ABI %u.%u\n	SGX ABI %u.%u
+msg.phrase	Screen mode 3: text + CLUT8 FB (lowres disabled)\n	Ekran rejimi 3: mətn + CLUT8 FB (aşağı səslər deaktivdir)
+msg.phrase	Sheet: %d rows x %d columns\n	Vərəq: %d sətir x %d sütun
+msg.phrase	Formats: .ods / .fods (LibreOffice), .csv\n\n	Formatlar: .ods / .fods (LibreOffice), .csv
+msg.phrase	The grid is drawn on the text plane.\n	Tor mətn müstəvisində çəkilir.
+msg.phrase	Charts and the 640x480 background use the FB.\n\n	Diaqramlar və 640x480 fon FB-dən istifadə edir.
+msg.phrase	%d %s	%d %s
+msg.phrase	Cannot store the cell (%d).	Hüceyrəni (%d) saxlamaq mümkün deyil.
+msg.phrase	Copied %d x %d cells	%d x %d xanaları kopyalandı
+msg.phrase	Cleared %s	Təmizləndi %s
+msg.phrase	'%s' is not a cell reference.	'%s' xana istinadı deyil.
+msg.phrase	%d	%d
+msg.phrase	Column width = %d	Sütun eni = %d
+msg.phrase	Row height = %d	Sıra hündürlüyü = %d
+msg.phrase	Auto fit: %d column(s), %d row(s)	Avtomatik uyğunlaşdırma: %d sütun(lar), %d sətir(lər)
+msg.phrase	%2d	%2d
+msg.phrase	Cannot apply the colour (%d).	Rəng tətbiq etmək mümkün deyil (%d).
+msg.phrase	%s colour = %d	%s rəng = %d
+msg.phrase	Not a valid range.\nUse a range such as A1:C10.	Etibarlı diapazon deyil.\nA1:C10 kimi diapazondan istifadə edin.
+msg.phrase	Graph range %s	Qrafik diapazon %s
+msg.phrase	Graph: %s	Qrafik: %s
+msg.phrase	SGCALC: cannot set screen mode 3: %s\n	SGCALC: ekran rejimi 3 təyin edilə bilməz: %s
+msg.phrase	%.2g	%.2g
+msg.phrase	%.6g	%.6g
+msg.phrase	%s  %.0f%%	%s %.0f%%
+msg.phrase	GRAPH  %s  %s	QRAFİK %s %s
+msg.phrase	%s%s	%s%s
+msg.phrase	%s/%s	%s/%s
+msg.phrase	%.*s	%.*s
+msg.phrase	%.*s/	%.*s/
+msg.phrase	Cannot read %s\n%s	%s oxumaq mümkün deyil\n%s
+msg.phrase	Folder: %s	Qovluq: %s
+msg.phrase	[DIR] %s	[DIR] %s
+msg.phrase	      %s	%s
+msg.phrase	%lu.%luM	%lu.%luM
+msg.phrase	%luK	%luK
+msg.phrase	%luB	%luB
+msg.phrase	BOOK1%s	KİTAB 1%s
+msg.phrase	%c:/	%c:/
+msg.phrase	Unsupported extension.\nUse .csv, .ods or .fods.	Dəstəklənməyən genişləndirmə.\n.csv, .ods və ya .fods istifadə edin.
+msg.phrase	%s already exists.\nOverwrite it?	%s artıq mövcuddur.\nÜstünə yazmaq?
+msg.phrase	%s may not be writable.\nTry anyway?	%s yazıla bilən olmaya bilər.\nHər halda cəhd edək?
+msg.phrase	Unknown file type for %s	%s üçün naməlum fayl növü
+msg.phrase	Unsupported file type.\nUse .csv, .ods or .fods.	Dəstəklənməyən fayl növü.\n.csv, .ods və ya .fods istifadə edin.
+msg.phrase	Cannot open %s\n%s	%s aça bilmir\n%s
+msg.phrase	%s is a folder.	%s qovluqdur.
+msg.phrase	Cannot import %s\n%s	%s idxal etmək mümkün deyil\n%s
+msg.phrase	Loaded %s	Yükləndi %s
+msg.phrase	Cannot build the %s file.	%s faylını qurmaq mümkün deyil.
+msg.phrase	Cannot write %s\n%s	%s yazmaq mümkün deyil\n%s
+msg.phrase	%s %s	%s %s
+msg.phrase	unsupported version %u	dəstəklənməyən versiya %u
+msg.phrase	%d:%d:%d:%d:%d:%d	%d:%d:%d:%d:%d:%d
+msg.phrase	Octave %d	Oktava %d
+msg.phrase	Note %s	Qeyd %s
+msg.phrase	Instrument %d	Alət %d
+msg.phrase	Volume %s	Həcmi %s
+msg.phrase	Effect %c	Effekt %c
+msg.phrase	Parameter %s	Parametr %s
+msg.phrase	Pattern %s	Nümunə %s
+msg.phrase	Playing pattern %s	Oyun nümunəsi %s
+msg.phrase	SAVE ERROR: %s	SAXLAMA XƏTASI: %s
+msg.phrase	Saved %s	Saxlanıldı %s
+msg.phrase	LOAD ERROR: %s	YÜKLƏMƏ XƏTASI: %s
+msg.phrase	BPM %d	BPM %d
+msg.phrase	Speed %d	Sürət %d
+msg.phrase	Preview %s	Önizləmə %s
+msg.phrase	Instrument %s %s	Alət %s %s
+msg.phrase	Overwrite %s? (Y/N)	%s üzərinə yazın? (Y/N)
+msg.phrase	 | BPM %s SPD %s 	| BPM %s SPD %s
+msg.phrase	 SGNO TRACKER 1.0 | 	SGNO TRACKER 1.0 |
+msg.phrase	FILE 	FAYL
+msg.phrase	 PAT %s	PAT %s
+msg.phrase	 ORD %d/%d	ORD %d/%d
+msg.phrase	 INS %s 	INS %s
+msg.phrase	 OCT %d	OKT %d
+msg.phrase	 EDIT %s	DÜZENLEME %s
+msg.phrase	ON 	ON
+msg.phrase	 FOL %s	FOL %s
+msg.phrase	TRACK %d	İZLE %d
+msg.phrase	%c%s	%c%s
+msg.phrase	%s %s %s %s	%s %s %s %s
+msg.phrase	%s 	%s
+msg.phrase	%d %s %s	%d %s %s
+msg.phrase	ORDER %d/%d	SİFARİŞ %d/%d
+msg.phrase	PAT   %s	PAT %s
+msg.phrase	INS %s %s	INS %s %s
+msg.phrase	OCT %d  EDIT %s	OKT %d EDIT %s
+msg.phrase	FOLLOW %s	İZLƏYİN %s
+msg.phrase	PLAYING  ORD %d/%d  PAT %s  ROW %s/%d  SPD %s  BPM %d  F7 STOP	OYNAMA ORDU %d/%d PAT %s ROW %s/%d SPD %s BPM %d F7 STOP
+msg.phrase	READY  EDIT %s  OCT %d  F1 HELP  F5 PLAY  CTRL-S SAVE	HAZIR EDİLMƏ %s OKT %d F1 YARDIM F5 OYNA CTRL-S YADDASI
+msg.phrase	 %s 	%s
+msg.phrase	  F5          Play the song from the current order	F5 Mahnını cari sıradan səsləndirin
+msg.phrase	  F6          Play the current pattern	F6 Cari nümunəni çalın
+msg.phrase	  F7/Ctrl-C   Stop playback	F7/Ctrl-C Oxumağı dayandırın
+msg.phrase	  Space       Play / stop	Space Play / Stop
+msg.phrase	  F4          Save as	F4 Saxla
+msg.phrase	  Ctrl-S      Save (asks for a name if new)	Ctrl-S Save (yeni olduqda ad soruşur)
+msg.phrase	  Ctrl-O      Open a song	Ctrl-O Mahnı açın
+msg.phrase	  Ctrl-N      New song	Ctrl-N Yeni mahnı
+msg.phrase	  F12         Quit (confirmation if modified)	F12 Çıxın (dəyişiklik edildikdə təsdiqləyin)
+msg.phrase	  [ ]         Previous / next order entry	[ ] Əvvəlki / növbəti sifariş girişi
+msg.phrase	  { }         Insert / delete an order entry	{ } Sifariş qeydini daxil edin / silin
+msg.phrase	  - +         Change the pattern in the entry	- + Girişdəki nümunəni dəyişdirin
+msg.phrase	  F11         Follow playback (turns off on manual move)	F11 İzləmə oxutma (əllə hərəkət zamanı sönür)
+msg.phrase	  F1          Help; Left/Right changes page	F1 Kömək; Sol/Sağ dəyişikliklər səhifəsi
+msg.phrase	  F8          Toggle edit mode	F8 Redaktə rejimini dəyişdirin
+msg.phrase	  Arrows      Move the cursor	Oklar Kursoru hərəkət etdirin
+msg.phrase	  PgUp/PgDn   Jump 16 rows	PgUp/PgDn 16 sıra atlayın
+msg.phrase	  Home/End    First / last row	Ev/Son Birinci / sonuncu sıra
+msg.phrase	  F9/F10      Octave down / up	F9/F10 Oktava aşağı/yuxarı
+msg.phrase	  Z S X D C V G B H N J M      lower piano row	Z S X D C V G B H N J M aşağı piano sırası
+msg.phrase	  Q 2 W 3 E R 5 T 6 Y 7 U      upper piano row	Q 2 W 3 E R 5 T 6 Y 7 U yuxarı piano sırası
+msg.phrase	  1           Note off	1 Qeyd söndürülür
+msg.phrase	  0 / Del     0 clears note/inst/fx; Del clears any	0 / Del 0 qeyd/inst/fx-i təmizləyir; Del hər hansı birini təmizləyir
+msg.phrase	  Ctrl-Z      Undo the last pattern/order edit	Ctrl-Z Son model/sifariş redaktəsini ləğv edin
+msg.phrase	  Axy   Volume slide: up x, down y	Axy Həcmi sürüşdürmə: yuxarı x, aşağı y
+msg.phrase	  Cxx   Note cut after xx ticks	Cxx Qeyd xx işarələrindən sonra kəsilir
+msg.phrase	  Dxx   Set volume (00..7F)	Dxx Set həcmi (00..7F)
+msg.phrase	  Fxx   Speed if xx < 20, otherwise BPM	Fxx Sürət xx < 20 olarsa, əks halda BPM
+msg.phrase	  Hxy   Arpeggio x, y semitones	Hxy Arpeggio x, y yarımtonlar
+msg.phrase	  Pxx   Pitch slide up	Pxx Pitch yuxarı sürüşdürün
+msg.phrase	  Qxx   Pitch slide down	Qxx Pitch aşağı sürüşdürün
+msg.phrase	  F2 song settings, F3 instrument list	F2 mahnı parametrləri, F3 alət siyahısı
+msg.phrase	HELP %d/2	YARDIM %d/2
+msg.phrase	  Title	Başlıq
+msg.phrase	  [%s_]	[%s_]
+msg.phrase	  BPM   : %d     (left/right -1/+1, -/+ -5/+5)	BPM: %d (sol/sağ -1/+1, -/+ -5/+5)
+msg.phrase	  Speed : %d ticks/row	Sürət: %d gənə/sətir
+msg.phrase	  Rows  : %d (fixed)	Sıralar: %d (sabit)
+msg.phrase	  Order : %d entries	Sifariş: %d yazılar
+msg.phrase	  Patterns in use : %d	İstifadə olunan nümunələr: %d
+msg.phrase	 #  NAME       WAVE       A   D   S   R  VOL	# ADI DALĞA A D S R VOL
+msg.phrase	 %c %d  %-9s %-9s %3d %3d %3d %3d %4d	%c %d %-9s %-9s %3d %3d %3d %3d %4d
+msg.phrase	Current instrument: %s %s	Cari alət: %s %s
+msg.phrase	  %s	%s
+msg.phrase	DIR  %s	DIR %s
+msg.phrase	 %c %s%s	%c %s%s
+msg.phrase	Files: %d	Fayllar: %d
+msg.phrase	%02d	%02d
+msg.phrase	%03d	%03d
+msg.phrase	%02X	%02X
+msg.phrase	SGNO TRACKER: incompatible SGX ABI\n	SGNO TRACKER: uyğun olmayan SGX ABI
+msg.phrase	S: check: wait -- a file is being read or written	S: yoxlayın: gözləyin -- fayl oxunur və ya yazılır
+msg.phrase	S: check: the drive is busy or not ready	S: yoxlayın: sürücü məşğuldur və ya hazır deyil
+msg.phrase	nothing for this item (ContextMenu.cfg)	bu element üçün heç nə (ContextMenu.cfg)
+msg.phrase	bad command in ContextMenu.cfg	ContextMenu.cfg-də pis əmr
+msg.phrase	unknown action in ContextMenu.cfg	ContextMenu.cfg-də naməlum hərəkət
+msg.prefix	menu	menyu
+msg.phrase	choose a file or folder	fayl və ya qovluq seçin
+msg.phrase	this drive cannot be written	bu disk yazıla bilməz
+msg.phrase	an archive job is already running	arxiv işi artıq işləyir
+msg.phrase	no PSRAM for the archive task	arxiv tapşırığı üçün PSRAM yoxdur
+msg.phrase	could not start the archive task	arxiv tapşırığına başlaya bilmədi
+msg.phrase	too many items (32 at most)	həddən artıq çox element (ən çox 32)
+msg.phrase	nothing to compress	sıxmaq üçün heç bir şey
+msg.phrase	no name (or the name has / or \\)	ad yoxdur (və ya adda / və ya \\ var)
+msg.phrase	32 items at most (mark fewer, or put them in a folder)	Ən çoxu 32 element (daha az qeyd edin və ya qovluğa qoyun)
+msg.prefix	archive	arxiv
+msg.prefix	compress	kompres
+msg.prefix	render	göstərmək
+msg.phrase	5 Macro	5 Makro
+msg.phrase	6 Help	6 Kömək
+msg.phrase	Run current	Cari işə salın
+msg.phrase	Run the macro at the cursor (#! header cell and the cells below it)	Kursorda makronu işə salın (#! başlıq xanası və onun altındakı xanalar)
+msg.phrase	Run selection	Seçimi işə salın
+msg.phrase	Run the selected cells as one macro (top-left cell is the #! header)	Seçilmiş xanaları bir makro kimi işlədin (yuxarı sol xana #! başlığıdır)
+msg.phrase	Run all	Hamısını işlət
+msg.phrase	Run every macro in the sheet, top-left to bottom-right	Vərəqdəki hər bir makronu yuxarıdan soldan aşağıya doğru işlədin
+msg.phrase	Last error	Son səhv
+msg.phrase	Show the last macro error	Son makro xətasını göstərin
+msg.phrase	Macro	Makro
+msg.phrase	Macro: run #!ruby / #!python / #!basic cells	Makro: #!ruby / #!python / #!basic hüceyrələrini işə salın
+msg.phrase	Edit the cell (F2)	Xanəni redaktə edin (F2)
+msg.phrase	Fit widths/heights to the contents	Genişlikləri/hündürlükləri məzmuna uyğunlaşdırın
+msg.phrase	Last macro error	Son makro xətası
+msg.phrase	No macro error.	Makro xətası yoxdur.
+msg.phrase	IME on	IME aktivdir
+msg.phrase	IME off	IME söndürülür
+msg.phrase	Macro: %s %s ...	Makro: %s %s ...
+msg.phrase	%s: this firmware cannot run macros (SGX ABI 5.10 or later)	%s: bu proqram təminatı makroları işlədə bilmir (SGX ABI 5.10 və ya daha sonrakı versiyalar)
+msg.phrase	Macro error: %s	Makro xətası: %s
+msg.phrase	Macro: %s done	Makro: %s hazırdır
+msg.phrase	a macro is already running	makro artıq işləyir
+msg.phrase	this language is not available	bu dil mövcud deyil
+msg.phrase	not enough memory	kifayət qədər yaddaş yoxdur
+msg.phrase	the macro stopped with an error	makro xəta ilə dayandı
+msg.phrase	Macro error %s: %s	Makro xətası %s: %s
+msg.phrase	Macro: not enough memory	Makro: kifayət qədər yaddaş yoxdur
+msg.phrase	Macro: the cursor is not on a macro (a #!ruby / #!python / #!basic cell or the cells below it)	Makro: kursor makroda deyil (#!ruby / #!python / #!basic xana və ya onun altındakı xanalar)
+msg.phrase	Macro: no macro in the sheet	Makro: vərəqdə makro yoxdur
+msg.phrase	Run all macros	Bütün makroları işə salın
+msg.phrase	Macros: %d. Run them all, top-left to bottom-right? Changes cannot be undone.	Makrolar: %d. Hamısını yuxarıdan soldan aşağıya doğru işlədin? Dəyişikliklər geri qaytarıla bilməz.
+msg.phrase	Macro: %d of %d done	Makro: %d of %d tamamlandı
+msg.phrase	Cleared the cell	Hüceyrəni təmizlədi
+msg.phrase	Cleared the selection	Seçimi təmizlədi
+msg.phrase	Background colour = %d	Fon rəngi = %d
+msg.phrase	Text colour = %d	Mətnin rəngi = %d
+msg.phrase	Graph: line	Qrafik: xətt
+msg.phrase	Graph: bar	Qrafik: bar
+msg.phrase	Graph: mixed	Qrafik: qarışıq
+msg.phrase	Graph: pie	Qrafik: pasta
+msg.phrase	Exported %s	İxrac %s

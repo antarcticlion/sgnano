@@ -1,0 +1,787 @@
+# hu: machine translation (Google), unreviewed; 2026-11-17
+M001	a hajtás elment
+M002	olvasd újra a partíciókat...
+M003	nem sikerült kinyitni a kötetet (nincs memória?)
+M004	kötet nyitása...
+M005	nincs memória a fájllistához
+M006	a könyvtár olvasása... (újrapróbálkozás)
+M007	nem tudta elolvasni a könyvtárat
+M008	olvassa el a könyvtárat...
+M009	a meghajtó nem válaszolt -- újra elolvasta a partíciókat
+M010	nem tudta beolvasni a könyvtárat (nem FAT12/16/32?)
+M011	túl sok bejegyzés -- az elsők megjelenítése
+M012	nem található fájlrendszer ezen a partíción
+M013	túl hosszú az út
+M014	csatlakozás...
+M015	hasítás...
+M016	átnevezés...
+M017	mappa létrehozása...
+M018	fájl létrehozása...
+M019	törlés...
+M020	attribútumok írása...
+M021	a hajtás foglalt
+M022	elfoglalt
+M023	válasszon fájlokat vagy mappákat
+M024	válasszon fájlokat vagy mappákat (nem "..")
+M025	először állítsa le a CD-t
+M026	a CD nem cserélhető (másoljon helyette)
+M027	rendszermappa nem helyezhető át
+M028	nem írható meghajtó (csak FAT / exFAT / NTFS)
+M029	a hajtás elment
+M030	semmi sem választott
+M031	semmi kiválasztott
+M032	nem tudott elindulni
+M033	nem lehetett kinyitni
+M034	csak FAT / exFAT / NTFS meghajtón
+M035	nincs név
+M036	ez a név már létezik
+M037	nem sikerült elindítani (rossz név vagy a meghajtó foglalt)
+M038	nem sikerült elindítani (a meghajtó foglalt)
+M039	a névben nem lehet / vagy \\ (csak ebben a mappában)
+M040	a név ugyanaz
+M041	az elem csak olvasható (A módosításhoz)
+M042	válasszon egy .rb fájlt egy írható meghajtón
+M043	válasszon egy .rb fájlt
+M044	a meghajtó csak olvasható
+M045	válasszon mappát egy írható meghajtón
+M046	várj egy pillanatot
+M047	válassz egy fájlt
+M048	válassz egy fájlt (nem egy mappát)
+M049	válasszon egy .001 fájlt
+M050	válassza ki a .001 fájlt
+M051	helyezze az IWAD-ot egy DoomFiles vagy Doom2Files mappába
+M052	A DoomFiles a freedoom1 / doom / doomu / doom1.wad fájlt használja
+M053	A Doom2Files a freedoom2 / doom2 / plutonia / tnt.wad fájlt veszi át
+M054	a játék fájljait külső tárolóra helyezze, ne S:
+M055	az IWAD-nek FAT/exFAT/NTFS meghajtón kell lennie (nem CD-n)
+M056	még mindig dolgozik
+M057	egy kép betöltődik
+M058	nincs framebuffer
+M059	fél fényerő csak RGB555 esetén működik
+M060	klíring...
+M061	felére csökkenti a fényerőt...
+M062	ez egy adatsáv
+M063	várjon -- egy fájl íródik
+M064	csak floppy / LS-120 / CD meghajtók
+M065	kérte
+M066	lemezt olvasni...
+M067	megállás...
+M068	nyílás...
+M069	kész
+M070	nincs emlék
+M071	már nyitva
+M072	már fut
+M073	már mentve
+M074	már játszik
+M075	nincs ilyen meghajtó
+M076	nincs PSRAM
+M077	nincs PSRAM a fájlhoz
+M078	nincs PSRAM a vonalindexhez
+M079	nincs PSRAM a terminálhoz
+M080	nincs memória (PSRAM)
+M081	nincs memória (32KB SRAM)
+M082	nincs memória a puffer számára
+M083	nincs memória a képpufferek számára
+M084	nincs memória az olvasási puffer számára
+M085	nincs hely a munkamemóriának (bezárja a lowres síkot?)
+M086	nincs framebuffer oldal
+M087	túl nagy (legfeljebb 4 MB)
+M088	a fájl túl nagy (maximum 1 MB)
+M089	a fájl túl nagy (maximum 1 MB)
+M090	túl nagy egy SMF-hez (legfeljebb 1 MB)
+M091	a fájl üres
+M092	nem tudta megnyitni a fájlt
+M093	nem tudta elolvasni a fájlt
+M094	nem tudta kinyitni a kötetet
+M095	nem sikerült megnyitni a célállomást (nincs memória?)
+M096	nem tudta beolvasni a gyökérmappát
+M097	nem tudta elindítani a feladatot
+M098	nem tudott írni (rossz név vagy elfoglalt)
+M099	egy másik kötet nyitva van (foglalt)
+M100	egy másolat fut
+M101	egy mappa nem mehet be önmagába
+M102	ez ugyanaz a mappa
+M103	ez a meghajtó nem módosítható (csak olvasható)
+M104	a meghajtó nem írható
+M105	az alkatrész méretének 512 többszörösének kell lennie
+M106	4 GB-os vagy nagyobb fájlok nem támogatottak
+M107	rossz út
+M108	rossz fájlnév
+M109	a font ROM nincs ott
+M110	a hang nincs nyitva
+M111	nincs ilyen csatorna
+M112	a szekvenszer foglalt
+M113	nincs elég PSRAM a dalhoz
+M114	nem szabványos MIDI fájl (nincs MThd)
+M115	nincs nyom
+M116	egy pálya megszakadt (MTrk)
+M117	Az SMPTE időosztás nem támogatott
+M118	Az SMF 2 formátum nem támogatott (csak 0 és 1)
+M119	nem csak tömeges meghajtó
+M120	nem optikai meghajtó
+M121	egy rendszermappa nem törölhető vagy nevezhető át
+M122	nincs adathordozó a meghajtóban
+M123	készen állva
+M124	nincs kész
+M125	a média megváltozott
+M126	közepes hiba
+M127	törvénytelen kérés
+M128	rossz címtárbejegyzés
+M129	úton lévő könyvtár nem létezik
+M130	egy fájlnak ez a neve
+M131	egy mappának ez a neve
+M132	az úton lévő név nem címtár
+M133	törölve
+M134	nem tudott felszerelni
+M135	nem tudta elindítani az olvasást
+M136	nem tudott írni
+M137	egy könyvtár
+M138	ez egy könyvtár
+M139	nincsenek klaszterek
+M140	nincs hely a klaszterlistának
+M141	nincs ilyen fájl vagy könyvtár
+M142	nincs ilyen fájl
+M143	nincs hangerő
+M144	nem NTFS
+M145	nem exFAT
+M146	nem egy könyvtár
+M147	nem található
+M148	olvasási hiba
+M149	írási hiba
+M150	a FAT olvasása nem sikerült
+M151	a fürtlánc rövidebb, mint a fájl
+M152	a könyvtár nem üres
+M153	a lemez megtelt
+M154	a hajtás nem válaszolt
+M155	a fájl csak olvasható
+M156	a fájl túlságosan töredezett
+M157	a fájl túl nagy (4 GB)
+M158	az új név már létezik
+M159	a gyökérkönyvtár megtelt
+M160	túl sok fájl azonos rövid névvel
+M161	Nincs ilyen fájl vagy könyvtár
+M162	A fájl létezik
+M163	Engedély megtagadva
+M164	A könyvtár nem üres
+M165	Nem könyvtár
+M166	Egy könyvtár
+M167	Csak olvasható fájlrendszer
+M168	Nincs szabad hely az eszközön
+M169	Bemeneti/kimeneti hiba
+M170	Nem támogatott ezen a meghajtón
+M171	Érvénytelen elérési út
+M172	Elfogyott a memória
+M173	Nincs ilyen meghajtó
+M174	megállt
+M175	törölve (nincs elég szabad hely)
+M176	nem tudta megszámolni a szabad helyet
+M177	a vevő megszakadt
+M178	nincs vevő (futtassa az rz-t a számítógépen)
+M179	a konzol UART használatban van
+M180	a képernyő mód megváltozott
+M181	nem jöttek a vonalak (fut a kijelző?)
+M182	másolat
+M183	mozog
+M184	töröl
+M185	átnevezni
+M186	attribútumokat
+M187	új fájl
+M188	új mappa
+M189	kép
+M190	mrbc
+M191	rubin
+M192	néző
+M193	szerkeszteni
+M194	AZONOSÍTÁS
+M195	ZMODEM
+M196	ZMODEM fogad
+M197	ZMODEM küldés
+M198	hasított
+M199	csatlakozik
+M200	Végzet
+M201	SMF
+M202	CD
+M203	FB
+M204	Kidobás
+M205	újraindítás
+M206	engedély
+M207	óra
+M208	ADC be
+M209	képernyő -> PNG
+M210	FB -> PNG
+M211	nem tudta kinyitni a kötetet
+M212	kapott
+M213	küldött
+M214	mentve
+M215	létre
+M216	átnevezték
+M217	törölve
+M218	megváltozott
+M219	csatlakozott
+M220	hasított
+M221	nem tudott létrehozni
+M222	nem sikerült törölni
+M223	nem lehetett átnevezni erre
+M224	nem változhatott
+M225	nem tudott olvasni
+M226	nem tudott írni
+M227	nem lehetett másolni
+M228	nem tudta elkészíteni
+M229	nem sikerült eltávolítani a mappát
+M230	nem sikerült eltávolítani
+M231	nincs memória a számára
+M232	túl sok hiba történt a küldés során
+M233	a vevő nem vette át
+M234	a vevő átugrott
+M235	FB oldal
+M236	bájt mindegyik)
+M237	bájt)
+M238	KB)
+M239	részek be
+M240	részek (
+M241	-ba
+M242	: törölve
+M243	: fényerő felére csökkent
+M244	% olvasott
+M245	sorokat
+M246	-- még nem támogatott (csak FAT / exFAT / NTFS)
+M247	fájlokat
+M248	(
+M249	Cím nélkül
+M250	1 Fájl
+M251	2 Szerkesztés
+M252	3 Grafikon
+M253	4 Lap
+M254	5 Segítség
+M255	ÜRES
+M256	SZÁM
+M257	SZÖVEG
+M258	KÉPLET
+M259	Írja be a belépéshez, F2 a szerkesztéshez, F1 segítségért
+M260	5 CSV
+M261	6 ODS
+M262	[VÁLTÁS]
+M263	[CTRL]
+M264	[ALT]
+M265	Kész
+M266	SGCALC
+M267	Nyomja meg bármelyik gombot
+M268	Y = igen N = nem Esc = mégsem
+M269	Enter = OK Esc = mégse Ctrl-U = törlés
+M270	Első sor/oszlop = címkék; diagramok a 640x480 CLUT8 FB-t használják.
+M271	SGCALC – SEGÍTSÉG
+M272	Nyomja meg bármelyik gombot a visszatéréshez
+M273	Nyomja meg bármelyik gombot a visszatéréshez.
+M274	AZ SGCALC-ról
+M275	Új
+M276	Indítson el egy új lapot
+M277	Nyitott...
+M278	Nyisson meg egy ODS-, FODS- vagy CSV-fájlt
+M279	Megtakarítás
+M280	Mentse el az aktuális fájlt
+M281	Mentés másként...
+M282	Mentés új néven vagy formátumban
+M283	CSV exportálása...
+M284	Írjon egy CSV-másolatot
+M285	ODS exportálása...
+M286	Írjon egy LibreOffice másolatot
+M287	Kilép
+M288	Hagyja el az SGCALC-t
+M289	Világos
+M290	Törölje a kijelölt cellákat
+M291	Másolat
+M292	Másolja a kijelölést
+M293	Paszta
+M294	Illessze be a kurzorba
+M295	Vágott
+M296	Másolja és törölje a kijelölést
+M297	Válassza ki az összeset
+M298	Jelölje ki az összes használt cellát
+M299	Szöveg színe...
+M300	Válassza ki a szöveg színét
+M301	Háttér...
+M302	Válassza ki a cella hátterét
+M303	Vonal
+M304	Rajzoljon vonaldiagramot a kijelölésből
+M305	Bár
+M306	Rajzoljon oszlopdiagramot a kijelölésből
+M307	Vegyes
+M308	Rúd az első sorozathoz, sorok a többihez
+M309	Pite
+M310	Rajzoljon kördiagramot a kijelölésből
+M311	Hatótávolság...
+M312	Állítsa be kifejezetten a grafikon tartományát
+M313	Rajzolj újra
+M314	Rajzolja újra az utolsó grafikont
+M315	Ugrás...
+M316	Ugrás egy cellára (például C12)
+M317	Oszlop szélessége...
+M318	Módosítsa a kijelölt oszlopok szélességét
+M319	Sor magassága...
+M320	Módosítsa a kiválasztott sorok magasságát
+M321	Automatikus illeszkedés
+M322	A szélességet/magasságot igazítsa a tartalomhoz (F7)
+M323	Számolja újra
+M324	Értékelje újra az összes képletet
+M325	Az összes törlése
+M326	Törölje ki az egész lapot
+M327	Kulcsok
+M328	Mutassa meg a kulcs útmutatót
+M329	Körülbelül
+M330	Az SGCALC-ról
+M331	Fájl
+M332	Szerkesztés
+M333	Grafikon
+M334	Lap
+M335	Segítség
+M336	Fájl: új, megnyitás, mentés, exportálás, kilépés
+M337	Szerkesztés: törlés, másolás, beillesztés, kivágás, összes kijelölése
+M338	Grafikon: vonal, oszlop, vegyes, torta (rajzok az FB-ban)
+M339	Lap: goto, oszlopszélesség, újraszámítás, törlés
+M340	Segítség: kulcsok és kb
+M341	Bal/Jobb = menü Fel/Le = elem Enter = Esc választás = mégse
+M342	Törölve
+M343	A kiválasztás túl nagy, vagy kevés a memória.
+M344	a sejt
+M345	a kiválasztás
+M346	Nincs mit beilleszteni
+M347	Beillesztett
+M348	UGRÁS A CELLRE
+M349	Cellahivatkozás (A1):
+M350	Goto
+M351	OSZLOPSZÉLESSÉG
+M352	Szélesség karakterekben (4..30):
+M353	SORMAGASSÁG
+M354	Magasság a szöveges sorokban (1..8):
+M355	Automatikus illesztés: a lap üres
+M356	HÁTTÉR SZÍN
+M357	SZÖVEG SZÍNE
+M358	Nyilak: válassza az Enter: alkalmazza az Esc: cancel
+M359	Színindex (PC-98 16 színű paletta)
+M360	Aa 123
+M361	Enter = alkalmaz Esc = mégsem
+M362	Szín
+M363	Háttér
+M364	Szöveg
+M365	GRAFIK TARTOMÁNY
+M366	Tartomány (például A1:C10):
+M367	Grafikon tartomány
+M368	Használjon olyan tartományt, mint például A1:C10.
+M369	A grafikont nem lehet megrajzolni.
+M370	vonal
+M371	bár
+M372	vegyes
+M373	pite
+M374	Törli minden cellát ezen a lapon?
+M375	Lap törölve
+M376	Az összes használt cella kijelölve
+M377	Újraszámolva
+M378	Memória
+M379	Nincs elég PSRAM a táblázathoz.
+M380	A lap üres.
+M381	Nincsenek numerikus adatok a kiválasztott tartományban.
+M382	Más
+M383	Nincsenek pozitív értékek egy kördiagramhoz
+M384	VONAL
+M385	BÁR
+M386	VEGYES
+M387	PITE
+M388	S:/
+M389	Mappa
+M390	MENTÉS MÁSNAK
+M391	FÁJL MEGNYITÁSA
+M392	LibreOffice / CSV
+M393	ODS FODS CSV
+M394	Név:
+M395	(írjon be egy nevet, vagy válasszon alul)
+M396	Név
+M397	Méret
+M398	Enter=ment Bal=fel jobbra/Enter on [DIR]=nyitott Tab=meghajtó Esc=mégse
+M399	Enter=nyissa Bal=fel jobbra/Enter on [DIR]=nyitott Tab=meghajtó Esc=mégse
+M400	Nincs elég memória.
+M401	Átír
+M402	Nyitott
+M403	A fájl túl nagy (legfeljebb 8 MB).
+M404	Nincs elég memória a fájl olvasásához.
+M405	Hibás ZIP/ODS adatok.
+M406	CRC hiba az ODS fájlban.
+M407	Nem támogatott vagy sérült fájl.
+M408	Mentve
+M409	Exportált
+M410	Nem mentett módosítások
+M411	Menti az aktuális lapot a folytatás előtt?
+M412	Új lap
+M413	SGTRK
+M414	CÍMTELEN
+M415	a dal túl nagy
+M416	üres fájl
+M417	nem SGT fájl
+M418	rossz BPM
+M419	rossz sebesség
+M420	rossz a cím hossza
+M421	csonka cím
+M422	rossz karakter a címben
+M423	csonka sorrend
+M424	rossz rendelési hossz
+M425	rossz mintaszám sorrendben
+M426	csonka minta lista
+M427	rossz mintaszám
+M428	rossz mintaindex
+M429	ismétlődő minta
+M430	csonka mintaadatok
+M431	érvénytelen mintaadatok
+M432	záró adatok a fájlban
+M433	a sorrend hiányzó mintára utal
+M434	A:/
+M435	(cím nélkül)
+M436	Kész. Nyomja meg az F1-et segítségért.
+M437	Kövesse OFF
+M438	Nincs mit visszavonni
+M439	Visszavonás
+M440	Megjegyzés KI
+M441	Először állítson be egy effekt betűt
+M442	Hatás törölve
+M443	Paraméter törölve
+M444	Megjegyzés törölve
+M445	A műszer törölve
+M446	A kötet törölve
+M447	A rendelési lista megtelt
+M448	Megrendelés behelyezve
+M449	Az utolsó rendelés nem törölhető
+M450	Megrendelés törölve
+M451	Dal lejátszása
+M452	Megállt
+M453	Új dal
+M454	Elveti a nem mentett módosításokat, és új dalt indít? (I/N)
+M455	Elveti a nem mentett módosításokat, és megnyit egy dalt? (I/N)
+M456	Elveti a nem mentett módosításokat, és kilép? (I/N)
+M457	A dalbeállítások frissítve
+M458	A fájlnév üres
+M459	Mentés törölve
+M460	Nyitás megszakítva
+M461	Szerkesztés BE
+M462	Szerkesztés KI
+M463	Kövesse BE
+M464	A szerkesztés KI van kapcsolva. Nyomja meg az F8 billentyűt a szerkesztéshez.
+M465	I/O hiba
+M466	a fájl túl nagy
+M467	csonka fájl
+M468	SINE PAD
+M469	HÁROMSZÖG
+M470	FŰRÉSZÓLOM
+M471	NÉGYZET
+M472	PULZUS 25
+M473	SZERV
+M474	BASSZUS
+M475	HARANG
+M476	ZAJ
+M477	SZINUSZ
+M478	FŰRÉSZ
+M479	LE
+M480	ON
+M481	SOR
+M482	CSATORNA SZINT
+M483	F1 SÚGÓ F2 DAL
+M484	F3 INS F4 SAVE
+M485	F5 PLAY F6 PAT
+M486	F7 STOP F8 SZERKESZTÉS
+M487	F9/F10 OCTAVE
+M488	F11 KÖVESSEN
+M489	F12 KILÉPNI
+M490	ŰR JÁTSZÁS/STOP
+M491	CTRL-S MENTÉS
+M492	CTRL-O NYITVA
+M493	C-N ÚJ C-Z UNDO
+M494	C-C STOP
+M495	#SZÁLLÍTÁS ÉS FÁJLOK
+M496	#RENDELÉSI LISTA
+M497	#KIJELZŐ
+M498	#SZERKESZTÉS
+M499	#EFFECTS (a paraméter hexadecimális)
+M500	BAL/JOBB OLDAL ENTER VAGY F1 ZÁRÁS
+M501	DAL BEÁLLÍTÁSOK
+M502	FEL/LE KIVÁLASZTÁS BAL/JOBBRA BEÁLLÍTÁS ENTER/F2 ZÁRÁS
+M503	Írja be a cím szerkesztéséhez. A Backspace törli az utolsó karaktert.
+M504	BPM tartomány 32...255. Sebességtartomány 1...31.
+M505	A mintaeffektusok a sebességet és a BPM-et is megváltoztathatják játék közben.
+M506	ESZKÖZÖK
+M507	FEL/LE SZÓR VÁLASZTÁS ELŐNÉZET ENTER HASZNÁLAT F3 ZÁRÁS
+M508	Mind a négy csatorna hullámtábla szintézist használ.
+M509	Előnézet lejátszása a C-4-et a szerkesztési kurzor alatti számon.
+M510	DAL MENTÉSE MÁSKÉNT
+M511	ENTER MENTÉS F4 VAGY CTRL-C MÉGSEM
+M512	Címtár:
+M513	Fájlnév:
+M514	Az .SGT kiterjesztést a rendszer automatikusan hozzáadja.
+M515	Egy meglévő fájl felülírható.
+M516	NYITOTT DAL
+M517	ENTER OPEN BS PARENT CTRL-O/CTRL-C MÉGSEM
+M518	(nincs .SGT fájl ebben a mappában)
+M519	MEGERŐSÍTÉS
+M520	I = IGEN N / ENTER / CTRL-C = NEM
+M521	Y = igen N = nem
+M522	C-
+M523	C#
+M524	D-
+M525	D#
+M526	E-
+M527	F-
+M528	F#
+M529	G-
+M530	G#
+M531	A-
+M532	A#
+M533	B-
+M534	A:/dir/name
+M535	MThd
+M536	törött MThd
+M537	MIDI IMPORT
+M538	MTrk
+M539	törött delta idő
+M540	törött futó állapot
+M541	törött meta esemény
+M542	törött sysex esemény
+M543	törött csatorna esemény
+M544	Az SMF kimenet túl kicsi
+M545	Az SMF kimenet túl nagy
+M546	a dal túl hosszú az SMF-hez
+M547	TRK1
+M548	%s%d
+M549	%s%d:%s%d
+M550	%s
+M551	%.40s%s
+M552	[%s] %s
+M553	SZERKESZTÉS
+M554	KÉSZ
+M555	%4d
+M556	%s Összeg %.7g N %ld%s
+M557	NYILAK mozgatják a cella kurzort
+M558	SHIFT+ARR a kijelölés kiterjesztése (grafikonokhoz/másoláshoz)
+M559	ENTER módosítsa a cellát; szerkesztésben, véglegesítés és lefelé lépés
+M560	TAB következő cella SHIFT+TAB előző cella
+M561	TÖRLÉS a kijelölt cella(k) törlése ESC törlés
+M562	PGUP/PGDN mozgat egy képernyőt HOME/END első/utolsó oszlop
+M563	CTRL+HOME A1 CTRL+END utoljára használt cella
+M564	F1 súgó F2 szerkesztés F3 másolás F4 beillesztés F5 goto F6 color
+M565	F7 automatikus illesztés F8 háttér F9 újraszámítás F10 grafikon F11 mentés F12 menü
+M566	SHIFT+F1 a SHIFT+F2 sormagasságról SHIFT+F3 oszlopszélességről
+M567	SHIFT+F4 az összes SHIFT+F10 grafikontartomány kijelölése SHIFT+F11 mentés másként
+M568	CTRL+F1 új CTRL+F2 megnyitás CTRL+F3 mentés CTRL+F4 mentés másként
+M569	CTRL+F5 export CSV CTRL+F6 export ODS ALT+F12 kilépés
+M570	Alsó 2 sor: funkcióbillentyűk; [SHIFT]/[CTRL]/[ALT], mint a reszelő
+M571	CTRL+S mentés CTRL+O megnyitás CTRL+N új CTRL+C/V/X másolás/beillesztés/kivágás
+M572	A CTRL+G billentyűkombináció megnyitja a menüt (1 Fájl, 2 Szerkesztés, ...)
+M573	Beépített funkciók: SUM AVERAGE MIN MAX COUNT COUNTA
+M574	TERMÉK ABS SQRT INT ROUND MOD POWER HA ÉS VAGY NEM
+M575	IFERROR LEN BAL JOBB KÖZÉP FELSŐ ALSÓ VÁGÁS ÖSSZEFÜGGÉSE PI
+M576	Cellahivatkozások: A1, $A$1, A1:B10.  A képletek '=' karakterrel kezdődnek.
+M577	Fájlok: .ods (LibreOffice), .fods (lapos XML), .csv
+M578	Az ODS/FODS megőrzi a képleteket, a szélességet, a magasságot és a színeket.
+M579	A CSV megőrzi az értékeket és a képleteket (nincs szín/magasság).
+M580	Grafikon: válasszon ki egy tartományt, nyomja meg az F10 billentyűt, és válassza a Vonal/Bar/Mixed/Pie lehetőséget.
+M581	SGCALC a sgnano számára
+M582	Változat
+M583	Lotus 1-2-3 stílusú táblázat SGX programként.
+M584	SGX ABI %u.%u
+M585	3. képernyőmód: szöveg + CLUT8 FB (alacsony hangerő le van tiltva)
+M586	Lap: %d sor x %d oszlop
+M587	Formátumok: .ods / .fods (LibreOffice), .csv
+M588	A rács a szövegsíkra rajzolódik.
+M589	A diagramok és a 640x480-as háttér az FB-t használja.
+M590	%d %s
+M591	A cella nem tárolható (%d).
+M592	%d x %d cella másolva
+M593	Törölve %s
+M594	A '%s' nem cellahivatkozás.
+M595	%d
+M596	Oszlopszélesség = %d
+M597	Sormagasság = %d
+M598	Automatikus illesztés: %d oszlop(ok), %d sor(ok)
+M599	%2d
+M600	A szín (%d) nem alkalmazható.
+M601	%s szín = %d
+M602	Nem érvényes tartomány.\nHasználjon olyan tartományt, mint például A1:C10.
+M603	Grafikontartomány %s
+M604	Grafikon: %s
+M605	SGCALC: nem állítható be a képernyő mód 3: %s
+M606	%.2g
+M607	%.6g
+M608	%s %.0f%%
+M609	GRAFIK %s %s
+M610	%s%s
+M611	%s/%s
+M612	%.*s
+M613	%.*s/
+M614	%s nem olvasható\n%s
+M615	Mappa: %s
+M616	[DIR] %s
+M617	%s
+M618	%lu.%luM
+M619	%luK
+M620	%luB
+M621	KÖNYV1%s
+M622	%c:/
+M623	Nem támogatott bővítmény.\nHasználjon .csv-t, .ods-t vagy .fods-t.
+M624	%s már létezik.\nFelülírni?
+M625	Előfordulhat, hogy %s nem írható.\nMégis megpróbálja?
+M626	Ismeretlen fájltípus ehhez: %s
+M627	Nem támogatott fájltípus.\nHasználjon .csv-t, .ods-t vagy .fods-t.
+M628	%s nem nyitható meg\n%s
+M629	%s egy mappa.
+M630	%s nem importálható\n%s
+M631	Betöltve %s
+M632	Nem lehet létrehozni a %s fájlt.
+M633	%s nem írható\n%s
+M634	%s %s
+M635	nem támogatott verzió %u
+M636	%d:%d:%d:%d:%d:%d
+M637	Oktáv %d
+M638	Megjegyzés %s
+M639	Hangszer %d
+M640	kötet %s
+M641	Hatás %c
+M642	Paraméter %s
+M643	Minta %s
+M644	Játékminta %s
+M645	MENTÉSI HIBA: %s
+M646	Mentve %s
+M647	BETÖLTÉSI HIBA: %s
+M648	BPM %d
+M649	Sebesség %d
+M650	Előnézet %s
+M651	Műszer %s %s
+M652	Felülírni %s? (I/N)
+M653	| BPM %s SPD %s
+M654	SGNO TRACKER 1.0 |
+M655	FÁJL
+M656	PAT %s
+M657	ORD %d/%d
+M658	INS %s
+M659	OKT %d
+M660	SZERKESZTÉS %s
+M661	ON
+M662	FOL %s
+M663	PÁLYA %d
+M664	%c%s
+M665	%s %s %s %s
+M666	%s
+M667	%d %s %s
+M668	MEGRENDELÉS %d/%d
+M669	PAT %s
+M670	INS %s %s
+M671	OCT %d SZERKESZTÉS %s
+M672	KÖVESSEN %s
+M673	LEJÁTSZÁSI ORD %d/%d PAT %s SOR %s/%d SPD %s BPM %d F7 STOP
+M674	KÉSZ SZERKESZTÉS %s OKT %d F1 SEGÍTSÉG F5 LEJÁTSZÁS CTRL-S MENTÉS
+M675	%s
+M676	F5 A dal lejátszása az aktuális sorrendből
+M677	F6 Az aktuális minta lejátszása
+M678	F7/Ctrl-C Lejátszás leállítása
+M679	Space Play / stop
+M680	F4 Mentés másként
+M681	Ctrl-S Mentés (nevet kér, ha új)
+M682	Ctrl-O Dal megnyitása
+M683	Ctrl-N Új dal
+M684	F12 Kilépés (módosítás esetén megerősítés)
+M685	[ ] Előző / következő rendelési bejegyzés
+M686	{ } Rendelési bejegyzés beszúrása/törlése
+M687	- + Módosítsa a mintát a bejegyzésben
+M688	F11 Lejátszás követése (kézi mozgatásra kikapcsol)
+M689	F1 Súgó; Bal/Jobb oldal megváltoztatja az oldalt
+M690	F8 Szerkesztési mód váltása
+M691	Nyilak A kurzor mozgatása
+M692	PgUp/PgDn Ugrás 16 sor
+M693	Kezdőlap/Vége Első / utolsó sor
+M694	F9/F10 Oktáv le/fel
+M695	Z S X D C V G B H N J M alsó zongorasor
+M696	Q 2 W 3 E R 5 T 6 Y 7 U felső zongorasor
+M697	1 Megjegyzés kikapcsolva
+M698	0 / Del 0 törli a note/inst/fx; Del törli bármelyiket
+M699	Ctrl-Z Az utolsó minta/sorrend szerkesztés visszavonása
+M700	Axy Volume csúszka: fel x, le y
+M701	Cxx A jegyzet kivágása xx pipa után
+M702	Dxx Hangerő beállítása (00..7F)
+M703	Fxx Sebesség, ha xx < 20, egyébként BPM
+M704	Hxy Arpeggio x, y félhangok
+M705	Pxx Pitch felfelé
+M706	Qxx Pitch lecsúszás
+M707	F2 dalbeállítások, F3 hangszerlista
+M708	SEGÍTSÉG %d/2
+M709	Cím
+M710	[%s_]
+M711	BPM : %d (bal/jobb -1/+1, -/+ -5/+5)
+M712	Sebesség : %d kullancs/sor
+M713	Sorok: %d (fix)
+M714	Sorrend : %d bejegyzések
+M715	Használt minták: %d
+M716	# NAME WAVE A D S R VOL
+M717	%c %d %-9s %-9s %3d %3d %3d %3d %4d
+M718	Jelenlegi műszer: %s %s
+M719	%s
+M720	RENDEZŐ %s
+M721	%c %s%s
+M722	Fájlok: %d
+M723	%02d
+M724	%03d
+M725	%02X
+M726	SGNO TRACKER: nem kompatibilis SGX ABI
+M727	S: check: várjon -- egy fájl olvasása vagy írása folyamatban van
+M728	S: ellenőrizze: a meghajtó foglalt vagy nincs készen
+M729	semmi ehhez az elemhez (ContextMenu.cfg)
+M730	rossz parancs a ContextMenu.cfg fájlban
+M731	ismeretlen művelet a ContextMenu.cfg fájlban
+M732	menü
+M733	válasszon egy fájlt vagy mappát
+M734	ez a meghajtó nem írható
+M735	egy archiválási feladat már fut
+M736	nincs PSRAM az archiválási feladathoz
+M737	nem tudta elindítani az archiválási feladatot
+M738	túl sok elem (legfeljebb 32)
+M739	nincs mit tömöríteni
+M740	nincs név (vagy a névben van / vagy \\)
+M741	Legfeljebb 32 elem (jelölj meg kevesebbet, vagy helyezd el egy mappába)
+M742	archívum
+M743	borogatás
+M744	renderelni
+N001	5 Makró
+N002	6 Segítség
+N003	Futtassa az áramot
+N004	Futtassa a makrót a kurzornál (#! fejléccella és az alatta lévő cellák)
+N005	Kiválasztás futtatása
+N006	Futtassa a kijelölt cellákat egyetlen makróként (a bal felső cella a #! fejléc)
+N007	Futtassa az összeset
+N008	Futtassa az összes makrót a munkalapon balról fentről jobbra lent
+N009	Utolsó hiba
+N010	Az utolsó makróhiba megjelenítése
+N011	Makró
+N012	Makró: futtassa a #!ruby / #!python / #!alap cellákat
+N013	Cella szerkesztése (F2)
+N014	A szélességet/magasságot igazítsa a tartalomhoz
+N015	Utolsó makró hiba
+N016	Nincs makró hiba.
+N017	IME bekapcsolva
+N018	IME kikapcsolva
+N019	Makró: %s %s ...
+N020	%s: ez a firmware nem tud makrókat futtatni (SGX ABI 5.10 vagy újabb)
+N021	Makróhiba: %s
+N022	Makró: %s kész
+N023	egy makró már fut
+N024	ez a nyelv nem elérhető
+N025	nincs elég memória
+N026	a makró hibával leállt
+N027	Makróhiba %s: %s
+N028	Makró: nincs elég memória
+N029	Makró: a kurzor nem makrón van (egy #!ruby / #!python / #!alapcellán vagy az alatta lévő cellákon)
+N030	Makró: nincs makró a lapon
+N031	Futtassa az összes makrót
+N032	Makrók: %d. Futtassa mindet, bal felsőtől jobb alsóig? A változtatások nem vonhatók vissza.
+N033	Makró: %d / %d kész
+N034	Kiürítette a cellát
+N035	A kijelölés törlése
+N036	Háttérszín = %d
+N037	Szöveg színe = %d
+N038	Grafikon: vonal
+N039	Grafikon: oszlop
+N040	Grafikon: vegyes
+N041	Grafikon: pite
+N042	Exportált %s

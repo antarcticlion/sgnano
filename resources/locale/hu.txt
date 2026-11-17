@@ -1,0 +1,1162 @@
+# sgnano filer strings: Magyar (2026-11-17). ui <TAB> Japanese <TAB> translation / msg.* <TAB> English <TAB> translation
+# status: unreviewed (machine translation, not checked by a native speaker; 2026-11-17). 未検証: ネイティブの確認をしていない仮の訳
+@lang hu
+@name Magyar
+ui	一覧（ファイルとフォルダを 2 列 x 19 行に並べる）	Lista (fájlok és mappák 2 oszlopban x 19 sorban)
+ui	カーソルを動かす（左右は隣の列へ）	A kurzor mozgatása (balra / jobbra: a másik oszlop)
+ui	前のページ / 次のページ	Előző oldal / következő oldal
+ui	全部に印 / 印を反転（PC-98 FD と同じ）	Az összes kijelölése / a jelek megfordítása (mint a PC-98 FD-ben)
+ui	先頭 / 最後	Első / utolsó
+ui	印を付けて次へ / 印だけ付ける	Jelölje meg és lépjen tovább / csak jelölje meg
+ui	Shift+矢印	Shift+nyilak
+ui	範囲を選ぶ（Space でその範囲に印）	Válasszon ki egy tartományt (a szóköz jelöli a tartományt)
+ui	フォルダに入る・ファイルを開く（F2/X は実行）	Adjon meg egy mappát / nyisson meg egy fájlt (F2/X futtatása)
+ui	上のフォルダへ	Akár a szülőmappáig
+ui	ドライブを選ぶ（USB・フロッピー・CD・S: 内蔵）	Válasszon meghajtót (USB, floppy, CD, S: beépített)
+ui	コピー（Shift+C / Shift+F3 は行き先を木から）	Másolás (Shift+C / Shift+F3 kiválasztja a célt a fából)
+ui	移動	Mozog
+ui	削除（Shift+D / Shift+F4 はフォルダ削除）	Törlés (Shift+D / Shift+F4 mappa törlése)
+ui	名前を変える	Átnevezés
+ui	属性を変える	Módosítsa az attribútumokat
+ui	エディタで開く	Nyissa meg a szerkesztőben
+ui	テキスト表示（Shift+V / Ctrl+Alt+F7 は 16 進）	Megtekintés szövegként (Shift+V / Ctrl+Alt+F7 hexa)
+ui	ドライブの情報	Vezetési információk
+ui	フォルダを作る / 新しいファイル	Új mappa / új fájl
+ui	シェル sgsh / 媒体を取り出す	Shell sgsh / hordozó kiadása
+ui	読み直す	Újratöltés
+ui	見えている画面を PNG で保存	Mentse el a képernyőt PNG formátumban
+ui	窓を閉じる・選択を解く（サブフォルダでは上位へ）	Az ablak bezárása / a kijelölés törlése (almappában: felfelé)
+ui	ファイルの操作（FD と同じ。印・範囲・カーソルの順に選ぶ）	Fájlműveletek (mint az FD-ben: jelölések, majd tartomány, majd kurzor)
+ui	コピー: 行き先はドライブとフォルダの木から。ESC で止める	Másolás: válassza ki a célt a meghajtó és a mappafából. Az ESC leáll
+ui	削除: y で確かめる。印・範囲をまとめて。フォルダは中身ごと	Törlés: erősítse meg y-val. Jelek és tartományok egyszerre. Mappák a tartalmukkal
+ui	フォルダを削除（中身ごと）	Mappa törlése (a tartalmával együtt)
+ui	名前を変える（今の名前を直して Enter）	Átnevezés (a név szerkesztése, Enter)
+ui	属性: R 読み出し専用・H 隠し・S システム・A アーカイブ	Attribútumok: R csak olvasható, H rejtett, S rendszer, A archívum
+ui	フォルダを作る	Új mappa
+ui	新しいファイル（空）を作る	Új (üres) fájl
+ui	テキストで表示（Shift+V / Ctrl+Alt+F7 は 16 進）	Megtekintés szövegként (Shift+V / Ctrl+Alt+F7 hexa)
+ui	シェル sgsh（exit / Ctrl-D でファイラーへ）	Shell sgsh (kilépés / Ctrl-D vissza a fájlkezelőbe)
+ui	選んでいるドライブの素性（INQUIRY・IDENTIFY）	A meghajtó azonosítója (KÉRDEZÉS, AZONOSÍTÁS)
+ui	FDD・LS-120・CD の媒体を取り出す	Vegye ki az FDD / LS-120 / CD adathordozót
+ui	一覧を読み直す（CD は TOC から）	A lista újratöltése (CD: a tartalomjegyzékből)
+ui	ZMODEM で PC から受け取る（zm.sh put）	Fogadás a számítógépről a ZMODEM segítségével (zm.sh put)
+ui	ZMODEM で PC へ送る（zm.sh get）	Küldje el a számítógépre a ZMODEM segítségével (zm.sh get)
+ui	.rb をコンパイルして .mrb を書き出す	Fordítsa le az .rb-t és írja be az .mrb-t
+ui	Ruby の REPL（1 行ずつ、Ctrl-D / ESC で終わり）	Ruby REPL (soronként, Ctrl-D / ESC a végéhez)
+ui	MicroPython の REPL	MicroPython REPL
+ui	4MB ずつ分割 / .001 から結合	Felosztás 4 MB-os részekre / csatlakozás .001-től
+ui	分割 / 結合（Ctrl+F11 / F12 と同じ）	Felosztás/csatlakozás (ugyanaz, mint a Ctrl+F11/F12)
+ui	画面（Alt+F。FD の F キーとぶつからない）	Képernyő (Alt+F, nem ütközik az FD F billentyűkkel)
+ui	FB（絵）/ テキスト面を出す・隠す	FB (kép) / szöveg megjelenítése / elrejtése
+ui	FB の表示ページ（0〜3）	FB megjelenítési oldal (0-3)
+ui	FB を 0 で消す / 明るさを 1/2 に（RGB555）	Törölje az FB-t 0-ra / felére csökkenti a fényerőt (RGB555)
+ui	USB のエンドポイントと LAN の状態	USB-végpontok és a LAN állapota
+ui	FB の表示ページを消す / 明るさを 1/2 に	Törölje az FB kijelző oldalát / felérezza a fényerejét
+ui	テキストの属性の見本	Szöveges attribútum minták
+ui	モニタの EDID（起動時に読んだもの）	Monitor EDID (olvasni indításkor)
+ui	フォント ROM のライセンスとクレジット	Font ROM licencek és kreditek
+ui	設定（表示の言語・IME・キーボードロケール）	Beállítások (megjelenítési nyelv, IME és billentyűzet nyelvi beállítása)
+ui	時計（NTP で合わせた日本時間。s ですぐ合わせる）	Óra (a japán időt az NTP állította be; s most szinkronizál)
+ui	表計算（SGCALC）を開く	Táblázat megnyitása (SGCALC)
+ui	S: ドライブのエラー検査（誤りがあれば直すか聞く）	Ellenőrizze az S: hibákat (javítás előtt megkérdezi)
+ui	トラッカー（TRACKER）を開く	Nyissa meg a TRACKER-t
+ui	再起動（確かめの窓が出る）	Újraindítás (először kérdez)
+ui	ADC のステレオ入力（GP40 / 41）を鳴らす	Az ADC sztereó bemenet lejátszása (GP40 / 41)
+ui	VGM/VGZ を 96kHz/24bit WAV に書き出す	Exportálja a VGM/VGZ-t 96 kHz-es / 24 bites WAV-ba
+ui	このヘルプ	Ez a segítség
+ui	ページを替える	Változtasd meg az oldalt
+ui	閉じる	Közeli
+ui	テキスト・16 進のビュアー（less 風）	Szöveg / hexadecimális megjelenítő (tetszik kevesebb)
+ui	1 行	Egy sor
+ui	1 ページ	Egy oldal
+ui	半ページ	Fél oldal
+ui	探す（前へ・後ろへ）/ 次・前	Keresés (előre / hátra) / következő / előző
+ui	一覧へ戻る（F1 はビュアーのヘルプ）	Vissza a listához (F1: a néző segítsége)
+ui	画像のビュアー	Képnézegető
+ui	一覧へ戻る（F2 F3 F6 F7 Shift+F2 F3 は効く）	Vissza a listához (F2 F3 F6 F7 Shift+F2 F3 működik)
+ui	エディタ（E / Shift+F8）	Szerkesztő (E/Shift+F8)
+ui	保存する（UTF-8。改行と BOM は元のまま）	Mentés (UTF-8; sorvégek és anyagjegyzék megtartva)
+ui	閉じる（変わっていれば Y / N / ESC）	Bezárás (ha módosult: I / N / ESC)
+ui	挿入 / 上書き	Beszúrás / felülírás
+ui	IME（日本語・英語・ハングル）の入・切	IME be/ki (japán/angol/koreai)
+ui	IME の言語（日本語 / English / 한국어）	IME nyelv (japán / angol / koreai)
+ui	ひらがな / カタカナで確定	Elkötelezett hiragana / katakana
+ui	エディタのヘルプ	A szerkesztő segítsége
+ui	シェル	Héj
+ui	シェル（csh のサブセット。exit / Ctrl-D で戻る、help で一覧）	Shell (egy csh részhalmaz. exit / Ctrl-D a visszatéréshez, a súgó felsorolja a parancsokat)
+ui	一覧と移動	Lista és mozgó
+ui	ファイルの操作	Fájlműveletek
+ui	画面と機器	Képernyő és eszközök
+ui	ビュアーとエディタ	A nézők és a szerkesztő
+ui	ヘルプ  %u / %u  %s	Segítség %u / %u %s
+ui	Left Right: ページを替える    F1 / ESC: 閉じる	Bal Jobb: oldal módosítása F1 / ESC: bezárás
+ui	sgnano を再起動しますか？	Sgnano újraindítása?
+ui	[ 再起動 ]	[Újraindítás]
+ui	[ キャンセル ]	[ Mégse ]
+ui	S: ドライブのエラー検査	Ellenőrizze az S: meghajtót, hogy vannak-e hibák
+ui	ファイル %lu  フォルダ %lu	Fájlok %lu mappák %lu
+ui	大きさが鎖と合わない	A méret nem felel meg a láncnak
+ui	どこからも使われていないクラスタ	Semmi által használt klaszterek
+ui	重なったクラスタ	Térhálós klaszterek
+ui	壊れた項目	Törött bejegyzések
+ui	FAT の 2 つの写しの食い違い	A két FAT-másolat különbözik
+ui	エラーはありません。	Nincsenek hibák.
+ui	エラーが見つかりました。修復しますか？	Hibákat találtunk. Megjavítani őket?
+ui	修復しました（上は直した数）。	Javítva (a fenti számok javítva).
+ui	検査・修復できませんでした（S: が使用中）。	Nem sikerült ellenőrizni vagy javítani (S: foglalt).
+ui	[ 修復する ]	[Javítás]
+ui	[ やめる ]	[ Mégse ]
+ui	何かキーで閉じる	Bármelyik kulcs bezárul
+ui	設定	Beállítások elemre
+ui	表示の言語	Megjelenítési nyelv
+ui	キーボードロケール	Billentyűzet nyelvi beállítása
+ui	Up / Down  Enter 決める  ESC やめる	Fel / Le Enter válassza az ESC törlése lehetőséget
+ui	表示の言語 (Language)	Megjelenítési nyelv
+ui	Up / Down  Enter 決める  ESC 戻る	Fel / Le Enter: ESC beállítása: vissza
+ui	%c: をどの文字に固定しますか（A〜Z、S を除く。ESC でやめる）	Javítás %c: melyik betűként? (A-Z, kivéve S. ESC törli)
+ui	ドライブ  文字 / Enter 選ぶ  F2 文字を固定・解除  F3 文字を決めて固定  L / ESC やめる	Meghajtó betűjele / Enter válassza F2 fix/Unfix a betű F3 fix as... L / ESC cancel
+ui	  区画 %u	partíció %u
+ui	%c:* （固定・つながっていません）%04X:%04X%s  %s	%c:* (fix, nincs csatlakoztatva) %04X:%04X%s %s
+ui	お知らせ	Értesítés
+ui	ドライブ %c:  %s	Hajtás %c: %s
+ui	ドライブ  (なし)	Hajtás (nincs)
+ui	音楽 CD  %u トラック	Audio CD %u műsorszámok
+ui	フォルダ %u  ファイル %u  合計 %s	Mappák %u fájlok %u összesen %s
+ui	読んでいます...	Olvasás...
+ui	* 印 %u 個  %s	* %u %s jelzéssel
+ui	%lu バイト	%lu bájt
+ui	属性 %s   更新日時 %s   作成日時 %s   %s	Attr %s módosítva %s létrehozva %s %s
+ui	日	Nap
+ui	月	Hétfő
+ui	火	kedd
+ui	水	Házasodik
+ui	木	cs
+ui	金	Péntek
+ui	土	Ült
+ui	時計は合わせていません（LAN の NTP）	Az óra nincs beállítva (NTP a LAN-on keresztül)
+ui	FB  表示 %u  書込 %u	FB kijelző %u írás %u
+ui	1 ヘルプ	1 Help
+ui	2 実行	2 Fuss
+ui	3 ｺﾋﾟｰ	3 Copy
+ui	4 削除	4 Del
+ui	5 名前	5 Rename
+ui	7 FB消去	7 FBclr
+ui	8 FB減光	8 FBdim
+ui	9 ﾄﾞﾗｲﾌﾞ	9 Hajtás
+ui	10 EP表	10 EP
+ui	11 時計	11 Óra
+ui	12 表計	12 CALC
+ui	1 属性	1 Attr
+ui	2 情報	2 Info
+ui	3 移動	3 Mozgás
+ui	5 作成	5 Mkdir
+ui	6 シェル	6 Shell
+ui	8 編集	8 Edit
+ui	9 表示	9 View
+ui	10S:検査	10 S:chk
+ui	11 ﾄﾗｯｸ	11 PÁLYA
+ui	12再起動	12Reboot
+ui	1 新規	1 Új
+ui	2 ﾌｫﾙﾀﾞ	2 Mappa
+ui	3 名前	3 Rename
+ui	4 属性	4 Attrib
+ui	6 ｺﾋﾟｰ	6 Copy
+ui	7 移動	7 Mozgás
+ui	8 削除	8 Törlés
+ui	9 編集	9 Edit
+ui	10ｺﾝﾊﾟｲﾙ	10 mrbc
+ui	11 分割	11 Split
+ui	12 結合	12 Join
+ui	1 属性例	1 Attrs
+ui	2 FB切替	2 FB
+ui	3 文字面	3 Szöveg
+ui	5 画面写	5 ScrSht
+ui	6 表示頁	6 DispPg
+ui	9 ZM受信	9 ZMrecv
+ui	10ZM送信	10ZMsend
+ui	2 FB消去	2 FBClr
+ui	3 FB減光	3 FBDim
+ui	5 再読込	5 Reload
+ui	7 16進	7 Hex
+ui	9 ﾗｲｾﾝｽ	9 Lic
+ui	8 設定	11 Setup
+ui	時刻を合わせる（日本時間。NTP で合わせられませんでした）	Állítsa be az órát (japán idő. Az NTP nem tudta beállítani)
+ui	起動のパラメタ	Futtassa paraméterekkel
+ui	新しいフォルダ	Új mappa
+ui	新しいファイル	Új fájl
+ui	時刻:	Idő:
+ui	実行:	Fut:
+ui	名前:	Név:
+ui	年-月-日 時:分  Enter 合わせる  ESC そのまま	ÉÉÉÉ-HH-NN óó:pp Adja meg az ESC megtartási készletet
+ui	Enter 走らせる  ←→ 動かす  BS / Del 消す  ESC やめる	Enter run <-> move BS / Del delete ESC cancel
+ui	Enter 変える  ←→ 動かす  BS / Del 消す  ESC やめる	Írja be az átnevezést <-> mozgat BS / Törlés törlés ESC megszakítás
+ui	Enter 作る  ←→ 動かす  BS / Del 消す  ESC やめる	Írja be a Create <-> move BS / Del delete ESC cancel
+ui	消す	Töröl
+ui	個の項目	tételeket
+ui	フォルダは中身ごと消します。よろしいですか？	A mappák tartalmukkal együtt törlődnek. Biztos vagy benne?
+ui	このファイルを消しますか？	Törli ezt a fájlt?
+ui	（元に戻せません。フォルダの中のファイルも消えます）	(Ezt nem lehet visszavonni. A mappákban lévő fájlok is törlődnek)
+ui	[ はい (Y) ]	[Igen (Y)]
+ui	[ いいえ (N) ]	[Nem (N)]
+ui	バイナリビュアー: ファイルを選んでください	hex viewer: válasszon fájlt
+ui	テキストビュアー: ファイルを選んでください	szövegnézegető: válasszon fájlt
+ui	移動先	Áthelyezés ide
+ui	コピー先	Másolás ide
+ui	バッファがいっぱいです (buffer full)	A puffer megtelt
+ui	読み出し専用のドライブです (read-only)	A meghajtó csak olvasható
+ui	保存できません (no writer)	Nem menthető (nincs író)
+ui	保存を始められません (the drive is busy?)	Nem sikerült elindítani a mentést (a meghajtó foglalt?)
+ui	保存しています... (saving)	Megtakarítás...
+ui	2 保存	2 Mentés
+ui	5 色分け	5 Színes
+ui	6 ﾞ	6 Hira
+ui	7 ｶﾀｶﾅ	7 Kata
+ui	8 予測	8 Pred
+ui	10 終了	10 Quit
+ui	1 先頭	1 Felső
+ui	2 最後	2 Vége
+ui	3 挿/上	3 InsOvr
+ui	4 辞書	4 Dict
+ui	6 半	6 HHira
+ui	7 半ｶﾅ	7 HKata
+ui	 %s  %s  行 %lu/%lu 桁 %u  %s  %s %s%s%s	%s %s Ln %lu/%lu Col %u %s %s %s%s%s
+ui	*変更	*mod
+ui	上書	OVR
+ui	挿入	INS
+ui	  読出専用	R/O
+ui	 エディタ (sgnano edit)                      F1 / ESC で閉じる	Szerkesztő (sgnano szerkesztés) F1 / ESC bezárul
+ui	 矢印 / Home End / PgUp PgDn   カーソルを動かす	Nyilak / Kezdőlap vége / PgUp PgDn mozgassa a kurzort
+ui	 Ctrl-T / Ctrl-B               ファイルの先頭 / 最後	Ctrl-T / Ctrl-B a fájl tetején/végén
+ui	 BS / Del                      前の字 / カーソルの字を消す	BS / Törlés törlése a / előtt a kurzornál
+ui	 Enter                         改行（前の行の字下げを引き継ぐ）	Írjon be egy új sort (megtartja a behúzást)
+ui	 Tab / Ins                     タブ / 挿入と上書きの切り替え	Tab / Ins fül / beszúrás vagy felülírás
+ui	 F5                            色分け（拡張子から。C/C++・mruby・MicroPython・SG BASIC・なし）	F5 színezés (kiterjesztésből; C/C++, mruby, MicroPython, SG BASIC, nincs)
+ui	 F2  (Ctrl-S)                  保存（UTF-8、改行は元の形）	F2 (Ctrl-S) mentés (UTF-8, sorvégek megtartva)
+ui	 F10 / ESC                     閉じる（変更があれば聞く）	F10 / ESC bezárás (megkérdezi, ha változott)
+ui	 IME:  Ctrl-Space / F12        オン・オフ（あ / A）	IME: Ctrl-Szóköz / F12 be/ki (あ / A)
+ui	       F9                      IME の言語（このエディタの間だけ。閉じると戻る）	F9 IME nyelv (csak ez a szerkesztő; bezáráskor visszaállítva)
+ui	       F8                      日本語の予測変換 オン・オフ	F8 japán prediktív konverzió be/ki
+ui	       日本語                  ローマ字 -> ひらがな（F6）・カタカナ（F7）	Japán romaji -> hiragana (F6) / katakana (F7)
+ui	                               半角ひらがな（Shift+F6）・半角カタカナ（Shift+F7）	Félszélességű hiragana (Shift+F6) / félszélességű katakana (Shift+F7)
+ui	                               2 字以上で予測、Space で連文節変換	Jóslás 2 vagy több karakterrel, folytonos záradék konvertálása szóközzel
+ui	       English                 2 字以上で予測補完	Angol prediktív befejezés 2 vagy több karakterrel
+ui	       한국어                  2 ボル式ハングル	한국어 2 Bol-stílusú hangul
+ui	       Space / Enter           変換 / 確定	Szóköz / Enter Konvertálás / Megerősítés
+ui	       ← →                    文節を選ぶ	← → Válasszon ki egy kifejezést
+ui	       Shift+← →               文節の右端を 1 字 縮/拡（候補を出し直す）	Shift+← → A záradék jobb végének szűkítése/növelése egy karakterrel (új jelöltek)
+ui	       ↑ ↓ / Tab               候補の窓で前 / 次の候補（窓は変換の下、画面の下では上）	↑ ↓ / Előző lap / Következő jelölt a felugró ablakban (a szöveg alatt, fent az alján)
+ui	       →→→ で Enter            すべての候補（2 列 x 8 個、← → で列とページ、Enter で決める）	Belépés → → → Minden jelölt (2 x 8, ← → oszlop és oldal, Enter kiválaszt)
+ui	       Enter                   次の文節へ（最後の文節で全体を確定）	Írja be a Következő záradékot (megerősíti az egészet az utolsó záradéknál)
+ui	       Ctrl-U                  いまの語をユーザー辞書へ	Ctrl-U Aktuális szó hozzáadása a felhasználói szótárhoz
+ui	 Shift+F1 / F2 / F3 / F4       先頭 / 最後 / 挿入と上書き / ユーザー辞書へ	Shift+F1 / F2 / F3 / F4 Felül / vége / beszúrás-felülírás / a felhasználói szótárba
+ui	       BS / ESC                1 字戻す / 取り消し	BS / ESC Visszalépés egy karakterrel / Mégse
+ui	       , . - [ ] /             、 。 ー 「 」 ・	, . - [ ] / 、 。 ー 「 」 ・
+ui	変更あり  Y: 保存して閉じる  N: 保存せず閉じる  ESC: 戻る	Módosítva Y: mentés és bezárás N: bezárás mentés nélkül ESC: vissza
+ui	[予測] Tab/↑↓: 候補  Space: 変換  Esc: 取消	[Prediction] Tab/↑↓: jelölt Szóköz: konvertálás Esc: Mégse
+ui	[候補] ↑↓: 選ぶ  ←→: 列・ページ  Enter: 決める	[Jelöltek] ↑↓: válasszon ←→: oszlop/oldal Enter: válasszon
+ui	[変換] ↑↓候補 ←→文節 Shift+←→区切り Enter次へ	[Konvertálás] ↑↓cand ←→tagmondat Shift+←→korlátos Enter Következő
+ui	[한국어] Tab/↑↓: 候補  Enter/Space: 確定	[한국어] Tab/↑↓: jelölt Enter/Szóköz: megerősítés
+ui	[English] Tab/↑↓: 候補  Enter: 確定	[Magyar] Tab/↑↓: jelölt Belépés: megerősítés
+ui	2ボル式ハングル入力  Ctrl-Space: 英数	2-készletes hangul bevitel Ctrl-Szóköz: alfanumerikus
+ui	予測補完  Ctrl-Space: 直接入力	Prediktív befejezés Ctrl-Space: közvetlen bevitel
+ui	辞書なし: ひらがな/カタカナ入力のみ  F6/F7	Nincs szótár: csak hiragana/katakana F6/F7
+ui	Space: 変換  F7: カタカナ  Ctrl-Space: 英数	Szóköz: konvertálás F7: katakana Ctrl-Szóköz: alfanumerikus
+ui	Space: 変換  F6: ひらがな  Ctrl-Space: 英数	Szóköz: konvertálás F6: hiragana Ctrl-Szóköz: alfanumerikus
+ui	半角  F6: ひらがな  F7: カタカナ  Shift+F6/F7: 半角	Félszélességű F6: hiragana F7: katakana Shift+F6/F7: fél
+ui	IME オフ	IME kikapcsolva
+ui	 予測	megjósolni
+ui	日本語の予測変換: オン	Prediktív japán fordítás: Be
+ui	日本語の予測変換: オフ	Prediktív fordítás japánra: Ki
+ui	日本語IMEで使います	Használja a japán IME-vel
+ui	ユーザー辞書に追加できません	Nem adható hozzá a felhasználói szótárhoz
+ui	色分け: %s	Színezés: %s
+ui	読み込んでいます... (loading)	Terhelés...
+ui	読み込めませんでした (could not read)	Nem sikerült beolvasni a fájlt
+ui	%lu 行%s%s	%lu vonalak%s%s
+ui	  Shift_JIS を UTF-8 で開きました（保存は UTF-8）	megnyitotta a Shift_JIS-t UTF-8-ként (UTF-8-ként mentve)
+ui	  読み出し専用	csak olvasható
+ui	保存しました (saved)	Mentve
+ui	保存できませんでした (write failed)	Nem sikerült menteni (nem sikerült az írás)
+ui	候補	Jelöltek
+ui	7 書込頁	7 WrtPg
+ui	9 ﾃｷｽﾄ	9 Szöveg
+ui	9 ﾊﾞｲﾅﾘ	9 Hex
+ui	読み込み中 %lu%%  	Betöltés %lu%%
+ui	（先頭だけ）  	(csak a kezdet)
+ui	16 進  q ESC: 戻る  F1: ヘルプ	Hex q ESC: vissza F1: súgó
+ui	テキスト  q ESC: 戻る  F1: ヘルプ	Szöveg q ESC: vissza F1: súgó
+ui	ビュアーのキー（less 風。テキストと 16 進で共通）	Nézőbillentyűk (például a kevesebb; ugyanaz a szöveghez és a hexalaphoz)
+ui	1 行進む	Egy sorral lejjebb
+ui	1 行戻る	Egy sor
+ui	1 ページ進む	Egy oldallal lejjebb
+ui	1 ページ戻る	Egy oldallal feljebb
+ui	半ページ進む / 戻る	Fél oldal le/fel
+ui	/文字列  ?文字列	/text ?szöveg
+ui	下へ探す / 上へ探す（大文字小文字は区別しない）	Keresés le/fel (kis- és nagybetűk figyelmen kívül hagyása)
+ui	次 / 前を探す	Következő / előző mérkőzés
+ui	16 進で表示する（いま見ている所のまま）	Megjelenítés hatszögletűként (ugyanazon a helyen)
+ui	テキストで表示する（いま見ている所のまま）	Megjelenítés szövegként (ugyanazon a helyen)
+ui	色分けを替える（C/C++・mruby・MicroPython・SG BASIC・なし）	A színezés módosítása (C/C++, mruby, MicroPython, SG BASIC, nincs)
+ui	FB / テキスト面を出す・隠す	Az FB / szöveg megjelenítése / elrejtése
+ui	FB の表示ページ / 書き込みページ	FB oldal megjelenítése / írási oldal
+ui	ファイラーへ戻る	Vissza a reszelőhöz
+ui	このヘルプを閉じる	Zárja be ezt a súgót
+ui	コピー	Másolat
+ui	 %s: フォルダを読んでいます... %u 個	%s: a mappák olvasása... %u
+ui	 %s: 行き先の空きを数えています...	%s: a szabad hely számlálása a célállomáson...
+ui	 %s: 行き先の空きが足りません	%s: nincs elég szabad hely a célállomáson
+ui	 移動: 元のフォルダを消しています	Áthelyezés: a forrásmappák eltávolítása
+ui	終了しました	Kész
+ui	止まりました	Megállt
+ui	 %s中%s	%s folyamatban%s
+ui	（止めています）	(megállás)
+ui	 元: %s	Feladó: %s
+ui	 先: %s	Címzett: %s
+ui	 ファイル %u / %u 個  フォルダ %u 個  %s / %s  (%u%%)%s	Fájlok %u / %u mappák %u %s / %s (%u%%)%s
+ui	  多すぎるので一部だけ	túl sok: csak néhány
+ui	 要る大きさ %s、空き %s。続けますか？	Szükséges %s, ingyenes %s. Folytatja?
+ui	 Y: 続ける   N / ESC: やめる	Y: folytatás N / ESC: Mégse
+ui	 何かキーを押すと閉じます	Nyomja meg bármelyik gombot a bezáráshoz
+ui	 ESC: 止める	ESC: állj
+ui	 %s: ←→ ドライブ  ↑↓ フォルダ  Space 開く・閉じる  Enter 決める  ESC やめる	%s: ←→ meghajtó ↑↓ mappa Szóköz nyitás/zárás Enter válasszon ESC mégse
+ui	 読めません: %s	Nem olvasható: %s
+ui	 フォルダを読んでいます...（ESC で止める）  %u 個	Mappák olvasása... (ESC leáll) %u
+ui	 フォルダ %u 個%s	%u mappák%s
+ui	（多すぎるか深すぎるので、一部だけ）	(túl sok vagy túl mély: csak néhány)
+ui	フォルダの展開を止めました	A mappa megnyitása leállt
+ui	Space で開き直せます。もう一度 ESC でやめます	Az űr újra megnyitja. Az ESC még egyszer megszakad
+ui	 SMF / SGT プレイヤー   %s	SMF / SGT lejátszó %s
+ui	 読み込んでいます... %lu / %lu バイト	Betöltés... %lu / %lu bájt
+ui	 %s / %s   %s   ポート %u	%s / %s %s portok %u
+ui	一時停止	Szüneteltetve
+ui	再生中	Játék
+ui	 Space: 一時停止  m: MIDI OUT  q / ESC: 止める	Szóköz: szünet m: MIDI OUT q / ESC: stop
+ui	 q / ESC: やめる	q / ESC: megszakítás
+ui	フォント ROM のライセンスとクレジット\n\nROM: %s（版 %lu.%lu、%lu 文字、フラッシュの 0x%08lX から）\n\n	Font ROM licencek és kreditek\n\nROM: %s (%lu.%lu verzió, %lu karakter, 0x%08lX-től a flashben)
+ui	== 収めているフォント（ROM の出所の表）==\n	== Betűtípusok a ROM-ban (a ROM eredettáblázata) ==
+ui	  （表が無い ROM）\n	(a ROM-nak nincs táblázata)
+ui	\n== ROM のクレジットの区画 ==\n\n	== A ROM kredit területe ==
+ui	（区画が無い）\n	(nincs ilyen terület)
+ui	\n== 組み込んだソフトウェアのライセンス ==\n	== A beépített szoftver licencei ==
+ui	 %s を PNG で保存   %s	%s mentése PNG %s formátumban
+ui	画面	Képernyő
+ui	 組み立てています... %lu / %lu 行	Épület... %lu / %lu sor
+ui	 書いています... %lu / %lu KB（FB は隠しています）	Írás... %lu / %lu KB (az FB rejtve van)
+ui	書けませんでした	Nem sikerült írni
+ui	書庫の名前（印の付いた項目、無ければカーソルの項目を入れる）	Archívum neve (a megjelölt elemek, vagy a kurzor elem, ha nincs)
+ui	Enter 圧縮する  ←→ 動かす  BS / Del 消す  ESC やめる	Írja be a tömörítést ← → BS mozgat / Törlés törlés ESC törlése
+ui	WAV 書き出し: %s 中止（%s）	WAV export: %s megszakítva (%s)
+ui	WAV 書き出し: %s 失敗（%s）	WAV export: %s sikertelen (%s)
+ui	WAV 書き出し: %s 合計 %s	WAV export: %s összesen %s
+ui	 WAV 書き出し（96kHz / 24bit）: %s	WAV export (96 kHz / 24 bit): %s
+ui	中止しました	Törölve
+ui	失敗しました	Sikertelen
+ui	 合計 %s	Összesen %s
+ui	 中止しました（%s。半端なファイルは消しました）	Törölve (%s; a részfájl törölve)
+ui	 書き出せませんでした（%s）。理由:	Nem sikerült exportálni (%s). Ok:
+ui	 （理由は分かりません）	(ok ismeretlen)
+ui	 %u%%   経過 %s%s	%u%% eltelt %s%s
+ui	 ESC: 止める（半端なファイルは消します）	ESC: stop (a részleges fájl törlődik)
+ui	書庫: %s	Archívum: %s
+ui	読み込み中…（ESC でやめる）	Olvasás... (ESC a törléshez)
+ui	 %u 項目%s  合計 %s バイト  展開先: %s	%u tételek%s összesen %s bájt kibontása ide: %s
+ui	 Enter 項目を展開  X 全部を展開  ↑↓ 動かす  ESC 閉じる	Írja be az elem kivonatát X az összes kibontása ↑↓ ESC bezárása
+ui	圧縮	Borogatás
+ui	一覧	Lista
+ui	展開	Kivonat
+ui	 合計 %s   %u 項目	Összesen %s %u elem
+ui	 合計 %s   %u ファイル	Összesen %s %u fájl
+ui	 中止しました（%s。書きかけのファイルは消しました）	Törölve (%s; a befejezetlen fájlt törölték)
+ui	 できませんでした（%s）: %s	Nem sikerült (%s): %s
+ui	 %u%%   経過 %s   %s バイト%s	%u%% eltelt %s %s bájt%s
+ui	 経過 %s   %s バイト%s	eltelt %s %s bájt%s
+ui	 ESC: 止める（書きかけのファイルは消します）	ESC: stop (a befejezetlen fájl törlődik)
+ui	書庫: %s 失敗（%s）	Archiválás: %s sikertelen (%s)
+ui	圧縮: %s（%u 項目）	Tömörítve: %s (%u elem)
+ui	展開: %s（%u ファイル）	Kicsomagolva: %s (%u fájlok)
+msg.phrase	the drive went away	a hajtás elment
+msg.phrase	reading the partitions again...	olvasd újra a partíciókat...
+msg.phrase	could not open the volume (no memory?)	nem sikerült kinyitni a kötetet (nincs memória?)
+msg.phrase	opening the volume...	kötet nyitása...
+msg.phrase	no memory for the file list	nincs memória a fájllistához
+msg.phrase	reading the directory... (retrying)	a könyvtár olvasása... (újrapróbálkozás)
+msg.phrase	could not read the directory	nem tudta elolvasni a könyvtárat
+msg.phrase	reading the directory...	olvassa el a könyvtárat...
+msg.phrase	the drive did not answer -- reading the partitions again	a meghajtó nem válaszolt -- újra elolvasta a partíciókat
+msg.phrase	could not read the directory (not FAT12/16/32?)	nem tudta beolvasni a könyvtárat (nem FAT12/16/32?)
+msg.phrase	too many entries -- showing the first ones	túl sok bejegyzés -- az elsők megjelenítése
+msg.phrase	no file system found on this partition	nem található fájlrendszer ezen a partíción
+msg.phrase	the path is too long	túl hosszú az út
+msg.phrase	joining...	csatlakozás...
+msg.phrase	splitting...	hasítás...
+msg.phrase	renaming...	átnevezés...
+msg.phrase	creating the folder...	mappa létrehozása...
+msg.phrase	creating the file...	fájl létrehozása...
+msg.phrase	deleting...	törlés...
+msg.phrase	writing the attributes...	attribútumok írása...
+msg.phrase	the drive is busy	a hajtás foglalt
+msg.phrase	busy	elfoglalt
+msg.phrase	choose files or folders	válasszon fájlokat vagy mappákat
+msg.phrase	choose files or folders (not "..")	válasszon fájlokat vagy mappákat (nem "..")
+msg.phrase	stop the CD first	először állítsa le a CD-t
+msg.phrase	the CD cannot be changed (copy instead)	a CD nem cserélhető (másoljon helyette)
+msg.phrase	a system folder cannot be moved	rendszermappa nem helyezhető át
+msg.phrase	no drive can be written (FAT / exFAT / NTFS only)	nem írható meghajtó (csak FAT / exFAT / NTFS)
+msg.phrase	the drive is gone	a hajtás elment
+msg.phrase	nothing chosen	semmi sem választott
+msg.phrase	nothing selected	semmi kiválasztott
+msg.phrase	could not start	nem tudott elindulni
+msg.phrase	could not open	nem lehetett kinyitni
+msg.phrase	only on a FAT / exFAT / NTFS drive	csak FAT / exFAT / NTFS meghajtón
+msg.phrase	no name	nincs név
+msg.phrase	that name already exists	ez a név már létezik
+msg.phrase	could not start (bad name or the drive is busy)	nem sikerült elindítani (rossz név vagy a meghajtó foglalt)
+msg.phrase	could not start (the drive is busy)	nem sikerült elindítani (a meghajtó foglalt)
+msg.phrase	the name cannot have / or \\ (only inside this folder)	a névben nem lehet / vagy \\ (csak ebben a mappában)
+msg.phrase	the name is the same	a név ugyanaz
+msg.phrase	the item is read-only (A to change)	az elem csak olvasható (A módosításhoz)
+msg.phrase	choose a .rb file on a writable drive	válasszon egy .rb fájlt egy írható meghajtón
+msg.phrase	choose a .rb file	válasszon egy .rb fájlt
+msg.phrase	the drive is read-only	a meghajtó csak olvasható
+msg.phrase	choose a folder on a writable drive	válasszon mappát egy írható meghajtón
+msg.phrase	wait a moment	várj egy pillanatot
+msg.phrase	choose a file	válassz egy fájlt
+msg.phrase	choose a file (not a folder)	válassz egy fájlt (nem egy mappát)
+msg.phrase	choose a .001 file	válasszon egy .001 fájlt
+msg.phrase	choose the .001 file	válassza ki a .001 fájlt
+msg.phrase	put the IWAD in a DoomFiles or Doom2Files folder	helyezze az IWAD-ot egy DoomFiles vagy Doom2Files mappába
+msg.phrase	DoomFiles takes freedoom1 / doom / doomu / doom1.wad	A DoomFiles a freedoom1 / doom / doomu / doom1.wad fájlt használja
+msg.phrase	Doom2Files takes freedoom2 / doom2 / plutonia / tnt.wad	A Doom2Files a freedoom2 / doom2 / plutonia / tnt.wad fájlt veszi át
+msg.phrase	put the game files on external storage, not S:	a játék fájljait külső tárolóra helyezze, ne S:
+msg.phrase	the IWAD must be on a FAT / exFAT / NTFS drive (not a CD)	az IWAD-nek FAT/exFAT/NTFS meghajtón kell lennie (nem CD-n)
+msg.phrase	still working	még mindig dolgozik
+msg.phrase	an image is loading	egy kép betöltődik
+msg.phrase	no framebuffer	nincs framebuffer
+msg.phrase	half brightness works only in RGB555	fél fényerő csak RGB555 esetén működik
+msg.phrase	clearing...	klíring...
+msg.phrase	halving the brightness...	felére csökkenti a fényerőt...
+msg.phrase	that is a data track	ez egy adatsáv
+msg.phrase	wait -- a file is being written	várjon -- egy fájl íródik
+msg.phrase	only floppy / LS-120 / CD drives	csak floppy / LS-120 / CD meghajtók
+msg.phrase	requested	kérte
+msg.phrase	reading the disc...	lemezt olvasni...
+msg.phrase	stopping...	megállás...
+msg.phrase	opening...	nyílás...
+msg.phrase	done	kész
+msg.phrase	no memory	nincs emlék
+msg.phrase	already open	már nyitva
+msg.phrase	already running	már fut
+msg.phrase	already saving	már mentve
+msg.phrase	already playing	már játszik
+msg.phrase	no such drive	nincs ilyen meghajtó
+msg.phrase	no PSRAM	nincs PSRAM
+msg.phrase	no PSRAM for the file	nincs PSRAM a fájlhoz
+msg.phrase	no PSRAM for the line index	nincs PSRAM a vonalindexhez
+msg.phrase	no PSRAM for the terminal	nincs PSRAM a terminálhoz
+msg.phrase	no memory (PSRAM)	nincs memória (PSRAM)
+msg.phrase	no memory (32KB SRAM)	nincs memória (32KB SRAM)
+msg.phrase	no memory for the buffer	nincs memória a puffer számára
+msg.phrase	no memory for the image buffers	nincs memória a képpufferek számára
+msg.phrase	no memory for the read buffer	nincs memória az olvasási puffer számára
+msg.phrase	no room for the work memory (close the lowres plane?)	nincs hely a munkamemóriának (bezárja a lowres síkot?)
+msg.phrase	no framebuffer page	nincs framebuffer oldal
+msg.phrase	too large (4 MB at most)	túl nagy (legfeljebb 4 MB)
+msg.phrase	the file is too large (1 MB at most)	a fájl túl nagy (maximum 1 MB)
+msg.phrase	the file is too large (1 MB max)	a fájl túl nagy (maximum 1 MB)
+msg.phrase	too large for an SMF (1MB at most)	túl nagy egy SMF-hez (legfeljebb 1 MB)
+msg.phrase	the file is empty	a fájl üres
+msg.phrase	could not open the file	nem tudta megnyitni a fájlt
+msg.phrase	could not read the file	nem tudta elolvasni a fájlt
+msg.phrase	could not open the volume	nem tudta kinyitni a kötetet
+msg.phrase	could not open the destination (no memory?)	nem sikerült megnyitni a célállomást (nincs memória?)
+msg.phrase	could not read the root folder	nem tudta beolvasni a gyökérmappát
+msg.phrase	could not start the task	nem tudta elindítani a feladatot
+msg.phrase	could not start writing (bad name or busy)	nem tudott írni (rossz név vagy elfoglalt)
+msg.phrase	another volume is open (busy)	egy másik kötet nyitva van (foglalt)
+msg.phrase	a copy is running	egy másolat fut
+msg.phrase	a folder cannot go into itself	egy mappa nem mehet be önmagába
+msg.phrase	that is the same folder	ez ugyanaz a mappa
+msg.phrase	this drive cannot be changed (read only)	ez a meghajtó nem módosítható (csak olvasható)
+msg.phrase	the drive is not writable	a meghajtó nem írható
+msg.phrase	the part size must be a multiple of 512	az alkatrész méretének 512 többszörösének kell lennie
+msg.phrase	files of 4 GB or more are not supported	4 GB-os vagy nagyobb fájlok nem támogatottak
+msg.phrase	bad path	rossz út
+msg.phrase	bad file name	rossz fájlnév
+msg.phrase	the font ROM is not there	a font ROM nincs ott
+msg.phrase	the sound is not open	a hang nincs nyitva
+msg.phrase	no such channel	nincs ilyen csatorna
+msg.phrase	the sequencer is busy	a szekvenszer foglalt
+msg.phrase	not enough PSRAM for the song	nincs elég PSRAM a dalhoz
+msg.phrase	not a standard MIDI file (no MThd)	nem szabványos MIDI fájl (nincs MThd)
+msg.phrase	no tracks	nincs nyom
+msg.phrase	a track is broken (MTrk)	egy pálya megszakadt (MTrk)
+msg.phrase	SMPTE time division is not supported	Az SMPTE időosztás nem támogatott
+msg.phrase	SMF format 2 is not supported (0 and 1 only)	Az SMF 2 formátum nem támogatott (csak 0 és 1)
+msg.phrase	not a Bulk-Only drive	nem csak tömeges meghajtó
+msg.phrase	not an optical drive	nem optikai meghajtó
+msg.phrase	a system folder cannot be deleted or renamed	egy rendszermappa nem törölhető vagy nevezhető át
+msg.phrase	no media in the drive	nincs adathordozó a meghajtóban
+msg.phrase	becoming ready	készen állva
+msg.phrase	not ready	nincs kész
+msg.phrase	media changed	a média megváltozott
+msg.phrase	medium error	közepes hiba
+msg.phrase	illegal request	törvénytelen kérés
+msg.phrase	a bad directory entry	rossz címtárbejegyzés
+msg.phrase	a directory on the way does not exist	úton lévő könyvtár nem létezik
+msg.phrase	a file has that name	egy fájlnak ez a neve
+msg.phrase	a folder has that name	egy mappának ez a neve
+msg.phrase	a name on the way is not a directory	az úton lévő név nem címtár
+msg.phrase	cancelled	törölve
+msg.phrase	could not mount	nem tudott felszerelni
+msg.phrase	could not start a read	nem tudta elindítani az olvasást
+msg.phrase	could not start a write	nem tudott írni
+msg.phrase	is a directory	egy könyvtár
+msg.phrase	that is a directory	ez egy könyvtár
+msg.phrase	no clusters	nincsenek klaszterek
+msg.phrase	no room for the cluster list	nincs hely a klaszterlistának
+msg.phrase	no such file or directory	nincs ilyen fájl vagy könyvtár
+msg.phrase	no such file	nincs ilyen fájl
+msg.phrase	no volume	nincs hangerő
+msg.phrase	not NTFS	nem NTFS
+msg.phrase	not exFAT	nem exFAT
+msg.phrase	not a directory	nem egy könyvtár
+msg.phrase	not found	nem található
+msg.phrase	read error	olvasási hiba
+msg.phrase	write error	írási hiba
+msg.phrase	reading the FAT failed	a FAT olvasása nem sikerült
+msg.phrase	the cluster chain is shorter than the file	a fürtlánc rövidebb, mint a fájl
+msg.phrase	the directory is not empty	a könyvtár nem üres
+msg.phrase	the disk is full	a lemez megtelt
+msg.phrase	the drive did not answer	a hajtás nem válaszolt
+msg.phrase	the file is read-only	a fájl csak olvasható
+msg.phrase	the file is too fragmented	a fájl túlságosan töredezett
+msg.phrase	the file is too large (4GB)	a fájl túl nagy (4 GB)
+msg.phrase	the new name already exists	az új név már létezik
+msg.phrase	the root directory is full	a gyökérkönyvtár megtelt
+msg.phrase	too many files with the same short name	túl sok fájl azonos rövid névvel
+msg.phrase	No such file or directory	Nincs ilyen fájl vagy könyvtár
+msg.phrase	File exists	A fájl létezik
+msg.phrase	Permission denied	Engedély megtagadva
+msg.phrase	Directory not empty	A könyvtár nem üres
+msg.phrase	Not a directory	Nem könyvtár
+msg.phrase	Is a directory	Egy könyvtár
+msg.phrase	Read-only file system	Csak olvasható fájlrendszer
+msg.phrase	No space left on device	Nincs szabad hely az eszközön
+msg.phrase	Input/output error	Bemeneti/kimeneti hiba
+msg.phrase	Not supported on this drive	Nem támogatott ezen a meghajtón
+msg.phrase	Invalid path	Érvénytelen elérési út
+msg.phrase	Out of memory	Elfogyott a memória
+msg.phrase	No such drive	Nincs ilyen meghajtó
+msg.phrase	stopped	megállt
+msg.phrase	cancelled (not enough free space)	törölve (nincs elég szabad hely)
+msg.phrase	could not count the free space	nem tudta megszámolni a szabad helyet
+msg.phrase	the receiver cancelled	a vevő megszakadt
+msg.phrase	no receiver (run rz on the PC)	nincs vevő (futtassa az rz-t a számítógépen)
+msg.phrase	the console UART is in use	a konzol UART használatban van
+msg.phrase	the screen mode changed	a képernyő mód megváltozott
+msg.phrase	the lines did not come (is the display running?)	nem jöttek a vonalak (fut a kijelző?)
+msg.prefix	copy	másolat
+msg.prefix	move	mozog
+msg.prefix	delete	töröl
+msg.prefix	rename	átnevezni
+msg.prefix	attributes	attribútumokat
+msg.prefix	new file	új fájl
+msg.prefix	new folder	új mappa
+msg.prefix	image	kép
+msg.prefix	mrbc	mrbc
+msg.prefix	ruby	rubin
+msg.prefix	viewer	néző
+msg.prefix	edit	szerkeszteni
+msg.prefix	IDENTIFY	AZONOSÍTÁS
+msg.prefix	ZMODEM	ZMODEM
+msg.prefix	ZMODEM receive	ZMODEM fogad
+msg.prefix	ZMODEM send	ZMODEM küldés
+msg.prefix	split	hasított
+msg.prefix	join	csatlakozik
+msg.prefix	Doom	Végzet
+msg.prefix	SMF	SMF
+msg.prefix	CD	CD
+msg.prefix	FB	FB
+msg.prefix	Eject	Kidobás
+msg.prefix	reboot	újraindítás
+msg.prefix	license	engedély
+msg.prefix	clock	óra
+msg.prefix	ADC in	ADC be
+msg.prefix	screen -> PNG	képernyő -> PNG
+msg.prefix	FB -> PNG	FB -> PNG
+msg.prefix	could not open the volume	nem tudta kinyitni a kötetet
+msg.pattern	received 	kapott %s
+msg.pattern	sent 	küldött %s
+msg.pattern	saved 	mentve %s
+msg.pattern	created 	létre %s
+msg.pattern	renamed to 	átnevezték %s
+msg.pattern	deleted 	törölve %s
+msg.pattern	changed 	megváltozott %s
+msg.pattern	joined 	csatlakozott %s
+msg.pattern	split 	hasított %s
+msg.pattern	could not create 	nem tudott létrehozni %s
+msg.pattern	could not delete 	nem sikerült törölni %s
+msg.pattern	could not rename to 	nem lehetett átnevezni erre %s
+msg.pattern	could not change 	nem változhatott %s
+msg.pattern	could not read 	nem tudott olvasni %s
+msg.pattern	could not write 	nem tudott írni %s
+msg.pattern	could not copy 	nem lehetett másolni %s
+msg.pattern	could not make 	nem tudta elkészíteni %s
+msg.pattern	could not remove the folder 	nem sikerült eltávolítani a mappát %s
+msg.pattern	could not remove 	nem sikerült eltávolítani %s
+msg.pattern	no memory for 	nincs memória a számára %s
+msg.pattern	too many errors while sending 	túl sok hiba történt a küldés során %s
+msg.pattern	the receiver did not take 	a vevő nem vette át %s
+msg.pattern	the receiver skipped 	a vevő átugrott %s
+msg.pattern	FB page 	FB oldal %s
+msg.word	 bytes each)	bájt mindegyik)
+msg.word	 bytes)	bájt)
+msg.word	 KB)	KB)
+msg.word	 parts into 	részek be
+msg.word	 parts (	részek (
+msg.word	 into 	-ba
+msg.word	: cleared	: törölve
+msg.word	: brightness halved	: fényerő felére csökkent
+msg.word	% read	% olvasott
+msg.word	 rows	sorokat
+msg.word	 -- not supported yet (FAT / exFAT / NTFS only)	-- még nem támogatott (csak FAT / exFAT / NTFS)
+msg.word	 files	fájlokat
+msg.word	 (	(
+msg.phrase	Untitled	Cím nélkül
+msg.phrase	1 File	1 Fájl
+msg.phrase	2 Edit	2 Szerkesztés
+msg.phrase	3 Graph	3 Grafikon
+msg.phrase	4 Sheet	4 Lap
+msg.phrase	5 Help	5 Segítség
+msg.phrase	EMPTY	ÜRES
+msg.phrase	NUMBER	SZÁM
+msg.phrase	TEXT	SZÖVEG
+msg.phrase	FORMULA	KÉPLET
+msg.phrase	Type to enter, F2 to edit, F1 for help	Írja be a belépéshez, F2 a szerkesztéshez, F1 segítségért
+msg.phrase	5 CSV	5 CSV
+msg.phrase	6 ODS	6 ODS
+msg.phrase	[SHIFT]	[VÁLTÁS]
+msg.phrase	[CTRL]	[CTRL]
+msg.phrase	[ALT]	[ALT]
+msg.phrase	Ready	Kész
+msg.phrase	SGCALC	SGCALC
+msg.phrase	Press any key	Nyomja meg bármelyik gombot
+msg.phrase	Y = yes    N = no    Esc = cancel	Y = igen N = nem Esc = mégsem
+msg.phrase	Enter = OK    Esc = cancel    Ctrl-U = clear	Enter = OK Esc = mégse Ctrl-U = törlés
+msg.phrase	First row/column = labels; charts use the 640x480 CLUT8 FB.	Első sor/oszlop = címkék; diagramok a 640x480 CLUT8 FB-t használják.
+msg.phrase	SGCALC - HELP	SGCALC – SEGÍTSÉG
+msg.phrase	Press any key to return	Nyomja meg bármelyik gombot a visszatéréshez
+msg.phrase	Press any key to return.	Nyomja meg bármelyik gombot a visszatéréshez.
+msg.phrase	ABOUT SGCALC	AZ SGCALC-ról
+msg.phrase	New	Új
+msg.phrase	Start a new sheet	Indítson el egy új lapot
+msg.phrase	Open...	Nyitott...
+msg.phrase	Open an ODS, FODS or CSV file	Nyisson meg egy ODS-, FODS- vagy CSV-fájlt
+msg.phrase	Save	Megtakarítás
+msg.phrase	Save the current file	Mentse el az aktuális fájlt
+msg.phrase	Save As...	Mentés másként...
+msg.phrase	Save with a new name or format	Mentés új néven vagy formátumban
+msg.phrase	Export CSV...	CSV exportálása...
+msg.phrase	Write a CSV copy	Írjon egy CSV-másolatot
+msg.phrase	Export ODS...	ODS exportálása...
+msg.phrase	Write a LibreOffice copy	Írjon egy LibreOffice másolatot
+msg.phrase	Quit	Kilép
+msg.phrase	Leave SGCALC	Hagyja el az SGCALC-t
+msg.phrase	Clear	Világos
+msg.phrase	Clear the selected cells	Törölje a kijelölt cellákat
+msg.phrase	Copy	Másolat
+msg.phrase	Copy the selection	Másolja a kijelölést
+msg.phrase	Paste	Paszta
+msg.phrase	Paste at the cursor	Illessze be a kurzorba
+msg.phrase	Cut	Vágott
+msg.phrase	Copy and clear the selection	Másolja és törölje a kijelölést
+msg.phrase	Select all	Válassza ki az összeset
+msg.phrase	Select all used cells	Jelölje ki az összes használt cellát
+msg.phrase	Text color...	Szöveg színe...
+msg.phrase	Choose the text colour	Válassza ki a szöveg színét
+msg.phrase	Background...	Háttér...
+msg.phrase	Choose the cell background	Válassza ki a cella hátterét
+msg.phrase	Line	Vonal
+msg.phrase	Draw a line graph from the selection	Rajzoljon vonaldiagramot a kijelölésből
+msg.phrase	Bar	Bár
+msg.phrase	Draw a bar graph from the selection	Rajzoljon oszlopdiagramot a kijelölésből
+msg.phrase	Mixed	Vegyes
+msg.phrase	Bars for the first series, lines for the rest	Rúd az első sorozathoz, sorok a többihez
+msg.phrase	Pie	Pite
+msg.phrase	Draw a pie graph from the selection	Rajzoljon kördiagramot a kijelölésből
+msg.phrase	Range...	Hatótávolság...
+msg.phrase	Set the graph range explicitly	Állítsa be kifejezetten a grafikon tartományát
+msg.phrase	Draw again	Rajzolj újra
+msg.phrase	Redraw the last graph	Rajzolja újra az utolsó grafikont
+msg.phrase	Goto...	Ugrás...
+msg.phrase	Jump to a cell (for example C12)	Ugrás egy cellára (például C12)
+msg.phrase	Column width...	Oszlop szélessége...
+msg.phrase	Change the selected columns' width	Módosítsa a kijelölt oszlopok szélességét
+msg.phrase	Row height...	Sor magassága...
+msg.phrase	Change the selected rows' height	Módosítsa a kiválasztott sorok magasságát
+msg.phrase	Auto fit	Automatikus illeszkedés
+msg.phrase	Fit widths/heights to the contents (F7)	A szélességet/magasságot igazítsa a tartalomhoz (F7)
+msg.phrase	Recalculate	Számolja újra
+msg.phrase	Re-evaluate all formulas	Értékelje újra az összes képletet
+msg.phrase	Erase all	Az összes törlése
+msg.phrase	Clear the whole sheet	Törölje ki az egész lapot
+msg.phrase	Keys	Kulcsok
+msg.phrase	Show the key guide	Mutassa meg a kulcs útmutatót
+msg.phrase	About	Körülbelül
+msg.phrase	About SGCALC	Az SGCALC-ról
+msg.phrase	File	Fájl
+msg.phrase	Edit	Szerkesztés
+msg.phrase	Graph	Grafikon
+msg.phrase	Sheet	Lap
+msg.phrase	Help	Segítség
+msg.phrase	File: new, open, save, export, quit	Fájl: új, megnyitás, mentés, exportálás, kilépés
+msg.phrase	Edit: clear, copy, paste, cut, select all	Szerkesztés: törlés, másolás, beillesztés, kivágás, összes kijelölése
+msg.phrase	Graph: line, bar, mixed, pie (draws in the FB)	Grafikon: vonal, oszlop, vegyes, torta (rajzok az FB-ban)
+msg.phrase	Sheet: goto, column width, recalculate, erase	Lap: goto, oszlopszélesség, újraszámítás, törlés
+msg.phrase	Help: keys and about	Segítség: kulcsok és kb
+msg.phrase	Left/Right = menu    Up/Down = item    Enter = choose    Esc = cancel	Bal/Jobb = menü Fel/Le = elem Enter = Esc választás = mégse
+msg.phrase	Cancelled	Törölve
+msg.phrase	The selection is too large or memory is low.	A kiválasztás túl nagy, vagy kevés a memória.
+msg.phrase	the cell	a sejt
+msg.phrase	the selection	a kiválasztás
+msg.phrase	Nothing to paste	Nincs mit beilleszteni
+msg.phrase	Pasted	Beillesztett
+msg.phrase	GO TO CELL	UGRÁS A CELLRE
+msg.phrase	Cell reference (A1):	Cellahivatkozás (A1):
+msg.phrase	Goto	Goto
+msg.phrase	COLUMN WIDTH	OSZLOPSZÉLESSÉG
+msg.phrase	Width in characters (4..30):	Szélesség karakterekben (4..30):
+msg.phrase	ROW HEIGHT	SORMAGASSÁG
+msg.phrase	Height in text rows (1..8):	Magasság a szöveges sorokban (1..8):
+msg.phrase	Auto fit: the sheet is empty	Automatikus illesztés: a lap üres
+msg.phrase	BACKGROUND COLOUR	HÁTTÉR SZÍN
+msg.phrase	TEXT COLOUR	SZÖVEG SZÍNE
+msg.phrase	Arrows: choose    Enter: apply    Esc: cancel	Nyilak: válassza az Enter: alkalmazza az Esc: cancel
+msg.phrase	Colour index (PC-98 16-colour palette)	Színindex (PC-98 16 színű paletta)
+msg.phrase	Aa 123	Aa 123
+msg.phrase	Enter = apply    Esc = cancel	Enter = alkalmaz Esc = mégsem
+msg.phrase	Colour	Szín
+msg.phrase	Background	Háttér
+msg.phrase	Text	Szöveg
+msg.phrase	GRAPH RANGE	GRAFIK TARTOMÁNY
+msg.phrase	Range (for example A1:C10):	Tartomány (például A1:C10):
+msg.phrase	Graph range	Grafikon tartomány
+msg.phrase	Use a range such as A1:C10.	Használjon olyan tartományt, mint például A1:C10.
+msg.phrase	Cannot draw the graph.	A grafikont nem lehet megrajzolni.
+msg.phrase	line	vonal
+msg.phrase	bar	bár
+msg.phrase	mixed	vegyes
+msg.phrase	pie	pite
+msg.phrase	Clear every cell in this sheet?	Törli minden cellát ezen a lapon?
+msg.phrase	Sheet erased	Lap törölve
+msg.phrase	Selected all used cells	Az összes használt cella kijelölve
+msg.phrase	Recalculated	Újraszámolva
+msg.phrase	Memory	Memória
+msg.phrase	Not enough PSRAM for the spreadsheet.	Nincs elég PSRAM a táblázathoz.
+msg.phrase	The sheet is empty.	A lap üres.
+msg.phrase	No numeric data in the selected range.	Nincsenek numerikus adatok a kiválasztott tartományban.
+msg.phrase	Other	Más
+msg.phrase	No positive values for a pie chart	Nincsenek pozitív értékek egy kördiagramhoz
+msg.phrase	LINE	VONAL
+msg.phrase	BAR	BÁR
+msg.phrase	MIXED	VEGYES
+msg.phrase	PIE	PITE
+msg.phrase	S:/	S:/
+msg.phrase	Folder	Mappa
+msg.phrase	SAVE AS	MENTÉS MÁSNAK
+msg.phrase	OPEN FILE	FÁJL MEGNYITÁSA
+msg.phrase	LibreOffice / CSV	LibreOffice / CSV
+msg.phrase	ODS  FODS  CSV	ODS FODS CSV
+msg.phrase	Name:	Név:
+msg.phrase	(type a name, or choose below)	(írjon be egy nevet, vagy válasszon alul)
+msg.phrase	Name	Név
+msg.phrase	Size	Méret
+msg.phrase	Enter=save  Left=up  Right/Enter on [DIR]=open  Tab=drive  Esc=cancel	Enter=ment Bal=fel jobbra/Enter on [DIR]=nyitott Tab=meghajtó Esc=mégse
+msg.phrase	Enter=open  Left=up  Right/Enter on [DIR]=open  Tab=drive  Esc=cancel	Enter=nyissa Bal=fel jobbra/Enter on [DIR]=nyitott Tab=meghajtó Esc=mégse
+msg.phrase	Not enough memory.	Nincs elég memória.
+msg.phrase	Overwrite	Átír
+msg.phrase	Open	Nyitott
+msg.phrase	The file is too large (limit 8 MB).	A fájl túl nagy (legfeljebb 8 MB).
+msg.phrase	Not enough memory to read the file.	Nincs elég memória a fájl olvasásához.
+msg.phrase	Bad ZIP/ODS data.	Hibás ZIP/ODS adatok.
+msg.phrase	CRC error in the ODS file.	CRC hiba az ODS fájlban.
+msg.phrase	Unsupported or damaged file.	Nem támogatott vagy sérült fájl.
+msg.phrase	Saved	Mentve
+msg.phrase	Exported	Exportált
+msg.phrase	Unsaved changes	Nem mentett módosítások
+msg.phrase	Save the current sheet before continuing?	Menti az aktuális lapot a folytatás előtt?
+msg.phrase	New sheet	Új lap
+msg.phrase	SGTRK	SGTRK
+msg.phrase	UNTITLED	CÍMTELEN
+msg.phrase	song is too large	a dal túl nagy
+msg.phrase	empty file	üres fájl
+msg.phrase	not an SGT file	nem SGT fájl
+msg.phrase	bad BPM	rossz BPM
+msg.phrase	bad speed	rossz sebesség
+msg.phrase	bad title length	rossz a cím hossza
+msg.phrase	truncated title	csonka cím
+msg.phrase	bad character in title	rossz karakter a címben
+msg.phrase	truncated order	csonka sorrend
+msg.phrase	bad order length	rossz rendelési hossz
+msg.phrase	bad pattern number in order	rossz mintaszám sorrendben
+msg.phrase	truncated pattern list	csonka minta lista
+msg.phrase	bad pattern count	rossz mintaszám
+msg.phrase	bad pattern index	rossz mintaindex
+msg.phrase	duplicate pattern	ismétlődő minta
+msg.phrase	truncated pattern data	csonka mintaadatok
+msg.phrase	invalid pattern data	érvénytelen mintaadatok
+msg.phrase	trailing data in file	záró adatok a fájlban
+msg.phrase	order refers to a missing pattern	a sorrend hiányzó mintára utal
+msg.phrase	A:/	A:/
+msg.phrase	(untitled)	(cím nélkül)
+msg.phrase	Ready. Press F1 for help.	Kész. Nyomja meg az F1-et segítségért.
+msg.phrase	Follow OFF	Kövesse OFF
+msg.phrase	Nothing to undo	Nincs mit visszavonni
+msg.phrase	Undo	Visszavonás
+msg.phrase	Note OFF	Megjegyzés KI
+msg.phrase	Set an effect letter first	Először állítson be egy effekt betűt
+msg.phrase	Effect cleared	Hatás törölve
+msg.phrase	Parameter cleared	Paraméter törölve
+msg.phrase	Note cleared	Megjegyzés törölve
+msg.phrase	Instrument cleared	A műszer törölve
+msg.phrase	Volume cleared	A kötet törölve
+msg.phrase	Order list is full	A rendelési lista megtelt
+msg.phrase	Order inserted	Megrendelés behelyezve
+msg.phrase	Cannot delete the last order	Az utolsó rendelés nem törölhető
+msg.phrase	Order deleted	Megrendelés törölve
+msg.phrase	Playing song	Dal lejátszása
+msg.phrase	Stopped	Megállt
+msg.phrase	New song	Új dal
+msg.phrase	Discard unsaved changes and start a new song? (Y/N)	Elveti a nem mentett módosításokat, és új dalt indít? (I/N)
+msg.phrase	Discard unsaved changes and open a song? (Y/N)	Elveti a nem mentett módosításokat, és megnyit egy dalt? (I/N)
+msg.phrase	Discard unsaved changes and quit? (Y/N)	Elveti a nem mentett módosításokat, és kilép? (I/N)
+msg.phrase	Song settings updated	A dalbeállítások frissítve
+msg.phrase	Filename is empty	A fájlnév üres
+msg.phrase	Save cancelled	Mentés törölve
+msg.phrase	Open cancelled	Nyitás megszakítva
+msg.phrase	Edit ON	Szerkesztés BE
+msg.phrase	Edit OFF	Szerkesztés KI
+msg.phrase	Follow ON	Kövesse BE
+msg.phrase	Edit is OFF. Press F8 to edit.	A szerkesztés KI van kapcsolva. Nyomja meg az F8 billentyűt a szerkesztéshez.
+msg.phrase	I/O error	I/O hiba
+msg.phrase	file is too large	a fájl túl nagy
+msg.phrase	truncated file	csonka fájl
+msg.phrase	SINE PAD	SINE PAD
+msg.phrase	TRIANGLE	HÁROMSZÖG
+msg.phrase	SAW LEAD	FŰRÉSZÓLOM
+msg.phrase	SQUARE	NÉGYZET
+msg.phrase	PULSE 25	PULZUS 25
+msg.phrase	ORGAN	SZERV
+msg.phrase	BASS	BASSZUS
+msg.phrase	BELL	HARANG
+msg.phrase	NOISE	ZAJ
+msg.phrase	SINE	SZINUSZ
+msg.phrase	SAW	FŰRÉSZ
+msg.phrase	OFF	LE
+msg.phrase	ON	ON
+msg.phrase	ROW	SOR
+msg.phrase	CHAN LEVEL	CSATORNA SZINT
+msg.phrase	F1 HELP F2 SONG	F1 SÚGÓ F2 DAL
+msg.phrase	F3 INS  F4 SAVE	F3 INS F4 SAVE
+msg.phrase	F5 PLAY F6 PAT	F5 PLAY F6 PAT
+msg.phrase	F7 STOP F8 EDIT	F7 STOP F8 SZERKESZTÉS
+msg.phrase	F9/F10 OCTAVE	F9/F10 OCTAVE
+msg.phrase	F11 FOLLOW	F11 KÖVESSEN
+msg.phrase	F12 QUIT	F12 KILÉPNI
+msg.phrase	SPACE PLAY/STOP	ŰR JÁTSZÁS/STOP
+msg.phrase	CTRL-S SAVE	CTRL-S MENTÉS
+msg.phrase	CTRL-O OPEN	CTRL-O NYITVA
+msg.phrase	C-N NEW C-Z UNDO	C-N ÚJ C-Z UNDO
+msg.phrase	C-C STOP	C-C STOP
+msg.phrase	#TRANSPORT AND FILES	#SZÁLLÍTÁS ÉS FÁJLOK
+msg.phrase	#ORDER LIST	#RENDELÉSI LISTA
+msg.phrase	#DISPLAY	#KIJELZŐ
+msg.phrase	#EDITING	#SZERKESZTÉS
+msg.phrase	#EFFECTS (parameter is hexadecimal)	#EFFECTS (a paraméter hexadecimális)
+msg.phrase	LEFT/RIGHT PAGE   ENTER OR F1 CLOSE	BAL/JOBB OLDAL ENTER VAGY F1 ZÁRÁS
+msg.phrase	SONG SETTINGS	DAL BEÁLLÍTÁSOK
+msg.phrase	UP/DOWN SELECT   LEFT/RIGHT ADJUST   ENTER/F2 CLOSE	FEL/LE KIVÁLASZTÁS BAL/JOBBRA BEÁLLÍTÁS ENTER/F2 ZÁRÁS
+msg.phrase	Type to edit the title. Backspace deletes the last character.	Írja be a cím szerkesztéséhez. A Backspace törli az utolsó karaktert.
+msg.phrase	BPM range 32..255. Speed range 1..31.	BPM tartomány 32...255. Sebességtartomány 1...31.
+msg.phrase	Pattern effects can also change speed and BPM while playing.	A mintaeffektusok a sebességet és a BPM-et is megváltoztathatják játék közben.
+msg.phrase	INSTRUMENTS	ESZKÖZÖK
+msg.phrase	UP/DOWN SELECT   SPACE PREVIEW   ENTER USE   F3 CLOSE	FEL/LE SZÓR VÁLASZTÁS ELŐNÉZET ENTER HASZNÁLAT F3 ZÁRÁS
+msg.phrase	All four channels use wavetable synthesis.	Mind a négy csatorna hullámtábla szintézist használ.
+msg.phrase	Preview plays C-4 on the track under the edit cursor.	Előnézet lejátszása a C-4-et a szerkesztési kurzor alatti számon.
+msg.phrase	SAVE SONG AS	DAL MENTÉSE MÁSKÉNT
+msg.phrase	ENTER SAVE   F4 OR CTRL-C CANCEL	ENTER MENTÉS F4 VAGY CTRL-C MÉGSEM
+msg.phrase	Directory:	Címtár:
+msg.phrase	File name:	Fájlnév:
+msg.phrase	The extension .SGT is added automatically.	Az .SGT kiterjesztést a rendszer automatikusan hozzáadja.
+msg.phrase	An existing file can be overwritten.	Egy meglévő fájl felülírható.
+msg.phrase	OPEN SONG	NYITOTT DAL
+msg.phrase	ENTER OPEN  BS PARENT  CTRL-O/CTRL-C CANCEL	ENTER OPEN BS PARENT CTRL-O/CTRL-C MÉGSEM
+msg.phrase	(no .SGT files in this folder)	(nincs .SGT fájl ebben a mappában)
+msg.phrase	CONFIRM	MEGERŐSÍTÉS
+msg.phrase	Y = YES   N / ENTER / CTRL-C = NO	I = IGEN N / ENTER / CTRL-C = NEM
+msg.phrase	Y = yes        N = no	Y = igen N = nem
+msg.phrase	C-	C-
+msg.phrase	C#	C#
+msg.phrase	D-	D-
+msg.phrase	D#	D#
+msg.phrase	E-	E-
+msg.phrase	F-	F-
+msg.phrase	F#	F#
+msg.phrase	G-	G-
+msg.phrase	G#	G#
+msg.phrase	A-	A-
+msg.phrase	A#	A#
+msg.phrase	B-	B-
+msg.phrase	A:/dir/name	A:/dir/name
+msg.phrase	MThd	MThd
+msg.phrase	broken MThd	törött MThd
+msg.phrase	MIDI IMPORT	MIDI IMPORT
+msg.phrase	MTrk	MTrk
+msg.phrase	broken delta time	törött delta idő
+msg.phrase	broken running status	törött futó állapot
+msg.phrase	broken meta event	törött meta esemény
+msg.phrase	broken sysex event	törött sysex esemény
+msg.phrase	broken channel event	törött csatorna esemény
+msg.phrase	SMF output is too small	Az SMF kimenet túl kicsi
+msg.phrase	SMF output is too large	Az SMF kimenet túl nagy
+msg.phrase	the song is too long for SMF	a dal túl hosszú az SMF-hez
+msg.phrase	TRK1	TRK1
+msg.phrase	%s%d	%s%d
+msg.phrase	%s%d:%s%d	%s%d:%s%d
+msg.phrase	%s	%s
+msg.phrase	%.40s%s	%.40s%s
+msg.phrase	  [%s]   %s	[%s] %s
+msg.phrase	EDIT  	SZERKESZTÉS
+msg.phrase	READY 	KÉSZ
+msg.phrase	%4d 	%4d
+msg.phrase	%s Sum %.7g N %ld%s	%s Összeg %.7g N %ld%s
+msg.phrase	ARROWS      move the cell cursor\n	NYILAK mozgatják a cella kurzort
+msg.phrase	SHIFT+ARR   extend the selection (for graphs/copy)\n	SHIFT+ARR a kijelölés kiterjesztése (grafikonokhoz/másoláshoz)
+msg.phrase	ENTER       edit the cell; in edit, commit and move down\n	ENTER módosítsa a cellát; szerkesztésben, véglegesítés és lefelé lépés
+msg.phrase	TAB         next cell    SHIFT+TAB  previous cell\n	TAB következő cella SHIFT+TAB előző cella
+msg.phrase	DELETE      clear the selected cell(s)    ESC  cancel\n	TÖRLÉS a kijelölt cella(k) törlése ESC törlés
+msg.phrase	PGUP/PGDN   move one screen    HOME/END  first/last column\n	PGUP/PGDN mozgat egy képernyőt HOME/END első/utolsó oszlop
+msg.phrase	CTRL+HOME   A1    CTRL+END  last used cell\n	CTRL+HOME A1 CTRL+END utoljára használt cella
+msg.phrase	F1 help  F2 edit  F3 copy  F4 paste  F5 goto  F6 colour\n	F1 súgó F2 szerkesztés F3 másolás F4 beillesztés F5 goto F6 color
+msg.phrase	F7 auto-fit  F8 background  F9 recalc  F10 graph  F11 save  F12 menu\n	F7 automatikus illesztés F8 háttér F9 újraszámítás F10 grafikon F11 mentés F12 menü
+msg.phrase	SHIFT+F1 about  SHIFT+F2 row height  SHIFT+F3 column width\n	SHIFT+F1 a SHIFT+F2 sormagasságról SHIFT+F3 oszlopszélességről
+msg.phrase	SHIFT+F4 select all  SHIFT+F10 graph range  SHIFT+F11 save as\n	SHIFT+F4 az összes SHIFT+F10 grafikontartomány kijelölése SHIFT+F11 mentés másként
+msg.phrase	CTRL+F1 new  CTRL+F2 open  CTRL+F3 save  CTRL+F4 save as\n	CTRL+F1 új CTRL+F2 megnyitás CTRL+F3 mentés CTRL+F4 mentés másként
+msg.phrase	CTRL+F5 export CSV  CTRL+F6 export ODS  ALT+F12 quit\n	CTRL+F5 export CSV CTRL+F6 export ODS ALT+F12 kilépés
+msg.phrase	Bottom 2 lines: function keys; [SHIFT]/[CTRL]/[ALT] like the filer\n	Alsó 2 sor: funkcióbillentyűk; [SHIFT]/[CTRL]/[ALT], mint a reszelő
+msg.phrase	CTRL+S save  CTRL+O open  CTRL+N new  CTRL+C/V/X copy/paste/cut\n	CTRL+S mentés CTRL+O megnyitás CTRL+N új CTRL+C/V/X másolás/beillesztés/kivágás
+msg.phrase	CTRL+G goto    /  open the menu (1 File, 2 Edit, ...)\n	A CTRL+G billentyűkombináció megnyitja a menüt (1 Fájl, 2 Szerkesztés, ...)
+msg.phrase	Built-in functions: SUM AVERAGE MIN MAX COUNT COUNTA\n	Beépített funkciók: SUM AVERAGE MIN MAX COUNT COUNTA
+msg.phrase	PRODUCT ABS SQRT INT ROUND MOD POWER IF AND OR NOT\n	TERMÉK ABS SQRT INT ROUND MOD POWER HA ÉS VAGY NEM
+msg.phrase	IFERROR LEN LEFT RIGHT MID UPPER LOWER TRIM CONCATENATE PI\n	IFERROR LEN BAL JOBB KÖZÉP FELSŐ ALSÓ VÁGÁS ÖSSZEFÜGGÉSE PI
+msg.phrase	Cell refs: A1, $A$1, A1:B10.  Formulas begin with '='.\n	Cellahivatkozások: A1, $A$1, A1:B10.  A képletek '=' karakterrel kezdődnek.
+msg.phrase	Files: .ods (LibreOffice), .fods (flat XML), .csv\n	Fájlok: .ods (LibreOffice), .fods (lapos XML), .csv
+msg.phrase	ODS/FODS keeps formulas, widths, heights and colours.\n	Az ODS/FODS megőrzi a képleteket, a szélességet, a magasságot és a színeket.
+msg.phrase	CSV keeps values and formulas (no colours/heights).\n	A CSV megőrzi az értékeket és a képleteket (nincs szín/magasság).
+msg.phrase	Graph: select a range, press F10, and choose Line/Bar/Mixed/Pie.\n	Grafikon: válasszon ki egy tartományt, nyomja meg az F10 billentyűt, és válassza a Vonal/Bar/Mixed/Pie lehetőséget.
+msg.phrase	SGCALC for sgnano\n	SGCALC a sgnano számára
+msg.phrase	Version 	Változat
+msg.phrase	A Lotus 1-2-3 style spreadsheet as an SGX program.\n\n	Lotus 1-2-3 stílusú táblázat SGX programként.
+msg.phrase	SGX ABI %u.%u\n	SGX ABI %u.%u
+msg.phrase	Screen mode 3: text + CLUT8 FB (lowres disabled)\n	3. képernyőmód: szöveg + CLUT8 FB (alacsony hangerő le van tiltva)
+msg.phrase	Sheet: %d rows x %d columns\n	Lap: %d sor x %d oszlop
+msg.phrase	Formats: .ods / .fods (LibreOffice), .csv\n\n	Formátumok: .ods / .fods (LibreOffice), .csv
+msg.phrase	The grid is drawn on the text plane.\n	A rács a szövegsíkra rajzolódik.
+msg.phrase	Charts and the 640x480 background use the FB.\n\n	A diagramok és a 640x480-as háttér az FB-t használja.
+msg.phrase	%d %s	%d %s
+msg.phrase	Cannot store the cell (%d).	A cella nem tárolható (%d).
+msg.phrase	Copied %d x %d cells	%d x %d cella másolva
+msg.phrase	Cleared %s	Törölve %s
+msg.phrase	'%s' is not a cell reference.	A '%s' nem cellahivatkozás.
+msg.phrase	%d	%d
+msg.phrase	Column width = %d	Oszlopszélesség = %d
+msg.phrase	Row height = %d	Sormagasság = %d
+msg.phrase	Auto fit: %d column(s), %d row(s)	Automatikus illesztés: %d oszlop(ok), %d sor(ok)
+msg.phrase	%2d	%2d
+msg.phrase	Cannot apply the colour (%d).	A szín (%d) nem alkalmazható.
+msg.phrase	%s colour = %d	%s szín = %d
+msg.phrase	Not a valid range.\nUse a range such as A1:C10.	Nem érvényes tartomány.\nHasználjon olyan tartományt, mint például A1:C10.
+msg.phrase	Graph range %s	Grafikontartomány %s
+msg.phrase	Graph: %s	Grafikon: %s
+msg.phrase	SGCALC: cannot set screen mode 3: %s\n	SGCALC: nem állítható be a képernyő mód 3: %s
+msg.phrase	%.2g	%.2g
+msg.phrase	%.6g	%.6g
+msg.phrase	%s  %.0f%%	%s %.0f%%
+msg.phrase	GRAPH  %s  %s	GRAFIK %s %s
+msg.phrase	%s%s	%s%s
+msg.phrase	%s/%s	%s/%s
+msg.phrase	%.*s	%.*s
+msg.phrase	%.*s/	%.*s/
+msg.phrase	Cannot read %s\n%s	%s nem olvasható\n%s
+msg.phrase	Folder: %s	Mappa: %s
+msg.phrase	[DIR] %s	[DIR] %s
+msg.phrase	      %s	%s
+msg.phrase	%lu.%luM	%lu.%luM
+msg.phrase	%luK	%luK
+msg.phrase	%luB	%luB
+msg.phrase	BOOK1%s	KÖNYV1%s
+msg.phrase	%c:/	%c:/
+msg.phrase	Unsupported extension.\nUse .csv, .ods or .fods.	Nem támogatott bővítmény.\nHasználjon .csv-t, .ods-t vagy .fods-t.
+msg.phrase	%s already exists.\nOverwrite it?	%s már létezik.\nFelülírni?
+msg.phrase	%s may not be writable.\nTry anyway?	Előfordulhat, hogy %s nem írható.\nMégis megpróbálja?
+msg.phrase	Unknown file type for %s	Ismeretlen fájltípus ehhez: %s
+msg.phrase	Unsupported file type.\nUse .csv, .ods or .fods.	Nem támogatott fájltípus.\nHasználjon .csv-t, .ods-t vagy .fods-t.
+msg.phrase	Cannot open %s\n%s	%s nem nyitható meg\n%s
+msg.phrase	%s is a folder.	%s egy mappa.
+msg.phrase	Cannot import %s\n%s	%s nem importálható\n%s
+msg.phrase	Loaded %s	Betöltve %s
+msg.phrase	Cannot build the %s file.	Nem lehet létrehozni a %s fájlt.
+msg.phrase	Cannot write %s\n%s	%s nem írható\n%s
+msg.phrase	%s %s	%s %s
+msg.phrase	unsupported version %u	nem támogatott verzió %u
+msg.phrase	%d:%d:%d:%d:%d:%d	%d:%d:%d:%d:%d:%d
+msg.phrase	Octave %d	Oktáv %d
+msg.phrase	Note %s	Megjegyzés %s
+msg.phrase	Instrument %d	Hangszer %d
+msg.phrase	Volume %s	kötet %s
+msg.phrase	Effect %c	Hatás %c
+msg.phrase	Parameter %s	Paraméter %s
+msg.phrase	Pattern %s	Minta %s
+msg.phrase	Playing pattern %s	Játékminta %s
+msg.phrase	SAVE ERROR: %s	MENTÉSI HIBA: %s
+msg.phrase	Saved %s	Mentve %s
+msg.phrase	LOAD ERROR: %s	BETÖLTÉSI HIBA: %s
+msg.phrase	BPM %d	BPM %d
+msg.phrase	Speed %d	Sebesség %d
+msg.phrase	Preview %s	Előnézet %s
+msg.phrase	Instrument %s %s	Műszer %s %s
+msg.phrase	Overwrite %s? (Y/N)	Felülírni %s? (I/N)
+msg.phrase	 | BPM %s SPD %s 	| BPM %s SPD %s
+msg.phrase	 SGNO TRACKER 1.0 | 	SGNO TRACKER 1.0 |
+msg.phrase	FILE 	FÁJL
+msg.phrase	 PAT %s	PAT %s
+msg.phrase	 ORD %d/%d	ORD %d/%d
+msg.phrase	 INS %s 	INS %s
+msg.phrase	 OCT %d	OKT %d
+msg.phrase	 EDIT %s	SZERKESZTÉS %s
+msg.phrase	ON 	ON
+msg.phrase	 FOL %s	FOL %s
+msg.phrase	TRACK %d	PÁLYA %d
+msg.phrase	%c%s	%c%s
+msg.phrase	%s %s %s %s	%s %s %s %s
+msg.phrase	%s 	%s
+msg.phrase	%d %s %s	%d %s %s
+msg.phrase	ORDER %d/%d	MEGRENDELÉS %d/%d
+msg.phrase	PAT   %s	PAT %s
+msg.phrase	INS %s %s	INS %s %s
+msg.phrase	OCT %d  EDIT %s	OCT %d SZERKESZTÉS %s
+msg.phrase	FOLLOW %s	KÖVESSEN %s
+msg.phrase	PLAYING  ORD %d/%d  PAT %s  ROW %s/%d  SPD %s  BPM %d  F7 STOP	LEJÁTSZÁSI ORD %d/%d PAT %s SOR %s/%d SPD %s BPM %d F7 STOP
+msg.phrase	READY  EDIT %s  OCT %d  F1 HELP  F5 PLAY  CTRL-S SAVE	KÉSZ SZERKESZTÉS %s OKT %d F1 SEGÍTSÉG F5 LEJÁTSZÁS CTRL-S MENTÉS
+msg.phrase	 %s 	%s
+msg.phrase	  F5          Play the song from the current order	F5 A dal lejátszása az aktuális sorrendből
+msg.phrase	  F6          Play the current pattern	F6 Az aktuális minta lejátszása
+msg.phrase	  F7/Ctrl-C   Stop playback	F7/Ctrl-C Lejátszás leállítása
+msg.phrase	  Space       Play / stop	Space Play / stop
+msg.phrase	  F4          Save as	F4 Mentés másként
+msg.phrase	  Ctrl-S      Save (asks for a name if new)	Ctrl-S Mentés (nevet kér, ha új)
+msg.phrase	  Ctrl-O      Open a song	Ctrl-O Dal megnyitása
+msg.phrase	  Ctrl-N      New song	Ctrl-N Új dal
+msg.phrase	  F12         Quit (confirmation if modified)	F12 Kilépés (módosítás esetén megerősítés)
+msg.phrase	  [ ]         Previous / next order entry	[ ] Előző / következő rendelési bejegyzés
+msg.phrase	  { }         Insert / delete an order entry	{ } Rendelési bejegyzés beszúrása/törlése
+msg.phrase	  - +         Change the pattern in the entry	- + Módosítsa a mintát a bejegyzésben
+msg.phrase	  F11         Follow playback (turns off on manual move)	F11 Lejátszás követése (kézi mozgatásra kikapcsol)
+msg.phrase	  F1          Help; Left/Right changes page	F1 Súgó; Bal/Jobb oldal megváltoztatja az oldalt
+msg.phrase	  F8          Toggle edit mode	F8 Szerkesztési mód váltása
+msg.phrase	  Arrows      Move the cursor	Nyilak A kurzor mozgatása
+msg.phrase	  PgUp/PgDn   Jump 16 rows	PgUp/PgDn Ugrás 16 sor
+msg.phrase	  Home/End    First / last row	Kezdőlap/Vége Első / utolsó sor
+msg.phrase	  F9/F10      Octave down / up	F9/F10 Oktáv le/fel
+msg.phrase	  Z S X D C V G B H N J M      lower piano row	Z S X D C V G B H N J M alsó zongorasor
+msg.phrase	  Q 2 W 3 E R 5 T 6 Y 7 U      upper piano row	Q 2 W 3 E R 5 T 6 Y 7 U felső zongorasor
+msg.phrase	  1           Note off	1 Megjegyzés kikapcsolva
+msg.phrase	  0 / Del     0 clears note/inst/fx; Del clears any	0 / Del 0 törli a note/inst/fx; Del törli bármelyiket
+msg.phrase	  Ctrl-Z      Undo the last pattern/order edit	Ctrl-Z Az utolsó minta/sorrend szerkesztés visszavonása
+msg.phrase	  Axy   Volume slide: up x, down y	Axy Volume csúszka: fel x, le y
+msg.phrase	  Cxx   Note cut after xx ticks	Cxx A jegyzet kivágása xx pipa után
+msg.phrase	  Dxx   Set volume (00..7F)	Dxx Hangerő beállítása (00..7F)
+msg.phrase	  Fxx   Speed if xx < 20, otherwise BPM	Fxx Sebesség, ha xx < 20, egyébként BPM
+msg.phrase	  Hxy   Arpeggio x, y semitones	Hxy Arpeggio x, y félhangok
+msg.phrase	  Pxx   Pitch slide up	Pxx Pitch felfelé
+msg.phrase	  Qxx   Pitch slide down	Qxx Pitch lecsúszás
+msg.phrase	  F2 song settings, F3 instrument list	F2 dalbeállítások, F3 hangszerlista
+msg.phrase	HELP %d/2	SEGÍTSÉG %d/2
+msg.phrase	  Title	Cím
+msg.phrase	  [%s_]	[%s_]
+msg.phrase	  BPM   : %d     (left/right -1/+1, -/+ -5/+5)	BPM : %d (bal/jobb -1/+1, -/+ -5/+5)
+msg.phrase	  Speed : %d ticks/row	Sebesség : %d kullancs/sor
+msg.phrase	  Rows  : %d (fixed)	Sorok: %d (fix)
+msg.phrase	  Order : %d entries	Sorrend : %d bejegyzések
+msg.phrase	  Patterns in use : %d	Használt minták: %d
+msg.phrase	 #  NAME       WAVE       A   D   S   R  VOL	# NAME WAVE A D S R VOL
+msg.phrase	 %c %d  %-9s %-9s %3d %3d %3d %3d %4d	%c %d %-9s %-9s %3d %3d %3d %3d %4d
+msg.phrase	Current instrument: %s %s	Jelenlegi műszer: %s %s
+msg.phrase	  %s	%s
+msg.phrase	DIR  %s	RENDEZŐ %s
+msg.phrase	 %c %s%s	%c %s%s
+msg.phrase	Files: %d	Fájlok: %d
+msg.phrase	%02d	%02d
+msg.phrase	%03d	%03d
+msg.phrase	%02X	%02X
+msg.phrase	SGNO TRACKER: incompatible SGX ABI\n	SGNO TRACKER: nem kompatibilis SGX ABI
+msg.phrase	S: check: wait -- a file is being read or written	S: check: várjon -- egy fájl olvasása vagy írása folyamatban van
+msg.phrase	S: check: the drive is busy or not ready	S: ellenőrizze: a meghajtó foglalt vagy nincs készen
+msg.phrase	nothing for this item (ContextMenu.cfg)	semmi ehhez az elemhez (ContextMenu.cfg)
+msg.phrase	bad command in ContextMenu.cfg	rossz parancs a ContextMenu.cfg fájlban
+msg.phrase	unknown action in ContextMenu.cfg	ismeretlen művelet a ContextMenu.cfg fájlban
+msg.prefix	menu	menü
+msg.phrase	choose a file or folder	válasszon egy fájlt vagy mappát
+msg.phrase	this drive cannot be written	ez a meghajtó nem írható
+msg.phrase	an archive job is already running	egy archiválási feladat már fut
+msg.phrase	no PSRAM for the archive task	nincs PSRAM az archiválási feladathoz
+msg.phrase	could not start the archive task	nem tudta elindítani az archiválási feladatot
+msg.phrase	too many items (32 at most)	túl sok elem (legfeljebb 32)
+msg.phrase	nothing to compress	nincs mit tömöríteni
+msg.phrase	no name (or the name has / or \\)	nincs név (vagy a névben van / vagy \\)
+msg.phrase	32 items at most (mark fewer, or put them in a folder)	Legfeljebb 32 elem (jelölj meg kevesebbet, vagy helyezd el egy mappába)
+msg.prefix	archive	archívum
+msg.prefix	compress	borogatás
+msg.prefix	render	renderelni
+msg.phrase	5 Macro	5 Makró
+msg.phrase	6 Help	6 Segítség
+msg.phrase	Run current	Futtassa az áramot
+msg.phrase	Run the macro at the cursor (#! header cell and the cells below it)	Futtassa a makrót a kurzornál (#! fejléccella és az alatta lévő cellák)
+msg.phrase	Run selection	Kiválasztás futtatása
+msg.phrase	Run the selected cells as one macro (top-left cell is the #! header)	Futtassa a kijelölt cellákat egyetlen makróként (a bal felső cella a #! fejléc)
+msg.phrase	Run all	Futtassa az összeset
+msg.phrase	Run every macro in the sheet, top-left to bottom-right	Futtassa az összes makrót a munkalapon balról fentről jobbra lent
+msg.phrase	Last error	Utolsó hiba
+msg.phrase	Show the last macro error	Az utolsó makróhiba megjelenítése
+msg.phrase	Macro	Makró
+msg.phrase	Macro: run #!ruby / #!python / #!basic cells	Makró: futtassa a #!ruby / #!python / #!alap cellákat
+msg.phrase	Edit the cell (F2)	Cella szerkesztése (F2)
+msg.phrase	Fit widths/heights to the contents	A szélességet/magasságot igazítsa a tartalomhoz
+msg.phrase	Last macro error	Utolsó makró hiba
+msg.phrase	No macro error.	Nincs makró hiba.
+msg.phrase	IME on	IME bekapcsolva
+msg.phrase	IME off	IME kikapcsolva
+msg.phrase	Macro: %s %s ...	Makró: %s %s ...
+msg.phrase	%s: this firmware cannot run macros (SGX ABI 5.10 or later)	%s: ez a firmware nem tud makrókat futtatni (SGX ABI 5.10 vagy újabb)
+msg.phrase	Macro error: %s	Makróhiba: %s
+msg.phrase	Macro: %s done	Makró: %s kész
+msg.phrase	a macro is already running	egy makró már fut
+msg.phrase	this language is not available	ez a nyelv nem elérhető
+msg.phrase	not enough memory	nincs elég memória
+msg.phrase	the macro stopped with an error	a makró hibával leállt
+msg.phrase	Macro error %s: %s	Makróhiba %s: %s
+msg.phrase	Macro: not enough memory	Makró: nincs elég memória
+msg.phrase	Macro: the cursor is not on a macro (a #!ruby / #!python / #!basic cell or the cells below it)	Makró: a kurzor nem makrón van (egy #!ruby / #!python / #!alapcellán vagy az alatta lévő cellákon)
+msg.phrase	Macro: no macro in the sheet	Makró: nincs makró a lapon
+msg.phrase	Run all macros	Futtassa az összes makrót
+msg.phrase	Macros: %d. Run them all, top-left to bottom-right? Changes cannot be undone.	Makrók: %d. Futtassa mindet, bal felsőtől jobb alsóig? A változtatások nem vonhatók vissza.
+msg.phrase	Macro: %d of %d done	Makró: %d / %d kész
+msg.phrase	Cleared the cell	Kiürítette a cellát
+msg.phrase	Cleared the selection	A kijelölés törlése
+msg.phrase	Background colour = %d	Háttérszín = %d
+msg.phrase	Text colour = %d	Szöveg színe = %d
+msg.phrase	Graph: line	Grafikon: vonal
+msg.phrase	Graph: bar	Grafikon: oszlop
+msg.phrase	Graph: mixed	Grafikon: vegyes
+msg.phrase	Graph: pie	Grafikon: pite
+msg.phrase	Exported %s	Exportált %s

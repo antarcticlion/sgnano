@@ -1,0 +1,373 @@
+# lb: machine translation (Google), unreviewed; 2026-11-17
+U001	Lëscht (Dateien an Ordner an 2 Kolonnen x 19 Zeilen)
+U002	Beweegt de Cursor (lénks / riets: déi aner Kolonn)
+U003	Virdrun Säit / nächst Säit
+U004	Markéiert alles / Invertéiert d'Marken (wéi am PC-98 FD)
+U005	Éischt / lescht
+U006	Markéieren a weidergoen / nëmmen markéieren
+U007	Shift + Pfeile
+U008	Wielt eng Rei (Space markéiert d'Band)
+U009	Gitt en Dossier / eng Datei opmaachen (F2/X lafen)
+U010	Bis zu den Elteren Dossier
+U011	Wielt en Drive (USB, Diskett, CD, S: agebaut)
+U012	Kopie (Shift + C / Shift + F3 wielt d'Destinatioun aus dem Bam)
+U013	Beweegen
+U014	Läschen (Shift+D / Shift+F4 läschen en Dossier)
+U015	ëmbenennen
+U016	Änneren d'Attributer
+U017	Open am Editor
+U018	Kuckt als Text (Shift+V / Ctrl+Alt+F7 Hex)
+U019	Fuert Informatiounen
+U020	Neien Dossier / nei Datei
+U021	Shell sgsh / d'Mëttel eraushuelen
+U022	Reload
+U023	Späichert den Ecran als PNG
+U024	D'Fënster zoumaachen / d'Auswiel läschen (an engem Ënnerdopper: eropgoen)
+U025	Dateioperatiounen (wéi an FD: Marken, dann de Beräich, dann de Cursor)
+U026	Kopie: wielt d'Destinatioun vum Drive an Dossierbaum. ESC stoppt
+U027	Läschen: confirméiert mat y. Marken a Beräicher op eemol. Classeure mat hirem Inhalt
+U028	Läschen en Dossier (mat sengem Inhalt)
+U029	Umbenennen (den Numm änneren, Enter)
+U030	Attributer: R nëmmen liesen, H verstoppt, S System, A Archiv
+U031	Neien Dossier
+U032	Nei (eidel) Datei
+U033	Kuckt als Text (Shift+V / Ctrl+Alt+F7 Hex)
+U034	Shell sgsh (ausgaang / Ctrl-D zréck an de Filer)
+U035	Identitéit vum Drive (INQUIRY, IDENTIFY)
+U036	Eject the FDD / LS-120 / CD Medium
+U037	Lued d'Lëscht erof (CD: vum TOC)
+U038	Empfang vum PC vum ZMODEM (zm.sh gesat)
+U039	Schéckt op de PC vun ZMODEM (zm.sh get)
+U040	Kompiléiert .rb a schreift .mrb
+U041	Ruby REPL (eng Zeil gläichzäiteg, Ctrl-D / ESC bis Enn)
+U042	MicroPython REPL
+U043	Split an 4 MB Deeler / matmaachen aus .001
+U044	Split / join (selwecht wéi Ctrl + F11 / F12)
+U045	Écran (Alt + F, kollidéiert net mat den FD F Schlësselen)
+U046	FB (Bild) / Text weisen / verstoppen
+U047	FB Display Säit (0-3)
+U048	Kloer de FB op 0 / halbéiert seng Hellegkeet (RGB555)
+U049	USB Endpunkter an de LAN Staat
+U050	D'FB Display Säit läschen / seng Hellegkeet halbéieren
+U051	Text Attributer Echantillon
+U052	Monitor EDID (liest beim Boot)
+U053	Schrëft ROM Lizenzen a Credits
+U054	Astellunge (Displaysprooch, IME an Tastaturlokal)
+U055	Auer (Japan Zäit gesat vum NTP; s synchroniséiert elo)
+U056	Open Spreadsheet (SGCALC)
+U057	Kontrolléiert S: fir Feeler (frot virum Reparatur)
+U058	OPEN TRACKER
+U059	Restart (frot als éischt)
+U060	Spillt den ADC Stereo-Input (GP40 / 41)
+U061	Export VGM / VGZ zu engem 96 kHz / 24-bit WAV
+U062	Dës Hëllef
+U063	Änneren der Säit
+U064	Zoumaachen
+U065	Text / Hex Viewer (wéi manner)
+U066	Eng Zeil
+U067	Eng Säit
+U068	Eng hallef Säit
+U069	Sichen (viraus / zréck) / nächst / virdrun
+U070	Zréck op d'Lëscht (F1: Hëllef vum Betrachter)
+U071	Image Viewer
+U072	Zréck op d'Lëscht (F2 F3 F6 F7 Shift+F2 F3 Aarbecht)
+U073	Editor (E / Shift+F8)
+U074	Späicheren (UTF-8; Linn endet a BOM behalen)
+U075	Zoumaachen (wann geännert: Y / N / ESC)
+U076	Asetzen / iwwerschreiwen
+U077	IME on/off (Japanesch / Englesch / Koreanesch)
+U078	IME Sprooch (Japanesch / Englesch / Koreanesch)
+U079	Engagéiert als hiragana / katakana
+U080	D'Hëllef vum Redakter
+U081	Shell
+U082	Shell (e csh-Subset. Exit / Ctrl-D fir zréck, Hëllef lëscht d'Befehle)
+U083	Lëscht an Plënneren
+U084	Fichier Operatiounen
+U085	Écran an Apparater
+U086	Zuschauer an Redakter
+U087	Hëllef %u / %u %s
+U088	Lénks Riets: Säit änneren F1 / ESC: zoumaachen
+U089	Restart sgnano?
+U090	[Restart]
+U091	[Ofbriechen]
+U092	Kuckt de S: Drive fir Feeler
+U093	Dateien %lu Ordner %lu
+U094	D'Gréisst passt net mat der Kette
+U095	Cluster vun näischt benotzt
+U096	Cross-linked Cluster
+U097	Broken Entréen
+U098	Déi zwee FAT Kopien ënnerscheeden sech
+U099	Keng Feeler.
+U100	Feeler goufen fonnt. Reparatur hinnen?
+U101	Reparéiert (d'Zuelen uewendriwwer goufen fixéiert).
+U102	Konnt net kontrolléieren oder reparéieren (S: ass beschäftegt).
+U103	[Reparatur]
+U104	[Ofbriechen]
+U105	All Schlëssel mécht zou
+U106	Astellungen
+U107	Sprooch weisen
+U108	Tastatur lokal
+U109	Up / Down Enter wielt ESC annuléieren
+U110	Sprooch weisen
+U111	Up / Down Enter: set ESC: zréck
+U112	Fix %c: wéi wéi ee Bréif? (A-Z ausser S. ESC annuléiert)
+U113	Fuert Bréif / Enter wielt F2 fix / unfix de Bréif F3 fix als ... L / ESC annuléieren
+U114	Partition %u
+U115	%c:* (fix, net verbonne) %04X:%04X%s %s
+U116	Notiz
+U117	Fuert %c: %s
+U118	Fuert (keen)
+U119	Audio CD %u Tracks
+U120	Folders %u Dateien %u total %s
+U121	Liesen ...
+U122	* markéiert %u %s
+U123	%lu bytes
+U124	Attr %s geännert %s erstallt %s %s
+U125	Sonn
+U126	Mon
+U127	Di
+U128	Mi
+U129	Do
+U130	Fr
+U131	Sa
+U132	D'Auer ass net agestallt (NTP iwwer de LAN)
+U133	FB Display %u schreiwen %u
+U134	1 Hëllef
+U135	2 lafen
+U136	3 Kopie
+U137	4 Del
+U138	5 ëmbenannt
+U139	7 fbclr
+U140	8 fbdm
+U141	9 Fuert
+U142	10 EP
+U143	11 Uhr
+U144	12 CALC
+U145	1 Attr
+U146	2 Info
+U147	3 Beweegt
+U148	5 mdir
+U149	6 Schell
+U150	8 Edit
+U151	9 Vue
+U152	10 s:ch
+U153	11 TRACK
+U154	12 Restart
+U155	1 Neie
+U156	2 Dossier
+U157	3 ëmbenannt
+U158	4 Attribut
+U159	6 Kopie
+U160	7 Beweegt
+U161	8 Läschen
+U162	9 Edit
+U163	10 mbg
+U164	11 Split
+U165	12 Maacht mat
+U166	1 Attr
+U167	2 fb
+U168	3 Text
+U169	5 Schrtt
+U170	6 dispg
+U171	9 ZMrcv
+U172	10 ZMsend
+U173	2 FBClr
+U174	3 FBDim
+U175	5 Reload
+U176	7 hex
+U177	9 licz
+U178	11 Opstellung
+U179	Setzt d'Auer (Japan Zäit. NTP konnt et net setzen)
+U180	Run mat Parameteren
+U181	Neien Dossier
+U182	Neie Fichier
+U183	Zäit:
+U184	Run:
+U185	Numm:
+U186	JJJJ-MM-DD hh:mm Enter set ESC keep
+U187	Gitt lafen <-> réckelen BS / Del läschen ESC annuléieren
+U188	Gitt ëmbenennen <-> réckelen BS / Del läschen ESC annuléieren
+U189	Gitt erstellen <-> réckelen BS / Del läschen ESC annuléieren
+U190	Läschen
+U191	Artikelen
+U192	Classeure gi mat hirem Inhalt geläscht. Bass du secher?
+U193	Dëse Fichier läschen?
+U194	(Dëst kann net réckgängeg gemaach ginn. Dateien an den Ordner ginn och geläscht)
+U195	[Jo (Y)]
+U196	[Nee (N)]
+U197	Hex Viewer: wielt eng Datei
+U198	Text Viewer: wielt eng Datei
+U199	Plënneren op
+U200	Kopéieren op
+U201	De Puffer ass voll
+U202	De Drive ass nëmme liesen
+U203	Kann net späicheren (kee Schrëftsteller)
+U204	Konnt net ufänken ze späicheren (den Drive ass beschäftegt?)
+U205	Spuert ...
+U206	2 Späicheren
+U207	5 Faarf
+U208	6 Hire
+U209	7 kaat
+U210	8 Vird
+U211	10 Opgoen
+U212	1 Top
+U213	2 Enn
+U214	3 InsOvr
+U215	4 dir
+U216	6 Hhir
+U217	7 hkaat
+U218	%s %s Ln %lu/%lu Col %u %s %s %s%s%s
+U219	*Mod
+U220	OVR
+U221	INS
+U222	R/O
+U223	Redakter (sgnano Ännerung) F1 / ESC zou
+U224	Pfeile / Home End / PgUp PgDn de Cursor beweegen
+U225	Ctrl-T / Ctrl-B uewen / Enn vun der Datei
+U226	BS / Del läschen virun / um Cursor
+U227	Gitt eng nei Zeil (behält den Indent)
+U228	Tab / Ins Tab / Insert or overwrite
+U229	F5 Faarf (vun der Extensioun; C/C++, mruby, MicroPython, SG BASIC, keng)
+U230	F2 (Ctrl-S) späicheren (UTF-8, Zeilenden behalen)
+U231	F10 / ESC zoumaachen (frot ob geännert)
+U232	IME: Ctrl-Space / F12 on / off (あ / A)
+U233	F9 IME Sprooch (nëmmen dësen Editeur; restauréiert op Zoumaache)
+U234	F8 Japanesch predictive Konversioun op / aus
+U235	Japanesch Romaji -> hiragana (F6) / katakana (F7)
+U236	Hallefbreet Hiragana (Shift+F6) / Hallefbreet Katakana (Shift+F7)
+U237	Viraus mat 2 oder méi Zeechen, konvertéiert kontinuéierlech Klausel mat Space
+U238	Englesch Predictive Ofschloss mat 2 oder méi Zeechen
+U239	한국어 2 Bol-Stil Hangul
+U240	Space / Enter Convertéieren / Confirméieren
+U241	← → Wielt eng Phrase
+U242	Shift+← → De rietsen Enn vun der Klausel schrumpfen/wuessen mat engem Charakter (nei Kandidaten)
+U243	↑ ↓ / Tab Virdrun / nächste Kandidat am Popup (ënnert dem Text, uewen no ënnen)
+U244	Gitt op →→→ All Kandidaten (2 x 8, ← → Kolonn a Säit, Enter wielt)
+U245	Gitt d'nächst Klausel un (bestätegt dat Ganzt an der leschter Klausel)
+U246	Ctrl-U Füügt dat aktuellt Wuert an d'Benotzerwörterbuch
+U247	Shift+F1 / F2 / F3 / F4 Top / Enn / Insert-Iwwerschreiwe / an de Benotzer Wierderbuch
+U248	BS / ESC Go zréck ee Charakter / Ofbriechen
+U249	, . - [ ] / 、 。 ー 「 」 ・
+U250	Geännert Y: späicheren an zoumaachen N: zoumaachen ouni ze späicheren ESC: zréck
+U251	[Prognose] Tab/↑↓: Kandidat Space: konvertéieren Esc: annuléieren
+U252	[Kandidaten] ↑↓: wielt ←→: Kolonn/Säit Enter: wielt
+U253	[Konvertéieren] ↑↓cand ←→Klausel Shift+←→gebonnen Gitt nächst
+U254	[한국어] Tab/↑↓: Kandidat Enter/Space: confirméieren
+U255	[Lëtzebuergesch] Tab/↑↓: Kandidat Enter: confirméieren
+U256	2-Set Hangul Input Ctrl-Space: alphanumeric
+U257	Predictive Ofschloss Ctrl-Space: direkten Input
+U258	Keen Wierderbuch: hiragana / katakana nëmmen F6 / F7
+U259	Raum: konvertéieren F7: katakana Ctrl-Space: alphanumeresch
+U260	Raum: ëmsetzen F6: hiragana Ctrl-Space: alphanumeric
+U261	Halschent Breet F6: hiragana F7: katakana Shift + F6 / F7: Halschent
+U262	IME aus
+U263	viraussoen
+U264	Predictive japanesch Iwwersetzung: On
+U265	Predictive Iwwersetzung fir Japanesch: Off
+U266	Benotzt mat japanesch IME
+U267	Kann net un d'Benotzerwörterbuch addéieren
+U268	Faarf: %s
+U269	Lueden...
+U270	Konnt de Fichier net liesen
+U271	%lu Linnen%s%s
+U272	Shift_JIS als UTF-8 opgemaach (als UTF-8 gespäichert)
+U273	nëmmen liesen
+U274	Gespäichert
+U275	Konnt net späicheren (Schreiwen gescheitert)
+U276	Kandidaten
+U277	7 wrtpg
+U278	9 Text
+U279	9 hex
+U280	Lueden %lu%%
+U281	(nëmmen den Ufank)
+U282	Hex q ESC: zréck F1: Hëllef
+U283	Text q ESC: zréck F1: Hëllef
+U284	Viewer Schlësselen (wéi manner; d'selwecht fir Text an Hex)
+U285	Eng Linn erof
+U286	Eng Linn op
+U287	Eng Säit erof
+U288	Eng Säit erop
+U289	Eng hallef Säit erof / erop
+U290	/text ?text
+U291	Sich no ënnen / erop (ignoréiert Fall)
+U292	Nächste / virdrun Match
+U293	Weisen als Hex (op der selwechter Plaz)
+U294	Weisen als Text (op der selwechter Plaz)
+U295	D'Faarf änneren (C/C++, mruby, MicroPython, SG BASIC, keng)
+U296	Weisen / verstoppen den FB / den Text
+U297	FB Säit weisen / Schreif Säit
+U298	Zréck op de Filer
+U299	Zoumaachen dës Hëllef
+U300	Kopie
+U301	%s: d'Ordner liesen ... %u
+U302	%s: de fräie Raum op der Destinatioun zielen ...
+U303	%s: net genuch fräi Plaz op der Destinatioun
+U304	Move: d'Quelldateien erofhuelen
+U305	Gemaach
+U306	Gestoppt
+U307	%s amgaang%s
+U308	(stoppen)
+U309	Vun: %s
+U310	zu: %s
+U311	Dateien %u / %u Ordner %u %s / %s (%u%%)%s
+U312	ze vill: nëmmen e puer
+U313	Besoinen %s, fräi %s. Fuert weider?
+U314	Y: weider N / ESC: annuléieren
+U315	Press all Schlëssel fir zouzemaachen
+U316	ESC: ophalen
+U317	%s: ←→ Fuert ↑↓ Dossier Space oppen/zoumaachen Enter wielt ESC annuléieren
+U318	Kann net liesen: %s
+U319	D'Ordner liesen ... (ESC stoppt) %u
+U320	%u Ordner%s
+U321	(ze vill oder ze déif: nëmmen e puer)
+U322	Gestoppt den Dossier opzemaachen
+U323	Raum mécht et erëm op. ESC annuléiert nach eng Kéier
+U324	SMF / SGT Spiller %s
+U325	Lueden ... %lu / %lu Bytes
+U326	%s / %s %s Ports %u
+U327	Pauséiert
+U328	Spillen
+U329	Space: pause m: MIDI OUT q / ESC: stoppen
+U330	q / ESC: annuléieren
+U331	Schrëft ROM Lizenzen a Credits\n\nROM: %s (Versioun %lu.%lu, %lu Zeechen, vun 0x%08lX am Flash)
+U332	== Schrëften an der ROM (d'Original Tabelle vun der ROM) ==
+U333	(de ROM huet keen Dësch)
+U334	== De Kreditgebitt vun der ROM ==
+U335	(keng esou Beräich)
+U336	== Lizenzen vun der agebauter Software ==
+U337	Spueren %s als PNG %s
+U338	Écran
+U339	Bauen ... %lu / %lu Reihen
+U340	Schreiwen ... %lu / %lu KB (de FB ass verstoppt)
+U341	Konnt net schreiwen
+U342	Archivnumm (déi markéiert Elementer, oder de Cursor Element wann keen)
+U343	Gitt kompriméieren ←→ réckelen BS / Del läschen ESC annuléieren
+U344	WAV Export: %s annuléiert (%s)
+U345	WAV Export: %s gescheitert (%s)
+U346	WAV Export: %s Gesamt %s
+U347	WAV Export (96kHz / 24bit): %s
+U348	Annuléiert
+U349	Ausgefall
+U350	Gesamt %s
+U351	Annuléiert (%s; déi deelweis Datei gouf geläscht)
+U352	Konnt net exportéieren (%s). Grond:
+U353	(Ursaach onbekannt)
+U354	%u%% vergaangen %s%s
+U355	ESC: stoppen (déi deelweis Datei gëtt geläscht)
+U356	Archiv: %s
+U357	Liesen ... (ESC fir ze annuléieren)
+U358	%u Artikelen%s Gesamt %s Bytes Extrait op: %s
+U359	Gitt Extrait Element X Extrait all ↑↓ réckelen ESC zou
+U360	Kompriméieren
+U361	Lëscht
+U362	Extrait
+U363	Total %s %u Artikelen
+U364	Total %s %u Dateien
+U365	Annuléiert (%s; déi net fäerdeg Datei gouf geläscht)
+U366	Konnt et net maachen (%s): %s
+U367	%u%% vergaangen %s %s Bytes%s
+U368	vergaangen %s %s Bytes%s
+U369	ESC: stoppen (déi onfäerdeg Datei gëtt geläscht)
+U370	Archiv: %s gescheitert (%s)
+U371	Kompriméiert: %s (%u Artikelen)
+U372	Extrahéiert: %s (%u Dateien)

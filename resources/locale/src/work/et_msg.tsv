@@ -1,0 +1,787 @@
+# et: machine translation (Google), unreviewed; 2026-11-17
+M001	sõit läks ära
+M002	partitsioonide uuesti lugemine...
+M003	ei saanud helitugevust avada (mälu pole?)
+M004	helitugevuse avamine...
+M005	faililoendi jaoks pole mälu
+M006	kataloogi lugemine... (proovib uuesti)
+M007	ei saanud kataloogi lugeda
+M008	kataloogi lugedes...
+M009	draiv ei vastanud -- partitsioonide uuesti lugemine
+M010	ei saanud kataloogi lugeda (mitte FAT12/16/32?)
+M011	liiga palju kirjeid – kuvatakse esimesed
+M012	sellel partitsioonil failisüsteemi ei leitud
+M013	tee on liiga pikk
+M014	liitumine...
+M015	poolitamine...
+M016	ümbernimetamine...
+M017	kausta loomine...
+M018	faili loomine...
+M019	kustutamine...
+M020	atribuutide kirjutamine...
+M021	sõit on hõivatud
+M022	hõivatud
+M023	valige failid või kaustad
+M024	valige failid või kaustad (mitte "..")
+M025	peatage esmalt CD
+M026	CD-d ei saa muuta (selle asemel kopeerige)
+M027	süsteemikausta ei saa teisaldada
+M028	ühtegi draivi ei saa kirjutada (ainult FAT / exFAT / NTFS)
+M029	sõit on läinud
+M030	pole midagi valitud
+M031	pole midagi valitud
+M032	ei saanud alustada
+M033	ei saanud avada
+M034	ainult FAT/exFAT/NTFS-draivil
+M035	nime pole
+M036	see nimi on juba olemas
+M037	ei saanud käivitada (halb nimi või draiv on hõivatud)
+M038	ei saanud käivituda (draiv on hõivatud)
+M039	nimes ei tohi olla / või \\ (ainult selles kaustas)
+M040	nimi on sama
+M041	üksus on kirjutuskaitstud (muutmiseks A)
+M042	valige .rb-fail kirjutataval draivil
+M043	valige .rb-fail
+M044	draiv on kirjutuskaitstud
+M045	valige kirjutataval draivil kaust
+M046	oodake hetk
+M047	valige fail
+M048	vali fail (mitte kaust)
+M049	valige .001 fail
+M050	valige fail .001
+M051	pane IWAD kausta DoomFiles või Doom2Files
+M052	DoomFiles kasutab freedoom1 / doom / doomu / doom1.wad
+M053	Doom2Files võtab freedoom2 / doom2 / plutonia / tnt.wad
+M054	pane mängufailid välismälu, mitte S:
+M055	IWAD peab olema FAT/exFAT/NTFS-draivis (mitte CD-l)
+M056	töötab endiselt
+M057	pilti laaditakse
+M058	kaadripuhvrit pole
+M059	pool heledus töötab ainult RGB555 puhul
+M060	puhastamine...
+M061	heledus poole võrra...
+M062	see on andmerada
+M063	oota – faili kirjutatakse
+M064	ainult flopi / LS-120 / CD-draivid
+M065	taotletud
+M066	plaadi lugemine...
+M067	peatus...
+M068	avamine...
+M069	tehtud
+M070	pole mälu
+M071	juba avatud
+M072	juba jookseb
+M073	juba säästavad
+M074	juba mängib
+M075	sellist sõitu pole
+M076	PSRAM puudub
+M077	faili jaoks pole PSRAM-i
+M078	reaindeksi jaoks pole PSRAM-i
+M079	terminali jaoks pole PSRAM-i
+M080	mälu puudub (PSRAM)
+M081	mälu puudub (32KB SRAM)
+M082	puhvri jaoks pole mälu
+M083	pildipuhvrite jaoks pole mälu
+M084	lugemispuhvri jaoks pole mälu
+M085	pole ruumi töömälu jaoks (sulgege madalam tasapind?)
+M086	kaadripuhvri leht puudub
+M087	liiga suur (maksimaalselt 4 MB)
+M088	fail on liiga suur (maksimaalselt 1 MB)
+M089	fail on liiga suur (max 1 MB)
+M090	SMF-i jaoks liiga suur (maksimaalselt 1 MB)
+M091	fail on tühi
+M092	ei saanud faili avada
+M093	ei saanud faili lugeda
+M094	köidet ei saanud avada
+M095	sihtkohta ei saanud avada (mälu pole?)
+M096	ei saanud juurkausta lugeda
+M097	ei saanud ülesannet alustada
+M098	ei saanud kirjutama hakata (halb nimi või hõivatud)
+M099	teine ​​köide on avatud (hõivatud)
+M100	koopia töötab
+M101	kaust ei saa minna iseendasse
+M102	see on sama kaust
+M103	seda draivi ei saa muuta (kirjutuskaitstud)
+M104	draiv ei ole kirjutatav
+M105	osa suurus peab olema 512 kordne
+M106	4 GB või suuremaid faile ei toetata
+M107	halb tee
+M108	halb failinimi
+M109	fondi ROM pole seal
+M110	heli pole avatud
+M111	sellist kanalit pole
+M112	sekvenser on hõivatud
+M113	laulu jaoks pole piisavalt PSRAM-i
+M114	pole tavaline MIDI-fail (ilma MThd-d)
+M115	jälgi pole
+M116	rada on katki (MTrk)
+M117	SMPTE ajajaotust ei toetata
+M118	SMF-vormingut 2 ei toetata (ainult 0 ja 1)
+M119	mitte ainult hulgidraiv
+M120	mitte optiline draiv
+M121	süsteemikausta ei saa kustutada ega ümber nimetada
+M122	draivis pole meediumit
+M123	valmis saama
+M124	pole valmis
+M125	meedia muutunud
+M126	keskmine viga
+M127	ebaseaduslik taotlus
+M128	halb kataloogi kirje
+M129	teel olevat kataloogi pole olemas
+M130	failil on see nimi
+M131	kaustal on see nimi
+M132	teel olev nimi ei ole kataloog
+M133	tühistatud
+M134	ei saanud paigaldada
+M135	ei saanud lugemist alustada
+M136	ei saanud kirjutama hakata
+M137	on kataloog
+M138	see on kataloog
+M139	ei mingeid klastreid
+M140	klastri loendile pole ruumi
+M141	sellist faili või kataloogi pole
+M142	sellist faili pole
+M143	helitugevus puudub
+M144	mitte NTFS
+M145	mitte exFAT
+M146	mitte kataloog
+M147	ei leitud
+M148	lugemisviga
+M149	kirjutamisviga
+M150	FAT-i lugemine ebaõnnestus
+M151	klastri ahel on failist lühem
+M152	kataloog ei ole tühi
+M153	ketas on täis
+M154	sõitja ei vastanud
+M155	fail on kirjutuskaitstud
+M156	fail on liiga killustatud
+M157	fail on liiga suur (4 GB)
+M158	uus nimi on juba olemas
+M159	juurkataloog on täis
+M160	liiga palju sama lühikese nimega faile
+M161	Sellist faili ega kataloogi pole
+M162	Fail on olemas
+M163	Luba ei antud
+M164	Kataloog pole tühi
+M165	Mitte kataloog
+M166	On kataloog
+M167	Kirjutuskaitstud failisüsteem
+M168	Seadmes pole ruumi
+M169	Sisend/väljund viga
+M170	Sellel draivil ei toetata
+M171	Vale tee
+M172	Mälu otsas
+M173	Sellist sõitu pole
+M174	peatunud
+M175	tühistatud (pole piisavalt vaba ruumi)
+M176	ei suutnud vaba ruumi kokku lugeda
+M177	vastuvõtja tühistati
+M178	vastuvõtjat pole (käivitage rz arvutis)
+M179	konsool UART on kasutusel
+M180	ekraanirežiim muutus
+M181	ridu ei tulnud (kas ekraan töötab?)
+M182	kopeerida
+M183	liigutada
+M184	kustutada
+M185	ümber nimetada
+M186	atribuudid
+M187	uus fail
+M188	uus kaust
+M189	pilt
+M190	mrbc
+M191	rubiin
+M192	vaataja
+M193	muuda
+M194	TUNNISTAGE
+M195	ZMODEM
+M196	ZMODEM vastu võtta
+M197	ZMODEM saata
+M198	poolitatud
+M199	liituda
+M200	Doom
+M201	SMF
+M202	CD
+M203	FB
+M204	Väljuta
+M205	taaskäivitage
+M206	litsents
+M207	kella
+M208	ADC sisse
+M209	ekraan -> PNG
+M210	FB -> PNG
+M211	köidet ei saanud avada
+M212	saanud
+M213	saadetud
+M214	salvestatud
+M215	loodud
+M216	ümber nimetatud
+M217	kustutatud
+M218	muutunud
+M219	liitunud
+M220	poolitatud
+M221	ei saanud luua
+M222	ei saanud kustutada
+M223	ei saanud ümber nimetada
+M224	muuta ei saanud
+M225	lugeda ei osanud
+M226	ei osanud kirjutada
+M227	kopeerida ei saanud
+M228	ei saanud teha
+M229	kausta ei saanud eemaldada
+M230	ei saanud eemaldada
+M231	jaoks pole mälu
+M232	liiga palju vigu saatmisel
+M233	vastuvõtja ei võtnud
+M234	vastuvõtja jättis vahele
+M235	FB leht
+M236	baiti igaüks)
+M237	baiti)
+M238	KB)
+M239	osad sisse
+M240	osad (
+M241	sisse
+M242	: kustutatud
+M243	: heledus poole võrra
+M244	% loetud
+M245	read
+M246	-- pole veel toetatud (ainult FAT / exFAT / NTFS)
+M247	failid
+M248	(
+M249	Pealkirjata
+M250	1 fail
+M251	2 Redigeeri
+M252	3 Graafik
+M253	4 Leht
+M254	5 Abi
+M255	TÜHJA
+M256	NUMBER
+M257	TEKST
+M258	VALEM
+M259	Sisestamiseks tippige, muutmiseks F2, abi saamiseks F1
+M260	5 CSV
+M261	6 ODS
+M262	[SHIFT]
+M263	[CTRL]
+M264	[ALT]
+M265	Valmis
+M266	SGCALC
+M267	Vajutage suvalist klahvi
+M268	Y = jah N = ei Esc = tühista
+M269	Enter = OK Esc = tühista Ctrl-U = tühjendamine
+M270	Esimene rida/veerg = sildid; diagrammid kasutavad 640x480 CLUT8 FB-d.
+M271	SGCALC – ABI
+M272	Naasmiseks vajutage suvalist klahvi
+M273	Naasmiseks vajutage suvalist klahvi.
+M274	SGCALCI KOHTA
+M275	Uus
+M276	Alustage uut lehte
+M277	Ava...
+M278	Avage ODS-, FODS- või CSV-fail
+M279	Salvesta
+M280	Salvestage praegune fail
+M281	Salvesta kui...
+M282	Salvestage uue nime või vorminguga
+M283	Ekspordi CSV...
+M284	Kirjutage CSV-koopia
+M285	Ekspordi ODS...
+M286	Kirjutage LibreOffice'i koopia
+M287	Lõpeta
+M288	Lahku SGCALC-st
+M289	Selge
+M290	Tühjendage valitud lahtrid
+M291	Kopeeri
+M292	Kopeerige valik
+M293	Kleebi
+M294	Kleebi kursorile
+M295	Lõika
+M296	Kopeerige ja tühjendage valik
+M297	Valige kõik
+M298	Valige kõik kasutatud lahtrid
+M299	Teksti värv...
+M300	Valige teksti värv
+M301	Taust...
+M302	Valige lahtri taust
+M303	Liin
+M304	Joonistage valikust joondiagramm
+M305	Baar
+M306	Joonistage valikust tulpdiagramm
+M307	Segatud
+M308	Esimese seeria jaoks kangid, ülejäänud jaoks read
+M309	Pirukas
+M310	Joonistage valikust sektordiagramm
+M311	Vahemik...
+M312	Määrake graafiku vahemik selgelt
+M313	Joonista uuesti
+M314	Joonistage viimane graafik uuesti
+M315	Mine...
+M316	Hüppa lahtrisse (näiteks C12)
+M317	Veeru laius...
+M318	Muutke valitud veergude laiust
+M319	Rea kõrgus...
+M320	Muutke valitud ridade kõrgust
+M321	Automaatne sobivus
+M322	Sobitage laiused/kõrgused sisule (F7)
+M323	Arvuta ümber
+M324	Hinnake kõik valemid uuesti
+M325	Kustuta kõik
+M326	Tühjendage kogu leht
+M327	Võtmed
+M328	Näidake võtmejuhendit
+M329	Umbes
+M330	SGCALC kohta
+M331	Fail
+M332	Muuda
+M333	Graafik
+M334	Leht
+M335	Abi
+M336	Fail: uus, ava, salvesta, eksport, sulge
+M337	Redigeerimine: tühjendage, kopeerige, kleepige, lõigake, valige kõik
+M338	Graafik: joon, riba, segatud, pirukas (joonised FB-s)
+M339	Leht: Goto, veeru laius, ümberarvutamine, kustutamine
+M340	Abi: võtmed ja umbes
+M341	Vasak/Parem = menüü Üles/Alla = üksus Enter = vali Esc = tühista
+M342	Tühistatud
+M343	Valik on liiga suur või mälu on vähe.
+M344	rakk
+M345	valikut
+M346	Pole midagi kleepida
+M347	Kleebitud
+M348	MINGE CELL
+M349	Lahtri viide (A1):
+M350	Mine
+M351	VEERU LAIUS
+M352	Laius tähemärkides (4...30):
+M353	REA KÕRGUS
+M354	Kõrgus tekstiridades (1...8):
+M355	Automaatne sobitamine: leht on tühi
+M356	TAUST VÄRV
+M357	TEKSTI VÄRV
+M358	Nooled: vali Enter: rakenda Esc: tühista
+M359	Värviindeks (PC-98 16-värvipalett)
+M360	Aa 123
+M361	Enter = rakenda Esc = tühista
+M362	Värv
+M363	Taust
+M364	Tekst
+M365	GRAAFIKAVALIK
+M366	Vahemik (näiteks A1:C10):
+M367	Graafiku vahemik
+M368	Kasutage vahemikku, näiteks A1:C10.
+M369	Graafikut ei saa joonistada.
+M370	rida
+M371	baar
+M372	segatud
+M373	pirukas
+M374	Kas kustutada kõik selle lehe lahtrid?
+M375	Leht kustutatud
+M376	Valiti kõik kasutatud lahtrid
+M377	Arvutatud ümber
+M378	Mälu
+M379	Arvutustabeli jaoks pole piisavalt PSRAM-i.
+M380	Leht on tühi.
+M381	Valitud vahemikus pole arvandmeid.
+M382	muud
+M383	Sektordiagrammil pole positiivseid väärtusi
+M384	JOON
+M385	BAR
+M386	SEGA
+M387	PIIRKAS
+M388	S:/
+M389	Kaust
+M390	SALVESTA AS
+M391	AVA FAIL
+M392	LibreOffice / CSV
+M393	ODS FODS CSV
+M394	Nimi:
+M395	(sisestage nimi või valige allpool)
+M396	Nimi
+M397	Suurus
+M398	Enter=salvesta Vasak=üles paremale/Sisesta [DIR]=ava Tab=sõit Esc=tühista
+M399	Enter=ava Vasak=üles paremale/Sisesta [DIR]=ava Tab=draiv Esc=tühista
+M400	Pole piisavalt mälu.
+M401	Üle kirjutada
+M402	Avatud
+M403	Fail on liiga suur (piirang 8 MB).
+M404	Faili lugemiseks pole piisavalt mälu.
+M405	Valed ZIP/ODS-andmed.
+M406	CRC viga ODS-failis.
+M407	Toetamata või kahjustatud fail.
+M408	Salvestatud
+M409	Eksporditud
+M410	Salvestamata muudatused
+M411	Kas salvestada praegune leht enne jätkamist?
+M412	Uus leht
+M413	SGTRK
+M414	NIMETAMATA
+M415	laul on liiga suur
+M416	tühi fail
+M417	mitte SGT-fail
+M418	halb BPM
+M419	halb kiirus
+M420	halb pealkirja pikkus
+M421	kärbitud pealkiri
+M422	pealkirjas halb tegelane
+M423	kärbitud järjekord
+M424	halb tellimuse pikkus
+M425	halb mustri number korras
+M426	kärbitud mustrite loend
+M427	halb mustrite arv
+M428	halva mustri indeks
+M429	dubleeritud muster
+M430	kärbitud mustriandmed
+M431	kehtetud mustriandmed
+M432	faili lõpuandmed
+M433	järjekord viitab puuduvale mustrile
+M434	A:/
+M435	(pealkirjata)
+M436	Valmis. Abi saamiseks vajutage F1.
+M437	Jälgi VÄLJAS
+M438	Midagi pole tagasi võtta
+M439	Võta tagasi
+M440	Märkus VÄLJAS
+M441	Esmalt määrake efekttäht
+M442	Efekt kustutatud
+M443	Parameeter kustutatud
+M444	Märkus kustutatud
+M445	Instrument tühjendatud
+M446	Helitugevus kustutatud
+M447	Tellimuste nimekiri on täis
+M448	Tellimus sisestatud
+M449	Viimast tellimust ei saa kustutada
+M450	Tellimus kustutatud
+M451	Laulu mängimine
+M452	Peatatud
+M453	Uus laul
+M454	Kas loobuda salvestamata muudatustest ja alustada uut lugu? (jah/ei)
+M455	Kas loobuda salvestamata muudatustest ja avada lugu? (jah/ei)
+M456	Kas loobuda salvestamata muudatustest ja väljuda? (jah/ei)
+M457	Loo seadeid värskendati
+M458	Failinimi on tühi
+M459	Salvestamine tühistati
+M460	Avatud on tühistatud
+M461	Redigeerimine ON
+M462	Redigeerimine VÄLJAS
+M463	Jälgi ON
+M464	Redigeerimine on VÄLJAS. Redigeerimiseks vajutage F8.
+M465	I/O viga
+M466	fail on liiga suur
+M467	kärbitud fail
+M468	SINE PAD
+M469	KOLMNURK
+M470	SAEE PLII
+M471	RUUT
+M472	PULSS 25
+M473	ORGAN
+M474	BASS
+M475	KELLU
+M476	MÜRA
+M477	SINE
+M478	SAW
+M479	VÄLJAS
+M480	SEES
+M481	RIDA
+M482	KANALI TASE
+M483	F1 ABI F2 LAUL
+M484	F3 INS F4 SAVE
+M485	F5 MÄNGI F6 PAT
+M486	F7 STOP F8 EDIT
+M487	F9/F10 OCTAVE
+M488	F11 JÄLGI
+M489	F12 LÕPETA
+M490	RUUMI MÄNGIMINE/STOPP
+M491	CTRL-S SALVESTA
+M492	CTRL-O AVATUD
+M493	C-N UUS C-Z UNDO
+M494	C-C STOP
+M495	#TRANSPORT JA FAILID
+M496	#TELLIMISLOE
+M497	#DISPLAY
+M498	#TOIMING
+M499	#EFFECTS (parameeter on kuueteistkümnendsüsteem)
+M500	VASAKU/PAREMA LEHEKÜLJE SISESTAMINE VÕI F1 SULGE
+M501	LAULU SEADED
+M502	ÜLES/ALLA VALI VASAKULE/PAREMALE REGULEERIMINE ENTER/F2 SULE
+M503	Pealkirja muutmiseks tippige. Backspace kustutab viimase tähemärgi.
+M504	BPM vahemik 32...255. Kiirusevahemik 1...31.
+M505	Mustriefektid võivad mängu ajal muuta ka kiirust ja BPM-i.
+M506	INSTRUMENDID
+M507	ÜLES/ALLA VALI RUUMI EELVAADE SISESTAGE KASUTAMINE F3 SULGE
+M508	Kõik neli kanalit kasutavad lainetabeli sünteesi.
+M509	Eelvaade esitab C-4 rajal redigeerimiskursori all.
+M510	SALVESTA LAULU AS
+M511	SISESTAGE SAVE F4 VÕI CTRL-C TÜHISTA
+M512	Kataloog:
+M513	Faili nimi:
+M514	Laiend .SGT lisatakse automaatselt.
+M515	Olemasoleva faili saab üle kirjutada.
+M516	AVATUD LAUL
+M517	SISESTAGE AVA BS PARENT CTRL-O/CTRL-C TÜHISTA
+M518	(selles kaustas pole .SGT-faile)
+M519	KINNITA
+M520	Y = JAH N / ENTER / CTRL-C = EI
+M521	Y = jah N = ei
+M522	C-
+M523	C#
+M524	D-
+M525	D#
+M526	E-
+M527	F-
+M528	F#
+M529	G-
+M530	G#
+M531	A-
+M532	A#
+M533	B-
+M534	A:/direktor/nimi
+M535	MThd
+M536	MThd katki
+M537	MIDI IMPORT
+M538	MTrk
+M539	katki deltaaeg
+M540	katki jooksmise olek
+M541	katki metasündmus
+M542	murtud sysex sündmus
+M543	katkise kanali sündmus
+M544	SMF-i väljund on liiga väike
+M545	SMF-i väljund on liiga suur
+M546	lugu on SMF-i jaoks liiga pikk
+M547	TRK1
+M548	%s%d
+M549	%s%d:%s%d
+M550	%s
+M551	%.40s%s
+M552	[%s] %s
+M553	MUUDA
+M554	VALMIS
+M555	%4d
+M556	%s Summa %.7g N %ld%s
+M557	NOOLED liigutavad lahtri kursorit
+M558	SHIFT+ARR laiendab valikut (graafikute/kopeerimise jaoks)
+M559	ENTER muuda lahtrit; muutmises, siduda ja liikuda alla
+M560	TAB järgmine lahter SHIFT+TAB eelmine lahter
+M561	DELETE kustutab valitud lahtri(d) ESC tühistab
+M562	PGUP/PGDN liigutab ühe ekraani AVA/LÕPP esimese/viimase veeru
+M563	CTRL+HOME A1 CTRL+END viimati kasutatud lahter
+M564	F1 abi F2 redigeerimine F3 kopeeri F4 kleebi F5 läks F6 värvi
+M565	F7 automaatne sobitamine F8 taust F9 uuesti arvutamine F10 graafik F11 salvesta F12 menüü
+M566	SHIFT+F1 umbes SHIFT+F2 rea kõrguse kohta SHIFT+F3 veeru laius
+M567	SHIFT+F4 vali kogu SHIFT+F10 graafiku vahemik SHIFT+F11 salvesta kui
+M568	CTRL+F1 uus CTRL+F2 ava CTRL+F3 salvesta CTRL+F4 salvesta nimega
+M569	CTRL+F5 eksport CSV CTRL+F6 eksport ODS ALT+F12 väljub
+M570	Alumised 2 rida: funktsiooniklahvid; [SHIFT]/[CTRL]/[ALT] nagu failier
+M571	CTRL+S salvesta CTRL+O ava CTRL+N uus CTRL+C/V/X kopeeri/kleebi/lõika
+M572	CTRL+G läheb / avage menüü (1 fail, 2 redigeerimine, ...)
+M573	Sisseehitatud funktsioonid: SUMMA KESKMINE MIN MAX COUNT COUNTA
+M574	TOODE ABS SQRT INT ROUND MOD POWER, KUI JA VÕI MITTE
+M575	IFERROR LEN LEFT PAREM KESKMINE ÜLEMINE ALUMINE TRIM CONCATENATE PI
+M576	Lahtri viited: A1, $A$1, A1:B10.  Valemid algavad tähega '='.
+M577	Failid: .ods (LibreOffice), .fods (flat XML), .csv
+M578	ODS/FODS säilitab valemid, laiused, kõrgused ja värvid.
+M579	CSV säilitab väärtused ja valemid (pole värve/kõrgusi).
+M580	Graafik: valige vahemik, vajutage F10 ja valige Line/Bar/Mixed/Pie.
+M581	SGCALC sgnano jaoks
+M582	Versioon
+M583	Lotus 1-2-3 stiilis arvutustabel SGX-programmina.
+M584	SGX ABI %u.%u
+M585	Ekraanirežiim 3: tekst + CLUT8 FB (madal sagedus keelatud)
+M586	Leht: %d rida x %d veergu
+M587	Vormingud: .ods / .fods (LibreOffice), .csv
+M588	Ruudustik joonistatakse tekstitasandile.
+M589	Diagrammid ja 640x480 taust kasutavad FB-d.
+M590	%d %s
+M591	Lahtrit (%d) ei saa salvestada.
+M592	Kopeeritud %d x %d lahtrit
+M593	Kustutatud %s
+M594	„%s” ei ole lahtriviide.
+M595	%d
+M596	Veeru laius = %d
+M597	Rea kõrgus = %d
+M598	Automaatne sobitamine: %d veerg(id), %d rida(d)
+M599	%2d
+M600	Värvi (%d) ei saa rakendada.
+M601	%s värv = %d
+M602	Ei ole kehtiv vahemik.\nKasutage vahemikku, näiteks A1:C10.
+M603	Graafiku vahemik %s
+M604	Graafik: %s
+M605	SGCALC: ei saa seadistada ekraanirežiimi 3: %s
+M606	%.2g
+M607	%.6g
+M608	%s %.0f%%
+M609	GRAAFIK %s %s
+M610	%s%s
+M611	%s/%s
+M612	%.*s
+M613	%.*s/
+M614	%s ei saa lugeda\n%s
+M615	Kaust: %s
+M616	[DIR] %s
+M617	%s
+M618	%lu.%luM
+M619	%luK
+M620	%luB
+M621	RAAMAT1%s
+M622	%c:/
+M623	Toetamata laiendus.\nKasutage faili .csv, .ods või .fods.
+M624	%s on juba olemas.\nKas kirjutada üle?
+M625	%s ei pruugi olla kirjutatav.\nProovi ikkagi?
+M626	Tundmatu failitüüp %s jaoks
+M627	Toetamata failitüüp.\nKasutage faili .csv, .ods või .fods.
+M628	%s ei saa avada\n%s
+M629	%s on kaust.
+M630	%s ei saa importida\n%s
+M631	Laaditud %s
+M632	%s-faili ei saa koostada.
+M633	%s ei saa kirjutada\n%s
+M634	%s %s
+M635	toetamata versioon %u
+M636	%d:%d:%d:%d:%d:%d
+M637	Oktav %d
+M638	Märkus %s
+M639	Instrument %d
+M640	Helitugevus %s
+M641	Mõju %c
+M642	Parameeter %s
+M643	Muster %s
+M644	Mängimismuster %s
+M645	SALVESTAMISVIGA: %s
+M646	Salvestatud %s
+M647	LAADIMISVIGA: %s
+M648	BPM %d
+M649	Kiirus %d
+M650	Eelvaade %s
+M651	Instrument %s %s
+M652	Kas kirjutada %s? (jah/ei)
+M653	| BPM %s SPD %s
+M654	SGNO TRACKER 1.0 |
+M655	FAIL
+M656	PAT %s
+M657	ORD %d/%d
+M658	INS %s
+M659	OKT %d
+M660	MUUDA %s
+M661	SEES
+M662	FOL %s
+M663	RAADA %d
+M664	%c%s
+M665	%s %s %s %s
+M666	%s
+M667	%d %s %s
+M668	TELLI %d/%d
+M669	PAT %s
+M670	INS %s %s
+M671	OCT %d MUUDA %s
+M672	JÄLGI %s
+M673	MÄNGIMISORD %d/%d PAT %s RIDA %s/%d SPD %s BPM %d F7 STOP
+M674	VALMIS EDIT %s OKT %d F1 ABI F5 MÄNGI CTRL-S SALVESTA
+M675	%s
+M676	F5 Esitage lugu praegusest järjestusest
+M677	F6 Esitage praegune muster
+M678	F7/Ctrl-C Taasesituse peatamine
+M679	Space Play / stop
+M680	F4 Salvesta nimega
+M681	Ctrl-S Salvesta (kui uus, küsib nime)
+M682	Ctrl-O Loo avamine
+M683	Ctrl-N Uus laul
+M684	F12 Välju (muutmise korral kinnitus)
+M685	[ ] Eelmine / järgmine tellimuse kanne
+M686	{ } Tellimuse kirje sisestamine/kustutamine
+M687	- + Muutke kirjes olevat mustrit
+M688	F11 Jälgi taasesitust (lülitub käsitsi liigutamisel välja)
+M689	F1 Abi; Vasak/parem muudab lehte
+M690	F8 Muutmisrežiimi sisse- ja väljalülitamine
+M691	Nooled Liigutage kursorit
+M692	PgUp/PgDn Hüppa 16 rida
+M693	Avaleht/Lõpp Esimene / viimane rida
+M694	F9/F10 Oktav alla/üles
+M695	Z S X D C V G B H N J M alumine klaveririda
+M696	Q 2 W 3 E R 5 T 6 Y 7 U ülemine klaveririda
+M697	1 Märkus väljas
+M698	0 / Del 0 tühjendab note/inst/fx; Del tühjendab kõik
+M699	Ctrl-Z Tühistab viimase mustri/järjestuse redigeerimise
+M700	Axy Volume liugur: üles x, alla y
+M701	Cxx Märkus lõigatud pärast xx linnukest
+M702	Dxx Helitugevuse määramine (00..7F)
+M703	Fxx Kiirus, kui xx < 20, muidu BPM
+M704	Hxy Arpeggio x, y pooltoonid
+M705	Pxx Tõusu üles
+M706	Qxx Pöörake alla
+M707	F2 laulu seaded, F3 pillide loend
+M708	ABI %d/2
+M709	Pealkiri
+M710	[%s_]
+M711	BPM : %d (vasak/parem -1/+1, -/+ -5/+5)
+M712	Kiirus : %d puugid/rida
+M713	read: %d (fikseeritud)
+M714	Järjestus : %d kanded
+M715	Kasutusel olevad mustrid: %d
+M716	# NIMI LAINE A D S R VOL
+M717	%c %d %-9s %-9s %3d %3d %3d %3d %4d
+M718	Praegune instrument: %s %s
+M719	%s
+M720	REŽ %s
+M721	%c %s%s
+M722	Failid: %d
+M723	%02d
+M724	%03d
+M725	%02X
+M726	SGNO TRACKER: ühildumatu SGX ABI
+M727	S: check: oota -- faili loetakse või kirjutatakse
+M728	S: kontrollige: draiv on hõivatud või pole valmis
+M729	selle üksuse jaoks pole midagi (ContextMenu.cfg)
+M730	halb käsk failis ContextMenu.cfg
+M731	tundmatu toiming failis ContextMenu.cfg
+M732	menüü
+M733	valige fail või kaust
+M734	seda draivi ei saa kirjutada
+M735	arhiivitöö juba käib
+M736	arhiiviülesande jaoks pole PSRAM-i
+M737	arhiivitoimingut ei saanud alustada
+M738	liiga palju üksusi (maksimaalselt 32)
+M739	pole midagi kokku suruda
+M740	nime pole (või nimes on / või \\)
+M741	Maksimaalselt 32 üksust (märkige vähem või pange need kausta)
+M742	arhiiv
+M743	suruma kokku
+M744	renderdama
+N001	5 Makro
+N002	6 Abi
+N003	Käivitage vool
+N004	Käivitage makro kursoril (#! päiselahter ja selle all olevad lahtrid)
+N005	Käivita valik
+N006	Käivitage valitud lahtrid ühe makrona (ülemine vasak lahter on #! päis)
+N007	Käivita kõik
+N008	Käitage lehe kõiki makrosid ülevalt vasakult alla paremale
+N009	Viimane viga
+N010	Kuva viimane makro viga
+N011	Makro
+N012	Makro: käivitage #!ruby / #!python / #!baaslahtrid
+N013	Muuda lahtrit (F2)
+N014	Sobitage laiused/kõrgused sisuga
+N015	Viimane makro viga
+N016	Makro viga pole.
+N017	IME sisse
+N018	IME väljas
+N019	Makro: %s %s ...
+N020	%s: see püsivara ei saa käivitada makrosid (SGX ABI 5.10 või uuem)
+N021	Makro viga: %s
+N022	Makro: %s tehtud
+N023	makro juba töötab
+N024	see keel pole saadaval
+N025	pole piisavalt mälu
+N026	makro peatus veaga
+N027	Makro viga %s: %s
+N028	Makro: pole piisavalt mälu
+N029	Makro: kursor ei asu makrol (#!ruby / #!python / #!põhilahter või selle all olevad lahtrid)
+N030	Makro: lehel makrot pole
+N031	Käivitage kõik makrod
+N032	Makrod: %d. Kas käivitada need kõik, ülevalt vasakult alla-paremale? Muudatusi ei saa tagasi võtta.
+N033	Makro: %d/%d tehtud
+N034	Tühjendas raku
+N035	Tühjendas valiku
+N036	Taustavärv = %d
+N037	Teksti värv = %d
+N038	Graafik: joon
+N039	Graafik: riba
+N040	Graafik: segatud
+N041	Graafik: pirukas
+N042	Eksporditud %s

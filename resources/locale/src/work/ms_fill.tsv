@@ -1,0 +1,179 @@
+# Bahasa Melayu — strings added since 2026-11-04 (machine translation, unreviewed; 2026-11-16)
+U004	Tanda semua / terbalikkan tanda (seperti PC-98 FD)
+U006	Tanda dan teruskan / tanda sahaja
+U008	Pilih julat (Space menanda julat)
+U009	Masuk folder / buka fail (F2/X jalankan)
+U012	Salin (Shift+C / Shift+F3 memilih destinasi dari pokok)
+U014	Padam (Shift+D / Shift+F4 memadam folder)
+U016	Tukar atribut
+U018	Lihat sebagai teks (Shift+V / Ctrl+Alt+F7 hex)
+U019	Maklumat pemacu
+U020	Folder baharu / fail baharu
+U021	Shell sgsh / keluarkan media
+U022	Muat semula
+U023	Simpan skrin sebagai PNG
+U024	Tutup tetingkap / kosongkan pilihan (dalam subfolder: naik)
+U025	Operasi fail (seperti FD: tanda, kemudian julat, kemudian kursor)
+U026	Salin: pilih destinasi dari pokok pemacu dan folder. ESC menghentikan
+U027	Padam: sahkan dengan y. Tanda dan julat serentak. Folder beserta kandungan
+U028	Padam folder (beserta kandungan)
+U030	Atribut: R baca sahaja, H tersembunyi, S sistem, A arkib
+U031	Folder baharu
+U032	Fail baharu (kosong)
+U033	Lihat sebagai teks (Shift+V / Ctrl+Alt+F7 hex)
+U034	Shell sgsh (exit / Ctrl-D kembali ke pengurus fail)
+U036	Keluarkan media FDD / LS-120 / CD
+U037	Muat semula senarai (CD: dari TOC)
+U038	Terima dari PC melalui ZMODEM (zm.sh put)
+U039	Hantar ke PC melalui ZMODEM (zm.sh get)
+U041	REPL Ruby (satu baris pada satu masa, Ctrl-D / ESC untuk tamat)
+U042	REPL MicroPython
+U043	Pecah kepada bahagian 4 MB / cantum dari .001
+U044	Pecah / cantum (sama seperti Ctrl+F11 / F12)
+U045	Skrin (Alt+F, tidak bercanggah dengan kekunci F FD)
+U047	Halaman paparan FB (0-3)
+U048	Kosongkan FB kepada 0 / kurangkan kecerahan separuh (RGB555)
+U050	Kosongkan halaman paparan FB / kurangkan kecerahan separuh
+U057	Semak S: (bertanya sebelum membaiki)
+U061	Eksport VGM/VGZ ke WAV 96 kHz / 24 bit
+U073	Editor (E / Shift+F8)
+U082	Shell (subset csh. exit / Ctrl-D untuk kembali, help menyenaraikan arahan)
+U092	Semak ralat pemacu S:
+U093	Fail %lu  folder %lu
+U094	Saiz tidak sepadan dengan rantai
+U095	Kluster yang tidak digunakan oleh apa-apa
+U096	Kluster berpaut silang
+U097	Entri rosak
+U098	Dua salinan FAT berbeza
+U099	Tiada ralat.
+U100	Ralat ditemui. Baiki?
+U101	Dibaiki (nombor di atas telah dibetulkan).
+U102	Tidak dapat menyemak atau membaiki (S: sibuk).
+U103	[ Baiki ]
+U104	[ Batal ]
+U112	Kunci %c: sebagai huruf apa? (A-Z kecuali S. ESC batal)
+U113	Pemacu  huruf / Enter pilih  F2 kunci/lepas huruf  F3 kunci sebagai...  L / ESC batal
+U114	  petak %u
+U115	%c:* (dikunci, tidak bersambung) %04X:%04X%s  %s
+U135	2 Jalan
+U136	3 Salin
+U137	4 Padam
+U138	5 Nama
+U139	7 KsgFB
+U140	8 MlpFB
+U141	9 Pemacu
+U142	10 EP
+U145	1 Atrib
+U146	2 Info
+U147	3 Alih
+U148	5 Folder
+U149	6 Shell
+U150	8 Sunt
+U151	9 Lihat
+U152	10 S:smk
+U154	12 Ulang
+U172	10 ZMhtr
+U176	7 Hex
+U177	9 Lesen
+U178	11 Tetap
+U179	Tetapkan jam (waktu Jepun. NTP tidak dapat menetapkannya)
+U180	Jalankan dengan parameter
+U183	Masa:
+U184	Jalankan:
+U186	YYYY-MM-DD hh:mm  Enter tetapkan  ESC kekalkan
+U187	Enter jalankan  <-> gerak  BS / Del padam  ESC batal
+U188	Enter tukar nama  <-> gerak  BS / Del padam  ESC batal
+U189	Enter cipta  <-> gerak  BS / Del padam  ESC batal
+U191	 item
+U192	Folder dipadam beserta kandungannya. Anda pasti?
+U194	(Tidak boleh dibuat asal. Fail di dalam folder juga dipadam)
+U206	2 Simpan
+U207	5 Warna
+U208	6 Hira
+U209	7 Kata
+U210	8 Ramal
+U211	10 Kel
+U212	1 Atas
+U213	2 Akhir
+U214	3 SisTin
+U215	4 Kamus
+U216	6 HHira
+U217	7 HKata
+U229	 F5                            Pewarnaan (dari sambungan; C/C++, mruby, MicroPython, SG BASIC, tiada)
+U236	                               Hiragana separuh lebar (Shift+F6) / katakana separuh lebar (Shift+F7)
+U242	       Shift+← → Pendekkan/panjangkan hujung kanan frasa satu aksara (calon baharu)
+U243	       ↑ ↓ / Tab               Calon sebelum / seterusnya dalam tetingkap (di bawah teks, di atas jika dekat bawah)
+U244	       Enter pada →→→          Semua calon (2 x 8, ← → lajur dan halaman, Enter memilih)
+U245	       Enter                   Frasa seterusnya (pada yang terakhir mengesahkan semua)
+U247	 Shift+F1 / F2 / F3 / F4       Atas / akhir / sisip-tindih / ke kamus pengguna
+U250	Diubah  Y: simpan dan tutup  N: tutup tanpa simpan  ESC: kembali
+U251	[Ramalan] Tab/↑↓: calon  Space: tukar  Esc: batal
+U252	[Calon] ↑↓: pilih  ←→: lajur/halaman  Enter: ambil
+U253	[Tukar] ↑↓calon ←→frasa Shift+←→sempadan Enter seterusnya
+U254	[한국어] Tab/↑↓: calon  Enter/Space: sahkan
+U255	[English] Tab/↑↓: calon  Enter: sahkan
+U256	Input Hangul 2 set  Ctrl-Space: alfanumerik
+U257	Pelengkapan ramalan  Ctrl-Space: input terus
+U258	Tiada kamus: hiragana/katakana sahaja  F6/F7
+U259	Space: tukar  F7: katakana  Ctrl-Space: alfanumerik
+U260	Space: tukar  F6: hiragana  Ctrl-Space: alfanumerik
+U261	Separuh lebar  F6: hiragana  F7: katakana  Shift+F6/F7: separuh
+U262	IME mati
+U263	 ramalan
+U268	Pewarnaan: %s
+U276	Calon
+U295	Tukar pewarnaan (C/C++, mruby, MicroPython, SG BASIC, tiada)
+U309	 Dari: %s
+U310	 Ke: %s
+U329	 Space: jeda  m: MIDI OUT  q / ESC: henti
+M727	Semakan S:: tunggu -- fail sedang dibaca atau ditulis
+M728	Semakan S:: pemacu sibuk atau belum sedia
+M729	tiada apa-apa untuk item ini (ContextMenu.cfg)
+M730	arahan salah dalam ContextMenu.cfg
+M731	tindakan tidak dikenali dalam ContextMenu.cfg
+M732	menu
+# 2026-11-17: archive window, compress name field, WAV export window (machine translation, unreviewed)
+U342	Nama arkib (item yang ditanda, atau item pada kursor jika tiada)
+U343	Enter mampat  ←→ alih  BS / Del padam  ESC batal
+U344	Eksport WAV: %s dibatalkan (%s)
+U345	Eksport WAV: %s gagal (%s)
+U346	Eksport WAV: %s jumlah %s
+U347	 Eksport WAV (96kHz / 24bit): %s
+U348	Dibatalkan
+U349	Gagal
+U350	 Jumlah %s
+U351	 Dibatalkan (%s; fail separuh siap dipadam)
+U352	 Tidak dapat mengeksport (%s). Sebab:
+U353	 (sebab tidak diketahui)
+U354	 %u%%   berlalu %s%s
+U355	 ESC: henti (fail separuh siap dipadam)
+U356	Arkib: %s
+U357	Membaca... (ESC untuk batal)
+U358	 %u item%s  jumlah %s bait  ekstrak ke: %s
+U359	 Enter ekstrak  X ekstrak semua  ↑↓ alih  ESC tutup
+U360	Mampat
+U361	Senarai
+U362	Ekstrak
+U363	 Jumlah %s   %u item
+U364	 Jumlah %s   %u fail
+U365	 Dibatalkan (%s; fail yang belum siap dipadam)
+U366	 Tidak dapat (%s): %s
+U367	 %u%%   berlalu %s   %s bait%s
+U368	 berlalu %s   %s bait%s
+U369	 ESC: henti (fail yang belum siap dipadam)
+U370	Arkib: %s gagal (%s)
+U371	Dimampat: %s (%u item)
+U372	Diekstrak: %s (%u fail)
+# 2026-11-17: archive / compress messages (machine translation, unreviewed)
+M733	pilih fail atau folder
+M734	pemacu ini tidak boleh ditulis
+M735	kerja arkib sedang berjalan
+M736	tiada PSRAM untuk kerja arkib
+M737	tidak dapat memulakan kerja arkib
+M738	terlalu banyak item (maksimum 32)
+M739	tiada apa untuk dimampat
+M740	tiada nama (atau nama mengandungi / atau \\)
+M741	maksimum 32 item (tanda kurang atau letak dalam folder)
+M742	arkib
+M743	mampat
+M744	eksport WAV

@@ -1,0 +1,373 @@
+# pl: machine translation (Google), unreviewed; 2026-11-17
+U001	Lista (pliki i foldery w 2 kolumnach x 19 wierszy)
+U002	Przesuń kursor (w lewo / w prawo: druga kolumna)
+U003	Poprzednia strona / następna strona
+U004	Zaznacz wszystko / odwróć znaki (jak w PC-98 FD)
+U005	Pierwszy/ostatni
+U006	Zaznacz i idź dalej / tylko zaznacz
+U007	Shift+strzałki
+U008	Wybierz zakres (spacja oznacza zakres)
+U009	Wejdź do folderu / otwórz plik (uruchom F2/X)
+U010	Do folderu nadrzędnego
+U011	Wybierz napęd (USB, dyskietka, CD, S: wbudowany)
+U012	Kopiuj (Shift+C / Shift+F3 wybiera miejsce docelowe z drzewa)
+U013	Przenosić
+U014	Usuń (Shift+D / Shift+F4 usuń folder)
+U015	Przemianować
+U016	Zmień atrybuty
+U017	Otwórz w edytorze
+U018	Wyświetl jako tekst (Shift+V / Ctrl+Alt+F7 szesnastkowo)
+U019	Informacje o napędzie
+U020	Nowy folder/nowy plik
+U021	Powłoka sgsh / wysuń nośnik
+U022	Przeładować
+U023	Zapisz ekran jako PNG
+U024	Zamknij okno / wyczyść zaznaczenie (w podfolderze: przejdź do góry)
+U025	Operacje na plikach (jak w FD: znaczniki, następnie zakres, na końcu kursor)
+U026	Kopiuj: wybierz miejsce docelowe z drzewa dysków i folderów. ESC zatrzymuje się
+U027	Usuń: potwierdź klawiszem y. Zaznacza i zakresy jednocześnie. Foldery z ich zawartością
+U028	Usuń folder (wraz z zawartością)
+U029	Zmień nazwę (edytuj nazwę, Enter)
+U030	Atrybuty: R tylko do odczytu, H ukryty, S system, A archiwum
+U031	Nowy folder
+U032	Nowy (pusty) plik
+U033	Wyświetl jako tekst (Shift+V / Ctrl+Alt+F7 szesnastkowo)
+U034	Shell sgsh (wyjdź / Ctrl-D z powrotem do filera)
+U035	Identyfikator napędu (ZAPYTANIE, IDENTYFIKACJA)
+U036	Wysuń nośnik FDD / LS-120 / CD
+U037	Załaduj ponownie listę (CD: ze spisu treści)
+U038	Odbierz z komputera przez ZMODEM (zm.sh put)
+U039	Wyślij do komputera przez ZMODEM (zm.sh get)
+U040	Skompiluj .rb i napisz .mrb
+U041	Ruby REPL (jedna linia na raz, Ctrl-D / ESC na końcu)
+U042	REPL. MicroPythona
+U043	Podziel na części 4 MB / połącz z .001
+U044	Podziel/połącz (tak samo jak Ctrl+F11 / F12)
+U045	Ekran (Alt+F, nie koliduje z klawiszami FD F)
+U046	Pokaż/ukryj FB (zdjęcie)/tekst
+U047	Strona wyświetlania FB (0-3)
+U048	Wyczyść FB do 0 / zmniejsz o połowę jego jasność (RGB555)
+U049	Punkty końcowe USB i stan sieci LAN
+U050	Wyczyść stronę wyświetlacza FB / zmniejsz o połowę jej jasność
+U051	Próbki atrybutów tekstowych
+U052	Monitoruj EDID (odczyt przy uruchomieniu)
+U053	Licencje i kredyty na czcionki ROM
+U054	Ustawienia (język wyświetlania, IME i ustawienia regionalne klawiatury)
+U055	Zegar (czas w Japonii ustawiony przez NTP; synchronizacja jest teraz)
+U056	Otwórz arkusz kalkulacyjny (SGCALC)
+U057	Sprawdź S: pod kątem błędów (pyta przed naprawą)
+U058	Otwórz TRACKERA
+U059	Uruchom ponownie (najpierw pyta)
+U060	Odtwarzaj wejście stereo ADC (GP40/41)
+U061	Eksportuj VGM/VGZ do pliku WAV 96 kHz / 24-bit
+U062	Ta pomoc
+U063	Zmień stronę
+U064	Zamknąć
+U065	Przeglądarka tekstu/szesnastkowo (jak mniej)
+U066	Jedna linia
+U067	Jedna strona
+U068	Pół strony
+U069	Wyszukiwanie (do przodu / do tyłu) / następny / poprzedni
+U070	Powrót do listy (F1: pomoc widza)
+U071	Przeglądarka obrazów
+U072	Powrót do listy (F2 F3 F6 F7 Shift+F2 F3 praca)
+U073	Edytor (E / Shift+F8)
+U074	Zapisz (UTF-8; końce linii i BOM zachowane)
+U075	Zamknij (jeśli zmieniono: T / N / ESC)
+U076	Wstaw / nadpisz
+U077	Włączanie/wyłączanie IME (japoński/angielski/koreański)
+U078	Język IME (japoński/angielski/koreański)
+U079	Zatwierdź jako hiragana/kakana
+U080	Pomoc redaktora
+U081	Powłoka
+U082	Powłoka (podzbiór csh. wyjście / Ctrl-D, aby powrócić, pomoc zawiera listę poleceń)
+U083	Lista i przenoszenie
+U084	Operacje na plikach
+U085	Ekran i urządzenia
+U086	Widzowie i redaktor
+U087	Pomoc %u / %u %s
+U088	Lewy Prawy: zmień stronę F1 / ESC: zamknij
+U089	Zrestartować Sgnano?
+U090	[ Ponowne uruchomienie ]
+U091	[ Anulować ]
+U092	Sprawdź dysk S: pod kątem błędów
+U093	Pliki %lu foldery %lu
+U094	Rozmiar nie pasuje do łańcuszka
+U095	Klastry używane przez nic
+U096	Klastry usieciowane
+U097	Uszkodzone wpisy
+U098	Obie kopie FAT różnią się
+U099	Żadnych błędów.
+U100	Znaleziono błędy. Naprawić je?
+U101	Naprawiono (powyższe numery zostały naprawione).
+U102	Nie można sprawdzić ani naprawić (S: jest zajęty).
+U103	[ Naprawa ]
+U104	[ Anulować ]
+U105	Dowolny klucz się zamyka
+U106	Ustawienia
+U107	Język wyświetlacza
+U108	Ustawienia regionalne klawiatury
+U109	Góra / Dół Enter wybierz ESC anuluj
+U110	Język wyświetlacza
+U111	Góra / Dół Enter: ustaw ESC: wstecz
+U112	Poprawka %c: jako która litera? (A-Z z wyjątkiem S. ESC anuluje)
+U113	Litera dysku / Enter wybierz F2 napraw/odblokuj literę F3 popraw jako... L / ESC anuluj
+U114	przegroda %u
+U115	%c:* (stały, niepodłączony) %04X:%04X%s %s
+U116	Ogłoszenie
+U117	Jedź %c: %s
+U118	Napęd (brak)
+U119	%u utworów na płycie audio
+U120	Foldery %u pliki %u łącznie %s
+U121	Czytanie...
+U122	* oznaczone %u %s
+U123	%lu bajtów
+U124	Atrybut %s zmodyfikowany %s utworzony %s %s
+U125	Słoneczny
+U126	pon
+U127	wt
+U128	Poślubić
+U129	czw
+U130	piątek
+U131	sob
+U132	Zegar nie jest ustawiony (NTP przez LAN)
+U133	Wyświetl FB %u wpisz %u
+U134	1 Pomoc
+U135	2 Biegnij
+U136	3 Kopia
+U137	4 Del
+U138	5 Zmień nazwę
+U139	7 FBclr
+U140	8 FBdim
+U141	9 Jedź
+U142	10 EP
+U143	11 Zegar
+U144	12 OBLICZ
+U145	1 Atrybut
+U146	2 Informacje
+U147	3 Ruszaj się
+U148	5 Mkdir
+U149	6 Skorupa
+U150	8 Edytuj
+U151	9 Zobacz
+U152	10 S:chk
+U153	11 UTWOR
+U154	12Uruchom ponownie
+U155	1 Nowość
+U156	2 Folder
+U157	3 Zmień nazwę
+U158	4 Atrybut
+U159	6 Kopia
+U160	7 Ruszaj się
+U161	8 Usuń
+U162	9 Edytuj
+U163	10 mrbc
+U164	11 Rozłam
+U165	12 Dołącz
+U166	1 Atrybuty
+U167	2 FB
+U168	3 Tekst
+U169	5 ScrSht
+U170	6 Wyśw
+U171	9 ZMrecv
+U172	10ZMwyślij
+U173	2 FBClr
+U174	3 FBDim
+U175	5 Załaduj ponownie
+U176	7 Heks
+U177	9 Lic
+U178	11 Konfiguracja
+U179	Ustaw zegar (czas japoński. NTP nie mógł go ustawić)
+U180	Uruchom z parametrami
+U181	Nowy folder
+U182	Nowy plik
+U183	Czas:
+U184	Uruchomić:
+U185	Nazwa:
+U186	RRRR-MM-DD gg:mm Wprowadź zestaw ESC zachowaj
+U187	Wprowadź uruchom <-> przesuń BS / Usuń usuń ESC anuluj
+U188	Enter zmień nazwę <-> przesuń BS / Usuń usuń ESC anuluj
+U189	Enter utwórz <-> przesuń BS / Usuń usuń ESC anuluj
+U190	Usuwać
+U191	rzeczy
+U192	Foldery są usuwane wraz z zawartością. Czy jesteś pewien?
+U193	Usunąć ten plik?
+U194	(Tej czynności nie można cofnąć. Pliki w folderach również zostaną usunięte)
+U195	[Tak (T)]
+U196	[Nie (N)]
+U197	przeglądarka hex: wybierz plik
+U198	przeglądarka tekstu: wybierz plik
+U199	Przejdź do
+U200	Skopiuj do
+U201	Bufor jest pełny
+U202	Dysk jest tylko do odczytu
+U203	Nie można zapisać (brak zapisu)
+U204	Nie można rozpocząć zapisywania (dysk jest zajęty?)
+U205	Oszczędność...
+U206	2 Zapisz
+U207	5 Kolor
+U208	6 Hira
+U209	7 Kata
+U210	8 Pred
+U211	10 Wyjdź
+U212	1 góra
+U213	2 Koniec
+U214	3 InsOvr
+U215	4 Dykt
+U216	6 HHira
+U217	7 HKata
+U218	%s %s Ln %lu/%lu Col %u %s %s %s%s%s
+U219	*mod
+U220	OVR
+U221	INS
+U222	R/O
+U223	Edytor (edycja sgnano) F1 / ESC zamyka się
+U224	Strzałki / Home End / PgUp PgDn przesuwają kursor
+U225	Ctrl-T / Ctrl-B góra / koniec pliku
+U226	BS / Usuń kasowanie przed / przy kursorze
+U227	Wprowadź nową linię (zachowując wcięcie)
+U228	Zakładka / Zakładka Ins / wstaw lub nadpisz
+U229	Kolorowanie F5 (z rozszerzenia; C/C++, mruby, MicroPython, SG BASIC, brak)
+U230	F2 (Ctrl-S) zapisz (UTF-8, końce linii zachowane)
+U231	F10 / ESC zamknij (pyta, czy zmieniono)
+U232	IME: Ctrl-Spacja / F12 wł./wył. (あ / A)
+U233	Język F9 IME (tylko ten edytor; przywracany po zamknięciu)
+U234	F8 Włączanie/wyłączanie japońskiej konwersji predykcyjnej
+U235	Japoński romaji -> hiragana (F6) / katakana (F7)
+U236	Hiragana o połowie szerokości (Shift+F6) / katakana o połowie szerokości (Shift+F7)
+U237	Przewiduj za pomocą 2 lub więcej znaków, przekonwertuj zdanie ciągłe za pomocą spacji
+U238	Angielski Przewidywanie zakończenia za pomocą 2 lub więcej znaków
+U239	한국어 2 Hangul w stylu Bol
+U240	Spacja / Enter Konwertuj / Potwierdź
+U241	← → Wybierz frazę
+U242	Shift+← → Zmniejsz/zwiększ prawy koniec klauzuli o jeden znak (nowi kandydaci)
+U243	↑ ↓ / Zakładka Poprzedni / następny kandydat w wyskakującym okienku (pod tekstem, u góry u dołu)
+U244	Wprowadź → → → Wszyscy kandydaci (2 x 8, ← → kolumna i strona, Enter wybiera)
+U245	Wprowadź klauzulę Next (potwierdza całość w ostatniej klauzuli)
+U246	Ctrl-U Dodaj aktualne słowo do słownika użytkownika
+U247	Shift+F1 / F2 / F3 / F4 Góra / koniec / wstaw-nadpisz / do słownika użytkownika
+U248	BS / ESC Cofnij się o jeden znak / Anuluj
+U249	, . - [ ] / 、 。 ー 「 」 ・
+U250	Zmodyfikowano Y: zapisz i zamknij N: zamknij bez zapisywania ESC: cofnij
+U251	[Przewidywanie] Tab/↑↓: kandydat Spacja: konwertuj Esc: anuluj
+U252	[Kandydaci] ↑↓: wybierz ← →: kolumna/strona Enter: wybierz
+U253	[Konwertuj] ↑↓cand ← →klauzula Shift+← →ograniczony Podaj następny
+U254	[한국어] Tab/↑↓: kandydat Enter/Spacja: potwierdź
+U255	[Angielski] Tab/↑↓: kandydat Enter: potwierdź
+U256	2-setowe wejście Hangul Ctrl-Spacja: alfanumeryczne
+U257	Przewidywanie zakończenia Ctrl-Spacja: bezpośrednie wprowadzanie
+U258	Brak słownika: hiragana/katakana tylko F6/F7
+U259	Spacja: konwersja F7: katakana Ctrl-Spacja: alfanumeryczna
+U260	Spacja: konwersja F6: hiragana Ctrl-Spacja: alfanumeryczna
+U261	Połowa szerokości F6: hiragana F7: katakana Shift+F6/F7: połowa
+U262	IME wyłączony
+U263	przewidywać
+U264	Przewidujące tłumaczenie japońskie: włączone
+U265	Tłumaczenie predykcyjne dla języka japońskiego: wyłączone
+U266	Używaj z japońskim edytorem IME
+U267	Nie można dodać do słownika użytkownika
+U268	Kolorystyka: %s
+U269	Załadunek...
+U270	Nie można odczytać pliku
+U271	%lu linie%s%s
+U272	otwarty Shift_JIS jako UTF-8 (zapisany jako UTF-8)
+U273	tylko do odczytu
+U274	Zapisano
+U275	Nie można zapisać (zapis nie powiódł się)
+U276	Kandydaci
+U277	7 WrtPg
+U278	9 Tekst
+U279	9 Heks
+U280	Ładowanie %lu%%
+U281	(tylko początek)
+U282	Hex q ESC: powrót F1: pomoc
+U283	Tekst q ESC: powrót F1: pomoc
+U284	Klawisze przeglądarki (jak mniej; to samo dla tekstu i szesnastku)
+U285	Jedna linia w dół
+U286	Jedna kolejka
+U287	Jedna strona w dół
+U288	Jedna strona w górę
+U289	Pół strony w dół/w górę
+U290	/tekst?tekst
+U291	Szukaj w dół/w górę (ignoruje wielkość liter)
+U292	Następny/poprzedni mecz
+U293	Pokaż jako hex (w tym samym miejscu)
+U294	Pokaż jako tekst (w tym samym miejscu)
+U295	Zmień kolorystykę (C/C++, mruby, MicroPython, SG BASIC, brak)
+U296	Pokaż/ukryj FB/tekst
+U297	Strona wyświetlania FB / strona zapisu
+U298	Wracając do filtratora
+U299	Zamknij tę pomoc
+U300	Kopia
+U301	%s: czytanie folderów... %u
+U302	%s: liczenie wolnego miejsca w miejscu docelowym...
+U303	%s: za mało wolnego miejsca w miejscu docelowym
+U304	Przenieś: usuwanie folderów źródłowych
+U305	Zrobione
+U306	Zatrzymany
+U307	%s w toku%s
+U308	(zatrzymanie)
+U309	Od: %s
+U310	Do: %s
+U311	Pliki %u / %u foldery %u %s / %s (%u%%)%s
+U312	za dużo: tylko niektórzy
+U313	Potrzebuje %s, wolne %s. Kontynuować?
+U314	T: kontynuuj N / ESC: anuluj
+U315	Naciśnij dowolny klawisz, aby zamknąć
+U316	ESC: przestań
+U317	%s: ← → dysk ↑↓ folder Spacja otwórz/zamknij Enter wybierz ESC anuluj
+U318	Nie można odczytać: %s
+U319	Czytanie folderów... (ESC zatrzymuje się) %u
+U320	%u foldery%s
+U321	(za dużo lub za głęboko: tylko niektóre)
+U322	Przestałam otwierać folder
+U323	Przestrzeń otwiera je ponownie. ESC po raz kolejny anuluje
+U324	Odtwarzacz SMF/SGT %s
+U325	Ładowanie... %lu / %lu bajtów
+U326	%s / %s %s porty %u
+U327	Wstrzymano
+U328	Gra
+U329	Spacja: pauza m: MIDI OUT q / ESC: stop
+U330	q / ESC: anuluj
+U331	Licencje i kredyty na czcionki ROM\n\nROM: %s (wersja %lu.%lu, %lu znaków, od 0x%08lX w pamięci flash)
+U332	== Czcionki w ROMie (tabela pochodzenia ROMu) ==
+U333	(ROM nie ma tabeli)
+U334	== Obszar napisów końcowych w pamięci ROM ==
+U335	(nie ma takiego obszaru)
+U336	== Licencje wbudowanego oprogramowania ==
+U337	Zapisywanie %s jako PNG %s
+U338	Ekran
+U339	Budowanie... %lu / %lu rzędów
+U340	Zapis... %lu / %lu KB (FB jest ukryty)
+U341	Nie mogłem pisać
+U342	Nazwa archiwum (zaznaczone elementy lub element kursora, jeśli go nie ma)
+U343	Wprowadź kompres ← → przesuń BS / Usuń usuń ESC anuluj
+U344	Eksport WAV: %s anulowany (%s)
+U345	Eksport WAV: %s nie powiódł się (%s)
+U346	Eksport WAV: %s łącznie %s
+U347	Eksport WAV (96 kHz / 24 bity): %s
+U348	Odwołany
+U349	Przegrany
+U350	Razem %s
+U351	Anulowano (%s; plik częściowy został usunięty)
+U352	Nie można wyeksportować (%s). Powód:
+U353	(przyczyna nieznana)
+U354	%u%% upłynęło %s%s
+U355	ESC: stop (częściowy plik zostanie usunięty)
+U356	Archiwum: %s
+U357	Czytanie... (ESC, aby anulować)
+U358	%u elementy%s ogółem %s bajtów wyodrębnij do: %s
+U359	Wejdź wyodrębnij element X wyodrębnij wszystko ↑↓ przesuń ESC zamknij
+U360	Kompres
+U361	Lista
+U362	Ekstrakt
+U363	Łącznie %s %u pozycji
+U364	Łącznie %s %u plików
+U365	Anulowano (%s; niedokończony plik został usunięty)
+U366	Nie udało się tego zrobić (%s): %s
+U367	Upłynęło %u%% %s %s bajtów%s
+U368	upłynęło %s %s bajtów%s
+U369	ESC: stop (niedokończony plik zostanie usunięty)
+U370	Archiwum: %s nie powiodło się (%s)
+U371	Skompresowane: %s (%u szt.)
+U372	Wyodrębniono: %s (%u plików)

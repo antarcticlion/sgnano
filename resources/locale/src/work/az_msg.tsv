@@ -1,0 +1,787 @@
+# az: machine translation (Google), unreviewed; 2026-11-17
+M001	sürücü getdi
+M002	arakəsmələri yenidən oxumaq...
+M003	səsi aça bilmədi (yaddaş yoxdur?)
+M004	səsi açır...
+M005	fayl siyahısı üçün yaddaş yoxdur
+M006	kataloqu oxuyur... (yenidən cəhd edilir)
+M007	kataloqu oxuya bilmədi
+M008	kataloqu oxuyur...
+M009	sürücü cavab vermədi - arakəsmələri yenidən oxuyun
+M010	kataloqu oxuya bilmədi (FAT12/16/32 deyil?)
+M011	həddən artıq çox giriş -- birinciləri göstərir
+M012	bu bölmədə heç bir fayl sistemi tapılmadı
+M013	yol çox uzundur
+M014	qoşulur...
+M015	parçalanma...
+M016	adının dəyişdirilməsi...
+M017	qovluğu yaratmaq...
+M018	faylın yaradılması...
+M019	silinir...
+M020	atributların yazılması...
+M021	sürücü məşğuldur
+M022	məşğul
+M023	faylları və ya qovluqları seçin
+M024	faylları və ya qovluqları seçin (".." deyil)
+M025	əvvəlcə CD-ni dayandırın
+M026	CD dəyişdirilə bilməz (əvəzinə kopyalayın)
+M027	sistem qovluğu köçürülə bilməz
+M028	heç bir sürücü yazıla bilməz (yalnız FAT / exFAT / NTFS)
+M029	sürücü getdi
+M030	heç nə seçilməyib
+M031	heç nə seçilməyib
+M032	başlaya bilmədi
+M033	aça bilmədi
+M034	yalnız FAT / exFAT / NTFS sürücüsündə
+M035	adı yoxdu
+M036	bu ad artıq mövcuddur
+M037	başlaya bilmədi (pis ad və ya sürücü məşğuldur)
+M038	başlaya bilmədi (sürücü məşğuldur)
+M039	adda / və ya \\ ola bilməz (yalnız bu qovluqda)
+M040	adı eynidir
+M041	element yalnız oxunur (dəyişmək üçün A)
+M042	yazıla bilən diskdə .rb faylı seçin
+M043	.rb faylı seçin
+M044	sürücü yalnız oxumaq üçündür
+M045	yazıla bilən sürücüdə bir qovluq seçin
+M046	bir an gözləyin
+M047	fayl seçin
+M048	fayl seçin (qovluq deyil)
+M049	.001 faylı seçin
+M050	.001 faylını seçin
+M051	IWAD-ı DoomFiles və ya Doom2Files qovluğuna qoyun
+M052	DoomFiles freedoom1 / doom / doomu / doom1.wad alır
+M053	Doom2Files freedoom2 / doom2 / plutonia / tnt.wad alır
+M054	oyun fayllarını S deyil, xarici yaddaşa qoyun:
+M055	IWAD FAT / exFAT / NTFS sürücüsündə olmalıdır (CD deyil)
+M056	hələ də işləyir
+M057	şəkil yüklənir
+M058	çərçivə buferi yoxdur
+M059	yarım parlaqlıq yalnız RGB555-də işləyir
+M060	təmizləmə...
+M061	parlaqlığı yarıya endirmək...
+M062	bu məlumat izidir
+M063	gözləyin -- fayl yazılır
+M064	yalnız disket / LS-120 / CD sürücüləri
+M065	xahiş etdi
+M066	diski oxuyur...
+M067	dayanmaq...
+M068	açılış...
+M069	edildi
+M070	yaddaş yoxdur
+M071	artıq açıqdır
+M072	artıq qaçır
+M073	artıq qənaət edir
+M074	artıq oynayır
+M075	belə sürücü yoxdur
+M076	PSRAM yoxdur
+M077	fayl üçün PSRAM yoxdur
+M078	xətt indeksi üçün PSRAM yoxdur
+M079	terminal üçün PSRAM yoxdur
+M080	yaddaş yoxdur (PSRAM)
+M081	yaddaş yoxdur (32KB SRAM)
+M082	bufer üçün yaddaş yoxdur
+M083	şəkil buferləri üçün yaddaş yoxdur
+M084	oxumaq buferi üçün yaddaş yoxdur
+M085	iş yaddaşı üçün yer yoxdur (aşağı müstəvini bağlayın?)
+M086	çərçivə bufer səhifəsi yoxdur
+M087	çox böyük (ən çox 4 MB)
+M088	fayl çox böyükdür (ən çox 1 MB)
+M089	fayl çox böyükdür (maks. 1 MB)
+M090	SMF üçün çox böyük (ən çox 1MB)
+M091	fayl boşdur
+M092	faylı aça bilmədi
+M093	faylı oxuya bilmədi
+M094	səsi aça bilmədi
+M095	təyinatı aça bilmədi (yaddaş yoxdur?)
+M096	kök qovluğu oxuya bilmədi
+M097	tapşırığa başlaya bilmədi
+M098	yazmağa başlaya bilmədi (pis ad və ya məşğul)
+M099	başqa cild açıqdır (məşğul)
+M100	surəti işləyir
+M101	qovluq özünə daxil ola bilməz
+M102	bu eyni qovluqdur
+M103	bu disk dəyişdirilə bilməz (yalnız oxumaq üçün)
+M104	sürücü yazılmır
+M105	hissənin ölçüsü 512-yə çox olmalıdır
+M106	4 GB və ya daha çox olan fayllar dəstəklənmir
+M107	pis yol
+M108	pis fayl adı
+M109	şrift ROMu orada deyil
+M110	səs açıq deyil
+M111	belə kanal yoxdur
+M112	sequencer məşğuldur
+M113	mahnı üçün PSRAM kifayət deyil
+M114	standart MIDI faylı deyil (MThd yoxdur)
+M115	iz yoxdur
+M116	trek pozuldu (MTrk)
+M117	SMPTE vaxt bölgüsü dəstəklənmir
+M118	SMF formatı 2 dəstəklənmir (yalnız 0 və 1)
+M119	Yalnız toplu sürücü deyil
+M120	optik sürücü deyil
+M121	sistem qovluğunu silmək və ya adını dəyişmək mümkün deyil
+M122	sürücüdə media yoxdur
+M123	hazırlaşır
+M124	hazır deyil
+M125	media dəyişdi
+M126	orta səhv
+M127	qanunsuz tələb
+M128	pis kataloq girişi
+M129	yolda bir kataloq mövcud deyil
+M130	faylın bu adı var
+M131	qovluğun belə adı var
+M132	yolda bir ad bir kataloq deyil
+M133	ləğv edildi
+M134	minə bilmədi
+M135	oxumağa başlaya bilmədi
+M136	yazmağa başlaya bilmədi
+M137	kataloqdur
+M138	bu bir kataloqdur
+M139	klasterlər yoxdur
+M140	klaster siyahısı üçün yer yoxdur
+M141	belə fayl və ya qovluq yoxdur
+M142	belə fayl yoxdur
+M143	həcmi yoxdur
+M144	NTFS deyil
+M145	exFAT deyil
+M146	kataloq deyil
+M147	tapılmadı
+M148	oxu xətası
+M149	yazma xətası
+M150	FAT oxumaq uğursuz oldu
+M151	klaster zənciri fayldan daha qısadır
+M152	kataloq boş deyil
+M153	disk doludur
+M154	sürücü cavab vermədi
+M155	fayl yalnız oxumaq üçündür
+M156	fayl çox parçalanmışdır
+M157	fayl çox böyükdür (4 GB)
+M158	yeni ad artıq mövcuddur
+M159	kök kataloqu doludur
+M160	eyni qısa ada malik çoxlu fayl
+M161	Belə bir fayl və ya kataloq yoxdur
+M162	Fayl mövcuddur
+M163	İcazə rədd edildi
+M164	Kataloq boş deyil
+M165	Kataloq deyil
+M166	kataloqdur
+M167	Yalnız oxumaq üçün fayl sistemi
+M168	Cihazda yer qalmayıb
+M169	Giriş/çıxış xətası
+M170	Bu diskdə dəstəklənmir
+M171	Yanlış yol
+M172	Yaddaş tükəndi
+M173	Belə sürücü yoxdur
+M174	dayandı
+M175	ləğv edildi (kifayət qədər boş yer yoxdur)
+M176	boş yeri saya bilmədi
+M177	qəbuledici ləğv edildi
+M178	qəbuledici yoxdur (PC-də rz-ni işə salın)
+M179	UART konsolu istifadə olunur
+M180	ekran rejimi dəyişdi
+M181	xətlər gəlmədi (ekran işləyir?)
+M182	surəti
+M183	hərəkət
+M184	silin
+M185	adını dəyişin
+M186	atributlar
+M187	yeni fayl
+M188	yeni qovluq
+M189	şəkil
+M190	mrbc
+M191	yaqut
+M192	tamaşaçı
+M193	redaktə et
+M194	MÜƏYYƏNDİRİN
+M195	ZMODEM
+M196	ZMODEM qəbul edir
+M197	ZMODEM göndərin
+M198	bölün
+M199	qoşulun
+M200	Əzab
+M201	SMF
+M202	CD
+M203	FB
+M204	Çıxar
+M205	yenidən başladın
+M206	lisenziya
+M207	saat
+M208	ADC daxil
+M209	ekran -> PNG
+M210	FB -> PNG
+M211	səsi aça bilmədi
+M212	aldı
+M213	göndərildi
+M214	xilas oldu
+M215	yaradılmışdır
+M216	olaraq adlandırıldı
+M217	silindi
+M218	dəyişdi
+M219	qoşuldu
+M220	bölün
+M221	yarada bilmədi
+M222	silə bilmədi
+M223	adını dəyişdirə bilmədi
+M224	dəyişə bilmədi
+M225	oxuya bilmirdi
+M226	yaza bilmirdi
+M227	köçürə bilmədi
+M228	edə bilmədi
+M229	qovluğu silə bilmədi
+M230	silə bilmədi
+M231	üçün yaddaş yoxdur
+M232	göndərərkən çoxlu səhvlər
+M233	qəbuledici qəbul etmədi
+M234	qəbuledici atladı
+M235	FB səhifəsi
+M236	hər biri bayt)
+M237	bayt)
+M238	KB)
+M239	hissələrə daxil olur
+M240	hissələri (
+M241	daxil
+M242	: təmizləndi
+M243	: parlaqlıq yarıya endirildi
+M244	% oxu
+M245	sıralar
+M246	-- hələ dəstəklənmir (yalnız FAT / exFAT / NTFS)
+M247	fayllar
+M248	(
+M249	Başlıqsız
+M250	1 Fayl
+M251	2 Redaktə edin
+M252	3 Qrafik
+M253	4 Vərəq
+M254	5 Kömək
+M255	BOŞ
+M256	NUMBER
+M257	MƏTN
+M258	FORMULA
+M259	Daxil etmək üçün yazın, redaktə etmək üçün F2, kömək üçün F1
+M260	5 CSV
+M261	6 ODS
+M262	[SHIFT]
+M263	[CTRL]
+M264	[ALT]
+M265	Hazır
+M266	SGCALC
+M267	İstənilən düyməni basın
+M268	Y = bəli N = yox Esc = ləğv edin
+M269	Daxil edin = OK Esc = ləğv edin Ctrl-U = təmizləyin
+M270	Birinci sətir/sütun = etiketlər; diaqramlarda 640x480 CLUT8 FB istifadə olunur.
+M271	SGCALC - HELP
+M272	Geri qayıtmaq üçün istənilən düyməni basın
+M273	Geri qayıtmaq üçün istənilən düyməni basın.
+M274	SGCALC HAQQINDA
+M275	Yeni
+M276	Yeni vərəqə başlayın
+M277	Açıq...
+M278	ODS, FODS və ya CSV faylını açın
+M279	Saxla
+M280	Cari faylı yadda saxlayın
+M281	Fərqli Saxla...
+M282	Yeni ad və ya formatla yadda saxlayın
+M283	CSV ixrac edin...
+M284	CSV surətini yazın
+M285	ODS ixrac edin...
+M286	LibreOffice surətini yazın
+M287	Çıxın
+M288	SGCALC-ni tərk edin
+M289	Təmiz
+M290	Seçilmiş hüceyrələri təmizləyin
+M291	Kopyalayın
+M292	Seçimi kopyalayın
+M293	Yapışdırın
+M294	Kursor üzərinə yapışdırın
+M295	kəsmək
+M296	Seçimi kopyalayın və silin
+M297	Hamısını seçin
+M298	Bütün istifadə olunan xanaları seçin
+M299	Mətn rəngi...
+M300	Mətnin rəngini seçin
+M301	Fon...
+M302	Hüceyrə fonunu seçin
+M303	Xətt
+M304	Seçimdən xətt qrafiki çəkin
+M305	Bar
+M306	Seçimdən bir bar qrafiki çəkin
+M307	Qarışıq
+M308	Birinci seriya üçün barlar, qalanları üçün xətlər
+M309	Piroq
+M310	Seçimdən pasta qrafiki çəkin
+M311	Menzil...
+M312	Qrafik diapazonunu açıq şəkildə təyin edin
+M313	Yenidən çəkin
+M314	Son qrafiki yenidən çəkin
+M315	Get...
+M316	Xanaya keçin (məsələn, C12)
+M317	Sütun eni...
+M318	Seçilmiş sütunların enini dəyişdirin
+M319	Sıra hündürlüyü...
+M320	Seçilmiş sıraların hündürlüyünü dəyişdirin
+M321	Avtomatik uyğunlaşma
+M322	Genişlikləri/hündürlükləri məzmuna uyğunlaşdırın (F7)
+M323	Yenidən hesablayın
+M324	Bütün düsturları yenidən qiymətləndirin
+M325	Hamısını silin
+M326	Bütün vərəqi təmizləyin
+M327	Açarlar
+M328	Əsas bələdçini göstərin
+M329	Haqqında
+M330	SGCALC haqqında
+M331	Fayl
+M332	Redaktə et
+M333	Qrafik
+M334	Vərəq
+M335	Kömək edin
+M336	Fayl: yeni, açın, saxla, ixrac edin, çıxın
+M337	Redaktə edin: təmizləyin, kopyalayın, yapışdırın, kəsin, hamısını seçin
+M338	Qrafik: xətt, bar, qarışıq, pasta (FB-də çəkir)
+M339	Vərəq: get, sütun eni, yenidən hesabla, sil
+M340	Kömək: açarlar və haqqında
+M341	Sol/Sağ = menyu Yuxarı/Aşağı = element Daxil edin = Esc seçin = ləğv edin
+M342	Ləğv edildi
+M343	Seçim çox böyükdür və ya yaddaş azdır.
+M344	hüceyrə
+M345	seçim
+M346	Yapışdırmaq üçün heç bir şey yoxdur
+M347	Yapışdırıldı
+M348	HƏYƏYƏYƏ GEDİN
+M349	Hüceyrə arayışı (A1):
+M350	Get
+M351	SÜTUN ENI
+M352	Simvollarda en (4..30):
+M353	SƏTİR HÜKÜMÜ
+M354	Mətn sətirlərində hündürlük (1..8):
+M355	Avtomatik uyğunlaşdırma: vərəq boşdur
+M356	FON RƏNGİ
+M357	MƏTN RƏNGİ
+M358	Oxlar: Enter seçin: tətbiq Esc: ləğv edin
+M359	Rəng indeksi (PC-98 16 rəng palitrası)
+M360	Aa 123
+M361	Daxil edin = tətbiq edin Esc = ləğv edin
+M362	Rəng
+M363	Fon
+M364	Mətn
+M365	QRAF ARALIĞI
+M366	Aralıq (məsələn, A1:C10):
+M367	Qrafik diapazon
+M368	A1:C10 kimi diapazondan istifadə edin.
+M369	Qrafiki çəkmək mümkün deyil.
+M370	xətt
+M371	bar
+M372	qarışıq
+M373	pasta
+M374	Bu vərəqdəki hər xana silinsin?
+M375	Vərəq silindi
+M376	Bütün istifadə edilən xanalar seçildi
+M377	Yenidən hesablanıb
+M378	Yaddaş
+M379	Cədvəl üçün kifayət qədər PSRAM yoxdur.
+M380	Vərəq boşdur.
+M381	Seçilmiş diapazonda rəqəmsal məlumat yoxdur.
+M382	Digər
+M383	Pasta diaqramı üçün müsbət dəyərlər yoxdur
+M384	XƏT
+M385	BAR
+M386	QARŞIQ
+M387	PIE
+M388	S:/
+M389	Qovluq
+M390	KİMİ YAXŞ EDİN
+M391	FAYI AÇIN
+M392	LibreOffice / CSV
+M393	ODS FODS CSV
+M394	Adı:
+M395	(ad yazın və ya aşağıda seçin)
+M396	ad
+M397	Ölçü
+M398	Enter=save Sol=yuxarı Sağ/Daxil edin [DIR]=açıq Tab=sürücü Esc=ləğv et
+M399	Enter=açıq Sol=yuxarı Sağ/Daxil edin [DIR]=açıq Tab=sürücü Esc=ləğv et
+M400	Kifayət qədər yaddaş yoxdur.
+M401	Üzərinə yaz
+M402	Açıq
+M403	Fayl çox böyükdür (məhdud 8 MB).
+M404	Faylı oxumaq üçün kifayət qədər yaddaş yoxdur.
+M405	Səhv ZIP/ODS datası.
+M406	ODS faylında CRC xətası.
+M407	Dəstəklənməyən və ya zədələnmiş fayl.
+M408	Saxlandı
+M409	İxrac edildi
+M410	Saxlanmamış dəyişikliklər
+M411	Davam etməzdən əvvəl cari cədvəl yadda saxlansın?
+M412	Yeni vərəq
+M413	SGTRK
+M414	ADLI
+M415	mahnı çox böyükdür
+M416	boş fayl
+M417	SGT faylı deyil
+M418	pis BPM
+M419	pis sürət
+M420	pis başlıq uzunluğu
+M421	kəsilmiş başlıq
+M422	başlıqdakı pis xarakter
+M423	kəsilmiş sifariş
+M424	pis sifariş uzunluğu
+M425	qaydasında pis nümunə nömrəsi
+M426	kəsilmiş nümunə siyahısı
+M427	pis nümunə sayı
+M428	pis nümunə indeksi
+M429	dublikat nümunəsi
+M430	kəsilmiş nümunə məlumatları
+M431	yanlış nümunə datası
+M432	faylda arxada qalan məlumatlar
+M433	sifariş çatışmayan nümunəyə aiddir
+M434	A:/
+M435	(başlıqsız)
+M436	Hazır. Kömək üçün F1 düyməsini basın.
+M437	İzləyin OFF
+M438	Geri qaytarılacaq heç nə yoxdur
+M439	Geri al
+M440	Qeyd OFF
+M441	Əvvəlcə effekt məktubu təyin edin
+M442	Effekt təmizləndi
+M443	Parametr təmizləndi
+M444	Qeyd təmizləndi
+M445	Alət təmizləndi
+M446	Səs təmizləndi
+M447	Sifariş siyahısı doludur
+M448	Sifariş daxil edildi
+M449	Son sifarişi silmək mümkün deyil
+M450	Sifariş silindi
+M451	Mahnı çalınır
+M452	Dayandı
+M453	Yeni mahnı
+M454	Yadda saxlanmamış dəyişikliklər ləğv edilsin və yeni mahnı başlasın? (Y/N)
+M455	Yadda saxlanmamış dəyişikliklər ləğv edilsin və mahnı açılsın? (Y/N)
+M456	Yadda saxlanmamış dəyişikliklər ləğv edilsin və çıxılsın? (Y/N)
+M457	Mahnı parametrləri yeniləndi
+M458	Fayl adı boşdur
+M459	Saxlama ləğv edildi
+M460	Açıq ləğv edildi
+M461	Redaktə et ON
+M462	Redaktə et OFF
+M463	İzləyin ON
+M464	Redaktə etmək DEĞİLDİR. Redaktə etmək üçün F8 düyməsini basın.
+M465	I/O xətası
+M466	fayl çox böyükdür
+M467	kəsilmiş fayl
+M468	SINE PAD
+M469	Üçbucaq
+M470	QURŞUNU GÖRDÜ
+M471	Kvadrat
+M472	PULSE 25
+M473	ORQAN
+M474	BASS
+M475	ZƏNG
+M476	SƏY
+M477	SINE
+M478	SAW
+M479	OFF
+M480	ON
+M481	SƏRƏ
+M482	ÇAN SƏVİYYƏSİ
+M483	F1 YARDIM F2 MAHNISI
+M484	F3 INS F4 SAXLA
+M485	F5 PLAY F6 PAT
+M486	F7 STOP F8 EDIT
+M487	F9/F10 OKTAV
+M488	F11 TAKİP EDİN
+M489	F12 QUIT
+M490	SPACE PLAY/STOP
+M491	CTRL-S YAXŞI
+M492	CTRL-O AÇIQ
+M493	C-N YENİ C-Z GERİ ALIN
+M494	C-C STOP
+M495	#NƏQLİM VƏ FAYLLAR
+M496	#SİFARİŞ SİYAHISI
+M497	#EKRAN
+M498	#redaktə
+M499	#EFFECTS (parametr onaltılıqdır)
+M500	SOL/SAĞ SƏHİFƏ GİRİN VƏ YA F1 BAĞLA
+M501	MAHNI AYARLARI
+M502	YUXARİ/AŞAĞI SEÇİN SOL/SAĞ tənzimləyin ENTER/F2 YAPIN
+M503	Başlığı redaktə etmək üçün yazın. Backspace son simvolu silir.
+M504	BPM diapazonu 32..255. Sürət diapazonu 1..31.
+M505	Nümunə effektləri oynayarkən sürəti və BPM-ni də dəyişə bilər.
+M506	Alətlər
+M507	YUKARI/AŞAĞI SEÇMƏSİNİ ÖNİZƏ GÖRÜNTÜLƏNİN F3 İSTİFADƏSİ YAPIN
+M508	Dörd kanalın hamısı dalğa cədvəli sintezindən istifadə edir.
+M509	Preview, redaktə kursorunun altındakı trekdə C-4 oynayır.
+M510	MAHNINI KİMİ SAXLA
+M511	SAXLAMA F4 VEYA CTRL-C LƏĞV EDİN
+M512	Kataloq:
+M513	Fayl adı:
+M514	.SGT genişləndirilməsi avtomatik olaraq əlavə edilir.
+M515	Mövcud faylın üzərinə yazıla bilər.
+M516	AÇIQ MAHNI
+M517	OPEN BS PARENT CTRL-O/CTRL-C LƏĞV EDİN
+M518	(bu qovluqda .SGT faylı yoxdur)
+M519	TƏSDİQ EDİN
+M520	Y = BƏLİ N / ENTER / CTRL-C = NO
+M521	Y = bəli N = yox
+M522	C-
+M523	C#
+M524	D-
+M525	D#
+M526	e-
+M527	F-
+M528	F#
+M529	G-
+M530	G#
+M531	A-
+M532	A#
+M533	B-
+M534	A:/dir/ad
+M535	MThd
+M536	sınmış MThd
+M537	MIDI İDXAL
+M538	MTrk
+M539	qırılmış delta vaxtı
+M540	pozulmuş qaçış statusu
+M541	pozulmuş meta hadisəsi
+M542	pozulmuş syseks hadisəsi
+M543	pozulmuş kanal hadisəsi
+M544	SMF çıxışı çox kiçikdir
+M545	SMF çıxışı çox böyükdür
+M546	mahnı SMF üçün çox uzundur
+M547	TRK1
+M548	%s%d
+M549	%s%d:%s%d
+M550	%s
+M551	%.40s%s
+M552	[%s] %s
+M553	EDİN
+M554	HAZIR
+M555	%4d
+M556	%s Cəm %.7g N %ld%s
+M557	OXLAR xana kursorunu hərəkət etdirir
+M558	SHIFT+ARR seçimi genişləndirir (qrafiklər/nüsxə üçün)
+M559	ENTER xananı redaktə edin; redaktə etmək, öhdəliyi götürmək və aşağı hərəkət etmək
+M560	TAB növbəti xana SHIFT+TAB əvvəlki xana
+M561	SİL Seçilmiş xana(ları) təmizləyin ESC ləğvi
+M562	PGUP/PGDN bir ekranı HOME/END birinci/son sütuna köçürün
+M563	CTRL+HOME A1 CTRL+END son istifadə olunan xana
+M564	F1 kömək F2 redaktə etmək üçün F3-ü kopyalayın F4 yapışdırın F5 F6 rənginə keçin
+M565	F7 avtomatik uyğunlaşma F8 fonu F9 yenidən hesablama F10 qrafiki F11 yadda saxla F12 menyusu
+M566	SHIFT+F1 haqqında SHIFT+F2 sıra hündürlüyü SHIFT+F3 sütun eni
+M567	SHIFT+F4 bütün SHIFT+F10 qrafik diapazonunu seçin SHIFT+F11 kimi saxla
+M568	CTRL+F1 yeni CTRL+F2 CTRL+F3-ü açın CTRL+F4 kimi saxla
+M569	CTRL+F5 ixrac CSV CTRL+F6 ODS ixrac ALT+F12 çıxın
+M570	Aşağı 2 sətir: funksiya düymələri; [SHIFT]/[CTRL]/[ALT] fayl kimi
+M571	CTRL+S saxla CTRL+O açın CTRL+N yeni CTRL+C/V/X kopyala/yapışdır/kəs
+M572	CTRL+G menyunu açın / açın (1 Fayl, 2 Redaktə et, ...)
+M573	Quraşdırılmış funksiyalar: CAM ORTA MIN MAX SAYI
+M574	MƏHSUL ABS SQRT INT ROUND MOD POWER VƏ VƏ YA YOXDUR
+M575	IFERROR LEN SOL SAĞ ORTA YUXARİ AŞAĞI KƏSİM BİRLAŞTIRMA PI
+M576	Hüceyrə istinadları: A1, $A$1, A1:B10.  Formulalar '=' ilə başlayır.
+M577	Fayllar: .ods (LibreOffice), .fods (düz XML), .csv
+M578	ODS/FODS formulları, genişlikləri, hündürlükləri və rəngləri saxlayır.
+M579	CSV dəyərləri və düsturları saxlayır (rənglər/hündürlüklər yoxdur).
+M580	Qrafik: diapazon seçin, F10 düyməsini basın və Xətt/Bar/Qarışıq/Pie seçin.
+M581	Sgnano üçün SGCALC
+M582	Versiya
+M583	SGX proqramı kimi Lotus 1-2-3 üslublu elektron cədvəl.
+M584	SGX ABI %u.%u
+M585	Ekran rejimi 3: mətn + CLUT8 FB (aşağı səslər deaktivdir)
+M586	Vərəq: %d sətir x %d sütun
+M587	Formatlar: .ods / .fods (LibreOffice), .csv
+M588	Tor mətn müstəvisində çəkilir.
+M589	Diaqramlar və 640x480 fon FB-dən istifadə edir.
+M590	%d %s
+M591	Hüceyrəni (%d) saxlamaq mümkün deyil.
+M592	%d x %d xanaları kopyalandı
+M593	Təmizləndi %s
+M594	'%s' xana istinadı deyil.
+M595	%d
+M596	Sütun eni = %d
+M597	Sıra hündürlüyü = %d
+M598	Avtomatik uyğunlaşdırma: %d sütun(lar), %d sətir(lər)
+M599	%2d
+M600	Rəng tətbiq etmək mümkün deyil (%d).
+M601	%s rəng = %d
+M602	Etibarlı diapazon deyil.\nA1:C10 kimi diapazondan istifadə edin.
+M603	Qrafik diapazon %s
+M604	Qrafik: %s
+M605	SGCALC: ekran rejimi 3 təyin edilə bilməz: %s
+M606	%.2g
+M607	%.6g
+M608	%s %.0f%%
+M609	QRAFİK %s %s
+M610	%s%s
+M611	%s/%s
+M612	%.*s
+M613	%.*s/
+M614	%s oxumaq mümkün deyil\n%s
+M615	Qovluq: %s
+M616	[DIR] %s
+M617	%s
+M618	%lu.%luM
+M619	%luK
+M620	%luB
+M621	KİTAB 1%s
+M622	%c:/
+M623	Dəstəklənməyən genişləndirmə.\n.csv, .ods və ya .fods istifadə edin.
+M624	%s artıq mövcuddur.\nÜstünə yazmaq?
+M625	%s yazıla bilən olmaya bilər.\nHər halda cəhd edək?
+M626	%s üçün naməlum fayl növü
+M627	Dəstəklənməyən fayl növü.\n.csv, .ods və ya .fods istifadə edin.
+M628	%s aça bilmir\n%s
+M629	%s qovluqdur.
+M630	%s idxal etmək mümkün deyil\n%s
+M631	Yükləndi %s
+M632	%s faylını qurmaq mümkün deyil.
+M633	%s yazmaq mümkün deyil\n%s
+M634	%s %s
+M635	dəstəklənməyən versiya %u
+M636	%d:%d:%d:%d:%d:%d
+M637	Oktava %d
+M638	Qeyd %s
+M639	Alət %d
+M640	Həcmi %s
+M641	Effekt %c
+M642	Parametr %s
+M643	Nümunə %s
+M644	Oyun nümunəsi %s
+M645	SAXLAMA XƏTASI: %s
+M646	Saxlanıldı %s
+M647	YÜKLƏMƏ XƏTASI: %s
+M648	BPM %d
+M649	Sürət %d
+M650	Önizləmə %s
+M651	Alət %s %s
+M652	%s üzərinə yazın? (Y/N)
+M653	| BPM %s SPD %s
+M654	SGNO TRACKER 1.0 |
+M655	FAYL
+M656	PAT %s
+M657	ORD %d/%d
+M658	INS %s
+M659	OKT %d
+M660	DÜZENLEME %s
+M661	ON
+M662	FOL %s
+M663	İZLE %d
+M664	%c%s
+M665	%s %s %s %s
+M666	%s
+M667	%d %s %s
+M668	SİFARİŞ %d/%d
+M669	PAT %s
+M670	INS %s %s
+M671	OKT %d EDIT %s
+M672	İZLƏYİN %s
+M673	OYNAMA ORDU %d/%d PAT %s ROW %s/%d SPD %s BPM %d F7 STOP
+M674	HAZIR EDİLMƏ %s OKT %d F1 YARDIM F5 OYNA CTRL-S YADDASI
+M675	%s
+M676	F5 Mahnını cari sıradan səsləndirin
+M677	F6 Cari nümunəni çalın
+M678	F7/Ctrl-C Oxumağı dayandırın
+M679	Space Play / Stop
+M680	F4 Saxla
+M681	Ctrl-S Save (yeni olduqda ad soruşur)
+M682	Ctrl-O Mahnı açın
+M683	Ctrl-N Yeni mahnı
+M684	F12 Çıxın (dəyişiklik edildikdə təsdiqləyin)
+M685	[ ] Əvvəlki / növbəti sifariş girişi
+M686	{ } Sifariş qeydini daxil edin / silin
+M687	- + Girişdəki nümunəni dəyişdirin
+M688	F11 İzləmə oxutma (əllə hərəkət zamanı sönür)
+M689	F1 Kömək; Sol/Sağ dəyişikliklər səhifəsi
+M690	F8 Redaktə rejimini dəyişdirin
+M691	Oklar Kursoru hərəkət etdirin
+M692	PgUp/PgDn 16 sıra atlayın
+M693	Ev/Son Birinci / sonuncu sıra
+M694	F9/F10 Oktava aşağı/yuxarı
+M695	Z S X D C V G B H N J M aşağı piano sırası
+M696	Q 2 W 3 E R 5 T 6 Y 7 U yuxarı piano sırası
+M697	1 Qeyd söndürülür
+M698	0 / Del 0 qeyd/inst/fx-i təmizləyir; Del hər hansı birini təmizləyir
+M699	Ctrl-Z Son model/sifariş redaktəsini ləğv edin
+M700	Axy Həcmi sürüşdürmə: yuxarı x, aşağı y
+M701	Cxx Qeyd xx işarələrindən sonra kəsilir
+M702	Dxx Set həcmi (00..7F)
+M703	Fxx Sürət xx < 20 olarsa, əks halda BPM
+M704	Hxy Arpeggio x, y yarımtonlar
+M705	Pxx Pitch yuxarı sürüşdürün
+M706	Qxx Pitch aşağı sürüşdürün
+M707	F2 mahnı parametrləri, F3 alət siyahısı
+M708	YARDIM %d/2
+M709	Başlıq
+M710	[%s_]
+M711	BPM: %d (sol/sağ -1/+1, -/+ -5/+5)
+M712	Sürət: %d gənə/sətir
+M713	Sıralar: %d (sabit)
+M714	Sifariş: %d yazılar
+M715	İstifadə olunan nümunələr: %d
+M716	# ADI DALĞA A D S R VOL
+M717	%c %d %-9s %-9s %3d %3d %3d %3d %4d
+M718	Cari alət: %s %s
+M719	%s
+M720	DIR %s
+M721	%c %s%s
+M722	Fayllar: %d
+M723	%02d
+M724	%03d
+M725	%02X
+M726	SGNO TRACKER: uyğun olmayan SGX ABI
+M727	S: yoxlayın: gözləyin -- fayl oxunur və ya yazılır
+M728	S: yoxlayın: sürücü məşğuldur və ya hazır deyil
+M729	bu element üçün heç nə (ContextMenu.cfg)
+M730	ContextMenu.cfg-də pis əmr
+M731	ContextMenu.cfg-də naməlum hərəkət
+M732	menyu
+M733	fayl və ya qovluq seçin
+M734	bu disk yazıla bilməz
+M735	arxiv işi artıq işləyir
+M736	arxiv tapşırığı üçün PSRAM yoxdur
+M737	arxiv tapşırığına başlaya bilmədi
+M738	həddən artıq çox element (ən çox 32)
+M739	sıxmaq üçün heç bir şey
+M740	ad yoxdur (və ya adda / və ya \\ var)
+M741	Ən çoxu 32 element (daha az qeyd edin və ya qovluğa qoyun)
+M742	arxiv
+M743	kompres
+M744	göstərmək
+N001	5 Makro
+N002	6 Kömək
+N003	Cari işə salın
+N004	Kursorda makronu işə salın (#! başlıq xanası və onun altındakı xanalar)
+N005	Seçimi işə salın
+N006	Seçilmiş xanaları bir makro kimi işlədin (yuxarı sol xana #! başlığıdır)
+N007	Hamısını işlət
+N008	Vərəqdəki hər bir makronu yuxarıdan soldan aşağıya doğru işlədin
+N009	Son səhv
+N010	Son makro xətasını göstərin
+N011	Makro
+N012	Makro: #!ruby / #!python / #!basic hüceyrələrini işə salın
+N013	Xanəni redaktə edin (F2)
+N014	Genişlikləri/hündürlükləri məzmuna uyğunlaşdırın
+N015	Son makro xətası
+N016	Makro xətası yoxdur.
+N017	IME aktivdir
+N018	IME söndürülür
+N019	Makro: %s %s ...
+N020	%s: bu proqram təminatı makroları işlədə bilmir (SGX ABI 5.10 və ya daha sonrakı versiyalar)
+N021	Makro xətası: %s
+N022	Makro: %s hazırdır
+N023	makro artıq işləyir
+N024	bu dil mövcud deyil
+N025	kifayət qədər yaddaş yoxdur
+N026	makro xəta ilə dayandı
+N027	Makro xətası %s: %s
+N028	Makro: kifayət qədər yaddaş yoxdur
+N029	Makro: kursor makroda deyil (#!ruby / #!python / #!basic xana və ya onun altındakı xanalar)
+N030	Makro: vərəqdə makro yoxdur
+N031	Bütün makroları işə salın
+N032	Makrolar: %d. Hamısını yuxarıdan soldan aşağıya doğru işlədin? Dəyişikliklər geri qaytarıla bilməz.
+N033	Makro: %d of %d tamamlandı
+N034	Hüceyrəni təmizlədi
+N035	Seçimi təmizlədi
+N036	Fon rəngi = %d
+N037	Mətnin rəngi = %d
+N038	Qrafik: xətt
+N039	Qrafik: bar
+N040	Qrafik: qarışıq
+N041	Qrafik: pasta
+N042	İxrac %s

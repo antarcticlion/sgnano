@@ -1,0 +1,373 @@
+# hu: machine translation (Google), unreviewed; 2026-11-17
+U001	Lista (fájlok és mappák 2 oszlopban x 19 sorban)
+U002	A kurzor mozgatása (balra / jobbra: a másik oszlop)
+U003	Előző oldal / következő oldal
+U004	Az összes kijelölése / a jelek megfordítása (mint a PC-98 FD-ben)
+U005	Első / utolsó
+U006	Jelölje meg és lépjen tovább / csak jelölje meg
+U007	Shift+nyilak
+U008	Válasszon ki egy tartományt (a szóköz jelöli a tartományt)
+U009	Adjon meg egy mappát / nyisson meg egy fájlt (F2/X futtatása)
+U010	Akár a szülőmappáig
+U011	Válasszon meghajtót (USB, floppy, CD, S: beépített)
+U012	Másolás (Shift+C / Shift+F3 kiválasztja a célt a fából)
+U013	Mozog
+U014	Törlés (Shift+D / Shift+F4 mappa törlése)
+U015	Átnevezés
+U016	Módosítsa az attribútumokat
+U017	Nyissa meg a szerkesztőben
+U018	Megtekintés szövegként (Shift+V / Ctrl+Alt+F7 hexa)
+U019	Vezetési információk
+U020	Új mappa / új fájl
+U021	Shell sgsh / hordozó kiadása
+U022	Újratöltés
+U023	Mentse el a képernyőt PNG formátumban
+U024	Az ablak bezárása / a kijelölés törlése (almappában: felfelé)
+U025	Fájlműveletek (mint az FD-ben: jelölések, majd tartomány, majd kurzor)
+U026	Másolás: válassza ki a célt a meghajtó és a mappafából. Az ESC leáll
+U027	Törlés: erősítse meg y-val. Jelek és tartományok egyszerre. Mappák a tartalmukkal
+U028	Mappa törlése (a tartalmával együtt)
+U029	Átnevezés (a név szerkesztése, Enter)
+U030	Attribútumok: R csak olvasható, H rejtett, S rendszer, A archívum
+U031	Új mappa
+U032	Új (üres) fájl
+U033	Megtekintés szövegként (Shift+V / Ctrl+Alt+F7 hexa)
+U034	Shell sgsh (kilépés / Ctrl-D vissza a fájlkezelőbe)
+U035	A meghajtó azonosítója (KÉRDEZÉS, AZONOSÍTÁS)
+U036	Vegye ki az FDD / LS-120 / CD adathordozót
+U037	A lista újratöltése (CD: a tartalomjegyzékből)
+U038	Fogadás a számítógépről a ZMODEM segítségével (zm.sh put)
+U039	Küldje el a számítógépre a ZMODEM segítségével (zm.sh get)
+U040	Fordítsa le az .rb-t és írja be az .mrb-t
+U041	Ruby REPL (soronként, Ctrl-D / ESC a végéhez)
+U042	MicroPython REPL
+U043	Felosztás 4 MB-os részekre / csatlakozás .001-től
+U044	Felosztás/csatlakozás (ugyanaz, mint a Ctrl+F11/F12)
+U045	Képernyő (Alt+F, nem ütközik az FD F billentyűkkel)
+U046	FB (kép) / szöveg megjelenítése / elrejtése
+U047	FB megjelenítési oldal (0-3)
+U048	Törölje az FB-t 0-ra / felére csökkenti a fényerőt (RGB555)
+U049	USB-végpontok és a LAN állapota
+U050	Törölje az FB kijelző oldalát / felérezza a fényerejét
+U051	Szöveges attribútum minták
+U052	Monitor EDID (olvasni indításkor)
+U053	Font ROM licencek és kreditek
+U054	Beállítások (megjelenítési nyelv, IME és billentyűzet nyelvi beállítása)
+U055	Óra (a japán időt az NTP állította be; s most szinkronizál)
+U056	Táblázat megnyitása (SGCALC)
+U057	Ellenőrizze az S: hibákat (javítás előtt megkérdezi)
+U058	Nyissa meg a TRACKER-t
+U059	Újraindítás (először kérdez)
+U060	Az ADC sztereó bemenet lejátszása (GP40 / 41)
+U061	Exportálja a VGM/VGZ-t 96 kHz-es / 24 bites WAV-ba
+U062	Ez a segítség
+U063	Változtasd meg az oldalt
+U064	Közeli
+U065	Szöveg / hexadecimális megjelenítő (tetszik kevesebb)
+U066	Egy sor
+U067	Egy oldal
+U068	Fél oldal
+U069	Keresés (előre / hátra) / következő / előző
+U070	Vissza a listához (F1: a néző segítsége)
+U071	Képnézegető
+U072	Vissza a listához (F2 F3 F6 F7 Shift+F2 F3 működik)
+U073	Szerkesztő (E/Shift+F8)
+U074	Mentés (UTF-8; sorvégek és anyagjegyzék megtartva)
+U075	Bezárás (ha módosult: I / N / ESC)
+U076	Beszúrás / felülírás
+U077	IME be/ki (japán/angol/koreai)
+U078	IME nyelv (japán / angol / koreai)
+U079	Elkötelezett hiragana / katakana
+U080	A szerkesztő segítsége
+U081	Héj
+U082	Shell (egy csh részhalmaz. exit / Ctrl-D a visszatéréshez, a súgó felsorolja a parancsokat)
+U083	Lista és mozgó
+U084	Fájlműveletek
+U085	Képernyő és eszközök
+U086	A nézők és a szerkesztő
+U087	Segítség %u / %u %s
+U088	Bal Jobb: oldal módosítása F1 / ESC: bezárás
+U089	Sgnano újraindítása?
+U090	[Újraindítás]
+U091	[ Mégse ]
+U092	Ellenőrizze az S: meghajtót, hogy vannak-e hibák
+U093	Fájlok %lu mappák %lu
+U094	A méret nem felel meg a láncnak
+U095	Semmi által használt klaszterek
+U096	Térhálós klaszterek
+U097	Törött bejegyzések
+U098	A két FAT-másolat különbözik
+U099	Nincsenek hibák.
+U100	Hibákat találtunk. Megjavítani őket?
+U101	Javítva (a fenti számok javítva).
+U102	Nem sikerült ellenőrizni vagy javítani (S: foglalt).
+U103	[Javítás]
+U104	[ Mégse ]
+U105	Bármelyik kulcs bezárul
+U106	Beállítások elemre
+U107	Megjelenítési nyelv
+U108	Billentyűzet nyelvi beállítása
+U109	Fel / Le Enter válassza az ESC törlése lehetőséget
+U110	Megjelenítési nyelv
+U111	Fel / Le Enter: ESC beállítása: vissza
+U112	Javítás %c: melyik betűként? (A-Z, kivéve S. ESC törli)
+U113	Meghajtó betűjele / Enter válassza F2 fix/Unfix a betű F3 fix as... L / ESC cancel
+U114	partíció %u
+U115	%c:* (fix, nincs csatlakoztatva) %04X:%04X%s %s
+U116	Értesítés
+U117	Hajtás %c: %s
+U118	Hajtás (nincs)
+U119	Audio CD %u műsorszámok
+U120	Mappák %u fájlok %u összesen %s
+U121	Olvasás...
+U122	* %u %s jelzéssel
+U123	%lu bájt
+U124	Attr %s módosítva %s létrehozva %s %s
+U125	Nap
+U126	Hétfő
+U127	kedd
+U128	Házasodik
+U129	cs
+U130	Péntek
+U131	Ült
+U132	Az óra nincs beállítva (NTP a LAN-on keresztül)
+U133	FB kijelző %u írás %u
+U134	1 Segítség
+U135	2 Fuss
+U136	3 Másolás
+U137	4 Del
+U138	5 Átnevezés
+U139	7 FBclr
+U140	8 FBdim
+U141	9 Hajtás
+U142	10 EP
+U143	11 Óra
+U144	12 CALC
+U145	1 Attr
+U146	2 Info
+U147	3 Mozgás
+U148	5 Mkdir
+U149	6 Shell
+U150	8 Szerkesztés
+U151	9 Megtekintés
+U152	10 S:chk
+U153	11 PÁLYA
+U154	12 Indítsa újra
+U155	1 Új
+U156	2 Mappa
+U157	3 Átnevezés
+U158	4 Attrib
+U159	6 Másolás
+U160	7 Mozgás
+U161	8 Törlés
+U162	9 Szerkesztés
+U163	10 mrbc
+U164	11 Split
+U165	12 Csatlakozás
+U166	1 Attrs
+U167	2 FB
+U168	3 Szöveg
+U169	5 ScrSht
+U170	6 DispPg
+U171	9 ZMrecv
+U172	10ZMsend
+U173	2 FBClr
+U174	3 FBDim
+U175	5 Újratöltés
+U176	7 Hex
+U177	9 Lic
+U178	11 Beállítás
+U179	Állítsa be az órát (japán idő. Az NTP nem tudta beállítani)
+U180	Futtassa paraméterekkel
+U181	Új mappa
+U182	Új fájl
+U183	Idő:
+U184	Fut:
+U185	Név:
+U186	ÉÉÉÉ-HH-NN óó:pp Adja meg az ESC megtartási készletet
+U187	Enter run <-> move BS / Del delete ESC cancel
+U188	Írja be az átnevezést <-> mozgat BS / Törlés törlés ESC megszakítás
+U189	Írja be a Create <-> move BS / Del delete ESC cancel
+U190	Töröl
+U191	tételeket
+U192	A mappák tartalmukkal együtt törlődnek. Biztos vagy benne?
+U193	Törli ezt a fájlt?
+U194	(Ezt nem lehet visszavonni. A mappákban lévő fájlok is törlődnek)
+U195	[Igen (Y)]
+U196	[Nem (N)]
+U197	hex viewer: válasszon fájlt
+U198	szövegnézegető: válasszon fájlt
+U199	Áthelyezés ide
+U200	Másolás ide
+U201	A puffer megtelt
+U202	A meghajtó csak olvasható
+U203	Nem menthető (nincs író)
+U204	Nem sikerült elindítani a mentést (a meghajtó foglalt?)
+U205	Megtakarítás...
+U206	2 Mentés
+U207	5 Színes
+U208	6 Hira
+U209	7 Kata
+U210	8 Pred
+U211	10 Lépj ki
+U212	1 Felső
+U213	2 Vége
+U214	3 InsOvr
+U215	4 Dict
+U216	6 HHira
+U217	7 HKata
+U218	%s %s Ln %lu/%lu Col %u %s %s %s%s%s
+U219	*mod
+U220	OVR
+U221	INS
+U222	R/O
+U223	Szerkesztő (sgnano szerkesztés) F1 / ESC bezárul
+U224	Nyilak / Kezdőlap vége / PgUp PgDn mozgassa a kurzort
+U225	Ctrl-T / Ctrl-B a fájl tetején/végén
+U226	BS / Törlés törlése a / előtt a kurzornál
+U227	Írjon be egy új sort (megtartja a behúzást)
+U228	Tab / Ins fül / beszúrás vagy felülírás
+U229	F5 színezés (kiterjesztésből; C/C++, mruby, MicroPython, SG BASIC, nincs)
+U230	F2 (Ctrl-S) mentés (UTF-8, sorvégek megtartva)
+U231	F10 / ESC bezárás (megkérdezi, ha változott)
+U232	IME: Ctrl-Szóköz / F12 be/ki (あ / A)
+U233	F9 IME nyelv (csak ez a szerkesztő; bezáráskor visszaállítva)
+U234	F8 japán prediktív konverzió be/ki
+U235	Japán romaji -> hiragana (F6) / katakana (F7)
+U236	Félszélességű hiragana (Shift+F6) / félszélességű katakana (Shift+F7)
+U237	Jóslás 2 vagy több karakterrel, folytonos záradék konvertálása szóközzel
+U238	Angol prediktív befejezés 2 vagy több karakterrel
+U239	한국어 2 Bol-stílusú hangul
+U240	Szóköz / Enter Konvertálás / Megerősítés
+U241	← → Válasszon ki egy kifejezést
+U242	Shift+← → A záradék jobb végének szűkítése/növelése egy karakterrel (új jelöltek)
+U243	↑ ↓ / Előző lap / Következő jelölt a felugró ablakban (a szöveg alatt, fent az alján)
+U244	Belépés → → → Minden jelölt (2 x 8, ← → oszlop és oldal, Enter kiválaszt)
+U245	Írja be a Következő záradékot (megerősíti az egészet az utolsó záradéknál)
+U246	Ctrl-U Aktuális szó hozzáadása a felhasználói szótárhoz
+U247	Shift+F1 / F2 / F3 / F4 Felül / vége / beszúrás-felülírás / a felhasználói szótárba
+U248	BS / ESC Visszalépés egy karakterrel / Mégse
+U249	, . - [ ] / 、 。 ー 「 」 ・
+U250	Módosítva Y: mentés és bezárás N: bezárás mentés nélkül ESC: vissza
+U251	[Prediction] Tab/↑↓: jelölt Szóköz: konvertálás Esc: Mégse
+U252	[Jelöltek] ↑↓: válasszon ←→: oszlop/oldal Enter: válasszon
+U253	[Konvertálás] ↑↓cand ←→tagmondat Shift+←→korlátos Enter Következő
+U254	[한국어] Tab/↑↓: jelölt Enter/Szóköz: megerősítés
+U255	[Magyar] Tab/↑↓: jelölt Belépés: megerősítés
+U256	2-készletes hangul bevitel Ctrl-Szóköz: alfanumerikus
+U257	Prediktív befejezés Ctrl-Space: közvetlen bevitel
+U258	Nincs szótár: csak hiragana/katakana F6/F7
+U259	Szóköz: konvertálás F7: katakana Ctrl-Szóköz: alfanumerikus
+U260	Szóköz: konvertálás F6: hiragana Ctrl-Szóköz: alfanumerikus
+U261	Félszélességű F6: hiragana F7: katakana Shift+F6/F7: fél
+U262	IME kikapcsolva
+U263	megjósolni
+U264	Prediktív japán fordítás: Be
+U265	Prediktív fordítás japánra: Ki
+U266	Használja a japán IME-vel
+U267	Nem adható hozzá a felhasználói szótárhoz
+U268	Színezés: %s
+U269	Terhelés...
+U270	Nem sikerült beolvasni a fájlt
+U271	%lu vonalak%s%s
+U272	megnyitotta a Shift_JIS-t UTF-8-ként (UTF-8-ként mentve)
+U273	csak olvasható
+U274	Mentve
+U275	Nem sikerült menteni (nem sikerült az írás)
+U276	Jelöltek
+U277	7 WrtPg
+U278	9 Szöveg
+U279	9 Hex
+U280	Betöltés %lu%%
+U281	(csak a kezdet)
+U282	Hex q ESC: vissza F1: súgó
+U283	Szöveg q ESC: vissza F1: súgó
+U284	Nézőbillentyűk (például a kevesebb; ugyanaz a szöveghez és a hexalaphoz)
+U285	Egy sorral lejjebb
+U286	Egy sor
+U287	Egy oldallal lejjebb
+U288	Egy oldallal feljebb
+U289	Fél oldal le/fel
+U290	/text ?szöveg
+U291	Keresés le/fel (kis- és nagybetűk figyelmen kívül hagyása)
+U292	Következő / előző mérkőzés
+U293	Megjelenítés hatszögletűként (ugyanazon a helyen)
+U294	Megjelenítés szövegként (ugyanazon a helyen)
+U295	A színezés módosítása (C/C++, mruby, MicroPython, SG BASIC, nincs)
+U296	Az FB / szöveg megjelenítése / elrejtése
+U297	FB oldal megjelenítése / írási oldal
+U298	Vissza a reszelőhöz
+U299	Zárja be ezt a súgót
+U300	Másolat
+U301	%s: a mappák olvasása... %u
+U302	%s: a szabad hely számlálása a célállomáson...
+U303	%s: nincs elég szabad hely a célállomáson
+U304	Áthelyezés: a forrásmappák eltávolítása
+U305	Kész
+U306	Megállt
+U307	%s folyamatban%s
+U308	(megállás)
+U309	Feladó: %s
+U310	Címzett: %s
+U311	Fájlok %u / %u mappák %u %s / %s (%u%%)%s
+U312	túl sok: csak néhány
+U313	Szükséges %s, ingyenes %s. Folytatja?
+U314	Y: folytatás N / ESC: Mégse
+U315	Nyomja meg bármelyik gombot a bezáráshoz
+U316	ESC: állj
+U317	%s: ←→ meghajtó ↑↓ mappa Szóköz nyitás/zárás Enter válasszon ESC mégse
+U318	Nem olvasható: %s
+U319	Mappák olvasása... (ESC leáll) %u
+U320	%u mappák%s
+U321	(túl sok vagy túl mély: csak néhány)
+U322	A mappa megnyitása leállt
+U323	Az űr újra megnyitja. Az ESC még egyszer megszakad
+U324	SMF / SGT lejátszó %s
+U325	Betöltés... %lu / %lu bájt
+U326	%s / %s %s portok %u
+U327	Szüneteltetve
+U328	Játék
+U329	Szóköz: szünet m: MIDI OUT q / ESC: stop
+U330	q / ESC: megszakítás
+U331	Font ROM licencek és kreditek\n\nROM: %s (%lu.%lu verzió, %lu karakter, 0x%08lX-től a flashben)
+U332	== Betűtípusok a ROM-ban (a ROM eredettáblázata) ==
+U333	(a ROM-nak nincs táblázata)
+U334	== A ROM kredit területe ==
+U335	(nincs ilyen terület)
+U336	== A beépített szoftver licencei ==
+U337	%s mentése PNG %s formátumban
+U338	Képernyő
+U339	Épület... %lu / %lu sor
+U340	Írás... %lu / %lu KB (az FB rejtve van)
+U341	Nem sikerült írni
+U342	Archívum neve (a megjelölt elemek, vagy a kurzor elem, ha nincs)
+U343	Írja be a tömörítést ← → BS mozgat / Törlés törlés ESC törlése
+U344	WAV export: %s megszakítva (%s)
+U345	WAV export: %s sikertelen (%s)
+U346	WAV export: %s összesen %s
+U347	WAV export (96 kHz / 24 bit): %s
+U348	Törölve
+U349	Sikertelen
+U350	Összesen %s
+U351	Törölve (%s; a részfájl törölve)
+U352	Nem sikerült exportálni (%s). Ok:
+U353	(ok ismeretlen)
+U354	%u%% eltelt %s%s
+U355	ESC: stop (a részleges fájl törlődik)
+U356	Archívum: %s
+U357	Olvasás... (ESC a törléshez)
+U358	%u tételek%s összesen %s bájt kibontása ide: %s
+U359	Írja be az elem kivonatát X az összes kibontása ↑↓ ESC bezárása
+U360	Borogatás
+U361	Lista
+U362	Kivonat
+U363	Összesen %s %u elem
+U364	Összesen %s %u fájl
+U365	Törölve (%s; a befejezetlen fájlt törölték)
+U366	Nem sikerült (%s): %s
+U367	%u%% eltelt %s %s bájt%s
+U368	eltelt %s %s bájt%s
+U369	ESC: stop (a befejezetlen fájl törlődik)
+U370	Archiválás: %s sikertelen (%s)
+U371	Tömörítve: %s (%u elem)
+U372	Kicsomagolva: %s (%u fájlok)

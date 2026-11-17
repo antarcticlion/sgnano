@@ -1,0 +1,373 @@
+# mt: machine translation (Google), unreviewed; 2026-11-17
+U001	Lista (fajls u folders f'2 kolonni x 19-il filliera)
+U002	Mexxi l-cursor (xellug / lemin: il-kolonna l-oħra)
+U003	Il-paġna ta' qabel / il-paġna li jmiss
+U004	Immarka kollha / aqleb il-marki (bħal f'PC-98 FD)
+U005	L-ewwel / l-aħħar
+U006	Immarka u jimxi fuq / immarka biss
+U007	Shift+Vleġeġ
+U008	Agħżel firxa (L-ispazju jimmarka l-firxa)
+U009	Daħħal folder / iftaħ fajl (F2/X run)
+U010	Sal-folder ġenitur
+U011	Agħżel drive (USB, floppy, CD, S: built-in)
+U012	Kopja (Shift+C / Shift+F3 jagħżel id-destinazzjoni mis-siġra)
+U013	Nimxu
+U014	Ħassar (Shift+D / Shift+F4 ħassar folder)
+U015	Semmi mill-ġdid
+U016	Ibdel l-attributi
+U017	Iftaħ fl-editur
+U018	Ara bħala test (Shift+V / Ctrl+Alt+F7 hex)
+U019	Informazzjoni tas-sewqan
+U020	Folder ġdid / fajl ġdid
+U021	Shell sgsh / eject il-mezz
+U022	Reload
+U023	Issejvja l-iskrin bħala PNG
+U024	Agħlaq it-tieqa / neħħi l-għażla (f'subfolder: mur 'l fuq)
+U025	Operazzjonijiet tal-fajl (bħal FD: marki, imbagħad il-firxa, imbagħad il-cursor)
+U026	Kopja: agħżel id-destinazzjoni mis-siġra tas-sewqan u l-fowlder. L-ESC jieqaf
+U027	Ħassar: ikkonferma b'y. Marki u firxiet f'daqqa. Folders bil-kontenut tagħhom
+U028	Ħassar folder (bil-kontenut tiegħu)
+U029	Semmi (editja l-isem, Daħħal)
+U030	Attributi: R read-only, H moħbija, S sistema, A arkivju
+U031	Folder ġdid
+U032	Fajl ġdid (vojt).
+U033	Ara bħala test (Shift+V / Ctrl+Alt+F7 hex)
+U034	Shell sgsh (ħruġ / Ctrl-D lura għall-filer)
+U035	Identità tas-sewqan (INKJESTA, IDENTIFIKA)
+U036	Eject il-mezz FDD / LS-120 / CD
+U037	Erġa' tagħbija l-lista (CD: mit-TOC)
+U038	Irċievi mill-PC minn ZMODEM (zm.sh put)
+U039	Ibgħat lill-PC minn ZMODEM (zm.sh get)
+U040	Ikkumpila .rb u ikteb .mrb
+U041	Ruby REPL (linja waħda kull darba, Ctrl-D / ESC sa l-aħħar)
+U042	MicroPython REPL
+U043	Qasam f'partijiet ta' 4 MB / jingħaqad minn .001
+U044	Aqsam/ingħaqad (l-istess bħal Ctrl+F11/F12)
+U045	Skrin (Alt+F, ma jaħbatx maċ-ċwievet FD F)
+U046	Uri / aħbi l-FB (stampa) / it-test
+U047	Paġna tal-wiri FB (0-3)
+U048	Neħħi l-FB għal 0 / naqqas bin-nofs il-luminożità tiegħu (RGB555)
+U049	Punti finali tal-USB u l-istat tal-LAN
+U050	Ċara l-paġna tal-wiri FB / tnaqqas il-luminożità tagħha bin-nofs
+U051	Kampjuni ta' attribut tat-test
+U052	Immonitorja l-EDID (aqra mal-but)
+U053	Font ROM liċenzji u krediti
+U054	Settings (lingwa tal-wiri, IME u lokali tat-tastiera)
+U055	Arloġġ (ħin tal-Ġappun stabbilit mill-NTP; s jissinkronizza issa)
+U056	Spreadsheet miftuħa (SGCALC)
+U057	Iċċekkja S: għal żbalji (tistaqsi qabel isewwi)
+U058	Iftaħ TRACKER
+U059	Reboot (tistaqsi l-ewwel)
+U060	Ilgħab l-input stereo ADC (GP40 / 41)
+U061	Esportazzjoni VGM/VGZ għal 96 kHz / 24-bit WAV
+U062	Din l-għajnuna
+U063	Ibdel il-paġna
+U064	Agħlaq
+U065	Telespettatur tat-test / hex (bħal inqas)
+U066	Linja waħda
+U067	Paġna waħda
+U068	Nofs paġna
+U069	Fittex (quddiem / lura) / li jmiss / preċedenti
+U070	Lura għal-lista (F1: l-għajnuna tat-telespettatur)
+U071	Telespettatur tal-immaġni
+U072	Lura għal-lista (F2 F3 F6 F7 Shift+F2 F3 xogħol)
+U073	Editur (E / Shift+F8)
+U074	Ħlief (UTF-8; truf tal-linja u BOM miżmuma)
+U075	Agħlaq (jekk mibdul: Y / N / ESC)
+U076	Daħħal / ikteb fuq
+U077	IME mixgħul/mitfi (Ġappuniż / Ingliż / Korean)
+U078	Lingwa IME (Ġappuniż / Ingliż / Korean)
+U079	Impenja bħala hiragana / katakana
+U080	L-għajnuna tal-editur
+U081	Qoxra
+U082	Shell (subsett csh. ħruġ / Ctrl-D biex jirritorna, jgħin jelenka l-kmandi)
+U083	Lista u ċaqliq
+U084	Operazzjonijiet tal-fajl
+U085	Skrin u apparat
+U086	Telespettaturi u l-editur
+U087	Għajnuna %u / %u %s
+U088	Xellug Lemin: ibdel il-paġna F1 / ESC: agħlaq
+U089	Reboot sgnano?
+U090	[Reboot]
+U091	[ Ikkanċella ]
+U092	Iċċekkja l-S: drive għal żbalji
+U093	Fajls %lu folders %lu
+U094	Id-daqs ma jaqbilx mal-katina
+U095	Clusters użati minn xejn
+U096	Raggruppamenti cross-linked
+U097	Daħliet miksura
+U098	Iż-żewġ kopji FAT huma differenti
+U099	Ebda żbalji.
+U100	Instabu żbalji. Isewwihom?
+U101	Imsewwi (in-numri ta' hawn fuq kienu ffissati).
+U102	Ma setgħetx tiċċekkja jew isewwi (S: hija okkupata).
+U103	[ Tiswija ]
+U104	[ Ikkanċella ]
+U105	Kwalunkwe ċavetta tagħlaq
+U106	Settings
+U107	Lingwa tal-wiri
+U108	Lokal tat-tastiera
+U109	Up / Down Daħħal agħżel ESC tikkanċella
+U110	Lingwa tal-wiri
+U111	Up / Down Daħħal: issettja ESC: lura
+U112	Waħħal %c: bħala liema ittra? (A-Z ħlief S. ESC tikkanċella)
+U113	Ittra tas-sewqan / Daħħal agħżel F2 tiffissa/unfix l-ittra F3 tiffissa bħala... L / ESC tikkanċella
+U114	diviżorju %u
+U115	%c:* (fiss, mhux konness) %04X:%04X%s %s
+U116	Avviż
+U117	Drive %c: %s
+U118	Issuq (xejn)
+U119	CD awdjo %u binarji
+U120	Folders %u fajls %u totali %s
+U121	Qari...
+U122	* immarkat %u %s
+U123	%lu bytes
+U124	Attr %s modifikat %s maħluqa %s %s
+U125	Ħad
+U126	Mon
+U127	Tm
+U128	Wed
+U129	Ħam
+U130	Ġim
+U131	Sat
+U132	L-arloġġ mhuwiex issettjat (NTP fuq il-LAN)
+U133	FB display %u ikteb %u
+U134	1 Għajnuna
+U135	2 Mexxi
+U136	3 Ikkopja
+U137	4 Del
+U138	5 Semmi mill-ġdid
+U139	7 FBclr
+U140	8 FBdim
+U141	9 Drive
+U142	10 PE
+U143	11 Arloġġ
+U144	12 CALC
+U145	1 Attr
+U146	2 Informazzjoni
+U147	3 Nimxu
+U148	5 Mkdir
+U149	6 Qoxra
+U150	8 Editja
+U151	9 Ara
+U152	10 S:chk
+U153	11 TRACK
+U154	12Reboot
+U155	1 Ġdid
+U156	2 Folder
+U157	3 Semmi mill-ġdid
+U158	4 Attrib
+U159	6 Kopja
+U160	7 Nimxu
+U161	8 Ħassar
+U162	9 Editja
+U163	10 mrbc
+U164	11 Qsim
+U165	12 Ingħaqad
+U166	1 Attrs
+U167	2 FB
+U168	3 Test
+U169	5 ScrSht
+U170	6 DispPg
+U171	9 ZMrecv
+U172	10ZMsend
+U173	2 FBClr
+U174	3 FBDim
+U175	5 Reload
+U176	7 Hex
+U177	9 Lic
+U178	11 Setup
+U179	Issettja l-arloġġ (ħin tal-Ġappun. NTP ma setax jissettjah)
+U180	Mexxi bil-parametri
+U181	Folder ġdid
+U182	Fajl ġdid
+U183	Ħin:
+U184	Mexxi:
+U185	Isem:
+U186	SSSS-MM-JJ hh:mm Daħħal issettjat ESC keep
+U187	Daħħal run <-> move BS / Delete ħassar ESC tikkanċella
+U188	Daħħal isem ġdid <-> move BS / Delete ħassar ESC tikkanċella
+U189	Daħħal toħloq <-> move BS / Delete ħassar ESC tikkanċella
+U190	Ħassar
+U191	oġġetti
+U192	Il-folders jitħassru bil-kontenut tagħhom. Int żgur?
+U193	Tħassar dan il-fajl?
+U194	(Dan ma jistax jitneħħa. Fajls fil-folders huma mħassra wkoll)
+U195	[ Iva (Y) ]
+U196	[ Le (N) ]
+U197	hex viewer: agħżel fajl
+U198	telespettatur tat-test: agħżel fajl
+U199	Nimxu lejn
+U200	Ikkopja lil
+U201	Il-buffer huwa mimli
+U202	Id-drajv huwa jinqara biss
+U203	Ma tistax issalva (l-ebda kittieb)
+U204	Ma setgħetx tibda tissejvja (id-drajv huwa okkupat?)
+U205	Iffrankar...
+U206	2 Ħlief
+U207	5 Kulur
+U208	6 Hira
+U209	7 Kata
+U210	8 Pred
+U211	10 Nieqaf
+U212	1 Fuq
+U213	2 Tmiem
+U214	3 InsOvr
+U215	4 Dict
+U216	6 HHira
+U217	7 HKata
+U218	%s %s Ln %lu/%lu Col %u %s %s %s%s%s
+U219	* mod
+U220	OVR
+U221	INS
+U222	R/O
+U223	Editur (sgnano edit) F1 / ESC jagħlaq
+U224	Vleġeġ / Dar Tmiem / PgUp PgDn iċċaqlaq il-cursor
+U225	Ctrl-T / Ctrl-B fuq / tmiem tal-fajl
+U226	BS / Del tħassar qabel / fil-cursor
+U227	Daħħal linja ġdida (iżomm l-inċiż)
+U228	Tab / Ins tab / daħħal jew overwrite
+U229	F5 Kulur (mill-estensjoni; C/C++, mruby, MicroPython, SG BASIC, xejn)
+U230	F2 (Ctrl-S) ħlief (UTF-8, it-truf tal-linji jinżammu)
+U231	F10 / ESC qrib (jistaqsi jekk jinbidel)
+U232	IME: Ctrl-Spazju / F12 mixgħul / mitfi (あ / A)
+U233	F9 Lingwa IME (dan l-editur biss; restawrat mal-għeluq)
+U234	F8 Konverżjoni tbassir Ġappuniż mixgħul/mitfi
+U235	Ġappuniż romaji -> hiragana (F6) / katakana (F7)
+U236	Hiragana ta' nofs wisa' (Shift+F6) / katakana ta' nofs wisa' (Shift+F7)
+U237	Tbassar b'2 ​​karattri jew aktar, ikkonverti klawżola kontinwa bl-Ispazju
+U238	Ingliż Tlestija ta' tbassir b'2 ​​karattri jew aktar
+U239	한국어 2 Hangul stil Bol
+U240	Spazju / Daħħal Ikkonverti / Ikkonferma
+U241	← → Agħżel frażi
+U242	Shift+← → Ċekken/ikber it-tarf tal-lemin tal-klawżola b'karattru wieħed (kandidati ġodda)
+U243	↑ ↓ / Tab Kandidat preċedenti / li jmiss fil-popup (taħt it-test, fuq ħdejn il-qiegħ)
+U244	Daħħal fuq →→→ Il-kandidati kollha (2 x 8, ← → kolonna u paġna, Daħħal jagħżel)
+U245	Daħħal il-klawżola li jmiss (jikkonferma t-totalità fl-aħħar klawsola)
+U246	Ctrl-U Żid kelma kurrenti mad-dizzjunarju tal-utent
+U247	Shift+F1 / F2 / F3 / F4 Fuq / tmiem / daħħal-ssostitwixxi / għad-dizzjunarju tal-utent
+U248	BS / ESC Mur lura karattru wieħed / Ikkanċella
+U249	, . - [ ] / 、 。 ー 「 」 ・
+U250	Modifikat Y: issalva u agħlaq N: agħlaq mingħajr ma tissejvja ESC: lura
+U251	[Tbassir] Tab/↑↓: kandidat Spazju: tikkonverti Esc: tikkanċella
+U252	[Kandidati] ↑↓: agħżel ←→: kolonna/paġna Daħħal: agħżel
+U253	[Aqleb] ↑↓cand ←→klawsola Shift+←→bound Ikteb li jmiss
+U254	[한국어] Tab/↑↓: kandidat Daħħal/Spazju: ikkonferma
+U255	[Ingliż] Tab/↑↓: kandidat Daħħal: ikkonferma
+U256	2-sett Hangul input Ctrl-Spazju: alfanumeriku
+U257	Tlestija ta' tbassir Ctrl-Spazju: input dirett
+U258	Ebda dizzjunarju: hiragana/katakana biss F6/F7
+U259	Spazju: jikkonvertu F7: katakana Ctrl-Spazju: alfanumeriku
+U260	Spazju: jikkonvertu F6: hiragana Ctrl-Spazju: alfanumeriku
+U261	Nofs wisa F6: hiragana F7: katakana Shift+F6/F7: nofs
+U262	IME mitfi
+U263	ibassar
+U264	Traduzzjoni Ġappuniża ta' tbassir: Fuq
+U265	Traduzzjoni ta' tbassir għall-Ġappuniż: Off
+U266	Uża mal-IME Ġappuniż
+U267	Ma jistax iżżid mad-dizzjunarju tal-utent
+U268	Kulur: %s
+U269	Tagħbija...
+U270	Ma setax jaqra l-fajl
+U271	%lu linji%s%s
+U272	fetaħ Shift_JIS bħala UTF-8 (issejvjat bħala UTF-8)
+U273	jinqara biss
+U274	Salvat
+U275	Ma setgħetx tissejvja (bil-kitba falliet)
+U276	Kandidati
+U277	7 WrtPg
+U278	9 Test
+U279	9 Hex
+U280	Tagħbija %lu%%
+U281	(il-bidu biss)
+U282	Hex q ESC: lura F1: għajnuna
+U283	Test q ESC: lura F1: għajnuna
+U284	Ċwievet tal-telespettaturi (bħal inqas; l-istess għat-test u l-hex)
+U285	Linja waħda 'l isfel
+U286	Linja waħda up
+U287	Paġna waħda 'l isfel
+U288	Paġna waħda 'l fuq
+U289	Nofs paġna 'l isfel /' l fuq
+U290	/test ?test
+U291	Fittex 'l isfel/'il fuq (jinjora l-każ)
+U292	Logħba li jmiss / preċedenti
+U293	Uri bħala hex (fl-istess post)
+U294	Uri bħala test (fl-istess post)
+U295	Ibdel il-kulur (C/C++, mruby, MicroPython, SG BASIC, xejn)
+U296	Uri / aħbi l-FB / it-test
+U297	Paġna tal-wiri FB / paġna tal-kitba
+U298	Lura għall-filer
+U299	Agħlaq din l-għajnuna
+U300	Kopja
+U301	%s: qari tal-folders... %u
+U302	%s: jgħodd l-ispazju ħieles fid-destinazzjoni...
+U303	%s: mhux biżżejjed spazju ħieles fid-destinazzjoni
+U304	Nimxu: tneħħi l-fowlders tas-sors
+U305	Magħmul
+U306	Waqqaf
+U307	%s fil-progress%s
+U308	(waqfien)
+U309	Minn: %s
+U310	Lil: %s
+U311	Fajls %u / %u folders %u %s / %s (%u%%)%s
+U312	wisq: xi wħud biss
+U313	Bżonnijiet %s, ħielsa %s. Kompli?
+U314	Y: kompli N / ESC: tikkanċella
+U315	Agħfas kwalunkwe ċavetta biex tagħlaq
+U316	ESC: waqqaf
+U317	%s: ←→ issuq ↑↓ folder Spazju miftuħ/għeluq Daħħal agħżel ESC tikkanċella
+U318	Ma jistax jaqra: %s
+U319	Qari tal-folders... (l-ESC jieqaf) %u
+U320	%u folders%s
+U321	(wisq jew wisq fil-fond: ftit biss)
+U322	Waqaf jiftaħ il-folder
+U323	L-ispazju jerġa’ jiftaħ. L-ESC għal darb'oħra jikkanċella
+U324	Plejer SMF / SGT %s
+U325	Tagħbija... %lu / %lu bytes
+U326	%s / %s %s portijiet %u
+U327	Waqfa qasira
+U328	Playing
+U329	Spazju: pause m: MIDI OUT q / ESC: waqfien
+U330	q / ESC: tikkanċella
+U331	Font ROM liċenzji u krediti\n\nROM: %s (verżjoni %lu.%lu, %lu karattri, minn 0x%08lX fil-flash)
+U332	== Fonts fir-ROM (it-tabella tal-oriġini tar-ROM) ==
+U333	(ir-ROM m'għandha l-ebda tabella)
+U334	== Iż-żona tal-krediti tar-ROM ==
+U335	(l-ebda żona bħal din)
+U336	== Liċenzji tas-software integrat ==
+U337	Iffrankar %s bħala PNG %s
+U338	Skrin
+U339	Bini... %lu / %lu ringieli
+U340	Tikteb... %lu / %lu KB (l-FB huwa moħbi)
+U341	Ma setgħetx tikteb
+U342	Isem tal-arkivju (l-oġġetti mmarkati, jew l-oġġett tal-cursor jekk xejn)
+U343	Daħħal kompress ←→ move BS / Delete ħassar ESC tikkanċella
+U344	Esportazzjoni WAV: %s ikkanċellata (%s)
+U345	Esportazzjoni WAV: %s falliet (%s)
+U346	Esportazzjoni tal-WAV: %s totali %s
+U347	Esportazzjoni WAV (96kHz / 24bit): %s
+U348	Ikkanċellat
+U349	Falliet
+U350	Total %s
+U351	Ikkanċellat (%s; il-fajl parzjali tħassar)
+U352	Ma setgħetx tesporta (%s). Raġuni:
+U353	(raġuni mhux magħrufa)
+U354	%u%% għadda %s%s
+U355	ESC: waqqaf (il-fajl parzjali jitħassar)
+U356	Arkivju: %s
+U357	Qari... (ESC biex tikkanċella)
+U358	%u oġġetti%s totali %s bytes estratt għal: %s
+U359	Daħħal l-oġġett tal-estratt X estratt kollu ↑↓ iċċaqlaq ESC
+U360	Ikkompressa
+U361	Lista
+U362	Estratt
+U363	Total %s %u oġġetti
+U364	Total %s %u fajls
+U365	Ikkanċellat (%s; il-fajl mhux lest tħassar)
+U366	Ma setgħetx tagħmel dan (%s): %s
+U367	%u%% għaddew %s %s bytes%s
+U368	għaddew %s %s bytes%s
+U369	ESC: waqqaf (il-fajl mhux lest jitħassar)
+U370	Arkivju: %s falla (%s)
+U371	Kompressat: %s (%u oġġetti)
+U372	Estratt: %s (%u fajls)

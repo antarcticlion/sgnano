@@ -1,0 +1,179 @@
+# Svenska — strings added since 2026-11-04 (machine translation, unreviewed; 2026-11-16)
+U004	Markera alla / invertera markeringarna (som PC-98 FD)
+U006	Markera och gå vidare / bara markera
+U008	Välj ett område (Mellanslag markerar området)
+U009	Öppna en mapp / öppna en fil (F2/X kör)
+U012	Kopiera (Shift+C / Shift+F3 väljer målet i trädet)
+U014	Ta bort (Shift+D / Shift+F4 tar bort en mapp)
+U016	Ändra attributen
+U018	Visa som text (Shift+V / Ctrl+Alt+F7 hex)
+U019	Enhetsinformation
+U020	Ny mapp / ny fil
+U021	Shell sgsh / mata ut mediet
+U022	Läs om
+U023	Spara skärmen som PNG
+U024	Stäng fönstret / avmarkera (i en undermapp: gå upp)
+U025	Filåtgärder (som FD: markeringar, sedan område, sedan markör)
+U026	Kopiera: välj målet i trädet med enheter och mappar. ESC stoppar
+U027	Ta bort: bekräfta med y. Markeringar och områden tillsammans. Mappar med innehåll
+U028	Ta bort en mapp (med innehåll)
+U030	Attribut: R skrivskyddad, H dold, S system, A arkiv
+U031	Ny mapp
+U032	Ny (tom) fil
+U033	Visa som text (Shift+V / Ctrl+Alt+F7 hex)
+U034	Shell sgsh (exit / Ctrl-D tillbaka till filhanteraren)
+U036	Mata ut FDD / LS-120 / CD-mediet
+U037	Läs om listan (CD: från TOC)
+U038	Ta emot från PC via ZMODEM (zm.sh put)
+U039	Skicka till PC via ZMODEM (zm.sh get)
+U041	Ruby-REPL (en rad i taget, Ctrl-D / ESC avslutar)
+U042	MicroPython-REPL
+U043	Dela i delar om 4 MB / foga ihop från .001
+U044	Dela / foga ihop (som Ctrl+F11 / F12)
+U045	Skärm (Alt+F, krockar inte med FD:s F-tangenter)
+U047	FB-visningssida (0-3)
+U048	Rensa FB till 0 / halvera ljusstyrkan (RGB555)
+U050	Rensa FB-visningssidan / halvera ljusstyrkan
+U057	Kontrollera S: (frågar innan reparation)
+U061	Exportera VGM/VGZ till WAV 96 kHz / 24 bitar
+U073	Redigerare (E / Shift+F8)
+U082	Shell (en del av csh. exit / Ctrl-D tillbaka, help listar kommandona)
+U092	Kontrollera enheten S:
+U093	Filer %lu  mappar %lu
+U094	Storleken stämmer inte med kedjan
+U095	Kluster som inget använder
+U096	Korslänkade kluster
+U097	Trasiga poster
+U098	De två FAT-kopiorna skiljer sig
+U099	Inga fel.
+U100	Fel hittades. Reparera dem?
+U101	Reparerat (talen ovan har rättats).
+U102	Kunde inte kontrollera eller reparera (S: är upptagen).
+U103	[ Reparera ]
+U104	[ Avbryt ]
+U112	Lås %c: som vilken bokstav? (A-Z utom S. ESC avbryter)
+U113	Enhet  bokstav / Enter välj  F2 lås/lås upp bokstaven  F3 lås som...  L / ESC avbryt
+U114	  partition %u
+U115	%c:* (låst, inte ansluten) %04X:%04X%s  %s
+U135	2 Kör
+U136	3 Kopia
+U137	4 Radera
+U138	5 Namn
+U139	7 RensFB
+U140	8 MörkFB
+U141	9 Enhet
+U142	10 EP
+U145	1 Attr
+U146	2 Info
+U147	3 Flytta
+U148	5 Mapp
+U149	6 Shell
+U150	8 Redig
+U151	9 Visa
+U152	10 S:kon
+U154	12 Omst
+U172	10 ZMsk
+U176	7 Hex
+U177	9 Licens
+U178	11 Inst
+U179	Ställ klockan (japansk tid. NTP kunde inte ställa den)
+U180	Kör med parametrar
+U183	Tid:
+U184	Kör:
+U186	ÅÅÅÅ-MM-DD hh:mm  Enter ställ  ESC behåll
+U187	Enter kör  <-> flytta  BS / Del radera  ESC avbryt
+U188	Enter byt namn  <-> flytta  BS / Del radera  ESC avbryt
+U189	Enter skapa  <-> flytta  BS / Del radera  ESC avbryt
+U191	 objekt
+U192	Mapparna tas bort med sitt innehåll. Är du säker?
+U194	(Kan inte ångras. Filerna i mapparna tas också bort)
+U206	2 Spara
+U207	5 Färg
+U208	6 Hira
+U209	7 Kata
+U210	8 Förut
+U211	10 Avsl
+U212	1 Början
+U213	2 Slut
+U214	3 InfErs
+U215	4 Ordbok
+U216	6 HHira
+U217	7 HKata
+U229	 F5                            Färgning (efter filändelse; C/C++, mruby, MicroPython, SG BASIC, ingen)
+U236	                               Halvbredd hiragana (Shift+F6) / halvbredd katakana (Shift+F7)
+U242	       Shift+← → Korta/förläng frasens högra kant med ett tecken (nya kandidater)
+U243	       ↑ ↓ / Tab               Föregående / nästa kandidat i fönstret (under texten, ovanför nära botten)
+U244	       Enter på →→→            Alla kandidater (2 x 8, ← → kolumn och sida, Enter väljer)
+U245	       Enter                   Nästa fras (vid den sista bekräftas allt)
+U247	 Shift+F1 / F2 / F3 / F4       Början / slut / infoga-ersätt / till användarordboken
+U250	Ändrad  Y: spara och stäng  N: stäng utan att spara  ESC: tillbaka
+U251	[Förutsägelse] Tab/↑↓: kandidat  Mellanslag: konvertera  Esc: avbryt
+U252	[Kandidater] ↑↓: välj  ←→: kolumn/sida  Enter: ta
+U253	[Konvertera] ↑↓kand ←→fras Shift+←→gräns Enter nästa
+U254	[한국어] Tab/↑↓: kandidat  Enter/Mellanslag: bekräfta
+U255	[English] Tab/↑↓: kandidat  Enter: bekräfta
+U256	Hangul-inmatning 2-set  Ctrl-Space: alfanumeriskt
+U257	Förutsägande komplettering  Ctrl-Space: direktinmatning
+U258	Ingen ordbok: bara hiragana/katakana  F6/F7
+U259	Mellanslag: konvertera  F7: katakana  Ctrl-Space: alfanumeriskt
+U260	Mellanslag: konvertera  F6: hiragana  Ctrl-Space: alfanumeriskt
+U261	Halvbredd  F6: hiragana  F7: katakana  Shift+F6/F7: halv
+U262	IME av
+U263	 förutsägelse
+U268	Färgning: %s
+U276	Kandidater
+U295	Byt färgning (C/C++, mruby, MicroPython, SG BASIC, ingen)
+U309	 Från: %s
+U310	 Till: %s
+U329	 Mellanslag: paus  m: MIDI OUT  q / ESC: stoppa
+M727	Kontroll av S:: vänta -- en fil läses eller skrivs
+M728	Kontroll av S:: enheten är upptagen eller inte redo
+M729	inget för detta objekt (ContextMenu.cfg)
+M730	felaktigt kommando i ContextMenu.cfg
+M731	okänd åtgärd i ContextMenu.cfg
+M732	meny
+# 2026-11-17: archive window, compress name field, WAV export window (machine translation, unreviewed)
+U342	Arkivets namn (de markerade objekten, annars objektet vid markören)
+U343	Enter komprimera  ←→ flytta  BS / Del radera  ESC avbryt
+U344	WAV-export: %s avbruten (%s)
+U345	WAV-export: %s misslyckades (%s)
+U346	WAV-export: %s totalt %s
+U347	 WAV-export (96kHz / 24bit): %s
+U348	Avbrutet
+U349	Misslyckades
+U350	 Totalt %s
+U351	 Avbrutet (%s; den ofullständiga filen raderades)
+U352	 Kunde inte exportera (%s). Orsak:
+U353	 (okänd orsak)
+U354	 %u%%   förflutet %s%s
+U355	 ESC: stoppa (den ofullständiga filen raderas)
+U356	Arkiv: %s
+U357	Läser... (ESC för att avbryta)
+U358	 %u objekt%s  totalt %s byte  packa upp till: %s
+U359	 Enter packa upp  X allt  ↑↓ flytta  ESC stäng
+U360	Komprimera
+U361	Lista
+U362	Packa upp
+U363	 Totalt %s   %u objekt
+U364	 Totalt %s   %u filer
+U365	 Avbrutet (%s; den halvfärdiga filen raderades)
+U366	 Gick inte (%s): %s
+U367	 %u%%   förflutet %s   %s byte%s
+U368	 förflutet %s   %s byte%s
+U369	 ESC: stoppa (den halvfärdiga filen raderas)
+U370	Arkiv: %s misslyckades (%s)
+U371	Komprimerat: %s (%u objekt)
+U372	Uppackat: %s (%u filer)
+# 2026-11-17: archive / compress messages (machine translation, unreviewed)
+M733	välj en fil eller mapp
+M734	det går inte att skriva på den här enheten
+M735	ett arkivjobb körs redan
+M736	inget PSRAM för arkivjobbet
+M737	kunde inte starta arkivjobbet
+M738	för många objekt (högst 32)
+M739	inget att komprimera
+M740	inget namn (eller namnet innehåller / eller \\)
+M741	högst 32 objekt (markera färre eller lägg dem i en mapp)
+M742	arkiv
+M743	komprimera
+M744	WAV-export

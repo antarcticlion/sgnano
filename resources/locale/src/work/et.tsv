@@ -1,0 +1,373 @@
+# et: machine translation (Google), unreviewed; 2026-11-17
+U001	Loend (failid ja kaustad 2 veergu x 19 rida)
+U002	Liigutage kursorit (vasakule / paremale: teine ​​veerg)
+U003	Eelmine leht / järgmine leht
+U004	Märgi kõik / pööra märgid ümber (nagu PC-98 FD puhul)
+U005	Esimene / viimane
+U006	Märgi ja liigu edasi / märgi ainult
+U007	Tõstuklahv+nooled
+U008	Valige vahemik (Tühik tähistab vahemikku)
+U009	Sisestage kaust / avage fail (F2/X-käivitus)
+U010	Kuni ülemkausta
+U011	Valige draiv (USB, diskett, CD, S: sisseehitatud)
+U012	Kopeeri (Shift+C / Shift+F3 valib sihtkoha puust)
+U013	Liiguta
+U014	Kustuta (Tõstuklahv+D / Shift+F4 kustutab kausta)
+U015	Nimeta ümber
+U016	Muutke atribuute
+U017	Ava redaktoris
+U018	Kuva tekstina (Tõstuklahv+V / Ctrl+Alt+F7 kuueteistkümnend)
+U019	Sõiduteave
+U020	Uus kaust / uus fail
+U021	Shell sgsh / väljuta andmekandja
+U022	Laadi uuesti
+U023	Salvestage ekraan PNG-vormingus
+U024	Sulgege aken / tühjendage valik (alamkaustas: minge üles)
+U025	Failitoimingud (nagu FD-s: märgid, seejärel vahemik, seejärel kursor)
+U026	Kopeeri: valige draivi- ja kaustapuust sihtkoht. ESC peatub
+U027	Kustuta: kinnitage y-ga. Märgid ja vahemikud korraga. Kaustad koos nende sisuga
+U028	Kustutage kaust (koos selle sisuga)
+U029	Nimeta ümber (muutke nime, sisestage)
+U030	Atribuudid: R-kirjutuskaitstud, H peidetud, S-süsteem, A-arhiiv
+U031	Uus kaust
+U032	Uus (tühi) fail
+U033	Kuva tekstina (Tõstuklahv+V / Ctrl+Alt+F7 kuueteistkümnend)
+U034	Shell sgsh (välju / Ctrl-D tagasi failirisse)
+U035	Draivi identiteet (päring, IDENTIFITSEERIMINE)
+U036	Väljutage FDD / LS-120 / CD kandja
+U037	Laadige loend uuesti (CD: TOC-ist)
+U038	Võtke vastu arvutist ZMODEM (zm.sh put)
+U039	Saada arvutisse ZMODEM-i abil (zm.sh get)
+U040	Kompileerige .rb ja kirjutage .mrb
+U041	Ruby REPL (üks rida korraga, Ctrl-D / ESC lõpuni)
+U042	MicroPython REPL
+U043	Jagage 4 MB osadeks / liituge alates .001
+U044	Tükelda/ühenda (sama mis Ctrl+F11/F12)
+U045	Ekraan (Alt+F, ei puutu kokku FD F-klahvidega)
+U046	Näita / peida FB (pilt) / tekst
+U047	FB kuvaleht (0-3)
+U048	Tühjendage FB 0-ni / vähendage selle heledust poole võrra (RGB555)
+U049	USB lõpp-punktid ja LAN olek
+U050	Tühjendage FB kuvaleht / poolitage selle heledus
+U051	Tekstiatribuudi näidised
+U052	Monitor EDID (loe alglaadimisel)
+U053	Font ROM litsentsid ja krediit
+U054	Seaded (kuva keel, IME ja klaviatuuri lokaat)
+U055	Kell (Jaapani aja määras NTP; s sünkroonib nüüd)
+U056	Ava arvutustabel (SGCALC)
+U057	Kontrollige S: vigade suhtes (küsib enne parandamist)
+U058	Avage TRACKER
+U059	Taaskäivitamine (küsib kõigepealt)
+U060	Esitage ADC stereosisendit (GP40 / 41)
+U061	Eksportige VGM/VGZ 96 kHz / 24-bitise WAV-vormingusse
+U062	See abi
+U063	Muutke lehte
+U064	Sule
+U065	Tekst / hex-vaatur (meeldib vähem)
+U066	Üks rida
+U067	Üks leht
+U068	Pool lehekülge
+U069	Otsi (edasi / tagasi) / järgmine / eelmine
+U070	Tagasi loendisse (F1: vaataja abi)
+U071	Pildivaatur
+U072	Tagasi loendisse (F2 F3 F6 F7 Shift+F2 F3 töötab)
+U073	Redaktor (E / tõstuklahv+F8)
+U074	Salvesta (UTF-8; realõpud ja BOM alles)
+U075	Sule (kui muudetud: jah / ei / ESC)
+U076	Sisesta / kirjuta üle
+U077	IME sisse/välja (jaapani / inglise / korea)
+U078	IME keel (jaapani / inglise / korea)
+U079	Pühendu hiragana / katakana
+U080	Toimetaja abi
+U081	Kest
+U082	Shell (csh-i alamhulk. exit / Ctrl-D naasmiseks, spikker loetleb käsud)
+U083	Nimekiri ja liigutamine
+U084	Failitoimingud
+U085	Ekraan ja seadmed
+U086	Vaatajad ja toimetaja
+U087	Abi %u / %u %s
+U088	Vasak Parem: muutke lehekülge F1 / ESC: sulgege
+U089	Kas taaskäivitada sgnano?
+U090	[Reboot]
+U091	[Tühista]
+U092	Kontrollige S: draivi vigade suhtes
+U093	Failid %lu kaustad %lu
+U094	Suurus ei vasta ketile
+U095	Midagi ei kasuta klastrid
+U096	Ristseotud klastrid
+U097	Katkised sissekanded
+U098	Kaks FAT-koopiat erinevad
+U099	Vigu pole.
+U100	Leiti vigu. Kas neid parandada?
+U101	Remonditud (ülaltoodud numbrid olid fikseeritud).
+U102	Ei saanud kontrollida ega parandada (S: on hõivatud).
+U103	[Remont]
+U104	[Tühista]
+U105	Iga võti sulgub
+U106	Seaded
+U107	Kuvamise keel
+U108	Klaviatuuri lokaat
+U109	Üles/alla Sisestage vali ESC tühistamine
+U110	Kuvamise keel
+U111	Üles / Alla Sisesta: määra ESC: tagasi
+U112	Parandus %c: mis tähena? (A–Z, välja arvatud S. ESC tühistab)
+U113	Draivitäht / Enter valige F2 paranda/tühista täht F3 paranda kui... L / ESC tühista
+U114	vahesein %u
+U115	%c:* (fikseeritud, ühendamata) %04X:%04X%s %s
+U116	Märka
+U117	Sõita %c: %s
+U118	Sõida (pole)
+U119	Audio CD %u rajad
+U120	Kaustad %u failid %u kokku %s
+U121	Lugemine...
+U122	* märgitud %u %s
+U123	%lu baiti
+U124	Attr %s muudetud %s loodud %s %s
+U125	Päike
+U126	Esmasp
+U127	teisip
+U128	kolmap
+U129	Neljap
+U130	P
+U131	laup
+U132	Kell pole seadistatud (NTP üle LAN)
+U133	FB kuva %u kirjuta %u
+U134	1 Abi
+U135	2 Jookse
+U136	3 Kopeeri
+U137	4 Del
+U138	5 Nimetage ümber
+U139	7 FBclr
+U140	8 FBdim
+U141	9 Sõida
+U142	10 EP-d
+U143	11 Kell
+U144	12 CALC
+U145	1 Attr
+U146	2 Teave
+U147	3 Liigutage
+U148	5 Mkdir
+U149	6 Kest
+U150	8 Redigeeri
+U151	9 Vaade
+U152	10 S:chk
+U153	11 RAJA
+U154	12 Taaskäivitage
+U155	1 Uus
+U156	2 Kaust
+U157	3 Nimetage ümber
+U158	4 Atribuut
+U159	6 Kopeeri
+U160	7 Liiguta
+U161	8 Kustuta
+U162	9 Redigeeri
+U163	10 mrbc
+U164	11 Lõhestatud
+U165	12 Liitu
+U166	1 Attrs
+U167	2 FB
+U168	3 Tekst
+U169	5 ScrSht
+U170	6 DispPg
+U171	9 ZMrecv
+U172	10ZMsend
+U173	2 FBClr
+U174	3 FBDim
+U175	5 Laadige uuesti
+U176	7 Hex
+U177	9 Lic
+U178	11 Seadistamine
+U179	Seadke kell (Jaapani aeg. NTP ei saanud seda määrata)
+U180	Käivitage parameetritega
+U181	Uus kaust
+U182	Uus fail
+U183	Aeg:
+U184	Jookse:
+U185	Nimi:
+U186	AAAA-KK-PP hh:mm Sisestage komplekt ESC hoida
+U187	Sisesta run <-> move BS / Del delete ESC tühistada
+U188	Sisesta ümbernimetamine <-> teisalda BS / Kustuta kustuta ESC tühista
+U189	Sisesta loo <-> liiguta BS / Del delete ESC tühista
+U190	Kustuta
+U191	esemed
+U192	Kaustad kustutatakse koos nende sisuga. Oled sa kindel?
+U193	Kas kustutada see fail?
+U194	(Seda ei saa tagasi võtta. Samuti kustutatakse kaustades olevad failid)
+U195	[Jah (Y)]
+U196	[Ei (N)]
+U197	hex-vaatur: valige fail
+U198	tekstivaatur: valige fail
+U199	Teisalda
+U200	Kopeeri asukohta
+U201	Puhver on täis
+U202	Draiv on kirjutuskaitstud
+U203	Ei saa salvestada (kirjutaja puudub)
+U204	Ei saanud salvestamist alustada (draiv on hõivatud?)
+U205	Salvestamine...
+U206	2 Salvesta
+U207	5 Värv
+U208	6 Hira
+U209	7 Kata
+U210	8 Pred
+U211	10 Lõpeta
+U212	1 Ülemine
+U213	2 Lõpp
+U214	3 InsOvr
+U215	4 Dikt
+U216	6 HHira
+U217	7 HKata
+U218	%s %s Ln %lu/%lu veerg %u %s %s %s%s%s
+U219	*mod
+U220	OVR
+U221	INS
+U222	R/O
+U223	Redigeerija (sgnano edit) F1 / ESC sulgub
+U224	Nooled / Kodu lõpp / PgUp PgDn liigutage kursorit
+U225	Ctrl-T / Ctrl-B faili ülemine / lõpp
+U226	BS / Kustuta kursori ees / juurest kustutamine
+U227	Sisestage uus rida (jätab taande)
+U228	Tab / Ins sakk / sisestamine või ülekirjutamine
+U229	F5 värvimine (laiendist; C/C++, mruby, MicroPython, SG BASIC, puudub)
+U230	F2 (Ctrl-S) salvesta (UTF-8, realõpud alles)
+U231	F10 / ESC sulgemine (küsib, kui muudetud)
+U232	IME: Ctrl-Tühik / F12 sisse / välja (あ / A)
+U233	F9 IME keel (ainult see redaktor; sulgemisel taastatud)
+U234	F8 Jaapani ennustav teisendus sisse/välja
+U235	Jaapani romaji -> hiragana (F6) / katakana (F7)
+U236	Poollaius hiragana (Shift+F6) / poollaius katakana (Shift+F7)
+U237	Ennustage 2 või enama tähemärgiga, teisendage pidev klausel tühikuga
+U238	Ingliskeelne ennustav lõpetamine 2 või enama tähemärgiga
+U239	한국어 2 Bol-stiilis hangul
+U240	Tühik / Sisesta Teisenda / Kinnita
+U241	← → Valige fraas
+U242	Shift+← → Kahanda/suurenda klausli paremat otsa ühe märgi võrra (uued kandidaadid)
+U243	↑ ↓ / Tab Eelmine / järgmine kandidaat hüpikaknas (teksti all, ülal all all)
+U244	Sisesta → → → Kõik kandidaadid (2 x 8, ← → veerg ja leht, Enter valib)
+U245	Sisesta Next klausel (kinnitab viimases lauses terviku)
+U246	Ctrl-U Lisab praeguse sõna kasutaja sõnastikku
+U247	Tõstuklahv+F1 / F2 / F3 / F4 Ülemine / lõpp / sisestamine-ülekirjutamine / kasutaja sõnastikku
+U248	BS / ESC Mine ühe tähemärgi võrra tagasi / Tühista
+U249	, . - [ ] / 、 。 ー 「 」 ・
+U250	Muudetud Y: salvesta ja sulge N: sulge ilma salvestamata ESC: tagasi
+U251	[Ennustus] Tab/↑↓: kandidaat Tühik: teisenda Esc: tühista
+U252	[Kandidaadid] ↑↓: vali ←→: veerg/leht Sisesta: vali
+U253	[Teisenda] ↑↓cand ←→klausel Shift+←→piiratud Sisesta järgmine
+U254	[한국어] Tab/↑↓: kandidaat Sisesta/Tühik: kinnita
+U255	[Inglise] Tab/↑↓: kandidaat Sisesta: kinnita
+U256	Kahe komplektiga hanguli sisend Ctrl-Tühik: tähtnumbriline
+U257	Ennustav lõpetamine Ctrl-Tühik: otsesisend
+U258	Sõnastik puudub: ainult hiragana/katakana F6/F7
+U259	Tühik: teisenda F7: katakana Ctrl-Tühik: tähtnumbriline
+U260	Tühik: teisenda F6: hiragana Ctrl-Tühik: tähtnumbriline
+U261	Poollaius F6: hiragana F7: katakana Shift+F6/F7: pool
+U262	IME väljas
+U263	ennustada
+U264	Ennustav jaapani tõlge: sees
+U265	Ennustav tõlge jaapani keelde: väljas
+U266	Kasutage Jaapani IME-ga
+U267	Kasutaja sõnastikku ei saa lisada
+U268	Värvimine: %s
+U269	Laadimine...
+U270	Faili ei õnnestunud lugeda
+U271	%lu read%s%s
+U272	avas Shift_JIS kui UTF-8 (salvestatud kui UTF-8)
+U273	kirjutuskaitstud
+U274	Salvestatud
+U275	Ei saanud salvestada (kirjutamine ebaõnnestus)
+U276	Kandidaadid
+U277	7 WrtPg
+U278	9 Tekst
+U279	9 Hex
+U280	Laadimine %lu%%
+U281	(ainult algus)
+U282	Kuueteistkümnend q ESC: tagasi F1: abi
+U283	Tekst q ESC: tagasi F1: abi
+U284	Vaatajaklahvid (nagu vähem; sama teksti ja kuueteistkümnendiku korral)
+U285	Üks rida allapoole
+U286	Üks rida üles
+U287	Üks leht allapoole
+U288	Üks leht üles
+U289	Pool lehekülge alla/üles
+U290	/tekst ?tekst
+U291	Otsi alla/üles (eirab suur- ja suurtähti)
+U292	Järgmine / eelmine vaste
+U293	Kuva kuueteistkümnendkujuna (samas kohas)
+U294	Kuva tekstina (samas kohas)
+U295	Värvi muutmine (C/C++, mruby, MicroPython, SG BASIC, puudub)
+U296	Kuva/peida FB/tekst
+U297	FB kuva leht / kirjuta leht
+U298	Tagasi viilisse
+U299	Sulgege see spikker
+U300	Kopeeri
+U301	%s: kaustade lugemine... %u
+U302	%s: vaba ruumi loendamine sihtkohas...
+U303	%s: sihtkohas pole piisavalt vaba ruumi
+U304	Teisalda: lähtekaustade eemaldamine
+U305	Valmis
+U306	Peatatud
+U307	%s pooleli%s
+U308	(peatus)
+U309	Saatja: %s
+U310	Saaja: %s
+U311	Failid %u / %u kaustad %u %s / %s (%u%%)%s
+U312	liiga palju: ainult mõned
+U313	Vajab %s, tasuta %s. Kas jätkata?
+U314	Y: jätka N / ESC: tühista
+U315	Sulgemiseks vajutage suvalist klahvi
+U316	ESC: peatu
+U317	%s: ←→ draiv ↑↓ kaust Tühik ava/sulge Sisesta vali ESC tühista
+U318	Ei saa lugeda: %s
+U319	Kaustade lugemine... (ESC peatub) %u
+U320	%u kaustad%s
+U321	(liiga palju või liiga sügav: ainult mõned)
+U322	Peatas kausta avamise
+U323	Kosmos avab selle uuesti. ESC veel kord tühistab
+U324	SMF / SGT mängija %s
+U325	Laadimine... %lu / %lu baiti
+U326	%s / %s %s pordid %u
+U327	Peatatud
+U328	Mängib
+U329	Tühik: paus m: MIDI OUT q / ESC: peatus
+U330	q / ESC: tühistada
+U331	Font ROM litsentsid ja krediit\n\nROM: %s (versioon %lu.%lu, %lu tähemärki, alates 0x%08lX flashis)
+U332	== ROM-i fondid (ROM-i päritolutabel) ==
+U333	(ROM-il pole tabelit)
+U334	== ROM-i krediidiala ==
+U335	(sellist ala pole)
+U336	== Sisseehitatud tarkvara litsentsid ==
+U337	%s salvestamine PNG-vormingus %s
+U338	Ekraan
+U339	Hoone... %lu / %lu rida
+U340	Kirjutamine... %lu / %lu KB (FB on peidetud)
+U341	Ei saanud kirjutada
+U342	Arhiivi nimi (märgitud üksused või kursoriüksus, kui seda pole)
+U343	Sisesta kompressioon ← → teisalda BS / Kustuta kustuta ESC tühista
+U344	WAV-i eksport: %s tühistatud (%s)
+U345	WAV-i eksport: %s nurjus (%s)
+U346	WAV eksport: %s kokku %s
+U347	WAV-eksport (96kHz / 24bit): %s
+U348	Tühistatud
+U349	Ebaõnnestunud
+U350	Kokku %s
+U351	Tühistatud (%s; osaline fail kustutati)
+U352	Ei saanud eksportida (%s). Põhjus:
+U353	(põhjus teadmata)
+U354	%u%% möödunud %s%s
+U355	ESC: stop (osaline fail kustutatakse)
+U356	Arhiiv: %s
+U357	Lugemine... (tühistamiseks ESC)
+U358	%u üksused%s kokku %s baiti ekstraktida: %s
+U359	Sisestage üksus ekstrakti X ekstrakt kõik ↑↓ liigutage ESC sule
+U360	Suru kokku
+U361	Nimekiri
+U362	Väljavõte
+U363	Kokku %s %u üksust
+U364	Kokku %s %u faili
+U365	Tühistatud (%s; lõpetamata fail kustutati)
+U366	Ei saanud seda teha (%s): %s
+U367	%u%% möödunud %s %s baiti%s
+U368	möödunud %s %s baiti%s
+U369	ESC: stop (lõpetamata fail kustutatakse)
+U370	Arhiiv: %s nurjus (%s)
+U371	Kokkusurutud: %s (%u üksust)
+U372	Ekstraheeritud: %s (%u failid)

@@ -1,0 +1,1041 @@
+# sgnano filer strings: Hausa (2026-11-16). ui <TAB> Japanese <TAB> translation / msg.* <TAB> English <TAB> translation
+# status: unreviewed (machine translation, not checked by a native speaker; 2026-11-16). 未検証: ネイティブの確認をしていない仮の訳
+@lang ha
+@name Hausa
+ui	一覧（ファイルとフォルダを 2 列 x 19 行に並べる）	Jeri (fayiloli da manyan fayiloli a ginshiƙi 2 x layi 19)
+ui	カーソルを動かす（左右は隣の列へ）	Matsar da siginan kwamfuta (hagu / dama: ɗayan ginshiƙi)
+ui	前のページ / 次のページ	Shafin baya / shafi na gaba
+ui	全部に印 / 印を反転（PC-98 FD と同じ）	Yi wa duka alama / juya alamomi (kamar PC-98 FD)
+ui	先頭 / 最後	Farko / ƙarshe
+ui	印を付けて次へ / 印だけ付ける	Yi alama ka ci gaba / yi alama kawai
+ui	Shift+矢印	Shift+kibiyoyi
+ui	範囲を選ぶ（Space でその範囲に印）	Zaɓi kewayo (Space yana yi wa kewayo alama)
+ui	フォルダに入る・ファイルを開く（F2/X は実行）	Shiga babban fayil / buɗe fayil (F2/X gudanar)
+ui	上のフォルダへ	Hau zuwa babban fayil na sama
+ui	ドライブを選ぶ（USB・フロッピー・CD・S: 内蔵）	Zaɓi faifai (USB, faifan floppy, CD, S: na ciki)
+ui	コピー（Shift+C / Shift+F3 は行き先を木から）	Kwafa (Shift+C / Shift+F3 zaɓi inda za a kai daga bishiya)
+ui	移動	Matsar
+ui	削除（Shift+D / Shift+F4 はフォルダ削除）	Share (Shift+D / Shift+F4 share babban fayil)
+ui	名前を変える	Sake suna
+ui	属性を変える	Canza halaye
+ui	エディタで開く	Buɗe a editan rubutu
+ui	テキスト表示（Shift+V / Ctrl+Alt+F7 は 16 進）	Duba a matsayin rubutu (Shift+V / Ctrl+Alt+F7 hex)
+ui	ドライブの情報	Bayanin faifai
+ui	フォルダを作る / 新しいファイル	Sabon babban fayil / sabon fayil
+ui	シェル sgsh / 媒体を取り出す	Shell sgsh / fitar da faifai
+ui	読み直す	Sake lodawa
+ui	見えている画面を PNG で保存	Ajiye allon a matsayin PNG
+ui	窓を閉じる・選択を解く（サブフォルダでは上位へ）	Rufe taga / cire zaɓi (a cikin ƙaramin babban fayil: hau sama)
+ui	ファイルの操作（FD と同じ。印・範囲・カーソルの順に選ぶ）	Ayyukan fayil (kamar FD: alamomi, sannan kewayo, sannan siginan)
+ui	コピー: 行き先はドライブとフォルダの木から。ESC で止める	Kwafa: zaɓi inda za a kai daga bishiyar faifai da manyan fayiloli. ESC yana tsayarwa
+ui	削除: y で確かめる。印・範囲をまとめて。フォルダは中身ごと	Share: tabbatar da y. Alamomi da kewayo tare. Manyan fayiloli tare da abin da ke ciki
+ui	フォルダを削除（中身ごと）	Share babban fayil (tare da abin da ke ciki)
+ui	名前を変える（今の名前を直して Enter）	Sake suna (gyara suna, Enter)
+ui	属性: R 読み出し専用・H 隠し・S システム・A アーカイブ	Halaye: R karatu kawai, H ɓoye, S tsarin, A taskar
+ui	フォルダを作る	Sabon babban fayil
+ui	新しいファイル（空）を作る	Sabon fayil (fanko)
+ui	テキストで表示（Shift+V / Ctrl+Alt+F7 は 16 進）	Duba a matsayin rubutu (Shift+V / Ctrl+Alt+F7 hex)
+ui	シェル sgsh（exit / Ctrl-D でファイラーへ）	Shell sgsh (exit / Ctrl-D koma mai sarrafa fayil)
+ui	選んでいるドライブの素性（INQUIRY・IDENTIFY）	Asalin faifai (INQUIRY, IDENTIFY)
+ui	FDD・LS-120・CD の媒体を取り出す	Fitar da faifan FDD / LS-120 / CD
+ui	一覧を読み直す（CD は TOC から）	Sake lodawa jeri (CD: daga TOC)
+ui	ZMODEM で PC から受け取る（zm.sh put）	Karɓa daga PC ta ZMODEM (zm.sh put)
+ui	ZMODEM で PC へ送る（zm.sh get）	Aika zuwa PC ta ZMODEM (zm.sh get)
+ui	.rb をコンパイルして .mrb を書き出す	Haɗa .rb ka rubuta .mrb
+ui	Ruby の REPL（1 行ずつ、Ctrl-D / ESC で終わり）	REPL na Ruby (layi ɗaya a lokaci, Ctrl-D / ESC don gamawa)
+ui	MicroPython の REPL	REPL na MicroPython
+ui	4MB ずつ分割 / .001 から結合	Raba zuwa sassa na MB 4 / haɗa daga .001
+ui	分割 / 結合（Ctrl+F11 / F12 と同じ）	Raba / haɗa (daidai da Ctrl+F11 / F12)
+ui	画面（Alt+F。FD の F キーとぶつからない）	Allo (Alt+F, ba ya karo da maɓallan F na FD)
+ui	FB（絵）/ テキスト面を出す・隠す	Nuna / ɓoye FB (hoto) / rubutu
+ui	FB の表示ページ（0〜3）	Shafin nuni na FB (0-3)
+ui	FB を 0 で消す / 明るさを 1/2 に（RGB555）	Share FB zuwa 0 / rage haske rabi (RGB555)
+ui	USB のエンドポイントと LAN の状態	Wuraren ƙarshe na USB da yanayin LAN
+ui	FB の表示ページを消す / 明るさを 1/2 に	Share shafin nuni na FB / rage haske rabi
+ui	テキストの属性の見本	Misalan halayen rubutu
+ui	モニタの EDID（起動時に読んだもの）	EDID na allo (an karanta lokacin kunnawa)
+ui	フォント ROM のライセンスとクレジット	Lasisi da yabo na ROM ɗin rubutu
+ui	設定（表示の言語・IME・キーボードロケール）	Saituna (harshen nuni, IME da tsarin madannai)
+ui	時計（NTP で合わせた日本時間。s ですぐ合わせる）	Agogo (lokacin Japan ta NTP; s yana daidaitawa yanzu)
+ui	表計算（SGCALC）を開く	Buɗe takardar lissafi (SGCALC)
+ui	S: ドライブのエラー検査（誤りがあれば直すか聞く）	Bincika kurakuran S: (yana tambaya kafin gyara)
+ui	トラッカー（TRACKER）を開く	Buɗe TRACKER
+ui	再起動（確かめの窓が出る）	Sake kunnawa (yana tambaya da farko)
+ui	ADC のステレオ入力（GP40 / 41）を鳴らす	Kunna shigarwar sitiriyo ta ADC (GP40 / 41)
+ui	VGM/VGZ を 96kHz/24bit WAV に書き出す	Fitar da VGM/VGZ zuwa WAV na kHz 96 / bit 24
+ui	このヘルプ	Wannan taimako
+ui	ページを替える	Canza shafi
+ui	閉じる	Rufe
+ui	テキスト・16 進のビュアー（less 風）	Mai duba rubutu / hex (kamar less)
+ui	1 行	Layi ɗaya
+ui	1 ページ	Shafi ɗaya
+ui	半ページ	Rabin shafi
+ui	探す（前へ・後ろへ）/ 次・前	Nema (gaba / baya) / na gaba / na baya
+ui	一覧へ戻る（F1 はビュアーのヘルプ）	Koma jeri (F1: taimakon mai duba)
+ui	画像のビュアー	Mai duba hoto
+ui	一覧へ戻る（F2 F3 F6 F7 Shift+F2 F3 は効く）	Koma jeri (F2 F3 F6 F7 Shift+F2 F3 suna aiki)
+ui	エディタ（E / Shift+F8）	Editan rubutu (E / Shift+F8)
+ui	保存する（UTF-8。改行と BOM は元のまま）	Ajiye (UTF-8; ƙarshen layi da BOM suna nan)
+ui	閉じる（変わっていれば Y / N / ESC）	Rufe (idan an canza: Y / N / ESC)
+ui	挿入 / 上書き	Saka / rubuta a kai
+ui	IME（日本語・英語・ハングル）の入・切	Kunna/kashe IME (Jafananci / Turanci / Koriya)
+ui	IME の言語（日本語 / English / 한국어）	Harshen IME (Jafananci / Turanci / Koriya)
+ui	ひらがな / カタカナで確定	Tabbatar a matsayin hiragana / katakana
+ui	エディタのヘルプ	Taimakon editan rubutu
+ui	シェル	Shell
+ui	シェル（csh のサブセット。exit / Ctrl-D で戻る、help で一覧）	Shell (ɓangaren csh. exit / Ctrl-D don komawa, help yana jera umarni)
+ui	一覧と移動	Jeri da motsi
+ui	ファイルの操作	Ayyukan fayil
+ui	画面と機器	Allo da na'urori
+ui	ビュアーとエディタ	Masu duba da editan rubutu
+ui	ヘルプ  %u / %u  %s	Taimako  %u / %u  %s
+ui	Left Right: ページを替える    F1 / ESC: 閉じる	Hagu Dama: canza shafi    F1 / ESC: rufe
+ui	sgnano を再起動しますか？	Sake kunna sgnano?
+ui	[ 再起動 ]	[ Sake kunnawa ]
+ui	[ キャンセル ]	[ Soke ]
+ui	S: ドライブのエラー検査	Bincika kurakuran faifan S:
+ui	ファイル %lu  フォルダ %lu	Fayiloli %lu  manyan fayiloli %lu
+ui	大きさが鎖と合わない	Girma bai dace da sarka ba
+ui	どこからも使われていないクラスタ	Klastoci da babu abin da ke amfani da su
+ui	重なったクラスタ	Klastoci masu haɗin giciye
+ui	壊れた項目	Shigarwa da suka lalace
+ui	FAT の 2 つの写しの食い違い	Kwafin FAT guda biyu sun bambanta
+ui	エラーはありません。	Babu kurakurai.
+ui	エラーが見つかりました。修復しますか？	An sami kurakurai. A gyara su?
+ui	修復しました（上は直した数）。	An gyara (an gyara lambobin da ke sama).
+ui	検査・修復できませんでした（S: が使用中）。	Ba a iya bincika ko gyarawa ba (S: tana aiki).
+ui	[ 修復する ]	[ Gyara ]
+ui	[ やめる ]	[ Soke ]
+ui	何かキーで閉じる	Kowane maɓalli yana rufewa
+ui	設定	Saituna
+ui	表示の言語	Harshen nuni
+ui	キーボードロケール	Tsarin madannai
+ui	Up / Down  Enter 決める  ESC やめる	Sama / Ƙasa  Enter zaɓi  ESC soke
+ui	表示の言語 (Language)	Harshen nuni
+ui	Up / Down  Enter 決める  ESC 戻る	Sama / Ƙasa  Enter: saita  ESC: koma
+ui	%c: をどの文字に固定しますか（A〜Z、S を除く。ESC でやめる）	Kafa %c: a matsayin wane harafi? (A-Z ban da S. ESC soke)
+ui	ドライブ  文字 / Enter 選ぶ  F2 文字を固定・解除  F3 文字を決めて固定  L / ESC やめる	Faifai  harafi / Enter zaɓi  F2 kafa/cire harafi  F3 kafa a matsayin...  L / ESC soke
+ui	  区画 %u	  ɓangare %u
+ui	%c:* （固定・つながっていません）%04X:%04X%s  %s	%c:* (an kafa, ba a haɗa ba) %04X:%04X%s  %s
+ui	お知らせ	Sanarwa
+ui	ドライブ %c:  %s	Faifai %c:  %s
+ui	ドライブ  (なし)	Faifai  (babu)
+ui	音楽 CD  %u トラック	CD na sauti  waƙoƙi %u
+ui	フォルダ %u  ファイル %u  合計 %s	Manyan fayiloli %u  fayiloli %u  jimla %s
+ui	読んでいます...	Ana karantawa...
+ui	* 印 %u 個  %s	* masu alama %u  %s
+ui	%lu バイト	bayit %lu
+ui	属性 %s   更新日時 %s   作成日時 %s   %s	Hali %s   an canza %s   an ƙirƙira %s   %s
+ui	日	Lah
+ui	月	Lit
+ui	火	Tal
+ui	水	Lar
+ui	木	Alh
+ui	金	Jum
+ui	土	Asa
+ui	時計は合わせていません（LAN の NTP）	Ba a saita agogo ba (NTP ta LAN)
+ui	FB  表示 %u  書込 %u	FB  nuni %u  rubutu %u
+ui	1 ヘルプ	1 Taimak
+ui	2 実行	2 Gudu
+ui	3 ｺﾋﾟｰ	3 Kwafa
+ui	4 削除	4 Share
+ui	5 名前	5 Suna
+ui	7 FB消去	7 ShrFB
+ui	8 FB減光	8 DuhuFB
+ui	9 ﾄﾞﾗｲﾌﾞ	9 Faifai
+ui	10 EP表	10 EP
+ui	11 時計	11 Agogo
+ui	12 表計	12 CALC
+ui	1 属性	1 Hali
+ui	2 情報	2 Bayani
+ui	3 移動	3 Matsar
+ui	5 作成	5 Jaka
+ui	6 シェル	6 Shell
+ui	8 編集	8 Gyara
+ui	9 表示	9 Duba
+ui	10S:検査	10 S:bin
+ui	11 ﾄﾗｯｸ	11 TRACK
+ui	12再起動	12 Kunna
+ui	1 新規	1 Sabo
+ui	2 ﾌｫﾙﾀﾞ	2 Jaka
+ui	3 名前	3 Suna
+ui	4 属性	4 Hali
+ui	6 ｺﾋﾟｰ	6 Kwafa
+ui	7 移動	7 Matsar
+ui	8 削除	8 Share
+ui	9 編集	9 Gyara
+ui	10ｺﾝﾊﾟｲﾙ	10 mrbc
+ui	11 分割	11 Raba
+ui	12 結合	12 Haɗa
+ui	1 属性例	1 Hali
+ui	2 FB切替	2 FB
+ui	3 文字面	3 Rubutu
+ui	5 画面写	5 Hoto
+ui	6 表示頁	6 Shafi
+ui	9 ZM受信	9 ZMkrɓ
+ui	10ZM送信	10ZMaika
+ui	2 FB消去	2 ShrFB
+ui	3 FB減光	3 DuhuFB
+ui	5 再読込	5 Sake
+ui	7 16進	7 Hex
+ui	9 ﾗｲｾﾝｽ	9 Lasisi
+ui	8 設定	8 Saiti
+ui	時刻を合わせる（日本時間。NTP で合わせられませんでした）	Saita agogo (lokacin Japan. NTP bai iya saitawa ba)
+ui	起動のパラメタ	Gudanar da sigogi
+ui	新しいフォルダ	Sabon babban fayil
+ui	新しいファイル	Sabon fayil
+ui	時刻:	Lokaci:
+ui	実行:	Gudu:
+ui	名前:	Suna:
+ui	年-月-日 時:分  Enter 合わせる  ESC そのまま	YYYY-MM-DD hh:mm  Enter saita  ESC bar shi
+ui	Enter 走らせる  ←→ 動かす  BS / Del 消す  ESC やめる	Enter gudanar  <-> matsa  BS / Del share  ESC soke
+ui	Enter 変える  ←→ 動かす  BS / Del 消す  ESC やめる	Enter sake suna  <-> matsa  BS / Del share  ESC soke
+ui	Enter 作る  ←→ 動かす  BS / Del 消す  ESC やめる	Enter ƙirƙira  <-> matsa  BS / Del share  ESC soke
+ui	消す	Share
+ui	個の項目	 abubuwa
+ui	フォルダは中身ごと消します。よろしいですか？	Za a share manyan fayiloli tare da abin da ke ciki. Ka tabbata?
+ui	このファイルを消しますか？	Share wannan fayil?
+ui	（元に戻せません。フォルダの中のファイルも消えます）	(Ba za a iya maido wannan ba. Fayilolin da ke cikin manyan fayiloli ma za a share su)
+ui	[ はい (Y) ]	[ Ee (Y) ]
+ui	[ いいえ (N) ]	[ A'a (N) ]
+ui	バイナリビュアー: ファイルを選んでください	mai duba hex: zaɓi fayil
+ui	テキストビュアー: ファイルを選んでください	mai duba rubutu: zaɓi fayil
+ui	移動先	Matsar zuwa
+ui	コピー先	Kwafa zuwa
+ui	バッファがいっぱいです (buffer full)	Ma'ajiyar wucin gadi ta cika
+ui	読み出し専用のドライブです (read-only)	Faifai na karatu ne kawai
+ui	保存できません (no writer)	Ba za a iya ajiyewa ba (babu marubuci)
+ui	保存を始められません (the drive is busy?)	Ba a iya fara ajiyewa ba (faifai yana aiki?)
+ui	保存しています... (saving)	Ana ajiyewa...
+ui	2 保存	2 Ajiye
+ui	5 色分け	5 Launi
+ui	6 ﾞ	6 Hira
+ui	7 ｶﾀｶﾅ	7 Kata
+ui	8 予測	8 Hasash
+ui	10 終了	10 Fita
+ui	1 先頭	1 Sama
+ui	2 最後	2 Ƙarshe
+ui	3 挿/上	3 Saka
+ui	4 辞書	4 Ƙamus
+ui	6 半	6 HHira
+ui	7 半ｶﾅ	7 HKata
+ui	 %s  %s  行 %lu/%lu 桁 %u  %s  %s %s%s%s	 %s  %s  Layi %lu/%lu Shafi %u  %s  %s %s%s%s
+ui	*変更	*an canza
+ui	上書	KAI
+ui	挿入	SAKA
+ui	  読出専用	  Karatu kawai
+ui	 エディタ (sgnano edit)                      F1 / ESC で閉じる	 Editan rubutu (sgnano edit)                 F1 / ESC yana rufewa
+ui	 矢印 / Home End / PgUp PgDn   カーソルを動かす	 Kibiyoyi / Home End / PgUp PgDn  matsar da siginan
+ui	 Ctrl-T / Ctrl-B               ファイルの先頭 / 最後	 Ctrl-T / Ctrl-B               farkon / ƙarshen fayil
+ui	 BS / Del                      前の字 / カーソルの字を消す	 BS / Del                      share kafin / a siginan
+ui	 Enter                         改行（前の行の字下げを引き継ぐ）	 Enter                         sabon layi (yana riƙe da shigarwa)
+ui	 Tab / Ins                     タブ / 挿入と上書きの切り替え	 Tab / Ins                     tab / saka ko rubuta a kai
+ui	 F5                            色分け（拡張子から。C/C++・mruby・MicroPython・SG BASIC・なし）	 F5                            Launi (daga tsawo; C/C++, mruby, MicroPython, SG BASIC, babu)
+ui	 F2  (Ctrl-S)                  保存（UTF-8、改行は元の形）	 F2  (Ctrl-S)                  ajiye (UTF-8, ƙarshen layi suna nan)
+ui	 F10 / ESC                     閉じる（変更があれば聞く）	 F10 / ESC                     rufe (yana tambaya idan an canza)
+ui	 IME:  Ctrl-Space / F12        オン・オフ（あ / A）	 IME:  Ctrl-Space / F12        kunna / kashe (あ / A)
+ui	       F9                      IME の言語（このエディタの間だけ。閉じると戻る）	       F9                      harshen IME (wannan editan kawai; ana maidowa idan an rufe)
+ui	       F8                      日本語の予測変換 オン・オフ	       F8 Kunna/kashe juyawar hasashe ta Jafananci
+ui	       日本語                  ローマ字 -> ひらがな（F6）・カタカナ（F7）	       Jafananci               romaji -> hiragana (F6) / katakana (F7)
+ui	                               半角ひらがな（Shift+F6）・半角カタカナ（Shift+F7）	                               Hiragana rabin faɗi (Shift+F6) / katakana rabin faɗi (Shift+F7)
+ui	                               2 字以上で予測、Space で連文節変換	                               Hasashe daga haruffa 2 ko fiye, juya jumloli a jere da Space
+ui	       English                 2 字以上で予測補完	       Turanci: kammalawar hasashe daga haruffa 2 ko fiye
+ui	       한국어                  2 ボル式ハングル	       한국어 Hangul na saiti 2
+ui	       Space / Enter           変換 / 確定	       Space / Enter Juya / Tabbatar
+ui	       ← →                    文節を選ぶ	       ← → Zaɓi jumla
+ui	       Shift+← →               文節の右端を 1 字 縮/拡（候補を出し直す）	       Shift+← → Rage/ƙara ƙarshen dama na jumla da harafi ɗaya (sababbin zaɓuɓɓuka)
+ui	       ↑ ↓ / Tab               候補の窓で前 / 次の候補（窓は変換の下、画面の下では上）	       ↑ ↓ / Tab               Zaɓi na baya / na gaba a taga (ƙarƙashin rubutu, sama idan kusa da ƙasa)
+ui	       →→→ で Enter            すべての候補（2 列 x 8 個、← → で列とページ、Enter で決める）	       Enter a kan →→→         Duk zaɓuɓɓuka (2 x 8, ← → ginshiƙi da shafi, Enter zaɓi)
+ui	       Enter                   次の文節へ（最後の文節で全体を確定）	       Enter                   Jumla ta gaba (a ta ƙarshe tana tabbatar da duka)
+ui	       Ctrl-U                  いまの語をユーザー辞書へ	       Ctrl-U Ƙara kalmar yanzu zuwa ƙamus na mai amfani
+ui	 Shift+F1 / F2 / F3 / F4       先頭 / 最後 / 挿入と上書き / ユーザー辞書へ	 Shift+F1 / F2 / F3 / F4       Farko / ƙarshe / saka-rubuta a kai / zuwa ƙamus na mai amfani
+ui	       BS / ESC                1 字戻す / 取り消し	       BS / ESC Koma harafi ɗaya / Soke
+ui	       , . - [ ] /             、 。 ー 「 」 ・	       , . - [ ] /             、 。 ー 「 」 ・
+ui	変更あり  Y: 保存して閉じる  N: 保存せず閉じる  ESC: 戻る	An canza  Y: ajiye ka rufe  N: rufe ba tare da ajiyewa ba  ESC: koma
+ui	[予測] Tab/↑↓: 候補  Space: 変換  Esc: 取消	[Hasashe] Tab/↑↓: zaɓi  Space: juya  Esc: soke
+ui	[候補] ↑↓: 選ぶ  ←→: 列・ページ  Enter: 決める	[Zaɓuɓɓuka] ↑↓: zaɓi  ←→: ginshiƙi/shafi  Enter: ɗauka
+ui	[変換] ↑↓候補 ←→文節 Shift+←→区切り Enter次へ	[Juya] ↑↓zaɓi ←→jumla Shift+←→iyaka Enter gaba
+ui	[한국어] Tab/↑↓: 候補  Enter/Space: 確定	[한국어] Tab/↑↓: zaɓi  Enter/Space: tabbatar
+ui	[English] Tab/↑↓: 候補  Enter: 確定	[English] Tab/↑↓: zaɓi  Enter: tabbatar
+ui	2ボル式ハングル入力  Ctrl-Space: 英数	Shigar da Hangul saiti 2  Ctrl-Space: haruffa da lambobi
+ui	予測補完  Ctrl-Space: 直接入力	Kammalawar hasashe  Ctrl-Space: shigarwa kai tsaye
+ui	辞書なし: ひらがな/カタカナ入力のみ  F6/F7	Babu ƙamus: hiragana/katakana kawai  F6/F7
+ui	Space: 変換  F7: カタカナ  Ctrl-Space: 英数	Space: juya  F7: katakana  Ctrl-Space: haruffa da lambobi
+ui	Space: 変換  F6: ひらがな  Ctrl-Space: 英数	Space: juya  F6: hiragana  Ctrl-Space: haruffa da lambobi
+ui	半角  F6: ひらがな  F7: カタカナ  Shift+F6/F7: 半角	Rabin faɗi  F6: hiragana  F7: katakana  Shift+F6/F7: rabi
+ui	IME オフ	IME a kashe
+ui	 予測	 hasashe
+ui	日本語の予測変換: オン	Juyawar hasashe ta Jafananci: A kunne
+ui	日本語の予測変換: オフ	Juyawar hasashe ta Jafananci: A kashe
+ui	日本語IMEで使います	Yi amfani da IME na Jafananci
+ui	ユーザー辞書に追加できません	Ba za a iya ƙarawa zuwa ƙamus na mai amfani ba
+ui	色分け: %s	Launi: %s
+ui	読み込んでいます... (loading)	Ana lodawa...
+ui	読み込めませんでした (could not read)	Ba a iya karanta fayil ba
+ui	%lu 行%s%s	layi %lu%s%s
+ui	  Shift_JIS を UTF-8 で開きました（保存は UTF-8）	  an buɗe Shift_JIS a matsayin UTF-8 (ana ajiyewa a UTF-8)
+ui	  読み出し専用	  karatu kawai
+ui	保存しました (saved)	An ajiye
+ui	保存できませんでした (write failed)	Ba a iya ajiyewa ba (rubutu ya kasa)
+ui	候補	Zaɓuɓɓuka
+ui	7 書込頁	7 ShafiR
+ui	9 ﾃｷｽﾄ	9 Rubutu
+ui	9 ﾊﾞｲﾅﾘ	9 Hex
+ui	読み込み中 %lu%%  	Ana lodawa %lu%%
+ui	（先頭だけ）  	(farko kawai)
+ui	16 進  q ESC: 戻る  F1: ヘルプ	Hex  q ESC: koma  F1: taimako
+ui	テキスト  q ESC: 戻る  F1: ヘルプ	Rubutu  q ESC: koma  F1: taimako
+ui	ビュアーのキー（less 風。テキストと 16 進で共通）	Maɓallan mai duba (kamar less; iri ɗaya ga rubutu da hex)
+ui	1 行進む	Layi ɗaya ƙasa
+ui	1 行戻る	Layi ɗaya sama
+ui	1 ページ進む	Shafi ɗaya ƙasa
+ui	1 ページ戻る	Shafi ɗaya sama
+ui	半ページ進む / 戻る	Rabin shafi ƙasa / sama
+ui	/文字列  ?文字列	/rubutu  ?rubutu
+ui	下へ探す / 上へ探す（大文字小文字は区別しない）	Nema ƙasa / sama (ba ruwanta da babban harafi)
+ui	次 / 前を探す	Dacewa ta gaba / ta baya
+ui	16 進で表示する（いま見ている所のまま）	Nuna a matsayin hex (a wuri ɗaya)
+ui	テキストで表示する（いま見ている所のまま）	Nuna a matsayin rubutu (a wuri ɗaya)
+ui	色分けを替える（C/C++・mruby・MicroPython・SG BASIC・なし）	Canza launi (C/C++, mruby, MicroPython, SG BASIC, babu)
+ui	FB / テキスト面を出す・隠す	Nuna / ɓoye FB / rubutu
+ui	FB の表示ページ / 書き込みページ	Shafin nuni / shafin rubutu na FB
+ui	ファイラーへ戻る	Koma mai sarrafa fayil
+ui	このヘルプを閉じる	Rufe wannan taimako
+ui	コピー	Kwafa
+ui	 %s: フォルダを読んでいます... %u 個	 %s: ana karanta manyan fayiloli... %u
+ui	 %s: 行き先の空きを数えています...	 %s: ana ƙirga sarari a inda za a kai...
+ui	 %s: 行き先の空きが足りません	 %s: sarari bai isa ba a inda za a kai
+ui	 移動: 元のフォルダを消しています	 Matsar: ana cire manyan fayilolin tushe
+ui	終了しました	An gama
+ui	止まりました	An tsaya
+ui	 %s中%s	 %s yana gudana%s
+ui	（止めています）	 (yana tsayawa)
+ui	 元: %s	 Daga: %s
+ui	 先: %s	 Zuwa: %s
+ui	 ファイル %u / %u 個  フォルダ %u 個  %s / %s  (%u%%)%s	 Fayiloli %u / %u  manyan fayiloli %u  %s / %s  (%u%%)%s
+ui	  多すぎるので一部だけ	  sun yi yawa: wasu kawai
+ui	 要る大きさ %s、空き %s。続けますか？	 Ana buƙatar %s, sarari %s. A ci gaba?
+ui	 Y: 続ける   N / ESC: やめる	 Y: ci gaba   N / ESC: soke
+ui	 何かキーを押すと閉じます	 Danna kowane maɓalli don rufewa
+ui	 ESC: 止める	 ESC: tsaya
+ui	 %s: ←→ ドライブ  ↑↓ フォルダ  Space 開く・閉じる  Enter 決める  ESC やめる	 %s: ←→ faifai  ↑↓ babban fayil  Space buɗe/rufe  Enter zaɓi  ESC soke
+ui	 読めません: %s	 Ba za a iya karantawa ba: %s
+ui	 フォルダを読んでいます...（ESC で止める）  %u 個	 Ana karanta manyan fayiloli... (ESC yana tsayarwa)  %u
+ui	 フォルダ %u 個%s	 manyan fayiloli %u%s
+ui	（多すぎるか深すぎるので、一部だけ）	 (sun yi yawa ko zurfi: wasu kawai)
+ui	フォルダの展開を止めました	An daina buɗe babban fayil
+ui	Space で開き直せます。もう一度 ESC でやめます	Space yana sake buɗe shi. ESC sau ɗaya kuma yana sokewa
+ui	 SMF / SGT プレイヤー   %s	 Mai kunna SMF / SGT   %s
+ui	 読み込んでいます... %lu / %lu バイト	 Ana lodawa... %lu / %lu bayit
+ui	 %s / %s   %s   ポート %u	 %s / %s   %s   tashoshi %u
+ui	一時停止	An dakata
+ui	再生中	Ana kunnawa
+ui	 Space: 一時停止  m: MIDI OUT  q / ESC: 止める	 Space: dakata  m: MIDI OUT  q / ESC: tsaya
+ui	 q / ESC: やめる	 q / ESC: soke
+ui	フォント ROM のライセンスとクレジット\n\nROM: %s（版 %lu.%lu、%lu 文字、フラッシュの 0x%08lX から）\n\n	Lasisi da yabo na ROM ɗin rubutu\n\nROM: %s (siga %lu.%lu, haruffa %lu, daga 0x%08lX a flash)\n\n
+ui	== 収めているフォント（ROM の出所の表）==\n	== Rubutu a cikin ROM (teburin asalin ROM) ==\n
+ui	  （表が無い ROM）\n	  (ROM ba ta da tebur)\n
+ui	\n== ROM のクレジットの区画 ==\n\n	\n== Yankin yabo na ROM ==\n\n
+ui	（区画が無い）\n	(babu irin wannan yanki)\n
+ui	\n== 組み込んだソフトウェアのライセンス ==\n	\n== Lasisin manhajoji na ciki ==\n
+ui	 %s を PNG で保存   %s	 Ana ajiye %s a matsayin PNG   %s
+ui	画面	Allo
+ui	 組み立てています... %lu / %lu 行	 Ana ginawa... layi %lu / %lu
+ui	 書いています... %lu / %lu KB（FB は隠しています）	 Ana rubutawa... %lu / %lu KB (an ɓoye FB)
+ui	書けませんでした	Ba a iya rubutawa ba
+ui	書庫の名前（印の付いた項目、無ければカーソルの項目を入れる）	Sunan ma'aji (abubuwan da aka yi wa alama, ko na kan siginan idan babu)
+ui	Enter 圧縮する  ←→ 動かす  BS / Del 消す  ESC やめる	Enter matsa  ←→ motsa  BS / Del goge  ESC soke
+ui	WAV 書き出し: %s 中止（%s）	Fitar da WAV: %s an soke (%s)
+ui	WAV 書き出し: %s 失敗（%s）	Fitar da WAV: %s ya kasa (%s)
+ui	WAV 書き出し: %s 合計 %s	Fitar da WAV: %s jimla %s
+ui	 WAV 書き出し（96kHz / 24bit）: %s	 Fitar da WAV (96kHz / 24bit): %s
+ui	中止しました	An soke
+ui	失敗しました	Ya kasa
+ui	 合計 %s	 Jimla %s
+ui	 中止しました（%s。半端なファイルは消しました）	 An soke (%s; an goge fayil ɗin da bai cika ba)
+ui	 書き出せませんでした（%s）。理由:	 Ba a iya fitarwa ba (%s). Dalili:
+ui	 （理由は分かりません）	 (ba a san dalili ba)
+ui	 %u%%   経過 %s%s	 %u%%   lokaci %s%s
+ui	 ESC: 止める（半端なファイルは消します）	 ESC: tsaya (za a goge fayil ɗin da bai cika ba)
+ui	書庫: %s	Ma'aji: %s
+ui	読み込み中…（ESC でやめる）	Ana karantawa... (ESC don soke)
+ui	 %u 項目%s  合計 %s バイト  展開先: %s	 abubuwa %u%s  jimla bait %s  buɗe zuwa: %s
+ui	 Enter 項目を展開  X 全部を展開  ↑↓ 動かす  ESC 閉じる	 Enter buɗe  X buɗe duka  ↑↓ motsa  ESC rufe
+ui	圧縮	Matsa
+ui	一覧	Jeri
+ui	展開	Buɗe
+ui	 合計 %s   %u 項目	 Jimla %s   abubuwa %u
+ui	 合計 %s   %u ファイル	 Jimla %s   fayiloli %u
+ui	 中止しました（%s。書きかけのファイルは消しました）	 An soke (%s; an goge fayil ɗin da ba a gama ba)
+ui	 できませんでした（%s）: %s	 Ba a iya ba (%s): %s
+ui	 %u%%   経過 %s   %s バイト%s	 %u%%   lokaci %s   bait %s%s
+ui	 経過 %s   %s バイト%s	 lokaci %s   bait %s%s
+ui	 ESC: 止める（書きかけのファイルは消します）	 ESC: tsaya (za a goge fayil ɗin da ba a gama ba)
+ui	書庫: %s 失敗（%s）	Ma'aji: %s ya kasa (%s)
+ui	圧縮: %s（%u 項目）	An matsa: %s (abubuwa %u)
+ui	展開: %s（%u ファイル）	An buɗe: %s (fayiloli %u)
+msg.phrase	the drive went away	an cire faifai
+msg.phrase	reading the partitions again...	ana sake karanta ɓangarori...
+msg.phrase	could not open the volume (no memory?)	ba a iya buɗe juzu'i ba (ƙwaƙwalwa ba ta isa ba?)
+msg.phrase	opening the volume...	ana buɗe juzu'i...
+msg.phrase	no memory for the file list	ƙwaƙwalwa ba ta isa ga jerin fayiloli ba
+msg.phrase	reading the directory... (retrying)	ana karanta babban fayil... (ana sake gwadawa)
+msg.phrase	could not read the directory	ba a iya karanta babban fayil ba
+msg.phrase	reading the directory...	ana karanta babban fayil...
+msg.phrase	the drive did not answer -- reading the partitions again	faifai bai amsa ba -- ana sake karanta ɓangarori
+msg.phrase	could not read the directory (not FAT12/16/32?)	ba a iya karanta babban fayil ba (ba FAT12/16/32 ba?)
+msg.phrase	too many entries -- showing the first ones	shigarwa sun yi yawa -- ana nuna na farko
+msg.phrase	no file system found on this partition	babu tsarin fayil a wannan ɓangare
+msg.phrase	the path is too long	hanya ta yi tsayi da yawa
+msg.phrase	joining...	ana haɗawa...
+msg.phrase	splitting...	ana rabawa...
+msg.phrase	renaming...	ana sake suna...
+msg.phrase	creating the folder...	ana ƙirƙirar babban fayil...
+msg.phrase	creating the file...	ana ƙirƙirar fayil...
+msg.phrase	deleting...	ana sharewa...
+msg.phrase	writing the attributes...	ana rubuta halaye...
+msg.phrase	the drive is busy	faifai yana aiki
+msg.phrase	busy	yana aiki
+msg.phrase	choose files or folders	zaɓi fayiloli ko manyan fayiloli
+msg.phrase	choose files or folders (not "..")	zaɓi fayiloli ko manyan fayiloli (ba "..")
+msg.phrase	stop the CD first	tsayar da CD da farko
+msg.phrase	the CD cannot be changed (copy instead)	ba za a iya canza CD ba (kwafa a maimakon haka)
+msg.phrase	a system folder cannot be moved	ba za a iya matsar da babban fayil na tsarin ba
+msg.phrase	no drive can be written (FAT / exFAT / NTFS only)	babu faifai da za a iya rubutawa (FAT / exFAT / NTFS kawai)
+msg.phrase	the drive is gone	faifai ya tafi
+msg.phrase	nothing chosen	ba a zaɓi komai ba
+msg.phrase	nothing selected	ba a zaɓi komai ba
+msg.phrase	could not start	ba a iya farawa ba
+msg.phrase	could not open	ba a iya buɗewa ba
+msg.phrase	only on a FAT / exFAT / NTFS drive	a faifan FAT / exFAT / NTFS kawai
+msg.phrase	no name	babu suna
+msg.phrase	that name already exists	sunan nan ya riga ya wanzu
+msg.phrase	could not start (bad name or the drive is busy)	ba a iya farawa ba (mummunan suna ko faifai yana aiki)
+msg.phrase	could not start (the drive is busy)	ba a iya farawa ba (faifai yana aiki)
+msg.phrase	the name cannot have / or \\ (only inside this folder)	suna ba zai iya ƙunsar / ko \\ ba (a cikin wannan babban fayil kawai)
+msg.phrase	the name is the same	sunan iri ɗaya ne
+msg.phrase	the item is read-only (A to change)	abun na karatu ne kawai (A don canzawa)
+msg.phrase	choose a .rb file on a writable drive	zaɓi fayil .rb a faifan da za a iya rubutawa
+msg.phrase	choose a .rb file	zaɓi fayil .rb
+msg.phrase	the drive is read-only	faifai na karatu ne kawai
+msg.phrase	choose a folder on a writable drive	zaɓi babban fayil a faifan da za a iya rubutawa
+msg.phrase	wait a moment	jira kaɗan
+msg.phrase	choose a file	zaɓi fayil
+msg.phrase	choose a file (not a folder)	zaɓi fayil (ba babban fayil ba)
+msg.phrase	choose a .001 file	zaɓi fayil .001
+msg.phrase	choose the .001 file	zaɓi fayil ɗin .001
+msg.phrase	put the IWAD in a DoomFiles or Doom2Files folder	saka IWAD a babban fayil na DoomFiles ko Doom2Files
+msg.phrase	DoomFiles takes freedoom1 / doom / doomu / doom1.wad	DoomFiles yana karɓar freedoom1 / doom / doomu / doom1.wad
+msg.phrase	Doom2Files takes freedoom2 / doom2 / plutonia / tnt.wad	Doom2Files yana karɓar freedoom2 / doom2 / plutonia / tnt.wad
+msg.phrase	put the game files on external storage, not S:	saka fayilolin wasa a ma'ajiyar waje, ba S: ba
+msg.phrase	the IWAD must be on a FAT / exFAT / NTFS drive (not a CD)	IWAD dole ne ta kasance a faifan FAT / exFAT / NTFS (ba CD ba)
+msg.phrase	still working	har yanzu yana aiki
+msg.phrase	an image is loading	ana loda hoto
+msg.phrase	no framebuffer	babu framebuffer
+msg.phrase	half brightness works only in RGB555	rage haske rabi yana aiki da RGB555 kawai
+msg.phrase	clearing...	ana sharewa...
+msg.phrase	halving the brightness...	ana rage haske rabi...
+msg.phrase	that is a data track	wannan waƙar bayanai ce
+msg.phrase	wait -- a file is being written	jira -- ana rubuta fayil
+msg.phrase	only floppy / LS-120 / CD drives	faifan floppy / LS-120 / CD kawai
+msg.phrase	requested	an nema
+msg.phrase	reading the disc...	ana karanta faifai...
+msg.phrase	stopping...	ana tsayawa...
+msg.phrase	opening...	ana buɗewa...
+msg.phrase	done	an gama
+msg.phrase	no memory	ƙwaƙwalwa ba ta isa ba
+msg.phrase	already open	an riga an buɗe
+msg.phrase	already running	yana gudana tuni
+msg.phrase	already saving	ana ajiyewa tuni
+msg.phrase	already playing	ana kunnawa tuni
+msg.phrase	no such drive	babu irin wannan faifai
+msg.phrase	no PSRAM	babu PSRAM
+msg.phrase	no PSRAM for the file	PSRAM ba ta isa ga fayil ba
+msg.phrase	no PSRAM for the line index	PSRAM ba ta isa ga fihirisar layi ba
+msg.phrase	no PSRAM for the terminal	PSRAM ba ta isa ga tashar rubutu ba
+msg.phrase	no memory (PSRAM)	ƙwaƙwalwa ba ta isa ba (PSRAM)
+msg.phrase	no memory (32KB SRAM)	ƙwaƙwalwa ba ta isa ba (SRAM 32KB)
+msg.phrase	no memory for the buffer	ƙwaƙwalwa ba ta isa ga ma'ajiyar wucin gadi ba
+msg.phrase	no memory for the image buffers	ƙwaƙwalwa ba ta isa ga ma'ajiyar hotuna ba
+msg.phrase	no memory for the read buffer	ƙwaƙwalwa ba ta isa ga ma'ajiyar karatu ba
+msg.phrase	no room for the work memory (close the lowres plane?)	babu wurin ƙwaƙwalwar aiki (rufe lowres?)
+msg.phrase	no framebuffer page	babu shafin framebuffer
+msg.phrase	too large (4 MB at most)	ya yi girma da yawa (MB 4 mafi yawa)
+msg.phrase	the file is too large (1 MB at most)	fayil ya yi girma da yawa (MB 1 mafi yawa)
+msg.phrase	the file is too large (1 MB max)	fayil ya yi girma da yawa (MB 1 mafi yawa)
+msg.phrase	too large for an SMF (1MB at most)	ya yi girma da yawa ga SMF (MB 1 mafi yawa)
+msg.phrase	the file is empty	fayil fanko ne
+msg.phrase	could not open the file	ba a iya buɗe fayil ba
+msg.phrase	could not read the file	ba a iya karanta fayil ba
+msg.phrase	could not open the volume	ba a iya buɗe juzu'i ba
+msg.phrase	could not open the destination (no memory?)	ba a iya buɗe inda za a kai ba (ƙwaƙwalwa ba ta isa ba?)
+msg.phrase	could not read the root folder	ba a iya karanta babban fayil na tushe ba
+msg.phrase	could not start the task	ba a iya fara aiki ba
+msg.phrase	could not start writing (bad name or busy)	ba a iya fara rubutu ba (mummunan suna ko yana aiki)
+msg.phrase	another volume is open (busy)	wani juzu'i yana buɗe (yana aiki)
+msg.phrase	a copy is running	ana kwafa
+msg.phrase	a folder cannot go into itself	babban fayil ba zai iya shiga cikin kansa ba
+msg.phrase	that is the same folder	wannan babban fayil ɗaya ne
+msg.phrase	this drive cannot be changed (read only)	ba za a iya canza wannan faifai ba (karatu kawai)
+msg.phrase	the drive is not writable	ba za a iya rubuta a faifai ba
+msg.phrase	the part size must be a multiple of 512	girman sashe dole ya zama ninkin 512
+msg.phrase	files of 4 GB or more are not supported	ba a tallafa wa fayiloli na GB 4 ko fiye ba
+msg.phrase	bad path	mummunar hanya
+msg.phrase	bad file name	mummunan sunan fayil
+msg.phrase	the font ROM is not there	ROM ɗin rubutu ba ya nan
+msg.phrase	the sound is not open	ba a buɗe sauti ba
+msg.phrase	no such channel	babu irin wannan tasha
+msg.phrase	the sequencer is busy	mai jerawa yana aiki
+msg.phrase	not enough PSRAM for the song	PSRAM ba ta isa ga waƙa ba
+msg.phrase	not a standard MIDI file (no MThd)	ba daidaitaccen fayil na MIDI ba (babu MThd)
+msg.phrase	no tracks	babu waƙoƙi
+msg.phrase	a track is broken (MTrk)	wata waƙa ta lalace (MTrk)
+msg.phrase	SMPTE time division is not supported	ba a tallafa wa rabon lokaci na SMPTE ba
+msg.phrase	SMF format 2 is not supported (0 and 1 only)	ba a tallafa wa tsarin SMF 2 ba (0 da 1 kawai)
+msg.phrase	not a Bulk-Only drive	ba faifan Bulk-Only ba
+msg.phrase	not an optical drive	ba faifan haske ba
+msg.phrase	a system folder cannot be deleted or renamed	ba za a iya share ko sake sunan babban fayil na tsarin ba
+msg.phrase	no media in the drive	babu faifai a ciki
+msg.phrase	becoming ready	yana shiryawa
+msg.phrase	not ready	bai shirya ba
+msg.phrase	media changed	an canza faifai
+msg.phrase	medium error	kuskuren faifai
+msg.phrase	illegal request	buƙatar da ba ta dace ba
+msg.phrase	a bad directory entry	mummunar shigarwar babban fayil
+msg.phrase	a directory on the way does not exist	wani babban fayil a hanya bai wanzu ba
+msg.phrase	a file has that name	akwai fayil da wannan suna
+msg.phrase	a folder has that name	akwai babban fayil da wannan suna
+msg.phrase	a name on the way is not a directory	wani suna a hanya ba babban fayil ba ne
+msg.phrase	cancelled	an soke
+msg.phrase	could not mount	ba a iya ɗorawa ba
+msg.phrase	could not start a read	ba a iya fara karatu ba
+msg.phrase	could not start a write	ba a iya fara rubutu ba
+msg.phrase	is a directory	babban fayil ne
+msg.phrase	that is a directory	wannan babban fayil ne
+msg.phrase	no clusters	babu klastoci
+msg.phrase	no room for the cluster list	babu wuri ga jerin klastoci
+msg.phrase	no such file or directory	babu irin wannan fayil ko babban fayil
+msg.phrase	no such file	babu irin wannan fayil
+msg.phrase	no volume	babu juzu'i
+msg.phrase	not NTFS	ba NTFS ba
+msg.phrase	not exFAT	ba exFAT ba
+msg.phrase	not a directory	ba babban fayil ba
+msg.phrase	not found	ba a samu ba
+msg.phrase	read error	kuskuren karatu
+msg.phrase	write error	kuskuren rubutu
+msg.phrase	reading the FAT failed	karanta FAT ya kasa
+msg.phrase	the cluster chain is shorter than the file	sarkar klastoci ta fi fayil gajarta
+msg.phrase	the directory is not empty	babban fayil ba fanko ba ne
+msg.phrase	the disk is full	faifai ya cika
+msg.phrase	the drive did not answer	faifai bai amsa ba
+msg.phrase	the file is read-only	fayil na karatu ne kawai
+msg.phrase	the file is too fragmented	fayil ya rarrabu da yawa
+msg.phrase	the file is too large (4GB)	fayil ya yi girma da yawa (GB 4)
+msg.phrase	the new name already exists	sabon suna ya riga ya wanzu
+msg.phrase	the root directory is full	babban fayil na tushe ya cika
+msg.phrase	too many files with the same short name	fayiloli da yawa masu gajeren suna ɗaya
+msg.phrase	No such file or directory	Babu irin wannan fayil ko babban fayil
+msg.phrase	File exists	Fayil ya riga ya wanzu
+msg.phrase	Permission denied	An hana izini
+msg.phrase	Directory not empty	Babban fayil ba fanko ba ne
+msg.phrase	Not a directory	Ba babban fayil ba
+msg.phrase	Is a directory	Babban fayil ne
+msg.phrase	Read-only file system	Tsarin fayil na karatu kawai
+msg.phrase	No space left on device	Babu sauran sarari a na'ura
+msg.phrase	Input/output error	Kuskuren shigarwa/fitarwa
+msg.phrase	Not supported on this drive	Ba a tallafa a wannan faifai ba
+msg.phrase	Invalid path	Hanya mara inganci
+msg.phrase	Out of memory	Ƙwaƙwalwa ta ƙare
+msg.phrase	No such drive	Babu irin wannan faifai
+msg.phrase	stopped	an tsaya
+msg.phrase	cancelled (not enough free space)	an soke (sarari bai isa ba)
+msg.phrase	could not count the free space	ba a iya ƙirga sarari ba
+msg.phrase	the receiver cancelled	mai karɓa ya soke
+msg.phrase	no receiver (run rz on the PC)	babu mai karɓa (gudanar da rz a PC)
+msg.phrase	the console UART is in use	ana amfani da UART na na'ura mai kwakwalwa
+msg.phrase	the screen mode changed	yanayin allo ya canza
+msg.phrase	the lines did not come (is the display running?)	layukan ba su zo ba (allo yana aiki?)
+msg.prefix	copy	kwafa
+msg.prefix	move	matsar
+msg.prefix	delete	share
+msg.prefix	rename	sake suna
+msg.prefix	attributes	halaye
+msg.prefix	new file	sabon fayil
+msg.prefix	new folder	sabon babban fayil
+msg.prefix	image	hoto
+msg.prefix	mrbc	mrbc
+msg.prefix	ruby	ruby
+msg.prefix	viewer	mai duba
+msg.prefix	edit	gyara
+msg.prefix	IDENTIFY	IDENTIFY
+msg.prefix	ZMODEM	ZMODEM
+msg.prefix	ZMODEM receive	ZMODEM karɓa
+msg.prefix	ZMODEM send	ZMODEM aika
+msg.prefix	split	raba
+msg.prefix	join	haɗa
+msg.prefix	Doom	Doom
+msg.prefix	SMF	SMF
+msg.prefix	CD	CD
+msg.prefix	FB	FB
+msg.prefix	Eject	Fitar
+msg.prefix	reboot	sake kunnawa
+msg.prefix	license	lasisi
+msg.prefix	clock	agogo
+msg.prefix	ADC in	ADC shigarwa
+msg.prefix	screen -> PNG	allo -> PNG
+msg.prefix	FB -> PNG	FB -> PNG
+msg.prefix	could not open the volume	ba a iya buɗe juzu'i ba
+msg.pattern	received 	an karɓi %s
+msg.pattern	sent 	an aika %s
+msg.pattern	saved 	an ajiye %s
+msg.pattern	created 	an ƙirƙira %s
+msg.pattern	renamed to 	an sake suna zuwa %s
+msg.pattern	deleted 	an share %s
+msg.pattern	changed 	an canza %s
+msg.pattern	joined 	an haɗa %s
+msg.pattern	split 	an raba %s
+msg.pattern	could not create 	ba a iya ƙirƙirar %s ba
+msg.pattern	could not delete 	ba a iya share %s ba
+msg.pattern	could not rename to 	ba a iya sake suna zuwa %s ba
+msg.pattern	could not change 	ba a iya canza %s ba
+msg.pattern	could not read 	ba a iya karanta %s ba
+msg.pattern	could not write 	ba a iya rubuta %s ba
+msg.pattern	could not copy 	ba a iya kwafa %s ba
+msg.pattern	could not make 	ba a iya yin %s ba
+msg.pattern	could not remove the folder 	ba a iya cire babban fayil %s ba
+msg.pattern	could not remove 	ba a iya cire %s ba
+msg.pattern	no memory for 	ƙwaƙwalwa ba ta isa ga %s ba
+msg.pattern	too many errors while sending 	kurakurai sun yi yawa yayin aika %s
+msg.pattern	the receiver did not take 	mai karɓa bai karɓi %s ba
+msg.pattern	the receiver skipped 	mai karɓa ya tsallake %s
+msg.pattern	FB page 	Shafin FB %s
+msg.word	 bytes each)	 bayit kowanne)
+msg.word	 bytes)	 bayit)
+msg.word	 KB)	 KB)
+msg.word	 parts into 	 sassa zuwa
+msg.word	 parts (	 sassa (
+msg.word	 into 	 zuwa
+msg.word	: cleared	: an share
+msg.word	: brightness halved	: an rage haske rabi
+msg.word	% read	% an karanta
+msg.word	 rows	 layi
+msg.word	 -- not supported yet (FAT / exFAT / NTFS only)	 -- ba a tallafa ba tukuna (FAT / exFAT / NTFS kawai)
+msg.word	 files	 fayiloli
+msg.word	 (	 (
+msg.phrase	Untitled	Mara suna
+msg.phrase	1 File	1 Fayil
+msg.phrase	2 Edit	2 Gyara
+msg.phrase	3 Graph	3 Jadawali
+msg.phrase	4 Sheet	4 Takarda
+msg.phrase	5 Help	5 Taimako
+msg.phrase	EMPTY	FANKO
+msg.phrase	NUMBER	LAMBA
+msg.phrase	TEXT	RUBUTU
+msg.phrase	FORMULA	DABARA
+msg.phrase	Type to enter, F2 to edit, F1 for help	Rubuta don shigarwa, F2 don gyara, F1 don taimako
+msg.phrase	Ready	A shirye
+msg.phrase	Press any key	Danna kowane maɓalli
+msg.phrase	Y = yes    N = no    Esc = cancel	Y = ee    N = a'a    Esc = soke
+msg.phrase	Enter = OK    Esc = cancel    Ctrl-U = clear	Enter = To    Esc = soke    Ctrl-U = share
+msg.phrase	First row/column = labels; charts use the 640x480 CLUT8 FB.	Layi/ginshiƙi na farko = lakabi; jadawali suna amfani da FB CLUT8 640x480.
+msg.phrase	SGCALC - HELP	SGCALC - TAIMAKO
+msg.phrase	Press any key to return	Danna kowane maɓalli don komawa
+msg.phrase	Press any key to return.	Danna kowane maɓalli don komawa.
+msg.phrase	ABOUT SGCALC	GAME DA SGCALC
+msg.phrase	New	Sabo
+msg.phrase	Start a new sheet	Fara sabuwar takarda
+msg.phrase	Open...	Buɗe...
+msg.phrase	Open an ODS, FODS or CSV file	Buɗe fayil na ODS, FODS ko CSV
+msg.phrase	Save	Ajiye
+msg.phrase	Save the current file	Ajiye fayil na yanzu
+msg.phrase	Save As...	Ajiye a matsayin...
+msg.phrase	Save with a new name or format	Ajiye da sabon suna ko tsari
+msg.phrase	Export CSV...	Fitar da CSV...
+msg.phrase	Write a CSV copy	Rubuta kwafin CSV
+msg.phrase	Export ODS...	Fitar da ODS...
+msg.phrase	Write a LibreOffice copy	Rubuta kwafin LibreOffice
+msg.phrase	Quit	Fita
+msg.phrase	Leave SGCALC	Bar SGCALC
+msg.phrase	Clear	Share
+msg.phrase	Clear the selected cells	Share ƙwayoyin da aka zaɓa
+msg.phrase	Copy	Kwafa
+msg.phrase	Copy the selection	Kwafa zaɓi
+msg.phrase	Paste	Liƙa
+msg.phrase	Paste at the cursor	Liƙa a siginan
+msg.phrase	Cut	Yanke
+msg.phrase	Copy and clear the selection	Kwafa ka share zaɓi
+msg.phrase	Select all	Zaɓi duka
+msg.phrase	Select all used cells	Zaɓi duk ƙwayoyin da aka yi amfani da su
+msg.phrase	Text color...	Launin rubutu...
+msg.phrase	Choose the text colour	Zaɓi launin rubutu
+msg.phrase	Background...	Bango...
+msg.phrase	Choose the cell background	Zaɓi bangon ƙwaya
+msg.phrase	Line	Layi
+msg.phrase	Draw a line graph from the selection	Zana jadawalin layi daga zaɓi
+msg.phrase	Bar	Sanda
+msg.phrase	Draw a bar graph from the selection	Zana jadawalin sanda daga zaɓi
+msg.phrase	Mixed	Gauraye
+msg.phrase	Bars for the first series, lines for the rest	Sanduna ga jeri na farko, layuka ga sauran
+msg.phrase	Pie	Ƙeƙe
+msg.phrase	Draw a pie graph from the selection	Zana jadawalin ƙeƙe daga zaɓi
+msg.phrase	Range...	Kewayo...
+msg.phrase	Set the graph range explicitly	Saita kewayon jadawali a sarari
+msg.phrase	Draw again	Sake zana
+msg.phrase	Redraw the last graph	Sake zana jadawalin ƙarshe
+msg.phrase	Goto...	Je zuwa...
+msg.phrase	Jump to a cell (for example C12)	Tsalle zuwa ƙwaya (misali C12)
+msg.phrase	Column width...	Faɗin ginshiƙi...
+msg.phrase	Change the selected columns' width	Canza faɗin ginshiƙan da aka zaɓa
+msg.phrase	Row height...	Tsayin layi...
+msg.phrase	Change the selected rows' height	Canza tsayin layukan da aka zaɓa
+msg.phrase	Auto fit	Daidaita kai tsaye
+msg.phrase	Fit widths/heights to the contents (F7)	Daidaita faɗi/tsayi da abin da ke ciki (F7)
+msg.phrase	Recalculate	Sake lissafi
+msg.phrase	Re-evaluate all formulas	Sake kimanta duk dabaru
+msg.phrase	Erase all	Share duka
+msg.phrase	Clear the whole sheet	Share takardar gaba ɗaya
+msg.phrase	Keys	Maɓallai
+msg.phrase	Show the key guide	Nuna jagorar maɓallai
+msg.phrase	About	Game da
+msg.phrase	About SGCALC	Game da SGCALC
+msg.phrase	File	Fayil
+msg.phrase	Edit	Gyara
+msg.phrase	Graph	Jadawali
+msg.phrase	Sheet	Takarda
+msg.phrase	Help	Taimako
+msg.phrase	File: new, open, save, export, quit	Fayil: sabo, buɗe, ajiye, fitar, fita
+msg.phrase	Edit: clear, copy, paste, cut, select all	Gyara: share, kwafa, liƙa, yanke, zaɓi duka
+msg.phrase	Graph: line, bar, mixed, pie (draws in the FB)	Jadawali: layi, sanda, gauraye, ƙeƙe (ana zanawa a FB)
+msg.phrase	Sheet: goto, column width, recalculate, erase	Takarda: je zuwa, faɗin ginshiƙi, sake lissafi, share
+msg.phrase	Help: keys and about	Taimako: maɓallai da game da
+msg.phrase	Left/Right = menu    Up/Down = item    Enter = choose    Esc = cancel	Hagu/Dama = menu    Sama/Ƙasa = abu    Enter = zaɓi    Esc = soke
+msg.phrase	Cancelled	An soke
+msg.phrase	The selection is too large or memory is low.	Zaɓi ya yi girma da yawa ko ƙwaƙwalwa ta yi ƙasa.
+msg.phrase	the cell	ƙwayar
+msg.phrase	the selection	zaɓin
+msg.phrase	Nothing to paste	Babu abin liƙawa
+msg.phrase	Pasted	An liƙa
+msg.phrase	GO TO CELL	JE ZUWA ƘWAYA
+msg.phrase	Cell reference (A1):	Nunin ƙwaya (A1):
+msg.phrase	Goto	Je zuwa
+msg.phrase	COLUMN WIDTH	FAƊIN GINSHIƘI
+msg.phrase	Width in characters (4..30):	Faɗi a haruffa (4..30):
+msg.phrase	ROW HEIGHT	TSAYIN LAYI
+msg.phrase	Height in text rows (1..8):	Tsayi a layukan rubutu (1..8):
+msg.phrase	Auto fit: the sheet is empty	Daidaita kai tsaye: takarda fanko ce
+msg.phrase	BACKGROUND COLOUR	LAUNIN BANGO
+msg.phrase	TEXT COLOUR	LAUNIN RUBUTU
+msg.phrase	Arrows: choose    Enter: apply    Esc: cancel	Kibiyoyi: zaɓi    Enter: aiwatar    Esc: soke
+msg.phrase	Colour index (PC-98 16-colour palette)	Lambar launi (launuka 16 na PC-98)
+msg.phrase	Enter = apply    Esc = cancel	Enter = aiwatar    Esc = soke
+msg.phrase	Colour	Launi
+msg.phrase	Background	Bango
+msg.phrase	Text	Rubutu
+msg.phrase	GRAPH RANGE	KEWAYON JADAWALI
+msg.phrase	Range (for example A1:C10):	Kewayo (misali A1:C10):
+msg.phrase	Graph range	Kewayon jadawali
+msg.phrase	Use a range such as A1:C10.	Yi amfani da kewayo kamar A1:C10.
+msg.phrase	Cannot draw the graph.	Ba za a iya zana jadawali ba.
+msg.phrase	line	layi
+msg.phrase	bar	sanda
+msg.phrase	mixed	gauraye
+msg.phrase	pie	ƙeƙe
+msg.phrase	Clear every cell in this sheet?	Share kowace ƙwaya a wannan takarda?
+msg.phrase	Sheet erased	An share takarda
+msg.phrase	Selected all used cells	An zaɓi duk ƙwayoyin da aka yi amfani da su
+msg.phrase	Recalculated	An sake lissafi
+msg.phrase	Memory	Ƙwaƙwalwa
+msg.phrase	Not enough PSRAM for the spreadsheet.	PSRAM ba ta isa ga takardar lissafi ba.
+msg.phrase	The sheet is empty.	Takarda fanko ce.
+msg.phrase	No numeric data in the selected range.	Babu bayanan lamba a kewayon da aka zaɓa.
+msg.phrase	Other	Wani
+msg.phrase	No positive values for a pie chart	Babu ƙima mai kyau ga jadawalin ƙeƙe
+msg.phrase	LINE	LAYI
+msg.phrase	BAR	SANDA
+msg.phrase	MIXED	GAURAYE
+msg.phrase	PIE	ƘEƘE
+msg.phrase	Folder	Babban fayil
+msg.phrase	SAVE AS	AJIYE A MATSAYIN
+msg.phrase	OPEN FILE	BUƊE FAYIL
+msg.phrase	Name:	Suna:
+msg.phrase	(type a name, or choose below)	(rubuta suna, ko zaɓi a ƙasa)
+msg.phrase	Name	Suna
+msg.phrase	Size	Girma
+msg.phrase	Enter=save  Left=up  Right/Enter on [DIR]=open  Tab=drive  Esc=cancel	Enter=ajiye  Hagu=sama  Dama/Enter a [DIR]=buɗe  Tab=faifai  Esc=soke
+msg.phrase	Enter=open  Left=up  Right/Enter on [DIR]=open  Tab=drive  Esc=cancel	Enter=buɗe  Hagu=sama  Dama/Enter a [DIR]=buɗe  Tab=faifai  Esc=soke
+msg.phrase	Not enough memory.	Ƙwaƙwalwa ba ta isa ba.
+msg.phrase	Overwrite	Rubuta a kai
+msg.phrase	Open	Buɗe
+msg.phrase	The file is too large (limit 8 MB).	Fayil ya yi girma da yawa (iyaka MB 8).
+msg.phrase	Not enough memory to read the file.	Ƙwaƙwalwa ba ta isa don karanta fayil ba.
+msg.phrase	Bad ZIP/ODS data.	Mummunan bayanan ZIP/ODS.
+msg.phrase	CRC error in the ODS file.	Kuskuren CRC a fayil na ODS.
+msg.phrase	Unsupported or damaged file.	Fayil ba a tallafa ba ko ya lalace.
+msg.phrase	Saved	An ajiye
+msg.phrase	Exported	An fitar
+msg.phrase	Unsaved changes	Canje-canje da ba a ajiye ba
+msg.phrase	Save the current sheet before continuing?	A ajiye takardar yanzu kafin a ci gaba?
+msg.phrase	New sheet	Sabuwar takarda
+msg.phrase	song is too large	waƙa ta yi girma da yawa
+msg.phrase	empty file	fayil fanko
+msg.phrase	not an SGT file	ba fayil na SGT ba
+msg.phrase	bad BPM	mummunan BPM
+msg.phrase	bad speed	mummunan sauri
+msg.phrase	bad title length	mummunan tsayin take
+msg.phrase	truncated title	take ya yanke
+msg.phrase	bad character in title	mummunan harafi a take
+msg.phrase	truncated order	tsari ya yanke
+msg.phrase	bad order length	mummunan tsayin tsari
+msg.phrase	bad pattern number in order	mummunar lambar tsari a jeri
+msg.phrase	truncated pattern list	jerin tsari ya yanke
+msg.phrase	bad pattern count	mummunan adadin tsari
+msg.phrase	bad pattern index	mummunar fihirisar tsari
+msg.phrase	duplicate pattern	tsari ya maimaita
+msg.phrase	truncated pattern data	bayanan tsari sun yanke
+msg.phrase	invalid pattern data	bayanan tsari marasa inganci
+msg.phrase	trailing data in file	ƙarin bayanai a ƙarshen fayil
+msg.phrase	order refers to a missing pattern	jeri yana nuna tsarin da babu
+msg.phrase	(untitled)	(mara suna)
+msg.phrase	Ready. Press F1 for help.	A shirye. Danna F1 don taimako.
+msg.phrase	Follow OFF	Bi A KASHE
+msg.phrase	Nothing to undo	Babu abin da za a maido
+msg.phrase	Undo	Maido
+msg.phrase	Note OFF	Kashe sauti
+msg.phrase	Set an effect letter first	Saita harafin tasiri da farko
+msg.phrase	Effect cleared	An share tasiri
+msg.phrase	Parameter cleared	An share siga
+msg.phrase	Note cleared	An share sauti
+msg.phrase	Instrument cleared	An share kayan kiɗa
+msg.phrase	Volume cleared	An share ƙara
+msg.phrase	Order list is full	Jerin tsari ya cika
+msg.phrase	Order inserted	An saka tsari
+msg.phrase	Cannot delete the last order	Ba za a iya share tsari na ƙarshe ba
+msg.phrase	Order deleted	An share tsari
+msg.phrase	Playing song	Ana kunna waƙa
+msg.phrase	Stopped	An tsaya
+msg.phrase	New song	Sabuwar waƙa
+msg.phrase	Discard unsaved changes and start a new song? (Y/N)	A watsar da canje-canje da ba a ajiye ba a fara sabuwar waƙa? (Y/N)
+msg.phrase	Discard unsaved changes and open a song? (Y/N)	A watsar da canje-canje da ba a ajiye ba a buɗe waƙa? (Y/N)
+msg.phrase	Discard unsaved changes and quit? (Y/N)	A watsar da canje-canje da ba a ajiye ba a fita? (Y/N)
+msg.phrase	Song settings updated	An sabunta saitunan waƙa
+msg.phrase	Filename is empty	Sunan fayil fanko ne
+msg.phrase	Save cancelled	An soke ajiyewa
+msg.phrase	Open cancelled	An soke buɗewa
+msg.phrase	Edit ON	Gyara A KUNNE
+msg.phrase	Edit OFF	Gyara A KASHE
+msg.phrase	Follow ON	Bi A KUNNE
+msg.phrase	Edit is OFF. Press F8 to edit.	Gyara a kashe yake. Danna F8 don gyara.
+msg.phrase	I/O error	Kuskuren I/O
+msg.phrase	file is too large	fayil ya yi girma da yawa
+msg.phrase	truncated file	fayil ya yanke
+msg.phrase	#TRANSPORT AND FILES	#KUNNAWA DA FAYILOLI
+msg.phrase	#ORDER LIST	#JERIN TSARI
+msg.phrase	#DISPLAY	#NUNI
+msg.phrase	#EDITING	#GYARA
+msg.phrase	#EFFECTS (parameter is hexadecimal)	#TASIRI (siga hexadecimal ce)
+msg.phrase	LEFT/RIGHT PAGE   ENTER OR F1 CLOSE	HAGU/DAMA SHAFI   ENTER KO F1 RUFE
+msg.phrase	SONG SETTINGS	SAITUNAN WAƘA
+msg.phrase	UP/DOWN SELECT   LEFT/RIGHT ADJUST   ENTER/F2 CLOSE	SAMA/ƘASA ZAƁI   HAGU/DAMA DAIDAITA   ENTER/F2 RUFE
+msg.phrase	Type to edit the title. Backspace deletes the last character.	Rubuta don gyara take. Backspace yana share harafin ƙarshe.
+msg.phrase	BPM range 32..255. Speed range 1..31.	BPM 32..255. Sauri 1..31.
+msg.phrase	Pattern effects can also change speed and BPM while playing.	Tasirin tsari ma na iya canza sauri da BPM yayin kunnawa.
+msg.phrase	INSTRUMENTS	KAYAN KIƊA
+msg.phrase	UP/DOWN SELECT   SPACE PREVIEW   ENTER USE   F3 CLOSE	SAMA/ƘASA ZAƁI   SPACE SAURARA   ENTER YI AMFANI   F3 RUFE
+msg.phrase	All four channels use wavetable synthesis.	Duk tashoshi huɗu suna amfani da haɗa sautin teburin raƙuman ruwa.
+msg.phrase	Preview plays C-4 on the track under the edit cursor.	Sauraro yana kunna C-4 a waƙar da ke ƙarƙashin siginan gyara.
+msg.phrase	SAVE SONG AS	AJIYE WAƘA A MATSAYIN
+msg.phrase	ENTER SAVE   F4 OR CTRL-C CANCEL	ENTER AJIYE   F4 KO CTRL-C SOKE
+msg.phrase	Directory:	Babban fayil:
+msg.phrase	File name:	Sunan fayil:
+msg.phrase	The extension .SGT is added automatically.	Ana ƙara tsawo .SGT kai tsaye.
+msg.phrase	An existing file can be overwritten.	Ana iya rubuta a kan fayil da ke akwai.
+msg.phrase	OPEN SONG	BUƊE WAƘA
+msg.phrase	ENTER OPEN  BS PARENT  CTRL-O/CTRL-C CANCEL	ENTER BUƊE  BS SAMA  CTRL-O/CTRL-C SOKE
+msg.phrase	(no .SGT files in this folder)	(babu fayilolin .SGT a wannan babban fayil)
+msg.phrase	CONFIRM	TABBATAR
+msg.phrase	Y = YES   N / ENTER / CTRL-C = NO	Y = EE   N / ENTER / CTRL-C = A'A
+msg.phrase	Y = yes        N = no	Y = ee        N = a'a
+msg.phrase	broken MThd	MThd ya lalace
+msg.phrase	MIDI IMPORT	SHIGO DA MIDI
+msg.phrase	broken delta time	lokacin delta ya lalace
+msg.phrase	broken running status	running status ya lalace
+msg.phrase	broken meta event	taron meta ya lalace
+msg.phrase	broken sysex event	taron sysex ya lalace
+msg.phrase	broken channel event	taron tasha ya lalace
+msg.phrase	SMF output is too small	fitarwar SMF ta yi ƙanƙanta
+msg.phrase	SMF output is too large	fitarwar SMF ta yi girma da yawa
+msg.phrase	the song is too long for SMF	waƙa ta yi tsayi da yawa ga SMF
+msg.phrase	ARROWS      move the cell cursor\n	KIBIYOYI    matsar da siginan ƙwaya\n
+msg.phrase	SHIFT+ARR   extend the selection (for graphs/copy)\n	SHIFT+KIBI  faɗaɗa zaɓi (don jadawali/kwafa)\n
+msg.phrase	ENTER       edit the cell; in edit, commit and move down\n	ENTER       gyara ƙwaya; yayin gyara, tabbatar ka sauka\n
+msg.phrase	TAB         next cell    SHIFT+TAB  previous cell\n	TAB         ƙwaya ta gaba    SHIFT+TAB  ta baya\n
+msg.phrase	DELETE      clear the selected cell(s)    ESC  cancel\n	DELETE      share ƙwayoyin da aka zaɓa    ESC  soke\n
+msg.phrase	PGUP/PGDN   move one screen    HOME/END  first/last column\n	PGUP/PGDN   allo ɗaya    HOME/END  ginshiƙi na farko/ƙarshe\n
+msg.phrase	CTRL+HOME   A1    CTRL+END  last used cell\n	CTRL+HOME   A1    CTRL+END  ƙwaya ta ƙarshe da aka yi amfani da ita\n
+msg.phrase	F1 help  F2 edit  F3 copy  F4 paste  F5 goto  F6 colour\n	F1 taimako  F2 gyara  F3 kwafa  F4 liƙa  F5 je  F6 launi\n
+msg.phrase	F7 auto-fit  F8 background  F9 recalc  F10 graph  F11 save  F12 menu\n	F7 daidaita  F8 bango  F9 lissafi  F10 jadawali  F11 ajiye  F12 menu\n
+msg.phrase	SHIFT+F1 about  SHIFT+F2 row height  SHIFT+F3 column width\n	SHIFT+F1 game da  SHIFT+F2 tsayin layi  SHIFT+F3 faɗin ginshiƙi\n
+msg.phrase	SHIFT+F4 select all  SHIFT+F10 graph range  SHIFT+F11 save as\n	SHIFT+F4 zaɓi duka  SHIFT+F10 kewayon jadawali  SHIFT+F11 ajiye a matsayin\n
+msg.phrase	CTRL+F1 new  CTRL+F2 open  CTRL+F3 save  CTRL+F4 save as\n	CTRL+F1 sabo  CTRL+F2 buɗe  CTRL+F3 ajiye  CTRL+F4 ajiye a matsayin\n
+msg.phrase	CTRL+F5 export CSV  CTRL+F6 export ODS  ALT+F12 quit\n	CTRL+F5 fitar CSV  CTRL+F6 fitar ODS  ALT+F12 fita\n
+msg.phrase	Bottom 2 lines: function keys; [SHIFT]/[CTRL]/[ALT] like the filer\n	Layi 2 na ƙasa: maɓallan aiki; [SHIFT]/[CTRL]/[ALT] kamar mai sarrafa fayil\n
+msg.phrase	CTRL+S save  CTRL+O open  CTRL+N new  CTRL+C/V/X copy/paste/cut\n	CTRL+S ajiye  CTRL+O buɗe  CTRL+N sabo  CTRL+C/V/X kwafa/liƙa/yanke\n
+msg.phrase	CTRL+G goto    /  open the menu (1 File, 2 Edit, ...)\n	CTRL+G je    /  buɗe menu (1 Fayil, 2 Gyara, ...)\n
+msg.phrase	Built-in functions: SUM AVERAGE MIN MAX COUNT COUNTA\n	Ayyukan ciki: SUM AVERAGE MIN MAX COUNT COUNTA\n
+msg.phrase	Cell refs: A1, $A$1, A1:B10.  Formulas begin with '='.\n	Nunin ƙwaya: A1, $A$1, A1:B10.  Dabaru suna farawa da '='.\n
+msg.phrase	Files: .ods (LibreOffice), .fods (flat XML), .csv\n	Fayiloli: .ods (LibreOffice), .fods (XML lebur), .csv\n
+msg.phrase	ODS/FODS keeps formulas, widths, heights and colours.\n	ODS/FODS suna riƙe da dabaru, faɗi, tsayi da launuka.\n
+msg.phrase	CSV keeps values and formulas (no colours/heights).\n	CSV yana riƙe da ƙima da dabaru (babu launi/tsayi).\n
+msg.phrase	Graph: select a range, press F10, and choose Line/Bar/Mixed/Pie.\n	Jadawali: zaɓi kewayo, danna F10, sannan zaɓi Layi/Sanda/Gauraye/Ƙeƙe.\n
+msg.phrase	SGCALC for sgnano\n	SGCALC don sgnano\n
+msg.phrase	Version 	Siga
+msg.phrase	A Lotus 1-2-3 style spreadsheet as an SGX program.\n\n	Takardar lissafi irin ta Lotus 1-2-3 a matsayin shirin SGX.\n\n
+msg.phrase	Screen mode 3: text + CLUT8 FB (lowres disabled)\n	Yanayin allo 3: rubutu + FB CLUT8 (an kashe lowres)\n
+msg.phrase	Sheet: %d rows x %d columns\n	Takarda: layi %d x ginshiƙi %d\n
+msg.phrase	Formats: .ods / .fods (LibreOffice), .csv\n\n	Tsari: .ods / .fods (LibreOffice), .csv\n\n
+msg.phrase	The grid is drawn on the text plane.\n	Ana zana layukan grid a fagen rubutu.\n
+msg.phrase	Charts and the 640x480 background use the FB.\n\n	Jadawali da bango na 640x480 suna amfani da FB.\n\n
+msg.phrase	Cannot store the cell (%d).	Ba za a iya ajiye ƙwaya ba (%d).
+msg.phrase	Copied %d x %d cells	An kwafa ƙwayoyi %d x %d
+msg.phrase	Cleared %s	An share %s
+msg.phrase	'%s' is not a cell reference.	'%s' ba nunin ƙwaya ba ne.
+msg.phrase	Column width = %d	Faɗin ginshiƙi = %d
+msg.phrase	Row height = %d	Tsayin layi = %d
+msg.phrase	Auto fit: %d column(s), %d row(s)	Daidaita kai tsaye: ginshiƙi %d, layi %d
+msg.phrase	Cannot apply the colour (%d).	Ba za a iya aiwatar da launi ba (%d).
+msg.phrase	Not a valid range.\nUse a range such as A1:C10.	Kewayo mara inganci.\nYi amfani da kewayo kamar A1:C10.
+msg.phrase	Graph range %s	Kewayon jadawali %s
+msg.phrase	Graph: %s	Jadawali: %s
+msg.phrase	SGCALC: cannot set screen mode 3: %s\n	SGCALC: ba za a iya saita yanayin allo 3 ba: %s\n
+msg.phrase	Cannot read %s\n%s	Ba za a iya karanta %s ba\n%s
+msg.phrase	Folder: %s	Babban fayil: %s
+msg.phrase	Unsupported extension.\nUse .csv, .ods or .fods.	Tsawo da ba a tallafa ba.\nYi amfani da .csv, .ods ko .fods.
+msg.phrase	%s already exists.\nOverwrite it?	%s ya riga ya wanzu.\nA rubuta a kai?
+msg.phrase	%s may not be writable.\nTry anyway?	Mai yiwuwa ba za a iya rubuta %s ba.\nA gwada duk da haka?
+msg.phrase	Unknown file type for %s	Ba a san irin fayil na %s ba
+msg.phrase	Unsupported file type.\nUse .csv, .ods or .fods.	Irin fayil da ba a tallafa ba.\nYi amfani da .csv, .ods ko .fods.
+msg.phrase	Cannot open %s\n%s	Ba za a iya buɗe %s ba\n%s
+msg.phrase	%s is a folder.	%s babban fayil ne.
+msg.phrase	Cannot import %s\n%s	Ba za a iya shigo da %s ba\n%s
+msg.phrase	Loaded %s	An loda %s
+msg.phrase	Cannot build the %s file.	Ba za a iya gina fayil na %s ba.
+msg.phrase	Cannot write %s\n%s	Ba za a iya rubuta %s ba\n%s
+msg.phrase	unsupported version %u	siga %u ba a tallafa ba
+msg.phrase	Octave %d	Oktaf %d
+msg.phrase	Note %s	Sauti %s
+msg.phrase	Instrument %d	Kayan kiɗa %d
+msg.phrase	Volume %s	Ƙara %s
+msg.phrase	Effect %c	Tasiri %c
+msg.phrase	Parameter %s	Siga %s
+msg.phrase	Pattern %s	Tsari %s
+msg.phrase	Playing pattern %s	Ana kunna tsari %s
+msg.phrase	SAVE ERROR: %s	KUSKUREN AJIYEWA: %s
+msg.phrase	Saved %s	An ajiye %s
+msg.phrase	LOAD ERROR: %s	KUSKUREN LODAWA: %s
+msg.phrase	BPM %d	BPM %d
+msg.phrase	Speed %d	Sauri %d
+msg.phrase	Preview %s	Sauraro %s
+msg.phrase	Instrument %s %s	Kayan kiɗa %s %s
+msg.phrase	Overwrite %s? (Y/N)	A rubuta a kan %s? (Y/N)
+msg.phrase	  F5          Play the song from the current order	  F5          Kunna waƙa daga tsari na yanzu
+msg.phrase	  F6          Play the current pattern	  F6          Kunna tsari na yanzu
+msg.phrase	  F7/Ctrl-C   Stop playback	  F7/Ctrl-C   Tsayar da kunnawa
+msg.phrase	  Space       Play / stop	  Space       Kunna / tsaya
+msg.phrase	  F4          Save as	  F4          Ajiye a matsayin
+msg.phrase	  Ctrl-S      Save (asks for a name if new)	  Ctrl-S      Ajiye (yana tambayar suna idan sabo ne)
+msg.phrase	  Ctrl-O      Open a song	  Ctrl-O      Buɗe waƙa
+msg.phrase	  Ctrl-N      New song	  Ctrl-N      Sabuwar waƙa
+msg.phrase	  F12         Quit (confirmation if modified)	  F12         Fita (yana tabbatarwa idan an canza)
+msg.phrase	  [ ]         Previous / next order entry	  [ ]         Shigarwar jeri ta baya / ta gaba
+msg.phrase	  { }         Insert / delete an order entry	  { }         Saka / share shigarwar jeri
+msg.phrase	  - +         Change the pattern in the entry	  - +         Canza tsari a shigarwa
+msg.phrase	  F11         Follow playback (turns off on manual move)	  F11         Bi kunnawa (yana kashewa idan an motsa da hannu)
+msg.phrase	  F1          Help; Left/Right changes page	  F1          Taimako; Hagu/Dama yana canza shafi
+msg.phrase	  F8          Toggle edit mode	  F8          Kunna/kashe yanayin gyara
+msg.phrase	  Arrows      Move the cursor	  Kibiyoyi    Matsar da siginan
+msg.phrase	  PgUp/PgDn   Jump 16 rows	  PgUp/PgDn   Tsalle layi 16
+msg.phrase	  Home/End    First / last row	  Home/End    Layi na farko / ƙarshe
+msg.phrase	  F9/F10      Octave down / up	  F9/F10      Oktaf ƙasa / sama
+msg.phrase	  Z S X D C V G B H N J M      lower piano row	  Z S X D C V G B H N J M      jeren piano na ƙasa
+msg.phrase	  Q 2 W 3 E R 5 T 6 Y 7 U      upper piano row	  Q 2 W 3 E R 5 T 6 Y 7 U      jeren piano na sama
+msg.phrase	  1           Note off	  1           Kashe sauti
+msg.phrase	  0 / Del     0 clears note/inst/fx; Del clears any	  0 / Del     0 yana share sauti/kayan/tasiri; Del yana share kowane
+msg.phrase	  Ctrl-Z      Undo the last pattern/order edit	  Ctrl-Z      Maido gyaran tsari/jeri na ƙarshe
+msg.phrase	  Axy   Volume slide: up x, down y	  Axy   Zamewar ƙara: sama x, ƙasa y
+msg.phrase	  Cxx   Note cut after xx ticks	  Cxx   Yanke sauti bayan tick xx
+msg.phrase	  Dxx   Set volume (00..7F)	  Dxx   Saita ƙara (00..7F)
+msg.phrase	  Fxx   Speed if xx < 20, otherwise BPM	  Fxx   Sauri idan xx < 20, in ba haka ba BPM
+msg.phrase	  Hxy   Arpeggio x, y semitones	  Hxy   Arpeggio x, y rabin murya
+msg.phrase	  Pxx   Pitch slide up	  Pxx   Zamewar sautin sama
+msg.phrase	  Qxx   Pitch slide down	  Qxx   Zamewar sautin ƙasa
+msg.phrase	  F2 song settings, F3 instrument list	  F2 saitunan waƙa, F3 jerin kayan kiɗa
+msg.phrase	HELP %d/2	TAIMAKO %d/2
+msg.phrase	  Title	  Take
+msg.phrase	  BPM   : %d     (left/right -1/+1, -/+ -5/+5)	  BPM   : %d     (hagu/dama -1/+1, -/+ -5/+5)
+msg.phrase	  Speed : %d ticks/row	  Sauri : tick %d/layi
+msg.phrase	  Rows  : %d (fixed)	  Layi  : %d (tsayayye)
+msg.phrase	  Order : %d entries	  Jeri  : shigarwa %d
+msg.phrase	  Patterns in use : %d	  Tsarin da ake amfani da su : %d
+msg.phrase	Current instrument: %s %s	Kayan kiɗa na yanzu: %s %s
+msg.phrase	Files: %d	Fayiloli: %d
+msg.phrase	SGNO TRACKER: incompatible SGX ABI\n	SGNO TRACKER: SGX ABI bai dace ba\n
+msg.phrase	S: check: wait -- a file is being read or written	Binciken S:: jira -- ana karanta ko rubuta fayil
+msg.phrase	S: check: the drive is busy or not ready	Binciken S:: faifai yana aiki ko bai shirya ba
+msg.phrase	nothing for this item (ContextMenu.cfg)	babu komai ga wannan abu (ContextMenu.cfg)
+msg.phrase	bad command in ContextMenu.cfg	mummunan umarni a ContextMenu.cfg
+msg.phrase	unknown action in ContextMenu.cfg	aikin da ba a sani ba a ContextMenu.cfg
+msg.prefix	menu	menu
+msg.phrase	5 Macro	5 Macro
+msg.phrase	6 Help	6 Taimako
+msg.phrase	Run current	Gudanar na yanzu
+msg.phrase	Run the macro at the cursor (#! header cell and the cells below it)	Gudanar da macro a siginan (ƙwayar take #! da ƙwayoyin ƙasa da ita)
+msg.phrase	Run selection	Gudanar da zaɓi
+msg.phrase	Run the selected cells as one macro (top-left cell is the #! header)	Gudanar da ƙwayoyin da aka zaɓa a matsayin macro ɗaya (ƙwaya ta sama hagu ita ce take #!)
+msg.phrase	Run all	Gudanar da duka
+msg.phrase	Run every macro in the sheet, top-left to bottom-right	Gudanar da kowane macro a takarda, daga sama hagu zuwa ƙasa dama
+msg.phrase	Last error	Kuskuren ƙarshe
+msg.phrase	Show the last macro error	Nuna kuskuren macro na ƙarshe
+msg.phrase	Macro	Macro
+msg.phrase	Macro: run #!ruby / #!python / #!basic cells	Macro: gudanar da ƙwayoyin #!ruby / #!python / #!basic
+msg.phrase	Edit the cell (F2)	Gyara ƙwaya (F2)
+msg.phrase	Fit widths/heights to the contents	Daidaita faɗi/tsayi da abin da ke ciki
+msg.phrase	Last macro error	Kuskuren macro na ƙarshe
+msg.phrase	No macro error.	Babu kuskuren macro.
+msg.phrase	IME on	IME a kunne
+msg.phrase	IME off	IME a kashe
+msg.phrase	Macro: %s %s ...	Macro: %s %s ...
+msg.phrase	%s: this firmware cannot run macros (SGX ABI 5.10 or later)	%s: wannan firmware ba za ta iya gudanar da macro ba (SGX ABI 5.10 ko sama)
+msg.phrase	Macro error: %s	Kuskuren macro: %s
+msg.phrase	Macro: %s done	Macro: %s an gama
+msg.phrase	a macro is already running	wani macro yana gudana tuni
+msg.phrase	this language is not available	wannan harshe ba ya samuwa
+msg.phrase	not enough memory	ƙwaƙwalwa ba ta isa ba
+msg.phrase	the macro stopped with an error	macro ya tsaya da kuskure
+msg.phrase	Macro error %s: %s	Kuskuren macro %s: %s
+msg.phrase	Macro: not enough memory	Macro: ƙwaƙwalwa ba ta isa ba
+msg.phrase	Macro: the cursor is not on a macro (a #!ruby / #!python / #!basic cell or the cells below it)	Macro: siginan ba ya kan macro (ƙwayar #!ruby / #!python / #!basic ko ƙwayoyin ƙasa da ita)
+msg.phrase	Macro: no macro in the sheet	Macro: babu macro a takarda
+msg.phrase	Run all macros	Gudanar da duk macro
+msg.phrase	Macros: %d. Run them all, top-left to bottom-right? Changes cannot be undone.	Macro: %d. A gudanar da su duka, daga sama hagu zuwa ƙasa dama? Ba za a iya maido canje-canje ba.
+msg.phrase	Macro: %d of %d done	Macro: an gama %d cikin %d
+msg.phrase	Cleared the cell	An share ƙwayar
+msg.phrase	Cleared the selection	An share zaɓin
+msg.phrase	Background colour = %d	Launin bango = %d
+msg.phrase	Text colour = %d	Launin rubutu = %d
+msg.phrase	Graph: line	Jadawali: layi
+msg.phrase	Graph: bar	Jadawali: sanda
+msg.phrase	Graph: mixed	Jadawali: gauraye
+msg.phrase	Graph: pie	Jadawali: ƙeƙe
+msg.phrase	Exported %s	An fitar %s
+msg.phrase	choose a file or folder	zaɓi fayil ko babban fayil
+msg.phrase	this drive cannot be written	ba za a iya rubuta a wannan ma'ajiya ba
+msg.phrase	an archive job is already running	aikin ma'aji yana gudana tuni
+msg.phrase	no PSRAM for the archive task	babu PSRAM don aikin ma'aji
+msg.phrase	could not start the archive task	ba a iya fara aikin ma'aji ba
+msg.phrase	too many items (32 at most)	abubuwa sun yi yawa (32 ne iyaka)
+msg.phrase	nothing to compress	babu abin da za a matsa
+msg.phrase	no name (or the name has / or \\)	babu suna (ko sunan yana da / ko \\)
+msg.phrase	32 items at most (mark fewer, or put them in a folder)	abubuwa 32 ne iyaka (yi wa kaɗan alama ko saka su a babban fayil)
+msg.prefix	archive	ma'aji
+msg.prefix	compress	matsa
+msg.prefix	render	fitar da WAV

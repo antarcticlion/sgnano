@@ -1,0 +1,787 @@
+# lv: machine translation (Google), unreviewed; 2026-11-17
+M001	brauciens aizgāja
+M002	vēlreiz pārlasot nodalījumus...
+M003	nevarēja atvērt sējumu (nav atmiņas?)
+M004	atverot sējumu...
+M005	nav atmiņas failu sarakstam
+M006	lasīt direktoriju... (mēģināt vēlreiz)
+M007	nevarēja izlasīt direktoriju
+M008	lasu direktoriju...
+M009	disks neatbildēja -- vēlreiz nolasa nodalījumus
+M010	nevarēja nolasīt direktoriju (vai ne FAT12/16/32?)
+M011	pārāk daudz ierakstu — tiek rādīti pirmie
+M012	šajā nodalījumā nav atrasta neviena failu sistēma
+M013	ceļš ir pārāk garš
+M014	pievienojas...
+M015	sadalīšana...
+M016	pārdēvējot...
+M017	izveidojot mapi...
+M018	izveidojot failu...
+M019	dzēš...
+M020	rakstu atribūtus...
+M021	brauciens ir aizņemts
+M022	aizņemts
+M023	izvēlieties failus vai mapes
+M024	izvēlieties failus vai mapes (nevis "..")
+M025	vispirms apturiet kompaktdisku
+M026	CD nevar mainīt (tā vietā kopēt)
+M027	sistēmas mapi nevar pārvietot
+M028	nevienu disku nevar ierakstīt (tikai FAT / exFAT / NTFS)
+M029	disks ir pagājis
+M030	nekas nav izvēlēts
+M031	nekas nav izvēlēts
+M032	nevarēja sākt
+M033	nevarēja atvērt
+M034	tikai FAT/exFAT/NTFS diskdzinī
+M035	nav vārda
+M036	šis nosaukums jau pastāv
+M037	nevarēja startēt (slikts nosaukums vai disks ir aizņemts)
+M038	nevarēja sākt (disks ir aizņemts)
+M039	vārdam nevar būt / vai \\ (tikai šajā mapē)
+M040	nosaukums ir tāds pats
+M041	vienums ir tikai lasāms (A lai mainītu)
+M042	izvēlieties .rb failu rakstāmajā diskā
+M043	izvēlieties .rb failu
+M044	disks ir tikai lasāms
+M045	izvēlieties mapi rakstāmajā diskā
+M046	pagaidi mirkli
+M047	izvēlieties failu
+M048	izvēlieties failu (nevis mapi)
+M049	izvēlieties .001 failu
+M050	izvēlieties failu .001
+M051	ievietojiet IWAD mapē DoomFiles vai Doom2Files
+M052	DoomFiles aizņem freedoom1 / doom / doomu / doom1.wad
+M053	Doom2Files aizņem freedoom2 / doom2 / plutonia / tnt.wad
+M054	ievietojiet spēles failus ārējā atmiņā, nevis S:
+M055	IWAD ir jābūt FAT/exFAT/NTFS diskdzinī (nevis kompaktdiskā)
+M056	joprojām strādā
+M057	tiek ielādēts attēls
+M058	nav kadru bufera
+M059	puse spilgtuma darbojas tikai RGB555
+M060	notīra...
+M061	uz pusi samazinot spilgtumu...
+M062	tas ir datu celiņš
+M063	pagaidiet — tiek rakstīts fails
+M064	tikai diskešu / LS-120 / CD diskdziņi
+M065	pieprasīts
+M066	lasu disku...
+M067	apstājas...
+M068	atverot...
+M069	darīts
+M070	nav atmiņas
+M071	jau atvērts
+M072	jau darbojas
+M073	jau ietaupa
+M074	jau spēlē
+M075	nav tāda piedziņas
+M076	nav PSRAM
+M077	failam nav PSRAM
+M078	līnijas indeksam nav PSRAM
+M079	terminālim nav PSRAM
+M080	nav atmiņas (PSRAM)
+M081	nav atmiņas (32KB SRAM)
+M082	buferim nav atmiņas
+M083	nav atmiņas attēlu buferiem
+M084	nav atmiņas lasīšanas buferim
+M085	nav vietas darba atmiņai (aizveriet zemāko plakni?)
+M086	nav kadru bufera lapas
+M087	pārāk liels (ne vairāk kā 4 MB)
+M088	fails ir pārāk liels (ne vairāk kā 1 MB)
+M089	fails ir pārāk liels (maks. 1 MB)
+M090	pārāk liels SMF (ne vairāk kā 1 MB)
+M091	fails ir tukšs
+M092	nevarēja atvērt failu
+M093	nevarēja nolasīt failu
+M094	nevarēja atvērt sējumu
+M095	nevarēja atvērt galamērķi (nav atmiņas?)
+M096	nevarēja nolasīt saknes mapi
+M097	nevarēja sākt uzdevumu
+M098	nevarēja sākt rakstīt (slikts vārds vai aizņemts)
+M099	cits sējums ir atvērts (aizņemts)
+M100	darbojas kopija
+M101	mape nevar iedziļināties sevī
+M102	tā ir tā pati mape
+M103	šo disku nevar mainīt (tikai lasāms)
+M104	disks nav rakstāms
+M105	daļas izmēram jābūt reizinājumam ar 512
+M106	faili, kuru lielums ir 4 GB vai vairāk, netiek atbalstīti
+M107	slikts ceļš
+M108	slikts faila nosaukums
+M109	fonta ROM tur nav
+M110	skaņa nav atvērta
+M111	tāda kanāla nav
+M112	sekvencētājs ir aizņemts
+M113	dziesmai nepietiek PSRAM
+M114	nav standarta MIDI fails (bez MThd)
+M115	nav pēdu
+M116	trase ir salauzta (MTrk)
+M117	SMPTE laika dalījums netiek atbalstīts
+M118	SMF 2 formāts netiek atbalstīts (tikai 0 un 1)
+M119	nav tikai lielapjoma disks
+M120	nevis optiskais diskdzinis
+M121	sistēmas mapi nevar izdzēst vai pārdēvēt
+M122	diskā nav datu nesēja
+M123	kļūst gatavs
+M124	nav gatavs
+M125	mediji mainījušies
+M126	vidēja kļūda
+M127	nelikumīgs pieprasījums
+M128	slikts direktorijas ieraksts
+M129	direktorija ceļā nepastāv
+M130	failam ir šāds nosaukums
+M131	mapei ir šāds nosaukums
+M132	vārds ceļā nav direktorijs
+M133	atcelts
+M134	nevarēja uzstādīt
+M135	nevarēja sākt lasīt
+M136	nevarēja sākt rakstīt
+M137	ir direktorijs
+M138	tas ir direktorijs
+M139	nav kopu
+M140	nav vietas klasteru sarakstam
+M141	nav šāda faila vai direktorija
+M142	tāda faila nav
+M143	nav skaļuma
+M144	nevis NTFS
+M145	nevis exFAT
+M146	nav direktorija
+M147	nav atrasts
+M148	lasīšanas kļūda
+M149	rakstīšanas kļūda
+M150	FAT nolasīšana neizdevās
+M151	klastera ķēde ir īsāka par failu
+M152	direktorijs nav tukšs
+M153	disks ir pilns
+M154	braucējs neatbildēja
+M155	fails ir tikai lasāms
+M156	fails ir pārāk sadrumstalots
+M157	fails ir pārāk liels (4 GB)
+M158	jaunais nosaukums jau pastāv
+M159	saknes direktorijs ir pilns
+M160	pārāk daudz failu ar tādu pašu īso nosaukumu
+M161	Nav šāda faila vai direktorija
+M162	Fails pastāv
+M163	Atļauja liegta
+M164	Katalogs nav tukšs
+M165	Nav direktorija
+M166	Ir direktorijs
+M167	Tikai lasāma failu sistēma
+M168	Ierīcē vairs nav vietas
+M169	Ievades/izvades kļūda
+M170	Šis disks netiek atbalstīts
+M171	Nederīgs ceļš
+M172	Trūkst atmiņas
+M173	Nav tāda piedziņas
+M174	apstājās
+M175	atcelts (nav pietiekami daudz brīvas vietas)
+M176	nevarēja saskaitīt brīvo vietu
+M177	uztvērējs ir atcelts
+M178	nav uztvērēja (palaidiet rz datorā)
+M179	tiek izmantota konsole UART
+M180	mainīts ekrāna režīms
+M181	rindas nenāca (vai displejs darbojas?)
+M182	kopiju
+M183	kustēties
+M184	dzēst
+M185	pārdēvēt
+M186	atribūti
+M187	jauns fails
+M188	jauna mape
+M189	attēlu
+M190	mrbc
+M191	rubīns
+M192	skatītājs
+M193	rediģēt
+M194	Identificēt
+M195	ZMODEM
+M196	ZMODEM saņemt
+M197	ZMODEM nosūtīt
+M198	sadalīt
+M199	pievienoties
+M200	Doom
+M201	SMF
+M202	CD
+M203	FB
+M204	Izstumt
+M205	pārstartēt
+M206	licence
+M207	pulkstenis
+M208	ADC iekšā
+M209	ekrāns -> PNG
+M210	FB —> PNG
+M211	nevarēja atvērt sējumu
+M212	saņemts
+M213	nosūtīts
+M214	saglabāts
+M215	izveidots
+M216	pārdēvēta par
+M217	dzēsts
+M218	mainīts
+M219	pievienojās
+M220	sadalīt
+M221	nevarēja izveidot
+M222	nevarēja izdzēst
+M223	nevarēja pārdēvēt par
+M224	nevarēja mainīt
+M225	nevarēja lasīt
+M226	nevarēja uzrakstīt
+M227	nevarēja nokopēt
+M228	nevarēja izdarīt
+M229	nevarēja noņemt mapi
+M230	nevarēja noņemt
+M231	nav atmiņas par
+M232	pārāk daudz kļūdu sūtīšanas laikā
+M233	uztvērējs neņēma
+M234	uztvērējs izlaida
+M235	FB lapa
+M236	baiti katrs)
+M237	baiti)
+M238	KB)
+M239	daļās
+M240	daļas (
+M241	iekšā
+M242	: notīrīts
+M243	: spilgtums samazināts uz pusi
+M244	% lasīts
+M245	rindas
+M246	-- vēl netiek atbalstīts (tikai FAT/exFAT/NTFS)
+M247	failus
+M248	(
+M249	Bez nosaukuma
+M250	1 fails
+M251	2 Rediģēt
+M252	3 Grafiks
+M253	4 lapa
+M254	5 Palīdzība
+M255	TUKŠS
+M256	NUMBER
+M257	TEKSTS
+M258	FORMULA
+M259	Ierakstiet, lai ievadītu, F2, lai rediģētu, F1, lai saņemtu palīdzību
+M260	5 CSV
+M261	6 ODS
+M262	[SHIFT]
+M263	[CTRL]
+M264	[ALT]
+M265	Gatavs
+M266	SGCALC
+M267	Nospiediet jebkuru taustiņu
+M268	Y = jā N = nē Esc = atcelt
+M269	Enter = OK Esc = atcelt Ctrl-U = notīrīt
+M270	Pirmā rinda/kolonna = etiķetes; diagrammas izmanto 640x480 CLUT8 FB.
+M271	SGCALC — PALĪDZĪBA
+M272	Lai atgrieztos, nospiediet jebkuru taustiņu
+M273	Lai atgrieztos, nospiediet jebkuru taustiņu.
+M274	PAR SGCALC
+M275	Jauns
+M276	Sāciet jaunu lapu
+M277	Atvērt...
+M278	Atveriet ODS, FODS vai CSV failu
+M279	Saglabāt
+M280	Saglabājiet pašreizējo failu
+M281	Saglabāt kā...
+M282	Saglabāt ar jaunu nosaukumu vai formātu
+M283	Eksportēt CSV...
+M284	Uzrakstiet CSV kopiju
+M285	Eksportēt ODS...
+M286	Uzrakstiet LibreOffice kopiju
+M287	Iziet
+M288	Atstājiet SGCALC
+M289	Skaidrs
+M290	Notīriet atlasītās šūnas
+M291	Kopēt
+M292	Kopējiet atlasi
+M293	Ielīmēt
+M294	Ielīmējiet kursorā
+M295	Izgriezt
+M296	Kopējiet un notīriet atlasi
+M297	Atlasiet visu
+M298	Atlasiet visas izmantotās šūnas
+M299	Teksta krāsa...
+M300	Izvēlieties teksta krāsu
+M301	Fons...
+M302	Izvēlieties šūnas fonu
+M303	Līnija
+M304	No atlases uzzīmējiet līniju diagrammu
+M305	Bārs
+M306	No atlases uzzīmējiet joslu diagrammu
+M307	Jaukti
+M308	Stieņi pirmajai sērijai, līnijas pārējām
+M309	Pīrāgs
+M310	Uzzīmējiet sektoru diagrammu no atlases
+M311	Diapazons...
+M312	Skaidri iestatiet diagrammas diapazonu
+M313	Zīmējiet vēlreiz
+M314	Pārzīmējiet pēdējo grafiku
+M315	Iet...
+M316	Pāriet uz šūnu (piemēram, C12)
+M317	Kolonnas platums...
+M318	Mainiet atlasīto kolonnu platumu
+M319	Rindas augstums...
+M320	Mainiet atlasīto rindu augstumu
+M321	Auto fit
+M322	Pielāgojiet platumu/augstumu saturam (F7)
+M323	Pārrēķināt
+M324	Pārvērtējiet visas formulas
+M325	Dzēst visu
+M326	Notīriet visu lapu
+M327	Atslēgas
+M328	Parādiet taustiņu ceļvedi
+M329	Par
+M330	Par SGCALC
+M331	Fails
+M332	Rediģēt
+M333	Grafiks
+M334	Lapa
+M335	Palīdzība
+M336	Fails: jauns, atvērt, saglabāt, eksportēt, iziet
+M337	Rediģēt: notīrīt, kopēt, ielīmēt, izgriezt, atlasīt visu
+M338	Diagramma: līnija, josla, jaukta, pīrāgs (zīmējas FB)
+M339	Lapa: goto, kolonnas platums, pārrēķināt, dzēst
+M340	Palīdzība: atslēgas un par
+M341	Pa kreisi/Pa labi = izvēlne Uz augšu/Uz leju = vienums Enter = izvēlieties Esc = atcelt
+M342	Atcelts
+M343	Izvēle ir pārāk liela vai ir maz atmiņas.
+M344	šūna
+M345	atlasi
+M346	Nav ko ielīmēt
+M347	Ielīmēts
+M348	DOTIES UZ ŠŪNU
+M349	Šūnas atsauce (A1):
+M350	Goto
+M351	KOLONAS PLATUMS
+M352	Platums rakstzīmēs (4..30):
+M353	RINDAS AUGSTUMS
+M354	Augstums teksta rindās (1..8):
+M355	Auto fit: lapa ir tukša
+M356	FONA KRĀSA
+M357	TEKSTA KRĀSA
+M358	Bultiņas: izvēlieties Enter: lietot Esc: atcelt
+M359	Krāsu indekss (PC-98 16 krāsu palete)
+M360	Aa 123
+M361	Enter = lietot Esc = atcelt
+M362	Krāsa
+M363	Fons
+M364	Teksts
+M365	GRAFIKA DIAPAZONS
+M366	Diapazons (piemēram, A1:C10):
+M367	Grafika diapazons
+M368	Izmantojiet diapazonu, piemēram, A1:C10.
+M369	Nevar uzzīmēt grafiku.
+M370	līniju
+M371	bārs
+M372	sajaukts
+M373	pīrāgs
+M374	Vai dzēst visas šūnas šajā lapā?
+M375	Lapa izdzēsta
+M376	Atlasītas visas izmantotās šūnas
+M377	Pārrēķināts
+M378	Atmiņa
+M379	Nepietiek PSRAM izklājlapai.
+M380	Lapa ir tukša.
+M381	Atlasītajā diapazonā nav ciparu datu.
+M382	Cits
+M383	Sektoru diagrammai nav pozitīvu vērtību
+M384	LĪNIJA
+M385	BĀRS
+M386	JAUKTAS
+M387	PĪRĀGS
+M388	S:/
+M389	Mape
+M390	SAGLABĀT KĀ
+M391	ATvērt failu
+M392	LibreOffice / CSV
+M393	ODS FODS CSV
+M394	Vārds:
+M395	(ievadiet vārdu vai izvēlieties tālāk)
+M396	Vārds
+M397	Izmērs
+M398	Enter=save Left=up Right/Enter on [DIR]=atvērt Tab=drive Esc=atcelt
+M399	Enter=atvērt Left=augšup pa labi/Ievadiet uz [DIR]=atvērt Tab=drive Esc=atcelt
+M400	Nepietiek atmiņas.
+M401	Pārrakstīt
+M402	Atvērt
+M403	Fails ir pārāk liels (līdz 8 MB).
+M404	Nepietiek atmiņas, lai nolasītu failu.
+M405	Slikti ZIP/ODS dati.
+M406	CRC kļūda ODS failā.
+M407	Neatbalstīts vai bojāts fails.
+M408	Saglabāts
+M409	Eksportēts
+M410	Nesaglabātas izmaiņas
+M411	Vai saglabāt pašreizējo lapu pirms turpināt?
+M412	Jauna lapa
+M413	SGTRK
+M414	BEZ NOSAUKUMA
+M415	dziesma ir pārāk liela
+M416	tukšs fails
+M417	nav SGT fails
+M418	slikts BPM
+M419	slikts ātrums
+M420	slikts virsraksta garums
+M421	saīsināts virsraksts
+M422	slikts raksturs virsrakstā
+M423	saīsināta kārtība
+M424	slikts pasūtījuma garums
+M425	slikts modeļa numurs kārtībā
+M426	saīsināts modeļu saraksts
+M427	slikts modeļu skaits
+M428	slikta modeļa indekss
+M429	dublēts modelis
+M430	saīsināti modeļa dati
+M431	nederīgi modeļa dati
+M432	beigu dati failā
+M433	pasūtījums attiecas uz trūkstošu modeli
+M434	A:/
+M435	(bez nosaukuma)
+M436	Gatavs. Lai saņemtu palīdzību, nospiediet taustiņu F1.
+M437	Sekojiet OFF
+M438	Nav ko atsaukt
+M439	Atsaukt
+M440	Piezīme OFF
+M441	Vispirms iestatiet efekta burtu
+M442	Efekts notīrīts
+M443	Parametrs notīrīts
+M444	Piezīme notīrīta
+M445	Instruments notīrīts
+M446	Skaļums notīrīts
+M447	Pasūtījumu saraksts ir pilns
+M448	Pasūtījums ievietots
+M449	Nevar izdzēst pēdējo pasūtījumu
+M450	Pasūtījums dzēsts
+M451	Atskaņo dziesmu
+M452	Apstājās
+M453	Jauna dziesma
+M454	Vai atmest nesaglabātās izmaiņas un sākt jaunu dziesmu? (J/N)
+M455	Vai atmest nesaglabātās izmaiņas un atvērt dziesmu? (J/N)
+M456	Vai atmest nesaglabātās izmaiņas un iziet? (J/N)
+M457	Dziesmu iestatījumi ir atjaunināti
+M458	Faila nosaukums ir tukšs
+M459	Saglabāšana atcelta
+M460	Atvērts atcelts
+M461	Rediģēt IESL
+M462	Rediģēt IZSL
+M463	Sekojiet ON
+M464	Rediģēšana ir IZSLĒGTA. Nospiediet F8, lai rediģētu.
+M465	I/O kļūda
+M466	fails ir pārāk liels
+M467	saīsināts fails
+M468	SINE PAD
+M469	Trijstūris
+M470	ZĀĢĒJUMS
+M471	LAUKTS
+M472	PULSS 25
+M473	ORGĀNES
+M474	BASS
+M475	ZVANS
+M476	TROKSNIS
+M477	SINE
+M478	ZĀĢIS
+M479	IZSLĒGTS
+M480	IESL
+M481	RINDA
+M482	KANĀLA LĪMENIS
+M483	F1 PALĪDZĪBA F2 DZIESMA
+M484	F3 INS F4 SAGLABĀT
+M485	F5 PLAY F6 PAT
+M486	F7 STOP F8 EDIT
+M487	F9/F10 OCTAVE
+M488	F11 SEKOT
+M489	F12 IZBEIGT
+M490	SPĒLĒT/STOP
+M491	CTRL-S SAGLABĀT
+M492	CTRL-O ATVĒRTS
+M493	C-N JAUNS C-Z UNDO
+M494	C-C STOP
+M495	#TRANSPORTS UN FAILI
+M496	#PASŪTĪJUMU SARAKSTS
+M497	#DISPLAY
+M498	#REDIĢĒŠANA
+M499	#EFFECTS (parametrs ir heksadecimāls)
+M500	KREISĀ/LABĀ LAPA IEVADĪT VAI F1 AIZVĒRT
+M501	DZIESMU IESTATĪJUMI
+M502	UZ AUGŠU/UZ LEJU IZVĒLĒTIES KREISĀ/LABOJĀ REGLAMENTĒT ENTER/F2 AIZVĒRT
+M503	Ierakstiet, lai rediģētu nosaukumu. Backspace izdzēš pēdējo rakstzīmi.
+M504	BPM diapazons 32..255. Ātruma diapazons 1..31.
+M505	Modeļa efekti spēles laikā var arī mainīt ātrumu un BPM.
+M506	INSTRUMENTI
+M507	UZ AUGŠU/UZ LEJU IZVĒLĒTIES Space PRIEKŠSKATĪJUMS IEVADĪT IZMANTOT F3 AIZVĒRT
+M508	Visi četri kanāli izmanto viļņveida sintēzi.
+M509	Priekšskatījums atskaņo C-4 ierakstā zem rediģēšanas kursora.
+M510	SAGLABĀT DZIESMU KĀ
+M511	IEVADĪT SAGLABĀT F4 VAI CTRL-C ATCELT
+M512	Katalogs:
+M513	Faila nosaukums:
+M514	Paplašinājums .SGT tiek pievienots automātiski.
+M515	Esošu failu var pārrakstīt.
+M516	ATKLĀTA DZIESMA
+M517	ENTER OPEN BS PARENT CTRL-O/CTRL-C CANCEL
+M518	(šajā mapē nav .SGT failu)
+M519	APSTIPRINĀT
+M520	Y = JĀ N / ENTER / CTRL-C = NĒ
+M521	Y = jā N = nē
+M522	C-
+M523	C#
+M524	D-
+M525	D#
+M526	E-
+M527	F-
+M528	F#
+M529	G-
+M530	G#
+M531	A-
+M532	A#
+M533	B-
+M534	A:/direktors/nosaukums
+M535	MThd
+M536	salauzts MThd
+M537	MIDI IMPORTS
+M538	MTrk
+M539	salauzts delta laiks
+M540	bojāts skriešanas statuss
+M541	bojāts meta pasākums
+M542	bojāts siseksa pasākums
+M543	bojāta kanāla notikums
+M544	SMF izvade ir pārāk maza
+M545	SMF izvade ir pārāk liela
+M546	dziesma ir pārāk gara priekš SMF
+M547	TRK1
+M548	%s%d
+M549	%s%d:%s%d
+M550	%s
+M551	%.40s%s
+M552	[%s] %s
+M553	REDIĢĒT
+M554	GATAVS
+M555	%4d
+M556	%s Summa %.7g N %ld%s
+M557	bultiņas pārvieto šūnas kursoru
+M558	SHIFT+ARR paplašina atlasi (grafikiem/kopēšanai)
+M559	ENTER rediģēt šūnu; rediģēt, veikt un pārvietot uz leju
+M560	TAB nākamā šūna SHIFT+TAB iepriekšējā šūna
+M561	DELETE notīrīt atlasīto šūnu(-es) ESC atcelt
+M562	PGUP/PGDN pārvietot vienu ekrānu SĀKUMS/BEIGAS pirmajā/pēdējā kolonnā
+M563	CTRL+HOME A1 CTRL+END pēdējā lietotā šūna
+M564	F1 palīdzība F2 rediģēt F3 kopēt F4 ielīmēt F5 goto F6 color
+M565	F7 automātiskā pielāgošana F8 fons F9 pārrēķināt F10 diagramma F11 saglabāt F12 izvēlni
+M566	SHIFT+F1 par SHIFT+F2 rindas augstumu SHIFT+F3 kolonnas platumu
+M567	SHIFT+F4 atlasīt visu SHIFT+F10 diagrammu diapazonu SHIFT+F11 saglabāt kā
+M568	CTRL+F1 jauns CTRL+F2 atvērt CTRL+F3 saglabāt CTRL+F4 saglabāt kā
+M569	CTRL+F5 eksportēt CSV CTRL+F6 eksportēt ODS ALT+F12 iziet
+M570	Apakšējās 2 rindas: funkciju taustiņi; [SHIFT]/[CTRL]/[ALT] tāpat kā fails
+M571	CTRL+S saglabāt CTRL+O atvērt CTRL+N jauns CTRL+C/V/X kopēt/ielīmēt/izgriezt
+M572	CTRL+G dodieties / atveriet izvēlni (1 fails, 2 rediģēšana, ...)
+M573	Iebūvētās funkcijas: SUM AVERAGE MIN MAX COUNT COUNTA
+M574	PRODUCT ABS SQRT INT ROUND MOD POWER JA UN VAI NĒ
+M575	IFERROR LEN LEFT LIGHT VIDUS AUGŠĒJĀ APAKŠĒJĀ TRIM CONCATENATE PI
+M576	Šūnu refs: A1, $A$1, A1:B10.  Formulas sākas ar “=”.
+M577	Faili: .ods (LibreOffice), .fods (flat XML), .csv
+M578	ODS/FODS saglabā formulas, platumus, augstumus un krāsas.
+M579	CSV saglabā vērtības un formulas (bez krāsām/augstumiem).
+M580	Diagramma: atlasiet diapazonu, nospiediet F10 un izvēlieties Line/Bar/Mixed/Pie.
+M581	SGCALC priekš sgnano
+M582	Versija
+M583	Lotus 1-2-3 stila izklājlapa kā SGX programma.
+M584	SGX ABI %u.%u
+M585	3. ekrāna režīms: teksts + CLUT8 FB (zemais līmenis ir atspējots)
+M586	Lapa: %d rindas x %d kolonnas
+M587	Formāti: .ods / .fods (LibreOffice), .csv
+M588	Režģis tiek uzzīmēts teksta plaknē.
+M589	Diagrammas un 640x480 fons izmanto FB.
+M590	%d %s
+M591	Nevar saglabāt šūnu (%d).
+M592	Nokopētas %d x %d šūnas
+M593	Notīrīts %s
+M594	“%s” nav šūnas atsauce.
+M595	%d
+M596	Kolonnas platums = %d
+M597	Rindas augstums = %d
+M598	Automātiska pielāgošana: %d kolonna(-as), %d rinda(-s)
+M599	%2d
+M600	Nevar piemērot krāsu (%d).
+M601	%s krāsa = %d
+M602	Nav derīgs diapazons.\nIzmantojiet diapazonu, piemēram, A1:C10.
+M603	Grafika diapazons %s
+M604	Grafiks: %s
+M605	SGCALC: nevar iestatīt ekrāna režīmu 3: %s
+M606	%.2g
+M607	%.6g
+M608	%s %.0f%%
+M609	GRAFIKS %s %s
+M610	%s%s
+M611	%s/%s
+M612	%.*s
+M613	%.*s/
+M614	Nevar nolasīt %s\n%s
+M615	Mape: %s
+M616	[DIR] %s
+M617	%s
+M618	%lu.%luM
+M619	%luK
+M620	%luB
+M621	GRĀMATA1%s
+M622	%c:/
+M623	Neatbalstīts paplašinājums.\nIzmantojiet .csv, .ods vai .fods.
+M624	%s jau pastāv.\nVai to pārrakstīt?
+M625	%s var nebūt rakstāms.\nVai tomēr mēģināt?
+M626	Nezināms faila tips %s
+M627	Neatbalstīts faila veids.\nIzmantojiet .csv, .ods vai .fods.
+M628	Nevar atvērt %s\n%s
+M629	%s ir mape.
+M630	Nevar importēt %s\n%s
+M631	Ielādēts %s
+M632	Nevar izveidot failu %s.
+M633	Nevar uzrakstīt %s\n%s
+M634	%s %s
+M635	neatbalstīta versija %u
+M636	%d:%d:%d:%d:%d:%d
+M637	Oktāva %d
+M638	Piezīme %s
+M639	Instruments %d
+M640	Skaļums %s
+M641	Efekts %c
+M642	Parametrs %s
+M643	Raksts %s
+M644	Spēļu raksts %s
+M645	SAGLABĀŠANAS KĻŪDA: %s
+M646	Saglabāts %s
+M647	LOAD KĻŪDA: %s
+M648	BPM %d
+M649	Ātrums %d
+M650	Priekšskatījums %s
+M651	Instruments %s %s
+M652	Pārrakstīt %s? (J/N)
+M653	| BPM %s SPD %s
+M654	SGNO TRACKER 1.0 |
+M655	FILE
+M656	PAT %s
+M657	ORD %d/%d
+M658	INS %s
+M659	OCT %d
+M660	REDIĢĒT %s
+M661	IESL
+M662	FOL %s
+M663	TRASE %d
+M664	%c%s
+M665	%s %s %s %s
+M666	%s
+M667	%d %s %s
+M668	PASŪTĪT %d/%d
+M669	PAT %s
+M670	INS %s %s
+M671	OCT %d REDIĢĒT %s
+M672	SEKOT %s
+M673	ATSKAŅOŠANAS VADĪBA %d/%d PAT %s RINDA %s/%d SPD %s BPM %d F7 STOP
+M674	GATAVS REDIĢĒT %s OKT %d F1 PALĪDZĪBA F5 ATSKAŅOT CTRL-S SAGLABĀT
+M675	%s
+M676	F5 Atskaņojiet dziesmu no pašreizējā secības
+M677	F6 Atskaņojiet pašreizējo shēmu
+M678	F7/Ctrl-C Apturēt atskaņošanu
+M679	Space Play / stop
+M680	F4 Saglabāt kā
+M681	Ctrl-S Saglabāt (prasa vārdu, ja jauns)
+M682	Ctrl-O Atveriet dziesmu
+M683	Ctrl-N Jauna dziesma
+M684	F12 Iziet (apstiprinājums, ja tiek mainīts)
+M685	[ ] Iepriekšējais/nākamais pasūtījuma ieraksts
+M686	{ } Ievietojiet/dzēsiet pasūtījuma ierakstu
+M687	- + Mainiet rakstu ierakstā
+M688	F11 Sekot atskaņošanai (izslēdzas manuāli pārvietojot)
+M689	F1 palīdzība; Pa kreisi/pa labi maina lapu
+M690	F8 Pārslēgt rediģēšanas režīmu
+M691	Bultiņas Pārvietojiet kursoru
+M692	PgUp/PgDn Pārlēkt 16 rindas
+M693	Sākums/Beigas Pirmā / pēdējā rinda
+M694	F9/F10 Oktāva uz leju/uz augšu
+M695	Z S X D C V G B H N J M apakšējā klavieru rinda
+M696	Q 2 W 3 E R 5 T 6 Y 7 U augšējā klavieru rinda
+M697	1 Piezīme izslēgta
+M698	0 / Del 0 notīra note/inst/fx; Del notīra jebkuru
+M699	Ctrl-Z Atsaukt pēdējo modeļa/pasūtījuma rediģēšanu
+M700	Axy Volume slaids: uz augšu x, uz leju y
+M701	Cxx Piezīme izgriezta pēc xx atzīmēm
+M702	Dxx Iestatīt skaļumu (00..7F)
+M703	Fxx ātrums, ja xx < 20, pretējā gadījumā BPM
+M704	Hxy Arpeggio x, y pustoņi
+M705	Pxx Pitch slaids uz augšu
+M706	Qxx Nobīde uz leju
+M707	F2 dziesmu iestatījumi, F3 instrumentu saraksts
+M708	PALĪDZĪBA %d/2
+M709	Nosaukums
+M710	[%s_]
+M711	BPM: %d (pa kreisi/pa labi -1/+1, -/+ -5/+5)
+M712	Ātrums: %d ērces/rinda
+M713	Rindas: %d (fiksēta)
+M714	Pasūtījums: %d ieraksti
+M715	Izmantotie modeļi: %d
+M716	# NOSAUKUMS WAVE A D S R VOL
+M717	%c %d %-9s %-9s %3d %3d %3d %3d %4d
+M718	Pašreizējais instruments: %s %s
+M719	%s
+M720	REŽ. %s
+M721	%c %s%s
+M722	Faili: %d
+M723	%02d
+M724	%03d
+M725	%02X
+M726	SGNO TRACKER: nesaderīgs SGX ABI
+M727	S: pārbaudiet: pagaidiet — fails tiek lasīts vai rakstīts
+M728	S: pārbaudiet: disks ir aizņemts vai nav gatavs
+M729	nekas šim vienumam (ContextMenu.cfg)
+M730	slikta komanda ContextMenu.cfg
+M731	nezināma darbība ContextMenu.cfg
+M732	izvēlne
+M733	izvēlieties failu vai mapi
+M734	šo disku nevar ierakstīt
+M735	arhīva darbs jau darbojas
+M736	nav PSRAM arhīva uzdevumam
+M737	nevarēja sākt arhivēšanas uzdevumu
+M738	pārāk daudz preču (ne vairāk kā 32)
+M739	nav ko saspiest
+M740	nav vārda (vai vārdam ir / vai \\)
+M741	Ne vairāk kā 32 vienumi (atzīmējiet mazāk vai ievietojiet tos mapē)
+M742	arhīvs
+M743	saspiest
+M744	renderēt
+N001	5 Makro
+N002	6 Palīdzība
+N003	Palaidiet strāvu
+N004	Palaidiet makro kursorā (#! galvenes šūna un šūnas zem tā)
+N005	Palaist atlasi
+N006	Palaidiet atlasītās šūnas kā vienu makro (augšējā kreisā šūna ir #! galvene)
+N007	Palaist visu
+N008	Palaidiet katru lapas makro no augšas no kreisās puses uz apakšējo labo
+N009	Pēdējā kļūda
+N010	Rādīt pēdējo makro kļūdu
+N011	Makro
+N012	Makro: palaidiet #!ruby / #!python / #!pamata šūnas
+N013	Rediģēt šūnu (F2)
+N014	Pielāgojiet platumu/augstumu saturam
+N015	Pēdējā makro kļūda
+N016	Nav makro kļūdu.
+N017	IME ieslēgts
+N018	IME izslēgts
+N019	Makro: %s %s ...
+N020	%s: šī programmaparatūra nevar palaist makro (SGX ABI 5.10 vai jaunāka versija)
+N021	Makro kļūda: %s
+N022	Makro: %s Gatavs
+N023	makro jau darbojas
+N024	šī valoda nav pieejama
+N025	nepietiek atmiņas
+N026	makro apstājās ar kļūdu
+N027	Makro kļūda %s: %s
+N028	Makro: nepietiek atmiņas
+N029	Makro: kursors neatrodas uz makro (#!ruby / #!python / #!pamata šūna vai šūnas zem tā)
+N030	Makro: lapā nav makro
+N031	Palaist visus makro
+N032	Makro: %d. Vai palaist tos visus — no augšējās kreisās puses uz apakšējo labo pusi? Izmaiņas nevar atsaukt.
+N033	Makro: %d no %d pabeigts
+N034	Iztīrīja šūnu
+N035	Notīrīta atlase
+N036	Fona krāsa = %d
+N037	Teksta krāsa = %d
+N038	Grafiks: līnija
+N039	Grafiks: josla
+N040	Grafiks: jaukts
+N041	Grafiks: pīrāgs
+N042	Eksportēts %s

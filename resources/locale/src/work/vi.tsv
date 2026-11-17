@@ -1,0 +1,342 @@
+# Tiếng Việt (vi) — UI. Machine translation, unreviewed (2026-11-16)
+U001	Danh sách (tệp và thư mục, 2 cột x 19 dòng)
+U002	Di chuyển con trỏ (trái / phải: cột bên kia)
+U003	Trang trước / trang sau
+U004	Đánh dấu tất cả / đảo dấu (như PC-98 FD)
+U005	Đầu / cuối
+U006	Đánh dấu rồi đi tiếp / chỉ đánh dấu
+U007	Shift+mũi tên
+U008	Chọn một vùng (Space đánh dấu vùng)
+U009	Vào thư mục / mở tệp (F2/X chạy)
+U010	Lên thư mục cha
+U011	Chọn ổ đĩa (USB, đĩa mềm, CD, S: tích hợp)
+U012	Sao chép (Shift+C / Shift+F3 chọn đích từ cây)
+U013	Di chuyển
+U014	Xóa (Shift+D / Shift+F4 xóa thư mục)
+U015	Đổi tên
+U016	Đổi thuộc tính
+U017	Mở trong trình soạn thảo
+U018	Xem dạng văn bản (Shift+V / Ctrl+Alt+F7 hex)
+U019	Thông tin ổ đĩa
+U020	Thư mục mới / tệp mới
+U021	Shell sgsh / đẩy đĩa ra
+U022	Tải lại
+U023	Lưu màn hình thành PNG
+U024	Đóng cửa sổ / bỏ chọn (trong thư mục con: lên trên)
+U025	Thao tác tệp (như FD: dấu, rồi vùng, rồi con trỏ)
+U026	Sao chép: chọn đích từ cây ổ đĩa và thư mục. ESC để dừng
+U027	Xóa: xác nhận bằng y. Dấu và vùng cùng lúc. Thư mục kèm nội dung
+U028	Xóa thư mục (kèm nội dung)
+U029	Đổi tên (sửa tên, Enter)
+U030	Thuộc tính: R chỉ đọc, H ẩn, S hệ thống, A lưu trữ
+U031	Thư mục mới
+U032	Tệp mới (rỗng)
+U033	Xem dạng văn bản (Shift+V / Ctrl+Alt+F7 hex)
+U034	Shell sgsh (exit / Ctrl-D về trình quản lý tệp)
+U035	Nhận dạng ổ đĩa (INQUIRY, IDENTIFY)
+U036	Đẩy đĩa FDD / LS-120 / CD ra
+U037	Tải lại danh sách (CD: từ TOC)
+U038	Nhận từ PC bằng ZMODEM (zm.sh put)
+U039	Gửi sang PC bằng ZMODEM (zm.sh get)
+U040	Biên dịch .rb và ghi .mrb
+U041	REPL Ruby (từng dòng, Ctrl-D / ESC để kết thúc)
+U042	REPL MicroPython
+U043	Chia thành phần 4 MB / ghép từ .001
+U044	Chia / ghép (giống Ctrl+F11 / F12)
+U045	Màn hình (Alt+F, không trùng phím F của FD)
+U046	Hiện / ẩn FB (hình) / văn bản
+U047	Trang hiển thị FB (0-3)
+U048	Xóa FB về 0 / giảm nửa độ sáng (RGB555)
+U049	Điểm cuối USB và trạng thái LAN
+U050	Xóa trang hiển thị FB / giảm nửa độ sáng
+U051	Mẫu thuộc tính văn bản
+U052	EDID màn hình (đọc khi khởi động)
+U053	Giấy phép và ghi công ROM phông chữ
+U054	Cài đặt (ngôn ngữ hiển thị, IME và bố cục bàn phím)
+U055	Đồng hồ (giờ Nhật theo NTP; s đồng bộ ngay)
+U056	Mở bảng tính (SGCALC)
+U057	Kiểm tra lỗi S: (hỏi trước khi sửa)
+U058	Mở TRACKER
+U059	Khởi động lại (hỏi trước)
+U060	Phát đầu vào stereo ADC (GP40 / 41)
+U061	Xuất VGM/VGZ ra WAV 96 kHz / 24 bit
+U062	Trợ giúp này
+U063	Đổi trang
+U064	Đóng
+U065	Trình xem văn bản / hex (giống less)
+U066	Một dòng
+U067	Một trang
+U068	Nửa trang
+U069	Tìm (xuôi / ngược) / tiếp / trước
+U070	Về danh sách (F1: trợ giúp trình xem)
+U071	Trình xem ảnh
+U072	Về danh sách (F2 F3 F6 F7 Shift+F2 F3 dùng được)
+U073	Trình soạn thảo (E / Shift+F8)
+U074	Lưu (UTF-8; giữ kiểu xuống dòng và BOM)
+U075	Đóng (nếu đã sửa: Y / N / ESC)
+U076	Chèn / ghi đè
+U077	Bật/tắt IME (Nhật / Anh / Hàn)
+U078	Ngôn ngữ IME (Nhật / Anh / Hàn)
+U079	Xác nhận thành hiragana / katakana
+U080	Trợ giúp của trình soạn thảo
+U081	Shell
+U082	Shell (tập con của csh. exit / Ctrl-D để quay lại, help liệt kê lệnh)
+U083	Danh sách và di chuyển
+U084	Thao tác tệp
+U085	Màn hình và thiết bị
+U086	Trình xem và trình soạn thảo
+U087	Trợ giúp  %u / %u  %s
+U088	Trái Phải: đổi trang    F1 / ESC: đóng
+U089	Khởi động lại sgnano?
+U090	[ Khởi động lại ]
+U091	[ Hủy ]
+U092	Kiểm tra lỗi ổ S:
+U093	Tệp %lu  thư mục %lu
+U094	Kích thước không khớp với chuỗi
+U095	Cụm không được dùng bởi gì cả
+U096	Cụm bị liên kết chéo
+U097	Mục bị hỏng
+U098	Hai bản FAT khác nhau
+U099	Không có lỗi.
+U100	Đã tìm thấy lỗi. Sửa chúng?
+U101	Đã sửa (các số ở trên đã được sửa).
+U102	Không thể kiểm tra hoặc sửa (S: đang bận).
+U103	[ Sửa ]
+U104	[ Hủy ]
+U105	Nhấn phím bất kỳ để đóng
+U106	Cài đặt
+U107	Ngôn ngữ hiển thị
+U108	Bố cục bàn phím
+U109	Lên / Xuống  Enter chọn  ESC hủy
+U110	Ngôn ngữ hiển thị
+U111	Lên / Xuống  Enter: đặt  ESC: quay lại
+U112	Cố định %c: thành chữ nào? (A-Z trừ S. ESC hủy)
+U113	Ổ đĩa  chữ / Enter chọn  F2 cố định/bỏ  F3 cố định thành...  L / ESC hủy
+U114	  phân vùng %u
+U115	%c:* (cố định, chưa kết nối) %04X:%04X%s  %s
+U116	Thông báo
+U117	Ổ %c:  %s
+U118	Ổ đĩa  (không có)
+U119	CD âm thanh  %u bài
+U120	Thư mục %u  tệp %u  tổng %s
+U121	Đang đọc...
+U122	* đã đánh dấu %u  %s
+U123	%lu byte
+U124	Thuộc tính %s   sửa %s   tạo %s   %s
+U125	CN
+U126	T2
+U127	T3
+U128	T4
+U129	T5
+U130	T6
+U131	T7
+U132	Đồng hồ chưa được đặt (NTP qua LAN)
+U133	FB  hiển thị %u  ghi %u
+U134	1 Giúp
+U135	2 Chạy
+U136	3 Chép
+U137	4 Xóa
+U138	5 ĐổiTên
+U139	7 XóaFB
+U140	8 MờFB
+U141	9 Ổđĩa
+U142	10 EP
+U143	11 Giờ
+U144	12 CALC
+U145	1 T.tính
+U146	2 T.tin
+U147	3 Dời
+U148	5 T.mục
+U149	6 Shell
+U150	8 Sửa
+U151	9 Xem
+U152	10 S:kt
+U153	11 TRACK
+U154	12 K.lại
+U155	1 Mới
+U156	2 T.mục
+U157	3 ĐổiTên
+U158	4 T.tính
+U159	6 Chép
+U160	7 Dời
+U161	8 Xóa
+U162	9 Sửa
+U163	10 mrbc
+U164	11 Chia
+U165	12 Ghép
+U166	1 T.tính
+U167	2 FB
+U168	3 Chữ
+U169	5 Chụp
+U170	6 TrangH
+U171	9 ZMnhận
+U172	10 ZMgửi
+U173	2 XóaFB
+U174	3 MờFB
+U175	5 Tảilại
+U176	7 Hex
+U177	9 G.phép
+U178	11 C.đặt
+U179	Đặt đồng hồ (giờ Nhật. NTP không đặt được)
+U180	Chạy với tham số
+U181	Thư mục mới
+U182	Tệp mới
+U183	Giờ:
+U184	Chạy:
+U185	Tên:
+U186	YYYY-MM-DD hh:mm  Enter đặt  ESC giữ nguyên
+U187	Enter chạy  <-> di chuyển  BS / Del xóa  ESC hủy
+U188	Enter đổi tên  <-> di chuyển  BS / Del xóa  ESC hủy
+U189	Enter tạo  <-> di chuyển  BS / Del xóa  ESC hủy
+U190	Xóa
+U191	 mục
+U192	Thư mục sẽ bị xóa kèm nội dung. Bạn chắc chứ?
+U193	Xóa tệp này?
+U194	(Không thể hoàn tác. Các tệp trong thư mục cũng bị xóa)
+U195	[ Có (Y) ]
+U196	[ Không (N) ]
+U197	trình xem hex: chọn một tệp
+U198	trình xem văn bản: chọn một tệp
+U199	Di chuyển đến
+U200	Sao chép đến
+U201	Bộ đệm đã đầy
+U202	Ổ đĩa chỉ đọc
+U203	Không thể lưu (không có trình ghi)
+U204	Không thể bắt đầu lưu (ổ đĩa bận?)
+U205	Đang lưu...
+U206	2 Lưu
+U207	5 Màu
+U208	6 Hira
+U209	7 Kata
+U210	8 Đoán
+U211	10 Thoát
+U212	1 Đầu
+U213	2 Cuối
+U214	3 Chèn
+U215	4 T.điển
+U216	6 HHira
+U217	7 HKata
+U218	 %s  %s  Dòng %lu/%lu Cột %u  %s  %s %s%s%s
+U219	*đã sửa
+U220	ĐÈ
+U221	CHÈN
+U222	  Chỉ đọc
+U223	 Trình soạn thảo (sgnano edit)               F1 / ESC đóng
+U224	 Mũi tên / Home End / PgUp PgDn  di chuyển con trỏ
+U225	 Ctrl-T / Ctrl-B               đầu / cuối tệp
+U226	 BS / Del                      xóa trước / tại con trỏ
+U227	 Enter                         dòng mới (giữ thụt lề)
+U228	 Tab / Ins                     tab / chèn hoặc ghi đè
+U229	 F5                            Tô màu (theo đuôi tệp; C/C++, mruby, MicroPython, SG BASIC, không)
+U230	 F2  (Ctrl-S)                  lưu (UTF-8, giữ kiểu xuống dòng)
+U231	 F10 / ESC                     đóng (hỏi nếu đã sửa)
+U232	 IME:  Ctrl-Space / F12        bật / tắt (あ / A)
+U233	       F9                      ngôn ngữ IME (chỉ trình soạn thảo này; khôi phục khi đóng)
+U234	       F8 Bật/tắt chuyển đổi dự đoán tiếng Nhật
+U235	       Tiếng Nhật              romaji -> hiragana (F6) / katakana (F7)
+U236	                               Hiragana nửa độ rộng (Shift+F6) / katakana nửa độ rộng (Shift+F7)
+U237	                               Dự đoán từ 2 ký tự trở lên, chuyển đổi liên mệnh đề bằng Space
+U238	       Tiếng Anh: tự hoàn thành dự đoán từ 2 ký tự trở lên
+U239	       한국어 Hangul kiểu 2 bộ
+U240	       Space / Enter Chuyển đổi / Xác nhận
+U241	       ← → Chọn một cụm
+U242	       Shift+← → Co/giãn đầu phải của cụm một ký tự (ứng viên mới)
+U243	       ↑ ↓ / Tab               Ứng viên trước / sau trong cửa sổ (dưới dòng chữ, gần đáy thì ở trên)
+U244	       Enter trên →→→          Tất cả ứng viên (2 x 8, ← → cột và trang, Enter chọn)
+U245	       Enter                   Cụm tiếp theo (ở cụm cuối thì xác nhận toàn bộ)
+U246	       Ctrl-U Thêm từ hiện tại vào từ điển người dùng
+U247	 Shift+F1 / F2 / F3 / F4       Đầu / cuối / chèn-ghi đè / vào từ điển người dùng
+U248	       BS / ESC Lùi một ký tự / Hủy
+U249	       , . - [ ] /             、 。 ー 「 」 ・
+U250	Đã sửa  Y: lưu và đóng  N: đóng không lưu  ESC: quay lại
+U251	[Dự đoán] Tab/↑↓: ứng viên  Space: chuyển  Esc: hủy
+U252	[Ứng viên] ↑↓: chọn  ←→: cột/trang  Enter: lấy
+U253	[Chuyển] ↑↓ứng viên ←→cụm Shift+←→ranh Enter tiếp
+U254	[한국어] Tab/↑↓: ứng viên  Enter/Space: xác nhận
+U255	[English] Tab/↑↓: ứng viên  Enter: xác nhận
+U256	Nhập Hangul 2 bộ  Ctrl-Space: chữ và số
+U257	Tự hoàn thành dự đoán  Ctrl-Space: nhập trực tiếp
+U258	Không có từ điển: chỉ hiragana/katakana  F6/F7
+U259	Space: chuyển  F7: katakana  Ctrl-Space: chữ và số
+U260	Space: chuyển  F6: hiragana  Ctrl-Space: chữ và số
+U261	Nửa rộng  F6: hiragana  F7: katakana  Shift+F6/F7: nửa rộng
+U262	IME tắt
+U263	 dự đoán
+U264	Chuyển đổi dự đoán tiếng Nhật: Bật
+U265	Chuyển đổi dự đoán tiếng Nhật: Tắt
+U266	Dùng với IME tiếng Nhật
+U267	Không thể thêm vào từ điển người dùng
+U268	Tô màu: %s
+U269	Đang tải...
+U270	Không thể đọc tệp
+U271	%lu dòng%s%s
+U272	  đã mở Shift_JIS dạng UTF-8 (lưu dạng UTF-8)
+U273	  chỉ đọc
+U274	Đã lưu
+U275	Không thể lưu (ghi thất bại)
+U276	Ứng viên
+U277	7 TrangG
+U278	9 Chữ
+U279	9 Hex
+U280	Đang tải %lu%%
+U281	(chỉ phần đầu)
+U282	Hex  q ESC: quay lại  F1: trợ giúp
+U283	Văn bản  q ESC: quay lại  F1: trợ giúp
+U284	Phím trình xem (giống less; như nhau cho văn bản và hex)
+U285	Xuống một dòng
+U286	Lên một dòng
+U287	Xuống một trang
+U288	Lên một trang
+U289	Xuống / lên nửa trang
+U290	/văn bản  ?văn bản
+U291	Tìm xuống / lên (không phân biệt hoa thường)
+U292	Kết quả tiếp / trước
+U293	Hiện dạng hex (tại cùng chỗ)
+U294	Hiện dạng văn bản (tại cùng chỗ)
+U295	Đổi cách tô màu (C/C++, mruby, MicroPython, SG BASIC, không)
+U296	Hiện / ẩn FB / văn bản
+U297	Trang hiển thị / trang ghi FB
+U298	Về trình quản lý tệp
+U299	Đóng trợ giúp này
+U300	Sao chép
+U301	 %s: đang đọc các thư mục... %u
+U302	 %s: đang đếm dung lượng trống ở đích...
+U303	 %s: không đủ dung lượng trống ở đích
+U304	 Di chuyển: đang xóa các thư mục nguồn
+U305	Xong
+U306	Đã dừng
+U307	 %s đang chạy%s
+U308	 (đang dừng)
+U309	 Từ: %s
+U310	 Đến: %s
+U311	 Tệp %u / %u  thư mục %u  %s / %s  (%u%%)%s
+U312	  quá nhiều: chỉ một phần
+U313	 Cần %s, trống %s. Tiếp tục?
+U314	 Y: tiếp tục   N / ESC: hủy
+U315	 Nhấn phím bất kỳ để đóng
+U316	 ESC: dừng
+U317	 %s: ←→ ổ đĩa  ↑↓ thư mục  Space mở/đóng  Enter chọn  ESC hủy
+U318	 Không đọc được: %s
+U319	 Đang đọc các thư mục... (ESC dừng)  %u
+U320	 %u thư mục%s
+U321	 (quá nhiều hoặc quá sâu: chỉ một phần)
+U322	Đã dừng mở thư mục
+U323	Space mở lại. ESC lần nữa để hủy
+U324	 Trình phát SMF / SGT   %s
+U325	 Đang tải... %lu / %lu byte
+U326	 %s / %s   %s   cổng %u
+U327	Tạm dừng
+U328	Đang phát
+U329	 Space: tạm dừng  m: MIDI OUT  q / ESC: dừng
+U330	 q / ESC: hủy
+U331	Giấy phép và ghi công ROM phông chữ\n\nROM: %s (phiên bản %lu.%lu, %lu ký tự, từ 0x%08lX trong flash)\n\n
+U332	== Phông chữ trong ROM (bảng nguồn gốc của ROM) ==\n
+U333	  (ROM không có bảng)\n
+U334	\n== Vùng ghi công của ROM ==\n\n
+U335	(không có vùng này)\n
+U336	\n== Giấy phép của phần mềm tích hợp ==\n
+U337	 Đang lưu %s dạng PNG   %s
+U338	Màn hình
+U339	 Đang dựng... %lu / %lu dòng
+U340	 Đang ghi... %lu / %lu KB (FB bị ẩn)
+U341	Không thể ghi

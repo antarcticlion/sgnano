@@ -1,0 +1,995 @@
+# Afaan Oromoo (om) — UI and messages. Machine translation, unreviewed (2026-11-16)
+U001	Tarree (faayiloota fi kuusaalee utubaa 2 x sararoota 19)
+U002	Kursara socho'i (bita / mirga: utubaa isa kaan)
+U003	Fuula duraa / fuula itti aanu
+U004	Hunda mallatteessi / mallattoo garagalchi (akka PC-98 FD)
+U005	Jalqaba / dhuma
+U006	Mallatteessii itti fufi / mallatteessi qofa
+U007	Shift+xiyyaa
+U008	Naannoo filadhu (Space naannoo mallatteessa)
+U009	Kuusaa seeni / faayilii bani (F2/X hojjechiisi)
+U010	Gara kuusaa haadhaatti ol bahi
+U011	Dirree filadhu (USB, floppy, CD, S: keessaa)
+U012	Garagalchi (Shift+C / Shift+F3 iddoo itti geessu muka irraa filadhu)
+U013	Socho'i
+U014	Haqi (Shift+D / Shift+F4 kuusaa haqi)
+U015	Maqaa jijjiiri
+U016	Amala jijjiiri
+U017	Gulaalaa keessatti bani
+U018	Akka barreeffamaatti ilaali (Shift+V / Ctrl+Alt+F7 hex)
+U019	Odeeffannoo dirree
+U020	Kuusaa haaraa / faayilii haaraa
+U021	Shell sgsh / diskii baasi
+U022	Irra deebi'ii fe'i
+U023	Iskiriinii akka PNG kuusi
+U024	Foddaa cufi / filannoo haqi (kuusaa xiqqaa keessatti: ol bahi)
+U025	Hojii faayilii (akka FD: mallattoo, achiis naannoo, achiis kursara)
+U026	Garagalchi: iddoo itti geessu muka dirree fi kuusaa irraa filadhu. ESC dhaabsisa
+U027	Haqi: y'n mirkaneessi. Mallattoo fi naannoo walfaana. Kuusaalee qabiyyee isaanii waliin
+U028	Kuusaa haqi (qabiyyee isaa waliin)
+U029	Maqaa jijjiiri (maqaa gulaali, Enter)
+U030	Amala: R dubbisuu qofa, H dhokataa, S sirna, A kuusaa
+U031	Kuusaa haaraa
+U032	Faayilii haaraa (duwwaa)
+U033	Akka barreeffamaatti ilaali (Shift+V / Ctrl+Alt+F7 hex)
+U034	Shell sgsh (exit / Ctrl-D gara bulchaa faayiliitti)
+U035	Eenyummaa dirree (INQUIRY, IDENTIFY)
+U036	Diskii FDD / LS-120 / CD baasi
+U037	Tarree irra deebi'ii fe'i (CD: TOC irraa)
+U038	PC irraa ZMODEM'n fudhadhu (zm.sh put)
+U039	Gara PC ZMODEM'n ergi (zm.sh get)
+U040	.rb walitti qabii .mrb barreessi
+U041	REPL Ruby (sarara tokko tokko, Ctrl-D / ESC xumuruuf)
+U042	REPL MicroPython
+U043	Kutaa MB 4 tti qoodi / .001 irraa walitti qabi
+U044	Qoodi / walitti qabi (akkuma Ctrl+F11 / F12)
+U045	Iskiriinii (Alt+F, furtuuwwan F kan FD wajjin hin walitti bu'u)
+U046	FB (suuraa) / barreeffama agarsiisi / dhoksi
+U047	Fuula agarsiisaa FB (0-3)
+U048	FB gara 0 qulqulleessi / ifa walakkaa hir'isi (RGB555)
+U049	Qabxiiwwan dhumaa USB fi haala LAN
+U050	Fuula agarsiisaa FB qulqulleessi / ifa walakkaa hir'isi
+U051	Fakkeenya amala barreeffamaa
+U052	EDID iskiriinii (yeroo jalqabaa dubbifame)
+U053	Hayyama fi galata ROM qubee
+U054	Qindaa'ina (afaan agarsiisaa, IME fi qindaa'ina furtuu)
+U055	Sa'aatii (yeroo Jaappaan NTP'n; s amma walsimsiisa)
+U056	Waraqaa herregaa bani (SGCALC)
+U057	Dogoggora S: sakatta'i (sirreessuun dura gaafata)
+U058	TRACKER bani
+U059	Irra deebi'ii kaasi (dura gaafata)
+U060	Galtee isteeriyoo ADC taphachiisi (GP40 / 41)
+U061	VGM/VGZ gara WAV kHz 96 / bit 24 baasi
+U062	Gargaarsa kana
+U063	Fuula jijjiiri
+U064	Cufi
+U065	Ilaalaa barreeffamaa / hex (akka less)
+U066	Sarara tokko
+U067	Fuula tokko
+U068	Walakkaa fuulaa
+U069	Barbaadi (gara fuulaa / duubaa) / itti aanu / duraa
+U070	Gara tarreetti deebi'i (F1: gargaarsa ilaalaa)
+U071	Ilaalaa suuraa
+U072	Gara tarreetti deebi'i (F2 F3 F6 F7 Shift+F2 F3 ni hojjetu)
+U073	Gulaalaa (E / Shift+F8)
+U074	Kuusi (UTF-8; dhuma sararaa fi BOM ni turu)
+U075	Cufi (yoo jijjiirame: Y / N / ESC)
+U076	Galchi / irratti barreessi
+U077	IME banuu/cufuu (Jaappaan / Ingiliffaa / Kooriyaa)
+U078	Afaan IME (Jaappaan / Ingiliffaa / Kooriyaa)
+U079	Akka hiragana / katakana mirkaneessi
+U080	Gargaarsa gulaalaa
+U081	Shell
+U082	Shell (kutaa csh. exit / Ctrl-D deebi'uuf, help ajaja tarreessa)
+U083	Tarree fi sochii
+U084	Hojii faayilii
+U085	Iskiriinii fi meeshaalee
+U086	Ilaaltota fi gulaalaa
+U087	Gargaarsa  %u / %u  %s
+U088	Bita Mirga: fuula jijjiiri    F1 / ESC: cufi
+U089	sgnano irra deebi'ii kaasuu?
+U090	[ Irra deebi'ii kaasi ]
+U091	[ Haqi ]
+U092	Dogoggora dirree S: sakatta'i
+U093	Faayiloota %lu  kuusaalee %lu
+U094	Hammi sansalataa wajjin wal hin simu
+U095	Kilaastarii homaa hin fayyadamne
+U096	Kilaastarii qaxxaamuraan walitti hidhaman
+U097	Galmeewwan diigaman
+U098	Garagalchi FAT lamaan garaagarummaa qabu
+U099	Dogoggorri hin jiru.
+U100	Dogoggorri argame. Haa sirraa'u?
+U101	Sirraa'eera (lakkoofsonni olii sirreeffamaniiru).
+U102	Sakatta'uu ykn sirreessuu hin dandeenye (S: hojii irra jira).
+U103	[ Sirreessi ]
+U104	[ Haqi ]
+U105	Furtuun kamiyyuu ni cufa
+U106	Qindaa'ina
+U107	Afaan agarsiisaa
+U108	Qindaa'ina furtuu
+U109	Ol / Gad  Enter filadhu  ESC haqi
+U110	Afaan agarsiisaa
+U111	Ol / Gad  Enter: kaa'i  ESC: deebi'i
+U112	%c: akka qubee kamiitti haa dhaabbatu? (A-Z S malee. ESC haqa)
+U113	Dirree  qubee / Enter filadhu  F2 dhaabi/hiiki  F3 akka...tti dhaabi  L / ESC haqi
+U114	  qooda %u
+U115	%c:* (dhaabbate, hin walqabanne) %04X:%04X%s  %s
+U116	Beeksisa
+U117	Dirree %c:  %s
+U118	Dirree  (hin jiru)
+U119	CD sagalee  sirboota %u
+U120	Kuusaalee %u  faayiloota %u  waliigala %s
+U121	Dubbisaa jira...
+U122	* mallatteeffaman %u  %s
+U123	baayitii %lu
+U124	Amala %s   jijjiirame %s   uumame %s   %s
+U125	Dil
+U126	Wix
+U127	Kib
+U128	Roo
+U129	Kam
+U130	Jim
+U131	San
+U132	Sa'aatiin hin qindoofne (NTP LAN irratti)
+U133	FB  agarsiisa %u  barreessuu %u
+U134	1 Garg
+U135	2 Hojji
+U136	3 Garag
+U137	4 Haqi
+U138	5 Maqaa
+U139	7 HaqiFB
+U140	8 IfaFB
+U141	9 Dirree
+U142	10 EP
+U143	11 Sa'a
+U144	12 CALC
+U145	1 Amala
+U146	2 Odeef
+U147	3 Socho
+U148	5 Kuusaa
+U149	6 Shell
+U150	8 Gulaal
+U151	9 Ilaal
+U152	10 S:sak
+U153	11 TRACK
+U154	12 Kaasi
+U155	1 Haaraa
+U156	2 Kuusaa
+U157	3 Maqaa
+U158	4 Amala
+U159	6 Garag
+U160	7 Socho
+U161	8 Haqi
+U162	9 Gulaal
+U163	10 mrbc
+U164	11 Qoodi
+U165	12 Walq
+U166	1 Amala
+U167	2 FB
+U168	3 Barr
+U169	5 Suuraa
+U170	6 Fuula
+U171	9 ZMfud
+U172	10 ZMerg
+U173	2 HaqiFB
+U174	3 IfaFB
+U175	5 Deebi
+U176	7 Hex
+U177	9 Hayy
+U178	11 Qind
+U179	Sa'aatii qindeessi (yeroo Jaappaan. NTP qindeessuu hin dandeenye)
+U180	Paaraameetiriin hojjechiisi
+U181	Kuusaa haaraa
+U182	Faayilii haaraa
+U183	Yeroo:
+U184	Hojji:
+U185	Maqaa:
+U186	YYYY-MM-DD hh:mm  Enter kaa'i  ESC akkuma jirutti
+U187	Enter hojjechiisi  <-> socho'i  BS / Del haqi  ESC haqi
+U188	Enter maqaa jijjiiri  <-> socho'i  BS / Del haqi  ESC haqi
+U189	Enter uumi  <-> socho'i  BS / Del haqi  ESC haqi
+U190	Haqi
+U191	 wantoota
+U192	Kuusaaleen qabiyyee isaanii waliin ni haqamu. Mirkanaa'aa?
+U193	Faayilii kana haqi?
+U194	(Kun deebi'uu hin danda'u. Faayiloonni kuusaa keessaas ni haqamu)
+U195	[ Eeyyee (Y) ]
+U196	[ Lakki (N) ]
+U197	ilaalaa hex: faayilii filadhu
+U198	ilaalaa barreeffamaa: faayilii filadhu
+U199	Gara socho'i
+U200	Gara garagalchi
+U201	Kuusaan yeroo guutameera
+U202	Dirreen dubbisuu qofa
+U203	Kuusuu hin danda'u (barreessaan hin jiru)
+U204	Kuusuu jalqabuu hin dandeenye (dirreen hojii irra?)
+U205	Kuusaa jira...
+U206	2 Kuusi
+U207	5 Halluu
+U208	6 Hira
+U209	7 Kata
+U210	8 Raaga
+U211	10 Ba'i
+U212	1 Olii
+U213	2 Dhuma
+U214	3 Galchi
+U215	4 Galm
+U216	6 HHira
+U217	7 HKata
+U218	 %s  %s  Sar %lu/%lu Utu %u  %s  %s %s%s%s
+U219	*jijjiir
+U220	IRRA
+U221	GALCHI
+U222	  Dubbisuu qofa
+U223	 Gulaalaa (sgnano edit)                      F1 / ESC ni cufa
+U224	 Xiyyaa / Home End / PgUp PgDn  kursara socho'i
+U225	 Ctrl-T / Ctrl-B               jalqaba / dhuma faayilii
+U226	 BS / Del                      dura / kursara irratti haqi
+U227	 Enter                         sarara haaraa (seensa eega)
+U228	 Tab / Ins                     tab / galchi ykn irratti barreessi
+U229	 F5                            Halluu (dheerina irraa; C/C++, mruby, MicroPython, SG BASIC, hin jiru)
+U230	 F2  (Ctrl-S)                  kuusi (UTF-8, dhuma sararaa ni turu)
+U231	 F10 / ESC                     cufi (yoo jijjiirame gaafata)
+U232	 IME:  Ctrl-Space / F12        bani / cufi (あ / A)
+U233	       F9                      afaan IME (gulaalaa kana qofa; yeroo cufamu deebi'a)
+U234	       F8 Jijjiirraa raagaa Jaappaanii banuu/cufuu
+U235	       Jaappaanii              romaji -> hiragana (F6) / katakana (F7)
+U236	                               Hiragana bal'ina walakkaa (Shift+F6) / katakana bal'ina walakkaa (Shift+F7)
+U237	                               Qubee 2 fi isaa ol irraa raagi, keewwattoota walitti aanan Space'n jijjiiri
+U238	       Ingiliffaa: xumura raagaa qubee 2 fi isaa ol irraa
+U239	       한국어 Hangul qindaa'ina 2
+U240	       Space / Enter Jijjiiri / Mirkaneessi
+U241	       ← → Keewwata filadhu
+U242	       Shift+← → Dhuma mirgaa keewwataa qubee tokkoon gabaabsi/dheeressi (filannoo haaraa)
+U243	       ↑ ↓ / Tab               Filannoo duraa / itti aanu foddaa keessatti (barreeffama jala, yoo gadi dhihaate ol)
+U244	       →→→ irratti Enter       Filannoo hunda (2 x 8, ← → utubaa fi fuula, Enter filata)
+U245	       Enter                   Keewwata itti aanu (isa dhumaa irratti hunda mirkaneessa)
+U246	       Ctrl-U Jecha ammaa galmee jechootaa fayyadamaatti dabaluu
+U247	 Shift+F1 / F2 / F3 / F4       Jalqaba / dhuma / galchi-irratti / galmee fayyadamaatti
+U248	       BS / ESC Qubee tokko duubatti / Haqi
+U249	       , . - [ ] /             、 。 ー 「 」 ・
+U250	Jijjiirame  Y: kuusii cufi  N: osoo hin kuusin cufi  ESC: deebi'i
+U251	[Raaga] Tab/↑↓: filannoo  Space: jijjiiri  Esc: haqi
+U252	[Filannoo] ↑↓: filadhu  ←→: utubaa/fuula  Enter: fudhadhu
+U253	[Jijjiiri] ↑↓filannoo ←→keewwata Shift+←→daangaa Enter itti
+U254	[한국어] Tab/↑↓: filannoo  Enter/Space: mirkaneessi
+U255	[English] Tab/↑↓: filannoo  Enter: mirkaneessi
+U256	Galtee Hangul qindaa'ina 2  Ctrl-Space: qubee fi lakkoofsa
+U257	Xumura raagaa  Ctrl-Space: galtee kallattii
+U258	Galmeen jechootaa hin jiru: hiragana/katakana qofa  F6/F7
+U259	Space: jijjiiri  F7: katakana  Ctrl-Space: qubee fi lakkoofsa
+U260	Space: jijjiiri  F6: hiragana  Ctrl-Space: qubee fi lakkoofsa
+U261	Bal'ina walakkaa  F6: hiragana  F7: katakana  Shift+F6/F7: walakkaa
+U262	IME cufameera
+U263	 raaga
+U264	Jijjiirraa raagaa Jaappaanii: Banaa
+U265	Jijjiirraa raagaa Jaappaanii: Cufaa
+U266	IME Jaappaanii wajjin fayyadami
+U267	Galmee jechootaa fayyadamaatti dabaluu hin danda'u
+U268	Halluu: %s
+U269	Fe'aa jira...
+U270	Faayilii dubbisuu hin dandeenye
+U271	sararoota %lu%s%s
+U272	  Shift_JIS akka UTF-8 banameera (akka UTF-8 kuufama)
+U273	  dubbisuu qofa
+U274	Kuufameera
+U275	Kuusuu hin dandeenye (barreessuun kufe)
+U276	Filannoowwan
+U277	7 FuulB
+U278	9 Barr
+U279	9 Hex
+U280	Fe'aa jira %lu%%
+U281	(jalqaba qofa)
+U282	Hex  q ESC: deebi'i  F1: gargaarsa
+U283	Barreeffama  q ESC: deebi'i  F1: gargaarsa
+U284	Furtuuwwan ilaalaa (akka less; barreeffamaa fi hex'f tokkuma)
+U285	Sarara tokko gadi
+U286	Sarara tokko ol
+U287	Fuula tokko gadi
+U288	Fuula tokko ol
+U289	Walakkaa fuulaa gadi / ol
+U290	/barreeffama  ?barreeffama
+U291	Gadi / ol barbaadi (qubee guddaa fi xiqqaa hin addaan baasu)
+U292	Walsimsiisa itti aanu / duraa
+U293	Akka hex agarsiisi (iddoo walfakkaataa irratti)
+U294	Akka barreeffamaa agarsiisi (iddoo walfakkaataa irratti)
+U295	Halluu jijjiiri (C/C++, mruby, MicroPython, SG BASIC, hin jiru)
+U296	FB / barreeffama agarsiisi / dhoksi
+U297	Fuula agarsiisaa / barreessuu FB
+U298	Gara bulchaa faayiliitti deebi'i
+U299	Gargaarsa kana cufi
+U300	Garagalchi
+U301	 %s: kuusaalee dubbisaa jira... %u
+U302	 %s: bakka duwwaa iddoo itti geessu lakkaa'aa jira...
+U303	 %s: bakki duwwaan iddoo itti geessu irratti hin ga'u
+U304	 Socho'i: kuusaalee madda haqaa jira
+U305	Xumurame
+U306	Dhaabbate
+U307	 %s adeemsa irra jira%s
+U308	 (dhaabbachaa jira)
+U309	 Irraa: %s
+U310	 Gara: %s
+U311	 Faayiloota %u / %u  kuusaalee %u  %s / %s  (%u%%)%s
+U312	  baay'ee: tokko tokko qofa
+U313	 %s barbaachisa, duwwaa %s. Itti fufi?
+U314	 Y: itti fufi   N / ESC: haqi
+U315	 Cufuuf furtuu kamiyyuu tuqi
+U316	 ESC: dhaabi
+U317	 %s: ←→ dirree  ↑↓ kuusaa  Space bani/cufi  Enter filadhu  ESC haqi
+U318	 Dubbisuu hin danda'u: %s
+U319	 Kuusaalee dubbisaa jira... (ESC dhaabsisa)  %u
+U320	 kuusaalee %u%s
+U321	 (baay'ee ykn gadi fagoo: tokko tokko qofa)
+U322	Kuusaa banuun dhaabbate
+U323	Space irra deebi'ee bana. ESC al tokko dabalataan haqa
+U324	 Taphataa SMF / SGT   %s
+U325	 Fe'aa jira... %lu / %lu baayitii
+U326	 %s / %s   %s   karra %u
+U327	Dhaabbate yeroof
+U328	Taphachaa jira
+U329	 Space: yeroof dhaabi  m: MIDI OUT  q / ESC: dhaabi
+U330	 q / ESC: haqi
+U331	Hayyama fi galata ROM qubee\n\nROM: %s (gosa %lu.%lu, qubee %lu, flash keessa 0x%08lX irraa)\n\n
+U332	== Qubeewwan ROM keessa jiran (gabatee madda ROM) ==\n
+U333	  (ROM gabatee hin qabu)\n
+U334	\n== Kutaa galataa ROM ==\n\n
+U335	(kutaan akkasii hin jiru)\n
+U336	\n== Hayyama sooftiweerii keessaa ==\n
+U337	 %s akka PNG kuusaa jira   %s
+U338	Iskiriinii
+U339	 Ijaaraa jira... sararoota %lu / %lu
+U340	 Barreessaa jira... %lu / %lu KB (FB dhokateera)
+U341	Barreessuu hin dandeenye
+M001	dirreen ba'eera
+M002	qoodawwan irra deebi'ee dubbisaa jira...
+M003	bal'ina dirree banuu hin dandeenye (yaadannoon hin gahu?)
+M004	bal'ina dirree banaa jira...
+M005	yaadannoon tarree faayiliitiif hin gahu
+M006	kuusaa dubbisaa jira... (irra deebi'ee yaala)
+M007	kuusaa dubbisuu hin dandeenye
+M008	kuusaa dubbisaa jira...
+M009	dirreen deebii hin kennine -- qoodawwan irra deebi'ee dubbisaa jira
+M010	kuusaa dubbisuu hin dandeenye (FAT12/16/32 miti?)
+M011	galmeewwan baay'ee -- warra jalqabaa agarsiisaa jira
+M012	qooda kana irratti sirni faayilii hin jiru
+M013	karaan baay'ee dheeraa dha
+M014	walitti qabaa jira...
+M015	qoodaa jira...
+M016	maqaa jijjiiraa jira...
+M017	kuusaa uumaa jira...
+M018	faayilii uumaa jira...
+M019	haqaa jira...
+M020	amala barreessaa jira...
+M021	dirreen hojii irra jira
+M022	hojii irra
+M023	faayiloota ykn kuusaalee filadhu
+M024	faayiloota ykn kuusaalee filadhu (".." miti)
+M025	dura CD dhaabi
+M026	CD jijjiiruun hin danda'amu (garagalchi)
+M027	kuusaa sirnaa socho'suun hin danda'amu
+M028	dirreen itti barreeffamu hin jiru (FAT / exFAT / NTFS qofa)
+M029	dirreen hin jiru
+M030	wanti filatame hin jiru
+M031	wanti filatame hin jiru
+M032	jalqabuu hin dandeenye
+M033	banuu hin dandeenye
+M034	dirree FAT / exFAT / NTFS irratti qofa
+M035	maqaan hin jiru
+M036	maqaan sun duraanuu jira
+M037	jalqabuu hin dandeenye (maqaa dogoggoraa ykn dirreen hojii irra)
+M038	jalqabuu hin dandeenye (dirreen hojii irra)
+M039	maqaan / ykn \\ qabaachuu hin danda'u (kuusaa kana keessa qofa)
+M040	maqaan tokkuma
+M041	wanti kun dubbisuu qofa (jijjiiruuf A)
+M042	dirree itti barreeffamu irratti faayilii .rb filadhu
+M043	faayilii .rb filadhu
+M044	dirreen dubbisuu qofa
+M045	dirree itti barreeffamu irratti kuusaa filadhu
+M046	xiqqoo eegi
+M047	faayilii filadhu
+M048	faayilii filadhu (kuusaa miti)
+M049	faayilii .001 filadhu
+M050	faayilii .001 sana filadhu
+M051	IWAD kuusaa DoomFiles ykn Doom2Files keessa kaa'i
+M052	DoomFiles freedoom1 / doom / doomu / doom1.wad fudhata
+M053	Doom2Files freedoom2 / doom2 / plutonia / tnt.wad fudhata
+M054	faayiloota taphaa kuusaa alaa irra kaa'i, S: miti
+M055	IWAD dirree FAT / exFAT / NTFS irra ta'uu qaba (CD miti)
+M056	ammallee hojjechaa jira
+M057	suuraan fe'amaa jira
+M058	framebuffer hin jiru
+M059	ifa walakkaa hir'isuun RGB555 qofaan hojjeta
+M060	qulqulleessaa jira...
+M061	ifa walakkaa hir'isaa jira...
+M062	sun sirba daataa ti
+M063	eegi -- faayiliin barreeffamaa jira
+M064	dirree floppy / LS-120 / CD qofa
+M065	gaafatameera
+M066	diskii dubbisaa jira...
+M067	dhaabbachaa jira...
+M068	banaa jira...
+M069	xumurame
+M070	yaadannoon hin gahu
+M071	duraanuu banaa dha
+M072	duraanuu hojjechaa jira
+M073	duraanuu kuusaa jira
+M074	duraanuu taphachaa jira
+M075	dirreen akkasii hin jiru
+M076	PSRAM hin jiru
+M077	PSRAM faayiliif hin gahu
+M078	PSRAM indeeksii sararaatiif hin gahu
+M079	PSRAM termiinaaliif hin gahu
+M080	yaadannoon hin gahu (PSRAM)
+M081	yaadannoon hin gahu (SRAM 32KB)
+M082	yaadannoon kuusaa yeroof hin gahu
+M083	yaadannoon kuusaa suuraaf hin gahu
+M084	yaadannoon kuusaa dubbisuuf hin gahu
+M085	yaadannoo hojiitiif bakki hin jiru (lowres cufi?)
+M086	fuulli framebuffer hin jiru
+M087	baay'ee guddaa (MB 4 hanga)
+M088	faayiliin baay'ee guddaa (MB 1 hanga)
+M089	faayiliin baay'ee guddaa (MB 1 hanga)
+M090	SMF'f baay'ee guddaa (MB 1 hanga)
+M091	faayiliin duwwaa dha
+M092	faayilii banuu hin dandeenye
+M093	faayilii dubbisuu hin dandeenye
+M094	bal'ina dirree banuu hin dandeenye
+M095	iddoo itti geessu banuu hin dandeenye (yaadannoon hin gahu?)
+M096	kuusaa hundee dubbisuu hin dandeenye
+M097	hojii jalqabuu hin dandeenye
+M098	barreessuu jalqabuu hin dandeenye (maqaa dogoggoraa ykn hojii irra)
+M099	bal'inni dirree biraa banaa dha (hojii irra)
+M100	garagalchi adeemsa irra jira
+M101	kuusaan ofii isaa keessa seenuu hin danda'u
+M102	sun kuusaa tokkuma
+M103	dirree kana jijjiiruun hin danda'amu (dubbisuu qofa)
+M104	dirree irratti barreessuun hin danda'amu
+M105	hammi kutaa dachaa 512 ta'uu qaba
+M106	faayiloonni GB 4 fi isaa ol hin deeggaraman
+M107	karaa dogoggoraa
+M108	maqaa faayilii dogoggoraa
+M109	ROM qubee hin jiru
+M110	sagaleen hin banamne
+M111	chaanaalli akkasii hin jiru
+M112	tartiibessaan hojii irra jira
+M113	PSRAM sirbaaf hin gahu
+M114	faayilii MIDI istaandaardii miti (MThd hin jiru)
+M115	sirboonni hin jiran
+M116	sirbi tokko diigameera (MTrk)
+M117	qoodinsi yeroo SMPTE hin deeggaramu
+M118	SMF bifa 2 hin deeggaramu (0 fi 1 qofa)
+M119	dirree Bulk-Only miti
+M120	dirree ifaa miti
+M121	kuusaa sirnaa haquu ykn maqaa jijjiiruun hin danda'amu
+M122	diskiin dirree keessa hin jiru
+M123	qophaa'aa jira
+M124	qophaa'aa miti
+M125	diskiin jijjiirameera
+M126	dogoggora diskii
+M127	gaaffii seeraan ala
+M128	galmee kuusaa dogoggoraa
+M129	kuusaan karaa irra jiru hin jiru
+M130	faayiliin maqaa sana qaba
+M131	kuusaan maqaa sana qaba
+M132	maqaan karaa irra jiru kuusaa miti
+M133	haqameera
+M134	fe'uu hin dandeenye
+M135	dubbisuu jalqabuu hin dandeenye
+M136	barreessuu jalqabuu hin dandeenye
+M137	kuusaa dha
+M138	sun kuusaa dha
+M139	kilaastariin hin jiru
+M140	tarree kilaastariitiif bakki hin jiru
+M141	faayiliin ykn kuusaan akkasii hin jiru
+M142	faayiliin akkasii hin jiru
+M143	bal'inni dirree hin jiru
+M144	NTFS miti
+M145	exFAT miti
+M146	kuusaa miti
+M147	hin argamne
+M148	dogoggora dubbisuu
+M149	dogoggora barreessuu
+M150	FAT dubbisuun kufe
+M151	sansalatni kilaastarii faayilii irra gabaabaa dha
+M152	kuusaan duwwaa miti
+M153	diskiin guutameera
+M154	dirreen deebii hin kennine
+M155	faayiliin dubbisuu qofa
+M156	faayiliin baay'ee qoqqoodameera
+M157	faayiliin baay'ee guddaa (GB 4)
+M158	maqaan haaraan duraanuu jira
+M159	kuusaan hundee guutameera
+M160	faayiloota maqaa gabaabaa tokko qaban baay'ee
+M161	Faayiliin ykn kuusaan akkasii hin jiru
+M162	Faayiliin duraanuu jira
+M163	Hayyamni dhorkameera
+M164	Kuusaan duwwaa miti
+M165	Kuusaa miti
+M166	Kuusaa dha
+M167	Sirna faayilii dubbisuu qofa
+M168	Meeshaa irratti bakki hafe hin jiru
+M169	Dogoggora galtee/bahaa
+M170	Dirree kana irratti hin deeggaramu
+M171	Karaa sirrii hin taane
+M172	Yaadannoon dhumeera
+M173	Dirreen akkasii hin jiru
+M174	dhaabbate
+M175	haqameera (bakki duwwaan hin gahu)
+M176	bakka duwwaa lakkaa'uu hin dandeenye
+M177	fudhataan haqeera
+M178	fudhataan hin jiru (PC irratti rz hojjechiisi)
+M179	UART koonsolii fayyadama irra jira
+M180	haalli iskiriinii jijjiirameera
+M181	sararoonni hin dhufne (agarsiisni hojjechaa jiraa?)
+M182	garagalchi
+M183	socho'i
+M184	haqi
+M185	maqaa jijjiiri
+M186	amala
+M187	faayilii haaraa
+M188	kuusaa haaraa
+M189	suuraa
+M190	mrbc
+M191	ruby
+M192	ilaalaa
+M193	gulaali
+M194	IDENTIFY
+M195	ZMODEM
+M196	ZMODEM fudhachuu
+M197	ZMODEM erguu
+M198	qoodi
+M199	walitti qabi
+M200	Doom
+M201	SMF
+M202	CD
+M203	FB
+M204	Baasi
+M205	irra deebi'ii kaasi
+M206	hayyama
+M207	sa'aatii
+M208	ADC galtee
+M209	iskiriinii -> PNG
+M210	FB -> PNG
+M211	bal'ina dirree banuu hin dandeenye
+M212	%s fudhatameera
+M213	%s ergameera
+M214	%s kuufameera
+M215	%s uumameera
+M216	maqaan gara %s jijjiirameera
+M217	%s haqameera
+M218	%s jijjiirameera
+M219	%s walitti qabameera
+M220	%s qoodameera
+M221	%s uumuu hin dandeenye
+M222	%s haquu hin dandeenye
+M223	maqaa gara %s jijjiiruu hin dandeenye
+M224	%s jijjiiruu hin dandeenye
+M225	%s dubbisuu hin dandeenye
+M226	%s barreessuu hin dandeenye
+M227	%s garagalchuu hin dandeenye
+M228	%s hojjechuu hin dandeenye
+M229	kuusaa %s baasuu hin dandeenye
+M230	%s baasuu hin dandeenye
+M231	yaadannoon %s'f hin gahu
+M232	%s erguu irratti dogoggorri baay'ee
+M233	fudhataan %s hin fudhanne
+M234	fudhataan %s irra darbe
+M235	Fuula FB %s
+M236	 baayitii tokkoon tokkoon)
+M237	 baayitii)
+M238	 KB)
+M239	 kutaa gara
+M240	 kutaa (
+M241	 gara
+M242	: qulqulleeffameera
+M243	: ifni walakkaa hir'ifameera
+M244	% dubbifameera
+M245	 sararoota
+M246	 -- ammaaf hin deeggaramu (FAT / exFAT / NTFS qofa)
+M247	 faayiloota
+M248	 (
+M249	Maqaa hin qabne
+M250	1 Faayilii
+M251	2 Gulaali
+M252	3 Giraafii
+M253	4 Waraqaa
+M254	5 Gargaarsa
+M255	DUWWAA
+M256	LAKKOOFSA
+M257	BARREEFFAMA
+M258	FOORMULAA
+M259	Galchuuf barreessi, gulaaluuf F2, gargaarsaaf F1
+M265	Qophaa'aa
+M267	Furtuu kamiyyuu tuqi
+M268	Y = eeyyee    N = lakki    Esc = haqi
+M269	Enter = Tole    Esc = haqi    Ctrl-U = qulqulleessi
+M270	Sarara/utubaa jalqabaa = mallattoo; giraafiin FB CLUT8 640x480 fayyadama.
+M271	SGCALC - GARGAARSA
+M272	Deebi'uuf furtuu kamiyyuu tuqi
+M273	Deebi'uuf furtuu kamiyyuu tuqi.
+M274	WAA'EE SGCALC
+M275	Haaraa
+M276	Waraqaa haaraa jalqabi
+M277	Bani...
+M278	Faayilii ODS, FODS ykn CSV bani
+M279	Kuusi
+M280	Faayilii ammaa kuusi
+M281	Akka...tti kuusi
+M282	Maqaa ykn bifa haaraan kuusi
+M283	CSV baasi...
+M284	Garagalcha CSV barreessi
+M285	ODS baasi...
+M286	Garagalcha LibreOffice barreessi
+M287	Ba'i
+M288	SGCALC dhiisi
+M289	Qulqulleessi
+M290	Seelota filataman qulqulleessi
+M291	Garagalchi
+M292	Filannoo garagalchi
+M293	Maxxansi
+M294	Kursara irratti maxxansi
+M295	Kuti
+M296	Filannoo garagalchii qulqulleessi
+M297	Hunda filadhu
+M298	Seelota fayyadaman hunda filadhu
+M299	Halluu barreeffamaa...
+M300	Halluu barreeffamaa filadhu
+M301	Duuba...
+M302	Duuba seelii filadhu
+M303	Sarara
+M304	Filannoo irraa giraafii sararaa kaasi
+M305	Baaraa
+M306	Filannoo irraa giraafii baaraa kaasi
+M307	Walmakaa
+M308	Baaraa tarree jalqabaatiif, sarara kan hafaniif
+M309	Paayii
+M310	Filannoo irraa giraafii paayii kaasi
+M311	Naannoo...
+M312	Naannoo giraafii ifatti kaa'i
+M313	Irra deebi'ii kaasi
+M314	Giraafii dhumaa irra deebi'ii kaasi
+M315	Deemi...
+M316	Gara seeliitti utaali (fkn C12)
+M317	Bal'ina utubaa...
+M318	Bal'ina utubaalee filatamanii jijjiiri
+M319	Dheerina sararaa...
+M320	Dheerina sararoota filatamanii jijjiiri
+M321	Ofumaan walsimsiisi
+M322	Bal'ina/dheerina qabiyyee wajjin walsimsiisi (F7)
+M323	Irra deebi'ii herregi
+M324	Foormulaa hunda irra deebi'ii madaali
+M325	Hunda haqi
+M326	Waraqaa guutuu qulqulleessi
+M327	Furtuuwwan
+M328	Qajeelfama furtuu agarsiisi
+M329	Waa'ee
+M330	Waa'ee SGCALC
+M331	Faayilii
+M332	Gulaali
+M333	Giraafii
+M334	Waraqaa
+M335	Gargaarsa
+M336	Faayilii: haaraa, bani, kuusi, baasi, ba'i
+M337	Gulaali: qulqulleessi, garagalchi, maxxansi, kuti, hunda filadhu
+M338	Giraafii: sarara, baaraa, walmakaa, paayii (FB irratti kaafama)
+M339	Waraqaa: deemi, bal'ina utubaa, irra deebi'ii herregi, haqi
+M340	Gargaarsa: furtuuwwan fi waa'ee
+M341	Bita/Mirga = baafata    Ol/Gad = wanta    Enter = filadhu    Esc = haqi
+M342	Haqameera
+M343	Filannoon baay'ee guddaa ykn yaadannoon xiqqaa dha.
+M344	seelii sana
+M345	filannoo sana
+M346	Wanti maxxanfamu hin jiru
+M347	Maxxanfameera
+M348	GARA SEELIITTI DEEMI
+M349	Wabii seelii (A1):
+M350	Deemi
+M351	BAL'INA UTUBAA
+M352	Bal'ina qubeedhaan (4..30):
+M353	DHEERINA SARARAA
+M354	Dheerina sararoota barreeffamaan (1..8):
+M355	Ofumaan walsimsiisi: waraqaan duwwaa dha
+M356	HALLUU DUUBAA
+M357	HALLUU BARREEFFAMAA
+M358	Xiyyaa: filadhu    Enter: hojiirra oolchi    Esc: haqi
+M359	Lakkoofsa halluu (halluu 16 PC-98)
+M361	Enter = hojiirra oolchi    Esc = haqi
+M362	Halluu
+M363	Duuba
+M364	Barreeffama
+M365	NAANNOO GIRAAFII
+M366	Naannoo (fkn A1:C10):
+M367	Naannoo giraafii
+M368	Naannoo akka A1:C10 fayyadami.
+M369	Giraafii kaasuu hin danda'u.
+M370	sarara
+M371	baaraa
+M372	walmakaa
+M373	paayii
+M374	Seelii waraqaa kana keessa jiru hunda qulqulleessuu?
+M375	Waraqaan haqameera
+M376	Seelonni fayyadaman hundi filatamaniiru
+M377	Irra deebi'ee herregameera
+M378	Yaadannoo
+M379	PSRAM waraqaa herregaatiif hin gahu.
+M380	Waraqaan duwwaa dha.
+M381	Naannoo filatame keessa daataan lakkoofsaa hin jiru.
+M382	Kan biraa
+M383	Giraafii paayiitiif gatiin poozatiivii hin jiru
+M384	SARARA
+M385	BAARAA
+M386	WALMAKAA
+M387	PAAYII
+M389	Kuusaa
+M390	AKKA...TTI KUUSI
+M391	FAAYILII BANI
+M394	Maqaa:
+M395	(maqaa barreessi, ykn gadii filadhu)
+M396	Maqaa
+M397	Hamma
+M398	Enter=kuusi  Bita=ol  Mirga/Enter [DIR] irratti=bani  Tab=dirree  Esc=haqi
+M399	Enter=bani  Bita=ol  Mirga/Enter [DIR] irratti=bani  Tab=dirree  Esc=haqi
+M400	Yaadannoon hin gahu.
+M401	Irratti barreessi
+M402	Bani
+M403	Faayiliin baay'ee guddaa (daangaa MB 8).
+M404	Faayilii dubbisuuf yaadannoon hin gahu.
+M405	Daataa ZIP/ODS dogoggoraa.
+M406	Dogoggora CRC faayilii ODS keessatti.
+M407	Faayilii hin deeggaramne ykn diigame.
+M408	Kuufameera
+M409	Baafameera
+M410	Jijjiiramoota hin kuufamne
+M411	Itti fufuun dura waraqaa ammaa kuusuu?
+M412	Waraqaa haaraa
+M415	sirbi baay'ee guddaa
+M416	faayilii duwwaa
+M417	faayilii SGT miti
+M418	BPM dogoggoraa
+M419	saffisa dogoggoraa
+M420	dheerina mata-dureetii dogoggoraa
+M421	mata-dureen cite
+M422	qubee dogoggoraa mata-duree keessa
+M423	tartiibni cite
+M424	dheerina tartiibaa dogoggoraa
+M425	lakkoofsa fakkii dogoggoraa tartiiba keessa
+M426	tarreen fakkii cite
+M427	baay'ina fakkii dogoggoraa
+M428	indeeksii fakkii dogoggoraa
+M429	fakkiin irra deddeebi'e
+M430	daataan fakkii cite
+M431	daataa fakkii sirrii hin taane
+M432	daataa dabalataa dhuma faayilii irratti
+M433	tartiibni fakkii hin jirre agarsiisa
+M435	(maqaa hin qabne)
+M436	Qophaa'aa. Gargaarsaaf F1 tuqi.
+M437	Hordofuu CUFAA
+M438	Wanti deebi'u hin jiru
+M439	Deebisi
+M440	Sagalee dhaabi
+M441	Dura qubee dhiibbaa kaa'i
+M442	Dhiibbaan qulqulleeffameera
+M443	Paaraameetiriin qulqulleeffameera
+M444	Sagaleen qulqulleeffameera
+M445	Meeshaan muuziqaa qulqulleeffameera
+M446	Sagaleen guddinaa qulqulleeffameera
+M447	Tarreen tartiibaa guutameera
+M448	Tartiibni galfameera
+M449	Tartiiba dhumaa haquun hin danda'amu
+M450	Tartiibni haqameera
+M451	Sirba taphachaa jira
+M452	Dhaabbate
+M453	Sirba haaraa
+M454	Jijjiiramoota hin kuufamne gatii sirba haaraa jalqabuu? (Y/N)
+M455	Jijjiiramoota hin kuufamne gatii sirba banuu? (Y/N)
+M456	Jijjiiramoota hin kuufamne gatii ba'uu? (Y/N)
+M457	Qindaa'inni sirbaa haaromfameera
+M458	Maqaan faayilii duwwaa dha
+M459	Kuusuun haqameera
+M460	Banuun haqameera
+M461	Gulaaluu BANAA
+M462	Gulaaluu CUFAA
+M463	Hordofuu BANAA
+M464	Gulaaluun cufaa dha. Gulaaluuf F8 tuqi.
+M465	Dogoggora I/O
+M466	faayiliin baay'ee guddaa
+M467	faayiliin cite
+M495	#TAPHACHIISUU FI FAAYILOOTA
+M496	#TARREE TARTIIBAA
+M497	#AGARSIISA
+M498	#GULAALUU
+M499	#DHIIBBAA (paaraameetiriin hexadecimal)
+M500	BITA/MIRGA FUULA   ENTER YKN F1 CUFI
+M501	QINDAA'INA SIRBAA
+M502	OL/GAD FILADHU   BITA/MIRGA SIRREESSI   ENTER/F2 CUFI
+M503	Mata-duree gulaaluuf barreessi. Backspace qubee dhumaa haqa.
+M504	BPM 32..255. Saffisa 1..31.
+M505	Dhiibbaan fakkii yeroo taphatu saffisa fi BPM jijjiiruu ni danda'a.
+M506	MEESHAALEE MUUZIQAA
+M507	OL/GAD FILADHU   SPACE DHAGA'I   ENTER FAYYADAMI   F3 CUFI
+M508	Chaanaalonni afranuu sinteesii gabatee dambaliitii fayyadamu.
+M509	Dhaggeeffannaan C-4 sirba kursara gulaalaa jala jiru irratti taphachiisa.
+M510	SIRBA AKKA...TTI KUUSI
+M511	ENTER KUUSI   F4 YKN CTRL-C HAQI
+M512	Kuusaa:
+M513	Maqaa faayilii:
+M514	Dheerinni .SGT ofumaan ida'ama.
+M515	Faayilii jiru irratti barreessuun ni danda'ama.
+M516	SIRBA BANI
+M517	ENTER BANI  BS OL  CTRL-O/CTRL-C HAQI
+M518	(kuusaa kana keessa faayiloonni .SGT hin jiran)
+M519	MIRKANEESSI
+M520	Y = EEYYEE   N / ENTER / CTRL-C = LAKKI
+M521	Y = eeyyee        N = lakki
+M536	MThd diigameera
+M537	MIDI GALCHUU
+M539	yeroon delta diigameera
+M540	running status diigameera
+M541	taateen meta diigameera
+M542	taateen sysex diigameera
+M543	taateen chaanaalii diigameera
+M544	bahaan SMF baay'ee xiqqaa dha
+M545	bahaan SMF baay'ee guddaa dha
+M546	sirbi SMF'f baay'ee dheeraa dha
+M557	XIYYAA      kursara seelii socho'i\n
+M558	SHIFT+XIY   filannoo bal'isi (giraafii/garagalchaaf)\n
+M559	ENTER       seelii gulaali; yeroo gulaaltu, mirkaneessii gadi bu'i\n
+M560	TAB         seelii itti aanu    SHIFT+TAB  seelii duraa\n
+M561	DELETE      seelota filataman qulqulleessi    ESC  haqi\n
+M562	PGUP/PGDN   iskiriinii tokko    HOME/END  utubaa jalqabaa/dhumaa\n
+M563	CTRL+HOME   A1    CTRL+END  seelii dhumaa fayyadame\n
+M564	F1 gargaarsa  F2 gulaali  F3 garagalchi  F4 maxxansi  F5 deemi  F6 halluu\n
+M565	F7 walsimsiisi  F8 duuba  F9 herregi  F10 giraafii  F11 kuusi  F12 baafata\n
+M566	SHIFT+F1 waa'ee  SHIFT+F2 dheerina sararaa  SHIFT+F3 bal'ina utubaa\n
+M567	SHIFT+F4 hunda filadhu  SHIFT+F10 naannoo giraafii  SHIFT+F11 akka...tti kuusi\n
+M568	CTRL+F1 haaraa  CTRL+F2 bani  CTRL+F3 kuusi  CTRL+F4 akka...tti kuusi\n
+M569	CTRL+F5 CSV baasi  CTRL+F6 ODS baasi  ALT+F12 ba'i\n
+M570	Sararoota 2 gadii: furtuuwwan hojii; [SHIFT]/[CTRL]/[ALT] akka bulchaa faayilii\n
+M571	CTRL+S kuusi  CTRL+O bani  CTRL+N haaraa  CTRL+C/V/X garagalchi/maxxansi/kuti\n
+M572	CTRL+G deemi    /  baafata bani (1 Faayilii, 2 Gulaali, ...)\n
+M573	Faankishinoota keessaa: SUM AVERAGE MIN MAX COUNT COUNTA\n
+M576	Wabii seelii: A1, $A$1, A1:B10.  Foormulaan '=' n jalqaba.\n
+M577	Faayiloota: .ods (LibreOffice), .fods (XML diriiraa), .csv\n
+M578	ODS/FODS foormulaa, bal'ina, dheerina fi halluu eega.\n
+M579	CSV gatii fi foormulaa eega (halluu/dheerina malee).\n
+M580	Giraafii: naannoo filadhu, F10 tuqi, achiis Sarara/Baaraa/Walmakaa/Paayii filadhu.\n
+M581	SGCALC sgnano'f\n
+M582	Gosa
+M583	Waraqaa herregaa akkaataa Lotus 1-2-3 akka sagantaa SGX.\n\n
+M585	Haala iskiriinii 3: barreeffama + FB CLUT8 (lowres cufaa)\n
+M586	Waraqaa: sararoota %d x utubaa %d\n
+M587	Bifa: .ods / .fods (LibreOffice), .csv\n\n
+M588	Kaaroon sararaa gubbaa barreeffamaa irratti kaafama.\n
+M589	Giraafiin fi duubni 640x480 FB fayyadamu.\n\n
+M591	Seelii kuusuu hin danda'u (%d).
+M592	Seelonni %d x %d garagalfamaniiru
+M593	%s qulqulleeffameera
+M594	'%s' wabii seelii miti.
+M596	Bal'ina utubaa = %d
+M597	Dheerina sararaa = %d
+M598	Ofumaan walsimsiisi: utubaa %d, sararoota %d
+M600	Halluu hojiirra oolchuu hin danda'u (%d).
+M602	Naannoo sirrii hin taane.\nNaannoo akka A1:C10 fayyadami.
+M603	Naannoo giraafii %s
+M604	Giraafii: %s
+M605	SGCALC: haala iskiriinii 3 kaa'uu hin danda'u: %s\n
+M614	%s dubbisuu hin danda'u\n%s
+M615	Kuusaa: %s
+M623	Dheerinni hin deeggaramu.\n.csv, .ods ykn .fods fayyadami.
+M624	%s duraanuu jira.\nIrratti barreessuu?
+M625	%s irratti barreessuun dadhabamuu danda'a.\nTaanus yaaluu?
+M626	Gosni faayilii %s hin beekamu
+M627	Gosni faayilii hin deeggaramu.\n.csv, .ods ykn .fods fayyadami.
+M628	%s banuu hin danda'u\n%s
+M629	%s kuusaa dha.
+M630	%s galchuu hin danda'u\n%s
+M631	%s fe'ameera
+M632	Faayilii %s ijaaruu hin danda'u.
+M633	%s barreessuu hin danda'u\n%s
+M635	gosni %u hin deeggaramu
+M637	Ooktaavii %d
+M638	Sagalee %s
+M639	Meeshaa muuziqaa %d
+M640	Guddina sagalee %s
+M641	Dhiibbaa %c
+M642	Paaraameetirii %s
+M643	Fakkii %s
+M644	Fakkii %s taphachaa jira
+M645	DOGOGGORA KUUSUU: %s
+M646	%s kuufameera
+M647	DOGOGGORA FE'UU: %s
+M648	BPM %d
+M649	Saffisa %d
+M650	Dhaggeeffannaa %s
+M651	Meeshaa muuziqaa %s %s
+M652	%s irratti barreessuu? (Y/N)
+M676	  F5          Tartiiba ammaa irraa sirba taphachiisi
+M677	  F6          Fakkii ammaa taphachiisi
+M678	  F7/Ctrl-C   Taphachiisuu dhaabi
+M679	  Space       Taphachiisi / dhaabi
+M680	  F4          Akka...tti kuusi
+M681	  Ctrl-S      Kuusi (yoo haaraa ta'e maqaa gaafata)
+M682	  Ctrl-O      Sirba bani
+M683	  Ctrl-N      Sirba haaraa
+M684	  F12         Ba'i (yoo jijjiirame mirkaneessa)
+M685	  [ ]         Galmee tartiibaa duraa / itti aanu
+M686	  { }         Galmee tartiibaa galchi / haqi
+M687	  - +         Galmee keessatti fakkii jijjiiri
+M688	  F11         Taphachiisuu hordofi (harkaan yoo socho'e ni cufama)
+M689	  F1          Gargaarsa; Bita/Mirga fuula jijjiira
+M690	  F8          Haala gulaaluu banuu/cufuu
+M691	  Xiyyaa      Kursara socho'i
+M692	  PgUp/PgDn   Sararoota 16 utaali
+M693	  Home/End    Sarara jalqabaa / dhumaa
+M694	  F9/F10      Ooktaavii gadi / ol
+M695	  Z S X D C V G B H N J M      sarara piyaanoo gadii
+M696	  Q 2 W 3 E R 5 T 6 Y 7 U      sarara piyaanoo olii
+M697	  1           Sagalee dhaabi
+M698	  0 / Del     0 sagalee/meeshaa/dhiibbaa qulqulleessa; Del kamiyyuu qulqulleessa
+M699	  Ctrl-Z      Gulaala fakkii/tartiibaa dhumaa deebisi
+M700	  Axy   Sochii guddina sagalee: ol x, gadi y
+M701	  Cxx   Tick xx booda sagalee kuti
+M702	  Dxx   Guddina sagalee kaa'i (00..7F)
+M703	  Fxx   Yoo xx < 20 saffisa, yoo kanaa ol BPM
+M704	  Hxy   Arpeggio x, y walakkaa toonii
+M705	  Pxx   Sochii sagalee ol
+M706	  Qxx   Sochii sagalee gadi
+M707	  F2 qindaa'ina sirbaa, F3 tarree meeshaalee muuziqaa
+M708	GARGAARSA %d/2
+M709	  Mata-duree
+M711	  BPM   : %d     (bita/mirga -1/+1, -/+ -5/+5)
+M712	  Saffisa : tick %d/sarara
+M713	  Sararoota : %d (dhaabbataa)
+M714	  Tartiiba : galmee %d
+M715	  Fakkiiwwan fayyadaman : %d
+M718	Meeshaa muuziqaa ammaa: %s %s
+M722	Faayiloota: %d
+M726	SGNO TRACKER: SGX ABI wal hin simu\n
+M727	Sakatta'iinsa S:: eegi -- faayiliin dubbifamaa ykn barreeffamaa jira
+M728	Sakatta'iinsa S:: dirreen hojii irra ykn qophaa'aa miti
+M729	wanta kanaaf homtuu hin jiru (ContextMenu.cfg)
+M730	ajaja dogoggoraa ContextMenu.cfg keessa
+M731	gocha hin beekamne ContextMenu.cfg keessa
+M732	baafata
+N001	5 Macro
+N002	6 Garg
+N003	Isa ammaa hojjechiisi
+N004	Macro kursara irratti hojjechiisi (seelii mata-duree #! fi seelota isa jala)
+N005	Filannoo hojjechiisi
+N006	Seelota filataman akka macro tokkootti hojjechiisi (seeliin bitaa olii mata-duree #!)
+N007	Hunda hojjechiisi
+N008	Macro waraqaa keessa jiru hunda, bitaa olii irraa hanga mirga gadiitti hojjechiisi
+N009	Dogoggora dhumaa
+N010	Dogoggora macro dhumaa agarsiisi
+N011	Macro
+N012	Macro: seelota #!ruby / #!python / #!basic hojjechiisi
+N013	Seelii gulaali (F2)
+N014	Bal'ina/dheerina qabiyyee wajjin walsimsiisi
+N015	Dogoggora macro dhumaa
+N016	Dogoggorri macro hin jiru.
+N017	IME banaa
+N018	IME cufaa
+N019	Macro: %s %s ...
+N020	%s: firmware kun macro hojjechiisuu hin danda'u (SGX ABI 5.10 ykn isaa ol)
+N021	Dogoggora macro: %s
+N022	Macro: %s xumurame
+N023	macroon tokko duraanuu hojjechaa jira
+N024	afaan kun hin argamu
+N025	yaadannoon hin gahu
+N026	macroon dogoggoraan dhaabbate
+N027	Dogoggora macro %s: %s
+N028	Macro: yaadannoon hin gahu
+N029	Macro: kursarri macro irra hin jiru (seelii #!ruby / #!python / #!basic ykn seelota isa jala)
+N030	Macro: waraqaa keessa macroon hin jiru
+N031	Macro hunda hojjechiisi
+N032	Macro: %d. Hunda, bitaa olii irraa hanga mirga gadiitti haa hojjetan? Jijjiiramni deebi'uu hin danda'u.
+N033	Macro: %d xumurame (waliigala %d)
+N034	Seeliin qulqulleeffameera
+N035	Filannoon qulqulleeffameera
+N036	Halluu duubaa = %d
+N037	Halluu barreeffamaa = %d
+N038	Giraafii: sarara
+N039	Giraafii: baaraa
+N040	Giraafii: walmakaa
+N041	Giraafii: paayii
+N042	%s baafameera

@@ -1,0 +1,1162 @@
+# sgnano filer strings: Latviešu (2026-11-17). ui <TAB> Japanese <TAB> translation / msg.* <TAB> English <TAB> translation
+# status: unreviewed (machine translation, not checked by a native speaker; 2026-11-17). 未検証: ネイティブの確認をしていない仮の訳
+@lang lv
+@name Latviešu
+ui	一覧（ファイルとフォルダを 2 列 x 19 行に並べる）	Saraksts (faili un mapes 2 kolonnās x 19 rindas)
+ui	カーソルを動かす（左右は隣の列へ）	Pārvietot kursoru (pa kreisi/pa labi: otra kolonna)
+ui	前のページ / 次のページ	Iepriekšējā lapa / nākamā lapa
+ui	全部に印 / 印を反転（PC-98 FD と同じ）	Atzīmēt visu / apgriezt atzīmes (kā PC-98 FD)
+ui	先頭 / 最後	Pirmais/pēdējais
+ui	印を付けて次へ / 印だけ付ける	Atzīmējiet un virzieties tālāk / tikai atzīmējiet
+ui	Shift+矢印	Shift+bultiņas
+ui	範囲を選ぶ（Space でその範囲に印）	Atlasiet diapazonu (atstarpe apzīmē diapazonu)
+ui	フォルダに入る・ファイルを開く（F2/X は実行）	Ievadiet mapi / atveriet failu (F2/X palaišana)
+ui	上のフォルダへ	Līdz vecākmapei
+ui	ドライブを選ぶ（USB・フロッピー・CD・S: 内蔵）	Izvēlieties disku (USB, diskete, CD, S: iebūvēts)
+ui	コピー（Shift+C / Shift+F3 は行き先を木から）	Kopēt (Shift+C/Shift+F3 atlasa galamērķi no koka)
+ui	移動	Pārvietot
+ui	削除（Shift+D / Shift+F4 はフォルダ削除）	Dzēst (Shift+D/Shift+F4 dzēst mapi)
+ui	名前を変える	Pārdēvēt
+ui	属性を変える	Mainiet atribūtus
+ui	エディタで開く	Atveriet redaktorā
+ui	テキスト表示（Shift+V / Ctrl+Alt+F7 は 16 進）	Skatīt kā tekstu (Shift+V/Ctrl+Alt+F7 hex)
+ui	ドライブの情報	Informācija par braucienu
+ui	フォルダを作る / 新しいファイル	Jauna mape / jauns fails
+ui	シェル sgsh / 媒体を取り出す	Shell sgsh / izstumt datu nesēju
+ui	読み直す	Pārlādēt
+ui	見えている画面を PNG で保存	Saglabājiet ekrānu kā PNG
+ui	窓を閉じる・選択を解く（サブフォルダでは上位へ）	Aizvērt logu / notīrīt atlasi (apakšmapē: iet uz augšu)
+ui	ファイルの操作（FD と同じ。印・範囲・カーソルの順に選ぶ）	Failu darbības (kā FD: atzīmes, tad diapazons, tad kursors)
+ui	コピー: 行き先はドライブとフォルダの木から。ESC で止める	Kopēt: izvēlieties galamērķi no diska un mapju koka. ESC apstājas
+ui	削除: y で確かめる。印・範囲をまとめて。フォルダは中身ごと	Dzēst: apstipriniet ar y. Atzīmes un diapazoni uzreiz. Mapes ar to saturu
+ui	フォルダを削除（中身ごと）	Dzēst mapi (ar tās saturu)
+ui	名前を変える（今の名前を直して Enter）	Pārdēvēt (rediģēt nosaukumu, ievadiet)
+ui	属性: R 読み出し専用・H 隠し・S システム・A アーカイブ	Atribūti: R tikai lasāms, H paslēpts, S sistēma, A arhīvs
+ui	フォルダを作る	Jauna mape
+ui	新しいファイル（空）を作る	Jauns (tukšs) fails
+ui	テキストで表示（Shift+V / Ctrl+Alt+F7 は 16 進）	Skatīt kā tekstu (Shift+V/Ctrl+Alt+F7 hex)
+ui	シェル sgsh（exit / Ctrl-D でファイラーへ）	Shell sgsh (iziet / Ctrl-D atpakaļ uz failu failu)
+ui	選んでいるドライブの素性（INQUIRY・IDENTIFY）	Diska identitāte (INJAUCIJA, IDENTIFIKĀCIJA)
+ui	FDD・LS-120・CD の媒体を取り出す	Izņemiet FDD / LS-120 / CD datu nesēju
+ui	一覧を読み直す（CD は TOC から）	Pārlādēt sarakstu (CD: no TOC)
+ui	ZMODEM で PC から受け取る（zm.sh put）	Saņemt no datora, izmantojot ZMODEM (zm.sh put)
+ui	ZMODEM で PC へ送る（zm.sh get）	Sūtīt uz datoru, izmantojot ZMODEM (zm.sh get)
+ui	.rb をコンパイルして .mrb を書き出す	Kompilējiet .rb un ierakstiet .mrb
+ui	Ruby の REPL（1 行ずつ、Ctrl-D / ESC で終わり）	Ruby REPL (viena rindiņa vienlaikus, Ctrl-D / ESC līdz beigām)
+ui	MicroPython の REPL	MicroPython REPL
+ui	4MB ずつ分割 / .001 から結合	Sadalīt 4 MB daļās / pievienoties no .001
+ui	分割 / 結合（Ctrl+F11 / F12 と同じ）	Sadalīt/pievienoties (tāds pats kā Ctrl+F11/F12)
+ui	画面（Alt+F。FD の F キーとぶつからない）	Ekrāns (Alt+F, nesaskaras ar FD F taustiņiem)
+ui	FB（絵）/ テキスト面を出す・隠す	Rādīt/slēpt FB (attēlu)/tekstu
+ui	FB の表示ページ（0〜3）	FB parādīšanas lapa (0-3)
+ui	FB を 0 で消す / 明るさを 1/2 に（RGB555）	Notīriet FB līdz 0 / uz pusi samaziniet tā spilgtumu (RGB555)
+ui	USB のエンドポイントと LAN の状態	USB galapunkti un LAN stāvoklis
+ui	FB の表示ページを消す / 明るさを 1/2 に	Notīriet FB displeja lapu / uz pusi tās spilgtumu
+ui	テキストの属性の見本	Teksta atribūtu paraugi
+ui	モニタの EDID（起動時に読んだもの）	Monitor EDID (lasīt sāknēšanas laikā)
+ui	フォント ROM のライセンスとクレジット	Font ROM licences un kredīti
+ui	設定（表示の言語・IME・キーボードロケール）	Iestatījumi (displeja valoda, IME un tastatūras lokalizācija)
+ui	時計（NTP で合わせた日本時間。s ですぐ合わせる）	Pulkstenis (Japānas laiku iestatījis NTP; s sinhronizē tagad)
+ui	表計算（SGCALC）を開く	Atvērt izklājlapu (SGCALC)
+ui	S: ドライブのエラー検査（誤りがあれば直すか聞く）	Pārbaudiet S: vai nav kļūdu (jautājiet pirms remonta)
+ui	トラッカー（TRACKER）を開く	Atveriet TRACKER
+ui	再起動（確かめの窓が出る）	Reboot (vispirms jautā)
+ui	ADC のステレオ入力（GP40 / 41）を鳴らす	Atskaņojiet ADC stereo ieeju (GP40/41)
+ui	VGM/VGZ を 96kHz/24bit WAV に書き出す	Eksportējiet VGM/VGZ uz 96 kHz / 24 bitu WAV
+ui	このヘルプ	Šī palīdzība
+ui	ページを替える	Mainiet lapu
+ui	閉じる	Aizvērt
+ui	テキスト・16 進のビュアー（less 風）	Teksta/hex skatītājs (patīk mazāk)
+ui	1 行	Viena rinda
+ui	1 ページ	Viena lapa
+ui	半ページ	Pusi lapas
+ui	探す（前へ・後ろへ）/ 次・前	Meklēt (uz priekšu / atpakaļ) / nākamais / iepriekšējais
+ui	一覧へ戻る（F1 はビュアーのヘルプ）	Atpakaļ uz sarakstu (F1: skatītāja palīdzība)
+ui	画像のビュアー	Attēlu skatītājs
+ui	一覧へ戻る（F2 F3 F6 F7 Shift+F2 F3 は効く）	Atpakaļ uz sarakstu (F2 F3 F6 F7 Shift+F2 F3 darbojas)
+ui	エディタ（E / Shift+F8）	Redaktors (E/Shift+F8)
+ui	保存する（UTF-8。改行と BOM は元のまま）	Saglabāt (UTF-8; rinda beidzas un MK saglabāts)
+ui	閉じる（変わっていれば Y / N / ESC）	Aizvērt (ja mainīts: J/N/ESC)
+ui	挿入 / 上書き	Ievietot / pārrakstīt
+ui	IME（日本語・英語・ハングル）の入・切	IME ieslēgšana/izslēgšana (japāņu/angļu/korejiešu)
+ui	IME の言語（日本語 / English / 한국어）	IME valoda (japāņu/angļu/korejiešu)
+ui	ひらがな / カタカナで確定	Apņemties kā hiragana/katakana
+ui	エディタのヘルプ	Redaktora palīdzība
+ui	シェル	Apvalks
+ui	シェル（csh のサブセット。exit / Ctrl-D で戻る、help で一覧）	Shell (csh apakškopa. exit / Ctrl-D, lai atgrieztos, palīdz norādīt komandas)
+ui	一覧と移動	Saraksts un pārvietošana
+ui	ファイルの操作	Failu darbības
+ui	画面と機器	Ekrāns un ierīces
+ui	ビュアーとエディタ	Skatītāji un redaktors
+ui	ヘルプ  %u / %u  %s	Palīdzība %u / %u %s
+ui	Left Right: ページを替える    F1 / ESC: 閉じる	Pa kreisi Pa labi: mainīt lapu F1 / ESC: aizvērt
+ui	sgnano を再起動しますか？	Pārstartēt sgnano?
+ui	[ 再起動 ]	[ Reboot ]
+ui	[ キャンセル ]	[Atcelt]
+ui	S: ドライブのエラー検査	Pārbaudiet, vai S: diskdzinī nav kļūdu
+ui	ファイル %lu  フォルダ %lu	Faili %lu mapes %lu
+ui	大きさが鎖と合わない	Izmērs neatbilst ķēdei
+ui	どこからも使われていないクラスタ	Kopas, ko neizmanto nekas
+ui	重なったクラスタ	Šķērssaistītas kopas
+ui	壊れた項目	Bojāti ieraksti
+ui	FAT の 2 つの写しの食い違い	Abas FAT kopijas atšķiras
+ui	エラーはありません。	Nav kļūdu.
+ui	エラーが見つかりました。修復しますか？	Tika atrastas kļūdas. Vai tos salabot?
+ui	修復しました（上は直した数）。	Remontēts (iepriekš minētie skaitļi tika fiksēti).
+ui	検査・修復できませんでした（S: が使用中）。	Nevarēja pārbaudīt vai salabot (S: ir aizņemts).
+ui	[ 修復する ]	[Remonts]
+ui	[ やめる ]	[Atcelt]
+ui	何かキーで閉じる	Jebkura atslēga aizveras
+ui	設定	Iestatījumi
+ui	表示の言語	Displeja valoda
+ui	キーボードロケール	Tastatūras lokalizācija
+ui	Up / Down  Enter 決める  ESC やめる	Uz augšu/Uz leju Ievadiet, izvēlieties ESC atcelt
+ui	表示の言語 (Language)	Displeja valoda
+ui	Up / Down  Enter 決める  ESC 戻る	Uz augšu / Uz leju Ievadiet: iestatiet ESC: atpakaļ
+ui	%c: をどの文字に固定しますか（A〜Z、S を除く。ESC でやめる）	Labot %c: kā kurš burts? (A–Z, izņemot S. ESC atceļ)
+ui	ドライブ  文字 / Enter 選ぶ  F2 文字を固定・解除  F3 文字を決めて固定  L / ESC やめる	Diska burts / Enter atlasiet F2 labot/atcelt burtu F3 labot kā... L / ESC atcelt
+ui	  区画 %u	nodalījums %u
+ui	%c:* （固定・つながっていません）%04X:%04X%s  %s	%c:* (fiksēts, nav pievienots) %04X:%04X%s %s
+ui	お知らせ	Paziņojums
+ui	ドライブ %c:  %s	Braukt %c: %s
+ui	ドライブ  (なし)	Braukt (nav)
+ui	音楽 CD  %u トラック	Audio CD %u ieraksti
+ui	フォルダ %u  ファイル %u  合計 %s	Mapes %u faili %u kopā %s
+ui	読んでいます...	Lasa...
+ui	* 印 %u 個  %s	* atzīmēts ar %u %s
+ui	%lu バイト	%lu baiti
+ui	属性 %s   更新日時 %s   作成日時 %s   %s	Attr %s modificēts %s izveidots %s %s
+ui	日	Sv
+ui	月	Pirmd
+ui	火	Otr
+ui	水	Tr
+ui	木	Ce
+ui	金	Piekt
+ui	土	sestdien
+ui	時計は合わせていません（LAN の NTP）	Pulkstenis nav iestatīts (NTP pa LAN)
+ui	FB  表示 %u  書込 %u	FB displejs %u rakstīt %u
+ui	1 ヘルプ	1 Help
+ui	2 実行	2 Skrien
+ui	3 ｺﾋﾟｰ	3 Kopēt
+ui	4 削除	4 Del
+ui	5 名前	5 Rename
+ui	7 FB消去	7 FBclr
+ui	8 FB減光	8 FBdim
+ui	9 ﾄﾞﾗｲﾌﾞ	9 Braukt
+ui	10 EP表	10 EP
+ui	11 時計	11 Clock
+ui	12 表計	12 CALC
+ui	1 属性	1 Attr
+ui	2 情報	2 Info
+ui	3 移動	3 Move
+ui	5 作成	5 Mkdir
+ui	6 シェル	6 Shell
+ui	8 編集	8 Edit
+ui	9 表示	9 Skats
+ui	10S:検査	10 S:chk
+ui	11 ﾄﾗｯｸ	11 TRACK
+ui	12再起動	12Reboot
+ui	1 新規	1 Jauns
+ui	2 ﾌｫﾙﾀﾞ	2 Mape
+ui	3 名前	3 Rename
+ui	4 属性	4 Attrib
+ui	6 ｺﾋﾟｰ	6 Kopēt
+ui	7 移動	7 Move
+ui	8 削除	8 Dzēst
+ui	9 編集	9 Edit
+ui	10ｺﾝﾊﾟｲﾙ	10 mrbc
+ui	11 分割	11 Split
+ui	12 結合	12 Join
+ui	1 属性例	1 Attr
+ui	2 FB切替	2 FB
+ui	3 文字面	3 Teksts
+ui	5 画面写	5 ScrSht
+ui	6 表示頁	6 DispPg
+ui	9 ZM受信	9 ZMrecv
+ui	10ZM送信	10ZMsend
+ui	2 FB消去	2 FBClr
+ui	3 FB減光	3 FBDim
+ui	5 再読込	5 Reload
+ui	7 16進	7 Hex
+ui	9 ﾗｲｾﾝｽ	9 Lic
+ui	8 設定	11 Setup
+ui	時刻を合わせる（日本時間。NTP で合わせられませんでした）	Iestatiet pulksteni (Japānas laiks. NTP nevarēja iestatīt)
+ui	起動のパラメタ	Palaist ar parametriem
+ui	新しいフォルダ	Jauna mape
+ui	新しいファイル	Jauns fails
+ui	時刻:	Laiks:
+ui	実行:	Palaist:
+ui	名前:	Vārds:
+ui	年-月-日 時:分  Enter 合わせる  ESC そのまま	GGGG-MM-DD hh:mm Ievadiet kopu ESC saglabāt
+ui	Enter 走らせる  ←→ 動かす  BS / Del 消す  ESC やめる	Ievadiet palaist <-> pārvietot BS / Del dzēst ESC atcelt
+ui	Enter 変える  ←→ 動かす  BS / Del 消す  ESC やめる	Ievadiet pārdēvēt <-> pārvietot BS / Del dzēst ESC atcelt
+ui	Enter 作る  ←→ 動かす  BS / Del 消す  ESC やめる	Ievadiet izveidot <-> pārvietot BS / Del delete ESC atcelt
+ui	消す	Dzēst
+ui	個の項目	preces
+ui	フォルダは中身ごと消します。よろしいですか？	Mapes tiek dzēstas kopā ar to saturu. Vai esat pārliecināts?
+ui	このファイルを消しますか？	Vai dzēst šo failu?
+ui	（元に戻せません。フォルダの中のファイルも消えます）	(To nevar atsaukt. Tiek dzēsti arī faili mapēs)
+ui	[ はい (Y) ]	[Jā (Y)]
+ui	[ いいえ (N) ]	[Nē (N)]
+ui	バイナリビュアー: ファイルを選んでください	hex skatītājs: izvēlieties failu
+ui	テキストビュアー: ファイルを選んでください	teksta skatītājs: izvēlieties failu
+ui	移動先	Pārvietot uz
+ui	コピー先	Kopēt uz
+ui	バッファがいっぱいです (buffer full)	Buferis ir pilns
+ui	読み出し専用のドライブです (read-only)	Disks ir tikai lasāms
+ui	保存できません (no writer)	Nevar saglabāt (nav rakstītāja)
+ui	保存を始められません (the drive is busy?)	Nevarēja sākt saglabāšanu (disks ir aizņemts?)
+ui	保存しています... (saving)	Notiek saglabāšana...
+ui	2 保存	2 Save
+ui	5 色分け	5 Krāsa
+ui	6 ﾞ	6 Hira
+ui	7 ｶﾀｶﾅ	7 Kata
+ui	8 予測	8 Pred
+ui	10 終了	10 Quit
+ui	1 先頭	1 Top
+ui	2 最後	2 Beigas
+ui	3 挿/上	3 InsOvr
+ui	4 辞書	4 Dikts
+ui	6 半	6 HHira
+ui	7 半ｶﾅ	7 HKata
+ui	 %s  %s  行 %lu/%lu 桁 %u  %s  %s %s%s%s	%s %s Ln %lu/%lu Col %u %s %s %s%s%s
+ui	*変更	*mod
+ui	上書	OVR
+ui	挿入	INS
+ui	  読出専用	R/O
+ui	 エディタ (sgnano edit)                      F1 / ESC で閉じる	Redaktors (sgnano rediģēt) F1 / ESC tiek aizvērts
+ui	 矢印 / Home End / PgUp PgDn   カーソルを動かす	Bultiņas / Sākuma beigas / PgUp PgDn pārvietojiet kursoru
+ui	 Ctrl-T / Ctrl-B               ファイルの先頭 / 最後	Ctrl-T / Ctrl-B faila augšdaļa / beigas
+ui	 BS / Del                      前の字 / カーソルの字を消す	BS / Dzēst dzēšanu pirms / kursora vietā
+ui	 Enter                         改行（前の行の字下げを引き継ぐ）	Ievadiet jaunu rindu (saglabā atkāpi)
+ui	 Tab / Ins                     タブ / 挿入と上書きの切り替え	Tab / Ins cilne / ievietošana vai pārrakstīšana
+ui	 F5                            色分け（拡張子から。C/C++・mruby・MicroPython・SG BASIC・なし）	F5 krāsošana (no paplašinājuma; C/C++, mruby, MicroPython, SG BASIC, nav)
+ui	 F2  (Ctrl-S)                  保存（UTF-8、改行は元の形）	F2 (Ctrl-S) saglabāt (UTF-8, rindu beigas saglabātas)
+ui	 F10 / ESC                     閉じる（変更があれば聞く）	F10 / ESC aizvērt (jautā, vai mainīts)
+ui	 IME:  Ctrl-Space / F12        オン・オフ（あ / A）	IME: Ctrl-Space / F12 ieslēgts / izslēgts (あ / A)
+ui	       F9                      IME の言語（このエディタの間だけ。閉じると戻る）	F9 IME valoda (tikai šis redaktors; atjaunots aizverot)
+ui	       F8                      日本語の予測変換 オン・オフ	F8 japāņu jutīgā konvertēšana ieslēgta/izslēgta
+ui	       日本語                  ローマ字 -> ひらがな（F6）・カタカナ（F7）	Japāņu romaji -> hiragana (F6) / katakana (F7)
+ui	                               半角ひらがな（Shift+F6）・半角カタカナ（Shift+F7）	Pusplatuma hiragana (Shift+F6)/pusplatuma katakana (Shift+F7)
+ui	                               2 字以上で予測、Space で連文節変換	Paredzēt ar 2 vai vairāk rakstzīmēm, pārvērst nepārtrauktu klauzulu ar atstarpi
+ui	       English                 2 字以上で予測補完	Jutīgā pabeigšana angļu valodā ar 2 vai vairāk rakstzīmēm
+ui	       한국어                  2 ボル式ハングル	한국어 2 Bol stila hanguls
+ui	       Space / Enter           変換 / 確定	Atstarpe / Ievadiet Konvertēt / Apstiprināt
+ui	       ← →                    文節を選ぶ	← → Izvēlieties frāzi
+ui	       Shift+← →               文節の右端を 1 字 縮/拡（候補を出し直す）	Shift+← → Samaziniet/palieliniet klauzulas labo galu par vienu rakstzīmi (jauni kandidāti)
+ui	       ↑ ↓ / Tab               候補の窓で前 / 次の候補（窓は変換の下、画面の下では上）	↑ ↓ / Cilne Iepriekšējais / nākamais kandidāts uznirstošajā logā (zem teksta, augšā apakšā)
+ui	       →→→ で Enter            すべての候補（2 列 x 8 個、← → で列とページ、Enter で決める）	Ievadiet → → → Visi kandidāti (2 x 8, ← → kolonna un lapa, Enter izvēlas)
+ui	       Enter                   次の文節へ（最後の文節で全体を確定）	Ievadiet nākamo klauzulu (apstiprina visu pēdējo klauzulu)
+ui	       Ctrl-U                  いまの語をユーザー辞書へ	Ctrl-U Pievienot pašreizējo vārdu lietotāja vārdnīcai
+ui	 Shift+F1 / F2 / F3 / F4       先頭 / 最後 / 挿入と上書き / ユーザー辞書へ	Shift+F1 / F2 / F3 / F4 Augšpusē / beigas / ievietot-pārrakstīt / lietotāja vārdnīcā
+ui	       BS / ESC                1 字戻す / 取り消し	BS / ESC Atgriezties par vienu rakstzīmi atpakaļ / Atcelt
+ui	       , . - [ ] /             、 。 ー 「 」 ・	, . - [ ] / 、 。 ー 「 」 ・
+ui	変更あり  Y: 保存して閉じる  N: 保存せず閉じる  ESC: 戻る	Modificēts Y: saglabāt un aizvērt N: aizvērt, nesaglabājot ESC: atpakaļ
+ui	[予測] Tab/↑↓: 候補  Space: 変換  Esc: 取消	[Paredzēšana] Tab/↑↓: kandidāts Atstarpe: konvertēt Esc: atcelt
+ui	[候補] ↑↓: 選ぶ  ←→: 列・ページ  Enter: 決める	[Kandidāti] ↑↓: atlasiet ←→: kolonna/lapa Ievadiet: izvēlieties
+ui	[変換] ↑↓候補 ←→文節 Shift+←→区切り Enter次へ	[Konvertēt] ↑↓cand ←→klauzula Shift+←→iesaistīta Ievadiet nākamo
+ui	[한국어] Tab/↑↓: 候補  Enter/Space: 確定	[한국어] Tab/↑↓: kandidāts Enter/Space: apstipriniet
+ui	[English] Tab/↑↓: 候補  Enter: 確定	[Latviski] Tab/↑↓: kandidāts Ievadiet: apstipriniet
+ui	2ボル式ハングル入力  Ctrl-Space: 英数	2 kopu Hangul ievade Ctrl-Space: burtciparu
+ui	予測補完  Ctrl-Space: 直接入力	Paredzamā pabeigšana Ctrl-Space: tiešā ievade
+ui	辞書なし: ひらがな/カタカナ入力のみ  F6/F7	Nav vārdnīcas: tikai hiragana/katakana F6/F7
+ui	Space: 変換  F7: カタカナ  Ctrl-Space: 英数	Atstarpe: konvertēt F7: katakana Ctrl-Space: burtciparu
+ui	Space: 変換  F6: ひらがな  Ctrl-Space: 英数	Atstarpe: konvertēt F6: hiragana Ctrl-Space: burtciparu
+ui	半角  F6: ひらがな  F7: カタカナ  Shift+F6/F7: 半角	Pusplatums F6: hiragana F7: katakana Shift+F6/F7: puse
+ui	IME オフ	IME izslēgts
+ui	 予測	prognozēt
+ui	日本語の予測変換: オン	Jutīgais tulkojums japāņu valodā: Ieslēgts
+ui	日本語の予測変換: オフ	Jutīgais tulkojums japāņu valodā: izslēgts
+ui	日本語IMEで使います	Izmantojiet ar japāņu IME
+ui	ユーザー辞書に追加できません	Nevar pievienot lietotāja vārdnīcai
+ui	色分け: %s	Krāsošana: %s
+ui	読み込んでいます... (loading)	Notiek ielāde...
+ui	読み込めませんでした (could not read)	Nevarēja nolasīt failu
+ui	%lu 行%s%s	%lu līnijas%s%s
+ui	  Shift_JIS を UTF-8 で開きました（保存は UTF-8）	Shift_JIS tika atvērts kā UTF-8 (saglabāts kā UTF-8)
+ui	  読み出し専用	tikai lasāms
+ui	保存しました (saved)	Saglabāts
+ui	保存できませんでした (write failed)	Nevarēja saglabāt (rakstīšana neizdevās)
+ui	候補	Kandidāti
+ui	7 書込頁	7 WrtPg
+ui	9 ﾃｷｽﾄ	9 Teksts
+ui	9 ﾊﾞｲﾅﾘ	9 Hex
+ui	読み込み中 %lu%%  	Ielādē %lu%%
+ui	（先頭だけ）  	(tikai sākums)
+ui	16 進  q ESC: 戻る  F1: ヘルプ	Hex q ESC: atpakaļ F1: palīdzība
+ui	テキスト  q ESC: 戻る  F1: ヘルプ	Teksts q ESC: atpakaļ F1: palīdzība
+ui	ビュアーのキー（less 風。テキストと 16 進で共通）	Skatītāja taustiņi (piemēram, mazāk; tas pats tekstam un sešstūrainam)
+ui	1 行進む	Vienu rindiņu uz leju
+ui	1 行戻る	Viena rinda
+ui	1 ページ進む	Par vienu lapu uz leju
+ui	1 ページ戻る	Viena lapa uz augšu
+ui	半ページ進む / 戻る	Pusi lapas uz leju/uz augšu
+ui	/文字列  ?文字列	/teksts ?teksts
+ui	下へ探す / 上へ探す（大文字小文字は区別しない）	Meklēt uz leju/uz augšu (neņem vērā reģistru)
+ui	次 / 前を探す	Nākamā / iepriekšējā spēle
+ui	16 進で表示する（いま見ている所のまま）	Rādīt kā hex (tajā pašā vietā)
+ui	テキストで表示する（いま見ている所のまま）	Rādīt kā tekstu (tajā pašā vietā)
+ui	色分けを替える（C/C++・mruby・MicroPython・SG BASIC・なし）	Mainiet krāsu (C/C++, mruby, MicroPython, SG BASIC, nav)
+ui	FB / テキスト面を出す・隠す	Rādīt/slēpt FB/tekstu
+ui	FB の表示ページ / 書き込みページ	FB parādīt lapu / rakstīšanas lapu
+ui	ファイラーへ戻る	Atpakaļ pie faila
+ui	このヘルプを閉じる	Aizveriet šo palīdzību
+ui	コピー	Kopēt
+ui	 %s: フォルダを読んでいます... %u 個	%s: mapju lasīšana... %u
+ui	 %s: 行き先の空きを数えています...	%s: skaitot brīvo vietu galamērķī...
+ui	 %s: 行き先の空きが足りません	%s: galamērķī nav pietiekami daudz brīvas vietas
+ui	 移動: 元のフォルダを消しています	Pārvietot: avota mapju noņemšana
+ui	終了しました	Gatavs
+ui	止まりました	Apstājās
+ui	 %s中%s	%s notiek%s
+ui	（止めています）	(apstājas)
+ui	 元: %s	No: %s
+ui	 先: %s	Kam: %s
+ui	 ファイル %u / %u 個  フォルダ %u 個  %s / %s  (%u%%)%s	Faili %u / %u mapes %u %s / %s (%u%%)%s
+ui	  多すぎるので一部だけ	pārāk daudz: tikai daži
+ui	 要る大きさ %s、空き %s。続けますか？	Nepieciešams %s, bezmaksas %s. Vai turpināt?
+ui	 Y: 続ける   N / ESC: やめる	Y: turpināt N / ESC: atcelt
+ui	 何かキーを押すと閉じます	Lai aizvērtu, nospiediet jebkuru taustiņu
+ui	 ESC: 止める	ESC: apstāties
+ui	 %s: ←→ ドライブ  ↑↓ フォルダ  Space 開く・閉じる  Enter 決める  ESC やめる	%s: ←→ disks ↑↓ mape Atstarpe atvērt/aizvērt Ievadiet izvēlēties ESC atcelt
+ui	 読めません: %s	Nevar lasīt: %s
+ui	 フォルダを読んでいます...（ESC で止める）  %u 個	Notiek mapju lasīšana... (ESC apstājas) %u
+ui	 フォルダ %u 個%s	%u mapes%s
+ui	（多すぎるか深すぎるので、一部だけ）	(pārāk daudz vai pārāk dziļi: tikai daži)
+ui	フォルダの展開を止めました	Pārtraukta mapes atvēršana
+ui	Space で開き直せます。もう一度 ESC でやめます	Kosmoss to atkal atver. ESC vēlreiz tiek atcelts
+ui	 SMF / SGT プレイヤー   %s	SMF / SGT atskaņotājs %s
+ui	 読み込んでいます... %lu / %lu バイト	Notiek ielāde... %lu / %lu baiti
+ui	 %s / %s   %s   ポート %u	%s / %s %s porti %u
+ui	一時停止	Pauzēts
+ui	再生中	Spēlē
+ui	 Space: 一時停止  m: MIDI OUT  q / ESC: 止める	Atstarpe: pauze m: MIDI OUT q / ESC: stop
+ui	 q / ESC: やめる	q / ESC: atcelt
+ui	フォント ROM のライセンスとクレジット\n\nROM: %s（版 %lu.%lu、%lu 文字、フラッシュの 0x%08lX から）\n\n	Font ROM licences un kredīti\n\nROM: %s (versija %lu.%lu, %lu rakstzīmes, no 0x%08lX zibatmiņā)
+ui	== 収めているフォント（ROM の出所の表）==\n	== Fonti ROM (ROM izcelsmes tabula) ==
+ui	  （表が無い ROM）\n	(ROM nav tabulas)
+ui	\n== ROM のクレジットの区画 ==\n\n	== ROM kredītu apgabals ==
+ui	（区画が無い）\n	(nav tādas zonas)
+ui	\n== 組み込んだソフトウェアのライセンス ==\n	== Iebūvētās programmatūras licences ==
+ui	 %s を PNG で保存   %s	Saglabā %s kā PNG %s
+ui	画面	Ekrāns
+ui	 組み立てています... %lu / %lu 行	Ēka... %lu / %lu rindas
+ui	 書いています... %lu / %lu KB（FB は隠しています）	Notiek rakstīšana... %lu / %lu KB (FB ir paslēpts)
+ui	書けませんでした	Nevarēja uzrakstīt
+ui	書庫の名前（印の付いた項目、無ければカーソルの項目を入れる）	Arhīva nosaukums (atzīmētie vienumi vai kursora vienums, ja tāda nav)
+ui	Enter 圧縮する  ←→ 動かす  BS / Del 消す  ESC やめる	Ievadiet saspiest ←→ pārvietot BS / Del dzēst ESC atcelt
+ui	WAV 書き出し: %s 中止（%s）	WAV eksportēšana: %s atcelta (%s)
+ui	WAV 書き出し: %s 失敗（%s）	WAV eksportēšana: %s neizdevās (%s)
+ui	WAV 書き出し: %s 合計 %s	WAV eksports: %s kopā %s
+ui	 WAV 書き出し（96kHz / 24bit）: %s	WAV eksports (96 kHz / 24 biti): %s
+ui	中止しました	Atcelts
+ui	失敗しました	Neizdevās
+ui	 合計 %s	Kopā %s
+ui	 中止しました（%s。半端なファイルは消しました）	Atcelts (%s; daļējais fails tika izdzēsts)
+ui	 書き出せませんでした（%s）。理由:	Nevarēja eksportēt (%s). Iemesls:
+ui	 （理由は分かりません）	(iemesls nav zināms)
+ui	 %u%%   経過 %s%s	%u%% pagājis %s%s
+ui	 ESC: 止める（半端なファイルは消します）	ESC: stop (daļējais fails tiek izdzēsts)
+ui	書庫: %s	Arhīvs: %s
+ui	読み込み中…（ESC でやめる）	Notiek lasīšana... (lai atceltu ESC)
+ui	 %u 項目%s  合計 %s バイト  展開先: %s	%u vienumi%s kopā %s baiti ekstrakts uz: %s
+ui	 Enter 項目を展開  X 全部を展開  ↑↓ 動かす  ESC 閉じる	Ievadiet izvilkt vienumu X izvilkt visu ↑↓ pārvietot ESC aizvērt
+ui	圧縮	Saspiest
+ui	一覧	Saraksts
+ui	展開	Ekstrakts
+ui	 合計 %s   %u 項目	Kopā %s %u preces
+ui	 合計 %s   %u ファイル	Kopā %s %u faili
+ui	 中止しました（%s。書きかけのファイルは消しました）	Atcelts (%s; nepabeigtais fails tika izdzēsts)
+ui	 できませんでした（%s）: %s	Nevarēja to izdarīt (%s): %s
+ui	 %u%%   経過 %s   %s バイト%s	%u%% pagājuši %s %s baiti%s
+ui	 経過 %s   %s バイト%s	pagājuši %s %s baiti%s
+ui	 ESC: 止める（書きかけのファイルは消します）	ESC: stop (nepabeigtais fails tiek izdzēsts)
+ui	書庫: %s 失敗（%s）	Arhīvs: %s neizdevās (%s)
+ui	圧縮: %s（%u 項目）	Saspiests: %s (%u vienumi)
+ui	展開: %s（%u ファイル）	Izvilkts: %s (%u faili)
+msg.phrase	the drive went away	brauciens aizgāja
+msg.phrase	reading the partitions again...	vēlreiz pārlasot nodalījumus...
+msg.phrase	could not open the volume (no memory?)	nevarēja atvērt sējumu (nav atmiņas?)
+msg.phrase	opening the volume...	atverot sējumu...
+msg.phrase	no memory for the file list	nav atmiņas failu sarakstam
+msg.phrase	reading the directory... (retrying)	lasīt direktoriju... (mēģināt vēlreiz)
+msg.phrase	could not read the directory	nevarēja izlasīt direktoriju
+msg.phrase	reading the directory...	lasu direktoriju...
+msg.phrase	the drive did not answer -- reading the partitions again	disks neatbildēja -- vēlreiz nolasa nodalījumus
+msg.phrase	could not read the directory (not FAT12/16/32?)	nevarēja nolasīt direktoriju (vai ne FAT12/16/32?)
+msg.phrase	too many entries -- showing the first ones	pārāk daudz ierakstu — tiek rādīti pirmie
+msg.phrase	no file system found on this partition	šajā nodalījumā nav atrasta neviena failu sistēma
+msg.phrase	the path is too long	ceļš ir pārāk garš
+msg.phrase	joining...	pievienojas...
+msg.phrase	splitting...	sadalīšana...
+msg.phrase	renaming...	pārdēvējot...
+msg.phrase	creating the folder...	izveidojot mapi...
+msg.phrase	creating the file...	izveidojot failu...
+msg.phrase	deleting...	dzēš...
+msg.phrase	writing the attributes...	rakstu atribūtus...
+msg.phrase	the drive is busy	brauciens ir aizņemts
+msg.phrase	busy	aizņemts
+msg.phrase	choose files or folders	izvēlieties failus vai mapes
+msg.phrase	choose files or folders (not "..")	izvēlieties failus vai mapes (nevis "..")
+msg.phrase	stop the CD first	vispirms apturiet kompaktdisku
+msg.phrase	the CD cannot be changed (copy instead)	CD nevar mainīt (tā vietā kopēt)
+msg.phrase	a system folder cannot be moved	sistēmas mapi nevar pārvietot
+msg.phrase	no drive can be written (FAT / exFAT / NTFS only)	nevienu disku nevar ierakstīt (tikai FAT / exFAT / NTFS)
+msg.phrase	the drive is gone	disks ir pagājis
+msg.phrase	nothing chosen	nekas nav izvēlēts
+msg.phrase	nothing selected	nekas nav izvēlēts
+msg.phrase	could not start	nevarēja sākt
+msg.phrase	could not open	nevarēja atvērt
+msg.phrase	only on a FAT / exFAT / NTFS drive	tikai FAT/exFAT/NTFS diskdzinī
+msg.phrase	no name	nav vārda
+msg.phrase	that name already exists	šis nosaukums jau pastāv
+msg.phrase	could not start (bad name or the drive is busy)	nevarēja startēt (slikts nosaukums vai disks ir aizņemts)
+msg.phrase	could not start (the drive is busy)	nevarēja sākt (disks ir aizņemts)
+msg.phrase	the name cannot have / or \\ (only inside this folder)	vārdam nevar būt / vai \\ (tikai šajā mapē)
+msg.phrase	the name is the same	nosaukums ir tāds pats
+msg.phrase	the item is read-only (A to change)	vienums ir tikai lasāms (A lai mainītu)
+msg.phrase	choose a .rb file on a writable drive	izvēlieties .rb failu rakstāmajā diskā
+msg.phrase	choose a .rb file	izvēlieties .rb failu
+msg.phrase	the drive is read-only	disks ir tikai lasāms
+msg.phrase	choose a folder on a writable drive	izvēlieties mapi rakstāmajā diskā
+msg.phrase	wait a moment	pagaidi mirkli
+msg.phrase	choose a file	izvēlieties failu
+msg.phrase	choose a file (not a folder)	izvēlieties failu (nevis mapi)
+msg.phrase	choose a .001 file	izvēlieties .001 failu
+msg.phrase	choose the .001 file	izvēlieties failu .001
+msg.phrase	put the IWAD in a DoomFiles or Doom2Files folder	ievietojiet IWAD mapē DoomFiles vai Doom2Files
+msg.phrase	DoomFiles takes freedoom1 / doom / doomu / doom1.wad	DoomFiles aizņem freedoom1 / doom / doomu / doom1.wad
+msg.phrase	Doom2Files takes freedoom2 / doom2 / plutonia / tnt.wad	Doom2Files aizņem freedoom2 / doom2 / plutonia / tnt.wad
+msg.phrase	put the game files on external storage, not S:	ievietojiet spēles failus ārējā atmiņā, nevis S:
+msg.phrase	the IWAD must be on a FAT / exFAT / NTFS drive (not a CD)	IWAD ir jābūt FAT/exFAT/NTFS diskdzinī (nevis kompaktdiskā)
+msg.phrase	still working	joprojām strādā
+msg.phrase	an image is loading	tiek ielādēts attēls
+msg.phrase	no framebuffer	nav kadru bufera
+msg.phrase	half brightness works only in RGB555	puse spilgtuma darbojas tikai RGB555
+msg.phrase	clearing...	notīra...
+msg.phrase	halving the brightness...	uz pusi samazinot spilgtumu...
+msg.phrase	that is a data track	tas ir datu celiņš
+msg.phrase	wait -- a file is being written	pagaidiet — tiek rakstīts fails
+msg.phrase	only floppy / LS-120 / CD drives	tikai diskešu / LS-120 / CD diskdziņi
+msg.phrase	requested	pieprasīts
+msg.phrase	reading the disc...	lasu disku...
+msg.phrase	stopping...	apstājas...
+msg.phrase	opening...	atverot...
+msg.phrase	done	darīts
+msg.phrase	no memory	nav atmiņas
+msg.phrase	already open	jau atvērts
+msg.phrase	already running	jau darbojas
+msg.phrase	already saving	jau ietaupa
+msg.phrase	already playing	jau spēlē
+msg.phrase	no such drive	nav tāda piedziņas
+msg.phrase	no PSRAM	nav PSRAM
+msg.phrase	no PSRAM for the file	failam nav PSRAM
+msg.phrase	no PSRAM for the line index	līnijas indeksam nav PSRAM
+msg.phrase	no PSRAM for the terminal	terminālim nav PSRAM
+msg.phrase	no memory (PSRAM)	nav atmiņas (PSRAM)
+msg.phrase	no memory (32KB SRAM)	nav atmiņas (32KB SRAM)
+msg.phrase	no memory for the buffer	buferim nav atmiņas
+msg.phrase	no memory for the image buffers	nav atmiņas attēlu buferiem
+msg.phrase	no memory for the read buffer	nav atmiņas lasīšanas buferim
+msg.phrase	no room for the work memory (close the lowres plane?)	nav vietas darba atmiņai (aizveriet zemāko plakni?)
+msg.phrase	no framebuffer page	nav kadru bufera lapas
+msg.phrase	too large (4 MB at most)	pārāk liels (ne vairāk kā 4 MB)
+msg.phrase	the file is too large (1 MB at most)	fails ir pārāk liels (ne vairāk kā 1 MB)
+msg.phrase	the file is too large (1 MB max)	fails ir pārāk liels (maks. 1 MB)
+msg.phrase	too large for an SMF (1MB at most)	pārāk liels SMF (ne vairāk kā 1 MB)
+msg.phrase	the file is empty	fails ir tukšs
+msg.phrase	could not open the file	nevarēja atvērt failu
+msg.phrase	could not read the file	nevarēja nolasīt failu
+msg.phrase	could not open the volume	nevarēja atvērt sējumu
+msg.phrase	could not open the destination (no memory?)	nevarēja atvērt galamērķi (nav atmiņas?)
+msg.phrase	could not read the root folder	nevarēja nolasīt saknes mapi
+msg.phrase	could not start the task	nevarēja sākt uzdevumu
+msg.phrase	could not start writing (bad name or busy)	nevarēja sākt rakstīt (slikts vārds vai aizņemts)
+msg.phrase	another volume is open (busy)	cits sējums ir atvērts (aizņemts)
+msg.phrase	a copy is running	darbojas kopija
+msg.phrase	a folder cannot go into itself	mape nevar iedziļināties sevī
+msg.phrase	that is the same folder	tā ir tā pati mape
+msg.phrase	this drive cannot be changed (read only)	šo disku nevar mainīt (tikai lasāms)
+msg.phrase	the drive is not writable	disks nav rakstāms
+msg.phrase	the part size must be a multiple of 512	daļas izmēram jābūt reizinājumam ar 512
+msg.phrase	files of 4 GB or more are not supported	faili, kuru lielums ir 4 GB vai vairāk, netiek atbalstīti
+msg.phrase	bad path	slikts ceļš
+msg.phrase	bad file name	slikts faila nosaukums
+msg.phrase	the font ROM is not there	fonta ROM tur nav
+msg.phrase	the sound is not open	skaņa nav atvērta
+msg.phrase	no such channel	tāda kanāla nav
+msg.phrase	the sequencer is busy	sekvencētājs ir aizņemts
+msg.phrase	not enough PSRAM for the song	dziesmai nepietiek PSRAM
+msg.phrase	not a standard MIDI file (no MThd)	nav standarta MIDI fails (bez MThd)
+msg.phrase	no tracks	nav pēdu
+msg.phrase	a track is broken (MTrk)	trase ir salauzta (MTrk)
+msg.phrase	SMPTE time division is not supported	SMPTE laika dalījums netiek atbalstīts
+msg.phrase	SMF format 2 is not supported (0 and 1 only)	SMF 2 formāts netiek atbalstīts (tikai 0 un 1)
+msg.phrase	not a Bulk-Only drive	nav tikai lielapjoma disks
+msg.phrase	not an optical drive	nevis optiskais diskdzinis
+msg.phrase	a system folder cannot be deleted or renamed	sistēmas mapi nevar izdzēst vai pārdēvēt
+msg.phrase	no media in the drive	diskā nav datu nesēja
+msg.phrase	becoming ready	kļūst gatavs
+msg.phrase	not ready	nav gatavs
+msg.phrase	media changed	mediji mainījušies
+msg.phrase	medium error	vidēja kļūda
+msg.phrase	illegal request	nelikumīgs pieprasījums
+msg.phrase	a bad directory entry	slikts direktorijas ieraksts
+msg.phrase	a directory on the way does not exist	direktorija ceļā nepastāv
+msg.phrase	a file has that name	failam ir šāds nosaukums
+msg.phrase	a folder has that name	mapei ir šāds nosaukums
+msg.phrase	a name on the way is not a directory	vārds ceļā nav direktorijs
+msg.phrase	cancelled	atcelts
+msg.phrase	could not mount	nevarēja uzstādīt
+msg.phrase	could not start a read	nevarēja sākt lasīt
+msg.phrase	could not start a write	nevarēja sākt rakstīt
+msg.phrase	is a directory	ir direktorijs
+msg.phrase	that is a directory	tas ir direktorijs
+msg.phrase	no clusters	nav kopu
+msg.phrase	no room for the cluster list	nav vietas klasteru sarakstam
+msg.phrase	no such file or directory	nav šāda faila vai direktorija
+msg.phrase	no such file	tāda faila nav
+msg.phrase	no volume	nav skaļuma
+msg.phrase	not NTFS	nevis NTFS
+msg.phrase	not exFAT	nevis exFAT
+msg.phrase	not a directory	nav direktorija
+msg.phrase	not found	nav atrasts
+msg.phrase	read error	lasīšanas kļūda
+msg.phrase	write error	rakstīšanas kļūda
+msg.phrase	reading the FAT failed	FAT nolasīšana neizdevās
+msg.phrase	the cluster chain is shorter than the file	klastera ķēde ir īsāka par failu
+msg.phrase	the directory is not empty	direktorijs nav tukšs
+msg.phrase	the disk is full	disks ir pilns
+msg.phrase	the drive did not answer	braucējs neatbildēja
+msg.phrase	the file is read-only	fails ir tikai lasāms
+msg.phrase	the file is too fragmented	fails ir pārāk sadrumstalots
+msg.phrase	the file is too large (4GB)	fails ir pārāk liels (4 GB)
+msg.phrase	the new name already exists	jaunais nosaukums jau pastāv
+msg.phrase	the root directory is full	saknes direktorijs ir pilns
+msg.phrase	too many files with the same short name	pārāk daudz failu ar tādu pašu īso nosaukumu
+msg.phrase	No such file or directory	Nav šāda faila vai direktorija
+msg.phrase	File exists	Fails pastāv
+msg.phrase	Permission denied	Atļauja liegta
+msg.phrase	Directory not empty	Katalogs nav tukšs
+msg.phrase	Not a directory	Nav direktorija
+msg.phrase	Is a directory	Ir direktorijs
+msg.phrase	Read-only file system	Tikai lasāma failu sistēma
+msg.phrase	No space left on device	Ierīcē vairs nav vietas
+msg.phrase	Input/output error	Ievades/izvades kļūda
+msg.phrase	Not supported on this drive	Šis disks netiek atbalstīts
+msg.phrase	Invalid path	Nederīgs ceļš
+msg.phrase	Out of memory	Trūkst atmiņas
+msg.phrase	No such drive	Nav tāda piedziņas
+msg.phrase	stopped	apstājās
+msg.phrase	cancelled (not enough free space)	atcelts (nav pietiekami daudz brīvas vietas)
+msg.phrase	could not count the free space	nevarēja saskaitīt brīvo vietu
+msg.phrase	the receiver cancelled	uztvērējs ir atcelts
+msg.phrase	no receiver (run rz on the PC)	nav uztvērēja (palaidiet rz datorā)
+msg.phrase	the console UART is in use	tiek izmantota konsole UART
+msg.phrase	the screen mode changed	mainīts ekrāna režīms
+msg.phrase	the lines did not come (is the display running?)	rindas nenāca (vai displejs darbojas?)
+msg.prefix	copy	kopiju
+msg.prefix	move	kustēties
+msg.prefix	delete	dzēst
+msg.prefix	rename	pārdēvēt
+msg.prefix	attributes	atribūti
+msg.prefix	new file	jauns fails
+msg.prefix	new folder	jauna mape
+msg.prefix	image	attēlu
+msg.prefix	mrbc	mrbc
+msg.prefix	ruby	rubīns
+msg.prefix	viewer	skatītājs
+msg.prefix	edit	rediģēt
+msg.prefix	IDENTIFY	Identificēt
+msg.prefix	ZMODEM	ZMODEM
+msg.prefix	ZMODEM receive	ZMODEM saņemt
+msg.prefix	ZMODEM send	ZMODEM nosūtīt
+msg.prefix	split	sadalīt
+msg.prefix	join	pievienoties
+msg.prefix	Doom	Doom
+msg.prefix	SMF	SMF
+msg.prefix	CD	CD
+msg.prefix	FB	FB
+msg.prefix	Eject	Izstumt
+msg.prefix	reboot	pārstartēt
+msg.prefix	license	licence
+msg.prefix	clock	pulkstenis
+msg.prefix	ADC in	ADC iekšā
+msg.prefix	screen -> PNG	ekrāns -> PNG
+msg.prefix	FB -> PNG	FB —> PNG
+msg.prefix	could not open the volume	nevarēja atvērt sējumu
+msg.pattern	received 	saņemts %s
+msg.pattern	sent 	nosūtīts %s
+msg.pattern	saved 	saglabāts %s
+msg.pattern	created 	izveidots %s
+msg.pattern	renamed to 	pārdēvēta par %s
+msg.pattern	deleted 	dzēsts %s
+msg.pattern	changed 	mainīts %s
+msg.pattern	joined 	pievienojās %s
+msg.pattern	split 	sadalīt %s
+msg.pattern	could not create 	nevarēja izveidot %s
+msg.pattern	could not delete 	nevarēja izdzēst %s
+msg.pattern	could not rename to 	nevarēja pārdēvēt par %s
+msg.pattern	could not change 	nevarēja mainīt %s
+msg.pattern	could not read 	nevarēja lasīt %s
+msg.pattern	could not write 	nevarēja uzrakstīt %s
+msg.pattern	could not copy 	nevarēja nokopēt %s
+msg.pattern	could not make 	nevarēja izdarīt %s
+msg.pattern	could not remove the folder 	nevarēja noņemt mapi %s
+msg.pattern	could not remove 	nevarēja noņemt %s
+msg.pattern	no memory for 	nav atmiņas par %s
+msg.pattern	too many errors while sending 	pārāk daudz kļūdu sūtīšanas laikā %s
+msg.pattern	the receiver did not take 	uztvērējs neņēma %s
+msg.pattern	the receiver skipped 	uztvērējs izlaida %s
+msg.pattern	FB page 	FB lapa %s
+msg.word	 bytes each)	baiti katrs)
+msg.word	 bytes)	baiti)
+msg.word	 KB)	KB)
+msg.word	 parts into 	daļās
+msg.word	 parts (	daļas (
+msg.word	 into 	iekšā
+msg.word	: cleared	: notīrīts
+msg.word	: brightness halved	: spilgtums samazināts uz pusi
+msg.word	% read	% lasīts
+msg.word	 rows	rindas
+msg.word	 -- not supported yet (FAT / exFAT / NTFS only)	-- vēl netiek atbalstīts (tikai FAT/exFAT/NTFS)
+msg.word	 files	failus
+msg.word	 (	(
+msg.phrase	Untitled	Bez nosaukuma
+msg.phrase	1 File	1 fails
+msg.phrase	2 Edit	2 Rediģēt
+msg.phrase	3 Graph	3 Grafiks
+msg.phrase	4 Sheet	4 lapa
+msg.phrase	5 Help	5 Palīdzība
+msg.phrase	EMPTY	TUKŠS
+msg.phrase	NUMBER	NUMBER
+msg.phrase	TEXT	TEKSTS
+msg.phrase	FORMULA	FORMULA
+msg.phrase	Type to enter, F2 to edit, F1 for help	Ierakstiet, lai ievadītu, F2, lai rediģētu, F1, lai saņemtu palīdzību
+msg.phrase	5 CSV	5 CSV
+msg.phrase	6 ODS	6 ODS
+msg.phrase	[SHIFT]	[SHIFT]
+msg.phrase	[CTRL]	[CTRL]
+msg.phrase	[ALT]	[ALT]
+msg.phrase	Ready	Gatavs
+msg.phrase	SGCALC	SGCALC
+msg.phrase	Press any key	Nospiediet jebkuru taustiņu
+msg.phrase	Y = yes    N = no    Esc = cancel	Y = jā N = nē Esc = atcelt
+msg.phrase	Enter = OK    Esc = cancel    Ctrl-U = clear	Enter = OK Esc = atcelt Ctrl-U = notīrīt
+msg.phrase	First row/column = labels; charts use the 640x480 CLUT8 FB.	Pirmā rinda/kolonna = etiķetes; diagrammas izmanto 640x480 CLUT8 FB.
+msg.phrase	SGCALC - HELP	SGCALC — PALĪDZĪBA
+msg.phrase	Press any key to return	Lai atgrieztos, nospiediet jebkuru taustiņu
+msg.phrase	Press any key to return.	Lai atgrieztos, nospiediet jebkuru taustiņu.
+msg.phrase	ABOUT SGCALC	PAR SGCALC
+msg.phrase	New	Jauns
+msg.phrase	Start a new sheet	Sāciet jaunu lapu
+msg.phrase	Open...	Atvērt...
+msg.phrase	Open an ODS, FODS or CSV file	Atveriet ODS, FODS vai CSV failu
+msg.phrase	Save	Saglabāt
+msg.phrase	Save the current file	Saglabājiet pašreizējo failu
+msg.phrase	Save As...	Saglabāt kā...
+msg.phrase	Save with a new name or format	Saglabāt ar jaunu nosaukumu vai formātu
+msg.phrase	Export CSV...	Eksportēt CSV...
+msg.phrase	Write a CSV copy	Uzrakstiet CSV kopiju
+msg.phrase	Export ODS...	Eksportēt ODS...
+msg.phrase	Write a LibreOffice copy	Uzrakstiet LibreOffice kopiju
+msg.phrase	Quit	Iziet
+msg.phrase	Leave SGCALC	Atstājiet SGCALC
+msg.phrase	Clear	Skaidrs
+msg.phrase	Clear the selected cells	Notīriet atlasītās šūnas
+msg.phrase	Copy	Kopēt
+msg.phrase	Copy the selection	Kopējiet atlasi
+msg.phrase	Paste	Ielīmēt
+msg.phrase	Paste at the cursor	Ielīmējiet kursorā
+msg.phrase	Cut	Izgriezt
+msg.phrase	Copy and clear the selection	Kopējiet un notīriet atlasi
+msg.phrase	Select all	Atlasiet visu
+msg.phrase	Select all used cells	Atlasiet visas izmantotās šūnas
+msg.phrase	Text color...	Teksta krāsa...
+msg.phrase	Choose the text colour	Izvēlieties teksta krāsu
+msg.phrase	Background...	Fons...
+msg.phrase	Choose the cell background	Izvēlieties šūnas fonu
+msg.phrase	Line	Līnija
+msg.phrase	Draw a line graph from the selection	No atlases uzzīmējiet līniju diagrammu
+msg.phrase	Bar	Bārs
+msg.phrase	Draw a bar graph from the selection	No atlases uzzīmējiet joslu diagrammu
+msg.phrase	Mixed	Jaukti
+msg.phrase	Bars for the first series, lines for the rest	Stieņi pirmajai sērijai, līnijas pārējām
+msg.phrase	Pie	Pīrāgs
+msg.phrase	Draw a pie graph from the selection	Uzzīmējiet sektoru diagrammu no atlases
+msg.phrase	Range...	Diapazons...
+msg.phrase	Set the graph range explicitly	Skaidri iestatiet diagrammas diapazonu
+msg.phrase	Draw again	Zīmējiet vēlreiz
+msg.phrase	Redraw the last graph	Pārzīmējiet pēdējo grafiku
+msg.phrase	Goto...	Iet...
+msg.phrase	Jump to a cell (for example C12)	Pāriet uz šūnu (piemēram, C12)
+msg.phrase	Column width...	Kolonnas platums...
+msg.phrase	Change the selected columns' width	Mainiet atlasīto kolonnu platumu
+msg.phrase	Row height...	Rindas augstums...
+msg.phrase	Change the selected rows' height	Mainiet atlasīto rindu augstumu
+msg.phrase	Auto fit	Auto fit
+msg.phrase	Fit widths/heights to the contents (F7)	Pielāgojiet platumu/augstumu saturam (F7)
+msg.phrase	Recalculate	Pārrēķināt
+msg.phrase	Re-evaluate all formulas	Pārvērtējiet visas formulas
+msg.phrase	Erase all	Dzēst visu
+msg.phrase	Clear the whole sheet	Notīriet visu lapu
+msg.phrase	Keys	Atslēgas
+msg.phrase	Show the key guide	Parādiet taustiņu ceļvedi
+msg.phrase	About	Par
+msg.phrase	About SGCALC	Par SGCALC
+msg.phrase	File	Fails
+msg.phrase	Edit	Rediģēt
+msg.phrase	Graph	Grafiks
+msg.phrase	Sheet	Lapa
+msg.phrase	Help	Palīdzība
+msg.phrase	File: new, open, save, export, quit	Fails: jauns, atvērt, saglabāt, eksportēt, iziet
+msg.phrase	Edit: clear, copy, paste, cut, select all	Rediģēt: notīrīt, kopēt, ielīmēt, izgriezt, atlasīt visu
+msg.phrase	Graph: line, bar, mixed, pie (draws in the FB)	Diagramma: līnija, josla, jaukta, pīrāgs (zīmējas FB)
+msg.phrase	Sheet: goto, column width, recalculate, erase	Lapa: goto, kolonnas platums, pārrēķināt, dzēst
+msg.phrase	Help: keys and about	Palīdzība: atslēgas un par
+msg.phrase	Left/Right = menu    Up/Down = item    Enter = choose    Esc = cancel	Pa kreisi/Pa labi = izvēlne Uz augšu/Uz leju = vienums Enter = izvēlieties Esc = atcelt
+msg.phrase	Cancelled	Atcelts
+msg.phrase	The selection is too large or memory is low.	Izvēle ir pārāk liela vai ir maz atmiņas.
+msg.phrase	the cell	šūna
+msg.phrase	the selection	atlasi
+msg.phrase	Nothing to paste	Nav ko ielīmēt
+msg.phrase	Pasted	Ielīmēts
+msg.phrase	GO TO CELL	DOTIES UZ ŠŪNU
+msg.phrase	Cell reference (A1):	Šūnas atsauce (A1):
+msg.phrase	Goto	Goto
+msg.phrase	COLUMN WIDTH	KOLONAS PLATUMS
+msg.phrase	Width in characters (4..30):	Platums rakstzīmēs (4..30):
+msg.phrase	ROW HEIGHT	RINDAS AUGSTUMS
+msg.phrase	Height in text rows (1..8):	Augstums teksta rindās (1..8):
+msg.phrase	Auto fit: the sheet is empty	Auto fit: lapa ir tukša
+msg.phrase	BACKGROUND COLOUR	FONA KRĀSA
+msg.phrase	TEXT COLOUR	TEKSTA KRĀSA
+msg.phrase	Arrows: choose    Enter: apply    Esc: cancel	Bultiņas: izvēlieties Enter: lietot Esc: atcelt
+msg.phrase	Colour index (PC-98 16-colour palette)	Krāsu indekss (PC-98 16 krāsu palete)
+msg.phrase	Aa 123	Aa 123
+msg.phrase	Enter = apply    Esc = cancel	Enter = lietot Esc = atcelt
+msg.phrase	Colour	Krāsa
+msg.phrase	Background	Fons
+msg.phrase	Text	Teksts
+msg.phrase	GRAPH RANGE	GRAFIKA DIAPAZONS
+msg.phrase	Range (for example A1:C10):	Diapazons (piemēram, A1:C10):
+msg.phrase	Graph range	Grafika diapazons
+msg.phrase	Use a range such as A1:C10.	Izmantojiet diapazonu, piemēram, A1:C10.
+msg.phrase	Cannot draw the graph.	Nevar uzzīmēt grafiku.
+msg.phrase	line	līniju
+msg.phrase	bar	bārs
+msg.phrase	mixed	sajaukts
+msg.phrase	pie	pīrāgs
+msg.phrase	Clear every cell in this sheet?	Vai dzēst visas šūnas šajā lapā?
+msg.phrase	Sheet erased	Lapa izdzēsta
+msg.phrase	Selected all used cells	Atlasītas visas izmantotās šūnas
+msg.phrase	Recalculated	Pārrēķināts
+msg.phrase	Memory	Atmiņa
+msg.phrase	Not enough PSRAM for the spreadsheet.	Nepietiek PSRAM izklājlapai.
+msg.phrase	The sheet is empty.	Lapa ir tukša.
+msg.phrase	No numeric data in the selected range.	Atlasītajā diapazonā nav ciparu datu.
+msg.phrase	Other	Cits
+msg.phrase	No positive values for a pie chart	Sektoru diagrammai nav pozitīvu vērtību
+msg.phrase	LINE	LĪNIJA
+msg.phrase	BAR	BĀRS
+msg.phrase	MIXED	JAUKTAS
+msg.phrase	PIE	PĪRĀGS
+msg.phrase	S:/	S:/
+msg.phrase	Folder	Mape
+msg.phrase	SAVE AS	SAGLABĀT KĀ
+msg.phrase	OPEN FILE	ATvērt failu
+msg.phrase	LibreOffice / CSV	LibreOffice / CSV
+msg.phrase	ODS  FODS  CSV	ODS FODS CSV
+msg.phrase	Name:	Vārds:
+msg.phrase	(type a name, or choose below)	(ievadiet vārdu vai izvēlieties tālāk)
+msg.phrase	Name	Vārds
+msg.phrase	Size	Izmērs
+msg.phrase	Enter=save  Left=up  Right/Enter on [DIR]=open  Tab=drive  Esc=cancel	Enter=save Left=up Right/Enter on [DIR]=atvērt Tab=drive Esc=atcelt
+msg.phrase	Enter=open  Left=up  Right/Enter on [DIR]=open  Tab=drive  Esc=cancel	Enter=atvērt Left=augšup pa labi/Ievadiet uz [DIR]=atvērt Tab=drive Esc=atcelt
+msg.phrase	Not enough memory.	Nepietiek atmiņas.
+msg.phrase	Overwrite	Pārrakstīt
+msg.phrase	Open	Atvērt
+msg.phrase	The file is too large (limit 8 MB).	Fails ir pārāk liels (līdz 8 MB).
+msg.phrase	Not enough memory to read the file.	Nepietiek atmiņas, lai nolasītu failu.
+msg.phrase	Bad ZIP/ODS data.	Slikti ZIP/ODS dati.
+msg.phrase	CRC error in the ODS file.	CRC kļūda ODS failā.
+msg.phrase	Unsupported or damaged file.	Neatbalstīts vai bojāts fails.
+msg.phrase	Saved	Saglabāts
+msg.phrase	Exported	Eksportēts
+msg.phrase	Unsaved changes	Nesaglabātas izmaiņas
+msg.phrase	Save the current sheet before continuing?	Vai saglabāt pašreizējo lapu pirms turpināt?
+msg.phrase	New sheet	Jauna lapa
+msg.phrase	SGTRK	SGTRK
+msg.phrase	UNTITLED	BEZ NOSAUKUMA
+msg.phrase	song is too large	dziesma ir pārāk liela
+msg.phrase	empty file	tukšs fails
+msg.phrase	not an SGT file	nav SGT fails
+msg.phrase	bad BPM	slikts BPM
+msg.phrase	bad speed	slikts ātrums
+msg.phrase	bad title length	slikts virsraksta garums
+msg.phrase	truncated title	saīsināts virsraksts
+msg.phrase	bad character in title	slikts raksturs virsrakstā
+msg.phrase	truncated order	saīsināta kārtība
+msg.phrase	bad order length	slikts pasūtījuma garums
+msg.phrase	bad pattern number in order	slikts modeļa numurs kārtībā
+msg.phrase	truncated pattern list	saīsināts modeļu saraksts
+msg.phrase	bad pattern count	slikts modeļu skaits
+msg.phrase	bad pattern index	slikta modeļa indekss
+msg.phrase	duplicate pattern	dublēts modelis
+msg.phrase	truncated pattern data	saīsināti modeļa dati
+msg.phrase	invalid pattern data	nederīgi modeļa dati
+msg.phrase	trailing data in file	beigu dati failā
+msg.phrase	order refers to a missing pattern	pasūtījums attiecas uz trūkstošu modeli
+msg.phrase	A:/	A:/
+msg.phrase	(untitled)	(bez nosaukuma)
+msg.phrase	Ready. Press F1 for help.	Gatavs. Lai saņemtu palīdzību, nospiediet taustiņu F1.
+msg.phrase	Follow OFF	Sekojiet OFF
+msg.phrase	Nothing to undo	Nav ko atsaukt
+msg.phrase	Undo	Atsaukt
+msg.phrase	Note OFF	Piezīme OFF
+msg.phrase	Set an effect letter first	Vispirms iestatiet efekta burtu
+msg.phrase	Effect cleared	Efekts notīrīts
+msg.phrase	Parameter cleared	Parametrs notīrīts
+msg.phrase	Note cleared	Piezīme notīrīta
+msg.phrase	Instrument cleared	Instruments notīrīts
+msg.phrase	Volume cleared	Skaļums notīrīts
+msg.phrase	Order list is full	Pasūtījumu saraksts ir pilns
+msg.phrase	Order inserted	Pasūtījums ievietots
+msg.phrase	Cannot delete the last order	Nevar izdzēst pēdējo pasūtījumu
+msg.phrase	Order deleted	Pasūtījums dzēsts
+msg.phrase	Playing song	Atskaņo dziesmu
+msg.phrase	Stopped	Apstājās
+msg.phrase	New song	Jauna dziesma
+msg.phrase	Discard unsaved changes and start a new song? (Y/N)	Vai atmest nesaglabātās izmaiņas un sākt jaunu dziesmu? (J/N)
+msg.phrase	Discard unsaved changes and open a song? (Y/N)	Vai atmest nesaglabātās izmaiņas un atvērt dziesmu? (J/N)
+msg.phrase	Discard unsaved changes and quit? (Y/N)	Vai atmest nesaglabātās izmaiņas un iziet? (J/N)
+msg.phrase	Song settings updated	Dziesmu iestatījumi ir atjaunināti
+msg.phrase	Filename is empty	Faila nosaukums ir tukšs
+msg.phrase	Save cancelled	Saglabāšana atcelta
+msg.phrase	Open cancelled	Atvērts atcelts
+msg.phrase	Edit ON	Rediģēt IESL
+msg.phrase	Edit OFF	Rediģēt IZSL
+msg.phrase	Follow ON	Sekojiet ON
+msg.phrase	Edit is OFF. Press F8 to edit.	Rediģēšana ir IZSLĒGTA. Nospiediet F8, lai rediģētu.
+msg.phrase	I/O error	I/O kļūda
+msg.phrase	file is too large	fails ir pārāk liels
+msg.phrase	truncated file	saīsināts fails
+msg.phrase	SINE PAD	SINE PAD
+msg.phrase	TRIANGLE	Trijstūris
+msg.phrase	SAW LEAD	ZĀĢĒJUMS
+msg.phrase	SQUARE	LAUKTS
+msg.phrase	PULSE 25	PULSS 25
+msg.phrase	ORGAN	ORGĀNES
+msg.phrase	BASS	BASS
+msg.phrase	BELL	ZVANS
+msg.phrase	NOISE	TROKSNIS
+msg.phrase	SINE	SINE
+msg.phrase	SAW	ZĀĢIS
+msg.phrase	OFF	IZSLĒGTS
+msg.phrase	ON	IESL
+msg.phrase	ROW	RINDA
+msg.phrase	CHAN LEVEL	KANĀLA LĪMENIS
+msg.phrase	F1 HELP F2 SONG	F1 PALĪDZĪBA F2 DZIESMA
+msg.phrase	F3 INS  F4 SAVE	F3 INS F4 SAGLABĀT
+msg.phrase	F5 PLAY F6 PAT	F5 PLAY F6 PAT
+msg.phrase	F7 STOP F8 EDIT	F7 STOP F8 EDIT
+msg.phrase	F9/F10 OCTAVE	F9/F10 OCTAVE
+msg.phrase	F11 FOLLOW	F11 SEKOT
+msg.phrase	F12 QUIT	F12 IZBEIGT
+msg.phrase	SPACE PLAY/STOP	SPĒLĒT/STOP
+msg.phrase	CTRL-S SAVE	CTRL-S SAGLABĀT
+msg.phrase	CTRL-O OPEN	CTRL-O ATVĒRTS
+msg.phrase	C-N NEW C-Z UNDO	C-N JAUNS C-Z UNDO
+msg.phrase	C-C STOP	C-C STOP
+msg.phrase	#TRANSPORT AND FILES	#TRANSPORTS UN FAILI
+msg.phrase	#ORDER LIST	#PASŪTĪJUMU SARAKSTS
+msg.phrase	#DISPLAY	#DISPLAY
+msg.phrase	#EDITING	#REDIĢĒŠANA
+msg.phrase	#EFFECTS (parameter is hexadecimal)	#EFFECTS (parametrs ir heksadecimāls)
+msg.phrase	LEFT/RIGHT PAGE   ENTER OR F1 CLOSE	KREISĀ/LABĀ LAPA IEVADĪT VAI F1 AIZVĒRT
+msg.phrase	SONG SETTINGS	DZIESMU IESTATĪJUMI
+msg.phrase	UP/DOWN SELECT   LEFT/RIGHT ADJUST   ENTER/F2 CLOSE	UZ AUGŠU/UZ LEJU IZVĒLĒTIES KREISĀ/LABOJĀ REGLAMENTĒT ENTER/F2 AIZVĒRT
+msg.phrase	Type to edit the title. Backspace deletes the last character.	Ierakstiet, lai rediģētu nosaukumu. Backspace izdzēš pēdējo rakstzīmi.
+msg.phrase	BPM range 32..255. Speed range 1..31.	BPM diapazons 32..255. Ātruma diapazons 1..31.
+msg.phrase	Pattern effects can also change speed and BPM while playing.	Modeļa efekti spēles laikā var arī mainīt ātrumu un BPM.
+msg.phrase	INSTRUMENTS	INSTRUMENTI
+msg.phrase	UP/DOWN SELECT   SPACE PREVIEW   ENTER USE   F3 CLOSE	UZ AUGŠU/UZ LEJU IZVĒLĒTIES Space PRIEKŠSKATĪJUMS IEVADĪT IZMANTOT F3 AIZVĒRT
+msg.phrase	All four channels use wavetable synthesis.	Visi četri kanāli izmanto viļņveida sintēzi.
+msg.phrase	Preview plays C-4 on the track under the edit cursor.	Priekšskatījums atskaņo C-4 ierakstā zem rediģēšanas kursora.
+msg.phrase	SAVE SONG AS	SAGLABĀT DZIESMU KĀ
+msg.phrase	ENTER SAVE   F4 OR CTRL-C CANCEL	IEVADĪT SAGLABĀT F4 VAI CTRL-C ATCELT
+msg.phrase	Directory:	Katalogs:
+msg.phrase	File name:	Faila nosaukums:
+msg.phrase	The extension .SGT is added automatically.	Paplašinājums .SGT tiek pievienots automātiski.
+msg.phrase	An existing file can be overwritten.	Esošu failu var pārrakstīt.
+msg.phrase	OPEN SONG	ATKLĀTA DZIESMA
+msg.phrase	ENTER OPEN  BS PARENT  CTRL-O/CTRL-C CANCEL	ENTER OPEN BS PARENT CTRL-O/CTRL-C CANCEL
+msg.phrase	(no .SGT files in this folder)	(šajā mapē nav .SGT failu)
+msg.phrase	CONFIRM	APSTIPRINĀT
+msg.phrase	Y = YES   N / ENTER / CTRL-C = NO	Y = JĀ N / ENTER / CTRL-C = NĒ
+msg.phrase	Y = yes        N = no	Y = jā N = nē
+msg.phrase	C-	C-
+msg.phrase	C#	C#
+msg.phrase	D-	D-
+msg.phrase	D#	D#
+msg.phrase	E-	E-
+msg.phrase	F-	F-
+msg.phrase	F#	F#
+msg.phrase	G-	G-
+msg.phrase	G#	G#
+msg.phrase	A-	A-
+msg.phrase	A#	A#
+msg.phrase	B-	B-
+msg.phrase	A:/dir/name	A:/direktors/nosaukums
+msg.phrase	MThd	MThd
+msg.phrase	broken MThd	salauzts MThd
+msg.phrase	MIDI IMPORT	MIDI IMPORTS
+msg.phrase	MTrk	MTrk
+msg.phrase	broken delta time	salauzts delta laiks
+msg.phrase	broken running status	bojāts skriešanas statuss
+msg.phrase	broken meta event	bojāts meta pasākums
+msg.phrase	broken sysex event	bojāts siseksa pasākums
+msg.phrase	broken channel event	bojāta kanāla notikums
+msg.phrase	SMF output is too small	SMF izvade ir pārāk maza
+msg.phrase	SMF output is too large	SMF izvade ir pārāk liela
+msg.phrase	the song is too long for SMF	dziesma ir pārāk gara priekš SMF
+msg.phrase	TRK1	TRK1
+msg.phrase	%s%d	%s%d
+msg.phrase	%s%d:%s%d	%s%d:%s%d
+msg.phrase	%s	%s
+msg.phrase	%.40s%s	%.40s%s
+msg.phrase	  [%s]   %s	[%s] %s
+msg.phrase	EDIT  	REDIĢĒT
+msg.phrase	READY 	GATAVS
+msg.phrase	%4d 	%4d
+msg.phrase	%s Sum %.7g N %ld%s	%s Summa %.7g N %ld%s
+msg.phrase	ARROWS      move the cell cursor\n	bultiņas pārvieto šūnas kursoru
+msg.phrase	SHIFT+ARR   extend the selection (for graphs/copy)\n	SHIFT+ARR paplašina atlasi (grafikiem/kopēšanai)
+msg.phrase	ENTER       edit the cell; in edit, commit and move down\n	ENTER rediģēt šūnu; rediģēt, veikt un pārvietot uz leju
+msg.phrase	TAB         next cell    SHIFT+TAB  previous cell\n	TAB nākamā šūna SHIFT+TAB iepriekšējā šūna
+msg.phrase	DELETE      clear the selected cell(s)    ESC  cancel\n	DELETE notīrīt atlasīto šūnu(-es) ESC atcelt
+msg.phrase	PGUP/PGDN   move one screen    HOME/END  first/last column\n	PGUP/PGDN pārvietot vienu ekrānu SĀKUMS/BEIGAS pirmajā/pēdējā kolonnā
+msg.phrase	CTRL+HOME   A1    CTRL+END  last used cell\n	CTRL+HOME A1 CTRL+END pēdējā lietotā šūna
+msg.phrase	F1 help  F2 edit  F3 copy  F4 paste  F5 goto  F6 colour\n	F1 palīdzība F2 rediģēt F3 kopēt F4 ielīmēt F5 goto F6 color
+msg.phrase	F7 auto-fit  F8 background  F9 recalc  F10 graph  F11 save  F12 menu\n	F7 automātiskā pielāgošana F8 fons F9 pārrēķināt F10 diagramma F11 saglabāt F12 izvēlni
+msg.phrase	SHIFT+F1 about  SHIFT+F2 row height  SHIFT+F3 column width\n	SHIFT+F1 par SHIFT+F2 rindas augstumu SHIFT+F3 kolonnas platumu
+msg.phrase	SHIFT+F4 select all  SHIFT+F10 graph range  SHIFT+F11 save as\n	SHIFT+F4 atlasīt visu SHIFT+F10 diagrammu diapazonu SHIFT+F11 saglabāt kā
+msg.phrase	CTRL+F1 new  CTRL+F2 open  CTRL+F3 save  CTRL+F4 save as\n	CTRL+F1 jauns CTRL+F2 atvērt CTRL+F3 saglabāt CTRL+F4 saglabāt kā
+msg.phrase	CTRL+F5 export CSV  CTRL+F6 export ODS  ALT+F12 quit\n	CTRL+F5 eksportēt CSV CTRL+F6 eksportēt ODS ALT+F12 iziet
+msg.phrase	Bottom 2 lines: function keys; [SHIFT]/[CTRL]/[ALT] like the filer\n	Apakšējās 2 rindas: funkciju taustiņi; [SHIFT]/[CTRL]/[ALT] tāpat kā fails
+msg.phrase	CTRL+S save  CTRL+O open  CTRL+N new  CTRL+C/V/X copy/paste/cut\n	CTRL+S saglabāt CTRL+O atvērt CTRL+N jauns CTRL+C/V/X kopēt/ielīmēt/izgriezt
+msg.phrase	CTRL+G goto    /  open the menu (1 File, 2 Edit, ...)\n	CTRL+G dodieties / atveriet izvēlni (1 fails, 2 rediģēšana, ...)
+msg.phrase	Built-in functions: SUM AVERAGE MIN MAX COUNT COUNTA\n	Iebūvētās funkcijas: SUM AVERAGE MIN MAX COUNT COUNTA
+msg.phrase	PRODUCT ABS SQRT INT ROUND MOD POWER IF AND OR NOT\n	PRODUCT ABS SQRT INT ROUND MOD POWER JA UN VAI NĒ
+msg.phrase	IFERROR LEN LEFT RIGHT MID UPPER LOWER TRIM CONCATENATE PI\n	IFERROR LEN LEFT LIGHT VIDUS AUGŠĒJĀ APAKŠĒJĀ TRIM CONCATENATE PI
+msg.phrase	Cell refs: A1, $A$1, A1:B10.  Formulas begin with '='.\n	Šūnu refs: A1, $A$1, A1:B10.  Formulas sākas ar “=”.
+msg.phrase	Files: .ods (LibreOffice), .fods (flat XML), .csv\n	Faili: .ods (LibreOffice), .fods (flat XML), .csv
+msg.phrase	ODS/FODS keeps formulas, widths, heights and colours.\n	ODS/FODS saglabā formulas, platumus, augstumus un krāsas.
+msg.phrase	CSV keeps values and formulas (no colours/heights).\n	CSV saglabā vērtības un formulas (bez krāsām/augstumiem).
+msg.phrase	Graph: select a range, press F10, and choose Line/Bar/Mixed/Pie.\n	Diagramma: atlasiet diapazonu, nospiediet F10 un izvēlieties Line/Bar/Mixed/Pie.
+msg.phrase	SGCALC for sgnano\n	SGCALC priekš sgnano
+msg.phrase	Version 	Versija
+msg.phrase	A Lotus 1-2-3 style spreadsheet as an SGX program.\n\n	Lotus 1-2-3 stila izklājlapa kā SGX programma.
+msg.phrase	SGX ABI %u.%u\n	SGX ABI %u.%u
+msg.phrase	Screen mode 3: text + CLUT8 FB (lowres disabled)\n	3. ekrāna režīms: teksts + CLUT8 FB (zemais līmenis ir atspējots)
+msg.phrase	Sheet: %d rows x %d columns\n	Lapa: %d rindas x %d kolonnas
+msg.phrase	Formats: .ods / .fods (LibreOffice), .csv\n\n	Formāti: .ods / .fods (LibreOffice), .csv
+msg.phrase	The grid is drawn on the text plane.\n	Režģis tiek uzzīmēts teksta plaknē.
+msg.phrase	Charts and the 640x480 background use the FB.\n\n	Diagrammas un 640x480 fons izmanto FB.
+msg.phrase	%d %s	%d %s
+msg.phrase	Cannot store the cell (%d).	Nevar saglabāt šūnu (%d).
+msg.phrase	Copied %d x %d cells	Nokopētas %d x %d šūnas
+msg.phrase	Cleared %s	Notīrīts %s
+msg.phrase	'%s' is not a cell reference.	“%s” nav šūnas atsauce.
+msg.phrase	%d	%d
+msg.phrase	Column width = %d	Kolonnas platums = %d
+msg.phrase	Row height = %d	Rindas augstums = %d
+msg.phrase	Auto fit: %d column(s), %d row(s)	Automātiska pielāgošana: %d kolonna(-as), %d rinda(-s)
+msg.phrase	%2d	%2d
+msg.phrase	Cannot apply the colour (%d).	Nevar piemērot krāsu (%d).
+msg.phrase	%s colour = %d	%s krāsa = %d
+msg.phrase	Not a valid range.\nUse a range such as A1:C10.	Nav derīgs diapazons.\nIzmantojiet diapazonu, piemēram, A1:C10.
+msg.phrase	Graph range %s	Grafika diapazons %s
+msg.phrase	Graph: %s	Grafiks: %s
+msg.phrase	SGCALC: cannot set screen mode 3: %s\n	SGCALC: nevar iestatīt ekrāna režīmu 3: %s
+msg.phrase	%.2g	%.2g
+msg.phrase	%.6g	%.6g
+msg.phrase	%s  %.0f%%	%s %.0f%%
+msg.phrase	GRAPH  %s  %s	GRAFIKS %s %s
+msg.phrase	%s%s	%s%s
+msg.phrase	%s/%s	%s/%s
+msg.phrase	%.*s	%.*s
+msg.phrase	%.*s/	%.*s/
+msg.phrase	Cannot read %s\n%s	Nevar nolasīt %s\n%s
+msg.phrase	Folder: %s	Mape: %s
+msg.phrase	[DIR] %s	[DIR] %s
+msg.phrase	      %s	%s
+msg.phrase	%lu.%luM	%lu.%luM
+msg.phrase	%luK	%luK
+msg.phrase	%luB	%luB
+msg.phrase	BOOK1%s	GRĀMATA1%s
+msg.phrase	%c:/	%c:/
+msg.phrase	Unsupported extension.\nUse .csv, .ods or .fods.	Neatbalstīts paplašinājums.\nIzmantojiet .csv, .ods vai .fods.
+msg.phrase	%s already exists.\nOverwrite it?	%s jau pastāv.\nVai to pārrakstīt?
+msg.phrase	%s may not be writable.\nTry anyway?	%s var nebūt rakstāms.\nVai tomēr mēģināt?
+msg.phrase	Unknown file type for %s	Nezināms faila tips %s
+msg.phrase	Unsupported file type.\nUse .csv, .ods or .fods.	Neatbalstīts faila veids.\nIzmantojiet .csv, .ods vai .fods.
+msg.phrase	Cannot open %s\n%s	Nevar atvērt %s\n%s
+msg.phrase	%s is a folder.	%s ir mape.
+msg.phrase	Cannot import %s\n%s	Nevar importēt %s\n%s
+msg.phrase	Loaded %s	Ielādēts %s
+msg.phrase	Cannot build the %s file.	Nevar izveidot failu %s.
+msg.phrase	Cannot write %s\n%s	Nevar uzrakstīt %s\n%s
+msg.phrase	%s %s	%s %s
+msg.phrase	unsupported version %u	neatbalstīta versija %u
+msg.phrase	%d:%d:%d:%d:%d:%d	%d:%d:%d:%d:%d:%d
+msg.phrase	Octave %d	Oktāva %d
+msg.phrase	Note %s	Piezīme %s
+msg.phrase	Instrument %d	Instruments %d
+msg.phrase	Volume %s	Skaļums %s
+msg.phrase	Effect %c	Efekts %c
+msg.phrase	Parameter %s	Parametrs %s
+msg.phrase	Pattern %s	Raksts %s
+msg.phrase	Playing pattern %s	Spēļu raksts %s
+msg.phrase	SAVE ERROR: %s	SAGLABĀŠANAS KĻŪDA: %s
+msg.phrase	Saved %s	Saglabāts %s
+msg.phrase	LOAD ERROR: %s	LOAD KĻŪDA: %s
+msg.phrase	BPM %d	BPM %d
+msg.phrase	Speed %d	Ātrums %d
+msg.phrase	Preview %s	Priekšskatījums %s
+msg.phrase	Instrument %s %s	Instruments %s %s
+msg.phrase	Overwrite %s? (Y/N)	Pārrakstīt %s? (J/N)
+msg.phrase	 | BPM %s SPD %s 	| BPM %s SPD %s
+msg.phrase	 SGNO TRACKER 1.0 | 	SGNO TRACKER 1.0 |
+msg.phrase	FILE 	FILE
+msg.phrase	 PAT %s	PAT %s
+msg.phrase	 ORD %d/%d	ORD %d/%d
+msg.phrase	 INS %s 	INS %s
+msg.phrase	 OCT %d	OCT %d
+msg.phrase	 EDIT %s	REDIĢĒT %s
+msg.phrase	ON 	IESL
+msg.phrase	 FOL %s	FOL %s
+msg.phrase	TRACK %d	TRASE %d
+msg.phrase	%c%s	%c%s
+msg.phrase	%s %s %s %s	%s %s %s %s
+msg.phrase	%s 	%s
+msg.phrase	%d %s %s	%d %s %s
+msg.phrase	ORDER %d/%d	PASŪTĪT %d/%d
+msg.phrase	PAT   %s	PAT %s
+msg.phrase	INS %s %s	INS %s %s
+msg.phrase	OCT %d  EDIT %s	OCT %d REDIĢĒT %s
+msg.phrase	FOLLOW %s	SEKOT %s
+msg.phrase	PLAYING  ORD %d/%d  PAT %s  ROW %s/%d  SPD %s  BPM %d  F7 STOP	ATSKAŅOŠANAS VADĪBA %d/%d PAT %s RINDA %s/%d SPD %s BPM %d F7 STOP
+msg.phrase	READY  EDIT %s  OCT %d  F1 HELP  F5 PLAY  CTRL-S SAVE	GATAVS REDIĢĒT %s OKT %d F1 PALĪDZĪBA F5 ATSKAŅOT CTRL-S SAGLABĀT
+msg.phrase	 %s 	%s
+msg.phrase	  F5          Play the song from the current order	F5 Atskaņojiet dziesmu no pašreizējā secības
+msg.phrase	  F6          Play the current pattern	F6 Atskaņojiet pašreizējo shēmu
+msg.phrase	  F7/Ctrl-C   Stop playback	F7/Ctrl-C Apturēt atskaņošanu
+msg.phrase	  Space       Play / stop	Space Play / stop
+msg.phrase	  F4          Save as	F4 Saglabāt kā
+msg.phrase	  Ctrl-S      Save (asks for a name if new)	Ctrl-S Saglabāt (prasa vārdu, ja jauns)
+msg.phrase	  Ctrl-O      Open a song	Ctrl-O Atveriet dziesmu
+msg.phrase	  Ctrl-N      New song	Ctrl-N Jauna dziesma
+msg.phrase	  F12         Quit (confirmation if modified)	F12 Iziet (apstiprinājums, ja tiek mainīts)
+msg.phrase	  [ ]         Previous / next order entry	[ ] Iepriekšējais/nākamais pasūtījuma ieraksts
+msg.phrase	  { }         Insert / delete an order entry	{ } Ievietojiet/dzēsiet pasūtījuma ierakstu
+msg.phrase	  - +         Change the pattern in the entry	- + Mainiet rakstu ierakstā
+msg.phrase	  F11         Follow playback (turns off on manual move)	F11 Sekot atskaņošanai (izslēdzas manuāli pārvietojot)
+msg.phrase	  F1          Help; Left/Right changes page	F1 palīdzība; Pa kreisi/pa labi maina lapu
+msg.phrase	  F8          Toggle edit mode	F8 Pārslēgt rediģēšanas režīmu
+msg.phrase	  Arrows      Move the cursor	Bultiņas Pārvietojiet kursoru
+msg.phrase	  PgUp/PgDn   Jump 16 rows	PgUp/PgDn Pārlēkt 16 rindas
+msg.phrase	  Home/End    First / last row	Sākums/Beigas Pirmā / pēdējā rinda
+msg.phrase	  F9/F10      Octave down / up	F9/F10 Oktāva uz leju/uz augšu
+msg.phrase	  Z S X D C V G B H N J M      lower piano row	Z S X D C V G B H N J M apakšējā klavieru rinda
+msg.phrase	  Q 2 W 3 E R 5 T 6 Y 7 U      upper piano row	Q 2 W 3 E R 5 T 6 Y 7 U augšējā klavieru rinda
+msg.phrase	  1           Note off	1 Piezīme izslēgta
+msg.phrase	  0 / Del     0 clears note/inst/fx; Del clears any	0 / Del 0 notīra note/inst/fx; Del notīra jebkuru
+msg.phrase	  Ctrl-Z      Undo the last pattern/order edit	Ctrl-Z Atsaukt pēdējo modeļa/pasūtījuma rediģēšanu
+msg.phrase	  Axy   Volume slide: up x, down y	Axy Volume slaids: uz augšu x, uz leju y
+msg.phrase	  Cxx   Note cut after xx ticks	Cxx Piezīme izgriezta pēc xx atzīmēm
+msg.phrase	  Dxx   Set volume (00..7F)	Dxx Iestatīt skaļumu (00..7F)
+msg.phrase	  Fxx   Speed if xx < 20, otherwise BPM	Fxx ātrums, ja xx < 20, pretējā gadījumā BPM
+msg.phrase	  Hxy   Arpeggio x, y semitones	Hxy Arpeggio x, y pustoņi
+msg.phrase	  Pxx   Pitch slide up	Pxx Pitch slaids uz augšu
+msg.phrase	  Qxx   Pitch slide down	Qxx Nobīde uz leju
+msg.phrase	  F2 song settings, F3 instrument list	F2 dziesmu iestatījumi, F3 instrumentu saraksts
+msg.phrase	HELP %d/2	PALĪDZĪBA %d/2
+msg.phrase	  Title	Nosaukums
+msg.phrase	  [%s_]	[%s_]
+msg.phrase	  BPM   : %d     (left/right -1/+1, -/+ -5/+5)	BPM: %d (pa kreisi/pa labi -1/+1, -/+ -5/+5)
+msg.phrase	  Speed : %d ticks/row	Ātrums: %d ērces/rinda
+msg.phrase	  Rows  : %d (fixed)	Rindas: %d (fiksēta)
+msg.phrase	  Order : %d entries	Pasūtījums: %d ieraksti
+msg.phrase	  Patterns in use : %d	Izmantotie modeļi: %d
+msg.phrase	 #  NAME       WAVE       A   D   S   R  VOL	# NOSAUKUMS WAVE A D S R VOL
+msg.phrase	 %c %d  %-9s %-9s %3d %3d %3d %3d %4d	%c %d %-9s %-9s %3d %3d %3d %3d %4d
+msg.phrase	Current instrument: %s %s	Pašreizējais instruments: %s %s
+msg.phrase	  %s	%s
+msg.phrase	DIR  %s	REŽ. %s
+msg.phrase	 %c %s%s	%c %s%s
+msg.phrase	Files: %d	Faili: %d
+msg.phrase	%02d	%02d
+msg.phrase	%03d	%03d
+msg.phrase	%02X	%02X
+msg.phrase	SGNO TRACKER: incompatible SGX ABI\n	SGNO TRACKER: nesaderīgs SGX ABI
+msg.phrase	S: check: wait -- a file is being read or written	S: pārbaudiet: pagaidiet — fails tiek lasīts vai rakstīts
+msg.phrase	S: check: the drive is busy or not ready	S: pārbaudiet: disks ir aizņemts vai nav gatavs
+msg.phrase	nothing for this item (ContextMenu.cfg)	nekas šim vienumam (ContextMenu.cfg)
+msg.phrase	bad command in ContextMenu.cfg	slikta komanda ContextMenu.cfg
+msg.phrase	unknown action in ContextMenu.cfg	nezināma darbība ContextMenu.cfg
+msg.prefix	menu	izvēlne
+msg.phrase	choose a file or folder	izvēlieties failu vai mapi
+msg.phrase	this drive cannot be written	šo disku nevar ierakstīt
+msg.phrase	an archive job is already running	arhīva darbs jau darbojas
+msg.phrase	no PSRAM for the archive task	nav PSRAM arhīva uzdevumam
+msg.phrase	could not start the archive task	nevarēja sākt arhivēšanas uzdevumu
+msg.phrase	too many items (32 at most)	pārāk daudz preču (ne vairāk kā 32)
+msg.phrase	nothing to compress	nav ko saspiest
+msg.phrase	no name (or the name has / or \\)	nav vārda (vai vārdam ir / vai \\)
+msg.phrase	32 items at most (mark fewer, or put them in a folder)	Ne vairāk kā 32 vienumi (atzīmējiet mazāk vai ievietojiet tos mapē)
+msg.prefix	archive	arhīvs
+msg.prefix	compress	saspiest
+msg.prefix	render	renderēt
+msg.phrase	5 Macro	5 Makro
+msg.phrase	6 Help	6 Palīdzība
+msg.phrase	Run current	Palaidiet strāvu
+msg.phrase	Run the macro at the cursor (#! header cell and the cells below it)	Palaidiet makro kursorā (#! galvenes šūna un šūnas zem tā)
+msg.phrase	Run selection	Palaist atlasi
+msg.phrase	Run the selected cells as one macro (top-left cell is the #! header)	Palaidiet atlasītās šūnas kā vienu makro (augšējā kreisā šūna ir #! galvene)
+msg.phrase	Run all	Palaist visu
+msg.phrase	Run every macro in the sheet, top-left to bottom-right	Palaidiet katru lapas makro no augšas no kreisās puses uz apakšējo labo
+msg.phrase	Last error	Pēdējā kļūda
+msg.phrase	Show the last macro error	Rādīt pēdējo makro kļūdu
+msg.phrase	Macro	Makro
+msg.phrase	Macro: run #!ruby / #!python / #!basic cells	Makro: palaidiet #!ruby / #!python / #!pamata šūnas
+msg.phrase	Edit the cell (F2)	Rediģēt šūnu (F2)
+msg.phrase	Fit widths/heights to the contents	Pielāgojiet platumu/augstumu saturam
+msg.phrase	Last macro error	Pēdējā makro kļūda
+msg.phrase	No macro error.	Nav makro kļūdu.
+msg.phrase	IME on	IME ieslēgts
+msg.phrase	IME off	IME izslēgts
+msg.phrase	Macro: %s %s ...	Makro: %s %s ...
+msg.phrase	%s: this firmware cannot run macros (SGX ABI 5.10 or later)	%s: šī programmaparatūra nevar palaist makro (SGX ABI 5.10 vai jaunāka versija)
+msg.phrase	Macro error: %s	Makro kļūda: %s
+msg.phrase	Macro: %s done	Makro: %s Gatavs
+msg.phrase	a macro is already running	makro jau darbojas
+msg.phrase	this language is not available	šī valoda nav pieejama
+msg.phrase	not enough memory	nepietiek atmiņas
+msg.phrase	the macro stopped with an error	makro apstājās ar kļūdu
+msg.phrase	Macro error %s: %s	Makro kļūda %s: %s
+msg.phrase	Macro: not enough memory	Makro: nepietiek atmiņas
+msg.phrase	Macro: the cursor is not on a macro (a #!ruby / #!python / #!basic cell or the cells below it)	Makro: kursors neatrodas uz makro (#!ruby / #!python / #!pamata šūna vai šūnas zem tā)
+msg.phrase	Macro: no macro in the sheet	Makro: lapā nav makro
+msg.phrase	Run all macros	Palaist visus makro
+msg.phrase	Macros: %d. Run them all, top-left to bottom-right? Changes cannot be undone.	Makro: %d. Vai palaist tos visus — no augšējās kreisās puses uz apakšējo labo pusi? Izmaiņas nevar atsaukt.
+msg.phrase	Macro: %d of %d done	Makro: %d no %d pabeigts
+msg.phrase	Cleared the cell	Iztīrīja šūnu
+msg.phrase	Cleared the selection	Notīrīta atlase
+msg.phrase	Background colour = %d	Fona krāsa = %d
+msg.phrase	Text colour = %d	Teksta krāsa = %d
+msg.phrase	Graph: line	Grafiks: līnija
+msg.phrase	Graph: bar	Grafiks: josla
+msg.phrase	Graph: mixed	Grafiks: jaukts
+msg.phrase	Graph: pie	Grafiks: pīrāgs
+msg.phrase	Exported %s	Eksportēts %s

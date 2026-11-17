@@ -1,0 +1,787 @@
+# pl: machine translation (Google), unreviewed; 2026-11-17
+M001	napęd zniknął
+M002	czytając jeszcze raz partycje...
+M003	nie można otworzyć woluminu (brak pamięci?)
+M004	otwieranie głośności...
+M005	brak pamięci na listę plików
+M006	czytanie katalogu... (ponawianie próby)
+M007	nie można odczytać katalogu
+M008	czytam katalog...
+M009	dysk nie odpowiedział - ponownie odczytuje partycje
+M010	nie można odczytać katalogu (nie FAT12/16/32?)
+M011	za dużo wpisów - wyświetlanie pierwszych
+M012	nie znaleziono systemu plików na tej partycji
+M013	ścieżka jest za długa
+M014	łączący...
+M015	dekompozycja...
+M016	zmiana nazwy...
+M017	tworzenie folderu...
+M018	tworzenie pliku...
+M019	usuwanie...
+M020	napisz atrybuty...
+M021	dysk jest zajęty
+M022	zajęty
+M023	wybierz pliki lub foldery
+M024	wybierz pliki lub foldery (nie „..”)
+M025	najpierw zatrzymaj płytę CD
+M026	płyty CD nie można zmienić (zamiast tego skopiuj)
+M027	nie można przenieść folderu systemowego
+M028	nie można zapisać żadnego dysku (tylko FAT / exFAT / NTFS)
+M029	napęd zniknął
+M030	nic nie zostało wybrane
+M031	nic nie zostało wybrane
+M032	nie można było rozpocząć
+M033	nie można było otworzyć
+M034	tylko na dysku FAT/exFAT/NTFS
+M035	bez imienia
+M036	ta nazwa już istnieje
+M037	nie można uruchomić (zła nazwa lub dysk jest zajęty)
+M038	nie można uruchomić (dysk jest zajęty)
+M039	nazwa nie może zawierać / lub \\ (tylko w tym folderze)
+M040	nazwa jest taka sama
+M041	element jest tylko do odczytu (A do zmiany)
+M042	wybierz plik .rb na dysku zapisywalnym
+M043	wybierz plik .rb
+M044	dysk jest tylko do odczytu
+M045	wybierz folder na dysku zapisywalnym
+M046	poczekaj chwilę
+M047	wybierz plik
+M048	wybierz plik (nie folder)
+M049	wybierz plik .001
+M050	wybierz plik .001
+M051	umieść IWAD w folderze DoomFiles lub Doom2Files
+M052	DoomFiles pobiera freedoom1 / doom / doomu / doom1.wad
+M053	Doom2Files pobiera freedoom2 / doom2 / plutonia / tnt.wad
+M054	umieść pliki gry na pamięci zewnętrznej, a nie na S:
+M055	IWAD musi znajdować się na dysku FAT / exFAT / NTFS (nie na płycie CD)
+M056	nadal pracuje
+M057	ładuje się obraz
+M058	brak bufora ramki
+M059	połowa jasności działa tylko w RGB555
+M060	clearing...
+M061	zmniejszenie o połowę jasności...
+M062	to jest ścieżka danych
+M063	czekaj — plik jest zapisywany
+M064	tylko stacje dyskietek / LS-120 / CD
+M065	wymagany
+M066	czytam płytę...
+M067	zatrzymanie...
+M068	otwór...
+M069	zrobione
+M070	brak pamięci
+M071	już otwarte
+M072	już działa
+M073	już oszczędzam
+M074	już gra
+M075	nie ma takiego napędu
+M076	brak PSRAM-u
+M077	brak PSRAM-u dla pliku
+M078	brak PSRAM dla indeksu linii
+M079	brak PSRAM-u dla terminala
+M080	brak pamięci (PSRAM)
+M081	brak pamięci (32KB SRAM)
+M082	brak pamięci dla bufora
+M083	brak pamięci dla buforów obrazu
+M084	brak pamięci dla bufora odczytu
+M085	brak miejsca na pamięć roboczą (zamknąć płaszczyznę niskiej rozdzielczości?)
+M086	brak strony bufora ramki
+M087	za duży (maksymalnie 4 MB)
+M088	plik jest za duży (maksymalnie 1 MB)
+M089	plik jest za duży (maks. 1 MB)
+M090	za duży dla SMF (maksymalnie 1 MB)
+M091	plik jest pusty
+M092	nie można otworzyć pliku
+M093	nie udało się odczytać pliku
+M094	nie można otworzyć woluminu
+M095	nie można otworzyć miejsca docelowego (brak pamięci?)
+M096	nie można odczytać folderu głównego
+M097	nie można rozpocząć zadania
+M098	nie można rozpocząć pisania (złe imię lub zajęty)
+M099	inny wolumin jest otwarty (zajęty)
+M100	kopia działa
+M101	folder nie może wejść do samego siebie
+M102	to jest ten sam folder
+M103	tego dysku nie można zmienić (tylko do odczytu)
+M104	dysk nie jest zapisywalny
+M105	rozmiar części musi być wielokrotnością 512
+M106	pliki o rozmiarze 4 GB lub większym nie są obsługiwane
+M107	zła ścieżka
+M108	zła nazwa pliku
+M109	nie ma ROMu czcionek
+M110	dźwięk nie jest otwarty
+M111	nie ma takiego kanału
+M112	sekwencer jest zajęty
+M113	za mało PSRAM dla utworu
+M114	nie jest to standardowy plik MIDI (bez MThd)
+M115	żadnych śladów
+M116	tor jest uszkodzony (MTrk)
+M117	Podział czasu SMPTE nie jest obsługiwany
+M118	Format SMF 2 nie jest obsługiwany (tylko 0 i 1)
+M119	nie jest to dysk masowy
+M120	nie napęd optyczny
+M121	folderu systemowego nie można usunąć ani zmienić jego nazwy
+M122	brak nośnika w napędzie
+M123	stawanie się gotowym
+M124	nie gotowy
+M125	zmieniły się media
+M126	średni błąd
+M127	nielegalne żądanie
+M128	zły wpis w katalogu
+M129	katalog po drodze nie istnieje
+M130	plik ma taką nazwę
+M131	folder ma taką nazwę
+M132	nazwa po drodze nie jest katalogiem
+M133	odwołany
+M134	nie udało się zamontować
+M135	nie można rozpocząć odczytu
+M136	nie można rozpocząć zapisu
+M137	jest katalogiem
+M138	to jest katalog
+M139	żadnych klastrów
+M140	nie ma miejsca na listę klastrów
+M141	nie ma takiego pliku ani katalogu
+M142	nie ma takiego pliku
+M143	brak głośności
+M144	nie NTFS
+M145	nie exFAT
+M146	nie katalog
+M147	nie znaleziono
+M148	odczytaj błąd
+M149	napisz błąd
+M150	odczyt FAT nie powiódł się
+M151	łańcuch klastrów jest krótszy niż plik
+M152	katalog nie jest pusty
+M153	dysk jest pełny
+M154	napęd nie odpowiedział
+M155	plik jest tylko do odczytu
+M156	plik jest zbyt pofragmentowany
+M157	plik jest za duży (4 GB)
+M158	nowa nazwa już istnieje
+M159	katalog główny jest pełny
+M160	za dużo plików o tej samej krótkiej nazwie
+M161	Nie ma takiego pliku ani katalogu
+M162	Plik istnieje
+M163	Odmowa pozwolenia
+M164	Katalog nie jest pusty
+M165	Nie katalog
+M166	Jest katalogiem
+M167	System plików tylko do odczytu
+M168	Brak wolnego miejsca na urządzeniu
+M169	Błąd wejścia/wyjścia
+M170	Nieobsługiwane na tym dysku
+M171	Nieprawidłowa ścieżka
+M172	Brak pamięci
+M173	Nie ma takiego napędu
+M174	zatrzymał się
+M175	anulowane (za mało wolnego miejsca)
+M176	nie można policzyć wolnego miejsca
+M177	odbiornik anulowany
+M178	brak odbiornika (uruchom rz na PC)
+M179	konsola UART jest w użyciu
+M180	tryb ekranu uległ zmianie
+M181	linie nie pojawiły się (czy wyświetlacz działa?)
+M182	kopia
+M183	przenosić
+M184	usuwać
+M185	przemianować
+M186	atrybuty
+M187	nowy plik
+M188	nowy folder
+M189	obraz
+M190	mrbc
+M191	rubin
+M192	dozorca
+M193	redagować
+M194	ZIDENTYFIKOWAĆ
+M195	ZMODEM
+M196	ZMODEM odbiera
+M197	ZMODEM wyślij
+M198	podział
+M199	dołączyć
+M200	Los
+M201	SMF
+M202	płyta CD
+M203	pełne wyżywienie
+M204	Wyrzucać
+M205	ponowne uruchomienie
+M206	licencja
+M207	zegar
+M208	ADC w
+M209	ekran -> PNG
+M210	FB -> PNG
+M211	nie można otworzyć woluminu
+M212	otrzymane
+M213	wysłano
+M214	zapisane
+M215	stworzony
+M216	przemianowany na
+M217	usunięte
+M218	zmieniony
+M219	dołączył
+M220	podział
+M221	nie mógł stworzyć
+M222	nie udało się usunąć
+M223	nie można zmienić nazwy na
+M224	nie mógł się zmienić
+M225	nie mogłem przeczytać
+M226	nie mogłem pisać
+M227	nie udało się skopiować
+M228	nie mógł zrobić
+M229	nie można usunąć folderu
+M230	nie udało się usunąć
+M231	brak pamięci dla
+M232	zbyt wiele błędów podczas wysyłania
+M233	odbiorca nie przyjął
+M234	odbiorca pominął
+M235	Strona na FB
+M236	bajtów każdy)
+M237	bajty)
+M238	KB)
+M239	części w
+M240	części (
+M241	do
+M242	: wyczyszczone
+M243	: jasność zmniejszona o połowę
+M244	% Czytać
+M245	wydziwianie
+M246	- jeszcze nieobsługiwane (tylko FAT / exFAT / NTFS)
+M247	akta
+M248	(
+M249	Nieuprawny
+M250	1 plik
+M251	2 Edytuj
+M252	3 Wykres
+M253	4 arkusze
+M254	5 Pomoc
+M255	PUSTY
+M256	NUMER
+M257	TEKST
+M258	FORMUŁA
+M259	Wpisz, aby wejść, F2, aby edytować, F1, aby uzyskać pomoc
+M260	5 CSV
+M261	6 ODS
+M262	[ZMIANA]
+M263	[KLAWISZ KONTROLNY]
+M264	[ALAT]
+M265	Gotowy
+M266	SGCALC
+M267	Naciśnij dowolny klawisz
+M268	Y = tak N = nie Esc = anuluj
+M269	Enter = OK Esc = anuluj Ctrl-U = wyczyść
+M270	Pierwszy wiersz/kolumna = etykiety; wykresy wykorzystują 640x480 CLUT8 FB.
+M271	SGCALC - POMOCY
+M272	Aby powrócić, naciśnij dowolny klawisz
+M273	Aby powrócić, naciśnij dowolny klawisz.
+M274	O SGCALC
+M275	Nowy
+M276	Rozpocznij nowy arkusz
+M277	Otwarte...
+M278	Otwórz plik ODS, FODS lub CSV
+M279	Ratować
+M280	Zapisz bieżący plik
+M281	Zapisz jako...
+M282	Zapisz pod nową nazwą lub formatem
+M283	Eksportuj plik CSV...
+M284	Napisz kopię CSV
+M285	Eksportuj ODS...
+M286	Napisz kopię LibreOffice
+M287	Zrezygnować
+M288	Opuść SGCALC
+M289	Jasne
+M290	Wyczyść wybrane komórki
+M291	Kopia
+M292	Skopiuj zaznaczenie
+M293	Pasta
+M294	Wklej w miejscu kursora
+M295	Cięcie
+M296	Skopiuj i wyczyść zaznaczenie
+M297	Zaznacz wszystko
+M298	Wybierz wszystkie używane komórki
+M299	Kolor tekstu...
+M300	Wybierz kolor tekstu
+M301	Tło...
+M302	Wybierz tło komórki
+M303	Linia
+M304	Narysuj wykres liniowy zaznaczenia
+M305	Bar
+M306	Narysuj wykres słupkowy z zaznaczenia
+M307	Mieszany
+M308	Pręty dla pierwszej serii, linie dla reszty
+M309	Ciasto
+M310	Narysuj wykres kołowy zaznaczenia
+M311	Zakres...
+M312	Ustaw wyraźnie zakres wykresu
+M313	Narysuj ponownie
+M314	Narysuj ponownie ostatni wykres
+M315	Muszę...
+M316	Skok do komórki (na przykład C12)
+M317	Szerokość kolumny...
+M318	Zmień szerokość wybranych kolumn
+M319	Wysokość rzędu...
+M320	Zmień wysokość wybranych wierszy
+M321	Automatyczne dopasowanie
+M322	Dopasuj szerokości/wysokości do zawartości (F7)
+M323	Przelicz
+M324	Ponownie oceń wszystkie formuły
+M325	Usuń wszystko
+M326	Wyczyść cały arkusz
+M327	Klawiatura
+M328	Pokaż kluczowy przewodnik
+M329	O
+M330	O SGCALC
+M331	Plik
+M332	Redagować
+M333	Wykres
+M334	Arkusz
+M335	Pomoc
+M336	Plik: nowy, otwórz, zapisz, eksportuj, wyjdź
+M337	Edycja: wyczyść, skopiuj, wklej, wytnij, zaznacz wszystko
+M338	Wykres: liniowy, słupkowy, mieszany, kołowy (rysuje na FB)
+M339	Arkusz: goto, szerokość kolumny, przelicz, usuń
+M340	Pomoc: klucze i informacje
+M341	Lewo/Prawo = menu Góra/Dół = pozycja Enter = wybierz Esc = anuluj
+M342	Odwołany
+M343	Wybór jest zbyt duży lub za mało pamięci.
+M344	komórka
+M345	wybór
+M346	Nie ma nic do wklejenia
+M347	Wklejony
+M348	Idź do komórki
+M349	Odniesienie do komórki (A1):
+M350	Gotowe
+M351	SZEROKOŚĆ KOLUMNY
+M352	Szerokość w znakach (4..30):
+M353	WYSOKOŚĆ WIERSZA
+M354	Wysokość w wierszach tekstu (1..8):
+M355	Automatyczne dopasowanie: arkusz jest pusty
+M356	KOLOR TŁA
+M357	KOLOR TEKSTU
+M358	Strzałki: wybierz Enter: zastosuj Esc: anuluj
+M359	Indeks kolorów (paleta 16 kolorów PC-98)
+M360	Aaa 123
+M361	Enter = zastosuj Esc = anuluj
+M362	Kolor
+M363	Tło
+M364	Tekst
+M365	ZAKRES WYKRESU
+M366	Zakres (na przykład A1:C10):
+M367	Zakres wykresu
+M368	Użyj zakresu, takiego jak A1:C10.
+M369	Nie można narysować wykresu.
+M370	linia
+M371	bar
+M372	mieszany
+M373	ciasto
+M374	Wyczyścić każdą komórkę w tym arkuszu?
+M375	Arkusz usunięty
+M376	Zaznaczono wszystkie używane komórki
+M377	Przeliczone
+M378	Pamięć
+M379	Za mało PSRAM dla arkusza kalkulacyjnego.
+M380	Arkusz jest pusty.
+M381	Brak danych liczbowych w wybranym zakresie.
+M382	Inny
+M383	Brak wartości dodatnich na wykresie kołowym
+M384	LINIA
+M385	BAR
+M386	MIESZANY
+M387	CIASTO
+M388	S:/
+M389	Falcówka
+M390	ZAPISZ JAKO
+M391	OTWÓRZ PLIK
+M392	LibreOffice/CSV
+M393	ODS FODS CSV
+M394	Nazwa:
+M395	(wpisz nazwę lub wybierz poniżej)
+M396	Nazwa
+M397	Rozmiar
+M398	Enter=zapisz Lewy=góra Prawo/Enter w [DIR]=otwórz Tab=jedź Esc=anuluj
+M399	Enter=otwórz Lewy=góra Prawo/Enter w [DIR]=otwórz Tab=napęd Esc=anuluj
+M400	Za mało pamięci.
+M401	Przepisać
+M402	Otwarte
+M403	Plik jest za duży (limit 8 MB).
+M404	Za mało pamięci, aby odczytać plik.
+M405	Złe dane ZIP/ODS.
+M406	Błąd CRC w pliku ODS.
+M407	Nieobsługiwany lub uszkodzony plik.
+M408	Zapisano
+M409	Eksportowane
+M410	Niezapisane zmiany
+M411	Zapisać bieżący arkusz przed kontynuowaniem?
+M412	Nowy arkusz
+M413	SGTRK
+M414	NIEUPRAWNY
+M415	piosenka jest za duża
+M416	pusty plik
+M417	nie jest to plik SGT
+M418	złe BPM
+M419	zła prędkość
+M420	zła długość tytułu
+M421	obcięty tytuł
+M422	zły znak w tytule
+M423	okrojona kolejność
+M424	zła długość zamówienia
+M425	zły numer wzoru w kolejności
+M426	skrócona lista wzorów
+M427	zła liczba wzorów
+M428	zły indeks wzorców
+M429	zduplikowany wzór
+M430	obcięte dane wzoru
+M431	nieprawidłowe dane wzoru
+M432	końcowe dane w pliku
+M433	kolejność odnosi się do brakującego wzoru
+M434	A:/
+M435	(nieuprawny)
+M436	Gotowy. Naciśnij klawisz F1, aby uzyskać pomoc.
+M437	Śledź WYŁ
+M438	Nic do cofnięcia
+M439	Anulować
+M440	Uwaga WYŁĄCZONA
+M441	Najpierw ustaw literę efektu
+M442	Efekt został usunięty
+M443	Parametr wyczyszczony
+M444	Uwaga wyczyszczona
+M445	Instrument wyczyszczony
+M446	Wolumen wyczyszczony
+M447	Lista zamówień jest pełna
+M448	Zamówienie wstawione
+M449	Nie można usunąć ostatniego zamówienia
+M450	Zamówienie usunięte
+M451	Odtwarzanie piosenki
+M452	Zatrzymany
+M453	Nowa piosenka
+M454	Odrzucić niezapisane zmiany i rozpocząć nowy utwór? (T/N)
+M455	Odrzucić niezapisane zmiany i otworzyć utwór? (T/N)
+M456	Odrzucić niezapisane zmiany i wyjść? (T/N)
+M457	Zaktualizowano ustawienia utworu
+M458	Nazwa pliku jest pusta
+M459	Zapis anulowany
+M460	Otwarcie odwołane
+M461	Edytuj WŁ
+M462	Edytuj WYŁ
+M463	Śledź ON
+M464	Edycja jest wyłączona. Naciśnij klawisz F8, aby edytować.
+M465	Błąd we/wy
+M466	plik jest za duży
+M467	obcięty plik
+M468	PODKŁADKA SINUSOWA
+M469	TRÓJKĄT
+M470	PIŁA OŁOWIU
+M471	KWADRAT
+M472	PULS 25
+M473	ORGAN
+M474	BAS
+M475	DZWONEK
+M476	HAŁAS
+M477	SINUS
+M478	PIŁA
+M479	WYŁĄCZONY
+M480	NA
+M481	WIERSZ
+M482	POZIOM KANAŁU
+M483	F1 POMOC F2 PIOSENKA
+M484	F3 INS F4 ZAPISZ
+M485	F5 GRAJ F6 PAT
+M486	F7 STOP F8 EDYCJA
+M487	F9/F10 OKTAWA
+M488	F11 śledź
+M489	F12 WYJDŹ
+M490	SPACJA ODTWARZANIE/STOP
+M491	CTRL-S ZAPISZ
+M492	CTRL-O OTWÓRZ
+M493	C-N NOWY C-Z COFNIJ
+M494	C-C STOP
+M495	#TRANSPORT I PLIKI
+M496	#LISTA ZAMÓWIEŃ
+M497	#WYŚWIETLACZ
+M498	#REDAGOWANIE
+M499	#EFFECTS (parametr jest szesnastkowy)
+M500	W LEWO/PRAWO STRONA ENTER LUB F1 ZAMKNIJ
+M501	USTAWIENIA PIOSENKI
+M502	GÓRA/DÓŁ WYBIERZ LEWO/PRAWO REGULACJA ENTER/F2 ZAMKNIJ
+M503	Wpisz, aby edytować tytuł. Backspace usuwa ostatni znak.
+M504	Zakres BPM 32..255. Zakres prędkości 1..31.
+M505	Efekty wzorów mogą również zmieniać prędkość i BPM podczas gry.
+M506	INSTRUMENTY
+M507	GÓRA/DÓŁ WYBIERZ PRZESTRZEŃ PODGLĄD WPROWADŹ UŻYJ F3 ZAMKNIJ
+M508	Wszystkie cztery kanały wykorzystują syntezę falową.
+M509	Podgląd odtwarza C-4 na ścieżce pod kursorem edycji.
+M510	ZAPISZ PIOSENKĘ JAKO
+M511	ENTER ZAPISZ F4 LUB CTRL-C ANULUJ
+M512	Informator:
+M513	Nazwa pliku:
+M514	Rozszerzenie .SGT jest dodawane automatycznie.
+M515	Istniejący plik można zastąpić.
+M516	OTWARTA PIOSENKA
+M517	WPROWADŹ OTWÓRZ BS PARENT CTRL-O/CTRL-C ANULUJ
+M518	(w tym folderze nie ma plików .SGT)
+M519	POTWIERDZAĆ
+M520	T = TAK N / ENTER / CTRL-C = NIE
+M521	T = tak N = nie
+M522	C-
+M523	C#
+M524	D-
+M525	D#
+M526	MI-
+M527	F-
+M528	F#
+M529	G-
+M530	G#
+M531	A-
+M532	A#
+M533	B-
+M534	O:/katalog/nazwa
+M535	MThd
+M536	zepsuty MThd
+M537	IMPORT MIDI
+M538	MTrk
+M539	uszkodzony czas delta
+M540	zepsuty stan działania
+M541	zepsute meta wydarzenie
+M542	zepsute zdarzenie sysex
+M543	zdarzenie zepsutego kanału
+M544	Wyjście SMF jest za małe
+M545	Dane wyjściowe SMF są zbyt duże
+M546	piosenka jest za długa dla SMF
+M547	TRK1
+M548	%s%d
+M549	%s%d:%s%d
+M550	%s
+M551	%.40s%s
+M552	[%s] %s
+M553	REDAGOWAĆ
+M554	GOTOWY
+M555	%4d
+M556	%s Suma %.7g N %ld%s
+M557	STRZAŁKI przesuwają kursor komórki
+M558	SHIFT+ARR rozszerz zaznaczenie (dla wykresów/kopii)
+M559	ENTER edytuj komórkę; w edycji zatwierdź i przejdź w dół
+M560	TAB następna komórka SHIFT+TAB poprzednia komórka
+M561	USUŃ usuń zaznaczone komórki ESC anuluj
+M562	PGUP/PGDN przesuń się o jeden ekran HOME/END pierwsza/ostatnia kolumna
+M563	CTRL+HOME A1 CTRL+END ostatnio używana komórka
+M564	F1 pomóż F2 edytuj F3 skopiuj F4 wklej F5 przejdź do F6 kolor
+M565	F7 automatyczne dopasowanie F8 tło F9 przelicz F10 wykres F11 zapisz F12 menu
+M566	SHIFT+F1 o wysokości wiersza SHIFT+F2 SHIFT+F3 szerokość kolumny
+M567	SHIFT+F4 wybierz cały zakres wykresu SHIFT+F10 SHIFT+F11 zapisz jako
+M568	CTRL+F1 nowy CTRL+F2 otwórz CTRL+F3 zapisz CTRL+F4 zapisz jako
+M569	CTRL+F5 eksport CSV CTRL+F6 eksport ODS ALT+F12 wyjdź
+M570	Dolne 2 linie: klawisze funkcyjne; [SHIFT]/[CTRL]/[ALT] jak filtr
+M571	CTRL+S zapisz CTRL+O otwórz CTRL+N nowy CTRL+C/V/X kopiuj/wklej/wytnij
+M572	CTRL+G przejdź do / otwórz menu (1 plik, 2 edycja, ...)
+M573	Wbudowane funkcje: SUMA ŚREDNIA MIN MAX LICZBA LICZBA
+M574	PRODUKT ABS SQRT INT OKRĄGŁY MOC JEŚLI I LUB NIE
+M575	IFERROR LEN LEWY PRAWY ŚRODEK GÓRNY DOLNY WYKOŃCZENIE POŁĄCZENIE PI
+M576	Referencje komórek: A1, $A$1, A1:B10.  Formuły zaczynają się od znaku „=”.
+M577	Pliki: .ods (LibreOffice), .fods (płaski XML), .csv
+M578	ODS/FODS przechowuje receptury, szerokości, wysokości i kolory.
+M579	CSV przechowuje wartości i formuły (bez kolorów/wysokości).
+M580	Wykres: wybierz zakres, naciśnij klawisz F10 i wybierz opcję Linia/Słupek/Mieszane/Kołowy.
+M581	SGCALC dla sgnano
+M582	Wersja
+M583	Arkusz kalkulacyjny w stylu Lotus 1-2-3 jako program SGX.
+M584	SGX ABI %u.%u
+M585	Tryb ekranu 3: tekst + CLUT8 FB (wyłączona niska rozdzielczość)
+M586	Arkusz: %d wierszy x %d kolumn
+M587	Formaty: .ods / .fods (LibreOffice), .csv
+M588	Siatka jest rysowana na płaszczyźnie tekstowej.
+M589	Wykresy i tło 640x480 korzystają z FB.
+M590	%d %s
+M591	Nie można zapisać komórki (%d).
+M592	Skopiowano %d x %d komórek
+M593	Wyczyszczono %s
+M594	„%s” nie jest odwołaniem do komórki.
+M595	%d
+M596	Szerokość kolumny = %d
+M597	Wysokość rzędu = %d
+M598	Automatyczne dopasowanie: %d kolumn, %d rzędów
+M599	%2d
+M600	Nie można zastosować koloru (%d).
+M601	%s kolor = %d
+M602	Nieprawidłowy zakres.\nUżyj zakresu, takiego jak A1:C10.
+M603	Zakres wykresu %s
+M604	Wykres: %s
+M605	SGCALC: nie można ustawić trybu ekranu 3: %s
+M606	%.2g
+M607	%.6g
+M608	%s %.0f%%
+M609	WYKRES %s %s
+M610	%s%s
+M611	%s/%s
+M612	%.*s
+M613	%.*s/
+M614	Nie można odczytać %s\n%s
+M615	Folder: %s
+M616	[KIERUNEK] %s
+M617	%s
+M618	%lu.%luM
+M619	%luK
+M620	%luB
+M621	KSIĘGA 1%s
+M622	%c:/
+M623	Nieobsługiwane rozszerzenie.\nUżyj .csv, .ods lub .fods.
+M624	%s już istnieje.\nNadpisać to?
+M625	%s może nie być zapisywalny.\nSpróbuj mimo to?
+M626	Nieznany typ pliku dla %s
+M627	Nieobsługiwany typ pliku.\nUżyj .csv, .ods lub .fods.
+M628	Nie można otworzyć %s\n%s
+M629	%s to folder.
+M630	Nie można zaimportować %s\n%s
+M631	Załadowano %s
+M632	Nie można zbudować pliku %s.
+M633	Nie można zapisać %s\n%s
+M634	%s %s
+M635	nieobsługiwana wersja %u
+M636	%d:%d:%d:%d:%d:%d
+M637	Oktawa %d
+M638	Uwaga %s
+M639	Instrument %d
+M640	Głośność %s
+M641	Efekt %c
+M642	Parametr %s
+M643	Wzór %s
+M644	Schemat gry %s
+M645	ZAPISZ BŁĄD: %s
+M646	Zapisano %s
+M647	BŁĄD ŁADOWANIA: %s
+M648	BPM %d
+M649	Prędkość %d
+M650	Podgląd %s
+M651	Instrument %s %s
+M652	Zastąpić %s? (T/N)
+M653	| BPM %s SPD %s
+M654	SGNO TRACKER 1.0 |
+M655	PLIK
+M656	PAT %s
+M657	ORD %d/%d
+M658	INS %s
+M659	PAŹDZIERNIK %d
+M660	EDYCJA %s
+M661	NA
+M662	FOL %s
+M663	ŚCIEŻKA %d
+M664	%c%s
+M665	%s %s %s %s
+M666	%s
+M667	%d %s %s
+M668	ZAMÓW %d/%d
+M669	PAT %s
+M670	INS %s %s
+M671	PAŹDZIERNIK %d EDYCJA %s
+M672	ŚLEDŹ %s
+M673	ODTWARZANIE ORD %d/%d PAT %s ROW %s/%d SPD %s BPM %d F7 STOP
+M674	GOTOWE EDYCJA %s PAŹ %d F1 POMOC F5 GRAJ CTRL-S ZAPISZ
+M675	%s
+M676	F5 Odtwórz utwór w bieżącej kolejności
+M677	F6 Odtwórz bieżący wzór
+M678	F7/Ctrl-C Zatrzymaj odtwarzanie
+M679	Spacja Odtwórz/zatrzymaj
+M680	F4 Zapisz jako
+M681	Ctrl-S Zapisz (pyta o nazwę, jeśli jest nowa)
+M682	Ctrl-O Otwórz utwór
+M683	Ctrl-N Nowy utwór
+M684	F12 Zakończ (potwierdzenie w przypadku modyfikacji)
+M685	[ ] Poprzedni/następny wpis zamówienia
+M686	{ } Wstaw/usuń wpis zamówienia
+M687	- + Zmień wzór we wpisie
+M688	F11 Śledzenie odtwarzania (wyłącza się przy ręcznym przesuwaniu)
+M689	Pomoc F1; Strona zmian w lewo/prawo
+M690	F8 Przełącz tryb edycji
+M691	Strzałki Przesuń kursor
+M692	PgUp/PgDn Skocz o 16 rzędów
+M693	Strona główna/koniec Pierwszy/ostatni wiersz
+M694	F9/F10 Oktawa w dół/w górę
+M695	Z S X D C V G B H N J M dolny rząd fortepianów
+M696	Q 2 W 3 E R 5 T 6 Y 7 U górny rząd fortepianu
+M697	1 Uwaga wyłączona
+M698	0 / Del 0 kasuje notatkę/inst/fx; Del usuwa wszelkie
+M699	Ctrl-Z Cofa ostatnią edycję wzoru/kolejności
+M700	Axy Przesuwanie głośności: w górę x, w dół y
+M701	Cxx Uwaga wycięta po xx taktach
+M702	Dxx Ustaw głośność (00..7F)
+M703	Fxx Prędkość, jeśli xx < 20, w przeciwnym razie BPM
+M704	Hxy Arpeggio x, y półtony
+M705	Pxx Pitch przesuwa się w górę
+M706	Qxx Przesuń w dół
+M707	Ustawienia utworu F2, lista instrumentów F3
+M708	POMOC %d/2
+M709	Tytuł
+M710	[%s_]
+M711	BPM: %d (lewo/prawo -1/+1, -/+ -5/+5)
+M712	Prędkość: %d taktów/rząd
+M713	Rzędy: %d (stałe)
+M714	Zamówienie: %d wpisów
+M715	Stosowane wzory: %d
+M716	# NAZWA WAVE A D S R VOL
+M717	%c %d %-9s %-9s %3d %3d %3d %3d %4d
+M718	Obecny instrument: %s %s
+M719	%s
+M720	KIERUNEK %s
+M721	%c %s%s
+M722	Pliki: %d
+M723	%02d
+M724	%03d
+M725	%02X
+M726	SGNO TRACKER: niekompatybilny SGX ABI
+M727	S: sprawdź: czekaj — plik jest odczytywany lub zapisywany
+M728	S: sprawdź: dysk jest zajęty lub nie jest gotowy
+M729	nic dla tego elementu (ContextMenu.cfg)
+M730	złe polecenie w ContextMenu.cfg
+M731	nieznane działanie w ContextMenu.cfg
+M732	menu
+M733	wybierz plik lub folder
+M734	na tym dysku nie można zapisać
+M735	zadanie archiwizacji jest już uruchomione
+M736	brak PSRAM dla zadania archiwizacji
+M737	nie można rozpocząć zadania archiwizacji
+M738	za dużo elementów (maksymalnie 32)
+M739	nic do kompresji
+M740	brak nazwy (lub nazwa ma / lub \\)
+M741	Maksymalnie 32 elementy (zaznacz mniej lub umieść je w folderze)
+M742	archiwum
+M743	kompres
+M744	oddać
+N001	5 Makro
+N002	6 Pomoc
+N003	Uruchom prąd
+N004	Uruchom makro przy kursorze (komórka nagłówka #! i komórki pod nią)
+N005	Uruchom wybór
+N006	Uruchom wybrane komórki jako jedno makro (w lewym górnym rogu znajduje się nagłówek #!)
+N007	Uruchom wszystko
+N008	Uruchom każde makro w arkuszu, od lewego górnego do prawego dolnego rogu
+N009	Ostatni błąd
+N010	Pokaż ostatni błąd makra
+N011	Makro
+N012	Makro: uruchom komórki #!Ruby / #!python / #!basic
+N013	Edytuj komórkę (F2)
+N014	Dopasuj szerokość/wysokość do zawartości
+N015	Ostatni błąd makra
+N016	Żadnych błędów makro.
+N017	IME włączony
+N018	IME wyłączony
+N019	Makro: %s %s ...
+N020	%s: to oprogramowanie nie może uruchamiać makr (SGX ABI 5.10 lub nowsza wersja)
+N021	Błąd makro: %s
+N022	Makro: %s gotowe
+N023	makro już działa
+N024	ten język nie jest dostępny
+N025	za mało pamięci
+N026	makro zatrzymało się z błędem
+N027	Błąd makro %s: %s
+N028	Makro: za mało pamięci
+N029	Makro: kursor nie znajduje się na makrze (komórka #!Ruby / #!python / #!basic lub komórki pod nią)
+N030	Makro: brak makra w arkuszu
+N031	Uruchom wszystkie makra
+N032	Makra: %d. Uruchomić je wszystkie, od lewego górnego do prawego dolnego rogu? Zmiany nie mogą zostać cofnięte.
+N033	Makro: %d z %d gotowe
+N034	Wyczyściłem komórkę
+N035	Wyczyszczono zaznaczenie
+N036	Kolor tła = %d
+N037	Kolor tekstu = %d
+N038	Wykres: linia
+N039	Wykres: słupek
+N040	Wykres: mieszany
+N041	Wykres: ciasto
+N042	Eksportowane %s

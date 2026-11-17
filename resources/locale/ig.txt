@@ -1,0 +1,1041 @@
+# sgnano filer strings: Igbo (2026-11-16). ui <TAB> Japanese <TAB> translation / msg.* <TAB> English <TAB> translation
+# status: unreviewed (machine translation, not checked by a native speaker; 2026-11-16). 未検証: ネイティブの確認をしていない仮の訳
+@lang ig
+@name Igbo
+ui	一覧（ファイルとフォルダを 2 列 x 19 行に並べる）	Ndepụta (faịlụ na nchekwa n'ogidi 2 x ahịrị 19)
+ui	カーソルを動かす（左右は隣の列へ）	Bugharịa cursor (aka ekpe / aka nri: ogidi nke ọzọ)
+ui	前のページ / 次のページ	Ibe gara aga / ibe na-esote
+ui	全部に印 / 印を反転（PC-98 FD と同じ）	Kaa akara niile / tụgharịa akara (dị ka PC-98 FD)
+ui	先頭 / 最後	Mbụ / ikpeazụ
+ui	印を付けて次へ / 印だけ付ける	Kaa akara wee gaa n'ihu / kaa akara naanị
+ui	Shift+矢印	Shift+akụ
+ui	範囲を選ぶ（Space でその範囲に印）	Họrọ mpaghara (Space na-aka mpaghara akara)
+ui	フォルダに入る・ファイルを開く（F2/X は実行）	Banye na nchekwa / mepee faịlụ (F2/X mee ka ọ rụọ)
+ui	上のフォルダへ	Gaa na nchekwa nne
+ui	ドライブを選ぶ（USB・フロッピー・CD・S: 内蔵）	Họrọ draịvụ (USB, floppy, CD, S: dị n'ime)
+ui	コピー（Shift+C / Shift+F3 は行き先を木から）	Detuo (Shift+C / Shift+F3 họrọ ebe ọ ga-aga site n'osisi)
+ui	移動	Bugharịa
+ui	削除（Shift+D / Shift+F4 はフォルダ削除）	Hichapụ (Shift+D / Shift+F4 hichapụ nchekwa)
+ui	名前を変える	Gụgharịa aha
+ui	属性を変える	Gbanwee njirimara
+ui	エディタで開く	Mepee na edezi
+ui	テキスト表示（Shift+V / Ctrl+Alt+F7 は 16 進）	Lee dị ka ederede (Shift+V / Ctrl+Alt+F7 hex)
+ui	ドライブの情報	Ozi draịvụ
+ui	フォルダを作る / 新しいファイル	Nchekwa ọhụrụ / faịlụ ọhụrụ
+ui	シェル sgsh / 媒体を取り出す	Shell sgsh / wepụta diski
+ui	読み直す	Bugharịa ọzọ
+ui	見えている画面を PNG で保存	Chekwaa ihuenyo dị ka PNG
+ui	窓を閉じる・選択を解く（サブフォルダでは上位へ）	Mechie windo / wepụ nhọrọ (na nchekwa nta: gaa elu)
+ui	ファイルの操作（FD と同じ。印・範囲・カーソルの順に選ぶ）	Ọrụ faịlụ (dị ka FD: akara, mgbe ahụ mpaghara, mgbe ahụ cursor)
+ui	コピー: 行き先はドライブとフォルダの木から。ESC で止める	Detuo: họrọ ebe ọ ga-aga site n'osisi draịvụ na nchekwa. ESC na-akwụsị
+ui	削除: y で確かめる。印・範囲をまとめて。フォルダは中身ごと	Hichapụ: kwado na y. Akara na mpaghara ọnụ. Nchekwa ya na ihe dị n'ime ya
+ui	フォルダを削除（中身ごと）	Hichapụ nchekwa (ya na ihe dị n'ime ya)
+ui	名前を変える（今の名前を直して Enter）	Gụgharịa aha (dezie aha, Enter)
+ui	属性: R 読み出し専用・H 隠し・S システム・A アーカイブ	Njirimara: R ọgụgụ naanị, H zoro ezo, S sistemụ, A ebe nchekwa
+ui	フォルダを作る	Nchekwa ọhụrụ
+ui	新しいファイル（空）を作る	Faịlụ ọhụrụ (efu)
+ui	テキストで表示（Shift+V / Ctrl+Alt+F7 は 16 進）	Lee dị ka ederede (Shift+V / Ctrl+Alt+F7 hex)
+ui	シェル sgsh（exit / Ctrl-D でファイラーへ）	Shell sgsh (exit / Ctrl-D laghachi na njikwa faịlụ)
+ui	選んでいるドライブの素性（INQUIRY・IDENTIFY）	Njirimara draịvụ (INQUIRY, IDENTIFY)
+ui	FDD・LS-120・CD の媒体を取り出す	Wepụta diski FDD / LS-120 / CD
+ui	一覧を読み直す（CD は TOC から）	Bugharịa ndepụta ọzọ (CD: site na TOC)
+ui	ZMODEM で PC から受け取る（zm.sh put）	Nata site na PC site na ZMODEM (zm.sh put)
+ui	ZMODEM で PC へ送る（zm.sh get）	Ziga na PC site na ZMODEM (zm.sh get)
+ui	.rb をコンパイルして .mrb を書き出す	Chịkọta .rb wee dee .mrb
+ui	Ruby の REPL（1 行ずつ、Ctrl-D / ESC で終わり）	REPL Ruby (otu ahịrị n'otu oge, Ctrl-D / ESC ịkwụsị)
+ui	MicroPython の REPL	REPL MicroPython
+ui	4MB ずつ分割 / .001 から結合	Kewaa n'akụkụ MB 4 / jikọta site na .001
+ui	分割 / 結合（Ctrl+F11 / F12 と同じ）	Kewaa / jikọta (otu ihe ahụ dị ka Ctrl+F11 / F12)
+ui	画面（Alt+F。FD の F キーとぶつからない）	Ihuenyo (Alt+F, anaghị agbakọ na igodo F nke FD)
+ui	FB（絵）/ テキスト面を出す・隠す	Gosi / zoo FB (foto) / ederede
+ui	FB の表示ページ（0〜3）	Ibe ngosi FB (0-3)
+ui	FB を 0 で消す / 明るさを 1/2 に（RGB555）	Hichapụ FB ka ọ bụrụ 0 / belata ìhè ọkara (RGB555)
+ui	USB のエンドポイントと LAN の状態	Njedebe USB na ọnọdụ LAN
+ui	FB の表示ページを消す / 明るさを 1/2 に	Hichapụ ibe ngosi FB / belata ìhè ọkara
+ui	テキストの属性の見本	Ihe atụ njirimara ederede
+ui	モニタの EDID（起動時に読んだもの）	EDID ihuenyo (agụrụ mgbe mmalite)
+ui	フォント ROM のライセンスとクレジット	Ikikere na ekele ROM mkpụrụedemede
+ui	設定（表示の言語・IME・キーボードロケール）	Ntọala (asụsụ ngosi, IME na nhazi ahụigodo)
+ui	時計（NTP で合わせた日本時間。s ですぐ合わせる）	Elekere (oge Japan site na NTP; s na-emekọ ugbu a)
+ui	表計算（SGCALC）を開く	Mepee mpempe mgbakọ (SGCALC)
+ui	S: ドライブのエラー検査（誤りがあれば直すか聞く）	Lelee njehie S: (na-ajụ tupu ịrụzi)
+ui	トラッカー（TRACKER）を開く	Mepee TRACKER
+ui	再起動（確かめの窓が出る）	Malitegharịa (na-ajụ mbụ)
+ui	ADC のステレオ入力（GP40 / 41）を鳴らす	Kpọọ ntinye stereo ADC (GP40 / 41)
+ui	VGM/VGZ を 96kHz/24bit WAV に書き出す	Bupụ VGM/VGZ ka ọ bụrụ WAV kHz 96 / bit 24
+ui	このヘルプ	Enyemaka a
+ui	ページを替える	Gbanwee ibe
+ui	閉じる	Mechie
+ui	テキスト・16 進のビュアー（less 風）	Ihe nlele ederede / hex (dị ka less)
+ui	1 行	Otu ahịrị
+ui	1 ページ	Otu ibe
+ui	半ページ	Ọkara ibe
+ui	探す（前へ・後ろへ）/ 次・前	Chọọ (n'ihu / azụ) / nke na-esote / nke gara aga
+ui	一覧へ戻る（F1 はビュアーのヘルプ）	Laghachi na ndepụta (F1: enyemaka ihe nlele)
+ui	画像のビュアー	Ihe nlele foto
+ui	一覧へ戻る（F2 F3 F6 F7 Shift+F2 F3 は効く）	Laghachi na ndepụta (F2 F3 F6 F7 Shift+F2 F3 na-arụ ọrụ)
+ui	エディタ（E / Shift+F8）	Edezi (E / Shift+F8)
+ui	保存する（UTF-8。改行と BOM は元のまま）	Chekwaa (UTF-8; njedebe ahịrị na BOM na-anọgide)
+ui	閉じる（変わっていれば Y / N / ESC）	Mechie (ọ bụrụ na agbanwere: Y / N / ESC)
+ui	挿入 / 上書き	Tinye / dee n'elu
+ui	IME（日本語・英語・ハングル）の入・切	Gbanye/gbanyụọ IME (Japanese / Bekee / Korean)
+ui	IME の言語（日本語 / English / 한국어）	Asụsụ IME (Japanese / Bekee / Korean)
+ui	ひらがな / カタカナで確定	Kwado dị ka hiragana / katakana
+ui	エディタのヘルプ	Enyemaka edezi
+ui	シェル	Shell
+ui	シェル（csh のサブセット。exit / Ctrl-D で戻る、help で一覧）	Shell (akụkụ csh. exit / Ctrl-D ịlaghachi, help na-edepụta iwu)
+ui	一覧と移動	Ndepụta na mbugharị
+ui	ファイルの操作	Ọrụ faịlụ
+ui	画面と機器	Ihuenyo na ngwaọrụ
+ui	ビュアーとエディタ	Ihe nlele na edezi
+ui	ヘルプ  %u / %u  %s	Enyemaka  %u / %u  %s
+ui	Left Right: ページを替える    F1 / ESC: 閉じる	Aka ekpe Aka nri: gbanwee ibe    F1 / ESC: mechie
+ui	sgnano を再起動しますか？	Malitegharịa sgnano?
+ui	[ 再起動 ]	[ Malitegharịa ]
+ui	[ キャンセル ]	[ Kagbuo ]
+ui	S: ドライブのエラー検査	Lelee njehie draịvụ S:
+ui	ファイル %lu  フォルダ %lu	Faịlụ %lu  nchekwa %lu
+ui	大きさが鎖と合わない	Nha adabaghị na yinye
+ui	どこからも使われていないクラスタ	Klọsta ọ dịghị ihe na-eji
+ui	重なったクラスタ	Klọsta ejikọtara n'obe
+ui	壊れた項目	Ndenye mebiri emebi
+ui	FAT の 2 つの写しの食い違い	Mbipụta FAT abụọ dị iche
+ui	エラーはありません。	Enweghị njehie.
+ui	エラーが見つかりました。修復しますか？	Achọtara njehie. Rụzie ha?
+ui	修復しました（上は直した数）。	Arụziri (edoziri nọmba dị n'elu).
+ui	検査・修復できませんでした（S: が使用中）。	Enweghị ike ilele ma ọ bụ ịrụzi (S: na-arụ ọrụ).
+ui	[ 修復する ]	[ Rụzie ]
+ui	[ やめる ]	[ Kagbuo ]
+ui	何かキーで閉じる	Igodo ọ bụla na-emechi
+ui	設定	Ntọala
+ui	表示の言語	Asụsụ ngosi
+ui	キーボードロケール	Nhazi ahụigodo
+ui	Up / Down  Enter 決める  ESC やめる	Elu / Ala  Enter họrọ  ESC kagbuo
+ui	表示の言語 (Language)	Asụsụ ngosi
+ui	Up / Down  Enter 決める  ESC 戻る	Elu / Ala  Enter: tọọ  ESC: laghachi
+ui	%c: をどの文字に固定しますか（A〜Z、S を除く。ESC でやめる）	Kpọchie %c: dị ka mkpụrụedemede ole? (A-Z ewezuga S. ESC kagbuo)
+ui	ドライブ  文字 / Enter 選ぶ  F2 文字を固定・解除  F3 文字を決めて固定  L / ESC やめる	Draịvụ  mkpụrụ / Enter họrọ  F2 kpọchie/meghee  F3 kpọchie dị ka...  L / ESC kagbuo
+ui	  区画 %u	  nkebi %u
+ui	%c:* （固定・つながっていません）%04X:%04X%s  %s	%c:* (kpọchiri, ejikọghị) %04X:%04X%s  %s
+ui	お知らせ	Ọkwa
+ui	ドライブ %c:  %s	Draịvụ %c:  %s
+ui	ドライブ  (なし)	Draịvụ  (ọ dịghị)
+ui	音楽 CD  %u トラック	CD ụda  egwu %u
+ui	フォルダ %u  ファイル %u  合計 %s	Nchekwa %u  faịlụ %u  ngụkọta %s
+ui	読んでいます...	Na-agụ...
+ui	* 印 %u 個  %s	* akara %u  %s
+ui	%lu バイト	baịtị %lu
+ui	属性 %s   更新日時 %s   作成日時 %s   %s	Njirimara %s   gbanwere %s   kere %s   %s
+ui	日	Ụka
+ui	月	Mọn
+ui	火	Tiu
+ui	水	Wen
+ui	木	Tọs
+ui	金	Fraị
+ui	土	Sat
+ui	時計は合わせていません（LAN の NTP）	Etọbeghị elekere (NTP site na LAN)
+ui	FB  表示 %u  書込 %u	FB  ngosi %u  ide %u
+ui	1 ヘルプ	1 Enyem
+ui	2 実行	2 Rụọ
+ui	3 ｺﾋﾟｰ	3 Detuo
+ui	4 削除	4 Hichap
+ui	5 名前	5 Aha
+ui	7 FB消去	7 HichFB
+ui	8 FB減光	8 BelFB
+ui	9 ﾄﾞﾗｲﾌﾞ	9 Draịvụ
+ui	10 EP表	10 EP
+ui	11 時計	11 Elek
+ui	12 表計	12 CALC
+ui	1 属性	1 Njiri
+ui	2 情報	2 Ozi
+ui	3 移動	3 Bughar
+ui	5 作成	5 Nchek
+ui	6 シェル	6 Shell
+ui	8 編集	8 Dezie
+ui	9 表示	9 Lee
+ui	10S:検査	10 S:lel
+ui	11 ﾄﾗｯｸ	11 TRACK
+ui	12再起動	12Malite
+ui	1 新規	1 Ọhụrụ
+ui	2 ﾌｫﾙﾀﾞ	2 Nchek
+ui	3 名前	3 Aha
+ui	4 属性	4 Njiri
+ui	6 ｺﾋﾟｰ	6 Detuo
+ui	7 移動	7 Bughar
+ui	8 削除	8 Hichap
+ui	9 編集	9 Dezie
+ui	10ｺﾝﾊﾟｲﾙ	10 mrbc
+ui	11 分割	11 Kewaa
+ui	12 結合	12 Jikọ
+ui	1 属性例	1 Njiri
+ui	2 FB切替	2 FB
+ui	3 文字面	3 Edere
+ui	5 画面写	5 Foto
+ui	6 表示頁	6 Ibe
+ui	9 ZM受信	9 ZMnata
+ui	10ZM送信	10ZMziga
+ui	2 FB消去	2 HichFB
+ui	3 FB減光	3 BelFB
+ui	5 再読込	5 Ọzọ
+ui	7 16進	7 Hex
+ui	9 ﾗｲｾﾝｽ	9 Ikike
+ui	8 設定	8 Ntọa
+ui	時刻を合わせる（日本時間。NTP で合わせられませんでした）	Tọọ elekere (oge Japan. NTP enweghị ike ịtọ ya)
+ui	起動のパラメタ	Rụọ ya na paramita
+ui	新しいフォルダ	Nchekwa ọhụrụ
+ui	新しいファイル	Faịlụ ọhụrụ
+ui	時刻:	Oge:
+ui	実行:	Rụọ:
+ui	名前:	Aha:
+ui	年-月-日 時:分  Enter 合わせる  ESC そのまま	YYYY-MM-DD hh:mm  Enter tọọ  ESC hapụ ya
+ui	Enter 走らせる  ←→ 動かす  BS / Del 消す  ESC やめる	Enter rụọ  <-> bugharịa  BS / Del hichapụ  ESC kagbuo
+ui	Enter 変える  ←→ 動かす  BS / Del 消す  ESC やめる	Enter gụgharịa aha  <-> bugharịa  BS / Del hichapụ  ESC kagbuo
+ui	Enter 作る  ←→ 動かす  BS / Del 消す  ESC やめる	Enter mepụta  <-> bugharịa  BS / Del hichapụ  ESC kagbuo
+ui	消す	Hichapụ
+ui	個の項目	 ihe
+ui	フォルダは中身ごと消します。よろしいですか？	A ga-ehichapụ nchekwa ya na ihe dị n'ime ha. Ị ji n'aka?
+ui	このファイルを消しますか？	Hichapụ faịlụ a?
+ui	（元に戻せません。フォルダの中のファイルも消えます）	(Enweghị ike ịghaghachi nke a. A ga-ehichapụkwa faịlụ dị na nchekwa)
+ui	[ はい (Y) ]	[ Ee (Y) ]
+ui	[ いいえ (N) ]	[ Mba (N) ]
+ui	バイナリビュアー: ファイルを選んでください	ihe nlele hex: họrọ faịlụ
+ui	テキストビュアー: ファイルを選んでください	ihe nlele ederede: họrọ faịlụ
+ui	移動先	Bugharịa gaa
+ui	コピー先	Detuo gaa
+ui	バッファがいっぱいです (buffer full)	Ebe nchekwa nwa oge juru
+ui	読み出し専用のドライブです (read-only)	Draịvụ bụ ọgụgụ naanị
+ui	保存できません (no writer)	Enweghị ike ịchekwa (enweghị onye ode)
+ui	保存を始められません (the drive is busy?)	Enweghị ike ịmalite ịchekwa (draịvụ na-arụ ọrụ?)
+ui	保存しています... (saving)	Na-echekwa...
+ui	2 保存	2 Chekwa
+ui	5 色分け	5 Agba
+ui	6 ﾞ	6 Hira
+ui	7 ｶﾀｶﾅ	7 Kata
+ui	8 予測	8 Buru
+ui	10 終了	10 Pụọ
+ui	1 先頭	1 Elu
+ui	2 最後	2 Njede
+ui	3 挿/上	3 Tinye
+ui	4 辞書	4 Okwu
+ui	6 半	6 HHira
+ui	7 半ｶﾅ	7 HKata
+ui	 %s  %s  行 %lu/%lu 桁 %u  %s  %s %s%s%s	 %s  %s  Ahịrị %lu/%lu Ogidi %u  %s  %s %s%s%s
+ui	*変更	*gbanwere
+ui	上書	ELU
+ui	挿入	TINYE
+ui	  読出専用	  Ọgụgụ naanị
+ui	 エディタ (sgnano edit)                      F1 / ESC で閉じる	 Edezi (sgnano edit)                         F1 / ESC na-emechi
+ui	 矢印 / Home End / PgUp PgDn   カーソルを動かす	 Akụ / Home End / PgUp PgDn  bugharịa cursor
+ui	 Ctrl-T / Ctrl-B               ファイルの先頭 / 最後	 Ctrl-T / Ctrl-B               mmalite / njedebe faịlụ
+ui	 BS / Del                      前の字 / カーソルの字を消す	 BS / Del                      hichapụ tupu / n'ebe cursor dị
+ui	 Enter                         改行（前の行の字下げを引き継ぐ）	 Enter                         ahịrị ọhụrụ (na-edebe ntinye)
+ui	 Tab / Ins                     タブ / 挿入と上書きの切り替え	 Tab / Ins                     tab / tinye ma ọ bụ dee n'elu
+ui	 F5                            色分け（拡張子から。C/C++・mruby・MicroPython・SG BASIC・なし）	 F5                            Agba (site na ndọtị; C/C++, mruby, MicroPython, SG BASIC, ọ dịghị)
+ui	 F2  (Ctrl-S)                  保存（UTF-8、改行は元の形）	 F2  (Ctrl-S)                  chekwaa (UTF-8, njedebe ahịrị na-anọgide)
+ui	 F10 / ESC                     閉じる（変更があれば聞く）	 F10 / ESC                     mechie (na-ajụ ma ọ bụrụ na agbanwere)
+ui	 IME:  Ctrl-Space / F12        オン・オフ（あ / A）	 IME:  Ctrl-Space / F12        gbanye / gbanyụọ (あ / A)
+ui	       F9                      IME の言語（このエディタの間だけ。閉じると戻る）	       F9                      asụsụ IME (edezi a naanị; a na-eweghachi ya mgbe emechiri)
+ui	       F8                      日本語の予測変換 オン・オフ	       F8 Gbanye/gbanyụọ ntụgharị amụma Japanese
+ui	       日本語                  ローマ字 -> ひらがな（F6）・カタカナ（F7）	       Japanese                romaji -> hiragana (F6) / katakana (F7)
+ui	                               半角ひらがな（Shift+F6）・半角カタカナ（Shift+F7）	                               Hiragana ọkara obosara (Shift+F6) / katakana ọkara obosara (Shift+F7)
+ui	                               2 字以上で予測、Space で連文節変換	                               Buru amụma site na mkpụrụ 2 ma ọ bụ karịa, tụgharịa nkebi ahịrịokwu na Space
+ui	       English                 2 字以上で予測補完	       Bekee: mmecha amụma site na mkpụrụ 2 ma ọ bụ karịa
+ui	       한국어                  2 ボル式ハングル	       한국어 Hangul nhazi 2
+ui	       Space / Enter           変換 / 確定	       Space / Enter Tụgharịa / Kwado
+ui	       ← →                    文節を選ぶ	       ← → Họrọ nkebi ahịrịokwu
+ui	       Shift+← →               文節の右端を 1 字 縮/拡（候補を出し直す）	       Shift+← → Belata/gbatịa njedebe aka nri nke nkebi otu mkpụrụ (nhọrọ ọhụrụ)
+ui	       ↑ ↓ / Tab               候補の窓で前 / 次の候補（窓は変換の下、画面の下では上）	       ↑ ↓ / Tab               Nhọrọ gara aga / na-esote na windo (n'okpuru ederede, n'elu ma ọ dị nso n'ala)
+ui	       →→→ で Enter            すべての候補（2 列 x 8 個、← → で列とページ、Enter で決める）	       Enter na →→→            Nhọrọ niile (2 x 8, ← → ogidi na ibe, Enter họrọ)
+ui	       Enter                   次の文節へ（最後の文節で全体を確定）	       Enter                   Nkebi na-esote (na nke ikpeazụ, kwado ha niile)
+ui	       Ctrl-U                  いまの語をユーザー辞書へ	       Ctrl-U Tinye okwu a na akwụkwọ ọkọwa okwu onye ọrụ
+ui	 Shift+F1 / F2 / F3 / F4       先頭 / 最後 / 挿入と上書き / ユーザー辞書へ	 Shift+F1 / F2 / F3 / F4       Mmalite / njedebe / tinye-dee n'elu / na akwụkwọ ọkọwa okwu onye ọrụ
+ui	       BS / ESC                1 字戻す / 取り消し	       BS / ESC Laghachi otu mkpụrụ / Kagbuo
+ui	       , . - [ ] /             、 。 ー 「 」 ・	       , . - [ ] /             、 。 ー 「 」 ・
+ui	変更あり  Y: 保存して閉じる  N: 保存せず閉じる  ESC: 戻る	Agbanwere  Y: chekwaa wee mechie  N: mechie n'echekwaghị  ESC: laghachi
+ui	[予測] Tab/↑↓: 候補  Space: 変換  Esc: 取消	[Amụma] Tab/↑↓: nhọrọ  Space: tụgharịa  Esc: kagbuo
+ui	[候補] ↑↓: 選ぶ  ←→: 列・ページ  Enter: 決める	[Nhọrọ] ↑↓: họrọ  ←→: ogidi/ibe  Enter: were
+ui	[変換] ↑↓候補 ←→文節 Shift+←→区切り Enter次へ	[Tụgharịa] ↑↓nhọrọ ←→nkebi Shift+←→oke Enter ọzọ
+ui	[한국어] Tab/↑↓: 候補  Enter/Space: 確定	[한국어] Tab/↑↓: nhọrọ  Enter/Space: kwado
+ui	[English] Tab/↑↓: 候補  Enter: 確定	[English] Tab/↑↓: nhọrọ  Enter: kwado
+ui	2ボル式ハングル入力  Ctrl-Space: 英数	Ntinye Hangul nhazi 2  Ctrl-Space: mkpụrụ na nọmba
+ui	予測補完  Ctrl-Space: 直接入力	Mmecha amụma  Ctrl-Space: ntinye ozugbo
+ui	辞書なし: ひらがな/カタカナ入力のみ  F6/F7	Enweghị akwụkwọ ọkọwa okwu: hiragana/katakana naanị  F6/F7
+ui	Space: 変換  F7: カタカナ  Ctrl-Space: 英数	Space: tụgharịa  F7: katakana  Ctrl-Space: mkpụrụ na nọmba
+ui	Space: 変換  F6: ひらがな  Ctrl-Space: 英数	Space: tụgharịa  F6: hiragana  Ctrl-Space: mkpụrụ na nọmba
+ui	半角  F6: ひらがな  F7: カタカナ  Shift+F6/F7: 半角	Ọkara obosara  F6: hiragana  F7: katakana  Shift+F6/F7: ọkara
+ui	IME オフ	IME gbanyụrụ
+ui	 予測	 amụma
+ui	日本語の予測変換: オン	Ntụgharị amụma Japanese: Gbanyere
+ui	日本語の予測変換: オフ	Ntụgharị amụma Japanese: Gbanyụrụ
+ui	日本語IMEで使います	Jiri ya na IME Japanese
+ui	ユーザー辞書に追加できません	Enweghị ike itinye na akwụkwọ ọkọwa okwu onye ọrụ
+ui	色分け: %s	Agba: %s
+ui	読み込んでいます... (loading)	Na-ebubata...
+ui	読み込めませんでした (could not read)	Enweghị ike ịgụ faịlụ ahụ
+ui	%lu 行%s%s	ahịrị %lu%s%s
+ui	  Shift_JIS を UTF-8 で開きました（保存は UTF-8）	  emepere Shift_JIS dị ka UTF-8 (a na-echekwa dị ka UTF-8)
+ui	  読み出し専用	  ọgụgụ naanị
+ui	保存しました (saved)	Echekwara
+ui	保存できませんでした (write failed)	Enweghị ike ịchekwa (ide dara)
+ui	候補	Nhọrọ
+ui	7 書込頁	7 IbeD
+ui	9 ﾃｷｽﾄ	9 Edere
+ui	9 ﾊﾞｲﾅﾘ	9 Hex
+ui	読み込み中 %lu%%  	Na-ebubata %lu%%
+ui	（先頭だけ）  	(mmalite naanị)
+ui	16 進  q ESC: 戻る  F1: ヘルプ	Hex  q ESC: laghachi  F1: enyemaka
+ui	テキスト  q ESC: 戻る  F1: ヘルプ	Ederede  q ESC: laghachi  F1: enyemaka
+ui	ビュアーのキー（less 風。テキストと 16 進で共通）	Igodo ihe nlele (dị ka less; otu ihe maka ederede na hex)
+ui	1 行進む	Otu ahịrị ala
+ui	1 行戻る	Otu ahịrị elu
+ui	1 ページ進む	Otu ibe ala
+ui	1 ページ戻る	Otu ibe elu
+ui	半ページ進む / 戻る	Ọkara ibe ala / elu
+ui	/文字列  ?文字列	/ederede  ?ederede
+ui	下へ探す / 上へ探す（大文字小文字は区別しない）	Chọọ ala / elu (anaghị elebara nnukwu mkpụrụ anya)
+ui	次 / 前を探す	Ndakọrịta na-esote / gara aga
+ui	16 進で表示する（いま見ている所のまま）	Gosi dị ka hex (n'otu ebe)
+ui	テキストで表示する（いま見ている所のまま）	Gosi dị ka ederede (n'otu ebe)
+ui	色分けを替える（C/C++・mruby・MicroPython・SG BASIC・なし）	Gbanwee agba (C/C++, mruby, MicroPython, SG BASIC, ọ dịghị)
+ui	FB / テキスト面を出す・隠す	Gosi / zoo FB / ederede
+ui	FB の表示ページ / 書き込みページ	Ibe ngosi / ibe ide FB
+ui	ファイラーへ戻る	Laghachi na njikwa faịlụ
+ui	このヘルプを閉じる	Mechie enyemaka a
+ui	コピー	Detuo
+ui	 %s: フォルダを読んでいます... %u 個	 %s: na-agụ nchekwa... %u
+ui	 %s: 行き先の空きを数えています...	 %s: na-agụ ohere efu n'ebe ọ ga-aga...
+ui	 %s: 行き先の空きが足りません	 %s: ohere efu ezughị n'ebe ọ ga-aga
+ui	 移動: 元のフォルダを消しています	 Bugharịa: na-ewepụ nchekwa isi mmalite
+ui	終了しました	Emechara
+ui	止まりました	Akwụsịrị
+ui	 %s中%s	 %s na-aga n'ihu%s
+ui	（止めています）	 (na-akwụsị)
+ui	 元: %s	 Site na: %s
+ui	 先: %s	 Gaa: %s
+ui	 ファイル %u / %u 個  フォルダ %u 個  %s / %s  (%u%%)%s	 Faịlụ %u / %u  nchekwa %u  %s / %s  (%u%%)%s
+ui	  多すぎるので一部だけ	  ha dị ukwuu: ụfọdụ naanị
+ui	 要る大きさ %s、空き %s。続けますか？	 Achọrọ %s, efu %s. Gaa n'ihu?
+ui	 Y: 続ける   N / ESC: やめる	 Y: gaa n'ihu   N / ESC: kagbuo
+ui	 何かキーを押すと閉じます	 Pịa igodo ọ bụla imechi
+ui	 ESC: 止める	 ESC: kwụsị
+ui	 %s: ←→ ドライブ  ↑↓ フォルダ  Space 開く・閉じる  Enter 決める  ESC やめる	 %s: ←→ draịvụ  ↑↓ nchekwa  Space mepee/mechie  Enter họrọ  ESC kagbuo
+ui	 読めません: %s	 Enweghị ike ịgụ: %s
+ui	 フォルダを読んでいます...（ESC で止める）  %u 個	 Na-agụ nchekwa... (ESC na-akwụsị)  %u
+ui	 フォルダ %u 個%s	 nchekwa %u%s
+ui	（多すぎるか深すぎるので、一部だけ）	 (ha dị ukwuu ma ọ bụ miri emi: ụfọdụ naanị)
+ui	フォルダの展開を止めました	Akwụsịrị imepe nchekwa
+ui	Space で開き直せます。もう一度 ESC でやめます	Space na-emeghe ya ọzọ. ESC ọzọ na-akagbu
+ui	 SMF / SGT プレイヤー   %s	 Ihe ọkpụkpọ SMF / SGT   %s
+ui	 読み込んでいます... %lu / %lu バイト	 Na-ebubata... %lu / %lu baịtị
+ui	 %s / %s   %s   ポート %u	 %s / %s   %s   ọdụ %u
+ui	一時停止	Akwụsịtụrụ
+ui	再生中	Na-akpọ
+ui	 Space: 一時停止  m: MIDI OUT  q / ESC: 止める	 Space: kwụsịtụ  m: MIDI OUT  q / ESC: kwụsị
+ui	 q / ESC: やめる	 q / ESC: kagbuo
+ui	フォント ROM のライセンスとクレジット\n\nROM: %s（版 %lu.%lu、%lu 文字、フラッシュの 0x%08lX から）\n\n	Ikikere na ekele ROM mkpụrụedemede\n\nROM: %s (ụdị %lu.%lu, mkpụrụ %lu, site na 0x%08lX na flash)\n\n
+ui	== 収めているフォント（ROM の出所の表）==\n	== Mkpụrụedemede dị na ROM (tebụl mmalite ROM) ==\n
+ui	  （表が無い ROM）\n	  (ROM enweghị tebụl)\n
+ui	\n== ROM のクレジットの区画 ==\n\n	\n== Mpaghara ekele ROM ==\n\n
+ui	（区画が無い）\n	(ọ dịghị mpaghara dị otu a)\n
+ui	\n== 組み込んだソフトウェアのライセンス ==\n	\n== Ikikere ngwanrọ dị n'ime ==\n
+ui	 %s を PNG で保存   %s	 Na-echekwa %s dị ka PNG   %s
+ui	画面	Ihuenyo
+ui	 組み立てています... %lu / %lu 行	 Na-ewu... ahịrị %lu / %lu
+ui	 書いています... %lu / %lu KB（FB は隠しています）	 Na-ede... %lu / %lu KB (FB zoro ezo)
+ui	書けませんでした	Enweghị ike ide
+ui	書庫の名前（印の付いた項目、無ければカーソルの項目を入れる）	Aha ebe nchekwa (ihe ndị akara, ma ọ bụ nke dị na cursor ma ọ bụrụ na ọ dịghị)
+ui	Enter 圧縮する  ←→ 動かす  BS / Del 消す  ESC やめる	Enter mpakọ  ←→ bugharịa  BS / Del hichapụ  ESC kagbuo
+ui	WAV 書き出し: %s 中止（%s）	Mbupụ WAV: %s kagburu (%s)
+ui	WAV 書き出し: %s 失敗（%s）	Mbupụ WAV: %s dara (%s)
+ui	WAV 書き出し: %s 合計 %s	Mbupụ WAV: %s ngụkọta %s
+ui	 WAV 書き出し（96kHz / 24bit）: %s	 Mbupụ WAV (96kHz / 24bit): %s
+ui	中止しました	Kagburu
+ui	失敗しました	Dara
+ui	 合計 %s	 Ngụkọta %s
+ui	 中止しました（%s。半端なファイルは消しました）	 Kagburu (%s; ehichapụrụ faịlụ na-ezughị ezu)
+ui	 書き出せませんでした（%s）。理由:	 Enweghị ike ibupụ (%s). Ihe kpatara ya:
+ui	 （理由は分かりません）	 (amaghị ihe kpatara ya)
+ui	 %u%%   経過 %s%s	 %u%%   oge %s%s
+ui	 ESC: 止める（半端なファイルは消します）	 ESC: kwụsị (a ga-ehichapụ faịlụ na-ezughị ezu)
+ui	書庫: %s	Ebe nchekwa: %s
+ui	読み込み中…（ESC でやめる）	Na-agụ... (ESC iji kagbuo)
+ui	 %u 項目%s  合計 %s バイト  展開先: %s	 ihe %u%s  ngụkọta baịt %s  wepụta na: %s
+ui	 Enter 項目を展開  X 全部を展開  ↑↓ 動かす  ESC 閉じる	 Enter wepụta  X niile  ↑↓ bugharịa  ESC mechie
+ui	圧縮	Mpakọ
+ui	一覧	Ndepụta
+ui	展開	Wepụta
+ui	 合計 %s   %u 項目	 Ngụkọta %s   ihe %u
+ui	 合計 %s   %u ファイル	 Ngụkọta %s   faịlụ %u
+ui	 中止しました（%s。書きかけのファイルは消しました）	 Kagburu (%s; ehichapụrụ faịlụ emechaghị)
+ui	 できませんでした（%s）: %s	 Enweghị ike (%s): %s
+ui	 %u%%   経過 %s   %s バイト%s	 %u%%   oge %s   baịt %s%s
+ui	 経過 %s   %s バイト%s	 oge %s   baịt %s%s
+ui	 ESC: 止める（書きかけのファイルは消します）	 ESC: kwụsị (a ga-ehichapụ faịlụ emechaghị)
+ui	書庫: %s 失敗（%s）	Ebe nchekwa: %s dara (%s)
+ui	圧縮: %s（%u 項目）	Mpakọrọ: %s (ihe %u)
+ui	展開: %s（%u ファイル）	Wepụtara: %s (faịlụ %u)
+msg.phrase	the drive went away	draịvụ apụọla
+msg.phrase	reading the partitions again...	na-agụ nkebi ọzọ...
+msg.phrase	could not open the volume (no memory?)	enweghị ike imepe olu (ebe nchekwa ezughị?)
+msg.phrase	opening the volume...	na-emepe olu...
+msg.phrase	no memory for the file list	ebe nchekwa ezughị maka ndepụta faịlụ
+msg.phrase	reading the directory... (retrying)	na-agụ nchekwa... (na-anwa ọzọ)
+msg.phrase	could not read the directory	enweghị ike ịgụ nchekwa
+msg.phrase	reading the directory...	na-agụ nchekwa...
+msg.phrase	the drive did not answer -- reading the partitions again	draịvụ azaghị -- na-agụ nkebi ọzọ
+msg.phrase	could not read the directory (not FAT12/16/32?)	enweghị ike ịgụ nchekwa (ọ bụghị FAT12/16/32?)
+msg.phrase	too many entries -- showing the first ones	ndenye dị ukwuu -- na-egosi nke mbụ
+msg.phrase	no file system found on this partition	enweghị sistemụ faịlụ na nkebi a
+msg.phrase	the path is too long	ụzọ dị ogologo nke ukwuu
+msg.phrase	joining...	na-ejikọta...
+msg.phrase	splitting...	na-ekewa...
+msg.phrase	renaming...	na-agụgharịa aha...
+msg.phrase	creating the folder...	na-emepụta nchekwa...
+msg.phrase	creating the file...	na-emepụta faịlụ...
+msg.phrase	deleting...	na-ehichapụ...
+msg.phrase	writing the attributes...	na-ede njirimara...
+msg.phrase	the drive is busy	draịvụ na-arụ ọrụ
+msg.phrase	busy	na-arụ ọrụ
+msg.phrase	choose files or folders	họrọ faịlụ ma ọ bụ nchekwa
+msg.phrase	choose files or folders (not "..")	họrọ faịlụ ma ọ bụ nchekwa (ọ bụghị "..")
+msg.phrase	stop the CD first	buru ụzọ kwụsị CD
+msg.phrase	the CD cannot be changed (copy instead)	enweghị ike ịgbanwe CD (detuo kama)
+msg.phrase	a system folder cannot be moved	enweghị ike ibugharị nchekwa sistemụ
+msg.phrase	no drive can be written (FAT / exFAT / NTFS only)	enweghị draịvụ a ga-ede na ya (FAT / exFAT / NTFS naanị)
+msg.phrase	the drive is gone	draịvụ adịghịzi
+msg.phrase	nothing chosen	ọ dịghị ihe ahọrọ
+msg.phrase	nothing selected	ọ dịghị ihe ahọrọ
+msg.phrase	could not start	enweghị ike ịmalite
+msg.phrase	could not open	enweghị ike imepe
+msg.phrase	only on a FAT / exFAT / NTFS drive	na draịvụ FAT / exFAT / NTFS naanị
+msg.phrase	no name	enweghị aha
+msg.phrase	that name already exists	aha ahụ adịlarị
+msg.phrase	could not start (bad name or the drive is busy)	enweghị ike ịmalite (aha ọjọọ ma ọ bụ draịvụ na-arụ ọrụ)
+msg.phrase	could not start (the drive is busy)	enweghị ike ịmalite (draịvụ na-arụ ọrụ)
+msg.phrase	the name cannot have / or \\ (only inside this folder)	aha enweghị ike inwe / ma ọ bụ \\ (n'ime nchekwa a naanị)
+msg.phrase	the name is the same	aha bụ otu
+msg.phrase	the item is read-only (A to change)	ihe a bụ ọgụgụ naanị (A ịgbanwe)
+msg.phrase	choose a .rb file on a writable drive	họrọ faịlụ .rb na draịvụ a ga-ede na ya
+msg.phrase	choose a .rb file	họrọ faịlụ .rb
+msg.phrase	the drive is read-only	draịvụ bụ ọgụgụ naanị
+msg.phrase	choose a folder on a writable drive	họrọ nchekwa na draịvụ a ga-ede na ya
+msg.phrase	wait a moment	chere ntakịrị
+msg.phrase	choose a file	họrọ faịlụ
+msg.phrase	choose a file (not a folder)	họrọ faịlụ (ọ bụghị nchekwa)
+msg.phrase	choose a .001 file	họrọ faịlụ .001
+msg.phrase	choose the .001 file	họrọ faịlụ .001 ahụ
+msg.phrase	put the IWAD in a DoomFiles or Doom2Files folder	tinye IWAD na nchekwa DoomFiles ma ọ bụ Doom2Files
+msg.phrase	DoomFiles takes freedoom1 / doom / doomu / doom1.wad	DoomFiles na-anabata freedoom1 / doom / doomu / doom1.wad
+msg.phrase	Doom2Files takes freedoom2 / doom2 / plutonia / tnt.wad	Doom2Files na-anabata freedoom2 / doom2 / plutonia / tnt.wad
+msg.phrase	put the game files on external storage, not S:	tinye faịlụ egwuregwu na nchekwa mpụga, ọ bụghị S:
+msg.phrase	the IWAD must be on a FAT / exFAT / NTFS drive (not a CD)	IWAD ga-adị na draịvụ FAT / exFAT / NTFS (ọ bụghị CD)
+msg.phrase	still working	ka na-arụ ọrụ
+msg.phrase	an image is loading	foto na-ebubata
+msg.phrase	no framebuffer	enweghị framebuffer
+msg.phrase	half brightness works only in RGB555	mbelata ìhè ọkara na-arụ ọrụ na RGB555 naanị
+msg.phrase	clearing...	na-ehichapụ...
+msg.phrase	halving the brightness...	na-ebelata ìhè ọkara...
+msg.phrase	that is a data track	nke ahụ bụ egwu data
+msg.phrase	wait -- a file is being written	chere -- a na-ede faịlụ
+msg.phrase	only floppy / LS-120 / CD drives	draịvụ floppy / LS-120 / CD naanị
+msg.phrase	requested	arịọrọ
+msg.phrase	reading the disc...	na-agụ diski...
+msg.phrase	stopping...	na-akwụsị...
+msg.phrase	opening...	na-emepe...
+msg.phrase	done	emechara
+msg.phrase	no memory	ebe nchekwa ezughị
+msg.phrase	already open	emeghelarị
+msg.phrase	already running	na-arụlarị ọrụ
+msg.phrase	already saving	na-echekwalarị
+msg.phrase	already playing	na-akpọlarị
+msg.phrase	no such drive	enweghị draịvụ dị otu a
+msg.phrase	no PSRAM	enweghị PSRAM
+msg.phrase	no PSRAM for the file	PSRAM ezughị maka faịlụ
+msg.phrase	no PSRAM for the line index	PSRAM ezughị maka ndeksi ahịrị
+msg.phrase	no PSRAM for the terminal	PSRAM ezughị maka tamịnalụ
+msg.phrase	no memory (PSRAM)	ebe nchekwa ezughị (PSRAM)
+msg.phrase	no memory (32KB SRAM)	ebe nchekwa ezughị (SRAM 32KB)
+msg.phrase	no memory for the buffer	ebe nchekwa ezughị maka ebe nchekwa nwa oge
+msg.phrase	no memory for the image buffers	ebe nchekwa ezughị maka ebe nchekwa foto
+msg.phrase	no memory for the read buffer	ebe nchekwa ezughị maka ebe nchekwa ọgụgụ
+msg.phrase	no room for the work memory (close the lowres plane?)	enweghị ohere maka ebe nchekwa ọrụ (mechie lowres?)
+msg.phrase	no framebuffer page	enweghị ibe framebuffer
+msg.phrase	too large (4 MB at most)	ọ buru ibu nke ukwuu (MB 4 kacha)
+msg.phrase	the file is too large (1 MB at most)	faịlụ buru ibu nke ukwuu (MB 1 kacha)
+msg.phrase	the file is too large (1 MB max)	faịlụ buru ibu nke ukwuu (MB 1 kacha)
+msg.phrase	too large for an SMF (1MB at most)	ọ buru ibu nke ukwuu maka SMF (MB 1 kacha)
+msg.phrase	the file is empty	faịlụ ahụ efu
+msg.phrase	could not open the file	enweghị ike imepe faịlụ ahụ
+msg.phrase	could not read the file	enweghị ike ịgụ faịlụ ahụ
+msg.phrase	could not open the volume	enweghị ike imepe olu
+msg.phrase	could not open the destination (no memory?)	enweghị ike imepe ebe ọ ga-aga (ebe nchekwa ezughị?)
+msg.phrase	could not read the root folder	enweghị ike ịgụ nchekwa mgbọrọgwụ
+msg.phrase	could not start the task	enweghị ike ịmalite ọrụ ahụ
+msg.phrase	could not start writing (bad name or busy)	enweghị ike ịmalite ide (aha ọjọọ ma ọ bụ na-arụ ọrụ)
+msg.phrase	another volume is open (busy)	olu ọzọ meghere (na-arụ ọrụ)
+msg.phrase	a copy is running	ndetuo na-aga n'ihu
+msg.phrase	a folder cannot go into itself	nchekwa enweghị ike ịbanye n'ime onwe ya
+msg.phrase	that is the same folder	nke ahụ bụ otu nchekwa ahụ
+msg.phrase	this drive cannot be changed (read only)	enweghị ike ịgbanwe draịvụ a (ọgụgụ naanị)
+msg.phrase	the drive is not writable	enweghị ike ide na draịvụ
+msg.phrase	the part size must be a multiple of 512	nha akụkụ ga-abụ ọtụtụ nke 512
+msg.phrase	files of 4 GB or more are not supported	anaghị akwado faịlụ GB 4 ma ọ bụ karịa
+msg.phrase	bad path	ụzọ ọjọọ
+msg.phrase	bad file name	aha faịlụ ọjọọ
+msg.phrase	the font ROM is not there	ROM mkpụrụedemede adịghị
+msg.phrase	the sound is not open	emepeghị ụda
+msg.phrase	no such channel	enweghị ọwa dị otu a
+msg.phrase	the sequencer is busy	onye nhazi usoro na-arụ ọrụ
+msg.phrase	not enough PSRAM for the song	PSRAM ezughị maka egwu
+msg.phrase	not a standard MIDI file (no MThd)	ọ bụghị faịlụ MIDI ọkọlọtọ (enweghị MThd)
+msg.phrase	no tracks	enweghị egwu
+msg.phrase	a track is broken (MTrk)	otu egwu mebiri (MTrk)
+msg.phrase	SMPTE time division is not supported	anaghị akwado nkewa oge SMPTE
+msg.phrase	SMF format 2 is not supported (0 and 1 only)	anaghị akwado SMF ụdị 2 (0 na 1 naanị)
+msg.phrase	not a Bulk-Only drive	ọ bụghị draịvụ Bulk-Only
+msg.phrase	not an optical drive	ọ bụghị draịvụ anya
+msg.phrase	a system folder cannot be deleted or renamed	enweghị ike ihichapụ ma ọ bụ ịgụgharịa aha nchekwa sistemụ
+msg.phrase	no media in the drive	enweghị diski na draịvụ
+msg.phrase	becoming ready	na-adị njikere
+msg.phrase	not ready	adịghị njikere
+msg.phrase	media changed	agbanwere diski
+msg.phrase	medium error	njehie diski
+msg.phrase	illegal request	arịrịọ na-ezighị ezi
+msg.phrase	a bad directory entry	ndenye nchekwa ọjọọ
+msg.phrase	a directory on the way does not exist	nchekwa n'ụzọ adịghị
+msg.phrase	a file has that name	faịlụ nwere aha ahụ
+msg.phrase	a folder has that name	nchekwa nwere aha ahụ
+msg.phrase	a name on the way is not a directory	aha n'ụzọ abụghị nchekwa
+msg.phrase	cancelled	akagbuola
+msg.phrase	could not mount	enweghị ike ịrịgo
+msg.phrase	could not start a read	enweghị ike ịmalite ọgụgụ
+msg.phrase	could not start a write	enweghị ike ịmalite ide
+msg.phrase	is a directory	bụ nchekwa
+msg.phrase	that is a directory	nke ahụ bụ nchekwa
+msg.phrase	no clusters	enweghị klọsta
+msg.phrase	no room for the cluster list	enweghị ohere maka ndepụta klọsta
+msg.phrase	no such file or directory	enweghị faịlụ ma ọ bụ nchekwa dị otu a
+msg.phrase	no such file	enweghị faịlụ dị otu a
+msg.phrase	no volume	enweghị olu
+msg.phrase	not NTFS	ọ bụghị NTFS
+msg.phrase	not exFAT	ọ bụghị exFAT
+msg.phrase	not a directory	ọ bụghị nchekwa
+msg.phrase	not found	achọtaghị
+msg.phrase	read error	njehie ọgụgụ
+msg.phrase	write error	njehie ide
+msg.phrase	reading the FAT failed	ịgụ FAT dara
+msg.phrase	the cluster chain is shorter than the file	yinye klọsta dị mkpụmkpụ karịa faịlụ
+msg.phrase	the directory is not empty	nchekwa abụghị efu
+msg.phrase	the disk is full	diski juru
+msg.phrase	the drive did not answer	draịvụ azaghị
+msg.phrase	the file is read-only	faịlụ bụ ọgụgụ naanị
+msg.phrase	the file is too fragmented	faịlụ kewara nke ukwuu
+msg.phrase	the file is too large (4GB)	faịlụ buru ibu nke ukwuu (GB 4)
+msg.phrase	the new name already exists	aha ọhụrụ adịlarị
+msg.phrase	the root directory is full	nchekwa mgbọrọgwụ juru
+msg.phrase	too many files with the same short name	faịlụ dị ukwuu nwere otu aha mkpụmkpụ
+msg.phrase	No such file or directory	Enweghị faịlụ ma ọ bụ nchekwa dị otu a
+msg.phrase	File exists	Faịlụ adịlarị
+msg.phrase	Permission denied	Ajụrụ ikike
+msg.phrase	Directory not empty	Nchekwa abụghị efu
+msg.phrase	Not a directory	Ọ bụghị nchekwa
+msg.phrase	Is a directory	Bụ nchekwa
+msg.phrase	Read-only file system	Sistemụ faịlụ ọgụgụ naanị
+msg.phrase	No space left on device	Ohere afọghị na ngwaọrụ
+msg.phrase	Input/output error	Njehie ntinye/mwepụta
+msg.phrase	Not supported on this drive	Anaghị akwado ya na draịvụ a
+msg.phrase	Invalid path	Ụzọ na-ezighị ezi
+msg.phrase	Out of memory	Ebe nchekwa agwụla
+msg.phrase	No such drive	Enweghị draịvụ dị otu a
+msg.phrase	stopped	akwụsịrị
+msg.phrase	cancelled (not enough free space)	akagbuola (ohere efu ezughị)
+msg.phrase	could not count the free space	enweghị ike ịgụ ohere efu
+msg.phrase	the receiver cancelled	onye nnata kagbuo
+msg.phrase	no receiver (run rz on the PC)	enweghị onye nnata (rụọ rz na PC)
+msg.phrase	the console UART is in use	a na-eji UART njikwa
+msg.phrase	the screen mode changed	ọnọdụ ihuenyo gbanwere
+msg.phrase	the lines did not come (is the display running?)	ahịrị abịaghị (ngosi ọ na-arụ ọrụ?)
+msg.prefix	copy	detuo
+msg.prefix	move	bugharịa
+msg.prefix	delete	hichapụ
+msg.prefix	rename	gụgharịa aha
+msg.prefix	attributes	njirimara
+msg.prefix	new file	faịlụ ọhụrụ
+msg.prefix	new folder	nchekwa ọhụrụ
+msg.prefix	image	foto
+msg.prefix	mrbc	mrbc
+msg.prefix	ruby	ruby
+msg.prefix	viewer	ihe nlele
+msg.prefix	edit	dezie
+msg.prefix	IDENTIFY	IDENTIFY
+msg.prefix	ZMODEM	ZMODEM
+msg.prefix	ZMODEM receive	ZMODEM nata
+msg.prefix	ZMODEM send	ZMODEM ziga
+msg.prefix	split	kewaa
+msg.prefix	join	jikọta
+msg.prefix	Doom	Doom
+msg.prefix	SMF	SMF
+msg.prefix	CD	CD
+msg.prefix	FB	FB
+msg.prefix	Eject	Wepụta
+msg.prefix	reboot	malitegharịa
+msg.prefix	license	ikikere
+msg.prefix	clock	elekere
+msg.prefix	ADC in	ADC ntinye
+msg.prefix	screen -> PNG	ihuenyo -> PNG
+msg.prefix	FB -> PNG	FB -> PNG
+msg.prefix	could not open the volume	enweghị ike imepe olu
+msg.pattern	received 	natara %s
+msg.pattern	sent 	zigara %s
+msg.pattern	saved 	chekwara %s
+msg.pattern	created 	mepụtara %s
+msg.pattern	renamed to 	gụgharịrị aha ka ọ bụrụ %s
+msg.pattern	deleted 	hichapụrụ %s
+msg.pattern	changed 	gbanwere %s
+msg.pattern	joined 	jikọtara %s
+msg.pattern	split 	kewara %s
+msg.pattern	could not create 	enweghị ike imepụta %s
+msg.pattern	could not delete 	enweghị ike ihichapụ %s
+msg.pattern	could not rename to 	enweghị ike ịgụgharịa aha ka ọ bụrụ %s
+msg.pattern	could not change 	enweghị ike ịgbanwe %s
+msg.pattern	could not read 	enweghị ike ịgụ %s
+msg.pattern	could not write 	enweghị ike ide %s
+msg.pattern	could not copy 	enweghị ike idetuo %s
+msg.pattern	could not make 	enweghị ike ime %s
+msg.pattern	could not remove the folder 	enweghị ike iwepụ nchekwa %s
+msg.pattern	could not remove 	enweghị ike iwepụ %s
+msg.pattern	no memory for 	ebe nchekwa ezughị maka %s
+msg.pattern	too many errors while sending 	njehie dị ukwuu mgbe a na-eziga %s
+msg.pattern	the receiver did not take 	onye nnata anataghị %s
+msg.pattern	the receiver skipped 	onye nnata wụfere %s
+msg.pattern	FB page 	Ibe FB %s
+msg.word	 bytes each)	 baịtị nke ọ bụla)
+msg.word	 bytes)	 baịtị)
+msg.word	 KB)	 KB)
+msg.word	 parts into 	 akụkụ gaa
+msg.word	 parts (	 akụkụ (
+msg.word	 into 	 gaa
+msg.word	: cleared	: ehichapụla
+msg.word	: brightness halved	: ebelatala ìhè ọkara
+msg.word	% read	% agụrụ
+msg.word	 rows	 ahịrị
+msg.word	 -- not supported yet (FAT / exFAT / NTFS only)	 -- akwadobeghị ya (FAT / exFAT / NTFS naanị)
+msg.word	 files	 faịlụ
+msg.word	 (	 (
+msg.phrase	Untitled	Enweghị aha
+msg.phrase	1 File	1 Faịlụ
+msg.phrase	2 Edit	2 Dezie
+msg.phrase	3 Graph	3 Eserese
+msg.phrase	4 Sheet	4 Mpempe
+msg.phrase	5 Help	5 Enyemaka
+msg.phrase	EMPTY	EFU
+msg.phrase	NUMBER	NỌMBA
+msg.phrase	TEXT	EDEREDE
+msg.phrase	FORMULA	USORO
+msg.phrase	Type to enter, F2 to edit, F1 for help	Pịa ka itinye, F2 ka idezi, F1 maka enyemaka
+msg.phrase	Ready	Dị njikere
+msg.phrase	Press any key	Pịa igodo ọ bụla
+msg.phrase	Y = yes    N = no    Esc = cancel	Y = ee    N = mba    Esc = kagbuo
+msg.phrase	Enter = OK    Esc = cancel    Ctrl-U = clear	Enter = Ọ dị mma    Esc = kagbuo    Ctrl-U = hichapụ
+msg.phrase	First row/column = labels; charts use the 640x480 CLUT8 FB.	Ahịrị/ogidi mbụ = akara; eserese na-eji FB CLUT8 640x480.
+msg.phrase	SGCALC - HELP	SGCALC - ENYEMAKA
+msg.phrase	Press any key to return	Pịa igodo ọ bụla ịlaghachi
+msg.phrase	Press any key to return.	Pịa igodo ọ bụla ịlaghachi.
+msg.phrase	ABOUT SGCALC	GBASARA SGCALC
+msg.phrase	New	Ọhụrụ
+msg.phrase	Start a new sheet	Malite mpempe ọhụrụ
+msg.phrase	Open...	Mepee...
+msg.phrase	Open an ODS, FODS or CSV file	Mepee faịlụ ODS, FODS ma ọ bụ CSV
+msg.phrase	Save	Chekwaa
+msg.phrase	Save the current file	Chekwaa faịlụ a
+msg.phrase	Save As...	Chekwaa dị ka...
+msg.phrase	Save with a new name or format	Chekwaa na aha ma ọ bụ ụdị ọhụrụ
+msg.phrase	Export CSV...	Bupụ CSV...
+msg.phrase	Write a CSV copy	Dee mbipụta CSV
+msg.phrase	Export ODS...	Bupụ ODS...
+msg.phrase	Write a LibreOffice copy	Dee mbipụta LibreOffice
+msg.phrase	Quit	Pụọ
+msg.phrase	Leave SGCALC	Hapụ SGCALC
+msg.phrase	Clear	Hichapụ
+msg.phrase	Clear the selected cells	Hichapụ sel ahọrọ
+msg.phrase	Copy	Detuo
+msg.phrase	Copy the selection	Detuo nhọrọ
+msg.phrase	Paste	Mado
+msg.phrase	Paste at the cursor	Mado n'ebe cursor dị
+msg.phrase	Cut	Bepụ
+msg.phrase	Copy and clear the selection	Detuo wee hichapụ nhọrọ
+msg.phrase	Select all	Họrọ niile
+msg.phrase	Select all used cells	Họrọ sel niile ejiri
+msg.phrase	Text color...	Agba ederede...
+msg.phrase	Choose the text colour	Họrọ agba ederede
+msg.phrase	Background...	Azụ...
+msg.phrase	Choose the cell background	Họrọ azụ sel
+msg.phrase	Line	Ahịrị
+msg.phrase	Draw a line graph from the selection	See eserese ahịrị site na nhọrọ
+msg.phrase	Bar	Mkpanaka
+msg.phrase	Draw a bar graph from the selection	See eserese mkpanaka site na nhọrọ
+msg.phrase	Mixed	Agwakọta
+msg.phrase	Bars for the first series, lines for the rest	Mkpanaka maka usoro mbụ, ahịrị maka ndị ọzọ
+msg.phrase	Pie	Achịcha
+msg.phrase	Draw a pie graph from the selection	See eserese achịcha site na nhọrọ
+msg.phrase	Range...	Mpaghara...
+msg.phrase	Set the graph range explicitly	Tọọ mpaghara eserese n'ụzọ doro anya
+msg.phrase	Draw again	See ọzọ
+msg.phrase	Redraw the last graph	See eserese ikpeazụ ọzọ
+msg.phrase	Goto...	Gaa...
+msg.phrase	Jump to a cell (for example C12)	Wụlie gaa na sel (dịka C12)
+msg.phrase	Column width...	Obosara ogidi...
+msg.phrase	Change the selected columns' width	Gbanwee obosara ogidi ahọrọ
+msg.phrase	Row height...	Ịdị elu ahịrị...
+msg.phrase	Change the selected rows' height	Gbanwee ịdị elu ahịrị ahọrọ
+msg.phrase	Auto fit	Dabaa onwe ya
+msg.phrase	Fit widths/heights to the contents (F7)	Dabaa obosara/ịdị elu na ihe dị n'ime (F7)
+msg.phrase	Recalculate	Gbakọọ ọzọ
+msg.phrase	Re-evaluate all formulas	Nyochaa usoro niile ọzọ
+msg.phrase	Erase all	Hichapụ niile
+msg.phrase	Clear the whole sheet	Hichapụ mpempe niile
+msg.phrase	Keys	Igodo
+msg.phrase	Show the key guide	Gosi nduzi igodo
+msg.phrase	About	Gbasara
+msg.phrase	About SGCALC	Gbasara SGCALC
+msg.phrase	File	Faịlụ
+msg.phrase	Edit	Dezie
+msg.phrase	Graph	Eserese
+msg.phrase	Sheet	Mpempe
+msg.phrase	Help	Enyemaka
+msg.phrase	File: new, open, save, export, quit	Faịlụ: ọhụrụ, mepee, chekwaa, bupụ, pụọ
+msg.phrase	Edit: clear, copy, paste, cut, select all	Dezie: hichapụ, detuo, mado, bepụ, họrọ niile
+msg.phrase	Graph: line, bar, mixed, pie (draws in the FB)	Eserese: ahịrị, mkpanaka, agwakọta, achịcha (a na-ese na FB)
+msg.phrase	Sheet: goto, column width, recalculate, erase	Mpempe: gaa, obosara ogidi, gbakọọ ọzọ, hichapụ
+msg.phrase	Help: keys and about	Enyemaka: igodo na gbasara
+msg.phrase	Left/Right = menu    Up/Down = item    Enter = choose    Esc = cancel	Aka ekpe/Aka nri = menu    Elu/Ala = ihe    Enter = họrọ    Esc = kagbuo
+msg.phrase	Cancelled	Akagbuola
+msg.phrase	The selection is too large or memory is low.	Nhọrọ buru ibu nke ukwuu ma ọ bụ ebe nchekwa dị ala.
+msg.phrase	the cell	sel ahụ
+msg.phrase	the selection	nhọrọ ahụ
+msg.phrase	Nothing to paste	Ọ dịghị ihe a ga-emado
+msg.phrase	Pasted	Emadoro
+msg.phrase	GO TO CELL	GAA NA SEL
+msg.phrase	Cell reference (A1):	Ntụaka sel (A1):
+msg.phrase	Goto	Gaa
+msg.phrase	COLUMN WIDTH	OBOSARA OGIDI
+msg.phrase	Width in characters (4..30):	Obosara na mkpụrụ (4..30):
+msg.phrase	ROW HEIGHT	ỊDỊ ELU AHỊRỊ
+msg.phrase	Height in text rows (1..8):	Ịdị elu na ahịrị ederede (1..8):
+msg.phrase	Auto fit: the sheet is empty	Dabaa onwe ya: mpempe efu
+msg.phrase	BACKGROUND COLOUR	AGBA AZỤ
+msg.phrase	TEXT COLOUR	AGBA EDEREDE
+msg.phrase	Arrows: choose    Enter: apply    Esc: cancel	Akụ: họrọ    Enter: tinye    Esc: kagbuo
+msg.phrase	Colour index (PC-98 16-colour palette)	Nọmba agba (agba 16 PC-98)
+msg.phrase	Enter = apply    Esc = cancel	Enter = tinye    Esc = kagbuo
+msg.phrase	Colour	Agba
+msg.phrase	Background	Azụ
+msg.phrase	Text	Ederede
+msg.phrase	GRAPH RANGE	MPAGHARA ESERESE
+msg.phrase	Range (for example A1:C10):	Mpaghara (dịka A1:C10):
+msg.phrase	Graph range	Mpaghara eserese
+msg.phrase	Use a range such as A1:C10.	Jiri mpaghara dị ka A1:C10.
+msg.phrase	Cannot draw the graph.	Enweghị ike ịse eserese.
+msg.phrase	line	ahịrị
+msg.phrase	bar	mkpanaka
+msg.phrase	mixed	agwakọta
+msg.phrase	pie	achịcha
+msg.phrase	Clear every cell in this sheet?	Hichapụ sel ọ bụla na mpempe a?
+msg.phrase	Sheet erased	Ehichapụla mpempe
+msg.phrase	Selected all used cells	Ahọrọla sel niile ejiri
+msg.phrase	Recalculated	Agbakọọla ọzọ
+msg.phrase	Memory	Ebe nchekwa
+msg.phrase	Not enough PSRAM for the spreadsheet.	PSRAM ezughị maka mpempe mgbakọ.
+msg.phrase	The sheet is empty.	Mpempe ahụ efu.
+msg.phrase	No numeric data in the selected range.	Enweghị data nọmba na mpaghara ahọrọ.
+msg.phrase	Other	Ndị ọzọ
+msg.phrase	No positive values for a pie chart	Enweghị uru dị mma maka eserese achịcha
+msg.phrase	LINE	AHỊRỊ
+msg.phrase	BAR	MKPANAKA
+msg.phrase	MIXED	AGWAKỌTA
+msg.phrase	PIE	ACHỊCHA
+msg.phrase	Folder	Nchekwa
+msg.phrase	SAVE AS	CHEKWAA DỊ KA
+msg.phrase	OPEN FILE	MEPEE FAỊLỤ
+msg.phrase	Name:	Aha:
+msg.phrase	(type a name, or choose below)	(dee aha, ma ọ bụ họrọ n'okpuru)
+msg.phrase	Name	Aha
+msg.phrase	Size	Nha
+msg.phrase	Enter=save  Left=up  Right/Enter on [DIR]=open  Tab=drive  Esc=cancel	Enter=chekwaa  Aka ekpe=elu  Aka nri/Enter na [DIR]=mepee  Tab=draịvụ  Esc=kagbuo
+msg.phrase	Enter=open  Left=up  Right/Enter on [DIR]=open  Tab=drive  Esc=cancel	Enter=mepee  Aka ekpe=elu  Aka nri/Enter na [DIR]=mepee  Tab=draịvụ  Esc=kagbuo
+msg.phrase	Not enough memory.	Ebe nchekwa ezughị.
+msg.phrase	Overwrite	Dee n'elu
+msg.phrase	Open	Mepee
+msg.phrase	The file is too large (limit 8 MB).	Faịlụ buru ibu nke ukwuu (oke MB 8).
+msg.phrase	Not enough memory to read the file.	Ebe nchekwa ezughị ịgụ faịlụ ahụ.
+msg.phrase	Bad ZIP/ODS data.	Data ZIP/ODS ọjọọ.
+msg.phrase	CRC error in the ODS file.	Njehie CRC na faịlụ ODS.
+msg.phrase	Unsupported or damaged file.	Faịlụ anaghị akwado ma ọ bụ mebiri emebi.
+msg.phrase	Saved	Echekwara
+msg.phrase	Exported	Ebupụtara
+msg.phrase	Unsaved changes	Mgbanwe echekwaghị
+msg.phrase	Save the current sheet before continuing?	Chekwaa mpempe a tupu ịga n'ihu?
+msg.phrase	New sheet	Mpempe ọhụrụ
+msg.phrase	song is too large	egwu buru ibu nke ukwuu
+msg.phrase	empty file	faịlụ efu
+msg.phrase	not an SGT file	ọ bụghị faịlụ SGT
+msg.phrase	bad BPM	BPM ọjọọ
+msg.phrase	bad speed	ọsọ ọjọọ
+msg.phrase	bad title length	ogologo aha ọjọọ
+msg.phrase	truncated title	aha egbubiri
+msg.phrase	bad character in title	mkpụrụ ọjọọ n'aha
+msg.phrase	truncated order	usoro egbubiri
+msg.phrase	bad order length	ogologo usoro ọjọọ
+msg.phrase	bad pattern number in order	nọmba patern ọjọọ n'usoro
+msg.phrase	truncated pattern list	ndepụta patern egbubiri
+msg.phrase	bad pattern count	ọnụ ọgụgụ patern ọjọọ
+msg.phrase	bad pattern index	ndeksi patern ọjọọ
+msg.phrase	duplicate pattern	patern abụọ
+msg.phrase	truncated pattern data	data patern egbubiri
+msg.phrase	invalid pattern data	data patern na-ezighị ezi
+msg.phrase	trailing data in file	data fọdụrụ na njedebe faịlụ
+msg.phrase	order refers to a missing pattern	usoro na-ezo aka na patern na-adịghị
+msg.phrase	(untitled)	(enweghị aha)
+msg.phrase	Ready. Press F1 for help.	Dị njikere. Pịa F1 maka enyemaka.
+msg.phrase	Follow OFF	Soro GBANYỤỌ
+msg.phrase	Nothing to undo	Ọ dịghị ihe a ga-eweghachi
+msg.phrase	Undo	Weghachi
+msg.phrase	Note OFF	Kwụsị ụda
+msg.phrase	Set an effect letter first	Buru ụzọ tọọ mkpụrụ mmetụta
+msg.phrase	Effect cleared	Ehichapụla mmetụta
+msg.phrase	Parameter cleared	Ehichapụla paramita
+msg.phrase	Note cleared	Ehichapụla ụda
+msg.phrase	Instrument cleared	Ehichapụla ngwa egwu
+msg.phrase	Volume cleared	Ehichapụla olu
+msg.phrase	Order list is full	Ndepụta usoro juru
+msg.phrase	Order inserted	Etinyela usoro
+msg.phrase	Cannot delete the last order	Enweghị ike ihichapụ usoro ikpeazụ
+msg.phrase	Order deleted	Ehichapụla usoro
+msg.phrase	Playing song	Na-akpọ egwu
+msg.phrase	Stopped	Akwụsịrị
+msg.phrase	New song	Egwu ọhụrụ
+msg.phrase	Discard unsaved changes and start a new song? (Y/N)	Tụfuo mgbanwe echekwaghị wee malite egwu ọhụrụ? (Y/N)
+msg.phrase	Discard unsaved changes and open a song? (Y/N)	Tụfuo mgbanwe echekwaghị wee mepee egwu? (Y/N)
+msg.phrase	Discard unsaved changes and quit? (Y/N)	Tụfuo mgbanwe echekwaghị wee pụọ? (Y/N)
+msg.phrase	Song settings updated	Emelitere ntọala egwu
+msg.phrase	Filename is empty	Aha faịlụ efu
+msg.phrase	Save cancelled	Akagbuola ịchekwa
+msg.phrase	Open cancelled	Akagbuola imepe
+msg.phrase	Edit ON	Dezie GBANYE
+msg.phrase	Edit OFF	Dezie GBANYỤỌ
+msg.phrase	Follow ON	Soro GBANYE
+msg.phrase	Edit is OFF. Press F8 to edit.	Idezi gbanyụrụ. Pịa F8 ka idezi.
+msg.phrase	I/O error	Njehie I/O
+msg.phrase	file is too large	faịlụ buru ibu nke ukwuu
+msg.phrase	truncated file	faịlụ egbubiri
+msg.phrase	#TRANSPORT AND FILES	#ỌKPỤKPỌ NA FAỊLỤ
+msg.phrase	#ORDER LIST	#NDEPỤTA USORO
+msg.phrase	#DISPLAY	#NGOSI
+msg.phrase	#EDITING	#IDEZI
+msg.phrase	#EFFECTS (parameter is hexadecimal)	#MMETỤTA (paramita bụ hexadecimal)
+msg.phrase	LEFT/RIGHT PAGE   ENTER OR F1 CLOSE	AKA EKPE/AKA NRI IBE   ENTER MA Ọ BỤ F1 MECHIE
+msg.phrase	SONG SETTINGS	NTỌALA EGWU
+msg.phrase	UP/DOWN SELECT   LEFT/RIGHT ADJUST   ENTER/F2 CLOSE	ELU/ALA HỌRỌ   AKA EKPE/AKA NRI HAZIE   ENTER/F2 MECHIE
+msg.phrase	Type to edit the title. Backspace deletes the last character.	Pịa ka idezi aha. Backspace na-ehichapụ mkpụrụ ikpeazụ.
+msg.phrase	BPM range 32..255. Speed range 1..31.	BPM 32..255. Ọsọ 1..31.
+msg.phrase	Pattern effects can also change speed and BPM while playing.	Mmetụta patern nwekwara ike ịgbanwe ọsọ na BPM mgbe ọ na-akpọ.
+msg.phrase	INSTRUMENTS	NGWA EGWU
+msg.phrase	UP/DOWN SELECT   SPACE PREVIEW   ENTER USE   F3 CLOSE	ELU/ALA HỌRỌ   SPACE NỤRỤ   ENTER JIRI   F3 MECHIE
+msg.phrase	All four channels use wavetable synthesis.	Ọwa anọ niile na-eji njikọ tebụl ebili.
+msg.phrase	Preview plays C-4 on the track under the edit cursor.	Ọnụnụ mbụ na-akpọ C-4 na egwu dị n'okpuru cursor idezi.
+msg.phrase	SAVE SONG AS	CHEKWAA EGWU DỊ KA
+msg.phrase	ENTER SAVE   F4 OR CTRL-C CANCEL	ENTER CHEKWAA   F4 MA Ọ BỤ CTRL-C KAGBUO
+msg.phrase	Directory:	Nchekwa:
+msg.phrase	File name:	Aha faịlụ:
+msg.phrase	The extension .SGT is added automatically.	A na-agbakwunye ndọtị .SGT n'onwe ya.
+msg.phrase	An existing file can be overwritten.	Enwere ike ide n'elu faịlụ dị adị.
+msg.phrase	OPEN SONG	MEPEE EGWU
+msg.phrase	ENTER OPEN  BS PARENT  CTRL-O/CTRL-C CANCEL	ENTER MEPEE  BS ELU  CTRL-O/CTRL-C KAGBUO
+msg.phrase	(no .SGT files in this folder)	(enweghị faịlụ .SGT na nchekwa a)
+msg.phrase	CONFIRM	KWADO
+msg.phrase	Y = YES   N / ENTER / CTRL-C = NO	Y = EE   N / ENTER / CTRL-C = MBA
+msg.phrase	Y = yes        N = no	Y = ee        N = mba
+msg.phrase	broken MThd	MThd mebiri
+msg.phrase	MIDI IMPORT	MBUBATA MIDI
+msg.phrase	broken delta time	oge delta mebiri
+msg.phrase	broken running status	running status mebiri
+msg.phrase	broken meta event	ihe omume meta mebiri
+msg.phrase	broken sysex event	ihe omume sysex mebiri
+msg.phrase	broken channel event	ihe omume ọwa mebiri
+msg.phrase	SMF output is too small	mwepụta SMF dị obere nke ukwuu
+msg.phrase	SMF output is too large	mwepụta SMF buru ibu nke ukwuu
+msg.phrase	the song is too long for SMF	egwu dị ogologo nke ukwuu maka SMF
+msg.phrase	ARROWS      move the cell cursor\n	AKỤ        bugharịa cursor sel\n
+msg.phrase	SHIFT+ARR   extend the selection (for graphs/copy)\n	SHIFT+AKỤ  gbasaa nhọrọ (maka eserese/ndetuo)\n
+msg.phrase	ENTER       edit the cell; in edit, commit and move down\n	ENTER       dezie sel; mgbe ị na-edezi, kwado wee gbadata\n
+msg.phrase	TAB         next cell    SHIFT+TAB  previous cell\n	TAB         sel na-esote    SHIFT+TAB  sel gara aga\n
+msg.phrase	DELETE      clear the selected cell(s)    ESC  cancel\n	DELETE      hichapụ sel ahọrọ    ESC  kagbuo\n
+msg.phrase	PGUP/PGDN   move one screen    HOME/END  first/last column\n	PGUP/PGDN   otu ihuenyo    HOME/END  ogidi mbụ/ikpeazụ\n
+msg.phrase	CTRL+HOME   A1    CTRL+END  last used cell\n	CTRL+HOME   A1    CTRL+END  sel ikpeazụ ejiri\n
+msg.phrase	F1 help  F2 edit  F3 copy  F4 paste  F5 goto  F6 colour\n	F1 enyemaka  F2 dezie  F3 detuo  F4 mado  F5 gaa  F6 agba\n
+msg.phrase	F7 auto-fit  F8 background  F9 recalc  F10 graph  F11 save  F12 menu\n	F7 dabaa  F8 azụ  F9 gbakọọ  F10 eserese  F11 chekwaa  F12 menu\n
+msg.phrase	SHIFT+F1 about  SHIFT+F2 row height  SHIFT+F3 column width\n	SHIFT+F1 gbasara  SHIFT+F2 ịdị elu ahịrị  SHIFT+F3 obosara ogidi\n
+msg.phrase	SHIFT+F4 select all  SHIFT+F10 graph range  SHIFT+F11 save as\n	SHIFT+F4 họrọ niile  SHIFT+F10 mpaghara eserese  SHIFT+F11 chekwaa dị ka\n
+msg.phrase	CTRL+F1 new  CTRL+F2 open  CTRL+F3 save  CTRL+F4 save as\n	CTRL+F1 ọhụrụ  CTRL+F2 mepee  CTRL+F3 chekwaa  CTRL+F4 chekwaa dị ka\n
+msg.phrase	CTRL+F5 export CSV  CTRL+F6 export ODS  ALT+F12 quit\n	CTRL+F5 bupụ CSV  CTRL+F6 bupụ ODS  ALT+F12 pụọ\n
+msg.phrase	Bottom 2 lines: function keys; [SHIFT]/[CTRL]/[ALT] like the filer\n	Ahịrị 2 dị n'ala: igodo ọrụ; [SHIFT]/[CTRL]/[ALT] dị ka njikwa faịlụ\n
+msg.phrase	CTRL+S save  CTRL+O open  CTRL+N new  CTRL+C/V/X copy/paste/cut\n	CTRL+S chekwaa  CTRL+O mepee  CTRL+N ọhụrụ  CTRL+C/V/X detuo/mado/bepụ\n
+msg.phrase	CTRL+G goto    /  open the menu (1 File, 2 Edit, ...)\n	CTRL+G gaa    /  mepee menu (1 Faịlụ, 2 Dezie, ...)\n
+msg.phrase	Built-in functions: SUM AVERAGE MIN MAX COUNT COUNTA\n	Ọrụ dị n'ime: SUM AVERAGE MIN MAX COUNT COUNTA\n
+msg.phrase	Cell refs: A1, $A$1, A1:B10.  Formulas begin with '='.\n	Ntụaka sel: A1, $A$1, A1:B10.  Usoro na-amalite na '='.\n
+msg.phrase	Files: .ods (LibreOffice), .fods (flat XML), .csv\n	Faịlụ: .ods (LibreOffice), .fods (XML dị larịị), .csv\n
+msg.phrase	ODS/FODS keeps formulas, widths, heights and colours.\n	ODS/FODS na-edebe usoro, obosara, ịdị elu na agba.\n
+msg.phrase	CSV keeps values and formulas (no colours/heights).\n	CSV na-edebe uru na usoro (enweghị agba/ịdị elu).\n
+msg.phrase	Graph: select a range, press F10, and choose Line/Bar/Mixed/Pie.\n	Eserese: họrọ mpaghara, pịa F10, wee họrọ Ahịrị/Mkpanaka/Agwakọta/Achịcha.\n
+msg.phrase	SGCALC for sgnano\n	SGCALC maka sgnano\n
+msg.phrase	Version 	Ụdị
+msg.phrase	A Lotus 1-2-3 style spreadsheet as an SGX program.\n\n	Mpempe mgbakọ ụdị Lotus 1-2-3 dị ka mmemme SGX.\n\n
+msg.phrase	Screen mode 3: text + CLUT8 FB (lowres disabled)\n	Ọnọdụ ihuenyo 3: ederede + FB CLUT8 (lowres gbanyụrụ)\n
+msg.phrase	Sheet: %d rows x %d columns\n	Mpempe: ahịrị %d x ogidi %d\n
+msg.phrase	Formats: .ods / .fods (LibreOffice), .csv\n\n	Ụdị: .ods / .fods (LibreOffice), .csv\n\n
+msg.phrase	The grid is drawn on the text plane.\n	A na-ese grid na ọkwa ederede.\n
+msg.phrase	Charts and the 640x480 background use the FB.\n\n	Eserese na azụ 640x480 na-eji FB.\n\n
+msg.phrase	Cannot store the cell (%d).	Enweghị ike ịchekwa sel (%d).
+msg.phrase	Copied %d x %d cells	Edetuola sel %d x %d
+msg.phrase	Cleared %s	Ehichapụla %s
+msg.phrase	'%s' is not a cell reference.	'%s' abụghị ntụaka sel.
+msg.phrase	Column width = %d	Obosara ogidi = %d
+msg.phrase	Row height = %d	Ịdị elu ahịrị = %d
+msg.phrase	Auto fit: %d column(s), %d row(s)	Dabaa onwe ya: ogidi %d, ahịrị %d
+msg.phrase	Cannot apply the colour (%d).	Enweghị ike itinye agba (%d).
+msg.phrase	Not a valid range.\nUse a range such as A1:C10.	Mpaghara na-ezighị ezi.\nJiri mpaghara dị ka A1:C10.
+msg.phrase	Graph range %s	Mpaghara eserese %s
+msg.phrase	Graph: %s	Eserese: %s
+msg.phrase	SGCALC: cannot set screen mode 3: %s\n	SGCALC: enweghị ike ịtọ ọnọdụ ihuenyo 3: %s\n
+msg.phrase	Cannot read %s\n%s	Enweghị ike ịgụ %s\n%s
+msg.phrase	Folder: %s	Nchekwa: %s
+msg.phrase	Unsupported extension.\nUse .csv, .ods or .fods.	Ndọtị anaghị akwado.\nJiri .csv, .ods ma ọ bụ .fods.
+msg.phrase	%s already exists.\nOverwrite it?	%s adịlarị.\nDee n'elu ya?
+msg.phrase	%s may not be writable.\nTry anyway?	O nwere ike ọ gaghị ekwe ide na %s.\nNwaa n'agbanyeghị?
+msg.phrase	Unknown file type for %s	Amaghị ụdị faịlụ maka %s
+msg.phrase	Unsupported file type.\nUse .csv, .ods or .fods.	Ụdị faịlụ anaghị akwado.\nJiri .csv, .ods ma ọ bụ .fods.
+msg.phrase	Cannot open %s\n%s	Enweghị ike imepe %s\n%s
+msg.phrase	%s is a folder.	%s bụ nchekwa.
+msg.phrase	Cannot import %s\n%s	Enweghị ike ibubata %s\n%s
+msg.phrase	Loaded %s	Ebubatala %s
+msg.phrase	Cannot build the %s file.	Enweghị ike iwu faịlụ %s.
+msg.phrase	Cannot write %s\n%s	Enweghị ike ide %s\n%s
+msg.phrase	unsupported version %u	ụdị %u anaghị akwado
+msg.phrase	Octave %d	Oktev %d
+msg.phrase	Note %s	Ụda %s
+msg.phrase	Instrument %d	Ngwa egwu %d
+msg.phrase	Volume %s	Olu %s
+msg.phrase	Effect %c	Mmetụta %c
+msg.phrase	Parameter %s	Paramita %s
+msg.phrase	Pattern %s	Patern %s
+msg.phrase	Playing pattern %s	Na-akpọ patern %s
+msg.phrase	SAVE ERROR: %s	NJEHIE ỊCHEKWA: %s
+msg.phrase	Saved %s	Echekwara %s
+msg.phrase	LOAD ERROR: %s	NJEHIE MBUBATA: %s
+msg.phrase	BPM %d	BPM %d
+msg.phrase	Speed %d	Ọsọ %d
+msg.phrase	Preview %s	Ọnụnụ %s
+msg.phrase	Instrument %s %s	Ngwa egwu %s %s
+msg.phrase	Overwrite %s? (Y/N)	Dee n'elu %s? (Y/N)
+msg.phrase	  F5          Play the song from the current order	  F5          Kpọọ egwu site n'usoro dị ugbu a
+msg.phrase	  F6          Play the current pattern	  F6          Kpọọ patern dị ugbu a
+msg.phrase	  F7/Ctrl-C   Stop playback	  F7/Ctrl-C   Kwụsị ọkpụkpọ
+msg.phrase	  Space       Play / stop	  Space       Kpọọ / kwụsị
+msg.phrase	  F4          Save as	  F4          Chekwaa dị ka
+msg.phrase	  Ctrl-S      Save (asks for a name if new)	  Ctrl-S      Chekwaa (na-ajụ aha ma ọ bụrụ ọhụrụ)
+msg.phrase	  Ctrl-O      Open a song	  Ctrl-O      Mepee egwu
+msg.phrase	  Ctrl-N      New song	  Ctrl-N      Egwu ọhụrụ
+msg.phrase	  F12         Quit (confirmation if modified)	  F12         Pụọ (na-ajụ ma ọ bụrụ na agbanwere)
+msg.phrase	  [ ]         Previous / next order entry	  [ ]         Ndenye usoro gara aga / na-esote
+msg.phrase	  { }         Insert / delete an order entry	  { }         Tinye / hichapụ ndenye usoro
+msg.phrase	  - +         Change the pattern in the entry	  - +         Gbanwee patern na ndenye
+msg.phrase	  F11         Follow playback (turns off on manual move)	  F11         Soro ọkpụkpọ (na-agbanyụ ma ị bugharịa n'aka)
+msg.phrase	  F1          Help; Left/Right changes page	  F1          Enyemaka; Aka ekpe/Aka nri na-agbanwe ibe
+msg.phrase	  F8          Toggle edit mode	  F8          Gbanye/gbanyụọ ọnọdụ idezi
+msg.phrase	  Arrows      Move the cursor	  Akụ         Bugharịa cursor
+msg.phrase	  PgUp/PgDn   Jump 16 rows	  PgUp/PgDn   Wụlie ahịrị 16
+msg.phrase	  Home/End    First / last row	  Home/End    Ahịrị mbụ / ikpeazụ
+msg.phrase	  F9/F10      Octave down / up	  F9/F10      Oktev ala / elu
+msg.phrase	  Z S X D C V G B H N J M      lower piano row	  Z S X D C V G B H N J M      ahịrị piano ala
+msg.phrase	  Q 2 W 3 E R 5 T 6 Y 7 U      upper piano row	  Q 2 W 3 E R 5 T 6 Y 7 U      ahịrị piano elu
+msg.phrase	  1           Note off	  1           Kwụsị ụda
+msg.phrase	  0 / Del     0 clears note/inst/fx; Del clears any	  0 / Del     0 na-ehichapụ ụda/ngwa/mmetụta; Del na-ehichapụ ihe ọ bụla
+msg.phrase	  Ctrl-Z      Undo the last pattern/order edit	  Ctrl-Z      Weghachi ndezi patern/usoro ikpeazụ
+msg.phrase	  Axy   Volume slide: up x, down y	  Axy   Mmịfe olu: elu x, ala y
+msg.phrase	  Cxx   Note cut after xx ticks	  Cxx   Bepụ ụda mgbe tick xx gachara
+msg.phrase	  Dxx   Set volume (00..7F)	  Dxx   Tọọ olu (00..7F)
+msg.phrase	  Fxx   Speed if xx < 20, otherwise BPM	  Fxx   Ọsọ ma xx < 20, ma ọ bụghị BPM
+msg.phrase	  Hxy   Arpeggio x, y semitones	  Hxy   Arpeggio x, y ọkara ụda
+msg.phrase	  Pxx   Pitch slide up	  Pxx   Mmịfe ụda elu
+msg.phrase	  Qxx   Pitch slide down	  Qxx   Mmịfe ụda ala
+msg.phrase	  F2 song settings, F3 instrument list	  F2 ntọala egwu, F3 ndepụta ngwa egwu
+msg.phrase	HELP %d/2	ENYEMAKA %d/2
+msg.phrase	  Title	  Aha
+msg.phrase	  BPM   : %d     (left/right -1/+1, -/+ -5/+5)	  BPM   : %d     (aka ekpe/aka nri -1/+1, -/+ -5/+5)
+msg.phrase	  Speed : %d ticks/row	  Ọsọ   : tick %d/ahịrị
+msg.phrase	  Rows  : %d (fixed)	  Ahịrị : %d (edoziri)
+msg.phrase	  Order : %d entries	  Usoro : ndenye %d
+msg.phrase	  Patterns in use : %d	  Patern a na-eji : %d
+msg.phrase	Current instrument: %s %s	Ngwa egwu ugbu a: %s %s
+msg.phrase	Files: %d	Faịlụ: %d
+msg.phrase	SGNO TRACKER: incompatible SGX ABI\n	SGNO TRACKER: SGX ABI adabaghị\n
+msg.phrase	S: check: wait -- a file is being read or written	Nlele S:: chere -- a na-agụ ma ọ bụ ede faịlụ
+msg.phrase	S: check: the drive is busy or not ready	Nlele S:: draịvụ na-arụ ọrụ ma ọ bụ adịghị njikere
+msg.phrase	nothing for this item (ContextMenu.cfg)	ọ dịghị ihe maka ihe a (ContextMenu.cfg)
+msg.phrase	bad command in ContextMenu.cfg	iwu ọjọọ na ContextMenu.cfg
+msg.phrase	unknown action in ContextMenu.cfg	omume amaghị na ContextMenu.cfg
+msg.prefix	menu	menu
+msg.phrase	5 Macro	5 Macro
+msg.phrase	6 Help	6 Enyem
+msg.phrase	Run current	Rụọ nke a
+msg.phrase	Run the macro at the cursor (#! header cell and the cells below it)	Rụọ macro n'ebe cursor dị (sel isi #! na sel dị n'okpuru ya)
+msg.phrase	Run selection	Rụọ nhọrọ
+msg.phrase	Run the selected cells as one macro (top-left cell is the #! header)	Rụọ sel ahọrọ dị ka otu macro (sel elu aka ekpe bụ isi #!)
+msg.phrase	Run all	Rụọ niile
+msg.phrase	Run every macro in the sheet, top-left to bottom-right	Rụọ macro ọ bụla na mpempe, site n'elu aka ekpe ruo n'ala aka nri
+msg.phrase	Last error	Njehie ikpeazụ
+msg.phrase	Show the last macro error	Gosi njehie macro ikpeazụ
+msg.phrase	Macro	Macro
+msg.phrase	Macro: run #!ruby / #!python / #!basic cells	Macro: rụọ sel #!ruby / #!python / #!basic
+msg.phrase	Edit the cell (F2)	Dezie sel (F2)
+msg.phrase	Fit widths/heights to the contents	Dabaa obosara/ịdị elu na ihe dị n'ime
+msg.phrase	Last macro error	Njehie macro ikpeazụ
+msg.phrase	No macro error.	Enweghị njehie macro.
+msg.phrase	IME on	IME gbanyere
+msg.phrase	IME off	IME gbanyụrụ
+msg.phrase	Macro: %s %s ...	Macro: %s %s ...
+msg.phrase	%s: this firmware cannot run macros (SGX ABI 5.10 or later)	%s: firmware a enweghị ike ịrụ macro (SGX ABI 5.10 ma ọ bụ karịa)
+msg.phrase	Macro error: %s	Njehie macro: %s
+msg.phrase	Macro: %s done	Macro: %s emechara
+msg.phrase	a macro is already running	macro na-arụlarị ọrụ
+msg.phrase	this language is not available	asụsụ a adịghị
+msg.phrase	not enough memory	ebe nchekwa ezughị
+msg.phrase	the macro stopped with an error	macro kwụsịrị n'ihi njehie
+msg.phrase	Macro error %s: %s	Njehie macro %s: %s
+msg.phrase	Macro: not enough memory	Macro: ebe nchekwa ezughị
+msg.phrase	Macro: the cursor is not on a macro (a #!ruby / #!python / #!basic cell or the cells below it)	Macro: cursor anọghị na macro (sel #!ruby / #!python / #!basic ma ọ bụ sel dị n'okpuru ya)
+msg.phrase	Macro: no macro in the sheet	Macro: enweghị macro na mpempe
+msg.phrase	Run all macros	Rụọ macro niile
+msg.phrase	Macros: %d. Run them all, top-left to bottom-right? Changes cannot be undone.	Macro: %d. Rụọ ha niile, site n'elu aka ekpe ruo n'ala aka nri? Enweghị ike ịghaghachi mgbanwe.
+msg.phrase	Macro: %d of %d done	Macro: %d n'ime %d emechara
+msg.phrase	Cleared the cell	Ehichapụla sel ahụ
+msg.phrase	Cleared the selection	Ehichapụla nhọrọ ahụ
+msg.phrase	Background colour = %d	Agba azụ = %d
+msg.phrase	Text colour = %d	Agba ederede = %d
+msg.phrase	Graph: line	Eserese: ahịrị
+msg.phrase	Graph: bar	Eserese: mkpanaka
+msg.phrase	Graph: mixed	Eserese: agwakọta
+msg.phrase	Graph: pie	Eserese: achịcha
+msg.phrase	Exported %s	Ebupụtara %s
+msg.phrase	choose a file or folder	họrọ faịlụ ma ọ bụ folda
+msg.phrase	this drive cannot be written	enweghị ike ide na draịva a
+msg.phrase	an archive job is already running	ọrụ ebe nchekwa na-aga n'ihu
+msg.phrase	no PSRAM for the archive task	enweghị PSRAM maka ọrụ ebe nchekwa
+msg.phrase	could not start the archive task	enweghị ike ịmalite ọrụ ebe nchekwa
+msg.phrase	too many items (32 at most)	ihe dị ukwuu (32 kacha)
+msg.phrase	nothing to compress	ọ dịghị ihe a ga-apakọ
+msg.phrase	no name (or the name has / or \\)	aha adịghị (ma ọ bụ aha nwere / ma ọ bụ \\)
+msg.phrase	32 items at most (mark fewer, or put them in a folder)	ihe 32 kacha (kaa obere ma ọ bụ tinye ha n'otu folda)
+msg.prefix	archive	ebe nchekwa
+msg.prefix	compress	mpakọ
+msg.prefix	render	mbupụ WAV

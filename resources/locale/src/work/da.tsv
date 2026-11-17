@@ -1,0 +1,373 @@
+# da: machine translation (Google), unreviewed; 2026-11-17
+U001	Liste (filer og mapper i 2 kolonner x 19 rækker)
+U002	Flyt markøren (venstre/højre: den anden kolonne)
+U003	Forrige side / næste side
+U004	Marker alle / vend mærkerne om (som i PC-98 FD)
+U005	Først/sidste
+U006	Marker og gå videre / markér kun
+U007	Shift+pile
+U008	Vælg et område (mellemrum markerer området)
+U009	Indtast en mappe / åbn en fil (F2/X-kørsel)
+U010	Op til den overordnede mappe
+U011	Vælg et drev (USB, floppy, CD, S: indbygget)
+U012	Kopier (Shift+C / Shift+F3 vælger destinationen fra træet)
+U013	Flytte
+U014	Slet (Shift+D / Shift+F4 slet en mappe)
+U015	Omdøb
+U016	Skift attributterne
+U017	Åbn i editoren
+U018	Vis som tekst (Shift+V / Ctrl+Alt+F7 hex)
+U019	Drev oplysninger
+U020	Ny mappe / ny fil
+U021	Shell sgsh / skub mediet ud
+U022	Genindlæs
+U023	Gem skærmen som PNG
+U024	Luk vinduet / fjern markeringen (i en undermappe: gå op)
+U025	Filhandlinger (som i FD: mærker, derefter området og derefter markøren)
+U026	Kopier: vælg destinationen fra drev- og mappetræet. ESC stopper
+U027	Slet: bekræft med y. Mærker og rækker på én gang. Mapper med deres indhold
+U028	Slet en mappe (med dens indhold)
+U029	Omdøb (rediger navnet, Enter)
+U030	Attributter: R skrivebeskyttet, H skjult, S-system, A-arkiv
+U031	Ny mappe
+U032	Ny (tom) fil
+U033	Vis som tekst (Shift+V / Ctrl+Alt+F7 hex)
+U034	Shell sgsh (afslut / Ctrl-D tilbage til filerne)
+U035	Drevets identitet (forespørgsel, IDENTIFICER)
+U036	Skub FDD / LS-120 / CD-mediet ud
+U037	Genindlæs listen (CD: fra indholdsfortegnelsen)
+U038	Modtag fra pc'en af ​​ZMODEM (zm.sh put)
+U039	Send til pc'en af ​​ZMODEM (zm.sh get)
+U040	Kompiler .rb og skriv .mrb
+U041	Ruby REPL (en linje ad gangen, Ctrl-D / ESC for at afslutte)
+U042	MicroPython REPL
+U043	Opdel i 4 MB dele / join fra .001
+U044	Opdel / join (samme som Ctrl+F11 / F12)
+U045	Skærm (Alt+F, kolliderer ikke med FD F-tasterne)
+U046	Vis/skjul FB (billedet)/teksten
+U047	FB-visningsside (0-3)
+U048	Ryd FB til 0 / halver dens lysstyrke (RGB555)
+U049	USB-endepunkter og LAN-tilstanden
+U050	Ryd FB-visningssiden / halver dens lysstyrke
+U051	Eksempler på tekstattributter
+U052	Monitor EDID (læs ved opstart)
+U053	Font ROM-licenser og kreditter
+U054	Indstillinger (skærmsprog, IME og tastaturlokalitet)
+U055	Ur (Japan tid indstillet af NTP; s synkroniseres nu)
+U056	Åbn regneark (SGCALC)
+U057	Tjek S: for fejl (spørger før reparation)
+U058	Åbn TRACKER
+U059	Genstart (spørger først)
+U060	Afspil ADC stereoindgangen (GP40 / 41)
+U061	Eksporter VGM/VGZ til en 96 kHz / 24-bit WAV
+U062	Denne hjælp
+U063	Skift side
+U064	Tæt
+U065	Tekst/hex-fremviser (som mindre)
+U066	En linje
+U067	Én side
+U068	En halv side
+U069	Søg (frem / tilbage) / næste / forrige
+U070	Tilbage til listen (F1: seerens hjælp)
+U071	Billedfremviser
+U072	Tilbage til listen (F2 F3 F6 F7 Shift+F2 F3 arbejde)
+U073	Editor (E / Shift+F8)
+U074	Gem (UTF-8; linjeslut og stykliste beholdt)
+U075	Luk (hvis ændret: J / N / ESC)
+U076	Indsæt / overskriv
+U077	IME til/fra (japansk / engelsk / koreansk)
+U078	IME-sprog (japansk / engelsk / koreansk)
+U079	Forpligt dig som hiragana / katakana
+U080	Redaktørens hjælp
+U081	Shell
+U082	Shell (et csh-undersæt. exit / Ctrl-D for at returnere, hjælp viser kommandoerne)
+U083	Liste og flytte
+U084	Filhandlinger
+U085	Skærm og enheder
+U086	Seere og redaktøren
+U087	Hjælp %u / %u %s
+U088	Venstre Højre: Skift side F1 / ESC: luk
+U089	Genstarte sgnano?
+U090	[Genstart]
+U091	[Annuller]
+U092	Tjek S:-drevet for fejl
+U093	Filer %lu mapper %lu
+U094	Størrelsen passer ikke til kæden
+U095	Klynger brugt af ingenting
+U096	Tværbundne klynger
+U097	Brudte poster
+U098	De to FAT-kopier er forskellige
+U099	Ingen fejl.
+U100	Der blev fundet fejl. reparere dem?
+U101	Repareret (numrene ovenfor blev rettet).
+U102	Kunne ikke kontrollere eller reparere (S: er optaget).
+U103	[Reparation]
+U104	[Annuller]
+U105	Enhver nøgle lukker
+U106	Indstillinger
+U107	Vis sprog
+U108	Tastatur-lokalitet
+U109	Op / Ned Enter vælg ESC annuller
+U110	Vis sprog
+U111	Op / Ned Indtast: indstil ESC: tilbage
+U112	Ret %c: som hvilket bogstav? (A-Z undtagen S. ESC annullerer)
+U113	Drevbogstav / Enter vælg F2 fix/fjern bogstavet F3 fix som... L / ESC annuller
+U114	skillevæg %u
+U115	%c:* (fast, ikke tilsluttet) %04X:%04X%s %s
+U116	Meddelelse
+U117	Kør %c: %s
+U118	Kør (ingen)
+U119	Lyd-cd %u spor
+U120	Mapper %u filer %u i alt %s
+U121	Læsning...
+U122	* markeret %u %s
+U123	%lu bytes
+U124	Attr %s ændret %s oprettet %s %s
+U125	Sol
+U126	man
+U127	tir
+U128	ons
+U129	tor
+U130	fre
+U131	Lør
+U132	Uret er ikke indstillet (NTP over LAN)
+U133	FB display %u skriv %u
+U134	1 Hjælp
+U135	2 Løb
+U136	3 Kopiér
+U137	4 Del
+U138	5 Omdøb
+U139	7 FBclr
+U140	8 FBdim
+U141	9 Kør
+U142	10 EP'er
+U143	11 Ur
+U144	12 CALC
+U145	1 Attr
+U146	2 Info
+U147	3 Flyt
+U148	5 Mkdir
+U149	6 Skal
+U150	8 Rediger
+U151	9 Visning
+U152	10 S:chk
+U153	11 SPOR
+U154	12 Genstart
+U155	1 Ny
+U156	2 Mappe
+U157	3 Omdøb
+U158	4 Attrib
+U159	6 Kopi
+U160	7 Bevæg dig
+U161	8 Slet
+U162	9 Rediger
+U163	10 mrbc
+U164	11 Split
+U165	12 Deltag
+U166	1 Attr
+U167	2 FB
+U168	3 Tekst
+U169	5 ScrSht
+U170	6 DispPg
+U171	9 ZMrecv
+U172	10ZMsend
+U173	2 FBClr
+U174	3 FBDim
+U175	5 Genindlæs
+U176	7 Hex
+U177	9 Lic
+U178	11 Opsætning
+U179	Indstil uret (japansk tid. NTP kunne ikke indstille det)
+U180	Kør med parametre
+U181	Ny mappe
+U182	Ny fil
+U183	Tid:
+U184	Løbe:
+U185	Navn:
+U186	ÅÅÅÅ-MM-DD tt:mm Indtast sæt ESC hold
+U187	Indtast kørsel <-> flyt BS / Slet slet ESC annuller
+U188	Indtast omdøb <-> flyt BS / Slet slet ESC annuller
+U189	Indtast opret <-> flyt BS / Slet slet ESC annuller
+U190	Slet
+U191	genstande
+U192	Mapper slettes med deres indhold. Er du sikker?
+U193	Vil du slette denne fil?
+U194	(Dette kan ikke fortrydes. Filer i mapperne slettes også)
+U195	[Ja (Y)]
+U196	[Nej (N)]
+U197	hex viewer: vælg en fil
+U198	tekstfremviser: vælg en fil
+U199	Flyt til
+U200	Kopier til
+U201	Bufferen er fuld
+U202	Drevet er skrivebeskyttet
+U203	Kan ikke gemme (ingen forfatter)
+U204	Kunne ikke begynde at gemme (drevet er optaget?)
+U205	Gemmer...
+U206	2 Gem
+U207	5 Farve
+U208	6 Hira
+U209	7 Kata
+U210	8 Præd
+U211	10 Afslut
+U212	1 Top
+U213	2 Slut
+U214	3 InsOvr
+U215	4 Dikt
+U216	6 HHira
+U217	7 HKata
+U218	%s %s Ln %lu/%lu Col %u %s %s %s%s%s
+U219	*mod
+U220	OVR
+U221	INS
+U222	R/O
+U223	Editor (sgnano edit) F1 / ESC lukker
+U224	Pile / Home End / PgUp PgDn flyt markøren
+U225	Ctrl-T / Ctrl-B øverst / slutningen af ​​filen
+U226	BS / Slet slet før / ved markøren
+U227	Indtast ny linje (beholder indrykket)
+U228	Tab / Ins fane / indsæt eller overskriv
+U229	F5 Farvning (fra udvidelsen; C/C++, mruby, MicroPython, SG BASIC, ingen)
+U230	F2 (Ctrl-S) gem (UTF-8, linjeslut bevares)
+U231	F10 / ESC lukke (spørger om ændret)
+U232	IME: Ctrl-Mellemrum / F12 til/fra (あ / A)
+U233	F9 IME-sprog (kun denne editor; gendannet ved lukning)
+U234	F8 Japansk forudsigelig konvertering til/fra
+U235	Japansk romaji -> hiragana (F6) / katakana (F7)
+U236	Halvbredde hiragana (Shift+F6) / halvbredde katakana (Shift+F7)
+U237	Forudsig med 2 eller flere tegn, konverter kontinuerlig klausul med mellemrum
+U238	Engelsk forudsigelig afslutning med 2 eller flere tegn
+U239	한국어 2 Bol-stil Hangul
+U240	Mellemrum / Enter Konverter / Bekræft
+U241	← → Vælg en sætning
+U242	Shift+← → Formindsk/voks den højre ende af klausulen med ét tegn (nye kandidater)
+U243	↑ ↓ / Fane Forrige / næste kandidat i pop op-vinduet (under teksten, øverst nær bunden)
+U244	Gå ind på →→→ Alle kandidater (2 x 8, ← → kolonne og side, Enter vælger)
+U245	Indtast næste klausul (bekræfter helheden ved sidste klausul)
+U246	Ctrl-U Tilføj det aktuelle ord til brugerordbogen
+U247	Skift+F1 / F2 / F3 / F4 Top / slut / indsæt-overskriv / til brugerordbogen
+U248	BS / ESC Gå et tegn tilbage / Annuller
+U249	, . - [ ] / 、 。 ー 「 」 ・
+U250	Ændret Y: gem og luk N: luk uden at gemme ESC: tilbage
+U251	[Forudsigelse] Tab/↑↓: kandidat Mellemrum: konverter Esc: annuller
+U252	[Kandidater] ↑↓: vælg ←→: kolonne/side Indtast: vælg
+U253	[Konverter] ↑↓cand ←→klausul Shift+←→bundet Enter næste
+U254	[한국어] Tab/↑↓: kandidat Indtast/mellemrum: bekræft
+U255	[Dansk] Faneblad/↑↓: kandidat Indtast: bekræft
+U256	2-sæt Hangul input Ctrl-Mellemrum: alfanumerisk
+U257	Forudsigelig afslutning Ctrl-Mellemrum: direkte input
+U258	Ingen ordbog: kun hiragana/katakana F6/F7
+U259	Mellemrum: konverter F7: katakana Ctrl-Mellemrum: alfanumerisk
+U260	Mellemrum: konverter F6: hiragana Ctrl-Mellemrum: alfanumerisk
+U261	Halvbredde F6: hiragana F7: katakana Shift+F6/F7: halv
+U262	IME fra
+U263	forudsige
+U264	Forudsigelig japansk oversættelse: Til
+U265	Prædiktiv oversættelse til japansk: Fra
+U266	Brug med japansk IME
+U267	Kan ikke tilføje til brugerordbogen
+U268	Farve: %s
+U269	Indlæser...
+U270	Kunne ikke læse filen
+U271	%lu linjer%s%s
+U272	åbnede Shift_JIS som UTF-8 (gemt som UTF-8)
+U273	skrivebeskyttet
+U274	Gemt
+U275	Kunne ikke gemme (skrive mislykkedes)
+U276	Kandidater
+U277	7 WrtPg
+U278	9 Tekst
+U279	9 Hex
+U280	Indlæser %lu%%
+U281	(kun starten)
+U282	Hex q ESC: tilbage F1: hjælp
+U283	Tekst q ESC: tilbage F1: hjælp
+U284	Viewer-taster (som mindre; det samme for tekst og hex)
+U285	En linje ned
+U286	En række op
+U287	En side ned
+U288	En side op
+U289	En halv side ned/op
+U290	/tekst ?tekst
+U291	Søg ned/op (ignorerer store og små bogstaver)
+U292	Næste / forrige kamp
+U293	Vis som hex (på samme sted)
+U294	Vis som tekst (på samme sted)
+U295	Skift farve (C/C++, mruby, MicroPython, SG BASIC, ingen)
+U296	Vis/skjul FB/teksten
+U297	FB vise side / skrive side
+U298	Tilbage til filen
+U299	Luk denne hjælp
+U300	Kopi
+U301	%s: læse mapperne... %u
+U302	%s: tæller den ledige plads på destinationen...
+U303	%s: ikke nok ledig plads på destinationen
+U304	Flyt: fjerner kildemapperne
+U305	Færdig
+U306	Stoppet
+U307	%s i gang%s
+U308	(stopper)
+U309	Fra: %s
+U310	Til: %s
+U311	Filer %u / %u mapper %u %s / %s (%u%%)%s
+U312	for mange: kun nogle
+U313	Behov %s, gratis %s. Fortsætte?
+U314	Y: Fortsæt N / ESC: annuller
+U315	Tryk på en vilkårlig tast for at lukke
+U316	ESC: stop
+U317	%s: ←→ drev ↑↓ mappe Mellemrum åben/luk Enter vælg ESC annuller
+U318	Kan ikke læse: %s
+U319	Læser mapperne... (ESC stopper) %u
+U320	%u mapper%s
+U321	(for mange eller for dybe: kun nogle)
+U322	Stoppet med at åbne mappen
+U323	Rummet åbner det igen. ESC aflyser endnu en gang
+U324	SMF / SGT-afspiller %s
+U325	Indlæser... %lu / %lu bytes
+U326	%s / %s %s porte %u
+U327	Pause
+U328	Spiller
+U329	Mellemrum: pause m: MIDI OUT q / ESC: stop
+U330	q / ESC: annuller
+U331	Font ROM-licenser og kreditter\n\nROM: %s (version %lu.%lu, %lu tegn, fra 0x%08lX i flash)
+U332	== Skrifttyper i ROM'en (oprindelsestabellen for ROM'en) ==
+U333	(ROM'en har ingen tabel)
+U334	== Credits-området i ROM'en ==
+U335	(ikke sådan et område)
+U336	== Licenser til den indbyggede software ==
+U337	Gemmer %s som PNG %s
+U338	Skærm
+U339	Bygning... %lu / %lu rækker
+U340	Skriver... %lu / %lu KB (FB er skjult)
+U341	Kunne ikke skrive
+U342	Arkivnavn (de markerede elementer eller markørelementet, hvis ingen)
+U343	Indtast komprimer ←→ flyt BS / Slet slet ESC annuller
+U344	WAV-eksport: %s annulleret (%s)
+U345	WAV-eksport: %s mislykkedes (%s)
+U346	WAV-eksport: %s i alt %s
+U347	WAV-eksport (96kHz / 24bit): %s
+U348	Annulleret
+U349	Mislykkedes
+U350	I alt %s
+U351	Annulleret (%s; den delvise fil blev slettet)
+U352	Kunne ikke eksportere (%s). Årsag:
+U353	(årsagen ukendt)
+U354	%u%% forløbet %s%s
+U355	ESC: stop (den delvise fil slettes)
+U356	Arkiv: %s
+U357	Læser... (ESC for at annullere)
+U358	%u elementer%s i alt %s bytes udtræk til: %s
+U359	Indtast udtræk punkt X udtræk alle ↑↓ flyt ESC tæt
+U360	Sammenpresse
+U361	Liste
+U362	Uddrag
+U363	I alt %s %u varer
+U364	I alt %s %u filer
+U365	Annulleret (%s; den ufærdige fil blev slettet)
+U366	Kunne ikke gøre det (%s): %s
+U367	%u%% forløbne %s %s bytes%s
+U368	forløbne %s %s bytes%s
+U369	ESC: stop (den ufærdige fil slettes)
+U370	Arkiv: %s mislykkedes (%s)
+U371	Komprimeret: %s (%u elementer)
+U372	Udpakkede: %s (%u filer)

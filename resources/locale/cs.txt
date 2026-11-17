@@ -1,0 +1,1162 @@
+# sgnano filer strings: Čeština (2026-11-17). ui <TAB> Japanese <TAB> translation / msg.* <TAB> English <TAB> translation
+# status: unreviewed (machine translation, not checked by a native speaker; 2026-11-17). 未検証: ネイティブの確認をしていない仮の訳
+@lang cs
+@name Čeština
+ui	一覧（ファイルとフォルダを 2 列 x 19 行に並べる）	Seznam (soubory a složky ve 2 sloupcích x 19 řádcích)
+ui	カーソルを動かす（左右は隣の列へ）	Přesuňte kurzor (doleva / doprava: druhý sloupec)
+ui	前のページ / 次のページ	Předchozí stránka / další stránka
+ui	全部に印 / 印を反転（PC-98 FD と同じ）	Označit všechny / převrátit značky (jako v PC-98 FD)
+ui	先頭 / 最後	První / poslední
+ui	印を付けて次へ / 印だけ付ける	Označit a posouvat dál / pouze označit
+ui	Shift+矢印	Shift+šipky
+ui	範囲を選ぶ（Space でその範囲に印）	Vyberte rozsah (mezera označuje rozsah)
+ui	フォルダに入る・ファイルを開く（F2/X は実行）	Zadejte složku / otevřete soubor (F2/X spustit)
+ui	上のフォルダへ	Až do nadřazené složky
+ui	ドライブを選ぶ（USB・フロッピー・CD・S: 内蔵）	Vyberte jednotku (USB, disketa, CD, S: vestavěná)
+ui	コピー（Shift+C / Shift+F3 は行き先を木から）	Kopírovat (Shift+C / Shift+F3 vybere cíl ze stromu)
+ui	移動	Pohyb
+ui	削除（Shift+D / Shift+F4 はフォルダ削除）	Smazat (Shift+D / Shift+F4 smazat složku)
+ui	名前を変える	Přejmenovat
+ui	属性を変える	Změňte atributy
+ui	エディタで開く	Otevřít v editoru
+ui	テキスト表示（Shift+V / Ctrl+Alt+F7 は 16 進）	Zobrazit jako text (Shift+V / Ctrl+Alt+F7 hex)
+ui	ドライブの情報	Informace o jízdě
+ui	フォルダを作る / 新しいファイル	Nová složka / nový soubor
+ui	シェル sgsh / 媒体を取り出す	Shell sgsh / vysunout médium
+ui	読み直す	Znovu načíst
+ui	見えている画面を PNG で保存	Uložte obrazovku jako PNG
+ui	窓を閉じる・選択を解く（サブフォルダでは上位へ）	Zavřete okno / zrušte výběr (v podsložce: jít nahoru)
+ui	ファイルの操作（FD と同じ。印・範囲・カーソルの順に選ぶ）	Operace se soubory (jako ve FD: značky, pak rozsah, pak kurzor)
+ui	コピー: 行き先はドライブとフォルダの木から。ESC で止める	Kopírovat: Vyberte cíl ze stromu jednotky a složek. ESC se zastaví
+ui	削除: y で確かめる。印・範囲をまとめて。フォルダは中身ごと	Smazat: potvrďte pomocí y. Značky a rozsahy najednou. Složky s jejich obsahem
+ui	フォルダを削除（中身ごと）	Smazat složku (s jejím obsahem)
+ui	名前を変える（今の名前を直して Enter）	Přejmenovat (upravit název, Enter)
+ui	属性: R 読み出し専用・H 隠し・S システム・A アーカイブ	Atributy: R pouze pro čtení, H skrytý, S systém, A archiv
+ui	フォルダを作る	Nová složka
+ui	新しいファイル（空）を作る	Nový (prázdný) soubor
+ui	テキストで表示（Shift+V / Ctrl+Alt+F7 は 16 進）	Zobrazit jako text (Shift+V / Ctrl+Alt+F7 hex)
+ui	シェル sgsh（exit / Ctrl-D でファイラーへ）	Shell sgsh (ukončit / Ctrl-D zpět do souboru)
+ui	選んでいるドライブの素性（INQUIRY・IDENTIFY）	Identita disku (PODAT, IDENTIFIKOVAT)
+ui	FDD・LS-120・CD の媒体を取り出す	Vysuňte médium FDD / LS-120 / CD
+ui	一覧を読み直す（CD は TOC から）	Znovu načtěte seznam (CD: z obsahu)
+ui	ZMODEM で PC から受け取る（zm.sh put）	Příjem z PC pomocí ZMODEM (zm.sh put)
+ui	ZMODEM で PC へ送る（zm.sh get）	Odeslat do počítače pomocí ZMODEM (zm.sh získat)
+ui	.rb をコンパイルして .mrb を書き出す	Zkompilujte .rb a napište .mrb
+ui	Ruby の REPL（1 行ずつ、Ctrl-D / ESC で終わり）	Ruby REPL (jeden řádek po druhém, Ctrl-D / ESC pro ukončení)
+ui	MicroPython の REPL	MicroPython REPL
+ui	4MB ずつ分割 / .001 から結合	Rozdělit na 4 MB části / spojení od 0,001
+ui	分割 / 結合（Ctrl+F11 / F12 と同じ）	Rozdělit / spojit (stejně jako Ctrl+F11 / F12)
+ui	画面（Alt+F。FD の F キーとぶつからない）	Obrazovka (Alt+F, nekoliduje s klávesami FD F)
+ui	FB（絵）/ テキスト面を出す・隠す	Zobrazit / skrýt FB (obrázek) / text
+ui	FB の表示ページ（0〜3）	FB zobrazení stránky (0-3)
+ui	FB を 0 で消す / 明るさを 1/2 に（RGB555）	Vymazat FB na 0 / snížit jeho jas na polovinu (RGB555)
+ui	USB のエンドポイントと LAN の状態	Koncové body USB a stav LAN
+ui	FB の表示ページを消す / 明るさを 1/2 に	Vymazat stránku zobrazení FB / snížit její jas na polovinu
+ui	テキストの属性の見本	Ukázky textových atributů
+ui	モニタの EDID（起動時に読んだもの）	Monitor EDID (čtení při spouštění)
+ui	フォント ROM のライセンスとクレジット	Licence a kredity ROM písem
+ui	設定（表示の言語・IME・キーボードロケール）	Nastavení (jazyk zobrazení, editor IME a národní prostředí klávesnice)
+ui	時計（NTP で合わせた日本時間。s ですぐ合わせる）	Hodiny (Japonský čas nastavený NTP, synchronizuje se nyní)
+ui	表計算（SGCALC）を開く	Otevřít tabulku (SGCALC)
+ui	S: ドライブのエラー検査（誤りがあれば直すか聞く）	Zkontrolujte S: na chyby (zeptá se před opravou)
+ui	トラッカー（TRACKER）を開く	Otevřete TRACKER
+ui	再起動（確かめの窓が出る）	Restartovat (nejprve se zeptá)
+ui	ADC のステレオ入力（GP40 / 41）を鳴らす	Přehrávejte stereo vstup ADC (GP40 / 41)
+ui	VGM/VGZ を 96kHz/24bit WAV に書き出す	Export VGM/VGZ do 96 kHz / 24-bit WAV
+ui	このヘルプ	Tato pomoc
+ui	ページを替える	Změňte stránku
+ui	閉じる	Blízko
+ui	テキスト・16 進のビュアー（less 風）	Prohlížeč textu / hex (jako méně)
+ui	1 行	Jeden řádek
+ui	1 ページ	Jedna stránka
+ui	半ページ	Půl stránky
+ui	探す（前へ・後ろへ）/ 次・前	Hledat (dopředu / dozadu) / další / předchozí
+ui	一覧へ戻る（F1 はビュアーのヘルプ）	Zpět na seznam (F1: nápověda pro uživatele)
+ui	画像のビュアー	Prohlížeč obrázků
+ui	一覧へ戻る（F2 F3 F6 F7 Shift+F2 F3 は効く）	Zpět na seznam (F2 F3 F6 F7 Shift+F2 F3 práce)
+ui	エディタ（E / Shift+F8）	Editor (E / Shift+F8)
+ui	保存する（UTF-8。改行と BOM は元のまま）	Uložit (UTF-8; konce řádku a kusovník zachován)
+ui	閉じる（変わっていれば Y / N / ESC）	Zavřít (pokud se změní: A / N / ESC)
+ui	挿入 / 上書き	Vložit / přepsat
+ui	IME（日本語・英語・ハングル）の入・切	IME zapnout/vypnout (japonština / angličtina / korejština)
+ui	IME の言語（日本語 / English / 한국어）	Jazyk IME (japonština / angličtina / korejština)
+ui	ひらがな / カタカナで確定	Zavázat se jako hiragana / katakana
+ui	エディタのヘルプ	Pomoc redaktora
+ui	シェル	Shell
+ui	シェル（csh のサブセット。exit / Ctrl-D で戻る、help で一覧）	Shell (podmnožina csh. exit / Ctrl-D pro návrat, nápověda uvádí příkazy)
+ui	一覧と移動	Seznam a přesun
+ui	ファイルの操作	Operace se soubory
+ui	画面と機器	Obrazovka a zařízení
+ui	ビュアーとエディタ	Diváci a redaktor
+ui	ヘルプ  %u / %u  %s	Nápověda %u / %u %s
+ui	Left Right: ページを替える    F1 / ESC: 閉じる	Vlevo Vpravo: změna stránky F1 / ESC: zavření
+ui	sgnano を再起動しますか？	Restartovat sgnano?
+ui	[ 再起動 ]	[Restartovat]
+ui	[ キャンセル ]	[Zrušit]
+ui	S: ドライブのエラー検査	Zkontrolujte, zda disk S: neobsahuje chyby
+ui	ファイル %lu  フォルダ %lu	Soubory %lu složky %lu
+ui	大きさが鎖と合わない	Velikost neodpovídá řetízku
+ui	どこからも使われていないクラスタ	Clustery nepoužívané ničím
+ui	重なったクラスタ	Zesíťované shluky
+ui	壊れた項目	Rozbité záznamy
+ui	FAT の 2 つの写しの食い違い	Tyto dvě kopie FAT se liší
+ui	エラーはありません。	Žádné chyby.
+ui	エラーが見つかりました。修復しますか？	Byly nalezeny chyby. Opravit je?
+ui	修復しました（上は直した数）。	Opraveno (výše uvedená čísla byla opravena).
+ui	検査・修復できませんでした（S: が使用中）。	Nelze zkontrolovat nebo opravit (S: je zaneprázdněn).
+ui	[ 修復する ]	[ Oprava ]
+ui	[ やめる ]	[Zrušit]
+ui	何かキーで閉じる	Libovolný klíč se zavře
+ui	設定	Nastavení
+ui	表示の言語	Jazyk zobrazení
+ui	キーボードロケール	Národní prostředí klávesnice
+ui	Up / Down  Enter 決める  ESC やめる	Nahoru / Dolů Enter zvolte ESC zrušení
+ui	表示の言語 (Language)	Jazyk zobrazení
+ui	Up / Down  Enter 決める  ESC 戻る	Nahoru / Dolů Enter: nastavení ESC: zpět
+ui	%c: をどの文字に固定しますか（A〜Z、S を除く。ESC でやめる）	Oprava %c: jako které písmeno? (A-Z kromě S. ESC zruší)
+ui	ドライブ  文字 / Enter 選ぶ  F2 文字を固定・解除  F3 文字を決めて固定  L / ESC やめる	Písmeno jednotky / Enter vybrat F2 opravit/odfixovat písmeno F3 opravit jako... L / ESC zrušit
+ui	  区画 %u	oddíl %u
+ui	%c:* （固定・つながっていません）%04X:%04X%s  %s	%c:* (pevné, nepřipojené) %04X:%04X%s %s
+ui	お知らせ	Oznámení
+ui	ドライブ %c:  %s	Pohon %c: %s
+ui	ドライブ  (なし)	Jezdit (žádné)
+ui	音楽 CD  %u トラック	Audio CD %u skladby
+ui	フォルダ %u  ファイル %u  合計 %s	Složky %u soubory %u celkem %s
+ui	読んでいます...	Čtení...
+ui	* 印 %u 個  %s	* označeno %u %s
+ui	%lu バイト	%lu bajtů
+ui	属性 %s   更新日時 %s   作成日時 %s   %s	Attr %s upraven %s vytvořen %s %s
+ui	日	Slunce
+ui	月	Po
+ui	火	út
+ui	水	St
+ui	木	Čt
+ui	金	pá
+ui	土	So
+ui	時計は合わせていません（LAN の NTP）	Nejsou nastaveny hodiny (NTP přes LAN)
+ui	FB  表示 %u  書込 %u	FB displej %u zápis %u
+ui	1 ヘルプ	1 Help
+ui	2 実行	2 Run
+ui	3 ｺﾋﾟｰ	3 Copy
+ui	4 削除	4 Del
+ui	5 名前	5 Rename
+ui	7 FB消去	7 FBClr
+ui	8 FB減光	8 FBdim
+ui	9 ﾄﾞﾗｲﾌﾞ	9 Jeďte
+ui	10 EP表	10 EP
+ui	11 時計	11 Clock
+ui	12 表計	12 CALC
+ui	1 属性	1 Attr
+ui	2 情報	2 Info
+ui	3 移動	3 Move
+ui	5 作成	5 Mkdir
+ui	6 シェル	6 Shell
+ui	8 編集	8 Edit
+ui	9 表示	9 View
+ui	10S:検査	10 S:chk
+ui	11 ﾄﾗｯｸ	11 DRÁHA
+ui	12再起動	12Reboot
+ui	1 新規	1 Nový
+ui	2 ﾌｫﾙﾀﾞ	2 Složka
+ui	3 名前	3 Rename
+ui	4 属性	4 Attrib
+ui	6 ｺﾋﾟｰ	6 Copy
+ui	7 移動	7 Pohyb
+ui	8 削除	8 Smazat
+ui	9 編集	9 Edit
+ui	10ｺﾝﾊﾟｲﾙ	10 mrbc
+ui	11 分割	11 Split
+ui	12 結合	12 Join
+ui	1 属性例	1 Attrs
+ui	2 FB切替	2 FB
+ui	3 文字面	3 Text
+ui	5 画面写	5 ScrSht
+ui	6 表示頁	6 DispPg
+ui	9 ZM受信	9 ZMrecv
+ui	10ZM送信	10ZMsend
+ui	2 FB消去	2 FBClr
+ui	3 FB減光	3 FBDim
+ui	5 再読込	5 Reload
+ui	7 16進	7 Hex
+ui	9 ﾗｲｾﾝｽ	9 Lic
+ui	8 設定	11 Setup
+ui	時刻を合わせる（日本時間。NTP で合わせられませんでした）	Nastavte hodiny (Japonský čas. NTP jej nemohl nastavit)
+ui	起動のパラメタ	Spustit s parametry
+ui	新しいフォルダ	Nová složka
+ui	新しいファイル	Nový soubor
+ui	時刻:	Čas:
+ui	実行:	Běh:
+ui	名前:	Jméno:
+ui	年-月-日 時:分  Enter 合わせる  ESC そのまま	YYYY-MM-DD hh:mm Zadejte nastavení zachování ESC
+ui	Enter 走らせる  ←→ 動かす  BS / Del 消す  ESC やめる	Enter run <-> move BS / Del delete ESC cancel
+ui	Enter 変える  ←→ 動かす  BS / Del 消す  ESC やめる	Zadejte přejmenovat <-> přesunout BS / Del vymazat ESC zrušit
+ui	Enter 作る  ←→ 動かす  BS / Del 消す  ESC やめる	Enter create <-> move BS / Del delete ESC cancel
+ui	消す	Vymazat
+ui	個の項目	položky
+ui	フォルダは中身ごと消します。よろしいですか？	Složky se smažou s jejich obsahem. jsi si jistý?
+ui	このファイルを消しますか？	Smazat tento soubor?
+ui	（元に戻せません。フォルダの中のファイルも消えます）	(Toto nelze vrátit zpět. Soubory ve složkách jsou také odstraněny)
+ui	[ はい (Y) ]	[Ano (Y)]
+ui	[ いいえ (N) ]	[Ne (N)]
+ui	バイナリビュアー: ファイルを選んでください	hex prohlížeč: vyberte soubor
+ui	テキストビュアー: ファイルを選んでください	textový prohlížeč: vyberte soubor
+ui	移動先	Přesunout do
+ui	コピー先	Kopírovat do
+ui	バッファがいっぱいです (buffer full)	Vyrovnávací paměť je plná
+ui	読み出し専用のドライブです (read-only)	Jednotka je pouze pro čtení
+ui	保存できません (no writer)	Nelze uložit (žádný spisovatel)
+ui	保存を始められません (the drive is busy?)	Nelze zahájit ukládání (disk je zaneprázdněn?)
+ui	保存しています... (saving)	Ukládání...
+ui	2 保存	2 Uložit
+ui	5 色分け	5 Barva
+ui	6 ﾞ	6 Hira
+ui	7 ｶﾀｶﾅ	7 Kata
+ui	8 予測	8 Před
+ui	10 終了	10 Konec
+ui	1 先頭	1 Nahoru
+ui	2 最後	2 Konec
+ui	3 挿/上	3 InsOvr
+ui	4 辞書	4 Dikt
+ui	6 半	6 HHira
+ui	7 半ｶﾅ	7 HKata
+ui	 %s  %s  行 %lu/%lu 桁 %u  %s  %s %s%s%s	%s %s Ln %lu/%lu Col %u %s %s %s%s%s
+ui	*変更	*mod
+ui	上書	OVR
+ui	挿入	INS
+ui	  読出専用	R/O
+ui	 エディタ (sgnano edit)                      F1 / ESC で閉じる	Editor (sgnano edit) F1 / ESC se zavře
+ui	 矢印 / Home End / PgUp PgDn   カーソルを動かす	Šipky / Home End / PgUp PgDn pohyb kurzoru
+ui	 Ctrl-T / Ctrl-B               ファイルの先頭 / 最後	Ctrl-T / Ctrl-B horní / konec souboru
+ui	 BS / Del                      前の字 / カーソルの字を消す	BS / Smazat před / u kurzoru
+ui	 Enter                         改行（前の行の字下げを引き継ぐ）	Zadejte nový řádek (zachová odsazení)
+ui	 Tab / Ins                     タブ / 挿入と上書きの切り替え	Karta / karta Ins / vložit nebo přepsat
+ui	 F5                            色分け（拡張子から。C/C++・mruby・MicroPython・SG BASIC・なし）	F5 Coloring (z rozšíření; C/C++, mruby, MicroPython, SG BASIC, žádné)
+ui	 F2  (Ctrl-S)                  保存（UTF-8、改行は元の形）	F2 (Ctrl-S) uložit (UTF-8, konce řádků zachovány)
+ui	 F10 / ESC                     閉じる（変更があれば聞く）	F10 / ESC zavřít (zeptá se, zda bylo změněno)
+ui	 IME:  Ctrl-Space / F12        オン・オフ（あ / A）	IME: Ctrl-Mezerník / F12 zapnuto / vypnuto (あ / A)
+ui	       F9                      IME の言語（このエディタの間だけ。閉じると戻る）	Jazyk F9 IME (pouze tento editor; obnoveno po zavření)
+ui	       F8                      日本語の予測変換 オン・オフ	F8 Zapnutí/vypnutí japonské prediktivní konverze
+ui	       日本語                  ローマ字 -> ひらがな（F6）・カタカナ（F7）	Japonské romaji -> hiragana (F6) / katakana (F7)
+ui	                               半角ひらがな（Shift+F6）・半角カタカナ（Shift+F7）	Hiragana poloviční šířky (Shift+F6) / katakana poloviční šířky (Shift+F7)
+ui	                               2 字以上で予測、Space で連文節変換	Predikce se 2 nebo více znaky, převod souvislé klauzule s mezerou
+ui	       English                 2 字以上で予測補完	Angličtina Prediktivní dokončení se 2 nebo více znaky
+ui	       한국어                  2 ボル式ハングル	한국어 2 Hangul ve stylu Bolu
+ui	       Space / Enter           変換 / 確定	Mezerník / Enter Převést / Potvrdit
+ui	       ← →                    文節を選ぶ	← → Vyberte frázi
+ui	       Shift+← →               文節の右端を 1 字 縮/拡（候補を出し直す）	Shift+← → Zmenšit/zvětšit pravý konec klauzule o jeden znak (noví kandidáti)
+ui	       ↑ ↓ / Tab               候補の窓で前 / 次の候補（窓は変換の下、画面の下では上）	↑ ↓ / Tab Předchozí / další kandidát ve vyskakovacím okně (pod textem, nahoře dole)
+ui	       →→→ で Enter            すべての候補（2 列 x 8 個、← → で列とページ、Enter で決める）	Vstupte na →→→ Všichni kandidáti (2 x 8, ← → sloupec a stránka, výběr Enter)
+ui	       Enter                   次の文節へ（最後の文節で全体を確定）	Zadejte další klauzuli (potvrzuje celek v poslední klauzuli)
+ui	       Ctrl-U                  いまの語をユーザー辞書へ	Ctrl-U Přidat aktuální slovo do uživatelského slovníku
+ui	 Shift+F1 / F2 / F3 / F4       先頭 / 最後 / 挿入と上書き / ユーザー辞書へ	Shift+F1 / F2 / F3 / F4 Nahoru / konec / vložit-přepsat / do uživatelského slovníku
+ui	       BS / ESC                1 字戻す / 取り消し	BS / ESC Návrat o jeden znak zpět / Storno
+ui	       , . - [ ] /             、 。 ー 「 」 ・	, . - [ ] / 、 。 ー 「 」 ・
+ui	変更あり  Y: 保存して閉じる  N: 保存せず閉じる  ESC: 戻る	Upraveno Y: uložit a zavřít N: zavřít bez uložení ESC: zpět
+ui	[予測] Tab/↑↓: 候補  Space: 変換  Esc: 取消	[Prediction] Tab/↑↓: kandidát Mezerník: převod Esc: zrušení
+ui	[候補] ↑↓: 選ぶ  ←→: 列・ページ  Enter: 決める	[Kandidáti] ↑↓: vybrat ←→: sloupec/stránka Enter: vybrat
+ui	[変換] ↑↓候補 ←→文節 Shift+←→区切り Enter次へ	[Převést] ↑↓cand ←→klauzule Shift+←→vázat Enter další
+ui	[한국어] Tab/↑↓: 候補  Enter/Space: 確定	[한국어] Tab/↑↓: kandidát Enter/Mezerník: potvrdit
+ui	[English] Tab/↑↓: 候補  Enter: 確定	[anglicky] Tab/↑↓: kandidát Enter: potvrzení
+ui	2ボル式ハングル入力  Ctrl-Space: 英数	2-set Hangul vstup Ctrl-Mezerník: alfanumerický
+ui	予測補完  Ctrl-Space: 直接入力	Prediktivní dokončení Ctrl-Mezerník: přímé zadání
+ui	辞書なし: ひらがな/カタカナ入力のみ  F6/F7	Žádný slovník: hiragana/katakana pouze F6/F7
+ui	Space: 変換  F7: カタカナ  Ctrl-Space: 英数	Mezerník: převod F7: katakana Ctrl-Mezerník: alfanumerický
+ui	Space: 変換  F6: ひらがな  Ctrl-Space: 英数	Mezerník: převod F6: hiragana Ctrl-Mezerník: alfanumerický
+ui	半角  F6: ひらがな  F7: カタカナ  Shift+F6/F7: 半角	Poloviční šířka F6: hiragana F7: katakana Shift+F6/F7: poloviční
+ui	IME オフ	IME vypnuto
+ui	 予測	předpovědět
+ui	日本語の予測変換: オン	Prediktivní japonský překlad: Zapnuto
+ui	日本語の予測変換: オフ	Prediktivní překlad pro japonštinu: Vypnuto
+ui	日本語IMEで使います	Použijte s japonským IME
+ui	ユーザー辞書に追加できません	Nelze přidat do uživatelského slovníku
+ui	色分け: %s	Zbarvení: %s
+ui	読み込んでいます... (loading)	Načítání...
+ui	読み込めませんでした (could not read)	Soubor nelze přečíst
+ui	%lu 行%s%s	%lu řádky%s%s
+ui	  Shift_JIS を UTF-8 で開きました（保存は UTF-8）	otevřel Shift_JIS jako UTF-8 (uložen jako UTF-8)
+ui	  読み出し専用	pouze pro čtení
+ui	保存しました (saved)	Uloženo
+ui	保存できませんでした (write failed)	Nelze uložit (zápis se nezdařil)
+ui	候補	Kandidáti
+ui	7 書込頁	7 WrtPg
+ui	9 ﾃｷｽﾄ	9 Text
+ui	9 ﾊﾞｲﾅﾘ	9 Hex
+ui	読み込み中 %lu%%  	Načítání %lu%%
+ui	（先頭だけ）  	(pouze začátek)
+ui	16 進  q ESC: 戻る  F1: ヘルプ	Hex q ESC: zpět F1: pomoc
+ui	テキスト  q ESC: 戻る  F1: ヘルプ	Text q ESC: zpět F1: nápověda
+ui	ビュアーのキー（less 風。テキストと 16 進で共通）	Klávesy prohlížeče (jako méně; stejné pro text a hex)
+ui	1 行進む	O řádek níže
+ui	1 行戻る	Jedna řada nahoru
+ui	1 ページ進む	O stránku níže
+ui	1 ページ戻る	O stránku výš
+ui	半ページ進む / 戻る	O půl stránky dolů/nahoru
+ui	/文字列  ?文字列	/text ?text
+ui	下へ探す / 上へ探す（大文字小文字は区別しない）	Hledat dolů/nahoru (ignoruje malá a velká písmena)
+ui	次 / 前を探す	Další / předchozí zápas
+ui	16 進で表示する（いま見ている所のまま）	Zobrazit jako hex (na stejném místě)
+ui	テキストで表示する（いま見ている所のまま）	Zobrazit jako text (na stejném místě)
+ui	色分けを替える（C/C++・mruby・MicroPython・SG BASIC・なし）	Změňte zbarvení (C/C++, mruby, MicroPython, SG BASIC, žádné)
+ui	FB / テキスト面を出す・隠す	Zobrazit / skrýt FB / text
+ui	FB の表示ページ / 書き込みページ	FB zobrazení stránky / zápis stránky
+ui	ファイラーへ戻る	Zpět k pilníku
+ui	このヘルプを閉じる	Zavřete tuto nápovědu
+ui	コピー	Kopie
+ui	 %s: フォルダを読んでいます... %u 個	%s: čtení složek... %u
+ui	 %s: 行き先の空きを数えています...	%s: počítání volného místa v cíli...
+ui	 %s: 行き先の空きが足りません	%s: nedostatek volného místa v cíli
+ui	 移動: 元のフォルダを消しています	Přesunout: odstranění zdrojových složek
+ui	終了しました	Hotovo
+ui	止まりました	Zastaveno
+ui	 %s中%s	%s probíhá%s
+ui	（止めています）	(zastavení)
+ui	 元: %s	Od: %s
+ui	 先: %s	Komu: %s
+ui	 ファイル %u / %u 個  フォルダ %u 個  %s / %s  (%u%%)%s	Soubory %u / %u složky %u %s / %s (%u%%)%s
+ui	  多すぎるので一部だけ	příliš mnoho: jen některé
+ui	 要る大きさ %s、空き %s。続けますか？	Potřeby %s, zdarma %s. Pokračovat?
+ui	 Y: 続ける   N / ESC: やめる	Y: pokračovat N / ESC: zrušit
+ui	 何かキーを押すと閉じます	Stisknutím libovolné klávesy zavřete
+ui	 ESC: 止める	ESC: stop
+ui	 %s: ←→ ドライブ  ↑↓ フォルダ  Space 開く・閉じる  Enter 決める  ESC やめる	%s: ←→ jednotka ↑↓ složka Prostor otevřít/zavřít Enter zvolit ESC zrušit
+ui	 読めません: %s	Nelze číst: %s
+ui	 フォルダを読んでいます...（ESC で止める）  %u 個	Čtení složek... (ESC se zastaví) %u
+ui	 フォルダ %u 個%s	%u složky%s
+ui	（多すぎるか深すぎるので、一部だけ）	(příliš mnoho nebo příliš hluboké: jen některé)
+ui	フォルダの展開を止めました	Zastavilo otevírání složky
+ui	Space で開き直せます。もう一度 ESC でやめます	Prostor to znovu otevírá. ESC se ještě jednou zruší
+ui	 SMF / SGT プレイヤー   %s	Přehrávač SMF/SGT %s
+ui	 読み込んでいます... %lu / %lu バイト	Načítání... %lu / %lu bajtů
+ui	 %s / %s   %s   ポート %u	%s / %s %s porty %u
+ui	一時停止	Pozastaveno
+ui	再生中	Hraní
+ui	 Space: 一時停止  m: MIDI OUT  q / ESC: 止める	Mezera: pauza m: MIDI OUT q / ESC: stop
+ui	 q / ESC: やめる	q / ESC: zrušení
+ui	フォント ROM のライセンスとクレジット\n\nROM: %s（版 %lu.%lu、%lu 文字、フラッシュの 0x%08lX から）\n\n	Licence a kredity ROM písem\n\nROM: %s (verze %lu.%lu, %lu znaků, z 0x%08lX ve flashi)
+ui	== 収めているフォント（ROM の出所の表）==\n	== Písma v ROM (tabulka původu ROM) ==
+ui	  （表が無い ROM）\n	(ROM nemá tabulku)
+ui	\n== ROM のクレジットの区画 ==\n\n	== Oblast kreditů ROM ==
+ui	（区画が無い）\n	(žádná taková oblast)
+ui	\n== 組み込んだソフトウェアのライセンス ==\n	== Licence vestavěného softwaru ==
+ui	 %s を PNG で保存   %s	Ukládání %s jako PNG %s
+ui	画面	Obrazovka
+ui	 組み立てています... %lu / %lu 行	Budova... %lu / %lu řad
+ui	 書いています... %lu / %lu KB（FB は隠しています）	Píšu... %lu / %lu KB (FB je skrytý)
+ui	書けませんでした	Nešlo psát
+ui	書庫の名前（印の付いた項目、無ければカーソルの項目を入れる）	Název archivu (označené položky nebo kurzorová položka, pokud žádná)
+ui	Enter 圧縮する  ←→ 動かす  BS / Del 消す  ESC やめる	Zadejte komprimovat ←→ přesunout BS / Del vymazat ESC zrušit
+ui	WAV 書き出し: %s 中止（%s）	Export WAV: %s zrušen (%s)
+ui	WAV 書き出し: %s 失敗（%s）	Export WAV: %s se nezdařil (%s)
+ui	WAV 書き出し: %s 合計 %s	Export WAV: %s celkem %s
+ui	 WAV 書き出し（96kHz / 24bit）: %s	WAV export (96kHz / 24bit): %s
+ui	中止しました	Zrušeno
+ui	失敗しました	Nepodařilo se
+ui	 合計 %s	Celkem %s
+ui	 中止しました（%s。半端なファイルは消しました）	Zrušeno (%s; částečný soubor byl smazán)
+ui	 書き出せませんでした（%s）。理由:	Nelze exportovat (%s). Důvod:
+ui	 （理由は分かりません）	(důvod neznámý)
+ui	 %u%%   経過 %s%s	%u%% uplynulo %s%s
+ui	 ESC: 止める（半端なファイルは消します）	ESC: stop (část souboru je smazána)
+ui	書庫: %s	Archiv: %s
+ui	読み込み中…（ESC でやめる）	Čtení... (zrušení ESC)
+ui	 %u 項目%s  合計 %s バイト  展開先: %s	%u položek%s celkem %s bajtů extrahovat do: %s
+ui	 Enter 項目を展開  X 全部を展開  ↑↓ 動かす  ESC 閉じる	Enter extrahovat položku X extrahovat vše ↑↓ přesunout ESC zavřít
+ui	圧縮	Komprimovat
+ui	一覧	Seznam
+ui	展開	Výpis
+ui	 合計 %s   %u 項目	Celkem %s %u položek
+ui	 合計 %s   %u ファイル	Celkem %s %u souborů
+ui	 中止しました（%s。書きかけのファイルは消しました）	Zrušeno (%s; nedokončený soubor byl smazán)
+ui	 できませんでした（%s）: %s	Nelze to udělat (%s): %s
+ui	 %u%%   経過 %s   %s バイト%s	%u%% uplynulých %s %s bajtů%s
+ui	 経過 %s   %s バイト%s	uplynulo %s %s bajtů%s
+ui	 ESC: 止める（書きかけのファイルは消します）	ESC: stop (nedokončený soubor je smazán)
+ui	書庫: %s 失敗（%s）	Archiv: %s se nezdařilo (%s)
+ui	圧縮: %s（%u 項目）	Komprimováno: %s (%u položek)
+ui	展開: %s（%u ファイル）	Extrahováno: %s (%u soubory)
+msg.phrase	the drive went away	pohon odjel
+msg.phrase	reading the partitions again...	znovu čtení oddílů...
+msg.phrase	could not open the volume (no memory?)	nelze otevřít svazek (žádná paměť?)
+msg.phrase	opening the volume...	otevírání svazku...
+msg.phrase	no memory for the file list	není paměť pro seznam souborů
+msg.phrase	reading the directory... (retrying)	čtení adresáře... (opakování)
+msg.phrase	could not read the directory	nemohl přečíst adresář
+msg.phrase	reading the directory...	čtení adresáře...
+msg.phrase	the drive did not answer -- reading the partitions again	disk neodpověděl -- znovu načetl oddíly
+msg.phrase	could not read the directory (not FAT12/16/32?)	nemohl přečíst adresář (ne FAT12/16/32?)
+msg.phrase	too many entries -- showing the first ones	příliš mnoho záznamů -- zobrazují se ty první
+msg.phrase	no file system found on this partition	na tomto oddílu nebyl nalezen žádný souborový systém
+msg.phrase	the path is too long	cesta je příliš dlouhá
+msg.phrase	joining...	připojuji se...
+msg.phrase	splitting...	dělení...
+msg.phrase	renaming...	přejmenování...
+msg.phrase	creating the folder...	vytvoření složky...
+msg.phrase	creating the file...	vytvoření souboru...
+msg.phrase	deleting...	mazání...
+msg.phrase	writing the attributes...	psaní atributů...
+msg.phrase	the drive is busy	pohon je zaneprázdněn
+msg.phrase	busy	zaneprázdněný
+msg.phrase	choose files or folders	vyberte soubory nebo složky
+msg.phrase	choose files or folders (not "..")	vyberte soubory nebo složky (nikoli "..")
+msg.phrase	stop the CD first	nejprve zastavte CD
+msg.phrase	the CD cannot be changed (copy instead)	CD nelze změnit (místo toho zkopírovat)
+msg.phrase	a system folder cannot be moved	systémovou složku nelze přesunout
+msg.phrase	no drive can be written (FAT / exFAT / NTFS only)	nelze zapisovat na žádný disk (pouze FAT / exFAT / NTFS)
+msg.phrase	the drive is gone	pohon je pryč
+msg.phrase	nothing chosen	nic vybraného
+msg.phrase	nothing selected	nic vybraného
+msg.phrase	could not start	nešlo spustit
+msg.phrase	could not open	nešlo otevřít
+msg.phrase	only on a FAT / exFAT / NTFS drive	pouze na jednotce FAT / exFAT / NTFS
+msg.phrase	no name	žádné jméno
+msg.phrase	that name already exists	to jméno už existuje
+msg.phrase	could not start (bad name or the drive is busy)	nelze spustit (špatný název nebo disk je zaneprázdněn)
+msg.phrase	could not start (the drive is busy)	nelze spustit (disk je zaneprázdněn)
+msg.phrase	the name cannot have / or \\ (only inside this folder)	název nemůže mít / nebo \\ (pouze v této složce)
+msg.phrase	the name is the same	jméno je stejné
+msg.phrase	the item is read-only (A to change)	položka je pouze pro čtení (A změnit)
+msg.phrase	choose a .rb file on a writable drive	vyberte soubor .rb na zapisovatelné jednotce
+msg.phrase	choose a .rb file	vyberte soubor .rb
+msg.phrase	the drive is read-only	jednotka je pouze pro čtení
+msg.phrase	choose a folder on a writable drive	vyberte složku na zapisovatelné jednotce
+msg.phrase	wait a moment	počkej chvíli
+msg.phrase	choose a file	vyberte soubor
+msg.phrase	choose a file (not a folder)	vybrat soubor (ne složku)
+msg.phrase	choose a .001 file	vyberte soubor .001
+msg.phrase	choose the .001 file	vyberte soubor .001
+msg.phrase	put the IWAD in a DoomFiles or Doom2Files folder	vložte IWAD do složky DoomFiles nebo Doom2Files
+msg.phrase	DoomFiles takes freedoom1 / doom / doomu / doom1.wad	DoomFiles bere freedoom1 / doom / doomu / doom1.wad
+msg.phrase	Doom2Files takes freedoom2 / doom2 / plutonia / tnt.wad	Doom2Files bere freedoom2 / doom2 / plutonia / tnt.wad
+msg.phrase	put the game files on external storage, not S:	umístěte herní soubory na externí úložiště, ne S:
+msg.phrase	the IWAD must be on a FAT / exFAT / NTFS drive (not a CD)	IWAD musí být na jednotce FAT / exFAT / NTFS (ne na CD)
+msg.phrase	still working	stále pracuje
+msg.phrase	an image is loading	načítá se obrázek
+msg.phrase	no framebuffer	žádný framebuffer
+msg.phrase	half brightness works only in RGB555	poloviční jas funguje pouze v RGB555
+msg.phrase	clearing...	čištění...
+msg.phrase	halving the brightness...	snížení jasu na polovinu...
+msg.phrase	that is a data track	to je datová stopa
+msg.phrase	wait -- a file is being written	čekat -- zapisuje se soubor
+msg.phrase	only floppy / LS-120 / CD drives	pouze disketové / LS-120 / CD mechaniky
+msg.phrase	requested	vyžádáno
+msg.phrase	reading the disc...	čtení disku...
+msg.phrase	stopping...	zastavení...
+msg.phrase	opening...	otevírací...
+msg.phrase	done	hotovo
+msg.phrase	no memory	žádná paměť
+msg.phrase	already open	již otevřeno
+msg.phrase	already running	již běží
+msg.phrase	already saving	už šetří
+msg.phrase	already playing	už hraje
+msg.phrase	no such drive	žádný takový pohon
+msg.phrase	no PSRAM	žádná PSRAM
+msg.phrase	no PSRAM for the file	žádný PSRAM pro soubor
+msg.phrase	no PSRAM for the line index	žádná PSRAM pro index řádku
+msg.phrase	no PSRAM for the terminal	žádná PSRAM pro terminál
+msg.phrase	no memory (PSRAM)	žádná paměť (PSRAM)
+msg.phrase	no memory (32KB SRAM)	žádná paměť (32 KB SRAM)
+msg.phrase	no memory for the buffer	žádná paměť pro vyrovnávací paměť
+msg.phrase	no memory for the image buffers	žádná paměť pro vyrovnávací paměti obrázků
+msg.phrase	no memory for the read buffer	žádná paměť pro vyrovnávací paměť pro čtení
+msg.phrase	no room for the work memory (close the lowres plane?)	není místo pro pracovní paměť (zavřít rovinu s nízkými hodnotami?)
+msg.phrase	no framebuffer page	žádná stránka s framebufferem
+msg.phrase	too large (4 MB at most)	příliš velký (maximálně 4 MB)
+msg.phrase	the file is too large (1 MB at most)	soubor je příliš velký (maximálně 1 MB)
+msg.phrase	the file is too large (1 MB max)	soubor je příliš velký (max. 1 MB)
+msg.phrase	too large for an SMF (1MB at most)	příliš velký pro SMF (maximálně 1 MB)
+msg.phrase	the file is empty	soubor je prázdný
+msg.phrase	could not open the file	soubor nelze otevřít
+msg.phrase	could not read the file	nemohl přečíst soubor
+msg.phrase	could not open the volume	svazek nelze otevřít
+msg.phrase	could not open the destination (no memory?)	nelze otevřít cíl (žádná paměť?)
+msg.phrase	could not read the root folder	nemohl přečíst kořenovou složku
+msg.phrase	could not start the task	nemohl spustit úkol
+msg.phrase	could not start writing (bad name or busy)	nemohl začít psát (špatné jméno nebo zaneprázdněný)
+msg.phrase	another volume is open (busy)	jiný svazek je otevřený (zaneprázdněn)
+msg.phrase	a copy is running	běží kopie
+msg.phrase	a folder cannot go into itself	složka nemůže jít sama do sebe
+msg.phrase	that is the same folder	to je stejná složka
+msg.phrase	this drive cannot be changed (read only)	tento disk nelze změnit (pouze pro čtení)
+msg.phrase	the drive is not writable	disk není zapisovatelný
+msg.phrase	the part size must be a multiple of 512	velikost dílu musí být násobkem 512
+msg.phrase	files of 4 GB or more are not supported	soubory o velikosti 4 GB nebo více nejsou podporovány
+msg.phrase	bad path	špatná cesta
+msg.phrase	bad file name	špatný název souboru
+msg.phrase	the font ROM is not there	ROM s písmy tam není
+msg.phrase	the sound is not open	zvuk není otevřený
+msg.phrase	no such channel	žádný takový kanál
+msg.phrase	the sequencer is busy	sekvencer je zaneprázdněn
+msg.phrase	not enough PSRAM for the song	není dostatek PSRAM pro skladbu
+msg.phrase	not a standard MIDI file (no MThd)	není standardní MIDI soubor (žádný MThd)
+msg.phrase	no tracks	žádné stopy
+msg.phrase	a track is broken (MTrk)	trať je přerušená (MTrk)
+msg.phrase	SMPTE time division is not supported	Časové dělení SMPTE není podporováno
+msg.phrase	SMF format 2 is not supported (0 and 1 only)	Formát SMF 2 není podporován (pouze 0 a 1)
+msg.phrase	not a Bulk-Only drive	nejde pouze o hromadný pohon
+msg.phrase	not an optical drive	není optická mechanika
+msg.phrase	a system folder cannot be deleted or renamed	systémovou složku nelze odstranit ani přejmenovat
+msg.phrase	no media in the drive	v mechanice není žádné médium
+msg.phrase	becoming ready	připravovat se
+msg.phrase	not ready	není připraven
+msg.phrase	media changed	média se změnila
+msg.phrase	medium error	střední chyba
+msg.phrase	illegal request	nezákonný požadavek
+msg.phrase	a bad directory entry	špatný záznam v adresáři
+msg.phrase	a directory on the way does not exist	adresář na cestě neexistuje
+msg.phrase	a file has that name	soubor má tento název
+msg.phrase	a folder has that name	složka má tento název
+msg.phrase	a name on the way is not a directory	jméno na cestě není adresář
+msg.phrase	cancelled	zrušeno
+msg.phrase	could not mount	nemohl namontovat
+msg.phrase	could not start a read	nelze zahájit čtení
+msg.phrase	could not start a write	nemohl začít psát
+msg.phrase	is a directory	je adresář
+msg.phrase	that is a directory	to je adresář
+msg.phrase	no clusters	žádné shluky
+msg.phrase	no room for the cluster list	není místo pro seznam clusterů
+msg.phrase	no such file or directory	žádný takový soubor nebo adresář
+msg.phrase	no such file	žádný takový soubor
+msg.phrase	no volume	žádný objem
+msg.phrase	not NTFS	ne NTFS
+msg.phrase	not exFAT	ne exFAT
+msg.phrase	not a directory	není adresář
+msg.phrase	not found	nenalezen
+msg.phrase	read error	chyba čtení
+msg.phrase	write error	chyba zápisu
+msg.phrase	reading the FAT failed	čtení FAT se nezdařilo
+msg.phrase	the cluster chain is shorter than the file	řetězec clusteru je kratší než soubor
+msg.phrase	the directory is not empty	adresář není prázdný
+msg.phrase	the disk is full	disk je plný
+msg.phrase	the drive did not answer	pohon neodpovídal
+msg.phrase	the file is read-only	soubor je pouze pro čtení
+msg.phrase	the file is too fragmented	soubor je příliš fragmentovaný
+msg.phrase	the file is too large (4GB)	soubor je příliš velký (4 GB)
+msg.phrase	the new name already exists	nový název již existuje
+msg.phrase	the root directory is full	kořenový adresář je plný
+msg.phrase	too many files with the same short name	příliš mnoho souborů se stejným krátkým názvem
+msg.phrase	No such file or directory	Žádný takový soubor nebo adresář
+msg.phrase	File exists	Soubor existuje
+msg.phrase	Permission denied	Povolení odepřeno
+msg.phrase	Directory not empty	Adresář není prázdný
+msg.phrase	Not a directory	Ne adresář
+msg.phrase	Is a directory	Je adresář
+msg.phrase	Read-only file system	Souborový systém pouze pro čtení
+msg.phrase	No space left on device	V zařízení nezbývá místo
+msg.phrase	Input/output error	Chyba vstupu/výstupu
+msg.phrase	Not supported on this drive	Na tomto disku není podporováno
+msg.phrase	Invalid path	Neplatná cesta
+msg.phrase	Out of memory	Nedostatek paměti
+msg.phrase	No such drive	Žádný takový pohon
+msg.phrase	stopped	zastavil
+msg.phrase	cancelled (not enough free space)	zrušeno (nedostatek volného místa)
+msg.phrase	could not count the free space	nemohl spočítat volné místo
+msg.phrase	the receiver cancelled	přijímač zrušil
+msg.phrase	no receiver (run rz on the PC)	žádný přijímač (spusťte rz na PC)
+msg.phrase	the console UART is in use	používá se konzolový UART
+msg.phrase	the screen mode changed	režim obrazovky se změnil
+msg.phrase	the lines did not come (is the display running?)	řádky nepřišly (běží displej?)
+msg.prefix	copy	kopie
+msg.prefix	move	pohyb
+msg.prefix	delete	vymazat
+msg.prefix	rename	přejmenovat
+msg.prefix	attributes	atributy
+msg.prefix	new file	nový soubor
+msg.prefix	new folder	nová složka
+msg.prefix	image	obraz
+msg.prefix	mrbc	mrbc
+msg.prefix	ruby	rubín
+msg.prefix	viewer	divák
+msg.prefix	edit	upravit
+msg.prefix	IDENTIFY	IDENTIFIKOVAT
+msg.prefix	ZMODEM	ZMODEM
+msg.prefix	ZMODEM receive	Příjem ZMODEM
+msg.prefix	ZMODEM send	ZMODEM odeslat
+msg.prefix	split	rozdělit
+msg.prefix	join	připojit se
+msg.prefix	Doom	Osud
+msg.prefix	SMF	SMF
+msg.prefix	CD	CD
+msg.prefix	FB	FB
+msg.prefix	Eject	Vyhodit
+msg.prefix	reboot	restartovat
+msg.prefix	license	licence
+msg.prefix	clock	hodiny
+msg.prefix	ADC in	Vstup ADC
+msg.prefix	screen -> PNG	obrazovka -> PNG
+msg.prefix	FB -> PNG	FB -> PNG
+msg.prefix	could not open the volume	svazek nelze otevřít
+msg.pattern	received 	přijaté %s
+msg.pattern	sent 	odesláno %s
+msg.pattern	saved 	uloženo %s
+msg.pattern	created 	vytvořené %s
+msg.pattern	renamed to 	přejmenován na %s
+msg.pattern	deleted 	smazáno %s
+msg.pattern	changed 	změněno %s
+msg.pattern	joined 	se připojil %s
+msg.pattern	split 	rozdělit %s
+msg.pattern	could not create 	nemohl vytvořit %s
+msg.pattern	could not delete 	se nepodařilo smazat %s
+msg.pattern	could not rename to 	nemohl přejmenovat na %s
+msg.pattern	could not change 	nemohl změnit %s
+msg.pattern	could not read 	nemohl číst %s
+msg.pattern	could not write 	nemohl psát %s
+msg.pattern	could not copy 	nemohl kopírovat %s
+msg.pattern	could not make 	nemohl udělat %s
+msg.pattern	could not remove the folder 	složku nelze odstranit %s
+msg.pattern	could not remove 	se nepodařilo odstranit %s
+msg.pattern	no memory for 	žádná paměť pro %s
+msg.pattern	too many errors while sending 	příliš mnoho chyb při odesílání %s
+msg.pattern	the receiver did not take 	přijímač nevzal %s
+msg.pattern	the receiver skipped 	přijímač přeskočil %s
+msg.pattern	FB page 	FB stránka %s
+msg.word	 bytes each)	bajtů každý)
+msg.word	 bytes)	bajtů)
+msg.word	 KB)	kB)
+msg.word	 parts into 	části do
+msg.word	 parts (	díly (
+msg.word	 into 	do
+msg.word	: cleared	: vymazáno
+msg.word	: brightness halved	: jas poloviční
+msg.word	% read	% přečteno
+msg.word	 rows	řádky
+msg.word	 -- not supported yet (FAT / exFAT / NTFS only)	-- zatím není podporováno (pouze FAT / exFAT / NTFS)
+msg.word	 files	soubory
+msg.word	 (	(
+msg.phrase	Untitled	Bez názvu
+msg.phrase	1 File	1 Soubor
+msg.phrase	2 Edit	2 Upravit
+msg.phrase	3 Graph	3 Graf
+msg.phrase	4 Sheet	4 List
+msg.phrase	5 Help	5 Nápověda
+msg.phrase	EMPTY	PRÁZDNÝ
+msg.phrase	NUMBER	ČÍSLO
+msg.phrase	TEXT	TEXT
+msg.phrase	FORMULA	VZOREC
+msg.phrase	Type to enter, F2 to edit, F1 for help	Zadejte pro vstup, F2 pro úpravu, F1 pro nápovědu
+msg.phrase	5 CSV	5 CSV
+msg.phrase	6 ODS	6 ODS
+msg.phrase	[SHIFT]	[POSUN]
+msg.phrase	[CTRL]	[CTRL]
+msg.phrase	[ALT]	[ALT]
+msg.phrase	Ready	Připraveno
+msg.phrase	SGCALC	SGCALC
+msg.phrase	Press any key	Stiskněte libovolnou klávesu
+msg.phrase	Y = yes    N = no    Esc = cancel	Y = ano N = ne Esc = zrušit
+msg.phrase	Enter = OK    Esc = cancel    Ctrl-U = clear	Enter = OK Esc = zrušení Ctrl-U = vymazání
+msg.phrase	First row/column = labels; charts use the 640x480 CLUT8 FB.	První řádek/sloupec = štítky; grafy používají 640x480 CLUT8 FB.
+msg.phrase	SGCALC - HELP	SGCALC - NÁPOVĚDA
+msg.phrase	Press any key to return	Stisknutím libovolné klávesy se vrátíte
+msg.phrase	Press any key to return.	Stisknutím libovolné klávesy se vrátíte.
+msg.phrase	ABOUT SGCALC	O SGCALC
+msg.phrase	New	Nový
+msg.phrase	Start a new sheet	Začněte nový list
+msg.phrase	Open...	OTEVŘENO...
+msg.phrase	Open an ODS, FODS or CSV file	Otevřete soubor ODS, FODS nebo CSV
+msg.phrase	Save	Uložit
+msg.phrase	Save the current file	Uložte aktuální soubor
+msg.phrase	Save As...	Uložit jako...
+msg.phrase	Save with a new name or format	Uložit s novým názvem nebo formátem
+msg.phrase	Export CSV...	Exportovat CSV...
+msg.phrase	Write a CSV copy	Napište kopii CSV
+msg.phrase	Export ODS...	Export ODS...
+msg.phrase	Write a LibreOffice copy	Napište kopii LibreOffice
+msg.phrase	Quit	Přestat
+msg.phrase	Leave SGCALC	Opusťte SGCALC
+msg.phrase	Clear	Jasný
+msg.phrase	Clear the selected cells	Vymažte vybrané buňky
+msg.phrase	Copy	Kopie
+msg.phrase	Copy the selection	Zkopírujte výběr
+msg.phrase	Paste	Pasta
+msg.phrase	Paste at the cursor	Vložit na kurzor
+msg.phrase	Cut	Střih
+msg.phrase	Copy and clear the selection	Zkopírujte a zrušte výběr
+msg.phrase	Select all	Vyberte vše
+msg.phrase	Select all used cells	Vyberte všechny použité buňky
+msg.phrase	Text color...	Barva textu...
+msg.phrase	Choose the text colour	Vyberte barvu textu
+msg.phrase	Background...	Pozadí...
+msg.phrase	Choose the cell background	Vyberte pozadí buňky
+msg.phrase	Line	Čára
+msg.phrase	Draw a line graph from the selection	Z výběru nakreslete spojnicový graf
+msg.phrase	Bar	Bar
+msg.phrase	Draw a bar graph from the selection	Nakreslete z výběru sloupcový graf
+msg.phrase	Mixed	Smíšený
+msg.phrase	Bars for the first series, lines for the rest	Takty pro první sérii, čáry pro zbytek
+msg.phrase	Pie	Koláč
+msg.phrase	Draw a pie graph from the selection	Z výběru nakreslete koláčový graf
+msg.phrase	Range...	Rozsah...
+msg.phrase	Set the graph range explicitly	Explicitně nastavte rozsah grafu
+msg.phrase	Draw again	Znovu nakreslete
+msg.phrase	Redraw the last graph	Překreslete poslední graf
+msg.phrase	Goto...	Přejít...
+msg.phrase	Jump to a cell (for example C12)	Přejít na buňku (například C12)
+msg.phrase	Column width...	Šířka sloupce...
+msg.phrase	Change the selected columns' width	Změňte šířku vybraných sloupců
+msg.phrase	Row height...	Výška řady...
+msg.phrase	Change the selected rows' height	Změňte výšku vybraných řádků
+msg.phrase	Auto fit	Automatické přizpůsobení
+msg.phrase	Fit widths/heights to the contents (F7)	Přizpůsobit šířky/výšky obsahu (F7)
+msg.phrase	Recalculate	Přepočítat
+msg.phrase	Re-evaluate all formulas	Přehodnoťte všechny vzorce
+msg.phrase	Erase all	Vymazat vše
+msg.phrase	Clear the whole sheet	Vyčistěte celý list
+msg.phrase	Keys	Klíče
+msg.phrase	Show the key guide	Ukažte průvodce klíči
+msg.phrase	About	O
+msg.phrase	About SGCALC	O SGCALC
+msg.phrase	File	Soubor
+msg.phrase	Edit	Upravit
+msg.phrase	Graph	Graf
+msg.phrase	Sheet	List
+msg.phrase	Help	Pomoc
+msg.phrase	File: new, open, save, export, quit	Soubor: nový, otevřít, uložit, exportovat, ukončit
+msg.phrase	Edit: clear, copy, paste, cut, select all	Upravit: vymazat, zkopírovat, vložit, vyjmout, vybrat vše
+msg.phrase	Graph: line, bar, mixed, pie (draws in the FB)	Graf: čára, sloupec, smíšený, koláč (kreslí se na FB)
+msg.phrase	Sheet: goto, column width, recalculate, erase	List: goto, šířka sloupce, přepočítat, vymazat
+msg.phrase	Help: keys and about	Nápověda: klíče a informace
+msg.phrase	Left/Right = menu    Up/Down = item    Enter = choose    Esc = cancel	Vlevo/vpravo = menu Nahoru/Dolů = položka Enter = zvolit Esc = zrušit
+msg.phrase	Cancelled	Zrušeno
+msg.phrase	The selection is too large or memory is low.	Výběr je příliš velký nebo je málo paměti.
+msg.phrase	the cell	buňka
+msg.phrase	the selection	výběr
+msg.phrase	Nothing to paste	Nic k nalepení
+msg.phrase	Pasted	Vloženo
+msg.phrase	GO TO CELL	PŘEJDĚTE DO BUŇKY
+msg.phrase	Cell reference (A1):	Odkaz na buňku (A1):
+msg.phrase	Goto	Přejít
+msg.phrase	COLUMN WIDTH	ŠÍŘKA SLOUPCE
+msg.phrase	Width in characters (4..30):	Šířka ve znacích (4..30):
+msg.phrase	ROW HEIGHT	VÝŠKA ŘÁDKU
+msg.phrase	Height in text rows (1..8):	Výška v řádcích textu (1..8):
+msg.phrase	Auto fit: the sheet is empty	Automatické přizpůsobení: list je prázdný
+msg.phrase	BACKGROUND COLOUR	BARVA POZADÍ
+msg.phrase	TEXT COLOUR	BARVA TEXTU
+msg.phrase	Arrows: choose    Enter: apply    Esc: cancel	Šipky: zvolte Enter: použijte Esc: zrušení
+msg.phrase	Colour index (PC-98 16-colour palette)	Index barev (16barevná paleta PC-98)
+msg.phrase	Aa 123	Aa 123
+msg.phrase	Enter = apply    Esc = cancel	Enter = použít Esc = zrušit
+msg.phrase	Colour	Barva
+msg.phrase	Background	Pozadí
+msg.phrase	Text	Text
+msg.phrase	GRAPH RANGE	ROZSAH GRAFŮ
+msg.phrase	Range (for example A1:C10):	Rozsah (například A1:C10):
+msg.phrase	Graph range	Rozsah grafu
+msg.phrase	Use a range such as A1:C10.	Použijte rozsah, například A1:C10.
+msg.phrase	Cannot draw the graph.	Nelze nakreslit graf.
+msg.phrase	line	čára
+msg.phrase	bar	bar
+msg.phrase	mixed	smíšený
+msg.phrase	pie	koláč
+msg.phrase	Clear every cell in this sheet?	Vymazat všechny buňky v tomto listu?
+msg.phrase	Sheet erased	List vymazán
+msg.phrase	Selected all used cells	Vybrány všechny použité buňky
+msg.phrase	Recalculated	Přepočteno
+msg.phrase	Memory	Paměť
+msg.phrase	Not enough PSRAM for the spreadsheet.	Pro tabulku není dostatek PSRAM.
+msg.phrase	The sheet is empty.	List je prázdný.
+msg.phrase	No numeric data in the selected range.	Ve vybraném rozsahu nejsou žádná číselná data.
+msg.phrase	Other	Ostatní
+msg.phrase	No positive values for a pie chart	Žádné kladné hodnoty pro výsečový graf
+msg.phrase	LINE	ČÁRA
+msg.phrase	BAR	BAR
+msg.phrase	MIXED	SMÍŠENÝ
+msg.phrase	PIE	KOLÁČ
+msg.phrase	S:/	S:/
+msg.phrase	Folder	Složka
+msg.phrase	SAVE AS	ULOŽIT JAKO
+msg.phrase	OPEN FILE	OTEVŘÍT SOUBOR
+msg.phrase	LibreOffice / CSV	LibreOffice / CSV
+msg.phrase	ODS  FODS  CSV	ODS FODS CSV
+msg.phrase	Name:	Jméno:
+msg.phrase	(type a name, or choose below)	(zadejte jméno nebo vyberte níže)
+msg.phrase	Name	Jméno
+msg.phrase	Size	Velikost
+msg.phrase	Enter=save  Left=up  Right/Enter on [DIR]=open  Tab=drive  Esc=cancel	Enter=uložit Vlevo=nahoru Vpravo/Enter na [DIR]=otevřít kartu=řídit Esc=zrušit
+msg.phrase	Enter=open  Left=up  Right/Enter on [DIR]=open  Tab=drive  Esc=cancel	Enter=otevřít Vlevo=nahoru Vpravo/Enter na [DIR]=otevřít kartu=pohon Esc=zrušit
+msg.phrase	Not enough memory.	Nedostatek paměti.
+msg.phrase	Overwrite	Přepsat
+msg.phrase	Open	OTEVŘENO
+msg.phrase	The file is too large (limit 8 MB).	Soubor je příliš velký (limit 8 MB).
+msg.phrase	Not enough memory to read the file.	Nedostatek paměti ke čtení souboru.
+msg.phrase	Bad ZIP/ODS data.	Špatná data ZIP/ODS.
+msg.phrase	CRC error in the ODS file.	Chyba CRC v souboru ODS.
+msg.phrase	Unsupported or damaged file.	Nepodporovaný nebo poškozený soubor.
+msg.phrase	Saved	Uloženo
+msg.phrase	Exported	Exportováno
+msg.phrase	Unsaved changes	Neuložené změny
+msg.phrase	Save the current sheet before continuing?	Uložit aktuální list, než budete pokračovat?
+msg.phrase	New sheet	Nový list
+msg.phrase	SGTRK	SGTRK
+msg.phrase	UNTITLED	BEZ NÁZVU
+msg.phrase	song is too large	skladba je příliš velká
+msg.phrase	empty file	prázdný soubor
+msg.phrase	not an SGT file	není soubor SGT
+msg.phrase	bad BPM	špatný BPM
+msg.phrase	bad speed	špatná rychlost
+msg.phrase	bad title length	špatná délka názvu
+msg.phrase	truncated title	zkrácený název
+msg.phrase	bad character in title	špatná postava v názvu
+msg.phrase	truncated order	zkrácené pořadí
+msg.phrase	bad order length	špatná délka objednávky
+msg.phrase	bad pattern number in order	špatné číslo vzoru v pořádku
+msg.phrase	truncated pattern list	seznam zkrácených vzorů
+msg.phrase	bad pattern count	špatný počet vzorů
+msg.phrase	bad pattern index	index špatného vzoru
+msg.phrase	duplicate pattern	duplicitní vzor
+msg.phrase	truncated pattern data	zkrácená data vzoru
+msg.phrase	invalid pattern data	neplatná data vzoru
+msg.phrase	trailing data in file	koncová data v souboru
+msg.phrase	order refers to a missing pattern	pořadí odkazuje na chybějící vzor
+msg.phrase	A:/	A:/
+msg.phrase	(untitled)	(bez názvu)
+msg.phrase	Ready. Press F1 for help.	Připraveno. Pro nápovědu stiskněte F1.
+msg.phrase	Follow OFF	Následujte VYP
+msg.phrase	Nothing to undo	Není co vrátit
+msg.phrase	Undo	Vrátit zpět
+msg.phrase	Note OFF	Poznámka VYPNUTO
+msg.phrase	Set an effect letter first	Nejprve nastavte písmeno efektu
+msg.phrase	Effect cleared	Efekt vymazán
+msg.phrase	Parameter cleared	Parametr vymazán
+msg.phrase	Note cleared	Poznámka vymazána
+msg.phrase	Instrument cleared	Přístroj vymazán
+msg.phrase	Volume cleared	Hlasitost vymazána
+msg.phrase	Order list is full	Seznam objednávek je plný
+msg.phrase	Order inserted	Objednávka vložena
+msg.phrase	Cannot delete the last order	Poslední objednávku nelze smazat
+msg.phrase	Order deleted	Objednávka smazána
+msg.phrase	Playing song	Přehrávání písně
+msg.phrase	Stopped	Zastaveno
+msg.phrase	New song	Nová píseň
+msg.phrase	Discard unsaved changes and start a new song? (Y/N)	Zahodit neuložené změny a začít novou skladbu? (A/N)
+msg.phrase	Discard unsaved changes and open a song? (Y/N)	Zahodit neuložené změny a otevřít skladbu? (A/N)
+msg.phrase	Discard unsaved changes and quit? (Y/N)	Zahodit neuložené změny a ukončit? (A/N)
+msg.phrase	Song settings updated	Nastavení skladeb aktualizováno
+msg.phrase	Filename is empty	Název souboru je prázdný
+msg.phrase	Save cancelled	Uložit zrušeno
+msg.phrase	Open cancelled	Otevření zrušeno
+msg.phrase	Edit ON	Upravit ZAPNUTO
+msg.phrase	Edit OFF	Úpravy jsou vypnuty
+msg.phrase	Follow ON	Sledujte ON
+msg.phrase	Edit is OFF. Press F8 to edit.	Úpravy jsou VYPNUTY. Pro úpravu stiskněte F8.
+msg.phrase	I/O error	Chyba I/O
+msg.phrase	file is too large	soubor je příliš velký
+msg.phrase	truncated file	zkrácený soubor
+msg.phrase	SINE PAD	SINE PODLOŽKA
+msg.phrase	TRIANGLE	TROJÚHELNÍK
+msg.phrase	SAW LEAD	PILOVÉ olovo
+msg.phrase	SQUARE	NÁMĚSTÍ
+msg.phrase	PULSE 25	PULZ 25
+msg.phrase	ORGAN	ORGÁN
+msg.phrase	BASS	BAS
+msg.phrase	BELL	ZVONEK
+msg.phrase	NOISE	HLUK
+msg.phrase	SINE	SINUS
+msg.phrase	SAW	SAW
+msg.phrase	OFF	VYPNUTO
+msg.phrase	ON	NA
+msg.phrase	ROW	ŘÁDEK
+msg.phrase	CHAN LEVEL	ÚROVEŇ CHAN
+msg.phrase	F1 HELP F2 SONG	F1 POMOC F2 PÍSEŇ
+msg.phrase	F3 INS  F4 SAVE	F3 INS F4 ULOŽIT
+msg.phrase	F5 PLAY F6 PAT	F5 PLAY F6 PAT
+msg.phrase	F7 STOP F8 EDIT	F7 STOP F8 EDIT
+msg.phrase	F9/F10 OCTAVE	F9/F10 OCTAVE
+msg.phrase	F11 FOLLOW	F11 SLEDUJTE
+msg.phrase	F12 QUIT	F12 UKONČIT
+msg.phrase	SPACE PLAY/STOP	SPACE PLAY/STOP
+msg.phrase	CTRL-S SAVE	CTRL-S ULOŽIT
+msg.phrase	CTRL-O OPEN	CTRL-O OTEVŘÍT
+msg.phrase	C-N NEW C-Z UNDO	C-N NOVÉ C-Z ZPĚT
+msg.phrase	C-C STOP	C-C STOP
+msg.phrase	#TRANSPORT AND FILES	#TRANSPORT A SOUBORY
+msg.phrase	#ORDER LIST	#SEZNAM OBJEDNÁVEK
+msg.phrase	#DISPLAY	#ZOBRAZIT
+msg.phrase	#EDITING	#EDITACE
+msg.phrase	#EFFECTS (parameter is hexadecimal)	#EFEKTY (parametr je hexadecimální)
+msg.phrase	LEFT/RIGHT PAGE   ENTER OR F1 CLOSE	LEFT/RIGHT PAGE ENTER NEBO F1 CLOSE
+msg.phrase	SONG SETTINGS	NASTAVENÍ SKLADBY
+msg.phrase	UP/DOWN SELECT   LEFT/RIGHT ADJUST   ENTER/F2 CLOSE	NAHORU/DOLŮ VOLBA VLEVO/VPRAVO NASTAVIT ENTER/F2 ZAVŘÍT
+msg.phrase	Type to edit the title. Backspace deletes the last character.	Zadejte, chcete-li upravit název. Backspace odstraní poslední znak.
+msg.phrase	BPM range 32..255. Speed range 1..31.	Rozsah BPM 32..255. Rozsah otáček 1..31.
+msg.phrase	Pattern effects can also change speed and BPM while playing.	Efekty vzorů mohou také měnit rychlost a BPM během hraní.
+msg.phrase	INSTRUMENTS	NÁSTROJE
+msg.phrase	UP/DOWN SELECT   SPACE PREVIEW   ENTER USE   F3 CLOSE	NAHORU/DOLŮ VÝBĚR MEZERNÍKU NÁHLED ENTER POUŽITÍ F3 ZAVŘÍT
+msg.phrase	All four channels use wavetable synthesis.	Všechny čtyři kanály používají wavetable syntézu.
+msg.phrase	Preview plays C-4 on the track under the edit cursor.	Náhled přehraje C-4 na stopě pod editačním kurzorem.
+msg.phrase	SAVE SONG AS	ULOŽTE SKLADBU JAKO
+msg.phrase	ENTER SAVE   F4 OR CTRL-C CANCEL	ZADEJTE ULOŽIT F4 NEBO CTRL-C ZRUŠIT
+msg.phrase	Directory:	Adresář:
+msg.phrase	File name:	Název souboru:
+msg.phrase	The extension .SGT is added automatically.	Přípona .SGT je přidána automaticky.
+msg.phrase	An existing file can be overwritten.	Existující soubor lze přepsat.
+msg.phrase	OPEN SONG	OTEVŘENÁ PÍSNIČKA
+msg.phrase	ENTER OPEN  BS PARENT  CTRL-O/CTRL-C CANCEL	ENTER OPEN BS PARENT CTRL-O/CTRL-C CANCEL
+msg.phrase	(no .SGT files in this folder)	(v této složce nejsou žádné soubory .SGT)
+msg.phrase	CONFIRM	POTVRDIT
+msg.phrase	Y = YES   N / ENTER / CTRL-C = NO	Y = ANO N / ENTER / CTRL-C = NE
+msg.phrase	Y = yes        N = no	Y = ano N = ne
+msg.phrase	C-	C-
+msg.phrase	C#	C#
+msg.phrase	D-	D-
+msg.phrase	D#	D#
+msg.phrase	E-	E-
+msg.phrase	F-	F-
+msg.phrase	F#	F#
+msg.phrase	G-	G-
+msg.phrase	G#	G#
+msg.phrase	A-	A-
+msg.phrase	A#	A#
+msg.phrase	B-	B-
+msg.phrase	A:/dir/name	A:/dir/name
+msg.phrase	MThd	MThd
+msg.phrase	broken MThd	nefunkční MThd
+msg.phrase	MIDI IMPORT	MIDI IMPORT
+msg.phrase	MTrk	MTrk
+msg.phrase	broken delta time	zlomený delta čas
+msg.phrase	broken running status	rozbitý provozní stav
+msg.phrase	broken meta event	zlomená meta událost
+msg.phrase	broken sysex event	rozbitá sysex událost
+msg.phrase	broken channel event	událost přerušeného kanálu
+msg.phrase	SMF output is too small	Výstup SMF je příliš malý
+msg.phrase	SMF output is too large	Výstup SMF je příliš velký
+msg.phrase	the song is too long for SMF	píseň je pro SMF příliš dlouhá
+msg.phrase	TRK1	TRK1
+msg.phrase	%s%d	%s%d
+msg.phrase	%s%d:%s%d	%s%d:%s%d
+msg.phrase	%s	%s
+msg.phrase	%.40s%s	%.40s%s
+msg.phrase	  [%s]   %s	[%s] %s
+msg.phrase	EDIT  	UPRAVIT
+msg.phrase	READY 	PŘIPRAVEN
+msg.phrase	%4d 	%4d
+msg.phrase	%s Sum %.7g N %ld%s	%s Součet %.7g N %ld%s
+msg.phrase	ARROWS      move the cell cursor\n	ŠIPKY pohybují kurzorem buňky
+msg.phrase	SHIFT+ARR   extend the selection (for graphs/copy)\n	SHIFT+ARR rozšíří výběr (pro grafy/kopie)
+msg.phrase	ENTER       edit the cell; in edit, commit and move down\n	ENTER upravit buňku; v úpravě, odevzdání a přesunutí dolů
+msg.phrase	TAB         next cell    SHIFT+TAB  previous cell\n	TAB další buňka SHIFT+TAB předchozí buňka
+msg.phrase	DELETE      clear the selected cell(s)    ESC  cancel\n	DELETE vymazat vybranou buňku(y) ESC zrušit
+msg.phrase	PGUP/PGDN   move one screen    HOME/END  first/last column\n	PGUP/PGDN přesun o jednu obrazovku HOME/KONEC první/poslední sloupec
+msg.phrase	CTRL+HOME   A1    CTRL+END  last used cell\n	CTRL+HOME A1 CTRL+END naposledy použitá buňka
+msg.phrase	F1 help  F2 edit  F3 copy  F4 paste  F5 goto  F6 colour\n	F1 nápověda F2 editace F3 kopírování F4 vkládání F5 goto F6 barva
+msg.phrase	F7 auto-fit  F8 background  F9 recalc  F10 graph  F11 save  F12 menu\n	F7 automatické přizpůsobení F8 pozadí F9 přepočítat F10 graf F11 uložit F12 menu
+msg.phrase	SHIFT+F1 about  SHIFT+F2 row height  SHIFT+F3 column width\n	SHIFT+F1 o SHIFT+F2 výška řádku SHIFT+F3 šířka sloupce
+msg.phrase	SHIFT+F4 select all  SHIFT+F10 graph range  SHIFT+F11 save as\n	SHIFT+F4 vybrat celý rozsah grafu SHIFT+F10 SHIFT+F11 uložit jako
+msg.phrase	CTRL+F1 new  CTRL+F2 open  CTRL+F3 save  CTRL+F4 save as\n	CTRL+F1 nové CTRL+F2 otevřít CTRL+F3 uložit CTRL+F4 uložit jako
+msg.phrase	CTRL+F5 export CSV  CTRL+F6 export ODS  ALT+F12 quit\n	CTRL+F5 export CSV CTRL+F6 export ODS ALT+F12 ukončit
+msg.phrase	Bottom 2 lines: function keys; [SHIFT]/[CTRL]/[ALT] like the filer\n	Spodní 2 řádky: funkční klávesy; [SHIFT]/[CTRL]/[ALT] jako u fileru
+msg.phrase	CTRL+S save  CTRL+O open  CTRL+N new  CTRL+C/V/X copy/paste/cut\n	CTRL+S uložit CTRL+O otevřít CTRL+N nové CTRL+C/V/X kopírovat/vložit/vyjmout
+msg.phrase	CTRL+G goto    /  open the menu (1 File, 2 Edit, ...)\n	CTRL+G přejděte / otevřete nabídku (1 Soubor, 2 Upravit, ...)
+msg.phrase	Built-in functions: SUM AVERAGE MIN MAX COUNT COUNTA\n	Vestavěné funkce: SUM AVERAGE MIN MAX COUNT COUNTA
+msg.phrase	PRODUCT ABS SQRT INT ROUND MOD POWER IF AND OR NOT\n	PRODUKT ABS SQRT INT ROUND MOD POWER, POKUD A NEBO NE
+msg.phrase	IFERROR LEN LEFT RIGHT MID UPPER LOWER TRIM CONCATENATE PI\n	IFERROR LEN LEVÁ PRAVÁ STŘED HORNÍ SPODNÍ OBRÁBĚNÍ CONCATENATE PI
+msg.phrase	Cell refs: A1, $A$1, A1:B10.  Formulas begin with '='.\n	Odkazy na buňky: A1, $A$1, A1:B10.  Vzorce začínají '='.
+msg.phrase	Files: .ods (LibreOffice), .fods (flat XML), .csv\n	Soubory: .ods (LibreOffice), .fods (plochý XML), .csv
+msg.phrase	ODS/FODS keeps formulas, widths, heights and colours.\n	ODS/FODS zachovává vzorce, šířky, výšky a barvy.
+msg.phrase	CSV keeps values and formulas (no colours/heights).\n	CSV uchovává hodnoty a vzorce (bez barev/výšek).
+msg.phrase	Graph: select a range, press F10, and choose Line/Bar/Mixed/Pie.\n	Graf: vyberte rozsah, stiskněte F10 a zvolte Čára/Sloupec/Smíšené/Koláčový.
+msg.phrase	SGCALC for sgnano\n	SGCALC pro sgnano
+msg.phrase	Version 	Verze
+msg.phrase	A Lotus 1-2-3 style spreadsheet as an SGX program.\n\n	Tabulka stylu Lotus 1-2-3 jako program SGX.
+msg.phrase	SGX ABI %u.%u\n	SGX ABI %u.%u
+msg.phrase	Screen mode 3: text + CLUT8 FB (lowres disabled)\n	Režim obrazovky 3: text + CLUT8 FB (nízké rozlišení vypnuto)
+msg.phrase	Sheet: %d rows x %d columns\n	List: %d řádků x %d sloupců
+msg.phrase	Formats: .ods / .fods (LibreOffice), .csv\n\n	Formáty: .ods / .fods (LibreOffice), .csv
+msg.phrase	The grid is drawn on the text plane.\n	Mřížka je nakreslena na rovině textu.
+msg.phrase	Charts and the 640x480 background use the FB.\n\n	Grafy a pozadí 640x480 využívají FB.
+msg.phrase	%d %s	%d %s
+msg.phrase	Cannot store the cell (%d).	Nelze uložit buňku (%d).
+msg.phrase	Copied %d x %d cells	Zkopírováno %d x %d buněk
+msg.phrase	Cleared %s	Vymazáno %s
+msg.phrase	'%s' is not a cell reference.	'%s' není odkaz na buňku.
+msg.phrase	%d	%d
+msg.phrase	Column width = %d	Šířka sloupce = %d
+msg.phrase	Row height = %d	Výška řádku = %d
+msg.phrase	Auto fit: %d column(s), %d row(s)	Automaticky přizpůsobit: %d sloupec(y), %d řádek(y)
+msg.phrase	%2d	%2d
+msg.phrase	Cannot apply the colour (%d).	Nelze použít barvu (%d).
+msg.phrase	%s colour = %d	%s barva = %d
+msg.phrase	Not a valid range.\nUse a range such as A1:C10.	Neplatný rozsah.\nPoužijte rozsah, například A1:C10.
+msg.phrase	Graph range %s	Rozsah grafu %s
+msg.phrase	Graph: %s	Graf: %s
+msg.phrase	SGCALC: cannot set screen mode 3: %s\n	SGCALC: nelze nastavit režim obrazovky 3: %s
+msg.phrase	%.2g	%.2g
+msg.phrase	%.6g	%.6g
+msg.phrase	%s  %.0f%%	%s %.0f%%
+msg.phrase	GRAPH  %s  %s	GRAF %s %s
+msg.phrase	%s%s	%s%s
+msg.phrase	%s/%s	%s/%s
+msg.phrase	%.*s	%.*s
+msg.phrase	%.*s/	%.*s/
+msg.phrase	Cannot read %s\n%s	Nelze přečíst %s\n%s
+msg.phrase	Folder: %s	Složka: %s
+msg.phrase	[DIR] %s	[DIR] %s
+msg.phrase	      %s	%s
+msg.phrase	%lu.%luM	%lu.%luM
+msg.phrase	%luK	%luK
+msg.phrase	%luB	%luB
+msg.phrase	BOOK1%s	KNIHA1%s
+msg.phrase	%c:/	%c:/
+msg.phrase	Unsupported extension.\nUse .csv, .ods or .fods.	Nepodporované rozšíření.\nPoužijte .csv, .ods nebo .fods.
+msg.phrase	%s already exists.\nOverwrite it?	%s již existuje.\nPřepsat to?
+msg.phrase	%s may not be writable.\nTry anyway?	%s nemusí být zapisovatelný.\nZkusit to přesto?
+msg.phrase	Unknown file type for %s	Neznámý typ souboru pro %s
+msg.phrase	Unsupported file type.\nUse .csv, .ods or .fods.	Nepodporovaný typ souboru.\nPoužijte .csv, .ods nebo .fods.
+msg.phrase	Cannot open %s\n%s	Nelze otevřít %s\n%s
+msg.phrase	%s is a folder.	%s je složka.
+msg.phrase	Cannot import %s\n%s	Nelze importovat %s\n%s
+msg.phrase	Loaded %s	Nabito %s
+msg.phrase	Cannot build the %s file.	Nelze sestavit soubor %s.
+msg.phrase	Cannot write %s\n%s	Nelze napsat %s\n%s
+msg.phrase	%s %s	%s %s
+msg.phrase	unsupported version %u	nepodporovaná verze %u
+msg.phrase	%d:%d:%d:%d:%d:%d	%d:%d:%d:%d:%d:%d
+msg.phrase	Octave %d	Oktáva %d
+msg.phrase	Note %s	Poznámka %s
+msg.phrase	Instrument %d	Nástroj %d
+msg.phrase	Volume %s	Hlasitost %s
+msg.phrase	Effect %c	Účinek %c
+msg.phrase	Parameter %s	Parametr %s
+msg.phrase	Pattern %s	Vzor %s
+msg.phrase	Playing pattern %s	Přehrávání vzoru %s
+msg.phrase	SAVE ERROR: %s	CHYBA ULOŽENÍ: %s
+msg.phrase	Saved %s	Uloženo %s
+msg.phrase	LOAD ERROR: %s	CHYBA NAČÍTÁNÍ: %s
+msg.phrase	BPM %d	BPM %d
+msg.phrase	Speed %d	Rychlost %d
+msg.phrase	Preview %s	Náhled %s
+msg.phrase	Instrument %s %s	Nástroj %s %s
+msg.phrase	Overwrite %s? (Y/N)	Přepsat %s? (A/N)
+msg.phrase	 | BPM %s SPD %s 	| BPM %s SPD %s
+msg.phrase	 SGNO TRACKER 1.0 | 	SGNO TRACKER 1.0 |
+msg.phrase	FILE 	SOUBOR
+msg.phrase	 PAT %s	PAT %s
+msg.phrase	 ORD %d/%d	ORD %d/%d
+msg.phrase	 INS %s 	INS %s
+msg.phrase	 OCT %d	říjen %d
+msg.phrase	 EDIT %s	UPRAVIT %s
+msg.phrase	ON 	NA
+msg.phrase	 FOL %s	FOL %s
+msg.phrase	TRACK %d	TRACK %d
+msg.phrase	%c%s	%c%s
+msg.phrase	%s %s %s %s	%s %s %s %s
+msg.phrase	%s 	%s
+msg.phrase	%d %s %s	%d %s %s
+msg.phrase	ORDER %d/%d	OBJEDNÁVKA %d/%d
+msg.phrase	PAT   %s	PAT %s
+msg.phrase	INS %s %s	INS %s %s
+msg.phrase	OCT %d  EDIT %s	ŘÍJNA %d UPRAVIT %s
+msg.phrase	FOLLOW %s	SLEDUJTE %s
+msg.phrase	PLAYING  ORD %d/%d  PAT %s  ROW %s/%d  SPD %s  BPM %d  F7 STOP	PŘEHRÁVÁNÍ ORD %d/%d PAT %s ROW %s/%d SPD %s BPM %d F7 STOP
+msg.phrase	READY  EDIT %s  OCT %d  F1 HELP  F5 PLAY  CTRL-S SAVE	PŘIPRAVENO ÚPRAVY %s ŘÍJEN %d F1 NÁPOVĚDA F5 PŘEHRÁVAT CTRL-S ULOŽIT
+msg.phrase	 %s 	%s
+msg.phrase	  F5          Play the song from the current order	F5 Přehrajte skladbu z aktuálního pořadí
+msg.phrase	  F6          Play the current pattern	F6 Přehraje aktuální pattern
+msg.phrase	  F7/Ctrl-C   Stop playback	F7/Ctrl-C Zastavení přehrávání
+msg.phrase	  Space       Play / stop	Space Play / stop
+msg.phrase	  F4          Save as	F4 Uložit jako
+msg.phrase	  Ctrl-S      Save (asks for a name if new)	Ctrl-S Uložit (požádá o jméno, pokud je nové)
+msg.phrase	  Ctrl-O      Open a song	Ctrl-O Otevření skladby
+msg.phrase	  Ctrl-N      New song	Ctrl-N Nová skladba
+msg.phrase	  F12         Quit (confirmation if modified)	F12 Ukončit (potvrzení v případě změny)
+msg.phrase	  [ ]         Previous / next order entry	[ ] Předchozí / další zadání objednávky
+msg.phrase	  { }         Insert / delete an order entry	{ } Vložení / odstranění položky objednávky
+msg.phrase	  - +         Change the pattern in the entry	- + Změňte vzor v záznamu
+msg.phrase	  F11         Follow playback (turns off on manual move)	F11 Sledovat přehrávání (vypne se při ručním přesunu)
+msg.phrase	  F1          Help; Left/Right changes page	Nápověda F1; Vlevo/vpravo změní stránku
+msg.phrase	  F8          Toggle edit mode	F8 Přepíná režim úprav
+msg.phrase	  Arrows      Move the cursor	Šipky Pohyb kurzoru
+msg.phrase	  PgUp/PgDn   Jump 16 rows	PgUp/PgDn Skok o 16 řádků
+msg.phrase	  Home/End    First / last row	Domů/Konec První / poslední řádek
+msg.phrase	  F9/F10      Octave down / up	F9/F10 Oktáva dolů / nahoru
+msg.phrase	  Z S X D C V G B H N J M      lower piano row	Z S X D C V G B H N J M spodní klavírní řada
+msg.phrase	  Q 2 W 3 E R 5 T 6 Y 7 U      upper piano row	Q 2 W 3 E R 5 T 6 Y 7 U horní klavírní řada
+msg.phrase	  1           Note off	1 Poznámka vypnuta
+msg.phrase	  0 / Del     0 clears note/inst/fx; Del clears any	0 / Del 0 vymaže poznámku/inst/fx; Del vymaže všechny
+msg.phrase	  Ctrl-Z      Undo the last pattern/order edit	Ctrl-Z Vrátí zpět poslední úpravu vzoru/pořadí
+msg.phrase	  Axy   Volume slide: up x, down y	Posuv Axy Volume: nahoru x, dolů y
+msg.phrase	  Cxx   Note cut after xx ticks	Cxx Poznámka vystřižená po xx tiknutích
+msg.phrase	  Dxx   Set volume (00..7F)	Dxx Nastavit hlasitost (00..7F)
+msg.phrase	  Fxx   Speed if xx < 20, otherwise BPM	Fxx Rychlost, pokud xx < 20, jinak BPM
+msg.phrase	  Hxy   Arpeggio x, y semitones	Hxy Arpeggio x, y půltóny
+msg.phrase	  Pxx   Pitch slide up	Pxx Pitch posunout nahoru
+msg.phrase	  Qxx   Pitch slide down	Qxx Pitch posuňte dolů
+msg.phrase	  F2 song settings, F3 instrument list	Nastavení skladeb F2, seznam nástrojů F3
+msg.phrase	HELP %d/2	NÁPOVĚDA %d/2
+msg.phrase	  Title	Titul
+msg.phrase	  [%s_]	[%s_]
+msg.phrase	  BPM   : %d     (left/right -1/+1, -/+ -5/+5)	BPM: %d (doleva/doprava -1/+1, -/+ -5/+5)
+msg.phrase	  Speed : %d ticks/row	Rychlost : %d tiků/řádek
+msg.phrase	  Rows  : %d (fixed)	Řádky: %d (pevné)
+msg.phrase	  Order : %d entries	Pořadí: %d položek
+msg.phrase	  Patterns in use : %d	Používané vzory: %d
+msg.phrase	 #  NAME       WAVE       A   D   S   R  VOL	# NAME WAVE A D S R VOL
+msg.phrase	 %c %d  %-9s %-9s %3d %3d %3d %3d %4d	%c %d %-9s %-9s %3d %3d %3d %3d %4d
+msg.phrase	Current instrument: %s %s	Aktuální nástroj: %s %s
+msg.phrase	  %s	%s
+msg.phrase	DIR  %s	DIR %s
+msg.phrase	 %c %s%s	%c %s%s
+msg.phrase	Files: %d	Soubory: %d
+msg.phrase	%02d	%02d
+msg.phrase	%03d	%03d
+msg.phrase	%02X	%02X
+msg.phrase	SGNO TRACKER: incompatible SGX ABI\n	SGNO TRACKER: nekompatibilní SGX ABI
+msg.phrase	S: check: wait -- a file is being read or written	S: check: wait -- soubor se čte nebo zapisuje
+msg.phrase	S: check: the drive is busy or not ready	S: zkontrolujte: disk je zaneprázdněn nebo není připraven
+msg.phrase	nothing for this item (ContextMenu.cfg)	nic pro tuto položku (ContextMenu.cfg)
+msg.phrase	bad command in ContextMenu.cfg	špatný příkaz v ContextMenu.cfg
+msg.phrase	unknown action in ContextMenu.cfg	neznámá akce v ContextMenu.cfg
+msg.prefix	menu	menu
+msg.phrase	choose a file or folder	vyberte soubor nebo složku
+msg.phrase	this drive cannot be written	na tuto jednotku nelze zapisovat
+msg.phrase	an archive job is already running	archivační úloha již běží
+msg.phrase	no PSRAM for the archive task	žádná PSRAM pro úlohu archivace
+msg.phrase	could not start the archive task	nelze spustit úlohu archivace
+msg.phrase	too many items (32 at most)	příliš mnoho položek (maximálně 32)
+msg.phrase	nothing to compress	nic komprimovat
+msg.phrase	no name (or the name has / or \\)	žádné jméno (nebo jméno má / nebo \\)
+msg.phrase	32 items at most (mark fewer, or put them in a folder)	Maximálně 32 položek (označte méně nebo je vložte do složky)
+msg.prefix	archive	archiv
+msg.prefix	compress	komprimovat
+msg.prefix	render	vykreslit
+msg.phrase	5 Macro	5 Makro
+msg.phrase	6 Help	6 Nápověda
+msg.phrase	Run current	Spustit proud
+msg.phrase	Run the macro at the cursor (#! header cell and the cells below it)	Spusťte makro u kurzoru (#! buňka záhlaví a buňky pod ní)
+msg.phrase	Run selection	Spustit výběr
+msg.phrase	Run the selected cells as one macro (top-left cell is the #! header)	Spusťte vybrané buňky jako jedno makro (buňka vlevo nahoře je záhlaví #!)
+msg.phrase	Run all	Spustit všechny
+msg.phrase	Run every macro in the sheet, top-left to bottom-right	Spusťte všechna makra na listu, zleva nahoru a doprava dolů
+msg.phrase	Last error	Poslední chyba
+msg.phrase	Show the last macro error	Zobrazit poslední chybu makra
+msg.phrase	Macro	Makro
+msg.phrase	Macro: run #!ruby / #!python / #!basic cells	Makro: spusťte #!ruby / #!python / #!základní buňky
+msg.phrase	Edit the cell (F2)	Upravit buňku (F2)
+msg.phrase	Fit widths/heights to the contents	Přizpůsobte šířku/výšku obsahu
+msg.phrase	Last macro error	Poslední chyba makra
+msg.phrase	No macro error.	Žádná chyba makra.
+msg.phrase	IME on	IME zapnuto
+msg.phrase	IME off	IME vypnuto
+msg.phrase	Macro: %s %s ...	Makro: %s %s ...
+msg.phrase	%s: this firmware cannot run macros (SGX ABI 5.10 or later)	%s: tento firmware nemůže spouštět makra (SGX ABI 5.10 nebo novější)
+msg.phrase	Macro error: %s	Chyba makra: %s
+msg.phrase	Macro: %s done	Makro: %s hotovo
+msg.phrase	a macro is already running	makro již běží
+msg.phrase	this language is not available	tento jazyk není k dispozici
+msg.phrase	not enough memory	není dostatek paměti
+msg.phrase	the macro stopped with an error	makro se zastavilo s chybou
+msg.phrase	Macro error %s: %s	Chyba makra %s: %s
+msg.phrase	Macro: not enough memory	Makro: nedostatek paměti
+msg.phrase	Macro: the cursor is not on a macro (a #!ruby / #!python / #!basic cell or the cells below it)	Makro: kurzor není na makru (buňka #!ruby / #!python / #!basic nebo buňky pod ní)
+msg.phrase	Macro: no macro in the sheet	Makro: v listu není žádné makro
+msg.phrase	Run all macros	Spusťte všechna makra
+msg.phrase	Macros: %d. Run them all, top-left to bottom-right? Changes cannot be undone.	Makra: %d. Spustit je všechny, zleva shora dolů doprava? Změny nelze vrátit zpět.
+msg.phrase	Macro: %d of %d done	Makro: %d z %d hotovo
+msg.phrase	Cleared the cell	Vyčistil celu
+msg.phrase	Cleared the selection	Vymazal výběr
+msg.phrase	Background colour = %d	Barva pozadí = %d
+msg.phrase	Text colour = %d	Barva textu = %d
+msg.phrase	Graph: line	Graf: čára
+msg.phrase	Graph: bar	Graf: bar
+msg.phrase	Graph: mixed	Graf: smíšený
+msg.phrase	Graph: pie	Graf: koláč
+msg.phrase	Exported %s	Exportováno %s

@@ -1,0 +1,995 @@
+# Igbo (ig) — UI and messages. Machine translation, unreviewed (2026-11-16)
+U001	Ndepụta (faịlụ na nchekwa n'ogidi 2 x ahịrị 19)
+U002	Bugharịa cursor (aka ekpe / aka nri: ogidi nke ọzọ)
+U003	Ibe gara aga / ibe na-esote
+U004	Kaa akara niile / tụgharịa akara (dị ka PC-98 FD)
+U005	Mbụ / ikpeazụ
+U006	Kaa akara wee gaa n'ihu / kaa akara naanị
+U007	Shift+akụ
+U008	Họrọ mpaghara (Space na-aka mpaghara akara)
+U009	Banye na nchekwa / mepee faịlụ (F2/X mee ka ọ rụọ)
+U010	Gaa na nchekwa nne
+U011	Họrọ draịvụ (USB, floppy, CD, S: dị n'ime)
+U012	Detuo (Shift+C / Shift+F3 họrọ ebe ọ ga-aga site n'osisi)
+U013	Bugharịa
+U014	Hichapụ (Shift+D / Shift+F4 hichapụ nchekwa)
+U015	Gụgharịa aha
+U016	Gbanwee njirimara
+U017	Mepee na edezi
+U018	Lee dị ka ederede (Shift+V / Ctrl+Alt+F7 hex)
+U019	Ozi draịvụ
+U020	Nchekwa ọhụrụ / faịlụ ọhụrụ
+U021	Shell sgsh / wepụta diski
+U022	Bugharịa ọzọ
+U023	Chekwaa ihuenyo dị ka PNG
+U024	Mechie windo / wepụ nhọrọ (na nchekwa nta: gaa elu)
+U025	Ọrụ faịlụ (dị ka FD: akara, mgbe ahụ mpaghara, mgbe ahụ cursor)
+U026	Detuo: họrọ ebe ọ ga-aga site n'osisi draịvụ na nchekwa. ESC na-akwụsị
+U027	Hichapụ: kwado na y. Akara na mpaghara ọnụ. Nchekwa ya na ihe dị n'ime ya
+U028	Hichapụ nchekwa (ya na ihe dị n'ime ya)
+U029	Gụgharịa aha (dezie aha, Enter)
+U030	Njirimara: R ọgụgụ naanị, H zoro ezo, S sistemụ, A ebe nchekwa
+U031	Nchekwa ọhụrụ
+U032	Faịlụ ọhụrụ (efu)
+U033	Lee dị ka ederede (Shift+V / Ctrl+Alt+F7 hex)
+U034	Shell sgsh (exit / Ctrl-D laghachi na njikwa faịlụ)
+U035	Njirimara draịvụ (INQUIRY, IDENTIFY)
+U036	Wepụta diski FDD / LS-120 / CD
+U037	Bugharịa ndepụta ọzọ (CD: site na TOC)
+U038	Nata site na PC site na ZMODEM (zm.sh put)
+U039	Ziga na PC site na ZMODEM (zm.sh get)
+U040	Chịkọta .rb wee dee .mrb
+U041	REPL Ruby (otu ahịrị n'otu oge, Ctrl-D / ESC ịkwụsị)
+U042	REPL MicroPython
+U043	Kewaa n'akụkụ MB 4 / jikọta site na .001
+U044	Kewaa / jikọta (otu ihe ahụ dị ka Ctrl+F11 / F12)
+U045	Ihuenyo (Alt+F, anaghị agbakọ na igodo F nke FD)
+U046	Gosi / zoo FB (foto) / ederede
+U047	Ibe ngosi FB (0-3)
+U048	Hichapụ FB ka ọ bụrụ 0 / belata ìhè ọkara (RGB555)
+U049	Njedebe USB na ọnọdụ LAN
+U050	Hichapụ ibe ngosi FB / belata ìhè ọkara
+U051	Ihe atụ njirimara ederede
+U052	EDID ihuenyo (agụrụ mgbe mmalite)
+U053	Ikikere na ekele ROM mkpụrụedemede
+U054	Ntọala (asụsụ ngosi, IME na nhazi ahụigodo)
+U055	Elekere (oge Japan site na NTP; s na-emekọ ugbu a)
+U056	Mepee mpempe mgbakọ (SGCALC)
+U057	Lelee njehie S: (na-ajụ tupu ịrụzi)
+U058	Mepee TRACKER
+U059	Malitegharịa (na-ajụ mbụ)
+U060	Kpọọ ntinye stereo ADC (GP40 / 41)
+U061	Bupụ VGM/VGZ ka ọ bụrụ WAV kHz 96 / bit 24
+U062	Enyemaka a
+U063	Gbanwee ibe
+U064	Mechie
+U065	Ihe nlele ederede / hex (dị ka less)
+U066	Otu ahịrị
+U067	Otu ibe
+U068	Ọkara ibe
+U069	Chọọ (n'ihu / azụ) / nke na-esote / nke gara aga
+U070	Laghachi na ndepụta (F1: enyemaka ihe nlele)
+U071	Ihe nlele foto
+U072	Laghachi na ndepụta (F2 F3 F6 F7 Shift+F2 F3 na-arụ ọrụ)
+U073	Edezi (E / Shift+F8)
+U074	Chekwaa (UTF-8; njedebe ahịrị na BOM na-anọgide)
+U075	Mechie (ọ bụrụ na agbanwere: Y / N / ESC)
+U076	Tinye / dee n'elu
+U077	Gbanye/gbanyụọ IME (Japanese / Bekee / Korean)
+U078	Asụsụ IME (Japanese / Bekee / Korean)
+U079	Kwado dị ka hiragana / katakana
+U080	Enyemaka edezi
+U081	Shell
+U082	Shell (akụkụ csh. exit / Ctrl-D ịlaghachi, help na-edepụta iwu)
+U083	Ndepụta na mbugharị
+U084	Ọrụ faịlụ
+U085	Ihuenyo na ngwaọrụ
+U086	Ihe nlele na edezi
+U087	Enyemaka  %u / %u  %s
+U088	Aka ekpe Aka nri: gbanwee ibe    F1 / ESC: mechie
+U089	Malitegharịa sgnano?
+U090	[ Malitegharịa ]
+U091	[ Kagbuo ]
+U092	Lelee njehie draịvụ S:
+U093	Faịlụ %lu  nchekwa %lu
+U094	Nha adabaghị na yinye
+U095	Klọsta ọ dịghị ihe na-eji
+U096	Klọsta ejikọtara n'obe
+U097	Ndenye mebiri emebi
+U098	Mbipụta FAT abụọ dị iche
+U099	Enweghị njehie.
+U100	Achọtara njehie. Rụzie ha?
+U101	Arụziri (edoziri nọmba dị n'elu).
+U102	Enweghị ike ilele ma ọ bụ ịrụzi (S: na-arụ ọrụ).
+U103	[ Rụzie ]
+U104	[ Kagbuo ]
+U105	Igodo ọ bụla na-emechi
+U106	Ntọala
+U107	Asụsụ ngosi
+U108	Nhazi ahụigodo
+U109	Elu / Ala  Enter họrọ  ESC kagbuo
+U110	Asụsụ ngosi
+U111	Elu / Ala  Enter: tọọ  ESC: laghachi
+U112	Kpọchie %c: dị ka mkpụrụedemede ole? (A-Z ewezuga S. ESC kagbuo)
+U113	Draịvụ  mkpụrụ / Enter họrọ  F2 kpọchie/meghee  F3 kpọchie dị ka...  L / ESC kagbuo
+U114	  nkebi %u
+U115	%c:* (kpọchiri, ejikọghị) %04X:%04X%s  %s
+U116	Ọkwa
+U117	Draịvụ %c:  %s
+U118	Draịvụ  (ọ dịghị)
+U119	CD ụda  egwu %u
+U120	Nchekwa %u  faịlụ %u  ngụkọta %s
+U121	Na-agụ...
+U122	* akara %u  %s
+U123	baịtị %lu
+U124	Njirimara %s   gbanwere %s   kere %s   %s
+U125	Ụka
+U126	Mọn
+U127	Tiu
+U128	Wen
+U129	Tọs
+U130	Fraị
+U131	Sat
+U132	Etọbeghị elekere (NTP site na LAN)
+U133	FB  ngosi %u  ide %u
+U134	1 Enyem
+U135	2 Rụọ
+U136	3 Detuo
+U137	4 Hichap
+U138	5 Aha
+U139	7 HichFB
+U140	8 BelFB
+U141	9 Draịvụ
+U142	10 EP
+U143	11 Elek
+U144	12 CALC
+U145	1 Njiri
+U146	2 Ozi
+U147	3 Bughar
+U148	5 Nchek
+U149	6 Shell
+U150	8 Dezie
+U151	9 Lee
+U152	10 S:lel
+U153	11 TRACK
+U154	12Malite
+U155	1 Ọhụrụ
+U156	2 Nchek
+U157	3 Aha
+U158	4 Njiri
+U159	6 Detuo
+U160	7 Bughar
+U161	8 Hichap
+U162	9 Dezie
+U163	10 mrbc
+U164	11 Kewaa
+U165	12 Jikọ
+U166	1 Njiri
+U167	2 FB
+U168	3 Edere
+U169	5 Foto
+U170	6 Ibe
+U171	9 ZMnata
+U172	10ZMziga
+U173	2 HichFB
+U174	3 BelFB
+U175	5 Ọzọ
+U176	7 Hex
+U177	9 Ikike
+U178	11 Ntọa
+U179	Tọọ elekere (oge Japan. NTP enweghị ike ịtọ ya)
+U180	Rụọ ya na paramita
+U181	Nchekwa ọhụrụ
+U182	Faịlụ ọhụrụ
+U183	Oge:
+U184	Rụọ:
+U185	Aha:
+U186	YYYY-MM-DD hh:mm  Enter tọọ  ESC hapụ ya
+U187	Enter rụọ  <-> bugharịa  BS / Del hichapụ  ESC kagbuo
+U188	Enter gụgharịa aha  <-> bugharịa  BS / Del hichapụ  ESC kagbuo
+U189	Enter mepụta  <-> bugharịa  BS / Del hichapụ  ESC kagbuo
+U190	Hichapụ
+U191	 ihe
+U192	A ga-ehichapụ nchekwa ya na ihe dị n'ime ha. Ị ji n'aka?
+U193	Hichapụ faịlụ a?
+U194	(Enweghị ike ịghaghachi nke a. A ga-ehichapụkwa faịlụ dị na nchekwa)
+U195	[ Ee (Y) ]
+U196	[ Mba (N) ]
+U197	ihe nlele hex: họrọ faịlụ
+U198	ihe nlele ederede: họrọ faịlụ
+U199	Bugharịa gaa
+U200	Detuo gaa
+U201	Ebe nchekwa nwa oge juru
+U202	Draịvụ bụ ọgụgụ naanị
+U203	Enweghị ike ịchekwa (enweghị onye ode)
+U204	Enweghị ike ịmalite ịchekwa (draịvụ na-arụ ọrụ?)
+U205	Na-echekwa...
+U206	2 Chekwa
+U207	5 Agba
+U208	6 Hira
+U209	7 Kata
+U210	8 Buru
+U211	10 Pụọ
+U212	1 Elu
+U213	2 Njede
+U214	3 Tinye
+U215	4 Okwu
+U216	6 HHira
+U217	7 HKata
+U218	 %s  %s  Ahịrị %lu/%lu Ogidi %u  %s  %s %s%s%s
+U219	*gbanwere
+U220	ELU
+U221	TINYE
+U222	  Ọgụgụ naanị
+U223	 Edezi (sgnano edit)                         F1 / ESC na-emechi
+U224	 Akụ / Home End / PgUp PgDn  bugharịa cursor
+U225	 Ctrl-T / Ctrl-B               mmalite / njedebe faịlụ
+U226	 BS / Del                      hichapụ tupu / n'ebe cursor dị
+U227	 Enter                         ahịrị ọhụrụ (na-edebe ntinye)
+U228	 Tab / Ins                     tab / tinye ma ọ bụ dee n'elu
+U229	 F5                            Agba (site na ndọtị; C/C++, mruby, MicroPython, SG BASIC, ọ dịghị)
+U230	 F2  (Ctrl-S)                  chekwaa (UTF-8, njedebe ahịrị na-anọgide)
+U231	 F10 / ESC                     mechie (na-ajụ ma ọ bụrụ na agbanwere)
+U232	 IME:  Ctrl-Space / F12        gbanye / gbanyụọ (あ / A)
+U233	       F9                      asụsụ IME (edezi a naanị; a na-eweghachi ya mgbe emechiri)
+U234	       F8 Gbanye/gbanyụọ ntụgharị amụma Japanese
+U235	       Japanese                romaji -> hiragana (F6) / katakana (F7)
+U236	                               Hiragana ọkara obosara (Shift+F6) / katakana ọkara obosara (Shift+F7)
+U237	                               Buru amụma site na mkpụrụ 2 ma ọ bụ karịa, tụgharịa nkebi ahịrịokwu na Space
+U238	       Bekee: mmecha amụma site na mkpụrụ 2 ma ọ bụ karịa
+U239	       한국어 Hangul nhazi 2
+U240	       Space / Enter Tụgharịa / Kwado
+U241	       ← → Họrọ nkebi ahịrịokwu
+U242	       Shift+← → Belata/gbatịa njedebe aka nri nke nkebi otu mkpụrụ (nhọrọ ọhụrụ)
+U243	       ↑ ↓ / Tab               Nhọrọ gara aga / na-esote na windo (n'okpuru ederede, n'elu ma ọ dị nso n'ala)
+U244	       Enter na →→→            Nhọrọ niile (2 x 8, ← → ogidi na ibe, Enter họrọ)
+U245	       Enter                   Nkebi na-esote (na nke ikpeazụ, kwado ha niile)
+U246	       Ctrl-U Tinye okwu a na akwụkwọ ọkọwa okwu onye ọrụ
+U247	 Shift+F1 / F2 / F3 / F4       Mmalite / njedebe / tinye-dee n'elu / na akwụkwọ ọkọwa okwu onye ọrụ
+U248	       BS / ESC Laghachi otu mkpụrụ / Kagbuo
+U249	       , . - [ ] /             、 。 ー 「 」 ・
+U250	Agbanwere  Y: chekwaa wee mechie  N: mechie n'echekwaghị  ESC: laghachi
+U251	[Amụma] Tab/↑↓: nhọrọ  Space: tụgharịa  Esc: kagbuo
+U252	[Nhọrọ] ↑↓: họrọ  ←→: ogidi/ibe  Enter: were
+U253	[Tụgharịa] ↑↓nhọrọ ←→nkebi Shift+←→oke Enter ọzọ
+U254	[한국어] Tab/↑↓: nhọrọ  Enter/Space: kwado
+U255	[English] Tab/↑↓: nhọrọ  Enter: kwado
+U256	Ntinye Hangul nhazi 2  Ctrl-Space: mkpụrụ na nọmba
+U257	Mmecha amụma  Ctrl-Space: ntinye ozugbo
+U258	Enweghị akwụkwọ ọkọwa okwu: hiragana/katakana naanị  F6/F7
+U259	Space: tụgharịa  F7: katakana  Ctrl-Space: mkpụrụ na nọmba
+U260	Space: tụgharịa  F6: hiragana  Ctrl-Space: mkpụrụ na nọmba
+U261	Ọkara obosara  F6: hiragana  F7: katakana  Shift+F6/F7: ọkara
+U262	IME gbanyụrụ
+U263	 amụma
+U264	Ntụgharị amụma Japanese: Gbanyere
+U265	Ntụgharị amụma Japanese: Gbanyụrụ
+U266	Jiri ya na IME Japanese
+U267	Enweghị ike itinye na akwụkwọ ọkọwa okwu onye ọrụ
+U268	Agba: %s
+U269	Na-ebubata...
+U270	Enweghị ike ịgụ faịlụ ahụ
+U271	ahịrị %lu%s%s
+U272	  emepere Shift_JIS dị ka UTF-8 (a na-echekwa dị ka UTF-8)
+U273	  ọgụgụ naanị
+U274	Echekwara
+U275	Enweghị ike ịchekwa (ide dara)
+U276	Nhọrọ
+U277	7 IbeD
+U278	9 Edere
+U279	9 Hex
+U280	Na-ebubata %lu%%
+U281	(mmalite naanị)
+U282	Hex  q ESC: laghachi  F1: enyemaka
+U283	Ederede  q ESC: laghachi  F1: enyemaka
+U284	Igodo ihe nlele (dị ka less; otu ihe maka ederede na hex)
+U285	Otu ahịrị ala
+U286	Otu ahịrị elu
+U287	Otu ibe ala
+U288	Otu ibe elu
+U289	Ọkara ibe ala / elu
+U290	/ederede  ?ederede
+U291	Chọọ ala / elu (anaghị elebara nnukwu mkpụrụ anya)
+U292	Ndakọrịta na-esote / gara aga
+U293	Gosi dị ka hex (n'otu ebe)
+U294	Gosi dị ka ederede (n'otu ebe)
+U295	Gbanwee agba (C/C++, mruby, MicroPython, SG BASIC, ọ dịghị)
+U296	Gosi / zoo FB / ederede
+U297	Ibe ngosi / ibe ide FB
+U298	Laghachi na njikwa faịlụ
+U299	Mechie enyemaka a
+U300	Detuo
+U301	 %s: na-agụ nchekwa... %u
+U302	 %s: na-agụ ohere efu n'ebe ọ ga-aga...
+U303	 %s: ohere efu ezughị n'ebe ọ ga-aga
+U304	 Bugharịa: na-ewepụ nchekwa isi mmalite
+U305	Emechara
+U306	Akwụsịrị
+U307	 %s na-aga n'ihu%s
+U308	 (na-akwụsị)
+U309	 Site na: %s
+U310	 Gaa: %s
+U311	 Faịlụ %u / %u  nchekwa %u  %s / %s  (%u%%)%s
+U312	  ha dị ukwuu: ụfọdụ naanị
+U313	 Achọrọ %s, efu %s. Gaa n'ihu?
+U314	 Y: gaa n'ihu   N / ESC: kagbuo
+U315	 Pịa igodo ọ bụla imechi
+U316	 ESC: kwụsị
+U317	 %s: ←→ draịvụ  ↑↓ nchekwa  Space mepee/mechie  Enter họrọ  ESC kagbuo
+U318	 Enweghị ike ịgụ: %s
+U319	 Na-agụ nchekwa... (ESC na-akwụsị)  %u
+U320	 nchekwa %u%s
+U321	 (ha dị ukwuu ma ọ bụ miri emi: ụfọdụ naanị)
+U322	Akwụsịrị imepe nchekwa
+U323	Space na-emeghe ya ọzọ. ESC ọzọ na-akagbu
+U324	 Ihe ọkpụkpọ SMF / SGT   %s
+U325	 Na-ebubata... %lu / %lu baịtị
+U326	 %s / %s   %s   ọdụ %u
+U327	Akwụsịtụrụ
+U328	Na-akpọ
+U329	 Space: kwụsịtụ  m: MIDI OUT  q / ESC: kwụsị
+U330	 q / ESC: kagbuo
+U331	Ikikere na ekele ROM mkpụrụedemede\n\nROM: %s (ụdị %lu.%lu, mkpụrụ %lu, site na 0x%08lX na flash)\n\n
+U332	== Mkpụrụedemede dị na ROM (tebụl mmalite ROM) ==\n
+U333	  (ROM enweghị tebụl)\n
+U334	\n== Mpaghara ekele ROM ==\n\n
+U335	(ọ dịghị mpaghara dị otu a)\n
+U336	\n== Ikikere ngwanrọ dị n'ime ==\n
+U337	 Na-echekwa %s dị ka PNG   %s
+U338	Ihuenyo
+U339	 Na-ewu... ahịrị %lu / %lu
+U340	 Na-ede... %lu / %lu KB (FB zoro ezo)
+U341	Enweghị ike ide
+M001	draịvụ apụọla
+M002	na-agụ nkebi ọzọ...
+M003	enweghị ike imepe olu (ebe nchekwa ezughị?)
+M004	na-emepe olu...
+M005	ebe nchekwa ezughị maka ndepụta faịlụ
+M006	na-agụ nchekwa... (na-anwa ọzọ)
+M007	enweghị ike ịgụ nchekwa
+M008	na-agụ nchekwa...
+M009	draịvụ azaghị -- na-agụ nkebi ọzọ
+M010	enweghị ike ịgụ nchekwa (ọ bụghị FAT12/16/32?)
+M011	ndenye dị ukwuu -- na-egosi nke mbụ
+M012	enweghị sistemụ faịlụ na nkebi a
+M013	ụzọ dị ogologo nke ukwuu
+M014	na-ejikọta...
+M015	na-ekewa...
+M016	na-agụgharịa aha...
+M017	na-emepụta nchekwa...
+M018	na-emepụta faịlụ...
+M019	na-ehichapụ...
+M020	na-ede njirimara...
+M021	draịvụ na-arụ ọrụ
+M022	na-arụ ọrụ
+M023	họrọ faịlụ ma ọ bụ nchekwa
+M024	họrọ faịlụ ma ọ bụ nchekwa (ọ bụghị "..")
+M025	buru ụzọ kwụsị CD
+M026	enweghị ike ịgbanwe CD (detuo kama)
+M027	enweghị ike ibugharị nchekwa sistemụ
+M028	enweghị draịvụ a ga-ede na ya (FAT / exFAT / NTFS naanị)
+M029	draịvụ adịghịzi
+M030	ọ dịghị ihe ahọrọ
+M031	ọ dịghị ihe ahọrọ
+M032	enweghị ike ịmalite
+M033	enweghị ike imepe
+M034	na draịvụ FAT / exFAT / NTFS naanị
+M035	enweghị aha
+M036	aha ahụ adịlarị
+M037	enweghị ike ịmalite (aha ọjọọ ma ọ bụ draịvụ na-arụ ọrụ)
+M038	enweghị ike ịmalite (draịvụ na-arụ ọrụ)
+M039	aha enweghị ike inwe / ma ọ bụ \\ (n'ime nchekwa a naanị)
+M040	aha bụ otu
+M041	ihe a bụ ọgụgụ naanị (A ịgbanwe)
+M042	họrọ faịlụ .rb na draịvụ a ga-ede na ya
+M043	họrọ faịlụ .rb
+M044	draịvụ bụ ọgụgụ naanị
+M045	họrọ nchekwa na draịvụ a ga-ede na ya
+M046	chere ntakịrị
+M047	họrọ faịlụ
+M048	họrọ faịlụ (ọ bụghị nchekwa)
+M049	họrọ faịlụ .001
+M050	họrọ faịlụ .001 ahụ
+M051	tinye IWAD na nchekwa DoomFiles ma ọ bụ Doom2Files
+M052	DoomFiles na-anabata freedoom1 / doom / doomu / doom1.wad
+M053	Doom2Files na-anabata freedoom2 / doom2 / plutonia / tnt.wad
+M054	tinye faịlụ egwuregwu na nchekwa mpụga, ọ bụghị S:
+M055	IWAD ga-adị na draịvụ FAT / exFAT / NTFS (ọ bụghị CD)
+M056	ka na-arụ ọrụ
+M057	foto na-ebubata
+M058	enweghị framebuffer
+M059	mbelata ìhè ọkara na-arụ ọrụ na RGB555 naanị
+M060	na-ehichapụ...
+M061	na-ebelata ìhè ọkara...
+M062	nke ahụ bụ egwu data
+M063	chere -- a na-ede faịlụ
+M064	draịvụ floppy / LS-120 / CD naanị
+M065	arịọrọ
+M066	na-agụ diski...
+M067	na-akwụsị...
+M068	na-emepe...
+M069	emechara
+M070	ebe nchekwa ezughị
+M071	emeghelarị
+M072	na-arụlarị ọrụ
+M073	na-echekwalarị
+M074	na-akpọlarị
+M075	enweghị draịvụ dị otu a
+M076	enweghị PSRAM
+M077	PSRAM ezughị maka faịlụ
+M078	PSRAM ezughị maka ndeksi ahịrị
+M079	PSRAM ezughị maka tamịnalụ
+M080	ebe nchekwa ezughị (PSRAM)
+M081	ebe nchekwa ezughị (SRAM 32KB)
+M082	ebe nchekwa ezughị maka ebe nchekwa nwa oge
+M083	ebe nchekwa ezughị maka ebe nchekwa foto
+M084	ebe nchekwa ezughị maka ebe nchekwa ọgụgụ
+M085	enweghị ohere maka ebe nchekwa ọrụ (mechie lowres?)
+M086	enweghị ibe framebuffer
+M087	ọ buru ibu nke ukwuu (MB 4 kacha)
+M088	faịlụ buru ibu nke ukwuu (MB 1 kacha)
+M089	faịlụ buru ibu nke ukwuu (MB 1 kacha)
+M090	ọ buru ibu nke ukwuu maka SMF (MB 1 kacha)
+M091	faịlụ ahụ efu
+M092	enweghị ike imepe faịlụ ahụ
+M093	enweghị ike ịgụ faịlụ ahụ
+M094	enweghị ike imepe olu
+M095	enweghị ike imepe ebe ọ ga-aga (ebe nchekwa ezughị?)
+M096	enweghị ike ịgụ nchekwa mgbọrọgwụ
+M097	enweghị ike ịmalite ọrụ ahụ
+M098	enweghị ike ịmalite ide (aha ọjọọ ma ọ bụ na-arụ ọrụ)
+M099	olu ọzọ meghere (na-arụ ọrụ)
+M100	ndetuo na-aga n'ihu
+M101	nchekwa enweghị ike ịbanye n'ime onwe ya
+M102	nke ahụ bụ otu nchekwa ahụ
+M103	enweghị ike ịgbanwe draịvụ a (ọgụgụ naanị)
+M104	enweghị ike ide na draịvụ
+M105	nha akụkụ ga-abụ ọtụtụ nke 512
+M106	anaghị akwado faịlụ GB 4 ma ọ bụ karịa
+M107	ụzọ ọjọọ
+M108	aha faịlụ ọjọọ
+M109	ROM mkpụrụedemede adịghị
+M110	emepeghị ụda
+M111	enweghị ọwa dị otu a
+M112	onye nhazi usoro na-arụ ọrụ
+M113	PSRAM ezughị maka egwu
+M114	ọ bụghị faịlụ MIDI ọkọlọtọ (enweghị MThd)
+M115	enweghị egwu
+M116	otu egwu mebiri (MTrk)
+M117	anaghị akwado nkewa oge SMPTE
+M118	anaghị akwado SMF ụdị 2 (0 na 1 naanị)
+M119	ọ bụghị draịvụ Bulk-Only
+M120	ọ bụghị draịvụ anya
+M121	enweghị ike ihichapụ ma ọ bụ ịgụgharịa aha nchekwa sistemụ
+M122	enweghị diski na draịvụ
+M123	na-adị njikere
+M124	adịghị njikere
+M125	agbanwere diski
+M126	njehie diski
+M127	arịrịọ na-ezighị ezi
+M128	ndenye nchekwa ọjọọ
+M129	nchekwa n'ụzọ adịghị
+M130	faịlụ nwere aha ahụ
+M131	nchekwa nwere aha ahụ
+M132	aha n'ụzọ abụghị nchekwa
+M133	akagbuola
+M134	enweghị ike ịrịgo
+M135	enweghị ike ịmalite ọgụgụ
+M136	enweghị ike ịmalite ide
+M137	bụ nchekwa
+M138	nke ahụ bụ nchekwa
+M139	enweghị klọsta
+M140	enweghị ohere maka ndepụta klọsta
+M141	enweghị faịlụ ma ọ bụ nchekwa dị otu a
+M142	enweghị faịlụ dị otu a
+M143	enweghị olu
+M144	ọ bụghị NTFS
+M145	ọ bụghị exFAT
+M146	ọ bụghị nchekwa
+M147	achọtaghị
+M148	njehie ọgụgụ
+M149	njehie ide
+M150	ịgụ FAT dara
+M151	yinye klọsta dị mkpụmkpụ karịa faịlụ
+M152	nchekwa abụghị efu
+M153	diski juru
+M154	draịvụ azaghị
+M155	faịlụ bụ ọgụgụ naanị
+M156	faịlụ kewara nke ukwuu
+M157	faịlụ buru ibu nke ukwuu (GB 4)
+M158	aha ọhụrụ adịlarị
+M159	nchekwa mgbọrọgwụ juru
+M160	faịlụ dị ukwuu nwere otu aha mkpụmkpụ
+M161	Enweghị faịlụ ma ọ bụ nchekwa dị otu a
+M162	Faịlụ adịlarị
+M163	Ajụrụ ikike
+M164	Nchekwa abụghị efu
+M165	Ọ bụghị nchekwa
+M166	Bụ nchekwa
+M167	Sistemụ faịlụ ọgụgụ naanị
+M168	Ohere afọghị na ngwaọrụ
+M169	Njehie ntinye/mwepụta
+M170	Anaghị akwado ya na draịvụ a
+M171	Ụzọ na-ezighị ezi
+M172	Ebe nchekwa agwụla
+M173	Enweghị draịvụ dị otu a
+M174	akwụsịrị
+M175	akagbuola (ohere efu ezughị)
+M176	enweghị ike ịgụ ohere efu
+M177	onye nnata kagbuo
+M178	enweghị onye nnata (rụọ rz na PC)
+M179	a na-eji UART njikwa
+M180	ọnọdụ ihuenyo gbanwere
+M181	ahịrị abịaghị (ngosi ọ na-arụ ọrụ?)
+M182	detuo
+M183	bugharịa
+M184	hichapụ
+M185	gụgharịa aha
+M186	njirimara
+M187	faịlụ ọhụrụ
+M188	nchekwa ọhụrụ
+M189	foto
+M190	mrbc
+M191	ruby
+M192	ihe nlele
+M193	dezie
+M194	IDENTIFY
+M195	ZMODEM
+M196	ZMODEM nata
+M197	ZMODEM ziga
+M198	kewaa
+M199	jikọta
+M200	Doom
+M201	SMF
+M202	CD
+M203	FB
+M204	Wepụta
+M205	malitegharịa
+M206	ikikere
+M207	elekere
+M208	ADC ntinye
+M209	ihuenyo -> PNG
+M210	FB -> PNG
+M211	enweghị ike imepe olu
+M212	natara %s
+M213	zigara %s
+M214	chekwara %s
+M215	mepụtara %s
+M216	gụgharịrị aha ka ọ bụrụ %s
+M217	hichapụrụ %s
+M218	gbanwere %s
+M219	jikọtara %s
+M220	kewara %s
+M221	enweghị ike imepụta %s
+M222	enweghị ike ihichapụ %s
+M223	enweghị ike ịgụgharịa aha ka ọ bụrụ %s
+M224	enweghị ike ịgbanwe %s
+M225	enweghị ike ịgụ %s
+M226	enweghị ike ide %s
+M227	enweghị ike idetuo %s
+M228	enweghị ike ime %s
+M229	enweghị ike iwepụ nchekwa %s
+M230	enweghị ike iwepụ %s
+M231	ebe nchekwa ezughị maka %s
+M232	njehie dị ukwuu mgbe a na-eziga %s
+M233	onye nnata anataghị %s
+M234	onye nnata wụfere %s
+M235	Ibe FB %s
+M236	 baịtị nke ọ bụla)
+M237	 baịtị)
+M238	 KB)
+M239	 akụkụ gaa
+M240	 akụkụ (
+M241	 gaa
+M242	: ehichapụla
+M243	: ebelatala ìhè ọkara
+M244	% agụrụ
+M245	 ahịrị
+M246	 -- akwadobeghị ya (FAT / exFAT / NTFS naanị)
+M247	 faịlụ
+M248	 (
+M249	Enweghị aha
+M250	1 Faịlụ
+M251	2 Dezie
+M252	3 Eserese
+M253	4 Mpempe
+M254	5 Enyemaka
+M255	EFU
+M256	NỌMBA
+M257	EDEREDE
+M258	USORO
+M259	Pịa ka itinye, F2 ka idezi, F1 maka enyemaka
+M265	Dị njikere
+M267	Pịa igodo ọ bụla
+M268	Y = ee    N = mba    Esc = kagbuo
+M269	Enter = Ọ dị mma    Esc = kagbuo    Ctrl-U = hichapụ
+M270	Ahịrị/ogidi mbụ = akara; eserese na-eji FB CLUT8 640x480.
+M271	SGCALC - ENYEMAKA
+M272	Pịa igodo ọ bụla ịlaghachi
+M273	Pịa igodo ọ bụla ịlaghachi.
+M274	GBASARA SGCALC
+M275	Ọhụrụ
+M276	Malite mpempe ọhụrụ
+M277	Mepee...
+M278	Mepee faịlụ ODS, FODS ma ọ bụ CSV
+M279	Chekwaa
+M280	Chekwaa faịlụ a
+M281	Chekwaa dị ka...
+M282	Chekwaa na aha ma ọ bụ ụdị ọhụrụ
+M283	Bupụ CSV...
+M284	Dee mbipụta CSV
+M285	Bupụ ODS...
+M286	Dee mbipụta LibreOffice
+M287	Pụọ
+M288	Hapụ SGCALC
+M289	Hichapụ
+M290	Hichapụ sel ahọrọ
+M291	Detuo
+M292	Detuo nhọrọ
+M293	Mado
+M294	Mado n'ebe cursor dị
+M295	Bepụ
+M296	Detuo wee hichapụ nhọrọ
+M297	Họrọ niile
+M298	Họrọ sel niile ejiri
+M299	Agba ederede...
+M300	Họrọ agba ederede
+M301	Azụ...
+M302	Họrọ azụ sel
+M303	Ahịrị
+M304	See eserese ahịrị site na nhọrọ
+M305	Mkpanaka
+M306	See eserese mkpanaka site na nhọrọ
+M307	Agwakọta
+M308	Mkpanaka maka usoro mbụ, ahịrị maka ndị ọzọ
+M309	Achịcha
+M310	See eserese achịcha site na nhọrọ
+M311	Mpaghara...
+M312	Tọọ mpaghara eserese n'ụzọ doro anya
+M313	See ọzọ
+M314	See eserese ikpeazụ ọzọ
+M315	Gaa...
+M316	Wụlie gaa na sel (dịka C12)
+M317	Obosara ogidi...
+M318	Gbanwee obosara ogidi ahọrọ
+M319	Ịdị elu ahịrị...
+M320	Gbanwee ịdị elu ahịrị ahọrọ
+M321	Dabaa onwe ya
+M322	Dabaa obosara/ịdị elu na ihe dị n'ime (F7)
+M323	Gbakọọ ọzọ
+M324	Nyochaa usoro niile ọzọ
+M325	Hichapụ niile
+M326	Hichapụ mpempe niile
+M327	Igodo
+M328	Gosi nduzi igodo
+M329	Gbasara
+M330	Gbasara SGCALC
+M331	Faịlụ
+M332	Dezie
+M333	Eserese
+M334	Mpempe
+M335	Enyemaka
+M336	Faịlụ: ọhụrụ, mepee, chekwaa, bupụ, pụọ
+M337	Dezie: hichapụ, detuo, mado, bepụ, họrọ niile
+M338	Eserese: ahịrị, mkpanaka, agwakọta, achịcha (a na-ese na FB)
+M339	Mpempe: gaa, obosara ogidi, gbakọọ ọzọ, hichapụ
+M340	Enyemaka: igodo na gbasara
+M341	Aka ekpe/Aka nri = menu    Elu/Ala = ihe    Enter = họrọ    Esc = kagbuo
+M342	Akagbuola
+M343	Nhọrọ buru ibu nke ukwuu ma ọ bụ ebe nchekwa dị ala.
+M344	sel ahụ
+M345	nhọrọ ahụ
+M346	Ọ dịghị ihe a ga-emado
+M347	Emadoro
+M348	GAA NA SEL
+M349	Ntụaka sel (A1):
+M350	Gaa
+M351	OBOSARA OGIDI
+M352	Obosara na mkpụrụ (4..30):
+M353	ỊDỊ ELU AHỊRỊ
+M354	Ịdị elu na ahịrị ederede (1..8):
+M355	Dabaa onwe ya: mpempe efu
+M356	AGBA AZỤ
+M357	AGBA EDEREDE
+M358	Akụ: họrọ    Enter: tinye    Esc: kagbuo
+M359	Nọmba agba (agba 16 PC-98)
+M361	Enter = tinye    Esc = kagbuo
+M362	Agba
+M363	Azụ
+M364	Ederede
+M365	MPAGHARA ESERESE
+M366	Mpaghara (dịka A1:C10):
+M367	Mpaghara eserese
+M368	Jiri mpaghara dị ka A1:C10.
+M369	Enweghị ike ịse eserese.
+M370	ahịrị
+M371	mkpanaka
+M372	agwakọta
+M373	achịcha
+M374	Hichapụ sel ọ bụla na mpempe a?
+M375	Ehichapụla mpempe
+M376	Ahọrọla sel niile ejiri
+M377	Agbakọọla ọzọ
+M378	Ebe nchekwa
+M379	PSRAM ezughị maka mpempe mgbakọ.
+M380	Mpempe ahụ efu.
+M381	Enweghị data nọmba na mpaghara ahọrọ.
+M382	Ndị ọzọ
+M383	Enweghị uru dị mma maka eserese achịcha
+M384	AHỊRỊ
+M385	MKPANAKA
+M386	AGWAKỌTA
+M387	ACHỊCHA
+M389	Nchekwa
+M390	CHEKWAA DỊ KA
+M391	MEPEE FAỊLỤ
+M394	Aha:
+M395	(dee aha, ma ọ bụ họrọ n'okpuru)
+M396	Aha
+M397	Nha
+M398	Enter=chekwaa  Aka ekpe=elu  Aka nri/Enter na [DIR]=mepee  Tab=draịvụ  Esc=kagbuo
+M399	Enter=mepee  Aka ekpe=elu  Aka nri/Enter na [DIR]=mepee  Tab=draịvụ  Esc=kagbuo
+M400	Ebe nchekwa ezughị.
+M401	Dee n'elu
+M402	Mepee
+M403	Faịlụ buru ibu nke ukwuu (oke MB 8).
+M404	Ebe nchekwa ezughị ịgụ faịlụ ahụ.
+M405	Data ZIP/ODS ọjọọ.
+M406	Njehie CRC na faịlụ ODS.
+M407	Faịlụ anaghị akwado ma ọ bụ mebiri emebi.
+M408	Echekwara
+M409	Ebupụtara
+M410	Mgbanwe echekwaghị
+M411	Chekwaa mpempe a tupu ịga n'ihu?
+M412	Mpempe ọhụrụ
+M415	egwu buru ibu nke ukwuu
+M416	faịlụ efu
+M417	ọ bụghị faịlụ SGT
+M418	BPM ọjọọ
+M419	ọsọ ọjọọ
+M420	ogologo aha ọjọọ
+M421	aha egbubiri
+M422	mkpụrụ ọjọọ n'aha
+M423	usoro egbubiri
+M424	ogologo usoro ọjọọ
+M425	nọmba patern ọjọọ n'usoro
+M426	ndepụta patern egbubiri
+M427	ọnụ ọgụgụ patern ọjọọ
+M428	ndeksi patern ọjọọ
+M429	patern abụọ
+M430	data patern egbubiri
+M431	data patern na-ezighị ezi
+M432	data fọdụrụ na njedebe faịlụ
+M433	usoro na-ezo aka na patern na-adịghị
+M435	(enweghị aha)
+M436	Dị njikere. Pịa F1 maka enyemaka.
+M437	Soro GBANYỤỌ
+M438	Ọ dịghị ihe a ga-eweghachi
+M439	Weghachi
+M440	Kwụsị ụda
+M441	Buru ụzọ tọọ mkpụrụ mmetụta
+M442	Ehichapụla mmetụta
+M443	Ehichapụla paramita
+M444	Ehichapụla ụda
+M445	Ehichapụla ngwa egwu
+M446	Ehichapụla olu
+M447	Ndepụta usoro juru
+M448	Etinyela usoro
+M449	Enweghị ike ihichapụ usoro ikpeazụ
+M450	Ehichapụla usoro
+M451	Na-akpọ egwu
+M452	Akwụsịrị
+M453	Egwu ọhụrụ
+M454	Tụfuo mgbanwe echekwaghị wee malite egwu ọhụrụ? (Y/N)
+M455	Tụfuo mgbanwe echekwaghị wee mepee egwu? (Y/N)
+M456	Tụfuo mgbanwe echekwaghị wee pụọ? (Y/N)
+M457	Emelitere ntọala egwu
+M458	Aha faịlụ efu
+M459	Akagbuola ịchekwa
+M460	Akagbuola imepe
+M461	Dezie GBANYE
+M462	Dezie GBANYỤỌ
+M463	Soro GBANYE
+M464	Idezi gbanyụrụ. Pịa F8 ka idezi.
+M465	Njehie I/O
+M466	faịlụ buru ibu nke ukwuu
+M467	faịlụ egbubiri
+M495	#ỌKPỤKPỌ NA FAỊLỤ
+M496	#NDEPỤTA USORO
+M497	#NGOSI
+M498	#IDEZI
+M499	#MMETỤTA (paramita bụ hexadecimal)
+M500	AKA EKPE/AKA NRI IBE   ENTER MA Ọ BỤ F1 MECHIE
+M501	NTỌALA EGWU
+M502	ELU/ALA HỌRỌ   AKA EKPE/AKA NRI HAZIE   ENTER/F2 MECHIE
+M503	Pịa ka idezi aha. Backspace na-ehichapụ mkpụrụ ikpeazụ.
+M504	BPM 32..255. Ọsọ 1..31.
+M505	Mmetụta patern nwekwara ike ịgbanwe ọsọ na BPM mgbe ọ na-akpọ.
+M506	NGWA EGWU
+M507	ELU/ALA HỌRỌ   SPACE NỤRỤ   ENTER JIRI   F3 MECHIE
+M508	Ọwa anọ niile na-eji njikọ tebụl ebili.
+M509	Ọnụnụ mbụ na-akpọ C-4 na egwu dị n'okpuru cursor idezi.
+M510	CHEKWAA EGWU DỊ KA
+M511	ENTER CHEKWAA   F4 MA Ọ BỤ CTRL-C KAGBUO
+M512	Nchekwa:
+M513	Aha faịlụ:
+M514	A na-agbakwunye ndọtị .SGT n'onwe ya.
+M515	Enwere ike ide n'elu faịlụ dị adị.
+M516	MEPEE EGWU
+M517	ENTER MEPEE  BS ELU  CTRL-O/CTRL-C KAGBUO
+M518	(enweghị faịlụ .SGT na nchekwa a)
+M519	KWADO
+M520	Y = EE   N / ENTER / CTRL-C = MBA
+M521	Y = ee        N = mba
+M536	MThd mebiri
+M537	MBUBATA MIDI
+M539	oge delta mebiri
+M540	running status mebiri
+M541	ihe omume meta mebiri
+M542	ihe omume sysex mebiri
+M543	ihe omume ọwa mebiri
+M544	mwepụta SMF dị obere nke ukwuu
+M545	mwepụta SMF buru ibu nke ukwuu
+M546	egwu dị ogologo nke ukwuu maka SMF
+M557	AKỤ        bugharịa cursor sel\n
+M558	SHIFT+AKỤ  gbasaa nhọrọ (maka eserese/ndetuo)\n
+M559	ENTER       dezie sel; mgbe ị na-edezi, kwado wee gbadata\n
+M560	TAB         sel na-esote    SHIFT+TAB  sel gara aga\n
+M561	DELETE      hichapụ sel ahọrọ    ESC  kagbuo\n
+M562	PGUP/PGDN   otu ihuenyo    HOME/END  ogidi mbụ/ikpeazụ\n
+M563	CTRL+HOME   A1    CTRL+END  sel ikpeazụ ejiri\n
+M564	F1 enyemaka  F2 dezie  F3 detuo  F4 mado  F5 gaa  F6 agba\n
+M565	F7 dabaa  F8 azụ  F9 gbakọọ  F10 eserese  F11 chekwaa  F12 menu\n
+M566	SHIFT+F1 gbasara  SHIFT+F2 ịdị elu ahịrị  SHIFT+F3 obosara ogidi\n
+M567	SHIFT+F4 họrọ niile  SHIFT+F10 mpaghara eserese  SHIFT+F11 chekwaa dị ka\n
+M568	CTRL+F1 ọhụrụ  CTRL+F2 mepee  CTRL+F3 chekwaa  CTRL+F4 chekwaa dị ka\n
+M569	CTRL+F5 bupụ CSV  CTRL+F6 bupụ ODS  ALT+F12 pụọ\n
+M570	Ahịrị 2 dị n'ala: igodo ọrụ; [SHIFT]/[CTRL]/[ALT] dị ka njikwa faịlụ\n
+M571	CTRL+S chekwaa  CTRL+O mepee  CTRL+N ọhụrụ  CTRL+C/V/X detuo/mado/bepụ\n
+M572	CTRL+G gaa    /  mepee menu (1 Faịlụ, 2 Dezie, ...)\n
+M573	Ọrụ dị n'ime: SUM AVERAGE MIN MAX COUNT COUNTA\n
+M576	Ntụaka sel: A1, $A$1, A1:B10.  Usoro na-amalite na '='.\n
+M577	Faịlụ: .ods (LibreOffice), .fods (XML dị larịị), .csv\n
+M578	ODS/FODS na-edebe usoro, obosara, ịdị elu na agba.\n
+M579	CSV na-edebe uru na usoro (enweghị agba/ịdị elu).\n
+M580	Eserese: họrọ mpaghara, pịa F10, wee họrọ Ahịrị/Mkpanaka/Agwakọta/Achịcha.\n
+M581	SGCALC maka sgnano\n
+M582	Ụdị
+M583	Mpempe mgbakọ ụdị Lotus 1-2-3 dị ka mmemme SGX.\n\n
+M585	Ọnọdụ ihuenyo 3: ederede + FB CLUT8 (lowres gbanyụrụ)\n
+M586	Mpempe: ahịrị %d x ogidi %d\n
+M587	Ụdị: .ods / .fods (LibreOffice), .csv\n\n
+M588	A na-ese grid na ọkwa ederede.\n
+M589	Eserese na azụ 640x480 na-eji FB.\n\n
+M591	Enweghị ike ịchekwa sel (%d).
+M592	Edetuola sel %d x %d
+M593	Ehichapụla %s
+M594	'%s' abụghị ntụaka sel.
+M596	Obosara ogidi = %d
+M597	Ịdị elu ahịrị = %d
+M598	Dabaa onwe ya: ogidi %d, ahịrị %d
+M600	Enweghị ike itinye agba (%d).
+M602	Mpaghara na-ezighị ezi.\nJiri mpaghara dị ka A1:C10.
+M603	Mpaghara eserese %s
+M604	Eserese: %s
+M605	SGCALC: enweghị ike ịtọ ọnọdụ ihuenyo 3: %s\n
+M614	Enweghị ike ịgụ %s\n%s
+M615	Nchekwa: %s
+M623	Ndọtị anaghị akwado.\nJiri .csv, .ods ma ọ bụ .fods.
+M624	%s adịlarị.\nDee n'elu ya?
+M625	O nwere ike ọ gaghị ekwe ide na %s.\nNwaa n'agbanyeghị?
+M626	Amaghị ụdị faịlụ maka %s
+M627	Ụdị faịlụ anaghị akwado.\nJiri .csv, .ods ma ọ bụ .fods.
+M628	Enweghị ike imepe %s\n%s
+M629	%s bụ nchekwa.
+M630	Enweghị ike ibubata %s\n%s
+M631	Ebubatala %s
+M632	Enweghị ike iwu faịlụ %s.
+M633	Enweghị ike ide %s\n%s
+M635	ụdị %u anaghị akwado
+M637	Oktev %d
+M638	Ụda %s
+M639	Ngwa egwu %d
+M640	Olu %s
+M641	Mmetụta %c
+M642	Paramita %s
+M643	Patern %s
+M644	Na-akpọ patern %s
+M645	NJEHIE ỊCHEKWA: %s
+M646	Echekwara %s
+M647	NJEHIE MBUBATA: %s
+M648	BPM %d
+M649	Ọsọ %d
+M650	Ọnụnụ %s
+M651	Ngwa egwu %s %s
+M652	Dee n'elu %s? (Y/N)
+M676	  F5          Kpọọ egwu site n'usoro dị ugbu a
+M677	  F6          Kpọọ patern dị ugbu a
+M678	  F7/Ctrl-C   Kwụsị ọkpụkpọ
+M679	  Space       Kpọọ / kwụsị
+M680	  F4          Chekwaa dị ka
+M681	  Ctrl-S      Chekwaa (na-ajụ aha ma ọ bụrụ ọhụrụ)
+M682	  Ctrl-O      Mepee egwu
+M683	  Ctrl-N      Egwu ọhụrụ
+M684	  F12         Pụọ (na-ajụ ma ọ bụrụ na agbanwere)
+M685	  [ ]         Ndenye usoro gara aga / na-esote
+M686	  { }         Tinye / hichapụ ndenye usoro
+M687	  - +         Gbanwee patern na ndenye
+M688	  F11         Soro ọkpụkpọ (na-agbanyụ ma ị bugharịa n'aka)
+M689	  F1          Enyemaka; Aka ekpe/Aka nri na-agbanwe ibe
+M690	  F8          Gbanye/gbanyụọ ọnọdụ idezi
+M691	  Akụ         Bugharịa cursor
+M692	  PgUp/PgDn   Wụlie ahịrị 16
+M693	  Home/End    Ahịrị mbụ / ikpeazụ
+M694	  F9/F10      Oktev ala / elu
+M695	  Z S X D C V G B H N J M      ahịrị piano ala
+M696	  Q 2 W 3 E R 5 T 6 Y 7 U      ahịrị piano elu
+M697	  1           Kwụsị ụda
+M698	  0 / Del     0 na-ehichapụ ụda/ngwa/mmetụta; Del na-ehichapụ ihe ọ bụla
+M699	  Ctrl-Z      Weghachi ndezi patern/usoro ikpeazụ
+M700	  Axy   Mmịfe olu: elu x, ala y
+M701	  Cxx   Bepụ ụda mgbe tick xx gachara
+M702	  Dxx   Tọọ olu (00..7F)
+M703	  Fxx   Ọsọ ma xx < 20, ma ọ bụghị BPM
+M704	  Hxy   Arpeggio x, y ọkara ụda
+M705	  Pxx   Mmịfe ụda elu
+M706	  Qxx   Mmịfe ụda ala
+M707	  F2 ntọala egwu, F3 ndepụta ngwa egwu
+M708	ENYEMAKA %d/2
+M709	  Aha
+M711	  BPM   : %d     (aka ekpe/aka nri -1/+1, -/+ -5/+5)
+M712	  Ọsọ   : tick %d/ahịrị
+M713	  Ahịrị : %d (edoziri)
+M714	  Usoro : ndenye %d
+M715	  Patern a na-eji : %d
+M718	Ngwa egwu ugbu a: %s %s
+M722	Faịlụ: %d
+M726	SGNO TRACKER: SGX ABI adabaghị\n
+M727	Nlele S:: chere -- a na-agụ ma ọ bụ ede faịlụ
+M728	Nlele S:: draịvụ na-arụ ọrụ ma ọ bụ adịghị njikere
+M729	ọ dịghị ihe maka ihe a (ContextMenu.cfg)
+M730	iwu ọjọọ na ContextMenu.cfg
+M731	omume amaghị na ContextMenu.cfg
+M732	menu
+N001	5 Macro
+N002	6 Enyem
+N003	Rụọ nke a
+N004	Rụọ macro n'ebe cursor dị (sel isi #! na sel dị n'okpuru ya)
+N005	Rụọ nhọrọ
+N006	Rụọ sel ahọrọ dị ka otu macro (sel elu aka ekpe bụ isi #!)
+N007	Rụọ niile
+N008	Rụọ macro ọ bụla na mpempe, site n'elu aka ekpe ruo n'ala aka nri
+N009	Njehie ikpeazụ
+N010	Gosi njehie macro ikpeazụ
+N011	Macro
+N012	Macro: rụọ sel #!ruby / #!python / #!basic
+N013	Dezie sel (F2)
+N014	Dabaa obosara/ịdị elu na ihe dị n'ime
+N015	Njehie macro ikpeazụ
+N016	Enweghị njehie macro.
+N017	IME gbanyere
+N018	IME gbanyụrụ
+N019	Macro: %s %s ...
+N020	%s: firmware a enweghị ike ịrụ macro (SGX ABI 5.10 ma ọ bụ karịa)
+N021	Njehie macro: %s
+N022	Macro: %s emechara
+N023	macro na-arụlarị ọrụ
+N024	asụsụ a adịghị
+N025	ebe nchekwa ezughị
+N026	macro kwụsịrị n'ihi njehie
+N027	Njehie macro %s: %s
+N028	Macro: ebe nchekwa ezughị
+N029	Macro: cursor anọghị na macro (sel #!ruby / #!python / #!basic ma ọ bụ sel dị n'okpuru ya)
+N030	Macro: enweghị macro na mpempe
+N031	Rụọ macro niile
+N032	Macro: %d. Rụọ ha niile, site n'elu aka ekpe ruo n'ala aka nri? Enweghị ike ịghaghachi mgbanwe.
+N033	Macro: %d n'ime %d emechara
+N034	Ehichapụla sel ahụ
+N035	Ehichapụla nhọrọ ahụ
+N036	Agba azụ = %d
+N037	Agba ederede = %d
+N038	Eserese: ahịrị
+N039	Eserese: mkpanaka
+N040	Eserese: agwakọta
+N041	Eserese: achịcha
+N042	Ebupụtara %s

@@ -1,0 +1,45 @@
+# 2026-11-17: archive window, compress name field, WAV export window (machine translation, unreviewed)
+U342	Tên tệp nén (các mục đã đánh dấu, hoặc mục ở con trỏ nếu không có)
+U343	Enter nén  ←→ di chuyển  BS / Del xóa  ESC hủy
+U344	Xuất WAV: %s đã hủy (%s)
+U345	Xuất WAV: %s thất bại (%s)
+U346	Xuất WAV: %s tổng %s
+U347	 Xuất WAV (96kHz / 24bit): %s
+U348	Đã hủy
+U349	Thất bại
+U350	 Tổng %s
+U351	 Đã hủy (%s; đã xóa tệp dở dang)
+U352	 Không xuất được (%s). Lý do:
+U353	 (không rõ lý do)
+U354	 %u%%   đã qua %s%s
+U355	 ESC: dừng (tệp dở dang sẽ bị xóa)
+U356	Tệp nén: %s
+U357	Đang đọc... (ESC để hủy)
+U358	 %u mục%s  tổng %s byte  giải nén vào: %s
+U359	 Enter giải nén  X tất cả  ↑↓ di chuyển  ESC đóng
+U360	Nén
+U361	Danh sách
+U362	Giải nén
+U363	 Tổng %s   %u mục
+U364	 Tổng %s   %u tệp
+U365	 Đã hủy (%s; đã xóa tệp viết dở)
+U366	 Không làm được (%s): %s
+U367	 %u%%   đã qua %s   %s byte%s
+U368	 đã qua %s   %s byte%s
+U369	 ESC: dừng (tệp viết dở sẽ bị xóa)
+U370	Tệp nén: %s thất bại (%s)
+U371	Đã nén: %s (%u mục)
+U372	Đã giải nén: %s (%u tệp)
+# 2026-11-17: archive / compress messages (machine translation, unreviewed)
+M733	hãy chọn tệp hoặc thư mục
+M734	không ghi được vào ổ này
+M735	đang có việc nén/giải nén chạy
+M736	không đủ PSRAM cho việc nén/giải nén
+M737	không khởi động được việc nén/giải nén
+M738	quá nhiều mục (tối đa 32)
+M739	không có gì để nén
+M740	không có tên (hoặc tên có / hay \\)
+M741	tối đa 32 mục (đánh dấu ít hơn hoặc gom vào một thư mục)
+M742	tệp nén
+M743	nén
+M744	xuất WAV

@@ -1,0 +1,373 @@
+# az: machine translation (Google), unreviewed; 2026-11-17
+U001	Siyahı (2 sütun x 19 sətirdəki fayl və qovluqlar)
+U002	Kursoru hərəkət etdirin (sola / sağa: digər sütun)
+U003	Əvvəlki səhifə / sonrakı səhifə
+U004	Hamısını qeyd edin / işarələri çevirin (PC-98 FD-də olduğu kimi)
+U005	İlk / sonuncu
+U006	İşarələyin və davam edin / yalnız işarələyin
+U007	Shift+Oxlar
+U008	Aralığı seçin (Boşluq aralığı qeyd edir)
+U009	Qovluq daxil edin / faylı açın (F2/X işə salın)
+U010	Ana qovluğa qədər
+U011	Sürücü seçin (USB, disket, CD, S: daxili)
+U012	Kopyalayın (Shift+C / Shift+F3 ağacdan təyinatı seçir)
+U013	Hərəkət edin
+U014	Sil (Shift+D / Shift+F4 qovluğu silin)
+U015	Adını dəyişdirin
+U016	Atributları dəyişdirin
+U017	Redaktorda açın
+U018	Mətn kimi baxın (Shift+V / Ctrl+Alt+F7 hex)
+U019	Sürücü məlumatı
+U020	Yeni qovluq / yeni fayl
+U021	Shell sgsh / mühiti çıxarın
+U022	Yenidən yükləyin
+U023	Ekranı PNG olaraq qeyd edin
+U024	Pəncərəni bağlayın / seçimi silin (alt qovluqda: yuxarı qalxın)
+U025	Fayl əməliyyatları (FD-də olduğu kimi: işarələr, sonra diapazon, sonra kursor)
+U026	Kopyalayın: sürücü və qovluq ağacından təyinatı seçin. ESC dayanır
+U027	Sil: y ilə təsdiqləyin. Bir anda işarələr və diapazonlar. Məzmunu olan qovluqlar
+U028	Qovluğu silin (məzmunu ilə)
+U029	Adını dəyişdirin (adı redaktə edin, daxil edin)
+U030	Atributlar: R yalnız oxunur, H gizli, S sistemi, A arxivi
+U031	Yeni qovluq
+U032	Yeni (boş) fayl
+U033	Mətn kimi baxın (Shift+V / Ctrl+Alt+F7 hex)
+U034	Shell sgsh (çıxın / Ctrl-D fayla qayıdın)
+U035	Sürücünün şəxsiyyəti (SORUŞTUR, MÜƏYYƏN EDİN)
+U036	FDD / LS-120 / CD mühitini çıxarın
+U037	Siyahını yenidən yükləyin (CD: TOC-dan)
+U038	ZMODEM tərəfindən PC-dən alın (zm.sh put)
+U039	ZMODEM ilə PC-yə göndərin (zm.sh get)
+U040	.rb tərtib edin və .mrb yazın
+U041	Ruby REPL (hər dəfə bir sətir, Ctrl-D / ESC bitir)
+U042	MicroPython REPL
+U043	4 MB hissələrə bölün / .001-dən qoşulun
+U044	Bölün / birləşdirin (Ctrl+F11 / F12 ilə eyni)
+U045	Ekran (Alt+F, FD F düymələri ilə ziddiyyət təşkil etmir)
+U046	FB (şəkil) / mətni göstər / gizlət
+U047	FB ekran səhifəsi (0-3)
+U048	FB-ni 0-a qədər təmizləyin / parlaqlığını yarıya endirin (RGB555)
+U049	USB son nöqtələri və LAN vəziyyəti
+U050	FB ekran səhifəsini silin / parlaqlığını yarıya endirin
+U051	Mətn atribut nümunələri
+U052	Monitor EDID (yüklənərkən oxuyun)
+U053	Font ROM lisenziyaları və kreditləri
+U054	Parametrlər (ekran dili, IME və klaviatura dili)
+U055	Saat (Yaponiya vaxtı NTP tərəfindən təyin olunur; indi sinxronizasiya olunur)
+U056	Açıq cədvəl (SGCALC)
+U057	S: səhvləri yoxlayın (təmir etməzdən əvvəl soruşur)
+U058	TRACKER-i açın
+U059	Yenidən başladın (ilk soruşur)
+U060	ADC stereo girişini çalın (GP40 / 41)
+U061	VGM/VGZ-ni 96 kHz / 24 bit WAV-a ixrac edin
+U062	Bu kömək
+U063	Səhifəni dəyişdirin
+U064	Bağlayın
+U065	Mətn / hex görüntüleyici (daha az kimi)
+U066	Bir xətt
+U067	Bir səhifə
+U068	Yarım səhifə
+U069	Axtarış (irəli / geri) / sonrakı / əvvəlki
+U070	Siyahıya qayıt (F1: izləyicinin köməyi)
+U071	Şəkil izləyicisi
+U072	Siyahıya qayıt (F2 F3 F6 F7 Shift+F2 F3 iş)
+U073	Redaktor (E / Shift+F8)
+U074	Saxla (UTF-8; xətt bitir və BOM saxlanılır)
+U075	Bağlayın (əgər dəyişdirilərsə: Y / N / ESC)
+U076	Daxil et / üzərinə yaz
+U077	IME-ni yandır/söndür (Yapon/İngilis/Koreya)
+U078	IME dili (Yapon / İngilis / Koreya)
+U079	Hiraqana / katakana kimi qəbul edin
+U080	Redaktorun köməyi
+U081	Shell
+U082	Shell (csh alt çoxluğu. exit / qayıtmaq üçün Ctrl-D, kömək əmrləri siyahıya alır)
+U083	Siyahı və hərəkət
+U084	Fayl əməliyyatları
+U085	Ekran və cihazlar
+U086	İzləyicilər və redaktor
+U087	Kömək %u / %u %s
+U088	Sol Sağ: səhifəni dəyişdirin F1 / ESC: bağlayın
+U089	Sgnano yenidən başlasın?
+U090	[Yenidən başladın]
+U091	[ Ləğv et ]
+U092	S: sürücüsünü səhvlər üçün yoxlayın
+U093	Fayllar %lu qovluqlar %lu
+U094	Ölçü zəncirə uyğun gəlmir
+U095	Heç bir şey tərəfindən istifadə edilən klasterlər
+U096	Çapraz bağlı klasterlər
+U097	Qırılmış girişlər
+U098	İki FAT nüsxəsi fərqlidir
+U099	Səhv yoxdur.
+U100	Səhvlər tapıldı. Onları təmir etmək?
+U101	Təmir olunub (yuxarıdakı nömrələr düzəldilib).
+U102	Yoxlamaq və ya təmir etmək mümkün olmadı (S: məşğuldur).
+U103	[ Təmir ]
+U104	[ Ləğv et ]
+U105	İstənilən açar bağlanır
+U106	Parametrlər
+U107	Ekran dili
+U108	Klaviatura dili
+U109	Yuxarı / Aşağı Enter ESC ləğv seçin
+U110	Ekran dili
+U111	Yuxarı / Aşağı Daxil edin: ESC təyin edin: geri
+U112	Düzəlt %c: hansı hərf kimi? (S. ESC istisna olmaqla, A-Z ləğv edilir)
+U113	Sürücü məktubu / Daxil edin F2-ni seçin F3 hərfini düzəldin/açın... L / ESC ləğv edin
+U114	bölmə %u
+U115	%c:* (sabit, bağlı deyil) %04X:%04X%s %s
+U116	Xəbərdarlıq
+U117	Sürücü %c: %s
+U118	Sürücü (heç biri)
+U119	Audio CD %u treklər
+U120	Qovluqlar %u fayllar %u cəmi %s
+U121	Oxuyur...
+U122	* işarələnmiş %u %s
+U123	%lu bayt
+U124	Attr %s dəyişdirilmiş %s yaradılmış %s %s
+U125	Günəş
+U126	Bazar ertəsi
+U127	Çərşənbə axşamı
+U128	Çərşənbə
+U129	Cr
+U130	Cümə
+U131	şənbə
+U132	Saat təyin edilməyib (LAN üzərindən NTP)
+U133	FB ekranı %u yazın %u
+U134	1 Kömək
+U135	2 Qaçış
+U136	3 Kopyalayın
+U137	4 Del
+U138	5 Adını dəyişdirin
+U139	7 FBclr
+U140	8 FBdim
+U141	9 Sür
+U142	10 EP
+U143	11 Saat
+U144	12 KALK
+U145	1 Attr
+U146	2 Məlumat
+U147	3 Hərəkət edin
+U148	5 Mkdir
+U149	6 Qabıq
+U150	8 Redaktə edin
+U151	9 Baxış
+U152	10 S:çk
+U153	11 TREK
+U154	12 Yenidən başladın
+U155	1 Yeni
+U156	2 Qovluq
+U157	3 Adını dəyişdirin
+U158	4 Attrib
+U159	6 Kopyalayın
+U160	7 Hərəkət edin
+U161	8 Sil
+U162	9 Redaktə edin
+U163	10 mrbc
+U164	11 bölün
+U165	12 Qoşulun
+U166	1 Attr
+U167	2 FB
+U168	3 Mətn
+U169	5 ScrSht
+U170	6 DispPg
+U171	9 ZMrecv
+U172	10ZMgöndər
+U173	2 FBClr
+U174	3 FBDim
+U175	5 Yenidən yükləyin
+U176	7 Hex
+U177	9 Lic
+U178	11 Quraşdırma
+U179	Saatı təyin edin (Yaponiya vaxtı. NTP onu təyin edə bilmədi)
+U180	Parametrlərlə işləyin
+U181	Yeni qovluq
+U182	Yeni fayl
+U183	Vaxt:
+U184	Qaçış:
+U185	Adı:
+U186	YYYY-AA-GG ss:mm ESC saxlama dəstini daxil edin
+U187	Daxil edin run <-> hərəkət BS / Del sil ESC ləğv
+U188	Adını dəyişdirin <-> BS köçürün / Sil ESC ləğv edin
+U189	Daxil edin yaratmaq <-> hərəkət BS / Del sil ESC ləğv et
+U190	Sil
+U191	maddələr
+U192	Qovluqlar məzmunu ilə birlikdə silinir. əminsən?
+U193	Bu fayl silinsin?
+U194	(Bu, geri qaytarıla bilməz. Qovluqlardakı fayllar da silinir)
+U195	[ Bəli (Y) ]
+U196	[ Xeyr (N) ]
+U197	hex görüntüleyici: fayl seçin
+U198	mətn görüntüləyicisi: fayl seçin
+U199	-a köçürün
+U200	kopyalayın
+U201	Bufer doludur
+U202	Sürücü yalnız oxunur
+U203	Saxlamaq mümkün deyil (yazıçı yoxdur)
+U204	Yaddaşa başlamaq mümkün olmadı (sürücü məşğuldur?)
+U205	Yadda saxlanılır...
+U206	2 Saxla
+U207	5 Rəng
+U208	6 Hira
+U209	7 Kat
+U210	8 Pred
+U211	10 Çıxın
+U212	1 Üst
+U213	2 Son
+U214	3 InsOvr
+U215	4 Dikt
+U216	6 HHira
+U217	7 HKata
+U218	%s %s Ln %lu/%lu Col %u %s %s %s%s%s
+U219	*mod
+U220	OVR
+U221	INS
+U222	R/O
+U223	Redaktor (sgnano redaktə) F1 / ESC bağlanır
+U224	Oklar / Home End / PgUp PgDn kursoru hərəkət etdirin
+U225	Ctrl-T / Ctrl-B faylın yuxarı / sonu
+U226	BS / Sil kursordan əvvəl / sil
+U227	Yeni sətir daxil edin (absorbsiyanı saxlayır)
+U228	Tab / Ins nişanı / daxil edin və ya üzərinə yazın
+U229	F5 Coloring (uzatmadan; C/C++, mruby, MicroPython, SG BASIC, heç biri)
+U230	F2 (Ctrl-S) saxla (UTF-8, sətir ucları saxlanılır)
+U231	F10 / ESC qapalı (dəyişiklik olub olmadığını soruşur)
+U232	IME: Ctrl-Space / F12 yandır / söndür (あ / A)
+U233	F9 IME dili (yalnız bu redaktor; yaxından bərpa olunur)
+U234	F8 Yapon proqnozlaşdırıcı konversiyasını yandır/söndür
+U235	Yapon romaji -> hiragana (F6) / katakana (F7)
+U236	Yarım enli hiragana (Shift+F6) / yarım enli katakana (Shift+F7)
+U237	2 və ya daha çox simvol ilə proqnozlaşdırın, Boşluq ilə davamlı bəndi çevirin
+U238	İngilis dili 2 və ya daha çox simvol ilə proqnozlaşdırılan tamamlama
+U239	2 Bol tipli Hanqul
+U240	Boşluq / Convert / Təsdiq edin
+U241	← → İfadə seçin
+U242	Shift+← → bəndin sağ ucunu bir simvolla daralt/böyüt (yeni namizədlər)
+U243	↑ ↓ / Tab Əvvəlki / popupda növbəti namizəd (mətnin altında, yuxarıda aşağıya yaxın)
+U244	Daxil edin →→→ Bütün namizədlər (2 x 8, ← → sütun və səhifə, Enter seçir)
+U245	Sonrakı bəndi daxil edin (son bənddə bütövü təsdiqləyir)
+U246	Ctrl-U İstifadəçi lüğətinə cari sözü əlavə edin
+U247	Shift+F1 / F2 / F3 / F4 Yuxarı / son / daxil et-üzerinə yaz / istifadəçi lüğətinə
+U248	BS / ESC Bir simvol geri qayıt / Ləğv et
+U249	, . - [ ] / 、 。 ー 「 」 ・
+U250	Dəyişdirilmiş Y: saxla və bağla N: saxlamadan bağla ESC: geri
+U251	[Proqnoz] Tab/↑↓: namizəd Boşluq: çevirmək Esc: ləğv
+U252	[Namizədlər] ↑↓: seçin ←→: sütun/səhifə Daxil edin: seçin
+U253	[Convert] ↑↓cand ←→bənd Shift+←→bound Sonrakı daxil edin
+U254	[한국어] Tab/↑↓: namizəd Daxil edin/Boşluq: təsdiqləyin
+U255	[İngilis dili] Tab/↑↓: namizəd Daxil edin: təsdiqləyin
+U256	2-dəst Hangul girişi Ctrl-Space: alfasayısal
+U257	Proqnozlaşdırılmış tamamlama Ctrl-Space: birbaşa daxiletmə
+U258	Lüğət yoxdur: yalnız hiragana/katakana F6/F7
+U259	Boşluq: çevirmək F7: katakana Ctrl-Boşluq: alfasayısal
+U260	Boşluq: çevirmək F6: hiragana Ctrl-Boşluq: alfasayısal
+U261	Yarım eni F6: hiragana F7: katakana Shift+F6/F7: yarım
+U262	IME söndürülür
+U263	proqnozlaşdırmaq
+U264	Proqnozlaşdırılan Yapon tərcüməsi: On
+U265	Yapon dili üçün proqnozlaşdırıcı tərcümə: Off
+U266	Yapon IME ilə istifadə edin
+U267	İstifadəçi lüğətinə əlavə etmək mümkün deyil
+U268	Rəngləmə: %s
+U269	Yüklənir...
+U270	Faylı oxumaq mümkün olmadı
+U271	%lu xətlər%s%s
+U272	Shift_JIS-i UTF-8 olaraq açdı (UTF-8 olaraq yadda saxlanıldı)
+U273	yalnız oxumaq üçün
+U274	Saxlandı
+U275	Yadda saxlamaq mümkün olmadı (yazmaq alınmadı)
+U276	Namizədlər
+U277	7 WrtPg
+U278	9 Mətn
+U279	9 Hex
+U280	Yüklənir %lu%%
+U281	(yalnız başlanğıc)
+U282	Hex q ESC: geri F1: kömək
+U283	Mətn q ESC: geri F1: kömək
+U284	Viewer düymələri (daha az kimi; mətn və hex üçün eyni)
+U285	Bir xətt aşağı
+U286	Bir sıra
+U287	Bir səhifə aşağı
+U288	Bir səhifə yuxarı
+U289	Yarım səhifə aşağı/yuxarı
+U290	/mətn ?mətn
+U291	Aşağı/yuxarı axtarın (hüquqlara məhəl qoymur)
+U292	Növbəti / əvvəlki matç
+U293	Hex kimi göstərin (eyni yerdə)
+U294	Mətn kimi göstər (eyni yerdə)
+U295	Rəngi ​​dəyişdirin (C/C++, mruby, MicroPython, SG BASIC, heç biri)
+U296	FB / mətni göstər / gizlət
+U297	FB ekran səhifəsi/yazma səhifəsi
+U298	Fayla qayıt
+U299	Bu yardımı bağlayın
+U300	Kopyalayın
+U301	%s: qovluqların oxunması... %u
+U302	%s: təyinat yerindəki boş yerin hesablanması...
+U303	%s: təyinat yerində kifayət qədər boş yer yoxdur
+U304	Köçürün: mənbə qovluqlarının silinməsi
+U305	Bitdi
+U306	Dayandı
+U307	%s davam edir%s
+U308	(dayanmaq)
+U309	Kimdən: %s
+U310	Kimə: %s
+U311	Fayllar %u / %u qovluqlar %u %s / %s (%u%%)%s
+U312	çox: yalnız bəziləri
+U313	Ehtiyaclar %s, pulsuz %s. Davam edilsin?
+U314	Y: davam et N / ESC: ləğv et
+U315	Bağlamaq üçün istənilən düyməni basın
+U316	ESC: dayan
+U317	%s: ←→ sürücü ↑↓ qovluğu Boşluq açın/bağlayın Daxil edin ESC ləğv et seçin
+U318	Oxuya bilmir: %s
+U319	Qovluqların oxunması... (ESC dayanır) %u
+U320	%u qovluqlar%s
+U321	(çox çox və ya çox dərin: yalnız bəziləri)
+U322	Qovluğu açmağı dayandırdı
+U323	Kosmos onu yenidən açır. ESC bir daha ləğv edir
+U324	SMF / SGT pleyer %s
+U325	Yüklənir... %lu / %lu bayt
+U326	%s / %s %s portlar %u
+U327	Fasilə verildi
+U328	Oynamaq
+U329	Boşluq: fasilə m: MIDI OUT q / ESC: dayandırın
+U330	q / ESC: ləğv edin
+U331	Font ROM lisenziyaları və kreditləri\n\nROM: %s (versiya %lu.%lu, %lu simvol, flaşda 0x%08lX-dən)
+U332	== ROM-dakı şriftlər (ROM-un mənşə cədvəli) ==
+U333	(ROM-da cədvəl yoxdur)
+U334	== ROM-un kredit sahəsi ==
+U335	(belə sahə yoxdur)
+U336	== Daxili proqram təminatının lisenziyaları ==
+U337	%s PNG %s kimi yadda saxlayın
+U338	Ekran
+U339	Bina... %lu / %lu sıra
+U340	Yazılır... %lu / %lu KB (FB gizlidir)
+U341	Yaza bilmədim
+U342	Arxiv adı (işarələnmiş elementlər, yoxsa kursor elementi)
+U343	Kompressi daxil edin ←→ BS-ni köçürün / Del silin ESC ləğv edin
+U344	WAV ixracı: %s ləğv edildi (%s)
+U345	WAV ixracı: %s uğursuz (%s)
+U346	WAV ixracı: %s cəmi %s
+U347	WAV ixracı (96kHz / 24bit): %s
+U348	Ləğv edildi
+U349	Uğursuz oldu
+U350	Cəmi %s
+U351	Ləğv edildi (%s; qismən fayl silindi)
+U352	İxrac etmək mümkün olmadı (%s). Səbəb:
+U353	(səbəbi bilinmir)
+U354	%u%% keçdi %s%s
+U355	ESC: dayandır (fayl qismən silinir)
+U356	Arxiv: %s
+U357	Oxuyur... (ləğv etmək üçün ESC)
+U358	%u maddələr%s cəmi %s bayt çıxarış: %s
+U359	X çıxarış elementini daxil edin, hamısını çıxarın ↑↓ ESC-ni bağlayın
+U360	Kompress
+U361	Siyahı
+U362	Çıxarış
+U363	Cəmi %s %u maddələr
+U364	Cəmi %s %u fayl
+U365	Ləğv edildi (%s; tamamlanmamış fayl silindi)
+U366	Edə bilmədi (%s): %s
+U367	%u%% keçdi %s %s bayt%s
+U368	keçən %s %s bayt%s
+U369	ESC: dayandırın (yarımçıq fayl silinir)
+U370	Arxiv: %s alınmadı (%s)
+U371	Sıxılmış: %s (%u maddələr)
+U372	Çıxarılan: %s (%u fayllar)

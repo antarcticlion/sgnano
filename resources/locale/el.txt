@@ -1,0 +1,1161 @@
+# sgnano filer strings: Ελληνικά. Machine translation (unreviewed; 2026-11-04).
+@lang el
+@name Ελληνικά
+ui	一覧（ファイルとフォルダを 2 列 x 19 行に並べる）	Λίστα (αρχεία και φάκελοι σε 2 στήλες x 19 σειρές)
+ui	カーソルを動かす（左右は隣の列へ）	Μετακινήστε τον κέρσορα (αριστερά και δεξιά στην επόμενη στήλη)
+ui	前のページ / 次のページ	Προηγούμενη σελίδα / Επόμενη σελίδα
+ui	全部に印 / 印を反転（PC-98 FD と同じ）	Σήμανση όλων / αντιστροφή σημάνσεων (όπως PC-98 FD)
+ui	先頭 / 最後	Πρώτος/Τελευταίος
+ui	印を付けて次へ / 印だけ付ける	Σήμανση και επόμενο / μόνο σήμανση
+ui	Shift+矢印	Shift+βέλος
+ui	範囲を選ぶ（Space でその範囲に印）	Επιλογή περιοχής (το Space σημαίνει την περιοχή)
+ui	フォルダに入る・ファイルを開く（F2/X は実行）	Είσοδος σε φάκελο / άνοιγμα αρχείου (F2/X εκτέλεση)
+ui	上のフォルダへ	Μεταβείτε στον επάνω φάκελο
+ui	ドライブを選ぶ（USB・フロッピー・CD・S: 内蔵）	Επιλέξτε τη μονάδα δίσκου (USB, δισκέτα, CD, S: ενσωματωμένη)
+ui	コピー（Shift+C / Shift+F3 は行き先を木から）	Αντιγραφή (Shift+C / Shift+F3 προορισμός από το δέντρο)
+ui	移動	κίνηση
+ui	削除（Shift+D / Shift+F4 はフォルダ削除）	Διαγραφή (Shift+D / Shift+F4 διαγραφή φακέλου)
+ui	名前を変える	αλλαγή ονόματος
+ui	属性を変える	Αλλαγή ιδιοτήτων
+ui	エディタで開く	ανοιχτό στο πρόγραμμα επεξεργασίας
+ui	テキスト表示（Shift+V / Ctrl+Alt+F7 は 16 進）	Προβολή ως κείμενο (Shift+V / Ctrl+Alt+F7 hex)
+ui	ドライブの情報	Πληροφορίες μονάδας
+ui	フォルダを作る / 新しいファイル	Νέος φάκελος / νέο αρχείο
+ui	シェル sgsh / 媒体を取り出す	Shell sgsh / εξαγωγή μέσου
+ui	読み直す	Επαναφόρτωση
+ui	見えている画面を PNG で保存	Αποθήκευση οθόνης ως PNG
+ui	窓を閉じる・選択を解く（サブフォルダでは上位へ）	Κλείσιμο παραθύρου / καθαρισμός επιλογής (σε υποφάκελο: πάνω)
+ui	ファイルの操作（FD と同じ。印・範囲・カーソルの順に選ぶ）	Ενέργειες αρχείων (όπως FD: σημάνσεις, μετά περιοχή, μετά δρομέας)
+ui	コピー: 行き先はドライブとフォルダの木から。ESC で止める	Αντιγραφή: προορισμός από το δέντρο μονάδων και φακέλων. Το ESC σταματά
+ui	削除: y で確かめる。印・範囲をまとめて。フォルダは中身ごと	Διαγραφή: επιβεβαίωση με y. Σημάνσεις και περιοχές μαζί. Φάκελοι με το περιεχόμενο
+ui	フォルダを削除（中身ごと）	Διαγραφή φακέλου (με το περιεχόμενο)
+ui	名前を変える（今の名前を直して Enter）	Αλλάξτε το όνομα (διορθώστε το τρέχον όνομα και πατήστε Enter)
+ui	属性: R 読み出し専用・H 隠し・S システム・A アーカイブ	Ιδιότητες: R μόνο ανάγνωση, H κρυφό, S σύστημα, A αρχειοθέτηση
+ui	フォルダを作る	Νέος φάκελος
+ui	新しいファイル（空）を作る	Νέο (κενό) αρχείο
+ui	テキストで表示（Shift+V / Ctrl+Alt+F7 は 16 進）	Προβολή ως κείμενο (Shift+V / Ctrl+Alt+F7 hex)
+ui	シェル sgsh（exit / Ctrl-D でファイラーへ）	Shell sgsh (exit / Ctrl-D επιστροφή στη διαχείριση αρχείων)
+ui	選んでいるドライブの素性（INQUIRY・IDENTIFY）	Η ταυτότητα της επιλεγμένης μονάδας δίσκου (ΕΡΩΤΗΣΗ/ΑΝΑΓΝΩΡΙΣΗ)
+ui	FDD・LS-120・CD の媒体を取り出す	Εξαγωγή μέσου FDD / LS-120 / CD
+ui	一覧を読み直す（CD は TOC から）	Επαναφόρτωση λίστας (CD: από το TOC)
+ui	ZMODEM で PC から受け取る（zm.sh put）	Λήψη από τον PC με ZMODEM (zm.sh put)
+ui	ZMODEM で PC へ送る（zm.sh get）	Αποστολή στον PC με ZMODEM (zm.sh get)
+ui	.rb をコンパイルして .mrb を書き出す	Μεταγλωττίστε .rb και γράψτε .mrb
+ui	Ruby の REPL（1 行ずつ、Ctrl-D / ESC で終わり）	Ruby REPL (μία γραμμή τη φορά, Ctrl-D / ESC τέλος)
+ui	MicroPython の REPL	MicroPython REPL
+ui	4MB ずつ分割 / .001 から結合	Διαίρεση σε τμήματα 4 MB / ένωση από .001
+ui	分割 / 結合（Ctrl+F11 / F12 と同じ）	Διαίρεση / ένωση (όπως Ctrl+F11 / F12)
+ui	画面（Alt+F。FD の F キーとぶつからない）	Οθόνη (Alt+F, χωρίς σύγκρουση με τα πλήκτρα F του FD)
+ui	FB（絵）/ テキスト面を出す・隠す	FB (εικόνα)/Εμφάνιση/απόκρυψη πλευράς κειμένου
+ui	FB の表示ページ（0〜3）	Σελίδα εμφάνισης FB (0-3)
+ui	FB を 0 で消す / 明るさを 1/2 に（RGB555）	Καθαρισμός FB σε 0 / μείωση φωτεινότητας στο μισό (RGB555)
+ui	USB のエンドポイントと LAN の状態	Τελικό σημείο USB και κατάσταση LAN
+ui	FB の表示ページを消す / 明るさを 1/2 に	Καθαρισμός σελίδας εμφάνισης FB / μείωση φωτεινότητας στο μισό
+ui	テキストの属性の見本	Δείγματα χαρακτηριστικών κειμένου
+ui	モニタの EDID（起動時に読んだもの）	Παρακολούθηση EDID (διαβάζεται κατά την εκκίνηση)
+ui	フォント ROM のライセンスとクレジット	Άδειες και πιστώσεις ROM γραμματοσειρών
+ui	設定（表示の言語・IME・キーボードロケール）	Ρυθμίσεις (γλώσσα εμφάνισης, IME, τοπικές ρυθμίσεις πληκτρολογίου)
+ui	時計（NTP で合わせた日本時間。s ですぐ合わせる）	Ρολόι (Η ώρα της Ιαπωνίας ρυθμίστηκε με NTP. Ρυθμίστε αμέσως με s)
+ui	表計算（SGCALC）を開く	Άνοιγμα υπολογιστικού φύλλου (SGCALC)
+ui	S: ドライブのエラー検査（誤りがあれば直すか聞く）	Έλεγχος S: (ρωτά πριν την επισκευή)
+ui	トラッカー（TRACKER）を開く	Ανοίξτε το TRACKER
+ui	再起動（確かめの窓が出る）	Επανεκκίνηση (θα εμφανιστεί ένα παράθυρο επιβεβαίωσης)
+ui	ADC のステレオ入力（GP40 / 41）を鳴らす	Αναπαραγωγή στερεοφωνικής εισόδου ADC (GP40/41)
+ui	VGM/VGZ を 96kHz/24bit WAV に書き出す	Εξαγωγή VGM/VGZ σε WAV 96 kHz / 24 bit
+ui	このヘルプ	Αυτή η βοήθεια
+ui	ページを替える	αλλαγή σελίδας
+ui	閉じる	Κλείσιμο
+ui	テキスト・16 進のビュアー（less 風）	Πρόγραμμα προβολής κειμένου/δεκαεξαδικού (λιγότερο στυλ)
+ui	1 行	One line
+ui	1 ページ	One page
+ui	半ページ	μισή σελίδα
+ui	探す（前へ・後ろへ）/ 次・前	Αναζήτηση (προηγούμενη/προηγούμενη)/επόμενη/προηγούμενη
+ui	一覧へ戻る（F1 はビュアーのヘルプ）	Επιστροφή στη λίστα (το F1 είναι βοήθεια του θεατή)
+ui	画像のビュアー	πρόγραμμα προβολής εικόνων
+ui	一覧へ戻る（F2 F3 F6 F7 Shift+F2 F3 は効く）	Επιστροφή στη λίστα (F2 F3 F6 F7 Shift+F2 F3 λειτουργεί)
+ui	エディタ（E / Shift+F8）	Επεξεργαστής (E / Shift+F8)
+ui	保存する（UTF-8。改行と BOM は元のまま）	Αποθήκευση (UTF-8, αλλαγές γραμμής και BOM παραμένουν ως πρωτότυπα)
+ui	閉じる（変わっていれば Y / N / ESC）	Κλείσιμο (Y/N/ESC αν αλλάξει)
+ui	挿入 / 上書き	εισαγωγή/αντικατάσταση
+ui	IME（日本語・英語・ハングル）の入・切	Ενεργοποίηση/απενεργοποίηση IME (Ιαπωνικά/Αγγλικά/Χανγκούλ)
+ui	IME の言語（日本語 / English / 한국어）	Γλώσσα IME (Ιαπωνικά / Αγγλικά / 한국어)
+ui	ひらがな / カタカナで確定	Επιβεβαιώθηκε σε Hiragana/Katakana
+ui	エディタのヘルプ	Βοήθεια συντάκτη
+ui	シェル	κέλυφος
+ui	シェル（csh のサブセット。exit / Ctrl-D で戻る、help で一覧）	Shell (υποσύνολο csh. exit / Ctrl-D επιστροφή, help εντολές)
+ui	一覧と移動	Λίστα και μετακίνηση
+ui	ファイルの操作	Λειτουργίες αρχείων
+ui	画面と機器	οθόνη και εξοπλισμός
+ui	ビュアーとエディタ	θεατής και συντάκτης
+ui	ヘルプ  %u / %u  %s	Βοήθεια %u / %u %s
+ui	Left Right: ページを替える    F1 / ESC: 閉じる	Αριστερά Δεξιά: Αλλαγή σελίδας F1 / ESC: Κλείσιμο
+ui	sgnano を再起動しますか？	Θέλετε να επανεκκινήσετε το sgnano;
+ui	[ 再起動 ]	[Επανεκκίνηση]
+ui	[ キャンセル ]	[Ακύρωση]
+ui	S: ドライブのエラー検査	Έλεγχος σφαλμάτων μονάδας S:
+ui	ファイル %lu  フォルダ %lu	Αρχεία %lu  φάκελοι %lu
+ui	大きさが鎖と合わない	Το μέγεθος δεν ταιριάζει με την αλυσίδα
+ui	どこからも使われていないクラスタ	Συστοιχίες που δεν χρησιμοποιούνται
+ui	重なったクラスタ	Διασταυρωμένες συστοιχίες
+ui	壊れた項目	Κατεστραμμένες εγγραφές
+ui	FAT の 2 つの写しの食い違い	Τα δύο αντίγραφα FAT διαφέρουν
+ui	エラーはありません。	Κανένα σφάλμα.
+ui	エラーが見つかりました。修復しますか？	Βρέθηκαν σφάλματα. Επισκευή;
+ui	修復しました（上は直した数）。	Επισκευάστηκε (οι αριθμοί παραπάνω διορθώθηκαν).
+ui	検査・修復できませんでした（S: が使用中）。	Αδύνατος ο έλεγχος ή η επισκευή (το S: είναι απασχολημένο).
+ui	[ 修復する ]	[ Επισκευή ]
+ui	[ やめる ]	[ Άκυρο ]
+ui	何かキーで閉じる	κλείστε με οποιοδήποτε κλειδί
+ui	設定	ρυθμίσεις
+ui	表示の言語	Γλώσσα εμφάνισης
+ui	キーボードロケール	τοπικές ρυθμίσεις πληκτρολογίου
+ui	Up / Down  Enter 決める  ESC やめる	Πάνω / Κάτω Εισάγετε Αποφασίστε ESC Stop
+ui	表示の言語 (Language)	Γλώσσα εμφάνισης
+ui	Up / Down  Enter 決める  ESC 戻る	Πάνω / Κάτω Εισαγωγή Αποφασίστε ESC Πίσω
+ui	%c: をどの文字に固定しますか（A〜Z、S を除く。ESC でやめる）	Κλείδωμα του %c: σε ποιο γράμμα; (A-Z εκτός S. ESC άκυρο)
+ui	ドライブ  文字 / Enter 選ぶ  F2 文字を固定・解除  F3 文字を決めて固定  L / ESC やめる	Μονάδα  γράμμα / Enter επιλογή  F2 κλείδωμα/ξεκλείδωμα  F3 κλείδωμα ως...  L / ESC άκυρο
+ui	  区画 %u	  διαμέρισμα %u
+ui	%c:* （固定・つながっていません）%04X:%04X%s  %s	%c:* (κλειδωμένο, μη συνδεδεμένο) %04X:%04X%s  %s
+ui	お知らせ	Σημείωση
+ui	ドライブ %c:  %s	Μονάδα δίσκου %c: %s
+ui	ドライブ  (なし)	Οδηγήστε (κανένα)
+ui	音楽 CD  %u トラック	Μουσικό CD %u κομμάτι
+ui	フォルダ %u  ファイル %u  合計 %s	Φάκελος %u Αρχεία %u Σύνολο %s
+ui	読んでいます...	Διαβάζοντας...
+ui	* 印 %u 個  %s	* επισημάνετε %u κομμάτια %s
+ui	%lu バイト	%lu byte
+ui	属性 %s   更新日時 %s   作成日時 %s   %s	Χαρακτηριστικό %s Ημερομηνία και ώρα εγγραφής %s Ημερομηνία και ώρα δημιουργίας %s %s
+ui	日	ημέρα
+ui	月	φεγγάρι
+ui	火	φωτιά
+ui	水	νερό
+ui	木	δέντρο
+ui	金	χρήματα
+ui	土	χώμα
+ui	時計は合わせていません（LAN の NTP）	Το ρολόι δεν έχει ρυθμιστεί (NTP σε LAN)
+ui	FB  表示 %u  書込 %u	Οθόνη FB %u γράφετε %u
+ui	1 ヘルプ	1 Help
+ui	2 実行	2 Run
+ui	3 ｺﾋﾟｰ	3 Copy
+ui	4 削除	4 Del
+ui	5 名前	5 Rename
+ui	7 FB消去	7 FBclr
+ui	8 FB減光	8 FBdim
+ui	9 ﾄﾞﾗｲﾌﾞ	9 Drive
+ui	10 EP表	10 EPs
+ui	11 時計	11 Clock
+ui	12 表計	12 CALC
+ui	1 属性	1 Attr
+ui	2 情報	2 Info
+ui	3 移動	3 Move
+ui	5 作成	5 Mkdir
+ui	6 シェル	6 Shell
+ui	8 編集	8 Edit
+ui	9 表示	9 View
+ui	10S:検査	10 S:chk
+ui	11 ﾄﾗｯｸ	11 TRACK
+ui	12再起動	12Reboot
+ui	1 新規	1 New
+ui	2 ﾌｫﾙﾀﾞ	2 Folder
+ui	3 名前	3 Rename
+ui	4 属性	4 Attrib
+ui	6 ｺﾋﾟｰ	6 Copy
+ui	7 移動	7 Move
+ui	8 削除	8 Delete
+ui	9 編集	9 Edit
+ui	10ｺﾝﾊﾟｲﾙ	10 mrbc
+ui	11 分割	11 Split
+ui	12 結合	12 Join
+ui	1 属性例	1 Attrs
+ui	2 FB切替	2 FB
+ui	3 文字面	3 Text
+ui	5 画面写	5 ScrSht
+ui	6 表示頁	6 DispPg
+ui	9 ZM受信	9 ZMrecv
+ui	10ZM送信	10ZMsend
+ui	2 FB消去	2 FBClr
+ui	3 FB減光	3 FBDim
+ui	5 再読込	5 Reload
+ui	7 16進	7 Hex
+ui	9 ﾗｲｾﾝｽ	9 Lic
+ui	8 設定	8 Setup
+ui	時刻を合わせる（日本時間。NTP で合わせられませんでした）	Ρύθμιση ρολογιού (ώρα Ιαπωνίας. Το NTP δεν το ρύθμισε)
+ui	起動のパラメタ	Εκτέλεση με παραμέτρους
+ui	新しいフォルダ	νέο φάκελο
+ui	新しいファイル	νέο αρχείο
+ui	時刻:	Ώρα:
+ui	実行:	Εκτέλ.:
+ui	名前:	Όνομα:
+ui	年-月-日 時:分  Enter 合わせる  ESC そのまま	YYYY-MM-DD hh:mm  Enter ρύθμιση  ESC διατήρηση
+ui	Enter 走らせる  ←→ 動かす  BS / Del 消す  ESC やめる	Enter εκτέλεση  <-> μετακίνηση  BS / Del διαγραφή  ESC άκυρο
+ui	Enter 変える  ←→ 動かす  BS / Del 消す  ESC やめる	Enter μετονομασία  <-> μετακίνηση  BS / Del διαγραφή  ESC άκυρο
+ui	Enter 作る  ←→ 動かす  BS / Del 消す  ESC やめる	Enter δημιουργία  <-> μετακίνηση  BS / Del διαγραφή  ESC άκυρο
+ui	消す	σβήνω
+ui	個の項目	 στοιχεία
+ui	フォルダは中身ごと消します。よろしいですか？	Οι φάκελοι διαγράφονται μαζί με το περιεχόμενο. Είστε σίγουροι;
+ui	このファイルを消しますか？	Θέλετε να διαγράψετε αυτό το αρχείο;
+ui	（元に戻せません。フォルダの中のファイルも消えます）	(Δεν αναιρείται. Διαγράφονται και τα αρχεία των φακέλων)
+ui	[ はい (Y) ]	[Ναι (Y)]
+ui	[ いいえ (N) ]	[Όχι (Ν)]
+ui	バイナリビュアー: ファイルを選んでください	Binary viewer: επιλέξτε αρχείο
+ui	テキストビュアー: ファイルを選んでください	Προβολή κειμένου: Επιλέξτε αρχείο
+ui	移動先	προορισμός
+ui	コピー先	Αντιγραφή προορισμού
+ui	バッファがいっぱいです (buffer full)	buffer γεμάτο
+ui	読み出し専用のドライブです (read-only)	Αυτή είναι μια μονάδα δίσκου μόνο για ανάγνωση.
+ui	保存できません (no writer)	Δεν είναι δυνατή η αποθήκευση (χωρίς συγγραφέας)
+ui	保存を始められません (the drive is busy?)	Δεν είναι δυνατή η έναρξη της αποθήκευσης (η μονάδα δίσκου είναι απασχολημένη;)
+ui	保存しています... (saving)	Αποθήκευση... (αποθήκευση)
+ui	2 保存	2 Save
+ui	5 色分け	5 Colour
+ui	6 ﾞ	6 Hira
+ui	7 ｶﾀｶﾅ	7 Kata
+ui	8 予測	8 Pred
+ui	10 終了	10 Quit
+ui	1 先頭	1 Top
+ui	2 最後	2 End
+ui	3 挿/上	3 InsOvr
+ui	4 辞書	4 Dict
+ui	6 半	6 HHira
+ui	7 半ｶﾅ	7 HKata
+ui	 %s  %s  行 %lu/%lu 桁 %u  %s  %s %s%s%s	 %s %s γραμμή %lu/%lu στήλη %u %s %s %s%s%s
+ui	*変更	*Αλλαγή
+ui	上書	Αντικατάσταση
+ui	挿入	ένθετο
+ui	  読出専用	  μόνο για ανάγνωση
+ui	 エディタ (sgnano edit)                      F1 / ESC で閉じる	 Editor (sgnano edit) Κλείσιμο με F1 / ESC
+ui	 矢印 / Home End / PgUp PgDn   カーソルを動かす	 Βέλος / Αρχική Τέλος / PgUp PgDn Μετακίνηση δρομέα
+ui	 Ctrl-T / Ctrl-B               ファイルの先頭 / 最後	 Ctrl-T / Ctrl-B Έναρξη / Τέλος αρχείου
+ui	 BS / Del                      前の字 / カーソルの字を消す	 BS / Del Διαγραφή προηγούμενου χαρακτήρα / χαρακτήρα κάτω από τον κέρσορα
+ui	 Enter                         改行（前の行の字下げを引き継ぐ）	 Εισαγωγή αλλαγής γραμμής (κληρονομεί την εσοχή από την προηγούμενη γραμμή)
+ui	 Tab / Ins                     タブ / 挿入と上書きの切り替え	 Καρτέλα / Καρτέλα Ins / Εναλλαγή μεταξύ εισαγωγής και αντικατάστασης
+ui	 F5                            色分け（拡張子から。C/C++・mruby・MicroPython・SG BASIC・なし）	 F5                            Χρωματισμός (από την κατάληξη· C/C++, mruby, MicroPython, SG BASIC, κανένας)
+ui	 F2  (Ctrl-S)                  保存（UTF-8、改行は元の形）	 F2 (Ctrl-S) Αποθήκευση (UTF-8, αλλαγές γραμμής στην αρχική μορφή)
+ui	 F10 / ESC                     閉じる（変更があれば聞く）	 F10 / ESC Κλείσιμο (ακρόαση για τυχόν αλλαγές)
+ui	 IME:  Ctrl-Space / F12        オン・オフ（あ / A）	IME: Ctrl-Space / F12 On/Off (A / A)
+ui	       F9                      IME の言語（このエディタの間だけ。閉じると戻る）	       Γλώσσα F9 IME (μόνο κατά τη διάρκεια αυτού του προγράμματος επεξεργασίας, επιστροφή όταν είναι κλειστό)
+ui	       F8                      日本語の予測変換 オン・オフ	       Ενεργοποίηση/απενεργοποίηση ιαπωνικής πρόβλεψης μετατροπής F8
+ui	       日本語                  ローマ字 -> ひらがな（F6）・カタカナ（F7）	       Ιαπωνικά Romaji -> Hiragana (F6) / Katakana (F7)
+ui	                               半角ひらがな（Shift+F6）・半角カタカナ（Shift+F7）	                               Hiragana μισού πλάτους (Shift+F6) / katakana μισού πλάτους (Shift+F7)
+ui	                               2 字以上で予測、Space で連文節変換	                               Πρόβλεψη με 2 ή περισσότερους χαρακτήρες, μετατροπή συνεχούς ρήτρας με Space
+ui	       English                 2 字以上で予測補完	       Αγγλικά Συμπλήρωση πρόβλεψης με 2 ή περισσότερους χαρακτήρες
+ui	       한국어                  2 ボル式ハングル	       한국어 2 Χανγκούλ σε στυλ μπολ
+ui	       Space / Enter           変換 / 確定	       Space / Enter Μετατροπή / Επιβεβαίωση
+ui	       ← →                    文節を選ぶ	       ← → Επιλέξτε μια φράση
+ui	       Shift+← →               文節の右端を 1 字 縮/拡（候補を出し直す）	       Shift+← → Σμίκρυνση/επέκταση του δεξιού άκρου της φράσης κατά έναν χαρακτήρα (νέες υποψήφιες)
+ui	       ↑ ↓ / Tab               候補の窓で前 / 次の候補（窓は変換の下、画面の下では上）	       ↑ ↓ / Tab               Προηγούμενη / επόμενη υποψήφια στο παράθυρο (κάτω από το κείμενο, πάνω κοντά στο κάτω άκρο)
+ui	       →→→ で Enter            すべての候補（2 列 x 8 個、← → で列とページ、Enter で決める）	       Enter στο →→→           Όλες οι υποψήφιες (2 x 8, ← → στήλη και σελίδα, Enter επιλογή)
+ui	       Enter                   次の文節へ（最後の文節で全体を確定）	       Enter                   Επόμενη φράση (στην τελευταία επιβεβαιώνει όλα)
+ui	       Ctrl-U                  いまの語をユーザー辞書へ	Ctrl-U Προσθήκη τρέχουσας λέξης στο λεξικό χρήστη
+ui	 Shift+F1 / F2 / F3 / F4       先頭 / 最後 / 挿入と上書き / ユーザー辞書へ	 Shift+F1 / F2 / F3 / F4       Αρχή / τέλος / εισαγωγή-αντικατάσταση / στο λεξικό χρήστη
+ui	       BS / ESC                1 字戻す / 取り消し	       BS / ESC Επιστροφή έναν χαρακτήρα πίσω / Ακύρωση
+ui	       , . - [ ] /             、 。 ー 「 」 ・	       , . - [ ] / , . - ""・
+ui	変更あり  Y: 保存して閉じる  N: 保存せず閉じる  ESC: 戻る	Τροποποιήθηκε  Y: αποθήκευση και κλείσιμο  N: κλείσιμο χωρίς αποθήκευση  ESC: πίσω
+ui	[予測] Tab/↑↓: 候補  Space: 変換  Esc: 取消	[Πρόβλεψη] Tab/↑↓: υποψήφια  Space: μετατροπή  Esc: άκυρο
+ui	[候補] ↑↓: 選ぶ  ←→: 列・ページ  Enter: 決める	[Υποψήφιες] ↑↓: επιλογή  ←→: στήλη/σελίδα  Enter: λήψη
+ui	[変換] ↑↓候補 ←→文節 Shift+←→区切り Enter次へ	[Μετατροπή] ↑↓υποψ ←→φράση Shift+←→όριο Enter επόμ
+ui	[한국어] Tab/↑↓: 候補  Enter/Space: 確定	[한국어] Tab/↑↓: υποψήφια  Enter/Space: επιβεβαίωση
+ui	[English] Tab/↑↓: 候補  Enter: 確定	[English] Tab/↑↓: υποψήφια  Enter: επιβεβαίωση
+ui	2ボル式ハングル入力  Ctrl-Space: 英数	Εισαγωγή Hangul 2 σετ  Ctrl-Space: αλφαριθμητικά
+ui	予測補完  Ctrl-Space: 直接入力	Προβλεπτική συμπλήρωση  Ctrl-Space: άμεση εισαγωγή
+ui	辞書なし: ひらがな/カタカナ入力のみ  F6/F7	Χωρίς λεξικό: μόνο hiragana/katakana  F6/F7
+ui	Space: 変換  F7: カタカナ  Ctrl-Space: 英数	Space: μετατροπή  F7: katakana  Ctrl-Space: αλφαριθμητικά
+ui	Space: 変換  F6: ひらがな  Ctrl-Space: 英数	Space: μετατροπή  F6: hiragana  Ctrl-Space: αλφαριθμητικά
+ui	半角  F6: ひらがな  F7: カタカナ  Shift+F6/F7: 半角	Μισό πλάτος  F6: hiragana  F7: katakana  Shift+F6/F7: μισό
+ui	IME オフ	IME ανενεργό
+ui	 予測	 πρόβλεψη
+ui	日本語の予測変換: オン	Προγνωστική ιαπωνική μετάφραση: On
+ui	日本語の予測変換: オフ	Προγνωστική μετάφραση για τα Ιαπωνικά: Off
+ui	日本語IMEで使います	Χρήση με ιαπωνικό IME
+ui	ユーザー辞書に追加できません	Δεν είναι δυνατή η προσθήκη στο λεξικό χρήστη
+ui	色分け: %s	Χρωματισμός: %s
+ui	読み込んでいます... (loading)	Φόρτωση... (φόρτωση)
+ui	読み込めませんでした (could not read)	δεν μπορούσε να διαβάσει
+ui	%lu 行%s%s	%lu γραμμή%s%s
+ui	  Shift_JIS を UTF-8 で開きました（保存は UTF-8）	  Το Shift_JIS άνοιξε σε UTF-8 (αποθηκεύτηκε στο UTF-8)
+ui	  読み出し専用	  μόνο για ανάγνωση
+ui	保存しました (saved)	σώθηκε
+ui	保存できませんでした (write failed)	Δεν ήταν δυνατή η αποθήκευση (η εγγραφή απέτυχε)
+ui	候補	Υποψήφιες
+ui	7 書込頁	7 WrtPg
+ui	9 ﾃｷｽﾄ	9 Text
+ui	9 ﾊﾞｲﾅﾘ	9 Hex
+ui	読み込み中 %lu%%  	Φόρτωση %lu%%
+ui	（先頭だけ）  	(μόνο η αρχή)
+ui	16 進  q ESC: 戻る  F1: ヘルプ	hex q ESC: Πίσω F1: Βοήθεια
+ui	テキスト  q ESC: 戻る  F1: ヘルプ	Κείμενο q ESC: Πίσω F1: Βοήθεια
+ui	ビュアーのキー（less 風。テキストと 16 進で共通）	Κλειδί προβολής (λιγότερο στυλ, κοινό για κείμενο και δεκαεξαδικό)
+ui	1 行進む	προωθήστε μια γραμμή
+ui	1 行戻る	Πήγαινε μια γραμμή πίσω
+ui	1 ページ進む	Προχωρήστε μια σελίδα μπροστά
+ui	1 ページ戻る	Επιστροφή 1 σελίδα
+ui	半ページ進む / 戻る	Πήγαινε μισή σελίδα μπροστά / πήγαινε πίσω
+ui	/文字列  ?文字列	/string ?string
+ui	下へ探す / 上へ探す（大文字小文字は区別しない）	Αναζήτηση προς τα κάτω / Αναζήτηση προς τα επάνω (χωρίς διάκριση πεζών-κεφαλαίων)
+ui	次 / 前を探す	Εύρεση επόμενου/προηγούμενου
+ui	16 進で表示する（いま見ている所のまま）	Εμφάνιση σε δεκαεξαδικό (όπως βλέπετε αυτήν τη στιγμή)
+ui	テキストで表示する（いま見ている所のまま）	Εμφάνιση ως κείμενο (όπως βλέπετε αυτήν τη στιγμή)
+ui	色分けを替える（C/C++・mruby・MicroPython・SG BASIC・なし）	Αλλαγή χρωματισμού (C/C++, mruby, MicroPython, SG BASIC, κανένας)
+ui	FB / テキスト面を出す・隠す	FB / Εμφάνιση/απόκρυψη πλευράς κειμένου
+ui	FB の表示ページ / 書き込みページ	Σελίδα εμφάνισης/εγγραφής στο FB
+ui	ファイラーへ戻る	Επιστροφή στο αρχείο
+ui	このヘルプを閉じる	Κλείστε αυτήν τη βοήθεια
+ui	コピー	αντίγραφο
+ui	 %s: フォルダを読んでいます... %u 個	 %s: Ανάγνωση φακέλου... %u κομμάτια
+ui	 %s: 行き先の空きを数えています...	 %s: Καταμέτρηση διαθεσιμότητας στον προορισμό...
+ui	 %s: 行き先の空きが足りません	 %s: Δεν υπάρχει αρκετός χώρος στον προορισμό
+ui	 移動: 元のフォルダを消しています	Μετακίνηση: Διαγραφή αρχικού φακέλου
+ui	終了しました	Τελειωμένο
+ui	止まりました	Σταμάτησε
+ui	 %s中%s	 %s από %s
+ui	（止めています）	(σταμάτησε)
+ui	 元: %s	 Από: %s
+ui	 先: %s	 Προς: %s
+ui	 ファイル %u / %u 個  フォルダ %u 個  %s / %s  (%u%%)%s	 Αρχεία %u / %u Φάκελοι %u %s / %s (%u%%)%s
+ui	  多すぎるので一部だけ	  Είναι πάρα πολλά, άρα μόνο μερικά
+ui	 要る大きさ %s、空き %s。続けますか？	 Απαιτούμενο μέγεθος %s, ελεύθερος χώρος %s. Θέλετε να συνεχίσετε;
+ui	 Y: 続ける   N / ESC: やめる	 Y: Συνέχεια N / ESC: Διακοπή
+ui	 何かキーを押すと閉じます	 Πατήστε οποιοδήποτε πλήκτρο για να κλείσετε
+ui	 ESC: 止める	 ESC: Σταματήστε
+ui	 %s: ←→ ドライブ  ↑↓ フォルダ  Space 開く・閉じる  Enter 決める  ESC やめる	 %s: ←→ Drive ↑↓ Χώρος φακέλου Άνοιγμα/Κλείσιμο Εισαγωγή Αποφασίστε ESC Έξοδος
+ui	 読めません: %s	Μη αναγνώσιμο: %s
+ui	 フォルダを読んでいます...（ESC で止める）  %u 個	 Ανάγνωση φακέλου... (διακοπή με ESC) %u κομμάτια
+ui	 フォルダ %u 個%s	 Φάκελος %u κομμάτια%s
+ui	（多すぎるか深すぎるので、一部だけ）	(Είναι πάρα πολλά ή πολύ βαθιά, άρα μόνο μερικά)
+ui	フォルダの展開を止めました	Σταμάτησα την εξαγωγή του φακέλου.
+ui	Space で開き直せます。もう一度 ESC でやめます	Μπορείτε να το ανοίξετε ξανά με το Space. Πατήστε ξανά το ESC για έξοδο
+ui	 SMF / SGT プレイヤー   %s	 SMF / SGT Player %s
+ui	 読み込んでいます... %lu / %lu バイト	 Φόρτωση... %lu / %lu byte
+ui	 %s / %s   %s   ポート %u	 %s / %s %s θύρα %u
+ui	一時停止	παύση
+ui	再生中	Τώρα παίζει
+ui	 Space: 一時停止  m: MIDI OUT  q / ESC: 止める	 Space: παύση  m: MIDI OUT  q / ESC: διακοπή
+ui	 q / ESC: やめる	q / ESC: Έξοδος
+ui	フォント ROM のライセンスとクレジット\n\nROM: %s（版 %lu.%lu、%lu 文字、フラッシュの 0x%08lX から）\n\n	Άδειες και πιστώσεις ROM γραμματοσειρών\n\nROM: %s (έκδοση %lu.%lu, %lu χαρακτήρας, από 0x%08lX σε flash)
+ui	== 収めているフォント（ROM の出所の表）==\n	== Συμπεριλαμβανόμενες γραμματοσειρές (πίνακας προέλευσης ROM) ==
+ui	  （表が無い ROM）\n	(ROM χωρίς τραπέζι)
+ui	\n== ROM のクレジットの区画 ==\n\n	== Ενότητα πιστώσεων ROM ==
+ui	（区画が無い）\n	(Δεν υπάρχει διαίρεση)
+ui	\n== 組み込んだソフトウェアのライセンス ==\n	\n== Άδειες του ενσωματωμένου λογισμικού ==\n
+ui	 %s を PNG で保存   %s	Αποθήκευση %s ως PNG %s
+ui	画面	οθόνη
+ui	 組み立てています... %lu / %lu 行	Συναρμολόγηση... %lu / %lu γραμμή
+ui	 書いています... %lu / %lu KB（FB は隠しています）	Γράφω... %lu / %lu KB (το FB είναι κρυφό)
+ui	書けませんでした	Δεν μπορούσα να γράψω
+ui	書庫の名前（印の付いた項目、無ければカーソルの項目を入れる）	Όνομα αρχείου συμπίεσης (τα σημειωμένα στοιχεία, αλλιώς αυτό στον δρομέα)
+ui	Enter 圧縮する  ←→ 動かす  BS / Del 消す  ESC やめる	Enter συμπίεση  ←→ μετακίνηση  BS / Del διαγραφή  ESC άκυρο
+ui	WAV 書き出し: %s 中止（%s）	Εξαγωγή WAV: %s ακυρώθηκε (%s)
+ui	WAV 書き出し: %s 失敗（%s）	Εξαγωγή WAV: %s απέτυχε (%s)
+ui	WAV 書き出し: %s 合計 %s	Εξαγωγή WAV: %s σύνολο %s
+ui	 WAV 書き出し（96kHz / 24bit）: %s	 Εξαγωγή WAV (96kHz / 24bit): %s
+ui	中止しました	Ακυρώθηκε
+ui	失敗しました	Απέτυχε
+ui	 合計 %s	 Σύνολο %s
+ui	 中止しました（%s。半端なファイルは消しました）	 Ακυρώθηκε (%s· το μισό αρχείο διαγράφηκε)
+ui	 書き出せませんでした（%s）。理由:	 Η εξαγωγή δεν έγινε (%s). Αιτία:
+ui	 （理由は分かりません）	 (άγνωστη αιτία)
+ui	 %u%%   経過 %s%s	 %u%%   πέρασαν %s%s
+ui	 ESC: 止める（半端なファイルは消します）	 ESC: διακοπή (το μισό αρχείο διαγράφεται)
+ui	書庫: %s	Αρχείο: %s
+ui	読み込み中…（ESC でやめる）	Ανάγνωση... (ESC για άκυρο)
+ui	 %u 項目%s  合計 %s バイト  展開先: %s	 %u στοιχεία%s  σύνολο %s byte  εξαγωγή σε: %s
+ui	 Enter 項目を展開  X 全部を展開  ↑↓ 動かす  ESC 閉じる	 Enter εξαγωγή  X όλα  ↑↓ μετακίνηση  ESC κλείσιμο
+ui	圧縮	Συμπίεση
+ui	一覧	Λίστα
+ui	展開	Εξαγωγή
+ui	 合計 %s   %u 項目	 Σύνολο %s   %u στοιχεία
+ui	 合計 %s   %u ファイル	 Σύνολο %s   %u αρχεία
+ui	 中止しました（%s。書きかけのファイルは消しました）	 Ακυρώθηκε (%s· το ημιτελές αρχείο διαγράφηκε)
+ui	 できませんでした（%s）: %s	 Δεν έγινε (%s): %s
+ui	 %u%%   経過 %s   %s バイト%s	 %u%%   πέρασαν %s   %s byte%s
+ui	 経過 %s   %s バイト%s	 πέρασαν %s   %s byte%s
+ui	 ESC: 止める（書きかけのファイルは消します）	 ESC: διακοπή (το ημιτελές αρχείο διαγράφεται)
+ui	書庫: %s 失敗（%s）	Αρχείο: %s απέτυχε (%s)
+ui	圧縮: %s（%u 項目）	Συμπιέστηκε: %s (%u στοιχεία)
+ui	展開: %s（%u ファイル）	Εξήχθη: %s (%u αρχεία)
+msg.phrase	the drive went away	η κίνηση έφυγε
+msg.phrase	reading the partitions again...	ξαναδιαβαζω τα κατατμηση...
+msg.phrase	could not open the volume (no memory?)	δεν μπόρεσα να ανοίξω την ένταση (δεν υπάρχει μνήμη;)
+msg.phrase	opening the volume...	ανοίγοντας την ένταση...
+msg.phrase	no memory for the file list	δεν υπάρχει μνήμη για τη λίστα αρχείων
+msg.phrase	reading the directory... (retrying)	ανάγνωση του καταλόγου... (επαναπροσπαθώ)
+msg.phrase	could not read the directory	δεν μπορούσε να διαβάσει τον κατάλογο
+msg.phrase	reading the directory...	διαβάζοντας τον κατάλογο...
+msg.phrase	the drive did not answer -- reading the partitions again	η μονάδα δίσκου δεν απάντησε -- διαβάζοντας ξανά τα διαμερίσματα
+msg.phrase	could not read the directory (not FAT12/16/32?)	δεν μπόρεσα να διαβάσω τον κατάλογο (όχι FAT12/16/32;)
+msg.phrase	too many entries -- showing the first ones	πάρα πολλές καταχωρήσεις -- εμφανίζονται οι πρώτες
+msg.phrase	no file system found on this partition	δεν βρέθηκε κανένα σύστημα αρχείων σε αυτό το διαμέρισμα
+msg.phrase	the path is too long	η διαδρομή είναι πολύ μεγάλη
+msg.phrase	joining...	συμμετοχή...
+msg.phrase	splitting...	χωρισμός...
+msg.phrase	renaming...	μετονομασία...
+msg.phrase	creating the folder...	δημιουργία του φακέλου...
+msg.phrase	creating the file...	δημιουργία του αρχείου...
+msg.phrase	deleting...	διαγραφή...
+msg.phrase	writing the attributes...	γράφοντας τις ιδιότητες...
+msg.phrase	the drive is busy	ο δίσκος είναι απασχολημένος
+msg.phrase	busy	απασχολημένος
+msg.phrase	choose files or folders	επιλέξτε αρχεία ή φακέλους
+msg.phrase	choose files or folders (not "..")	επιλέξτε αρχεία ή φακέλους (όχι "..")
+msg.phrase	stop the CD first	σταματήστε πρώτα το CD
+msg.phrase	the CD cannot be changed (copy instead)	το CD δεν μπορεί να αλλάξει (αντίγραφο)
+msg.phrase	a system folder cannot be moved	ένας φάκελος συστήματος δεν μπορεί να μετακινηθεί
+msg.phrase	no drive can be written (FAT / exFAT / NTFS only)	δεν μπορεί να γραφτεί καμία μονάδα δίσκου (μόνο FAT / exFAT / NTFS)
+msg.phrase	the drive is gone	ο δίσκος έχει φύγει
+msg.phrase	nothing chosen	τίποτα επιλεγμένο
+msg.phrase	nothing selected	τίποτα επιλεγμένο
+msg.phrase	could not start	δεν μπορούσε να ξεκινήσει
+msg.phrase	could not open	δεν μπορούσε να ανοίξει
+msg.phrase	only on a FAT / exFAT / NTFS drive	μόνο σε μονάδα FAT / exFAT / NTFS
+msg.phrase	no name	κανένα όνομα
+msg.phrase	that name already exists	αυτό το όνομα υπάρχει ήδη
+msg.phrase	could not start (bad name or the drive is busy)	δεν μπόρεσε να ξεκινήσει (κακό όνομα ή η μονάδα είναι απασχολημένη)
+msg.phrase	could not start (the drive is busy)	δεν μπόρεσε να ξεκινήσει (η μονάδα είναι απασχολημένη)
+msg.phrase	the name cannot have / or \\ (only inside this folder)	το όνομα δεν μπορεί να έχει / ή \\ (μόνο μέσα σε αυτόν τον φάκελο)
+msg.phrase	the name is the same	το όνομα είναι το ίδιο
+msg.phrase	the item is read-only (A to change)	το στοιχείο είναι μόνο για ανάγνωση (Α για αλλαγή)
+msg.phrase	choose a .rb file on a writable drive	επιλέξτε ένα αρχείο .rb σε μια εγγράψιμη μονάδα δίσκου
+msg.phrase	choose a .rb file	επιλέξτε ένα αρχείο .rb
+msg.phrase	the drive is read-only	η μονάδα είναι μόνο για ανάγνωση
+msg.phrase	choose a folder on a writable drive	επιλέξτε ένα φάκελο σε μια εγγράψιμη μονάδα δίσκου
+msg.phrase	wait a moment	περίμενε μια στιγμή
+msg.phrase	choose a file	επιλέξτε ένα αρχείο
+msg.phrase	choose a file (not a folder)	επιλέξτε ένα αρχείο (όχι φάκελο)
+msg.phrase	choose a .001 file	επιλέξτε ένα αρχείο .001
+msg.phrase	choose the .001 file	επιλέξτε το αρχείο .001
+msg.phrase	put the IWAD in a DoomFiles or Doom2Files folder	τοποθετήστε το IWAD σε έναν φάκελο DoomFiles ή Doom2Files
+msg.phrase	DoomFiles takes freedoom1 / doom / doomu / doom1.wad	Το DoomFiles παίρνει το freedoom1 / doom / doomu / doom1.wad
+msg.phrase	Doom2Files takes freedoom2 / doom2 / plutonia / tnt.wad	Το Doom2Files παίρνει το freedoom2 / doom2 / plutonia / tnt.wad
+msg.phrase	put the game files on external storage, not S:	τοποθετήστε τα αρχεία του παιχνιδιού σε εξωτερικό χώρο αποθήκευσης, όχι S:
+msg.phrase	the IWAD must be on a FAT / exFAT / NTFS drive (not a CD)	το IWAD πρέπει να βρίσκεται σε μονάδα FAT / exFAT / NTFS (όχι CD)
+msg.phrase	still working	ακόμα δουλεύει
+msg.phrase	an image is loading	μια εικόνα φορτώνεται
+msg.phrase	no framebuffer	χωρίς framebuffer
+msg.phrase	half brightness works only in RGB555	Η μισή φωτεινότητα λειτουργεί μόνο σε RGB555
+msg.phrase	clearing...	εκκαθάριση...
+msg.phrase	halving the brightness...	μειώνοντας στο μισό τη φωτεινότητα...
+msg.phrase	that is a data track	αυτό είναι ένα κομμάτι δεδομένων
+msg.phrase	wait -- a file is being written	περιμένετε -- γράφεται ένα αρχείο
+msg.phrase	only floppy / LS-120 / CD drives	μόνο μονάδες δισκέτας / LS-120 / CD
+msg.phrase	requested	ζητήθηκε
+msg.phrase	reading the disc...	διαβάζοντας το δίσκο...
+msg.phrase	stopping...	σταματώντας...
+msg.phrase	opening...	άνοιγμα...
+msg.phrase	done	έγινε
+msg.phrase	no memory	καμία μνήμη
+msg.phrase	already open	ήδη ανοιχτό
+msg.phrase	already running	ήδη τρέχει
+msg.phrase	already saving	ήδη εξοικονομεί
+msg.phrase	already playing	ήδη παίζει
+msg.phrase	no such drive	καμία τέτοια κίνηση
+msg.phrase	no PSRAM	όχι PSRAM
+msg.phrase	no PSRAM for the file	δεν υπάρχει PSRAM για το αρχείο
+msg.phrase	no PSRAM for the line index	δεν υπάρχει PSRAM για το ευρετήριο γραμμής
+msg.phrase	no PSRAM for the terminal	δεν υπάρχει PSRAM για το τερματικό
+msg.phrase	no memory (PSRAM)	χωρίς μνήμη (PSRAM)
+msg.phrase	no memory (32KB SRAM)	χωρίς μνήμη (32 KB SRAM)
+msg.phrase	no memory for the buffer	δεν υπάρχει μνήμη για το buffer
+msg.phrase	no memory for the image buffers	δεν υπάρχει μνήμη για τα buffer εικόνας
+msg.phrase	no memory for the read buffer	δεν υπάρχει μνήμη για το buffer ανάγνωσης
+msg.phrase	no room for the work memory (close the lowres plane?)	δεν υπάρχει χώρος για τη μνήμη εργασίας (να κλείσει το επίπεδο χαμηλών τιμών;)
+msg.phrase	no framebuffer page	δεν υπάρχει σελίδα του framebuffer
+msg.phrase	too large (4 MB at most)	πολύ μεγάλο (4 MB το πολύ)
+msg.phrase	the file is too large (1 MB at most)	το αρχείο είναι πολύ μεγάλο (1 MB το πολύ)
+msg.phrase	the file is too large (1 MB max)	το αρχείο είναι πολύ μεγάλο (μέγιστο 1 MB)
+msg.phrase	too large for an SMF (1MB at most)	πολύ μεγάλο για SMF (1 MB το πολύ)
+msg.phrase	the file is empty	το αρχείο είναι κενό
+msg.phrase	could not open the file	δεν μπόρεσε να ανοίξει το αρχείο
+msg.phrase	could not read the file	δεν μπόρεσε να διαβάσει το αρχείο
+msg.phrase	could not open the volume	δεν μπόρεσε να ανοίξει την ένταση
+msg.phrase	could not open the destination (no memory?)	δεν μπόρεσα να ανοίξω τον προορισμό (δεν υπάρχει μνήμη;)
+msg.phrase	could not read the root folder	δεν μπόρεσε να διαβάσει τον ριζικό φάκελο
+msg.phrase	could not start the task	δεν μπόρεσε να ξεκινήσει την εργασία
+msg.phrase	could not start writing (bad name or busy)	δεν μπόρεσα να αρχίσω να γράφω (κακό όνομα ή απασχολημένος)
+msg.phrase	another volume is open (busy)	άλλος τόμος είναι ανοιχτός (απασχολημένος)
+msg.phrase	a copy is running	εκτελείται ένα αντίγραφο
+msg.phrase	a folder cannot go into itself	ένας φάκελος δεν μπορεί να μπει στον εαυτό του
+msg.phrase	that is the same folder	αυτός είναι ο ίδιος φάκελος
+msg.phrase	this drive cannot be changed (read only)	αυτή η μονάδα δίσκου δεν μπορεί να αλλάξει (μόνο για ανάγνωση)
+msg.phrase	the drive is not writable	ο δίσκος δεν είναι εγγράψιμος
+msg.phrase	the part size must be a multiple of 512	το μέγεθος του εξαρτήματος πρέπει να είναι πολλαπλάσιο του 512
+msg.phrase	files of 4 GB or more are not supported	αρχεία 4 GB και άνω δεν υποστηρίζονται
+msg.phrase	bad path	κακό μονοπάτι
+msg.phrase	bad file name	κακό όνομα αρχείου
+msg.phrase	the font ROM is not there	η γραμματοσειρά ROM δεν υπάρχει
+msg.phrase	the sound is not open	ο ήχος δεν είναι ανοιχτός
+msg.phrase	no such channel	κανένα τέτοιο κανάλι
+msg.phrase	the sequencer is busy	το sequencer είναι απασχολημένο
+msg.phrase	not enough PSRAM for the song	δεν φτάνει το PSRAM για το τραγούδι
+msg.phrase	not a standard MIDI file (no MThd)	δεν είναι τυπικό αρχείο MIDI (χωρίς MThd)
+msg.phrase	no tracks	κανένα κομμάτι
+msg.phrase	a track is broken (MTrk)	ένα κομμάτι είναι σπασμένο (MTrk)
+msg.phrase	SMPTE time division is not supported	Η διαίρεση χρόνου SMPTE δεν υποστηρίζεται
+msg.phrase	SMF format 2 is not supported (0 and 1 only)	Η μορφή SMF 2 δεν υποστηρίζεται (μόνο 0 και 1)
+msg.phrase	not a Bulk-Only drive	όχι μια μονάδα δίσκου μόνο μαζικής χρήσης
+msg.phrase	not an optical drive	όχι μονάδα οπτικού δίσκου
+msg.phrase	a system folder cannot be deleted or renamed	ένας φάκελος συστήματος δεν μπορεί να διαγραφεί ή να μετονομαστεί
+msg.phrase	no media in the drive	δεν υπάρχουν μέσα στη μονάδα δίσκου
+msg.phrase	becoming ready	να γίνει έτοιμος
+msg.phrase	not ready	δεν είναι έτοιμο
+msg.phrase	media changed	άλλαξαν τα μέσα
+msg.phrase	medium error	μέτριο σφάλμα
+msg.phrase	illegal request	παράνομο αίτημα
+msg.phrase	a bad directory entry	κακή καταχώρηση καταλόγου
+msg.phrase	a directory on the way does not exist	κατάλογος καθ' οδόν δεν υπάρχει
+msg.phrase	a file has that name	ένα αρχείο έχει αυτό το όνομα
+msg.phrase	a folder has that name	ένας φάκελος έχει αυτό το όνομα
+msg.phrase	a name on the way is not a directory	ένα όνομα στο δρόμο δεν είναι κατάλογος
+msg.phrase	cancelled	ακυρώθηκε
+msg.phrase	could not mount	δεν μπορούσε να τοποθετηθεί
+msg.phrase	could not start a read	δεν μπόρεσε να ξεκινήσει μια ανάγνωση
+msg.phrase	could not start a write	δεν μπόρεσα να ξεκινήσω μια εγγραφή
+msg.phrase	is a directory	είναι ένας κατάλογος
+msg.phrase	that is a directory	αυτός είναι ένας κατάλογος
+msg.phrase	no clusters	χωρίς συστάδες
+msg.phrase	no room for the cluster list	δεν υπάρχει χώρος για τη λίστα συμπλέγματος
+msg.phrase	no such file or directory	κανένα τέτοιο αρχείο ή κατάλογος
+msg.phrase	no such file	κανένα τέτοιο αρχείο
+msg.phrase	no volume	χωρίς όγκο
+msg.phrase	not NTFS	όχι NTFS
+msg.phrase	not exFAT	όχι exFAT
+msg.phrase	not a directory	όχι κατάλογος
+msg.phrase	not found	δεν βρέθηκε
+msg.phrase	read error	σφάλμα ανάγνωσης
+msg.phrase	write error	σφάλμα εγγραφής
+msg.phrase	reading the FAT failed	Η ανάγνωση του FAT απέτυχε
+msg.phrase	the cluster chain is shorter than the file	η αλυσίδα συμπλέγματος είναι μικρότερη από το αρχείο
+msg.phrase	the directory is not empty	ο κατάλογος δεν είναι κενός
+msg.phrase	the disk is full	ο δίσκος είναι γεμάτος
+msg.phrase	the drive did not answer	ο δίσκος δεν απάντησε
+msg.phrase	the file is read-only	το αρχείο είναι μόνο για ανάγνωση
+msg.phrase	the file is too fragmented	το αρχείο είναι πολύ κατακερματισμένο
+msg.phrase	the file is too large (4GB)	το αρχείο είναι πολύ μεγάλο (4 GB)
+msg.phrase	the new name already exists	το νέο όνομα υπάρχει ήδη
+msg.phrase	the root directory is full	ο ριζικός κατάλογος είναι γεμάτος
+msg.phrase	too many files with the same short name	πάρα πολλά αρχεία με το ίδιο σύντομο όνομα
+msg.phrase	No such file or directory	Δεν υπάρχει τέτοιο αρχείο ή κατάλογος
+msg.phrase	File exists	Το αρχείο υπάρχει
+msg.phrase	Permission denied	Η άδεια απορρίφθηκε
+msg.phrase	Directory not empty	Ο κατάλογος δεν είναι κενός
+msg.phrase	Not a directory	Όχι κατάλογος
+msg.phrase	Is a directory	Είναι ένας κατάλογος
+msg.phrase	Read-only file system	Σύστημα αρχείων μόνο για ανάγνωση
+msg.phrase	No space left on device	Δεν υπάρχει χώρος στη συσκευή
+msg.phrase	Input/output error	Σφάλμα εισόδου/εξόδου
+msg.phrase	Not supported on this drive	Δεν υποστηρίζεται σε αυτήν τη μονάδα δίσκου
+msg.phrase	Invalid path	Μη έγκυρη διαδρομή
+msg.phrase	Out of memory	Χωρίς μνήμη
+msg.phrase	No such drive	Δεν υπάρχει τέτοια κίνηση
+msg.phrase	stopped	σταμάτησε
+msg.phrase	cancelled (not enough free space)	ακυρώθηκε (δεν υπάρχει αρκετός ελεύθερος χώρος)
+msg.phrase	could not count the free space	δεν μπορούσε να μετρήσει τον ελεύθερο χώρο
+msg.phrase	the receiver cancelled	ο δέκτης ακυρώθηκε
+msg.phrase	no receiver (run rz on the PC)	χωρίς δέκτη (τρέξτε το rz στον υπολογιστή)
+msg.phrase	the console UART is in use	η κονσόλα UART χρησιμοποιείται
+msg.phrase	the screen mode changed	η λειτουργία οθόνης άλλαξε
+msg.phrase	the lines did not come (is the display running?)	οι γραμμές δεν ήρθαν (τρέχει η οθόνη;)
+msg.prefix	copy	αντίγραφο
+msg.prefix	move	κίνηση
+msg.prefix	delete	διαγραφή
+msg.prefix	rename	μετονομασία
+msg.prefix	attributes	ιδιότητες
+msg.prefix	new file	νέο αρχείο
+msg.prefix	new folder	νέο φάκελο
+msg.prefix	image	εικόνα
+msg.prefix	mrbc	mrbc
+msg.prefix	ruby	ρουμπίνι
+msg.prefix	viewer	θεατής
+msg.prefix	edit	επεξεργασία
+msg.prefix	IDENTIFY	ΤΑΥΤΟΠΟΙΗΣΤΕ
+msg.prefix	ZMODEM	ZMODEM
+msg.prefix	ZMODEM receive	Λήψη ZMODEM
+msg.prefix	ZMODEM send	Αποστολή ZMODEM
+msg.prefix	split	διάσπαση
+msg.prefix	join	εγγραφείτε
+msg.prefix	Doom	Καταστροφή
+msg.prefix	SMF	SMF
+msg.prefix	CD	CD
+msg.prefix	FB	FB
+msg.prefix	Eject	Εξαγωγή
+msg.prefix	reboot	επανεκκίνηση
+msg.prefix	license	άδεια
+msg.prefix	clock	ρολόι
+msg.prefix	ADC in	ADC σε
+msg.prefix	screen -> PNG	οθόνη -> PNG
+msg.prefix	FB -> PNG	FB -> PNG
+msg.prefix	could not open the volume	δεν μπόρεσε να ανοίξει την ένταση
+msg.pattern	received 	έλαβε %s
+msg.pattern	sent 	έστειλε %s
+msg.pattern	saved 	σώθηκε %s
+msg.pattern	created 	δημιουργήθηκε %s
+msg.pattern	renamed to 	μετονομάστηκε σε %s
+msg.pattern	deleted 	διαγράφηκε %s
+msg.pattern	changed 	άλλαξε %s
+msg.pattern	joined 	εντάχθηκε %s
+msg.pattern	split 	διάσπαση %s
+msg.pattern	could not create 	δεν μπορούσε να δημιουργήσει %s
+msg.pattern	could not delete 	δεν μπόρεσε να διαγράψει %s
+msg.pattern	could not rename to 	δεν ήταν δυνατή η μετονομασία σε %s
+msg.pattern	could not change 	δεν μπορούσε να αλλάξει %s
+msg.pattern	could not read 	δεν μπορούσε να διαβάσει %s
+msg.pattern	could not write 	δεν μπορούσε να γράψει %s
+msg.pattern	could not copy 	δεν μπόρεσε να αντιγράψει %s
+msg.pattern	could not make 	δεν μπορούσε να κάνει %s
+msg.pattern	could not remove the folder 	δεν ήταν δυνατή η αφαίρεση του φακέλου %s
+msg.pattern	could not remove 	δεν μπόρεσε να αφαιρέσει %s
+msg.pattern	no memory for 	καμία μνήμη για %s
+msg.pattern	too many errors while sending 	πάρα πολλά σφάλματα κατά την αποστολή %s
+msg.pattern	the receiver did not take 	ο δέκτης δεν πήρε %s
+msg.pattern	the receiver skipped 	ο δέκτης παρακάμψε %s
+msg.pattern	FB page 	Σελίδα FB %s
+msg.word	 bytes each)	 byte το καθένα)
+msg.word	 bytes)	 byte)
+msg.word	 KB)	 KB)
+msg.word	 parts into 	 μέρη σε 
+msg.word	 parts (	 μέρη (
+msg.word	 into 	σε 
+msg.word	: cleared	: εκκαθαρίστηκε
+msg.word	: brightness halved	: η φωτεινότητα μειώθηκε στο μισό
+msg.word	% read	% read
+msg.word	 rows	 σειρές
+msg.word	 -- not supported yet (FAT / exFAT / NTFS only)	 -- δεν υποστηρίζεται ακόμη (μόνο FAT / exFAT / NTFS)
+msg.word	 files	 αρχεία
+msg.word	 (	 (
+msg.phrase	Untitled	Χωρίς τίτλο
+msg.phrase	%s%d	%s%d
+msg.phrase	%s%d:%s%d	%s%d:%s%d
+msg.phrase	1 File	1 Αρχείο
+msg.phrase	2 Edit	2 Επεξεργασία
+msg.phrase	3 Graph	3 Γράφημα
+msg.phrase	4 Sheet	4 Φύλλο
+msg.phrase	5 Help	5 Βοήθεια
+msg.phrase	%s	%s
+msg.phrase	%.40s%s	%.40s%s
+msg.phrase	EMPTY	ΑΔΕΙΟ
+msg.phrase	NUMBER	ΑΡΙΘΜΟΣ
+msg.phrase	TEXT	ΚΕΙΜΕΝΟ
+msg.phrase	FORMULA	ΦΟΡΜΟΥΛΑ
+msg.phrase	  [%s]   %s	  [%s] %s
+msg.phrase	EDIT  	ΕΠΕΞΕΡΓΑΣΙΑ
+msg.phrase	READY 	ΕΤΟΙΜΟΙ
+msg.phrase	Type to enter, F2 to edit, F1 for help	Πληκτρολογήστε για εισαγωγή, F2 για επεξεργασία, F1 για βοήθεια
+msg.phrase	%4d 	%4d
+msg.phrase	5 CSV	5 CSV
+msg.phrase	6 ODS	6 ODS
+msg.phrase	[SHIFT]	[SHIFT]
+msg.phrase	[CTRL]	[CTRL]
+msg.phrase	[ALT]	[ALT]
+msg.phrase	Ready	Ετοιμος
+msg.phrase	%s Sum %.7g N %ld%s	%s Άθροισμα %.7g N %ld%s
+msg.phrase	SGCALC	SGCALC
+msg.phrase	Press any key	Πατήστε οποιοδήποτε πλήκτρο
+msg.phrase	Y = yes    N = no    Esc = cancel	Y = ναι N = όχι Esc = ακύρωση
+msg.phrase	Enter = OK    Esc = cancel    Ctrl-U = clear	Enter = OK Esc = ακύρωση Ctrl-U = διαγραφή
+msg.phrase	ARROWS      move the cell cursor\n	ΤΑ ΒΕΛΑ μετακινούν τον κέρσορα του κελιού
+msg.phrase	SHIFT+ARR   extend the selection (for graphs/copy)\n	Το SHIFT+ARR επεκτείνει την επιλογή (για γραφήματα/αντίγραφα)
+msg.phrase	ENTER       edit the cell; in edit, commit and move down\n	ENTER επεξεργαστείτε το κελί. σε επεξεργασία, δέσμευση και μετακίνηση προς τα κάτω
+msg.phrase	TAB         next cell    SHIFT+TAB  previous cell\n	TAB επόμενο κελί SHIFT+TAB προηγούμενο κελί
+msg.phrase	DELETE      clear the selected cell(s)    ESC  cancel\n	ΔΙΑΓΡΑΦΗ ακύρωση του επιλεγμένου κελιού(ων) ESC
+msg.phrase	PGUP/PGDN   move one screen    HOME/END  first/last column\n	PGUP/PGDN μετακίνηση μιας οθόνης ΑΡΧΙΚΗ/ΤΕΛΟΣ πρώτη/τελευταία στήλη
+msg.phrase	CTRL+HOME   A1    CTRL+END  last used cell\n	CTRL+HOME A1 CTRL+END τελευταίο κελί που χρησιμοποιήθηκε
+msg.phrase	F1 help  F2 edit  F3 copy  F4 paste  F5 goto  F6 colour\n	F1 βοήθεια F2 επεξεργασία F3 αντιγραφή F4 επικόλληση F5 πήρε χρώμα F6
+msg.phrase	F7 auto-fit  F8 background  F9 recalc  F10 graph  F11 save  F12 menu\n	F7 αυτόματη προσαρμογή F8 φόντο F9 επανυπολογισμός Γράφημα F10 F11 αποθήκευση μενού F12
+msg.phrase	SHIFT+F1 about  SHIFT+F2 row height  SHIFT+F3 column width\n	SHIFT+F1 σχετικά με το ύψος της γραμμής SHIFT+F2 SHIFT+F3 πλάτος στήλης
+msg.phrase	SHIFT+F4 select all  SHIFT+F10 graph range  SHIFT+F11 save as\n	SHIFT+F4 επιλέξτε όλο το εύρος γραφημάτων SHIFT+F10 SHIFT+F11 αποθήκευση ως
+msg.phrase	CTRL+F1 new  CTRL+F2 open  CTRL+F3 save  CTRL+F4 save as\n	CTRL+F1 νέο CTRL+F2 άνοιγμα CTRL+F3 αποθήκευση CTRL+F4 αποθήκευση ως
+msg.phrase	CTRL+F5 export CSV  CTRL+F6 export ODS  ALT+F12 quit\n	CTRL+F5 εξαγωγή CSV CTRL+F6 εξαγωγή ODS ALT+F12 τερματισμός
+msg.phrase	Bottom 2 lines: function keys; [SHIFT]/[CTRL]/[ALT] like the filer\n	Κάτω 2 γραμμές: πλήκτρα λειτουργιών. [SHIFT]/[CTRL]/[ALT] όπως το αρχείο αρχειοθέτησης
+msg.phrase	CTRL+S save  CTRL+O open  CTRL+N new  CTRL+C/V/X copy/paste/cut\n	CTRL+S αποθήκευση CTRL+O άνοιγμα CTRL+N νέο CTRL+C/V/X αντιγραφή/επικόλληση/κοπή
+msg.phrase	CTRL+G goto    /  open the menu (1 File, 2 Edit, ...)\n	CTRL+G πήγε / ανοίξτε το μενού (1 Αρχείο, 2 Επεξεργασία, ...)
+msg.phrase	Built-in functions: SUM AVERAGE MIN MAX COUNT COUNTA\n	Ενσωματωμένες λειτουργίες: ΑΘΡΟΙΣΜΟΣ ΜΕΣΟΣ ΕΛΑΧΙΣΤΟΣ ΜΕΓΙΣΤΟΣ ΑΡΙΘΜΟΣ COUNTA
+msg.phrase	PRODUCT ABS SQRT INT ROUND MOD POWER IF AND OR NOT\n	ΠΡΟΪΟΝ ABS SQRT INT ROUND MOD POWER ΑΝ ΚΑΙ Ή ΟΧΙ
+msg.phrase	IFERROR LEN LEFT RIGHT MID UPPER LOWER TRIM CONCATENATE PI\n	IFERROR LEN ΑΡΙΣΤΕΡΑ ΔΕΞΙΑ ΜΕΣΑ ΕΠΑΝΩ ΚΑΤΩ ΔΙΑΤΡΟΦΗ ΣΥΝΔΥΑΣΜΕΝΟ PI
+msg.phrase	Cell refs: A1, $A$1, A1:B10.  Formulas begin with '='.\n	Αναφορές κελιών: A1, $A$1, A1:B10.  Οι τύποι ξεκινούν με '='.
+msg.phrase	Files: .ods (LibreOffice), .fods (flat XML), .csv\n	Αρχεία: .ods (LibreOffice), .fods (flat XML), .csv
+msg.phrase	ODS/FODS keeps formulas, widths, heights and colours.\n	Το ODS/FODS διατηρεί τύπους, πλάτη, ύψη και χρώματα.
+msg.phrase	CSV keeps values and formulas (no colours/heights).\n	Το CSV διατηρεί τιμές και τύπους (χωρίς χρώματα/ύψη).
+msg.phrase	Graph: select a range, press F10, and choose Line/Bar/Mixed/Pie.\n	Γράφημα: επιλέξτε ένα εύρος, πατήστε F10 και επιλέξτε Γραμμή/Μπάρ/Μικτή/Πίτα.
+msg.phrase	First row/column = labels; charts use the 640x480 CLUT8 FB.	Πρώτη σειρά/στήλη = ετικέτες. Τα γραφήματα χρησιμοποιούν το 640x480 CLUT8 FB.
+msg.phrase	SGCALC - HELP	SGCALC - ΒΟΗΘΕΙΑ
+msg.phrase	Press any key to return	Πατήστε οποιοδήποτε πλήκτρο για να επιστρέψετε
+msg.phrase	SGCALC for sgnano\n	SGCALC για sgnano
+msg.phrase	Version 	Εκδοχή
+msg.phrase	A Lotus 1-2-3 style spreadsheet as an SGX program.\n\n	Ένα υπολογιστικό φύλλο στυλ Lotus 1-2-3 ως πρόγραμμα SGX.
+msg.phrase	SGX ABI %u.%u\n	SGX ABI %u.%u
+msg.phrase	Screen mode 3: text + CLUT8 FB (lowres disabled)\n	Λειτουργία οθόνης 3: κείμενο + CLUT8 FB (χαμηλώνει απενεργοποιημένο)
+msg.phrase	Sheet: %d rows x %d columns\n	Φύλλο: %d σειρές x %d στήλες
+msg.phrase	Formats: .ods / .fods (LibreOffice), .csv\n\n	Μορφές: .ods / .fods (LibreOffice), .csv
+msg.phrase	The grid is drawn on the text plane.\n	Το πλέγμα σχεδιάζεται στο επίπεδο κειμένου.
+msg.phrase	Charts and the 640x480 background use the FB.\n\n	Τα γραφήματα και το φόντο 640x480 χρησιμοποιούν το FB.
+msg.phrase	Press any key to return.	Πατήστε οποιοδήποτε πλήκτρο για επιστροφή.
+msg.phrase	ABOUT SGCALC	ΠΕΡΙ SGCALC
+msg.phrase	New	Νέος
+msg.phrase	Start a new sheet	Ξεκινήστε ένα νέο φύλλο
+msg.phrase	Open...	Ανοιχτό...
+msg.phrase	Open an ODS, FODS or CSV file	Ανοίξτε ένα αρχείο ODS, FODS ή CSV
+msg.phrase	Save	Αποθήκευση
+msg.phrase	Save the current file	Αποθηκεύστε το τρέχον αρχείο
+msg.phrase	Save As...	Αποθήκευση ως...
+msg.phrase	Save with a new name or format	Αποθήκευση με νέο όνομα ή μορφή
+msg.phrase	Export CSV...	Εξαγωγή CSV...
+msg.phrase	Write a CSV copy	Γράψτε ένα αντίγραφο CSV
+msg.phrase	Export ODS...	Εξαγωγή ODS...
+msg.phrase	Write a LibreOffice copy	Γράψτε ένα αντίγραφο LibreOffice
+msg.phrase	Quit	Κλείσε
+msg.phrase	Leave SGCALC	Αφήστε το SGCALC
+msg.phrase	Clear	Καθαρό
+msg.phrase	Clear the selected cells	Διαγράψτε τα επιλεγμένα κελιά
+msg.phrase	Copy	Αντιγραφή
+msg.phrase	Copy the selection	Αντιγράψτε την επιλογή
+msg.phrase	Paste	Επικόλληση
+msg.phrase	Paste at the cursor	Επικόλληση στον κέρσορα
+msg.phrase	Cut	Κόψτε
+msg.phrase	Copy and clear the selection	Αντιγράψτε και διαγράψτε την επιλογή
+msg.phrase	Select all	Επιλέξτε όλα
+msg.phrase	Select all used cells	Επιλέξτε όλα τα χρησιμοποιημένα κελιά
+msg.phrase	Text color...	Χρώμα κειμένου...
+msg.phrase	Choose the text colour	Επιλέξτε το χρώμα του κειμένου
+msg.phrase	Background...	Φόντο...
+msg.phrase	Choose the cell background	Επιλέξτε το φόντο του κελιού
+msg.phrase	Line	Γραμμή
+msg.phrase	Draw a line graph from the selection	Σχεδιάστε ένα γραμμικό γράφημα από την επιλογή
+msg.phrase	Bar	Μπαρ
+msg.phrase	Draw a bar graph from the selection	Σχεδιάστε ένα γράφημα ράβδων από την επιλογή
+msg.phrase	Mixed	Μικτή
+msg.phrase	Bars for the first series, lines for the rest	Μπάρες για την πρώτη σειρά, γραμμές για τις υπόλοιπες
+msg.phrase	Pie	Πίτα
+msg.phrase	Draw a pie graph from the selection	Σχεδιάστε ένα γράφημα πίτας από την επιλογή
+msg.phrase	Range...	Εύρος...
+msg.phrase	Set the graph range explicitly	Ρυθμίστε ρητά το εύρος του γραφήματος
+msg.phrase	Draw again	Ζωγραφίστε ξανά
+msg.phrase	Redraw the last graph	Ξανασχεδιάστε το τελευταίο γράφημα
+msg.phrase	Goto...	Πήγαινε...
+msg.phrase	Jump to a cell (for example C12)	Μετάβαση σε ένα κελί (για παράδειγμα C12)
+msg.phrase	Column width...	Πλάτος στήλης...
+msg.phrase	Change the selected columns' width	Αλλάξτε το πλάτος των επιλεγμένων στηλών
+msg.phrase	Row height...	Ύψος σειράς...
+msg.phrase	Change the selected rows' height	Αλλάξτε το ύψος των επιλεγμένων σειρών
+msg.phrase	Auto fit	Αυτόματη εφαρμογή
+msg.phrase	Fit widths/heights to the contents (F7)	Προσαρμόστε τα πλάτη/ύψη στο περιεχόμενο (F7)
+msg.phrase	Recalculate	Υπολογίστε ξανά
+msg.phrase	Re-evaluate all formulas	Επαναξιολογήστε όλους τους τύπους
+msg.phrase	Erase all	Σβήσε όλα
+msg.phrase	Clear the whole sheet	Καθαρίστε ολόκληρο το φύλλο
+msg.phrase	Keys	Κλειδιά
+msg.phrase	Show the key guide	Δείξτε τον οδηγό κλειδιού
+msg.phrase	About	Περίπου
+msg.phrase	About SGCALC	Σχετικά με το SGCALC
+msg.phrase	File	Αρχείο
+msg.phrase	Edit	Επεξεργασία
+msg.phrase	Graph	Γράφημα
+msg.phrase	Sheet	Φύλλο
+msg.phrase	Help	Βοήθεια
+msg.phrase	File: new, open, save, export, quit	Αρχείο: νέο, άνοιγμα, αποθήκευση, εξαγωγή, έξοδος
+msg.phrase	Edit: clear, copy, paste, cut, select all	Επεξεργασία: διαγραφή, αντιγραφή, επικόλληση, αποκοπή, επιλογή όλων
+msg.phrase	Graph: line, bar, mixed, pie (draws in the FB)	Γράφημα: γραμμή, μπάρα, μικτή, πίτα (ζωγραφιές στο FB)
+msg.phrase	Sheet: goto, column width, recalculate, erase	Φύλλο: goto, πλάτος στήλης, επανυπολογισμός, διαγραφή
+msg.phrase	Help: keys and about	Βοήθεια: κλειδιά και περίπου
+msg.phrase	%d %s	%d %s
+msg.phrase	Left/Right = menu    Up/Down = item    Enter = choose    Esc = cancel	Αριστερά/Δεξιά = μενού Πάνω/Κάτω = αντικείμενο Enter = επιλέξτε Esc = ακύρωση
+msg.phrase	Cannot store the cell (%d).	Δεν είναι δυνατή η αποθήκευση του κελιού (%d).
+msg.phrase	Cancelled	Ακυρώθηκε
+msg.phrase	Copied %d x %d cells	Αντιγράφηκαν %d x %d κελιά
+msg.phrase	The selection is too large or memory is low.	Η επιλογή είναι πολύ μεγάλη ή η μνήμη είναι χαμηλή.
+msg.phrase	Cleared %s	Εκκαθάριση %s
+msg.phrase	the cell	το κελί
+msg.phrase	the selection	την επιλογή
+msg.phrase	Nothing to paste	Δεν υπάρχει τίποτα για να επικολλήσετε
+msg.phrase	Pasted	Επικολλήθηκε
+msg.phrase	GO TO CELL	ΠΗΓΑΙΝΕ ΣΤΟ ΚΕΛΙ
+msg.phrase	Cell reference (A1):	Αναφορά κελιού (A1):
+msg.phrase	Goto	Goto
+msg.phrase	'%s' is not a cell reference.	Το '%s' δεν είναι αναφορά κελιού.
+msg.phrase	%d	%d
+msg.phrase	COLUMN WIDTH	ΠΛΑΤΟΣ ΣΤΗΛΗΣ
+msg.phrase	Width in characters (4..30):	Πλάτος σε χαρακτήρες (4..30):
+msg.phrase	Column width = %d	Πλάτος στήλης = %d
+msg.phrase	ROW HEIGHT	ΥΨΟΣ ΣΕΙΡΑΣ
+msg.phrase	Height in text rows (1..8):	Ύψος σε σειρές κειμένου (1..8):
+msg.phrase	Row height = %d	Ύψος σειράς = %d
+msg.phrase	Auto fit: the sheet is empty	Αυτόματη προσαρμογή: το φύλλο είναι άδειο
+msg.phrase	Auto fit: %d column(s), %d row(s)	Αυτόματη προσαρμογή: %d στήλες, %d σειρές
+msg.phrase	BACKGROUND COLOUR	ΧΡΩΜΑ ΦΟΝΤΟΣ
+msg.phrase	TEXT COLOUR	ΧΡΩΜΑ ΚΕΙΜΕΝΟΥ
+msg.phrase	Arrows: choose    Enter: apply    Esc: cancel	Βέλη: επιλέξτε Enter: εφαρμογή Esc: ακύρωση
+msg.phrase	Colour index (PC-98 16-colour palette)	Ευρετήριο χρωμάτων (PC-98 παλέτα 16 χρωμάτων)
+msg.phrase	%2d	%2d
+msg.phrase	Aa 123	Αα 123
+msg.phrase	Enter = apply    Esc = cancel	Enter = εφαρμογή Esc = ακύρωση
+msg.phrase	Colour	Χρώμα
+msg.phrase	Cannot apply the colour (%d).	Δεν είναι δυνατή η εφαρμογή του χρώματος (%d).
+msg.phrase	%s colour = %d	%s χρώμα = %d
+msg.phrase	Background	Φόντο
+msg.phrase	Text	Κείμενο
+msg.phrase	GRAPH RANGE	Εύρος ΓΡΑΦΗΜΑΤΟΣ
+msg.phrase	Range (for example A1:C10):	Εύρος (για παράδειγμα A1:C10):
+msg.phrase	Graph range	Εύρος γραφήματος
+msg.phrase	Use a range such as A1:C10.	Χρησιμοποιήστε ένα εύρος όπως A1:C10.
+msg.phrase	Not a valid range.\nUse a range such as A1:C10.	Δεν είναι έγκυρο εύρος.\nΧρησιμοποιήστε ένα εύρος όπως A1:C10.
+msg.phrase	Graph range %s	Εύρος γραφήματος %s
+msg.phrase	Cannot draw the graph.	Δεν είναι δυνατή η σχεδίαση του γραφήματος.
+msg.phrase	Graph: %s	Γράφημα: %s
+msg.phrase	line	γραμμή
+msg.phrase	bar	μπαρ
+msg.phrase	mixed	μικτός
+msg.phrase	pie	πίτα
+msg.phrase	Clear every cell in this sheet?	Διαγραφή κάθε κελιού σε αυτό το φύλλο;
+msg.phrase	Sheet erased	Το φύλλο διαγράφηκε
+msg.phrase	Selected all used cells	Επιλέχθηκαν όλα τα χρησιμοποιημένα κελιά
+msg.phrase	Recalculated	Υπολογίστηκε εκ νέου
+msg.phrase	SGCALC: cannot set screen mode 3: %s\n	SGCALC: δεν μπορεί να οριστεί η λειτουργία οθόνης 3: %s
+msg.phrase	Memory	Μνήμη
+msg.phrase	Not enough PSRAM for the spreadsheet.	Δεν υπάρχει αρκετό PSRAM για το υπολογιστικό φύλλο.
+msg.phrase	The sheet is empty.	Το φύλλο είναι άδειο.
+msg.phrase	No numeric data in the selected range.	Δεν υπάρχουν αριθμητικά δεδομένα στο επιλεγμένο εύρος.
+msg.phrase	%.2g	%.2g
+msg.phrase	%.6g	%.6g
+msg.phrase	Other	Άλλο
+msg.phrase	No positive values for a pie chart	Δεν υπάρχουν θετικές τιμές για ένα γράφημα πίτας
+msg.phrase	%s  %.0f%%	%s %.0f%%
+msg.phrase	GRAPH  %s  %s	ΓΡΑΦΗΜΑ %s %s
+msg.phrase	LINE	ΓΡΑΜΜΗ
+msg.phrase	BAR	ΜΠΑΡ
+msg.phrase	MIXED	ΜΙΚΤΟ
+msg.phrase	PIE	ΠΙΤΑ
+msg.phrase	S:/	S:/
+msg.phrase	%s%s	%s%s
+msg.phrase	%s/%s	%s/%s
+msg.phrase	%.*s	%.*s
+msg.phrase	%.*s/	%.*s/
+msg.phrase	Folder	Ντοσιέ
+msg.phrase	Cannot read %s\n%s	Δεν είναι δυνατή η ανάγνωση του %s\n%s
+msg.phrase	SAVE AS	ΑΠΟΘΗΚΕΥΣΗ ΩΣ
+msg.phrase	OPEN FILE	ΑΝΟΙΞΤΕ ΑΡΧΕΙΟ
+msg.phrase	LibreOffice / CSV	LibreOffice / CSV
+msg.phrase	ODS  FODS  CSV	ODS FODS CSV
+msg.phrase	Folder: %s	Φάκελος: %s
+msg.phrase	Name:	Ονομα:
+msg.phrase	(type a name, or choose below)	(πληκτρολογήστε ένα όνομα ή επιλέξτε παρακάτω)
+msg.phrase	Name	Ονομα
+msg.phrase	Size	Μέγεθος
+msg.phrase	[DIR] %s	[DIR] %s
+msg.phrase	      %s	      %s
+msg.phrase	%lu.%luM	%lu.%luM
+msg.phrase	%luK	%luK
+msg.phrase	%luB	%luB
+msg.phrase	Enter=save  Left=up  Right/Enter on [DIR]=open  Tab=drive  Esc=cancel	Enter=save Left=up Right/Enter on [DIR]=open Tab=drive Esc=cancel
+msg.phrase	Enter=open  Left=up  Right/Enter on [DIR]=open  Tab=drive  Esc=cancel	Enter=open Left=up Right/Enter on [DIR]=open Tab=drive Esc=cancel
+msg.phrase	BOOK1%s	BOOK1%s
+msg.phrase	Not enough memory.	Δεν αρκεί η μνήμη.
+msg.phrase	%c:/	%c:/
+msg.phrase	Unsupported extension.\nUse .csv, .ods or .fods.	Μη υποστηριζόμενη επέκταση.\nΧρησιμοποιήστε .csv, .ods ή .fods.
+msg.phrase	Overwrite	Αντικατάσταση
+msg.phrase	%s already exists.\nOverwrite it?	Το %s υπάρχει ήδη.\nΝα το αντικαταστήσω;
+msg.phrase	%s may not be writable.\nTry anyway?	Το %s ενδέχεται να μην είναι εγγράψιμο.\nΝα προσπαθήσω πάντως;
+msg.phrase	Unknown file type for %s	Άγνωστος τύπος αρχείου για %s
+msg.phrase	Open	Ανοιχτό
+msg.phrase	Unsupported file type.\nUse .csv, .ods or .fods.	Μη υποστηριζόμενος τύπος αρχείου.\nΧρησιμοποιήστε .csv, .ods ή .fods.
+msg.phrase	Cannot open %s\n%s	Δεν είναι δυνατό το άνοιγμα %s\n%s
+msg.phrase	%s is a folder.	Το %s είναι ένας φάκελος.
+msg.phrase	The file is too large (limit 8 MB).	Το αρχείο είναι πολύ μεγάλο (όριο 8 MB).
+msg.phrase	Not enough memory to read the file.	Δεν υπάρχει αρκετή μνήμη για την ανάγνωση του αρχείου.
+msg.phrase	Cannot import %s\n%s	Δεν είναι δυνατή η εισαγωγή %s\n%s
+msg.phrase	Bad ZIP/ODS data.	Εσφαλμένα δεδομένα ZIP/ODS.
+msg.phrase	CRC error in the ODS file.	Σφάλμα CRC στο αρχείο ODS.
+msg.phrase	Unsupported or damaged file.	Μη υποστηριζόμενο ή κατεστραμμένο αρχείο.
+msg.phrase	Loaded %s	Φορτώθηκε %s
+msg.phrase	Cannot build the %s file.	Δεν είναι δυνατή η δημιουργία του αρχείου %s.
+msg.phrase	Cannot write %s\n%s	Δεν είναι δυνατή η εγγραφή %s\n%s
+msg.phrase	%s %s	%s %s
+msg.phrase	Saved	Αποθηκεύτηκε
+msg.phrase	Exported	Εξάγονται
+msg.phrase	Unsaved changes	Μη αποθηκευμένες αλλαγές
+msg.phrase	Save the current sheet before continuing?	Αποθήκευση του τρέχοντος φύλλου πριν συνεχίσετε;
+msg.phrase	New sheet	Νέο φύλλο
+msg.phrase	SGTRK	SGTRK
+msg.phrase	UNTITLED	ΧΩΡΙΣ ΤΙΤΛΟ
+msg.phrase	song is too large	το τραγούδι είναι πολύ μεγάλο
+msg.phrase	empty file	κενό αρχείο
+msg.phrase	not an SGT file	δεν είναι αρχείο SGT
+msg.phrase	unsupported version %u	μη υποστηριζόμενη έκδοση %u
+msg.phrase	bad BPM	κακό BPM
+msg.phrase	bad speed	κακή ταχύτητα
+msg.phrase	bad title length	κακό μήκος τίτλου
+msg.phrase	truncated title	περικομμένος τίτλος
+msg.phrase	bad character in title	κακός χαρακτήρας στον τίτλο
+msg.phrase	truncated order	περικομμένη σειρά
+msg.phrase	bad order length	κακή διάρκεια παραγγελίας
+msg.phrase	bad pattern number in order	κακός αριθμός σχεδίου στη σειρά
+msg.phrase	truncated pattern list	λίστα περικομμένων μοτίβων
+msg.phrase	bad pattern count	κακός αριθμός μοτίβων
+msg.phrase	bad pattern index	δείκτης κακού σχεδίου
+msg.phrase	duplicate pattern	διπλό μοτίβο
+msg.phrase	truncated pattern data	περικομμένα δεδομένα μοτίβου
+msg.phrase	invalid pattern data	μη έγκυρα δεδομένα μοτίβου
+msg.phrase	trailing data in file	τελικών δεδομένων στο αρχείο
+msg.phrase	order refers to a missing pattern	Η σειρά αναφέρεται σε ένα μοτίβο που λείπει
+msg.phrase	A:/	Α:/
+msg.phrase	(untitled)	(χωρίς τίτλο)
+msg.phrase	Ready. Press F1 for help.	Έτοιμοι. Πατήστε F1 για βοήθεια.
+msg.phrase	%d:%d:%d:%d:%d:%d	%d:%d:%d:%d:%d:%d
+msg.phrase	Follow OFF	Ακολουθήστε το OFF
+msg.phrase	Octave %d	Οκτάβα %d
+msg.phrase	Nothing to undo	Δεν υπάρχει τίποτα για αναίρεση
+msg.phrase	Undo	Αναίρεση
+msg.phrase	Note OFF	Σημείωση OFF
+msg.phrase	Note %s	Σημείωση %s
+msg.phrase	Instrument %d	Όργανο %d
+msg.phrase	Volume %s	Τόμος %s
+msg.phrase	Effect %c	Επίδραση %c
+msg.phrase	Set an effect letter first	Ορίστε πρώτα ένα γράμμα εφέ
+msg.phrase	Parameter %s	Παράμετρος %s
+msg.phrase	Effect cleared	Το εφέ διαγράφηκε
+msg.phrase	Parameter cleared	Η παράμετρος διαγράφηκε
+msg.phrase	Note cleared	Η σημείωση διαγράφηκε
+msg.phrase	Instrument cleared	Το όργανο εκκαθαρίστηκε
+msg.phrase	Volume cleared	Ο τόμος διαγράφηκε
+msg.phrase	Order list is full	Η λίστα παραγγελιών είναι πλήρης
+msg.phrase	Order inserted	Η παραγγελία εισήχθη
+msg.phrase	Cannot delete the last order	Δεν είναι δυνατή η διαγραφή της τελευταίας παραγγελίας
+msg.phrase	Order deleted	Η παραγγελία διαγράφηκε
+msg.phrase	Pattern %s	Μοτίβο %s
+msg.phrase	Playing song	Παίζοντας τραγούδι
+msg.phrase	Playing pattern %s	Αναπαραγωγή μοτίβου %s
+msg.phrase	Stopped	Σταμάτησε
+msg.phrase	New song	Νέο τραγούδι
+msg.phrase	Discard unsaved changes and start a new song? (Y/N)	Απόρριψη μη αποθηκευμένων αλλαγών και έναρξη νέου τραγουδιού; (Ναι/Οχι)
+msg.phrase	SAVE ERROR: %s	ΣΦΑΛΜΑ ΑΠΟΘΗΚΕΥΣΗΣ: %s
+msg.phrase	Saved %s	Αποθηκεύτηκε %s
+msg.phrase	LOAD ERROR: %s	ΣΦΑΛΜΑ ΦΟΡΤΩΣΗΣ: %s
+msg.phrase	Discard unsaved changes and open a song? (Y/N)	Απόρριψη μη αποθηκευμένων αλλαγών και άνοιγμα τραγουδιού; (Ναι/Οχι)
+msg.phrase	Discard unsaved changes and quit? (Y/N)	Απόρριψη μη αποθηκευμένων αλλαγών και έξοδος; (Ναι/Οχι)
+msg.phrase	BPM %d	BPM %d
+msg.phrase	Speed %d	Ταχύτητα %d
+msg.phrase	Song settings updated	Οι ρυθμίσεις τραγουδιού ενημερώθηκαν
+msg.phrase	Preview %s	Προεπισκόπηση %s
+msg.phrase	Instrument %s %s	Όργανο %s %s
+msg.phrase	Filename is empty	Το όνομα αρχείου είναι κενό
+msg.phrase	Overwrite %s? (Y/N)	Αντικατάσταση %s; (Ναι/Οχι)
+msg.phrase	Save cancelled	Η αποθήκευση ακυρώθηκε
+msg.phrase	Open cancelled	Το άνοιγμα ακυρώθηκε
+msg.phrase	Edit ON	Επεξεργασία ΕΝΕΡΓΟΠΟΙΗΣΗ
+msg.phrase	Edit OFF	Επεξεργασία ΑΠΕΝΕΡΓΟΠΟΙΗΣΗ
+msg.phrase	Follow ON	Ακολουθήστε το ON
+msg.phrase	Edit is OFF. Press F8 to edit.	Η επεξεργασία είναι ΑΠΕΝΕΡΓΟΠΟΙΗΜΕΝΗ. Πατήστε F8 για επεξεργασία.
+msg.phrase	I/O error	Σφάλμα εισόδου/εξόδου
+msg.phrase	file is too large	το αρχείο είναι πολύ μεγάλο
+msg.phrase	truncated file	περικομμένο αρχείο
+msg.phrase	SINE PAD	SINE PAD
+msg.phrase	TRIANGLE	ΤΡΙΓΩΝΟ
+msg.phrase	SAW LEAD	ΜΟΛΥΔΙ ΠΡΙΟΝΙ
+msg.phrase	SQUARE	ΠΛΑΤΕΙΑ
+msg.phrase	PULSE 25	ΠΑΛΜΟΣ 25
+msg.phrase	ORGAN	ΟΡΓΑΝΟ
+msg.phrase	BASS	ΜΠΑΣΟ
+msg.phrase	BELL	BELL
+msg.phrase	NOISE	ΘΟΡΥΒΟΣ
+msg.phrase	SINE	SINE
+msg.phrase	SAW	SAW
+msg.phrase	 | BPM %s SPD %s 	 | BPM %s SPD %s
+msg.phrase	 SGNO TRACKER 1.0 | 	SGNO TRACKER 1.0 |
+msg.phrase	FILE 	ΑΡΧΕΙΟ
+msg.phrase	 PAT %s	 PAT %s
+msg.phrase	 ORD %d/%d	 ORD %d/%d
+msg.phrase	 INS %s 	 INS %s
+msg.phrase	 OCT %d	 OCT %d
+msg.phrase	 EDIT %s	 ΕΠΕΞΕΡΓΑΣΙΑ %s
+msg.phrase	ON 	ΕΝΕΡΓΟΠΟΙΗΣΗ
+msg.phrase	OFF	ΑΠΕΝΕΡΓΟΠΟΙΗΣΗ
+msg.phrase	 FOL %s	 FOL %s
+msg.phrase	ON	ΕΝΕΡΓΟΠΟΙΗΣΗ
+msg.phrase	ROW	ΣΕΙΡΑ
+msg.phrase	TRACK %d	TRACK %d
+msg.phrase	CHAN LEVEL	ΕΠΙΠΕΔΟ ΤΣΑΝ
+msg.phrase	%c%s	%c%s
+msg.phrase	%s %s %s %s	%s %s %s %s
+msg.phrase	%s 	%s
+msg.phrase	%d %s %s	%d %s %s
+msg.phrase	ORDER %d/%d	ΠΑΡΑΓΓΕΛΙΑ %d/%d
+msg.phrase	PAT   %s	PAT %s
+msg.phrase	INS %s %s	INS %s %s
+msg.phrase	OCT %d  EDIT %s	OCT %d ΕΠΕΞΕΡΓΑΣΙΑ %s
+msg.phrase	FOLLOW %s	ΑΚΟΛΟΥΘΗΣΤΕ %s
+msg.phrase	F1 HELP F2 SONG	F1 ΒΟΗΘΕΙΑ F2 ΤΡΑΓΟΥΔΙ
+msg.phrase	F3 INS  F4 SAVE	F3 INS F4 SAVE
+msg.phrase	F5 PLAY F6 PAT	F5 PLAY F6 ΠΑΤ
+msg.phrase	F7 STOP F8 EDIT	F7 STOP F8 EDIT
+msg.phrase	F9/F10 OCTAVE	F9/F10 OCTAVE
+msg.phrase	F11 FOLLOW	F11 ΑΚΟΛΟΥΘΗΣΤΕ
+msg.phrase	F12 QUIT	F12 QUIT
+msg.phrase	SPACE PLAY/STOP	SPACE PLAY/STOP
+msg.phrase	CTRL-S SAVE	CTRL-S ΑΠΟΘΗΚΕΥΣΗ
+msg.phrase	CTRL-O OPEN	CTRL-O OPEN
+msg.phrase	C-N NEW C-Z UNDO	C-N ΝΕΟ C-Z ΑΝΑΙΡΕΣΗ
+msg.phrase	C-C STOP	Γ-Γ ΣΤΟΠ
+msg.phrase	PLAYING  ORD %d/%d  PAT %s  ROW %s/%d  SPD %s  BPM %d  F7 STOP	ΑΝΑΠΑΡΑΓΩΓΗ ΠΑΡΑΓΓΕΛΙΑΣ %d/%d PAT %s ΣΕΙΡΑ %s/%d SPD %s BPM %d F7 STOP
+msg.phrase	READY  EDIT %s  OCT %d  F1 HELP  F5 PLAY  CTRL-S SAVE	ΕΤΟΙΜΗ ΕΠΕΞΕΡΓΑΣΙΑ %s OCT %d F1 ΒΟΗΘΕΙΑ F5 PLAY CTRL-S ΑΠΟΘΗΚΕΥΣΗ
+msg.phrase	 %s 	 %s
+msg.phrase	#TRANSPORT AND FILES	#ΜΕΤΑΦΟΡΕΣ ΚΑΙ ΑΡΧΕΙΑ
+msg.phrase	  F5          Play the song from the current order	  F5 Παίξτε το τραγούδι από την τρέχουσα σειρά
+msg.phrase	  F6          Play the current pattern	  F6 Παίξτε το τρέχον μοτίβο
+msg.phrase	  F7/Ctrl-C   Stop playback	  F7/Ctrl-C Διακοπή αναπαραγωγής
+msg.phrase	  Space       Play / stop	  Space Play / stop
+msg.phrase	  F4          Save as	  F4 Αποθήκευση ως
+msg.phrase	  Ctrl-S      Save (asks for a name if new)	  Ctrl-S Αποθήκευση (ζητάει όνομα εάν είναι νέο)
+msg.phrase	  Ctrl-O      Open a song	  Ctrl-O Ανοίξτε ένα τραγούδι
+msg.phrase	  Ctrl-N      New song	  Ctrl-N Νέο τραγούδι
+msg.phrase	  F12         Quit (confirmation if modified)	  F12 Έξοδος (επιβεβαίωση εάν τροποποιηθεί)
+msg.phrase	#ORDER LIST	#ΠΑΡΑΓΓΕΛΙΑ ΛΙΣΤΑ
+msg.phrase	  [ ]         Previous / next order entry	  [ ] Καταχώρηση προηγούμενης / επόμενης παραγγελίας
+msg.phrase	  { }         Insert / delete an order entry	  { } Εισαγωγή / διαγραφή καταχώρισης παραγγελίας
+msg.phrase	  - +         Change the pattern in the entry	  - + Αλλάξτε το μοτίβο στην καταχώρηση
+msg.phrase	#DISPLAY	#DISPLAY
+msg.phrase	  F11         Follow playback (turns off on manual move)	  F11 Ακολουθήστε την αναπαραγωγή (απενεργοποιείται κατά τη χειροκίνητη κίνηση)
+msg.phrase	  F1          Help; Left/Right changes page	  F1 Βοήθεια; Αριστερά/Δεξιά σελίδα αλλαγών
+msg.phrase	#EDITING	#ΕΠΕΞΕΡΓΑΣΙΑ
+msg.phrase	  F8          Toggle edit mode	  F8 Εναλλαγή λειτουργίας επεξεργασίας
+msg.phrase	  Arrows      Move the cursor	  Βέλη Μετακινήστε τον κέρσορα
+msg.phrase	  PgUp/PgDn   Jump 16 rows	  PgUp/PgDn Μετάβαση 16 σειρών
+msg.phrase	  Home/End    First / last row	  Αρχική/Τέλος Πρώτη / τελευταία σειρά
+msg.phrase	  F9/F10      Octave down / up	F9/F10 Οκτάβα κάτω / επάνω
+msg.phrase	  Z S X D C V G B H N J M      lower piano row	  Z S X D C V G B H N J M κάτω σειρά πιάνου
+msg.phrase	  Q 2 W 3 E R 5 T 6 Y 7 U      upper piano row	  Q 2 W 3 E R 5 T 6 Y 7 U επάνω σειρά πιάνου
+msg.phrase	  1           Note off	  1 Σημείωση απενεργοποιημένη
+msg.phrase	  0 / Del     0 clears note/inst/fx; Del clears any	  0 / Del 0 διαγράφει note/inst/fx; Ο Ντελ καθαρίζει οποιοδήποτε
+msg.phrase	  Ctrl-Z      Undo the last pattern/order edit	  Ctrl-Z Αναίρεση της τελευταίας τροποποίησης μοτίβου/παραγγελίας
+msg.phrase	#EFFECTS (parameter is hexadecimal)	#EFFECTS (η παράμετρος είναι δεκαεξαδική)
+msg.phrase	  Axy   Volume slide: up x, down y	  Διαφάνεια Axy Volume: επάνω x, κάτω y
+msg.phrase	  Cxx   Note cut after xx ticks	  Cxx Σημείωση κόβεται μετά από xx ticks
+msg.phrase	  Dxx   Set volume (00..7F)	  Ρύθμιση έντασης Dxx (00..7F)
+msg.phrase	  Fxx   Speed if xx < 20, otherwise BPM	  Fxx Ταχύτητα εάν xx < 20, διαφορετικά BPM
+msg.phrase	  Hxy   Arpeggio x, y semitones	  Hxy Arpeggio x, y ημιτόνια
+msg.phrase	  Pxx   Pitch slide up	Pxx Pitch slide up
+msg.phrase	  Qxx   Pitch slide down	  Qxx Pitch σύρετε προς τα κάτω
+msg.phrase	  F2 song settings, F3 instrument list	  Ρυθμίσεις τραγουδιού F2, λίστα οργάνων F3
+msg.phrase	HELP %d/2	ΒΟΗΘΕΙΑ %d/2
+msg.phrase	LEFT/RIGHT PAGE   ENTER OR F1 CLOSE	ΑΡΙΣΤΕΡΑ/ΔΕΞΙΑ ΣΕΛΙΔΑ ΕΙΣΑΓΩΓΗ Ή F1 ΚΛΕΙΣΙΜΟ
+msg.phrase	SONG SETTINGS	ΡΥΘΜΙΣΕΙΣ ΤΡΑΓΟΥΔΙΟΥ
+msg.phrase	UP/DOWN SELECT   LEFT/RIGHT ADJUST   ENTER/F2 CLOSE	ΠΑΝΩ/ΚΑΤΩ ΕΠΙΛΟΓΗ ΑΡΙΣΤΕΡΑ/ΔΕΞΙΑ ΠΡΟΣΑΡΜΟΓΗ ENTER/F2 ΚΛΕΙΣΙΜΟ
+msg.phrase	  Title	  Τίτλος
+msg.phrase	  [%s_]	  [%s_]
+msg.phrase	  BPM   : %d     (left/right -1/+1, -/+ -5/+5)	  BPM : %d (αριστερά/δεξιά -1/+1, -/+ -5/+5)
+msg.phrase	  Speed : %d ticks/row	  Ταχύτητα : %d τικ/σειρά
+msg.phrase	  Rows  : %d (fixed)	  Σειρές : %d (διορθώθηκε)
+msg.phrase	  Order : %d entries	Σειρά : %d καταχωρήσεις
+msg.phrase	  Patterns in use : %d	  Μοτίβα σε χρήση : %d
+msg.phrase	Type to edit the title. Backspace deletes the last character.	Πληκτρολογήστε για να επεξεργαστείτε τον τίτλο. Το Backspace διαγράφει τον τελευταίο χαρακτήρα.
+msg.phrase	BPM range 32..255. Speed range 1..31.	Εύρος BPM 32..255. Εύρος ταχύτητας 1..31.
+msg.phrase	Pattern effects can also change speed and BPM while playing.	Τα εφέ μοτίβου μπορούν επίσης να αλλάξουν την ταχύτητα και το BPM κατά την αναπαραγωγή.
+msg.phrase	INSTRUMENTS	ΟΡΓΑΝΑ
+msg.phrase	UP/DOWN SELECT   SPACE PREVIEW   ENTER USE   F3 CLOSE	ΠΑΝΩ/ΚΑΤΩ ΕΠΙΛΟΓΗ ΧΩΡΟΥ ΠΡΟΕΠΙΣΚΟΠΗΣΗ ΕΙΣΟΔΟΣ ΧΡΗΣΗ F3 ΚΛΕΙΣΙΜΟ
+msg.phrase	 #  NAME       WAVE       A   D   S   R  VOL	 # NAME WAVE A D S R VOL
+msg.phrase	 %c %d  %-9s %-9s %3d %3d %3d %3d %4d	 %c %d %-9s %-9s %3d %3d %3d %3d %4d
+msg.phrase	All four channels use wavetable synthesis.	Και τα τέσσερα κανάλια χρησιμοποιούν σύνθεση κυματομορφής.
+msg.phrase	Preview plays C-4 on the track under the edit cursor.	Η προεπισκόπηση αναπαράγει το C-4 στο κομμάτι κάτω από τον κέρσορα επεξεργασίας.
+msg.phrase	Current instrument: %s %s	Τρέχον όργανο: %s %s
+msg.phrase	SAVE SONG AS	ΑΠΟΘΗΚΕΥΣΗ ΤΡΑΓΟΥΔΙΟΥ ΩΣ
+msg.phrase	ENTER SAVE   F4 OR CTRL-C CANCEL	ΕΙΣΑΓΩΓΗ ΑΠΟΘΗΚΕΥΣΗ F4 Ή CTRL-C ΑΚΥΡΩΣΗ
+msg.phrase	Directory:	Κατάλογος:
+msg.phrase	  %s	  %s
+msg.phrase	File name:	Όνομα αρχείου:
+msg.phrase	The extension .SGT is added automatically.	Η επέκταση .SGT προστίθεται αυτόματα.
+msg.phrase	An existing file can be overwritten.	Ένα υπάρχον αρχείο μπορεί να αντικατασταθεί.
+msg.phrase	OPEN SONG	ΑΝΟΙΧΤΟ ΤΡΑΓΟΥΔΙ
+msg.phrase	ENTER OPEN  BS PARENT  CTRL-O/CTRL-C CANCEL	ENTER OPEN BS γονικό CTRL-O/CTRL-C ΑΚΥΡΩΣΗ
+msg.phrase	DIR  %s	DIR %s
+msg.phrase	(no .SGT files in this folder)	(δεν υπάρχουν αρχεία .SGT σε αυτόν τον φάκελο)
+msg.phrase	 %c %s%s	 %c %s%s
+msg.phrase	Files: %d	Αρχεία: %d
+msg.phrase	CONFIRM	ΕΠΙΒΕΒΑΙΩΣΗ
+msg.phrase	Y = YES   N / ENTER / CTRL-C = NO	Y = YES N / ENTER / CTRL-C = NO
+msg.phrase	Y = yes        N = no	Y = ναι N = όχι
+msg.phrase	%02d	%02d
+msg.phrase	%03d	%03d
+msg.phrase	%02X	%02X
+msg.phrase	C-	Γ-
+msg.phrase	C#	C#
+msg.phrase	D-	Δ-
+msg.phrase	D#	D#
+msg.phrase	E-	E-
+msg.phrase	F-	F-
+msg.phrase	F#	F#
+msg.phrase	G-	G-
+msg.phrase	G#	G#
+msg.phrase	A-	Α-
+msg.phrase	A#	Α#
+msg.phrase	B-	Β-
+msg.phrase	A:/dir/name	Α:/σκην/όνομα
+msg.phrase	MThd	MTthd
+msg.phrase	broken MThd	σπασμένος ΜΘδ
+msg.phrase	MIDI IMPORT	MIDI IMPORT
+msg.phrase	MTrk	MTrk
+msg.phrase	broken delta time	σπασμένος χρόνος δέλτα
+msg.phrase	broken running status	χαλασμένη κατάσταση λειτουργίας
+msg.phrase	broken meta event	σπασμένο μετα-συμβάν
+msg.phrase	broken sysex event	σπασμένο συμβάν του sysex
+msg.phrase	broken channel event	συμβάν κατεστραμμένου καναλιού
+msg.phrase	SMF output is too small	Η έξοδος SMF είναι πολύ μικρή
+msg.phrase	SMF output is too large	Η έξοδος SMF είναι πολύ μεγάλη
+msg.phrase	the song is too long for SMF	το τραγούδι είναι πολύ μεγάλο για SMF
+msg.phrase	TRK1	TRK1
+msg.phrase	SGNO TRACKER: incompatible SGX ABI\n	SGNO TRACKER: μη συμβατό SGX ABI
+msg.phrase	5 Macro	5 Μακροεντολή
+msg.phrase	6 Help	6 Βοήθεια
+msg.phrase	Run current	Εκτέλεση τρέχουσας
+msg.phrase	Run the macro at the cursor (#! header cell and the cells below it)	Εκτέλεση της μακροεντολής στον δρομέα (κελί κεφαλίδας #! και τα κελιά από κάτω)
+msg.phrase	Run selection	Εκτέλεση επιλογής
+msg.phrase	Run the selected cells as one macro (top-left cell is the #! header)	Εκτέλεση των επιλεγμένων κελιών ως μία μακροεντολή (το πάνω αριστερό κελί είναι η κεφαλίδα #!)
+msg.phrase	Run all	Εκτέλεση όλων
+msg.phrase	Run every macro in the sheet, top-left to bottom-right	Εκτέλεση όλων των μακροεντολών του φύλλου, από πάνω αριστερά έως κάτω δεξιά
+msg.phrase	Last error	Τελευταίο σφάλμα
+msg.phrase	Show the last macro error	Εμφάνιση του τελευταίου σφάλματος μακροεντολής
+msg.phrase	Macro	Μακροεντολή
+msg.phrase	Macro: run #!ruby / #!python / #!basic cells	Μακροεντολή: εκτέλεση κελιών #!ruby / #!python / #!basic
+msg.phrase	Edit the cell (F2)	Επεξεργασία κελιού (F2)
+msg.phrase	Fit widths/heights to the contents	Προσαρμογή πλάτους/ύψους στο περιεχόμενο
+msg.phrase	Last macro error	Τελευταίο σφάλμα μακροεντολής
+msg.phrase	No macro error.	Κανένα σφάλμα μακροεντολής.
+msg.phrase	IME on	IME ενεργό
+msg.phrase	IME off	IME ανενεργό
+msg.phrase	Macro: %s %s ...	Μακροεντολή: %s %s ...
+msg.phrase	%s: this firmware cannot run macros (SGX ABI 5.10 or later)	%s: αυτό το υλικολογισμικό δεν εκτελεί μακροεντολές (SGX ABI 5.10 ή νεότερο)
+msg.phrase	Macro error: %s	Σφάλμα μακροεντολής: %s
+msg.phrase	Macro: %s done	Μακροεντολή: %s ολοκληρώθηκε
+msg.phrase	a macro is already running	μια μακροεντολή εκτελείται ήδη
+msg.phrase	this language is not available	αυτή η γλώσσα δεν είναι διαθέσιμη
+msg.phrase	not enough memory	ανεπαρκής μνήμη
+msg.phrase	the macro stopped with an error	η μακροεντολή σταμάτησε με σφάλμα
+msg.phrase	Macro error %s: %s	Σφάλμα μακροεντολής %s: %s
+msg.phrase	Macro: not enough memory	Μακροεντολή: ανεπαρκής μνήμη
+msg.phrase	Macro: the cursor is not on a macro (a #!ruby / #!python / #!basic cell or the cells below it)	Μακροεντολή: ο δρομέας δεν είναι σε μακροεντολή (κελί #!ruby / #!python / #!basic ή τα κελιά από κάτω)
+msg.phrase	Macro: no macro in the sheet	Μακροεντολή: καμία μακροεντολή στο φύλλο
+msg.phrase	Run all macros	Εκτέλεση όλων των μακροεντολών
+msg.phrase	Macros: %d. Run them all, top-left to bottom-right? Changes cannot be undone.	Μακροεντολές: %d. Να εκτελεστούν όλες, από πάνω αριστερά έως κάτω δεξιά; Οι αλλαγές δεν αναιρούνται.
+msg.phrase	Macro: %d of %d done	Μακροεντολή: %d ολοκληρώθηκαν (από %d)
+msg.phrase	Cleared the cell	Το κελί καθαρίστηκε
+msg.phrase	Cleared the selection	Η επιλογή καθαρίστηκε
+msg.phrase	Background colour = %d	Χρώμα φόντου = %d
+msg.phrase	Text colour = %d	Χρώμα κειμένου = %d
+msg.phrase	Graph: line	Γράφημα: γραμμή
+msg.phrase	Graph: bar	Γράφημα: ράβδοι
+msg.phrase	Graph: mixed	Γράφημα: μικτό
+msg.phrase	Graph: pie	Γράφημα: πίτα
+msg.phrase	Exported %s	Εξήχθη %s
+msg.phrase	S: check: wait -- a file is being read or written	Έλεγχος S:: περιμένετε -- ένα αρχείο διαβάζεται ή γράφεται
+msg.phrase	S: check: the drive is busy or not ready	Έλεγχος S:: η μονάδα είναι απασχολημένη ή μη έτοιμη
+msg.phrase	nothing for this item (ContextMenu.cfg)	τίποτα για αυτό το στοιχείο (ContextMenu.cfg)
+msg.phrase	bad command in ContextMenu.cfg	λάθος εντολή στο ContextMenu.cfg
+msg.phrase	unknown action in ContextMenu.cfg	άγνωστη ενέργεια στο ContextMenu.cfg
+msg.prefix	menu	μενού
+msg.phrase	choose a file or folder	επιλέξτε αρχείο ή φάκελο
+msg.phrase	this drive cannot be written	δεν μπορεί να γραφτεί σε αυτή τη μονάδα
+msg.phrase	an archive job is already running	τρέχει ήδη μια εργασία αρχείου
+msg.phrase	no PSRAM for the archive task	δεν υπάρχει PSRAM για την εργασία αρχείου
+msg.phrase	could not start the archive task	η εργασία αρχείου δεν ξεκίνησε
+msg.phrase	too many items (32 at most)	πάρα πολλά στοιχεία (έως 32)
+msg.phrase	nothing to compress	τίποτα για συμπίεση
+msg.phrase	no name (or the name has / or \\)	χωρίς όνομα (ή το όνομα έχει / ή \\)
+msg.phrase	32 items at most (mark fewer, or put them in a folder)	έως 32 στοιχεία (σημειώστε λιγότερα ή βάλτε τα σε φάκελο)
+msg.prefix	archive	αρχείο
+msg.prefix	compress	συμπίεση
+msg.prefix	render	εξαγωγή WAV

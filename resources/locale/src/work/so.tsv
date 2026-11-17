@@ -1,0 +1,995 @@
+# Soomaali (so) — UI and messages. Machine translation, unreviewed (2026-11-16)
+U001	Liis (faylal iyo galal 2 tiir x 19 saf)
+U002	Dhaqaaji tilmaamaha (bidix / midig: tiirka kale)
+U003	Bogga hore / bogga xiga
+U004	Calaamadee dhammaan / rogrogi calaamadaha (sida PC-98 FD)
+U005	Ugu horreeya / ugu dambeeya
+U006	Calaamadee oo sii wad / calaamadee oo keliya
+U007	Shift+fallaadho
+U008	Dooro qayb (Space ayaa calaamadeeya qaybta)
+U009	Gal galka / fur faylka (F2/X socodsii)
+U010	U kac galka waalidka
+U011	Dooro darawal (USB, floppy, CD, S: gudaha)
+U012	Koobi (Shift+C / Shift+F3 meesha loo dirayo geedka ka dooro)
+U013	Rar
+U014	Tirtir (Shift+D / Shift+F4 tirtir galka)
+U015	Magac beddel
+U016	Beddel astaamaha
+U017	Ku fur tafatiraha
+U018	U eeg qoraal ahaan (Shift+V / Ctrl+Alt+F7 hex)
+U019	Macluumaadka darawalka
+U020	Gal cusub / fayl cusub
+U021	Shell sgsh / soo saar saxanka
+U022	Dib u rar
+U023	Shaashadda u keydi PNG
+U024	Xir daaqadda / ka saar doorashada (gal-hoosaad: kor u kac)
+U025	Hawlaha faylka (sida FD: calaamado, kadib qayb, kadib tilmaame)
+U026	Koobi: meesha loo dirayo ka dooro geedka darawallada iyo galalka. ESC ayaa joojiya
+U027	Tirtir: ku xaqiiji y. Calaamado iyo qaybo hal mar. Galal iyo waxa ku jira
+U028	Tirtir galka (iyo waxa ku jira)
+U029	Magac beddel (wax ka beddel magaca, Enter)
+U030	Astaamo: R akhris keliya, H qarsoon, S nidaam, A kayd
+U031	Gal cusub
+U032	Fayl cusub (madhan)
+U033	U eeg qoraal ahaan (Shift+V / Ctrl+Alt+F7 hex)
+U034	Shell sgsh (exit / Ctrl-D ku noqo maareeyaha faylka)
+U035	Aqoonsiga darawalka (INQUIRY, IDENTIFY)
+U036	Soo saar saxanka FDD / LS-120 / CD
+U037	Dib u rar liiska (CD: TOC ka)
+U038	Ka hel PC-ga ZMODEM (zm.sh put)
+U039	U dir PC-ga ZMODEM (zm.sh get)
+U040	Isku dub .rb oo qor .mrb
+U041	REPL Ruby (hal saf mar kasta, Ctrl-D / ESC si loo dhammeeyo)
+U042	REPL MicroPython
+U043	U qaybi qaybo MB 4 ah / ka isku xir .001
+U044	Qaybi / isku xir (la mid ah Ctrl+F11 / F12)
+U045	Shaashad (Alt+F, kuma dhacdo furayaasha F ee FD)
+U046	Muuji / qari FB (sawir) / qoraalka
+U047	Bogga muujinta FB (0-3)
+U048	FB u tirtir 0 / iftiinka badh u dhim (RGB555)
+U049	Dhammaadyada USB iyo xaaladda LAN
+U050	Tirtir bogga muujinta FB / iftiinka badh u dhim
+U051	Tusaalooyinka astaamaha qoraalka
+U052	EDID-ka shaashadda (la akhriyay bilowga)
+U053	Shatiyada iyo amaanta ROM-ka farta
+U054	Dejin (luqadda muujinta, IME iyo qaabka kiiboodhka)
+U055	Saacad (waqtiga Jabaan NTP; s hadda waafaji)
+U056	Fur xaashida xisaabta (SGCALC)
+U057	Hubi khaladaadka S: (wuu weydiiyaa ka hor hagaajinta)
+U058	Fur TRACKER
+U059	Dib u bilow (marka hore wuu weydiiyaa)
+U060	Daar gelinta stereo ee ADC (GP40 / 41)
+U061	VGM/VGZ u dhoofi WAV kHz 96 / bit 24
+U062	Caawintan
+U063	Beddel bogga
+U064	Xir
+U065	Daawade qoraal / hex (sida less)
+U066	Hal saf
+U067	Hal bog
+U068	Badh bog
+U069	Raadi (hore / gadaal) / xiga / hore
+U070	Ku noqo liiska (F1: caawinta daawadaha)
+U071	Daawade sawir
+U072	Ku noqo liiska (F2 F3 F6 F7 Shift+F2 F3 way shaqeeyaan)
+U073	Tafatire (E / Shift+F8)
+U074	Keydi (UTF-8; dhammaadka safafka iyo BOM waa la hayaa)
+U075	Xir (haddii la beddelay: Y / N / ESC)
+U076	Geli / ku qor dusha
+U077	Shid/dami IME (Jabbaaniis / Ingiriis / Kuuriyaan)
+U078	Luqadda IME (Jabbaaniis / Ingiriis / Kuuriyaan)
+U079	U xaqiiji hiragana / katakana
+U080	Caawinta tafatiraha
+U081	Shell
+U082	Shell (qayb ka mid ah csh. exit / Ctrl-D si aad u noqoto, help wuxuu liis gareeyaa amarrada)
+U083	Liis iyo dhaqdhaqaaq
+U084	Hawlaha faylka
+U085	Shaashad iyo qalab
+U086	Daawadeyaal iyo tafatire
+U087	Caawin  %u / %u  %s
+U088	Bidix Midig: beddel bogga    F1 / ESC: xir
+U089	Dib u bilow sgnano?
+U090	[ Dib u bilow ]
+U091	[ Jooji ]
+U092	Hubi khaladaadka darawalka S:
+U093	Faylal %lu  galal %lu
+U094	Cabbirku kuma habboona silsiladda
+U095	Kooxo aan waxba isticmaalin
+U096	Kooxo isdhaaf ah oo isku xidhan
+U097	Gelinno xumaaday
+U098	Labada nuqul ee FAT way kala duwan yihiin
+U099	Khalad ma jiro.
+U100	Khaladaad ayaa la helay. Ma la hagaajiyaa?
+U101	Waa la hagaajiyay (tirooyinka kore waa la saxay).
+U102	Lama hubin karo ama lama hagaajin karo (S: waa mashquul).
+U103	[ Hagaaji ]
+U104	[ Jooji ]
+U105	Fure kasta wuu xiraa
+U106	Dejin
+U107	Luqadda muujinta
+U108	Qaabka kiiboodhka
+U109	Kor / Hoos  Enter dooro  ESC jooji
+U110	Luqadda muujinta
+U111	Kor / Hoos  Enter: deji  ESC: ku noqo
+U112	%c: ku dhaji xaraf kee? (A-Z marka laga reebo S. ESC jooji)
+U113	Darawal  xaraf / Enter dooro  F2 dhaji/fur  F3 ku dhaji sida...  L / ESC jooji
+U114	  qayb %u
+U115	%c:* (la dhajiyay, lama xirin) %04X:%04X%s  %s
+U116	Ogeysiis
+U117	Darawal %c:  %s
+U118	Darawal  (ma jiro)
+U119	CD cod  heesood %u
+U120	Galal %u  faylal %u  wadar %s
+U121	Wuu akhrinayaa...
+U122	* la calaamadeeyay %u  %s
+U123	%lu baayt
+U124	Astaan %s   la beddelay %s   la sameeyay %s   %s
+U125	Axd
+U126	Isn
+U127	Tal
+U128	Arb
+U129	Kha
+U130	Jim
+U131	Sab
+U132	Saacadda lama dejin (NTP LAN)
+U133	FB  muujin %u  qoris %u
+U134	1 Caawin
+U135	2 Socod
+U136	3 Koobi
+U137	4 Tirtir
+U138	5 Magac
+U139	7 TirFB
+U140	8 DimFB
+U141	9 Daraw
+U142	10 EP
+U143	11 Saac
+U144	12 CALC
+U145	1 Astaan
+U146	2 Xog
+U147	3 Rar
+U148	5 Gal
+U149	6 Shell
+U150	8 Tafat
+U151	9 Eeg
+U152	10 S:hub
+U153	11 TRACK
+U154	12 Bilow
+U155	1 Cusub
+U156	2 Gal
+U157	3 Magac
+U158	4 Astaan
+U159	6 Koobi
+U160	7 Rar
+U161	8 Tirtir
+U162	9 Tafat
+U163	10 mrbc
+U164	11 Qaybi
+U165	12 Isku
+U166	1 Astaan
+U167	2 FB
+U168	3 Qoraal
+U169	5 Sawir
+U170	6 Bog
+U171	9 ZMhel
+U172	10 ZMdir
+U173	2 TirFB
+U174	3 DimFB
+U175	5 Dibrar
+U176	7 Hex
+U177	9 Shati
+U178	11 Dejin
+U179	Deji saacadda (waqtiga Jabaan. NTP ma dejin karin)
+U180	Ku socodsii xuduudo
+U181	Gal cusub
+U182	Fayl cusub
+U183	Waqti:
+U184	Socod:
+U185	Magac:
+U186	YYYY-MM-DD hh:mm  Enter deji  ESC sidiisa u daa
+U187	Enter socodsii  <-> dhaqaaji  BS / Del tirtir  ESC jooji
+U188	Enter magac beddel  <-> dhaqaaji  BS / Del tirtir  ESC jooji
+U189	Enter samee  <-> dhaqaaji  BS / Del tirtir  ESC jooji
+U190	Tirtir
+U191	 shay
+U192	Galalka waxaa lagu tirtirayaa waxa ku jira. Ma hubtaa?
+U193	Tirtir faylkan?
+U194	(Tan dib looma celin karo. Faylasha galalka ku jira sidoo kale waa la tirtirayaa)
+U195	[ Haa (Y) ]
+U196	[ Maya (N) ]
+U197	daawadaha hex: dooro fayl
+U198	daawadaha qoraalka: dooro fayl
+U199	U rar
+U200	U koobi
+U201	Kaydka ku-meel-gaarka ah waa buuxaa
+U202	Darawalku waa akhris keliya
+U203	Lama keydin karo (qore ma jiro)
+U204	Keydinta lama bilaabi karin (darawalku waa mashquul?)
+U205	Wuu keydinayaa...
+U206	2 Keydi
+U207	5 Midab
+U208	6 Hira
+U209	7 Kata
+U210	8 Saadl
+U211	10 Bax
+U212	1 Kor
+U213	2 Dhamd
+U214	3 Geli
+U215	4 Qaamus
+U216	6 HHira
+U217	7 HKata
+U218	 %s  %s  Saf %lu/%lu Tiir %u  %s  %s %s%s%s
+U219	*beddel
+U220	DUSHA
+U221	GELI
+U222	  Akhris keliya
+U223	 Tafatire (sgnano edit)                      F1 / ESC wuu xiraa
+U224	 Fallaadho / Home End / PgUp PgDn  dhaqaaji tilmaamaha
+U225	 Ctrl-T / Ctrl-B               bilowga / dhammaadka faylka
+U226	 BS / Del                      tirtir ka hor / tilmaamaha
+U227	 Enter                         saf cusub (wuxuu hayaa galinta)
+U228	 Tab / Ins                     tab / geli ama dusha ku qor
+U229	 F5                            Midab (kordhinta ka; C/C++, mruby, MicroPython, SG BASIC, midna)
+U230	 F2  (Ctrl-S)                  keydi (UTF-8, dhammaadka safafka waa la hayaa)
+U231	 F10 / ESC                     xir (wuu weydiiyaa haddii la beddelay)
+U232	 IME:  Ctrl-Space / F12        shid / dami (あ / A)
+U233	       F9                      luqadda IME (tafatirahan keliya; waa la soo celiyaa marka la xiro)
+U234	       F8 Shid/dami beddelka saadaasha Jabbaaniiska
+U235	       Jabbaaniis              romaji -> hiragana (F6) / katakana (F7)
+U236	                               Hiragana badh-ballaar (Shift+F6) / katakana badh-ballaar (Shift+F7)
+U237	                               Saadaali 2 xaraf ama ka badan, beddel weedho is xiga Space
+U238	       Ingiriis: dhammaystir saadaal 2 xaraf ama ka badan
+U239	       한국어 Hangul habka 2
+U240	       Space / Enter Beddel / Xaqiiji
+U241	       ← → Dooro weedh
+U242	       Shift+← → Yaree/kordhi dhinaca midig ee weedha hal xaraf (doorashooyin cusub)
+U243	       ↑ ↓ / Tab               Doorashada hore / xigta ee daaqadda (qoraalka hoostiisa, kor haddii ay u dhowdahay hoos)
+U244	       Enter ee →→→            Dhammaan doorashooyinka (2 x 8, ← → tiir iyo bog, Enter dooro)
+U245	       Enter                   Weedha xigta (tan ugu dambaysa wuxuu xaqiijiyaa dhammaan)
+U246	       Ctrl-U Ku dar erayga hadda qaamuuska isticmaalaha
+U247	 Shift+F1 / F2 / F3 / F4       Bilow / dhamaad / geli-dusha / qaamuuska isticmaalaha
+U248	       BS / ESC Hal xaraf dib u noqo / Jooji
+U249	       , . - [ ] /             、 。 ー 「 」 ・
+U250	La beddelay  Y: keydi oo xir  N: xir adigoon keydin  ESC: ku noqo
+U251	[Saadaal] Tab/↑↓: doorasho  Space: beddel  Esc: jooji
+U252	[Doorasho] ↑↓: dooro  ←→: tiir/bog  Enter: qaado
+U253	[Beddel] ↑↓doorasho ←→weedh Shift+←→xad Enter xiga
+U254	[한국어] Tab/↑↓: doorasho  Enter/Space: xaqiiji
+U255	[English] Tab/↑↓: doorasho  Enter: xaqiiji
+U256	Gelinta Hangul habka 2  Ctrl-Space: xarfo iyo tirooyin
+U257	Dhammaystir saadaal  Ctrl-Space: gelin toos ah
+U258	Qaamuus ma jiro: hiragana/katakana keliya  F6/F7
+U259	Space: beddel  F7: katakana  Ctrl-Space: xarfo iyo tirooyin
+U260	Space: beddel  F6: hiragana  Ctrl-Space: xarfo iyo tirooyin
+U261	Badh-ballaar  F6: hiragana  F7: katakana  Shift+F6/F7: badh
+U262	IME waa dansan yahay
+U263	 saadaal
+U264	Beddelka saadaasha Jabbaaniiska: Shidan
+U265	Beddelka saadaasha Jabbaaniiska: Dansan
+U266	La isticmaal IME Jabbaaniis
+U267	Laguma dari karo qaamuuska isticmaalaha
+U268	Midab: %s
+U269	Wuu rarayaa...
+U270	Faylka lama akhrin karin
+U271	%lu saf%s%s
+U272	  Shift_JIS waxaa loo furay UTF-8 (waxaa loo keydiyaa UTF-8)
+U273	  akhris keliya
+U274	Waa la keydiyay
+U275	Lama keydin karin (qoristu way fashilantay)
+U276	Doorashooyin
+U277	7 BogQ
+U278	9 Qoraal
+U279	9 Hex
+U280	Wuu rarayaa %lu%%
+U281	(bilowga keliya)
+U282	Hex  q ESC: ku noqo  F1: caawin
+U283	Qoraal  q ESC: ku noqo  F1: caawin
+U284	Furayaasha daawadaha (sida less; isku mid qoraal iyo hex)
+U285	Hal saf hoos
+U286	Hal saf kor
+U287	Hal bog hoos
+U288	Hal bog kor
+U289	Badh bog hoos / kor
+U290	/qoraal  ?qoraal
+U291	Raadi hoos / kor (xarfaha waaweyn iska indha tir)
+U292	Isku-eg xiga / hore
+U293	U muuji hex (isla meesha)
+U294	U muuji qoraal (isla meesha)
+U295	Beddel midabaynta (C/C++, mruby, MicroPython, SG BASIC, midna)
+U296	Muuji / qari FB / qoraalka
+U297	Bogga muujinta / qorista FB
+U298	Ku noqo maareeyaha faylka
+U299	Xir caawintan
+U300	Koobi
+U301	 %s: wuxuu akhrinayaa galalka... %u
+U302	 %s: wuxuu tirinayaa booska bannaan ee meesha loo dirayo...
+U303	 %s: booska bannaan kuma filna meesha loo dirayo
+U304	 Rar: wuxuu ka saarayaa galalka asalka
+U305	Waa dhammaatay
+U306	Waa la joojiyay
+U307	 %s waa socdaa%s
+U308	 (wuu joojinayaa)
+U309	 Ka: %s
+U310	 Ku: %s
+U311	 Faylal %u / %u  galal %u  %s / %s  (%u%%)%s
+U312	  aad u badan: qaar keliya
+U313	 Waxaa loo baahan yahay %s, bannaan %s. Sii wad?
+U314	 Y: sii wad   N / ESC: jooji
+U315	 Riix fure kasta si aad u xirto
+U316	 ESC: jooji
+U317	 %s: ←→ darawal  ↑↓ gal  Space fur/xir  Enter dooro  ESC jooji
+U318	 Lama akhrin karo: %s
+U319	 Wuxuu akhrinayaa galalka... (ESC wuu joojiyaa)  %u
+U320	 %u gal%s
+U321	 (aad u badan ama aad u qoto dheer: qaar keliya)
+U322	Furitaanka galka waa la joojiyay
+U323	Space ayaa mar kale fura. ESC mar kale ayaa joojisa
+U324	 Ciyaariye SMF / SGT   %s
+U325	 Wuu rarayaa... %lu / %lu baayt
+U326	 %s / %s   %s   dekedo %u
+U327	Waa la hakiyay
+U328	Wuu ciyaarayaa
+U329	 Space: hakad  m: MIDI OUT  q / ESC: jooji
+U330	 q / ESC: jooji
+U331	Shatiyada iyo amaanta ROM-ka farta\n\nROM: %s (nooc %lu.%lu, %lu xaraf, laga bilaabo 0x%08lX flash-ka)\n\n
+U332	== Farta ku jirta ROM-ka (shaxda asalka ROM) ==\n
+U333	  (ROM-ku shax ma laha)\n
+U334	\n== Qaybta amaanta ee ROM-ka ==\n\n
+U335	(qayb noocaas ah ma jirto)\n
+U336	\n== Shatiyada software-ka gudaha ==\n
+U337	 Wuxuu u keydinayaa %s PNG   %s
+U338	Shaashad
+U339	 Wuu dhisayaa... %lu / %lu saf
+U340	 Wuu qorayaa... %lu / %lu KB (FB waa qarsoon yahay)
+U341	Lama qori karin
+M001	darawalku wuu baxay
+M002	wuxuu dib u akhrinayaa qaybaha...
+M003	mugga lama furi karin (xusuus kuma filna?)
+M004	wuxuu furayaa mugga...
+M005	xusuus kuma filna liiska faylasha
+M006	wuxuu akhrinayaa galka... (isku day kale)
+M007	galka lama akhrin karin
+M008	wuxuu akhrinayaa galka...
+M009	darawalku ma jawaabin -- wuxuu dib u akhrinayaa qaybaha
+M010	galka lama akhrin karin (ma aha FAT12/16/32?)
+M011	gelinno aad u badan -- wuxuu muujinayaa kuwa hore
+M012	nidaam fayl kuma jiro qaybtan
+M013	jidku aad buu u dheer yahay
+M014	wuu isku xirayaa...
+M015	wuu qaybinayaa...
+M016	wuxuu beddelayaa magaca...
+M017	wuxuu samaynayaa galka...
+M018	wuxuu samaynayaa faylka...
+M019	wuu tirtirayaa...
+M020	wuxuu qorayaa astaamaha...
+M021	darawalku waa mashquul
+M022	mashquul
+M023	dooro faylal ama galal
+M024	dooro faylal ama galal (ma aha "..")
+M025	marka hore jooji CD-ga
+M026	CD-ga lama beddeli karo (koobi beddelkeed)
+M027	galka nidaamka lama rari karo
+M028	darawal la qori karo ma jiro (FAT / exFAT / NTFS keliya)
+M029	darawalku ma jiro
+M030	waxba lama dooran
+M031	waxba lama dooran
+M032	lama bilaabi karin
+M033	lama furi karin
+M034	darawal FAT / exFAT / NTFS ah keliya
+M035	magac ma jiro
+M036	magacaas horey ayuu u jiray
+M037	lama bilaabi karin (magac xun ama darawalku waa mashquul)
+M038	lama bilaabi karin (darawalku waa mashquul)
+M039	magacu ma yeelan karo / ama \\ (galkan gudihiisa keliya)
+M040	magacu waa isku mid
+M041	shaygu waa akhris keliya (A si aad u beddesho)
+M042	dooro fayl .rb darawal la qori karo
+M043	dooro fayl .rb
+M044	darawalku waa akhris keliya
+M045	dooro gal darawal la qori karo
+M046	in yar sug
+M047	dooro fayl
+M048	dooro fayl (ma aha gal)
+M049	dooro fayl .001
+M050	dooro faylka .001
+M051	IWAD-ka dhig galka DoomFiles ama Doom2Files
+M052	DoomFiles wuxuu qaataa freedoom1 / doom / doomu / doom1.wad
+M053	Doom2Files wuxuu qaataa freedoom2 / doom2 / plutonia / tnt.wad
+M054	faylasha ciyaarta dhig kayd dibadeed, ma aha S:
+M055	IWAD-ku waa inuu ku jiraa darawal FAT / exFAT / NTFS (ma aha CD)
+M056	weli wuu shaqaynayaa
+M057	sawir ayaa la rarayaa
+M058	framebuffer ma jiro
+M059	iftiin badh u dhimistu waxay ku shaqeysaa RGB555 keliya
+M060	wuu tirtirayaa...
+M061	wuxuu iftiinka badh u dhimayaa...
+M062	taasi waa hees xog
+M063	sug -- fayl ayaa la qorayaa
+M064	darawallada floppy / LS-120 / CD keliya
+M065	waa la codsaday
+M066	wuxuu akhrinayaa saxanka...
+M067	wuu joojinayaa...
+M068	wuu furayaa...
+M069	waa dhammaatay
+M070	xusuus kuma filna
+M071	horey ayuu u furnaa
+M072	horey ayuu u socday
+M073	horey ayuu u keydinayay
+M074	horey ayuu u ciyaarayay
+M075	darawal noocaas ah ma jiro
+M076	PSRAM ma jiro
+M077	PSRAM kuma filna faylka
+M078	PSRAM kuma filna tusmada safafka
+M079	PSRAM kuma filna terminalka
+M080	xusuus kuma filna (PSRAM)
+M081	xusuus kuma filna (SRAM 32KB)
+M082	xusuus kuma filna kaydka ku-meel-gaarka
+M083	xusuus kuma filna kaydka sawirada
+M084	xusuus kuma filna kaydka akhriska
+M085	boos looma hayo xusuusta shaqada (xir lowres?)
+M086	bogga framebuffer ma jiro
+M087	aad buu u weyn yahay (ugu badnaan MB 4)
+M088	faylku aad buu u weyn yahay (ugu badnaan MB 1)
+M089	faylku aad buu u weyn yahay (ugu badnaan MB 1)
+M090	aad buu ugu weyn yahay SMF (ugu badnaan MB 1)
+M091	faylku waa madhan yahay
+M092	faylka lama furi karin
+M093	faylka lama akhrin karin
+M094	mugga lama furi karin
+M095	meesha loo dirayo lama furi karin (xusuus kuma filna?)
+M096	galka xididka lama akhrin karin
+M097	hawsha lama bilaabi karin
+M098	qorista lama bilaabi karin (magac xun ama mashquul)
+M099	mug kale ayaa furan (mashquul)
+M100	koobi ayaa socda
+M101	gal ma geli karo naftiisa
+M102	taasi waa isla galkii
+M103	darawalkan lama beddeli karo (akhris keliya)
+M104	darawalka lama qori karo
+M105	cabbirka qaybtu waa inuu noqdaa tiro 512 laga dhufto
+M106	faylasha GB 4 ama ka badan lama taageero
+M107	jid xun
+M108	magac fayl xun
+M109	ROM-ka farta ma jiro
+M110	codka lama furin
+M111	kanaal noocaas ah ma jiro
+M112	isku-dubbaridaha waa mashquul
+M113	PSRAM kuma filna heesta
+M114	ma aha fayl MIDI caadi ah (MThd ma jiro)
+M115	heeso ma jiraan
+M116	hees ayaa xumaatay (MTrk)
+M117	qaybinta waqtiga SMPTE lama taageero
+M118	SMF qaabka 2 lama taageero (0 iyo 1 keliya)
+M119	ma aha darawal Bulk-Only
+M120	ma aha darawal indhood
+M121	galka nidaamka lama tirtiri karo lamana beddeli karo magaciisa
+M122	saxan kuma jiro darawalka
+M123	wuu diyaarsanayaa
+M124	ma diyaarsana
+M125	saxanka waa la beddelay
+M126	khalad saxan
+M127	codsi sharci darro ah
+M128	gelin gal oo xun
+M129	gal jidka ku yaal ma jiro
+M130	fayl ayaa leh magacaas
+M131	gal ayaa leh magacaas
+M132	magac jidka ku yaal ma aha gal
+M133	waa la joojiyay
+M134	lama rakibi karin
+M135	akhriska lama bilaabi karin
+M136	qorista lama bilaabi karin
+M137	waa gal
+M138	taasi waa gal
+M139	kooxo ma jiraan
+M140	boos looma hayo liiska kooxaha
+M141	fayl ama gal noocaas ah ma jiro
+M142	fayl noocaas ah ma jiro
+M143	mug ma jiro
+M144	ma aha NTFS
+M145	ma aha exFAT
+M146	ma aha gal
+M147	lama helin
+M148	khalad akhris
+M149	khalad qoris
+M150	akhrinta FAT way fashilantay
+M151	silsiladda kooxuhu way ka gaaban tahay faylka
+M152	galku ma madhna
+M153	saxanku waa buuxaa
+M154	darawalku ma jawaabin
+M155	faylku waa akhris keliya
+M156	faylku aad buu u kala firirsan yahay
+M157	faylku aad buu u weyn yahay (GB 4)
+M158	magaca cusub horey ayuu u jiray
+M159	galka xididka waa buuxaa
+M160	faylal aad u badan oo leh magac gaaban oo isku mid ah
+M161	Fayl ama gal noocaas ah ma jiro
+M162	Faylku horey ayuu u jiray
+M163	Ogolaansho waa la diiday
+M164	Galku ma madhna
+M165	Ma aha gal
+M166	Waa gal
+M167	Nidaam fayl akhris keliya ah
+M168	Boos kuma harin qalabka
+M169	Khalad gelin/bixin
+M170	Laguma taageero darawalkan
+M171	Jid aan sax ahayn
+M172	Xusuustu way dhammaatay
+M173	Darawal noocaas ah ma jiro
+M174	waa la joojiyay
+M175	waa la joojiyay (booska bannaan kuma filna)
+M176	booska bannaan lama tirin karin
+M177	qaataha ayaa joojiyay
+M178	qaate ma jiro (rz ku socodsii PC-ga)
+M179	UART-ka konsoolka waa la isticmaalayaa
+M180	qaabka shaashadda waa isbeddelay
+M181	safafku ma iman (muujintu ma shaqaynaysaa?)
+M182	koobi
+M183	rar
+M184	tirtir
+M185	magac beddel
+M186	astaamo
+M187	fayl cusub
+M188	gal cusub
+M189	sawir
+M190	mrbc
+M191	ruby
+M192	daawade
+M193	tafatir
+M194	IDENTIFY
+M195	ZMODEM
+M196	ZMODEM hel
+M197	ZMODEM dir
+M198	qaybi
+M199	isku xir
+M200	Doom
+M201	SMF
+M202	CD
+M203	FB
+M204	Soo saar
+M205	dib u bilow
+M206	shati
+M207	saacad
+M208	ADC gelin
+M209	shaashad -> PNG
+M210	FB -> PNG
+M211	mugga lama furi karin
+M212	la helay %s
+M213	la diray %s
+M214	la keydiyay %s
+M215	la sameeyay %s
+M216	magaca loo beddelay %s
+M217	la tirtiray %s
+M218	la beddelay %s
+M219	la isku xiray %s
+M220	la qaybiyay %s
+M221	lama samayn karin %s
+M222	lama tirtiri karin %s
+M223	magaca looma beddeli karin %s
+M224	lama beddeli karin %s
+M225	lama akhrin karin %s
+M226	lama qori karin %s
+M227	lama koobiyeyn karin %s
+M228	lama samayn karin %s
+M229	galka lama saari karin %s
+M230	lama saari karin %s
+M231	xusuus kuma filna %s
+M232	khaladaad aad u badan markii la dirayay %s
+M233	qaatuhu ma qaadan %s
+M234	qaatuhu wuu ka booday %s
+M235	Bogga FB %s
+M236	 baayt mid kasta)
+M237	 baayt)
+M238	 KB)
+M239	 qaybood oo loo galiyay
+M240	 qaybood (
+M241	 loo galiyay
+M242	: waa la tirtiray
+M243	: iftiinka badh ayaa loo dhimay
+M244	% la akhriyay
+M245	 saf
+M246	 -- weli lama taageero (FAT / exFAT / NTFS keliya)
+M247	 faylal
+M248	 (
+M249	Magac la'aan
+M250	1 Fayl
+M251	2 Tafatir
+M252	3 Garaaf
+M253	4 Xaashi
+M254	5 Caawin
+M255	MADHAN
+M256	TIRO
+M257	QORAAL
+M258	QAACIDO
+M259	Qor si aad u geliso, F2 si aad wax uga beddesho, F1 caawin
+M265	Diyaar
+M267	Riix fure kasta
+M268	Y = haa    N = maya    Esc = jooji
+M269	Enter = OK    Esc = jooji    Ctrl-U = tirtir
+M270	Safka/tiirka koowaad = calaamado; garaafyadu waxay isticmaalaan FB CLUT8 640x480.
+M271	SGCALC - CAAWIN
+M272	Riix fure kasta si aad u noqoto
+M273	Riix fure kasta si aad u noqoto.
+M274	KU SAABSAN SGCALC
+M275	Cusub
+M276	Bilow xaashi cusub
+M277	Fur...
+M278	Fur fayl ODS, FODS ama CSV
+M279	Keydi
+M280	Keydi faylka hadda
+M281	U keydi sida...
+M282	Ku keydi magac ama qaab cusub
+M283	Dhoofi CSV...
+M284	Qor nuqul CSV
+M285	Dhoofi ODS...
+M286	Qor nuqul LibreOffice
+M287	Ka bax
+M288	Ka bax SGCALC
+M289	Tirtir
+M290	Tirtir unugyada la doortay
+M291	Koobi
+M292	Koobi doorashada
+M293	Dhaji
+M294	Ku dhaji tilmaamaha
+M295	Jar
+M296	Koobi oo tirtir doorashada
+M297	Dooro dhammaan
+M298	Dooro dhammaan unugyada la isticmaalay
+M299	Midabka qoraalka...
+M300	Dooro midabka qoraalka
+M301	Asal...
+M302	Dooro asalka unugga
+M303	Xariiq
+M304	Ka sawir garaaf xariiq doorashada
+M305	Baar
+M306	Ka sawir garaaf baar doorashada
+M307	Isku dar
+M308	Baarar taxanaha koowaad, xariiqyo inta kale
+M309	Doolsho
+M310	Ka sawir garaaf doolsho doorashada
+M311	Qayb...
+M312	Si cad u deji qaybta garaafka
+M313	Mar kale sawir
+M314	Mar kale sawir garaafkii ugu dambeeyay
+M315	U gudub...
+M316	U bood unug (tusaale C12)
+M317	Ballaca tiirka...
+M318	Beddel ballaca tiirarka la doortay
+M319	Dhererka safka...
+M320	Beddel dhererka safafka la doortay
+M321	Si toos ah u habee
+M322	Ballaca/dhererka la jaanqaad waxa ku jira (F7)
+M323	Dib u xisaabi
+M324	Dib u qiimee dhammaan qaacidooyinka
+M325	Tirtir dhammaan
+M326	Tirtir xaashida oo dhan
+M327	Furayaal
+M328	Muuji hagaha furayaasha
+M329	Ku saabsan
+M330	Ku saabsan SGCALC
+M331	Fayl
+M332	Tafatir
+M333	Garaaf
+M334	Xaashi
+M335	Caawin
+M336	Fayl: cusub, fur, keydi, dhoofi, ka bax
+M337	Tafatir: tirtir, koobi, dhaji, jar, dooro dhammaan
+M338	Garaaf: xariiq, baar, isku dar, doolsho (waxaa lagu sawiraa FB)
+M339	Xaashi: u gudub, ballaca tiirka, dib u xisaabi, tirtir
+M340	Caawin: furayaal iyo ku saabsan
+M341	Bidix/Midig = menu    Kor/Hoos = shay    Enter = dooro    Esc = jooji
+M342	Waa la joojiyay
+M343	Doorashadu aad bay u weyn tahay ama xusuustu way yar tahay.
+M344	unugga
+M345	doorashada
+M346	Wax la dhajiyo ma jiro
+M347	Waa la dhajiyay
+M348	U GUDUB UNUG
+M349	Tixraaca unugga (A1):
+M350	U gudub
+M351	BALLACA TIIRKA
+M352	Ballac xarfo ahaan (4..30):
+M353	DHERERKA SAFKA
+M354	Dherer safaf qoraal ahaan (1..8):
+M355	Si toos ah u habee: xaashidu waa madhan tahay
+M356	MIDABKA ASALKA
+M357	MIDABKA QORAALKA
+M358	Fallaadho: dooro    Enter: dabaq    Esc: jooji
+M359	Tirada midabka (16 midab ee PC-98)
+M361	Enter = dabaq    Esc = jooji
+M362	Midab
+M363	Asal
+M364	Qoraal
+M365	QAYBTA GARAAFKA
+M366	Qayb (tusaale A1:C10):
+M367	Qaybta garaafka
+M368	Isticmaal qayb sida A1:C10.
+M369	Garaafka lama sawiri karo.
+M370	xariiq
+M371	baar
+M372	isku dar
+M373	doolsho
+M374	Tirtir unug kasta oo xaashidan ku jira?
+M375	Xaashida waa la tirtiray
+M376	Dhammaan unugyada la isticmaalay waa la doortay
+M377	Dib ayaa loo xisaabiyay
+M378	Xusuus
+M379	PSRAM kuma filna xaashida xisaabta.
+M380	Xaashidu waa madhan tahay.
+M381	Xog tiro ah kuma jirto qaybta la doortay.
+M382	Kale
+M383	Qiimayaal togan looma hayo garaafka doolshada
+M384	XARIIQ
+M385	BAAR
+M386	ISKU DAR
+M387	DOOLSHO
+M389	Gal
+M390	U KEYDI SIDA
+M391	FUR FAYL
+M394	Magac:
+M395	(qor magac, ama hoos ka dooro)
+M396	Magac
+M397	Cabbir
+M398	Enter=keydi  Bidix=kor  Midig/Enter [DIR]=fur  Tab=darawal  Esc=jooji
+M399	Enter=fur  Bidix=kor  Midig/Enter [DIR]=fur  Tab=darawal  Esc=jooji
+M400	Xusuus kuma filna.
+M401	Dusha ku qor
+M402	Fur
+M403	Faylku aad buu u weyn yahay (xadka MB 8).
+M404	Xusuus kuma filna akhrinta faylka.
+M405	Xog ZIP/ODS oo xun.
+M406	Khalad CRC faylka ODS.
+M407	Fayl aan la taageerin ama xumaaday.
+M408	Waa la keydiyay
+M409	Waa la dhoofiyay
+M410	Isbeddello aan la keydin
+M411	Keydi xaashida hadda ka hor intaadan sii wadin?
+M412	Xaashi cusub
+M415	heestu aad bay u weyn tahay
+M416	fayl madhan
+M417	ma aha fayl SGT
+M418	BPM xun
+M419	xawaare xun
+M420	dhererka cinwaanka xun
+M421	cinwaanka waa la gooyay
+M422	xaraf xun cinwaanka
+M423	habka waa la gooyay
+M424	dhererka habka xun
+M425	lambar qaab xun habka
+M426	liiska qaababka waa la gooyay
+M427	tirada qaababka xun
+M428	tusmada qaabka xun
+M429	qaab soo noqnoqday
+M430	xogta qaabka waa la gooyay
+M431	xogta qaabka aan sax ahayn
+M432	xog dheeraad ah dhammaadka faylka
+M433	habku wuxuu tilmaamayaa qaab aan jirin
+M435	(magac la'aan)
+M436	Diyaar. Riix F1 caawin.
+M437	Raac DAMAN
+M438	Wax dib loo celiyo ma jiro
+M439	Dib u celi
+M440	Jooji codka
+M441	Marka hore deji xarafka saamaynta
+M442	Saamaynta waa la tirtiray
+M443	Xuduudda waa la tirtiray
+M444	Codka waa la tirtiray
+M445	Qalabka muusikada waa la tirtiray
+M446	Mugga codka waa la tirtiray
+M447	Liiska habka waa buuxaa
+M448	Hab ayaa la geliyay
+M449	Habka ugu dambeeya lama tirtiri karo
+M450	Habka waa la tirtiray
+M451	Heesta ayaa la ciyaarayaa
+M452	Waa la joojiyay
+M453	Hees cusub
+M454	Iska tuur isbeddellada aan la keydin oo bilow hees cusub? (Y/N)
+M455	Iska tuur isbeddellada aan la keydin oo fur hees? (Y/N)
+M456	Iska tuur isbeddellada aan la keydin oo ka bax? (Y/N)
+M457	Dejinta heesta waa la cusbooneysiiyay
+M458	Magaca faylku waa madhan yahay
+M459	Keydinta waa la joojiyay
+M460	Furitaanka waa la joojiyay
+M461	Tafatir SHIDAN
+M462	Tafatir DAMAN
+M463	Raac SHIDAN
+M464	Tafatirku waa daman yahay. Riix F8 si aad wax uga beddesho.
+M465	Khalad I/O
+M466	faylku aad buu u weyn yahay
+M467	faylka waa la gooyay
+M495	#CIYAARID IYO FAYLAL
+M496	#LIISKA HABKA
+M497	#MUUJIN
+M498	#TAFATIR
+M499	#SAAMAYNO (xuduuddu waa hexadecimal)
+M500	BIDIX/MIDIG BOG   ENTER AMA F1 XIR
+M501	DEJINTA HEESTA
+M502	KOR/HOOS DOORO   BIDIX/MIDIG HAGAAJI   ENTER/F2 XIR
+M503	Qor si aad cinwaanka wax uga beddesho. Backspace wuxuu tirtiraa xarafka ugu dambeeya.
+M504	BPM 32..255. Xawaare 1..31.
+M505	Saamaynta qaabku sidoo kale way beddeli kartaa xawaaraha iyo BPM inta la ciyaarayo.
+M506	QALABKA MUUSIKADA
+M507	KOR/HOOS DOORO   SPACE DHAGEYSO   ENTER ISTICMAAL   F3 XIR
+M508	Afarta kanaal dhammaantood waxay isticmaalaan isku-dhafka shaxda mowjadaha.
+M509	Dhageysigu wuxuu ciyaaraa C-4 heesta ka hooseysa tilmaamaha tafatirka.
+M510	U KEYDI HEESTA SIDA
+M511	ENTER KEYDI   F4 AMA CTRL-C JOOJI
+M512	Gal:
+M513	Magaca faylka:
+M514	Kordhinta .SGT si toos ah ayaa loogu daraa.
+M515	Fayl jira dusha waa lagu qori karaa.
+M516	FUR HEES
+M517	ENTER FUR  BS KOR  CTRL-O/CTRL-C JOOJI
+M518	(faylal .SGT kuma jiraan galkan)
+M519	XAQIIJI
+M520	Y = HAA   N / ENTER / CTRL-C = MAYA
+M521	Y = haa        N = maya
+M536	MThd xumaaday
+M537	SOO DEJINTA MIDI
+M539	waqtiga delta xumaaday
+M540	running status xumaaday
+M541	dhacdo meta xumaaday
+M542	dhacdo sysex xumaaday
+M543	dhacdo kanaal xumaaday
+M544	wax soo saarka SMF aad buu u yar yahay
+M545	wax soo saarka SMF aad buu u weyn yahay
+M546	heestu aad bay ugu dheer tahay SMF
+M557	FALLAADHO   dhaqaaji tilmaamaha unugga\n
+M558	SHIFT+FALL  ballaadhi doorashada (garaaf/koobi)\n
+M559	ENTER       tafatir unugga; inta tafatirka, xaqiiji oo hoos u dhaadhac\n
+M560	TAB         unugga xiga    SHIFT+TAB  unugga hore\n
+M561	DELETE      tirtir unugyada la doortay    ESC  jooji\n
+M562	PGUP/PGDN   hal shaashad    HOME/END  tiirka koowaad/ugu dambeeya\n
+M563	CTRL+HOME   A1    CTRL+END  unugga ugu dambeeya ee la isticmaalay\n
+M564	F1 caawin  F2 tafatir  F3 koobi  F4 dhaji  F5 gudub  F6 midab\n
+M565	F7 habee  F8 asal  F9 xisaabi  F10 garaaf  F11 keydi  F12 menu\n
+M566	SHIFT+F1 ku saabsan  SHIFT+F2 dhererka safka  SHIFT+F3 ballaca tiirka\n
+M567	SHIFT+F4 dooro dhammaan  SHIFT+F10 qaybta garaafka  SHIFT+F11 u keydi sida\n
+M568	CTRL+F1 cusub  CTRL+F2 fur  CTRL+F3 keydi  CTRL+F4 u keydi sida\n
+M569	CTRL+F5 dhoofi CSV  CTRL+F6 dhoofi ODS  ALT+F12 ka bax\n
+M570	2-da saf ee hoose: furayaasha hawlaha; [SHIFT]/[CTRL]/[ALT] sida maareeyaha faylka\n
+M571	CTRL+S keydi  CTRL+O fur  CTRL+N cusub  CTRL+C/V/X koobi/dhaji/jar\n
+M572	CTRL+G u gudub    /  fur menu-ga (1 Fayl, 2 Tafatir, ...)\n
+M573	Hawlaha gudaha: SUM AVERAGE MIN MAX COUNT COUNTA\n
+M576	Tixraacyada unugga: A1, $A$1, A1:B10.  Qaacidooyinku waxay ku bilaabmaan '='.\n
+M577	Faylal: .ods (LibreOffice), .fods (XML siman), .csv\n
+M578	ODS/FODS waxay hayaan qaacidooyinka, ballaca, dhererka iyo midabada.\n
+M579	CSV wuxuu hayaa qiimayaasha iyo qaacidooyinka (midab/dherer la'aan).\n
+M580	Garaaf: dooro qayb, riix F10, kadib dooro Xariiq/Baar/Isku dar/Doolsho.\n
+M581	SGCALC loogu talagalay sgnano\n
+M582	Nooca
+M583	Xaashi xisaab qaabka Lotus 1-2-3 oo ah barnaamij SGX.\n\n
+M585	Qaabka shaashadda 3: qoraal + FB CLUT8 (lowres waa daman yahay)\n
+M586	Xaashi: %d saf x %d tiir\n
+M587	Qaabab: .ods / .fods (LibreOffice), .csv\n\n
+M588	Shabakadda waxaa lagu sawiraa dusha qoraalka.\n
+M589	Garaafyada iyo asalka 640x480 waxay isticmaalaan FB.\n\n
+M591	Unugga lama keydin karo (%d).
+M592	Waa la koobiyeeyay %d x %d unug
+M593	Waa la tirtiray %s
+M594	'%s' ma aha tixraac unug.
+M596	Ballaca tiirka = %d
+M597	Dhererka safka = %d
+M598	Si toos ah u habee: %d tiir, %d saf
+M600	Midabka lama dabaqi karo (%d).
+M602	Qayb aan sax ahayn.\nIsticmaal qayb sida A1:C10.
+M603	Qaybta garaafka %s
+M604	Garaaf: %s
+M605	SGCALC: qaabka shaashadda 3 lama dejin karo: %s\n
+M614	Lama akhrin karo %s\n%s
+M615	Gal: %s
+M623	Kordhin aan la taageerin.\nIsticmaal .csv, .ods ama .fods.
+M624	%s horey ayuu u jiray.\nDusha ku qor?
+M625	%s waxaa laga yaabaa in aan la qori karin.\nIsku day si kastaba?
+M626	Nooca faylka %s lama yaqaan
+M627	Nooca faylka lama taageero.\nIsticmaal .csv, .ods ama .fods.
+M628	Lama furi karo %s\n%s
+M629	%s waa gal.
+M630	Lama soo dejin karo %s\n%s
+M631	Waa la rarray %s
+M632	Faylka %s lama dhisi karo.
+M633	Lama qori karo %s\n%s
+M635	nooca %u lama taageero
+M637	Oktaf %d
+M638	Cod %s
+M639	Qalab %d
+M640	Mug %s
+M641	Saamayn %c
+M642	Xuduud %s
+M643	Qaab %s
+M644	Wuxuu ciyaarayaa qaabka %s
+M645	KHALAD KEYDIN: %s
+M646	Waa la keydiyay %s
+M647	KHALAD RARID: %s
+M648	BPM %d
+M649	Xawaare %d
+M650	Dhageysi %s
+M651	Qalab %s %s
+M652	Dusha ku qor %s? (Y/N)
+M676	  F5          Ka ciyaar heesta habka hadda
+M677	  F6          Ciyaar qaabka hadda
+M678	  F7/Ctrl-C   Jooji ciyaarta
+M679	  Space       Ciyaar / jooji
+M680	  F4          U keydi sida
+M681	  Ctrl-S      Keydi (wuxuu weydiiyaa magac haddii ay cusub tahay)
+M682	  Ctrl-O      Fur hees
+M683	  Ctrl-N      Hees cusub
+M684	  F12         Ka bax (wuu xaqiijiyaa haddii la beddelay)
+M685	  [ ]         Gelinta habka hore / xigta
+M686	  { }         Geli / tirtir gelinta habka
+M687	  - +         Beddel qaabka gelinta
+M688	  F11         Raac ciyaarta (wuu damaa marka gacanta lagu dhaqaajiyo)
+M689	  F1          Caawin; Bidix/Midig wuxuu beddelaa bogga
+M690	  F8          Shid/dami qaabka tafatirka
+M691	  Fallaadho   Dhaqaaji tilmaamaha
+M692	  PgUp/PgDn   Bood 16 saf
+M693	  Home/End    Safka koowaad / ugu dambeeya
+M694	  F9/F10      Oktaf hoos / kor
+M695	  Z S X D C V G B H N J M      safka hoose ee biyaano
+M696	  Q 2 W 3 E R 5 T 6 Y 7 U      safka sare ee biyaano
+M697	  1           Jooji codka
+M698	  0 / Del     0 wuxuu tirtiraa cod/qalab/saamayn; Del wuxuu tirtiraa wax kasta
+M699	  Ctrl-Z      Dib u celi tafatirkii ugu dambeeyay ee qaabka/habka
+M700	  Axy   Simbiriirixa mugga: kor x, hoos y
+M701	  Cxx   Jar codka kadib xx tick
+M702	  Dxx   Deji mugga (00..7F)
+M703	  Fxx   Xawaare haddii xx < 20, haddii kale BPM
+M704	  Hxy   Arpeggio x, y badh-cod
+M705	  Pxx   Simbiriirixa codka kor
+M706	  Qxx   Simbiriirixa codka hoos
+M707	  F2 dejinta heesta, F3 liiska qalabka
+M708	CAAWIN %d/2
+M709	  Cinwaan
+M711	  BPM   : %d     (bidix/midig -1/+1, -/+ -5/+5)
+M712	  Xawaare : %d tick/saf
+M713	  Safaf : %d (go'an)
+M714	  Hab   : %d gelin
+M715	  Qaababka la isticmaalo : %d
+M718	Qalabka hadda: %s %s
+M722	Faylal: %d
+M726	SGNO TRACKER: SGX ABI aan ku habboonayn\n
+M727	Hubinta S:: sug -- fayl ayaa la akhrinayaa ama la qorayaa
+M728	Hubinta S:: darawalku waa mashquul ama ma diyaarsana
+M729	waxba looma hayo shaygan (ContextMenu.cfg)
+M730	amar xun ContextMenu.cfg
+M731	fal aan la aqoon ContextMenu.cfg
+M732	menu
+N001	5 Macro
+N002	6 Caawin
+N003	Socodsii kan hadda
+N004	Socodsii macro-ga tilmaamaha (unugga cinwaanka #! iyo unugyada hoostiisa)
+N005	Socodsii doorashada
+N006	Socodsii unugyada la doortay hal macro ahaan (unugga kore ee bidix waa cinwaanka #!)
+N007	Socodsii dhammaan
+N008	Socodsii macro kasta oo xaashida ku jira, kore-bidix ilaa hoose-midig
+N009	Khaladkii ugu dambeeyay
+N010	Muuji khaladkii macro ee ugu dambeeyay
+N011	Macro
+N012	Macro: socodsii unugyada #!ruby / #!python / #!basic
+N013	Tafatir unugga (F2)
+N014	Ballaca/dhererka la jaanqaad waxa ku jira
+N015	Khaladkii macro ee ugu dambeeyay
+N016	Khalad macro ma jiro.
+N017	IME waa shidan yahay
+N018	IME waa daman yahay
+N019	Macro: %s %s ...
+N020	%s: firmware-kan ma socodsiin karo macro (SGX ABI 5.10 ama ka dambe)
+N021	Khalad macro: %s
+N022	Macro: %s waa dhammaatay
+N023	macro ayaa horey u socda
+N024	luqaddan lama heli karo
+N025	xusuus kuma filna
+N026	macro-gu wuxuu ku istaagay khalad
+N027	Khalad macro %s: %s
+N028	Macro: xusuus kuma filna
+N029	Macro: tilmaamuhu kuma jiro macro (unug #!ruby / #!python / #!basic ama unugyada hoostiisa)
+N030	Macro: macro kuma jiro xaashida
+N031	Socodsii dhammaan macro-yada
+N032	Macro: %d. Dhammaan socodsii, kore-bidix ilaa hoose-midig? Isbeddellada dib looma celin karo.
+N033	Macro: %d waa dhammaatay (wadar %d)
+N034	Unugga waa la tirtiray
+N035	Doorashada waa la tirtiray
+N036	Midabka asalka = %d
+N037	Midabka qoraalka = %d
+N038	Garaaf: xariiq
+N039	Garaaf: baar
+N040	Garaaf: isku dar
+N041	Garaaf: doolsho
+N042	Waa la dhoofiyay %s

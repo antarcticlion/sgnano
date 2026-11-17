@@ -1,0 +1,787 @@
+# mt: machine translation (Google), unreviewed; 2026-11-17
+M001	is-sewqan marret
+M002	jerġa' jaqra l-ħitan...
+M003	ma setgħetx tiftaħ il-volum (l-ebda memorja?)
+M004	tiftaħ il-volum...
+M005	l-ebda memorja għal-lista tal-fajls
+M006	naqra d-direttorju... (jipprova mill-ġdid)
+M007	ma setgħetx jaqra d-direttorju
+M008	qari tad-direttorju...
+M009	id-drajv ma weġibx - qari mill-ġdid il-ħitan
+M010	ma setgħetx taqra d-direttorju (mhux FAT12/16/32?)
+M011	wisq entrati -- li juru l-ewwel
+M012	ma nstabet l-ebda sistema ta' fajls fuq din il-partizzjoni
+M013	it-triq hija twila wisq
+M014	tingħaqad...
+M015	qsim...
+M016	tibdel l-isem...
+M017	noħolqu l-folder...
+M018	noħolqu l-fajl...
+M019	qed tħassar...
+M020	tikteb l-attributi...
+M021	is-sewqan huwa okkupat
+M022	okkupat
+M023	agħżel fajls jew folders
+M024	agħżel fajls jew folders (mhux "..")
+M025	waqqaf is-CD l-ewwel
+M026	is-CD ma jistax jinbidel (kopja minflok)
+M027	folder tas-sistema ma jistax jiġi mċaqlaq
+M028	ebda drive ma jista' jinkiteb (FAT / exFAT / NTFS biss)
+M029	is-sewqan huwa marret
+M030	xejn magħżul
+M031	xejn magħżul
+M032	ma setgħetx tibda
+M033	ma setgħetx tiftaħ
+M034	biss fuq drive FAT / exFAT / NTFS
+M035	ebda isem
+M036	dak l-isem diġà jeżisti
+M037	ma setgħetx tibda (isem ħażin jew is-sewqan huwa okkupat)
+M038	ma setgħetx tibda (is-sewqan huwa okkupat)
+M039	l-isem ma jistax ikollu / jew \\ (biss ġewwa dan il-folder)
+M040	l-isem huwa l-istess
+M041	l-oġġett jinqara biss (A biex jinbidel)
+M042	agħżel fajl .rb fuq drive li jista' jinkiteb
+M043	agħżel fajl .rb
+M044	id-drajv huwa jinqara biss
+M045	agħżel folder fuq drive li jista' jikteb
+M046	stenna mument
+M047	agħżel fajl
+M048	agħżel fajl (mhux folder)
+M049	agħżel fajl .001
+M050	agħżel il-fajl .001
+M051	poġġi l-IWAD f'folder DoomFiles jew Doom2Files
+M052	DoomFiles jieħu freedoom1 / doom / doomu / doom1.wad
+M053	Doom2Files jieħu freedoom2 / doom2 / plutonia / tnt.wad
+M054	poġġi l-fajls tal-logħob fuq ħażna esterna, mhux S:
+M055	l-IWAD għandu jkun fuq drive FAT / exFAT / NTFS (mhux CD)
+M056	għadu jaħdem
+M057	qed titgħabba immaġini
+M058	ebda framebuffer
+M059	nofs il-luminożità taħdem biss f'RGB555
+M060	ikklerjar...
+M061	tnaqqas il-luminożità bin-nofs...
+M062	li hija track tad-data
+M063	stenna -- qed jinkiteb fajl
+M064	floppy / LS-120 / CD drives biss
+M065	mitluba
+M066	qari tad-diska...
+M067	tieqaf...
+M068	ftuħ...
+M069	sar
+M070	ebda memorja
+M071	diġà miftuħa
+M072	diġà għaddej
+M073	diġà qed ifaddlu
+M074	diġà qed jilgħab
+M075	ebda drive bħal dan
+M076	ebda PSRAM
+M077	ebda PSRAM għall-fajl
+M078	ebda PSRAM għall-indiċi tal-linja
+M079	ebda PSRAM għat-terminal
+M080	ebda memorja (PSRAM)
+M081	ebda memorja (32KB SRAM)
+M082	ebda memorja għall-buffer
+M083	l-ebda memorja għall-buffers tal-immaġni
+M084	l-ebda memorja għall-buffer tal-qari
+M085	ebda spazju għall-memorja tax-xogħol (agħlaq il-pjan lowres?)
+M086	l-ebda paġna framebuffer
+M087	kbir wisq (4 MB l-aktar)
+M088	il-fajl huwa kbir wisq (1 MB l-aktar)
+M089	il-fajl huwa kbir wisq (1 MB massimu)
+M090	kbir wisq għal SMF (1MB l-aktar)
+M091	il-fajl huwa vojt
+M092	ma setgħetx tiftaħ il-fajl
+M093	ma setgħetx jaqra l-fajl
+M094	ma setgħetx tiftaħ il-volum
+M095	ma setgħetx tiftaħ id-destinazzjoni (l-ebda memorja?)
+M096	ma setgħetx jaqra l-fowlder tal-għeruq
+M097	ma setgħetx tibda l-kompitu
+M098	ma setgħetx tibda tikteb (isem ħażin jew okkupat)
+M099	volum ieħor huwa miftuħ (okkupat)
+M100	kopja qed taħdem
+M101	folder ma jistax jidħol fih innifsu
+M102	dak huwa l-istess folder
+M103	dan id-drajv ma jistax jinbidel (qari biss)
+M104	id-drajv ma jistax jinkiteb
+M105	id-daqs tal-parti għandu jkun multiplu ta' 512
+M106	fajls ta' 4 GB jew aktar mhumiex appoġġjati
+M107	triq ħażina
+M108	isem tal-fajl ħażin
+M109	it-tipa ROM mhix hemm
+M110	il-ħoss mhuwiex miftuħ
+M111	ebda kanal bħal dan
+M112	is-sekwencer huwa okkupat
+M113	mhux biżżejjed PSRAM għall-kanzunetta
+M114	mhux fajl MIDI standard (mhux MThd)
+M115	ebda binarji
+M116	binarju huwa miksur (MTrk)
+M117	Id-diviżjoni tal-ħin SMPTE mhix appoġġata
+M118	Il-format SMF 2 mhuwiex appoġġjat (0 u 1 biss)
+M119	mhux drive Bulk-Only
+M120	mhux drive ottiku
+M121	folder tas-sistema ma jistax jitħassar jew jismu mill-ġdid
+M122	ebda midja fil-drive
+M123	issir lesta
+M124	mhux lest
+M125	midja mibdula
+M126	żball medju
+M127	talba illegali
+M128	dħul ħażin fid-direttorju
+M129	direttorju fit-triq ma jeżistix
+M130	fajl għandu dak l-isem
+M131	folder għandu dak l-isem
+M132	isem fit-triq mhuwiex direttorju
+M133	ikkanċellat
+M134	ma setgħux jintramaw
+M135	ma setgħetx tibda qari
+M136	ma setgħetx tibda tikteb
+M137	huwa direttorju
+M138	li huwa direttorju
+M139	ebda clusters
+M140	l-ebda spazju għal-lista tal-clusters
+M141	ebda fajl jew direttorju bħal dan
+M142	ebda fajl bħal dan
+M143	ebda volum
+M144	mhux NTFS
+M145	mhux exFAT
+M146	mhux direttorju
+M147	ma nstabx
+M148	aqra żball
+M149	żball tal-kitba
+M150	il-qari tax-XAĦAM falla
+M151	il-katina tal-cluster hija iqsar mill-fajl
+M152	id-direttorju mhuwiex vojt
+M153	id-diska hija mimlija
+M154	id-drajv ma weġibx
+M155	il-fajl jinqara biss
+M156	il-fajl huwa frammentat wisq
+M157	il-fajl huwa kbir wisq (4GB)
+M158	l-isem il-ġdid diġà jeżisti
+M159	id-direttorju tal-għeruq huwa mimli
+M160	wisq fajls bl-istess isem qasir
+M161	L-ebda fajl jew direttorju bħal dan
+M162	Il-fajl jeżisti
+M163	Permess miċħud
+M164	Direttorju mhux vojt
+M165	Mhux direttorju
+M166	Huwa direttorju
+M167	Sistema ta' fajls li jinqara biss
+M168	Ma fadalx spazju fuq it-tagħmir
+M169	Żball ta' input/output
+M170	Mhux appoġġjat fuq din id-drajv
+M171	Mogħdija invalida
+M172	Mingħajr memorja
+M173	L-ebda drive bħal dan
+M174	waqaf
+M175	ikkanċellat (mhux biżżejjed spazju ħieles)
+M176	ma setgħetx tgħodd l-ispazju ħieles
+M177	ir-riċevitur ikkanċellat
+M178	ebda riċevitur (run rz fuq il-PC)
+M179	il-console UART qed jintuża
+M180	il-mod tal-iskrin inbidel
+M181	il-linji ma ġewx (il-wirja qed taħdem?)
+M182	kopja
+M183	jimxu
+M184	ħassar
+M185	semmi mill-ġdid
+M186	attributi
+M187	fajl ġdid
+M188	folder ġdid
+M189	immaġni
+M190	mrbc
+M191	rubin
+M192	telespettatur
+M193	editja
+M194	IDENTIFIKA
+M195	ZMODEM
+M196	ZMODEM jirċievu
+M197	ZMODEM ibgħat
+M198	maqsuma
+M199	jissieħbu
+M200	Doom
+M201	SMF
+M202	CD
+M203	FB
+M204	Eject
+M205	reboot
+M206	liċenzja
+M207	arloġġ
+M208	ADC in
+M209	skrin -> PNG
+M210	FB -> PNG
+M211	ma setgħetx tiftaħ il-volum
+M212	riċevuti
+M213	mibgħuta
+M214	salvati
+M215	maħluqa
+M216	isem ġdid għal
+M217	imħassra
+M218	mibdula
+M219	ssieħbu
+M220	maqsuma
+M221	ma setgħetx toħloq
+M222	ma setgħetx tħassar
+M223	ma setgħetx tibdel l-isem għal
+M224	ma setgħetx tinbidel
+M225	ma setgħetx jaqra
+M226	ma setgħetx tikteb
+M227	ma setgħetx tikkopja
+M228	ma setgħetx tagħmel
+M229	ma setgħetx tneħħi l-folder
+M230	ma setgħetx tneħħi
+M231	ebda memorja għal
+M232	wisq żbalji waqt li tibgħat
+M233	ir-riċevitur ma ħaditx
+M234	ir-riċevitur qabeż
+M235	FB page
+M236	bytes kull wieħed)
+M237	bytes)
+M238	KB)
+M239	partijiet fi
+M240	partijiet (
+M241	fis
+M242	: approvat
+M243	: luminożità bin-nofs
+M244	% qari
+M245	ringieli
+M246	-- għadu mhux appoġġjat (FAT / exFAT / NTFS biss)
+M247	fajls
+M248	(
+M249	Bla titolu
+M250	1 Fajl
+M251	2 Editja
+M252	3 Graff
+M253	4 Folja
+M254	5 Għajnuna
+M255	VOJT
+M256	NUMRU
+M257	TEST
+M258	FORMULA
+M259	Ittajpja biex tidħol, F2 biex teditja, F1 għall-għajnuna
+M260	5 CSV
+M261	6 ODS
+M262	[SHIFT]
+M263	[CTRL]
+M264	[ALT]
+M265	Lest
+M266	SGCALC
+M267	Agħfas kwalunkwe ċavetta
+M268	Y = iva N = le Esc = tikkanċella
+M269	Daħħal = OK Esc = tikkanċella Ctrl-U = ċara
+M270	L-ewwel ringiela/kolonna = tikketti; mapep jużaw il-640x480 CLUT8 FB.
+M271	SGCAC - GĦAJNUNA
+M272	Agħfas kwalunkwe ċavetta biex tirritorna
+M273	Agħfas kwalunkwe ċavetta biex tirritorna.
+M274	DWAR SGCALC
+M275	Ġdid
+M276	Ibda folja ġdida
+M277	Iftaħ...
+M278	Iftaħ fajl ODS, FODS jew CSV
+M279	Ħlief
+M280	Issejvja l-fajl kurrenti
+M281	Ħlief bħala...
+M282	Ħlief b'isem jew format ġdid
+M283	Esportazzjoni CSV...
+M284	Ikteb kopja CSV
+M285	Esportazzjoni ODS...
+M286	Ikteb kopja ta' LibreOffice
+M287	Nieqaf
+M288	Ħalli s-SGCALC
+M289	Ċara
+M290	Ċara ċ-ċelloli magħżula
+M291	Kopja
+M292	Ikkopja l-għażla
+M293	Pejst
+M294	Paste fil-cursor
+M295	Aqta'
+M296	Ikkopja u ċara l-għażla
+M297	Agħżel kollha
+M298	Agħżel iċ-ċelloli kollha użati
+M299	Kulur tat-test...
+M300	Agħżel il-kulur tat-test
+M301	Sfond...
+M302	Agħżel l-isfond taċ-ċellula
+M303	Linja
+M304	Pinġi graff tal-linja mill-għażla
+M305	Bar
+M306	Pinġi bar graph mill-għażla
+M307	Imħallat
+M308	Bars għall-ewwel serje, linji għall-bqija
+M309	Torta
+M310	Pinġi graff pie mill-għażla
+M311	Medda...
+M312	Issettja l-firxa tal-graff b'mod espliċitu
+M313	Iġbed mill-ġdid
+M314	Iġbed mill-ġdid l-aħħar graff
+M315	Mur...
+M316	Aqbeż għal ċellola (per eżempju C12)
+M317	Wisa' tal-kolonna...
+M318	Ibdel il-wisa 'tal-kolonni magħżula
+M319	Għoli tar-ringiela...
+M320	Ibdel l-għoli tar-ringieli magħżula
+M321	Auto fit
+M322	Waħħal il-wisgħat/għoli mal-kontenut (F7)
+M323	Ikkalkula mill-ġdid
+M324	Evalwa mill-ġdid il-formuli kollha
+M325	Ħassar kollox
+M326	Ċara l-folja kollha
+M327	Ċwievet
+M328	Uri l-gwida ewlenija
+M329	Dwar
+M330	Dwar SGCALC
+M331	Fajl
+M332	Editja
+M333	Graff
+M334	Folja
+M335	Għajnuna
+M336	Fajl: ġdid, tiftaħ, issalva, tesporta, nieqaf
+M337	Editja: ċar, kopja, paste, aqta ', agħżel kollha
+M338	Grafika: linja, bar, imħallat, pie (tpinġi fl-FB)
+M339	Folja: goto, wisa 'kolonna, ikkalkula mill-ġdid, ħassar
+M340	Għajnuna: ċwievet u dwar
+M341	Xellug/Lemin = menu Up/Down = oġġett Daħħal = agħżel Esc = tikkanċella
+M342	Ikkanċellat
+M343	L-għażla hija kbira wisq jew il-memorja hija baxxa.
+M344	iċ-ċellula
+M345	l-għażla
+M346	Xejn li paste
+M347	Pasted
+M348	MUR GĦAX-ĊELLA
+M349	Referenza taċ-ċellula (A1):
+M350	Goto
+M351	WISA' TAL-KOLONNA
+M352	Wisa' f'karattri (4..30):
+M353	L-GĦOLI tar-ringiela
+M354	Għoli fir-ringieli tat-test (1..8):
+M355	Auto fit: il-folja hija vojta
+M356	KULUR TAL-ISFOND
+M357	KULUR TAT-TEST
+M358	Vleġeġ: agħżel Daħħal: applika Esc: tikkanċella
+M359	Indiċi tal-kulur (PC-98 paletta ta’ 16-il kulur)
+M360	Aa 123
+M361	Daħħal = applika Esc = tikkanċella
+M362	Kulur
+M363	Sfond
+M364	Test
+M365	FIRXA GRAFIKA
+M366	Medda (per eżempju A1:C10):
+M367	Firxa tal-grafika
+M368	Uża firxa bħal A1:C10.
+M369	Ma tistax tiġbed il-graff.
+M370	linja
+M371	bar
+M372	imħallat
+M373	torta
+M374	Ċara kull ċellula f'din il-folja?
+M375	Folja mħassra
+M376	Għażlet iċ-ċelloli kollha użati
+M377	Ikkalkulat mill-ġdid
+M378	Memorja
+M379	Mhux biżżejjed PSRAM għall-ispreadsheet.
+M380	Il-folja hija vojta.
+M381	L-ebda data numerika fil-medda magħżula.
+M382	Oħrajn
+M383	Ebda valuri pożittivi għal pie chart
+M384	LINJA
+M385	BAR
+M386	IMĦALLAT
+M387	PIE
+M388	S:/
+M389	Folder
+M390	SAVE AS
+M391	OPEN FILE
+M392	LibreOffice / CSV
+M393	ODS FODS CSV
+M394	Isem:
+M395	(ittajpja isem, jew agħżel hawn taħt)
+M396	Isem
+M397	Daqs
+M398	Enter=salva Left=up Right/Enter on [DIR]=miftuħa Tab=drive Esc=ikkanċella
+M399	Enter=miftuħ Left=up Right/Enter on [DIR]=miftuħa Tab=drive Esc=ikkanċella
+M400	Mhux biżżejjed memorja.
+M401	Ikteb mill-ġdid
+M402	Miftuħa
+M403	Il-fajl huwa kbir wisq (limitu ta' 8 MB).
+M404	Mhux biżżejjed memorja biex taqra l-fajl.
+M405	Dejta ħażina ZIP/ODS.
+M406	Żball CRC fil-fajl ODS.
+M407	Fajl mhux appoġġjat jew bil-ħsara.
+M408	Salvat
+M409	Esportati
+M410	Bidliet mhux salvati
+M411	Issejvja l-folja attwali qabel tkompli?
+M412	Folja ġdida
+M413	SGTRK
+M414	BL-TITOLU
+M415	il-kanzunetta hija kbira wisq
+M416	fajl vojt
+M417	mhux fajl SGT
+M418	BPM ħażin
+M419	veloċità ħażina
+M420	tul tat-titlu ħażin
+M421	titolu maqtugħ
+M422	karattru ħażin fit-titlu
+M423	ordni maqtugħa
+M424	tul ta 'ordni ħażina
+M425	numru tal-mudell ħażin fl-ordni
+M426	lista tal-mudelli maqtugħa
+M427	għadd mudell ħażin
+M428	indiċi tal-mudell ħażin
+M429	mudell duplikat
+M430	data tal-mudell maqtugħ
+M431	data tal-mudell invalida
+M432	data ta' wara fil-fajl
+M433	ordni tirreferi għal mudell nieqes
+M434	A:/
+M435	(bla titolu)
+M436	Lest. Agħfas F1 għall-għajnuna.
+M437	Segwi OFF
+M438	Xejn x'tagħmel
+M439	Ħoll
+M440	Nota OFF
+M441	Issettja ittra ta 'effett l-ewwel
+M442	Effett ikklerjat
+M443	Parametru mneħħi
+M444	Nota approvata
+M445	Strument approvat
+M446	Volum ikklerjat
+M447	Lista tal-ordnijiet hija sħiħa
+M448	Ordni mdaħħla
+M449	Ma tistax tħassar l-aħħar ordni
+M450	Ordni mħassra
+M451	Daqq kanzunetta
+M452	Waqqaf
+M453	Kanzunetta ġdida
+M454	Armi l-bidliet mhux salvati u tibda kanzunetta ġdida? (I/N)
+M455	Armi l-bidliet mhux salvati u tiftaħ kanzunetta? (I/N)
+M456	Armi bidliet mhux salvati u nieqaf? (I/N)
+M457	Is-settings tal-kanzunetta ġew aġġornati
+M458	L-isem tal-fajl huwa vojt
+M459	Ħlief ikkanċellat
+M460	Miftuħ ikkanċellat
+M461	Edit ON
+M462	Editja OFF
+M463	Segwi ON
+M464	Edit huwa OFF. Agħfas F8 biex teditja.
+M465	Żball I/O
+M466	fajl huwa kbir wisq
+M467	fajl maqtugħ
+M468	SINE PAD
+M469	TRIANGOLU
+M470	ĊOMB SAW
+M471	PJAZZA
+M472	POLZ 25
+M473	ORGANI
+M474	BASS
+M475	QANPIENA
+M476	ĦOSS
+M477	SINE
+M478	SAW
+M479	OFF
+M480	ON
+M481	FILLIA
+M482	LIVELL CHAN
+M483	F1 HELP F2 SONG
+M484	F3 INS F4 SAVE
+M485	F5 PLAY F6 PAT
+M486	F7 STOP F8 EDIT
+M487	F9/F10 OTTAVE
+M488	F11 SEGWU
+M489	F12 ĦQIEĠ
+M490	L-ISPAZJU PLAY/STOP
+M491	CTRL-S SAVE
+M492	CTRL-O OPEN
+M493	C-N ĠODDA C-Z UNDO
+M494	C-C STOP
+M495	#TRASPORT U FILE
+M496	#LISTA ORDNI
+M497	#DISPLAY
+M498	#EDITjar
+M499	#EFFETTI (il-parametru huwa eżadeċimali)
+M500	PAĠNA XELLUG/LEMIN DĦAL JEW F1 AGĦLAQ
+M501	issettjar tal-kanzunetta
+M502	UP/DOWN GĦAŻEL LEFT/RIGHT Aġġusta Daħħal/F2 MAGĦLUQ
+M503	Ittajpja biex teditja t-titlu. Backspace iħassar l-aħħar karattru.
+M504	Firxa BPM 32..255. Firxa tal-veloċità 1..31.
+M505	L-effetti tal-mudell jistgħu wkoll ibiddlu l-veloċità u l-BPM waqt il-logħob.
+M506	STRUMENTI
+M507	UP/DOWN AGĦŻEL SPAZJU PREVIŻJONI DĦUL UŻA F3 MAGĦLUQ
+M508	L-erba 'kanali kollha jużaw sintesi tal-wavetable.
+M509	Preview jilgħab C-4 fuq il-binarju taħt il-cursor tal-editjar.
+M510	SAVE SONG AS
+M511	DĦAL SAVE F4 JEW CTRL-C IKKANĊELLA
+M512	Direttorju:
+M513	Isem tal-fajl:
+M514	L-estensjoni .SGT hija miżjuda awtomatikament.
+M515	Fajl eżistenti jista' jiġi miktub fuqu.
+M516	KANJUNJA OPEN
+M517	Daħħal OPEN BS ĠENITURI CTRL-O/CTRL-C IĊĊANĊELLA
+M518	(l-ebda fajls .SGT f'dan il-folder)
+M519	IKKONFERMA
+M520	Y = IVA N / ENTER / CTRL-C = LE
+M521	Y = iva N = le
+M522	C-
+M523	C#
+M524	D-
+M525	D#
+M526	E-
+M527	F-
+M528	F#
+M529	G-
+M530	G#
+M531	A-
+M532	A#
+M533	B-
+M534	A:/dir/isem
+M535	MThd
+M536	miksur MThd
+M537	IMPORTAZZJONI MIDI
+M538	MTrk
+M539	ħin tad-delta miksur
+M540	stat ta 'tħaddim miksur
+M541	avveniment meta miksur
+M542	avveniment sysex miksur
+M543	avveniment tal-kanal imkisser
+M544	L-output SMF huwa żgħir wisq
+M545	L-output SMF huwa kbir wisq
+M546	il-kanzunetta hija twila wisq għal SMF
+M547	TRK1
+M548	%s%d
+M549	%s%d:%s%d
+M550	%s
+M551	%.40s%s
+M552	[%s] %s
+M553	EDIT
+M554	LEST
+M555	%4d
+M556	%s Somma %.7g N %ld%s
+M557	IL-VLEĠEĠI jmexxu l-cursor taċ-ċellula
+M558	SHIFT+ARR jestendu l-għażla (għall-grafiċi/kopja)
+M559	ENTER editja ċ-ċellula; fl-editjar, jikkommettu u jimxu 'l isfel
+M560	TAB ċellula li jmiss SHIFT+TAB ċellula preċedenti
+M561	Ħassar ċar iċ-ċelluli magħżula ESC tikkanċella
+M562	PGUP/PGDN jimxu skrin wieħed HOME/TMIEM l-ewwel/l-aħħar kolonna
+M563	CTRL+HOME A1 CTRL+END l-aħħar ċellula użata
+M564	F1 jgħin F2 editja F3 kopja F4 paste F5 goto F6 kulur
+M565	F7 auto-fit F8 background F9 recalc F10 graff F11 ħlief F12 menu
+M566	SHIFT+F1 dwar SHIFT+F2 għoli ta' ringiela SHIFT+F3 wisa' tal-kolonna
+M567	SHIFT+F4 agħżel il-firxa kollha tal-grafika SHIFT+F10 SHIFT+F11 ħlief bħala
+M568	CTRL+F1 ġdid CTRL+F2 tiftaħ CTRL+F3 ħlief CTRL+F4 ħlief bħala
+M569	CTRL+F5 esportazzjoni CSV CTRL+F6 esportazzjoni ODS ALT+F12 nieqaf
+M570	Qiegħed 2 linji: ċwievet tal-funzjoni; [SHIFT]/[CTRL]/[ALT] bħall-filer
+M571	CTRL+S ħlief CTRL+O tiftaħ CTRL+N ġdid CTRL+C/V/X kopja/pejst/cut
+M572	CTRL+G mur / tiftaħ il-menu (1 File, 2 Edit, ...)
+M573	Funzjonijiet inkorporati: SOM MEDJA MIN MAX COUNT COUNTA
+M574	PRODOTT ABS SQRT INT ROUND MOD POWER JEKK U JEW LE
+M575	JEKK ERROR LEN XELLUG LEMIN NOFS Upper LOWER TRIM CONCATENATE PI
+M576	Refs taċ-ċelluli: A1, $ A $ 1, A1: B10.  Il-formuli jibdew b''='.
+M577	Fajls: .ods (LibreOffice), .fods (XML ċatt), .csv
+M578	ODS/FODS iżomm formuli, wisa', għoli u kuluri.
+M579	CSV iżomm il-valuri u l-formuli (l-ebda kuluri/għoli).
+M580	Graff: agħżel firxa, agħfas F10, u agħżel Linja/Bar/Mħallta/Pie.
+M581	SGCALC għal sgnano
+M582	Verżjoni
+M583	Spreadsheet tal-istil Lotus 1-2-3 bħala programm SGX.
+M584	SGX ABI %u.%u
+M585	Modalità tal-iskrin 3: test + CLUT8 FB (lowres diżattivat)
+M586	Folja: %d ringieli x %d kolonni
+M587	Formati: .ods / .fods (LibreOffice), .csv
+M588	Il-gradilja hija mfassla fuq il-pjan tat-test.
+M589	Iċ-ċarts u l-isfond 640x480 jużaw l-FB.
+M590	%d %s
+M591	Ma tistax taħżen iċ-ċellula (%d).
+M592	Ikkupjati %d x %d ċelluli
+M593	Kklerjat %s
+M594	'%s' mhix referenza taċ-ċellula.
+M595	%d
+M596	Wisa' tal-kolonna = %d
+M597	Għoli ringiela = %d
+M598	Twaħħil awtomatiku: %d kolonna(i), %d ringiela(i)
+M599	%2d
+M600	Ma tistax tapplika l-kulur (%d).
+M601	%s kulur = %d
+M602	Mhux firxa valida.\nUża firxa bħal A1:C10.
+M603	Firxa tal-grafika %s
+M604	Grafika: %s
+M605	SGCALC: ma tistax tissettja l-modalità tal-iskrin 3: %s
+M606	%.2g
+M607	%.6g
+M608	%s %.0f%%
+M609	GRAFIKA %s %s
+M610	%s%s
+M611	%s/%s
+M612	%.*s
+M613	%.*s/
+M614	Ma jistax jaqra %s\n%s
+M615	Folder: %s
+M616	[DIR] %s
+M617	%s
+M618	%lu.%luM
+M619	%luK
+M620	%luB
+M621	KTIEB1%s
+M622	%c:/
+M623	Estensjoni mhux appoġġjata.\nUża .csv, .ods jew .fods.
+M624	%s diġà jeżisti.\nIkteb fuqu?
+M625	%s jista' ma jkunx jista' jinkiteb.\nIpprova xorta?
+M626	Tip ta' fajl mhux magħruf għal %s
+M627	Tip ta' fajl mhux appoġġjat.\nUża .csv, .ods jew .fods.
+M628	Ma tistax tiftaħ %s\n%s
+M629	%s huwa folder.
+M630	Ma tistax timporta %s\n%s
+M631	Mgħobbija %s
+M632	Ma tistax tibni l-fajl %s.
+M633	Ma tistax tikteb %s\n%s
+M634	%s %s
+M635	verżjoni mhux appoġġjata %u
+M636	%d:%d:%d:%d:%d:%d
+M637	Ottava %d
+M638	Nota %s
+M639	Strument %d
+M640	Volum %s
+M641	Effett %c
+M642	Parametru %s
+M643	Mudell %s
+M644	Daqq tal-mudell %s
+M645	SAVE ERROR: %s
+M646	Salvat %s
+M647	ŻBALL TA’ TAGĦBIJA: %s
+M648	BPM %d
+M649	Veloċità %d
+M650	Preview %s
+M651	Strument %s %s
+M652	Ikteb mill-ġdid %s? (I/N)
+M653	| BPM %s SPD %s
+M654	SGNO TRACKER 1.0 |
+M655	FILE
+M656	PAT %s
+M657	ORD %d/%d
+M658	INS %s
+M659	OCT %d
+M660	EDITJA %s
+M661	ON
+M662	FOL %s
+M663	TRACK %d
+M664	%c%s
+M665	%s %s %s %s
+M666	%s
+M667	%d %s %s
+M668	ORDNI %d/%d
+M669	PAT %s
+M670	INS %s %s
+M671	OCT %d EDIT %s
+M672	SEGWAW %s
+M673	PLAYING ORD %d/%d PAT %s ROW %s/%d SPD %s BPM %d F7 STOP
+M674	EDIT LEST %s OCT %d F1 GĦAJNUNA F5 LAGĦBA CTRL-S SAVE
+M675	%s
+M676	F5 Iddoqq il-kanzunetta mill-ordni attwali
+M677	F6 Ilgħab il-mudell kurrenti
+M678	F7/Ctrl-C Waqqaf id-daqq
+M679	Spazju Play / stop
+M680	F4 Ħlief bħala
+M681	Ctrl-S Save (jitlob isem jekk ġdid)
+M682	Ctrl-O Iftaħ kanzunetta
+M683	Ctrl-N Kanzunetta ġdida
+M684	F12 Nieqaf (konferma jekk modifikata)
+M685	[ ] Dħul tal-ordni preċedenti/li jmiss
+M686	{ } Daħħal / ħassar dħul ta' ordni
+M687	- + Ibdel il-mudell fl-entrata
+M688	F11 Segwi l-plejbek (titfi fuq il-moviment manwali)
+M689	F1 Għajnuna; Xellug/Lemin jibdel il-paġna
+M690	F8 Toggle mod editjar
+M691	Vleġeġ Mexxi l-cursor
+M692	PgUp/PgDn Aqbeż 16-il ringiela
+M693	Home/Tmiem L-ewwel / l-aħħar ringiela
+M694	F9/F10 Ottava 'l isfel /' l fuq
+M695	Z S X D C V G B H N J M ringiela t'isfel tal-pjanu
+M696	Q 2 W 3 E R 5 T 6 Y 7 U ringiela ta’ fuq tal-pjanu
+M697	1 Nota off
+M698	0 / Del 0 jikklerja nota/inst/fx; Del jikklerja kwalunkwe
+M699	Ctrl-Z Ħoll l-aħħar editjar tal-mudell/ordni
+M700	Axy Volum slide: 'l fuq x, 'l isfel y
+M701	Cxx Nota maqtugħa wara xx qurdien
+M702	Dxx Issettja l-volum (00..7F)
+M703	Fxx Veloċità jekk xx < 20, inkella BPM
+M704	Hxy Arpeġju x, y semitones
+M705	Pxx Żift slide up
+M706	Qxx Żift slide isfel
+M707	Settings tal-kanzunetti F2, lista tal-istrumenti F3
+M708	GĦAJNUNA %d/2
+M709	Titolu
+M710	[%s_]
+M711	BPM: %d (xellug/lemin -1/+1, -/+ -5/+5)
+M712	Veloċità : %d qurdien/ringiela
+M713	Ringieli : %d (fissi)
+M714	Ordni : %d entrati
+M715	Disinji fl-użu : %d
+M716	# ISEM WAVE A D S R VOL
+M717	%c %d %-9s %-9s %3d %3d %3d %3d %4d
+M718	Strument kurrenti: %s %s
+M719	%s
+M720	DIR %s
+M721	%c %s%s
+M722	Fajls: %d
+M723	%02d
+M724	%03d
+M725	%02X
+M726	SGNO TRACKER: SGX ABI inkompatibbli
+M727	S: iċċekkja: stenna -- fajl qed jinqara jew jinkiteb
+M728	S: iċċekkja: is-sewqan huwa okkupat jew mhux lest
+M729	xejn għal dan l-oġġett (ContextMenu.cfg)
+M730	kmand ħażin f'ContextMenu.cfg
+M731	azzjoni mhux magħrufa f'ContextMenu.cfg
+M732	menu
+M733	agħżel fajl jew folder
+M734	din id-drajv ma tistax tinkiteb
+M735	xogħol tal-arkivju diġà qed jaħdem
+M736	ebda PSRAM għall-kompitu tal-arkivju
+M737	ma setgħetx tibda l-kompitu tal-arkivju
+M738	wisq oġġetti (32 l-iktar)
+M739	xejn biex tikkompressa
+M740	l-ebda isem (jew l-isem għandu / jew \\)
+M741	L-iktar 32 oġġett (immarka inqas, jew poġġihom f'folder)
+M742	arkivju
+M743	tikkompressa
+M744	tirrendi
+N001	5 Makro
+N002	6 Għajnuna
+N003	Mexxi kurrent
+N004	Mexxi l-makro fil-cursor (#! ċellola header u ċ-ċelloli taħtha)
+N005	Mexxi l-għażla
+N006	Mexxi ċ-ċelloli magħżula bħala makro waħda (iċ-ċellula ta' fuq tax-xellug hija l-header #!)
+N007	Mexxi kollha
+N008	Mexxi kull makro fil-folja, minn fuq ix-xellug għal isfel fuq il-lemin
+N009	L-aħħar żball
+N010	Uri l-aħħar żball makro
+N011	Makro
+N012	Makro: mexxi #!ruby / #!python / #!ċelluli bażiċi
+N013	Editja ċ-ċellula (F2)
+N014	Waħħal wisgħat/għoli mal-kontenut
+N015	L-aħħar żball makro
+N016	L-ebda żball makro.
+N017	IME mixgħula
+N018	IME mitfi
+N019	Makro: %s %s ...
+N020	%s: dan il-firmware ma jistax iħaddem macros (SGX ABI 5.10 jew aktar tard)
+N021	Żball makro: %s
+N022	Makro: %s lest
+N023	makro diġà qed jaħdem
+N024	din il-lingwa mhix disponibbli
+N025	mhux biżżejjed memorja
+N026	il-makro waqaf bi żball
+N027	Żball makro %s: %s
+N028	Makro: mhux biżżejjed memorja
+N029	Makro: il-cursor mhuwiex fuq makro (#!ruby / #!python / #!ċellula bażika jew iċ-ċelloli taħtha)
+N030	Makro: l-ebda makro fil-folja
+N031	Mexxi l-macros kollha
+N032	Makros: %d. Mexxihom kollha, minn fuq ix-xellug għal isfel lejn il-lemin? Il-bidliet ma jistgħux jitneħħew.
+N033	Makro: %d minn %d lest
+N034	Neħħa ċ-ċellula
+N035	Kklerjat l-għażla
+N036	Kulur tal-isfond = %d
+N037	Kulur tat-test = %d
+N038	Grafika: linja
+N039	Grafika: bar
+N040	Grafika: imħallat
+N041	Grafika: torta
+N042	Esportati %s

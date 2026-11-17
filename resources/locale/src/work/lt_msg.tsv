@@ -1,0 +1,787 @@
+# lt: machine translation (Google), unreviewed; 2026-11-17
+M001	pavara nuėjo
+M002	dar kartą skaitant pertvaras...
+M003	nepavyko atidaryti tomo (nėra atminties?)
+M004	atidaryti tomą...
+M005	nėra atminties failų sąrašui
+M006	skaityti katalogą... (bandoma dar kartą)
+M007	negalėjo perskaityti katalogo
+M008	skaitau katalogą...
+M009	diskas neatsakė -- dar kartą skaitydamas skaidinius
+M010	nepavyko nuskaityti katalogo (ne FAT12/16/32?)
+M011	per daug įrašų – rodomi pirmieji
+M012	šiame skaidinyje nerasta failų sistemos
+M013	kelias per ilgas
+M014	prisijungiu...
+M015	skilimas...
+M016	pervadinimas...
+M017	kuriant aplanką...
+M018	kuriant failą...
+M019	ištrinama...
+M020	rašyti atributus...
+M021	važiavimas užimtas
+M022	užimtas
+M023	pasirinkti failus arba aplankus
+M024	pasirinkite failus arba aplankus (ne "..")
+M025	pirmiausia sustabdykite kompaktinį diską
+M026	CD negalima pakeisti (vietoj jo kopijuoti)
+M027	sistemos aplanko negalima perkelti
+M028	negalima įrašyti jokio disko (tik FAT / exFAT / NTFS)
+M029	pavara dingo
+M030	nieko nepasirinkta
+M031	nieko nepasirinkta
+M032	negalėjo pradėti
+M033	negalėjo atidaryti
+M034	tik FAT / exFAT / NTFS diske
+M035	jokio vardo
+M036	toks pavadinimas jau yra
+M037	nepavyko paleisti (blogas pavadinimas arba diskas užimtas)
+M038	nepavyko paleisti (variklis užimtas)
+M039	pavadinimas negali turėti / arba \\ (tik šiame aplanke)
+M040	pavadinimas tas pats
+M041	elementas yra tik skaitomas (A pakeisti)
+M042	pasirinkite .rb failą įrašomajame diske
+M043	pasirinkite .rb failą
+M044	diskas yra tik skaitomas
+M045	pasirinkite aplanką įrašomajame diske
+M046	palaukite akimirką
+M047	pasirinkti failą
+M048	pasirinkti failą (ne aplanką)
+M049	pasirinkite .001 failą
+M050	pasirinkite .001 failą
+M051	įdėkite IWAD į DoomFiles arba Doom2Files aplanką
+M052	DoomFiles paima freedoom1 / doom / doomu / doom1.wad
+M053	Doom2Files užima freedoom2 / doom2 / plutonia / tnt.wad
+M054	Įdėkite žaidimo failus į išorinę atmintį, o ne S:
+M055	IWAD turi būti FAT / exFAT / NTFS diske (ne kompaktiniame diske)
+M056	vis dar dirba
+M057	įkeliamas vaizdas
+M058	nėra kadrų buferio
+M059	pusė šviesumo veikia tik RGB555
+M060	išvalymas...
+M061	perpus sumažinti šviesumą...
+M062	tai yra duomenų takelis
+M063	palauk – rašomas failas
+M064	tik diskelių / LS-120 / CD diskų įrenginiai
+M065	paprašė
+M066	skaitant diską...
+M067	sustojimas...
+M068	atidarymas...
+M069	padaryta
+M070	jokios atminties
+M071	jau atidaryta
+M072	jau bėga
+M073	jau taupo
+M074	jau žaidžia
+M075	tokio važiavimo nėra
+M076	nėra PSRAM
+M077	nėra failo PSRAM
+M078	nėra PSRAM linijos indeksui
+M079	terminalui nėra PSRAM
+M080	nėra atminties (PSRAM)
+M081	nėra atminties (32KB SRAM)
+M082	nėra buferio atminties
+M083	nėra atminties vaizdo buferiams
+M084	nėra atminties skaitymo buferiui
+M085	nėra vietos darbo atminčiai (uždaryti žemos plokštumos?)
+M086	nėra kadrų buferio puslapio
+M087	per didelis (daugiausia 4 MB)
+M088	failas per didelis (daugiausia 1 MB)
+M089	failas per didelis (maks. 1 MB)
+M090	per didelis SMF (daugiausia 1 MB)
+M091	failas tuščias
+M092	nepavyko atidaryti failo
+M093	negalėjo perskaityti failo
+M094	negalėjo atidaryti tomo
+M095	nepavyko atidaryti paskirties vietos (nėra atminties?)
+M096	nepavyko nuskaityti šakninio aplanko
+M097	negalėjo pradėti užduoties
+M098	negalėjo pradėti rašyti (blogas vardas arba užimtas)
+M099	kitas tomas atidarytas (užimtas)
+M100	veikia kopija
+M101	aplankas negali patekti į save
+M102	tai tas pats aplankas
+M103	šio disko pakeisti negalima (tik skaityti)
+M104	diskas nerašomas
+M105	dalies dydis turi būti kartotinis iš 512
+M106	4 GB ar didesni failai nepalaikomi
+M107	blogas kelias
+M108	blogas failo pavadinimas
+M109	šrifto ROM nėra
+M110	garsas nėra atidarytas
+M111	tokio kanalo nera
+M112	sekvencija užimta
+M113	nepakanka PSRAM dainai
+M114	ne standartinis MIDI failas (be MThd)
+M115	jokių pėdsakų
+M116	nutrūkęs takelis (MTrk)
+M117	SMPTE laiko padalijimas nepalaikomas
+M118	2 SMF formatas nepalaikomas (tik 0 ir 1)
+M119	ne tik masinis diskas
+M120	ne optinis diskas
+M121	sistemos aplanko negalima ištrinti arba pervardyti
+M122	diske nėra laikmenos
+M123	tampa pasiruošęs
+M124	nepasiruošęs
+M125	pasikeitė žiniasklaida
+M126	vidutinė klaida
+M127	neteisėtą prašymą
+M128	blogas katalogo įrašas
+M129	pakeliui esantis katalogas neegzistuoja
+M130	failas turi tokį pavadinimą
+M131	aplankas turi tokį pavadinimą
+M132	pakeliui esantis vardas nėra katalogas
+M133	atšauktas
+M134	negalėjo užsimontuoti
+M135	negalėjo pradėti skaityti
+M136	negalėjo pradėti rašyti
+M137	yra katalogas
+M138	tai yra katalogas
+M139	jokių klasterių
+M140	nėra vietos klasterių sąrašui
+M141	tokio failo ar katalogo nėra
+M142	tokio failo nėra
+M143	jokio tūrio
+M144	ne NTFS
+M145	ne exFAT
+M146	ne katalogas
+M147	nerasta
+M148	skaitymo klaida
+M149	rašymo klaida
+M150	nepavyko perskaityti FAT
+M151	klasterio grandinė yra trumpesnė už failą
+M152	katalogas nėra tuščias
+M153	diskas pilnas
+M154	vairuotojas neatsiliepė
+M155	failas yra tik skaitomas
+M156	failas per daug suskaidytas
+M157	failas per didelis (4 GB)
+M158	naujas pavadinimas jau yra
+M159	šakninis katalogas pilnas
+M160	per daug failų tuo pačiu trumpuoju pavadinimu
+M161	Nėra tokio failo ar katalogo
+M162	Failas egzistuoja
+M163	Leidimas atmestas
+M164	Katalogas nėra tuščias
+M165	Ne katalogas
+M166	Yra katalogas
+M167	Tik skaitoma failų sistema
+M168	Įrenginyje neliko vietos
+M169	Įvesties/išvesties klaida
+M170	Šiame diske nepalaikoma
+M171	Neteisingas kelias
+M172	Pritrūko atminties
+M173	Nėra tokio važiavimo
+M174	sustojo
+M175	atšaukta (nepakanka laisvos vietos)
+M176	negalėjo suskaičiuoti laisvos vietos
+M177	imtuvas atšauktas
+M178	nėra imtuvo (paleiskite rz kompiuteryje)
+M179	konsolė UART yra naudojama
+M180	pasikeitė ekrano režimas
+M181	linijos neatėjo (ar veikia ekranas?)
+M182	kopija
+M183	judėti
+M184	ištrinti
+M185	pervadinti
+M186	atributai
+M187	naujas failas
+M188	naujas aplankas
+M189	vaizdas
+M190	mrbc
+M191	rubinas
+M192	žiūrovas
+M193	redaguoti
+M194	IDENTIFIKUOTI
+M195	ZMODEM
+M196	ZMODEM gauti
+M197	ZMODEM siuntimas
+M198	padalintas
+M199	prisijungti
+M200	Doom
+M201	SMF
+M202	CD
+M203	FB
+M204	Išstumti
+M205	paleisti iš naujo
+M206	licencija
+M207	laikrodis
+M208	ADC viduje
+M209	ekranas -> PNG
+M210	FB -> PNG
+M211	negalėjo atidaryti tomo
+M212	gavo
+M213	išsiųstas
+M214	išsaugotas
+M215	sukurtas
+M216	pervadintas į
+M217	ištrintas
+M218	pasikeitė
+M219	prisijungė
+M220	padalintas
+M221	negalėjo sukurti
+M222	nepavyko ištrinti
+M223	negalėjo pervardyti į
+M224	negalėjo pakeisti
+M225	nemokėjo skaityti
+M226	negalėjo rašyti
+M227	negalėjo kopijuoti
+M228	negalėjo padaryti
+M229	nepavyko pašalinti aplanko
+M230	negalėjo pašalinti
+M231	nėra atminties
+M232	per daug klaidų siunčiant
+M233	imtuvas nepaėmė
+M234	imtuvas praleido
+M235	FB puslapyje
+M236	baitai kiekvienas)
+M237	baitai)
+M238	KB)
+M239	dalys į
+M240	dalys (
+M241	į
+M242	: išvalyta
+M243	: ryškumas sumažėjo perpus
+M244	% perskaityta
+M245	eilučių
+M246	– dar nepalaikoma (tik FAT / exFAT / NTFS)
+M247	failus
+M248	(
+M249	Be pavadinimo
+M250	1 failas
+M251	2 Redaguoti
+M252	3 Grafikas
+M253	4 lapas
+M254	5 Pagalba
+M255	TUŠČIA
+M256	NUMERIS
+M257	TEKSTAS
+M258	FORMULĖ
+M259	Įveskite norėdami įvesti, F2 norėdami redaguoti, F1, jei norite pagalbos
+M260	5 CSV
+M261	6 ODS
+M262	[SHIFT]
+M263	[CTRL]
+M264	[ALT]
+M265	Paruošta
+M266	SGCALC
+M267	Paspauskite bet kurį klavišą
+M268	Y = taip N = ne Esc = atšaukti
+M269	Enter = OK Esc = atšaukti Ctrl-U = išvalyti
+M270	Pirma eilutė / stulpelis = etiketės; diagramose naudojamas 640 x 480 CLUT8 FB.
+M271	SGCALC – PAGALBA
+M272	Norėdami grįžti, paspauskite bet kurį klavišą
+M273	Norėdami grįžti, paspauskite bet kurį klavišą.
+M274	APIE SGCALC
+M275	Nauja
+M276	Pradėkite naują lapą
+M277	Atidaryti...
+M278	Atidarykite ODS, FODS arba CSV failą
+M279	Išsaugoti
+M280	Išsaugokite esamą failą
+M281	Išsaugoti kaip...
+M282	Išsaugokite nauju pavadinimu arba formatu
+M283	Eksportuoti CSV...
+M284	Parašykite CSV kopiją
+M285	Eksportuoti ODS...
+M286	Parašykite „LibreOffice“ kopiją
+M287	Išeik
+M288	Palikite SGCALC
+M289	Aišku
+M290	Išvalykite pasirinktus langelius
+M291	Kopijuoti
+M292	Nukopijuokite pasirinkimą
+M293	Įklijuoti
+M294	Įklijuokite ties žymekliu
+M295	Iškirpti
+M296	Nukopijuokite ir išvalykite pasirinkimą
+M297	Pasirinkite viską
+M298	Pasirinkite visas naudojamas ląsteles
+M299	Teksto spalva...
+M300	Pasirinkite teksto spalvą
+M301	Fonas...
+M302	Pasirinkite langelio foną
+M303	Linija
+M304	Iš pasirinkimo nubrėžkite linijinę grafiką
+M305	Baras
+M306	Iš pasirinkimo nubrėžkite juostinę diagramą
+M307	Mišrus
+M308	Barai pirmajai serijai, eilutės likusioms
+M309	Pyragas
+M310	Iš pasirinkimo nubrėžkite skritulinę diagramą
+M311	Diapazonas...
+M312	Aiškiai nustatykite diagramos diapazoną
+M313	Dar kartą pieškite
+M314	Perbraižykite paskutinę grafiką
+M315	Eik...
+M316	Peršokti į langelį (pvz., C12)
+M317	Stulpelio plotis...
+M318	Pakeiskite pasirinktų stulpelių plotį
+M319	Eilės aukštis...
+M320	Pakeiskite pasirinktų eilučių aukštį
+M321	Automatiškai tinka
+M322	Pritaikykite plotį/aukštį prie turinio (F7)
+M323	Perskaičiuoti
+M324	Iš naujo įvertinkite visas formules
+M325	Ištrinti viską
+M326	Išvalykite visą lapą
+M327	Raktai
+M328	Parodykite raktų vadovą
+M329	Apie
+M330	Apie SGCALC
+M331	Failas
+M332	Redaguoti
+M333	Grafikas
+M334	Lapas
+M335	Pagalba
+M336	Failas: naujas, atidaryti, išsaugoti, eksportuoti, išeiti
+M337	Redaguoti: išvalyti, nukopijuoti, įklijuoti, iškirpti, pasirinkti viską
+M338	Grafikas: linija, juosta, mišrus, pyragas (piešia FB)
+M339	Lapas: Goto, stulpelio plotis, perskaičiuoti, ištrinti
+M340	Pagalba: raktai ir apie
+M341	Kairėn/dešinėn = meniu Aukštyn/Žemyn = elementas Enter = pasirinkite Esc = atšaukti
+M342	Atšaukta
+M343	Pasirinkimas per didelis arba trūksta atminties.
+M344	ląstelė
+M345	atranka
+M346	Nėra ką įklijuoti
+M347	Įklijuota
+M348	EITI Į CELL
+M349	Langelio nuoroda (A1):
+M350	Goto
+M351	Stulpelio PLOTIS
+M352	Plotis simboliais (4..30):
+M353	EILĖS AUKŠTIS
+M354	Aukštis teksto eilutėse (1..8):
+M355	Automatinis pritaikymas: lapas tuščias
+M356	FONO SPALVA
+M357	TEKSTO SPALVA
+M358	Rodyklės: pasirinkite Enter: taikyti Esc: atšaukti
+M359	Spalvų indeksas (PC-98 16 spalvų paletė)
+M360	Aa 123
+M361	Enter = taikyti Esc = atšaukti
+M362	Spalva
+M363	Fonas
+M364	Tekstas
+M365	GRAFŲ DIAPAZONAS
+M366	Diapazonas (pvz., A1:C10):
+M367	Grafiko diapazonas
+M368	Naudokite diapazoną, pvz., A1:C10.
+M369	Negalima nubraižyti grafiko.
+M370	linija
+M371	baras
+M372	sumaišytas
+M373	pyragas
+M374	Išvalyti kiekvieną šio lapo langelį?
+M375	Lapas ištrintas
+M376	Pasirinktos visos panaudotos ląstelės
+M377	Perskaičiuota
+M378	Atmintis
+M379	Nepakanka PSRAM skaičiuoklei.
+M380	Lapas tuščias.
+M381	Pasirinktame diapazone nėra skaitmeninių duomenų.
+M382	Kita
+M383	Nėra teigiamų skritulinės diagramos verčių
+M384	LINIJA
+M385	BARAS
+M386	MIŠRAUS
+M387	PYRAGAS
+M388	S:/
+M389	Aplankas
+M390	IŠSAUGOTI KAIP
+M391	ATIDARYTI FAILĄ
+M392	LibreOffice / CSV
+M393	ODS FODS CSV
+M394	Vardas:
+M395	(įveskite pavadinimą arba pasirinkite žemiau)
+M396	Vardas
+M397	Dydis
+M398	Enter=išsaugoti Kairėn=aukštyn dešinėn/įvesti [DIR]=atidaryti Tab=vairuoti Esc=atšaukti
+M399	Enter=atidaryti Kairėn=aukštyn dešinėn/įvesti [DIR]=atidaryti Tab=vairuoti Esc=atšaukti
+M400	Nepakanka atminties.
+M401	Perrašyti
+M402	Atidaryti
+M403	Failas per didelis (ne daugiau kaip 8 MB).
+M404	Nepakanka atminties failui skaityti.
+M405	Blogi ZIP / ODS duomenys.
+M406	CRC klaida ODS faile.
+M407	Nepalaikomas arba sugadintas failas.
+M408	Išsaugota
+M409	Eksportuota
+M410	Neišsaugoti pakeitimai
+M411	Išsaugoti dabartinį lapą prieš tęsiant?
+M412	Naujas lapas
+M413	SGTRK
+M414	BE pavadinimų
+M415	daina per didelė
+M416	tuščias failas
+M417	ne SGT failas
+M418	blogas BPM
+M419	blogas greitis
+M420	blogas pavadinimo ilgis
+M421	sutrumpintas pavadinimas
+M422	blogas veikėjas pavadinime
+M423	sutrumpinta tvarka
+M424	blogas užsakymo ilgis
+M425	netinkamas modelio numeris
+M426	sutrumpintas šablonų sąrašas
+M427	blogas modelių skaičius
+M428	blogas modelio indeksas
+M429	pasikartojantis modelis
+M430	sutrumpinti šablono duomenys
+M431	neteisingi modelio duomenys
+M432	faile esantys duomenys
+M433	užsakymas nurodo trūkstamą šabloną
+M434	A:/
+M435	(be pavadinimo)
+M436	Paruošta. Norėdami gauti pagalbos, paspauskite F1.
+M437	Sekite OFF
+M438	Nėra ko anuliuoti
+M439	Anuliuoti
+M440	Pastaba IŠJUNGTA
+M441	Pirmiausia nustatykite efekto raidę
+M442	Efektas išvalytas
+M443	Parametras išvalytas
+M444	Pastaba išvalyta
+M445	Priemonė išvalyta
+M446	Tomas išvalytas
+M447	Užsakymų sąrašas pilnas
+M448	Užsakymas įdėtas
+M449	Negalima ištrinti paskutinio užsakymo
+M450	Užsakymas ištrintas
+M451	Groja daina
+M452	Sustojo
+M453	Nauja daina
+M454	Atmesti neišsaugotus pakeitimus ir pradėti naują dainą? (Y/N)
+M455	Atmesti neišsaugotus pakeitimus ir atidaryti dainą? (Y/N)
+M456	Atmesti neišsaugotus pakeitimus ir išeiti? (Y/N)
+M457	Dainos nustatymai atnaujinti
+M458	Failo pavadinimas tuščias
+M459	Išsaugojimas atšauktas
+M460	Atidarymas atšauktas
+M461	Redaguoti ĮJUNGTA
+M462	Redaguoti IŠJUNGTA
+M463	Sekite ĮJUNGTA
+M464	Redagavimas IŠJUNGTAS. Norėdami redaguoti, paspauskite F8.
+M465	I/O klaida
+M466	failas per didelis
+M467	sutrumpintas failas
+M468	SINE PAD
+M469	TRIKAMPIS
+M470	Pjūklo švinas
+M471	Kvadratas
+M472	PULSAS 25
+M473	ORGANAI
+M474	BASAS
+M475	VARPAS
+M476	TRIUKŠMAS
+M477	SINE
+M478	Pjūklas
+M479	IŠJUNGTA
+M480	ĮJUNGTA
+M481	EILUTĖ
+M482	KANALŲ LYGIS
+M483	F1 PAGALBA F2 DAINA
+M484	F3 INS F4 SAVE
+M485	F5 PLAY F6 PAT
+M486	F7 STOP F8 REDAGUOTI
+M487	F9/F10 OCTAVE
+M488	F11 SEKITE
+M489	F12 UŽDARYTI
+M490	PLAY/STOP
+M491	CTRL-S IŠSAUGOTI
+M492	CTRL-O ATIDARYTA
+M493	C-N NAUJAS C-Z UNDO
+M494	C-C STOP
+M495	#TRANSPORTAS IR FAILAI
+M496	#UŽSAKYMAI SĄRAŠAS
+M497	#DISPLAY
+M498	#REDAGAVIMAS
+M499	#EFFECTS (parametras yra šešioliktainis)
+M500	KAIRĖSIS/DEŠINĖSIS PUSLAPIO ĮVEIKTI ARBA F1 UŽDARYTI
+M501	DAINŲ NUSTATYMAI
+M502	AUKŠTYN/ŽEMYN PASIRINKITE KAIRĮ/DEŠINĘ REGULIUOTI ENTER/F2 UŽDARYTI
+M503	Įveskite norėdami redaguoti pavadinimą. Backspace ištrina paskutinį simbolį.
+M504	BPM diapazonas 32...255. Greičio diapazonas 1...31.
+M505	Šablono efektai taip pat gali keisti greitį ir BPM žaidžiant.
+M506	INSTRUMENTAI
+M507	AUKŠTYN/ŽEMYN PASIRINKITE ERDVĄ PERŽIŪRA Įveskite NAUDOTI F3 UŽDARYTI
+M508	Visi keturi kanalai naudoja bangų sintezę.
+M509	Peržiūra leidžia C-4 takelyje po redagavimo žymekliu.
+M510	IŠSAUGOTI DAINĄ KAIP
+M511	Įveskite SAVE F4 ARBA CTRL-C ATŠAUKTI
+M512	Katalogas:
+M513	Failo pavadinimas:
+M514	Plėtinys .SGT pridedamas automatiškai.
+M515	Esamas failas gali būti perrašytas.
+M516	ATVIRAS DAINA
+M517	Įveskite OPEN BS PARENT CTRL-O/CTRL-C ATŠAUKTI
+M518	(šiame aplanke nėra .SGT failų)
+M519	PATVIRTINTI
+M520	Y = TAIP N / ENTER / CTRL-C = NE
+M521	Y = taip N = ne
+M522	C-
+M523	C#
+M524	D-
+M525	D#
+M526	el.
+M527	F-
+M528	F#
+M529	G-
+M530	G#
+M531	A-
+M532	A#
+M533	B-
+M534	A:/vad./vardas
+M535	MThd
+M536	sugedęs MThd
+M537	MIDI IMPORTAS
+M538	MTrk
+M539	sulaužytas delta laikas
+M540	sugedo bėgimo būsena
+M541	sulaužytas meta įvykis
+M542	sugedęs sysex įvykis
+M543	sugedęs kanalo įvykis
+M544	SMF išvestis per maža
+M545	SMF išvestis per didelė
+M546	daina per ilga SMF
+M547	TRK1
+M548	%s%d
+M549	%s%d:%s%d
+M550	%s
+M551	%.40s%s
+M552	[%s] %s
+M553	REDAGUOTI
+M554	PASIRUOŠTA
+M555	%4d
+M556	%s Suma %.7g N %ld%s
+M557	RODYKLĖS perkelia langelio žymeklį
+M558	SHIFT + ARR išplėsti pasirinkimą (grafams / kopijai)
+M559	ENTER redaguoti langelį; redaguodami, įsipareigokite ir pereikite žemyn
+M560	Kitas langelis TAB SHIFT + TAB ankstesnis langelis
+M561	DELETE išvalyti pasirinktą langelį (-ius) ESC atšaukti
+M562	PGUP/PGDN perkelti vieną ekraną HOME/END pirmas / paskutinis stulpelis
+M563	CTRL+HOME A1 CTRL+END paskutinį kartą naudotas langelis
+M564	F1 pagalba F2 redaguoti F3 kopijuoti F4 įklijuoti F5 gavo F6 spalvą
+M565	F7 automatinis pritaikymas F8 fonas F9 perskaičiuoti F10 grafikas F11 išsaugoti F12 meniu
+M566	SHIFT+F1 apie SHIFT+F2 eilutės aukštį SHIFT+F3 stulpelio plotį
+M567	SHIFT+F4 pasirinkti visą SHIFT+F10 diagramų diapazoną SHIFT+F11 išsaugoti kaip
+M568	CTRL+F1 naujas CTRL+F2 atidaryti CTRL+F3 išsaugoti CTRL+F4 išsaugoti kaip
+M569	CTRL+F5 eksportuoti CSV CTRL+F6 eksportuoti ODS ALT+F12 išeiti
+M570	Apačios 2 eilutės: funkciniai klavišai; [SHIFT]/[CTRL]/[ALT] kaip failas
+M571	CTRL+S išsaugoti CTRL+O atidaryti CTRL+N naujas CTRL+C/V/X kopijuoti/įklijuoti/iškirpti
+M572	CTRL + G pereikite / atidarykite meniu (1 failas, 2 redagavimas, ...)
+M573	Integruotos funkcijos: SUM AVERAGE MIN MAX COUNTA
+M574	PRODUKTAS ABS SQRT INT ROUND MOD POWER JEI IR AR NE
+M575	IFERROR LEN LEFT LEFT DEŠININĖ VIDURĖ VIRŠUTINĖ APATINĖ APDARBOS SUJUNGTA PI
+M576	Langelių nuorodos: A1, $A$1, A1:B10.  Formulės prasideda '='.
+M577	Failai: .ods (LibreOffice), .fods (plokščias XML), .csv
+M578	ODS/FODS išlaiko formules, plotį, aukštį ir spalvas.
+M579	CSV išlaiko reikšmes ir formules (be spalvų / aukščio).
+M580	Grafikas: pasirinkite diapazoną, paspauskite F10 ir pasirinkite Line/Bar/Mixed/Pie.
+M581	SGCALC skirtas sgnano
+M582	Versija
+M583	Lotus 1-2-3 stiliaus skaičiuoklė kaip SGX programa.
+M584	SGX ABI %u.%u
+M585	3 ekrano režimas: tekstas + CLUT8 FB (žemi dažniai išjungti)
+M586	Lapas: %d eilučių x %d stulpelių
+M587	Formatai: .ods / .fods (LibreOffice), .csv
+M588	Tinklelis nubraižytas teksto plokštumoje.
+M589	Diagramose ir 640 x 480 fone naudojamas FB.
+M590	%d %s
+M591	Negalima saugoti langelio (%d).
+M592	Nukopijuota %d x %d langelių
+M593	Išvalyta %s
+M594	„%s“ nėra langelio nuoroda.
+M595	%d
+M596	Stulpelio plotis = %d
+M597	Eilės aukštis = %d
+M598	Automatinis pritaikymas: %d stulpelis (-iai), %d eilutė (-ės)
+M599	%2d
+M600	Negalima pritaikyti spalvos (%d).
+M601	%s spalva = %d
+M602	Netinkamas diapazonas.\nNaudokite diapazoną, pvz., A1:C10.
+M603	Grafiko diapazonas %s
+M604	Grafikas: %s
+M605	SGCALC: negalima nustatyti 3 ekrano režimo: %s
+M606	%.2g
+M607	%.6g
+M608	%s %.0f%%
+M609	GRAFIKAS %s %s
+M610	%s%s
+M611	%s/%s
+M612	%.*s
+M613	%.*s/
+M614	Neįmanoma perskaityti %s\n%s
+M615	Aplankas: %s
+M616	[DIR] %s
+M617	%s
+M618	%lu.%luM
+M619	%luK
+M620	%luB
+M621	KNYGA1%s
+M622	%c:/
+M623	Nepalaikomas plėtinys.\nNaudokite .csv, .ods arba .fods.
+M624	%s jau yra.\nPerrašyti?
+M625	%s gali būti neįrašomas.\nVisgi pabandyti?
+M626	Nežinomas %s failo tipas
+M627	Nepalaikomas failo tipas.\nNaudokite .csv, .ods arba .fods.
+M628	Nepavyko atidaryti %s\n%s
+M629	%s yra aplankas.
+M630	Nepavyko importuoti %s\n%s
+M631	Įkeltas %s
+M632	Nepavyko sukurti %s failo.
+M633	Nepavyksta parašyti %s\n%s
+M634	%s %s
+M635	nepalaikoma versija %u
+M636	%d:%d:%d:%d:%d:%d
+M637	oktava %d
+M638	Pastaba %s
+M639	Instrumentas %d
+M640	Apimtis %s
+M641	Efektas %c
+M642	Parametras %s
+M643	Raštas %s
+M644	Žaidimo modelis %s
+M645	IŠSAUGOJIMO KLAIDA: %s
+M646	Išsaugotas %s
+M647	ĮKELIMO KLAIDA: %s
+M648	BPM %d
+M649	Greitis %d
+M650	Peržiūra %s
+M651	Prietaisas %s %s
+M652	Perrašyti %s? (Y/N)
+M653	| BPM %s SPD %s
+M654	SGNO TRACKER 1.0 |
+M655	FAILAS
+M656	PAT %s
+M657	UŽSAKYTI %d/%d
+M658	INS %s
+M659	SPAL %d
+M660	REDAGUOTI %s
+M661	ĮJUNGTA
+M662	FOL %s
+M663	TRAKAS %d
+M664	%c%s
+M665	%s %s %s %s
+M666	%s
+M667	%d %s %s
+M668	UŽSAKYTI %d/%d
+M669	PAT %s
+M670	INS %s %s
+M671	OCT %d REDAGUOTI %s
+M672	SEKITE %s
+M673	GROJIMO KARDAS %d/%d PAT %s EILUTĖ %s/%d SPD %s BPM %d F7 STOP
+M674	READY (PARUOŠTAS) REDAGUOTI %s OCT %d F1 PAGALBA F5 PAŽEISTI CTRL-S IŠSAUGOTI
+M675	%s
+M676	F5 Leisti dainą iš dabartinės tvarkos
+M677	F6 Leisti dabartinį šabloną
+M678	F7/Ctrl-C Sustabdyti atkūrimą
+M679	Space Play / stop
+M680	F4 Išsaugoti kaip
+M681	Ctrl-S Išsaugoti (prašo įvesti vardą, jei naujas)
+M682	Ctrl-O Atidaryti dainą
+M683	Ctrl-N Nauja daina
+M684	F12 Baigti (patvirtinimas, jei pakeistas)
+M685	[ ] Ankstesnis / kitas užsakymo įrašas
+M686	{ } Įterpti / ištrinti užsakymo įrašą
+M687	- + Pakeiskite šabloną įraše
+M688	F11 Stebėti atkūrimą (išsijungia rankiniu būdu judant)
+M689	F1 Pagalba; Kairė/dešinė keičia puslapį
+M690	F8 Perjungti redagavimo režimą
+M691	Rodyklės Perkelkite žymeklį
+M692	PgUp/PgDn Peršokti 16 eilučių
+M693	Pagrindinis / Pabaiga Pirma / paskutinė eilutė
+M694	F9/F10 oktava žemyn / aukštyn
+M695	Z S X D C V G B H N J M žemutinė fortepijono eilė
+M696	Q 2 W 3 E R 5 T 6 Y 7 U viršutinė fortepijono eilė
+M697	1 Pastaba išjungta
+M698	0 / Del 0 išvalo note/inst/fx; Del išvalo bet kurį
+M699	Ctrl-Z Anuliuoti paskutinį šablono/užsakymo redagavimą
+M700	„Axy Volume“ slankiklis: aukštyn x, žemyn y
+M701	Cxx Pastaba iškirpta po xx erkių
+M702	Dxx Nustatyti garsumą (00..7F)
+M703	Fxx greitis, jei xx < 20, kitu atveju BPM
+M704	Hxy Arpeggio x, y pustoniai
+M705	Pxx Pakelkite aukštyn
+M706	Qxx Žingsnis slysta žemyn
+M707	F2 dainų nustatymai, F3 instrumentų sąrašas
+M708	PAGALBA %d/2
+M709	Pavadinimas
+M710	[%s_]
+M711	BPM: %d (kairė/dešinė -1/+1, -/+ -5/+5)
+M712	Greitis: %d varnelė/eilutė
+M713	Eilutės: %d (fiksuota)
+M714	Užsakymas: %d įrašai
+M715	Naudojami raštai: %d
+M716	# PAVADINIMAS WAVE A D S R VOL
+M717	%c %d %-9s %-9s %3d %3d %3d %3d %4d
+M718	Dabartinis instrumentas: %s %s
+M719	%s
+M720	REŽ. %s
+M721	%c %s%s
+M722	Failai: %d
+M723	%02d
+M724	%03d
+M725	%02X
+M726	SGNO TRACKER: nesuderinamas SGX ABI
+M727	S: check: palauk – failas skaitomas arba rašomas
+M728	S: patikrinkite: diskas užimtas arba neparengtas
+M729	nieko šiam elementui (ContextMenu.cfg)
+M730	bloga komanda ContextMenu.cfg
+M731	nežinomas veiksmas ContextMenu.cfg
+M732	meniu
+M733	pasirinkite failą arba aplanką
+M734	šio disko negalima įrašyti
+M735	archyvo darbas jau vykdomas
+M736	nėra PSRAM archyvavimo užduočiai
+M737	nepavyko pradėti archyvavimo užduoties
+M738	per daug prekių (daugiausia 32)
+M739	nėra ką suspausti
+M740	nėra vardo (arba varde yra / arba \\)
+M741	Daugiausia 32 elementai (pažymėkite mažiau arba įdėkite juos į aplanką)
+M742	archyvas
+M743	suspausti
+M744	pateikti
+N001	5 Makro
+N002	6 Pagalba
+N003	Paleisti srovę
+N004	Paleiskite makrokomandą ties žymekliu (#! antraštės langelis ir langeliai po juo)
+N005	Vykdykite pasirinkimą
+N006	Vykdykite pasirinktus langelius kaip vieną makrokomandą (viršutiniame kairiajame langelyje yra #! antraštė)
+N007	Paleisti visus
+N008	Vykdykite kiekvieną lapo makrokomandą iš viršaus į kairę į apačią į dešinę
+N009	Paskutinė klaida
+N010	Rodyti paskutinę makrokomandos klaidą
+N011	Makro
+N012	Makrokomandas: paleiskite #!ruby / #!python / #!pagrindinius langelius
+N013	Redaguoti langelį (F2)
+N014	Pritaikykite plotį/aukštį prie turinio
+N015	Paskutinė makro klaida
+N016	Nėra makro klaidų.
+N017	IME įjungtas
+N018	IME išjungtas
+N019	Makro: %s %s ...
+N020	%s: ši programinė įranga negali paleisti makrokomandų (SGX ABI 5.10 arba naujesnė versija)
+N021	Makro klaida: %s
+N022	Makrokomandas: %s atlikta
+N023	makrokomanda jau veikia
+N024	ši kalba nepasiekiama
+N025	nepakanka atminties
+N026	makrokomanda sustojo su klaida
+N027	Makro klaida %s: %s
+N028	Makrokomandas: nepakanka atminties
+N029	Makrokomandas: žymeklis yra ne ant makrokomandos (#!ruby / #!python / #!pagrindinis langelis arba langeliai po juo)
+N030	Makrokomandos: lape makrokomandų nėra
+N031	Vykdykite visas makrokomandas
+N032	Makrokomandos: %d. Paleisti juos visus, iš viršaus į kairę į apačią į dešinę? Pakeitimų anuliuoti negalima.
+N033	Makrokomandas: %d iš %d atlikta
+N034	Išvalė ląstelę
+N035	Išvalė pasirinkimą
+N036	Fono spalva = %d
+N037	Teksto spalva = %d
+N038	Grafikas: linija
+N039	Grafikas: juosta
+N040	Grafikas: mišrus
+N041	Grafikas: pyragas
+N042	Eksportuota %s

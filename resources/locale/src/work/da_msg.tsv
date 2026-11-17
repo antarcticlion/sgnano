@@ -1,0 +1,787 @@
+# da: machine translation (Google), unreviewed; 2026-11-17
+M001	køreturen gik væk
+M002	læser partitionerne igen...
+M003	kunne ikke åbne lydstyrken (ingen hukommelse?)
+M004	åbner lyden...
+M005	ingen hukommelse til fillisten
+M006	læser mappen... (forsøger igen)
+M007	kunne ikke læse mappen
+M008	læser kataloget...
+M009	drevet svarede ikke -- læste partitionerne igen
+M010	kunne ikke læse mappen (ikke FAT12/16/32?)
+M011	for mange poster -- viser de første
+M012	intet filsystem fundet på denne partition
+M013	stien er for lang
+M014	deltager...
+M015	splitter...
+M016	omdøber...
+M017	opretter mappen...
+M018	opretter filen...
+M019	sletter...
+M020	at skrive egenskaberne...
+M021	køreturen er optaget
+M022	optaget
+M023	vælge filer eller mapper
+M024	vælg filer eller mapper (ikke "..")
+M025	stop CD'en først
+M026	CD'en kan ikke ændres (kopier i stedet)
+M027	en systemmappe kan ikke flyttes
+M028	intet drev kan skrives (kun FAT / exFAT / NTFS)
+M029	drevet er væk
+M030	intet valgt
+M031	intet valgt
+M032	kunne ikke starte
+M033	kunne ikke åbne
+M034	kun på et FAT / exFAT / NTFS-drev
+M035	intet navn
+M036	det navn findes allerede
+M037	kunne ikke starte (dårligt navn eller drevet er optaget)
+M038	kunne ikke starte (drevet er optaget)
+M039	navnet kan ikke have / eller \\ (kun inde i denne mappe)
+M040	navnet er det samme
+M041	elementet er skrivebeskyttet (A for at ændre)
+M042	vælg en .rb-fil på et skrivbart drev
+M043	vælg en .rb-fil
+M044	drevet er skrivebeskyttet
+M045	vælg en mappe på et skrivbart drev
+M046	vent et øjeblik
+M047	vælg en fil
+M048	vælg en fil (ikke en mappe)
+M049	vælg en .001-fil
+M050	vælg filen .001
+M051	læg IWAD i en DoomFiles- eller Doom2Files-mappe
+M052	DoomFiles tager freedoom1 / doom / doomu / doom1.wad
+M053	Doom2Files tager freedoom2 / doom2 / plutonia / tnt.wad
+M054	sæt spilfilerne på eksternt lager, ikke S:
+M055	IWAD skal være på et FAT / exFAT / NTFS-drev (ikke en cd)
+M056	arbejder stadig
+M057	et billede indlæses
+M058	ingen framebuffer
+M059	halv lysstyrke virker kun i RGB555
+M060	clearing...
+M061	halvere lysstyrken...
+M062	det er et dataspor
+M063	vent -- en fil bliver skrevet
+M064	kun floppy / LS-120 / CD-drev
+M065	anmodet om
+M066	læser disken...
+M067	stopper...
+M068	åbning...
+M069	gjort
+M070	ingen hukommelse
+M071	allerede åben
+M072	kører allerede
+M073	allerede gemmer
+M074	allerede spiller
+M075	intet sådant drev
+M076	ingen PSRAM
+M077	ingen PSRAM til filen
+M078	ingen PSRAM for linjeindekset
+M079	ingen PSRAM til terminalen
+M080	ingen hukommelse (PSRAM)
+M081	ingen hukommelse (32KB SRAM)
+M082	ingen hukommelse til bufferen
+M083	ingen hukommelse til billedbuffere
+M084	ingen hukommelse til læsebufferen
+M085	ikke plads til arbejdshukommelsen (luk lavopløsningsplanet?)
+M086	ingen framebuffer side
+M087	for stor (højst 4 MB)
+M088	filen er for stor (højst 1 MB)
+M089	filen er for stor (maks. 1 MB)
+M090	for stor til en SMF (højst 1 MB)
+M091	filen er tom
+M092	kunne ikke åbne filen
+M093	kunne ikke læse filen
+M094	kunne ikke åbne lydstyrken
+M095	kunne ikke åbne destinationen (ingen hukommelse?)
+M096	kunne ikke læse rodmappen
+M097	kunne ikke starte opgaven
+M098	kunne ikke begynde at skrive (dårligt navn eller optaget)
+M099	en anden volumen er åben (optaget)
+M100	en kopi kører
+M101	en mappe kan ikke gå ind i sig selv
+M102	det er den samme mappe
+M103	dette drev kan ikke ændres (skrivebeskyttet)
+M104	drevet er ikke skrivbart
+M105	delstørrelsen skal være et multiplum af 512
+M106	filer på 4 GB eller mere understøttes ikke
+M107	dårlig vej
+M108	dårligt filnavn
+M109	font-ROM'en er der ikke
+M110	lyden er ikke åben
+M111	ingen sådan kanal
+M112	sequenceren er optaget
+M113	ikke nok PSRAM til sangen
+M114	ikke en standard MIDI-fil (ingen MThd)
+M115	ingen spor
+M116	et spor er brudt (MTrk)
+M117	SMPTE tidsinddeling understøttes ikke
+M118	SMF format 2 er ikke understøttet (kun 0 og 1)
+M119	ikke en bulk-only drev
+M120	ikke et optisk drev
+M121	en systemmappe kan ikke slettes eller omdøbes
+M122	ingen medier i drevet
+M123	bliver klar
+M124	ikke klar
+M125	medier ændret
+M126	middel fejl
+M127	ulovlig anmodning
+M128	en dårlig adressebog
+M129	en mappe på vej eksisterer ikke
+M130	en fil har det navn
+M131	en mappe har det navn
+M132	et navn på vej er ikke en mappe
+M133	annulleret
+M134	kunne ikke montere
+M135	kunne ikke starte en læsning
+M136	kunne ikke starte en skrivning
+M137	er en mappe
+M138	det er en mappe
+M139	ingen klynger
+M140	ikke plads til klyngelisten
+M141	ingen sådan fil eller mappe
+M142	ingen sådan fil
+M143	ingen volumen
+M144	ikke NTFS
+M145	ikke exFAT
+M146	ikke en mappe
+M147	ikke fundet
+M148	læse fejl
+M149	skrivefejl
+M150	læsning af FAT mislykkedes
+M151	klyngekæden er kortere end filen
+M152	mappen er ikke tom
+M153	disken er fuld
+M154	drevet svarede ikke
+M155	filen er skrivebeskyttet
+M156	filen er for fragmenteret
+M157	filen er for stor (4 GB)
+M158	det nye navn findes allerede
+M159	rodmappen er fuld
+M160	for mange filer med det samme korte navn
+M161	Ingen sådan fil eller mappe
+M162	Filen findes
+M163	Tilladelse nægtet
+M164	Directory ikke tom
+M165	Ikke en mappe
+M166	Er en mappe
+M167	Skrivebeskyttet filsystem
+M168	Der er ingen plads tilbage på enheden
+M169	Input/output fejl
+M170	Ikke understøttet på dette drev
+M171	Ugyldig sti
+M172	Mangler hukommelse
+M173	Intet sådant drev
+M174	stoppet
+M175	annulleret (ikke nok ledig plads)
+M176	kunne ikke tælle den ledige plads
+M177	modtageren annulleret
+M178	ingen modtager (kør rz på pc'en)
+M179	konsollen UART er i brug
+M180	skærmtilstanden ændrede sig
+M181	linjerne kom ikke (kører displayet?)
+M182	kopi
+M183	flytte
+M184	slette
+M185	omdøbe
+M186	egenskaber
+M187	ny fil
+M188	ny mappe
+M189	billede
+M190	mrbc
+M191	rubin
+M192	seer
+M193	redigere
+M194	IDENTIFICERE
+M195	ZMODEM
+M196	ZMODEM modtage
+M197	ZMODEM send
+M198	dele
+M199	deltage
+M200	Doom
+M201	SMF
+M202	CD
+M203	FB
+M204	Udstøde
+M205	genstart
+M206	licens
+M207	ur
+M208	ADC ind
+M209	skærm -> PNG
+M210	FB -> PNG
+M211	kunne ikke åbne lydstyrken
+M212	modtaget
+M213	sendt
+M214	gemt
+M215	oprettet
+M216	omdøbt til
+M217	slettet
+M218	ændret
+M219	sluttede sig til
+M220	dele
+M221	ikke kunne skabe
+M222	kunne ikke slette
+M223	kunne ikke omdøbe til
+M224	kunne ikke ændre sig
+M225	kunne ikke læse
+M226	kunne ikke skrive
+M227	kunne ikke kopiere
+M228	ikke kunne lave
+M229	kunne ikke fjerne mappen
+M230	kunne ikke fjerne
+M231	ingen hukommelse for
+M232	for mange fejl under afsendelse
+M233	modtageren ikke tog
+M234	modtageren sprang over
+M235	FB side
+M236	bytes hver)
+M237	bytes)
+M238	KB)
+M239	dele ind
+M240	dele (
+M241	til
+M242	: ryddet
+M243	: lysstyrke halveret
+M244	% læst
+M245	rækker
+M246	-- ikke understøttet endnu (kun FAT / exFAT / NTFS)
+M247	filer
+M248	(
+M249	Uden titel
+M250	1 Fil
+M251	2 Rediger
+M252	3 Graf
+M253	4 ark
+M254	5 Hjælp
+M255	TOM
+M256	ANTAL
+M257	TEKST
+M258	FORMEL
+M259	Skriv for at indtaste, F2 for at redigere, F1 for at få hjælp
+M260	5 CSV
+M261	6 ODS
+M262	[FLYTTE]
+M263	[CTRL]
+M264	[ALT]
+M265	Parat
+M266	SGCALC
+M267	Tryk på en vilkårlig tast
+M268	Y = ja N = nej Esc = annuller
+M269	Enter = OK Esc = annuller Ctrl-U = slet
+M270	Første række/kolonne = etiketter; diagrammer bruger 640x480 CLUT8 FB.
+M271	SGCALC - HJÆLP
+M272	Tryk på en vilkårlig tast for at vende tilbage
+M273	Tryk på en vilkårlig tast for at vende tilbage.
+M274	OM SGCALC
+M275	Ny
+M276	Start et nyt ark
+M277	Åben...
+M278	Åbn en ODS-, FODS- eller CSV-fil
+M279	Spare
+M280	Gem den aktuelle fil
+M281	Gem som...
+M282	Gem med et nyt navn eller format
+M283	Eksporter CSV...
+M284	Skriv en CSV-kopi
+M285	Eksporter ODS...
+M286	Skriv en LibreOffice-kopi
+M287	Forlade
+M288	Forlad SGCALC
+M289	Klar
+M290	Ryd de markerede celler
+M291	Kopi
+M292	Kopier valget
+M293	Indsæt
+M294	Indsæt ved markøren
+M295	Skære
+M296	Kopier og fjern markeringen
+M297	Vælg alle
+M298	Vælg alle brugte celler
+M299	Tekstfarve...
+M300	Vælg tekstfarven
+M301	Baggrund...
+M302	Vælg cellebaggrunden
+M303	Linje
+M304	Tegn en linjegraf fra markeringen
+M305	Bar
+M306	Tegn et søjlediagram fra markeringen
+M307	Blandet
+M308	Stænger til den første serie, linjer til resten
+M309	Pie
+M310	Tegn en cirkeldiagram fra markeringen
+M311	Rækkevidde...
+M312	Indstil grafområdet eksplicit
+M313	Tegn igen
+M314	Tegn den sidste graf igen
+M315	Gå til...
+M316	Hop til en celle (for eksempel C12)
+M317	Kolonnebredde...
+M318	Skift de valgte kolonners bredde
+M319	Rækkehøjde...
+M320	Skift højden på de valgte rækker
+M321	Autotilpasning
+M322	Tilpas bredder/højder til indholdet (F7)
+M323	Genberegn
+M324	Revurder alle formler
+M325	Slet alle
+M326	Ryd hele arket
+M327	Nøgler
+M328	Vis nøglevejledningen
+M329	Om
+M330	Om SGCALC
+M331	Fil
+M332	Redigere
+M333	Kurve
+M334	Ark
+M335	Hjælp
+M336	Fil: ny, åbn, gem, eksporter, luk
+M337	Rediger: Ryd, kopier, indsæt, klip, vælg alt
+M338	Graf: linje, søjle, blandet, tærte (tegner i FB)
+M339	Ark: goto, kolonnebredde, genberegn, slet
+M340	Hjælp: nøgler og om
+M341	Venstre/Højre = menu Op/Ned = element Enter = vælg Esc = annuller
+M342	Annulleret
+M343	Valget er for stort, eller hukommelsen er lav.
+M344	cellen
+M345	valget
+M346	Intet at indsætte
+M347	Indsat
+M348	GÅ TIL CELLE
+M349	Cellereference (A1):
+M350	Gå til
+M351	KOLONNEBREDDE
+M352	Bredde i tegn (4..30):
+M353	RÆKKEHØJDE
+M354	Højde i tekstrækker (1..8):
+M355	Automatisk tilpasning: arket er tomt
+M356	BAGGRUNDSFARVE
+M357	TEKST FARVE
+M358	Pile: vælg Enter: anvend Esc: annuller
+M359	Farveindeks (PC-98 16-farvepalet)
+M360	Aa 123
+M361	Enter = anvend Esc = annuller
+M362	Farve
+M363	Baggrund
+M364	Tekst
+M365	GRAFORVALG
+M366	Område (f.eks. A1:C10):
+M367	Grafområde
+M368	Brug et område som A1:C10.
+M369	Kan ikke tegne grafen.
+M370	linje
+M371	bar
+M372	blandet
+M373	pie
+M374	Vil du rydde hver celle i dette ark?
+M375	Ark slettet
+M376	Markerede alle brugte celler
+M377	Genberegnet
+M378	Hukommelse
+M379	Ikke nok PSRAM til regnearket.
+M380	Arket er tomt.
+M381	Ingen numeriske data i det valgte område.
+M382	Andre
+M383	Ingen positive værdier for et cirkeldiagram
+M384	LINE
+M385	BAR
+M386	BLANDET
+M387	PIE
+M388	S:/
+M389	Folder
+M390	GEM SOM
+M391	ÅBN FIL
+M392	LibreOffice / CSV
+M393	ODS FODS CSV
+M394	Navn:
+M395	(skriv et navn, eller vælg nedenfor)
+M396	Navn
+M397	Størrelse
+M398	Enter=gem Venstre=op Højre/Enter på [DIR]=åben fane=drev Esc=annuller
+M399	Enter=åben Venstre=op Højre/Enter på [DIR]=åben fane=drev Esc=annuller
+M400	Ikke nok hukommelse.
+M401	Overskriv
+M402	Åben
+M403	Filen er for stor (grænse 8 MB).
+M404	Ikke nok hukommelse til at læse filen.
+M405	Dårlige ZIP/ODS-data.
+M406	CRC-fejl i ODS-filen.
+M407	Ikke-understøttet eller beskadiget fil.
+M408	Gemt
+M409	Eksporteret
+M410	Ikke-gemte ændringer
+M411	Vil du gemme det aktuelle ark, før du fortsætter?
+M412	Nyt ark
+M413	SGTRK
+M414	UDEN TITEL
+M415	sangen er for stor
+M416	tom fil
+M417	ikke en SGT-fil
+M418	dårlig BPM
+M419	dårlig hastighed
+M420	dårlig titellængde
+M421	afkortet titel
+M422	dårlig karakter i titlen
+M423	afkortet rækkefølge
+M424	dårlig ordrelængde
+M425	dårligt mønsternummer i rækkefølge
+M426	afkortet mønsterliste
+M427	dårligt mønsterantal
+M428	dårligt mønsterindeks
+M429	duplikatmønster
+M430	trunkerede mønsterdata
+M431	ugyldige mønsterdata
+M432	efterfølgende data i filen
+M433	rækkefølge henviser til et manglende mønster
+M434	EN:/
+M435	(uden titel)
+M436	Parat. Tryk på F1 for at få hjælp.
+M437	Følg OFF
+M438	Intet at fortryde
+M439	Fortryd
+M440	Bemærk FRA
+M441	Indstil først et effektbogstav
+M442	Effekt ryddet
+M443	Parameter ryddet
+M444	Note slettet
+M445	Instrument ryddet
+M446	Lydstyrke ryddet
+M447	Ordrelisten er fuld
+M448	Ordre indsat
+M449	Kan ikke slette den sidste ordre
+M450	Ordren slettet
+M451	Spiller sang
+M452	Stoppet
+M453	Ny sang
+M454	Vil du kassere ikke-gemte ændringer og starte en ny sang? (J/N)
+M455	Vil du kassere ikke-gemte ændringer og åbne en sang? (J/N)
+M456	Vil du kassere ikke-gemte ændringer og afslutte? (J/N)
+M457	Sangindstillinger opdateret
+M458	Filnavnet er tomt
+M459	Gem annulleret
+M460	Åben annulleret
+M461	Rediger TIL
+M462	Rediger FRA
+M463	Følg PÅ
+M464	Redigering er FRA. Tryk på F8 for at redigere.
+M465	I/O fejl
+M466	filen er for stor
+M467	afkortet fil
+M468	SINESPLADE
+M469	TREKANT
+M470	SAVBLY
+M471	FIRKANT
+M472	PULS 25
+M473	ORGAN
+M474	BAS
+M475	KLOKKE
+M476	STØJ
+M477	SINE
+M478	SAV
+M479	SLUKKET
+M480	PÅ
+M481	RÆKKE
+M482	CHAN-NIVEAU
+M483	F1 HJÆLP F2 SANG
+M484	F3 INS F4 GEM
+M485	F5 SPIL F6 PAT
+M486	F7 STOP F8 REDIGER
+M487	F9/F10 OCTAVE
+M488	F11 FØLG
+M489	F12 AFSLUT
+M490	RUMSPIL/STOP
+M491	CTRL-S GEM
+M492	CTRL-O ÅBN
+M493	C-N NY C-Z FORTRYD
+M494	C-C STOP
+M495	#TRANSPORT OG FILER
+M496	#ORDRELISTE
+M497	#VISE
+M498	#REDIGERING
+M499	#EFFECTS (parameter er hexadecimal)
+M500	VENSTRE/HØJRE SIDE ENTER ELLER F1 LUK
+M501	SANGINDSTILLINGER
+M502	OP/NED VÆLG VENSTRE/HØJRE JUSTER ENTER/F2 LUK
+M503	Skriv for at redigere titlen. Backspace sletter det sidste tegn.
+M504	BPM-interval 32..255. Hastighedsområde 1..31.
+M505	Mønstereffekter kan også ændre hastighed og BPM, mens du spiller.
+M506	INSTRUMENTER
+M507	OP/NED VÆLG MELLEMRUM PREVIEW INDGIV BRUG F3 LUK
+M508	Alle fire kanaler bruger wavetable syntese.
+M509	Preview afspiller C-4 på sporet under redigeringsmarkøren.
+M510	GEM SANG SOM
+M511	INDGIV GEM F4 ELLER CTRL-C ANNULLER
+M512	Vejviser:
+M513	Filnavn:
+M514	Filtypenavnet .SGT tilføjes automatisk.
+M515	En eksisterende fil kan overskrives.
+M516	ÅBEN SANG
+M517	INDGÅ ÅBEN BS FORÆLDRE CTRL-O/CTRL-C ANNULLER
+M518	(ingen .SGT-filer i denne mappe)
+M519	BEKRÆFTE
+M520	Y = JA N / ENTER / CTRL-C = NEJ
+M521	Y = ja N = nej
+M522	C-
+M523	C#
+M524	D-
+M525	D#
+M526	E-
+M527	F-
+M528	F#
+M529	G-
+M530	G#
+M531	EN-
+M532	EN#
+M533	B-
+M534	A:/dir/navn
+M535	MThd
+M536	brudt MThd
+M537	MIDI IMPORT
+M538	MTrk
+M539	brudt deltatid
+M540	brudt kørestatus
+M541	brudt metahændelse
+M542	brudt sysex-begivenhed
+M543	brudt kanalhændelse
+M544	SMF-output er for lille
+M545	SMF-output er for stort
+M546	sangen er for lang til SMF
+M547	TRK1
+M548	%s%d
+M549	%s%d:%s%d
+M550	%s
+M551	%.40s%s
+M552	[%s] %s
+M553	REDIGERE
+M554	PARAT
+M555	%4d
+M556	%s Sum %.7g N %ld%s
+M557	PILE flytter cellemarkøren
+M558	SHIFT+ARR udvider markeringen (for grafer/kopi)
+M559	ENTER rediger cellen; i edit, commit og flyt ned
+M560	TAB næste celle SHIFT+TAB forrige celle
+M561	DELETE ryd den/de valgte celle(r) ESC annuller
+M562	PGUP/PGDN flytter én skærm HOME/END første/sidste kolonne
+M563	CTRL+HJEM A1 CTRL+END sidst brugte celle
+M564	F1 hjælp F2 redigere F3 kopiere F4 indsætte F5 gå til F6 farve
+M565	F7 auto-tilpas F8 baggrund F9 recalc F10 graf F11 gem F12 menu
+M566	SHIFT+F1 om SHIFT+F2 rækkehøjde SHIFT+F3 kolonnebredde
+M567	SHIFT+F4 vælg alle SHIFT+F10 grafområde SHIFT+F11 gem som
+M568	CTRL+F1 ny CTRL+F2 åben CTRL+F3 gem CTRL+F4 gem som
+M569	CTRL+F5 eksport CSV CTRL+F6 eksport ODS ALT+F12 afsluttes
+M570	Nederste 2 linjer: funktionstaster; [SHIFT]/[CTRL]/[ALT] ligesom fileret
+M571	CTRL+S gem CTRL+O åbn CTRL+N ny CTRL+C/V/X kopier/indsæt/klip
+M572	CTRL+G gå til / åbn menuen (1 fil, 2 rediger, ...)
+M573	Indbyggede funktioner: SUM AVERAGE MIN MAX COUNT COUNTA
+M574	PRODUKT ABS SQRT INT RUND MOD POWER HVIS OG ELLER IKKE
+M575	IFERROR LEN VENSTRE HØJRE MIDTE ØVRE NEDERSTE TRIM CONCATENATE PI
+M576	Cellereferencer: A1, $A$1, A1:B10.  Formler begynder med '='.
+M577	Filer: .ods (LibreOffice), .fods (flad XML), .csv
+M578	ODS/FODS beholder formler, bredder, højder og farver.
+M579	CSV beholder værdier og formler (ingen farver/højder).
+M580	Graf: vælg et område, tryk på F10, og vælg Linje/Søjle/Blandet/Tærte.
+M581	SGCALC for sgnano
+M582	Version
+M583	Et Lotus 1-2-3 stil regneark som et SGX program.
+M584	SGX ABI %u.%u
+M585	Skærmtilstand 3: tekst + CLUT8 FB (lowres deaktiveret)
+M586	Ark: %d rækker x %d kolonner
+M587	Formater: .ods / .fods (LibreOffice), .csv
+M588	Gitteret er tegnet på tekstplanet.
+M589	Diagrammer og 640x480 baggrunden bruger FB.
+M590	%d %s
+M591	Kan ikke gemme cellen (%d).
+M592	Kopierede %d x %d celler
+M593	Ryddet %s
+M594	'%s' er ikke en cellereference.
+M595	%d
+M596	Søjlebredde = %d
+M597	Rækkehøjde = %d
+M598	Automatisk tilpasning: %d kolonne(r), %d række(r)
+M599	%2d
+M600	Kan ikke anvende farven (%d).
+M601	%s farve = %d
+M602	Ikke et gyldigt interval.\nBrug et område som A1:C10.
+M603	Grafområde %s
+M604	Graf: %s
+M605	SGCALC: kan ikke indstille skærmtilstand 3: %s
+M606	%.2g
+M607	%.6g
+M608	%s %.0f%%
+M609	GRAF %s %s
+M610	%s%s
+M611	%s/%s
+M612	%.*s
+M613	%.*s/
+M614	Kan ikke læse %s\n%s
+M615	Mappe: %s
+M616	[DIR] %s
+M617	%s
+M618	%lu.%luM
+M619	%luK
+M620	%luB
+M621	BOG1%s
+M622	%c:/
+M623	Ikke-understøttet udvidelse.\nBrug .csv, .ods eller .fods.
+M624	%s eksisterer allerede.\nVil du overskrive det?
+M625	%s kan muligvis ikke skrives.\nPrøv alligevel?
+M626	Ukendt filtype for %s
+M627	Ikke-understøttet filtype.\nBrug .csv, .ods eller .fods.
+M628	Kan ikke åbne %s\n%s
+M629	%s er en mappe.
+M630	Kan ikke importere %s\n%s
+M631	Indlæst %s
+M632	Kan ikke bygge %s-filen.
+M633	Kan ikke skrive %s\n%s
+M634	%s %s
+M635	ikke-understøttet version %u
+M636	%d:%d:%d:%d:%d:%d
+M637	Oktav %d
+M638	Bemærk %s
+M639	Instrument %d
+M640	Lydstyrke %s
+M641	Effekt %c
+M642	Parameter %s
+M643	Mønster %s
+M644	Spillemønster %s
+M645	GEM FEJL: %s
+M646	Gemt %s
+M647	LOAD FEJL: %s
+M648	BPM %d
+M649	Hastighed %d
+M650	Forhåndsvisning %s
+M651	Instrument %s %s
+M652	Overskrive %s? (J/N)
+M653	| BPM %s SPD %s
+M654	SGNO TRACKER 1.0 |
+M655	FIL
+M656	PAT %s
+M657	ORD %d/%d
+M658	INS %s
+M659	OKT %d
+M660	REDIGER %s
+M661	PÅ
+M662	FOL %s
+M663	SPOR %d
+M664	%c%s
+M665	%s %s %s %s
+M666	%s
+M667	%d %s %s
+M668	BESTIL %d/%d
+M669	PAT %s
+M670	INS %s %s
+M671	OKT %d REDIGER %s
+M672	FØLG %s
+M673	SPIL ORD %d/%d PAT %s RÆKKE %s/%d SPD %s BPM %d F7 STOP
+M674	KLAR REDIGER %s OKT %d F1 HJÆLP F5 SPIL CTRL-S GEM
+M675	%s
+M676	F5 Afspil sangen fra den aktuelle rækkefølge
+M677	F6 Afspil det aktuelle mønster
+M678	F7/Ctrl-C Stop afspilning
+M679	Space Afspil / stop
+M680	F4 Gem som
+M681	Ctrl-S Gem (spørger om et navn, hvis det er nyt)
+M682	Ctrl-O Åbn en sang
+M683	Ctrl-N Ny sang
+M684	F12 Afslut (bekræftelse hvis ændret)
+M685	[ ] Forrige / næste ordreindtastning
+M686	{ } Indsæt/slet en ordrepost
+M687	- + Skift mønsteret i indtastningen
+M688	F11 Følg afspilning (deaktiverer ved manuel bevægelse)
+M689	F1 Hjælp; Venstre/Højre skifter side
+M690	F8 Skift redigeringstilstand
+M691	Pile Flyt markøren
+M692	PgUp/PgDn Spring 16 rækker
+M693	Hjem/Slut Første/sidste række
+M694	F9/F10 Oktav ned/op
+M695	Z S X D C V G B H N J M nederste klaverrække
+M696	Q 2 W 3 E R 5 T 6 Y 7 U øverste klaverrække
+M697	1 Note fra
+M698	0 / Del 0 rydder note/inst/fx; Del rydder evt
+M699	Ctrl-Z Fortryd den sidste mønster-/ordreredigering
+M700	Axy Volume slide: op x, ned y
+M701	Cxx Bemærk skæres efter xx flueben
+M702	Dxx Indstil lydstyrke (00..7F)
+M703	Fxx Hastighed hvis xx < 20, ellers BPM
+M704	Hxy Arpeggio x, y halvtoner
+M705	Pxx Pitch glider op
+M706	Qxx Pitch glide ned
+M707	F2 sangindstillinger, F3 instrumentliste
+M708	HJÆLP %d/2
+M709	Titel
+M710	[%s_]
+M711	BPM : %d (venstre/højre -1/+1, -/+ -5/+5)
+M712	Hastighed : %d kryds/række
+M713	Rækker: %d (fast)
+M714	Ordre: %d poster
+M715	Mønstre i brug: %d
+M716	# NAME WAVE A D S R VOL
+M717	%c %d %-9s %-9s %3d %3d %3d %3d %4d
+M718	Nuværende instrument: %s %s
+M719	%s
+M720	DIR %s
+M721	%c %s%s
+M722	Filer: %d
+M723	%02d
+M724	%03d
+M725	%02X
+M726	SGNO TRACKER: inkompatibel SGX ABI
+M727	S: check: wait -- en fil bliver læst eller skrevet
+M728	S: tjek: drevet er optaget eller ikke klar
+M729	intet for dette element (ContextMenu.cfg)
+M730	dårlig kommando i ContextMenu.cfg
+M731	ukendt handling i ContextMenu.cfg
+M732	menu
+M733	vælg en fil eller mappe
+M734	dette drev kan ikke skrives
+M735	et arkivjob kører allerede
+M736	ingen PSRAM til arkivopgaven
+M737	kunne ikke starte arkivopgaven
+M738	for mange varer (højst 32)
+M739	intet at komprimere
+M740	intet navn (eller navnet har / eller \\)
+M741	Højst 32 elementer (marker færre, eller læg dem i en mappe)
+M742	arkiv
+M743	sammenpresse
+M744	gengive
+N001	5 Makro
+N002	6 Hjælp
+N003	Kør strøm
+N004	Kør makroen ved markøren (#! overskriftscelle og cellerne under den)
+N005	Kør valg
+N006	Kør de valgte celler som én makro (celle øverst til venstre er #! overskriften)
+N007	Kør alle
+N008	Kør hver makro i arket, øverst til venstre til nederst til højre
+N009	Sidste fejl
+N010	Vis den sidste makrofejl
+N011	Makro
+N012	Makro: kør #!ruby / #!python / #!basic celler
+N013	Rediger cellen (F2)
+N014	Tilpas bredder/højder til indholdet
+N015	Sidste makrofejl
+N016	Ingen makrofejl.
+N017	IME på
+N018	IME fra
+N019	Makro: %s %s ...
+N020	%s: denne firmware kan ikke køre makroer (SGX ABI 5.10 eller nyere)
+N021	Makrofejl: %s
+N022	Makro: %s færdig
+N023	en makro kører allerede
+N024	dette sprog er ikke tilgængeligt
+N025	ikke nok hukommelse
+N026	makroen stoppede med en fejl
+N027	Makrofejl %s: %s
+N028	Makro: ikke nok hukommelse
+N029	Makro: markøren er ikke på en makro (en #!ruby / #!python / #!basiscelle eller cellerne under den)
+N030	Makro: ingen makro i arket
+N031	Kør alle makroer
+N032	Makroer: %d. Køre dem alle, øverst til venstre til nederst til højre? Ændringer kan ikke fortrydes.
+N033	Makro: %d af %d ​​udført
+N034	Ryddede cellen
+N035	Ryddede valget
+N036	Baggrundsfarve = %d
+N037	Tekstfarve = %d
+N038	Graf: linje
+N039	Graf: søjle
+N040	Graf: blandet
+N041	Graf: tærte
+N042	Eksporteret %s

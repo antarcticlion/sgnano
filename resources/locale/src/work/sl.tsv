@@ -1,0 +1,373 @@
+# sl: machine translation (Google), unreviewed; 2026-11-17
+U001	Seznam (datoteke in mape v 2 stolpcih x 19 vrsticah)
+U002	Premakni kazalec (levo/desno: drugi stolpec)
+U003	Prejšnja stran / naslednja stran
+U004	Označite vse / obrnite oznake (kot v PC-98 FD)
+U005	Prvi / zadnji
+U006	Označi in pojdi naprej / samo označi
+U007	Shift+puščice
+U008	Izberite obseg (presledek označuje obseg)
+U009	Vnesite mapo / odprite datoteko (zagon F2/X)
+U010	Do nadrejene mape
+U011	Izberite pogon (USB, disketa, CD, S: vgrajen)
+U012	Kopiraj (Shift+C / Shift+F3 izbere cilj iz drevesa)
+U013	Premakni se
+U014	Izbriši (Shift+D / Shift+F4 izbriše mapo)
+U015	Preimenuj
+U016	Spremenite atribute
+U017	Odpri v urejevalniku
+U018	Ogled kot besedilo (Shift+V / Ctrl+Alt+F7 hex)
+U019	Informacije o pogonu
+U020	Nova mapa/nova datoteka
+U021	Shell sgsh / izvrzi medij
+U022	Ponovno naloži
+U023	Shranite zaslon kot PNG
+U024	Zapri okno / počisti izbor (v podmapi: pojdi gor)
+U025	Datotečne operacije (kot v FD: oznake, nato obseg, nato kazalec)
+U026	Kopiraj: izberite cilj iz pogona in drevesa map. ESC se ustavi
+U027	Brisanje: potrdite z y. Oznake in obsegi hkrati. Mape z njihovo vsebino
+U028	Brisanje mape (z njeno vsebino)
+U029	Preimenuj (uredite ime, Enter)
+U030	Atributi: R samo za branje, H skrito, S sistem, A arhiv
+U031	Nova mapa
+U032	Nova (prazna) datoteka
+U033	Ogled kot besedilo (Shift+V / Ctrl+Alt+F7 hex)
+U034	Lupina sgsh (izhod / Ctrl-D nazaj v datoteko)
+U035	Identiteta pogona (POVPRAŠEVANJE, IDENTIFIKACIJA)
+U036	Izvrzite medij FDD / LS-120 / CD
+U037	Ponovno naloži seznam (CD: iz vsebine)
+U038	Prejmi iz računalnika z ZMODEM (zm.sh put)
+U039	Pošlji na računalnik z ZMODEM (zm.sh get)
+U040	Prevedite .rb in napišite .mrb
+U041	Ruby REPL (vrstica za vrstico, Ctrl-D / ESC za konec)
+U042	MicroPython REPL
+U043	Razdelite na 4 MB dele / združite od .001
+U044	Razdeli/združi (enako kot Ctrl+F11 / F12)
+U045	Zaslon (Alt+F, ni v nasprotju s tipkami FD F)
+U046	Pokaži / skrij FB (sliko) / besedilo
+U047	Prikaz FB strani (0-3)
+U048	Počistite FB na 0 / prepolovite njegovo svetlost (RGB555)
+U049	končne točke USB in stanje LAN
+U050	Počistite prikaz FB strani / prepolovite njeno svetlost
+U051	Vzorci besedilnih atributov
+U052	Nadzor EDID (branje ob zagonu)
+U053	Licence in krediti za pisave ROM
+U054	Nastavitve (jezik prikaza, IME in jezik tipkovnice)
+U055	Ura (japonski čas, ki ga nastavi NTP; s se zdaj sinhronizira)
+U056	Odpri preglednico (SGCALC)
+U057	Preverite S: za napake (vpraša pred popravilom)
+U058	Odprite TRACKER
+U059	Znova zaženi (najprej vpraša)
+U060	Predvajajte stereo vhod ADC (GP40 / 41)
+U061	Izvozite VGM/VGZ v 96 kHz/24-bitni WAV
+U062	Ta pomoč
+U063	Spremenite stran
+U064	Zapri
+U065	Pregledovalnik besedila/šestnajstiškega (kot manj)
+U066	Ena vrstica
+U067	Ena stran
+U068	Pol strani
+U069	Iskanje (naprej / nazaj) / naslednji / prejšnji
+U070	Nazaj na seznam (F1: pomoč pregledovalca)
+U071	Pregledovalnik slik
+U072	Nazaj na seznam (F2 F3 F6 F7 Shift+F2 F3 delo)
+U073	Urejevalnik (E / Shift+F8)
+U074	Shrani (UTF-8; konci vrstice in BOM ohranjeni)
+U075	Zapri (če je spremenjeno: Y / N / ESC)
+U076	Vstavi / prepiši
+U077	Vklop/izklop IME (japonščina/angleščina/korejščina)
+U078	Jezik IME (japonščina/angleščina/korejščina)
+U079	Zaveza kot hiragana/katakana
+U080	Pomoč urednika
+U081	školjka
+U082	Lupina (podmnožica csh. izhod / Ctrl-D za vrnitev, pomoč navaja ukaze)
+U083	Seznam in premikanje
+U084	Datotečne operacije
+U085	Zaslon in naprave
+U086	Gledalci in urednik
+U087	Pomoč %u / %u %s
+U088	Levo Desno: spremenite stran F1 / ESC: zaprite
+U089	Znova zagnati sgnano?
+U090	[Ponovni zagon]
+U091	[ Prekliči ]
+U092	Preverite pogon S: za napake
+U093	Datoteke %lu mape %lu
+U094	Velikost se ne ujema z verigo
+U095	Nič uporabljeni grozdi
+U096	Zamreženi grozdi
+U097	Pokvarjeni vnosi
+U098	Dve kopiji FAT se razlikujeta
+U099	Brez napak.
+U100	Najdene so bile napake. Jih popraviti?
+U101	Popravljeno (zgornje številke so bile popravljene).
+U102	Ni bilo mogoče preveriti ali popraviti (S: je zaseden).
+U103	[ Popravilo ]
+U104	[ Prekliči ]
+U105	Vsaka tipka se zapre
+U106	nastavitve
+U107	Prikazni jezik
+U108	Jezik tipkovnice
+U109	Gor / Dol Enter izberite ESC prekliči
+U110	Prikazni jezik
+U111	Gor / Dol Enter: nastavitev ESC: nazaj
+U112	Popravi %c: kot katero črko? (A-Z razen S. ESC prekliče)
+U113	Črka pogona / Enter izberite F2 popravi/razveljavi črko F3 popravi kot... L / ESC prekliči
+U114	pregrada %u
+U115	%c:* (fiksno, ni povezano) %04X:%04X%s %s
+U116	Obvestilo
+U117	Pogon %c: %s
+U118	Drive (brez)
+U119	Avdio CD %u skladb
+U120	Mape %u datoteke %u skupaj %s
+U121	Branje ...
+U122	* z oznako %u %s
+U123	%lu bajtov
+U124	Attr %s spremenjen %s ustvarjen %s %s
+U125	sonce
+U126	pon
+U127	tor
+U128	Sre
+U129	čet
+U130	pet
+U131	sob
+U132	Ura ni nastavljena (NTP prek LAN)
+U133	FB prikaz %u pisanje %u
+U134	1 Pomoč
+U135	2 Teci
+U136	3 Kopiraj
+U137	4 Del
+U138	5 Preimenuj
+U139	7 FBclr
+U140	8 FBdim
+U141	9 Vozi
+U142	10 EP-jev
+U143	11 Ura
+U144	12 RAČUN
+U145	1 Attr
+U146	2 Informacije
+U147	3 Premakni se
+U148	5 Mkdir
+U149	6 školjka
+U150	8 Uredi
+U151	9 Pogled
+U152	10 S: pogl
+U153	11 TREK
+U154	12 Znova zaženite
+U155	1 Novo
+U156	2 Mapa
+U157	3 Preimenuj
+U158	4 Atrib
+U159	6 Kopiraj
+U160	7 Premakni se
+U161	8 Izbriši
+U162	9 Uredi
+U163	10 mrbc
+U164	11 Razcep
+U165	12 Pridružite se
+U166	1 Attr
+U167	2 FB
+U168	3 Besedilo
+U169	5 ScrSht
+U170	6 DispPg
+U171	9 ZMrecv
+U172	10ZMpošlji
+U173	2 FBClr
+U174	3 FBDim
+U175	5 Ponovno naloži
+U176	7 Hex
+U177	9 Lic
+U178	11 Nastavitev
+U179	Nastavite uro (japonski čas. NTP je ni mogel nastaviti)
+U180	Zagon s parametri
+U181	Nova mapa
+U182	Nova datoteka
+U183	Čas:
+U184	Teči:
+U185	ime:
+U186	LLLL-MM-DD hh:mm Vnesite set ESC obdrži
+U187	Vnesite zagon <-> premakni BS / Del izbriši ESC prekliči
+U188	Vnesite preimenuj <-> premakni BS / Del izbriši ESC prekliči
+U189	Vnesite ustvari <-> premakni BS / Del izbriši ESC prekliči
+U190	Izbriši
+U191	predmete
+U192	Mape se izbrišejo z njihovo vsebino. Ste prepričani?
+U193	Želite izbrisati to datoteko?
+U194	(Tega ni mogoče razveljaviti. Izbrisane so tudi datoteke v mapah)
+U195	[Da (Y)]
+U196	[Ne (N)]
+U197	hex viewer: izberite datoteko
+U198	pregledovalnik besedila: izberite datoteko
+U199	Premakni se na
+U200	Kopiraj v
+U201	Medpomnilnik je poln
+U202	Pogon je samo za branje
+U203	Ni mogoče shraniti (brez pisca)
+U204	Shranjevanja ni bilo mogoče začeti (pogon je zaseden?)
+U205	Shranjevanje ...
+U206	2 Shrani
+U207	5 Barva
+U208	6 Hira
+U209	7 kat
+U210	8 Pred
+U211	10 Odnehaj
+U212	1 vrh
+U213	2 Konec
+U214	3 InsOvr
+U215	4 Dikt
+U216	6 HHira
+U217	7 HKata
+U218	%s %s Ln %lu/%lu Col %u %s %s %s%s%s
+U219	*mod
+U220	OVR
+U221	INS
+U222	R/O
+U223	Urejevalnik (sgnano edit) F1 / ESC se zapre
+U224	Puščice / Home End / PgUp PgDn premikanje kazalca
+U225	Ctrl-T / Ctrl-B vrh / konec datoteke
+U226	BS / Del brisanje pred / na kazalcu
+U227	Vnesite novo vrstico (ohranite zamik)
+U228	Zavihek / zavihek Ins / vstavi ali prepiši
+U229	Barvanje F5 (iz razširitve; C/C++, mruby, MicroPython, SG BASIC, brez)
+U230	F2 (Ctrl-S) shrani (UTF-8, konci vrstic ohranjeni)
+U231	F10 / ESC zapri (vpraša, ali je spremenjeno)
+U232	IME: Ctrl-preslednica / F12 vklop / izklop (あ / A)
+U233	Jezik IME F9 (samo ta urejevalnik; obnovljeno ob zaprtju)
+U234	F8 japonska napovedna pretvorba vklop/izklop
+U235	Japonski romaji -> hiragana (F6) / katakana (F7)
+U236	Hiragana polovične širine (Shift+F6)/katakana polovične širine (Shift+F7)
+U237	Predvidevanje z 2 ali več znaki, pretvorba neprekinjenega stavka s presledkom
+U238	Angleščina Predvideno dokončanje z 2 ali več znaki
+U239	한국어 2 hangul v bolskem slogu
+U240	Presledek / Enter Pretvori / Potrdi
+U241	← → Izberite frazo
+U242	Shift+← → Skrči/povečaj desni konec stavka za en znak (novi kandidati)
+U243	↑ ↓ / Zavihek Prejšnji / naslednji kandidat v pojavnem oknu (pod besedilom, zgoraj blizu dna)
+U244	Enter na →→→ Vsi kandidati (2 x 8, ← → stolpec in stran, Enter izbere)
+U245	Vnesite naslednji stavek (potrdi celoto pri zadnjem stavku)
+U246	Ctrl-U Dodaj trenutno besedo v uporabniški slovar
+U247	Shift+F1 / F2 / F3 / F4 zgoraj / konec / vstavi-prepiši / v uporabniški slovar
+U248	BS / ESC Pojdi za en znak nazaj / Prekliči
+U249	, . - [ ] / 、 。 ー 「 」 ・
+U250	Spremenjeno Y: shrani in zapri N: zapri brez shranjevanja ESC: nazaj
+U251	[Napoved] Tab/↑↓: kandidat Presledek: pretvori Esc: prekliči
+U252	[Kandidati] ↑↓: izberite ←→: stolpec/stran Enter: izberite
+U253	[Pretvori] ↑↓in ←→klavzula Shift+←→vezano Enter next
+U254	[한국어] Tab/↑↓: kandidat Enter/Preslednica: potrditev
+U255	[English] Tab/↑↓: kandidat Enter: potrdi
+U256	2-nastavljeni vnos hangul Ctrl-preslednica: alfanumerično
+U257	Predvideno dokončanje Ctrl-preslednica: neposreden vnos
+U258	Brez slovarja: samo hiragana/katakana F6/F7
+U259	Preslednica: pretvori F7: katakana Ctrl-preslednica: alfanumerično
+U260	Preslednica: pretvori F6: hiragana Ctrl-preslednica: alfanumerično
+U261	Polovična širina F6: hiragana F7: katakana Shift+F6/F7: polovica
+U262	IME izklopljen
+U263	napovedati
+U264	Predvidevanje japonskega prevoda: Vklopljeno
+U265	Predvidevanje prevoda za japonščino: izklopljeno
+U266	Uporabite z japonskim IME
+U267	Ni mogoče dodati v uporabniški slovar
+U268	Barvanje: %s
+U269	Nalaganje...
+U270	Datoteke ni bilo mogoče prebrati
+U271	%lu črte%s%s
+U272	odprl Shift_JIS kot UTF-8 (shranjen kot UTF-8)
+U273	samo za branje
+U274	Shranjeno
+U275	Ni bilo mogoče shraniti (pisanje ni uspelo)
+U276	Kandidati
+U277	7 WrtPg
+U278	9 Besedilo
+U279	9 Hex
+U280	Nalaganje %lu%%
+U281	(samo začetek)
+U282	Hex q ESC: nazaj F1: pomoč
+U283	Besedilo q ESC: nazaj F1: pomoč
+U284	Tipke pregledovalnika (kot manj; enako za besedilo in šestnajstiško)
+U285	Eno vrstico navzdol
+U286	Ena vrstica
+U287	Ena stran navzdol
+U288	Ena stran navzgor
+U289	Pol strani gor/dol
+U290	/besedilo ?besedilo
+U291	Iskanje dol/gor (ne upošteva velikih in malih črk)
+U292	Naslednja/prejšnja tekma
+U293	Prikaži kot hex (na istem mestu)
+U294	Prikaži kot besedilo (na istem mestu)
+U295	Spremenite barvo (C/C++, mruby, MicroPython, SG BASIC, brez)
+U296	Prikaži / skrij FB / besedilo
+U297	FB stran za prikaz / stran za pisanje
+U298	Nazaj k datoteki
+U299	Zapri to pomoč
+U300	Kopiraj
+U301	%s: branje map... %u
+U302	%s: štetje prostega prostora na cilju ...
+U303	%s: premalo prostega prostora na cilju
+U304	Premakni: odstranitev izvornih map
+U305	Končano
+U306	ustavil
+U307	%s v teku%s
+U308	(ustavljanje)
+U309	Od: %s
+U310	Za: %s
+U311	Datoteke %u / %u mape %u %s / %s (%u%%)%s
+U312	preveč: samo nekateri
+U313	Potrebuje %s, brezplačno %s. Nadaljevati?
+U314	Y: nadaljuj N / ESC: prekliči
+U315	Za zapiranje pritisnite katero koli tipko
+U316	ESC: stop
+U317	%s: ←→ pogon ↑↓ mapa Presledek odpri/zapri Enter izberite ESC prekliči
+U318	Ne more brati: %s
+U319	Branje map ... (ESC se ustavi) %u
+U320	%u mape%s
+U321	(preveč ali pregloboko: samo nekateri)
+U322	Ustavljeno odpiranje mape
+U323	Prostor ga spet odpre. ESC še enkrat prekliče
+U324	Predvajalnik SMF / SGT %s
+U325	Nalaganje ... %lu / %lu bajtov
+U326	%s / %s %s vrata %u
+U327	Zaustavljeno
+U328	Igranje
+U329	Presledek: premor m: MIDI OUT q / ESC: zaustavitev
+U330	q / ESC: prekliči
+U331	Licence in krediti za pisave ROM\n\nROM: %s (različica %lu.%lu, %lu znakov, od 0x%08lX v bliskavici)
+U332	== Pisave v ROM-u (izvorna tabela ROM-a) ==
+U333	(ROM nima tabele)
+U334	== Območje kreditov v ROM-u ==
+U335	(ni takega območja)
+U336	== Licence vgrajene programske opreme ==
+U337	Shranjevanje %s kot PNG %s
+U338	zaslon
+U339	Stavba... %lu / %lu vrste
+U340	Pisanje... %lu / %lu KB (FB je skrit)
+U341	Ni mogel pisati
+U342	Ime arhiva (označeni elementi ali element kazalca, če ga ni)
+U343	Vnesite stiskanje ←→ premakni BS / Del izbriši ESC prekliči
+U344	Izvoz WAV: %s preklican (%s)
+U345	Izvoz WAV: %s ni uspel (%s)
+U346	Izvoz WAV: %s skupaj %s
+U347	Izvoz WAV (96kHz / 24bit): %s
+U348	Preklicano
+U349	Ni uspelo
+U350	Skupaj %s
+U351	Preklicano (%s; delna datoteka je bila izbrisana)
+U352	Ni bilo mogoče izvoziti (%s). razlog:
+U353	(razlog neznan)
+U354	%u%% preteklo %s%s
+U355	ESC: stop (delna datoteka je izbrisana)
+U356	Arhiv: %s
+U357	Branje ... (ESC za preklic)
+U358	%u elementov%s skupno %s bajtov izvleči v: %s
+U359	Vnesite ekstrahiraj element X ekstrahiraj vse ↑↓ premakni ESC zapri
+U360	Stisnite
+U361	Seznam
+U362	Izvleček
+U363	Skupaj %s %u predmetov
+U364	Skupno %s %u datotek
+U365	Preklicano (%s; nedokončana datoteka je bila izbrisana)
+U366	Ni mogel (%s): %s
+U367	%u%% pretečenih %s %s bajtov%s
+U368	pretečenih %s %s bajtov%s
+U369	ESC: stop (nedokončana datoteka se izbriše)
+U370	Arhiv: %s ni uspelo (%s)
+U371	Stisnjeno: %s (%u elementov)
+U372	Ekstrahirano: %s (%u datoteke)

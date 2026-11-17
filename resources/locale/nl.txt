@@ -1,0 +1,1162 @@
+# sgnano filer strings: Nederlands (2026-11-17). ui <TAB> Japanese <TAB> translation / msg.* <TAB> English <TAB> translation
+# status: unreviewed (machine translation, not checked by a native speaker; 2026-11-17). 未検証: ネイティブの確認をしていない仮の訳
+@lang nl
+@name Nederlands
+ui	一覧（ファイルとフォルダを 2 列 x 19 行に並べる）	Lijst (bestanden en mappen in 2 kolommen x 19 rijen)
+ui	カーソルを動かす（左右は隣の列へ）	Verplaats de cursor (links / rechts: de andere kolom)
+ui	前のページ / 次のページ	Vorige pagina / volgende pagina
+ui	全部に印 / 印を反転（PC-98 FD と同じ）	Markeer alles / keer de markeringen om (zoals in PC-98 FD)
+ui	先頭 / 最後	Eerste / laatste
+ui	印を付けて次へ / 印だけ付ける	Markeer en ga verder / markeer alleen
+ui	Shift+矢印	Shift+pijlen
+ui	範囲を選ぶ（Space でその範囲に印）	Selecteer een bereik (spatie markeert het bereik)
+ui	フォルダに入る・ファイルを開く（F2/X は実行）	Voer een map in / open een bestand (F2/X run)
+ui	上のフォルダへ	Tot aan de bovenliggende map
+ui	ドライブを選ぶ（USB・フロッピー・CD・S: 内蔵）	Kies een station (USB, floppy, CD, S: ingebouwd)
+ui	コピー（Shift+C / Shift+F3 は行き先を木から）	Kopiëren (Shift+C / Shift+F3 kiest de bestemming uit de boom)
+ui	移動	Beweging
+ui	削除（Shift+D / Shift+F4 はフォルダ削除）	Verwijderen (Shift+D / Shift+F4 een map verwijderen)
+ui	名前を変える	Hernoemen
+ui	属性を変える	Wijzig de attributen
+ui	エディタで開く	Openen in de editor
+ui	テキスト表示（Shift+V / Ctrl+Alt+F7 は 16 進）	Bekijken als tekst (Shift+V / Ctrl+Alt+F7 hex)
+ui	ドライブの情報	Rij-informatie
+ui	フォルダを作る / 新しいファイル	Nieuwe map / nieuw bestand
+ui	シェル sgsh / 媒体を取り出す	Shell sgsh / werp het medium uit
+ui	読み直す	Herladen
+ui	見えている画面を PNG で保存	Sla het scherm op als PNG
+ui	窓を閉じる・選択を解く（サブフォルダでは上位へ）	Sluit het venster / wis de selectie (in een submap: ga naar boven)
+ui	ファイルの操作（FD と同じ。印・範囲・カーソルの順に選ぶ）	Bestandsbewerkingen (zoals in FD: markeringen, dan het bereik en dan de cursor)
+ui	コピー: 行き先はドライブとフォルダの木から。ESC で止める	Kopiëren: kies de bestemming uit de stations- en mapstructuur. ESC stopt
+ui	削除: y で確かめる。印・範囲をまとめて。フォルダは中身ごと	Verwijderen: bevestig met y. Markeert en bereikt in één keer. Mappen met hun inhoud
+ui	フォルダを削除（中身ごと）	Een map verwijderen (met de inhoud ervan)
+ui	名前を変える（今の名前を直して Enter）	Hernoemen (bewerk de naam, Enter)
+ui	属性: R 読み出し専用・H 隠し・S システム・A アーカイブ	Kenmerken: R alleen-lezen, H verborgen, S-systeem, A-archief
+ui	フォルダを作る	Nieuwe map
+ui	新しいファイル（空）を作る	Nieuw (leeg) bestand
+ui	テキストで表示（Shift+V / Ctrl+Alt+F7 は 16 進）	Bekijken als tekst (Shift+V / Ctrl+Alt+F7 hex)
+ui	シェル sgsh（exit / Ctrl-D でファイラーへ）	Shell sgsh (afsluiten / Ctrl-D terug naar de filer)
+ui	選んでいるドライブの素性（INQUIRY・IDENTIFY）	Identiteit van de schijf (INQUIRY, IDENTIFY)
+ui	FDD・LS-120・CD の媒体を取り出す	Werp het FDD/LS-120/CD-medium uit
+ui	一覧を読み直す（CD は TOC から）	Laad de lijst opnieuw (CD: uit de inhoudsopgave)
+ui	ZMODEM で PC から受け取る（zm.sh put）	Ontvangen van de pc door ZMODEM (zm.sh put)
+ui	ZMODEM で PC へ送る（zm.sh get）	Verzenden naar de pc via ZMODEM (zm.sh get)
+ui	.rb をコンパイルして .mrb を書き出す	Compileer .rb en schrijf .mrb
+ui	Ruby の REPL（1 行ずつ、Ctrl-D / ESC で終わり）	Ruby REPL (één regel tegelijk, Ctrl-D / ESC om te eindigen)
+ui	MicroPython の REPL	MicroPython REPL
+ui	4MB ずつ分割 / .001 から結合	Opgesplitst in delen van 4 MB/join vanaf .001
+ui	分割 / 結合（Ctrl+F11 / F12 と同じ）	Splitsen / samenvoegen (hetzelfde als Ctrl+F11 / F12)
+ui	画面（Alt+F。FD の F キーとぶつからない）	Scherm (Alt+F, botst niet met de FD F-toetsen)
+ui	FB（絵）/ テキスト面を出す・隠す	Toon / verberg de FB (foto) / de tekst
+ui	FB の表示ページ（0〜3）	FB-weergavepagina (0-3)
+ui	FB を 0 で消す / 明るさを 1/2 に（RGB555）	Wis de FB naar 0 / halveer de helderheid (RGB555)
+ui	USB のエンドポイントと LAN の状態	USB-eindpunten en de LAN-status
+ui	FB の表示ページを消す / 明るさを 1/2 に	Wis de FB-weergavepagina / halveer de helderheid
+ui	テキストの属性の見本	Voorbeelden van tekstkenmerken
+ui	モニタの EDID（起動時に読んだもの）	Monitor EDID (lezen bij opstarten)
+ui	フォント ROM のライセンスとクレジット	Lettertype-ROM-licenties en -tegoeden
+ui	設定（表示の言語・IME・キーボードロケール）	Instellingen (weergavetaal, IME en toetsenbordlandinstelling)
+ui	時計（NTP で合わせた日本時間。s ですぐ合わせる）	Klok (Japanse tijd ingesteld door NTP; s wordt nu gesynchroniseerd)
+ui	表計算（SGCALC）を開く	Spreadsheet openen (SGCALC)
+ui	S: ドライブのエラー検査（誤りがあれば直すか聞く）	Controleer S: op fouten (vraagt ​​voordat u repareert)
+ui	トラッカー（TRACKER）を開く	TRACKER openen
+ui	再起動（確かめの窓が出る）	Opnieuw opstarten (eerst gevraagd)
+ui	ADC のステレオ入力（GP40 / 41）を鳴らす	Speel de ADC-stereo-ingang af (GP40 / 41)
+ui	VGM/VGZ を 96kHz/24bit WAV に書き出す	Exporteer VGM/VGZ naar een 96 kHz / 24-bit WAV
+ui	このヘルプ	Deze hulp
+ui	ページを替える	Wijzig de pagina
+ui	閉じる	Dichtbij
+ui	テキスト・16 進のビュアー（less 風）	Tekst- / hex-viewer (zoals minder)
+ui	1 行	Eén regel
+ui	1 ページ	Eén pagina
+ui	半ページ	Een halve pagina
+ui	探す（前へ・後ろへ）/ 次・前	Zoeken (vooruit / achteruit) / volgende / vorige
+ui	一覧へ戻る（F1 はビュアーのヘルプ）	Terug naar de lijst (F1: hulp van de kijker)
+ui	画像のビュアー	Afbeeldingsviewer
+ui	一覧へ戻る（F2 F3 F6 F7 Shift+F2 F3 は効く）	Terug naar de lijst (F2 F3 F6 F7 Shift+F2 F3 werk)
+ui	エディタ（E / Shift+F8）	Editor (E / Shift+F8)
+ui	保存する（UTF-8。改行と BOM は元のまま）	Opslaan (UTF-8; regel eindigt en stuklijst bewaard)
+ui	閉じる（変わっていれば Y / N / ESC）	Sluiten (indien gewijzigd: J / N / ESC)
+ui	挿入 / 上書き	Invoegen / overschrijven
+ui	IME（日本語・英語・ハングル）の入・切	IME aan/uit (Japans / Engels / Koreaans)
+ui	IME の言語（日本語 / English / 한국어）	IME-taal (Japans / Engels / Koreaans)
+ui	ひらがな / カタカナで確定	Commiteer als hiragana / katakana
+ui	エディタのヘルプ	Hulp van de redacteur
+ui	シェル	Schelp
+ui	シェル（csh のサブセット。exit / Ctrl-D で戻る、help で一覧）	Shell (een csh-subset. exit / Ctrl-D om terug te keren, help geeft de opdrachten weer)
+ui	一覧と移動	Lijst en verhuizen
+ui	ファイルの操作	Bestandsbewerkingen
+ui	画面と機器	Scherm en apparaten
+ui	ビュアーとエディタ	Kijkers en de redacteur
+ui	ヘルプ  %u / %u  %s	Hulp %u / %u %s
+ui	Left Right: ページを替える    F1 / ESC: 閉じる	Links Rechts: de pagina wijzigen F1 / ESC: sluiten
+ui	sgnano を再起動しますか？	Sgnano opnieuw opstarten?
+ui	[ 再起動 ]	[ Opnieuw opstarten ]
+ui	[ キャンセル ]	[ Annuleren ]
+ui	S: ドライブのエラー検査	Controleer de S:-schijf op fouten
+ui	ファイル %lu  フォルダ %lu	Bestanden %lu mappen %lu
+ui	大きさが鎖と合わない	Maat komt niet overeen met de ketting
+ui	どこからも使われていないクラスタ	Clusters die door niets worden gebruikt
+ui	重なったクラスタ	Verknoopte clusters
+ui	壊れた項目	Gebroken vermeldingen
+ui	FAT の 2 つの写しの食い違い	De twee FAT-kopieën verschillen
+ui	エラーはありません。	Geen fouten.
+ui	エラーが見つかりました。修復しますか？	Er zijn fouten gevonden. Repareer ze?
+ui	修復しました（上は直した数）。	Gerepareerd (de bovenstaande cijfers zijn opgelost).
+ui	検査・修復できませんでした（S: が使用中）。	Kon niet controleren of repareren (S: is bezet).
+ui	[ 修復する ]	[ Reparatie ]
+ui	[ やめる ]	[ Annuleren ]
+ui	何かキーで閉じる	Elke sleutel sluit
+ui	設定	Instellingen
+ui	表示の言語	Weergavetaal
+ui	キーボードロケール	Toetsenbordlandinstelling
+ui	Up / Down  Enter 決める  ESC やめる	Omhoog / Omlaag Enter kies ESC annuleren
+ui	表示の言語 (Language)	Weergavetaal
+ui	Up / Down  Enter 決める  ESC 戻る	Omhoog / Omlaag Enter: instellen ESC: terug
+ui	%c: をどの文字に固定しますか（A〜Z、S を除く。ESC でやめる）	Fix %c: als welke letter? (A-Z behalve S. ESC annuleert)
+ui	ドライブ  文字 / Enter 選ぶ  F2 文字を固定・解除  F3 文字を決めて固定  L / ESC やめる	Stationsletter / Enter selecteer F2 fix/unfix de letter F3 fix as... L / ESC annuleren
+ui	  区画 %u	partitie %u
+ui	%c:* （固定・つながっていません）%04X:%04X%s  %s	%c:* (vast, niet aangesloten) %04X:%04X%s %s
+ui	お知らせ	Kennisgeving
+ui	ドライブ %c:  %s	Rijd %c: %s
+ui	ドライブ  (なし)	Rijden (geen)
+ui	音楽 CD  %u トラック	Audio-cd %u nummers
+ui	フォルダ %u  ファイル %u  合計 %s	Mappen %u bestanden %u totaal %s
+ui	読んでいます...	Lezing...
+ui	* 印 %u 個  %s	* gemarkeerd met %u %s
+ui	%lu バイト	%lu bytes
+ui	属性 %s   更新日時 %s   作成日時 %s   %s	Attr %s gewijzigd %s gemaakt %s %s
+ui	日	Zon
+ui	月	ma
+ui	火	di
+ui	水	wo
+ui	木	Do
+ui	金	Vr
+ui	土	Zat
+ui	時計は合わせていません（LAN の NTP）	De klok is niet ingesteld (NTP via LAN)
+ui	FB  表示 %u  書込 %u	FB-display %u schrijf %u
+ui	1 ヘルプ	1 Hulp
+ui	2 実行	2 Rennen
+ui	3 ｺﾋﾟｰ	3 Copy
+ui	4 削除	4 del
+ui	5 名前	5 Rename
+ui	7 FB消去	7 FBclr
+ui	8 FB減光	8 FBdim
+ui	9 ﾄﾞﾗｲﾌﾞ	9 Rijden
+ui	10 EP表	10 EP's
+ui	11 時計	11 Klok
+ui	12 表計	12 KALK
+ui	1 属性	1 Attr
+ui	2 情報	2 Info
+ui	3 移動	3 Move
+ui	5 作成	5 MKdir
+ui	6 シェル	6 Schaal
+ui	8 編集	8 Edit
+ui	9 表示	9 View
+ui	10S:検査	10 S:chk
+ui	11 ﾄﾗｯｸ	11 SPOOR
+ui	12再起動	12Reboot
+ui	1 新規	1 Nieuw
+ui	2 ﾌｫﾙﾀﾞ	2 Map
+ui	3 名前	3 Rename
+ui	4 属性	4 Attrib
+ui	6 ｺﾋﾟｰ	6 Copy
+ui	7 移動	7 Move
+ui	8 削除	8 Delete
+ui	9 編集	9 Edit
+ui	10ｺﾝﾊﾟｲﾙ	10 mrbc
+ui	11 分割	11 Split
+ui	12 結合	12 Join
+ui	1 属性例	1 Attr
+ui	2 FB切替	2 FB
+ui	3 文字面	3 Tekst
+ui	5 画面写	5 ScrSht
+ui	6 表示頁	6 DispPg
+ui	9 ZM受信	9 ZMrecv
+ui	10ZM送信	10ZMsend
+ui	2 FB消去	2 FBClr
+ui	3 FB減光	3 FBAfm
+ui	5 再読込	5 Reload
+ui	7 16進	7 Hex
+ui	9 ﾗｲｾﾝｽ	9 Lic
+ui	8 設定	11 Setup
+ui	時刻を合わせる（日本時間。NTP で合わせられませんでした）	Stel de klok in (Japanse tijd. NTP kon deze niet instellen)
+ui	起動のパラメタ	Uitvoeren met parameters
+ui	新しいフォルダ	Nieuwe map
+ui	新しいファイル	Nieuw bestand
+ui	時刻:	Tijd:
+ui	実行:	Loop:
+ui	名前:	Naam:
+ui	年-月-日 時:分  Enter 合わせる  ESC そのまま	JJJJ-MM-DD uu:mm Voer de ingestelde ESC-waarde in
+ui	Enter 走らせる  ←→ 動かす  BS / Del 消す  ESC やめる	Enter uitvoeren <-> verplaatsen BS / Del verwijderen ESC annuleren
+ui	Enter 変える  ←→ 動かす  BS / Del 消す  ESC やめる	Voer hernoemen in <-> verplaats BS / Del verwijderen ESC annuleren
+ui	Enter 作る  ←→ 動かす  BS / Del 消す  ESC やめる	Enter creëren <-> verplaatsen BS / Del verwijderen ESC annuleren
+ui	消す	Verwijderen
+ui	個の項目	artikelen
+ui	フォルダは中身ごと消します。よろしいですか？	Mappen worden met hun inhoud verwijderd. Weet je het zeker?
+ui	このファイルを消しますか？	Dit bestand verwijderen?
+ui	（元に戻せません。フォルダの中のファイルも消えます）	(Dit kan niet ongedaan worden gemaakt. Bestanden in de mappen worden ook verwijderd)
+ui	[ はい (Y) ]	[ Ja (J) ]
+ui	[ いいえ (N) ]	[ Nee (N) ]
+ui	バイナリビュアー: ファイルを選んでください	hex-viewer: kies een bestand
+ui	テキストビュアー: ファイルを選んでください	tekstviewer: kies een bestand
+ui	移動先	Verplaats naar
+ui	コピー先	Kopiëren naar
+ui	バッファがいっぱいです (buffer full)	De buffer is vol
+ui	読み出し専用のドライブです (read-only)	De schijf is alleen-lezen
+ui	保存できません (no writer)	Kan niet opslaan (geen schrijver)
+ui	保存を始められません (the drive is busy?)	Kan het opslaan niet starten (de schijf is bezet?)
+ui	保存しています... (saving)	Besparing...
+ui	2 保存	2 Save
+ui	5 色分け	5 Kleur
+ui	6 ﾞ	6 Hira
+ui	7 ｶﾀｶﾅ	7 Kat
+ui	8 予測	8 Voord
+ui	10 終了	10 Stop
+ui	1 先頭	1 Boven
+ui	2 最後	2 Einde
+ui	3 挿/上	3 InsOvr
+ui	4 辞書	4 Dict
+ui	6 半	6 HHira
+ui	7 半ｶﾅ	7 HKata
+ui	 %s  %s  行 %lu/%lu 桁 %u  %s  %s %s%s%s	%s %s Ln %lu/%lu Col %u %s %s %s%s%s
+ui	*変更	*mod
+ui	上書	ALG
+ui	挿入	INS
+ui	  読出専用	R/O
+ui	 エディタ (sgnano edit)                      F1 / ESC で閉じる	Editor (sgnano edit) F1 / ESC wordt gesloten
+ui	 矢印 / Home End / PgUp PgDn   カーソルを動かす	Pijlen / Home End / PgUp PgDn verplaatsen de cursor
+ui	 Ctrl-T / Ctrl-B               ファイルの先頭 / 最後	Ctrl-T / Ctrl-B bovenaan/einde van het bestand
+ui	 BS / Del                      前の字 / カーソルの字を消す	BS / Del wissen voor / bij de cursor
+ui	 Enter                         改行（前の行の字下げを引き継ぐ）	Nieuwe regel invoeren (behoudt de inspringing)
+ui	 Tab / Ins                     タブ / 挿入と上書きの切り替え	Tab / Ins tab / invoegen of overschrijven
+ui	 F5                            色分け（拡張子から。C/C++・mruby・MicroPython・SG BASIC・なし）	F5 Kleuren (van de extensie; C/C++, mruby, MicroPython, SG BASIC, geen)
+ui	 F2  (Ctrl-S)                  保存（UTF-8、改行は元の形）	F2 (Ctrl-S) opslaan (UTF-8, regeleinden behouden)
+ui	 F10 / ESC                     閉じる（変更があれば聞く）	F10 / ESC close (vraagt ​​of er gewijzigd is)
+ui	 IME:  Ctrl-Space / F12        オン・オフ（あ / A）	IME: Ctrl-Spatie / F12 aan/uit (あ / A)
+ui	       F9                      IME の言語（このエディタの間だけ。閉じると戻る）	F9 IME-taal (alleen deze editor; hersteld bij afsluiten)
+ui	       F8                      日本語の予測変換 オン・オフ	F8 Japanse voorspellende conversie aan/uit
+ui	       日本語                  ローマ字 -> ひらがな（F6）・カタカナ（F7）	Japanse romaji -> hiragana (F6) / katakana (F7)
+ui	                               半角ひらがな（Shift+F6）・半角カタカナ（Shift+F7）	Hiragana met halve breedte (Shift+F6) / Katakana met halve breedte (Shift+F7)
+ui	                               2 字以上で予測、Space で連文節変換	Voorspel met 2 of meer tekens, converteer doorlopende clausule met spatie
+ui	       English                 2 字以上で予測補完	Engels Voorspellende voltooiing met 2 of meer karakters
+ui	       한국어                  2 ボル式ハングル	한국어 2 Hangul in Bol-stijl
+ui	       Space / Enter           変換 / 確定	Spatie / Enter Converteren / Bevestigen
+ui	       ← →                    文節を選ぶ	← → Selecteer een zin
+ui	       Shift+← →               文節の右端を 1 字 縮/拡（候補を出し直す）	Shift+← → Verklein/groei het rechteruiteinde van de zin met één teken (nieuwe kandidaten)
+ui	       ↑ ↓ / Tab               候補の窓で前 / 次の候補（窓は変換の下、画面の下では上）	↑ ↓ / Tab Vorige/volgende kandidaat in de pop-up (onder de tekst, bovenaan bijna onderaan)
+ui	       →→→ で Enter            すべての候補（2 列 x 8 個、← → で列とページ、Enter で決める）	Enter op →→→ Alle kandidaten (2 x 8, ← → kolom en pagina, Enter kiest)
+ui	       Enter                   次の文節へ（最後の文節で全体を確定）	Volgende clausule invoeren (bevestigt het geheel bij de laatste clausule)
+ui	       Ctrl-U                  いまの語をユーザー辞書へ	Ctrl-U Huidig ​​woord toevoegen aan gebruikerswoordenboek
+ui	 Shift+F1 / F2 / F3 / F4       先頭 / 最後 / 挿入と上書き / ユーザー辞書へ	Shift+F1 / F2 / F3 / F4 Boven / Einde / Invoegen-overschrijven / naar het gebruikerswoordenboek
+ui	       BS / ESC                1 字戻す / 取り消し	BS / ESC Eén teken teruggaan / Annuleren
+ui	       , . - [ ] /             、 。 ー 「 」 ・	, . - [ ] / 、 。 ー 「 」 ・
+ui	変更あり  Y: 保存して閉じる  N: 保存せず閉じる  ESC: 戻る	Gewijzigd Y: opslaan en sluiten N: sluiten zonder opslaan ESC: terug
+ui	[予測] Tab/↑↓: 候補  Space: 変換  Esc: 取消	[Voorspelling] Tab/↑↓: kandidaat Spatie: converteren Esc: annuleren
+ui	[候補] ↑↓: 選ぶ  ←→: 列・ページ  Enter: 決める	[Kandidaten] ↑↓: selecteren ←→: kolom/pagina Enter: kiezen
+ui	[変換] ↑↓候補 ←→文節 Shift+←→区切り Enter次へ	[Converteren] ↑↓cand ←→clausule Shift+←→bound Enter volgende
+ui	[한국어] Tab/↑↓: 候補  Enter/Space: 確定	[한국어] Tab/↑↓: kandidaat Enter/Spatie: bevestigen
+ui	[English] Tab/↑↓: 候補  Enter: 確定	[Engels] Tab/↑↓: kandidaat Enter: bevestigen
+ui	2ボル式ハングル入力  Ctrl-Space: 英数	2-set Hangul-invoer Ctrl-Spatie: alfanumeriek
+ui	予測補完  Ctrl-Space: 直接入力	Voorspellende voltooiing Ctrl-Space: directe invoer
+ui	辞書なし: ひらがな/カタカナ入力のみ  F6/F7	Geen woordenboek: alleen hiragana/katakana F6/F7
+ui	Space: 変換  F7: カタカナ  Ctrl-Space: 英数	Spatie: converteren F7: katakana Ctrl-Spatie: alfanumeriek
+ui	Space: 変換  F6: ひらがな  Ctrl-Space: 英数	Spatie: converteren F6: hiragana Ctrl-Spatie: alfanumeriek
+ui	半角  F6: ひらがな  F7: カタカナ  Shift+F6/F7: 半角	Halve breedte F6: hiragana F7: katakana Shift+F6/F7: half
+ui	IME オフ	IME uit
+ui	 予測	voorspellen
+ui	日本語の予測変換: オン	Voorspellende Japanse vertaling: Aan
+ui	日本語の予測変換: オフ	Voorspellende vertaling voor Japans: Uit
+ui	日本語IMEで使います	Gebruik met Japanse IME
+ui	ユーザー辞書に追加できません	Kan niet toevoegen aan gebruikerswoordenboek
+ui	色分け: %s	Kleurstelling: %s
+ui	読み込んでいます... (loading)	Laden...
+ui	読み込めませんでした (could not read)	Kon het bestand niet lezen
+ui	%lu 行%s%s	%lu lijnen%s%s
+ui	  Shift_JIS を UTF-8 で開きました（保存は UTF-8）	Shift_JIS geopend als UTF-8 (opgeslagen als UTF-8)
+ui	  読み出し専用	alleen-lezen
+ui	保存しました (saved)	Opgeslagen
+ui	保存できませんでした (write failed)	Kon niet opslaan (schrijven mislukt)
+ui	候補	Kandidaten
+ui	7 書込頁	7 WrtPg
+ui	9 ﾃｷｽﾄ	9 Tekst
+ui	9 ﾊﾞｲﾅﾘ	9 Hex
+ui	読み込み中 %lu%%  	%lu%% laden
+ui	（先頭だけ）  	(alleen het begin)
+ui	16 進  q ESC: 戻る  F1: ヘルプ	Hex q ESC: terug F1: help
+ui	テキスト  q ESC: 戻る  F1: ヘルプ	Tekst q ESC: terug F1: help
+ui	ビュアーのキー（less 風。テキストと 16 進で共通）	Viewertoetsen (zoals minder; hetzelfde voor tekst en hex)
+ui	1 行進む	Eén regel naar beneden
+ui	1 行戻る	Eén rij
+ui	1 ページ進む	Eén pagina naar beneden
+ui	1 ページ戻る	Eén pagina omhoog
+ui	半ページ進む / 戻る	Een halve pagina omlaag/omhoog
+ui	/文字列  ?文字列	/tekst?tekst
+ui	下へ探す / 上へ探す（大文字小文字は区別しない）	Zoek omlaag/omhoog (negt hoofdlettergebruik)
+ui	次 / 前を探す	Volgende/vorige wedstrijd
+ui	16 進で表示する（いま見ている所のまま）	Weergeven als hex (op dezelfde plaats)
+ui	テキストで表示する（いま見ている所のまま）	Toon als tekst (op dezelfde plaats)
+ui	色分けを替える（C/C++・mruby・MicroPython・SG BASIC・なし）	Verander de kleuring (C/C++, mruby, MicroPython, SG BASIC, geen)
+ui	FB / テキスト面を出す・隠す	Toon / verberg de FB / de tekst
+ui	FB の表示ページ / 書き込みページ	FB-weergavepagina / schrijfpagina
+ui	ファイラーへ戻る	Terug naar de filer
+ui	このヘルプを閉じる	Sluit deze hulp
+ui	コピー	Kopiëren
+ui	 %s: フォルダを読んでいます... %u 個	%s: de mappen lezen... %u
+ui	 %s: 行き先の空きを数えています...	%s: het tellen van de vrije ruimte op de bestemming...
+ui	 %s: 行き先の空きが足りません	%s: onvoldoende vrije ruimte op de bestemming
+ui	 移動: 元のフォルダを消しています	Verplaatsen: de bronmappen verwijderen
+ui	終了しました	Klaar
+ui	止まりました	Gestopt
+ui	 %s中%s	%s in uitvoering%s
+ui	（止めています）	(stoppen)
+ui	 元: %s	Van: %s
+ui	 先: %s	Aan: %s
+ui	 ファイル %u / %u 個  フォルダ %u 個  %s / %s  (%u%%)%s	Bestanden %u / %u mappen %u %s / %s (%u%%)%s
+ui	  多すぎるので一部だけ	te veel: slechts enkele
+ui	 要る大きさ %s、空き %s。続けますか？	Heeft %s nodig, gratis %s. Doorgaan?
+ui	 Y: 続ける   N / ESC: やめる	Y: doorgaan N / ESC: annuleren
+ui	 何かキーを押すと閉じます	Druk op een willekeurige toets om te sluiten
+ui	 ESC: 止める	ESC: stop
+ui	 %s: ←→ ドライブ  ↑↓ フォルダ  Space 開く・閉じる  Enter 決める  ESC やめる	%s: ←→ station ↑↓ map Spatie openen/sluiten Enter kies ESC annuleren
+ui	 読めません: %s	Kan niet lezen: %s
+ui	 フォルダを読んでいます...（ESC で止める）  %u 個	De mappen lezen... (ESC stopt) %u
+ui	 フォルダ %u 個%s	%u mappen%s
+ui	（多すぎるか深すぎるので、一部だけ）	(te veel of te diep: slechts enkele)
+ui	フォルダの展開を止めました	Gestopt met het openen van de map
+ui	Space で開き直せます。もう一度 ESC でやめます	De ruimte opent het weer. ESC annuleert opnieuw
+ui	 SMF / SGT プレイヤー   %s	SMF / SGT-speler %s
+ui	 読み込んでいます... %lu / %lu バイト	Bezig met laden... %lu / %lu bytes
+ui	 %s / %s   %s   ポート %u	%s / %s %s poorten %u
+ui	一時停止	Gepauzeerd
+ui	再生中	Spelen
+ui	 Space: 一時停止  m: MIDI OUT  q / ESC: 止める	Spatie: pauze m: MIDI OUT q / ESC: stop
+ui	 q / ESC: やめる	q / ESC: annuleren
+ui	フォント ROM のライセンスとクレジット\n\nROM: %s（版 %lu.%lu、%lu 文字、フラッシュの 0x%08lX から）\n\n	Lettertype-ROM-licenties en -tegoeden\n\nROM: %s (versie %lu.%lu, %lu tekens, vanaf 0x%08lX in de flash)
+ui	== 収めているフォント（ROM の出所の表）==\n	== Lettertypen in het ROM (de oorsprongstabel van het ROM) ==
+ui	  （表が無い ROM）\n	(de ROM heeft geen tabel)
+ui	\n== ROM のクレジットの区画 ==\n\n	== Het creditsgebied van de ROM ==
+ui	（区画が無い）\n	(geen dergelijk gebied)
+ui	\n== 組み込んだソフトウェアのライセンス ==\n	== Licenties van de ingebouwde software ==
+ui	 %s を PNG で保存   %s	%s opslaan als PNG %s
+ui	画面	Scherm
+ui	 組み立てています... %lu / %lu 行	Bouwen... %lu / %lu rijen
+ui	 書いています... %lu / %lu KB（FB は隠しています）	Schrijven... %lu / %lu KB (de FB is verborgen)
+ui	書けませんでした	Kon niet schrijven
+ui	書庫の名前（印の付いた項目、無ければカーソルの項目を入れる）	Archiefnaam (de gemarkeerde items, of het cursoritem als er geen is)
+ui	Enter 圧縮する  ←→ 動かす  BS / Del 消す  ESC やめる	Enter comprimeren ←→ verplaatsen BS / Del verwijderen ESC annuleren
+ui	WAV 書き出し: %s 中止（%s）	WAV-export: %s geannuleerd (%s)
+ui	WAV 書き出し: %s 失敗（%s）	WAV-export: %s mislukt (%s)
+ui	WAV 書き出し: %s 合計 %s	WAV-export: %s totaal %s
+ui	 WAV 書き出し（96kHz / 24bit）: %s	WAV-export (96 kHz / 24 bit): %s
+ui	中止しました	Geannuleerd
+ui	失敗しました	Mislukt
+ui	 合計 %s	Totaal %s
+ui	 中止しました（%s。半端なファイルは消しました）	Geannuleerd (%s; het gedeeltelijke bestand is verwijderd)
+ui	 書き出せませんでした（%s）。理由:	Kan niet exporteren (%s). Reden:
+ui	 （理由は分かりません）	(reden onbekend)
+ui	 %u%%   経過 %s%s	%u%% verstreken %s%s
+ui	 ESC: 止める（半端なファイルは消します）	ESC: stop (het gedeeltelijke bestand wordt verwijderd)
+ui	書庫: %s	Archief: %s
+ui	読み込み中…（ESC でやめる）	Lezen... (ESC om te annuleren)
+ui	 %u 項目%s  合計 %s バイト  展開先: %s	%u items%s totaal %s bytes extraheren naar: %s
+ui	 Enter 項目を展開  X 全部を展開  ↑↓ 動かす  ESC 閉じる	Voer item uitpakken X uitpakken alles ↑↓ beweeg ESC sluiten
+ui	圧縮	Comprimeren
+ui	一覧	Lijst
+ui	展開	Extract
+ui	 合計 %s   %u 項目	Totaal %s %u artikelen
+ui	 合計 %s   %u ファイル	Totaal %s %u bestanden
+ui	 中止しました（%s。書きかけのファイルは消しました）	Geannuleerd (%s; het onvoltooide bestand is verwijderd)
+ui	 できませんでした（%s）: %s	Kon het niet doen (%s): %s
+ui	 %u%%   経過 %s   %s バイト%s	%u%% verstreken %s %s bytes%s
+ui	 経過 %s   %s バイト%s	verstreken %s %s bytes%s
+ui	 ESC: 止める（書きかけのファイルは消します）	ESC: stop (het onvoltooide bestand wordt verwijderd)
+ui	書庫: %s 失敗（%s）	Archief: %s mislukt (%s)
+ui	圧縮: %s（%u 項目）	Gecomprimeerd: %s (%u items)
+ui	展開: %s（%u ファイル）	Uitgepakt: %s (%u bestanden)
+msg.phrase	the drive went away	de rit ging weg
+msg.phrase	reading the partitions again...	de partities opnieuw lezen...
+msg.phrase	could not open the volume (no memory?)	kon het volume niet openen (geen geheugen?)
+msg.phrase	opening the volume...	volume openen...
+msg.phrase	no memory for the file list	geen geheugen voor de bestandslijst
+msg.phrase	reading the directory... (retrying)	de map lezen... (opnieuw proberen)
+msg.phrase	could not read the directory	kon de map niet lezen
+msg.phrase	reading the directory...	de map lezen...
+msg.phrase	the drive did not answer -- reading the partitions again	de schijf antwoordde niet - de partities werden opnieuw gelezen
+msg.phrase	could not read the directory (not FAT12/16/32?)	kon de map niet lezen (niet FAT12/16/32?)
+msg.phrase	too many entries -- showing the first ones	te veel vermeldingen - de eerste worden weergegeven
+msg.phrase	no file system found on this partition	er is geen bestandssysteem gevonden op deze partitie
+msg.phrase	the path is too long	het pad is te lang
+msg.phrase	joining...	meedoen...
+msg.phrase	splitting...	splitsen...
+msg.phrase	renaming...	hernoemen...
+msg.phrase	creating the folder...	de map maken...
+msg.phrase	creating the file...	het bestand maken...
+msg.phrase	deleting...	verwijderen...
+msg.phrase	writing the attributes...	attributen schrijven...
+msg.phrase	the drive is busy	de rit is bezet
+msg.phrase	busy	druk bezig
+msg.phrase	choose files or folders	kies bestanden of mappen
+msg.phrase	choose files or folders (not "..")	kies bestanden of mappen (niet "..")
+msg.phrase	stop the CD first	stop eerst de cd
+msg.phrase	the CD cannot be changed (copy instead)	de cd kan niet worden gewijzigd (in plaats daarvan kopiëren)
+msg.phrase	a system folder cannot be moved	een systeemmap kan niet worden verplaatst
+msg.phrase	no drive can be written (FAT / exFAT / NTFS only)	er kan geen schijf worden geschreven (alleen FAT / exFAT / NTFS)
+msg.phrase	the drive is gone	de schijf is weg
+msg.phrase	nothing chosen	niets gekozen
+msg.phrase	nothing selected	niets geselecteerd
+msg.phrase	could not start	kon niet starten
+msg.phrase	could not open	kon niet openen
+msg.phrase	only on a FAT / exFAT / NTFS drive	alleen op een FAT/exFAT/NTFS-schijf
+msg.phrase	no name	geen naam
+msg.phrase	that name already exists	die naam bestaat al
+msg.phrase	could not start (bad name or the drive is busy)	kon niet starten (slechte naam of de schijf is bezet)
+msg.phrase	could not start (the drive is busy)	kon niet starten (de schijf is bezet)
+msg.phrase	the name cannot have / or \\ (only inside this folder)	de naam mag geen / of \\ bevatten (alleen in deze map)
+msg.phrase	the name is the same	de naam is hetzelfde
+msg.phrase	the item is read-only (A to change)	het item is alleen-lezen (A om te wijzigen)
+msg.phrase	choose a .rb file on a writable drive	kies een .rb-bestand op een beschrijfbare schijf
+msg.phrase	choose a .rb file	kies een .rb-bestand
+msg.phrase	the drive is read-only	de schijf is alleen-lezen
+msg.phrase	choose a folder on a writable drive	kies een map op een beschrijfbare schijf
+msg.phrase	wait a moment	wacht even
+msg.phrase	choose a file	kies een bestand
+msg.phrase	choose a file (not a folder)	kies een bestand (geen map)
+msg.phrase	choose a .001 file	kies een .001-bestand
+msg.phrase	choose the .001 file	kies het .001-bestand
+msg.phrase	put the IWAD in a DoomFiles or Doom2Files folder	plaats de IWAD in een map DoomFiles of Doom2Files
+msg.phrase	DoomFiles takes freedoom1 / doom / doomu / doom1.wad	DoomFiles neemt freedoom1 / doom / doomu / doom1.wad
+msg.phrase	Doom2Files takes freedoom2 / doom2 / plutonia / tnt.wad	Doom2Files neemt freedoom2 / doom2 / plutonia / tnt.wad
+msg.phrase	put the game files on external storage, not S:	plaats de spelbestanden op externe opslag, niet S:
+msg.phrase	the IWAD must be on a FAT / exFAT / NTFS drive (not a CD)	de IWAD moet op een FAT/exFAT/NTFS-station staan ​​(geen CD)
+msg.phrase	still working	werkt nog steeds
+msg.phrase	an image is loading	er wordt een afbeelding geladen
+msg.phrase	no framebuffer	geen framebuffer
+msg.phrase	half brightness works only in RGB555	halve helderheid werkt alleen in RGB555
+msg.phrase	clearing...	opruimen...
+msg.phrase	halving the brightness...	halvering van de helderheid...
+msg.phrase	that is a data track	dat is een dataspoor
+msg.phrase	wait -- a file is being written	wacht -- er wordt een bestand geschreven
+msg.phrase	only floppy / LS-120 / CD drives	alleen floppy/LS-120/CD-drives
+msg.phrase	requested	gevraagd
+msg.phrase	reading the disc...	de schijf lezen...
+msg.phrase	stopping...	stoppen...
+msg.phrase	opening...	opening...
+msg.phrase	done	klaar
+msg.phrase	no memory	geen geheugen
+msg.phrase	already open	al geopend
+msg.phrase	already running	loopt al
+msg.phrase	already saving	al aan het sparen
+msg.phrase	already playing	speelt al
+msg.phrase	no such drive	zo'n drive bestaat niet
+msg.phrase	no PSRAM	geen PSRAM
+msg.phrase	no PSRAM for the file	geen PSRAM voor het bestand
+msg.phrase	no PSRAM for the line index	geen PSRAM voor de lijnindex
+msg.phrase	no PSRAM for the terminal	geen PSRAM voor de terminal
+msg.phrase	no memory (PSRAM)	geen geheugen (PSRAM)
+msg.phrase	no memory (32KB SRAM)	geen geheugen (32KB SRAM)
+msg.phrase	no memory for the buffer	geen geheugen voor de buffer
+msg.phrase	no memory for the image buffers	geen geheugen voor de beeldbuffers
+msg.phrase	no memory for the read buffer	geen geheugen voor de leesbuffer
+msg.phrase	no room for the work memory (close the lowres plane?)	geen ruimte voor het werkgeheugen (sluit het lage resolutievlak?)
+msg.phrase	no framebuffer page	geen framebufferpagina
+msg.phrase	too large (4 MB at most)	te groot (maximaal 4 MB)
+msg.phrase	the file is too large (1 MB at most)	het bestand is te groot (maximaal 1 MB)
+msg.phrase	the file is too large (1 MB max)	het bestand is te groot (max. 1 MB)
+msg.phrase	too large for an SMF (1MB at most)	te groot voor een SMF (maximaal 1 MB)
+msg.phrase	the file is empty	het bestand is leeg
+msg.phrase	could not open the file	kon het bestand niet openen
+msg.phrase	could not read the file	kon het bestand niet lezen
+msg.phrase	could not open the volume	kon het volume niet openen
+msg.phrase	could not open the destination (no memory?)	kon de bestemming niet openen (geen geheugen?)
+msg.phrase	could not read the root folder	kon de hoofdmap niet lezen
+msg.phrase	could not start the task	kon de taak niet starten
+msg.phrase	could not start writing (bad name or busy)	kon niet beginnen met schrijven (slechte naam of druk)
+msg.phrase	another volume is open (busy)	een ander volume is open (bezet)
+msg.phrase	a copy is running	Er wordt een kopie uitgevoerd
+msg.phrase	a folder cannot go into itself	een map kan niet naar zichzelf gaan
+msg.phrase	that is the same folder	dat is dezelfde map
+msg.phrase	this drive cannot be changed (read only)	deze schijf kan niet worden gewijzigd (alleen lezen)
+msg.phrase	the drive is not writable	de schijf is niet beschrijfbaar
+msg.phrase	the part size must be a multiple of 512	de onderdeelgrootte moet een veelvoud van 512 zijn
+msg.phrase	files of 4 GB or more are not supported	bestanden van 4 GB of meer worden niet ondersteund
+msg.phrase	bad path	slecht pad
+msg.phrase	bad file name	slechte bestandsnaam
+msg.phrase	the font ROM is not there	het lettertype-ROM is er niet
+msg.phrase	the sound is not open	het geluid is niet open
+msg.phrase	no such channel	zo'n kanaal bestaat niet
+msg.phrase	the sequencer is busy	de sequencer is bezig
+msg.phrase	not enough PSRAM for the song	niet genoeg PSRAM voor het nummer
+msg.phrase	not a standard MIDI file (no MThd)	geen standaard MIDI-bestand (geen MThd)
+msg.phrase	no tracks	geen sporen
+msg.phrase	a track is broken (MTrk)	een spoor is gebroken (MTrk)
+msg.phrase	SMPTE time division is not supported	SMPTE-tijdverdeling wordt niet ondersteund
+msg.phrase	SMF format 2 is not supported (0 and 1 only)	SMF-formaat 2 wordt niet ondersteund (alleen 0 en 1)
+msg.phrase	not a Bulk-Only drive	geen Bulk-Only-schijf
+msg.phrase	not an optical drive	geen optische drive
+msg.phrase	a system folder cannot be deleted or renamed	een systeemmap kan niet worden verwijderd of hernoemd
+msg.phrase	no media in the drive	geen media in de schijf
+msg.phrase	becoming ready	gereed worden
+msg.phrase	not ready	niet klaar
+msg.phrase	media changed	media veranderd
+msg.phrase	medium error	gemiddelde fout
+msg.phrase	illegal request	illegaal verzoek
+msg.phrase	a bad directory entry	een slechte mapinvoer
+msg.phrase	a directory on the way does not exist	een map onderweg bestaat niet
+msg.phrase	a file has that name	een bestand heeft die naam
+msg.phrase	a folder has that name	een map heeft die naam
+msg.phrase	a name on the way is not a directory	een naam onderweg is geen map
+msg.phrase	cancelled	geannuleerd
+msg.phrase	could not mount	kon niet monteren
+msg.phrase	could not start a read	kon het lezen niet starten
+msg.phrase	could not start a write	kon niet beginnen met schrijven
+msg.phrase	is a directory	is een map
+msg.phrase	that is a directory	dat is een map
+msg.phrase	no clusters	geen clusters
+msg.phrase	no room for the cluster list	geen ruimte voor de clusterlijst
+msg.phrase	no such file or directory	zo'n bestand of map bestaat niet
+msg.phrase	no such file	zo'n bestand bestaat niet
+msg.phrase	no volume	geen volume
+msg.phrase	not NTFS	niet NTFS
+msg.phrase	not exFAT	niet exFAT
+msg.phrase	not a directory	geen map
+msg.phrase	not found	niet gevonden
+msg.phrase	read error	leesfout
+msg.phrase	write error	schrijf fout
+msg.phrase	reading the FAT failed	het lezen van de FAT is mislukt
+msg.phrase	the cluster chain is shorter than the file	de clusterketen is korter dan het bestand
+msg.phrase	the directory is not empty	de map is niet leeg
+msg.phrase	the disk is full	de schijf is vol
+msg.phrase	the drive did not answer	de schijf antwoordde niet
+msg.phrase	the file is read-only	het bestand is alleen-lezen
+msg.phrase	the file is too fragmented	het bestand is te gefragmenteerd
+msg.phrase	the file is too large (4GB)	het bestand is te groot (4GB)
+msg.phrase	the new name already exists	de nieuwe naam bestaat al
+msg.phrase	the root directory is full	de hoofdmap is vol
+msg.phrase	too many files with the same short name	te veel bestanden met dezelfde korte naam
+msg.phrase	No such file or directory	Een dergelijk bestand of map bestaat niet
+msg.phrase	File exists	Bestand bestaat
+msg.phrase	Permission denied	Toestemming geweigerd
+msg.phrase	Directory not empty	Map niet leeg
+msg.phrase	Not a directory	Geen map
+msg.phrase	Is a directory	Is een map
+msg.phrase	Read-only file system	Alleen-lezen bestandssysteem
+msg.phrase	No space left on device	Er is geen ruimte meer op het apparaat
+msg.phrase	Input/output error	Invoer-/uitvoerfout
+msg.phrase	Not supported on this drive	Niet ondersteund op deze schijf
+msg.phrase	Invalid path	Ongeldig pad
+msg.phrase	Out of memory	Geen geheugen meer
+msg.phrase	No such drive	Zo'n drive bestaat niet
+msg.phrase	stopped	gestopt
+msg.phrase	cancelled (not enough free space)	geannuleerd (niet genoeg vrije ruimte)
+msg.phrase	could not count the free space	kon de vrije ruimte niet tellen
+msg.phrase	the receiver cancelled	de ontvanger heeft geannuleerd
+msg.phrase	no receiver (run rz on the PC)	geen ontvanger (voer rz uit op de pc)
+msg.phrase	the console UART is in use	de console-UART is in gebruik
+msg.phrase	the screen mode changed	de schermmodus is gewijzigd
+msg.phrase	the lines did not come (is the display running?)	de lijnen kwamen niet (loopt het display?)
+msg.prefix	copy	kopiëren
+msg.prefix	move	beweging
+msg.prefix	delete	verwijderen
+msg.prefix	rename	hernoemen
+msg.prefix	attributes	attributen
+msg.prefix	new file	nieuw bestand
+msg.prefix	new folder	nieuwe map
+msg.prefix	image	afbeelding
+msg.prefix	mrbc	mrbc
+msg.prefix	ruby	robijn
+msg.prefix	viewer	kijker
+msg.prefix	edit	bewerking
+msg.prefix	IDENTIFY	IDENTIFICEREN
+msg.prefix	ZMODEM	ZMODEM
+msg.prefix	ZMODEM receive	ZMODEM ontvangen
+msg.prefix	ZMODEM send	ZMODEM verzenden
+msg.prefix	split	gesplitst
+msg.prefix	join	meedoen
+msg.prefix	Doom	Noodlot
+msg.prefix	SMF	SMF
+msg.prefix	CD	CD
+msg.prefix	FB	FB
+msg.prefix	Eject	Uitwerpen
+msg.prefix	reboot	opnieuw opstarten
+msg.prefix	license	licentie
+msg.prefix	clock	klok
+msg.prefix	ADC in	ADC in
+msg.prefix	screen -> PNG	scherm -> PNG
+msg.prefix	FB -> PNG	FB -> PNG
+msg.prefix	could not open the volume	kon het volume niet openen
+msg.pattern	received 	ontvangen %s
+msg.pattern	sent 	verstuurd %s
+msg.pattern	saved 	opgeslagen %s
+msg.pattern	created 	gemaakt %s
+msg.pattern	renamed to 	hernoemd naar %s
+msg.pattern	deleted 	verwijderd %s
+msg.pattern	changed 	veranderd %s
+msg.pattern	joined 	aangesloten %s
+msg.pattern	split 	gesplitst %s
+msg.pattern	could not create 	kon niet creëren %s
+msg.pattern	could not delete 	kon niet verwijderen %s
+msg.pattern	could not rename to 	kon de naam niet wijzigen %s
+msg.pattern	could not change 	kon niet veranderen %s
+msg.pattern	could not read 	kon niet lezen %s
+msg.pattern	could not write 	kon niet schrijven %s
+msg.pattern	could not copy 	kon niet kopiëren %s
+msg.pattern	could not make 	kon niet maken %s
+msg.pattern	could not remove the folder 	kon de map niet verwijderen %s
+msg.pattern	could not remove 	kon niet verwijderen %s
+msg.pattern	no memory for 	geen geheugen voor %s
+msg.pattern	too many errors while sending 	te veel fouten tijdens het verzenden %s
+msg.pattern	the receiver did not take 	de ontvanger heeft niet opgenomen %s
+msg.pattern	the receiver skipped 	de ontvanger sloeg over %s
+msg.pattern	FB page 	FB-pagina %s
+msg.word	 bytes each)	bytes elk)
+msg.word	 bytes)	bytes)
+msg.word	 KB)	KB)
+msg.word	 parts into 	onderdelen in
+msg.word	 parts (	onderdelen (
+msg.word	 into 	naar binnen
+msg.word	: cleared	: gewist
+msg.word	: brightness halved	: helderheid gehalveerd
+msg.word	% read	% lezen
+msg.word	 rows	rijen
+msg.word	 -- not supported yet (FAT / exFAT / NTFS only)	-- nog niet ondersteund (alleen FAT / exFAT / NTFS)
+msg.word	 files	bestanden
+msg.word	 (	(
+msg.phrase	Untitled	Zonder titel
+msg.phrase	1 File	1 bestand
+msg.phrase	2 Edit	2 Bewerken
+msg.phrase	3 Graph	3 Grafiek
+msg.phrase	4 Sheet	4 vel
+msg.phrase	5 Help	5 Hulp
+msg.phrase	EMPTY	LEEG
+msg.phrase	NUMBER	NUMMER
+msg.phrase	TEXT	TEKST
+msg.phrase	FORMULA	FORMULE
+msg.phrase	Type to enter, F2 to edit, F1 for help	Typ om in te voeren, F2 om te bewerken, F1 voor hulp
+msg.phrase	5 CSV	5 CSV-bestand
+msg.phrase	6 ODS	6 ODS
+msg.phrase	[SHIFT]	[VERSCHUIVING]
+msg.phrase	[CTRL]	[CTRL]
+msg.phrase	[ALT]	[ALT]
+msg.phrase	Ready	Klaar
+msg.phrase	SGCALC	SGCALC
+msg.phrase	Press any key	Druk op een willekeurige toets
+msg.phrase	Y = yes    N = no    Esc = cancel	Y = ja N = nee Esc = annuleren
+msg.phrase	Enter = OK    Esc = cancel    Ctrl-U = clear	Enter = OK Esc = annuleren Ctrl-U = wissen
+msg.phrase	First row/column = labels; charts use the 640x480 CLUT8 FB.	Eerste rij/kolom = labels; kaarten gebruiken de 640x480 CLUT8 FB.
+msg.phrase	SGCALC - HELP	SGCALC - HELP
+msg.phrase	Press any key to return	Druk op een willekeurige toets om terug te keren
+msg.phrase	Press any key to return.	Druk op een willekeurige toets om terug te keren.
+msg.phrase	ABOUT SGCALC	OVER SGCALC
+msg.phrase	New	Nieuw
+msg.phrase	Start a new sheet	Begin een nieuw blad
+msg.phrase	Open...	Open...
+msg.phrase	Open an ODS, FODS or CSV file	Open een ODS-, FODS- of CSV-bestand
+msg.phrase	Save	Redden
+msg.phrase	Save the current file	Sla het huidige bestand op
+msg.phrase	Save As...	Opslaan als...
+msg.phrase	Save with a new name or format	Opslaan met een nieuwe naam of formaat
+msg.phrase	Export CSV...	CSV exporteren...
+msg.phrase	Write a CSV copy	Schrijf een CSV-kopie
+msg.phrase	Export ODS...	ODS exporteren...
+msg.phrase	Write a LibreOffice copy	Schrijf een LibreOffice-kopie
+msg.phrase	Quit	Ontslag nemen
+msg.phrase	Leave SGCALC	Verlaat SGCALC
+msg.phrase	Clear	Duidelijk
+msg.phrase	Clear the selected cells	Wis de geselecteerde cellen
+msg.phrase	Copy	Kopiëren
+msg.phrase	Copy the selection	Kopieer de selectie
+msg.phrase	Paste	Plakken
+msg.phrase	Paste at the cursor	Plak bij de cursor
+msg.phrase	Cut	Snee
+msg.phrase	Copy and clear the selection	Kopieer en wis de selectie
+msg.phrase	Select all	Selecteer alles
+msg.phrase	Select all used cells	Selecteer alle gebruikte cellen
+msg.phrase	Text color...	Tekstkleur...
+msg.phrase	Choose the text colour	Kies de tekstkleur
+msg.phrase	Background...	Achtergrond...
+msg.phrase	Choose the cell background	Kies de celachtergrond
+msg.phrase	Line	Lijn
+msg.phrase	Draw a line graph from the selection	Teken een lijngrafiek van de selectie
+msg.phrase	Bar	Bar
+msg.phrase	Draw a bar graph from the selection	Teken een staafdiagram van de selectie
+msg.phrase	Mixed	Gemengd
+msg.phrase	Bars for the first series, lines for the rest	Bars voor de eerste serie, lijnen voor de rest
+msg.phrase	Pie	Taart
+msg.phrase	Draw a pie graph from the selection	Teken een cirkeldiagram van de selectie
+msg.phrase	Range...	Bereik...
+msg.phrase	Set the graph range explicitly	Stel het grafiekbereik expliciet in
+msg.phrase	Draw again	Teken opnieuw
+msg.phrase	Redraw the last graph	Teken de laatste grafiek opnieuw
+msg.phrase	Goto...	Ga naar...
+msg.phrase	Jump to a cell (for example C12)	Naar een cel springen (bijvoorbeeld C12)
+msg.phrase	Column width...	Kolombreedte...
+msg.phrase	Change the selected columns' width	Wijzig de breedte van de geselecteerde kolommen
+msg.phrase	Row height...	Rijhoogte...
+msg.phrase	Change the selected rows' height	Wijzig de hoogte van de geselecteerde rijen
+msg.phrase	Auto fit	Automatische pasvorm
+msg.phrase	Fit widths/heights to the contents (F7)	Breedte/hoogte aanpassen aan de inhoud (F7)
+msg.phrase	Recalculate	Herbereken
+msg.phrase	Re-evaluate all formulas	Evalueer alle formules opnieuw
+msg.phrase	Erase all	Wis alles
+msg.phrase	Clear the whole sheet	Maak het hele blad leeg
+msg.phrase	Keys	Sleutels
+msg.phrase	Show the key guide	Laat de sleutelgids zien
+msg.phrase	About	Over
+msg.phrase	About SGCALC	Over SGCALC
+msg.phrase	File	Bestand
+msg.phrase	Edit	Bewerking
+msg.phrase	Graph	Grafiek
+msg.phrase	Sheet	Laken
+msg.phrase	Help	Hulp
+msg.phrase	File: new, open, save, export, quit	Bestand: nieuw, openen, opslaan, exporteren, afsluiten
+msg.phrase	Edit: clear, copy, paste, cut, select all	Bewerken: wissen, kopiëren, plakken, knippen, alles selecteren
+msg.phrase	Graph: line, bar, mixed, pie (draws in the FB)	Grafiek: lijn, staaf, gemengd, taart (tekent in de FB)
+msg.phrase	Sheet: goto, column width, recalculate, erase	Blad: ga naar, kolombreedte, herberekenen, wissen
+msg.phrase	Help: keys and about	Hulp: sleutels en over
+msg.phrase	Left/Right = menu    Up/Down = item    Enter = choose    Esc = cancel	Links/Rechts = menu Omhoog/Omlaag = item Enter = kies Esc = annuleren
+msg.phrase	Cancelled	Geannuleerd
+msg.phrase	The selection is too large or memory is low.	De selectie is te groot of er is weinig geheugen.
+msg.phrase	the cell	de cel
+msg.phrase	the selection	de selectie
+msg.phrase	Nothing to paste	Niets om te plakken
+msg.phrase	Pasted	Geplakt
+msg.phrase	GO TO CELL	GA NAAR CEL
+msg.phrase	Cell reference (A1):	Celreferentie (A1):
+msg.phrase	Goto	Ga naar
+msg.phrase	COLUMN WIDTH	KOLOM BREEDTE
+msg.phrase	Width in characters (4..30):	Breedte in tekens (4..30):
+msg.phrase	ROW HEIGHT	RIJ HOOGTE
+msg.phrase	Height in text rows (1..8):	Hoogte in tekstregels (1..8):
+msg.phrase	Auto fit: the sheet is empty	Automatisch aanpassen: het blad is leeg
+msg.phrase	BACKGROUND COLOUR	ACHTERGRONDKLEUR
+msg.phrase	TEXT COLOUR	TEKST KLEUR
+msg.phrase	Arrows: choose    Enter: apply    Esc: cancel	Pijlen: kies Enter: toepassen Esc: annuleren
+msg.phrase	Colour index (PC-98 16-colour palette)	Kleurindex (PC-98 16-kleurenpalet)
+msg.phrase	Aa 123	Aa 123
+msg.phrase	Enter = apply    Esc = cancel	Enter = toepassen Esc = annuleren
+msg.phrase	Colour	Kleur
+msg.phrase	Background	Achtergrond
+msg.phrase	Text	Tekst
+msg.phrase	GRAPH RANGE	GRAFIEK BEREIK
+msg.phrase	Range (for example A1:C10):	Bereik (bijvoorbeeld A1:C10):
+msg.phrase	Graph range	Grafiek bereik
+msg.phrase	Use a range such as A1:C10.	Gebruik een bereik zoals A1:C10.
+msg.phrase	Cannot draw the graph.	Kan de grafiek niet tekenen.
+msg.phrase	line	lijn
+msg.phrase	bar	bar
+msg.phrase	mixed	gemengd
+msg.phrase	pie	taart
+msg.phrase	Clear every cell in this sheet?	Elke cel in dit blad wissen?
+msg.phrase	Sheet erased	Blad gewist
+msg.phrase	Selected all used cells	Alle gebruikte cellen geselecteerd
+msg.phrase	Recalculated	Herberekend
+msg.phrase	Memory	Geheugen
+msg.phrase	Not enough PSRAM for the spreadsheet.	Niet genoeg PSRAM voor de spreadsheet.
+msg.phrase	The sheet is empty.	Het blad is leeg.
+msg.phrase	No numeric data in the selected range.	Geen numerieke gegevens in het geselecteerde bereik.
+msg.phrase	Other	Ander
+msg.phrase	No positive values for a pie chart	Geen positieve waarden voor een cirkeldiagram
+msg.phrase	LINE	LIJN
+msg.phrase	BAR	BAR
+msg.phrase	MIXED	GEMENGD
+msg.phrase	PIE	TAART
+msg.phrase	S:/	S:/
+msg.phrase	Folder	Map
+msg.phrase	SAVE AS	OPSLAAN ALS
+msg.phrase	OPEN FILE	BESTAND OPENEN
+msg.phrase	LibreOffice / CSV	LibreOffice/CSV
+msg.phrase	ODS  FODS  CSV	ODS FODS CSV
+msg.phrase	Name:	Naam:
+msg.phrase	(type a name, or choose below)	(typ een naam, of kies hieronder)
+msg.phrase	Name	Naam
+msg.phrase	Size	Maat
+msg.phrase	Enter=save  Left=up  Right/Enter on [DIR]=open  Tab=drive  Esc=cancel	Enter=opslaan Links=omhoog Rechts/Enter op [DIR]=open Tab=station Esc=annuleren
+msg.phrase	Enter=open  Left=up  Right/Enter on [DIR]=open  Tab=drive  Esc=cancel	Enter=open Links=omhoog Rechts/Enter op [DIR]=open Tab=station Esc=annuleren
+msg.phrase	Not enough memory.	Niet genoeg geheugen.
+msg.phrase	Overwrite	Overschrijven
+msg.phrase	Open	Open
+msg.phrase	The file is too large (limit 8 MB).	Het bestand is te groot (limiet 8 MB).
+msg.phrase	Not enough memory to read the file.	Onvoldoende geheugen om het bestand te lezen.
+msg.phrase	Bad ZIP/ODS data.	Slechte ZIP/ODS-gegevens.
+msg.phrase	CRC error in the ODS file.	CRC-fout in het ODS-bestand.
+msg.phrase	Unsupported or damaged file.	Niet-ondersteund of beschadigd bestand.
+msg.phrase	Saved	Opgeslagen
+msg.phrase	Exported	Geëxporteerd
+msg.phrase	Unsaved changes	Niet-opgeslagen wijzigingen
+msg.phrase	Save the current sheet before continuing?	Het huidige blad opslaan voordat u doorgaat?
+msg.phrase	New sheet	Nieuw blad
+msg.phrase	SGTRK	SGTRK
+msg.phrase	UNTITLED	ZONDER TITEL
+msg.phrase	song is too large	liedje is te groot
+msg.phrase	empty file	leeg bestand
+msg.phrase	not an SGT file	geen SGT-bestand
+msg.phrase	bad BPM	slechte BPM
+msg.phrase	bad speed	slechte snelheid
+msg.phrase	bad title length	slechte titellengte
+msg.phrase	truncated title	ingekorte titel
+msg.phrase	bad character in title	slecht karakter in de titel
+msg.phrase	truncated order	ingekorte volgorde
+msg.phrase	bad order length	slechte bestellengte
+msg.phrase	bad pattern number in order	slecht patroonnummer in volgorde
+msg.phrase	truncated pattern list	ingekorte patroonlijst
+msg.phrase	bad pattern count	slechte patroontelling
+msg.phrase	bad pattern index	slechte patroonindex
+msg.phrase	duplicate pattern	duplicaat patroon
+msg.phrase	truncated pattern data	afgeknotte patroongegevens
+msg.phrase	invalid pattern data	ongeldige patroongegevens
+msg.phrase	trailing data in file	achterliggende gegevens in het bestand
+msg.phrase	order refers to a missing pattern	volgorde verwijst naar een ontbrekend patroon
+msg.phrase	A:/	A:/
+msg.phrase	(untitled)	(zonder titel)
+msg.phrase	Ready. Press F1 for help.	Klaar. Druk op F1 voor hulp.
+msg.phrase	Follow OFF	Volg UIT
+msg.phrase	Nothing to undo	Niets om ongedaan te maken
+msg.phrase	Undo	Ongedaan maken
+msg.phrase	Note OFF	Opmerking UIT
+msg.phrase	Set an effect letter first	Stel eerst een effectletter in
+msg.phrase	Effect cleared	Effect gewist
+msg.phrase	Parameter cleared	Parameter gewist
+msg.phrase	Note cleared	Opmerking gewist
+msg.phrase	Instrument cleared	Instrument gewist
+msg.phrase	Volume cleared	Volume gewist
+msg.phrase	Order list is full	Bestellijst is vol
+msg.phrase	Order inserted	Bestelling geplaatst
+msg.phrase	Cannot delete the last order	Kan de laatste bestelling niet verwijderen
+msg.phrase	Order deleted	Bestelling verwijderd
+msg.phrase	Playing song	Liedje afspelen
+msg.phrase	Stopped	Gestopt
+msg.phrase	New song	Nieuw liedje
+msg.phrase	Discard unsaved changes and start a new song? (Y/N)	Niet-opgeslagen wijzigingen negeren en een nieuw nummer starten? (J/N)
+msg.phrase	Discard unsaved changes and open a song? (Y/N)	Niet-opgeslagen wijzigingen negeren en een nummer openen? (J/N)
+msg.phrase	Discard unsaved changes and quit? (Y/N)	Niet-opgeslagen wijzigingen negeren en afsluiten? (J/N)
+msg.phrase	Song settings updated	Nummerinstellingen bijgewerkt
+msg.phrase	Filename is empty	Bestandsnaam is leeg
+msg.phrase	Save cancelled	Opslaan geannuleerd
+msg.phrase	Open cancelled	Openen geannuleerd
+msg.phrase	Edit ON	Bewerken AAN
+msg.phrase	Edit OFF	Bewerken UIT
+msg.phrase	Follow ON	Volg AAN
+msg.phrase	Edit is OFF. Press F8 to edit.	Bewerken is UIT. Druk op F8 om te bewerken.
+msg.phrase	I/O error	I/O-fout
+msg.phrase	file is too large	bestand is te groot
+msg.phrase	truncated file	ingekort bestand
+msg.phrase	SINE PAD	SINUS PAD
+msg.phrase	TRIANGLE	DRIEHOEK
+msg.phrase	SAW LEAD	ZAAG LOOD
+msg.phrase	SQUARE	VIERKANT
+msg.phrase	PULSE 25	PULS 25
+msg.phrase	ORGAN	ORGAAN
+msg.phrase	BASS	BAS
+msg.phrase	BELL	KLOK
+msg.phrase	NOISE	LAWAAI
+msg.phrase	SINE	SINUS
+msg.phrase	SAW	ZAAG
+msg.phrase	OFF	UIT
+msg.phrase	ON	OP
+msg.phrase	ROW	RIJ
+msg.phrase	CHAN LEVEL	KAN-NIVEAU
+msg.phrase	F1 HELP F2 SONG	F1 HELP F2 LIED
+msg.phrase	F3 INS  F4 SAVE	F3 INS F4 OPSLAAN
+msg.phrase	F5 PLAY F6 PAT	F5 SPELEN F6 PAT
+msg.phrase	F7 STOP F8 EDIT	F7 STOPPEN F8 BEWERKEN
+msg.phrase	F9/F10 OCTAVE	F9/F10 OCTAF
+msg.phrase	F11 FOLLOW	F11 VOLGEN
+msg.phrase	F12 QUIT	F12 AFSLUITEN
+msg.phrase	SPACE PLAY/STOP	RUIMTE SPELEN/STOPPEN
+msg.phrase	CTRL-S SAVE	CTRL-S OPSLAAN
+msg.phrase	CTRL-O OPEN	CTRL-O OPENEN
+msg.phrase	C-N NEW C-Z UNDO	C-N NIEUW C-Z ONGEDAAN
+msg.phrase	C-C STOP	C-C STOP
+msg.phrase	#TRANSPORT AND FILES	#TRANSPORT EN BESTANDEN
+msg.phrase	#ORDER LIST	#BESTELLINGLIJST
+msg.phrase	#DISPLAY	#WEERGAVE
+msg.phrase	#EDITING	#BEWERKEN
+msg.phrase	#EFFECTS (parameter is hexadecimal)	#EFFECTS (parameter is hexadecimaal)
+msg.phrase	LEFT/RIGHT PAGE   ENTER OR F1 CLOSE	LINKER/RECHTER PAGINA ENTER OF F1 SLUITEN
+msg.phrase	SONG SETTINGS	LIEDJE-INSTELLINGEN
+msg.phrase	UP/DOWN SELECT   LEFT/RIGHT ADJUST   ENTER/F2 CLOSE	OMHOOG/OMLAAG SELECTEREN LINKS/RECHTS AANPASSEN ENTER/F2 SLUITEN
+msg.phrase	Type to edit the title. Backspace deletes the last character.	Typ om de titel te bewerken. Backspace verwijdert het laatste teken.
+msg.phrase	BPM range 32..255. Speed range 1..31.	BPM-bereik 32..255. Toerentalbereik 1..31.
+msg.phrase	Pattern effects can also change speed and BPM while playing.	Patrooneffecten kunnen tijdens het spelen ook de snelheid en BPM veranderen.
+msg.phrase	INSTRUMENTS	INSTRUMENTEN
+msg.phrase	UP/DOWN SELECT   SPACE PREVIEW   ENTER USE   F3 CLOSE	OMHOOG/OMLAAG SELECTEER RUIMTE VOORBEELD ENTER GEBRUIK F3 SLUITEN
+msg.phrase	All four channels use wavetable synthesis.	Alle vier de kanalen maken gebruik van wavetable-synthese.
+msg.phrase	Preview plays C-4 on the track under the edit cursor.	Preview speelt C-4 af op de track onder de bewerkingscursor.
+msg.phrase	SAVE SONG AS	SONG OPSLAAN ALS
+msg.phrase	ENTER SAVE   F4 OR CTRL-C CANCEL	ENTER OPSLAAN F4 OF CTRL-C ANNULEREN
+msg.phrase	Directory:	Directory:
+msg.phrase	File name:	Bestandsnaam:
+msg.phrase	The extension .SGT is added automatically.	De extensie .SGT wordt automatisch toegevoegd.
+msg.phrase	An existing file can be overwritten.	Een bestaand bestand kan worden overschreven.
+msg.phrase	OPEN SONG	OPEN LIED
+msg.phrase	ENTER OPEN  BS PARENT  CTRL-O/CTRL-C CANCEL	ENTER OPEN BS PARENT CTRL-O/CTRL-C ANNULEREN
+msg.phrase	(no .SGT files in this folder)	(geen .SGT-bestanden in deze map)
+msg.phrase	CONFIRM	BEVESTIGEN
+msg.phrase	Y = YES   N / ENTER / CTRL-C = NO	J = JA N / ENTER / CTRL-C = NEE
+msg.phrase	Y = yes        N = no	J = ja N = nee
+msg.phrase	C-	C-
+msg.phrase	C#	C#
+msg.phrase	D-	D-
+msg.phrase	D#	D#
+msg.phrase	E-	E-
+msg.phrase	F-	F-
+msg.phrase	F#	F#
+msg.phrase	G-	G-
+msg.phrase	G#	G#
+msg.phrase	A-	A-
+msg.phrase	A#	A#
+msg.phrase	B-	B-
+msg.phrase	A:/dir/name	A:/map/naam
+msg.phrase	MThd	MThd
+msg.phrase	broken MThd	gebroken MThd
+msg.phrase	MIDI IMPORT	MIDI-IMPORT
+msg.phrase	MTrk	MTrk
+msg.phrase	broken delta time	gebroken deltatijd
+msg.phrase	broken running status	gebroken lopende status
+msg.phrase	broken meta event	gebroken meta-evenement
+msg.phrase	broken sysex event	gebroken sysex-gebeurtenis
+msg.phrase	broken channel event	gebroken kanaalgebeurtenis
+msg.phrase	SMF output is too small	De SMF-uitvoer is te klein
+msg.phrase	SMF output is too large	De SMF-uitvoer is te groot
+msg.phrase	the song is too long for SMF	het nummer is te lang voor SMF
+msg.phrase	TRK1	TRK1
+msg.phrase	%s%d	%s%d
+msg.phrase	%s%d:%s%d	%s%d:%s%d
+msg.phrase	%s	%s
+msg.phrase	%.40s%s	%.40s%s
+msg.phrase	  [%s]   %s	[%s] %s
+msg.phrase	EDIT  	BEWERKING
+msg.phrase	READY 	KLAAR
+msg.phrase	%4d 	%4d
+msg.phrase	%s Sum %.7g N %ld%s	%s Som %.7g N %ld%s
+msg.phrase	ARROWS      move the cell cursor\n	PIJLEN verplaatsen de celcursor
+msg.phrase	SHIFT+ARR   extend the selection (for graphs/copy)\n	SHIFT+ARR breidt de selectie uit (voor grafieken/kopiëren)
+msg.phrase	ENTER       edit the cell; in edit, commit and move down\n	ENTER bewerk de cel; in bewerken, vastleggen en naar beneden verplaatsen
+msg.phrase	TAB         next cell    SHIFT+TAB  previous cell\n	TAB volgende cel SHIFT+TAB vorige cel
+msg.phrase	DELETE      clear the selected cell(s)    ESC  cancel\n	DELETE wis de geselecteerde cel(len) ESC annuleer
+msg.phrase	PGUP/PGDN   move one screen    HOME/END  first/last column\n	PGUP/PGDN één scherm verplaatsen HOME/END eerste/laatste kolom
+msg.phrase	CTRL+HOME   A1    CTRL+END  last used cell\n	CTRL+HOME A1 CTRL+END laatst gebruikte cel
+msg.phrase	F1 help  F2 edit  F3 copy  F4 paste  F5 goto  F6 colour\n	F1 help F2 bewerken F3 kopiëren F4 plakken F5 ga naar F6 kleur
+msg.phrase	F7 auto-fit  F8 background  F9 recalc  F10 graph  F11 save  F12 menu\n	F7 automatisch aanpassen F8 achtergrond F9 herberekenen F10 grafiek F11 opslaan F12 menu
+msg.phrase	SHIFT+F1 about  SHIFT+F2 row height  SHIFT+F3 column width\n	SHIFT+F1 over SHIFT+F2 rijhoogte SHIFT+F3 kolombreedte
+msg.phrase	SHIFT+F4 select all  SHIFT+F10 graph range  SHIFT+F11 save as\n	SHIFT+F4 alles selecteren SHIFT+F10 grafiekbereik SHIFT+F11 opslaan als
+msg.phrase	CTRL+F1 new  CTRL+F2 open  CTRL+F3 save  CTRL+F4 save as\n	CTRL+F1 nieuw CTRL+F2 openen CTRL+F3 opslaan CTRL+F4 opslaan als
+msg.phrase	CTRL+F5 export CSV  CTRL+F6 export ODS  ALT+F12 quit\n	CTRL+F5 CSV exporteren CTRL+F6 exporteren ODS ALT+F12 afsluiten
+msg.phrase	Bottom 2 lines: function keys; [SHIFT]/[CTRL]/[ALT] like the filer\n	Onderste 2 regels: functietoetsen; [SHIFT]/[CTRL]/[ALT] zoals de filer
+msg.phrase	CTRL+S save  CTRL+O open  CTRL+N new  CTRL+C/V/X copy/paste/cut\n	CTRL+S opslaan CTRL+O openen CTRL+N nieuw CTRL+C/V/X kopiëren/plakken/knippen
+msg.phrase	CTRL+G goto    /  open the menu (1 File, 2 Edit, ...)\n	CTRL+G ga naar/open het menu (1 Bestand, 2 Bewerken, ...)
+msg.phrase	Built-in functions: SUM AVERAGE MIN MAX COUNT COUNTA\n	Ingebouwde functies: SUM GEMIDDELDE MIN MAX COUNT COUNTA
+msg.phrase	PRODUCT ABS SQRT INT ROUND MOD POWER IF AND OR NOT\n	PRODUCT ABS SQRT INT ROUND MOD POWER INDIEN EN OF NIET
+msg.phrase	IFERROR LEN LEFT RIGHT MID UPPER LOWER TRIM CONCATENATE PI\n	IFERROR LEN LINKS RECHTS MID BOVEN ONDER BEKLEDING AANGEKOMEN PI
+msg.phrase	Cell refs: A1, $A$1, A1:B10.  Formulas begin with '='.\n	Celreferenties: A1, $A$1, A1:B10.  Formules beginnen met '='.
+msg.phrase	Files: .ods (LibreOffice), .fods (flat XML), .csv\n	Bestanden: .ods (LibreOffice), .fods (platte XML), .csv
+msg.phrase	ODS/FODS keeps formulas, widths, heights and colours.\n	ODS/FODS behoudt formules, breedtes, hoogtes en kleuren.
+msg.phrase	CSV keeps values and formulas (no colours/heights).\n	CSV bewaart waarden en formules (geen kleuren/hoogten).
+msg.phrase	Graph: select a range, press F10, and choose Line/Bar/Mixed/Pie.\n	Grafiek: selecteer een bereik, druk op F10 en kies Lijn/Bar/Gemengd/Pie.
+msg.phrase	SGCALC for sgnano\n	SGCALC voor sgnano
+msg.phrase	Version 	Versie
+msg.phrase	A Lotus 1-2-3 style spreadsheet as an SGX program.\n\n	Een spreadsheet in Lotus 1-2-3-stijl als een SGX-programma.
+msg.phrase	SGX ABI %u.%u\n	SGX ABI %u.%u
+msg.phrase	Screen mode 3: text + CLUT8 FB (lowres disabled)\n	Schermmodus 3: tekst + CLUT8 FB (lage resolutie uitgeschakeld)
+msg.phrase	Sheet: %d rows x %d columns\n	Blad: %d rijen x %d kolommen
+msg.phrase	Formats: .ods / .fods (LibreOffice), .csv\n\n	Formaten: .ods / .fods (LibreOffice), .csv
+msg.phrase	The grid is drawn on the text plane.\n	Het raster wordt op het tekstvlak getekend.
+msg.phrase	Charts and the 640x480 background use the FB.\n\n	Grafieken en de achtergrond van 640 x 480 gebruiken de FB.
+msg.phrase	%d %s	%d %s
+msg.phrase	Cannot store the cell (%d).	Kan de cel niet opslaan (%d).
+msg.phrase	Copied %d x %d cells	Gekopieerde %d x %d cellen
+msg.phrase	Cleared %s	Gewist %s
+msg.phrase	'%s' is not a cell reference.	'%s' is geen celverwijzing.
+msg.phrase	%d	%d
+msg.phrase	Column width = %d	Kolombreedte = %d
+msg.phrase	Row height = %d	Rijhoogte = %d
+msg.phrase	Auto fit: %d column(s), %d row(s)	Automatisch aanpassen: %d kolom(men), %d rij(en)
+msg.phrase	%2d	%2d
+msg.phrase	Cannot apply the colour (%d).	Kan de kleur (%d) niet toepassen.
+msg.phrase	%s colour = %d	%s kleur = %d
+msg.phrase	Not a valid range.\nUse a range such as A1:C10.	Geen geldig bereik.\nGebruik een bereik zoals A1:C10.
+msg.phrase	Graph range %s	Grafiekbereik %s
+msg.phrase	Graph: %s	Grafiek: %s
+msg.phrase	SGCALC: cannot set screen mode 3: %s\n	SGCALC: kan schermmodus 3 niet instellen: %s
+msg.phrase	%.2g	%.2g
+msg.phrase	%.6g	%.6g
+msg.phrase	%s  %.0f%%	%s %.0f%%
+msg.phrase	GRAPH  %s  %s	GRAFIEK %s %s
+msg.phrase	%s%s	%s%s
+msg.phrase	%s/%s	%s/%s
+msg.phrase	%.*s	%.*s
+msg.phrase	%.*s/	%.*s/
+msg.phrase	Cannot read %s\n%s	Kan %s niet lezen\n%s
+msg.phrase	Folder: %s	Map: %s
+msg.phrase	[DIR] %s	[DIR] %s
+msg.phrase	      %s	%s
+msg.phrase	%lu.%luM	%lu.%luM
+msg.phrase	%luK	%luK
+msg.phrase	%luB	%luB
+msg.phrase	BOOK1%s	BOEK 1%s
+msg.phrase	%c:/	%c:/
+msg.phrase	Unsupported extension.\nUse .csv, .ods or .fods.	Niet-ondersteunde extensie.\nGebruik .csv, .ods of .fods.
+msg.phrase	%s already exists.\nOverwrite it?	%s bestaat al.\nOverschrijven?
+msg.phrase	%s may not be writable.\nTry anyway?	%s is mogelijk niet beschrijfbaar.\nToch proberen?
+msg.phrase	Unknown file type for %s	Onbekend bestandstype voor %s
+msg.phrase	Unsupported file type.\nUse .csv, .ods or .fods.	Niet-ondersteund bestandstype.\nGebruik .csv, .ods of .fods.
+msg.phrase	Cannot open %s\n%s	Kan %s niet openen\n%s
+msg.phrase	%s is a folder.	%s is een map.
+msg.phrase	Cannot import %s\n%s	Kan %s niet importeren\n%s
+msg.phrase	Loaded %s	Geladen %s
+msg.phrase	Cannot build the %s file.	Kan het %s-bestand niet opbouwen.
+msg.phrase	Cannot write %s\n%s	Kan %s niet schrijven\n%s
+msg.phrase	%s %s	%s %s
+msg.phrase	unsupported version %u	niet-ondersteunde versie %u
+msg.phrase	%d:%d:%d:%d:%d:%d	%d:%d:%d:%d:%d:%d
+msg.phrase	Octave %d	Octaaf %d
+msg.phrase	Note %s	Opmerking %s
+msg.phrase	Instrument %d	Instrument%d
+msg.phrase	Volume %s	Volume%s
+msg.phrase	Effect %c	Effect%c
+msg.phrase	Parameter %s	Parameter%s
+msg.phrase	Pattern %s	Patroon %s
+msg.phrase	Playing pattern %s	Speelpatroon %s
+msg.phrase	SAVE ERROR: %s	FOUT OPSLAAN: %s
+msg.phrase	Saved %s	Opgeslagen %s
+msg.phrase	LOAD ERROR: %s	LAADFOUT: %s
+msg.phrase	BPM %d	BPM%d
+msg.phrase	Speed %d	Snelheid %d
+msg.phrase	Preview %s	Voorbeeld %s
+msg.phrase	Instrument %s %s	Instrument %s %s
+msg.phrase	Overwrite %s? (Y/N)	Overschrijven %s? (J/N)
+msg.phrase	 | BPM %s SPD %s 	| BPM %s SPD %s
+msg.phrase	 SGNO TRACKER 1.0 | 	SGNO-TRACKER 1.0 |
+msg.phrase	FILE 	BESTAND
+msg.phrase	 PAT %s	PAT %s
+msg.phrase	 ORD %d/%d	ORD %d/%d
+msg.phrase	 INS %s 	INS %s
+msg.phrase	 OCT %d	OKT %d
+msg.phrase	 EDIT %s	BEWERK %s
+msg.phrase	ON 	OP
+msg.phrase	 FOL %s	FOL %s
+msg.phrase	TRACK %d	VOLG %d
+msg.phrase	%c%s	%c%s
+msg.phrase	%s %s %s %s	%s %s %s %s
+msg.phrase	%s 	%s
+msg.phrase	%d %s %s	%d %s %s
+msg.phrase	ORDER %d/%d	BESTEL %d/%d
+msg.phrase	PAT   %s	PAT %s
+msg.phrase	INS %s %s	INS %s %s
+msg.phrase	OCT %d  EDIT %s	OKT %d BEWERKEN %s
+msg.phrase	FOLLOW %s	VOLG %s
+msg.phrase	PLAYING  ORD %d/%d  PAT %s  ROW %s/%d  SPD %s  BPM %d  F7 STOP	SPEEL ORD %d/%d PAT %s ROW %s/%d SPD %s BPM %d F7 STOP
+msg.phrase	READY  EDIT %s  OCT %d  F1 HELP  F5 PLAY  CTRL-S SAVE	KLAAR BEWERKEN %s OKT %d F1 HELP F5 SPELEN CTRL-S OPSLAAN
+msg.phrase	 %s 	%s
+msg.phrase	  F5          Play the song from the current order	F5 Speel het nummer af vanuit de huidige volgorde
+msg.phrase	  F6          Play the current pattern	F6 Speel het huidige patroon
+msg.phrase	  F7/Ctrl-C   Stop playback	F7/Ctrl-C Afspelen stoppen
+msg.phrase	  Space       Play / stop	Ruimte Afspelen / stoppen
+msg.phrase	  F4          Save as	F4 Opslaan als
+msg.phrase	  Ctrl-S      Save (asks for a name if new)	Ctrl-S Opslaan (vraagt ​​om een ​​naam als deze nieuw is)
+msg.phrase	  Ctrl-O      Open a song	Ctrl-O Open een nummer
+msg.phrase	  Ctrl-N      New song	Ctrl-N Nieuw nummer
+msg.phrase	  F12         Quit (confirmation if modified)	F12 Afsluiten (bevestiging indien gewijzigd)
+msg.phrase	  [ ]         Previous / next order entry	[ ] Vorige/volgende orderinvoer
+msg.phrase	  { }         Insert / delete an order entry	{ } Een orderinvoer invoegen/verwijderen
+msg.phrase	  - +         Change the pattern in the entry	- + Wijzig het patroon in de invoer
+msg.phrase	  F11         Follow playback (turns off on manual move)	F11 Afspelen volgen (wordt uitgeschakeld bij handmatige verplaatsing)
+msg.phrase	  F1          Help; Left/Right changes page	F1-hulp; Links/Rechts verandert van pagina
+msg.phrase	  F8          Toggle edit mode	F8 Schakel de bewerkingsmodus in
+msg.phrase	  Arrows      Move the cursor	Pijlen Verplaats de cursor
+msg.phrase	  PgUp/PgDn   Jump 16 rows	PgUp/PgDn Spring 16 rijen
+msg.phrase	  Home/End    First / last row	Home/Einde Eerste / laatste rij
+msg.phrase	  F9/F10      Octave down / up	F9/F10 Octaaf omlaag/omhoog
+msg.phrase	  Z S X D C V G B H N J M      lower piano row	Z S X D C V G B H N J M onderste pianorij
+msg.phrase	  Q 2 W 3 E R 5 T 6 Y 7 U      upper piano row	Q 2 W 3 E R 5 T 6 Y 7 U bovenste pianorij
+msg.phrase	  1           Note off	1 Notitie uit
+msg.phrase	  0 / Del     0 clears note/inst/fx; Del clears any	0 / Del 0 wist noot/inst/fx; Del wist alles
+msg.phrase	  Ctrl-Z      Undo the last pattern/order edit	Ctrl-Z Maak de laatste wijziging van het patroon/de bestelling ongedaan
+msg.phrase	  Axy   Volume slide: up x, down y	Axy Volumeschuif: omhoog x, omlaag y
+msg.phrase	  Cxx   Note cut after xx ticks	Cxx Opmerking verwijderd na xx ticks
+msg.phrase	  Dxx   Set volume (00..7F)	Dxx Volume instellen (00..7F)
+msg.phrase	  Fxx   Speed if xx < 20, otherwise BPM	Fxx Snelheid als xx < 20, anders BPM
+msg.phrase	  Hxy   Arpeggio x, y semitones	Hxy Arpeggio x, y halve tonen
+msg.phrase	  Pxx   Pitch slide up	Pxx Pitch schuif omhoog
+msg.phrase	  Qxx   Pitch slide down	Qxx Pitch naar beneden glijden
+msg.phrase	  F2 song settings, F3 instrument list	F2 songinstellingen, F3 instrumentenlijst
+msg.phrase	HELP %d/2	HULP %d/2
+msg.phrase	  Title	Titel
+msg.phrase	  [%s_]	[%s_]
+msg.phrase	  BPM   : %d     (left/right -1/+1, -/+ -5/+5)	BPM: %d (links/rechts -1/+1, -/+ -5/+5)
+msg.phrase	  Speed : %d ticks/row	Snelheid: %d tikken/rij
+msg.phrase	  Rows  : %d (fixed)	Rijen: %d (vast)
+msg.phrase	  Order : %d entries	Bestelling: %d inzendingen
+msg.phrase	  Patterns in use : %d	Gebruikte patronen: %d
+msg.phrase	 #  NAME       WAVE       A   D   S   R  VOL	# NAAM WAVE A D S R VOL
+msg.phrase	 %c %d  %-9s %-9s %3d %3d %3d %3d %4d	%c %d %-9s %-9s %3d %3d %3d %3d %4d
+msg.phrase	Current instrument: %s %s	Huidig ​​instrument: %s %s
+msg.phrase	  %s	%s
+msg.phrase	DIR  %s	DIR %s
+msg.phrase	 %c %s%s	%c %s%s
+msg.phrase	Files: %d	Bestanden: %d
+msg.phrase	%02d	%02d
+msg.phrase	%03d	%03d
+msg.phrase	%02X	%02X
+msg.phrase	SGNO TRACKER: incompatible SGX ABI\n	SGNO TRACKER: incompatibele SGX ABI
+msg.phrase	S: check: wait -- a file is being read or written	S: check: wacht -- er wordt een bestand gelezen of geschreven
+msg.phrase	S: check: the drive is busy or not ready	S: check: de schijf is bezet of niet gereed
+msg.phrase	nothing for this item (ContextMenu.cfg)	niets voor dit item (ContextMenu.cfg)
+msg.phrase	bad command in ContextMenu.cfg	slechte opdracht in ContextMenu.cfg
+msg.phrase	unknown action in ContextMenu.cfg	onbekende actie in ContextMenu.cfg
+msg.prefix	menu	menu
+msg.phrase	choose a file or folder	kies een bestand of map
+msg.phrase	this drive cannot be written	deze schijf kan niet worden beschreven
+msg.phrase	an archive job is already running	Er wordt al een archieftaak uitgevoerd
+msg.phrase	no PSRAM for the archive task	geen PSRAM voor de archieftaak
+msg.phrase	could not start the archive task	kon de archiveringstaak niet starten
+msg.phrase	too many items (32 at most)	te veel items (maximaal 32)
+msg.phrase	nothing to compress	niets te comprimeren
+msg.phrase	no name (or the name has / or \\)	geen naam (of de naam heeft / of \\)
+msg.phrase	32 items at most (mark fewer, or put them in a folder)	Maximaal 32 items (markeer minder, of plaats ze in een map)
+msg.prefix	archive	archief
+msg.prefix	compress	comprimeren
+msg.prefix	render	veroorzaken
+msg.phrase	5 Macro	5 Macro
+msg.phrase	6 Help	6 Hulp
+msg.phrase	Run current	Voer stroom uit
+msg.phrase	Run the macro at the cursor (#! header cell and the cells below it)	Voer de macro uit bij de cursor (#! headercel en de cellen eronder)
+msg.phrase	Run selection	Selectie uitvoeren
+msg.phrase	Run the selected cells as one macro (top-left cell is the #! header)	Voer de geselecteerde cellen uit als één macro (cel linksboven is de kop #!)
+msg.phrase	Run all	Alles uitvoeren
+msg.phrase	Run every macro in the sheet, top-left to bottom-right	Voer elke macro in het blad uit, van linksboven naar rechtsonder
+msg.phrase	Last error	Laatste fout
+msg.phrase	Show the last macro error	Toon de laatste macrofout
+msg.phrase	Macro	Macro
+msg.phrase	Macro: run #!ruby / #!python / #!basic cells	Macro: voer #!ruby / #!python / #!basic cellen uit
+msg.phrase	Edit the cell (F2)	Bewerk de cel (F2)
+msg.phrase	Fit widths/heights to the contents	Pas de breedte/hoogte aan de inhoud aan
+msg.phrase	Last macro error	Laatste macrofout
+msg.phrase	No macro error.	Geen macrofout.
+msg.phrase	IME on	IME aan
+msg.phrase	IME off	IME uit
+msg.phrase	Macro: %s %s ...	Macro: %s %s ...
+msg.phrase	%s: this firmware cannot run macros (SGX ABI 5.10 or later)	%s: deze firmware kan geen macro's uitvoeren (SGX ABI 5.10 of hoger)
+msg.phrase	Macro error: %s	Macrofout: %s
+msg.phrase	Macro: %s done	Macro: %s klaar
+msg.phrase	a macro is already running	er is al een macro actief
+msg.phrase	this language is not available	deze taal is niet beschikbaar
+msg.phrase	not enough memory	niet genoeg geheugen
+msg.phrase	the macro stopped with an error	de macro is gestopt met een fout
+msg.phrase	Macro error %s: %s	Macrofout %s: %s
+msg.phrase	Macro: not enough memory	Macro: niet genoeg geheugen
+msg.phrase	Macro: the cursor is not on a macro (a #!ruby / #!python / #!basic cell or the cells below it)	Macro: de cursor staat niet op een macro (een #!ruby / #!python / #!basic cel of de cellen eronder)
+msg.phrase	Macro: no macro in the sheet	Macro: geen macro in het blad
+msg.phrase	Run all macros	Voer alle macro's uit
+msg.phrase	Macros: %d. Run them all, top-left to bottom-right? Changes cannot be undone.	Macro's: %d. Voer ze allemaal uit, van linksboven naar rechtsonder? Wijzigingen kunnen niet ongedaan worden gemaakt.
+msg.phrase	Macro: %d of %d done	Macro: %d van %d klaar
+msg.phrase	Cleared the cell	De cel gewist
+msg.phrase	Cleared the selection	De selectie gewist
+msg.phrase	Background colour = %d	Achtergrondkleur = %d
+msg.phrase	Text colour = %d	Tekstkleur = %d
+msg.phrase	Graph: line	Grafiek: lijn
+msg.phrase	Graph: bar	Grafiek: balk
+msg.phrase	Graph: mixed	Grafiek: gemengd
+msg.phrase	Graph: pie	Grafiek: taart
+msg.phrase	Exported %s	Geëxporteerd %s

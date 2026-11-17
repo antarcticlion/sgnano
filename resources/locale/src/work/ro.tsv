@@ -1,0 +1,373 @@
+# ro: machine translation (Google), unreviewed; 2026-11-17
+U001	Listă (fișiere și foldere în 2 coloane x 19 rânduri)
+U002	Mutați cursorul (stânga/dreapta: cealaltă coloană)
+U003	Pagina anterioară/pagina următoare
+U004	Marcați toate / inversați marcajele (ca în PC-98 FD)
+U005	Primul/ultimul
+U006	Marcați și mergeți mai departe/marcați numai
+U007	Shift+Săgeți
+U008	Selectați un interval (Spațiul marchează intervalul)
+U009	Introduceți un folder / deschideți un fișier (F2/X run)
+U010	Până la folderul părinte
+U011	Alegeți o unitate (USB, dischetă, CD, S: încorporat)
+U012	Copiere (Shift+C / Shift+F3 alege destinația din arbore)
+U013	Mişcare
+U014	Șterge (Shift+D / Shift+F4 șterge un folder)
+U015	Redenumiți
+U016	Schimbați atributele
+U017	Deschideți în editor
+U018	Vizualizați ca text (Shift+V / Ctrl+Alt+F7 hex)
+U019	Informații de conducere
+U020	Dosar nou / fișier nou
+U021	Shell sgsh / scoateți mediul
+U022	Reîncărcați
+U023	Salvați ecranul ca PNG
+U024	Închideți fereastra / ștergeți selecția (într-un subdosar: mergeți sus)
+U025	Operații cu fișiere (ca în FD: marcaje, apoi intervalul, apoi cursorul)
+U026	Copiere: alegeți destinația din arborele de unitate și foldere. ESC se oprește
+U027	Șterge: confirmați cu y. Marchează și intervale deodată. Foldere cu conținutul lor
+U028	Ștergeți un folder (cu conținutul său)
+U029	Redenumiți (editați numele, Enter)
+U030	Atribute: R numai pentru citire, H ascuns, S sistem, A arhivă
+U031	Dosar nou
+U032	Fișier nou (gol).
+U033	Vizualizați ca text (Shift+V / Ctrl+Alt+F7 hex)
+U034	Shell sgsh (ieșire / Ctrl-D înapoi la filer)
+U035	Identitatea unității (INQUIRY, IDENTIFY)
+U036	Scoateți mediul FDD / LS-120 / CD
+U037	Reîncărcați lista (CD: din TOC)
+U038	Primește de pe PC prin ZMODEM (zm.sh put)
+U039	Trimiteți la computer prin ZMODEM (zm.sh get)
+U040	Compilați .rb și scrieți .mrb
+U041	Ruby REPL (câte o linie, Ctrl-D / ESC până la final)
+U042	MicroPython REPL
+U043	Împărțit în părți de 4 MB / unire de la .001
+U044	Divizare/unire (la fel ca Ctrl+F11/F12)
+U045	Ecran (Alt+F, nu intră în conflict cu tastele FD F)
+U046	Afișează / ascunde FB (poza) / textul
+U047	Pagina de afișare FB (0-3)
+U048	Ștergeți FB la 0 / reduceți la jumătate luminozitatea (RGB555)
+U049	Punctele terminale USB și starea LAN
+U050	Ștergeți pagina de afișare FB / reduceți-i luminozitatea la jumătate
+U051	Exemple de atribute text
+U052	Monitorizați EDID (citit la pornire)
+U053	Licențe și credite pentru font ROM
+U054	Setări (limba de afișare, IME și localitatea tastaturii)
+U055	Ceas (ora Japoniei setată de NTP; s se sincronizează acum)
+U056	Deschideți foaia de calcul (SGCALC)
+U057	Verificați S: pentru erori (întreabă înainte de a repara)
+U058	Deschideți TRACKER
+U059	Reporniți (întreabă mai întâi)
+U060	Redați intrarea stereo ADC (GP40 / 41)
+U061	Exportați VGM/VGZ la un WAV de 96 kHz / 24 de biți
+U062	Acest ajutor
+U063	Schimbați pagina
+U064	Aproape
+U065	Vizualizator text/hexadecimal (ca mai puțin)
+U066	O singură linie
+U067	O pagină
+U068	O jumătate de pagină
+U069	Căutați (înainte / înapoi) / următorul / anterior
+U070	Înapoi la listă (F1: ajutorul spectatorului)
+U071	Vizualizator de imagini
+U072	Înapoi la listă (F2 F3 F6 F7 Shift+F2 F3 funcționează)
+U073	Editor (E / Shift+F8)
+U074	Salvare (UTF-8; capetele liniei și BOM păstrate)
+U075	Închidere (dacă a fost modificat: Y / N / ESC)
+U076	Inserați / suprascrieți
+U077	IME activat/dezactivat (japoneză/engleză/coreeană)
+U078	Limba IME (Japoneză / Engleză / Coreeană)
+U079	Comite ca hiragana / katakana
+U080	Ajutorul editorului
+U081	Coajă
+U082	Shell (un subset csh. ieșire / Ctrl-D pentru a reveni, ajutor listează comenzile)
+U083	Lista și mutarea
+U084	Operații cu fișiere
+U085	Ecran și dispozitive
+U086	Spectatorii și editorul
+U087	Ajutor %u / %u %s
+U088	Stânga Dreapta: schimbați pagina F1 / ESC: închideți
+U089	Reporniți sgnano?
+U090	[ Repornire ]
+U091	[ Anulează ]
+U092	Verificați unitatea S: pentru erori
+U093	Fișiere %lu foldere %lu
+U094	Dimensiunea nu se potrivește cu lanțul
+U095	Clustere folosite de nimic
+U096	Clustere încrucișate
+U097	Intrări sparte
+U098	Cele două copii FAT diferă
+U099	Fără erori.
+U100	S-au găsit erori. Reparați-le?
+U101	Reparat (numerele de mai sus au fost fixate).
+U102	Nu s-a putut verifica sau repara (S: este ocupat).
+U103	[ Reparație ]
+U104	[ Anulează ]
+U105	Orice cheie se închide
+U106	Setări
+U107	Limba de afișare
+U108	Localizarea tastaturii
+U109	Sus / Jos Introducere alege ESC Anulare
+U110	Limba de afișare
+U111	Sus / Jos Enter: set ESC: back
+U112	Fix %c: ca literă? (A-Z, cu excepția S. ESC anulează)
+U113	Litera de unitate / Introduceți selectați F2 remediați/anulați litera F3 remediați ca... L / ESC anulați
+U114	partiție %u
+U115	%c:* (fix, neconectat) %04X:%04X%s %s
+U116	Observa
+U117	Conducere %c: %s
+U118	Conduceți (nici unul)
+U119	CD audio %u piese
+U120	Foldere %u fișiere %u total %s
+U121	Lectură...
+U122	* marcat %u %s
+U123	%lu octeți
+U124	Attr %s modificat %s creat %s %s
+U125	Soare
+U126	Lun
+U127	mar
+U128	mier
+U129	joi
+U130	vineri
+U131	sat
+U132	Ceasul nu este setat (NTP prin LAN)
+U133	Afișare FB %u scrie %u
+U134	1 Ajutor
+U135	2 Aleargă
+U136	3 Copiați
+U137	4 Del
+U138	5 Redenumiți
+U139	7 FBclr
+U140	8 FBdim
+U141	9 Conduceți
+U142	10 EP-uri
+U143	11 Ceasul
+U144	12 CALC
+U145	1 Attr
+U146	2 Info
+U147	3 Mișcă-te
+U148	5 Mkdir
+U149	6 Cochilie
+U150	8 Editați
+U151	9 Vizualizare
+U152	10 S:chk
+U153	11 PISTA
+U154	12 Reporniți
+U155	1 Nou
+U156	2 Dosar
+U157	3 Redenumiți
+U158	4 Atrib
+U159	6 Copiați
+U160	7 Mișcă-te
+U161	8 Ștergeți
+U162	9 Editați
+U163	10 mrbc
+U164	11 Split
+U165	12 Alăturați-vă
+U166	1 Atr
+U167	2 FB
+U168	3 Text
+U169	5 ScrSht
+U170	6 DispPg
+U171	9 ZMrecv
+U172	10ZMsend
+U173	2 FBClr
+U174	3 FBDim
+U175	5 Reîncărcați
+U176	7 Hex
+U177	9 Lic
+U178	11 Configurare
+U179	Setați ceasul (ora Japoniei. NTP nu l-a putut seta)
+U180	Rulați cu parametri
+U181	Dosar nou
+U182	Fișier nou
+U183	Timp:
+U184	Run:
+U185	Nume:
+U186	AAAA-LL-ZZ hh:mm Introduceți set ESC keep
+U187	Introduceți rulare <-> mutare BS / Delete ștergere ESC anulare
+U188	Introduceți redenumirea <-> mutare BS / Ștergere ștergere ESC anulare
+U189	Introduceți creați <-> mutați BS / ștergeți ștergeți ESC anulați
+U190	Şterge
+U191	articole
+U192	Folderele sunt șterse cu conținutul lor. esti sigur?
+U193	Ștergeți acest fișier?
+U194	(Acest lucru nu poate fi anulat. Fișierele din foldere sunt și ele șterse)
+U195	[Da (Y)]
+U196	[ Nu (N) ]
+U197	vizualizator hex: alegeți un fișier
+U198	vizualizator de text: alegeți un fișier
+U199	Mutați la
+U200	Copiați în
+U201	Bufferul este plin
+U202	Unitatea este doar pentru citire
+U203	Nu se poate salva (fără scriitor)
+U204	Nu s-a putut începe salvarea (unitatea este ocupată?)
+U205	Economisire...
+U206	2 Salvați
+U207	5 Culoare
+U208	6 Hira
+U209	7 Kata
+U210	8 Pred
+U211	10 Renunță
+U212	1 Sus
+U213	2 Sfârșit
+U214	3 InsOvr
+U215	4 Dict
+U216	6 HHira
+U217	7 HKata
+U218	%s %s Ln %lu/%lu Col %u %s %s %s%s%s
+U219	*mod
+U220	OVR
+U221	INS
+U222	R/O
+U223	Editor (sgnano edit) F1 / ESC se închide
+U224	Săgeți / Acasă Sfârșit / PgUp PgDn mută cursorul
+U225	Ctrl-T / Ctrl-B sus / sfârșitul fișierului
+U226	BS / Delter șterge înainte / la cursor
+U227	Introduceți un rând nou (păstrează indentarea)
+U228	Tab / filă Ins / inserați sau suprascrieți
+U229	F5 Colorare (din extensie; C/C++, mruby, MicroPython, SG BASIC, niciunul)
+U230	Salvare F2 (Ctrl-S) (UTF-8, capetele liniei păstrate)
+U231	F10 / ESC închidere (întreabă dacă a fost schimbat)
+U232	IME: Ctrl-Space / F12 activat / dezactivat (あ / A)
+U233	F9 Limba IME (numai pentru acest editor; restaurat la închidere)
+U234	F8 Conversie predictivă japoneză activată/dezactivată
+U235	romaji japonez -> hiragana (F6) / katakana (F7)
+U236	Hiragana la jumătate de lățime (Shift+F6) / Katakana la jumătate de lățime (Shift+F7)
+U237	Preziceți cu 2 sau mai multe caractere, convertiți clauza continuă cu spațiu
+U238	Engleză Completare predictivă cu 2 sau mai multe caractere
+U239	한국어 2 Hangul în stil Bol
+U240	Space / Enter Convert / Confirm
+U241	← → Selectați o frază
+U242	Shift+← → Micșorați/creșteți capătul din dreapta al clauzei cu un caracter (candidați noi)
+U243	↑ ↓ / Tab Candidatul anterior / următor în fereastra pop-up (sub text, deasupra în partea de jos)
+U244	Introduceți pe →→→ Toți candidații (2 x 8, ← → coloană și pagină, Enter alege)
+U245	Introduceți următoarea clauză (confirmă întregul la ultima clauză)
+U246	Ctrl-U Adăugați cuvântul curent în dicționarul utilizatorului
+U247	Shift+F1 / F2 / F3 / F4 Sus / sfârșit / inserare-suprascrie / în dicționarul utilizatorului
+U248	BS / ESC Înapoi un caracter / Anulare
+U249	, . - [ ] / 、 。 ー 「 」 ・
+U250	Modificat Y: salvare și închidere N: închidere fără salvare ESC: înapoi
+U251	[Predicție] Tab/↑↓: candidat Spațiu: convertesc Esc: anulați
+U252	[Candidați] ↑↓: selectați ←→: coloana/pagina Enter: alegeți
+U253	[Convertire] ↑↓cand ←→clauza Shift+←→legat Introduceți următorul
+U254	[한국어] Tab/↑↓: candidat Introducere/Spațiu: confirmare
+U255	[Engleză] Tab/↑↓: candidat Introduceți: confirmați
+U256	Intrare Hangul cu 2 seturi Ctrl-Space: alfanumeric
+U257	Finalizare predictivă Ctrl-Space: introducere directă
+U258	Fără dicționar: hiragana/katakana doar F6/F7
+U259	Spațiu: converti F7: katakana Ctrl-Spațiu: alfanumeric
+U260	Spațiu: converti F6: hiragana Ctrl-Spațiu: alfanumeric
+U261	Jumătate de lățime F6: hiragana F7: katakana Shift+F6/F7: jumătate
+U262	IME oprit
+U263	prezice
+U264	Traducere predictivă japoneză: On
+U265	Traducere predictivă pentru japoneză: Off
+U266	Utilizați cu IME japonez
+U267	Nu se poate adăuga la dicționarul utilizatorului
+U268	Colorare: %s
+U269	Încărcare...
+U270	Nu s-a putut citi fișierul
+U271	%lu linii%s%s
+U272	a deschis Shift_JIS ca UTF-8 (salvat ca UTF-8)
+U273	numai pentru citire
+U274	Salvat
+U275	Nu s-a putut salva (scrierea eșuată)
+U276	Candidații
+U277	7 WrtPg
+U278	9 Text
+U279	9 Hex
+U280	Se încarcă %lu%%
+U281	(doar începutul)
+U282	Hex q ESC: înapoi F1: ajutor
+U283	Text q ESC: înapoi F1: ajutor
+U284	Tastele de vizualizare (ca mai puțin; la fel pentru text și hexadecimal)
+U285	O linie mai jos
+U286	O singură linie
+U287	O pagină mai jos
+U288	O pagină în sus
+U289	O jumătate de pagină în jos/în sus
+U290	/text ?text
+U291	Căutați în jos/în sus (ignoră majuscule/minuscule)
+U292	Meciul următor/anterior
+U293	Afișați ca hex (în același loc)
+U294	Afișați ca text (în același loc)
+U295	Schimbați colorarea (C/C++, mruby, MicroPython, SG BASIC, niciunul)
+U296	Afișează / ascunde FB / textul
+U297	Pagina de afișare FB / pagină de scriere
+U298	Înapoi la filer
+U299	Închideți acest ajutor
+U300	Copie
+U301	%s: citind folderele... %u
+U302	%s: numărarea spațiului liber la destinație...
+U303	%s: spațiu liber suficient la destinație
+U304	Mutare: eliminarea folderelor sursă
+U305	Făcut
+U306	oprit
+U307	%s în curs%s
+U308	(oprire)
+U309	De la: %s
+U310	Către: %s
+U311	Fișiere %u / %u foldere %u %s / %s (%u%%)%s
+U312	prea multe: doar unele
+U313	Necesită %s, gratuit %s. Continua?
+U314	Y: continua N / ESC: anulează
+U315	Apăsați orice tastă pentru a închide
+U316	ESC: opriți
+U317	%s: ←→ unitate ↑↓ folder Spațiu deschidere/închidere Introducere alege ESC anulare
+U318	Nu se poate citi: %s
+U319	Citirea folderelor... (ESC se oprește) %u
+U320	%u foldere%s
+U321	(prea multe sau prea adânc: doar unele)
+U322	Am oprit deschiderea folderului
+U323	Spațiul îl deschide din nou. ESC se anulează încă o dată
+U324	Player SMF / SGT %s
+U325	Se încarcă... %lu / %lu octeți
+U326	%s / %s %s porturi %u
+U327	Întrerupt
+U328	Joc
+U329	Spațiu: pauză m: MIDI OUT q / ESC: oprire
+U330	q / ESC: anulare
+U331	Licențe și credite pentru font ROM\n\nROM: %s (versiunea %lu.%lu, %lu caractere, de la 0x%08lX în flash)
+U332	== Fonturi în ROM (tabelul de origine al ROM) ==
+U333	(ROM-ul nu are tabel)
+U334	== Zona de credite a ROM ==
+U335	(nu există o astfel de zonă)
+U336	== Licențe ale software-ului încorporat ==
+U337	Se salvează %s ca PNG %s
+U338	Ecran
+U339	Construire... %lu / %lu rânduri
+U340	Se scrie... %lu / %lu KB (FB-ul este ascuns)
+U341	Nu am putut scrie
+U342	Numele arhivei (elementele marcate sau elementul cursorului dacă nu există)
+U343	Introduceți comprimare ←→ mutare BS / Delete ștergere ESC anulare
+U344	Export WAV: %s anulat (%s)
+U345	Exportul WAV: %s a eșuat (%s)
+U346	Export WAV: %s total %s
+U347	Export WAV (96 kHz / 24 biți): %s
+U348	Anulat
+U349	A eșuat
+U350	Total %s
+U351	Anulat (%s; fișierul parțial a fost șters)
+U352	Nu s-a putut exporta (%s). Motiv:
+U353	(motiv necunoscut)
+U354	%u%% a trecut %s%s
+U355	ESC: oprire (fișierul parțial este șters)
+U356	Arhiva: %s
+U357	Se citește... (ESC pentru a anula)
+U358	%u articole%s totalul de %s octeți extrage la: %s
+U359	Introduceți extrageți elementul X extrageți tot ↑↓ mutați ESC închideți
+U360	Comprima
+U361	Listă
+U362	Extrage
+U363	Total %s %u articole
+U364	Total %s %u fișiere
+U365	Anulat (%s; fișierul neterminat a fost șters)
+U366	Nu am putut (%s): %s
+U367	%u%% au trecut %s %s octeți%s
+U368	au trecut %s %s octeți%s
+U369	ESC: oprire (fișierul neterminat este șters)
+U370	Arhivă: %s a eșuat (%s)
+U371	Comprimat: %s (%u articole)
+U372	Extras: %s (%u fișiere)

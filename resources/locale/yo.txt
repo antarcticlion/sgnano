@@ -1,0 +1,1041 @@
+# sgnano filer strings: Yorùbá (2026-11-16). ui <TAB> Japanese <TAB> translation / msg.* <TAB> English <TAB> translation
+# status: unreviewed (machine translation, not checked by a native speaker; 2026-11-16). 未検証: ネイティブの確認をしていない仮の訳
+@lang yo
+@name Yorùbá
+ui	一覧（ファイルとフォルダを 2 列 x 19 行に並べる）	Àkójọ (fáìlì àti fódà ní ọwọn 2 x ìlà 19)
+ui	カーソルを動かす（左右は隣の列へ）	Gbé kọsọ (òsì / ọtún: ọwọn kejì)
+ui	前のページ / 次のページ	Ojú-ìwé tó ṣáájú / ojú-ìwé tó kàn
+ui	全部に印 / 印を反転（PC-98 FD と同じ）	Sàmì sí gbogbo / yí àmì padà (bíi PC-98 FD)
+ui	先頭 / 最後	Àkọkọ / ìkẹyìn
+ui	印を付けて次へ / 印だけ付ける	Sàmì kí o tẹsíwájú / sàmì nìkan
+ui	Shift+矢印	Shift+ọfà
+ui	範囲を選ぶ（Space でその範囲に印）	Yan agbègbè (Space ń sàmì sí agbègbè)
+ui	フォルダに入る・ファイルを開く（F2/X は実行）	Wọ fódà / ṣí fáìlì (F2/X ṣiṣẹ)
+ui	上のフォルダへ	Gòkè sí fódà òbí
+ui	ドライブを選ぶ（USB・フロッピー・CD・S: 内蔵）	Yan dráìfù (USB, flọpì, CD, S: inú)
+ui	コピー（Shift+C / Shift+F3 は行き先を木から）	Ṣẹdà (Shift+C / Shift+F3 yan ibi tí yóò lọ láti inú igi)
+ui	移動	Gbé lọ
+ui	削除（Shift+D / Shift+F4 はフォルダ削除）	Pa rẹ (Shift+D / Shift+F4 pa fódà rẹ)
+ui	名前を変える	Yí orúkọ padà
+ui	属性を変える	Yí àbùdá padà
+ui	エディタで開く	Ṣí nínú olóòtú
+ui	テキスト表示（Shift+V / Ctrl+Alt+F7 は 16 進）	Wò bí ọrọ (Shift+V / Ctrl+Alt+F7 hex)
+ui	ドライブの情報	Ìsọfúnni dráìfù
+ui	フォルダを作る / 新しいファイル	Fódà tuntun / fáìlì tuntun
+ui	シェル sgsh / 媒体を取り出す	Shell sgsh / yọ díìsì jáde
+ui	読み直す	Tún kà
+ui	見えている画面を PNG で保存	Fi ojú-iboju pamọ bí PNG
+ui	窓を閉じる・選択を解く（サブフォルダでは上位へ）	Pa fèrèsé / yọ àṣàyàn (nínú fódà kékeré: gòkè)
+ui	ファイルの操作（FD と同じ。印・範囲・カーソルの順に選ぶ）	Iṣẹ fáìlì (bíi FD: àmì, lẹyìn náà agbègbè, lẹyìn náà kọsọ)
+ui	コピー: 行き先はドライブとフォルダの木から。ESC で止める	Ṣẹdà: yan ibi tí yóò lọ láti inú igi dráìfù àti fódà. ESC ń dádúró
+ui	削除: y で確かめる。印・範囲をまとめて。フォルダは中身ごと	Pa rẹ: fìdí rẹ múlẹ pẹlú y. Àmì àti agbègbè papọ. Fódà pẹlú ohun inú rẹ
+ui	フォルダを削除（中身ごと）	Pa fódà rẹ (pẹlú ohun inú rẹ)
+ui	名前を変える（今の名前を直して Enter）	Yí orúkọ padà (ṣàtúnṣe orúkọ, Enter)
+ui	属性: R 読み出し専用・H 隠し・S システム・A アーカイブ	Àbùdá: R kíkà nìkan, H fífarapamọ, S ètò, A ibi ìpamọ
+ui	フォルダを作る	Fódà tuntun
+ui	新しいファイル（空）を作る	Fáìlì tuntun (òfo)
+ui	テキストで表示（Shift+V / Ctrl+Alt+F7 は 16 進）	Wò bí ọrọ (Shift+V / Ctrl+Alt+F7 hex)
+ui	シェル sgsh（exit / Ctrl-D でファイラーへ）	Shell sgsh (exit / Ctrl-D padà sí olùṣàkóso fáìlì)
+ui	選んでいるドライブの素性（INQUIRY・IDENTIFY）	Ìdánimọ dráìfù (INQUIRY, IDENTIFY)
+ui	FDD・LS-120・CD の媒体を取り出す	Yọ díìsì FDD / LS-120 / CD jáde
+ui	一覧を読み直す（CD は TOC から）	Tún àkójọ kà (CD: láti TOC)
+ui	ZMODEM で PC から受け取る（zm.sh put）	Gbà láti PC pẹlú ZMODEM (zm.sh put)
+ui	ZMODEM で PC へ送る（zm.sh get）	Fi ránṣẹ sí PC pẹlú ZMODEM (zm.sh get)
+ui	.rb をコンパイルして .mrb を書き出す	Ṣàkójọ .rb kí o kọ .mrb
+ui	Ruby の REPL（1 行ずつ、Ctrl-D / ESC で終わり）	REPL Ruby (ìlà kan ní àkókò kan, Ctrl-D / ESC láti parí)
+ui	MicroPython の REPL	REPL MicroPython
+ui	4MB ずつ分割 / .001 から結合	Pín sí apá MB 4 / so pọ láti .001
+ui	分割 / 結合（Ctrl+F11 / F12 と同じ）	Pín / so pọ (bákan náà pẹlú Ctrl+F11 / F12)
+ui	画面（Alt+F。FD の F キーとぶつからない）	Ojú-iboju (Alt+F, kò kọlu bọtìnì F ti FD)
+ui	FB（絵）/ テキスト面を出す・隠す	Fihàn / fi pamọ FB (àwòrán) / ọrọ
+ui	FB の表示ページ（0〜3）	Ojú-ìwé ìfihàn FB (0-3)
+ui	FB を 0 で消す / 明るさを 1/2 に（RGB555）	Pa FB sí 0 / dín ìmọlẹ kù ní ìdajì (RGB555)
+ui	USB のエンドポイントと LAN の状態	Ojú ìpẹkun USB àti ipò LAN
+ui	FB の表示ページを消す / 明るさを 1/2 に	Pa ojú-ìwé ìfihàn FB / dín ìmọlẹ kù ní ìdajì
+ui	テキストの属性の見本	Àpẹẹrẹ àbùdá ọrọ
+ui	モニタの EDID（起動時に読んだもの）	EDID atẹle (tí a kà nígbà ìbẹrẹ)
+ui	フォント ROM のライセンスとクレジット	Ìwé àṣẹ àti ìdúpẹ ROM fọǹtì
+ui	設定（表示の言語・IME・キーボードロケール）	Ètò (èdè ìfihàn, IME àti ìṣètò bọtìnì)
+ui	時計（NTP で合わせた日本時間。s ですぐ合わせる）	Aago (àkókò Japan nípasẹ NTP; s ń bá a mu báyìí)
+ui	表計算（SGCALC）を開く	Ṣí ìwé ìṣirò (SGCALC)
+ui	S: ドライブのエラー検査（誤りがあれば直すか聞く）	Ṣàyẹwò àṣìṣe S: (ń béèrè kí ó tó tún un ṣe)
+ui	トラッカー（TRACKER）を開く	Ṣí TRACKER
+ui	再起動（確かめの窓が出る）	Tún bẹrẹ (ń béèrè ṣáájú)
+ui	ADC のステレオ入力（GP40 / 41）を鳴らす	Ṣe ìgbéwọlé stẹríò ADC (GP40 / 41)
+ui	VGM/VGZ を 96kHz/24bit WAV に書き出す	Kó VGM/VGZ jáde sí WAV kHz 96 / bit 24
+ui	このヘルプ	Ìrànlọwọ yìí
+ui	ページを替える	Yí ojú-ìwé padà
+ui	閉じる	Pa
+ui	テキスト・16 進のビュアー（less 風）	Olùwò ọrọ / hex (bíi less)
+ui	1 行	Ìlà kan
+ui	1 ページ	Ojú-ìwé kan
+ui	半ページ	Ìdajì ojú-ìwé
+ui	探す（前へ・後ろへ）/ 次・前	Wá (síwájú / sẹyìn) / tó kàn / tó ṣáájú
+ui	一覧へ戻る（F1 はビュアーのヘルプ）	Padà sí àkójọ (F1: ìrànlọwọ olùwò)
+ui	画像のビュアー	Olùwò àwòrán
+ui	一覧へ戻る（F2 F3 F6 F7 Shift+F2 F3 は効く）	Padà sí àkójọ (F2 F3 F6 F7 Shift+F2 F3 ń ṣiṣẹ)
+ui	エディタ（E / Shift+F8）	Olóòtú (E / Shift+F8)
+ui	保存する（UTF-8。改行と BOM は元のまま）	Fi pamọ (UTF-8; òpin ìlà àti BOM wà bẹẹ)
+ui	閉じる（変わっていれば Y / N / ESC）	Pa (tí a bá ti yí i padà: Y / N / ESC)
+ui	挿入 / 上書き	Fi sí / kọ lé e lórí
+ui	IME（日本語・英語・ハングル）の入・切	Tan/pa IME (Japanese / Gẹẹsì / Korean)
+ui	IME の言語（日本語 / English / 한국어）	Èdè IME (Japanese / Gẹẹsì / Korean)
+ui	ひらがな / カタカナで確定	Fìdí múlẹ bí hiragana / katakana
+ui	エディタのヘルプ	Ìrànlọwọ olóòtú
+ui	シェル	Shell
+ui	シェル（csh のサブセット。exit / Ctrl-D で戻る、help で一覧）	Shell (apá kan csh. exit / Ctrl-D láti padà, help ń ṣe àkójọ àṣẹ)
+ui	一覧と移動	Àkójọ àti ìrìn
+ui	ファイルの操作	Iṣẹ fáìlì
+ui	画面と機器	Ojú-iboju àti ẹrọ
+ui	ビュアーとエディタ	Olùwò àti olóòtú
+ui	ヘルプ  %u / %u  %s	Ìrànlọwọ  %u / %u  %s
+ui	Left Right: ページを替える    F1 / ESC: 閉じる	Òsì Ọtún: yí ojú-ìwé padà    F1 / ESC: pa
+ui	sgnano を再起動しますか？	Tún sgnano bẹrẹ?
+ui	[ 再起動 ]	[ Tún bẹrẹ ]
+ui	[ キャンセル ]	[ Fagilé ]
+ui	S: ドライブのエラー検査	Ṣàyẹwò àṣìṣe dráìfù S:
+ui	ファイル %lu  フォルダ %lu	Fáìlì %lu  fódà %lu
+ui	大きさが鎖と合わない	Ìwọn kò bá ẹwọn mu
+ui	どこからも使われていないクラスタ	Kílọsítà tí ohunkóhun kò lò
+ui	重なったクラスタ	Kílọsítà tí a so pọ lọnà àgbélébùú
+ui	壊れた項目	Àkọsílẹ tó bàjẹ
+ui	FAT の 2 つの写しの食い違い	Ẹdà FAT méjèèjì yàtọ
+ui	エラーはありません。	Kò sí àṣìṣe.
+ui	エラーが見つかりました。修復しますか？	A rí àṣìṣe. Ṣé kí a tún wọn ṣe?
+ui	修復しました（上は直した数）。	A ti tún un ṣe (a ti ṣàtúnṣe àwọn nọmbà lókè).
+ui	検査・修復できませんでした（S: が使用中）。	Kò lè ṣàyẹwò tàbí tún un ṣe (S: ń ṣiṣẹ).
+ui	[ 修復する ]	[ Tún ṣe ]
+ui	[ やめる ]	[ Fagilé ]
+ui	何かキーで閉じる	Bọtìnì èyíkéyìí ń pa á
+ui	設定	Ètò
+ui	表示の言語	Èdè ìfihàn
+ui	キーボードロケール	Ìṣètò bọtìnì
+ui	Up / Down  Enter 決める  ESC やめる	Òkè / Ìsàlẹ  Enter yan  ESC fagilé
+ui	表示の言語 (Language)	Èdè ìfihàn
+ui	Up / Down  Enter 決める  ESC 戻る	Òkè / Ìsàlẹ  Enter: ṣètò  ESC: padà
+ui	%c: をどの文字に固定しますか（A〜Z、S を除く。ESC でやめる）	Fi %c: múlẹ bí lẹtà wo? (A-Z àyàfi S. ESC fagilé)
+ui	ドライブ  文字 / Enter 選ぶ  F2 文字を固定・解除  F3 文字を決めて固定  L / ESC やめる	Dráìfù  lẹtà / Enter yan  F2 fi múlẹ/tú  F3 fi múlẹ bí...  L / ESC fagilé
+ui	  区画 %u	  ìpín %u
+ui	%c:* （固定・つながっていません）%04X:%04X%s  %s	%c:* (a fi múlẹ, kò so pọ) %04X:%04X%s  %s
+ui	お知らせ	Àkíyèsí
+ui	ドライブ %c:  %s	Dráìfù %c:  %s
+ui	ドライブ  (なし)	Dráìfù  (kò sí)
+ui	音楽 CD  %u トラック	CD ohùn  orin %u
+ui	フォルダ %u  ファイル %u  合計 %s	Fódà %u  fáìlì %u  àpapọ %s
+ui	読んでいます...	Ó ń kà...
+ui	* 印 %u 個  %s	* tí a sàmì sí %u  %s
+ui	%lu バイト	báìtì %lu
+ui	属性 %s   更新日時 %s   作成日時 %s   %s	Àbùdá %s   àyípadà %s   ìṣẹdá %s   %s
+ui	日	Àìk
+ui	月	Ajé
+ui	火	Ìsẹ
+ui	水	Ọjọr
+ui	木	Ọjọb
+ui	金	Ẹtì
+ui	土	Àbá
+ui	時計は合わせていません（LAN の NTP）	A kò tíì ṣètò aago (NTP lórí LAN)
+ui	FB  表示 %u  書込 %u	FB  ìfihàn %u  kíkọ %u
+ui	1 ヘルプ	1 Ìrànl
+ui	2 実行	2 Ṣiṣẹ
+ui	3 ｺﾋﾟｰ	3 Ṣẹdà
+ui	4 削除	4 Parẹ
+ui	5 名前	5 Orúkọ
+ui	7 FB消去	7 PaFB
+ui	8 FB減光	8 DínFB
+ui	9 ﾄﾞﾗｲﾌﾞ	9 Dráìfù
+ui	10 EP表	10 EP
+ui	11 時計	11 Aago
+ui	12 表計	12 CALC
+ui	1 属性	1 Àbùdá
+ui	2 情報	2 Ìsọ
+ui	3 移動	3 Gbé
+ui	5 作成	5 Fódà
+ui	6 シェル	6 Shell
+ui	8 編集	8 Àtúnṣe
+ui	9 表示	9 Wò
+ui	10S:検査	10 S:yẹ
+ui	11 ﾄﾗｯｸ	11 TRACK
+ui	12再起動	12 Túnbẹ
+ui	1 新規	1 Tuntun
+ui	2 ﾌｫﾙﾀﾞ	2 Fódà
+ui	3 名前	3 Orúkọ
+ui	4 属性	4 Àbùdá
+ui	6 ｺﾋﾟｰ	6 Ṣẹdà
+ui	7 移動	7 Gbé
+ui	8 削除	8 Parẹ
+ui	9 編集	9 Àtúnṣe
+ui	10ｺﾝﾊﾟｲﾙ	10 mrbc
+ui	11 分割	11 Pín
+ui	12 結合	12 Sopọ
+ui	1 属性例	1 Àbùdá
+ui	2 FB切替	2 FB
+ui	3 文字面	3 Ọrọ
+ui	5 画面写	5 Àwòrán
+ui	6 表示頁	6 Ojúìwé
+ui	9 ZM受信	9 ZMgbà
+ui	10ZM送信	10 ZMfi
+ui	2 FB消去	2 PaFB
+ui	3 FB減光	3 DínFB
+ui	5 再読込	5 Túnkà
+ui	7 16進	7 Hex
+ui	9 ﾗｲｾﾝｽ	9 Àṣẹ
+ui	8 設定	8 Ètò
+ui	時刻を合わせる（日本時間。NTP で合わせられませんでした）	Ṣètò aago (àkókò Japan. NTP kò lè ṣètò rẹ)
+ui	起動のパラメタ	Ṣiṣẹ pẹlú àwọn àfikún
+ui	新しいフォルダ	Fódà tuntun
+ui	新しいファイル	Fáìlì tuntun
+ui	時刻:	Àkókò:
+ui	実行:	Ṣiṣẹ:
+ui	名前:	Orúkọ:
+ui	年-月-日 時:分  Enter 合わせる  ESC そのまま	YYYY-MM-DD hh:mm  Enter ṣètò  ESC fi sílẹ
+ui	Enter 走らせる  ←→ 動かす  BS / Del 消す  ESC やめる	Enter ṣiṣẹ  <-> gbé  BS / Del pa rẹ  ESC fagilé
+ui	Enter 変える  ←→ 動かす  BS / Del 消す  ESC やめる	Enter yí orúkọ  <-> gbé  BS / Del pa rẹ  ESC fagilé
+ui	Enter 作る  ←→ 動かす  BS / Del 消す  ESC やめる	Enter ṣẹdá  <-> gbé  BS / Del pa rẹ  ESC fagilé
+ui	消す	Pa rẹ
+ui	個の項目	 nǹkan
+ui	フォルダは中身ごと消します。よろしいですか？	A ó pa fódà rẹ pẹlú ohun inú rẹ. Ṣé o dájú?
+ui	このファイルを消しますか？	Pa fáìlì yìí rẹ?
+ui	（元に戻せません。フォルダの中のファイルも消えます）	(A kò lè dá èyí padà. Fáìlì inú fódà náà yóò parẹ pẹlú)
+ui	[ はい (Y) ]	[ Bẹẹni (Y) ]
+ui	[ いいえ (N) ]	[ Rárá (N) ]
+ui	バイナリビュアー: ファイルを選んでください	olùwò hex: yan fáìlì
+ui	テキストビュアー: ファイルを選んでください	olùwò ọrọ: yan fáìlì
+ui	移動先	Gbé lọ sí
+ui	コピー先	Ṣẹdà sí
+ui	バッファがいっぱいです (buffer full)	Ibi ìpamọ fún ìgbà díẹ ti kún
+ui	読み出し専用のドライブです (read-only)	Dráìfù jẹ ti kíkà nìkan
+ui	保存できません (no writer)	Kò lè fi pamọ (kò sí akọwé)
+ui	保存を始められません (the drive is busy?)	Kò lè bẹrẹ ìpamọ (dráìfù ń ṣiṣẹ?)
+ui	保存しています... (saving)	Ó ń fi pamọ...
+ui	2 保存	2 Fipamọ
+ui	5 色分け	5 Àwọ
+ui	6 ﾞ	6 Hira
+ui	7 ｶﾀｶﾅ	7 Kata
+ui	8 予測	8 Àsọt
+ui	10 終了	10 Jáde
+ui	1 先頭	1 Òkè
+ui	2 最後	2 Òpin
+ui	3 挿/上	3 Fisí
+ui	4 辞書	4 Ìwé
+ui	6 半	6 HHira
+ui	7 半ｶﾅ	7 HKata
+ui	 %s  %s  行 %lu/%lu 桁 %u  %s  %s %s%s%s	 %s  %s  Ìlà %lu/%lu Ọwọn %u  %s  %s %s%s%s
+ui	*変更	*àyípadà
+ui	上書	KỌLÉ
+ui	挿入	FISÍ
+ui	  読出専用	  Kíkà nìkan
+ui	 エディタ (sgnano edit)                      F1 / ESC で閉じる	 Olóòtú (sgnano edit)                        F1 / ESC ń pa á
+ui	 矢印 / Home End / PgUp PgDn   カーソルを動かす	 Ọfà / Home End / PgUp PgDn  gbé kọsọ
+ui	 Ctrl-T / Ctrl-B               ファイルの先頭 / 最後	 Ctrl-T / Ctrl-B               ìbẹrẹ / òpin fáìlì
+ui	 BS / Del                      前の字 / カーソルの字を消す	 BS / Del                      pa ṣáájú / níbi kọsọ
+ui	 Enter                         改行（前の行の字下げを引き継ぐ）	 Enter                         ìlà tuntun (ń pa ìfààsẹyìn mọ)
+ui	 Tab / Ins                     タブ / 挿入と上書きの切り替え	 Tab / Ins                     tab / fi sí tàbí kọ lé e lórí
+ui	 F5                            色分け（拡張子から。C/C++・mruby・MicroPython・SG BASIC・なし）	 F5                            Àwọ (láti ìfàgùn; C/C++, mruby, MicroPython, SG BASIC, kò sí)
+ui	 F2  (Ctrl-S)                  保存（UTF-8、改行は元の形）	 F2  (Ctrl-S)                  fi pamọ (UTF-8, òpin ìlà wà bẹẹ)
+ui	 F10 / ESC                     閉じる（変更があれば聞く）	 F10 / ESC                     pa (ń béèrè tí a bá yí i padà)
+ui	 IME:  Ctrl-Space / F12        オン・オフ（あ / A）	 IME:  Ctrl-Space / F12        tan / pa (あ / A)
+ui	       F9                      IME の言語（このエディタの間だけ。閉じると戻る）	       F9                      èdè IME (olóòtú yìí nìkan; a dá a padà nígbà tí a bá pa á)
+ui	       F8                      日本語の予測変換 オン・オフ	       F8 Tan/pa ìyípadà àsọtẹlẹ Japanese
+ui	       日本語                  ローマ字 -> ひらがな（F6）・カタカナ（F7）	       Japanese                romaji -> hiragana (F6) / katakana (F7)
+ui	                               半角ひらがな（Shift+F6）・半角カタカナ（Shift+F7）	                               Hiragana ìdajì fífẹ (Shift+F6) / katakana ìdajì fífẹ (Shift+F7)
+ui	                               2 字以上で予測、Space で連文節変換	                               Àsọtẹlẹ láti lẹtà 2 lọ, yí gbólóhùn tó tẹlé ara wọn padà pẹlú Space
+ui	       English                 2 字以上で予測補完	       Gẹẹsì: ìparí àsọtẹlẹ láti lẹtà 2 lọ
+ui	       한국어                  2 ボル式ハングル	       한국어 Hangul oníṣètò 2
+ui	       Space / Enter           変換 / 確定	       Space / Enter Yí padà / Fìdí múlẹ
+ui	       ← →                    文節を選ぶ	       ← → Yan gbólóhùn
+ui	       Shift+← →               文節の右端を 1 字 縮/拡（候補を出し直す）	       Shift+← → Dín/fẹ òpin ọtún gbólóhùn kù ní lẹtà kan (àṣàyàn tuntun)
+ui	       ↑ ↓ / Tab               候補の窓で前 / 次の候補（窓は変換の下、画面の下では上）	       ↑ ↓ / Tab               Àṣàyàn tó ṣáájú / tó kàn nínú fèrèsé (lábẹ ọrọ, lókè tí ó bá súnmọ ìsàlẹ)
+ui	       →→→ で Enter            すべての候補（2 列 x 8 個、← → で列とページ、Enter で決める）	       Enter lórí →→→          Gbogbo àṣàyàn (2 x 8, ← → ọwọn àti ojú-ìwé, Enter yan)
+ui	       Enter                   次の文節へ（最後の文節で全体を確定）	       Enter                   Gbólóhùn tó kàn (ní ìkẹyìn, fìdí gbogbo rẹ múlẹ)
+ui	       Ctrl-U                  いまの語をユーザー辞書へ	       Ctrl-U Fi ọrọ yìí kún ìwé atúmọ olùmúlò
+ui	 Shift+F1 / F2 / F3 / F4       先頭 / 最後 / 挿入と上書き / ユーザー辞書へ	 Shift+F1 / F2 / F3 / F4       Ìbẹrẹ / òpin / fi sí-kọ lórí / sí ìwé atúmọ olùmúlò
+ui	       BS / ESC                1 字戻す / 取り消し	       BS / ESC Padà ní lẹtà kan / Fagilé
+ui	       , . - [ ] /             、 。 ー 「 」 ・	       , . - [ ] /             、 。 ー 「 」 ・
+ui	変更あり  Y: 保存して閉じる  N: 保存せず閉じる  ESC: 戻る	A ti yí i padà  Y: fi pamọ kí o pa á  N: pa láìfi pamọ  ESC: padà
+ui	[予測] Tab/↑↓: 候補  Space: 変換  Esc: 取消	[Àsọtẹlẹ] Tab/↑↓: àṣàyàn  Space: yí padà  Esc: fagilé
+ui	[候補] ↑↓: 選ぶ  ←→: 列・ページ  Enter: 決める	[Àṣàyàn] ↑↓: yan  ←→: ọwọn/ojú-ìwé  Enter: mú
+ui	[変換] ↑↓候補 ←→文節 Shift+←→区切り Enter次へ	[Yípadà] ↑↓àṣàyàn ←→gbólóhùn Shift+←→ààlà Enter tókàn
+ui	[한국어] Tab/↑↓: 候補  Enter/Space: 確定	[한국어] Tab/↑↓: àṣàyàn  Enter/Space: fìdí múlẹ
+ui	[English] Tab/↑↓: 候補  Enter: 確定	[English] Tab/↑↓: àṣàyàn  Enter: fìdí múlẹ
+ui	2ボル式ハングル入力  Ctrl-Space: 英数	Ìtẹwọlé Hangul oníṣètò 2  Ctrl-Space: lẹtà àti nọmbà
+ui	予測補完  Ctrl-Space: 直接入力	Ìparí àsọtẹlẹ  Ctrl-Space: ìtẹwọlé tààrà
+ui	辞書なし: ひらがな/カタカナ入力のみ  F6/F7	Kò sí ìwé atúmọ: hiragana/katakana nìkan  F6/F7
+ui	Space: 変換  F7: カタカナ  Ctrl-Space: 英数	Space: yí padà  F7: katakana  Ctrl-Space: lẹtà àti nọmbà
+ui	Space: 変換  F6: ひらがな  Ctrl-Space: 英数	Space: yí padà  F6: hiragana  Ctrl-Space: lẹtà àti nọmbà
+ui	半角  F6: ひらがな  F7: カタカナ  Shift+F6/F7: 半角	Ìdajì fífẹ  F6: hiragana  F7: katakana  Shift+F6/F7: ìdajì
+ui	IME オフ	IME ti pa
+ui	 予測	 àsọtẹlẹ
+ui	日本語の予測変換: オン	Ìyípadà àsọtẹlẹ Japanese: Tàn
+ui	日本語の予測変換: オフ	Ìyípadà àsọtẹlẹ Japanese: Pa
+ui	日本語IMEで使います	Lò ó pẹlú IME Japanese
+ui	ユーザー辞書に追加できません	Kò lè fi kún ìwé atúmọ olùmúlò
+ui	色分け: %s	Àwọ: %s
+ui	読み込んでいます... (loading)	Ó ń gbé wọlé...
+ui	読み込めませんでした (could not read)	Kò lè ka fáìlì náà
+ui	%lu 行%s%s	ìlà %lu%s%s
+ui	  Shift_JIS を UTF-8 で開きました（保存は UTF-8）	  a ṣí Shift_JIS bí UTF-8 (a ń fi pamọ bí UTF-8)
+ui	  読み出し専用	  kíkà nìkan
+ui	保存しました (saved)	A ti fi pamọ
+ui	保存できませんでした (write failed)	Kò lè fi pamọ (kíkọ kùnà)
+ui	候補	Àṣàyàn
+ui	7 書込頁	7 OjúK
+ui	9 ﾃｷｽﾄ	9 Ọrọ
+ui	9 ﾊﾞｲﾅﾘ	9 Hex
+ui	読み込み中 %lu%%  	Ó ń gbé wọlé %lu%%
+ui	（先頭だけ）  	(ìbẹrẹ nìkan)
+ui	16 進  q ESC: 戻る  F1: ヘルプ	Hex  q ESC: padà  F1: ìrànlọwọ
+ui	テキスト  q ESC: 戻る  F1: ヘルプ	Ọrọ  q ESC: padà  F1: ìrànlọwọ
+ui	ビュアーのキー（less 風。テキストと 16 進で共通）	Bọtìnì olùwò (bíi less; bákan náà fún ọrọ àti hex)
+ui	1 行進む	Ìlà kan sísàlẹ
+ui	1 行戻る	Ìlà kan sókè
+ui	1 ページ進む	Ojú-ìwé kan sísàlẹ
+ui	1 ページ戻る	Ojú-ìwé kan sókè
+ui	半ページ進む / 戻る	Ìdajì ojú-ìwé sísàlẹ / sókè
+ui	/文字列  ?文字列	/ọrọ  ?ọrọ
+ui	下へ探す / 上へ探す（大文字小文字は区別しない）	Wá sísàlẹ / sókè (kò ka lẹtà ńlá sí)
+ui	次 / 前を探す	Ìbámu tó kàn / tó ṣáájú
+ui	16 進で表示する（いま見ている所のまま）	Fihàn bí hex (ní ibì kan náà)
+ui	テキストで表示する（いま見ている所のまま）	Fihàn bí ọrọ (ní ibì kan náà)
+ui	色分けを替える（C/C++・mruby・MicroPython・SG BASIC・なし）	Yí àwọ padà (C/C++, mruby, MicroPython, SG BASIC, kò sí)
+ui	FB / テキスト面を出す・隠す	Fihàn / fi pamọ FB / ọrọ
+ui	FB の表示ページ / 書き込みページ	Ojú-ìwé ìfihàn / kíkọ FB
+ui	ファイラーへ戻る	Padà sí olùṣàkóso fáìlì
+ui	このヘルプを閉じる	Pa ìrànlọwọ yìí
+ui	コピー	Ṣẹdà
+ui	 %s: フォルダを読んでいます... %u 個	 %s: ó ń ka àwọn fódà... %u
+ui	 %s: 行き先の空きを数えています...	 %s: ó ń ka àyè òfo ní ibi tí yóò lọ...
+ui	 %s: 行き先の空きが足りません	 %s: àyè òfo kò tó ní ibi tí yóò lọ
+ui	 移動: 元のフォルダを消しています	 Gbé lọ: ó ń yọ àwọn fódà orísun kúrò
+ui	終了しました	Ó ti parí
+ui	止まりました	Ó ti dúró
+ui	 %s中%s	 %s ń lọ lọwọ%s
+ui	（止めています）	 (ó ń dúró)
+ui	 元: %s	 Láti: %s
+ui	 先: %s	 Sí: %s
+ui	 ファイル %u / %u 個  フォルダ %u 個  %s / %s  (%u%%)%s	 Fáìlì %u / %u  fódà %u  %s / %s  (%u%%)%s
+ui	  多すぎるので一部だけ	  wọn pọ jù: díẹ nìkan
+ui	 要る大きさ %s、空き %s。続けますか？	 Ó nílò %s, òfo %s. Tẹsíwájú?
+ui	 Y: 続ける   N / ESC: やめる	 Y: tẹsíwájú   N / ESC: fagilé
+ui	 何かキーを押すと閉じます	 Tẹ bọtìnì èyíkéyìí láti pa á
+ui	 ESC: 止める	 ESC: dúró
+ui	 %s: ←→ ドライブ  ↑↓ フォルダ  Space 開く・閉じる  Enter 決める  ESC やめる	 %s: ←→ dráìfù  ↑↓ fódà  Space ṣí/pa  Enter yan  ESC fagilé
+ui	 読めません: %s	 Kò lè kà: %s
+ui	 フォルダを読んでいます...（ESC で止める）  %u 個	 Ó ń ka àwọn fódà... (ESC ń dádúró)  %u
+ui	 フォルダ %u 個%s	 fódà %u%s
+ui	（多すぎるか深すぎるので、一部だけ）	 (wọn pọ jù tàbí jìn jù: díẹ nìkan)
+ui	フォルダの展開を止めました	A dá ṣíṣí fódà dúró
+ui	Space で開き直せます。もう一度 ESC でやめます	Space ń tún un ṣí. ESC lẹẹkan sí i ń fagilé
+ui	 SMF / SGT プレイヤー   %s	 Olùṣe SMF / SGT   %s
+ui	 読み込んでいます... %lu / %lu バイト	 Ó ń gbé wọlé... %lu / %lu báìtì
+ui	 %s / %s   %s   ポート %u	 %s / %s   %s   èbúté %u
+ui	一時停止	A dánudúró
+ui	再生中	Ó ń dún
+ui	 Space: 一時停止  m: MIDI OUT  q / ESC: 止める	 Space: dánudúró  m: MIDI OUT  q / ESC: dúró
+ui	 q / ESC: やめる	 q / ESC: fagilé
+ui	フォント ROM のライセンスとクレジット\n\nROM: %s（版 %lu.%lu、%lu 文字、フラッシュの 0x%08lX から）\n\n	Ìwé àṣẹ àti ìdúpẹ ROM fọǹtì\n\nROM: %s (ẹyà %lu.%lu, lẹtà %lu, láti 0x%08lX nínú flash)\n\n
+ui	== 収めているフォント（ROM の出所の表）==\n	== Fọǹtì nínú ROM (tábìlì orísun ROM) ==\n
+ui	  （表が無い ROM）\n	  (ROM kò ní tábìlì)\n
+ui	\n== ROM のクレジットの区画 ==\n\n	\n== Agbègbè ìdúpẹ ROM ==\n\n
+ui	（区画が無い）\n	(kò sí irú agbègbè bẹẹ)\n
+ui	\n== 組み込んだソフトウェアのライセンス ==\n	\n== Ìwé àṣẹ sọfítíwọ inú ==\n
+ui	 %s を PNG で保存   %s	 Ó ń fi %s pamọ bí PNG   %s
+ui	画面	Ojú-iboju
+ui	 組み立てています... %lu / %lu 行	 Ó ń kọ... ìlà %lu / %lu
+ui	 書いています... %lu / %lu KB（FB は隠しています）	 Ó ń kọ... %lu / %lu KB (a fi FB pamọ)
+ui	書けませんでした	Kò lè kọ ọ
+ui	書庫の名前（印の付いた項目、無ければカーソルの項目を入れる）	Orúkọ àpamọ (àwọn ohun tí a sàmì sí, tàbí èyí tí kọsọ wà lórí)
+ui	Enter 圧縮する  ←→ 動かす  BS / Del 消す  ESC やめる	Enter fún pọ  ←→ gbé  BS / Del pa rẹ  ESC fagilé
+ui	WAV 書き出し: %s 中止（%s）	Gbé WAV jáde: %s ti fagilé (%s)
+ui	WAV 書き出し: %s 失敗（%s）	Gbé WAV jáde: %s kùnà (%s)
+ui	WAV 書き出し: %s 合計 %s	Gbé WAV jáde: %s àpapọ %s
+ui	 WAV 書き出し（96kHz / 24bit）: %s	 Gbé WAV jáde (96kHz / 24bit): %s
+ui	中止しました	Ti fagilé
+ui	失敗しました	Kùnà
+ui	 合計 %s	 Àpapọ %s
+ui	 中止しました（%s。半端なファイルは消しました）	 Ti fagilé (%s; a pa fáìlì tí kò pé rẹ)
+ui	 書き出せませんでした（%s）。理由:	 Kò ṣeé gbé jáde (%s). Ìdí:
+ui	 （理由は分かりません）	 (a kò mọ ìdí)
+ui	 %u%%   経過 %s%s	 %u%%   àkókò %s%s
+ui	 ESC: 止める（半端なファイルは消します）	 ESC: dúró (a ó pa fáìlì tí kò pé rẹ)
+ui	書庫: %s	Àpamọ: %s
+ui	読み込み中…（ESC でやめる）	Ń kà á... (ESC láti fagilé)
+ui	 %u 項目%s  合計 %s バイト  展開先: %s	 ohun %u%s  àpapọ báìtì %s  tú sí: %s
+ui	 Enter 項目を展開  X 全部を展開  ↑↓ 動かす  ESC 閉じる	 Enter tú  X tú gbogbo  ↑↓ gbé  ESC pa á dé
+ui	圧縮	Fún pọ
+ui	一覧	Àkójọ
+ui	展開	Tú
+ui	 合計 %s   %u 項目	 Àpapọ %s   ohun %u
+ui	 合計 %s   %u ファイル	 Àpapọ %s   fáìlì %u
+ui	 中止しました（%s。書きかけのファイルは消しました）	 Ti fagilé (%s; a pa fáìlì tí a kò parí rẹ)
+ui	 できませんでした（%s）: %s	 Kò ṣeé ṣe (%s): %s
+ui	 %u%%   経過 %s   %s バイト%s	 %u%%   àkókò %s   báìtì %s%s
+ui	 経過 %s   %s バイト%s	 àkókò %s   báìtì %s%s
+ui	 ESC: 止める（書きかけのファイルは消します）	 ESC: dúró (a ó pa fáìlì tí a kò parí rẹ)
+ui	書庫: %s 失敗（%s）	Àpamọ: %s kùnà (%s)
+ui	圧縮: %s（%u 項目）	A fún pọ: %s (ohun %u)
+ui	展開: %s（%u ファイル）	A tú: %s (fáìlì %u)
+msg.phrase	the drive went away	dráìfù ti lọ
+msg.phrase	reading the partitions again...	ó ń tún àwọn ìpín kà...
+msg.phrase	could not open the volume (no memory?)	kò lè ṣí ìwọn dráìfù (ìrántí kò tó?)
+msg.phrase	opening the volume...	ó ń ṣí ìwọn dráìfù...
+msg.phrase	no memory for the file list	ìrántí kò tó fún àkójọ fáìlì
+msg.phrase	reading the directory... (retrying)	ó ń ka fódà... (ó ń tún gbìyànjú)
+msg.phrase	could not read the directory	kò lè ka fódà
+msg.phrase	reading the directory...	ó ń ka fódà...
+msg.phrase	the drive did not answer -- reading the partitions again	dráìfù kò dáhùn -- ó ń tún àwọn ìpín kà
+msg.phrase	could not read the directory (not FAT12/16/32?)	kò lè ka fódà (kì í ṣe FAT12/16/32?)
+msg.phrase	too many entries -- showing the first ones	àkọsílẹ pọ jù -- ó ń fi àwọn àkọkọ hàn
+msg.phrase	no file system found on this partition	kò sí ètò fáìlì lórí ìpín yìí
+msg.phrase	the path is too long	ọnà gùn jù
+msg.phrase	joining...	ó ń so pọ...
+msg.phrase	splitting...	ó ń pín...
+msg.phrase	renaming...	ó ń yí orúkọ padà...
+msg.phrase	creating the folder...	ó ń ṣẹdá fódà...
+msg.phrase	creating the file...	ó ń ṣẹdá fáìlì...
+msg.phrase	deleting...	ó ń pa rẹ...
+msg.phrase	writing the attributes...	ó ń kọ àwọn àbùdá...
+msg.phrase	the drive is busy	dráìfù ń ṣiṣẹ
+msg.phrase	busy	ń ṣiṣẹ
+msg.phrase	choose files or folders	yan fáìlì tàbí fódà
+msg.phrase	choose files or folders (not "..")	yan fáìlì tàbí fódà (kì í ṣe "..")
+msg.phrase	stop the CD first	kọkọ dá CD dúró
+msg.phrase	the CD cannot be changed (copy instead)	a kò lè yí CD padà (ṣẹdà dípò)
+msg.phrase	a system folder cannot be moved	a kò lè gbé fódà ètò lọ
+msg.phrase	no drive can be written (FAT / exFAT / NTFS only)	kò sí dráìfù tí a lè kọ sí (FAT / exFAT / NTFS nìkan)
+msg.phrase	the drive is gone	dráìfù kò sí mọ
+msg.phrase	nothing chosen	a kò yan nǹkankan
+msg.phrase	nothing selected	a kò yan nǹkankan
+msg.phrase	could not start	kò lè bẹrẹ
+msg.phrase	could not open	kò lè ṣí i
+msg.phrase	only on a FAT / exFAT / NTFS drive	lórí dráìfù FAT / exFAT / NTFS nìkan
+msg.phrase	no name	kò sí orúkọ
+msg.phrase	that name already exists	orúkọ yẹn ti wà
+msg.phrase	could not start (bad name or the drive is busy)	kò lè bẹrẹ (orúkọ burúkú tàbí dráìfù ń ṣiṣẹ)
+msg.phrase	could not start (the drive is busy)	kò lè bẹrẹ (dráìfù ń ṣiṣẹ)
+msg.phrase	the name cannot have / or \\ (only inside this folder)	orúkọ kò lè ní / tàbí \\ (nínú fódà yìí nìkan)
+msg.phrase	the name is the same	orúkọ kan náà ni
+msg.phrase	the item is read-only (A to change)	nǹkan náà jẹ ti kíkà nìkan (A láti yí i padà)
+msg.phrase	choose a .rb file on a writable drive	yan fáìlì .rb lórí dráìfù tí a lè kọ sí
+msg.phrase	choose a .rb file	yan fáìlì .rb
+msg.phrase	the drive is read-only	dráìfù jẹ ti kíkà nìkan
+msg.phrase	choose a folder on a writable drive	yan fódà lórí dráìfù tí a lè kọ sí
+msg.phrase	wait a moment	dúró díẹ
+msg.phrase	choose a file	yan fáìlì
+msg.phrase	choose a file (not a folder)	yan fáìlì (kì í ṣe fódà)
+msg.phrase	choose a .001 file	yan fáìlì .001
+msg.phrase	choose the .001 file	yan fáìlì .001 náà
+msg.phrase	put the IWAD in a DoomFiles or Doom2Files folder	fi IWAD sínú fódà DoomFiles tàbí Doom2Files
+msg.phrase	DoomFiles takes freedoom1 / doom / doomu / doom1.wad	DoomFiles ń gba freedoom1 / doom / doomu / doom1.wad
+msg.phrase	Doom2Files takes freedoom2 / doom2 / plutonia / tnt.wad	Doom2Files ń gba freedoom2 / doom2 / plutonia / tnt.wad
+msg.phrase	put the game files on external storage, not S:	fi fáìlì eré sórí ibi ìpamọ òde, kì í ṣe S:
+msg.phrase	the IWAD must be on a FAT / exFAT / NTFS drive (not a CD)	IWAD gbọdọ wà lórí dráìfù FAT / exFAT / NTFS (kì í ṣe CD)
+msg.phrase	still working	ó ṣì ń ṣiṣẹ
+msg.phrase	an image is loading	àwòrán ń gbé wọlé
+msg.phrase	no framebuffer	kò sí framebuffer
+msg.phrase	half brightness works only in RGB555	dídín ìmọlẹ kù ní ìdajì ń ṣiṣẹ pẹlú RGB555 nìkan
+msg.phrase	clearing...	ó ń pa á rẹ...
+msg.phrase	halving the brightness...	ó ń dín ìmọlẹ kù ní ìdajì...
+msg.phrase	that is a data track	ìyẹn jẹ orin dátà
+msg.phrase	wait -- a file is being written	dúró -- fáìlì kan ń jẹ kíkọ
+msg.phrase	only floppy / LS-120 / CD drives	dráìfù flọpì / LS-120 / CD nìkan
+msg.phrase	requested	a ti béèrè
+msg.phrase	reading the disc...	ó ń ka díìsì...
+msg.phrase	stopping...	ó ń dúró...
+msg.phrase	opening...	ó ń ṣí i...
+msg.phrase	done	ó ti parí
+msg.phrase	no memory	ìrántí kò tó
+msg.phrase	already open	ó ti ṣí tẹlẹ
+msg.phrase	already running	ó ti ń ṣiṣẹ tẹlẹ
+msg.phrase	already saving	ó ti ń fi pamọ tẹlẹ
+msg.phrase	already playing	ó ti ń dún tẹlẹ
+msg.phrase	no such drive	kò sí irú dráìfù bẹẹ
+msg.phrase	no PSRAM	kò sí PSRAM
+msg.phrase	no PSRAM for the file	PSRAM kò tó fún fáìlì
+msg.phrase	no PSRAM for the line index	PSRAM kò tó fún atọka ìlà
+msg.phrase	no PSRAM for the terminal	PSRAM kò tó fún tẹmínà
+msg.phrase	no memory (PSRAM)	ìrántí kò tó (PSRAM)
+msg.phrase	no memory (32KB SRAM)	ìrántí kò tó (SRAM 32KB)
+msg.phrase	no memory for the buffer	ìrántí kò tó fún ibi ìpamọ fún ìgbà díẹ
+msg.phrase	no memory for the image buffers	ìrántí kò tó fún ibi ìpamọ àwòrán
+msg.phrase	no memory for the read buffer	ìrántí kò tó fún ibi ìpamọ kíkà
+msg.phrase	no room for the work memory (close the lowres plane?)	kò sí àyè fún ìrántí iṣẹ (pa lowres?)
+msg.phrase	no framebuffer page	kò sí ojú-ìwé framebuffer
+msg.phrase	too large (4 MB at most)	ó tóbi jù (MB 4 ní púpọ jù)
+msg.phrase	the file is too large (1 MB at most)	fáìlì tóbi jù (MB 1 ní púpọ jù)
+msg.phrase	the file is too large (1 MB max)	fáìlì tóbi jù (MB 1 ní púpọ jù)
+msg.phrase	too large for an SMF (1MB at most)	ó tóbi jù fún SMF (MB 1 ní púpọ jù)
+msg.phrase	the file is empty	fáìlì ṣófo
+msg.phrase	could not open the file	kò lè ṣí fáìlì náà
+msg.phrase	could not read the file	kò lè ka fáìlì náà
+msg.phrase	could not open the volume	kò lè ṣí ìwọn dráìfù
+msg.phrase	could not open the destination (no memory?)	kò lè ṣí ibi tí yóò lọ (ìrántí kò tó?)
+msg.phrase	could not read the root folder	kò lè ka fódà gbòǹgbò
+msg.phrase	could not start the task	kò lè bẹrẹ iṣẹ náà
+msg.phrase	could not start writing (bad name or busy)	kò lè bẹrẹ kíkọ (orúkọ burúkú tàbí ń ṣiṣẹ)
+msg.phrase	another volume is open (busy)	ìwọn dráìfù mìíràn ti ṣí (ń ṣiṣẹ)
+msg.phrase	a copy is running	ìṣẹdà kan ń lọ lọwọ
+msg.phrase	a folder cannot go into itself	fódà kò lè wọ inú ara rẹ
+msg.phrase	that is the same folder	fódà kan náà ni
+msg.phrase	this drive cannot be changed (read only)	a kò lè yí dráìfù yìí padà (kíkà nìkan)
+msg.phrase	the drive is not writable	a kò lè kọ sí dráìfù
+msg.phrase	the part size must be a multiple of 512	ìwọn apá gbọdọ jẹ ìlọpo 512
+msg.phrase	files of 4 GB or more are not supported	a kò ṣe àtìlẹyìn fún fáìlì GB 4 tàbí jù bẹẹ lọ
+msg.phrase	bad path	ọnà burúkú
+msg.phrase	bad file name	orúkọ fáìlì burúkú
+msg.phrase	the font ROM is not there	ROM fọǹtì kò sí
+msg.phrase	the sound is not open	ohùn kò ṣí
+msg.phrase	no such channel	kò sí irú ikanni bẹẹ
+msg.phrase	the sequencer is busy	olùtò ń ṣiṣẹ
+msg.phrase	not enough PSRAM for the song	PSRAM kò tó fún orin
+msg.phrase	not a standard MIDI file (no MThd)	kì í ṣe fáìlì MIDI àṣà (kò sí MThd)
+msg.phrase	no tracks	kò sí orin
+msg.phrase	a track is broken (MTrk)	orin kan ti bàjẹ (MTrk)
+msg.phrase	SMPTE time division is not supported	a kò ṣe àtìlẹyìn fún pínpín àkókò SMPTE
+msg.phrase	SMF format 2 is not supported (0 and 1 only)	a kò ṣe àtìlẹyìn fún SMF ọnà 2 (0 àti 1 nìkan)
+msg.phrase	not a Bulk-Only drive	kì í ṣe dráìfù Bulk-Only
+msg.phrase	not an optical drive	kì í ṣe dráìfù ojú-ìmọlẹ
+msg.phrase	a system folder cannot be deleted or renamed	a kò lè pa fódà ètò rẹ tàbí yí orúkọ rẹ padà
+msg.phrase	no media in the drive	kò sí díìsì nínú dráìfù
+msg.phrase	becoming ready	ó ń múra sílẹ
+msg.phrase	not ready	kò tíì ṣetán
+msg.phrase	media changed	díìsì ti yí padà
+msg.phrase	medium error	àṣìṣe díìsì
+msg.phrase	illegal request	ìbéèrè tí kò bófin mu
+msg.phrase	a bad directory entry	àkọsílẹ fódà burúkú
+msg.phrase	a directory on the way does not exist	fódà kan lójú ọnà kò sí
+msg.phrase	a file has that name	fáìlì kan ní orúkọ yẹn
+msg.phrase	a folder has that name	fódà kan ní orúkọ yẹn
+msg.phrase	a name on the way is not a directory	orúkọ kan lójú ọnà kì í ṣe fódà
+msg.phrase	cancelled	a ti fagilé
+msg.phrase	could not mount	kò lè gbé e kalẹ
+msg.phrase	could not start a read	kò lè bẹrẹ kíkà
+msg.phrase	could not start a write	kò lè bẹrẹ kíkọ
+msg.phrase	is a directory	jẹ fódà
+msg.phrase	that is a directory	ìyẹn jẹ fódà
+msg.phrase	no clusters	kò sí kílọsítà
+msg.phrase	no room for the cluster list	kò sí àyè fún àkójọ kílọsítà
+msg.phrase	no such file or directory	kò sí irú fáìlì tàbí fódà bẹẹ
+msg.phrase	no such file	kò sí irú fáìlì bẹẹ
+msg.phrase	no volume	kò sí ìwọn dráìfù
+msg.phrase	not NTFS	kì í ṣe NTFS
+msg.phrase	not exFAT	kì í ṣe exFAT
+msg.phrase	not a directory	kì í ṣe fódà
+msg.phrase	not found	a kò rí i
+msg.phrase	read error	àṣìṣe kíkà
+msg.phrase	write error	àṣìṣe kíkọ
+msg.phrase	reading the FAT failed	kíka FAT kùnà
+msg.phrase	the cluster chain is shorter than the file	ẹwọn kílọsítà kúrú ju fáìlì lọ
+msg.phrase	the directory is not empty	fódà kò ṣófo
+msg.phrase	the disk is full	díìsì ti kún
+msg.phrase	the drive did not answer	dráìfù kò dáhùn
+msg.phrase	the file is read-only	fáìlì jẹ ti kíkà nìkan
+msg.phrase	the file is too fragmented	fáìlì ti fọ sí wẹwẹ jù
+msg.phrase	the file is too large (4GB)	fáìlì tóbi jù (GB 4)
+msg.phrase	the new name already exists	orúkọ tuntun ti wà
+msg.phrase	the root directory is full	fódà gbòǹgbò ti kún
+msg.phrase	too many files with the same short name	fáìlì púpọ jù ní orúkọ kúkúrú kan náà
+msg.phrase	No such file or directory	Kò sí irú fáìlì tàbí fódà bẹẹ
+msg.phrase	File exists	Fáìlì ti wà
+msg.phrase	Permission denied	A kọ àṣẹ
+msg.phrase	Directory not empty	Fódà kò ṣófo
+msg.phrase	Not a directory	Kì í ṣe fódà
+msg.phrase	Is a directory	Jẹ fódà
+msg.phrase	Read-only file system	Ètò fáìlì kíkà nìkan
+msg.phrase	No space left on device	Kò sí àyè mọ lórí ẹrọ
+msg.phrase	Input/output error	Àṣìṣe ìgbéwọlé/ìgbéjáde
+msg.phrase	Not supported on this drive	A kò ṣe àtìlẹyìn lórí dráìfù yìí
+msg.phrase	Invalid path	Ọnà tí kò tọ
+msg.phrase	Out of memory	Ìrántí ti tán
+msg.phrase	No such drive	Kò sí irú dráìfù bẹẹ
+msg.phrase	stopped	ó ti dúró
+msg.phrase	cancelled (not enough free space)	a ti fagilé (àyè òfo kò tó)
+msg.phrase	could not count the free space	kò lè ka àyè òfo
+msg.phrase	the receiver cancelled	olùgbà ti fagilé
+msg.phrase	no receiver (run rz on the PC)	kò sí olùgbà (ṣiṣẹ rz lórí PC)
+msg.phrase	the console UART is in use	a ń lo UART kọńsólù
+msg.phrase	the screen mode changed	ipò ojú-iboju ti yí padà
+msg.phrase	the lines did not come (is the display running?)	àwọn ìlà kò dé (ṣé ìfihàn ń ṣiṣẹ?)
+msg.prefix	copy	ṣẹdà
+msg.prefix	move	gbé
+msg.prefix	delete	pa rẹ
+msg.prefix	rename	yí orúkọ
+msg.prefix	attributes	àbùdá
+msg.prefix	new file	fáìlì tuntun
+msg.prefix	new folder	fódà tuntun
+msg.prefix	image	àwòrán
+msg.prefix	mrbc	mrbc
+msg.prefix	ruby	ruby
+msg.prefix	viewer	olùwò
+msg.prefix	edit	àtúnṣe
+msg.prefix	IDENTIFY	IDENTIFY
+msg.prefix	ZMODEM	ZMODEM
+msg.prefix	ZMODEM receive	ZMODEM gbà
+msg.prefix	ZMODEM send	ZMODEM fi
+msg.prefix	split	pín
+msg.prefix	join	so pọ
+msg.prefix	Doom	Doom
+msg.prefix	SMF	SMF
+msg.prefix	CD	CD
+msg.prefix	FB	FB
+msg.prefix	Eject	Yọ jáde
+msg.prefix	reboot	tún bẹrẹ
+msg.prefix	license	ìwé àṣẹ
+msg.prefix	clock	aago
+msg.prefix	ADC in	ADC wọlé
+msg.prefix	screen -> PNG	ojú-iboju -> PNG
+msg.prefix	FB -> PNG	FB -> PNG
+msg.prefix	could not open the volume	kò lè ṣí ìwọn dráìfù
+msg.pattern	received 	a gba %s
+msg.pattern	sent 	a fi %s ránṣẹ
+msg.pattern	saved 	a fi %s pamọ
+msg.pattern	created 	a ṣẹdá %s
+msg.pattern	renamed to 	a yí orúkọ padà sí %s
+msg.pattern	deleted 	a pa %s rẹ
+msg.pattern	changed 	a yí %s padà
+msg.pattern	joined 	a so %s pọ
+msg.pattern	split 	a pín %s
+msg.pattern	could not create 	kò lè ṣẹdá %s
+msg.pattern	could not delete 	kò lè pa %s rẹ
+msg.pattern	could not rename to 	kò lè yí orúkọ padà sí %s
+msg.pattern	could not change 	kò lè yí %s padà
+msg.pattern	could not read 	kò lè ka %s
+msg.pattern	could not write 	kò lè kọ %s
+msg.pattern	could not copy 	kò lè ṣẹdà %s
+msg.pattern	could not make 	kò lè ṣe %s
+msg.pattern	could not remove the folder 	kò lè yọ fódà %s
+msg.pattern	could not remove 	kò lè yọ %s
+msg.pattern	no memory for 	ìrántí kò tó fún %s
+msg.pattern	too many errors while sending 	àṣìṣe pọ jù nígbà tí a ń fi %s ránṣẹ
+msg.pattern	the receiver did not take 	olùgbà kò gba %s
+msg.pattern	the receiver skipped 	olùgbà fo %s
+msg.pattern	FB page 	Ojú-ìwé FB %s
+msg.word	 bytes each)	 báìtì ọkọọkan)
+msg.word	 bytes)	 báìtì)
+msg.word	 KB)	 KB)
+msg.word	 parts into 	 apá sí
+msg.word	 parts (	 apá (
+msg.word	 into 	 sí
+msg.word	: cleared	: a ti pa á rẹ
+msg.word	: brightness halved	: a ti dín ìmọlẹ kù ní ìdajì
+msg.word	% read	% a ti kà
+msg.word	 rows	 ìlà
+msg.word	 -- not supported yet (FAT / exFAT / NTFS only)	 -- a kò tíì ṣe àtìlẹyìn (FAT / exFAT / NTFS nìkan)
+msg.word	 files	 fáìlì
+msg.word	 (	 (
+msg.phrase	Untitled	Aláìlórúkọ
+msg.phrase	1 File	1 Fáìlì
+msg.phrase	2 Edit	2 Àtúnṣe
+msg.phrase	3 Graph	3 Àwòrán
+msg.phrase	4 Sheet	4 Ìwé
+msg.phrase	5 Help	5 Ìrànlọwọ
+msg.phrase	EMPTY	ÒFO
+msg.phrase	NUMBER	NỌMBÀ
+msg.phrase	TEXT	ỌRỌ
+msg.phrase	FORMULA	ÌLÀNÀ
+msg.phrase	Type to enter, F2 to edit, F1 for help	Tẹ láti fi sí i, F2 láti ṣàtúnṣe, F1 fún ìrànlọwọ
+msg.phrase	Ready	Ó ṣetán
+msg.phrase	Press any key	Tẹ bọtìnì èyíkéyìí
+msg.phrase	Y = yes    N = no    Esc = cancel	Y = bẹẹni    N = rárá    Esc = fagilé
+msg.phrase	Enter = OK    Esc = cancel    Ctrl-U = clear	Enter = Ó dára    Esc = fagilé    Ctrl-U = pa á rẹ
+msg.phrase	First row/column = labels; charts use the 640x480 CLUT8 FB.	Ìlà/ọwọn àkọkọ = àkọlé; àtẹ ń lo FB CLUT8 640x480.
+msg.phrase	SGCALC - HELP	SGCALC - ÌRÀNLỌWỌ
+msg.phrase	Press any key to return	Tẹ bọtìnì èyíkéyìí láti padà
+msg.phrase	Press any key to return.	Tẹ bọtìnì èyíkéyìí láti padà.
+msg.phrase	ABOUT SGCALC	NÍPA SGCALC
+msg.phrase	New	Tuntun
+msg.phrase	Start a new sheet	Bẹrẹ ìwé tuntun
+msg.phrase	Open...	Ṣí...
+msg.phrase	Open an ODS, FODS or CSV file	Ṣí fáìlì ODS, FODS tàbí CSV
+msg.phrase	Save	Fi pamọ
+msg.phrase	Save the current file	Fi fáìlì yìí pamọ
+msg.phrase	Save As...	Fi pamọ bí...
+msg.phrase	Save with a new name or format	Fi pamọ pẹlú orúkọ tàbí ọnà tuntun
+msg.phrase	Export CSV...	Kó CSV jáde...
+msg.phrase	Write a CSV copy	Kọ ẹdà CSV
+msg.phrase	Export ODS...	Kó ODS jáde...
+msg.phrase	Write a LibreOffice copy	Kọ ẹdà LibreOffice
+msg.phrase	Quit	Jáde
+msg.phrase	Leave SGCALC	Fi SGCALC sílẹ
+msg.phrase	Clear	Pa á rẹ
+msg.phrase	Clear the selected cells	Pa àwọn sẹẹlì tí a yàn rẹ
+msg.phrase	Copy	Ṣẹdà
+msg.phrase	Copy the selection	Ṣẹdà àṣàyàn
+msg.phrase	Paste	Lẹ mọ
+msg.phrase	Paste at the cursor	Lẹ mọ níbi kọsọ
+msg.phrase	Cut	Gé
+msg.phrase	Copy and clear the selection	Ṣẹdà kí o pa àṣàyàn rẹ
+msg.phrase	Select all	Yan gbogbo
+msg.phrase	Select all used cells	Yan gbogbo sẹẹlì tí a lò
+msg.phrase	Text color...	Àwọ ọrọ...
+msg.phrase	Choose the text colour	Yan àwọ ọrọ
+msg.phrase	Background...	Ẹyìn...
+msg.phrase	Choose the cell background	Yan àwọ ẹyìn sẹẹlì
+msg.phrase	Line	Ìlà
+msg.phrase	Draw a line graph from the selection	Ya àtẹ ìlà láti inú àṣàyàn
+msg.phrase	Bar	Ọpá
+msg.phrase	Draw a bar graph from the selection	Ya àtẹ ọpá láti inú àṣàyàn
+msg.phrase	Mixed	Àdàpọ
+msg.phrase	Bars for the first series, lines for the rest	Ọpá fún ọwọ àkọkọ, ìlà fún ìyókù
+msg.phrase	Pie	Pai
+msg.phrase	Draw a pie graph from the selection	Ya àtẹ pai láti inú àṣàyàn
+msg.phrase	Range...	Agbègbè...
+msg.phrase	Set the graph range explicitly	Ṣètò agbègbè àtẹ ní kedere
+msg.phrase	Draw again	Tún yà á
+msg.phrase	Redraw the last graph	Tún àtẹ ìkẹyìn yà
+msg.phrase	Goto...	Lọ sí...
+msg.phrase	Jump to a cell (for example C12)	Fò sí sẹẹlì (fún àpẹẹrẹ C12)
+msg.phrase	Column width...	Fífẹ ọwọn...
+msg.phrase	Change the selected columns' width	Yí fífẹ àwọn ọwọn tí a yàn padà
+msg.phrase	Row height...	Gíga ìlà...
+msg.phrase	Change the selected rows' height	Yí gíga àwọn ìlà tí a yàn padà
+msg.phrase	Auto fit	Bá a mu fúnra rẹ
+msg.phrase	Fit widths/heights to the contents (F7)	Bá fífẹ/gíga mu pẹlú ohun inú (F7)
+msg.phrase	Recalculate	Tún ṣírò
+msg.phrase	Re-evaluate all formulas	Tún gbogbo ìlànà ṣírò
+msg.phrase	Erase all	Pa gbogbo rẹ rẹ
+msg.phrase	Clear the whole sheet	Pa gbogbo ìwé rẹ
+msg.phrase	Keys	Bọtìnì
+msg.phrase	Show the key guide	Fi ìtọsọnà bọtìnì hàn
+msg.phrase	About	Nípa
+msg.phrase	About SGCALC	Nípa SGCALC
+msg.phrase	File	Fáìlì
+msg.phrase	Edit	Àtúnṣe
+msg.phrase	Graph	Àtẹ
+msg.phrase	Sheet	Ìwé
+msg.phrase	Help	Ìrànlọwọ
+msg.phrase	File: new, open, save, export, quit	Fáìlì: tuntun, ṣí, fi pamọ, kó jáde, jáde
+msg.phrase	Edit: clear, copy, paste, cut, select all	Àtúnṣe: pa rẹ, ṣẹdà, lẹ mọ, gé, yan gbogbo
+msg.phrase	Graph: line, bar, mixed, pie (draws in the FB)	Àtẹ: ìlà, ọpá, àdàpọ, pai (a yà á sórí FB)
+msg.phrase	Sheet: goto, column width, recalculate, erase	Ìwé: lọ sí, fífẹ ọwọn, tún ṣírò, pa rẹ
+msg.phrase	Help: keys and about	Ìrànlọwọ: bọtìnì àti nípa
+msg.phrase	Left/Right = menu    Up/Down = item    Enter = choose    Esc = cancel	Òsì/Ọtún = àkójọ    Òkè/Ìsàlẹ = nǹkan    Enter = yan    Esc = fagilé
+msg.phrase	Cancelled	A ti fagilé
+msg.phrase	The selection is too large or memory is low.	Àṣàyàn tóbi jù tàbí ìrántí kéré.
+msg.phrase	the cell	sẹẹlì náà
+msg.phrase	the selection	àṣàyàn náà
+msg.phrase	Nothing to paste	Kò sí nǹkan láti lẹ mọ
+msg.phrase	Pasted	A ti lẹ ẹ mọ
+msg.phrase	GO TO CELL	LỌ SÍ SẸẸLÌ
+msg.phrase	Cell reference (A1):	Ìtọkasí sẹẹlì (A1):
+msg.phrase	Goto	Lọ sí
+msg.phrase	COLUMN WIDTH	FÍFẸ ỌWỌN
+msg.phrase	Width in characters (4..30):	Fífẹ ní lẹtà (4..30):
+msg.phrase	ROW HEIGHT	GÍGA ÌLÀ
+msg.phrase	Height in text rows (1..8):	Gíga ní ìlà ọrọ (1..8):
+msg.phrase	Auto fit: the sheet is empty	Bá a mu fúnra rẹ: ìwé ṣófo
+msg.phrase	BACKGROUND COLOUR	ÀWỌ ẸYÌN
+msg.phrase	TEXT COLOUR	ÀWỌ ỌRỌ
+msg.phrase	Arrows: choose    Enter: apply    Esc: cancel	Ọfà: yan    Enter: lò ó    Esc: fagilé
+msg.phrase	Colour index (PC-98 16-colour palette)	Nọmbà àwọ (àwọ 16 PC-98)
+msg.phrase	Enter = apply    Esc = cancel	Enter = lò ó    Esc = fagilé
+msg.phrase	Colour	Àwọ
+msg.phrase	Background	Ẹyìn
+msg.phrase	Text	Ọrọ
+msg.phrase	GRAPH RANGE	AGBÈGBÈ ÀTẸ
+msg.phrase	Range (for example A1:C10):	Agbègbè (fún àpẹẹrẹ A1:C10):
+msg.phrase	Graph range	Agbègbè àtẹ
+msg.phrase	Use a range such as A1:C10.	Lo agbègbè bíi A1:C10.
+msg.phrase	Cannot draw the graph.	Kò lè ya àtẹ.
+msg.phrase	line	ìlà
+msg.phrase	bar	ọpá
+msg.phrase	mixed	àdàpọ
+msg.phrase	pie	pai
+msg.phrase	Clear every cell in this sheet?	Pa gbogbo sẹẹlì inú ìwé yìí rẹ?
+msg.phrase	Sheet erased	A ti pa ìwé rẹ
+msg.phrase	Selected all used cells	A ti yan gbogbo sẹẹlì tí a lò
+msg.phrase	Recalculated	A ti tún un ṣírò
+msg.phrase	Memory	Ìrántí
+msg.phrase	Not enough PSRAM for the spreadsheet.	PSRAM kò tó fún ìwé ìṣirò.
+msg.phrase	The sheet is empty.	Ìwé ṣófo.
+msg.phrase	No numeric data in the selected range.	Kò sí dátà nọmbà nínú agbègbè tí a yàn.
+msg.phrase	Other	Òmíràn
+msg.phrase	No positive values for a pie chart	Kò sí iye rere fún àtẹ pai
+msg.phrase	LINE	ÌLÀ
+msg.phrase	BAR	ỌPÁ
+msg.phrase	MIXED	ÀDÀPỌ
+msg.phrase	PIE	PAI
+msg.phrase	Folder	Fódà
+msg.phrase	SAVE AS	FI PAMỌ BÍ
+msg.phrase	OPEN FILE	ṢÍ FÁÌLÌ
+msg.phrase	Name:	Orúkọ:
+msg.phrase	(type a name, or choose below)	(tẹ orúkọ, tàbí yan nísàlẹ)
+msg.phrase	Name	Orúkọ
+msg.phrase	Size	Ìwọn
+msg.phrase	Enter=save  Left=up  Right/Enter on [DIR]=open  Tab=drive  Esc=cancel	Enter=fi pamọ  Òsì=òkè  Ọtún/Enter lórí [DIR]=ṣí  Tab=dráìfù  Esc=fagilé
+msg.phrase	Enter=open  Left=up  Right/Enter on [DIR]=open  Tab=drive  Esc=cancel	Enter=ṣí  Òsì=òkè  Ọtún/Enter lórí [DIR]=ṣí  Tab=dráìfù  Esc=fagilé
+msg.phrase	Not enough memory.	Ìrántí kò tó.
+msg.phrase	Overwrite	Kọ lé e lórí
+msg.phrase	Open	Ṣí
+msg.phrase	The file is too large (limit 8 MB).	Fáìlì tóbi jù (ààlà MB 8).
+msg.phrase	Not enough memory to read the file.	Ìrántí kò tó láti ka fáìlì.
+msg.phrase	Bad ZIP/ODS data.	Dátà ZIP/ODS burúkú.
+msg.phrase	CRC error in the ODS file.	Àṣìṣe CRC nínú fáìlì ODS.
+msg.phrase	Unsupported or damaged file.	Fáìlì tí a kò ṣe àtìlẹyìn fún tàbí tó bàjẹ.
+msg.phrase	Saved	A ti fi pamọ
+msg.phrase	Exported	A ti kó o jáde
+msg.phrase	Unsaved changes	Àyípadà tí a kò fi pamọ
+msg.phrase	Save the current sheet before continuing?	Fi ìwé yìí pamọ kí o tó tẹsíwájú?
+msg.phrase	New sheet	Ìwé tuntun
+msg.phrase	song is too large	orin tóbi jù
+msg.phrase	empty file	fáìlì òfo
+msg.phrase	not an SGT file	kì í ṣe fáìlì SGT
+msg.phrase	bad BPM	BPM burúkú
+msg.phrase	bad speed	ìyára burúkú
+msg.phrase	bad title length	gígùn àkọlé burúkú
+msg.phrase	truncated title	àkọlé ti gé
+msg.phrase	bad character in title	lẹtà burúkú nínú àkọlé
+msg.phrase	truncated order	ètò ti gé
+msg.phrase	bad order length	gígùn ètò burúkú
+msg.phrase	bad pattern number in order	nọmbà àpẹẹrẹ burúkú nínú ètò
+msg.phrase	truncated pattern list	àkójọ àpẹẹrẹ ti gé
+msg.phrase	bad pattern count	iye àpẹẹrẹ burúkú
+msg.phrase	bad pattern index	atọka àpẹẹrẹ burúkú
+msg.phrase	duplicate pattern	àpẹẹrẹ ìlọpo
+msg.phrase	truncated pattern data	dátà àpẹẹrẹ ti gé
+msg.phrase	invalid pattern data	dátà àpẹẹrẹ tí kò tọ
+msg.phrase	trailing data in file	dátà àfikún ní òpin fáìlì
+msg.phrase	order refers to a missing pattern	ètò tọka sí àpẹẹrẹ tí kò sí
+msg.phrase	(untitled)	(aláìlórúkọ)
+msg.phrase	Ready. Press F1 for help.	Ó ṣetán. Tẹ F1 fún ìrànlọwọ.
+msg.phrase	Follow OFF	Títẹlé PA
+msg.phrase	Nothing to undo	Kò sí nǹkan láti dá padà
+msg.phrase	Undo	Dá padà
+msg.phrase	Note OFF	Pa ohùn
+msg.phrase	Set an effect letter first	Kọkọ ṣètò lẹtà ipa
+msg.phrase	Effect cleared	A ti pa ipa rẹ
+msg.phrase	Parameter cleared	A ti pa àfikún rẹ
+msg.phrase	Note cleared	A ti pa ohùn rẹ
+msg.phrase	Instrument cleared	A ti pa ohun èlò rẹ
+msg.phrase	Volume cleared	A ti pa ìpariwo rẹ
+msg.phrase	Order list is full	Àkójọ ètò ti kún
+msg.phrase	Order inserted	A ti fi ètò sí i
+msg.phrase	Cannot delete the last order	A kò lè pa ètò ìkẹyìn rẹ
+msg.phrase	Order deleted	A ti pa ètò rẹ
+msg.phrase	Playing song	Ó ń kọ orin
+msg.phrase	Stopped	Ó ti dúró
+msg.phrase	New song	Orin tuntun
+msg.phrase	Discard unsaved changes and start a new song? (Y/N)	Ju àyípadà tí a kò fi pamọ sílẹ kí o bẹrẹ orin tuntun? (Y/N)
+msg.phrase	Discard unsaved changes and open a song? (Y/N)	Ju àyípadà tí a kò fi pamọ sílẹ kí o ṣí orin? (Y/N)
+msg.phrase	Discard unsaved changes and quit? (Y/N)	Ju àyípadà tí a kò fi pamọ sílẹ kí o jáde? (Y/N)
+msg.phrase	Song settings updated	A ti ṣe ìmúdójúìwọn ètò orin
+msg.phrase	Filename is empty	Orúkọ fáìlì ṣófo
+msg.phrase	Save cancelled	A fagilé ìpamọ
+msg.phrase	Open cancelled	A fagilé ṣíṣí
+msg.phrase	Edit ON	Àtúnṣe TÀN
+msg.phrase	Edit OFF	Àtúnṣe PA
+msg.phrase	Follow ON	Títẹlé TÀN
+msg.phrase	Edit is OFF. Press F8 to edit.	Àtúnṣe ti pa. Tẹ F8 láti ṣàtúnṣe.
+msg.phrase	I/O error	Àṣìṣe I/O
+msg.phrase	file is too large	fáìlì tóbi jù
+msg.phrase	truncated file	fáìlì ti gé
+msg.phrase	#TRANSPORT AND FILES	#ÌKỌRIN ÀTI FÁÌLÌ
+msg.phrase	#ORDER LIST	#ÀKÓJỌ ÈTÒ
+msg.phrase	#DISPLAY	#ÌFIHÀN
+msg.phrase	#EDITING	#ÀTÚNṢE
+msg.phrase	#EFFECTS (parameter is hexadecimal)	#IPA (àfikún jẹ hexadecimal)
+msg.phrase	LEFT/RIGHT PAGE   ENTER OR F1 CLOSE	ÒSÌ/ỌTÚN OJÚ-ÌWÉ   ENTER TÀBÍ F1 PA
+msg.phrase	SONG SETTINGS	ÈTÒ ORIN
+msg.phrase	UP/DOWN SELECT   LEFT/RIGHT ADJUST   ENTER/F2 CLOSE	ÒKÈ/ÌSÀLẸ YAN   ÒSÌ/ỌTÚN ṢÀTÚNṢE   ENTER/F2 PA
+msg.phrase	Type to edit the title. Backspace deletes the last character.	Tẹ láti ṣàtúnṣe àkọlé. Backspace ń pa lẹtà ìkẹyìn rẹ.
+msg.phrase	BPM range 32..255. Speed range 1..31.	BPM 32..255. Ìyára 1..31.
+msg.phrase	Pattern effects can also change speed and BPM while playing.	Ipa àpẹẹrẹ tún lè yí ìyára àti BPM padà nígbà tí ó ń dún.
+msg.phrase	INSTRUMENTS	OHUN ÈLÒ
+msg.phrase	UP/DOWN SELECT   SPACE PREVIEW   ENTER USE   F3 CLOSE	ÒKÈ/ÌSÀLẸ YAN   SPACE GBỌ   ENTER LÒ   F3 PA
+msg.phrase	All four channels use wavetable synthesis.	Gbogbo ikanni mẹrin ń lo ìṣọkan tábìlì ìgbì.
+msg.phrase	Preview plays C-4 on the track under the edit cursor.	Ìgbọ-ṣáájú ń kọ C-4 lórí orin tó wà lábẹ kọsọ àtúnṣe.
+msg.phrase	SAVE SONG AS	FI ORIN PAMỌ BÍ
+msg.phrase	ENTER SAVE   F4 OR CTRL-C CANCEL	ENTER FI PAMỌ   F4 TÀBÍ CTRL-C FAGILÉ
+msg.phrase	Directory:	Fódà:
+msg.phrase	File name:	Orúkọ fáìlì:
+msg.phrase	The extension .SGT is added automatically.	A ń fi ìfàgùn .SGT kún un fúnra rẹ.
+msg.phrase	An existing file can be overwritten.	A lè kọ lé fáìlì tó wà tẹlẹ lórí.
+msg.phrase	OPEN SONG	ṢÍ ORIN
+msg.phrase	ENTER OPEN  BS PARENT  CTRL-O/CTRL-C CANCEL	ENTER ṢÍ  BS ÒKÈ  CTRL-O/CTRL-C FAGILÉ
+msg.phrase	(no .SGT files in this folder)	(kò sí fáìlì .SGT nínú fódà yìí)
+msg.phrase	CONFIRM	FÌDÍ MÚLẸ
+msg.phrase	Y = YES   N / ENTER / CTRL-C = NO	Y = BẸẸNI   N / ENTER / CTRL-C = RÁRÁ
+msg.phrase	Y = yes        N = no	Y = bẹẹni        N = rárá
+msg.phrase	broken MThd	MThd ti bàjẹ
+msg.phrase	MIDI IMPORT	ÌGBÉWỌLÉ MIDI
+msg.phrase	broken delta time	àkókò delta ti bàjẹ
+msg.phrase	broken running status	running status ti bàjẹ
+msg.phrase	broken meta event	ìṣẹlẹ meta ti bàjẹ
+msg.phrase	broken sysex event	ìṣẹlẹ sysex ti bàjẹ
+msg.phrase	broken channel event	ìṣẹlẹ ikanni ti bàjẹ
+msg.phrase	SMF output is too small	ìgbéjáde SMF kéré jù
+msg.phrase	SMF output is too large	ìgbéjáde SMF tóbi jù
+msg.phrase	the song is too long for SMF	orin gùn jù fún SMF
+msg.phrase	ARROWS      move the cell cursor\n	ỌFÀ        gbé kọsọ sẹẹlì\n
+msg.phrase	SHIFT+ARR   extend the selection (for graphs/copy)\n	SHIFT+ỌFÀ  fẹ àṣàyàn (fún àtẹ/ìṣẹdà)\n
+msg.phrase	ENTER       edit the cell; in edit, commit and move down\n	ENTER       ṣàtúnṣe sẹẹlì; nígbà àtúnṣe, fìdí múlẹ kí o sọkalẹ\n
+msg.phrase	TAB         next cell    SHIFT+TAB  previous cell\n	TAB         sẹẹlì tó kàn    SHIFT+TAB  tó ṣáájú\n
+msg.phrase	DELETE      clear the selected cell(s)    ESC  cancel\n	DELETE      pa sẹẹlì tí a yàn rẹ    ESC  fagilé\n
+msg.phrase	PGUP/PGDN   move one screen    HOME/END  first/last column\n	PGUP/PGDN   ojú-iboju kan    HOME/END  ọwọn àkọkọ/ìkẹyìn\n
+msg.phrase	CTRL+HOME   A1    CTRL+END  last used cell\n	CTRL+HOME   A1    CTRL+END  sẹẹlì ìkẹyìn tí a lò\n
+msg.phrase	F1 help  F2 edit  F3 copy  F4 paste  F5 goto  F6 colour\n	F1 ìrànlọwọ  F2 àtúnṣe  F3 ṣẹdà  F4 lẹ  F5 lọ  F6 àwọ\n
+msg.phrase	F7 auto-fit  F8 background  F9 recalc  F10 graph  F11 save  F12 menu\n	F7 bá mu  F8 ẹyìn  F9 ṣírò  F10 àtẹ  F11 fi pamọ  F12 àkójọ\n
+msg.phrase	SHIFT+F1 about  SHIFT+F2 row height  SHIFT+F3 column width\n	SHIFT+F1 nípa  SHIFT+F2 gíga ìlà  SHIFT+F3 fífẹ ọwọn\n
+msg.phrase	SHIFT+F4 select all  SHIFT+F10 graph range  SHIFT+F11 save as\n	SHIFT+F4 yan gbogbo  SHIFT+F10 agbègbè àtẹ  SHIFT+F11 fi pamọ bí\n
+msg.phrase	CTRL+F1 new  CTRL+F2 open  CTRL+F3 save  CTRL+F4 save as\n	CTRL+F1 tuntun  CTRL+F2 ṣí  CTRL+F3 fi pamọ  CTRL+F4 fi pamọ bí\n
+msg.phrase	CTRL+F5 export CSV  CTRL+F6 export ODS  ALT+F12 quit\n	CTRL+F5 kó CSV jáde  CTRL+F6 kó ODS jáde  ALT+F12 jáde\n
+msg.phrase	Bottom 2 lines: function keys; [SHIFT]/[CTRL]/[ALT] like the filer\n	Ìlà 2 ìsàlẹ: bọtìnì iṣẹ; [SHIFT]/[CTRL]/[ALT] bíi olùṣàkóso fáìlì\n
+msg.phrase	CTRL+S save  CTRL+O open  CTRL+N new  CTRL+C/V/X copy/paste/cut\n	CTRL+S fi pamọ  CTRL+O ṣí  CTRL+N tuntun  CTRL+C/V/X ṣẹdà/lẹ/gé\n
+msg.phrase	CTRL+G goto    /  open the menu (1 File, 2 Edit, ...)\n	CTRL+G lọ sí    /  ṣí àkójọ (1 Fáìlì, 2 Àtúnṣe, ...)\n
+msg.phrase	Built-in functions: SUM AVERAGE MIN MAX COUNT COUNTA\n	Iṣẹ inú: SUM AVERAGE MIN MAX COUNT COUNTA\n
+msg.phrase	Cell refs: A1, $A$1, A1:B10.  Formulas begin with '='.\n	Ìtọkasí sẹẹlì: A1, $A$1, A1:B10.  Ìlànà ń bẹrẹ pẹlú '='.\n
+msg.phrase	Files: .ods (LibreOffice), .fods (flat XML), .csv\n	Fáìlì: .ods (LibreOffice), .fods (XML pẹrẹsẹ), .csv\n
+msg.phrase	ODS/FODS keeps formulas, widths, heights and colours.\n	ODS/FODS ń pa ìlànà, fífẹ, gíga àti àwọ mọ.\n
+msg.phrase	CSV keeps values and formulas (no colours/heights).\n	CSV ń pa iye àti ìlànà mọ (kò sí àwọ/gíga).\n
+msg.phrase	Graph: select a range, press F10, and choose Line/Bar/Mixed/Pie.\n	Àtẹ: yan agbègbè, tẹ F10, kí o yan Ìlà/Ọpá/Àdàpọ/Pai.\n
+msg.phrase	SGCALC for sgnano\n	SGCALC fún sgnano\n
+msg.phrase	Version 	Ẹyà
+msg.phrase	A Lotus 1-2-3 style spreadsheet as an SGX program.\n\n	Ìwé ìṣirò bíi Lotus 1-2-3 gẹgẹ bí ètò SGX.\n\n
+msg.phrase	Screen mode 3: text + CLUT8 FB (lowres disabled)\n	Ipò ojú-iboju 3: ọrọ + FB CLUT8 (lowres ti pa)\n
+msg.phrase	Sheet: %d rows x %d columns\n	Ìwé: ìlà %d x ọwọn %d\n
+msg.phrase	Formats: .ods / .fods (LibreOffice), .csv\n\n	Ọnà: .ods / .fods (LibreOffice), .csv\n\n
+msg.phrase	The grid is drawn on the text plane.\n	A ya àwọn ìlà sórí ojú ọrọ.\n
+msg.phrase	Charts and the 640x480 background use the FB.\n\n	Àtẹ àti ẹyìn 640x480 ń lo FB.\n\n
+msg.phrase	Cannot store the cell (%d).	Kò lè tọjú sẹẹlì (%d).
+msg.phrase	Copied %d x %d cells	A ṣẹdà sẹẹlì %d x %d
+msg.phrase	Cleared %s	A pa %s rẹ
+msg.phrase	'%s' is not a cell reference.	'%s' kì í ṣe ìtọkasí sẹẹlì.
+msg.phrase	Column width = %d	Fífẹ ọwọn = %d
+msg.phrase	Row height = %d	Gíga ìlà = %d
+msg.phrase	Auto fit: %d column(s), %d row(s)	Bá a mu fúnra rẹ: ọwọn %d, ìlà %d
+msg.phrase	Cannot apply the colour (%d).	Kò lè lo àwọ (%d).
+msg.phrase	Not a valid range.\nUse a range such as A1:C10.	Agbègbè tí kò tọ.\nLo agbègbè bíi A1:C10.
+msg.phrase	Graph range %s	Agbègbè àtẹ %s
+msg.phrase	Graph: %s	Àtẹ: %s
+msg.phrase	SGCALC: cannot set screen mode 3: %s\n	SGCALC: kò lè ṣètò ipò ojú-iboju 3: %s\n
+msg.phrase	Cannot read %s\n%s	Kò lè ka %s\n%s
+msg.phrase	Folder: %s	Fódà: %s
+msg.phrase	Unsupported extension.\nUse .csv, .ods or .fods.	Ìfàgùn tí a kò ṣe àtìlẹyìn fún.\nLo .csv, .ods tàbí .fods.
+msg.phrase	%s already exists.\nOverwrite it?	%s ti wà.\nKọ lé e lórí?
+msg.phrase	%s may not be writable.\nTry anyway?	Ó lè jẹ pé a kò lè kọ sí %s.\nGbìyànjú bẹẹ?
+msg.phrase	Unknown file type for %s	A kò mọ irú fáìlì %s
+msg.phrase	Unsupported file type.\nUse .csv, .ods or .fods.	Irú fáìlì tí a kò ṣe àtìlẹyìn fún.\nLo .csv, .ods tàbí .fods.
+msg.phrase	Cannot open %s\n%s	Kò lè ṣí %s\n%s
+msg.phrase	%s is a folder.	%s jẹ fódà.
+msg.phrase	Cannot import %s\n%s	Kò lè gbé %s wọlé\n%s
+msg.phrase	Loaded %s	A ti gbé %s wọlé
+msg.phrase	Cannot build the %s file.	Kò lè kọ fáìlì %s.
+msg.phrase	Cannot write %s\n%s	Kò lè kọ %s\n%s
+msg.phrase	unsupported version %u	ẹyà %u tí a kò ṣe àtìlẹyìn fún
+msg.phrase	Octave %d	Ọkítéèfù %d
+msg.phrase	Note %s	Ohùn %s
+msg.phrase	Instrument %d	Ohun èlò %d
+msg.phrase	Volume %s	Ìpariwo %s
+msg.phrase	Effect %c	Ipa %c
+msg.phrase	Parameter %s	Àfikún %s
+msg.phrase	Pattern %s	Àpẹẹrẹ %s
+msg.phrase	Playing pattern %s	Ó ń kọ àpẹẹrẹ %s
+msg.phrase	SAVE ERROR: %s	ÀṢÌṢE ÌPAMỌ: %s
+msg.phrase	Saved %s	A ti fi %s pamọ
+msg.phrase	LOAD ERROR: %s	ÀṢÌṢE ÌGBÉWỌLÉ: %s
+msg.phrase	BPM %d	BPM %d
+msg.phrase	Speed %d	Ìyára %d
+msg.phrase	Preview %s	Ìgbọ-ṣáájú %s
+msg.phrase	Instrument %s %s	Ohun èlò %s %s
+msg.phrase	Overwrite %s? (Y/N)	Kọ lé %s lórí? (Y/N)
+msg.phrase	  F5          Play the song from the current order	  F5          Kọ orin láti ètò yìí
+msg.phrase	  F6          Play the current pattern	  F6          Kọ àpẹẹrẹ yìí
+msg.phrase	  F7/Ctrl-C   Stop playback	  F7/Ctrl-C   Dá ìkọrin dúró
+msg.phrase	  Space       Play / stop	  Space       Kọ / dúró
+msg.phrase	  F4          Save as	  F4          Fi pamọ bí
+msg.phrase	  Ctrl-S      Save (asks for a name if new)	  Ctrl-S      Fi pamọ (ń béèrè orúkọ tí ó bá jẹ tuntun)
+msg.phrase	  Ctrl-O      Open a song	  Ctrl-O      Ṣí orin
+msg.phrase	  Ctrl-N      New song	  Ctrl-N      Orin tuntun
+msg.phrase	  F12         Quit (confirmation if modified)	  F12         Jáde (ń béèrè tí a bá yí i padà)
+msg.phrase	  [ ]         Previous / next order entry	  [ ]         Ètò tó ṣáájú / tó kàn
+msg.phrase	  { }         Insert / delete an order entry	  { }         Fi sí / pa ètò rẹ
+msg.phrase	  - +         Change the pattern in the entry	  - +         Yí àpẹẹrẹ inú ètò padà
+msg.phrase	  F11         Follow playback (turns off on manual move)	  F11         Tẹlé ìkọrin (ó ń pa nígbà tí a bá gbé e ní ọwọ)
+msg.phrase	  F1          Help; Left/Right changes page	  F1          Ìrànlọwọ; Òsì/Ọtún ń yí ojú-ìwé padà
+msg.phrase	  F8          Toggle edit mode	  F8          Tan/pa ipò àtúnṣe
+msg.phrase	  Arrows      Move the cursor	  Ọfà         Gbé kọsọ
+msg.phrase	  PgUp/PgDn   Jump 16 rows	  PgUp/PgDn   Fò ìlà 16
+msg.phrase	  Home/End    First / last row	  Home/End    Ìlà àkọkọ / ìkẹyìn
+msg.phrase	  F9/F10      Octave down / up	  F9/F10      Ọkítéèfù sísàlẹ / sókè
+msg.phrase	  Z S X D C V G B H N J M      lower piano row	  Z S X D C V G B H N J M      ìlà píánò ìsàlẹ
+msg.phrase	  Q 2 W 3 E R 5 T 6 Y 7 U      upper piano row	  Q 2 W 3 E R 5 T 6 Y 7 U      ìlà píánò òkè
+msg.phrase	  1           Note off	  1           Pa ohùn
+msg.phrase	  0 / Del     0 clears note/inst/fx; Del clears any	  0 / Del     0 ń pa ohùn/èlò/ipa rẹ; Del ń pa èyíkéyìí rẹ
+msg.phrase	  Ctrl-Z      Undo the last pattern/order edit	  Ctrl-Z      Dá àtúnṣe àpẹẹrẹ/ètò ìkẹyìn padà
+msg.phrase	  Axy   Volume slide: up x, down y	  Axy   Ìfàsẹ ìpariwo: sókè x, sísàlẹ y
+msg.phrase	  Cxx   Note cut after xx ticks	  Cxx   Gé ohùn lẹyìn tick xx
+msg.phrase	  Dxx   Set volume (00..7F)	  Dxx   Ṣètò ìpariwo (00..7F)
+msg.phrase	  Fxx   Speed if xx < 20, otherwise BPM	  Fxx   Ìyára tí xx < 20, bí bẹẹ kọ BPM
+msg.phrase	  Hxy   Arpeggio x, y semitones	  Hxy   Arpeggio x, y ìdajì ohùn
+msg.phrase	  Pxx   Pitch slide up	  Pxx   Ìfàsẹ ohùn sókè
+msg.phrase	  Qxx   Pitch slide down	  Qxx   Ìfàsẹ ohùn sísàlẹ
+msg.phrase	  F2 song settings, F3 instrument list	  F2 ètò orin, F3 àkójọ ohun èlò
+msg.phrase	HELP %d/2	ÌRÀNLỌWỌ %d/2
+msg.phrase	  Title	  Àkọlé
+msg.phrase	  BPM   : %d     (left/right -1/+1, -/+ -5/+5)	  BPM   : %d     (òsì/ọtún -1/+1, -/+ -5/+5)
+msg.phrase	  Speed : %d ticks/row	  Ìyára : tick %d/ìlà
+msg.phrase	  Rows  : %d (fixed)	  Ìlà   : %d (tí a fi múlẹ)
+msg.phrase	  Order : %d entries	  Ètò   : àkọsílẹ %d
+msg.phrase	  Patterns in use : %d	  Àpẹẹrẹ tí a ń lò : %d
+msg.phrase	Current instrument: %s %s	Ohun èlò yìí: %s %s
+msg.phrase	Files: %d	Fáìlì: %d
+msg.phrase	SGNO TRACKER: incompatible SGX ABI\n	SGNO TRACKER: SGX ABI kò bá a mu\n
+msg.phrase	S: check: wait -- a file is being read or written	Àyẹwò S:: dúró -- fáìlì kan ń jẹ kíkà tàbí kíkọ
+msg.phrase	S: check: the drive is busy or not ready	Àyẹwò S:: dráìfù ń ṣiṣẹ tàbí kò ṣetán
+msg.phrase	nothing for this item (ContextMenu.cfg)	kò sí nǹkan fún nǹkan yìí (ContextMenu.cfg)
+msg.phrase	bad command in ContextMenu.cfg	àṣẹ burúkú nínú ContextMenu.cfg
+msg.phrase	unknown action in ContextMenu.cfg	ìgbésẹ àìmọ nínú ContextMenu.cfg
+msg.prefix	menu	àkójọ
+msg.phrase	5 Macro	5 Macro
+msg.phrase	6 Help	6 Ìrànl
+msg.phrase	Run current	Ṣiṣẹ èyí
+msg.phrase	Run the macro at the cursor (#! header cell and the cells below it)	Ṣiṣẹ macro níbi kọsọ (sẹẹlì àkọlé #! àti sẹẹlì nísàlẹ rẹ)
+msg.phrase	Run selection	Ṣiṣẹ àṣàyàn
+msg.phrase	Run the selected cells as one macro (top-left cell is the #! header)	Ṣiṣẹ sẹẹlì tí a yàn bí macro kan (sẹẹlì òkè òsì ni àkọlé #!)
+msg.phrase	Run all	Ṣiṣẹ gbogbo
+msg.phrase	Run every macro in the sheet, top-left to bottom-right	Ṣiṣẹ gbogbo macro nínú ìwé, láti òkè òsì dé ìsàlẹ ọtún
+msg.phrase	Last error	Àṣìṣe ìkẹyìn
+msg.phrase	Show the last macro error	Fi àṣìṣe macro ìkẹyìn hàn
+msg.phrase	Macro	Macro
+msg.phrase	Macro: run #!ruby / #!python / #!basic cells	Macro: ṣiṣẹ sẹẹlì #!ruby / #!python / #!basic
+msg.phrase	Edit the cell (F2)	Ṣàtúnṣe sẹẹlì (F2)
+msg.phrase	Fit widths/heights to the contents	Bá fífẹ/gíga mu pẹlú ohun inú
+msg.phrase	Last macro error	Àṣìṣe macro ìkẹyìn
+msg.phrase	No macro error.	Kò sí àṣìṣe macro.
+msg.phrase	IME on	IME tàn
+msg.phrase	IME off	IME pa
+msg.phrase	Macro: %s %s ...	Macro: %s %s ...
+msg.phrase	%s: this firmware cannot run macros (SGX ABI 5.10 or later)	%s: firmware yìí kò lè ṣiṣẹ macro (SGX ABI 5.10 tàbí jù bẹẹ lọ)
+msg.phrase	Macro error: %s	Àṣìṣe macro: %s
+msg.phrase	Macro: %s done	Macro: %s ti parí
+msg.phrase	a macro is already running	macro kan ti ń ṣiṣẹ tẹlẹ
+msg.phrase	this language is not available	èdè yìí kò sí
+msg.phrase	not enough memory	ìrántí kò tó
+msg.phrase	the macro stopped with an error	macro dúró pẹlú àṣìṣe
+msg.phrase	Macro error %s: %s	Àṣìṣe macro %s: %s
+msg.phrase	Macro: not enough memory	Macro: ìrántí kò tó
+msg.phrase	Macro: the cursor is not on a macro (a #!ruby / #!python / #!basic cell or the cells below it)	Macro: kọsọ kò sí lórí macro (sẹẹlì #!ruby / #!python / #!basic tàbí sẹẹlì nísàlẹ rẹ)
+msg.phrase	Macro: no macro in the sheet	Macro: kò sí macro nínú ìwé
+msg.phrase	Run all macros	Ṣiṣẹ gbogbo macro
+msg.phrase	Macros: %d. Run them all, top-left to bottom-right? Changes cannot be undone.	Macro: %d. Ṣiṣẹ gbogbo wọn, láti òkè òsì dé ìsàlẹ ọtún? A kò lè dá àyípadà padà.
+msg.phrase	Macro: %d of %d done	Macro: %d nínú %d ti parí
+msg.phrase	Cleared the cell	A ti pa sẹẹlì náà rẹ
+msg.phrase	Cleared the selection	A ti pa àṣàyàn náà rẹ
+msg.phrase	Background colour = %d	Àwọ ẹyìn = %d
+msg.phrase	Text colour = %d	Àwọ ọrọ = %d
+msg.phrase	Graph: line	Àtẹ: ìlà
+msg.phrase	Graph: bar	Àtẹ: ọpá
+msg.phrase	Graph: mixed	Àtẹ: àdàpọ
+msg.phrase	Graph: pie	Àtẹ: pai
+msg.phrase	Exported %s	A ti kó %s jáde
+msg.phrase	choose a file or folder	yan fáìlì tàbí fódà kan
+msg.phrase	this drive cannot be written	a kò lè kọ sí ẹrọ yìí
+msg.phrase	an archive job is already running	iṣẹ àpamọ kan ti ń lọ lọwọ
+msg.phrase	no PSRAM for the archive task	kò sí PSRAM fún iṣẹ àpamọ
+msg.phrase	could not start the archive task	kò lè bẹrẹ iṣẹ àpamọ
+msg.phrase	too many items (32 at most)	ohun ti pọ jù (32 ló pọ jù)
+msg.phrase	nothing to compress	kò sí ohun tí a ó fún pọ
+msg.phrase	no name (or the name has / or \\)	kò sí orúkọ (tàbí orúkọ ní / tàbí \\)
+msg.phrase	32 items at most (mark fewer, or put them in a folder)	32 ló pọ jù (sàmì sí díẹ tàbí fi wọn sínú fódà kan)
+msg.prefix	archive	àpamọ
+msg.prefix	compress	fún pọ
+msg.prefix	render	gbé WAV jáde

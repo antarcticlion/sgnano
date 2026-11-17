@@ -1,0 +1,1162 @@
+# sgnano filer strings: Gàidhlig (2026-11-17). ui <TAB> Japanese <TAB> translation / msg.* <TAB> English <TAB> translation
+# status: unreviewed (machine translation, not checked by a native speaker; 2026-11-17). 未検証: ネイティブの確認をしていない仮の訳
+@lang gd
+@name Gàidhlig
+ui	一覧（ファイルとフォルダを 2 列 x 19 行に並べる）	Liosta (faidhlichean agus pasganan ann an 2 cholbh x 19 sreathan)
+ui	カーソルを動かす（左右は隣の列へ）	Gluais an cursair (clì / deas: an colbh eile)
+ui	前のページ / 次のページ	An duilleag roimhe / an ath dhuilleag
+ui	全部に印 / 印を反転（PC-98 FD と同じ）	Comharraich a h-uile / cuir a-steach na comharran (mar ann am PC-98 FD)
+ui	先頭 / 最後	An toiseach/mu dheireadh
+ui	印を付けて次へ / 印だけ付ける	Comharraich agus gluais air adhart / comharra a-mhàin
+ui	Shift+矢印	Shift+Saigheadan
+ui	範囲を選ぶ（Space でその範囲に印）	Tagh raon (Tha àite a’ comharrachadh an raoin)
+ui	フォルダに入る・ファイルを開く（F2/X は実行）	Cuir a-steach pasgan / fosgail faidhle (ruith F2 / X)
+ui	上のフォルダへ	Suas gu pasgan pàrant
+ui	ドライブを選ぶ（USB・フロッピー・CD・S: 内蔵）	Tagh draibhear (USB, sùbailte, CD, S: togte)
+ui	コピー（Shift+C / Shift+F3 は行き先を木から）	Dèan lethbhreac (tagh Shift + C / Shift + F3 an ceann-uidhe bhon chraoibh)
+ui	移動	Gluais
+ui	削除（Shift+D / Shift+F4 はフォルダ削除）	Sguab às (Shift + D / Shift + F4 sguab às pasgan)
+ui	名前を変える	Ath-ainmich
+ui	属性を変える	Atharraich na feartan
+ui	エディタで開く	Fosgail anns an deasaiche
+ui	テキスト表示（Shift+V / Ctrl+Alt+F7 は 16 進）	Seall mar theacsa (Shift+V/Ctrl+Alt+F7 hex)
+ui	ドライブの情報	Fiosrachadh drive
+ui	フォルダを作る / 新しいファイル	Pasgan ùr / faidhle ùr
+ui	シェル sgsh / 媒体を取り出す	Shell sgsh / cuir a-mach am meadhan
+ui	読み直す	Ath-luchdaich
+ui	見えている画面を PNG で保存	Sàbhail an sgrion mar PNG
+ui	窓を閉じる・選択を解く（サブフォルダでは上位へ）	Dùin an uinneag / glan an taghadh (ann am fo-phasgan: rachaibh suas)
+ui	ファイルの操作（FD と同じ。印・範囲・カーソルの順に選ぶ）	Obraichean faidhle (mar ann am FD: comharran, an uairsin an raon, an uairsin an cursair)
+ui	コピー: 行き先はドライブとフォルダの木から。ESC で止める	Dèan lethbhreac: tagh an ceann-uidhe bhon draibhear agus craobh pasgan. Tha ESC a’ stad
+ui	削除: y で確かめる。印・範囲をまとめて。フォルダは中身ごと	Sguab às: dearbhaich le y. Comharran agus raointean aig an aon àm. Faidhlichean leis an t-susbaint aca
+ui	フォルダを削除（中身ごと）	Sguab às pasgan (leis na th' ann)
+ui	名前を変える（今の名前を直して Enter）	Ath-ainmich (deasaich an t-ainm, cuir a-steach)
+ui	属性: R 読み出し専用・H 隠し・S システム・A アーカイブ	Feartan: R leughadh a-mhàin, H falaichte, siostam S, tasglann A
+ui	フォルダを作る	Pasgan ùr
+ui	新しいファイル（空）を作る	Faidhle ùr (falamh).
+ui	テキストで表示（Shift+V / Ctrl+Alt+F7 は 16 進）	Seall mar theacsa (Shift+V/Ctrl+Alt+F7 hex)
+ui	シェル sgsh（exit / Ctrl-D でファイラーへ）	Shell sgsh (fàgail / Ctrl-D air ais chun fhaidhle)
+ui	選んでいるドライブの素性（INQUIRY・IDENTIFY）	Dearbh-aithne an draibhidh (Sealladh, aithnichear)
+ui	FDD・LS-120・CD の媒体を取り出す	Cuir a-mach am meadhan FDD / LS-120 / CD
+ui	一覧を読み直す（CD は TOC から）	Ath-luchdaich an liosta (CD: bhon TOC)
+ui	ZMODEM で PC から受け取る（zm.sh put）	Faigh bhon PC le ZMODEM (zm.sh put)
+ui	ZMODEM で PC へ送る（zm.sh get）	Cuir chun PC le ZMODEM (zm.sh get)
+ui	.rb をコンパイルして .mrb を書き出す	Cruinnich .rb agus sgrìobh .mrb
+ui	Ruby の REPL（1 行ずつ、Ctrl-D / ESC で終わり）	Ruby REPL (aon loidhne aig an aon àm, Ctrl-D / ESC gu crìch)
+ui	MicroPython の REPL	MicroPython REPL
+ui	4MB ずつ分割 / .001 から結合	Roinn ann am pàirtean 4 MB / ceangail bho .001
+ui	分割 / 結合（Ctrl+F11 / F12 と同じ）	Split / join (coltach ri Ctrl+F11/F12)
+ui	画面（Alt+F。FD の F キーとぶつからない）	Sgrion (Alt+F, chan eil e an aghaidh nan iuchraichean FD F)
+ui	FB（絵）/ テキスト面を出す・隠す	Seall / falaich an FB (dealbh) / an teacsa
+ui	FB の表示ページ（0〜3）	Duilleag taisbeanaidh FB (0-3)
+ui	FB を 0 で消す / 明るさを 1/2 に（RGB555）	Glan an FB gu 0 / leth a shoilleireachd (RGB555)
+ui	USB のエンドポイントと LAN の状態	Puingean crìochnachaidh USB agus staid LAN
+ui	FB の表示ページを消す / 明るさを 1/2 に	Glan an duilleag taisbeanaidh FB / cuir sìos a shoilleireachd gu leth
+ui	テキストの属性の見本	Samhlaidhean teacsa buadhan
+ui	モニタの EDID（起動時に読んだもの）	Cum sùil air EDID (leugh aig bròg)
+ui	フォント ROM のライセンスとクレジット	Ceadan agus creideasan cruth ROM
+ui	設定（表示の言語・IME・キーボードロケール）	Roghainnean (cànan taisbeanaidh, IME agus locale meur-chlàr)
+ui	時計（NTP で合わせた日本時間。s ですぐ合わせる）	Cloc (ùine Iapan air a shuidheachadh le NTP; s sioncranachadh a-nis)
+ui	表計算（SGCALC）を開く	Clèithe fosgailte (SGCALC)
+ui	S: ドライブのエラー検査（誤りがあれば直すか聞く）	Thoir sùil air S: airson mearachdan (faighneachd mus dèan thu càradh)
+ui	トラッカー（TRACKER）を開く	Fosgail Tracker
+ui	再起動（確かめの窓が出る）	Ath-thòisich (iarr an toiseach)
+ui	ADC のステレオ入力（GP40 / 41）を鳴らす	Cluich an cuir a-steach stereo ADC (GP40 / 41)
+ui	VGM/VGZ を 96kHz/24bit WAV に書き出す	Às-mhalairt VGM/VGZ gu WAV 96 kHz / 24-bit
+ui	このヘルプ	An cuideachadh seo
+ui	ページを替える	Atharraich an duilleag
+ui	閉じる	Dùin
+ui	テキスト・16 進のビュアー（less 風）	Sealladair teacsa / heics (mar nas lugha)
+ui	1 行	Aon loidhne
+ui	1 ページ	Aon duilleag
+ui	半ページ	Leth-dhuilleag
+ui	探す（前へ・後ろへ）/ 次・前	Rannsaich (air adhart / air ais) / an ath / roimhe
+ui	一覧へ戻る（F1 はビュアーのヘルプ）	Air ais dhan liosta (F1: cuideachadh an neach-seallaidh)
+ui	画像のビュアー	Sealladair ìomhaigh
+ui	一覧へ戻る（F2 F3 F6 F7 Shift+F2 F3 は効く）	Air ais dhan liosta (obair F2 F3 F6 F7 Shift+F2 F3)
+ui	エディタ（E / Shift+F8）	Deasaiche (E / Shift+F8)
+ui	保存する（UTF-8。改行と BOM は元のまま）	Sàbhail (UTF-8; cinn loidhne agus BOM air a chumail)
+ui	閉じる（変わっていれば Y / N / ESC）	Dùin (ma thèid atharrachadh: Y / N / ESC)
+ui	挿入 / 上書き	Cuir a-steach / sgrìobhadh thairis
+ui	IME（日本語・英語・ハングル）の入・切	IME air / dheth (Seapanais / Beurla / Coirèanais)
+ui	IME の言語（日本語 / English / 한국어）	Cànan IME (Iapanais / Beurla / Coirèanais)
+ui	ひらがな / カタカナで確定	Dèan dealas mar hiragana / katakana
+ui	エディタのヘルプ	Cuideachadh an neach-deasachaidh
+ui	シェル	Slige
+ui	シェル（csh のサブセット。exit / Ctrl-D で戻る、help で一覧）	Shell (fo-sheata csh. fàgail / Ctrl-D airson tilleadh, cuidich le liosta nan òrduighean)
+ui	一覧と移動	Dèan liosta agus gluasad
+ui	ファイルの操作	Obraichean faidhle
+ui	画面と機器	Sgrion agus innealan
+ui	ビュアーとエディタ	Luchd-amhairc agus an neach-deasachaidh
+ui	ヘルプ  %u / %u  %s	Help  %u / %u  %s
+ui	Left Right: ページを替える    F1 / ESC: 閉じる	Clì Deas: atharraich an duilleag F1 / ESC: dùin
+ui	sgnano を再起動しますか？	Ath-thòisich sgnano?
+ui	[ 再起動 ]	[ Ath-thòisich ]
+ui	[ キャンセル ]	[ Sguir dheth ]
+ui	S: ドライブのエラー検査	Thoir sùil air an draibhear S: airson mearachdan
+ui	ファイル %lu  フォルダ %lu	Faidhlichean %lu pasgain %lu
+ui	大きさが鎖と合わない	Chan eil am meud a’ freagairt ris an t-sreath
+ui	どこからも使われていないクラスタ	Cruinneachaidhean air an cleachdadh le rud sam bith
+ui	重なったクラスタ	Braislichean tar-cheangailte
+ui	壊れた項目	Inntrigidhean briste
+ui	FAT の 2 つの写しの食い違い	Tha an dà leth-bhreac FAT eadar-dhealaichte
+ui	エラーはありません。	Gun mhearachdan.
+ui	エラーが見つかりました。修復しますか？	Chaidh mearachdan a lorg. Càradh iad?
+ui	修復しました（上は直した数）。	Càradh (chaidh na h-àireamhan gu h-àrd a shuidheachadh).
+ui	検査・修復できませんでした（S: が使用中）。	Cha b' urrainn dhuinn sgrùdadh no càradh (S: tha e trang).
+ui	[ 修復する ]	[ càradh ]
+ui	[ やめる ]	[ Sguir dheth ]
+ui	何かキーで閉じる	Bidh iuchair sam bith a’ dùnadh
+ui	設定	Suidhichidhean
+ui	表示の言語	Cànan taisbeanaidh
+ui	キーボードロケール	Ionad meur-chlàr
+ui	Up / Down  Enter 決める  ESC やめる	Suas / Sìos Enter tagh cuir dheth ESC
+ui	表示の言語 (Language)	Cànan taisbeanaidh
+ui	Up / Down  Enter 決める  ESC 戻る	Suas / sìos Cuir a-steach: suidhich ESC: air ais
+ui	%c: をどの文字に固定しますか（A〜Z、S を除く。ESC でやめる）	Ceartaich %c: dè an litir? (AZ ach a-mhàin S. ESC air a chuir dheth)
+ui	ドライブ  文字 / Enter 選ぶ  F2 文字を固定・解除  F3 文字を決めて固定  L / ESC やめる	Litir draibhidh / Cuir a-steach tagh F2 socraich / dì-stàlaich an litir F3 mar ... cuir dheth L / ESC
+ui	  区画 %u	sgaradh %u
+ui	%c:* （固定・つながっていません）%04X:%04X%s  %s	%c:* (stèidhichte, gun cheangal) %04X:%04X%s %s
+ui	お知らせ	Sanas
+ui	ドライブ %c:  %s	Dràibheadh ​​%c: %s
+ui	ドライブ  (なし)	Drive (chan eil gin)
+ui	音楽 CD  %u トラック	Audio CD  %u tracks
+ui	フォルダ %u  ファイル %u  合計 %s	Faidhlichean %u fhaidhlichean %u iomlan %s
+ui	読んでいます...	A' leughadh...
+ui	* 印 %u 個  %s	* comharraichte %u %s
+ui	%lu バイト	%lu bytes
+ui	属性 %s   更新日時 %s   作成日時 %s   %s	Chruthaich attr %s atharraichte %s %s %s
+ui	日	ghrian
+ui	月	Mon
+ui	火	Dimàirt
+ui	水	Dòs
+ui	木	Thu
+ui	金	Fri
+ui	土	Sat
+ui	時計は合わせていません（LAN の NTP）	Chan eil an gleoc air a shuidheachadh (NTP thairis air an LAN)
+ui	FB  表示 %u  書込 %u	FB  display %u  write %u
+ui	1 ヘルプ	1 Help
+ui	2 実行	2 Ruith
+ui	3 ｺﾋﾟｰ	3 Copy
+ui	4 削除	4 Del
+ui	5 名前	5 Rename
+ui	7 FB消去	7 FBclr
+ui	8 FB減光	8 FBdim
+ui	9 ﾄﾞﾗｲﾌﾞ	9 Druim
+ui	10 EP表	10 EP
+ui	11 時計	11 Cloc
+ui	12 表計	12 CALC
+ui	1 属性	1 Atr
+ui	2 情報	2 Fios
+ui	3 移動	3 Gluais
+ui	5 作成	5 Mkdir
+ui	6 シェル	6 Slige
+ui	8 編集	8 Edit
+ui	9 表示	9 View
+ui	10S:検査	10 S:chk
+ui	11 ﾄﾗｯｸ	11 TRÀTH
+ui	12再起動	12Reboot
+ui	1 新規	1 Ùr
+ui	2 ﾌｫﾙﾀﾞ	2 Fillte
+ui	3 名前	3 Rename
+ui	4 属性	4 Attrib
+ui	6 ｺﾋﾟｰ	6 Copy
+ui	7 移動	7 Gluais
+ui	8 削除	8 Delete
+ui	9 編集	9 Edit
+ui	10ｺﾝﾊﾟｲﾙ	10 mhbr
+ui	11 分割	11 Split
+ui	12 結合	12 Join
+ui	1 属性例	1 Atrs
+ui	2 FB切替	2 FB
+ui	3 文字面	3 Teacs
+ui	5 画面写	5 Sgrios
+ui	6 表示頁	6 DispPg
+ui	9 ZM受信	9 ZMrecv
+ui	10ZM送信	10ZMsend
+ui	2 FB消去	2 FBclr
+ui	3 FB減光	3 FBDim
+ui	5 再読込	5 Reload
+ui	7 16進	7 heics
+ui	9 ﾗｲｾﾝｽ	9 Leic
+ui	8 設定	11 Setup
+ui	時刻を合わせる（日本時間。NTP で合わせられませんでした）	Suidhich an uaireadair (àm Iapanach. Cha b’ urrainn do NTP a shuidheachadh)
+ui	起動のパラメタ	Ruith le paramadairean
+ui	新しいフォルダ	Pasgan ùr
+ui	新しいファイル	Faidhle ùr
+ui	時刻:	Uair:
+ui	実行:	Ruith:
+ui	名前:	Ainm:
+ui	年-月-日 時:分  Enter 合わせる  ESC そのまま	YYYY-MM-DD hh: mm Cuir a-steach seata ESC cumail
+ui	Enter 走らせる  ←→ 動かす  BS / Del 消す  ESC やめる	Cuir a-steach ruith <-> gluais BS / Del sguab às ESC
+ui	Enter 変える  ←→ 動かす  BS / Del 消す  ESC やめる	Cuir a-steach ath-ainm <-> gluais BS / Del sguab às ESC
+ui	Enter 作る  ←→ 動かす  BS / Del 消す  ESC やめる	Cuir a-steach cruthaich <-> gluais BS / Del sguab às ESC
+ui	消す	Sguab às
+ui	個の項目	nithean
+ui	フォルダは中身ごと消します。よろしいですか？	Thèid pasganan a sguabadh às leis na tha annta. A bheil thu cinnteach?
+ui	このファイルを消しますか？	Sguab às am faidhle seo?
+ui	（元に戻せません。フォルダの中のファイルも消えます）	(Cha ghabh seo a thoirt air falbh. Thèid faidhlichean sna pasganan a sguabadh às cuideachd)
+ui	[ はい (Y) ]	[ Tha (Y)]
+ui	[ いいえ (N) ]	[Chan eil (N)]
+ui	バイナリビュアー: ファイルを選んでください	sealladair hex: tagh faidhle
+ui	テキストビュアー: ファイルを選んでください	sealladair teacsa: tagh faidhle
+ui	移動先	Gluais gu
+ui	コピー先	Dèan lethbhreac gu
+ui	バッファがいっぱいです (buffer full)	Tha am bufair làn
+ui	読み出し専用のドライブです (read-only)	Tha an draibhear ri leughadh a-mhàin
+ui	保存できません (no writer)	Cha ghabh sàbhaladh (chan eil sgrìobhadair ann)
+ui	保存を始められません (the drive is busy?)	Cha b’ urrainn dhuinn tòiseachadh air sàbhaladh (tha an draibhear trang?)
+ui	保存しています... (saving)	A' sàbhaladh...
+ui	2 保存	2 Save
+ui	5 色分け	5 Dath
+ui	6 ﾞ	6 Hira
+ui	7 ｶﾀｶﾅ	7 Ceit
+ui	8 予測	8 Pred
+ui	10 終了	10 Sguir
+ui	1 先頭	1 Bàrr
+ui	2 最後	2 End
+ui	3 挿/上	3 InOvr
+ui	4 辞書	4 Dict
+ui	6 半	6 HHira
+ui	7 半ｶﾅ	7 Hatha
+ui	 %s  %s  行 %lu/%lu 桁 %u  %s  %s %s%s%s	 %s  %s  Ln %lu/%lu Col %u  %s  %s %s%s%s
+ui	*変更	*modh
+ui	上書	OVR
+ui	挿入	INS
+ui	  読出専用	R/O
+ui	 エディタ (sgnano edit)                      F1 / ESC で閉じる	Deasaiche (deasachadh sgnano) F1 / ESC a’ dùnadh
+ui	 矢印 / Home End / PgUp PgDn   カーソルを動かす	Saighdean / Deireadh Dachaigh / PgUp PgDn gluais an cursair
+ui	 Ctrl-T / Ctrl-B               ファイルの先頭 / 最後	Ctrl-T / Ctrl-B mullach / deireadh an fhaidhle
+ui	 BS / Del                      前の字 / カーソルの字を消す	BS / Del sguab às roimhe / aig a’ chursair
+ui	 Enter                         改行（前の行の字下げを引き継ぐ）	Cuir a-steach loidhne ùr (a’ cumail an indent)
+ui	 Tab / Ins                     タブ / 挿入と上書きの切り替え	Tab / Ins tab / cuir a-steach no cuir thairis air
+ui	 F5                            色分け（拡張子から。C/C++・mruby・MicroPython・SG BASIC・なし）	Dathadh F5 (bhon leudachadh; C/C ++, mruby, MicroPython, SG BASIC, gin)
+ui	 F2  (Ctrl-S)                  保存（UTF-8、改行は元の形）	Sàbhail F2 (Ctrl-S) (UTF-8, cinn loidhne air an cumail)
+ui	 F10 / ESC                     閉じる（変更があれば聞く）	F10 / ESC dùin (a’ faighneachd an deach atharrachadh)
+ui	 IME:  Ctrl-Space / F12        オン・オフ（あ / A）	IME: Ctrl-Space / F12 air / dheth (あ / A)
+ui	       F9                      IME の言語（このエディタの間だけ。閉じると戻る）	Cànan F9 IME (an deasaiche seo a-mhàin; air ath-nuadhachadh faisg air làimh)
+ui	       F8                      日本語の予測変換 オン・オフ	F8 Tionndadh ro-innse Iapanach air / dheth
+ui	       日本語                  ローマ字 -> ひらがな（F6）・カタカナ（F7）	romaji Iapanach -> hiragana (F6) / katakana (F7)
+ui	                               半角ひらがな（Shift+F6）・半角カタカナ（Shift+F7）	Hiragana leth-leud (Shift+F6) / katakana leth-leud (Shift+F7)
+ui	                               2 字以上で予測、Space で連文節変換	Dèan ro-innse le 2 charactar no barrachd, tionndaidh clàs leantainneach le Space
+ui	       English                 2 字以上で予測補完	Beurla Crìochnachadh ro-innseach le 2 charactar no barrachd
+ui	       한국어                  2 ボル式ハングル	한국어 2 Hangul ann an stoidhle Bol
+ui	       Space / Enter           変換 / 確定	Àite / Cuir a-steach Tionndadh / Dearbhaich
+ui	       ← →                    文節を選ぶ	← → Tagh abairt
+ui	       Shift+← →               文節の右端を 1 字 縮/拡（候補を出し直す）	Shift+← → Lùghdaich/fas ceann deas a’ chlàs le aon charactar (tagraichean ùra)
+ui	       ↑ ↓ / Tab               候補の窓で前 / 次の候補（窓は変換の下、画面の下では上）	↑ ↓ / Tab Roimhe / an ath thagraiche anns a’ priob-uinneag (fon teacsa, gu h-àrd faisg air a’ bhonn)
+ui	       →→→ で Enter            すべての候補（2 列 x 8 個、← → で列とページ、Enter で決める）	Cuir a-steach air →→→ A h-uile tagraiche (2 x 8, ← → colbh agus duilleag, tha Enter a’ taghadh)
+ui	       Enter                   次の文節へ（最後の文節で全体を確定）	Cuir a-steach An ath chlàs (a’ dearbhadh an t-iomlan aig a’ chlàs mu dheireadh)
+ui	       Ctrl-U                  いまの語をユーザー辞書へ	Ctrl-U Cuir am facal gnàthach ri faclair luchd-cleachdaidh
+ui	 Shift+F1 / F2 / F3 / F4       先頭 / 最後 / 挿入と上書き / ユーザー辞書へ	Shift + F1 / F2 / F3 / F4 Top / deireadh / cuir a-steach - ath-sgrìobhadh / gu faclair an neach-cleachdaidh
+ui	       BS / ESC                1 字戻す / 取り消し	BS / ESC Rach air ais aon charactar / Sguir dheth
+ui	       , . - [ ] /             、 。 ー 「 」 ・	, . - [ ] / 、 。 ー 「 」 ・
+ui	変更あり  Y: 保存して閉じる  N: 保存せず閉じる  ESC: 戻る	Atharraichte Y: sàbhail agus dùin N: dùin gun a bhith a’ sàbhaladh ESC: air ais
+ui	[予測] Tab/↑↓: 候補  Space: 変換  Esc: 取消	[Ro-innse] Tab/↑↓: tagraiche Àite: tionndaidh Esc: cuir dheth
+ui	[候補] ↑↓: 選ぶ  ←→: 列・ページ  Enter: 決める	[Tagraichean] ↑↓: tagh ←→: colbh/duilleag Cuir a-steach: tagh
+ui	[変換] ↑↓候補 ←→文節 Shift+←→区切り Enter次へ	[Tionndaidh] ↑↓cand ←→ clàs Shift+← → Ceangailte Cuir a-steach an ath rud
+ui	[한국어] Tab/↑↓: 候補  Enter/Space: 確定	[한국어] Tab/↑↓: tagraiche Cuir a-steach/Space: dearbhaich
+ui	[English] Tab/↑↓: 候補  Enter: 確定	[Beurla] Tab/↑↓: tagraiche Cuir a-steach: dearbhaich
+ui	2ボル式ハングル入力  Ctrl-Space: 英数	Cuir a-steach Hangul 2-seata Ctrl-Space: alphanumeric
+ui	予測補完  Ctrl-Space: 直接入力	Crìochnachadh ro-innseach Ctrl-Space: cuir a-steach dìreach
+ui	辞書なし: ひらがな/カタカナ入力のみ  F6/F7	Gun fhaclair: hiragana/katakana a-mhàin F6/F7
+ui	Space: 変換  F7: カタカナ  Ctrl-Space: 英数	Àite: tionndadh F7: katakana Ctrl-Space: alphanumeric
+ui	Space: 変換  F6: ひらがな  Ctrl-Space: 英数	Àite: tionndadh F6: hiragana Ctrl-Space: alphanumeric
+ui	半角  F6: ひらがな  F7: カタカナ  Shift+F6/F7: 半角	Leth-leud F6: hiragana F7: katakana Shift+F6/F7: leth
+ui	IME オフ	IME dheth
+ui	 予測	ro-innse
+ui	日本語の予測変換: オン	Eadar-theangachadh Iapanach ro-innseach: Air adhart
+ui	日本語の予測変換: オフ	Eadar-theangachadh ro-innseach airson Seapanais: Off
+ui	日本語IMEで使います	Cleachd le IME Iapanach
+ui	ユーザー辞書に追加できません	Cha ghabh a chur ri faclair a' chleachdaiche
+ui	色分け: %s	Dathan: %s
+ui	読み込んでいます... (loading)	A' luchdachadh...
+ui	読み込めませんでした (could not read)	Cha b' urrainn dhuinn am faidhle a leughadh
+ui	%lu 行%s%s	%lu loidhnichean %s %s
+ui	  Shift_JIS を UTF-8 で開きました（保存は UTF-8）	fhosgladh Shift_JIS mar UTF-8 (sàbhail mar UTF-8)
+ui	  読み出し専用	leughadh a-mhàin
+ui	保存しました (saved)	Air a shàbhaladh
+ui	保存できませんでした (write failed)	Cha b' urrainn dhuinn sàbhaladh (dh'fhàillig an sgrìobhadh)
+ui	候補	Tagraichean
+ui	7 書込頁	7 WrtPg
+ui	9 ﾃｷｽﾄ	9 Teacs
+ui	9 ﾊﾞｲﾅﾘ	9 Heics
+ui	読み込み中 %lu%%  	A’ luchdachadh %lu%%
+ui	（先頭だけ）  	(an toiseach a-mhàin)
+ui	16 進  q ESC: 戻る  F1: ヘルプ	Hex q ESC: cùl F1: cuideachadh
+ui	テキスト  q ESC: 戻る  F1: ヘルプ	Teacs q ESC: air ais F1: cuideachadh
+ui	ビュアーのキー（less 風。テキストと 16 進で共通）	Iuchraichean sealladair (mar nas lugha; an aon rud airson teacsa agus hex)
+ui	1 行進む	Aon loidhne sìos
+ui	1 行戻る	Aon loidhne suas
+ui	1 ページ進む	Aon duilleag sìos
+ui	1 ページ戻る	Aon duilleag suas
+ui	半ページ進む / 戻る	Leth-dhuilleag sìos/suas
+ui	/文字列  ?文字列	/teacs ?text
+ui	下へ探す / 上へ探す（大文字小文字は区別しない）	Rannsaich sìos / suas (leig seachad a’ chùis)
+ui	次 / 前を探す	An ath gheam / an geama roimhe
+ui	16 進で表示する（いま見ている所のまま）	Seall mar hex (aig an aon àite)
+ui	テキストで表示する（いま見ている所のまま）	Seall mar theacsa (aig an aon àite)
+ui	色分けを替える（C/C++・mruby・MicroPython・SG BASIC・なし）	Atharraich an dath (C/C ++, mruby, MicroPython, SG BASIC, gin)
+ui	FB / テキスト面を出す・隠す	Seall / falaich an FB / an teacsa
+ui	FB の表示ページ / 書き込みページ	Duilleag taisbeanaidh FB / duilleag sgrìobhaidh
+ui	ファイラーへ戻る	Air ais chun an fhaidhle
+ui	このヘルプを閉じる	Dùin an cuideachadh seo
+ui	コピー	Dèan lethbhreac
+ui	 %s: フォルダを読んでいます... %u 個	%s: a’ leughadh nam pasgain... %u
+ui	 %s: 行き先の空きを数えています...	%s: A’ cunntadh an àite saor aig a’ cheann-uidhe…
+ui	 %s: 行き先の空きが足りません	%s: chan eil àite gu leòr an-asgaidh aig a’ cheann-uidhe
+ui	 移動: 元のフォルダを消しています	Gluais: thoir air falbh na pasganan tùsail
+ui	終了しました	Dèanta
+ui	止まりました	Sguir
+ui	 %s中%s	%s a' dol air adhart %s
+ui	（止めています）	(stad)
+ui	 元: %s	bho: %s
+ui	 先: %s	Gu: %s
+ui	 ファイル %u / %u 個  フォルダ %u 個  %s / %s  (%u%%)%s	Faidhlichean %u / %u pasgain %u %s / %s (%u %%) %s
+ui	  多すぎるので一部だけ	cus: only some
+ui	 要る大きさ %s、空き %s。続けますか？	Feumaidh %s, saor %s. Lean air adhart?
+ui	 Y: 続ける   N / ESC: やめる	Y: lean air adhart N / ESC: cuir dheth
+ui	 何かキーを押すと閉じます	Brùth iuchair sam bith gus a dhùnadh
+ui	 ESC: 止める	ESC: stad
+ui	 %s: ←→ ドライブ  ↑↓ フォルダ  Space 開く・閉じる  Enter 決める  ESC やめる	%s: ←→ draibheadh ​​↑↓ pasgan Àite fosgailte/dùin Cuir a-steach tagh cuir dheth ESC
+ui	 読めません: %s	Cha ghabh leughadh: %s
+ui	 フォルダを読んでいます...（ESC で止める）  %u 個	A' leughadh nam pasganan... (stad an ESC) %u
+ui	 フォルダ %u 個%s	%u pasgain %s
+ui	（多すぎるか深すぎるので、一部だけ）	(cus no ro dhomhainn: dìreach cuid)
+ui	フォルダの展開を止めました	Sguir am pasgan fhosgladh
+ui	Space で開き直せます。もう一度 ESC でやめます	Bidh Space ga fhosgladh a-rithist. ESC a-rithist air a chuir dheth
+ui	 SMF / SGT プレイヤー   %s	Cluicheadair SMF / SGT %s
+ui	 読み込んでいます... %lu / %lu バイト	A' luchdachadh... %lu / %lu bytes
+ui	 %s / %s   %s   ポート %u	 %s / %s   %s   ports %u
+ui	一時停止	Stad
+ui	再生中	A' cluich
+ui	 Space: 一時停止  m: MIDI OUT  q / ESC: 止める	Àite: stad m: MIDI OUT q / ESC: stad
+ui	 q / ESC: やめる	q / ESC: cuir dheth
+ui	フォント ROM のライセンスとクレジット\n\nROM: %s（版 %lu.%lu、%lu 文字、フラッシュの 0x%08lX から）\n\n	Ceadan agus creideasan cruth ROM\n\nROM: %s (dreach %lu.%lu, %lu caractaran, o 0x%08lX san flash)
+ui	== 収めているフォント（ROM の出所の表）==\n	== Cruthan san ROM (clàr tùsail an ROM) ==
+ui	  （表が無い ROM）\n	(chan eil clàr aig an ROM)
+ui	\n== ROM のクレジットの区画 ==\n\n	== Raon creideasan an ROM ==
+ui	（区画が無い）\n	(chan eil sgìre mar sin)
+ui	\n== 組み込んだソフトウェアのライセンス ==\n	== Ceadan a' bhathar-bhog togte ==
+ui	 %s を PNG で保存   %s	A' sàbhaladh %s mar PNG %s
+ui	画面	Sgrion
+ui	 組み立てています... %lu / %lu 行	Togalach... %lu / %lu sreathan
+ui	 書いています... %lu / %lu KB（FB は隠しています）	Sgrìobhadh... %lu / %lu KB (tha am FB falaichte)
+ui	書けませんでした	Cha b' urrainn sgrìobhadh
+ui	書庫の名前（印の付いた項目、無ければカーソルの項目を入れる）	Ainm an tasglann (na nithean comharraichte, no an rud cursair mura h-eil ann)
+ui	Enter 圧縮する  ←→ 動かす  BS / Del 消す  ESC やめる	Cuir a-steach compress ←→ gluais BS / Del sguab às ESC
+ui	WAV 書き出し: %s 中止（%s）	Às-mhalairt WAV: %s air a chur dheth (%s)
+ui	WAV 書き出し: %s 失敗（%s）	Às-mhalairt WAV: %s air fàilligeadh (%s)
+ui	WAV 書き出し: %s 合計 %s	Às-mhalairt WAV: %s iomlan %s
+ui	 WAV 書き出し（96kHz / 24bit）: %s	Às-mhalairt WAV (96kHz / 24bit): %s
+ui	中止しました	Air a chur dheth
+ui	失敗しました	Dh'fhàillig
+ui	 合計 %s	Iomlan %s
+ui	 中止しました（%s。半端なファイルは消しました）	Sguir dheth (%s; chaidh am faidhle pàirteach a sguabadh às)
+ui	 書き出せませんでした（%s）。理由:	Cha b' urrainn dhuinn às-mhalairt (%s). Adhbhar:
+ui	 （理由は分かりません）	(adhbhar neo-aithnichte)
+ui	 %u%%   経過 %s%s	Dh'fhalbh %u%% %s%s
+ui	 ESC: 止める（半端なファイルは消します）	ESC: stad (tha am faidhle pàirt air a sguabadh às)
+ui	書庫: %s	Tasglann: %s
+ui	読み込み中…（ESC でやめる）	Leughadh... (ESC ri chur dheth)
+ui	 %u 項目%s  合計 %s バイト  展開先: %s	%u nithean %s iomlan %s bytes earrann gu: %s
+ui	 Enter 項目を展開  X 全部を展開  ↑↓ 動かす  ESC 閉じる	Cuir a-steach earrann earrann X thoir a-mach a h-uile ↑↓ gluais ESC dlùth
+ui	圧縮	Dùmhlachadh
+ui	一覧	Liosta
+ui	展開	Earrann
+ui	 合計 %s   %u 項目	Iomlan %s %u nithean
+ui	 合計 %s   %u ファイル	Iomlan %s %u fhaidhlichean
+ui	 中止しました（%s。書きかけのファイルは消しました）	Sguir dheth (%s; chaidh am faidhle neo-chrìochnaichte a sguabadh às)
+ui	 できませんでした（%s）: %s	Cha b' urrainn dhi a dhèanamh (%s): %s
+ui	 %u%%   経過 %s   %s バイト%s	Chaidh %u%% seachad air %s %s bytes%s
+ui	 経過 %s   %s バイト%s	chaidh %s %s bytes%s seachad
+ui	 ESC: 止める（書きかけのファイルは消します）	ESC: stad (tha am faidhle neo-chrìochnaichte air a sguabadh às)
+ui	書庫: %s 失敗（%s）	Tasglann: Dh'fhàillig %s (%s)
+ui	圧縮: %s（%u 項目）	Dùmhlaichte: %s (%u items)
+ui	展開: %s（%u ファイル）	Air a thoirt a-mach: %s (%u files)
+msg.phrase	the drive went away	dh'fhalbh an draibh
+msg.phrase	reading the partitions again...	a’ leughadh na partitions a-rithist…
+msg.phrase	could not open the volume (no memory?)	cha b’ urrainn dhuinn an tomhas-lìonaidh fhosgladh (gun chuimhne?)
+msg.phrase	opening the volume...	a 'fosgladh an fhuaim ...
+msg.phrase	no memory for the file list	chan eil cuimhne ann airson liosta nam faidhlichean
+msg.phrase	reading the directory... (retrying)	a' leughadh an eòlaire... (a' feuchainn a-rithist)
+msg.phrase	could not read the directory	cha b' urrainn dhuinn an t-eòlaire a leughadh
+msg.phrase	reading the directory...	a' leughadh an eòlaire...
+msg.phrase	the drive did not answer -- reading the partitions again	cha do fhreagair an draibh -- a' leughadh na pàirtean a-rithist
+msg.phrase	could not read the directory (not FAT12/16/32?)	cha b’ urrainn dhuinn an eòlaire a leughadh (chan e FAT12/16/32?)
+msg.phrase	too many entries -- showing the first ones	cus inntrigidhean - a' sealltainn a' chiad fheadhainn
+msg.phrase	no file system found on this partition	cha deach siostam fhaidhlichean a lorg air a' phàirt seo
+msg.phrase	the path is too long	tha an t-slighe ro fhada
+msg.phrase	joining...	a' tighinn còmhla...
+msg.phrase	splitting...	sgoltadh...
+msg.phrase	renaming...	ag ath-ainmeachadh...
+msg.phrase	creating the folder...	a' cruthachadh am pasgan...
+msg.phrase	creating the file...	a' cruthachadh an fhaidhle...
+msg.phrase	deleting...	a' sguabadh às...
+msg.phrase	writing the attributes...	a’ sgrìobhadh nam feartan...
+msg.phrase	the drive is busy	tha an draibh trang
+msg.phrase	busy	trang
+msg.phrase	choose files or folders	tagh faidhlichean no pasganan
+msg.phrase	choose files or folders (not "..")	tagh faidhlichean no pasganan (chan e "..")
+msg.phrase	stop the CD first	stad an CD an toiseach
+msg.phrase	the CD cannot be changed (copy instead)	chan urrainn an CD atharrachadh (lethbhreac na àite)
+msg.phrase	a system folder cannot be moved	chan urrainn pasgan siostam a ghluasad
+msg.phrase	no drive can be written (FAT / exFAT / NTFS only)	chan urrainnear draibheadh ​​​​sam bith a sgrìobhadh (FAT / exFAT / NTFS a-mhàin)
+msg.phrase	the drive is gone	tha an dràibhear air falbh
+msg.phrase	nothing chosen	ni sam bith air a thaghadh
+msg.phrase	nothing selected	chan eil dad air a thaghadh
+msg.phrase	could not start	cha b' urrainn tòiseachadh
+msg.phrase	could not open	cha b'urrainn fosgladh
+msg.phrase	only on a FAT / exFAT / NTFS drive	dìreach air draibhear FAT / exFAT / NTFS
+msg.phrase	no name	gun ainm
+msg.phrase	that name already exists	tha an t-ainm sin ann mu thràth
+msg.phrase	could not start (bad name or the drive is busy)	cha b’ urrainn dhuinn tòiseachadh (droch ainm no tha an draibhear trang)
+msg.phrase	could not start (the drive is busy)	cha b’ urrainn dhomh tòiseachadh (tha an draibhear trang)
+msg.phrase	the name cannot have / or \\ (only inside this folder)	chan fhaod an t-ainm a bhith / no \\ (am broinn a’ phasgan seo a-mhàin)
+msg.phrase	the name is the same	tha an t-ainm mar an ceudna
+msg.phrase	the item is read-only (A to change)	tha an nì ri leughadh a-mhàin (A ri atharrachadh)
+msg.phrase	choose a .rb file on a writable drive	tagh faidhle .rb air draibh a ghabhas sgrìobhadh
+msg.phrase	choose a .rb file	tagh faidhle .rb
+msg.phrase	the drive is read-only	tha an draibhear ri leughadh a-mhàin
+msg.phrase	choose a folder on a writable drive	tagh pasgan air draibh a ghabhas sgrìobhadh
+msg.phrase	wait a moment	fuirich mionaid
+msg.phrase	choose a file	tagh faidhle
+msg.phrase	choose a file (not a folder)	tagh faidhle (chan e pasgan)
+msg.phrase	choose a .001 file	tagh faidhle .001
+msg.phrase	choose the .001 file	tagh am faidhle .001
+msg.phrase	put the IWAD in a DoomFiles or Doom2Files folder	cuir an IWAD ann am pasgan DoomFiles no Doom2Files
+msg.phrase	DoomFiles takes freedoom1 / doom / doomu / doom1.wad	Bidh DoomFiles a’ gabhail freedoom1 / doom / doomu / doom1.wad
+msg.phrase	Doom2Files takes freedoom2 / doom2 / plutonia / tnt.wad	Bidh Doom2Files a’ gabhail freedoom2 / doom2 / plutonia / tnt.wad
+msg.phrase	put the game files on external storage, not S:	cuir na faidhlichean geama air stòradh a-muigh, chan e S:
+msg.phrase	the IWAD must be on a FAT / exFAT / NTFS drive (not a CD)	feumaidh an IWAD a bhith air draibhear FAT / exFAT / NTFS (chan e CD)
+msg.phrase	still working	fhathast ag obair
+msg.phrase	an image is loading	tha dealbh a’ luchdachadh
+msg.phrase	no framebuffer	gun fhrèam bufair
+msg.phrase	half brightness works only in RGB555	chan eil leth soilleireachd ag obair ach ann an RGB555
+msg.phrase	clearing...	a' glanadh...
+msg.phrase	halving the brightness...	leth an soilleireachd ...
+msg.phrase	that is a data track	is e sin rian dàta
+msg.phrase	wait -- a file is being written	fuirich -- tha faidhle ga sgrìobhadh
+msg.phrase	only floppy / LS-120 / CD drives	dìreach draibhearan sùbailte / LS-120 / CD
+msg.phrase	requested	dh'iarr
+msg.phrase	reading the disc...	a' leughadh an diosc...
+msg.phrase	stopping...	a' stad...
+msg.phrase	opening...	fosgladh...
+msg.phrase	done	rinn
+msg.phrase	no memory	gun chuimhne
+msg.phrase	already open	fosgailte mu thràth
+msg.phrase	already running	a' ruith mu thràth
+msg.phrase	already saving	sàbhaladh mu thràth
+msg.phrase	already playing	a' cluich mu thràth
+msg.phrase	no such drive	chan eil leithid de dhràibheadh
+msg.phrase	no PSRAM	gun PSRAM
+msg.phrase	no PSRAM for the file	chan eil PSRAM ann airson an fhaidhle
+msg.phrase	no PSRAM for the line index	no PSRAM airson clàr-amais na loidhne
+msg.phrase	no PSRAM for the terminal	chan eil PSRAM ann airson an inneal-crìochnachaidh
+msg.phrase	no memory (PSRAM)	gun chuimhne (PSRAM)
+msg.phrase	no memory (32KB SRAM)	gun chuimhne (32KB SRAM)
+msg.phrase	no memory for the buffer	gun chuimhne airson a’ bhufair
+msg.phrase	no memory for the image buffers	chan eil cuimhne ann airson bufairean ìomhaigh
+msg.phrase	no memory for the read buffer	gun chuimhne airson a’ bhufair leughaidh
+msg.phrase	no room for the work memory (close the lowres plane?)	chan eil àite ann airson a’ chuimhne obrach (dùin am plèana lowres?)
+msg.phrase	no framebuffer page	gun duilleag frèam-buffer
+msg.phrase	too large (4 MB at most)	ro mhòr (4 MB aig a’ char as motha)
+msg.phrase	the file is too large (1 MB at most)	tha am faidhle ro mhòr (1 MB aig a’ char as motha)
+msg.phrase	the file is too large (1 MB max)	tha am faidhle ro mhòr (1 MB aig a’ char as àirde)
+msg.phrase	too large for an SMF (1MB at most)	ro mhòr airson SMF (1MB aig a’ char as motha)
+msg.phrase	the file is empty	tha am faidhle falamh
+msg.phrase	could not open the file	cha b' urrainn dhuinn am faidhle fhosgladh
+msg.phrase	could not read the file	cha b' urrainn dhuinn am faidhle a leughadh
+msg.phrase	could not open the volume	cha b' urrainn dhuinn an fhuaim fhosgladh
+msg.phrase	could not open the destination (no memory?)	cha b' urrainn dhuinn an ceann-uidhe fhosgladh (gun chuimhne?)
+msg.phrase	could not read the root folder	cha b' urrainn dhuinn am pasgan root a leughadh
+msg.phrase	could not start the task	cha b’ urrainn dhaibh an obair a thòiseachadh
+msg.phrase	could not start writing (bad name or busy)	cha b’ urrainn dhomh tòiseachadh a’ sgrìobhadh (droch ainm no trang)
+msg.phrase	another volume is open (busy)	tha leabhar eile fosgailte (trang)
+msg.phrase	a copy is running	tha leth-bhreac a’ ruith
+msg.phrase	a folder cannot go into itself	chan urrainn dha pasgan a dhol a-steach ann fhèin
+msg.phrase	that is the same folder	's e sin an aon phasgan
+msg.phrase	this drive cannot be changed (read only)	cha ghabh an draibhear seo atharrachadh (ri leughadh a-mhàin)
+msg.phrase	the drive is not writable	chan eil an dràibhear sgrìobhte
+msg.phrase	the part size must be a multiple of 512	feumaidh meud a’ phàirt a bhith iomadaidh de 512
+msg.phrase	files of 4 GB or more are not supported	chan eil taic ri faidhlichean de 4 GB no barrachd
+msg.phrase	bad path	droch shlighe
+msg.phrase	bad file name	droch ainm faidhle
+msg.phrase	the font ROM is not there	chan eil an cruth-clò ROM ann
+msg.phrase	the sound is not open	chan eil am fuaim fosgailte
+msg.phrase	no such channel	chan eil sianal mar sin
+msg.phrase	the sequencer is busy	tha an t-sreathadair trang
+msg.phrase	not enough PSRAM for the song	chan eil PSRAM gu leòr ann airson an òrain
+msg.phrase	not a standard MIDI file (no MThd)	chan e faidhle MIDI àbhaisteach (chan eil MThd)
+msg.phrase	no tracks	chan eil slighean ann
+msg.phrase	a track is broken (MTrk)	tha slighe briste (MTrk)
+msg.phrase	SMPTE time division is not supported	SMPTE Chan eil taic ri roinn ùine
+msg.phrase	SMF format 2 is not supported (0 and 1 only)	Chan eil taic ri cruth SMF 2 (0 agus 1 a-mhàin)
+msg.phrase	not a Bulk-Only drive	chan e draibhear mòr a-mhàin
+msg.phrase	not an optical drive	chan e draibhear optigeach
+msg.phrase	a system folder cannot be deleted or renamed	chan urrainn pasgan siostam a sguabadh às no ath-ainmeachadh
+msg.phrase	no media in the drive	chan eil meadhanan san draibhear
+msg.phrase	becoming ready	a’ fàs deiseil
+msg.phrase	not ready	chan eil deiseil
+msg.phrase	media changed	meadhanan air atharrachadh
+msg.phrase	medium error	mearachd meadhanach
+msg.phrase	illegal request	iarrtas mì-laghail
+msg.phrase	a bad directory entry	droch inntrig eòlaire
+msg.phrase	a directory on the way does not exist	chan eil eòlaire air an t-slighe ann
+msg.phrase	a file has that name	tha an t-ainm sin air faidhle
+msg.phrase	a folder has that name	tha an t-ainm sin air pasgan
+msg.phrase	a name on the way is not a directory	chan eil ainm air an t-slighe na eòlaire
+msg.phrase	cancelled	air a chur dheth
+msg.phrase	could not mount	cha b'urrainn cur suas
+msg.phrase	could not start a read	cha b’ urrainn dha leughadh a thòiseachadh
+msg.phrase	could not start a write	cha b’ urrainn dha sgrìobhadh a thòiseachadh
+msg.phrase	is a directory	tha eòlaire
+msg.phrase	that is a directory	's e sin eòlaire
+msg.phrase	no clusters	no cruinneachaidhean
+msg.phrase	no room for the cluster list	chan eil àite ann airson liosta nan cruinneachaidhean
+msg.phrase	no such file or directory	chan eil faidhle no eòlaire mar sin ann
+msg.phrase	no such file	chan eil leithid de fhaidhle ann
+msg.phrase	no volume	gun tomhas-lìonaidh
+msg.phrase	not NTFS	chan e NTFS
+msg.phrase	not exFAT	no exFAT
+msg.phrase	not a directory	chan e leabhar-seòlaidh
+msg.phrase	not found	Gun a lorg
+msg.phrase	read error	leughadh mearachd
+msg.phrase	write error	mearachd sgrìobhaidh
+msg.phrase	reading the FAT failed	dh'fhàillig leughadh an FAT
+msg.phrase	the cluster chain is shorter than the file	tha an t-slabhraidh cnuasachaidh nas giorra na am faidhle
+msg.phrase	the directory is not empty	chan eil an t-eòlaire falamh
+msg.phrase	the disk is full	tha an diosg làn
+msg.phrase	the drive did not answer	cha do fhreagair an draibh
+msg.phrase	the file is read-only	tha am faidhle ri leughadh a-mhàin
+msg.phrase	the file is too fragmented	tha am faidhle ro sgaraichte
+msg.phrase	the file is too large (4GB)	tha am faidhle ro mhòr (4GB)
+msg.phrase	the new name already exists	tha an t-ainm ùr ann mu thràth
+msg.phrase	the root directory is full	tha an eòlaire root làn
+msg.phrase	too many files with the same short name	cus fhaidhlichean leis an aon ainm goirid
+msg.phrase	No such file or directory	Chan eil faidhle no eòlaire mar sin ann
+msg.phrase	File exists	Tha faidhle ann
+msg.phrase	Permission denied	Cead air a dhiùltadh
+msg.phrase	Directory not empty	Chan eil an clàr falamh
+msg.phrase	Not a directory	Chan e leabhar-seòlaidh
+msg.phrase	Is a directory	Tha eòlaire
+msg.phrase	Read-only file system	Siostam faidhle leughaidh a-mhàin
+msg.phrase	No space left on device	Chan eil àite air fhàgail air an inneal
+msg.phrase	Input/output error	Mearachd cuir a-steach / toraidh
+msg.phrase	Not supported on this drive	Chan eil taic ris air an draibh seo
+msg.phrase	Invalid path	Slighe mì-dhligheach
+msg.phrase	Out of memory	A-mach à cuimhne
+msg.phrase	No such drive	Chan eil leithid de dhràibhear ann
+msg.phrase	stopped	sguir
+msg.phrase	cancelled (not enough free space)	air a chuir dheth (chan eil àite gu leòr an-asgaidh)
+msg.phrase	could not count the free space	cha b’ urrainn dhaibh an àite saor a chunntadh
+msg.phrase	the receiver cancelled	chaidh an neach-gabhail a chuir dheth
+msg.phrase	no receiver (run rz on the PC)	gun ghlacadair (ruith rz air a’ PC)
+msg.phrase	the console UART is in use	tha an consol UART ga chleachdadh
+msg.phrase	the screen mode changed	dh'atharraich am modh sgrion
+msg.phrase	the lines did not come (is the display running?)	cha tàinig na loidhnichean (a bheil an taisbeanadh a’ ruith?)
+msg.prefix	copy	leth-bhreac
+msg.prefix	move	gluasad
+msg.prefix	delete	sguab às
+msg.prefix	rename	ath-ainmich
+msg.prefix	attributes	buadhan
+msg.prefix	new file	faidhle ùr
+msg.prefix	new folder	pasgan ùr
+msg.prefix	image	dealbh
+msg.prefix	mrbc	mrbc
+msg.prefix	ruby	rubaidh
+msg.prefix	viewer	sealladair
+msg.prefix	edit	deasaich
+msg.prefix	IDENTIFY	ÀIREAMH
+msg.prefix	ZMODEM	ZMODEM
+msg.prefix	ZMODEM receive	ZMODEM a ' faighinn
+msg.prefix	ZMODEM send	ZMODEM cuir
+msg.prefix	split	sgoltadh
+msg.prefix	join	gabh còmhla
+msg.prefix	Doom	Doom
+msg.prefix	SMF	SMF
+msg.prefix	CD	CD
+msg.prefix	FB	FB
+msg.prefix	Eject	Cuir a-mach
+msg.prefix	reboot	ath-thòisich
+msg.prefix	license	ceadachd
+msg.prefix	clock	uaireadair
+msg.prefix	ADC in	ADC a-steach
+msg.prefix	screen -> PNG	sgrion -> PNG
+msg.prefix	FB -> PNG	FB -> PNG
+msg.prefix	could not open the volume	cha b' urrainn dhuinn an fhuaim fhosgladh
+msg.pattern	received 	fhuair %s
+msg.pattern	sent 	chuir %s
+msg.pattern	saved 	sàbhaladh %s
+msg.pattern	created 	chruthachadh %s
+msg.pattern	renamed to 	air ath-ainmeachadh gu %s
+msg.pattern	deleted 	air a sguabadh às %s
+msg.pattern	changed 	air atharrachadh %s
+msg.pattern	joined 	ceangailte %s
+msg.pattern	split 	sgoltadh %s
+msg.pattern	could not create 	cha b' urrainn a chruthachadh %s
+msg.pattern	could not delete 	cha b' urrainn a sguabadh às %s
+msg.pattern	could not rename to 	cha b' urrainn dhuinn ath-ainmeachadh %s
+msg.pattern	could not change 	cha b' urrainn atharrachadh %s
+msg.pattern	could not read 	cha b'urrainn leughadh %s
+msg.pattern	could not write 	cha b' urrainn sgrìobhadh %s
+msg.pattern	could not copy 	cha b' urrainn lethbhreac a dhèanamh %s
+msg.pattern	could not make 	cha b' urrainn %s
+msg.pattern	could not remove the folder 	cha b' urrainn dhuinn am pasgan a thoirt air falbh %s
+msg.pattern	could not remove 	cha b' urrainn a thoirt air falbh %s
+msg.pattern	no memory for 	chan eil cuimhne ann airson %s
+msg.pattern	too many errors while sending 	cus mhearachdan fhad 'sa tha thu a' cur %s
+msg.pattern	the receiver did not take 	cha do ghabh an glacadair %s
+msg.pattern	the receiver skipped 	leum an glacadair %s
+msg.pattern	FB page 	Duilleag FB %s
+msg.word	 bytes each)	bytes gach)
+msg.word	 bytes)	bytes)
+msg.word	 KB)	KB)
+msg.word	 parts into 	pàirtean a-steach
+msg.word	 parts (	pàirtean (
+msg.word	 into 	steach
+msg.word	: cleared	: fhuadach
+msg.word	: brightness halved	: soilleireachd air leth
+msg.word	% read	% leugh
+msg.word	 rows	sreathan
+msg.word	 -- not supported yet (FAT / exFAT / NTFS only)	-- gun taic fhathast (FAT / exFAT / NTFS a-mhàin)
+msg.word	 files	faidhlichean
+msg.word	 (	(
+msg.phrase	Untitled	Gun tiotal
+msg.phrase	1 File	1 Faidhle
+msg.phrase	2 Edit	2 Deasaich
+msg.phrase	3 Graph	3 Graf
+msg.phrase	4 Sheet	4 Duilleag
+msg.phrase	5 Help	5 Cuideachadh
+msg.phrase	EMPTY	FOLAMH
+msg.phrase	NUMBER	ÀIREAMH
+msg.phrase	TEXT	TEAGASG
+msg.phrase	FORMULA	FORMULA
+msg.phrase	Type to enter, F2 to edit, F1 for help	Taidhp a-steach, F2 ri dheasachadh, F1 airson cuideachadh
+msg.phrase	5 CSV	5 CSV
+msg.phrase	6 ODS	6 ODS
+msg.phrase	[SHIFT]	[SHIFT]
+msg.phrase	[CTRL]	[CTRL]
+msg.phrase	[ALT]	[ALT]
+msg.phrase	Ready	Ready
+msg.phrase	SGCALC	SGCALC
+msg.phrase	Press any key	Brùth iuchair sam bith
+msg.phrase	Y = yes    N = no    Esc = cancel	Y = tha N = chan eil Esc = cuir dheth
+msg.phrase	Enter = OK    Esc = cancel    Ctrl-U = clear	Cuir a-steach = OK Esc = cuir dheth Ctrl-U = soilleir
+msg.phrase	First row/column = labels; charts use the 640x480 CLUT8 FB.	A' chiad sreath/colbh = bileagan; Bidh clàran a’ cleachdadh an 640x480 CLUT8 FB.
+msg.phrase	SGCALC - HELP	SGCALC - CUIDEACHADH
+msg.phrase	Press any key to return	Brùth iuchair sam bith airson tilleadh
+msg.phrase	Press any key to return.	Brùth iuchair sam bith airson tilleadh.
+msg.phrase	ABOUT SGCALC	MU SGCALC
+msg.phrase	New	Ùr
+msg.phrase	Start a new sheet	Tòisich duilleag ùr
+msg.phrase	Open...	Fosgailte...
+msg.phrase	Open an ODS, FODS or CSV file	Fosgail faidhle ODS, FODS no CSV
+msg.phrase	Save	Sàbhail
+msg.phrase	Save the current file	Sàbhail am faidhle làithreach
+msg.phrase	Save As...	Sàbhail mar...
+msg.phrase	Save with a new name or format	Sàbhail le ainm no cruth ùr
+msg.phrase	Export CSV...	Às-phortaich CSV...
+msg.phrase	Write a CSV copy	Sgrìobh lethbhreac CSV
+msg.phrase	Export ODS...	Às-mhalairt ODS...
+msg.phrase	Write a LibreOffice copy	Sgrìobh lethbhreac LibreOffice
+msg.phrase	Quit	Sguir
+msg.phrase	Leave SGCALC	Fàg SGCALC
+msg.phrase	Clear	Soilleir
+msg.phrase	Clear the selected cells	Glan na ceallan taghte
+msg.phrase	Copy	Dèan lethbhreac
+msg.phrase	Copy the selection	Dèan lethbhreac den taghadh
+msg.phrase	Paste	Paste
+msg.phrase	Paste at the cursor	Paste aig a' chursair
+msg.phrase	Cut	Gearr
+msg.phrase	Copy and clear the selection	Dèan lethbhreac agus soilleir den taghadh
+msg.phrase	Select all	Tagh a h-uile
+msg.phrase	Select all used cells	Tagh a h-uile cealla cleachdte
+msg.phrase	Text color...	Dath an teacsa...
+msg.phrase	Choose the text colour	Tagh dath an teacsa
+msg.phrase	Background...	Cùl-fhiosrachadh...
+msg.phrase	Choose the cell background	Tagh cùl-raon na cealla
+msg.phrase	Line	Loidhne
+msg.phrase	Draw a line graph from the selection	Tarraing graf loidhne bhon taghadh
+msg.phrase	Bar	Bàrr
+msg.phrase	Draw a bar graph from the selection	Tarraing graf-bàr bhon taghadh
+msg.phrase	Mixed	Measgaichte
+msg.phrase	Bars for the first series, lines for the rest	Bàraichean airson a’ chiad sreath, loidhnichean airson a’ chòrr
+msg.phrase	Pie	Pìos
+msg.phrase	Draw a pie graph from the selection	Tarraing graf-pìoba bhon taghadh
+msg.phrase	Range...	Raon...
+msg.phrase	Set the graph range explicitly	Suidhich an raon grafa gu soilleir
+msg.phrase	Draw again	Tarraing a-rithist
+msg.phrase	Redraw the last graph	Ath-tharraing an graf mu dheireadh
+msg.phrase	Goto...	Rach gu...
+msg.phrase	Jump to a cell (for example C12)	Leum gu cealla (mar eisimpleir C12)
+msg.phrase	Column width...	Leud na colbh ...
+msg.phrase	Change the selected columns' width	Atharraich leud nan colbhan taghte
+msg.phrase	Row height...	Àirde na sreatha...
+msg.phrase	Change the selected rows' height	Atharraich àirde nan sreathan taghte
+msg.phrase	Auto fit	Uidheamachadh fèin-ghluasadach
+msg.phrase	Fit widths/heights to the contents (F7)	Cuir leud / àirde ris an t-susbaint (F7)
+msg.phrase	Recalculate	Ath-àireamhaich
+msg.phrase	Re-evaluate all formulas	Dèan ath-mheasadh air a h-uile foirmle
+msg.phrase	Erase all	Sgrios a h-uile
+msg.phrase	Clear the whole sheet	Glan an duilleag gu lèir
+msg.phrase	Keys	Iuchraichean
+msg.phrase	Show the key guide	Seall am prìomh stiùireadh
+msg.phrase	About	Mu dheidhinn
+msg.phrase	About SGCALC	Mu SGCALC
+msg.phrase	File	Faidhle
+msg.phrase	Edit	Deasaich
+msg.phrase	Graph	Graf
+msg.phrase	Sheet	Bileag
+msg.phrase	Help	Cuideachadh
+msg.phrase	File: new, open, save, export, quit	Faidhle: ùr, fosgailte, sàbhail, às-mhalairt, sgur
+msg.phrase	Edit: clear, copy, paste, cut, select all	Deasaich: soilleir, dèan lethbhreac, pasg, gearradh, tagh a h-uile càil
+msg.phrase	Graph: line, bar, mixed, pie (draws in the FB)	Graf: loidhne, bàr, measgaichte, pie (tarraing san FB)
+msg.phrase	Sheet: goto, column width, recalculate, erase	Duilleag: goto, leud colbh, ath-àireamhachadh, sguab às
+msg.phrase	Help: keys and about	Cuideachadh: iuchraichean agus mu dheidhinn
+msg.phrase	Left/Right = menu    Up/Down = item    Enter = choose    Esc = cancel	Clì/Deas = clàr-taice Suas/Sìos = nì Cuir a-steach = tagh Esc = cuir dheth
+msg.phrase	Cancelled	Air a chur dheth
+msg.phrase	The selection is too large or memory is low.	Tha an taghadh ro mhòr no tha cuimhne ìosal.
+msg.phrase	the cell	a' chill
+msg.phrase	the selection	an taghadh
+msg.phrase	Nothing to paste	Chan eil dad ri phasgadh
+msg.phrase	Pasted	Pasted
+msg.phrase	GO TO CELL	RACH GU CILLE
+msg.phrase	Cell reference (A1):	Iomradh cealla (A1):
+msg.phrase	Goto	Rach gu
+msg.phrase	COLUMN WIDTH	LAOIDH COLUMN
+msg.phrase	Width in characters (4..30):	Leud ann an caractaran (4..30):
+msg.phrase	ROW HEIGHT	AIRDE ROW
+msg.phrase	Height in text rows (1..8):	Àirde ann an sreathan teacsa (1..8):
+msg.phrase	Auto fit: the sheet is empty	Auto fit: tha an duilleag falamh
+msg.phrase	BACKGROUND COLOUR	CLOINNE GHAIDHEALACH
+msg.phrase	TEXT COLOUR	COLOR TEXT
+msg.phrase	Arrows: choose    Enter: apply    Esc: cancel	Saigheadan: tagh Cuir a-steach: cuir a-steach Esc: cuir dheth
+msg.phrase	Colour index (PC-98 16-colour palette)	Clàr-amais dhathan (PC-98 16-dath paileas)
+msg.phrase	Aa 123	Ach 123
+msg.phrase	Enter = apply    Esc = cancel	Cuir a-steach = cuir a-steach Esc = cuir dheth
+msg.phrase	Colour	Dath
+msg.phrase	Background	Cùl-fhiosrachadh
+msg.phrase	Text	Teacs
+msg.phrase	GRAPH RANGE	RANNAN GRAPH
+msg.phrase	Range (for example A1:C10):	Raon (mar eisimpleir A1: C10):
+msg.phrase	Graph range	Raon grafa
+msg.phrase	Use a range such as A1:C10.	Cleachd raon mar A1: C10.
+msg.phrase	Cannot draw the graph.	Chan urrainn dhuinn an graf a tharraing.
+msg.phrase	line	loidhne
+msg.phrase	bar	bàr
+msg.phrase	mixed	measgta
+msg.phrase	pie	pìos
+msg.phrase	Clear every cell in this sheet?	Glan a h-uile cealla san duilleag seo?
+msg.phrase	Sheet erased	Duilleag air a sguabadh às
+msg.phrase	Selected all used cells	Taghadh a h-uile cealla cleachdte
+msg.phrase	Recalculated	Air ath-àireamhachadh
+msg.phrase	Memory	Cuimhne
+msg.phrase	Not enough PSRAM for the spreadsheet.	Chan eil PSRAM gu leòr ann airson an spreadsheet.
+msg.phrase	The sheet is empty.	Tha an duilleag falamh.
+msg.phrase	No numeric data in the selected range.	Chan eil dàta àireamhach anns an raon taghte.
+msg.phrase	Other	Eile
+msg.phrase	No positive values for a pie chart	Chan eil luachan adhartach ann airson clàr-cearcaill
+msg.phrase	LINE	LINN
+msg.phrase	BAR	BAR
+msg.phrase	MIXED	MEASGADH
+msg.phrase	PIE	PIE
+msg.phrase	S:/	S:/
+msg.phrase	Folder	Foillear
+msg.phrase	SAVE AS	Sàbhaladh AS
+msg.phrase	OPEN FILE	FILE FOSGAILTE
+msg.phrase	LibreOffice / CSV	LibreOffice / CSV
+msg.phrase	ODS  FODS  CSV	ODS FODS CSV
+msg.phrase	Name:	Ainm:
+msg.phrase	(type a name, or choose below)	(tagh ainm, no tagh gu h-ìosal)
+msg.phrase	Name	Ainm
+msg.phrase	Size	Meud
+msg.phrase	Enter=save  Left=up  Right/Enter on [DIR]=open  Tab=drive  Esc=cancel	Cuir a-steach = sàbhail Clì = suas Deas / Cuir a-steach air [DIR] = fosgail Tab = drive Esc = cuir dheth
+msg.phrase	Enter=open  Left=up  Right/Enter on [DIR]=open  Tab=drive  Esc=cancel	Cuir a-steach = fosgail Clì = suas Deas / Cuir a-steach air [DIR] = fosgail Tab = drive Esc = cuir dheth
+msg.phrase	Not enough memory.	Chan eil cuimhne gu leòr ann.
+msg.phrase	Overwrite	Sgrìobh thairis
+msg.phrase	Open	Fosgailte
+msg.phrase	The file is too large (limit 8 MB).	Tha am faidhle ro mhòr (crìoch 8 MB).
+msg.phrase	Not enough memory to read the file.	Chan eil cuimhne gu leòr ann airson am faidhle a leughadh.
+msg.phrase	Bad ZIP/ODS data.	Dàta droch-Zip/ODS.
+msg.phrase	CRC error in the ODS file.	Mearachd CRC anns an fhaidhle ODS.
+msg.phrase	Unsupported or damaged file.	Faidhle gun taic no air a mhilleadh.
+msg.phrase	Saved	Air a shàbhaladh
+msg.phrase	Exported	Às-mhalairt
+msg.phrase	Unsaved changes	Atharrachaidhean nach deach a shàbhaladh
+msg.phrase	Save the current sheet before continuing?	Sàbhail an duilleag làithreach mus lean thu air adhart?
+msg.phrase	New sheet	Duilleag ùr
+msg.phrase	SGTRK	SGTRK
+msg.phrase	UNTITLED	AONTACHD
+msg.phrase	song is too large	tha an t-òran ro mhòr
+msg.phrase	empty file	faidhle falamh
+msg.phrase	not an SGT file	chan e faidhle SGT
+msg.phrase	bad BPM	BPM dona
+msg.phrase	bad speed	droch luaths
+msg.phrase	bad title length	fad tiotal dona
+msg.phrase	truncated title	tiotal gearraichte
+msg.phrase	bad character in title	droch charactar ann an tiotal
+msg.phrase	truncated order	òrdugh gearraichte
+msg.phrase	bad order length	fad òrdugh dona
+msg.phrase	bad pattern number in order	àireamh pàtran dona ann an òrdugh
+msg.phrase	truncated pattern list	liosta de phàtranan gearraichte
+msg.phrase	bad pattern count	droch chunntas pàtran
+msg.phrase	bad pattern index	clàr-amais droch phàtran
+msg.phrase	duplicate pattern	pàtran dùblaichte
+msg.phrase	truncated pattern data	dàta pàtran gearraichte
+msg.phrase	invalid pattern data	dàta pàtrain neo-dhligheach
+msg.phrase	trailing data in file	slaodadh dàta ann am faidhle
+msg.phrase	order refers to a missing pattern	tha òrdugh a’ toirt iomradh air pàtran a tha a dhìth
+msg.phrase	A:/	A:/
+msg.phrase	(untitled)	(gun tiotal)
+msg.phrase	Ready. Press F1 for help.	Ready. Brùth F1 airson cuideachadh.
+msg.phrase	Follow OFF	Lean OFF
+msg.phrase	Nothing to undo	Chan eil dad ri thoirt air falbh
+msg.phrase	Undo	Neo-dhèanamh
+msg.phrase	Note OFF	Nota OFF
+msg.phrase	Set an effect letter first	Suidhich litir buaidh an toiseach
+msg.phrase	Effect cleared	Buaidh air a ghlanadh
+msg.phrase	Parameter cleared	Paramadair air a ghlanadh
+msg.phrase	Note cleared	Nota air a ghlanadh
+msg.phrase	Instrument cleared	Inneal air a ghlanadh
+msg.phrase	Volume cleared	Meud air a ghlanadh
+msg.phrase	Order list is full	Tha an liosta òrduigh làn
+msg.phrase	Order inserted	Òrdugh air a chuir a-steach
+msg.phrase	Cannot delete the last order	Cha ghabh an òrdugh mu dheireadh a sguabadh às
+msg.phrase	Order deleted	Òrdugh air a sguabadh às
+msg.phrase	Playing song	A' cluich òran
+msg.phrase	Stopped	Sguir
+msg.phrase	New song	Òran ùr
+msg.phrase	Discard unsaved changes and start a new song? (Y/N)	An cuir thu air falbh atharrachaidhean nach deach a shàbhaladh agus an tòisich òran ùr? (Y/N)
+msg.phrase	Discard unsaved changes and open a song? (Y/N)	An cuir thu air falbh atharraichean nach deach a shàbhaladh agus am fosgail òran? (Y/N)
+msg.phrase	Discard unsaved changes and quit? (Y/N)	Cuir air falbh atharraichean nach deach a shàbhaladh agus sgur? (Y/N)
+msg.phrase	Song settings updated	Luchdaich a-nuas suidheachadh na h-òrain
+msg.phrase	Filename is empty	Tha ainm an fhaidhle falamh
+msg.phrase	Save cancelled	Sàbhaladh air a chur dheth
+msg.phrase	Open cancelled	Fosgailte air a chuir dheth
+msg.phrase	Edit ON	Deasaich AIR
+msg.phrase	Edit OFF	Deasaich OFF
+msg.phrase	Follow ON	Lean AIR
+msg.phrase	Edit is OFF. Press F8 to edit.	Tha an deasachadh OFF. Brùth F8 airson deasachadh.
+msg.phrase	I/O error	Mearachd I/O
+msg.phrase	file is too large	tha am faidhle ro mhòr
+msg.phrase	truncated file	faidhle gearraichte
+msg.phrase	SINE PAD	SINE PAD
+msg.phrase	TRIANGLE	TRIANGLE
+msg.phrase	SAW LEAD	SAW LEAD
+msg.phrase	SQUARE	SGEULACHD
+msg.phrase	PULSE 25	PULSE 25
+msg.phrase	ORGAN	ORGAN
+msg.phrase	BASS	BAS
+msg.phrase	BELL	BALL
+msg.phrase	NOISE	NOISEANTA
+msg.phrase	SINE	SINE
+msg.phrase	SAW	SHABH
+msg.phrase	OFF	AIRSON
+msg.phrase	ON	AIRSON
+msg.phrase	ROW	ROW
+msg.phrase	CHAN LEVEL	CHAN EIL
+msg.phrase	F1 HELP F2 SONG	F1 CUIDEACHADH F2 ORAN
+msg.phrase	F3 INS  F4 SAVE	F3 INS F4 Sàbhaladh
+msg.phrase	F5 PLAY F6 PAT	F5 CLAR F6 PAT
+msg.phrase	F7 STOP F8 EDIT	F7 STOP F8 EDIT
+msg.phrase	F9/F10 OCTAVE	F9/F10 OCTAVE
+msg.phrase	F11 FOLLOW	F11 LEANMHUINN
+msg.phrase	F12 QUIT	F12 Sguir
+msg.phrase	SPACE PLAY/STOP	SPACE PLAY/STOP
+msg.phrase	CTRL-S SAVE	CTRL-S Sàbhaladh
+msg.phrase	CTRL-O OPEN	CTRL-O FOSGAILTE
+msg.phrase	C-N NEW C-Z UNDO	C-N ÙR CZ UNDO
+msg.phrase	C-C STOP	C-C STOP
+msg.phrase	#TRANSPORT AND FILES	#IOMPACHADH AGUS FIONNLAIDH
+msg.phrase	#ORDER LIST	#LIOSTA ORDUGH
+msg.phrase	#DISPLAY	#DISPLAY
+msg.phrase	#EDITING	#EDITEACH
+msg.phrase	#EFFECTS (parameter is hexadecimal)	#EFFECTS (tha am paramadair sia-thaobhach)
+msg.phrase	LEFT/RIGHT PAGE   ENTER OR F1 CLOSE	DUILLEAG CHlì/DHE THOIR A-steach NO F1 DÙTHCHAS
+msg.phrase	SONG SETTINGS	SGEULACHDAN ORAIN
+msg.phrase	UP/DOWN SELECT   LEFT/RIGHT ADJUST   ENTER/F2 CLOSE	Suas/Sìos tagh Clì/Deas Ceartaich a-steach/F2 Dùin
+msg.phrase	Type to edit the title. Backspace deletes the last character.	Taidhp a-steach gus an tiotal a dheasachadh. Sguabaidh Backspace às a' charactar mu dheireadh.
+msg.phrase	BPM range 32..255. Speed range 1..31.	Raon BPM 32..255. Raon astair 1..31.
+msg.phrase	Pattern effects can also change speed and BPM while playing.	Faodaidh buaidhean pàtrain cuideachd astar agus BPM atharrachadh fhad ‘s a tha iad a’ cluich.
+msg.phrase	INSTRUMENTS	IOMPACHADH
+msg.phrase	UP/DOWN SELECT   SPACE PREVIEW   ENTER USE   F3 CLOSE	UP/Sìos Tagh ro-shealladh àite Cuir a-steach CLEACHDADH F3 DÙTHCHAS
+msg.phrase	All four channels use wavetable synthesis.	Bidh na ceithir seanalan a’ cleachdadh synthesis tonn-tonn.
+msg.phrase	Preview plays C-4 on the track under the edit cursor.	Bidh ro-shealladh a’ cluich C-4 air an t-slighe fon chursair deasachaidh.
+msg.phrase	SAVE SONG AS	SALM ORAIN AS
+msg.phrase	ENTER SAVE   F4 OR CTRL-C CANCEL	ENTER SAVE F4 NO CTRL-C CANCEL
+msg.phrase	Directory:	Leabhar-seòlaidh:
+msg.phrase	File name:	Ainm an fhaidhle:
+msg.phrase	The extension .SGT is added automatically.	Tha an leudachadh .SGT a chur ris gu fèin-obrachail.
+msg.phrase	An existing file can be overwritten.	Faodar ath-sgrìobhadh a dhèanamh air faidhle a tha ann mu thràth.
+msg.phrase	OPEN SONG	ORAN FOSGAILTE
+msg.phrase	ENTER OPEN  BS PARENT  CTRL-O/CTRL-C CANCEL	Cuir a-steach FOSGAILTE BS Pàrant CTRL-O/CTRL-C CANCEL
+msg.phrase	(no .SGT files in this folder)	(chan eil faidhlichean .SGT sa phasgan seo)
+msg.phrase	CONFIRM	DEARBHACHADH
+msg.phrase	Y = YES   N / ENTER / CTRL-C = NO	Y = THA N / ENTER / CTRL-C = CHAN EIL
+msg.phrase	Y = yes        N = no	Y = tha N = chan eil
+msg.phrase	C-	C-
+msg.phrase	C#	C #
+msg.phrase	D-	D-
+msg.phrase	D#	D#
+msg.phrase	E-	E-
+msg.phrase	F-	F-
+msg.phrase	F#	F#
+msg.phrase	G-	G-
+msg.phrase	G#	G#
+msg.phrase	A-	A-
+msg.phrase	A#	A#
+msg.phrase	B-	B-
+msg.phrase	A:/dir/name	A:/dir/ainm
+msg.phrase	MThd	MThd
+msg.phrase	broken MThd	MThd briste
+msg.phrase	MIDI IMPORT	CUDROMACH MIDI
+msg.phrase	MTrk	MTrk
+msg.phrase	broken delta time	ùine delta briste
+msg.phrase	broken running status	staid ruith briste
+msg.phrase	broken meta event	tachartas meta briste
+msg.phrase	broken sysex event	tachartas sysex briste
+msg.phrase	broken channel event	tachartas seanail briste
+msg.phrase	SMF output is too small	Tha toradh SMF ro bheag
+msg.phrase	SMF output is too large	Tha toradh SMF ro mhòr
+msg.phrase	the song is too long for SMF	Tha an t-òran ro fhada airson SMF
+msg.phrase	TRK1	TRK1
+msg.phrase	%s%d	%s%d
+msg.phrase	%s%d:%s%d	%s %d: %s%d
+msg.phrase	%s	%s
+msg.phrase	%.40s%s	%.40s%s
+msg.phrase	  [%s]   %s	[%s] %s
+msg.phrase	EDIT  	DEARBHACHADH
+msg.phrase	READY 	LAOIDH
+msg.phrase	%4d 	%4d
+msg.phrase	%s Sum %.7g N %ld%s	%s Sum %.7g N %ld%s
+msg.phrase	ARROWS      move the cell cursor\n	Bidh ARROWS a 'gluasad an cùrsair cealla
+msg.phrase	SHIFT+ARR   extend the selection (for graphs/copy)\n	Leudaich SHIFT+ARR an taghadh (airson grafaichean/lethbhreac)
+msg.phrase	ENTER       edit the cell; in edit, commit and move down\n	ENTER deasaich an neul; ann an deasachadh, gealltainn agus gluais sìos
+msg.phrase	TAB         next cell    SHIFT+TAB  previous cell\n	TAB an ath chill SHIFT+TAB cealla roimhe
+msg.phrase	DELETE      clear the selected cell(s)    ESC  cancel\n	DELETE cuir dheth na ceal(an) taghte ESC
+msg.phrase	PGUP/PGDN   move one screen    HOME/END  first/last column\n	Gluais PGUP/PGDN aon sgrion DACHAIGH/END a’ chiad/colbh mu dheireadh
+msg.phrase	CTRL+HOME   A1    CTRL+END  last used cell\n	CTRL+HOME A1 CTRL+END an cealla mu dheireadh a chaidh a chleachdadh
+msg.phrase	F1 help  F2 edit  F3 copy  F4 paste  F5 goto  F6 colour\n	Cuideachadh F1 F2 deasachadh F3 leth-bhreac F4 paste F5 goto dath F6
+msg.phrase	F7 auto-fit  F8 background  F9 recalc  F10 graph  F11 save  F12 menu\n	Cùl-fhiosrachadh F7 fèin-fhreagarrach F8 F9 ath-aithris graf F10 F11 sàbhail clàr F12
+msg.phrase	SHIFT+F1 about  SHIFT+F2 row height  SHIFT+F3 column width\n	SHIFT+F1 mu leud colbh SHIFT+F2 SHIFT+F3
+msg.phrase	SHIFT+F4 select all  SHIFT+F10 graph range  SHIFT+F11 save as\n	SHIFT + F4 tagh a h-uile raon graf SHIFT + F10 SHIFT + F11 sàbhail mar
+msg.phrase	CTRL+F1 new  CTRL+F2 open  CTRL+F3 save  CTRL+F4 save as\n	CTRL+F1 ùr CTRL+F2 fosgailte CTRL+F3 sàbhail CTRL+F4 sàbhail mar
+msg.phrase	CTRL+F5 export CSV  CTRL+F6 export ODS  ALT+F12 quit\n	Às-mhalairt CTRL+F5 CSV Sguir CTRL+F6 às-mhalairt ODS ALT+F12
+msg.phrase	Bottom 2 lines: function keys; [SHIFT]/[CTRL]/[ALT] like the filer\n	Gu h-ìosal 2 loidhne: iuchraichean gnìomh; Is toil le [SHIFT]/[CTRL]/[ALT] am faidhleadair
+msg.phrase	CTRL+S save  CTRL+O open  CTRL+N new  CTRL+C/V/X copy/paste/cut\n	Sàbhail CTRL+S CTRL+O fosgail CTRL+N ùr CTRL+C/V/X copy/paste/cut
+msg.phrase	CTRL+G goto    /  open the menu (1 File, 2 Edit, ...)\n	Fhuair CTRL+G / fosgail a’ chlàr (1 File, 2 Edit, ...)
+msg.phrase	Built-in functions: SUM AVERAGE MIN MAX COUNT COUNTA\n	Gnìomhan togte: SUM AVERAGE MIN MAX COUNT COUNTA
+msg.phrase	PRODUCT ABS SQRT INT ROUND MOD POWER IF AND OR NOT\n	PRODUCT ABS SQRT INT ROUND MOD CUMHACHD MA THA AGUS NO NACH EIL
+msg.phrase	IFERROR LEN LEFT RIGHT MID UPPER LOWER TRIM CONCATENATE PI\n	IFERROR LEN Clì air an làimh dheis PI CONCATENATE TRIM TRIM ÌRE
+msg.phrase	Cell refs: A1, $A$1, A1:B10.  Formulas begin with '='.\n	Àireamh nan cealla: A1, $A$1, A1:B10.  Bidh foirmlean a’ tòiseachadh le ‘=’.
+msg.phrase	Files: .ods (LibreOffice), .fods (flat XML), .csv\n	Faidhlichean: .ods (LibreOffice), .fods (XML rèidh), .csv
+msg.phrase	ODS/FODS keeps formulas, widths, heights and colours.\n	Bidh ODS/FODS a’ cumail foirmlean, leud, àirdean agus dathan.
+msg.phrase	CSV keeps values and formulas (no colours/heights).\n	Bidh CSV a’ cumail luachan agus foirmlean (gun dathan/àirdean).
+msg.phrase	Graph: select a range, press F10, and choose Line/Bar/Mixed/Pie.\n	Graf: tagh raon, brùth F10, agus tagh Line/Bar/Mixed/Pie.
+msg.phrase	SGCALC for sgnano\n	SGCALC airson sgnano
+msg.phrase	Version 	Tionndadh
+msg.phrase	A Lotus 1-2-3 style spreadsheet as an SGX program.\n\n	Duilleag-clèithe stoidhle Lotus 1-2-3 mar phrògram SGX.
+msg.phrase	SGX ABI %u.%u\n	SGX ABI %u.%u
+msg.phrase	Screen mode 3: text + CLUT8 FB (lowres disabled)\n	Modh sgrion 3: teacsa + CLUT8 FB (a’ lughdachadh ciorramach)
+msg.phrase	Sheet: %d rows x %d columns\n	Duilleag: %d sreath x %d colbhan
+msg.phrase	Formats: .ods / .fods (LibreOffice), .csv\n\n	Cruthan: .ods/.fods (LibreOffice), .csv
+msg.phrase	The grid is drawn on the text plane.\n	Tha a 'ghriod air a tharraing air an itealan teacsa.
+msg.phrase	Charts and the 640x480 background use the FB.\n\n	Bidh clàran agus cùl-raon 640x480 a’ cleachdadh an FB.
+msg.phrase	%d %s	%d %s
+msg.phrase	Cannot store the cell (%d).	Chan urrainn dhuinn an cealla a stòradh (%d).
+msg.phrase	Copied %d x %d cells	Air a chopaigeadh %d x %d ceallan
+msg.phrase	Cleared %s	Air a ghlanadh %s
+msg.phrase	'%s' is not a cell reference.	Chan e iomradh cealla a th’ ann an ‘%s’.
+msg.phrase	%d	%d
+msg.phrase	Column width = %d	leud colbh = %d
+msg.phrase	Row height = %d	àirde sreath = %d
+msg.phrase	Auto fit: %d column(s), %d row(s)	Fèin-fhreagarrach: %d colbh(an), %d sreath(ean)
+msg.phrase	%2d	%2d
+msg.phrase	Cannot apply the colour (%d).	Chan urrainn dhut an dath a chuir an sàs (%d).
+msg.phrase	%s colour = %d	%s dath = %d
+msg.phrase	Not a valid range.\nUse a range such as A1:C10.	Chan e raon dligheach.\nCleachd raon mar A1: C10.
+msg.phrase	Graph range %s	Raon grafaig %s
+msg.phrase	Graph: %s	Graf: %s
+msg.phrase	SGCALC: cannot set screen mode 3: %s\n	SGCALC: chan urrainn dhuinn modh sgriona 3 a shuidheachadh: %s
+msg.phrase	%.2g	%.2g
+msg.phrase	%.6g	%.6g
+msg.phrase	%s  %.0f%%	%s%.0f%%
+msg.phrase	GRAPH  %s  %s	GRAF %s %s
+msg.phrase	%s%s	%s%s
+msg.phrase	%s/%s	%s/%s
+msg.phrase	%.*s	%.*s
+msg.phrase	%.*s/	%*s/
+msg.phrase	Cannot read %s\n%s	Cha ghabh %s a leughadh\n%s
+msg.phrase	Folder: %s	Pasgan: %s
+msg.phrase	[DIR] %s	[DIR] %s
+msg.phrase	      %s	%s
+msg.phrase	%lu.%luM	%lu.%luM
+msg.phrase	%luK	%luK
+msg.phrase	%luB	%luB
+msg.phrase	BOOK1%s	LEABHAR 1 %s
+msg.phrase	%c:/	%c:/
+msg.phrase	Unsupported extension.\nUse .csv, .ods or .fods.	Leudachadh gun taic.\nCleachd .csv, .ods no .fods.
+msg.phrase	%s already exists.\nOverwrite it?	Tha %s ann mu thràth.\nSgrìobh thairis air?
+msg.phrase	%s may not be writable.\nTry anyway?	Faodaidh nach gabh %s a sgrìobhadh.\nFeuch co-dhiù?
+msg.phrase	Unknown file type for %s	Seòrsa faidhle neo-aithnichte airson %s
+msg.phrase	Unsupported file type.\nUse .csv, .ods or .fods.	Seòrsa faidhle gun taic.\nCleachd .csv, .ods no .fods.
+msg.phrase	Cannot open %s\n%s	Chan urrainn dhuinn %s fhosgladh\n%s
+msg.phrase	%s is a folder.	'S e pasgan a tha ann an %s.
+msg.phrase	Cannot import %s\n%s	Cha ghabh %s a thoirt a-steach\n%s
+msg.phrase	Loaded %s	Air a luchdachadh %s
+msg.phrase	Cannot build the %s file.	Chan urrainn dhuinn am faidhle %s a thogail.
+msg.phrase	Cannot write %s\n%s	Cha ghabh sgrìobhadh %s\n%s
+msg.phrase	%s %s	%s %s
+msg.phrase	unsupported version %u	dreach gun taic %u
+msg.phrase	%d:%d:%d:%d:%d:%d	%d: %d: %d: %d: %d: %d
+msg.phrase	Octave %d	Octave %d
+msg.phrase	Note %s	Nota %s
+msg.phrase	Instrument %d	Inneal %d
+msg.phrase	Volume %s	Meud %s
+msg.phrase	Effect %c	Buaidh %c
+msg.phrase	Parameter %s	Paramadair %s
+msg.phrase	Pattern %s	Pàtran %s
+msg.phrase	Playing pattern %s	Pàtran cluich %s
+msg.phrase	SAVE ERROR: %s	SAVE MEARACHD: %s
+msg.phrase	Saved %s	Air a shàbhaladh %s
+msg.phrase	LOAD ERROR: %s	MEARACHD LOAD: %s
+msg.phrase	BPM %d	BPM %d
+msg.phrase	Speed %d	Astar %d
+msg.phrase	Preview %s	Ro-shealladh %s
+msg.phrase	Instrument %s %s	Inneal %s %s
+msg.phrase	Overwrite %s? (Y/N)	Ath-sgrìobh %s? (Y/N)
+msg.phrase	 | BPM %s SPD %s 	| BPM %s SPD %s
+msg.phrase	 SGNO TRACKER 1.0 | 	SNNO Tracker 1.0 |
+msg.phrase	FILE 	FAILTE
+msg.phrase	 PAT %s	PAT %s
+msg.phrase	 ORD %d/%d	ORD %d/%d
+msg.phrase	 INS %s 	INS %s
+msg.phrase	 OCT %d	OCT %d
+msg.phrase	 EDIT %s	Deasaich %s
+msg.phrase	ON 	AIRSON
+msg.phrase	 FOL %s	FOL %s
+msg.phrase	TRACK %d	TRACK %d
+msg.phrase	%c%s	%c%s
+msg.phrase	%s %s %s %s	%s %s %s %s
+msg.phrase	%s 	%s
+msg.phrase	%d %s %s	%d %s %s
+msg.phrase	ORDER %d/%d	ORDER %d/%d
+msg.phrase	PAT   %s	PAT %s
+msg.phrase	INS %s %s	INS %s %s
+msg.phrase	OCT %d  EDIT %s	OCT %d Deasaich %s
+msg.phrase	FOLLOW %s	LEAN %s
+msg.phrase	PLAYING  ORD %d/%d  PAT %s  ROW %s/%d  SPD %s  BPM %d  F7 STOP	ORD CLEAR %d/%d PAT %s ROW %s/%d SPD %s BPM %d F7 STOP
+msg.phrase	READY  EDIT %s  OCT %d  F1 HELP  F5 PLAY  CTRL-S SAVE	Deasachadh Deiseil %s OCT %d F1 CUIDEACHADH F5 PLAY CTRL-S SAVE
+msg.phrase	 %s 	%s
+msg.phrase	  F5          Play the song from the current order	F5 Cluich an t-òran bhon òrdugh làithreach
+msg.phrase	  F6          Play the current pattern	F6 Cluich am pàtran làithreach
+msg.phrase	  F7/Ctrl-C   Stop playback	F7 / Ctrl-C Cuir stad air ath-chluich
+msg.phrase	  Space       Play / stop	Space Cluich / stad
+msg.phrase	  F4          Save as	F4 sàbhail mar
+msg.phrase	  Ctrl-S      Save (asks for a name if new)	Sàbhail Ctrl-S (iarraidh ainm ma tha e ùr)
+msg.phrase	  Ctrl-O      Open a song	Ctrl-O Fosgail òran
+msg.phrase	  Ctrl-N      New song	Ctrl-N òran ùr a
+msg.phrase	  F12         Quit (confirmation if modified)	F12 Sguir dheth (dearbhadh ma thèid atharrachadh)
+msg.phrase	  [ ]         Previous / next order entry	[ ] Inntrigeadh roimhe / an ath òrdugh
+msg.phrase	  { }         Insert / delete an order entry	{ } Cuir a-steach / sguab às inntrig òrduigh
+msg.phrase	  - +         Change the pattern in the entry	- + Atharraich am pàtran san inntrigeadh
+msg.phrase	  F11         Follow playback (turns off on manual move)	F11 Lean ath-chluich (cuir dheth gluasad làimhe)
+msg.phrase	  F1          Help; Left/Right changes page	Cuideachadh F1; Duilleag atharraichean clì/deas
+msg.phrase	  F8          Toggle edit mode	F8 Tog am modh deasachaidh
+msg.phrase	  Arrows      Move the cursor	Saighdean Gluais an cursair
+msg.phrase	  PgUp/PgDn   Jump 16 rows	PgUp/PgDn Leum 16 sreathan
+msg.phrase	  Home/End    First / last row	Dachaigh / Deireadh A’ chiad / sreath mu dheireadh
+msg.phrase	  F9/F10      Octave down / up	F9 / F10 Octave sìos / suas
+msg.phrase	  Z S X D C V G B H N J M      lower piano row	Z S X D C V G B H N J M sreath piàna ìosal
+msg.phrase	  Q 2 W 3 E R 5 T 6 Y 7 U      upper piano row	Q 2 W 3 E R 5 T 6 Y 7 U sreath àrd piàna
+msg.phrase	  1           Note off	1 Thoir an aire
+msg.phrase	  0 / Del     0 clears note/inst/fx; Del clears any	0 / Del 0 a’ glanadh nota/inst/fx; Bidh Del a’ glanadh gin
+msg.phrase	  Ctrl-Z      Undo the last pattern/order edit	Ctrl-Z Cuir dheth am pàtran / deasachadh òrdugh mu dheireadh
+msg.phrase	  Axy   Volume slide: up x, down y	Sleamhnachadh tomhas-lìonaidh Axy: suas x, sìos y
+msg.phrase	  Cxx   Note cut after xx ticks	Cxx Nota air a ghearradh às deidh xx diog
+msg.phrase	  Dxx   Set volume (00..7F)	Dxx Suidhich tomhas-lìonaidh (00..7F)
+msg.phrase	  Fxx   Speed if xx < 20, otherwise BPM	Luas Fxx ma tha xx < 20, air neo BPM
+msg.phrase	  Hxy   Arpeggio x, y semitones	Hxy Arpeggio x, y semitones
+msg.phrase	  Pxx   Pitch slide up	Pxx Pitch sleamhnachadh suas
+msg.phrase	  Qxx   Pitch slide down	Sliochd Qxx Pitch sìos
+msg.phrase	  F2 song settings, F3 instrument list	Suidhichidhean òran F2, liosta ionnstramaid F3
+msg.phrase	HELP %d/2	CUIDEACHADH %d/2
+msg.phrase	  Title	Tiotal
+msg.phrase	  [%s_]	[%s_]
+msg.phrase	  BPM   : %d     (left/right -1/+1, -/+ -5/+5)	BPM : %d (clì/deas -1/+1, -/+ -5/+5)
+msg.phrase	  Speed : %d ticks/row	Astar : %d diog/sreath
+msg.phrase	  Rows  : %d (fixed)	Sreathan: %d (stèidhichte)
+msg.phrase	  Order : %d entries	Òrdugh: %d inntrigidhean
+msg.phrase	  Patterns in use : %d	Pàtranan gan cleachdadh: %d
+msg.phrase	 #  NAME       WAVE       A   D   S   R  VOL	# AINMEAN TONN A D S R VOL
+msg.phrase	 %c %d  %-9s %-9s %3d %3d %3d %3d %4d	%c %d %-9s %-9s %3d %3d %3d %3d %4d
+msg.phrase	Current instrument: %s %s	An ionnsramaid làithreach: %s %s
+msg.phrase	  %s	%s
+msg.phrase	DIR  %s	DIR %s
+msg.phrase	 %c %s%s	%c%s%s
+msg.phrase	Files: %d	Faidhlichean: %d
+msg.phrase	%02d	%02d
+msg.phrase	%03d	%03d
+msg.phrase	%02X	%02X
+msg.phrase	SGNO TRACKER: incompatible SGX ABI\n	SGNO Tracker: SGX ABI neo-fhreagarrach
+msg.phrase	S: check: wait -- a file is being read or written	S: thoir sùil: fuirich - tha faidhle ga leughadh no ga sgrìobhadh
+msg.phrase	S: check: the drive is busy or not ready	S: thoir sùil: tha an draibhear trang no nach eil deiseil
+msg.phrase	nothing for this item (ContextMenu.cfg)	chan eil dad airson an rud seo (ContextMenu.cfg)
+msg.phrase	bad command in ContextMenu.cfg	droch àithne ann an ContextMenu.cfg
+msg.phrase	unknown action in ContextMenu.cfg	gnìomh neo-aithnichte ann an ContextMenu.cfg
+msg.prefix	menu	clàr-taice
+msg.phrase	choose a file or folder	tagh faidhle no pasgan
+msg.phrase	this drive cannot be written	chan urrainnear an dràibhear seo a sgrìobhadh
+msg.phrase	an archive job is already running	tha obair tasglann a' ruith mu thràth
+msg.phrase	no PSRAM for the archive task	chan eil PSRAM ann airson obair an tasglann
+msg.phrase	could not start the archive task	cha b' urrainn dhuinn an tasg tasglainn a thòiseachadh
+msg.phrase	too many items (32 at most)	cus rudan (32 aig a’ char as motha)
+msg.phrase	nothing to compress	chan eil dad ri dhèanamh
+msg.phrase	no name (or the name has / or \\)	chan eil ainm (no chan eil an t-ainm / no \\)
+msg.phrase	32 items at most (mark fewer, or put them in a folder)	32 rud aig a’ char as motha (comharraich nas lugha, no cuir ann am pasgan iad)
+msg.prefix	archive	tasglann
+msg.prefix	compress	compress
+msg.prefix	render	toirt seachad
+msg.phrase	5 Macro	5 Macro
+msg.phrase	6 Help	6 Cuideachadh
+msg.phrase	Run current	Ruith sruth
+msg.phrase	Run the macro at the cursor (#! header cell and the cells below it)	Ruith am macro aig a’ chursair (#! cealla cinn agus na ceallan fodha)
+msg.phrase	Run selection	Ruith taghadh
+msg.phrase	Run the selected cells as one macro (top-left cell is the #! header)	Ruith na ceallan taghte mar aon macro (is e an cealla gu h-àrd an taobh chlì am bann-cinn #!)
+msg.phrase	Run all	Ruith a h-uile
+msg.phrase	Run every macro in the sheet, top-left to bottom-right	Ruith a h-uile macro san duilleag, gu h-àrd clì gu bonn-deas
+msg.phrase	Last error	Mearachd mu dheireadh
+msg.phrase	Show the last macro error	Seall am mearachd macro mu dheireadh
+msg.phrase	Macro	Macro
+msg.phrase	Macro: run #!ruby / #!python / #!basic cells	Macro: ruith #!ruby / #!python / #!ceallan bunaiteach
+msg.phrase	Edit the cell (F2)	Deasaich an cealla (F2)
+msg.phrase	Fit widths/heights to the contents	Cuir leud / àirde ris an t-susbaint
+msg.phrase	Last macro error	Mearachd macro mu dheireadh
+msg.phrase	No macro error.	Chan eil mearachd macro ann.
+msg.phrase	IME on	IME air adhart
+msg.phrase	IME off	IME dheth
+msg.phrase	Macro: %s %s ...	Macro: %s %s ...
+msg.phrase	%s: this firmware cannot run macros (SGX ABI 5.10 or later)	%s: chan urrainn don firmware seo macros a ruith (SGX ABI 5.10 no nas fhaide air adhart)
+msg.phrase	Macro error: %s	Mearachd macro: %s
+msg.phrase	Macro: %s done	Macro: %s dèanta
+msg.phrase	a macro is already running	tha macro mu thràth a’ ruith
+msg.phrase	this language is not available	chan eil an cànan seo ri fhaighinn
+msg.phrase	not enough memory	chan eil cuimhne gu leòr
+msg.phrase	the macro stopped with an error	sguir am macro le mearachd
+msg.phrase	Macro error %s: %s	Mearachd macro %s: %s
+msg.phrase	Macro: not enough memory	Macro: chan eil cuimhne gu leòr ann
+msg.phrase	Macro: the cursor is not on a macro (a #!ruby / #!python / #!basic cell or the cells below it)	Macro: chan eil an cursair air macro (cealla #!ruby / #!python / #!bunaiteach no na ceallan fodha)
+msg.phrase	Macro: no macro in the sheet	Macro: chan eil macro air an duilleag
+msg.phrase	Run all macros	Ruith a h-uile macros
+msg.phrase	Macros: %d. Run them all, top-left to bottom-right? Changes cannot be undone.	Macros: %d. Ruith iad uile, gu h-àrd clì gu bonn-deas? Chan urrainnear atharrachaidhean a chuir dheth.
+msg.phrase	Macro: %d of %d done	Macro: %d de %d dèanta
+msg.phrase	Cleared the cell	Ghlan e an cealla
+msg.phrase	Cleared the selection	Sgrios an taghadh
+msg.phrase	Background colour = %d	Dath cùl-raoin = %d
+msg.phrase	Text colour = %d	Dath an teacsa = %d
+msg.phrase	Graph: line	Graf: loidhne
+msg.phrase	Graph: bar	Graf: bàr
+msg.phrase	Graph: mixed	Graf: measgaichte
+msg.phrase	Graph: pie	Graf: pie
+msg.phrase	Exported %s	Às-mhalairt %s

@@ -1,0 +1,787 @@
+# nl: machine translation (Google), unreviewed; 2026-11-17
+M001	de rit ging weg
+M002	de partities opnieuw lezen...
+M003	kon het volume niet openen (geen geheugen?)
+M004	volume openen...
+M005	geen geheugen voor de bestandslijst
+M006	de map lezen... (opnieuw proberen)
+M007	kon de map niet lezen
+M008	de map lezen...
+M009	de schijf antwoordde niet - de partities werden opnieuw gelezen
+M010	kon de map niet lezen (niet FAT12/16/32?)
+M011	te veel vermeldingen - de eerste worden weergegeven
+M012	er is geen bestandssysteem gevonden op deze partitie
+M013	het pad is te lang
+M014	meedoen...
+M015	splitsen...
+M016	hernoemen...
+M017	de map maken...
+M018	het bestand maken...
+M019	verwijderen...
+M020	attributen schrijven...
+M021	de rit is bezet
+M022	druk bezig
+M023	kies bestanden of mappen
+M024	kies bestanden of mappen (niet "..")
+M025	stop eerst de cd
+M026	de cd kan niet worden gewijzigd (in plaats daarvan kopiëren)
+M027	een systeemmap kan niet worden verplaatst
+M028	er kan geen schijf worden geschreven (alleen FAT / exFAT / NTFS)
+M029	de schijf is weg
+M030	niets gekozen
+M031	niets geselecteerd
+M032	kon niet starten
+M033	kon niet openen
+M034	alleen op een FAT/exFAT/NTFS-schijf
+M035	geen naam
+M036	die naam bestaat al
+M037	kon niet starten (slechte naam of de schijf is bezet)
+M038	kon niet starten (de schijf is bezet)
+M039	de naam mag geen / of \\ bevatten (alleen in deze map)
+M040	de naam is hetzelfde
+M041	het item is alleen-lezen (A om te wijzigen)
+M042	kies een .rb-bestand op een beschrijfbare schijf
+M043	kies een .rb-bestand
+M044	de schijf is alleen-lezen
+M045	kies een map op een beschrijfbare schijf
+M046	wacht even
+M047	kies een bestand
+M048	kies een bestand (geen map)
+M049	kies een .001-bestand
+M050	kies het .001-bestand
+M051	plaats de IWAD in een map DoomFiles of Doom2Files
+M052	DoomFiles neemt freedoom1 / doom / doomu / doom1.wad
+M053	Doom2Files neemt freedoom2 / doom2 / plutonia / tnt.wad
+M054	plaats de spelbestanden op externe opslag, niet S:
+M055	de IWAD moet op een FAT/exFAT/NTFS-station staan ​​(geen CD)
+M056	werkt nog steeds
+M057	er wordt een afbeelding geladen
+M058	geen framebuffer
+M059	halve helderheid werkt alleen in RGB555
+M060	opruimen...
+M061	halvering van de helderheid...
+M062	dat is een dataspoor
+M063	wacht -- er wordt een bestand geschreven
+M064	alleen floppy/LS-120/CD-drives
+M065	gevraagd
+M066	de schijf lezen...
+M067	stoppen...
+M068	opening...
+M069	klaar
+M070	geen geheugen
+M071	al geopend
+M072	loopt al
+M073	al aan het sparen
+M074	speelt al
+M075	zo'n drive bestaat niet
+M076	geen PSRAM
+M077	geen PSRAM voor het bestand
+M078	geen PSRAM voor de lijnindex
+M079	geen PSRAM voor de terminal
+M080	geen geheugen (PSRAM)
+M081	geen geheugen (32KB SRAM)
+M082	geen geheugen voor de buffer
+M083	geen geheugen voor de beeldbuffers
+M084	geen geheugen voor de leesbuffer
+M085	geen ruimte voor het werkgeheugen (sluit het lage resolutievlak?)
+M086	geen framebufferpagina
+M087	te groot (maximaal 4 MB)
+M088	het bestand is te groot (maximaal 1 MB)
+M089	het bestand is te groot (max. 1 MB)
+M090	te groot voor een SMF (maximaal 1 MB)
+M091	het bestand is leeg
+M092	kon het bestand niet openen
+M093	kon het bestand niet lezen
+M094	kon het volume niet openen
+M095	kon de bestemming niet openen (geen geheugen?)
+M096	kon de hoofdmap niet lezen
+M097	kon de taak niet starten
+M098	kon niet beginnen met schrijven (slechte naam of druk)
+M099	een ander volume is open (bezet)
+M100	Er wordt een kopie uitgevoerd
+M101	een map kan niet naar zichzelf gaan
+M102	dat is dezelfde map
+M103	deze schijf kan niet worden gewijzigd (alleen lezen)
+M104	de schijf is niet beschrijfbaar
+M105	de onderdeelgrootte moet een veelvoud van 512 zijn
+M106	bestanden van 4 GB of meer worden niet ondersteund
+M107	slecht pad
+M108	slechte bestandsnaam
+M109	het lettertype-ROM is er niet
+M110	het geluid is niet open
+M111	zo'n kanaal bestaat niet
+M112	de sequencer is bezig
+M113	niet genoeg PSRAM voor het nummer
+M114	geen standaard MIDI-bestand (geen MThd)
+M115	geen sporen
+M116	een spoor is gebroken (MTrk)
+M117	SMPTE-tijdverdeling wordt niet ondersteund
+M118	SMF-formaat 2 wordt niet ondersteund (alleen 0 en 1)
+M119	geen Bulk-Only-schijf
+M120	geen optische drive
+M121	een systeemmap kan niet worden verwijderd of hernoemd
+M122	geen media in de schijf
+M123	gereed worden
+M124	niet klaar
+M125	media veranderd
+M126	gemiddelde fout
+M127	illegaal verzoek
+M128	een slechte mapinvoer
+M129	een map onderweg bestaat niet
+M130	een bestand heeft die naam
+M131	een map heeft die naam
+M132	een naam onderweg is geen map
+M133	geannuleerd
+M134	kon niet monteren
+M135	kon het lezen niet starten
+M136	kon niet beginnen met schrijven
+M137	is een map
+M138	dat is een map
+M139	geen clusters
+M140	geen ruimte voor de clusterlijst
+M141	zo'n bestand of map bestaat niet
+M142	zo'n bestand bestaat niet
+M143	geen volume
+M144	niet NTFS
+M145	niet exFAT
+M146	geen map
+M147	niet gevonden
+M148	leesfout
+M149	schrijf fout
+M150	het lezen van de FAT is mislukt
+M151	de clusterketen is korter dan het bestand
+M152	de map is niet leeg
+M153	de schijf is vol
+M154	de schijf antwoordde niet
+M155	het bestand is alleen-lezen
+M156	het bestand is te gefragmenteerd
+M157	het bestand is te groot (4GB)
+M158	de nieuwe naam bestaat al
+M159	de hoofdmap is vol
+M160	te veel bestanden met dezelfde korte naam
+M161	Een dergelijk bestand of map bestaat niet
+M162	Bestand bestaat
+M163	Toestemming geweigerd
+M164	Map niet leeg
+M165	Geen map
+M166	Is een map
+M167	Alleen-lezen bestandssysteem
+M168	Er is geen ruimte meer op het apparaat
+M169	Invoer-/uitvoerfout
+M170	Niet ondersteund op deze schijf
+M171	Ongeldig pad
+M172	Geen geheugen meer
+M173	Zo'n drive bestaat niet
+M174	gestopt
+M175	geannuleerd (niet genoeg vrije ruimte)
+M176	kon de vrije ruimte niet tellen
+M177	de ontvanger heeft geannuleerd
+M178	geen ontvanger (voer rz uit op de pc)
+M179	de console-UART is in gebruik
+M180	de schermmodus is gewijzigd
+M181	de lijnen kwamen niet (loopt het display?)
+M182	kopiëren
+M183	beweging
+M184	verwijderen
+M185	hernoemen
+M186	attributen
+M187	nieuw bestand
+M188	nieuwe map
+M189	afbeelding
+M190	mrbc
+M191	robijn
+M192	kijker
+M193	bewerking
+M194	IDENTIFICEREN
+M195	ZMODEM
+M196	ZMODEM ontvangen
+M197	ZMODEM verzenden
+M198	gesplitst
+M199	meedoen
+M200	Noodlot
+M201	SMF
+M202	CD
+M203	FB
+M204	Uitwerpen
+M205	opnieuw opstarten
+M206	licentie
+M207	klok
+M208	ADC in
+M209	scherm -> PNG
+M210	FB -> PNG
+M211	kon het volume niet openen
+M212	ontvangen
+M213	verstuurd
+M214	opgeslagen
+M215	gemaakt
+M216	hernoemd naar
+M217	verwijderd
+M218	veranderd
+M219	aangesloten
+M220	gesplitst
+M221	kon niet creëren
+M222	kon niet verwijderen
+M223	kon de naam niet wijzigen
+M224	kon niet veranderen
+M225	kon niet lezen
+M226	kon niet schrijven
+M227	kon niet kopiëren
+M228	kon niet maken
+M229	kon de map niet verwijderen
+M230	kon niet verwijderen
+M231	geen geheugen voor
+M232	te veel fouten tijdens het verzenden
+M233	de ontvanger heeft niet opgenomen
+M234	de ontvanger sloeg over
+M235	FB-pagina
+M236	bytes elk)
+M237	bytes)
+M238	KB)
+M239	onderdelen in
+M240	onderdelen (
+M241	naar binnen
+M242	: gewist
+M243	: helderheid gehalveerd
+M244	% lezen
+M245	rijen
+M246	-- nog niet ondersteund (alleen FAT / exFAT / NTFS)
+M247	bestanden
+M248	(
+M249	Zonder titel
+M250	1 bestand
+M251	2 Bewerken
+M252	3 Grafiek
+M253	4 vel
+M254	5 Hulp
+M255	LEEG
+M256	NUMMER
+M257	TEKST
+M258	FORMULE
+M259	Typ om in te voeren, F2 om te bewerken, F1 voor hulp
+M260	5 CSV-bestand
+M261	6 ODS
+M262	[VERSCHUIVING]
+M263	[CTRL]
+M264	[ALT]
+M265	Klaar
+M266	SGCALC
+M267	Druk op een willekeurige toets
+M268	Y = ja N = nee Esc = annuleren
+M269	Enter = OK Esc = annuleren Ctrl-U = wissen
+M270	Eerste rij/kolom = labels; kaarten gebruiken de 640x480 CLUT8 FB.
+M271	SGCALC - HELP
+M272	Druk op een willekeurige toets om terug te keren
+M273	Druk op een willekeurige toets om terug te keren.
+M274	OVER SGCALC
+M275	Nieuw
+M276	Begin een nieuw blad
+M277	Open...
+M278	Open een ODS-, FODS- of CSV-bestand
+M279	Redden
+M280	Sla het huidige bestand op
+M281	Opslaan als...
+M282	Opslaan met een nieuwe naam of formaat
+M283	CSV exporteren...
+M284	Schrijf een CSV-kopie
+M285	ODS exporteren...
+M286	Schrijf een LibreOffice-kopie
+M287	Ontslag nemen
+M288	Verlaat SGCALC
+M289	Duidelijk
+M290	Wis de geselecteerde cellen
+M291	Kopiëren
+M292	Kopieer de selectie
+M293	Plakken
+M294	Plak bij de cursor
+M295	Snee
+M296	Kopieer en wis de selectie
+M297	Selecteer alles
+M298	Selecteer alle gebruikte cellen
+M299	Tekstkleur...
+M300	Kies de tekstkleur
+M301	Achtergrond...
+M302	Kies de celachtergrond
+M303	Lijn
+M304	Teken een lijngrafiek van de selectie
+M305	Bar
+M306	Teken een staafdiagram van de selectie
+M307	Gemengd
+M308	Bars voor de eerste serie, lijnen voor de rest
+M309	Taart
+M310	Teken een cirkeldiagram van de selectie
+M311	Bereik...
+M312	Stel het grafiekbereik expliciet in
+M313	Teken opnieuw
+M314	Teken de laatste grafiek opnieuw
+M315	Ga naar...
+M316	Naar een cel springen (bijvoorbeeld C12)
+M317	Kolombreedte...
+M318	Wijzig de breedte van de geselecteerde kolommen
+M319	Rijhoogte...
+M320	Wijzig de hoogte van de geselecteerde rijen
+M321	Automatische pasvorm
+M322	Breedte/hoogte aanpassen aan de inhoud (F7)
+M323	Herbereken
+M324	Evalueer alle formules opnieuw
+M325	Wis alles
+M326	Maak het hele blad leeg
+M327	Sleutels
+M328	Laat de sleutelgids zien
+M329	Over
+M330	Over SGCALC
+M331	Bestand
+M332	Bewerking
+M333	Grafiek
+M334	Laken
+M335	Hulp
+M336	Bestand: nieuw, openen, opslaan, exporteren, afsluiten
+M337	Bewerken: wissen, kopiëren, plakken, knippen, alles selecteren
+M338	Grafiek: lijn, staaf, gemengd, taart (tekent in de FB)
+M339	Blad: ga naar, kolombreedte, herberekenen, wissen
+M340	Hulp: sleutels en over
+M341	Links/Rechts = menu Omhoog/Omlaag = item Enter = kies Esc = annuleren
+M342	Geannuleerd
+M343	De selectie is te groot of er is weinig geheugen.
+M344	de cel
+M345	de selectie
+M346	Niets om te plakken
+M347	Geplakt
+M348	GA NAAR CEL
+M349	Celreferentie (A1):
+M350	Ga naar
+M351	KOLOM BREEDTE
+M352	Breedte in tekens (4..30):
+M353	RIJ HOOGTE
+M354	Hoogte in tekstregels (1..8):
+M355	Automatisch aanpassen: het blad is leeg
+M356	ACHTERGRONDKLEUR
+M357	TEKST KLEUR
+M358	Pijlen: kies Enter: toepassen Esc: annuleren
+M359	Kleurindex (PC-98 16-kleurenpalet)
+M360	Aa 123
+M361	Enter = toepassen Esc = annuleren
+M362	Kleur
+M363	Achtergrond
+M364	Tekst
+M365	GRAFIEK BEREIK
+M366	Bereik (bijvoorbeeld A1:C10):
+M367	Grafiek bereik
+M368	Gebruik een bereik zoals A1:C10.
+M369	Kan de grafiek niet tekenen.
+M370	lijn
+M371	bar
+M372	gemengd
+M373	taart
+M374	Elke cel in dit blad wissen?
+M375	Blad gewist
+M376	Alle gebruikte cellen geselecteerd
+M377	Herberekend
+M378	Geheugen
+M379	Niet genoeg PSRAM voor de spreadsheet.
+M380	Het blad is leeg.
+M381	Geen numerieke gegevens in het geselecteerde bereik.
+M382	Ander
+M383	Geen positieve waarden voor een cirkeldiagram
+M384	LIJN
+M385	BAR
+M386	GEMENGD
+M387	TAART
+M388	S:/
+M389	Map
+M390	OPSLAAN ALS
+M391	BESTAND OPENEN
+M392	LibreOffice/CSV
+M393	ODS FODS CSV
+M394	Naam:
+M395	(typ een naam, of kies hieronder)
+M396	Naam
+M397	Maat
+M398	Enter=opslaan Links=omhoog Rechts/Enter op [DIR]=open Tab=station Esc=annuleren
+M399	Enter=open Links=omhoog Rechts/Enter op [DIR]=open Tab=station Esc=annuleren
+M400	Niet genoeg geheugen.
+M401	Overschrijven
+M402	Open
+M403	Het bestand is te groot (limiet 8 MB).
+M404	Onvoldoende geheugen om het bestand te lezen.
+M405	Slechte ZIP/ODS-gegevens.
+M406	CRC-fout in het ODS-bestand.
+M407	Niet-ondersteund of beschadigd bestand.
+M408	Opgeslagen
+M409	Geëxporteerd
+M410	Niet-opgeslagen wijzigingen
+M411	Het huidige blad opslaan voordat u doorgaat?
+M412	Nieuw blad
+M413	SGTRK
+M414	ZONDER TITEL
+M415	liedje is te groot
+M416	leeg bestand
+M417	geen SGT-bestand
+M418	slechte BPM
+M419	slechte snelheid
+M420	slechte titellengte
+M421	ingekorte titel
+M422	slecht karakter in de titel
+M423	ingekorte volgorde
+M424	slechte bestellengte
+M425	slecht patroonnummer in volgorde
+M426	ingekorte patroonlijst
+M427	slechte patroontelling
+M428	slechte patroonindex
+M429	duplicaat patroon
+M430	afgeknotte patroongegevens
+M431	ongeldige patroongegevens
+M432	achterliggende gegevens in het bestand
+M433	volgorde verwijst naar een ontbrekend patroon
+M434	A:/
+M435	(zonder titel)
+M436	Klaar. Druk op F1 voor hulp.
+M437	Volg UIT
+M438	Niets om ongedaan te maken
+M439	Ongedaan maken
+M440	Opmerking UIT
+M441	Stel eerst een effectletter in
+M442	Effect gewist
+M443	Parameter gewist
+M444	Opmerking gewist
+M445	Instrument gewist
+M446	Volume gewist
+M447	Bestellijst is vol
+M448	Bestelling geplaatst
+M449	Kan de laatste bestelling niet verwijderen
+M450	Bestelling verwijderd
+M451	Liedje afspelen
+M452	Gestopt
+M453	Nieuw liedje
+M454	Niet-opgeslagen wijzigingen negeren en een nieuw nummer starten? (J/N)
+M455	Niet-opgeslagen wijzigingen negeren en een nummer openen? (J/N)
+M456	Niet-opgeslagen wijzigingen negeren en afsluiten? (J/N)
+M457	Nummerinstellingen bijgewerkt
+M458	Bestandsnaam is leeg
+M459	Opslaan geannuleerd
+M460	Openen geannuleerd
+M461	Bewerken AAN
+M462	Bewerken UIT
+M463	Volg AAN
+M464	Bewerken is UIT. Druk op F8 om te bewerken.
+M465	I/O-fout
+M466	bestand is te groot
+M467	ingekort bestand
+M468	SINUS PAD
+M469	DRIEHOEK
+M470	ZAAG LOOD
+M471	VIERKANT
+M472	PULS 25
+M473	ORGAAN
+M474	BAS
+M475	KLOK
+M476	LAWAAI
+M477	SINUS
+M478	ZAAG
+M479	UIT
+M480	OP
+M481	RIJ
+M482	KAN-NIVEAU
+M483	F1 HELP F2 LIED
+M484	F3 INS F4 OPSLAAN
+M485	F5 SPELEN F6 PAT
+M486	F7 STOPPEN F8 BEWERKEN
+M487	F9/F10 OCTAF
+M488	F11 VOLGEN
+M489	F12 AFSLUITEN
+M490	RUIMTE SPELEN/STOPPEN
+M491	CTRL-S OPSLAAN
+M492	CTRL-O OPENEN
+M493	C-N NIEUW C-Z ONGEDAAN
+M494	C-C STOP
+M495	#TRANSPORT EN BESTANDEN
+M496	#BESTELLINGLIJST
+M497	#WEERGAVE
+M498	#BEWERKEN
+M499	#EFFECTS (parameter is hexadecimaal)
+M500	LINKER/RECHTER PAGINA ENTER OF F1 SLUITEN
+M501	LIEDJE-INSTELLINGEN
+M502	OMHOOG/OMLAAG SELECTEREN LINKS/RECHTS AANPASSEN ENTER/F2 SLUITEN
+M503	Typ om de titel te bewerken. Backspace verwijdert het laatste teken.
+M504	BPM-bereik 32..255. Toerentalbereik 1..31.
+M505	Patrooneffecten kunnen tijdens het spelen ook de snelheid en BPM veranderen.
+M506	INSTRUMENTEN
+M507	OMHOOG/OMLAAG SELECTEER RUIMTE VOORBEELD ENTER GEBRUIK F3 SLUITEN
+M508	Alle vier de kanalen maken gebruik van wavetable-synthese.
+M509	Preview speelt C-4 af op de track onder de bewerkingscursor.
+M510	SONG OPSLAAN ALS
+M511	ENTER OPSLAAN F4 OF CTRL-C ANNULEREN
+M512	Directory:
+M513	Bestandsnaam:
+M514	De extensie .SGT wordt automatisch toegevoegd.
+M515	Een bestaand bestand kan worden overschreven.
+M516	OPEN LIED
+M517	ENTER OPEN BS PARENT CTRL-O/CTRL-C ANNULEREN
+M518	(geen .SGT-bestanden in deze map)
+M519	BEVESTIGEN
+M520	J = JA N / ENTER / CTRL-C = NEE
+M521	J = ja N = nee
+M522	C-
+M523	C#
+M524	D-
+M525	D#
+M526	E-
+M527	F-
+M528	F#
+M529	G-
+M530	G#
+M531	A-
+M532	A#
+M533	B-
+M534	A:/map/naam
+M535	MThd
+M536	gebroken MThd
+M537	MIDI-IMPORT
+M538	MTrk
+M539	gebroken deltatijd
+M540	gebroken lopende status
+M541	gebroken meta-evenement
+M542	gebroken sysex-gebeurtenis
+M543	gebroken kanaalgebeurtenis
+M544	De SMF-uitvoer is te klein
+M545	De SMF-uitvoer is te groot
+M546	het nummer is te lang voor SMF
+M547	TRK1
+M548	%s%d
+M549	%s%d:%s%d
+M550	%s
+M551	%.40s%s
+M552	[%s] %s
+M553	BEWERKING
+M554	KLAAR
+M555	%4d
+M556	%s Som %.7g N %ld%s
+M557	PIJLEN verplaatsen de celcursor
+M558	SHIFT+ARR breidt de selectie uit (voor grafieken/kopiëren)
+M559	ENTER bewerk de cel; in bewerken, vastleggen en naar beneden verplaatsen
+M560	TAB volgende cel SHIFT+TAB vorige cel
+M561	DELETE wis de geselecteerde cel(len) ESC annuleer
+M562	PGUP/PGDN één scherm verplaatsen HOME/END eerste/laatste kolom
+M563	CTRL+HOME A1 CTRL+END laatst gebruikte cel
+M564	F1 help F2 bewerken F3 kopiëren F4 plakken F5 ga naar F6 kleur
+M565	F7 automatisch aanpassen F8 achtergrond F9 herberekenen F10 grafiek F11 opslaan F12 menu
+M566	SHIFT+F1 over SHIFT+F2 rijhoogte SHIFT+F3 kolombreedte
+M567	SHIFT+F4 alles selecteren SHIFT+F10 grafiekbereik SHIFT+F11 opslaan als
+M568	CTRL+F1 nieuw CTRL+F2 openen CTRL+F3 opslaan CTRL+F4 opslaan als
+M569	CTRL+F5 CSV exporteren CTRL+F6 exporteren ODS ALT+F12 afsluiten
+M570	Onderste 2 regels: functietoetsen; [SHIFT]/[CTRL]/[ALT] zoals de filer
+M571	CTRL+S opslaan CTRL+O openen CTRL+N nieuw CTRL+C/V/X kopiëren/plakken/knippen
+M572	CTRL+G ga naar/open het menu (1 Bestand, 2 Bewerken, ...)
+M573	Ingebouwde functies: SUM GEMIDDELDE MIN MAX COUNT COUNTA
+M574	PRODUCT ABS SQRT INT ROUND MOD POWER INDIEN EN OF NIET
+M575	IFERROR LEN LINKS RECHTS MID BOVEN ONDER BEKLEDING AANGEKOMEN PI
+M576	Celreferenties: A1, $A$1, A1:B10.  Formules beginnen met '='.
+M577	Bestanden: .ods (LibreOffice), .fods (platte XML), .csv
+M578	ODS/FODS behoudt formules, breedtes, hoogtes en kleuren.
+M579	CSV bewaart waarden en formules (geen kleuren/hoogten).
+M580	Grafiek: selecteer een bereik, druk op F10 en kies Lijn/Bar/Gemengd/Pie.
+M581	SGCALC voor sgnano
+M582	Versie
+M583	Een spreadsheet in Lotus 1-2-3-stijl als een SGX-programma.
+M584	SGX ABI %u.%u
+M585	Schermmodus 3: tekst + CLUT8 FB (lage resolutie uitgeschakeld)
+M586	Blad: %d rijen x %d kolommen
+M587	Formaten: .ods / .fods (LibreOffice), .csv
+M588	Het raster wordt op het tekstvlak getekend.
+M589	Grafieken en de achtergrond van 640 x 480 gebruiken de FB.
+M590	%d %s
+M591	Kan de cel niet opslaan (%d).
+M592	Gekopieerde %d x %d cellen
+M593	Gewist %s
+M594	'%s' is geen celverwijzing.
+M595	%d
+M596	Kolombreedte = %d
+M597	Rijhoogte = %d
+M598	Automatisch aanpassen: %d kolom(men), %d rij(en)
+M599	%2d
+M600	Kan de kleur (%d) niet toepassen.
+M601	%s kleur = %d
+M602	Geen geldig bereik.\nGebruik een bereik zoals A1:C10.
+M603	Grafiekbereik %s
+M604	Grafiek: %s
+M605	SGCALC: kan schermmodus 3 niet instellen: %s
+M606	%.2g
+M607	%.6g
+M608	%s %.0f%%
+M609	GRAFIEK %s %s
+M610	%s%s
+M611	%s/%s
+M612	%.*s
+M613	%.*s/
+M614	Kan %s niet lezen\n%s
+M615	Map: %s
+M616	[DIR] %s
+M617	%s
+M618	%lu.%luM
+M619	%luK
+M620	%luB
+M621	BOEK 1%s
+M622	%c:/
+M623	Niet-ondersteunde extensie.\nGebruik .csv, .ods of .fods.
+M624	%s bestaat al.\nOverschrijven?
+M625	%s is mogelijk niet beschrijfbaar.\nToch proberen?
+M626	Onbekend bestandstype voor %s
+M627	Niet-ondersteund bestandstype.\nGebruik .csv, .ods of .fods.
+M628	Kan %s niet openen\n%s
+M629	%s is een map.
+M630	Kan %s niet importeren\n%s
+M631	Geladen %s
+M632	Kan het %s-bestand niet opbouwen.
+M633	Kan %s niet schrijven\n%s
+M634	%s %s
+M635	niet-ondersteunde versie %u
+M636	%d:%d:%d:%d:%d:%d
+M637	Octaaf %d
+M638	Opmerking %s
+M639	Instrument%d
+M640	Volume%s
+M641	Effect%c
+M642	Parameter%s
+M643	Patroon %s
+M644	Speelpatroon %s
+M645	FOUT OPSLAAN: %s
+M646	Opgeslagen %s
+M647	LAADFOUT: %s
+M648	BPM%d
+M649	Snelheid %d
+M650	Voorbeeld %s
+M651	Instrument %s %s
+M652	Overschrijven %s? (J/N)
+M653	| BPM %s SPD %s
+M654	SGNO-TRACKER 1.0 |
+M655	BESTAND
+M656	PAT %s
+M657	ORD %d/%d
+M658	INS %s
+M659	OKT %d
+M660	BEWERK %s
+M661	OP
+M662	FOL %s
+M663	VOLG %d
+M664	%c%s
+M665	%s %s %s %s
+M666	%s
+M667	%d %s %s
+M668	BESTEL %d/%d
+M669	PAT %s
+M670	INS %s %s
+M671	OKT %d BEWERKEN %s
+M672	VOLG %s
+M673	SPEEL ORD %d/%d PAT %s ROW %s/%d SPD %s BPM %d F7 STOP
+M674	KLAAR BEWERKEN %s OKT %d F1 HELP F5 SPELEN CTRL-S OPSLAAN
+M675	%s
+M676	F5 Speel het nummer af vanuit de huidige volgorde
+M677	F6 Speel het huidige patroon
+M678	F7/Ctrl-C Afspelen stoppen
+M679	Ruimte Afspelen / stoppen
+M680	F4 Opslaan als
+M681	Ctrl-S Opslaan (vraagt ​​om een ​​naam als deze nieuw is)
+M682	Ctrl-O Open een nummer
+M683	Ctrl-N Nieuw nummer
+M684	F12 Afsluiten (bevestiging indien gewijzigd)
+M685	[ ] Vorige/volgende orderinvoer
+M686	{ } Een orderinvoer invoegen/verwijderen
+M687	- + Wijzig het patroon in de invoer
+M688	F11 Afspelen volgen (wordt uitgeschakeld bij handmatige verplaatsing)
+M689	F1-hulp; Links/Rechts verandert van pagina
+M690	F8 Schakel de bewerkingsmodus in
+M691	Pijlen Verplaats de cursor
+M692	PgUp/PgDn Spring 16 rijen
+M693	Home/Einde Eerste / laatste rij
+M694	F9/F10 Octaaf omlaag/omhoog
+M695	Z S X D C V G B H N J M onderste pianorij
+M696	Q 2 W 3 E R 5 T 6 Y 7 U bovenste pianorij
+M697	1 Notitie uit
+M698	0 / Del 0 wist noot/inst/fx; Del wist alles
+M699	Ctrl-Z Maak de laatste wijziging van het patroon/de bestelling ongedaan
+M700	Axy Volumeschuif: omhoog x, omlaag y
+M701	Cxx Opmerking verwijderd na xx ticks
+M702	Dxx Volume instellen (00..7F)
+M703	Fxx Snelheid als xx < 20, anders BPM
+M704	Hxy Arpeggio x, y halve tonen
+M705	Pxx Pitch schuif omhoog
+M706	Qxx Pitch naar beneden glijden
+M707	F2 songinstellingen, F3 instrumentenlijst
+M708	HULP %d/2
+M709	Titel
+M710	[%s_]
+M711	BPM: %d (links/rechts -1/+1, -/+ -5/+5)
+M712	Snelheid: %d tikken/rij
+M713	Rijen: %d (vast)
+M714	Bestelling: %d inzendingen
+M715	Gebruikte patronen: %d
+M716	# NAAM WAVE A D S R VOL
+M717	%c %d %-9s %-9s %3d %3d %3d %3d %4d
+M718	Huidig ​​instrument: %s %s
+M719	%s
+M720	DIR %s
+M721	%c %s%s
+M722	Bestanden: %d
+M723	%02d
+M724	%03d
+M725	%02X
+M726	SGNO TRACKER: incompatibele SGX ABI
+M727	S: check: wacht -- er wordt een bestand gelezen of geschreven
+M728	S: check: de schijf is bezet of niet gereed
+M729	niets voor dit item (ContextMenu.cfg)
+M730	slechte opdracht in ContextMenu.cfg
+M731	onbekende actie in ContextMenu.cfg
+M732	menu
+M733	kies een bestand of map
+M734	deze schijf kan niet worden beschreven
+M735	Er wordt al een archieftaak uitgevoerd
+M736	geen PSRAM voor de archieftaak
+M737	kon de archiveringstaak niet starten
+M738	te veel items (maximaal 32)
+M739	niets te comprimeren
+M740	geen naam (of de naam heeft / of \\)
+M741	Maximaal 32 items (markeer minder, of plaats ze in een map)
+M742	archief
+M743	comprimeren
+M744	veroorzaken
+N001	5 Macro
+N002	6 Hulp
+N003	Voer stroom uit
+N004	Voer de macro uit bij de cursor (#! headercel en de cellen eronder)
+N005	Selectie uitvoeren
+N006	Voer de geselecteerde cellen uit als één macro (cel linksboven is de kop #!)
+N007	Alles uitvoeren
+N008	Voer elke macro in het blad uit, van linksboven naar rechtsonder
+N009	Laatste fout
+N010	Toon de laatste macrofout
+N011	Macro
+N012	Macro: voer #!ruby / #!python / #!basic cellen uit
+N013	Bewerk de cel (F2)
+N014	Pas de breedte/hoogte aan de inhoud aan
+N015	Laatste macrofout
+N016	Geen macrofout.
+N017	IME aan
+N018	IME uit
+N019	Macro: %s %s ...
+N020	%s: deze firmware kan geen macro's uitvoeren (SGX ABI 5.10 of hoger)
+N021	Macrofout: %s
+N022	Macro: %s klaar
+N023	er is al een macro actief
+N024	deze taal is niet beschikbaar
+N025	niet genoeg geheugen
+N026	de macro is gestopt met een fout
+N027	Macrofout %s: %s
+N028	Macro: niet genoeg geheugen
+N029	Macro: de cursor staat niet op een macro (een #!ruby / #!python / #!basic cel of de cellen eronder)
+N030	Macro: geen macro in het blad
+N031	Voer alle macro's uit
+N032	Macro's: %d. Voer ze allemaal uit, van linksboven naar rechtsonder? Wijzigingen kunnen niet ongedaan worden gemaakt.
+N033	Macro: %d van %d klaar
+N034	De cel gewist
+N035	De selectie gewist
+N036	Achtergrondkleur = %d
+N037	Tekstkleur = %d
+N038	Grafiek: lijn
+N039	Grafiek: balk
+N040	Grafiek: gemengd
+N041	Grafiek: taart
+N042	Geëxporteerd %s

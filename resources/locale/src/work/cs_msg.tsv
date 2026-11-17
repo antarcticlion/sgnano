@@ -1,0 +1,787 @@
+# cs: machine translation (Google), unreviewed; 2026-11-17
+M001	pohon odjel
+M002	znovu čtení oddílů...
+M003	nelze otevřít svazek (žádná paměť?)
+M004	otevírání svazku...
+M005	není paměť pro seznam souborů
+M006	čtení adresáře... (opakování)
+M007	nemohl přečíst adresář
+M008	čtení adresáře...
+M009	disk neodpověděl -- znovu načetl oddíly
+M010	nemohl přečíst adresář (ne FAT12/16/32?)
+M011	příliš mnoho záznamů -- zobrazují se ty první
+M012	na tomto oddílu nebyl nalezen žádný souborový systém
+M013	cesta je příliš dlouhá
+M014	připojuji se...
+M015	dělení...
+M016	přejmenování...
+M017	vytvoření složky...
+M018	vytvoření souboru...
+M019	mazání...
+M020	psaní atributů...
+M021	pohon je zaneprázdněn
+M022	zaneprázdněný
+M023	vyberte soubory nebo složky
+M024	vyberte soubory nebo složky (nikoli "..")
+M025	nejprve zastavte CD
+M026	CD nelze změnit (místo toho zkopírovat)
+M027	systémovou složku nelze přesunout
+M028	nelze zapisovat na žádný disk (pouze FAT / exFAT / NTFS)
+M029	pohon je pryč
+M030	nic vybraného
+M031	nic vybraného
+M032	nešlo spustit
+M033	nešlo otevřít
+M034	pouze na jednotce FAT / exFAT / NTFS
+M035	žádné jméno
+M036	to jméno už existuje
+M037	nelze spustit (špatný název nebo disk je zaneprázdněn)
+M038	nelze spustit (disk je zaneprázdněn)
+M039	název nemůže mít / nebo \\ (pouze v této složce)
+M040	jméno je stejné
+M041	položka je pouze pro čtení (A změnit)
+M042	vyberte soubor .rb na zapisovatelné jednotce
+M043	vyberte soubor .rb
+M044	jednotka je pouze pro čtení
+M045	vyberte složku na zapisovatelné jednotce
+M046	počkej chvíli
+M047	vyberte soubor
+M048	vybrat soubor (ne složku)
+M049	vyberte soubor .001
+M050	vyberte soubor .001
+M051	vložte IWAD do složky DoomFiles nebo Doom2Files
+M052	DoomFiles bere freedoom1 / doom / doomu / doom1.wad
+M053	Doom2Files bere freedoom2 / doom2 / plutonia / tnt.wad
+M054	umístěte herní soubory na externí úložiště, ne S:
+M055	IWAD musí být na jednotce FAT / exFAT / NTFS (ne na CD)
+M056	stále pracuje
+M057	načítá se obrázek
+M058	žádný framebuffer
+M059	poloviční jas funguje pouze v RGB555
+M060	čištění...
+M061	snížení jasu na polovinu...
+M062	to je datová stopa
+M063	čekat -- zapisuje se soubor
+M064	pouze disketové / LS-120 / CD mechaniky
+M065	vyžádáno
+M066	čtení disku...
+M067	zastavení...
+M068	otevírací...
+M069	hotovo
+M070	žádná paměť
+M071	již otevřeno
+M072	již běží
+M073	už šetří
+M074	už hraje
+M075	žádný takový pohon
+M076	žádná PSRAM
+M077	žádný PSRAM pro soubor
+M078	žádná PSRAM pro index řádku
+M079	žádná PSRAM pro terminál
+M080	žádná paměť (PSRAM)
+M081	žádná paměť (32 KB SRAM)
+M082	žádná paměť pro vyrovnávací paměť
+M083	žádná paměť pro vyrovnávací paměti obrázků
+M084	žádná paměť pro vyrovnávací paměť pro čtení
+M085	není místo pro pracovní paměť (zavřít rovinu s nízkými hodnotami?)
+M086	žádná stránka s framebufferem
+M087	příliš velký (maximálně 4 MB)
+M088	soubor je příliš velký (maximálně 1 MB)
+M089	soubor je příliš velký (max. 1 MB)
+M090	příliš velký pro SMF (maximálně 1 MB)
+M091	soubor je prázdný
+M092	soubor nelze otevřít
+M093	nemohl přečíst soubor
+M094	svazek nelze otevřít
+M095	nelze otevřít cíl (žádná paměť?)
+M096	nemohl přečíst kořenovou složku
+M097	nemohl spustit úkol
+M098	nemohl začít psát (špatné jméno nebo zaneprázdněný)
+M099	jiný svazek je otevřený (zaneprázdněn)
+M100	běží kopie
+M101	složka nemůže jít sama do sebe
+M102	to je stejná složka
+M103	tento disk nelze změnit (pouze pro čtení)
+M104	disk není zapisovatelný
+M105	velikost dílu musí být násobkem 512
+M106	soubory o velikosti 4 GB nebo více nejsou podporovány
+M107	špatná cesta
+M108	špatný název souboru
+M109	ROM s písmy tam není
+M110	zvuk není otevřený
+M111	žádný takový kanál
+M112	sekvencer je zaneprázdněn
+M113	není dostatek PSRAM pro skladbu
+M114	není standardní MIDI soubor (žádný MThd)
+M115	žádné stopy
+M116	trať je přerušená (MTrk)
+M117	Časové dělení SMPTE není podporováno
+M118	Formát SMF 2 není podporován (pouze 0 a 1)
+M119	nejde pouze o hromadný pohon
+M120	není optická mechanika
+M121	systémovou složku nelze odstranit ani přejmenovat
+M122	v mechanice není žádné médium
+M123	připravovat se
+M124	není připraven
+M125	média se změnila
+M126	střední chyba
+M127	nezákonný požadavek
+M128	špatný záznam v adresáři
+M129	adresář na cestě neexistuje
+M130	soubor má tento název
+M131	složka má tento název
+M132	jméno na cestě není adresář
+M133	zrušeno
+M134	nemohl namontovat
+M135	nelze zahájit čtení
+M136	nemohl začít psát
+M137	je adresář
+M138	to je adresář
+M139	žádné shluky
+M140	není místo pro seznam clusterů
+M141	žádný takový soubor nebo adresář
+M142	žádný takový soubor
+M143	žádný objem
+M144	ne NTFS
+M145	ne exFAT
+M146	není adresář
+M147	nenalezen
+M148	chyba čtení
+M149	chyba zápisu
+M150	čtení FAT se nezdařilo
+M151	řetězec clusteru je kratší než soubor
+M152	adresář není prázdný
+M153	disk je plný
+M154	pohon neodpovídal
+M155	soubor je pouze pro čtení
+M156	soubor je příliš fragmentovaný
+M157	soubor je příliš velký (4 GB)
+M158	nový název již existuje
+M159	kořenový adresář je plný
+M160	příliš mnoho souborů se stejným krátkým názvem
+M161	Žádný takový soubor nebo adresář
+M162	Soubor existuje
+M163	Povolení odepřeno
+M164	Adresář není prázdný
+M165	Ne adresář
+M166	Je adresář
+M167	Souborový systém pouze pro čtení
+M168	V zařízení nezbývá místo
+M169	Chyba vstupu/výstupu
+M170	Na tomto disku není podporováno
+M171	Neplatná cesta
+M172	Nedostatek paměti
+M173	Žádný takový pohon
+M174	zastavil
+M175	zrušeno (nedostatek volného místa)
+M176	nemohl spočítat volné místo
+M177	přijímač zrušil
+M178	žádný přijímač (spusťte rz na PC)
+M179	používá se konzolový UART
+M180	režim obrazovky se změnil
+M181	řádky nepřišly (běží displej?)
+M182	kopie
+M183	pohyb
+M184	vymazat
+M185	přejmenovat
+M186	atributy
+M187	nový soubor
+M188	nová složka
+M189	obraz
+M190	mrbc
+M191	rubín
+M192	divák
+M193	upravit
+M194	IDENTIFIKOVAT
+M195	ZMODEM
+M196	Příjem ZMODEM
+M197	ZMODEM odeslat
+M198	rozdělit
+M199	připojit se
+M200	Osud
+M201	SMF
+M202	CD
+M203	FB
+M204	Vyhodit
+M205	restartovat
+M206	licence
+M207	hodiny
+M208	Vstup ADC
+M209	obrazovka -> PNG
+M210	FB -> PNG
+M211	svazek nelze otevřít
+M212	přijaté
+M213	odesláno
+M214	uloženo
+M215	vytvořené
+M216	přejmenován na
+M217	smazáno
+M218	změněno
+M219	se připojil
+M220	rozdělit
+M221	nemohl vytvořit
+M222	se nepodařilo smazat
+M223	nemohl přejmenovat na
+M224	nemohl změnit
+M225	nemohl číst
+M226	nemohl psát
+M227	nemohl kopírovat
+M228	nemohl udělat
+M229	složku nelze odstranit
+M230	se nepodařilo odstranit
+M231	žádná paměť pro
+M232	příliš mnoho chyb při odesílání
+M233	přijímač nevzal
+M234	přijímač přeskočil
+M235	FB stránka
+M236	bajtů každý)
+M237	bajtů)
+M238	kB)
+M239	části do
+M240	díly (
+M241	do
+M242	: vymazáno
+M243	: jas poloviční
+M244	% přečteno
+M245	řádky
+M246	-- zatím není podporováno (pouze FAT / exFAT / NTFS)
+M247	soubory
+M248	(
+M249	Bez názvu
+M250	1 Soubor
+M251	2 Upravit
+M252	3 Graf
+M253	4 List
+M254	5 Nápověda
+M255	PRÁZDNÝ
+M256	ČÍSLO
+M257	TEXT
+M258	VZOREC
+M259	Zadejte pro vstup, F2 pro úpravu, F1 pro nápovědu
+M260	5 CSV
+M261	6 ODS
+M262	[POSUN]
+M263	[CTRL]
+M264	[ALT]
+M265	Připraveno
+M266	SGCALC
+M267	Stiskněte libovolnou klávesu
+M268	Y = ano N = ne Esc = zrušit
+M269	Enter = OK Esc = zrušení Ctrl-U = vymazání
+M270	První řádek/sloupec = štítky; grafy používají 640x480 CLUT8 FB.
+M271	SGCALC - NÁPOVĚDA
+M272	Stisknutím libovolné klávesy se vrátíte
+M273	Stisknutím libovolné klávesy se vrátíte.
+M274	O SGCALC
+M275	Nový
+M276	Začněte nový list
+M277	OTEVŘENO...
+M278	Otevřete soubor ODS, FODS nebo CSV
+M279	Uložit
+M280	Uložte aktuální soubor
+M281	Uložit jako...
+M282	Uložit s novým názvem nebo formátem
+M283	Exportovat CSV...
+M284	Napište kopii CSV
+M285	Export ODS...
+M286	Napište kopii LibreOffice
+M287	Přestat
+M288	Opusťte SGCALC
+M289	Jasný
+M290	Vymažte vybrané buňky
+M291	Kopie
+M292	Zkopírujte výběr
+M293	Pasta
+M294	Vložit na kurzor
+M295	Střih
+M296	Zkopírujte a zrušte výběr
+M297	Vyberte vše
+M298	Vyberte všechny použité buňky
+M299	Barva textu...
+M300	Vyberte barvu textu
+M301	Pozadí...
+M302	Vyberte pozadí buňky
+M303	Čára
+M304	Z výběru nakreslete spojnicový graf
+M305	Bar
+M306	Nakreslete z výběru sloupcový graf
+M307	Smíšený
+M308	Takty pro první sérii, čáry pro zbytek
+M309	Koláč
+M310	Z výběru nakreslete koláčový graf
+M311	Rozsah...
+M312	Explicitně nastavte rozsah grafu
+M313	Znovu nakreslete
+M314	Překreslete poslední graf
+M315	Přejít...
+M316	Přejít na buňku (například C12)
+M317	Šířka sloupce...
+M318	Změňte šířku vybraných sloupců
+M319	Výška řady...
+M320	Změňte výšku vybraných řádků
+M321	Automatické přizpůsobení
+M322	Přizpůsobit šířky/výšky obsahu (F7)
+M323	Přepočítat
+M324	Přehodnoťte všechny vzorce
+M325	Vymazat vše
+M326	Vyčistěte celý list
+M327	Klíče
+M328	Ukažte průvodce klíči
+M329	O
+M330	O SGCALC
+M331	Soubor
+M332	Upravit
+M333	Graf
+M334	List
+M335	Pomoc
+M336	Soubor: nový, otevřít, uložit, exportovat, ukončit
+M337	Upravit: vymazat, zkopírovat, vložit, vyjmout, vybrat vše
+M338	Graf: čára, sloupec, smíšený, koláč (kreslí se na FB)
+M339	List: goto, šířka sloupce, přepočítat, vymazat
+M340	Nápověda: klíče a informace
+M341	Vlevo/vpravo = menu Nahoru/Dolů = položka Enter = zvolit Esc = zrušit
+M342	Zrušeno
+M343	Výběr je příliš velký nebo je málo paměti.
+M344	buňka
+M345	výběr
+M346	Nic k nalepení
+M347	Vloženo
+M348	PŘEJDĚTE DO BUŇKY
+M349	Odkaz na buňku (A1):
+M350	Přejít
+M351	ŠÍŘKA SLOUPCE
+M352	Šířka ve znacích (4..30):
+M353	VÝŠKA ŘÁDKU
+M354	Výška v řádcích textu (1..8):
+M355	Automatické přizpůsobení: list je prázdný
+M356	BARVA POZADÍ
+M357	BARVA TEXTU
+M358	Šipky: zvolte Enter: použijte Esc: zrušení
+M359	Index barev (16barevná paleta PC-98)
+M360	Aa 123
+M361	Enter = použít Esc = zrušit
+M362	Barva
+M363	Pozadí
+M364	Text
+M365	ROZSAH GRAFŮ
+M366	Rozsah (například A1:C10):
+M367	Rozsah grafu
+M368	Použijte rozsah, například A1:C10.
+M369	Nelze nakreslit graf.
+M370	čára
+M371	bar
+M372	smíšený
+M373	koláč
+M374	Vymazat všechny buňky v tomto listu?
+M375	List vymazán
+M376	Vybrány všechny použité buňky
+M377	Přepočteno
+M378	Paměť
+M379	Pro tabulku není dostatek PSRAM.
+M380	List je prázdný.
+M381	Ve vybraném rozsahu nejsou žádná číselná data.
+M382	Ostatní
+M383	Žádné kladné hodnoty pro výsečový graf
+M384	ČÁRA
+M385	BAR
+M386	SMÍŠENÝ
+M387	KOLÁČ
+M388	S:/
+M389	Složka
+M390	ULOŽIT JAKO
+M391	OTEVŘÍT SOUBOR
+M392	LibreOffice / CSV
+M393	ODS FODS CSV
+M394	Jméno:
+M395	(zadejte jméno nebo vyberte níže)
+M396	Jméno
+M397	Velikost
+M398	Enter=uložit Vlevo=nahoru Vpravo/Enter na [DIR]=otevřít kartu=řídit Esc=zrušit
+M399	Enter=otevřít Vlevo=nahoru Vpravo/Enter na [DIR]=otevřít kartu=pohon Esc=zrušit
+M400	Nedostatek paměti.
+M401	Přepsat
+M402	OTEVŘENO
+M403	Soubor je příliš velký (limit 8 MB).
+M404	Nedostatek paměti ke čtení souboru.
+M405	Špatná data ZIP/ODS.
+M406	Chyba CRC v souboru ODS.
+M407	Nepodporovaný nebo poškozený soubor.
+M408	Uloženo
+M409	Exportováno
+M410	Neuložené změny
+M411	Uložit aktuální list, než budete pokračovat?
+M412	Nový list
+M413	SGTRK
+M414	BEZ NÁZVU
+M415	skladba je příliš velká
+M416	prázdný soubor
+M417	není soubor SGT
+M418	špatný BPM
+M419	špatná rychlost
+M420	špatná délka názvu
+M421	zkrácený název
+M422	špatná postava v názvu
+M423	zkrácené pořadí
+M424	špatná délka objednávky
+M425	špatné číslo vzoru v pořádku
+M426	seznam zkrácených vzorů
+M427	špatný počet vzorů
+M428	index špatného vzoru
+M429	duplicitní vzor
+M430	zkrácená data vzoru
+M431	neplatná data vzoru
+M432	koncová data v souboru
+M433	pořadí odkazuje na chybějící vzor
+M434	A:/
+M435	(bez názvu)
+M436	Připraveno. Pro nápovědu stiskněte F1.
+M437	Následujte VYP
+M438	Není co vrátit
+M439	Vrátit zpět
+M440	Poznámka VYPNUTO
+M441	Nejprve nastavte písmeno efektu
+M442	Efekt vymazán
+M443	Parametr vymazán
+M444	Poznámka vymazána
+M445	Přístroj vymazán
+M446	Hlasitost vymazána
+M447	Seznam objednávek je plný
+M448	Objednávka vložena
+M449	Poslední objednávku nelze smazat
+M450	Objednávka smazána
+M451	Přehrávání písně
+M452	Zastaveno
+M453	Nová píseň
+M454	Zahodit neuložené změny a začít novou skladbu? (A/N)
+M455	Zahodit neuložené změny a otevřít skladbu? (A/N)
+M456	Zahodit neuložené změny a ukončit? (A/N)
+M457	Nastavení skladeb aktualizováno
+M458	Název souboru je prázdný
+M459	Uložit zrušeno
+M460	Otevření zrušeno
+M461	Upravit ZAPNUTO
+M462	Úpravy jsou vypnuty
+M463	Sledujte ON
+M464	Úpravy jsou VYPNUTY. Pro úpravu stiskněte F8.
+M465	Chyba I/O
+M466	soubor je příliš velký
+M467	zkrácený soubor
+M468	SINE PODLOŽKA
+M469	TROJÚHELNÍK
+M470	PILOVÉ olovo
+M471	NÁMĚSTÍ
+M472	PULZ 25
+M473	ORGÁN
+M474	BAS
+M475	ZVONEK
+M476	HLUK
+M477	SINUS
+M478	SAW
+M479	VYPNUTO
+M480	NA
+M481	ŘÁDEK
+M482	ÚROVEŇ CHAN
+M483	F1 POMOC F2 PÍSEŇ
+M484	F3 INS F4 ULOŽIT
+M485	F5 PLAY F6 PAT
+M486	F7 STOP F8 EDIT
+M487	F9/F10 OCTAVE
+M488	F11 SLEDUJTE
+M489	F12 UKONČIT
+M490	SPACE PLAY/STOP
+M491	CTRL-S ULOŽIT
+M492	CTRL-O OTEVŘÍT
+M493	C-N NOVÉ C-Z ZPĚT
+M494	C-C STOP
+M495	#TRANSPORT A SOUBORY
+M496	#SEZNAM OBJEDNÁVEK
+M497	#ZOBRAZIT
+M498	#EDITACE
+M499	#EFEKTY (parametr je hexadecimální)
+M500	LEFT/RIGHT PAGE ENTER NEBO F1 CLOSE
+M501	NASTAVENÍ SKLADBY
+M502	NAHORU/DOLŮ VOLBA VLEVO/VPRAVO NASTAVIT ENTER/F2 ZAVŘÍT
+M503	Zadejte, chcete-li upravit název. Backspace odstraní poslední znak.
+M504	Rozsah BPM 32..255. Rozsah otáček 1..31.
+M505	Efekty vzorů mohou také měnit rychlost a BPM během hraní.
+M506	NÁSTROJE
+M507	NAHORU/DOLŮ VÝBĚR MEZERNÍKU NÁHLED ENTER POUŽITÍ F3 ZAVŘÍT
+M508	Všechny čtyři kanály používají wavetable syntézu.
+M509	Náhled přehraje C-4 na stopě pod editačním kurzorem.
+M510	ULOŽTE SKLADBU JAKO
+M511	ZADEJTE ULOŽIT F4 NEBO CTRL-C ZRUŠIT
+M512	Adresář:
+M513	Název souboru:
+M514	Přípona .SGT je přidána automaticky.
+M515	Existující soubor lze přepsat.
+M516	OTEVŘENÁ PÍSNIČKA
+M517	ENTER OPEN BS PARENT CTRL-O/CTRL-C CANCEL
+M518	(v této složce nejsou žádné soubory .SGT)
+M519	POTVRDIT
+M520	Y = ANO N / ENTER / CTRL-C = NE
+M521	Y = ano N = ne
+M522	C-
+M523	C#
+M524	D-
+M525	D#
+M526	E-
+M527	F-
+M528	F#
+M529	G-
+M530	G#
+M531	A-
+M532	A#
+M533	B-
+M534	A:/dir/name
+M535	MThd
+M536	nefunkční MThd
+M537	MIDI IMPORT
+M538	MTrk
+M539	zlomený delta čas
+M540	rozbitý provozní stav
+M541	zlomená meta událost
+M542	rozbitá sysex událost
+M543	událost přerušeného kanálu
+M544	Výstup SMF je příliš malý
+M545	Výstup SMF je příliš velký
+M546	píseň je pro SMF příliš dlouhá
+M547	TRK1
+M548	%s%d
+M549	%s%d:%s%d
+M550	%s
+M551	%.40s%s
+M552	[%s] %s
+M553	UPRAVIT
+M554	PŘIPRAVEN
+M555	%4d
+M556	%s Součet %.7g N %ld%s
+M557	ŠIPKY pohybují kurzorem buňky
+M558	SHIFT+ARR rozšíří výběr (pro grafy/kopie)
+M559	ENTER upravit buňku; v úpravě, odevzdání a přesunutí dolů
+M560	TAB další buňka SHIFT+TAB předchozí buňka
+M561	DELETE vymazat vybranou buňku(y) ESC zrušit
+M562	PGUP/PGDN přesun o jednu obrazovku HOME/KONEC první/poslední sloupec
+M563	CTRL+HOME A1 CTRL+END naposledy použitá buňka
+M564	F1 nápověda F2 editace F3 kopírování F4 vkládání F5 goto F6 barva
+M565	F7 automatické přizpůsobení F8 pozadí F9 přepočítat F10 graf F11 uložit F12 menu
+M566	SHIFT+F1 o SHIFT+F2 výška řádku SHIFT+F3 šířka sloupce
+M567	SHIFT+F4 vybrat celý rozsah grafu SHIFT+F10 SHIFT+F11 uložit jako
+M568	CTRL+F1 nové CTRL+F2 otevřít CTRL+F3 uložit CTRL+F4 uložit jako
+M569	CTRL+F5 export CSV CTRL+F6 export ODS ALT+F12 ukončit
+M570	Spodní 2 řádky: funkční klávesy; [SHIFT]/[CTRL]/[ALT] jako u fileru
+M571	CTRL+S uložit CTRL+O otevřít CTRL+N nové CTRL+C/V/X kopírovat/vložit/vyjmout
+M572	CTRL+G přejděte / otevřete nabídku (1 Soubor, 2 Upravit, ...)
+M573	Vestavěné funkce: SUM AVERAGE MIN MAX COUNT COUNTA
+M574	PRODUKT ABS SQRT INT ROUND MOD POWER, POKUD A NEBO NE
+M575	IFERROR LEN LEVÁ PRAVÁ STŘED HORNÍ SPODNÍ OBRÁBĚNÍ CONCATENATE PI
+M576	Odkazy na buňky: A1, $A$1, A1:B10.  Vzorce začínají '='.
+M577	Soubory: .ods (LibreOffice), .fods (plochý XML), .csv
+M578	ODS/FODS zachovává vzorce, šířky, výšky a barvy.
+M579	CSV uchovává hodnoty a vzorce (bez barev/výšek).
+M580	Graf: vyberte rozsah, stiskněte F10 a zvolte Čára/Sloupec/Smíšené/Koláčový.
+M581	SGCALC pro sgnano
+M582	Verze
+M583	Tabulka stylu Lotus 1-2-3 jako program SGX.
+M584	SGX ABI %u.%u
+M585	Režim obrazovky 3: text + CLUT8 FB (nízké rozlišení vypnuto)
+M586	List: %d řádků x %d sloupců
+M587	Formáty: .ods / .fods (LibreOffice), .csv
+M588	Mřížka je nakreslena na rovině textu.
+M589	Grafy a pozadí 640x480 využívají FB.
+M590	%d %s
+M591	Nelze uložit buňku (%d).
+M592	Zkopírováno %d x %d buněk
+M593	Vymazáno %s
+M594	'%s' není odkaz na buňku.
+M595	%d
+M596	Šířka sloupce = %d
+M597	Výška řádku = %d
+M598	Automaticky přizpůsobit: %d sloupec(y), %d řádek(y)
+M599	%2d
+M600	Nelze použít barvu (%d).
+M601	%s barva = %d
+M602	Neplatný rozsah.\nPoužijte rozsah, například A1:C10.
+M603	Rozsah grafu %s
+M604	Graf: %s
+M605	SGCALC: nelze nastavit režim obrazovky 3: %s
+M606	%.2g
+M607	%.6g
+M608	%s %.0f%%
+M609	GRAF %s %s
+M610	%s%s
+M611	%s/%s
+M612	%.*s
+M613	%.*s/
+M614	Nelze přečíst %s\n%s
+M615	Složka: %s
+M616	[DIR] %s
+M617	%s
+M618	%lu.%luM
+M619	%luK
+M620	%luB
+M621	KNIHA1%s
+M622	%c:/
+M623	Nepodporované rozšíření.\nPoužijte .csv, .ods nebo .fods.
+M624	%s již existuje.\nPřepsat to?
+M625	%s nemusí být zapisovatelný.\nZkusit to přesto?
+M626	Neznámý typ souboru pro %s
+M627	Nepodporovaný typ souboru.\nPoužijte .csv, .ods nebo .fods.
+M628	Nelze otevřít %s\n%s
+M629	%s je složka.
+M630	Nelze importovat %s\n%s
+M631	Nabito %s
+M632	Nelze sestavit soubor %s.
+M633	Nelze napsat %s\n%s
+M634	%s %s
+M635	nepodporovaná verze %u
+M636	%d:%d:%d:%d:%d:%d
+M637	Oktáva %d
+M638	Poznámka %s
+M639	Nástroj %d
+M640	Hlasitost %s
+M641	Účinek %c
+M642	Parametr %s
+M643	Vzor %s
+M644	Přehrávání vzoru %s
+M645	CHYBA ULOŽENÍ: %s
+M646	Uloženo %s
+M647	CHYBA NAČÍTÁNÍ: %s
+M648	BPM %d
+M649	Rychlost %d
+M650	Náhled %s
+M651	Nástroj %s %s
+M652	Přepsat %s? (A/N)
+M653	| BPM %s SPD %s
+M654	SGNO TRACKER 1.0 |
+M655	SOUBOR
+M656	PAT %s
+M657	ORD %d/%d
+M658	INS %s
+M659	říjen %d
+M660	UPRAVIT %s
+M661	NA
+M662	FOL %s
+M663	TRACK %d
+M664	%c%s
+M665	%s %s %s %s
+M666	%s
+M667	%d %s %s
+M668	OBJEDNÁVKA %d/%d
+M669	PAT %s
+M670	INS %s %s
+M671	ŘÍJNA %d UPRAVIT %s
+M672	SLEDUJTE %s
+M673	PŘEHRÁVÁNÍ ORD %d/%d PAT %s ROW %s/%d SPD %s BPM %d F7 STOP
+M674	PŘIPRAVENO ÚPRAVY %s ŘÍJEN %d F1 NÁPOVĚDA F5 PŘEHRÁVAT CTRL-S ULOŽIT
+M675	%s
+M676	F5 Přehrajte skladbu z aktuálního pořadí
+M677	F6 Přehraje aktuální pattern
+M678	F7/Ctrl-C Zastavení přehrávání
+M679	Space Play / stop
+M680	F4 Uložit jako
+M681	Ctrl-S Uložit (požádá o jméno, pokud je nové)
+M682	Ctrl-O Otevření skladby
+M683	Ctrl-N Nová skladba
+M684	F12 Ukončit (potvrzení v případě změny)
+M685	[ ] Předchozí / další zadání objednávky
+M686	{ } Vložení / odstranění položky objednávky
+M687	- + Změňte vzor v záznamu
+M688	F11 Sledovat přehrávání (vypne se při ručním přesunu)
+M689	Nápověda F1; Vlevo/vpravo změní stránku
+M690	F8 Přepíná režim úprav
+M691	Šipky Pohyb kurzoru
+M692	PgUp/PgDn Skok o 16 řádků
+M693	Domů/Konec První / poslední řádek
+M694	F9/F10 Oktáva dolů / nahoru
+M695	Z S X D C V G B H N J M spodní klavírní řada
+M696	Q 2 W 3 E R 5 T 6 Y 7 U horní klavírní řada
+M697	1 Poznámka vypnuta
+M698	0 / Del 0 vymaže poznámku/inst/fx; Del vymaže všechny
+M699	Ctrl-Z Vrátí zpět poslední úpravu vzoru/pořadí
+M700	Posuv Axy Volume: nahoru x, dolů y
+M701	Cxx Poznámka vystřižená po xx tiknutích
+M702	Dxx Nastavit hlasitost (00..7F)
+M703	Fxx Rychlost, pokud xx < 20, jinak BPM
+M704	Hxy Arpeggio x, y půltóny
+M705	Pxx Pitch posunout nahoru
+M706	Qxx Pitch posuňte dolů
+M707	Nastavení skladeb F2, seznam nástrojů F3
+M708	NÁPOVĚDA %d/2
+M709	Titul
+M710	[%s_]
+M711	BPM: %d (doleva/doprava -1/+1, -/+ -5/+5)
+M712	Rychlost : %d tiků/řádek
+M713	Řádky: %d (pevné)
+M714	Pořadí: %d položek
+M715	Používané vzory: %d
+M716	# NAME WAVE A D S R VOL
+M717	%c %d %-9s %-9s %3d %3d %3d %3d %4d
+M718	Aktuální nástroj: %s %s
+M719	%s
+M720	DIR %s
+M721	%c %s%s
+M722	Soubory: %d
+M723	%02d
+M724	%03d
+M725	%02X
+M726	SGNO TRACKER: nekompatibilní SGX ABI
+M727	S: check: wait -- soubor se čte nebo zapisuje
+M728	S: zkontrolujte: disk je zaneprázdněn nebo není připraven
+M729	nic pro tuto položku (ContextMenu.cfg)
+M730	špatný příkaz v ContextMenu.cfg
+M731	neznámá akce v ContextMenu.cfg
+M732	menu
+M733	vyberte soubor nebo složku
+M734	na tuto jednotku nelze zapisovat
+M735	archivační úloha již běží
+M736	žádná PSRAM pro úlohu archivace
+M737	nelze spustit úlohu archivace
+M738	příliš mnoho položek (maximálně 32)
+M739	nic komprimovat
+M740	žádné jméno (nebo jméno má / nebo \\)
+M741	Maximálně 32 položek (označte méně nebo je vložte do složky)
+M742	archiv
+M743	komprimovat
+M744	vykreslit
+N001	5 Makro
+N002	6 Nápověda
+N003	Spustit proud
+N004	Spusťte makro u kurzoru (#! buňka záhlaví a buňky pod ní)
+N005	Spustit výběr
+N006	Spusťte vybrané buňky jako jedno makro (buňka vlevo nahoře je záhlaví #!)
+N007	Spustit všechny
+N008	Spusťte všechna makra na listu, zleva nahoru a doprava dolů
+N009	Poslední chyba
+N010	Zobrazit poslední chybu makra
+N011	Makro
+N012	Makro: spusťte #!ruby / #!python / #!základní buňky
+N013	Upravit buňku (F2)
+N014	Přizpůsobte šířku/výšku obsahu
+N015	Poslední chyba makra
+N016	Žádná chyba makra.
+N017	IME zapnuto
+N018	IME vypnuto
+N019	Makro: %s %s ...
+N020	%s: tento firmware nemůže spouštět makra (SGX ABI 5.10 nebo novější)
+N021	Chyba makra: %s
+N022	Makro: %s hotovo
+N023	makro již běží
+N024	tento jazyk není k dispozici
+N025	není dostatek paměti
+N026	makro se zastavilo s chybou
+N027	Chyba makra %s: %s
+N028	Makro: nedostatek paměti
+N029	Makro: kurzor není na makru (buňka #!ruby / #!python / #!basic nebo buňky pod ní)
+N030	Makro: v listu není žádné makro
+N031	Spusťte všechna makra
+N032	Makra: %d. Spustit je všechny, zleva shora dolů doprava? Změny nelze vrátit zpět.
+N033	Makro: %d z %d hotovo
+N034	Vyčistil celu
+N035	Vymazal výběr
+N036	Barva pozadí = %d
+N037	Barva textu = %d
+N038	Graf: čára
+N039	Graf: bar
+N040	Graf: smíšený
+N041	Graf: koláč
+N042	Exportováno %s

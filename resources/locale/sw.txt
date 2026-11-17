@@ -1,0 +1,1041 @@
+# sgnano filer strings: Kiswahili (2026-11-16). ui <TAB> Japanese <TAB> translation / msg.* <TAB> English <TAB> translation
+# status: unreviewed (machine translation, not checked by a native speaker; 2026-11-16). 未検証: ネイティブの確認をしていない仮の訳
+@lang sw
+@name Kiswahili
+ui	一覧（ファイルとフォルダを 2 列 x 19 行に並べる）	Orodha (faili na folda katika safu 2 x mistari 19)
+ui	カーソルを動かす（左右は隣の列へ）	Sogeza kiteuzi (kushoto / kulia: safu nyingine)
+ui	前のページ / 次のページ	Ukurasa uliopita / unaofuata
+ui	全部に印 / 印を反転（PC-98 FD と同じ）	Weka alama zote / geuza alama (kama PC-98 FD)
+ui	先頭 / 最後	Mwanzo / mwisho
+ui	印を付けて次へ / 印だけ付ける	Weka alama na uendelee / weka alama tu
+ui	Shift+矢印	Shift+mishale
+ui	範囲を選ぶ（Space でその範囲に印）	Chagua eneo (Space huweka alama eneo)
+ui	フォルダに入る・ファイルを開く（F2/X は実行）	Ingia kwenye folda / fungua faili (F2/X endesha)
+ui	上のフォルダへ	Panda kwenye folda mzazi
+ui	ドライブを選ぶ（USB・フロッピー・CD・S: 内蔵）	Chagua diski (USB, diski laini, CD, S: ya ndani)
+ui	コピー（Shift+C / Shift+F3 は行き先を木から）	Nakili (Shift+C / Shift+F3 huchagua mahali kutoka kwenye mti)
+ui	移動	Hamisha
+ui	削除（Shift+D / Shift+F4 はフォルダ削除）	Futa (Shift+D / Shift+F4 futa folda)
+ui	名前を変える	Badilisha jina
+ui	属性を変える	Badilisha sifa
+ui	エディタで開く	Fungua kwenye kihariri
+ui	テキスト表示（Shift+V / Ctrl+Alt+F7 は 16 進）	Tazama kama maandishi (Shift+V / Ctrl+Alt+F7 hex)
+ui	ドライブの情報	Taarifa za diski
+ui	フォルダを作る / 新しいファイル	Folda mpya / faili mpya
+ui	シェル sgsh / 媒体を取り出す	Shell sgsh / toa diski
+ui	読み直す	Pakia upya
+ui	見えている画面を PNG で保存	Hifadhi skrini kama PNG
+ui	窓を閉じる・選択を解く（サブフォルダでは上位へ）	Funga dirisha / ondoa uteuzi (kwenye folda ndogo: panda juu)
+ui	ファイルの操作（FD と同じ。印・範囲・カーソルの順に選ぶ）	Shughuli za faili (kama FD: alama, kisha eneo, kisha kiteuzi)
+ui	コピー: 行き先はドライブとフォルダの木から。ESC で止める	Nakili: chagua mahali kutoka kwenye mti wa diski na folda. ESC husimamisha
+ui	削除: y で確かめる。印・範囲をまとめて。フォルダは中身ごと	Futa: thibitisha kwa y. Alama na maeneo kwa pamoja. Folda pamoja na yaliyomo
+ui	フォルダを削除（中身ごと）	Futa folda (pamoja na yaliyomo)
+ui	名前を変える（今の名前を直して Enter）	Badilisha jina (hariri jina, Enter)
+ui	属性: R 読み出し専用・H 隠し・S システム・A アーカイブ	Sifa: R kusoma tu, H iliyofichwa, S mfumo, A hifadhi
+ui	フォルダを作る	Folda mpya
+ui	新しいファイル（空）を作る	Faili mpya (tupu)
+ui	テキストで表示（Shift+V / Ctrl+Alt+F7 は 16 進）	Tazama kama maandishi (Shift+V / Ctrl+Alt+F7 hex)
+ui	シェル sgsh（exit / Ctrl-D でファイラーへ）	Shell sgsh (exit / Ctrl-D kurudi kwenye kidhibiti faili)
+ui	選んでいるドライブの素性（INQUIRY・IDENTIFY）	Utambulisho wa diski (INQUIRY, IDENTIFY)
+ui	FDD・LS-120・CD の媒体を取り出す	Toa diski ya FDD / LS-120 / CD
+ui	一覧を読み直す（CD は TOC から）	Pakia orodha upya (CD: kutoka TOC)
+ui	ZMODEM で PC から受け取る（zm.sh put）	Pokea kutoka PC kwa ZMODEM (zm.sh put)
+ui	ZMODEM で PC へ送る（zm.sh get）	Tuma kwa PC kwa ZMODEM (zm.sh get)
+ui	.rb をコンパイルして .mrb を書き出す	Kusanya .rb na uandike .mrb
+ui	Ruby の REPL（1 行ずつ、Ctrl-D / ESC で終わり）	REPL ya Ruby (mstari mmoja kwa wakati, Ctrl-D / ESC kumaliza)
+ui	MicroPython の REPL	REPL ya MicroPython
+ui	4MB ずつ分割 / .001 から結合	Gawa katika sehemu za MB 4 / unganisha kutoka .001
+ui	分割 / 結合（Ctrl+F11 / F12 と同じ）	Gawa / unganisha (sawa na Ctrl+F11 / F12)
+ui	画面（Alt+F。FD の F キーとぶつからない）	Skrini (Alt+F, haigongani na vitufe F vya FD)
+ui	FB（絵）/ テキスト面を出す・隠す	Onyesha / ficha FB (picha) / maandishi
+ui	FB の表示ページ（0〜3）	Ukurasa wa kuonyesha wa FB (0-3)
+ui	FB を 0 で消す / 明るさを 1/2 に（RGB555）	Futa FB hadi 0 / punguza mwangaza nusu (RGB555)
+ui	USB のエンドポイントと LAN の状態	Vituo vya USB na hali ya LAN
+ui	FB の表示ページを消す / 明るさを 1/2 に	Futa ukurasa wa kuonyesha wa FB / punguza mwangaza nusu
+ui	テキストの属性の見本	Mifano ya sifa za maandishi
+ui	モニタの EDID（起動時に読んだもの）	EDID ya skrini (husomwa wakati wa kuwasha)
+ui	フォント ROM のライセンスとクレジット	Leseni na sifa za ROM ya fonti
+ui	設定（表示の言語・IME・キーボードロケール）	Mipangilio (lugha ya kuonyesha, IME na mpangilio wa kibodi)
+ui	時計（NTP で合わせた日本時間。s ですぐ合わせる）	Saa (saa ya Japani kwa NTP; s husawazisha sasa)
+ui	表計算（SGCALC）を開く	Fungua lahajedwali (SGCALC)
+ui	S: ドライブのエラー検査（誤りがあれば直すか聞く）	Kagua makosa ya S: (huuliza kabla ya kurekebisha)
+ui	トラッカー（TRACKER）を開く	Fungua TRACKER
+ui	再起動（確かめの窓が出る）	Washa upya (huuliza kwanza)
+ui	ADC のステレオ入力（GP40 / 41）を鳴らす	Cheza ingizo la stereo la ADC (GP40 / 41)
+ui	VGM/VGZ を 96kHz/24bit WAV に書き出す	Hamisha VGM/VGZ kuwa WAV ya kHz 96 / biti 24
+ui	このヘルプ	Msaada huu
+ui	ページを替える	Badilisha ukurasa
+ui	閉じる	Funga
+ui	テキスト・16 進のビュアー（less 風）	Kitazamaji maandishi / hex (kama less)
+ui	1 行	Mstari mmoja
+ui	1 ページ	Ukurasa mmoja
+ui	半ページ	Nusu ukurasa
+ui	探す（前へ・後ろへ）/ 次・前	Tafuta (mbele / nyuma) / unaofuata / uliopita
+ui	一覧へ戻る（F1 はビュアーのヘルプ）	Rudi kwenye orodha (F1: msaada wa kitazamaji)
+ui	画像のビュアー	Kitazamaji picha
+ui	一覧へ戻る（F2 F3 F6 F7 Shift+F2 F3 は効く）	Rudi kwenye orodha (F2 F3 F6 F7 Shift+F2 F3 hufanya kazi)
+ui	エディタ（E / Shift+F8）	Kihariri (E / Shift+F8)
+ui	保存する（UTF-8。改行と BOM は元のまま）	Hifadhi (UTF-8; miisho ya mistari na BOM hubaki)
+ui	閉じる（変わっていれば Y / N / ESC）	Funga (kama imebadilishwa: Y / N / ESC)
+ui	挿入 / 上書き	Ingiza / andika juu
+ui	IME（日本語・英語・ハングル）の入・切	Washa/zima IME (Kijapani / Kiingereza / Kikorea)
+ui	IME の言語（日本語 / English / 한국어）	Lugha ya IME (Kijapani / Kiingereza / Kikorea)
+ui	ひらがな / カタカナで確定	Thibitisha kama hiragana / katakana
+ui	エディタのヘルプ	Msaada wa kihariri
+ui	シェル	Shell
+ui	シェル（csh のサブセット。exit / Ctrl-D で戻る、help で一覧）	Shell (sehemu ya csh. exit / Ctrl-D kurudi, help huorodhesha amri)
+ui	一覧と移動	Orodha na kusogea
+ui	ファイルの操作	Shughuli za faili
+ui	画面と機器	Skrini na vifaa
+ui	ビュアーとエディタ	Vitazamaji na kihariri
+ui	ヘルプ  %u / %u  %s	Msaada  %u / %u  %s
+ui	Left Right: ページを替える    F1 / ESC: 閉じる	Kushoto Kulia: badilisha ukurasa    F1 / ESC: funga
+ui	sgnano を再起動しますか？	Washa upya sgnano?
+ui	[ 再起動 ]	[ Washa upya ]
+ui	[ キャンセル ]	[ Ghairi ]
+ui	S: ドライブのエラー検査	Kagua makosa ya diski S:
+ui	ファイル %lu  フォルダ %lu	Faili %lu  folda %lu
+ui	大きさが鎖と合わない	Ukubwa haulingani na mnyororo
+ui	どこからも使われていないクラスタ	Klasta zisizotumiwa na chochote
+ui	重なったクラスタ	Klasta zilizounganishwa kwa msalaba
+ui	壊れた項目	Maingizo yaliyoharibika
+ui	FAT の 2 つの写しの食い違い	Nakala mbili za FAT zinatofautiana
+ui	エラーはありません。	Hakuna makosa.
+ui	エラーが見つかりました。修復しますか？	Makosa yamepatikana. Yarekebishwe?
+ui	修復しました（上は直した数）。	Imerekebishwa (namba hapo juu zimerekebishwa).
+ui	検査・修復できませんでした（S: が使用中）。	Haikuweza kukagua au kurekebisha (S: ina shughuli).
+ui	[ 修復する ]	[ Rekebisha ]
+ui	[ やめる ]	[ Ghairi ]
+ui	何かキーで閉じる	Kitufe chochote hufunga
+ui	設定	Mipangilio
+ui	表示の言語	Lugha ya kuonyesha
+ui	キーボードロケール	Mpangilio wa kibodi
+ui	Up / Down  Enter 決める  ESC やめる	Juu / Chini  Enter chagua  ESC ghairi
+ui	表示の言語 (Language)	Lugha ya kuonyesha
+ui	Up / Down  Enter 決める  ESC 戻る	Juu / Chini  Enter: weka  ESC: rudi
+ui	%c: をどの文字に固定しますか（A〜Z、S を除く。ESC でやめる）	Funga %c: kama herufi ipi? (A-Z isipokuwa S. ESC hughairi)
+ui	ドライブ  文字 / Enter 選ぶ  F2 文字を固定・解除  F3 文字を決めて固定  L / ESC やめる	Diski  herufi / Enter chagua  F2 funga/fungua herufi  F3 funga kama...  L / ESC ghairi
+ui	  区画 %u	  kizigeu %u
+ui	%c:* （固定・つながっていません）%04X:%04X%s  %s	%c:* (imefungwa, haijaunganishwa) %04X:%04X%s  %s
+ui	お知らせ	Taarifa
+ui	ドライブ %c:  %s	Diski %c:  %s
+ui	ドライブ  (なし)	Diski  (hakuna)
+ui	音楽 CD  %u トラック	CD ya sauti  nyimbo %u
+ui	フォルダ %u  ファイル %u  合計 %s	Folda %u  faili %u  jumla %s
+ui	読んでいます...	Inasoma...
+ui	* 印 %u 個  %s	* zenye alama %u  %s
+ui	%lu バイト	baiti %lu
+ui	属性 %s   更新日時 %s   作成日時 %s   %s	Sifa %s   imebadilishwa %s   imeundwa %s   %s
+ui	日	Jpi
+ui	月	Jtt
+ui	火	Jnn
+ui	水	Jtn
+ui	木	Alh
+ui	金	Iju
+ui	土	Jmo
+ui	時計は合わせていません（LAN の NTP）	Saa haijawekwa (NTP kupitia LAN)
+ui	FB  表示 %u  書込 %u	FB  onyesho %u  kuandika %u
+ui	1 ヘルプ	1 Msaada
+ui	2 実行	2 Endes
+ui	3 ｺﾋﾟｰ	3 Nakili
+ui	4 削除	4 Futa
+ui	5 名前	5 Jina
+ui	7 FB消去	7 FutaFB
+ui	8 FB減光	8 FifiFB
+ui	9 ﾄﾞﾗｲﾌﾞ	9 Diski
+ui	10 EP表	10 EP
+ui	11 時計	11 Saa
+ui	12 表計	12 CALC
+ui	1 属性	1 Sifa
+ui	2 情報	2 Habari
+ui	3 移動	3 Hamia
+ui	5 作成	5 Folda
+ui	6 シェル	6 Shell
+ui	8 編集	8 Hariri
+ui	9 表示	9 Tazama
+ui	10S:検査	10 S:kag
+ui	11 ﾄﾗｯｸ	11 TRACK
+ui	12再起動	12 Washa
+ui	1 新規	1 Mpya
+ui	2 ﾌｫﾙﾀﾞ	2 Folda
+ui	3 名前	3 Jina
+ui	4 属性	4 Sifa
+ui	6 ｺﾋﾟｰ	6 Nakili
+ui	7 移動	7 Hamia
+ui	8 削除	8 Futa
+ui	9 編集	9 Hariri
+ui	10ｺﾝﾊﾟｲﾙ	10 mrbc
+ui	11 分割	11 Gawa
+ui	12 結合	12 Unga
+ui	1 属性例	1 Sifa
+ui	2 FB切替	2 FB
+ui	3 文字面	3 Maandi
+ui	5 画面写	5 Picha
+ui	6 表示頁	6 Ukura
+ui	9 ZM受信	9 ZMpok
+ui	10ZM送信	10 ZMtum
+ui	2 FB消去	2 FutaFB
+ui	3 FB減光	3 FifiFB
+ui	5 再読込	5 Upya
+ui	7 16進	7 Hex
+ui	9 ﾗｲｾﾝｽ	9 Leseni
+ui	8 設定	8 Mipa
+ui	時刻を合わせる（日本時間。NTP で合わせられませんでした）	Weka saa (saa ya Japani. NTP haikuweza kuiweka)
+ui	起動のパラメタ	Endesha na vigezo
+ui	新しいフォルダ	Folda mpya
+ui	新しいファイル	Faili mpya
+ui	時刻:	Saa:
+ui	実行:	Endesha:
+ui	名前:	Jina:
+ui	年-月-日 時:分  Enter 合わせる  ESC そのまま	YYYY-MM-DD hh:mm  Enter weka  ESC acha hivyo
+ui	Enter 走らせる  ←→ 動かす  BS / Del 消す  ESC やめる	Enter endesha  <-> sogeza  BS / Del futa  ESC ghairi
+ui	Enter 変える  ←→ 動かす  BS / Del 消す  ESC やめる	Enter badilisha jina  <-> sogeza  BS / Del futa  ESC ghairi
+ui	Enter 作る  ←→ 動かす  BS / Del 消す  ESC やめる	Enter unda  <-> sogeza  BS / Del futa  ESC ghairi
+ui	消す	Futa
+ui	個の項目	 vipengee
+ui	フォルダは中身ごと消します。よろしいですか？	Folda zitafutwa pamoja na yaliyomo. Una uhakika?
+ui	このファイルを消しますか？	Futa faili hii?
+ui	（元に戻せません。フォルダの中のファイルも消えます）	(Hili haliwezi kutenduliwa. Faili zilizo ndani ya folda zitafutwa pia)
+ui	[ はい (Y) ]	[ Ndiyo (Y) ]
+ui	[ いいえ (N) ]	[ Hapana (N) ]
+ui	バイナリビュアー: ファイルを選んでください	kitazamaji hex: chagua faili
+ui	テキストビュアー: ファイルを選んでください	kitazamaji maandishi: chagua faili
+ui	移動先	Hamisha hadi
+ui	コピー先	Nakili hadi
+ui	バッファがいっぱいです (buffer full)	Bafa imejaa
+ui	読み出し専用のドライブです (read-only)	Diski ni ya kusoma tu
+ui	保存できません (no writer)	Haiwezi kuhifadhi (hakuna mwandishi)
+ui	保存を始められません (the drive is busy?)	Haikuweza kuanza kuhifadhi (diski ina shughuli?)
+ui	保存しています... (saving)	Inahifadhi...
+ui	2 保存	2 Hifad
+ui	5 色分け	5 Rangi
+ui	6 ﾞ	6 Hira
+ui	7 ｶﾀｶﾅ	7 Kata
+ui	8 予測	8 Tabiri
+ui	10 終了	10 Toka
+ui	1 先頭	1 Juu
+ui	2 最後	2 Mwisho
+ui	3 挿/上	3 Ingiza
+ui	4 辞書	4 Kamusi
+ui	6 半	6 HHira
+ui	7 半ｶﾅ	7 HKata
+ui	 %s  %s  行 %lu/%lu 桁 %u  %s  %s %s%s%s	 %s  %s  Mst %lu/%lu Saf %u  %s  %s %s%s%s
+ui	*変更	*imebad
+ui	上書	JUU
+ui	挿入	ING
+ui	  読出専用	  Kusoma tu
+ui	 エディタ (sgnano edit)                      F1 / ESC で閉じる	 Kihariri (sgnano edit)                      F1 / ESC hufunga
+ui	 矢印 / Home End / PgUp PgDn   カーソルを動かす	 Mishale / Home End / PgUp PgDn  sogeza kiteuzi
+ui	 Ctrl-T / Ctrl-B               ファイルの先頭 / 最後	 Ctrl-T / Ctrl-B               mwanzo / mwisho wa faili
+ui	 BS / Del                      前の字 / カーソルの字を消す	 BS / Del                      futa kabla / kwenye kiteuzi
+ui	 Enter                         改行（前の行の字下げを引き継ぐ）	 Enter                         mstari mpya (huhifadhi ujongezaji)
+ui	 Tab / Ins                     タブ / 挿入と上書きの切り替え	 Tab / Ins                     tab / ingiza au andika juu
+ui	 F5                            色分け（拡張子から。C/C++・mruby・MicroPython・SG BASIC・なし）	 F5                            Rangi (kutoka kiendelezi; C/C++, mruby, MicroPython, SG BASIC, hakuna)
+ui	 F2  (Ctrl-S)                  保存（UTF-8、改行は元の形）	 F2  (Ctrl-S)                  hifadhi (UTF-8, miisho ya mistari hubaki)
+ui	 F10 / ESC                     閉じる（変更があれば聞く）	 F10 / ESC                     funga (huuliza kama imebadilishwa)
+ui	 IME:  Ctrl-Space / F12        オン・オフ（あ / A）	 IME:  Ctrl-Space / F12        washa / zima (あ / A)
+ui	       F9                      IME の言語（このエディタの間だけ。閉じると戻る）	       F9                      lugha ya IME (kihariri hiki tu; hurudishwa wakati wa kufunga)
+ui	       F8                      日本語の予測変換 オン・オフ	       F8 Washa/zima ubadilishaji wa kutabiri wa Kijapani
+ui	       日本語                  ローマ字 -> ひらがな（F6）・カタカナ（F7）	       Kijapani                romaji -> hiragana (F6) / katakana (F7)
+ui	                               半角ひらがな（Shift+F6）・半角カタカナ（Shift+F7）	                               Hiragana nusu upana (Shift+F6) / katakana nusu upana (Shift+F7)
+ui	                               2 字以上で予測、Space で連文節変換	                               Tabiri kwa herufi 2 au zaidi, badilisha vishazi mfululizo kwa Space
+ui	       English                 2 字以上で予測補完	       Kiingereza: ukamilishaji wa kutabiri kwa herufi 2 au zaidi
+ui	       한국어                  2 ボル式ハングル	       한국어 Hangul ya seti 2
+ui	       Space / Enter           変換 / 確定	       Space / Enter Badilisha / Thibitisha
+ui	       ← →                    文節を選ぶ	       ← → Chagua kishazi
+ui	       Shift+← →               文節の右端を 1 字 縮/拡（候補を出し直す）	       Shift+← → Punguza/ongeza mwisho wa kulia wa kishazi kwa herufi moja (chaguo mpya)
+ui	       ↑ ↓ / Tab               候補の窓で前 / 次の候補（窓は変換の下、画面の下では上）	       ↑ ↓ / Tab               Chaguo lililopita / linalofuata kwenye dirisha (chini ya maandishi, juu karibu na chini)
+ui	       →→→ で Enter            すべての候補（2 列 x 8 個、← → で列とページ、Enter で決める）	       Enter juu ya →→→        Chaguo zote (2 x 8, ← → safu na ukurasa, Enter huchagua)
+ui	       Enter                   次の文節へ（最後の文節で全体を確定）	       Enter                   Kishazi kinachofuata (kwenye cha mwisho huthibitisha vyote)
+ui	       Ctrl-U                  いまの語をユーザー辞書へ	       Ctrl-U Ongeza neno la sasa kwenye kamusi ya mtumiaji
+ui	 Shift+F1 / F2 / F3 / F4       先頭 / 最後 / 挿入と上書き / ユーザー辞書へ	 Shift+F1 / F2 / F3 / F4       Mwanzo / mwisho / ingiza-andika juu / kwenye kamusi ya mtumiaji
+ui	       BS / ESC                1 字戻す / 取り消し	       BS / ESC Rudi herufi moja / Ghairi
+ui	       , . - [ ] /             、 。 ー 「 」 ・	       , . - [ ] /             、 。 ー 「 」 ・
+ui	変更あり  Y: 保存して閉じる  N: 保存せず閉じる  ESC: 戻る	Imebadilishwa  Y: hifadhi na funga  N: funga bila kuhifadhi  ESC: rudi
+ui	[予測] Tab/↑↓: 候補  Space: 変換  Esc: 取消	[Utabiri] Tab/↑↓: chaguo  Space: badilisha  Esc: ghairi
+ui	[候補] ↑↓: 選ぶ  ←→: 列・ページ  Enter: 決める	[Chaguo] ↑↓: chagua  ←→: safu/ukurasa  Enter: chukua
+ui	[変換] ↑↓候補 ←→文節 Shift+←→区切り Enter次へ	[Badilisha] ↑↓chaguo ←→kishazi Shift+←→mpaka Enter ijayo
+ui	[한국어] Tab/↑↓: 候補  Enter/Space: 確定	[한국어] Tab/↑↓: chaguo  Enter/Space: thibitisha
+ui	[English] Tab/↑↓: 候補  Enter: 確定	[English] Tab/↑↓: chaguo  Enter: thibitisha
+ui	2ボル式ハングル入力  Ctrl-Space: 英数	Ingizo la Hangul la seti 2  Ctrl-Space: herufi na namba
+ui	予測補完  Ctrl-Space: 直接入力	Ukamilishaji wa kutabiri  Ctrl-Space: ingizo la moja kwa moja
+ui	辞書なし: ひらがな/カタカナ入力のみ  F6/F7	Hakuna kamusi: hiragana/katakana tu  F6/F7
+ui	Space: 変換  F7: カタカナ  Ctrl-Space: 英数	Space: badilisha  F7: katakana  Ctrl-Space: herufi na namba
+ui	Space: 変換  F6: ひらがな  Ctrl-Space: 英数	Space: badilisha  F6: hiragana  Ctrl-Space: herufi na namba
+ui	半角  F6: ひらがな  F7: カタカナ  Shift+F6/F7: 半角	Nusu upana  F6: hiragana  F7: katakana  Shift+F6/F7: nusu
+ui	IME オフ	IME imezimwa
+ui	 予測	 tabiri
+ui	日本語の予測変換: オン	Ubadilishaji wa kutabiri wa Kijapani: Umewashwa
+ui	日本語の予測変換: オフ	Ubadilishaji wa kutabiri wa Kijapani: Umezimwa
+ui	日本語IMEで使います	Tumia na IME ya Kijapani
+ui	ユーザー辞書に追加できません	Haiwezi kuongeza kwenye kamusi ya mtumiaji
+ui	色分け: %s	Rangi: %s
+ui	読み込んでいます... (loading)	Inapakia...
+ui	読み込めませんでした (could not read)	Haikuweza kusoma faili
+ui	%lu 行%s%s	mistari %lu%s%s
+ui	  Shift_JIS を UTF-8 で開きました（保存は UTF-8）	  Shift_JIS imefunguliwa kama UTF-8 (huhifadhiwa kama UTF-8)
+ui	  読み出し専用	  kusoma tu
+ui	保存しました (saved)	Imehifadhiwa
+ui	保存できませんでした (write failed)	Haikuweza kuhifadhi (kuandika kumeshindwa)
+ui	候補	Chaguo
+ui	7 書込頁	7 UkAnd
+ui	9 ﾃｷｽﾄ	9 Maandi
+ui	9 ﾊﾞｲﾅﾘ	9 Hex
+ui	読み込み中 %lu%%  	Inapakia %lu%%
+ui	（先頭だけ）  	(mwanzo tu)
+ui	16 進  q ESC: 戻る  F1: ヘルプ	Hex  q ESC: rudi  F1: msaada
+ui	テキスト  q ESC: 戻る  F1: ヘルプ	Maandishi  q ESC: rudi  F1: msaada
+ui	ビュアーのキー（less 風。テキストと 16 進で共通）	Vitufe vya kitazamaji (kama less; sawa kwa maandishi na hex)
+ui	1 行進む	Mstari mmoja chini
+ui	1 行戻る	Mstari mmoja juu
+ui	1 ページ進む	Ukurasa mmoja chini
+ui	1 ページ戻る	Ukurasa mmoja juu
+ui	半ページ進む / 戻る	Nusu ukurasa chini / juu
+ui	/文字列  ?文字列	/maandishi  ?maandishi
+ui	下へ探す / 上へ探す（大文字小文字は区別しない）	Tafuta chini / juu (bila kujali herufi kubwa)
+ui	次 / 前を探す	Ulinganifu unaofuata / uliopita
+ui	16 進で表示する（いま見ている所のまま）	Onyesha kama hex (mahali hapo hapo)
+ui	テキストで表示する（いま見ている所のまま）	Onyesha kama maandishi (mahali hapo hapo)
+ui	色分けを替える（C/C++・mruby・MicroPython・SG BASIC・なし）	Badilisha rangi (C/C++, mruby, MicroPython, SG BASIC, hakuna)
+ui	FB / テキスト面を出す・隠す	Onyesha / ficha FB / maandishi
+ui	FB の表示ページ / 書き込みページ	Ukurasa wa kuonyesha / wa kuandika wa FB
+ui	ファイラーへ戻る	Rudi kwenye kidhibiti faili
+ui	このヘルプを閉じる	Funga msaada huu
+ui	コピー	Nakili
+ui	 %s: フォルダを読んでいます... %u 個	 %s: inasoma folda... %u
+ui	 %s: 行き先の空きを数えています...	 %s: inahesabu nafasi tupu mahali pa kufikia...
+ui	 %s: 行き先の空きが足りません	 %s: nafasi tupu haitoshi mahali pa kufikia
+ui	 移動: 元のフォルダを消しています	 Hamisha: inaondoa folda za chanzo
+ui	終了しました	Imekamilika
+ui	止まりました	Imesimamishwa
+ui	 %s中%s	 %s inaendelea%s
+ui	（止めています）	 (inasimama)
+ui	 元: %s	 Kutoka: %s
+ui	 先: %s	 Hadi: %s
+ui	 ファイル %u / %u 個  フォルダ %u 個  %s / %s  (%u%%)%s	 Faili %u / %u  folda %u  %s / %s  (%u%%)%s
+ui	  多すぎるので一部だけ	  nyingi mno: baadhi tu
+ui	 要る大きさ %s、空き %s。続けますか？	 Inahitaji %s, tupu %s. Endelea?
+ui	 Y: 続ける   N / ESC: やめる	 Y: endelea   N / ESC: ghairi
+ui	 何かキーを押すと閉じます	 Bonyeza kitufe chochote kufunga
+ui	 ESC: 止める	 ESC: simamisha
+ui	 %s: ←→ ドライブ  ↑↓ フォルダ  Space 開く・閉じる  Enter 決める  ESC やめる	 %s: ←→ diski  ↑↓ folda  Space fungua/funga  Enter chagua  ESC ghairi
+ui	 読めません: %s	 Haiwezi kusoma: %s
+ui	 フォルダを読んでいます...（ESC で止める）  %u 個	 Inasoma folda... (ESC husimamisha)  %u
+ui	 フォルダ %u 個%s	 folda %u%s
+ui	（多すぎるか深すぎるので、一部だけ）	 (nyingi mno au ndani mno: baadhi tu)
+ui	フォルダの展開を止めました	Kufungua folda kumesimamishwa
+ui	Space で開き直せます。もう一度 ESC でやめます	Space huifungua tena. ESC mara moja zaidi hughairi
+ui	 SMF / SGT プレイヤー   %s	 Kicheza SMF / SGT   %s
+ui	 読み込んでいます... %lu / %lu バイト	 Inapakia... %lu / %lu baiti
+ui	 %s / %s   %s   ポート %u	 %s / %s   %s   bandari %u
+ui	一時停止	Imesitishwa
+ui	再生中	Inacheza
+ui	 Space: 一時停止  m: MIDI OUT  q / ESC: 止める	 Space: sitisha  m: MIDI OUT  q / ESC: simamisha
+ui	 q / ESC: やめる	 q / ESC: ghairi
+ui	フォント ROM のライセンスとクレジット\n\nROM: %s（版 %lu.%lu、%lu 文字、フラッシュの 0x%08lX から）\n\n	Leseni na sifa za ROM ya fonti\n\nROM: %s (toleo %lu.%lu, herufi %lu, kutoka 0x%08lX kwenye flash)\n\n
+ui	== 収めているフォント（ROM の出所の表）==\n	== Fonti zilizo kwenye ROM (jedwali la asili la ROM) ==\n
+ui	  （表が無い ROM）\n	  (ROM haina jedwali)\n
+ui	\n== ROM のクレジットの区画 ==\n\n	\n== Eneo la sifa la ROM ==\n\n
+ui	（区画が無い）\n	(hakuna eneo kama hilo)\n
+ui	\n== 組み込んだソフトウェアのライセンス ==\n	\n== Leseni za programu zilizojengwa ndani ==\n
+ui	 %s を PNG で保存   %s	 Inahifadhi %s kama PNG   %s
+ui	画面	Skrini
+ui	 組み立てています... %lu / %lu 行	 Inajenga... mistari %lu / %lu
+ui	 書いています... %lu / %lu KB（FB は隠しています）	 Inaandika... %lu / %lu KB (FB imefichwa)
+ui	書けませんでした	Haikuweza kuandika
+ui	書庫の名前（印の付いた項目、無ければカーソルの項目を入れる）	Jina la kumbukumbu (vipengee vilivyowekwa alama, au kilicho kwenye kishale)
+ui	Enter 圧縮する  ←→ 動かす  BS / Del 消す  ESC やめる	Enter bana  ←→ sogeza  BS / Del futa  ESC ghairi
+ui	WAV 書き出し: %s 中止（%s）	Hamisha WAV: %s imeghairiwa (%s)
+ui	WAV 書き出し: %s 失敗（%s）	Hamisha WAV: %s imeshindwa (%s)
+ui	WAV 書き出し: %s 合計 %s	Hamisha WAV: %s jumla %s
+ui	 WAV 書き出し（96kHz / 24bit）: %s	 Hamisha WAV (96kHz / 24bit): %s
+ui	中止しました	Imeghairiwa
+ui	失敗しました	Imeshindwa
+ui	 合計 %s	 Jumla %s
+ui	 中止しました（%s。半端なファイルは消しました）	 Imeghairiwa (%s; faili isiyokamilika imefutwa)
+ui	 書き出せませんでした（%s）。理由:	 Haikuweza kuhamisha (%s). Sababu:
+ui	 （理由は分かりません）	 (sababu haijulikani)
+ui	 %u%%   経過 %s%s	 %u%%   muda %s%s
+ui	 ESC: 止める（半端なファイルは消します）	 ESC: simamisha (faili isiyokamilika itafutwa)
+ui	書庫: %s	Kumbukumbu: %s
+ui	読み込み中…（ESC でやめる）	Inasoma... (ESC kughairi)
+ui	 %u 項目%s  合計 %s バイト  展開先: %s	 vipengee %u%s  jumla baiti %s  fungua hadi: %s
+ui	 Enter 項目を展開  X 全部を展開  ↑↓ 動かす  ESC 閉じる	 Enter fungua  X fungua vyote  ↑↓ sogeza  ESC funga
+ui	圧縮	Bana
+ui	一覧	Orodha
+ui	展開	Fungua
+ui	 合計 %s   %u 項目	 Jumla %s   vipengee %u
+ui	 合計 %s   %u ファイル	 Jumla %s   faili %u
+ui	 中止しました（%s。書きかけのファイルは消しました）	 Imeghairiwa (%s; faili ambayo haijamalizika imefutwa)
+ui	 できませんでした（%s）: %s	 Haikuwezekana (%s): %s
+ui	 %u%%   経過 %s   %s バイト%s	 %u%%   muda %s   baiti %s%s
+ui	 経過 %s   %s バイト%s	 muda %s   baiti %s%s
+ui	 ESC: 止める（書きかけのファイルは消します）	 ESC: simamisha (faili ambayo haijamalizika itafutwa)
+ui	書庫: %s 失敗（%s）	Kumbukumbu: %s imeshindwa (%s)
+ui	圧縮: %s（%u 項目）	Imebanwa: %s (vipengee %u)
+ui	展開: %s（%u ファイル）	Imefunguliwa: %s (faili %u)
+msg.phrase	the drive went away	diski imeondolewa
+msg.phrase	reading the partitions again...	inasoma vizigeu tena...
+msg.phrase	could not open the volume (no memory?)	haikuweza kufungua juzuu (kumbukumbu haitoshi?)
+msg.phrase	opening the volume...	inafungua juzuu...
+msg.phrase	no memory for the file list	kumbukumbu haitoshi kwa orodha ya faili
+msg.phrase	reading the directory... (retrying)	inasoma folda... (inajaribu tena)
+msg.phrase	could not read the directory	haikuweza kusoma folda
+msg.phrase	reading the directory...	inasoma folda...
+msg.phrase	the drive did not answer -- reading the partitions again	diski haikujibu -- inasoma vizigeu tena
+msg.phrase	could not read the directory (not FAT12/16/32?)	haikuweza kusoma folda (si FAT12/16/32?)
+msg.phrase	too many entries -- showing the first ones	maingizo mengi mno -- inaonyesha ya kwanza tu
+msg.phrase	no file system found on this partition	hakuna mfumo wa faili kwenye kizigeu hiki
+msg.phrase	the path is too long	njia ni ndefu mno
+msg.phrase	joining...	inaunganisha...
+msg.phrase	splitting...	inagawa...
+msg.phrase	renaming...	inabadilisha jina...
+msg.phrase	creating the folder...	inaunda folda...
+msg.phrase	creating the file...	inaunda faili...
+msg.phrase	deleting...	inafuta...
+msg.phrase	writing the attributes...	inaandika sifa...
+msg.phrase	the drive is busy	diski ina shughuli
+msg.phrase	busy	ina shughuli
+msg.phrase	choose files or folders	chagua faili au folda
+msg.phrase	choose files or folders (not "..")	chagua faili au folda (si "..")
+msg.phrase	stop the CD first	simamisha CD kwanza
+msg.phrase	the CD cannot be changed (copy instead)	CD haiwezi kubadilishwa (nakili badala yake)
+msg.phrase	a system folder cannot be moved	folda ya mfumo haiwezi kuhamishwa
+msg.phrase	no drive can be written (FAT / exFAT / NTFS only)	hakuna diski inayoweza kuandikwa (FAT / exFAT / NTFS tu)
+msg.phrase	the drive is gone	diski haipo tena
+msg.phrase	nothing chosen	hakuna kilichochaguliwa
+msg.phrase	nothing selected	hakuna kilichoteuliwa
+msg.phrase	could not start	haikuweza kuanza
+msg.phrase	could not open	haikuweza kufungua
+msg.phrase	only on a FAT / exFAT / NTFS drive	kwenye diski ya FAT / exFAT / NTFS tu
+msg.phrase	no name	hakuna jina
+msg.phrase	that name already exists	jina hilo tayari lipo
+msg.phrase	could not start (bad name or the drive is busy)	haikuweza kuanza (jina baya au diski ina shughuli)
+msg.phrase	could not start (the drive is busy)	haikuweza kuanza (diski ina shughuli)
+msg.phrase	the name cannot have / or \\ (only inside this folder)	jina haliwezi kuwa na / au \\ (ndani ya folda hii tu)
+msg.phrase	the name is the same	jina ni lile lile
+msg.phrase	the item is read-only (A to change)	kipengee ni cha kusoma tu (A kubadilisha)
+msg.phrase	choose a .rb file on a writable drive	chagua faili .rb kwenye diski inayoandikika
+msg.phrase	choose a .rb file	chagua faili .rb
+msg.phrase	the drive is read-only	diski ni ya kusoma tu
+msg.phrase	choose a folder on a writable drive	chagua folda kwenye diski inayoandikika
+msg.phrase	wait a moment	subiri kidogo
+msg.phrase	choose a file	chagua faili
+msg.phrase	choose a file (not a folder)	chagua faili (si folda)
+msg.phrase	choose a .001 file	chagua faili .001
+msg.phrase	choose the .001 file	chagua faili .001
+msg.phrase	put the IWAD in a DoomFiles or Doom2Files folder	weka IWAD kwenye folda ya DoomFiles au Doom2Files
+msg.phrase	DoomFiles takes freedoom1 / doom / doomu / doom1.wad	DoomFiles hupokea freedoom1 / doom / doomu / doom1.wad
+msg.phrase	Doom2Files takes freedoom2 / doom2 / plutonia / tnt.wad	Doom2Files hupokea freedoom2 / doom2 / plutonia / tnt.wad
+msg.phrase	put the game files on external storage, not S:	weka faili za mchezo kwenye hifadhi ya nje, si S:
+msg.phrase	the IWAD must be on a FAT / exFAT / NTFS drive (not a CD)	IWAD lazima iwe kwenye diski ya FAT / exFAT / NTFS (si CD)
+msg.phrase	still working	bado inafanya kazi
+msg.phrase	an image is loading	picha inapakiwa
+msg.phrase	no framebuffer	hakuna bafa ya fremu
+msg.phrase	half brightness works only in RGB555	kupunguza mwangaza nusu hufanya kazi kwa RGB555 tu
+msg.phrase	clearing...	inafuta...
+msg.phrase	halving the brightness...	inapunguza mwangaza nusu...
+msg.phrase	that is a data track	hiyo ni njia ya data
+msg.phrase	wait -- a file is being written	subiri -- faili inaandikwa
+msg.phrase	only floppy / LS-120 / CD drives	diski laini / LS-120 / CD tu
+msg.phrase	requested	imeombwa
+msg.phrase	reading the disc...	inasoma diski...
+msg.phrase	stopping...	inasimama...
+msg.phrase	opening...	inafungua...
+msg.phrase	done	imekamilika
+msg.phrase	no memory	kumbukumbu haitoshi
+msg.phrase	already open	tayari imefunguliwa
+msg.phrase	already running	tayari inaendeshwa
+msg.phrase	already saving	tayari inahifadhi
+msg.phrase	already playing	tayari inacheza
+msg.phrase	no such drive	hakuna diski hiyo
+msg.phrase	no PSRAM	hakuna PSRAM
+msg.phrase	no PSRAM for the file	PSRAM haitoshi kwa faili
+msg.phrase	no PSRAM for the line index	PSRAM haitoshi kwa faharasa ya mistari
+msg.phrase	no PSRAM for the terminal	PSRAM haitoshi kwa terminali
+msg.phrase	no memory (PSRAM)	kumbukumbu haitoshi (PSRAM)
+msg.phrase	no memory (32KB SRAM)	kumbukumbu haitoshi (SRAM ya 32KB)
+msg.phrase	no memory for the buffer	kumbukumbu haitoshi kwa bafa
+msg.phrase	no memory for the image buffers	kumbukumbu haitoshi kwa bafa za picha
+msg.phrase	no memory for the read buffer	kumbukumbu haitoshi kwa bafa ya kusoma
+msg.phrase	no room for the work memory (close the lowres plane?)	hakuna nafasi kwa kumbukumbu ya kazi (funga ndege ya lowres?)
+msg.phrase	no framebuffer page	hakuna ukurasa wa bafa ya fremu
+msg.phrase	too large (4 MB at most)	kubwa mno (MB 4 zaidi)
+msg.phrase	the file is too large (1 MB at most)	faili ni kubwa mno (MB 1 zaidi)
+msg.phrase	the file is too large (1 MB max)	faili ni kubwa mno (MB 1 zaidi)
+msg.phrase	too large for an SMF (1MB at most)	kubwa mno kwa SMF (MB 1 zaidi)
+msg.phrase	the file is empty	faili ni tupu
+msg.phrase	could not open the file	haikuweza kufungua faili
+msg.phrase	could not read the file	haikuweza kusoma faili
+msg.phrase	could not open the volume	haikuweza kufungua juzuu
+msg.phrase	could not open the destination (no memory?)	haikuweza kufungua mahali pa kufikia (kumbukumbu haitoshi?)
+msg.phrase	could not read the root folder	haikuweza kusoma folda ya mzizi
+msg.phrase	could not start the task	haikuweza kuanzisha kazi
+msg.phrase	could not start writing (bad name or busy)	haikuweza kuanza kuandika (jina baya au ina shughuli)
+msg.phrase	another volume is open (busy)	juzuu nyingine imefunguliwa (ina shughuli)
+msg.phrase	a copy is running	unakili unaendelea
+msg.phrase	a folder cannot go into itself	folda haiwezi kuingia ndani yake yenyewe
+msg.phrase	that is the same folder	hiyo ni folda ile ile
+msg.phrase	this drive cannot be changed (read only)	diski hii haiwezi kubadilishwa (kusoma tu)
+msg.phrase	the drive is not writable	diski haiandikiki
+msg.phrase	the part size must be a multiple of 512	ukubwa wa sehemu lazima uwe kigawe cha 512
+msg.phrase	files of 4 GB or more are not supported	faili za GB 4 au zaidi hazitumiki
+msg.phrase	bad path	njia mbaya
+msg.phrase	bad file name	jina baya la faili
+msg.phrase	the font ROM is not there	ROM ya fonti haipo
+msg.phrase	the sound is not open	sauti haijafunguliwa
+msg.phrase	no such channel	hakuna chaneli hiyo
+msg.phrase	the sequencer is busy	kipangaji kina shughuli
+msg.phrase	not enough PSRAM for the song	PSRAM haitoshi kwa wimbo
+msg.phrase	not a standard MIDI file (no MThd)	si faili ya MIDI ya kawaida (hakuna MThd)
+msg.phrase	no tracks	hakuna nyimbo
+msg.phrase	a track is broken (MTrk)	wimbo umeharibika (MTrk)
+msg.phrase	SMPTE time division is not supported	mgawanyo wa muda wa SMPTE hautumiki
+msg.phrase	SMF format 2 is not supported (0 and 1 only)	SMF umbizo 2 hautumiki (0 na 1 tu)
+msg.phrase	not a Bulk-Only drive	si diski ya Bulk-Only
+msg.phrase	not an optical drive	si diski ya macho
+msg.phrase	a system folder cannot be deleted or renamed	folda ya mfumo haiwezi kufutwa wala kubadilishwa jina
+msg.phrase	no media in the drive	hakuna diski kwenye kiendeshi
+msg.phrase	becoming ready	inakuwa tayari
+msg.phrase	not ready	haiko tayari
+msg.phrase	media changed	diski imebadilishwa
+msg.phrase	medium error	hitilafu ya diski
+msg.phrase	illegal request	ombi lisilo halali
+msg.phrase	a bad directory entry	ingizo baya la folda
+msg.phrase	a directory on the way does not exist	folda kwenye njia haipo
+msg.phrase	a file has that name	faili ina jina hilo
+msg.phrase	a folder has that name	folda ina jina hilo
+msg.phrase	a name on the way is not a directory	jina kwenye njia si folda
+msg.phrase	cancelled	imeghairiwa
+msg.phrase	could not mount	haikuweza kupachika
+msg.phrase	could not start a read	haikuweza kuanza kusoma
+msg.phrase	could not start a write	haikuweza kuanza kuandika
+msg.phrase	is a directory	ni folda
+msg.phrase	that is a directory	hiyo ni folda
+msg.phrase	no clusters	hakuna klasta
+msg.phrase	no room for the cluster list	hakuna nafasi kwa orodha ya klasta
+msg.phrase	no such file or directory	hakuna faili au folda hiyo
+msg.phrase	no such file	hakuna faili hiyo
+msg.phrase	no volume	hakuna juzuu
+msg.phrase	not NTFS	si NTFS
+msg.phrase	not exFAT	si exFAT
+msg.phrase	not a directory	si folda
+msg.phrase	not found	haikupatikana
+msg.phrase	read error	hitilafu ya kusoma
+msg.phrase	write error	hitilafu ya kuandika
+msg.phrase	reading the FAT failed	kusoma FAT kumeshindwa
+msg.phrase	the cluster chain is shorter than the file	mnyororo wa klasta ni mfupi kuliko faili
+msg.phrase	the directory is not empty	folda si tupu
+msg.phrase	the disk is full	diski imejaa
+msg.phrase	the drive did not answer	diski haikujibu
+msg.phrase	the file is read-only	faili ni ya kusoma tu
+msg.phrase	the file is too fragmented	faili imegawanyika mno
+msg.phrase	the file is too large (4GB)	faili ni kubwa mno (GB 4)
+msg.phrase	the new name already exists	jina jipya tayari lipo
+msg.phrase	the root directory is full	folda ya mzizi imejaa
+msg.phrase	too many files with the same short name	faili nyingi mno zenye jina fupi lile lile
+msg.phrase	No such file or directory	Hakuna faili au folda hiyo
+msg.phrase	File exists	Faili ipo tayari
+msg.phrase	Permission denied	Ruhusa imekataliwa
+msg.phrase	Directory not empty	Folda si tupu
+msg.phrase	Not a directory	Si folda
+msg.phrase	Is a directory	Ni folda
+msg.phrase	Read-only file system	Mfumo wa faili wa kusoma tu
+msg.phrase	No space left on device	Hakuna nafasi iliyobaki kwenye kifaa
+msg.phrase	Input/output error	Hitilafu ya kuingiza/kutoa
+msg.phrase	Not supported on this drive	Haitumiki kwenye diski hii
+msg.phrase	Invalid path	Njia batili
+msg.phrase	Out of memory	Kumbukumbu imeisha
+msg.phrase	No such drive	Hakuna diski hiyo
+msg.phrase	stopped	imesimamishwa
+msg.phrase	cancelled (not enough free space)	imeghairiwa (nafasi tupu haitoshi)
+msg.phrase	could not count the free space	haikuweza kuhesabu nafasi tupu
+msg.phrase	the receiver cancelled	mpokeaji ameghairi
+msg.phrase	no receiver (run rz on the PC)	hakuna mpokeaji (endesha rz kwenye PC)
+msg.phrase	the console UART is in use	UART ya koni inatumika
+msg.phrase	the screen mode changed	hali ya skrini imebadilika
+msg.phrase	the lines did not come (is the display running?)	mistari haikufika (skrini inafanya kazi?)
+msg.prefix	copy	nakili
+msg.prefix	move	hamisha
+msg.prefix	delete	futa
+msg.prefix	rename	badilisha jina
+msg.prefix	attributes	sifa
+msg.prefix	new file	faili mpya
+msg.prefix	new folder	folda mpya
+msg.prefix	image	picha
+msg.prefix	mrbc	mrbc
+msg.prefix	ruby	ruby
+msg.prefix	viewer	kitazamaji
+msg.prefix	edit	hariri
+msg.prefix	IDENTIFY	IDENTIFY
+msg.prefix	ZMODEM	ZMODEM
+msg.prefix	ZMODEM receive	ZMODEM pokea
+msg.prefix	ZMODEM send	ZMODEM tuma
+msg.prefix	split	gawa
+msg.prefix	join	unganisha
+msg.prefix	Doom	Doom
+msg.prefix	SMF	SMF
+msg.prefix	CD	CD
+msg.prefix	FB	FB
+msg.prefix	Eject	Toa
+msg.prefix	reboot	washa upya
+msg.prefix	license	leseni
+msg.prefix	clock	saa
+msg.prefix	ADC in	ADC ingizo
+msg.prefix	screen -> PNG	skrini -> PNG
+msg.prefix	FB -> PNG	FB -> PNG
+msg.prefix	could not open the volume	haikuweza kufungua juzuu
+msg.pattern	received 	imepokelewa %s
+msg.pattern	sent 	imetumwa %s
+msg.pattern	saved 	imehifadhiwa %s
+msg.pattern	created 	imeundwa %s
+msg.pattern	renamed to 	jina limebadilishwa kuwa %s
+msg.pattern	deleted 	imefutwa %s
+msg.pattern	changed 	imebadilishwa %s
+msg.pattern	joined 	imeunganishwa %s
+msg.pattern	split 	imegawanywa %s
+msg.pattern	could not create 	haikuweza kuunda %s
+msg.pattern	could not delete 	haikuweza kufuta %s
+msg.pattern	could not rename to 	haikuweza kubadilisha jina kuwa %s
+msg.pattern	could not change 	haikuweza kubadilisha %s
+msg.pattern	could not read 	haikuweza kusoma %s
+msg.pattern	could not write 	haikuweza kuandika %s
+msg.pattern	could not copy 	haikuweza kunakili %s
+msg.pattern	could not make 	haikuweza kutengeneza %s
+msg.pattern	could not remove the folder 	haikuweza kuondoa folda %s
+msg.pattern	could not remove 	haikuweza kuondoa %s
+msg.pattern	no memory for 	kumbukumbu haitoshi kwa %s
+msg.pattern	too many errors while sending 	makosa mengi mno wakati wa kutuma %s
+msg.pattern	the receiver did not take 	mpokeaji hakupokea %s
+msg.pattern	the receiver skipped 	mpokeaji aliruka %s
+msg.pattern	FB page 	Ukurasa wa FB %s
+msg.word	 bytes each)	 baiti kila moja)
+msg.word	 bytes)	 baiti)
+msg.word	 KB)	 KB)
+msg.word	 parts into 	 sehemu kuwa
+msg.word	 parts (	 sehemu (
+msg.word	 into 	 kuwa
+msg.word	: cleared	: imefutwa
+msg.word	: brightness halved	: mwangaza umepunguzwa nusu
+msg.word	% read	% imesomwa
+msg.word	 rows	 mistari
+msg.word	 -- not supported yet (FAT / exFAT / NTFS only)	 -- bado haitumiki (FAT / exFAT / NTFS tu)
+msg.word	 files	 faili
+msg.word	 (	 (
+msg.phrase	Untitled	Bila jina
+msg.phrase	1 File	1 Faili
+msg.phrase	2 Edit	2 Hariri
+msg.phrase	3 Graph	3 Grafu
+msg.phrase	4 Sheet	4 Laha
+msg.phrase	5 Help	5 Msaada
+msg.phrase	EMPTY	TUPU
+msg.phrase	NUMBER	NAMBA
+msg.phrase	TEXT	MAANDISHI
+msg.phrase	FORMULA	FOMULA
+msg.phrase	Type to enter, F2 to edit, F1 for help	Andika kuingiza, F2 kuhariri, F1 kwa msaada
+msg.phrase	Ready	Tayari
+msg.phrase	Press any key	Bonyeza kitufe chochote
+msg.phrase	Y = yes    N = no    Esc = cancel	Y = ndiyo    N = hapana    Esc = ghairi
+msg.phrase	Enter = OK    Esc = cancel    Ctrl-U = clear	Enter = Sawa    Esc = ghairi    Ctrl-U = futa
+msg.phrase	First row/column = labels; charts use the 640x480 CLUT8 FB.	Mstari/safu ya kwanza = lebo; chati hutumia FB ya CLUT8 640x480.
+msg.phrase	SGCALC - HELP	SGCALC - MSAADA
+msg.phrase	Press any key to return	Bonyeza kitufe chochote kurudi
+msg.phrase	Press any key to return.	Bonyeza kitufe chochote kurudi.
+msg.phrase	ABOUT SGCALC	KUHUSU SGCALC
+msg.phrase	New	Mpya
+msg.phrase	Start a new sheet	Anza laha mpya
+msg.phrase	Open...	Fungua...
+msg.phrase	Open an ODS, FODS or CSV file	Fungua faili ya ODS, FODS au CSV
+msg.phrase	Save	Hifadhi
+msg.phrase	Save the current file	Hifadhi faili ya sasa
+msg.phrase	Save As...	Hifadhi kama...
+msg.phrase	Save with a new name or format	Hifadhi kwa jina au umbizo jipya
+msg.phrase	Export CSV...	Hamisha CSV...
+msg.phrase	Write a CSV copy	Andika nakala ya CSV
+msg.phrase	Export ODS...	Hamisha ODS...
+msg.phrase	Write a LibreOffice copy	Andika nakala ya LibreOffice
+msg.phrase	Quit	Toka
+msg.phrase	Leave SGCALC	Ondoka SGCALC
+msg.phrase	Clear	Futa
+msg.phrase	Clear the selected cells	Futa visanduku vilivyochaguliwa
+msg.phrase	Copy	Nakili
+msg.phrase	Copy the selection	Nakili uteuzi
+msg.phrase	Paste	Bandika
+msg.phrase	Paste at the cursor	Bandika kwenye kiteuzi
+msg.phrase	Cut	Kata
+msg.phrase	Copy and clear the selection	Nakili na ufute uteuzi
+msg.phrase	Select all	Chagua vyote
+msg.phrase	Select all used cells	Chagua visanduku vyote vilivyotumika
+msg.phrase	Text color...	Rangi ya maandishi...
+msg.phrase	Choose the text colour	Chagua rangi ya maandishi
+msg.phrase	Background...	Usuli...
+msg.phrase	Choose the cell background	Chagua usuli wa kisanduku
+msg.phrase	Line	Mstari
+msg.phrase	Draw a line graph from the selection	Chora grafu ya mstari kutoka kwenye uteuzi
+msg.phrase	Bar	Pau
+msg.phrase	Draw a bar graph from the selection	Chora grafu ya pau kutoka kwenye uteuzi
+msg.phrase	Mixed	Mchanganyiko
+msg.phrase	Bars for the first series, lines for the rest	Pau kwa mfululizo wa kwanza, mistari kwa mingine
+msg.phrase	Pie	Pai
+msg.phrase	Draw a pie graph from the selection	Chora grafu ya pai kutoka kwenye uteuzi
+msg.phrase	Range...	Eneo...
+msg.phrase	Set the graph range explicitly	Weka eneo la grafu waziwazi
+msg.phrase	Draw again	Chora tena
+msg.phrase	Redraw the last graph	Chora tena grafu ya mwisho
+msg.phrase	Goto...	Nenda...
+msg.phrase	Jump to a cell (for example C12)	Rukia kisanduku (kwa mfano C12)
+msg.phrase	Column width...	Upana wa safu...
+msg.phrase	Change the selected columns' width	Badilisha upana wa safu zilizochaguliwa
+msg.phrase	Row height...	Urefu wa mstari...
+msg.phrase	Change the selected rows' height	Badilisha urefu wa mistari iliyochaguliwa
+msg.phrase	Auto fit	Linganisha kiotomatiki
+msg.phrase	Fit widths/heights to the contents (F7)	Linganisha upana/urefu na yaliyomo (F7)
+msg.phrase	Recalculate	Hesabu upya
+msg.phrase	Re-evaluate all formulas	Tathmini upya fomula zote
+msg.phrase	Erase all	Futa yote
+msg.phrase	Clear the whole sheet	Futa laha nzima
+msg.phrase	Keys	Vitufe
+msg.phrase	Show the key guide	Onyesha mwongozo wa vitufe
+msg.phrase	About	Kuhusu
+msg.phrase	About SGCALC	Kuhusu SGCALC
+msg.phrase	File	Faili
+msg.phrase	Edit	Hariri
+msg.phrase	Graph	Grafu
+msg.phrase	Sheet	Laha
+msg.phrase	Help	Msaada
+msg.phrase	File: new, open, save, export, quit	Faili: mpya, fungua, hifadhi, hamisha, toka
+msg.phrase	Edit: clear, copy, paste, cut, select all	Hariri: futa, nakili, bandika, kata, chagua vyote
+msg.phrase	Graph: line, bar, mixed, pie (draws in the FB)	Grafu: mstari, pau, mchanganyiko, pai (huchorwa kwenye FB)
+msg.phrase	Sheet: goto, column width, recalculate, erase	Laha: nenda, upana wa safu, hesabu upya, futa
+msg.phrase	Help: keys and about	Msaada: vitufe na kuhusu
+msg.phrase	Left/Right = menu    Up/Down = item    Enter = choose    Esc = cancel	Kushoto/Kulia = menyu    Juu/Chini = kipengee    Enter = chagua    Esc = ghairi
+msg.phrase	Cancelled	Imeghairiwa
+msg.phrase	The selection is too large or memory is low.	Uteuzi ni mkubwa mno au kumbukumbu ni kidogo.
+msg.phrase	the cell	kisanduku
+msg.phrase	the selection	uteuzi
+msg.phrase	Nothing to paste	Hakuna cha kubandika
+msg.phrase	Pasted	Imebandikwa
+msg.phrase	GO TO CELL	NENDA KWENYE KISANDUKU
+msg.phrase	Cell reference (A1):	Rejeleo la kisanduku (A1):
+msg.phrase	Goto	Nenda
+msg.phrase	COLUMN WIDTH	UPANA WA SAFU
+msg.phrase	Width in characters (4..30):	Upana kwa herufi (4..30):
+msg.phrase	ROW HEIGHT	UREFU WA MSTARI
+msg.phrase	Height in text rows (1..8):	Urefu kwa mistari ya maandishi (1..8):
+msg.phrase	Auto fit: the sheet is empty	Linganisha kiotomatiki: laha ni tupu
+msg.phrase	BACKGROUND COLOUR	RANGI YA USULI
+msg.phrase	TEXT COLOUR	RANGI YA MAANDISHI
+msg.phrase	Arrows: choose    Enter: apply    Esc: cancel	Mishale: chagua    Enter: tumia    Esc: ghairi
+msg.phrase	Colour index (PC-98 16-colour palette)	Namba ya rangi (rangi 16 za PC-98)
+msg.phrase	Enter = apply    Esc = cancel	Enter = tumia    Esc = ghairi
+msg.phrase	Colour	Rangi
+msg.phrase	Background	Usuli
+msg.phrase	Text	Maandishi
+msg.phrase	GRAPH RANGE	ENEO LA GRAFU
+msg.phrase	Range (for example A1:C10):	Eneo (kwa mfano A1:C10):
+msg.phrase	Graph range	Eneo la grafu
+msg.phrase	Use a range such as A1:C10.	Tumia eneo kama A1:C10.
+msg.phrase	Cannot draw the graph.	Haiwezi kuchora grafu.
+msg.phrase	line	mstari
+msg.phrase	bar	pau
+msg.phrase	mixed	mchanganyiko
+msg.phrase	pie	pai
+msg.phrase	Clear every cell in this sheet?	Futa kila kisanduku kwenye laha hii?
+msg.phrase	Sheet erased	Laha imefutwa
+msg.phrase	Selected all used cells	Visanduku vyote vilivyotumika vimechaguliwa
+msg.phrase	Recalculated	Imehesabiwa upya
+msg.phrase	Memory	Kumbukumbu
+msg.phrase	Not enough PSRAM for the spreadsheet.	PSRAM haitoshi kwa lahajedwali.
+msg.phrase	The sheet is empty.	Laha ni tupu.
+msg.phrase	No numeric data in the selected range.	Hakuna data ya namba kwenye eneo lililochaguliwa.
+msg.phrase	Other	Nyingine
+msg.phrase	No positive values for a pie chart	Hakuna thamani chanya kwa chati ya pai
+msg.phrase	LINE	MSTARI
+msg.phrase	BAR	PAU
+msg.phrase	MIXED	MCHANGANYIKO
+msg.phrase	PIE	PAI
+msg.phrase	Folder	Folda
+msg.phrase	SAVE AS	HIFADHI KAMA
+msg.phrase	OPEN FILE	FUNGUA FAILI
+msg.phrase	Name:	Jina:
+msg.phrase	(type a name, or choose below)	(andika jina, au chagua hapa chini)
+msg.phrase	Name	Jina
+msg.phrase	Size	Ukubwa
+msg.phrase	Enter=save  Left=up  Right/Enter on [DIR]=open  Tab=drive  Esc=cancel	Enter=hifadhi  Kushoto=juu  Kulia/Enter kwenye [DIR]=fungua  Tab=diski  Esc=ghairi
+msg.phrase	Enter=open  Left=up  Right/Enter on [DIR]=open  Tab=drive  Esc=cancel	Enter=fungua  Kushoto=juu  Kulia/Enter kwenye [DIR]=fungua  Tab=diski  Esc=ghairi
+msg.phrase	Not enough memory.	Kumbukumbu haitoshi.
+msg.phrase	Overwrite	Andika juu
+msg.phrase	Open	Fungua
+msg.phrase	The file is too large (limit 8 MB).	Faili ni kubwa mno (kikomo MB 8).
+msg.phrase	Not enough memory to read the file.	Kumbukumbu haitoshi kusoma faili.
+msg.phrase	Bad ZIP/ODS data.	Data mbaya ya ZIP/ODS.
+msg.phrase	CRC error in the ODS file.	Hitilafu ya CRC kwenye faili ya ODS.
+msg.phrase	Unsupported or damaged file.	Faili haitumiki au imeharibika.
+msg.phrase	Saved	Imehifadhiwa
+msg.phrase	Exported	Imehamishwa
+msg.phrase	Unsaved changes	Mabadiliko hayajahifadhiwa
+msg.phrase	Save the current sheet before continuing?	Hifadhi laha ya sasa kabla ya kuendelea?
+msg.phrase	New sheet	Laha mpya
+msg.phrase	song is too large	wimbo ni mkubwa mno
+msg.phrase	empty file	faili tupu
+msg.phrase	not an SGT file	si faili ya SGT
+msg.phrase	bad BPM	BPM mbaya
+msg.phrase	bad speed	kasi mbaya
+msg.phrase	bad title length	urefu mbaya wa kichwa
+msg.phrase	truncated title	kichwa kimekatwa
+msg.phrase	bad character in title	herufi mbaya kwenye kichwa
+msg.phrase	truncated order	mpangilio umekatwa
+msg.phrase	bad order length	urefu mbaya wa mpangilio
+msg.phrase	bad pattern number in order	namba mbaya ya ruwaza kwenye mpangilio
+msg.phrase	truncated pattern list	orodha ya ruwaza imekatwa
+msg.phrase	bad pattern count	idadi mbaya ya ruwaza
+msg.phrase	bad pattern index	faharasa mbaya ya ruwaza
+msg.phrase	duplicate pattern	ruwaza imerudiwa
+msg.phrase	truncated pattern data	data ya ruwaza imekatwa
+msg.phrase	invalid pattern data	data batili ya ruwaza
+msg.phrase	trailing data in file	data ya ziada mwishoni mwa faili
+msg.phrase	order refers to a missing pattern	mpangilio unarejelea ruwaza isiyokuwepo
+msg.phrase	(untitled)	(bila jina)
+msg.phrase	Ready. Press F1 for help.	Tayari. Bonyeza F1 kwa msaada.
+msg.phrase	Follow OFF	Fuata IMEZIMWA
+msg.phrase	Nothing to undo	Hakuna cha kutendua
+msg.phrase	Undo	Tendua
+msg.phrase	Note OFF	Zima noti
+msg.phrase	Set an effect letter first	Weka herufi ya athari kwanza
+msg.phrase	Effect cleared	Athari imefutwa
+msg.phrase	Parameter cleared	Kigezo kimefutwa
+msg.phrase	Note cleared	Noti imefutwa
+msg.phrase	Instrument cleared	Ala imefutwa
+msg.phrase	Volume cleared	Sauti imefutwa
+msg.phrase	Order list is full	Orodha ya mpangilio imejaa
+msg.phrase	Order inserted	Mpangilio umeingizwa
+msg.phrase	Cannot delete the last order	Haiwezi kufuta mpangilio wa mwisho
+msg.phrase	Order deleted	Mpangilio umefutwa
+msg.phrase	Playing song	Inacheza wimbo
+msg.phrase	Stopped	Imesimamishwa
+msg.phrase	New song	Wimbo mpya
+msg.phrase	Discard unsaved changes and start a new song? (Y/N)	Acha mabadiliko yasiyohifadhiwa na uanze wimbo mpya? (Y/N)
+msg.phrase	Discard unsaved changes and open a song? (Y/N)	Acha mabadiliko yasiyohifadhiwa na ufungue wimbo? (Y/N)
+msg.phrase	Discard unsaved changes and quit? (Y/N)	Acha mabadiliko yasiyohifadhiwa na utoke? (Y/N)
+msg.phrase	Song settings updated	Mipangilio ya wimbo imesasishwa
+msg.phrase	Filename is empty	Jina la faili ni tupu
+msg.phrase	Save cancelled	Kuhifadhi kumeghairiwa
+msg.phrase	Open cancelled	Kufungua kumeghairiwa
+msg.phrase	Edit ON	Kuhariri KUMEWASHWA
+msg.phrase	Edit OFF	Kuhariri KUMEZIMWA
+msg.phrase	Follow ON	Fuata IMEWASHWA
+msg.phrase	Edit is OFF. Press F8 to edit.	Kuhariri kumezimwa. Bonyeza F8 kuhariri.
+msg.phrase	I/O error	Hitilafu ya I/O
+msg.phrase	file is too large	faili ni kubwa mno
+msg.phrase	truncated file	faili imekatwa
+msg.phrase	#TRANSPORT AND FILES	#UCHEZAJI NA FAILI
+msg.phrase	#ORDER LIST	#ORODHA YA MPANGILIO
+msg.phrase	#DISPLAY	#ONYESHO
+msg.phrase	#EDITING	#KUHARIRI
+msg.phrase	#EFFECTS (parameter is hexadecimal)	#ATHARI (kigezo ni heksadesimali)
+msg.phrase	LEFT/RIGHT PAGE   ENTER OR F1 CLOSE	KUSHOTO/KULIA UKURASA   ENTER AU F1 FUNGA
+msg.phrase	SONG SETTINGS	MIPANGILIO YA WIMBO
+msg.phrase	UP/DOWN SELECT   LEFT/RIGHT ADJUST   ENTER/F2 CLOSE	JUU/CHINI CHAGUA   KUSHOTO/KULIA REKEBISHA   ENTER/F2 FUNGA
+msg.phrase	Type to edit the title. Backspace deletes the last character.	Andika kuhariri kichwa. Backspace hufuta herufi ya mwisho.
+msg.phrase	BPM range 32..255. Speed range 1..31.	BPM 32..255. Kasi 1..31.
+msg.phrase	Pattern effects can also change speed and BPM while playing.	Athari za ruwaza zinaweza pia kubadilisha kasi na BPM wakati wa kucheza.
+msg.phrase	INSTRUMENTS	ALA
+msg.phrase	UP/DOWN SELECT   SPACE PREVIEW   ENTER USE   F3 CLOSE	JUU/CHINI CHAGUA   SPACE SIKILIZA   ENTER TUMIA   F3 FUNGA
+msg.phrase	All four channels use wavetable synthesis.	Chaneli zote nne hutumia usanisi wa jedwali la mawimbi.
+msg.phrase	Preview plays C-4 on the track under the edit cursor.	Usikilizaji hucheza C-4 kwenye wimbo ulio chini ya kiteuzi.
+msg.phrase	SAVE SONG AS	HIFADHI WIMBO KAMA
+msg.phrase	ENTER SAVE   F4 OR CTRL-C CANCEL	ENTER HIFADHI   F4 AU CTRL-C GHAIRI
+msg.phrase	Directory:	Folda:
+msg.phrase	File name:	Jina la faili:
+msg.phrase	The extension .SGT is added automatically.	Kiendelezi .SGT huongezwa kiotomatiki.
+msg.phrase	An existing file can be overwritten.	Faili iliyopo inaweza kuandikwa juu.
+msg.phrase	OPEN SONG	FUNGUA WIMBO
+msg.phrase	ENTER OPEN  BS PARENT  CTRL-O/CTRL-C CANCEL	ENTER FUNGUA  BS MZAZI  CTRL-O/CTRL-C GHAIRI
+msg.phrase	(no .SGT files in this folder)	(hakuna faili za .SGT kwenye folda hii)
+msg.phrase	CONFIRM	THIBITISHA
+msg.phrase	Y = YES   N / ENTER / CTRL-C = NO	Y = NDIYO   N / ENTER / CTRL-C = HAPANA
+msg.phrase	Y = yes        N = no	Y = ndiyo        N = hapana
+msg.phrase	broken MThd	MThd imeharibika
+msg.phrase	MIDI IMPORT	KUINGIZA MIDI
+msg.phrase	broken delta time	muda wa delta umeharibika
+msg.phrase	broken running status	running status imeharibika
+msg.phrase	broken meta event	tukio la meta limeharibika
+msg.phrase	broken sysex event	tukio la sysex limeharibika
+msg.phrase	broken channel event	tukio la chaneli limeharibika
+msg.phrase	SMF output is too small	matokeo ya SMF ni madogo mno
+msg.phrase	SMF output is too large	matokeo ya SMF ni makubwa mno
+msg.phrase	the song is too long for SMF	wimbo ni mrefu mno kwa SMF
+msg.phrase	ARROWS      move the cell cursor\n	MISHALE     sogeza kiteuzi cha kisanduku\n
+msg.phrase	SHIFT+ARR   extend the selection (for graphs/copy)\n	SHIFT+MSH   panua uteuzi (kwa grafu/kunakili)\n
+msg.phrase	ENTER       edit the cell; in edit, commit and move down\n	ENTER       hariri kisanduku; ukihariri, thibitisha na ushuke\n
+msg.phrase	TAB         next cell    SHIFT+TAB  previous cell\n	TAB         kisanduku kifuatacho    SHIFT+TAB  kilichopita\n
+msg.phrase	DELETE      clear the selected cell(s)    ESC  cancel\n	DELETE      futa visanduku vilivyochaguliwa    ESC  ghairi\n
+msg.phrase	PGUP/PGDN   move one screen    HOME/END  first/last column\n	PGUP/PGDN   skrini moja    HOME/END  safu ya kwanza/mwisho\n
+msg.phrase	CTRL+HOME   A1    CTRL+END  last used cell\n	CTRL+HOME   A1    CTRL+END  kisanduku cha mwisho kilichotumika\n
+msg.phrase	F1 help  F2 edit  F3 copy  F4 paste  F5 goto  F6 colour\n	F1 msaada  F2 hariri  F3 nakili  F4 bandika  F5 nenda  F6 rangi\n
+msg.phrase	F7 auto-fit  F8 background  F9 recalc  F10 graph  F11 save  F12 menu\n	F7 linganisha  F8 usuli  F9 hesabu  F10 grafu  F11 hifadhi  F12 menyu\n
+msg.phrase	SHIFT+F1 about  SHIFT+F2 row height  SHIFT+F3 column width\n	SHIFT+F1 kuhusu  SHIFT+F2 urefu wa mstari  SHIFT+F3 upana wa safu\n
+msg.phrase	SHIFT+F4 select all  SHIFT+F10 graph range  SHIFT+F11 save as\n	SHIFT+F4 chagua vyote  SHIFT+F10 eneo la grafu  SHIFT+F11 hifadhi kama\n
+msg.phrase	CTRL+F1 new  CTRL+F2 open  CTRL+F3 save  CTRL+F4 save as\n	CTRL+F1 mpya  CTRL+F2 fungua  CTRL+F3 hifadhi  CTRL+F4 hifadhi kama\n
+msg.phrase	CTRL+F5 export CSV  CTRL+F6 export ODS  ALT+F12 quit\n	CTRL+F5 hamisha CSV  CTRL+F6 hamisha ODS  ALT+F12 toka\n
+msg.phrase	Bottom 2 lines: function keys; [SHIFT]/[CTRL]/[ALT] like the filer\n	Mistari 2 ya chini: vitufe vya kazi; [SHIFT]/[CTRL]/[ALT] kama kidhibiti faili\n
+msg.phrase	CTRL+S save  CTRL+O open  CTRL+N new  CTRL+C/V/X copy/paste/cut\n	CTRL+S hifadhi  CTRL+O fungua  CTRL+N mpya  CTRL+C/V/X nakili/bandika/kata\n
+msg.phrase	CTRL+G goto    /  open the menu (1 File, 2 Edit, ...)\n	CTRL+G nenda    /  fungua menyu (1 Faili, 2 Hariri, ...)\n
+msg.phrase	Built-in functions: SUM AVERAGE MIN MAX COUNT COUNTA\n	Vitendakazi vilivyojengwa: SUM AVERAGE MIN MAX COUNT COUNTA\n
+msg.phrase	Cell refs: A1, $A$1, A1:B10.  Formulas begin with '='.\n	Marejeleo ya visanduku: A1, $A$1, A1:B10.  Fomula huanza na '='.\n
+msg.phrase	Files: .ods (LibreOffice), .fods (flat XML), .csv\n	Faili: .ods (LibreOffice), .fods (XML bapa), .csv\n
+msg.phrase	ODS/FODS keeps formulas, widths, heights and colours.\n	ODS/FODS huhifadhi fomula, upana, urefu na rangi.\n
+msg.phrase	CSV keeps values and formulas (no colours/heights).\n	CSV huhifadhi thamani na fomula (bila rangi/urefu).\n
+msg.phrase	Graph: select a range, press F10, and choose Line/Bar/Mixed/Pie.\n	Grafu: chagua eneo, bonyeza F10, kisha chagua Mstari/Pau/Mchanganyiko/Pai.\n
+msg.phrase	SGCALC for sgnano\n	SGCALC kwa sgnano\n
+msg.phrase	Version 	Toleo
+msg.phrase	A Lotus 1-2-3 style spreadsheet as an SGX program.\n\n	Lahajedwali la mtindo wa Lotus 1-2-3 kama programu ya SGX.\n\n
+msg.phrase	Screen mode 3: text + CLUT8 FB (lowres disabled)\n	Hali ya skrini 3: maandishi + FB ya CLUT8 (lowres imezimwa)\n
+msg.phrase	Sheet: %d rows x %d columns\n	Laha: mistari %d x safu %d\n
+msg.phrase	Formats: .ods / .fods (LibreOffice), .csv\n\n	Umbizo: .ods / .fods (LibreOffice), .csv\n\n
+msg.phrase	The grid is drawn on the text plane.\n	Gridi huchorwa kwenye ndege ya maandishi.\n
+msg.phrase	Charts and the 640x480 background use the FB.\n\n	Chati na usuli wa 640x480 hutumia FB.\n\n
+msg.phrase	Cannot store the cell (%d).	Haiwezi kuhifadhi kisanduku (%d).
+msg.phrase	Copied %d x %d cells	Visanduku %d x %d vimenakiliwa
+msg.phrase	Cleared %s	Imefutwa %s
+msg.phrase	'%s' is not a cell reference.	'%s' si rejeleo la kisanduku.
+msg.phrase	Column width = %d	Upana wa safu = %d
+msg.phrase	Row height = %d	Urefu wa mstari = %d
+msg.phrase	Auto fit: %d column(s), %d row(s)	Linganisha kiotomatiki: safu %d, mistari %d
+msg.phrase	Cannot apply the colour (%d).	Haiwezi kutumia rangi (%d).
+msg.phrase	Not a valid range.\nUse a range such as A1:C10.	Eneo si halali.\nTumia eneo kama A1:C10.
+msg.phrase	Graph range %s	Eneo la grafu %s
+msg.phrase	Graph: %s	Grafu: %s
+msg.phrase	SGCALC: cannot set screen mode 3: %s\n	SGCALC: haiwezi kuweka hali ya skrini 3: %s\n
+msg.phrase	Cannot read %s\n%s	Haiwezi kusoma %s\n%s
+msg.phrase	Folder: %s	Folda: %s
+msg.phrase	Unsupported extension.\nUse .csv, .ods or .fods.	Kiendelezi hakitumiki.\nTumia .csv, .ods au .fods.
+msg.phrase	%s already exists.\nOverwrite it?	%s ipo tayari.\nIandike juu?
+msg.phrase	%s may not be writable.\nTry anyway?	%s huenda haiandikiki.\nJaribu hata hivyo?
+msg.phrase	Unknown file type for %s	Aina ya faili haijulikani kwa %s
+msg.phrase	Unsupported file type.\nUse .csv, .ods or .fods.	Aina ya faili haitumiki.\nTumia .csv, .ods au .fods.
+msg.phrase	Cannot open %s\n%s	Haiwezi kufungua %s\n%s
+msg.phrase	%s is a folder.	%s ni folda.
+msg.phrase	Cannot import %s\n%s	Haiwezi kuingiza %s\n%s
+msg.phrase	Loaded %s	Imepakiwa %s
+msg.phrase	Cannot build the %s file.	Haiwezi kujenga faili ya %s.
+msg.phrase	Cannot write %s\n%s	Haiwezi kuandika %s\n%s
+msg.phrase	unsupported version %u	toleo %u halitumiki
+msg.phrase	Octave %d	Oktava %d
+msg.phrase	Note %s	Noti %s
+msg.phrase	Instrument %d	Ala %d
+msg.phrase	Volume %s	Sauti %s
+msg.phrase	Effect %c	Athari %c
+msg.phrase	Parameter %s	Kigezo %s
+msg.phrase	Pattern %s	Ruwaza %s
+msg.phrase	Playing pattern %s	Inacheza ruwaza %s
+msg.phrase	SAVE ERROR: %s	HITILAFU YA KUHIFADHI: %s
+msg.phrase	Saved %s	Imehifadhiwa %s
+msg.phrase	LOAD ERROR: %s	HITILAFU YA KUPAKIA: %s
+msg.phrase	BPM %d	BPM %d
+msg.phrase	Speed %d	Kasi %d
+msg.phrase	Preview %s	Sikiliza %s
+msg.phrase	Instrument %s %s	Ala %s %s
+msg.phrase	Overwrite %s? (Y/N)	Andika juu %s? (Y/N)
+msg.phrase	  F5          Play the song from the current order	  F5          Cheza wimbo kutoka mpangilio wa sasa
+msg.phrase	  F6          Play the current pattern	  F6          Cheza ruwaza ya sasa
+msg.phrase	  F7/Ctrl-C   Stop playback	  F7/Ctrl-C   Simamisha uchezaji
+msg.phrase	  Space       Play / stop	  Space       Cheza / simamisha
+msg.phrase	  F4          Save as	  F4          Hifadhi kama
+msg.phrase	  Ctrl-S      Save (asks for a name if new)	  Ctrl-S      Hifadhi (huuliza jina kama ni mpya)
+msg.phrase	  Ctrl-O      Open a song	  Ctrl-O      Fungua wimbo
+msg.phrase	  Ctrl-N      New song	  Ctrl-N      Wimbo mpya
+msg.phrase	  F12         Quit (confirmation if modified)	  F12         Toka (huthibitisha kama imebadilishwa)
+msg.phrase	  [ ]         Previous / next order entry	  [ ]         Ingizo la mpangilio lililopita / linalofuata
+msg.phrase	  { }         Insert / delete an order entry	  { }         Ingiza / futa ingizo la mpangilio
+msg.phrase	  - +         Change the pattern in the entry	  - +         Badilisha ruwaza kwenye ingizo
+msg.phrase	  F11         Follow playback (turns off on manual move)	  F11         Fuata uchezaji (huzima ukisogeza kwa mkono)
+msg.phrase	  F1          Help; Left/Right changes page	  F1          Msaada; Kushoto/Kulia hubadilisha ukurasa
+msg.phrase	  F8          Toggle edit mode	  F8          Washa/zima hali ya kuhariri
+msg.phrase	  Arrows      Move the cursor	  Mishale     Sogeza kiteuzi
+msg.phrase	  PgUp/PgDn   Jump 16 rows	  PgUp/PgDn   Ruka mistari 16
+msg.phrase	  Home/End    First / last row	  Home/End    Mstari wa kwanza / mwisho
+msg.phrase	  F9/F10      Octave down / up	  F9/F10      Oktava chini / juu
+msg.phrase	  Z S X D C V G B H N J M      lower piano row	  Z S X D C V G B H N J M      safu ya chini ya piano
+msg.phrase	  Q 2 W 3 E R 5 T 6 Y 7 U      upper piano row	  Q 2 W 3 E R 5 T 6 Y 7 U      safu ya juu ya piano
+msg.phrase	  1           Note off	  1           Zima noti
+msg.phrase	  0 / Del     0 clears note/inst/fx; Del clears any	  0 / Del     0 hufuta noti/ala/athari; Del hufuta chochote
+msg.phrase	  Ctrl-Z      Undo the last pattern/order edit	  Ctrl-Z      Tendua uhariri wa mwisho wa ruwaza/mpangilio
+msg.phrase	  Axy   Volume slide: up x, down y	  Axy   Telezesha sauti: juu x, chini y
+msg.phrase	  Cxx   Note cut after xx ticks	  Cxx   Kata noti baada ya tiki xx
+msg.phrase	  Dxx   Set volume (00..7F)	  Dxx   Weka sauti (00..7F)
+msg.phrase	  Fxx   Speed if xx < 20, otherwise BPM	  Fxx   Kasi kama xx < 20, vinginevyo BPM
+msg.phrase	  Hxy   Arpeggio x, y semitones	  Hxy   Arpeggio x, y nusu-toni
+msg.phrase	  Pxx   Pitch slide up	  Pxx   Telezesha kiwango juu
+msg.phrase	  Qxx   Pitch slide down	  Qxx   Telezesha kiwango chini
+msg.phrase	  F2 song settings, F3 instrument list	  F2 mipangilio ya wimbo, F3 orodha ya ala
+msg.phrase	HELP %d/2	MSAADA %d/2
+msg.phrase	  Title	  Kichwa
+msg.phrase	  BPM   : %d     (left/right -1/+1, -/+ -5/+5)	  BPM   : %d     (kushoto/kulia -1/+1, -/+ -5/+5)
+msg.phrase	  Speed : %d ticks/row	  Kasi  : tiki %d/mstari
+msg.phrase	  Rows  : %d (fixed)	  Mistari: %d (imewekwa)
+msg.phrase	  Order : %d entries	  Mpangilio: maingizo %d
+msg.phrase	  Patterns in use : %d	  Ruwaza zinazotumika : %d
+msg.phrase	Current instrument: %s %s	Ala ya sasa: %s %s
+msg.phrase	Files: %d	Faili: %d
+msg.phrase	SGNO TRACKER: incompatible SGX ABI\n	SGNO TRACKER: SGX ABI haioani\n
+msg.phrase	S: check: wait -- a file is being read or written	Ukaguzi wa S:: subiri -- faili inasomwa au kuandikwa
+msg.phrase	S: check: the drive is busy or not ready	Ukaguzi wa S:: diski ina shughuli au haiko tayari
+msg.phrase	nothing for this item (ContextMenu.cfg)	hakuna kitu kwa kipengee hiki (ContextMenu.cfg)
+msg.phrase	bad command in ContextMenu.cfg	amri mbaya kwenye ContextMenu.cfg
+msg.phrase	unknown action in ContextMenu.cfg	kitendo kisichojulikana kwenye ContextMenu.cfg
+msg.prefix	menu	menyu
+msg.phrase	5 Macro	5 Makro
+msg.phrase	6 Help	6 Msaada
+msg.phrase	Run current	Endesha ya sasa
+msg.phrase	Run the macro at the cursor (#! header cell and the cells below it)	Endesha makro kwenye kiteuzi (kisanduku cha kichwa #! na visanduku chini yake)
+msg.phrase	Run selection	Endesha uteuzi
+msg.phrase	Run the selected cells as one macro (top-left cell is the #! header)	Endesha visanduku vilivyochaguliwa kama makro moja (kisanduku cha juu kushoto ni kichwa #!)
+msg.phrase	Run all	Endesha zote
+msg.phrase	Run every macro in the sheet, top-left to bottom-right	Endesha kila makro kwenye laha, kutoka juu kushoto hadi chini kulia
+msg.phrase	Last error	Kosa la mwisho
+msg.phrase	Show the last macro error	Onyesha kosa la mwisho la makro
+msg.phrase	Macro	Makro
+msg.phrase	Macro: run #!ruby / #!python / #!basic cells	Makro: endesha visanduku vya #!ruby / #!python / #!basic
+msg.phrase	Edit the cell (F2)	Hariri kisanduku (F2)
+msg.phrase	Fit widths/heights to the contents	Linganisha upana/urefu na yaliyomo
+msg.phrase	Last macro error	Kosa la mwisho la makro
+msg.phrase	No macro error.	Hakuna kosa la makro.
+msg.phrase	IME on	IME imewashwa
+msg.phrase	IME off	IME imezimwa
+msg.phrase	Macro: %s %s ...	Makro: %s %s ...
+msg.phrase	%s: this firmware cannot run macros (SGX ABI 5.10 or later)	%s: programu dhibiti hii haiwezi kuendesha makro (SGX ABI 5.10 au zaidi)
+msg.phrase	Macro error: %s	Kosa la makro: %s
+msg.phrase	Macro: %s done	Makro: %s imekamilika
+msg.phrase	a macro is already running	makro tayari inaendeshwa
+msg.phrase	this language is not available	lugha hii haipatikani
+msg.phrase	not enough memory	kumbukumbu haitoshi
+msg.phrase	the macro stopped with an error	makro ilisimama kwa kosa
+msg.phrase	Macro error %s: %s	Kosa la makro %s: %s
+msg.phrase	Macro: not enough memory	Makro: kumbukumbu haitoshi
+msg.phrase	Macro: the cursor is not on a macro (a #!ruby / #!python / #!basic cell or the cells below it)	Makro: kiteuzi hakiko kwenye makro (kisanduku cha #!ruby / #!python / #!basic au visanduku chini yake)
+msg.phrase	Macro: no macro in the sheet	Makro: hakuna makro kwenye laha
+msg.phrase	Run all macros	Endesha makro zote
+msg.phrase	Macros: %d. Run them all, top-left to bottom-right? Changes cannot be undone.	Makro: %d. Ziendeshe zote, kutoka juu kushoto hadi chini kulia? Mabadiliko hayawezi kutenduliwa.
+msg.phrase	Macro: %d of %d done	Makro: %d kati ya %d zimekamilika
+msg.phrase	Cleared the cell	Kisanduku kimefutwa
+msg.phrase	Cleared the selection	Uteuzi umefutwa
+msg.phrase	Background colour = %d	Rangi ya usuli = %d
+msg.phrase	Text colour = %d	Rangi ya maandishi = %d
+msg.phrase	Graph: line	Grafu: mstari
+msg.phrase	Graph: bar	Grafu: pau
+msg.phrase	Graph: mixed	Grafu: mchanganyiko
+msg.phrase	Graph: pie	Grafu: pai
+msg.phrase	Exported %s	Imehamishwa %s
+msg.phrase	choose a file or folder	chagua faili au folda
+msg.phrase	this drive cannot be written	hifadhi hii haiwezi kuandikwa
+msg.phrase	an archive job is already running	kazi ya kumbukumbu inaendelea tayari
+msg.phrase	no PSRAM for the archive task	hakuna PSRAM ya kazi ya kumbukumbu
+msg.phrase	could not start the archive task	haikuweza kuanza kazi ya kumbukumbu
+msg.phrase	too many items (32 at most)	vipengee vingi mno (32 zaidi)
+msg.phrase	nothing to compress	hakuna cha kubana
+msg.phrase	no name (or the name has / or \\)	hakuna jina (au jina lina / au \\)
+msg.phrase	32 items at most (mark fewer, or put them in a folder)	vipengee 32 zaidi (weka alama vichache au viweke kwenye folda)
+msg.prefix	archive	kumbukumbu
+msg.prefix	compress	bana
+msg.prefix	render	hamisha WAV

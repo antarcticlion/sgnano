@@ -1,0 +1,373 @@
+# lv: machine translation (Google), unreviewed; 2026-11-17
+U001	Saraksts (faili un mapes 2 kolonnās x 19 rindas)
+U002	Pārvietot kursoru (pa kreisi/pa labi: otra kolonna)
+U003	Iepriekšējā lapa / nākamā lapa
+U004	Atzīmēt visu / apgriezt atzīmes (kā PC-98 FD)
+U005	Pirmais/pēdējais
+U006	Atzīmējiet un virzieties tālāk / tikai atzīmējiet
+U007	Shift+bultiņas
+U008	Atlasiet diapazonu (atstarpe apzīmē diapazonu)
+U009	Ievadiet mapi / atveriet failu (F2/X palaišana)
+U010	Līdz vecākmapei
+U011	Izvēlieties disku (USB, diskete, CD, S: iebūvēts)
+U012	Kopēt (Shift+C/Shift+F3 atlasa galamērķi no koka)
+U013	Pārvietot
+U014	Dzēst (Shift+D/Shift+F4 dzēst mapi)
+U015	Pārdēvēt
+U016	Mainiet atribūtus
+U017	Atveriet redaktorā
+U018	Skatīt kā tekstu (Shift+V/Ctrl+Alt+F7 hex)
+U019	Informācija par braucienu
+U020	Jauna mape / jauns fails
+U021	Shell sgsh / izstumt datu nesēju
+U022	Pārlādēt
+U023	Saglabājiet ekrānu kā PNG
+U024	Aizvērt logu / notīrīt atlasi (apakšmapē: iet uz augšu)
+U025	Failu darbības (kā FD: atzīmes, tad diapazons, tad kursors)
+U026	Kopēt: izvēlieties galamērķi no diska un mapju koka. ESC apstājas
+U027	Dzēst: apstipriniet ar y. Atzīmes un diapazoni uzreiz. Mapes ar to saturu
+U028	Dzēst mapi (ar tās saturu)
+U029	Pārdēvēt (rediģēt nosaukumu, ievadiet)
+U030	Atribūti: R tikai lasāms, H paslēpts, S sistēma, A arhīvs
+U031	Jauna mape
+U032	Jauns (tukšs) fails
+U033	Skatīt kā tekstu (Shift+V/Ctrl+Alt+F7 hex)
+U034	Shell sgsh (iziet / Ctrl-D atpakaļ uz failu failu)
+U035	Diska identitāte (INJAUCIJA, IDENTIFIKĀCIJA)
+U036	Izņemiet FDD / LS-120 / CD datu nesēju
+U037	Pārlādēt sarakstu (CD: no TOC)
+U038	Saņemt no datora, izmantojot ZMODEM (zm.sh put)
+U039	Sūtīt uz datoru, izmantojot ZMODEM (zm.sh get)
+U040	Kompilējiet .rb un ierakstiet .mrb
+U041	Ruby REPL (viena rindiņa vienlaikus, Ctrl-D / ESC līdz beigām)
+U042	MicroPython REPL
+U043	Sadalīt 4 MB daļās / pievienoties no .001
+U044	Sadalīt/pievienoties (tāds pats kā Ctrl+F11/F12)
+U045	Ekrāns (Alt+F, nesaskaras ar FD F taustiņiem)
+U046	Rādīt/slēpt FB (attēlu)/tekstu
+U047	FB parādīšanas lapa (0-3)
+U048	Notīriet FB līdz 0 / uz pusi samaziniet tā spilgtumu (RGB555)
+U049	USB galapunkti un LAN stāvoklis
+U050	Notīriet FB displeja lapu / uz pusi tās spilgtumu
+U051	Teksta atribūtu paraugi
+U052	Monitor EDID (lasīt sāknēšanas laikā)
+U053	Font ROM licences un kredīti
+U054	Iestatījumi (displeja valoda, IME un tastatūras lokalizācija)
+U055	Pulkstenis (Japānas laiku iestatījis NTP; s sinhronizē tagad)
+U056	Atvērt izklājlapu (SGCALC)
+U057	Pārbaudiet S: vai nav kļūdu (jautājiet pirms remonta)
+U058	Atveriet TRACKER
+U059	Reboot (vispirms jautā)
+U060	Atskaņojiet ADC stereo ieeju (GP40/41)
+U061	Eksportējiet VGM/VGZ uz 96 kHz / 24 bitu WAV
+U062	Šī palīdzība
+U063	Mainiet lapu
+U064	Aizvērt
+U065	Teksta/hex skatītājs (patīk mazāk)
+U066	Viena rinda
+U067	Viena lapa
+U068	Pusi lapas
+U069	Meklēt (uz priekšu / atpakaļ) / nākamais / iepriekšējais
+U070	Atpakaļ uz sarakstu (F1: skatītāja palīdzība)
+U071	Attēlu skatītājs
+U072	Atpakaļ uz sarakstu (F2 F3 F6 F7 Shift+F2 F3 darbojas)
+U073	Redaktors (E/Shift+F8)
+U074	Saglabāt (UTF-8; rinda beidzas un MK saglabāts)
+U075	Aizvērt (ja mainīts: J/N/ESC)
+U076	Ievietot / pārrakstīt
+U077	IME ieslēgšana/izslēgšana (japāņu/angļu/korejiešu)
+U078	IME valoda (japāņu/angļu/korejiešu)
+U079	Apņemties kā hiragana/katakana
+U080	Redaktora palīdzība
+U081	Apvalks
+U082	Shell (csh apakškopa. exit / Ctrl-D, lai atgrieztos, palīdz norādīt komandas)
+U083	Saraksts un pārvietošana
+U084	Failu darbības
+U085	Ekrāns un ierīces
+U086	Skatītāji un redaktors
+U087	Palīdzība %u / %u %s
+U088	Pa kreisi Pa labi: mainīt lapu F1 / ESC: aizvērt
+U089	Pārstartēt sgnano?
+U090	[ Reboot ]
+U091	[Atcelt]
+U092	Pārbaudiet, vai S: diskdzinī nav kļūdu
+U093	Faili %lu mapes %lu
+U094	Izmērs neatbilst ķēdei
+U095	Kopas, ko neizmanto nekas
+U096	Šķērssaistītas kopas
+U097	Bojāti ieraksti
+U098	Abas FAT kopijas atšķiras
+U099	Nav kļūdu.
+U100	Tika atrastas kļūdas. Vai tos salabot?
+U101	Remontēts (iepriekš minētie skaitļi tika fiksēti).
+U102	Nevarēja pārbaudīt vai salabot (S: ir aizņemts).
+U103	[Remonts]
+U104	[Atcelt]
+U105	Jebkura atslēga aizveras
+U106	Iestatījumi
+U107	Displeja valoda
+U108	Tastatūras lokalizācija
+U109	Uz augšu/Uz leju Ievadiet, izvēlieties ESC atcelt
+U110	Displeja valoda
+U111	Uz augšu / Uz leju Ievadiet: iestatiet ESC: atpakaļ
+U112	Labot %c: kā kurš burts? (A–Z, izņemot S. ESC atceļ)
+U113	Diska burts / Enter atlasiet F2 labot/atcelt burtu F3 labot kā... L / ESC atcelt
+U114	nodalījums %u
+U115	%c:* (fiksēts, nav pievienots) %04X:%04X%s %s
+U116	Paziņojums
+U117	Braukt %c: %s
+U118	Braukt (nav)
+U119	Audio CD %u ieraksti
+U120	Mapes %u faili %u kopā %s
+U121	Lasa...
+U122	* atzīmēts ar %u %s
+U123	%lu baiti
+U124	Attr %s modificēts %s izveidots %s %s
+U125	Sv
+U126	Pirmd
+U127	Otr
+U128	Tr
+U129	Ce
+U130	Piekt
+U131	sestdien
+U132	Pulkstenis nav iestatīts (NTP pa LAN)
+U133	FB displejs %u rakstīt %u
+U134	1 Palīdzība
+U135	2 Skrien
+U136	3 Kopēt
+U137	4 Del
+U138	5 Pārdēvēt
+U139	7 FBclr
+U140	8 FBdim
+U141	9 Braukt
+U142	10 EP
+U143	11 Pulkstenis
+U144	12 CALC
+U145	1 Attr
+U146	2 Informācija
+U147	3 Pārvietojieties
+U148	5 Mkdir
+U149	6 Apvalks
+U150	8 Rediģēt
+U151	9 Skats
+U152	10 S:chk
+U153	11 TRASES
+U154	12 Atsāknējiet
+U155	1 Jauns
+U156	2 Mape
+U157	3 Pārdēvēt
+U158	4 Atribūts
+U159	6 Kopēt
+U160	7 Pārvietojieties
+U161	8 Dzēst
+U162	9 Rediģēt
+U163	10 mrbc
+U164	11 Sadalīts
+U165	12 Pievienojieties
+U166	1 Attr
+U167	2 FB
+U168	3 Teksts
+U169	5 ScrSht
+U170	6 DispPg
+U171	9 ZMrecv
+U172	10ZMsend
+U173	2 FBClr
+U174	3 FBDim
+U175	5 Pārlādēt
+U176	7 Hex
+U177	9 Lic
+U178	11 Iestatīšana
+U179	Iestatiet pulksteni (Japānas laiks. NTP nevarēja iestatīt)
+U180	Palaist ar parametriem
+U181	Jauna mape
+U182	Jauns fails
+U183	Laiks:
+U184	Palaist:
+U185	Vārds:
+U186	GGGG-MM-DD hh:mm Ievadiet kopu ESC saglabāt
+U187	Ievadiet palaist <-> pārvietot BS / Del dzēst ESC atcelt
+U188	Ievadiet pārdēvēt <-> pārvietot BS / Del dzēst ESC atcelt
+U189	Ievadiet izveidot <-> pārvietot BS / Del delete ESC atcelt
+U190	Dzēst
+U191	preces
+U192	Mapes tiek dzēstas kopā ar to saturu. Vai esat pārliecināts?
+U193	Vai dzēst šo failu?
+U194	(To nevar atsaukt. Tiek dzēsti arī faili mapēs)
+U195	[Jā (Y)]
+U196	[Nē (N)]
+U197	hex skatītājs: izvēlieties failu
+U198	teksta skatītājs: izvēlieties failu
+U199	Pārvietot uz
+U200	Kopēt uz
+U201	Buferis ir pilns
+U202	Disks ir tikai lasāms
+U203	Nevar saglabāt (nav rakstītāja)
+U204	Nevarēja sākt saglabāšanu (disks ir aizņemts?)
+U205	Notiek saglabāšana...
+U206	2 Saglabāt
+U207	5 Krāsa
+U208	6 Hira
+U209	7 Kata
+U210	8 Pred
+U211	10 Aiziet
+U212	1 Augšpuse
+U213	2 Beigas
+U214	3 InsOvr
+U215	4 Dikts
+U216	6 HHira
+U217	7 HKata
+U218	%s %s Ln %lu/%lu Col %u %s %s %s%s%s
+U219	*mod
+U220	OVR
+U221	INS
+U222	R/O
+U223	Redaktors (sgnano rediģēt) F1 / ESC tiek aizvērts
+U224	Bultiņas / Sākuma beigas / PgUp PgDn pārvietojiet kursoru
+U225	Ctrl-T / Ctrl-B faila augšdaļa / beigas
+U226	BS / Dzēst dzēšanu pirms / kursora vietā
+U227	Ievadiet jaunu rindu (saglabā atkāpi)
+U228	Tab / Ins cilne / ievietošana vai pārrakstīšana
+U229	F5 krāsošana (no paplašinājuma; C/C++, mruby, MicroPython, SG BASIC, nav)
+U230	F2 (Ctrl-S) saglabāt (UTF-8, rindu beigas saglabātas)
+U231	F10 / ESC aizvērt (jautā, vai mainīts)
+U232	IME: Ctrl-Space / F12 ieslēgts / izslēgts (あ / A)
+U233	F9 IME valoda (tikai šis redaktors; atjaunots aizverot)
+U234	F8 japāņu jutīgā konvertēšana ieslēgta/izslēgta
+U235	Japāņu romaji -> hiragana (F6) / katakana (F7)
+U236	Pusplatuma hiragana (Shift+F6)/pusplatuma katakana (Shift+F7)
+U237	Paredzēt ar 2 vai vairāk rakstzīmēm, pārvērst nepārtrauktu klauzulu ar atstarpi
+U238	Jutīgā pabeigšana angļu valodā ar 2 vai vairāk rakstzīmēm
+U239	한국어 2 Bol stila hanguls
+U240	Atstarpe / Ievadiet Konvertēt / Apstiprināt
+U241	← → Izvēlieties frāzi
+U242	Shift+← → Samaziniet/palieliniet klauzulas labo galu par vienu rakstzīmi (jauni kandidāti)
+U243	↑ ↓ / Cilne Iepriekšējais / nākamais kandidāts uznirstošajā logā (zem teksta, augšā apakšā)
+U244	Ievadiet → → → Visi kandidāti (2 x 8, ← → kolonna un lapa, Enter izvēlas)
+U245	Ievadiet nākamo klauzulu (apstiprina visu pēdējo klauzulu)
+U246	Ctrl-U Pievienot pašreizējo vārdu lietotāja vārdnīcai
+U247	Shift+F1 / F2 / F3 / F4 Augšpusē / beigas / ievietot-pārrakstīt / lietotāja vārdnīcā
+U248	BS / ESC Atgriezties par vienu rakstzīmi atpakaļ / Atcelt
+U249	, . - [ ] / 、 。 ー 「 」 ・
+U250	Modificēts Y: saglabāt un aizvērt N: aizvērt, nesaglabājot ESC: atpakaļ
+U251	[Paredzēšana] Tab/↑↓: kandidāts Atstarpe: konvertēt Esc: atcelt
+U252	[Kandidāti] ↑↓: atlasiet ←→: kolonna/lapa Ievadiet: izvēlieties
+U253	[Konvertēt] ↑↓cand ←→klauzula Shift+←→iesaistīta Ievadiet nākamo
+U254	[한국어] Tab/↑↓: kandidāts Enter/Space: apstipriniet
+U255	[Latviski] Tab/↑↓: kandidāts Ievadiet: apstipriniet
+U256	2 kopu Hangul ievade Ctrl-Space: burtciparu
+U257	Paredzamā pabeigšana Ctrl-Space: tiešā ievade
+U258	Nav vārdnīcas: tikai hiragana/katakana F6/F7
+U259	Atstarpe: konvertēt F7: katakana Ctrl-Space: burtciparu
+U260	Atstarpe: konvertēt F6: hiragana Ctrl-Space: burtciparu
+U261	Pusplatums F6: hiragana F7: katakana Shift+F6/F7: puse
+U262	IME izslēgts
+U263	prognozēt
+U264	Jutīgais tulkojums japāņu valodā: Ieslēgts
+U265	Jutīgais tulkojums japāņu valodā: izslēgts
+U266	Izmantojiet ar japāņu IME
+U267	Nevar pievienot lietotāja vārdnīcai
+U268	Krāsošana: %s
+U269	Notiek ielāde...
+U270	Nevarēja nolasīt failu
+U271	%lu līnijas%s%s
+U272	Shift_JIS tika atvērts kā UTF-8 (saglabāts kā UTF-8)
+U273	tikai lasāms
+U274	Saglabāts
+U275	Nevarēja saglabāt (rakstīšana neizdevās)
+U276	Kandidāti
+U277	7 WrtPg
+U278	9 Teksts
+U279	9 Hex
+U280	Ielādē %lu%%
+U281	(tikai sākums)
+U282	Hex q ESC: atpakaļ F1: palīdzība
+U283	Teksts q ESC: atpakaļ F1: palīdzība
+U284	Skatītāja taustiņi (piemēram, mazāk; tas pats tekstam un sešstūrainam)
+U285	Vienu rindiņu uz leju
+U286	Viena rinda
+U287	Par vienu lapu uz leju
+U288	Viena lapa uz augšu
+U289	Pusi lapas uz leju/uz augšu
+U290	/teksts ?teksts
+U291	Meklēt uz leju/uz augšu (neņem vērā reģistru)
+U292	Nākamā / iepriekšējā spēle
+U293	Rādīt kā hex (tajā pašā vietā)
+U294	Rādīt kā tekstu (tajā pašā vietā)
+U295	Mainiet krāsu (C/C++, mruby, MicroPython, SG BASIC, nav)
+U296	Rādīt/slēpt FB/tekstu
+U297	FB parādīt lapu / rakstīšanas lapu
+U298	Atpakaļ pie faila
+U299	Aizveriet šo palīdzību
+U300	Kopēt
+U301	%s: mapju lasīšana... %u
+U302	%s: skaitot brīvo vietu galamērķī...
+U303	%s: galamērķī nav pietiekami daudz brīvas vietas
+U304	Pārvietot: avota mapju noņemšana
+U305	Gatavs
+U306	Apstājās
+U307	%s notiek%s
+U308	(apstājas)
+U309	No: %s
+U310	Kam: %s
+U311	Faili %u / %u mapes %u %s / %s (%u%%)%s
+U312	pārāk daudz: tikai daži
+U313	Nepieciešams %s, bezmaksas %s. Vai turpināt?
+U314	Y: turpināt N / ESC: atcelt
+U315	Lai aizvērtu, nospiediet jebkuru taustiņu
+U316	ESC: apstāties
+U317	%s: ←→ disks ↑↓ mape Atstarpe atvērt/aizvērt Ievadiet izvēlēties ESC atcelt
+U318	Nevar lasīt: %s
+U319	Notiek mapju lasīšana... (ESC apstājas) %u
+U320	%u mapes%s
+U321	(pārāk daudz vai pārāk dziļi: tikai daži)
+U322	Pārtraukta mapes atvēršana
+U323	Kosmoss to atkal atver. ESC vēlreiz tiek atcelts
+U324	SMF / SGT atskaņotājs %s
+U325	Notiek ielāde... %lu / %lu baiti
+U326	%s / %s %s porti %u
+U327	Pauzēts
+U328	Spēlē
+U329	Atstarpe: pauze m: MIDI OUT q / ESC: stop
+U330	q / ESC: atcelt
+U331	Font ROM licences un kredīti\n\nROM: %s (versija %lu.%lu, %lu rakstzīmes, no 0x%08lX zibatmiņā)
+U332	== Fonti ROM (ROM izcelsmes tabula) ==
+U333	(ROM nav tabulas)
+U334	== ROM kredītu apgabals ==
+U335	(nav tādas zonas)
+U336	== Iebūvētās programmatūras licences ==
+U337	Saglabā %s kā PNG %s
+U338	Ekrāns
+U339	Ēka... %lu / %lu rindas
+U340	Notiek rakstīšana... %lu / %lu KB (FB ir paslēpts)
+U341	Nevarēja uzrakstīt
+U342	Arhīva nosaukums (atzīmētie vienumi vai kursora vienums, ja tāda nav)
+U343	Ievadiet saspiest ←→ pārvietot BS / Del dzēst ESC atcelt
+U344	WAV eksportēšana: %s atcelta (%s)
+U345	WAV eksportēšana: %s neizdevās (%s)
+U346	WAV eksports: %s kopā %s
+U347	WAV eksports (96 kHz / 24 biti): %s
+U348	Atcelts
+U349	Neizdevās
+U350	Kopā %s
+U351	Atcelts (%s; daļējais fails tika izdzēsts)
+U352	Nevarēja eksportēt (%s). Iemesls:
+U353	(iemesls nav zināms)
+U354	%u%% pagājis %s%s
+U355	ESC: stop (daļējais fails tiek izdzēsts)
+U356	Arhīvs: %s
+U357	Notiek lasīšana... (lai atceltu ESC)
+U358	%u vienumi%s kopā %s baiti ekstrakts uz: %s
+U359	Ievadiet izvilkt vienumu X izvilkt visu ↑↓ pārvietot ESC aizvērt
+U360	Saspiest
+U361	Saraksts
+U362	Ekstrakts
+U363	Kopā %s %u preces
+U364	Kopā %s %u faili
+U365	Atcelts (%s; nepabeigtais fails tika izdzēsts)
+U366	Nevarēja to izdarīt (%s): %s
+U367	%u%% pagājuši %s %s baiti%s
+U368	pagājuši %s %s baiti%s
+U369	ESC: stop (nepabeigtais fails tiek izdzēsts)
+U370	Arhīvs: %s neizdevās (%s)
+U371	Saspiests: %s (%u vienumi)
+U372	Izvilkts: %s (%u faili)

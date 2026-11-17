@@ -1,0 +1,342 @@
+# Filipino (tl) — UI. Machine translation, unreviewed (2026-11-16)
+U001	Listahan (mga file at folder sa 2 hanay x 19 na linya)
+U002	Ilipat ang cursor (kaliwa / kanan: ang kabilang hanay)
+U003	Nakaraang pahina / susunod na pahina
+U004	Markahan lahat / baligtarin ang marka (gaya ng PC-98 FD)
+U005	Una / huli
+U006	Markahan at magpatuloy / markahan lang
+U007	Shift+mga arrow
+U008	Pumili ng saklaw (Space ang nagmamarka sa saklaw)
+U009	Pumasok sa folder / buksan ang file (F2/X patakbuhin)
+U010	Umakyat sa parent folder
+U011	Pumili ng drive (USB, floppy, CD, S: built-in)
+U012	Kopyahin (Shift+C / Shift+F3 pumili ng patutunguhan sa puno)
+U013	Ilipat
+U014	Burahin (Shift+D / Shift+F4 burahin ang folder)
+U015	Palitan ang pangalan
+U016	Baguhin ang mga katangian
+U017	Buksan sa editor
+U018	Tingnan bilang teksto (Shift+V / Ctrl+Alt+F7 hex)
+U019	Impormasyon ng drive
+U020	Bagong folder / bagong file
+U021	Shell sgsh / ilabas ang disk
+U022	I-reload
+U023	I-save ang screen bilang PNG
+U024	Isara ang window / alisin ang pinili (sa subfolder: umakyat)
+U025	Mga operasyon sa file (gaya ng FD: marka, saklaw, saka cursor)
+U026	Kopya: pumili ng patutunguhan sa puno ng drive at folder. ESC para huminto
+U027	Burahin: kumpirmahin sa y. Marka at saklaw nang sabay. Folder kasama ang laman
+U028	Burahin ang folder (kasama ang laman)
+U029	Palitan ang pangalan (i-edit ang pangalan, Enter)
+U030	Katangian: R read-only, H nakatago, S system, A archive
+U031	Bagong folder
+U032	Bagong (walang laman) na file
+U033	Tingnan bilang teksto (Shift+V / Ctrl+Alt+F7 hex)
+U034	Shell sgsh (exit / Ctrl-D pabalik sa filer)
+U035	Pagkakakilanlan ng drive (INQUIRY, IDENTIFY)
+U036	Ilabas ang disk ng FDD / LS-120 / CD
+U037	I-reload ang listahan (CD: mula sa TOC)
+U038	Tumanggap mula sa PC sa ZMODEM (zm.sh put)
+U039	Magpadala sa PC sa ZMODEM (zm.sh get)
+U040	I-compile ang .rb at isulat ang .mrb
+U041	Ruby REPL (isang linya bawat isa, Ctrl-D / ESC para tapusin)
+U042	MicroPython REPL
+U043	Hatiin sa 4 MB na bahagi / pagsamahin mula .001
+U044	Hatiin / pagsamahin (katulad ng Ctrl+F11 / F12)
+U045	Screen (Alt+F, hindi bumabangga sa mga F key ng FD)
+U046	Ipakita / itago ang FB (larawan) / ang teksto
+U047	Display page ng FB (0-3)
+U048	Burahin ang FB sa 0 / hatiin ang liwanag (RGB555)
+U049	Mga USB endpoint at estado ng LAN
+U050	Burahin ang display page ng FB / hatiin ang liwanag
+U051	Mga halimbawa ng katangian ng teksto
+U052	EDID ng monitor (binasa sa boot)
+U053	Mga lisensya at kredito ng font ROM
+U054	Mga setting (wika ng display, IME at keyboard locale)
+U055	Orasan (oras ng Japan sa NTP; s para i-sync ngayon)
+U056	Buksan ang spreadsheet (SGCALC)
+U057	Suriin ang S: sa error (nagtatanong bago ayusin)
+U058	Buksan ang TRACKER
+U059	I-reboot (nagtatanong muna)
+U060	I-play ang stereo input ng ADC (GP40 / 41)
+U061	I-export ang VGM/VGZ sa WAV na 96 kHz / 24-bit
+U062	Ang tulong na ito
+U063	Palitan ang pahina
+U064	Isara
+U065	Viewer ng teksto / hex (gaya ng less)
+U066	Isang linya
+U067	Isang pahina
+U068	Kalahating pahina
+U069	Maghanap (pasulong / paatras) / susunod / nakaraan
+U070	Balik sa listahan (F1: tulong ng viewer)
+U071	Viewer ng larawan
+U072	Balik sa listahan (gumagana ang F2 F3 F6 F7 Shift+F2 F3)
+U073	Editor (E / Shift+F8)
+U074	I-save (UTF-8; pinapanatili ang dulo ng linya at BOM)
+U075	Isara (kung binago: Y / N / ESC)
+U076	Insert / overwrite
+U077	IME on/off (Hapon / Ingles / Koreano)
+U078	Wika ng IME (Hapon / Ingles / Koreano)
+U079	Kumpirmahin bilang hiragana / katakana
+U080	Tulong ng editor
+U081	Shell
+U082	Shell (bahagi ng csh. exit / Ctrl-D pabalik, help para sa mga utos)
+U083	Listahan at paggalaw
+U084	Mga operasyon sa file
+U085	Screen at mga device
+U086	Mga viewer at ang editor
+U087	Tulong  %u / %u  %s
+U088	Kaliwa Kanan: palitan ang pahina    F1 / ESC: isara
+U089	I-reboot ang sgnano?
+U090	[ I-reboot ]
+U091	[ Kanselahin ]
+U092	Suriin ang S: drive sa error
+U093	File %lu  folder %lu
+U094	Hindi tugma ang laki sa chain
+U095	Mga cluster na walang gumagamit
+U096	Mga cross-linked na cluster
+U097	Mga sirang entry
+U098	Magkaiba ang dalawang kopya ng FAT
+U099	Walang error.
+U100	May nakitang error. Ayusin?
+U101	Naayos na (naitama ang mga numero sa itaas).
+U102	Hindi masuri o maayos (abala ang S:).
+U103	[ Ayusin ]
+U104	[ Kanselahin ]
+U105	Anumang key para isara
+U106	Mga setting
+U107	Wika ng display
+U108	Keyboard locale
+U109	Taas / Baba  Enter piliin  ESC kanselahin
+U110	Wika ng display
+U111	Taas / Baba  Enter: itakda  ESC: bumalik
+U112	Ayusin ang %c: bilang aling titik? (A-Z maliban sa S. ESC kanselahin)
+U113	Drive  titik / Enter piliin  F2 ayusin/alisin  F3 ayusin bilang...  L / ESC kanselahin
+U114	  partition %u
+U115	%c:* (nakapirmi, hindi nakakonekta) %04X:%04X%s  %s
+U116	Paunawa
+U117	Drive %c:  %s
+U118	Drive  (wala)
+U119	Audio CD  %u track
+U120	Folder %u  file %u  kabuuan %s
+U121	Nagbabasa...
+U122	* may marka %u  %s
+U123	%lu byte
+U124	Katangian %s   binago %s   ginawa %s   %s
+U125	Lin
+U126	Lun
+U127	Mar
+U128	Miy
+U129	Huw
+U130	Biy
+U131	Sab
+U132	Hindi pa nakatakda ang orasan (NTP sa LAN)
+U133	FB  display %u  sulat %u
+U134	1 Tulong
+U135	2 Takbo
+U136	3 Kopya
+U137	4 Bura
+U138	5 Ngalan
+U139	7 BuraFB
+U140	8 DimFB
+U141	9 Drive
+U142	10 EP
+U143	11 Oras
+U144	12 CALC
+U145	1 Katang
+U146	2 Info
+U147	3 Lipat
+U148	5 Folder
+U149	6 Shell
+U150	8 Edit
+U151	9 Tingin
+U152	10 S:chk
+U153	11 TRACK
+U154	12Reboot
+U155	1 Bago
+U156	2 Folder
+U157	3 Ngalan
+U158	4 Katang
+U159	6 Kopya
+U160	7 Lipat
+U161	8 Bura
+U162	9 Edit
+U163	10 mrbc
+U164	11 Hati
+U165	12 Sama
+U166	1 Katang
+U167	2 FB
+U168	3 Teksto
+U169	5 Kuha
+U170	6 Pahina
+U171	9 ZMtang
+U172	10 ZMpad
+U173	2 BuraFB
+U174	3 DimFB
+U175	5 Reload
+U176	7 Hex
+U177	9 Lisens
+U178	11 Setup
+U179	Itakda ang orasan (oras ng Japan. Hindi naitakda ng NTP)
+U180	Patakbuhin na may parameter
+U181	Bagong folder
+U182	Bagong file
+U183	Oras:
+U184	Takbo:
+U185	Pangalan:
+U186	YYYY-MM-DD hh:mm  Enter itakda  ESC panatilihin
+U187	Enter patakbuhin  <-> ilipat  BS / Del burahin  ESC kanselahin
+U188	Enter palitan  <-> ilipat  BS / Del burahin  ESC kanselahin
+U189	Enter gawin  <-> ilipat  BS / Del burahin  ESC kanselahin
+U190	Burahin
+U191	 item
+U192	Buburahin ang mga folder kasama ang laman. Sigurado ka ba?
+U193	Burahin ang file na ito?
+U194	(Hindi na maibabalik. Mabubura rin ang mga file sa loob ng folder)
+U195	[ Oo (Y) ]
+U196	[ Hindi (N) ]
+U197	hex viewer: pumili ng file
+U198	text viewer: pumili ng file
+U199	Ilipat sa
+U200	Kopyahin sa
+U201	Puno na ang buffer
+U202	Read-only ang drive
+U203	Hindi ma-save (walang writer)
+U204	Hindi masimulan ang pag-save (abala ang drive?)
+U205	Nagse-save...
+U206	2 Save
+U207	5 Kulay
+U208	6 Hira
+U209	7 Kata
+U210	8 Hula
+U211	10 Labas
+U212	1 Taas
+U213	2 Dulo
+U214	3 InsOvr
+U215	4 Diks
+U216	6 HHira
+U217	7 HKata
+U218	 %s  %s  Ln %lu/%lu Col %u  %s  %s %s%s%s
+U219	*binago
+U220	OVR
+U221	INS
+U222	  R/O
+U223	 Editor (sgnano edit)                        F1 / ESC isara
+U224	 Arrow / Home End / PgUp PgDn  ilipat ang cursor
+U225	 Ctrl-T / Ctrl-B               simula / dulo ng file
+U226	 BS / Del                      burahin bago / sa cursor
+U227	 Enter                         bagong linya (pinapanatili ang indent)
+U228	 Tab / Ins                     tab / insert o overwrite
+U229	 F5                            Kulay (mula sa extension; C/C++, mruby, MicroPython, SG BASIC, wala)
+U230	 F2  (Ctrl-S)                  i-save (UTF-8, pinapanatili ang dulo ng linya)
+U231	 F10 / ESC                     isara (nagtatanong kung binago)
+U232	 IME:  Ctrl-Space / F12        on / off (あ / A)
+U233	       F9                      wika ng IME (editor na ito lang; ibinabalik sa pagsara)
+U234	       F8 On/off ng predictive na conversion sa Hapon
+U235	       Hapon                   romaji -> hiragana (F6) / katakana (F7)
+U236	                               Half-width hiragana (Shift+F6) / half-width katakana (Shift+F7)
+U237	                               Hula mula 2 titik pataas, conversion ng magkakasunod na sugnay sa Space
+U238	       Ingles: predictive completion mula 2 titik pataas
+U239	       한국어 2-set na Hangul
+U240	       Space / Enter I-convert / Kumpirmahin
+U241	       ← → Pumili ng sugnay
+U242	       Shift+← → Paikliin/pahabain ang kanang dulo ng sugnay ng isang titik (bagong kandidato)
+U243	       ↑ ↓ / Tab               Nakaraan / susunod na kandidato sa popup (sa ilalim ng teksto, sa itaas kung malapit sa ibaba)
+U244	       Enter sa →→→            Lahat ng kandidato (2 x 8, ← → hanay at pahina, Enter pumili)
+U245	       Enter                   Susunod na sugnay (sa huli, kumpirmahin lahat)
+U246	       Ctrl-U Idagdag ang salita sa diksyunaryo ng user
+U247	 Shift+F1 / F2 / F3 / F4       Simula / dulo / insert-overwrite / sa diksyunaryo ng user
+U248	       BS / ESC Bumalik ng isang titik / Kanselahin
+U249	       , . - [ ] /             、 。 ー 「 」 ・
+U250	Binago  Y: i-save at isara  N: isara nang hindi sine-save  ESC: bumalik
+U251	[Hula] Tab/↑↓: kandidato  Space: i-convert  Esc: kanselahin
+U252	[Kandidato] ↑↓: pumili  ←→: hanay/pahina  Enter: kunin
+U253	[Convert] ↑↓kand ←→sugnay Shift+←→hangganan Enter sunod
+U254	[한국어] Tab/↑↓: kandidato  Enter/Space: kumpirmahin
+U255	[English] Tab/↑↓: kandidato  Enter: kumpirmahin
+U256	2-set na Hangul input  Ctrl-Space: alphanumeric
+U257	Predictive completion  Ctrl-Space: direktang input
+U258	Walang diksyunaryo: hiragana/katakana lang  F6/F7
+U259	Space: i-convert  F7: katakana  Ctrl-Space: alphanumeric
+U260	Space: i-convert  F6: hiragana  Ctrl-Space: alphanumeric
+U261	Half-width  F6: hiragana  F7: katakana  Shift+F6/F7: half
+U262	IME off
+U263	 hula
+U264	Predictive na conversion sa Hapon: On
+U265	Predictive na conversion sa Hapon: Off
+U266	Gamitin kasama ang Japanese IME
+U267	Hindi maidagdag sa diksyunaryo ng user
+U268	Kulay: %s
+U269	Naglo-load...
+U270	Hindi mabasa ang file
+U271	%lu linya%s%s
+U272	  binuksan ang Shift_JIS bilang UTF-8 (sine-save bilang UTF-8)
+U273	  read-only
+U274	Na-save
+U275	Hindi ma-save (nabigo ang pagsulat)
+U276	Mga kandidato
+U277	7 SulPg
+U278	9 Teksto
+U279	9 Hex
+U280	Naglo-load %lu%%
+U281	(simula lang)
+U282	Hex  q ESC: bumalik  F1: tulong
+U283	Teksto  q ESC: bumalik  F1: tulong
+U284	Mga key ng viewer (gaya ng less; pareho sa teksto at hex)
+U285	Pababa ng isang linya
+U286	Pataas ng isang linya
+U287	Pababa ng isang pahina
+U288	Pataas ng isang pahina
+U289	Pababa / pataas ng kalahating pahina
+U290	/teksto  ?teksto
+U291	Maghanap pababa / pataas (hindi pansin ang laki ng titik)
+U292	Susunod / nakaraang tugma
+U293	Ipakita bilang hex (sa parehong lugar)
+U294	Ipakita bilang teksto (sa parehong lugar)
+U295	Palitan ang kulay (C/C++, mruby, MicroPython, SG BASIC, wala)
+U296	Ipakita / itago ang FB / ang teksto
+U297	Display page / write page ng FB
+U298	Balik sa filer
+U299	Isara ang tulong na ito
+U300	Kopya
+U301	 %s: binabasa ang mga folder... %u
+U302	 %s: binibilang ang bakanteng espasyo sa patutunguhan...
+U303	 %s: kulang ang bakanteng espasyo sa patutunguhan
+U304	 Ilipat: inaalis ang mga pinagmulang folder
+U305	Tapos na
+U306	Huminto
+U307	 %s ginagawa%s
+U308	 (humihinto)
+U309	 Mula: %s
+U310	 Sa: %s
+U311	 File %u / %u  folder %u  %s / %s  (%u%%)%s
+U312	  sobrang dami: ilan lang
+U313	 Kailangan %s, bakante %s. Magpatuloy?
+U314	 Y: magpatuloy   N / ESC: kanselahin
+U315	 Pindutin ang anumang key para isara
+U316	 ESC: huminto
+U317	 %s: ←→ drive  ↑↓ folder  Space buksan/isara  Enter piliin  ESC kanselahin
+U318	 Hindi mabasa: %s
+U319	 Binabasa ang mga folder... (ESC humihinto)  %u
+U320	 %u folder%s
+U321	 (sobrang dami o lalim: ilan lang)
+U322	Itinigil ang pagbukas ng folder
+U323	Space para buksan muli. ESC muli para kanselahin
+U324	 SMF / SGT player   %s
+U325	 Naglo-load... %lu / %lu byte
+U326	 %s / %s   %s   port %u
+U327	Naka-pause
+U328	Tumutugtog
+U329	 Space: i-pause  m: MIDI OUT  q / ESC: ihinto
+U330	 q / ESC: kanselahin
+U331	Mga lisensya at kredito ng font ROM\n\nROM: %s (bersyon %lu.%lu, %lu titik, mula 0x%08lX sa flash)\n\n
+U332	== Mga font sa ROM (talaan ng pinagmulan ng ROM) ==\n
+U333	  (walang talaan ang ROM)\n
+U334	\n== Ang bahagi ng kredito ng ROM ==\n\n
+U335	(walang ganoong bahagi)\n
+U336	\n== Mga lisensya ng built-in na software ==\n
+U337	 Sine-save ang %s bilang PNG   %s
+U338	Screen
+U339	 Binubuo... %lu / %lu linya
+U340	 Nagsusulat... %lu / %lu KB (nakatago ang FB)
+U341	Hindi maisulat

@@ -1,0 +1,995 @@
+# Hausa (ha) — UI and messages. Machine translation, unreviewed (2026-11-16)
+U001	Jeri (fayiloli da manyan fayiloli a ginshiƙi 2 x layi 19)
+U002	Matsar da siginan kwamfuta (hagu / dama: ɗayan ginshiƙi)
+U003	Shafin baya / shafi na gaba
+U004	Yi wa duka alama / juya alamomi (kamar PC-98 FD)
+U005	Farko / ƙarshe
+U006	Yi alama ka ci gaba / yi alama kawai
+U007	Shift+kibiyoyi
+U008	Zaɓi kewayo (Space yana yi wa kewayo alama)
+U009	Shiga babban fayil / buɗe fayil (F2/X gudanar)
+U010	Hau zuwa babban fayil na sama
+U011	Zaɓi faifai (USB, faifan floppy, CD, S: na ciki)
+U012	Kwafa (Shift+C / Shift+F3 zaɓi inda za a kai daga bishiya)
+U013	Matsar
+U014	Share (Shift+D / Shift+F4 share babban fayil)
+U015	Sake suna
+U016	Canza halaye
+U017	Buɗe a editan rubutu
+U018	Duba a matsayin rubutu (Shift+V / Ctrl+Alt+F7 hex)
+U019	Bayanin faifai
+U020	Sabon babban fayil / sabon fayil
+U021	Shell sgsh / fitar da faifai
+U022	Sake lodawa
+U023	Ajiye allon a matsayin PNG
+U024	Rufe taga / cire zaɓi (a cikin ƙaramin babban fayil: hau sama)
+U025	Ayyukan fayil (kamar FD: alamomi, sannan kewayo, sannan siginan)
+U026	Kwafa: zaɓi inda za a kai daga bishiyar faifai da manyan fayiloli. ESC yana tsayarwa
+U027	Share: tabbatar da y. Alamomi da kewayo tare. Manyan fayiloli tare da abin da ke ciki
+U028	Share babban fayil (tare da abin da ke ciki)
+U029	Sake suna (gyara suna, Enter)
+U030	Halaye: R karatu kawai, H ɓoye, S tsarin, A taskar
+U031	Sabon babban fayil
+U032	Sabon fayil (fanko)
+U033	Duba a matsayin rubutu (Shift+V / Ctrl+Alt+F7 hex)
+U034	Shell sgsh (exit / Ctrl-D koma mai sarrafa fayil)
+U035	Asalin faifai (INQUIRY, IDENTIFY)
+U036	Fitar da faifan FDD / LS-120 / CD
+U037	Sake lodawa jeri (CD: daga TOC)
+U038	Karɓa daga PC ta ZMODEM (zm.sh put)
+U039	Aika zuwa PC ta ZMODEM (zm.sh get)
+U040	Haɗa .rb ka rubuta .mrb
+U041	REPL na Ruby (layi ɗaya a lokaci, Ctrl-D / ESC don gamawa)
+U042	REPL na MicroPython
+U043	Raba zuwa sassa na MB 4 / haɗa daga .001
+U044	Raba / haɗa (daidai da Ctrl+F11 / F12)
+U045	Allo (Alt+F, ba ya karo da maɓallan F na FD)
+U046	Nuna / ɓoye FB (hoto) / rubutu
+U047	Shafin nuni na FB (0-3)
+U048	Share FB zuwa 0 / rage haske rabi (RGB555)
+U049	Wuraren ƙarshe na USB da yanayin LAN
+U050	Share shafin nuni na FB / rage haske rabi
+U051	Misalan halayen rubutu
+U052	EDID na allo (an karanta lokacin kunnawa)
+U053	Lasisi da yabo na ROM ɗin rubutu
+U054	Saituna (harshen nuni, IME da tsarin madannai)
+U055	Agogo (lokacin Japan ta NTP; s yana daidaitawa yanzu)
+U056	Buɗe takardar lissafi (SGCALC)
+U057	Bincika kurakuran S: (yana tambaya kafin gyara)
+U058	Buɗe TRACKER
+U059	Sake kunnawa (yana tambaya da farko)
+U060	Kunna shigarwar sitiriyo ta ADC (GP40 / 41)
+U061	Fitar da VGM/VGZ zuwa WAV na kHz 96 / bit 24
+U062	Wannan taimako
+U063	Canza shafi
+U064	Rufe
+U065	Mai duba rubutu / hex (kamar less)
+U066	Layi ɗaya
+U067	Shafi ɗaya
+U068	Rabin shafi
+U069	Nema (gaba / baya) / na gaba / na baya
+U070	Koma jeri (F1: taimakon mai duba)
+U071	Mai duba hoto
+U072	Koma jeri (F2 F3 F6 F7 Shift+F2 F3 suna aiki)
+U073	Editan rubutu (E / Shift+F8)
+U074	Ajiye (UTF-8; ƙarshen layi da BOM suna nan)
+U075	Rufe (idan an canza: Y / N / ESC)
+U076	Saka / rubuta a kai
+U077	Kunna/kashe IME (Jafananci / Turanci / Koriya)
+U078	Harshen IME (Jafananci / Turanci / Koriya)
+U079	Tabbatar a matsayin hiragana / katakana
+U080	Taimakon editan rubutu
+U081	Shell
+U082	Shell (ɓangaren csh. exit / Ctrl-D don komawa, help yana jera umarni)
+U083	Jeri da motsi
+U084	Ayyukan fayil
+U085	Allo da na'urori
+U086	Masu duba da editan rubutu
+U087	Taimako  %u / %u  %s
+U088	Hagu Dama: canza shafi    F1 / ESC: rufe
+U089	Sake kunna sgnano?
+U090	[ Sake kunnawa ]
+U091	[ Soke ]
+U092	Bincika kurakuran faifan S:
+U093	Fayiloli %lu  manyan fayiloli %lu
+U094	Girma bai dace da sarka ba
+U095	Klastoci da babu abin da ke amfani da su
+U096	Klastoci masu haɗin giciye
+U097	Shigarwa da suka lalace
+U098	Kwafin FAT guda biyu sun bambanta
+U099	Babu kurakurai.
+U100	An sami kurakurai. A gyara su?
+U101	An gyara (an gyara lambobin da ke sama).
+U102	Ba a iya bincika ko gyarawa ba (S: tana aiki).
+U103	[ Gyara ]
+U104	[ Soke ]
+U105	Kowane maɓalli yana rufewa
+U106	Saituna
+U107	Harshen nuni
+U108	Tsarin madannai
+U109	Sama / Ƙasa  Enter zaɓi  ESC soke
+U110	Harshen nuni
+U111	Sama / Ƙasa  Enter: saita  ESC: koma
+U112	Kafa %c: a matsayin wane harafi? (A-Z ban da S. ESC soke)
+U113	Faifai  harafi / Enter zaɓi  F2 kafa/cire harafi  F3 kafa a matsayin...  L / ESC soke
+U114	  ɓangare %u
+U115	%c:* (an kafa, ba a haɗa ba) %04X:%04X%s  %s
+U116	Sanarwa
+U117	Faifai %c:  %s
+U118	Faifai  (babu)
+U119	CD na sauti  waƙoƙi %u
+U120	Manyan fayiloli %u  fayiloli %u  jimla %s
+U121	Ana karantawa...
+U122	* masu alama %u  %s
+U123	bayit %lu
+U124	Hali %s   an canza %s   an ƙirƙira %s   %s
+U125	Lah
+U126	Lit
+U127	Tal
+U128	Lar
+U129	Alh
+U130	Jum
+U131	Asa
+U132	Ba a saita agogo ba (NTP ta LAN)
+U133	FB  nuni %u  rubutu %u
+U134	1 Taimak
+U135	2 Gudu
+U136	3 Kwafa
+U137	4 Share
+U138	5 Suna
+U139	7 ShrFB
+U140	8 DuhuFB
+U141	9 Faifai
+U142	10 EP
+U143	11 Agogo
+U144	12 CALC
+U145	1 Hali
+U146	2 Bayani
+U147	3 Matsar
+U148	5 Jaka
+U149	6 Shell
+U150	8 Gyara
+U151	9 Duba
+U152	10 S:bin
+U153	11 TRACK
+U154	12 Kunna
+U155	1 Sabo
+U156	2 Jaka
+U157	3 Suna
+U158	4 Hali
+U159	6 Kwafa
+U160	7 Matsar
+U161	8 Share
+U162	9 Gyara
+U163	10 mrbc
+U164	11 Raba
+U165	12 Haɗa
+U166	1 Hali
+U167	2 FB
+U168	3 Rubutu
+U169	5 Hoto
+U170	6 Shafi
+U171	9 ZMkrɓ
+U172	10ZMaika
+U173	2 ShrFB
+U174	3 DuhuFB
+U175	5 Sake
+U176	7 Hex
+U177	9 Lasisi
+U178	11 Saiti
+U179	Saita agogo (lokacin Japan. NTP bai iya saitawa ba)
+U180	Gudanar da sigogi
+U181	Sabon babban fayil
+U182	Sabon fayil
+U183	Lokaci:
+U184	Gudu:
+U185	Suna:
+U186	YYYY-MM-DD hh:mm  Enter saita  ESC bar shi
+U187	Enter gudanar  <-> matsa  BS / Del share  ESC soke
+U188	Enter sake suna  <-> matsa  BS / Del share  ESC soke
+U189	Enter ƙirƙira  <-> matsa  BS / Del share  ESC soke
+U190	Share
+U191	 abubuwa
+U192	Za a share manyan fayiloli tare da abin da ke ciki. Ka tabbata?
+U193	Share wannan fayil?
+U194	(Ba za a iya maido wannan ba. Fayilolin da ke cikin manyan fayiloli ma za a share su)
+U195	[ Ee (Y) ]
+U196	[ A'a (N) ]
+U197	mai duba hex: zaɓi fayil
+U198	mai duba rubutu: zaɓi fayil
+U199	Matsar zuwa
+U200	Kwafa zuwa
+U201	Ma'ajiyar wucin gadi ta cika
+U202	Faifai na karatu ne kawai
+U203	Ba za a iya ajiyewa ba (babu marubuci)
+U204	Ba a iya fara ajiyewa ba (faifai yana aiki?)
+U205	Ana ajiyewa...
+U206	2 Ajiye
+U207	5 Launi
+U208	6 Hira
+U209	7 Kata
+U210	8 Hasash
+U211	10 Fita
+U212	1 Sama
+U213	2 Ƙarshe
+U214	3 Saka
+U215	4 Ƙamus
+U216	6 HHira
+U217	7 HKata
+U218	 %s  %s  Layi %lu/%lu Shafi %u  %s  %s %s%s%s
+U219	*an canza
+U220	KAI
+U221	SAKA
+U222	  Karatu kawai
+U223	 Editan rubutu (sgnano edit)                 F1 / ESC yana rufewa
+U224	 Kibiyoyi / Home End / PgUp PgDn  matsar da siginan
+U225	 Ctrl-T / Ctrl-B               farkon / ƙarshen fayil
+U226	 BS / Del                      share kafin / a siginan
+U227	 Enter                         sabon layi (yana riƙe da shigarwa)
+U228	 Tab / Ins                     tab / saka ko rubuta a kai
+U229	 F5                            Launi (daga tsawo; C/C++, mruby, MicroPython, SG BASIC, babu)
+U230	 F2  (Ctrl-S)                  ajiye (UTF-8, ƙarshen layi suna nan)
+U231	 F10 / ESC                     rufe (yana tambaya idan an canza)
+U232	 IME:  Ctrl-Space / F12        kunna / kashe (あ / A)
+U233	       F9                      harshen IME (wannan editan kawai; ana maidowa idan an rufe)
+U234	       F8 Kunna/kashe juyawar hasashe ta Jafananci
+U235	       Jafananci               romaji -> hiragana (F6) / katakana (F7)
+U236	                               Hiragana rabin faɗi (Shift+F6) / katakana rabin faɗi (Shift+F7)
+U237	                               Hasashe daga haruffa 2 ko fiye, juya jumloli a jere da Space
+U238	       Turanci: kammalawar hasashe daga haruffa 2 ko fiye
+U239	       한국어 Hangul na saiti 2
+U240	       Space / Enter Juya / Tabbatar
+U241	       ← → Zaɓi jumla
+U242	       Shift+← → Rage/ƙara ƙarshen dama na jumla da harafi ɗaya (sababbin zaɓuɓɓuka)
+U243	       ↑ ↓ / Tab               Zaɓi na baya / na gaba a taga (ƙarƙashin rubutu, sama idan kusa da ƙasa)
+U244	       Enter a kan →→→         Duk zaɓuɓɓuka (2 x 8, ← → ginshiƙi da shafi, Enter zaɓi)
+U245	       Enter                   Jumla ta gaba (a ta ƙarshe tana tabbatar da duka)
+U246	       Ctrl-U Ƙara kalmar yanzu zuwa ƙamus na mai amfani
+U247	 Shift+F1 / F2 / F3 / F4       Farko / ƙarshe / saka-rubuta a kai / zuwa ƙamus na mai amfani
+U248	       BS / ESC Koma harafi ɗaya / Soke
+U249	       , . - [ ] /             、 。 ー 「 」 ・
+U250	An canza  Y: ajiye ka rufe  N: rufe ba tare da ajiyewa ba  ESC: koma
+U251	[Hasashe] Tab/↑↓: zaɓi  Space: juya  Esc: soke
+U252	[Zaɓuɓɓuka] ↑↓: zaɓi  ←→: ginshiƙi/shafi  Enter: ɗauka
+U253	[Juya] ↑↓zaɓi ←→jumla Shift+←→iyaka Enter gaba
+U254	[한국어] Tab/↑↓: zaɓi  Enter/Space: tabbatar
+U255	[English] Tab/↑↓: zaɓi  Enter: tabbatar
+U256	Shigar da Hangul saiti 2  Ctrl-Space: haruffa da lambobi
+U257	Kammalawar hasashe  Ctrl-Space: shigarwa kai tsaye
+U258	Babu ƙamus: hiragana/katakana kawai  F6/F7
+U259	Space: juya  F7: katakana  Ctrl-Space: haruffa da lambobi
+U260	Space: juya  F6: hiragana  Ctrl-Space: haruffa da lambobi
+U261	Rabin faɗi  F6: hiragana  F7: katakana  Shift+F6/F7: rabi
+U262	IME a kashe
+U263	 hasashe
+U264	Juyawar hasashe ta Jafananci: A kunne
+U265	Juyawar hasashe ta Jafananci: A kashe
+U266	Yi amfani da IME na Jafananci
+U267	Ba za a iya ƙarawa zuwa ƙamus na mai amfani ba
+U268	Launi: %s
+U269	Ana lodawa...
+U270	Ba a iya karanta fayil ba
+U271	layi %lu%s%s
+U272	  an buɗe Shift_JIS a matsayin UTF-8 (ana ajiyewa a UTF-8)
+U273	  karatu kawai
+U274	An ajiye
+U275	Ba a iya ajiyewa ba (rubutu ya kasa)
+U276	Zaɓuɓɓuka
+U277	7 ShafiR
+U278	9 Rubutu
+U279	9 Hex
+U280	Ana lodawa %lu%%
+U281	(farko kawai)
+U282	Hex  q ESC: koma  F1: taimako
+U283	Rubutu  q ESC: koma  F1: taimako
+U284	Maɓallan mai duba (kamar less; iri ɗaya ga rubutu da hex)
+U285	Layi ɗaya ƙasa
+U286	Layi ɗaya sama
+U287	Shafi ɗaya ƙasa
+U288	Shafi ɗaya sama
+U289	Rabin shafi ƙasa / sama
+U290	/rubutu  ?rubutu
+U291	Nema ƙasa / sama (ba ruwanta da babban harafi)
+U292	Dacewa ta gaba / ta baya
+U293	Nuna a matsayin hex (a wuri ɗaya)
+U294	Nuna a matsayin rubutu (a wuri ɗaya)
+U295	Canza launi (C/C++, mruby, MicroPython, SG BASIC, babu)
+U296	Nuna / ɓoye FB / rubutu
+U297	Shafin nuni / shafin rubutu na FB
+U298	Koma mai sarrafa fayil
+U299	Rufe wannan taimako
+U300	Kwafa
+U301	 %s: ana karanta manyan fayiloli... %u
+U302	 %s: ana ƙirga sarari a inda za a kai...
+U303	 %s: sarari bai isa ba a inda za a kai
+U304	 Matsar: ana cire manyan fayilolin tushe
+U305	An gama
+U306	An tsaya
+U307	 %s yana gudana%s
+U308	 (yana tsayawa)
+U309	 Daga: %s
+U310	 Zuwa: %s
+U311	 Fayiloli %u / %u  manyan fayiloli %u  %s / %s  (%u%%)%s
+U312	  sun yi yawa: wasu kawai
+U313	 Ana buƙatar %s, sarari %s. A ci gaba?
+U314	 Y: ci gaba   N / ESC: soke
+U315	 Danna kowane maɓalli don rufewa
+U316	 ESC: tsaya
+U317	 %s: ←→ faifai  ↑↓ babban fayil  Space buɗe/rufe  Enter zaɓi  ESC soke
+U318	 Ba za a iya karantawa ba: %s
+U319	 Ana karanta manyan fayiloli... (ESC yana tsayarwa)  %u
+U320	 manyan fayiloli %u%s
+U321	 (sun yi yawa ko zurfi: wasu kawai)
+U322	An daina buɗe babban fayil
+U323	Space yana sake buɗe shi. ESC sau ɗaya kuma yana sokewa
+U324	 Mai kunna SMF / SGT   %s
+U325	 Ana lodawa... %lu / %lu bayit
+U326	 %s / %s   %s   tashoshi %u
+U327	An dakata
+U328	Ana kunnawa
+U329	 Space: dakata  m: MIDI OUT  q / ESC: tsaya
+U330	 q / ESC: soke
+U331	Lasisi da yabo na ROM ɗin rubutu\n\nROM: %s (siga %lu.%lu, haruffa %lu, daga 0x%08lX a flash)\n\n
+U332	== Rubutu a cikin ROM (teburin asalin ROM) ==\n
+U333	  (ROM ba ta da tebur)\n
+U334	\n== Yankin yabo na ROM ==\n\n
+U335	(babu irin wannan yanki)\n
+U336	\n== Lasisin manhajoji na ciki ==\n
+U337	 Ana ajiye %s a matsayin PNG   %s
+U338	Allo
+U339	 Ana ginawa... layi %lu / %lu
+U340	 Ana rubutawa... %lu / %lu KB (an ɓoye FB)
+U341	Ba a iya rubutawa ba
+M001	an cire faifai
+M002	ana sake karanta ɓangarori...
+M003	ba a iya buɗe juzu'i ba (ƙwaƙwalwa ba ta isa ba?)
+M004	ana buɗe juzu'i...
+M005	ƙwaƙwalwa ba ta isa ga jerin fayiloli ba
+M006	ana karanta babban fayil... (ana sake gwadawa)
+M007	ba a iya karanta babban fayil ba
+M008	ana karanta babban fayil...
+M009	faifai bai amsa ba -- ana sake karanta ɓangarori
+M010	ba a iya karanta babban fayil ba (ba FAT12/16/32 ba?)
+M011	shigarwa sun yi yawa -- ana nuna na farko
+M012	babu tsarin fayil a wannan ɓangare
+M013	hanya ta yi tsayi da yawa
+M014	ana haɗawa...
+M015	ana rabawa...
+M016	ana sake suna...
+M017	ana ƙirƙirar babban fayil...
+M018	ana ƙirƙirar fayil...
+M019	ana sharewa...
+M020	ana rubuta halaye...
+M021	faifai yana aiki
+M022	yana aiki
+M023	zaɓi fayiloli ko manyan fayiloli
+M024	zaɓi fayiloli ko manyan fayiloli (ba "..")
+M025	tsayar da CD da farko
+M026	ba za a iya canza CD ba (kwafa a maimakon haka)
+M027	ba za a iya matsar da babban fayil na tsarin ba
+M028	babu faifai da za a iya rubutawa (FAT / exFAT / NTFS kawai)
+M029	faifai ya tafi
+M030	ba a zaɓi komai ba
+M031	ba a zaɓi komai ba
+M032	ba a iya farawa ba
+M033	ba a iya buɗewa ba
+M034	a faifan FAT / exFAT / NTFS kawai
+M035	babu suna
+M036	sunan nan ya riga ya wanzu
+M037	ba a iya farawa ba (mummunan suna ko faifai yana aiki)
+M038	ba a iya farawa ba (faifai yana aiki)
+M039	suna ba zai iya ƙunsar / ko \\ ba (a cikin wannan babban fayil kawai)
+M040	sunan iri ɗaya ne
+M041	abun na karatu ne kawai (A don canzawa)
+M042	zaɓi fayil .rb a faifan da za a iya rubutawa
+M043	zaɓi fayil .rb
+M044	faifai na karatu ne kawai
+M045	zaɓi babban fayil a faifan da za a iya rubutawa
+M046	jira kaɗan
+M047	zaɓi fayil
+M048	zaɓi fayil (ba babban fayil ba)
+M049	zaɓi fayil .001
+M050	zaɓi fayil ɗin .001
+M051	saka IWAD a babban fayil na DoomFiles ko Doom2Files
+M052	DoomFiles yana karɓar freedoom1 / doom / doomu / doom1.wad
+M053	Doom2Files yana karɓar freedoom2 / doom2 / plutonia / tnt.wad
+M054	saka fayilolin wasa a ma'ajiyar waje, ba S: ba
+M055	IWAD dole ne ta kasance a faifan FAT / exFAT / NTFS (ba CD ba)
+M056	har yanzu yana aiki
+M057	ana loda hoto
+M058	babu framebuffer
+M059	rage haske rabi yana aiki da RGB555 kawai
+M060	ana sharewa...
+M061	ana rage haske rabi...
+M062	wannan waƙar bayanai ce
+M063	jira -- ana rubuta fayil
+M064	faifan floppy / LS-120 / CD kawai
+M065	an nema
+M066	ana karanta faifai...
+M067	ana tsayawa...
+M068	ana buɗewa...
+M069	an gama
+M070	ƙwaƙwalwa ba ta isa ba
+M071	an riga an buɗe
+M072	yana gudana tuni
+M073	ana ajiyewa tuni
+M074	ana kunnawa tuni
+M075	babu irin wannan faifai
+M076	babu PSRAM
+M077	PSRAM ba ta isa ga fayil ba
+M078	PSRAM ba ta isa ga fihirisar layi ba
+M079	PSRAM ba ta isa ga tashar rubutu ba
+M080	ƙwaƙwalwa ba ta isa ba (PSRAM)
+M081	ƙwaƙwalwa ba ta isa ba (SRAM 32KB)
+M082	ƙwaƙwalwa ba ta isa ga ma'ajiyar wucin gadi ba
+M083	ƙwaƙwalwa ba ta isa ga ma'ajiyar hotuna ba
+M084	ƙwaƙwalwa ba ta isa ga ma'ajiyar karatu ba
+M085	babu wurin ƙwaƙwalwar aiki (rufe lowres?)
+M086	babu shafin framebuffer
+M087	ya yi girma da yawa (MB 4 mafi yawa)
+M088	fayil ya yi girma da yawa (MB 1 mafi yawa)
+M089	fayil ya yi girma da yawa (MB 1 mafi yawa)
+M090	ya yi girma da yawa ga SMF (MB 1 mafi yawa)
+M091	fayil fanko ne
+M092	ba a iya buɗe fayil ba
+M093	ba a iya karanta fayil ba
+M094	ba a iya buɗe juzu'i ba
+M095	ba a iya buɗe inda za a kai ba (ƙwaƙwalwa ba ta isa ba?)
+M096	ba a iya karanta babban fayil na tushe ba
+M097	ba a iya fara aiki ba
+M098	ba a iya fara rubutu ba (mummunan suna ko yana aiki)
+M099	wani juzu'i yana buɗe (yana aiki)
+M100	ana kwafa
+M101	babban fayil ba zai iya shiga cikin kansa ba
+M102	wannan babban fayil ɗaya ne
+M103	ba za a iya canza wannan faifai ba (karatu kawai)
+M104	ba za a iya rubuta a faifai ba
+M105	girman sashe dole ya zama ninkin 512
+M106	ba a tallafa wa fayiloli na GB 4 ko fiye ba
+M107	mummunar hanya
+M108	mummunan sunan fayil
+M109	ROM ɗin rubutu ba ya nan
+M110	ba a buɗe sauti ba
+M111	babu irin wannan tasha
+M112	mai jerawa yana aiki
+M113	PSRAM ba ta isa ga waƙa ba
+M114	ba daidaitaccen fayil na MIDI ba (babu MThd)
+M115	babu waƙoƙi
+M116	wata waƙa ta lalace (MTrk)
+M117	ba a tallafa wa rabon lokaci na SMPTE ba
+M118	ba a tallafa wa tsarin SMF 2 ba (0 da 1 kawai)
+M119	ba faifan Bulk-Only ba
+M120	ba faifan haske ba
+M121	ba za a iya share ko sake sunan babban fayil na tsarin ba
+M122	babu faifai a ciki
+M123	yana shiryawa
+M124	bai shirya ba
+M125	an canza faifai
+M126	kuskuren faifai
+M127	buƙatar da ba ta dace ba
+M128	mummunar shigarwar babban fayil
+M129	wani babban fayil a hanya bai wanzu ba
+M130	akwai fayil da wannan suna
+M131	akwai babban fayil da wannan suna
+M132	wani suna a hanya ba babban fayil ba ne
+M133	an soke
+M134	ba a iya ɗorawa ba
+M135	ba a iya fara karatu ba
+M136	ba a iya fara rubutu ba
+M137	babban fayil ne
+M138	wannan babban fayil ne
+M139	babu klastoci
+M140	babu wuri ga jerin klastoci
+M141	babu irin wannan fayil ko babban fayil
+M142	babu irin wannan fayil
+M143	babu juzu'i
+M144	ba NTFS ba
+M145	ba exFAT ba
+M146	ba babban fayil ba
+M147	ba a samu ba
+M148	kuskuren karatu
+M149	kuskuren rubutu
+M150	karanta FAT ya kasa
+M151	sarkar klastoci ta fi fayil gajarta
+M152	babban fayil ba fanko ba ne
+M153	faifai ya cika
+M154	faifai bai amsa ba
+M155	fayil na karatu ne kawai
+M156	fayil ya rarrabu da yawa
+M157	fayil ya yi girma da yawa (GB 4)
+M158	sabon suna ya riga ya wanzu
+M159	babban fayil na tushe ya cika
+M160	fayiloli da yawa masu gajeren suna ɗaya
+M161	Babu irin wannan fayil ko babban fayil
+M162	Fayil ya riga ya wanzu
+M163	An hana izini
+M164	Babban fayil ba fanko ba ne
+M165	Ba babban fayil ba
+M166	Babban fayil ne
+M167	Tsarin fayil na karatu kawai
+M168	Babu sauran sarari a na'ura
+M169	Kuskuren shigarwa/fitarwa
+M170	Ba a tallafa a wannan faifai ba
+M171	Hanya mara inganci
+M172	Ƙwaƙwalwa ta ƙare
+M173	Babu irin wannan faifai
+M174	an tsaya
+M175	an soke (sarari bai isa ba)
+M176	ba a iya ƙirga sarari ba
+M177	mai karɓa ya soke
+M178	babu mai karɓa (gudanar da rz a PC)
+M179	ana amfani da UART na na'ura mai kwakwalwa
+M180	yanayin allo ya canza
+M181	layukan ba su zo ba (allo yana aiki?)
+M182	kwafa
+M183	matsar
+M184	share
+M185	sake suna
+M186	halaye
+M187	sabon fayil
+M188	sabon babban fayil
+M189	hoto
+M190	mrbc
+M191	ruby
+M192	mai duba
+M193	gyara
+M194	IDENTIFY
+M195	ZMODEM
+M196	ZMODEM karɓa
+M197	ZMODEM aika
+M198	raba
+M199	haɗa
+M200	Doom
+M201	SMF
+M202	CD
+M203	FB
+M204	Fitar
+M205	sake kunnawa
+M206	lasisi
+M207	agogo
+M208	ADC shigarwa
+M209	allo -> PNG
+M210	FB -> PNG
+M211	ba a iya buɗe juzu'i ba
+M212	an karɓi %s
+M213	an aika %s
+M214	an ajiye %s
+M215	an ƙirƙira %s
+M216	an sake suna zuwa %s
+M217	an share %s
+M218	an canza %s
+M219	an haɗa %s
+M220	an raba %s
+M221	ba a iya ƙirƙirar %s ba
+M222	ba a iya share %s ba
+M223	ba a iya sake suna zuwa %s ba
+M224	ba a iya canza %s ba
+M225	ba a iya karanta %s ba
+M226	ba a iya rubuta %s ba
+M227	ba a iya kwafa %s ba
+M228	ba a iya yin %s ba
+M229	ba a iya cire babban fayil %s ba
+M230	ba a iya cire %s ba
+M231	ƙwaƙwalwa ba ta isa ga %s ba
+M232	kurakurai sun yi yawa yayin aika %s
+M233	mai karɓa bai karɓi %s ba
+M234	mai karɓa ya tsallake %s
+M235	Shafin FB %s
+M236	 bayit kowanne)
+M237	 bayit)
+M238	 KB)
+M239	 sassa zuwa
+M240	 sassa (
+M241	 zuwa
+M242	: an share
+M243	: an rage haske rabi
+M244	% an karanta
+M245	 layi
+M246	 -- ba a tallafa ba tukuna (FAT / exFAT / NTFS kawai)
+M247	 fayiloli
+M248	 (
+M249	Mara suna
+M250	1 Fayil
+M251	2 Gyara
+M252	3 Jadawali
+M253	4 Takarda
+M254	5 Taimako
+M255	FANKO
+M256	LAMBA
+M257	RUBUTU
+M258	DABARA
+M259	Rubuta don shigarwa, F2 don gyara, F1 don taimako
+M265	A shirye
+M267	Danna kowane maɓalli
+M268	Y = ee    N = a'a    Esc = soke
+M269	Enter = To    Esc = soke    Ctrl-U = share
+M270	Layi/ginshiƙi na farko = lakabi; jadawali suna amfani da FB CLUT8 640x480.
+M271	SGCALC - TAIMAKO
+M272	Danna kowane maɓalli don komawa
+M273	Danna kowane maɓalli don komawa.
+M274	GAME DA SGCALC
+M275	Sabo
+M276	Fara sabuwar takarda
+M277	Buɗe...
+M278	Buɗe fayil na ODS, FODS ko CSV
+M279	Ajiye
+M280	Ajiye fayil na yanzu
+M281	Ajiye a matsayin...
+M282	Ajiye da sabon suna ko tsari
+M283	Fitar da CSV...
+M284	Rubuta kwafin CSV
+M285	Fitar da ODS...
+M286	Rubuta kwafin LibreOffice
+M287	Fita
+M288	Bar SGCALC
+M289	Share
+M290	Share ƙwayoyin da aka zaɓa
+M291	Kwafa
+M292	Kwafa zaɓi
+M293	Liƙa
+M294	Liƙa a siginan
+M295	Yanke
+M296	Kwafa ka share zaɓi
+M297	Zaɓi duka
+M298	Zaɓi duk ƙwayoyin da aka yi amfani da su
+M299	Launin rubutu...
+M300	Zaɓi launin rubutu
+M301	Bango...
+M302	Zaɓi bangon ƙwaya
+M303	Layi
+M304	Zana jadawalin layi daga zaɓi
+M305	Sanda
+M306	Zana jadawalin sanda daga zaɓi
+M307	Gauraye
+M308	Sanduna ga jeri na farko, layuka ga sauran
+M309	Ƙeƙe
+M310	Zana jadawalin ƙeƙe daga zaɓi
+M311	Kewayo...
+M312	Saita kewayon jadawali a sarari
+M313	Sake zana
+M314	Sake zana jadawalin ƙarshe
+M315	Je zuwa...
+M316	Tsalle zuwa ƙwaya (misali C12)
+M317	Faɗin ginshiƙi...
+M318	Canza faɗin ginshiƙan da aka zaɓa
+M319	Tsayin layi...
+M320	Canza tsayin layukan da aka zaɓa
+M321	Daidaita kai tsaye
+M322	Daidaita faɗi/tsayi da abin da ke ciki (F7)
+M323	Sake lissafi
+M324	Sake kimanta duk dabaru
+M325	Share duka
+M326	Share takardar gaba ɗaya
+M327	Maɓallai
+M328	Nuna jagorar maɓallai
+M329	Game da
+M330	Game da SGCALC
+M331	Fayil
+M332	Gyara
+M333	Jadawali
+M334	Takarda
+M335	Taimako
+M336	Fayil: sabo, buɗe, ajiye, fitar, fita
+M337	Gyara: share, kwafa, liƙa, yanke, zaɓi duka
+M338	Jadawali: layi, sanda, gauraye, ƙeƙe (ana zanawa a FB)
+M339	Takarda: je zuwa, faɗin ginshiƙi, sake lissafi, share
+M340	Taimako: maɓallai da game da
+M341	Hagu/Dama = menu    Sama/Ƙasa = abu    Enter = zaɓi    Esc = soke
+M342	An soke
+M343	Zaɓi ya yi girma da yawa ko ƙwaƙwalwa ta yi ƙasa.
+M344	ƙwayar
+M345	zaɓin
+M346	Babu abin liƙawa
+M347	An liƙa
+M348	JE ZUWA ƘWAYA
+M349	Nunin ƙwaya (A1):
+M350	Je zuwa
+M351	FAƊIN GINSHIƘI
+M352	Faɗi a haruffa (4..30):
+M353	TSAYIN LAYI
+M354	Tsayi a layukan rubutu (1..8):
+M355	Daidaita kai tsaye: takarda fanko ce
+M356	LAUNIN BANGO
+M357	LAUNIN RUBUTU
+M358	Kibiyoyi: zaɓi    Enter: aiwatar    Esc: soke
+M359	Lambar launi (launuka 16 na PC-98)
+M361	Enter = aiwatar    Esc = soke
+M362	Launi
+M363	Bango
+M364	Rubutu
+M365	KEWAYON JADAWALI
+M366	Kewayo (misali A1:C10):
+M367	Kewayon jadawali
+M368	Yi amfani da kewayo kamar A1:C10.
+M369	Ba za a iya zana jadawali ba.
+M370	layi
+M371	sanda
+M372	gauraye
+M373	ƙeƙe
+M374	Share kowace ƙwaya a wannan takarda?
+M375	An share takarda
+M376	An zaɓi duk ƙwayoyin da aka yi amfani da su
+M377	An sake lissafi
+M378	Ƙwaƙwalwa
+M379	PSRAM ba ta isa ga takardar lissafi ba.
+M380	Takarda fanko ce.
+M381	Babu bayanan lamba a kewayon da aka zaɓa.
+M382	Wani
+M383	Babu ƙima mai kyau ga jadawalin ƙeƙe
+M384	LAYI
+M385	SANDA
+M386	GAURAYE
+M387	ƘEƘE
+M389	Babban fayil
+M390	AJIYE A MATSAYIN
+M391	BUƊE FAYIL
+M394	Suna:
+M395	(rubuta suna, ko zaɓi a ƙasa)
+M396	Suna
+M397	Girma
+M398	Enter=ajiye  Hagu=sama  Dama/Enter a [DIR]=buɗe  Tab=faifai  Esc=soke
+M399	Enter=buɗe  Hagu=sama  Dama/Enter a [DIR]=buɗe  Tab=faifai  Esc=soke
+M400	Ƙwaƙwalwa ba ta isa ba.
+M401	Rubuta a kai
+M402	Buɗe
+M403	Fayil ya yi girma da yawa (iyaka MB 8).
+M404	Ƙwaƙwalwa ba ta isa don karanta fayil ba.
+M405	Mummunan bayanan ZIP/ODS.
+M406	Kuskuren CRC a fayil na ODS.
+M407	Fayil ba a tallafa ba ko ya lalace.
+M408	An ajiye
+M409	An fitar
+M410	Canje-canje da ba a ajiye ba
+M411	A ajiye takardar yanzu kafin a ci gaba?
+M412	Sabuwar takarda
+M415	waƙa ta yi girma da yawa
+M416	fayil fanko
+M417	ba fayil na SGT ba
+M418	mummunan BPM
+M419	mummunan sauri
+M420	mummunan tsayin take
+M421	take ya yanke
+M422	mummunan harafi a take
+M423	tsari ya yanke
+M424	mummunan tsayin tsari
+M425	mummunar lambar tsari a jeri
+M426	jerin tsari ya yanke
+M427	mummunan adadin tsari
+M428	mummunar fihirisar tsari
+M429	tsari ya maimaita
+M430	bayanan tsari sun yanke
+M431	bayanan tsari marasa inganci
+M432	ƙarin bayanai a ƙarshen fayil
+M433	jeri yana nuna tsarin da babu
+M435	(mara suna)
+M436	A shirye. Danna F1 don taimako.
+M437	Bi A KASHE
+M438	Babu abin da za a maido
+M439	Maido
+M440	Kashe sauti
+M441	Saita harafin tasiri da farko
+M442	An share tasiri
+M443	An share siga
+M444	An share sauti
+M445	An share kayan kiɗa
+M446	An share ƙara
+M447	Jerin tsari ya cika
+M448	An saka tsari
+M449	Ba za a iya share tsari na ƙarshe ba
+M450	An share tsari
+M451	Ana kunna waƙa
+M452	An tsaya
+M453	Sabuwar waƙa
+M454	A watsar da canje-canje da ba a ajiye ba a fara sabuwar waƙa? (Y/N)
+M455	A watsar da canje-canje da ba a ajiye ba a buɗe waƙa? (Y/N)
+M456	A watsar da canje-canje da ba a ajiye ba a fita? (Y/N)
+M457	An sabunta saitunan waƙa
+M458	Sunan fayil fanko ne
+M459	An soke ajiyewa
+M460	An soke buɗewa
+M461	Gyara A KUNNE
+M462	Gyara A KASHE
+M463	Bi A KUNNE
+M464	Gyara a kashe yake. Danna F8 don gyara.
+M465	Kuskuren I/O
+M466	fayil ya yi girma da yawa
+M467	fayil ya yanke
+M495	#KUNNAWA DA FAYILOLI
+M496	#JERIN TSARI
+M497	#NUNI
+M498	#GYARA
+M499	#TASIRI (siga hexadecimal ce)
+M500	HAGU/DAMA SHAFI   ENTER KO F1 RUFE
+M501	SAITUNAN WAƘA
+M502	SAMA/ƘASA ZAƁI   HAGU/DAMA DAIDAITA   ENTER/F2 RUFE
+M503	Rubuta don gyara take. Backspace yana share harafin ƙarshe.
+M504	BPM 32..255. Sauri 1..31.
+M505	Tasirin tsari ma na iya canza sauri da BPM yayin kunnawa.
+M506	KAYAN KIƊA
+M507	SAMA/ƘASA ZAƁI   SPACE SAURARA   ENTER YI AMFANI   F3 RUFE
+M508	Duk tashoshi huɗu suna amfani da haɗa sautin teburin raƙuman ruwa.
+M509	Sauraro yana kunna C-4 a waƙar da ke ƙarƙashin siginan gyara.
+M510	AJIYE WAƘA A MATSAYIN
+M511	ENTER AJIYE   F4 KO CTRL-C SOKE
+M512	Babban fayil:
+M513	Sunan fayil:
+M514	Ana ƙara tsawo .SGT kai tsaye.
+M515	Ana iya rubuta a kan fayil da ke akwai.
+M516	BUƊE WAƘA
+M517	ENTER BUƊE  BS SAMA  CTRL-O/CTRL-C SOKE
+M518	(babu fayilolin .SGT a wannan babban fayil)
+M519	TABBATAR
+M520	Y = EE   N / ENTER / CTRL-C = A'A
+M521	Y = ee        N = a'a
+M536	MThd ya lalace
+M537	SHIGO DA MIDI
+M539	lokacin delta ya lalace
+M540	running status ya lalace
+M541	taron meta ya lalace
+M542	taron sysex ya lalace
+M543	taron tasha ya lalace
+M544	fitarwar SMF ta yi ƙanƙanta
+M545	fitarwar SMF ta yi girma da yawa
+M546	waƙa ta yi tsayi da yawa ga SMF
+M557	KIBIYOYI    matsar da siginan ƙwaya\n
+M558	SHIFT+KIBI  faɗaɗa zaɓi (don jadawali/kwafa)\n
+M559	ENTER       gyara ƙwaya; yayin gyara, tabbatar ka sauka\n
+M560	TAB         ƙwaya ta gaba    SHIFT+TAB  ta baya\n
+M561	DELETE      share ƙwayoyin da aka zaɓa    ESC  soke\n
+M562	PGUP/PGDN   allo ɗaya    HOME/END  ginshiƙi na farko/ƙarshe\n
+M563	CTRL+HOME   A1    CTRL+END  ƙwaya ta ƙarshe da aka yi amfani da ita\n
+M564	F1 taimako  F2 gyara  F3 kwafa  F4 liƙa  F5 je  F6 launi\n
+M565	F7 daidaita  F8 bango  F9 lissafi  F10 jadawali  F11 ajiye  F12 menu\n
+M566	SHIFT+F1 game da  SHIFT+F2 tsayin layi  SHIFT+F3 faɗin ginshiƙi\n
+M567	SHIFT+F4 zaɓi duka  SHIFT+F10 kewayon jadawali  SHIFT+F11 ajiye a matsayin\n
+M568	CTRL+F1 sabo  CTRL+F2 buɗe  CTRL+F3 ajiye  CTRL+F4 ajiye a matsayin\n
+M569	CTRL+F5 fitar CSV  CTRL+F6 fitar ODS  ALT+F12 fita\n
+M570	Layi 2 na ƙasa: maɓallan aiki; [SHIFT]/[CTRL]/[ALT] kamar mai sarrafa fayil\n
+M571	CTRL+S ajiye  CTRL+O buɗe  CTRL+N sabo  CTRL+C/V/X kwafa/liƙa/yanke\n
+M572	CTRL+G je    /  buɗe menu (1 Fayil, 2 Gyara, ...)\n
+M573	Ayyukan ciki: SUM AVERAGE MIN MAX COUNT COUNTA\n
+M576	Nunin ƙwaya: A1, $A$1, A1:B10.  Dabaru suna farawa da '='.\n
+M577	Fayiloli: .ods (LibreOffice), .fods (XML lebur), .csv\n
+M578	ODS/FODS suna riƙe da dabaru, faɗi, tsayi da launuka.\n
+M579	CSV yana riƙe da ƙima da dabaru (babu launi/tsayi).\n
+M580	Jadawali: zaɓi kewayo, danna F10, sannan zaɓi Layi/Sanda/Gauraye/Ƙeƙe.\n
+M581	SGCALC don sgnano\n
+M582	Siga
+M583	Takardar lissafi irin ta Lotus 1-2-3 a matsayin shirin SGX.\n\n
+M585	Yanayin allo 3: rubutu + FB CLUT8 (an kashe lowres)\n
+M586	Takarda: layi %d x ginshiƙi %d\n
+M587	Tsari: .ods / .fods (LibreOffice), .csv\n\n
+M588	Ana zana layukan grid a fagen rubutu.\n
+M589	Jadawali da bango na 640x480 suna amfani da FB.\n\n
+M591	Ba za a iya ajiye ƙwaya ba (%d).
+M592	An kwafa ƙwayoyi %d x %d
+M593	An share %s
+M594	'%s' ba nunin ƙwaya ba ne.
+M596	Faɗin ginshiƙi = %d
+M597	Tsayin layi = %d
+M598	Daidaita kai tsaye: ginshiƙi %d, layi %d
+M600	Ba za a iya aiwatar da launi ba (%d).
+M602	Kewayo mara inganci.\nYi amfani da kewayo kamar A1:C10.
+M603	Kewayon jadawali %s
+M604	Jadawali: %s
+M605	SGCALC: ba za a iya saita yanayin allo 3 ba: %s\n
+M614	Ba za a iya karanta %s ba\n%s
+M615	Babban fayil: %s
+M623	Tsawo da ba a tallafa ba.\nYi amfani da .csv, .ods ko .fods.
+M624	%s ya riga ya wanzu.\nA rubuta a kai?
+M625	Mai yiwuwa ba za a iya rubuta %s ba.\nA gwada duk da haka?
+M626	Ba a san irin fayil na %s ba
+M627	Irin fayil da ba a tallafa ba.\nYi amfani da .csv, .ods ko .fods.
+M628	Ba za a iya buɗe %s ba\n%s
+M629	%s babban fayil ne.
+M630	Ba za a iya shigo da %s ba\n%s
+M631	An loda %s
+M632	Ba za a iya gina fayil na %s ba.
+M633	Ba za a iya rubuta %s ba\n%s
+M635	siga %u ba a tallafa ba
+M637	Oktaf %d
+M638	Sauti %s
+M639	Kayan kiɗa %d
+M640	Ƙara %s
+M641	Tasiri %c
+M642	Siga %s
+M643	Tsari %s
+M644	Ana kunna tsari %s
+M645	KUSKUREN AJIYEWA: %s
+M646	An ajiye %s
+M647	KUSKUREN LODAWA: %s
+M648	BPM %d
+M649	Sauri %d
+M650	Sauraro %s
+M651	Kayan kiɗa %s %s
+M652	A rubuta a kan %s? (Y/N)
+M676	  F5          Kunna waƙa daga tsari na yanzu
+M677	  F6          Kunna tsari na yanzu
+M678	  F7/Ctrl-C   Tsayar da kunnawa
+M679	  Space       Kunna / tsaya
+M680	  F4          Ajiye a matsayin
+M681	  Ctrl-S      Ajiye (yana tambayar suna idan sabo ne)
+M682	  Ctrl-O      Buɗe waƙa
+M683	  Ctrl-N      Sabuwar waƙa
+M684	  F12         Fita (yana tabbatarwa idan an canza)
+M685	  [ ]         Shigarwar jeri ta baya / ta gaba
+M686	  { }         Saka / share shigarwar jeri
+M687	  - +         Canza tsari a shigarwa
+M688	  F11         Bi kunnawa (yana kashewa idan an motsa da hannu)
+M689	  F1          Taimako; Hagu/Dama yana canza shafi
+M690	  F8          Kunna/kashe yanayin gyara
+M691	  Kibiyoyi    Matsar da siginan
+M692	  PgUp/PgDn   Tsalle layi 16
+M693	  Home/End    Layi na farko / ƙarshe
+M694	  F9/F10      Oktaf ƙasa / sama
+M695	  Z S X D C V G B H N J M      jeren piano na ƙasa
+M696	  Q 2 W 3 E R 5 T 6 Y 7 U      jeren piano na sama
+M697	  1           Kashe sauti
+M698	  0 / Del     0 yana share sauti/kayan/tasiri; Del yana share kowane
+M699	  Ctrl-Z      Maido gyaran tsari/jeri na ƙarshe
+M700	  Axy   Zamewar ƙara: sama x, ƙasa y
+M701	  Cxx   Yanke sauti bayan tick xx
+M702	  Dxx   Saita ƙara (00..7F)
+M703	  Fxx   Sauri idan xx < 20, in ba haka ba BPM
+M704	  Hxy   Arpeggio x, y rabin murya
+M705	  Pxx   Zamewar sautin sama
+M706	  Qxx   Zamewar sautin ƙasa
+M707	  F2 saitunan waƙa, F3 jerin kayan kiɗa
+M708	TAIMAKO %d/2
+M709	  Take
+M711	  BPM   : %d     (hagu/dama -1/+1, -/+ -5/+5)
+M712	  Sauri : tick %d/layi
+M713	  Layi  : %d (tsayayye)
+M714	  Jeri  : shigarwa %d
+M715	  Tsarin da ake amfani da su : %d
+M718	Kayan kiɗa na yanzu: %s %s
+M722	Fayiloli: %d
+M726	SGNO TRACKER: SGX ABI bai dace ba\n
+M727	Binciken S:: jira -- ana karanta ko rubuta fayil
+M728	Binciken S:: faifai yana aiki ko bai shirya ba
+M729	babu komai ga wannan abu (ContextMenu.cfg)
+M730	mummunan umarni a ContextMenu.cfg
+M731	aikin da ba a sani ba a ContextMenu.cfg
+M732	menu
+N001	5 Macro
+N002	6 Taimako
+N003	Gudanar na yanzu
+N004	Gudanar da macro a siginan (ƙwayar take #! da ƙwayoyin ƙasa da ita)
+N005	Gudanar da zaɓi
+N006	Gudanar da ƙwayoyin da aka zaɓa a matsayin macro ɗaya (ƙwaya ta sama hagu ita ce take #!)
+N007	Gudanar da duka
+N008	Gudanar da kowane macro a takarda, daga sama hagu zuwa ƙasa dama
+N009	Kuskuren ƙarshe
+N010	Nuna kuskuren macro na ƙarshe
+N011	Macro
+N012	Macro: gudanar da ƙwayoyin #!ruby / #!python / #!basic
+N013	Gyara ƙwaya (F2)
+N014	Daidaita faɗi/tsayi da abin da ke ciki
+N015	Kuskuren macro na ƙarshe
+N016	Babu kuskuren macro.
+N017	IME a kunne
+N018	IME a kashe
+N019	Macro: %s %s ...
+N020	%s: wannan firmware ba za ta iya gudanar da macro ba (SGX ABI 5.10 ko sama)
+N021	Kuskuren macro: %s
+N022	Macro: %s an gama
+N023	wani macro yana gudana tuni
+N024	wannan harshe ba ya samuwa
+N025	ƙwaƙwalwa ba ta isa ba
+N026	macro ya tsaya da kuskure
+N027	Kuskuren macro %s: %s
+N028	Macro: ƙwaƙwalwa ba ta isa ba
+N029	Macro: siginan ba ya kan macro (ƙwayar #!ruby / #!python / #!basic ko ƙwayoyin ƙasa da ita)
+N030	Macro: babu macro a takarda
+N031	Gudanar da duk macro
+N032	Macro: %d. A gudanar da su duka, daga sama hagu zuwa ƙasa dama? Ba za a iya maido canje-canje ba.
+N033	Macro: an gama %d cikin %d
+N034	An share ƙwayar
+N035	An share zaɓin
+N036	Launin bango = %d
+N037	Launin rubutu = %d
+N038	Jadawali: layi
+N039	Jadawali: sanda
+N040	Jadawali: gauraye
+N041	Jadawali: ƙeƙe
+N042	An fitar %s

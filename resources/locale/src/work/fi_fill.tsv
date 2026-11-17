@@ -1,0 +1,179 @@
+# Suomi — strings added since 2026-11-04 (machine translation, unreviewed; 2026-11-16)
+U004	Merkitse kaikki / käännä merkinnät (kuten PC-98 FD)
+U006	Merkitse ja siirry / vain merkitse
+U008	Valitse alue (välilyönti merkitsee alueen)
+U009	Avaa kansio / avaa tiedosto (F2/X suorita)
+U012	Kopioi (Shift+C / Shift+F3 valitsee kohteen puusta)
+U014	Poista (Shift+D / Shift+F4 poistaa kansion)
+U016	Muuta määritteitä
+U018	Näytä tekstinä (Shift+V / Ctrl+Alt+F7 hex)
+U019	Aseman tiedot
+U020	Uusi kansio / uusi tiedosto
+U021	Shell sgsh / poista tallenne
+U022	Lataa uudelleen
+U023	Tallenna näyttö PNG-kuvana
+U024	Sulje ikkuna / poista valinta (alikansiossa: ylös)
+U025	Tiedostotoiminnot (kuten FD: merkinnät, sitten alue, sitten kohdistin)
+U026	Kopioi: valitse kohde asemien ja kansioiden puusta. ESC pysäyttää
+U027	Poista: vahvista y:llä. Merkinnät ja alueet yhdessä. Kansiot sisältöineen
+U028	Poista kansio (sisältöineen)
+U030	Määritteet: R vain luku, H piilotettu, S järjestelmä, A arkisto
+U031	Uusi kansio
+U032	Uusi (tyhjä) tiedosto
+U033	Näytä tekstinä (Shift+V / Ctrl+Alt+F7 hex)
+U034	Shell sgsh (exit / Ctrl-D takaisin tiedostonhallintaan)
+U036	Poista FDD / LS-120 / CD-tallenne
+U037	Lataa luettelo uudelleen (CD: TOC:sta)
+U038	Vastaanota PC:ltä ZMODEMilla (zm.sh put)
+U039	Lähetä PC:lle ZMODEMilla (zm.sh get)
+U041	Ruby-REPL (rivi kerrallaan, Ctrl-D / ESC lopettaa)
+U042	MicroPython-REPL
+U043	Jaa 4 Mt:n osiin / yhdistä .001:stä
+U044	Jaa / yhdistä (kuten Ctrl+F11 / F12)
+U045	Näyttö (Alt+F, ei törmää FD:n F-näppäimiin)
+U047	FB:n näyttösivu (0-3)
+U048	Tyhjennä FB nollaan / puolita kirkkaus (RGB555)
+U050	Tyhjennä FB:n näyttösivu / puolita kirkkaus
+U057	Tarkista S: (kysyy ennen korjausta)
+U061	Vie VGM/VGZ WAV-muotoon 96 kHz / 24 bit
+U073	Editori (E / Shift+F8)
+U082	Shell (csh:n osajoukko. exit / Ctrl-D palaa, help luettelee komennot)
+U092	Tarkista asema S:
+U093	Tiedostot %lu  kansiot %lu
+U094	Koko ei vastaa ketjua
+U095	Klusterit, joita mikään ei käytä
+U096	Ristiinlinkitetyt klusterit
+U097	Rikkinäiset merkinnät
+U098	FAT:n kaksi kopiota eroavat
+U099	Ei virheitä.
+U100	Virheitä löytyi. Korjataanko?
+U101	Korjattu (yllä olevat luvut korjattiin).
+U102	Tarkistus tai korjaus ei onnistunut (S: on varattu).
+U103	[ Korjaa ]
+U104	[ Peruuta ]
+U112	Lukitaanko %c: mihin kirjaimeen? (A-Z paitsi S. ESC peruuttaa)
+U113	Asema  kirjain / Enter valitse  F2 lukitse/vapauta kirjain  F3 lukitse kirjaimeksi...  L / ESC peruuta
+U114	  osio %u
+U115	%c:* (lukittu, ei yhdistetty) %04X:%04X%s  %s
+U135	2 Suor
+U136	3 Kopioi
+U137	4 Poista
+U138	5 Nimeä
+U139	7 TyhFB
+U140	8 HimFB
+U141	9 Asema
+U142	10 EP
+U145	1 Määr
+U146	2 Tiedot
+U147	3 Siirrä
+U148	5 Kansio
+U149	6 Shell
+U150	8 Muokk
+U151	9 Näytä
+U152	10 S:tar
+U154	12 Uudel
+U172	10 ZMläh
+U176	7 Hex
+U177	9 Lisens
+U178	11 Aset
+U179	Aseta kello (Japanin aika. NTP ei voinut asettaa sitä)
+U180	Suorita parametrein
+U183	Aika:
+U184	Suor:
+U186	VVVV-KK-PP hh:mm  Enter aseta  ESC säilytä
+U187	Enter suorita  <-> siirrä  BS / Del poista  ESC peruuta
+U188	Enter nimeä  <-> siirrä  BS / Del poista  ESC peruuta
+U189	Enter luo  <-> siirrä  BS / Del poista  ESC peruuta
+U191	 kohdetta
+U192	Kansiot poistetaan sisältöineen. Oletko varma?
+U194	(Ei voi perua. Myös kansioiden tiedostot poistetaan)
+U206	2 Tallen
+U207	5 Väri
+U208	6 Hira
+U209	7 Kata
+U210	8 Enn
+U211	10 Lopet
+U212	1 Alku
+U213	2 Loppu
+U214	3 LisKor
+U215	4 Sanak
+U216	6 HHira
+U217	7 HKata
+U229	 F5                            Väritys (päätteen mukaan; C/C++, mruby, MicroPython, SG BASIC, ei mitään)
+U236	                               Puolileveä hiragana (Shift+F6) / puolileveä katakana (Shift+F7)
+U242	       Shift+← → Lyhennä/pidennä lausekkeen oikeaa reunaa yhdellä merkillä (uudet ehdokkaat)
+U243	       ↑ ↓ / Tab               Edellinen / seuraava ehdokas ikkunassa (tekstin alla, ylhäällä lähellä alareunaa)
+U244	       Enter kohdassa →→→      Kaikki ehdokkaat (2 x 8, ← → sarake ja sivu, Enter valitsee)
+U245	       Enter                   Seuraava lauseke (viimeisessä vahvistaa kaiken)
+U247	 Shift+F1 / F2 / F3 / F4       Alku / loppu / lisäys-korvaus / käyttäjän sanakirjaan
+U250	Muutettu  Y: tallenna ja sulje  N: sulje tallentamatta  ESC: takaisin
+U251	[Ennustus] Tab/↑↓: ehdokas  Välilyönti: muunna  Esc: peruuta
+U252	[Ehdokkaat] ↑↓: valitse  ←→: sarake/sivu  Enter: ota
+U253	[Muunna] ↑↓ehd ←→lauseke Shift+←→raja Enter seur
+U254	[한국어] Tab/↑↓: ehdokas  Enter/Välilyönti: vahvista
+U255	[English] Tab/↑↓: ehdokas  Enter: vahvista
+U256	Hangul-syöttö 2-sarja  Ctrl-Space: aakkosnumeerinen
+U257	Ennustava täydennys  Ctrl-Space: suora syöttö
+U258	Ei sanakirjaa: vain hiragana/katakana  F6/F7
+U259	Välilyönti: muunna  F7: katakana  Ctrl-Space: aakkosnumeerinen
+U260	Välilyönti: muunna  F6: hiragana  Ctrl-Space: aakkosnumeerinen
+U261	Puolileveä  F6: hiragana  F7: katakana  Shift+F6/F7: puoli
+U262	IME pois
+U263	 ennustus
+U268	Väritys: %s
+U276	Ehdokkaat
+U295	Vaihda väritys (C/C++, mruby, MicroPython, SG BASIC, ei mitään)
+U309	 Lähde: %s
+U310	 Kohde: %s
+U329	 Välilyönti: tauko  m: MIDI OUT  q / ESC: pysäytä
+M727	S:n tarkistus: odota -- tiedostoa luetaan tai kirjoitetaan
+M728	S:n tarkistus: asema on varattu tai ei valmis
+M729	ei mitään tälle kohteelle (ContextMenu.cfg)
+M730	virheellinen komento ContextMenu.cfg-tiedostossa
+M731	tuntematon toiminto ContextMenu.cfg-tiedostossa
+M732	valikko
+# 2026-11-17: archive window, compress name field, WAV export window (machine translation, unreviewed)
+U342	Arkiston nimi (merkityt kohteet, tai kohdistimen kohde jos ei merkittyjä)
+U343	Enter pakkaa  ←→ siirrä  BS / Del poista  ESC peruuta
+U344	WAV-vienti: %s peruttu (%s)
+U345	WAV-vienti: %s epäonnistui (%s)
+U346	WAV-vienti: %s yhteensä %s
+U347	 WAV-vienti (96kHz / 24bit): %s
+U348	Peruttu
+U349	Epäonnistui
+U350	 Yhteensä %s
+U351	 Peruttu (%s; keskeneräinen tiedosto poistettiin)
+U352	 Vienti ei onnistunut (%s). Syy:
+U353	 (syy tuntematon)
+U354	 %u%%   kulunut %s%s
+U355	 ESC: pysäytä (keskeneräinen tiedosto poistetaan)
+U356	Arkisto: %s
+U357	Luetaan... (ESC peruuttaa)
+U358	 %u kohdetta%s  yhteensä %s tavua  purkukohde: %s
+U359	 Enter pura  X pura kaikki  ↑↓ siirrä  ESC sulje
+U360	Pakkaa
+U361	Luettelo
+U362	Pura
+U363	 Yhteensä %s   %u kohdetta
+U364	 Yhteensä %s   %u tiedostoa
+U365	 Peruttu (%s; kesken jäänyt tiedosto poistettiin)
+U366	 Ei onnistunut (%s): %s
+U367	 %u%%   kulunut %s   %s tavua%s
+U368	 kulunut %s   %s tavua%s
+U369	 ESC: pysäytä (kesken jäänyt tiedosto poistetaan)
+U370	Arkisto: %s epäonnistui (%s)
+U371	Pakattu: %s (%u kohdetta)
+U372	Purettu: %s (%u tiedostoa)
+# 2026-11-17: archive / compress messages (machine translation, unreviewed)
+M733	valitse tiedosto tai kansio
+M734	tälle asemalle ei voi kirjoittaa
+M735	arkistotyö on jo käynnissä
+M736	arkistotyölle ei ole PSRAM-muistia
+M737	arkistotyötä ei voitu aloittaa
+M738	liikaa kohteita (enintään 32)
+M739	ei mitään pakattavaa
+M740	ei nimeä (tai nimessä on / tai \\)
+M741	enintään 32 kohdetta (merkitse vähemmän tai laita ne kansioon)
+M742	arkisto
+M743	pakkaa
+M744	WAV-vienti

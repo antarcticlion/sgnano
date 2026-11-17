@@ -1,0 +1,787 @@
+# is: machine translation (Google), unreviewed; 2026-11-17
+M001	aksturinn fór
+M002	að lesa skiptingarnar aftur...
+M003	gat ekki opnað hljóðstyrkinn (ekkert minni?)
+M004	opna hljóðið...
+M005	ekkert minni fyrir skráalistann
+M006	lesa möppuna... (reynir aftur)
+M007	gat ekki lesið möppuna
+M008	lesa möppuna...
+M009	drifið svaraði ekki -- las skiptingarnar aftur
+M010	gat ekki lesið möppuna (ekki FAT12/16/32?)
+M011	of margar færslur -- sýna þær fyrstu
+M012	ekkert skráarkerfi fannst á þessari skiptingu
+M013	leiðin er of löng
+M014	að taka þátt...
+M015	að skipta...
+M016	endurnefna...
+M017	búa til möppuna...
+M018	búa til skrána...
+M019	eyðir...
+M020	skrifa eiginleikana...
+M021	aksturinn er upptekinn
+M022	upptekinn
+M023	veldu skrár eða möppur
+M024	veldu skrár eða möppur (ekki "..")
+M025	stöðva geisladiskinn fyrst
+M026	ekki er hægt að breyta geisladisknum (afrita í staðinn)
+M027	ekki er hægt að færa kerfismappa
+M028	ekkert drif er hægt að skrifa (aðeins FAT / exFAT / NTFS)
+M029	drifið er farið
+M030	ekkert valið
+M031	ekkert valið
+M032	gat ekki byrjað
+M033	gat ekki opnað
+M034	aðeins á FAT / exFAT / NTFS drifi
+M035	ekkert nafn
+M036	það nafn er þegar til
+M037	gat ekki ræst (slæmt nafn eða drifið er upptekið)
+M038	gat ekki ræst (drifið er upptekið)
+M039	nafnið má ekki hafa / eða \\ (aðeins inni í þessari möppu)
+M040	nafnið er það sama
+M041	hluturinn er skrifvarinn (A til að breyta)
+M042	veldu .rb skrá á skrifanlegu drifi
+M043	veldu .rb skrá
+M044	drifið er skrifvarið
+M045	veldu möppu á skrifanlegu drifi
+M046	bíddu augnablik
+M047	veldu skrá
+M048	veldu skrá (ekki möppu)
+M049	veldu .001 skrá
+M050	veldu .001 skrána
+M051	settu IWAD í DoomFiles eða Doom2Files möppu
+M052	DoomFiles tekur freedoom1 / doom / doomu / doom1.wad
+M053	Doom2Files tekur freedoom2 / doom2 / plutonia / tnt.wad
+M054	settu leikjaskrárnar á ytri geymslu, ekki S:
+M055	IWAD verður að vera á FAT / exFAT / NTFS drifi (ekki geisladisk)
+M056	enn að vinna
+M057	mynd er að hlaðast
+M058	enginn framebuffer
+M059	hálf birta virkar aðeins í RGB555
+M060	hreinsa...
+M061	helminga birtustigið...
+M062	það er gagnaspor
+M063	bíddu -- verið er að skrifa skrá
+M064	aðeins disklinga / LS-120 / geisladrif
+M065	óskað eftir
+M066	lesa diskinn...
+M067	hætta...
+M068	opnun...
+M069	búið
+M070	ekkert minni
+M071	þegar opið
+M072	þegar í gangi
+M073	þegar verið að spara
+M074	þegar að spila
+M075	ekkert slíkt akstur
+M076	ekkert PSRAM
+M077	ekkert PSRAM fyrir skrána
+M078	ekkert PSRAM fyrir línuvísitöluna
+M079	ekkert PSRAM fyrir flugstöðina
+M080	ekkert minni (PSRAM)
+M081	ekkert minni (32KB SRAM)
+M082	ekkert minni fyrir biðminni
+M083	ekkert minni fyrir myndahleðsluna
+M084	ekkert minni fyrir lesbuffið
+M085	ekkert pláss fyrir vinnuminnið (loka neðri flugvélinni?)
+M086	engin framebuffer síða
+M087	of stór (4 MB að hámarki)
+M088	skráin er of stór (1 MB að hámarki)
+M089	skráin er of stór (1 MB hámark)
+M090	of stór fyrir SMF (1MB að hámarki)
+M091	skráin er tóm
+M092	gat ekki opnað skrána
+M093	gat ekki lesið skrána
+M094	gat ekki opnað hljóðstyrkinn
+M095	gat ekki opnað áfangastað (ekkert minni?)
+M096	gat ekki lesið rótarmöppuna
+M097	gat ekki hafið verkefnið
+M098	gat ekki byrjað að skrifa (slæmt nafn eða upptekinn)
+M099	annað bindi er opið (upptekið)
+M100	eintak er í gangi
+M101	mappa getur ekki farið inn í sjálfa sig
+M102	það er sama mappan
+M103	ekki er hægt að breyta þessu drifi (skrifvarið)
+M104	drifið er ekki skrifanlegt
+M105	hlutastærðin verður að vera margfeldi af 512
+M106	skrár sem eru 4 GB eða meira eru ekki studdar
+M107	slæm leið
+M108	slæmt skráarnafn
+M109	letur ROM er ekki til staðar
+M110	hljóðið er ekki opið
+M111	engin slík rás
+M112	sequencer er upptekinn
+M113	ekki nóg PSRAM fyrir lagið
+M114	ekki venjuleg MIDI skrá (engin MThd)
+M115	engin lög
+M116	lag er bilað (MTrk)
+M117	SMPTE tímaskipting er ekki studd
+M118	SMF snið 2 er ekki stutt (aðeins 0 og 1)
+M119	ekki bulk-only drif
+M120	ekki optískt drif
+M121	kerfismöppu er ekki hægt að eyða eða endurnefna
+M122	enginn miðill í drifinu
+M123	að verða tilbúin
+M124	ekki tilbúið
+M125	fjölmiðlar breyttust
+M126	miðlungs villa
+M127	ólögmæt beiðni
+M128	slæm skráningarfærsla
+M129	möppu á leiðinni er ekki til
+M130	skrá hefur það nafn
+M131	mappa hefur það nafn
+M132	nafn á leiðinni er ekki skrá
+M133	hætt við
+M134	gat ekki fest sig
+M135	gat ekki hafið lestur
+M136	gat ekki byrjað að skrifa
+M137	er skrá
+M138	það er skrá
+M139	engir klasar
+M140	ekkert pláss fyrir klasalistann
+M141	engin slík skrá eða skrá
+M142	engin slík skrá
+M143	ekkert bindi
+M144	ekki NTFS
+M145	ekki exFAT
+M146	ekki skrá
+M147	ekki fundið
+M148	lesvilla
+M149	skrifvilla
+M150	lestur FAT mistókst
+M151	klasakeðjan er styttri en skráin
+M152	skráin er ekki tóm
+M153	diskurinn er fullur
+M154	aksturinn svaraði ekki
+M155	skráin er skrifvarinn
+M156	skráin er of sundurlaus
+M157	skráin er of stór (4GB)
+M158	nýja nafnið er þegar til
+M159	rótarskráin er full
+M160	of margar skrár með sama stutta nafninu
+M161	Engin slík skrá eða skrá
+M162	Skrá er til
+M163	Leyfi hafnað
+M164	Skráin ekki tóm
+M165	Ekki skrá
+M166	Er mappa
+M167	Skrifvarið skráarkerfi
+M168	Ekkert pláss eftir á tækinu
+M169	Inntaks-/úttaksvilla
+M170	Ekki stutt á þessu drifi
+M171	Ógild slóð
+M172	Upp úr minni
+M173	Enginn slíkur akstur
+M174	hætt
+M175	aflýst (ekki nóg pláss)
+M176	gat ekki talið laust plássið
+M177	viðtækið hætti við
+M178	enginn móttakari (keyrðu rz á tölvunni)
+M179	stjórnborðið UART er í notkun
+M180	skjástillingin breyttist
+M181	línurnar komu ekki (er skjárinn í gangi?)
+M182	afrit
+M183	hreyfa sig
+M184	eyða
+M185	endurnefna
+M186	eiginleikar
+M187	ný skrá
+M188	ný mappa
+M189	mynd
+M190	mrbc
+M191	rúbín
+M192	áhorfandi
+M193	breyta
+M194	ÞEKKJA
+M195	ZMODEM
+M196	ZMODEM móttaka
+M197	ZMODEM senda
+M198	skipt
+M199	taka þátt
+M200	Doom
+M201	SMF
+M202	geisladiskur
+M203	FB
+M204	Kastaðu út
+M205	endurræsa
+M206	leyfi
+M207	klukka
+M208	ADC inn
+M209	skjár -> PNG
+M210	FB -> PNG
+M211	gat ekki opnað hljóðstyrkinn
+M212	fengið
+M213	sent
+M214	vistuð
+M215	búin til
+M216	endurnefnt í
+M217	eytt
+M218	breytt
+M219	gekk til liðs við
+M220	skipt
+M221	gat ekki búið til
+M222	gat ekki eytt
+M223	gat ekki endurnefna til
+M224	gat ekki breyst
+M225	gat ekki lesið
+M226	gat ekki skrifað
+M227	gat ekki afritað
+M228	gat ekki gert
+M229	gat ekki fjarlægt möppuna
+M230	gat ekki fjarlægt
+M231	ekkert minni fyrir
+M232	of margar villur við sendingu
+M233	viðtækið tók ekki
+M234	viðtækið sleppti
+M235	FB síða
+M236	bæti hvert)
+M237	bæti)
+M238	KB)
+M239	hlutar í
+M240	hlutar (
+M241	inn í
+M242	: hreinsað
+M243	: birta helmingur
+M244	% lesið
+M245	raðir
+M246	-- ekki stutt ennþá (aðeins FAT / exFAT / NTFS)
+M247	skrár
+M248	(
+M249	Án titils
+M250	1 skrá
+M251	2 Breyta
+M252	3 Graf
+M253	4 blað
+M254	5 Hjálp
+M255	TÓMT
+M256	NUMBER
+M257	TEXTI
+M258	FORMÚLA
+M259	Sláðu inn til að slá inn, F2 til að breyta, F1 til að fá hjálp
+M260	5 CSV
+M261	6 ODS
+M262	[SHIFT]
+M263	[CTRL]
+M264	[ALT]
+M265	Tilbúið
+M266	SGCALC
+M267	Ýttu á hvaða takka sem er
+M268	Y = já N = nei Esc = hætta við
+M269	Sláðu inn = OK Esc = hætta við Ctrl-U = hreinsa
+M270	Fyrsta röð/dálkur = merki; töflur nota 640x480 CLUT8 FB.
+M271	SGCALC - HJÁLP
+M272	Ýttu á hvaða takka sem er til að fara aftur
+M273	Ýttu á hvaða takka sem er til að fara aftur.
+M274	UM SGCALC
+M275	Nýtt
+M276	Byrjaðu nýtt blað
+M277	Opið...
+M278	Opnaðu ODS, FODS eða CSV skrá
+M279	Vista
+M280	Vistaðu núverandi skrá
+M281	Vista sem...
+M282	Vistaðu með nýju nafni eða sniði
+M283	Flytja út CSV...
+M284	Skrifaðu CSV afrit
+M285	Flytja út ODS...
+M286	Skrifaðu LibreOffice eintak
+M287	Hætta
+M288	Farðu frá SGCALC
+M289	Hreinsa
+M290	Hreinsaðu valdar frumur
+M291	Afrita
+M292	Afritaðu úrvalið
+M293	Líma
+M294	Límdu við bendilinn
+M295	Skera
+M296	Afritaðu og hreinsaðu valið
+M297	Veldu allt
+M298	Veldu allar notaðar frumur
+M299	Litur texta...
+M300	Veldu textalitinn
+M301	Bakgrunnur...
+M302	Veldu bakgrunn frumunnar
+M303	Lína
+M304	Teiknaðu línurit úr valinu
+M305	Bar
+M306	Teiknaðu súlurit úr valinu
+M307	Blandað
+M308	Bars fyrir fyrstu seríuna, línur fyrir restina
+M309	Baka
+M310	Teiknaðu kökurit úr valinu
+M311	Svið...
+M312	Stilltu línuritsviðið sérstaklega
+M313	Teiknaðu aftur
+M314	Teiknaðu aftur síðasta grafið
+M315	Farðu í...
+M316	Hoppa í reit (til dæmis C12)
+M317	Dálkbreidd...
+M318	Breyttu breidd valda dálka
+M319	Röð hæð...
+M320	Breyttu hæð valdar lína
+M321	Sjálfvirk passa
+M322	Passaðu breiddir/hæðir við innihaldið (F7)
+M323	Endurreikna
+M324	Endurmetið allar formúlur
+M325	Eyða öllu
+M326	Hreinsaðu allt blaðið
+M327	Lyklar
+M328	Sýndu lykilleiðbeiningarnar
+M329	Um
+M330	Um SGCALC
+M331	Skrá
+M332	Breyta
+M333	Graf
+M334	Blað
+M335	Hjálp
+M336	Skrá: nýtt, opna, vista, flytja út, hætta
+M337	Breyta: hreinsa, afrita, líma, klippa, velja allt
+M338	Graf: lína, súla, blandað, baka (teiknar í FB)
+M339	Blað: goto, dálkbreidd, endurreikna, eyða
+M340	Hjálp: lyklar og um
+M341	Vinstri/Hægri = valmynd Upp/Niður = atriði Enter = veldu Esc = hætta við
+M342	Hætt við
+M343	Valið er of mikið eða minni er lítið.
+M344	frumunni
+M345	úrvalið
+M346	Ekkert að líma
+M347	Límt
+M348	FARIÐ Í KALI
+M349	Frumutilvísun (A1):
+M350	Farðu í
+M351	DÁLSBREID
+M352	Breidd í stöfum (4..30):
+M353	RÁÐARHÆÐ
+M354	Hæð í textaröðum (1..8):
+M355	Sjálfvirk passa: blaðið er tómt
+M356	BAKGRUNNSLITUR
+M357	TEXTALITUR
+M358	Örvar: veldu Enter: beita Esc: hætta við
+M359	Litavísitala (PC-98 16 lita palletta)
+M360	Aa 123
+M361	Sláðu inn = beita Esc = hætta við
+M362	Litur
+M363	Bakgrunnur
+M364	Texti
+M365	GRAFORÐ
+M366	Svið (til dæmis A1:C10):
+M367	Grafsvið
+M368	Notaðu svið eins og A1:C10.
+M369	Get ekki teiknað línuritið.
+M370	línu
+M371	bar
+M372	blandað
+M373	baka
+M374	Hreinsa hverja hólf á þessu blaði?
+M375	Blað eytt
+M376	Valdi allar notaðar frumur
+M377	Endurreiknað
+M378	Minni
+M379	Ekki nóg PSRAM fyrir töflureikni.
+M380	Blaðið er tómt.
+M381	Engin töluleg gögn á völdu sviði.
+M382	Annað
+M383	Engin jákvæð gildi fyrir skífurit
+M384	LÍNA
+M385	BAR
+M386	BLANDAÐ
+M387	PIE
+M388	S:/
+M389	Mappa
+M390	SPARA SEM
+M391	OPNA SKRÁ
+M392	LibreOffice / CSV
+M393	ODS FODS CSV
+M394	Nafn:
+M395	(sláðu inn nafn eða veldu hér að neðan)
+M396	Nafn
+M397	Stærð
+M398	Enter=vista Vinstri=upp Hægri/Sláðu inn á [DIR]=opinn flipa=drif Esc=hætta við
+M399	Enter=opinn Vinstri=upp Hægri/Enter á [DIR]=opinn Tab=keyrið Esc=hætta við
+M400	Ekki nóg minni.
+M401	Skrifa yfir
+M402	Opið
+M403	Skráin er of stór (takmark 8 MB).
+M404	Ekki nóg minni til að lesa skrána.
+M405	Slæm ZIP/ODS gögn.
+M406	CRC villa í ODS skránni.
+M407	Óstudd eða skemmd skrá.
+M408	Vistað
+M409	Flutt út
+M410	Óvistaðar breytingar
+M411	Vista núverandi blað áður en þú heldur áfram?
+M412	Nýtt blað
+M413	SGTRK
+M414	HEITILIÐ
+M415	lagið er of stórt
+M416	tóm skrá
+M417	ekki SGT skrá
+M418	slæmt BPM
+M419	slæmur hraði
+M420	slæm titillengd
+M421	styttur titill
+M422	slæmur karakter í titlinum
+M423	styttri röð
+M424	slæm pöntunarlengd
+M425	slæmt mynsturnúmer í röð
+M426	styttan mynsturlista
+M427	slæm mynsturfjöldi
+M428	slæm mynsturvísitala
+M429	afrit mynstur
+M430	gögn um stytt mynstur
+M431	ógild mynsturgögn
+M432	slóðgögn í skrá
+M433	röð vísar til mynsturs sem vantar
+M434	A:/
+M435	(án titils)
+M436	Tilbúið. Ýttu á F1 til að fá hjálp.
+M437	Fylgdu OFF
+M438	Ekkert til að afturkalla
+M439	Afturkalla
+M440	Athugið OFF
+M441	Stilltu áhrifastaf fyrst
+M442	Áhrif hreinsuð
+M443	Færibreyta hreinsuð
+M444	Athugið hreinsað
+M445	Hljóðfæri hreinsað
+M446	Hljóðstyrkur hreinsaður
+M447	Pöntunarlisti er fullur
+M448	Pöntun sett inn
+M449	Ekki er hægt að eyða síðustu pöntun
+M450	Pöntun eytt
+M451	Spilar lag
+M452	Hætt
+M453	Nýtt lag
+M454	Fleygja óvistuðum breytingum og byrja á nýju lagi? (J/N)
+M455	Fleygja óvistuðum breytingum og opna lag? (J/N)
+M456	Fleygja óvistuðum breytingum og hætta? (J/N)
+M457	Lagastillingar uppfærðar
+M458	Skráarnafn er tómt
+M459	Hætt við vistun
+M460	Opið aflýst
+M461	Breyta ON
+M462	Breyta SLÖKKT
+M463	Fylgstu með ON
+M464	Slökkt er á breytingunni. Ýttu á F8 til að breyta.
+M465	I/O villa
+M466	skráin er of stór
+M467	stytt skrá
+M468	SÍNAPÚÐUR
+M469	ÞRIHYRNINGUR
+M470	SÖG BLY
+M471	FERNINGUR
+M472	PÚLL 25
+M473	ORGAN
+M474	BASSA
+M475	BJALLA
+M476	HVAÐI
+M477	SÍNU
+M478	SAGA
+M479	SLÖKKT
+M480	ON
+M481	RÓÐ
+M482	CHAN STIG
+M483	F1 HJÁLP F2 LAG
+M484	F3 INS F4 SAVE
+M485	F5 SPILAÐU F6 PAT
+M486	F7 HÆTTA F8 Breyta
+M487	F9/F10 OKTAVE
+M488	F11 FYLGJA
+M489	F12 HÆTTA
+M490	RÚMLEIK/STOPP
+M491	CTRL-S VISTA
+M492	CTRL-O OPEN
+M493	C-N NÝTT C-Z AFTAKA
+M494	C-C STOPPA
+M495	#FLUTNINGAR OG SKRÁAR
+M496	#PANTANALISTI
+M497	#SKJÁR
+M498	#RITING
+M499	#EFFECTS (færibreyta er sextánskur)
+M500	VINSTRI/HÆGRI SÍÐA SÆTTU EÐA F1 LOKA
+M501	LAGSTILLINGAR
+M502	UPP/NIÐUR VALIÐ VINSTRI/HÆGRI STILLA ENTER/F2 LOKA
+M503	Sláðu inn til að breyta titlinum. Backspace eyðir síðasta stafnum.
+M504	BPM svið 32..255. Hraðasvið 1..31.
+M505	Mynsturáhrif geta einnig breytt hraða og BPM meðan á spilun stendur.
+M506	HJÁLÆÐI
+M507	UPP/NIÐUR VELJA SPACE FORSKOÐUN SÆTTU NOTA F3 LOKA
+M508	Allar fjórar rásirnar nota wavetable synthese.
+M509	Preview spilar C-4 á laginu undir breytingabendlinum.
+M510	SPARA LAG AS
+M511	SLAÐU VISTA F4 EÐA CTRL-C HÆTTA við
+M512	Skrá:
+M513	Skráarheiti:
+M514	Endingunni .SGT er bætt við sjálfkrafa.
+M515	Hægt er að skrifa yfir núverandi skrá.
+M516	OPIÐ LAG
+M517	ENTER OPEN BS FORELDRI CTRL-O/CTRL-C HÆTTA við
+M518	(engar .SGT skrár í þessari möppu)
+M519	STEFNA
+M520	Y = YES N / ENTER / CTRL-C = NO
+M521	Y = já N = nei
+M522	C-
+M523	C#
+M524	D-
+M525	D#
+M526	E-
+M527	F-
+M528	F#
+M529	G-
+M530	G#
+M531	A-
+M532	A#
+M533	B-
+M534	A:/dir/nafn
+M535	MThd
+M536	brotinn MThd
+M537	MIDI INNFLUTNINGUR
+M538	MTrk
+M539	brotinn delta tími
+M540	biluð hlaupastaða
+M541	brotinn meta atburður
+M542	brotinn sysex atburður
+M543	brotinn rás atburður
+M544	SMF framleiðsla er of lítil
+M545	SMF framleiðsla er of mikil
+M546	lagið er of langt fyrir SMF
+M547	TRK1
+M548	%s%d
+M549	%s%d:%s%d
+M550	%s
+M551	%.40s%s
+M552	[%s] %s
+M553	EDIT
+M554	TILBÚIN
+M555	%4d
+M556	%s Summa %.7g N %ld%s
+M557	ARROWS færa hólfbendilinn
+M558	SHIFT+ARR lengja valið (fyrir línurit/afrit)
+M559	ENTER breyta reitnum; í edit, commit og færðu niður
+M560	TAB næsta hólf SHIFT+TAB fyrri hólf
+M561	DELETE hreinsaðu valið/hólfið ESC hætta við
+M562	PGUP/PGDN færa einn skjá HOME/END fyrsta/síðasta dálkinn
+M563	CTRL+HOME A1 CTRL+END síðast notaða reit
+M564	F1 hjálp F2 breyta F3 afrita F4 líma F5 fara í F6 lit
+M565	F7 sjálfvirkt aðlaga F8 bakgrunn F9 endurreikna F10 graf F11 vista F12 valmynd
+M566	SHIFT+F1 um SHIFT+F2 línuhæð SHIFT+F3 dálkbreidd
+M567	SHIFT+F4 veldu allt SHIFT+F10 línuritsvið SHIFT+F11 vista sem
+M568	CTRL+F1 nýtt CTRL+F2 opna CTRL+F3 vista CTRL+F4 vista sem
+M569	CTRL+F5 flytja út CSV CTRL+F6 flytja út ODS ALT+F12 hætta
+M570	Neðstu 2 línur: aðgerðarlyklar; [SHIFT]/[CTRL]/[ALT] eins og skrárinn
+M571	CTRL+S vista CTRL+O opna CTRL+N nýtt CTRL+C/V/X afrita/líma/klippa
+M572	CTRL+G fara / opna valmyndina (1 skrá, 2 Breyta, ...)
+M573	Innbyggðar aðgerðir: SUMMEÐALTAL MIN MAX COUNTA
+M574	PRODUCT ABS SQRT INT ROUND MOD POWER EF OG EÐA EKKI
+M575	IFERROR LEN VINSTRI HÆGRI MIÐJU Efri NEÐRI TRIM CONCATENATE PI
+M576	Hólfsvísanir: A1, $A$1, A1:B10.  Formúlur byrja á '='.
+M577	Skrár: .ods (LibreOffice), .fods (flat XML), .csv
+M578	ODS/FODS heldur formúlum, breiddum, hæðum og litum.
+M579	CSV geymir gildi og formúlur (engir litir/hæðir).
+M580	Graf: veldu svið, ýttu á F10 og veldu Line/Bar/Blanded/Pie.
+M581	SGCALC fyrir sgnano
+M582	Útgáfa
+M583	Lotus 1-2-3 stíltöflureikni sem SGX forrit.
+M584	SGX ABI %u.%u
+M585	Skjástilling 3: texti + CLUT8 FB (lágstyrkur óvirkur)
+M586	Blað: %d línur x %d dálkar
+M587	Snið: .ods / .fods (LibreOffice), .csv
+M588	Ratið er teiknað á textaplaninu.
+M589	Myndrit og 640x480 bakgrunnur nota FB.
+M590	%d %s
+M591	Get ekki geymt frumuna (%d).
+M592	Afritaðar %d x %d hólf
+M593	Hreinsað %s
+M594	'%s' er ekki frumatilvísun.
+M595	%d
+M596	Dálkbreidd = %d
+M597	Róðurhæð = %d
+M598	Sjálfvirk passa: %d dálkur(ir), %d röð(ir)
+M599	%2d
+M600	Ekki er hægt að nota litinn (%d).
+M601	%s litur = %d
+M602	Ekki gilt svið.\nNotaðu svið eins og A1:C10.
+M603	Grafsvið %s
+M604	Graf: %s
+M605	SGCALC: getur ekki stillt skjástillingu 3: %s
+M606	%.2g
+M607	%.6g
+M608	%s %.0f%%
+M609	GRAF %s %s
+M610	%s%s
+M611	%s/%s
+M612	%.*s
+M613	%.*s/
+M614	Get ekki lesið %s\n%s
+M615	Mappa: %s
+M616	[DIR] %s
+M617	%s
+M618	%lu.%luM
+M619	%luK
+M620	%luB
+M621	BÓK1%s
+M622	%c:/
+M623	Óstudd viðbót.\nNotaðu .csv, .ods eða .fods.
+M624	%s er þegar til.\nSkrifa yfir það?
+M625	%s er hugsanlega ekki hægt að skrifa.\nReyndu samt?
+M626	Óþekkt skráargerð fyrir %s
+M627	Óstudd skráartegund.\nNotaðu .csv, .ods eða .fods.
+M628	Get ekki opnað %s\n%s
+M629	%s er mappa.
+M630	Get ekki flutt inn %s\n%s
+M631	Hlaðinn %s
+M632	Ekki er hægt að búa til %s skrána.
+M633	Get ekki skrifað %s\n%s
+M634	%s %s
+M635	óstudd útgáfa %u
+M636	%d:%d:%d:%d:%d:%d
+M637	Octave %d
+M638	Athugið %s
+M639	Hljóðfæri %d
+M640	Hljóðstyrkur %s
+M641	Áhrif %c
+M642	Færibreyta %s
+M643	Mynstur %s
+M644	Spilamynstur %s
+M645	VISTA VILLA: %s
+M646	Vistað %s
+M647	HLAÐSVILLA: %s
+M648	BPM %d
+M649	Hraði %d
+M650	Forskoðun %s
+M651	Hljóðfæri %s %s
+M652	Skrifa yfir %s? (J/N)
+M653	| BPM %s SPD %s
+M654	SGNO TRACKER 1.0 |
+M655	SKRÁ
+M656	PAT %s
+M657	ORD %d/%d
+M658	INS %s
+M659	OKT %d
+M660	Breyta %s
+M661	ON
+M662	FOL %s
+M663	SKOÐ %d
+M664	%c%s
+M665	%s %s %s %s
+M666	%s
+M667	%d %s %s
+M668	PANTA %d/%d
+M669	PAT %s
+M670	INS %s %s
+M671	OKT %d Breyta %s
+M672	FYLGJA %s
+M673	PLAYING ORD %d/%d PAT %s ROW %s/%d SPD %s BPM %d F7 STOP
+M674	TILBÚIÐ Breyta %s OKT %d F1 HJÁLP F5 SPILA CTRL-S VISTA
+M675	%s
+M676	F5 Spilaðu lagið úr núverandi röð
+M677	F6 Spilaðu núverandi mynstur
+M678	F7/Ctrl-C Stöðva spilun
+M679	Space Spila / hætta
+M680	F4 Vista sem
+M681	Ctrl-S Vista (bíður um nafn ef nýtt)
+M682	Ctrl-O Opnaðu lag
+M683	Ctrl-N Nýtt lag
+M684	F12 Hætta (staðfesting ef breytt)
+M685	[ ] Fyrri / næsta pöntunarfærsla
+M686	{ } Settu inn / eyddu pöntunarfærslu
+M687	- + Breyttu mynstrinu í færslunni
+M688	F11 Fylgstu með spilun (slekkur á handvirkri hreyfingu)
+M689	F1 Hjálp; Vinstri/Hægri breytir síðu
+M690	F8 Skiptu um breytingastillingu
+M691	Örvar Færðu bendilinn
+M692	PgUp/PgDn Hoppa 16 raðir
+M693	Heim/Endir Fyrsta / síðasta röð
+M694	F9/F10 Octave niður / upp
+M695	Z S X D C V G B H N J M neðri píanó röð
+M696	Q 2 W 3 E R 5 T 6 Y 7 U efri píanó röð
+M697	1 athugasemd slökkt
+M698	0 / Del 0 hreinsar athugasemd/inst/fx; Del hreinsar hvaða
+M699	Ctrl-Z Afturkalla síðustu mynstur-/pöntunarbreytingu
+M700	Axy Volume renna: upp x, niður y
+M701	Cxx Athugið klippt á eftir xx merkjum
+M702	Dxx Stilla hljóðstyrk (00..7F)
+M703	Fxx hraði ef xx < 20, annars BPM
+M704	Hxy Arpeggio x, y hálftónar
+M705	Pxx Pitch renna upp
+M706	Qxx Pitch renna niður
+M707	F2 lagastillingar, F3 hljóðfæralisti
+M708	HJÁLP %d/2
+M709	Titill
+M710	[%s_]
+M711	BPM: %d (vinstri/hægri -1/+1, -/+ -5/+5)
+M712	Hraði : %d tikk/róður
+M713	Raðir: %d (fast)
+M714	Röðun: %d færslur
+M715	Mynstur í notkun: %d
+M716	# NAFNABYLgja A D S R BOL
+M717	%c %d %-9s %-9s %3d %3d %3d %3d %4d
+M718	Núverandi hljóðfæri: %s %s
+M719	%s
+M720	DIR %s
+M721	%c %s%s
+M722	Skrár: %d
+M723	%02d
+M724	%03d
+M725	%02X
+M726	SGNO TRACKER: ósamhæft SGX ABI
+M727	S: athugaðu: bíddu -- verið er að lesa eða skrifa skrá
+M728	S: athugaðu: drifið er upptekið eða ekki tilbúið
+M729	ekkert fyrir þetta atriði (ContextMenu.cfg)
+M730	slæm skipun í ContextMenu.cfg
+M731	óþekkt aðgerð í ContextMenu.cfg
+M732	matseðill
+M733	veldu skrá eða möppu
+M734	þetta drif er ekki hægt að skrifa
+M735	skjalavinnu er þegar í gangi
+M736	ekkert PSRAM fyrir geymsluverkefnið
+M737	gat ekki ræst geymsluverkefnið
+M738	of margir hlutir (32 að hámarki)
+M739	ekkert að þjappa saman
+M740	ekkert nafn (eða nafnið hefur / eða \\)
+M741	32 atriði að hámarki (merktu færri eða settu þau í möppu)
+M742	skjalasafn
+M743	þjappa saman
+M744	skila
+N001	5 Makró
+N002	6 Hjálp
+N003	Keyra straum
+N004	Keyrðu fjölva við bendilinn (#! haushólf og hólfin fyrir neðan hann)
+N005	Keyra val
+N006	Keyrðu valdar frumur sem eitt fjölvi (efst til vinstri er #! hausinn)
+N007	Keyra allt
+N008	Keyrðu hvert fjölva á blaðinu, efst til vinstri til neðst til hægri
+N009	Síðasta villa
+N010	Sýndu síðustu makróvillu
+N011	Fjölvi
+N012	Fjölvi: keyrðu #!ruby / #!python / #!grunnfrumur
+N013	Breyta reitnum (F2)
+N014	Passaðu breiddir/hæðir við innihaldið
+N015	Síðasta macro villa
+N016	Engin macro villa.
+N017	IME á
+N018	IME slökkt
+N019	Fjölvi: %s %s ...
+N020	%s: þessi vélbúnaðar getur ekki keyrt fjölva (SGX ABI 5.10 eða nýrri)
+N021	Fjölvavilla: %s
+N022	Fjölvi: %s búið
+N023	fjölvi er þegar í gangi
+N024	þetta tungumál er ekki í boði
+N025	ekki nóg minni
+N026	macro stoppaði með villu
+N027	Fjölvavilla %s: %s
+N028	Fjölvi: ekki nóg minni
+N029	Fjölvi: bendillinn er ekki á fjölvi (#!ruby / #!python / #!grunnhólf eða frumurnar fyrir neðan það)
+N030	Fjölvi: engin fjölvi í blaðinu
+N031	Keyra öll fjölvi
+N032	Fjölvi: %d. Keyra þá alla, efst til vinstri til neðst til hægri? Ekki er hægt að afturkalla breytingar.
+N033	Fjölvi: %d af %d ​​lokið
+N034	Hreinsaði klefann
+N035	Hreinsaði valið
+N036	Bakgrunnslitur = %d
+N037	Litur texta = %d
+N038	Graf: lína
+N039	Graf: súla
+N040	Graf: blandað
+N041	Graf: baka
+N042	Útflutt %s

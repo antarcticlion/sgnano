@@ -1,0 +1,641 @@
+# 訳すべき文の一覧（scripts/make_locale.py が作る。手で直さない）。3 つ目の欄は日本語の訳（ファームに入っているもの）
+@lang xx
+@name (name)
+ui	一覧（ファイルとフォルダを 2 列 x 19 行に並べる）	一覧（ファイルとフォルダを 2 列 x 19 行に並べる）
+ui	カーソルを動かす（左右は隣の列へ）	カーソルを動かす（左右は隣の列へ）
+ui	前のページ / 次のページ	前のページ / 次のページ
+ui	全部に印 / 印を反転（PC-98 FD と同じ）	全部に印 / 印を反転（PC-98 FD と同じ）
+ui	先頭 / 最後	先頭 / 最後
+ui	印を付けて次へ / 印だけ付ける	印を付けて次へ / 印だけ付ける
+ui	Shift+矢印	Shift+矢印
+ui	範囲を選ぶ（Space でその範囲に印）	範囲を選ぶ（Space でその範囲に印）
+ui	フォルダに入る・ファイルを開く（F2/X は実行）	フォルダに入る・ファイルを開く（F2/X は実行）
+ui	上のフォルダへ	上のフォルダへ
+ui	ドライブを選ぶ（USB・フロッピー・CD・S: 内蔵）	ドライブを選ぶ（USB・フロッピー・CD・S: 内蔵）
+ui	コピー（Shift+C / Shift+F3 は行き先を木から）	コピー（Shift+C / Shift+F3 は行き先を木から）
+ui	移動	移動
+ui	削除（Shift+D / Shift+F4 はフォルダ削除）	削除（Shift+D / Shift+F4 はフォルダ削除）
+ui	名前を変える	名前を変える
+ui	属性を変える	属性を変える
+ui	エディタで開く	エディタで開く
+ui	テキスト表示（Shift+V / Ctrl+Alt+F7 は 16 進）	テキスト表示（Shift+V / Ctrl+Alt+F7 は 16 進）
+ui	ドライブの情報	ドライブの情報
+ui	フォルダを作る / 新しいファイル	フォルダを作る / 新しいファイル
+ui	シェル sgsh / 媒体を取り出す	シェル sgsh / 媒体を取り出す
+ui	読み直す	読み直す
+ui	見えている画面を PNG で保存	見えている画面を PNG で保存
+ui	窓を閉じる・選択を解く（サブフォルダでは上位へ）	窓を閉じる・選択を解く（サブフォルダでは上位へ）
+ui	ファイルの操作（FD と同じ。印・範囲・カーソルの順に選ぶ）	ファイルの操作（FD と同じ。印・範囲・カーソルの順に選ぶ）
+ui	コピー: 行き先はドライブとフォルダの木から。ESC で止める	コピー: 行き先はドライブとフォルダの木から。ESC で止める
+ui	削除: y で確かめる。印・範囲をまとめて。フォルダは中身ごと	削除: y で確かめる。印・範囲をまとめて。フォルダは中身ごと
+ui	フォルダを削除（中身ごと）	フォルダを削除（中身ごと）
+ui	名前を変える（今の名前を直して Enter）	名前を変える（今の名前を直して Enter）
+ui	属性: R 読み出し専用・H 隠し・S システム・A アーカイブ	属性: R 読み出し専用・H 隠し・S システム・A アーカイブ
+ui	フォルダを作る	フォルダを作る
+ui	新しいファイル（空）を作る	新しいファイル（空）を作る
+ui	テキストで表示（Shift+V / Ctrl+Alt+F7 は 16 進）	テキストで表示（Shift+V / Ctrl+Alt+F7 は 16 進）
+ui	シェル sgsh（exit / Ctrl-D でファイラーへ）	シェル sgsh（exit / Ctrl-D でファイラーへ）
+ui	選んでいるドライブの素性（INQUIRY・IDENTIFY）	選んでいるドライブの素性（INQUIRY・IDENTIFY）
+ui	FDD・LS-120・CD の媒体を取り出す	FDD・LS-120・CD の媒体を取り出す
+ui	一覧を読み直す（CD は TOC から）	一覧を読み直す（CD は TOC から）
+ui	ZMODEM で PC から受け取る（zm.sh put）	ZMODEM で PC から受け取る（zm.sh put）
+ui	ZMODEM で PC へ送る（zm.sh get）	ZMODEM で PC へ送る（zm.sh get）
+ui	.rb をコンパイルして .mrb を書き出す	.rb をコンパイルして .mrb を書き出す
+ui	Ruby の REPL（1 行ずつ、Ctrl-D / ESC で終わり）	Ruby の REPL（1 行ずつ、Ctrl-D / ESC で終わり）
+ui	MicroPython の REPL	MicroPython の REPL
+ui	4MB ずつ分割 / .001 から結合	4MB ずつ分割 / .001 から結合
+ui	分割 / 結合（Ctrl+F11 / F12 と同じ）	分割 / 結合（Ctrl+F11 / F12 と同じ）
+ui	画面（Alt+F。FD の F キーとぶつからない）	画面（Alt+F。FD の F キーとぶつからない）
+ui	FB（絵）/ テキスト面を出す・隠す	FB（絵）/ テキスト面を出す・隠す
+ui	FB の表示ページ（0〜3）	FB の表示ページ（0〜3）
+ui	FB を 0 で消す / 明るさを 1/2 に（RGB555）	FB を 0 で消す / 明るさを 1/2 に（RGB555）
+ui	USB のエンドポイントと LAN の状態	USB のエンドポイントと LAN の状態
+ui	FB の表示ページを消す / 明るさを 1/2 に	FB の表示ページを消す / 明るさを 1/2 に
+ui	テキストの属性の見本	テキストの属性の見本
+ui	モニタの EDID（起動時に読んだもの）	モニタの EDID（起動時に読んだもの）
+ui	フォント ROM のライセンスとクレジット	フォント ROM のライセンスとクレジット
+ui	設定（表示の言語・IME・キーボードロケール）	設定（表示の言語・IME・キーボードロケール）
+ui	時計（NTP で合わせた日本時間。s ですぐ合わせる）	時計（NTP で合わせた日本時間。s ですぐ合わせる）
+ui	表計算（SGCALC）を開く	表計算（SGCALC）を開く
+ui	S: ドライブのエラー検査（誤りがあれば直すか聞く）	S: ドライブのエラー検査（誤りがあれば直すか聞く）
+ui	トラッカー（TRACKER）を開く	トラッカー（TRACKER）を開く
+ui	再起動（確かめの窓が出る）	再起動（確かめの窓が出る）
+ui	ADC のステレオ入力（GP40 / 41）を鳴らす	ADC のステレオ入力（GP40 / 41）を鳴らす
+ui	VGM/VGZ を 96kHz/24bit WAV に書き出す	VGM/VGZ を 96kHz/24bit WAV に書き出す
+ui	このヘルプ	このヘルプ
+ui	ページを替える	ページを替える
+ui	閉じる	閉じる
+ui	テキスト・16 進のビュアー（less 風）	テキスト・16 進のビュアー（less 風）
+ui	1 行	1 行
+ui	1 ページ	1 ページ
+ui	半ページ	半ページ
+ui	探す（前へ・後ろへ）/ 次・前	探す（前へ・後ろへ）/ 次・前
+ui	一覧へ戻る（F1 はビュアーのヘルプ）	一覧へ戻る（F1 はビュアーのヘルプ）
+ui	画像のビュアー	画像のビュアー
+ui	一覧へ戻る（F2 F3 F6 F7 Shift+F2 F3 は効く）	一覧へ戻る（F2 F3 F6 F7 Shift+F2 F3 は効く）
+ui	エディタ（E / Shift+F8）	エディタ（E / Shift+F8）
+ui	保存する（UTF-8。改行と BOM は元のまま）	保存する（UTF-8。改行と BOM は元のまま）
+ui	閉じる（変わっていれば Y / N / ESC）	閉じる（変わっていれば Y / N / ESC）
+ui	挿入 / 上書き	挿入 / 上書き
+ui	IME（日本語・英語・ハングル）の入・切	IME（日本語・英語・ハングル）の入・切
+ui	IME の言語（日本語 / English / 한국어）	IME の言語（日本語 / English / 한국어）
+ui	ひらがな / カタカナで確定	ひらがな / カタカナで確定
+ui	エディタのヘルプ	エディタのヘルプ
+ui	シェル	シェル
+ui	シェル（csh のサブセット。exit / Ctrl-D で戻る、help で一覧）	シェル（csh のサブセット。exit / Ctrl-D で戻る、help で一覧）
+ui	一覧と移動	一覧と移動
+ui	ファイルの操作	ファイルの操作
+ui	画面と機器	画面と機器
+ui	ビュアーとエディタ	ビュアーとエディタ
+ui	ヘルプ  %u / %u  %s	ヘルプ  %u / %u  %s
+ui	Left Right: ページを替える    F1 / ESC: 閉じる	Left Right: ページを替える    F1 / ESC: 閉じる
+ui	sgnano を再起動しますか？	sgnano を再起動しますか？
+ui	[ 再起動 ]	[ 再起動 ]
+ui	[ キャンセル ]	[ キャンセル ]
+ui	S: ドライブのエラー検査	S: ドライブのエラー検査
+ui	ファイル %lu  フォルダ %lu	ファイル %lu  フォルダ %lu
+ui	大きさが鎖と合わない	大きさが鎖と合わない
+ui	どこからも使われていないクラスタ	どこからも使われていないクラスタ
+ui	重なったクラスタ	重なったクラスタ
+ui	壊れた項目	壊れた項目
+ui	FAT の 2 つの写しの食い違い	FAT の 2 つの写しの食い違い
+ui	エラーはありません。	エラーはありません。
+ui	エラーが見つかりました。修復しますか？	エラーが見つかりました。修復しますか？
+ui	修復しました（上は直した数）。	修復しました（上は直した数）。
+ui	検査・修復できませんでした（S: が使用中）。	検査・修復できませんでした（S: が使用中）。
+ui	[ 修復する ]	[ 修復する ]
+ui	[ やめる ]	[ やめる ]
+ui	何かキーで閉じる	何かキーで閉じる
+ui	設定	設定
+ui	表示の言語	表示の言語
+ui	キーボードロケール	キーボードロケール
+ui	Up / Down  Enter 決める  ESC やめる	Up / Down  Enter 決める  ESC やめる
+ui	表示の言語 (Language)	表示の言語 (Language)
+ui	Up / Down  Enter 決める  ESC 戻る	Up / Down  Enter 決める  ESC 戻る
+ui	%c: をどの文字に固定しますか（A〜Z、S を除く。ESC でやめる）	%c: をどの文字に固定しますか（A〜Z、S を除く。ESC でやめる）
+ui	ドライブ  文字 / Enter 選ぶ  F2 文字を固定・解除  F3 文字を決めて固定  L / ESC やめる	ドライブ  文字 / Enter 選ぶ  F2 文字を固定・解除  F3 文字を決めて固定  L / ESC やめる
+ui	  区画 %u	  区画 %u
+ui	%c:* （固定・つながっていません）%04X:%04X%s  %s	%c:* （固定・つながっていません）%04X:%04X%s  %s
+ui	お知らせ	お知らせ
+ui	ドライブ %c:  %s	ドライブ %c:  %s
+ui	ドライブ  (なし)	ドライブ  (なし)
+ui	音楽 CD  %u トラック	音楽 CD  %u トラック
+ui	フォルダ %u  ファイル %u  合計 %s	フォルダ %u  ファイル %u  合計 %s
+ui	読んでいます...	読んでいます...
+ui	* 印 %u 個  %s	* 印 %u 個  %s
+ui	%lu バイト	%lu バイト
+ui	属性 %s   更新日時 %s   作成日時 %s   %s	属性 %s   更新日時 %s   作成日時 %s   %s
+ui	日	日
+ui	月	月
+ui	火	火
+ui	水	水
+ui	木	木
+ui	金	金
+ui	土	土
+ui	時計は合わせていません（LAN の NTP）	時計は合わせていません（LAN の NTP）
+ui	FB  表示 %u  書込 %u	FB  表示 %u  書込 %u
+ui	1 ヘルプ	1 ヘルプ
+ui	2 実行	2 実行
+ui	3 ｺﾋﾟｰ	3 ｺﾋﾟｰ
+ui	4 削除	4 削除
+ui	5 名前	5 名前
+ui	7 FB消去	7 FB消去
+ui	8 FB減光	8 FB減光
+ui	9 ﾄﾞﾗｲﾌﾞ	9 ﾄﾞﾗｲﾌﾞ
+ui	10 EP表	10 EP表
+ui	11 時計	11 時計
+ui	12 表計	12 表計
+ui	1 属性	1 属性
+ui	2 情報	2 情報
+ui	3 移動	3 移動
+ui	5 作成	5 作成
+ui	6 シェル	6 シェル
+ui	8 編集	8 編集
+ui	9 表示	9 表示
+ui	10S:検査	10S:検査
+ui	11 ﾄﾗｯｸ	11 ﾄﾗｯｸ
+ui	12再起動	12再起動
+ui	1 新規	1 新規
+ui	2 ﾌｫﾙﾀﾞ	2 ﾌｫﾙﾀﾞ
+ui	3 名前	3 名前
+ui	4 属性	4 属性
+ui	6 ｺﾋﾟｰ	6 ｺﾋﾟｰ
+ui	7 移動	7 移動
+ui	8 削除	8 削除
+ui	9 編集	9 編集
+ui	10ｺﾝﾊﾟｲﾙ	10ｺﾝﾊﾟｲﾙ
+ui	11 分割	11 分割
+ui	12 結合	12 結合
+ui	1 属性例	1 属性例
+ui	2 FB切替	2 FB切替
+ui	3 文字面	3 文字面
+ui	5 画面写	5 画面写
+ui	6 表示頁	6 表示頁
+ui	8 設定	8 設定
+ui	9 ZM受信	9 ZM受信
+ui	10ZM送信	10ZM送信
+ui	2 FB消去	2 FB消去
+ui	3 FB減光	3 FB減光
+ui	5 再読込	5 再読込
+ui	7 16進	7 16進
+ui	9 ﾗｲｾﾝｽ	9 ﾗｲｾﾝｽ
+ui	時刻を合わせる（日本時間。NTP で合わせられませんでした）	時刻を合わせる（日本時間。NTP で合わせられませんでした）
+ui	書庫の名前（印の付いた項目、無ければカーソルの項目を入れる）	書庫の名前（印の付いた項目、無ければカーソルの項目を入れる）
+ui	起動のパラメタ	起動のパラメタ
+ui	新しいフォルダ	新しいフォルダ
+ui	新しいファイル	新しいファイル
+ui	時刻:	時刻:
+ui	実行:	実行:
+ui	名前:	名前:
+ui	年-月-日 時:分  Enter 合わせる  ESC そのまま	年-月-日 時:分  Enter 合わせる  ESC そのまま
+ui	Enter 圧縮する  ←→ 動かす  BS / Del 消す  ESC やめる	Enter 圧縮する  ←→ 動かす  BS / Del 消す  ESC やめる
+ui	Enter 走らせる  ←→ 動かす  BS / Del 消す  ESC やめる	Enter 走らせる  ←→ 動かす  BS / Del 消す  ESC やめる
+ui	Enter 変える  ←→ 動かす  BS / Del 消す  ESC やめる	Enter 変える  ←→ 動かす  BS / Del 消す  ESC やめる
+ui	Enter 作る  ←→ 動かす  BS / Del 消す  ESC やめる	Enter 作る  ←→ 動かす  BS / Del 消す  ESC やめる
+ui	消す	消す
+ui	個の項目	個の項目
+ui	フォルダは中身ごと消します。よろしいですか？	フォルダは中身ごと消します。よろしいですか？
+ui	このファイルを消しますか？	このファイルを消しますか？
+ui	（元に戻せません。フォルダの中のファイルも消えます）	（元に戻せません。フォルダの中のファイルも消えます）
+ui	[ はい (Y) ]	[ はい (Y) ]
+ui	[ いいえ (N) ]	[ いいえ (N) ]
+ui	バイナリビュアー: ファイルを選んでください	バイナリビュアー: ファイルを選んでください
+ui	テキストビュアー: ファイルを選んでください	テキストビュアー: ファイルを選んでください
+ui	移動先	移動先
+ui	コピー先	コピー先
+ui	バッファがいっぱいです (buffer full)	バッファがいっぱいです (buffer full)
+ui	読み出し専用のドライブです (read-only)	読み出し専用のドライブです (read-only)
+ui	保存できません (no writer)	保存できません (no writer)
+ui	保存を始められません (the drive is busy?)	保存を始められません (the drive is busy?)
+ui	保存しています... (saving)	保存しています... (saving)
+ui	2 保存	2 保存
+ui	5 色分け	5 色分け
+ui	6 ﾞ	6 ﾞ
+ui	7 ｶﾀｶﾅ	7 ｶﾀｶﾅ
+ui	8 予測	8 予測
+ui	10 終了	10 終了
+ui	1 先頭	1 先頭
+ui	2 最後	2 最後
+ui	3 挿/上	3 挿/上
+ui	4 辞書	4 辞書
+ui	6 半	6 半
+ui	7 半ｶﾅ	7 半ｶﾅ
+ui	 %s  %s  行 %lu/%lu 桁 %u  %s  %s %s%s%s	 %s  %s  行 %lu/%lu 桁 %u  %s  %s %s%s%s
+ui	*変更	*変更
+ui	上書	上書
+ui	挿入	挿入
+ui	  読出専用	  読出専用
+ui	 エディタ (sgnano edit)                      F1 / ESC で閉じる	 エディタ (sgnano edit)                      F1 / ESC で閉じる
+ui	 矢印 / Home End / PgUp PgDn   カーソルを動かす	 矢印 / Home End / PgUp PgDn   カーソルを動かす
+ui	 Ctrl-T / Ctrl-B               ファイルの先頭 / 最後	 Ctrl-T / Ctrl-B               ファイルの先頭 / 最後
+ui	 BS / Del                      前の字 / カーソルの字を消す	 BS / Del                      前の字 / カーソルの字を消す
+ui	 Enter                         改行（前の行の字下げを引き継ぐ）	 Enter                         改行（前の行の字下げを引き継ぐ）
+ui	 Tab / Ins                     タブ / 挿入と上書きの切り替え	 Tab / Ins                     タブ / 挿入と上書きの切り替え
+ui	 F5                            色分け（拡張子から。C/C++・mruby・MicroPython・SG BASIC・なし）	 F5                            色分け（拡張子から。C/C++・mruby・MicroPython・SG BASIC・なし）
+ui	 F2  (Ctrl-S)                  保存（UTF-8、改行は元の形）	 F2  (Ctrl-S)                  保存（UTF-8、改行は元の形）
+ui	 F10 / ESC                     閉じる（変更があれば聞く）	 F10 / ESC                     閉じる（変更があれば聞く）
+ui	 IME:  Ctrl-Space / F12        オン・オフ（あ / A）	 IME:  Ctrl-Space / F12        オン・オフ（あ / A）
+ui	       F9                      IME の言語（このエディタの間だけ。閉じると戻る）	       F9                      IME の言語（このエディタの間だけ。閉じると戻る）
+ui	       F8                      日本語の予測変換 オン・オフ	       F8                      日本語の予測変換 オン・オフ
+ui	       日本語                  ローマ字 -> ひらがな（F6）・カタカナ（F7）	       日本語                  ローマ字 -> ひらがな（F6）・カタカナ（F7）
+ui	                               半角ひらがな（Shift+F6）・半角カタカナ（Shift+F7）	                               半角ひらがな（Shift+F6）・半角カタカナ（Shift+F7）
+ui	                               2 字以上で予測、Space で連文節変換	                               2 字以上で予測、Space で連文節変換
+ui	       English                 2 字以上で予測補完	       English                 2 字以上で予測補完
+ui	       한국어                  2 ボル式ハングル	       한국어                  2 ボル式ハングル
+ui	       Space / Enter           変換 / 確定	       Space / Enter           変換 / 確定
+ui	       ← →                    文節を選ぶ	       ← →                    文節を選ぶ
+ui	       Shift+← →               文節の右端を 1 字 縮/拡（候補を出し直す）	       Shift+← →               文節の右端を 1 字 縮/拡（候補を出し直す）
+ui	       ↑ ↓ / Tab               候補の窓で前 / 次の候補（窓は変換の下、画面の下では上）	       ↑ ↓ / Tab               候補の窓で前 / 次の候補（窓は変換の下、画面の下では上）
+ui	       →→→ で Enter            すべての候補（2 列 x 8 個、← → で列とページ、Enter で決める）	       →→→ で Enter            すべての候補（2 列 x 8 個、← → で列とページ、Enter で決める）
+ui	       Enter                   次の文節へ（最後の文節で全体を確定）	       Enter                   次の文節へ（最後の文節で全体を確定）
+ui	       Ctrl-U                  いまの語をユーザー辞書へ	       Ctrl-U                  いまの語をユーザー辞書へ
+ui	 Shift+F1 / F2 / F3 / F4       先頭 / 最後 / 挿入と上書き / ユーザー辞書へ	 Shift+F1 / F2 / F3 / F4       先頭 / 最後 / 挿入と上書き / ユーザー辞書へ
+ui	       BS / ESC                1 字戻す / 取り消し	       BS / ESC                1 字戻す / 取り消し
+ui	       , . - [ ] /             、 。 ー 「 」 ・	       , . - [ ] /             、 。 ー 「 」 ・
+ui	変更あり  Y: 保存して閉じる  N: 保存せず閉じる  ESC: 戻る	変更あり  Y: 保存して閉じる  N: 保存せず閉じる  ESC: 戻る
+ui	[予測] Tab/↑↓: 候補  Space: 変換  Esc: 取消	[予測] Tab/↑↓: 候補  Space: 変換  Esc: 取消
+ui	[候補] ↑↓: 選ぶ  ←→: 列・ページ  Enter: 決める	[候補] ↑↓: 選ぶ  ←→: 列・ページ  Enter: 決める
+ui	[変換] ↑↓候補 ←→文節 Shift+←→区切り Enter次へ	[変換] ↑↓候補 ←→文節 Shift+←→区切り Enter次へ
+ui	[한국어] Tab/↑↓: 候補  Enter/Space: 確定	[한국어] Tab/↑↓: 候補  Enter/Space: 確定
+ui	[English] Tab/↑↓: 候補  Enter: 確定	[English] Tab/↑↓: 候補  Enter: 確定
+ui	2ボル式ハングル入力  Ctrl-Space: 英数	2ボル式ハングル入力  Ctrl-Space: 英数
+ui	予測補完  Ctrl-Space: 直接入力	予測補完  Ctrl-Space: 直接入力
+ui	辞書なし: ひらがな/カタカナ入力のみ  F6/F7	辞書なし: ひらがな/カタカナ入力のみ  F6/F7
+ui	Space: 変換  F7: カタカナ  Ctrl-Space: 英数	Space: 変換  F7: カタカナ  Ctrl-Space: 英数
+ui	Space: 変換  F6: ひらがな  Ctrl-Space: 英数	Space: 変換  F6: ひらがな  Ctrl-Space: 英数
+ui	半角  F6: ひらがな  F7: カタカナ  Shift+F6/F7: 半角	半角  F6: ひらがな  F7: カタカナ  Shift+F6/F7: 半角
+ui	IME オフ	IME オフ
+ui	 予測	 予測
+ui	日本語の予測変換: オン	日本語の予測変換: オン
+ui	日本語の予測変換: オフ	日本語の予測変換: オフ
+ui	日本語IMEで使います	日本語IMEで使います
+ui	ユーザー辞書に追加できません	ユーザー辞書に追加できません
+ui	色分け: %s	色分け: %s
+ui	読み込んでいます... (loading)	読み込んでいます... (loading)
+ui	読み込めませんでした (could not read)	読み込めませんでした (could not read)
+ui	%lu 行%s%s	%lu 行%s%s
+ui	  Shift_JIS を UTF-8 で開きました（保存は UTF-8）	  Shift_JIS を UTF-8 で開きました（保存は UTF-8）
+ui	  読み出し専用	  読み出し専用
+ui	保存しました (saved)	保存しました (saved)
+ui	保存できませんでした (write failed)	保存できませんでした (write failed)
+ui	候補	候補
+ui	7 書込頁	7 書込頁
+ui	9 ﾃｷｽﾄ	9 ﾃｷｽﾄ
+ui	9 ﾊﾞｲﾅﾘ	9 ﾊﾞｲﾅﾘ
+ui	読み込み中 %lu%%  	読み込み中 %lu%%  
+ui	（先頭だけ）  	（先頭だけ）  
+ui	16 進  q ESC: 戻る  F1: ヘルプ	16 進  q ESC: 戻る  F1: ヘルプ
+ui	テキスト  q ESC: 戻る  F1: ヘルプ	テキスト  q ESC: 戻る  F1: ヘルプ
+ui	ビュアーのキー（less 風。テキストと 16 進で共通）	ビュアーのキー（less 風。テキストと 16 進で共通）
+ui	1 行進む	1 行進む
+ui	1 行戻る	1 行戻る
+ui	1 ページ進む	1 ページ進む
+ui	1 ページ戻る	1 ページ戻る
+ui	半ページ進む / 戻る	半ページ進む / 戻る
+ui	/文字列  ?文字列	/文字列  ?文字列
+ui	下へ探す / 上へ探す（大文字小文字は区別しない）	下へ探す / 上へ探す（大文字小文字は区別しない）
+ui	次 / 前を探す	次 / 前を探す
+ui	16 進で表示する（いま見ている所のまま）	16 進で表示する（いま見ている所のまま）
+ui	テキストで表示する（いま見ている所のまま）	テキストで表示する（いま見ている所のまま）
+ui	色分けを替える（C/C++・mruby・MicroPython・SG BASIC・なし）	色分けを替える（C/C++・mruby・MicroPython・SG BASIC・なし）
+ui	FB / テキスト面を出す・隠す	FB / テキスト面を出す・隠す
+ui	FB の表示ページ / 書き込みページ	FB の表示ページ / 書き込みページ
+ui	ファイラーへ戻る	ファイラーへ戻る
+ui	このヘルプを閉じる	このヘルプを閉じる
+ui	コピー	コピー
+ui	 %s: フォルダを読んでいます... %u 個	 %s: フォルダを読んでいます... %u 個
+ui	 %s: 行き先の空きを数えています...	 %s: 行き先の空きを数えています...
+ui	 %s: 行き先の空きが足りません	 %s: 行き先の空きが足りません
+ui	 移動: 元のフォルダを消しています	 移動: 元のフォルダを消しています
+ui	終了しました	終了しました
+ui	止まりました	止まりました
+ui	 %s中%s	 %s中%s
+ui	（止めています）	（止めています）
+ui	 元: %s	 元: %s
+ui	 先: %s	 先: %s
+ui	 ファイル %u / %u 個  フォルダ %u 個  %s / %s  (%u%%)%s	 ファイル %u / %u 個  フォルダ %u 個  %s / %s  (%u%%)%s
+ui	  多すぎるので一部だけ	  多すぎるので一部だけ
+ui	 要る大きさ %s、空き %s。続けますか？	 要る大きさ %s、空き %s。続けますか？
+ui	 Y: 続ける   N / ESC: やめる	 Y: 続ける   N / ESC: やめる
+ui	 何かキーを押すと閉じます	 何かキーを押すと閉じます
+ui	 ESC: 止める	 ESC: 止める
+ui	 %s: ←→ ドライブ  ↑↓ フォルダ  Space 開く・閉じる  Enter 決める  ESC やめる	 %s: ←→ ドライブ  ↑↓ フォルダ  Space 開く・閉じる  Enter 決める  ESC やめる
+ui	 読めません: %s	 読めません: %s
+ui	 フォルダを読んでいます...（ESC で止める）  %u 個	 フォルダを読んでいます...（ESC で止める）  %u 個
+ui	 フォルダ %u 個%s	 フォルダ %u 個%s
+ui	（多すぎるか深すぎるので、一部だけ）	（多すぎるか深すぎるので、一部だけ）
+ui	フォルダの展開を止めました	フォルダの展開を止めました
+ui	Space で開き直せます。もう一度 ESC でやめます	Space で開き直せます。もう一度 ESC でやめます
+ui	 SMF / SGT プレイヤー   %s	 SMF / SGT プレイヤー   %s
+ui	 読み込んでいます... %lu / %lu バイト	 読み込んでいます... %lu / %lu バイト
+ui	 %s / %s   %s   ポート %u	 %s / %s   %s   ポート %u
+ui	一時停止	一時停止
+ui	再生中	再生中
+ui	 Space: 一時停止  m: MIDI OUT  q / ESC: 止める	 Space: 一時停止  m: MIDI OUT  q / ESC: 止める
+ui	 q / ESC: やめる	 q / ESC: やめる
+ui	フォント ROM のライセンスとクレジット\n\nROM: %s（版 %lu.%lu、%lu 文字、フラッシュの 0x%08lX から）\n\n	フォント ROM のライセンスとクレジット\n\nROM: %s（版 %lu.%lu、%lu 文字、フラッシュの 0x%08lX から）\n\n
+ui	== 収めているフォント（ROM の出所の表）==\n	== 収めているフォント（ROM の出所の表）==\n
+ui	  （表が無い ROM）\n	  （表が無い ROM）\n
+ui	\n== ROM のクレジットの区画 ==\n\n	\n== ROM のクレジットの区画 ==\n\n
+ui	（区画が無い）\n	（区画が無い）\n
+ui	\n== 組み込んだソフトウェアのライセンス ==\n	\n== 組み込んだソフトウェアのライセンス ==\n
+ui	 %s を PNG で保存   %s	 %s を PNG で保存   %s
+ui	画面	画面
+ui	 組み立てています... %lu / %lu 行	 組み立てています... %lu / %lu 行
+ui	 書いています... %lu / %lu KB（FB は隠しています）	 書いています... %lu / %lu KB（FB は隠しています）
+ui	書けませんでした	書けませんでした
+ui	WAV 書き出し: %s 中止（%s）	WAV 書き出し: %s 中止（%s）
+ui	WAV 書き出し: %s 失敗（%s）	WAV 書き出し: %s 失敗（%s）
+ui	WAV 書き出し: %s 合計 %s	WAV 書き出し: %s 合計 %s
+ui	 WAV 書き出し（96kHz / 24bit）: %s	 WAV 書き出し（96kHz / 24bit）: %s
+ui	中止しました	中止しました
+ui	失敗しました	失敗しました
+ui	 合計 %s	 合計 %s
+ui	 中止しました（%s。半端なファイルは消しました）	 中止しました（%s。半端なファイルは消しました）
+ui	 書き出せませんでした（%s）。理由:	 書き出せませんでした（%s）。理由:
+ui	 （理由は分かりません）	 （理由は分かりません）
+ui	 %u%%   経過 %s%s	 %u%%   経過 %s%s
+ui	 ESC: 止める（半端なファイルは消します）	 ESC: 止める（半端なファイルは消します）
+ui	書庫: %s	書庫: %s
+ui	読み込み中…（ESC でやめる）	読み込み中…（ESC でやめる）
+ui	 %u 項目%s  合計 %s バイト  展開先: %s	 %u 項目%s  合計 %s バイト  展開先: %s
+ui	 Enter 項目を展開  X 全部を展開  ↑↓ 動かす  ESC 閉じる	 Enter 項目を展開  X 全部を展開  ↑↓ 動かす  ESC 閉じる
+ui	圧縮	圧縮
+ui	一覧	一覧
+ui	展開	展開
+ui	 合計 %s   %u 項目	 合計 %s   %u 項目
+ui	 合計 %s   %u ファイル	 合計 %s   %u ファイル
+ui	 中止しました（%s。書きかけのファイルは消しました）	 中止しました（%s。書きかけのファイルは消しました）
+ui	 できませんでした（%s）: %s	 できませんでした（%s）: %s
+ui	 %u%%   経過 %s   %s バイト%s	 %u%%   経過 %s   %s バイト%s
+ui	 経過 %s   %s バイト%s	 経過 %s   %s バイト%s
+ui	 ESC: 止める（書きかけのファイルは消します）	 ESC: 止める（書きかけのファイルは消します）
+ui	書庫: %s 失敗（%s）	書庫: %s 失敗（%s）
+ui	圧縮: %s（%u 項目）	圧縮: %s（%u 項目）
+ui	展開: %s（%u ファイル）	展開: %s（%u ファイル）
+msg.phrase	the drive went away	ドライブが外れました
+msg.phrase	S: check: wait -- a file is being read or written	S: の検査: ファイルの読み書きが終わるまで待ってください
+msg.phrase	S: check: the drive is busy or not ready	S: の検査: S: が使用中か、準備ができていません
+msg.phrase	reading the partitions again...	区画を読み直しています...
+msg.phrase	could not open the volume (no memory?)	ボリュームを開けません（メモリが足りない？）
+msg.phrase	opening the volume...	ボリュームを開いています...
+msg.phrase	no memory for the file list	一覧のためのメモリが足りません
+msg.phrase	reading the directory... (retrying)	フォルダを読んでいます...（やり直し）
+msg.phrase	could not read the directory	フォルダを読めません
+msg.phrase	reading the directory...	フォルダを読んでいます...
+msg.phrase	the drive did not answer -- reading the partitions again	ドライブが答えません。区画を読み直します
+msg.phrase	could not read the directory (not FAT12/16/32?)	フォルダを読めません（FAT12/16/32 でない？）
+msg.phrase	too many entries -- showing the first ones	項目が多すぎるので、初めのほうだけ出します
+msg.phrase	no file system found on this partition	この区画にファイルシステムが見つかりません
+msg.phrase	the path is too long	パスが長すぎます
+msg.phrase	joining...	つないでいます...
+msg.phrase	splitting...	分けています...
+msg.phrase	renaming...	名前を変えています...
+msg.phrase	creating the folder...	フォルダを作っています...
+msg.phrase	creating the file...	ファイルを作っています...
+msg.phrase	deleting...	消しています...
+msg.phrase	writing the attributes...	属性を書いています...
+msg.phrase	the drive is busy	ドライブが塞がっています
+msg.phrase	busy	塞がっています
+msg.phrase	nothing for this item (ContextMenu.cfg)	この項目に出す操作がありません（ContextMenu.cfg）
+msg.phrase	bad command in ContextMenu.cfg	ContextMenu.cfg の操作の書き方が違います
+msg.phrase	unknown action in ContextMenu.cfg	ContextMenu.cfg に知らない操作があります
+msg.phrase	choose files or folders	ファイルかフォルダを選んでください
+msg.phrase	choose files or folders (not "..")	ファイルかフォルダを選んでください（".." 以外）
+msg.phrase	stop the CD first	先に CD を止めてください
+msg.phrase	the CD cannot be changed (copy instead)	CD は書き換えられません（コピーを使ってください）
+msg.phrase	a system folder cannot be moved	システムのフォルダは動かせません
+msg.phrase	no drive can be written (FAT / exFAT / NTFS only)	書き込めるドライブがありません（FAT・exFAT・NTFS だけ）
+msg.phrase	the drive is gone	ドライブがなくなりました
+msg.phrase	nothing chosen	何も選んでいません
+msg.phrase	nothing selected	何も選んでいません
+msg.phrase	could not start	始められません
+msg.phrase	could not open	開けません
+msg.phrase	only on a FAT / exFAT / NTFS drive	FAT・exFAT・NTFS のドライブでだけできます
+msg.phrase	no name	名前がありません
+msg.phrase	that name already exists	同じ名前があります
+msg.phrase	could not start (bad name or the drive is busy)	始められません（名前が正しくないか、ドライブが塞がっています）
+msg.phrase	could not start (the drive is busy)	始められません（ドライブが塞がっています）
+msg.phrase	the name cannot have / or \\ (only inside this folder)	名前に / と \\ は使えません（同じフォルダの中だけ）
+msg.phrase	the name is the same	名前が同じです
+msg.phrase	the item is read-only (A to change)	読み出し専用です（A で変えられます）
+msg.phrase	choose a .rb file on a writable drive	書き込めるドライブの .rb ファイルを選んでください
+msg.phrase	choose a .rb file	.rb ファイルを選んでください
+msg.phrase	the drive is read-only	ドライブは読み出し専用です
+msg.phrase	choose a folder on a writable drive	書き込めるドライブのフォルダを選んでください
+msg.phrase	wait a moment	少し待ってください
+msg.phrase	choose a file	ファイルを選んでください
+msg.phrase	choose a file or folder	ファイルかフォルダを選んでください
+msg.phrase	this drive cannot be written	このドライブには書けません
+msg.phrase	an archive job is already running	書庫の処理が走っています
+msg.phrase	no PSRAM for the archive task	書庫の処理の PSRAM が足りません
+msg.phrase	could not start the archive task	書庫の処理を始められません
+msg.phrase	too many items (32 at most)	項目が多すぎます（32 個まで）
+msg.phrase	nothing to compress	圧縮するものがありません
+msg.phrase	no name (or the name has / or \\)	名前がありません（または / か \\ が入っています）
+msg.phrase	32 items at most (mark fewer, or put them in a folder)	32 個までです（印を減らすか、フォルダにまとめてください）
+msg.phrase	choose a file (not a folder)	ファイルを選んでください（フォルダでなく）
+msg.phrase	choose a .001 file	.001 のファイルを選んでください
+msg.phrase	choose the .001 file	.001 のファイルを選んでください
+msg.phrase	put the IWAD in a DoomFiles or Doom2Files folder	IWAD は DoomFiles か Doom2Files のフォルダに置いてください
+msg.phrase	DoomFiles takes freedoom1 / doom / doomu / doom1.wad	DoomFiles に置けるのは freedoom1 / doom / doomu / doom1.wad です
+msg.phrase	Doom2Files takes freedoom2 / doom2 / plutonia / tnt.wad	Doom2Files に置けるのは freedoom2 / doom2 / plutonia / tnt.wad です
+msg.phrase	put the game files on external storage, not S:	ゲームのファイルは S: でなく外部のストレージに置いてください
+msg.phrase	the IWAD must be on a FAT / exFAT / NTFS drive (not a CD)	IWAD は FAT・exFAT・NTFS のドライブに置いてください（CD は不可）
+msg.phrase	still working	まだ処理しています
+msg.phrase	an image is loading	画像を読んでいます
+msg.phrase	no framebuffer	FB がありません
+msg.phrase	half brightness works only in RGB555	明るさを半分にするのは RGB555 のときだけです
+msg.phrase	clearing...	消しています...
+msg.phrase	halving the brightness...	明るさを半分にしています...
+msg.phrase	that is a data track	データのトラックです
+msg.phrase	wait -- a file is being written	ファイルを書いているので待ってください
+msg.phrase	only floppy / LS-120 / CD drives	フロッピー・LS-120・CD のドライブだけです
+msg.phrase	requested	頼みました
+msg.phrase	reading the disc...	ディスクを読んでいます...
+msg.phrase	stopping...	止めています...
+msg.phrase	opening...	開いています...
+msg.phrase	done	終わりました
+msg.phrase	no memory	メモリが足りません
+msg.phrase	already open	もう開いています
+msg.phrase	already running	もう動いています
+msg.phrase	already saving	もう保存しています
+msg.phrase	already playing	もう鳴らしています
+msg.phrase	no such drive	そのドライブはありません
+msg.phrase	no PSRAM	PSRAM が足りません
+msg.phrase	no PSRAM for the file	ファイルを置く PSRAM が足りません
+msg.phrase	no PSRAM for the line index	行の索引を置く PSRAM が足りません
+msg.phrase	no PSRAM for the terminal	端末を置く PSRAM が足りません
+msg.phrase	no memory (PSRAM)	メモリ（PSRAM）が足りません
+msg.phrase	no memory (32KB SRAM)	メモリ（SRAM 32KB）が足りません
+msg.phrase	no memory for the buffer	受け場のメモリが足りません
+msg.phrase	no memory for the image buffers	画像の受け場のメモリが足りません
+msg.phrase	no memory for the read buffer	読み出しの受け場のメモリが足りません
+msg.phrase	no room for the work memory (close the lowres plane?)	作業のメモリが取れません
+msg.phrase	no framebuffer page	FB のページがありません
+msg.phrase	too large (4 MB at most)	大きすぎます（4MB まで）
+msg.phrase	the file is too large (1 MB at most)	ファイルが大きすぎます（1MB まで）
+msg.phrase	the file is too large (1 MB max)	ファイルが大きすぎます（1MB まで）
+msg.phrase	too large for an SMF (1MB at most)	SMF としては大きすぎます（1MB まで）
+msg.phrase	the file is empty	ファイルが空です
+msg.phrase	could not open the file	ファイルを開けません
+msg.phrase	could not read the file	ファイルを読めません
+msg.phrase	could not open the volume	ボリュームを開けません
+msg.phrase	could not open the destination (no memory?)	行き先を開けません（メモリが足りない？）
+msg.phrase	could not read the root folder	ルートのフォルダを読めません
+msg.phrase	could not start the task	タスクを始められません
+msg.phrase	could not start writing (bad name or busy)	書き始められません（名前が正しくないか、塞がっています）
+msg.phrase	another volume is open (busy)	ほかのボリュームが開いています（塞がっています）
+msg.phrase	a copy is running	コピーの途中です
+msg.phrase	a folder cannot go into itself	フォルダをそれ自身の中へは入れられません
+msg.phrase	that is the same folder	同じフォルダです
+msg.phrase	this drive cannot be changed (read only)	このドライブは書き換えられません（読み出し専用）
+msg.phrase	the drive is not writable	ドライブに書き込めません
+msg.phrase	the part size must be a multiple of 512	分ける大きさは 512 の倍数にしてください
+msg.phrase	files of 4 GB or more are not supported	4GB 以上のファイルは扱えません
+msg.phrase	bad path	パスが正しくありません
+msg.phrase	bad file name	ファイルの名前が正しくありません
+msg.phrase	the font ROM is not there	フォント ROM がありません
+msg.phrase	the sound is not open	音が開いていません
+msg.phrase	no such channel	そのチャンネルはありません
+msg.phrase	the sequencer is busy	シーケンサーが塞がっています
+msg.phrase	not enough PSRAM for the song	曲を置く PSRAM が足りません
+msg.phrase	not a standard MIDI file (no MThd)	SMF ではありません（MThd がない）
+msg.phrase	no tracks	トラックがありません
+msg.phrase	a track is broken (MTrk)	トラックが壊れています（MTrk）
+msg.phrase	SMPTE time division is not supported	SMPTE の時間の単位は扱えません
+msg.phrase	SMF format 2 is not supported (0 and 1 only)	SMF のフォーマット 2 は扱えません（0 と 1 だけ）
+msg.phrase	not a Bulk-Only drive	Bulk-Only のドライブではありません
+msg.phrase	not an optical drive	光学ドライブではありません
+msg.phrase	a system folder cannot be deleted or renamed	システムのフォルダは消せません・名前を変えられません
+msg.phrase	no media in the drive	媒体が入っていません
+msg.phrase	becoming ready	準備しています
+msg.phrase	not ready	準備ができていません
+msg.phrase	media changed	媒体が替わりました
+msg.phrase	medium error	媒体の誤り
+msg.phrase	illegal request	受け付けられない頼み
+msg.phrase	a bad directory entry	フォルダの項目が壊れています
+msg.phrase	a directory on the way does not exist	途中のフォルダがありません
+msg.phrase	a file has that name	同じ名前のファイルがあります
+msg.phrase	a folder has that name	同じ名前のフォルダがあります
+msg.phrase	a name on the way is not a directory	途中の名前がフォルダではありません
+msg.phrase	cancelled	取りやめました
+msg.phrase	could not mount	マウントできません
+msg.phrase	could not start a read	読み出しを始められません
+msg.phrase	could not start a write	書き込みを始められません
+msg.phrase	is a directory	フォルダです
+msg.phrase	that is a directory	フォルダです
+msg.phrase	no clusters	クラスタがありません
+msg.phrase	no room for the cluster list	クラスタの並びを置く場所がありません
+msg.phrase	no such file or directory	そのファイルかフォルダはありません
+msg.phrase	no such file	そのファイルはありません
+msg.phrase	no volume	ボリュームがありません
+msg.phrase	not NTFS	NTFS ではありません
+msg.phrase	not exFAT	exFAT ではありません
+msg.phrase	not a directory	フォルダではありません
+msg.phrase	not found	見つかりません
+msg.phrase	read error	読み出しの誤り
+msg.phrase	write error	書き込みの誤り
+msg.phrase	reading the FAT failed	FAT を読めません
+msg.phrase	the cluster chain is shorter than the file	クラスタの鎖がファイルより短い
+msg.phrase	the directory is not empty	フォルダが空ではありません
+msg.phrase	the disk is full	ディスクがいっぱいです
+msg.phrase	the drive did not answer	ドライブが答えません
+msg.phrase	the file is read-only	ファイルは読み出し専用です
+msg.phrase	the file is too fragmented	ファイルが細切れすぎます
+msg.phrase	the file is too large (4GB)	ファイルが大きすぎます（4GB）
+msg.phrase	the new name already exists	新しい名前のものがもうあります
+msg.phrase	the root directory is full	ルートのフォルダがいっぱいです
+msg.phrase	too many files with the same short name	同じ短い名前のファイルが多すぎます
+msg.phrase	No such file or directory	そのファイルかフォルダはありません
+msg.phrase	File exists	もうあります
+msg.phrase	Permission denied	許されていません（読み出し専用など）
+msg.phrase	Directory not empty	フォルダが空ではありません
+msg.phrase	Not a directory	フォルダではありません
+msg.phrase	Is a directory	フォルダです
+msg.phrase	Read-only file system	読み出し専用のドライブです
+msg.phrase	No space left on device	空きがありません
+msg.phrase	Input/output error	読み書きの誤り
+msg.phrase	Not supported on this drive	このドライブではできません
+msg.phrase	Invalid path	パスが正しくありません
+msg.phrase	Out of memory	メモリが足りません
+msg.phrase	No such drive	そのドライブはありません
+msg.phrase	stopped	止めました
+msg.phrase	cancelled (not enough free space)	やめました（空きが足りない）
+msg.phrase	could not count the free space	空きを数えられません
+msg.phrase	the receiver cancelled	受け手が取りやめました
+msg.phrase	no receiver (run rz on the PC)	受け手がいません（PC で rz を走らせてください）
+msg.phrase	the console UART is in use	コンソールの UART が使われています
+msg.phrase	the screen mode changed	画面モードが変わりました
+msg.phrase	the lines did not come (is the display running?)	ラインが届きません（表示は動いていますか？）
+msg.prefix	copy	コピー
+msg.prefix	move	移動
+msg.prefix	delete	削除
+msg.prefix	rename	名前の変更
+msg.prefix	attributes	属性
+msg.prefix	new file	新しいファイル
+msg.prefix	new folder	新しいフォルダ
+msg.prefix	image	画像
+msg.prefix	mrbc	コンパイル
+msg.prefix	ruby	Ruby
+msg.prefix	viewer	ビュアー
+msg.prefix	edit	エディタ
+msg.prefix	IDENTIFY	素性
+msg.prefix	ZMODEM	ZMODEM
+msg.prefix	ZMODEM receive	ZMODEM の受け取り
+msg.prefix	ZMODEM send	ZMODEM の送り
+msg.prefix	split	分割
+msg.prefix	join	結合
+msg.prefix	Doom	Doom
+msg.prefix	SMF	SMF
+msg.prefix	CD	CD
+msg.prefix	FB	FB
+msg.prefix	Eject	取り出し
+msg.prefix	reboot	再起動
+msg.prefix	license	ライセンス
+msg.prefix	menu	メニュー
+msg.prefix	clock	時計
+msg.prefix	ADC in	ADC の入力
+msg.prefix	screen -> PNG	画面の写し
+msg.prefix	FB -> PNG	FB の保存
+msg.prefix	could not open the volume	ボリュームを開けません
+msg.prefix	archive	書庫
+msg.prefix	compress	圧縮
+msg.prefix	render	WAV 書き出し
+msg.pattern	received 	受け取りました: %s
+msg.pattern	sent 	送りました: %s
+msg.pattern	saved 	保存しました: %s
+msg.pattern	created 	作りました: %s
+msg.pattern	renamed to 	名前を変えました: %s
+msg.pattern	deleted 	消しました: %s
+msg.pattern	changed 	変えました: %s
+msg.pattern	joined 	つなぎました: %s
+msg.pattern	split 	分けました: %s
+msg.pattern	could not create 	作れません: %s
+msg.pattern	could not delete 	消せません: %s
+msg.pattern	could not rename to 	名前を変えられません: %s
+msg.pattern	could not change 	変えられません: %s
+msg.pattern	could not read 	読めません: %s
+msg.pattern	could not write 	書けません: %s
+msg.pattern	could not copy 	写せません: %s
+msg.pattern	could not make 	作れません: %s
+msg.pattern	could not remove the folder 	フォルダを消せません: %s
+msg.pattern	could not remove 	消せません: %s
+msg.pattern	no memory for 	メモリが足りません: %s
+msg.pattern	too many errors while sending 	誤りが多すぎて送れません: %s
+msg.pattern	the receiver did not take 	受け手が受け取りませんでした: %s
+msg.pattern	the receiver skipped 	受け手が飛ばしました: %s
+msg.pattern	FB page 	FB のページ %s
+msg.word	 bytes each)	 バイトずつ）
+msg.word	 bytes)	 バイト）
+msg.word	 KB)	 KB）
+msg.word	 parts into 	 個を 1 つに: 
+msg.word	 parts (	 個に（
+msg.word	 into 	 を 
+msg.word	: cleared	: 消しました
+msg.word	: brightness halved	: 明るさを半分にしました
+msg.word	% read	% 読んだ
+msg.word	 rows	 行
+msg.word	 -- not supported yet (FAT / exFAT / NTFS only)	 はまだ使えません（FAT・exFAT・NTFS だけ）
+msg.word	 files	 個のファイル
+msg.word	 (	（

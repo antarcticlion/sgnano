@@ -1,0 +1,787 @@
+# gl: machine translation (Google), unreviewed; 2026-11-17
+M001	a unidade foise
+M002	lendo de novo as particións...
+M003	non se puido abrir o volume (sen memoria?)
+M004	abrindo o volume...
+M005	non hai memoria para a lista de ficheiros
+M006	lendo o directorio... (tentando de novo)
+M007	non puido ler o directorio
+M008	lendo o directorio...
+M009	a unidade non respondeu -- lendo as particións de novo
+M010	non puido ler o directorio (non FAT12/16/32?)
+M011	demasiadas entradas, mostrando as primeiras
+M012	non se atopou ningún sistema de ficheiros nesta partición
+M013	o camiño é demasiado longo
+M014	unirse...
+M015	dividindo...
+M016	renomeando...
+M017	creando o cartafol...
+M018	creando o ficheiro...
+M019	eliminando...
+M020	escribindo os atributos...
+M021	a unidade está ocupada
+M022	ocupado
+M023	escoller ficheiros ou cartafoles
+M024	escoller ficheiros ou cartafoles (non "..")
+M025	primeiro para o CD
+M026	o CD non se pode cambiar (copia no seu lugar)
+M027	non se pode mover un cartafol do sistema
+M028	non se pode escribir ningunha unidade (só FAT / exFAT / NTFS)
+M029	a unidade desapareceu
+M030	nada escollido
+M031	nada seleccionado
+M032	non puido comezar
+M033	non puido abrir
+M034	só nunha unidade FAT/exFAT/NTFS
+M035	sen nome
+M036	ese nome xa existe
+M037	non se puido iniciar (mal nome ou a unidade está ocupada)
+M038	non se puido iniciar (a unidade está ocupada)
+M039	o nome non pode ter / ou \\ (só dentro deste cartafol)
+M040	o nome é o mesmo
+M041	o elemento é de só lectura (A para cambiar)
+M042	escolle un ficheiro .rb nunha unidade gravable
+M043	escolla un ficheiro .rb
+M044	a unidade é de só lectura
+M045	escolle un cartafol nunha unidade de escritura
+M046	agarda un momento
+M047	escolle un ficheiro
+M048	escoller un ficheiro (non un cartafol)
+M049	escolla un ficheiro .001
+M050	escolla o ficheiro .001
+M051	coloque o IWAD nun cartafol DoomFiles ou Doom2Files
+M052	DoomFiles leva freedoom1 / doom / doomu / doom1.wad
+M053	Doom2Files leva freedoom2 / doom2 / plutonia / tnt.wad
+M054	coloque os ficheiros do xogo nun almacenamento externo, non en S:
+M055	o IWAD debe estar nunha unidade FAT/exFAT/NTFS (non nun CD)
+M056	aínda traballando
+M057	estase cargando unha imaxe
+M058	sen framebuffer
+M059	a metade do brillo só funciona en RGB555
+M060	despexando...
+M061	reducindo o brillo á metade...
+M062	que é unha pista de datos
+M063	agardar: estase a escribir un ficheiro
+M064	só unidades de disquete / LS-120 / CD
+M065	solicitado
+M066	lendo o disco...
+M067	parando...
+M068	apertura...
+M069	feito
+M070	sen memoria
+M071	xa aberto
+M072	xa funcionando
+M073	xa gardando
+M074	xa xogando
+M075	non hai tal unidade
+M076	sen PSRAM
+M077	sen PSRAM para o ficheiro
+M078	sen PSRAM para o índice de liña
+M079	sen PSRAM para o terminal
+M080	sen memoria (PSRAM)
+M081	sen memoria (32 KB SRAM)
+M082	non hai memoria para o buffer
+M083	non hai memoria para os búfers de imaxe
+M084	non hai memoria para o búfer de lectura
+M085	non hai espazo para a memoria de traballo (pechar o plano inferior?)
+M086	sen páxina de framebuffer
+M087	demasiado grande (4 MB como máximo)
+M088	o ficheiro é demasiado grande (1 MB como máximo)
+M089	o ficheiro é demasiado grande (1 MB como máximo)
+M090	demasiado grande para un SMF (1 MB como máximo)
+M091	o ficheiro está baleiro
+M092	non se puido abrir o ficheiro
+M093	non puido ler o ficheiro
+M094	non puido abrir o volume
+M095	non se puido abrir o destino (sen memoria?)
+M096	non se puido ler o cartafol raíz
+M097	non puido comezar a tarefa
+M098	non puiden comezar a escribir (mal nome ou ocupado)
+M099	outro volume está aberto (ocupado)
+M100	está a executarse unha copia
+M101	un cartafol non pode entrar en si mesmo
+M102	ese é o mesmo cartafol
+M103	esta unidade non se pode cambiar (só lectura)
+M104	a unidade non se pode escribir
+M105	o tamaño da peza debe ser múltiplo de 512
+M106	Non se admiten ficheiros de 4 GB ou máis
+M107	mal camiño
+M108	nome do ficheiro incorrecto
+M109	a ROM da fonte non está alí
+M110	o son non está aberto
+M111	ningunha canle deste tipo
+M112	o secuenciador está ocupado
+M113	non hai PSRAM suficiente para a canción
+M114	non é un ficheiro MIDI estándar (sen MThd)
+M115	sen pistas
+M116	unha pista está rota (MTrk)
+M117	Non se admite a división de tempo SMPTE
+M118	O formato SMF 2 non é compatible (só 0 e 1)
+M119	non é unha unidade só masiva
+M120	non é unha unidade óptica
+M121	un cartafol do sistema non se pode eliminar nin renomear
+M122	non hai medios na unidade
+M123	preparándose
+M124	non está preparado
+M125	medios cambiaron
+M126	erro medio
+M127	petición ilegal
+M128	unha mala entrada do directorio
+M129	un directorio no camiño non existe
+M130	un ficheiro ten ese nome
+M131	un cartafol ten ese nome
+M132	un nome no camiño non é un directorio
+M133	cancelado
+M134	non puido montar
+M135	non puido iniciar unha lectura
+M136	non puido comezar a escribir
+M137	é un directorio
+M138	que é un directorio
+M139	sen clusters
+M140	non hai espazo para a lista de clúster
+M141	ningún ficheiro ou directorio deste tipo
+M142	ningún ficheiro deste tipo
+M143	sen volume
+M144	non NTFS
+M145	non exFAT
+M146	non un directorio
+M147	non atopado
+M148	erro de lectura
+M149	erro de escritura
+M150	fallou a lectura do FAT
+M151	a cadea de clúster é máis curta que o ficheiro
+M152	o directorio non está baleiro
+M153	o disco está cheo
+M154	a unidade non respondeu
+M155	o ficheiro é de só lectura
+M156	o ficheiro está demasiado fragmentado
+M157	o ficheiro é demasiado grande (4 GB)
+M158	o novo nome xa existe
+M159	o directorio raíz está cheo
+M160	demasiados ficheiros co mesmo nome curto
+M161	Non hai ningún ficheiro ou directorio deste tipo
+M162	O ficheiro existe
+M163	Permiso denegado
+M164	O directorio non está baleiro
+M165	Non é un directorio
+M166	É un directorio
+M167	Sistema de ficheiros de só lectura
+M168	Non queda espazo no dispositivo
+M169	Erro de entrada/saída
+M170	Non é compatible con esta unidade
+M171	Camiño non válido
+M172	Fóra de memoria
+M173	Non hai tal unidade
+M174	parou
+M175	cancelado (non hai espazo libre suficiente)
+M176	non puido contar o espazo libre
+M177	o receptor cancelado
+M178	sen receptor (executar rz no PC)
+M179	a consola UART está en uso
+M180	cambiou o modo de pantalla
+M181	non chegaron as liñas (a pantalla está funcionando?)
+M182	copiar
+M183	moverse
+M184	eliminar
+M185	renomear
+M186	atributos
+M187	novo ficheiro
+M188	novo cartafol
+M189	imaxe
+M190	mrbc
+M191	rubí
+M192	espectador
+M193	editar
+M194	IDENTIFICAR
+M195	ZMODEM
+M196	ZMODEM recibe
+M197	Enviar ZMODEM
+M198	dividir
+M199	únete
+M200	Perdición
+M201	SMF
+M202	CD
+M203	FB
+M204	Expulsar
+M205	reiniciar
+M206	licenza
+M207	reloxo
+M208	ADC en
+M209	pantalla -> PNG
+M210	FB -> PNG
+M211	non puido abrir o volume
+M212	recibido
+M213	enviado
+M214	gardado
+M215	creado
+M216	renomeado a
+M217	eliminado
+M218	cambiou
+M219	unido
+M220	dividir
+M221	non puido crear
+M222	non se puido eliminar
+M223	non se puido cambiar o nome a
+M224	non puido cambiar
+M225	non sabía ler
+M226	non podía escribir
+M227	non puido copiar
+M228	non puido facer
+M229	non se puido eliminar o cartafol
+M230	non puido eliminar
+M231	sen memoria para
+M232	demasiados erros ao enviar
+M233	o receptor non colleu
+M234	saltou o receptor
+M235	Páxina de FB
+M236	bytes cada un)
+M237	bytes)
+M238	KB)
+M239	partes en
+M240	partes (
+M241	en
+M242	: despexado
+M243	: brillo reducido á metade
+M244	% lido
+M245	filas
+M246	-- aínda non é compatible (só FAT/exFAT/NTFS)
+M247	ficheiros
+M248	(
+M249	Sen título
+M250	1 Arquivo
+M251	2 Editar
+M252	3 Gráfico
+M253	4 Folla
+M254	5 Axuda
+M255	BALEIRO
+M256	NÚMERO
+M257	TEXTO
+M258	FÓRMULA
+M259	Escribe para entrar, F2 para editar, F1 para obter axuda
+M260	5 CSV
+M261	6 ODS
+M262	[MAYÚS]
+M263	[CTRL]
+M264	[ALT]
+M265	Listo
+M266	SGCALC
+M267	Preme calquera tecla
+M268	Y = si N = non Esc = cancelar
+M269	Intro = Aceptar Esc = cancelar Ctrl-U = borrar
+M270	Primeira fila/columna = etiquetas; os gráficos usan o FB CLUT8 de 640x480.
+M271	SGCAC - AXUDA
+M272	Preme calquera tecla para volver
+M273	Preme calquera tecla para volver.
+M274	SOBRE SGCALC
+M275	Novo
+M276	Comeza unha nova folla
+M277	Abrir...
+M278	Abre un ficheiro ODS, FODS ou CSV
+M279	Gardar
+M280	Garda o ficheiro actual
+M281	Gardar como...
+M282	Garda cun novo nome ou formato
+M283	Exportar CSV...
+M284	Escribe unha copia CSV
+M285	Exportar ODS...
+M286	Escribe unha copia de LibreOffice
+M287	Saír
+M288	Deixa o SGCLC
+M289	Limpar
+M290	Limpar as celas seleccionadas
+M291	Copiar
+M292	Copia a selección
+M293	Pegar
+M294	Pega no cursor
+M295	Corte
+M296	Copia e borra a selección
+M297	Selecciona todo
+M298	Seleccione todas as celas usadas
+M299	Cor do texto...
+M300	Escolla a cor do texto
+M301	Fondo...
+M302	Escolla o fondo da cela
+M303	Liña
+M304	Debuxa un gráfico de liñas a partir da selección
+M305	Bar
+M306	Debuxa un gráfico de barras a partir da selección
+M307	Mixto
+M308	Compases para a primeira serie, liñas para o resto
+M309	Empanada
+M310	Debuxa un gráfico circular a partir da selección
+M311	Rango...
+M312	Establece o intervalo do gráfico de forma explícita
+M313	Debuxa de novo
+M314	Redebuxa o último gráfico
+M315	Ir a...
+M316	Ir a unha cela (por exemplo C12)
+M317	Ancho da columna...
+M318	Cambia o ancho das columnas seleccionadas
+M319	Altura da fila...
+M320	Cambia a altura das filas seleccionadas
+M321	Ajuste automático
+M322	Axustar anchos/alturas ao contido (F7)
+M323	Recalcular
+M324	Reavaliar todas as fórmulas
+M325	Borrar todo
+M326	Limpar toda a folla
+M327	Chaves
+M328	Mostra a guía clave
+M329	Sobre
+M330	Acerca de SGCLC
+M331	Arquivo
+M332	Editar
+M333	Gráfico
+M334	Folla
+M335	Axuda
+M336	Ficheiro: novo, abrir, gardar, exportar, saír
+M337	Editar: borrar, copiar, pegar, cortar, seleccionar todo
+M338	Gráfico: liña, barra, mixto, torta (debuxos no FB)
+M339	Folla: ir a, ancho da columna, recalcular, borrar
+M340	Axuda: chaves e sobre
+M341	Esquerda/Dereita = menú Arriba/Abaixo = elemento Intro = escoller Esc = cancelar
+M342	Cancelado
+M343	A selección é demasiado grande ou a memoria é pouca.
+M344	a célula
+M345	a selección
+M346	Nada que pegar
+M347	Pegado
+M348	IR A CELULAR
+M349	Referencia da cela (A1):
+M350	Ir a
+M351	LARGO DA COLUMNA
+M352	Ancho en caracteres (4..30):
+M353	ALTURA DA FILA
+M354	Altura nas filas de texto (1..8):
+M355	Axuste automático: a folla está baleira
+M356	COR DE FONDO
+M357	COR DO TEXTO
+M358	Frechas: escolla Intro: aplicar Esc: cancelar
+M359	Índice de cores (paleta de 16 cores PC-98)
+M360	Aa 123
+M361	Intro = aplicar Esc = cancelar
+M362	Cor
+M363	Fondo
+M364	Texto
+M365	RANGO GRÁFICO
+M366	Intervalo (por exemplo A1:C10):
+M367	Rango gráfico
+M368	Use un rango como A1:C10.
+M369	Non se pode debuxar o gráfico.
+M370	liña
+M371	bar
+M372	mesturado
+M373	empanada
+M374	Queres borrar todas as celas desta folla?
+M375	Folla borrada
+M376	Seleccionáronse todas as celas usadas
+M377	Recalculado
+M378	Memoria
+M379	Non hai suficiente PSRAM para a folla de cálculo.
+M380	A folla está baleira.
+M381	Non hai datos numéricos no intervalo seleccionado.
+M382	Outros
+M383	Non hai valores positivos para un gráfico circular
+M384	LIÑA
+M385	BAR
+M386	MIXTO
+M387	TORTA
+M388	S:/
+M389	Cartafol
+M390	GARDAR COMO
+M391	ABRIR ARQUIVO
+M392	LibreOffice / CSV
+M393	ODS FODS CSV
+M394	Nome:
+M395	(escriba un nome ou escolla a continuación)
+M396	Nome
+M397	Tamaño
+M398	Enter=gardar Esquerda=arriba Dereita/Intro en [DIR]=abrir Tab=unidade Esc=cancelar
+M399	Intro=abrir Esquerda=arriba Dereita/Intro en [DIR]=abrir Tab=unidade Esc=cancelar
+M400	Non hai memoria suficiente.
+M401	Sobrescribir
+M402	Aberto
+M403	O ficheiro é demasiado grande (límite 8 MB).
+M404	Non hai memoria suficiente para ler o ficheiro.
+M405	Datos ZIP/ODS incorrectos.
+M406	Erro CRC no ficheiro ODS.
+M407	Ficheiro non compatible ou danado.
+M408	Gardado
+M409	Exportouse
+M410	Cambios sen gardar
+M411	Queres gardar a folla actual antes de continuar?
+M412	Folla nova
+M413	SGTRK
+M414	SIN TÍTULO
+M415	a canción é demasiado grande
+M416	arquivo baleiro
+M417	non é un ficheiro SGT
+M418	mal BPM
+M419	mala velocidade
+M420	mala lonxitude do título
+M421	título truncado
+M422	mal carácter no título
+M423	orde truncada
+M424	lonxitude de orde incorrecta
+M425	número de patrón incorrecto en orde
+M426	lista de patróns truncados
+M427	conta de patróns malos
+M428	índice de patrón malo
+M429	patrón duplicado
+M430	datos de patrón truncado
+M431	datos de patrón non válidos
+M432	datos finais no ficheiro
+M433	orde refírese a un patrón que falta
+M434	A:/
+M435	(sen título)
+M436	Listo. Preme F1 para obter axuda.
+M437	Seguir OFF
+M438	Nada que desfacer
+M439	Desfacer
+M440	Nota OFF
+M441	Establece primeiro unha letra de efecto
+M442	Efecto borrado
+M443	Borrouse o parámetro
+M444	Borrouse a nota
+M445	Instrumento borrado
+M446	Borrouse o volume
+M447	A lista de pedidos está chea
+M448	Orde inserida
+M449	Non se pode eliminar o último pedido
+M450	Eliminouse o pedido
+M451	Tocando canción
+M452	Detido
+M453	Nova canción
+M454	Queres descartar os cambios non gardados e comezar unha canción nova? (S/N)
+M455	Queres descartar os cambios non gardados e abrir unha canción? (S/N)
+M456	Descartar os cambios non gardados e saír? (S/N)
+M457	Actualizouse a configuración da canción
+M458	O nome do ficheiro está baleiro
+M459	Gardar cancelado
+M460	Aberto cancelado
+M461	Editar ON
+M462	Edición OFF
+M463	Siga ON
+M464	A edición está desactivada. Preme F8 para editar.
+M465	Erro de E/S
+M466	o ficheiro é demasiado grande
+M467	ficheiro truncado
+M468	SINE PAD
+M469	TRIÁNGULO
+M470	POMBO DE SERRA
+M471	PRAZA
+M472	PULSO 25
+M473	ÓRGANO
+M474	BAIXO
+M475	CAMPÁ
+M476	RUÍDO
+M477	SINE
+M478	SERRO
+M479	DESACTIVADO
+M480	ON
+M481	FILA
+M482	NIVEL CHAN
+M483	F1 AXUDA F2 CANCIÓN
+M484	F3 INS F4 GARDAR
+M485	F5 PLAY F6 PAT
+M486	F7 PARAR F8 EDITAR
+M487	F9/F10 OCTAVA
+M488	F11 SEGUIR
+M489	F12 SAÍR
+M490	ESPAZO PLAY/STOP
+M491	CTRL-S GARDAR
+M492	CTRL-O ABRIR
+M493	C-N NOVO C-Z UNDO
+M494	C-C PARADA
+M495	# TRANSPORTE E ARQUIVOS
+M496	#LISTA DE PEDIDOS
+M497	#PANTALLA
+M498	#EDICIÓN
+M499	#EFFECTS (o parámetro é hexadecimal)
+M500	PÁXINA ESQUERDA/DEREITA INTRO OU F1 PECHA
+M501	CONFIGURACIÓN DA CANCIÓN
+M502	ARRIBA/ABAIXO SELECCIONAR ESQUERDA/DEREITA Axustar ENTER/F2 PECHAR
+M503	Escribe para editar o título. Retroceso elimina o último carácter.
+M504	Rango de BPM 32..255. Rango de velocidade 1..31.
+M505	Os efectos do patrón tamén poden cambiar a velocidade e o BPM mentres se xoga.
+M506	INSTRUMENTOS
+M507	ARRIBA/ABAIXO SELECCIONAR ESPAZO VISTA PREVIA INTRO USAR F3 PECHAR
+M508	As catro canles usan síntese de táboa de ondas.
+M509	A vista previa reproduce C-4 na pista debaixo do cursor de edición.
+M510	GARDAR A CANCIÓN COMO
+M511	ENTER GARDAR F4 OU CTRL-C CANCELAR
+M512	Directorio:
+M513	Nome do ficheiro:
+M514	A extensión .SGT engádese automaticamente.
+M515	Pódese sobrescribir un ficheiro existente.
+M516	CANCIÓN ABERTA
+M517	INTRODUCIR ABRIR BS PAIS CTRL-O/CTRL-C CANCELAR
+M518	(non hai ficheiros .SGT neste cartafol)
+M519	CONFIRMAR
+M520	Y = SI N / ENTER / CTRL-C = NON
+M521	Y = si N = non
+M522	C-
+M523	C#
+M524	D-
+M525	D#
+M526	E-
+M527	F-
+M528	F#
+M529	G-
+M530	G#
+M531	A-
+M532	A#
+M533	B-
+M534	A:/dir/nome
+M535	MThd
+M536	MThd roto
+M537	IMPORTACIÓN MIDI
+M538	MTrk
+M539	tempo delta roto
+M540	estado de funcionamento roto
+M541	meta evento roto
+M542	evento sysex roto
+M543	evento de canal roto
+M544	A saída SMF é demasiado pequena
+M545	A saída SMF é demasiado grande
+M546	a canción é demasiado longa para SMF
+M547	TRK1
+M548	%s%d
+M549	%s%d:%s%d
+M550	%s
+M551	%.40s%s
+M552	[%s] %s
+M553	EDITAR
+M554	LISTO
+M555	%4d
+M556	%s Suma %.7g N %ld%s
+M557	AS FRECCHAS moven o cursor da cela
+M558	SHIFT+ARR amplía a selección (para gráficos/copia)
+M559	ENTER editar a cela; en editar, confirmar e baixar
+M560	TAB seguinte cela SHIFT+TAB cela anterior
+M561	BORRAR borrar as celas seleccionadas ESC cancelar
+M562	PGUP/PGDN move unha pantalla INICIO/FIN primeira/última columna
+M563	CTRL+INICIO A1 CTRL+FIN a última cela utilizada
+M564	F1 axuda F2 editar F3 copiar F4 pegar F5 ir á cor F6
+M565	F7 axuste automático F8 fondo F9 recalc F10 gráfico F11 gardar menú F12
+M566	MAYÚS+F1 sobre MAIÚS+F2 altura da fila MAIÚS+F3 ancho da columna
+M567	MAIÚS+F4 selecciona todos os intervalos de gráficos MAIÚS+F10 MAIÚS+F11 gardar como
+M568	CTRL+F1 novo CTRL+F2 abrir CTRL+F3 gardar CTRL+F4 gardar como
+M569	CTRL+F5 exportar CSV CTRL+F6 exportar ODS ALT+F12 saír
+M570	2 liñas inferiores: teclas de función; [SHIFT]/[CTRL]/[ALT] como o ficheiro
+M571	CTRL+S gardar CTRL+O abrir CTRL+N novo CTRL+C/V/X copiar/pegar/cortar
+M572	CTRL+G ir a / abrir o menú (1 Ficheiro, 2 Editar, ...)
+M573	Funcións integradas: SUMA MEDIA MIN MAX COUNT COUNTA
+M574	PRODUTO ABS SQRT INT REDONDA MOD POTENCIA SE E OU NON
+M575	IFERROR LEN ESQUERDA DEREITA MEDIO SUPERIOR INFERIOR TRIM CONCATENAR PI
+M576	Referencias de cela: A1, $A$1, A1:B10.  As fórmulas comezan por '='.
+M577	Ficheiros: .ods (LibreOffice), .fods (XML plano), .csv
+M578	ODS/FODS mantén fórmulas, anchos, alturas e cores.
+M579	CSV mantén valores e fórmulas (sen cores nin alturas).
+M580	Gráfico: seleccione un rango, prema F10 e escolla Liña/Barra/Mixtado/Pastel.
+M581	SGCALC para sgnano
+M582	Versión
+M583	Unha folla de cálculo de estilo Lotus 1-2-3 como programa SGX.
+M584	SGX ABI %u.%u
+M585	Modo de pantalla 3: texto + CLUT8 FB (lowres desactivado)
+M586	Folla: %d filas x %d columnas
+M587	Formatos: .ods / .fods (LibreOffice), .csv
+M588	A grella está debuxada no plano do texto.
+M589	Os gráficos e o fondo de 640x480 usan o FB.
+M590	%d %s
+M591	Non se pode almacenar a cela (%d).
+M592	Copiáronse %d x %d celas
+M593	Borrado %s
+M594	'%s' non é unha referencia de cela.
+M595	%d
+M596	Ancho da columna = %d
+M597	Altura da fila = %d
+M598	Axuste automático: %d columna(s), %d fila(s)
+M599	%2d
+M600	Non se pode aplicar a cor (%d).
+M601	%s cor = %d
+M602	Non é un intervalo válido.\nUse un rango como A1:C10.
+M603	Rango gráfico %s
+M604	Gráfico: %s
+M605	SGCALC: non se pode establecer o modo de pantalla 3: %s
+M606	%.2g
+M607	%.6g
+M608	%s %.0f%%
+M609	GRÁFICA %s %s
+M610	%s%s
+M611	%s/%s
+M612	%.*s
+M613	%.*s/
+M614	Non se pode ler %s\n%s
+M615	Cartafol: %s
+M616	[DIR] %s
+M617	%s
+M618	%lu.%luM
+M619	%luK
+M620	%luB
+M621	LIBRO1%s
+M622	%c:/
+M623	Extensión non compatible.\nUse .csv, .ods ou .fods.
+M624	%s xa existe.\nSobreescribilo?
+M625	É posible que %s non se poida escribir.\nProba de todos os xeitos?
+M626	Tipo de ficheiro descoñecido para %s
+M627	Tipo de ficheiro non compatible.\nUse .csv, .ods ou .fods.
+M628	Non se pode abrir %s\n%s
+M629	%s é un cartafol.
+M630	Non se pode importar %s\n%s
+M631	Cargado %s
+M632	Non se pode construír o ficheiro %s.
+M633	Non se pode escribir %s\n%s
+M634	%s %s
+M635	versión non compatible %u
+M636	%d:%d:%d:%d:%d:%d
+M637	Oitava %d
+M638	Nota %s
+M639	Instrumento %d
+M640	Volume %s
+M641	Efecto %c
+M642	Parámetro %s
+M643	Patrón %s
+M644	Patrón de reprodución %s
+M645	GARDAR ERRO: %s
+M646	Gardado %s
+M647	ERRO DE CARGA: %s
+M648	BPM %d
+M649	Velocidade %d
+M650	Vista previa %s
+M651	Instrumento %s %s
+M652	Sobrescribir %s? (S/N)
+M653	| BPM %s SPD %s
+M654	SGNO TRACKER 1.0 |
+M655	FICHEIRO
+M656	PAT %s
+M657	ORD %d/%d
+M658	INS %s
+M659	OUT %d
+M660	EDITAR %s
+M661	ON
+M662	FOL %s
+M663	PISTA %d
+M664	%c%s
+M665	%s %s %s %s
+M666	%s
+M667	%d %s %s
+M668	ORDE %d/%d
+M669	PAT %s
+M670	INS %s %s
+M671	OCT %d EDITAR %s
+M672	SEGUIR %s
+M673	PLAYING ORD %d/%d PAT %s ROW %s/%d SPD %s BPM %d F7 STOP
+M674	LISTO EDICIÓN %s OUT %d F1 AXUDA F5 REPRODUCIR CTRL-S GARDAR
+M675	%s
+M676	F5 Reproduce a canción desde a orde actual
+M677	F6 Reproduce o patrón actual
+M678	F7/Ctrl-C Deter a reprodución
+M679	Space Play / parar
+M680	F4 Gardar como
+M681	Ctrl-S Gardar (pide un nome se é novo)
+M682	Ctrl-O Abre unha canción
+M683	Ctrl-N Nova canción
+M684	F12 Saír (confirmación se se modifica)
+M685	[ ] Entrada de pedido anterior / seguinte
+M686	{ } Inserir/eliminar unha entrada de pedido
+M687	- + Cambia o patrón na entrada
+M688	F11 Seguir a reprodución (desactiva o movemento manual)
+M689	F1 Axuda; Esquerda/Dereita cambia a páxina
+M690	F8 Alterna o modo de edición
+M691	Frechas Move o cursor
+M692	PgUp/PgDn Saltar 16 filas
+M693	Inicio/Fin Primeira/última fila
+M694	F9/F10 Octava abaixo/arriba
+M695	Z S X D C V G B H N J M fila inferior de piano
+M696	Q 2 W 3 E R 5 T 6 Y 7 U fila superior de piano
+M697	1 Nota desactivada
+M698	0 / Del 0 borra nota/inst/fx; Del borra calquera
+M699	Ctrl-Z Desfacer a última edición do patrón/orde
+M700	Slide Volume Axy: arriba x, abaixo y
+M701	Cxx Nota cortada despois de xx ticks
+M702	Dxx Establecer volume (00..7F)
+M703	Fxx Velocidade se xx < 20, en caso contrario, BPM
+M704	Hxy Arpexo x, y semitonos
+M705	Pxx Desliza cara arriba
+M706	Qxx Desliza cara abaixo
+M707	Configuración de cancións F2, lista de instrumentos F3
+M708	AXUDA %d/2
+M709	Título
+M710	[%s_]
+M711	BPM: %d (esquerda/dereita -1/+1, -/+ -5/+5)
+M712	Velocidade: %d ticks/fila
+M713	Filas: %d (fixo)
+M714	Orde: %d entradas
+M715	Patróns en uso: %d
+M716	# NAME WAVE A D S R VOL
+M717	%c %d %-9s %-9s %3d %3d %3d %3d %4d
+M718	Instrumento actual: %s %s
+M719	%s
+M720	DIR %s
+M721	%c %s%s
+M722	Arquivos: %d
+M723	%02d
+M724	%03d
+M725	%02X
+M726	SGNO TRACKER: SGX ABI incompatible
+M727	S: comproba: agarda -- estase lendo ou escribindo un ficheiro
+M728	S: comproba: a unidade está ocupada ou non está lista
+M729	nada para este elemento (ContextMenu.cfg)
+M730	comando incorrecto en ContextMenu.cfg
+M731	acción descoñecida en ContextMenu.cfg
+M732	menú
+M733	escolle un ficheiro ou cartafol
+M734	esta unidade non se pode escribir
+M735	xa se está a executar un traballo de arquivo
+M736	sen PSRAM para a tarefa de arquivo
+M737	non se puido iniciar a tarefa de arquivo
+M738	demasiados elementos (32 como máximo)
+M739	nada que comprimir
+M740	sen nome (ou o nome ten / ou \\)
+M741	32 elementos como máximo (marca menos ou colócaos nun cartafol)
+M742	arquivo
+M743	comprimir
+M744	render
+N001	5 Macro
+N002	6 Axuda
+N003	Executar corrente
+N004	Executar a macro no cursor (#! cela de cabeceira e as celas debaixo dela)
+N005	Executar selección
+N006	Executar as celas seleccionadas como unha macro (a cela superior esquerda é a cabeceira #!)
+N007	Corre todos
+N008	Executar todas as macros da folla, de arriba á esquerda a abaixo á dereita
+N009	Último erro
+N010	Mostra o último erro de macro
+N011	Macro
+N012	Macro: executa #!ruby / #!python / #!celdas básicas
+N013	Editar a cela (F2)
+N014	Axustar anchos/alturas ao contido
+N015	Último erro de macro
+N016	Non hai erro de macro.
+N017	IME activado
+N018	IME desactivado
+N019	Macro: %s %s...
+N020	%s: este firmware non pode executar macros (SGX ABI 5.10 ou posterior)
+N021	Erro de macro: %s
+N022	Macro: %s feito
+N023	xa se está a executar unha macro
+N024	este idioma non está dispoñible
+N025	memoria insuficiente
+N026	a macro detívose cun erro
+N027	Erro de macro %s: %s
+N028	Macro: memoria insuficiente
+N029	Macro: o cursor non está nunha macro (unha cela básica #!ruby / #!python / #! ou as celas debaixo dela)
+N030	Macro: non hai macro na folla
+N031	Executar todas as macros
+N032	Macros: %d. Execútalos todos, de arriba á esquerda a abaixo á dereita? Os cambios non se poden desfacer.
+N033	Macro: %d de %d feito
+N034	Limpou a cela
+N035	Borrou a selección
+N036	Cor de fondo = %d
+N037	Cor do texto = %d
+N038	Gráfico: liña
+N039	Gráfico: barra
+N040	Gráfico: mixto
+N041	Gráfico: torta
+N042	Exportado %s

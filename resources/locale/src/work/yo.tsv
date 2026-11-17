@@ -1,0 +1,995 @@
+# Yorùbá (yo) — UI and messages. Machine translation, unreviewed (2026-11-16)
+U001	Àkójọ (fáìlì àti fódà ní ọ̀wọ̀n 2 x ìlà 19)
+U002	Gbé kọ́sọ̀ (òsì / ọ̀tún: ọ̀wọ̀n kejì)
+U003	Ojú-ìwé tó ṣáájú / ojú-ìwé tó kàn
+U004	Sàmì sí gbogbo / yí àmì padà (bíi PC-98 FD)
+U005	Àkọ́kọ́ / ìkẹyìn
+U006	Sàmì kí o tẹ̀síwájú / sàmì nìkan
+U007	Shift+ọfà
+U008	Yan agbègbè (Space ń sàmì sí agbègbè)
+U009	Wọ fódà / ṣí fáìlì (F2/X ṣiṣẹ́)
+U010	Gòkè sí fódà òbí
+U011	Yan dráìfù (USB, flọ́pì, CD, S: inú)
+U012	Ṣẹ̀dà (Shift+C / Shift+F3 yan ibi tí yóò lọ láti inú igi)
+U013	Gbé lọ
+U014	Pa rẹ́ (Shift+D / Shift+F4 pa fódà rẹ́)
+U015	Yí orúkọ padà
+U016	Yí àbùdá padà
+U017	Ṣí nínú olóòtú
+U018	Wò bí ọ̀rọ̀ (Shift+V / Ctrl+Alt+F7 hex)
+U019	Ìsọfúnni dráìfù
+U020	Fódà tuntun / fáìlì tuntun
+U021	Shell sgsh / yọ díìsì jáde
+U022	Tún kà
+U023	Fi ojú-iboju pamọ́ bí PNG
+U024	Pa fèrèsé / yọ àṣàyàn (nínú fódà kékeré: gòkè)
+U025	Iṣẹ́ fáìlì (bíi FD: àmì, lẹ́yìn náà agbègbè, lẹ́yìn náà kọ́sọ̀)
+U026	Ṣẹ̀dà: yan ibi tí yóò lọ láti inú igi dráìfù àti fódà. ESC ń dádúró
+U027	Pa rẹ́: fìdí rẹ̀ múlẹ̀ pẹ̀lú y. Àmì àti agbègbè papọ̀. Fódà pẹ̀lú ohun inú rẹ̀
+U028	Pa fódà rẹ́ (pẹ̀lú ohun inú rẹ̀)
+U029	Yí orúkọ padà (ṣàtúnṣe orúkọ, Enter)
+U030	Àbùdá: R kíkà nìkan, H fífarapamọ́, S ètò, A ibi ìpamọ́
+U031	Fódà tuntun
+U032	Fáìlì tuntun (òfo)
+U033	Wò bí ọ̀rọ̀ (Shift+V / Ctrl+Alt+F7 hex)
+U034	Shell sgsh (exit / Ctrl-D padà sí olùṣàkóso fáìlì)
+U035	Ìdánimọ̀ dráìfù (INQUIRY, IDENTIFY)
+U036	Yọ díìsì FDD / LS-120 / CD jáde
+U037	Tún àkójọ kà (CD: láti TOC)
+U038	Gbà láti PC pẹ̀lú ZMODEM (zm.sh put)
+U039	Fi ránṣẹ́ sí PC pẹ̀lú ZMODEM (zm.sh get)
+U040	Ṣàkójọ .rb kí o kọ .mrb
+U041	REPL Ruby (ìlà kan ní àkókò kan, Ctrl-D / ESC láti parí)
+U042	REPL MicroPython
+U043	Pín sí apá MB 4 / so pọ̀ láti .001
+U044	Pín / so pọ̀ (bákan náà pẹ̀lú Ctrl+F11 / F12)
+U045	Ojú-iboju (Alt+F, kò kọlu bọ́tìnì F ti FD)
+U046	Fihàn / fi pamọ́ FB (àwòrán) / ọ̀rọ̀
+U047	Ojú-ìwé ìfihàn FB (0-3)
+U048	Pa FB sí 0 / dín ìmọ́lẹ̀ kù ní ìdajì (RGB555)
+U049	Ojú ìpẹ̀kun USB àti ipò LAN
+U050	Pa ojú-ìwé ìfihàn FB / dín ìmọ́lẹ̀ kù ní ìdajì
+U051	Àpẹẹrẹ àbùdá ọ̀rọ̀
+U052	EDID atẹle (tí a kà nígbà ìbẹ̀rẹ̀)
+U053	Ìwé àṣẹ àti ìdúpẹ́ ROM fọ́ǹtì
+U054	Ètò (èdè ìfihàn, IME àti ìṣètò bọ́tìnì)
+U055	Aago (àkókò Japan nípasẹ̀ NTP; s ń bá a mu báyìí)
+U056	Ṣí ìwé ìṣirò (SGCALC)
+U057	Ṣàyẹ̀wò àṣìṣe S: (ń béèrè kí ó tó tún un ṣe)
+U058	Ṣí TRACKER
+U059	Tún bẹ̀rẹ̀ (ń béèrè ṣáájú)
+U060	Ṣe ìgbéwọlé stẹ́ríò ADC (GP40 / 41)
+U061	Kó VGM/VGZ jáde sí WAV kHz 96 / bit 24
+U062	Ìrànlọ́wọ́ yìí
+U063	Yí ojú-ìwé padà
+U064	Pa
+U065	Olùwò ọ̀rọ̀ / hex (bíi less)
+U066	Ìlà kan
+U067	Ojú-ìwé kan
+U068	Ìdajì ojú-ìwé
+U069	Wá (síwájú / sẹ́yìn) / tó kàn / tó ṣáájú
+U070	Padà sí àkójọ (F1: ìrànlọ́wọ́ olùwò)
+U071	Olùwò àwòrán
+U072	Padà sí àkójọ (F2 F3 F6 F7 Shift+F2 F3 ń ṣiṣẹ́)
+U073	Olóòtú (E / Shift+F8)
+U074	Fi pamọ́ (UTF-8; òpin ìlà àti BOM wà bẹ́ẹ̀)
+U075	Pa (tí a bá ti yí i padà: Y / N / ESC)
+U076	Fi sí / kọ lé e lórí
+U077	Tan/pa IME (Japanese / Gẹ̀ẹ́sì / Korean)
+U078	Èdè IME (Japanese / Gẹ̀ẹ́sì / Korean)
+U079	Fìdí múlẹ̀ bí hiragana / katakana
+U080	Ìrànlọ́wọ́ olóòtú
+U081	Shell
+U082	Shell (apá kan csh. exit / Ctrl-D láti padà, help ń ṣe àkójọ àṣẹ)
+U083	Àkójọ àti ìrìn
+U084	Iṣẹ́ fáìlì
+U085	Ojú-iboju àti ẹ̀rọ
+U086	Olùwò àti olóòtú
+U087	Ìrànlọ́wọ́  %u / %u  %s
+U088	Òsì Ọ̀tún: yí ojú-ìwé padà    F1 / ESC: pa
+U089	Tún sgnano bẹ̀rẹ̀?
+U090	[ Tún bẹ̀rẹ̀ ]
+U091	[ Fagilé ]
+U092	Ṣàyẹ̀wò àṣìṣe dráìfù S:
+U093	Fáìlì %lu  fódà %lu
+U094	Ìwọ̀n kò bá ẹ̀wọ̀n mu
+U095	Kílọ́sítà tí ohunkóhun kò lò
+U096	Kílọ́sítà tí a so pọ̀ lọ́nà àgbélébùú
+U097	Àkọsílẹ̀ tó bàjẹ́
+U098	Ẹ̀dà FAT méjèèjì yàtọ̀
+U099	Kò sí àṣìṣe.
+U100	A rí àṣìṣe. Ṣé kí a tún wọn ṣe?
+U101	A ti tún un ṣe (a ti ṣàtúnṣe àwọn nọ́mbà lókè).
+U102	Kò lè ṣàyẹ̀wò tàbí tún un ṣe (S: ń ṣiṣẹ́).
+U103	[ Tún ṣe ]
+U104	[ Fagilé ]
+U105	Bọ́tìnì èyíkéyìí ń pa á
+U106	Ètò
+U107	Èdè ìfihàn
+U108	Ìṣètò bọ́tìnì
+U109	Òkè / Ìsàlẹ̀  Enter yan  ESC fagilé
+U110	Èdè ìfihàn
+U111	Òkè / Ìsàlẹ̀  Enter: ṣètò  ESC: padà
+U112	Fi %c: múlẹ̀ bí lẹ́tà wo? (A-Z àyàfi S. ESC fagilé)
+U113	Dráìfù  lẹ́tà / Enter yan  F2 fi múlẹ̀/tú  F3 fi múlẹ̀ bí...  L / ESC fagilé
+U114	  ìpín %u
+U115	%c:* (a fi múlẹ̀, kò so pọ̀) %04X:%04X%s  %s
+U116	Àkíyèsí
+U117	Dráìfù %c:  %s
+U118	Dráìfù  (kò sí)
+U119	CD ohùn  orin %u
+U120	Fódà %u  fáìlì %u  àpapọ̀ %s
+U121	Ó ń kà...
+U122	* tí a sàmì sí %u  %s
+U123	báìtì %lu
+U124	Àbùdá %s   àyípadà %s   ìṣẹ̀dá %s   %s
+U125	Àìk
+U126	Ajé
+U127	Ìsẹ́
+U128	Ọjọ́r
+U129	Ọjọ́b
+U130	Ẹtì
+U131	Àbá
+U132	A kò tíì ṣètò aago (NTP lórí LAN)
+U133	FB  ìfihàn %u  kíkọ %u
+U134	1 Ìrànl
+U135	2 Ṣiṣẹ́
+U136	3 Ṣẹ̀dà
+U137	4 Parẹ́
+U138	5 Orúkọ
+U139	7 PaFB
+U140	8 DínFB
+U141	9 Dráìfù
+U142	10 EP
+U143	11 Aago
+U144	12 CALC
+U145	1 Àbùdá
+U146	2 Ìsọ
+U147	3 Gbé
+U148	5 Fódà
+U149	6 Shell
+U150	8 Àtúnṣe
+U151	9 Wò
+U152	10 S:yẹ̀
+U153	11 TRACK
+U154	12 Túnbẹ̀
+U155	1 Tuntun
+U156	2 Fódà
+U157	3 Orúkọ
+U158	4 Àbùdá
+U159	6 Ṣẹ̀dà
+U160	7 Gbé
+U161	8 Parẹ́
+U162	9 Àtúnṣe
+U163	10 mrbc
+U164	11 Pín
+U165	12 Sopọ̀
+U166	1 Àbùdá
+U167	2 FB
+U168	3 Ọ̀rọ̀
+U169	5 Àwòrán
+U170	6 Ojúìwé
+U171	9 ZMgbà
+U172	10 ZMfi
+U173	2 PaFB
+U174	3 DínFB
+U175	5 Túnkà
+U176	7 Hex
+U177	9 Àṣẹ
+U178	11 Ètò
+U179	Ṣètò aago (àkókò Japan. NTP kò lè ṣètò rẹ̀)
+U180	Ṣiṣẹ́ pẹ̀lú àwọn àfikún
+U181	Fódà tuntun
+U182	Fáìlì tuntun
+U183	Àkókò:
+U184	Ṣiṣẹ́:
+U185	Orúkọ:
+U186	YYYY-MM-DD hh:mm  Enter ṣètò  ESC fi sílẹ̀
+U187	Enter ṣiṣẹ́  <-> gbé  BS / Del pa rẹ́  ESC fagilé
+U188	Enter yí orúkọ  <-> gbé  BS / Del pa rẹ́  ESC fagilé
+U189	Enter ṣẹ̀dá  <-> gbé  BS / Del pa rẹ́  ESC fagilé
+U190	Pa rẹ́
+U191	 nǹkan
+U192	A ó pa fódà rẹ́ pẹ̀lú ohun inú rẹ̀. Ṣé o dájú?
+U193	Pa fáìlì yìí rẹ́?
+U194	(A kò lè dá èyí padà. Fáìlì inú fódà náà yóò parẹ́ pẹ̀lú)
+U195	[ Bẹ́ẹ̀ni (Y) ]
+U196	[ Rárá (N) ]
+U197	olùwò hex: yan fáìlì
+U198	olùwò ọ̀rọ̀: yan fáìlì
+U199	Gbé lọ sí
+U200	Ṣẹ̀dà sí
+U201	Ibi ìpamọ́ fún ìgbà díẹ̀ ti kún
+U202	Dráìfù jẹ́ ti kíkà nìkan
+U203	Kò lè fi pamọ́ (kò sí akọ̀wé)
+U204	Kò lè bẹ̀rẹ̀ ìpamọ́ (dráìfù ń ṣiṣẹ́?)
+U205	Ó ń fi pamọ́...
+U206	2 Fipamọ
+U207	5 Àwọ̀
+U208	6 Hira
+U209	7 Kata
+U210	8 Àsọt
+U211	10 Jáde
+U212	1 Òkè
+U213	2 Òpin
+U214	3 Fisí
+U215	4 Ìwé
+U216	6 HHira
+U217	7 HKata
+U218	 %s  %s  Ìlà %lu/%lu Ọ̀wọ̀n %u  %s  %s %s%s%s
+U219	*àyípadà
+U220	KỌLÉ
+U221	FISÍ
+U222	  Kíkà nìkan
+U223	 Olóòtú (sgnano edit)                        F1 / ESC ń pa á
+U224	 Ọfà / Home End / PgUp PgDn  gbé kọ́sọ̀
+U225	 Ctrl-T / Ctrl-B               ìbẹ̀rẹ̀ / òpin fáìlì
+U226	 BS / Del                      pa ṣáájú / níbi kọ́sọ̀
+U227	 Enter                         ìlà tuntun (ń pa ìfààsẹ́yìn mọ́)
+U228	 Tab / Ins                     tab / fi sí tàbí kọ lé e lórí
+U229	 F5                            Àwọ̀ (láti ìfàgùn; C/C++, mruby, MicroPython, SG BASIC, kò sí)
+U230	 F2  (Ctrl-S)                  fi pamọ́ (UTF-8, òpin ìlà wà bẹ́ẹ̀)
+U231	 F10 / ESC                     pa (ń béèrè tí a bá yí i padà)
+U232	 IME:  Ctrl-Space / F12        tan / pa (あ / A)
+U233	       F9                      èdè IME (olóòtú yìí nìkan; a dá a padà nígbà tí a bá pa á)
+U234	       F8 Tan/pa ìyípadà àsọtẹ́lẹ̀ Japanese
+U235	       Japanese                romaji -> hiragana (F6) / katakana (F7)
+U236	                               Hiragana ìdajì fífẹ̀ (Shift+F6) / katakana ìdajì fífẹ̀ (Shift+F7)
+U237	                               Àsọtẹ́lẹ̀ láti lẹ́tà 2 lọ, yí gbólóhùn tó tẹ̀lé ara wọn padà pẹ̀lú Space
+U238	       Gẹ̀ẹ́sì: ìparí àsọtẹ́lẹ̀ láti lẹ́tà 2 lọ
+U239	       한국어 Hangul oníṣètò 2
+U240	       Space / Enter Yí padà / Fìdí múlẹ̀
+U241	       ← → Yan gbólóhùn
+U242	       Shift+← → Dín/fẹ òpin ọ̀tún gbólóhùn kù ní lẹ́tà kan (àṣàyàn tuntun)
+U243	       ↑ ↓ / Tab               Àṣàyàn tó ṣáájú / tó kàn nínú fèrèsé (lábẹ́ ọ̀rọ̀, lókè tí ó bá súnmọ́ ìsàlẹ̀)
+U244	       Enter lórí →→→          Gbogbo àṣàyàn (2 x 8, ← → ọ̀wọ̀n àti ojú-ìwé, Enter yan)
+U245	       Enter                   Gbólóhùn tó kàn (ní ìkẹyìn, fìdí gbogbo rẹ̀ múlẹ̀)
+U246	       Ctrl-U Fi ọ̀rọ̀ yìí kún ìwé atúmọ̀ olùmúlò
+U247	 Shift+F1 / F2 / F3 / F4       Ìbẹ̀rẹ̀ / òpin / fi sí-kọ lórí / sí ìwé atúmọ̀ olùmúlò
+U248	       BS / ESC Padà ní lẹ́tà kan / Fagilé
+U249	       , . - [ ] /             、 。 ー 「 」 ・
+U250	A ti yí i padà  Y: fi pamọ́ kí o pa á  N: pa láìfi pamọ́  ESC: padà
+U251	[Àsọtẹ́lẹ̀] Tab/↑↓: àṣàyàn  Space: yí padà  Esc: fagilé
+U252	[Àṣàyàn] ↑↓: yan  ←→: ọ̀wọ̀n/ojú-ìwé  Enter: mú
+U253	[Yípadà] ↑↓àṣàyàn ←→gbólóhùn Shift+←→ààlà Enter tókàn
+U254	[한국어] Tab/↑↓: àṣàyàn  Enter/Space: fìdí múlẹ̀
+U255	[English] Tab/↑↓: àṣàyàn  Enter: fìdí múlẹ̀
+U256	Ìtẹ̀wọlé Hangul oníṣètò 2  Ctrl-Space: lẹ́tà àti nọ́mbà
+U257	Ìparí àsọtẹ́lẹ̀  Ctrl-Space: ìtẹ̀wọlé tààrà
+U258	Kò sí ìwé atúmọ̀: hiragana/katakana nìkan  F6/F7
+U259	Space: yí padà  F7: katakana  Ctrl-Space: lẹ́tà àti nọ́mbà
+U260	Space: yí padà  F6: hiragana  Ctrl-Space: lẹ́tà àti nọ́mbà
+U261	Ìdajì fífẹ̀  F6: hiragana  F7: katakana  Shift+F6/F7: ìdajì
+U262	IME ti pa
+U263	 àsọtẹ́lẹ̀
+U264	Ìyípadà àsọtẹ́lẹ̀ Japanese: Tàn
+U265	Ìyípadà àsọtẹ́lẹ̀ Japanese: Pa
+U266	Lò ó pẹ̀lú IME Japanese
+U267	Kò lè fi kún ìwé atúmọ̀ olùmúlò
+U268	Àwọ̀: %s
+U269	Ó ń gbé wọlé...
+U270	Kò lè ka fáìlì náà
+U271	ìlà %lu%s%s
+U272	  a ṣí Shift_JIS bí UTF-8 (a ń fi pamọ́ bí UTF-8)
+U273	  kíkà nìkan
+U274	A ti fi pamọ́
+U275	Kò lè fi pamọ́ (kíkọ kùnà)
+U276	Àṣàyàn
+U277	7 OjúK
+U278	9 Ọ̀rọ̀
+U279	9 Hex
+U280	Ó ń gbé wọlé %lu%%
+U281	(ìbẹ̀rẹ̀ nìkan)
+U282	Hex  q ESC: padà  F1: ìrànlọ́wọ́
+U283	Ọ̀rọ̀  q ESC: padà  F1: ìrànlọ́wọ́
+U284	Bọ́tìnì olùwò (bíi less; bákan náà fún ọ̀rọ̀ àti hex)
+U285	Ìlà kan sísàlẹ̀
+U286	Ìlà kan sókè
+U287	Ojú-ìwé kan sísàlẹ̀
+U288	Ojú-ìwé kan sókè
+U289	Ìdajì ojú-ìwé sísàlẹ̀ / sókè
+U290	/ọ̀rọ̀  ?ọ̀rọ̀
+U291	Wá sísàlẹ̀ / sókè (kò ka lẹ́tà ńlá sí)
+U292	Ìbámu tó kàn / tó ṣáájú
+U293	Fihàn bí hex (ní ibì kan náà)
+U294	Fihàn bí ọ̀rọ̀ (ní ibì kan náà)
+U295	Yí àwọ̀ padà (C/C++, mruby, MicroPython, SG BASIC, kò sí)
+U296	Fihàn / fi pamọ́ FB / ọ̀rọ̀
+U297	Ojú-ìwé ìfihàn / kíkọ FB
+U298	Padà sí olùṣàkóso fáìlì
+U299	Pa ìrànlọ́wọ́ yìí
+U300	Ṣẹ̀dà
+U301	 %s: ó ń ka àwọn fódà... %u
+U302	 %s: ó ń ka àyè òfo ní ibi tí yóò lọ...
+U303	 %s: àyè òfo kò tó ní ibi tí yóò lọ
+U304	 Gbé lọ: ó ń yọ àwọn fódà orísun kúrò
+U305	Ó ti parí
+U306	Ó ti dúró
+U307	 %s ń lọ lọ́wọ́%s
+U308	 (ó ń dúró)
+U309	 Láti: %s
+U310	 Sí: %s
+U311	 Fáìlì %u / %u  fódà %u  %s / %s  (%u%%)%s
+U312	  wọ́n pọ̀ jù: díẹ̀ nìkan
+U313	 Ó nílò %s, òfo %s. Tẹ̀síwájú?
+U314	 Y: tẹ̀síwájú   N / ESC: fagilé
+U315	 Tẹ bọ́tìnì èyíkéyìí láti pa á
+U316	 ESC: dúró
+U317	 %s: ←→ dráìfù  ↑↓ fódà  Space ṣí/pa  Enter yan  ESC fagilé
+U318	 Kò lè kà: %s
+U319	 Ó ń ka àwọn fódà... (ESC ń dádúró)  %u
+U320	 fódà %u%s
+U321	 (wọ́n pọ̀ jù tàbí jìn jù: díẹ̀ nìkan)
+U322	A dá ṣíṣí fódà dúró
+U323	Space ń tún un ṣí. ESC lẹ́ẹ̀kan sí i ń fagilé
+U324	 Olùṣe SMF / SGT   %s
+U325	 Ó ń gbé wọlé... %lu / %lu báìtì
+U326	 %s / %s   %s   èbúté %u
+U327	A dánudúró
+U328	Ó ń dún
+U329	 Space: dánudúró  m: MIDI OUT  q / ESC: dúró
+U330	 q / ESC: fagilé
+U331	Ìwé àṣẹ àti ìdúpẹ́ ROM fọ́ǹtì\n\nROM: %s (ẹ̀yà %lu.%lu, lẹ́tà %lu, láti 0x%08lX nínú flash)\n\n
+U332	== Fọ́ǹtì nínú ROM (tábìlì orísun ROM) ==\n
+U333	  (ROM kò ní tábìlì)\n
+U334	\n== Agbègbè ìdúpẹ́ ROM ==\n\n
+U335	(kò sí irú agbègbè bẹ́ẹ̀)\n
+U336	\n== Ìwé àṣẹ sọ́fítíwọ̀ inú ==\n
+U337	 Ó ń fi %s pamọ́ bí PNG   %s
+U338	Ojú-iboju
+U339	 Ó ń kọ́... ìlà %lu / %lu
+U340	 Ó ń kọ... %lu / %lu KB (a fi FB pamọ́)
+U341	Kò lè kọ ọ́
+M001	dráìfù ti lọ
+M002	ó ń tún àwọn ìpín kà...
+M003	kò lè ṣí ìwọ̀n dráìfù (ìrántí kò tó?)
+M004	ó ń ṣí ìwọ̀n dráìfù...
+M005	ìrántí kò tó fún àkójọ fáìlì
+M006	ó ń ka fódà... (ó ń tún gbìyànjú)
+M007	kò lè ka fódà
+M008	ó ń ka fódà...
+M009	dráìfù kò dáhùn -- ó ń tún àwọn ìpín kà
+M010	kò lè ka fódà (kì í ṣe FAT12/16/32?)
+M011	àkọsílẹ̀ pọ̀ jù -- ó ń fi àwọn àkọ́kọ́ hàn
+M012	kò sí ètò fáìlì lórí ìpín yìí
+M013	ọ̀nà gùn jù
+M014	ó ń so pọ̀...
+M015	ó ń pín...
+M016	ó ń yí orúkọ padà...
+M017	ó ń ṣẹ̀dá fódà...
+M018	ó ń ṣẹ̀dá fáìlì...
+M019	ó ń pa rẹ́...
+M020	ó ń kọ àwọn àbùdá...
+M021	dráìfù ń ṣiṣẹ́
+M022	ń ṣiṣẹ́
+M023	yan fáìlì tàbí fódà
+M024	yan fáìlì tàbí fódà (kì í ṣe "..")
+M025	kọ́kọ́ dá CD dúró
+M026	a kò lè yí CD padà (ṣẹ̀dà dípò)
+M027	a kò lè gbé fódà ètò lọ
+M028	kò sí dráìfù tí a lè kọ sí (FAT / exFAT / NTFS nìkan)
+M029	dráìfù kò sí mọ́
+M030	a kò yan nǹkankan
+M031	a kò yan nǹkankan
+M032	kò lè bẹ̀rẹ̀
+M033	kò lè ṣí i
+M034	lórí dráìfù FAT / exFAT / NTFS nìkan
+M035	kò sí orúkọ
+M036	orúkọ yẹn ti wà
+M037	kò lè bẹ̀rẹ̀ (orúkọ burúkú tàbí dráìfù ń ṣiṣẹ́)
+M038	kò lè bẹ̀rẹ̀ (dráìfù ń ṣiṣẹ́)
+M039	orúkọ kò lè ní / tàbí \\ (nínú fódà yìí nìkan)
+M040	orúkọ kan náà ni
+M041	nǹkan náà jẹ́ ti kíkà nìkan (A láti yí i padà)
+M042	yan fáìlì .rb lórí dráìfù tí a lè kọ sí
+M043	yan fáìlì .rb
+M044	dráìfù jẹ́ ti kíkà nìkan
+M045	yan fódà lórí dráìfù tí a lè kọ sí
+M046	dúró díẹ̀
+M047	yan fáìlì
+M048	yan fáìlì (kì í ṣe fódà)
+M049	yan fáìlì .001
+M050	yan fáìlì .001 náà
+M051	fi IWAD sínú fódà DoomFiles tàbí Doom2Files
+M052	DoomFiles ń gba freedoom1 / doom / doomu / doom1.wad
+M053	Doom2Files ń gba freedoom2 / doom2 / plutonia / tnt.wad
+M054	fi fáìlì eré sórí ibi ìpamọ́ òde, kì í ṣe S:
+M055	IWAD gbọ́dọ̀ wà lórí dráìfù FAT / exFAT / NTFS (kì í ṣe CD)
+M056	ó ṣì ń ṣiṣẹ́
+M057	àwòrán ń gbé wọlé
+M058	kò sí framebuffer
+M059	dídín ìmọ́lẹ̀ kù ní ìdajì ń ṣiṣẹ́ pẹ̀lú RGB555 nìkan
+M060	ó ń pa á rẹ́...
+M061	ó ń dín ìmọ́lẹ̀ kù ní ìdajì...
+M062	ìyẹn jẹ́ orin dátà
+M063	dúró -- fáìlì kan ń jẹ́ kíkọ
+M064	dráìfù flọ́pì / LS-120 / CD nìkan
+M065	a ti béèrè
+M066	ó ń ka díìsì...
+M067	ó ń dúró...
+M068	ó ń ṣí i...
+M069	ó ti parí
+M070	ìrántí kò tó
+M071	ó ti ṣí tẹ́lẹ̀
+M072	ó ti ń ṣiṣẹ́ tẹ́lẹ̀
+M073	ó ti ń fi pamọ́ tẹ́lẹ̀
+M074	ó ti ń dún tẹ́lẹ̀
+M075	kò sí irú dráìfù bẹ́ẹ̀
+M076	kò sí PSRAM
+M077	PSRAM kò tó fún fáìlì
+M078	PSRAM kò tó fún atọ́ka ìlà
+M079	PSRAM kò tó fún tẹ́mínà
+M080	ìrántí kò tó (PSRAM)
+M081	ìrántí kò tó (SRAM 32KB)
+M082	ìrántí kò tó fún ibi ìpamọ́ fún ìgbà díẹ̀
+M083	ìrántí kò tó fún ibi ìpamọ́ àwòrán
+M084	ìrántí kò tó fún ibi ìpamọ́ kíkà
+M085	kò sí àyè fún ìrántí iṣẹ́ (pa lowres?)
+M086	kò sí ojú-ìwé framebuffer
+M087	ó tóbi jù (MB 4 ní púpọ̀ jù)
+M088	fáìlì tóbi jù (MB 1 ní púpọ̀ jù)
+M089	fáìlì tóbi jù (MB 1 ní púpọ̀ jù)
+M090	ó tóbi jù fún SMF (MB 1 ní púpọ̀ jù)
+M091	fáìlì ṣófo
+M092	kò lè ṣí fáìlì náà
+M093	kò lè ka fáìlì náà
+M094	kò lè ṣí ìwọ̀n dráìfù
+M095	kò lè ṣí ibi tí yóò lọ (ìrántí kò tó?)
+M096	kò lè ka fódà gbòǹgbò
+M097	kò lè bẹ̀rẹ̀ iṣẹ́ náà
+M098	kò lè bẹ̀rẹ̀ kíkọ (orúkọ burúkú tàbí ń ṣiṣẹ́)
+M099	ìwọ̀n dráìfù mìíràn ti ṣí (ń ṣiṣẹ́)
+M100	ìṣẹ̀dà kan ń lọ lọ́wọ́
+M101	fódà kò lè wọ inú ara rẹ̀
+M102	fódà kan náà ni
+M103	a kò lè yí dráìfù yìí padà (kíkà nìkan)
+M104	a kò lè kọ sí dráìfù
+M105	ìwọ̀n apá gbọ́dọ̀ jẹ́ ìlọ́po 512
+M106	a kò ṣe àtìlẹ́yìn fún fáìlì GB 4 tàbí jù bẹ́ẹ̀ lọ
+M107	ọ̀nà burúkú
+M108	orúkọ fáìlì burúkú
+M109	ROM fọ́ǹtì kò sí
+M110	ohùn kò ṣí
+M111	kò sí irú ikanni bẹ́ẹ̀
+M112	olùtò ń ṣiṣẹ́
+M113	PSRAM kò tó fún orin
+M114	kì í ṣe fáìlì MIDI àṣà (kò sí MThd)
+M115	kò sí orin
+M116	orin kan ti bàjẹ́ (MTrk)
+M117	a kò ṣe àtìlẹ́yìn fún pínpín àkókò SMPTE
+M118	a kò ṣe àtìlẹ́yìn fún SMF ọ̀nà 2 (0 àti 1 nìkan)
+M119	kì í ṣe dráìfù Bulk-Only
+M120	kì í ṣe dráìfù ojú-ìmọ́lẹ̀
+M121	a kò lè pa fódà ètò rẹ́ tàbí yí orúkọ rẹ̀ padà
+M122	kò sí díìsì nínú dráìfù
+M123	ó ń múra sílẹ̀
+M124	kò tíì ṣetán
+M125	díìsì ti yí padà
+M126	àṣìṣe díìsì
+M127	ìbéèrè tí kò bófin mu
+M128	àkọsílẹ̀ fódà burúkú
+M129	fódà kan lójú ọ̀nà kò sí
+M130	fáìlì kan ní orúkọ yẹn
+M131	fódà kan ní orúkọ yẹn
+M132	orúkọ kan lójú ọ̀nà kì í ṣe fódà
+M133	a ti fagilé
+M134	kò lè gbé e kalẹ̀
+M135	kò lè bẹ̀rẹ̀ kíkà
+M136	kò lè bẹ̀rẹ̀ kíkọ
+M137	jẹ́ fódà
+M138	ìyẹn jẹ́ fódà
+M139	kò sí kílọ́sítà
+M140	kò sí àyè fún àkójọ kílọ́sítà
+M141	kò sí irú fáìlì tàbí fódà bẹ́ẹ̀
+M142	kò sí irú fáìlì bẹ́ẹ̀
+M143	kò sí ìwọ̀n dráìfù
+M144	kì í ṣe NTFS
+M145	kì í ṣe exFAT
+M146	kì í ṣe fódà
+M147	a kò rí i
+M148	àṣìṣe kíkà
+M149	àṣìṣe kíkọ
+M150	kíka FAT kùnà
+M151	ẹ̀wọ̀n kílọ́sítà kúrú ju fáìlì lọ
+M152	fódà kò ṣófo
+M153	díìsì ti kún
+M154	dráìfù kò dáhùn
+M155	fáìlì jẹ́ ti kíkà nìkan
+M156	fáìlì ti fọ́ sí wẹ́wẹ́ jù
+M157	fáìlì tóbi jù (GB 4)
+M158	orúkọ tuntun ti wà
+M159	fódà gbòǹgbò ti kún
+M160	fáìlì púpọ̀ jù ní orúkọ kúkúrú kan náà
+M161	Kò sí irú fáìlì tàbí fódà bẹ́ẹ̀
+M162	Fáìlì ti wà
+M163	A kọ̀ àṣẹ
+M164	Fódà kò ṣófo
+M165	Kì í ṣe fódà
+M166	Jẹ́ fódà
+M167	Ètò fáìlì kíkà nìkan
+M168	Kò sí àyè mọ́ lórí ẹ̀rọ
+M169	Àṣìṣe ìgbéwọlé/ìgbéjáde
+M170	A kò ṣe àtìlẹ́yìn lórí dráìfù yìí
+M171	Ọ̀nà tí kò tọ́
+M172	Ìrántí ti tán
+M173	Kò sí irú dráìfù bẹ́ẹ̀
+M174	ó ti dúró
+M175	a ti fagilé (àyè òfo kò tó)
+M176	kò lè ka àyè òfo
+M177	olùgbà ti fagilé
+M178	kò sí olùgbà (ṣiṣẹ́ rz lórí PC)
+M179	a ń lo UART kọ́ńsólù
+M180	ipò ojú-iboju ti yí padà
+M181	àwọn ìlà kò dé (ṣé ìfihàn ń ṣiṣẹ́?)
+M182	ṣẹ̀dà
+M183	gbé
+M184	pa rẹ́
+M185	yí orúkọ
+M186	àbùdá
+M187	fáìlì tuntun
+M188	fódà tuntun
+M189	àwòrán
+M190	mrbc
+M191	ruby
+M192	olùwò
+M193	àtúnṣe
+M194	IDENTIFY
+M195	ZMODEM
+M196	ZMODEM gbà
+M197	ZMODEM fi
+M198	pín
+M199	so pọ̀
+M200	Doom
+M201	SMF
+M202	CD
+M203	FB
+M204	Yọ jáde
+M205	tún bẹ̀rẹ̀
+M206	ìwé àṣẹ
+M207	aago
+M208	ADC wọlé
+M209	ojú-iboju -> PNG
+M210	FB -> PNG
+M211	kò lè ṣí ìwọ̀n dráìfù
+M212	a gba %s
+M213	a fi %s ránṣẹ́
+M214	a fi %s pamọ́
+M215	a ṣẹ̀dá %s
+M216	a yí orúkọ padà sí %s
+M217	a pa %s rẹ́
+M218	a yí %s padà
+M219	a so %s pọ̀
+M220	a pín %s
+M221	kò lè ṣẹ̀dá %s
+M222	kò lè pa %s rẹ́
+M223	kò lè yí orúkọ padà sí %s
+M224	kò lè yí %s padà
+M225	kò lè ka %s
+M226	kò lè kọ %s
+M227	kò lè ṣẹ̀dà %s
+M228	kò lè ṣe %s
+M229	kò lè yọ fódà %s
+M230	kò lè yọ %s
+M231	ìrántí kò tó fún %s
+M232	àṣìṣe pọ̀ jù nígbà tí a ń fi %s ránṣẹ́
+M233	olùgbà kò gba %s
+M234	olùgbà fo %s
+M235	Ojú-ìwé FB %s
+M236	 báìtì ọ̀kọ̀ọ̀kan)
+M237	 báìtì)
+M238	 KB)
+M239	 apá sí
+M240	 apá (
+M241	 sí
+M242	: a ti pa á rẹ́
+M243	: a ti dín ìmọ́lẹ̀ kù ní ìdajì
+M244	% a ti kà
+M245	 ìlà
+M246	 -- a kò tíì ṣe àtìlẹ́yìn (FAT / exFAT / NTFS nìkan)
+M247	 fáìlì
+M248	 (
+M249	Aláìlórúkọ
+M250	1 Fáìlì
+M251	2 Àtúnṣe
+M252	3 Àwòrán
+M253	4 Ìwé
+M254	5 Ìrànlọ́wọ́
+M255	ÒFO
+M256	NỌ́MBÀ
+M257	Ọ̀RỌ̀
+M258	ÌLÀNÀ
+M259	Tẹ̀ láti fi sí i, F2 láti ṣàtúnṣe, F1 fún ìrànlọ́wọ́
+M265	Ó ṣetán
+M267	Tẹ bọ́tìnì èyíkéyìí
+M268	Y = bẹ́ẹ̀ni    N = rárá    Esc = fagilé
+M269	Enter = Ó dára    Esc = fagilé    Ctrl-U = pa á rẹ́
+M270	Ìlà/ọ̀wọ̀n àkọ́kọ́ = àkọlé; àtẹ ń lo FB CLUT8 640x480.
+M271	SGCALC - ÌRÀNLỌ́WỌ́
+M272	Tẹ bọ́tìnì èyíkéyìí láti padà
+M273	Tẹ bọ́tìnì èyíkéyìí láti padà.
+M274	NÍPA SGCALC
+M275	Tuntun
+M276	Bẹ̀rẹ̀ ìwé tuntun
+M277	Ṣí...
+M278	Ṣí fáìlì ODS, FODS tàbí CSV
+M279	Fi pamọ́
+M280	Fi fáìlì yìí pamọ́
+M281	Fi pamọ́ bí...
+M282	Fi pamọ́ pẹ̀lú orúkọ tàbí ọ̀nà tuntun
+M283	Kó CSV jáde...
+M284	Kọ ẹ̀dà CSV
+M285	Kó ODS jáde...
+M286	Kọ ẹ̀dà LibreOffice
+M287	Jáde
+M288	Fi SGCALC sílẹ̀
+M289	Pa á rẹ́
+M290	Pa àwọn sẹ́ẹ̀lì tí a yàn rẹ́
+M291	Ṣẹ̀dà
+M292	Ṣẹ̀dà àṣàyàn
+M293	Lẹ̀ mọ́
+M294	Lẹ̀ mọ́ níbi kọ́sọ̀
+M295	Gé
+M296	Ṣẹ̀dà kí o pa àṣàyàn rẹ́
+M297	Yan gbogbo
+M298	Yan gbogbo sẹ́ẹ̀lì tí a lò
+M299	Àwọ̀ ọ̀rọ̀...
+M300	Yan àwọ̀ ọ̀rọ̀
+M301	Ẹ̀yìn...
+M302	Yan àwọ̀ ẹ̀yìn sẹ́ẹ̀lì
+M303	Ìlà
+M304	Ya àtẹ ìlà láti inú àṣàyàn
+M305	Ọ̀pá
+M306	Ya àtẹ ọ̀pá láti inú àṣàyàn
+M307	Àdàpọ̀
+M308	Ọ̀pá fún ọ̀wọ́ àkọ́kọ́, ìlà fún ìyókù
+M309	Pai
+M310	Ya àtẹ pai láti inú àṣàyàn
+M311	Agbègbè...
+M312	Ṣètò agbègbè àtẹ ní kedere
+M313	Tún yà á
+M314	Tún àtẹ ìkẹyìn yà
+M315	Lọ sí...
+M316	Fò sí sẹ́ẹ̀lì (fún àpẹẹrẹ C12)
+M317	Fífẹ̀ ọ̀wọ̀n...
+M318	Yí fífẹ̀ àwọn ọ̀wọ̀n tí a yàn padà
+M319	Gíga ìlà...
+M320	Yí gíga àwọn ìlà tí a yàn padà
+M321	Bá a mu fúnra rẹ̀
+M322	Bá fífẹ̀/gíga mu pẹ̀lú ohun inú (F7)
+M323	Tún ṣírò
+M324	Tún gbogbo ìlànà ṣírò
+M325	Pa gbogbo rẹ̀ rẹ́
+M326	Pa gbogbo ìwé rẹ́
+M327	Bọ́tìnì
+M328	Fi ìtọ́sọ́nà bọ́tìnì hàn
+M329	Nípa
+M330	Nípa SGCALC
+M331	Fáìlì
+M332	Àtúnṣe
+M333	Àtẹ
+M334	Ìwé
+M335	Ìrànlọ́wọ́
+M336	Fáìlì: tuntun, ṣí, fi pamọ́, kó jáde, jáde
+M337	Àtúnṣe: pa rẹ́, ṣẹ̀dà, lẹ̀ mọ́, gé, yan gbogbo
+M338	Àtẹ: ìlà, ọ̀pá, àdàpọ̀, pai (a yà á sórí FB)
+M339	Ìwé: lọ sí, fífẹ̀ ọ̀wọ̀n, tún ṣírò, pa rẹ́
+M340	Ìrànlọ́wọ́: bọ́tìnì àti nípa
+M341	Òsì/Ọ̀tún = àkójọ    Òkè/Ìsàlẹ̀ = nǹkan    Enter = yan    Esc = fagilé
+M342	A ti fagilé
+M343	Àṣàyàn tóbi jù tàbí ìrántí kéré.
+M344	sẹ́ẹ̀lì náà
+M345	àṣàyàn náà
+M346	Kò sí nǹkan láti lẹ̀ mọ́
+M347	A ti lẹ̀ ẹ́ mọ́
+M348	LỌ SÍ SẸ́Ẹ̀LÌ
+M349	Ìtọ́kasí sẹ́ẹ̀lì (A1):
+M350	Lọ sí
+M351	FÍFẸ̀ Ọ̀WỌ̀N
+M352	Fífẹ̀ ní lẹ́tà (4..30):
+M353	GÍGA ÌLÀ
+M354	Gíga ní ìlà ọ̀rọ̀ (1..8):
+M355	Bá a mu fúnra rẹ̀: ìwé ṣófo
+M356	ÀWỌ̀ Ẹ̀YÌN
+M357	ÀWỌ̀ Ọ̀RỌ̀
+M358	Ọfà: yan    Enter: lò ó    Esc: fagilé
+M359	Nọ́mbà àwọ̀ (àwọ̀ 16 PC-98)
+M361	Enter = lò ó    Esc = fagilé
+M362	Àwọ̀
+M363	Ẹ̀yìn
+M364	Ọ̀rọ̀
+M365	AGBÈGBÈ ÀTẸ
+M366	Agbègbè (fún àpẹẹrẹ A1:C10):
+M367	Agbègbè àtẹ
+M368	Lo agbègbè bíi A1:C10.
+M369	Kò lè ya àtẹ.
+M370	ìlà
+M371	ọ̀pá
+M372	àdàpọ̀
+M373	pai
+M374	Pa gbogbo sẹ́ẹ̀lì inú ìwé yìí rẹ́?
+M375	A ti pa ìwé rẹ́
+M376	A ti yan gbogbo sẹ́ẹ̀lì tí a lò
+M377	A ti tún un ṣírò
+M378	Ìrántí
+M379	PSRAM kò tó fún ìwé ìṣirò.
+M380	Ìwé ṣófo.
+M381	Kò sí dátà nọ́mbà nínú agbègbè tí a yàn.
+M382	Òmíràn
+M383	Kò sí iye rere fún àtẹ pai
+M384	ÌLÀ
+M385	Ọ̀PÁ
+M386	ÀDÀPỌ̀
+M387	PAI
+M389	Fódà
+M390	FI PAMỌ́ BÍ
+M391	ṢÍ FÁÌLÌ
+M394	Orúkọ:
+M395	(tẹ orúkọ, tàbí yan nísàlẹ̀)
+M396	Orúkọ
+M397	Ìwọ̀n
+M398	Enter=fi pamọ́  Òsì=òkè  Ọ̀tún/Enter lórí [DIR]=ṣí  Tab=dráìfù  Esc=fagilé
+M399	Enter=ṣí  Òsì=òkè  Ọ̀tún/Enter lórí [DIR]=ṣí  Tab=dráìfù  Esc=fagilé
+M400	Ìrántí kò tó.
+M401	Kọ lé e lórí
+M402	Ṣí
+M403	Fáìlì tóbi jù (ààlà MB 8).
+M404	Ìrántí kò tó láti ka fáìlì.
+M405	Dátà ZIP/ODS burúkú.
+M406	Àṣìṣe CRC nínú fáìlì ODS.
+M407	Fáìlì tí a kò ṣe àtìlẹ́yìn fún tàbí tó bàjẹ́.
+M408	A ti fi pamọ́
+M409	A ti kó o jáde
+M410	Àyípadà tí a kò fi pamọ́
+M411	Fi ìwé yìí pamọ́ kí o tó tẹ̀síwájú?
+M412	Ìwé tuntun
+M415	orin tóbi jù
+M416	fáìlì òfo
+M417	kì í ṣe fáìlì SGT
+M418	BPM burúkú
+M419	ìyára burúkú
+M420	gígùn àkọlé burúkú
+M421	àkọlé ti gé
+M422	lẹ́tà burúkú nínú àkọlé
+M423	ètò ti gé
+M424	gígùn ètò burúkú
+M425	nọ́mbà àpẹẹrẹ burúkú nínú ètò
+M426	àkójọ àpẹẹrẹ ti gé
+M427	iye àpẹẹrẹ burúkú
+M428	atọ́ka àpẹẹrẹ burúkú
+M429	àpẹẹrẹ ìlọ́po
+M430	dátà àpẹẹrẹ ti gé
+M431	dátà àpẹẹrẹ tí kò tọ́
+M432	dátà àfikún ní òpin fáìlì
+M433	ètò tọ́ka sí àpẹẹrẹ tí kò sí
+M435	(aláìlórúkọ)
+M436	Ó ṣetán. Tẹ F1 fún ìrànlọ́wọ́.
+M437	Títẹ̀lé PA
+M438	Kò sí nǹkan láti dá padà
+M439	Dá padà
+M440	Pa ohùn
+M441	Kọ́kọ́ ṣètò lẹ́tà ipa
+M442	A ti pa ipa rẹ́
+M443	A ti pa àfikún rẹ́
+M444	A ti pa ohùn rẹ́
+M445	A ti pa ohun èlò rẹ́
+M446	A ti pa ìpariwo rẹ́
+M447	Àkójọ ètò ti kún
+M448	A ti fi ètò sí i
+M449	A kò lè pa ètò ìkẹyìn rẹ́
+M450	A ti pa ètò rẹ́
+M451	Ó ń kọ orin
+M452	Ó ti dúró
+M453	Orin tuntun
+M454	Ju àyípadà tí a kò fi pamọ́ sílẹ̀ kí o bẹ̀rẹ̀ orin tuntun? (Y/N)
+M455	Ju àyípadà tí a kò fi pamọ́ sílẹ̀ kí o ṣí orin? (Y/N)
+M456	Ju àyípadà tí a kò fi pamọ́ sílẹ̀ kí o jáde? (Y/N)
+M457	A ti ṣe ìmúdójúìwọ̀n ètò orin
+M458	Orúkọ fáìlì ṣófo
+M459	A fagilé ìpamọ́
+M460	A fagilé ṣíṣí
+M461	Àtúnṣe TÀN
+M462	Àtúnṣe PA
+M463	Títẹ̀lé TÀN
+M464	Àtúnṣe ti pa. Tẹ F8 láti ṣàtúnṣe.
+M465	Àṣìṣe I/O
+M466	fáìlì tóbi jù
+M467	fáìlì ti gé
+M495	#ÌKỌRIN ÀTI FÁÌLÌ
+M496	#ÀKÓJỌ ÈTÒ
+M497	#ÌFIHÀN
+M498	#ÀTÚNṢE
+M499	#IPA (àfikún jẹ́ hexadecimal)
+M500	ÒSÌ/Ọ̀TÚN OJÚ-ÌWÉ   ENTER TÀBÍ F1 PA
+M501	ÈTÒ ORIN
+M502	ÒKÈ/ÌSÀLẸ̀ YAN   ÒSÌ/Ọ̀TÚN ṢÀTÚNṢE   ENTER/F2 PA
+M503	Tẹ̀ láti ṣàtúnṣe àkọlé. Backspace ń pa lẹ́tà ìkẹyìn rẹ́.
+M504	BPM 32..255. Ìyára 1..31.
+M505	Ipa àpẹẹrẹ tún lè yí ìyára àti BPM padà nígbà tí ó ń dún.
+M506	OHUN ÈLÒ
+M507	ÒKÈ/ÌSÀLẸ̀ YAN   SPACE GBỌ́   ENTER LÒ   F3 PA
+M508	Gbogbo ikanni mẹ́rin ń lo ìṣọ̀kan tábìlì ìgbì.
+M509	Ìgbọ́-ṣáájú ń kọ C-4 lórí orin tó wà lábẹ́ kọ́sọ̀ àtúnṣe.
+M510	FI ORIN PAMỌ́ BÍ
+M511	ENTER FI PAMỌ́   F4 TÀBÍ CTRL-C FAGILÉ
+M512	Fódà:
+M513	Orúkọ fáìlì:
+M514	A ń fi ìfàgùn .SGT kún un fúnra rẹ̀.
+M515	A lè kọ lé fáìlì tó wà tẹ́lẹ̀ lórí.
+M516	ṢÍ ORIN
+M517	ENTER ṢÍ  BS ÒKÈ  CTRL-O/CTRL-C FAGILÉ
+M518	(kò sí fáìlì .SGT nínú fódà yìí)
+M519	FÌDÍ MÚLẸ̀
+M520	Y = BẸ́Ẹ̀NI   N / ENTER / CTRL-C = RÁRÁ
+M521	Y = bẹ́ẹ̀ni        N = rárá
+M536	MThd ti bàjẹ́
+M537	ÌGBÉWỌLÉ MIDI
+M539	àkókò delta ti bàjẹ́
+M540	running status ti bàjẹ́
+M541	ìṣẹ̀lẹ̀ meta ti bàjẹ́
+M542	ìṣẹ̀lẹ̀ sysex ti bàjẹ́
+M543	ìṣẹ̀lẹ̀ ikanni ti bàjẹ́
+M544	ìgbéjáde SMF kéré jù
+M545	ìgbéjáde SMF tóbi jù
+M546	orin gùn jù fún SMF
+M557	ỌFÀ        gbé kọ́sọ̀ sẹ́ẹ̀lì\n
+M558	SHIFT+ỌFÀ  fẹ àṣàyàn (fún àtẹ/ìṣẹ̀dà)\n
+M559	ENTER       ṣàtúnṣe sẹ́ẹ̀lì; nígbà àtúnṣe, fìdí múlẹ̀ kí o sọ̀kalẹ̀\n
+M560	TAB         sẹ́ẹ̀lì tó kàn    SHIFT+TAB  tó ṣáájú\n
+M561	DELETE      pa sẹ́ẹ̀lì tí a yàn rẹ́    ESC  fagilé\n
+M562	PGUP/PGDN   ojú-iboju kan    HOME/END  ọ̀wọ̀n àkọ́kọ́/ìkẹyìn\n
+M563	CTRL+HOME   A1    CTRL+END  sẹ́ẹ̀lì ìkẹyìn tí a lò\n
+M564	F1 ìrànlọ́wọ́  F2 àtúnṣe  F3 ṣẹ̀dà  F4 lẹ̀  F5 lọ  F6 àwọ̀\n
+M565	F7 bá mu  F8 ẹ̀yìn  F9 ṣírò  F10 àtẹ  F11 fi pamọ́  F12 àkójọ\n
+M566	SHIFT+F1 nípa  SHIFT+F2 gíga ìlà  SHIFT+F3 fífẹ̀ ọ̀wọ̀n\n
+M567	SHIFT+F4 yan gbogbo  SHIFT+F10 agbègbè àtẹ  SHIFT+F11 fi pamọ́ bí\n
+M568	CTRL+F1 tuntun  CTRL+F2 ṣí  CTRL+F3 fi pamọ́  CTRL+F4 fi pamọ́ bí\n
+M569	CTRL+F5 kó CSV jáde  CTRL+F6 kó ODS jáde  ALT+F12 jáde\n
+M570	Ìlà 2 ìsàlẹ̀: bọ́tìnì iṣẹ́; [SHIFT]/[CTRL]/[ALT] bíi olùṣàkóso fáìlì\n
+M571	CTRL+S fi pamọ́  CTRL+O ṣí  CTRL+N tuntun  CTRL+C/V/X ṣẹ̀dà/lẹ̀/gé\n
+M572	CTRL+G lọ sí    /  ṣí àkójọ (1 Fáìlì, 2 Àtúnṣe, ...)\n
+M573	Iṣẹ́ inú: SUM AVERAGE MIN MAX COUNT COUNTA\n
+M576	Ìtọ́kasí sẹ́ẹ̀lì: A1, $A$1, A1:B10.  Ìlànà ń bẹ̀rẹ̀ pẹ̀lú '='.\n
+M577	Fáìlì: .ods (LibreOffice), .fods (XML pẹrẹsẹ), .csv\n
+M578	ODS/FODS ń pa ìlànà, fífẹ̀, gíga àti àwọ̀ mọ́.\n
+M579	CSV ń pa iye àti ìlànà mọ́ (kò sí àwọ̀/gíga).\n
+M580	Àtẹ: yan agbègbè, tẹ F10, kí o yan Ìlà/Ọ̀pá/Àdàpọ̀/Pai.\n
+M581	SGCALC fún sgnano\n
+M582	Ẹ̀yà
+M583	Ìwé ìṣirò bíi Lotus 1-2-3 gẹ́gẹ́ bí ètò SGX.\n\n
+M585	Ipò ojú-iboju 3: ọ̀rọ̀ + FB CLUT8 (lowres ti pa)\n
+M586	Ìwé: ìlà %d x ọ̀wọ̀n %d\n
+M587	Ọ̀nà: .ods / .fods (LibreOffice), .csv\n\n
+M588	A ya àwọn ìlà sórí ojú ọ̀rọ̀.\n
+M589	Àtẹ àti ẹ̀yìn 640x480 ń lo FB.\n\n
+M591	Kò lè tọ́jú sẹ́ẹ̀lì (%d).
+M592	A ṣẹ̀dà sẹ́ẹ̀lì %d x %d
+M593	A pa %s rẹ́
+M594	'%s' kì í ṣe ìtọ́kasí sẹ́ẹ̀lì.
+M596	Fífẹ̀ ọ̀wọ̀n = %d
+M597	Gíga ìlà = %d
+M598	Bá a mu fúnra rẹ̀: ọ̀wọ̀n %d, ìlà %d
+M600	Kò lè lo àwọ̀ (%d).
+M602	Agbègbè tí kò tọ́.\nLo agbègbè bíi A1:C10.
+M603	Agbègbè àtẹ %s
+M604	Àtẹ: %s
+M605	SGCALC: kò lè ṣètò ipò ojú-iboju 3: %s\n
+M614	Kò lè ka %s\n%s
+M615	Fódà: %s
+M623	Ìfàgùn tí a kò ṣe àtìlẹ́yìn fún.\nLo .csv, .ods tàbí .fods.
+M624	%s ti wà.\nKọ lé e lórí?
+M625	Ó lè jẹ́ pé a kò lè kọ sí %s.\nGbìyànjú bẹ́ẹ̀?
+M626	A kò mọ irú fáìlì %s
+M627	Irú fáìlì tí a kò ṣe àtìlẹ́yìn fún.\nLo .csv, .ods tàbí .fods.
+M628	Kò lè ṣí %s\n%s
+M629	%s jẹ́ fódà.
+M630	Kò lè gbé %s wọlé\n%s
+M631	A ti gbé %s wọlé
+M632	Kò lè kọ́ fáìlì %s.
+M633	Kò lè kọ %s\n%s
+M635	ẹ̀yà %u tí a kò ṣe àtìlẹ́yìn fún
+M637	Ọ́kítéèfù %d
+M638	Ohùn %s
+M639	Ohun èlò %d
+M640	Ìpariwo %s
+M641	Ipa %c
+M642	Àfikún %s
+M643	Àpẹẹrẹ %s
+M644	Ó ń kọ àpẹẹrẹ %s
+M645	ÀṢÌṢE ÌPAMỌ́: %s
+M646	A ti fi %s pamọ́
+M647	ÀṢÌṢE ÌGBÉWỌLÉ: %s
+M648	BPM %d
+M649	Ìyára %d
+M650	Ìgbọ́-ṣáájú %s
+M651	Ohun èlò %s %s
+M652	Kọ lé %s lórí? (Y/N)
+M676	  F5          Kọ orin láti ètò yìí
+M677	  F6          Kọ àpẹẹrẹ yìí
+M678	  F7/Ctrl-C   Dá ìkọrin dúró
+M679	  Space       Kọ / dúró
+M680	  F4          Fi pamọ́ bí
+M681	  Ctrl-S      Fi pamọ́ (ń béèrè orúkọ tí ó bá jẹ́ tuntun)
+M682	  Ctrl-O      Ṣí orin
+M683	  Ctrl-N      Orin tuntun
+M684	  F12         Jáde (ń béèrè tí a bá yí i padà)
+M685	  [ ]         Ètò tó ṣáájú / tó kàn
+M686	  { }         Fi sí / pa ètò rẹ́
+M687	  - +         Yí àpẹẹrẹ inú ètò padà
+M688	  F11         Tẹ̀lé ìkọrin (ó ń pa nígbà tí a bá gbé e ní ọwọ́)
+M689	  F1          Ìrànlọ́wọ́; Òsì/Ọ̀tún ń yí ojú-ìwé padà
+M690	  F8          Tan/pa ipò àtúnṣe
+M691	  Ọfà         Gbé kọ́sọ̀
+M692	  PgUp/PgDn   Fò ìlà 16
+M693	  Home/End    Ìlà àkọ́kọ́ / ìkẹyìn
+M694	  F9/F10      Ọ́kítéèfù sísàlẹ̀ / sókè
+M695	  Z S X D C V G B H N J M      ìlà píánò ìsàlẹ̀
+M696	  Q 2 W 3 E R 5 T 6 Y 7 U      ìlà píánò òkè
+M697	  1           Pa ohùn
+M698	  0 / Del     0 ń pa ohùn/èlò/ipa rẹ́; Del ń pa èyíkéyìí rẹ́
+M699	  Ctrl-Z      Dá àtúnṣe àpẹẹrẹ/ètò ìkẹyìn padà
+M700	  Axy   Ìfàsẹ́ ìpariwo: sókè x, sísàlẹ̀ y
+M701	  Cxx   Gé ohùn lẹ́yìn tick xx
+M702	  Dxx   Ṣètò ìpariwo (00..7F)
+M703	  Fxx   Ìyára tí xx < 20, bí bẹ́ẹ̀ kọ́ BPM
+M704	  Hxy   Arpeggio x, y ìdajì ohùn
+M705	  Pxx   Ìfàsẹ́ ohùn sókè
+M706	  Qxx   Ìfàsẹ́ ohùn sísàlẹ̀
+M707	  F2 ètò orin, F3 àkójọ ohun èlò
+M708	ÌRÀNLỌ́WỌ́ %d/2
+M709	  Àkọlé
+M711	  BPM   : %d     (òsì/ọ̀tún -1/+1, -/+ -5/+5)
+M712	  Ìyára : tick %d/ìlà
+M713	  Ìlà   : %d (tí a fi múlẹ̀)
+M714	  Ètò   : àkọsílẹ̀ %d
+M715	  Àpẹẹrẹ tí a ń lò : %d
+M718	Ohun èlò yìí: %s %s
+M722	Fáìlì: %d
+M726	SGNO TRACKER: SGX ABI kò bá a mu\n
+M727	Àyẹ̀wò S:: dúró -- fáìlì kan ń jẹ́ kíkà tàbí kíkọ
+M728	Àyẹ̀wò S:: dráìfù ń ṣiṣẹ́ tàbí kò ṣetán
+M729	kò sí nǹkan fún nǹkan yìí (ContextMenu.cfg)
+M730	àṣẹ burúkú nínú ContextMenu.cfg
+M731	ìgbésẹ̀ àìmọ̀ nínú ContextMenu.cfg
+M732	àkójọ
+N001	5 Macro
+N002	6 Ìrànl
+N003	Ṣiṣẹ́ èyí
+N004	Ṣiṣẹ́ macro níbi kọ́sọ̀ (sẹ́ẹ̀lì àkọlé #! àti sẹ́ẹ̀lì nísàlẹ̀ rẹ̀)
+N005	Ṣiṣẹ́ àṣàyàn
+N006	Ṣiṣẹ́ sẹ́ẹ̀lì tí a yàn bí macro kan (sẹ́ẹ̀lì òkè òsì ni àkọlé #!)
+N007	Ṣiṣẹ́ gbogbo
+N008	Ṣiṣẹ́ gbogbo macro nínú ìwé, láti òkè òsì dé ìsàlẹ̀ ọ̀tún
+N009	Àṣìṣe ìkẹyìn
+N010	Fi àṣìṣe macro ìkẹyìn hàn
+N011	Macro
+N012	Macro: ṣiṣẹ́ sẹ́ẹ̀lì #!ruby / #!python / #!basic
+N013	Ṣàtúnṣe sẹ́ẹ̀lì (F2)
+N014	Bá fífẹ̀/gíga mu pẹ̀lú ohun inú
+N015	Àṣìṣe macro ìkẹyìn
+N016	Kò sí àṣìṣe macro.
+N017	IME tàn
+N018	IME pa
+N019	Macro: %s %s ...
+N020	%s: firmware yìí kò lè ṣiṣẹ́ macro (SGX ABI 5.10 tàbí jù bẹ́ẹ̀ lọ)
+N021	Àṣìṣe macro: %s
+N022	Macro: %s ti parí
+N023	macro kan ti ń ṣiṣẹ́ tẹ́lẹ̀
+N024	èdè yìí kò sí
+N025	ìrántí kò tó
+N026	macro dúró pẹ̀lú àṣìṣe
+N027	Àṣìṣe macro %s: %s
+N028	Macro: ìrántí kò tó
+N029	Macro: kọ́sọ̀ kò sí lórí macro (sẹ́ẹ̀lì #!ruby / #!python / #!basic tàbí sẹ́ẹ̀lì nísàlẹ̀ rẹ̀)
+N030	Macro: kò sí macro nínú ìwé
+N031	Ṣiṣẹ́ gbogbo macro
+N032	Macro: %d. Ṣiṣẹ́ gbogbo wọn, láti òkè òsì dé ìsàlẹ̀ ọ̀tún? A kò lè dá àyípadà padà.
+N033	Macro: %d nínú %d ti parí
+N034	A ti pa sẹ́ẹ̀lì náà rẹ́
+N035	A ti pa àṣàyàn náà rẹ́
+N036	Àwọ̀ ẹ̀yìn = %d
+N037	Àwọ̀ ọ̀rọ̀ = %d
+N038	Àtẹ: ìlà
+N039	Àtẹ: ọ̀pá
+N040	Àtẹ: àdàpọ̀
+N041	Àtẹ: pai
+N042	A ti kó %s jáde

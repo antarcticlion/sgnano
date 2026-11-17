@@ -1,0 +1,1162 @@
+# sgnano filer strings: Slovenščina (2026-11-17). ui <TAB> Japanese <TAB> translation / msg.* <TAB> English <TAB> translation
+# status: unreviewed (machine translation, not checked by a native speaker; 2026-11-17). 未検証: ネイティブの確認をしていない仮の訳
+@lang sl
+@name Slovenščina
+ui	一覧（ファイルとフォルダを 2 列 x 19 行に並べる）	Seznam (datoteke in mape v 2 stolpcih x 19 vrsticah)
+ui	カーソルを動かす（左右は隣の列へ）	Premakni kazalec (levo/desno: drugi stolpec)
+ui	前のページ / 次のページ	Prejšnja stran / naslednja stran
+ui	全部に印 / 印を反転（PC-98 FD と同じ）	Označite vse / obrnite oznake (kot v PC-98 FD)
+ui	先頭 / 最後	Prvi / zadnji
+ui	印を付けて次へ / 印だけ付ける	Označi in pojdi naprej / samo označi
+ui	Shift+矢印	Shift+puščice
+ui	範囲を選ぶ（Space でその範囲に印）	Izberite obseg (presledek označuje obseg)
+ui	フォルダに入る・ファイルを開く（F2/X は実行）	Vnesite mapo / odprite datoteko (zagon F2/X)
+ui	上のフォルダへ	Do nadrejene mape
+ui	ドライブを選ぶ（USB・フロッピー・CD・S: 内蔵）	Izberite pogon (USB, disketa, CD, S: vgrajen)
+ui	コピー（Shift+C / Shift+F3 は行き先を木から）	Kopiraj (Shift+C / Shift+F3 izbere cilj iz drevesa)
+ui	移動	Premakni se
+ui	削除（Shift+D / Shift+F4 はフォルダ削除）	Izbriši (Shift+D / Shift+F4 izbriše mapo)
+ui	名前を変える	Preimenuj
+ui	属性を変える	Spremenite atribute
+ui	エディタで開く	Odpri v urejevalniku
+ui	テキスト表示（Shift+V / Ctrl+Alt+F7 は 16 進）	Ogled kot besedilo (Shift+V / Ctrl+Alt+F7 hex)
+ui	ドライブの情報	Informacije o pogonu
+ui	フォルダを作る / 新しいファイル	Nova mapa/nova datoteka
+ui	シェル sgsh / 媒体を取り出す	Shell sgsh / izvrzi medij
+ui	読み直す	Ponovno naloži
+ui	見えている画面を PNG で保存	Shranite zaslon kot PNG
+ui	窓を閉じる・選択を解く（サブフォルダでは上位へ）	Zapri okno / počisti izbor (v podmapi: pojdi gor)
+ui	ファイルの操作（FD と同じ。印・範囲・カーソルの順に選ぶ）	Datotečne operacije (kot v FD: oznake, nato obseg, nato kazalec)
+ui	コピー: 行き先はドライブとフォルダの木から。ESC で止める	Kopiraj: izberite cilj iz pogona in drevesa map. ESC se ustavi
+ui	削除: y で確かめる。印・範囲をまとめて。フォルダは中身ごと	Brisanje: potrdite z y. Oznake in obsegi hkrati. Mape z njihovo vsebino
+ui	フォルダを削除（中身ごと）	Brisanje mape (z njeno vsebino)
+ui	名前を変える（今の名前を直して Enter）	Preimenuj (uredite ime, Enter)
+ui	属性: R 読み出し専用・H 隠し・S システム・A アーカイブ	Atributi: R samo za branje, H skrito, S sistem, A arhiv
+ui	フォルダを作る	Nova mapa
+ui	新しいファイル（空）を作る	Nova (prazna) datoteka
+ui	テキストで表示（Shift+V / Ctrl+Alt+F7 は 16 進）	Ogled kot besedilo (Shift+V / Ctrl+Alt+F7 hex)
+ui	シェル sgsh（exit / Ctrl-D でファイラーへ）	Lupina sgsh (izhod / Ctrl-D nazaj v datoteko)
+ui	選んでいるドライブの素性（INQUIRY・IDENTIFY）	Identiteta pogona (POVPRAŠEVANJE, IDENTIFIKACIJA)
+ui	FDD・LS-120・CD の媒体を取り出す	Izvrzite medij FDD / LS-120 / CD
+ui	一覧を読み直す（CD は TOC から）	Ponovno naloži seznam (CD: iz vsebine)
+ui	ZMODEM で PC から受け取る（zm.sh put）	Prejmi iz računalnika z ZMODEM (zm.sh put)
+ui	ZMODEM で PC へ送る（zm.sh get）	Pošlji na računalnik z ZMODEM (zm.sh get)
+ui	.rb をコンパイルして .mrb を書き出す	Prevedite .rb in napišite .mrb
+ui	Ruby の REPL（1 行ずつ、Ctrl-D / ESC で終わり）	Ruby REPL (vrstica za vrstico, Ctrl-D / ESC za konec)
+ui	MicroPython の REPL	MicroPython REPL
+ui	4MB ずつ分割 / .001 から結合	Razdelite na 4 MB dele / združite od .001
+ui	分割 / 結合（Ctrl+F11 / F12 と同じ）	Razdeli/združi (enako kot Ctrl+F11 / F12)
+ui	画面（Alt+F。FD の F キーとぶつからない）	Zaslon (Alt+F, ni v nasprotju s tipkami FD F)
+ui	FB（絵）/ テキスト面を出す・隠す	Pokaži / skrij FB (sliko) / besedilo
+ui	FB の表示ページ（0〜3）	Prikaz FB strani (0-3)
+ui	FB を 0 で消す / 明るさを 1/2 に（RGB555）	Počistite FB na 0 / prepolovite njegovo svetlost (RGB555)
+ui	USB のエンドポイントと LAN の状態	končne točke USB in stanje LAN
+ui	FB の表示ページを消す / 明るさを 1/2 に	Počistite prikaz FB strani / prepolovite njeno svetlost
+ui	テキストの属性の見本	Vzorci besedilnih atributov
+ui	モニタの EDID（起動時に読んだもの）	Nadzor EDID (branje ob zagonu)
+ui	フォント ROM のライセンスとクレジット	Licence in krediti za pisave ROM
+ui	設定（表示の言語・IME・キーボードロケール）	Nastavitve (jezik prikaza, IME in jezik tipkovnice)
+ui	時計（NTP で合わせた日本時間。s ですぐ合わせる）	Ura (japonski čas, ki ga nastavi NTP; s se zdaj sinhronizira)
+ui	表計算（SGCALC）を開く	Odpri preglednico (SGCALC)
+ui	S: ドライブのエラー検査（誤りがあれば直すか聞く）	Preverite S: za napake (vpraša pred popravilom)
+ui	トラッカー（TRACKER）を開く	Odprite TRACKER
+ui	再起動（確かめの窓が出る）	Znova zaženi (najprej vpraša)
+ui	ADC のステレオ入力（GP40 / 41）を鳴らす	Predvajajte stereo vhod ADC (GP40 / 41)
+ui	VGM/VGZ を 96kHz/24bit WAV に書き出す	Izvozite VGM/VGZ v 96 kHz/24-bitni WAV
+ui	このヘルプ	Ta pomoč
+ui	ページを替える	Spremenite stran
+ui	閉じる	Zapri
+ui	テキスト・16 進のビュアー（less 風）	Pregledovalnik besedila/šestnajstiškega (kot manj)
+ui	1 行	Ena vrstica
+ui	1 ページ	Ena stran
+ui	半ページ	Pol strani
+ui	探す（前へ・後ろへ）/ 次・前	Iskanje (naprej / nazaj) / naslednji / prejšnji
+ui	一覧へ戻る（F1 はビュアーのヘルプ）	Nazaj na seznam (F1: pomoč pregledovalca)
+ui	画像のビュアー	Pregledovalnik slik
+ui	一覧へ戻る（F2 F3 F6 F7 Shift+F2 F3 は効く）	Nazaj na seznam (F2 F3 F6 F7 Shift+F2 F3 delo)
+ui	エディタ（E / Shift+F8）	Urejevalnik (E / Shift+F8)
+ui	保存する（UTF-8。改行と BOM は元のまま）	Shrani (UTF-8; konci vrstice in BOM ohranjeni)
+ui	閉じる（変わっていれば Y / N / ESC）	Zapri (če je spremenjeno: Y / N / ESC)
+ui	挿入 / 上書き	Vstavi / prepiši
+ui	IME（日本語・英語・ハングル）の入・切	Vklop/izklop IME (japonščina/angleščina/korejščina)
+ui	IME の言語（日本語 / English / 한국어）	Jezik IME (japonščina/angleščina/korejščina)
+ui	ひらがな / カタカナで確定	Zaveza kot hiragana/katakana
+ui	エディタのヘルプ	Pomoč urednika
+ui	シェル	školjka
+ui	シェル（csh のサブセット。exit / Ctrl-D で戻る、help で一覧）	Lupina (podmnožica csh. izhod / Ctrl-D za vrnitev, pomoč navaja ukaze)
+ui	一覧と移動	Seznam in premikanje
+ui	ファイルの操作	Datotečne operacije
+ui	画面と機器	Zaslon in naprave
+ui	ビュアーとエディタ	Gledalci in urednik
+ui	ヘルプ  %u / %u  %s	Pomoč %u / %u %s
+ui	Left Right: ページを替える    F1 / ESC: 閉じる	Levo Desno: spremenite stran F1 / ESC: zaprite
+ui	sgnano を再起動しますか？	Znova zagnati sgnano?
+ui	[ 再起動 ]	[Ponovni zagon]
+ui	[ キャンセル ]	[ Prekliči ]
+ui	S: ドライブのエラー検査	Preverite pogon S: za napake
+ui	ファイル %lu  フォルダ %lu	Datoteke %lu mape %lu
+ui	大きさが鎖と合わない	Velikost se ne ujema z verigo
+ui	どこからも使われていないクラスタ	Nič uporabljeni grozdi
+ui	重なったクラスタ	Zamreženi grozdi
+ui	壊れた項目	Pokvarjeni vnosi
+ui	FAT の 2 つの写しの食い違い	Dve kopiji FAT se razlikujeta
+ui	エラーはありません。	Brez napak.
+ui	エラーが見つかりました。修復しますか？	Najdene so bile napake. Jih popraviti?
+ui	修復しました（上は直した数）。	Popravljeno (zgornje številke so bile popravljene).
+ui	検査・修復できませんでした（S: が使用中）。	Ni bilo mogoče preveriti ali popraviti (S: je zaseden).
+ui	[ 修復する ]	[ Popravilo ]
+ui	[ やめる ]	[ Prekliči ]
+ui	何かキーで閉じる	Vsaka tipka se zapre
+ui	設定	nastavitve
+ui	表示の言語	Prikazni jezik
+ui	キーボードロケール	Jezik tipkovnice
+ui	Up / Down  Enter 決める  ESC やめる	Gor / Dol Enter izberite ESC prekliči
+ui	表示の言語 (Language)	Prikazni jezik
+ui	Up / Down  Enter 決める  ESC 戻る	Gor / Dol Enter: nastavitev ESC: nazaj
+ui	%c: をどの文字に固定しますか（A〜Z、S を除く。ESC でやめる）	Popravi %c: kot katero črko? (A-Z razen S. ESC prekliče)
+ui	ドライブ  文字 / Enter 選ぶ  F2 文字を固定・解除  F3 文字を決めて固定  L / ESC やめる	Črka pogona / Enter izberite F2 popravi/razveljavi črko F3 popravi kot... L / ESC prekliči
+ui	  区画 %u	pregrada %u
+ui	%c:* （固定・つながっていません）%04X:%04X%s  %s	%c:* (fiksno, ni povezano) %04X:%04X%s %s
+ui	お知らせ	Obvestilo
+ui	ドライブ %c:  %s	Pogon %c: %s
+ui	ドライブ  (なし)	Drive (brez)
+ui	音楽 CD  %u トラック	Avdio CD %u skladb
+ui	フォルダ %u  ファイル %u  合計 %s	Mape %u datoteke %u skupaj %s
+ui	読んでいます...	Branje ...
+ui	* 印 %u 個  %s	* z oznako %u %s
+ui	%lu バイト	%lu bajtov
+ui	属性 %s   更新日時 %s   作成日時 %s   %s	Attr %s spremenjen %s ustvarjen %s %s
+ui	日	sonce
+ui	月	pon
+ui	火	tor
+ui	水	Sre
+ui	木	čet
+ui	金	pet
+ui	土	sob
+ui	時計は合わせていません（LAN の NTP）	Ura ni nastavljena (NTP prek LAN)
+ui	FB  表示 %u  書込 %u	FB prikaz %u pisanje %u
+ui	1 ヘルプ	1 Pomoč
+ui	2 実行	2 Teci
+ui	3 ｺﾋﾟｰ	3 Copy
+ui	4 削除	4 Del
+ui	5 名前	5 Rename
+ui	7 FB消去	7 FBclr
+ui	8 FB減光	8 FBdim
+ui	9 ﾄﾞﾗｲﾌﾞ	9 Vozi
+ui	10 EP表	10 EPs
+ui	11 時計	11 Ura
+ui	12 表計	12 RAČUN
+ui	1 属性	1 Attr
+ui	2 情報	2 Info
+ui	3 移動	3 Move
+ui	5 作成	5 Mkdir
+ui	6 シェル	6 Shell
+ui	8 編集	8 Uredi
+ui	9 表示	9 Pogled
+ui	10S:検査	10 S:chk
+ui	11 ﾄﾗｯｸ	11 TREK
+ui	12再起動	12Reboot
+ui	1 新規	1 Novo
+ui	2 ﾌｫﾙﾀﾞ	2 Mapa
+ui	3 名前	3 Rename
+ui	4 属性	4 Atrib
+ui	6 ｺﾋﾟｰ	6 Copy
+ui	7 移動	7 Move
+ui	8 削除	8 Delete
+ui	9 編集	9 Uredi
+ui	10ｺﾝﾊﾟｲﾙ	10 mrbc
+ui	11 分割	11 Split
+ui	12 結合	12 Join
+ui	1 属性例	1 Attr
+ui	2 FB切替	2 FB
+ui	3 文字面	3 Text
+ui	5 画面写	5 ScrSht
+ui	6 表示頁	6 DispPg
+ui	9 ZM受信	9 ZMrecv
+ui	10ZM送信	10ZMsend
+ui	2 FB消去	2 FBClr
+ui	3 FB減光	3 FBDim
+ui	5 再読込	5 Reload
+ui	7 16進	7 Hex
+ui	9 ﾗｲｾﾝｽ	9 Lic
+ui	8 設定	11 Setup
+ui	時刻を合わせる（日本時間。NTP で合わせられませんでした）	Nastavite uro (japonski čas. NTP je ni mogel nastaviti)
+ui	起動のパラメタ	Zagon s parametri
+ui	新しいフォルダ	Nova mapa
+ui	新しいファイル	Nova datoteka
+ui	時刻:	Čas:
+ui	実行:	Teči:
+ui	名前:	ime:
+ui	年-月-日 時:分  Enter 合わせる  ESC そのまま	LLLL-MM-DD hh:mm Vnesite set ESC obdrži
+ui	Enter 走らせる  ←→ 動かす  BS / Del 消す  ESC やめる	Vnesite zagon <-> premakni BS / Del izbriši ESC prekliči
+ui	Enter 変える  ←→ 動かす  BS / Del 消す  ESC やめる	Vnesite preimenuj <-> premakni BS / Del izbriši ESC prekliči
+ui	Enter 作る  ←→ 動かす  BS / Del 消す  ESC やめる	Vnesite ustvari <-> premakni BS / Del izbriši ESC prekliči
+ui	消す	Izbriši
+ui	個の項目	predmete
+ui	フォルダは中身ごと消します。よろしいですか？	Mape se izbrišejo z njihovo vsebino. Ste prepričani?
+ui	このファイルを消しますか？	Želite izbrisati to datoteko?
+ui	（元に戻せません。フォルダの中のファイルも消えます）	(Tega ni mogoče razveljaviti. Izbrisane so tudi datoteke v mapah)
+ui	[ はい (Y) ]	[Da (Y)]
+ui	[ いいえ (N) ]	[Ne (N)]
+ui	バイナリビュアー: ファイルを選んでください	hex viewer: izberite datoteko
+ui	テキストビュアー: ファイルを選んでください	pregledovalnik besedila: izberite datoteko
+ui	移動先	Premakni se na
+ui	コピー先	Kopiraj v
+ui	バッファがいっぱいです (buffer full)	Medpomnilnik je poln
+ui	読み出し専用のドライブです (read-only)	Pogon je samo za branje
+ui	保存できません (no writer)	Ni mogoče shraniti (brez pisca)
+ui	保存を始められません (the drive is busy?)	Shranjevanja ni bilo mogoče začeti (pogon je zaseden?)
+ui	保存しています... (saving)	Shranjevanje ...
+ui	2 保存	2 Shrani
+ui	5 色分け	5 Barva
+ui	6 ﾞ	6 Hira
+ui	7 ｶﾀｶﾅ	7 kat
+ui	8 予測	8 Pred
+ui	10 終了	10 Quit
+ui	1 先頭	1 vrh
+ui	2 最後	2 Konec
+ui	3 挿/上	3 InsOvr
+ui	4 辞書	4 Dikt
+ui	6 半	6 HHira
+ui	7 半ｶﾅ	7 HKata
+ui	 %s  %s  行 %lu/%lu 桁 %u  %s  %s %s%s%s	%s %s Ln %lu/%lu Col %u %s %s %s%s%s
+ui	*変更	*mod
+ui	上書	OVR
+ui	挿入	INS
+ui	  読出専用	R/O
+ui	 エディタ (sgnano edit)                      F1 / ESC で閉じる	Urejevalnik (sgnano edit) F1 / ESC se zapre
+ui	 矢印 / Home End / PgUp PgDn   カーソルを動かす	Puščice / Home End / PgUp PgDn premikanje kazalca
+ui	 Ctrl-T / Ctrl-B               ファイルの先頭 / 最後	Ctrl-T / Ctrl-B vrh / konec datoteke
+ui	 BS / Del                      前の字 / カーソルの字を消す	BS / Del brisanje pred / na kazalcu
+ui	 Enter                         改行（前の行の字下げを引き継ぐ）	Vnesite novo vrstico (ohranite zamik)
+ui	 Tab / Ins                     タブ / 挿入と上書きの切り替え	Zavihek / zavihek Ins / vstavi ali prepiši
+ui	 F5                            色分け（拡張子から。C/C++・mruby・MicroPython・SG BASIC・なし）	Barvanje F5 (iz razširitve; C/C++, mruby, MicroPython, SG BASIC, brez)
+ui	 F2  (Ctrl-S)                  保存（UTF-8、改行は元の形）	F2 (Ctrl-S) shrani (UTF-8, konci vrstic ohranjeni)
+ui	 F10 / ESC                     閉じる（変更があれば聞く）	F10 / ESC zapri (vpraša, ali je spremenjeno)
+ui	 IME:  Ctrl-Space / F12        オン・オフ（あ / A）	IME: Ctrl-preslednica / F12 vklop / izklop (あ / A)
+ui	       F9                      IME の言語（このエディタの間だけ。閉じると戻る）	Jezik IME F9 (samo ta urejevalnik; obnovljeno ob zaprtju)
+ui	       F8                      日本語の予測変換 オン・オフ	F8 japonska napovedna pretvorba vklop/izklop
+ui	       日本語                  ローマ字 -> ひらがな（F6）・カタカナ（F7）	Japonski romaji -> hiragana (F6) / katakana (F7)
+ui	                               半角ひらがな（Shift+F6）・半角カタカナ（Shift+F7）	Hiragana polovične širine (Shift+F6)/katakana polovične širine (Shift+F7)
+ui	                               2 字以上で予測、Space で連文節変換	Predvidevanje z 2 ali več znaki, pretvorba neprekinjenega stavka s presledkom
+ui	       English                 2 字以上で予測補完	Angleščina Predvideno dokončanje z 2 ali več znaki
+ui	       한국어                  2 ボル式ハングル	한국어 2 hangul v bolskem slogu
+ui	       Space / Enter           変換 / 確定	Presledek / Enter Pretvori / Potrdi
+ui	       ← →                    文節を選ぶ	← → Izberite frazo
+ui	       Shift+← →               文節の右端を 1 字 縮/拡（候補を出し直す）	Shift+← → Skrči/povečaj desni konec stavka za en znak (novi kandidati)
+ui	       ↑ ↓ / Tab               候補の窓で前 / 次の候補（窓は変換の下、画面の下では上）	↑ ↓ / Zavihek Prejšnji / naslednji kandidat v pojavnem oknu (pod besedilom, zgoraj blizu dna)
+ui	       →→→ で Enter            すべての候補（2 列 x 8 個、← → で列とページ、Enter で決める）	Enter na →→→ Vsi kandidati (2 x 8, ← → stolpec in stran, Enter izbere)
+ui	       Enter                   次の文節へ（最後の文節で全体を確定）	Vnesite naslednji stavek (potrdi celoto pri zadnjem stavku)
+ui	       Ctrl-U                  いまの語をユーザー辞書へ	Ctrl-U Dodaj trenutno besedo v uporabniški slovar
+ui	 Shift+F1 / F2 / F3 / F4       先頭 / 最後 / 挿入と上書き / ユーザー辞書へ	Shift+F1 / F2 / F3 / F4 zgoraj / konec / vstavi-prepiši / v uporabniški slovar
+ui	       BS / ESC                1 字戻す / 取り消し	BS / ESC Pojdi za en znak nazaj / Prekliči
+ui	       , . - [ ] /             、 。 ー 「 」 ・	, . - [ ] / 、 。 ー 「 」 ・
+ui	変更あり  Y: 保存して閉じる  N: 保存せず閉じる  ESC: 戻る	Spremenjeno Y: shrani in zapri N: zapri brez shranjevanja ESC: nazaj
+ui	[予測] Tab/↑↓: 候補  Space: 変換  Esc: 取消	[Napoved] Tab/↑↓: kandidat Presledek: pretvori Esc: prekliči
+ui	[候補] ↑↓: 選ぶ  ←→: 列・ページ  Enter: 決める	[Kandidati] ↑↓: izberite ←→: stolpec/stran Enter: izberite
+ui	[変換] ↑↓候補 ←→文節 Shift+←→区切り Enter次へ	[Pretvori] ↑↓in ←→klavzula Shift+←→vezano Enter next
+ui	[한국어] Tab/↑↓: 候補  Enter/Space: 確定	[한국어] Tab/↑↓: kandidat Enter/Preslednica: potrditev
+ui	[English] Tab/↑↓: 候補  Enter: 確定	[English] Tab/↑↓: kandidat Enter: potrdi
+ui	2ボル式ハングル入力  Ctrl-Space: 英数	2-nastavljeni vnos hangul Ctrl-preslednica: alfanumerično
+ui	予測補完  Ctrl-Space: 直接入力	Predvideno dokončanje Ctrl-preslednica: neposreden vnos
+ui	辞書なし: ひらがな/カタカナ入力のみ  F6/F7	Brez slovarja: samo hiragana/katakana F6/F7
+ui	Space: 変換  F7: カタカナ  Ctrl-Space: 英数	Preslednica: pretvori F7: katakana Ctrl-preslednica: alfanumerično
+ui	Space: 変換  F6: ひらがな  Ctrl-Space: 英数	Preslednica: pretvori F6: hiragana Ctrl-preslednica: alfanumerično
+ui	半角  F6: ひらがな  F7: カタカナ  Shift+F6/F7: 半角	Polovična širina F6: hiragana F7: katakana Shift+F6/F7: polovica
+ui	IME オフ	IME izklopljen
+ui	 予測	napovedati
+ui	日本語の予測変換: オン	Predvidevanje japonskega prevoda: Vklopljeno
+ui	日本語の予測変換: オフ	Predvidevanje prevoda za japonščino: izklopljeno
+ui	日本語IMEで使います	Uporabite z japonskim IME
+ui	ユーザー辞書に追加できません	Ni mogoče dodati v uporabniški slovar
+ui	色分け: %s	Barvanje: %s
+ui	読み込んでいます... (loading)	Nalaganje...
+ui	読み込めませんでした (could not read)	Datoteke ni bilo mogoče prebrati
+ui	%lu 行%s%s	%lu črte%s%s
+ui	  Shift_JIS を UTF-8 で開きました（保存は UTF-8）	odprl Shift_JIS kot UTF-8 (shranjen kot UTF-8)
+ui	  読み出し専用	samo za branje
+ui	保存しました (saved)	Shranjeno
+ui	保存できませんでした (write failed)	Ni bilo mogoče shraniti (pisanje ni uspelo)
+ui	候補	Kandidati
+ui	7 書込頁	7 WrtPg
+ui	9 ﾃｷｽﾄ	9 Text
+ui	9 ﾊﾞｲﾅﾘ	9 Hex
+ui	読み込み中 %lu%%  	Nalaganje %lu%%
+ui	（先頭だけ）  	(samo začetek)
+ui	16 進  q ESC: 戻る  F1: ヘルプ	Hex q ESC: nazaj F1: pomoč
+ui	テキスト  q ESC: 戻る  F1: ヘルプ	Besedilo q ESC: nazaj F1: pomoč
+ui	ビュアーのキー（less 風。テキストと 16 進で共通）	Tipke pregledovalnika (kot manj; enako za besedilo in šestnajstiško)
+ui	1 行進む	Eno vrstico navzdol
+ui	1 行戻る	Ena vrstica
+ui	1 ページ進む	Ena stran navzdol
+ui	1 ページ戻る	Ena stran navzgor
+ui	半ページ進む / 戻る	Pol strani gor/dol
+ui	/文字列  ?文字列	/besedilo ?besedilo
+ui	下へ探す / 上へ探す（大文字小文字は区別しない）	Iskanje dol/gor (ne upošteva velikih in malih črk)
+ui	次 / 前を探す	Naslednja/prejšnja tekma
+ui	16 進で表示する（いま見ている所のまま）	Prikaži kot hex (na istem mestu)
+ui	テキストで表示する（いま見ている所のまま）	Prikaži kot besedilo (na istem mestu)
+ui	色分けを替える（C/C++・mruby・MicroPython・SG BASIC・なし）	Spremenite barvo (C/C++, mruby, MicroPython, SG BASIC, brez)
+ui	FB / テキスト面を出す・隠す	Prikaži / skrij FB / besedilo
+ui	FB の表示ページ / 書き込みページ	FB stran za prikaz / stran za pisanje
+ui	ファイラーへ戻る	Nazaj k datoteki
+ui	このヘルプを閉じる	Zapri to pomoč
+ui	コピー	Kopiraj
+ui	 %s: フォルダを読んでいます... %u 個	%s: branje map... %u
+ui	 %s: 行き先の空きを数えています...	%s: štetje prostega prostora na cilju ...
+ui	 %s: 行き先の空きが足りません	%s: premalo prostega prostora na cilju
+ui	 移動: 元のフォルダを消しています	Premakni: odstranitev izvornih map
+ui	終了しました	Končano
+ui	止まりました	ustavil
+ui	 %s中%s	%s v teku%s
+ui	（止めています）	(ustavljanje)
+ui	 元: %s	Od: %s
+ui	 先: %s	Za: %s
+ui	 ファイル %u / %u 個  フォルダ %u 個  %s / %s  (%u%%)%s	Datoteke %u / %u mape %u %s / %s (%u%%)%s
+ui	  多すぎるので一部だけ	preveč: samo nekateri
+ui	 要る大きさ %s、空き %s。続けますか？	Potrebuje %s, brezplačno %s. Nadaljevati?
+ui	 Y: 続ける   N / ESC: やめる	Y: nadaljuj N / ESC: prekliči
+ui	 何かキーを押すと閉じます	Za zapiranje pritisnite katero koli tipko
+ui	 ESC: 止める	ESC: stop
+ui	 %s: ←→ ドライブ  ↑↓ フォルダ  Space 開く・閉じる  Enter 決める  ESC やめる	%s: ←→ pogon ↑↓ mapa Presledek odpri/zapri Enter izberite ESC prekliči
+ui	 読めません: %s	Ne more brati: %s
+ui	 フォルダを読んでいます...（ESC で止める）  %u 個	Branje map ... (ESC se ustavi) %u
+ui	 フォルダ %u 個%s	%u mape%s
+ui	（多すぎるか深すぎるので、一部だけ）	(preveč ali pregloboko: samo nekateri)
+ui	フォルダの展開を止めました	Ustavljeno odpiranje mape
+ui	Space で開き直せます。もう一度 ESC でやめます	Prostor ga spet odpre. ESC še enkrat prekliče
+ui	 SMF / SGT プレイヤー   %s	Predvajalnik SMF / SGT %s
+ui	 読み込んでいます... %lu / %lu バイト	Nalaganje ... %lu / %lu bajtov
+ui	 %s / %s   %s   ポート %u	%s / %s %s vrata %u
+ui	一時停止	Zaustavljeno
+ui	再生中	Igranje
+ui	 Space: 一時停止  m: MIDI OUT  q / ESC: 止める	Presledek: premor m: MIDI OUT q / ESC: zaustavitev
+ui	 q / ESC: やめる	q / ESC: prekliči
+ui	フォント ROM のライセンスとクレジット\n\nROM: %s（版 %lu.%lu、%lu 文字、フラッシュの 0x%08lX から）\n\n	Licence in krediti za pisave ROM\n\nROM: %s (različica %lu.%lu, %lu znakov, od 0x%08lX v bliskavici)
+ui	== 収めているフォント（ROM の出所の表）==\n	== Pisave v ROM-u (izvorna tabela ROM-a) ==
+ui	  （表が無い ROM）\n	(ROM nima tabele)
+ui	\n== ROM のクレジットの区画 ==\n\n	== Območje kreditov v ROM-u ==
+ui	（区画が無い）\n	(ni takega območja)
+ui	\n== 組み込んだソフトウェアのライセンス ==\n	== Licence vgrajene programske opreme ==
+ui	 %s を PNG で保存   %s	Shranjevanje %s kot PNG %s
+ui	画面	zaslon
+ui	 組み立てています... %lu / %lu 行	Stavba... %lu / %lu vrste
+ui	 書いています... %lu / %lu KB（FB は隠しています）	Pisanje... %lu / %lu KB (FB je skrit)
+ui	書けませんでした	Ni mogel pisati
+ui	書庫の名前（印の付いた項目、無ければカーソルの項目を入れる）	Ime arhiva (označeni elementi ali element kazalca, če ga ni)
+ui	Enter 圧縮する  ←→ 動かす  BS / Del 消す  ESC やめる	Vnesite stiskanje ←→ premakni BS / Del izbriši ESC prekliči
+ui	WAV 書き出し: %s 中止（%s）	Izvoz WAV: %s preklican (%s)
+ui	WAV 書き出し: %s 失敗（%s）	Izvoz WAV: %s ni uspel (%s)
+ui	WAV 書き出し: %s 合計 %s	Izvoz WAV: %s skupaj %s
+ui	 WAV 書き出し（96kHz / 24bit）: %s	Izvoz WAV (96kHz / 24bit): %s
+ui	中止しました	Preklicano
+ui	失敗しました	Ni uspelo
+ui	 合計 %s	Skupaj %s
+ui	 中止しました（%s。半端なファイルは消しました）	Preklicano (%s; delna datoteka je bila izbrisana)
+ui	 書き出せませんでした（%s）。理由:	Ni bilo mogoče izvoziti (%s). razlog:
+ui	 （理由は分かりません）	(razlog neznan)
+ui	 %u%%   経過 %s%s	%u%% preteklo %s%s
+ui	 ESC: 止める（半端なファイルは消します）	ESC: stop (delna datoteka je izbrisana)
+ui	書庫: %s	Arhiv: %s
+ui	読み込み中…（ESC でやめる）	Branje ... (ESC za preklic)
+ui	 %u 項目%s  合計 %s バイト  展開先: %s	%u elementov%s skupno %s bajtov izvleči v: %s
+ui	 Enter 項目を展開  X 全部を展開  ↑↓ 動かす  ESC 閉じる	Vnesite ekstrahiraj element X ekstrahiraj vse ↑↓ premakni ESC zapri
+ui	圧縮	Stisnite
+ui	一覧	Seznam
+ui	展開	Izvleček
+ui	 合計 %s   %u 項目	Skupaj %s %u predmetov
+ui	 合計 %s   %u ファイル	Skupno %s %u datotek
+ui	 中止しました（%s。書きかけのファイルは消しました）	Preklicano (%s; nedokončana datoteka je bila izbrisana)
+ui	 できませんでした（%s）: %s	Ni mogel (%s): %s
+ui	 %u%%   経過 %s   %s バイト%s	%u%% pretečenih %s %s bajtov%s
+ui	 経過 %s   %s バイト%s	pretečenih %s %s bajtov%s
+ui	 ESC: 止める（書きかけのファイルは消します）	ESC: stop (nedokončana datoteka se izbriše)
+ui	書庫: %s 失敗（%s）	Arhiv: %s ni uspelo (%s)
+ui	圧縮: %s（%u 項目）	Stisnjeno: %s (%u elementov)
+ui	展開: %s（%u ファイル）	Ekstrahirano: %s (%u datoteke)
+msg.phrase	the drive went away	pogon je odšel
+msg.phrase	reading the partitions again...	ponovno branje particij...
+msg.phrase	could not open the volume (no memory?)	glasnosti ni bilo mogoče odpreti (ni pomnilnika?)
+msg.phrase	opening the volume...	odpiranje glasnosti ...
+msg.phrase	no memory for the file list	ni pomnilnika za seznam datotek
+msg.phrase	reading the directory... (retrying)	branje imenika ... (ponovni poskus)
+msg.phrase	could not read the directory	ni mogel prebrati imenika
+msg.phrase	reading the directory...	branje imenika...
+msg.phrase	the drive did not answer -- reading the partitions again	disk se ni oglasil -- ponovno branje particij
+msg.phrase	could not read the directory (not FAT12/16/32?)	ni mogel prebrati imenika (ne FAT12/16/32?)
+msg.phrase	too many entries -- showing the first ones	preveč vnosov -- prikazani so prvi
+msg.phrase	no file system found on this partition	na tej particiji ni najden datotečni sistem
+msg.phrase	the path is too long	pot je predolga
+msg.phrase	joining...	pridružitev ...
+msg.phrase	splitting...	cepitev...
+msg.phrase	renaming...	preimenovanje ...
+msg.phrase	creating the folder...	ustvarjanje mape ...
+msg.phrase	creating the file...	ustvarjanje datoteke ...
+msg.phrase	deleting...	brisanje ...
+msg.phrase	writing the attributes...	pisanje atributov...
+msg.phrase	the drive is busy	pogon je zaseden
+msg.phrase	busy	zaseden
+msg.phrase	choose files or folders	izberite datoteke ali mape
+msg.phrase	choose files or folders (not "..")	izberite datoteke ali mape (ne "..")
+msg.phrase	stop the CD first	najprej ustavite CD
+msg.phrase	the CD cannot be changed (copy instead)	CD-ja ni mogoče spremeniti (namesto tega kopirajte)
+msg.phrase	a system folder cannot be moved	sistemske mape ni mogoče premakniti
+msg.phrase	no drive can be written (FAT / exFAT / NTFS only)	na noben pogon ni mogoče zapisati (samo FAT / exFAT / NTFS)
+msg.phrase	the drive is gone	pogona ni več
+msg.phrase	nothing chosen	nič izbranega
+msg.phrase	nothing selected	nič izbrano
+msg.phrase	could not start	ni mogel začeti
+msg.phrase	could not open	ni mogel odpreti
+msg.phrase	only on a FAT / exFAT / NTFS drive	samo na pogonu FAT / exFAT / NTFS
+msg.phrase	no name	brez imena
+msg.phrase	that name already exists	to ime že obstaja
+msg.phrase	could not start (bad name or the drive is busy)	ni bilo mogoče zagnati (slabo ime ali pogon je zaseden)
+msg.phrase	could not start (the drive is busy)	ni bilo mogoče zagnati (pogon je zaseden)
+msg.phrase	the name cannot have / or \\ (only inside this folder)	ime ne more imeti / ali \\ (samo znotraj te mape)
+msg.phrase	the name is the same	ime je isto
+msg.phrase	the item is read-only (A to change)	element je samo za branje (A za spremembo)
+msg.phrase	choose a .rb file on a writable drive	izberite datoteko .rb na zapisljivem pogonu
+msg.phrase	choose a .rb file	izberite datoteko .rb
+msg.phrase	the drive is read-only	pogon je samo za branje
+msg.phrase	choose a folder on a writable drive	izberite mapo na zapisljivem pogonu
+msg.phrase	wait a moment	počakajte trenutek
+msg.phrase	choose a file	izberite datoteko
+msg.phrase	choose a file (not a folder)	izberite datoteko (ne mapo)
+msg.phrase	choose a .001 file	izberite datoteko .001
+msg.phrase	choose the .001 file	izberite datoteko .001
+msg.phrase	put the IWAD in a DoomFiles or Doom2Files folder	postavite IWAD v mapo DoomFiles ali Doom2Files
+msg.phrase	DoomFiles takes freedoom1 / doom / doomu / doom1.wad	DoomFiles vzame freedoom1 / doom / doomu / doom1.wad
+msg.phrase	Doom2Files takes freedoom2 / doom2 / plutonia / tnt.wad	Doom2Files vzame freedoom2 / doom2 / plutonia / tnt.wad
+msg.phrase	put the game files on external storage, not S:	daj datoteke igre na zunanji pomnilnik, ne na S:
+msg.phrase	the IWAD must be on a FAT / exFAT / NTFS drive (not a CD)	IWAD mora biti na pogonu FAT / exFAT / NTFS (ne na CD-ju)
+msg.phrase	still working	še dela
+msg.phrase	an image is loading	slika se nalaga
+msg.phrase	no framebuffer	brez okvirnega medpomnilnika
+msg.phrase	half brightness works only in RGB555	polovična svetlost deluje samo v RGB555
+msg.phrase	clearing...	čiščenje ...
+msg.phrase	halving the brightness...	prepolovitev svetlosti...
+msg.phrase	that is a data track	to je podatkovna sled
+msg.phrase	wait -- a file is being written	počakaj -- datoteka se piše
+msg.phrase	only floppy / LS-120 / CD drives	samo pogoni za diskete / LS-120 / CD
+msg.phrase	requested	zahtevano
+msg.phrase	reading the disc...	branje diska...
+msg.phrase	stopping...	ustavljanje ...
+msg.phrase	opening...	odpiranje...
+msg.phrase	done	narejeno
+msg.phrase	no memory	brez spomina
+msg.phrase	already open	že odprto
+msg.phrase	already running	že teče
+msg.phrase	already saving	že varčuje
+msg.phrase	already playing	že igra
+msg.phrase	no such drive	ni takega pogona
+msg.phrase	no PSRAM	brez PSRAM
+msg.phrase	no PSRAM for the file	ni PSRAM za datoteko
+msg.phrase	no PSRAM for the line index	brez PSRAM za linijski indeks
+msg.phrase	no PSRAM for the terminal	brez PSRAM za terminal
+msg.phrase	no memory (PSRAM)	brez pomnilnika (PSRAM)
+msg.phrase	no memory (32KB SRAM)	brez pomnilnika (32 KB SRAM)
+msg.phrase	no memory for the buffer	ni pomnilnika za medpomnilnik
+msg.phrase	no memory for the image buffers	ni pomnilnika za slikovne medpomnilnike
+msg.phrase	no memory for the read buffer	ni pomnilnika za bralni medpomnilnik
+msg.phrase	no room for the work memory (close the lowres plane?)	ni prostora za delovni pomnilnik (zaprite raven nizke ločljivosti?)
+msg.phrase	no framebuffer page	brez okvirne medpomnilniške strani
+msg.phrase	too large (4 MB at most)	prevelik (največ 4 MB)
+msg.phrase	the file is too large (1 MB at most)	datoteka je prevelika (največ 1 MB)
+msg.phrase	the file is too large (1 MB max)	datoteka je prevelika (največ 1 MB)
+msg.phrase	too large for an SMF (1MB at most)	prevelik za SMF (največ 1 MB)
+msg.phrase	the file is empty	datoteka je prazna
+msg.phrase	could not open the file	ni mogel odpreti datoteke
+msg.phrase	could not read the file	ni mogel prebrati datoteke
+msg.phrase	could not open the volume	glasnosti ni bilo mogoče odpreti
+msg.phrase	could not open the destination (no memory?)	cilja ni bilo mogoče odpreti (ni spomina?)
+msg.phrase	could not read the root folder	ni mogel prebrati korenske mape
+msg.phrase	could not start the task	ni mogel začeti opravila
+msg.phrase	could not start writing (bad name or busy)	ni mogel začeti pisati (slabo ime ali zaseden)
+msg.phrase	another volume is open (busy)	drug nosilec je odprt (zaseden)
+msg.phrase	a copy is running	kopija se izvaja
+msg.phrase	a folder cannot go into itself	mapa ne more sama vase
+msg.phrase	that is the same folder	to je ista mapa
+msg.phrase	this drive cannot be changed (read only)	tega pogona ni mogoče spremeniti (samo za branje)
+msg.phrase	the drive is not writable	pogon ni zapisljiv
+msg.phrase	the part size must be a multiple of 512	velikost dela mora biti večkratnik števila 512
+msg.phrase	files of 4 GB or more are not supported	datoteke velikosti 4 GB ali več niso podprte
+msg.phrase	bad path	slaba pot
+msg.phrase	bad file name	slabo ime datoteke
+msg.phrase	the font ROM is not there	ROM pisave ni tam
+msg.phrase	the sound is not open	zvok ni odprt
+msg.phrase	no such channel	ni takega kanala
+msg.phrase	the sequencer is busy	sekvencer je zaseden
+msg.phrase	not enough PSRAM for the song	ni dovolj PSRAM za pesem
+msg.phrase	not a standard MIDI file (no MThd)	ni standardna datoteka MIDI (brez MThd)
+msg.phrase	no tracks	brez sledi
+msg.phrase	a track is broken (MTrk)	tir je pokvarjen (MTrk)
+msg.phrase	SMPTE time division is not supported	Časovna delitev SMPTE ni podprta
+msg.phrase	SMF format 2 is not supported (0 and 1 only)	Format SMF 2 ni podprt (samo 0 in 1)
+msg.phrase	not a Bulk-Only drive	ni pogon samo za množično uporabo
+msg.phrase	not an optical drive	ne optični pogon
+msg.phrase	a system folder cannot be deleted or renamed	sistemske mape ni mogoče izbrisati ali preimenovati
+msg.phrase	no media in the drive	v pogonu ni medija
+msg.phrase	becoming ready	postaja pripravljen
+msg.phrase	not ready	ni pripravljen
+msg.phrase	media changed	medij spremenjen
+msg.phrase	medium error	srednja napaka
+msg.phrase	illegal request	nezakonita zahteva
+msg.phrase	a bad directory entry	slab vnos v imeniku
+msg.phrase	a directory on the way does not exist	imenik na poti ne obstaja
+msg.phrase	a file has that name	datoteka ima to ime
+msg.phrase	a folder has that name	mapa ima to ime
+msg.phrase	a name on the way is not a directory	ime na poti ni imenik
+msg.phrase	cancelled	preklicano
+msg.phrase	could not mount	ni bilo mogoče namestiti
+msg.phrase	could not start a read	branja ni bilo mogoče začeti
+msg.phrase	could not start a write	ni mogel začeti pisanja
+msg.phrase	is a directory	je imenik
+msg.phrase	that is a directory	to je imenik
+msg.phrase	no clusters	brez grozdov
+msg.phrase	no room for the cluster list	ni prostora za seznam grozdov
+msg.phrase	no such file or directory	ni takšne datoteke ali imenika
+msg.phrase	no such file	ni take datoteke
+msg.phrase	no volume	brez glasnosti
+msg.phrase	not NTFS	ne NTFS
+msg.phrase	not exFAT	ne exFAT
+msg.phrase	not a directory	ni imenik
+msg.phrase	not found	ni najden
+msg.phrase	read error	napaka pri branju
+msg.phrase	write error	napaka pri pisanju
+msg.phrase	reading the FAT failed	branje FAT ni uspelo
+msg.phrase	the cluster chain is shorter than the file	veriga gruče je krajša od datoteke
+msg.phrase	the directory is not empty	imenik ni prazen
+msg.phrase	the disk is full	disk je poln
+msg.phrase	the drive did not answer	pogon se ni oglasil
+msg.phrase	the file is read-only	datoteka je samo za branje
+msg.phrase	the file is too fragmented	datoteka je preveč razdrobljena
+msg.phrase	the file is too large (4GB)	datoteka je prevelika (4GB)
+msg.phrase	the new name already exists	novo ime že obstaja
+msg.phrase	the root directory is full	korenski imenik je poln
+msg.phrase	too many files with the same short name	preveč datotek z istim kratkim imenom
+msg.phrase	No such file or directory	Ni takšne datoteke ali imenika
+msg.phrase	File exists	Datoteka obstaja
+msg.phrase	Permission denied	Dovoljenje zavrnjeno
+msg.phrase	Directory not empty	Imenik ni prazen
+msg.phrase	Not a directory	Ni imenik
+msg.phrase	Is a directory	Je imenik
+msg.phrase	Read-only file system	Datotečni sistem samo za branje
+msg.phrase	No space left on device	V napravi ni več prostora
+msg.phrase	Input/output error	Vhodno/izhodna napaka
+msg.phrase	Not supported on this drive	Ni podprto na tem pogonu
+msg.phrase	Invalid path	Neveljavna pot
+msg.phrase	Out of memory	Zmanjkalo spomina
+msg.phrase	No such drive	Ni takega pogona
+msg.phrase	stopped	ustavil
+msg.phrase	cancelled (not enough free space)	preklicano (ni dovolj prostora)
+msg.phrase	could not count the free space	ni mogel prešteti prostega prostora
+msg.phrase	the receiver cancelled	sprejemnik preklican
+msg.phrase	no receiver (run rz on the PC)	brez sprejemnika (zaženite rz na računalniku)
+msg.phrase	the console UART is in use	UART konzole je v uporabi
+msg.phrase	the screen mode changed	način zaslona se je spremenil
+msg.phrase	the lines did not come (is the display running?)	vrstice niso prišle (ali zaslon deluje?)
+msg.prefix	copy	kopija
+msg.prefix	move	premakniti
+msg.prefix	delete	izbrisati
+msg.prefix	rename	preimenovati
+msg.prefix	attributes	atributi
+msg.prefix	new file	nova datoteka
+msg.prefix	new folder	nova mapa
+msg.prefix	image	slika
+msg.prefix	mrbc	mrbc
+msg.prefix	ruby	rubin
+msg.prefix	viewer	gledalec
+msg.prefix	edit	uredi
+msg.prefix	IDENTIFY	IDENTIFICIRAJ
+msg.prefix	ZMODEM	ZMODEM
+msg.prefix	ZMODEM receive	ZMODEM prejemati
+msg.prefix	ZMODEM send	ZMODEM pošlji
+msg.prefix	split	razdeliti
+msg.prefix	join	pridruži se
+msg.prefix	Doom	Poguba
+msg.prefix	SMF	SMF
+msg.prefix	CD	CD
+msg.prefix	FB	FB
+msg.prefix	Eject	Izvrzi
+msg.prefix	reboot	ponovni zagon
+msg.prefix	license	dovoljenje
+msg.prefix	clock	ura
+msg.prefix	ADC in	ADC vhod
+msg.prefix	screen -> PNG	zaslon -> PNG
+msg.prefix	FB -> PNG	FB -> PNG
+msg.prefix	could not open the volume	glasnosti ni bilo mogoče odpreti
+msg.pattern	received 	prejeli %s
+msg.pattern	sent 	poslano %s
+msg.pattern	saved 	shranjeno %s
+msg.pattern	created 	ustvarili %s
+msg.pattern	renamed to 	preimenovan v %s
+msg.pattern	deleted 	izbrisano %s
+msg.pattern	changed 	spremenjeno %s
+msg.pattern	joined 	pridružil %s
+msg.pattern	split 	razdeliti %s
+msg.pattern	could not create 	ni mogel ustvariti %s
+msg.pattern	could not delete 	ni bilo mogoče izbrisati %s
+msg.pattern	could not rename to 	ni bilo mogoče preimenovati v %s
+msg.pattern	could not change 	ni bilo mogoče spremeniti %s
+msg.pattern	could not read 	ni mogel brati %s
+msg.pattern	could not write 	ni mogel pisati %s
+msg.pattern	could not copy 	ni bilo mogoče kopirati %s
+msg.pattern	could not make 	ni mogel narediti %s
+msg.pattern	could not remove the folder 	ni mogel odstraniti mape %s
+msg.pattern	could not remove 	ni bilo mogoče odstraniti %s
+msg.pattern	no memory for 	ni spomina za %s
+msg.pattern	too many errors while sending 	preveč napak pri pošiljanju %s
+msg.pattern	the receiver did not take 	sprejemnik ni sprejel %s
+msg.pattern	the receiver skipped 	sprejemnik je preskočil %s
+msg.pattern	FB page 	FB stran %s
+msg.word	 bytes each)	vsak bajt)
+msg.word	 bytes)	bajtov)
+msg.word	 KB)	KB)
+msg.word	 parts into 	deli v
+msg.word	 parts (	deli (
+msg.word	 into 	v
+msg.word	: cleared	: očiščeno
+msg.word	: brightness halved	: svetlost prepolovljena
+msg.word	% read	% branja
+msg.word	 rows	vrstice
+msg.word	 -- not supported yet (FAT / exFAT / NTFS only)	-- še ni podprto (samo FAT / exFAT / NTFS)
+msg.word	 files	datoteke
+msg.word	 (	(
+msg.phrase	Untitled	Brez naslova
+msg.phrase	1 File	1 datoteka
+msg.phrase	2 Edit	2 Uredi
+msg.phrase	3 Graph	3 Graf
+msg.phrase	4 Sheet	4 list
+msg.phrase	5 Help	5 Pomoč
+msg.phrase	EMPTY	PRAZNO
+msg.phrase	NUMBER	ŠTEVILKA
+msg.phrase	TEXT	BESEDILO
+msg.phrase	FORMULA	FORMULA
+msg.phrase	Type to enter, F2 to edit, F1 for help	Vnesite za vstop, F2 za urejanje, F1 za pomoč
+msg.phrase	5 CSV	5 CSV
+msg.phrase	6 ODS	6 ODS
+msg.phrase	[SHIFT]	[SHIFT]
+msg.phrase	[CTRL]	[CTRL]
+msg.phrase	[ALT]	[ALT]
+msg.phrase	Ready	pripravljena
+msg.phrase	SGCALC	SGCALC
+msg.phrase	Press any key	Pritisnite katero koli tipko
+msg.phrase	Y = yes    N = no    Esc = cancel	Y = da N = ne Esc = prekliči
+msg.phrase	Enter = OK    Esc = cancel    Ctrl-U = clear	Enter = OK Esc = prekliči Ctrl-U = počisti
+msg.phrase	First row/column = labels; charts use the 640x480 CLUT8 FB.	Prva vrstica/stolpec = oznake; grafikoni uporabljajo 640x480 CLUT8 FB.
+msg.phrase	SGCALC - HELP	SGCALC - POMOČ
+msg.phrase	Press any key to return	Za vrnitev pritisnite katero koli tipko
+msg.phrase	Press any key to return.	Za vrnitev pritisnite katero koli tipko.
+msg.phrase	ABOUT SGCALC	O SGCALC
+msg.phrase	New	Novo
+msg.phrase	Start a new sheet	Začnite nov list
+msg.phrase	Open...	Odpri ...
+msg.phrase	Open an ODS, FODS or CSV file	Odprite datoteko ODS, FODS ali CSV
+msg.phrase	Save	Shrani
+msg.phrase	Save the current file	Shranite trenutno datoteko
+msg.phrase	Save As...	Shrani kot ...
+msg.phrase	Save with a new name or format	Shranite z novim imenom ali obliko
+msg.phrase	Export CSV...	Izvoz CSV ...
+msg.phrase	Write a CSV copy	Napišite kopijo CSV
+msg.phrase	Export ODS...	Izvoz ODS ...
+msg.phrase	Write a LibreOffice copy	Napišite kopijo LibreOffice
+msg.phrase	Quit	Odnehaj
+msg.phrase	Leave SGCALC	Zapusti SGCALC
+msg.phrase	Clear	jasno
+msg.phrase	Clear the selected cells	Počistite izbrane celice
+msg.phrase	Copy	Kopiraj
+msg.phrase	Copy the selection	Kopirajte izbor
+msg.phrase	Paste	Prilepi
+msg.phrase	Paste at the cursor	Prilepite na kazalec
+msg.phrase	Cut	Cut
+msg.phrase	Copy and clear the selection	Kopirajte in počistite izbor
+msg.phrase	Select all	Izberi vse
+msg.phrase	Select all used cells	Izberite vse uporabljene celice
+msg.phrase	Text color...	Barva besedila ...
+msg.phrase	Choose the text colour	Izberite barvo besedila
+msg.phrase	Background...	Ozadje ...
+msg.phrase	Choose the cell background	Izberite ozadje celice
+msg.phrase	Line	Linija
+msg.phrase	Draw a line graph from the selection	Iz izbora narišite črtni graf
+msg.phrase	Bar	Bar
+msg.phrase	Draw a bar graph from the selection	Iz izbora narišite palični graf
+msg.phrase	Mixed	Mešano
+msg.phrase	Bars for the first series, lines for the rest	Palice za prvo serijo, črte za ostale
+msg.phrase	Pie	pita
+msg.phrase	Draw a pie graph from the selection	Iz izbora narišite tortni graf
+msg.phrase	Range...	Razpon ...
+msg.phrase	Set the graph range explicitly	Eksplicitno nastavite obseg grafa
+msg.phrase	Draw again	Ponovno nariši
+msg.phrase	Redraw the last graph	Ponovno narišite zadnji graf
+msg.phrase	Goto...	Goto ...
+msg.phrase	Jump to a cell (for example C12)	Skoči na celico (na primer C12)
+msg.phrase	Column width...	Širina stolpca ...
+msg.phrase	Change the selected columns' width	Spremenite širino izbranih stolpcev
+msg.phrase	Row height...	Višina vrstice ...
+msg.phrase	Change the selected rows' height	Spremenite višino izbranih vrstic
+msg.phrase	Auto fit	Samodejno prileganje
+msg.phrase	Fit widths/heights to the contents (F7)	Prilagodi širine/višine vsebini (F7)
+msg.phrase	Recalculate	Preračunaj
+msg.phrase	Re-evaluate all formulas	Ponovno ocenite vse formule
+msg.phrase	Erase all	Zbriši vse
+msg.phrase	Clear the whole sheet	Počistite celoten list
+msg.phrase	Keys	Ključi
+msg.phrase	Show the key guide	Pokažite vodnik po ključih
+msg.phrase	About	O tem
+msg.phrase	About SGCALC	O SGCALC
+msg.phrase	File	Datoteka
+msg.phrase	Edit	Uredi
+msg.phrase	Graph	Graf
+msg.phrase	Sheet	List
+msg.phrase	Help	pomoč
+msg.phrase	File: new, open, save, export, quit	Datoteka: nova, odpri, shrani, izvozi, zapusti
+msg.phrase	Edit: clear, copy, paste, cut, select all	Urejanje: počisti, kopiraj, prilepi, izreži, izberi vse
+msg.phrase	Graph: line, bar, mixed, pie (draws in the FB)	Grafikon: linijski, stolpčni, mešani, pita (žrebanje v FB)
+msg.phrase	Sheet: goto, column width, recalculate, erase	List: pojdi, širina stolpca, preračunaj, izbriši
+msg.phrase	Help: keys and about	Pomoč: ključi in približno
+msg.phrase	Left/Right = menu    Up/Down = item    Enter = choose    Esc = cancel	Levo/desno = meni gor/dol = element Enter = izberite Esc = prekliči
+msg.phrase	Cancelled	Preklicano
+msg.phrase	The selection is too large or memory is low.	Izbira je prevelika ali pa je premalo pomnilnika.
+msg.phrase	the cell	celica
+msg.phrase	the selection	izbor
+msg.phrase	Nothing to paste	Nič za lepiti
+msg.phrase	Pasted	Prilepljeno
+msg.phrase	GO TO CELL	POJDI V CELICO
+msg.phrase	Cell reference (A1):	Sklic na celico (A1):
+msg.phrase	Goto	Goto
+msg.phrase	COLUMN WIDTH	ŠIRINA STOLPCA
+msg.phrase	Width in characters (4..30):	Širina v znakih (4..30):
+msg.phrase	ROW HEIGHT	VIŠINA VRSTE
+msg.phrase	Height in text rows (1..8):	Višina v besedilnih vrsticah (1..8):
+msg.phrase	Auto fit: the sheet is empty	Samodejno prilagajanje: list je prazen
+msg.phrase	BACKGROUND COLOUR	BARVA OZADJA
+msg.phrase	TEXT COLOUR	BARVA BESEDILA
+msg.phrase	Arrows: choose    Enter: apply    Esc: cancel	Puščice: izberite Enter: uporabite Esc: prekličite
+msg.phrase	Colour index (PC-98 16-colour palette)	Barvni indeks (PC-98 16-barvna paleta)
+msg.phrase	Aa 123	Aa 123
+msg.phrase	Enter = apply    Esc = cancel	Enter = uporabi Esc = prekliči
+msg.phrase	Colour	barva
+msg.phrase	Background	Ozadje
+msg.phrase	Text	Besedilo
+msg.phrase	GRAPH RANGE	RAZPON GRAFA
+msg.phrase	Range (for example A1:C10):	Razpon (na primer A1:C10):
+msg.phrase	Graph range	Razpon grafa
+msg.phrase	Use a range such as A1:C10.	Uporabite obseg, kot je A1:C10.
+msg.phrase	Cannot draw the graph.	Grafa ni mogoče narisati.
+msg.phrase	line	linija
+msg.phrase	bar	bar
+msg.phrase	mixed	mešano
+msg.phrase	pie	pita
+msg.phrase	Clear every cell in this sheet?	Želite izbrisati vsako celico na tem listu?
+msg.phrase	Sheet erased	List izbrisan
+msg.phrase	Selected all used cells	Izbrane so vse uporabljene celice
+msg.phrase	Recalculated	Preračunano
+msg.phrase	Memory	Spomin
+msg.phrase	Not enough PSRAM for the spreadsheet.	Ni dovolj PSRAM za preglednico.
+msg.phrase	The sheet is empty.	List je prazen.
+msg.phrase	No numeric data in the selected range.	V izbranem obsegu ni številskih podatkov.
+msg.phrase	Other	drugo
+msg.phrase	No positive values for a pie chart	Ni pozitivnih vrednosti za tortni grafikon
+msg.phrase	LINE	LINE
+msg.phrase	BAR	BAR
+msg.phrase	MIXED	MEŠANO
+msg.phrase	PIE	PITA
+msg.phrase	S:/	S:/
+msg.phrase	Folder	Mapa
+msg.phrase	SAVE AS	SHRANI KOT
+msg.phrase	OPEN FILE	ODPRTI DATOTEKO
+msg.phrase	LibreOffice / CSV	LibreOffice / CSV
+msg.phrase	ODS  FODS  CSV	ODS FODS CSV
+msg.phrase	Name:	ime:
+msg.phrase	(type a name, or choose below)	(vnesite ime ali izberite spodaj)
+msg.phrase	Name	Ime
+msg.phrase	Size	Velikost
+msg.phrase	Enter=save  Left=up  Right/Enter on [DIR]=open  Tab=drive  Esc=cancel	Enter=shrani levo=gor desno/Enter na [DIR]=odpri zavihek=pogon Esc=prekliči
+msg.phrase	Enter=open  Left=up  Right/Enter on [DIR]=open  Tab=drive  Esc=cancel	Enter=odpri levo=gor desno/Vnesi na [DIR]=odpri zavihek=pogon Esc=prekliči
+msg.phrase	Not enough memory.	Ni dovolj pomnilnika.
+msg.phrase	Overwrite	Prepisati
+msg.phrase	Open	Odpri
+msg.phrase	The file is too large (limit 8 MB).	Datoteka je prevelika (omejitev 8 MB).
+msg.phrase	Not enough memory to read the file.	Ni dovolj pomnilnika za branje datoteke.
+msg.phrase	Bad ZIP/ODS data.	Napačni podatki ZIP/ODS.
+msg.phrase	CRC error in the ODS file.	Napaka CRC v datoteki ODS.
+msg.phrase	Unsupported or damaged file.	Nepodprta ali poškodovana datoteka.
+msg.phrase	Saved	Shranjeno
+msg.phrase	Exported	Izvoženo
+msg.phrase	Unsaved changes	Neshranjene spremembe
+msg.phrase	Save the current sheet before continuing?	Ali želite shraniti trenutni list pred nadaljevanjem?
+msg.phrase	New sheet	Nov list
+msg.phrase	SGTRK	SGTRK
+msg.phrase	UNTITLED	BREZ NAMENA
+msg.phrase	song is too large	pesem je prevelika
+msg.phrase	empty file	prazna datoteka
+msg.phrase	not an SGT file	ni datoteka SGT
+msg.phrase	bad BPM	slab BPM
+msg.phrase	bad speed	slaba hitrost
+msg.phrase	bad title length	slaba dolžina naslova
+msg.phrase	truncated title	okrnjeni naslov
+msg.phrase	bad character in title	slab znak v naslovu
+msg.phrase	truncated order	okrnjeni red
+msg.phrase	bad order length	slaba dolžina naročila
+msg.phrase	bad pattern number in order	napačna številka vzorca v redu
+msg.phrase	truncated pattern list	skrajšani seznam vzorcev
+msg.phrase	bad pattern count	slabo število vzorcev
+msg.phrase	bad pattern index	indeks slabega vzorca
+msg.phrase	duplicate pattern	podvojen vzorec
+msg.phrase	truncated pattern data	okrnjeni vzorčni podatki
+msg.phrase	invalid pattern data	neveljavni podatki vzorca
+msg.phrase	trailing data in file	končni podatki v datoteki
+msg.phrase	order refers to a missing pattern	vrstni red se nanaša na manjkajoči vzorec
+msg.phrase	A:/	A:/
+msg.phrase	(untitled)	(brez naslova)
+msg.phrase	Ready. Press F1 for help.	pripravljena Pritisnite F1 za pomoč.
+msg.phrase	Follow OFF	Sledite OFF
+msg.phrase	Nothing to undo	Nič za razveljaviti
+msg.phrase	Undo	Razveljavi
+msg.phrase	Note OFF	Opomba OFF
+msg.phrase	Set an effect letter first	Najprej nastavite črko učinka
+msg.phrase	Effect cleared	Učinek počiščen
+msg.phrase	Parameter cleared	Parameter počiščen
+msg.phrase	Note cleared	Opomba izbrisana
+msg.phrase	Instrument cleared	Instrument počiščen
+msg.phrase	Volume cleared	Glasnost je izbrisana
+msg.phrase	Order list is full	Seznam naročil je poln
+msg.phrase	Order inserted	Naročilo vstavljeno
+msg.phrase	Cannot delete the last order	Zadnjega naročila ni mogoče izbrisati
+msg.phrase	Order deleted	Naročilo izbrisano
+msg.phrase	Playing song	Predvajanje pesmi
+msg.phrase	Stopped	ustavil
+msg.phrase	New song	Nova pesem
+msg.phrase	Discard unsaved changes and start a new song? (Y/N)	Želite zavreči neshranjene spremembe in začeti novo pesem? (da/ne)
+msg.phrase	Discard unsaved changes and open a song? (Y/N)	Želite zavreči neshranjene spremembe in odpreti pesem? (da/ne)
+msg.phrase	Discard unsaved changes and quit? (Y/N)	Želite zavreči neshranjene spremembe in zapreti? (da/ne)
+msg.phrase	Song settings updated	Nastavitve pesmi posodobljene
+msg.phrase	Filename is empty	Ime datoteke je prazno
+msg.phrase	Save cancelled	Shranjevanje preklicano
+msg.phrase	Open cancelled	Odpiranje preklicano
+msg.phrase	Edit ON	Urejanje VKLOPLJENO
+msg.phrase	Edit OFF	Urejanje IZKLOPLJENO
+msg.phrase	Follow ON	Sledite ON
+msg.phrase	Edit is OFF. Press F8 to edit.	Urejanje je IZKLOPLJENO. Za urejanje pritisnite F8.
+msg.phrase	I/O error	V/I napaka
+msg.phrase	file is too large	datoteka je prevelika
+msg.phrase	truncated file	okrnjena datoteka
+msg.phrase	SINE PAD	SINE PAD
+msg.phrase	TRIANGLE	TRIKOTNIK
+msg.phrase	SAW LEAD	ŽAGA SVINCENA
+msg.phrase	SQUARE	KVADRAT
+msg.phrase	PULSE 25	PULS 25
+msg.phrase	ORGAN	ORGLICE
+msg.phrase	BASS	BAS
+msg.phrase	BELL	ZVONČEK
+msg.phrase	NOISE	HRUP
+msg.phrase	SINE	SINE
+msg.phrase	SAW	ŽAGA
+msg.phrase	OFF	IZKLOP
+msg.phrase	ON	VKLOP
+msg.phrase	ROW	VRSTA
+msg.phrase	CHAN LEVEL	STOPNJA CHAN
+msg.phrase	F1 HELP F2 SONG	F1 POMOČ F2 PESEM
+msg.phrase	F3 INS  F4 SAVE	F3 INS F4 SHRANI
+msg.phrase	F5 PLAY F6 PAT	F5 IGRAJ F6 PAT
+msg.phrase	F7 STOP F8 EDIT	F7 STOP F8 UREJANJE
+msg.phrase	F9/F10 OCTAVE	OKTAVA F9/F10
+msg.phrase	F11 FOLLOW	F11 SLEDI
+msg.phrase	F12 QUIT	F12 IZHOD
+msg.phrase	SPACE PLAY/STOP	PRESTALNICA IGRA/USTAVI
+msg.phrase	CTRL-S SAVE	CTRL-S SHRANI
+msg.phrase	CTRL-O OPEN	CTRL-O ODPRI
+msg.phrase	C-N NEW C-Z UNDO	C-N NOVO C-Z RAZVEL
+msg.phrase	C-C STOP	C-C STOP
+msg.phrase	#TRANSPORT AND FILES	#TRANSPORT IN DATOTEKE
+msg.phrase	#ORDER LIST	#SEZNAM NAROČIL
+msg.phrase	#DISPLAY	#ZASLON
+msg.phrase	#EDITING	#UREJANJE
+msg.phrase	#EFFECTS (parameter is hexadecimal)	#EFFECTS (parameter je šestnajstiški)
+msg.phrase	LEFT/RIGHT PAGE   ENTER OR F1 CLOSE	LEVO/DESNO STRAN VNESI ALI F1 ZAPRI
+msg.phrase	SONG SETTINGS	NASTAVITVE PESMI
+msg.phrase	UP/DOWN SELECT   LEFT/RIGHT ADJUST   ENTER/F2 CLOSE	GOR/DOL IZBERI LEVO/DESNO PRILAGOD. ENTER/F2 ZAPRI
+msg.phrase	Type to edit the title. Backspace deletes the last character.	Vnesite za urejanje naslova. Vračalka izbriše zadnji znak.
+msg.phrase	BPM range 32..255. Speed range 1..31.	Območje BPM 32..255. Območje hitrosti 1..31.
+msg.phrase	Pattern effects can also change speed and BPM while playing.	Učinki vzorcev lahko med igranjem spremenijo tudi hitrost in BPM.
+msg.phrase	INSTRUMENTS	INSTRUMENTI
+msg.phrase	UP/DOWN SELECT   SPACE PREVIEW   ENTER USE   F3 CLOSE	GOR/DOL IZBERI PROSTOR PREDOGLED VSTOPI UPORABITE F3 ZAPRI
+msg.phrase	All four channels use wavetable synthesis.	Vsi štirje kanali uporabljajo sintezo valovne tabele.
+msg.phrase	Preview plays C-4 on the track under the edit cursor.	Predogled predvaja C-4 na skladbi pod kazalcem za urejanje.
+msg.phrase	SAVE SONG AS	SHRANI PESEM KOT
+msg.phrase	ENTER SAVE   F4 OR CTRL-C CANCEL	VNESI SHRANI F4 ALI CTRL-C PREKLIČI
+msg.phrase	Directory:	Imenik:
+msg.phrase	File name:	Ime datoteke:
+msg.phrase	The extension .SGT is added automatically.	Končnica .SGT se samodejno doda.
+msg.phrase	An existing file can be overwritten.	Obstoječo datoteko je mogoče prepisati.
+msg.phrase	OPEN SONG	ODPRTA PESEM
+msg.phrase	ENTER OPEN  BS PARENT  CTRL-O/CTRL-C CANCEL	ENTER OPEN BS PARENT CTRL-O/CTRL-C CANCEL
+msg.phrase	(no .SGT files in this folder)	(v tej mapi ni datotek .SGT)
+msg.phrase	CONFIRM	POTRDI
+msg.phrase	Y = YES   N / ENTER / CTRL-C = NO	Y = DA N / ENTER / CTRL-C = NE
+msg.phrase	Y = yes        N = no	D = da N = ne
+msg.phrase	C-	C-
+msg.phrase	C#	C#
+msg.phrase	D-	D-
+msg.phrase	D#	D#
+msg.phrase	E-	E-
+msg.phrase	F-	F-
+msg.phrase	F#	F#
+msg.phrase	G-	G-
+msg.phrase	G#	G#
+msg.phrase	A-	A-
+msg.phrase	A#	A#
+msg.phrase	B-	B-
+msg.phrase	A:/dir/name	A:/dir/ime
+msg.phrase	MThd	MThd
+msg.phrase	broken MThd	pokvarjen MThd
+msg.phrase	MIDI IMPORT	MIDI UVOZ
+msg.phrase	MTrk	MTrk
+msg.phrase	broken delta time	zlomljen delta čas
+msg.phrase	broken running status	stanje pokvarjenega teka
+msg.phrase	broken meta event	zlomljen meta dogodek
+msg.phrase	broken sysex event	zlomljen sysex dogodek
+msg.phrase	broken channel event	okvarjen dogodek kanala
+msg.phrase	SMF output is too small	Izhod SMF je premajhen
+msg.phrase	SMF output is too large	Izhod SMF je prevelik
+msg.phrase	the song is too long for SMF	pesem je predolga za SMF
+msg.phrase	TRK1	TRK1
+msg.phrase	%s%d	%s%d
+msg.phrase	%s%d:%s%d	%s%d:%s%d
+msg.phrase	%s	%s
+msg.phrase	%.40s%s	%.40s%s
+msg.phrase	  [%s]   %s	[%s] %s
+msg.phrase	EDIT  	UREDI
+msg.phrase	READY 	PRIPRAVLJEN
+msg.phrase	%4d 	%4d
+msg.phrase	%s Sum %.7g N %ld%s	%s Vsota %.7g N %ld%s
+msg.phrase	ARROWS      move the cell cursor\n	PUŠČICE premikajo kazalec celice
+msg.phrase	SHIFT+ARR   extend the selection (for graphs/copy)\n	SHIFT+ARR razširi izbor (za grafe/kopiranje)
+msg.phrase	ENTER       edit the cell; in edit, commit and move down\n	ENTER uredite celico; v urejanju, potrdite in premaknite navzdol
+msg.phrase	TAB         next cell    SHIFT+TAB  previous cell\n	TAB naslednja celica SHIFT+TAB prejšnja celica
+msg.phrase	DELETE      clear the selected cell(s)    ESC  cancel\n	DELETE počisti izbrano celico(e) ESC prekliči
+msg.phrase	PGUP/PGDN   move one screen    HOME/END  first/last column\n	PGUP/PGDN premakne en zaslon HOME/END prvi/zadnji stolpec
+msg.phrase	CTRL+HOME   A1    CTRL+END  last used cell\n	CTRL+HOME A1 CTRL+END zadnja uporabljena celica
+msg.phrase	F1 help  F2 edit  F3 copy  F4 paste  F5 goto  F6 colour\n	F1 pomoč F2 uredi F3 kopiraj F4 prilepi F5 pojdi F6 barva
+msg.phrase	F7 auto-fit  F8 background  F9 recalc  F10 graph  F11 save  F12 menu\n	F7 samodejno prileganje F8 ozadje F9 ponovno izračunavanje F10 graf F11 shranjevanje F12 meni
+msg.phrase	SHIFT+F1 about  SHIFT+F2 row height  SHIFT+F3 column width\n	SHIFT+F1 približno SHIFT+F2 višina vrstice SHIFT+F3 širina stolpca
+msg.phrase	SHIFT+F4 select all  SHIFT+F10 graph range  SHIFT+F11 save as\n	SHIFT+F4 izberi vse SHIFT+F10 obseg grafa SHIFT+F11 shrani kot
+msg.phrase	CTRL+F1 new  CTRL+F2 open  CTRL+F3 save  CTRL+F4 save as\n	CTRL+F1 novo CTRL+F2 odpri CTRL+F3 shrani CTRL+F4 shrani kot
+msg.phrase	CTRL+F5 export CSV  CTRL+F6 export ODS  ALT+F12 quit\n	CTRL+F5 izvoz CSV CTRL+F6 izvoz ODS ALT+F12 zapre
+msg.phrase	Bottom 2 lines: function keys; [SHIFT]/[CTRL]/[ALT] like the filer\n	Spodnji 2 vrstici: funkcijske tipke; [SHIFT]/[CTRL]/[ALT] kot datoteka
+msg.phrase	CTRL+S save  CTRL+O open  CTRL+N new  CTRL+C/V/X copy/paste/cut\n	CTRL+S shrani CTRL+O odpri CTRL+N novo CTRL+C/V/X kopiraj/prilepi/izreži
+msg.phrase	CTRL+G goto    /  open the menu (1 File, 2 Edit, ...)\n	CTRL+G pojdi / odpri meni (1 datoteka, 2 urejanje, ...)
+msg.phrase	Built-in functions: SUM AVERAGE MIN MAX COUNT COUNTA\n	Vgrajene funkcije: SUM AVERAGE MIN MAX COUNTA
+msg.phrase	PRODUCT ABS SQRT INT ROUND MOD POWER IF AND OR NOT\n	IZDELEK ABS SQRT INT ROUND MOD POWER ČE IN ALI NE
+msg.phrase	IFERROR LEN LEFT RIGHT MID UPPER LOWER TRIM CONCATENATE PI\n	IFERROR LEN LEVO DESNO SREDINA ZGORNJA SPODNJA OBROBA ZDRUŽI PI
+msg.phrase	Cell refs: A1, $A$1, A1:B10.  Formulas begin with '='.\n	Sklici na celice: A1, $A$1, A1:B10.  Formule se začnejo z '='.
+msg.phrase	Files: .ods (LibreOffice), .fods (flat XML), .csv\n	Datoteke: .ods (LibreOffice), .fods (ravni XML), .csv
+msg.phrase	ODS/FODS keeps formulas, widths, heights and colours.\n	ODS/FODS hrani formule, širine, višine in barve.
+msg.phrase	CSV keeps values and formulas (no colours/heights).\n	CSV hrani vrednosti in formule (brez barv/višin).
+msg.phrase	Graph: select a range, press F10, and choose Line/Bar/Mixed/Pie.\n	Graf: izberite obseg, pritisnite F10 in izberite Črta/Palica/Mešano/Torta.
+msg.phrase	SGCALC for sgnano\n	SGCALC za sgnano
+msg.phrase	Version 	Različica
+msg.phrase	A Lotus 1-2-3 style spreadsheet as an SGX program.\n\n	Preglednica v slogu Lotus 1-2-3 kot program SGX.
+msg.phrase	SGX ABI %u.%u\n	SGX ABI %u.%u
+msg.phrase	Screen mode 3: text + CLUT8 FB (lowres disabled)\n	Način zaslona 3: besedilo + CLUT8 FB (nizka ločljivost onemogočena)
+msg.phrase	Sheet: %d rows x %d columns\n	List: %d vrstic x %d stolpcev
+msg.phrase	Formats: .ods / .fods (LibreOffice), .csv\n\n	Formati: .ods / .fods (LibreOffice), .csv
+msg.phrase	The grid is drawn on the text plane.\n	Mreža je narisana na besedilni ravnini.
+msg.phrase	Charts and the 640x480 background use the FB.\n\n	Grafi in ozadje 640x480 uporabite FB.
+msg.phrase	%d %s	%d %s
+msg.phrase	Cannot store the cell (%d).	Celice ni mogoče shraniti (%d).
+msg.phrase	Copied %d x %d cells	Kopiranih %d x %d celic
+msg.phrase	Cleared %s	Počiščeno %s
+msg.phrase	'%s' is not a cell reference.	'%s' ni sklic na celico.
+msg.phrase	%d	%d
+msg.phrase	Column width = %d	Širina stolpca = %d
+msg.phrase	Row height = %d	Višina vrstice = %d
+msg.phrase	Auto fit: %d column(s), %d row(s)	Samodejno prilagajanje: %d stolpcev, %d vrstic
+msg.phrase	%2d	%2d
+msg.phrase	Cannot apply the colour (%d).	Barve ni mogoče nanesti (%d).
+msg.phrase	%s colour = %d	%s barva = %d
+msg.phrase	Not a valid range.\nUse a range such as A1:C10.	Ni veljaven obseg.\nUporabite obseg, kot je A1:C10.
+msg.phrase	Graph range %s	Razpon grafa %s
+msg.phrase	Graph: %s	Graf: %s
+msg.phrase	SGCALC: cannot set screen mode 3: %s\n	SGCALC: ni mogoče nastaviti načina zaslona 3: %s
+msg.phrase	%.2g	%.2g
+msg.phrase	%.6g	%.6g
+msg.phrase	%s  %.0f%%	%s %.0f%%
+msg.phrase	GRAPH  %s  %s	GRAF %s %s
+msg.phrase	%s%s	%s%s
+msg.phrase	%s/%s	%s/%s
+msg.phrase	%.*s	%.*s
+msg.phrase	%.*s/	%.*s/
+msg.phrase	Cannot read %s\n%s	Ni mogoče brati %s\n%s
+msg.phrase	Folder: %s	Mapa: %s
+msg.phrase	[DIR] %s	[DIR] %s
+msg.phrase	      %s	%s
+msg.phrase	%lu.%luM	%lu.%luM
+msg.phrase	%luK	%luK
+msg.phrase	%luB	%luB
+msg.phrase	BOOK1%s	KNJIGA1%s
+msg.phrase	%c:/	%c:/
+msg.phrase	Unsupported extension.\nUse .csv, .ods or .fods.	Nepodprta razširitev.\nUporabite .csv, .ods ali .fods.
+msg.phrase	%s already exists.\nOverwrite it?	%s že obstaja.\nPrepisati?
+msg.phrase	%s may not be writable.\nTry anyway?	%s morda ni zapisljiv.\nVseeno poskusiti?
+msg.phrase	Unknown file type for %s	Neznana vrsta datoteke za %s
+msg.phrase	Unsupported file type.\nUse .csv, .ods or .fods.	Nepodprta vrsta datoteke.\nUporabite .csv, .ods ali .fods.
+msg.phrase	Cannot open %s\n%s	%s ni mogoče odpreti\n%s
+msg.phrase	%s is a folder.	%s je mapa.
+msg.phrase	Cannot import %s\n%s	%s ni mogoče uvoziti\n%s
+msg.phrase	Loaded %s	Naloženo %s
+msg.phrase	Cannot build the %s file.	Datoteke %s ni mogoče zgraditi.
+msg.phrase	Cannot write %s\n%s	Ne morem napisati %s\n%s
+msg.phrase	%s %s	%s %s
+msg.phrase	unsupported version %u	nepodprta različica %u
+msg.phrase	%d:%d:%d:%d:%d:%d	%d:%d:%d:%d:%d:%d
+msg.phrase	Octave %d	Oktava %d
+msg.phrase	Note %s	Opomba %s
+msg.phrase	Instrument %d	Instrument %d
+msg.phrase	Volume %s	Glasnost %s
+msg.phrase	Effect %c	Učinek %c
+msg.phrase	Parameter %s	Parameter %s
+msg.phrase	Pattern %s	Vzorec %s
+msg.phrase	Playing pattern %s	Igralni vzorec %s
+msg.phrase	SAVE ERROR: %s	NAPAKA SHRANJEVANJA: %s
+msg.phrase	Saved %s	Shranjeno %s
+msg.phrase	LOAD ERROR: %s	NAPAKA NALOŽENJA: %s
+msg.phrase	BPM %d	BPM %d
+msg.phrase	Speed %d	Hitrost %d
+msg.phrase	Preview %s	Predogled %s
+msg.phrase	Instrument %s %s	Instrument %s %s
+msg.phrase	Overwrite %s? (Y/N)	Prepisati %s? (da/ne)
+msg.phrase	 | BPM %s SPD %s 	| BPM %s SPD %s
+msg.phrase	 SGNO TRACKER 1.0 | 	SGNO TRACKER 1.0 |
+msg.phrase	FILE 	DATOTEKA
+msg.phrase	 PAT %s	PAT %s
+msg.phrase	 ORD %d/%d	ORD %d/%d
+msg.phrase	 INS %s 	INS %s
+msg.phrase	 OCT %d	OKTOB %d
+msg.phrase	 EDIT %s	UREDI %s
+msg.phrase	ON 	VKLOP
+msg.phrase	 FOL %s	FOL %s
+msg.phrase	TRACK %d	SLEDI %d
+msg.phrase	%c%s	%c%s
+msg.phrase	%s %s %s %s	%s %s %s %s
+msg.phrase	%s 	%s
+msg.phrase	%d %s %s	%d %s %s
+msg.phrase	ORDER %d/%d	NAROČILO %d/%d
+msg.phrase	PAT   %s	PAT %s
+msg.phrase	INS %s %s	INS %s %s
+msg.phrase	OCT %d  EDIT %s	OKT %d UREDI %s
+msg.phrase	FOLLOW %s	SLEDI %s
+msg.phrase	PLAYING  ORD %d/%d  PAT %s  ROW %s/%d  SPD %s  BPM %d  F7 STOP	PLAYING ORD %d/%d PAT %s ROW %s/%d SPD %s BPM %d F7 STOP
+msg.phrase	READY  EDIT %s  OCT %d  F1 HELP  F5 PLAY  CTRL-S SAVE	PRIPRAVLJENO UREJANJE %s OKT %d F1 POMOČ F5 PREDVAJAJ CTRL-S SHRANI
+msg.phrase	 %s 	%s
+msg.phrase	  F5          Play the song from the current order	F5 Predvajanje skladbe iz trenutnega vrstnega reda
+msg.phrase	  F6          Play the current pattern	F6 Predvajaj trenutni vzorec
+msg.phrase	  F7/Ctrl-C   Stop playback	F7/Ctrl-C Ustavi predvajanje
+msg.phrase	  Space       Play / stop	Space Igraj / ustavi
+msg.phrase	  F4          Save as	F4 Shrani kot
+msg.phrase	  Ctrl-S      Save (asks for a name if new)	Ctrl-S Shrani (vpraša za ime, če je novo)
+msg.phrase	  Ctrl-O      Open a song	Ctrl-O Odprite pesem
+msg.phrase	  Ctrl-N      New song	Ctrl-N Nova pesem
+msg.phrase	  F12         Quit (confirmation if modified)	F12 Končaj (potrditev, če je spremenjeno)
+msg.phrase	  [ ]         Previous / next order entry	[ ] Prejšnji/naslednji vnos naročila
+msg.phrase	  { }         Insert / delete an order entry	{ } Vstavite/izbrišite vnos naročila
+msg.phrase	  - +         Change the pattern in the entry	- + Spremenite vzorec v vnosu
+msg.phrase	  F11         Follow playback (turns off on manual move)	F11 Sledi predvajanju (izklopi pri ročnem premikanju)
+msg.phrase	  F1          Help; Left/Right changes page	F1 pomoč; Levo/desno spremeni stran
+msg.phrase	  F8          Toggle edit mode	F8 Preklopi način urejanja
+msg.phrase	  Arrows      Move the cursor	Puščice Premaknite kazalec
+msg.phrase	  PgUp/PgDn   Jump 16 rows	PgUp/PgDn Skoči 16 vrstic
+msg.phrase	  Home/End    First / last row	Domov/Konec Prva/zadnja vrstica
+msg.phrase	  F9/F10      Octave down / up	F9/F10 Oktava dol / gor
+msg.phrase	  Z S X D C V G B H N J M      lower piano row	Z S X D C V G B H N J M spodnja klavirska vrsta
+msg.phrase	  Q 2 W 3 E R 5 T 6 Y 7 U      upper piano row	Q 2 W 3 E R 5 T 6 Y 7 U zgornja klavirska vrsta
+msg.phrase	  1           Note off	1 Opomba izklopljena
+msg.phrase	  0 / Del     0 clears note/inst/fx; Del clears any	0 / Del 0 počisti opombo/inst/fx; Del počisti vse
+msg.phrase	  Ctrl-Z      Undo the last pattern/order edit	Ctrl-Z Razveljavi zadnje urejanje vzorca/vrstnega reda
+msg.phrase	  Axy   Volume slide: up x, down y	Drsnik za glasnost Axy: gor x, dol y
+msg.phrase	  Cxx   Note cut after xx ticks	Cxx Note je odrezan po xx kljukicah
+msg.phrase	  Dxx   Set volume (00..7F)	Dxx Nastavitev glasnosti (00..7F)
+msg.phrase	  Fxx   Speed if xx < 20, otherwise BPM	Fxx Hitrost, če je xx < 20, sicer BPM
+msg.phrase	  Hxy   Arpeggio x, y semitones	Hxy Arpeggio x, y poltoni
+msg.phrase	  Pxx   Pitch slide up	Pxx Pitch drsi navzgor
+msg.phrase	  Qxx   Pitch slide down	Qxx Pitch drsi navzdol
+msg.phrase	  F2 song settings, F3 instrument list	F2 nastavitve pesmi, F3 seznam instrumentov
+msg.phrase	HELP %d/2	POMOČ %d/2
+msg.phrase	  Title	Naslov
+msg.phrase	  [%s_]	[%s_]
+msg.phrase	  BPM   : %d     (left/right -1/+1, -/+ -5/+5)	BPM: %d (levo/desno -1/+1, -/+ -5/+5)
+msg.phrase	  Speed : %d ticks/row	Hitrost: %d kljukice/vrstico
+msg.phrase	  Rows  : %d (fixed)	Vrstice: %d (fiksno)
+msg.phrase	  Order : %d entries	Vrstni red : %d vnosov
+msg.phrase	  Patterns in use : %d	Vzorci v uporabi: %d
+msg.phrase	 #  NAME       WAVE       A   D   S   R  VOL	# NAME WAVE A D S R VOL
+msg.phrase	 %c %d  %-9s %-9s %3d %3d %3d %3d %4d	%c %d %-9s %-9s %3d %3d %3d %3d %4d
+msg.phrase	Current instrument: %s %s	Trenutni instrument: %s %s
+msg.phrase	  %s	%s
+msg.phrase	DIR  %s	DIR %s
+msg.phrase	 %c %s%s	%c %s%s
+msg.phrase	Files: %d	Datoteke: %d
+msg.phrase	%02d	%02d
+msg.phrase	%03d	%03d
+msg.phrase	%02X	%02X
+msg.phrase	SGNO TRACKER: incompatible SGX ABI\n	SGNO TRACKER: nezdružljiv SGX ABI
+msg.phrase	S: check: wait -- a file is being read or written	S: preveri: počakaj -- datoteka se bere ali piše
+msg.phrase	S: check: the drive is busy or not ready	S: preveri: pogon je zaseden ali ni pripravljen
+msg.phrase	nothing for this item (ContextMenu.cfg)	nič za ta element (ContextMenu.cfg)
+msg.phrase	bad command in ContextMenu.cfg	slab ukaz v ContextMenu.cfg
+msg.phrase	unknown action in ContextMenu.cfg	neznano dejanje v ContextMenu.cfg
+msg.prefix	menu	meni
+msg.phrase	choose a file or folder	izberite datoteko ali mapo
+msg.phrase	this drive cannot be written	tega pogona ni mogoče zapisati
+msg.phrase	an archive job is already running	arhivsko opravilo se že izvaja
+msg.phrase	no PSRAM for the archive task	ni PSRAM za nalogo arhiviranja
+msg.phrase	could not start the archive task	ni mogel začeti arhivskega opravila
+msg.phrase	too many items (32 at most)	preveč elementov (največ 32)
+msg.phrase	nothing to compress	nič za stiskanje
+msg.phrase	no name (or the name has / or \\)	brez imena (ali ima ime / ali \\)
+msg.phrase	32 items at most (mark fewer, or put them in a folder)	Največ 32 elementov (označite manj ali jih shranite v mapo)
+msg.prefix	archive	arhiv
+msg.prefix	compress	obkladek
+msg.prefix	render	upodabljati
+msg.phrase	5 Macro	5 Makro
+msg.phrase	6 Help	6 Pomoč
+msg.phrase	Run current	Teči tok
+msg.phrase	Run the macro at the cursor (#! header cell and the cells below it)	Zaženite makro pri kazalcu (#! celica glave in celice pod njo)
+msg.phrase	Run selection	Zaženi izbor
+msg.phrase	Run the selected cells as one macro (top-left cell is the #! header)	Zaženi izbrane celice kot en makro (zgornja leva celica je glava #!)
+msg.phrase	Run all	Zaženi vse
+msg.phrase	Run every macro in the sheet, top-left to bottom-right	Zaženite vsak makro na listu, od zgornjega levega do spodnjega desnega
+msg.phrase	Last error	Zadnja napaka
+msg.phrase	Show the last macro error	Pokaži zadnjo napako makra
+msg.phrase	Macro	Makro
+msg.phrase	Macro: run #!ruby / #!python / #!basic cells	Makro: zaženite #!ruby / #!python / #!basic celice
+msg.phrase	Edit the cell (F2)	Uredi celico (F2)
+msg.phrase	Fit widths/heights to the contents	Prilagodite širino/višino vsebini
+msg.phrase	Last macro error	Zadnja napaka makra
+msg.phrase	No macro error.	Ni makronapake.
+msg.phrase	IME on	IME vklopljen
+msg.phrase	IME off	IME izklopljen
+msg.phrase	Macro: %s %s ...	Makro: %s %s ...
+msg.phrase	%s: this firmware cannot run macros (SGX ABI 5.10 or later)	%s: ta vdelana programska oprema ne more izvajati makrov (SGX ABI 5.10 ali novejši)
+msg.phrase	Macro error: %s	Napaka makra: %s
+msg.phrase	Macro: %s done	Makro: %s končano
+msg.phrase	a macro is already running	makro se že izvaja
+msg.phrase	this language is not available	ta jezik ni na voljo
+msg.phrase	not enough memory	premalo pomnilnika
+msg.phrase	the macro stopped with an error	makro se je ustavil z napako
+msg.phrase	Macro error %s: %s	Makro napaka %s: %s
+msg.phrase	Macro: not enough memory	Makro: premalo pomnilnika
+msg.phrase	Macro: the cursor is not on a macro (a #!ruby / #!python / #!basic cell or the cells below it)	Makro: kazalec ni na makru (celica #!ruby / #!python / #!basic ali celice pod njo)
+msg.phrase	Macro: no macro in the sheet	Makro: na listu ni makra
+msg.phrase	Run all macros	Zaženi vse makre
+msg.phrase	Macros: %d. Run them all, top-left to bottom-right? Changes cannot be undone.	Makri: %d. Jih zagnati vse, od zgoraj levo do spodaj desno? Sprememb ni mogoče razveljaviti.
+msg.phrase	Macro: %d of %d done	Makro: %d od %d končano
+msg.phrase	Cleared the cell	Počistil celico
+msg.phrase	Cleared the selection	Počistil izbor
+msg.phrase	Background colour = %d	Barva ozadja = %d
+msg.phrase	Text colour = %d	Barva besedila = %d
+msg.phrase	Graph: line	Graf: črta
+msg.phrase	Graph: bar	Graf: stolpec
+msg.phrase	Graph: mixed	Graf: mešano
+msg.phrase	Graph: pie	Graf: pita
+msg.phrase	Exported %s	Izvoženo %s

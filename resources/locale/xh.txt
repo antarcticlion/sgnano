@@ -1,0 +1,1041 @@
+# sgnano filer strings: isiXhosa (2026-11-16). ui <TAB> Japanese <TAB> translation / msg.* <TAB> English <TAB> translation
+# status: unreviewed (machine translation, not checked by a native speaker; 2026-11-16). 未検証: ネイティブの確認をしていない仮の訳
+@lang xh
+@name isiXhosa
+ui	一覧（ファイルとフォルダを 2 列 x 19 行に並べる）	Uluhlu (iifayile neefolda kwiikholamu ezi-2 x imigca eli-19)
+ui	カーソルを動かす（左右は隣の列へ）	Hambisa ikhesa (ekhohlo / ekunene: enye ikholamu)
+ui	前のページ / 次のページ	Iphepha elidlulileyo / iphepha elilandelayo
+ui	全部に印 / 印を反転（PC-98 FD と同じ）	Phawula konke / guqula iimpawu (njenge-PC-98 FD)
+ui	先頭 / 最後	Eyokuqala / eyokugqibela
+ui	印を付けて次へ / 印だけ付ける	Phawula uqhubeke / phawula kuphela
+ui	Shift+矢印	Shift+iintolo
+ui	範囲を選ぶ（Space でその範囲に印）	Khetha uluhlu (i-Space iphawula uluhlu)
+ui	フォルダに入る・ファイルを開く（F2/X は実行）	Ngena kwifolda / vula ifayile (F2/X qhuba)
+ui	上のフォルダへ	Nyuka uye kwifolda engumzali
+ui	ドライブを選ぶ（USB・フロッピー・CD・S: 内蔵）	Khetha idrayivu (USB, floppy, CD, S: yangaphakathi)
+ui	コピー（Shift+C / Shift+F3 は行き先を木から）	Kopa (Shift+C / Shift+F3 khetha apho iya khona emthini)
+ui	移動	Hambisa
+ui	削除（Shift+D / Shift+F4 はフォルダ削除）	Cima (Shift+D / Shift+F4 cima ifolda)
+ui	名前を変える	Thiya kwakhona
+ui	属性を変える	Tshintsha iimpawu
+ui	エディタで開く	Vula kumhleli
+ui	テキスト表示（Shift+V / Ctrl+Alt+F7 は 16 進）	Jonga njengombhalo (Shift+V / Ctrl+Alt+F7 hex)
+ui	ドライブの情報	Inkcazelo yedrayivu
+ui	フォルダを作る / 新しいファイル	Ifolda entsha / ifayile entsha
+ui	シェル sgsh / 媒体を取り出す	Shell sgsh / khupha idiski
+ui	読み直す	Layisha kwakhona
+ui	見えている画面を PNG で保存	Gcina isikrini njenge-PNG
+ui	窓を閉じる・選択を解く（サブフォルダでは上位へ）	Vala ifestile / susa ukhetho (kwifolda engaphantsi: nyuka)
+ui	ファイルの操作（FD と同じ。印・範囲・カーソルの順に選ぶ）	Imisebenzi yeefayile (njenge-FD: iimpawu, emva koko uluhlu, emva koko ikhesa)
+ui	コピー: 行き先はドライブとフォルダの木から。ESC で止める	Kopa: khetha apho iya khona emthini weedrayivu neefolda. I-ESC iyamisa
+ui	削除: y で確かめる。印・範囲をまとめて。フォルダは中身ごと	Cima: qinisekisa ngo-y. Iimpawu noluhlu kunye. Iifolda kunye nemixholo yazo
+ui	フォルダを削除（中身ごと）	Cima ifolda (kunye nemixholo yayo)
+ui	名前を変える（今の名前を直して Enter）	Thiya kwakhona (hlela igama, Enter)
+ui	属性: R 読み出し専用・H 隠し・S システム・A アーカイブ	Iimpawu: R ukufunda kuphela, H efihliweyo, S inkqubo, A indawo yokugcina
+ui	フォルダを作る	Ifolda entsha
+ui	新しいファイル（空）を作る	Ifayile entsha (engenanto)
+ui	テキストで表示（Shift+V / Ctrl+Alt+F7 は 16 進）	Jonga njengombhalo (Shift+V / Ctrl+Alt+F7 hex)
+ui	シェル sgsh（exit / Ctrl-D でファイラーへ）	Shell sgsh (exit / Ctrl-D ubuyela kumlawuli weefayile)
+ui	選んでいるドライブの素性（INQUIRY・IDENTIFY）	Isazisi sedrayivu (INQUIRY, IDENTIFY)
+ui	FDD・LS-120・CD の媒体を取り出す	Khupha idiski ye-FDD / LS-120 / CD
+ui	一覧を読み直す（CD は TOC から）	Layisha uluhlu kwakhona (CD: ukusuka kwi-TOC)
+ui	ZMODEM で PC から受け取る（zm.sh put）	Fumana ukusuka kwi-PC nge-ZMODEM (zm.sh put)
+ui	ZMODEM で PC へ送る（zm.sh get）	Thumela kwi-PC nge-ZMODEM (zm.sh get)
+ui	.rb をコンパイルして .mrb を書き出す	Qokelela i-.rb uze ubhale i-.mrb
+ui	Ruby の REPL（1 行ずつ、Ctrl-D / ESC で終わり）	I-REPL ye-Ruby (umgca omnye ngexesha, Ctrl-D / ESC ukugqiba)
+ui	MicroPython の REPL	I-REPL ye-MicroPython
+ui	4MB ずつ分割 / .001 から結合	Yahlula ibe ziingxenye ze-MB 4 / dibanisa ukusuka kwi-.001
+ui	分割 / 結合（Ctrl+F11 / F12 と同じ）	Yahlula / dibanisa (kuyafana no-Ctrl+F11 / F12)
+ui	画面（Alt+F。FD の F キーとぶつからない）	Isikrini (Alt+F, asingqubani namaqhosha e-F e-FD)
+ui	FB（絵）/ テキスト面を出す・隠す	Bonisa / fihla i-FB (umfanekiso) / umbhalo
+ui	FB の表示ページ（0〜3）	Iphepha lokubonisa le-FB (0-3)
+ui	FB を 0 で消す / 明るさを 1/2 に（RGB555）	Coca i-FB ibe ngu-0 / nciphisa ukukhanya ngesiqingatha (RGB555)
+ui	USB のエンドポイントと LAN の状態	Iziphelo ze-USB nemeko ye-LAN
+ui	FB の表示ページを消す / 明るさを 1/2 に	Coca iphepha lokubonisa le-FB / nciphisa ukukhanya ngesiqingatha
+ui	テキストの属性の見本	Imizekelo yeempawu zombhalo
+ui	モニタの EDID（起動時に読んだもの）	I-EDID yesikrini (ifundwe ekuqaleni)
+ui	フォント ROM のライセンスとクレジット	Iilayisensi nombulelo we-ROM yefonti
+ui	設定（表示の言語・IME・キーボードロケール）	Iisetingi (ulwimi lokubonisa, i-IME noyilo lwekhibhodi)
+ui	時計（NTP で合わせた日本時間。s ですぐ合わせる）	Iwotshi (ixesha laseJapan nge-NTP; s ivumelanisa ngoku)
+ui	表計算（SGCALC）を開く	Vula iphepha lokubala (SGCALC)
+ui	S: ドライブのエラー検査（誤りがあれば直すか聞く）	Khangela iimpazamo ze-S: (iyabuza phambi kokulungisa)
+ui	トラッカー（TRACKER）を開く	Vula i-TRACKER
+ui	再起動（確かめの窓が出る）	Qalisa kwakhona (iyabuza kuqala)
+ui	ADC のステレオ入力（GP40 / 41）を鳴らす	Dlala igalelo le-stereo le-ADC (GP40 / 41)
+ui	VGM/VGZ を 96kHz/24bit WAV に書き出す	Thumela i-VGM/VGZ ibe yi-WAV ye-kHz 96 / bit 24
+ui	このヘルプ	Olu ncedo
+ui	ページを替える	Tshintsha iphepha
+ui	閉じる	Vala
+ui	テキスト・16 進のビュアー（less 風）	Isijongi sombhalo / hex (njenge-less)
+ui	1 行	Umgca omnye
+ui	1 ページ	Iphepha elinye
+ui	半ページ	Isiqingatha sephepha
+ui	探す（前へ・後ろへ）/ 次・前	Khangela (phambili / emva) / elilandelayo / elidlulileyo
+ui	一覧へ戻る（F1 はビュアーのヘルプ）	Buyela kuluhlu (F1: uncedo lwesijongi)
+ui	画像のビュアー	Isijongi semifanekiso
+ui	一覧へ戻る（F2 F3 F6 F7 Shift+F2 F3 は効く）	Buyela kuluhlu (F2 F3 F6 F7 Shift+F2 F3 ziyasebenza)
+ui	エディタ（E / Shift+F8）	Umhleli (E / Shift+F8)
+ui	保存する（UTF-8。改行と BOM は元のまま）	Gcina (UTF-8; iziphelo zemigca ne-BOM ziyagcinwa)
+ui	閉じる（変わっていれば Y / N / ESC）	Vala (ukuba kutshintshiwe: Y / N / ESC)
+ui	挿入 / 上書き	Faka / bhala phezu kwayo
+ui	IME（日本語・英語・ハングル）の入・切	Layita/cima i-IME (isiJapan / isiNgesi / isiKorea)
+ui	IME の言語（日本語 / English / 한국어）	Ulwimi lwe-IME (isiJapan / isiNgesi / isiKorea)
+ui	ひらがな / カタカナで確定	Qinisekisa njenge-hiragana / katakana
+ui	エディタのヘルプ	Uncedo lomhleli
+ui	シェル	Shell
+ui	シェル（csh のサブセット。exit / Ctrl-D で戻る、help で一覧）	Shell (inxalenye ye-csh. exit / Ctrl-D ukubuyela, help idwelisa imiyalelo)
+ui	一覧と移動	Uluhlu nokuhamba
+ui	ファイルの操作	Imisebenzi yeefayile
+ui	画面と機器	Isikrini nezixhobo
+ui	ビュアーとエディタ	Izijongi nomhleli
+ui	ヘルプ  %u / %u  %s	Uncedo  %u / %u  %s
+ui	Left Right: ページを替える    F1 / ESC: 閉じる	Ekhohlo Ekunene: tshintsha iphepha    F1 / ESC: vala
+ui	sgnano を再起動しますか？	Qalisa kwakhona i-sgnano?
+ui	[ 再起動 ]	[ Qalisa kwakhona ]
+ui	[ キャンセル ]	[ Rhoxisa ]
+ui	S: ドライブのエラー検査	Khangela iimpazamo zedrayivu S:
+ui	ファイル %lu  フォルダ %lu	Iifayile %lu  iifolda %lu
+ui	大きさが鎖と合わない	Ubungakanani abuhambelani nekhonkco
+ui	どこからも使われていないクラスタ	Iiklasta ezingasetyenziswa nto
+ui	重なったクラスタ	Iiklasta ezidityaniswe ngokunqamlezileyo
+ui	壊れた項目	Amangeno onakeleyo
+ui	FAT の 2 つの写しの食い違い	Iikopi ezimbini ze-FAT zahlukile
+ui	エラーはありません。	Akukho mpazamo.
+ui	エラーが見つかりました。修復しますか？	Kufunyenwe iimpazamo. Zilungiswe?
+ui	修復しました（上は直した数）。	Kulungisiwe (amanani angentla alungisiwe).
+ui	検査・修復できませんでした（S: が使用中）。	Ayikwazanga ukukhangela okanye ukulungisa (i-S: ixakekile).
+ui	[ 修復する ]	[ Lungisa ]
+ui	[ やめる ]	[ Rhoxisa ]
+ui	何かキーで閉じる	Naliphi na iqhosha liyavala
+ui	設定	Iisetingi
+ui	表示の言語	Ulwimi lokubonisa
+ui	キーボードロケール	Uyilo lwekhibhodi
+ui	Up / Down  Enter 決める  ESC やめる	Phezulu / Ezantsi  Enter khetha  ESC rhoxisa
+ui	表示の言語 (Language)	Ulwimi lokubonisa
+ui	Up / Down  Enter 決める  ESC 戻る	Phezulu / Ezantsi  Enter: seta  ESC: buyela
+ui	%c: をどの文字に固定しますか（A〜Z、S を除く。ESC でやめる）	Misela i-%c: njengaloluphi unobumba? (A-Z ngaphandle kwe-S. ESC rhoxisa)
+ui	ドライブ  文字 / Enter 選ぶ  F2 文字を固定・解除  F3 文字を決めて固定  L / ESC やめる	Idrayivu  unobumba / Enter khetha  F2 misela/khulula  F3 misela njenge...  L / ESC rhoxisa
+ui	  区画 %u	  isahlulo %u
+ui	%c:* （固定・つながっていません）%04X:%04X%s  %s	%c:* (imiselwe, ayidibananga) %04X:%04X%s  %s
+ui	お知らせ	Isaziso
+ui	ドライブ %c:  %s	Idrayivu %c:  %s
+ui	ドライブ  (なし)	Idrayivu  (akukho)
+ui	音楽 CD  %u トラック	I-CD yesandi  iingoma %u
+ui	フォルダ %u  ファイル %u  合計 %s	Iifolda %u  iifayile %u  iyonke %s
+ui	読んでいます...	Iyafunda...
+ui	* 印 %u 個  %s	* eziphawulweyo %u  %s
+ui	%lu バイト	iibhayithi %lu
+ui	属性 %s   更新日時 %s   作成日時 %s   %s	Iimpawu %s   itshintshwe %s   yenziwe %s   %s
+ui	日	Caw
+ui	月	Mvu
+ui	火	Bin
+ui	水	Tha
+ui	木	Sin
+ui	金	Hla
+ui	土	Mgq
+ui	時計は合わせていません（LAN の NTP）	Iwotshi ayisetwanga (NTP nge-LAN)
+ui	FB  表示 %u  書込 %u	FB  ukubonisa %u  ukubhala %u
+ui	1 ヘルプ	1 Uncedo
+ui	2 実行	2 Qhuba
+ui	3 ｺﾋﾟｰ	3 Kopa
+ui	4 削除	4 Cima
+ui	5 名前	5 Igama
+ui	7 FB消去	7 CocaFB
+ui	8 FB減光	8 FiFB
+ui	9 ﾄﾞﾗｲﾌﾞ	9 Idray
+ui	10 EP表	10 EP
+ui	11 時計	11 Wots
+ui	12 表計	12 CALC
+ui	1 属性	1 Mpawu
+ui	2 情報	2 Nkcaz
+ui	3 移動	3 Hamba
+ui	5 作成	5 Ifolda
+ui	6 シェル	6 Shell
+ui	8 編集	8 Hlela
+ui	9 表示	9 Jonga
+ui	10S:検査	10 S:kha
+ui	11 ﾄﾗｯｸ	11 TRACK
+ui	12再起動	12 Qala
+ui	1 新規	1 Entsha
+ui	2 ﾌｫﾙﾀﾞ	2 Ifolda
+ui	3 名前	3 Igama
+ui	4 属性	4 Mpawu
+ui	6 ｺﾋﾟｰ	6 Kopa
+ui	7 移動	7 Hamba
+ui	8 削除	8 Cima
+ui	9 編集	9 Hlela
+ui	10ｺﾝﾊﾟｲﾙ	10 mrbc
+ui	11 分割	11 Yahlu
+ui	12 結合	12 Diba
+ui	1 属性例	1 Mpawu
+ui	2 FB切替	2 FB
+ui	3 文字面	3 Mbhalo
+ui	5 画面写	5 Mfane
+ui	6 表示頁	6 Phepha
+ui	9 ZM受信	9 ZMfum
+ui	10ZM送信	10 ZMthu
+ui	2 FB消去	2 CocaFB
+ui	3 FB減光	3 FiFB
+ui	5 再読込	5 Layis
+ui	7 16進	7 Hex
+ui	9 ﾗｲｾﾝｽ	9 Layis
+ui	8 設定	8 Seti
+ui	時刻を合わせる（日本時間。NTP で合わせられませんでした）	Seta iwotshi (ixesha laseJapan. I-NTP ayikwazanga ukuyiseta)
+ui	起動のパラメタ	Qhuba ngeeparamitha
+ui	新しいフォルダ	Ifolda entsha
+ui	新しいファイル	Ifayile entsha
+ui	時刻:	Ixesha:
+ui	実行:	Qhuba:
+ui	名前:	Igama:
+ui	年-月-日 時:分  Enter 合わせる  ESC そのまま	YYYY-MM-DD hh:mm  Enter seta  ESC shiya kunjalo
+ui	Enter 走らせる  ←→ 動かす  BS / Del 消す  ESC やめる	Enter qhuba  <-> hambisa  BS / Del cima  ESC rhoxisa
+ui	Enter 変える  ←→ 動かす  BS / Del 消す  ESC やめる	Enter thiya kwakhona  <-> hambisa  BS / Del cima  ESC rhoxisa
+ui	Enter 作る  ←→ 動かす  BS / Del 消す  ESC やめる	Enter yenza  <-> hambisa  BS / Del cima  ESC rhoxisa
+ui	消す	Cima
+ui	個の項目	 izinto
+ui	フォルダは中身ごと消します。よろしいですか？	Iifolda ziya kucinywa kunye nemixholo yazo. Uqinisekile?
+ui	このファイルを消しますか？	Cima le fayile?
+ui	（元に戻せません。フォルダの中のファイルも消えます）	(Oku akunakubuyiselwa. Iifayile ezikwiifolda nazo ziya kucinywa)
+ui	[ はい (Y) ]	[ Ewe (Y) ]
+ui	[ いいえ (N) ]	[ Hayi (N) ]
+ui	バイナリビュアー: ファイルを選んでください	isijongi se-hex: khetha ifayile
+ui	テキストビュアー: ファイルを選んでください	isijongi sombhalo: khetha ifayile
+ui	移動先	Hambisa uye ku
+ui	コピー先	Kopa uye ku
+ui	バッファがいっぱいです (buffer full)	Isigcini sethutyana sizele
+ui	読み出し専用のドライブです (read-only)	Idrayivu yeyokufunda kuphela
+ui	保存できません (no writer)	Ayikwazi ukugcina (akukho mbhali)
+ui	保存を始められません (the drive is busy?)	Ayikwazanga ukuqalisa ukugcina (idrayivu ixakekile?)
+ui	保存しています... (saving)	Iyagcina...
+ui	2 保存	2 Gcina
+ui	5 色分け	5 Umbala
+ui	6 ﾞ	6 Hira
+ui	7 ｶﾀｶﾅ	7 Kata
+ui	8 予測	8 Qikel
+ui	10 終了	10 Phuma
+ui	1 先頭	1 Phezu
+ui	2 最後	2 Ekugq
+ui	3 挿/上	3 Faka
+ui	4 辞書	4 Isich
+ui	6 半	6 HHira
+ui	7 半ｶﾅ	7 HKata
+ui	 %s  %s  行 %lu/%lu 桁 %u  %s  %s %s%s%s	 %s  %s  Umg %lu/%lu Kh %u  %s  %s %s%s%s
+ui	*変更	*tshintsh
+ui	上書	PHEZU
+ui	挿入	FAKA
+ui	  読出専用	  Ukufunda kuphela
+ui	 エディタ (sgnano edit)                      F1 / ESC で閉じる	 Umhleli (sgnano edit)                       F1 / ESC iyavala
+ui	 矢印 / Home End / PgUp PgDn   カーソルを動かす	 Iintolo / Home End / PgUp PgDn  hambisa ikhesa
+ui	 Ctrl-T / Ctrl-B               ファイルの先頭 / 最後	 Ctrl-T / Ctrl-B               ukuqala / ukuphela kwefayile
+ui	 BS / Del                      前の字 / カーソルの字を消す	 BS / Del                      cima ngaphambili / kwikhesa
+ui	 Enter                         改行（前の行の字下げを引き継ぐ）	 Enter                         umgca omtsha (igcina ukungena)
+ui	 Tab / Ins                     タブ / 挿入と上書きの切り替え	 Tab / Ins                     ithebhu / faka okanye bhala phezu kwayo
+ui	 F5                            色分け（拡張子から。C/C++・mruby・MicroPython・SG BASIC・なし）	 F5                            Umbala (ukusuka kwisongezelelo; C/C++, mruby, MicroPython, SG BASIC, akukho)
+ui	 F2  (Ctrl-S)                  保存（UTF-8、改行は元の形）	 F2  (Ctrl-S)                  gcina (UTF-8, iziphelo zemigca ziyagcinwa)
+ui	 F10 / ESC                     閉じる（変更があれば聞く）	 F10 / ESC                     vala (iyabuza ukuba kutshintshiwe)
+ui	 IME:  Ctrl-Space / F12        オン・オフ（あ / A）	 IME:  Ctrl-Space / F12        layita / cima (あ / A)
+ui	       F9                      IME の言語（このエディタの間だけ。閉じると戻る）	       F9                      ulwimi lwe-IME (lo mhleli kuphela; luyabuyiswa xa kuvalwa)
+ui	       F8                      日本語の予測変換 オン・オフ	       F8 Layita/cima uguqulelo oluqikelelwayo lwesiJapan
+ui	       日本語                  ローマ字 -> ひらがな（F6）・カタカナ（F7）	       IsiJapan                romaji -> hiragana (F6) / katakana (F7)
+ui	                               半角ひらがな（Shift+F6）・半角カタカナ（Shift+F7）	                               I-hiragana yobubanzi besiqingatha (Shift+F6) / i-katakana yobubanzi besiqingatha (Shift+F7)
+ui	                               2 字以上で予測、Space で連文節変換	                               Qikelela ukusuka koonobumba aba-2 nangaphezulu, guqula amabinzana alandelelanayo nge-Space
+ui	       English                 2 字以上で予測補完	       IsiNgesi: ukugqibezela okuqikelelwayo ukusuka koonobumba aba-2 nangaphezulu
+ui	       한국어                  2 ボル式ハングル	       한국어 I-Hangul yeseti-2
+ui	       Space / Enter           変換 / 確定	       Space / Enter Guqula / Qinisekisa
+ui	       ← →                    文節を選ぶ	       ← → Khetha ibinzana
+ui	       Shift+← →               文節の右端を 1 字 縮/拡（候補を出し直す）	       Shift+← → Nciphisa/yandisa isiphelo sasekunene sebinzana ngonobumba omnye (ukhetho olutsha)
+ui	       ↑ ↓ / Tab               候補の窓で前 / 次の候補（窓は変換の下、画面の下では上）	       ↑ ↓ / Tab               Ukhetho olwadlulayo / olulandelayo efestileni (phantsi kombhalo, phezulu ukuba kufutshane nezantsi)
+ui	       →→→ で Enter            すべての候補（2 列 x 8 個、← → で列とページ、Enter で決める）	       Enter kwi-→→→           Lonke ukhetho (2 x 8, ← → ikholamu nephepha, Enter khetha)
+ui	       Enter                   次の文節へ（最後の文節で全体を確定）	       Enter                   Ibinzana elilandelayo (kwelokugqibela kuqinisekisa konke)
+ui	       Ctrl-U                  いまの語をユーザー辞書へ	       Ctrl-U Yongeza eli gama kwisichazi-magama somsebenzisi
+ui	 Shift+F1 / F2 / F3 / F4       先頭 / 最後 / 挿入と上書き / ユーザー辞書へ	 Shift+F1 / F2 / F3 / F4       Ukuqala / ukuphela / faka-bhala phezu / kwisichazi-magama somsebenzisi
+ui	       BS / ESC                1 字戻す / 取り消し	       BS / ESC Buyela umva unobumba omnye / Rhoxisa
+ui	       , . - [ ] /             、 。 ー 「 」 ・	       , . - [ ] /             、 。 ー 「 」 ・
+ui	変更あり  Y: 保存して閉じる  N: 保存せず閉じる  ESC: 戻る	Kutshintshiwe  Y: gcina uvale  N: vala ungagcinanga  ESC: buyela
+ui	[予測] Tab/↑↓: 候補  Space: 変換  Esc: 取消	[Uqikelelo] Tab/↑↓: ukhetho  Space: guqula  Esc: rhoxisa
+ui	[候補] ↑↓: 選ぶ  ←→: 列・ページ  Enter: 決める	[Ukhetho] ↑↓: khetha  ←→: ikholamu/iphepha  Enter: thatha
+ui	[変換] ↑↓候補 ←→文節 Shift+←→区切り Enter次へ	[Guqula] ↑↓ukhetho ←→ibinzana Shift+←→umda Enter elilandelayo
+ui	[한국어] Tab/↑↓: 候補  Enter/Space: 確定	[한국어] Tab/↑↓: ukhetho  Enter/Space: qinisekisa
+ui	[English] Tab/↑↓: 候補  Enter: 確定	[English] Tab/↑↓: ukhetho  Enter: qinisekisa
+ui	2ボル式ハングル入力  Ctrl-Space: 英数	Igalelo le-Hangul yeseti-2  Ctrl-Space: oonobumba namanani
+ui	予測補完  Ctrl-Space: 直接入力	Ukugqibezela okuqikelelwayo  Ctrl-Space: igalelo elingqalileyo
+ui	辞書なし: ひらがな/カタカナ入力のみ  F6/F7	Akukho sichazi-magama: hiragana/katakana kuphela  F6/F7
+ui	Space: 変換  F7: カタカナ  Ctrl-Space: 英数	Space: guqula  F7: katakana  Ctrl-Space: oonobumba namanani
+ui	Space: 変換  F6: ひらがな  Ctrl-Space: 英数	Space: guqula  F6: hiragana  Ctrl-Space: oonobumba namanani
+ui	半角  F6: ひらがな  F7: カタカナ  Shift+F6/F7: 半角	Isiqingatha sobubanzi  F6: hiragana  F7: katakana  Shift+F6/F7: isiqingatha
+ui	IME オフ	I-IME icinyiwe
+ui	 予測	 qikelela
+ui	日本語の予測変換: オン	Uguqulelo oluqikelelwayo lwesiJapan: Luvuliwe
+ui	日本語の予測変換: オフ	Uguqulelo oluqikelelwayo lwesiJapan: Luvaliwe
+ui	日本語IMEで使います	Sebenzisa ne-IME yesiJapan
+ui	ユーザー辞書に追加できません	Ayikwazi ukongeza kwisichazi-magama somsebenzisi
+ui	色分け: %s	Umbala: %s
+ui	読み込んでいます... (loading)	Iyalayisha...
+ui	読み込めませんでした (could not read)	Ayikwazanga ukufunda ifayile
+ui	%lu 行%s%s	imigca %lu%s%s
+ui	  Shift_JIS を UTF-8 で開きました（保存は UTF-8）	  i-Shift_JIS ivulwe njenge-UTF-8 (igcinwa njenge-UTF-8)
+ui	  読み出し専用	  ukufunda kuphela
+ui	保存しました (saved)	Kugciniwe
+ui	保存できませんでした (write failed)	Ayikwazanga ukugcina (ukubhala kusilele)
+ui	候補	Ukhetho
+ui	7 書込頁	7 PhB
+ui	9 ﾃｷｽﾄ	9 Mbhalo
+ui	9 ﾊﾞｲﾅﾘ	9 Hex
+ui	読み込み中 %lu%%  	Iyalayisha %lu%%
+ui	（先頭だけ）  	(ukuqala kuphela)
+ui	16 進  q ESC: 戻る  F1: ヘルプ	Hex  q ESC: buyela  F1: uncedo
+ui	テキスト  q ESC: 戻る  F1: ヘルプ	Umbhalo  q ESC: buyela  F1: uncedo
+ui	ビュアーのキー（less 風。テキストと 16 進で共通）	Amaqhosha esijongi (njenge-less; ayafana kumbhalo nakwi-hex)
+ui	1 行進む	Umgca omnye ezantsi
+ui	1 行戻る	Umgca omnye phezulu
+ui	1 ページ進む	Iphepha elinye ezantsi
+ui	1 ページ戻る	Iphepha elinye phezulu
+ui	半ページ進む / 戻る	Isiqingatha sephepha ezantsi / phezulu
+ui	/文字列  ?文字列	/umbhalo  ?umbhalo
+ui	下へ探す / 上へ探す（大文字小文字は区別しない）	Khangela ezantsi / phezulu (ayikhathali ngoonobumba abakhulu)
+ui	次 / 前を探す	Ufaniso olulandelayo / olwadlulayo
+ui	16 進で表示する（いま見ている所のまま）	Bonisa njenge-hex (kwindawo enye)
+ui	テキストで表示する（いま見ている所のまま）	Bonisa njengombhalo (kwindawo enye)
+ui	色分けを替える（C/C++・mruby・MicroPython・SG BASIC・なし）	Tshintsha imibala (C/C++, mruby, MicroPython, SG BASIC, akukho)
+ui	FB / テキスト面を出す・隠す	Bonisa / fihla i-FB / umbhalo
+ui	FB の表示ページ / 書き込みページ	Iphepha lokubonisa / lokubhala le-FB
+ui	ファイラーへ戻る	Buyela kumlawuli weefayile
+ui	このヘルプを閉じる	Vala olu ncedo
+ui	コピー	Kopa
+ui	 %s: フォルダを読んでいます... %u 個	 %s: ifunda iifolda... %u
+ui	 %s: 行き先の空きを数えています...	 %s: ibala indawo engenanto apho iya khona...
+ui	 %s: 行き先の空きが足りません	 %s: indawo engenanto ayonelanga apho iya khona
+ui	 移動: 元のフォルダを消しています	 Hambisa: isusa iifolda zomthombo
+ui	終了しました	Kugqityiwe
+ui	止まりました	Kumisiwe
+ui	 %s中%s	 %s kuyaqhubeka%s
+ui	（止めています）	 (iyamisa)
+ui	 元: %s	 Ukusuka: %s
+ui	 先: %s	 Ukuya: %s
+ui	 ファイル %u / %u 個  フォルダ %u 個  %s / %s  (%u%%)%s	 Iifayile %u / %u  iifolda %u  %s / %s  (%u%%)%s
+ui	  多すぎるので一部だけ	  zininzi kakhulu: ezinye kuphela
+ui	 要る大きさ %s、空き %s。続けますか？	 Kufuneka %s, engenanto %s. Qhubeka?
+ui	 Y: 続ける   N / ESC: やめる	 Y: qhubeka   N / ESC: rhoxisa
+ui	 何かキーを押すと閉じます	 Cofa naliphi na iqhosha ukuvala
+ui	 ESC: 止める	 ESC: misa
+ui	 %s: ←→ ドライブ  ↑↓ フォルダ  Space 開く・閉じる  Enter 決める  ESC やめる	 %s: ←→ idrayivu  ↑↓ ifolda  Space vula/vala  Enter khetha  ESC rhoxisa
+ui	 読めません: %s	 Ayikwazi ukufunda: %s
+ui	 フォルダを読んでいます...（ESC で止める）  %u 個	 Ifunda iifolda... (i-ESC iyamisa)  %u
+ui	 フォルダ %u 個%s	 iifolda %u%s
+ui	（多すぎるか深すぎるので、一部だけ）	 (zininzi kakhulu okanye nzulu kakhulu: ezinye kuphela)
+ui	フォルダの展開を止めました	Ukuvula ifolda kumisiwe
+ui	Space で開き直せます。もう一度 ESC でやめます	I-Space iyayivula kwakhona. I-ESC kwakhona iyarhoxisa
+ui	 SMF / SGT プレイヤー   %s	 Isidlali se-SMF / SGT   %s
+ui	 読み込んでいます... %lu / %lu バイト	 Iyalayisha... %lu / %lu iibhayithi
+ui	 %s / %s   %s   ポート %u	 %s / %s   %s   amazibuko %u
+ui	一時停止	Kumiswe okwethutyana
+ui	再生中	Iyadlala
+ui	 Space: 一時停止  m: MIDI OUT  q / ESC: 止める	 Space: misa okwethutyana  m: MIDI OUT  q / ESC: misa
+ui	 q / ESC: やめる	 q / ESC: rhoxisa
+ui	フォント ROM のライセンスとクレジット\n\nROM: %s（版 %lu.%lu、%lu 文字、フラッシュの 0x%08lX から）\n\n	Iilayisensi nombulelo we-ROM yefonti\n\nROM: %s (inguqulelo %lu.%lu, oonobumba %lu, ukusuka ku-0x%08lX kwi-flash)\n\n
+ui	== 収めているフォント（ROM の出所の表）==\n	== Iifonti ezikwi-ROM (itheyibhile yemvelaphi ye-ROM) ==\n
+ui	  （表が無い ROM）\n	  (i-ROM ayinayo itheyibhile)\n
+ui	\n== ROM のクレジットの区画 ==\n\n	\n== Indawo yombulelo ye-ROM ==\n\n
+ui	（区画が無い）\n	(akukho ndawo injalo)\n
+ui	\n== 組み込んだソフトウェアのライセンス ==\n	\n== Iilayisensi zesoftware eyakhelwe ngaphakathi ==\n
+ui	 %s を PNG で保存   %s	 Igcina %s njenge-PNG   %s
+ui	画面	Isikrini
+ui	 組み立てています... %lu / %lu 行	 Iyakha... imigca %lu / %lu
+ui	 書いています... %lu / %lu KB（FB は隠しています）	 Iyabhala... %lu / %lu KB (i-FB ifihliwe)
+ui	書けませんでした	Ayikwazanga ukubhala
+ui	書庫の名前（印の付いた項目、無ければカーソルの項目を入れる）	Igama logcino (izinto eziphawuliweyo, okanye esisekhesini ukuba azikho)
+ui	Enter 圧縮する  ←→ 動かす  BS / Del 消す  ESC やめる	Enter cinezela  ←→ shukumisa  BS / Del cima  ESC rhoxisa
+ui	WAV 書き出し: %s 中止（%s）	Ukuthumela i-WAV: %s kurhoxisiwe (%s)
+ui	WAV 書き出し: %s 失敗（%s）	Ukuthumela i-WAV: %s kusilele (%s)
+ui	WAV 書き出し: %s 合計 %s	Ukuthumela i-WAV: %s iyonke %s
+ui	 WAV 書き出し（96kHz / 24bit）: %s	 Ukuthumela i-WAV (96kHz / 24bit): %s
+ui	中止しました	Kurhoxisiwe
+ui	失敗しました	Kusilele
+ui	 合計 %s	 Iyonke %s
+ui	 中止しました（%s。半端なファイルは消しました）	 Kurhoxisiwe (%s; ifayile engagqitywanga icinyiwe)
+ui	 書き出せませんでした（%s）。理由:	 Akukwazekanga ukuthumela (%s). Isizathu:
+ui	 （理由は分かりません）	 (isizathu asaziwa)
+ui	 %u%%   経過 %s%s	 %u%%   ixesha %s%s
+ui	 ESC: 止める（半端なファイルは消します）	 ESC: misa (ifayile engagqitywanga iya kucinywa)
+ui	書庫: %s	Ugcino: %s
+ui	読み込み中…（ESC でやめる）	Kuyafundwa... (ESC ukurhoxisa)
+ui	 %u 項目%s  合計 %s バイト  展開先: %s	 izinto %u%s  iyonke iibhayithi %s  khupha ku: %s
+ui	 Enter 項目を展開  X 全部を展開  ↑↓ 動かす  ESC 閉じる	 Enter khupha  X zonke  ↑↓ shukumisa  ESC vala
+ui	圧縮	Cinezela
+ui	一覧	Uluhlu
+ui	展開	Khupha
+ui	 合計 %s   %u 項目	 Iyonke %s   izinto %u
+ui	 合計 %s   %u ファイル	 Iyonke %s   iifayile %u
+ui	 中止しました（%s。書きかけのファイルは消しました）	 Kurhoxisiwe (%s; ifayile engagqitywanga icinyiwe)
+ui	 できませんでした（%s）: %s	 Akukwazekanga (%s): %s
+ui	 %u%%   経過 %s   %s バイト%s	 %u%%   ixesha %s   iibhayithi %s%s
+ui	 経過 %s   %s バイト%s	 ixesha %s   iibhayithi %s%s
+ui	 ESC: 止める（書きかけのファイルは消します）	 ESC: misa (ifayile engagqitywanga iya kucinywa)
+ui	書庫: %s 失敗（%s）	Ugcino: %s kusilele (%s)
+ui	圧縮: %s（%u 項目）	Kucinezelwe: %s (izinto %u)
+ui	展開: %s（%u ファイル）	Kukhutshwe: %s (iifayile %u)
+msg.phrase	the drive went away	idrayivu ihambile
+msg.phrase	reading the partitions again...	ifunda izahlulo kwakhona...
+msg.phrase	could not open the volume (no memory?)	ayikwazanga ukuvula ivolyum (inkumbulo ayonelanga?)
+msg.phrase	opening the volume...	ivula ivolyum...
+msg.phrase	no memory for the file list	inkumbulo ayonelanga kuluhlu lweefayile
+msg.phrase	reading the directory... (retrying)	ifunda ifolda... (iyazama kwakhona)
+msg.phrase	could not read the directory	ayikwazanga ukufunda ifolda
+msg.phrase	reading the directory...	ifunda ifolda...
+msg.phrase	the drive did not answer -- reading the partitions again	idrayivu ayiphendulanga -- ifunda izahlulo kwakhona
+msg.phrase	could not read the directory (not FAT12/16/32?)	ayikwazanga ukufunda ifolda (ayisiyo FAT12/16/32?)
+msg.phrase	too many entries -- showing the first ones	amangeno maninzi kakhulu -- ibonisa awokuqala
+msg.phrase	no file system found on this partition	akukho nkqubo yeefayile kwesi sahlulo
+msg.phrase	the path is too long	indlela inde kakhulu
+msg.phrase	joining...	iyadibanisa...
+msg.phrase	splitting...	iyahlula...
+msg.phrase	renaming...	ithiya kwakhona...
+msg.phrase	creating the folder...	yenza ifolda...
+msg.phrase	creating the file...	yenza ifayile...
+msg.phrase	deleting...	iyacima...
+msg.phrase	writing the attributes...	ibhala iimpawu...
+msg.phrase	the drive is busy	idrayivu ixakekile
+msg.phrase	busy	ixakekile
+msg.phrase	choose files or folders	khetha iifayile okanye iifolda
+msg.phrase	choose files or folders (not "..")	khetha iifayile okanye iifolda (hayi "..")
+msg.phrase	stop the CD first	misa i-CD kuqala
+msg.phrase	the CD cannot be changed (copy instead)	i-CD ayinakutshintshwa (kopa endaweni yoko)
+msg.phrase	a system folder cannot be moved	ifolda yenkqubo ayinakuhanjiswa
+msg.phrase	no drive can be written (FAT / exFAT / NTFS only)	akukho drayivu inokubhalelwa (FAT / exFAT / NTFS kuphela)
+msg.phrase	the drive is gone	idrayivu ayisekho
+msg.phrase	nothing chosen	akukhethwanga nto
+msg.phrase	nothing selected	akukhethwanga nto
+msg.phrase	could not start	ayikwazanga ukuqalisa
+msg.phrase	could not open	ayikwazanga ukuvula
+msg.phrase	only on a FAT / exFAT / NTFS drive	kwidrayivu ye-FAT / exFAT / NTFS kuphela
+msg.phrase	no name	akukho gama
+msg.phrase	that name already exists	elo gama sele likhona
+msg.phrase	could not start (bad name or the drive is busy)	ayikwazanga ukuqalisa (igama elibi okanye idrayivu ixakekile)
+msg.phrase	could not start (the drive is busy)	ayikwazanga ukuqalisa (idrayivu ixakekile)
+msg.phrase	the name cannot have / or \\ (only inside this folder)	igama alinakuba ne-/ okanye i-\\ (ngaphakathi kwale folda kuphela)
+msg.phrase	the name is the same	igama liyafana
+msg.phrase	the item is read-only (A to change)	into yeyokufunda kuphela (A ukutshintsha)
+msg.phrase	choose a .rb file on a writable drive	khetha ifayile ye-.rb kwidrayivu enokubhalelwa
+msg.phrase	choose a .rb file	khetha ifayile ye-.rb
+msg.phrase	the drive is read-only	idrayivu yeyokufunda kuphela
+msg.phrase	choose a folder on a writable drive	khetha ifolda kwidrayivu enokubhalelwa
+msg.phrase	wait a moment	linda kancinci
+msg.phrase	choose a file	khetha ifayile
+msg.phrase	choose a file (not a folder)	khetha ifayile (hayi ifolda)
+msg.phrase	choose a .001 file	khetha ifayile ye-.001
+msg.phrase	choose the .001 file	khetha ifayile ye-.001
+msg.phrase	put the IWAD in a DoomFiles or Doom2Files folder	beka i-IWAD kwifolda ye-DoomFiles okanye ye-Doom2Files
+msg.phrase	DoomFiles takes freedoom1 / doom / doomu / doom1.wad	I-DoomFiles yamkela freedoom1 / doom / doomu / doom1.wad
+msg.phrase	Doom2Files takes freedoom2 / doom2 / plutonia / tnt.wad	I-Doom2Files yamkela freedoom2 / doom2 / plutonia / tnt.wad
+msg.phrase	put the game files on external storage, not S:	beka iifayile zomdlalo kwindawo yokugcina yangaphandle, hayi kwi-S:
+msg.phrase	the IWAD must be on a FAT / exFAT / NTFS drive (not a CD)	i-IWAD kufuneka ibe kwidrayivu ye-FAT / exFAT / NTFS (hayi i-CD)
+msg.phrase	still working	isasebenza
+msg.phrase	an image is loading	umfanekiso uyalayishwa
+msg.phrase	no framebuffer	akukho framebuffer
+msg.phrase	half brightness works only in RGB555	ukunciphisa ukukhanya ngesiqingatha kusebenza nge-RGB555 kuphela
+msg.phrase	clearing...	iyacoca...
+msg.phrase	halving the brightness...	inciphisa ukukhanya ngesiqingatha...
+msg.phrase	that is a data track	leyo yingoma yedatha
+msg.phrase	wait -- a file is being written	linda -- kubhalwa ifayile
+msg.phrase	only floppy / LS-120 / CD drives	iidrayivu ze-floppy / LS-120 / CD kuphela
+msg.phrase	requested	kuceliwe
+msg.phrase	reading the disc...	ifunda idiski...
+msg.phrase	stopping...	iyamisa...
+msg.phrase	opening...	iyavula...
+msg.phrase	done	kugqityiwe
+msg.phrase	no memory	inkumbulo ayonelanga
+msg.phrase	already open	sele ivuliwe
+msg.phrase	already running	sele iyasebenza
+msg.phrase	already saving	sele iyagcina
+msg.phrase	already playing	sele iyadlala
+msg.phrase	no such drive	akukho drayivu injalo
+msg.phrase	no PSRAM	akukho PSRAM
+msg.phrase	no PSRAM for the file	i-PSRAM ayonelanga kwifayile
+msg.phrase	no PSRAM for the line index	i-PSRAM ayonelanga kwisalathiso semigca
+msg.phrase	no PSRAM for the terminal	i-PSRAM ayonelanga kwitheminali
+msg.phrase	no memory (PSRAM)	inkumbulo ayonelanga (PSRAM)
+msg.phrase	no memory (32KB SRAM)	inkumbulo ayonelanga (SRAM 32KB)
+msg.phrase	no memory for the buffer	inkumbulo ayonelanga kwisigcini sethutyana
+msg.phrase	no memory for the image buffers	inkumbulo ayonelanga kwizigcini zemifanekiso
+msg.phrase	no memory for the read buffer	inkumbulo ayonelanga kwisigcini sokufunda
+msg.phrase	no room for the work memory (close the lowres plane?)	akukho ndawo yenkumbulo yokusebenza (vala i-lowres?)
+msg.phrase	no framebuffer page	akukho phepha le-framebuffer
+msg.phrase	too large (4 MB at most)	inkulu kakhulu (ubuninzi i-MB 4)
+msg.phrase	the file is too large (1 MB at most)	ifayile inkulu kakhulu (ubuninzi i-MB 1)
+msg.phrase	the file is too large (1 MB max)	ifayile inkulu kakhulu (ubuninzi i-MB 1)
+msg.phrase	too large for an SMF (1MB at most)	inkulu kakhulu kwi-SMF (ubuninzi i-MB 1)
+msg.phrase	the file is empty	ifayile ayinanto
+msg.phrase	could not open the file	ayikwazanga ukuvula ifayile
+msg.phrase	could not read the file	ayikwazanga ukufunda ifayile
+msg.phrase	could not open the volume	ayikwazanga ukuvula ivolyum
+msg.phrase	could not open the destination (no memory?)	ayikwazanga ukuvula apho iya khona (inkumbulo ayonelanga?)
+msg.phrase	could not read the root folder	ayikwazanga ukufunda ifolda yengcambu
+msg.phrase	could not start the task	ayikwazanga ukuqalisa umsebenzi
+msg.phrase	could not start writing (bad name or busy)	ayikwazanga ukuqalisa ukubhala (igama elibi okanye ixakekile)
+msg.phrase	another volume is open (busy)	enye ivolyum ivuliwe (ixakekile)
+msg.phrase	a copy is running	ukukopa kuyaqhubeka
+msg.phrase	a folder cannot go into itself	ifolda ayinakungena kuyo ngokwayo
+msg.phrase	that is the same folder	yifolda enye leyo
+msg.phrase	this drive cannot be changed (read only)	le drayivu ayinakutshintshwa (ukufunda kuphela)
+msg.phrase	the drive is not writable	idrayivu ayibhaleleki
+msg.phrase	the part size must be a multiple of 512	ubungakanani benxalenye kufuneka bube luphindaphindo lwe-512
+msg.phrase	files of 4 GB or more are not supported	iifayile ze-GB 4 nangaphezulu azixhaswa
+msg.phrase	bad path	indlela embi
+msg.phrase	bad file name	igama lefayile elibi
+msg.phrase	the font ROM is not there	i-ROM yefonti ayikho
+msg.phrase	the sound is not open	isandi asivulwanga
+msg.phrase	no such channel	akukho jelo linjalo
+msg.phrase	the sequencer is busy	umlandelelanisi uxakekile
+msg.phrase	not enough PSRAM for the song	i-PSRAM ayonelanga kwingoma
+msg.phrase	not a standard MIDI file (no MThd)	ayisiyo fayile ye-MIDI eqhelekileyo (akukho MThd)
+msg.phrase	no tracks	akukho zingoma
+msg.phrase	a track is broken (MTrk)	ingoma yonakele (MTrk)
+msg.phrase	SMPTE time division is not supported	ulwahlulo lwexesha lwe-SMPTE aluxhaswa
+msg.phrase	SMF format 2 is not supported (0 and 1 only)	i-SMF yefomathi 2 ayixhaswa (0 no-1 kuphela)
+msg.phrase	not a Bulk-Only drive	ayisiyo drayivu ye-Bulk-Only
+msg.phrase	not an optical drive	ayisiyo drayivu ye-optical
+msg.phrase	a system folder cannot be deleted or renamed	ifolda yenkqubo ayinakucinywa okanye ithiywe kwakhona
+msg.phrase	no media in the drive	akukho diski kwidrayivu
+msg.phrase	becoming ready	iyalungela
+msg.phrase	not ready	ayikalungi
+msg.phrase	media changed	idiski itshintshiwe
+msg.phrase	medium error	impazamo yesixhobo
+msg.phrase	illegal request	isicelo esingekho mthethweni
+msg.phrase	a bad directory entry	ungeno lwefolda olubi
+msg.phrase	a directory on the way does not exist	ifolda esendleleni ayikho
+msg.phrase	a file has that name	ifayile inelo gama
+msg.phrase	a folder has that name	ifolda inelo gama
+msg.phrase	a name on the way is not a directory	igama elisendleleni ayisiyo folda
+msg.phrase	cancelled	kurhoxisiwe
+msg.phrase	could not mount	ayikwazanga ukukhwela
+msg.phrase	could not start a read	ayikwazanga ukuqalisa ukufunda
+msg.phrase	could not start a write	ayikwazanga ukuqalisa ukubhala
+msg.phrase	is a directory	yifolda
+msg.phrase	that is a directory	leyo yifolda
+msg.phrase	no clusters	akukho klasta
+msg.phrase	no room for the cluster list	akukho ndawo yoluhlu lweeklasta
+msg.phrase	no such file or directory	akukho fayile okanye ifolda injalo
+msg.phrase	no such file	akukho fayile injalo
+msg.phrase	no volume	akukho volyum
+msg.phrase	not NTFS	ayisiyo NTFS
+msg.phrase	not exFAT	ayisiyo exFAT
+msg.phrase	not a directory	ayisiyo folda
+msg.phrase	not found	ayifumanekanga
+msg.phrase	read error	impazamo yokufunda
+msg.phrase	write error	impazamo yokubhala
+msg.phrase	reading the FAT failed	ukufunda i-FAT kusilele
+msg.phrase	the cluster chain is shorter than the file	ikhonkco leeklasta lifutshane kunefayile
+msg.phrase	the directory is not empty	ifolda ayinanto
+msg.phrase	the disk is full	idiski izele
+msg.phrase	the drive did not answer	idrayivu ayiphendulanga
+msg.phrase	the file is read-only	ifayile yeyokufunda kuphela
+msg.phrase	the file is too fragmented	ifayile yahlulwe-hlulwe kakhulu
+msg.phrase	the file is too large (4GB)	ifayile inkulu kakhulu (GB 4)
+msg.phrase	the new name already exists	igama elitsha sele likhona
+msg.phrase	the root directory is full	ifolda yengcambu izele
+msg.phrase	too many files with the same short name	iifayile ezininzi kakhulu ezinegama elifutshane elifanayo
+msg.phrase	No such file or directory	Akukho fayile okanye ifolda injalo
+msg.phrase	File exists	Ifayile sele ikhona
+msg.phrase	Permission denied	Imvume yaliwe
+msg.phrase	Directory not empty	Ifolda ayinanto
+msg.phrase	Not a directory	Ayisiyo folda
+msg.phrase	Is a directory	Yifolda
+msg.phrase	Read-only file system	Inkqubo yeefayile yokufunda kuphela
+msg.phrase	No space left on device	Akusekho ndawo kwisixhobo
+msg.phrase	Input/output error	Impazamo yegalelo/yemveliso
+msg.phrase	Not supported on this drive	Ayixhaswa kule drayivu
+msg.phrase	Invalid path	Indlela engavumelekanga
+msg.phrase	Out of memory	Inkumbulo iphelile
+msg.phrase	No such drive	Akukho drayivu injalo
+msg.phrase	stopped	kumisiwe
+msg.phrase	cancelled (not enough free space)	kurhoxisiwe (indawo engenanto ayonelanga)
+msg.phrase	could not count the free space	ayikwazanga ukubala indawo engenanto
+msg.phrase	the receiver cancelled	umamkeli urhoxisile
+msg.phrase	no receiver (run rz on the PC)	akukho mamkeli (qhuba i-rz kwi-PC)
+msg.phrase	the console UART is in use	i-UART yekhonsoli iyasetyenziswa
+msg.phrase	the screen mode changed	imowudi yesikrini itshintshile
+msg.phrase	the lines did not come (is the display running?)	imigca ayifikanga (ukubonisa kuyasebenza?)
+msg.prefix	copy	kopa
+msg.prefix	move	hambisa
+msg.prefix	delete	cima
+msg.prefix	rename	thiya kwakhona
+msg.prefix	attributes	iimpawu
+msg.prefix	new file	ifayile entsha
+msg.prefix	new folder	ifolda entsha
+msg.prefix	image	umfanekiso
+msg.prefix	mrbc	mrbc
+msg.prefix	ruby	ruby
+msg.prefix	viewer	isijongi
+msg.prefix	edit	hlela
+msg.prefix	IDENTIFY	IDENTIFY
+msg.prefix	ZMODEM	ZMODEM
+msg.prefix	ZMODEM receive	ZMODEM fumana
+msg.prefix	ZMODEM send	ZMODEM thumela
+msg.prefix	split	yahlula
+msg.prefix	join	dibanisa
+msg.prefix	Doom	Doom
+msg.prefix	SMF	SMF
+msg.prefix	CD	CD
+msg.prefix	FB	FB
+msg.prefix	Eject	Khupha
+msg.prefix	reboot	qalisa kwakhona
+msg.prefix	license	ilayisensi
+msg.prefix	clock	iwotshi
+msg.prefix	ADC in	ADC igalelo
+msg.prefix	screen -> PNG	isikrini -> PNG
+msg.prefix	FB -> PNG	FB -> PNG
+msg.prefix	could not open the volume	ayikwazanga ukuvula ivolyum
+msg.pattern	received 	kufunyenwe %s
+msg.pattern	sent 	kuthunyelwe %s
+msg.pattern	saved 	kugciniwe %s
+msg.pattern	created 	kwenziwe %s
+msg.pattern	renamed to 	kuthiywe kwakhona kwaba %s
+msg.pattern	deleted 	kucinyiwe %s
+msg.pattern	changed 	kutshintshiwe %s
+msg.pattern	joined 	kudityanisiwe %s
+msg.pattern	split 	kwahluliwe %s
+msg.pattern	could not create 	ayikwazanga ukwenza %s
+msg.pattern	could not delete 	ayikwazanga ukucima %s
+msg.pattern	could not rename to 	ayikwazanga ukuthiya kwakhona kube %s
+msg.pattern	could not change 	ayikwazanga ukutshintsha %s
+msg.pattern	could not read 	ayikwazanga ukufunda %s
+msg.pattern	could not write 	ayikwazanga ukubhala %s
+msg.pattern	could not copy 	ayikwazanga ukukopa %s
+msg.pattern	could not make 	ayikwazanga ukwakha %s
+msg.pattern	could not remove the folder 	ayikwazanga ukususa ifolda %s
+msg.pattern	could not remove 	ayikwazanga ukususa %s
+msg.pattern	no memory for 	inkumbulo ayonelanga ku-%s
+msg.pattern	too many errors while sending 	iimpazamo ezininzi kakhulu ngelixa kuthunyelwa %s
+msg.pattern	the receiver did not take 	umamkeli akamkelanga %s
+msg.pattern	the receiver skipped 	umamkeli utsibe %s
+msg.pattern	FB page 	Iphepha le-FB %s
+msg.word	 bytes each)	 iibhayithi nganye)
+msg.word	 bytes)	 iibhayithi)
+msg.word	 KB)	 KB)
+msg.word	 parts into 	 iingxenye ukuya ku
+msg.word	 parts (	 iingxenye (
+msg.word	 into 	 ukuya ku
+msg.word	: cleared	: kucociwe
+msg.word	: brightness halved	: ukukhanya kuncitshiswe ngesiqingatha
+msg.word	% read	% kufundiwe
+msg.word	 rows	 imigca
+msg.word	 -- not supported yet (FAT / exFAT / NTFS only)	 -- akukaxhaswa (FAT / exFAT / NTFS kuphela)
+msg.word	 files	 iifayile
+msg.word	 (	 (
+msg.phrase	Untitled	Akunasihloko
+msg.phrase	1 File	1 Ifayile
+msg.phrase	2 Edit	2 Hlela
+msg.phrase	3 Graph	3 Igrafu
+msg.phrase	4 Sheet	4 Iphepha
+msg.phrase	5 Help	5 Uncedo
+msg.phrase	EMPTY	AKUNANTO
+msg.phrase	NUMBER	INANI
+msg.phrase	TEXT	UMBHALO
+msg.phrase	FORMULA	IFOMYULA
+msg.phrase	Type to enter, F2 to edit, F1 for help	Chwetheza ukufaka, F2 ukuhlela, F1 ukufumana uncedo
+msg.phrase	Ready	Ilungile
+msg.phrase	Press any key	Cofa naliphi na iqhosha
+msg.phrase	Y = yes    N = no    Esc = cancel	Y = ewe    N = hayi    Esc = rhoxisa
+msg.phrase	Enter = OK    Esc = cancel    Ctrl-U = clear	Enter = KULUNGILE    Esc = rhoxisa    Ctrl-U = coca
+msg.phrase	First row/column = labels; charts use the 640x480 CLUT8 FB.	Umgca/ikholamu yokuqala = iilebhile; iitshati zisebenzisa i-FB ye-CLUT8 640x480.
+msg.phrase	SGCALC - HELP	SGCALC - UNCEDO
+msg.phrase	Press any key to return	Cofa naliphi na iqhosha ukubuyela
+msg.phrase	Press any key to return.	Cofa naliphi na iqhosha ukubuyela.
+msg.phrase	ABOUT SGCALC	MALUNGA NE-SGCALC
+msg.phrase	New	Entsha
+msg.phrase	Start a new sheet	Qalisa iphepha elitsha
+msg.phrase	Open...	Vula...
+msg.phrase	Open an ODS, FODS or CSV file	Vula ifayile ye-ODS, FODS okanye CSV
+msg.phrase	Save	Gcina
+msg.phrase	Save the current file	Gcina ifayile yangoku
+msg.phrase	Save As...	Gcina njenge...
+msg.phrase	Save with a new name or format	Gcina ngegama okanye ifomathi entsha
+msg.phrase	Export CSV...	Thumela i-CSV...
+msg.phrase	Write a CSV copy	Bhala ikopi ye-CSV
+msg.phrase	Export ODS...	Thumela i-ODS...
+msg.phrase	Write a LibreOffice copy	Bhala ikopi ye-LibreOffice
+msg.phrase	Quit	Phuma
+msg.phrase	Leave SGCALC	Shiya i-SGCALC
+msg.phrase	Clear	Coca
+msg.phrase	Clear the selected cells	Coca iiseli ezikhethiweyo
+msg.phrase	Copy	Kopa
+msg.phrase	Copy the selection	Kopa ukhetho
+msg.phrase	Paste	Ncamathisela
+msg.phrase	Paste at the cursor	Ncamathisela kwikhesa
+msg.phrase	Cut	Sika
+msg.phrase	Copy and clear the selection	Kopa uze ucoce ukhetho
+msg.phrase	Select all	Khetha konke
+msg.phrase	Select all used cells	Khetha zonke iiseli ezisetyenzisiweyo
+msg.phrase	Text color...	Umbala wombhalo...
+msg.phrase	Choose the text colour	Khetha umbala wombhalo
+msg.phrase	Background...	Imvelaphi...
+msg.phrase	Choose the cell background	Khetha imvelaphi yeseli
+msg.phrase	Line	Umgca
+msg.phrase	Draw a line graph from the selection	Zoba igrafu yomgca ukusuka kukhetho
+msg.phrase	Bar	Ibha
+msg.phrase	Draw a bar graph from the selection	Zoba igrafu yebha ukusuka kukhetho
+msg.phrase	Mixed	Exutyiweyo
+msg.phrase	Bars for the first series, lines for the rest	Iibha zothotho lokuqala, imigca yezinye
+msg.phrase	Pie	Ipayi
+msg.phrase	Draw a pie graph from the selection	Zoba igrafu yepayi ukusuka kukhetho
+msg.phrase	Range...	Uluhlu...
+msg.phrase	Set the graph range explicitly	Seta uluhlu lwegrafu ngokucacileyo
+msg.phrase	Draw again	Zoba kwakhona
+msg.phrase	Redraw the last graph	Zoba kwakhona igrafu yokugqibela
+msg.phrase	Goto...	Yiya ku...
+msg.phrase	Jump to a cell (for example C12)	Tsibela kwiseli (umzekelo C12)
+msg.phrase	Column width...	Ububanzi bekholamu...
+msg.phrase	Change the selected columns' width	Tshintsha ububanzi beekholamu ezikhethiweyo
+msg.phrase	Row height...	Ukuphakama komgca...
+msg.phrase	Change the selected rows' height	Tshintsha ukuphakama kwemigca ekhethiweyo
+msg.phrase	Auto fit	Lungelelanisa ngokuzenzekelayo
+msg.phrase	Fit widths/heights to the contents (F7)	Lungelelanisa ububanzi/ukuphakama nemixholo (F7)
+msg.phrase	Recalculate	Bala kwakhona
+msg.phrase	Re-evaluate all formulas	Vavanya kwakhona zonke iifomyula
+msg.phrase	Erase all	Coca konke
+msg.phrase	Clear the whole sheet	Coca lonke iphepha
+msg.phrase	Keys	Amaqhosha
+msg.phrase	Show the key guide	Bonisa isikhokelo samaqhosha
+msg.phrase	About	Malunga
+msg.phrase	About SGCALC	Malunga ne-SGCALC
+msg.phrase	File	Ifayile
+msg.phrase	Edit	Hlela
+msg.phrase	Graph	Igrafu
+msg.phrase	Sheet	Iphepha
+msg.phrase	Help	Uncedo
+msg.phrase	File: new, open, save, export, quit	Ifayile: entsha, vula, gcina, thumela, phuma
+msg.phrase	Edit: clear, copy, paste, cut, select all	Hlela: coca, kopa, ncamathisela, sika, khetha konke
+msg.phrase	Graph: line, bar, mixed, pie (draws in the FB)	Igrafu: umgca, ibha, exutyiweyo, ipayi (izotywa kwi-FB)
+msg.phrase	Sheet: goto, column width, recalculate, erase	Iphepha: yiya ku, ububanzi bekholamu, bala kwakhona, coca
+msg.phrase	Help: keys and about	Uncedo: amaqhosha kunye nokuthi malunga
+msg.phrase	Left/Right = menu    Up/Down = item    Enter = choose    Esc = cancel	Ekhohlo/Ekunene = imenyu    Phezulu/Ezantsi = into    Enter = khetha    Esc = rhoxisa
+msg.phrase	Cancelled	Kurhoxisiwe
+msg.phrase	The selection is too large or memory is low.	Ukhetho lukhulu kakhulu okanye inkumbulo iphantsi.
+msg.phrase	the cell	iseli
+msg.phrase	the selection	ukhetho
+msg.phrase	Nothing to paste	Akukho nto inokuncamathiselwa
+msg.phrase	Pasted	Kuncamathiselwe
+msg.phrase	GO TO CELL	YIYA KWISELI
+msg.phrase	Cell reference (A1):	Isalathiso seseli (A1):
+msg.phrase	Goto	Yiya ku
+msg.phrase	COLUMN WIDTH	UBUBANZI BEKHOLAMU
+msg.phrase	Width in characters (4..30):	Ububanzi ngoonobumba (4..30):
+msg.phrase	ROW HEIGHT	UKUPHAKAMA KOMGCA
+msg.phrase	Height in text rows (1..8):	Ukuphakama ngemigca yombhalo (1..8):
+msg.phrase	Auto fit: the sheet is empty	Lungelelanisa ngokuzenzekelayo: iphepha alinanto
+msg.phrase	BACKGROUND COLOUR	UMBALA WEMVELAPHI
+msg.phrase	TEXT COLOUR	UMBALA WOMBHALO
+msg.phrase	Arrows: choose    Enter: apply    Esc: cancel	Iintolo: khetha    Enter: sebenzisa    Esc: rhoxisa
+msg.phrase	Colour index (PC-98 16-colour palette)	Inani lombala (imibala eli-16 ye-PC-98)
+msg.phrase	Enter = apply    Esc = cancel	Enter = sebenzisa    Esc = rhoxisa
+msg.phrase	Colour	Umbala
+msg.phrase	Background	Imvelaphi
+msg.phrase	Text	Umbhalo
+msg.phrase	GRAPH RANGE	ULUHLU LWEGRAFU
+msg.phrase	Range (for example A1:C10):	Uluhlu (umzekelo A1:C10):
+msg.phrase	Graph range	Uluhlu lwegrafu
+msg.phrase	Use a range such as A1:C10.	Sebenzisa uluhlu olufana no-A1:C10.
+msg.phrase	Cannot draw the graph.	Ayikwazi ukuzoba igrafu.
+msg.phrase	line	umgca
+msg.phrase	bar	ibha
+msg.phrase	mixed	exutyiweyo
+msg.phrase	pie	ipayi
+msg.phrase	Clear every cell in this sheet?	Coca zonke iiseli kweli phepha?
+msg.phrase	Sheet erased	Iphepha licociwe
+msg.phrase	Selected all used cells	Zonke iiseli ezisetyenzisiweyo zikhethiwe
+msg.phrase	Recalculated	Kubalwe kwakhona
+msg.phrase	Memory	Inkumbulo
+msg.phrase	Not enough PSRAM for the spreadsheet.	I-PSRAM ayonelanga kwiphepha lokubala.
+msg.phrase	The sheet is empty.	Iphepha alinanto.
+msg.phrase	No numeric data in the selected range.	Akukho datha yamanani kuluhlu olukhethiweyo.
+msg.phrase	Other	Enye
+msg.phrase	No positive values for a pie chart	Akukho maxabiso alungileyo etshati yepayi
+msg.phrase	LINE	UMGCA
+msg.phrase	BAR	IBHA
+msg.phrase	MIXED	EXUTYIWEYO
+msg.phrase	PIE	IPAYI
+msg.phrase	Folder	Ifolda
+msg.phrase	SAVE AS	GCINA NJENGE
+msg.phrase	OPEN FILE	VULA IFAYILE
+msg.phrase	Name:	Igama:
+msg.phrase	(type a name, or choose below)	(chwetheza igama, okanye ukhethe ngezantsi)
+msg.phrase	Name	Igama
+msg.phrase	Size	Ubungakanani
+msg.phrase	Enter=save  Left=up  Right/Enter on [DIR]=open  Tab=drive  Esc=cancel	Enter=gcina  Ekhohlo=phezulu  Ekunene/Enter kwi-[DIR]=vula  Tab=idrayivu  Esc=rhoxisa
+msg.phrase	Enter=open  Left=up  Right/Enter on [DIR]=open  Tab=drive  Esc=cancel	Enter=vula  Ekhohlo=phezulu  Ekunene/Enter kwi-[DIR]=vula  Tab=idrayivu  Esc=rhoxisa
+msg.phrase	Not enough memory.	Inkumbulo ayonelanga.
+msg.phrase	Overwrite	Bhala phezu kwayo
+msg.phrase	Open	Vula
+msg.phrase	The file is too large (limit 8 MB).	Ifayile inkulu kakhulu (umda MB 8).
+msg.phrase	Not enough memory to read the file.	Inkumbulo ayonelanga ukufunda ifayile.
+msg.phrase	Bad ZIP/ODS data.	Idatha ye-ZIP/ODS embi.
+msg.phrase	CRC error in the ODS file.	Impazamo ye-CRC kwifayile ye-ODS.
+msg.phrase	Unsupported or damaged file.	Ifayile engaxhaswanga okanye eyonakeleyo.
+msg.phrase	Saved	Kugciniwe
+msg.phrase	Exported	Kuthunyelwe
+msg.phrase	Unsaved changes	Iinguqu ezingagcinwanga
+msg.phrase	Save the current sheet before continuing?	Gcina iphepha langoku phambi kokuqhubeka?
+msg.phrase	New sheet	Iphepha elitsha
+msg.phrase	song is too large	ingoma inkulu kakhulu
+msg.phrase	empty file	ifayile engenanto
+msg.phrase	not an SGT file	ayisiyo fayile ye-SGT
+msg.phrase	bad BPM	i-BPM embi
+msg.phrase	bad speed	isantya esibi
+msg.phrase	bad title length	ubude besihloko obubi
+msg.phrase	truncated title	isihloko sinqunyiwe
+msg.phrase	bad character in title	unobumba ombi kwisihloko
+msg.phrase	truncated order	ulandelelwano lunqunyiwe
+msg.phrase	bad order length	ubude bolandelelwano obubi
+msg.phrase	bad pattern number in order	inani lepatheni elibi kulandelelwano
+msg.phrase	truncated pattern list	uluhlu lweepatheni lunqunyiwe
+msg.phrase	bad pattern count	inani leepatheni elibi
+msg.phrase	bad pattern index	isalathiso sepatheni esibi
+msg.phrase	duplicate pattern	ipatheni ephindiweyo
+msg.phrase	truncated pattern data	idatha yepatheni inqunyiwe
+msg.phrase	invalid pattern data	idatha yepatheni engavumelekanga
+msg.phrase	trailing data in file	idatha eyongezelelweyo ekupheleni kwefayile
+msg.phrase	order refers to a missing pattern	ulandelelwano lubhekisa kwipatheni engekhoyo
+msg.phrase	(untitled)	(akunasihloko)
+msg.phrase	Ready. Press F1 for help.	Ilungile. Cofa u-F1 ukufumana uncedo.
+msg.phrase	Follow OFF	Landela KUCINYIWE
+msg.phrase	Nothing to undo	Akukho nto inokubuyiselwa
+msg.phrase	Undo	Buyisela
+msg.phrase	Note OFF	Misa inowuthi
+msg.phrase	Set an effect letter first	Seta unobumba wefuthe kuqala
+msg.phrase	Effect cleared	Ifuthe licociwe
+msg.phrase	Parameter cleared	Iparamitha icociwe
+msg.phrase	Note cleared	Inowuthi icociwe
+msg.phrase	Instrument cleared	Isixhobo somculo sicociwe
+msg.phrase	Volume cleared	Ivolyum icociwe
+msg.phrase	Order list is full	Uluhlu lolandelelwano luzele
+msg.phrase	Order inserted	Ulandelelwano lufakiwe
+msg.phrase	Cannot delete the last order	Ayikwazi ukucima ulandelelwano lokugqibela
+msg.phrase	Order deleted	Ulandelelwano lucinyiwe
+msg.phrase	Playing song	Idlala ingoma
+msg.phrase	Stopped	Kumisiwe
+msg.phrase	New song	Ingoma entsha
+msg.phrase	Discard unsaved changes and start a new song? (Y/N)	Lahla iinguqu ezingagcinwanga uqalise ingoma entsha? (Y/N)
+msg.phrase	Discard unsaved changes and open a song? (Y/N)	Lahla iinguqu ezingagcinwanga uvule ingoma? (Y/N)
+msg.phrase	Discard unsaved changes and quit? (Y/N)	Lahla iinguqu ezingagcinwanga uphume? (Y/N)
+msg.phrase	Song settings updated	Iisetingi zengoma zihlaziyiwe
+msg.phrase	Filename is empty	Igama lefayile alinanto
+msg.phrase	Save cancelled	Ukugcina kurhoxisiwe
+msg.phrase	Open cancelled	Ukuvula kurhoxisiwe
+msg.phrase	Edit ON	Ukuhlela KUVULIWE
+msg.phrase	Edit OFF	Ukuhlela KUCINYIWE
+msg.phrase	Follow ON	Landela KUVULIWE
+msg.phrase	Edit is OFF. Press F8 to edit.	Ukuhlela kucinyiwe. Cofa u-F8 ukuhlela.
+msg.phrase	I/O error	Impazamo ye-I/O
+msg.phrase	file is too large	ifayile inkulu kakhulu
+msg.phrase	truncated file	ifayile inqunyiwe
+msg.phrase	#TRANSPORT AND FILES	#UKUDLALA NEEFAYILE
+msg.phrase	#ORDER LIST	#ULUHLU LOLANDELELWANO
+msg.phrase	#DISPLAY	#UKUBONISA
+msg.phrase	#EDITING	#UKUHLELA
+msg.phrase	#EFFECTS (parameter is hexadecimal)	#AMAFUTHE (iparamitha yi-hexadecimal)
+msg.phrase	LEFT/RIGHT PAGE   ENTER OR F1 CLOSE	EKHOHLO/EKUNENE IPHEPHA   ENTER OKANYE F1 VALA
+msg.phrase	SONG SETTINGS	IISETINGI ZENGOMA
+msg.phrase	UP/DOWN SELECT   LEFT/RIGHT ADJUST   ENTER/F2 CLOSE	PHEZULU/EZANTSI KHETHA   EKHOHLO/EKUNENE LUNGELELANISA   ENTER/F2 VALA
+msg.phrase	Type to edit the title. Backspace deletes the last character.	Chwetheza ukuhlela isihloko. I-Backspace icima unobumba wokugqibela.
+msg.phrase	BPM range 32..255. Speed range 1..31.	BPM 32..255. Isantya 1..31.
+msg.phrase	Pattern effects can also change speed and BPM while playing.	Amafuthe epatheni nawo angatshintsha isantya ne-BPM ngexesha lokudlala.
+msg.phrase	INSTRUMENTS	IZIXHOBO ZOMCULO
+msg.phrase	UP/DOWN SELECT   SPACE PREVIEW   ENTER USE   F3 CLOSE	PHEZULU/EZANTSI KHETHA   SPACE MAMELA   ENTER SEBENZISA   F3 VALA
+msg.phrase	All four channels use wavetable synthesis.	Onke amajelo amane asebenzisa ukudityaniswa kwetheyibhile yamaza.
+msg.phrase	Preview plays C-4 on the track under the edit cursor.	Ukumamela kudlala u-C-4 kwingoma engaphantsi kwekhesa yokuhlela.
+msg.phrase	SAVE SONG AS	GCINA INGOMA NJENGE
+msg.phrase	ENTER SAVE   F4 OR CTRL-C CANCEL	ENTER GCINA   F4 OKANYE CTRL-C RHOXISA
+msg.phrase	Directory:	Ifolda:
+msg.phrase	File name:	Igama lefayile:
+msg.phrase	The extension .SGT is added automatically.	Isongezelelo .SGT songezwa ngokuzenzekelayo.
+msg.phrase	An existing file can be overwritten.	Ifayile ekhoyo inokubhalwa phezu kwayo.
+msg.phrase	OPEN SONG	VULA INGOMA
+msg.phrase	ENTER OPEN  BS PARENT  CTRL-O/CTRL-C CANCEL	ENTER VULA  BS PHEZULU  CTRL-O/CTRL-C RHOXISA
+msg.phrase	(no .SGT files in this folder)	(akukho fayile ze-.SGT kule folda)
+msg.phrase	CONFIRM	QINISEKISA
+msg.phrase	Y = YES   N / ENTER / CTRL-C = NO	Y = EWE   N / ENTER / CTRL-C = HAYI
+msg.phrase	Y = yes        N = no	Y = ewe        N = hayi
+msg.phrase	broken MThd	i-MThd yonakele
+msg.phrase	MIDI IMPORT	UKUNGENISA I-MIDI
+msg.phrase	broken delta time	ixesha le-delta lonakele
+msg.phrase	broken running status	i-running status yonakele
+msg.phrase	broken meta event	isiganeko se-meta sonakele
+msg.phrase	broken sysex event	isiganeko se-sysex sonakele
+msg.phrase	broken channel event	isiganeko sejelo sonakele
+msg.phrase	SMF output is too small	imveliso ye-SMF incinci kakhulu
+msg.phrase	SMF output is too large	imveliso ye-SMF inkulu kakhulu
+msg.phrase	the song is too long for SMF	ingoma inde kakhulu kwi-SMF
+msg.phrase	ARROWS      move the cell cursor\n	IINTOLO     hambisa ikhesa yeseli\n
+msg.phrase	SHIFT+ARR   extend the selection (for graphs/copy)\n	SHIFT+NTOL  yandisa ukhetho (kwigrafu/ukukopa)\n
+msg.phrase	ENTER       edit the cell; in edit, commit and move down\n	ENTER       hlela iseli; xa uhlela, qinisekisa uze wehle\n
+msg.phrase	TAB         next cell    SHIFT+TAB  previous cell\n	TAB         iseli elilandelayo    SHIFT+TAB  iseli elidlulileyo\n
+msg.phrase	DELETE      clear the selected cell(s)    ESC  cancel\n	DELETE      coca iiseli ezikhethiweyo    ESC  rhoxisa\n
+msg.phrase	PGUP/PGDN   move one screen    HOME/END  first/last column\n	PGUP/PGDN   isikrini esinye    HOME/END  ikholamu yokuqala/yokugqibela\n
+msg.phrase	CTRL+HOME   A1    CTRL+END  last used cell\n	CTRL+HOME   A1    CTRL+END  iseli yokugqibela esetyenzisiweyo\n
+msg.phrase	F1 help  F2 edit  F3 copy  F4 paste  F5 goto  F6 colour\n	F1 uncedo  F2 hlela  F3 kopa  F4 ncamathisela  F5 yiya  F6 umbala\n
+msg.phrase	F7 auto-fit  F8 background  F9 recalc  F10 graph  F11 save  F12 menu\n	F7 lungelelanisa  F8 imvelaphi  F9 bala  F10 igrafu  F11 gcina  F12 imenyu\n
+msg.phrase	SHIFT+F1 about  SHIFT+F2 row height  SHIFT+F3 column width\n	SHIFT+F1 malunga  SHIFT+F2 ukuphakama komgca  SHIFT+F3 ububanzi bekholamu\n
+msg.phrase	SHIFT+F4 select all  SHIFT+F10 graph range  SHIFT+F11 save as\n	SHIFT+F4 khetha konke  SHIFT+F10 uluhlu lwegrafu  SHIFT+F11 gcina njenge\n
+msg.phrase	CTRL+F1 new  CTRL+F2 open  CTRL+F3 save  CTRL+F4 save as\n	CTRL+F1 entsha  CTRL+F2 vula  CTRL+F3 gcina  CTRL+F4 gcina njenge\n
+msg.phrase	CTRL+F5 export CSV  CTRL+F6 export ODS  ALT+F12 quit\n	CTRL+F5 thumela i-CSV  CTRL+F6 thumela i-ODS  ALT+F12 phuma\n
+msg.phrase	Bottom 2 lines: function keys; [SHIFT]/[CTRL]/[ALT] like the filer\n	Imigca emi-2 ezantsi: amaqhosha emisebenzi; [SHIFT]/[CTRL]/[ALT] njengomlawuli weefayile\n
+msg.phrase	CTRL+S save  CTRL+O open  CTRL+N new  CTRL+C/V/X copy/paste/cut\n	CTRL+S gcina  CTRL+O vula  CTRL+N entsha  CTRL+C/V/X kopa/ncamathisela/sika\n
+msg.phrase	CTRL+G goto    /  open the menu (1 File, 2 Edit, ...)\n	CTRL+G yiya ku    /  vula imenyu (1 Ifayile, 2 Hlela, ...)\n
+msg.phrase	Built-in functions: SUM AVERAGE MIN MAX COUNT COUNTA\n	Imisebenzi eyakhelwe ngaphakathi: SUM AVERAGE MIN MAX COUNT COUNTA\n
+msg.phrase	Cell refs: A1, $A$1, A1:B10.  Formulas begin with '='.\n	Izalathiso zeeseli: A1, $A$1, A1:B10.  Iifomyula ziqala ngo-'='.\n
+msg.phrase	Files: .ods (LibreOffice), .fods (flat XML), .csv\n	Iifayile: .ods (LibreOffice), .fods (XML ethe tyaba), .csv\n
+msg.phrase	ODS/FODS keeps formulas, widths, heights and colours.\n	I-ODS/FODS igcina iifomyula, ububanzi, ukuphakama nemibala.\n
+msg.phrase	CSV keeps values and formulas (no colours/heights).\n	I-CSV igcina amaxabiso neefomyula (ngaphandle kwemibala/ukuphakama).\n
+msg.phrase	Graph: select a range, press F10, and choose Line/Bar/Mixed/Pie.\n	Igrafu: khetha uluhlu, cofa u-F10, uze ukhethe Umgca/Ibha/Exutyiweyo/Ipayi.\n
+msg.phrase	SGCALC for sgnano\n	SGCALC ye-sgnano\n
+msg.phrase	Version 	Inguqulelo
+msg.phrase	A Lotus 1-2-3 style spreadsheet as an SGX program.\n\n	Iphepha lokubala lohlobo lwe-Lotus 1-2-3 njengenkqubo ye-SGX.\n\n
+msg.phrase	Screen mode 3: text + CLUT8 FB (lowres disabled)\n	Imowudi yesikrini 3: umbhalo + i-FB ye-CLUT8 (i-lowres icinyiwe)\n
+msg.phrase	Sheet: %d rows x %d columns\n	Iphepha: imigca %d x iikholamu %d\n
+msg.phrase	Formats: .ods / .fods (LibreOffice), .csv\n\n	Iifomathi: .ods / .fods (LibreOffice), .csv\n\n
+msg.phrase	The grid is drawn on the text plane.\n	Igridi izotywa kumphezulu wombhalo.\n
+msg.phrase	Charts and the 640x480 background use the FB.\n\n	Iitshati nemvelaphi ye-640x480 zisebenzisa i-FB.\n\n
+msg.phrase	Cannot store the cell (%d).	Ayikwazi ukugcina iseli (%d).
+msg.phrase	Copied %d x %d cells	Kukotshwe iiseli %d x %d
+msg.phrase	Cleared %s	Kucociwe %s
+msg.phrase	'%s' is not a cell reference.	'%s' ayisosalathiso seseli.
+msg.phrase	Column width = %d	Ububanzi bekholamu = %d
+msg.phrase	Row height = %d	Ukuphakama komgca = %d
+msg.phrase	Auto fit: %d column(s), %d row(s)	Lungelelanisa ngokuzenzekelayo: iikholamu %d, imigca %d
+msg.phrase	Cannot apply the colour (%d).	Ayikwazi ukusebenzisa umbala (%d).
+msg.phrase	Not a valid range.\nUse a range such as A1:C10.	Uluhlu olungavumelekanga.\nSebenzisa uluhlu olufana no-A1:C10.
+msg.phrase	Graph range %s	Uluhlu lwegrafu %s
+msg.phrase	Graph: %s	Igrafu: %s
+msg.phrase	SGCALC: cannot set screen mode 3: %s\n	SGCALC: ayikwazi ukuseta imowudi yesikrini 3: %s\n
+msg.phrase	Cannot read %s\n%s	Ayikwazi ukufunda %s\n%s
+msg.phrase	Folder: %s	Ifolda: %s
+msg.phrase	Unsupported extension.\nUse .csv, .ods or .fods.	Isongezelelo esingaxhaswanga.\nSebenzisa .csv, .ods okanye .fods.
+msg.phrase	%s already exists.\nOverwrite it?	%s sele ikhona.\nBhala phezu kwayo?
+msg.phrase	%s may not be writable.\nTry anyway?	%s inokungabhaleleki.\nZama nangona kunjalo?
+msg.phrase	Unknown file type for %s	Uhlobo lwefayile olungaziwayo lwe-%s
+msg.phrase	Unsupported file type.\nUse .csv, .ods or .fods.	Uhlobo lwefayile olungaxhaswanga.\nSebenzisa .csv, .ods okanye .fods.
+msg.phrase	Cannot open %s\n%s	Ayikwazi ukuvula %s\n%s
+msg.phrase	%s is a folder.	%s yifolda.
+msg.phrase	Cannot import %s\n%s	Ayikwazi ukungenisa %s\n%s
+msg.phrase	Loaded %s	Kulayishiwe %s
+msg.phrase	Cannot build the %s file.	Ayikwazi ukwakha ifayile ye-%s.
+msg.phrase	Cannot write %s\n%s	Ayikwazi ukubhala %s\n%s
+msg.phrase	unsupported version %u	inguqulelo %u engaxhaswanga
+msg.phrase	Octave %d	I-Octave %d
+msg.phrase	Note %s	Inowuthi %s
+msg.phrase	Instrument %d	Isixhobo %d
+msg.phrase	Volume %s	Ivolyum %s
+msg.phrase	Effect %c	Ifuthe %c
+msg.phrase	Parameter %s	Iparamitha %s
+msg.phrase	Pattern %s	Ipatheni %s
+msg.phrase	Playing pattern %s	Idlala ipatheni %s
+msg.phrase	SAVE ERROR: %s	IMPAZAMO YOKUGCINA: %s
+msg.phrase	Saved %s	Kugciniwe %s
+msg.phrase	LOAD ERROR: %s	IMPAZAMO YOKULAYISHA: %s
+msg.phrase	BPM %d	BPM %d
+msg.phrase	Speed %d	Isantya %d
+msg.phrase	Preview %s	Mamela %s
+msg.phrase	Instrument %s %s	Isixhobo %s %s
+msg.phrase	Overwrite %s? (Y/N)	Bhala phezu kwe-%s? (Y/N)
+msg.phrase	  F5          Play the song from the current order	  F5          Dlala ingoma ukusuka kulandelelwano lwangoku
+msg.phrase	  F6          Play the current pattern	  F6          Dlala ipatheni yangoku
+msg.phrase	  F7/Ctrl-C   Stop playback	  F7/Ctrl-C   Misa ukudlala
+msg.phrase	  Space       Play / stop	  Space       Dlala / misa
+msg.phrase	  F4          Save as	  F4          Gcina njenge
+msg.phrase	  Ctrl-S      Save (asks for a name if new)	  Ctrl-S      Gcina (iyabuza igama ukuba intsha)
+msg.phrase	  Ctrl-O      Open a song	  Ctrl-O      Vula ingoma
+msg.phrase	  Ctrl-N      New song	  Ctrl-N      Ingoma entsha
+msg.phrase	  F12         Quit (confirmation if modified)	  F12         Phuma (iyaqinisekisa ukuba kutshintshiwe)
+msg.phrase	  [ ]         Previous / next order entry	  [ ]         Ungeno lolandelelwano olwadlulayo / olulandelayo
+msg.phrase	  { }         Insert / delete an order entry	  { }         Faka / cima ungeno lolandelelwano
+msg.phrase	  - +         Change the pattern in the entry	  - +         Tshintsha ipatheni engenweni
+msg.phrase	  F11         Follow playback (turns off on manual move)	  F11         Landela ukudlala (kuyacima xa uhambisa ngesandla)
+msg.phrase	  F1          Help; Left/Right changes page	  F1          Uncedo; Ekhohlo/Ekunene itshintsha iphepha
+msg.phrase	  F8          Toggle edit mode	  F8          Layita/cima imowudi yokuhlela
+msg.phrase	  Arrows      Move the cursor	  Iintolo     Hambisa ikhesa
+msg.phrase	  PgUp/PgDn   Jump 16 rows	  PgUp/PgDn   Tsiba imigca eli-16
+msg.phrase	  Home/End    First / last row	  Home/End    Umgca wokuqala / wokugqibela
+msg.phrase	  F9/F10      Octave down / up	  F9/F10      I-octave ezantsi / phezulu
+msg.phrase	  Z S X D C V G B H N J M      lower piano row	  Z S X D C V G B H N J M      umgca wepiyano ophantsi
+msg.phrase	  Q 2 W 3 E R 5 T 6 Y 7 U      upper piano row	  Q 2 W 3 E R 5 T 6 Y 7 U      umgca wepiyano ophezulu
+msg.phrase	  1           Note off	  1           Misa inowuthi
+msg.phrase	  0 / Del     0 clears note/inst/fx; Del clears any	  0 / Del     0 icoca inowuthi/isixhobo/ifuthe; Del icoca nantoni na
+msg.phrase	  Ctrl-Z      Undo the last pattern/order edit	  Ctrl-Z      Buyisela uhlelo lokugqibela lwepatheni/lolandelelwano
+msg.phrase	  Axy   Volume slide: up x, down y	  Axy   Ukutyibilika kwevolyum: phezulu x, ezantsi y
+msg.phrase	  Cxx   Note cut after xx ticks	  Cxx   Sika inowuthi emva kwee-tick xx
+msg.phrase	  Dxx   Set volume (00..7F)	  Dxx   Seta ivolyum (00..7F)
+msg.phrase	  Fxx   Speed if xx < 20, otherwise BPM	  Fxx   Isantya ukuba xx < 20, kungenjalo BPM
+msg.phrase	  Hxy   Arpeggio x, y semitones	  Hxy   I-arpeggio x, y iisemitoni
+msg.phrase	  Pxx   Pitch slide up	  Pxx   Ukutyibilika kwesandi phezulu
+msg.phrase	  Qxx   Pitch slide down	  Qxx   Ukutyibilika kwesandi ezantsi
+msg.phrase	  F2 song settings, F3 instrument list	  F2 iisetingi zengoma, F3 uluhlu lwezixhobo
+msg.phrase	HELP %d/2	UNCEDO %d/2
+msg.phrase	  Title	  Isihloko
+msg.phrase	  BPM   : %d     (left/right -1/+1, -/+ -5/+5)	  BPM   : %d     (ekhohlo/ekunene -1/+1, -/+ -5/+5)
+msg.phrase	  Speed : %d ticks/row	  Isantya : ii-tick %d/umgca
+msg.phrase	  Rows  : %d (fixed)	  Imigca : %d (ezinzileyo)
+msg.phrase	  Order : %d entries	  Ulandelelwano : amangeno %d
+msg.phrase	  Patterns in use : %d	  Iipatheni ezisetyenziswayo : %d
+msg.phrase	Current instrument: %s %s	Isixhobo sangoku: %s %s
+msg.phrase	Files: %d	Iifayile: %d
+msg.phrase	SGNO TRACKER: incompatible SGX ABI\n	SGNO TRACKER: i-SGX ABI engahambelaniyo\n
+msg.phrase	S: check: wait -- a file is being read or written	Ukukhangela kwe-S:: linda -- ifayile iyafundwa okanye iyabhalwa
+msg.phrase	S: check: the drive is busy or not ready	Ukukhangela kwe-S:: idrayivu ixakekile okanye ayikalungi
+msg.phrase	nothing for this item (ContextMenu.cfg)	akukho nto kwesi sinto (ContextMenu.cfg)
+msg.phrase	bad command in ContextMenu.cfg	umyalelo ombi kwi-ContextMenu.cfg
+msg.phrase	unknown action in ContextMenu.cfg	isenzo esingaziwayo kwi-ContextMenu.cfg
+msg.prefix	menu	imenyu
+msg.phrase	5 Macro	5 Macro
+msg.phrase	6 Help	6 Uncedo
+msg.phrase	Run current	Qhuba ekhoyo
+msg.phrase	Run the macro at the cursor (#! header cell and the cells below it)	Qhuba i-macro kwikhesa (iseli yesihloko #! neeseli ezingaphantsi kwayo)
+msg.phrase	Run selection	Qhuba ukhetho
+msg.phrase	Run the selected cells as one macro (top-left cell is the #! header)	Qhuba iiseli ezikhethiweyo njenge-macro enye (iseli ephezulu ekhohlo sisihloko #!)
+msg.phrase	Run all	Qhuba zonke
+msg.phrase	Run every macro in the sheet, top-left to bottom-right	Qhuba yonke i-macro ephepheni, ukusuka phezulu ekhohlo ukuya ezantsi ekunene
+msg.phrase	Last error	Impazamo yokugqibela
+msg.phrase	Show the last macro error	Bonisa impazamo ye-macro yokugqibela
+msg.phrase	Macro	Macro
+msg.phrase	Macro: run #!ruby / #!python / #!basic cells	Macro: qhuba iiseli ze-#!ruby / #!python / #!basic
+msg.phrase	Edit the cell (F2)	Hlela iseli (F2)
+msg.phrase	Fit widths/heights to the contents	Lungelelanisa ububanzi/ukuphakama nemixholo
+msg.phrase	Last macro error	Impazamo ye-macro yokugqibela
+msg.phrase	No macro error.	Akukho mpazamo ye-macro.
+msg.phrase	IME on	I-IME ivuliwe
+msg.phrase	IME off	I-IME icinyiwe
+msg.phrase	Macro: %s %s ...	Macro: %s %s ...
+msg.phrase	%s: this firmware cannot run macros (SGX ABI 5.10 or later)	%s: le firmware ayikwazi ukuqhuba ii-macro (SGX ABI 5.10 okanye kamva)
+msg.phrase	Macro error: %s	Impazamo ye-macro: %s
+msg.phrase	Macro: %s done	Macro: %s kugqityiwe
+msg.phrase	a macro is already running	i-macro sele iyasebenza
+msg.phrase	this language is not available	olu lwimi alufumaneki
+msg.phrase	not enough memory	inkumbulo ayonelanga
+msg.phrase	the macro stopped with an error	i-macro imile ngenxa yempazamo
+msg.phrase	Macro error %s: %s	Impazamo ye-macro %s: %s
+msg.phrase	Macro: not enough memory	Macro: inkumbulo ayonelanga
+msg.phrase	Macro: the cursor is not on a macro (a #!ruby / #!python / #!basic cell or the cells below it)	Macro: ikhesa ayikho kwi-macro (iseli ye-#!ruby / #!python / #!basic okanye iiseli ezingaphantsi kwayo)
+msg.phrase	Macro: no macro in the sheet	Macro: akukho macro ephepheni
+msg.phrase	Run all macros	Qhuba zonke ii-macro
+msg.phrase	Macros: %d. Run them all, top-left to bottom-right? Changes cannot be undone.	Ii-macro: %d. Ziqhutywe zonke, ukusuka phezulu ekhohlo ukuya ezantsi ekunene? Iinguqu azinakubuyiselwa.
+msg.phrase	Macro: %d of %d done	Macro: kugqityiwe %d kwezi-%d
+msg.phrase	Cleared the cell	Iseli icociwe
+msg.phrase	Cleared the selection	Ukhetho lucociwe
+msg.phrase	Background colour = %d	Umbala wemvelaphi = %d
+msg.phrase	Text colour = %d	Umbala wombhalo = %d
+msg.phrase	Graph: line	Igrafu: umgca
+msg.phrase	Graph: bar	Igrafu: ibha
+msg.phrase	Graph: mixed	Igrafu: exutyiweyo
+msg.phrase	Graph: pie	Igrafu: ipayi
+msg.phrase	Exported %s	Kuthunyelwe %s
+msg.phrase	choose a file or folder	khetha ifayile okanye ifolda
+msg.phrase	this drive cannot be written	le drayivu ayibhaleki
+msg.phrase	an archive job is already running	umsebenzi wogcino sele uqhuba
+msg.phrase	no PSRAM for the archive task	akukho PSRAM yomsebenzi wogcino
+msg.phrase	could not start the archive task	akukwazekanga ukuqalisa umsebenzi wogcino
+msg.phrase	too many items (32 at most)	izinto zininzi kakhulu (ezingama-32 kuphela)
+msg.phrase	nothing to compress	akukho nto yokucinezela
+msg.phrase	no name (or the name has / or \\)	akukho gama (okanye igama line-/ okanye \\)
+msg.phrase	32 items at most (mark fewer, or put them in a folder)	izinto ezingama-32 kuphela (phawula ezimbalwa okanye uzifake kwifolda)
+msg.prefix	archive	ugcino
+msg.prefix	compress	cinezela
+msg.prefix	render	ukuthumela i-WAV

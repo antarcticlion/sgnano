@@ -1,0 +1,1161 @@
+# sgnano filer strings: 繁體中文. Machine translation (unreviewed; 2026-11-04).
+@lang zh_TW
+@name 繁體中文
+ui	一覧（ファイルとフォルダを 2 列 x 19 行に並べる）	清單（檔案與資料夾排成 2 欄 x 19 列）
+ui	カーソルを動かす（左右は隣の列へ）	移動游標（左右移到另一欄）
+ui	前のページ / 次のページ	上一頁 / 下一頁
+ui	全部に印 / 印を反転（PC-98 FD と同じ）	全部標記 / 反轉標記（同 PC-98 FD）
+ui	先頭 / 最後	最前 / 最後
+ui	印を付けて次へ / 印だけ付ける	標記並前進 / 只標記
+ui	Shift+矢印	Shift+方向鍵
+ui	範囲を選ぶ（Space でその範囲に印）	選取範圍（Space 標記該範圍）
+ui	フォルダに入る・ファイルを開く（F2/X は実行）	進入資料夾 / 開啟檔案（F2/X 執行）
+ui	上のフォルダへ	回到上層資料夾
+ui	ドライブを選ぶ（USB・フロッピー・CD・S: 内蔵）	選擇磁碟機（USB・軟碟・CD・S: 內建）
+ui	コピー（Shift+C / Shift+F3 は行き先を木から）	複製（Shift+C / Shift+F3 從樹狀圖選擇目的地）
+ui	移動	移動
+ui	削除（Shift+D / Shift+F4 はフォルダ削除）	刪除（Shift+D / Shift+F4 刪除資料夾）
+ui	名前を変える	重新命名
+ui	属性を変える	變更屬性
+ui	エディタで開く	以編輯器開啟
+ui	テキスト表示（Shift+V / Ctrl+Alt+F7 は 16 進）	以文字檢視（Shift+V / Ctrl+Alt+F7 十六進位）
+ui	ドライブの情報	磁碟資訊
+ui	フォルダを作る / 新しいファイル	新資料夾 / 新檔案
+ui	シェル sgsh / 媒体を取り出す	Shell sgsh / 退出媒體
+ui	読み直す	重新讀取
+ui	見えている画面を PNG で保存	將畫面存成 PNG
+ui	窓を閉じる・選択を解く（サブフォルダでは上位へ）	關閉視窗 / 取消選取（在子資料夾中：上一層）
+ui	ファイルの操作（FD と同じ。印・範囲・カーソルの順に選ぶ）	檔案操作（同 FD：標記、範圍、游標的順序）
+ui	コピー: 行き先はドライブとフォルダの木から。ESC で止める	複製：從磁碟與資料夾的樹狀圖選擇目的地。ESC 停止
+ui	削除: y で確かめる。印・範囲をまとめて。フォルダは中身ごと	刪除：按 y 確認。標記與範圍一起處理。資料夾連同內容
+ui	フォルダを削除（中身ごと）	刪除資料夾（連同內容）
+ui	名前を変える（今の名前を直して Enter）	重新命名（修改名稱後 Enter）
+ui	属性: R 読み出し専用・H 隠し・S システム・A アーカイブ	屬性：R 唯讀、H 隱藏、S 系統、A 封存
+ui	フォルダを作る	新資料夾
+ui	新しいファイル（空）を作る	新檔案（空）
+ui	テキストで表示（Shift+V / Ctrl+Alt+F7 は 16 進）	以文字檢視（Shift+V / Ctrl+Alt+F7 十六進位）
+ui	シェル sgsh（exit / Ctrl-D でファイラーへ）	Shell sgsh（exit / Ctrl-D 回到檔案管理員）
+ui	選んでいるドライブの素性（INQUIRY・IDENTIFY）	所選磁碟機的資訊（INQUIRY・IDENTIFY）
+ui	FDD・LS-120・CD の媒体を取り出す	退出 FDD / LS-120 / CD 媒體
+ui	一覧を読み直す（CD は TOC から）	重新讀取清單（CD：從 TOC）
+ui	ZMODEM で PC から受け取る（zm.sh put）	以 ZMODEM 從 PC 接收（zm.sh put）
+ui	ZMODEM で PC へ送る（zm.sh get）	以 ZMODEM 傳送到 PC（zm.sh get）
+ui	.rb をコンパイルして .mrb を書き出す	編譯 .rb 並寫出 .mrb
+ui	Ruby の REPL（1 行ずつ、Ctrl-D / ESC で終わり）	Ruby REPL（逐行，Ctrl-D / ESC 結束）
+ui	MicroPython の REPL	MicroPython REPL
+ui	4MB ずつ分割 / .001 から結合	分割成 4 MB / 從 .001 合併
+ui	分割 / 結合（Ctrl+F11 / F12 と同じ）	分割 / 合併（同 Ctrl+F11 / F12）
+ui	画面（Alt+F。FD の F キーとぶつからない）	畫面（Alt+F，不與 FD 的 F 鍵衝突）
+ui	FB（絵）/ テキスト面を出す・隠す	顯示・隱藏 FB（圖片）/ 文字
+ui	FB の表示ページ（0〜3）	FB 顯示頁（0-3）
+ui	FB を 0 で消す / 明るさを 1/2 に（RGB555）	將 FB 清為 0 / 亮度減半（RGB555）
+ui	USB のエンドポイントと LAN の状態	USB 端點與 LAN 狀態
+ui	FB の表示ページを消す / 明るさを 1/2 に	清除 FB 顯示頁 / 亮度減半
+ui	テキストの属性の見本	文字屬性範例
+ui	モニタの EDID（起動時に読んだもの）	螢幕 EDID（開機時讀取）
+ui	フォント ROM のライセンスとクレジット	字型 ROM 的授權與致謝
+ui	設定（表示の言語・IME・キーボードロケール）	設定（顯示語言、IME、鍵盤區域設定）
+ui	時計（NTP で合わせた日本時間。s ですぐ合わせる）	時鐘（以 NTP 校正的日本時間；s 立即校正）
+ui	表計算（SGCALC）を開く	開啟電子表格 (SGCALC)
+ui	S: ドライブのエラー検査（誤りがあれば直すか聞く）	檢查 S:（修復前會詢問）
+ui	トラッカー（TRACKER）を開く	打開追蹤器
+ui	再起動（確かめの窓が出る）	重新開機（會先確認）
+ui	ADC のステレオ入力（GP40 / 41）を鳴らす	播放 ADC 立體聲輸入（GP40 / 41）
+ui	VGM/VGZ を 96kHz/24bit WAV に書き出す	將 VGM/VGZ 匯出為 96 kHz / 24 位元 WAV
+ui	このヘルプ	本說明
+ui	ページを替える	換頁
+ui	閉じる	關閉
+ui	テキスト・16 進のビュアー（less 風）	文字・十六進位檢視器（類 less）
+ui	1 行	1 行
+ui	1 ページ	1 頁
+ui	半ページ	半頁
+ui	探す（前へ・後ろへ）/ 次・前	搜尋（向前・向後）/ 下一個・上一個
+ui	一覧へ戻る（F1 はビュアーのヘルプ）	返回清單（F1 為檢視器說明）
+ui	画像のビュアー	圖片檢視器
+ui	一覧へ戻る（F2 F3 F6 F7 Shift+F2 F3 は効く）	返回清單（F2 F3 F6 F7 Shift+F2 F3 有效）
+ui	エディタ（E / Shift+F8）	編輯器（E / Shift+F8）
+ui	保存する（UTF-8。改行と BOM は元のまま）	儲存（UTF-8；換行與 BOM 保持原樣）
+ui	閉じる（変わっていれば Y / N / ESC）	關閉（有變更時 Y / N / ESC）
+ui	挿入 / 上書き	插入 / 覆寫
+ui	IME（日本語・英語・ハングル）の入・切	開啟/關閉 IME（日文/英文/韓文）
+ui	IME の言語（日本語 / English / 한국어）	IME語言（日文/英文/한국어）
+ui	ひらがな / カタカナで確定	以平假名 / 片假名確定
+ui	エディタのヘルプ	編輯器說明
+ui	シェル	外殼
+ui	シェル（csh のサブセット。exit / Ctrl-D で戻る、help で一覧）	Shell（csh 子集。exit / Ctrl-D 返回，help 列出命令）
+ui	一覧と移動	清單與移動
+ui	ファイルの操作	檔案操作
+ui	画面と機器	畫面與裝置
+ui	ビュアーとエディタ	檢視器與編輯器
+ui	ヘルプ  %u / %u  %s	說明  %u / %u  %s
+ui	Left Right: ページを替える    F1 / ESC: 閉じる	Left Right：換頁    F1 / ESC：關閉
+ui	sgnano を再起動しますか？	要重新啟動 sgnano 嗎？
+ui	[ 再起動 ]	[ 重新開機 ]
+ui	[ キャンセル ]	[ 取消 ]
+ui	S: ドライブのエラー検査	檢查 S: 磁碟錯誤
+ui	ファイル %lu  フォルダ %lu	檔案 %lu  資料夾 %lu
+ui	大きさが鎖と合わない	大小與鏈結不符
+ui	どこからも使われていないクラスタ	沒有被使用的叢集
+ui	重なったクラスタ	交叉連結的叢集
+ui	壊れた項目	損壞的項目
+ui	FAT の 2 つの写しの食い違い	兩份 FAT 不同
+ui	エラーはありません。	沒有錯誤。
+ui	エラーが見つかりました。修復しますか？	發現錯誤。要修復嗎？
+ui	修復しました（上は直した数）。	已修復（上方的數字已修正）。
+ui	検査・修復できませんでした（S: が使用中）。	無法檢查或修復（S: 忙碌中）。
+ui	[ 修復する ]	[ 修復 ]
+ui	[ やめる ]	[ 取消 ]
+ui	何かキーで閉じる	任意鍵關閉
+ui	設定	設定
+ui	表示の言語	顯示語言
+ui	キーボードロケール	鍵盤區域設定
+ui	Up / Down  Enter 決める  ESC やめる	Up / Down  Enter 決定  ESC 取消
+ui	表示の言語 (Language)	顯示語言 (Language)
+ui	Up / Down  Enter 決める  ESC 戻る	上/下輸入決定 ESC 返回
+ui	%c: をどの文字に固定しますか（A〜Z、S を除く。ESC でやめる）	將 %c: 固定為哪個字母？（A-Z，S 除外。ESC 取消）
+ui	ドライブ  文字 / Enter 選ぶ  F2 文字を固定・解除  F3 文字を決めて固定  L / ESC やめる	磁碟  字母 / Enter 選擇  F2 固定/解除字母  F3 指定字母固定  L / ESC 取消
+ui	  区画 %u	  分割區 %u
+ui	%c:* （固定・つながっていません）%04X:%04X%s  %s	%c:*（已固定，未連接）%04X:%04X%s  %s
+ui	お知らせ	通知
+ui	ドライブ %c:  %s	磁碟機 %c:  %s
+ui	ドライブ  (なし)	磁碟機  （無）
+ui	音楽 CD  %u トラック	音樂 CD  %u 首
+ui	フォルダ %u  ファイル %u  合計 %s	資料夾 %u  檔案 %u  合計 %s
+ui	読んでいます...	讀取中...
+ui	* 印 %u 個  %s	* 已標記 %u 個  %s
+ui	%lu バイト	%lu 位元組
+ui	属性 %s   更新日時 %s   作成日時 %s   %s	屬性 %s   修改 %s   建立 %s   %s
+ui	日	日
+ui	月	一
+ui	火	二
+ui	水	三
+ui	木	四
+ui	金	五
+ui	土	六
+ui	時計は合わせていません（LAN の NTP）	時鐘尚未校正（LAN 的 NTP）
+ui	FB  表示 %u  書込 %u	FB  顯示 %u  寫入 %u
+ui	1 ヘルプ	1 說明
+ui	2 実行	2 執行
+ui	3 ｺﾋﾟｰ	3 複製
+ui	4 削除	4 刪除
+ui	5 名前	5 更名
+ui	7 FB消去	7 FB清
+ui	8 FB減光	8 FB暗
+ui	9 ﾄﾞﾗｲﾌﾞ	9 磁碟
+ui	10 EP表	10 EP
+ui	11 時計	11 時鐘
+ui	12 表計	12 CALC
+ui	1 属性	1 屬性
+ui	2 情報	2 資訊
+ui	3 移動	3 移動
+ui	5 作成	5 建立
+ui	6 シェル	6 Shell
+ui	8 編集	8 編輯
+ui	9 表示	9 檢視
+ui	10S:検査	10 S:檢
+ui	11 ﾄﾗｯｸ	11 TRACK
+ui	12再起動	12 重啟
+ui	1 新規	1 新增
+ui	2 ﾌｫﾙﾀﾞ	2 資料夾
+ui	3 名前	3 改名
+ui	4 属性	4 屬性
+ui	6 ｺﾋﾟｰ	6 複製
+ui	7 移動	7 移動
+ui	8 削除	8 刪除
+ui	9 編集	9 編輯
+ui	10ｺﾝﾊﾟｲﾙ	10 編譯
+ui	11 分割	11 分割
+ui	12 結合	12 合併
+ui	1 属性例	1 屬性例
+ui	2 FB切替	2 FB切換
+ui	3 文字面	3 文字
+ui	5 画面写	5 截圖
+ui	6 表示頁	6 顯示頁
+ui	9 ZM受信	9 ZM收
+ui	10ZM送信	10ZM送
+ui	2 FB消去	2 FB清除
+ui	3 FB減光	3 FB減光
+ui	5 再読込	5 重讀
+ui	7 16進	7 十六
+ui	9 ﾗｲｾﾝｽ	9 授權
+ui	8 設定	8 設定
+ui	時刻を合わせる（日本時間。NTP で合わせられませんでした）	設定時鐘（日本時間。NTP 無法設定）
+ui	起動のパラメタ	以參數執行
+ui	新しいフォルダ	新資料夾
+ui	新しいファイル	新檔案
+ui	時刻:	時間：
+ui	実行:	執行：
+ui	名前:	名稱：
+ui	年-月-日 時:分  Enter 合わせる  ESC そのまま	YYYY-MM-DD hh:mm  Enter 設定  ESC 保持
+ui	Enter 走らせる  ←→ 動かす  BS / Del 消す  ESC やめる	Enter 執行  <-> 移動  BS / Del 刪除  ESC 取消
+ui	Enter 変える  ←→ 動かす  BS / Del 消す  ESC やめる	Enter 更名  <-> 移動  BS / Del 刪除  ESC 取消
+ui	Enter 作る  ←→ 動かす  BS / Del 消す  ESC やめる	Enter 建立  <-> 移動  BS / Del 刪除  ESC 取消
+ui	消す	刪除
+ui	個の項目	 個項目
+ui	フォルダは中身ごと消します。よろしいですか？	資料夾會連同內容一起刪除。確定嗎？
+ui	このファイルを消しますか？	要刪除此檔案嗎？
+ui	（元に戻せません。フォルダの中のファイルも消えます）	（無法復原。資料夾中的檔案也會刪除）
+ui	[ はい (Y) ]	[ 是 (Y) ]
+ui	[ いいえ (N) ]	[ 否 (N) ]
+ui	バイナリビュアー: ファイルを選んでください	十六進位檢視器：請選擇檔案
+ui	テキストビュアー: ファイルを選んでください	文字檢視器：請選擇檔案
+ui	移動先	移動到
+ui	コピー先	複製到
+ui	バッファがいっぱいです (buffer full)	緩衝區已滿
+ui	読み出し専用のドライブです (read-only)	唯讀磁碟機
+ui	保存できません (no writer)	無法儲存（no writer）
+ui	保存を始められません (the drive is busy?)	無法開始儲存（磁碟機忙碌？）
+ui	保存しています... (saving)	儲存中...
+ui	2 保存	2 儲存
+ui	5 色分け	5 色彩
+ui	6 ﾞ	6 平假
+ui	7 ｶﾀｶﾅ	7 片假
+ui	8 予測	8 預測
+ui	10 終了	10 結束
+ui	1 先頭	1 開頭
+ui	2 最後	2 結尾
+ui	3 挿/上	3 插/覆
+ui	4 辞書	4 辭典
+ui	6 半	6 半平
+ui	7 半ｶﾅ	7 半片
+ui	 %s  %s  行 %lu/%lu 桁 %u  %s  %s %s%s%s	 %s  %s  行 %lu/%lu 欄 %u  %s  %s %s%s%s
+ui	*変更	*已改
+ui	上書	覆寫
+ui	挿入	插入
+ui	  読出専用	  唯讀
+ui	 エディタ (sgnano edit)                      F1 / ESC で閉じる	 編輯器 (sgnano edit)                        F1 / ESC 關閉
+ui	 矢印 / Home End / PgUp PgDn   カーソルを動かす	 方向鍵 / Home End / PgUp PgDn  移動游標
+ui	 Ctrl-T / Ctrl-B               ファイルの先頭 / 最後	 Ctrl-T / Ctrl-B               檔案開頭 / 結尾
+ui	 BS / Del                      前の字 / カーソルの字を消す	 BS / Del                      刪除前一字 / 游標字
+ui	 Enter                         改行（前の行の字下げを引き継ぐ）	 Enter                         換行（沿用上一行縮排）
+ui	 Tab / Ins                     タブ / 挿入と上書きの切り替え	 Tab / Ins                     定位 / 插入與覆寫切換
+ui	 F5                            色分け（拡張子から。C/C++・mruby・MicroPython・SG BASIC・なし）	 F5                            著色（依副檔名；C/C++、mruby、MicroPython、SG BASIC、無）
+ui	 F2  (Ctrl-S)                  保存（UTF-8、改行は元の形）	 F2  (Ctrl-S)                  儲存（UTF-8，換行維持）
+ui	 F10 / ESC                     閉じる（変更があれば聞く）	 F10 / ESC                     關閉（有變更會詢問）
+ui	 IME:  Ctrl-Space / F12        オン・オフ（あ / A）	 IME:  Ctrl-Space / F12        開・關（あ / A）
+ui	       F9                      IME の言語（このエディタの間だけ。閉じると戻る）	       F9 IME 語言（僅在此編輯器期間；關閉時返回）
+ui	       F8                      日本語の予測変換 オン・オフ	       F8 日文預測轉換開/關
+ui	       日本語                  ローマ字 -> ひらがな（F6）・カタカナ（F7）	       日文羅馬字 -> 平假名 (F6) / 片假名 (F7)
+ui	                               半角ひらがな（Shift+F6）・半角カタカナ（Shift+F7）	                               半形平假名（Shift+F6）/ 半形片假名（Shift+F7）
+ui	                               2 字以上で予測、Space で連文節変換	                               用 2 個或更多字元預測，用空格轉換連續子句
+ui	       English                 2 字以上で予測補完	       英語 2 個或更多字元的預測完成
+ui	       한국어                  2 ボル式ハングル	       한국어 2 波爾式韓文
+ui	       Space / Enter           変換 / 確定	空格/輸入 轉換/確認
+ui	       ← →                    文節を選ぶ	       ← → 選擇一個短語
+ui	       Shift+← →               文節の右端を 1 字 縮/拡（候補を出し直す）	       Shift+← → 將文節右端縮短/延長一個字（新的候選）
+ui	       ↑ ↓ / Tab               候補の窓で前 / 次の候補（窓は変換の下、画面の下では上）	       ↑ ↓ / Tab               視窗中的上一個 / 下一個候選（在文字下方，接近底部時在上方）
+ui	       →→→ で Enter            すべての候補（2 列 x 8 個、← → で列とページ、Enter で決める）	       在 →→→ 按 Enter          所有候選（2 x 8，← → 欄與頁，Enter 選擇）
+ui	       Enter                   次の文節へ（最後の文節で全体を確定）	       Enter                   下一個文節（在最後一個時全部確定）
+ui	       Ctrl-U                  いまの語をユーザー辞書へ	       Ctrl-U 將目前單字加入到使用者字典中
+ui	 Shift+F1 / F2 / F3 / F4       先頭 / 最後 / 挿入と上書き / ユーザー辞書へ	 Shift+F1 / F2 / F3 / F4       開頭 / 結尾 / 插入-覆寫 / 加入使用者辭典
+ui	       BS / ESC                1 字戻す / 取り消し	       BS / ESC 傳回一個字元 / 取消
+ui	       , . - [ ] /             、 。 ー 「 」 ・	       , . - [ ] /             、 。 ー 「 」 ・
+ui	変更あり  Y: 保存して閉じる  N: 保存せず閉じる  ESC: 戻る	已變更  Y：儲存並關閉  N：不儲存關閉  ESC：返回
+ui	[予測] Tab/↑↓: 候補  Space: 変換  Esc: 取消	[預測] Tab/↑↓：候選  Space：轉換  Esc：取消
+ui	[候補] ↑↓: 選ぶ  ←→: 列・ページ  Enter: 決める	[候選] ↑↓：選擇  ←→：欄/頁  Enter：採用
+ui	[変換] ↑↓候補 ←→文節 Shift+←→区切り Enter次へ	[轉換] ↑↓候選 ←→文節 Shift+←→邊界 Enter 下一個
+ui	[한국어] Tab/↑↓: 候補  Enter/Space: 確定	[한국어] Tab/↑↓：候選  Enter/Space：確定
+ui	[English] Tab/↑↓: 候補  Enter: 確定	[English] Tab/↑↓：候選  Enter：確定
+ui	2ボル式ハングル入力  Ctrl-Space: 英数	2 組式韓文輸入  Ctrl-Space：英數
+ui	予測補完  Ctrl-Space: 直接入力	預測補完  Ctrl-Space：直接輸入
+ui	辞書なし: ひらがな/カタカナ入力のみ  F6/F7	無辭典：僅平假名/片假名  F6/F7
+ui	Space: 変換  F7: カタカナ  Ctrl-Space: 英数	Space：轉換  F7：片假名  Ctrl-Space：英數
+ui	Space: 変換  F6: ひらがな  Ctrl-Space: 英数	Space：轉換  F6：平假名  Ctrl-Space：英數
+ui	半角  F6: ひらがな  F7: カタカナ  Shift+F6/F7: 半角	半形  F6：平假名  F7：片假名  Shift+F6/F7：半形
+ui	IME オフ	IME 關閉
+ui	 予測	 預測
+ui	日本語の予測変換: オン	預測日文翻譯：開
+ui	日本語の予測変換: オフ	日文的預測翻譯：關閉
+ui	日本語IMEで使います	與日語輸入法一起使用
+ui	ユーザー辞書に追加できません	無法新增到使用者詞典
+ui	色分け: %s	著色：%s
+ui	読み込んでいます... (loading)	讀取中...
+ui	読み込めませんでした (could not read)	無法讀取
+ui	%lu 行%s%s	%lu 行%s%s
+ui	  Shift_JIS を UTF-8 で開きました（保存は UTF-8）	  已將 Shift_JIS 以 UTF-8 開啟（存為 UTF-8）
+ui	  読み出し専用	  唯讀
+ui	保存しました (saved)	已儲存
+ui	保存できませんでした (write failed)	無法儲存（寫入失敗）
+ui	候補	候選
+ui	7 書込頁	7 寫入頁
+ui	9 ﾃｷｽﾄ	9 文字
+ui	9 ﾊﾞｲﾅﾘ	9 十六
+ui	読み込み中 %lu%%  	讀取中 %lu%%  
+ui	（先頭だけ）  	（僅開頭）  
+ui	16 進  q ESC: 戻る  F1: ヘルプ	十六進位  q ESC：返回  F1：說明
+ui	テキスト  q ESC: 戻る  F1: ヘルプ	文字  q ESC：返回  F1：說明
+ui	ビュアーのキー（less 風。テキストと 16 進で共通）	檢視器按鍵（類 less；文字與十六進位共用）
+ui	1 行進む	下移 1 行
+ui	1 行戻る	上移 1 行
+ui	1 ページ進む	下移 1 頁
+ui	1 ページ戻る	上移 1 頁
+ui	半ページ進む / 戻る	下移 / 上移半頁
+ui	/文字列  ?文字列	/文字  ?文字
+ui	下へ探す / 上へ探す（大文字小文字は区別しない）	向下 / 向上搜尋（不分大小寫）
+ui	次 / 前を探す	下一個 / 上一個
+ui	16 進で表示する（いま見ている所のまま）	以十六進位顯示（維持目前位置）
+ui	テキストで表示する（いま見ている所のまま）	以文字顯示（維持目前位置）
+ui	色分けを替える（C/C++・mruby・MicroPython・SG BASIC・なし）	變更著色（C/C++、mruby、MicroPython、SG BASIC、無）
+ui	FB / テキスト面を出す・隠す	顯示・隱藏 FB / 文字
+ui	FB の表示ページ / 書き込みページ	FB 顯示頁 / 寫入頁
+ui	ファイラーへ戻る	返回檔案管理
+ui	このヘルプを閉じる	關閉本說明
+ui	コピー	複製
+ui	 %s: フォルダを読んでいます... %u 個	 %s：讀取資料夾中... %u 個
+ui	 %s: 行き先の空きを数えています...	 %s：計算目的地可用空間中...
+ui	 %s: 行き先の空きが足りません	 %s：目的地空間不足
+ui	 移動: 元のフォルダを消しています	 移動：刪除原資料夾中
+ui	終了しました	已完成
+ui	止まりました	已停止
+ui	 %s中%s	 %s中%s
+ui	（止めています）	（停止中）
+ui	 元: %s	 來源：%s
+ui	 先: %s	 目的地：%s
+ui	 ファイル %u / %u 個  フォルダ %u 個  %s / %s  (%u%%)%s	 檔案 %u / %u 個  資料夾 %u 個  %s / %s  (%u%%)%s
+ui	  多すぎるので一部だけ	  太多，只處理部分
+ui	 要る大きさ %s、空き %s。続けますか？	 需要 %s，可用 %s。要繼續嗎？
+ui	 Y: 続ける   N / ESC: やめる	 Y：繼續   N / ESC：取消
+ui	 何かキーを押すと閉じます	 按任意鍵關閉
+ui	 ESC: 止める	 ESC：停止
+ui	 %s: ←→ ドライブ  ↑↓ フォルダ  Space 開く・閉じる  Enter 決める  ESC やめる	 %s：←→ 磁碟機  ↑↓ 資料夾  Space 展開・收合  Enter 決定  ESC 取消
+ui	 読めません: %s	 無法讀取：%s
+ui	 フォルダを読んでいます...（ESC で止める）  %u 個	 讀取資料夾中...（ESC 停止）  %u 個
+ui	 フォルダ %u 個%s	 資料夾 %u 個%s
+ui	（多すぎるか深すぎるので、一部だけ）	（太多或太深，只顯示部分）
+ui	フォルダの展開を止めました	已停止展開資料夾
+ui	Space で開き直せます。もう一度 ESC でやめます	Space 可重新展開。再按一次 ESC 取消
+ui	 SMF / SGT プレイヤー   %s	 SMF / SGT 玩家 %s
+ui	 読み込んでいます... %lu / %lu バイト	 讀取中... %lu / %lu 位元組
+ui	 %s / %s   %s   ポート %u	 %s / %s   %s   連接埠 %u
+ui	一時停止	暫停
+ui	再生中	播放中
+ui	 Space: 一時停止  m: MIDI OUT  q / ESC: 止める	 Space：暫停  m：MIDI OUT  q / ESC：停止
+ui	 q / ESC: やめる	 q / ESC：取消
+ui	フォント ROM のライセンスとクレジット\n\nROM: %s（版 %lu.%lu、%lu 文字、フラッシュの 0x%08lX から）\n\n	字型 ROM 的授權與致謝\n\nROM：%s（版本 %lu.%lu，%lu 字，自快閃記憶體 0x%08lX 起）\n\n
+ui	== 収めているフォント（ROM の出所の表）==\n	== 收錄的字型（ROM 的來源表）==\n
+ui	  （表が無い ROM）\n	  （ROM 沒有此表）\n
+ui	\n== ROM のクレジットの区画 ==\n\n	\n== ROM 的致謝區 ==\n\n
+ui	（区画が無い）\n	（沒有此區）\n
+ui	\n== 組み込んだソフトウェアのライセンス ==\n	\n== 內建軟體的授權 ==\n
+ui	 %s を PNG で保存   %s	 以 PNG 儲存 %s   %s
+ui	画面	畫面
+ui	 組み立てています... %lu / %lu 行	 組合中... %lu / %lu 行
+ui	 書いています... %lu / %lu KB（FB は隠しています）	 寫入中... %lu / %lu KB（FB 已隱藏）
+ui	書けませんでした	無法寫入
+ui	書庫の名前（印の付いた項目、無ければカーソルの項目を入れる）	壓縮檔名稱（已標記的項目，沒有則為游標所在項目）
+ui	Enter 圧縮する  ←→ 動かす  BS / Del 消す  ESC やめる	Enter 壓縮  ←→ 移動  BS / Del 刪除  ESC 取消
+ui	WAV 書き出し: %s 中止（%s）	WAV 匯出：%s 已中止（%s）
+ui	WAV 書き出し: %s 失敗（%s）	WAV 匯出：%s 失敗（%s）
+ui	WAV 書き出し: %s 合計 %s	WAV 匯出：%s 總計 %s
+ui	 WAV 書き出し（96kHz / 24bit）: %s	 WAV 匯出（96kHz / 24bit）：%s
+ui	中止しました	已中止
+ui	失敗しました	失敗
+ui	 合計 %s	 總計 %s
+ui	 中止しました（%s。半端なファイルは消しました）	 已中止（%s。已刪除未完成的檔案）
+ui	 書き出せませんでした（%s）。理由:	 無法匯出（%s）。原因：
+ui	 （理由は分かりません）	 （原因不明）
+ui	 %u%%   経過 %s%s	 %u%%   經過 %s%s
+ui	 ESC: 止める（半端なファイルは消します）	 ESC：停止（會刪除未完成的檔案）
+ui	書庫: %s	壓縮檔：%s
+ui	読み込み中…（ESC でやめる）	讀取中…（按 ESC 取消）
+ui	 %u 項目%s  合計 %s バイト  展開先: %s	 %u 個項目%s  總計 %s 位元組  解壓到：%s
+ui	 Enter 項目を展開  X 全部を展開  ↑↓ 動かす  ESC 閉じる	 Enter 解壓項目  X 全部解壓  ↑↓ 移動  ESC 關閉
+ui	圧縮	壓縮
+ui	一覧	清單
+ui	展開	解壓
+ui	 合計 %s   %u 項目	 總計 %s   %u 個項目
+ui	 合計 %s   %u ファイル	 總計 %s   %u 個檔案
+ui	 中止しました（%s。書きかけのファイルは消しました）	 已中止（%s。已刪除寫到一半的檔案）
+ui	 できませんでした（%s）: %s	 無法完成（%s）：%s
+ui	 %u%%   経過 %s   %s バイト%s	 %u%%   經過 %s   %s 位元組%s
+ui	 経過 %s   %s バイト%s	 經過 %s   %s 位元組%s
+ui	 ESC: 止める（書きかけのファイルは消します）	 ESC：停止（會刪除寫到一半的檔案）
+ui	書庫: %s 失敗（%s）	壓縮檔：%s 失敗（%s）
+ui	圧縮: %s（%u 項目）	已壓縮：%s（%u 個項目）
+ui	展開: %s（%u ファイル）	已解壓：%s（%u 個檔案）
+msg.phrase	the drive went away	磁碟機已移除
+msg.phrase	reading the partitions again...	重新讀取分割區中...
+msg.phrase	could not open the volume (no memory?)	無法開啟磁碟區（記憶體不足？）
+msg.phrase	opening the volume...	開啟磁碟區中...
+msg.phrase	no memory for the file list	清單記憶體不足
+msg.phrase	reading the directory... (retrying)	讀取資料夾中...（重試）
+msg.phrase	could not read the directory	無法讀取資料夾
+msg.phrase	reading the directory...	讀取資料夾中...
+msg.phrase	the drive did not answer -- reading the partitions again	磁碟機沒有回應。重新讀取分割區
+msg.phrase	could not read the directory (not FAT12/16/32?)	無法讀取資料夾（不是 FAT12/16/32？）
+msg.phrase	too many entries -- showing the first ones	項目太多，只顯示前面部分
+msg.phrase	no file system found on this partition	此分割區找不到檔案系統
+msg.phrase	the path is too long	路徑太長
+msg.phrase	joining...	合併中...
+msg.phrase	splitting...	分割中...
+msg.phrase	renaming...	重新命名中...
+msg.phrase	creating the folder...	建立資料夾中...
+msg.phrase	creating the file...	建立檔案中...
+msg.phrase	deleting...	刪除中...
+msg.phrase	writing the attributes...	寫入屬性中...
+msg.phrase	the drive is busy	磁碟機忙碌中
+msg.phrase	busy	忙碌中
+msg.phrase	choose files or folders	請選擇檔案或資料夾
+msg.phrase	choose files or folders (not "..")	請選擇檔案或資料夾（".." 除外）
+msg.phrase	stop the CD first	請先停止 CD
+msg.phrase	the CD cannot be changed (copy instead)	CD 無法變更（請改用複製）
+msg.phrase	a system folder cannot be moved	系統資料夾無法移動
+msg.phrase	no drive can be written (FAT / exFAT / NTFS only)	沒有可寫入的磁碟機（僅 FAT・exFAT・NTFS）
+msg.phrase	the drive is gone	磁碟機不見了
+msg.phrase	nothing chosen	未選擇任何項目
+msg.phrase	nothing selected	未選擇任何項目
+msg.phrase	could not start	無法開始
+msg.phrase	could not open	無法開啟
+msg.phrase	only on a FAT / exFAT / NTFS drive	僅限 FAT・exFAT・NTFS 磁碟機
+msg.phrase	no name	沒有名稱
+msg.phrase	that name already exists	名稱已存在
+msg.phrase	could not start (bad name or the drive is busy)	無法開始（名稱錯誤或磁碟機忙碌）
+msg.phrase	could not start (the drive is busy)	無法開始（磁碟機忙碌）
+msg.phrase	the name cannot have / or \\ (only inside this folder)	名稱不能含 / 或 \\（僅限同一資料夾內）
+msg.phrase	the name is the same	名稱相同
+msg.phrase	the item is read-only (A to change)	此項目為唯讀（按 A 變更）
+msg.phrase	choose a .rb file on a writable drive	請選擇可寫入磁碟機上的 .rb 檔案
+msg.phrase	choose a .rb file	請選擇 .rb 檔案
+msg.phrase	the drive is read-only	唯讀磁碟機
+msg.phrase	choose a folder on a writable drive	請選擇可寫入磁碟機上的資料夾
+msg.phrase	wait a moment	請稍候
+msg.phrase	choose a file	請選擇檔案
+msg.phrase	choose a file (not a folder)	請選擇檔案（非資料夾）
+msg.phrase	choose a .001 file	請選擇 .001 檔案
+msg.phrase	choose the .001 file	請選擇 .001 檔案
+msg.phrase	put the IWAD in a DoomFiles or Doom2Files folder	請將 IWAD 放在 DoomFiles 或 Doom2Files 資料夾
+msg.phrase	DoomFiles takes freedoom1 / doom / doomu / doom1.wad	DoomFiles 可放 freedoom1 / doom / doomu / doom1.wad
+msg.phrase	Doom2Files takes freedoom2 / doom2 / plutonia / tnt.wad	Doom2Files 可放 freedoom2 / doom2 / plutonia / tnt.wad
+msg.phrase	put the game files on external storage, not S:	遊戲檔案請放在外部儲存裝置，不要放在 S:
+msg.phrase	the IWAD must be on a FAT / exFAT / NTFS drive (not a CD)	IWAD 必須放在 FAT・exFAT・NTFS 磁碟機（不可為 CD）
+msg.phrase	still working	仍在處理中
+msg.phrase	an image is loading	圖片讀取中
+msg.phrase	no framebuffer	沒有 FB
+msg.phrase	half brightness works only in RGB555	亮度減半只能用於 RGB555
+msg.phrase	clearing...	清除中...
+msg.phrase	halving the brightness...	亮度減半中...
+msg.phrase	that is a data track	這是資料軌
+msg.phrase	wait -- a file is being written	正在寫入檔案，請稍候
+msg.phrase	only floppy / LS-120 / CD drives	僅限軟碟・LS-120・CD 磁碟機
+msg.phrase	requested	已要求
+msg.phrase	reading the disc...	讀取光碟中...
+msg.phrase	stopping...	停止中...
+msg.phrase	opening...	開啟中...
+msg.phrase	done	已完成
+msg.phrase	no memory	記憶體不足
+msg.phrase	already open	已開啟
+msg.phrase	already running	已在執行
+msg.phrase	already saving	已在儲存
+msg.phrase	already playing	已在播放
+msg.phrase	no such drive	沒有此磁碟機
+msg.phrase	no PSRAM	PSRAM 不足
+msg.phrase	no PSRAM for the file	放置檔案的 PSRAM 不足
+msg.phrase	no PSRAM for the line index	放置行索引的 PSRAM 不足
+msg.phrase	no PSRAM for the terminal	放置終端機的 PSRAM 不足
+msg.phrase	no memory (PSRAM)	記憶體（PSRAM）不足
+msg.phrase	no memory (32KB SRAM)	記憶體（SRAM 32KB）不足
+msg.phrase	no memory for the buffer	緩衝區記憶體不足
+msg.phrase	no memory for the image buffers	圖片緩衝區記憶體不足
+msg.phrase	no memory for the read buffer	讀取緩衝區記憶體不足
+msg.phrase	no room for the work memory (close the lowres plane?)	無法取得工作記憶體
+msg.phrase	no framebuffer page	沒有 FB 頁面
+msg.phrase	too large (4 MB at most)	太大（最多 4MB）
+msg.phrase	the file is too large (1 MB at most)	檔案太大（最多 1MB）
+msg.phrase	the file is too large (1 MB max)	檔案太大（最多 1MB）
+msg.phrase	too large for an SMF (1MB at most)	SMF 太大（最多 1MB）
+msg.phrase	the file is empty	檔案是空的
+msg.phrase	could not open the file	無法開啟檔案
+msg.phrase	could not read the file	無法讀取檔案
+msg.phrase	could not open the volume	無法開啟磁碟區
+msg.phrase	could not open the destination (no memory?)	無法開啟目的地（記憶體不足？）
+msg.phrase	could not read the root folder	無法讀取根資料夾
+msg.phrase	could not start the task	無法啟動工作
+msg.phrase	could not start writing (bad name or busy)	無法開始寫入（名稱錯誤或忙碌）
+msg.phrase	another volume is open (busy)	另一個磁碟區已開啟（忙碌）
+msg.phrase	a copy is running	複製進行中
+msg.phrase	a folder cannot go into itself	資料夾不能放進自己裡面
+msg.phrase	that is the same folder	是同一個資料夾
+msg.phrase	this drive cannot be changed (read only)	此磁碟機無法變更（唯讀）
+msg.phrase	the drive is not writable	磁碟機無法寫入
+msg.phrase	the part size must be a multiple of 512	分割大小必須是 512 的倍數
+msg.phrase	files of 4 GB or more are not supported	不支援 4GB 以上的檔案
+msg.phrase	bad path	路徑錯誤
+msg.phrase	bad file name	檔名錯誤
+msg.phrase	the font ROM is not there	沒有字型 ROM
+msg.phrase	the sound is not open	音效尚未開啟
+msg.phrase	no such channel	沒有此聲道
+msg.phrase	the sequencer is busy	音序器忙碌中
+msg.phrase	not enough PSRAM for the song	放置樂曲的 PSRAM 不足
+msg.phrase	not a standard MIDI file (no MThd)	不是 SMF（沒有 MThd）
+msg.phrase	no tracks	沒有音軌
+msg.phrase	a track is broken (MTrk)	音軌損壞（MTrk）
+msg.phrase	SMPTE time division is not supported	不支援 SMPTE 時間單位
+msg.phrase	SMF format 2 is not supported (0 and 1 only)	不支援 SMF 格式 2（僅 0 與 1）
+msg.phrase	not a Bulk-Only drive	不是 Bulk-Only 磁碟機
+msg.phrase	not an optical drive	不是光碟機
+msg.phrase	a system folder cannot be deleted or renamed	系統資料夾無法刪除或重新命名
+msg.phrase	no media in the drive	沒有放入媒體
+msg.phrase	becoming ready	準備中
+msg.phrase	not ready	尚未就緒
+msg.phrase	media changed	媒體已更換
+msg.phrase	medium error	媒體錯誤
+msg.phrase	illegal request	無法接受的要求
+msg.phrase	a bad directory entry	資料夾項目損壞
+msg.phrase	a directory on the way does not exist	中間的資料夾不存在
+msg.phrase	a file has that name	已有同名檔案
+msg.phrase	a folder has that name	已有同名資料夾
+msg.phrase	a name on the way is not a directory	中間的名稱不是資料夾
+msg.phrase	cancelled	已取消
+msg.phrase	could not mount	無法掛載
+msg.phrase	could not start a read	無法開始讀取
+msg.phrase	could not start a write	無法開始寫入
+msg.phrase	is a directory	是資料夾
+msg.phrase	that is a directory	是資料夾
+msg.phrase	no clusters	沒有叢集
+msg.phrase	no room for the cluster list	沒有空間放叢集清單
+msg.phrase	no such file or directory	沒有此檔案或資料夾
+msg.phrase	no such file	沒有此檔案
+msg.phrase	no volume	沒有磁碟區
+msg.phrase	not NTFS	不是 NTFS
+msg.phrase	not exFAT	不是 exFAT
+msg.phrase	not a directory	不是資料夾
+msg.phrase	not found	找不到
+msg.phrase	read error	讀取錯誤
+msg.phrase	write error	寫入錯誤
+msg.phrase	reading the FAT failed	無法讀取 FAT
+msg.phrase	the cluster chain is shorter than the file	叢集鏈比檔案短
+msg.phrase	the directory is not empty	資料夾不是空的
+msg.phrase	the disk is full	磁碟已滿
+msg.phrase	the drive did not answer	磁碟機沒有回應
+msg.phrase	the file is read-only	檔案為唯讀
+msg.phrase	the file is too fragmented	檔案太過分散
+msg.phrase	the file is too large (4GB)	檔案太大（4GB）
+msg.phrase	the new name already exists	新名稱已存在
+msg.phrase	the root directory is full	根資料夾已滿
+msg.phrase	too many files with the same short name	相同短檔名的檔案太多
+msg.phrase	No such file or directory	沒有此檔案或資料夾
+msg.phrase	File exists	已存在
+msg.phrase	Permission denied	不允許（唯讀等）
+msg.phrase	Directory not empty	資料夾不是空的
+msg.phrase	Not a directory	不是資料夾
+msg.phrase	Is a directory	是資料夾
+msg.phrase	Read-only file system	唯讀磁碟機
+msg.phrase	No space left on device	沒有可用空間
+msg.phrase	Input/output error	輸入輸出錯誤
+msg.phrase	Not supported on this drive	此磁碟機不支援
+msg.phrase	Invalid path	路徑錯誤
+msg.phrase	Out of memory	記憶體不足
+msg.phrase	No such drive	沒有此磁碟機
+msg.phrase	stopped	已停止
+msg.phrase	cancelled (not enough free space)	已取消（可用空間不足）
+msg.phrase	could not count the free space	無法計算可用空間
+msg.phrase	the receiver cancelled	接收端已取消
+msg.phrase	no receiver (run rz on the PC)	沒有接收端（請在 PC 執行 rz）
+msg.phrase	the console UART is in use	主控台 UART 使用中
+msg.phrase	the screen mode changed	畫面模式已變更
+msg.phrase	the lines did not come (is the display running?)	沒有收到掃描線（顯示是否運作中？）
+msg.prefix	copy	複製
+msg.prefix	move	移動
+msg.prefix	delete	刪除
+msg.prefix	rename	重新命名
+msg.prefix	attributes	屬性
+msg.prefix	new file	新檔案
+msg.prefix	new folder	新資料夾
+msg.prefix	image	圖片
+msg.prefix	mrbc	編譯
+msg.prefix	ruby	Ruby
+msg.prefix	viewer	檢視器
+msg.prefix	edit	編輯器
+msg.prefix	IDENTIFY	資訊
+msg.prefix	ZMODEM	ZMODEM
+msg.prefix	ZMODEM receive	ZMODEM 接收
+msg.prefix	ZMODEM send	ZMODEM 傳送
+msg.prefix	split	分割
+msg.prefix	join	合併
+msg.prefix	Doom	Doom
+msg.prefix	SMF	SMF
+msg.prefix	CD	CD
+msg.prefix	FB	FB
+msg.prefix	Eject	退出
+msg.prefix	reboot	重新開機
+msg.prefix	license	授權
+msg.prefix	clock	時鐘
+msg.prefix	ADC in	ADC 輸入
+msg.prefix	screen -> PNG	截圖
+msg.prefix	FB -> PNG	FB 儲存
+msg.prefix	could not open the volume	無法開啟磁碟區
+msg.pattern	received 	已接收：%s
+msg.pattern	sent 	已傳送：%s
+msg.pattern	saved 	已儲存：%s
+msg.pattern	created 	已建立：%s
+msg.pattern	renamed to 	已重新命名：%s
+msg.pattern	deleted 	已刪除：%s
+msg.pattern	changed 	已變更：%s
+msg.pattern	joined 	已合併：%s
+msg.pattern	split 	已分割：%s
+msg.pattern	could not create 	無法建立：%s
+msg.pattern	could not delete 	無法刪除：%s
+msg.pattern	could not rename to 	無法重新命名：%s
+msg.pattern	could not change 	無法變更：%s
+msg.pattern	could not read 	無法讀取：%s
+msg.pattern	could not write 	無法寫入：%s
+msg.pattern	could not copy 	無法複製：%s
+msg.pattern	could not make 	無法建立：%s
+msg.pattern	could not remove the folder 	無法刪除資料夾：%s
+msg.pattern	could not remove 	無法刪除：%s
+msg.pattern	no memory for 	記憶體不足：%s
+msg.pattern	too many errors while sending 	錯誤太多無法傳送：%s
+msg.pattern	the receiver did not take 	接收端未接收：%s
+msg.pattern	the receiver skipped 	接收端略過：%s
+msg.pattern	FB page 	FB 頁面 %s
+msg.word	 bytes each)	 位元組）
+msg.word	 bytes)	 位元組）
+msg.word	 KB)	 KB）
+msg.word	 parts into 	 個合併為 
+msg.word	 parts (	 個（
+msg.word	 into 	 為 
+msg.word	: cleared	：已清除
+msg.word	: brightness halved	：亮度已減半
+msg.word	% read	% 已讀
+msg.word	 rows	 行
+msg.word	 -- not supported yet (FAT / exFAT / NTFS only)	 尚未支援（僅 FAT・exFAT・NTFS）
+msg.word	 files	 個檔案
+msg.word	 (	（
+msg.phrase	Untitled	無題
+msg.phrase	1 File	1 個文件
+msg.phrase	2 Edit	2 編輯
+msg.phrase	3 Graph	3 圖
+msg.phrase	4 Sheet	4張
+msg.phrase	5 Help	5 幫助
+msg.phrase	EMPTY	空
+msg.phrase	NUMBER	號碼
+msg.phrase	TEXT	文字
+msg.phrase	FORMULA	配方
+msg.phrase	Type to enter, F2 to edit, F1 for help	鍵入輸入，F2 進行編輯，F1 取得協助
+msg.phrase	5 CSV	5 CSV
+msg.phrase	6 ODS	6 消耗臭氧層物質
+msg.phrase	[SHIFT]	[轉變]
+msg.phrase	[CTRL]	[CTRL]
+msg.phrase	[ALT]	[替代]
+msg.phrase	Ready	準備好
+msg.phrase	SGCALC	SG計算中心
+msg.phrase	Press any key	按任意鍵
+msg.phrase	Y = yes    N = no    Esc = cancel	Y = 是 N = 否 Esc = 取消
+msg.phrase	Enter = OK    Esc = cancel    Ctrl-U = clear	Enter = 確定 Esc = 取消 Ctrl-U = 清除
+msg.phrase	First row/column = labels; charts use the 640x480 CLUT8 FB.	第一行/列 = 標籤；圖表使用 640x480 CLUT8 FB。
+msg.phrase	SGCALC - HELP	SGCALC - 幫助
+msg.phrase	Press any key to return	按任意鍵返回
+msg.phrase	Press any key to return.	按任意鍵返回。
+msg.phrase	ABOUT SGCALC	關於國標計算
+msg.phrase	New	新
+msg.phrase	Start a new sheet	開始一個新工作表
+msg.phrase	Open...	打開...
+msg.phrase	Open an ODS, FODS or CSV file	開啟 ODS、FODS 或 CSV 文件
+msg.phrase	Save	儲存
+msg.phrase	Save the current file	儲存目前文件
+msg.phrase	Save As...	另存為...
+msg.phrase	Save with a new name or format	使用新名稱或格式儲存
+msg.phrase	Export CSV...	匯出 CSV...
+msg.phrase	Write a CSV copy	寫入 CSV 副本
+msg.phrase	Export ODS...	出口消耗臭氧層物質...
+msg.phrase	Write a LibreOffice copy	編寫 LibreOffice 副本
+msg.phrase	Quit	戒菸
+msg.phrase	Leave SGCALC	離開SGCALC
+msg.phrase	Clear	清除
+msg.phrase	Clear the selected cells	清除選定的儲存格
+msg.phrase	Copy	複製
+msg.phrase	Copy the selection	複製選擇
+msg.phrase	Paste	貼上
+msg.phrase	Paste at the cursor	貼到遊標處
+msg.phrase	Cut	切
+msg.phrase	Copy and clear the selection	複製並清除選擇
+msg.phrase	Select all	選擇全部
+msg.phrase	Select all used cells	選擇所有使用的儲存格
+msg.phrase	Text color...	文字颜色...
+msg.phrase	Choose the text colour	選擇文字顏色
+msg.phrase	Background...	背景...
+msg.phrase	Choose the cell background	选择单元格背景
+msg.phrase	Line	線
+msg.phrase	Draw a line graph from the selection	根據選擇繪製折線圖
+msg.phrase	Bar	酒吧
+msg.phrase	Draw a bar graph from the selection	根據選擇繪製長條圖
+msg.phrase	Mixed	混合
+msg.phrase	Bars for the first series, lines for the rest	第一個系列的長條圖，其餘系列的線形圖
+msg.phrase	Pie	派
+msg.phrase	Draw a pie graph from the selection	根據選擇繪製圓餅圖
+msg.phrase	Range...	範圍...
+msg.phrase	Set the graph range explicitly	明確設定圖形範圍
+msg.phrase	Draw again	再畫一次
+msg.phrase	Redraw the last graph	重畫最後一張圖
+msg.phrase	Goto...	後藤...
+msg.phrase	Jump to a cell (for example C12)	跳到單元格（例如 C12）
+msg.phrase	Column width...	列寬...
+msg.phrase	Change the selected columns' width	變更選取列的寬度
+msg.phrase	Row height...	行高...
+msg.phrase	Change the selected rows' height	更改選定行的高度
+msg.phrase	Auto fit	自動適配
+msg.phrase	Fit widths/heights to the contents (F7)	使寬度/高度適合內容 (F7)
+msg.phrase	Recalculate	重新計算
+msg.phrase	Re-evaluate all formulas	重新評估所有公式
+msg.phrase	Erase all	全部刪除
+msg.phrase	Clear the whole sheet	清除整張紙
+msg.phrase	Keys	按鍵
+msg.phrase	Show the key guide	顯示按鍵指南
+msg.phrase	About	關於
+msg.phrase	About SGCALC	關於國工計算
+msg.phrase	File	文件
+msg.phrase	Edit	編輯
+msg.phrase	Graph	圖
+msg.phrase	Sheet	板材
+msg.phrase	Help	幫助
+msg.phrase	File: new, open, save, export, quit	文件：新建、開啟、儲存、匯出、退出
+msg.phrase	Edit: clear, copy, paste, cut, select all	編輯：清除、複製、貼上、剪下、全選
+msg.phrase	Graph: line, bar, mixed, pie (draws in the FB)	圖表：折線圖、長條圖、混合圖、圓餅圖（在 FB 中繪製）
+msg.phrase	Sheet: goto, column width, recalculate, erase	工作表：轉到、列寬、重新計算、擦除
+msg.phrase	Help: keys and about	幫助：按鍵和關於
+msg.phrase	Left/Right = menu    Up/Down = item    Enter = choose    Esc = cancel	左/右 = 選單 上/下 = 項目 Enter = 選擇 Esc = 取消
+msg.phrase	Cancelled	取消
+msg.phrase	The selection is too large or memory is low.	選擇太大或記憶體不足。
+msg.phrase	the cell	細胞
+msg.phrase	the selection	選擇
+msg.phrase	Nothing to paste	沒什麼好貼的
+msg.phrase	Pasted	貼上的
+msg.phrase	GO TO CELL	轉到單元格
+msg.phrase	Cell reference (A1):	單元格參考（A1）：
+msg.phrase	Goto	後藤
+msg.phrase	COLUMN WIDTH	柱寬
+msg.phrase	Width in characters (4..30):	字元寬度 (4..30)：
+msg.phrase	ROW HEIGHT	行高
+msg.phrase	Height in text rows (1..8):	文字行高度 (1..8)：
+msg.phrase	Auto fit: the sheet is empty	自動調整：工作表為空
+msg.phrase	BACKGROUND COLOUR	背景顏色
+msg.phrase	TEXT COLOUR	文字顏色
+msg.phrase	Arrows: choose    Enter: apply    Esc: cancel	箭頭：選擇 Enter：套用 Esc：取消
+msg.phrase	Colour index (PC-98 16-colour palette)	顏色索引（PC-98 16 色調色板）
+msg.phrase	Aa 123	AA 123
+msg.phrase	Enter = apply    Esc = cancel	Enter = 應用 Esc = 取消
+msg.phrase	Colour	顏色
+msg.phrase	Background	背景
+msg.phrase	Text	文字
+msg.phrase	GRAPH RANGE	圖表範圍
+msg.phrase	Range (for example A1:C10):	範圍（例如 A1:C10）：
+msg.phrase	Graph range	圖表範圍
+msg.phrase	Use a range such as A1:C10.	使用 A1:C10 等範圍。
+msg.phrase	Cannot draw the graph.	無法繪製圖表。
+msg.phrase	line	線
+msg.phrase	bar	酒吧
+msg.phrase	mixed	混合的
+msg.phrase	pie	派
+msg.phrase	Clear every cell in this sheet?	清除此工作表中的每個儲存格嗎？
+msg.phrase	Sheet erased	紙張被擦除
+msg.phrase	Selected all used cells	選擇所有使用的儲存格
+msg.phrase	Recalculated	重新計算
+msg.phrase	Memory	記憶體
+msg.phrase	Not enough PSRAM for the spreadsheet.	PSRAM 不足用於電子表格。
+msg.phrase	The sheet is empty.	該表是空的。
+msg.phrase	No numeric data in the selected range.	所選範圍內沒有數值資料。
+msg.phrase	Other	其他
+msg.phrase	No positive values for a pie chart	圓餅圖沒有正值
+msg.phrase	LINE	線
+msg.phrase	BAR	酒吧
+msg.phrase	MIXED	混合
+msg.phrase	PIE	PIE
+msg.phrase	S:/	號：/
+msg.phrase	Folder	資料夾
+msg.phrase	SAVE AS	另存為
+msg.phrase	OPEN FILE	開啟文件
+msg.phrase	LibreOffice / CSV	LibreOffice / CSV
+msg.phrase	ODS  FODS  CSV	ODS FDS CSV
+msg.phrase	Name:	姓名：
+msg.phrase	(type a name, or choose below)	（輸入名稱，或在下方選擇）
+msg.phrase	Name	名稱
+msg.phrase	Size	尺寸
+msg.phrase	Enter=save  Left=up  Right/Enter on [DIR]=open  Tab=drive  Esc=cancel	Enter=儲存 左=上右/在 [DIR] 上輸入=開啟 Tab=磁碟機 Esc=取消
+msg.phrase	Enter=open  Left=up  Right/Enter on [DIR]=open  Tab=drive  Esc=cancel	Enter=開啟左=上右/在 [DIR] 上輸入=開啟 Tab=磁碟機 Esc=取消
+msg.phrase	Not enough memory.	內存不夠。
+msg.phrase	Overwrite	覆蓋
+msg.phrase	Open	打開
+msg.phrase	The file is too large (limit 8 MB).	文件太大（限制 8 MB）。
+msg.phrase	Not enough memory to read the file.	記憶體不足，無法讀取檔案。
+msg.phrase	Bad ZIP/ODS data.	錯誤的 ZIP/ODS 資料。
+msg.phrase	CRC error in the ODS file.	ODS 檔案中的 CRC 錯誤。
+msg.phrase	Unsupported or damaged file.	文件不受支援或損壞。
+msg.phrase	Saved	已儲存
+msg.phrase	Exported	出口
+msg.phrase	Unsaved changes	未儲存的更改
+msg.phrase	Save the current sheet before continuing?	在繼續之前儲存目前工作表嗎？
+msg.phrase	New sheet	新表
+msg.phrase	SGTRK	SGTRK
+msg.phrase	UNTITLED	無題
+msg.phrase	song is too large	歌曲太大
+msg.phrase	empty file	空白文件
+msg.phrase	not an SGT file	不是 SGT 文件
+msg.phrase	bad BPM	糟糕的 BPM
+msg.phrase	bad speed	速度不好
+msg.phrase	bad title length	標題長度不好
+msg.phrase	truncated title	標題被截斷
+msg.phrase	bad character in title	標題中的壞角色
+msg.phrase	truncated order	截斷順序
+msg.phrase	bad order length	訂單長度錯誤
+msg.phrase	bad pattern number in order	錯誤的模式編號順序
+msg.phrase	truncated pattern list	截斷的模式列表
+msg.phrase	bad pattern count	不良模式計數
+msg.phrase	bad pattern index	不良模式指數
+msg.phrase	duplicate pattern	重複模式
+msg.phrase	truncated pattern data	截斷的模式數據
+msg.phrase	invalid pattern data	無效的模式數據
+msg.phrase	trailing data in file	文件中的尾隨數據
+msg.phrase	order refers to a missing pattern	order 指的是缺少的模式
+msg.phrase	A:/	答：/
+msg.phrase	(untitled)	（無標題）
+msg.phrase	Ready. Press F1 for help.	準備好了。按 F1 尋求協助。
+msg.phrase	Follow OFF	跟隨關閉
+msg.phrase	Nothing to undo	沒有什麼可撤銷的
+msg.phrase	Undo	撤銷
+msg.phrase	Note OFF	注意關閉
+msg.phrase	Set an effect letter first	先設定一個效果字母
+msg.phrase	Effect cleared	效果清除
+msg.phrase	Parameter cleared	參數清除
+msg.phrase	Note cleared	註釋已清除
+msg.phrase	Instrument cleared	儀器清零
+msg.phrase	Volume cleared	成交量已清空
+msg.phrase	Order list is full	訂單清單已滿
+msg.phrase	Order inserted	已插入訂單
+msg.phrase	Cannot delete the last order	無法刪除最後的訂單
+msg.phrase	Order deleted	訂單已刪除
+msg.phrase	Playing song	播放歌曲
+msg.phrase	Stopped	已停止
+msg.phrase	New song	新歌
+msg.phrase	Discard unsaved changes and start a new song? (Y/N)	放棄未儲存的變更並開始一首新歌曲？ （是/否）
+msg.phrase	Discard unsaved changes and open a song? (Y/N)	放棄未儲存的更改並打開歌曲？ （是/否）
+msg.phrase	Discard unsaved changes and quit? (Y/N)	放棄未儲存的變更並退出？ （是/否）
+msg.phrase	Song settings updated	歌曲設定已更新
+msg.phrase	Filename is empty	檔案名為空
+msg.phrase	Save cancelled	儲存已取消
+msg.phrase	Open cancelled	開放已取消
+msg.phrase	Edit ON	編輯開啟
+msg.phrase	Edit OFF	編輯關閉
+msg.phrase	Follow ON	關注ON
+msg.phrase	Edit is OFF. Press F8 to edit.	編輯已關閉。按 F8 進行編輯。
+msg.phrase	I/O error	輸入/輸出錯誤
+msg.phrase	file is too large	文件太大
+msg.phrase	truncated file	截斷的文件
+msg.phrase	SINE PAD	正弦墊
+msg.phrase	TRIANGLE	三角
+msg.phrase	SAW LEAD	鋸鉛
+msg.phrase	SQUARE	方形
+msg.phrase	PULSE 25	脈衝25
+msg.phrase	ORGAN	風琴
+msg.phrase	BASS	低音
+msg.phrase	BELL	貝爾
+msg.phrase	NOISE	噪音
+msg.phrase	SINE	正弦
+msg.phrase	SAW	聲表面波
+msg.phrase	OFF	關閉
+msg.phrase	ON	開
+msg.phrase	ROW	列
+msg.phrase	CHAN LEVEL	陳級
+msg.phrase	F1 HELP F2 SONG	F1 幫助 F2 歌曲
+msg.phrase	F3 INS  F4 SAVE	F3 插入 F4 保存
+msg.phrase	F5 PLAY F6 PAT	F5 播放 F6 拍拍
+msg.phrase	F7 STOP F8 EDIT	F7 停止 F8 編輯
+msg.phrase	F9/F10 OCTAVE	F9/F10 八度
+msg.phrase	F11 FOLLOW	F11 關注
+msg.phrase	F12 QUIT	F12 退出
+msg.phrase	SPACE PLAY/STOP	空間播放/停止
+msg.phrase	CTRL-S SAVE	CTRL-S 保存
+msg.phrase	CTRL-O OPEN	CTRL-O 打開
+msg.phrase	C-N NEW C-Z UNDO	C-N 新 C-Z 撤銷
+msg.phrase	C-C STOP	C-C 停止
+msg.phrase	#TRANSPORT AND FILES	#運輸和文件
+msg.phrase	#ORDER LIST	#訂單清單
+msg.phrase	#DISPLAY	#顯示
+msg.phrase	#EDITING	#編輯
+msg.phrase	#EFFECTS (parameter is hexadecimal)	#EFFECTS（參數為十六進位）
+msg.phrase	LEFT/RIGHT PAGE   ENTER OR F1 CLOSE	左/右頁輸入或 F1 關閉
+msg.phrase	SONG SETTINGS	歌曲設定
+msg.phrase	UP/DOWN SELECT   LEFT/RIGHT ADJUST   ENTER/F2 CLOSE	上/下選擇 左/右調整 ENTER/F2 關閉
+msg.phrase	Type to edit the title. Backspace deletes the last character.	鍵入以編輯標題。退格鍵刪除最後一個字元。
+msg.phrase	BPM range 32..255. Speed range 1..31.	BPM 範圍 32..255。速度範圍 1..31。
+msg.phrase	Pattern effects can also change speed and BPM while playing.	模式效果還可以在演奏時改變速度和 BPM。
+msg.phrase	INSTRUMENTS	儀器儀表
+msg.phrase	UP/DOWN SELECT   SPACE PREVIEW   ENTER USE   F3 CLOSE	向上/向下選擇空間預覽 進入使用 F3 關閉
+msg.phrase	All four channels use wavetable synthesis.	所有四個通道都使用波表合成。
+msg.phrase	Preview plays C-4 on the track under the edit cursor.	預覽在編輯遊標下的軌道上播放 C-4。
+msg.phrase	SAVE SONG AS	將歌曲另存為
+msg.phrase	ENTER SAVE   F4 OR CTRL-C CANCEL	輸入儲存 F4 或 CTRL-C 取消
+msg.phrase	Directory:	目錄：
+msg.phrase	File name:	檔案名稱：
+msg.phrase	The extension .SGT is added automatically.	副檔名 .SGT 會自動新增。
+msg.phrase	An existing file can be overwritten.	現有文件可以被覆蓋。
+msg.phrase	OPEN SONG	開放歌曲
+msg.phrase	ENTER OPEN  BS PARENT  CTRL-O/CTRL-C CANCEL	輸入開啟 BS 父級 CTRL-O/CTRL-C 取消
+msg.phrase	(no .SGT files in this folder)	（此資料夾中沒有 .SGT 檔案）
+msg.phrase	CONFIRM	確認
+msg.phrase	Y = YES   N / ENTER / CTRL-C = NO	Y = 是 N / ENTER / CTRL-C = 否
+msg.phrase	Y = yes        N = no	Y = 是 N = 否
+msg.phrase	C-	C-
+msg.phrase	C#	C#
+msg.phrase	D-	D-
+msg.phrase	D#	D#
+msg.phrase	E-	電子-
+msg.phrase	F-	F-
+msg.phrase	F#	F#
+msg.phrase	G-	G-
+msg.phrase	G#	G#
+msg.phrase	A-	一個-
+msg.phrase	A#	A#
+msg.phrase	B-	B-
+msg.phrase	A:/dir/name	A：/目錄/名稱
+msg.phrase	MThd	平均閾值
+msg.phrase	broken MThd	破碎的MTHD
+msg.phrase	MIDI IMPORT	MIDI 匯入
+msg.phrase	MTrk	MTrk
+msg.phrase	broken delta time	破碎的增量時間
+msg.phrase	broken running status	運作狀態中斷
+msg.phrase	broken meta event	損壞的元事件
+msg.phrase	broken sysex event	損壞的 sysex 事件
+msg.phrase	broken channel event	通道中斷事件
+msg.phrase	SMF output is too small	SMF輸出太小
+msg.phrase	SMF output is too large	SMF輸出太大
+msg.phrase	the song is too long for SMF	這首歌對於 SMF 來說太長了
+msg.phrase	TRK1	TRK1
+msg.phrase	%s%d	%s%d
+msg.phrase	%s%d:%s%d	%s%d：%s%d
+msg.phrase	%s	%s
+msg.phrase	%.40s%s	%.40s%s
+msg.phrase	  [%s]   %s	[%s] %s
+msg.phrase	EDIT  	編輯
+msg.phrase	READY 	準備好
+msg.phrase	%4d 	%4d
+msg.phrase	%s Sum %.7g N %ld%s	%s 總計 %.7g N %ld%s
+msg.phrase	ARROWS      move the cell cursor\n	箭頭移動儲存格遊標
+msg.phrase	SHIFT+ARR   extend the selection (for graphs/copy)\n	SHIFT+ARR 擴充選擇（用於圖形/副本）
+msg.phrase	ENTER       edit the cell; in edit, commit and move down\n	ENTER 編輯儲存格；編輯、提交並下移
+msg.phrase	TAB         next cell    SHIFT+TAB  previous cell\n	TAB 下一個儲存格 SHIFT+TAB 上一個儲存格
+msg.phrase	DELETE      clear the selected cell(s)    ESC  cancel\n	DELETE 清除所選儲存格 ESC 取消
+msg.phrase	PGUP/PGDN   move one screen    HOME/END  first/last column\n	PGUP/PGDN 移動一畫面 HOME/END 第一列/最後一列
+msg.phrase	CTRL+HOME   A1    CTRL+END  last used cell\n	CTRL+HOME A1 CTRL+END 最後使用的儲存格
+msg.phrase	F1 help  F2 edit  F3 copy  F4 paste  F5 goto  F6 colour\n	F1 幫助 F2 編輯 F3 複製 F4 貼上 F5 到 F6 顏色
+msg.phrase	F7 auto-fit  F8 background  F9 recalc  F10 graph  F11 save  F12 menu\n	F7 自動調整 F8 背景 F9 重新計算 F10 圖形 F11 儲存 F12 選單
+msg.phrase	SHIFT+F1 about  SHIFT+F2 row height  SHIFT+F3 column width\n	SHIFT+F1 左右 SHIFT+F2 行高 SHIFT+F3 列寬
+msg.phrase	SHIFT+F4 select all  SHIFT+F10 graph range  SHIFT+F11 save as\n	SHIFT+F4 選擇所有 SHIFT+F10 圖形範圍 SHIFT+F11 另存為
+msg.phrase	CTRL+F1 new  CTRL+F2 open  CTRL+F3 save  CTRL+F4 save as\n	CTRL+F1 新建 CTRL+F2 開啟 CTRL+F3 儲存 CTRL+F4 儲存為
+msg.phrase	CTRL+F5 export CSV  CTRL+F6 export ODS  ALT+F12 quit\n	CTRL+F5 匯出 CSV CTRL+F6 匯出 ODS ALT+F12 退出
+msg.phrase	Bottom 2 lines: function keys; [SHIFT]/[CTRL]/[ALT] like the filer\n	最下面2行：功能鍵； [SHIFT]/[CTRL]/[ALT] 就像檔案管理器一樣
+msg.phrase	CTRL+S save  CTRL+O open  CTRL+N new  CTRL+C/V/X copy/paste/cut\n	CTRL+S 儲存 CTRL+O 開啟 CTRL+N 新 CTRL+C/V/X 複製/貼上/剪切
+msg.phrase	CTRL+G goto    /  open the menu (1 File, 2 Edit, ...)\n	CTRL+G 前往/開啟選單（1 文件，2 編輯，...）
+msg.phrase	Built-in functions: SUM AVERAGE MIN MAX COUNT COUNTA\n	內建函數：SUM AVERAGE MIN MAX COUNT COUNTA
+msg.phrase	PRODUCT ABS SQRT INT ROUND MOD POWER IF AND OR NOT\n	產品 ABS SQRT INT ROUND MOD 電源供應器 如果和或沒有
+msg.phrase	IFERROR LEN LEFT RIGHT MID UPPER LOWER TRIM CONCATENATE PI\n	IFERROR LEN 左 右 中 上 下 修剪 連接 PI
+msg.phrase	Cell refs: A1, $A$1, A1:B10.  Formulas begin with '='.\n	單元格參考：A1、$A$1、A1:B10。  公式以“=”開頭。
+msg.phrase	Files: .ods (LibreOffice), .fods (flat XML), .csv\n	文件：.ods (LibreOffice)、.fods（平面 XML）、.csv
+msg.phrase	ODS/FODS keeps formulas, widths, heights and colours.\n	ODS/FODS 保留公式、寬度、高度和顏色。
+msg.phrase	CSV keeps values and formulas (no colours/heights).\n	CSV 保留值和公式（無顏色/高度）。
+msg.phrase	Graph: select a range, press F10, and choose Line/Bar/Mixed/Pie.\n	圖表：選擇一個範圍，按F10，然後選擇折線圖/長條圖/混合圖/圓餅圖。
+msg.phrase	SGCALC for sgnano\n	SGCALC 用於 sgnano
+msg.phrase	Version 	版本
+msg.phrase	A Lotus 1-2-3 style spreadsheet as an SGX program.\n\n	作為 SGX 程式的 Lotus 1-2-3 樣式電子表格。
+msg.phrase	SGX ABI %u.%u\n	新交所 ABI %u.%u
+msg.phrase	Screen mode 3: text + CLUT8 FB (lowres disabled)\n	螢幕模式 3：文字 + CLUT8 FB（低解析度停用）
+msg.phrase	Sheet: %d rows x %d columns\n	工作表：%d 行 x %d 列
+msg.phrase	Formats: .ods / .fods (LibreOffice), .csv\n\n	格式：.ods / .fods (LibreOffice)、.csv
+msg.phrase	The grid is drawn on the text plane.\n	網格繪製在文字平面上。
+msg.phrase	Charts and the 640x480 background use the FB.\n\n	圖表和 640x480 背景使用 FB。
+msg.phrase	%d %s	%d %s
+msg.phrase	Cannot store the cell (%d).	無法儲存單元格（%d）。
+msg.phrase	Copied %d x %d cells	已複製 %d x %d 個單元格
+msg.phrase	Cleared %s	已清除 %s
+msg.phrase	'%s' is not a cell reference.	“%s”不是儲存格引用。
+msg.phrase	%d	%d
+msg.phrase	Column width = %d	列寬 = %d
+msg.phrase	Row height = %d	行高 = %d
+msg.phrase	Auto fit: %d column(s), %d row(s)	自動調整：%d 列，%d 行
+msg.phrase	%2d	%2d
+msg.phrase	Cannot apply the colour (%d).	無法套用顏色 (%d)。
+msg.phrase	%s colour = %d	%s 顏色 = %d
+msg.phrase	Not a valid range.\nUse a range such as A1:C10.	不是有效範圍。\n使用 A1:C10 等範圍。
+msg.phrase	Graph range %s	圖表範圍 %s
+msg.phrase	Graph: %s	圖表：%s
+msg.phrase	SGCALC: cannot set screen mode 3: %s\n	SGCALC：無法設定螢幕模式 3：%s
+msg.phrase	%.2g	%.2g
+msg.phrase	%.6g	%.6g
+msg.phrase	%s  %.0f%%	%s %.0f%%
+msg.phrase	GRAPH  %s  %s	圖表 %s %s
+msg.phrase	%s%s	%s%s
+msg.phrase	%s/%s	%s/%s
+msg.phrase	%.*s	%.*s
+msg.phrase	%.*s/	%.*s/
+msg.phrase	Cannot read %s\n%s	無法讀取 %s\n%s
+msg.phrase	Folder: %s	資料夾：%s
+msg.phrase	[DIR] %s	[目錄] %s
+msg.phrase	      %s	%s
+msg.phrase	%lu.%luM	%lu.%luM
+msg.phrase	%luK	%luK
+msg.phrase	%luB	%luB
+msg.phrase	BOOK1%s	書 1%s
+msg.phrase	%c:/	%c:/
+msg.phrase	Unsupported extension.\nUse .csv, .ods or .fods.	不支援的擴充。\n使用 .csv、.ods 或 .fods。
+msg.phrase	%s already exists.\nOverwrite it?	%s 已經存在。\n覆蓋它嗎？
+msg.phrase	%s may not be writable.\nTry anyway?	%s 可能不可寫。\n還是嘗試一下？
+msg.phrase	Unknown file type for %s	%s 的文件類型未知
+msg.phrase	Unsupported file type.\nUse .csv, .ods or .fods.	不支援的文件類型。\n使用 .csv、.ods 或 .fods。
+msg.phrase	Cannot open %s\n%s	無法打開 %s\n%s
+msg.phrase	%s is a folder.	%s 是一個資料夾。
+msg.phrase	Cannot import %s\n%s	無法導入 %s\n%s
+msg.phrase	Loaded %s	已加載 %s
+msg.phrase	Cannot build the %s file.	無法建置 %s 檔案。
+msg.phrase	Cannot write %s\n%s	無法寫入 %s\n%s
+msg.phrase	%s %s	%s %s
+msg.phrase	unsupported version %u	不支援的版本 %u
+msg.phrase	%d:%d:%d:%d:%d:%d	%d:%d:%d:%d:%d:%d
+msg.phrase	Octave %d	八度 %d
+msg.phrase	Note %s	注意%s
+msg.phrase	Instrument %d	儀器%d
+msg.phrase	Volume %s	音量 %s
+msg.phrase	Effect %c	效果%c
+msg.phrase	Parameter %s	Parameter %s
+msg.phrase	Pattern %s	模式 %s
+msg.phrase	Playing pattern %s	播放模式 %s
+msg.phrase	SAVE ERROR: %s	儲存錯誤：%s
+msg.phrase	Saved %s	已保存 %s
+msg.phrase	LOAD ERROR: %s	載入錯誤：%s
+msg.phrase	BPM %d	BPM %d
+msg.phrase	Speed %d	速度%d
+msg.phrase	Preview %s	預覽 %s
+msg.phrase	Instrument %s %s	儀器 %s %s
+msg.phrase	Overwrite %s? (Y/N)	覆蓋%s？ （是/否）
+msg.phrase	 | BPM %s SPD %s 	| BPM %s SPD %s
+msg.phrase	 SGNO TRACKER 1.0 | 	SGNO 追蹤器 1.0 |
+msg.phrase	FILE 	文件
+msg.phrase	 PAT %s	帕特%s
+msg.phrase	 ORD %d/%d	ORD %d/%d
+msg.phrase	 INS %s 	INS %s
+msg.phrase	 OCT %d	華僑城 %d
+msg.phrase	 EDIT %s	編輯%s
+msg.phrase	ON 	在
+msg.phrase	 FOL %s	下線 %s
+msg.phrase	TRACK %d	追蹤 %d
+msg.phrase	%c%s	%c%s
+msg.phrase	%s %s %s %s	%s %s %s %s
+msg.phrase	%s 	%s
+msg.phrase	%d %s %s	%d %s %s
+msg.phrase	ORDER %d/%d	訂單 %d/%d
+msg.phrase	PAT   %s	帕特%s
+msg.phrase	INS %s %s	INS %s %s
+msg.phrase	OCT %d  EDIT %s	10 月 %d 編輯 %s
+msg.phrase	FOLLOW %s	關注 %s
+msg.phrase	PLAYING  ORD %d/%d  PAT %s  ROW %s/%d  SPD %s  BPM %d  F7 STOP	正在播放 ORD %d/%d PAT %s ROW %s/%d SPD %s BPM %d F7 STOP
+msg.phrase	READY  EDIT %s  OCT %d  F1 HELP  F5 PLAY  CTRL-S SAVE	準備編輯 %s OCT %d F1 幫助 F5 播放 CTRL-S 保存
+msg.phrase	 %s 	%s
+msg.phrase	  F5          Play the song from the current order	F5 從目前順序播放歌曲
+msg.phrase	  F6          Play the current pattern	F6 播放目前模板
+msg.phrase	  F7/Ctrl-C   Stop playback	F7/Ctrl-C 停止播放
+msg.phrase	  Space       Play / stop	空間 播放/停止
+msg.phrase	  F4          Save as	F4 另存為
+msg.phrase	  Ctrl-S      Save (asks for a name if new)	Ctrl-S 儲存（如果是新的則要求輸入名稱）
+msg.phrase	  Ctrl-O      Open a song	Ctrl-O 開啟歌曲
+msg.phrase	  Ctrl-N      New song	Ctrl-N 新歌曲
+msg.phrase	  F12         Quit (confirmation if modified)	F12 退出（如果修改則確認）
+msg.phrase	  [ ]         Previous / next order entry	[ ] 上一個/下一個訂單輸入
+msg.phrase	  { }         Insert / delete an order entry	{ } 插入/刪除訂單條目
+msg.phrase	  - +         Change the pattern in the entry	- + 變更條目中的模式
+msg.phrase	  F11         Follow playback (turns off on manual move)	F11 跟隨播放（手動移動時關閉）
+msg.phrase	  F1          Help; Left/Right changes page	F1 幫助；左/右更改頁面
+msg.phrase	  F8          Toggle edit mode	F8 切換編輯模式
+msg.phrase	  Arrows      Move the cursor	箭頭 移動遊標
+msg.phrase	  PgUp/PgDn   Jump 16 rows	PgUp/PgDn 跳到 16 行
+msg.phrase	  Home/End    First / last row	Home/End 第一行/最後一行
+msg.phrase	  F9/F10      Octave down / up	F9/F10 八度向下/向上
+msg.phrase	  Z S X D C V G B H N J M      lower piano row	Z S X D C V G B H N J M 下琴排
+msg.phrase	  Q 2 W 3 E R 5 T 6 Y 7 U      upper piano row	Q 2 W 3 E R 5 T 6 Y 7 U 上琴排
+msg.phrase	  1           Note off	1 註解掉
+msg.phrase	  0 / Del     0 clears note/inst/fx; Del clears any	0 / Del 0 清除音符/inst/fx; Del 清除任何
+msg.phrase	  Ctrl-Z      Undo the last pattern/order edit	Ctrl-Z 撤銷上次的模式/順序編輯
+msg.phrase	  Axy   Volume slide: up x, down y	Axy 音量滑桿：向上 x，向下 y
+msg.phrase	  Cxx   Note cut after xx ticks	Cxx 音符在 xx 個刻度後剪切
+msg.phrase	  Dxx   Set volume (00..7F)	Dxx 設定音量 (00..7F)
+msg.phrase	  Fxx   Speed if xx < 20, otherwise BPM	如果 xx < 20，則為 Fxx 速度，否則為 BPM
+msg.phrase	  Hxy   Arpeggio x, y semitones	Hxy 琶音 x, y 半音
+msg.phrase	  Pxx   Pitch slide up	Pxx 音調向上滑動
+msg.phrase	  Qxx   Pitch slide down	Qxx 俯仰滑下
+msg.phrase	  F2 song settings, F3 instrument list	F2歌曲設定、F3樂器列表
+msg.phrase	HELP %d/2	幫助 %d/2
+msg.phrase	  Title	標題
+msg.phrase	  [%s_]	[%s_]
+msg.phrase	  BPM   : %d     (left/right -1/+1, -/+ -5/+5)	BPM：%d（左/右-1/+1，-/+ -5/+5）
+msg.phrase	  Speed : %d ticks/row	速度：%d 個刻度/行
+msg.phrase	  Rows  : %d (fixed)	行：%d（固定）
+msg.phrase	  Order : %d entries	訂單：%d 條
+msg.phrase	  Patterns in use : %d	正在使用的模式：%d
+msg.phrase	 #  NAME       WAVE       A   D   S   R  VOL	# 命名 WAVE AD S R VOL
+msg.phrase	 %c %d  %-9s %-9s %3d %3d %3d %3d %4d	%c %d %-9s %-9s %3d %3d %3d %3d %4d
+msg.phrase	Current instrument: %s %s	目前儀器：%s %s
+msg.phrase	  %s	%s
+msg.phrase	DIR  %s	目錄 %s
+msg.phrase	 %c %s%s	%c %s%s
+msg.phrase	Files: %d	文件：%d
+msg.phrase	%02d	%02d
+msg.phrase	%03d	%03d
+msg.phrase	%02X	%02X
+msg.phrase	SGNO TRACKER: incompatible SGX ABI\n	SGNO TRACKER：不相容的 SGX ABI
+msg.phrase	5 Macro	5 巨集
+msg.phrase	6 Help	6 說明
+msg.phrase	Run current	執行目前
+msg.phrase	Run the macro at the cursor (#! header cell and the cells below it)	執行游標處的巨集（#! 標頭儲存格及其下方的儲存格）
+msg.phrase	Run selection	執行選取範圍
+msg.phrase	Run the selected cells as one macro (top-left cell is the #! header)	將選取的儲存格作為一個巨集執行（左上儲存格為 #! 標頭）
+msg.phrase	Run all	全部執行
+msg.phrase	Run every macro in the sheet, top-left to bottom-right	由左上到右下執行工作表中的所有巨集
+msg.phrase	Last error	最後的錯誤
+msg.phrase	Show the last macro error	顯示最後的巨集錯誤
+msg.phrase	Macro	巨集
+msg.phrase	Macro: run #!ruby / #!python / #!basic cells	巨集：執行 #!ruby / #!python / #!basic 儲存格
+msg.phrase	Edit the cell (F2)	編輯儲存格（F2）
+msg.phrase	Fit widths/heights to the contents	依內容調整寬度/高度
+msg.phrase	Last macro error	最後的巨集錯誤
+msg.phrase	No macro error.	沒有巨集錯誤。
+msg.phrase	IME on	IME 開啟
+msg.phrase	IME off	IME 關閉
+msg.phrase	Macro: %s %s ...	巨集：%s %s ...
+msg.phrase	%s: this firmware cannot run macros (SGX ABI 5.10 or later)	%s：此韌體無法執行巨集（需要 SGX ABI 5.10 以上）
+msg.phrase	Macro error: %s	巨集錯誤：%s
+msg.phrase	Macro: %s done	巨集：%s 完成
+msg.phrase	a macro is already running	巨集已在執行中
+msg.phrase	this language is not available	此語言無法使用
+msg.phrase	not enough memory	記憶體不足
+msg.phrase	the macro stopped with an error	巨集因錯誤而停止
+msg.phrase	Macro error %s: %s	巨集錯誤 %s：%s
+msg.phrase	Macro: not enough memory	巨集：記憶體不足
+msg.phrase	Macro: the cursor is not on a macro (a #!ruby / #!python / #!basic cell or the cells below it)	巨集：游標不在巨集上（#!ruby / #!python / #!basic 儲存格或其下方的儲存格）
+msg.phrase	Macro: no macro in the sheet	巨集：工作表中沒有巨集
+msg.phrase	Run all macros	執行所有巨集
+msg.phrase	Macros: %d. Run them all, top-left to bottom-right? Changes cannot be undone.	巨集 %d 個。要由左上到右下全部執行嗎？變更無法復原。
+msg.phrase	Macro: %d of %d done	巨集：已完成 %d 個（共 %d 個）
+msg.phrase	Cleared the cell	已清除儲存格
+msg.phrase	Cleared the selection	已清除選取範圍
+msg.phrase	Background colour = %d	背景色 = %d
+msg.phrase	Text colour = %d	文字色 = %d
+msg.phrase	Graph: line	圖表：折線
+msg.phrase	Graph: bar	圖表：長條
+msg.phrase	Graph: mixed	圖表：混合
+msg.phrase	Graph: pie	圖表：圓餅
+msg.phrase	Exported %s	已匯出 %s
+msg.phrase	S: check: wait -- a file is being read or written	S: 檢查：請等待 -- 正在讀寫檔案
+msg.phrase	S: check: the drive is busy or not ready	S: 檢查：磁碟忙碌中或未就緒
+msg.phrase	nothing for this item (ContextMenu.cfg)	此項目沒有可用的操作（ContextMenu.cfg）
+msg.phrase	bad command in ContextMenu.cfg	ContextMenu.cfg 中的命令錯誤
+msg.phrase	unknown action in ContextMenu.cfg	ContextMenu.cfg 中有未知的操作
+msg.prefix	menu	選單
+msg.phrase	choose a file or folder	請選擇檔案或資料夾
+msg.phrase	this drive cannot be written	無法寫入這個磁碟機
+msg.phrase	an archive job is already running	壓縮工作已在執行
+msg.phrase	no PSRAM for the archive task	壓縮工作的 PSRAM 不足
+msg.phrase	could not start the archive task	無法開始壓縮工作
+msg.phrase	too many items (32 at most)	項目太多（最多 32 個）
+msg.phrase	nothing to compress	沒有可壓縮的東西
+msg.phrase	no name (or the name has / or \\)	沒有名稱（或名稱含有 / 或 \\）
+msg.phrase	32 items at most (mark fewer, or put them in a folder)	最多 32 個（請少標記一些，或放進一個資料夾）
+msg.prefix	archive	壓縮檔
+msg.prefix	compress	壓縮
+msg.prefix	render	WAV 匯出

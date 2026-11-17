@@ -1,0 +1,179 @@
+# 简体中文 — strings added since 2026-11-04 (machine translation, unreviewed; 2026-11-16)
+U004	全部标记 / 反转标记（同 PC-98 FD）
+U006	标记并前进 / 只标记
+U008	选择范围（Space 标记该范围）
+U009	进入文件夹 / 打开文件（F2/X 运行）
+U012	复制（Shift+C / Shift+F3 从树中选择目标）
+U014	删除（Shift+D / Shift+F4 删除文件夹）
+U016	更改属性
+U018	以文本查看（Shift+V / Ctrl+Alt+F7 十六进制）
+U019	驱动器信息
+U020	新文件夹 / 新文件
+U021	Shell sgsh / 弹出介质
+U022	重新读取
+U023	将屏幕保存为 PNG
+U024	关闭窗口 / 取消选择（在子文件夹中：上一级）
+U025	文件操作（同 FD：标记、范围、光标的顺序）
+U026	复制：从驱动器和文件夹树中选择目标。ESC 停止
+U027	删除：按 y 确认。标记和范围一起处理。文件夹连同内容
+U028	删除文件夹（连同内容）
+U030	属性：R 只读、H 隐藏、S 系统、A 存档
+U031	新文件夹
+U032	新文件（空）
+U033	以文本查看（Shift+V / Ctrl+Alt+F7 十六进制）
+U034	Shell sgsh（exit / Ctrl-D 返回文件管理器）
+U036	弹出 FDD / LS-120 / CD 介质
+U037	重新读取列表（CD：从 TOC）
+U038	通过 ZMODEM 从 PC 接收（zm.sh put）
+U039	通过 ZMODEM 发送到 PC（zm.sh get）
+U041	Ruby REPL（逐行，Ctrl-D / ESC 结束）
+U042	MicroPython REPL
+U043	拆分为 4 MB / 从 .001 合并
+U044	拆分 / 合并（同 Ctrl+F11 / F12）
+U045	屏幕（Alt+F，不与 FD 的 F 键冲突）
+U047	FB 显示页（0-3）
+U048	将 FB 清为 0 / 亮度减半（RGB555）
+U050	清除 FB 显示页 / 亮度减半
+U057	检查 S:（修复前会询问）
+U061	将 VGM/VGZ 导出为 96 kHz / 24 位 WAV
+U073	编辑器（E / Shift+F8）
+U082	Shell（csh 子集。exit / Ctrl-D 返回，help 列出命令）
+U092	检查 S: 驱动器错误
+U093	文件 %lu  文件夹 %lu
+U094	大小与链不符
+U095	没有被使用的簇
+U096	交叉链接的簇
+U097	损坏的条目
+U098	两份 FAT 不同
+U099	没有错误。
+U100	发现错误。要修复吗？
+U101	已修复（上方的数字已更正）。
+U102	无法检查或修复（S: 忙）。
+U103	[ 修复 ]
+U104	[ 取消 ]
+U112	将 %c: 固定为哪个字母？（A-Z，S 除外。ESC 取消）
+U113	驱动器  字母 / Enter 选择  F2 固定/解除字母  F3 指定字母固定  L / ESC 取消
+U114	  分区 %u
+U115	%c:*（已固定，未连接）%04X:%04X%s  %s
+U135	2 运行
+U136	3 复制
+U137	4 删除
+U138	5 改名
+U139	7 FB清
+U140	8 FB暗
+U141	9 驱动
+U142	10 EP
+U145	1 属性
+U146	2 信息
+U147	3 移动
+U148	5 新建
+U149	6 Shell
+U150	8 编辑
+U151	9 查看
+U152	10 S:检
+U154	12 重启
+U172	10ZM发
+U176	7 十六
+U177	9 许可
+U178	11 设置
+U179	设置时钟（日本时间。NTP 无法设置）
+U180	带参数运行
+U183	时间：
+U184	运行：
+U186	YYYY-MM-DD hh:mm  Enter 设置  ESC 保持
+U187	Enter 运行  <-> 移动  BS / Del 删除  ESC 取消
+U188	Enter 改名  <-> 移动  BS / Del 删除  ESC 取消
+U189	Enter 创建  <-> 移动  BS / Del 删除  ESC 取消
+U191	 个项目
+U192	文件夹会连同内容一起删除。确定吗？
+U194	（无法撤销。文件夹中的文件也会删除）
+U206	2 保存
+U207	5 颜色
+U208	6 平假
+U209	7 片假
+U210	8 预测
+U211	10 退出
+U212	1 开头
+U213	2 结尾
+U214	3 插/覆
+U215	4 词典
+U216	6 半平
+U217	7 半片
+U229	 F5                            着色（按扩展名；C/C++、mruby、MicroPython、SG BASIC、无）
+U236	                               半角平假名（Shift+F6）/ 半角片假名（Shift+F7）
+U242	       Shift+← → 将文节右端缩短/延长一个字（新的候选）
+U243	       ↑ ↓ / Tab               窗口中的上一个 / 下一个候选（在文字下方，靠近底部时在上方）
+U244	       在 →→→ 按 Enter          所有候选（2 x 8，← → 列与页，Enter 选择）
+U245	       Enter                   下一个文节（在最后一个时全部确定）
+U247	 Shift+F1 / F2 / F3 / F4       开头 / 结尾 / 插入-覆盖 / 加入用户词典
+U250	已修改  Y：保存并关闭  N：不保存关闭  ESC：返回
+U251	[预测] Tab/↑↓：候选  Space：转换  Esc：取消
+U252	[候选] ↑↓：选择  ←→：列/页  Enter：采用
+U253	[转换] ↑↓候选 ←→文节 Shift+←→边界 Enter 下一个
+U254	[한국어] Tab/↑↓：候选  Enter/Space：确定
+U255	[English] Tab/↑↓：候选  Enter：确定
+U256	2 套式韩文输入  Ctrl-Space：英数
+U257	预测补全  Ctrl-Space：直接输入
+U258	无词典：仅平假名/片假名  F6/F7
+U259	Space：转换  F7：片假名  Ctrl-Space：英数
+U260	Space：转换  F6：平假名  Ctrl-Space：英数
+U261	半角  F6：平假名  F7：片假名  Shift+F6/F7：半角
+U262	IME 关闭
+U263	 预测
+U268	着色：%s
+U276	候选
+U295	更改着色（C/C++、mruby、MicroPython、SG BASIC、无）
+U309	 来源：%s
+U310	 目标：%s
+U329	 Space：暂停  m：MIDI OUT  q / ESC：停止
+M727	S: 检查：请等待 -- 正在读写文件
+M728	S: 检查：驱动器忙或未就绪
+M729	此项目没有可用的操作（ContextMenu.cfg）
+M730	ContextMenu.cfg 中的命令有误
+M731	ContextMenu.cfg 中有未知的操作
+M732	菜单
+# 2026-11-17: archive window, compress name field, WAV export window (machine translation, unreviewed)
+U342	压缩包名称（已标记的项目，没有则为光标所在项目）
+U343	Enter 压缩  ←→ 移动  BS / Del 删除  ESC 取消
+U344	WAV 导出：%s 已中止（%s）
+U345	WAV 导出：%s 失败（%s）
+U346	WAV 导出：%s 合计 %s
+U347	 WAV 导出（96kHz / 24bit）：%s
+U348	已中止
+U349	失败
+U350	 合计 %s
+U351	 已中止（%s。已删除未完成的文件）
+U352	 无法导出（%s）。原因：
+U353	 （原因不明）
+U354	 %u%%   已用 %s%s
+U355	 ESC：停止（会删除未完成的文件）
+U356	压缩包：%s
+U357	读取中…（按 ESC 取消）
+U358	 %u 个项目%s  合计 %s 字节  解压到：%s
+U359	 Enter 解压项目  X 全部解压  ↑↓ 移动  ESC 关闭
+U360	压缩
+U361	列表
+U362	解压
+U363	 合计 %s   %u 个项目
+U364	 合计 %s   %u 个文件
+U365	 已中止（%s。已删除写到一半的文件）
+U366	 无法完成（%s）：%s
+U367	 %u%%   已用 %s   %s 字节%s
+U368	 已用 %s   %s 字节%s
+U369	 ESC：停止（会删除写到一半的文件）
+U370	压缩包：%s 失败（%s）
+U371	已压缩：%s（%u 个项目）
+U372	已解压：%s（%u 个文件）
+# 2026-11-17: archive / compress messages (machine translation, unreviewed)
+M733	请选择文件或文件夹
+M734	无法写入这个驱动器
+M735	压缩任务已在运行
+M736	压缩任务的 PSRAM 不足
+M737	无法开始压缩任务
+M738	项目太多（最多 32 个）
+M739	没有可压缩的东西
+M740	没有名称（或名称含有 / 或 \\）
+M741	最多 32 个（请少标记一些，或放进一个文件夹）
+M742	压缩包
+M743	压缩
+M744	WAV 导出

@@ -1,0 +1,787 @@
+# sq: machine translation (Google), unreviewed; 2026-11-17
+M001	makinë u largua
+M002	duke lexuar përsëri ndarjet ...
+M003	nuk mund ta hapte volumin (pa memorie?)
+M004	hapja e volumit...
+M005	nuk ka memorie për listën e skedarëve
+M006	duke lexuar drejtorinë... (duke riprovuar)
+M007	nuk mund ta lexonte drejtorinë
+M008	duke lexuar drejtorinë...
+M009	disku nuk u përgjigj -- duke lexuar përsëri ndarjet
+M010	nuk e lexova dot drejtorinë (nuk FAT12/16/32?)
+M011	shumë hyrje -- duke shfaqur të parat
+M012	nuk u gjet asnjë sistem skedari në këtë ndarje
+M013	rruga është shumë e gjatë
+M014	duke u bashkuar...
+M015	duke u ndarë...
+M016	riemërimi...
+M017	krijimi i dosjes...
+M018	krijimi i skedarit...
+M019	po fshihet...
+M020	duke shkruar atributet...
+M021	makina është e zënë
+M022	i zënë
+M023	zgjidhni skedarët ose dosjet
+M024	zgjidhni skedarë ose dosje (jo "..")
+M025	ndaloni CD-në së pari
+M026	CD-ja nuk mund të ndryshohet (kopjoni në vend të kësaj)
+M027	një dosje e sistemit nuk mund të zhvendoset
+M028	asnjë disk nuk mund të shkruhet (vetëm FAT / exFAT / NTFS)
+M029	disku është zhdukur
+M030	asgjë e zgjedhur
+M031	asgjë e zgjedhur
+M032	nuk mund të fillonte
+M033	nuk mund të hapej
+M034	vetëm në një disk FAT / exFAT / NTFS
+M035	asnjë emër
+M036	ai emër tashmë ekziston
+M037	nuk mund të nisej (emër i keq ose disku është i zënë)
+M038	nuk mund të nisej (disku është i zënë)
+M039	emri nuk mund të ketë / ose \\ (vetëm brenda kësaj dosjeje)
+M040	emri është i njëjtë
+M041	artikulli është vetëm për lexim (A për të ndryshuar)
+M042	zgjidhni një skedar .rb në një disk të shkrueshëm
+M043	zgjidhni një skedar .rb
+M044	disku është vetëm për lexim
+M045	zgjidhni një dosje në një disk të shkrueshëm
+M046	prisni një moment
+M047	zgjidhni një skedar
+M048	zgjidhni një skedar (jo një dosje)
+M049	zgjidhni një skedar .001
+M050	zgjidhni skedarin .001
+M051	vendosni IWAD në një dosje DoomFiles ose Doom2Files
+M052	DoomFiles merr freedoom1 / doom / doomu / doom1.wad
+M053	Doom2Files merr freedoom2 / doom2 / plutonia / tnt.wad
+M054	vendosni skedarët e lojës në memorie të jashtme, jo S:
+M055	IWAD duhet të jetë në një disk FAT / exFAT / NTFS (jo CD)
+M056	ende duke punuar
+M057	një imazh po ngarkohet
+M058	nuk ka framebuffer
+M059	gjysma e shkëlqimit funksionon vetëm në RGB555
+M060	pastrimi...
+M061	duke përgjysmuar ndriçimin...
+M062	që është një gjurmë të dhënash
+M063	prisni -- një skedar po shkruhet
+M064	vetëm disqe / LS-120 / CD
+M065	kërkuar
+M066	duke lexuar diskun...
+M067	duke u ndalur...
+M068	hapja...
+M069	bërë
+M070	asnjë kujtim
+M071	tashmë e hapur
+M072	tashmë kandidon
+M073	tashmë duke kursyer
+M074	tashmë duke luajtur
+M075	nuk ka një makinë të tillë
+M076	nuk ka PSRAM
+M077	nuk ka PSRAM për skedarin
+M078	nuk ka PSRAM për indeksin e linjës
+M079	nuk ka PSRAM për terminalin
+M080	pa memorie (PSRAM)
+M081	pa memorie (32 KB SRAM)
+M082	nuk ka memorie për buferin
+M083	nuk ka memorie për buferët e imazhit
+M084	nuk ka memorie për buferin e leximit
+M085	nuk ka vend për kujtesën e punës (mbyll planin e uljes?)
+M086	nuk ka faqe framebuffer
+M087	shumë i madh (maksimumi 4 MB)
+M088	skedari është shumë i madh (maksimumi 1 MB)
+M089	skedari është shumë i madh (maksimumi 1 MB)
+M090	shumë i madh për një SMF (maksimumi 1 MB)
+M091	skedari është bosh
+M092	nuk mund ta hapte skedarin
+M093	nuk mund ta lexonte skedarin
+M094	nuk mund ta hapte volumin
+M095	nuk mund ta hapte destinacionin (pa memorie?)
+M096	nuk mund të lexonte dosjen rrënjë
+M097	nuk mund të fillonte detyrën
+M098	nuk mund të filloj të shkruaj (emër i keq ose i zënë)
+M099	një vëllim tjetër është i hapur (i zënë)
+M100	një kopje po ekzekutohet
+M101	një dosje nuk mund të hyjë në vetvete
+M102	që është e njëjta dosje
+M103	ky disk nuk mund të ndryshohet (vetëm për lexim)
+M104	disku nuk mund të shkruhet
+M105	madhësia e pjesës duhet të jetë shumëfish i 512
+M106	skedarët prej 4 GB ose më shumë nuk mbështeten
+M107	rrugë e keqe
+M108	emri i keq i skedarit
+M109	ROM-i i fontit nuk është aty
+M110	zëri nuk është i hapur
+M111	asnjë kanal të tillë
+M112	sekuencori është i zënë
+M113	nuk mjafton PSRAM për këngën
+M114	jo një skedar standard MIDI (pa MThd)
+M115	asnjë gjurmë
+M116	një pistë është prishur (MTrk)
+M117	Ndarja e kohës SMPTE nuk mbështetet
+M118	Formati SMF 2 nuk mbështetet (vetëm 0 dhe 1)
+M119	jo një makinë vetëm me shumicë
+M120	jo një makinë optike
+M121	një dosje e sistemit nuk mund të fshihet ose riemërtohet
+M122	nuk ka media në makinë
+M123	duke u bërë gati
+M124	jo gati
+M125	media ka ndryshuar
+M126	gabim mesatar
+M127	kërkesë e paligjshme
+M128	një hyrje e keqe në drejtori
+M129	një drejtori në rrugë nuk ekziston
+M130	një skedar ka atë emër
+M131	një dosje ka atë emër
+M132	një emër në rrugë nuk është një drejtori
+M133	anuluar
+M134	nuk mund të montohej
+M135	nuk mund të fillonte një lexim
+M136	nuk mund të fillonte një shkrim
+M137	është një direktori
+M138	që është një direktori
+M139	nuk ka grupime
+M140	nuk ka vend për listën e grupimeve
+M141	asnjë skedar apo drejtori të tillë
+M142	asnjë skedar i tillë
+M143	pa volum
+M144	jo NTFS
+M145	jo exFAT
+M146	jo një drejtori
+M147	nuk u gjet
+M148	gabim leximi
+M149	gabim shkrimi
+M150	leximi i FAT dështoi
+M151	zinxhiri i grupit është më i shkurtër se skedari
+M152	drejtoria nuk është bosh
+M153	disku është plot
+M154	makinë nuk u përgjigj
+M155	skedari është vetëm për lexim
+M156	skedari është shumë i fragmentuar
+M157	skedari është shumë i madh (4 GB)
+M158	emri i ri ekziston tashmë
+M159	direktoria rrënjësore është e plotë
+M160	shumë skedarë me të njëjtin emër të shkurtër
+M161	Asnjë skedar apo drejtori i tillë
+M162	Skedari ekziston
+M163	Leja u refuzua
+M164	Drejtoria nuk është bosh
+M165	Jo një drejtori
+M166	Është një drejtori
+M167	Sistemi i skedarëve vetëm për lexim
+M168	Nuk ka vend në pajisje
+M169	Gabim hyrje/dalje
+M170	Nuk mbështetet në këtë disk
+M171	Rrugë e pavlefshme
+M172	Pa memorie
+M173	Nuk ka një makinë të tillë
+M174	ndaloi
+M175	anuluar (nuk ka hapësirë ​​të mjaftueshme të lirë)
+M176	nuk mund të numëronte hapësirën e lirë
+M177	marrësi u anulua
+M178	pa marrës (ekzekutoni rz në PC)
+M179	tastiera UART është në përdorim
+M180	modaliteti i ekranit ndryshoi
+M181	linjat nuk erdhën (a po funksionon ekrani?)
+M182	kopje
+M183	lëvizin
+M184	fshij
+M185	riemërto
+M186	atributet
+M187	skedar i ri
+M188	dosje e re
+M189	imazh
+M190	mrbc
+M191	rubin
+M192	shikues
+M193	redaktoni
+M194	Identifikimi
+M195	ZMODEM
+M196	ZMODEM marrin
+M197	Dërgo ZMODEM
+M198	ndarë
+M199	bashkohen
+M200	Dënim
+M201	SMF
+M202	CD
+M203	FB
+M204	Nxjerr
+M205	rindezje
+M206	licencë
+M207	ora
+M208	ADC në
+M209	ekran -> PNG
+M210	FB -> PNG
+M211	nuk mund ta hapte volumin
+M212	marrë
+M213	dërguar
+M214	i ruajtur
+M215	krijuar
+M216	riemëruar në
+M217	fshihet
+M218	ndryshuar
+M219	u bashkuan
+M220	ndarë
+M221	nuk mund të krijonte
+M222	nuk mund të fshihej
+M223	nuk mund të riemërtohej në
+M224	nuk mund të ndryshonte
+M225	nuk mund të lexonte
+M226	nuk mund të shkruante
+M227	nuk mund të kopjohej
+M228	nuk mund të bënte
+M229	dosjen nuk mund ta hiqte
+M230	nuk mund të hiqte
+M231	nuk ka memorie për
+M232	shumë gabime gjatë dërgimit
+M233	marrësi nuk ka marrë
+M234	marrësi kapërceu
+M235	Faqja në FB
+M236	byte secili)
+M237	byte)
+M238	KB)
+M239	pjesë në
+M240	pjesë (
+M241	në
+M242	: pastruar
+M243	: ndriçimi i përgjysmuar
+M244	% e lexuar
+M245	rreshtave
+M246	-- nuk mbështetet ende (vetëm FAT / exFAT / NTFS)
+M247	dosjet
+M248	(
+M249	Pa titull
+M250	1 Skedar
+M251	2 Redakto
+M252	3 Grafiku
+M253	4 Fletë
+M254	5 Ndihmë
+M255	BOSH
+M256	NUMËR
+M257	TEKST
+M258	FORMULA
+M259	Shkruani për të hyrë, F2 për të modifikuar, F1 për ndihmë
+M260	5 CSV
+M261	6 ODS
+M262	[SHIFT]
+M263	[CTRL]
+M264	[ALT]
+M265	Gati
+M266	SGCALC
+M267	Shtypni çdo tast
+M268	Y = po N = jo Esc = anuloj
+M269	Enter = OK Esc = anuloj Ctrl-U = pastrohet
+M270	Rreshti/kolona e parë = etiketat; grafikët përdorin 640x480 CLUT8 FB.
+M271	SGCALC - NDIHMË
+M272	Shtypni çdo tast për t'u kthyer
+M273	Shtypni çdo tast për t'u kthyer.
+M274	RRETH SGCALC
+M275	E re
+M276	Filloni një fletë të re
+M277	Hape...
+M278	Hapni një skedar ODS, FODS ose CSV
+M279	Ruaj
+M280	Ruani skedarin aktual
+M281	Ruaj si...
+M282	Ruani me një emër ose format të ri
+M283	Eksporto CSV...
+M284	Shkruani një kopje CSV
+M285	Eksporto ODS...
+M286	Shkruani një kopje të LibreOffice
+M287	Hiq dorë
+M288	Largohu nga SGCALC
+M289	E qartë
+M290	Pastro qelizat e zgjedhura
+M291	Kopjo
+M292	Kopjoni përzgjedhjen
+M293	Paste
+M294	Ngjitni në kursorin
+M295	Prerë
+M296	Kopjoni dhe pastroni përzgjedhjen
+M297	Zgjidh të gjitha
+M298	Zgjidhni të gjitha qelizat e përdorura
+M299	Ngjyra e tekstit...
+M300	Zgjidhni ngjyrën e tekstit
+M301	Sfondi...
+M302	Zgjidhni sfondin e qelizës
+M303	Linja
+M304	Vizatoni një grafik vijues nga përzgjedhja
+M305	Bar
+M306	Vizatoni një grafik me shtylla nga përzgjedhja
+M307	Të përziera
+M308	Shufra për serinë e parë, rreshta për pjesën tjetër
+M309	Byrek
+M310	Vizatoni një grafik byrek nga përzgjedhja
+M311	Gama...
+M312	Vendosni në mënyrë eksplicite gamën e grafikut
+M313	Vizatoni përsëri
+M314	Rivizatoni grafikun e fundit
+M315	Shkoni...
+M316	Shkoni në një qelizë (për shembull C12)
+M317	Gjerësia e kolonës...
+M318	Ndryshoni gjerësinë e kolonave të zgjedhura
+M319	Lartësia e rreshtit...
+M320	Ndryshoni lartësinë e rreshtave të zgjedhur
+M321	Përshtatje automatike
+M322	Përshtatni gjerësitë/lartësitë me përmbajtjen (F7)
+M323	Rillogaritni
+M324	Rivlerësoni të gjitha formulat
+M325	Fshini të gjitha
+M326	Pastro të gjithë fletën
+M327	Çelësat
+M328	Trego udhëzuesin kyç
+M329	Rreth
+M330	Rreth SGCALC
+M331	Skedari
+M332	Redakto
+M333	Grafiku
+M334	Fletë
+M335	Ndihmë
+M336	Skedari: i ri, i hapur, i ruajtur, i eksportuar, i daljes
+M337	Redakto: fshij, kopjo, ngjit, pre, zgjidh të gjitha
+M338	Grafiku: rreshti, shiriti, i përzier, byrek (vizatimet në FB)
+M339	Fletë: goto, gjerësia e kolonës, rillogarit, fshi
+M340	Ndihmë: çelësat dhe rreth
+M341	Majtas/Djathtas = menyja Lart/Poshtë = artikulli Enter = zgjidhni Esc = anuloni
+M342	Anuluar
+M343	Zgjedhja është shumë e madhe ose memoria është e ulët.
+M344	qeliza
+M345	përzgjedhjen
+M346	Asgjë për të ngjitur
+M347	Ngjitur
+M348	SHKO NE QELIZ
+M349	Referenca e qelizës (A1):
+M350	Shkoni
+M351	GJERËSIA E KOLONËS
+M352	Gjerësia në karaktere (4..30):
+M353	LARTËSIA E RRESHTIT
+M354	Lartësia në rreshtat e tekstit (1..8):
+M355	Përshtatje automatike: fleta është bosh
+M356	NGJYRA E Sfondit
+M357	NGJYRA E TEKSTIT
+M358	Shigjetat: zgjidhni Enter: aplikoni Esc: anuloni
+M359	Indeksi i ngjyrave (PC-98 me 16 ngjyra)
+M360	Aa 123
+M361	Shkruani = aplikoni Esc = anuloni
+M362	Ngjyra
+M363	Sfondi
+M364	Teksti
+M365	GAME GRAFIK
+M366	Gama (për shembull A1:C10):
+M367	Gama e grafikut
+M368	Përdorni një gamë të tillë si A1:C10.
+M369	Nuk mund të vizatohet grafiku.
+M370	linjë
+M371	bar
+M372	të përziera
+M373	byrek
+M374	Të pastrohet çdo qelizë në këtë fletë?
+M375	Fleta u fshi
+M376	Përzgjodhi të gjitha qelizat e përdorura
+M377	Rillogaritur
+M378	Kujtesa
+M379	Nuk ka mjaftueshëm PSRAM për tabelën.
+M380	Fleta është bosh.
+M381	Nuk ka të dhëna numerike në diapazonin e zgjedhur.
+M382	Të tjera
+M383	Nuk ka vlera pozitive për një grafik byrek
+M384	LINJA
+M385	BAR
+M386	E PËRZIERUR
+M387	byrek
+M388	S:/
+M389	Dosja
+M390	RUAJ SI
+M391	HAP DOSJE
+M392	LibreOffice / CSV
+M393	ODS FODS CSV
+M394	Emri:
+M395	(shkruani një emër ose zgjidhni më poshtë)
+M396	Emri
+M397	Madhësia
+M398	Enter=save Left=lart Djathtas/Enter on [DIR]=open Tab=drive Esc=anulo
+M399	Enter=hap Majtas=lart Djathtas/Enter në [DIR]=open Tab=drive Esc=anulo
+M400	Nuk ka memorie të mjaftueshme.
+M401	Mbishkruani
+M402	Hapur
+M403	Skedari është shumë i madh (kufiri 8 MB).
+M404	Nuk ka memorie të mjaftueshme për të lexuar skedarin.
+M405	Të dhëna të këqija ZIP/ODS.
+M406	Gabim CRC në skedarin ODS.
+M407	Skedar i pambështetur ose i dëmtuar.
+M408	U ruajt
+M409	Eksportohet
+M410	Ndryshime të paruajtura
+M411	Të ruhet fleta aktuale përpara se të vazhdohet?
+M412	Fletë e re
+M413	SGTRK
+M414	PA TITULL
+M415	kënga është shumë e madhe
+M416	skedar bosh
+M417	jo një skedar SGT
+M418	BPM e keqe
+M419	shpejtësi e keqe
+M420	gjatësi e keqe e titullit
+M421	titull i cunguar
+M422	personazh i keq në titull
+M423	rend i cunguar
+M424	gjatësia e porosisë së keqe
+M425	numri i modelit të keq në rregull
+M426	lista e modeleve të cunguara
+M427	numërim i keq i modeleve
+M428	indeksi i modelit të keq
+M429	model i dyfishtë
+M430	të dhëna të shkurtuara të modelit
+M431	të dhëna të pavlefshme modeli
+M432	të dhënat pasuese në dosje
+M433	rendi i referohet një modeli që mungon
+M434	A:/
+M435	(pa titull)
+M436	Gati. Shtypni F1 për ndihmë.
+M437	Ndiqni OFF
+M438	Nuk ka asgjë për të zhbërë
+M439	Zhbër
+M440	Shënimi OFF
+M441	Vendosni fillimisht një shkronjë efekti
+M442	Efekti u pastrua
+M443	Parametri u fshi
+M444	Shënimi u fshi
+M445	Instrumenti u pastrua
+M446	Vëllimi u pastrua
+M447	Lista e porosive është e plotë
+M448	Urdhri u fut
+M449	Nuk mund të fshihet porosia e fundit
+M450	Porosia u fshi
+M451	Duke luajtur këngë
+M452	Ndaloi
+M453	Kenge e re
+M454	Të hiqen ndryshimet e paruajtura dhe të filloni një këngë të re? (Po/Jo)
+M455	Të hiqen ndryshimet e paruajtura dhe të hapet një këngë? (Po/Jo)
+M456	Të hiqen ndryshimet e paruajtura dhe të largoheni? (Po/Jo)
+M457	Cilësimet e këngës u përditësuan
+M458	Emri i skedarit është bosh
+M459	Ruajtja u anulua
+M460	Hapja u anulua
+M461	Redakto AKTIV
+M462	Ndrysho OAK
+M463	Ndiqni ON
+M464	Redaktimi është OAK. Shtypni F8 për të modifikuar.
+M465	Gabim I/O
+M466	skedari është shumë i madh
+M467	skedar i cunguar
+M468	SINE PAD
+M469	TREKËNDËSH
+M470	Plumbi i sharrës
+M471	SHESHI
+M472	PULSI 25
+M473	ORGAN
+M474	BASS
+M475	BELL
+M476	ZHURMA
+M477	SINE
+M478	SAW
+M479	FAKT
+M480	AKTIV
+M481	RRESHT
+M482	NIVELI CHAN
+M483	F1 HELP F2 SONG
+M484	F3 INS F4 SAVE
+M485	F5 LUAJ F6 PAT
+M486	F7 STOP F8 EDIT
+M487	F9/F10 OKTAVE
+M488	F11 FOLLO
+M489	F12 QUIT
+M490	PLAY/STOP SPACE
+M491	CTRL-S SAVE
+M492	CTRL-O HAPUR
+M493	C-N E RI C-Z ZHQYRJE
+M494	C-C STOP
+M495	#TRANSPORTI DHE DOSJE
+M496	#LISTA E POROSIT
+M497	#SHPALL
+M498	#EDITIM
+M499	#EFEKTE (parametri është heksadecimal)
+M500	FAQJA E Majtas/Djathtas HYNI OSE F1 MBYLL
+M501	CILËSIMET E KËNGËS
+M502	LARTË/POSHT ZGJIDHNI TË Majtas/Djathtas RREGULLONI ENTER/F2 MBYLL
+M503	Shkruani për të modifikuar titullin. Backspace fshin karakterin e fundit.
+M504	Gama e BPM 32..255. Gama e shpejtësisë 1..31.
+M505	Efektet e modelit mund të ndryshojnë gjithashtu shpejtësinë dhe BPM gjatë lojës.
+M506	INSTRUMENTET
+M507	LARTË/POSHT ZGJIDHJE PARAPRAKE TË HAPËSIRËS HYNI PËRDORIMI F3 MBYLL
+M508	Të katër kanalet përdorin sintezën e valëve.
+M509	Preview luan C-4 në pistën nën kursorin e modifikimit.
+M510	RUAJE KENGEN SI
+M511	SHQYRONI SAVE F4 OSE CTRL-C ANULO
+M512	Drejtoria:
+M513	Emri i skedarit:
+M514	Shtesa .SGT shtohet automatikisht.
+M515	Një skedar ekzistues mund të mbishkruhet.
+M516	KËNGË E HAPUR
+M517	FYTO HAPI BS PRENT CTRL-O/CTRL-C ANULO
+M518	(nuk ka skedarë .SGT në këtë dosje)
+M519	KONFIRMOJ
+M520	Y = PO N / ENTER / CTRL-C = JO
+M521	Y = po N = jo
+M522	C-
+M523	C#
+M524	D-
+M525	D#
+M526	E-
+M527	F-
+M528	F#
+M529	G-
+M530	G#
+M531	A-
+M532	A#
+M533	B-
+M534	A:/dir/emër
+M535	Mthd
+M536	thyer MThd
+M537	MIDI IMPORT
+M538	MTrk
+M539	koha e thyer e deltës
+M540	statusi i funksionimit të prishur
+M541	ngjarje meta e prishur
+M542	Ngjarja e prishur e syseksit
+M543	ngjarje e kanalit të prishur
+M544	Dalja SMF është shumë e vogël
+M545	Dalja SMF është shumë e madhe
+M546	kënga është shumë e gjatë për SMF
+M547	TRK1
+M548	%s%d
+M549	%s%d:%s%d
+M550	%s
+M551	%.40s%s
+M552	[%s] %s
+M553	EDIT
+M554	GATI
+M555	%4d
+M556	%s Shuma %.7g N %ld%s
+M557	Shigjetat lëvizin kursorin e qelizës
+M558	SHIFT+ARR zgjerojnë përzgjedhjen (për grafikët/kopjimin)
+M559	ENTER modifikoni qelizën; në redaktim, angazhohu dhe lëviz poshtë
+M560	TAB qeliza tjetër SHIFT+TAB qeliza e mëparshme
+M561	DELETE pastroni qelizat e zgjedhura anulimin ESC
+M562	PGUP/PGDN zhvendos një ekran HOME/FUND kolonën e parë/të fundit
+M563	CTRL+HOME A1 CTRL+END qeliza e fundit e përdorur
+M564	F1 ndihmë F2 redaktoni F3 kopjoni F4 paste F5 shkoj me ngjyra F6
+M565	F7 përshtatet automatikisht F8 sfondi F9 ricalc F10 grafiku F11 ruaj menunë F12
+M566	SHIFT+F1 rreth SHIFT+F2 lartësia e rreshtit SHIFT+F3 gjerësia e kolonës
+M567	SHIFT+F4 zgjidhni të gjithë diapazonin e grafikut SHIFT+F10 SHIFT+F11 ruajeni si
+M568	CTRL+F1 CTRL+F2 i ri hap CTRL+F3 ruaj CTRL+F4 ruaj si
+M569	CTRL+F5 eksporto CSV CTRL+F6 eksporto ODS ALT+F12 u mbyll
+M570	2 rreshtat e poshtëm: tastet e funksionit; [SHIFT]/[CTRL]/[ALT] si skedari
+M571	CTRL+S ruani CTRL+O hapni CTRL+N CTRL+C/V/X kopjoni/ngjisni/preni
+M572	CTRL+G shkoi / hap menunë (1 skedar, 2 modifiko, ...)
+M573	Funksionet e integruara: SHUMË MESATORE MIN MAX COUNT COUNTA
+M574	PRODUKTI ABS SQRT INT ROUND MOD POWER NËSE DHE APO JO
+M575	IFERROR LEN Majtas Djathtas MID E SIPËRME E POSHTME TRIM KONCATENATE PI
+M576	Referencat e qelizave: A1, $A$1, A1:B10.  Formulat fillojnë me '='.
+M577	Skedarët: .ods (LibreOffice), .fods (XML e sheshtë), .csv
+M578	ODS/FODS ruan formulat, gjerësinë, lartësinë dhe ngjyrat.
+M579	CSV ruan vlerat dhe formulat (pa ngjyra/lartësi).
+M580	Grafiku: zgjidhni një interval, shtypni F10 dhe zgjidhni Line/Bar/Mixed/Pie.
+M581	SGCALC për sgnano
+M582	Versioni
+M583	Një fletëllogaritëse e stilit Lotus 1-2-3 si një program SGX.
+M584	SGX ABI %u.%u
+M585	Modaliteti i ekranit 3: tekst + CLUT8 FB (ulet i çaktivizuar)
+M586	Fleta: %d rreshta x %d kolona
+M587	Formatet: .ods / .fods (LibreOffice), .csv
+M588	Rrjeti vizatohet në rrafshin e tekstit.
+M589	Grafikët dhe sfondi 640x480 përdorin FB.
+M590	%d %s
+M591	Nuk mund të ruhet qeliza (%d).
+M592	%d x %d qeliza të kopjuara
+M593	U pastrua %s
+M594	'%s' nuk është një referencë qelize.
+M595	%d
+M596	Gjerësia e kolonës = %d
+M597	Lartësia e rreshtit = %d
+M598	Përshtatja automatike: %d kolona(t), %d rreshtat
+M599	%2d
+M600	Nuk mund të aplikohet ngjyra (%d).
+M601	%s ngjyra = %d
+M602	Gama jo e vlefshme.\nPërdorni një gamë të tillë si A1:C10.
+M603	Gama e grafikut %s
+M604	Grafiku: %s
+M605	SGCALC: nuk mund të caktojë modalitetin e ekranit 3: %s
+M606	%.2g
+M607	%.6g
+M608	%s %.0f%%
+M609	GRAFIK %s %s
+M610	%s%s
+M611	%s/%s
+M612	%.*s
+M613	%.*s/
+M614	Nuk mund të lexohet %s\n%s
+M615	Dosja: %s
+M616	[DIR] %s
+M617	%s
+M618	%lu.%luM
+M619	%luK
+M620	%luB
+M621	LIBRI 1%s
+M622	%c:/
+M623	Shtesa e pambështetur.\nPërdorni .csv, .ods ose .fods.
+M624	%s ekziston tashmë.\nTë mbishkruhet?
+M625	%s mund të mos shkruhet.\nTë provohet gjithsesi?
+M626	Lloji i skedarit i panjohur për %s
+M627	Lloji i skedarit i pambështetur.\nPërdorni .csv, .ods ose .fods.
+M628	%s nuk mund të hapet\n%s
+M629	%s është një dosje.
+M630	%s nuk mund të importohet\n%s
+M631	Ngarkuar %s
+M632	Skedari %s nuk mund të ndërtohet.
+M633	Nuk mund të shkruhet %s\n%s
+M634	%s %s
+M635	versioni i pambështetur %u
+M636	%d:%d:%d:%d:%d:%d
+M637	Tetë %d
+M638	Shënim %s
+M639	Instrumenti %d
+M640	Vëllimi %s
+M641	Efekti %c
+M642	Parametri %s
+M643	Modeli %s
+M644	Modeli i luajtjes %s
+M645	RUAJI GABIMIN: %s
+M646	I ruajtur %s
+M647	GABIM NGARKIMI: %s
+M648	BPM %d
+M649	Shpejtësia %d
+M650	Parashikimi %s
+M651	Instrumenti %s %s
+M652	Mbishkruani %s? (Po/Jo)
+M653	| BPM %s SPD %s
+M654	SGNO TRACKER 1.0 |
+M655	DOSJE
+M656	PAT %s
+M657	ORD %d/%d
+M658	INS %s
+M659	TETOR %d
+M660	EDIT %s
+M661	AKTIV
+M662	FOL %s
+M663	GJURME %d
+M664	%c%s
+M665	%s %s %s %s
+M666	%s
+M667	%d %s %s
+M668	ORDER %d/%d
+M669	PAT %s
+M670	INS %s %s
+M671	TETOR %d EDIT %s
+M672	NDIQNI %s
+M673	LUAJTJA E ORDIS %d/%d PAT %s RRESHT %s/%d SPD %s BPM %d F7 STOP
+M674	READY EDIT %s TETOR %d F1 HELP F5 LUANI CTRL-S SAVE
+M675	%s
+M676	F5 Luaj këngën nga rendi aktual
+M677	F6 Luaj modelin aktual
+M678	F7/Ctrl-C Ndalo riprodhimin
+M679	Hapësirë ​​Luaj / ndalesë
+M680	F4 Ruaj si
+M681	Ctrl-S Save (kërkon një emër nëse është i ri)
+M682	Ctrl-O Hapni një këngë
+M683	Ctrl-N Këngë e re
+M684	F12 Dil (konfirmim nëse modifikohet)
+M685	[ ] Hyrja e porosisë së mëparshme / tjetër
+M686	{ } Fut / fshi një hyrje porosie
+M687	- + Ndrysho modelin në hyrje
+M688	F11 Ndiqni riprodhimin (çaktivizohet në lëvizje manuale)
+M689	Ndihmë F1; Faqja e ndryshimeve majtas/djathtas
+M690	F8 Ndrysho modalitetin e modifikimit
+M691	Shigjetat Lëvizni kursorin
+M692	PgUp/PgDn Kërce 16 rreshta
+M693	Faqja kryesore/Fundi Rreshti i parë / i fundit
+M694	F9/F10 oktavë poshtë / lart
+M695	Z S X D C V G B H N J M rreshti i poshtëm i pianos
+M696	Q 2 W 3 E R 5 T 6 Y 7 U rreshti i sipërm i pianos
+M697	1 Shënim i fikur
+M698	0 / Del 0 fshin shënimin/inst/fx; Del fshin ndonjë
+M699	Ctrl-Z Zhbëj modifikimin e fundit të modelit/porosisë
+M700	Rrëshqitja e vëllimit me bosht: lart x, poshtë y
+M701	Cxx Shënimi i prerë pas tik-takave xx
+M702	Vëllimi i vendosur Dxx (00..7F)
+M703	Fxx Shpejtësia nëse xx < 20, përndryshe BPM
+M704	Hxy Arpeggio x, y gjysmëtone
+M705	Pxx Pitch rrëshqitje lart
+M706	Qxx Pitch rrëshqet poshtë
+M707	Cilësimet e këngës F2, lista e instrumenteve F3
+M708	NDIHMË %d/2
+M709	Titulli
+M710	[%s_]
+M711	BPM: %d (majtas/djathtas -1/+1, -/+ -5/+5)
+M712	Shpejtësia: %d tik-ta/rresht
+M713	Rreshtat: %d (të fiksuara)
+M714	Renditja: %d hyrjet
+M715	Modelet në përdorim : %d
+M716	# EMRI VALA A D S R VOL
+M717	%c %d %-9s %-9s %3d %3d %3d %3d %4d
+M718	Instrumenti aktual: %s %s
+M719	%s
+M720	DIR %s
+M721	%c %s%s
+M722	Skedarët: %d
+M723	%02d
+M724	%03d
+M725	%02X
+M726	SGNO TRACKER: SGX ABI i papajtueshëm
+M727	S: kontrolloni: prisni -- një skedar po lexohet ose shkruhet
+M728	S: kontrolloni: disku është i zënë ose nuk është gati
+M729	asgjë për këtë artikull (ContextMenu.cfg)
+M730	komandë e keqe në ContextMenu.cfg
+M731	veprim i panjohur në ContextMenu.cfg
+M732	menu
+M733	zgjidhni një skedar ose dosje
+M734	kjo makinë nuk mund të shkruhet
+M735	një punë arkivimi tashmë po funksionon
+M736	nuk ka PSRAM për detyrën e arkivit
+M737	nuk mund të fillonte detyrën e arkivit
+M738	shumë artikuj (maksimumi 32)
+M739	asgjë për të ngjeshur
+M740	pa emër (ose emri ka / ose \\)
+M741	Më së shumti 32 artikuj (shënoni më pak ose vendosini në një dosje)
+M742	arkivi
+M743	ngjesh
+M744	japin
+N001	5 Makro
+N002	6 Ndihmë
+N003	Ekzekutoni rrymën
+N004	Ekzekutoni makron në kursor (#! qeliza e kokës dhe qelizat poshtë saj)
+N005	Ekzekutoni përzgjedhjen
+N006	Ekzekutoni qelizat e zgjedhura si një makro (qeliza lart majtas është titulli #!)
+N007	Vraponi të gjitha
+N008	Drejtoni çdo makro në fletë, nga lart-majtas në fund-djathtas
+N009	Gabimi i fundit
+N010	Trego gabimin e fundit makro
+N011	Makro
+N012	Makro: ekzekutoni #!ruby / #!python / #!qelizat bazë
+N013	Redaktoni qelizën (F2)
+N014	Përshtatni gjerësitë/lartësitë me përmbajtjen
+N015	Gabimi i fundit makro
+N016	Asnjë gabim makro.
+N017	IME aktivizohet
+N018	IME fikur
+N019	Makro: %s %s ...
+N020	%s: ky firmware nuk mund të ekzekutojë makro (SGX ABI 5.10 ose më vonë)
+N021	Gabim makro: %s
+N022	Makro: %s bërë
+N023	një makro po funksionon tashmë
+N024	kjo gjuhë nuk është e disponueshme
+N025	memorie jo e mjaftueshme
+N026	makro ndaloi me një gabim
+N027	Gabim makro %s: %s
+N028	Makro: memorie e pamjaftueshme
+N029	Makro: kursori nuk është në një makro (një qelizë bazë #!ruby / #!python / #! ose qelizat poshtë saj)
+N030	Makro: nuk ka makro në fletë
+N031	Ekzekutoni të gjitha makrot
+N032	Makrot: %d. Të ekzekutohen të gjitha, nga lart-majtas në fund-djathtas? Ndryshimet nuk mund të zhbëhen.
+N033	Makro: %d e %d bërë
+N034	Pastroi qelinë
+N035	Pastroi përzgjedhjen
+N036	Ngjyra e sfondit = %d
+N037	Ngjyra e tekstit = %d
+N038	Grafiku: vijë
+N039	Grafiku: shirit
+N040	Grafiku: i përzier
+N041	Grafiku: byrek
+N042	Eksportohet %s

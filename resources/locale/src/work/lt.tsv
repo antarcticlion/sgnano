@@ -1,0 +1,373 @@
+# lt: machine translation (Google), unreviewed; 2026-11-17
+U001	Sąrašas (failai ir aplankai 2 stulpeliais x 19 eilučių)
+U002	Perkelkite žymeklį (kairėn / dešinėn: kitas stulpelis)
+U003	Ankstesnis puslapis / kitas puslapis
+U004	Pažymėti viską / apversti žymes (kaip PC-98 FD)
+U005	Pirmas / paskutinis
+U006	Pažymėkite ir judėkite toliau / tik pažymėkite
+U007	Shift + rodyklės
+U008	Pasirinkite diapazoną (tarpas žymi diapazoną)
+U009	Įveskite aplanką / atidarykite failą (paleisti F2/X)
+U010	Iki pirminio aplanko
+U011	Pasirinkite diską (USB, diskelį, CD, S: įmontuotą)
+U012	Kopijuoti (Shift + C / Shift + F3 pasirenka paskirties vietą iš medžio)
+U013	Judėti
+U014	Ištrinti (Shift + D / Shift + F4 ištrinti aplanką)
+U015	Pervardyti
+U016	Pakeiskite atributus
+U017	Atidaryti redaktoriuje
+U018	Žiūrėti kaip tekstą (Shift + V / Ctrl + Alt + F7 šešioliktainis)
+U019	Vairavimo informacija
+U020	Naujas aplankas / naujas failas
+U021	Shell sgsh / išstumti laikmeną
+U022	Įkelti iš naujo
+U023	Išsaugokite ekraną kaip PNG
+U024	Uždaryti langą / išvalyti pasirinkimą (poaplanke: eiti aukštyn)
+U025	Failų operacijos (kaip FD: žymės, tada diapazonas, tada žymeklis)
+U026	Kopijuoti: pasirinkite paskirties vietą iš disko ir aplankų medžio. ESC sustoja
+U027	Ištrinti: patvirtinkite y. Žymi ir diapazonai vienu metu. Aplankai su jų turiniu
+U028	Ištrinkite aplanką (su jo turiniu)
+U029	Pervardyti (redaguoti pavadinimą, įveskite)
+U030	Atributai: R tik skaitomas, H paslėptas, S sistema, A archyvas
+U031	Naujas aplankas
+U032	Naujas (tuščias) failas
+U033	Žiūrėti kaip tekstą (Shift + V / Ctrl + Alt + F7 šešioliktainis)
+U034	Shell sgsh (išeiti / Ctrl-D grįžti į failą)
+U035	Disko tapatybė (PAŽIŪRĖTI, IDENTIFIKATI)
+U036	Išimkite FDD / LS-120 / CD laikmeną
+U037	Iš naujo įkelti sąrašą (CD: iš TOC)
+U038	Gaukite iš kompiuterio per ZMODEM (zm.sh put)
+U039	Siųsti į kompiuterį naudojant ZMODEM (zm.sh get)
+U040	Sukompiliuokite .rb ir parašykite .mrb
+U041	Ruby REPL (po vieną eilutę, Ctrl-D / ESC iki pabaigos)
+U042	MicroPython REPL
+U043	Padalinti į 4 MB dalis / prisijungti nuo .001
+U044	Padalyti / prisijungti (tas pats kaip Ctrl + F11 / F12)
+U045	Ekranas (Alt + F, nesikerta su FD F klavišais)
+U046	Rodyti / slėpti FB (paveikslėlį) / tekstą
+U047	FB rodymo puslapis (0-3)
+U048	Išvalykite FB iki 0 / perpus sumažinkite jo ryškumą (RGB555)
+U049	USB galiniai taškai ir LAN būsena
+U050	Išvalykite FB ekrano puslapį / per pusę jo ryškumą
+U051	Teksto atributų pavyzdžiai
+U052	Stebėti EDID (skaityti paleidžiant)
+U053	Šrifto ROM licencijos ir kreditai
+U054	Nustatymai (vaizdo kalba, IME ir klaviatūros lokalė)
+U055	Laikrodis (Japonijos laikas nustatytas NTP; s sinchronizuojasi dabar)
+U056	Atidaryti skaičiuoklę (SGCALC)
+U057	Patikrinkite S: ar nėra klaidų (paklausti prieš taisant)
+U058	Atidarykite TRACKER
+U059	Perkraukite (pirmiausia klausia)
+U060	Leiskite ADC stereo įvestį (GP40 / 41)
+U061	Eksportuokite VGM / VGZ į 96 kHz / 24 bitų WAV
+U062	Ši pagalba
+U063	Pakeiskite puslapį
+U064	Uždaryti
+U065	Tekstas / šešioliktainė peržiūros priemonė (patinka mažiau)
+U066	Viena eilutė
+U067	Vienas puslapis
+U068	Pusė puslapio
+U069	Ieškoti (pirmyn / atgal) / kitas / ankstesnis
+U070	Atgal į sąrašą (F1: pagalba žiūrovui)
+U071	Vaizdų peržiūros priemonė
+U072	Atgal į sąrašą (F2 F3 F6 F7 Shift + F2 F3 veikia)
+U073	Redaktorius (E / Shift + F8)
+U074	Išsaugoti (UTF-8; eilutės baigiasi ir KS išsaugota)
+U075	Uždaryti (jei pakeista: Y / N / ESC)
+U076	Įterpti / perrašyti
+U077	IME įjungimas / išjungimas (japonų / anglų / korėjiečių)
+U078	IME kalba (japonų / anglų / korėjiečių)
+U079	Įsipareigokite kaip hiragana / katakana
+U080	Redaktorės pagalba
+U081	Lukštas
+U082	Shell (csh poaibis. exit / Ctrl-D, kad grįžtumėte, žinynas pateikia komandų sąrašą)
+U083	Sąrašas ir judėjimas
+U084	Failų operacijos
+U085	Ekranas ir įrenginiai
+U086	Žiūrovai ir redaktorius
+U087	Pagalba %u / %u %s
+U088	Kairėn dešinėn: pakeisti puslapį F1 / ESC: uždaryti
+U089	Iš naujo paleisti sgnano?
+U090	[Paleisti iš naujo]
+U091	[ Atšaukti ]
+U092	Patikrinkite, ar S: diske nėra klaidų
+U093	Failai %lu aplankai %lu
+U094	Dydis neatitinka grandinėlės
+U095	Nieko nenaudojami klasteriai
+U096	Kryžminio ryšio klasteriai
+U097	Sugedę įrašai
+U098	Dvi FAT kopijos skiriasi
+U099	Jokių klaidų.
+U100	Buvo rasta klaidų. Remontuoti juos?
+U101	Sutaisytas (aukščiau pateikti skaičiai buvo pataisyti).
+U102	Nepavyko patikrinti ar suremontuoti (S: užimtas).
+U103	[Remontas]
+U104	[ Atšaukti ]
+U105	Bet koks raktas užsidaro
+U106	Nustatymai
+U107	Ekrano kalba
+U108	Klaviatūros lokalė
+U109	Aukštyn / žemyn Įveskite pasirinkite ESC atšaukti
+U110	Ekrano kalba
+U111	Aukštyn / žemyn Įveskite: nustatykite ESC: atgal
+U112	Pataisyti %c: kaip kokia raidė? (A–Z, išskyrus S. ESC atšaukia)
+U113	Disko raidė / Įveskite pasirinkite F2 pataisyti/ištaisyti raidę F3 pataisyti kaip... L / ESC atšaukti
+U114	pertvara %u
+U115	%c:* (fiksuota, neprijungta) %04X:%04X%s %s
+U116	Pastaba
+U117	Vairuoti %c: %s
+U118	Vairuoti (nėra)
+U119	Audio CD %u takeliai
+U120	Aplankai %u failai %u iš viso %s
+U121	Skaitymas...
+U122	* pažymėta %u %s
+U123	%lu baitų
+U124	Attr %s modifikuotas %s sukurtas %s %s
+U125	Saulė
+U126	Pirm
+U127	antradienis
+U128	trečia
+U129	Ketvirtadienis
+U130	penk
+U131	Šešt
+U132	Laikrodis nenustatytas (NTP per LAN)
+U133	FB ekranas %u rašyti %u
+U134	1 Pagalba
+U135	2 Paleisti
+U136	3 Kopijuoti
+U137	4 Del
+U138	5 Pervardyti
+U139	7 FBclr
+U140	8 FBdim
+U141	9 Vairuoti
+U142	10 EP
+U143	11 Laikrodis
+U144	12 CALC
+U145	1 Attr
+U146	2 Informacija
+U147	3 Perkelkite
+U148	5 Mkdir
+U149	6 Apvalkalas
+U150	8 Redaguoti
+U151	9 Žiūrėti
+U152	10 S:chk
+U153	11 TRAKAS
+U154	12 Paleiskite iš naujo
+U155	1 Naujas
+U156	2 Aplankas
+U157	3 Pervardyti
+U158	4 Attrib
+U159	6 Kopijuoti
+U160	7 Judėti
+U161	8 Ištrinti
+U162	9 Redaguoti
+U163	10 mrbc
+U164	11 Padalijimas
+U165	12 Prisijunk
+U166	1 Attr
+U167	2 FB
+U168	3 Tekstas
+U169	5 ScrSht
+U170	6 DispPg
+U171	9 ZMrecv
+U172	10ZMsend
+U173	2 FBClr
+U174	3 FBDim
+U175	5 Įkelti iš naujo
+U176	7 šešiakampis
+U177	9 Lic
+U178	11 Sąranka
+U179	Nustatyti laikrodį (Japonijos laikas. NTP nepavyko jo nustatyti)
+U180	Vykdykite su parametrais
+U181	Naujas aplankas
+U182	Naujas failas
+U183	Laikas:
+U184	Vykdyti:
+U185	Vardas:
+U186	YYYY-MM-DD hh:mm Įveskite rinkinį ESC išlaikyti
+U187	Įveskite paleisti <-> perkelti BS / Del ištrinti ESC atšaukti
+U188	Įveskite pervadinti <-> perkelti BS / Del ištrinti ESC atšaukti
+U189	Įveskite sukurti <-> perkelti BS / Del ištrinti ESC atšaukti
+U190	Ištrinti
+U191	daiktų
+U192	Aplankai su jų turiniu ištrinami. Ar esi tikras?
+U193	Ištrinti šį failą?
+U194	(To negalima anuliuoti. Failai aplankuose taip pat ištrinami)
+U195	[Taip (Y)]
+U196	[Ne (N)]
+U197	Hex Viewer: pasirinkite failą
+U198	teksto peržiūros programa: pasirinkite failą
+U199	Perkelti į
+U200	Kopijuoti į
+U201	Buferis pilnas
+U202	Diskas yra tik skaitomas
+U203	Neįmanoma išsaugoti (nėra rašytojo)
+U204	Nepavyko pradėti išsaugoti (diskas užimtas?)
+U205	Išsaugoma...
+U206	2 Išsaugoti
+U207	5 Spalva
+U208	6 Hira
+U209	7 Kata
+U210	8 Pred
+U211	10 Pasitrauk
+U212	1 viršus
+U213	2 Pabaiga
+U214	3 InsOvr
+U215	4 Dikt
+U216	6 HHira
+U217	7 HKata
+U218	%s %s Ln %lu/%lu Col %u %s %s %s%s%s
+U219	*mod
+U220	OVR
+U221	INS
+U222	R/O
+U223	Redaktorius (sgnano redaguoti) F1 / ESC užsidaro
+U224	Rodyklės / Home End / PgUp PgDn perkelkite žymeklį
+U225	Ctrl-T / Ctrl-B failo viršuje / gale
+U226	BS / Del trynimo prieš / ties žymekliu
+U227	Įveskite naują eilutę (išlaiko įtrauką)
+U228	Tab / Ins skirtukas / įterpimas arba perrašymas
+U229	F5 spalvinimas (iš plėtinio; C/C++, mruby, MicroPython, SG BASIC, nėra)
+U230	F2 (Ctrl-S) išsaugoti (UTF-8, eilutės galai išlaikyti)
+U231	F10 / ESC uždaryti (klausia, ar pakeista)
+U232	IME: Ctrl-Space / F12 įjungti / išjungti (あ / A)
+U233	F9 IME kalba (tik šiam redaktoriui; atkurta uždarius)
+U234	F8 japoniškas nuspėjamasis konvertavimas įjungtas / išjungtas
+U235	Japonų romaji -> hiragana (F6) / katakana (F7)
+U236	Pusės pločio hiragana (Shift + F6) / pusės pločio katakana (Shift + F7)
+U237	Numatykite naudodami 2 ar daugiau simbolių, konvertuokite tęstinį sakinį naudodami tarpą
+U238	Anglų kalbos nuspėjamasis užbaigimas naudojant 2 ar daugiau simbolių
+U239	한국어 2 Bol stiliaus hangul
+U240	Tarpas / Enter Konvertuoti / Patvirtinti
+U241	← → Pasirinkite frazę
+U242	Shift + ← → Sumažinkite / padidinkite dešinįjį sakinio galą vienu simboliu (nauji kandidatai)
+U243	↑ ↓ / Skirtukas Ankstesnis / Kitas kandidatas iššokančiajame lange (po tekstu, viršuje netoli apačios)
+U244	Įveskite → → → Visi kandidatai (2 x 8, ← → stulpelis ir puslapis, Enter pasirenka)
+U245	Įveskite kitą sakinį (paskutinėje dalyje patvirtinama visa)
+U246	Ctrl-U Pridėti dabartinį žodį į vartotojo žodyną
+U247	Shift + F1 / F2 / F3 / F4 Į viršų / pabaiga / įterpti-perrašyti / į vartotojo žodyną
+U248	BS / ESC Grįžti vienu simboliu atgal / Atšaukti
+U249	, . - [ ] / 、 。 ー 「 」 ・
+U250	Modifikuotas Y: išsaugoti ir uždaryti N: uždaryti neišsaugojus ESC: atgal
+U251	[Numatymas] Tab/↑↓: kandidatas Tarpas: konvertuoti Esc: atšaukti
+U252	[Kandidatai] ↑↓: pasirinkite ←→: stulpelis/puslapis Įveskite: pasirinkite
+U253	[Konvertuoti] ↑↓cand ←→ sąlyga Shift+←→ribota Įveskite kitą
+U254	[한국어] Tab/↑↓: kandidatas Enter/Space: patvirtinti
+U255	[Anglų kalba] Tab/↑↓: kandidatas Įveskite: patvirtinkite
+U256	2 rinkinių Hangul įvestis Ctrl-tarpas: raidinė ir skaitmeninė
+U257	Nuspėjamas užbaigimas Ctrl-Space: tiesioginė įvestis
+U258	Nėra žodyno: tik hiragana/katakana F6/F7
+U259	Tarpas: konvertuoti F7: katakana Ctrl-tarpas: raidinis ir skaitinis
+U260	Tarpas: konvertuoti F6: hiragana Ctrl-tarpas: raidinis ir skaitinis
+U261	Pusės pločio F6: hiragana F7: katakana Shift + F6 / F7: pusė
+U262	IME išjungtas
+U263	prognozuoti
+U264	Nuspėjamasis vertimas į japonų kalbą: Įjungta
+U265	Nuspėjamasis vertimas į japonų kalbą: išjungtas
+U266	Naudokite su japonų IME
+U267	Negalima įtraukti į vartotojo žodyną
+U268	Spalva: %s
+U269	Įkeliama...
+U270	Nepavyko perskaityti failo
+U271	%lu linijos%s%s
+U272	atidarytas Shift_JIS kaip UTF-8 (išsaugotas kaip UTF-8)
+U273	tik skaityti
+U274	Išsaugota
+U275	Nepavyko išsaugoti (įrašyti nepavyko)
+U276	Kandidatai
+U277	7 WrtPg
+U278	9 Tekstas
+U279	9 šešiakampis
+U280	Įkeliama %lu%%
+U281	(tik pradžia)
+U282	Hex q ESC: atgal F1: pagalba
+U283	Tekstas q ESC: atgal F1: žinynas
+U284	Žiūrėjimo klavišai (pavyzdžiui, mažiau; tas pats teksto ir šešioliktadienio)
+U285	Viena eilute žemyn
+U286	Viena eilutė
+U287	Vienu puslapiu žemyn
+U288	Vienu puslapiu aukštyn
+U289	Pusė puslapio žemyn / aukštyn
+U290	/tekstas ?tekstas
+U291	Ieškoti žemyn / aukštyn (nepaisoma didžiųjų ir mažųjų raidžių)
+U292	Kitas / ankstesnis mačas
+U293	Rodyti kaip šešiakampį (toje pačioje vietoje)
+U294	Rodyti kaip tekstą (toje pačioje vietoje)
+U295	Pakeiskite spalvą (C/C++, mruby, MicroPython, SG BASIC, jokios)
+U296	Rodyti / slėpti FB / tekstą
+U297	FB rodyti puslapį / rašyti puslapį
+U298	Grįžti į failą
+U299	Uždarykite šią žinyną
+U300	Kopijuoti
+U301	%s: aplankų skaitymas... %u
+U302	%s: skaičiuojant laisvą vietą paskirties vietoje...
+U303	%s: paskirties vietoje nepakanka laisvos vietos
+U304	Perkelti: šaltinio aplankų pašalinimas
+U305	Atlikta
+U306	Sustojo
+U307	%s vyksta%s
+U308	(sustabdo)
+U309	Nuo: %s
+U310	Kam: %s
+U311	Failai %u / %u aplankai %u %s / %s (%u%%)%s
+U312	per daug: tik kai kurie
+U313	Reikia %s, nemokamai %s. Tęsti?
+U314	Y: tęsti N / ESC: atšaukti
+U315	Norėdami uždaryti, paspauskite bet kurį klavišą
+U316	ESC: sustokite
+U317	%s: ←→ diskas ↑↓ aplankas Tarpas atidaryti/uždaryti Įveskite pasirinkti ESC atšaukti
+U318	Negaliu skaityti: %s
+U319	Aplankų skaitymas... (ESC sustoja) %u
+U320	%u aplankai%s
+U321	(per daug arba per giliai: tik kai kurie)
+U322	Nustojo atidaryti aplanką
+U323	Erdvė ją vėl atveria. ESC dar kartą atšaukiamas
+U324	SMF / SGT grotuvas %s
+U325	Įkeliama... %lu / %lu baitų
+U326	%s / %s %s prievadai %u
+U327	Pristabdyta
+U328	Žaidžia
+U329	Tarpas: pauzė m: MIDI OUT q / ESC: sustabdyti
+U330	q / ESC: atšaukti
+U331	Šrifto ROM licencijos ir kreditai\n\nROM: %s (versija %lu.%lu, %lu simbolių, nuo 0x%08lX Flash)
+U332	== Šriftai ROM (ROM kilmės lentelė) ==
+U333	(ROM neturi lentelės)
+U334	== ROM kreditų sritis ==
+U335	(nėra tokio ploto)
+U336	== Integruotos programinės įrangos licencijos ==
+U337	Išsaugomas %s kaip PNG %s
+U338	Ekranas
+U339	Pastatas... %lu / %lu eilučių
+U340	Rašoma... %lu / %lu KB (FB paslėptas)
+U341	Nepavyko parašyti
+U342	Archyvo pavadinimas (pažymėti elementai arba žymeklio elementas, jei jo nėra)
+U343	Įveskite kompresą ← → perkelti BS / Del ištrinti ESC atšaukti
+U344	WAV eksportavimas: %s atšauktas (%s)
+U345	WAV eksportavimas: %s nepavyko (%s)
+U346	WAV eksportas: %s iš viso %s
+U347	WAV eksportas (96 kHz / 24 bitai): %s
+U348	Atšaukta
+U349	Nepavyko
+U350	Iš viso %s
+U351	Atšaukta (%s; dalinis failas buvo ištrintas)
+U352	Nepavyko eksportuoti (%s). Priežastis:
+U353	(priežastis nežinoma)
+U354	%u%% praėjo %s%s
+U355	ESC: sustabdyti (ištrinama dalis failo)
+U356	Archyvas: %s
+U357	Skaitoma... (ESC atšaukti)
+U358	%u elementai%s iš viso %s baitų išskleiskite į: %s
+U359	Įveskite ekstrakto elementą X išskleiskite viską ↑↓ perkelti ESC uždaryti
+U360	Suspausti
+U361	Sąrašas
+U362	Ištrauka
+U363	Iš viso %s %u prekių
+U364	Iš viso %s %u failų
+U365	Atšaukta (%s; nebaigtas failas buvo ištrintas)
+U366	Nepavyko to padaryti (%s): %s
+U367	%u%% praėjo %s %s baitai%s
+U368	praėjo %s %s baitai%s
+U369	ESC: sustabdyti (neužbaigtas failas ištrinamas)
+U370	Archyvas: %s nepavyko (%s)
+U371	Suspausta: %s (%u elementai)
+U372	Ištraukta: %s (%u failai)

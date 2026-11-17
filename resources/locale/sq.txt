@@ -1,0 +1,1162 @@
+# sgnano filer strings: Shqip (2026-11-17). ui <TAB> Japanese <TAB> translation / msg.* <TAB> English <TAB> translation
+# status: unreviewed (machine translation, not checked by a native speaker; 2026-11-17). 未検証: ネイティブの確認をしていない仮の訳
+@lang sq
+@name Shqip
+ui	一覧（ファイルとフォルダを 2 列 x 19 行に並べる）	Lista (skedarët dhe dosjet në 2 kolona x 19 rreshta)
+ui	カーソルを動かす（左右は隣の列へ）	Lëvizni kursorin (majtas / djathtas: kolona tjetër)
+ui	前のページ / 次のページ	Faqja e mëparshme / faqja tjetër
+ui	全部に印 / 印を反転（PC-98 FD と同じ）	Shënoni të gjitha / përmbysni shenjat (si në PC-98 FD)
+ui	先頭 / 最後	E para / e fundit
+ui	印を付けて次へ / 印だけ付ける	Shënoni dhe vazhdoni / shënoni vetëm
+ui	Shift+矢印	Shift + Shigjeta
+ui	範囲を選ぶ（Space でその範囲に印）	Zgjidh një varg (Hapësira shënon diapazonin)
+ui	フォルダに入る・ファイルを開く（F2/X は実行）	Futni një dosje / hapni një skedar (F2/X ekzekutim)
+ui	上のフォルダへ	Deri në dosjen prind
+ui	ドライブを選ぶ（USB・フロッピー・CD・S: 内蔵）	Zgjidhni një disk (USB, floppy, CD, S: i integruar)
+ui	コピー（Shift+C / Shift+F3 は行き先を木から）	Kopjo (Shift+C / Shift+F3 zgjedh destinacionin nga pema)
+ui	移動	Lëvizni
+ui	削除（Shift+D / Shift+F4 はフォルダ削除）	Fshi (Shift+D / Shift+F4 fshini një dosje)
+ui	名前を変える	Riemërto
+ui	属性を変える	Ndryshoni atributet
+ui	エディタで開く	Hapni në redaktues
+ui	テキスト表示（Shift+V / Ctrl+Alt+F7 は 16 進）	Shiko si tekst (Shift+V / Ctrl+Alt+F7 hex)
+ui	ドライブの情報	Informacioni i makinës
+ui	フォルダを作る / 新しいファイル	Dosje e re / skedar i ri
+ui	シェル sgsh / 媒体を取り出す	Shell sgsh / nxjerr mediumin
+ui	読み直す	Ringarko
+ui	見えている画面を PNG で保存	Ruaje ekranin si PNG
+ui	窓を閉じる・選択を解く（サブフォルダでは上位へ）	Mbyllni dritaren / pastroni përzgjedhjen (në një nënfolder: shkoni lart)
+ui	ファイルの操作（FD と同じ。印・範囲・カーソルの順に選ぶ）	Operacionet e skedarit (si në FD: shenjat, pastaj diapazoni, pastaj kursori)
+ui	コピー: 行き先はドライブとフォルダの木から。ESC で止める	Kopjo: zgjidhni destinacionin nga pema e diskut dhe dosjeve. ESC ndalon
+ui	削除: y で確かめる。印・範囲をまとめて。フォルダは中身ごと	Fshij: konfirmo me y. Shënon dhe shkon menjëherë. Dosjet me përmbajtjen e tyre
+ui	フォルダを削除（中身ごと）	Fshi një dosje (me përmbajtjen e saj)
+ui	名前を変える（今の名前を直して Enter）	Riemërto (redakto emrin, Enter)
+ui	属性: R 読み出し専用・H 隠し・S システム・A アーカイブ	Atributet: R vetëm për lexim, H i fshehur, sistemi S, një arkiv
+ui	フォルダを作る	Dosje e re
+ui	新しいファイル（空）を作る	Skedar i ri (bosh).
+ui	テキストで表示（Shift+V / Ctrl+Alt+F7 は 16 進）	Shiko si tekst (Shift+V / Ctrl+Alt+F7 hex)
+ui	シェル sgsh（exit / Ctrl-D でファイラーへ）	Shell sgsh (dalja / Ctrl-D përsëri te skedari)
+ui	選んでいるドライブの素性（INQUIRY・IDENTIFY）	Identiteti i diskut (KËRKESË, IDENTIFIKIM)
+ui	FDD・LS-120・CD の媒体を取り出す	Nxirrni mediumin FDD / LS-120 / CD
+ui	一覧を読み直す（CD は TOC から）	Rifresko listën (CD: nga TOC)
+ui	ZMODEM で PC から受け取る（zm.sh put）	Merre nga kompjuteri me ZMODEM (zm.sh vendos)
+ui	ZMODEM で PC へ送る（zm.sh get）	Dërgo në PC me ZMODEM (zm.sh merr)
+ui	.rb をコンパイルして .mrb を書き出す	Përpiloni .rb dhe shkruani .mrb
+ui	Ruby の REPL（1 行ずつ、Ctrl-D / ESC で終わり）	Ruby REPL (një rresht në një kohë, Ctrl-D / ESC deri në fund)
+ui	MicroPython の REPL	MicroPython REPL
+ui	4MB ずつ分割 / .001 から結合	Ndani në pjesë 4 MB / bashkohuni nga 0,001
+ui	分割 / 結合（Ctrl+F11 / F12 と同じ）	Ndarje / bashkohu (njëlloj si Ctrl+F11 / F12)
+ui	画面（Alt+F。FD の F キーとぶつからない）	Ekrani (Alt+F, nuk përplaset me tastet FD F)
+ui	FB（絵）/ テキスト面を出す・隠す	Shfaq / fshih FB (foto) / tekstin
+ui	FB の表示ページ（0〜3）	Faqja e shfaqur në FB (0-3)
+ui	FB を 0 で消す / 明るさを 1/2 に（RGB555）	Pastro FB-në në 0 / përgjysmo ndriçimin e saj (RGB555)
+ui	USB のエンドポイントと LAN の状態	Pikat fundore të USB-së dhe gjendja e LAN
+ui	FB の表示ページを消す / 明るさを 1/2 に	Pastroni faqen e ekranit FB / përgjysmoni ndriçimin e saj
+ui	テキストの属性の見本	Shembuj të atributeve të tekstit
+ui	モニタの EDID（起動時に読んだもの）	Monitoroni EDID (lexoni në nisje)
+ui	フォント ROM のライセンスとクレジット	Licencat dhe kreditet ROM të shkronjave
+ui	設定（表示の言語・IME・キーボードロケール）	Cilësimet (gjuha e ekranit, IME dhe vendndodhja e tastierës)
+ui	時計（NTP で合わせた日本時間。s ですぐ合わせる）	Ora (ora e Japonisë e caktuar nga NTP; s sinkronizohet tani)
+ui	表計算（SGCALC）を開く	Hap fletëllogaritëse (SGCALC)
+ui	S: ドライブのエラー検査（誤りがあれば直すか聞く）	Kontrollo S: për gabime (pyet para riparimit)
+ui	トラッカー（TRACKER）を開く	Hap TRACKER
+ui	再起動（確かめの窓が出る）	Rinis (pyet fillimisht)
+ui	ADC のステレオ入力（GP40 / 41）を鳴らす	Luaj hyrjen stereo ADC (GP40 / 41)
+ui	VGM/VGZ を 96kHz/24bit WAV に書き出す	Eksporto VGM/VGZ në një WAV 96 kHz / 24-bit
+ui	このヘルプ	Kjo ndihmë
+ui	ページを替える	Ndrysho faqen
+ui	閉じる	Mbylle
+ui	テキスト・16 進のビュアー（less 風）	Shikuesi i tekstit / gjashtëkëndor (si më pak)
+ui	1 行	Një rresht
+ui	1 ページ	Një faqe
+ui	半ページ	Gjysmë faqe
+ui	探す（前へ・後ろへ）/ 次・前	Kërko (përpara / prapa) / tjetër / e mëparshme
+ui	一覧へ戻る（F1 はビュアーのヘルプ）	Kthehu në listë (F1: ndihma e shikuesit)
+ui	画像のビュアー	Shikuesi i imazhit
+ui	一覧へ戻る（F2 F3 F6 F7 Shift+F2 F3 は効く）	Kthehu në listë (F2 F3 F6 F7 Shift+F2 F3 punë)
+ui	エディタ（E / Shift+F8）	Redaktori (E / Shift + F8)
+ui	保存する（UTF-8。改行と BOM は元のまま）	Ruaj (UTF-8; rreshti përfundon dhe BOM ruhet)
+ui	閉じる（変わっていれば Y / N / ESC）	Mbylle (nëse ndryshohet: Y / Jo / ESC)
+ui	挿入 / 上書き	Fut / mbishkruaj
+ui	IME（日本語・英語・ハングル）の入・切	Aktivizimi/çaktivizimi i IME (Japonisht / Anglisht / Koreanisht)
+ui	IME の言語（日本語 / English / 한국어）	Gjuha IME (Japoneze / Anglisht / Koreane)
+ui	ひらがな / カタカナで確定	Kryeni si hiragana / katakana
+ui	エディタのヘルプ	Ndihma e redaktorit
+ui	シェル	Shell
+ui	シェル（csh のサブセット。exit / Ctrl-D で戻る、help で一覧）	Shell (një nëngrup csh. dil / Ctrl-D për t'u kthyer, ndihma liston komandat)
+ui	一覧と移動	Listoni dhe lëvizni
+ui	ファイルの操作	Operacionet e skedarëve
+ui	画面と機器	Ekrani dhe pajisjet
+ui	ビュアーとエディタ	Shikuesit dhe redaktori
+ui	ヘルプ  %u / %u  %s	Ndihmë %u / %u %s
+ui	Left Right: ページを替える    F1 / ESC: 閉じる	Majtas Djathtas: ndryshoni faqen F1 / ESC: mbyll
+ui	sgnano を再起動しますか？	Të rindizet sgnano?
+ui	[ 再起動 ]	[Rinisni]
+ui	[ キャンセル ]	[Anulo]
+ui	S: ドライブのエラー検査	Kontrolloni diskun S: për gabime
+ui	ファイル %lu  フォルダ %lu	Skedarët %lu dosjet %lu
+ui	大きさが鎖と合わない	Madhësia nuk përputhet me zinxhirin
+ui	どこからも使われていないクラスタ	Grupe të përdorura nga asgjë
+ui	重なったクラスタ	Grupe të ndërlidhura
+ui	壊れた項目	Regjistrimet e thyera
+ui	FAT の 2 つの写しの食い違い	Dy kopjet FAT ndryshojnë
+ui	エラーはありません。	Nuk ka gabime.
+ui	エラーが見つかりました。修復しますか？	U gjetën gabime. Riparoni ato?
+ui	修復しました（上は直した数）。	Riparuar (numrat e mësipërm janë rregulluar).
+ui	検査・修復できませんでした（S: が使用中）。	Nuk mund të kontrollohej ose riparohej (S: është i zënë).
+ui	[ 修復する ]	[Riparim]
+ui	[ やめる ]	[Anulo]
+ui	何かキーで閉じる	Çdo çelës mbyllet
+ui	設定	Cilësimet
+ui	表示の言語	Gjuha e shfaqjes
+ui	キーボードロケール	Vendndodhja e tastierës
+ui	Up / Down  Enter 決める  ESC やめる	Lart / Poshtë Shkruani zgjidhni ESC anuloni
+ui	表示の言語 (Language)	Gjuha e shfaqjes
+ui	Up / Down  Enter 決める  ESC 戻る	Lart / Poshtë Hyni: vendosni ESC: mbrapa
+ui	%c: をどの文字に固定しますか（A〜Z、S を除く。ESC でやめる）	Fix %c: si cila shkronjë? (A-Z përveç S. ESC anulon)
+ui	ドライブ  文字 / Enter 選ぶ  F2 文字を固定・解除  F3 文字を決めて固定  L / ESC やめる	Shkronja e diskut / Shkruani zgjidhni F2 rregulloni/zgjidhni shkronjën F3 rregulloni si... L / ESC anuloni
+ui	  区画 %u	ndarje %u
+ui	%c:* （固定・つながっていません）%04X:%04X%s  %s	%c:* (i fiksuar, jo i lidhur) %04X:%04X%s %s
+ui	お知らせ	Njoftim
+ui	ドライブ %c:  %s	Ngasja %c: %s
+ui	ドライブ  (なし)	Vozitje (asnjë)
+ui	音楽 CD  %u トラック	%u këngë të CD-së audio
+ui	フォルダ %u  ファイル %u  合計 %s	Dosjet %u skedarët %u gjithsej %s
+ui	読んでいます...	Duke lexuar...
+ui	* 印 %u 個  %s	* shënuar %u %s
+ui	%lu バイト	%lu bajt
+ui	属性 %s   更新日時 %s   作成日時 %s   %s	Attr %s modifikuar %s krijuar %s %s
+ui	日	dielli
+ui	月	e hënë
+ui	火	e martë
+ui	水	e mërkurë
+ui	木	e enjte
+ui	金	e premte
+ui	土	Shtu
+ui	時計は合わせていません（LAN の NTP）	Ora nuk është vendosur (NTP mbi LAN)
+ui	FB  表示 %u  書込 %u	Ekrani FB %u shkruani %u
+ui	1 ヘルプ	1 Ndihmë
+ui	2 実行	2 Run
+ui	3 ｺﾋﾟｰ	3 Kopjo
+ui	4 削除	4 Del
+ui	5 名前	5 Rename
+ui	7 FB消去	7 FBclr
+ui	8 FB減光	8 FBdim
+ui	9 ﾄﾞﾗｲﾌﾞ	9 Ngasni
+ui	10 EP表	10 EP
+ui	11 時計	11 Ora
+ui	12 表計	12 CALC
+ui	1 属性	1 Attr
+ui	2 情報	2 Info
+ui	3 移動	3 Lëviz
+ui	5 作成	5 Mkdir
+ui	6 シェル	6 Shell
+ui	8 編集	8 Edit
+ui	9 表示	9 Pamje
+ui	10S:検査	10 S:chk
+ui	11 ﾄﾗｯｸ	11 TRACK
+ui	12再起動	12Reboot
+ui	1 新規	1 E re
+ui	2 ﾌｫﾙﾀﾞ	2 Dosja
+ui	3 名前	3 Rename
+ui	4 属性	4 Attrib
+ui	6 ｺﾋﾟｰ	6 Kopjo
+ui	7 移動	7 Lëviz
+ui	8 削除	8 Fshij
+ui	9 編集	9 Edit
+ui	10ｺﾝﾊﾟｲﾙ	10 mrbc
+ui	11 分割	11 Split
+ui	12 結合	12 Join
+ui	1 属性例	1 Attrs
+ui	2 FB切替	2 FB
+ui	3 文字面	3 Teksti
+ui	5 画面写	5 ScrSht
+ui	6 表示頁	6 DispPg
+ui	9 ZM受信	9 ZMrecv
+ui	10ZM送信	10ZMsend
+ui	2 FB消去	2 FBClr
+ui	3 FB減光	3 FBDim
+ui	5 再読込	5 Reload
+ui	7 16進	7 Heks
+ui	9 ﾗｲｾﾝｽ	9 Lic
+ui	8 設定	11 Setup
+ui	時刻を合わせる（日本時間。NTP で合わせられませんでした）	Cakto orën (ora e Japonisë. NTP nuk mund ta caktojë)
+ui	起動のパラメタ	Drejtoni me parametra
+ui	新しいフォルダ	Dosje e re
+ui	新しいファイル	Skedar i ri
+ui	時刻:	Koha:
+ui	実行:	Vraponi:
+ui	名前:	Emri:
+ui	年-月-日 時:分  Enter 合わせる  ESC そのまま	YYYY-MM-DD hh:mm Fut vendosjen e mbajtjes ESC
+ui	Enter 走らせる  ←→ 動かす  BS / Del 消す  ESC やめる	Fut ekzekutimin <-> zhvendos BS / Del delete ESC anuloj
+ui	Enter 変える  ←→ 動かす  BS / Del 消す  ESC やめる	Futni riemërtimin <-> zhvendosni BS / Delete fshini ESC anuloni
+ui	Enter 作る  ←→ 動かす  BS / Del 消す  ESC やめる	Futni krijimin <-> zhvendosni BS / Delete fshini ESC anuloni
+ui	消す	Fshije
+ui	個の項目	artikuj
+ui	フォルダは中身ごと消します。よろしいですか？	Dosjet fshihen me përmbajtjen e tyre. je i sigurt?
+ui	このファイルを消しますか？	Të fshihet ky skedar?
+ui	（元に戻せません。フォルダの中のファイルも消えます）	(Kjo nuk mund të zhbëhet. Skedarët në dosje fshihen gjithashtu)
+ui	[ はい (Y) ]	[Po (Y)]
+ui	[ いいえ (N) ]	[Jo (N)]
+ui	バイナリビュアー: ファイルを選んでください	shikues hex: zgjidhni një skedar
+ui	テキストビュアー: ファイルを選んでください	shikues teksti: zgjidhni një skedar
+ui	移動先	Lëvizni në
+ui	コピー先	Kopjo në
+ui	バッファがいっぱいです (buffer full)	Buferi është plot
+ui	読み出し専用のドライブです (read-only)	Disku është vetëm për lexim
+ui	保存できません (no writer)	Nuk mund të ruhet (pa shkrimtar)
+ui	保存を始められません (the drive is busy?)	Nuk mund të fillonte të ruani (disku është i zënë?)
+ui	保存しています... (saving)	Po ruan...
+ui	2 保存	2 Ruaj
+ui	5 色分け	5 Ngjyra
+ui	6 ﾞ	6 Hira
+ui	7 ｶﾀｶﾅ	7 Kata
+ui	8 予測	8 Pred
+ui	10 終了	10 Quit
+ui	1 先頭	1 Top
+ui	2 最後	2 Fund
+ui	3 挿/上	3 InsOvr
+ui	4 辞書	4 Dikt
+ui	6 半	6 HHira
+ui	7 半ｶﾅ	7 HKata
+ui	 %s  %s  行 %lu/%lu 桁 %u  %s  %s %s%s%s	%s %s Ln %lu/%lu Col %u %s %s %s%s%s
+ui	*変更	*mod
+ui	上書	OVR
+ui	挿入	INS
+ui	  読出専用	R/O
+ui	 エディタ (sgnano edit)                      F1 / ESC で閉じる	Redaktori (sgnano edit) F1 / ESC mbyllet
+ui	 矢印 / Home End / PgUp PgDn   カーソルを動かす	Shigjetat / Fundi kryesor / PgUp PgDn lëvizin kursorin
+ui	 Ctrl-T / Ctrl-B               ファイルの先頭 / 最後	Ctrl-T / Ctrl-B krye / fundi i skedarit
+ui	 BS / Del                      前の字 / カーソルの字を消す	BS / Fshij para / në kursor
+ui	 Enter                         改行（前の行の字下げを引き継ぐ）	Fut rreshtin e ri (mban dhëmbëzimin)
+ui	 Tab / Ins                     タブ / 挿入と上書きの切り替え	Skeda / Skeda Ins / fut ose mbishkruaj
+ui	 F5                            色分け（拡張子から。C/C++・mruby・MicroPython・SG BASIC・なし）	Ngjyrosje F5 (nga zgjerimi; C/C++, mruby, MicroPython, SG BASIC, asnjë)
+ui	 F2  (Ctrl-S)                  保存（UTF-8、改行は元の形）	F2 (Ctrl-S) ruaj (UTF-8, fundet e rreshtit ruhen)
+ui	 F10 / ESC                     閉じる（変更があれば聞く）	F10 / ESC mbyllet (pyet nëse është ndryshuar)
+ui	 IME:  Ctrl-Space / F12        オン・オフ（あ / A）	IME: Ctrl-Space / F12 ndezur / fikur (あ / A)
+ui	       F9                      IME の言語（このエディタの間だけ。閉じると戻る）	Gjuha F9 IME (vetëm ky redaktues; restaurohet në mbyllje)
+ui	       F8                      日本語の予測変換 オン・オフ	F8 Konvertimi parashikues japonez aktiv/çaktiv
+ui	       日本語                  ローマ字 -> ひらがな（F6）・カタカナ（F7）	Romani japonez -> hiragana (F6) / katakana (F7)
+ui	                               半角ひらがな（Shift+F6）・半角カタカナ（Shift+F7）	Hiragana me gjysmë gjerësi (Shift+F6) / katakana gjysmë gjerësi (Shift+F7)
+ui	                               2 字以上で予測、Space で連文節変換	Parashikoni me 2 ose më shumë karaktere, konvertoni fjalinë e vazhdueshme me Hapësirë
+ui	       English                 2 字以上で予測補完	Anglisht Plotësimi parashikues me 2 ose më shumë karaktere
+ui	       한국어                  2 ボル式ハングル	한국어 2 Hangulli i stilit Bol
+ui	       Space / Enter           変換 / 確定	Hapësirë ​​/ Fut Konverto / Konfirmo
+ui	       ← →                    文節を選ぶ	← → Zgjidhni një frazë
+ui	       Shift+← →               文節の右端を 1 字 縮/拡（候補を出し直す）	Shift+← → Tkurre/rrite fundin e djathtë të klauzolës me një karakter (kandidatë të rinj)
+ui	       ↑ ↓ / Tab               候補の窓で前 / 次の候補（窓は変換の下、画面の下では上）	↑ ↓ / Skeda e mëparshme / kandidati tjetër në dritaren kërcyese (poshtë tekstit, sipër afër fundit)
+ui	       →→→ で Enter            すべての候補（2 列 x 8 個、← → で列とページ、Enter で決める）	Hyni në →→→ Të gjithë kandidatët (2 x 8, ← → kolona dhe faqja, Enter zgjedh)
+ui	       Enter                   次の文節へ（最後の文節で全体を確定）	Fut klauzolën tjetër (konfirmon të tërën në klauzolën e fundit)
+ui	       Ctrl-U                  いまの語をユーザー辞書へ	Ctrl-U Shtoni fjalën aktuale në fjalorin e përdoruesit
+ui	 Shift+F1 / F2 / F3 / F4       先頭 / 最後 / 挿入と上書き / ユーザー辞書へ	Shift+F1 / F2 / F3 / F4 Top / fund / fut-mbishkruaj / në fjalorin e përdoruesit
+ui	       BS / ESC                1 字戻す / 取り消し	BS / ESC Kthehu prapa një karakter / Anulo
+ui	       , . - [ ] /             、 。 ー 「 」 ・	, . - [ ] / 、 。 ー 「 」 ・
+ui	変更あり  Y: 保存して閉じる  N: 保存せず閉じる  ESC: 戻る	Modifikuar Y: ruaj dhe mbyll N: mbyll pa ruajtur ESC: mbrapa
+ui	[予測] Tab/↑↓: 候補  Space: 変換  Esc: 取消	[Parashikimi] Tab/↑↓: kandidat Hapësira: konverto Esc: anuloje
+ui	[候補] ↑↓: 選ぶ  ←→: 列・ページ  Enter: 決める	[Kandidatët] ↑↓: zgjidhni ←→: kolona/faqe Shkruani: zgjidhni
+ui	[変換] ↑↓候補 ←→文節 Shift+←→区切り Enter次へ	[Konverto] ↑↓kand ←→klauzola Shift+←→lidhur Shkruani tjetër
+ui	[한국어] Tab/↑↓: 候補  Enter/Space: 確定	[한국어] Skeda/↑↓: kandidati Hyni/Hapësira: konfirmoni
+ui	[English] Tab/↑↓: 候補  Enter: 確定	[Anglisht] Tab/↑↓: kandidati Shkruani: konfirmoni
+ui	2ボル式ハングル入力  Ctrl-Space: 英数	Hyrja Hangul me 2 grupe Ctrl-Hapësirë: alfanumerik
+ui	予測補完  Ctrl-Space: 直接入力	Ctrl-Hapësira e përfundimit parashikues: hyrje e drejtpërdrejtë
+ui	辞書なし: ひらがな/カタカナ入力のみ  F6/F7	Nuk ka fjalor: vetëm hiragana/katakana F6/F7
+ui	Space: 変換  F7: カタカナ  Ctrl-Space: 英数	Hapësira: konverto F7: katakana Ctrl-Hapësirë: alfanumerik
+ui	Space: 変換  F6: ひらがな  Ctrl-Space: 英数	Hapësira: konverto F6: hiragana Ctrl-Hapësirë: alfanumerik
+ui	半角  F6: ひらがな  F7: カタカナ  Shift+F6/F7: 半角	Gjysma e gjerësisë F6: hiragana F7: katakana Shift+F6/F7: gjysma
+ui	IME オフ	IME fikur
+ui	 予測	parashikojnë
+ui	日本語の予測変換: オン	Përkthimi parashikues japonez: On
+ui	日本語の予測変換: オフ	Përkthim parashikues për japonisht: Off
+ui	日本語IMEで使います	Përdorni me IME japoneze
+ui	ユーザー辞書に追加できません	Nuk mund të shtohet në fjalorin e përdoruesit
+ui	色分け: %s	Ngjyrosja: %s
+ui	読み込んでいます... (loading)	Po ngarkohet...
+ui	読み込めませんでした (could not read)	Skedari nuk mund të lexohej
+ui	%lu 行%s%s	%lu linjat%s%s
+ui	  Shift_JIS を UTF-8 で開きました（保存は UTF-8）	hapi Shift_JIS si UTF-8 (ruajtur si UTF-8)
+ui	  読み出し専用	vetëm për lexim
+ui	保存しました (saved)	U ruajt
+ui	保存できませんでした (write failed)	Nuk mundi të ruhej (shkrimi dështoi)
+ui	候補	Kandidatët
+ui	7 書込頁	7 WrtPg
+ui	9 ﾃｷｽﾄ	9 Teksti
+ui	9 ﾊﾞｲﾅﾘ	9 Heks
+ui	読み込み中 %lu%%  	Duke u ngarkuar %lu%%
+ui	（先頭だけ）  	(vetëm fillimi)
+ui	16 進  q ESC: 戻る  F1: ヘルプ	Hex q ESC: prapa F1: ndihmë
+ui	テキスト  q ESC: 戻る  F1: ヘルプ	Teksti q ESC: mbrapa F1: ndihmë
+ui	ビュアーのキー（less 風。テキストと 16 進で共通）	Çelësat e shikuesit (si më pak; e njëjta gjë për tekstin dhe heksin)
+ui	1 行進む	Një rresht më poshtë
+ui	1 行戻る	Një rresht
+ui	1 ページ進む	Një faqe më poshtë
+ui	1 ページ戻る	Një faqe më lart
+ui	半ページ進む / 戻る	Gjysmë faqe poshtë / lart
+ui	/文字列  ?文字列	/tekst ?tekst
+ui	下へ探す / 上へ探す（大文字小文字は区別しない）	Kërko poshtë / lart (injoron shkronjat)
+ui	次 / 前を探す	Ndeshja tjetër / e mëparshme
+ui	16 進で表示する（いま見ている所のまま）	Shfaq si heks (në të njëjtin vend)
+ui	テキストで表示する（いま見ている所のまま）	Shfaq si tekst (në të njëjtin vend)
+ui	色分けを替える（C/C++・mruby・MicroPython・SG BASIC・なし）	Ndrysho ngjyrosjen (C/C++, mruby, MicroPython, SG BASIC, asnjë)
+ui	FB / テキスト面を出す・隠す	Shfaq / fshih FB / tekstin
+ui	FB の表示ページ / 書き込みページ	FB shfaq faqe / faqe shkrimi
+ui	ファイラーへ戻る	Kthehu te skedari
+ui	このヘルプを閉じる	Mbylle këtë ndihmë
+ui	コピー	Kopjo
+ui	 %s: フォルダを読んでいます... %u 個	%s: leximi i dosjeve... %u
+ui	 %s: 行き先の空きを数えています...	%s: numërimi i hapësirës së lirë në destinacion...
+ui	 %s: 行き先の空きが足りません	%s: nuk ka hapësirë ​​të mjaftueshme të lirë në destinacion
+ui	 移動: 元のフォルダを消しています	Zhvendos: heqja e dosjeve burimore
+ui	終了しました	U krye
+ui	止まりました	Ndaloi
+ui	 %s中%s	%s në vazhdim%s
+ui	（止めています）	(duke ndaluar)
+ui	 元: %s	Nga: %s
+ui	 先: %s	Për: %s
+ui	 ファイル %u / %u 個  フォルダ %u 個  %s / %s  (%u%%)%s	Skedarët %u / %u dosjet %u %s / %s (%u%%)%s
+ui	  多すぎるので一部だけ	shumë: vetëm disa
+ui	 要る大きさ %s、空き %s。続けますか？	Nevojë për %s, %s falas. Të vazhdohet?
+ui	 Y: 続ける   N / ESC: やめる	Y: vazhdoni N / ESC: anuloni
+ui	 何かキーを押すと閉じます	Shtypni çdo tast për ta mbyllur
+ui	 ESC: 止める	ESC: ndalo
+ui	 %s: ←→ ドライブ  ↑↓ フォルダ  Space 開く・閉じる  Enter 決める  ESC やめる	%s: ←→ disku ↑↓ dosja Hapësira hap/mbyll Fut zgjidh ESC anulo
+ui	 読めません: %s	Nuk mund të lexohet: %s
+ui	 フォルダを読んでいます...（ESC で止める）  %u 個	Leximi i dosjeve... (ESC ndalon) %u
+ui	 フォルダ %u 個%s	%u dosjet%s
+ui	（多すぎるか深すぎるので、一部だけ）	(shumë ose shumë e thellë: vetëm disa)
+ui	フォルダの展開を止めました	Ndaloi hapjen e dosjes
+ui	Space で開き直せます。もう一度 ESC でやめます	Hapësira e hap përsëri. ESC anulon edhe një herë
+ui	 SMF / SGT プレイヤー   %s	Lojtar SMF / SGT %s
+ui	 読み込んでいます... %lu / %lu バイト	Po ngarkohet... %lu / %lu bajt
+ui	 %s / %s   %s   ポート %u	%s / %s %s portat %u
+ui	一時停止	Në pauzë
+ui	再生中	Duke luajtur
+ui	 Space: 一時停止  m: MIDI OUT  q / ESC: 止める	Hapësira: pauzë m: MIDI OUT q / ESC: ndalesë
+ui	 q / ESC: やめる	q / ESC: anuloni
+ui	フォント ROM のライセンスとクレジット\n\nROM: %s（版 %lu.%lu、%lu 文字、フラッシュの 0x%08lX から）\n\n	Licencat dhe kreditet ROM të shkronjave\n\nROM: %s (versioni %lu.%lu, %lu karaktere, nga 0x%08lX në blic)
+ui	== 収めているフォント（ROM の出所の表）==\n	== Fontet në ROM (tabela e origjinës së ROM) ==
+ui	  （表が無い ROM）\n	(ROM nuk ka tabelë)
+ui	\n== ROM のクレジットの区画 ==\n\n	== Zona e kreditit të ROM ==
+ui	（区画が無い）\n	(nuk ka një zonë të tillë)
+ui	\n== 組み込んだソフトウェアのライセンス ==\n	== Licencat e softuerit të integruar ==
+ui	 %s を PNG で保存   %s	Ruajtja %s si PNG %s
+ui	画面	Ekrani
+ui	 組み立てています... %lu / %lu 行	Ndërtimi i... %lu / %lu rreshtave
+ui	 書いています... %lu / %lu KB（FB は隠しています）	Shkrimi... %lu / %lu KB (FB-ja është e fshehur)
+ui	書けませんでした	Nuk mund të shkruante
+ui	書庫の名前（印の付いた項目、無ければカーソルの項目を入れる）	Emri i arkivit (artikujt e shënuar, ose artikulli i kursorit nëse nuk ka)
+ui	Enter 圧縮する  ←→ 動かす  BS / Del 消す  ESC やめる	Futni kompresimin ←→ lëvizni BS / Delete fshini ESC anuloni
+ui	WAV 書き出し: %s 中止（%s）	Eksporti WAV: %s anuluar (%s)
+ui	WAV 書き出し: %s 失敗（%s）	Eksportimi WAV: %s dështoi (%s)
+ui	WAV 書き出し: %s 合計 %s	Eksporti WAV: %s total %s
+ui	 WAV 書き出し（96kHz / 24bit）: %s	Eksporti WAV (96kHz / 24bit): %s
+ui	中止しました	Anuluar
+ui	失敗しました	Dështoi
+ui	 合計 %s	Gjithsej %s
+ui	 中止しました（%s。半端なファイルは消しました）	U anulua (%s; skedari i pjesshëm u fshi)
+ui	 書き出せませんでした（%s）。理由:	Nuk mund të eksportohej (%s). Arsyeja:
+ui	 （理由は分かりません）	(Arsyeja nuk dihet)
+ui	 %u%%   経過 %s%s	%u%% ka kaluar %s%s
+ui	 ESC: 止める（半端なファイルは消します）	ESC: ndaloni (skedari i pjesshëm fshihet)
+ui	書庫: %s	Arkivi: %s
+ui	読み込み中…（ESC でやめる）	Duke lexuar... (ESC për të anuluar)
+ui	 %u 項目%s  合計 %s バイト  展開先: %s	%u artikujt%s %s bajt gjithsej ekstraktoni në: %s
+ui	 Enter 項目を展開  X 全部を展開  ↑↓ 動かす  ESC 閉じる	Fut artikullin ekstrakt X ekstrakt të gjitha ↑↓ zhvendos ESC afër
+ui	圧縮	Kompresoni
+ui	一覧	Lista
+ui	展開	Ekstrakt
+ui	 合計 %s   %u 項目	Gjithsej %s %u artikuj
+ui	 合計 %s   %u ファイル	Gjithsej %s %u skedarë
+ui	 中止しました（%s。書きかけのファイルは消しました）	U anulua (%s; skedari i papërfunduar u fshi)
+ui	 できませんでした（%s）: %s	Nuk mund ta bëja (%s): %s
+ui	 %u%%   経過 %s   %s バイト%s	%u%% ka kaluar %s %s bajt%s
+ui	 経過 %s   %s バイト%s	%s %s bajt%s të kaluara
+ui	 ESC: 止める（書きかけのファイルは消します）	ESC: ndaloni (skedari i papërfunduar fshihet)
+ui	書庫: %s 失敗（%s）	Arkivi: %s dështoi (%s)
+ui	圧縮: %s（%u 項目）	Të ngjeshur: %s (%u artikuj)
+ui	展開: %s（%u ファイル）	Ekstraktuar: %s (%u skedarë)
+msg.phrase	the drive went away	makinë u largua
+msg.phrase	reading the partitions again...	duke lexuar përsëri ndarjet ...
+msg.phrase	could not open the volume (no memory?)	nuk mund ta hapte volumin (pa memorie?)
+msg.phrase	opening the volume...	hapja e volumit...
+msg.phrase	no memory for the file list	nuk ka memorie për listën e skedarëve
+msg.phrase	reading the directory... (retrying)	duke lexuar drejtorinë... (duke riprovuar)
+msg.phrase	could not read the directory	nuk mund ta lexonte drejtorinë
+msg.phrase	reading the directory...	duke lexuar drejtorinë...
+msg.phrase	the drive did not answer -- reading the partitions again	disku nuk u përgjigj -- duke lexuar përsëri ndarjet
+msg.phrase	could not read the directory (not FAT12/16/32?)	nuk e lexova dot drejtorinë (nuk FAT12/16/32?)
+msg.phrase	too many entries -- showing the first ones	shumë hyrje -- duke shfaqur të parat
+msg.phrase	no file system found on this partition	nuk u gjet asnjë sistem skedari në këtë ndarje
+msg.phrase	the path is too long	rruga është shumë e gjatë
+msg.phrase	joining...	duke u bashkuar...
+msg.phrase	splitting...	duke u ndarë...
+msg.phrase	renaming...	riemërimi...
+msg.phrase	creating the folder...	krijimi i dosjes...
+msg.phrase	creating the file...	krijimi i skedarit...
+msg.phrase	deleting...	po fshihet...
+msg.phrase	writing the attributes...	duke shkruar atributet...
+msg.phrase	the drive is busy	makina është e zënë
+msg.phrase	busy	i zënë
+msg.phrase	choose files or folders	zgjidhni skedarët ose dosjet
+msg.phrase	choose files or folders (not "..")	zgjidhni skedarë ose dosje (jo "..")
+msg.phrase	stop the CD first	ndaloni CD-në së pari
+msg.phrase	the CD cannot be changed (copy instead)	CD-ja nuk mund të ndryshohet (kopjoni në vend të kësaj)
+msg.phrase	a system folder cannot be moved	një dosje e sistemit nuk mund të zhvendoset
+msg.phrase	no drive can be written (FAT / exFAT / NTFS only)	asnjë disk nuk mund të shkruhet (vetëm FAT / exFAT / NTFS)
+msg.phrase	the drive is gone	disku është zhdukur
+msg.phrase	nothing chosen	asgjë e zgjedhur
+msg.phrase	nothing selected	asgjë e zgjedhur
+msg.phrase	could not start	nuk mund të fillonte
+msg.phrase	could not open	nuk mund të hapej
+msg.phrase	only on a FAT / exFAT / NTFS drive	vetëm në një disk FAT / exFAT / NTFS
+msg.phrase	no name	asnjë emër
+msg.phrase	that name already exists	ai emër tashmë ekziston
+msg.phrase	could not start (bad name or the drive is busy)	nuk mund të nisej (emër i keq ose disku është i zënë)
+msg.phrase	could not start (the drive is busy)	nuk mund të nisej (disku është i zënë)
+msg.phrase	the name cannot have / or \\ (only inside this folder)	emri nuk mund të ketë / ose \\ (vetëm brenda kësaj dosjeje)
+msg.phrase	the name is the same	emri është i njëjtë
+msg.phrase	the item is read-only (A to change)	artikulli është vetëm për lexim (A për të ndryshuar)
+msg.phrase	choose a .rb file on a writable drive	zgjidhni një skedar .rb në një disk të shkrueshëm
+msg.phrase	choose a .rb file	zgjidhni një skedar .rb
+msg.phrase	the drive is read-only	disku është vetëm për lexim
+msg.phrase	choose a folder on a writable drive	zgjidhni një dosje në një disk të shkrueshëm
+msg.phrase	wait a moment	prisni një moment
+msg.phrase	choose a file	zgjidhni një skedar
+msg.phrase	choose a file (not a folder)	zgjidhni një skedar (jo një dosje)
+msg.phrase	choose a .001 file	zgjidhni një skedar .001
+msg.phrase	choose the .001 file	zgjidhni skedarin .001
+msg.phrase	put the IWAD in a DoomFiles or Doom2Files folder	vendosni IWAD në një dosje DoomFiles ose Doom2Files
+msg.phrase	DoomFiles takes freedoom1 / doom / doomu / doom1.wad	DoomFiles merr freedoom1 / doom / doomu / doom1.wad
+msg.phrase	Doom2Files takes freedoom2 / doom2 / plutonia / tnt.wad	Doom2Files merr freedoom2 / doom2 / plutonia / tnt.wad
+msg.phrase	put the game files on external storage, not S:	vendosni skedarët e lojës në memorie të jashtme, jo S:
+msg.phrase	the IWAD must be on a FAT / exFAT / NTFS drive (not a CD)	IWAD duhet të jetë në një disk FAT / exFAT / NTFS (jo CD)
+msg.phrase	still working	ende duke punuar
+msg.phrase	an image is loading	një imazh po ngarkohet
+msg.phrase	no framebuffer	nuk ka framebuffer
+msg.phrase	half brightness works only in RGB555	gjysma e shkëlqimit funksionon vetëm në RGB555
+msg.phrase	clearing...	pastrimi...
+msg.phrase	halving the brightness...	duke përgjysmuar ndriçimin...
+msg.phrase	that is a data track	që është një gjurmë të dhënash
+msg.phrase	wait -- a file is being written	prisni -- një skedar po shkruhet
+msg.phrase	only floppy / LS-120 / CD drives	vetëm disqe / LS-120 / CD
+msg.phrase	requested	kërkuar
+msg.phrase	reading the disc...	duke lexuar diskun...
+msg.phrase	stopping...	duke u ndalur...
+msg.phrase	opening...	hapja...
+msg.phrase	done	bërë
+msg.phrase	no memory	asnjë kujtim
+msg.phrase	already open	tashmë e hapur
+msg.phrase	already running	tashmë kandidon
+msg.phrase	already saving	tashmë duke kursyer
+msg.phrase	already playing	tashmë duke luajtur
+msg.phrase	no such drive	nuk ka një makinë të tillë
+msg.phrase	no PSRAM	nuk ka PSRAM
+msg.phrase	no PSRAM for the file	nuk ka PSRAM për skedarin
+msg.phrase	no PSRAM for the line index	nuk ka PSRAM për indeksin e linjës
+msg.phrase	no PSRAM for the terminal	nuk ka PSRAM për terminalin
+msg.phrase	no memory (PSRAM)	pa memorie (PSRAM)
+msg.phrase	no memory (32KB SRAM)	pa memorie (32 KB SRAM)
+msg.phrase	no memory for the buffer	nuk ka memorie për buferin
+msg.phrase	no memory for the image buffers	nuk ka memorie për buferët e imazhit
+msg.phrase	no memory for the read buffer	nuk ka memorie për buferin e leximit
+msg.phrase	no room for the work memory (close the lowres plane?)	nuk ka vend për kujtesën e punës (mbyll planin e uljes?)
+msg.phrase	no framebuffer page	nuk ka faqe framebuffer
+msg.phrase	too large (4 MB at most)	shumë i madh (maksimumi 4 MB)
+msg.phrase	the file is too large (1 MB at most)	skedari është shumë i madh (maksimumi 1 MB)
+msg.phrase	the file is too large (1 MB max)	skedari është shumë i madh (maksimumi 1 MB)
+msg.phrase	too large for an SMF (1MB at most)	shumë i madh për një SMF (maksimumi 1 MB)
+msg.phrase	the file is empty	skedari është bosh
+msg.phrase	could not open the file	nuk mund ta hapte skedarin
+msg.phrase	could not read the file	nuk mund ta lexonte skedarin
+msg.phrase	could not open the volume	nuk mund ta hapte volumin
+msg.phrase	could not open the destination (no memory?)	nuk mund ta hapte destinacionin (pa memorie?)
+msg.phrase	could not read the root folder	nuk mund të lexonte dosjen rrënjë
+msg.phrase	could not start the task	nuk mund të fillonte detyrën
+msg.phrase	could not start writing (bad name or busy)	nuk mund të filloj të shkruaj (emër i keq ose i zënë)
+msg.phrase	another volume is open (busy)	një vëllim tjetër është i hapur (i zënë)
+msg.phrase	a copy is running	një kopje po ekzekutohet
+msg.phrase	a folder cannot go into itself	një dosje nuk mund të hyjë në vetvete
+msg.phrase	that is the same folder	që është e njëjta dosje
+msg.phrase	this drive cannot be changed (read only)	ky disk nuk mund të ndryshohet (vetëm për lexim)
+msg.phrase	the drive is not writable	disku nuk mund të shkruhet
+msg.phrase	the part size must be a multiple of 512	madhësia e pjesës duhet të jetë shumëfish i 512
+msg.phrase	files of 4 GB or more are not supported	skedarët prej 4 GB ose më shumë nuk mbështeten
+msg.phrase	bad path	rrugë e keqe
+msg.phrase	bad file name	emri i keq i skedarit
+msg.phrase	the font ROM is not there	ROM-i i fontit nuk është aty
+msg.phrase	the sound is not open	zëri nuk është i hapur
+msg.phrase	no such channel	asnjë kanal të tillë
+msg.phrase	the sequencer is busy	sekuencori është i zënë
+msg.phrase	not enough PSRAM for the song	nuk mjafton PSRAM për këngën
+msg.phrase	not a standard MIDI file (no MThd)	jo një skedar standard MIDI (pa MThd)
+msg.phrase	no tracks	asnjë gjurmë
+msg.phrase	a track is broken (MTrk)	një pistë është prishur (MTrk)
+msg.phrase	SMPTE time division is not supported	Ndarja e kohës SMPTE nuk mbështetet
+msg.phrase	SMF format 2 is not supported (0 and 1 only)	Formati SMF 2 nuk mbështetet (vetëm 0 dhe 1)
+msg.phrase	not a Bulk-Only drive	jo një makinë vetëm me shumicë
+msg.phrase	not an optical drive	jo një makinë optike
+msg.phrase	a system folder cannot be deleted or renamed	një dosje e sistemit nuk mund të fshihet ose riemërtohet
+msg.phrase	no media in the drive	nuk ka media në makinë
+msg.phrase	becoming ready	duke u bërë gati
+msg.phrase	not ready	jo gati
+msg.phrase	media changed	media ka ndryshuar
+msg.phrase	medium error	gabim mesatar
+msg.phrase	illegal request	kërkesë e paligjshme
+msg.phrase	a bad directory entry	një hyrje e keqe në drejtori
+msg.phrase	a directory on the way does not exist	një drejtori në rrugë nuk ekziston
+msg.phrase	a file has that name	një skedar ka atë emër
+msg.phrase	a folder has that name	një dosje ka atë emër
+msg.phrase	a name on the way is not a directory	një emër në rrugë nuk është një drejtori
+msg.phrase	cancelled	anuluar
+msg.phrase	could not mount	nuk mund të montohej
+msg.phrase	could not start a read	nuk mund të fillonte një lexim
+msg.phrase	could not start a write	nuk mund të fillonte një shkrim
+msg.phrase	is a directory	është një direktori
+msg.phrase	that is a directory	që është një direktori
+msg.phrase	no clusters	nuk ka grupime
+msg.phrase	no room for the cluster list	nuk ka vend për listën e grupimeve
+msg.phrase	no such file or directory	asnjë skedar apo drejtori të tillë
+msg.phrase	no such file	asnjë skedar i tillë
+msg.phrase	no volume	pa volum
+msg.phrase	not NTFS	jo NTFS
+msg.phrase	not exFAT	jo exFAT
+msg.phrase	not a directory	jo një drejtori
+msg.phrase	not found	nuk u gjet
+msg.phrase	read error	gabim leximi
+msg.phrase	write error	gabim shkrimi
+msg.phrase	reading the FAT failed	leximi i FAT dështoi
+msg.phrase	the cluster chain is shorter than the file	zinxhiri i grupit është më i shkurtër se skedari
+msg.phrase	the directory is not empty	drejtoria nuk është bosh
+msg.phrase	the disk is full	disku është plot
+msg.phrase	the drive did not answer	makinë nuk u përgjigj
+msg.phrase	the file is read-only	skedari është vetëm për lexim
+msg.phrase	the file is too fragmented	skedari është shumë i fragmentuar
+msg.phrase	the file is too large (4GB)	skedari është shumë i madh (4 GB)
+msg.phrase	the new name already exists	emri i ri ekziston tashmë
+msg.phrase	the root directory is full	direktoria rrënjësore është e plotë
+msg.phrase	too many files with the same short name	shumë skedarë me të njëjtin emër të shkurtër
+msg.phrase	No such file or directory	Asnjë skedar apo drejtori i tillë
+msg.phrase	File exists	Skedari ekziston
+msg.phrase	Permission denied	Leja u refuzua
+msg.phrase	Directory not empty	Drejtoria nuk është bosh
+msg.phrase	Not a directory	Jo një drejtori
+msg.phrase	Is a directory	Është një drejtori
+msg.phrase	Read-only file system	Sistemi i skedarëve vetëm për lexim
+msg.phrase	No space left on device	Nuk ka vend në pajisje
+msg.phrase	Input/output error	Gabim hyrje/dalje
+msg.phrase	Not supported on this drive	Nuk mbështetet në këtë disk
+msg.phrase	Invalid path	Rrugë e pavlefshme
+msg.phrase	Out of memory	Pa memorie
+msg.phrase	No such drive	Nuk ka një makinë të tillë
+msg.phrase	stopped	ndaloi
+msg.phrase	cancelled (not enough free space)	anuluar (nuk ka hapësirë ​​të mjaftueshme të lirë)
+msg.phrase	could not count the free space	nuk mund të numëronte hapësirën e lirë
+msg.phrase	the receiver cancelled	marrësi u anulua
+msg.phrase	no receiver (run rz on the PC)	pa marrës (ekzekutoni rz në PC)
+msg.phrase	the console UART is in use	tastiera UART është në përdorim
+msg.phrase	the screen mode changed	modaliteti i ekranit ndryshoi
+msg.phrase	the lines did not come (is the display running?)	linjat nuk erdhën (a po funksionon ekrani?)
+msg.prefix	copy	kopje
+msg.prefix	move	lëvizin
+msg.prefix	delete	fshij
+msg.prefix	rename	riemërto
+msg.prefix	attributes	atributet
+msg.prefix	new file	skedar i ri
+msg.prefix	new folder	dosje e re
+msg.prefix	image	imazh
+msg.prefix	mrbc	mrbc
+msg.prefix	ruby	rubin
+msg.prefix	viewer	shikues
+msg.prefix	edit	redaktoni
+msg.prefix	IDENTIFY	Identifikimi
+msg.prefix	ZMODEM	ZMODEM
+msg.prefix	ZMODEM receive	ZMODEM marrin
+msg.prefix	ZMODEM send	Dërgo ZMODEM
+msg.prefix	split	ndarë
+msg.prefix	join	bashkohen
+msg.prefix	Doom	Dënim
+msg.prefix	SMF	SMF
+msg.prefix	CD	CD
+msg.prefix	FB	FB
+msg.prefix	Eject	Nxjerr
+msg.prefix	reboot	rindezje
+msg.prefix	license	licencë
+msg.prefix	clock	ora
+msg.prefix	ADC in	ADC në
+msg.prefix	screen -> PNG	ekran -> PNG
+msg.prefix	FB -> PNG	FB -> PNG
+msg.prefix	could not open the volume	nuk mund ta hapte volumin
+msg.pattern	received 	marrë %s
+msg.pattern	sent 	dërguar %s
+msg.pattern	saved 	i ruajtur %s
+msg.pattern	created 	krijuar %s
+msg.pattern	renamed to 	riemëruar në %s
+msg.pattern	deleted 	fshihet %s
+msg.pattern	changed 	ndryshuar %s
+msg.pattern	joined 	u bashkuan %s
+msg.pattern	split 	ndarë %s
+msg.pattern	could not create 	nuk mund të krijonte %s
+msg.pattern	could not delete 	nuk mund të fshihej %s
+msg.pattern	could not rename to 	nuk mund të riemërtohej në %s
+msg.pattern	could not change 	nuk mund të ndryshonte %s
+msg.pattern	could not read 	nuk mund të lexonte %s
+msg.pattern	could not write 	nuk mund të shkruante %s
+msg.pattern	could not copy 	nuk mund të kopjohej %s
+msg.pattern	could not make 	nuk mund të bënte %s
+msg.pattern	could not remove the folder 	dosjen nuk mund ta hiqte %s
+msg.pattern	could not remove 	nuk mund të hiqte %s
+msg.pattern	no memory for 	nuk ka memorie për %s
+msg.pattern	too many errors while sending 	shumë gabime gjatë dërgimit %s
+msg.pattern	the receiver did not take 	marrësi nuk ka marrë %s
+msg.pattern	the receiver skipped 	marrësi kapërceu %s
+msg.pattern	FB page 	Faqja në FB %s
+msg.word	 bytes each)	byte secili)
+msg.word	 bytes)	byte)
+msg.word	 KB)	KB)
+msg.word	 parts into 	pjesë në
+msg.word	 parts (	pjesë (
+msg.word	 into 	në
+msg.word	: cleared	: pastruar
+msg.word	: brightness halved	: ndriçimi i përgjysmuar
+msg.word	% read	% e lexuar
+msg.word	 rows	rreshtave
+msg.word	 -- not supported yet (FAT / exFAT / NTFS only)	-- nuk mbështetet ende (vetëm FAT / exFAT / NTFS)
+msg.word	 files	dosjet
+msg.word	 (	(
+msg.phrase	Untitled	Pa titull
+msg.phrase	1 File	1 Skedar
+msg.phrase	2 Edit	2 Redakto
+msg.phrase	3 Graph	3 Grafiku
+msg.phrase	4 Sheet	4 Fletë
+msg.phrase	5 Help	5 Ndihmë
+msg.phrase	EMPTY	BOSH
+msg.phrase	NUMBER	NUMËR
+msg.phrase	TEXT	TEKST
+msg.phrase	FORMULA	FORMULA
+msg.phrase	Type to enter, F2 to edit, F1 for help	Shkruani për të hyrë, F2 për të modifikuar, F1 për ndihmë
+msg.phrase	5 CSV	5 CSV
+msg.phrase	6 ODS	6 ODS
+msg.phrase	[SHIFT]	[SHIFT]
+msg.phrase	[CTRL]	[CTRL]
+msg.phrase	[ALT]	[ALT]
+msg.phrase	Ready	Gati
+msg.phrase	SGCALC	SGCALC
+msg.phrase	Press any key	Shtypni çdo tast
+msg.phrase	Y = yes    N = no    Esc = cancel	Y = po N = jo Esc = anuloj
+msg.phrase	Enter = OK    Esc = cancel    Ctrl-U = clear	Enter = OK Esc = anuloj Ctrl-U = pastrohet
+msg.phrase	First row/column = labels; charts use the 640x480 CLUT8 FB.	Rreshti/kolona e parë = etiketat; grafikët përdorin 640x480 CLUT8 FB.
+msg.phrase	SGCALC - HELP	SGCALC - NDIHMË
+msg.phrase	Press any key to return	Shtypni çdo tast për t'u kthyer
+msg.phrase	Press any key to return.	Shtypni çdo tast për t'u kthyer.
+msg.phrase	ABOUT SGCALC	RRETH SGCALC
+msg.phrase	New	E re
+msg.phrase	Start a new sheet	Filloni një fletë të re
+msg.phrase	Open...	Hape...
+msg.phrase	Open an ODS, FODS or CSV file	Hapni një skedar ODS, FODS ose CSV
+msg.phrase	Save	Ruaj
+msg.phrase	Save the current file	Ruani skedarin aktual
+msg.phrase	Save As...	Ruaj si...
+msg.phrase	Save with a new name or format	Ruani me një emër ose format të ri
+msg.phrase	Export CSV...	Eksporto CSV...
+msg.phrase	Write a CSV copy	Shkruani një kopje CSV
+msg.phrase	Export ODS...	Eksporto ODS...
+msg.phrase	Write a LibreOffice copy	Shkruani një kopje të LibreOffice
+msg.phrase	Quit	Hiq dorë
+msg.phrase	Leave SGCALC	Largohu nga SGCALC
+msg.phrase	Clear	E qartë
+msg.phrase	Clear the selected cells	Pastro qelizat e zgjedhura
+msg.phrase	Copy	Kopjo
+msg.phrase	Copy the selection	Kopjoni përzgjedhjen
+msg.phrase	Paste	Paste
+msg.phrase	Paste at the cursor	Ngjitni në kursorin
+msg.phrase	Cut	Prerë
+msg.phrase	Copy and clear the selection	Kopjoni dhe pastroni përzgjedhjen
+msg.phrase	Select all	Zgjidh të gjitha
+msg.phrase	Select all used cells	Zgjidhni të gjitha qelizat e përdorura
+msg.phrase	Text color...	Ngjyra e tekstit...
+msg.phrase	Choose the text colour	Zgjidhni ngjyrën e tekstit
+msg.phrase	Background...	Sfondi...
+msg.phrase	Choose the cell background	Zgjidhni sfondin e qelizës
+msg.phrase	Line	Linja
+msg.phrase	Draw a line graph from the selection	Vizatoni një grafik vijues nga përzgjedhja
+msg.phrase	Bar	Bar
+msg.phrase	Draw a bar graph from the selection	Vizatoni një grafik me shtylla nga përzgjedhja
+msg.phrase	Mixed	Të përziera
+msg.phrase	Bars for the first series, lines for the rest	Shufra për serinë e parë, rreshta për pjesën tjetër
+msg.phrase	Pie	Byrek
+msg.phrase	Draw a pie graph from the selection	Vizatoni një grafik byrek nga përzgjedhja
+msg.phrase	Range...	Gama...
+msg.phrase	Set the graph range explicitly	Vendosni në mënyrë eksplicite gamën e grafikut
+msg.phrase	Draw again	Vizatoni përsëri
+msg.phrase	Redraw the last graph	Rivizatoni grafikun e fundit
+msg.phrase	Goto...	Shkoni...
+msg.phrase	Jump to a cell (for example C12)	Shkoni në një qelizë (për shembull C12)
+msg.phrase	Column width...	Gjerësia e kolonës...
+msg.phrase	Change the selected columns' width	Ndryshoni gjerësinë e kolonave të zgjedhura
+msg.phrase	Row height...	Lartësia e rreshtit...
+msg.phrase	Change the selected rows' height	Ndryshoni lartësinë e rreshtave të zgjedhur
+msg.phrase	Auto fit	Përshtatje automatike
+msg.phrase	Fit widths/heights to the contents (F7)	Përshtatni gjerësitë/lartësitë me përmbajtjen (F7)
+msg.phrase	Recalculate	Rillogaritni
+msg.phrase	Re-evaluate all formulas	Rivlerësoni të gjitha formulat
+msg.phrase	Erase all	Fshini të gjitha
+msg.phrase	Clear the whole sheet	Pastro të gjithë fletën
+msg.phrase	Keys	Çelësat
+msg.phrase	Show the key guide	Trego udhëzuesin kyç
+msg.phrase	About	Rreth
+msg.phrase	About SGCALC	Rreth SGCALC
+msg.phrase	File	Skedari
+msg.phrase	Edit	Redakto
+msg.phrase	Graph	Grafiku
+msg.phrase	Sheet	Fletë
+msg.phrase	Help	Ndihmë
+msg.phrase	File: new, open, save, export, quit	Skedari: i ri, i hapur, i ruajtur, i eksportuar, i daljes
+msg.phrase	Edit: clear, copy, paste, cut, select all	Redakto: fshij, kopjo, ngjit, pre, zgjidh të gjitha
+msg.phrase	Graph: line, bar, mixed, pie (draws in the FB)	Grafiku: rreshti, shiriti, i përzier, byrek (vizatimet në FB)
+msg.phrase	Sheet: goto, column width, recalculate, erase	Fletë: goto, gjerësia e kolonës, rillogarit, fshi
+msg.phrase	Help: keys and about	Ndihmë: çelësat dhe rreth
+msg.phrase	Left/Right = menu    Up/Down = item    Enter = choose    Esc = cancel	Majtas/Djathtas = menyja Lart/Poshtë = artikulli Enter = zgjidhni Esc = anuloni
+msg.phrase	Cancelled	Anuluar
+msg.phrase	The selection is too large or memory is low.	Zgjedhja është shumë e madhe ose memoria është e ulët.
+msg.phrase	the cell	qeliza
+msg.phrase	the selection	përzgjedhjen
+msg.phrase	Nothing to paste	Asgjë për të ngjitur
+msg.phrase	Pasted	Ngjitur
+msg.phrase	GO TO CELL	SHKO NE QELIZ
+msg.phrase	Cell reference (A1):	Referenca e qelizës (A1):
+msg.phrase	Goto	Shkoni
+msg.phrase	COLUMN WIDTH	GJERËSIA E KOLONËS
+msg.phrase	Width in characters (4..30):	Gjerësia në karaktere (4..30):
+msg.phrase	ROW HEIGHT	LARTËSIA E RRESHTIT
+msg.phrase	Height in text rows (1..8):	Lartësia në rreshtat e tekstit (1..8):
+msg.phrase	Auto fit: the sheet is empty	Përshtatje automatike: fleta është bosh
+msg.phrase	BACKGROUND COLOUR	NGJYRA E Sfondit
+msg.phrase	TEXT COLOUR	NGJYRA E TEKSTIT
+msg.phrase	Arrows: choose    Enter: apply    Esc: cancel	Shigjetat: zgjidhni Enter: aplikoni Esc: anuloni
+msg.phrase	Colour index (PC-98 16-colour palette)	Indeksi i ngjyrave (PC-98 me 16 ngjyra)
+msg.phrase	Aa 123	Aa 123
+msg.phrase	Enter = apply    Esc = cancel	Shkruani = aplikoni Esc = anuloni
+msg.phrase	Colour	Ngjyra
+msg.phrase	Background	Sfondi
+msg.phrase	Text	Teksti
+msg.phrase	GRAPH RANGE	GAME GRAFIK
+msg.phrase	Range (for example A1:C10):	Gama (për shembull A1:C10):
+msg.phrase	Graph range	Gama e grafikut
+msg.phrase	Use a range such as A1:C10.	Përdorni një gamë të tillë si A1:C10.
+msg.phrase	Cannot draw the graph.	Nuk mund të vizatohet grafiku.
+msg.phrase	line	linjë
+msg.phrase	bar	bar
+msg.phrase	mixed	të përziera
+msg.phrase	pie	byrek
+msg.phrase	Clear every cell in this sheet?	Të pastrohet çdo qelizë në këtë fletë?
+msg.phrase	Sheet erased	Fleta u fshi
+msg.phrase	Selected all used cells	Përzgjodhi të gjitha qelizat e përdorura
+msg.phrase	Recalculated	Rillogaritur
+msg.phrase	Memory	Kujtesa
+msg.phrase	Not enough PSRAM for the spreadsheet.	Nuk ka mjaftueshëm PSRAM për tabelën.
+msg.phrase	The sheet is empty.	Fleta është bosh.
+msg.phrase	No numeric data in the selected range.	Nuk ka të dhëna numerike në diapazonin e zgjedhur.
+msg.phrase	Other	Të tjera
+msg.phrase	No positive values for a pie chart	Nuk ka vlera pozitive për një grafik byrek
+msg.phrase	LINE	LINJA
+msg.phrase	BAR	BAR
+msg.phrase	MIXED	E PËRZIERUR
+msg.phrase	PIE	byrek
+msg.phrase	S:/	S:/
+msg.phrase	Folder	Dosja
+msg.phrase	SAVE AS	RUAJ SI
+msg.phrase	OPEN FILE	HAP DOSJE
+msg.phrase	LibreOffice / CSV	LibreOffice / CSV
+msg.phrase	ODS  FODS  CSV	ODS FODS CSV
+msg.phrase	Name:	Emri:
+msg.phrase	(type a name, or choose below)	(shkruani një emër ose zgjidhni më poshtë)
+msg.phrase	Name	Emri
+msg.phrase	Size	Madhësia
+msg.phrase	Enter=save  Left=up  Right/Enter on [DIR]=open  Tab=drive  Esc=cancel	Enter=save Left=lart Djathtas/Enter on [DIR]=open Tab=drive Esc=anulo
+msg.phrase	Enter=open  Left=up  Right/Enter on [DIR]=open  Tab=drive  Esc=cancel	Enter=hap Majtas=lart Djathtas/Enter në [DIR]=open Tab=drive Esc=anulo
+msg.phrase	Not enough memory.	Nuk ka memorie të mjaftueshme.
+msg.phrase	Overwrite	Mbishkruani
+msg.phrase	Open	Hapur
+msg.phrase	The file is too large (limit 8 MB).	Skedari është shumë i madh (kufiri 8 MB).
+msg.phrase	Not enough memory to read the file.	Nuk ka memorie të mjaftueshme për të lexuar skedarin.
+msg.phrase	Bad ZIP/ODS data.	Të dhëna të këqija ZIP/ODS.
+msg.phrase	CRC error in the ODS file.	Gabim CRC në skedarin ODS.
+msg.phrase	Unsupported or damaged file.	Skedar i pambështetur ose i dëmtuar.
+msg.phrase	Saved	U ruajt
+msg.phrase	Exported	Eksportohet
+msg.phrase	Unsaved changes	Ndryshime të paruajtura
+msg.phrase	Save the current sheet before continuing?	Të ruhet fleta aktuale përpara se të vazhdohet?
+msg.phrase	New sheet	Fletë e re
+msg.phrase	SGTRK	SGTRK
+msg.phrase	UNTITLED	PA TITULL
+msg.phrase	song is too large	kënga është shumë e madhe
+msg.phrase	empty file	skedar bosh
+msg.phrase	not an SGT file	jo një skedar SGT
+msg.phrase	bad BPM	BPM e keqe
+msg.phrase	bad speed	shpejtësi e keqe
+msg.phrase	bad title length	gjatësi e keqe e titullit
+msg.phrase	truncated title	titull i cunguar
+msg.phrase	bad character in title	personazh i keq në titull
+msg.phrase	truncated order	rend i cunguar
+msg.phrase	bad order length	gjatësia e porosisë së keqe
+msg.phrase	bad pattern number in order	numri i modelit të keq në rregull
+msg.phrase	truncated pattern list	lista e modeleve të cunguara
+msg.phrase	bad pattern count	numërim i keq i modeleve
+msg.phrase	bad pattern index	indeksi i modelit të keq
+msg.phrase	duplicate pattern	model i dyfishtë
+msg.phrase	truncated pattern data	të dhëna të shkurtuara të modelit
+msg.phrase	invalid pattern data	të dhëna të pavlefshme modeli
+msg.phrase	trailing data in file	të dhënat pasuese në dosje
+msg.phrase	order refers to a missing pattern	rendi i referohet një modeli që mungon
+msg.phrase	A:/	A:/
+msg.phrase	(untitled)	(pa titull)
+msg.phrase	Ready. Press F1 for help.	Gati. Shtypni F1 për ndihmë.
+msg.phrase	Follow OFF	Ndiqni OFF
+msg.phrase	Nothing to undo	Nuk ka asgjë për të zhbërë
+msg.phrase	Undo	Zhbër
+msg.phrase	Note OFF	Shënimi OFF
+msg.phrase	Set an effect letter first	Vendosni fillimisht një shkronjë efekti
+msg.phrase	Effect cleared	Efekti u pastrua
+msg.phrase	Parameter cleared	Parametri u fshi
+msg.phrase	Note cleared	Shënimi u fshi
+msg.phrase	Instrument cleared	Instrumenti u pastrua
+msg.phrase	Volume cleared	Vëllimi u pastrua
+msg.phrase	Order list is full	Lista e porosive është e plotë
+msg.phrase	Order inserted	Urdhri u fut
+msg.phrase	Cannot delete the last order	Nuk mund të fshihet porosia e fundit
+msg.phrase	Order deleted	Porosia u fshi
+msg.phrase	Playing song	Duke luajtur këngë
+msg.phrase	Stopped	Ndaloi
+msg.phrase	New song	Kenge e re
+msg.phrase	Discard unsaved changes and start a new song? (Y/N)	Të hiqen ndryshimet e paruajtura dhe të filloni një këngë të re? (Po/Jo)
+msg.phrase	Discard unsaved changes and open a song? (Y/N)	Të hiqen ndryshimet e paruajtura dhe të hapet një këngë? (Po/Jo)
+msg.phrase	Discard unsaved changes and quit? (Y/N)	Të hiqen ndryshimet e paruajtura dhe të largoheni? (Po/Jo)
+msg.phrase	Song settings updated	Cilësimet e këngës u përditësuan
+msg.phrase	Filename is empty	Emri i skedarit është bosh
+msg.phrase	Save cancelled	Ruajtja u anulua
+msg.phrase	Open cancelled	Hapja u anulua
+msg.phrase	Edit ON	Redakto AKTIV
+msg.phrase	Edit OFF	Ndrysho OAK
+msg.phrase	Follow ON	Ndiqni ON
+msg.phrase	Edit is OFF. Press F8 to edit.	Redaktimi është OAK. Shtypni F8 për të modifikuar.
+msg.phrase	I/O error	Gabim I/O
+msg.phrase	file is too large	skedari është shumë i madh
+msg.phrase	truncated file	skedar i cunguar
+msg.phrase	SINE PAD	SINE PAD
+msg.phrase	TRIANGLE	TREKËNDËSH
+msg.phrase	SAW LEAD	Plumbi i sharrës
+msg.phrase	SQUARE	SHESHI
+msg.phrase	PULSE 25	PULSI 25
+msg.phrase	ORGAN	ORGAN
+msg.phrase	BASS	BASS
+msg.phrase	BELL	BELL
+msg.phrase	NOISE	ZHURMA
+msg.phrase	SINE	SINE
+msg.phrase	SAW	SAW
+msg.phrase	OFF	FAKT
+msg.phrase	ON	AKTIV
+msg.phrase	ROW	RRESHT
+msg.phrase	CHAN LEVEL	NIVELI CHAN
+msg.phrase	F1 HELP F2 SONG	F1 HELP F2 SONG
+msg.phrase	F3 INS  F4 SAVE	F3 INS F4 SAVE
+msg.phrase	F5 PLAY F6 PAT	F5 LUAJ F6 PAT
+msg.phrase	F7 STOP F8 EDIT	F7 STOP F8 EDIT
+msg.phrase	F9/F10 OCTAVE	F9/F10 OKTAVE
+msg.phrase	F11 FOLLOW	F11 FOLLO
+msg.phrase	F12 QUIT	F12 QUIT
+msg.phrase	SPACE PLAY/STOP	PLAY/STOP SPACE
+msg.phrase	CTRL-S SAVE	CTRL-S SAVE
+msg.phrase	CTRL-O OPEN	CTRL-O HAPUR
+msg.phrase	C-N NEW C-Z UNDO	C-N E RI C-Z ZHQYRJE
+msg.phrase	C-C STOP	C-C STOP
+msg.phrase	#TRANSPORT AND FILES	#TRANSPORTI DHE DOSJE
+msg.phrase	#ORDER LIST	#LISTA E POROSIT
+msg.phrase	#DISPLAY	#SHPALL
+msg.phrase	#EDITING	#EDITIM
+msg.phrase	#EFFECTS (parameter is hexadecimal)	#EFEKTE (parametri është heksadecimal)
+msg.phrase	LEFT/RIGHT PAGE   ENTER OR F1 CLOSE	FAQJA E Majtas/Djathtas HYNI OSE F1 MBYLL
+msg.phrase	SONG SETTINGS	CILËSIMET E KËNGËS
+msg.phrase	UP/DOWN SELECT   LEFT/RIGHT ADJUST   ENTER/F2 CLOSE	LARTË/POSHT ZGJIDHNI TË Majtas/Djathtas RREGULLONI ENTER/F2 MBYLL
+msg.phrase	Type to edit the title. Backspace deletes the last character.	Shkruani për të modifikuar titullin. Backspace fshin karakterin e fundit.
+msg.phrase	BPM range 32..255. Speed range 1..31.	Gama e BPM 32..255. Gama e shpejtësisë 1..31.
+msg.phrase	Pattern effects can also change speed and BPM while playing.	Efektet e modelit mund të ndryshojnë gjithashtu shpejtësinë dhe BPM gjatë lojës.
+msg.phrase	INSTRUMENTS	INSTRUMENTET
+msg.phrase	UP/DOWN SELECT   SPACE PREVIEW   ENTER USE   F3 CLOSE	LARTË/POSHT ZGJIDHJE PARAPRAKE TË HAPËSIRËS HYNI PËRDORIMI F3 MBYLL
+msg.phrase	All four channels use wavetable synthesis.	Të katër kanalet përdorin sintezën e valëve.
+msg.phrase	Preview plays C-4 on the track under the edit cursor.	Preview luan C-4 në pistën nën kursorin e modifikimit.
+msg.phrase	SAVE SONG AS	RUAJE KENGEN SI
+msg.phrase	ENTER SAVE   F4 OR CTRL-C CANCEL	SHQYRONI SAVE F4 OSE CTRL-C ANULO
+msg.phrase	Directory:	Drejtoria:
+msg.phrase	File name:	Emri i skedarit:
+msg.phrase	The extension .SGT is added automatically.	Shtesa .SGT shtohet automatikisht.
+msg.phrase	An existing file can be overwritten.	Një skedar ekzistues mund të mbishkruhet.
+msg.phrase	OPEN SONG	KËNGË E HAPUR
+msg.phrase	ENTER OPEN  BS PARENT  CTRL-O/CTRL-C CANCEL	FYTO HAPI BS PRENT CTRL-O/CTRL-C ANULO
+msg.phrase	(no .SGT files in this folder)	(nuk ka skedarë .SGT në këtë dosje)
+msg.phrase	CONFIRM	KONFIRMOJ
+msg.phrase	Y = YES   N / ENTER / CTRL-C = NO	Y = PO N / ENTER / CTRL-C = JO
+msg.phrase	Y = yes        N = no	Y = po N = jo
+msg.phrase	C-	C-
+msg.phrase	C#	C#
+msg.phrase	D-	D-
+msg.phrase	D#	D#
+msg.phrase	E-	E-
+msg.phrase	F-	F-
+msg.phrase	F#	F#
+msg.phrase	G-	G-
+msg.phrase	G#	G#
+msg.phrase	A-	A-
+msg.phrase	A#	A#
+msg.phrase	B-	B-
+msg.phrase	A:/dir/name	A:/dir/emër
+msg.phrase	MThd	Mthd
+msg.phrase	broken MThd	thyer MThd
+msg.phrase	MIDI IMPORT	MIDI IMPORT
+msg.phrase	MTrk	MTrk
+msg.phrase	broken delta time	koha e thyer e deltës
+msg.phrase	broken running status	statusi i funksionimit të prishur
+msg.phrase	broken meta event	ngjarje meta e prishur
+msg.phrase	broken sysex event	Ngjarja e prishur e syseksit
+msg.phrase	broken channel event	ngjarje e kanalit të prishur
+msg.phrase	SMF output is too small	Dalja SMF është shumë e vogël
+msg.phrase	SMF output is too large	Dalja SMF është shumë e madhe
+msg.phrase	the song is too long for SMF	kënga është shumë e gjatë për SMF
+msg.phrase	TRK1	TRK1
+msg.phrase	%s%d	%s%d
+msg.phrase	%s%d:%s%d	%s%d:%s%d
+msg.phrase	%s	%s
+msg.phrase	%.40s%s	%.40s%s
+msg.phrase	  [%s]   %s	[%s] %s
+msg.phrase	EDIT  	EDIT
+msg.phrase	READY 	GATI
+msg.phrase	%4d 	%4d
+msg.phrase	%s Sum %.7g N %ld%s	%s Shuma %.7g N %ld%s
+msg.phrase	ARROWS      move the cell cursor\n	Shigjetat lëvizin kursorin e qelizës
+msg.phrase	SHIFT+ARR   extend the selection (for graphs/copy)\n	SHIFT+ARR zgjerojnë përzgjedhjen (për grafikët/kopjimin)
+msg.phrase	ENTER       edit the cell; in edit, commit and move down\n	ENTER modifikoni qelizën; në redaktim, angazhohu dhe lëviz poshtë
+msg.phrase	TAB         next cell    SHIFT+TAB  previous cell\n	TAB qeliza tjetër SHIFT+TAB qeliza e mëparshme
+msg.phrase	DELETE      clear the selected cell(s)    ESC  cancel\n	DELETE pastroni qelizat e zgjedhura anulimin ESC
+msg.phrase	PGUP/PGDN   move one screen    HOME/END  first/last column\n	PGUP/PGDN zhvendos një ekran HOME/FUND kolonën e parë/të fundit
+msg.phrase	CTRL+HOME   A1    CTRL+END  last used cell\n	CTRL+HOME A1 CTRL+END qeliza e fundit e përdorur
+msg.phrase	F1 help  F2 edit  F3 copy  F4 paste  F5 goto  F6 colour\n	F1 ndihmë F2 redaktoni F3 kopjoni F4 paste F5 shkoj me ngjyra F6
+msg.phrase	F7 auto-fit  F8 background  F9 recalc  F10 graph  F11 save  F12 menu\n	F7 përshtatet automatikisht F8 sfondi F9 ricalc F10 grafiku F11 ruaj menunë F12
+msg.phrase	SHIFT+F1 about  SHIFT+F2 row height  SHIFT+F3 column width\n	SHIFT+F1 rreth SHIFT+F2 lartësia e rreshtit SHIFT+F3 gjerësia e kolonës
+msg.phrase	SHIFT+F4 select all  SHIFT+F10 graph range  SHIFT+F11 save as\n	SHIFT+F4 zgjidhni të gjithë diapazonin e grafikut SHIFT+F10 SHIFT+F11 ruajeni si
+msg.phrase	CTRL+F1 new  CTRL+F2 open  CTRL+F3 save  CTRL+F4 save as\n	CTRL+F1 CTRL+F2 i ri hap CTRL+F3 ruaj CTRL+F4 ruaj si
+msg.phrase	CTRL+F5 export CSV  CTRL+F6 export ODS  ALT+F12 quit\n	CTRL+F5 eksporto CSV CTRL+F6 eksporto ODS ALT+F12 u mbyll
+msg.phrase	Bottom 2 lines: function keys; [SHIFT]/[CTRL]/[ALT] like the filer\n	2 rreshtat e poshtëm: tastet e funksionit; [SHIFT]/[CTRL]/[ALT] si skedari
+msg.phrase	CTRL+S save  CTRL+O open  CTRL+N new  CTRL+C/V/X copy/paste/cut\n	CTRL+S ruani CTRL+O hapni CTRL+N CTRL+C/V/X kopjoni/ngjisni/preni
+msg.phrase	CTRL+G goto    /  open the menu (1 File, 2 Edit, ...)\n	CTRL+G shkoi / hap menunë (1 skedar, 2 modifiko, ...)
+msg.phrase	Built-in functions: SUM AVERAGE MIN MAX COUNT COUNTA\n	Funksionet e integruara: SHUMË MESATORE MIN MAX COUNT COUNTA
+msg.phrase	PRODUCT ABS SQRT INT ROUND MOD POWER IF AND OR NOT\n	PRODUKTI ABS SQRT INT ROUND MOD POWER NËSE DHE APO JO
+msg.phrase	IFERROR LEN LEFT RIGHT MID UPPER LOWER TRIM CONCATENATE PI\n	IFERROR LEN Majtas Djathtas MID E SIPËRME E POSHTME TRIM KONCATENATE PI
+msg.phrase	Cell refs: A1, $A$1, A1:B10.  Formulas begin with '='.\n	Referencat e qelizave: A1, $A$1, A1:B10.  Formulat fillojnë me '='.
+msg.phrase	Files: .ods (LibreOffice), .fods (flat XML), .csv\n	Skedarët: .ods (LibreOffice), .fods (XML e sheshtë), .csv
+msg.phrase	ODS/FODS keeps formulas, widths, heights and colours.\n	ODS/FODS ruan formulat, gjerësinë, lartësinë dhe ngjyrat.
+msg.phrase	CSV keeps values and formulas (no colours/heights).\n	CSV ruan vlerat dhe formulat (pa ngjyra/lartësi).
+msg.phrase	Graph: select a range, press F10, and choose Line/Bar/Mixed/Pie.\n	Grafiku: zgjidhni një interval, shtypni F10 dhe zgjidhni Line/Bar/Mixed/Pie.
+msg.phrase	SGCALC for sgnano\n	SGCALC për sgnano
+msg.phrase	Version 	Versioni
+msg.phrase	A Lotus 1-2-3 style spreadsheet as an SGX program.\n\n	Një fletëllogaritëse e stilit Lotus 1-2-3 si një program SGX.
+msg.phrase	SGX ABI %u.%u\n	SGX ABI %u.%u
+msg.phrase	Screen mode 3: text + CLUT8 FB (lowres disabled)\n	Modaliteti i ekranit 3: tekst + CLUT8 FB (ulet i çaktivizuar)
+msg.phrase	Sheet: %d rows x %d columns\n	Fleta: %d rreshta x %d kolona
+msg.phrase	Formats: .ods / .fods (LibreOffice), .csv\n\n	Formatet: .ods / .fods (LibreOffice), .csv
+msg.phrase	The grid is drawn on the text plane.\n	Rrjeti vizatohet në rrafshin e tekstit.
+msg.phrase	Charts and the 640x480 background use the FB.\n\n	Grafikët dhe sfondi 640x480 përdorin FB.
+msg.phrase	%d %s	%d %s
+msg.phrase	Cannot store the cell (%d).	Nuk mund të ruhet qeliza (%d).
+msg.phrase	Copied %d x %d cells	%d x %d qeliza të kopjuara
+msg.phrase	Cleared %s	U pastrua %s
+msg.phrase	'%s' is not a cell reference.	'%s' nuk është një referencë qelize.
+msg.phrase	%d	%d
+msg.phrase	Column width = %d	Gjerësia e kolonës = %d
+msg.phrase	Row height = %d	Lartësia e rreshtit = %d
+msg.phrase	Auto fit: %d column(s), %d row(s)	Përshtatja automatike: %d kolona(t), %d rreshtat
+msg.phrase	%2d	%2d
+msg.phrase	Cannot apply the colour (%d).	Nuk mund të aplikohet ngjyra (%d).
+msg.phrase	%s colour = %d	%s ngjyra = %d
+msg.phrase	Not a valid range.\nUse a range such as A1:C10.	Gama jo e vlefshme.\nPërdorni një gamë të tillë si A1:C10.
+msg.phrase	Graph range %s	Gama e grafikut %s
+msg.phrase	Graph: %s	Grafiku: %s
+msg.phrase	SGCALC: cannot set screen mode 3: %s\n	SGCALC: nuk mund të caktojë modalitetin e ekranit 3: %s
+msg.phrase	%.2g	%.2g
+msg.phrase	%.6g	%.6g
+msg.phrase	%s  %.0f%%	%s %.0f%%
+msg.phrase	GRAPH  %s  %s	GRAFIK %s %s
+msg.phrase	%s%s	%s%s
+msg.phrase	%s/%s	%s/%s
+msg.phrase	%.*s	%.*s
+msg.phrase	%.*s/	%.*s/
+msg.phrase	Cannot read %s\n%s	Nuk mund të lexohet %s\n%s
+msg.phrase	Folder: %s	Dosja: %s
+msg.phrase	[DIR] %s	[DIR] %s
+msg.phrase	      %s	%s
+msg.phrase	%lu.%luM	%lu.%luM
+msg.phrase	%luK	%luK
+msg.phrase	%luB	%luB
+msg.phrase	BOOK1%s	LIBRI 1%s
+msg.phrase	%c:/	%c:/
+msg.phrase	Unsupported extension.\nUse .csv, .ods or .fods.	Shtesa e pambështetur.\nPërdorni .csv, .ods ose .fods.
+msg.phrase	%s already exists.\nOverwrite it?	%s ekziston tashmë.\nTë mbishkruhet?
+msg.phrase	%s may not be writable.\nTry anyway?	%s mund të mos shkruhet.\nTë provohet gjithsesi?
+msg.phrase	Unknown file type for %s	Lloji i skedarit i panjohur për %s
+msg.phrase	Unsupported file type.\nUse .csv, .ods or .fods.	Lloji i skedarit i pambështetur.\nPërdorni .csv, .ods ose .fods.
+msg.phrase	Cannot open %s\n%s	%s nuk mund të hapet\n%s
+msg.phrase	%s is a folder.	%s është një dosje.
+msg.phrase	Cannot import %s\n%s	%s nuk mund të importohet\n%s
+msg.phrase	Loaded %s	Ngarkuar %s
+msg.phrase	Cannot build the %s file.	Skedari %s nuk mund të ndërtohet.
+msg.phrase	Cannot write %s\n%s	Nuk mund të shkruhet %s\n%s
+msg.phrase	%s %s	%s %s
+msg.phrase	unsupported version %u	versioni i pambështetur %u
+msg.phrase	%d:%d:%d:%d:%d:%d	%d:%d:%d:%d:%d:%d
+msg.phrase	Octave %d	Tetë %d
+msg.phrase	Note %s	Shënim %s
+msg.phrase	Instrument %d	Instrumenti %d
+msg.phrase	Volume %s	Vëllimi %s
+msg.phrase	Effect %c	Efekti %c
+msg.phrase	Parameter %s	Parametri %s
+msg.phrase	Pattern %s	Modeli %s
+msg.phrase	Playing pattern %s	Modeli i luajtjes %s
+msg.phrase	SAVE ERROR: %s	RUAJI GABIMIN: %s
+msg.phrase	Saved %s	I ruajtur %s
+msg.phrase	LOAD ERROR: %s	GABIM NGARKIMI: %s
+msg.phrase	BPM %d	BPM %d
+msg.phrase	Speed %d	Shpejtësia %d
+msg.phrase	Preview %s	Parashikimi %s
+msg.phrase	Instrument %s %s	Instrumenti %s %s
+msg.phrase	Overwrite %s? (Y/N)	Mbishkruani %s? (Po/Jo)
+msg.phrase	 | BPM %s SPD %s 	| BPM %s SPD %s
+msg.phrase	 SGNO TRACKER 1.0 | 	SGNO TRACKER 1.0 |
+msg.phrase	FILE 	DOSJE
+msg.phrase	 PAT %s	PAT %s
+msg.phrase	 ORD %d/%d	ORD %d/%d
+msg.phrase	 INS %s 	INS %s
+msg.phrase	 OCT %d	TETOR %d
+msg.phrase	 EDIT %s	EDIT %s
+msg.phrase	ON 	AKTIV
+msg.phrase	 FOL %s	FOL %s
+msg.phrase	TRACK %d	GJURME %d
+msg.phrase	%c%s	%c%s
+msg.phrase	%s %s %s %s	%s %s %s %s
+msg.phrase	%s 	%s
+msg.phrase	%d %s %s	%d %s %s
+msg.phrase	ORDER %d/%d	ORDER %d/%d
+msg.phrase	PAT   %s	PAT %s
+msg.phrase	INS %s %s	INS %s %s
+msg.phrase	OCT %d  EDIT %s	TETOR %d EDIT %s
+msg.phrase	FOLLOW %s	NDIQNI %s
+msg.phrase	PLAYING  ORD %d/%d  PAT %s  ROW %s/%d  SPD %s  BPM %d  F7 STOP	LUAJTJA E ORDIS %d/%d PAT %s RRESHT %s/%d SPD %s BPM %d F7 STOP
+msg.phrase	READY  EDIT %s  OCT %d  F1 HELP  F5 PLAY  CTRL-S SAVE	READY EDIT %s TETOR %d F1 HELP F5 LUANI CTRL-S SAVE
+msg.phrase	 %s 	%s
+msg.phrase	  F5          Play the song from the current order	F5 Luaj këngën nga rendi aktual
+msg.phrase	  F6          Play the current pattern	F6 Luaj modelin aktual
+msg.phrase	  F7/Ctrl-C   Stop playback	F7/Ctrl-C Ndalo riprodhimin
+msg.phrase	  Space       Play / stop	Hapësirë ​​Luaj / ndalesë
+msg.phrase	  F4          Save as	F4 Ruaj si
+msg.phrase	  Ctrl-S      Save (asks for a name if new)	Ctrl-S Save (kërkon një emër nëse është i ri)
+msg.phrase	  Ctrl-O      Open a song	Ctrl-O Hapni një këngë
+msg.phrase	  Ctrl-N      New song	Ctrl-N Këngë e re
+msg.phrase	  F12         Quit (confirmation if modified)	F12 Dil (konfirmim nëse modifikohet)
+msg.phrase	  [ ]         Previous / next order entry	[ ] Hyrja e porosisë së mëparshme / tjetër
+msg.phrase	  { }         Insert / delete an order entry	{ } Fut / fshi një hyrje porosie
+msg.phrase	  - +         Change the pattern in the entry	- + Ndrysho modelin në hyrje
+msg.phrase	  F11         Follow playback (turns off on manual move)	F11 Ndiqni riprodhimin (çaktivizohet në lëvizje manuale)
+msg.phrase	  F1          Help; Left/Right changes page	Ndihmë F1; Faqja e ndryshimeve majtas/djathtas
+msg.phrase	  F8          Toggle edit mode	F8 Ndrysho modalitetin e modifikimit
+msg.phrase	  Arrows      Move the cursor	Shigjetat Lëvizni kursorin
+msg.phrase	  PgUp/PgDn   Jump 16 rows	PgUp/PgDn Kërce 16 rreshta
+msg.phrase	  Home/End    First / last row	Faqja kryesore/Fundi Rreshti i parë / i fundit
+msg.phrase	  F9/F10      Octave down / up	F9/F10 oktavë poshtë / lart
+msg.phrase	  Z S X D C V G B H N J M      lower piano row	Z S X D C V G B H N J M rreshti i poshtëm i pianos
+msg.phrase	  Q 2 W 3 E R 5 T 6 Y 7 U      upper piano row	Q 2 W 3 E R 5 T 6 Y 7 U rreshti i sipërm i pianos
+msg.phrase	  1           Note off	1 Shënim i fikur
+msg.phrase	  0 / Del     0 clears note/inst/fx; Del clears any	0 / Del 0 fshin shënimin/inst/fx; Del fshin ndonjë
+msg.phrase	  Ctrl-Z      Undo the last pattern/order edit	Ctrl-Z Zhbëj modifikimin e fundit të modelit/porosisë
+msg.phrase	  Axy   Volume slide: up x, down y	Rrëshqitja e vëllimit me bosht: lart x, poshtë y
+msg.phrase	  Cxx   Note cut after xx ticks	Cxx Shënimi i prerë pas tik-takave xx
+msg.phrase	  Dxx   Set volume (00..7F)	Vëllimi i vendosur Dxx (00..7F)
+msg.phrase	  Fxx   Speed if xx < 20, otherwise BPM	Fxx Shpejtësia nëse xx < 20, përndryshe BPM
+msg.phrase	  Hxy   Arpeggio x, y semitones	Hxy Arpeggio x, y gjysmëtone
+msg.phrase	  Pxx   Pitch slide up	Pxx Pitch rrëshqitje lart
+msg.phrase	  Qxx   Pitch slide down	Qxx Pitch rrëshqet poshtë
+msg.phrase	  F2 song settings, F3 instrument list	Cilësimet e këngës F2, lista e instrumenteve F3
+msg.phrase	HELP %d/2	NDIHMË %d/2
+msg.phrase	  Title	Titulli
+msg.phrase	  [%s_]	[%s_]
+msg.phrase	  BPM   : %d     (left/right -1/+1, -/+ -5/+5)	BPM: %d (majtas/djathtas -1/+1, -/+ -5/+5)
+msg.phrase	  Speed : %d ticks/row	Shpejtësia: %d tik-ta/rresht
+msg.phrase	  Rows  : %d (fixed)	Rreshtat: %d (të fiksuara)
+msg.phrase	  Order : %d entries	Renditja: %d hyrjet
+msg.phrase	  Patterns in use : %d	Modelet në përdorim : %d
+msg.phrase	 #  NAME       WAVE       A   D   S   R  VOL	# EMRI VALA A D S R VOL
+msg.phrase	 %c %d  %-9s %-9s %3d %3d %3d %3d %4d	%c %d %-9s %-9s %3d %3d %3d %3d %4d
+msg.phrase	Current instrument: %s %s	Instrumenti aktual: %s %s
+msg.phrase	  %s	%s
+msg.phrase	DIR  %s	DIR %s
+msg.phrase	 %c %s%s	%c %s%s
+msg.phrase	Files: %d	Skedarët: %d
+msg.phrase	%02d	%02d
+msg.phrase	%03d	%03d
+msg.phrase	%02X	%02X
+msg.phrase	SGNO TRACKER: incompatible SGX ABI\n	SGNO TRACKER: SGX ABI i papajtueshëm
+msg.phrase	S: check: wait -- a file is being read or written	S: kontrolloni: prisni -- një skedar po lexohet ose shkruhet
+msg.phrase	S: check: the drive is busy or not ready	S: kontrolloni: disku është i zënë ose nuk është gati
+msg.phrase	nothing for this item (ContextMenu.cfg)	asgjë për këtë artikull (ContextMenu.cfg)
+msg.phrase	bad command in ContextMenu.cfg	komandë e keqe në ContextMenu.cfg
+msg.phrase	unknown action in ContextMenu.cfg	veprim i panjohur në ContextMenu.cfg
+msg.prefix	menu	menu
+msg.phrase	choose a file or folder	zgjidhni një skedar ose dosje
+msg.phrase	this drive cannot be written	kjo makinë nuk mund të shkruhet
+msg.phrase	an archive job is already running	një punë arkivimi tashmë po funksionon
+msg.phrase	no PSRAM for the archive task	nuk ka PSRAM për detyrën e arkivit
+msg.phrase	could not start the archive task	nuk mund të fillonte detyrën e arkivit
+msg.phrase	too many items (32 at most)	shumë artikuj (maksimumi 32)
+msg.phrase	nothing to compress	asgjë për të ngjeshur
+msg.phrase	no name (or the name has / or \\)	pa emër (ose emri ka / ose \\)
+msg.phrase	32 items at most (mark fewer, or put them in a folder)	Më së shumti 32 artikuj (shënoni më pak ose vendosini në një dosje)
+msg.prefix	archive	arkivi
+msg.prefix	compress	ngjesh
+msg.prefix	render	japin
+msg.phrase	5 Macro	5 Makro
+msg.phrase	6 Help	6 Ndihmë
+msg.phrase	Run current	Ekzekutoni rrymën
+msg.phrase	Run the macro at the cursor (#! header cell and the cells below it)	Ekzekutoni makron në kursor (#! qeliza e kokës dhe qelizat poshtë saj)
+msg.phrase	Run selection	Ekzekutoni përzgjedhjen
+msg.phrase	Run the selected cells as one macro (top-left cell is the #! header)	Ekzekutoni qelizat e zgjedhura si një makro (qeliza lart majtas është titulli #!)
+msg.phrase	Run all	Vraponi të gjitha
+msg.phrase	Run every macro in the sheet, top-left to bottom-right	Drejtoni çdo makro në fletë, nga lart-majtas në fund-djathtas
+msg.phrase	Last error	Gabimi i fundit
+msg.phrase	Show the last macro error	Trego gabimin e fundit makro
+msg.phrase	Macro	Makro
+msg.phrase	Macro: run #!ruby / #!python / #!basic cells	Makro: ekzekutoni #!ruby / #!python / #!qelizat bazë
+msg.phrase	Edit the cell (F2)	Redaktoni qelizën (F2)
+msg.phrase	Fit widths/heights to the contents	Përshtatni gjerësitë/lartësitë me përmbajtjen
+msg.phrase	Last macro error	Gabimi i fundit makro
+msg.phrase	No macro error.	Asnjë gabim makro.
+msg.phrase	IME on	IME aktivizohet
+msg.phrase	IME off	IME fikur
+msg.phrase	Macro: %s %s ...	Makro: %s %s ...
+msg.phrase	%s: this firmware cannot run macros (SGX ABI 5.10 or later)	%s: ky firmware nuk mund të ekzekutojë makro (SGX ABI 5.10 ose më vonë)
+msg.phrase	Macro error: %s	Gabim makro: %s
+msg.phrase	Macro: %s done	Makro: %s bërë
+msg.phrase	a macro is already running	një makro po funksionon tashmë
+msg.phrase	this language is not available	kjo gjuhë nuk është e disponueshme
+msg.phrase	not enough memory	memorie jo e mjaftueshme
+msg.phrase	the macro stopped with an error	makro ndaloi me një gabim
+msg.phrase	Macro error %s: %s	Gabim makro %s: %s
+msg.phrase	Macro: not enough memory	Makro: memorie e pamjaftueshme
+msg.phrase	Macro: the cursor is not on a macro (a #!ruby / #!python / #!basic cell or the cells below it)	Makro: kursori nuk është në një makro (një qelizë bazë #!ruby / #!python / #! ose qelizat poshtë saj)
+msg.phrase	Macro: no macro in the sheet	Makro: nuk ka makro në fletë
+msg.phrase	Run all macros	Ekzekutoni të gjitha makrot
+msg.phrase	Macros: %d. Run them all, top-left to bottom-right? Changes cannot be undone.	Makrot: %d. Të ekzekutohen të gjitha, nga lart-majtas në fund-djathtas? Ndryshimet nuk mund të zhbëhen.
+msg.phrase	Macro: %d of %d done	Makro: %d e %d bërë
+msg.phrase	Cleared the cell	Pastroi qelinë
+msg.phrase	Cleared the selection	Pastroi përzgjedhjen
+msg.phrase	Background colour = %d	Ngjyra e sfondit = %d
+msg.phrase	Text colour = %d	Ngjyra e tekstit = %d
+msg.phrase	Graph: line	Grafiku: vijë
+msg.phrase	Graph: bar	Grafiku: shirit
+msg.phrase	Graph: mixed	Grafiku: i përzier
+msg.phrase	Graph: pie	Grafiku: byrek
+msg.phrase	Exported %s	Eksportohet %s

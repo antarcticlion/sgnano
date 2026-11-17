@@ -1,0 +1,1161 @@
+# sgnano filer strings: Bahasa Indonesia. Machine translation (unreviewed; 2026-11-04).
+@lang id
+@name Bahasa Indonesia
+ui	一覧（ファイルとフォルダを 2 列 x 19 行に並べる）	List (file dan folder disusun dalam 2 kolom x 19 baris)
+ui	カーソルを動かす（左右は隣の列へ）	Pindahkan kursor (kiri dan kanan ke kolom berikutnya)
+ui	前のページ / 次のページ	Halaman sebelumnya / Halaman berikutnya
+ui	全部に印 / 印を反転（PC-98 FD と同じ）	Tandai semua / balik tanda (seperti PC-98 FD)
+ui	先頭 / 最後	Pertama/Terakhir
+ui	印を付けて次へ / 印だけ付ける	Tandai lalu lanjut / tandai saja
+ui	Shift+矢印	Shift+panah
+ui	範囲を選ぶ（Space でその範囲に印）	Pilih rentang (Spasi menandai rentang)
+ui	フォルダに入る・ファイルを開く（F2/X は実行）	Masuk folder / buka berkas (F2/X jalankan)
+ui	上のフォルダへ	Pergi ke folder atas
+ui	ドライブを選ぶ（USB・フロッピー・CD・S: 内蔵）	Pilih drive (USB, floppy, CD, S: bawaan)
+ui	コピー（Shift+C / Shift+F3 は行き先を木から）	Salin (Shift+C / Shift+F3 memilih tujuan dari pohon)
+ui	移動	bergerak
+ui	削除（Shift+D / Shift+F4 はフォルダ削除）	Hapus (Shift+D / Shift+F4 menghapus folder)
+ui	名前を変える	ganti nama
+ui	属性を変える	Ubah atribut
+ui	エディタで開く	buka di editor
+ui	テキスト表示（Shift+V / Ctrl+Alt+F7 は 16 進）	Lihat sebagai teks (Shift+V / Ctrl+Alt+F7 hex)
+ui	ドライブの情報	Informasi drive
+ui	フォルダを作る / 新しいファイル	Folder baru / berkas baru
+ui	シェル sgsh / 媒体を取り出す	Shell sgsh / keluarkan media
+ui	読み直す	Muat ulang
+ui	見えている画面を PNG で保存	Simpan layar sebagai PNG
+ui	窓を閉じる・選択を解く（サブフォルダでは上位へ）	Tutup jendela / hapus pilihan (di subfolder: naik)
+ui	ファイルの操作（FD と同じ。印・範囲・カーソルの順に選ぶ）	Operasi berkas (seperti FD: tanda, lalu rentang, lalu kursor)
+ui	コピー: 行き先はドライブとフォルダの木から。ESC で止める	Salin: pilih tujuan dari pohon drive dan folder. ESC menghentikan
+ui	削除: y で確かめる。印・範囲をまとめて。フォルダは中身ごと	Hapus: konfirmasi dengan y. Tanda dan rentang sekaligus. Folder beserta isinya
+ui	フォルダを削除（中身ごと）	Hapus folder (beserta isinya)
+ui	名前を変える（今の名前を直して Enter）	Ubah nama (perbaiki nama saat ini dan tekan Enter)
+ui	属性: R 読み出し専用・H 隠し・S システム・A アーカイブ	Atribut: R hanya baca, H tersembunyi, S sistem, A arsip
+ui	フォルダを作る	Folder baru
+ui	新しいファイル（空）を作る	Berkas baru (kosong)
+ui	テキストで表示（Shift+V / Ctrl+Alt+F7 は 16 進）	Lihat sebagai teks (Shift+V / Ctrl+Alt+F7 hex)
+ui	シェル sgsh（exit / Ctrl-D でファイラーへ）	Shell sgsh (exit / Ctrl-D kembali ke pengelola berkas)
+ui	選んでいるドライブの素性（INQUIRY・IDENTIFY）	Identitas drive yang dipilih (INQUIRY/IDENTIFY)
+ui	FDD・LS-120・CD の媒体を取り出す	Keluarkan media FDD / LS-120 / CD
+ui	一覧を読み直す（CD は TOC から）	Muat ulang daftar (CD: dari TOC)
+ui	ZMODEM で PC から受け取る（zm.sh put）	Terima dari PC lewat ZMODEM (zm.sh put)
+ui	ZMODEM で PC へ送る（zm.sh get）	Kirim ke PC lewat ZMODEM (zm.sh get)
+ui	.rb をコンパイルして .mrb を書き出す	Kompilasi .rb dan tulis .mrb
+ui	Ruby の REPL（1 行ずつ、Ctrl-D / ESC で終わり）	REPL Ruby (satu baris sekali, Ctrl-D / ESC untuk selesai)
+ui	MicroPython の REPL	REPL MicroPython
+ui	4MB ずつ分割 / .001 から結合	Pecah menjadi bagian 4 MB / gabung dari .001
+ui	分割 / 結合（Ctrl+F11 / F12 と同じ）	Pecah / gabung (sama dengan Ctrl+F11 / F12)
+ui	画面（Alt+F。FD の F キーとぶつからない）	Layar (Alt+F, tidak bentrok dengan tombol F milik FD)
+ui	FB（絵）/ テキスト面を出す・隠す	FB (gambar)/Tampilkan/sembunyikan sisi teks
+ui	FB の表示ページ（0〜3）	Halaman tampilan FB (0-3)
+ui	FB を 0 で消す / 明るさを 1/2 に（RGB555）	Bersihkan FB ke 0 / kurangi kecerahan setengah (RGB555)
+ui	USB のエンドポイントと LAN の状態	Titik akhir USB dan status LAN
+ui	FB の表示ページを消す / 明るさを 1/2 に	Bersihkan halaman tampilan FB / kurangi kecerahan setengah
+ui	テキストの属性の見本	Contoh atribut teks
+ui	モニタの EDID（起動時に読んだもの）	Pantau EDID (baca saat startup)
+ui	フォント ROM のライセンスとクレジット	Lisensi dan kredit ROM font
+ui	設定（表示の言語・IME・キーボードロケール）	Pengaturan (bahasa tampilan, IME, lokal keyboard)
+ui	時計（NTP で合わせた日本時間。s ですぐ合わせる）	Jam (Waktu Jepang diatur dengan NTP. Segera diatur dengan s)
+ui	表計算（SGCALC）を開く	Buka spreadsheet (SGCALC)
+ui	S: ドライブのエラー検査（誤りがあれば直すか聞く）	Periksa S: (bertanya sebelum memperbaiki)
+ui	トラッカー（TRACKER）を開く	Buka PELACAK
+ui	再起動（確かめの窓が出る）	Restart (jendela konfirmasi akan muncul)
+ui	ADC のステレオ入力（GP40 / 41）を鳴らす	Memutar input stereo ADC (GP40/41)
+ui	VGM/VGZ を 96kHz/24bit WAV に書き出す	Ekspor VGM/VGZ ke WAV 96 kHz / 24 bit
+ui	このヘルプ	Bantuan ini
+ui	ページを替える	ganti halaman
+ui	閉じる	Tutup
+ui	テキスト・16 進のビュアー（less 風）	Penampil Teks/Hex (lebih sedikit gaya)
+ui	1 行	One line
+ui	1 ページ	One page
+ui	半ページ	setengah halaman
+ui	探す（前へ・後ろへ）/ 次・前	Pencarian (sebelumnya/mundur)/berikutnya/sebelumnya
+ui	一覧へ戻る（F1 はビュアーのヘルプ）	Kembali ke daftar (F1 adalah bantuan pemirsa)
+ui	画像のビュアー	penampil gambar
+ui	一覧へ戻る（F2 F3 F6 F7 Shift+F2 F3 は効く）	Kembali ke daftar (F2 F3 F6 F7 Shift+F2 F3 berfungsi)
+ui	エディタ（E / Shift+F8）	Editor (E / Shift+F8)
+ui	保存する（UTF-8。改行と BOM は元のまま）	Simpan (UTF-8; jeda baris dan BOM tetap seperti aslinya)
+ui	閉じる（変わっていれば Y / N / ESC）	Tutup (Y/T/ESC jika diubah)
+ui	挿入 / 上書き	menyisipkan/menimpa
+ui	IME（日本語・英語・ハングル）の入・切	Menghidupkan/mematikan IME (Jepang/Inggris/Hangul)
+ui	IME の言語（日本語 / English / 한국어）	Bahasa IME (Jepang / Inggris / 한국어)
+ui	ひらがな / カタカナで確定	Dikonfirmasi dalam Hiragana/Katakana
+ui	エディタのヘルプ	Bantuan redaksi
+ui	シェル	cangkang
+ui	シェル（csh のサブセット。exit / Ctrl-D で戻る、help で一覧）	Shell (subset csh. exit / Ctrl-D kembali, help menampilkan perintah)
+ui	一覧と移動	Daftar dan pindahkan
+ui	ファイルの操作	Operasi berkas
+ui	画面と機器	layar dan peralatan
+ui	ビュアーとエディタ	pemirsa dan editor
+ui	ヘルプ  %u / %u  %s	Bantuan %u / %u %s
+ui	Left Right: ページを替える    F1 / ESC: 閉じる	Kiri Kanan: Ganti halaman F1 / ESC: Tutup
+ui	sgnano を再起動しますか？	Apakah Anda ingin memulai ulang Sgnano?
+ui	[ 再起動 ]	[Mulai ulang]
+ui	[ キャンセル ]	[Batalkan]
+ui	S: ドライブのエラー検査	Periksa kesalahan drive S:
+ui	ファイル %lu  フォルダ %lu	Berkas %lu  folder %lu
+ui	大きさが鎖と合わない	Ukuran tidak cocok dengan rantai
+ui	どこからも使われていないクラスタ	Klaster yang tidak dipakai apa pun
+ui	重なったクラスタ	Klaster bertaut silang
+ui	壊れた項目	Entri rusak
+ui	FAT の 2 つの写しの食い違い	Dua salinan FAT berbeda
+ui	エラーはありません。	Tidak ada kesalahan.
+ui	エラーが見つかりました。修復しますか？	Ditemukan kesalahan. Perbaiki?
+ui	修復しました（上は直した数）。	Diperbaiki (angka di atas sudah dikoreksi).
+ui	検査・修復できませんでした（S: が使用中）。	Tidak dapat memeriksa atau memperbaiki (S: sibuk).
+ui	[ 修復する ]	[ Perbaiki ]
+ui	[ やめる ]	[ Batal ]
+ui	何かキーで閉じる	tutup dengan kunci apa saja
+ui	設定	pengaturan
+ui	表示の言語	Bahasa tampilan
+ui	キーボードロケール	lokal keyboard
+ui	Up / Down  Enter 決める  ESC やめる	Atas/Bawah Enter Putuskan ESC Stop
+ui	表示の言語 (Language)	Bahasa tampilan
+ui	Up / Down  Enter 決める  ESC 戻る	Atas / Bawah Enter Putuskan ESC Kembali
+ui	%c: をどの文字に固定しますか（A〜Z、S を除く。ESC でやめる）	Kunci %c: sebagai huruf apa? (A-Z kecuali S. ESC batal)
+ui	ドライブ  文字 / Enter 選ぶ  F2 文字を固定・解除  F3 文字を決めて固定  L / ESC やめる	Drive  huruf / Enter pilih  F2 kunci/lepas huruf  F3 kunci sebagai...  L / ESC batal
+ui	  区画 %u	  partisi %u
+ui	%c:* （固定・つながっていません）%04X:%04X%s  %s	%c:* (terkunci, tidak tersambung) %04X:%04X%s  %s
+ui	お知らせ	Perhatikan
+ui	ドライブ %c:  %s	Mendorong %c: %s
+ui	ドライブ  (なし)	Berkendara (tidak ada)
+ui	音楽 CD  %u トラック	Lagu CD musik %u
+ui	フォルダ %u  ファイル %u  合計 %s	Folder %u File %u Total %s
+ui	読んでいます...	Membaca...
+ui	* 印 %u 個  %s	* tandai %u potongan %s
+ui	%lu バイト	%lu byte
+ui	属性 %s   更新日時 %s   作成日時 %s   %s	Atribut %s Tanggal dan waktu ditulis %s Tanggal dan waktu dibuat %s %s
+ui	日	hari
+ui	月	bulan
+ui	火	api
+ui	水	air
+ui	木	pohon
+ui	金	uang
+ui	土	tanah
+ui	時計は合わせていません（LAN の NTP）	Jam tidak disetel (NTP di LAN)
+ui	FB  表示 %u  書込 %u	FB menampilkan %u tulis %u
+ui	1 ヘルプ	1 Help
+ui	2 実行	2 Jalan
+ui	3 ｺﾋﾟｰ	3 Salin
+ui	4 削除	4 Hapus
+ui	5 名前	5 Nama
+ui	7 FB消去	7 BrsFB
+ui	8 FB減光	8 RdpFB
+ui	9 ﾄﾞﾗｲﾌﾞ	9 Drive
+ui	10 EP表	10 EP
+ui	11 時計	11 Clock
+ui	12 表計	12 CALC
+ui	1 属性	1 Atrib
+ui	2 情報	2 Info
+ui	3 移動	3 Pindah
+ui	5 作成	5 Folder
+ui	6 シェル	6 Shell
+ui	8 編集	8 Sunt
+ui	9 表示	9 Lihat
+ui	10S:検査	10 S:prk
+ui	11 ﾄﾗｯｸ	11 TRACK
+ui	12再起動	12 Ulang
+ui	1 新規	1 New
+ui	2 ﾌｫﾙﾀﾞ	2 Folder
+ui	3 名前	3 Rename
+ui	4 属性	4 Attrib
+ui	6 ｺﾋﾟｰ	6 Copy
+ui	7 移動	7 Move
+ui	8 削除	8 Delete
+ui	9 編集	9 Edit
+ui	10ｺﾝﾊﾟｲﾙ	10 mrbc
+ui	11 分割	11 Split
+ui	12 結合	12 Join
+ui	1 属性例	1 Attrs
+ui	2 FB切替	2 FB
+ui	3 文字面	3 Text
+ui	5 画面写	5 ScrSht
+ui	6 表示頁	6 DispPg
+ui	9 ZM受信	9 ZMrecv
+ui	10ZM送信	10 ZMkrm
+ui	2 FB消去	2 FBClr
+ui	3 FB減光	3 FBDim
+ui	5 再読込	5 Reload
+ui	7 16進	7 Hex
+ui	9 ﾗｲｾﾝｽ	9 Lisens
+ui	8 設定	8 Atur
+ui	時刻を合わせる（日本時間。NTP で合わせられませんでした）	Atur jam (waktu Jepang. NTP tidak dapat mengaturnya)
+ui	起動のパラメタ	Jalankan dengan parameter
+ui	新しいフォルダ	folder baru
+ui	新しいファイル	berkas baru
+ui	時刻:	Waktu:
+ui	実行:	Jalankan:
+ui	名前:	Nama:
+ui	年-月-日 時:分  Enter 合わせる  ESC そのまま	YYYY-MM-DD hh:mm  Enter atur  ESC biarkan
+ui	Enter 走らせる  ←→ 動かす  BS / Del 消す  ESC やめる	Enter jalankan  <-> geser  BS / Del hapus  ESC batal
+ui	Enter 変える  ←→ 動かす  BS / Del 消す  ESC やめる	Enter ganti nama  <-> geser  BS / Del hapus  ESC batal
+ui	Enter 作る  ←→ 動かす  BS / Del 消す  ESC やめる	Enter buat  <-> geser  BS / Del hapus  ESC batal
+ui	消す	menghapus
+ui	個の項目	 item
+ui	フォルダは中身ごと消します。よろしいですか？	Folder dihapus beserta isinya. Anda yakin?
+ui	このファイルを消しますか？	Apakah Anda ingin menghapus file ini?
+ui	（元に戻せません。フォルダの中のファイルも消えます）	(Tidak dapat dibatalkan. Berkas di dalam folder juga dihapus)
+ui	[ はい (Y) ]	[Ya (Y)]
+ui	[ いいえ (N) ]	[Tidak (N)]
+ui	バイナリビュアー: ファイルを選んでください	Penampil biner: pilih file
+ui	テキストビュアー: ファイルを選んでください	Penampil teks: Silakan pilih file
+ui	移動先	tujuan
+ui	コピー先	Salin tujuan
+ui	バッファがいっぱいです (buffer full)	penyangga penuh
+ui	読み出し専用のドライブです (read-only)	Ini adalah drive hanya-baca.
+ui	保存できません (no writer)	Tidak dapat menyimpan (tidak ada penulis)
+ui	保存を始められません (the drive is busy?)	Tidak dapat mulai menyimpan (drive sedang sibuk?)
+ui	保存しています... (saving)	Menyimpan... (menabung)
+ui	2 保存	2 Simpan
+ui	5 色分け	5 Warna
+ui	6 ﾞ	6 Hira
+ui	7 ｶﾀｶﾅ	7 Kata
+ui	8 予測	8 Pred
+ui	10 終了	10 Kel
+ui	1 先頭	1 Awal
+ui	2 最後	2 Akhir
+ui	3 挿/上	3 InsTim
+ui	4 辞書	4 Kamus
+ui	6 半	6 HHira
+ui	7 半ｶﾅ	7 HKata
+ui	 %s  %s  行 %lu/%lu 桁 %u  %s  %s %s%s%s	 %s %s baris %lu/%lu kolom %u %s %s %s%s%s
+ui	*変更	*Ubah
+ui	上書	Timpa
+ui	挿入	masukkan
+ui	  読出専用	  hanya baca
+ui	 エディタ (sgnano edit)                      F1 / ESC で閉じる	 Editor (edit sgnano) Tutup dengan F1/ESC
+ui	 矢印 / Home End / PgUp PgDn   カーソルを動かす	 Panah / Beranda Akhir / PgUp PgDn Memindahkan kursor
+ui	 Ctrl-T / Ctrl-B               ファイルの先頭 / 最後	 Ctrl-T / Ctrl-B Mulai / Akhir file
+ui	 BS / Del                      前の字 / カーソルの字を消す	 BS/Del Menghapus karakter/karakter sebelumnya di bawah kursor
+ui	 Enter                         改行（前の行の字下げを引き継ぐ）	 Masukkan jeda baris (mewarisi lekukan dari baris sebelumnya)
+ui	 Tab / Ins                     タブ / 挿入と上書きの切り替え	 Tab / Tab Ins / Beralih antara menyisipkan dan menimpa
+ui	 F5                            色分け（拡張子から。C/C++・mruby・MicroPython・SG BASIC・なし）	 F5                            Pewarnaan (dari ekstensi; C/C++, mruby, MicroPython, SG BASIC, tidak ada)
+ui	 F2  (Ctrl-S)                  保存（UTF-8、改行は元の形）	 F2 (Ctrl-S) Save (UTF-8, jeda baris dalam bentuk aslinya)
+ui	 F10 / ESC                     閉じる（変更があれば聞く）	 F10 / ESC Close (dengarkan perubahan apa pun)
+ui	 IME:  Ctrl-Space / F12        オン・オフ（あ / A）	IME: Ctrl-Spasi / F12 Nyala/Mati (A / A)
+ui	       F9                      IME の言語（このエディタの間だけ。閉じると戻る）	       Bahasa IME F9 (hanya selama editor ini; kembali ketika ditutup)
+ui	       F8                      日本語の予測変換 オン・オフ	       Konversi prediktif F8 Jepang aktif/nonaktif
+ui	       日本語                  ローマ字 -> ひらがな（F6）・カタカナ（F7）	       Romaji Jepang -> Hiragana (F6) / Katakana (F7)
+ui	                               半角ひらがな（Shift+F6）・半角カタカナ（Shift+F7）	                               Hiragana setengah lebar (Shift+F6) / katakana setengah lebar (Shift+F7)
+ui	                               2 字以上で予測、Space で連文節変換	                               Prediksi dengan 2 karakter atau lebih, ubah klausa kontinu dengan Spasi
+ui	       English                 2 字以上で予測補完	       Penyelesaian Prediktif Bahasa Inggris dengan 2 karakter atau lebih
+ui	       한국어                  2 ボル式ハングル	       한국어 2 Hangul gaya Bol
+ui	       Space / Enter           変換 / 確定	       Spasi / Enter Konversi / Konfirmasi
+ui	       ← →                    文節を選ぶ	       ← → Pilih frasa
+ui	       Shift+← →               文節の右端を 1 字 縮/拡（候補を出し直す）	       Shift+← → Perpendek/perpanjang ujung kanan frasa satu karakter (kandidat baru)
+ui	       ↑ ↓ / Tab               候補の窓で前 / 次の候補（窓は変換の下、画面の下では上）	       ↑ ↓ / Tab               Kandidat sebelumnya / berikutnya di jendela (di bawah teks, di atas bila dekat dasar)
+ui	       →→→ で Enter            すべての候補（2 列 x 8 個、← → で列とページ、Enter で決める）	       Enter di →→→            Semua kandidat (2 x 8, ← → kolom dan halaman, Enter memilih)
+ui	       Enter                   次の文節へ（最後の文節で全体を確定）	       Enter                   Frasa berikutnya (pada yang terakhir mengonfirmasi semua)
+ui	       Ctrl-U                  いまの語をユーザー辞書へ	Ctrl-U Tambahkan kata saat ini ke kamus pengguna
+ui	 Shift+F1 / F2 / F3 / F4       先頭 / 最後 / 挿入と上書き / ユーザー辞書へ	 Shift+F1 / F2 / F3 / F4       Awal / akhir / sisip-timpa / ke kamus pengguna
+ui	       BS / ESC                1 字戻す / 取り消し	       BS / ESC Kembali satu karakter / Batal
+ui	       , . - [ ] /             、 。 ー 「 」 ・	       , . - [ ] / , . - " " ・
+ui	変更あり  Y: 保存して閉じる  N: 保存せず閉じる  ESC: 戻る	Diubah  Y: simpan dan tutup  N: tutup tanpa menyimpan  ESC: kembali
+ui	[予測] Tab/↑↓: 候補  Space: 変換  Esc: 取消	[Prediksi] Tab/↑↓: kandidat  Spasi: konversi  Esc: batal
+ui	[候補] ↑↓: 選ぶ  ←→: 列・ページ  Enter: 決める	[Kandidat] ↑↓: pilih  ←→: kolom/halaman  Enter: ambil
+ui	[変換] ↑↓候補 ←→文節 Shift+←→区切り Enter次へ	[Konversi] ↑↓kand ←→frasa Shift+←→batas Enter lanjut
+ui	[한국어] Tab/↑↓: 候補  Enter/Space: 確定	[한국어] Tab/↑↓: kandidat  Enter/Spasi: konfirmasi
+ui	[English] Tab/↑↓: 候補  Enter: 確定	[English] Tab/↑↓: kandidat  Enter: konfirmasi
+ui	2ボル式ハングル入力  Ctrl-Space: 英数	Input Hangul 2 set  Ctrl-Space: alfanumerik
+ui	予測補完  Ctrl-Space: 直接入力	Pelengkapan prediktif  Ctrl-Space: input langsung
+ui	辞書なし: ひらがな/カタカナ入力のみ  F6/F7	Tanpa kamus: hanya hiragana/katakana  F6/F7
+ui	Space: 変換  F7: カタカナ  Ctrl-Space: 英数	Spasi: konversi  F7: katakana  Ctrl-Space: alfanumerik
+ui	Space: 変換  F6: ひらがな  Ctrl-Space: 英数	Spasi: konversi  F6: hiragana  Ctrl-Space: alfanumerik
+ui	半角  F6: ひらがな  F7: カタカナ  Shift+F6/F7: 半角	Setengah lebar  F6: hiragana  F7: katakana  Shift+F6/F7: setengah
+ui	IME オフ	IME mati
+ui	 予測	 prediksi
+ui	日本語の予測変換: オン	Terjemahan prediktif bahasa Jepang: Aktif
+ui	日本語の予測変換: オフ	Terjemahan prediktif untuk bahasa Jepang: Mati
+ui	日本語IMEで使います	Gunakan dengan IME Jepang
+ui	ユーザー辞書に追加できません	Tidak dapat menambahkan ke kamus pengguna
+ui	色分け: %s	Pewarnaan: %s
+ui	読み込んでいます... (loading)	Memuat... (memuat)
+ui	読み込めませんでした (could not read)	tidak bisa membaca
+ui	%lu 行%s%s	%lu baris%s%s
+ui	  Shift_JIS を UTF-8 で開きました（保存は UTF-8）	  Shift_JIS dibuka di UTF-8 (disimpan dalam UTF-8)
+ui	  読み出し専用	  hanya baca
+ui	保存しました (saved)	disimpan
+ui	保存できませんでした (write failed)	Tidak dapat menyimpan (penulisan gagal)
+ui	候補	Kandidat
+ui	7 書込頁	7 WrtPg
+ui	9 ﾃｷｽﾄ	9 Text
+ui	9 ﾊﾞｲﾅﾘ	9 Hex
+ui	読み込み中 %lu%%  	Memuat %lu%%
+ui	（先頭だけ）  	(hanya permulaan)
+ui	16 進  q ESC: 戻る  F1: ヘルプ	hex q ESC: Kembali F1: Bantuan
+ui	テキスト  q ESC: 戻る  F1: ヘルプ	Teks q ESC: Kembali F1: Bantuan
+ui	ビュアーのキー（less 風。テキストと 16 進で共通）	Kunci penampil (gaya lebih sedikit, umum untuk teks dan heksadesimal)
+ui	1 行進む	maju satu baris
+ui	1 行戻る	Kembali satu baris
+ui	1 ページ進む	Maju satu halaman
+ui	1 ページ戻る	Kembali 1 halaman
+ui	半ページ進む / 戻る	Maju setengah halaman / mundur
+ui	/文字列  ?文字列	/string ?string
+ui	下へ探す / 上へ探す（大文字小文字は区別しない）	Cari ke bawah / Cari ke atas (tidak peka huruf besar-kecil)
+ui	次 / 前を探す	Temukan berikutnya/sebelumnya
+ui	16 進で表示する（いま見ている所のまま）	Tampilan dalam heksadesimal (seperti yang sedang Anda lihat)
+ui	テキストで表示する（いま見ている所のまま）	Tampilkan sebagai teks (seperti yang sedang Anda lihat)
+ui	色分けを替える（C/C++・mruby・MicroPython・SG BASIC・なし）	Ubah pewarnaan (C/C++, mruby, MicroPython, SG BASIC, tidak ada)
+ui	FB / テキスト面を出す・隠す	FB / Tampilkan/sembunyikan sisi teks
+ui	FB の表示ページ / 書き込みページ	Halaman tampilan FB/halaman tulis
+ui	ファイラーへ戻る	Kembali ke pelapor
+ui	このヘルプを閉じる	Tutup bantuan ini
+ui	コピー	salin
+ui	 %s: フォルダを読んでいます... %u 個	 %s: Membaca folder... %u potongan
+ui	 %s: 行き先の空きを数えています...	 %s: Menghitung ketersediaan di tujuan...
+ui	 %s: 行き先の空きが足りません	 %s: Tidak cukup ruang di tujuan
+ui	 移動: 元のフォルダを消しています	Pindah: Menghapus folder asli
+ui	終了しました	Selesai
+ui	止まりました	Itu berhenti
+ui	 %s中%s	 %s dari %s
+ui	（止めています）	(berhenti)
+ui	 元: %s	 Dari: %s
+ui	 先: %s	 Ke: %s
+ui	 ファイル %u / %u 個  フォルダ %u 個  %s / %s  (%u%%)%s	 File %u / %u Folder %u %s / %s (%u%%)%s
+ui	  多すぎるので一部だけ	  Terlalu banyak, jadi hanya sebagian saja
+ui	 要る大きさ %s、空き %s。続けますか？	 Ukuran yang diperlukan %s, ruang kosong %s. Apakah Anda ingin melanjutkan?
+ui	 Y: 続ける   N / ESC: やめる	 Y: Lanjutkan N / ESC: Berhenti
+ui	 何かキーを押すと閉じます	 Tekan tombol apa saja untuk menutup
+ui	 ESC: 止める	 ESC: Berhenti
+ui	 %s: ←→ ドライブ  ↑↓ フォルダ  Space 開く・閉じる  Enter 決める  ESC やめる	 %s: ←→ Drive ↑↓ Ruang Folder Buka/Tutup Enter Putuskan ESC Keluar
+ui	 読めません: %s	Tidak dapat dibaca: %s
+ui	 フォルダを読んでいます...（ESC で止める）  %u 個	 Membaca folder... (berhenti dengan ESC) %u potongan
+ui	 フォルダ %u 個%s	 Folder %u potongan%s
+ui	（多すぎるか深すぎるので、一部だけ）	(Terlalu banyak atau terlalu dalam, jadi hanya sebagian)
+ui	フォルダの展開を止めました	Saya berhenti mengekstrak folder tersebut.
+ui	Space で開き直せます。もう一度 ESC でやめます	Anda dapat membukanya kembali dengan Space. Tekan ESC lagi untuk keluar
+ui	 SMF / SGT プレイヤー   %s	 Pemain SMF / SGT %s
+ui	 読み込んでいます... %lu / %lu バイト	 Memuat... %lu / %lu byte
+ui	 %s / %s   %s   ポート %u	 %s / %s %s pelabuhan %u
+ui	一時停止	jeda
+ui	再生中	Sekarang sedang diputar
+ui	 Space: 一時停止  m: MIDI OUT  q / ESC: 止める	 Spasi: jeda  m: MIDI OUT  q / ESC: hentikan
+ui	 q / ESC: やめる	q / ESC: Keluar
+ui	フォント ROM のライセンスとクレジット\n\nROM: %s（版 %lu.%lu、%lu 文字、フラッシュの 0x%08lX から）\n\n	Lisensi dan kredit ROM font\n\nROM: %s (versi %lu.%lu, karakter %lu, dari 0x%08lX dalam flash)
+ui	== 収めているフォント（ROM の出所の表）==\n	== Termasuk font (tabel sumber ROM) ==
+ui	  （表が無い ROM）\n	(ROM tanpa tabel)
+ui	\n== ROM のクレジットの区画 ==\n\n	== Bagian kredit ROM ==
+ui	（区画が無い）\n	(Tidak ada pembagian)
+ui	\n== 組み込んだソフトウェアのライセンス ==\n	\n== Lisensi perangkat lunak bawaan ==\n
+ui	 %s を PNG で保存   %s	Simpan %s sebagai PNG %s
+ui	画面	layar
+ui	 組み立てています... %lu / %lu 行	Merakit... garis %lu / %lu
+ui	 書いています... %lu / %lu KB（FB は隠しています）	Saya sedang menulis... %lu / %lu KB (FB disembunyikan)
+ui	書けませんでした	Saya tidak bisa menulis
+ui	書庫の名前（印の付いた項目、無ければカーソルの項目を入れる）	Nama arsip (item yang ditandai, atau item di kursor jika tidak ada)
+ui	Enter 圧縮する  ←→ 動かす  BS / Del 消す  ESC やめる	Enter kompres  ←→ geser  BS / Del hapus  ESC batal
+ui	WAV 書き出し: %s 中止（%s）	Ekspor WAV: %s dibatalkan (%s)
+ui	WAV 書き出し: %s 失敗（%s）	Ekspor WAV: %s gagal (%s)
+ui	WAV 書き出し: %s 合計 %s	Ekspor WAV: %s total %s
+ui	 WAV 書き出し（96kHz / 24bit）: %s	 Ekspor WAV (96kHz / 24bit): %s
+ui	中止しました	Dibatalkan
+ui	失敗しました	Gagal
+ui	 合計 %s	 Total %s
+ui	 中止しました（%s。半端なファイルは消しました）	 Dibatalkan (%s; berkas setengah jadi dihapus)
+ui	 書き出せませんでした（%s）。理由:	 Tidak bisa mengekspor (%s). Alasan:
+ui	 （理由は分かりません）	 (alasan tidak diketahui)
+ui	 %u%%   経過 %s%s	 %u%%   berjalan %s%s
+ui	 ESC: 止める（半端なファイルは消します）	 ESC: hentikan (berkas setengah jadi dihapus)
+ui	書庫: %s	Arsip: %s
+ui	読み込み中…（ESC でやめる）	Membaca... (ESC untuk batal)
+ui	 %u 項目%s  合計 %s バイト  展開先: %s	 %u item%s  total %s byte  ekstrak ke: %s
+ui	 Enter 項目を展開  X 全部を展開  ↑↓ 動かす  ESC 閉じる	 Enter ekstrak  X ekstrak semua  ↑↓ geser  ESC tutup
+ui	圧縮	Kompres
+ui	一覧	Daftar
+ui	展開	Ekstrak
+ui	 合計 %s   %u 項目	 Total %s   %u item
+ui	 合計 %s   %u ファイル	 Total %s   %u berkas
+ui	 中止しました（%s。書きかけのファイルは消しました）	 Dibatalkan (%s; berkas yang belum selesai dihapus)
+ui	 できませんでした（%s）: %s	 Tidak bisa (%s): %s
+ui	 %u%%   経過 %s   %s バイト%s	 %u%%   berjalan %s   %s byte%s
+ui	 経過 %s   %s バイト%s	 berjalan %s   %s byte%s
+ui	 ESC: 止める（書きかけのファイルは消します）	 ESC: hentikan (berkas yang belum selesai dihapus)
+ui	書庫: %s 失敗（%s）	Arsip: %s gagal (%s)
+ui	圧縮: %s（%u 項目）	Dikompres: %s (%u item)
+ui	展開: %s（%u ファイル）	Diekstrak: %s (%u berkas)
+msg.phrase	the drive went away	drive itu hilang
+msg.phrase	reading the partitions again...	membaca partisi lagi...
+msg.phrase	could not open the volume (no memory?)	tidak dapat membuka volume (tidak ada memori?)
+msg.phrase	opening the volume...	membuka volumenya...
+msg.phrase	no memory for the file list	tidak ada memori untuk daftar file
+msg.phrase	reading the directory... (retrying)	membaca direktori... (mencoba lagi)
+msg.phrase	could not read the directory	tidak dapat membaca direktori
+msg.phrase	reading the directory...	membaca direktori...
+msg.phrase	the drive did not answer -- reading the partitions again	drive tidak menjawab -- membaca partisi lagi
+msg.phrase	could not read the directory (not FAT12/16/32?)	tidak dapat membaca direktori (bukan FAT12/16/32?)
+msg.phrase	too many entries -- showing the first ones	terlalu banyak entri -- menampilkan yang pertama
+msg.phrase	no file system found on this partition	tidak ada sistem file yang ditemukan di partisi ini
+msg.phrase	the path is too long	jalannya terlalu panjang
+msg.phrase	joining...	bergabung...
+msg.phrase	splitting...	membelah...
+msg.phrase	renaming...	mengganti nama...
+msg.phrase	creating the folder...	membuat folder...
+msg.phrase	creating the file...	membuat file...
+msg.phrase	deleting...	menghapus...
+msg.phrase	writing the attributes...	menulis atribut...
+msg.phrase	the drive is busy	drive sedang sibuk
+msg.phrase	busy	sibuk
+msg.phrase	choose files or folders	pilih file atau folder
+msg.phrase	choose files or folders (not "..")	pilih file atau folder (bukan "..")
+msg.phrase	stop the CD first	hentikan CDnya dulu
+msg.phrase	the CD cannot be changed (copy instead)	CD tidak dapat diubah (salin saja)
+msg.phrase	a system folder cannot be moved	folder sistem tidak dapat dipindahkan
+msg.phrase	no drive can be written (FAT / exFAT / NTFS only)	tidak ada drive yang dapat ditulis (hanya FAT / exFAT / NTFS)
+msg.phrase	the drive is gone	drivenya hilang
+msg.phrase	nothing chosen	tidak ada yang dipilih
+msg.phrase	nothing selected	tidak ada yang dipilih
+msg.phrase	could not start	tidak dapat memulai
+msg.phrase	could not open	tidak bisa terbuka
+msg.phrase	only on a FAT / exFAT / NTFS drive	hanya di drive FAT/exFAT/NTFS
+msg.phrase	no name	tidak ada nama
+msg.phrase	that name already exists	nama itu sudah ada
+msg.phrase	could not start (bad name or the drive is busy)	tidak dapat memulai (nama buruk atau drive sedang sibuk)
+msg.phrase	could not start (the drive is busy)	tidak dapat memulai (drive sedang sibuk)
+msg.phrase	the name cannot have / or \\ (only inside this folder)	namanya tidak boleh berisi / atau \\ (hanya di dalam folder ini)
+msg.phrase	the name is the same	namanya sama
+msg.phrase	the item is read-only (A to change)	item bersifat hanya-baca (A untuk diubah)
+msg.phrase	choose a .rb file on a writable drive	pilih file .rb pada drive yang dapat ditulisi
+msg.phrase	choose a .rb file	pilih file .rb
+msg.phrase	the drive is read-only	drive bersifat hanya-baca
+msg.phrase	choose a folder on a writable drive	pilih folder pada drive yang dapat ditulisi
+msg.phrase	wait a moment	tunggu sebentar
+msg.phrase	choose a file	pilih file
+msg.phrase	choose a file (not a folder)	pilih file (bukan folder)
+msg.phrase	choose a .001 file	pilih file .001
+msg.phrase	choose the .001 file	pilih file .001
+msg.phrase	put the IWAD in a DoomFiles or Doom2Files folder	letakkan IWAD di folder DoomFiles atau Doom2Files
+msg.phrase	DoomFiles takes freedoom1 / doom / doomu / doom1.wad	DoomFiles membutuhkan freedoom1 / doom / doomu / doom1.wad
+msg.phrase	Doom2Files takes freedoom2 / doom2 / plutonia / tnt.wad	Doom2Files membutuhkan freedoom2 / doom2 / plutonia / tnt.wad
+msg.phrase	put the game files on external storage, not S:	letakkan file game di penyimpanan eksternal, bukan S:
+msg.phrase	the IWAD must be on a FAT / exFAT / NTFS drive (not a CD)	IWAD harus berada di drive FAT/exFAT/NTFS (bukan CD)
+msg.phrase	still working	masih bekerja
+msg.phrase	an image is loading	sebuah gambar sedang dimuat
+msg.phrase	no framebuffer	tidak ada framebuffer
+msg.phrase	half brightness works only in RGB555	setengah kecerahan hanya berfungsi di RGB555
+msg.phrase	clearing...	membersihkan...
+msg.phrase	halving the brightness...	mengurangi separuh kecerahan...
+msg.phrase	that is a data track	itu adalah jalur data
+msg.phrase	wait -- a file is being written	tunggu -- sebuah file sedang ditulis
+msg.phrase	only floppy / LS-120 / CD drives	hanya drive floppy / LS-120 / CD
+msg.phrase	requested	diminta
+msg.phrase	reading the disc...	membaca disk...
+msg.phrase	stopping...	berhenti...
+msg.phrase	opening...	pembukaan...
+msg.phrase	done	selesai
+msg.phrase	no memory	tidak ada memori
+msg.phrase	already open	sudah terbuka
+msg.phrase	already running	sudah berjalan
+msg.phrase	already saving	sudah menabung
+msg.phrase	already playing	sudah bermain
+msg.phrase	no such drive	tidak ada dorongan seperti itu
+msg.phrase	no PSRAM	tidak ada PSRAM
+msg.phrase	no PSRAM for the file	tidak ada PSRAM untuk file tersebut
+msg.phrase	no PSRAM for the line index	tidak ada PSRAM untuk indeks baris
+msg.phrase	no PSRAM for the terminal	tidak ada PSRAM untuk terminal
+msg.phrase	no memory (PSRAM)	tidak ada memori (PSRAM)
+msg.phrase	no memory (32KB SRAM)	tanpa memori (SRAM 32KB)
+msg.phrase	no memory for the buffer	tidak ada memori untuk buffer
+msg.phrase	no memory for the image buffers	tidak ada memori untuk buffer gambar
+msg.phrase	no memory for the read buffer	tidak ada memori untuk buffer baca
+msg.phrase	no room for the work memory (close the lowres plane?)	tidak ada ruang untuk memori kerja (tutup pesawat lowres?)
+msg.phrase	no framebuffer page	tidak ada halaman framebuffer
+msg.phrase	too large (4 MB at most)	terlalu besar (paling banyak 4 MB)
+msg.phrase	the file is too large (1 MB at most)	file terlalu besar (paling banyak 1 MB)
+msg.phrase	the file is too large (1 MB max)	file terlalu besar (maks 1 MB)
+msg.phrase	too large for an SMF (1MB at most)	terlalu besar untuk SMF (paling banyak 1 MB)
+msg.phrase	the file is empty	filenya kosong
+msg.phrase	could not open the file	tidak dapat membuka file tersebut
+msg.phrase	could not read the file	tidak dapat membaca file tersebut
+msg.phrase	could not open the volume	tidak dapat membuka volumenya
+msg.phrase	could not open the destination (no memory?)	tidak dapat membuka tujuan (tidak ada memori?)
+msg.phrase	could not read the root folder	tidak dapat membaca folder root
+msg.phrase	could not start the task	tidak dapat memulai tugas
+msg.phrase	could not start writing (bad name or busy)	tidak dapat mulai menulis (nama buruk atau sibuk)
+msg.phrase	another volume is open (busy)	volume lain terbuka (sibuk)
+msg.phrase	a copy is running	salinan sedang berjalan
+msg.phrase	a folder cannot go into itself	folder tidak bisa masuk ke dalam dirinya sendiri
+msg.phrase	that is the same folder	itu folder yang sama
+msg.phrase	this drive cannot be changed (read only)	drive ini tidak dapat diubah (hanya baca)
+msg.phrase	the drive is not writable	drive tidak dapat ditulisi
+msg.phrase	the part size must be a multiple of 512	ukuran bagian harus kelipatan 512
+msg.phrase	files of 4 GB or more are not supported	file berukuran 4 GB atau lebih tidak didukung
+msg.phrase	bad path	jalan yang buruk
+msg.phrase	bad file name	nama file yang buruk
+msg.phrase	the font ROM is not there	ROM fontnya tidak ada
+msg.phrase	the sound is not open	suaranya tidak terbuka
+msg.phrase	no such channel	tidak ada saluran seperti itu
+msg.phrase	the sequencer is busy	sequencer sedang sibuk
+msg.phrase	not enough PSRAM for the song	PSRAM tidak cukup untuk lagu tersebut
+msg.phrase	not a standard MIDI file (no MThd)	bukan file MIDI standar (tanpa MThd)
+msg.phrase	no tracks	tidak ada trek
+msg.phrase	a track is broken (MTrk)	trek rusak (MTrk)
+msg.phrase	SMPTE time division is not supported	Pembagian waktu SMPTE tidak didukung
+msg.phrase	SMF format 2 is not supported (0 and 1 only)	Format SMF 2 tidak didukung (hanya 0 dan 1)
+msg.phrase	not a Bulk-Only drive	bukan drive Khusus Massal
+msg.phrase	not an optical drive	bukan drive optik
+msg.phrase	a system folder cannot be deleted or renamed	folder sistem tidak dapat dihapus atau diganti namanya
+msg.phrase	no media in the drive	tidak ada media di drive
+msg.phrase	becoming ready	menjadi siap
+msg.phrase	not ready	belum siap
+msg.phrase	media changed	media berubah
+msg.phrase	medium error	kesalahan sedang
+msg.phrase	illegal request	permintaan ilegal
+msg.phrase	a bad directory entry	entri direktori yang buruk
+msg.phrase	a directory on the way does not exist	direktori dalam perjalanan tidak ada
+msg.phrase	a file has that name	sebuah file memiliki nama itu
+msg.phrase	a folder has that name	sebuah folder memiliki nama itu
+msg.phrase	a name on the way is not a directory	nama dalam perjalanan bukanlah direktori
+msg.phrase	cancelled	dibatalkan
+msg.phrase	could not mount	tidak dapat dipasang
+msg.phrase	could not start a read	tidak dapat memulai pembacaan
+msg.phrase	could not start a write	tidak dapat memulai menulis
+msg.phrase	is a directory	adalah direktori
+msg.phrase	that is a directory	itu adalah direktori
+msg.phrase	no clusters	tidak ada cluster
+msg.phrase	no room for the cluster list	tidak ada ruang untuk daftar cluster
+msg.phrase	no such file or directory	tidak ada file atau direktori seperti itu
+msg.phrase	no such file	tidak ada file seperti itu
+msg.phrase	no volume	tidak ada volume
+msg.phrase	not NTFS	bukan NTFS
+msg.phrase	not exFAT	bukan exFAT
+msg.phrase	not a directory	bukan direktori
+msg.phrase	not found	tidak ditemukan
+msg.phrase	read error	kesalahan membaca
+msg.phrase	write error	kesalahan penulisan
+msg.phrase	reading the FAT failed	membaca FAT gagal
+msg.phrase	the cluster chain is shorter than the file	rantai cluster lebih pendek dari file
+msg.phrase	the directory is not empty	direktori tidak kosong
+msg.phrase	the disk is full	disknya penuh
+msg.phrase	the drive did not answer	drive tidak menjawab
+msg.phrase	the file is read-only	file tersebut hanya dapat dibaca
+msg.phrase	the file is too fragmented	file terlalu terfragmentasi
+msg.phrase	the file is too large (4GB)	filenya terlalu besar (4GB)
+msg.phrase	the new name already exists	nama baru sudah ada
+msg.phrase	the root directory is full	direktori root sudah penuh
+msg.phrase	too many files with the same short name	terlalu banyak file dengan nama pendek yang sama
+msg.phrase	No such file or directory	Tidak ada file atau direktori seperti itu
+msg.phrase	File exists	Berkas ada
+msg.phrase	Permission denied	Izin ditolak
+msg.phrase	Directory not empty	Direktori tidak kosong
+msg.phrase	Not a directory	Bukan direktori
+msg.phrase	Is a directory	Adalah direktori
+msg.phrase	Read-only file system	Sistem file hanya-baca
+msg.phrase	No space left on device	Tidak ada ruang tersisa di perangkat
+msg.phrase	Input/output error	Kesalahan masukan/keluaran
+msg.phrase	Not supported on this drive	Tidak didukung pada drive ini
+msg.phrase	Invalid path	Jalur tidak valid
+msg.phrase	Out of memory	Kehabisan ingatan
+msg.phrase	No such drive	Tidak ada dorongan seperti itu
+msg.phrase	stopped	berhenti
+msg.phrase	cancelled (not enough free space)	dibatalkan (ruang kosong tidak cukup)
+msg.phrase	could not count the free space	tidak dapat menghitung ruang kosong
+msg.phrase	the receiver cancelled	penerima dibatalkan
+msg.phrase	no receiver (run rz on the PC)	tidak ada penerima (jalankan rz di PC)
+msg.phrase	the console UART is in use	konsol UART sedang digunakan
+msg.phrase	the screen mode changed	mode layar berubah
+msg.phrase	the lines did not come (is the display running?)	garisnya tidak muncul (apakah tampilannya berjalan?)
+msg.prefix	copy	salin
+msg.prefix	move	bergerak
+msg.prefix	delete	hapus
+msg.prefix	rename	ganti nama
+msg.prefix	attributes	atribut
+msg.prefix	new file	berkas baru
+msg.prefix	new folder	folder baru
+msg.prefix	image	gambar
+msg.prefix	mrbc	mrbc
+msg.prefix	ruby	rubi
+msg.prefix	viewer	penampil
+msg.prefix	edit	sunting
+msg.prefix	IDENTIFY	IDENTIFIKASI
+msg.prefix	ZMODEM	ZMODEM
+msg.prefix	ZMODEM receive	ZMODEM menerima
+msg.prefix	ZMODEM send	ZMODEM kirim
+msg.prefix	split	terbelah
+msg.prefix	join	bergabung
+msg.prefix	Doom	malapetaka
+msg.prefix	SMF	SMF
+msg.prefix	CD	CD
+msg.prefix	FB	FB
+msg.prefix	Eject	Keluarkan
+msg.prefix	reboot	reboot
+msg.prefix	license	lisensi
+msg.prefix	clock	jam
+msg.prefix	ADC in	ADC masuk
+msg.prefix	screen -> PNG	layar -> PNG
+msg.prefix	FB -> PNG	FB -> PNG
+msg.prefix	could not open the volume	tidak dapat membuka volumenya
+msg.pattern	received 	diterima %s
+msg.pattern	sent 	dikirim %s
+msg.pattern	saved 	disimpan %s
+msg.pattern	created 	dibuat %s
+msg.pattern	renamed to 	diganti namanya menjadi %s
+msg.pattern	deleted 	dihapus %s
+msg.pattern	changed 	berubah %s
+msg.pattern	joined 	bergabung %s
+msg.pattern	split 	terbelah %s
+msg.pattern	could not create 	tidak dapat membuat %s
+msg.pattern	could not delete 	tidak dapat menghapus %s
+msg.pattern	could not rename to 	tidak dapat mengganti nama menjadi %s
+msg.pattern	could not change 	tidak bisa berubah %s
+msg.pattern	could not read 	tidak bisa membaca %s
+msg.pattern	could not write 	tidak bisa menulis %s
+msg.pattern	could not copy 	tidak dapat menyalin %s
+msg.pattern	could not make 	tidak bisa membuat %s
+msg.pattern	could not remove the folder 	tidak dapat menghapus folder tersebut %s
+msg.pattern	could not remove 	tidak dapat menghapus %s
+msg.pattern	no memory for 	tidak ada memori untuk %s
+msg.pattern	too many errors while sending 	terlalu banyak kesalahan saat mengirim %s
+msg.pattern	the receiver did not take 	penerima tidak mengambil %s
+msg.pattern	the receiver skipped 	penerima dilewati %s
+msg.pattern	FB page 	halaman FB %s
+msg.word	 bytes each)	 masing-masing byte)
+msg.word	 bytes)	 byte)
+msg.word	 KB)	 KB)
+msg.word	 parts into 	 bagian menjadi 
+msg.word	 parts (	 bagian (
+msg.word	 into 	ke dalam 
+msg.word	: cleared	: dibersihkan
+msg.word	: brightness halved	: kecerahan dibelah dua
+msg.word	% read	% read
+msg.word	 rows	 baris
+msg.word	 -- not supported yet (FAT / exFAT / NTFS only)	 -- belum didukung (khusus FAT / exFAT / NTFS)
+msg.word	 files	 file
+msg.word	 (	 (
+msg.phrase	Untitled	Tanpa judul
+msg.phrase	%s%d	%s%d
+msg.phrase	%s%d:%s%d	%s%d:%s%d
+msg.phrase	1 File	1 berkas
+msg.phrase	2 Edit	2 Sunting
+msg.phrase	3 Graph	3 Grafik
+msg.phrase	4 Sheet	4 Lembar
+msg.phrase	5 Help	5 Bantuan
+msg.phrase	%s	%s
+msg.phrase	%.40s%s	%.40s%s
+msg.phrase	EMPTY	KOSONG
+msg.phrase	NUMBER	NOMOR
+msg.phrase	TEXT	TEKS
+msg.phrase	FORMULA	FORMULA
+msg.phrase	  [%s]   %s	  [%s] %s
+msg.phrase	EDIT  	Sunting
+msg.phrase	READY 	SIAP
+msg.phrase	Type to enter, F2 to edit, F1 for help	Ketik untuk masuk, F2 untuk mengedit, F1 untuk bantuan
+msg.phrase	%4d 	%4d
+msg.phrase	5 CSV	5 CSV
+msg.phrase	6 ODS	6 ODS
+msg.phrase	[SHIFT]	[PERGESERAN]
+msg.phrase	[CTRL]	[CTRL]
+msg.phrase	[ALT]	[ALT]
+msg.phrase	Ready	Siap
+msg.phrase	%s Sum %.7g N %ld%s	%s Jumlah %.7g N %ld%s
+msg.phrase	SGCALC	SGCALC
+msg.phrase	Press any key	Tekan tombol apa saja
+msg.phrase	Y = yes    N = no    Esc = cancel	Y = ya N = tidak Esc = batal
+msg.phrase	Enter = OK    Esc = cancel    Ctrl-U = clear	Enter = OK Esc = batal Ctrl-U = hapus
+msg.phrase	ARROWS      move the cell cursor\n	PANAH memindahkan kursor sel
+msg.phrase	SHIFT+ARR   extend the selection (for graphs/copy)\n	SHIFT+ARR memperluas pilihan (untuk grafik/salinan)
+msg.phrase	ENTER       edit the cell; in edit, commit and move down\n	ENTER edit sel; dalam edit, komit dan pindahkan ke bawah
+msg.phrase	TAB         next cell    SHIFT+TAB  previous cell\n	TAB sel berikutnya SHIFT+TAB sel sebelumnya
+msg.phrase	DELETE      clear the selected cell(s)    ESC  cancel\n	HAPUS hapus sel yang dipilih ESC batal
+msg.phrase	PGUP/PGDN   move one screen    HOME/END  first/last column\n	PGUP/PGDN berpindah satu layar HOME/END kolom pertama/terakhir
+msg.phrase	CTRL+HOME   A1    CTRL+END  last used cell\n	CTRL+HOME A1 CTRL+END sel yang terakhir digunakan
+msg.phrase	F1 help  F2 edit  F3 copy  F4 paste  F5 goto  F6 colour\n	F1 bantu F2 edit F3 copy F4 paste F5 goto F6 warna
+msg.phrase	F7 auto-fit  F8 background  F9 recalc  F10 graph  F11 save  F12 menu\n	F7 pas otomatis F8 latar belakang F9 kalkulasi ulang grafik F10 F11 simpan menu F12
+msg.phrase	SHIFT+F1 about  SHIFT+F2 row height  SHIFT+F3 column width\n	SHIFT+F1 sekitar SHIFT+F2 tinggi baris SHIFT+F3 lebar kolom
+msg.phrase	SHIFT+F4 select all  SHIFT+F10 graph range  SHIFT+F11 save as\n	SHIFT+F4 pilih semua rentang grafik SHIFT+F10 SHIFT+F11 simpan sebagai
+msg.phrase	CTRL+F1 new  CTRL+F2 open  CTRL+F3 save  CTRL+F4 save as\n	CTRL+F1 CTRL+F2 baru buka CTRL+F3 simpan CTRL+F4 simpan sebagai
+msg.phrase	CTRL+F5 export CSV  CTRL+F6 export ODS  ALT+F12 quit\n	CTRL+F5 ekspor CSV CTRL+F6 ekspor ODS ALT+F12 berhenti
+msg.phrase	Bottom 2 lines: function keys; [SHIFT]/[CTRL]/[ALT] like the filer\n	2 baris terbawah: tombol fungsi; [SHIFT]/[CTRL]/[ALT] seperti filer
+msg.phrase	CTRL+S save  CTRL+O open  CTRL+N new  CTRL+C/V/X copy/paste/cut\n	CTRL+S simpan CTRL+O buka CTRL+N baru CTRL+C/V/X salin/tempel/potong
+msg.phrase	CTRL+G goto    /  open the menu (1 File, 2 Edit, ...)\n	CTRL+G buka / buka menu (1 File, 2 Edit, ...)
+msg.phrase	Built-in functions: SUM AVERAGE MIN MAX COUNT COUNTA\n	Fungsi bawaan: JUMLAH RATA-RATA MIN MAX JUMLAH JUMLAH
+msg.phrase	PRODUCT ABS SQRT INT ROUND MOD POWER IF AND OR NOT\n	PRODUK ABS SQRT INT ROUND MOD POWER JIKA DAN ATAU TIDAK
+msg.phrase	IFERROR LEN LEFT RIGHT MID UPPER LOWER TRIM CONCATENATE PI\n	IFERROR LEN KIRI KANAN TENGAH ATAS BAWAH TRIM CONCATENATE PI
+msg.phrase	Cell refs: A1, $A$1, A1:B10.  Formulas begin with '='.\n	Referensi sel: A1, $A$1, A1:B10.  Rumus dimulai dengan '='.
+msg.phrase	Files: .ods (LibreOffice), .fods (flat XML), .csv\n	File: .ods (LibreOffice), .fods (XML datar), .csv
+msg.phrase	ODS/FODS keeps formulas, widths, heights and colours.\n	ODS/FODS menyimpan rumus, lebar, tinggi dan warna.
+msg.phrase	CSV keeps values and formulas (no colours/heights).\n	CSV menyimpan nilai dan rumus (tanpa warna/tinggi).
+msg.phrase	Graph: select a range, press F10, and choose Line/Bar/Mixed/Pie.\n	Grafik: pilih rentang, tekan F10, dan pilih Garis/Batang/Campuran/Pai.
+msg.phrase	First row/column = labels; charts use the 640x480 CLUT8 FB.	Baris/kolom pertama = label; grafik menggunakan 640x480 CLUT8 FB.
+msg.phrase	SGCALC - HELP	SGCALC - BANTUAN
+msg.phrase	Press any key to return	Tekan tombol apa saja untuk kembali
+msg.phrase	SGCALC for sgnano\n	SGCALC untuk sgnano
+msg.phrase	Version 	Versi
+msg.phrase	A Lotus 1-2-3 style spreadsheet as an SGX program.\n\n	Spreadsheet gaya Lotus 1-2-3 sebagai program SGX.
+msg.phrase	SGX ABI %u.%u\n	SGX ABI %u.%u
+msg.phrase	Screen mode 3: text + CLUT8 FB (lowres disabled)\n	Mode layar 3: teks + CLUT8 FB (tingkat rendah dinonaktifkan)
+msg.phrase	Sheet: %d rows x %d columns\n	Lembar: %d baris x %d kolom
+msg.phrase	Formats: .ods / .fods (LibreOffice), .csv\n\n	Format: .ods / .fods (LibreOffice), .csv
+msg.phrase	The grid is drawn on the text plane.\n	Grid digambar pada bidang teks.
+msg.phrase	Charts and the 640x480 background use the FB.\n\n	Chart dan background 640x480 menggunakan FB.
+msg.phrase	Press any key to return.	Tekan tombol apa saja untuk kembali.
+msg.phrase	ABOUT SGCALC	TENTANG SGCALC
+msg.phrase	New	Baru
+msg.phrase	Start a new sheet	Mulai lembaran baru
+msg.phrase	Open...	Membuka...
+msg.phrase	Open an ODS, FODS or CSV file	Buka file ODS, FODS, atau CSV
+msg.phrase	Save	Simpan
+msg.phrase	Save the current file	Simpan file saat ini
+msg.phrase	Save As...	Simpan Sebagai...
+msg.phrase	Save with a new name or format	Simpan dengan nama atau format baru
+msg.phrase	Export CSV...	Ekspor CSV...
+msg.phrase	Write a CSV copy	Tulis salinan CSV
+msg.phrase	Export ODS...	Ekspor ODS...
+msg.phrase	Write a LibreOffice copy	Tulis salinan LibreOffice
+msg.phrase	Quit	Berhenti
+msg.phrase	Leave SGCALC	Tinggalkan SGCALC
+msg.phrase	Clear	Jelas
+msg.phrase	Clear the selected cells	Hapus sel yang dipilih
+msg.phrase	Copy	Salin
+msg.phrase	Copy the selection	Salin pilihannya
+msg.phrase	Paste	Tempel
+msg.phrase	Paste at the cursor	Tempel di kursor
+msg.phrase	Cut	Potong
+msg.phrase	Copy and clear the selection	Salin dan hapus pilihan
+msg.phrase	Select all	Pilih semua
+msg.phrase	Select all used cells	Pilih semua sel yang digunakan
+msg.phrase	Text color...	Warna teks...
+msg.phrase	Choose the text colour	Pilih warna teks
+msg.phrase	Background...	Latar Belakang...
+msg.phrase	Choose the cell background	Pilih latar belakang sel
+msg.phrase	Line	Garis
+msg.phrase	Draw a line graph from the selection	Gambarlah grafik garis dari pilihan tersebut
+msg.phrase	Bar	Batang
+msg.phrase	Draw a bar graph from the selection	Gambarlah grafik batang dari pilihan tersebut
+msg.phrase	Mixed	Campuran
+msg.phrase	Bars for the first series, lines for the rest	Batangan untuk seri pertama, garis untuk seri lainnya
+msg.phrase	Pie	pai
+msg.phrase	Draw a pie graph from the selection	Gambarlah diagram lingkaran dari pilihan tersebut
+msg.phrase	Range...	Rentang...
+msg.phrase	Set the graph range explicitly	Tetapkan rentang grafik secara eksplisit
+msg.phrase	Draw again	Menggambar lagi
+msg.phrase	Redraw the last graph	Gambar ulang grafik terakhir
+msg.phrase	Goto...	Pergi...
+msg.phrase	Jump to a cell (for example C12)	Lompat ke sel (misalnya C12)
+msg.phrase	Column width...	Lebar kolom...
+msg.phrase	Change the selected columns' width	Ubah lebar kolom yang dipilih
+msg.phrase	Row height...	Tinggi baris...
+msg.phrase	Change the selected rows' height	Ubah tinggi baris yang dipilih
+msg.phrase	Auto fit	Cocok otomatis
+msg.phrase	Fit widths/heights to the contents (F7)	Sesuaikan lebar/tinggi dengan isinya (F7)
+msg.phrase	Recalculate	Hitung ulang
+msg.phrase	Re-evaluate all formulas	Evaluasi kembali semua formula
+msg.phrase	Erase all	Hapus semuanya
+msg.phrase	Clear the whole sheet	Bersihkan seluruh lembar
+msg.phrase	Keys	Kunci
+msg.phrase	Show the key guide	Tunjukkan panduan kuncinya
+msg.phrase	About	Tentang
+msg.phrase	About SGCALC	Tentang SGCALC
+msg.phrase	File	Mengajukan
+msg.phrase	Edit	Sunting
+msg.phrase	Graph	Grafik
+msg.phrase	Sheet	Lembar
+msg.phrase	Help	Bantuan
+msg.phrase	File: new, open, save, export, quit	File: baru, buka, simpan, ekspor, keluar
+msg.phrase	Edit: clear, copy, paste, cut, select all	Sunting: hapus, salin, tempel, potong, pilih semua
+msg.phrase	Graph: line, bar, mixed, pie (draws in the FB)	Grafik: garis, batang, campuran, pai (digambar di FB)
+msg.phrase	Sheet: goto, column width, recalculate, erase	Lembar: goto, lebar kolom, hitung ulang, hapus
+msg.phrase	Help: keys and about	Bantuan: kunci dan tentang
+msg.phrase	%d %s	%d %s
+msg.phrase	Left/Right = menu    Up/Down = item    Enter = choose    Esc = cancel	Kiri/Kanan = menu Atas/Bawah = item Enter = pilih Esc = batal
+msg.phrase	Cannot store the cell (%d).	Tidak dapat menyimpan sel (%d).
+msg.phrase	Cancelled	Dibatalkan
+msg.phrase	Copied %d x %d cells	Menyalin %d x %d sel
+msg.phrase	The selection is too large or memory is low.	Pilihannya terlalu besar atau memorinya rendah.
+msg.phrase	Cleared %s	Menghapus %s
+msg.phrase	the cell	sel
+msg.phrase	the selection	seleksi
+msg.phrase	Nothing to paste	Tidak ada yang perlu ditempel
+msg.phrase	Pasted	Ditempel
+msg.phrase	GO TO CELL	PERGI KE SEL
+msg.phrase	Cell reference (A1):	Referensi sel (A1):
+msg.phrase	Goto	Pergi
+msg.phrase	'%s' is not a cell reference.	'%s' bukan referensi sel.
+msg.phrase	%d	%d
+msg.phrase	COLUMN WIDTH	LEBAR KOLOM
+msg.phrase	Width in characters (4..30):	Lebar dalam karakter (4..30):
+msg.phrase	Column width = %d	Lebar kolom = %d
+msg.phrase	ROW HEIGHT	TINGGI BARIS
+msg.phrase	Height in text rows (1..8):	Tinggi di baris teks (1..8):
+msg.phrase	Row height = %d	Tinggi baris = %d
+msg.phrase	Auto fit: the sheet is empty	Pas otomatis: lembar kosong
+msg.phrase	Auto fit: %d column(s), %d row(s)	Penyesuaian otomatis: %d kolom, %d baris
+msg.phrase	BACKGROUND COLOUR	WARNA LATAR BELAKANG
+msg.phrase	TEXT COLOUR	WARNA TEKS
+msg.phrase	Arrows: choose    Enter: apply    Esc: cancel	Panah: pilih Enter: terapkan Esc: batal
+msg.phrase	Colour index (PC-98 16-colour palette)	Indeks warna (PC-98 palet 16 warna)
+msg.phrase	%2d	%2d
+msg.phrase	Aa 123	Aa 123
+msg.phrase	Enter = apply    Esc = cancel	Masuk = terapkan Esc = batal
+msg.phrase	Colour	Warna
+msg.phrase	Cannot apply the colour (%d).	Tidak dapat menerapkan warna (%d).
+msg.phrase	%s colour = %d	%s warna = %d
+msg.phrase	Background	Latar belakang
+msg.phrase	Text	Teks
+msg.phrase	GRAPH RANGE	RANGE GRAFIK
+msg.phrase	Range (for example A1:C10):	Rentang (misalnya A1:C10):
+msg.phrase	Graph range	Rentang grafik
+msg.phrase	Use a range such as A1:C10.	Gunakan rentang seperti A1:C10.
+msg.phrase	Not a valid range.\nUse a range such as A1:C10.	Bukan rentang yang valid.\nGunakan rentang seperti A1:C10.
+msg.phrase	Graph range %s	Rentang grafik %s
+msg.phrase	Cannot draw the graph.	Tidak dapat menggambar grafik.
+msg.phrase	Graph: %s	Grafik: %s
+msg.phrase	line	garis
+msg.phrase	bar	batang
+msg.phrase	mixed	campur aduk
+msg.phrase	pie	pai
+msg.phrase	Clear every cell in this sheet?	Hapus setiap sel di sheet ini?
+msg.phrase	Sheet erased	Lembar terhapus
+msg.phrase	Selected all used cells	Memilih semua sel yang digunakan
+msg.phrase	Recalculated	Dihitung ulang
+msg.phrase	SGCALC: cannot set screen mode 3: %s\n	SGCALC: tidak dapat mengatur mode layar 3: %s
+msg.phrase	Memory	Ingatan
+msg.phrase	Not enough PSRAM for the spreadsheet.	PSRAM tidak cukup untuk spreadsheet.
+msg.phrase	The sheet is empty.	Lembarannya kosong.
+msg.phrase	No numeric data in the selected range.	Tidak ada data numerik dalam rentang yang dipilih.
+msg.phrase	%.2g	%.2g
+msg.phrase	%.6g	%.6g
+msg.phrase	Other	Lainnya
+msg.phrase	No positive values for a pie chart	Tidak ada nilai positif untuk diagram lingkaran
+msg.phrase	%s  %.0f%%	%s %.0f%%
+msg.phrase	GRAPH  %s  %s	GRAFIK %s %s
+msg.phrase	LINE	GARIS
+msg.phrase	BAR	BATANG
+msg.phrase	MIXED	CAMPURAN
+msg.phrase	PIE	pai
+msg.phrase	S:/	S:/
+msg.phrase	%s%s	%s%s
+msg.phrase	%s/%s	%s/%s
+msg.phrase	%.*s	%.*s
+msg.phrase	%.*s/	%.*s/
+msg.phrase	Folder	Map
+msg.phrase	Cannot read %s\n%s	Tidak dapat membaca %s\n%s
+msg.phrase	SAVE AS	SIMPAN SEBAGAI
+msg.phrase	OPEN FILE	BUKA FILE
+msg.phrase	LibreOffice / CSV	LibreOffice / CSV
+msg.phrase	ODS  FODS  CSV	ODS FODS CSV
+msg.phrase	Folder: %s	Map: %s
+msg.phrase	Name:	Nama:
+msg.phrase	(type a name, or choose below)	(ketik nama, atau pilih di bawah)
+msg.phrase	Name	Nama
+msg.phrase	Size	Ukuran
+msg.phrase	[DIR] %s	[DIR] %s
+msg.phrase	      %s	      %s
+msg.phrase	%lu.%luM	%lu.%luM
+msg.phrase	%luK	%luK
+msg.phrase	%luB	%luB
+msg.phrase	Enter=save  Left=up  Right/Enter on [DIR]=open  Tab=drive  Esc=cancel	Enter=simpan Kiri=atas Kanan/Masuk pada [DIR]=buka Tab=drive Esc=batal
+msg.phrase	Enter=open  Left=up  Right/Enter on [DIR]=open  Tab=drive  Esc=cancel	Enter=buka Kiri=atas Kanan/Masuk pada [DIR]=buka Tab=drive Esc=batal
+msg.phrase	BOOK1%s	BUKU1%s
+msg.phrase	Not enough memory.	Memori tidak cukup.
+msg.phrase	%c:/	%c:/
+msg.phrase	Unsupported extension.\nUse .csv, .ods or .fods.	Ekstensi tidak didukung.\nGunakan .csv, .ods, atau .fods.
+msg.phrase	Overwrite	Timpa
+msg.phrase	%s already exists.\nOverwrite it?	%s sudah ada.\nTimpa itu?
+msg.phrase	%s may not be writable.\nTry anyway?	%s mungkin tidak dapat ditulis.\nTetap mencobanya?
+msg.phrase	Unknown file type for %s	Jenis berkas tidak dikenal untuk %s
+msg.phrase	Open	Membuka
+msg.phrase	Unsupported file type.\nUse .csv, .ods or .fods.	Jenis file tidak didukung.\nGunakan .csv, .ods, atau .fods.
+msg.phrase	Cannot open %s\n%s	Tidak dapat membuka %s\n%s
+msg.phrase	%s is a folder.	%s adalah sebuah folder.
+msg.phrase	The file is too large (limit 8 MB).	File terlalu besar (dibatasi 8 MB).
+msg.phrase	Not enough memory to read the file.	Memori tidak cukup untuk membaca file.
+msg.phrase	Cannot import %s\n%s	Tidak dapat mengimpor %s\n%s
+msg.phrase	Bad ZIP/ODS data.	Data ZIP/ODS buruk.
+msg.phrase	CRC error in the ODS file.	Kesalahan CRC dalam file ODS.
+msg.phrase	Unsupported or damaged file.	File tidak didukung atau rusak.
+msg.phrase	Loaded %s	Dimuat %s
+msg.phrase	Cannot build the %s file.	Tidak dapat membuat file %s.
+msg.phrase	Cannot write %s\n%s	Tidak dapat menulis %s\n%s
+msg.phrase	%s %s	%s %s
+msg.phrase	Saved	Disimpan
+msg.phrase	Exported	Diekspor
+msg.phrase	Unsaved changes	Perubahan yang belum disimpan
+msg.phrase	Save the current sheet before continuing?	Simpan sheet saat ini sebelum melanjutkan?
+msg.phrase	New sheet	Lembar baru
+msg.phrase	SGTRK	SGTRK
+msg.phrase	UNTITLED	TANPA JUDUL
+msg.phrase	song is too large	lagu terlalu besar
+msg.phrase	empty file	berkas kosong
+msg.phrase	not an SGT file	bukan file SGT
+msg.phrase	unsupported version %u	versi tidak didukung %u
+msg.phrase	bad BPM	BPM buruk
+msg.phrase	bad speed	kecepatan buruk
+msg.phrase	bad title length	panjang judul yang buruk
+msg.phrase	truncated title	judul terpotong
+msg.phrase	bad character in title	karakter buruk dalam judul
+msg.phrase	truncated order	urutan terpotong
+msg.phrase	bad order length	panjang pesanan yang buruk
+msg.phrase	bad pattern number in order	nomor pola buruk secara berurutan
+msg.phrase	truncated pattern list	daftar pola terpotong
+msg.phrase	bad pattern count	jumlah pola yang buruk
+msg.phrase	bad pattern index	indeks pola buruk
+msg.phrase	duplicate pattern	pola duplikat
+msg.phrase	truncated pattern data	data pola terpotong
+msg.phrase	invalid pattern data	data pola tidak valid
+msg.phrase	trailing data in file	data tambahan dalam file
+msg.phrase	order refers to a missing pattern	pesanan mengacu pada pola yang hilang
+msg.phrase	A:/	J:/
+msg.phrase	(untitled)	(tanpa judul)
+msg.phrase	Ready. Press F1 for help.	Siap. Tekan F1 untuk bantuan.
+msg.phrase	%d:%d:%d:%d:%d:%d	%d:%d:%d:%d:%d:%d
+msg.phrase	Follow OFF	Ikuti MATI
+msg.phrase	Octave %d	Oktaf %d
+msg.phrase	Nothing to undo	Tidak ada yang perlu dibatalkan
+msg.phrase	Undo	Membatalkan
+msg.phrase	Note OFF	Catatan MATI
+msg.phrase	Note %s	Catatan %s
+msg.phrase	Instrument %d	Instrumen %d
+msg.phrase	Volume %s	Volumenya %s
+msg.phrase	Effect %c	Efek %c
+msg.phrase	Set an effect letter first	Tetapkan huruf efek terlebih dahulu
+msg.phrase	Parameter %s	Parameter %s
+msg.phrase	Effect cleared	Efeknya hilang
+msg.phrase	Parameter cleared	Parameter dihapus
+msg.phrase	Note cleared	Catatan dihapus
+msg.phrase	Instrument cleared	Instrumen dibersihkan
+msg.phrase	Volume cleared	Volumenya dibersihkan
+msg.phrase	Order list is full	Daftar pesanan penuh
+msg.phrase	Order inserted	Pesanan dimasukkan
+msg.phrase	Cannot delete the last order	Tidak dapat menghapus pesanan terakhir
+msg.phrase	Order deleted	Pesanan dihapus
+msg.phrase	Pattern %s	Pola %s
+msg.phrase	Playing song	Memutar lagu
+msg.phrase	Playing pattern %s	Pola pemutaran %s
+msg.phrase	Stopped	Berhenti
+msg.phrase	New song	Lagu baru
+msg.phrase	Discard unsaved changes and start a new song? (Y/N)	Buang perubahan yang belum disimpan dan mulai lagu baru? (Y/T)
+msg.phrase	SAVE ERROR: %s	SIMPAN KESALAHAN: %s
+msg.phrase	Saved %s	%s tersimpan
+msg.phrase	LOAD ERROR: %s	KESALAHAN BEBAN: %s
+msg.phrase	Discard unsaved changes and open a song? (Y/N)	Buang perubahan yang belum disimpan dan buka lagu? (Y/T)
+msg.phrase	Discard unsaved changes and quit? (Y/N)	Buang perubahan yang belum disimpan dan keluar? (Y/T)
+msg.phrase	BPM %d	BPM%d
+msg.phrase	Speed %d	Kecepatan %d
+msg.phrase	Song settings updated	Pengaturan lagu diperbarui
+msg.phrase	Preview %s	Pratinjau %s
+msg.phrase	Instrument %s %s	Instrumen %s %s
+msg.phrase	Filename is empty	Nama file kosong
+msg.phrase	Overwrite %s? (Y/N)	Timpa %s? (Y/T)
+msg.phrase	Save cancelled	Simpan dibatalkan
+msg.phrase	Open cancelled	Buka dibatalkan
+msg.phrase	Edit ON	Sunting AKTIF
+msg.phrase	Edit OFF	Sunting MATI
+msg.phrase	Follow ON	Ikuti ON
+msg.phrase	Edit is OFF. Press F8 to edit.	Pengeditan TIDAK AKTIF. Tekan F8 untuk mengedit.
+msg.phrase	I/O error	kesalahan I/O
+msg.phrase	file is too large	berkasnya terlalu besar
+msg.phrase	truncated file	file terpotong
+msg.phrase	SINE PAD	PAD SINUS
+msg.phrase	TRIANGLE	SEGITIGA
+msg.phrase	SAW LEAD	MELIHAT LEAD
+msg.phrase	SQUARE	KOTAK
+msg.phrase	PULSE 25	PULSA 25
+msg.phrase	ORGAN	ORGAN
+msg.phrase	BASS	BAS
+msg.phrase	BELL	BEL
+msg.phrase	NOISE	KEBISINGAN
+msg.phrase	SINE	sinus
+msg.phrase	SAW	MELIHAT
+msg.phrase	 | BPM %s SPD %s 	 | BPM %s SPD %s
+msg.phrase	 SGNO TRACKER 1.0 | 	PELACAK SGNO 1.0 |
+msg.phrase	FILE 	FILE
+msg.phrase	 PAT %s	 PAT %s
+msg.phrase	 ORD %d/%d	 ORD %d/%d
+msg.phrase	 INS %s 	 DALAM %s
+msg.phrase	 OCT %d	 Oktober %d
+msg.phrase	 EDIT %s	 EDIT %s
+msg.phrase	ON 	AKTIF
+msg.phrase	OFF	MATI
+msg.phrase	 FOL %s	 FOL %s
+msg.phrase	ON	AKTIF
+msg.phrase	ROW	BARIS
+msg.phrase	TRACK %d	JALUR %d
+msg.phrase	CHAN LEVEL	TINGKAT CHAN
+msg.phrase	%c%s	%c%s
+msg.phrase	%s %s %s %s	%s %s %s %s
+msg.phrase	%s 	%s
+msg.phrase	%d %s %s	%d %s %s
+msg.phrase	ORDER %d/%d	PESANAN %d/%d
+msg.phrase	PAT   %s	PAT %s
+msg.phrase	INS %s %s	DALAM %s %s
+msg.phrase	OCT %d  EDIT %s	OKT %d EDIT %s
+msg.phrase	FOLLOW %s	IKUTI %s
+msg.phrase	F1 HELP F2 SONG	F1 BANTU LAGU F2
+msg.phrase	F3 INS  F4 SAVE	F3 DALAM F4 SIMPAN
+msg.phrase	F5 PLAY F6 PAT	F5 MAINKAN F6 PAT
+msg.phrase	F7 STOP F8 EDIT	F7 BERHENTI F8 EDIT
+msg.phrase	F9/F10 OCTAVE	F9/F10 OKTAV
+msg.phrase	F11 FOLLOW	F11 IKUTI
+msg.phrase	F12 QUIT	F12 BERHENTI
+msg.phrase	SPACE PLAY/STOP	MAINKAN/BERHENTI RUANG
+msg.phrase	CTRL-S SAVE	CTRL-S SIMPAN
+msg.phrase	CTRL-O OPEN	CTRL-O BUKA
+msg.phrase	C-N NEW C-Z UNDO	C-N BARU C-Z UNDO
+msg.phrase	C-C STOP	C-C BERHENTI
+msg.phrase	PLAYING  ORD %d/%d  PAT %s  ROW %s/%d  SPD %s  BPM %d  F7 STOP	MAINKAN ORD %d/%d PAT %s ROW %s/%d SPD %s BPM %d F7 STOP
+msg.phrase	READY  EDIT %s  OCT %d  F1 HELP  F5 PLAY  CTRL-S SAVE	SIAP EDIT %s OKT %d F1 BANTU F5 MAINKAN CTRL-S SIMPAN
+msg.phrase	 %s 	 %s
+msg.phrase	#TRANSPORT AND FILES	#TRANSPORTASI DAN FILE
+msg.phrase	  F5          Play the song from the current order	  F5 Memutar lagu dari urutan saat ini
+msg.phrase	  F6          Play the current pattern	  F6 Mainkan pola saat ini
+msg.phrase	  F7/Ctrl-C   Stop playback	  F7/Ctrl-C Menghentikan pemutaran
+msg.phrase	  Space       Play / stop	  Ruang Putar / hentikan
+msg.phrase	  F4          Save as	  F4 Simpan sebagai
+msg.phrase	  Ctrl-S      Save (asks for a name if new)	  Ctrl-S Save (meminta nama jika baru)
+msg.phrase	  Ctrl-O      Open a song	  Ctrl-O Membuka lagu
+msg.phrase	  Ctrl-N      New song	  Ctrl-N Lagu baru
+msg.phrase	  F12         Quit (confirmation if modified)	  F12 Keluar (konfirmasi jika diubah)
+msg.phrase	#ORDER LIST	#DAFTAR PESANAN
+msg.phrase	  [ ]         Previous / next order entry	  [ ] Entri pesanan sebelumnya / berikutnya
+msg.phrase	  { }         Insert / delete an order entry	  { } Menyisipkan/menghapus entri pesanan
+msg.phrase	  - +         Change the pattern in the entry	  - + Ubah pola di entri
+msg.phrase	#DISPLAY	#TAMPILAN
+msg.phrase	  F11         Follow playback (turns off on manual move)	  F11 Ikuti pemutaran (mematikan gerakan manual)
+msg.phrase	  F1          Help; Left/Right changes page	  Bantuan F1; Halaman perubahan Kiri/Kanan
+msg.phrase	#EDITING	#EDIT
+msg.phrase	  F8          Toggle edit mode	  F8 Beralih mode edit
+msg.phrase	  Arrows      Move the cursor	  Panah Memindahkan kursor
+msg.phrase	  PgUp/PgDn   Jump 16 rows	  PgUp/PgDn Lompat 16 baris
+msg.phrase	  Home/End    First / last row	  Beranda/Akhir Baris pertama/terakhir
+msg.phrase	  F9/F10      Octave down / up	F9/F10 Oktaf bawah/atas
+msg.phrase	  Z S X D C V G B H N J M      lower piano row	  Z S X D C V G B H N J M baris piano bawah
+msg.phrase	  Q 2 W 3 E R 5 T 6 Y 7 U      upper piano row	  Q 2 W 3 E R 5 T 6 Y 7 U baris piano atas
+msg.phrase	  1           Note off	  1 Catatan mati
+msg.phrase	  0 / Del     0 clears note/inst/fx; Del clears any	  0 / Del 0 menghapus catatan/inst/fx; Del menghapus semuanya
+msg.phrase	  Ctrl-Z      Undo the last pattern/order edit	  Ctrl-Z Membatalkan pengeditan pola/urutan terakhir
+msg.phrase	#EFFECTS (parameter is hexadecimal)	#EFEK (parameternya heksadesimal)
+msg.phrase	  Axy   Volume slide: up x, down y	  Slide Volume Axy: naik x, turun y
+msg.phrase	  Cxx   Note cut after xx ticks	  Cxx Note dipotong setelah xx dicentang
+msg.phrase	  Dxx   Set volume (00..7F)	  Dxx Setel volume (00..7F)
+msg.phrase	  Fxx   Speed if xx < 20, otherwise BPM	  Kecepatan Fxx jika xx < 20, jika tidak BPM
+msg.phrase	  Hxy   Arpeggio x, y semitones	  Hxy Arpeggio x, y seminada
+msg.phrase	  Pxx   Pitch slide up	Pxx Pitch geser ke atas
+msg.phrase	  Qxx   Pitch slide down	  Qxx Pitch meluncur ke bawah
+msg.phrase	  F2 song settings, F3 instrument list	  Pengaturan lagu F2, daftar instrumen F3
+msg.phrase	HELP %d/2	BANTUAN %d/2
+msg.phrase	LEFT/RIGHT PAGE   ENTER OR F1 CLOSE	ENTER HALAMAN KIRI/KANAN ATAU F1 TUTUP
+msg.phrase	SONG SETTINGS	PENGATURAN LAGU
+msg.phrase	UP/DOWN SELECT   LEFT/RIGHT ADJUST   ENTER/F2 CLOSE	PILIH ATAS/BAWAH KIRI/KANAN ADJUST ENTER/F2 CLOSE
+msg.phrase	  Title	  Judul
+msg.phrase	  [%s_]	  [%s_]
+msg.phrase	  BPM   : %d     (left/right -1/+1, -/+ -5/+5)	  BPM : %d (kiri/kanan -1/+1, -/+ -5/+5)
+msg.phrase	  Speed : %d ticks/row	  Kecepatan : %d centang/baris
+msg.phrase	  Rows  : %d (fixed)	  Baris : %d (tetap)
+msg.phrase	  Order : %d entries	Pesanan : %d entri
+msg.phrase	  Patterns in use : %d	  Pola yang digunakan : %d
+msg.phrase	Type to edit the title. Backspace deletes the last character.	Ketik untuk mengedit judul. Backspace menghapus karakter terakhir.
+msg.phrase	BPM range 32..255. Speed range 1..31.	Kisaran BPM 32..255. Rentang kecepatan 1..31.
+msg.phrase	Pattern effects can also change speed and BPM while playing.	Efek pola juga dapat mengubah kecepatan dan BPM saat bermain.
+msg.phrase	INSTRUMENTS	INSTRUMEN
+msg.phrase	UP/DOWN SELECT   SPACE PREVIEW   ENTER USE   F3 CLOSE	PILIH ATAS/BAWAH SPASI PREVIEW ENTER GUNAKAN F3 CLOSE
+msg.phrase	 #  NAME       WAVE       A   D   S   R  VOL	 # NAMA GELOMBANG A D S R VOL
+msg.phrase	 %c %d  %-9s %-9s %3d %3d %3d %3d %4d	 %c %d %-9s %-9s %3d %3d %3d %3d %4d
+msg.phrase	All four channels use wavetable synthesis.	Keempat saluran menggunakan sintesis wavetable.
+msg.phrase	Preview plays C-4 on the track under the edit cursor.	Pratinjau memutar C-4 pada trek di bawah kursor edit.
+msg.phrase	Current instrument: %s %s	Instrumen saat ini: %s %s
+msg.phrase	SAVE SONG AS	SIMPAN LAGU SEBAGAI
+msg.phrase	ENTER SAVE   F4 OR CTRL-C CANCEL	MASUKKAN SIMPAN F4 ATAU CTRL-C BATAL
+msg.phrase	Directory:	Direktori:
+msg.phrase	  %s	  %s
+msg.phrase	File name:	Nama berkas:
+msg.phrase	The extension .SGT is added automatically.	Ekstensi .SGT ditambahkan secara otomatis.
+msg.phrase	An existing file can be overwritten.	File yang ada dapat ditimpa.
+msg.phrase	OPEN SONG	BUKA LAGU
+msg.phrase	ENTER OPEN  BS PARENT  CTRL-O/CTRL-C CANCEL	MASUKKAN BUKA BS INDUK CTRL-O/CTRL-C BATAL
+msg.phrase	DIR  %s	DIR %s
+msg.phrase	(no .SGT files in this folder)	(tidak ada file .SGT di folder ini)
+msg.phrase	 %c %s%s	 %c %s%s
+msg.phrase	Files: %d	File: %d
+msg.phrase	CONFIRM	KONFIRMASI
+msg.phrase	Y = YES   N / ENTER / CTRL-C = NO	Y = YA N / ENTER / CTRL-C = TIDAK
+msg.phrase	Y = yes        N = no	Y = ya N = tidak
+msg.phrase	%02d	%02d
+msg.phrase	%03d	%03d
+msg.phrase	%02X	%02X
+msg.phrase	C-	C-
+msg.phrase	C#	C#
+msg.phrase	D-	D-
+msg.phrase	D#	D#
+msg.phrase	E-	E-
+msg.phrase	F-	F-
+msg.phrase	F#	F#
+msg.phrase	G-	G-
+msg.phrase	G#	G#
+msg.phrase	A-	SEBUAH-
+msg.phrase	A#	SEBUAH#
+msg.phrase	B-	B-
+msg.phrase	A:/dir/name	A:/dir/nama
+msg.phrase	MThd	MThd
+msg.phrase	broken MThd	MThd rusak
+msg.phrase	MIDI IMPORT	IMPOR MIDI
+msg.phrase	MTrk	MTrk
+msg.phrase	broken delta time	waktu delta rusak
+msg.phrase	broken running status	status berjalan rusak
+msg.phrase	broken meta event	acara meta rusak
+msg.phrase	broken sysex event	acara sysex rusak
+msg.phrase	broken channel event	acara saluran rusak
+msg.phrase	SMF output is too small	Keluaran SMF terlalu kecil
+msg.phrase	SMF output is too large	Keluaran SMF terlalu besar
+msg.phrase	the song is too long for SMF	lagunya terlalu panjang untuk SMF
+msg.phrase	TRK1	TRK1
+msg.phrase	SGNO TRACKER: incompatible SGX ABI\n	PELACAK SGNO: SGX ABI tidak kompatibel
+msg.phrase	5 Macro	5 Makro
+msg.phrase	6 Help	6 Bantuan
+msg.phrase	Run current	Jalankan saat ini
+msg.phrase	Run the macro at the cursor (#! header cell and the cells below it)	Jalankan makro di kursor (sel judul #! dan sel di bawahnya)
+msg.phrase	Run selection	Jalankan pilihan
+msg.phrase	Run the selected cells as one macro (top-left cell is the #! header)	Jalankan sel terpilih sebagai satu makro (sel kiri atas adalah judul #!)
+msg.phrase	Run all	Jalankan semua
+msg.phrase	Run every macro in the sheet, top-left to bottom-right	Jalankan semua makro di lembar, dari kiri atas ke kanan bawah
+msg.phrase	Last error	Kesalahan terakhir
+msg.phrase	Show the last macro error	Tampilkan kesalahan makro terakhir
+msg.phrase	Macro	Makro
+msg.phrase	Macro: run #!ruby / #!python / #!basic cells	Makro: jalankan sel #!ruby / #!python / #!basic
+msg.phrase	Edit the cell (F2)	Sunting sel (F2)
+msg.phrase	Fit widths/heights to the contents	Sesuaikan lebar/tinggi dengan isi
+msg.phrase	Last macro error	Kesalahan makro terakhir
+msg.phrase	No macro error.	Tidak ada kesalahan makro.
+msg.phrase	IME on	IME aktif
+msg.phrase	IME off	IME nonaktif
+msg.phrase	Macro: %s %s ...	Makro: %s %s ...
+msg.phrase	%s: this firmware cannot run macros (SGX ABI 5.10 or later)	%s: firmware ini tidak dapat menjalankan makro (SGX ABI 5.10 atau lebih baru)
+msg.phrase	Macro error: %s	Kesalahan makro: %s
+msg.phrase	Macro: %s done	Makro: %s selesai
+msg.phrase	a macro is already running	makro sudah berjalan
+msg.phrase	this language is not available	bahasa ini tidak tersedia
+msg.phrase	not enough memory	memori tidak cukup
+msg.phrase	the macro stopped with an error	makro berhenti karena kesalahan
+msg.phrase	Macro error %s: %s	Kesalahan makro %s: %s
+msg.phrase	Macro: not enough memory	Makro: memori tidak cukup
+msg.phrase	Macro: the cursor is not on a macro (a #!ruby / #!python / #!basic cell or the cells below it)	Makro: kursor tidak berada di makro (sel #!ruby / #!python / #!basic atau sel di bawahnya)
+msg.phrase	Macro: no macro in the sheet	Makro: tidak ada makro di lembar
+msg.phrase	Run all macros	Jalankan semua makro
+msg.phrase	Macros: %d. Run them all, top-left to bottom-right? Changes cannot be undone.	Makro: %d. Jalankan semua, dari kiri atas ke kanan bawah? Perubahan tidak dapat dibatalkan.
+msg.phrase	Macro: %d of %d done	Makro: %d selesai (dari %d)
+msg.phrase	Cleared the cell	Sel dibersihkan
+msg.phrase	Cleared the selection	Pilihan dibersihkan
+msg.phrase	Background colour = %d	Warna latar = %d
+msg.phrase	Text colour = %d	Warna teks = %d
+msg.phrase	Graph: line	Grafik: garis
+msg.phrase	Graph: bar	Grafik: batang
+msg.phrase	Graph: mixed	Grafik: campuran
+msg.phrase	Graph: pie	Grafik: pai
+msg.phrase	Exported %s	Diekspor %s
+msg.phrase	S: check: wait -- a file is being read or written	Pemeriksaan S:: tunggu -- berkas sedang dibaca atau ditulis
+msg.phrase	S: check: the drive is busy or not ready	Pemeriksaan S:: drive sibuk atau belum siap
+msg.phrase	nothing for this item (ContextMenu.cfg)	tidak ada untuk item ini (ContextMenu.cfg)
+msg.phrase	bad command in ContextMenu.cfg	perintah salah di ContextMenu.cfg
+msg.phrase	unknown action in ContextMenu.cfg	aksi tidak dikenal di ContextMenu.cfg
+msg.prefix	menu	menu
+msg.phrase	choose a file or folder	pilih berkas atau folder
+msg.phrase	this drive cannot be written	drive ini tidak bisa ditulisi
+msg.phrase	an archive job is already running	tugas arsip sedang berjalan
+msg.phrase	no PSRAM for the archive task	tidak ada PSRAM untuk tugas arsip
+msg.phrase	could not start the archive task	tidak bisa memulai tugas arsip
+msg.phrase	too many items (32 at most)	terlalu banyak item (maksimal 32)
+msg.phrase	nothing to compress	tidak ada yang dikompres
+msg.phrase	no name (or the name has / or \\)	tanpa nama (atau nama memuat / atau \\)
+msg.phrase	32 items at most (mark fewer, or put them in a folder)	maksimal 32 item (tandai lebih sedikit atau masukkan ke folder)
+msg.prefix	archive	arsip
+msg.prefix	compress	kompres
+msg.prefix	render	ekspor WAV

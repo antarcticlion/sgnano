@@ -1,0 +1,179 @@
+# Bahasa Indonesia — strings added since 2026-11-04 (machine translation, unreviewed; 2026-11-16)
+U004	Tandai semua / balik tanda (seperti PC-98 FD)
+U006	Tandai lalu lanjut / tandai saja
+U008	Pilih rentang (Spasi menandai rentang)
+U009	Masuk folder / buka berkas (F2/X jalankan)
+U012	Salin (Shift+C / Shift+F3 memilih tujuan dari pohon)
+U014	Hapus (Shift+D / Shift+F4 menghapus folder)
+U016	Ubah atribut
+U018	Lihat sebagai teks (Shift+V / Ctrl+Alt+F7 hex)
+U019	Informasi drive
+U020	Folder baru / berkas baru
+U021	Shell sgsh / keluarkan media
+U022	Muat ulang
+U023	Simpan layar sebagai PNG
+U024	Tutup jendela / hapus pilihan (di subfolder: naik)
+U025	Operasi berkas (seperti FD: tanda, lalu rentang, lalu kursor)
+U026	Salin: pilih tujuan dari pohon drive dan folder. ESC menghentikan
+U027	Hapus: konfirmasi dengan y. Tanda dan rentang sekaligus. Folder beserta isinya
+U028	Hapus folder (beserta isinya)
+U030	Atribut: R hanya baca, H tersembunyi, S sistem, A arsip
+U031	Folder baru
+U032	Berkas baru (kosong)
+U033	Lihat sebagai teks (Shift+V / Ctrl+Alt+F7 hex)
+U034	Shell sgsh (exit / Ctrl-D kembali ke pengelola berkas)
+U036	Keluarkan media FDD / LS-120 / CD
+U037	Muat ulang daftar (CD: dari TOC)
+U038	Terima dari PC lewat ZMODEM (zm.sh put)
+U039	Kirim ke PC lewat ZMODEM (zm.sh get)
+U041	REPL Ruby (satu baris sekali, Ctrl-D / ESC untuk selesai)
+U042	REPL MicroPython
+U043	Pecah menjadi bagian 4 MB / gabung dari .001
+U044	Pecah / gabung (sama dengan Ctrl+F11 / F12)
+U045	Layar (Alt+F, tidak bentrok dengan tombol F milik FD)
+U047	Halaman tampilan FB (0-3)
+U048	Bersihkan FB ke 0 / kurangi kecerahan setengah (RGB555)
+U050	Bersihkan halaman tampilan FB / kurangi kecerahan setengah
+U057	Periksa S: (bertanya sebelum memperbaiki)
+U061	Ekspor VGM/VGZ ke WAV 96 kHz / 24 bit
+U073	Editor (E / Shift+F8)
+U082	Shell (subset csh. exit / Ctrl-D kembali, help menampilkan perintah)
+U092	Periksa kesalahan drive S:
+U093	Berkas %lu  folder %lu
+U094	Ukuran tidak cocok dengan rantai
+U095	Klaster yang tidak dipakai apa pun
+U096	Klaster bertaut silang
+U097	Entri rusak
+U098	Dua salinan FAT berbeda
+U099	Tidak ada kesalahan.
+U100	Ditemukan kesalahan. Perbaiki?
+U101	Diperbaiki (angka di atas sudah dikoreksi).
+U102	Tidak dapat memeriksa atau memperbaiki (S: sibuk).
+U103	[ Perbaiki ]
+U104	[ Batal ]
+U112	Kunci %c: sebagai huruf apa? (A-Z kecuali S. ESC batal)
+U113	Drive  huruf / Enter pilih  F2 kunci/lepas huruf  F3 kunci sebagai...  L / ESC batal
+U114	  partisi %u
+U115	%c:* (terkunci, tidak tersambung) %04X:%04X%s  %s
+U135	2 Jalan
+U136	3 Salin
+U137	4 Hapus
+U138	5 Nama
+U139	7 BrsFB
+U140	8 RdpFB
+U141	9 Drive
+U142	10 EP
+U145	1 Atrib
+U146	2 Info
+U147	3 Pindah
+U148	5 Folder
+U149	6 Shell
+U150	8 Sunt
+U151	9 Lihat
+U152	10 S:prk
+U154	12 Ulang
+U172	10 ZMkrm
+U176	7 Hex
+U177	9 Lisens
+U178	11 Atur
+U179	Atur jam (waktu Jepang. NTP tidak dapat mengaturnya)
+U180	Jalankan dengan parameter
+U183	Waktu:
+U184	Jalankan:
+U186	YYYY-MM-DD hh:mm  Enter atur  ESC biarkan
+U187	Enter jalankan  <-> geser  BS / Del hapus  ESC batal
+U188	Enter ganti nama  <-> geser  BS / Del hapus  ESC batal
+U189	Enter buat  <-> geser  BS / Del hapus  ESC batal
+U191	 item
+U192	Folder dihapus beserta isinya. Anda yakin?
+U194	(Tidak dapat dibatalkan. Berkas di dalam folder juga dihapus)
+U206	2 Simpan
+U207	5 Warna
+U208	6 Hira
+U209	7 Kata
+U210	8 Pred
+U211	10 Kel
+U212	1 Awal
+U213	2 Akhir
+U214	3 InsTim
+U215	4 Kamus
+U216	6 HHira
+U217	7 HKata
+U229	 F5                            Pewarnaan (dari ekstensi; C/C++, mruby, MicroPython, SG BASIC, tidak ada)
+U236	                               Hiragana setengah lebar (Shift+F6) / katakana setengah lebar (Shift+F7)
+U242	       Shift+← → Perpendek/perpanjang ujung kanan frasa satu karakter (kandidat baru)
+U243	       ↑ ↓ / Tab               Kandidat sebelumnya / berikutnya di jendela (di bawah teks, di atas bila dekat dasar)
+U244	       Enter di →→→            Semua kandidat (2 x 8, ← → kolom dan halaman, Enter memilih)
+U245	       Enter                   Frasa berikutnya (pada yang terakhir mengonfirmasi semua)
+U247	 Shift+F1 / F2 / F3 / F4       Awal / akhir / sisip-timpa / ke kamus pengguna
+U250	Diubah  Y: simpan dan tutup  N: tutup tanpa menyimpan  ESC: kembali
+U251	[Prediksi] Tab/↑↓: kandidat  Spasi: konversi  Esc: batal
+U252	[Kandidat] ↑↓: pilih  ←→: kolom/halaman  Enter: ambil
+U253	[Konversi] ↑↓kand ←→frasa Shift+←→batas Enter lanjut
+U254	[한국어] Tab/↑↓: kandidat  Enter/Spasi: konfirmasi
+U255	[English] Tab/↑↓: kandidat  Enter: konfirmasi
+U256	Input Hangul 2 set  Ctrl-Space: alfanumerik
+U257	Pelengkapan prediktif  Ctrl-Space: input langsung
+U258	Tanpa kamus: hanya hiragana/katakana  F6/F7
+U259	Spasi: konversi  F7: katakana  Ctrl-Space: alfanumerik
+U260	Spasi: konversi  F6: hiragana  Ctrl-Space: alfanumerik
+U261	Setengah lebar  F6: hiragana  F7: katakana  Shift+F6/F7: setengah
+U262	IME mati
+U263	 prediksi
+U268	Pewarnaan: %s
+U276	Kandidat
+U295	Ubah pewarnaan (C/C++, mruby, MicroPython, SG BASIC, tidak ada)
+U309	 Dari: %s
+U310	 Ke: %s
+U329	 Spasi: jeda  m: MIDI OUT  q / ESC: hentikan
+M727	Pemeriksaan S:: tunggu -- berkas sedang dibaca atau ditulis
+M728	Pemeriksaan S:: drive sibuk atau belum siap
+M729	tidak ada untuk item ini (ContextMenu.cfg)
+M730	perintah salah di ContextMenu.cfg
+M731	aksi tidak dikenal di ContextMenu.cfg
+M732	menu
+# 2026-11-17: archive window, compress name field, WAV export window (machine translation, unreviewed)
+U342	Nama arsip (item yang ditandai, atau item di kursor jika tidak ada)
+U343	Enter kompres  ←→ geser  BS / Del hapus  ESC batal
+U344	Ekspor WAV: %s dibatalkan (%s)
+U345	Ekspor WAV: %s gagal (%s)
+U346	Ekspor WAV: %s total %s
+U347	 Ekspor WAV (96kHz / 24bit): %s
+U348	Dibatalkan
+U349	Gagal
+U350	 Total %s
+U351	 Dibatalkan (%s; berkas setengah jadi dihapus)
+U352	 Tidak bisa mengekspor (%s). Alasan:
+U353	 (alasan tidak diketahui)
+U354	 %u%%   berjalan %s%s
+U355	 ESC: hentikan (berkas setengah jadi dihapus)
+U356	Arsip: %s
+U357	Membaca... (ESC untuk batal)
+U358	 %u item%s  total %s byte  ekstrak ke: %s
+U359	 Enter ekstrak  X ekstrak semua  ↑↓ geser  ESC tutup
+U360	Kompres
+U361	Daftar
+U362	Ekstrak
+U363	 Total %s   %u item
+U364	 Total %s   %u berkas
+U365	 Dibatalkan (%s; berkas yang belum selesai dihapus)
+U366	 Tidak bisa (%s): %s
+U367	 %u%%   berjalan %s   %s byte%s
+U368	 berjalan %s   %s byte%s
+U369	 ESC: hentikan (berkas yang belum selesai dihapus)
+U370	Arsip: %s gagal (%s)
+U371	Dikompres: %s (%u item)
+U372	Diekstrak: %s (%u berkas)
+# 2026-11-17: archive / compress messages (machine translation, unreviewed)
+M733	pilih berkas atau folder
+M734	drive ini tidak bisa ditulisi
+M735	tugas arsip sedang berjalan
+M736	tidak ada PSRAM untuk tugas arsip
+M737	tidak bisa memulai tugas arsip
+M738	terlalu banyak item (maksimal 32)
+M739	tidak ada yang dikompres
+M740	tanpa nama (atau nama memuat / atau \\)
+M741	maksimal 32 item (tandai lebih sedikit atau masukkan ke folder)
+M742	arsip
+M743	kompres
+M744	ekspor WAV

@@ -1,0 +1,373 @@
+# sk: machine translation (Google), unreviewed; 2026-11-17
+U001	Zoznam (súbory a priečinky v 2 stĺpcoch x 19 riadkoch)
+U002	Presuňte kurzor (vľavo/vpravo: druhý stĺpec)
+U003	Predchádzajúca strana / nasledujúca strana
+U004	Označiť všetky / prevrátiť značky (ako v PC-98 FD)
+U005	Prvý/posledný
+U006	Označiť a ísť ďalej / iba označiť
+U007	Shift+šípky
+U008	Vyberte rozsah (medzerník označuje rozsah)
+U009	Zadajte priečinok / otvorte súbor (F2/X spustiť)
+U010	Až do nadradeného priečinka
+U011	Vyberte jednotku (USB, disketa, CD, S: vstavaná)
+U012	Kopírovať (Shift+C / Shift+F3 vyberie cieľ zo stromu)
+U013	Pohybujte sa
+U014	Odstrániť (Shift+D / Shift+F4 odstrániť priečinok)
+U015	Premenovať
+U016	Zmeňte atribúty
+U017	Otvoriť v editore
+U018	Zobraziť ako text (Shift+V / Ctrl+Alt+F7 hex)
+U019	Informácie o jazde
+U020	Nový priečinok / nový súbor
+U021	Shell sgsh / vysunúť médium
+U022	Znovu načítať
+U023	Uložte obrazovku ako PNG
+U024	Zatvorte okno / zrušte výber (v podpriečinku: ísť hore)
+U025	Operácie so súbormi (ako vo FD: značky, potom rozsah, potom kurzor)
+U026	Kopírovať: vyberte cieľ zo stromu disku a priečinkov. ESC sa zastaví
+U027	Vymazať: potvrďte pomocou y. Značky a rozsahy naraz. Priečinky s ich obsahom
+U028	Odstránenie priečinka (s jeho obsahom)
+U029	Premenovať (upraviť názov, Enter)
+U030	Atribúty: R len na čítanie, H skrytý, S systém, A archív
+U031	Nový priečinok
+U032	Nový (prázdny) súbor
+U033	Zobraziť ako text (Shift+V / Ctrl+Alt+F7 hex)
+U034	Shell sgsh (ukončenie / Ctrl-D späť do súboru)
+U035	Identita disku (PÝTAJTE SA, IDENTIFIKUJTE)
+U036	Vysuňte médium FDD / LS-120 / CD
+U037	Znovu načítajte zoznam (CD: z obsahu)
+U038	Príjem z PC pomocou ZMODEM (zm.sh put)
+U039	Odoslať do počítača pomocou ZMODEM (získať zm.sh)
+U040	Zostavte .rb a napíšte .mrb
+U041	Ruby REPL (jeden riadok po druhom, Ctrl-D / ESC na koniec)
+U042	MicroPython REPL
+U043	Rozdelenie na 4 MB časti / spojenie od 0,001
+U044	Rozdelenie / spojenie (rovnaké ako Ctrl+F11 / F12)
+U045	Obrazovka (Alt+F, nekoliduje s klávesmi FD F)
+U046	Zobraziť / skryť FB (obrázok) / text
+U047	FB zobrazenie stránky (0-3)
+U048	Vymazať FB na 0 / znížiť jeho jas na polovicu (RGB555)
+U049	Koncové body USB a stav siete LAN
+U050	Vymazať FB zobrazovaciu stránku / znížiť jej jas na polovicu
+U051	Vzory textových atribútov
+U052	Monitorovať EDID (čítať pri štarte)
+U053	Licencie a kredity ROM pre písma
+U054	Nastavenia (jazyk zobrazenia, editor IME a miestne nastavenie klávesnice)
+U055	Hodiny (čas v Japonsku nastavený pomocou NTP; synchronizuje sa teraz)
+U056	Otvoriť tabuľku (SGCALC)
+U057	Skontrolujte chyby S: (spýta sa pred opravou)
+U058	Otvorte TRACKER
+U059	Reštartovať (spýta sa najskôr)
+U060	Prehrajte stereo vstup ADC (GP40 / 41)
+U061	Exportujte VGM/VGZ do 96 kHz / 24-bit WAV
+U062	Táto pomoc
+U063	Zmeňte stránku
+U064	Zavrieť
+U065	Textový / hexadecimálny prehliadač (ako menej)
+U066	Jeden riadok
+U067	Jedna strana
+U068	Pol strany
+U069	Hľadať (dopredu/dozadu)/nasledujúce/predchádzajúce
+U070	Späť na zoznam (F1: pomoc pre diváka)
+U071	Prehliadač obrázkov
+U072	Späť na zoznam (F2 F3 F6 F7 Shift+F2 F3 práca)
+U073	Editor (E / Shift+F8)
+U074	Uložiť (UTF-8; konce riadkov a kusovník ponechaný)
+U075	Zatvoriť (ak sa zmení: ÁNO / N / ESC)
+U076	Vložiť / prepísať
+U077	Zapnutie/vypnutie editora IME (japončina / angličtina / kórejčina)
+U078	Jazyk editora IME (japončina / angličtina / kórejčina)
+U079	Zaviazať sa ako hiragana / katakana
+U080	Pomoc redaktora
+U081	Shell
+U082	Shell (podmnožina csh. exit / Ctrl-D na návrat, pomoc obsahuje zoznam príkazov)
+U083	Zoznam a pohyb
+U084	Operácie so súbormi
+U085	Obrazovka a zariadenia
+U086	Diváci a redaktor
+U087	Pomocník %u / %u %s
+U088	Vľavo Vpravo: zmena stránky F1 / ESC: zatvorenie
+U089	Reštartovať sgnano?
+U090	[ Reštartovať ]
+U091	[ Zrušiť ]
+U092	Skontrolujte, či disk S: neobsahuje chyby
+U093	Súbory %lu priečinky %lu
+U094	Veľkosť nezodpovedá retiazke
+U095	Klastre používané ničím
+U096	Zosieťované klastre
+U097	Pokazené záznamy
+U098	Dve kópie FAT sa líšia
+U099	Žiadne chyby.
+U100	Našli sa chyby. Opraviť ich?
+U101	Opravené (vyššie uvedené čísla boli opravené).
+U102	Nepodarilo sa skontrolovať alebo opraviť (S: je zaneprázdnený).
+U103	[ Oprava ]
+U104	[ Zrušiť ]
+U105	Ktorýkoľvek kľúč sa zatvorí
+U106	Nastavenia
+U107	Jazyk zobrazenia
+U108	Miestne nastavenie klávesnice
+U109	Hore / Dole Enter vyberte ESC zrušiť
+U110	Jazyk zobrazenia
+U111	Hore / Dole Enter: nastavenie ESC: späť
+U112	Oprava %c: ako ktoré písmeno? (A-Z okrem S. ESC sa ruší)
+U113	Písmeno jednotky / Enter vybrať F2 opraviť/odfixovať písmeno F3 opraviť ako... L / ESC zrušiť
+U114	oddiel %u
+U115	%c:* (pevné, nepripojené) %04X:%04X%s %s
+U116	Všimnite si
+U117	Pohon %c: %s
+U118	Jazdiť (žiadne)
+U119	Audio CD %u skladby
+U120	Priečinky %u súbory %u celkom %s
+U121	Čítanie...
+U122	* označené %u %s
+U123	%lu bajtov
+U124	Attr %s upravený %s vytvorený %s %s
+U125	Slnko
+U126	Po
+U127	Ut
+U128	St
+U129	Št
+U130	Pia
+U131	So
+U132	Nie sú nastavené hodiny (NTP cez LAN)
+U133	FB displej %u písať %u
+U134	1 Pomocník
+U135	2 Spustite
+U136	3 Kopírovať
+U137	4 Del
+U138	5 Premenovať
+U139	7 FBClr
+U140	8 FBdim
+U141	9 Jazdite
+U142	10 EP
+U143	11 Hodiny
+U144	12 CALC
+U145	1 Attr
+U146	2 Informácie
+U147	3 Presuňte sa
+U148	5 Mkdir
+U149	6 Škrupina
+U150	8 Upraviť
+U151	9 Zobraziť
+U152	10 S:chk
+U153	11 SKLADBA
+U154	12 Reštartujte
+U155	1 Nové
+U156	2 Priečinok
+U157	3 Premenovať
+U158	4 Attrib
+U159	6 Kopírovať
+U160	7 Presuňte sa
+U161	8 Vymazať
+U162	9 Upraviť
+U163	10 mrbc
+U164	11 Rozdeliť
+U165	12 Pripojte sa
+U166	1 Attrs
+U167	2 FB
+U168	3 Text
+U169	5 ScrSht
+U170	6 DispPg
+U171	9 ZMrecv
+U172	10ZModoslať
+U173	2 FBClr
+U174	3 FBDim
+U175	5 Znovu nabite
+U176	7 Hex
+U177	9 Lic
+U178	11 Nastavenie
+U179	Nastavte hodiny (Japonský čas. NTP ho nedokázalo nastaviť)
+U180	Spustite s parametrami
+U181	Nový priečinok
+U182	Nový súbor
+U183	čas:
+U184	Spustiť:
+U185	meno:
+U186	RRRR-MM-DD hh:mm Zadajte nastavenie udržania ESC
+U187	Enter run <-> move BS / Del delete ESC cancel
+U188	Zadajte premenovať <-> presunúť BS / Del vymazať ESC zrušiť
+U189	Enter create <-> move BS / Del delete ESC cancel
+U190	Odstrániť
+U191	položky
+U192	Priečinky sa vymažú aj s ich obsahom. si si istý?
+U193	Odstrániť tento súbor?
+U194	(Toto sa nedá vrátiť späť. Odstránia sa aj súbory v priečinkoch)
+U195	[Áno (Y)]
+U196	[Nie (N)]
+U197	hex prehliadač: vyberte súbor
+U198	textový prehliadač: vyberte súbor
+U199	Presunúť do
+U200	Kopírovať do
+U201	Buffer je plný
+U202	Jednotka je len na čítanie
+U203	Nedá sa uložiť (žiadny spisovateľ)
+U204	Nepodarilo sa spustiť ukladanie (disk je zaneprázdnený?)
+U205	Ukladá sa...
+U206	2 Uložiť
+U207	5 Farba
+U208	6 Hira
+U209	7 Kata
+U210	8 Pred
+U211	10 Ukončite
+U212	1 Hore
+U213	2 Koniec
+U214	3 InsOvr
+U215	4 Dikt
+U216	6 HHira
+U217	7 HKata
+U218	%s %s Ln %lu/%lu Col %u %s %s %s%s%s
+U219	*mod
+U220	OVR
+U221	INS
+U222	R/O
+U223	Editor (sgnano edit) F1 / ESC sa zatvorí
+U224	Šípky / Home End / PgUp PgDn pohyb kurzora
+U225	Ctrl-T / Ctrl-B začiatok / koniec súboru
+U226	BS / Vymazať pred / pri kurzore
+U227	Zadajte nový riadok (zachováva zarážku)
+U228	Karta / karta Ins / vložiť alebo prepísať
+U229	Farbenie F5 (z rozšírenia; C/C++, mruby, MicroPython, SG BASIC, žiadne)
+U230	F2 (Ctrl-S) uložiť (UTF-8, konce riadkov zachované)
+U231	F10 / ESC zavrieť (opýta sa, či sa zmenilo)
+U232	IME: Ctrl-Medzerník / F12 zapnuté / vypnuté (あ / A)
+U233	Jazyk editora F9 (iba tento editor; obnovený po zatvorení)
+U234	F8 Zapnutie/vypnutie japonskej prediktívnej konverzie
+U235	Japonské romaji -> hiragana (F6) / katakana (F7)
+U236	Hiragana polovičnej šírky (Shift+F6) / katakana polovičnej šírky (Shift+F7)
+U237	Predpovedajte s 2 alebo viacerými znakmi, konvertujte súvislú vetu na medzeru
+U238	Anglické prediktívne dokončenie s 2 alebo viacerými znakmi
+U239	한국어 2 Hangul v štýle Bol
+U240	Medzerník / Enter Konvertovať / Potvrdiť
+U241	← → Vyberte frázu
+U242	Shift+← → Zmenšenie/zväčšenie pravého konca vety o jeden znak (noví kandidáti)
+U243	↑ ↓ / Karta Predchádzajúci / ďalší kandidát vo vyskakovacom okne (pod textom, nad v dolnej časti)
+U244	Zadajte →→→ Všetci kandidáti (2 x 8, ← → stĺpec a strana, výber Enter)
+U245	Zadajte ďalšiu klauzulu (potvrdzuje celú klauzulu v poslednej vete)
+U246	Ctrl-U Pridať aktuálne slovo do používateľského slovníka
+U247	Shift+F1 / F2 / F3 / F4 Hore / Koniec / vložiť-prepísať / do používateľského slovníka
+U248	BS / ESC Späť o jeden znak / Zrušiť
+U249	, . - [ ] / 、 。 ー 「 」 ・
+U250	Upravené Y: uloženie a zatvorenie N: zatvorenie bez uloženia ESC: späť
+U251	[Predpoveď] Tab/↑↓: kandidát Medzera: konvertovať Esc: zrušiť
+U252	[Kandidáti] ↑↓: vybrať ←→: stĺpec/strana Enter: vybrať
+U253	[Konvertovať] ↑↓cand ←→klauzula Shift+←→viazané Enter ďalej
+U254	[한국어] Tab/↑↓: kandidát Enter/medzerník: potvrdiť
+U255	[Angličtina] Tab/↑↓: kandidát Zadať: potvrdiť
+U256	2-sada Hangul vstup Ctrl-Space: alfanumerický
+U257	Prediktívne dokončenie Ctrl-Space: priamy vstup
+U258	Žiadny slovník: hiragana/katakana iba F6/F7
+U259	Medzerník: prevod F7: katakana Ctrl-medzerník: alfanumerický
+U260	Medzerník: prevod F6: hiragana Ctrl-medzerník: alfanumerický
+U261	Polovičná šírka F6: hiragana F7: katakana Shift+F6/F7: polovičná
+U262	IME je vypnuté
+U263	predpovedať
+U264	Prediktívny japonský preklad: On
+U265	Prediktívny preklad do japončiny: Vyp
+U266	Používajte s japonským editorom IME
+U267	Nedá sa pridať do používateľského slovníka
+U268	Sfarbenie: %s
+U269	Načítava sa...
+U270	Súbor sa nepodarilo prečítať
+U271	%lu čiar%s%s
+U272	otvorený Shift_JIS ako UTF-8 (uložený ako UTF-8)
+U273	len na čítanie
+U274	Uložené
+U275	Nepodarilo sa uložiť (zápis zlyhal)
+U276	Kandidáti
+U277	7 WrtPg
+U278	9 Text
+U279	9 Hex
+U280	Načítava sa %lu%%
+U281	(iba začiatok)
+U282	Hex q ESC: späť F1: pomoc
+U283	Text q ESC: späť F1: pomoc
+U284	Klávesy prehliadača (napríklad menej; rovnaké pre text a šestnástkové číslo)
+U285	O jeden riadok nižšie
+U286	Jeden riadok hore
+U287	O stránku nižšie
+U288	O stránku vyššie
+U289	Pol strany dole/nahor
+U290	/text ?text
+U291	Hľadať nadol/nahor (ignoruje malé a veľké písmená)
+U292	Nasledujúci / predchádzajúci zápas
+U293	Zobraziť ako hex (na rovnakom mieste)
+U294	Zobraziť ako text (na rovnakom mieste)
+U295	Zmeňte sfarbenie (C/C++, mruby, MicroPython, SG BASIC, žiadne)
+U296	Zobraziť / skryť FB / text
+U297	FB zobrazenie stránky / stránka na písanie
+U298	Späť k fileru
+U299	Zatvorte túto pomoc
+U300	Kopírovať
+U301	%s: čítanie priečinkov... %u
+U302	%s: počítanie voľného miesta v cieli...
+U303	%s: nedostatok voľného miesta v cieli
+U304	Presunúť: odstránenie zdrojových priečinkov
+U305	Hotovo
+U306	Zastavené
+U307	%s prebieha%s
+U308	(zastavenie)
+U309	Od: %s
+U310	Komu: %s
+U311	Súbory %u / %u priečinky %u %s / %s (%u%%)%s
+U312	príliš veľa: iba niektoré
+U313	Potreba %s, zadarmo %s. Pokračovať?
+U314	Y: pokračovať N / ESC: zrušiť
+U315	Zatvorte stlačením ľubovoľného klávesu
+U316	ESC: stop
+U317	%s: ←→ jednotka ↑↓ priečinok Priestor otvoriť/zatvoriť Enter vyberte ESC zrušiť
+U318	Nedá sa prečítať: %s
+U319	Čítanie priečinkov... (ESC sa zastaví) %u
+U320	%u priečinky%s
+U321	(príliš veľa alebo príliš hlboké: iba niektoré)
+U322	Otváranie priečinka sa zastavilo
+U323	Priestor to opäť otvára. ESC ešte raz zruší
+U324	Prehrávač SMF/SGT %s
+U325	Načítavam... %lu / %lu bajtov
+U326	%s / %s %s porty %u
+U327	Pozastavené
+U328	Prehrávanie
+U329	Medzera: pauza m: MIDI OUT q / ESC: zastavenie
+U330	q / ESC: zrušiť
+U331	Licencie a kredity ROM pre písma\n\nROM: %s (verzia %lu.%lu, %lu znakov, z 0x%08lX vo flashi)
+U332	== Písma v ROM (tabuľka pôvodu ROM) ==
+U333	(ROM nemá tabuľku)
+U334	== Oblasť kreditov ROM ==
+U335	(žiadna taká oblasť)
+U336	== Licencie vstavaného softvéru ==
+U337	Ukladá sa %s ako PNG %s
+U338	Obrazovka
+U339	Budova... %lu / %lu riadkov
+U340	Píšem... %lu / %lu KB (FB je skrytý)
+U341	Nedalo sa písať
+U342	Názov archívu (označené položky alebo kurzorová položka, ak žiadna)
+U343	Zadajte komprimovať ←→ presunúť BS / Del vymazať ESC zrušiť
+U344	Export WAV: %s zrušený (%s)
+U345	Export WAV: %s zlyhal (%s)
+U346	Export WAV: %s celkom %s
+U347	Export do WAV (96kHz / 24bit): %s
+U348	Zrušené
+U349	Nepodarilo sa
+U350	Celkom %s
+U351	Zrušené (%s; čiastočný súbor bol odstránený)
+U352	Nepodarilo sa exportovať (%s). dôvod:
+U353	(dôvod neznámy)
+U354	%u%% uplynulo %s%s
+U355	ESC: stop (vymaže sa čiastočný súbor)
+U356	Archív: %s
+U357	Čítam... (ESC na zrušenie)
+U358	%u položiek%s celkom %s bajtov extrahovať do: %s
+U359	Zadajte extrahovať položku X extrahovať všetko ↑↓ presunúť ESC zavrieť
+U360	Komprimovať
+U361	Zoznam
+U362	Extrakt
+U363	Celkom %s %u položiek
+U364	Celkom %s %u súborov
+U365	Zrušené (%s; nedokončený súbor bol odstránený)
+U366	Nepodarilo sa to (%s): %s
+U367	%u%% uplynutých %s %s bajtov%s
+U368	uplynutých %s %s bajtov%s
+U369	ESC: stop (nedokončený súbor sa vymaže)
+U370	Archív: %s zlyhal (%s)
+U371	Komprimované: %s (%u položiek)
+U372	Extrahované: %s (%u súbory)

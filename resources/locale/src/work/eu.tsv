@@ -1,0 +1,373 @@
+# eu: machine translation (Google), unreviewed; 2026-11-17
+U001	Zerrenda (fitxategiak eta karpetak 2 zutabetan x 19 errenkadetan)
+U002	Mugitu kurtsorea (ezkerrera / eskuinera: beste zutabea)
+U003	Aurreko orrialdea / hurrengo orrialdea
+U004	Mark guztiak / alderantzikatu markak (PC-98 FD-n bezala)
+U005	Lehena/azkena
+U006	Markatu eta aurrera egin / bakarrik markatu
+U007	Maius + Geziak
+U008	Hautatu barruti bat (Zuneak barrutia markatzen du)
+U009	Sartu karpeta bat / ireki fitxategi bat (F2/X run)
+U010	Karpeta nagusira arte
+U011	Aukeratu unitate bat (USB, diskete, CD, S: integratua)
+U012	Kopiatu (Maius+C / Maius+F3 zuhaitzetik helmuga hautatzen du)
+U013	Mugitu
+U014	Ezabatu (Maius+D / Maius+F4 karpeta bat ezabatu)
+U015	Aldatu izena
+U016	Aldatu atributuak
+U017	Ireki editorean
+U018	Ikusi testu gisa (Maius+V / Ctrl+Alt+F7 hex)
+U019	Gidatzeko informazioa
+U020	Karpeta berria / fitxategi berria
+U021	Shell sgsh / kanporatu euskarria
+U022	Berriz kargatu
+U023	Gorde pantaila PNG gisa
+U024	Itxi leihoa / garbitu hautapena (azpikarpeta batean: igo)
+U025	Fitxategien eragiketak (FDn bezala: markak, gero barrutia, gero kurtsorea)
+U026	Kopiatu: hautatu helmuga diskoaren eta karpeten zuhaitzetik. ESC gelditzen da
+U027	Ezabatu: berretsi y-rekin. Markak eta barrutiak aldi berean. Karpetak euren edukiarekin
+U028	Ezabatu karpeta bat (bere edukiarekin)
+U029	Aldatu izena (editatu izena, Sartu)
+U030	Atributuak: R irakurtzeko soilik, H ezkutua, S sistema, A artxiboa
+U031	Karpeta berria
+U032	Fitxategi berria (hutsik).
+U033	Ikusi testu gisa (Maius+V / Ctrl+Alt+F7 hex)
+U034	Shell sgsh (irten / Ctrl-D itzuli fitxategira)
+U035	Unitatearen identitatea (CONTESTA, IDENTIFIKATU)
+U036	Atera FDD / LS-120 / CD euskarria
+U037	Berriz kargatu zerrenda (CDa: TOCtik)
+U038	PCtik jaso ZMODEM bidez (zm.sh jarri)
+U039	Bidali PCra ZMODEM bidez (zm.sh get)
+U040	Konpilatu .rb eta idatzi .mrb
+U041	Ruby REPL (lerro bat aldi berean, Ctrl-D / ESC amaitzeko)
+U042	MicroPython REPL
+U043	Zatitu 4 MB zatitan / batu .001-tik
+U044	Zatitu / elkartu (Ktrl+F11 / F12 bezala)
+U045	Pantaila (Alt+F, ez du talka egiten FD F teklak)
+U046	Erakutsi / ezkutatu FB (irudia) / testua
+U047	FB bistaratzeko orria (0-3)
+U048	Garbitu FBa 0ra / erdira murriztu bere distira (RGB555)
+U049	USB amaierako puntuak eta LAN egoera
+U050	Garbitu FB pantaila orria / erdira murriztu bere distira
+U051	Testu-atributuen laginak
+U052	Monitoreatu EDID (abiaraztean irakurri)
+U053	Font ROM lizentziak eta kredituak
+U054	Ezarpenak (bistaratzeko hizkuntza, IME eta teklatuaren lokalizazioa)
+U055	Erlojua (Japoniako ordua NTPk ezarrita; s sinkronizatzen da orain)
+U056	Ireki kalkulu-orria (SGCALC)
+U057	Egiaztatu S: akatsak ikusteko (galdetzen du konpondu aurretik)
+U058	Ireki TRACKER
+U059	Berrabiarazi (galdetzen du lehenik)
+U060	Erreproduzitu ADC sarrera estereoa (GP40 / 41)
+U061	Esportatu VGM/VGZ 96 kHz/24 biteko WAV batera
+U062	Laguntza hau
+U063	Aldatu orria
+U064	Itxi
+U065	Testu/hex ikuslea (gutxiago bezala)
+U066	Lerro bat
+U067	Orrialde bat
+U068	Orri erdi bat
+U069	Bilatu (aurrera / atzera) / hurrengo / aurreko
+U070	Itzuli zerrendara (F1: ikuslearen laguntza)
+U071	Irudien ikuslea
+U072	Itzuli zerrendara (F2 F3 F6 F7 Maius+F2 F3 lana)
+U073	Editorea (E/Maius+F8)
+U074	Gorde (UTF-8; lerro amaierak eta BOM mantendu)
+U075	Itxi (aldatu bada: Y / N / ESC)
+U076	Txertatu / gainidatzi
+U077	IME aktibatu/desaktibatu (japoniera/ingelesa/koreera)
+U078	IME hizkuntza (japoniera / ingelesa / koreera)
+U079	Konprometitu hiragana / katakana gisa
+U080	Editorearen laguntza
+U081	Maskorra
+U082	Shell (csh azpimultzo bat. Irten / Ctrl-D itzultzeko, laguntza komandoak zerrendatzen ditu)
+U083	Zerrenda eta mugitzea
+U084	Fitxategien eragiketak
+U085	Pantaila eta gailuak
+U086	Ikusleak eta editorea
+U087	Laguntza %u / %u %s
+U088	Ezker Eskuin: orria aldatu F1 / ESC: itxi
+U089	Sgnano berrabiarazi?
+U090	[Berrabiarazi]
+U091	[ Utzi ]
+U092	Egiaztatu S: diskoan akatsak dauden
+U093	Fitxategiak %lu karpetak %lu
+U094	Tamaina ez dator bat katearekin
+U095	Ezer erabiltzen dituen klusterrak
+U096	Gurutzatutako klusterrak
+U097	Hautsitako sarrerak
+U098	Bi FAT kopiak desberdinak dira
+U099	Akatsik ez.
+U100	Akatsak aurkitu dira. Konpontzea?
+U101	Konponduta (goiko zenbakiak konponduta zeuden).
+U102	Ezin izan da egiaztatu edo konpondu (S: lanpetuta dago).
+U103	[Konponketa]
+U104	[ Utzi ]
+U105	Edozein giltza ixten da
+U106	Ezarpenak
+U107	Bistaratzeko hizkuntza
+U108	Teklatuaren lokalizazioa
+U109	Gora / Behera Sartu aukeratu ESC ezeztatu
+U110	Bistaratzeko hizkuntza
+U111	Gora / Behera Sartu: ezarri ESC: atzera
+U112	Konpondu %c: zein letra gisa? (A-Z S. ESC ezeztatu ezik)
+U113	Gidatzeko letra / Sartu hautatu F2 konpondu/deskonpondu F3 letra konpondu gisa... L / ESC ezeztatu
+U114	zatiketa %u
+U115	%c:* (finkoa, ez konektatuta) %04X:%04X%s %s
+U116	Oharra
+U117	Gida %c: %s
+U118	Gidatu (bat ere ez)
+U119	Audio CD %u pistak
+U120	Karpetak %u fitxategiak %u guztira %s
+U121	Irakurtzen...
+U122	* markatua %u %s
+U123	%lu byte
+U124	Attr %s aldatu %s sortu %s %s
+U125	Eguzkia
+U126	al
+U127	mar
+U128	az
+U129	og
+U130	or
+U131	Lar
+U132	Erlojua ez dago ezarrita (NTP LAN bidez)
+U133	FB pantaila %u idatzi %u
+U134	1 Laguntza
+U135	2 Korrika
+U136	3 Kopiatu
+U137	4 Del
+U138	5 Aldatu izena
+U139	7 FBclr
+U140	8 FBdim
+U141	9 Gidatu
+U142	10 EP
+U143	11 Erlojua
+U144	12 CALC
+U145	1 Atr
+U146	2 Info
+U147	3 Mugitu
+U148	5 Mkdir
+U149	6 Maskorra
+U150	8 Editatu
+U151	9 Ikusi
+U152	10 S:chk
+U153	11 PISTA
+U154	12 Berrabiarazi
+U155	1 Berria
+U156	2 Karpeta
+U157	3 Aldatu izena
+U158	4 Atrib
+U159	6 Kopiatu
+U160	7 Mugitu
+U161	8 Ezabatu
+U162	9 Editatu
+U163	10 mrbc
+U164	11 Zatitu
+U165	12 Sartu
+U166	1 Erak
+U167	2 FB
+U168	3 Testua
+U169	5 ScrSht
+U170	6 Agerraldia
+U171	9 ZMrecv
+U172	10ZMbidali
+U173	2 FBClr
+U174	3 FBDim
+U175	5 Berriz kargatu
+U176	7 Hex
+U177	9 Lik
+U178	11 Konfigurazioa
+U179	Ezarri erlojua (Japoniako ordua. NTP-k ezin izan du ezarri)
+U180	Exekutatu parametroekin
+U181	Karpeta berria
+U182	Fitxategi berria
+U183	Ordua:
+U184	Korrika:
+U185	Izena:
+U186	YYYY-MM-DD hh:mm Sartu ezarri ESC keep
+U187	Sartu run <-> mugitu BS / Ezabatu ezabatu ESC bertan behera
+U188	Sartu aldatu izena <-> mugitu BS / Ezabatu ezabatu ESC bertan behera
+U189	Sartu sortu <-> mugitu BS / Ezabatu ezabatu ESC ezeztatu
+U190	Ezabatu
+U191	elementuak
+U192	Karpetak euren edukiarekin ezabatzen dira. Ziur al zaude?
+U193	Fitxategi hau ezabatu?
+U194	(Ezin da desegin. Karpetetako fitxategiak ere ezabatzen dira)
+U195	[Bai (Y)]
+U196	[Ez (N)]
+U197	hex ikuslea: aukeratu fitxategi bat
+U198	testu-ikustailea: aukeratu fitxategi bat
+U199	Mugitu hona
+U200	Kopiatu hona
+U201	Buffer-a beteta dago
+U202	Unitatea irakurtzeko soilik da
+U203	Ezin da gorde (idazlerik gabe)
+U204	Ezin izan da gordetzen hasi (unitatea okupatuta dago?)
+U205	Gordetzen...
+U206	2 Gorde
+U207	5 Kolorea
+U208	6 Hira
+U209	7 Kata
+U210	8 Pred
+U211	10 Irten
+U212	1 Goia
+U213	2 Amaiera
+U214	3 InsOvr
+U215	4 Dik
+U216	6 HHira
+U217	7 HKata
+U218	%s %s Ln %lu/%lu Col %u %s %s %s%s%s
+U219	*mod
+U220	OVR
+U221	INS
+U222	R/O
+U223	Editor (sgnano edit) F1 / ESC ixten da
+U224	Geziak / Hasiera Amaiera / PgUp PgDn mugitu kurtsorea
+U225	Ktrl-T / Ctrl-B fitxategiaren goiko / amaieran
+U226	BS / Ezabatu aurretik / kurtsorean
+U227	Sartu lerro berria (koska mantentzen du)
+U228	Fitxa / Ins fitxa / txertatu edo gainidatzi
+U229	F5 koloreztatzea (luzapenetik; C/C++, mruby, MicroPython, SG BASIC, bat ere ez)
+U230	F2 (Ktrl-S) gorde (UTF-8, lerro amaierak mantendu)
+U231	F10 / ESC itxi (aldatu den galdetzen du)
+U232	IME: Ctrl-Space / F12 aktibatu / desaktibatu (あ / A)
+U233	F9 IME hizkuntza (editore hau soilik; itxitakoan leheneratu da)
+U234	F8 Japoniako bihurketa prediktiboa aktibatu/desaktibatu
+U235	Japoniako romaji -> hiragana (F6) / katakana (F7)
+U236	Zabalera erdiko hiragana (Maius+F6) / Zabalera erdiko katakana (Maius+F7)
+U237	Aurreikusi 2 karaktere edo gehiagorekin, bihurtu esaldi jarraitua zuriunearekin
+U238	Ingelesa 2 karaktere edo gehiagorekin osatze iragarlea
+U239	한국어 2 Bol estiloko Hangul
+U240	Zuriunea / Sartu Bihurtu / Berretsi
+U241	← → Hautatu esaldi bat
+U242	Maius+← → Txikitu/hazi esaldiaren eskuineko muturra karaktere batez (hautagai berriak)
+U243	↑ ↓ / Tab Aurrekoa / hurrengo hautagaia laster-leihoan (testuaren azpian, behealdean goian)
+U244	Sartu →→→ Hautagai guztiak (2 x 8, ← → zutabea eta orrialdea, Sartu aukeratzen du)
+U245	Sartu hurrengo klausula (azken klausulan osoa berresten du)
+U246	Ktrl-U Gehitu uneko hitza erabiltzailearen hiztegira
+U247	Maius+F1 / F2 / F3 / F4 Goia / amaiera / txertatu-gainidatzi / erabiltzailearen hiztegira
+U248	BS / ESC Karaktere bat atzera egin / Utzi
+U249	, . - [ ] / 、 。 ー 「 」 ・
+U250	Aldatutako Y: gorde eta itxi N: itxi ESC gorde gabe: atzera
+U251	[Iragarpena] Tab/↑↓: hautagaia Zuriunea: bihurtu Esc: ezeztatu
+U252	[Hautagaiak] ↑↓: hautatu ←→: zutabea/orria Sartu: aukeratu
+U253	[Bihurtu] ↑↓cand ←→maius klausula+←→lotuta Sartu hurrengoa
+U254	[한국어] Fitxa/↑↓: hautagaia Sartu/Zunea: berretsi
+U255	[Ingelesa] Fitxa/↑↓: hautagaia Sartu: berretsi
+U256	2 multzoko Hangul sarrera Ctrl-Space: alfanumerikoa
+U257	Osaketa prediktiboa Ctrl-Space: sarrera zuzena
+U258	Hiztegirik ez: hiragana/katakana bakarrik F6/F7
+U259	Zuriunea: bihurtu F7: katakana Ctrl-Space: alfanumerikoa
+U260	Zuriunea: bihurtu F6: hiragana Ctrl-Space: alfanumerikoa
+U261	Zabalera erdia F6: hiragana F7: katakana Shift+F6/F7: erdia
+U262	IME desaktibatuta
+U263	igarri
+U264	Japonierazko itzulpen prediktiboa: On
+U265	Japonierarako itzulpen prediktiboa: Off
+U266	Erabili Japoniako IME-rekin
+U267	Ezin da gehitu erabiltzailearen hiztegira
+U268	Koloreztatzen: %s
+U269	Kargatzen...
+U270	Ezin izan da fitxategia irakurri
+U271	%lu lerroak%s%s
+U272	Shift_JIS ireki zen UTF-8 gisa (UTF-8 gisa gordeta)
+U273	irakurtzeko soilik
+U274	Gorde
+U275	Ezin izan da gorde (huts egin du idazketak)
+U276	Hautagaiak
+U277	7 WrtPg
+U278	9 Testua
+U279	9 Hex
+U280	Kargatzen %lu%%
+U281	(hasiera bakarrik)
+U282	Hex q ESC: atzera F1: laguntza
+U283	Testua q ESC: atzera F1: laguntza
+U284	Ikuslearen teklak (gutxiago bezala; berdina testua eta hex.)
+U285	Lerro bat behera
+U286	Ilara bat
+U287	Orrialde bat behera
+U288	Orrialde bat gora
+U289	Orri erdi bat behera / gora
+U290	/testua ?testua
+U291	Bilatu behera/gora (maiskulak eta minuskulak baztertzen ditu)
+U292	Hurrengo/aurreko partida
+U293	Erakutsi hex gisa (leku berean)
+U294	Erakutsi testu gisa (leku berean)
+U295	Aldatu kolorea (C/C++, mruby, MicroPython, SG BASIC, bat ere ez)
+U296	Erakutsi / ezkutatu FB / testua
+U297	FB bistaratzeko orria / idazteko orria
+U298	Itzuli fitxategira
+U299	Itxi laguntza hau
+U300	Kopiatu
+U301	%s: karpetak irakurtzen... %u
+U302	%s: helmugan dagoen espazio librea zenbatzea...
+U303	%s: helmugan ez dago leku libre nahikorik
+U304	Mugitu: iturburuko karpetak kentzea
+U305	Eginda
+U306	Gelditu
+U307	%s martxan%s
+U308	(gelditu)
+U309	Nork: %s
+U310	Nori: %s
+U311	Fitxategiak %u / %u karpetak %u %s / %s (%u%%)%s
+U312	gehiegi: batzuk bakarrik
+U313	Beharrak %s, doakoak %s. Jarraitu nahi duzu?
+U314	Y: jarraitu N / ESC: ezeztatu
+U315	Sakatu edozein tekla ixteko
+U316	ESC: gelditu
+U317	%s: ←→ disko ↑↓ karpeta Espazioa ireki/itxi Sartu aukeratu ESC bertan behera
+U318	Ezin da irakurri: %s
+U319	Karpetak irakurtzen... (ESC gelditzen da) %u
+U320	%u karpetak%s
+U321	(gehiegi edo sakonegia: batzuk bakarrik)
+U322	Karpeta irekitzeari utzi dio
+U323	Espazioak berriro irekitzen du. ESCk berriro ere bertan behera uzten du
+U324	SMF / SGT erreproduzitzailea %s
+U325	Kargatzen... %lu / %lu byte
+U326	%s / %s %s atakak %u
+U327	Pausatuta
+U328	Jolasean
+U329	Espazioa: pausa m: MIDI OUT q / ESC: gelditu
+U330	q / ESC: ezeztatu
+U331	Font ROM lizentziak eta kredituak\n\nROM: %s (%lu.%lu bertsioa, %lu karaktereak, 0x%08lX flashean)
+U332	== Letra-tipoak ROMan (ROMaren jatorri-taula) ==
+U333	(ROMak ez du taularik)
+U334	== ROMaren kredituen eremua ==
+U335	(halako eremurik ez)
+U336	== Incorporatutako softwarearen lizentziak ==
+U337	%s PNG gisa gordetzen %s
+U338	Pantaila
+U339	Eraikuntza... %lu / %lu errenkadak
+U340	Idazten... %lu / %lu KB (FB ezkutatuta dago)
+U341	Ezin izan da idatzi
+U342	Artxiboaren izena (markatutako elementuak edo kurtsorearen elementua ez bada)
+U343	Sartu konprimitu ←→ mugitu BS / Ezabatu ezabatu ESC bertan behera
+U344	WAV esportazioa: %s bertan behera (%s)
+U345	WAV esportazioa: %s huts egin du (%s)
+U346	WAV esportazioa: %s guztira %s
+U347	WAV esportazioa (96kHz / 24bit): %s
+U348	Bertan behera utzita
+U349	Huts egin du
+U350	Guztira %s
+U351	Bertan behera utzi da (%s; fitxategi partziala ezabatu da)
+U352	Ezin izan da esportatu (%s). Arrazoia:
+U353	(arrazoia ezezaguna)
+U354	%u%% igaro zen %s%s
+U355	ESC: gelditu (fitxategi partziala ezabatzen da)
+U356	Artxiboa: %s
+U357	Irakurtzen... (ESC bertan behera uzteko)
+U358	%u elementuk%s guztira %s byte ateratzeko hona: %s
+U359	Idatzi ateratzeko elementua X atera dena ↑↓ mugitu ESC itxi
+U360	Konprimitu
+U361	Zerrenda
+U362	Atera
+U363	Guztira %s %u elementuak
+U364	Guztira %s %u fitxategiak
+U365	Utzita (%s; amaitu gabeko fitxategia ezabatu egin da)
+U366	Ezin izan (%s): %s
+U367	%u%% %s %s byte%s igaro dira
+U368	igarotako %s %s byte%s
+U369	ESC: gelditu (bukatu gabeko fitxategia ezabatzen da)
+U370	Artxiboa: %s huts egin du (%s)
+U371	Konprimitua: %s (%u elementuak)
+U372	Ateratakoak: %s (%u fitxategiak)

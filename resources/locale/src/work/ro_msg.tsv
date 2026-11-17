@@ -1,0 +1,787 @@
+# ro: machine translation (Google), unreviewed; 2026-11-17
+M001	unitatea a dispărut
+M002	citind din nou partițiile...
+M003	nu a putut deschide volumul (fără memorie?)
+M004	deschid volumul...
+M005	nu există memorie pentru lista de fișiere
+M006	citind directorul... (reîncerc)
+M007	nu am putut citi directorul
+M008	citind directorul...
+M009	unitatea nu a răspuns -- citind din nou partițiile
+M010	nu am putut citi directorul (nu FAT12/16/32?)
+M011	prea multe intrări -- afișând primele
+M012	nu a fost găsit niciun sistem de fișiere pe această partiție
+M013	drumul este prea lung
+M014	alăturarea...
+M015	despicare...
+M016	redenumirea...
+M017	se creează folderul...
+M018	se creeaza fisierul...
+M019	se șterge...
+M020	scriind atributele...
+M021	mașina este ocupată
+M022	ocupat
+M023	alegeți fișiere sau foldere
+M024	alegeți fișiere sau foldere (nu „..”)
+M025	mai întâi opriți CD-ul
+M026	CD-ul nu poate fi schimbat (în schimb copiați)
+M027	un folder de sistem nu poate fi mutat
+M028	nicio unitate nu poate fi scrisă (numai FAT / exFAT / NTFS)
+M029	unitatea a dispărut
+M030	nimic ales
+M031	nimic selectat
+M032	nu putea începe
+M033	nu se putea deschide
+M034	numai pe o unitate FAT / exFAT / NTFS
+M035	nici un nume
+M036	acel nume există deja
+M037	nu a putut porni (nume prost sau unitatea este ocupată)
+M038	nu a putut porni (unitatea este ocupată)
+M039	numele nu poate avea / sau \\ (doar în interiorul acestui folder)
+M040	numele este acelasi
+M041	articolul este doar pentru citire (A pentru a schimba)
+M042	alegeți un fișier .rb pe o unitate de scriere
+M043	alegeți un fișier .rb
+M044	unitatea este doar pentru citire
+M045	alegeți un folder pe o unitate de scriere
+M046	așteaptă o clipă
+M047	alegeți un fișier
+M048	alegeți un fișier (nu un folder)
+M049	alegeți un fișier .001
+M050	alegeți fișierul .001
+M051	puneți IWAD într-un folder DoomFiles sau Doom2Files
+M052	DoomFiles ia freedoom1 / doom / doomu / doom1.wad
+M053	Doom2Files ia freedoom2 / doom2 / plutonia / tnt.wad
+M054	pune fișierele jocului pe stocare externă, nu S:
+M055	IWAD trebuie să fie pe o unitate FAT / exFAT / NTFS (nu un CD)
+M056	încă lucrează
+M057	se încarcă o imagine
+M058	fără framebuffer
+M059	jumătate de luminozitate funcționează numai în RGB555
+M060	curățarea...
+M061	reducerea la jumătate a luminozității...
+M062	aceasta este o pistă de date
+M063	așteptați -- se scrie un fișier
+M064	numai unități de dischetă / LS-120 / CD
+M065	solicitat
+M066	citind discul...
+M067	oprire...
+M068	deschidere...
+M069	făcut
+M070	nicio memorie
+M071	deja deschis
+M072	rulează deja
+M073	salvează deja
+M074	se joacă deja
+M075	nu o astfel de unitate
+M076	fara PSRAM
+M077	fără PSRAM pentru fișier
+M078	fără PSRAM pentru indexul de linie
+M079	fara PSRAM pentru terminal
+M080	fără memorie (PSRAM)
+M081	fără memorie (32KB SRAM)
+M082	nicio memorie pentru buffer
+M083	nu există memorie pentru bufferele de imagine
+M084	nu există memorie pentru bufferul de citire
+M085	nu există loc pentru memoria de lucru (închideți planul lowres?)
+M086	nicio pagină framebuffer
+M087	prea mare (4 MB cel mult)
+M088	fișierul este prea mare (cel mult 1 MB)
+M089	fișierul este prea mare (max. 1 MB)
+M090	prea mare pentru un SMF (cel mult 1 MB)
+M091	fisierul este gol
+M092	nu a putut deschide fișierul
+M093	nu am putut citi fișierul
+M094	nu a putut deschide volumul
+M095	nu a putut deschide destinația (fără memorie?)
+M096	nu am putut citi folderul rădăcină
+M097	nu a putut începe sarcina
+M098	nu am putut începe să scriu (nume prost sau ocupat)
+M099	un alt volum este deschis (ocupat)
+M100	rulează o copie
+M101	un folder nu poate intra în sine
+M102	este același folder
+M103	această unitate nu poate fi schimbată (numai citire)
+M104	unitatea nu este inscriptibila
+M105	dimensiunea piesei trebuie să fie un multiplu de 512
+M106	fișierele de 4 GB sau mai mult nu sunt acceptate
+M107	cale proastă
+M108	nume de fișier rău
+M109	fontul ROM nu este acolo
+M110	sunetul nu este deschis
+M111	nici un astfel de canal
+M112	secvențiatorul este ocupat
+M113	nu este suficient PSRAM pentru melodie
+M114	nu este un fișier MIDI standard (fără MThd)
+M115	fara urme
+M116	o pistă este ruptă (MTrk)
+M117	Diviziunea în timp SMPTE nu este acceptată
+M118	Formatul SMF 2 nu este acceptat (doar 0 și 1)
+M119	nu o unitate de tip Bulk-Only
+M120	nu o unitate optică
+M121	un folder de sistem nu poate fi șters sau redenumit
+M122	nu există media în unitate
+M123	devenind gata
+M124	nu gata
+M125	media s-a schimbat
+M126	eroare medie
+M127	cerere ilegală
+M128	o intrare proastă în director
+M129	un director pe drum nu există
+M130	un fișier are acest nume
+M131	un folder are acest nume
+M132	un nume pe drum nu este un director
+M133	anulat
+M134	nu se putea monta
+M135	nu a putut începe o citire
+M136	nu a putut începe o scriere
+M137	este un director
+M138	acela este un director
+M139	fără clustere
+M140	nu există loc pentru lista de clustere
+M141	Nu există un astfel de fișier sau director
+M142	nici un astfel de dosar
+M143	fara volum
+M144	nu NTFS
+M145	nu exFAT
+M146	nu un director
+M147	nu a fost găsit
+M148	eroare de citire
+M149	eroare de scriere
+M150	citirea FAT a eșuat
+M151	lanțul de cluster este mai scurt decât fișierul
+M152	directorul nu este gol
+M153	discul este plin
+M154	unitatea nu a răspuns
+M155	fișierul este doar pentru citire
+M156	fisierul este prea fragmentat
+M157	fișierul este prea mare (4 GB)
+M158	noul nume există deja
+M159	directorul rădăcină este plin
+M160	prea multe fișiere cu același nume scurt
+M161	Nu există un astfel de fișier sau director
+M162	Fișierul există
+M163	Acces refuzat
+M164	Directorul nu este gol
+M165	Nu un director
+M166	Este un director
+M167	Sistem de fișiere numai pentru citire
+M168	Nu a mai rămas spațiu pe dispozitiv
+M169	Eroare de intrare/ieșire
+M170	Nu este acceptat pe această unitate
+M171	Cale nevalidă
+M172	Din memorie
+M173	Nu o astfel de unitate
+M174	oprit
+M175	anulat (nu este suficient spațiu liber)
+M176	nu putea număra spațiul liber
+M177	receptorul a anulat
+M178	fără receptor (rulați rz pe computer)
+M179	consola UART este în uz
+M180	modul ecran s-a schimbat
+M181	liniile nu au venit (afișajul rulează?)
+M182	copie
+M183	mişcare
+M184	şterge
+M185	redenumiți
+M186	atribute
+M187	fișier nou
+M188	folder nou
+M189	imagine
+M190	mrbc
+M191	rubin
+M192	privitor
+M193	edita
+M194	IDENTIFICA
+M195	ZMODEM
+M196	ZMODEM primește
+M197	ZMODEM trimite
+M198	Despică
+M199	alăturați-vă
+M200	Doom
+M201	SMF
+M202	CD
+M203	FB
+M204	Eject
+M205	reporniți
+M206	licenţă
+M207	ceas
+M208	ADC in
+M209	ecran -> PNG
+M210	FB -> PNG
+M211	nu a putut deschide volumul
+M212	primit
+M213	trimis
+M214	salvat
+M215	creat
+M216	redenumit în
+M217	șters
+M218	schimbat
+M219	alăturat
+M220	Despică
+M221	nu a putut crea
+M222	nu a putut șterge
+M223	nu a putut redenumi în
+M224	nu se putea schimba
+M225	nu putea citi
+M226	nu putea scrie
+M227	nu a putut copia
+M228	nu putea face
+M229	nu a putut elimina folderul
+M230	nu a putut elimina
+M231	nicio amintire pentru
+M232	prea multe erori la trimitere
+M233	receptorul nu a luat
+M234	receptorul a sărit
+M235	Pagina FB
+M236	octeți fiecare)
+M237	octeți)
+M238	KB)
+M239	părți în
+M240	piese (
+M241	în
+M242	: curățat
+M243	: luminozitatea redusă la jumătate
+M244	% citit
+M245	rânduri
+M246	-- nu este acceptat încă (numai FAT / exFAT / NTFS)
+M247	fișiere
+M248	(
+M249	Fără titlu
+M250	1 Fișier
+M251	2 Editați
+M252	3 Graficul
+M253	4 foaie
+M254	5 Ajutor
+M255	GOL
+M256	NUMĂR
+M257	TEXT
+M258	FORMULĂ
+M259	Tastați pentru a intra, F2 pentru a edita, F1 pentru ajutor
+M260	5 CSV
+M261	6 ODS
+M262	[SCHIMBARE]
+M263	[CTRL]
+M264	[ALT]
+M265	Gata
+M266	SGCAC
+M267	Apăsați orice tastă
+M268	Y = da N = nu Esc = anulare
+M269	Enter = OK Esc = anulare Ctrl-U = șterge
+M270	Primul rând/coloană = etichete; diagramele folosesc 640x480 CLUT8 FB.
+M271	SGCAC - AJUTOR
+M272	Apăsați orice tastă pentru a reveni
+M273	Apăsați orice tastă pentru a reveni.
+M274	DESPRE SGALC
+M275	Nou
+M276	Începeți o foaie nouă
+M277	Deschide...
+M278	Deschideți un fișier ODS, FODS sau CSV
+M279	Salva
+M280	Salvați fișierul curent
+M281	Salvați ca...
+M282	Salvați cu un nou nume sau format
+M283	Exportați CSV...
+M284	Scrieți o copie CSV
+M285	Export ODS...
+M286	Scrieți o copie a LibreOffice
+M287	Renunță
+M288	Părăsiți SGCLC
+M289	Clar
+M290	Ștergeți celulele selectate
+M291	Copie
+M292	Copiați selecția
+M293	Pastă
+M294	Lipiți pe cursor
+M295	Tăiați
+M296	Copiați și ștergeți selecția
+M297	Selectați toate
+M298	Selectați toate celulele utilizate
+M299	Culoarea textului...
+M300	Alegeți culoarea textului
+M301	Fundal...
+M302	Alegeți fundalul celulei
+M303	Linia
+M304	Desenați un grafic cu linii din selecție
+M305	Bar
+M306	Desenați un grafic cu bare din selecție
+M307	Amestecat
+M308	Bare pentru prima serie, rânduri pentru restul
+M309	Plăcintă
+M310	Desenați un grafic circular din selecție
+M311	Gamă...
+M312	Setați în mod explicit intervalul graficului
+M313	Desenează din nou
+M314	Redesenați ultimul grafic
+M315	Du-te la...
+M316	Salt la o celulă (de exemplu C12)
+M317	Lățimea coloanei...
+M318	Modificați lățimea coloanelor selectate
+M319	Înălțimea rândului...
+M320	Modificați înălțimea rândurilor selectate
+M321	Potrivire automată
+M322	Potriviți lățimi/înălțimi la conținut (F7)
+M323	Recalculați
+M324	Reevaluați toate formulele
+M325	Ștergeți totul
+M326	Curățați toată foaia
+M327	Chei
+M328	Arată ghidul cheii
+M329	Despre
+M330	Despre SGCLC
+M331	Fişier
+M332	Edita
+M333	Grafic
+M334	foaie
+M335	Ajutor
+M336	Fișier: nou, deschidere, salvare, exportare, ieșire
+M337	Editați: ștergeți, copiați, lipiți, tăiați, selectați tot
+M338	Grafic: linie, bară, mixt, plăcintă (desenează în FB)
+M339	Foaie: du-te la, lățimea coloanei, recalcula, șterge
+M340	Ajutor: chei și despre
+M341	Stânga/Dreapta = meniu Sus/Jos = element Enter = alege Esc = anulare
+M342	Anulat
+M343	Selecția este prea mare sau memoria este scăzută.
+M344	celula
+M345	selecția
+M346	Nimic de lipit
+M347	Lipită
+M348	MERGE LA CELULA
+M349	Referința celulei (A1):
+M350	Du-te la
+M351	LĂȚimea coloanei
+M352	Lățimea în caractere (4..30):
+M353	ÎNĂLȚIE RIND
+M354	Înălțimea în rândurile de text (1..8):
+M355	Potrivire automată: foaia este goală
+M356	CULOARE DE FUNDAL
+M357	CULOAREA TEXTULUI
+M358	Săgeți: alegeți Enter: aplicați Esc: anulați
+M359	Index de culoare (paleta PC-98 cu 16 culori)
+M360	Aa 123
+M361	Enter = aplicați Esc = anulați
+M362	Culoare
+M363	Fundal
+M364	Text
+M365	GAMA GRAF
+M366	Interval (de exemplu A1:C10):
+M367	Gama grafică
+M368	Utilizați un interval precum A1:C10.
+M369	Nu se poate desena graficul.
+M370	linia
+M371	bar
+M372	amestecat
+M373	plăcintă
+M374	Ștergeți fiecare celulă din această foaie?
+M375	Foaia ștearsă
+M376	S-au selectat toate celulele utilizate
+M377	Recalculat
+M378	Memorie
+M379	Nu este suficient PSRAM pentru foaia de calcul.
+M380	Foaia este goală.
+M381	Nu există date numerice în intervalul selectat.
+M382	Alte
+M383	Nu există valori pozitive pentru o diagramă circulară
+M384	LINIA
+M385	BAR
+M386	AMESTECAT
+M387	PLĂCINTĂ
+M388	S:/
+M389	Pliant
+M390	SALVAȚI CA
+M391	DESCHIDE FIȘIER
+M392	LibreOffice / CSV
+M393	ODS FODS CSV
+M394	Nume:
+M395	(introduceți un nume sau alegeți mai jos)
+M396	Nume
+M397	Dimensiune
+M398	Enter=salvează Stânga=sus Dreapta/Enter pe [DIR]=deschide Tab=drive Esc=anulează
+M399	Enter=deschide Stânga=sus Dreapta/Enter pe [DIR]=deschide Tab=Drive Esc=anulează
+M400	Nu este suficientă memorie.
+M401	Suprascrie
+M402	Deschide
+M403	Fișierul este prea mare (limită 8 MB).
+M404	Nu este suficientă memorie pentru a citi fișierul.
+M405	Date ZIP/ODS incorecte.
+M406	Eroare CRC în fișierul ODS.
+M407	Fișier neacceptat sau deteriorat.
+M408	Salvat
+M409	Exportat
+M410	Modificări nesalvate
+M411	Salvați foaia curentă înainte de a continua?
+M412	Foaie nouă
+M413	SGTRK
+M414	FĂRĂ TITLUL
+M415	melodia este prea mare
+M416	dosar gol
+M417	nu un fișier SGT
+M418	BPM prost
+M419	viteza proasta
+M420	lungime proastă a titlului
+M421	titlu trunchiat
+M422	caracter prost în titlu
+M423	ordine trunchiată
+M424	lungime proastă a comenzii
+M425	numărul de model rău în ordine
+M426	lista de modele trunchiate
+M427	număr de modele proaste
+M428	indice de model prost
+M429	model duplicat
+M430	date de model trunchiate
+M431	date de model nevalide
+M432	datele de sfârșit în fișier
+M433	ordinea se referă la un model lipsă
+M434	O:/
+M435	(fara titlu)
+M436	Gata. Apăsați F1 pentru ajutor.
+M437	Urmăriți OFF
+M438	Nimic de anulat
+M439	Anula
+M440	Nota OFF
+M441	Setați mai întâi o literă de efect
+M442	Efectul a fost eliminat
+M443	Parametrul a fost șters
+M444	Nota ștearsă
+M445	Instrumentul a fost eliminat
+M446	Volumul a fost șters
+M447	Lista de comenzi este plină
+M448	Comanda introdusă
+M449	Nu se poate șterge ultima comandă
+M450	Comanda a fost ștearsă
+M451	Redând cântec
+M452	oprit
+M453	Cântec nou
+M454	Renunțați la modificările nesalvate și începeți o melodie nouă? (Da/Nu)
+M455	Renunțați la modificările nesalvate și deschideți o melodie? (Da/Nu)
+M456	Renunțați la modificările nesalvate și renunțați? (Da/Nu)
+M457	Setările cântecului au fost actualizate
+M458	Numele fișierului este gol
+M459	Salvare anulată
+M460	Deschidere anulată
+M461	Editare ON
+M462	Editare OFF
+M463	Urmăriți ON
+M464	Editarea este DEZACTIVATĂ. Apăsați F8 pentru a edita.
+M465	Eroare I/O
+M466	fișierul este prea mare
+M467	fișier trunchiat
+M468	SINE PAD
+M469	TRIUNGHI
+M470	PLUMB DE FERĂSĂRU
+M471	PĂTRAT
+M472	PULSUL 25
+M473	ORGAN
+M474	BAS
+M475	CLOPOT
+M476	ZGOMOT
+M477	SINUS
+M478	SAW
+M479	OFF
+M480	PE
+M481	RÂND
+M482	NIVEL CHAN
+M483	F1 AJUTOR F2 CÂNTEC
+M484	F3 INS F4 SALVA
+M485	F5 PLAY F6 PAT
+M486	F7 STOP F8 EDIT
+M487	F9/F10 OCTAVE
+M488	F11 FOLLOW
+M489	F12 RENUNȚĂ
+M490	SPAȚIAL PLAY/STOP
+M491	CTRL-S SALVARE
+M492	CTRL-O DESCHIS
+M493	C-N NEW C-Z UNDO
+M494	C-C STOP
+M495	#TRASPORT ȘI DOSARE
+M496	#LISTA COMANDĂ
+M497	#AFIŞA
+M498	#EDITARE
+M499	#EFFECTS (parametrul este hexazecimal)
+M500	PAGINA STÂNGA/DREAPTA ENTER SAU F1 ÎNCHIDERE
+M501	SETĂRI CÂNTEC
+M502	SUS/JOS SELECTARE STÂNGA/DREAPTA AJUSTARE ENTER/F2 ÎNCHIS
+M503	Tastați pentru a edita titlul. Backspace șterge ultimul caracter.
+M504	Interval BPM 32..255. Interval de viteză 1..31.
+M505	Efectele de tipar pot modifica, de asemenea, viteza și BPM-ul în timpul redării.
+M506	INSTRUMENTE
+M507	SUS/JOS SELECTAȚI SPAȚIU PREVIEW ENTER USE F3 ÎNCHIDERE
+M508	Toate cele patru canale folosesc sinteza wavetable.
+M509	Previzualizarea redă C-4 pe piesa sub cursorul de editare.
+M510	SALVAȚI CÂNTECUL CA
+M511	INTRODUCEȚI SALVARE F4 SAU CTRL-C CANCEL
+M512	Director:
+M513	Nume de fișier:
+M514	Extensia .SGT este adăugată automat.
+M515	Un fișier existent poate fi suprascris.
+M516	CÂNTEC DESCHIS
+M517	ENTER OPEN BS PARENT CTRL-O/CTRL-C CANCEL
+M518	(nu există fișiere .SGT în acest folder)
+M519	CONFIRMA
+M520	Y = DA N / ENTER / CTRL-C = NU
+M521	Y = da N = nu
+M522	C-
+M523	C#
+M524	D-
+M525	D#
+M526	E-
+M527	F-
+M528	F#
+M529	G-
+M530	G#
+M531	O-
+M532	O#
+M533	B-
+M534	A:/dir/nume
+M535	MThd
+M536	rupt MThd
+M537	IMPORT MIDI
+M538	MTrk
+M539	timp delta spart
+M540	stare de rulare ruptă
+M541	meta eveniment spart
+M542	eveniment sysex întrerupt
+M543	eveniment canal întrerupt
+M544	Ieșirea SMF este prea mică
+M545	Ieșirea SMF este prea mare
+M546	melodia este prea lunga pentru SMF
+M547	TRK1
+M548	%s%d
+M549	%s%d:%s%d
+M550	%s
+M551	%.40s%s
+M552	[%s] %s
+M553	EDITA
+M554	GATA
+M555	%4d
+M556	%s Suma %.7g N %ld%s
+M557	SAGEȚELE mută cursorul celulei
+M558	SHIFT+ARR extinde selecția (pentru grafice/copiere)
+M559	ENTER editați celula; în editare, comite și deplasare în jos
+M560	TAB celula următoare SHIFT+TAB celula anterioară
+M561	DELETE ștergeți celulele selectate ESC anulați
+M562	PGUP/PGDN mută un ecran HOME/END prima/ultima coloană
+M563	CTRL+HOME A1 CTRL+END ultima celulă folosită
+M564	F1 ajutor F2 editați F3 copieți F4 lipiți F5 mergeți la culoarea F6
+M565	F7 potrivire automată F8 fundal F9 recalc F10 grafic F11 salvare F12 meniu
+M566	SHIFT+F1 despre SHIFT+F2 înălțimea rândului SHIFT+F3 lățimea coloanei
+M567	SHIFT+F4 selectează tot intervalul grafic SHIFT+F10 SHIFT+F11 salvați ca
+M568	CTRL+F1 nou CTRL+F2 deschide CTRL+F3 salva CTRL+F4 salvează ca
+M569	CTRL+F5 export CSV CTRL+F6 export ODS ALT+F12 ieșire
+M570	Cele 2 linii de jos: taste funcționale; [SHIFT]/[CTRL]/[ALT] ca și filerul
+M571	CTRL+S salvare CTRL+O deschide CTRL+N nou CTRL+C/V/X copiere/lipire/tăiare
+M572	CTRL+G acces / deschide meniul (1 Fișier, 2 Editare, ...)
+M573	Funcții încorporate: SUM MEDIA MIN MAX COUNT COUNTA
+M574	PRODUS ABS SQRT INT ROUND MOD POWER DACA SI SAU NU
+M575	DACĂ EROARE LEN STÂNGA DREAPTA MIJLOC SUS INFERIOR TRIM CONCATENATE PI
+M576	Ref. celule: A1, $A$1, A1:B10.  Formulele încep cu „=”.
+M577	Fișiere: .ods (LibreOffice), .fods (XML plat), .csv
+M578	ODS/FODS păstrează formulele, lățimile, înălțimile și culorile.
+M579	CSV păstrează valorile și formulele (fără culori/înălțimi).
+M580	Grafic: selectați un interval, apăsați F10 și alegeți Line/Bar/Mixed/Pie.
+M581	SGCAC pentru sgnano
+M582	Versiune
+M583	O foaie de calcul în stil Lotus 1-2-3 ca program SGX.
+M584	SGX ABI %u.%u
+M585	Modul ecran 3: text + CLUT8 FB (reducere redusă dezactivată)
+M586	Foaie: %d rânduri x %d coloane
+M587	Formate: .ods / .fods (LibreOffice), .csv
+M588	Grila este desenată pe planul textului.
+M589	Graficele și fundalul 640x480 folosesc FB.
+M590	%d %s
+M591	Nu se poate stoca celula (%d).
+M592	%d x %d celule copiate
+M593	Eliberat %s
+M594	„%s” nu este o referință de celulă.
+M595	%d
+M596	Lățimea coloanei = %d
+M597	Înălțimea rândului = %d
+M598	Potrivire automată: %d coloană(e), %d rând(e)
+M599	%2d
+M600	Nu se poate aplica culoarea (%d).
+M601	%s culoare = %d
+M602	Nu este un interval valid.\nUtilizați un interval precum A1:C10.
+M603	Domeniul grafic %s
+M604	Grafic: %s
+M605	SGCALC: nu se poate seta modul ecran 3: %s
+M606	%.2g
+M607	%.6g
+M608	%s %.0f%%
+M609	GRAF %s %s
+M610	%s%s
+M611	%s/%s
+M612	%.*s
+M613	%.*s/
+M614	Nu se poate citi %s\n%s
+M615	Dosar: %s
+M616	[DIR] %s
+M617	%s
+M618	%lu.%luM
+M619	%luK
+M620	%luB
+M621	CARTEA1%s
+M622	%c:/
+M623	Extensie neacceptată.\nUtilizați .csv, .ods sau .fods.
+M624	%s există deja.\nÎl suprascrieți?
+M625	Este posibil ca %s să nu poată fi scris.\nÎncerci oricum?
+M626	Tip de fișier necunoscut pentru %s
+M627	Tip de fișier neacceptat.\nUtilizați .csv, .ods sau .fods.
+M628	Nu se poate deschide %s\n%s
+M629	%s este un folder.
+M630	Nu se poate importa %s\n%s
+M631	Încărcat %s
+M632	Nu se poate construi fișierul %s.
+M633	Nu se poate scrie %s\n%s
+M634	%s %s
+M635	versiunea neacceptată %u
+M636	%d:%d:%d:%d:%d:%d
+M637	Octava %d
+M638	Notă %s
+M639	Instrumentul %d
+M640	Volumul %s
+M641	Efect %c
+M642	Parametrul %s
+M643	Model %s
+M644	Model de redare %s
+M645	SALVARE EROARE: %s
+M646	Salvat %s
+M647	EROARE ÎNCĂRCARE: %s
+M648	BPM %d
+M649	Viteza %d
+M650	Previzualizare %s
+M651	Instrument %s %s
+M652	Suprascrie %s? (Da/Nu)
+M653	| BPM %s SPD %s
+M654	SGNO TRACKER 1.0 |
+M655	FIŞIER
+M656	PAT %s
+M657	ORD %d/%d
+M658	INS %s
+M659	OCT %d
+M660	EDITARE %s
+M661	PE
+M662	FOL %s
+M663	PISTA %d
+M664	%c%s
+M665	%s %s %s %s
+M666	%s
+M667	%d %s %s
+M668	COMANDĂ %d/%d
+M669	PAT %s
+M670	INS %s %s
+M671	OCT %d EDIT %s
+M672	Urmăriți %s
+M673	PLAYING ORD %d/%d PAT %s ROW %s/%d SPD %s BPM %d F7 STOP
+M674	GATA EDITARE %s OCT %d F1 AJUTOR F5 REDARE CTRL-S SALVARE
+M675	%s
+M676	F5 Redați melodia din ordinea curentă
+M677	F6 Redați modelul curent
+M678	F7/Ctrl-C Opriți redarea
+M679	Space Play / stop
+M680	F4 Salvați ca
+M681	Ctrl-S Salvare (cere un nume dacă este nou)
+M682	Ctrl-O Deschide o melodie
+M683	Ctrl-N Cântec nou
+M684	F12 Ieșire (confirmare dacă a fost modificat)
+M685	[ ] Intrarea comenzii anterioare/următoare
+M686	{ } Inserați / ștergeți o intrare de comandă
+M687	- + Schimbați modelul din intrare
+M688	F11 Urmăriți redarea (se dezactivează la mutarea manuală)
+M689	Ajutor F1; Pagina de modificări stânga/dreapta
+M690	F8 Comută modul de editare
+M691	Săgeți Deplasați cursorul
+M692	PgUp/PgDn Salt 16 rânduri
+M693	Acasă/Sfârșit Primul / ultimul rând
+M694	F9/F10 Octave în jos / în sus
+M695	Z S X D C V G B H N J M rând de pian inferior
+M696	Q 2 W 3 E R 5 T 6 Y 7 U rând de pian superior
+M697	1 Notă dezactivată
+M698	0 / Del 0 șterge note/inst/fx; Del șterge orice
+M699	Ctrl-Z Anulați ultima editare de model/ordine
+M700	Axy Volum slide: sus x, jos y
+M701	Cxx Nota tăiată după xx căpușe
+M702	Dxx Setați volumul (00..7F)
+M703	Fxx Speed ​​dacă xx < 20, altfel BPM
+M704	Hxy Arpegiu x, y semitonuri
+M705	Pxx Pitch alunecă în sus
+M706	Qxx Pitch alunecă în jos
+M707	Setări de melodii F2, lista de instrumente F3
+M708	AJUTOR %d/2
+M709	Titlu
+M710	[%s_]
+M711	BPM: %d (stânga/dreapta -1/+1, -/+ -5/+5)
+M712	Viteză: %d ticuri/rând
+M713	Rânduri: %d (fixe)
+M714	Comanda: %d intrări
+M715	Modele utilizate: %d
+M716	# NAME WAVE A D S R VOL
+M717	%c %d %-9s %-9s %3d %3d %3d %3d %4d
+M718	Instrumentul actual: %s %s
+M719	%s
+M720	DIR %s
+M721	%c %s%s
+M722	Fișiere: %d
+M723	%02d
+M724	%03d
+M725	%02X
+M726	SGNO TRACKER: SGX ABI incompatibil
+M727	S: verificați: așteptați -- un fișier este citit sau scris
+M728	S: verificați: unitatea este ocupată sau nu este pregătită
+M729	nimic pentru acest articol (ContextMenu.cfg)
+M730	comandă proastă în ContextMenu.cfg
+M731	acțiune necunoscută în ContextMenu.cfg
+M732	meniu
+M733	alegeți un fișier sau un folder
+M734	această unitate nu poate fi scrisă
+M735	un job de arhivare rulează deja
+M736	fără PSRAM pentru sarcina de arhivare
+M737	nu a putut porni sarcina de arhivare
+M738	prea multe articole (cel mult 32)
+M739	nimic de comprimat
+M740	nici un nume (sau numele are / sau \\)
+M741	Cel mult 32 de articole (marcați mai puține sau puneți-le într-un dosar)
+M742	arhivă
+M743	comprima
+M744	face
+N001	5 Macro
+N002	6 Ajutor
+N003	Rulați curent
+N004	Rulați macrocomanda la cursor (celula antet #! și celulele de sub ea)
+N005	Rulați selecția
+N006	Rulați celulele selectate ca o singură macrocomandă (celula din stânga sus este antetul #!)
+N007	Rulați toate
+N008	Rulați fiecare macrocomandă din foaie, de la stânga sus la dreapta jos
+N009	Ultima eroare
+N010	Afișați ultima eroare macro
+N011	Macro
+N012	Macro: rulați #!ruby / #!python / #!celule de bază
+N013	Editați celula (F2)
+N014	Potriviți lățimi/înălțimi la conținut
+N015	Ultima eroare macro
+N016	Nicio eroare macro.
+N017	IME activat
+N018	IME oprit
+N019	Macro: %s %s ...
+N020	%s: acest firmware nu poate rula macrocomenzi (SGX ABI 5.10 sau o versiune ulterioară)
+N021	Eroare macro: %s
+N022	Macro: %s gata
+N023	o macrocomandă rulează deja
+N024	această limbă nu este disponibilă
+N025	memorie insuficientă
+N026	macro-ul s-a oprit cu o eroare
+N027	Eroare macro %s: %s
+N028	Macro: memorie insuficientă
+N029	Macro: cursorul nu se află pe o macrocomandă (o celulă #!ruby / #!python / #!de bază sau celulele de sub ea)
+N030	Macro: nu există macrocomandă în foaie
+N031	Rulați toate macrocomenzile
+N032	Macrocomenzi: %d. Rulați-le pe toate, de la stânga sus la dreapta jos? Modificările nu pot fi anulate.
+N033	Macro: %d din %d gata
+N034	Am golit celula
+N035	S-a șters selecția
+N036	Culoare de fundal = %d
+N037	Culoarea textului = %d
+N038	Grafic: linie
+N039	Grafic: bară
+N040	Grafic: mixt
+N041	Grafic: plăcintă
+N042	Exportat %s
