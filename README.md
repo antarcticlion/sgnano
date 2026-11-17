@@ -7,6 +7,10 @@
 > いまは **α版** です。ファームウェアはバイナリ（UF2）で配り、ソースは整理ができしだい公開します。
 > SGX の ABI はまだ凍結していません。α版の間に変わることがあります。文書も順次更新します。
 
+![起動バナー](images/boot_banner.jpg)
+
+*起動バナー。星は [`sgnano_remote`](https://github.com/antarcticlion/sgnano_remote) のアイコンです。*
+
 ## このリポジトリにあるもの
 
 | フォルダ | 中身 |
@@ -38,6 +42,17 @@
 - **外部実行ファイル**: SGX（C で組み、PSRAM に読み込んで RTOS のタスクとして走らせる）
 - **画面**: テキスト面（80x30、Unicode、32 ビットの属性）・フレームバッファ（RGB555 / CLUT8 / CLUT4）・ローレゾ面（BG 2 面 + オブジェクト 128 個）
 - **音**: 4 声のウェーブテーブル、SMF / SGT のシーケンサー、MP3 / OGG / WAV、VGM / VGZ（YM2151・YM2612・C352 など）
+
+## 画面
+
+実機の画面をそのまま撮ったものです（640x480）。ほかにも `images/` にあります。
+
+| | |
+|---|---|
+| ![ファイラー](images/filer.jpg)<br>**ファイラー**。PC-98 の FD に倣った 2 列の一覧。 | ![表示の言語](images/languages.jpg)<br>**表示の言語は 62**。欧州 34 言語を含みます。 |
+| ![画面モード 7](images/mode7.jpg)<br>**画面モード 7**。320x200x256 のプラズマとテキスト 25 行。 | ![フォント](images/fontdemo.jpg)<br>**フォントは 57,404 字**。色・線・回転・倍角を 1 画面で。 |
+| ![将棋](images/shogi.jpg)<br>**将棋**（mruby の見本）。 | ![SGCALC](images/sgcalc.jpg)<br>**SGCALC**。mruby / MicroPython / SG BASIC のマクロ。 |
+| ![シェル](images/shell.jpg)<br>**シェル sgsh**。csh のサブセット、組み込みコマンド 70 個。 | ![About](images/about.jpg)<br>**About**（F1 → → → →）。ビルド ID・ABI・フォント・言語数。 |
 
 ## 書き込み
 
