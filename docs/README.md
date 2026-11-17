@@ -13,6 +13,7 @@
 | [`sgx_abi.md`](sgx_abi.md) | SGX（外部実行ファイル）の ABI | ABI を変えたとき |
 | [`TEST_PLAN_2026-10-31.md`](TEST_PLAN_2026-10-31.md) | 実機試験の計画 | 試験を足したとき |
 | [`../hardware/c_board/ASSEMBLY.md`](../hardware/c_board/ASSEMBLY.md) | C ボード Rev1.0 の組み立てガイド（PDF・BOM・配置つき） | 基板を変えたとき |
+| [`magazine/`](magazine/) | sgnano magazine（読み物。第 1 号・第 2 号） | 号を足したとき |
 | `../PLAN_*.md` | lowres 2core・shell 言語統合の段取り | 計画を進めたとき |
 | `sgnano_ruby_guide.md` / `sgnano_python_guide.md` / `sgnano_basic_guide.md` | 書く人向けの言語ガイド（PDF あり） | 言語機能を変えたとき |
 

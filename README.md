@@ -62,6 +62,13 @@
 | ![CD のスペクトログラム](images/cd.jpg)<br>**CD のスペクトログラム**。44.1kHz ステレオ、128x128 を 2 面。 | ![時計](images/clock.jpg)<br>**時計**（F11）。NTP で合わせた日本時間。 |
 | ![シェル](images/shell.jpg)<br>**シェル sgsh**。csh のサブセット、組み込みコマンド 70 個。 | ![About](images/about.jpg)<br>**About**（F1 → → → →）。ビルド ID・ABI・フォント・言語数。 |
 
+## sgnano magazine
+
+α版を外の読者向けに紹介する読み物です（A4 判・10 ページの誌面を想定）。
+
+- [第 1 号　ワンチップに「パソコン」を取り戻せ](docs/magazine/01_alpha_review.md)（2026-11-14）
+- [第 2 号　α版、出荷前夜](docs/magazine/02_alpha1_preview.md)（2026-11-17）
+
 ## 書き込み
 
 準備中です。UF2 を置いたら、ここに書き込み方を書きます。
