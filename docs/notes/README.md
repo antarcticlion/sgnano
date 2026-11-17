@@ -1,7 +1,7 @@
 # 調査ノートの索引
 
-`notes/` は**分野ごとの追記式の記録**です。現在の状態・決まりごとは [`../DEVELOPMENT.md`](../DEVELOPMENT.md)、
-仕様はルートの `SPEC_*.md` にあります。内部の申し送りは公開しません。
+`notes/` は**分野ごとの追記式の記録**です。現在の状態・決まりごとは [`../DEVELOPMENT.md`](../DEVELOPMENT.md) にあります。
+仕様メモ（`SPEC_*.md`）と内部の申し送りは公開しません。
 
 ## ノートの一覧
 
@@ -30,15 +30,10 @@
 4. 日付は実機で見た日。ログの時刻と混同しない。
 5. 大きな区切りでは、公開用の文書に要約を書く。内部の申し送りは公開しない。
 
-## 関連する仕様・計画
+## 関連する計画
 
-- `../../SPEC_m33beatos.md` — RTOS とタスク
-- `../../SPEC_sound.md` — 音源・シーケンサー
-- `../../SPEC_mruby.md` — mruby の組み込み
-- `../../SPEC_rubyfile.md` — Ruby のファイル API
-- `../../SPEC_rubymachine.md` — Ruby の Machine
-- `../../SPEC_vram_alloc.md` — SRAM/PSRAM の割り当て
-- `../../SPEC_shell_lang.md` — シェルの言語統合
-- `../../SPEC_lowres_2core.md` / `../../PLAN_lowres_2core.md` — ローレゾ 2 コア
-- `../../PLAN_shell_lang.md` — シェル言語統合の段取り
+- `PLAN_lowres_2core.md` — ローレゾ 2 コアの計画（実装は済み。その後の変更は `video.md`）
+- `PLAN_shell_lang.md` — シェル言語統合の段取り
 - `../README.md` — ドキュメント全体の入口とソースの地図
+
+仕様メモ（`SPEC_*.md`）は内部に置いています。実装した内容の文書は、公開のあとに別に用意します。

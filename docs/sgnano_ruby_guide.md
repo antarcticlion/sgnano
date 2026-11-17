@@ -5,7 +5,7 @@
 この文書は、sgnano で動く Ruby のプログラムを**ほかの人や AI が書く**ための仕様書です。使える書き方・クラス・メソッドは、
 実機と同じ処理系をホストで動かして**一つずつ確かめたもの**です（推測ではありません）。ここに無いメソッドは「無い」と考えてください。
 
-【2026-11-17 の変更】**FB・ビットマップ・画像の描画**（線・図形・パス・文字・転送）と**圧縮と書庫**（`Machine::Archive`）を足した（§7・§6。ABI 5.3・5.12、`SPEC_gfx.md`）。描画は `Machine.fb`・`Machine.bitmap`・`Machine::Image` が同じメソッドを持ち、状態と描画のメソッドは自分を返すので続けて書ける。
+【2026-11-17 の変更】**FB・ビットマップ・画像の描画**（線・図形・パス・文字・転送）と**圧縮と書庫**（`Machine::Archive`）を足した（§7・§6。ABI 5.3・5.12）。描画は `Machine.fb`・`Machine.bitmap`・`Machine::Image` が同じメソッドを持ち、状態と描画のメソッドは自分を返すので続けて書ける。
 
 【2026-11-01 の変更】**同じ機械を Python（MicroPython）と SG BASIC からも同じ口で使える**ようになった（対応表 `docs/machine_api.md`、
 仕様書 `docs/sgnano_python_guide.md`・`docs/sgnano_basic_guide.md`）。そろえるために Ruby に足したもの: 定数 `Machine::TEXT_GRAY`（8）と別名 `TEXT_UNDER`・`TEXT_DH`・`TEXT_DW`、
@@ -226,7 +226,7 @@ S: の空きとデフラグ。USB のドライブの空きは扱わない（`fs_
 
 ## 7. 画面: Machine と Machine::FrameBuffer
 
-詳しくは `SPEC_rubymachine.md`。
+詳しくは `docs/machine_api.md` と本節。
 
 | 書き方 | 意味 |
 |---|---|
@@ -539,7 +539,7 @@ pio.sm_enable(0, false)
 pio.sm_unclaim(0)
 ```
 
-### FB・ビットマップ・画像の描画（2026-11-13、`SPEC_gfx.md`）
+### FB・ビットマップ・画像の描画（2026-11-13）
 
 `Machine.fb`（FrameBuffer）、`Machine.bitmap`（モード 7 の Bitmap）、`Machine::Image` は**同じ描画のメソッド**を持つ。
 状態と描画のメソッドは自分を返すので、続けて書ける（`fb.pen(c).brush(c2).ellipse(0, 0, 639, 479)`）。

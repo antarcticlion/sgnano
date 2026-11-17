@@ -247,7 +247,7 @@ ADC として使ったピンは `Machine::GPIO.init(pin)` で GPIO に戻せる�
 | `palette(i[,r,g,b])` | ✓ | `BmPalette` |
 | `read(off,n)` / `write(off,s)` | ✓ | `BmRead(off,n)` / `BmWrite off,s$` (past the end: cut off, returns the count written) |
 
-## Primitive drawing (2026-11-13, `SPEC_gfx.md`)
+## Primitive drawing (2026-11-13, ABI 5.3)
 
 The same methods on `Machine.fb` (FrameBuffer), `Machine.bitmap` (Bitmap, mode 7) and `Machine::Image`.
 Ruby / Python return the surface from the state and drawing methods, so calls chain (`fb.pen(c).brush(c2).ellipse(...)`).

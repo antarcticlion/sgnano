@@ -31,11 +31,16 @@ sgnano のファームウェアと、このリポジトリの SGX（外部実行
 | EmbUniFont | フォント ROM の形と道具 | MIT | `EmbUniFont.txt` |
 | GNU Unifont | フォント ROM の字形 | SIL OFL 1.1 | `GNU-Unifont-OFL-1.1.txt` |
 
-## SGX（このリポジトリの `apps/`）
+## SGX（別のリポジトリ）
+
+`DOOM.SGX` と `wav2mp3.sgx` のソースとビルドの手順は、このリポジトリには入れていません。
+[`sgnano_doomgeneric`](https://github.com/antarcticlion/sgnano_doomgeneric) と
+[`sgnano_wav2mp3`](https://github.com/antarcticlion/sgnano_wav2mp3) にあります。
+S: のドライブの初期値に入っている `wav2mp3.sgx` は LAME を静的にリンクしているので、ライセンス文をここに置いています。
 
 | 部品 | 使う SGX | ライセンス | ファイル |
 |---|---|---|---|
-| doomgeneric | `apps/doom`（`DOOM.SGX`） | GPL-2.0 | `doomgeneric-GPL-2.0.txt` |
-| LAME 3.100 | `apps/wav2mp3`（`wav2mp3.sgx`、静的にリンク） | LGPL-2.0-or-later | `lame-LGPL.txt` |
+| doomgeneric | `DOOM.SGX`（`sgnano_doomgeneric`） | GPL-2.0 | `doomgeneric-GPL-2.0.txt` |
+| LAME 3.100 | `wav2mp3.sgx`（`sgnano_wav2mp3`、静的にリンク） | LGPL-2.0-or-later | `lame-LGPL.txt` |
 
 `DOOM.SGX` で遊ぶには IWAD（Freedoom など）が別に要ります。Freedoom は BSD-3-Clause で、[freedoom.github.io](https://freedoom.github.io/) から入手できます。

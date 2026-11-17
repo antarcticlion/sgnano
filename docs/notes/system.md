@@ -14,7 +14,7 @@ WeAct Studio RP2350B Core Board 上で、アナログRGB出力・PT8211ウェー
   - 【訂正・2026-10-03】この行は古い。第3段階は完了している（次の行）。
 - **第3段階（完了）**: PT8211 ウェーブテーブル音源。実機で音程が聞こえることを確認済み（2026-09-22。原因はオペアンプ[アナログ出力段]で、交換により解決。ソフト側の切り分け=mute で無音になる、は正しかった）。
 - **第4段階（完了）**: テキストプレーン（80x30、EmbUniFont ROM、PC-98 16色）。実機で確認済み（2026-09-23。半角/全角/半角カナの表示、全角の左右分割、PC-98パレットの並び、文字色/背景色の透過、グラフィック3モードとの重畳のすべて正常）。
-- **第5段階（完了）**: 2コア描画パイプライン + ローレゾ面（仕様 `SPEC_lowres_2core.md`、計画 `PLAN_lowres_2core.md`）。**S1（2コア化）実機合格（タグ `stage5-s1-2core`）**、**S2（フレームの進め方）実機合格（タグ `stage5-s2-frame`）**。**S3（`VGA_MODE_NONE`）実機合格（タグ `stage5-s3-none`）**。**S4（ローレゾ BG）実機で表示確認済み**（`underrun=0` `recover=0`）。**S5（BG0 + パレット + 反転 + 実機自己検証）実機合格（タグ `stage5-s5-bg0`）**。**S6（オブジェクト）完了（タグ `stage5-s6-obj`）**。正しさは実機で検証済み。速度は現アルゴリズムの帯域限界に当たっており、`VGA_MODE_NONE` なら128個まで完全にクリーン（下記）。
+- **第5段階（完了）**: 2コア描画パイプライン + ローレゾ面（仕様 仕様メモ（内部）、計画 `PLAN_lowres_2core.md`）。**S1（2コア化）実機合格（タグ `stage5-s1-2core`）**、**S2（フレームの進め方）実機合格（タグ `stage5-s2-frame`）**。**S3（`VGA_MODE_NONE`）実機合格（タグ `stage5-s3-none`）**。**S4（ローレゾ BG）実機で表示確認済み**（`underrun=0` `recover=0`）。**S5（BG0 + パレット + 反転 + 実機自己検証）実機合格（タグ `stage5-s5-bg0`）**。**S6（オブジェクト）完了（タグ `stage5-s6-obj`）**。正しさは実機で検証済み。速度は現アルゴリズムの帯域限界に当たっており、`VGA_MODE_NONE` なら128個まで完全にクリーン（下記）。
 - **音源との同時動作を確認（2026-09-24、タグ `stage5-done`）**: NONE + オブジェクト128個 + 発音2ボイスで
   `underrun=0` `fifo_stall` の増分0 `recover=0`、音もクリーン。資源は PIO0/PIO1、DMA 6ch で衝突なし。
   （アナログ出力に映像描画のノイズが乗るのは基板のレイアウト由来で、ソフトの問題ではない。）
@@ -284,8 +284,8 @@ Shift_JIS を自動判別**、テスト用アプリは**ファイラーからキ
   -> `[fatwr] replaced with 34 bytes` `save ok`。開き直すと 34 バイト。ファイラーのコピー（EDCOPY.TXT）の CRC32 が 8097dd56 で、期待した中身と一致。
   試験のファイルは 2 つとも消した。保存の間に fifo_stall が数十増えた（FB は隠しているので見えない。書き込みのフラッシュのコードがアプリ時間の外で走る分）
 
-## 2026-10-11: mruby/c とバイトコードコンパイラ（SPEC_mruby.md）
-- 構成・メモリ・速さ・SRAM の詰め方・映像の件は `SPEC_mruby.md` の「実装の結果」。取り込んだものの版と手直しは `third_party/VERSIONS.md`。
+## 2026-10-11: mruby/c とバイトコードコンパイラ（仕様メモ（内部））
+- 構成・メモリ・速さ・SRAM の詰め方・映像の件は 仕様メモ（内部） の「実装の結果」。取り込んだものの版と手直しは `third_party/VERSIONS.md`。
 - **全体を SRAM に写すビルドでは、ライブラリが引き込む libc / libm / pico の数学関数も SRAM に入る**。新しいライブラリを足したら、外した版と
   マップを比べる（`.map` の入力の区画ごとに、SRAM に置かれた大きさを集計して差を取る）。「外した版で SRAM に残っていない関数」は、足した側からしか
   呼ばれないので、フラッシュへ回してよい（熱い経路に影響しない）。
@@ -340,7 +340,7 @@ Shift_JIS を自動判別**、テスト用アプリは**ファイラーからキ
 
 ## 2026-10-23 core1 のタスクの分け方
 - core1 の M33BEATOS のタスクは、描画の手伝い（0）・数える役（1）・シーケンサー（4）・LAN（5）・UART（6）・USB（7）・アプリ（8）・Ruby（9）・アイドル（31）。
-  表と決まりは `SPEC_m33beatos.md`（`usb_lock`、pico-sdk のロックの差し替え、割り込みを止めた中では眠らない、プロファイル）
+  表と決まりは 仕様メモ（内部）（`usb_lock`、pico-sdk のロックの差し替え、割り込みを止めた中では眠らない、プロファイル）
 - アプリのループ（`loop_once`）は `usb_lock` を持って回り、描画の終わりを待つ間だけ手放して眠る（idle hook も眠るだけ）。USB の処理は USB のタスクが回す
 - 「キーが無い」は負の値すべて（`uartcon` は -1、SDK の `PICO_ERROR_TIMEOUT` は -2。-2 とだけ比べていて、前のキーを毎周ファイラーへ渡していた）
 
@@ -591,7 +591,7 @@ Shift_JIS を自動判別**、テスト用アプリは**ファイラーからキ
   線の印は渡した値に置き換わる。画面外は ArgumentError、テキスト面が無ければ RuntimeError。戻り値は新しい属性
 - 試験: `scripts/test_text_attr.py` は 513 ケース・1,489 セル（外周の期待値に更新）、
   `samples/ruby/textattr.rb` は 37 項目（`text_attr_at` の 8 項目を追加）。ホストで OK
-- ドキュメント: `SPEC_rubymachine.md`（API・試験）、`docs/notes/video.md`（実装）、
+- ドキュメント: 仕様メモ（内部）（API・試験）、`docs/notes/video.md`（実装）、
   `docs/sgnano_ruby_guide.md` / `.pdf`（API 表・例・版）を更新
 
 ## 2026-10-29 実機確認（PSRAM の高位配置・文字属性）
@@ -883,7 +883,7 @@ BASIC の都合: IF は 1 行だけ、`\` `MOD` `AND` は 16 ビット（大き�
 ## 2026-11-02 シェルからの言語（mruby / MicroPython / SG BASIC、段1〜5）
 
 ユーザー指示: シェル sgsh から 3 言語のコマンド（実行・REPL・コンパイル）を使えるようにする。出力はシェルの端末・バックログ・
-パイプ・リダイレクト・stdin・stderr に取り込む（2026-11-02 の判断: POSIX の作法）。仕様は `SPEC_shell_lang.md`、段取りは
+パイプ・リダイレクト・stdin・stderr に取り込む（2026-11-02 の判断: POSIX の作法）。仕様は 仕様メモ（内部）、段取りは
 `PLAN_shell_lang.md`。
 
 - 段1（`285f2d6`）: `rbterm` に sink（`rbterm_set_sink` / `rbterm_sink_read`）と stderr（`rbterm_write_err`）を足した。
@@ -1580,7 +1580,7 @@ DDC の PIO2 の入れ替えハックを外して **ハード I2C1** に戻し�
   再起動しないことを確認。
 - **Ruby の 320KB x2**: 2026-11-03 の 64KB 動的ヒープで解消済み。実機で
   `big = 320000 バイト` をファイルに書き、`File.read` で 320000 バイトを読み戻す試験が
-  `BIGTEST OK 320000 320000`（7.2 秒）。`docs/DEVELOPMENT.md` / `SPEC_mruby.md` / `SPEC_vram_alloc.md` の
+  `BIGTEST OK 320000 320000`（7.2 秒）。`docs/DEVELOPMENT.md` / 仕様メモ（内部） / 仕様メモ（内部） の
   「未対処」を更新した。
 - **ローレゾのオブジェクト**: `draw_obj` の 8 画素高速路を入れた。ホスト低レゾ試験は 0 不一致、
   実機 mode5 の 24 オブジェクトで underrun 0・pair_max 約 99〜102us。負荷試験は PASS で
@@ -1746,7 +1746,7 @@ DDC の PIO2 の入れ替えハックを外して **ハード I2C1** に戻し�
    `term_out`・キーの見張りを触っていた。背景の環は `sh_bg_poll`、パイプの前の段の stderr は前景の待ちの輪（`drain_fg`）だけが読む。起動の失敗の知らせも環へ
 3. **子の Ruby が `Kernel#system` でシェルを使っている間も、シェルのタスクが端末とキーを触っていた**（`child_wait`）。`sh_system_mode` の間は眠るだけ
 4. **Ruby の `STDERR` が stdout へ書いていた**（`mrbc_hal_write` が fd を見ていなかった）。実機でパイプの前の段の `STDERR.puts` が次の段に届いた。fd 2 は `rbterm_write_err` へ
-5. **SG BASIC の誤りの知らせ（`?/0 ERROR IN 20`）が stdout へ出ていた**（`SPEC_shell_lang.md` §1 と違う）。SGX ABI 3.5 で `term_write_err` を足し、
+5. **SG BASIC の誤りの知らせ（`?/0 ERROR IN 20`）が stdout へ出ていた**（仕様メモ（内部） §1 と違う）。SGX ABI 3.5 で `term_write_err` を足し、
    `SgTarget.write_err` で stderr へ（ホスト版はこれまでどおり stdout）。実機で `2> file` に入り、`| wc -l` に数えられないことを確かめた
 6. **背景の Python の間、シェルにキーが届かなかった**（`filer_key` が `py_active()` なら全部 Python へ渡した）。シェルが走っていて前景の子を待っていないときはシェルへ
 7. **背景の Ruby の始めと終わりで、シェルの未読のキーが捨てられた**（子の `R` と入れ替える・戻すときにキーの環ごと上書き）。実機で打った最初の字や途中の字が消えた。
@@ -1762,8 +1762,8 @@ DDC の PIO2 の入れ替えハックを外して **ハード I2C1** に戻し�
 13. `fstr_msg_exact` の宣言が無かった（`sgx.c` の組み立ての警告）。`mpy-cross` の「組み込んでいない」を stdout に出していた。MicroPython の版の文字列に番号が無かった
 
 ### 直した記述（記述と実態の違い）
-- docs/DEVELOPMENT.md・`SPEC_vram_alloc.md`: 「アリーナを触るのは core0 の冷たい経路だけ」（いまは core1 の多くのタスク）
-- `SPEC_m33beatos.md`・docs/DEVELOPMENT.md: タスクの表に 10/23 以降のタスク（filer 5・compact 6・cdviz 3・python 9・SGX 9+prio・シェルの段と背景 19）
+- docs/DEVELOPMENT.md・仕様メモ（内部）: 「アリーナを触るのは core0 の冷たい経路だけ」（いまは core1 の多くのタスク）
+- 仕様メモ（内部）・docs/DEVELOPMENT.md: タスクの表に 10/23 以降のタスク（filer 5・compact 6・cdviz 3・python 9・SGX 9+prio・シェルの段と背景 19）
 - docs/DEVELOPMENT.md: ファイラーの版、シェルのコマンドの数（56 -> 58）、SGX の ABI の版（3.0 / 3.1 までの記述、申し送りは 3.2 -> いまは 3.5）
 - コメント: `sysdisk.c` の `write_block`（512 B -> 64 B ずつ比べる）、`ftask.c` のスタック（4KB -> 16KB）、`sram_report.py` の S: の番地、
   `vmem.c` の「malloc を使えば NULL が返る」（いまは SG BASIC のヒープへ行く）
@@ -1824,7 +1824,7 @@ DDC の PIO2 の入れ替えハックを外して **ハード I2C1** に戻し�
 
 ## 2026-11-06（続き 2）: SGX ABI 4.0（sgnano_povray から）
 
-ユーザー指示: sgnano_povray（POV-Ray 3.7 の移植）の素案 `SPEC_sgx4_overlay_store.md` を読み、正式な ABI 4.0 を決め、インタフェースを先に渡し、そのあと実装と試し。
+ユーザー指示: sgnano_povray（POV-Ray 3.7 の移植）の素案 仕様メモ（内部） を読み、正式な ABI 4.0 を決め、インタフェースを先に渡し、そのあと実装と試し。
 決めたこと・わけは `docs/sgx_abi.md` の §9、引き渡しは `~/Project/sgnano_povray/docs/SGX_ABI4_FORMAL.md`。
 
 - **入れたもの**: ブロックストア（`store_open/close/get/release/prefetch/flush/stats/error`、§5.16）・`fb_lend_spare`（§5.17）・`SGX_EBUSY`。表は 3.5 の末尾に足しただけで、ファームは 3.x のプログラムも読み込む

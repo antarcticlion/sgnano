@@ -696,7 +696,7 @@ adc_capture(46, 47, buf, 4096);
 
 ### 5.28 FB のプリミティブ描画（5.3、2026-11-13）
 
-`SPEC_gfx.md` の描画を `gfx_*` で出す（`sdk/sgx/include/sgx_api.h` の末尾）。描く先 `t` は `SGX_GFX_FB`（いまの書き込みページ）・
+FB の描画（5.3）を `gfx_*` で出す（`sdk/sgx/include/sgx_api.h` の末尾）。描く先 `t` は `SGX_GFX_FB`（いまの書き込みページ）・
 `SGX_GFX_BITMAP`（モード 7）・`SGX_GFX_BITMAP_BACK`（後ろのページ）・`gfx_image_new` / `gfx_image_load` が返す番号（16 から）。
 状態（ペン・ブラシ・背景・ROP・塗りの規則・アンチエイリアス・切り抜き・行列・フォント・文字の色）は描く先ごとに持ち、プログラムが
 終わると既定へ戻り、画像は返す。色はその面の値（`gfx_rgb` で作れる）。点は `int32_t` の (x, y) の対。パスの座標は 24.8 の固定小数点、
@@ -778,7 +778,7 @@ adc_capture(46, 47, buf, 4096);
   `sgx_store_config_t`・`sgx_store_stats_t`・`SGX_STORE_*`）と `SGX_EBUSY` を表の末尾に追加（§5.16）。**3.x で組んだ `.sgx` はそのまま動く**（`SGX_ABI_COMPAT_MAJOR`）。
   ファームの側: `.sgx` をファイルから置き場へ直に読む（ファイラー・シェルの 1MB の上限と、像の 2 倍の PSRAM を使っていたのをやめた）。
   シェルの子の起動の誤りは理由ごとの番号（PSRAM が足りない = `SGX_ENOMEM`）。exFAT・NTFS の書き込みの作業場を PSRAM から取ったとき返し損ねていた（`appmem.c`）のも直した。
-  sgnano_povray（POV-Ray 3.7 の移植）の素案 `SPEC_sgx4_overlay_store.md` から決めた。素案のオーバーレイ（固定スロットへのコードの入れ替え）と `.SGX4` の入れ物は
+  sgnano_povray（POV-Ray 3.7 の移植）の素案から決めた。素案のオーバーレイ（固定スロットへのコードの入れ替え）と `.SGX4` の入れ物は
   4.0 には入れない（POV-Ray のコードが約 1.4MB と測れて、常駐で収まるため。要るときに 4.x で足す）。§9
 - 2026-11-06: **3.5**。stderr へ書く `term_write_err` を表の末尾に追加（§5.15）。3.4 で組んだ `.sgx` はそのまま動く
 - 2026-11-04: **3.4**。シェルから組み込みトラッカーを開く `request_tracker` を表の末尾に追加。3.3 で組んだ `.sgx` はそのまま動く
@@ -819,7 +819,7 @@ adc_capture(46, 47, buf, 4096);
 
 ## 9. ABI 4.0 の決め方（2026-11-06）
 
-sgnano_povray の素案（`~/Project/sgnano_povray/SPEC_sgx4_overlay_store.md`）を読み、次のように決めた。
+sgnano_povray の素案（<https://github.com/antarcticlion/sgnano_povray>）を読み、次のように決めた。
 
 | 素案 | 4.0 | わけ |
 |---|---|---|

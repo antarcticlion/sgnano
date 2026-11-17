@@ -1,6 +1,6 @@
 # 3 言語をシェルに統合する段取り（実装の手引き）
 
-版: 2026-11-02 ／ 仕様は `SPEC_shell_lang.md`、積み残し。別のエージェントが 1 段ずつ進められるように、段ごとに「触る所・やること・確かめ方」を書く。
+版: 2026-11-02 ／ 仕様は 仕様メモ（内部）、積み残し。別のエージェントが 1 段ずつ進められるように、段ごとに「触る所・やること・確かめ方」を書く。
 **各段は単独でコミットできる大きさにし、段ごとに実機で確かめる**。決まりごと（SRAM・フラッシュの置き場・書き込みの作法など）は docs/DEVELOPMENT.md に従う。
 
 ---
@@ -55,7 +55,7 @@
 
 ### 段 4: コマンド（仕様の §2〜§4）
 **【2026-11-02 済み（`500e455`）】**
-- `src/shell/sh_cmds.c` に `mruby` / `mirb` / `mrbc` / `micropython` / `mpy-cross`（入れるなら）/ `sgbasic` / `sgbc` を足す。スイッチは `SPEC_shell_lang.md` のとおり
+- `src/shell/sh_cmds.c` に `mruby` / `mirb` / `mrbc` / `micropython` / `mpy-cross`（入れるなら）/ `sgbasic` / `sgbc` を足す。スイッチは 仕様メモ（内部） のとおり
 - 拡張子で走らせる: `run_argv`（`sh_main.c`）で、コマンドが見つからず語に `.rb` などが付いていればその言語で
 - 組み込みの別名: `ruby` `irb` `python` `python3` `basic`（`sgsh_builtin_main` の初めに `sh_alias_set`）
 - 引数: `ARGV`（mruby の `mrb_define_global_const` で）、`sys.argv`（`mp_sys_argv`）、BASIC の `COMMAND$`（新しい組み込みの関数。`src/basic/src/vm/builtins.c` と `keywords.def`）

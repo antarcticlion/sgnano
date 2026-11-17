@@ -19,8 +19,7 @@
 | `docs/` | 3 言語のコーディングガイド、SGX の ABI、`Machine` の対応表、キー操作の早見表 |
 | `samples/` | mruby・MicroPython・SG BASIC の見本（3 言語で同じものがそろったテスト用アプリ、ベンチマーク、デモ） |
 | `sdk/sgx/` | C で外部実行ファイル（`.sgx`）を組むための SDK（ABI はα版の間に変わることがあります） |
-| `apps/` | SGX の見本（`hello`）と、copyleft のサブプロジェクト（`doom`・`wav2mp3`） |
-| `third_party/` | `apps/` が使う外部のソース（doomgeneric・LAME） |
+| `apps/` | SGX の見本（`hello`）。Doom と wav2mp3 のソースは別のリポジトリ（`sgnano_doomgeneric`・`sgnano_wav2mp3`） |
 | `hardware/` | C ボードのガーバー |
 | `LICENSES/` | ファームウェアと SGX に入っている外部の部品のライセンス文 |
 
@@ -117,7 +116,7 @@ sgnano を使ったこと、または使えなかったことによって生じ�
 
 - ファームウェアは**フリーソフトウェア**（無償で使える。バイナリの配布）として公開します。
 - ファームウェアに入っている外部の部品のライセンス文は `LICENSES/` にあります。一覧は [`LICENSES/README.md`](LICENSES/README.md)。
-- `apps/doom` と `third_party/doomgeneric` は **GPL-2.0**、`apps/wav2mp3` が静的にリンクする `third_party/lame` は **LGPL** です。
+- Doom（GPL-2.0）と wav2mp3（LGPL-2.0-or-later、LAME）のソースとビルドの手順は、別のリポジトリ [`sgnano_doomgeneric`](https://github.com/antarcticlion/sgnano_doomgeneric) と [`sgnano_wav2mp3`](https://github.com/antarcticlion/sgnano_wav2mp3) にあります。
 - `samples/` の見本のプログラムは **MIT** です（`samples/LICENSE`。`neon_c/` も MIT）。`samples/sound/WTF4CH.mid` は **CC0** です（`samples/sound/LICENSE`）。
 - `sdk/sgx/` は **MIT**、`apps/hello` は **CC0**、`docs/` は **CC BY-SA 4.0**、`hardware/`（ガーバー）は **CERN-OHL-P-2.0** です（それぞれのフォルダの `LICENSE`）。
 

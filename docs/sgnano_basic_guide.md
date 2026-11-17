@@ -9,7 +9,7 @@ SG BASIC は Microsoft BASIC（6502 版）を C に移したもので、GW-BASIC
 画面・音・パッドの口（`Machine`・`Sound`）は Ruby・Python と同じ名前・同じ働きにそろえてあります（対応表 `docs/machine_api.md`、
 細かい働きは `docs/sgnano_ruby_guide.md` の §7・§9）。
 
-【2026-11-17】**FB・ビットマップ・画像の描画**（線・図形・パス・文字・転送、§5）と**圧縮と書庫**（`Machine.Arc*`、§6）を足した（ABI 5.3・5.12、`SPEC_gfx.md`）。
+【2026-11-17】**FB・ビットマップ・画像の描画**（線・図形・パス・文字・転送、§5）と**圧縮と書庫**（`Machine.Arc*`、§6）を足した（ABI 5.3・5.12）。
 
 ---
 
@@ -201,7 +201,7 @@ R = Machine.Pio2SmEnable(0, 0)
 R = Machine.Pio2SmUnclaim(0)
 ```
 
-### FB・ビットマップ・画像の描画（2026-11-13、`SPEC_gfx.md`）
+### FB・ビットマップ・画像の描画（2026-11-13）
 
 Ruby・Python と同じ描画のメソッドを、BASIC の名前にしてある。**FrameBuffer のものは `Machine` に直接**、
 **ビットマップは `Bm`**、**画像は `Img`（先頭に取っ手）**が付く。

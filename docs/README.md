@@ -1,20 +1,17 @@
 # sgnano ドキュメントの入口
 
 このディレクトリは、ファームウェアの**現在の状態**・**仕様**・**調査の記録**を分けて置いています。
-「いまどうなっているか」を探すときは `../CLAUDE.md`、理由や実測値を探すときは `notes/` を読んでください。
+「いまどうなっているか」を探すときは [`DEVELOPMENT.md`](DEVELOPMENT.md)、理由や実測値を探すときは `notes/` を読んでください。
 
 ## まず読むもの
 
 | 文書 | 中身 | いつ更新するか |
 |---|---|---|
-| [`../CLAUDE.md`](../CLAUDE.md) | 現在の状態・決まりごと・ビルド/書き込み/試験の手順・積み残し | 状態や方針が変わったとき。結論だけを書く |
 | [`notes/`](notes/) | 分野ごとの調査記録（日付つきの追記） | 現象・実測・対処を記録するとき |
 | [`DEVELOPMENT.md`](DEVELOPMENT.md) | 現在の状態・設計の決まり・用語（公開用） | 開発ガイドを更新したとき |
 | [`machine_api.md`](machine_api.md) | mruby / MicroPython / SG BASIC の `Machine` 対応表 | API を足したとき |
 | [`sgx_abi.md`](sgx_abi.md) | SGX（外部実行ファイル）の ABI | ABI を変えたとき |
 | [`TEST_PLAN_2026-10-31.md`](TEST_PLAN_2026-10-31.md) | 実機試験の計画 | 試験を足したとき |
-| [`release/`](release/) | リリースエンジニアリングの方針・計画・成果物・チェックリスト・ライセンス | リリース準備を進めたとき |
-| `../SPEC_*.md` | m33beatos・sound・mruby・rubyfile・rubymachine・vram_alloc・shell_lang の仕様 | 仕様を変えたとき |
 | `../PLAN_*.md` | lowres 2core・shell 言語統合の段取り | 計画を進めたとき |
 | `sgnano_ruby_guide.md` / `sgnano_python_guide.md` / `sgnano_basic_guide.md` | 書く人向けの言語ガイド（PDF あり） | 言語機能を変えたとき |
 
@@ -54,21 +51,21 @@
 | 音源・シーケンサー | `src/audio/` | `notes/audio.md` |
 | ADC（単発・96kHz 取り込み） | `src/audio/adcin.c` | `notes/audio.md`、`machine_api.md`、`sgx_abi.md` §5.27 |
 | ファイラーのキー・一覧・コピー | `src/filer/filer.c`、`fio.c`、`fcopy.c`、`ftree.c` | `notes/system.md` |
-| 言語（Ruby/Python/BASIC） | `src/ruby/`、`src/python/`、`src/basic/` | `notes/mruby` は `SPEC_mruby.md`、`notes/micropython.md` |
-| シェル | `src/shell/` | `notes/system.md`、`SPEC_shell_lang.md` |
+| 言語（Ruby/Python/BASIC） | `src/ruby/`、`src/python/`、`src/basic/` | `notes/system.md`、`notes/micropython.md` |
+| シェル | `src/shell/` | `notes/system.md` |
 | SGX | `src/sgx/`、`sdk/sgx/`、`apps/` | `sgx_abi.md`、`notes/system.md` |
 | GPIO / PIO2 / MIDI | `src/gpio/`、`src/midi/`、`src/tusb_config.h` | `machine_api.md`、`sgx_abi.md` §5.25〜5.26、`notes/audio.md`、`notes/usb.md` |
-| RTOS・タスク | `src/rtos/` | `SPEC_m33beatos.md`、`notes/system.md` |
-| メモリ（SRAM/PSRAM） | `src/mem/`、`src/psram/` | `notes/devenv.md`、`SPEC_vram_alloc.md` |
+| RTOS・タスク | `src/rtos/` | `notes/system.md` |
+| メモリ（SRAM/PSRAM） | `src/mem/`、`src/psram/` | `notes/devenv.md` |
 | ネットワーク | `src/net/` | `notes/system.md` |
 | ビルド・書き込み・試験 | `scripts/`、`CMakeLists.txt` | `notes/devenv.md` |
 
 ## 書き方の決まり
 
-1. **現在の状態は `CLAUDE.md` にだけ書く。** 調査の経緯・実測値・失敗した案は `notes/` に書く。
+1. **現在の状態は `DEVELOPMENT.md` に書く。** 調査の経緯・実測値・失敗した案は `notes/` に書く。
 2. **ノートは追記式。** 分野ごとのファイルの末尾に `## YYYY-MM-DD 見出し` を足す。古い記述を消さず、
-   訂正するときは【訂正】、【追記】を付ける（`CLAUDE.md` の冒頭にも同じ決まりがある）。
-3. **仕様は `SPEC_*.md`。** 実装の意図と API の約束を書き、日付つきの経緯はノートへ。
+   訂正するときは【訂正】、【追記】を付ける（`DEVELOPMENT.md` の冒頭にも同じ決まりがある）。
+3. **仕様メモ（`SPEC_*.md`）は内部に置く。** 実装の意図と API の約束を書き、日付つきの経緯はノートへ。
 4. **PDF は Markdown から作る。** `python3 scripts/md2pdf.py <md> <pdf>`。手で PDF を編集しない。
 5. **試験を伴う変更は、変更した分野のノートに「どう確かめたか」を残す。**
    ホストは `scripts/test_all.sh`、HDD 接続の起動は `scripts/test_launch.py`。
@@ -87,5 +84,4 @@ python3 scripts/test_launch.py   # HDD 接続で S:/testapp のテストを起�
 python3 scripts/md2pdf.py docs/sgnano_ruby_guide.md docs/sgnano_ruby_guide.pdf
 ```
 
-ビルド構成・書き込みの作法・ウォッチドッグ・QSPI の復旧などは `../CLAUDE.md` の
-「ビルド・書き込み・実機の操作」と `notes/devenv.md` を参照。
+ビルド構成・書き込みの作法・ウォッチドッグ・QSPI の復旧などは `notes/devenv.md` を参照。
