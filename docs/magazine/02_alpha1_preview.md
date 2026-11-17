@@ -332,3 +332,7 @@ USB のハブの先での抜き差し（継続調査）、エンドポイント 
 > ソフト: ファイラー、M33BEATOS、mruby 4.0.0、MicroPython 1.29.0、SG BASIC R03.001、SGX ABI 5.12（5.x 凍結）、EmbFont16 v2.0、表示の言語 62
 > 配布: UF2 × 3 + IME の辞書。ファームはフリーソフトウェア（バイナリ）、ソースは後のリリースで MIT の予定
 > 価格: 個人のプロジェクトにつき設定なし（基板・完成品の頒布は検討中）
+
+---
+
+**sgnano magazine**　[第 1 号](01_alpha_review.md) / [第 2 号](02_alpha1_preview.md) / [ダウンロード（Releases）](https://github.com/antarcticlion/sgnano/releases/latest)

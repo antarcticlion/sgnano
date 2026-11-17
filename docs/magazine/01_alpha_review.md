@@ -371,3 +371,7 @@ sgnano は製品ではない。完成もしていない。だが、「マイコ�
 | 末尾の枠: 評価した版の ABI 5.5 | α1 では ABI 5.12（IME の口・表計算のマクロ・進み具合の窓・圧縮と書庫を追加） |
 
 本記事で「α版としてどこが危ういか」と書いた点のうち、いちばん重かった起動の問題は、古いステッピングのものと分かった。一方で、記事の公開後に新しく見つかった不具合もある（一覧で Shift+F1〜F12 が効かない、MicroPython の見本の 2 本が動かない、など）。これらは α2 で直す予定で、α1 の既知の制約に書かれている。
+
+---
+
+**sgnano magazine**　[第 1 号](01_alpha_review.md) / [第 2 号](02_alpha1_preview.md) / [ダウンロード（Releases）](https://github.com/antarcticlion/sgnano/releases/latest)
