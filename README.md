@@ -48,7 +48,7 @@
 
 ## 画面
 
-実機の画面です（640x480。将棋と jumps は写真）。ほかにも `images/` にあります。
+実機の画面です（640x480。将棋・jumps・時計・CD は写真）。ほかにも `images/` にあります。
 
 | | |
 |---|---|
@@ -56,6 +56,7 @@
 | ![画面モード 3](images/mode3.jpg)<br>**画面モード 3**。テキスト + ローレゾ + CLUT8 の FB。 | ![画面モード 7](images/mode7.jpg)<br>**画面モード 7**。320x200x256 のプラズマとテキスト 25 行。 |
 | ![jumps](images/jumps.jpg)<br>**jumps**（SGX の見本）。横スクロールのゲーム。 | ![フォント](images/fontdemo.jpg)<br>**フォントは 57,404 字**。色・線・回転・倍角を 1 画面で。 |
 | ![将棋](images/shogi.jpg)<br>**将棋**（mruby の見本）。 | ![SGCALC](images/sgcalc.jpg)<br>**SGCALC**。mruby / MicroPython / SG BASIC のマクロ。 |
+| ![CD のスペクトログラム](images/cd.jpg)<br>**CD のスペクトログラム**。44.1kHz ステレオ、128x128 を 2 面。 | ![時計](images/clock.jpg)<br>**時計**（F11）。NTP で合わせた日本時間。 |
 | ![シェル](images/shell.jpg)<br>**シェル sgsh**。csh のサブセット、組み込みコマンド 70 個。 | ![About](images/about.jpg)<br>**About**（F1 → → → →）。ビルド ID・ABI・フォント・言語数。 |
 
 ## 書き込み
