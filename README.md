@@ -31,7 +31,10 @@
 - **音**: PT8211 x 4（1 チップに 1 声）。オペアンプで混ぜ、カットオフ 150kHz の LPF を通してラインアウトへ
 - **入出力**: USB ホスト（フルスピード）、DIN MIDI、GPIO 8 本（PIO2 をユーザーに開放）、ADC
 
-基板（C ボード、100 x 100mm）のガーバーは `hardware/c_board/` にあります。手はんだを前提にした高密度の実装です。
+基板（C ボード、100 x 100mm）のガーバーと組み立てガイドは `hardware/c_board/` にあります。手はんだを前提にした高密度の実装です。
+
+- [組み立てガイド（Markdown）](hardware/c_board/ASSEMBLY.md) / [PDF（26 ページ）](hardware/c_board/ASSEMBLY.pdf)
+- [部品表（BOM）](hardware/c_board/C_BOARD_BOM.csv) / [配置（1 部品ごと）](hardware/c_board/C_BOARD_PLACEMENT.csv)
 
 ![C ボード](images/c_board.jpg)
 

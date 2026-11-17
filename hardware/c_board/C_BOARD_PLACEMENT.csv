@@ -1,0 +1,142 @@
+﻿Reference,Value,Package,Side,Mounting,X_mm,Y_mm,Rotation_deg,Note
+A1,Debug Probe,Module:RaspberryPi_Pico_Common_Unspecified,B,THT,82.490,123.630,0,optional debug probe; Pico/Pico 2 pinout; SWD GND differs from WeAct
+C1,1uF,Capacitor_THT:C_Rect_L7.2mm_W5.5mm_P5.00mm_FKS2_FKP2_MKS2_MKP2,F,THT,99.200,103.300,90,
+C2,1uF,Capacitor_THT:C_Rect_L7.2mm_W5.5mm_P5.00mm_FKS2_FKP2_MKS2_MKP2,F,THT,105.716,103.300,90,
+C3,1uF,Capacitor_THT:C_Rect_L7.2mm_W5.5mm_P5.00mm_FKS2_FKP2_MKS2_MKP2,F,THT,112.233,103.300,90,
+C4,1uF,Capacitor_THT:C_Rect_L7.2mm_W5.5mm_P5.00mm_FKS2_FKP2_MKS2_MKP2,F,THT,118.749,103.300,90,
+C5,1uF,Capacitor_THT:C_Rect_L7.2mm_W5.5mm_P5.00mm_FKS2_FKP2_MKS2_MKP2,F,THT,125.265,103.300,90,
+C6,1uF,Capacitor_THT:C_Rect_L7.2mm_W5.5mm_P5.00mm_FKS2_FKP2_MKS2_MKP2,F,THT,131.782,103.300,90,
+C7,1uF,Capacitor_THT:C_Rect_L7.2mm_W5.5mm_P5.00mm_FKS2_FKP2_MKS2_MKP2,F,THT,138.298,103.300,90,
+C8,1uF,Capacitor_THT:C_Rect_L7.2mm_W5.5mm_P5.00mm_FKS2_FKP2_MKS2_MKP2,F,THT,144.814,103.300,90,
+C9,10uF,Capacitor_THT:CP_Radial_D5.0mm_P2.50mm,F,THT,146.505,73.200,180,electrolytic; pin 1 = +
+C10,0.1uF,Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P5.00mm,B,THT,134.240,76.120,0,
+C11,0.1uF,Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P5.00mm,F,THT,106.000,124.800,90,
+C12,0.1uF,Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P5.00mm,F,THT,146.800,87.000,180,
+C15,47uF,Capacitor_THT:CP_Radial_D5.0mm_P2.50mm,F,THT,130.060,90.620,-90,electrolytic; pin 1 = +
+C16,10uF,Capacitor_THT:CP_Radial_D5.0mm_P2.50mm,F,THT,146.505,64.200,180,electrolytic; pin 1 = +
+C17,0.1uF,Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P5.00mm,F,THT,124.089,109.010,-90,
+C18,0.1uF,Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P5.00mm,F,THT,134.852,109.010,-90,
+C19,0.1uF,Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P5.00mm,F,THT,113.326,109.010,-90,
+C20,0.1uF,Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P5.00mm,F,THT,145.615,109.010,-90,
+C25,47uF,Capacitor_THT:CP_Radial_D5.0mm_P2.50mm,F,THT,117.900,68.000,0,electrolytic; pin 1 = +
+C26,100pF,Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P5.00mm,F,THT,103.600,81.540,90,
+C27,100pF,Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P5.00mm,F,THT,118.600,81.540,90,
+C28,0.1uF,Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P5.00mm,B,THT,110.600,78.540,-90,
+C29,470pF,Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P5.00mm,F,THT,85.817,94.880,90,
+C30,470pF,Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P5.00mm,F,THT,89.417,94.880,90,
+C31,0.1uF,Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P5.00mm,B,THT,88.210,74.550,-90,
+C32,100pF,Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P5.00mm,F,THT,80.970,77.530,90,
+C33,100pF,Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P5.00mm,F,THT,95.450,77.530,90,
+C34,22uF,Capacitor_THT:CP_Radial_D5.0mm_P2.50mm,F,THT,107.200,71.000,90,electrolytic; pin 1 = +
+C35,22uF,Capacitor_THT:CP_Radial_D5.0mm_P2.50mm,F,THT,100.200,71.000,90,electrolytic; pin 1 = +
+C38,47uF,Capacitor_THT:CP_Radial_D5.0mm_P2.50mm,F,THT,136.000,123.000,0,electrolytic; pin 1 = +
+C39,47uF,Capacitor_THT:CP_Radial_D5.0mm_P2.50mm,F,THT,146.800,82.300,180,electrolytic; pin 1 = +
+D1,POWLED,LED_THT:LED_D3.0mm,F,THT,56.300,137.200,180,LED; long lead = anode
+D2,1N4148,Diode_THT:D_A-405_P7.62mm_Horizontal,F,THT,125.000,128.010,90,diode; band = cathode
+FB1,FB,Diode_THT:D_A-405_P2.54mm_Vertical_AnodeUp,F,THT,125.245,62.500,180,"ferrite bead, not a diode"
+FB2,FB,Diode_THT:D_A-405_P2.54mm_Vertical_AnodeUp,F,THT,87.000,67.045,90,"ferrite bead, not a diode"
+FB3,FB,Diode_THT:D_A-405_P2.54mm_Vertical_AnodeUp,F,THT,146.800,92.545,90,"ferrite bead, not a diode"
+H1,M3,MountingHole:MountingHole_3.2mm_M3,F,THT,145.000,55.000,0,M3 mounting hole
+H2,M3,MountingHole:MountingHole_3.2mm_M3,F,THT,55.000,55.000,0,M3 mounting hole
+H3,M3,MountingHole:MountingHole_3.2mm_M3,F,THT,55.000,145.000,0,M3 mounting hole
+H4,M3,MountingHole:MountingHole_3.2mm_M3,F,THT,145.000,145.000,0,M3 mounting hole
+J1,BUS1,Connector_PinHeader_2.54mm:PinHeader_2x26_P2.54mm_Vertical,F,THT,53.960,63.000,0,
+J2,VIDEO OUT,ryuk_lib5:DB_15F-VGA_L_NOSILK,F,THT,74.310,47.088,180,
+J3,MIDI IN,ryuk_lib5:DIN_8_PCB,F,THT,131.700,139.900,0,
+J4,AUDIO OUT,ryuk_lib5:PJ-3900-04,F,THT,100.000,50.000,0,
+J5,USB POWER,Connector_USB:USB_B_Lumberg_2411_02_Horizontal,F,THT,130.500,58.300,90,
+J6,MIDI OUT,ryuk_lib5:DIN_8_PCB,F,THT,112.700,139.900,0,
+J7,RX_EN,Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical,F,THT,63.800,103.775,180,UART jumper
+J8,AUDIO IN,ryuk_lib5:PJ-3900-04,F,THT,113.075,50.000,0,
+J9,IO_EXT,Connector_IDC:IDC-Header_2x05_P2.54mm_Horizontal,F,THT,144.160,123.040,0,
+J10,TX_EN,Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical,F,THT,68.190,101.200,0,UART jumper
+J12,SWD,Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical,F,THT,68.200,117.960,0,right-angle header; solder after A1 + Kapton tape
+R1,330R,Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P2.54mm_Vertical,F,THT,64.660,71.140,0,
+R2,330R,Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P2.54mm_Vertical,F,THT,64.660,73.340,0,
+R3,330R,Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P2.54mm_Vertical,F,THT,64.660,75.540,0,
+R4,330R,Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P2.54mm_Vertical,F,THT,64.660,77.740,0,
+R5,330R,Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P2.54mm_Vertical,F,THT,64.660,79.940,0,
+R6,180Ω,Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P2.54mm_Vertical,F,THT,64.660,82.140,0,
+R7,180Ω,Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P2.54mm_Vertical,F,THT,64.660,84.340,0,
+R8,180Ω,Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P2.54mm_Vertical,F,THT,64.660,86.540,0,
+R9,180Ω,Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P2.54mm_Vertical,F,THT,64.660,88.740,0,
+R10,180Ω,Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P2.54mm_Vertical,F,THT,64.660,90.940,0,
+R11,1KR,Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P2.54mm_Vertical,F,THT,56.220,133.600,180,
+R12,120R,Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P2.54mm_Vertical,F,THT,64.660,66.740,0,
+R13,10R,Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P2.54mm_Vertical,F,THT,64.660,68.940,0,
+R14,330R,Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P2.54mm_Vertical,F,THT,69.270,71.140,0,
+R15,330R,Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P2.54mm_Vertical,F,THT,69.270,73.340,0,
+R16,330R,Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P2.54mm_Vertical,F,THT,69.270,75.540,0,
+R17,330R,Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P2.54mm_Vertical,F,THT,69.270,77.740,0,
+R18,330R,Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P2.54mm_Vertical,F,THT,69.270,79.940,0,
+R19,180Ω,Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P2.54mm_Vertical,F,THT,69.270,82.140,0,
+R20,180Ω,Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P2.54mm_Vertical,F,THT,69.270,84.340,0,
+R21,180Ω,Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P2.54mm_Vertical,F,THT,69.270,86.540,0,
+R22,180Ω,Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P2.54mm_Vertical,F,THT,69.270,88.740,0,
+R23,180Ω,Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P2.54mm_Vertical,F,THT,69.270,90.940,0,
+R24,120R,Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P2.54mm_Vertical,F,THT,69.270,66.740,0,
+R25,10R,Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P2.54mm_Vertical,F,THT,69.270,68.940,0,
+R26,330R,Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P2.54mm_Vertical,F,THT,73.880,71.140,0,
+R27,330R,Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P2.54mm_Vertical,F,THT,73.880,73.340,0,
+R28,330R,Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P2.54mm_Vertical,F,THT,73.880,75.540,0,
+R29,330R,Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P2.54mm_Vertical,F,THT,73.880,77.740,0,
+R30,330R,Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P2.54mm_Vertical,F,THT,73.880,79.940,0,
+R31,180Ω,Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P2.54mm_Vertical,F,THT,73.880,82.140,0,
+R32,180Ω,Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P2.54mm_Vertical,F,THT,73.880,84.340,0,
+R33,180Ω,Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P2.54mm_Vertical,F,THT,73.880,86.540,0,
+R34,180Ω,Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P2.54mm_Vertical,F,THT,73.880,88.740,0,
+R35,180Ω,Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P2.54mm_Vertical,F,THT,73.880,90.940,0,
+R36,120R,Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P2.54mm_Vertical,F,THT,73.880,66.740,0,
+R37,10R,Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P2.54mm_Vertical,F,THT,73.880,68.940,0,
+R38,68R,Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P2.54mm_Vertical,F,THT,83.350,64.180,-90,
+R39,68R,Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P2.54mm_Vertical,F,THT,80.200,64.180,-90,
+R40,1KR,Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P2.54mm_Vertical,F,THT,129.240,73.000,180,
+R41,1KR,Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P2.54mm_Vertical,F,THT,129.240,75.200,180,
+R42,1KR,Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P2.54mm_Vertical,F,THT,129.240,77.400,180,
+R43,1KR,Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P2.54mm_Vertical,F,THT,129.240,79.600,180,
+R44,47KR,Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P2.54mm_Vertical,F,THT,99.800,91.540,90,
+R45,47KR,Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P2.54mm_Vertical,F,THT,102.950,91.540,90,
+R46,47KR,Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P2.54mm_Vertical,F,THT,106.100,91.540,90,
+R47,47KR,Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P2.54mm_Vertical,F,THT,109.250,91.540,90,
+R48,47KR,Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P2.54mm_Vertical,F,THT,112.400,91.540,90,
+R49,47KR,Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P2.54mm_Vertical,F,THT,115.550,91.540,90,
+R50,47KR,Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P2.54mm_Vertical,F,THT,118.700,91.540,90,
+R51,47KR,Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P2.54mm_Vertical,F,THT,121.850,91.540,90,
+R52,10KR,Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P2.54mm_Vertical,F,THT,135.600,84.660,-90,
+R53,10KR,Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P2.54mm_Vertical,F,THT,139.840,66.400,-90,
+R54,10KR,Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P2.54mm_Vertical,F,THT,137.300,93.200,90,
+R55,10KR,Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P2.54mm_Vertical,F,THT,130.060,87.160,90,
+R56,10R,Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P2.54mm_Vertical,F,THT,105.560,127.900,0,
+R57,33Ω,Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P2.54mm_Vertical,F,THT,112.560,127.900,0,
+R58,220R,Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P2.54mm_Vertical,F,THT,131.600,125.680,-90,
+R59,180Ω,Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P2.54mm_Vertical,F,THT,64.660,93.140,0,
+R60,10KR,Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P2.54mm_Vertical,F,THT,111.360,67.000,0,
+R61,10KR,Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P2.54mm_Vertical,F,THT,111.360,70.000,0,
+R62,15KR,Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P2.54mm_Vertical,F,THT,100.900,79.040,90,
+R63,15KR,Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P2.54mm_Vertical,F,THT,121.600,79.040,90,
+R64,4.7KR,Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P2.54mm_Vertical,F,THT,82.667,92.320,90,
+R65,4.7KR,Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P2.54mm_Vertical,F,THT,92.567,92.320,90,
+R66,4.7KR,Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P2.54mm_Vertical,F,THT,86.500,87.320,90,
+R67,4.7KR,Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P2.54mm_Vertical,F,THT,91.567,87.320,90,
+R68,4.7KR,Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P2.54mm_Vertical,F,THT,83.967,87.320,90,
+R69,4.7KR,Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P2.54mm_Vertical,F,THT,89.033,87.320,90,
+R70,100R,Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P2.54mm_Vertical,F,THT,80.570,70.230,0,
+R71,100R,Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P2.54mm_Vertical,F,THT,95.890,70.230,180,
+R72,100KR,Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P2.54mm_Vertical,F,THT,105.000,64.000,180,
+R73,100KR,Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P2.54mm_Vertical,F,THT,95.000,64.000,0,
+R74,100KR,Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P2.54mm_Vertical,F,THT,118.000,64.000,180,
+R75,100KR,Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P2.54mm_Vertical,F,THT,108.000,64.000,0,
+R76,180Ω,Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P2.54mm_Vertical,F,THT,69.270,93.140,0,
+R77,180Ω,Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P2.54mm_Vertical,F,THT,73.880,93.140,0,
+R78,10KR,Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P2.54mm_Vertical,F,THT,81.780,138.100,0,
+SW1,SW_POWER,ryuk_lib5:2MS1T1B4M7QES,F,THT,68.500,145.900,180,
+SW2,RESET,Button_Switch_THT:SW_SPST_Omron_B3F-315x_Angled,F,THT,84.950,147.400,180,
+U1,WeAct_RP2350B,Ryuk_lib9:WeAct_RP2350B,F,THT,80.440,135.060,180,USB-C faces bottom edge; install ESP-PSRAM64H on back; remove user-switch pull-up
+U2,PT8211,Package_SO:SOP-8_3.9x4.9mm_P1.27mm,F,SMD,108.010,111.510,90,SMD; pin 1 marked
+U3,PT8211,Package_SO:SOP-8_3.9x4.9mm_P1.27mm,F,SMD,118.773,111.510,90,SMD; pin 1 marked
+U4,PT8211,Package_SO:SOP-8_3.9x4.9mm_P1.27mm,F,SMD,129.536,111.510,90,SMD; pin 1 marked
+U5,PT8211,Package_SO:SOP-8_3.9x4.9mm_P1.27mm,F,SMD,140.299,111.510,90,SMD; pin 1 marked
+U6,NJM2737D,Package_DIP:DIP-8_W7.62mm_Socket,F,THT,132.260,80.020,90,
+U7,TLP2361,Package_SO:SO-5_4.4x3.6mm_P1.27mm,F,SMD,114.200,122.700,180,SMD; pin 1 marked
+U10,NJM2737D,Package_DIP:DIP-8_W7.62mm_Socket,F,THT,106.980,76.960,0,
+U11,NJM2737D,Package_DIP:DIP-8_W7.62mm_Socket,F,THT,84.400,73.060,0,

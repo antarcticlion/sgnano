@@ -1,0 +1,49 @@
+﻿No,Category,Value,Qty,References,Spec,Package,Side,Mounting,Candidate,Notes
+1,モジュール,WeAct RP2350B Core Board,1,U1,16MB Flash / PSRAM未搭載（ESP-PSRAM64Hを追加） / RP2350B / 2x30 2.54mm,2x30 ピンモジュール,F,THT,WeAct Studio RP2350B Core Board,PSRAMは別途ESP-PSRAM64Hを裏面に実装。ユーザースイッチのプルアップ抵抗を除去。2x30ピンソケット推奨。USB-Cは下辺（MIDI側）
+2,IC,PT8211,4,"U2,U3,U4,U5",16bit DAC / SOP-8 / 1.27mmピッチ,SOP-8 3.9x4.9mm,F,SMD,PT8211-S,4声分。ピン1の三角マークとパッケージのドットを合わせる
+3,IC,NJM2737D,3,"U6,U10,U11",デュアルオペアンプ / DIP-8 / 7.62mm幅,DIP-8,F,THT,NJM2737D,DIP-8ソケット使用。ノッチとピン1を合わせる
+4,IC,TLP2361,1,U7,フォトカプラ / SO-5 / 1.27mmピッチ,SO-5 4.4x3.6mm,F,SMD,"TLP2361(TPL,E)",MIDI IN用。ピン2は無い。ピン1の三角マーク注意
+5,LED,POWLED,1,D1,3mm赤色LED / 電源表示,LED_D3.0mm,F,THT,L-53SRD など,長脚=アノード(+)、短脚=カソード(-)。逆付け注意
+6,ダイオード,1N4148,1,D2,小信号ダイオード / DO-35 / 7.62mmピッチ,DO-35 軸形,F,THT,1N4148,帯=カソード。シルクのKに合わせる
+7,抵抗,330Ω,15,"R1,R2,R3,R4,R5,R14,R15,R16,R17,R18,R26,R27,R28,R29,R30",1/4W 1% 金属皮膜 / 軸形 / 縦実装,R_Axial_DIN0204 縦,F,THT,Yageo MFR-25FBF52-330R,VGA R/G/Bの各5本。33Ωと混同注意
+8,抵抗,180Ω,18,"R6,R7,R8,R9,R10,R19,R20,R21,R22,R23,R31,R32,R33,R34,R35,R59,R76,R77",1/4W 1% 金属皮膜 / 軸形 / 縦実装,R_Axial_DIN0204 縦,F,THT,Yageo MFR-25FBF52-180R,VGAラダー15本＋終端3本（R59/R76/R77）
+9,抵抗,120Ω,3,"R12,R24,R36",1/4W 1% 金属皮膜 / 軸形 / 縦実装,R_Axial_DIN0204 縦,F,THT,Yageo MFR-25FBF52-120R,VGA出力の直列抵抗
+10,抵抗,10Ω,4,"R13,R25,R37,R56",1/4W 1% 金属皮膜 / 軸形 / 縦実装,R_Axial_DIN0204 縦,F,THT,Yageo MFR-25FBF52-10R,R13/R25/R37=VGA終端、R56=MIDI OUT
+11,抵抗,68Ω,2,"R38,R39",1/4W 1% 金属皮膜 / 軸形 / 縦実装,R_Axial_DIN0204 縦,F,THT,Yageo MFR-25FBF52-68R,HSYNC / VSYNC
+12,抵抗,47kΩ,8,"R44,R45,R46,R47,R48,R49,R50,R51",1/4W 1% 金属皮膜 / 軸形 / 縦実装,R_Axial_DIN0204 縦,F,THT,Yageo MFR-25FBF52-47K,オーディオミキサ入力。4声×L/Rの8本
+13,抵抗,15kΩ,2,"R62,R63",1/4W 1% 金属皮膜 / 軸形 / 縦実装,R_Axial_DIN0204 縦,F,THT,Yageo MFR-25FBF52-15K,ミキサの帰還抵抗
+14,抵抗,4.7kΩ,6,"R64,R65,R66,R67,R68,R69",1/4W 1% 金属皮膜 / 軸形 / 縦実装,R_Axial_DIN0204 縦,F,THT,Yageo MFR-25FBF52-4K7,オーディオLPF
+15,抵抗,100Ω,2,"R70,R71",1/4W 1% 金属皮膜 / 軸形 / 縦実装,R_Axial_DIN0204 縦,F,THT,Yageo MFR-25FBF52-100R,オーディオ出力の直列抵抗
+16,抵抗,1kΩ,5,"R11,R40,R41,R42,R43",1/4W 1% 金属皮膜 / 軸形 / 縦実装,R_Axial_DIN0204 縦,F,THT,Yageo MFR-25FBF52-1K,R11=LED、R40-R43=ADC入力/オーディオ入力
+17,抵抗,10kΩ,7,"R52,R53,R54,R55,R60,R61,R78",1/4W 1% 金属皮膜 / 軸形 / 縦実装,R_Axial_DIN0204 縦,F,THT,Yageo MFR-25FBF52-10K,バイアス、リセット、オーディオ入力
+18,抵抗,100kΩ,4,"R72,R73,R74,R75",1/4W 1% 金属皮膜 / 軸形 / 縦実装,R_Axial_DIN0204 縦,F,THT,Yageo MFR-25FBF52-100K,オーディオ入力のバイアス
+19,抵抗,220Ω,1,R58,1/4W 1% 金属皮膜 / 軸形 / 縦実装,R_Axial_DIN0204 縦,F,THT,Yageo MFR-25FBF52-220R,MIDI INの電流制限
+20,抵抗,33Ω,1,R57,1/4W 1% 金属皮膜 / 軸形 / 縦実装,R_Axial_DIN0204 縦,F,THT,Yageo MFR-25FBF52-33R,MIDI OUTの+3V3側
+21,コンデンサ,1µF,8,"C1,C2,C3,C4,C5,C6,C7,C8",5mmピッチ 積層フィルム / 7.2x5.5mm / 50V以上,C_Rect 5mm,F,THT,WIMA MKS2 1µF/50V など / C0G MLCC可,極性なし。オーディオ結合。C1-C8。C0G MLCC可
+22,コンデンサ,0.1µF,9,"C10,C11,C12,C17,C18,C19,C20,C28,C31",5mmピッチ セラミックディスク / 50V / X7R,C_Disc 5mm,B/F,THT,50V X7R ディスク,C10/C28/C31は裏面。デカップリング
+23,コンデンサ,100pF,4,"C26,C27,C32,C33",5mmピッチ フィルム / 50V以上,5mmピッチ,F,THT,WIMA FKP2 100pF/100V など / C0G MLCC可,オーディオLPF。C0G MLCC可
+24,コンデンサ,470pF,2,"C29,C30",5mmピッチ フィルム / 50V以上,5mmピッチ,F,THT,WIMA FKP2 470pF/100V など / C0G MLCC可,オーディオLPF。C0G MLCC可
+25,コンデンサ,10µF,2,"C9,C16",5mm径 / 2.5mmピッチ / 25V以上,CP_Radial 5mm,F,THT,Rubycon 25YXJ10M5X11 など,極性あり。+は長脚
+26,コンデンサ,22µF,2,"C34,C35",5mm径 / 2.5mmピッチ / 25V以上,CP_Radial 5mm,F,THT,Rubycon 25YXJ22M5X11 など,極性あり。オーディオ出力の結合
+27,コンデンサ,47µF,4,"C15,C25,C38,C39",5mm径 / 2.5mmピッチ / 25V以上,CP_Radial 5mm,F,THT,Rubycon 25YXJ47M5X11 など,極性あり。電源/バイアス
+28,コネクタ,BUS1 (2x26),1,J1,2x26 / 2.54mm / 垂直 / オス,PinHeader 2x26,F,THT,2x26 2.54mm ピンヘッダ,ピン1は四角パッド。左辺に実装
+29,コネクタ,VIDEO OUT (VGA),1,J2,DB-15F 高密度3列 / 右アングル / 15pin,DB-15F,F,THT,DB-15F 高密度 基板取付,上辺に実装。DDC/EDIDは未接続
+30,コネクタ,MIDI IN,1,J3,DIN 5pin 180° / 基板取付 / シールド付,DIN_8_PCB,F,THT,DIN-5 180° 基板取付,下辺に実装。信号はピン4/5。ピン2はNC
+31,コネクタ,MIDI OUT,1,J6,DIN 5pin 180° / 基板取付 / シールド付,DIN_8_PCB,F,THT,DIN-5 180° 基板取付,下辺に実装。信号はピン4/5。ピン2はNC
+32,コネクタ,AUDIO OUT,1,J4,3.5mmステレオジャック / スイッチ付,PJ-3900-04,F,THT,PJ-3900-04,上辺に実装。T=L、R=R、S=GNDA。ライン出力
+33,コネクタ,AUDIO IN,1,J8,3.5mmステレオジャック / スイッチ付,PJ-3900-04,F,THT,PJ-3900-04,上辺に実装。T=L、R=R、S=GNDA。ライン入力
+34,コネクタ,USB POWER,1,J5,USB B 水平 / Lumberg 2411 02,USB_B horizontal,F,THT,Lumberg 2411 02,上辺に実装。電源専用。D-/D+はNC
+35,コネクタ,RX_EN,1,J7,1x2 / 2.54mm / 垂直,PinHeader 1x2,F,THT,2.54mm ピンヘッダ,A1使用時にジャンパ。GP45とA1 UART TX
+36,コネクタ,TX_EN,1,J10,1x2 / 2.54mm / 垂直,PinHeader 1x2,F,THT,2.54mm ピンヘッダ,A1使用時にジャンパ。GP44とA1 UART RX
+37,コネクタ,IO_EXT,1,J9,2x5 / 2.54mm / 横型 IDC,IDC-Header 2x5,F,THT,2x5 IDC ボックスヘッダ,右辺に実装。ピン1は四角パッド
+38,コネクタ,SWD,1,J12,1x3 / 2.54mm / Lアングル（右アングル）,PinHeader 1x3 Lアングル,F,THT,2.54mm Lアングルピンヘッダ,1=SWDIO、2=GND、3=SWCLK。A1の上にカプトンテープを貼ってから実装
+39,スイッチ,SW_POWER,1,SW1,SPDT スライドスイッチ / 2MS1T1B4M7QES,2MS1T1B4M7QES,F,THT,2MS1T1B4M7QES,下辺に実装。USB 5Vを入切
+40,スイッチ,RESET,1,SW2,右アングル tactスイッチ / Omron B3F-315x,B3F-315x,F,THT,Omron B3F-3150/3152,下辺に実装。高さ/向きを確認
+41,フェライトビーズ,BL01RN1A1D2,3,"FB1,FB2,FB3",軸形 / 3.4〜3.6mm / 7A / 65Ω@100MHz,D_A-405 縦,F,THT,Murata BL01RN1A1D2（秋月 129357） / 代替 BL01RN1A2A2B,ダイオードと同形。FBを入れ間違えない。代替はリード間隔を2.54mmに曲げる
+42,モジュール（任意）,Debug Probe,1,A1,Raspberry Pi Pico / Pico 2 / 2x20,Pico 2x20,B,THT,Raspberry Pi Pico / Pico 2,"任意実装。最新版debugprobe推奨。3V3は基板と未接続。自前のUSB給電。SWDはWeActとGND位置が違う（J12: 1=SWDIO, 2=GND, 3=SWCLK）"
+43,機構部品,M3 ネジ/スペーサー,4,"H1,H2,H3,H4",M3 / 3.2mm穴 / 長さは実装に合わせる,M3,F,THT,M3,4箇所。基板厚1.6mm
+44,ソケット,DIP-8 ソケット,3,"U6,U10,U11",8pin / 2.54mm / 7.62mm幅,DIP-8,F,THT,8P DIPソケット,NJM2737D用。3個
+45,ソケット,2x30 ピンソケット,1,U1,2x30 / 2.54mm / 女性,2x30,F,THT,2x30 2.54mm ピンソケット,U1用。1個。直接はんだ付けも可
+46,ソケット（任意）,2x20 ピンソケット,1,A1,2x20 / 2.54mm / 女性,2x20,B,THT,2x20 2.54mm ピンソケット,A1用。任意
+47,ジャンパ,2.54mm ジャンパ,2,"J7,J10",2.54mm / シャント,2.54mm,F,THT,2.54mm ジャンパシャント,A1使用時に2個
+48,モジュール付属,ESP-PSRAM64H,1,U1 (裏面),64Mbit = 8MB / SOP-8,SOP-8,B,SMD,ESP-PSRAM64H,U1はPSRAM未搭載。裏面に実装。向き注意。SMDリワーク
