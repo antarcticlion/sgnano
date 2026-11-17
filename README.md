@@ -15,7 +15,7 @@
 
 | フォルダ | 中身 |
 |---|---|
-| `firmware/` | 書き込み用の UF2（準備中。全体・前半のファーム・後半の S: ドライブとフォントの 3 種類を置く予定） |
+| `firmware/` | 書き込み用の UF2 は [Releases](https://github.com/antarcticlion/sgnano/releases/latest) にあります（全体・前半のファーム・後半の S: ドライブとフォント） |
 | `docs/` | 3 言語のコーディングガイド、SGX の ABI、`Machine` の対応表、キー操作の早見表 |
 | `samples/` | mruby・MicroPython・SG BASIC の見本（3 言語で同じものがそろったテスト用アプリ、ベンチマーク、デモ） |
 | `sdk/sgx/` | C で外部実行ファイル（`.sgx`）を組むための SDK（ABI はα版の間に変わることがあります） |
@@ -69,9 +69,17 @@
 - [第 1 号　ワンチップに「パソコン」を取り戻せ](docs/magazine/01_alpha_review.md)（2026-11-14）
 - [第 2 号　α版、出荷前夜](docs/magazine/02_alpha1_preview.md)（2026-11-17）
 
-## 書き込み
+## ダウンロードと書き込み
 
-準備中です。UF2 を置いたら、ここに書き込み方を書きます。
+**配布物は [Releases](https://github.com/antarcticlion/sgnano/releases/latest) にあります。**
+
+1. **初回は全体 UF2**（`-full.uf2`）を、BOOTSEL で立ち上げた `RPI-RP2` へコピーします。**S: は初期化されます。**
+2. **ファームだけ更新するときは前半 UF2**（`-firmware.uf2`）。S: の設定・ファイルは残ります。
+3. **S: とフォントを入れ直すときは後半 UF2**（`-system-font.uf2`）。ファームは残ります。
+4. 日本語の漢字変換には **IME の辞書**（`-ime-dict.zip`）が要ります。USB のドライブのルートに `SgnanoIME/` ごと置いてください（S: の 4MB には入りません）。
+5. フォント ROM はファームと同じ版を使ってください。v1 の ROM では文字が出ません。
+
+SHA-256 は Release の `SHA256SUMS` にあります。
 
 ## 文書
 
