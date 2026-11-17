@@ -70,15 +70,20 @@
 
 ## ダウンロードと書き込み
 
-**配布物は [Releases](https://github.com/antarcticlion/sgnano/releases/latest) にあります。**
+**配布物は [Releases](https://github.com/antarcticlion/sgnano/releases) にあります。**
 
-1. **初回は全体 UF2**（`-full.uf2`）を、BOOTSEL で立ち上げた `RPI-RP2` へコピーします。**S: は初期化されます。**
-2. **ファームだけ更新するときは前半 UF2**（`-firmware.uf2`）。S: の設定・ファイルは残ります。
-3. **S: とフォントを入れ直すときは後半 UF2**（`-system-font.uf2`）。ファームは残ります。
+| 何を入れるか | ファイル |
+|---|---|
+| **α1 の一式**（初回。S: とフォントも入る） | [alpha1-2026.11 の Release](https://github.com/antarcticlion/sgnano/releases/tag/alpha1-2026.11) / [全体 UF2](https://github.com/antarcticlion/sgnano/releases/download/alpha1-2026.11/sgnano-alpha1-2026.11-full.uf2) / [IME の辞書](https://github.com/antarcticlion/sgnano/releases/download/alpha1-2026.11/sgnano-alpha1-2026.11-ime-dict.zip) |
+| **最終ファームウェア**（ファームだけ更新） | [alpha1-2026.11.1 の Release](https://github.com/antarcticlion/sgnano/releases/tag/alpha1-2026.11.1) / [ファーム UF2](https://github.com/antarcticlion/sgnano/releases/download/alpha1-2026.11.1/sgnano-alpha1-2026.11.1-firmware.uf2) |
+
+1. **初回**は α1 の全体 UF2 を、BOOTSEL で立ち上げた `RPI-RP2` へコピーします。**S: は初期化されます。**
+2. そのあと、**最終ファームウェアの UF2** をコピーします（ファームだけ更新。S: とフォントは残ります）。
+3. **S: とフォントを入れ直すとき**は、α1 の後半 UF2（`-system-font.uf2`）。ファームは残ります。
 4. 日本語の漢字変換には **IME の辞書**（`-ime-dict.zip`）が要ります。USB のドライブのルートに `SgnanoIME/` ごと置いてください（S: の 4MB には入りません）。
 5. フォント ROM はファームと同じ版を使ってください。v1 の ROM では文字が出ません。
 
-SHA-256 は Release の `SHA256SUMS` にあります。
+SHA-256 は各 Release の `SHA256SUMS` にあります。
 
 ## 文書
 
