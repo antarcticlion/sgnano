@@ -1,6 +1,6 @@
 # sgnano BASIC プログラミング仕様書（SG BASIC R03 環境）
 
-版: 2026-11-01 ／ 対象: sgnano のファームウェア（RP2350B）に組み込んだ SG BASIC **Rev03.001**
+版: 2026-11-17 ／ 対象: sgnano のファームウェア（RP2350B）に組み込んだ SG BASIC **Rev03.001**
 
 この文書は、sgnano で動く BASIC のプログラムを**ほかの人や AI が書く**ための仕様書です。書いてある決まりは**実機とホストで確かめたもの**です。
 SG BASIC は Microsoft BASIC（6502 版）を C に移したもので、GW-BASIC に近い文と、VB 風の `Sub` / `Function` / `Type` / `Class` を持ちます。
@@ -8,6 +8,8 @@ SG BASIC は Microsoft BASIC（6502 版）を C に移したもので、GW-BASIC
 
 画面・音・パッドの口（`Machine`・`Sound`）は Ruby・Python と同じ名前・同じ働きにそろえてあります（対応表 `docs/machine_api.md`、
 細かい働きは `docs/sgnano_ruby_guide.md` の §7・§9）。
+
+【2026-11-17】**FB・ビットマップ・画像の描画**（線・図形・パス・文字・転送、§5）と**圧縮と書庫**（`Machine.Arc*`、§6）を足した（ABI 5.3・5.12、`SPEC_gfx.md`）。
 
 ---
 
@@ -199,11 +201,47 @@ R = Machine.Pio2SmEnable(0, 0)
 R = Machine.Pio2SmUnclaim(0)
 ```
 
+### FB・ビットマップ・画像の描画（2026-11-13、`SPEC_gfx.md`）
+
+Ruby・Python と同じ描画のメソッドを、BASIC の名前にしてある。**FrameBuffer のものは `Machine` に直接**、
+**ビットマップは `Bm`**、**画像は `Img`（先頭に取っ手）**が付く。
+
+- FrameBuffer（モード 2〜6）: `Machine.ResetDrawing` `Machine.FbRgb(r, g, b)` `Machine.Pen c[, w, style]` `Machine.PenExt cap, join`
+  `Machine.Brush c[, style]` `Machine.Bk mode[, c]` `Machine.Rop2 r` `Machine.FillRule r` `Machine.Aa on` `Machine.Clip [l, t, r, b]`
+  `Machine.Matrix a, b, c, d, e, f` `Machine.Concat ...` `Machine.ResetMatrix` `Machine.GetMatrix(i)`
+- 線と図形: `Machine.MoveTo` `LineTo` `Polyline` `PolylineTo` `PolyBezier` `PolyBezierTo` `Arc` `ArcTo` `Pie` `Chord`
+  `AngleArc` `Rectangle` `Ellipse` `RoundRect` `Polygon` `PolyPolygon`
+  （点は引数で最大 8 組。引数なしなら点のバッファ `Machine.PtClear` / `Machine.PtAdd x, y, ...` / `Machine.PtBreak`。
+  `PolyPolygon` は `PtBreak` で輪を区切る）
+- パス: `Machine.BeginPath` `EndPath` `ClosePath` `PathMoveTo` `PathLineTo` `PathQuadTo` `PathCubicTo` `PathArc`
+  `Machine.FillPath` `StrokePath` `FillStrokePath`
+- 転送: `Machine.Bitblt`（元は 0 = FB、1 = ビットマップ、または画像の取っ手）`Machine.StretchBlt` `Machine.DrawDib`
+- 文字: `Machine.Font` `Machine.FbTextColor` `Machine.TextOut` `Machine.ExtTextOut` `Machine.DrawText`（`Machine.TextExtentW` / `TextExtentH`）
+- ビットマップ（モード 7）: 同じ名前に `Bm` を付ける（`Machine.BmPen` `Machine.BmRectangle` `Machine.BmTextOut` …）。
+  色は `Machine.BmRgb`、文字の色は `Machine.BmTextColor`
+- 画像: `ImgNew(w, h[, fmt])` / `ImgLoad(path$[, fmt])`（取っ手。負なら失敗）、`ImgWidth(h)` `ImgHeight(h)` `ImgFormat(h)`
+  `ImgPSet h, x, y, c` `ImgPGet(h, x, y)` `ImgClear h[, c]` `ImgFree h`、描画は `Machine.ImgEllipse h, ...` のように取っ手を先頭に
+- 見本: `samples/basic/gfx.bas`、デモ `samples/basic/gfxdemo.bas`
+
 ## 6. ファイル
 
 GW-BASIC の形: `OPEN "名前" FOR INPUT / OUTPUT / APPEND AS #1`、`PRINT #1, ...`、`INPUT #1, A$`、`LINE INPUT #1, A$`、`EOF(1)`、`CLOSE #1`、
 ランダムファイル（`OPEN ... AS #1 LEN = 64`・`FIELD`・`GET` / `PUT`）。`KILL`（消す）・`NAME 古い AS 新しい`・`MKDIR` `RMDIR` `CHDIR`・`FILES`。
 パスは**プログラムのフォルダからの相対**か `S:/...` のような絶対パス。開いたファイルは中身をメモリに持ち、`CLOSE` で書き戻す。
+
+### 圧縮と書庫（Machine.Arc*、2026-11-17、ABI 5.12）
+
+BASIC の文字列はバイト列をそのまま持てないので、**メモリどうしの圧縮・展開は無い**。ファイルと書庫だけ。
+
+- `Machine.ArcCompressFile in$, out$[, fmt[, level]]` / `Machine.ArcDecompressFile in$, out$`（.gz / .bz2 / .xz / .lzma）。
+- `n = Machine.ArcList(path$)` -> 項目の数。`Machine.ArcName(i)` `ArcSize(i)` `ArcCsize(i)` `ArcMtime(i)` `ArcCrc(i)` `ArcDir(i)`
+  （0 始まり）。書庫は名前で見分ける（.zip / .7z / .tar / .tar.gz / .tar.bz2 / .tar.xz / .tar.lzma）。
+- `Machine.ArcExtract path$[, dest$[, only$]]` -> 書いたファイル数。
+- `Machine.ArcCreate path$, "a;b;c"[, method[, level]]` -> 入れた数。`method` は ZIP のときだけ（`ARC_STORE` `ARC_DEFLATE` `ARC_BZIP2` `ARC_LZMA`）。
+- `Machine.ArcWhy` -> 直前の誤りの理由（英語）。誤りは **負の数**。
+- 定数: `ARC_STORE` `ARC_DEFLATE` `ARC_ZLIB` `ARC_GZIP` `ARC_BZIP2` `ARC_LZMA` `ARC_XZ`。
+- 作業場は PSRAM（ファームが取る）。足りなければ段を下げ、FB を出していないときは FB の 4 ページを借りて、返すときに 0 で消す。
+- 長い呼び出しは **ESC で止められる**。
 
 ## 7. 音とネットワーク
 

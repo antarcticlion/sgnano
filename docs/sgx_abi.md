@@ -1,11 +1,11 @@
 # sgnano の外部実行ファイル（SGX）の ABI と使い方
 
 sgnano のファームとは別に組み、USB ストレージなどに置いて走らせるプログラム（**外部実行ファイル、拡張子 `.sgx`**）の作り方と、
-ファームの機能を使うための口（ABI）の説明。版は **ABI 5.2**（2026-11-11。5.1 は 2026-11-11、5.0 は 2026-11-11、4.2 は 2026-11-07、4.1 は 2026-11-06、4.0 は 2026-11-06、3.5 は 2026-11-06、3.4 は 2026-11-04、3.3 は 2026-11-04、3.2 は 2026-11-03、3.1 は 2026-11-02、3.0 は 2026-10-31、2.0 は 2026-10-31、1.8 は 2026-10-30、1.7 は 2026-10-30、1.6 は 2026-10-29、1.5 は 2026-10-29、1.4 は 2026-10-29、1.3 は 2026-10-28、1.2 は 2026-10-28、1.1 は 2026-10-25、1.0 は 2026-10-24）。
+ファームの機能を使うための口（ABI）の説明。版は **ABI 5.12**（2026-11-17。5.11 は 2026-11-16、5.10・5.9・5.8・5.7 は 2026-11-15、5.6 は 2026-11-14、5.5・5.4・5.3 は 2026-11-13、5.2 は 2026-11-11、5.1 は 2026-11-11、5.0 は 2026-11-11、4.2 は 2026-11-07、4.1 は 2026-11-06、4.0 は 2026-11-06、3.5 は 2026-11-06、3.4 は 2026-11-04、3.3 は 2026-11-04、3.2 は 2026-11-03、3.1 は 2026-11-02、3.0 は 2026-10-31、2.0 は 2026-10-31、1.8 は 2026-10-30、1.7 は 2026-10-30、1.6 は 2026-10-29、1.5 は 2026-10-29、1.4 は 2026-10-29、1.3 は 2026-10-28、1.2 は 2026-10-28、1.1 は 2026-10-25、1.0 は 2026-10-24）。
 
 - 見出し: `sdk/sgx/include/sgx_api.h`（口の定義はこれがすべて。この文書は使い方と決まりごと）
 - 組む道具: `sdk/sgx/`（リンカの台本 `sgx.ld`・始まり `sgx_crt0.c`・libc の口 `sgx_libc.c`・CMake の `sgx.cmake`・像を作る `sgx_link.py`）
-- 見本: `apps/hello`（画面・音・ファイル）、`apps/multi`（タスク・同期・spawn）、`apps/doom`（Doom。大きなプログラムの移し方）、`apps/testapp`（テスト用アプリの C 版 mode0〜mode7。テキスト・FB・ローレゾ・ビットマップ・パッド・シーケンサーの使い方、2026-10-25）、`apps/abitest`（Socket / TLS・FFT・ブロックストア・GPIO/PIO2・ADC・MIDI の ABI の試し。`gpiotest.c` は GPIO/PIO2、`adctest.c` / `adctone.c` / `adcmon.c` / `adcrec.c` は ADC（温度・録音を含む）、`midiloop.c` は DIN MIDI のループバック、2026-11-11）、`apps/mem`・`apps/ps`・`apps/more`（sgsh のコマンド、2026-11-02）、`apps/defrag`（S: のデフラグ／エンフラグ。モード 7 の地図と ABI 3.2 の `sysdisk_*`、2026-11-03）、`apps/sgcalc`（表計算。30 行テキストとグラフ、2026-11-04 にサブプロジェクトから取り込み）
+- 見本: `apps/hello`（画面・音・ファイル）、`apps/multi`（タスク・同期・spawn）、`sgnano_doomgeneric`（別のリポジトリ。Doom。大きなプログラムの移し方）、`apps/testapp`（テスト用アプリの C 版 mode0〜mode7。テキスト・FB・ローレゾ・ビットマップ・パッド・シーケンサーの使い方、2026-10-25）、`apps/abitest`（Socket / TLS・FFT・ブロックストア・GPIO/PIO2・ADC・MIDI の ABI の試し。`gpiotest.c` は GPIO/PIO2、`adctest.c` / `adctone.c` / `adcmon.c` / `adcrec.c` は ADC（温度・録音を含む）、`midiloop.c` は DIN MIDI のループバック、2026-11-11）、`apps/mem`・`apps/ps`・`apps/more`（sgsh のコマンド、2026-11-02）、`apps/defrag`（S: のデフラグ／エンフラグ。モード 7 の地図と ABI 3.2 の `sysdisk_*`、2026-11-03）、`apps/sgcalc`（表計算。30 行テキストとグラフ、2026-11-04 にサブプロジェクトから取り込み）
 - ファームの側: `src/sgx/sgx.c`（読み込み・API の表）、`src/ruby/rbrun.c`（実行の段取り。Ruby と共通）
 
 SDK の見出しとファイル（`sdk/sgx/`）は MIT ライセンス。プログラムのライセンスは自由に選べる（ファームのシンボルには結ばず、
@@ -87,7 +87,7 @@ newlib-nano の libc・libm のうち、OS に頼らないもの（文字列・�
 古いファーム（表が無い）では素のソフトウェアの計算に戻る。DCP の状態はタスクごとに M33BEATOS が保存して戻すので、いくつものタスクで使ってよい。
 実機: `hat`（sqrt・cos が多い）4.0 -> 0.75 秒、`m640` 9.3 -> 4.4 秒（残りはほとんど `fb_pset` の呼び出し）。単精度（`float`）はもともと FPU で計算する
 
-`fopen` などのファイルの stdio は無い（`api->read_file`・`write_file`・`ra_*` を使う。Doom は `apps/doom/dg_sys.c` で自分の `fopen` を作っている）。
+`fopen` などのファイルの stdio は無い（`api->read_file`・`write_file`・`ra_*` を使う。Doom は `sgnano_doomgeneric` の `apps/doom/dg_sys.c` で自分の `fopen` を作っている）。
 C++ の静的な初期化（`.init_array`）は入口の前に呼ぶ。
 
 ## 3. 実行ファイルの形
@@ -703,14 +703,36 @@ adc_capture(46, 47, buf, 4096);
 行列の a〜d は 16.16、角度は 1/16 度。実装は `src/gfx/`（ファームはフラッシュ・作業場は PSRAM のキャッシュの窓）と `src/gfx/gfx_sys.c`。
 見本は `apps/gfxdemo`。
 
-## 6. Doom（apps/doom）
+### 5.29 どこから走ったか・進み具合の窓（5.11、2026-11-16）
+
+- `run_context()` は `SGX_RUN_FILER`（ファイラーから、端末の画面）・`SGX_RUN_SHELL`（シェルの前景）・`SGX_RUN_PIPE`（シェルの背景・パイプの段）・`SGX_RUN_CHILD`（ほかのプログラムの spawn）・`SGX_RUN_POPUP`（ファイラーのコンテキストメニューの `!`）を返す。
+- `POPUP` のときは、ファイラーの画面が端末の写しに取り込まれた状態で始まる（画面モードもファイラーのまま、FB は隠す、29 行目の状態の行は出さない）。`term_write` は画面に出るので使わない。進み具合は `progress_box`、文は `log`（UART）へ。
+- `progress_box(const sgx_progress_t *p)` はテキスト面の真ん中（4, 9 から 72 x 10）に、ファイラーの WAV 書き出しと同じ形の窓を描く（表示の言語で）。`pct`（-1 = 分からない）・`elapsed_s`・`left_s`（-1 = 分からない）・`out_bytes` / `out_total`・`stage`、`flags` は `SGX_PB_DONE` / `FAILED` / `CANCELED` / `STOPPING`。`NULL` なら窓の所を空ける。
+- SDK の部品 `sdk/sgx/include/sgx_progress.h`（ヘッダだけ）が両方をまとめる: シェルの前景とファイラーの端末では 1 行を `\r` で書き替え（`37%  1:23  left ~4:10  out 12.3 MB / 33.1 MB  (段)`）、背景・パイプの段では 10% ごとに 1 行、`POPUP` では窓。終わりの `sgxp_end` は窓なら結果を出して何かキーを待つ（止めたときは待たない）。5.10 以前のファームでは端末の形。使っているのは `wav2mp3`・`smf2vgm`。
+
+### 5.30 圧縮と書庫（5.12、2026-11-17）
+
+- 中身はファームの `src/archive/`（`arc.h` が層、`arcfw.h` がファームの口）。部品はコピーレフトでないものだけ: deflate = miniz（MIT）、bzip2 = libbzip2 1.0.8（BSD 系）、LZMA / LZMA2 / xz / 7z = LZMA SDK 26.06（パブリックドメイン）。tar・ZIP の入れ物と CRC は自前。
+- 形（`fmt`）: `SGX_ARC_STORE`・`DEFLATE`（生の deflate）・`ZLIB`・`GZIP`（.gz、伸張は続いたメンバーも）・`BZIP2`（.bz2）・`LZMA`（13 バイトの頭の .lzma）・`XZ`（.xz、LZMA2・CRC64）。書庫（`kind`）: `SGX_ARC_ZIP`・`SGX_ARC_7Z`・`SGX_ARC_TAR`、名前から決めるなら `SGX_ARC_AUTO`。
+- `arc_mem(op, fmt, level, src, n, dst, cap, &out_n)`: メモリどうし。`op` は `SGX_ARC_COMPRESS` / `SGX_ARC_DECOMPRESS`。`dst` に入らなければ `-SGX_EINVAL`。
+- `arc_file(op, fmt, level, in, out, cb)`: 1 つのファイル。伸張で `fmt = SGX_ARC_AUTO` なら頭のバイトと名前から。
+- `arc_list(archive, ents, max, &total)`: 項目を `max` 個まで `sgx_arc_entry_t` に（名前 260 バイト・大きさ・書庫の中の大きさ・UTC の日時・CRC32・方式・属性・フォルダか）。`max = 0` で数だけ。ZIP・7z・tar（.tar.gz・.tgz・.tar.bz2・.tar.xz・.tar.lzma も）と、1 つだけの圧縮（項目 1 つ、名前は拡張子を落としたもの）。
+- `arc_extract(archive, dest, only, flags, cb, &files)`: `dest` のフォルダへ。フォルダは作り、同じ名前は置き換える。`only` が名前ならその項目（フォルダなら下も）。`SGX_ARC_X_FLAT` でフォルダを作らず名前だけ。名前の `..` と `.` は落とし、FAT に置けない字は `_` に。
+- `arc_create(archive, kind, method, level, paths, n, cb, &items)`: `paths`（256 個まで）はファイルかフォルダ（中身ごと）。書庫の中の名前はそれぞれの最後の名前から下。ZIP の `method` は `STORE` / `DEFLATE` / `BZIP2`（方式 12）/ `LZMA`（方式 14）、tar は重ねる圧縮（`STORE` = .tar、`GZIP`、`BZIP2`、`XZ`、`LZMA`）、7z は LZMA のソリッド 1 ブロック。名前は UTF-8（ZIP は印 11 と拡張の日時 0x5455、tar は 100 バイトを越えたら pax の path）。
+- `arc_why()`: 直前の誤りの理由（英語）。誤りは `-SGX_EDATA`（壊れている・CRC の不一致、5.12 で足した）・`-SGX_ECANCELED`（止めた、5.12）・`-SGX_ENOMEM`・`-SGX_ENOTSUP`（暗号の ZIP・Deflate64 など）・`-SGX_EIO`。
+- 進み具合: `cb`（`sgx_arc_cb_t`、NULL 可）の `tick(user, in, out, name)` を呼び手のタスクから呼ぶ。false で止める。`stop_requested` でも止まる。書きかけの出力は消す。
+- 作業場は PSRAM（ファームが取る。プログラムのヒープは使わない）。ふつうの空きで足りなければ、FB を出していないときに限り FB の 4 ページ（2.4MB）を借り、返すときに 0 で消す（`fb_borrow` / `fb_lend_spare` で自分が借りているときは借りない）。圧縮の段（`level` 0〜9）は空きに入らなければファームが下げる（LZMA の目安: 段 0〜4 は 辞書 x 8 + 1MB、5〜9 は 辞書 x 12 + 1.2MB。空き 3MB なら段 0 の辞書 64KB）。bzip2 の圧縮は 400KB + ブロック x 8、伸張は small の形まで落とす。LZMA / xz の伸張の辞書は、伸張後の大きさ（7z のブロック・xz の末尾の目次）まで縮めるので、PC の既定（7z の 16MB、xz の 8MB）の書庫も中身が PSRAM に入れば展開できる。7z のフィルタ（BCJ など）つきのブロックは、ブロック全体をいったん PSRAM に置く。
+- 書き出しは、まず PSRAM に貯めて入れば 1 回で書く。入らなければその回は大きさを数え、2 回目に大きさを決めたファイルへその場で書く（2 回圧縮するので時間も 2 倍）。S: へは貯めて書ける大きさだけ。4GB を越える出力は書かない。
+- シェルのコマンド `gzip`・`gunzip`・`bzip2`・`bunzip2`・`xz`・`unxz`・`lzma`・`unlzma`・`zip`・`unzip`・`7z`（a / x / e / l）・`tar`（c / x / t、z j J --lzma）はこの口の上にある（`src/shell/sh_arc.c`）。実機の試しは `samples/ruby/arctest.rb`、ホストの試しは `scripts/test_archive.py`。
+
+## 6. Doom（別のリポジトリ sgnano_doomgeneric）
 
 - `DOOM.SGX` を WAD の入ったフォルダ（`DoomFiles` / `Doom2Files`）か、その親のフォルダに置く。ファイラーで WAD を Enter すると
   `DOOM.SGX -iwad <WAD の絶対パス>` で走る。`DOOM.SGX` を直に Enter したときは、自分のフォルダから知っている名前の IWAD を探す（無ければ知らせて終わる）。
   Doom の設定・セーブは WAD のフォルダ。Doom の誤り（I_Error）は端末にも出る
 - 画面はモード 7（`SGX_MODE_NO_TEXT`）・2 枚の面（`bm_back` / `bm_present`）、音楽は `seq_*`、効果音は `pcm_*`、WAD は `ra_*`、
   ゾーンは `psram_alloc` と `fb_borrow`。`SGX_F_ESC_KEY`（ESC は Doom のメニュー、止めるのは Shift+ESC）
-- doomgeneric の libc の名前は `apps/doom/dg_port.h` で向け直している（ソースは `third_party/doomgeneric/`、手直しは `SGNANO_PATCHES.md`）
+- doomgeneric の libc の名前は `apps/doom/dg_port.h`（別のリポジトリ sgnano_doomgeneric）で向け直している（ソースはそちらの `third_party/doomgeneric/`、手直しは `SGNANO_PATCHES.md`）
 
 ## 7. 版の決まり
 
@@ -722,6 +744,9 @@ adc_capture(46, 47, buf, 4096);
 
 ## 8. 履歴
 
+- 2026-11-17: **5.12**。圧縮と書庫 `arc_mem`・`arc_file`・`arc_list`・`arc_extract`・`arc_create`・`arc_why` と `sgx_arc_entry_t`・`sgx_arc_cb_t`・`SGX_ARC_*` を表の末尾に、誤りの番号 `SGX_EDATA`・`SGX_ECANCELED` を誤りの並びの末尾に追加（§5.30）。5.11 以前のプログラムはそのまま動く。
+- 2026-11-16: **5.11**。`run_context()` と `progress_box(p)`（`sgx_progress_t`、`SGX_RUN_*`・`SGX_PB_*`）を表の末尾に追加（§5.29）。ファイラーのコンテキストメニューの `!` で、ファイラーの画面の上の窓で走らせる。5.10 以前のプログラムはそのまま動く。
+- 2026-11-15: **5.10**。表計算のマクロ `macro_run(lang, code, len, sheet, err, errn)` を表の末尾に追加（`SGX_MACRO_RUBY` / `PYTHON` / `BASIC`）。ファームが言語をシェルの子と同じ口で走らせ（言語の `exit` / `END` はマクロだけを終わらせる、出力は捨てる）、終わるまで戻らない。言語の `Sheet` は `sgx_macro_sheet_t` のコールバック（`get_cell`・`set_number`・`set_text`・`set_formula`・`clear_cell`・`get_formula`・`bounds`・`recalc`・`name`、行・列は 0 始まり）でセルに触る。コールバックは言語のタスクから呼ばれ、その間に取ったメモリは呼び手のプログラムの持ち物になる。コールバックの中では画面・キー・ファイルの口を呼ばない。誤りは `-SGX_EMACRO`（新しい誤りの番号、文は `err`）、走らせている間は `-SGX_EBUSY`。SGCALC R01.007 が使う。5.9 以前のプログラムはそのまま動く。
 - 2026-11-15: **5.9**。IME を表の末尾に追加: `ime_key(key, commit, n)`（キーを先に渡す。1 = IME が使った、確定した UTF-8 は commit）・`ime_on`・`ime_composing`・`ime_draw(col, row, max, attr)`（未確定の字を文節ごとに置き、候補の窓を重ねる。窓は端末の写しに直接書くので、呼び手の画面の写しは次に全部を送り直す）・`ime_state`・`ime_cancel`。ファイラーと同じ IME（日本語・English・한국어、辞書・学習も同じ）で、Ctrl+Space（`SGX_KEY_IME` 0x99）でオン・オフ。キーの定数 `SGX_KEY_MENU`（0x9B、メニューキー）と `SGX_KEY_GUI_L` / `SGX_KEY_GUI_R`（0x9C / 0x9D、左右の GUI キーを押した瞬間に 1 回届く）も足した。SGCALC のセルの編集で使う。5.8 以前のプログラムはそのまま動く。
 - 2026-11-15: **5.8**。`set_mode` の印 `SGX_MODE_NO_LR`（0x1000）: モード 3〜5 でもローレゾ面を開かない（テキスト + FB だけ）。ローレゾ面の 50〜60KB の SRAM をテキスト面などに回す。SGCALC はローレゾ面を使わないのにモード 3 で 60KB を取られ、テキスト面の字の形が 17 行分しか取れず、メニューとファンクションキーが出なかった。表は 5.7 と同じ。
 - 2026-11-15: **5.7**。`music_pcm_open(path, &frames, &rate)` / `music_pcm_read(stereo, frames)` / `music_pcm_close()` を表の末尾に追加。VGM / VGZ をファームの合成で 44.1kHz・16 ビット・ステレオの PCM として渡す（WAV の書き出しと同じ合成。ファイルを 1 回とおし、ループの所も 1 回）。開いている間は `music_play` / `music_play_mem` / `music_render_wav` を断る。`wav2mp3.sgx` が LAME で MP3 にするため（LAME はファームに入れない）。5.6 以前のプログラムはそのまま動く。

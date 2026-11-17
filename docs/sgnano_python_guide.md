@@ -1,6 +1,6 @@
 # sgnano Python プログラミング仕様書（MicroPython 環境）
 
-版: 2026-11-01 ／ 対象: sgnano のファームウェア（RP2350B、MicroPython v1.29.0）
+版: 2026-11-17 ／ 対象: sgnano のファームウェア（RP2350B、MicroPython v1.29.0）
 
 この文書は、sgnano で動く Python のプログラムを**ほかの人や AI が書く**ための仕様書です。使える書き方・モジュール・メソッドは、
 **実機で一つずつ確かめたもの**です（推測ではありません）。ここに無いものは「無い」と考えてください。
@@ -9,6 +9,8 @@
 対応表は `docs/machine_api.md`、それぞれの仕様書は `docs/sgnano_ruby_guide.md`・`docs/sgnano_basic_guide.md` です。
 **`Machine` のメソッドの細かい働き（引数の範囲・画面モードの組み合わせ・負荷の目安）は Ruby の仕様書の §7・§9 と同じ**なので、そちらも参照してください。
 この文書は Python で違うところを中心に書きます。
+
+【2026-11-17】**FB・ビットマップ・画像の描画**（線・図形・パス・文字・転送、§5）と**圧縮と書庫**（`machine.Archive`、§6）を足した（ABI 5.3・5.12、`SPEC_gfx.md`）。
 
 ---
 
@@ -192,6 +194,27 @@ pio.sm_enable(0, False)
 pio.sm_unclaim(0)
 ```
 
+### FB・ビットマップ・画像の描画（2026-11-13、`SPEC_gfx.md`）
+
+`M.fb`（FrameBuffer）、`M.bitmap`（モード 7）、`M.Image` は**同じ描画のメソッド**を持つ（Ruby と同じ名前）。
+状態と描画のメソッドは自分を返すので続けて書ける（`M.fb.pen(c).brush(c2).ellipse(0, 0, 639, 479)`）。
+
+- 状態: `reset_drawing` `rgb(r, g, b)` `pen(c[, w, style])` `pen_ext(cap, join)` `brush(c[, style])` `bk(mode[, c])`
+  `rop2(r)` `fill_rule(r)` `aa(on)` `clip([l, t, r, b])` `matrix(a, b, c, d, e, f)` `concat(...)` `reset_matrix` `get_matrix`
+- 線と図形: `move_to` `line_to` `polyline(pts)` `polyline_to` `poly_bezier` `poly_bezier_to` `arc` `arc_to` `pie` `chord(...)`
+  `angle_arc(x, y, r, start, sweep)` `rectangle` `ellipse(l, t, r, b)` `round_rect(l, t, r, b, ew, eh)` `polygon(pts)` `poly_polygon([pts, ...])`。
+  点は `[x0, y0, x1, y1, ...]` か `[[x0, y0], ...]`。右と下の端は含まない
+- パス: `begin_path` `end_path` `close_path` `path_move_to` `path_line_to` `path_quad_to` `path_cubic_to` `path_arc(cx, cy, r, a0, a1)`
+  `fill_path` `stroke_path` `fill_stroke_path`
+- 転送: `bitblt(dx, dy, w, h, src[, sx, sy, rop, key])` `stretch_blt(...)` `draw_dib(..., bits, ...)`（bits は bytes）
+- 文字: `font([face, height, weight, flags, escapement])` `text_color(c[, align, extra])` `text_out(x, y, s)` `ext_text_out(...)`
+  `draw_text(...)`（`DT_CALCRECT` で `(l, t, r, b)`）`text_extent(s)`（tuple）
+- `M.Image(w, h[, fmt])` / `M.Image.load(path[, fmt])`、`width` `height` `format` `pset` `pget` `clear([c])` `free`。
+  PNG・JPEG・GIF（1 枚目）・TIFF、`FMT_RGB555` / `FMT_CLUT8`
+- 見本: `samples/python/gfx.py`、デモ `samples/python/gfxdemo.py`。
+  **α1 の実機では、この 2 つは構文の誤り（`syntax error, unexpected ':'`）で止まる（既知の不具合）**。
+  口（`M.fb` などのメソッド）はファームに入っている。
+
 ## 6. ファイル（os）
 
 | 書き方 | 中身 |
@@ -206,6 +229,18 @@ pio.sm_unclaim(0)
 - パスは**いまのフォルダからの相対**（始めはファイラーで開いていたフォルダ）か **`S:/...`** のような絶対パス
 - 失敗は `OSError`
 - `open` で書いたものは**閉じるまでドライブに書かれない**（`close()` を忘れない。`with` を使う）
+
+### 圧縮と書庫（machine.Archive、2026-11-17、ABI 5.12）
+
+- 方式（`fmt`）: `STORE` `DEFLATE` `ZLIB` `GZIP`（既定）`BZIP2` `LZMA` `XZ`。
+- `machine.Archive.compress(b[, fmt[, level]])` -> bytes。level は 0〜9（既定 6）。
+- `machine.Archive.decompress(b[, fmt])` -> bytes。fmt を省くと先頭のバイトから見分ける。**4MB まで**。
+- `machine.Archive.compress_file(in, out[, fmt[, level]])` / `.decompress_file(in, out)`。
+- `machine.Archive.list(path)` -> dict の list（`name` `size` `csize` `mtime` `crc` `dir`）。
+- `machine.Archive.extract(path[, dest[, only]])` -> 書いたファイル数（フォルダは作り、同じ名前は置き換える）。
+- `machine.Archive.create(path, paths[, method[, level]])` -> 入れた数。`method` は ZIP のときだけ。
+- 作業場は PSRAM（ファームが取る）。足りなければ段を下げ、FB を出していないときは FB の 4 ページを借りて、返すときに 0 で消す。
+- 長い呼び出しは **ESC で止められる**。誤りは `OSError`（理由は英語）。
 
 ## 7. 時間と乱数
 

@@ -1,9 +1,11 @@
 # sgnano Ruby プログラミング仕様書（mruby 環境）
 
-版: 2026-11-01 ／ 対象: sgnano のファームウェア（RP2350B、mruby 4.0.0）
+版: 2026-11-17 ／ 対象: sgnano のファームウェア（RP2350B、mruby 4.0.0）
 
 この文書は、sgnano で動く Ruby のプログラムを**ほかの人や AI が書く**ための仕様書です。使える書き方・クラス・メソッドは、
 実機と同じ処理系をホストで動かして**一つずつ確かめたもの**です（推測ではありません）。ここに無いメソッドは「無い」と考えてください。
+
+【2026-11-17 の変更】**FB・ビットマップ・画像の描画**（線・図形・パス・文字・転送）と**圧縮と書庫**（`Machine::Archive`）を足した（§7・§6。ABI 5.3・5.12、`SPEC_gfx.md`）。描画は `Machine.fb`・`Machine.bitmap`・`Machine::Image` が同じメソッドを持ち、状態と描画のメソッドは自分を返すので続けて書ける。
 
 【2026-11-01 の変更】**同じ機械を Python（MicroPython）と SG BASIC からも同じ口で使える**ようになった（対応表 `docs/machine_api.md`、
 仕様書 `docs/sgnano_python_guide.md`・`docs/sgnano_basic_guide.md`）。そろえるために Ruby に足したもの: 定数 `Machine::TEXT_GRAY`（8）と別名 `TEXT_UNDER`・`TEXT_DH`・`TEXT_DW`、
@@ -208,6 +210,19 @@ S: の空きとデフラグ。USB のドライブの空きは扱わない（`fs_
 - 見本は `samples/ruby/defrag.rb`（モード 7 の Windows 95 風。S:/sbin/defrag.rb に置く）。`Enter` / `S` = デフラグ、`Z` = 空きの 0 クリア、`Q` = 終わる。
   `samples/ruby/enfrag.rb`（S:/sbin/enfrag.rb）は、2 クラスタ以上のファイルをランダムに切り裂く「エンフラグ」。デフラグの試験と地図の鑑賞用
 - デフラグの途中で電源を切っても、元のファイルは壊れない（行き先の鎖を FAT に書く前に中身を写し、フォルダの項目を変えるまで元の鎖を消さない）
+
+### 圧縮と書庫（Machine::Archive、2026-11-17、ABI 5.12）
+
+- 方式（`fmt`）: `STORE` `DEFLATE`（生の deflate）`ZLIB` `GZIP` `BZIP2` `LZMA`（.lzma、13 バイトの頭）`XZ`（.xz、LZMA2）。
+- `Machine::Archive.compress(s[, fmt[, level]])` -> String（バイト列）。fmt の既定は `GZIP`、level は 0〜9（既定 6）。
+- `Machine::Archive.decompress(s[, fmt])` -> String。fmt を省くと先頭のバイトから見分ける。**4MB まで**。
+- `Machine::Archive.compress_file(in, out[, fmt[, level]])` / `.decompress_file(in, out)`: 1 つのファイルを .gz / .bz2 / .xz / .lzma に。
+- `Machine::Archive.list(path)` -> Hash の配列（`name` `size` `csize` `mtime` `crc` `dir`）。書庫は名前で見分ける（.zip / .7z / .tar / .tar.gz / .tar.bz2 / .tar.xz / .tar.lzma。1 つだけの圧縮も項目 1 つで返る）。
+- `Machine::Archive.extract(path[, dest[, only]])` -> 書いたファイル数。フォルダは作り、同じ名前は置き換える。`only` は名前（フォルダなら下も）。
+- `Machine::Archive.create(path, paths[, method[, level]])` -> 入れた数。`paths` はファイルかフォルダ（中身ごと）。`method` は **ZIP のときだけ**（`STORE` `DEFLATE` `BZIP2` `LZMA`）。tar の圧縮は名前（.tar / .tar.gz / .tar.bz2 / .tar.xz / .tar.lzma）で決まる。
+- 作業場は PSRAM（プログラムのヒープは使わない）。入らなければ段を下げ、それでも足りず **FB を出していないとき**は FB の 4 ページ（2.4MB）を借り、返すときに 0 で消す（前に描いた絵は消える）。
+- 長い呼び出しは **ESC で止められる**。誤りは `RuntimeError`（理由は英語）。
+- 見本: `samples/ruby/arctest.rb`（シェルの `zip` / `7z` / `tar` と突き合わせる実機の試し）。
 
 ## 7. 画面: Machine と Machine::FrameBuffer
 
@@ -523,6 +538,30 @@ v = nil
 pio.sm_enable(0, false)
 pio.sm_unclaim(0)
 ```
+
+### FB・ビットマップ・画像の描画（2026-11-13、`SPEC_gfx.md`）
+
+`Machine.fb`（FrameBuffer）、`Machine.bitmap`（モード 7 の Bitmap）、`Machine::Image` は**同じ描画のメソッド**を持つ。
+状態と描画のメソッドは自分を返すので、続けて書ける（`fb.pen(c).brush(c2).ellipse(0, 0, 639, 479)`）。
+
+- 状態: `reset_drawing` / `rgb(r, g, b)`（0〜31。CLUT では一番近いパレット番号）/ `pen(c[, w, style])`・`pen_ext(cap, join)` /
+  `brush(c[, style])`・`bk(mode[, c])` / `rop2(r)` `fill_rule(r)` `aa(on)` `clip([l, t, r, b])`（引数なしで全面）/
+  `matrix(a, b, c, d, e, f)` `concat(...)` `reset_matrix` `get_matrix`
+- 線と図形: `move_to` `line_to` `polyline(pts)` `polyline_to` `poly_bezier` `poly_bezier_to` /
+  `arc` `arc_to` `pie` `chord(l, t, r, b, xs, ys, xe, ye)` / `angle_arc(x, y, r, start, sweep)` /
+  `rectangle` `ellipse(l, t, r, b)` `round_rect(l, t, r, b, ew, eh)` / `polygon(pts)` `poly_polygon([pts, ...])`。
+  点は `[x0, y0, x1, y1, ...]` か `[[x0, y0], ...]`。右と下の端は含まない
+- パス（Float・行列を通す）: `begin_path` `end_path` `close_path` `path_move_to` `path_line_to` `path_quad_to`
+  `path_cubic_to` `path_arc(cx, cy, r, a0, a1)` / `fill_path` `stroke_path` `fill_stroke_path`
+- 転送: `bitblt(dx, dy, w, h, src[, sx, sy, rop, key])` / `stretch_blt(dx, dy, dw, dh, src, sx, sy, sw, sh[, rop, key])`
+  （負の幅・高さで反転）/ `draw_dib(dx, dy, dw, dh, bits, fmt, w, h[, palette, rop])`
+- 文字: `font([face, height, weight, flags, escapement])`（`FONT_ROM` / `FONT_8X8`、`FW_*`、`FF_*`、0 / 900 / 1800 / 2700）/
+  `text_color(c[, align, extra])` `text_out(x, y, s)` `ext_text_out(x, y, opt, rect, s[, dx])` /
+  `draw_text(s, l, t, r, b[, flags])`（`DT_CALCRECT` で `[l, t, r, b]` を返す）`text_extent(s)`
+- 定数: `PS_*` `CAP_*` `JOIN_*` `BS_*` `BK_*` `R2_*` `FILL_NONZERO` / `FILL_EVENODD` `SRCCOPY`〜`WHITENESS` `DIB_*` `TA_*` `ETO_*` `DT_*`
+- `Machine::Image`: `Machine::Image.new(w, h[, fmt])` / `.load(path[, fmt])`、`width` `height` `format` `pset` `pget`
+  `clear([c])` `free`。PNG・JPEG・GIF（1 枚目）・TIFF。`fmt` は `FMT_RGB555` / `FMT_CLUT8`
+- 見本: `samples/ruby/gfx.rb`（実機で `gfx: all ok`）、デモ `samples/ruby/gfxdemo.rb`
 
 ## 8. 乱数と時間
 
