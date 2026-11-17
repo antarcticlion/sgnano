@@ -73,7 +73,7 @@
 |---|---|---|
 | [`antarcticlion/sgnano`](https://github.com/antarcticlion/sgnano) | このリポジトリ。ファームのバイナリ（UF2）・文書・見本・SGX の SDK・基板データ | バイナリは無償配布、SDK と見本は MIT、文書は CC BY-SA 4.0、基板は CERN-OHL-P-2.0 |
 | [`antarcticlion/EmbFont16`](https://github.com/antarcticlion/EmbFont16) | フォント ROM の形式・ビルダー（v2.0、57,404 字） | MIT（字形は GNU Unifont などのライセンス） |
-| [`antarcticlion/sgnano_remote`](https://github.com/antarcticlion/sgnano_remote) | PC からファイルを管理する道具（v0.1.0。起動バナーの星はこのアイコン） | MIT |
+| [`antarcticlion/sgnano_remote`](https://github.com/antarcticlion/sgnano_remote) | PC からファイルを管理する道具（v0.1.0。**デバッグプローブが必須**。UART の遠隔コマンドと ZMODEM で話す。起動バナーの星はこのアイコン） | MIT |
 | [`antarcticlion/sgnano_doomgeneric`](https://github.com/antarcticlion/sgnano_doomgeneric) | Doom（`DOOM.SGX`。doomgeneric と Freedoom） | GPL-2.0 |
 | [`antarcticlion/sgnano_wav2mp3`](https://github.com/antarcticlion/sgnano_wav2mp3) | VGM / VGZ を WAV / MP3 に書き出す `wav2mp3.sgx`（LAME） | LGPL-2.0-or-later |
 | [`antarcticlion/sgnano_povray`](https://github.com/antarcticlion/sgnano_povray) | POV-Ray 3.7 の `povray.sgx`（ファームにリンクしない独立した SGX） | AGPL-3.0-or-later |
