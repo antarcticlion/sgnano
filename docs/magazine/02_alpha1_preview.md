@@ -335,4 +335,4 @@ USB のハブの先での抜き差し（継続調査）、エンドポイント 
 
 ---
 
-**sgnano magazine**　[第 1 号](01_alpha_review.md) / [第 2 号](02_alpha1_preview.md) / [ダウンロード（Releases）](https://github.com/antarcticlion/sgnano/releases/latest)
+**sgnano magazine**　[第 1 号](01_alpha_review.md) / [第 2 号](02_alpha1_preview.md) / [ダウンロード（Releases）](https://github.com/antarcticlion/sgnano/releases)

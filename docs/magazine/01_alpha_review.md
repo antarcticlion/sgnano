@@ -374,4 +374,4 @@ sgnano は製品ではない。完成もしていない。だが、「マイコ�
 
 ---
 
-**sgnano magazine**　[第 1 号](01_alpha_review.md) / [第 2 号](02_alpha1_preview.md) / [ダウンロード（Releases）](https://github.com/antarcticlion/sgnano/releases/latest)
+**sgnano magazine**　[第 1 号](01_alpha_review.md) / [第 2 号](02_alpha1_preview.md) / [ダウンロード（Releases）](https://github.com/antarcticlion/sgnano/releases)
