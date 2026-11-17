@@ -68,6 +68,6 @@ sgnano を使ったこと、または使えなかったことによって生じ�
 - `samples/` の見本のプログラムは **MIT** です（`samples/LICENSE`。`neon_c/` も MIT）。`samples/sound/WTF4CH.mid` は **CC0** です（`samples/sound/LICENSE`）。
 - `sdk/sgx/` は **MIT**、`apps/hello` は **CC0**、`docs/` は **CC BY-SA 4.0**、`hardware/`（ガーバー）は **CERN-OHL-P-2.0** です（それぞれのフォルダの `LICENSE`）。
 
-## 作った人
+---
 
-南極獅子（antarcticlion）— sgnano プロジェクト チーフデザイナー
+Copyright (c) 2026 antarcticlion（南極獅子）。詳しくは [`LICENSE`](LICENSE) を見てください。
