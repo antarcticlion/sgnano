@@ -85,6 +85,10 @@
 
 SHA-256 は各 Release の `SHA256SUMS` にあります。
 
+**サウンドフォント（SF2）は入っていません。** ファームの SMF 再生は内蔵の音源（4 声のウェーブテーブル）で鳴るので要りません。
+`smf2vgm.sgx`（MIDI → VGM / VGZ）を使うときだけ、[MuseScore_General.sf2](https://ftp.osuosl.org/pub/musescore/soundfont/MuseScore_General/MuseScore_General.sf2)（約 83MB、MIT）を落として、
+USB メモリの `<ドライブ>:/SoundFonts/` に置いてください（S: の 4MB には入りません）。`.sf3` は読みません。
+
 ## 文書
 
 入口は [`docs/README.md`](docs/README.md) です。
