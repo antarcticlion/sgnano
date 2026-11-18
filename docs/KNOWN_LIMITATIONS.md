@@ -84,6 +84,10 @@
 - **PSRAM に入らない大きい VGZ も再生できるが、ファイルから読みながら鳴らすので途切れが多く、聴ける音にならない**。大きい曲は MP3 に書き出して聴く。
 - 音楽 CD の再生中は、ほかの音を同時に鳴らさない（ストリームが排他）。
 - 音源の診断キー（`A` / `C` など）は開発用。普段は使わない。
+- **サウンドフォント（SF2）は配布物に入れていません。** ファームの SMF 再生（`Sound.play` / mplay）は**内蔵の 4 声ウェーブテーブル**で鳴らすので、SF2 は要りません。SF2 が要るのは **`smf2vgm.sgx`**（MIDI → VGM / VGZ の変換）だけです。
+  - 置き場: `<ドライブ>:/SoundFonts/`（`MuseScore_General_Full.sf2` を優先し、無ければ最初の `.sf2`）。`--sf2 FILE` でも指定できます。
+  - ダウンロード: [MuseScore_General.sf2](https://ftp.osuosl.org/pub/musescore/soundfont/MuseScore_General/MuseScore_General.sf2)（MuseScore General、MIT。約 83MB）。S: の 4MB には入りません。
+  - 変換した VGM / VGZ を配るときは、MuseScore General の著作権表示と MIT の許諾文を添えてください。
 
 ### 2.6 USB・ストレージ
 
