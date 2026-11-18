@@ -74,11 +74,13 @@
 
 | 何を入れるか | ファイル |
 |---|---|
-| **α1 の一式**（初回。S: とフォントも入る） | [alpha1-2026.11 の Release](https://github.com/antarcticlion/sgnano/releases/tag/alpha1-2026.11) / [全体 UF2](https://github.com/antarcticlion/sgnano/releases/download/alpha1-2026.11/sgnano-alpha1-2026.11-full.uf2) / [IME の辞書](https://github.com/antarcticlion/sgnano/releases/download/alpha1-2026.11/sgnano-alpha1-2026.11-ime-dict.zip) |
-| **最終ファームウェア**（ファームだけ更新） | [alpha1-2026.11.1 の Release](https://github.com/antarcticlion/sgnano/releases/tag/alpha1-2026.11.1) / [ファーム UF2](https://github.com/antarcticlion/sgnano/releases/download/alpha1-2026.11.1/sgnano-alpha1-2026.11.1-firmware.uf2) |
+| **α1 の一式**（初回。S: とフォントも入る） | [alpha1-2026.11.2 の Release](https://github.com/antarcticlion/sgnano/releases/tag/alpha1-2026.11.2) / [全体 UF2](https://github.com/antarcticlion/sgnano/releases/download/alpha1-2026.11.2/sgnano-alpha1-2026.11.2-full.uf2) / [IME の辞書](https://github.com/antarcticlion/sgnano/releases/download/alpha1-2026.11/sgnano-alpha1-2026.11-ime-dict.zip) |
+| **最終ファームウェア**（ファームだけ更新） | [alpha1-2026.11.2 の Release](https://github.com/antarcticlion/sgnano/releases/tag/alpha1-2026.11.2) / [ファーム UF2](https://github.com/antarcticlion/sgnano/releases/download/alpha1-2026.11.2/sgnano-alpha1-2026.11.2-firmware.uf2) |
 
 1. **初回**は α1 の全体 UF2 を、BOOTSEL で立ち上げた `RPI-RP2` へコピーします。**S: は初期化されます。**
 2. そのあと、**最終ファームウェアの UF2** をコピーします（ファームだけ更新。S: とフォントは残ります）。
+   - `alpha1-2026.11.1` の全体 UF2 は、作成の不具合で各ブロックの先頭が壊れていたため配布を停止しました。全体を入れ直すときは **11.2 の全体 UF2** を使ってください。
+   - 11.3 以降のパッチリリースは、**ファームウェア UF2 だけ**を配布します。
 3. **S: とフォントを入れ直すとき**は、α1 の後半 UF2（`-system-font.uf2`）。ファームは残ります。
 4. 日本語の漢字変換には **IME の辞書**（`-ime-dict.zip`）が要ります。USB のドライブのルートに `SgnanoIME/` ごと置いてください（S: の 4MB には入りません）。
 5. フォント ROM はファームと同じ版を使ってください。v1 の ROM では文字が出ません。
