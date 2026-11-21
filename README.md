@@ -66,8 +66,9 @@
 
 α版を外の読者向けに紹介する読み物です。
 
-- [第 1 号　ワンチップに「パソコン」を取り戻せ](docs/magazine/01_alpha_review.md)（2026-11-14）
-- [第 2 号　α版、出荷前夜](docs/magazine/02_alpha1_preview.md)（2026-11-17）
+- [第 1 号　ワンチップに「パソコン」を取り戻せ](docs/magazine/01_alpha_review.md)（2026-11-14、[誌面の PDF](docs/magazine/01_alpha_review.pdf)）
+- [第 2 号　α版、出荷前夜](docs/magazine/02_alpha1_preview.md)（2026-11-17、[誌面の PDF](docs/magazine/02_alpha1_preview.pdf)）
+- [第 3 号　α2、使ってみた](docs/magazine/03_alpha2_review.md)（2026-11-21、[誌面の PDF](docs/magazine/03_alpha2_review.pdf)）
 
 ## ダウンロードと書き込み
 
