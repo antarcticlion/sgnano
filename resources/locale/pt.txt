@@ -20,14 +20,14 @@ ui	属性を変える	Alterar os atributos
 ui	エディタで開く	Abrir no editor
 ui	テキスト表示（Shift+V / Ctrl+Alt+F7 は 16 進）	Ver como texto (Shift+V / Ctrl+Alt+F7 hex)
 ui	ドライブの情報	Informação da unidade
-ui	フォルダを作る / 新しいファイル	Nova pasta / novo ficheiro
+ui	フォルダを作る（Shift+F5） / 新しいファイル（Ctrl+F1）	Nova pasta (Shift+F5) / novo ficheiro (Ctrl+F1)
 ui	シェル sgsh / 媒体を取り出す	Shell sgsh / ejetar o suporte
 ui	読み直す	Recarregar
-ui	見えている画面を PNG で保存	Guardar o ecrã como PNG
+ui	見えている画面を PNG で保存（Alt+F5 も同じ）	Guardar o ecrã como PNG (= Alt+F5)
 ui	窓を閉じる・選択を解く（サブフォルダでは上位へ）	Fechar a janela / limpar a seleção (numa subpasta: subir)
-ui	ファイルの操作（FD と同じ。印・範囲・カーソルの順に選ぶ）	Operações de ficheiros (como no FD: marcas, depois intervalo, depois cursor)
-ui	コピー: 行き先はドライブとフォルダの木から。ESC で止める	Copiar: escolher o destino na árvore de unidades e pastas. ESC para
-ui	削除: y で確かめる。印・範囲をまとめて。フォルダは中身ごと	Apagar: confirmar com y. Marcas e intervalos juntos. Pastas com o seu conteúdo
+ui	ファイルの操作（FD と同じ。印・範囲・カーソルの順）	Operações de ficheiros (como no FD: marcas, depois intervalo, depois cursor)
+ui	コピー: 行き先は木から選ぶ。ESC で止める	Copiar: escolher o destino na árvore de unidades e pastas. ESC para
+ui	削除: y で確かめる。印・範囲をまとめて	Apagar: confirmar com y. Marcas e intervalos juntos. Pastas com o seu conteúdo
 ui	フォルダを削除（中身ごと）	Apagar uma pasta (com o seu conteúdo)
 ui	名前を変える（今の名前を直して Enter）	Renomear (edite o nome, Enter)
 ui	属性: R 読み出し専用・H 隠し・S システム・A アーカイブ	Atributos: R só leitura, H oculto, S sistema, A arquivo
@@ -49,22 +49,19 @@ ui	画面（Alt+F。FD の F キーとぶつからない）	Ecrã (Alt+F, não c
 ui	FB（絵）/ テキスト面を出す・隠す	Mostrar / ocultar o FB (imagem) / o texto
 ui	FB の表示ページ（0〜3）	Página de visualização do FB (0-3)
 ui	FB を 0 で消す / 明るさを 1/2 に（RGB555）	Limpar o FB para 0 / reduzir o brilho a metade (RGB555)
-ui	USB のエンドポイントと LAN の状態	Endpoints USB e estado da LAN
+ui	USB のエンドポイントと LAN（U: 10 秒に 1 度）	Endpoints USB e estado da LAN
 ui	FB の表示ページを消す / 明るさを 1/2 に	Limpar a página de visualização do FB / reduzir o brilho a metade
 ui	テキストの属性の見本	Amostras de atributos de texto
 ui	モニタの EDID（起動時に読んだもの）	EDID do monitor (lido na inicialização)
 ui	フォント ROM のライセンスとクレジット	Licenças e créditos da ROM de fontes
 ui	設定（表示の言語・IME・キーボードロケール）	Configurações (idioma de exibição, IME, localidade do teclado)
-ui	時計（NTP で合わせた日本時間。s ですぐ合わせる）	Relógio (hora do Japão via NTP; s sincroniza)
+ui	時計（NTP で合わせた日本時間。s は 3 分に 1 度）	Relógio (hora do Japão via NTP; s sincroniza)
 ui	表計算（SGCALC）を開く	Planilha aberta (SGCALC)
 ui	S: ドライブのエラー検査（誤りがあれば直すか聞く）	Verificar S: (pergunta antes de reparar)
 ui	トラッカー（TRACKER）を開く	Abra o RASTREADOR
-ui	再起動（確かめの窓が出る）	Reiniciar (pergunta antes)
+ui	再起動（確かめの窓）。Ctrl+Alt+Del も同じ	Reiniciar (pergunta antes) = Ctrl+Alt+Del
 ui	ADC のステレオ入力（GP40 / 41）を鳴らす	Tocar a entrada estéreo ADC (GP40 / 41)
 ui	VGM/VGZ を 96kHz/24bit WAV に書き出す	Exportar VGM/VGZ para WAV de 96 kHz / 24 bits
-ui	このヘルプ	Esta ajuda
-ui	ページを替える	Mudar de página
-ui	閉じる	Fechar
 ui	テキスト・16 進のビュアー（less 風）	Visualizador de texto / hex (como less)
 ui	1 行	Uma linha
 ui	1 ページ	Uma página
@@ -82,10 +79,9 @@ ui	IME の言語（日本語 / English / 한국어）	Idioma IME (japonês/ingl�
 ui	ひらがな / カタカナで確定	Confirmar como hiragana / katakana
 ui	エディタのヘルプ	Ajuda do editor
 ui	シェル	concha
-ui	シェル（csh のサブセット。exit / Ctrl-D で戻る、help で一覧）	Shell (subconjunto do csh. exit / Ctrl-D para voltar, help lista os comandos)
+ui	シェル（csh の一部。exit / Ctrl-D で戻る、help で一覧）	Shell (subconjunto do csh. exit / Ctrl-D para voltar, help lista os comandos)
 ui	一覧と移動	Lista e movimento
 ui	ファイルの操作	Operações com arquivos
-ui	画面と機器	Tela e dispositivos
 ui	ビュアーとエディタ	Visualizadores e editor
 ui	ヘルプ  %u / %u  %s	Ajuda  %u / %u  %s
 ui	Left Right: ページを替える    F1 / ESC: 閉じる	Esq. Dir.: mudar de página    F1 / ESC: fechar
@@ -146,9 +142,9 @@ ui	10 EP表	10 EP
 ui	11 時計	11 Relóg
 ui	12 表計	12 CALC
 ui	1 属性	1 Atrib
-ui	2 情報	2 Info
+ui	2Drv情報	2 Info
 ui	3 移動	3 Mover
-ui	5 作成	5 Pasta
+ui	5 ﾌｫﾙﾀﾞ	5 Pasta
 ui	6 シェル	6 Shell
 ui	8 編集	8 Editar
 ui	9 表示	9 Ver
@@ -487,8 +483,8 @@ msg.phrase	no such channel	esse canal não existe
 msg.phrase	the sequencer is busy	o sequenciador está ocupado
 msg.phrase	not enough PSRAM for the song	PSRAM insuficiente para a música
 msg.phrase	not a standard MIDI file (no MThd)	não é um arquivo MIDI padrão (sem MThd)
-msg.phrase	no tracks	sem faixas
-msg.phrase	a track is broken (MTrk)	uma faixa está danificada (MTrk)
+msg.phrase	no tracks	nenhuma trilha
+msg.phrase	a track is broken (MTrk)	uma trilha está danificada (MTrk)
 msg.phrase	SMPTE time division is not supported	a divisão de tempo SMPTE não é suportada
 msg.phrase	SMF format 2 is not supported (0 and 1 only)	o formato SMF 2 não é suportado (só 0 e 1)
 msg.phrase	not a Bulk-Only drive	não é uma unidade Bulk-Only
@@ -627,387 +623,387 @@ msg.phrase	2 Edit	2 Editar
 msg.phrase	3 Graph	3 Gráfico
 msg.phrase	4 Sheet	4 folhas
 msg.phrase	5 Help	5 Ajuda
-msg.phrase	EMPTY	VAZIO
+msg.phrase	EMPTY	VAZIA
 msg.phrase	NUMBER	NÚMERO
 msg.phrase	TEXT	TEXTO
 msg.phrase	FORMULA	FÓRMULA
-msg.phrase	Type to enter, F2 to edit, F1 for help	Digite para entrar, F2 para editar, F1 para ajuda
+msg.phrase	Type to enter, F2 to edit, F1 for help	Digite para inserir, F2 para editar, F1 para ajuda
 msg.phrase	5 CSV	5 CSV
 msg.phrase	6 ODS	6 ODS
-msg.phrase	[SHIFT]	[MUDANÇA]
+msg.phrase	[SHIFT]	[SHIFT]
 msg.phrase	[CTRL]	[CTRL]
 msg.phrase	[ALT]	[ALT]
 msg.phrase	Ready	Pronto
 msg.phrase	SGCALC	SGCALC
-msg.phrase	Press any key	Pressione qualquer tecla
-msg.phrase	Y = yes    N = no    Esc = cancel	S = sim N = não Esc = cancelar
-msg.phrase	Enter = OK    Esc = cancel    Ctrl-U = clear	Enter = OK Esc = cancelar Ctrl-U = limpar
-msg.phrase	First row/column = labels; charts use the 640x480 CLUT8 FB.	Primeira linha/coluna = rótulos; gráficos usam o CLUT8 FB 640x480.
+msg.phrase	Press any key	Pressione uma tecla
+msg.phrase	Y = yes    N = no    Esc = cancel	Y = sim    N = não    Esc = cancelar
+msg.phrase	Enter = OK    Esc = cancel    Ctrl-U = clear	Enter = OK    Esc = cancelar    Ctrl-U = limpar
+msg.phrase	First row/column = labels; charts use the 640x480 CLUT8 FB.	1ª linha/coluna = rótulos; os gráficos usam o FB CLUT8 de 640x480.
 msg.phrase	SGCALC - HELP	SGCALC - AJUDA
-msg.phrase	Press any key to return	Pressione qualquer tecla para retornar
-msg.phrase	Press any key to return.	Pressione qualquer tecla para retornar.
-msg.phrase	ABOUT SGCALC	SOBRE SGCALC
+msg.phrase	Press any key to return	Pressione uma tecla para voltar
+msg.phrase	Press any key to return.	Pressione uma tecla para voltar.
+msg.phrase	ABOUT SGCALC	SOBRE O SGCALC
 msg.phrase	New	Novo
-msg.phrase	Start a new sheet	Iniciar uma nova planilha
+msg.phrase	Start a new sheet	Começar uma planilha nova
 msg.phrase	Open...	Abrir...
-msg.phrase	Open an ODS, FODS or CSV file	Abra um arquivo ODS, FODS ou CSV
+msg.phrase	Open an ODS, FODS or CSV file	Abrir um arquivo ODS, FODS ou CSV
 msg.phrase	Save	Salvar
-msg.phrase	Save the current file	Salve o arquivo atual
+msg.phrase	Save the current file	Salvar o arquivo atual
 msg.phrase	Save As...	Salvar como...
-msg.phrase	Save with a new name or format	Salve com um novo nome ou formato
+msg.phrase	Save with a new name or format	Salvar com outro nome ou formato
 msg.phrase	Export CSV...	Exportar CSV...
-msg.phrase	Write a CSV copy	Escreva uma cópia CSV
+msg.phrase	Write a CSV copy	Gravar uma cópia em CSV
 msg.phrase	Export ODS...	Exportar ODS...
-msg.phrase	Write a LibreOffice copy	Escreva uma cópia do LibreOffice
+msg.phrase	Write a LibreOffice copy	Gravar uma cópia para o LibreOffice
 msg.phrase	Quit	Sair
 msg.phrase	Leave SGCALC	Sair do SGCALC
 msg.phrase	Clear	Limpar
-msg.phrase	Clear the selected cells	Limpe as células selecionadas
+msg.phrase	Clear the selected cells	Limpar as células selecionadas
 msg.phrase	Copy	Copiar
-msg.phrase	Copy the selection	Copie a seleção
+msg.phrase	Copy the selection	Copiar a seleção
 msg.phrase	Paste	Colar
-msg.phrase	Paste at the cursor	Cole no cursor
-msg.phrase	Cut	Cortar
-msg.phrase	Copy and clear the selection	Copie e limpe a seleção
+msg.phrase	Paste at the cursor	Colar no cursor
+msg.phrase	Cut	Recortar
+msg.phrase	Copy and clear the selection	Copiar e limpar a seleção
 msg.phrase	Select all	Selecionar tudo
-msg.phrase	Select all used cells	Selecione todas as células usadas
+msg.phrase	Select all used cells	Selecionar todas as células usadas
 msg.phrase	Text color...	Cor do texto...
-msg.phrase	Choose the text colour	Escolha a cor do texto
-msg.phrase	Background...	Plano de fundo...
-msg.phrase	Choose the cell background	Escolha o plano de fundo da célula
-msg.phrase	Line	Linha
-msg.phrase	Draw a line graph from the selection	Desenhe um gráfico de linha da seleção
-msg.phrase	Bar	Barra
-msg.phrase	Draw a bar graph from the selection	Desenhe um gráfico de barras da seleção
+msg.phrase	Choose the text colour	Escolher a cor do texto
+msg.phrase	Background...	Fundo...
+msg.phrase	Choose the cell background	Escolher o fundo da célula
+msg.phrase	Line	Linhas
+msg.phrase	Draw a line graph from the selection	Desenhar um gráfico de linhas com a seleção
+msg.phrase	Bar	Barras
+msg.phrase	Draw a bar graph from the selection	Desenhar um gráfico de barras com a seleção
 msg.phrase	Mixed	Misto
-msg.phrase	Bars for the first series, lines for the rest	Barras para a primeira série, linhas para o resto
-msg.phrase	Pie	Torta
-msg.phrase	Draw a pie graph from the selection	Desenhe um gráfico de pizza a partir da seleção
-msg.phrase	Range...	Alcance...
-msg.phrase	Set the graph range explicitly	Defina o intervalo do gráfico explicitamente
-msg.phrase	Draw again	Desenhe novamente
-msg.phrase	Redraw the last graph	Redesenhe o último gráfico
-msg.phrase	Goto...	Vamos...
+msg.phrase	Bars for the first series, lines for the rest	Barras para a 1ª série, linhas para as demais
+msg.phrase	Pie	Pizza
+msg.phrase	Draw a pie graph from the selection	Desenhar um gráfico de pizza com a seleção
+msg.phrase	Range...	Intervalo...
+msg.phrase	Set the graph range explicitly	Digitar o intervalo do gráfico
+msg.phrase	Draw again	Redesenhar
+msg.phrase	Redraw the last graph	Desenhar de novo o último gráfico
+msg.phrase	Goto...	Ir para...
 msg.phrase	Jump to a cell (for example C12)	Ir para uma célula (por exemplo C12)
 msg.phrase	Column width...	Largura da coluna...
-msg.phrase	Change the selected columns' width	Alterar a largura das colunas selecionadas
+msg.phrase	Change the selected columns' width	Mudar a largura das colunas selecionadas
 msg.phrase	Row height...	Altura da linha...
-msg.phrase	Change the selected rows' height	Alterar a altura das linhas selecionadas
-msg.phrase	Auto fit	Ajuste automático
-msg.phrase	Fit widths/heights to the contents (F7)	Ajustar larguras/alturas ao conteúdo (F7)
+msg.phrase	Change the selected rows' height	Mudar a altura das linhas selecionadas
+msg.phrase	Auto fit	Ajustar
+msg.phrase	Fit widths/heights to the contents (F7)	Ajustar larguras e alturas ao conteúdo (F7)
 msg.phrase	Recalculate	Recalcular
-msg.phrase	Re-evaluate all formulas	Reavaliar todas as fórmulas
+msg.phrase	Re-evaluate all formulas	Recalcular todas as fórmulas
 msg.phrase	Erase all	Apagar tudo
-msg.phrase	Clear the whole sheet	Limpe a planilha inteira
-msg.phrase	Keys	Chaves
-msg.phrase	Show the key guide	Mostrar o guia principal
+msg.phrase	Clear the whole sheet	Limpar a planilha inteira
+msg.phrase	Keys	Teclas
+msg.phrase	Show the key guide	Mostrar o guia de teclas
 msg.phrase	About	Sobre
-msg.phrase	About SGCALC	Sobre SGCALC
+msg.phrase	About SGCALC	Sobre o SGCALC
 msg.phrase	File	Arquivo
 msg.phrase	Edit	Editar
 msg.phrase	Graph	Gráfico
-msg.phrase	Sheet	Folha
+msg.phrase	Sheet	Planilha
 msg.phrase	Help	Ajuda
 msg.phrase	File: new, open, save, export, quit	Arquivo: novo, abrir, salvar, exportar, sair
-msg.phrase	Edit: clear, copy, paste, cut, select all	Editar: limpar, copiar, colar, cortar, selecionar tudo
-msg.phrase	Graph: line, bar, mixed, pie (draws in the FB)	Gráfico: linha, barra, misto, pizza (sorteios no FB)
-msg.phrase	Sheet: goto, column width, recalculate, erase	Folha: ir para, largura da coluna, recalcular, apagar
-msg.phrase	Help: keys and about	Ajuda: chaves e sobre
+msg.phrase	Edit: clear, copy, paste, cut, select all	Editar: limpar, copiar, colar, recortar, selecionar tudo
+msg.phrase	Graph: line, bar, mixed, pie (draws in the FB)	Gráfico: linhas, barras, misto, pizza (no FB)
+msg.phrase	Sheet: goto, column width, recalculate, erase	Planilha: ir para, largura da coluna, recalcular, apagar
+msg.phrase	Help: keys and about	Ajuda: teclas e sobre
 msg.phrase	Left/Right = menu    Up/Down = item    Enter = choose    Esc = cancel	Esquerda/Direita = menu Acima/Abaixo = item Enter = escolha Esc = cancelar
 msg.phrase	Cancelled	Cancelado
-msg.phrase	The selection is too large or memory is low.	A seleção é muito grande ou há pouca memória.
+msg.phrase	The selection is too large or memory is low.	A seleção é grande demais ou falta memória.
 msg.phrase	the cell	a célula
 msg.phrase	the selection	a seleção
 msg.phrase	Nothing to paste	Nada para colar
 msg.phrase	Pasted	Colado
 msg.phrase	GO TO CELL	IR PARA A CÉLULA
-msg.phrase	Cell reference (A1):	Referência de célula (A1):
+msg.phrase	Cell reference (A1):	Referência da célula (A1):
 msg.phrase	Goto	Ir para
 msg.phrase	COLUMN WIDTH	LARGURA DA COLUNA
 msg.phrase	Width in characters (4..30):	Largura em caracteres (4..30):
 msg.phrase	ROW HEIGHT	ALTURA DA LINHA
-msg.phrase	Height in text rows (1..8):	Altura nas linhas de texto (1..8):
-msg.phrase	Auto fit: the sheet is empty	Ajuste automático: a folha está vazia
+msg.phrase	Height in text rows (1..8):	Altura em linhas de texto (1..8):
+msg.phrase	Auto fit: the sheet is empty	Ajustar: a planilha está vazia
 msg.phrase	BACKGROUND COLOUR	COR DE FUNDO
 msg.phrase	TEXT COLOUR	COR DO TEXTO
-msg.phrase	Arrows: choose    Enter: apply    Esc: cancel	Setas: escolha Enter: aplicar Esc: cancelar
-msg.phrase	Colour index (PC-98 16-colour palette)	Índice de cores (paleta de 16 cores PC-98)
+msg.phrase	Arrows: choose    Enter: apply    Esc: cancel	Setas: escolher    Enter: aplicar    Esc: cancelar
+msg.phrase	Colour index (PC-98 16-colour palette)	Número da cor (paleta de 16 cores do PC-98)
 msg.phrase	Aa 123	Aa 123
-msg.phrase	Enter = apply    Esc = cancel	Enter = aplicar Esc = cancelar
+msg.phrase	Enter = apply    Esc = cancel	Enter = aplicar    Esc = cancelar
 msg.phrase	Colour	Cor
 msg.phrase	Background	Plano de fundo
 msg.phrase	Text	Texto
-msg.phrase	GRAPH RANGE	FAIXA GRÁFICA
-msg.phrase	Range (for example A1:C10):	Faixa (por exemplo A1:C10):
+msg.phrase	GRAPH RANGE	INTERVALO DO GRÁFICO
+msg.phrase	Range (for example A1:C10):	Intervalo (por exemplo A1:C10):
 msg.phrase	Graph range	Intervalo do gráfico
 msg.phrase	Use a range such as A1:C10.	Use um intervalo como A1:C10.
-msg.phrase	Cannot draw the graph.	Não é possível desenhar o gráfico.
+msg.phrase	Cannot draw the graph.	Não foi possível desenhar o gráfico.
 msg.phrase	line	linha
 msg.phrase	bar	barra
 msg.phrase	mixed	misturado
 msg.phrase	pie	torta
 msg.phrase	Clear every cell in this sheet?	Limpar todas as células desta planilha?
-msg.phrase	Sheet erased	Folha apagada
-msg.phrase	Selected all used cells	Selecionou todas as células usadas
+msg.phrase	Sheet erased	Planilha apagada
+msg.phrase	Selected all used cells	Todas as células usadas selecionadas
 msg.phrase	Recalculated	Recalculado
 msg.phrase	Memory	Memória
-msg.phrase	Not enough PSRAM for the spreadsheet.	PSRAM insuficiente para a planilha.
+msg.phrase	Not enough PSRAM for the spreadsheet.	Não há PSRAM suficiente para a planilha.
 msg.phrase	The sheet is empty.	A planilha está vazia.
-msg.phrase	No numeric data in the selected range.	Não há dados numéricos no intervalo selecionado.
-msg.phrase	Other	Outro
-msg.phrase	No positive values for a pie chart	Nenhum valor positivo para um gráfico de pizza
-msg.phrase	LINE	LINHA
-msg.phrase	BAR	BAR
-msg.phrase	MIXED	MISTURADO
-msg.phrase	PIE	TORTA
+msg.phrase	No numeric data in the selected range.	Não há números no intervalo selecionado.
+msg.phrase	Other	Outros
+msg.phrase	No positive values for a pie chart	Não há valores positivos para um gráfico de pizza
+msg.phrase	LINE	LINHAS
+msg.phrase	BAR	BARRAS
+msg.phrase	MIXED	MISTO
+msg.phrase	PIE	PIZZA
 msg.phrase	S:/	S:/
 msg.phrase	Folder	Pasta
 msg.phrase	SAVE AS	SALVAR COMO
 msg.phrase	OPEN FILE	ABRIR ARQUIVO
-msg.phrase	LibreOffice / CSV	LibreOffice/CSV
-msg.phrase	ODS  FODS  CSV	ODS FODS CSV
+msg.phrase	LibreOffice / CSV	LibreOffice / CSV
+msg.phrase	ODS  FODS  CSV	ODS  FODS  CSV
 msg.phrase	Name:	Nome:
 msg.phrase	(type a name, or choose below)	(digite um nome ou escolha abaixo)
 msg.phrase	Name	Nome
 msg.phrase	Size	Tamanho
-msg.phrase	Enter=save  Left=up  Right/Enter on [DIR]=open  Tab=drive  Esc=cancel	Enter=salvar Esquerda=cima Direita/Enter em [DIR]=abrir Tab=drive Esc=cancelar
-msg.phrase	Enter=open  Left=up  Right/Enter on [DIR]=open  Tab=drive  Esc=cancel	Enter=abrir Esquerda=cima Direita/Enter em [DIR]=abrir Tab=unidade Esc=cancelar
+msg.phrase	Enter=save  Left=up  Right/Enter on [DIR]=open  Tab=drive  Esc=cancel	Enter=salvar  Esq=subir  Dir/Enter em [DIR]=abrir  Tab=unidade  Esc=cancelar
+msg.phrase	Enter=open  Left=up  Right/Enter on [DIR]=open  Tab=drive  Esc=cancel	Enter=abrir  Esq=subir  Dir/Enter em [DIR]=abrir  Tab=unidade  Esc=cancelar
 msg.phrase	Not enough memory.	Memória insuficiente.
 msg.phrase	Overwrite	Substituir
 msg.phrase	Open	Abrir
-msg.phrase	The file is too large (limit 8 MB).	O arquivo é muito grande (limite de 8 MB).
+msg.phrase	The file is too large (limit 8 MB).	O arquivo é grande demais (limite de 8 MB).
 msg.phrase	Not enough memory to read the file.	Não há memória suficiente para ler o arquivo.
-msg.phrase	Bad ZIP/ODS data.	Dados ZIP/ODS incorretos.
-msg.phrase	CRC error in the ODS file.	Erro CRC no arquivo ODS.
+msg.phrase	Bad ZIP/ODS data.	Dados ZIP/ODS danificados.
+msg.phrase	CRC error in the ODS file.	Erro de CRC no arquivo ODS.
 msg.phrase	Unsupported or damaged file.	Arquivo não suportado ou danificado.
 msg.phrase	Saved	Salvo
 msg.phrase	Exported	Exportado
 msg.phrase	Unsaved changes	Alterações não salvas
 msg.phrase	Save the current sheet before continuing?	Salvar a planilha atual antes de continuar?
-msg.phrase	New sheet	Nova planilha
+msg.phrase	New sheet	Planilha nova
 msg.phrase	SGTRK	SGTRK
-msg.phrase	UNTITLED	SEM TÍTULO
-msg.phrase	song is too large	a música é muito grande
+msg.phrase	UNTITLED	UNTITLED
+msg.phrase	song is too large	a música é grande demais
 msg.phrase	empty file	arquivo vazio
 msg.phrase	not an SGT file	não é um arquivo SGT
-msg.phrase	bad BPM	BPM ruim
-msg.phrase	bad speed	velocidade ruim
-msg.phrase	bad title length	comprimento do título ruim
-msg.phrase	truncated title	título truncado
-msg.phrase	bad character in title	mau personagem no título
-msg.phrase	truncated order	ordem truncada
-msg.phrase	bad order length	comprimento do pedido incorreto
-msg.phrase	bad pattern number in order	número de padrão ruim em ordem
-msg.phrase	truncated pattern list	lista de padrões truncados
-msg.phrase	bad pattern count	contagem de padrões ruins
-msg.phrase	bad pattern index	índice de padrão ruim
+msg.phrase	bad BPM	BPM incorreto
+msg.phrase	bad speed	velocidade incorreta
+msg.phrase	bad title length	tamanho do título incorreto
+msg.phrase	truncated title	título incompleto
+msg.phrase	bad character in title	caractere inválido no título
+msg.phrase	truncated order	sequência incompleta
+msg.phrase	bad order length	tamanho da sequência incorreto
+msg.phrase	bad pattern number in order	número de padrão incorreto na sequência
+msg.phrase	truncated pattern list	lista de padrões incompleta
+msg.phrase	bad pattern count	número de padrões incorreto
+msg.phrase	bad pattern index	índice de padrão incorreto
 msg.phrase	duplicate pattern	padrão duplicado
-msg.phrase	truncated pattern data	dados de padrão truncados
+msg.phrase	truncated pattern data	dados de padrão incompletos
 msg.phrase	invalid pattern data	dados de padrão inválidos
-msg.phrase	trailing data in file	dados finais no arquivo
-msg.phrase	order refers to a missing pattern	ordem refere-se a um padrão ausente
-msg.phrase	A:/	R:/
+msg.phrase	trailing data in file	dados sobrando no fim do arquivo
+msg.phrase	order refers to a missing pattern	a sequência usa um padrão que não existe
+msg.phrase	A:/	A:/
 msg.phrase	(untitled)	(sem título)
-msg.phrase	Ready. Press F1 for help.	Pronto. Pressione F1 para obter ajuda.
-msg.phrase	Follow OFF	Siga OFF
+msg.phrase	Ready. Press F1 for help.	Pronto. Pressione F1 para ajuda.
+msg.phrase	Follow OFF	Seguir NÃO
 msg.phrase	Nothing to undo	Nada para desfazer
-msg.phrase	Undo	Desfazer
-msg.phrase	Note OFF	Nota DESLIGADA
-msg.phrase	Set an effect letter first	Defina uma letra de efeito primeiro
+msg.phrase	Undo	Desfeito
+msg.phrase	Note OFF	Note off
+msg.phrase	Set an effect letter first	Digite primeiro a letra do efeito
 msg.phrase	Effect cleared	Efeito apagado
 msg.phrase	Parameter cleared	Parâmetro apagado
 msg.phrase	Note cleared	Nota apagada
-msg.phrase	Instrument cleared	Instrumento liberado
+msg.phrase	Instrument cleared	Instrumento apagado
 msg.phrase	Volume cleared	Volume apagado
-msg.phrase	Order list is full	A lista de pedidos está cheia
-msg.phrase	Order inserted	Pedido inserido
-msg.phrase	Cannot delete the last order	Não é possível excluir o último pedido
-msg.phrase	Order deleted	Pedido excluído
-msg.phrase	Playing song	Tocando música
+msg.phrase	Order list is full	A sequência está cheia
+msg.phrase	Order inserted	Posição inserida na sequência
+msg.phrase	Cannot delete the last order	Não é possível apagar a última posição
+msg.phrase	Order deleted	Posição apagada da sequência
+msg.phrase	Playing song	Tocando a música
 msg.phrase	Stopped	Parado
-msg.phrase	New song	Nova música
-msg.phrase	Discard unsaved changes and start a new song? (Y/N)	Descartar alterações não salvas e iniciar uma nova música? (S/N)
-msg.phrase	Discard unsaved changes and open a song? (Y/N)	Descartar alterações não salvas e abrir uma música? (S/N)
-msg.phrase	Discard unsaved changes and quit? (Y/N)	Descartar alterações não salvas e sair? (S/N)
-msg.phrase	Song settings updated	Configurações de música atualizadas
+msg.phrase	New song	Música nova
+msg.phrase	Discard unsaved changes and start a new song? (Y/N)	Descartar as alterações e começar uma música nova? (Y/N)
+msg.phrase	Discard unsaved changes and open a song? (Y/N)	Descartar as alterações e abrir uma música? (Y/N)
+msg.phrase	Discard unsaved changes and quit? (Y/N)	Descartar as alterações e sair? (Y/N)
+msg.phrase	Song settings updated	Ajustes da música alterados
 msg.phrase	Filename is empty	O nome do arquivo está vazio
-msg.phrase	Save cancelled	Salvar cancelado
-msg.phrase	Open cancelled	Aberto cancelado
-msg.phrase	Edit ON	Editar ATIVADO
-msg.phrase	Edit OFF	Editar DESATIVADO
-msg.phrase	Follow ON	Siga ON
-msg.phrase	Edit is OFF. Press F8 to edit.	A edição está DESATIVADA. Pressione F8 para editar.
-msg.phrase	I/O error	Erro de E/S
-msg.phrase	file is too large	o arquivo é muito grande
-msg.phrase	truncated file	arquivo truncado
-msg.phrase	SINE PAD	PAD SENO
-msg.phrase	TRIANGLE	TRIÂNGULO
-msg.phrase	SAW LEAD	CABO DE SERRA
-msg.phrase	SQUARE	QUADRADO
-msg.phrase	PULSE 25	PULSO 25
-msg.phrase	ORGAN	ÓRGÃO
-msg.phrase	BASS	BAIXO
-msg.phrase	BELL	SINO
-msg.phrase	NOISE	RUÍDO
-msg.phrase	SINE	SENO
-msg.phrase	SAW	VI
-msg.phrase	OFF	DESLIGADO
-msg.phrase	ON	ATIVADO
-msg.phrase	ROW	LINHA
-msg.phrase	CHAN LEVEL	NÍVEL DE CAN
-msg.phrase	F1 HELP F2 SONG	F1 AJUDA F2 CANÇÃO
-msg.phrase	F3 INS  F4 SAVE	F3 INS F4 SALVAR
-msg.phrase	F5 PLAY F6 PAT	F5 JOGAR F6 PAT
-msg.phrase	F7 STOP F8 EDIT	F7 PARAR F8 EDITAR
-msg.phrase	F9/F10 OCTAVE	F9/F10 OITAVA
-msg.phrase	F11 FOLLOW	F11 SEGUIR
-msg.phrase	F12 QUIT	F12 SAIR
-msg.phrase	SPACE PLAY/STOP	ESPAÇO JOGAR/PARAR
-msg.phrase	CTRL-S SAVE	CTRL-S SALVAR
-msg.phrase	CTRL-O OPEN	CTRL-O ABRIR
-msg.phrase	C-N NEW C-Z UNDO	C-N NOVO C-Z DESFAZER
-msg.phrase	C-C STOP	PARADA CC
-msg.phrase	#TRANSPORT AND FILES	#TRANSPORTE E ARQUIVOS
-msg.phrase	#ORDER LIST	#LISTA DE PEDIDOS
-msg.phrase	#DISPLAY	#DISPLAY
-msg.phrase	#EDITING	#EDITANDO
-msg.phrase	#EFFECTS (parameter is hexadecimal)	#EFFECTS (o parâmetro é hexadecimal)
-msg.phrase	LEFT/RIGHT PAGE   ENTER OR F1 CLOSE	PÁGINA ESQUERDA/DIREITA ENTER OU F1 FECHAR
-msg.phrase	SONG SETTINGS	CONFIGURAÇÕES DE MÚSICA
-msg.phrase	UP/DOWN SELECT   LEFT/RIGHT ADJUST   ENTER/F2 CLOSE	PARA CIMA/PARA BAIXO SELECIONE ESQUERDA/DIREITA AJUSTE ENTER/F2 FECHAR
-msg.phrase	Type to edit the title. Backspace deletes the last character.	Digite para editar o título. Backspace exclui o último caractere.
-msg.phrase	BPM range 32..255. Speed range 1..31.	Faixa de BPM 32 a 255. Faixa de velocidade 1..31.
-msg.phrase	Pattern effects can also change speed and BPM while playing.	Os efeitos de padrão também podem alterar a velocidade e o BPM durante a reprodução.
+msg.phrase	Save cancelled	Gravação cancelada
+msg.phrase	Open cancelled	Abertura cancelada
+msg.phrase	Edit ON	Edição SIM
+msg.phrase	Edit OFF	Edição NÃO
+msg.phrase	Follow ON	Seguir SIM
+msg.phrase	Edit is OFF. Press F8 to edit.	A edição está desligada. Pressione F8.
+msg.phrase	I/O error	erro de E/S
+msg.phrase	file is too large	o arquivo é grande demais
+msg.phrase	truncated file	arquivo incompleto
+msg.phrase	SINE PAD	SINE PAD
+msg.phrase	TRIANGLE	TRIANGLE
+msg.phrase	SAW LEAD	SAW LEAD
+msg.phrase	SQUARE	SQUARE
+msg.phrase	PULSE 25	PULSE 25
+msg.phrase	ORGAN	ORGAN
+msg.phrase	BASS	BASS
+msg.phrase	BELL	BELL
+msg.phrase	NOISE	NOISE
+msg.phrase	SINE	SINE
+msg.phrase	SAW	SAW
+msg.phrase	OFF	OFF
+msg.phrase	ON	ON
+msg.phrase	ROW	ROW
+msg.phrase	CHAN LEVEL	CHAN LEVEL
+msg.phrase	F1 HELP F2 SONG	F1 HELP F2 SONG
+msg.phrase	F3 INS  F4 SAVE	F3 INS  F4 SAVE
+msg.phrase	F5 PLAY F6 PAT	F5 PLAY F6 PAT
+msg.phrase	F7 STOP F8 EDIT	F7 STOP F8 EDIT
+msg.phrase	F9/F10 OCTAVE	F9/F10 OCTAVE
+msg.phrase	F11 FOLLOW	F11 FOLLOW
+msg.phrase	F12 QUIT	F12 QUIT
+msg.phrase	SPACE PLAY/STOP	SPACE PLAY/STOP
+msg.phrase	CTRL-S SAVE	CTRL-S SAVE
+msg.phrase	CTRL-O OPEN	CTRL-O OPEN
+msg.phrase	C-N NEW C-Z UNDO	C-N NEW C-Z UNDO
+msg.phrase	C-C STOP	C-C STOP
+msg.phrase	#TRANSPORT AND FILES	#REPRODUÇÃO E ARQUIVOS
+msg.phrase	#ORDER LIST	#SEQUÊNCIA
+msg.phrase	#DISPLAY	#TELA
+msg.phrase	#EDITING	#EDIÇÃO
+msg.phrase	#EFFECTS (parameter is hexadecimal)	#EFEITOS (parâmetro em hexadecimal)
+msg.phrase	LEFT/RIGHT PAGE   ENTER OR F1 CLOSE	LEFT/RIGHT PAGE   ENTER OR F1 CLOSE
+msg.phrase	SONG SETTINGS	AJUSTES DA MÚSICA
+msg.phrase	UP/DOWN SELECT   LEFT/RIGHT ADJUST   ENTER/F2 CLOSE	UP/DOWN SELECT   LEFT/RIGHT ADJUST   ENTER/F2 CLOSE
+msg.phrase	Type to edit the title. Backspace deletes the last character.	Digite para mudar o título. Backspace apaga o último caractere.
+msg.phrase	BPM range 32..255. Speed range 1..31.	BPM de 32 a 255. Velocidade de 1 a 31.
+msg.phrase	Pattern effects can also change speed and BPM while playing.	Os efeitos do padrão também mudam velocidade e BPM ao tocar.
 msg.phrase	INSTRUMENTS	INSTRUMENTOS
-msg.phrase	UP/DOWN SELECT   SPACE PREVIEW   ENTER USE   F3 CLOSE	PARA CIMA/PARA BAIXO SELECIONE VISUALIZAÇÃO DO ESPAÇO ENTER USE F3 FECHAR
-msg.phrase	All four channels use wavetable synthesis.	Todos os quatro canais usam síntese wavetable.
-msg.phrase	Preview plays C-4 on the track under the edit cursor.	A visualização reproduz C-4 na trilha sob o cursor de edição.
+msg.phrase	UP/DOWN SELECT   SPACE PREVIEW   ENTER USE   F3 CLOSE	UP/DOWN SELECT   SPACE PREVIEW   ENTER USE   F3 CLOSE
+msg.phrase	All four channels use wavetable synthesis.	Os quatro canais usam síntese por tabela de ondas.
+msg.phrase	Preview plays C-4 on the track under the edit cursor.	Ouvir toca C-4 na trilha do cursor de edição.
 msg.phrase	SAVE SONG AS	SALVAR MÚSICA COMO
-msg.phrase	ENTER SAVE   F4 OR CTRL-C CANCEL	ENTRE SALVAR F4 OU CTRL-C CANCELAR
-msg.phrase	Directory:	Diretório:
+msg.phrase	ENTER SAVE   F4 OR CTRL-C CANCEL	ENTER SAVE   F4 OR CTRL-C CANCEL
+msg.phrase	Directory:	Pasta:
 msg.phrase	File name:	Nome do arquivo:
 msg.phrase	The extension .SGT is added automatically.	A extensão .SGT é adicionada automaticamente.
 msg.phrase	An existing file can be overwritten.	Um arquivo existente pode ser substituído.
-msg.phrase	OPEN SONG	MÚSICA ABERTA
-msg.phrase	ENTER OPEN  BS PARENT  CTRL-O/CTRL-C CANCEL	ENTER ABRIR BS PAI CTRL-O/CTRL-C CANCELAR
-msg.phrase	(no .SGT files in this folder)	(não há arquivos .SGT nesta pasta)
+msg.phrase	OPEN SONG	ABRIR MÚSICA
+msg.phrase	ENTER OPEN  BS PARENT  CTRL-O/CTRL-C CANCEL	ENTER OPEN  BS PARENT  CTRL-O/CTRL-C CANCEL
+msg.phrase	(no .SGT files in this folder)	(nenhum arquivo .SGT nesta pasta)
 msg.phrase	CONFIRM	CONFIRMAR
-msg.phrase	Y = YES   N / ENTER / CTRL-C = NO	S = SIM N / ENTER / CTRL-C = NÃO
-msg.phrase	Y = yes        N = no	S = sim N = não
+msg.phrase	Y = YES   N / ENTER / CTRL-C = NO	Y = YES   N / ENTER / CTRL-C = NO
+msg.phrase	Y = yes        N = no	Y = sim        N = não
 msg.phrase	C-	C-
 msg.phrase	C#	C#
 msg.phrase	D-	D-
 msg.phrase	D#	D#
 msg.phrase	E-	E-
 msg.phrase	F-	F-
-msg.phrase	F#	Fá#
+msg.phrase	F#	F#
 msg.phrase	G-	G-
-msg.phrase	G#	Sol#
+msg.phrase	G#	G#
 msg.phrase	A-	A-
-msg.phrase	A#	UM#
+msg.phrase	A#	A#
 msg.phrase	B-	B-
 msg.phrase	A:/dir/name	A:/dir/nome
 msg.phrase	MThd	MThd
-msg.phrase	broken MThd	MThd quebrado
-msg.phrase	MIDI IMPORT	IMPORTAÇÃO MIDI
+msg.phrase	broken MThd	MThd danificado
+msg.phrase	MIDI IMPORT	IMPORTAR MIDI
 msg.phrase	MTrk	MTrk
-msg.phrase	broken delta time	tempo delta quebrado
-msg.phrase	broken running status	status de execução quebrado
-msg.phrase	broken meta event	metaevento quebrado
-msg.phrase	broken sysex event	evento sysex quebrado
-msg.phrase	broken channel event	evento de canal quebrado
-msg.phrase	SMF output is too small	A saída SMF é muito pequena
-msg.phrase	SMF output is too large	A saída SMF é muito grande
-msg.phrase	the song is too long for SMF	a música é muito longa para SMF
+msg.phrase	broken delta time	delta time danificado
+msg.phrase	broken running status	running status danificado
+msg.phrase	broken meta event	evento meta danificado
+msg.phrase	broken sysex event	evento SysEx danificado
+msg.phrase	broken channel event	evento de canal danificado
+msg.phrase	SMF output is too small	a saída SMF é pequena demais
+msg.phrase	SMF output is too large	a saída SMF é grande demais
+msg.phrase	the song is too long for SMF	a música é longa demais para SMF
 msg.phrase	TRK1	TRK1
 msg.phrase	%s%d	%s%d
 msg.phrase	%s%d:%s%d	%s%d:%s%d
 msg.phrase	%s	%s
 msg.phrase	%.40s%s	%.40s%s
-msg.phrase	  [%s]   %s	[%s] %s
-msg.phrase	EDIT  	EDITAR
-msg.phrase	READY 	PREPARAR
-msg.phrase	%4d 	%4d
-msg.phrase	%s Sum %.7g N %ld%s	%s Sum %.7g N %ld%s
-msg.phrase	ARROWS      move the cell cursor\n	SETAS movem o cursor da célula
-msg.phrase	SHIFT+ARR   extend the selection (for graphs/copy)\n	SHIFT+ARR estende a seleção (para gráficos/cópia)
-msg.phrase	ENTER       edit the cell; in edit, commit and move down\n	ENTER edite a célula; em editar, confirmar e mover para baixo
-msg.phrase	TAB         next cell    SHIFT+TAB  previous cell\n	TAB próxima célula SHIFT+TAB célula anterior
-msg.phrase	DELETE      clear the selected cell(s)    ESC  cancel\n	DELETE limpa a(s) célula(s) selecionada(s) ESC cancelar
-msg.phrase	PGUP/PGDN   move one screen    HOME/END  first/last column\n	PGUP/PGDN move uma tela HOME/END primeira/última coluna
-msg.phrase	CTRL+HOME   A1    CTRL+END  last used cell\n	CTRL+HOME A1 CTRL+END última célula usada
-msg.phrase	F1 help  F2 edit  F3 copy  F4 paste  F5 goto  F6 colour\n	F1 ajuda F2 editar F3 copiar F4 colar F5 ir para F6 cor
-msg.phrase	F7 auto-fit  F8 background  F9 recalc  F10 graph  F11 save  F12 menu\n	F7 ajuste automático F8 fundo F9 recálculo gráfico F10 F11 salvar menu F12
-msg.phrase	SHIFT+F1 about  SHIFT+F2 row height  SHIFT+F3 column width\n	SHIFT+F1 sobre SHIFT+F2 altura da linha SHIFT+F3 largura da coluna
-msg.phrase	SHIFT+F4 select all  SHIFT+F10 graph range  SHIFT+F11 save as\n	SHIFT+F4 seleciona todos os intervalos de gráficos SHIFT+F10 SHIFT+F11 salva como
-msg.phrase	CTRL+F1 new  CTRL+F2 open  CTRL+F3 save  CTRL+F4 save as\n	CTRL+F1 novo CTRL+F2 abrir CTRL+F3 salvar CTRL+F4 salvar como
-msg.phrase	CTRL+F5 export CSV  CTRL+F6 export ODS  ALT+F12 quit\n	CTRL+F5 exportar CSV CTRL+F6 exportar ODS ALT+F12 sair
-msg.phrase	Bottom 2 lines: function keys; [SHIFT]/[CTRL]/[ALT] like the filer\n	2 linhas inferiores: teclas de função; [SHIFT]/[CTRL]/[ALT] como o arquivador
-msg.phrase	CTRL+S save  CTRL+O open  CTRL+N new  CTRL+C/V/X copy/paste/cut\n	CTRL+S salvar CTRL+O abrir CTRL+N novo CTRL+C/V/X copiar/colar/cortar
-msg.phrase	CTRL+G goto    /  open the menu (1 File, 2 Edit, ...)\n	CTRL+G vai para/abre o menu (1 Arquivo, 2 Editar, ...)
-msg.phrase	Built-in functions: SUM AVERAGE MIN MAX COUNT COUNTA\n	Funções integradas: SUM AVERAGE MIN MAX COUNT COUNTA
-msg.phrase	PRODUCT ABS SQRT INT ROUND MOD POWER IF AND OR NOT\n	PRODUTO ABS SQRT INT ROUND MOD POWER SE E OU NÃO
-msg.phrase	IFERROR LEN LEFT RIGHT MID UPPER LOWER TRIM CONCATENATE PI\n	IFERROR LEN ESQUERDA DIREITA MÉDIO SUPERIOR INFERIOR TRIM CONCATENAR PI
-msg.phrase	Cell refs: A1, $A$1, A1:B10.  Formulas begin with '='.\n	Referências de células: A1, $A$1, A1:B10.  As fórmulas começam com '='.
-msg.phrase	Files: .ods (LibreOffice), .fods (flat XML), .csv\n	Arquivos: .ods (LibreOffice), .fods (XML simples), .csv
-msg.phrase	ODS/FODS keeps formulas, widths, heights and colours.\n	ODS/FODS mantém fórmulas, larguras, alturas e cores.
-msg.phrase	CSV keeps values and formulas (no colours/heights).\n	CSV mantém valores e fórmulas (sem cores/alturas).
-msg.phrase	Graph: select a range, press F10, and choose Line/Bar/Mixed/Pie.\n	Gráfico: selecione um intervalo, pressione F10 e escolha Linha/Barra/Misto/Torta.
-msg.phrase	SGCALC for sgnano\n	SGCALC para sgnano
+msg.phrase	  [%s]   %s	  [%s]   %s
+msg.phrase	EDIT  	EDIÇ.
+msg.phrase	READY 	PRONT
+msg.phrase	%4d 	%4d 
+msg.phrase	%s Sum %.7g N %ld%s	%s Soma %.7g N %ld%s
+msg.phrase	ARROWS      move the cell cursor\n	SETAS       mover o cursor de célula\n
+msg.phrase	SHIFT+ARR   extend the selection (for graphs/copy)\n	SHIFT+SETA  ampliar a seleção (gráficos/cópia)\n
+msg.phrase	ENTER       edit the cell; in edit, commit and move down\n	ENTER       editar a célula; ao editar, confirmar e descer\n
+msg.phrase	TAB         next cell    SHIFT+TAB  previous cell\n	TAB         próxima célula    SHIFT+TAB  célula anterior\n
+msg.phrase	DELETE      clear the selected cell(s)    ESC  cancel\n	DELETE      limpar as células selecionadas    ESC  cancelar\n
+msg.phrase	PGUP/PGDN   move one screen    HOME/END  first/last column\n	PGUP/PGDN   uma tela    HOME/END  primeira/última coluna\n
+msg.phrase	CTRL+HOME   A1    CTRL+END  last used cell\n	CTRL+HOME   A1    CTRL+END  última célula usada\n
+msg.phrase	F1 help  F2 edit  F3 copy  F4 paste  F5 goto  F6 colour\n	F1 ajuda  F2 editar  F3 copiar  F4 colar  F5 ir para  F6 cor\n
+msg.phrase	F7 auto-fit  F8 background  F9 recalc  F10 graph  F11 save  F12 menu\n	F7 ajustar  F8 fundo  F9 recalcular  F10 gráfico  F11 salvar  F12 menu\n
+msg.phrase	SHIFT+F1 about  SHIFT+F2 row height  SHIFT+F3 column width\n	SHIFT+F1 sobre  SHIFT+F2 altura da linha  SHIFT+F3 largura da coluna\n
+msg.phrase	SHIFT+F4 select all  SHIFT+F10 graph range  SHIFT+F11 save as\n	SHIFT+F4 tudo  SHIFT+F10 intervalo do gráfico  SHIFT+F11 salvar como\n
+msg.phrase	CTRL+F1 new  CTRL+F2 open  CTRL+F3 save  CTRL+F4 save as\n	CTRL+F1 novo  CTRL+F2 abrir  CTRL+F3 salvar  CTRL+F4 salvar como\n
+msg.phrase	CTRL+F5 export CSV  CTRL+F6 export ODS  ALT+F12 quit\n	CTRL+F5 exportar CSV  CTRL+F6 exportar ODS  ALT+F12 sair\n
+msg.phrase	Bottom 2 lines: function keys; [SHIFT]/[CTRL]/[ALT] like the filer\n	Embaixo: teclas de função; [SHIFT]/[CTRL]/[ALT] como no filer\n
+msg.phrase	CTRL+S save  CTRL+O open  CTRL+N new  CTRL+C/V/X copy/paste/cut\n	CTRL+S salvar  CTRL+O abrir  CTRL+N novo  CTRL+C/V/X copiar/colar/recortar\n
+msg.phrase	CTRL+G goto    /  open the menu (1 File, 2 Edit, ...)\n	CTRL+G ir para    /  abrir o menu (1 Arquivo, 2 Editar, ...)\n
+msg.phrase	Built-in functions: SUM AVERAGE MIN MAX COUNT COUNTA\n	Funções: SUM AVERAGE MIN MAX COUNT COUNTA\n
+msg.phrase	PRODUCT ABS SQRT INT ROUND MOD POWER IF AND OR NOT\n	PRODUCT ABS SQRT INT ROUND MOD POWER IF AND OR NOT\n
+msg.phrase	IFERROR LEN LEFT RIGHT MID UPPER LOWER TRIM CONCATENATE PI\n	IFERROR LEN LEFT RIGHT MID UPPER LOWER TRIM CONCATENATE PI\n
+msg.phrase	Cell refs: A1, $A$1, A1:B10.  Formulas begin with '='.\n	Referências: A1, $A$1, A1:B10.  Fórmulas começam com '='.\n
+msg.phrase	Files: .ods (LibreOffice), .fods (flat XML), .csv\n	Arquivos: .ods (LibreOffice), .fods (XML plano), .csv\n
+msg.phrase	ODS/FODS keeps formulas, widths, heights and colours.\n	ODS/FODS mantém fórmulas, larguras, alturas e cores.\n
+msg.phrase	CSV keeps values and formulas (no colours/heights).\n	CSV mantém valores e fórmulas (sem cores nem alturas).\n
+msg.phrase	Graph: select a range, press F10, and choose Line/Bar/Mixed/Pie.\n	Gráfico: selecione, pressione F10 e escolha Linhas/Barras/Misto/Pizza.\n
+msg.phrase	SGCALC for sgnano\n	SGCALC for sgnano\n
 msg.phrase	Version 	Versão
-msg.phrase	A Lotus 1-2-3 style spreadsheet as an SGX program.\n\n	Uma planilha estilo Lotus 1-2-3 como um programa SGX.
+msg.phrase	A Lotus 1-2-3 style spreadsheet as an SGX program.\n\n	Planilha no estilo do Lotus 1-2-3, como programa SGX.\n\n
 msg.phrase	SGX ABI %u.%u\n	SGX ABI %u.%u
-msg.phrase	Screen mode 3: text + CLUT8 FB (lowres disabled)\n	Modo de tela 3: texto + CLUT8 FB (baixa resolução desabilitada)
+msg.phrase	Screen mode 3: text + CLUT8 FB (lowres disabled)\n	Modo de tela 3: texto + FB CLUT8 (sem plano de baixa resolução)\n
 msg.phrase	Sheet: %d rows x %d columns\n	Planilha: %d linhas x %d colunas
-msg.phrase	Formats: .ods / .fods (LibreOffice), .csv\n\n	Formatos: .ods / .fods (LibreOffice), .csv
-msg.phrase	The grid is drawn on the text plane.\n	A grade é desenhada no plano do texto.
-msg.phrase	Charts and the 640x480 background use the FB.\n\n	Os gráficos e o plano de fundo de 640x480 usam o FB.
+msg.phrase	Formats: .ods / .fods (LibreOffice), .csv\n\n	Formatos: .ods / .fods (LibreOffice), .csv\n\n
+msg.phrase	The grid is drawn on the text plane.\n	A grade é desenhada no plano de texto.\n
+msg.phrase	Charts and the 640x480 background use the FB.\n\n	Os gráficos e o fundo de 640x480 usam o FB.\n\n
 msg.phrase	%d %s	%d %s
-msg.phrase	Cannot store the cell (%d).	Não é possível armazenar a célula (%d).
-msg.phrase	Copied %d x %d cells	Copiadas %d x %d células
+msg.phrase	Cannot store the cell (%d).	Não foi possível gravar a célula (%d).
+msg.phrase	Copied %d x %d cells	%d x %d células copiadas
 msg.phrase	Cleared %s	Apagado %s
 msg.phrase	'%s' is not a cell reference.	'%s' não é uma referência de célula.
 msg.phrase	%d	%d
-msg.phrase	Column width = %d	Largura da coluna =%d
-msg.phrase	Row height = %d	Altura da linha =% d
-msg.phrase	Auto fit: %d column(s), %d row(s)	Ajuste automático: %d coluna(s), %d linha(s)
+msg.phrase	Column width = %d	Largura da coluna = %d
+msg.phrase	Row height = %d	Altura da linha = %d
+msg.phrase	Auto fit: %d column(s), %d row(s)	Ajustar: %d coluna(s), %d linha(s)
 msg.phrase	%2d	%2d
-msg.phrase	Cannot apply the colour (%d).	Não é possível aplicar a cor (%d).
+msg.phrase	Cannot apply the colour (%d).	Não foi possível aplicar a cor (%d).
 msg.phrase	%s colour = %d	%s cor = %d
-msg.phrase	Not a valid range.\nUse a range such as A1:C10.	Não é um intervalo válido.\nUse um intervalo como A1:C10.
+msg.phrase	Not a valid range.\nUse a range such as A1:C10.	Intervalo inválido.\nUse um intervalo como A1:C10.
 msg.phrase	Graph range %s	Intervalo do gráfico %s
 msg.phrase	Graph: %s	Gráfico: %s
-msg.phrase	SGCALC: cannot set screen mode 3: %s\n	SGCALC: não é possível definir o modo de tela 3: %s
+msg.phrase	SGCALC: cannot set screen mode 3: %s\n	SGCALC: não foi possível mudar para o modo de tela 3: %s\n
 msg.phrase	%.2g	%.2g
 msg.phrase	%.6g	%.6g
-msg.phrase	%s  %.0f%%	%s %.0f%%
-msg.phrase	GRAPH  %s  %s	GRÁFICO %s %s
+msg.phrase	%s  %.0f%%	%s  %.0f%%
+msg.phrase	GRAPH  %s  %s	GRÁFICO  %s  %s
 msg.phrase	%s%s	%s%s
 msg.phrase	%s/%s	%s/%s
 msg.phrase	%.*s	%.*s
 msg.phrase	%.*s/	%.*s/
-msg.phrase	Cannot read %s\n%s	Não é possível ler %s\n%s
+msg.phrase	Cannot read %s\n%s	Não foi possível ler %s\n%s
 msg.phrase	Folder: %s	Pasta: %s
 msg.phrase	[DIR] %s	[DIR] %s
-msg.phrase	      %s	%s
+msg.phrase	      %s	      %s
 msg.phrase	%lu.%luM	%lu.%luM
 msg.phrase	%luK	%luK
-msg.phrase	%luB	% luB
-msg.phrase	BOOK1%s	LIVRO1%s
+msg.phrase	%luB	%luB
+msg.phrase	BOOK1%s	BOOK1%s
 msg.phrase	%c:/	%c:/
 msg.phrase	Unsupported extension.\nUse .csv, .ods or .fods.	Extensão não suportada.\nUse .csv, .ods ou .fods.
 msg.phrase	%s already exists.\nOverwrite it?	%s já existe.\nSubstituir?
-msg.phrase	%s may not be writable.\nTry anyway?	%s pode não ser gravável.\nTentar mesmo assim?
-msg.phrase	Unknown file type for %s	Tipo de arquivo desconhecido para %s
+msg.phrase	%s may not be writable.\nTry anyway?	Talvez não seja possível gravar %s.\nTentar mesmo assim?
+msg.phrase	Unknown file type for %s	Tipo de arquivo desconhecido: %s
 msg.phrase	Unsupported file type.\nUse .csv, .ods or .fods.	Tipo de arquivo não suportado.\nUse .csv, .ods ou .fods.
-msg.phrase	Cannot open %s\n%s	Não é possível abrir %s\n%s
+msg.phrase	Cannot open %s\n%s	Não foi possível abrir %s\n%s
 msg.phrase	%s is a folder.	%s é uma pasta.
-msg.phrase	Cannot import %s\n%s	Não é possível importar %s\n%s
-msg.phrase	Loaded %s	Carregado %s
-msg.phrase	Cannot build the %s file.	Não é possível criar o arquivo %s.
-msg.phrase	Cannot write %s\n%s	Não é possível escrever %s\n%s
+msg.phrase	Cannot import %s\n%s	Não foi possível importar %s\n%s
+msg.phrase	Loaded %s	%s carregado
+msg.phrase	Cannot build the %s file.	Não foi possível criar o arquivo %s.
+msg.phrase	Cannot write %s\n%s	Não foi possível gravar %s\n%s
 msg.phrase	%s %s	%s %s
-msg.phrase	unsupported version %u	versão não suportada %u
+msg.phrase	unsupported version %u	versão não suportada (%u)
 msg.phrase	%d:%d:%d:%d:%d:%d	%d:%d:%d:%d:%d:%d
 msg.phrase	Octave %d	Oitava %d
 msg.phrase	Note %s	Nota %s
@@ -1015,110 +1011,110 @@ msg.phrase	Instrument %d	Instrumento %d
 msg.phrase	Volume %s	Volume %s
 msg.phrase	Effect %c	Efeito %c
 msg.phrase	Parameter %s	Parâmetro %s
-msg.phrase	Pattern %s	Pattern %s
-msg.phrase	Playing pattern %s	Padrão de reprodução %s
-msg.phrase	SAVE ERROR: %s	ERRO DE SALVAR: %s
-msg.phrase	Saved %s	%s salvos
-msg.phrase	LOAD ERROR: %s	ERRO DE CARREGAMENTO: %s
+msg.phrase	Pattern %s	Padrão %s
+msg.phrase	Playing pattern %s	Tocando o padrão %s
+msg.phrase	SAVE ERROR: %s	ERRO AO SALVAR: %s
+msg.phrase	Saved %s	%s salvo
+msg.phrase	LOAD ERROR: %s	ERRO AO CARREGAR: %s
 msg.phrase	BPM %d	BPM %d
 msg.phrase	Speed %d	Velocidade %d
-msg.phrase	Preview %s	Visualizar %s
+msg.phrase	Preview %s	Ouvir %s
 msg.phrase	Instrument %s %s	Instrumento %s %s
-msg.phrase	Overwrite %s? (Y/N)	Substituir %s? (S/N)
-msg.phrase	 | BPM %s SPD %s 	| BPM %s SPD %s
-msg.phrase	 SGNO TRACKER 1.0 | 	SGNO TRACKER 1.0 |
-msg.phrase	FILE 	ARQUIVO
-msg.phrase	 PAT %s	PAT %s
-msg.phrase	 ORD %d/%d	ORD %d/%d
-msg.phrase	 INS %s 	INS %s
-msg.phrase	 OCT %d	OUT %d
-msg.phrase	 EDIT %s	EDITAR %s
-msg.phrase	ON 	SOBRE
-msg.phrase	 FOL %s	FOL %s
-msg.phrase	TRACK %d	RASTREAR %d
+msg.phrase	Overwrite %s? (Y/N)	Substituir %s? (Y/N)
+msg.phrase	 | BPM %s SPD %s 	 | BPM %s SPD %s 
+msg.phrase	 SGNO TRACKER 1.0 | 	 SGNO TRACKER 1.0 | 
+msg.phrase	FILE 	FILE 
+msg.phrase	 PAT %s	 PAT %s
+msg.phrase	 ORD %d/%d	 ORD %d/%d
+msg.phrase	 INS %s 	 INS %s 
+msg.phrase	 OCT %d	 OCT %d
+msg.phrase	 EDIT %s	 EDIT %s
+msg.phrase	ON 	ON 
+msg.phrase	 FOL %s	 FOL %s
+msg.phrase	TRACK %d	TRACK %d
 msg.phrase	%c%s	%c%s
 msg.phrase	%s %s %s %s	%s %s %s %s
-msg.phrase	%s 	%s
+msg.phrase	%s 	%s 
 msg.phrase	%d %s %s	%d %s %s
-msg.phrase	ORDER %d/%d	PEDIDO %d/%d
-msg.phrase	PAT   %s	PAT %s
+msg.phrase	ORDER %d/%d	ORDER %d/%d
+msg.phrase	PAT   %s	PAT   %s
 msg.phrase	INS %s %s	INS %s %s
-msg.phrase	OCT %d  EDIT %s	OUTUBRO %d EDITAR %s
-msg.phrase	FOLLOW %s	SIGA %s
-msg.phrase	PLAYING  ORD %d/%d  PAT %s  ROW %s/%d  SPD %s  BPM %d  F7 STOP	REPRODUZINDO ORD %d/%d PAT %s ROW %s/%d SPD %s BPM %d F7 STOP
-msg.phrase	READY  EDIT %s  OCT %d  F1 HELP  F5 PLAY  CTRL-S SAVE	PRONTO EDITAR %s OUT %d F1 AJUDA F5 PLAY CTRL-S SALVAR
-msg.phrase	 %s 	%s
-msg.phrase	  F5          Play the song from the current order	F5 Reproduz a música da ordem atual
-msg.phrase	  F6          Play the current pattern	F6 Toca o padrão atual
-msg.phrase	  F7/Ctrl-C   Stop playback	F7/Ctrl-C Parar a reprodução
-msg.phrase	  Space       Play / stop	Espaço Reproduzir/parar
-msg.phrase	  F4          Save as	F4 Salvar como
-msg.phrase	  Ctrl-S      Save (asks for a name if new)	Ctrl-S Salvar (pede um nome se for novo)
-msg.phrase	  Ctrl-O      Open a song	Ctrl-O Abrir uma música
-msg.phrase	  Ctrl-N      New song	Ctrl-N Nova música
-msg.phrase	  F12         Quit (confirmation if modified)	F12 Sair (confirmação se modificado)
-msg.phrase	  [ ]         Previous / next order entry	[] Entrada de pedido anterior/próximo
-msg.phrase	  { }         Insert / delete an order entry	{ } Inserir/excluir uma entrada de pedido
-msg.phrase	  - +         Change the pattern in the entry	- + Alterar o padrão na entrada
-msg.phrase	  F11         Follow playback (turns off on manual move)	F11 Seguir reprodução (desliga no movimento manual)
-msg.phrase	  F1          Help; Left/Right changes page	Ajuda F1; Página de alterações esquerda/direita
-msg.phrase	  F8          Toggle edit mode	F8 Alternar modo de edição
-msg.phrase	  Arrows      Move the cursor	Setas Mover o cursor
-msg.phrase	  PgUp/PgDn   Jump 16 rows	PgUp/PgDn Saltar 16 linhas
-msg.phrase	  Home/End    First / last row	Início/Fim Primeira/última linha
-msg.phrase	  F9/F10      Octave down / up	F9/F10 Oitava para baixo/para cima
-msg.phrase	  Z S X D C V G B H N J M      lower piano row	Z S X D C V G B H N J M fileira inferior do piano
-msg.phrase	  Q 2 W 3 E R 5 T 6 Y 7 U      upper piano row	Q 2 W 3 E R 5 T 6 Y 7 U fileira superior do piano
-msg.phrase	  1           Note off	1 Nota desativada
-msg.phrase	  0 / Del     0 clears note/inst/fx; Del clears any	0 / Del 0 limpa nota/inst/fx; Del limpa qualquer
-msg.phrase	  Ctrl-Z      Undo the last pattern/order edit	Ctrl-Z Desfaz a última edição do padrão/ordem
-msg.phrase	  Axy   Volume slide: up x, down y	Slide de volume Axy: para cima x, para baixo y
-msg.phrase	  Cxx   Note cut after xx ticks	Nota Cxx cortada após xx ticks
-msg.phrase	  Dxx   Set volume (00..7F)	Dxx Definir volume (00..7F)
-msg.phrase	  Fxx   Speed if xx < 20, otherwise BPM	Fxx Velocidade se xx < 20, caso contrário BPM
-msg.phrase	  Hxy   Arpeggio x, y semitones	Hxy Arpejo x, y semitons
-msg.phrase	  Pxx   Pitch slide up	Pxx Pitch desliza para cima
-msg.phrase	  Qxx   Pitch slide down	Qxx Pitch desliza para baixo
-msg.phrase	  F2 song settings, F3 instrument list	Configurações de música F2, lista de instrumentos F3
-msg.phrase	HELP %d/2	AJUDA %d/2
-msg.phrase	  Title	Título
-msg.phrase	  [%s_]	[%s_]
-msg.phrase	  BPM   : %d     (left/right -1/+1, -/+ -5/+5)	BPM: %d (esquerda/direita -1/+1, -/+ -5/+5)
-msg.phrase	  Speed : %d ticks/row	Velocidade: %d ticks/linha
-msg.phrase	  Rows  : %d (fixed)	Linhas: %d (fixo)
-msg.phrase	  Order : %d entries	Ordem: %d entradas
-msg.phrase	  Patterns in use : %d	Padrões em uso: %d
-msg.phrase	 #  NAME       WAVE       A   D   S   R  VOL	# NOME ONDA A D S R VOL
-msg.phrase	 %c %d  %-9s %-9s %3d %3d %3d %3d %4d	%c %d %-9s %-9s %3d %3d %3d %3d %4d
+msg.phrase	OCT %d  EDIT %s	OCT %d  EDIT %s
+msg.phrase	FOLLOW %s	FOLLOW %s
+msg.phrase	PLAYING  ORD %d/%d  PAT %s  ROW %s/%d  SPD %s  BPM %d  F7 STOP	PLAYING  ORD %d/%d  PAT %s  ROW %s/%d  SPD %s  BPM %d  F7 STOP
+msg.phrase	READY  EDIT %s  OCT %d  F1 HELP  F5 PLAY  CTRL-S SAVE	READY  EDIT %s  OCT %d  F1 HELP  F5 PLAY  CTRL-S SAVE
+msg.phrase	 %s 	 %s 
+msg.phrase	  F5          Play the song from the current order	  F5          Tocar a música a partir da posição atual
+msg.phrase	  F6          Play the current pattern	  F6          Tocar o padrão atual
+msg.phrase	  F7/Ctrl-C   Stop playback	  F7/Ctrl-C   Parar a reprodução
+msg.phrase	  Space       Play / stop	  Space       Tocar / parar
+msg.phrase	  F4          Save as	  F4          Salvar como
+msg.phrase	  Ctrl-S      Save (asks for a name if new)	  Ctrl-S      Salvar (pede um nome se for nova)
+msg.phrase	  Ctrl-O      Open a song	  Ctrl-O      Abrir uma música
+msg.phrase	  Ctrl-N      New song	  Ctrl-N      Música nova
+msg.phrase	  F12         Quit (confirmation if modified)	  F12         Sair (pede confirmação se houver alterações)
+msg.phrase	  [ ]         Previous / next order entry	  [ ]         Posição anterior / seguinte
+msg.phrase	  { }         Insert / delete an order entry	  { }         Inserir / apagar uma posição
+msg.phrase	  - +         Change the pattern in the entry	  - +         Mudar o padrão da posição
+msg.phrase	  F11         Follow playback (turns off on manual move)	  F11         Seguir a reprodução (desliga ao mover à mão)
+msg.phrase	  F1          Help; Left/Right changes page	  F1          Ajuda; Esq/Dir muda de página
+msg.phrase	  F8          Toggle edit mode	  F8          Ligar / desligar a edição
+msg.phrase	  Arrows      Move the cursor	  Setas       Mover o cursor
+msg.phrase	  PgUp/PgDn   Jump 16 rows	  PgUp/PgDn   Pular 16 linhas
+msg.phrase	  Home/End    First / last row	  Home/End    Primeira / última linha
+msg.phrase	  F9/F10      Octave down / up	  F9/F10      Descer / subir uma oitava
+msg.phrase	  Z S X D C V G B H N J M      lower piano row	  Z S X D C V G B H N J M      fileira inferior do teclado
+msg.phrase	  Q 2 W 3 E R 5 T 6 Y 7 U      upper piano row	  Q 2 W 3 E R 5 T 6 Y 7 U      fileira superior do teclado
+msg.phrase	  1           Note off	  1           Note off
+msg.phrase	  0 / Del     0 clears note/inst/fx; Del clears any	  0 / Del     0 apaga nota/instr./efeito; Del apaga o campo
+msg.phrase	  Ctrl-Z      Undo the last pattern/order edit	  Ctrl-Z      Desfazer a última edição de padrão/sequência
+msg.phrase	  Axy   Volume slide: up x, down y	  Axy   Deslize de volume: sobe x, desce y
+msg.phrase	  Cxx   Note cut after xx ticks	  Cxx   Cortar a nota após xx ticks
+msg.phrase	  Dxx   Set volume (00..7F)	  Dxx   Definir o volume (00..7F)
+msg.phrase	  Fxx   Speed if xx < 20, otherwise BPM	  Fxx   Velocidade se xx < 20; senão, BPM
+msg.phrase	  Hxy   Arpeggio x, y semitones	  Hxy   Arpejo de x, y semitons
+msg.phrase	  Pxx   Pitch slide up	  Pxx   Deslize de altura para cima
+msg.phrase	  Qxx   Pitch slide down	  Qxx   Deslize de altura para baixo
+msg.phrase	  F2 song settings, F3 instrument list	  F2 ajustes da música, F3 lista de instrumentos
+msg.phrase	HELP %d/2	HELP %d/2
+msg.phrase	  Title	  Título
+msg.phrase	  [%s_]	  [%s_]
+msg.phrase	  BPM   : %d     (left/right -1/+1, -/+ -5/+5)	  BPM   : %d     (esq/dir -1/+1, -/+ -5/+5)
+msg.phrase	  Speed : %d ticks/row	  Velocidade : %d ticks/linha
+msg.phrase	  Rows  : %d (fixed)	  Linhas : %d (fixo)
+msg.phrase	  Order : %d entries	  Sequência : %d posições
+msg.phrase	  Patterns in use : %d	  Padrões em uso : %d
+msg.phrase	 #  NAME       WAVE       A   D   S   R  VOL	 #  NAME       WAVE       A   D   S   R  VOL
+msg.phrase	 %c %d  %-9s %-9s %3d %3d %3d %3d %4d	 %c %d  %-9s %-9s %3d %3d %3d %3d %4d
 msg.phrase	Current instrument: %s %s	Instrumento atual: %s %s
-msg.phrase	  %s	%s
-msg.phrase	DIR  %s	DIR %s
-msg.phrase	 %c %s%s	%c %s%s
+msg.phrase	  %s	  %s
+msg.phrase	DIR  %s	DIR  %s
+msg.phrase	 %c %s%s	 %c %s%s
 msg.phrase	Files: %d	Arquivos: %d
 msg.phrase	%02d	%02d
 msg.phrase	%03d	%03d
 msg.phrase	%02X	%02X
-msg.phrase	SGNO TRACKER: incompatible SGX ABI\n	SGNO TRACKER: SGX ABI incompatível
+msg.phrase	SGNO TRACKER: incompatible SGX ABI\n	SGNO TRACKER: versão de SGX ABI incompatível\n
 msg.phrase	5 Macro	5 Macro
 msg.phrase	6 Help	6 Ajuda
 msg.phrase	Run current	Executar atual
-msg.phrase	Run the macro at the cursor (#! header cell and the cells below it)	Executar a macro no cursor (célula de cabeçalho #! e células abaixo)
+msg.phrase	Run the macro at the cursor (#! header cell and the cells below it)	Executar a macro do cursor (célula de cabeçalho #! e as de baixo)
 msg.phrase	Run selection	Executar seleção
-msg.phrase	Run the selected cells as one macro (top-left cell is the #! header)	Executar as células selecionadas como uma macro (a célula superior esquerda é o cabeçalho #!)
+msg.phrase	Run the selected cells as one macro (top-left cell is the #! header)	Executar as células selecionadas como uma macro (#! no canto superior esquerdo)
 msg.phrase	Run all	Executar tudo
-msg.phrase	Run every macro in the sheet, top-left to bottom-right	Executar todas as macros da folha, do canto superior esquerdo ao inferior direito
+msg.phrase	Run every macro in the sheet, top-left to bottom-right	Executar todas as macros da planilha, de cima para baixo
 msg.phrase	Last error	Último erro
 msg.phrase	Show the last macro error	Mostrar o último erro de macro
 msg.phrase	Macro	Macro
 msg.phrase	Macro: run #!ruby / #!python / #!basic cells	Macro: executar células #!ruby / #!python / #!basic
 msg.phrase	Edit the cell (F2)	Editar a célula (F2)
-msg.phrase	Fit widths/heights to the contents	Ajustar larguras/alturas ao conteúdo
+msg.phrase	Fit widths/heights to the contents	Ajustar larguras e alturas ao conteúdo
 msg.phrase	Last macro error	Último erro de macro
 msg.phrase	No macro error.	Nenhum erro de macro.
 msg.phrase	IME on	IME ligado
 msg.phrase	IME off	IME desligado
 msg.phrase	Macro: %s %s ...	Macro: %s %s ...
-msg.phrase	%s: this firmware cannot run macros (SGX ABI 5.10 or later)	%s: este firmware não pode executar macros (SGX ABI 5.10 ou posterior)
+msg.phrase	%s: this firmware cannot run macros (SGX ABI 5.10 or later)	%s: este firmware não executa macros (requer SGX ABI 5.10 ou posterior)
 msg.phrase	Macro error: %s	Erro de macro: %s
 msg.phrase	Macro: %s done	Macro: %s concluída
 msg.phrase	a macro is already running	já há uma macro em execução
@@ -1127,11 +1123,11 @@ msg.phrase	not enough memory	memória insuficiente
 msg.phrase	the macro stopped with an error	a macro parou com um erro
 msg.phrase	Macro error %s: %s	Erro de macro %s: %s
 msg.phrase	Macro: not enough memory	Macro: memória insuficiente
-msg.phrase	Macro: the cursor is not on a macro (a #!ruby / #!python / #!basic cell or the cells below it)	Macro: o cursor não está numa macro (célula #!ruby / #!python / #!basic ou células abaixo)
-msg.phrase	Macro: no macro in the sheet	Macro: nenhuma macro na folha
+msg.phrase	Macro: the cursor is not on a macro (a #!ruby / #!python / #!basic cell or the cells below it)	Macro: o cursor não está em uma macro (célula #!ruby / #!python / #!basic ou abaixo dela)
+msg.phrase	Macro: no macro in the sheet	Macro: nenhuma macro na planilha
 msg.phrase	Run all macros	Executar todas as macros
-msg.phrase	Macros: %d. Run them all, top-left to bottom-right? Changes cannot be undone.	Macros: %d. Executar todas, do canto superior esquerdo ao inferior direito? As alterações não podem ser desfeitas.
-msg.phrase	Macro: %d of %d done	Macro: %d concluída(s) (de %d)
+msg.phrase	Macros: %d. Run them all, top-left to bottom-right? Changes cannot be undone.	Macros: %d. Executar todas, de cima para baixo? As alterações não podem ser desfeitas.
+msg.phrase	Macro: %d of %d done	Macro: %d de %d concluídas
 msg.phrase	Cleared the cell	Célula limpa
 msg.phrase	Cleared the selection	Seleção limpa
 msg.phrase	Background colour = %d	Cor de fundo = %d
@@ -1140,7 +1136,7 @@ msg.phrase	Graph: line	Gráfico: linhas
 msg.phrase	Graph: bar	Gráfico: barras
 msg.phrase	Graph: mixed	Gráfico: misto
 msg.phrase	Graph: pie	Gráfico: pizza
-msg.phrase	Exported %s	Exportado %s
+msg.phrase	Exported %s	%s exportado
 msg.phrase	S: check: wait -- a file is being read or written	Verificação de S:: aguarde -- um ficheiro está a ser lido ou escrito
 msg.phrase	S: check: the drive is busy or not ready	Verificação de S:: a unidade está ocupada ou não está pronta
 msg.phrase	nothing for this item (ContextMenu.cfg)	nada para este item (ContextMenu.cfg)
@@ -1159,3 +1155,32 @@ msg.phrase	32 items at most (mark fewer, or put them in a folder)	32 itens no m�
 msg.prefix	archive	arquivo compactado
 msg.prefix	compress	compactar
 msg.prefix	render	exportar WAV
+ui	USB・時計・設定	USB, clock, settings
+ui	0.001 秒未満	menos de 0.001 s
+ui	%s 秒	%s s
+ui	コンパイル %s  実行 %s	compilação %s  execução %s
+ui	コンパイル %s	compilação %s
+ui	実行 %s	execução %s
+msg.phrase	Version %s	Versão %s
+msg.phrase	1 Help	1 Ajuda
+msg.phrase	3 Copy	3 Copiar
+msg.phrase	4 Paste	4 Colar
+msg.phrase	5 Goto	5 Ir a
+msg.phrase	6 Colour	6 Cor
+msg.phrase	7 Fit	7 Ajust
+msg.phrase	8 Backgr	8 Fundo
+msg.phrase	9 Recalc	9 Recalc
+msg.phrase	10 Graph	10 Gráf
+msg.phrase	11 Save	11 Salv
+msg.phrase	12 Menu	12 Menu
+msg.phrase	1 About	1 Sobre
+msg.phrase	2 Height	2 Altura
+msg.phrase	3 Width	3 Largur
+msg.phrase	4 SelAll	4 Tudo
+msg.phrase	10 Range	10 Área
+msg.phrase	11 Name	11 Como
+msg.phrase	1 New	1 Novo
+msg.phrase	2 Open	2 Abrir
+msg.phrase	4 SaveAs	4 Como
+msg.phrase	12 Quit	12 Sair
+msg.phrase	3 Save	3 Salv

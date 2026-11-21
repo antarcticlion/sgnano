@@ -21,14 +21,14 @@ ui	属性を変える	Beddel astaamaha
 ui	エディタで開く	Ku fur tafatiraha
 ui	テキスト表示（Shift+V / Ctrl+Alt+F7 は 16 進）	U eeg qoraal ahaan (Shift+V / Ctrl+Alt+F7 hex)
 ui	ドライブの情報	Macluumaadka darawalka
-ui	フォルダを作る / 新しいファイル	Gal cusub / fayl cusub
+ui	フォルダを作る（Shift+F5） / 新しいファイル（Ctrl+F1）	Gal cusub (Shift+F5) / fayl cusub (Ctrl+F1)
 ui	シェル sgsh / 媒体を取り出す	Shell sgsh / soo saar saxanka
 ui	読み直す	Dib u rar
-ui	見えている画面を PNG で保存	Shaashadda u keydi PNG
+ui	見えている画面を PNG で保存（Alt+F5 も同じ）	Shaashadda u keydi PNG (= Alt+F5)
 ui	窓を閉じる・選択を解く（サブフォルダでは上位へ）	Xir daaqadda / ka saar doorashada (gal-hoosaad: kor u kac)
-ui	ファイルの操作（FD と同じ。印・範囲・カーソルの順に選ぶ）	Hawlaha faylka (sida FD: calaamado, kadib qayb, kadib tilmaame)
-ui	コピー: 行き先はドライブとフォルダの木から。ESC で止める	Koobi: meesha loo dirayo ka dooro geedka darawallada iyo galalka. ESC ayaa joojiya
-ui	削除: y で確かめる。印・範囲をまとめて。フォルダは中身ごと	Tirtir: ku xaqiiji y. Calaamado iyo qaybo hal mar. Galal iyo waxa ku jira
+ui	ファイルの操作（FD と同じ。印・範囲・カーソルの順）	Hawlaha faylka (sida FD: calaamado, kadib qayb, kadib tilmaame)
+ui	コピー: 行き先は木から選ぶ。ESC で止める	Koobi: meesha loo dirayo ka dooro geedka darawallada iyo galalka. ESC ayaa joojiya
+ui	削除: y で確かめる。印・範囲をまとめて	Tirtir: ku xaqiiji y. Calaamado iyo qaybo hal mar. Galal iyo waxa ku jira
 ui	フォルダを削除（中身ごと）	Tirtir galka (iyo waxa ku jira)
 ui	名前を変える（今の名前を直して Enter）	Magac beddel (wax ka beddel magaca, Enter)
 ui	属性: R 読み出し専用・H 隠し・S システム・A アーカイブ	Astaamo: R akhris keliya, H qarsoon, S nidaam, A kayd
@@ -50,22 +50,19 @@ ui	画面（Alt+F。FD の F キーとぶつからない）	Shaashad (Alt+F, kum
 ui	FB（絵）/ テキスト面を出す・隠す	Muuji / qari FB (sawir) / qoraalka
 ui	FB の表示ページ（0〜3）	Bogga muujinta FB (0-3)
 ui	FB を 0 で消す / 明るさを 1/2 に（RGB555）	FB u tirtir 0 / iftiinka badh u dhim (RGB555)
-ui	USB のエンドポイントと LAN の状態	Dhammaadyada USB iyo xaaladda LAN
+ui	USB のエンドポイントと LAN（U: 10 秒に 1 度）	Dhammaadyada USB iyo xaaladda LAN
 ui	FB の表示ページを消す / 明るさを 1/2 に	Tirtir bogga muujinta FB / iftiinka badh u dhim
 ui	テキストの属性の見本	Tusaalooyinka astaamaha qoraalka
 ui	モニタの EDID（起動時に読んだもの）	EDID-ka shaashadda (la akhriyay bilowga)
 ui	フォント ROM のライセンスとクレジット	Shatiyada iyo amaanta ROM-ka farta
 ui	設定（表示の言語・IME・キーボードロケール）	Dejin (luqadda muujinta, IME iyo qaabka kiiboodhka)
-ui	時計（NTP で合わせた日本時間。s ですぐ合わせる）	Saacad (waqtiga Jabaan NTP; s hadda waafaji)
+ui	時計（NTP で合わせた日本時間。s は 3 分に 1 度）	Saacad (waqtiga Jabaan NTP; s hadda waafaji)
 ui	表計算（SGCALC）を開く	Fur xaashida xisaabta (SGCALC)
 ui	S: ドライブのエラー検査（誤りがあれば直すか聞く）	Hubi khaladaadka S: (wuu weydiiyaa ka hor hagaajinta)
 ui	トラッカー（TRACKER）を開く	Fur TRACKER
-ui	再起動（確かめの窓が出る）	Dib u bilow (marka hore wuu weydiiyaa)
+ui	再起動（確かめの窓）。Ctrl+Alt+Del も同じ	Dib u bilow (marka hore wuu weydiiyaa) = Ctrl+Alt+Del
 ui	ADC のステレオ入力（GP40 / 41）を鳴らす	Daar gelinta stereo ee ADC (GP40 / 41)
 ui	VGM/VGZ を 96kHz/24bit WAV に書き出す	VGM/VGZ u dhoofi WAV kHz 96 / bit 24
-ui	このヘルプ	Caawintan
-ui	ページを替える	Beddel bogga
-ui	閉じる	Xir
 ui	テキスト・16 進のビュアー（less 風）	Daawade qoraal / hex (sida less)
 ui	1 行	Hal saf
 ui	1 ページ	Hal bog
@@ -83,10 +80,9 @@ ui	IME の言語（日本語 / English / 한국어）	Luqadda IME (Jabbaaniis / 
 ui	ひらがな / カタカナで確定	U xaqiiji hiragana / katakana
 ui	エディタのヘルプ	Caawinta tafatiraha
 ui	シェル	Shell
-ui	シェル（csh のサブセット。exit / Ctrl-D で戻る、help で一覧）	Shell (qayb ka mid ah csh. exit / Ctrl-D si aad u noqoto, help wuxuu liis gareeyaa amarrada)
+ui	シェル（csh の一部。exit / Ctrl-D で戻る、help で一覧）	Shell (qayb ka mid ah csh. exit / Ctrl-D si aad u noqoto, help wuxuu liis gareeyaa amarrada)
 ui	一覧と移動	Liis iyo dhaqdhaqaaq
 ui	ファイルの操作	Hawlaha faylka
-ui	画面と機器	Shaashad iyo qalab
 ui	ビュアーとエディタ	Daawadeyaal iyo tafatire
 ui	ヘルプ  %u / %u  %s	Caawin  %u / %u  %s
 ui	Left Right: ページを替える    F1 / ESC: 閉じる	Bidix Midig: beddel bogga    F1 / ESC: xir
@@ -147,9 +143,9 @@ ui	10 EP表	10 EP
 ui	11 時計	11 Saac
 ui	12 表計	12 CALC
 ui	1 属性	1 Astaan
-ui	2 情報	2 Xog
+ui	2Drv情報	2 Xog
 ui	3 移動	3 Rar
-ui	5 作成	5 Gal
+ui	5 ﾌｫﾙﾀﾞ	5 Gal
 ui	6 シェル	6 Shell
 ui	8 編集	8 Tafat
 ui	9 表示	9 Eeg
@@ -488,10 +484,10 @@ msg.phrase	no such channel	kanaal noocaas ah ma jiro
 msg.phrase	the sequencer is busy	isku-dubbaridaha waa mashquul
 msg.phrase	not enough PSRAM for the song	PSRAM kuma filna heesta
 msg.phrase	not a standard MIDI file (no MThd)	ma aha fayl MIDI caadi ah (MThd ma jiro)
-msg.phrase	no tracks	heeso ma jiraan
-msg.phrase	a track is broken (MTrk)	hees ayaa xumaatay (MTrk)
-msg.phrase	SMPTE time division is not supported	qaybinta waqtiga SMPTE lama taageero
-msg.phrase	SMF format 2 is not supported (0 and 1 only)	SMF qaabka 2 lama taageero (0 iyo 1 keliya)
+msg.phrase	no tracks	track ma jiro
+msg.phrase	a track is broken (MTrk)	track ayaa jaban (MTrk)
+msg.phrase	SMPTE time division is not supported	Qaybinta waqtiga SMPTE lama taageero
+msg.phrase	SMF format 2 is not supported (0 and 1 only)	Qaabka SMF 2 lama taageero (0 iyo 1 oo keliya)
 msg.phrase	not a Bulk-Only drive	ma aha darawal Bulk-Only
 msg.phrase	not an optical drive	ma aha darawal indhood
 msg.phrase	a system folder cannot be deleted or renamed	galka nidaamka lama tirtiri karo lamana beddeli karo magaciisa
@@ -547,7 +543,7 @@ msg.phrase	Not supported on this drive	Laguma taageero darawalkan
 msg.phrase	Invalid path	Jid aan sax ahayn
 msg.phrase	Out of memory	Xusuustu way dhammaatay
 msg.phrase	No such drive	Darawal noocaas ah ma jiro
-msg.phrase	stopped	waa la joojiyay
+msg.phrase	stopped	waa joogsaday
 msg.phrase	cancelled (not enough free space)	waa la joojiyay (booska bannaan kuma filna)
 msg.phrase	could not count the free space	booska bannaan lama tirin karin
 msg.phrase	the receiver cancelled	qaataha ayaa joojiyay
@@ -624,46 +620,46 @@ msg.word	 files	 faylal
 msg.word	 (	 (
 msg.phrase	Untitled	Magac la'aan
 msg.phrase	1 File	1 Fayl
-msg.phrase	2 Edit	2 Tafatir
+msg.phrase	2 Edit	2 Tafati
 msg.phrase	3 Graph	3 Garaaf
 msg.phrase	4 Sheet	4 Xaashi
 msg.phrase	5 Help	5 Caawin
-msg.phrase	EMPTY	MADHAN
+msg.phrase	EMPTY	BANNAAN
 msg.phrase	NUMBER	TIRO
 msg.phrase	TEXT	QORAAL
-msg.phrase	FORMULA	QAACIDO
-msg.phrase	Type to enter, F2 to edit, F1 for help	Qor si aad u geliso, F2 si aad wax uga beddesho, F1 caawin
+msg.phrase	FORMULA	FORMULA
+msg.phrase	Type to enter, F2 to edit, F1 for help	Qor si aad u geliso, F2 si aad u tafatirto, F1 caawin
 msg.phrase	Ready	Diyaar
 msg.phrase	Press any key	Riix fure kasta
 msg.phrase	Y = yes    N = no    Esc = cancel	Y = haa    N = maya    Esc = jooji
 msg.phrase	Enter = OK    Esc = cancel    Ctrl-U = clear	Enter = OK    Esc = jooji    Ctrl-U = tirtir
 msg.phrase	First row/column = labels; charts use the 640x480 CLUT8 FB.	Safka/tiirka koowaad = calaamado; garaafyadu waxay isticmaalaan FB CLUT8 640x480.
 msg.phrase	SGCALC - HELP	SGCALC - CAAWIN
-msg.phrase	Press any key to return	Riix fure kasta si aad u noqoto
-msg.phrase	Press any key to return.	Riix fure kasta si aad u noqoto.
+msg.phrase	Press any key to return	Riix fure kasta si aad dib ugu noqoto
+msg.phrase	Press any key to return.	Riix fure kasta si aad dib ugu noqoto.
 msg.phrase	ABOUT SGCALC	KU SAABSAN SGCALC
 msg.phrase	New	Cusub
 msg.phrase	Start a new sheet	Bilow xaashi cusub
 msg.phrase	Open...	Fur...
-msg.phrase	Open an ODS, FODS or CSV file	Fur fayl ODS, FODS ama CSV
+msg.phrase	Open an ODS, FODS or CSV file	Fur fayl ODS, FODS ama CSV ah
 msg.phrase	Save	Keydi
 msg.phrase	Save the current file	Keydi faylka hadda
-msg.phrase	Save As...	U keydi sida...
+msg.phrase	Save As...	U keydi...
 msg.phrase	Save with a new name or format	Ku keydi magac ama qaab cusub
 msg.phrase	Export CSV...	Dhoofi CSV...
-msg.phrase	Write a CSV copy	Qor nuqul CSV
+msg.phrase	Write a CSV copy	Qor nuqul CSV ah
 msg.phrase	Export ODS...	Dhoofi ODS...
-msg.phrase	Write a LibreOffice copy	Qor nuqul LibreOffice
+msg.phrase	Write a LibreOffice copy	Qor nuqul LibreOffice ah
 msg.phrase	Quit	Ka bax
 msg.phrase	Leave SGCALC	Ka bax SGCALC
 msg.phrase	Clear	Tirtir
 msg.phrase	Clear the selected cells	Tirtir unugyada la doortay
 msg.phrase	Copy	Koobi
-msg.phrase	Copy the selection	Koobi doorashada
+msg.phrase	Copy the selection	Koobi xulashada
 msg.phrase	Paste	Dhaji
-msg.phrase	Paste at the cursor	Ku dhaji tilmaamaha
+msg.phrase	Paste at the cursor	Ku dhaji meesha tilmaamuhu joogo
 msg.phrase	Cut	Jar
-msg.phrase	Copy and clear the selection	Koobi oo tirtir doorashada
+msg.phrase	Copy and clear the selection	Koobi oo tirtir xulashada
 msg.phrase	Select all	Dooro dhammaan
 msg.phrase	Select all used cells	Dooro dhammaan unugyada la isticmaalay
 msg.phrase	Text color...	Midabka qoraalka...
@@ -671,31 +667,31 @@ msg.phrase	Choose the text colour	Dooro midabka qoraalka
 msg.phrase	Background...	Asal...
 msg.phrase	Choose the cell background	Dooro asalka unugga
 msg.phrase	Line	Xariiq
-msg.phrase	Draw a line graph from the selection	Ka sawir garaaf xariiq doorashada
-msg.phrase	Bar	Baar
-msg.phrase	Draw a bar graph from the selection	Ka sawir garaaf baar doorashada
-msg.phrase	Mixed	Isku dar
-msg.phrase	Bars for the first series, lines for the rest	Baarar taxanaha koowaad, xariiqyo inta kale
-msg.phrase	Pie	Doolsho
-msg.phrase	Draw a pie graph from the selection	Ka sawir garaaf doolsho doorashada
-msg.phrase	Range...	Qayb...
-msg.phrase	Set the graph range explicitly	Si cad u deji qaybta garaafka
-msg.phrase	Draw again	Mar kale sawir
-msg.phrase	Redraw the last graph	Mar kale sawir garaafkii ugu dambeeyay
+msg.phrase	Draw a line graph from the selection	Ka sawir garaaf xariiq ah xulashada
+msg.phrase	Bar	Tiir
+msg.phrase	Draw a bar graph from the selection	Ka sawir garaaf tiirar ah xulashada
+msg.phrase	Mixed	Isku dhafan
+msg.phrase	Bars for the first series, lines for the rest	Tiirar taxanaha koowaad, xariiqyo inta kale
+msg.phrase	Pie	Pie
+msg.phrase	Draw a pie graph from the selection	Ka sawir garaaf pie ah xulashada
+msg.phrase	Range...	Baaxad...
+msg.phrase	Set the graph range explicitly	Gacanta ku geli baaxadda garaafka
+msg.phrase	Draw again	Dib u sawir
+msg.phrase	Redraw the last graph	Dib u sawir garaafkii ugu dambeeyay
 msg.phrase	Goto...	U gudub...
 msg.phrase	Jump to a cell (for example C12)	U bood unug (tusaale C12)
 msg.phrase	Column width...	Ballaca tiirka...
 msg.phrase	Change the selected columns' width	Beddel ballaca tiirarka la doortay
 msg.phrase	Row height...	Dhererka safka...
 msg.phrase	Change the selected rows' height	Beddel dhererka safafka la doortay
-msg.phrase	Auto fit	Si toos ah u habee
-msg.phrase	Fit widths/heights to the contents (F7)	Ballaca/dhererka la jaanqaad waxa ku jira (F7)
+msg.phrase	Auto fit	Ku habee
+msg.phrase	Fit widths/heights to the contents (F7)	Ballaca/dhererka ku habee waxa ku jira (F7)
 msg.phrase	Recalculate	Dib u xisaabi
-msg.phrase	Re-evaluate all formulas	Dib u qiimee dhammaan qaacidooyinka
+msg.phrase	Re-evaluate all formulas	Dib u xisaabi dhammaan formulada
 msg.phrase	Erase all	Tirtir dhammaan
 msg.phrase	Clear the whole sheet	Tirtir xaashida oo dhan
-msg.phrase	Keys	Furayaal
-msg.phrase	Show the key guide	Muuji hagaha furayaasha
+msg.phrase	Keys	Furayaasha
+msg.phrase	Show the key guide	Tus hagaha furayaasha
 msg.phrase	About	Ku saabsan
 msg.phrase	About SGCALC	Ku saabsan SGCALC
 msg.phrase	File	Fayl
@@ -705,280 +701,280 @@ msg.phrase	Sheet	Xaashi
 msg.phrase	Help	Caawin
 msg.phrase	File: new, open, save, export, quit	Fayl: cusub, fur, keydi, dhoofi, ka bax
 msg.phrase	Edit: clear, copy, paste, cut, select all	Tafatir: tirtir, koobi, dhaji, jar, dooro dhammaan
-msg.phrase	Graph: line, bar, mixed, pie (draws in the FB)	Garaaf: xariiq, baar, isku dar, doolsho (waxaa lagu sawiraa FB)
+msg.phrase	Graph: line, bar, mixed, pie (draws in the FB)	Garaaf: xariiq, tiir, isku dhafan, pie (FB ayuu ku sawiraa)
 msg.phrase	Sheet: goto, column width, recalculate, erase	Xaashi: u gudub, ballaca tiirka, dib u xisaabi, tirtir
-msg.phrase	Help: keys and about	Caawin: furayaal iyo ku saabsan
+msg.phrase	Help: keys and about	Caawin: furayaasha iyo ku saabsan
 msg.phrase	Left/Right = menu    Up/Down = item    Enter = choose    Esc = cancel	Bidix/Midig = menu    Kor/Hoos = shay    Enter = dooro    Esc = jooji
 msg.phrase	Cancelled	Waa la joojiyay
-msg.phrase	The selection is too large or memory is low.	Doorashadu aad bay u weyn tahay ama xusuustu way yar tahay.
+msg.phrase	The selection is too large or memory is low.	Xulashadu aad bay u weyn tahay ama xusuustu way yar tahay.
 msg.phrase	the cell	unugga
 msg.phrase	the selection	doorashada
-msg.phrase	Nothing to paste	Wax la dhajiyo ma jiro
+msg.phrase	Nothing to paste	Wax la dhajiyo ma jiraan
 msg.phrase	Pasted	Waa la dhajiyay
 msg.phrase	GO TO CELL	U GUDUB UNUG
 msg.phrase	Cell reference (A1):	Tixraaca unugga (A1):
 msg.phrase	Goto	U gudub
 msg.phrase	COLUMN WIDTH	BALLACA TIIRKA
-msg.phrase	Width in characters (4..30):	Ballac xarfo ahaan (4..30):
+msg.phrase	Width in characters (4..30):	Ballaca xarfaha (4..30):
 msg.phrase	ROW HEIGHT	DHERERKA SAFKA
-msg.phrase	Height in text rows (1..8):	Dherer safaf qoraal ahaan (1..8):
-msg.phrase	Auto fit: the sheet is empty	Si toos ah u habee: xaashidu waa madhan tahay
+msg.phrase	Height in text rows (1..8):	Dhererka sadarrada qoraalka (1..8):
+msg.phrase	Auto fit: the sheet is empty	Ku habee: xaashidu way bannaan tahay
 msg.phrase	BACKGROUND COLOUR	MIDABKA ASALKA
 msg.phrase	TEXT COLOUR	MIDABKA QORAALKA
-msg.phrase	Arrows: choose    Enter: apply    Esc: cancel	Fallaadho: dooro    Enter: dabaq    Esc: jooji
-msg.phrase	Colour index (PC-98 16-colour palette)	Tirada midabka (16 midab ee PC-98)
+msg.phrase	Arrows: choose    Enter: apply    Esc: cancel	Falaadhaha: dooro    Enter: dabaq    Esc: jooji
+msg.phrase	Colour index (PC-98 16-colour palette)	Lambarka midabka (16 midab ee PC-98)
 msg.phrase	Enter = apply    Esc = cancel	Enter = dabaq    Esc = jooji
 msg.phrase	Colour	Midab
 msg.phrase	Background	Asal
 msg.phrase	Text	Qoraal
-msg.phrase	GRAPH RANGE	QAYBTA GARAAFKA
-msg.phrase	Range (for example A1:C10):	Qayb (tusaale A1:C10):
-msg.phrase	Graph range	Qaybta garaafka
-msg.phrase	Use a range such as A1:C10.	Isticmaal qayb sida A1:C10.
+msg.phrase	GRAPH RANGE	BAAXADDA GARAAFKA
+msg.phrase	Range (for example A1:C10):	Baaxad (tusaale A1:C10):
+msg.phrase	Graph range	Baaxadda garaafka
+msg.phrase	Use a range such as A1:C10.	Geli baaxad sida A1:C10.
 msg.phrase	Cannot draw the graph.	Garaafka lama sawiri karo.
 msg.phrase	line	xariiq
 msg.phrase	bar	baar
 msg.phrase	mixed	isku dar
 msg.phrase	pie	doolsho
-msg.phrase	Clear every cell in this sheet?	Tirtir unug kasta oo xaashidan ku jira?
+msg.phrase	Clear every cell in this sheet?	Ma la tirtiraa dhammaan unugyada xaashidan?
 msg.phrase	Sheet erased	Xaashida waa la tirtiray
-msg.phrase	Selected all used cells	Dhammaan unugyada la isticmaalay waa la doortay
+msg.phrase	Selected all used cells	Waa la doortay dhammaan unugyada la isticmaalay
 msg.phrase	Recalculated	Dib ayaa loo xisaabiyay
 msg.phrase	Memory	Xusuus
 msg.phrase	Not enough PSRAM for the spreadsheet.	PSRAM kuma filna xaashida xisaabta.
-msg.phrase	The sheet is empty.	Xaashidu waa madhan tahay.
-msg.phrase	No numeric data in the selected range.	Xog tiro ah kuma jirto qaybta la doortay.
+msg.phrase	The sheet is empty.	Xaashidu way bannaan tahay.
+msg.phrase	No numeric data in the selected range.	Baaxadda la doortay tiro kuma jirto.
 msg.phrase	Other	Kale
-msg.phrase	No positive values for a pie chart	Qiimayaal togan looma hayo garaafka doolshada
+msg.phrase	No positive values for a pie chart	Qiimo togan oo garaafka pie ah ma jiro
 msg.phrase	LINE	XARIIQ
-msg.phrase	BAR	BAAR
-msg.phrase	MIXED	ISKU DAR
-msg.phrase	PIE	DOOLSHO
+msg.phrase	BAR	TIIR
+msg.phrase	MIXED	ISKU DHAFAN
+msg.phrase	PIE	PIE
 msg.phrase	Folder	Gal
-msg.phrase	SAVE AS	U KEYDI SIDA
+msg.phrase	SAVE AS	U KEYDI
 msg.phrase	OPEN FILE	FUR FAYL
 msg.phrase	Name:	Magac:
 msg.phrase	(type a name, or choose below)	(qor magac, ama hoos ka dooro)
 msg.phrase	Name	Magac
 msg.phrase	Size	Cabbir
-msg.phrase	Enter=save  Left=up  Right/Enter on [DIR]=open  Tab=drive  Esc=cancel	Enter=keydi  Bidix=kor  Midig/Enter [DIR]=fur  Tab=darawal  Esc=jooji
-msg.phrase	Enter=open  Left=up  Right/Enter on [DIR]=open  Tab=drive  Esc=cancel	Enter=fur  Bidix=kor  Midig/Enter [DIR]=fur  Tab=darawal  Esc=jooji
-msg.phrase	Not enough memory.	Xusuus kuma filna.
-msg.phrase	Overwrite	Dusha ku qor
+msg.phrase	Enter=save  Left=up  Right/Enter on [DIR]=open  Tab=drive  Esc=cancel	Enter=keydi  Bidix=kor  Midig/Enter [DIR] dushiisa=fur  Tab=darawal  Esc=jooji
+msg.phrase	Enter=open  Left=up  Right/Enter on [DIR]=open  Tab=drive  Esc=cancel	Enter=fur  Bidix=kor  Midig/Enter [DIR] dushiisa=fur  Tab=darawal  Esc=jooji
+msg.phrase	Not enough memory.	Xusuustu kuma filna.
+msg.phrase	Overwrite	Dul qor
 msg.phrase	Open	Fur
-msg.phrase	The file is too large (limit 8 MB).	Faylku aad buu u weyn yahay (xadka MB 8).
-msg.phrase	Not enough memory to read the file.	Xusuus kuma filna akhrinta faylka.
-msg.phrase	Bad ZIP/ODS data.	Xog ZIP/ODS oo xun.
-msg.phrase	CRC error in the ODS file.	Khalad CRC faylka ODS.
-msg.phrase	Unsupported or damaged file.	Fayl aan la taageerin ama xumaaday.
+msg.phrase	The file is too large (limit 8 MB).	Faylku aad buu u weyn yahay (xadka 8 MB).
+msg.phrase	Not enough memory to read the file.	Xusuustu kuma filna akhrinta faylka.
+msg.phrase	Bad ZIP/ODS data.	Xogta ZIP/ODS waa khaldan tahay.
+msg.phrase	CRC error in the ODS file.	Khalad CRC ayaa ku jira faylka ODS.
+msg.phrase	Unsupported or damaged file.	Fayl aan la taageerin ama dhaawacan.
 msg.phrase	Saved	Waa la keydiyay
 msg.phrase	Exported	Waa la dhoofiyay
 msg.phrase	Unsaved changes	Isbeddello aan la keydin
-msg.phrase	Save the current sheet before continuing?	Keydi xaashida hadda ka hor intaadan sii wadin?
+msg.phrase	Save the current sheet before continuing?	Ma la keydiyaa xaashida hadda ka hor intaadan sii wadin?
 msg.phrase	New sheet	Xaashi cusub
 msg.phrase	song is too large	heestu aad bay u weyn tahay
-msg.phrase	empty file	fayl madhan
+msg.phrase	empty file	fayl bannaan
 msg.phrase	not an SGT file	ma aha fayl SGT
-msg.phrase	bad BPM	BPM xun
-msg.phrase	bad speed	xawaare xun
-msg.phrase	bad title length	dhererka cinwaanka xun
+msg.phrase	bad BPM	BPM khaldan
+msg.phrase	bad speed	xawaare khaldan
+msg.phrase	bad title length	dhererka cinwaanka waa khaldan yahay
 msg.phrase	truncated title	cinwaanka waa la gooyay
-msg.phrase	bad character in title	xaraf xun cinwaanka
-msg.phrase	truncated order	habka waa la gooyay
-msg.phrase	bad order length	dhererka habka xun
-msg.phrase	bad pattern number in order	lambar qaab xun habka
-msg.phrase	truncated pattern list	liiska qaababka waa la gooyay
-msg.phrase	bad pattern count	tirada qaababka xun
-msg.phrase	bad pattern index	tusmada qaabka xun
-msg.phrase	duplicate pattern	qaab soo noqnoqday
-msg.phrase	truncated pattern data	xogta qaabka waa la gooyay
-msg.phrase	invalid pattern data	xogta qaabka aan sax ahayn
-msg.phrase	trailing data in file	xog dheeraad ah dhammaadka faylka
-msg.phrase	order refers to a missing pattern	habku wuxuu tilmaamayaa qaab aan jirin
+msg.phrase	bad character in title	xaraf khaldan ayaa cinwaanka ku jira
+msg.phrase	truncated order	order waa la gooyay
+msg.phrase	bad order length	dhererka order waa khaldan yahay
+msg.phrase	bad pattern number in order	lambarka pattern ee order waa khaldan yahay
+msg.phrase	truncated pattern list	liiska pattern waa la gooyay
+msg.phrase	bad pattern count	tirada pattern waa khaldan tahay
+msg.phrase	bad pattern index	lambarka pattern waa khaldan yahay
+msg.phrase	duplicate pattern	pattern labalaab ah
+msg.phrase	truncated pattern data	xogta pattern waa la gooyay
+msg.phrase	invalid pattern data	xogta pattern waa khaldan tahay
+msg.phrase	trailing data in file	xog dheeraad ah ayaa dhammaadka faylka ku jirta
+msg.phrase	order refers to a missing pattern	order wuxuu tilmaamayaa pattern aan jirin
 msg.phrase	(untitled)	(magac la'aan)
-msg.phrase	Ready. Press F1 for help.	Diyaar. Riix F1 caawin.
-msg.phrase	Follow OFF	Raac DAMAN
-msg.phrase	Nothing to undo	Wax dib loo celiyo ma jiro
-msg.phrase	Undo	Dib u celi
-msg.phrase	Note OFF	Jooji codka
-msg.phrase	Set an effect letter first	Marka hore deji xarafka saamaynta
-msg.phrase	Effect cleared	Saamaynta waa la tirtiray
-msg.phrase	Parameter cleared	Xuduudda waa la tirtiray
-msg.phrase	Note cleared	Codka waa la tirtiray
-msg.phrase	Instrument cleared	Qalabka muusikada waa la tirtiray
-msg.phrase	Volume cleared	Mugga codka waa la tirtiray
-msg.phrase	Order list is full	Liiska habka waa buuxaa
-msg.phrase	Order inserted	Hab ayaa la geliyay
-msg.phrase	Cannot delete the last order	Habka ugu dambeeya lama tirtiri karo
-msg.phrase	Order deleted	Habka waa la tirtiray
-msg.phrase	Playing song	Heesta ayaa la ciyaarayaa
-msg.phrase	Stopped	Waa la joojiyay
+msg.phrase	Ready. Press F1 for help.	Diyaar. Riix F1 si aad u hesho caawin.
+msg.phrase	Follow OFF	Raac DEMSAN
+msg.phrase	Nothing to undo	Wax dib loo celiyo ma jiraan
+msg.phrase	Undo	Dib ayaa loo celiyay
+msg.phrase	Note OFF	Note off
+msg.phrase	Set an effect letter first	Marka hore geli xarafka effect-ka
+msg.phrase	Effect cleared	Effect-ka waa la tirtiray
+msg.phrase	Parameter cleared	Parameter-ka waa la tirtiray
+msg.phrase	Note cleared	Note-ka waa la tirtiray
+msg.phrase	Instrument cleared	Qalabka waa la tirtiray
+msg.phrase	Volume cleared	Codka waa la tirtiray
+msg.phrase	Order list is full	Liiska order waa buuxaa
+msg.phrase	Order inserted	Order waa la geliyay
+msg.phrase	Cannot delete the last order	Order-ka ugu dambeeya lama tirtiri karo
+msg.phrase	Order deleted	Order waa la tirtiray
+msg.phrase	Playing song	Heesta ayaa shidan
+msg.phrase	Stopped	Waa joogsaday
 msg.phrase	New song	Hees cusub
-msg.phrase	Discard unsaved changes and start a new song? (Y/N)	Iska tuur isbeddellada aan la keydin oo bilow hees cusub? (Y/N)
-msg.phrase	Discard unsaved changes and open a song? (Y/N)	Iska tuur isbeddellada aan la keydin oo fur hees? (Y/N)
-msg.phrase	Discard unsaved changes and quit? (Y/N)	Iska tuur isbeddellada aan la keydin oo ka bax? (Y/N)
-msg.phrase	Song settings updated	Dejinta heesta waa la cusbooneysiiyay
-msg.phrase	Filename is empty	Magaca faylku waa madhan yahay
+msg.phrase	Discard unsaved changes and start a new song? (Y/N)	Ma la tuuraa isbeddellada aan la keydin oo la bilaabaa hees cusub? (Y/N)
+msg.phrase	Discard unsaved changes and open a song? (Y/N)	Ma la tuuraa isbeddellada aan la keydin oo la furaa hees? (Y/N)
+msg.phrase	Discard unsaved changes and quit? (Y/N)	Ma la tuuraa isbeddellada aan la keydin oo laga baxaa? (Y/N)
+msg.phrase	Song settings updated	Dejinta heesta waa la beddelay
+msg.phrase	Filename is empty	Magaca faylku waa bannaan yahay
 msg.phrase	Save cancelled	Keydinta waa la joojiyay
-msg.phrase	Open cancelled	Furitaanka waa la joojiyay
+msg.phrase	Open cancelled	Furidda waa la joojiyay
 msg.phrase	Edit ON	Tafatir SHIDAN
-msg.phrase	Edit OFF	Tafatir DAMAN
+msg.phrase	Edit OFF	Tafatir DEMSAN
 msg.phrase	Follow ON	Raac SHIDAN
-msg.phrase	Edit is OFF. Press F8 to edit.	Tafatirku waa daman yahay. Riix F8 si aad wax uga beddesho.
+msg.phrase	Edit is OFF. Press F8 to edit.	Tafatirku waa demsan yahay. Riix F8 si aad u tafatirto.
 msg.phrase	I/O error	Khalad I/O
 msg.phrase	file is too large	faylku aad buu u weyn yahay
 msg.phrase	truncated file	faylka waa la gooyay
-msg.phrase	#TRANSPORT AND FILES	#CIYAARID IYO FAYLAL
-msg.phrase	#ORDER LIST	#LIISKA HABKA
-msg.phrase	#DISPLAY	#MUUJIN
+msg.phrase	#TRANSPORT AND FILES	#SHIDID IYO FAYLAL
+msg.phrase	#ORDER LIST	#LIISKA ORDER
+msg.phrase	#DISPLAY	#MUUQAAL
 msg.phrase	#EDITING	#TAFATIR
-msg.phrase	#EFFECTS (parameter is hexadecimal)	#SAAMAYNO (xuduuddu waa hexadecimal)
-msg.phrase	LEFT/RIGHT PAGE   ENTER OR F1 CLOSE	BIDIX/MIDIG BOG   ENTER AMA F1 XIR
+msg.phrase	#EFFECTS (parameter is hexadecimal)	#EFFECT (parameter waa hexadecimal)
+msg.phrase	LEFT/RIGHT PAGE   ENTER OR F1 CLOSE	LEFT/RIGHT PAGE   ENTER OR F1 CLOSE
 msg.phrase	SONG SETTINGS	DEJINTA HEESTA
-msg.phrase	UP/DOWN SELECT   LEFT/RIGHT ADJUST   ENTER/F2 CLOSE	KOR/HOOS DOORO   BIDIX/MIDIG HAGAAJI   ENTER/F2 XIR
-msg.phrase	Type to edit the title. Backspace deletes the last character.	Qor si aad cinwaanka wax uga beddesho. Backspace wuxuu tirtiraa xarafka ugu dambeeya.
-msg.phrase	BPM range 32..255. Speed range 1..31.	BPM 32..255. Xawaare 1..31.
-msg.phrase	Pattern effects can also change speed and BPM while playing.	Saamaynta qaabku sidoo kale way beddeli kartaa xawaaraha iyo BPM inta la ciyaarayo.
-msg.phrase	INSTRUMENTS	QALABKA MUUSIKADA
-msg.phrase	UP/DOWN SELECT   SPACE PREVIEW   ENTER USE   F3 CLOSE	KOR/HOOS DOORO   SPACE DHAGEYSO   ENTER ISTICMAAL   F3 XIR
-msg.phrase	All four channels use wavetable synthesis.	Afarta kanaal dhammaantood waxay isticmaalaan isku-dhafka shaxda mowjadaha.
-msg.phrase	Preview plays C-4 on the track under the edit cursor.	Dhageysigu wuxuu ciyaaraa C-4 heesta ka hooseysa tilmaamaha tafatirka.
-msg.phrase	SAVE SONG AS	U KEYDI HEESTA SIDA
-msg.phrase	ENTER SAVE   F4 OR CTRL-C CANCEL	ENTER KEYDI   F4 AMA CTRL-C JOOJI
+msg.phrase	UP/DOWN SELECT   LEFT/RIGHT ADJUST   ENTER/F2 CLOSE	UP/DOWN SELECT   LEFT/RIGHT ADJUST   ENTER/F2 CLOSE
+msg.phrase	Type to edit the title. Backspace deletes the last character.	Qor si aad u beddesho cinwaanka. Backspace wuxuu tirtiraa xarafka ugu dambeeya.
+msg.phrase	BPM range 32..255. Speed range 1..31.	BPM 32 ilaa 255. Xawaare 1 ilaa 31.
+msg.phrase	Pattern effects can also change speed and BPM while playing.	Effect-yada pattern sidoo kale waxay beddeli karaan xawaaraha iyo BPM inta ay shidan tahay.
+msg.phrase	INSTRUMENTS	QALABKA
+msg.phrase	UP/DOWN SELECT   SPACE PREVIEW   ENTER USE   F3 CLOSE	UP/DOWN SELECT   SPACE PREVIEW   ENTER USE   F3 CLOSE
+msg.phrase	All four channels use wavetable synthesis.	Afarta channel dhammaantood waxay isticmaalaan wavetable.
+msg.phrase	Preview plays C-4 on the track under the edit cursor.	Dhegeysigu wuxuu ku garaacaa C-4 track-ga uu tilmaamuhu saaran yahay.
+msg.phrase	SAVE SONG AS	U KEYDI HEESTA
+msg.phrase	ENTER SAVE   F4 OR CTRL-C CANCEL	ENTER SAVE   F4 OR CTRL-C CANCEL
 msg.phrase	Directory:	Gal:
 msg.phrase	File name:	Magaca faylka:
 msg.phrase	The extension .SGT is added automatically.	Kordhinta .SGT si toos ah ayaa loogu daraa.
-msg.phrase	An existing file can be overwritten.	Fayl jira dusha waa lagu qori karaa.
+msg.phrase	An existing file can be overwritten.	Fayl jira waa la dul qori karaa.
 msg.phrase	OPEN SONG	FUR HEES
-msg.phrase	ENTER OPEN  BS PARENT  CTRL-O/CTRL-C CANCEL	ENTER FUR  BS KOR  CTRL-O/CTRL-C JOOJI
-msg.phrase	(no .SGT files in this folder)	(faylal .SGT kuma jiraan galkan)
+msg.phrase	ENTER OPEN  BS PARENT  CTRL-O/CTRL-C CANCEL	ENTER OPEN  BS PARENT  CTRL-O/CTRL-C CANCEL
+msg.phrase	(no .SGT files in this folder)	(galkan fayl .SGT kuma jiro)
 msg.phrase	CONFIRM	XAQIIJI
-msg.phrase	Y = YES   N / ENTER / CTRL-C = NO	Y = HAA   N / ENTER / CTRL-C = MAYA
+msg.phrase	Y = YES   N / ENTER / CTRL-C = NO	Y = YES   N / ENTER / CTRL-C = NO
 msg.phrase	Y = yes        N = no	Y = haa        N = maya
-msg.phrase	broken MThd	MThd xumaaday
-msg.phrase	MIDI IMPORT	SOO DEJINTA MIDI
-msg.phrase	broken delta time	waqtiga delta xumaaday
-msg.phrase	broken running status	running status xumaaday
-msg.phrase	broken meta event	dhacdo meta xumaaday
-msg.phrase	broken sysex event	dhacdo sysex xumaaday
-msg.phrase	broken channel event	dhacdo kanaal xumaaday
-msg.phrase	SMF output is too small	wax soo saarka SMF aad buu u yar yahay
-msg.phrase	SMF output is too large	wax soo saarka SMF aad buu u weyn yahay
+msg.phrase	broken MThd	MThd waa jaban yahay
+msg.phrase	MIDI IMPORT	SOO DEJI MIDI
+msg.phrase	broken delta time	delta time waa jaban yahay
+msg.phrase	broken running status	running status waa jaban yahay
+msg.phrase	broken meta event	meta event waa jaban yahay
+msg.phrase	broken sysex event	SysEx waa jaban yahay
+msg.phrase	broken channel event	channel event waa jaban yahay
+msg.phrase	SMF output is too small	Natiijada SMF aad bay u yar tahay
+msg.phrase	SMF output is too large	Natiijada SMF aad bay u weyn tahay
 msg.phrase	the song is too long for SMF	heestu aad bay ugu dheer tahay SMF
-msg.phrase	ARROWS      move the cell cursor\n	FALLAADHO   dhaqaaji tilmaamaha unugga\n
-msg.phrase	SHIFT+ARR   extend the selection (for graphs/copy)\n	SHIFT+FALL  ballaadhi doorashada (garaaf/koobi)\n
-msg.phrase	ENTER       edit the cell; in edit, commit and move down\n	ENTER       tafatir unugga; inta tafatirka, xaqiiji oo hoos u dhaadhac\n
-msg.phrase	TAB         next cell    SHIFT+TAB  previous cell\n	TAB         unugga xiga    SHIFT+TAB  unugga hore\n
+msg.phrase	ARROWS      move the cell cursor\n	FALAADHAHA  dhaqaaji tilmaamaha unugga\n
+msg.phrase	SHIFT+ARR   extend the selection (for graphs/copy)\n	SHIFT+FAL   ballaadhi xulashada (garaaf/koobi)\n
+msg.phrase	ENTER       edit the cell; in edit, commit and move down\n	ENTER       tafatir unugga; tafatirka dhexdiisa, xaqiiji oo hoos u deg\n
+msg.phrase	TAB         next cell    SHIFT+TAB  previous cell\n	TAB         unugga xiga    SHIFT+TAB  unuggii hore\n
 msg.phrase	DELETE      clear the selected cell(s)    ESC  cancel\n	DELETE      tirtir unugyada la doortay    ESC  jooji\n
 msg.phrase	PGUP/PGDN   move one screen    HOME/END  first/last column\n	PGUP/PGDN   hal shaashad    HOME/END  tiirka koowaad/ugu dambeeya\n
-msg.phrase	CTRL+HOME   A1    CTRL+END  last used cell\n	CTRL+HOME   A1    CTRL+END  unugga ugu dambeeya ee la isticmaalay\n
-msg.phrase	F1 help  F2 edit  F3 copy  F4 paste  F5 goto  F6 colour\n	F1 caawin  F2 tafatir  F3 koobi  F4 dhaji  F5 gudub  F6 midab\n
-msg.phrase	F7 auto-fit  F8 background  F9 recalc  F10 graph  F11 save  F12 menu\n	F7 habee  F8 asal  F9 xisaabi  F10 garaaf  F11 keydi  F12 menu\n
+msg.phrase	CTRL+HOME   A1    CTRL+END  last used cell\n	CTRL+HOME   A1    CTRL+END  unugga ugu dambeeyay ee la isticmaalay\n
+msg.phrase	F1 help  F2 edit  F3 copy  F4 paste  F5 goto  F6 colour\n	F1 caawin  F2 tafatir  F3 koobi  F4 dhaji  F5 u gudub  F6 midab\n
+msg.phrase	F7 auto-fit  F8 background  F9 recalc  F10 graph  F11 save  F12 menu\n	F7 ku habee  F8 asal  F9 dib u xisaabi  F10 garaaf  F11 keydi  F12 menu\n
 msg.phrase	SHIFT+F1 about  SHIFT+F2 row height  SHIFT+F3 column width\n	SHIFT+F1 ku saabsan  SHIFT+F2 dhererka safka  SHIFT+F3 ballaca tiirka\n
-msg.phrase	SHIFT+F4 select all  SHIFT+F10 graph range  SHIFT+F11 save as\n	SHIFT+F4 dooro dhammaan  SHIFT+F10 qaybta garaafka  SHIFT+F11 u keydi sida\n
-msg.phrase	CTRL+F1 new  CTRL+F2 open  CTRL+F3 save  CTRL+F4 save as\n	CTRL+F1 cusub  CTRL+F2 fur  CTRL+F3 keydi  CTRL+F4 u keydi sida\n
+msg.phrase	SHIFT+F4 select all  SHIFT+F10 graph range  SHIFT+F11 save as\n	SHIFT+F4 dooro dhammaan  SHIFT+F10 baaxadda garaafka  SHIFT+F11 u keydi\n
+msg.phrase	CTRL+F1 new  CTRL+F2 open  CTRL+F3 save  CTRL+F4 save as\n	CTRL+F1 cusub  CTRL+F2 fur  CTRL+F3 keydi  CTRL+F4 u keydi\n
 msg.phrase	CTRL+F5 export CSV  CTRL+F6 export ODS  ALT+F12 quit\n	CTRL+F5 dhoofi CSV  CTRL+F6 dhoofi ODS  ALT+F12 ka bax\n
-msg.phrase	Bottom 2 lines: function keys; [SHIFT]/[CTRL]/[ALT] like the filer\n	2-da saf ee hoose: furayaasha hawlaha; [SHIFT]/[CTRL]/[ALT] sida maareeyaha faylka\n
+msg.phrase	Bottom 2 lines: function keys; [SHIFT]/[CTRL]/[ALT] like the filer\n	2da sadar ee hoose: furayaasha shaqada; [SHIFT]/[CTRL]/[ALT] sida filer\n
 msg.phrase	CTRL+S save  CTRL+O open  CTRL+N new  CTRL+C/V/X copy/paste/cut\n	CTRL+S keydi  CTRL+O fur  CTRL+N cusub  CTRL+C/V/X koobi/dhaji/jar\n
 msg.phrase	CTRL+G goto    /  open the menu (1 File, 2 Edit, ...)\n	CTRL+G u gudub    /  fur menu-ga (1 Fayl, 2 Tafatir, ...)\n
 msg.phrase	Built-in functions: SUM AVERAGE MIN MAX COUNT COUNTA\n	Hawlaha gudaha: SUM AVERAGE MIN MAX COUNT COUNTA\n
-msg.phrase	Cell refs: A1, $A$1, A1:B10.  Formulas begin with '='.\n	Tixraacyada unugga: A1, $A$1, A1:B10.  Qaacidooyinku waxay ku bilaabmaan '='.\n
-msg.phrase	Files: .ods (LibreOffice), .fods (flat XML), .csv\n	Faylal: .ods (LibreOffice), .fods (XML siman), .csv\n
-msg.phrase	ODS/FODS keeps formulas, widths, heights and colours.\n	ODS/FODS waxay hayaan qaacidooyinka, ballaca, dhererka iyo midabada.\n
-msg.phrase	CSV keeps values and formulas (no colours/heights).\n	CSV wuxuu hayaa qiimayaasha iyo qaacidooyinka (midab/dherer la'aan).\n
-msg.phrase	Graph: select a range, press F10, and choose Line/Bar/Mixed/Pie.\n	Garaaf: dooro qayb, riix F10, kadib dooro Xariiq/Baar/Isku dar/Doolsho.\n
-msg.phrase	SGCALC for sgnano\n	SGCALC loogu talagalay sgnano\n
+msg.phrase	Cell refs: A1, $A$1, A1:B10.  Formulas begin with '='.\n	Tixraaca unugga: A1, $A$1, A1:B10.  Formulada waxay ku bilaabataa '='.\n
+msg.phrase	Files: .ods (LibreOffice), .fods (flat XML), .csv\n	Faylal: .ods (LibreOffice), .fods (XML fidsan), .csv\n
+msg.phrase	ODS/FODS keeps formulas, widths, heights and colours.\n	ODS/FODS waxay keydisaa formulada, ballaca, dhererka iyo midabada.\n
+msg.phrase	CSV keeps values and formulas (no colours/heights).\n	CSV waxay keydisaa qiimaha iyo formulada oo keliya (midab/dherer ma leh).\n
+msg.phrase	Graph: select a range, press F10, and choose Line/Bar/Mixed/Pie.\n	Garaaf: dooro baaxad, riix F10, dooro Xariiq/Tiir/Isku dhafan/Pie.\n
+msg.phrase	SGCALC for sgnano\n	SGCALC for sgnano\n
 msg.phrase	Version 	Nooca
-msg.phrase	A Lotus 1-2-3 style spreadsheet as an SGX program.\n\n	Xaashi xisaab qaabka Lotus 1-2-3 oo ah barnaamij SGX.\n\n
-msg.phrase	Screen mode 3: text + CLUT8 FB (lowres disabled)\n	Qaabka shaashadda 3: qoraal + FB CLUT8 (lowres waa daman yahay)\n
+msg.phrase	A Lotus 1-2-3 style spreadsheet as an SGX program.\n\n	Xaashi xisaabeed qaabka Lotus 1-2-3 ah, barnaamij SGX ah.\n\n
+msg.phrase	Screen mode 3: text + CLUT8 FB (lowres disabled)\n	Habka shaashadda 3: qoraal + FB CLUT8 (lowres ma jiro)\n
 msg.phrase	Sheet: %d rows x %d columns\n	Xaashi: %d saf x %d tiir\n
-msg.phrase	Formats: .ods / .fods (LibreOffice), .csv\n\n	Qaabab: .ods / .fods (LibreOffice), .csv\n\n
-msg.phrase	The grid is drawn on the text plane.\n	Shabakadda waxaa lagu sawiraa dusha qoraalka.\n
+msg.phrase	Formats: .ods / .fods (LibreOffice), .csv\n\n	Qaababka: .ods / .fods (LibreOffice), .csv\n\n
+msg.phrase	The grid is drawn on the text plane.\n	Shabakadda waxaa lagu sawiraa lakabka qoraalka.\n
 msg.phrase	Charts and the 640x480 background use the FB.\n\n	Garaafyada iyo asalka 640x480 waxay isticmaalaan FB.\n\n
 msg.phrase	Cannot store the cell (%d).	Unugga lama keydin karo (%d).
-msg.phrase	Copied %d x %d cells	Waa la koobiyeeyay %d x %d unug
+msg.phrase	Copied %d x %d cells	Waa la koobiyay %d x %d unug
 msg.phrase	Cleared %s	Waa la tirtiray %s
 msg.phrase	'%s' is not a cell reference.	'%s' ma aha tixraac unug.
 msg.phrase	Column width = %d	Ballaca tiirka = %d
 msg.phrase	Row height = %d	Dhererka safka = %d
-msg.phrase	Auto fit: %d column(s), %d row(s)	Si toos ah u habee: %d tiir, %d saf
+msg.phrase	Auto fit: %d column(s), %d row(s)	Ku habee: %d tiir, %d saf
 msg.phrase	Cannot apply the colour (%d).	Midabka lama dabaqi karo (%d).
-msg.phrase	Not a valid range.\nUse a range such as A1:C10.	Qayb aan sax ahayn.\nIsticmaal qayb sida A1:C10.
-msg.phrase	Graph range %s	Qaybta garaafka %s
+msg.phrase	Not a valid range.\nUse a range such as A1:C10.	Baaxaddu sax ma aha.\nGeli baaxad sida A1:C10.
+msg.phrase	Graph range %s	Baaxadda garaafka %s
 msg.phrase	Graph: %s	Garaaf: %s
-msg.phrase	SGCALC: cannot set screen mode 3: %s\n	SGCALC: qaabka shaashadda 3 lama dejin karo: %s\n
-msg.phrase	Cannot read %s\n%s	Lama akhrin karo %s\n%s
+msg.phrase	SGCALC: cannot set screen mode 3: %s\n	SGCALC: habka shaashadda 3 lama dejin karo: %s\n
+msg.phrase	Cannot read %s\n%s	%s lama akhrin karo\n%s
 msg.phrase	Folder: %s	Gal: %s
-msg.phrase	Unsupported extension.\nUse .csv, .ods or .fods.	Kordhin aan la taageerin.\nIsticmaal .csv, .ods ama .fods.
-msg.phrase	%s already exists.\nOverwrite it?	%s horey ayuu u jiray.\nDusha ku qor?
-msg.phrase	%s may not be writable.\nTry anyway?	%s waxaa laga yaabaa in aan la qori karin.\nIsku day si kastaba?
-msg.phrase	Unknown file type for %s	Nooca faylka %s lama yaqaan
-msg.phrase	Unsupported file type.\nUse .csv, .ods or .fods.	Nooca faylka lama taageero.\nIsticmaal .csv, .ods ama .fods.
-msg.phrase	Cannot open %s\n%s	Lama furi karo %s\n%s
+msg.phrase	Unsupported extension.\nUse .csv, .ods or .fods.	Kordhintan lama taageero.\nIsticmaal .csv, .ods ama .fods.
+msg.phrase	%s already exists.\nOverwrite it?	%s horey ayuu u jiray.\nMa la dul qoraa?
+msg.phrase	%s may not be writable.\nTry anyway?	%s waxaa laga yaabaa in aan lagu qori karin.\nWeli ma la isku dayaa?
+msg.phrase	Unknown file type for %s	Nooca faylka lama yaqaan: %s
+msg.phrase	Unsupported file type.\nUse .csv, .ods or .fods.	Nooca faylkan lama taageero.\nIsticmaal .csv, .ods ama .fods.
+msg.phrase	Cannot open %s\n%s	%s lama furi karo\n%s
 msg.phrase	%s is a folder.	%s waa gal.
-msg.phrase	Cannot import %s\n%s	Lama soo dejin karo %s\n%s
-msg.phrase	Loaded %s	Waa la rarray %s
-msg.phrase	Cannot build the %s file.	Faylka %s lama dhisi karo.
-msg.phrase	Cannot write %s\n%s	Lama qori karo %s\n%s
-msg.phrase	unsupported version %u	nooca %u lama taageero
-msg.phrase	Octave %d	Oktaf %d
-msg.phrase	Note %s	Cod %s
+msg.phrase	Cannot import %s\n%s	%s lama soo dejin karo\n%s
+msg.phrase	Loaded %s	Waa la furay %s
+msg.phrase	Cannot build the %s file.	Faylka %s lama samayn karo.
+msg.phrase	Cannot write %s\n%s	%s lama qori karo\n%s
+msg.phrase	unsupported version %u	nooc aan la taageerin (%u)
+msg.phrase	Octave %d	Octave %d
+msg.phrase	Note %s	Note %s
 msg.phrase	Instrument %d	Qalab %d
-msg.phrase	Volume %s	Mug %s
-msg.phrase	Effect %c	Saamayn %c
-msg.phrase	Parameter %s	Xuduud %s
-msg.phrase	Pattern %s	Qaab %s
-msg.phrase	Playing pattern %s	Wuxuu ciyaarayaa qaabka %s
+msg.phrase	Volume %s	Cod %s
+msg.phrase	Effect %c	Effect %c
+msg.phrase	Parameter %s	Parameter %s
+msg.phrase	Pattern %s	Pattern %s
+msg.phrase	Playing pattern %s	Pattern %s ayaa shidan
 msg.phrase	SAVE ERROR: %s	KHALAD KEYDIN: %s
 msg.phrase	Saved %s	Waa la keydiyay %s
-msg.phrase	LOAD ERROR: %s	KHALAD RARID: %s
+msg.phrase	LOAD ERROR: %s	KHALAD FURID: %s
 msg.phrase	BPM %d	BPM %d
 msg.phrase	Speed %d	Xawaare %d
-msg.phrase	Preview %s	Dhageysi %s
+msg.phrase	Preview %s	Dhegeyso %s
 msg.phrase	Instrument %s %s	Qalab %s %s
-msg.phrase	Overwrite %s? (Y/N)	Dusha ku qor %s? (Y/N)
-msg.phrase	  F5          Play the song from the current order	  F5          Ka ciyaar heesta habka hadda
-msg.phrase	  F6          Play the current pattern	  F6          Ciyaar qaabka hadda
-msg.phrase	  F7/Ctrl-C   Stop playback	  F7/Ctrl-C   Jooji ciyaarta
-msg.phrase	  Space       Play / stop	  Space       Ciyaar / jooji
-msg.phrase	  F4          Save as	  F4          U keydi sida
-msg.phrase	  Ctrl-S      Save (asks for a name if new)	  Ctrl-S      Keydi (wuxuu weydiiyaa magac haddii ay cusub tahay)
+msg.phrase	Overwrite %s? (Y/N)	Ma la dul qoraa %s? (Y/N)
+msg.phrase	  F5          Play the song from the current order	  F5          Ka shid heesta order-ka hadda
+msg.phrase	  F6          Play the current pattern	  F6          Shid pattern-ka hadda
+msg.phrase	  F7/Ctrl-C   Stop playback	  F7/Ctrl-C   Jooji shidista
+msg.phrase	  Space       Play / stop	  Space       Shid / jooji
+msg.phrase	  F4          Save as	  F4          U keydi
+msg.phrase	  Ctrl-S      Save (asks for a name if new)	  Ctrl-S      Keydi (magac ayuu weydiinayaa haddii ay cusub tahay)
 msg.phrase	  Ctrl-O      Open a song	  Ctrl-O      Fur hees
 msg.phrase	  Ctrl-N      New song	  Ctrl-N      Hees cusub
-msg.phrase	  F12         Quit (confirmation if modified)	  F12         Ka bax (wuu xaqiijiyaa haddii la beddelay)
-msg.phrase	  [ ]         Previous / next order entry	  [ ]         Gelinta habka hore / xigta
-msg.phrase	  { }         Insert / delete an order entry	  { }         Geli / tirtir gelinta habka
-msg.phrase	  - +         Change the pattern in the entry	  - +         Beddel qaabka gelinta
-msg.phrase	  F11         Follow playback (turns off on manual move)	  F11         Raac ciyaarta (wuu damaa marka gacanta lagu dhaqaajiyo)
-msg.phrase	  F1          Help; Left/Right changes page	  F1          Caawin; Bidix/Midig wuxuu beddelaa bogga
-msg.phrase	  F8          Toggle edit mode	  F8          Shid/dami qaabka tafatirka
-msg.phrase	  Arrows      Move the cursor	  Fallaadho   Dhaqaaji tilmaamaha
+msg.phrase	  F12         Quit (confirmation if modified)	  F12         Ka bax (wuu ku weydiinayaa haddii wax la beddelay)
+msg.phrase	  [ ]         Previous / next order entry	  [ ]         Order-kii hore / xiga
+msg.phrase	  { }         Insert / delete an order entry	  { }         Geli / tirtir order
+msg.phrase	  - +         Change the pattern in the entry	  - +         Beddel pattern-ka order-ka
+msg.phrase	  F11         Follow playback (turns off on manual move)	  F11         Raac shidista (way demtaa marka gacanta lagu dhaqaajiyo)
+msg.phrase	  F1          Help; Left/Right changes page	  F1          Caawin; Bidix/Midig waxay beddelaan bogga
+msg.phrase	  F8          Toggle edit mode	  F8          Shid / dami habka tafatirka
+msg.phrase	  Arrows      Move the cursor	  Falaadhaha  Dhaqaaji tilmaamaha
 msg.phrase	  PgUp/PgDn   Jump 16 rows	  PgUp/PgDn   Bood 16 saf
 msg.phrase	  Home/End    First / last row	  Home/End    Safka koowaad / ugu dambeeya
-msg.phrase	  F9/F10      Octave down / up	  F9/F10      Oktaf hoos / kor
-msg.phrase	  Z S X D C V G B H N J M      lower piano row	  Z S X D C V G B H N J M      safka hoose ee biyaano
-msg.phrase	  Q 2 W 3 E R 5 T 6 Y 7 U      upper piano row	  Q 2 W 3 E R 5 T 6 Y 7 U      safka sare ee biyaano
-msg.phrase	  1           Note off	  1           Jooji codka
-msg.phrase	  0 / Del     0 clears note/inst/fx; Del clears any	  0 / Del     0 wuxuu tirtiraa cod/qalab/saamayn; Del wuxuu tirtiraa wax kasta
-msg.phrase	  Ctrl-Z      Undo the last pattern/order edit	  Ctrl-Z      Dib u celi tafatirkii ugu dambeeyay ee qaabka/habka
-msg.phrase	  Axy   Volume slide: up x, down y	  Axy   Simbiriirixa mugga: kor x, hoos y
-msg.phrase	  Cxx   Note cut after xx ticks	  Cxx   Jar codka kadib xx tick
-msg.phrase	  Dxx   Set volume (00..7F)	  Dxx   Deji mugga (00..7F)
+msg.phrase	  F9/F10      Octave down / up	  F9/F10      Octave hoos / kor
+msg.phrase	  Z S X D C V G B H N J M      lower piano row	  Z S X D C V G B H N J M      safka hoose ee piano
+msg.phrase	  Q 2 W 3 E R 5 T 6 Y 7 U      upper piano row	  Q 2 W 3 E R 5 T 6 Y 7 U      safka sare ee piano
+msg.phrase	  1           Note off	  1           Note off
+msg.phrase	  0 / Del     0 clears note/inst/fx; Del clears any	  0 / Del     0 tirtir note/qalab/effect; Del mid kasta
+msg.phrase	  Ctrl-Z      Undo the last pattern/order edit	  Ctrl-Z      Dib u celi tafatirkii pattern/order ee ugu dambeeyay
+msg.phrase	  Axy   Volume slide: up x, down y	  Axy   Volume slide: kor x, hoos y
+msg.phrase	  Cxx   Note cut after xx ticks	  Cxx   Jar note-ka kadib xx tick
+msg.phrase	  Dxx   Set volume (00..7F)	  Dxx   Deji codka (00..7F)
 msg.phrase	  Fxx   Speed if xx < 20, otherwise BPM	  Fxx   Xawaare haddii xx < 20, haddii kale BPM
-msg.phrase	  Hxy   Arpeggio x, y semitones	  Hxy   Arpeggio x, y badh-cod
-msg.phrase	  Pxx   Pitch slide up	  Pxx   Simbiriirixa codka kor
-msg.phrase	  Qxx   Pitch slide down	  Qxx   Simbiriirixa codka hoos
+msg.phrase	  Hxy   Arpeggio x, y semitones	  Hxy   Arpeggio x, y semitone
+msg.phrase	  Pxx   Pitch slide up	  Pxx   Pitch slide kor
+msg.phrase	  Qxx   Pitch slide down	  Qxx   Pitch slide hoos
 msg.phrase	  F2 song settings, F3 instrument list	  F2 dejinta heesta, F3 liiska qalabka
-msg.phrase	HELP %d/2	CAAWIN %d/2
+msg.phrase	HELP %d/2	HELP %d/2
 msg.phrase	  Title	  Cinwaan
 msg.phrase	  BPM   : %d     (left/right -1/+1, -/+ -5/+5)	  BPM   : %d     (bidix/midig -1/+1, -/+ -5/+5)
-msg.phrase	  Speed : %d ticks/row	  Xawaare : %d tick/saf
-msg.phrase	  Rows  : %d (fixed)	  Safaf : %d (go'an)
-msg.phrase	  Order : %d entries	  Hab   : %d gelin
-msg.phrase	  Patterns in use : %d	  Qaababka la isticmaalo : %d
+msg.phrase	  Speed : %d ticks/row	  Xawaare : %d tick saf kasta
+msg.phrase	  Rows  : %d (fixed)	  Saf   : %d (go'an)
+msg.phrase	  Order : %d entries	  Order : %d
+msg.phrase	  Patterns in use : %d	  Pattern la isticmaalayo : %d
 msg.phrase	Current instrument: %s %s	Qalabka hadda: %s %s
 msg.phrase	Files: %d	Faylal: %d
-msg.phrase	SGNO TRACKER: incompatible SGX ABI\n	SGNO TRACKER: SGX ABI aan ku habboonayn\n
+msg.phrase	SGNO TRACKER: incompatible SGX ABI\n	SGNO TRACKER: SGX ABI ma waafaqsana\n
 msg.phrase	S: check: wait -- a file is being read or written	Hubinta S:: sug -- fayl ayaa la akhrinayaa ama la qorayaa
 msg.phrase	S: check: the drive is busy or not ready	Hubinta S:: darawalku waa mashquul ama ma diyaarsana
 msg.phrase	nothing for this item (ContextMenu.cfg)	waxba looma hayo shaygan (ContextMenu.cfg)
@@ -987,45 +983,45 @@ msg.phrase	unknown action in ContextMenu.cfg	fal aan la aqoon ContextMenu.cfg
 msg.prefix	menu	menu
 msg.phrase	5 Macro	5 Macro
 msg.phrase	6 Help	6 Caawin
-msg.phrase	Run current	Socodsii kan hadda
-msg.phrase	Run the macro at the cursor (#! header cell and the cells below it)	Socodsii macro-ga tilmaamaha (unugga cinwaanka #! iyo unugyada hoostiisa)
-msg.phrase	Run selection	Socodsii doorashada
-msg.phrase	Run the selected cells as one macro (top-left cell is the #! header)	Socodsii unugyada la doortay hal macro ahaan (unugga kore ee bidix waa cinwaanka #!)
+msg.phrase	Run current	Kan socodsii
+msg.phrase	Run the macro at the cursor (#! header cell and the cells below it)	Socodsii macro-ga tilmaamaha (unugga madaxa #! iyo unugyada ka hooseeya)
+msg.phrase	Run selection	Socodsii xulashada
+msg.phrase	Run the selected cells as one macro (top-left cell is the #! header)	Socodsii unugyada la doortay hal macro ahaan (unugga bidix-sare waa madaxa #!)
 msg.phrase	Run all	Socodsii dhammaan
-msg.phrase	Run every macro in the sheet, top-left to bottom-right	Socodsii macro kasta oo xaashida ku jira, kore-bidix ilaa hoose-midig
+msg.phrase	Run every macro in the sheet, top-left to bottom-right	Socodsii macro kasta oo xaashida ku jira, bidix-sare ilaa midig-hoose
 msg.phrase	Last error	Khaladkii ugu dambeeyay
-msg.phrase	Show the last macro error	Muuji khaladkii macro ee ugu dambeeyay
+msg.phrase	Show the last macro error	Tus khaladkii macro ee ugu dambeeyay
 msg.phrase	Macro	Macro
 msg.phrase	Macro: run #!ruby / #!python / #!basic cells	Macro: socodsii unugyada #!ruby / #!python / #!basic
 msg.phrase	Edit the cell (F2)	Tafatir unugga (F2)
-msg.phrase	Fit widths/heights to the contents	Ballaca/dhererka la jaanqaad waxa ku jira
+msg.phrase	Fit widths/heights to the contents	Ballaca/dhererka ku habee waxa ku jira
 msg.phrase	Last macro error	Khaladkii macro ee ugu dambeeyay
 msg.phrase	No macro error.	Khalad macro ma jiro.
-msg.phrase	IME on	IME waa shidan yahay
-msg.phrase	IME off	IME waa daman yahay
+msg.phrase	IME on	IME shidan
+msg.phrase	IME off	IME demsan
 msg.phrase	Macro: %s %s ...	Macro: %s %s ...
-msg.phrase	%s: this firmware cannot run macros (SGX ABI 5.10 or later)	%s: firmware-kan ma socodsiin karo macro (SGX ABI 5.10 ama ka dambe)
+msg.phrase	%s: this firmware cannot run macros (SGX ABI 5.10 or later)	%s: firmware-kan ma socodsiin karo macro (waxaa loo baahan yahay SGX ABI 5.10 ama ka cusub)
 msg.phrase	Macro error: %s	Khalad macro: %s
-msg.phrase	Macro: %s done	Macro: %s waa dhammaatay
-msg.phrase	a macro is already running	macro ayaa horey u socda
+msg.phrase	Macro: %s done	Macro: %s waa dhammaaday
+msg.phrase	a macro is already running	macro ayaa hore u socda
 msg.phrase	this language is not available	luqaddan lama heli karo
-msg.phrase	not enough memory	xusuus kuma filna
-msg.phrase	the macro stopped with an error	macro-gu wuxuu ku istaagay khalad
+msg.phrase	not enough memory	xusuustu kuma filna
+msg.phrase	the macro stopped with an error	macro-gu wuxuu ku joogsaday khalad
 msg.phrase	Macro error %s: %s	Khalad macro %s: %s
-msg.phrase	Macro: not enough memory	Macro: xusuus kuma filna
-msg.phrase	Macro: the cursor is not on a macro (a #!ruby / #!python / #!basic cell or the cells below it)	Macro: tilmaamuhu kuma jiro macro (unug #!ruby / #!python / #!basic ama unugyada hoostiisa)
-msg.phrase	Macro: no macro in the sheet	Macro: macro kuma jiro xaashida
+msg.phrase	Macro: not enough memory	Macro: xusuustu kuma filna
+msg.phrase	Macro: the cursor is not on a macro (a #!ruby / #!python / #!basic cell or the cells below it)	Macro: tilmaamuhu ma saarna macro (unug #!ruby / #!python / #!basic ama unugyada ka hooseeya)
+msg.phrase	Macro: no macro in the sheet	Macro: xaashida macro kuma jiro
 msg.phrase	Run all macros	Socodsii dhammaan macro-yada
-msg.phrase	Macros: %d. Run them all, top-left to bottom-right? Changes cannot be undone.	Macro: %d. Dhammaan socodsii, kore-bidix ilaa hoose-midig? Isbeddellada dib looma celin karo.
-msg.phrase	Macro: %d of %d done	Macro: %d waa dhammaatay (wadar %d)
+msg.phrase	Macros: %d. Run them all, top-left to bottom-right? Changes cannot be undone.	Macro: %d. Ma la wada socodsiiyaa, bidix-sare ilaa midig-hoose? Isbeddellada dib looma celin karo.
+msg.phrase	Macro: %d of %d done	Macro: %d ka mid ah %d waa dhammaaday
 msg.phrase	Cleared the cell	Unugga waa la tirtiray
-msg.phrase	Cleared the selection	Doorashada waa la tirtiray
+msg.phrase	Cleared the selection	Xulashada waa la tirtiray
 msg.phrase	Background colour = %d	Midabka asalka = %d
 msg.phrase	Text colour = %d	Midabka qoraalka = %d
 msg.phrase	Graph: line	Garaaf: xariiq
-msg.phrase	Graph: bar	Garaaf: baar
-msg.phrase	Graph: mixed	Garaaf: isku dar
-msg.phrase	Graph: pie	Garaaf: doolsho
+msg.phrase	Graph: bar	Garaaf: tiir
+msg.phrase	Graph: mixed	Garaaf: isku dhafan
+msg.phrase	Graph: pie	Garaaf: pie
 msg.phrase	Exported %s	Waa la dhoofiyay %s
 msg.phrase	choose a file or folder	dooro fayl ama gal
 msg.phrase	this drive cannot be written	darawalkan wax laguma qori karo
@@ -1039,3 +1035,36 @@ msg.phrase	32 items at most (mark fewer, or put them in a folder)	ugu badnaan 32
 msg.prefix	archive	kayd
 msg.prefix	compress	cadaadi
 msg.prefix	render	dhoofinta WAV
+ui	USB・時計・設定	USB, clock, settings
+ui	0.001 秒未満	ka yar 0.001 s
+ui	%s 秒	%s s
+ui	コンパイル %s  実行 %s	compile %s  run %s
+ui	コンパイル %s	compile %s
+ui	実行 %s	run %s
+msg.phrase	%s Sum %.7g N %ld%s	%s Wadarta %.7g N %ld%s
+msg.phrase	EDIT  	TAF.
+msg.phrase	GRAPH  %s  %s	GARAAF  %s  %s
+msg.phrase	READY 	DIYAR
+msg.phrase	Version %s	Nooca %s
+msg.phrase	1 Help	1 Caawin
+msg.phrase	3 Copy	3 Koobi
+msg.phrase	4 Paste	4 Dhaji
+msg.phrase	5 Goto	5 Gudub
+msg.phrase	6 Colour	6 Midab
+msg.phrase	7 Fit	7 Habee
+msg.phrase	8 Backgr	8 Asal
+msg.phrase	9 Recalc	9 Xisaab
+msg.phrase	10 Graph	10 Garaf
+msg.phrase	11 Save	11 Keydi
+msg.phrase	12 Menu	12 Menu
+msg.phrase	1 About	1 Saabsn
+msg.phrase	2 Height	2 Dherer
+msg.phrase	3 Width	3 Ballac
+msg.phrase	4 SelAll	4 Dhamm
+msg.phrase	10 Range	10 Baax
+msg.phrase	11 Name	11 U kyd
+msg.phrase	1 New	1 Cusub
+msg.phrase	2 Open	2 Fur
+msg.phrase	4 SaveAs	4 U kydi
+msg.phrase	12 Quit	12 Bax
+msg.phrase	3 Save	3 Keydi

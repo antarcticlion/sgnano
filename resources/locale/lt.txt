@@ -21,14 +21,14 @@ ui	属性を変える	Pakeiskite atributus
 ui	エディタで開く	Atidaryti redaktoriuje
 ui	テキスト表示（Shift+V / Ctrl+Alt+F7 は 16 進）	Žiūrėti kaip tekstą (Shift + V / Ctrl + Alt + F7 šešioliktainis)
 ui	ドライブの情報	Vairavimo informacija
-ui	フォルダを作る / 新しいファイル	Naujas aplankas / naujas failas
+ui	フォルダを作る（Shift+F5） / 新しいファイル（Ctrl+F1）	Naujas aplankas (Shift+F5) / naujas failas (Ctrl+F1)
 ui	シェル sgsh / 媒体を取り出す	Shell sgsh / išstumti laikmeną
 ui	読み直す	Įkelti iš naujo
-ui	見えている画面を PNG で保存	Išsaugokite ekraną kaip PNG
+ui	見えている画面を PNG で保存（Alt+F5 も同じ）	Išsaugokite ekraną kaip PNG (= Alt+F5)
 ui	窓を閉じる・選択を解く（サブフォルダでは上位へ）	Uždaryti langą / išvalyti pasirinkimą (poaplanke: eiti aukštyn)
-ui	ファイルの操作（FD と同じ。印・範囲・カーソルの順に選ぶ）	Failų operacijos (kaip FD: žymės, tada diapazonas, tada žymeklis)
-ui	コピー: 行き先はドライブとフォルダの木から。ESC で止める	Kopijuoti: pasirinkite paskirties vietą iš disko ir aplankų medžio. ESC sustoja
-ui	削除: y で確かめる。印・範囲をまとめて。フォルダは中身ごと	Ištrinti: patvirtinkite y. Žymi ir diapazonai vienu metu. Aplankai su jų turiniu
+ui	ファイルの操作（FD と同じ。印・範囲・カーソルの順）	Failų operacijos (kaip FD: žymės, tada diapazonas, tada žymeklis)
+ui	コピー: 行き先は木から選ぶ。ESC で止める	Kopijuoti: pasirinkite paskirties vietą iš disko ir aplankų medžio. ESC sustoja
+ui	削除: y で確かめる。印・範囲をまとめて	Ištrinti: patvirtinkite y. Žymi ir diapazonai vienu metu. Aplankai su jų turiniu
 ui	フォルダを削除（中身ごと）	Ištrinkite aplanką (su jo turiniu)
 ui	名前を変える（今の名前を直して Enter）	Pervardyti (redaguoti pavadinimą, įveskite)
 ui	属性: R 読み出し専用・H 隠し・S システム・A アーカイブ	Atributai: R tik skaitomas, H paslėptas, S sistema, A archyvas
@@ -50,22 +50,19 @@ ui	画面（Alt+F。FD の F キーとぶつからない）	Ekranas (Alt + F, ne
 ui	FB（絵）/ テキスト面を出す・隠す	Rodyti / slėpti FB (paveikslėlį) / tekstą
 ui	FB の表示ページ（0〜3）	FB rodymo puslapis (0-3)
 ui	FB を 0 で消す / 明るさを 1/2 に（RGB555）	Išvalykite FB iki 0 / perpus sumažinkite jo ryškumą (RGB555)
-ui	USB のエンドポイントと LAN の状態	USB galiniai taškai ir LAN būsena
+ui	USB のエンドポイントと LAN（U: 10 秒に 1 度）	USB galiniai taškai ir LAN būsena
 ui	FB の表示ページを消す / 明るさを 1/2 に	Išvalykite FB ekrano puslapį / per pusę jo ryškumą
 ui	テキストの属性の見本	Teksto atributų pavyzdžiai
 ui	モニタの EDID（起動時に読んだもの）	Stebėti EDID (skaityti paleidžiant)
 ui	フォント ROM のライセンスとクレジット	Šrifto ROM licencijos ir kreditai
 ui	設定（表示の言語・IME・キーボードロケール）	Nustatymai (vaizdo kalba, IME ir klaviatūros lokalė)
-ui	時計（NTP で合わせた日本時間。s ですぐ合わせる）	Laikrodis (Japonijos laikas nustatytas NTP; s sinchronizuojasi dabar)
+ui	時計（NTP で合わせた日本時間。s は 3 分に 1 度）	Laikrodis (Japonijos laikas nustatytas NTP; s sinchronizuojasi dabar)
 ui	表計算（SGCALC）を開く	Atidaryti skaičiuoklę (SGCALC)
 ui	S: ドライブのエラー検査（誤りがあれば直すか聞く）	Patikrinkite S: ar nėra klaidų (paklausti prieš taisant)
 ui	トラッカー（TRACKER）を開く	Atidarykite TRACKER
-ui	再起動（確かめの窓が出る）	Perkraukite (pirmiausia klausia)
+ui	再起動（確かめの窓）。Ctrl+Alt+Del も同じ	Perkraukite (pirmiausia klausia) = Ctrl+Alt+Del
 ui	ADC のステレオ入力（GP40 / 41）を鳴らす	Leiskite ADC stereo įvestį (GP40 / 41)
 ui	VGM/VGZ を 96kHz/24bit WAV に書き出す	Eksportuokite VGM / VGZ į 96 kHz / 24 bitų WAV
-ui	このヘルプ	Ši pagalba
-ui	ページを替える	Pakeiskite puslapį
-ui	閉じる	Uždaryti
 ui	テキスト・16 進のビュアー（less 風）	Tekstas / šešioliktainė peržiūros priemonė (patinka mažiau)
 ui	1 行	Viena eilutė
 ui	1 ページ	Vienas puslapis
@@ -83,10 +80,9 @@ ui	IME の言語（日本語 / English / 한국어）	IME kalba (japonų / angl�
 ui	ひらがな / カタカナで確定	Įsipareigokite kaip hiragana / katakana
 ui	エディタのヘルプ	Redaktorės pagalba
 ui	シェル	Lukštas
-ui	シェル（csh のサブセット。exit / Ctrl-D で戻る、help で一覧）	Shell (csh poaibis. exit / Ctrl-D, kad grįžtumėte, žinynas pateikia komandų sąrašą)
+ui	シェル（csh の一部。exit / Ctrl-D で戻る、help で一覧）	Shell (csh poaibis. exit / Ctrl-D, kad grįžtumėte, žinynas pateikia komandų sąrašą)
 ui	一覧と移動	Sąrašas ir judėjimas
 ui	ファイルの操作	Failų operacijos
-ui	画面と機器	Ekranas ir įrenginiai
 ui	ビュアーとエディタ	Žiūrovai ir redaktorius
 ui	ヘルプ  %u / %u  %s	Pagalba %u / %u %s
 ui	Left Right: ページを替える    F1 / ESC: 閉じる	Kairėn dešinėn: pakeisti puslapį F1 / ESC: uždaryti
@@ -147,9 +143,9 @@ ui	10 EP表	10 EP
 ui	11 時計	11 Clock
 ui	12 表計	12 CALC
 ui	1 属性	1 Attr
-ui	2 情報	2 Info
+ui	2Drv情報	2 Info
 ui	3 移動	3 Move
-ui	5 作成	5 Mkdir
+ui	5 ﾌｫﾙﾀﾞ	5 Mkdir
 ui	6 シェル	6 Shell
 ui	8 編集	8 Edit
 ui	9 表示	9 View
@@ -187,10 +183,10 @@ ui	新しいファイル	Naujas failas
 ui	時刻:	Laikas:
 ui	実行:	Vykdyti:
 ui	名前:	Vardas:
-ui	年-月-日 時:分  Enter 合わせる  ESC そのまま	YYYY-MM-DD hh:mm Įveskite rinkinį ESC išlaikyti
-ui	Enter 走らせる  ←→ 動かす  BS / Del 消す  ESC やめる	Įveskite paleisti <-> perkelti BS / Del ištrinti ESC atšaukti
-ui	Enter 変える  ←→ 動かす  BS / Del 消す  ESC やめる	Įveskite pervadinti <-> perkelti BS / Del ištrinti ESC atšaukti
-ui	Enter 作る  ←→ 動かす  BS / Del 消す  ESC やめる	Įveskite sukurti <-> perkelti BS / Del ištrinti ESC atšaukti
+ui	年-月-日 時:分  Enter 合わせる  ESC そのまま	MMMM-MM-DD vv:mm  Enter nustatyti  ESC palikti
+ui	Enter 走らせる  ←→ 動かす  BS / Del 消す  ESC やめる	Enter paleisti ←→ slinkti BS/Del trinti ESC atšaukti
+ui	Enter 変える  ←→ 動かす  BS / Del 消す  ESC やめる	Enter pervadinti ←→ slinkti BS/Del trinti ESC atšaukti
+ui	Enter 作る  ←→ 動かす  BS / Del 消す  ESC やめる	Enter sukurti  ←→ slinkti  BS/Del trinti  ESC atšaukti
 ui	消す	Ištrinti
 ui	個の項目	daiktų
 ui	フォルダは中身ごと消します。よろしいですか？	Aplankai su jų turiniu ištrinami. Ar esi tikras?
@@ -344,7 +340,7 @@ ui	 組み立てています... %lu / %lu 行	Pastatas... %lu / %lu eilučių
 ui	 書いています... %lu / %lu KB（FB は隠しています）	Rašoma... %lu / %lu KB (FB paslėptas)
 ui	書けませんでした	Nepavyko parašyti
 ui	書庫の名前（印の付いた項目、無ければカーソルの項目を入れる）	Archyvo pavadinimas (pažymėti elementai arba žymeklio elementas, jei jo nėra)
-ui	Enter 圧縮する  ←→ 動かす  BS / Del 消す  ESC やめる	Įveskite kompresą ← → perkelti BS / Del ištrinti ESC atšaukti
+ui	Enter 圧縮する  ←→ 動かす  BS / Del 消す  ESC やめる	Enter suspausti ←→ slinkti BS/Del trinti ESC atšaukti
 ui	WAV 書き出し: %s 中止（%s）	WAV eksportavimas: %s atšauktas (%s)
 ui	WAV 書き出し: %s 失敗（%s）	WAV eksportavimas: %s nepavyko (%s)
 ui	WAV 書き出し: %s 合計 %s	WAV eksportas: %s iš viso %s
@@ -487,11 +483,11 @@ msg.phrase	the sound is not open	garsas nėra atidarytas
 msg.phrase	no such channel	tokio kanalo nera
 msg.phrase	the sequencer is busy	sekvencija užimta
 msg.phrase	not enough PSRAM for the song	nepakanka PSRAM dainai
-msg.phrase	not a standard MIDI file (no MThd)	ne standartinis MIDI failas (be MThd)
-msg.phrase	no tracks	jokių pėdsakų
-msg.phrase	a track is broken (MTrk)	nutrūkęs takelis (MTrk)
+msg.phrase	not a standard MIDI file (no MThd)	ne standartinis MIDI failas (nėra MThd)
+msg.phrase	no tracks	nėra takelių
+msg.phrase	a track is broken (MTrk)	takelis sugadintas (MTrk)
 msg.phrase	SMPTE time division is not supported	SMPTE laiko padalijimas nepalaikomas
-msg.phrase	SMF format 2 is not supported (0 and 1 only)	2 SMF formatas nepalaikomas (tik 0 ir 1)
+msg.phrase	SMF format 2 is not supported (0 and 1 only)	SMF formatas 2 nepalaikomas (tik 0 ir 1)
 msg.phrase	not a Bulk-Only drive	ne tik masinis diskas
 msg.phrase	not an optical drive	ne optinis diskas
 msg.phrase	a system folder cannot be deleted or renamed	sistemos aplanko negalima ištrinti arba pervardyti
@@ -510,7 +506,7 @@ msg.phrase	cancelled	atšauktas
 msg.phrase	could not mount	negalėjo užsimontuoti
 msg.phrase	could not start a read	negalėjo pradėti skaityti
 msg.phrase	could not start a write	negalėjo pradėti rašyti
-msg.phrase	is a directory	yra katalogas
+msg.phrase	is a directory	yra aplankas
 msg.phrase	that is a directory	tai yra katalogas
 msg.phrase	no clusters	jokių klasterių
 msg.phrase	no room for the cluster list	nėra vietos klasterių sąrašui
@@ -547,7 +543,7 @@ msg.phrase	Not supported on this drive	Šiame diske nepalaikoma
 msg.phrase	Invalid path	Neteisingas kelias
 msg.phrase	Out of memory	Pritrūko atminties
 msg.phrase	No such drive	Nėra tokio važiavimo
-msg.phrase	stopped	sustojo
+msg.phrase	stopped	sustabdyta
 msg.phrase	cancelled (not enough free space)	atšaukta (nepakanka laisvos vietos)
 msg.phrase	could not count the free space	negalėjo suskaičiuoti laisvos vietos
 msg.phrase	the receiver cancelled	imtuvas atšauktas
@@ -624,15 +620,15 @@ msg.word	 files	failus
 msg.word	 (	(
 msg.phrase	Untitled	Be pavadinimo
 msg.phrase	1 File	1 failas
-msg.phrase	2 Edit	2 Redaguoti
+msg.phrase	2 Edit	2 Redag
 msg.phrase	3 Graph	3 Grafikas
 msg.phrase	4 Sheet	4 lapas
 msg.phrase	5 Help	5 Pagalba
 msg.phrase	EMPTY	TUŠČIA
-msg.phrase	NUMBER	NUMERIS
+msg.phrase	NUMBER	SKAIČIUS
 msg.phrase	TEXT	TEKSTAS
 msg.phrase	FORMULA	FORMULĖ
-msg.phrase	Type to enter, F2 to edit, F1 for help	Įveskite norėdami įvesti, F2 norėdami redaguoti, F1, jei norite pagalbos
+msg.phrase	Type to enter, F2 to edit, F1 for help	Rašykite įvesti, F2 – taisyti, F1 – žinynas
 msg.phrase	5 CSV	5 CSV
 msg.phrase	6 ODS	6 ODS
 msg.phrase	[SHIFT]	[SHIFT]
@@ -641,265 +637,265 @@ msg.phrase	[ALT]	[ALT]
 msg.phrase	Ready	Paruošta
 msg.phrase	SGCALC	SGCALC
 msg.phrase	Press any key	Paspauskite bet kurį klavišą
-msg.phrase	Y = yes    N = no    Esc = cancel	Y = taip N = ne Esc = atšaukti
-msg.phrase	Enter = OK    Esc = cancel    Ctrl-U = clear	Enter = OK Esc = atšaukti Ctrl-U = išvalyti
-msg.phrase	First row/column = labels; charts use the 640x480 CLUT8 FB.	Pirma eilutė / stulpelis = etiketės; diagramose naudojamas 640 x 480 CLUT8 FB.
-msg.phrase	SGCALC - HELP	SGCALC – PAGALBA
-msg.phrase	Press any key to return	Norėdami grįžti, paspauskite bet kurį klavišą
-msg.phrase	Press any key to return.	Norėdami grįžti, paspauskite bet kurį klavišą.
+msg.phrase	Y = yes    N = no    Esc = cancel	Y = taip    N = ne    Esc = atšaukti
+msg.phrase	Enter = OK    Esc = cancel    Ctrl-U = clear	Enter = gerai    Esc = atšaukti    Ctrl-U = išvalyti
+msg.phrase	First row/column = labels; charts use the 640x480 CLUT8 FB.	Pirma eilutė/stulpelis = žymės; diagramos naudoja 640x480 CLUT8 FB.
+msg.phrase	SGCALC - HELP	SGCALC - ŽINYNAS
+msg.phrase	Press any key to return	Paspauskite bet kurį klavišą, kad grįžtumėte
+msg.phrase	Press any key to return.	Paspauskite bet kurį klavišą, kad grįžtumėte.
 msg.phrase	ABOUT SGCALC	APIE SGCALC
-msg.phrase	New	Nauja
-msg.phrase	Start a new sheet	Pradėkite naują lapą
-msg.phrase	Open...	Atidaryti...
-msg.phrase	Open an ODS, FODS or CSV file	Atidarykite ODS, FODS arba CSV failą
-msg.phrase	Save	Išsaugoti
-msg.phrase	Save the current file	Išsaugokite esamą failą
-msg.phrase	Save As...	Išsaugoti kaip...
-msg.phrase	Save with a new name or format	Išsaugokite nauju pavadinimu arba formatu
+msg.phrase	New	Naujas
+msg.phrase	Start a new sheet	Pradėti naują lapą
+msg.phrase	Open...	Atverti...
+msg.phrase	Open an ODS, FODS or CSV file	Atverti ODS, FODS arba CSV failą
+msg.phrase	Save	Įrašyti
+msg.phrase	Save the current file	Įrašyti dabartinį failą
+msg.phrase	Save As...	Įrašyti kaip...
+msg.phrase	Save with a new name or format	Įrašyti nauju vardu ar formatu
 msg.phrase	Export CSV...	Eksportuoti CSV...
-msg.phrase	Write a CSV copy	Parašykite CSV kopiją
+msg.phrase	Write a CSV copy	Įrašyti CSV kopiją
 msg.phrase	Export ODS...	Eksportuoti ODS...
-msg.phrase	Write a LibreOffice copy	Parašykite „LibreOffice“ kopiją
-msg.phrase	Quit	Išeik
-msg.phrase	Leave SGCALC	Palikite SGCALC
-msg.phrase	Clear	Aišku
-msg.phrase	Clear the selected cells	Išvalykite pasirinktus langelius
+msg.phrase	Write a LibreOffice copy	Įrašyti LibreOffice kopiją
+msg.phrase	Quit	Baigti
+msg.phrase	Leave SGCALC	Išeiti iš SGCALC
+msg.phrase	Clear	Išvalyti
+msg.phrase	Clear the selected cells	Išvalyti pažymėtus langelius
 msg.phrase	Copy	Kopijuoti
-msg.phrase	Copy the selection	Nukopijuokite pasirinkimą
+msg.phrase	Copy the selection	Kopijuoti pažymėtą sritį
 msg.phrase	Paste	Įklijuoti
-msg.phrase	Paste at the cursor	Įklijuokite ties žymekliu
+msg.phrase	Paste at the cursor	Įklijuoti ties žymekliu
 msg.phrase	Cut	Iškirpti
-msg.phrase	Copy and clear the selection	Nukopijuokite ir išvalykite pasirinkimą
-msg.phrase	Select all	Pasirinkite viską
-msg.phrase	Select all used cells	Pasirinkite visas naudojamas ląsteles
+msg.phrase	Copy and clear the selection	Nukopijuoti ir išvalyti pažymėtą sritį
+msg.phrase	Select all	Žymėti viską
+msg.phrase	Select all used cells	Pažymėti visus naudotus langelius
 msg.phrase	Text color...	Teksto spalva...
-msg.phrase	Choose the text colour	Pasirinkite teksto spalvą
+msg.phrase	Choose the text colour	Pasirinkti teksto spalvą
 msg.phrase	Background...	Fonas...
-msg.phrase	Choose the cell background	Pasirinkite langelio foną
-msg.phrase	Line	Linija
-msg.phrase	Draw a line graph from the selection	Iš pasirinkimo nubrėžkite linijinę grafiką
-msg.phrase	Bar	Baras
-msg.phrase	Draw a bar graph from the selection	Iš pasirinkimo nubrėžkite juostinę diagramą
-msg.phrase	Mixed	Mišrus
-msg.phrase	Bars for the first series, lines for the rest	Barai pirmajai serijai, eilutės likusioms
-msg.phrase	Pie	Pyragas
-msg.phrase	Draw a pie graph from the selection	Iš pasirinkimo nubrėžkite skritulinę diagramą
-msg.phrase	Range...	Diapazonas...
-msg.phrase	Set the graph range explicitly	Aiškiai nustatykite diagramos diapazoną
-msg.phrase	Draw again	Dar kartą pieškite
-msg.phrase	Redraw the last graph	Perbraižykite paskutinę grafiką
-msg.phrase	Goto...	Eik...
-msg.phrase	Jump to a cell (for example C12)	Peršokti į langelį (pvz., C12)
+msg.phrase	Choose the cell background	Pasirinkti langelio foną
+msg.phrase	Line	Linijinė
+msg.phrase	Draw a line graph from the selection	Nubrėžti linijinę diagramą iš pažymėtos srities
+msg.phrase	Bar	Stulpelinė
+msg.phrase	Draw a bar graph from the selection	Nubrėžti stulpelinę diagramą iš pažymėtos srities
+msg.phrase	Mixed	Mišri
+msg.phrase	Bars for the first series, lines for the rest	Stulpeliai pirmai serijai, linijos kitoms
+msg.phrase	Pie	Skritulinė
+msg.phrase	Draw a pie graph from the selection	Nubrėžti skritulinę diagramą iš pažymėtos srities
+msg.phrase	Range...	Sritis...
+msg.phrase	Set the graph range explicitly	Nurodyti diagramos sritį ranka
+msg.phrase	Draw again	Perbraižyti
+msg.phrase	Redraw the last graph	Perbraižyti paskutinę diagramą
+msg.phrase	Goto...	Eiti į...
+msg.phrase	Jump to a cell (for example C12)	Eiti į langelį (pavyzdžiui, C12)
 msg.phrase	Column width...	Stulpelio plotis...
-msg.phrase	Change the selected columns' width	Pakeiskite pasirinktų stulpelių plotį
-msg.phrase	Row height...	Eilės aukštis...
-msg.phrase	Change the selected rows' height	Pakeiskite pasirinktų eilučių aukštį
-msg.phrase	Auto fit	Automatiškai tinka
-msg.phrase	Fit widths/heights to the contents (F7)	Pritaikykite plotį/aukštį prie turinio (F7)
+msg.phrase	Change the selected columns' width	Keisti pažymėtų stulpelių plotį
+msg.phrase	Row height...	Eilutės aukštis...
+msg.phrase	Change the selected rows' height	Keisti pažymėtų eilučių aukštį
+msg.phrase	Auto fit	Pritaikyti
+msg.phrase	Fit widths/heights to the contents (F7)	Pritaikyti pločius/aukščius turiniui (F7)
 msg.phrase	Recalculate	Perskaičiuoti
-msg.phrase	Re-evaluate all formulas	Iš naujo įvertinkite visas formules
+msg.phrase	Re-evaluate all formulas	Perskaičiuoti visas formules
 msg.phrase	Erase all	Ištrinti viską
-msg.phrase	Clear the whole sheet	Išvalykite visą lapą
-msg.phrase	Keys	Raktai
-msg.phrase	Show the key guide	Parodykite raktų vadovą
+msg.phrase	Clear the whole sheet	Išvalyti visą lapą
+msg.phrase	Keys	Klavišai
+msg.phrase	Show the key guide	Rodyti klavišų sąrašą
 msg.phrase	About	Apie
 msg.phrase	About SGCALC	Apie SGCALC
 msg.phrase	File	Failas
-msg.phrase	Edit	Redaguoti
-msg.phrase	Graph	Grafikas
+msg.phrase	Edit	Taisa
+msg.phrase	Graph	Diagrama
 msg.phrase	Sheet	Lapas
-msg.phrase	Help	Pagalba
-msg.phrase	File: new, open, save, export, quit	Failas: naujas, atidaryti, išsaugoti, eksportuoti, išeiti
-msg.phrase	Edit: clear, copy, paste, cut, select all	Redaguoti: išvalyti, nukopijuoti, įklijuoti, iškirpti, pasirinkti viską
-msg.phrase	Graph: line, bar, mixed, pie (draws in the FB)	Grafikas: linija, juosta, mišrus, pyragas (piešia FB)
-msg.phrase	Sheet: goto, column width, recalculate, erase	Lapas: Goto, stulpelio plotis, perskaičiuoti, ištrinti
-msg.phrase	Help: keys and about	Pagalba: raktai ir apie
+msg.phrase	Help	Žinynas
+msg.phrase	File: new, open, save, export, quit	Failas: naujas, atverti, įrašyti, eksportuoti, baigti
+msg.phrase	Edit: clear, copy, paste, cut, select all	Taisa: išvalyti, kopijuoti, įklijuoti, iškirpti, žymėti viską
+msg.phrase	Graph: line, bar, mixed, pie (draws in the FB)	Diagrama: linijinė, stulpelinė, mišri, skritulinė (FB)
+msg.phrase	Sheet: goto, column width, recalculate, erase	Lapas: eiti į, stulpelio plotis, perskaičiuoti, ištrinti
+msg.phrase	Help: keys and about	Žinynas: klavišai ir apie
 msg.phrase	Left/Right = menu    Up/Down = item    Enter = choose    Esc = cancel	Kairėn/dešinėn = meniu Aukštyn/Žemyn = elementas Enter = pasirinkite Esc = atšaukti
 msg.phrase	Cancelled	Atšaukta
-msg.phrase	The selection is too large or memory is low.	Pasirinkimas per didelis arba trūksta atminties.
+msg.phrase	The selection is too large or memory is low.	Pažymėta sritis per didelė arba trūksta atminties.
 msg.phrase	the cell	ląstelė
 msg.phrase	the selection	atranka
 msg.phrase	Nothing to paste	Nėra ką įklijuoti
 msg.phrase	Pasted	Įklijuota
-msg.phrase	GO TO CELL	EITI Į CELL
+msg.phrase	GO TO CELL	EITI Į LANGELĮ
 msg.phrase	Cell reference (A1):	Langelio nuoroda (A1):
-msg.phrase	Goto	Goto
-msg.phrase	COLUMN WIDTH	Stulpelio PLOTIS
+msg.phrase	Goto	Eiti į
+msg.phrase	COLUMN WIDTH	STULPELIO PLOTIS
 msg.phrase	Width in characters (4..30):	Plotis simboliais (4..30):
-msg.phrase	ROW HEIGHT	EILĖS AUKŠTIS
-msg.phrase	Height in text rows (1..8):	Aukštis teksto eilutėse (1..8):
-msg.phrase	Auto fit: the sheet is empty	Automatinis pritaikymas: lapas tuščias
+msg.phrase	ROW HEIGHT	EILUTĖS AUKŠTIS
+msg.phrase	Height in text rows (1..8):	Aukštis teksto eilutėmis (1..8):
+msg.phrase	Auto fit: the sheet is empty	Pritaikyti: lapas tuščias
 msg.phrase	BACKGROUND COLOUR	FONO SPALVA
 msg.phrase	TEXT COLOUR	TEKSTO SPALVA
-msg.phrase	Arrows: choose    Enter: apply    Esc: cancel	Rodyklės: pasirinkite Enter: taikyti Esc: atšaukti
-msg.phrase	Colour index (PC-98 16-colour palette)	Spalvų indeksas (PC-98 16 spalvų paletė)
+msg.phrase	Arrows: choose    Enter: apply    Esc: cancel	Rodyklės: rinktis    Enter: taikyti    Esc: atšaukti
+msg.phrase	Colour index (PC-98 16-colour palette)	Spalvos numeris (PC-98 16 spalvų paletė)
 msg.phrase	Aa 123	Aa 123
-msg.phrase	Enter = apply    Esc = cancel	Enter = taikyti Esc = atšaukti
+msg.phrase	Enter = apply    Esc = cancel	Enter = taikyti    Esc = atšaukti
 msg.phrase	Colour	Spalva
 msg.phrase	Background	Fonas
 msg.phrase	Text	Tekstas
-msg.phrase	GRAPH RANGE	GRAFŲ DIAPAZONAS
-msg.phrase	Range (for example A1:C10):	Diapazonas (pvz., A1:C10):
-msg.phrase	Graph range	Grafiko diapazonas
-msg.phrase	Use a range such as A1:C10.	Naudokite diapazoną, pvz., A1:C10.
-msg.phrase	Cannot draw the graph.	Negalima nubraižyti grafiko.
+msg.phrase	GRAPH RANGE	DIAGRAMOS SRITIS
+msg.phrase	Range (for example A1:C10):	Sritis (pavyzdžiui, A1:C10):
+msg.phrase	Graph range	Diagramos sritis
+msg.phrase	Use a range such as A1:C10.	Nurodykite sritį, pvz., A1:C10.
+msg.phrase	Cannot draw the graph.	Nepavyko nubrėžti diagramos.
 msg.phrase	line	linija
 msg.phrase	bar	baras
 msg.phrase	mixed	sumaišytas
 msg.phrase	pie	pyragas
-msg.phrase	Clear every cell in this sheet?	Išvalyti kiekvieną šio lapo langelį?
+msg.phrase	Clear every cell in this sheet?	Išvalyti visus šio lapo langelius?
 msg.phrase	Sheet erased	Lapas ištrintas
-msg.phrase	Selected all used cells	Pasirinktos visos panaudotos ląstelės
+msg.phrase	Selected all used cells	Pažymėti visi naudoti langeliai
 msg.phrase	Recalculated	Perskaičiuota
 msg.phrase	Memory	Atmintis
-msg.phrase	Not enough PSRAM for the spreadsheet.	Nepakanka PSRAM skaičiuoklei.
+msg.phrase	Not enough PSRAM for the spreadsheet.	Skaičiuoklei trūksta PSRAM.
 msg.phrase	The sheet is empty.	Lapas tuščias.
-msg.phrase	No numeric data in the selected range.	Pasirinktame diapazone nėra skaitmeninių duomenų.
+msg.phrase	No numeric data in the selected range.	Pažymėtoje srityje nėra skaičių.
 msg.phrase	Other	Kita
-msg.phrase	No positive values for a pie chart	Nėra teigiamų skritulinės diagramos verčių
-msg.phrase	LINE	LINIJA
-msg.phrase	BAR	BARAS
-msg.phrase	MIXED	MIŠRAUS
-msg.phrase	PIE	PYRAGAS
+msg.phrase	No positive values for a pie chart	Skritulinei diagramai nėra teigiamų reikšmių
+msg.phrase	LINE	LINIJINĖ
+msg.phrase	BAR	STULPELINĖ
+msg.phrase	MIXED	MIŠRI
+msg.phrase	PIE	SKRITULINĖ
 msg.phrase	S:/	S:/
 msg.phrase	Folder	Aplankas
-msg.phrase	SAVE AS	IŠSAUGOTI KAIP
-msg.phrase	OPEN FILE	ATIDARYTI FAILĄ
+msg.phrase	SAVE AS	ĮRAŠYTI KAIP
+msg.phrase	OPEN FILE	ATVERTI FAILĄ
 msg.phrase	LibreOffice / CSV	LibreOffice / CSV
-msg.phrase	ODS  FODS  CSV	ODS FODS CSV
+msg.phrase	ODS  FODS  CSV	ODS  FODS  CSV
 msg.phrase	Name:	Vardas:
-msg.phrase	(type a name, or choose below)	(įveskite pavadinimą arba pasirinkite žemiau)
+msg.phrase	(type a name, or choose below)	(įrašykite vardą arba pasirinkite žemiau)
 msg.phrase	Name	Vardas
 msg.phrase	Size	Dydis
-msg.phrase	Enter=save  Left=up  Right/Enter on [DIR]=open  Tab=drive  Esc=cancel	Enter=išsaugoti Kairėn=aukštyn dešinėn/įvesti [DIR]=atidaryti Tab=vairuoti Esc=atšaukti
-msg.phrase	Enter=open  Left=up  Right/Enter on [DIR]=open  Tab=drive  Esc=cancel	Enter=atidaryti Kairėn=aukštyn dešinėn/įvesti [DIR]=atidaryti Tab=vairuoti Esc=atšaukti
-msg.phrase	Not enough memory.	Nepakanka atminties.
+msg.phrase	Enter=save  Left=up  Right/Enter on [DIR]=open  Tab=drive  Esc=cancel	Enter=įrašyti  ←=aukštyn  →/Enter ant [DIR]=atverti  Tab=diskas  Esc=atšaukti
+msg.phrase	Enter=open  Left=up  Right/Enter on [DIR]=open  Tab=drive  Esc=cancel	Enter=atverti  ←=aukštyn  →/Enter ant [DIR]=atverti  Tab=diskas  Esc=atšaukti
+msg.phrase	Not enough memory.	Trūksta atminties.
 msg.phrase	Overwrite	Perrašyti
-msg.phrase	Open	Atidaryti
-msg.phrase	The file is too large (limit 8 MB).	Failas per didelis (ne daugiau kaip 8 MB).
-msg.phrase	Not enough memory to read the file.	Nepakanka atminties failui skaityti.
-msg.phrase	Bad ZIP/ODS data.	Blogi ZIP / ODS duomenys.
+msg.phrase	Open	Atverti
+msg.phrase	The file is too large (limit 8 MB).	Failas per didelis (riba 8 MB).
+msg.phrase	Not enough memory to read the file.	Failui nuskaityti trūksta atminties.
+msg.phrase	Bad ZIP/ODS data.	Sugadinti ZIP/ODS duomenys.
 msg.phrase	CRC error in the ODS file.	CRC klaida ODS faile.
 msg.phrase	Unsupported or damaged file.	Nepalaikomas arba sugadintas failas.
 msg.phrase	Saved	Išsaugota
 msg.phrase	Exported	Eksportuota
-msg.phrase	Unsaved changes	Neišsaugoti pakeitimai
-msg.phrase	Save the current sheet before continuing?	Išsaugoti dabartinį lapą prieš tęsiant?
+msg.phrase	Unsaved changes	Neįrašyti pakeitimai
+msg.phrase	Save the current sheet before continuing?	Įrašyti dabartinį lapą prieš tęsiant?
 msg.phrase	New sheet	Naujas lapas
 msg.phrase	SGTRK	SGTRK
-msg.phrase	UNTITLED	BE pavadinimų
+msg.phrase	UNTITLED	UNTITLED
 msg.phrase	song is too large	daina per didelė
 msg.phrase	empty file	tuščias failas
 msg.phrase	not an SGT file	ne SGT failas
-msg.phrase	bad BPM	blogas BPM
-msg.phrase	bad speed	blogas greitis
-msg.phrase	bad title length	blogas pavadinimo ilgis
-msg.phrase	truncated title	sutrumpintas pavadinimas
-msg.phrase	bad character in title	blogas veikėjas pavadinime
-msg.phrase	truncated order	sutrumpinta tvarka
-msg.phrase	bad order length	blogas užsakymo ilgis
-msg.phrase	bad pattern number in order	netinkamas modelio numeris
-msg.phrase	truncated pattern list	sutrumpintas šablonų sąrašas
-msg.phrase	bad pattern count	blogas modelių skaičius
-msg.phrase	bad pattern index	blogas modelio indeksas
-msg.phrase	duplicate pattern	pasikartojantis modelis
-msg.phrase	truncated pattern data	sutrumpinti šablono duomenys
-msg.phrase	invalid pattern data	neteisingi modelio duomenys
-msg.phrase	trailing data in file	faile esantys duomenys
-msg.phrase	order refers to a missing pattern	užsakymas nurodo trūkstamą šabloną
+msg.phrase	bad BPM	netinkamas BPM
+msg.phrase	bad speed	netinkamas greitis
+msg.phrase	bad title length	netinkamas pavadinimo ilgis
+msg.phrase	truncated title	nukirstas pavadinimas
+msg.phrase	bad character in title	netinkamas simbolis pavadinime
+msg.phrase	truncated order	nukirsta eilė
+msg.phrase	bad order length	netinkamas eilės ilgis
+msg.phrase	bad pattern number in order	netinkamas pattern numeris eilėje
+msg.phrase	truncated pattern list	nukirstas pattern sąrašas
+msg.phrase	bad pattern count	netinkamas pattern skaičius
+msg.phrase	bad pattern index	netinkamas pattern indeksas
+msg.phrase	duplicate pattern	pasikartojantis pattern
+msg.phrase	truncated pattern data	nukirsti pattern duomenys
+msg.phrase	invalid pattern data	netinkami pattern duomenys
+msg.phrase	trailing data in file	pertekliniai duomenys failo gale
+msg.phrase	order refers to a missing pattern	eilė nurodo neesantį pattern
 msg.phrase	A:/	A:/
 msg.phrase	(untitled)	(be pavadinimo)
-msg.phrase	Ready. Press F1 for help.	Paruošta. Norėdami gauti pagalbos, paspauskite F1.
-msg.phrase	Follow OFF	Sekite OFF
-msg.phrase	Nothing to undo	Nėra ko anuliuoti
-msg.phrase	Undo	Anuliuoti
-msg.phrase	Note OFF	Pastaba IŠJUNGTA
-msg.phrase	Set an effect letter first	Pirmiausia nustatykite efekto raidę
-msg.phrase	Effect cleared	Efektas išvalytas
-msg.phrase	Parameter cleared	Parametras išvalytas
-msg.phrase	Note cleared	Pastaba išvalyta
-msg.phrase	Instrument cleared	Priemonė išvalyta
-msg.phrase	Volume cleared	Tomas išvalytas
-msg.phrase	Order list is full	Užsakymų sąrašas pilnas
-msg.phrase	Order inserted	Užsakymas įdėtas
-msg.phrase	Cannot delete the last order	Negalima ištrinti paskutinio užsakymo
-msg.phrase	Order deleted	Užsakymas ištrintas
-msg.phrase	Playing song	Groja daina
-msg.phrase	Stopped	Sustojo
+msg.phrase	Ready. Press F1 for help.	Paruošta. F1 – žinynas.
+msg.phrase	Follow OFF	Sekimas IŠJ
+msg.phrase	Nothing to undo	Nėra ką atšaukti
+msg.phrase	Undo	Atšaukta
+msg.phrase	Note OFF	Note off
+msg.phrase	Set an effect letter first	Pirmiausia įveskite efekto raidę
+msg.phrase	Effect cleared	Efektas ištrintas
+msg.phrase	Parameter cleared	Parametras ištrintas
+msg.phrase	Note cleared	Nata ištrinta
+msg.phrase	Instrument cleared	Instrumentas ištrintas
+msg.phrase	Volume cleared	Garsumas ištrintas
+msg.phrase	Order list is full	Eilės sąrašas pilnas
+msg.phrase	Order inserted	Pozicija įterpta
+msg.phrase	Cannot delete the last order	Paskutinės pozicijos ištrinti negalima
+msg.phrase	Order deleted	Pozicija ištrinta
+msg.phrase	Playing song	Grojama daina
+msg.phrase	Stopped	Sustabdyta
 msg.phrase	New song	Nauja daina
-msg.phrase	Discard unsaved changes and start a new song? (Y/N)	Atmesti neišsaugotus pakeitimus ir pradėti naują dainą? (Y/N)
-msg.phrase	Discard unsaved changes and open a song? (Y/N)	Atmesti neišsaugotus pakeitimus ir atidaryti dainą? (Y/N)
-msg.phrase	Discard unsaved changes and quit? (Y/N)	Atmesti neišsaugotus pakeitimus ir išeiti? (Y/N)
-msg.phrase	Song settings updated	Dainos nustatymai atnaujinti
-msg.phrase	Filename is empty	Failo pavadinimas tuščias
-msg.phrase	Save cancelled	Išsaugojimas atšauktas
-msg.phrase	Open cancelled	Atidarymas atšauktas
-msg.phrase	Edit ON	Redaguoti ĮJUNGTA
-msg.phrase	Edit OFF	Redaguoti IŠJUNGTA
-msg.phrase	Follow ON	Sekite ĮJUNGTA
-msg.phrase	Edit is OFF. Press F8 to edit.	Redagavimas IŠJUNGTAS. Norėdami redaguoti, paspauskite F8.
+msg.phrase	Discard unsaved changes and start a new song? (Y/N)	Atmesti neįrašytus pakeitimus ir pradėti naują dainą? (Y/N)
+msg.phrase	Discard unsaved changes and open a song? (Y/N)	Atmesti neįrašytus pakeitimus ir atverti dainą? (Y/N)
+msg.phrase	Discard unsaved changes and quit? (Y/N)	Atmesti neįrašytus pakeitimus ir baigti? (Y/N)
+msg.phrase	Song settings updated	Dainos nuostatos pakeistos
+msg.phrase	Filename is empty	Failo vardas tuščias
+msg.phrase	Save cancelled	Įrašymas atšauktas
+msg.phrase	Open cancelled	Atvėrimas atšauktas
+msg.phrase	Edit ON	Taisymas ĮJ
+msg.phrase	Edit OFF	Taisymas IŠJ
+msg.phrase	Follow ON	Sekimas ĮJ
+msg.phrase	Edit is OFF. Press F8 to edit.	Taisymas išjungtas. Spauskite F8.
 msg.phrase	I/O error	I/O klaida
 msg.phrase	file is too large	failas per didelis
-msg.phrase	truncated file	sutrumpintas failas
+msg.phrase	truncated file	nukirstas failas
 msg.phrase	SINE PAD	SINE PAD
-msg.phrase	TRIANGLE	TRIKAMPIS
-msg.phrase	SAW LEAD	Pjūklo švinas
-msg.phrase	SQUARE	Kvadratas
-msg.phrase	PULSE 25	PULSAS 25
-msg.phrase	ORGAN	ORGANAI
-msg.phrase	BASS	BASAS
-msg.phrase	BELL	VARPAS
-msg.phrase	NOISE	TRIUKŠMAS
+msg.phrase	TRIANGLE	TRIANGLE
+msg.phrase	SAW LEAD	SAW LEAD
+msg.phrase	SQUARE	SQUARE
+msg.phrase	PULSE 25	PULSE 25
+msg.phrase	ORGAN	ORGAN
+msg.phrase	BASS	BASS
+msg.phrase	BELL	BELL
+msg.phrase	NOISE	NOISE
 msg.phrase	SINE	SINE
-msg.phrase	SAW	Pjūklas
-msg.phrase	OFF	IŠJUNGTA
-msg.phrase	ON	ĮJUNGTA
-msg.phrase	ROW	EILUTĖ
-msg.phrase	CHAN LEVEL	KANALŲ LYGIS
-msg.phrase	F1 HELP F2 SONG	F1 PAGALBA F2 DAINA
-msg.phrase	F3 INS  F4 SAVE	F3 INS F4 SAVE
+msg.phrase	SAW	SAW
+msg.phrase	OFF	OFF
+msg.phrase	ON	ON
+msg.phrase	ROW	ROW
+msg.phrase	CHAN LEVEL	CHAN LEVEL
+msg.phrase	F1 HELP F2 SONG	F1 HELP F2 SONG
+msg.phrase	F3 INS  F4 SAVE	F3 INS  F4 SAVE
 msg.phrase	F5 PLAY F6 PAT	F5 PLAY F6 PAT
-msg.phrase	F7 STOP F8 EDIT	F7 STOP F8 REDAGUOTI
+msg.phrase	F7 STOP F8 EDIT	F7 STOP F8 EDIT
 msg.phrase	F9/F10 OCTAVE	F9/F10 OCTAVE
-msg.phrase	F11 FOLLOW	F11 SEKITE
-msg.phrase	F12 QUIT	F12 UŽDARYTI
-msg.phrase	SPACE PLAY/STOP	PLAY/STOP
-msg.phrase	CTRL-S SAVE	CTRL-S IŠSAUGOTI
-msg.phrase	CTRL-O OPEN	CTRL-O ATIDARYTA
-msg.phrase	C-N NEW C-Z UNDO	C-N NAUJAS C-Z UNDO
+msg.phrase	F11 FOLLOW	F11 FOLLOW
+msg.phrase	F12 QUIT	F12 QUIT
+msg.phrase	SPACE PLAY/STOP	SPACE PLAY/STOP
+msg.phrase	CTRL-S SAVE	CTRL-S SAVE
+msg.phrase	CTRL-O OPEN	CTRL-O OPEN
+msg.phrase	C-N NEW C-Z UNDO	C-N NEW C-Z UNDO
 msg.phrase	C-C STOP	C-C STOP
-msg.phrase	#TRANSPORT AND FILES	#TRANSPORTAS IR FAILAI
-msg.phrase	#ORDER LIST	#UŽSAKYMAI SĄRAŠAS
-msg.phrase	#DISPLAY	#DISPLAY
-msg.phrase	#EDITING	#REDAGAVIMAS
-msg.phrase	#EFFECTS (parameter is hexadecimal)	#EFFECTS (parametras yra šešioliktainis)
-msg.phrase	LEFT/RIGHT PAGE   ENTER OR F1 CLOSE	KAIRĖSIS/DEŠINĖSIS PUSLAPIO ĮVEIKTI ARBA F1 UŽDARYTI
-msg.phrase	SONG SETTINGS	DAINŲ NUSTATYMAI
-msg.phrase	UP/DOWN SELECT   LEFT/RIGHT ADJUST   ENTER/F2 CLOSE	AUKŠTYN/ŽEMYN PASIRINKITE KAIRĮ/DEŠINĘ REGULIUOTI ENTER/F2 UŽDARYTI
-msg.phrase	Type to edit the title. Backspace deletes the last character.	Įveskite norėdami redaguoti pavadinimą. Backspace ištrina paskutinį simbolį.
-msg.phrase	BPM range 32..255. Speed range 1..31.	BPM diapazonas 32...255. Greičio diapazonas 1...31.
-msg.phrase	Pattern effects can also change speed and BPM while playing.	Šablono efektai taip pat gali keisti greitį ir BPM žaidžiant.
+msg.phrase	#TRANSPORT AND FILES	#GROJIMAS IR FAILAI
+msg.phrase	#ORDER LIST	#EILĖS SĄRAŠAS
+msg.phrase	#DISPLAY	#RODINYS
+msg.phrase	#EDITING	#TAISYMAS
+msg.phrase	#EFFECTS (parameter is hexadecimal)	#EFEKTAI (parametras šešioliktainis)
+msg.phrase	LEFT/RIGHT PAGE   ENTER OR F1 CLOSE	LEFT/RIGHT PAGE   ENTER OR F1 CLOSE
+msg.phrase	SONG SETTINGS	DAINOS NUOSTATOS
+msg.phrase	UP/DOWN SELECT   LEFT/RIGHT ADJUST   ENTER/F2 CLOSE	UP/DOWN SELECT   LEFT/RIGHT ADJUST   ENTER/F2 CLOSE
+msg.phrase	Type to edit the title. Backspace deletes the last character.	Rašykite, kad pakeistumėte pavadinimą. Backspace trina paskutinį simbolį.
+msg.phrase	BPM range 32..255. Speed range 1..31.	BPM nuo 32 iki 255. Greitis nuo 1 iki 31.
+msg.phrase	Pattern effects can also change speed and BPM while playing.	Pattern efektai grojant taip pat gali keisti greitį ir BPM.
 msg.phrase	INSTRUMENTS	INSTRUMENTAI
-msg.phrase	UP/DOWN SELECT   SPACE PREVIEW   ENTER USE   F3 CLOSE	AUKŠTYN/ŽEMYN PASIRINKITE ERDVĄ PERŽIŪRA Įveskite NAUDOTI F3 UŽDARYTI
-msg.phrase	All four channels use wavetable synthesis.	Visi keturi kanalai naudoja bangų sintezę.
-msg.phrase	Preview plays C-4 on the track under the edit cursor.	Peržiūra leidžia C-4 takelyje po redagavimo žymekliu.
-msg.phrase	SAVE SONG AS	IŠSAUGOTI DAINĄ KAIP
-msg.phrase	ENTER SAVE   F4 OR CTRL-C CANCEL	Įveskite SAVE F4 ARBA CTRL-C ATŠAUKTI
-msg.phrase	Directory:	Katalogas:
-msg.phrase	File name:	Failo pavadinimas:
+msg.phrase	UP/DOWN SELECT   SPACE PREVIEW   ENTER USE   F3 CLOSE	UP/DOWN SELECT   SPACE PREVIEW   ENTER USE   F3 CLOSE
+msg.phrase	All four channels use wavetable synthesis.	Visi keturi kanalai naudoja wavetable sintezę.
+msg.phrase	Preview plays C-4 on the track under the edit cursor.	Klausymas groja C-4 takelyje po žymekliu.
+msg.phrase	SAVE SONG AS	ĮRAŠYTI DAINĄ KAIP
+msg.phrase	ENTER SAVE   F4 OR CTRL-C CANCEL	ENTER SAVE   F4 OR CTRL-C CANCEL
+msg.phrase	Directory:	Aplankas:
+msg.phrase	File name:	Failo vardas:
 msg.phrase	The extension .SGT is added automatically.	Plėtinys .SGT pridedamas automatiškai.
-msg.phrase	An existing file can be overwritten.	Esamas failas gali būti perrašytas.
-msg.phrase	OPEN SONG	ATVIRAS DAINA
-msg.phrase	ENTER OPEN  BS PARENT  CTRL-O/CTRL-C CANCEL	Įveskite OPEN BS PARENT CTRL-O/CTRL-C ATŠAUKTI
+msg.phrase	An existing file can be overwritten.	Esamą failą galima perrašyti.
+msg.phrase	OPEN SONG	ATVERTI DAINĄ
+msg.phrase	ENTER OPEN  BS PARENT  CTRL-O/CTRL-C CANCEL	ENTER OPEN  BS PARENT  CTRL-O/CTRL-C CANCEL
 msg.phrase	(no .SGT files in this folder)	(šiame aplanke nėra .SGT failų)
-msg.phrase	CONFIRM	PATVIRTINTI
-msg.phrase	Y = YES   N / ENTER / CTRL-C = NO	Y = TAIP N / ENTER / CTRL-C = NE
-msg.phrase	Y = yes        N = no	Y = taip N = ne
+msg.phrase	CONFIRM	PATVIRTINIMAS
+msg.phrase	Y = YES   N / ENTER / CTRL-C = NO	Y = YES   N / ENTER / CTRL-C = NO
+msg.phrase	Y = yes        N = no	Y = taip        N = ne
 msg.phrase	C-	C-
 msg.phrase	C#	C#
 msg.phrase	D-	D-
 msg.phrase	D#	D#
-msg.phrase	E-	el.
+msg.phrase	E-	E-
 msg.phrase	F-	F-
 msg.phrase	F#	F#
 msg.phrase	G-	G-
@@ -909,197 +905,197 @@ msg.phrase	A#	A#
 msg.phrase	B-	B-
 msg.phrase	A:/dir/name	A:/vad./vardas
 msg.phrase	MThd	MThd
-msg.phrase	broken MThd	sugedęs MThd
+msg.phrase	broken MThd	sugadintas MThd
 msg.phrase	MIDI IMPORT	MIDI IMPORTAS
 msg.phrase	MTrk	MTrk
-msg.phrase	broken delta time	sulaužytas delta laikas
-msg.phrase	broken running status	sugedo bėgimo būsena
-msg.phrase	broken meta event	sulaužytas meta įvykis
-msg.phrase	broken sysex event	sugedęs sysex įvykis
-msg.phrase	broken channel event	sugedęs kanalo įvykis
-msg.phrase	SMF output is too small	SMF išvestis per maža
-msg.phrase	SMF output is too large	SMF išvestis per didelė
+msg.phrase	broken delta time	sugadintas delta time
+msg.phrase	broken running status	sugadintas running status
+msg.phrase	broken meta event	sugadintas meta įvykis
+msg.phrase	broken sysex event	sugadintas SysEx įvykis
+msg.phrase	broken channel event	sugadintas kanalo įvykis
+msg.phrase	SMF output is too small	SMF rezultatas per mažas
+msg.phrase	SMF output is too large	SMF rezultatas per didelis
 msg.phrase	the song is too long for SMF	daina per ilga SMF
 msg.phrase	TRK1	TRK1
 msg.phrase	%s%d	%s%d
 msg.phrase	%s%d:%s%d	%s%d:%s%d
 msg.phrase	%s	%s
 msg.phrase	%.40s%s	%.40s%s
-msg.phrase	  [%s]   %s	[%s] %s
-msg.phrase	EDIT  	REDAGUOTI
-msg.phrase	READY 	PASIRUOŠTA
-msg.phrase	%4d 	%4d
+msg.phrase	  [%s]   %s	  [%s]   %s
+msg.phrase	EDIT  	TAISA
+msg.phrase	READY 	PARUO
+msg.phrase	%4d 	%4d 
 msg.phrase	%s Sum %.7g N %ld%s	%s Suma %.7g N %ld%s
-msg.phrase	ARROWS      move the cell cursor\n	RODYKLĖS perkelia langelio žymeklį
-msg.phrase	SHIFT+ARR   extend the selection (for graphs/copy)\n	SHIFT + ARR išplėsti pasirinkimą (grafams / kopijai)
-msg.phrase	ENTER       edit the cell; in edit, commit and move down\n	ENTER redaguoti langelį; redaguodami, įsipareigokite ir pereikite žemyn
-msg.phrase	TAB         next cell    SHIFT+TAB  previous cell\n	Kitas langelis TAB SHIFT + TAB ankstesnis langelis
-msg.phrase	DELETE      clear the selected cell(s)    ESC  cancel\n	DELETE išvalyti pasirinktą langelį (-ius) ESC atšaukti
-msg.phrase	PGUP/PGDN   move one screen    HOME/END  first/last column\n	PGUP/PGDN perkelti vieną ekraną HOME/END pirmas / paskutinis stulpelis
-msg.phrase	CTRL+HOME   A1    CTRL+END  last used cell\n	CTRL+HOME A1 CTRL+END paskutinį kartą naudotas langelis
-msg.phrase	F1 help  F2 edit  F3 copy  F4 paste  F5 goto  F6 colour\n	F1 pagalba F2 redaguoti F3 kopijuoti F4 įklijuoti F5 gavo F6 spalvą
-msg.phrase	F7 auto-fit  F8 background  F9 recalc  F10 graph  F11 save  F12 menu\n	F7 automatinis pritaikymas F8 fonas F9 perskaičiuoti F10 grafikas F11 išsaugoti F12 meniu
-msg.phrase	SHIFT+F1 about  SHIFT+F2 row height  SHIFT+F3 column width\n	SHIFT+F1 apie SHIFT+F2 eilutės aukštį SHIFT+F3 stulpelio plotį
-msg.phrase	SHIFT+F4 select all  SHIFT+F10 graph range  SHIFT+F11 save as\n	SHIFT+F4 pasirinkti visą SHIFT+F10 diagramų diapazoną SHIFT+F11 išsaugoti kaip
-msg.phrase	CTRL+F1 new  CTRL+F2 open  CTRL+F3 save  CTRL+F4 save as\n	CTRL+F1 naujas CTRL+F2 atidaryti CTRL+F3 išsaugoti CTRL+F4 išsaugoti kaip
-msg.phrase	CTRL+F5 export CSV  CTRL+F6 export ODS  ALT+F12 quit\n	CTRL+F5 eksportuoti CSV CTRL+F6 eksportuoti ODS ALT+F12 išeiti
-msg.phrase	Bottom 2 lines: function keys; [SHIFT]/[CTRL]/[ALT] like the filer\n	Apačios 2 eilutės: funkciniai klavišai; [SHIFT]/[CTRL]/[ALT] kaip failas
-msg.phrase	CTRL+S save  CTRL+O open  CTRL+N new  CTRL+C/V/X copy/paste/cut\n	CTRL+S išsaugoti CTRL+O atidaryti CTRL+N naujas CTRL+C/V/X kopijuoti/įklijuoti/iškirpti
-msg.phrase	CTRL+G goto    /  open the menu (1 File, 2 Edit, ...)\n	CTRL + G pereikite / atidarykite meniu (1 failas, 2 redagavimas, ...)
-msg.phrase	Built-in functions: SUM AVERAGE MIN MAX COUNT COUNTA\n	Integruotos funkcijos: SUM AVERAGE MIN MAX COUNTA
-msg.phrase	PRODUCT ABS SQRT INT ROUND MOD POWER IF AND OR NOT\n	PRODUKTAS ABS SQRT INT ROUND MOD POWER JEI IR AR NE
-msg.phrase	IFERROR LEN LEFT RIGHT MID UPPER LOWER TRIM CONCATENATE PI\n	IFERROR LEN LEFT LEFT DEŠININĖ VIDURĖ VIRŠUTINĖ APATINĖ APDARBOS SUJUNGTA PI
-msg.phrase	Cell refs: A1, $A$1, A1:B10.  Formulas begin with '='.\n	Langelių nuorodos: A1, $A$1, A1:B10.  Formulės prasideda '='.
-msg.phrase	Files: .ods (LibreOffice), .fods (flat XML), .csv\n	Failai: .ods (LibreOffice), .fods (plokščias XML), .csv
-msg.phrase	ODS/FODS keeps formulas, widths, heights and colours.\n	ODS/FODS išlaiko formules, plotį, aukštį ir spalvas.
-msg.phrase	CSV keeps values and formulas (no colours/heights).\n	CSV išlaiko reikšmes ir formules (be spalvų / aukščio).
-msg.phrase	Graph: select a range, press F10, and choose Line/Bar/Mixed/Pie.\n	Grafikas: pasirinkite diapazoną, paspauskite F10 ir pasirinkite Line/Bar/Mixed/Pie.
-msg.phrase	SGCALC for sgnano\n	SGCALC skirtas sgnano
+msg.phrase	ARROWS      move the cell cursor\n	RODYKLĖS    perkelti langelio žymeklį\n
+msg.phrase	SHIFT+ARR   extend the selection (for graphs/copy)\n	SHIFT+ROD   išplėsti žymėjimą (diagramoms/kopijavimui)\n
+msg.phrase	ENTER       edit the cell; in edit, commit and move down\n	ENTER       taisyti langelį; taisant – patvirtinti ir žemyn\n
+msg.phrase	TAB         next cell    SHIFT+TAB  previous cell\n	TAB         kitas langelis    SHIFT+TAB  ankstesnis langelis\n
+msg.phrase	DELETE      clear the selected cell(s)    ESC  cancel\n	DELETE      išvalyti pažymėtus langelius    ESC  atšaukti\n
+msg.phrase	PGUP/PGDN   move one screen    HOME/END  first/last column\n	PGUP/PGDN   vienas ekranas    HOME/END  pirmas/paskutinis stulpelis\n
+msg.phrase	CTRL+HOME   A1    CTRL+END  last used cell\n	CTRL+HOME   A1    CTRL+END  paskutinis naudotas langelis\n
+msg.phrase	F1 help  F2 edit  F3 copy  F4 paste  F5 goto  F6 colour\n	F1 žinynas  F2 taisyti  F3 kopijuoti  F4 įklijuoti  F5 eiti  F6 spalva\n
+msg.phrase	F7 auto-fit  F8 background  F9 recalc  F10 graph  F11 save  F12 menu\n	F7 pritaikyti  F8 fonas  F9 perskaič.  F10 diagrama  F11 įrašyti  F12 meniu\n
+msg.phrase	SHIFT+F1 about  SHIFT+F2 row height  SHIFT+F3 column width\n	SHIFT+F1 apie  SHIFT+F2 eilutės aukštis  SHIFT+F3 stulpelio plotis\n
+msg.phrase	SHIFT+F4 select all  SHIFT+F10 graph range  SHIFT+F11 save as\n	SHIFT+F4 žymėti viską  SHIFT+F10 diagramos sritis  SHIFT+F11 įrašyti kaip\n
+msg.phrase	CTRL+F1 new  CTRL+F2 open  CTRL+F3 save  CTRL+F4 save as\n	CTRL+F1 naujas  CTRL+F2 atverti  CTRL+F3 įrašyti  CTRL+F4 įrašyti kaip\n
+msg.phrase	CTRL+F5 export CSV  CTRL+F6 export ODS  ALT+F12 quit\n	CTRL+F5 eksportuoti CSV  CTRL+F6 eksportuoti ODS  ALT+F12 baigti\n
+msg.phrase	Bottom 2 lines: function keys; [SHIFT]/[CTRL]/[ALT] like the filer\n	Apatinės 2 eilutės: funkciniai klavišai; [SHIFT]/[CTRL]/[ALT] kaip filer\n
+msg.phrase	CTRL+S save  CTRL+O open  CTRL+N new  CTRL+C/V/X copy/paste/cut\n	CTRL+S įrašyti  CTRL+O atverti  CTRL+N naujas  CTRL+C/V/X kop./įkl./iškirp.\n
+msg.phrase	CTRL+G goto    /  open the menu (1 File, 2 Edit, ...)\n	CTRL+G eiti    /  atverti meniu (1 Failas, 2 Taisa, ...)\n
+msg.phrase	Built-in functions: SUM AVERAGE MIN MAX COUNT COUNTA\n	Įtaisytosios funkcijos: SUM AVERAGE MIN MAX COUNT COUNTA\n
+msg.phrase	PRODUCT ABS SQRT INT ROUND MOD POWER IF AND OR NOT\n	PRODUCT ABS SQRT INT ROUND MOD POWER IF AND OR NOT\n
+msg.phrase	IFERROR LEN LEFT RIGHT MID UPPER LOWER TRIM CONCATENATE PI\n	IFERROR LEN LEFT RIGHT MID UPPER LOWER TRIM CONCATENATE PI\n
+msg.phrase	Cell refs: A1, $A$1, A1:B10.  Formulas begin with '='.\n	Langelių nuorodos: A1, $A$1, A1:B10.  Formulės prasideda '='.\n
+msg.phrase	Files: .ods (LibreOffice), .fods (flat XML), .csv\n	Failai: .ods (LibreOffice), .fods (plokščias XML), .csv\n
+msg.phrase	ODS/FODS keeps formulas, widths, heights and colours.\n	ODS/FODS išsaugo formules, pločius, aukščius ir spalvas.\n
+msg.phrase	CSV keeps values and formulas (no colours/heights).\n	CSV išsaugo tik reikšmes ir formules (be spalvų/aukščių).\n
+msg.phrase	Graph: select a range, press F10, and choose Line/Bar/Mixed/Pie.\n	Diagrama: pažymėkite sritį, F10, tada Linijinė/Stulpelinė/Mišri/Skritulinė.\n
+msg.phrase	SGCALC for sgnano\n	SGCALC for sgnano\n
 msg.phrase	Version 	Versija
-msg.phrase	A Lotus 1-2-3 style spreadsheet as an SGX program.\n\n	Lotus 1-2-3 stiliaus skaičiuoklė kaip SGX programa.
+msg.phrase	A Lotus 1-2-3 style spreadsheet as an SGX program.\n\n	Lotus 1-2-3 stiliaus skaičiuoklė kaip SGX programa.\n\n
 msg.phrase	SGX ABI %u.%u\n	SGX ABI %u.%u
-msg.phrase	Screen mode 3: text + CLUT8 FB (lowres disabled)\n	3 ekrano režimas: tekstas + CLUT8 FB (žemi dažniai išjungti)
+msg.phrase	Screen mode 3: text + CLUT8 FB (lowres disabled)\n	Ekrano režimas 3: tekstas + CLUT8 FB (be lowres sluoksnio)\n
 msg.phrase	Sheet: %d rows x %d columns\n	Lapas: %d eilučių x %d stulpelių
-msg.phrase	Formats: .ods / .fods (LibreOffice), .csv\n\n	Formatai: .ods / .fods (LibreOffice), .csv
-msg.phrase	The grid is drawn on the text plane.\n	Tinklelis nubraižytas teksto plokštumoje.
-msg.phrase	Charts and the 640x480 background use the FB.\n\n	Diagramose ir 640 x 480 fone naudojamas FB.
+msg.phrase	Formats: .ods / .fods (LibreOffice), .csv\n\n	Formatai: .ods / .fods (LibreOffice), .csv\n\n
+msg.phrase	The grid is drawn on the text plane.\n	Tinklelis piešiamas teksto sluoksnyje.\n
+msg.phrase	Charts and the 640x480 background use the FB.\n\n	Diagramos ir 640x480 fonas naudoja FB.\n\n
 msg.phrase	%d %s	%d %s
-msg.phrase	Cannot store the cell (%d).	Negalima saugoti langelio (%d).
+msg.phrase	Cannot store the cell (%d).	Nepavyko įrašyti langelio (%d).
 msg.phrase	Copied %d x %d cells	Nukopijuota %d x %d langelių
 msg.phrase	Cleared %s	Išvalyta %s
-msg.phrase	'%s' is not a cell reference.	„%s“ nėra langelio nuoroda.
+msg.phrase	'%s' is not a cell reference.	'%s' nėra langelio nuoroda.
 msg.phrase	%d	%d
 msg.phrase	Column width = %d	Stulpelio plotis = %d
-msg.phrase	Row height = %d	Eilės aukštis = %d
-msg.phrase	Auto fit: %d column(s), %d row(s)	Automatinis pritaikymas: %d stulpelis (-iai), %d eilutė (-ės)
+msg.phrase	Row height = %d	Eilutės aukštis = %d
+msg.phrase	Auto fit: %d column(s), %d row(s)	Pritaikyti: stulpelių %d, eilučių %d
 msg.phrase	%2d	%2d
-msg.phrase	Cannot apply the colour (%d).	Negalima pritaikyti spalvos (%d).
+msg.phrase	Cannot apply the colour (%d).	Nepavyko pritaikyti spalvos (%d).
 msg.phrase	%s colour = %d	%s spalva = %d
-msg.phrase	Not a valid range.\nUse a range such as A1:C10.	Netinkamas diapazonas.\nNaudokite diapazoną, pvz., A1:C10.
-msg.phrase	Graph range %s	Grafiko diapazonas %s
+msg.phrase	Not a valid range.\nUse a range such as A1:C10.	Netinkama sritis.\nNurodykite sritį, pvz., A1:C10.
+msg.phrase	Graph range %s	Diagramos sritis %s
 msg.phrase	Graph: %s	Grafikas: %s
-msg.phrase	SGCALC: cannot set screen mode 3: %s\n	SGCALC: negalima nustatyti 3 ekrano režimo: %s
+msg.phrase	SGCALC: cannot set screen mode 3: %s\n	SGCALC: nepavyko nustatyti ekrano režimo 3: %s\n
 msg.phrase	%.2g	%.2g
 msg.phrase	%.6g	%.6g
-msg.phrase	%s  %.0f%%	%s %.0f%%
-msg.phrase	GRAPH  %s  %s	GRAFIKAS %s %s
+msg.phrase	%s  %.0f%%	%s  %.0f%%
+msg.phrase	GRAPH  %s  %s	DIAGRAMA  %s  %s
 msg.phrase	%s%s	%s%s
 msg.phrase	%s/%s	%s/%s
 msg.phrase	%.*s	%.*s
 msg.phrase	%.*s/	%.*s/
-msg.phrase	Cannot read %s\n%s	Neįmanoma perskaityti %s\n%s
+msg.phrase	Cannot read %s\n%s	Nepavyko nuskaityti %s\n%s
 msg.phrase	Folder: %s	Aplankas: %s
 msg.phrase	[DIR] %s	[DIR] %s
-msg.phrase	      %s	%s
+msg.phrase	      %s	      %s
 msg.phrase	%lu.%luM	%lu.%luM
 msg.phrase	%luK	%luK
 msg.phrase	%luB	%luB
-msg.phrase	BOOK1%s	KNYGA1%s
+msg.phrase	BOOK1%s	BOOK1%s
 msg.phrase	%c:/	%c:/
 msg.phrase	Unsupported extension.\nUse .csv, .ods or .fods.	Nepalaikomas plėtinys.\nNaudokite .csv, .ods arba .fods.
 msg.phrase	%s already exists.\nOverwrite it?	%s jau yra.\nPerrašyti?
-msg.phrase	%s may not be writable.\nTry anyway?	%s gali būti neįrašomas.\nVisgi pabandyti?
-msg.phrase	Unknown file type for %s	Nežinomas %s failo tipas
+msg.phrase	%s may not be writable.\nTry anyway?	Į %s gali nepavykti įrašyti.\nVis tiek bandyti?
+msg.phrase	Unknown file type for %s	Nežinomas failo tipas: %s
 msg.phrase	Unsupported file type.\nUse .csv, .ods or .fods.	Nepalaikomas failo tipas.\nNaudokite .csv, .ods arba .fods.
-msg.phrase	Cannot open %s\n%s	Nepavyko atidaryti %s\n%s
+msg.phrase	Cannot open %s\n%s	Nepavyko atverti %s\n%s
 msg.phrase	%s is a folder.	%s yra aplankas.
 msg.phrase	Cannot import %s\n%s	Nepavyko importuoti %s\n%s
-msg.phrase	Loaded %s	Įkeltas %s
+msg.phrase	Loaded %s	Įkelta: %s
 msg.phrase	Cannot build the %s file.	Nepavyko sukurti %s failo.
-msg.phrase	Cannot write %s\n%s	Nepavyksta parašyti %s\n%s
+msg.phrase	Cannot write %s\n%s	Nepavyko įrašyti %s\n%s
 msg.phrase	%s %s	%s %s
-msg.phrase	unsupported version %u	nepalaikoma versija %u
+msg.phrase	unsupported version %u	nepalaikoma versija (%u)
 msg.phrase	%d:%d:%d:%d:%d:%d	%d:%d:%d:%d:%d:%d
-msg.phrase	Octave %d	oktava %d
-msg.phrase	Note %s	Pastaba %s
+msg.phrase	Octave %d	Oktava %d
+msg.phrase	Note %s	Nata %s
 msg.phrase	Instrument %d	Instrumentas %d
-msg.phrase	Volume %s	Apimtis %s
+msg.phrase	Volume %s	Garsumas %s
 msg.phrase	Effect %c	Efektas %c
 msg.phrase	Parameter %s	Parametras %s
-msg.phrase	Pattern %s	Raštas %s
-msg.phrase	Playing pattern %s	Žaidimo modelis %s
-msg.phrase	SAVE ERROR: %s	IŠSAUGOJIMO KLAIDA: %s
-msg.phrase	Saved %s	Išsaugotas %s
-msg.phrase	LOAD ERROR: %s	ĮKELIMO KLAIDA: %s
+msg.phrase	Pattern %s	Pattern %s
+msg.phrase	Playing pattern %s	Grojamas pattern %s
+msg.phrase	SAVE ERROR: %s	ĮRAŠYMO KLAIDA: %s
+msg.phrase	Saved %s	Įrašyta: %s
+msg.phrase	LOAD ERROR: %s	ĮKĖLIMO KLAIDA: %s
 msg.phrase	BPM %d	BPM %d
 msg.phrase	Speed %d	Greitis %d
-msg.phrase	Preview %s	Peržiūra %s
-msg.phrase	Instrument %s %s	Prietaisas %s %s
+msg.phrase	Preview %s	Klausyti %s
+msg.phrase	Instrument %s %s	Instrumentas %s %s
 msg.phrase	Overwrite %s? (Y/N)	Perrašyti %s? (Y/N)
-msg.phrase	 | BPM %s SPD %s 	| BPM %s SPD %s
-msg.phrase	 SGNO TRACKER 1.0 | 	SGNO TRACKER 1.0 |
-msg.phrase	FILE 	FAILAS
-msg.phrase	 PAT %s	PAT %s
-msg.phrase	 ORD %d/%d	UŽSAKYTI %d/%d
-msg.phrase	 INS %s 	INS %s
-msg.phrase	 OCT %d	SPAL %d
-msg.phrase	 EDIT %s	REDAGUOTI %s
-msg.phrase	ON 	ĮJUNGTA
-msg.phrase	 FOL %s	FOL %s
-msg.phrase	TRACK %d	TRAKAS %d
+msg.phrase	 | BPM %s SPD %s 	 | BPM %s SPD %s 
+msg.phrase	 SGNO TRACKER 1.0 | 	 SGNO TRACKER 1.0 | 
+msg.phrase	FILE 	FILE 
+msg.phrase	 PAT %s	 PAT %s
+msg.phrase	 ORD %d/%d	 ORD %d/%d
+msg.phrase	 INS %s 	 INS %s 
+msg.phrase	 OCT %d	 OCT %d
+msg.phrase	 EDIT %s	 EDIT %s
+msg.phrase	ON 	ON 
+msg.phrase	 FOL %s	 FOL %s
+msg.phrase	TRACK %d	TRACK %d
 msg.phrase	%c%s	%c%s
 msg.phrase	%s %s %s %s	%s %s %s %s
-msg.phrase	%s 	%s
+msg.phrase	%s 	%s 
 msg.phrase	%d %s %s	%d %s %s
-msg.phrase	ORDER %d/%d	UŽSAKYTI %d/%d
-msg.phrase	PAT   %s	PAT %s
+msg.phrase	ORDER %d/%d	ORDER %d/%d
+msg.phrase	PAT   %s	PAT   %s
 msg.phrase	INS %s %s	INS %s %s
-msg.phrase	OCT %d  EDIT %s	OCT %d REDAGUOTI %s
-msg.phrase	FOLLOW %s	SEKITE %s
-msg.phrase	PLAYING  ORD %d/%d  PAT %s  ROW %s/%d  SPD %s  BPM %d  F7 STOP	GROJIMO KARDAS %d/%d PAT %s EILUTĖ %s/%d SPD %s BPM %d F7 STOP
-msg.phrase	READY  EDIT %s  OCT %d  F1 HELP  F5 PLAY  CTRL-S SAVE	READY (PARUOŠTAS) REDAGUOTI %s OCT %d F1 PAGALBA F5 PAŽEISTI CTRL-S IŠSAUGOTI
-msg.phrase	 %s 	%s
-msg.phrase	  F5          Play the song from the current order	F5 Leisti dainą iš dabartinės tvarkos
-msg.phrase	  F6          Play the current pattern	F6 Leisti dabartinį šabloną
-msg.phrase	  F7/Ctrl-C   Stop playback	F7/Ctrl-C Sustabdyti atkūrimą
-msg.phrase	  Space       Play / stop	Space Play / stop
-msg.phrase	  F4          Save as	F4 Išsaugoti kaip
-msg.phrase	  Ctrl-S      Save (asks for a name if new)	Ctrl-S Išsaugoti (prašo įvesti vardą, jei naujas)
-msg.phrase	  Ctrl-O      Open a song	Ctrl-O Atidaryti dainą
-msg.phrase	  Ctrl-N      New song	Ctrl-N Nauja daina
-msg.phrase	  F12         Quit (confirmation if modified)	F12 Baigti (patvirtinimas, jei pakeistas)
-msg.phrase	  [ ]         Previous / next order entry	[ ] Ankstesnis / kitas užsakymo įrašas
-msg.phrase	  { }         Insert / delete an order entry	{ } Įterpti / ištrinti užsakymo įrašą
-msg.phrase	  - +         Change the pattern in the entry	- + Pakeiskite šabloną įraše
-msg.phrase	  F11         Follow playback (turns off on manual move)	F11 Stebėti atkūrimą (išsijungia rankiniu būdu judant)
-msg.phrase	  F1          Help; Left/Right changes page	F1 Pagalba; Kairė/dešinė keičia puslapį
-msg.phrase	  F8          Toggle edit mode	F8 Perjungti redagavimo režimą
-msg.phrase	  Arrows      Move the cursor	Rodyklės Perkelkite žymeklį
-msg.phrase	  PgUp/PgDn   Jump 16 rows	PgUp/PgDn Peršokti 16 eilučių
-msg.phrase	  Home/End    First / last row	Pagrindinis / Pabaiga Pirma / paskutinė eilutė
-msg.phrase	  F9/F10      Octave down / up	F9/F10 oktava žemyn / aukštyn
-msg.phrase	  Z S X D C V G B H N J M      lower piano row	Z S X D C V G B H N J M žemutinė fortepijono eilė
-msg.phrase	  Q 2 W 3 E R 5 T 6 Y 7 U      upper piano row	Q 2 W 3 E R 5 T 6 Y 7 U viršutinė fortepijono eilė
-msg.phrase	  1           Note off	1 Pastaba išjungta
-msg.phrase	  0 / Del     0 clears note/inst/fx; Del clears any	0 / Del 0 išvalo note/inst/fx; Del išvalo bet kurį
-msg.phrase	  Ctrl-Z      Undo the last pattern/order edit	Ctrl-Z Anuliuoti paskutinį šablono/užsakymo redagavimą
-msg.phrase	  Axy   Volume slide: up x, down y	„Axy Volume“ slankiklis: aukštyn x, žemyn y
-msg.phrase	  Cxx   Note cut after xx ticks	Cxx Pastaba iškirpta po xx erkių
-msg.phrase	  Dxx   Set volume (00..7F)	Dxx Nustatyti garsumą (00..7F)
-msg.phrase	  Fxx   Speed if xx < 20, otherwise BPM	Fxx greitis, jei xx < 20, kitu atveju BPM
-msg.phrase	  Hxy   Arpeggio x, y semitones	Hxy Arpeggio x, y pustoniai
-msg.phrase	  Pxx   Pitch slide up	Pxx Pakelkite aukštyn
-msg.phrase	  Qxx   Pitch slide down	Qxx Žingsnis slysta žemyn
-msg.phrase	  F2 song settings, F3 instrument list	F2 dainų nustatymai, F3 instrumentų sąrašas
-msg.phrase	HELP %d/2	PAGALBA %d/2
-msg.phrase	  Title	Pavadinimas
-msg.phrase	  [%s_]	[%s_]
-msg.phrase	  BPM   : %d     (left/right -1/+1, -/+ -5/+5)	BPM: %d (kairė/dešinė -1/+1, -/+ -5/+5)
-msg.phrase	  Speed : %d ticks/row	Greitis: %d varnelė/eilutė
-msg.phrase	  Rows  : %d (fixed)	Eilutės: %d (fiksuota)
-msg.phrase	  Order : %d entries	Užsakymas: %d įrašai
-msg.phrase	  Patterns in use : %d	Naudojami raštai: %d
-msg.phrase	 #  NAME       WAVE       A   D   S   R  VOL	# PAVADINIMAS WAVE A D S R VOL
-msg.phrase	 %c %d  %-9s %-9s %3d %3d %3d %3d %4d	%c %d %-9s %-9s %3d %3d %3d %3d %4d
+msg.phrase	OCT %d  EDIT %s	OCT %d  EDIT %s
+msg.phrase	FOLLOW %s	FOLLOW %s
+msg.phrase	PLAYING  ORD %d/%d  PAT %s  ROW %s/%d  SPD %s  BPM %d  F7 STOP	PLAYING  ORD %d/%d  PAT %s  ROW %s/%d  SPD %s  BPM %d  F7 STOP
+msg.phrase	READY  EDIT %s  OCT %d  F1 HELP  F5 PLAY  CTRL-S SAVE	READY  EDIT %s  OCT %d  F1 HELP  F5 PLAY  CTRL-S SAVE
+msg.phrase	 %s 	 %s 
+msg.phrase	  F5          Play the song from the current order	  F5          Groti dainą nuo dabartinės pozicijos
+msg.phrase	  F6          Play the current pattern	  F6          Groti dabartinį pattern
+msg.phrase	  F7/Ctrl-C   Stop playback	  F7/Ctrl-C   Sustabdyti grojimą
+msg.phrase	  Space       Play / stop	  Space       Groti / sustabdyti
+msg.phrase	  F4          Save as	  F4          Įrašyti kaip
+msg.phrase	  Ctrl-S      Save (asks for a name if new)	  Ctrl-S      Įrašyti (naujai klausia vardo)
+msg.phrase	  Ctrl-O      Open a song	  Ctrl-O      Atverti dainą
+msg.phrase	  Ctrl-N      New song	  Ctrl-N      Nauja daina
+msg.phrase	  F12         Quit (confirmation if modified)	  F12         Baigti (klausia, jei yra pakeitimų)
+msg.phrase	  [ ]         Previous / next order entry	  [ ]         Ankstesnė / kita pozicija
+msg.phrase	  { }         Insert / delete an order entry	  { }         Įterpti / ištrinti poziciją
+msg.phrase	  - +         Change the pattern in the entry	  - +         Keisti pozicijos pattern
+msg.phrase	  F11         Follow playback (turns off on manual move)	  F11         Sekti grojimą (išsijungia judant ranka)
+msg.phrase	  F1          Help; Left/Right changes page	  F1          Žinynas; Kairėn/Dešinėn keičia puslapį
+msg.phrase	  F8          Toggle edit mode	  F8          Įjungti / išjungti taisymą
+msg.phrase	  Arrows      Move the cursor	  Rodyklės    Perkelti žymeklį
+msg.phrase	  PgUp/PgDn   Jump 16 rows	  PgUp/PgDn   Peršokti 16 eilučių
+msg.phrase	  Home/End    First / last row	  Home/End    Pirma / paskutinė eilutė
+msg.phrase	  F9/F10      Octave down / up	  F9/F10      Oktava žemyn / aukštyn
+msg.phrase	  Z S X D C V G B H N J M      lower piano row	  Z S X D C V G B H N J M      apatinė pianino eilė
+msg.phrase	  Q 2 W 3 E R 5 T 6 Y 7 U      upper piano row	  Q 2 W 3 E R 5 T 6 Y 7 U      viršutinė pianino eilė
+msg.phrase	  1           Note off	  1           Note off
+msg.phrase	  0 / Del     0 clears note/inst/fx; Del clears any	  0 / Del     0 trina natą/instr./efektą; Del lauką
+msg.phrase	  Ctrl-Z      Undo the last pattern/order edit	  Ctrl-Z      Atšaukti paskutinį pattern/eilės pakeitimą
+msg.phrase	  Axy   Volume slide: up x, down y	  Axy   Garsumo slinktis: aukštyn x, žemyn y
+msg.phrase	  Cxx   Note cut after xx ticks	  Cxx   Nutraukti natą po xx tick
+msg.phrase	  Dxx   Set volume (00..7F)	  Dxx   Nustatyti garsumą (00..7F)
+msg.phrase	  Fxx   Speed if xx < 20, otherwise BPM	  Fxx   Greitis, jei xx < 20, kitaip BPM
+msg.phrase	  Hxy   Arpeggio x, y semitones	  Hxy   Arpedžijo x, y pustoniai
+msg.phrase	  Pxx   Pitch slide up	  Pxx   Aukščio slinktis aukštyn
+msg.phrase	  Qxx   Pitch slide down	  Qxx   Aukščio slinktis žemyn
+msg.phrase	  F2 song settings, F3 instrument list	  F2 dainos nuostatos, F3 instrumentų sąrašas
+msg.phrase	HELP %d/2	HELP %d/2
+msg.phrase	  Title	  Pavadinimas
+msg.phrase	  [%s_]	  [%s_]
+msg.phrase	  BPM   : %d     (left/right -1/+1, -/+ -5/+5)	  BPM   : %d     (kairėn/dešinėn -1/+1, -/+ -5/+5)
+msg.phrase	  Speed : %d ticks/row	  Greitis : %d tick eilutei
+msg.phrase	  Rows  : %d (fixed)	  Eilutės : %d (pastovu)
+msg.phrase	  Order : %d entries	  Eilė  : %d pozicijų
+msg.phrase	  Patterns in use : %d	  Naudojami pattern : %d
+msg.phrase	 #  NAME       WAVE       A   D   S   R  VOL	 #  NAME       WAVE       A   D   S   R  VOL
+msg.phrase	 %c %d  %-9s %-9s %3d %3d %3d %3d %4d	 %c %d  %-9s %-9s %3d %3d %3d %3d %4d
 msg.phrase	Current instrument: %s %s	Dabartinis instrumentas: %s %s
-msg.phrase	  %s	%s
-msg.phrase	DIR  %s	REŽ. %s
-msg.phrase	 %c %s%s	%c %s%s
+msg.phrase	  %s	  %s
+msg.phrase	DIR  %s	DIR  %s
+msg.phrase	 %c %s%s	 %c %s%s
 msg.phrase	Files: %d	Failai: %d
 msg.phrase	%02d	%02d
 msg.phrase	%03d	%03d
 msg.phrase	%02X	%02X
-msg.phrase	SGNO TRACKER: incompatible SGX ABI\n	SGNO TRACKER: nesuderinamas SGX ABI
+msg.phrase	SGNO TRACKER: incompatible SGX ABI\n	SGNO TRACKER: nesuderinama SGX ABI\n
 msg.phrase	S: check: wait -- a file is being read or written	S: check: palauk – failas skaitomas arba rašomas
 msg.phrase	S: check: the drive is busy or not ready	S: patikrinkite: diskas užimtas arba neparengtas
 msg.phrase	nothing for this item (ContextMenu.cfg)	nieko šiam elementui (ContextMenu.cfg)
@@ -1120,43 +1116,72 @@ msg.prefix	compress	suspausti
 msg.prefix	render	pateikti
 msg.phrase	5 Macro	5 Makro
 msg.phrase	6 Help	6 Pagalba
-msg.phrase	Run current	Paleisti srovę
-msg.phrase	Run the macro at the cursor (#! header cell and the cells below it)	Paleiskite makrokomandą ties žymekliu (#! antraštės langelis ir langeliai po juo)
-msg.phrase	Run selection	Vykdykite pasirinkimą
-msg.phrase	Run the selected cells as one macro (top-left cell is the #! header)	Vykdykite pasirinktus langelius kaip vieną makrokomandą (viršutiniame kairiajame langelyje yra #! antraštė)
-msg.phrase	Run all	Paleisti visus
-msg.phrase	Run every macro in the sheet, top-left to bottom-right	Vykdykite kiekvieną lapo makrokomandą iš viršaus į kairę į apačią į dešinę
+msg.phrase	Run current	Vykdyti dabartinę
+msg.phrase	Run the macro at the cursor (#! header cell and the cells below it)	Vykdyti makrokomandą ties žymekliu (#! antraštės langelis ir langeliai po juo)
+msg.phrase	Run selection	Vykdyti pažymėtą
+msg.phrase	Run the selected cells as one macro (top-left cell is the #! header)	Vykdyti pažymėtus langelius kaip vieną makrokomandą (viršutinis kairysis – #! antraštė)
+msg.phrase	Run all	Vykdyti visas
+msg.phrase	Run every macro in the sheet, top-left to bottom-right	Vykdyti visas lapo makrokomandas nuo viršaus kairėje iki apačios dešinėje
 msg.phrase	Last error	Paskutinė klaida
 msg.phrase	Show the last macro error	Rodyti paskutinę makrokomandos klaidą
-msg.phrase	Macro	Makro
-msg.phrase	Macro: run #!ruby / #!python / #!basic cells	Makrokomandas: paleiskite #!ruby / #!python / #!pagrindinius langelius
-msg.phrase	Edit the cell (F2)	Redaguoti langelį (F2)
-msg.phrase	Fit widths/heights to the contents	Pritaikykite plotį/aukštį prie turinio
-msg.phrase	Last macro error	Paskutinė makro klaida
-msg.phrase	No macro error.	Nėra makro klaidų.
-msg.phrase	IME on	IME įjungtas
-msg.phrase	IME off	IME išjungtas
-msg.phrase	Macro: %s %s ...	Makro: %s %s ...
-msg.phrase	%s: this firmware cannot run macros (SGX ABI 5.10 or later)	%s: ši programinė įranga negali paleisti makrokomandų (SGX ABI 5.10 arba naujesnė versija)
-msg.phrase	Macro error: %s	Makro klaida: %s
-msg.phrase	Macro: %s done	Makrokomandas: %s atlikta
-msg.phrase	a macro is already running	makrokomanda jau veikia
-msg.phrase	this language is not available	ši kalba nepasiekiama
-msg.phrase	not enough memory	nepakanka atminties
-msg.phrase	the macro stopped with an error	makrokomanda sustojo su klaida
-msg.phrase	Macro error %s: %s	Makro klaida %s: %s
-msg.phrase	Macro: not enough memory	Makrokomandas: nepakanka atminties
-msg.phrase	Macro: the cursor is not on a macro (a #!ruby / #!python / #!basic cell or the cells below it)	Makrokomandas: žymeklis yra ne ant makrokomandos (#!ruby / #!python / #!pagrindinis langelis arba langeliai po juo)
-msg.phrase	Macro: no macro in the sheet	Makrokomandos: lape makrokomandų nėra
-msg.phrase	Run all macros	Vykdykite visas makrokomandas
-msg.phrase	Macros: %d. Run them all, top-left to bottom-right? Changes cannot be undone.	Makrokomandos: %d. Paleisti juos visus, iš viršaus į kairę į apačią į dešinę? Pakeitimų anuliuoti negalima.
-msg.phrase	Macro: %d of %d done	Makrokomandas: %d iš %d atlikta
-msg.phrase	Cleared the cell	Išvalė ląstelę
-msg.phrase	Cleared the selection	Išvalė pasirinkimą
+msg.phrase	Macro	Makrokomanda
+msg.phrase	Macro: run #!ruby / #!python / #!basic cells	Makrokomanda: vykdyti #!ruby / #!python / #!basic langelius
+msg.phrase	Edit the cell (F2)	Taisyti langelį (F2)
+msg.phrase	Fit widths/heights to the contents	Pritaikyti pločius/aukščius turiniui
+msg.phrase	Last macro error	Paskutinė makrokomandos klaida
+msg.phrase	No macro error.	Makrokomandos klaidų nėra.
+msg.phrase	IME on	IME įj.
+msg.phrase	IME off	IME išj.
+msg.phrase	Macro: %s %s ...	Makrokomanda: %s %s ...
+msg.phrase	%s: this firmware cannot run macros (SGX ABI 5.10 or later)	%s: ši programinė įranga negali vykdyti makrokomandų (reikia SGX ABI 5.10 ar naujesnės)
+msg.phrase	Macro error: %s	Makrokomandos klaida: %s
+msg.phrase	Macro: %s done	Makrokomanda: %s baigta
+msg.phrase	a macro is already running	makrokomanda jau vykdoma
+msg.phrase	this language is not available	ši kalba neprieinama
+msg.phrase	not enough memory	trūksta atminties
+msg.phrase	the macro stopped with an error	makrokomanda sustojo dėl klaidos
+msg.phrase	Macro error %s: %s	Makrokomandos klaida %s: %s
+msg.phrase	Macro: not enough memory	Makrokomanda: trūksta atminties
+msg.phrase	Macro: the cursor is not on a macro (a #!ruby / #!python / #!basic cell or the cells below it)	Makrokomanda: žymeklis ne ant makrokomandos (#!ruby / #!python / #!basic langelis ar po juo esantys)
+msg.phrase	Macro: no macro in the sheet	Makrokomanda: lape nėra makrokomandų
+msg.phrase	Run all macros	Vykdyti visas makrokomandas
+msg.phrase	Macros: %d. Run them all, top-left to bottom-right? Changes cannot be undone.	Makrokomandų: %d. Vykdyti visas nuo viršaus kairėje iki apačios dešinėje? Pakeitimų atšaukti negalima.
+msg.phrase	Macro: %d of %d done	Makrokomanda: baigta %d iš %d
+msg.phrase	Cleared the cell	Langelis išvalytas
+msg.phrase	Cleared the selection	Pažymėta sritis išvalyta
 msg.phrase	Background colour = %d	Fono spalva = %d
 msg.phrase	Text colour = %d	Teksto spalva = %d
-msg.phrase	Graph: line	Grafikas: linija
-msg.phrase	Graph: bar	Grafikas: juosta
-msg.phrase	Graph: mixed	Grafikas: mišrus
-msg.phrase	Graph: pie	Grafikas: pyragas
-msg.phrase	Exported %s	Eksportuota %s
+msg.phrase	Graph: line	Diagrama: linijinė
+msg.phrase	Graph: bar	Diagrama: stulpelinė
+msg.phrase	Graph: mixed	Diagrama: mišri
+msg.phrase	Graph: pie	Diagrama: skritulinė
+msg.phrase	Exported %s	Eksportuota: %s
+ui	USB・時計・設定	USB, clock, settings
+ui	0.001 秒未満	mažiau nei 0.001 s
+ui	%s 秒	%s s
+ui	コンパイル %s  実行 %s	kompiliavimas %s  vykdymas %s
+ui	コンパイル %s	kompiliavimas %s
+ui	実行 %s	vykdymas %s
+msg.phrase	1 Help	1 Pagalb
+msg.phrase	3 Copy	3 Kopij
+msg.phrase	4 Paste	4 Įkliju
+msg.phrase	5 Goto	5 Eiti
+msg.phrase	6 Colour	6 Spalva
+msg.phrase	7 Fit	7 Pritai
+msg.phrase	8 Backgr	8 Fonas
+msg.phrase	9 Recalc	9 Perskč
+msg.phrase	10 Graph	10 Diagr
+msg.phrase	11 Save	11 Įraš
+msg.phrase	12 Menu	12 Meniu
+msg.phrase	1 About	1 Apie
+msg.phrase	2 Height	2 Aukšt
+msg.phrase	3 Width	3 Plotis
+msg.phrase	4 SelAll	4 Viską
+msg.phrase	10 Range	10 Sriti
+msg.phrase	11 Name	11 Kaip
+msg.phrase	1 New	1 Naujas
+msg.phrase	2 Open	2 Atidar
+msg.phrase	4 SaveAs	4 Kaip
+msg.phrase	12 Quit	12 Baigt
+msg.phrase	3 Save	3 Įraš
+msg.phrase	Version %s	Versija %s

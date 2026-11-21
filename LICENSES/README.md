@@ -25,7 +25,9 @@ sgnano のファームウェアと、このリポジトリの SGX（外部実行
 | minimp3 | MP3 の解読 | CC0-1.0 | `minimp3.txt` |
 | stb_vorbis | OGG の解読 | MIT / Public Domain | `stb_vorbis.txt` |
 | stb_image | PNG・JPEG・GIF の解読 | MIT / Public Domain | `stb.txt` |
-| miniz | gzip（VGZ）の展開 | MIT | `miniz.txt` |
+| miniz | gzip・zlib・deflate（VGZ・ZIP・tar.gz）の圧縮と展開 | MIT | `miniz.txt` |
+| libbzip2 1.0.8 | bzip2（.bz2・ZIP の方式 12） | bzip2 のライセンス（BSD 系） | `bzip2.txt` |
+| LZMA SDK 26.06 | LZMA・LZMA2・xz・7z | パブリックドメイン | `lzma-sdk.txt` |
 | sgnanoime | IME（日本語・英語・韓国語・中国語） | BSD-2-Clause（取り込んだ部品は別記） | `sgnanoime.txt`・`sgnanoime-third-party.md` |
 | Unicode Character Database（Unihan） | sgnanoime の倉頡の表 | Unicode License V3 | `unicode-unihan.txt` |
 | EmbUniFont | フォント ROM の形と道具 | MIT | `EmbUniFont.txt` |

@@ -21,14 +21,14 @@ ui	属性を変える	Amala jijjiiri
 ui	エディタで開く	Gulaalaa keessatti bani
 ui	テキスト表示（Shift+V / Ctrl+Alt+F7 は 16 進）	Akka barreeffamaatti ilaali (Shift+V / Ctrl+Alt+F7 hex)
 ui	ドライブの情報	Odeeffannoo dirree
-ui	フォルダを作る / 新しいファイル	Kuusaa haaraa / faayilii haaraa
+ui	フォルダを作る（Shift+F5） / 新しいファイル（Ctrl+F1）	Kuusaa haaraa (Shift+F5) / faayilii haaraa (Ctrl+F1)
 ui	シェル sgsh / 媒体を取り出す	Shell sgsh / diskii baasi
 ui	読み直す	Irra deebi'ii fe'i
-ui	見えている画面を PNG で保存	Iskiriinii akka PNG kuusi
+ui	見えている画面を PNG で保存（Alt+F5 も同じ）	Iskiriinii akka PNG kuusi (= Alt+F5)
 ui	窓を閉じる・選択を解く（サブフォルダでは上位へ）	Foddaa cufi / filannoo haqi (kuusaa xiqqaa keessatti: ol bahi)
-ui	ファイルの操作（FD と同じ。印・範囲・カーソルの順に選ぶ）	Hojii faayilii (akka FD: mallattoo, achiis naannoo, achiis kursara)
-ui	コピー: 行き先はドライブとフォルダの木から。ESC で止める	Garagalchi: iddoo itti geessu muka dirree fi kuusaa irraa filadhu. ESC dhaabsisa
-ui	削除: y で確かめる。印・範囲をまとめて。フォルダは中身ごと	Haqi: y'n mirkaneessi. Mallattoo fi naannoo walfaana. Kuusaalee qabiyyee isaanii waliin
+ui	ファイルの操作（FD と同じ。印・範囲・カーソルの順）	Hojii faayilii (akka FD: mallattoo, achiis naannoo, achiis kursara)
+ui	コピー: 行き先は木から選ぶ。ESC で止める	Garagalchi: iddoo itti geessu muka dirree fi kuusaa irraa filadhu. ESC dhaabsisa
+ui	削除: y で確かめる。印・範囲をまとめて	Haqi: y'n mirkaneessi. Mallattoo fi naannoo walfaana. Kuusaalee qabiyyee isaanii waliin
 ui	フォルダを削除（中身ごと）	Kuusaa haqi (qabiyyee isaa waliin)
 ui	名前を変える（今の名前を直して Enter）	Maqaa jijjiiri (maqaa gulaali, Enter)
 ui	属性: R 読み出し専用・H 隠し・S システム・A アーカイブ	Amala: R dubbisuu qofa, H dhokataa, S sirna, A kuusaa
@@ -50,22 +50,19 @@ ui	画面（Alt+F。FD の F キーとぶつからない）	Iskiriinii (Alt+F, f
 ui	FB（絵）/ テキスト面を出す・隠す	FB (suuraa) / barreeffama agarsiisi / dhoksi
 ui	FB の表示ページ（0〜3）	Fuula agarsiisaa FB (0-3)
 ui	FB を 0 で消す / 明るさを 1/2 に（RGB555）	FB gara 0 qulqulleessi / ifa walakkaa hir'isi (RGB555)
-ui	USB のエンドポイントと LAN の状態	Qabxiiwwan dhumaa USB fi haala LAN
+ui	USB のエンドポイントと LAN（U: 10 秒に 1 度）	Qabxiiwwan dhumaa USB fi haala LAN
 ui	FB の表示ページを消す / 明るさを 1/2 に	Fuula agarsiisaa FB qulqulleessi / ifa walakkaa hir'isi
 ui	テキストの属性の見本	Fakkeenya amala barreeffamaa
 ui	モニタの EDID（起動時に読んだもの）	EDID iskiriinii (yeroo jalqabaa dubbifame)
 ui	フォント ROM のライセンスとクレジット	Hayyama fi galata ROM qubee
 ui	設定（表示の言語・IME・キーボードロケール）	Qindaa'ina (afaan agarsiisaa, IME fi qindaa'ina furtuu)
-ui	時計（NTP で合わせた日本時間。s ですぐ合わせる）	Sa'aatii (yeroo Jaappaan NTP'n; s amma walsimsiisa)
+ui	時計（NTP で合わせた日本時間。s は 3 分に 1 度）	Sa'aatii (yeroo Jaappaan NTP'n; s amma walsimsiisa)
 ui	表計算（SGCALC）を開く	Waraqaa herregaa bani (SGCALC)
 ui	S: ドライブのエラー検査（誤りがあれば直すか聞く）	Dogoggora S: sakatta'i (sirreessuun dura gaafata)
 ui	トラッカー（TRACKER）を開く	TRACKER bani
-ui	再起動（確かめの窓が出る）	Irra deebi'ii kaasi (dura gaafata)
+ui	再起動（確かめの窓）。Ctrl+Alt+Del も同じ	Irra deebi'ii kaasi (dura gaafata) = Ctrl+Alt+Del
 ui	ADC のステレオ入力（GP40 / 41）を鳴らす	Galtee isteeriyoo ADC taphachiisi (GP40 / 41)
 ui	VGM/VGZ を 96kHz/24bit WAV に書き出す	VGM/VGZ gara WAV kHz 96 / bit 24 baasi
-ui	このヘルプ	Gargaarsa kana
-ui	ページを替える	Fuula jijjiiri
-ui	閉じる	Cufi
 ui	テキスト・16 進のビュアー（less 風）	Ilaalaa barreeffamaa / hex (akka less)
 ui	1 行	Sarara tokko
 ui	1 ページ	Fuula tokko
@@ -83,10 +80,9 @@ ui	IME の言語（日本語 / English / 한국어）	Afaan IME (Jaappaan / Ingi
 ui	ひらがな / カタカナで確定	Akka hiragana / katakana mirkaneessi
 ui	エディタのヘルプ	Gargaarsa gulaalaa
 ui	シェル	Shell
-ui	シェル（csh のサブセット。exit / Ctrl-D で戻る、help で一覧）	Shell (kutaa csh. exit / Ctrl-D deebi'uuf, help ajaja tarreessa)
+ui	シェル（csh の一部。exit / Ctrl-D で戻る、help で一覧）	Shell (kutaa csh. exit / Ctrl-D deebi'uuf, help ajaja tarreessa)
 ui	一覧と移動	Tarree fi sochii
 ui	ファイルの操作	Hojii faayilii
-ui	画面と機器	Iskiriinii fi meeshaalee
 ui	ビュアーとエディタ	Ilaaltota fi gulaalaa
 ui	ヘルプ  %u / %u  %s	Gargaarsa  %u / %u  %s
 ui	Left Right: ページを替える    F1 / ESC: 閉じる	Bita Mirga: fuula jijjiiri    F1 / ESC: cufi
@@ -147,9 +143,9 @@ ui	10 EP表	10 EP
 ui	11 時計	11 Sa'a
 ui	12 表計	12 CALC
 ui	1 属性	1 Amala
-ui	2 情報	2 Odeef
+ui	2Drv情報	2 Odeef
 ui	3 移動	3 Socho
-ui	5 作成	5 Kuusaa
+ui	5 ﾌｫﾙﾀﾞ	5 Kuusaa
 ui	6 シェル	6 Shell
 ui	8 編集	8 Gulaal
 ui	9 表示	9 Ilaal
@@ -487,11 +483,11 @@ msg.phrase	the sound is not open	sagaleen hin banamne
 msg.phrase	no such channel	chaanaalli akkasii hin jiru
 msg.phrase	the sequencer is busy	tartiibessaan hojii irra jira
 msg.phrase	not enough PSRAM for the song	PSRAM sirbaaf hin gahu
-msg.phrase	not a standard MIDI file (no MThd)	faayilii MIDI istaandaardii miti (MThd hin jiru)
-msg.phrase	no tracks	sirboonni hin jiran
-msg.phrase	a track is broken (MTrk)	sirbi tokko diigameera (MTrk)
-msg.phrase	SMPTE time division is not supported	qoodinsi yeroo SMPTE hin deeggaramu
-msg.phrase	SMF format 2 is not supported (0 and 1 only)	SMF bifa 2 hin deeggaramu (0 fi 1 qofa)
+msg.phrase	not a standard MIDI file (no MThd)	faayilii MIDI idilee miti (MThd hin jiru)
+msg.phrase	no tracks	track hin jiru
+msg.phrase	a track is broken (MTrk)	track tokko badeera (MTrk)
+msg.phrase	SMPTE time division is not supported	Qoqqoodiinsi yeroo SMPTE hin deeggaramu
+msg.phrase	SMF format 2 is not supported (0 and 1 only)	Bifti SMF 2 hin deeggaramu (0 fi 1 qofa)
 msg.phrase	not a Bulk-Only drive	dirree Bulk-Only miti
 msg.phrase	not an optical drive	dirree ifaa miti
 msg.phrase	a system folder cannot be deleted or renamed	kuusaa sirnaa haquu ykn maqaa jijjiiruun hin danda'amu
@@ -547,7 +543,7 @@ msg.phrase	Not supported on this drive	Dirree kana irratti hin deeggaramu
 msg.phrase	Invalid path	Karaa sirrii hin taane
 msg.phrase	Out of memory	Yaadannoon dhumeera
 msg.phrase	No such drive	Dirreen akkasii hin jiru
-msg.phrase	stopped	dhaabbate
+msg.phrase	stopped	dhaabbateera
 msg.phrase	cancelled (not enough free space)	haqameera (bakki duwwaan hin gahu)
 msg.phrase	could not count the free space	bakka duwwaa lakkaa'uu hin dandeenye
 msg.phrase	the receiver cancelled	fudhataan haqeera
@@ -622,22 +618,22 @@ msg.word	 rows	 sararoota
 msg.word	 -- not supported yet (FAT / exFAT / NTFS only)	 -- ammaaf hin deeggaramu (FAT / exFAT / NTFS qofa)
 msg.word	 files	 faayiloota
 msg.word	 (	 (
-msg.phrase	Untitled	Maqaa hin qabne
+msg.phrase	Untitled	Mata duree malee
 msg.phrase	1 File	1 Faayilii
-msg.phrase	2 Edit	2 Gulaali
+msg.phrase	2 Edit	2 Gulaal
 msg.phrase	3 Graph	3 Giraafii
 msg.phrase	4 Sheet	4 Waraqaa
 msg.phrase	5 Help	5 Gargaarsa
 msg.phrase	EMPTY	DUWWAA
-msg.phrase	NUMBER	LAKKOOFSA
+msg.phrase	NUMBER	LAKKOFSA
 msg.phrase	TEXT	BARREEFFAMA
-msg.phrase	FORMULA	FOORMULAA
+msg.phrase	FORMULA	FORMULA
 msg.phrase	Type to enter, F2 to edit, F1 for help	Galchuuf barreessi, gulaaluuf F2, gargaarsaaf F1
-msg.phrase	Ready	Qophaa'aa
+msg.phrase	Ready	Qophaa'eera
 msg.phrase	Press any key	Furtuu kamiyyuu tuqi
 msg.phrase	Y = yes    N = no    Esc = cancel	Y = eeyyee    N = lakki    Esc = haqi
-msg.phrase	Enter = OK    Esc = cancel    Ctrl-U = clear	Enter = Tole    Esc = haqi    Ctrl-U = qulqulleessi
-msg.phrase	First row/column = labels; charts use the 640x480 CLUT8 FB.	Sarara/utubaa jalqabaa = mallattoo; giraafiin FB CLUT8 640x480 fayyadama.
+msg.phrase	Enter = OK    Esc = cancel    Ctrl-U = clear	Enter = tole    Esc = haqi    Ctrl-U = qulqulleessi
+msg.phrase	First row/column = labels; charts use the 640x480 CLUT8 FB.	Tarree/utubaa jalqabaa = maqaa; giraafiin FB CLUT8 640x480 fayyadama.
 msg.phrase	SGCALC - HELP	SGCALC - GARGAARSA
 msg.phrase	Press any key to return	Deebi'uuf furtuu kamiyyuu tuqi
 msg.phrase	Press any key to return.	Deebi'uuf furtuu kamiyyuu tuqi.
@@ -647,55 +643,55 @@ msg.phrase	Start a new sheet	Waraqaa haaraa jalqabi
 msg.phrase	Open...	Bani...
 msg.phrase	Open an ODS, FODS or CSV file	Faayilii ODS, FODS ykn CSV bani
 msg.phrase	Save	Kuusi
-msg.phrase	Save the current file	Faayilii ammaa kuusi
-msg.phrase	Save As...	Akka...tti kuusi
+msg.phrase	Save the current file	Faayilii amma jiru kuusi
+msg.phrase	Save As...	Akka kuusi...
 msg.phrase	Save with a new name or format	Maqaa ykn bifa haaraan kuusi
 msg.phrase	Export CSV...	CSV baasi...
 msg.phrase	Write a CSV copy	Garagalcha CSV barreessi
 msg.phrase	Export ODS...	ODS baasi...
 msg.phrase	Write a LibreOffice copy	Garagalcha LibreOffice barreessi
 msg.phrase	Quit	Ba'i
-msg.phrase	Leave SGCALC	SGCALC dhiisi
+msg.phrase	Leave SGCALC	SGCALC irraa ba'i
 msg.phrase	Clear	Qulqulleessi
-msg.phrase	Clear the selected cells	Seelota filataman qulqulleessi
+msg.phrase	Clear the selected cells	Seelii filataman qulqulleessi
 msg.phrase	Copy	Garagalchi
 msg.phrase	Copy the selection	Filannoo garagalchi
 msg.phrase	Paste	Maxxansi
-msg.phrase	Paste at the cursor	Kursara irratti maxxansi
+msg.phrase	Paste at the cursor	Bakka akeektuu irratti maxxansi
 msg.phrase	Cut	Kuti
 msg.phrase	Copy and clear the selection	Filannoo garagalchii qulqulleessi
 msg.phrase	Select all	Hunda filadhu
-msg.phrase	Select all used cells	Seelota fayyadaman hunda filadhu
+msg.phrase	Select all used cells	Seelii itti fayyadamame hunda filadhu
 msg.phrase	Text color...	Halluu barreeffamaa...
 msg.phrase	Choose the text colour	Halluu barreeffamaa filadhu
 msg.phrase	Background...	Duuba...
-msg.phrase	Choose the cell background	Duuba seelii filadhu
+msg.phrase	Choose the cell background	Halluu duuba seelii filadhu
 msg.phrase	Line	Sarara
 msg.phrase	Draw a line graph from the selection	Filannoo irraa giraafii sararaa kaasi
-msg.phrase	Bar	Baaraa
-msg.phrase	Draw a bar graph from the selection	Filannoo irraa giraafii baaraa kaasi
-msg.phrase	Mixed	Walmakaa
-msg.phrase	Bars for the first series, lines for the rest	Baaraa tarree jalqabaatiif, sarara kan hafaniif
-msg.phrase	Pie	Paayii
-msg.phrase	Draw a pie graph from the selection	Filannoo irraa giraafii paayii kaasi
-msg.phrase	Range...	Naannoo...
-msg.phrase	Set the graph range explicitly	Naannoo giraafii ifatti kaa'i
+msg.phrase	Bar	Utubaa
+msg.phrase	Draw a bar graph from the selection	Filannoo irraa giraafii utubaa kaasi
+msg.phrase	Mixed	Makaa
+msg.phrase	Bars for the first series, lines for the rest	Tarree jalqabaaf utubaa, kanneen hafaniif sarara
+msg.phrase	Pie	Pie
+msg.phrase	Draw a pie graph from the selection	Filannoo irraa giraafii pie kaasi
+msg.phrase	Range...	Daangaa...
+msg.phrase	Set the graph range explicitly	Daangaa giraafii harkaan galchi
 msg.phrase	Draw again	Irra deebi'ii kaasi
 msg.phrase	Redraw the last graph	Giraafii dhumaa irra deebi'ii kaasi
 msg.phrase	Goto...	Deemi...
-msg.phrase	Jump to a cell (for example C12)	Gara seeliitti utaali (fkn C12)
+msg.phrase	Jump to a cell (for example C12)	Gara seelii tokkootti deemi (fkn C12)
 msg.phrase	Column width...	Bal'ina utubaa...
 msg.phrase	Change the selected columns' width	Bal'ina utubaalee filatamanii jijjiiri
-msg.phrase	Row height...	Dheerina sararaa...
-msg.phrase	Change the selected rows' height	Dheerina sararoota filatamanii jijjiiri
-msg.phrase	Auto fit	Ofumaan walsimsiisi
+msg.phrase	Row height...	Dheerina tarree...
+msg.phrase	Change the selected rows' height	Dheerina tarreewwan filatamanii jijjiiri
+msg.phrase	Auto fit	Walsimsiisi
 msg.phrase	Fit widths/heights to the contents (F7)	Bal'ina/dheerina qabiyyee wajjin walsimsiisi (F7)
 msg.phrase	Recalculate	Irra deebi'ii herregi
-msg.phrase	Re-evaluate all formulas	Foormulaa hunda irra deebi'ii madaali
+msg.phrase	Re-evaluate all formulas	Formula hunda irra deebi'ii herregi
 msg.phrase	Erase all	Hunda haqi
 msg.phrase	Clear the whole sheet	Waraqaa guutuu qulqulleessi
 msg.phrase	Keys	Furtuuwwan
-msg.phrase	Show the key guide	Qajeelfama furtuu agarsiisi
+msg.phrase	Show the key guide	Qajeelfama furtuuwwanii agarsiisi
 msg.phrase	About	Waa'ee
 msg.phrase	About SGCALC	Waa'ee SGCALC
 msg.phrase	File	Faayilii
@@ -705,12 +701,12 @@ msg.phrase	Sheet	Waraqaa
 msg.phrase	Help	Gargaarsa
 msg.phrase	File: new, open, save, export, quit	Faayilii: haaraa, bani, kuusi, baasi, ba'i
 msg.phrase	Edit: clear, copy, paste, cut, select all	Gulaali: qulqulleessi, garagalchi, maxxansi, kuti, hunda filadhu
-msg.phrase	Graph: line, bar, mixed, pie (draws in the FB)	Giraafii: sarara, baaraa, walmakaa, paayii (FB irratti kaafama)
-msg.phrase	Sheet: goto, column width, recalculate, erase	Waraqaa: deemi, bal'ina utubaa, irra deebi'ii herregi, haqi
+msg.phrase	Graph: line, bar, mixed, pie (draws in the FB)	Giraafii: sarara, utubaa, makaa, pie (FB irratti)
+msg.phrase	Sheet: goto, column width, recalculate, erase	Waraqaa: deemi, bal'ina utubaa, herregi, haqi
 msg.phrase	Help: keys and about	Gargaarsa: furtuuwwan fi waa'ee
 msg.phrase	Left/Right = menu    Up/Down = item    Enter = choose    Esc = cancel	Bita/Mirga = baafata    Ol/Gad = wanta    Enter = filadhu    Esc = haqi
 msg.phrase	Cancelled	Haqameera
-msg.phrase	The selection is too large or memory is low.	Filannoon baay'ee guddaa ykn yaadannoon xiqqaa dha.
+msg.phrase	The selection is too large or memory is low.	Filannoon baay'ee guddaa dha ykn yaadannoon hin gahu.
 msg.phrase	the cell	seelii sana
 msg.phrase	the selection	filannoo sana
 msg.phrase	Nothing to paste	Wanti maxxanfamu hin jiru
@@ -720,10 +716,10 @@ msg.phrase	Cell reference (A1):	Wabii seelii (A1):
 msg.phrase	Goto	Deemi
 msg.phrase	COLUMN WIDTH	BAL'INA UTUBAA
 msg.phrase	Width in characters (4..30):	Bal'ina qubeedhaan (4..30):
-msg.phrase	ROW HEIGHT	DHEERINA SARARAA
-msg.phrase	Height in text rows (1..8):	Dheerina sararoota barreeffamaan (1..8):
-msg.phrase	Auto fit: the sheet is empty	Ofumaan walsimsiisi: waraqaan duwwaa dha
-msg.phrase	BACKGROUND COLOUR	HALLUU DUUBAA
+msg.phrase	ROW HEIGHT	DHEERINA TARREE
+msg.phrase	Height in text rows (1..8):	Dheerina sarara barreeffamaatiin (1..8):
+msg.phrase	Auto fit: the sheet is empty	Walsimsiisi: waraqaan duwwaa dha
+msg.phrase	BACKGROUND COLOUR	HALLUU DUUBA
 msg.phrase	TEXT COLOUR	HALLUU BARREEFFAMAA
 msg.phrase	Arrows: choose    Enter: apply    Esc: cancel	Xiyyaa: filadhu    Enter: hojiirra oolchi    Esc: haqi
 msg.phrase	Colour index (PC-98 16-colour palette)	Lakkoofsa halluu (halluu 16 PC-98)
@@ -731,253 +727,253 @@ msg.phrase	Enter = apply    Esc = cancel	Enter = hojiirra oolchi    Esc = haqi
 msg.phrase	Colour	Halluu
 msg.phrase	Background	Duuba
 msg.phrase	Text	Barreeffama
-msg.phrase	GRAPH RANGE	NAANNOO GIRAAFII
-msg.phrase	Range (for example A1:C10):	Naannoo (fkn A1:C10):
-msg.phrase	Graph range	Naannoo giraafii
-msg.phrase	Use a range such as A1:C10.	Naannoo akka A1:C10 fayyadami.
-msg.phrase	Cannot draw the graph.	Giraafii kaasuu hin danda'u.
+msg.phrase	GRAPH RANGE	DAANGAA GIRAAFII
+msg.phrase	Range (for example A1:C10):	Daangaa (fkn A1:C10):
+msg.phrase	Graph range	Daangaa giraafii
+msg.phrase	Use a range such as A1:C10.	Daangaa akka A1:C10 galchi.
+msg.phrase	Cannot draw the graph.	Giraafii kaasuun hin danda'amu.
 msg.phrase	line	sarara
 msg.phrase	bar	baaraa
 msg.phrase	mixed	walmakaa
 msg.phrase	pie	paayii
-msg.phrase	Clear every cell in this sheet?	Seelii waraqaa kana keessa jiru hunda qulqulleessuu?
+msg.phrase	Clear every cell in this sheet?	Seelii waraqaa kanaa hunda qulqulleessuu?
 msg.phrase	Sheet erased	Waraqaan haqameera
-msg.phrase	Selected all used cells	Seelonni fayyadaman hundi filatamaniiru
-msg.phrase	Recalculated	Irra deebi'ee herregameera
+msg.phrase	Selected all used cells	Seeliin itti fayyadamame hundi filatameera
+msg.phrase	Recalculated	Irra deebi'amee herregameera
 msg.phrase	Memory	Yaadannoo
-msg.phrase	Not enough PSRAM for the spreadsheet.	PSRAM waraqaa herregaatiif hin gahu.
+msg.phrase	Not enough PSRAM for the spreadsheet.	PSRAM waraqaa herregaaf hin gahu.
 msg.phrase	The sheet is empty.	Waraqaan duwwaa dha.
-msg.phrase	No numeric data in the selected range.	Naannoo filatame keessa daataan lakkoofsaa hin jiru.
+msg.phrase	No numeric data in the selected range.	Daangaa filatame keessa lakkoofsi hin jiru.
 msg.phrase	Other	Kan biraa
-msg.phrase	No positive values for a pie chart	Giraafii paayiitiif gatiin poozatiivii hin jiru
+msg.phrase	No positive values for a pie chart	Giraafii pie-tiif gatiin pozatiivii hin jiru
 msg.phrase	LINE	SARARA
-msg.phrase	BAR	BAARAA
-msg.phrase	MIXED	WALMAKAA
-msg.phrase	PIE	PAAYII
+msg.phrase	BAR	UTUBAA
+msg.phrase	MIXED	MAKAA
+msg.phrase	PIE	PIE
 msg.phrase	Folder	Kuusaa
-msg.phrase	SAVE AS	AKKA...TTI KUUSI
+msg.phrase	SAVE AS	AKKA KUUSI
 msg.phrase	OPEN FILE	FAAYILII BANI
 msg.phrase	Name:	Maqaa:
 msg.phrase	(type a name, or choose below)	(maqaa barreessi, ykn gadii filadhu)
 msg.phrase	Name	Maqaa
 msg.phrase	Size	Hamma
-msg.phrase	Enter=save  Left=up  Right/Enter on [DIR]=open  Tab=drive  Esc=cancel	Enter=kuusi  Bita=ol  Mirga/Enter [DIR] irratti=bani  Tab=dirree  Esc=haqi
-msg.phrase	Enter=open  Left=up  Right/Enter on [DIR]=open  Tab=drive  Esc=cancel	Enter=bani  Bita=ol  Mirga/Enter [DIR] irratti=bani  Tab=dirree  Esc=haqi
+msg.phrase	Enter=save  Left=up  Right/Enter on [DIR]=open  Tab=drive  Esc=cancel	Enter=kuusi  Bitaa=ol  Mirga/Enter [DIR] irratti=bani  Tab=dirree  Esc=haqi
+msg.phrase	Enter=open  Left=up  Right/Enter on [DIR]=open  Tab=drive  Esc=cancel	Enter=bani  Bitaa=ol  Mirga/Enter [DIR] irratti=bani  Tab=dirree  Esc=haqi
 msg.phrase	Not enough memory.	Yaadannoon hin gahu.
-msg.phrase	Overwrite	Irratti barreessi
+msg.phrase	Overwrite	Irra barreessi
 msg.phrase	Open	Bani
-msg.phrase	The file is too large (limit 8 MB).	Faayiliin baay'ee guddaa (daangaa MB 8).
+msg.phrase	The file is too large (limit 8 MB).	Faayiliin baay'ee guddaa dha (daangaan 8 MB).
 msg.phrase	Not enough memory to read the file.	Faayilii dubbisuuf yaadannoon hin gahu.
-msg.phrase	Bad ZIP/ODS data.	Daataa ZIP/ODS dogoggoraa.
-msg.phrase	CRC error in the ODS file.	Dogoggora CRC faayilii ODS keessatti.
-msg.phrase	Unsupported or damaged file.	Faayilii hin deeggaramne ykn diigame.
+msg.phrase	Bad ZIP/ODS data.	Daataan ZIP/ODS badeera.
+msg.phrase	CRC error in the ODS file.	Faayilii ODS keessa dogoggora CRC jira.
+msg.phrase	Unsupported or damaged file.	Faayilii hin deeggaramne ykn bade.
 msg.phrase	Saved	Kuufameera
 msg.phrase	Exported	Baafameera
-msg.phrase	Unsaved changes	Jijjiiramoota hin kuufamne
-msg.phrase	Save the current sheet before continuing?	Itti fufuun dura waraqaa ammaa kuusuu?
+msg.phrase	Unsaved changes	Jijjiirama hin kuufamne
+msg.phrase	Save the current sheet before continuing?	Itti fufuu dura waraqaa amma jiru kuusuu?
 msg.phrase	New sheet	Waraqaa haaraa
-msg.phrase	song is too large	sirbi baay'ee guddaa
+msg.phrase	song is too large	sirbi baay'ee guddaa dha
 msg.phrase	empty file	faayilii duwwaa
 msg.phrase	not an SGT file	faayilii SGT miti
-msg.phrase	bad BPM	BPM dogoggoraa
-msg.phrase	bad speed	saffisa dogoggoraa
-msg.phrase	bad title length	dheerina mata-dureetii dogoggoraa
-msg.phrase	truncated title	mata-dureen cite
-msg.phrase	bad character in title	qubee dogoggoraa mata-duree keessa
-msg.phrase	truncated order	tartiibni cite
-msg.phrase	bad order length	dheerina tartiibaa dogoggoraa
-msg.phrase	bad pattern number in order	lakkoofsa fakkii dogoggoraa tartiiba keessa
-msg.phrase	truncated pattern list	tarreen fakkii cite
-msg.phrase	bad pattern count	baay'ina fakkii dogoggoraa
-msg.phrase	bad pattern index	indeeksii fakkii dogoggoraa
-msg.phrase	duplicate pattern	fakkiin irra deddeebi'e
-msg.phrase	truncated pattern data	daataan fakkii cite
-msg.phrase	invalid pattern data	daataa fakkii sirrii hin taane
-msg.phrase	trailing data in file	daataa dabalataa dhuma faayilii irratti
-msg.phrase	order refers to a missing pattern	tartiibni fakkii hin jirre agarsiisa
-msg.phrase	(untitled)	(maqaa hin qabne)
-msg.phrase	Ready. Press F1 for help.	Qophaa'aa. Gargaarsaaf F1 tuqi.
-msg.phrase	Follow OFF	Hordofuu CUFAA
+msg.phrase	bad BPM	BPM sirrii miti
+msg.phrase	bad speed	saffisni sirrii miti
+msg.phrase	bad title length	dheerinni mata duree sirrii miti
+msg.phrase	truncated title	mata dureen cite
+msg.phrase	bad character in title	mata duree keessa qubee sirrii hin taane
+msg.phrase	truncated order	order cite
+msg.phrase	bad order length	dheerinni order sirrii miti
+msg.phrase	bad pattern number in order	order keessa lakkoofsi pattern sirrii miti
+msg.phrase	truncated pattern list	tarreen pattern cite
+msg.phrase	bad pattern count	baay'inni pattern sirrii miti
+msg.phrase	bad pattern index	lakkoofsi pattern sirrii miti
+msg.phrase	duplicate pattern	pattern irra deddeebi'e
+msg.phrase	truncated pattern data	daataan pattern cite
+msg.phrase	invalid pattern data	daataan pattern sirrii miti
+msg.phrase	trailing data in file	dhuma faayilii irratti daataa dabalataa
+msg.phrase	order refers to a missing pattern	order pattern hin jirre agarsiisa
+msg.phrase	(untitled)	(mata duree malee)
+msg.phrase	Ready. Press F1 for help.	Qophaa'eera. Gargaarsaaf F1 tuqi.
+msg.phrase	Follow OFF	Hordofi CUFAA
 msg.phrase	Nothing to undo	Wanti deebi'u hin jiru
-msg.phrase	Undo	Deebisi
-msg.phrase	Note OFF	Sagalee dhaabi
-msg.phrase	Set an effect letter first	Dura qubee dhiibbaa kaa'i
-msg.phrase	Effect cleared	Dhiibbaan qulqulleeffameera
-msg.phrase	Parameter cleared	Paaraameetiriin qulqulleeffameera
-msg.phrase	Note cleared	Sagaleen qulqulleeffameera
-msg.phrase	Instrument cleared	Meeshaan muuziqaa qulqulleeffameera
-msg.phrase	Volume cleared	Sagaleen guddinaa qulqulleeffameera
-msg.phrase	Order list is full	Tarreen tartiibaa guutameera
-msg.phrase	Order inserted	Tartiibni galfameera
-msg.phrase	Cannot delete the last order	Tartiiba dhumaa haquun hin danda'amu
-msg.phrase	Order deleted	Tartiibni haqameera
-msg.phrase	Playing song	Sirba taphachaa jira
-msg.phrase	Stopped	Dhaabbate
+msg.phrase	Undo	Deebi'eera
+msg.phrase	Note OFF	Note off
+msg.phrase	Set an effect letter first	Dura qubee effect galchi
+msg.phrase	Effect cleared	Effect haqameera
+msg.phrase	Parameter cleared	Parameter haqameera
+msg.phrase	Note cleared	Note haqameera
+msg.phrase	Instrument cleared	Meeshaan haqameera
+msg.phrase	Volume cleared	Sagaleen haqameera
+msg.phrase	Order list is full	Tarreen order guuteera
+msg.phrase	Order inserted	Order dabalameera
+msg.phrase	Cannot delete the last order	Order dhumaa haquun hin danda'amu
+msg.phrase	Order deleted	Order haqameera
+msg.phrase	Playing song	Sirbi taphachaa jira
+msg.phrase	Stopped	Dhaabbateera
 msg.phrase	New song	Sirba haaraa
-msg.phrase	Discard unsaved changes and start a new song? (Y/N)	Jijjiiramoota hin kuufamne gatii sirba haaraa jalqabuu? (Y/N)
-msg.phrase	Discard unsaved changes and open a song? (Y/N)	Jijjiiramoota hin kuufamne gatii sirba banuu? (Y/N)
-msg.phrase	Discard unsaved changes and quit? (Y/N)	Jijjiiramoota hin kuufamne gatii ba'uu? (Y/N)
-msg.phrase	Song settings updated	Qindaa'inni sirbaa haaromfameera
+msg.phrase	Discard unsaved changes and start a new song? (Y/N)	Jijjiirama hin kuufamne gatii sirba haaraa jalqabuu? (Y/N)
+msg.phrase	Discard unsaved changes and open a song? (Y/N)	Jijjiirama hin kuufamne gatii sirba banuu? (Y/N)
+msg.phrase	Discard unsaved changes and quit? (Y/N)	Jijjiirama hin kuufamne gatii ba'uu? (Y/N)
+msg.phrase	Song settings updated	Qindaa'inni sirbaa jijjiirameera
 msg.phrase	Filename is empty	Maqaan faayilii duwwaa dha
 msg.phrase	Save cancelled	Kuusuun haqameera
 msg.phrase	Open cancelled	Banuun haqameera
-msg.phrase	Edit ON	Gulaaluu BANAA
-msg.phrase	Edit OFF	Gulaaluu CUFAA
-msg.phrase	Follow ON	Hordofuu BANAA
-msg.phrase	Edit is OFF. Press F8 to edit.	Gulaaluun cufaa dha. Gulaaluuf F8 tuqi.
+msg.phrase	Edit ON	Gulaali BANAA
+msg.phrase	Edit OFF	Gulaali CUFAA
+msg.phrase	Follow ON	Hordofi BANAA
+msg.phrase	Edit is OFF. Press F8 to edit.	Gulaalli cufaa dha. Gulaaluuf F8 tuqi.
 msg.phrase	I/O error	Dogoggora I/O
-msg.phrase	file is too large	faayiliin baay'ee guddaa
+msg.phrase	file is too large	faayiliin baay'ee guddaa dha
 msg.phrase	truncated file	faayiliin cite
-msg.phrase	#TRANSPORT AND FILES	#TAPHACHIISUU FI FAAYILOOTA
-msg.phrase	#ORDER LIST	#TARREE TARTIIBAA
+msg.phrase	#TRANSPORT AND FILES	#TAPHACHIISUU FI FAAYILII
+msg.phrase	#ORDER LIST	#TARREE ORDER
 msg.phrase	#DISPLAY	#AGARSIISA
 msg.phrase	#EDITING	#GULAALUU
-msg.phrase	#EFFECTS (parameter is hexadecimal)	#DHIIBBAA (paaraameetiriin hexadecimal)
-msg.phrase	LEFT/RIGHT PAGE   ENTER OR F1 CLOSE	BITA/MIRGA FUULA   ENTER YKN F1 CUFI
+msg.phrase	#EFFECTS (parameter is hexadecimal)	#EFFECT (parameter hexadecimal dha)
+msg.phrase	LEFT/RIGHT PAGE   ENTER OR F1 CLOSE	LEFT/RIGHT PAGE   ENTER OR F1 CLOSE
 msg.phrase	SONG SETTINGS	QINDAA'INA SIRBAA
-msg.phrase	UP/DOWN SELECT   LEFT/RIGHT ADJUST   ENTER/F2 CLOSE	OL/GAD FILADHU   BITA/MIRGA SIRREESSI   ENTER/F2 CUFI
-msg.phrase	Type to edit the title. Backspace deletes the last character.	Mata-duree gulaaluuf barreessi. Backspace qubee dhumaa haqa.
-msg.phrase	BPM range 32..255. Speed range 1..31.	BPM 32..255. Saffisa 1..31.
-msg.phrase	Pattern effects can also change speed and BPM while playing.	Dhiibbaan fakkii yeroo taphatu saffisa fi BPM jijjiiruu ni danda'a.
-msg.phrase	INSTRUMENTS	MEESHAALEE MUUZIQAA
-msg.phrase	UP/DOWN SELECT   SPACE PREVIEW   ENTER USE   F3 CLOSE	OL/GAD FILADHU   SPACE DHAGA'I   ENTER FAYYADAMI   F3 CUFI
-msg.phrase	All four channels use wavetable synthesis.	Chaanaalonni afranuu sinteesii gabatee dambaliitii fayyadamu.
-msg.phrase	Preview plays C-4 on the track under the edit cursor.	Dhaggeeffannaan C-4 sirba kursara gulaalaa jala jiru irratti taphachiisa.
-msg.phrase	SAVE SONG AS	SIRBA AKKA...TTI KUUSI
-msg.phrase	ENTER SAVE   F4 OR CTRL-C CANCEL	ENTER KUUSI   F4 YKN CTRL-C HAQI
+msg.phrase	UP/DOWN SELECT   LEFT/RIGHT ADJUST   ENTER/F2 CLOSE	UP/DOWN SELECT   LEFT/RIGHT ADJUST   ENTER/F2 CLOSE
+msg.phrase	Type to edit the title. Backspace deletes the last character.	Mata duree jijjiiruuf barreessi. Backspace qubee dhumaa haqa.
+msg.phrase	BPM range 32..255. Speed range 1..31.	BPM 32 hanga 255. Saffisa 1 hanga 31.
+msg.phrase	Pattern effects can also change speed and BPM while playing.	Effect pattern keessaa yeroo taphatu saffisaa fi BPM jijjiiruu danda'a.
+msg.phrase	INSTRUMENTS	MEESHAALEE
+msg.phrase	UP/DOWN SELECT   SPACE PREVIEW   ENTER USE   F3 CLOSE	UP/DOWN SELECT   SPACE PREVIEW   ENTER USE   F3 CLOSE
+msg.phrase	All four channels use wavetable synthesis.	Chaanaaliin afranuu wavetable fayyadamu.
+msg.phrase	Preview plays C-4 on the track under the edit cursor.	Dhaggeeffannaan track akeektuun irra jiru irratti C-4 taphachiisa.
+msg.phrase	SAVE SONG AS	SIRBA AKKA KUUSI
+msg.phrase	ENTER SAVE   F4 OR CTRL-C CANCEL	ENTER SAVE   F4 OR CTRL-C CANCEL
 msg.phrase	Directory:	Kuusaa:
 msg.phrase	File name:	Maqaa faayilii:
-msg.phrase	The extension .SGT is added automatically.	Dheerinni .SGT ofumaan ida'ama.
-msg.phrase	An existing file can be overwritten.	Faayilii jiru irratti barreessuun ni danda'ama.
+msg.phrase	The extension .SGT is added automatically.	.SGT ofumaan itti dabalama.
+msg.phrase	An existing file can be overwritten.	Faayilii duraan jiru irra barreessuun ni danda'ama.
 msg.phrase	OPEN SONG	SIRBA BANI
-msg.phrase	ENTER OPEN  BS PARENT  CTRL-O/CTRL-C CANCEL	ENTER BANI  BS OL  CTRL-O/CTRL-C HAQI
-msg.phrase	(no .SGT files in this folder)	(kuusaa kana keessa faayiloonni .SGT hin jiran)
+msg.phrase	ENTER OPEN  BS PARENT  CTRL-O/CTRL-C CANCEL	ENTER OPEN  BS PARENT  CTRL-O/CTRL-C CANCEL
+msg.phrase	(no .SGT files in this folder)	(kuusaa kana keessa faayiliin .SGT hin jiru)
 msg.phrase	CONFIRM	MIRKANEESSI
-msg.phrase	Y = YES   N / ENTER / CTRL-C = NO	Y = EEYYEE   N / ENTER / CTRL-C = LAKKI
+msg.phrase	Y = YES   N / ENTER / CTRL-C = NO	Y = YES   N / ENTER / CTRL-C = NO
 msg.phrase	Y = yes        N = no	Y = eeyyee        N = lakki
-msg.phrase	broken MThd	MThd diigameera
-msg.phrase	MIDI IMPORT	MIDI GALCHUU
-msg.phrase	broken delta time	yeroon delta diigameera
-msg.phrase	broken running status	running status diigameera
-msg.phrase	broken meta event	taateen meta diigameera
-msg.phrase	broken sysex event	taateen sysex diigameera
-msg.phrase	broken channel event	taateen chaanaalii diigameera
-msg.phrase	SMF output is too small	bahaan SMF baay'ee xiqqaa dha
-msg.phrase	SMF output is too large	bahaan SMF baay'ee guddaa dha
-msg.phrase	the song is too long for SMF	sirbi SMF'f baay'ee dheeraa dha
-msg.phrase	ARROWS      move the cell cursor\n	XIYYAA      kursara seelii socho'i\n
-msg.phrase	SHIFT+ARR   extend the selection (for graphs/copy)\n	SHIFT+XIY   filannoo bal'isi (giraafii/garagalchaaf)\n
-msg.phrase	ENTER       edit the cell; in edit, commit and move down\n	ENTER       seelii gulaali; yeroo gulaaltu, mirkaneessii gadi bu'i\n
-msg.phrase	TAB         next cell    SHIFT+TAB  previous cell\n	TAB         seelii itti aanu    SHIFT+TAB  seelii duraa\n
-msg.phrase	DELETE      clear the selected cell(s)    ESC  cancel\n	DELETE      seelota filataman qulqulleessi    ESC  haqi\n
+msg.phrase	broken MThd	MThd badeera
+msg.phrase	MIDI IMPORT	MIDI GALCHI
+msg.phrase	broken delta time	delta time badeera
+msg.phrase	broken running status	running status badeera
+msg.phrase	broken meta event	meta event badeera
+msg.phrase	broken sysex event	SysEx badeera
+msg.phrase	broken channel event	channel event badeera
+msg.phrase	SMF output is too small	Bu'aan SMF baay'ee xiqqaa dha
+msg.phrase	SMF output is too large	Bu'aan SMF baay'ee guddaa dha
+msg.phrase	the song is too long for SMF	sirbi SMF-iif baay'ee dheeraa dha
+msg.phrase	ARROWS      move the cell cursor\n	XIYYAA      akeektuu seelii socho'si\n
+msg.phrase	SHIFT+ARR   extend the selection (for graphs/copy)\n	SHIFT+XIY   filannoo bal'isi (giraafii/garagalchuuf)\n
+msg.phrase	ENTER       edit the cell; in edit, commit and move down\n	ENTER       seelii gulaali; yeroo gulaaltu mirkaneessii gadi bu'i\n
+msg.phrase	TAB         next cell    SHIFT+TAB  previous cell\n	TAB         seelii itti aanu    SHIFT+TAB  seelii dura\n
+msg.phrase	DELETE      clear the selected cell(s)    ESC  cancel\n	DELETE      seelii filatame qulqulleessi    ESC  haqi\n
 msg.phrase	PGUP/PGDN   move one screen    HOME/END  first/last column\n	PGUP/PGDN   iskiriinii tokko    HOME/END  utubaa jalqabaa/dhumaa\n
-msg.phrase	CTRL+HOME   A1    CTRL+END  last used cell\n	CTRL+HOME   A1    CTRL+END  seelii dhumaa fayyadame\n
+msg.phrase	CTRL+HOME   A1    CTRL+END  last used cell\n	CTRL+HOME   A1    CTRL+END  seelii dhumaa itti fayyadamame\n
 msg.phrase	F1 help  F2 edit  F3 copy  F4 paste  F5 goto  F6 colour\n	F1 gargaarsa  F2 gulaali  F3 garagalchi  F4 maxxansi  F5 deemi  F6 halluu\n
-msg.phrase	F7 auto-fit  F8 background  F9 recalc  F10 graph  F11 save  F12 menu\n	F7 walsimsiisi  F8 duuba  F9 herregi  F10 giraafii  F11 kuusi  F12 baafata\n
-msg.phrase	SHIFT+F1 about  SHIFT+F2 row height  SHIFT+F3 column width\n	SHIFT+F1 waa'ee  SHIFT+F2 dheerina sararaa  SHIFT+F3 bal'ina utubaa\n
-msg.phrase	SHIFT+F4 select all  SHIFT+F10 graph range  SHIFT+F11 save as\n	SHIFT+F4 hunda filadhu  SHIFT+F10 naannoo giraafii  SHIFT+F11 akka...tti kuusi\n
-msg.phrase	CTRL+F1 new  CTRL+F2 open  CTRL+F3 save  CTRL+F4 save as\n	CTRL+F1 haaraa  CTRL+F2 bani  CTRL+F3 kuusi  CTRL+F4 akka...tti kuusi\n
+msg.phrase	F7 auto-fit  F8 background  F9 recalc  F10 graph  F11 save  F12 menu\n	F7 walsimsiisi  F8 duuba  F9 herregi  F10 giraafii  F11 kuusi  F12 menu\n
+msg.phrase	SHIFT+F1 about  SHIFT+F2 row height  SHIFT+F3 column width\n	SHIFT+F1 waa'ee  SHIFT+F2 dheerina tarree  SHIFT+F3 bal'ina utubaa\n
+msg.phrase	SHIFT+F4 select all  SHIFT+F10 graph range  SHIFT+F11 save as\n	SHIFT+F4 hunda filadhu  SHIFT+F10 daangaa giraafii  SHIFT+F11 akka kuusi\n
+msg.phrase	CTRL+F1 new  CTRL+F2 open  CTRL+F3 save  CTRL+F4 save as\n	CTRL+F1 haaraa  CTRL+F2 bani  CTRL+F3 kuusi  CTRL+F4 akka kuusi\n
 msg.phrase	CTRL+F5 export CSV  CTRL+F6 export ODS  ALT+F12 quit\n	CTRL+F5 CSV baasi  CTRL+F6 ODS baasi  ALT+F12 ba'i\n
-msg.phrase	Bottom 2 lines: function keys; [SHIFT]/[CTRL]/[ALT] like the filer\n	Sararoota 2 gadii: furtuuwwan hojii; [SHIFT]/[CTRL]/[ALT] akka bulchaa faayilii\n
-msg.phrase	CTRL+S save  CTRL+O open  CTRL+N new  CTRL+C/V/X copy/paste/cut\n	CTRL+S kuusi  CTRL+O bani  CTRL+N haaraa  CTRL+C/V/X garagalchi/maxxansi/kuti\n
-msg.phrase	CTRL+G goto    /  open the menu (1 File, 2 Edit, ...)\n	CTRL+G deemi    /  baafata bani (1 Faayilii, 2 Gulaali, ...)\n
-msg.phrase	Built-in functions: SUM AVERAGE MIN MAX COUNT COUNTA\n	Faankishinoota keessaa: SUM AVERAGE MIN MAX COUNT COUNTA\n
-msg.phrase	Cell refs: A1, $A$1, A1:B10.  Formulas begin with '='.\n	Wabii seelii: A1, $A$1, A1:B10.  Foormulaan '=' n jalqaba.\n
-msg.phrase	Files: .ods (LibreOffice), .fods (flat XML), .csv\n	Faayiloota: .ods (LibreOffice), .fods (XML diriiraa), .csv\n
-msg.phrase	ODS/FODS keeps formulas, widths, heights and colours.\n	ODS/FODS foormulaa, bal'ina, dheerina fi halluu eega.\n
-msg.phrase	CSV keeps values and formulas (no colours/heights).\n	CSV gatii fi foormulaa eega (halluu/dheerina malee).\n
-msg.phrase	Graph: select a range, press F10, and choose Line/Bar/Mixed/Pie.\n	Giraafii: naannoo filadhu, F10 tuqi, achiis Sarara/Baaraa/Walmakaa/Paayii filadhu.\n
-msg.phrase	SGCALC for sgnano\n	SGCALC sgnano'f\n
+msg.phrase	Bottom 2 lines: function keys; [SHIFT]/[CTRL]/[ALT] like the filer\n	Sarara 2 gadii: furtuuwwan hojii; [SHIFT]/[CTRL]/[ALT] akka filer\n
+msg.phrase	CTRL+S save  CTRL+O open  CTRL+N new  CTRL+C/V/X copy/paste/cut\n	CTRL+S kuusi  CTRL+O bani  CTRL+N haaraa  CTRL+C/V/X garag./maxx./kuti\n
+msg.phrase	CTRL+G goto    /  open the menu (1 File, 2 Edit, ...)\n	CTRL+G deemi    /  menu bani (1 Faayilii, 2 Gulaali, ...)\n
+msg.phrase	Built-in functions: SUM AVERAGE MIN MAX COUNT COUNTA\n	Hojiiwwan keessaa: SUM AVERAGE MIN MAX COUNT COUNTA\n
+msg.phrase	Cell refs: A1, $A$1, A1:B10.  Formulas begin with '='.\n	Wabii seelii: A1, $A$1, A1:B10.  Formulaan '=' n jalqaba.\n
+msg.phrase	Files: .ods (LibreOffice), .fods (flat XML), .csv\n	Faayilii: .ods (LibreOffice), .fods (XML tokko), .csv\n
+msg.phrase	ODS/FODS keeps formulas, widths, heights and colours.\n	ODS/FODS formula, bal'ina, dheerina fi halluu ni kuusa.\n
+msg.phrase	CSV keeps values and formulas (no colours/heights).\n	CSV gatii fi formula qofa kuusa (halluu/dheerina hin qabu).\n
+msg.phrase	Graph: select a range, press F10, and choose Line/Bar/Mixed/Pie.\n	Giraafii: daangaa filadhu, F10 tuqi, Sarara/Utubaa/Makaa/Pie filadhu.\n
+msg.phrase	SGCALC for sgnano\n	SGCALC for sgnano\n
 msg.phrase	Version 	Gosa
-msg.phrase	A Lotus 1-2-3 style spreadsheet as an SGX program.\n\n	Waraqaa herregaa akkaataa Lotus 1-2-3 akka sagantaa SGX.\n\n
-msg.phrase	Screen mode 3: text + CLUT8 FB (lowres disabled)\n	Haala iskiriinii 3: barreeffama + FB CLUT8 (lowres cufaa)\n
+msg.phrase	A Lotus 1-2-3 style spreadsheet as an SGX program.\n\n	Waraqaa herregaa akka Lotus 1-2-3, sagantaa SGX.\n\n
+msg.phrase	Screen mode 3: text + CLUT8 FB (lowres disabled)\n	Haala iskiriinii 3: barreeffama + FB CLUT8 (lowres hin jiru)\n
 msg.phrase	Sheet: %d rows x %d columns\n	Waraqaa: sararoota %d x utubaa %d\n
 msg.phrase	Formats: .ods / .fods (LibreOffice), .csv\n\n	Bifa: .ods / .fods (LibreOffice), .csv\n\n
-msg.phrase	The grid is drawn on the text plane.\n	Kaaroon sararaa gubbaa barreeffamaa irratti kaafama.\n
-msg.phrase	Charts and the 640x480 background use the FB.\n\n	Giraafiin fi duubni 640x480 FB fayyadamu.\n\n
-msg.phrase	Cannot store the cell (%d).	Seelii kuusuu hin danda'u (%d).
-msg.phrase	Copied %d x %d cells	Seelonni %d x %d garagalfamaniiru
+msg.phrase	The grid is drawn on the text plane.\n	Sararri seelii daree barreeffamaa irratti kaafama.\n
+msg.phrase	Charts and the 640x480 background use the FB.\n\n	Giraafii fi duubni 640x480 FB fayyadamu.\n\n
+msg.phrase	Cannot store the cell (%d).	Seelii kuusuun hin danda'amu (%d).
+msg.phrase	Copied %d x %d cells	Seelii %d x %d garagalchameera
 msg.phrase	Cleared %s	%s qulqulleeffameera
 msg.phrase	'%s' is not a cell reference.	'%s' wabii seelii miti.
 msg.phrase	Column width = %d	Bal'ina utubaa = %d
-msg.phrase	Row height = %d	Dheerina sararaa = %d
-msg.phrase	Auto fit: %d column(s), %d row(s)	Ofumaan walsimsiisi: utubaa %d, sararoota %d
-msg.phrase	Cannot apply the colour (%d).	Halluu hojiirra oolchuu hin danda'u (%d).
-msg.phrase	Not a valid range.\nUse a range such as A1:C10.	Naannoo sirrii hin taane.\nNaannoo akka A1:C10 fayyadami.
-msg.phrase	Graph range %s	Naannoo giraafii %s
+msg.phrase	Row height = %d	Dheerina tarree = %d
+msg.phrase	Auto fit: %d column(s), %d row(s)	Walsimsiisi: utubaa %d, tarree %d
+msg.phrase	Cannot apply the colour (%d).	Halluu hojiirra oolchuun hin danda'amu (%d).
+msg.phrase	Not a valid range.\nUse a range such as A1:C10.	Daangaan sirrii miti.\nDaangaa akka A1:C10 galchi.
+msg.phrase	Graph range %s	Daangaa giraafii %s
 msg.phrase	Graph: %s	Giraafii: %s
-msg.phrase	SGCALC: cannot set screen mode 3: %s\n	SGCALC: haala iskiriinii 3 kaa'uu hin danda'u: %s\n
-msg.phrase	Cannot read %s\n%s	%s dubbisuu hin danda'u\n%s
+msg.phrase	SGCALC: cannot set screen mode 3: %s\n	SGCALC: haala iskiriinii 3 qindeessuun hin danda'amu: %s\n
+msg.phrase	Cannot read %s\n%s	%s dubbisuun hin danda'amu\n%s
 msg.phrase	Folder: %s	Kuusaa: %s
-msg.phrase	Unsupported extension.\nUse .csv, .ods or .fods.	Dheerinni hin deeggaramu.\n.csv, .ods ykn .fods fayyadami.
-msg.phrase	%s already exists.\nOverwrite it?	%s duraanuu jira.\nIrratti barreessuu?
-msg.phrase	%s may not be writable.\nTry anyway?	%s irratti barreessuun dadhabamuu danda'a.\nTaanus yaaluu?
-msg.phrase	Unknown file type for %s	Gosni faayilii %s hin beekamu
-msg.phrase	Unsupported file type.\nUse .csv, .ods or .fods.	Gosni faayilii hin deeggaramu.\n.csv, .ods ykn .fods fayyadami.
-msg.phrase	Cannot open %s\n%s	%s banuu hin danda'u\n%s
+msg.phrase	Unsupported extension.\nUse .csv, .ods or .fods.	Dheerinni maqaa kun hin deeggaramu.\n.csv, .ods ykn .fods fayyadami.
+msg.phrase	%s already exists.\nOverwrite it?	%s duraan jira.\nIrra barreessuu?
+msg.phrase	%s may not be writable.\nTry anyway?	%s irratti barreessuun dadhabamuu danda'a.\nTa'us yaaluu?
+msg.phrase	Unknown file type for %s	Gosa faayilii hin beekamne: %s
+msg.phrase	Unsupported file type.\nUse .csv, .ods or .fods.	Gosti faayilii kun hin deeggaramu.\n.csv, .ods ykn .fods fayyadami.
+msg.phrase	Cannot open %s\n%s	%s banuun hin danda'amu\n%s
 msg.phrase	%s is a folder.	%s kuusaa dha.
-msg.phrase	Cannot import %s\n%s	%s galchuu hin danda'u\n%s
-msg.phrase	Loaded %s	%s fe'ameera
-msg.phrase	Cannot build the %s file.	Faayilii %s ijaaruu hin danda'u.
-msg.phrase	Cannot write %s\n%s	%s barreessuu hin danda'u\n%s
-msg.phrase	unsupported version %u	gosni %u hin deeggaramu
-msg.phrase	Octave %d	Ooktaavii %d
-msg.phrase	Note %s	Sagalee %s
-msg.phrase	Instrument %d	Meeshaa muuziqaa %d
-msg.phrase	Volume %s	Guddina sagalee %s
-msg.phrase	Effect %c	Dhiibbaa %c
-msg.phrase	Parameter %s	Paaraameetirii %s
-msg.phrase	Pattern %s	Fakkii %s
-msg.phrase	Playing pattern %s	Fakkii %s taphachaa jira
+msg.phrase	Cannot import %s\n%s	%s galchuun hin danda'amu\n%s
+msg.phrase	Loaded %s	%s baneera
+msg.phrase	Cannot build the %s file.	Faayilii %s uumuun hin danda'amu.
+msg.phrase	Cannot write %s\n%s	%s barreessuun hin danda'amu\n%s
+msg.phrase	unsupported version %u	gosa hin deeggaramne (%u)
+msg.phrase	Octave %d	Octave %d
+msg.phrase	Note %s	Note %s
+msg.phrase	Instrument %d	Meeshaa %d
+msg.phrase	Volume %s	Sagalee %s
+msg.phrase	Effect %c	Effect %c
+msg.phrase	Parameter %s	Parameter %s
+msg.phrase	Pattern %s	Pattern %s
+msg.phrase	Playing pattern %s	Pattern %s taphachaa jira
 msg.phrase	SAVE ERROR: %s	DOGOGGORA KUUSUU: %s
 msg.phrase	Saved %s	%s kuufameera
-msg.phrase	LOAD ERROR: %s	DOGOGGORA FE'UU: %s
+msg.phrase	LOAD ERROR: %s	DOGOGGORA BANUU: %s
 msg.phrase	BPM %d	BPM %d
 msg.phrase	Speed %d	Saffisa %d
-msg.phrase	Preview %s	Dhaggeeffannaa %s
-msg.phrase	Instrument %s %s	Meeshaa muuziqaa %s %s
-msg.phrase	Overwrite %s? (Y/N)	%s irratti barreessuu? (Y/N)
-msg.phrase	  F5          Play the song from the current order	  F5          Tartiiba ammaa irraa sirba taphachiisi
-msg.phrase	  F6          Play the current pattern	  F6          Fakkii ammaa taphachiisi
+msg.phrase	Preview %s	Dhaggeeffadhu %s
+msg.phrase	Instrument %s %s	Meeshaa %s %s
+msg.phrase	Overwrite %s? (Y/N)	%s irra barreessuu? (Y/N)
+msg.phrase	  F5          Play the song from the current order	  F5          Sirba order amma jiru irraa taphachiisi
+msg.phrase	  F6          Play the current pattern	  F6          Pattern amma jiru taphachiisi
 msg.phrase	  F7/Ctrl-C   Stop playback	  F7/Ctrl-C   Taphachiisuu dhaabi
 msg.phrase	  Space       Play / stop	  Space       Taphachiisi / dhaabi
-msg.phrase	  F4          Save as	  F4          Akka...tti kuusi
-msg.phrase	  Ctrl-S      Save (asks for a name if new)	  Ctrl-S      Kuusi (yoo haaraa ta'e maqaa gaafata)
+msg.phrase	  F4          Save as	  F4          Akka kuusi
+msg.phrase	  Ctrl-S      Save (asks for a name if new)	  Ctrl-S      Kuusi (haaraa yoo ta'e maqaa gaafata)
 msg.phrase	  Ctrl-O      Open a song	  Ctrl-O      Sirba bani
 msg.phrase	  Ctrl-N      New song	  Ctrl-N      Sirba haaraa
-msg.phrase	  F12         Quit (confirmation if modified)	  F12         Ba'i (yoo jijjiirame mirkaneessa)
-msg.phrase	  [ ]         Previous / next order entry	  [ ]         Galmee tartiibaa duraa / itti aanu
-msg.phrase	  { }         Insert / delete an order entry	  { }         Galmee tartiibaa galchi / haqi
-msg.phrase	  - +         Change the pattern in the entry	  - +         Galmee keessatti fakkii jijjiiri
-msg.phrase	  F11         Follow playback (turns off on manual move)	  F11         Taphachiisuu hordofi (harkaan yoo socho'e ni cufama)
-msg.phrase	  F1          Help; Left/Right changes page	  F1          Gargaarsa; Bita/Mirga fuula jijjiira
-msg.phrase	  F8          Toggle edit mode	  F8          Haala gulaaluu banuu/cufuu
-msg.phrase	  Arrows      Move the cursor	  Xiyyaa      Kursara socho'i
-msg.phrase	  PgUp/PgDn   Jump 16 rows	  PgUp/PgDn   Sararoota 16 utaali
-msg.phrase	  Home/End    First / last row	  Home/End    Sarara jalqabaa / dhumaa
-msg.phrase	  F9/F10      Octave down / up	  F9/F10      Ooktaavii gadi / ol
-msg.phrase	  Z S X D C V G B H N J M      lower piano row	  Z S X D C V G B H N J M      sarara piyaanoo gadii
-msg.phrase	  Q 2 W 3 E R 5 T 6 Y 7 U      upper piano row	  Q 2 W 3 E R 5 T 6 Y 7 U      sarara piyaanoo olii
-msg.phrase	  1           Note off	  1           Sagalee dhaabi
-msg.phrase	  0 / Del     0 clears note/inst/fx; Del clears any	  0 / Del     0 sagalee/meeshaa/dhiibbaa qulqulleessa; Del kamiyyuu qulqulleessa
-msg.phrase	  Ctrl-Z      Undo the last pattern/order edit	  Ctrl-Z      Gulaala fakkii/tartiibaa dhumaa deebisi
-msg.phrase	  Axy   Volume slide: up x, down y	  Axy   Sochii guddina sagalee: ol x, gadi y
-msg.phrase	  Cxx   Note cut after xx ticks	  Cxx   Tick xx booda sagalee kuti
-msg.phrase	  Dxx   Set volume (00..7F)	  Dxx   Guddina sagalee kaa'i (00..7F)
-msg.phrase	  Fxx   Speed if xx < 20, otherwise BPM	  Fxx   Yoo xx < 20 saffisa, yoo kanaa ol BPM
-msg.phrase	  Hxy   Arpeggio x, y semitones	  Hxy   Arpeggio x, y walakkaa toonii
-msg.phrase	  Pxx   Pitch slide up	  Pxx   Sochii sagalee ol
-msg.phrase	  Qxx   Pitch slide down	  Qxx   Sochii sagalee gadi
-msg.phrase	  F2 song settings, F3 instrument list	  F2 qindaa'ina sirbaa, F3 tarree meeshaalee muuziqaa
-msg.phrase	HELP %d/2	GARGAARSA %d/2
-msg.phrase	  Title	  Mata-duree
-msg.phrase	  BPM   : %d     (left/right -1/+1, -/+ -5/+5)	  BPM   : %d     (bita/mirga -1/+1, -/+ -5/+5)
-msg.phrase	  Speed : %d ticks/row	  Saffisa : tick %d/sarara
-msg.phrase	  Rows  : %d (fixed)	  Sararoota : %d (dhaabbataa)
-msg.phrase	  Order : %d entries	  Tartiiba : galmee %d
-msg.phrase	  Patterns in use : %d	  Fakkiiwwan fayyadaman : %d
-msg.phrase	Current instrument: %s %s	Meeshaa muuziqaa ammaa: %s %s
-msg.phrase	Files: %d	Faayiloota: %d
+msg.phrase	  F12         Quit (confirmation if modified)	  F12         Ba'i (jijjiiramni yoo jiraate ni gaafata)
+msg.phrase	  [ ]         Previous / next order entry	  [ ]         Order dura / itti aanu
+msg.phrase	  { }         Insert / delete an order entry	  { }         Order dabali / haqi
+msg.phrase	  - +         Change the pattern in the entry	  - +         Pattern order keessaa jijjiiri
+msg.phrase	  F11         Follow playback (turns off on manual move)	  F11         Taphachiisuu hordofi (harkaan yoo sochoofte ni cufama)
+msg.phrase	  F1          Help; Left/Right changes page	  F1          Gargaarsa; Bitaa/Mirga fuula jijjiira
+msg.phrase	  F8          Toggle edit mode	  F8          Haala gulaaluu bani / cufi
+msg.phrase	  Arrows      Move the cursor	  Xiyyaa      Akeektuu socho'si
+msg.phrase	  PgUp/PgDn   Jump 16 rows	  PgUp/PgDn   Tarree 16 utaali
+msg.phrase	  Home/End    First / last row	  Home/End    Tarree jalqabaa / dhumaa
+msg.phrase	  F9/F10      Octave down / up	  F9/F10      Octave gadi / ol
+msg.phrase	  Z S X D C V G B H N J M      lower piano row	  Z S X D C V G B H N J M      sarara piano gadii
+msg.phrase	  Q 2 W 3 E R 5 T 6 Y 7 U      upper piano row	  Q 2 W 3 E R 5 T 6 Y 7 U      sarara piano olii
+msg.phrase	  1           Note off	  1           Note off
+msg.phrase	  0 / Del     0 clears note/inst/fx; Del clears any	  0 / Del     0 note/meeshaa/effect haqa; Del kamiyyuu haqa
+msg.phrase	  Ctrl-Z      Undo the last pattern/order edit	  Ctrl-Z      Gulaala pattern/order dhumaa deebisi
+msg.phrase	  Axy   Volume slide: up x, down y	  Axy   Volume slide: ol x, gadi y
+msg.phrase	  Cxx   Note cut after xx ticks	  Cxx   Tick xx booda note kuti
+msg.phrase	  Dxx   Set volume (00..7F)	  Dxx   Sagalee qindeessi (00..7F)
+msg.phrase	  Fxx   Speed if xx < 20, otherwise BPM	  Fxx   xx < 20 yoo ta'e saffisa, yoo kan biraa BPM
+msg.phrase	  Hxy   Arpeggio x, y semitones	  Hxy   Arpeggio x, y semitone
+msg.phrase	  Pxx   Pitch slide up	  Pxx   Pitch slide ol
+msg.phrase	  Qxx   Pitch slide down	  Qxx   Pitch slide gadi
+msg.phrase	  F2 song settings, F3 instrument list	  F2 qindaa'ina sirbaa, F3 tarree meeshaalee
+msg.phrase	HELP %d/2	HELP %d/2
+msg.phrase	  Title	  Mata duree
+msg.phrase	  BPM   : %d     (left/right -1/+1, -/+ -5/+5)	  BPM   : %d     (bitaa/mirga -1/+1, -/+ -5/+5)
+msg.phrase	  Speed : %d ticks/row	  Saffisa : tarree tokkoof tick %d
+msg.phrase	  Rows  : %d (fixed)	  Tarree : %d (dhaabbataa)
+msg.phrase	  Order : %d entries	  Order : %d
+msg.phrase	  Patterns in use : %d	  Pattern hojii irra jiru : %d
+msg.phrase	Current instrument: %s %s	Meeshaa amma jiru: %s %s
+msg.phrase	Files: %d	Faayilii: %d
 msg.phrase	SGNO TRACKER: incompatible SGX ABI\n	SGNO TRACKER: SGX ABI wal hin simu\n
 msg.phrase	S: check: wait -- a file is being read or written	Sakatta'iinsa S:: eegi -- faayiliin dubbifamaa ykn barreeffamaa jira
 msg.phrase	S: check: the drive is busy or not ready	Sakatta'iinsa S:: dirreen hojii irra ykn qophaa'aa miti
@@ -987,16 +983,16 @@ msg.phrase	unknown action in ContextMenu.cfg	gocha hin beekamne ContextMenu.cfg 
 msg.prefix	menu	baafata
 msg.phrase	5 Macro	5 Macro
 msg.phrase	6 Help	6 Garg
-msg.phrase	Run current	Isa ammaa hojjechiisi
-msg.phrase	Run the macro at the cursor (#! header cell and the cells below it)	Macro kursara irratti hojjechiisi (seelii mata-duree #! fi seelota isa jala)
+msg.phrase	Run current	Kana hojjechiisi
+msg.phrase	Run the macro at the cursor (#! header cell and the cells below it)	Macro bakka akeektuu jiru hojjechiisi (seelii mataa #! fi seelii jala isaa)
 msg.phrase	Run selection	Filannoo hojjechiisi
-msg.phrase	Run the selected cells as one macro (top-left cell is the #! header)	Seelota filataman akka macro tokkootti hojjechiisi (seeliin bitaa olii mata-duree #!)
+msg.phrase	Run the selected cells as one macro (top-left cell is the #! header)	Seelii filataman akka macro tokkootti hojjechiisi (seeliin gubbaa bitaa mataa #! dha)
 msg.phrase	Run all	Hunda hojjechiisi
-msg.phrase	Run every macro in the sheet, top-left to bottom-right	Macro waraqaa keessa jiru hunda, bitaa olii irraa hanga mirga gadiitti hojjechiisi
+msg.phrase	Run every macro in the sheet, top-left to bottom-right	Macro waraqaa keessa jiru hunda gubbaa bitaa irraa hanga jala mirgaatti hojjechiisi
 msg.phrase	Last error	Dogoggora dhumaa
 msg.phrase	Show the last macro error	Dogoggora macro dhumaa agarsiisi
 msg.phrase	Macro	Macro
-msg.phrase	Macro: run #!ruby / #!python / #!basic cells	Macro: seelota #!ruby / #!python / #!basic hojjechiisi
+msg.phrase	Macro: run #!ruby / #!python / #!basic cells	Macro: seelii #!ruby / #!python / #!basic hojjechiisi
 msg.phrase	Edit the cell (F2)	Seelii gulaali (F2)
 msg.phrase	Fit widths/heights to the contents	Bal'ina/dheerina qabiyyee wajjin walsimsiisi
 msg.phrase	Last macro error	Dogoggora macro dhumaa
@@ -1004,28 +1000,28 @@ msg.phrase	No macro error.	Dogoggorri macro hin jiru.
 msg.phrase	IME on	IME banaa
 msg.phrase	IME off	IME cufaa
 msg.phrase	Macro: %s %s ...	Macro: %s %s ...
-msg.phrase	%s: this firmware cannot run macros (SGX ABI 5.10 or later)	%s: firmware kun macro hojjechiisuu hin danda'u (SGX ABI 5.10 ykn isaa ol)
+msg.phrase	%s: this firmware cannot run macros (SGX ABI 5.10 or later)	%s: firmware kun macro hojjechiisuu hin danda'u (SGX ABI 5.10 ykn kan haaraa barbaachisa)
 msg.phrase	Macro error: %s	Dogoggora macro: %s
-msg.phrase	Macro: %s done	Macro: %s xumurame
-msg.phrase	a macro is already running	macroon tokko duraanuu hojjechaa jira
+msg.phrase	Macro: %s done	Macro: %s xumurameera
+msg.phrase	a macro is already running	macro tokko duraan hojjechaa jira
 msg.phrase	this language is not available	afaan kun hin argamu
 msg.phrase	not enough memory	yaadannoon hin gahu
-msg.phrase	the macro stopped with an error	macroon dogoggoraan dhaabbate
+msg.phrase	the macro stopped with an error	macro dogoggoraan dhaabbate
 msg.phrase	Macro error %s: %s	Dogoggora macro %s: %s
 msg.phrase	Macro: not enough memory	Macro: yaadannoon hin gahu
-msg.phrase	Macro: the cursor is not on a macro (a #!ruby / #!python / #!basic cell or the cells below it)	Macro: kursarri macro irra hin jiru (seelii #!ruby / #!python / #!basic ykn seelota isa jala)
-msg.phrase	Macro: no macro in the sheet	Macro: waraqaa keessa macroon hin jiru
+msg.phrase	Macro: the cursor is not on a macro (a #!ruby / #!python / #!basic cell or the cells below it)	Macro: akeektuun macro irra hin jiru (seelii #!ruby / #!python / #!basic ykn seelii jala isaa)
+msg.phrase	Macro: no macro in the sheet	Macro: waraqaa keessa macro hin jiru
 msg.phrase	Run all macros	Macro hunda hojjechiisi
-msg.phrase	Macros: %d. Run them all, top-left to bottom-right? Changes cannot be undone.	Macro: %d. Hunda, bitaa olii irraa hanga mirga gadiitti haa hojjetan? Jijjiiramni deebi'uu hin danda'u.
-msg.phrase	Macro: %d of %d done	Macro: %d xumurame (waliigala %d)
-msg.phrase	Cleared the cell	Seeliin qulqulleeffameera
-msg.phrase	Cleared the selection	Filannoon qulqulleeffameera
-msg.phrase	Background colour = %d	Halluu duubaa = %d
+msg.phrase	Macros: %d. Run them all, top-left to bottom-right? Changes cannot be undone.	Macro: %d. Hunda gubbaa bitaa irraa hanga jala mirgaatti hojjechiisuu? Jijjiiramni deebi'uu hin danda'u.
+msg.phrase	Macro: %d of %d done	Macro: %d keessaa %d xumurameera
+msg.phrase	Cleared the cell	Seeliin qulqullaa'eera
+msg.phrase	Cleared the selection	Filannoon qulqullaa'eera
+msg.phrase	Background colour = %d	Halluu duuba = %d
 msg.phrase	Text colour = %d	Halluu barreeffamaa = %d
 msg.phrase	Graph: line	Giraafii: sarara
-msg.phrase	Graph: bar	Giraafii: baaraa
-msg.phrase	Graph: mixed	Giraafii: walmakaa
-msg.phrase	Graph: pie	Giraafii: paayii
+msg.phrase	Graph: bar	Giraafii: utubaa
+msg.phrase	Graph: mixed	Giraafii: makaa
+msg.phrase	Graph: pie	Giraafii: pie
 msg.phrase	Exported %s	%s baafameera
 msg.phrase	choose a file or folder	faayila yookaan foldara filadhu
 msg.phrase	this drive cannot be written	konkolaataa kana irratti barreessuun hin danda'amu
@@ -1039,3 +1035,36 @@ msg.phrase	32 items at most (mark fewer, or put them in a folder)	hanga wantoota
 msg.prefix	archive	kuusaa
 msg.prefix	compress	cuqaasi
 msg.prefix	render	WAV baasuu
+ui	USB・時計・設定	USB, clock, settings
+ui	0.001 秒未満	0.001 s gadi
+ui	%s 秒	%s s
+ui	コンパイル %s  実行 %s	compile %s  run %s
+ui	コンパイル %s	compile %s
+ui	実行 %s	run %s
+msg.phrase	%s Sum %.7g N %ld%s	%s Ida'ama %.7g N %ld%s
+msg.phrase	EDIT  	GUL.
+msg.phrase	GRAPH  %s  %s	GIRAAFII  %s  %s
+msg.phrase	READY 	QOPH.
+msg.phrase	Version %s	Gosa %s
+msg.phrase	1 Help	1 Garg
+msg.phrase	3 Copy	3 Garag
+msg.phrase	4 Paste	4 Maxx
+msg.phrase	5 Goto	5 Deemi
+msg.phrase	6 Colour	6 Halluu
+msg.phrase	7 Fit	7 Walsim
+msg.phrase	8 Backgr	8 Duuba
+msg.phrase	9 Recalc	9 Herreg
+msg.phrase	10 Graph	10 Giraf
+msg.phrase	11 Save	11 Kuusi
+msg.phrase	12 Menu	12 Menu
+msg.phrase	1 About	1 Waa'ee
+msg.phrase	2 Height	2 Dheer
+msg.phrase	3 Width	3 Bal'in
+msg.phrase	4 SelAll	4 Hunda
+msg.phrase	10 Range	10 Daang
+msg.phrase	11 Name	11 Akka
+msg.phrase	1 New	1 Haaraa
+msg.phrase	2 Open	2 Bani
+msg.phrase	4 SaveAs	4 Akka
+msg.phrase	12 Quit	12 Ba'i
+msg.phrase	3 Save	3 Kuusi

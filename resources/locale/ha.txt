@@ -21,14 +21,14 @@ ui	属性を変える	Canza halaye
 ui	エディタで開く	Buɗe a editan rubutu
 ui	テキスト表示（Shift+V / Ctrl+Alt+F7 は 16 進）	Duba a matsayin rubutu (Shift+V / Ctrl+Alt+F7 hex)
 ui	ドライブの情報	Bayanin faifai
-ui	フォルダを作る / 新しいファイル	Sabon babban fayil / sabon fayil
+ui	フォルダを作る（Shift+F5） / 新しいファイル（Ctrl+F1）	Sabon babban fayil (Shift+F5) / sabon fayil (Ctrl+F1)
 ui	シェル sgsh / 媒体を取り出す	Shell sgsh / fitar da faifai
 ui	読み直す	Sake lodawa
-ui	見えている画面を PNG で保存	Ajiye allon a matsayin PNG
+ui	見えている画面を PNG で保存（Alt+F5 も同じ）	Ajiye allon a matsayin PNG (= Alt+F5)
 ui	窓を閉じる・選択を解く（サブフォルダでは上位へ）	Rufe taga / cire zaɓi (a cikin ƙaramin babban fayil: hau sama)
-ui	ファイルの操作（FD と同じ。印・範囲・カーソルの順に選ぶ）	Ayyukan fayil (kamar FD: alamomi, sannan kewayo, sannan siginan)
-ui	コピー: 行き先はドライブとフォルダの木から。ESC で止める	Kwafa: zaɓi inda za a kai daga bishiyar faifai da manyan fayiloli. ESC yana tsayarwa
-ui	削除: y で確かめる。印・範囲をまとめて。フォルダは中身ごと	Share: tabbatar da y. Alamomi da kewayo tare. Manyan fayiloli tare da abin da ke ciki
+ui	ファイルの操作（FD と同じ。印・範囲・カーソルの順）	Ayyukan fayil (kamar FD: alamomi, sannan kewayo, sannan siginan)
+ui	コピー: 行き先は木から選ぶ。ESC で止める	Kwafa: zaɓi inda za a kai daga bishiyar faifai da manyan fayiloli. ESC yana tsayarwa
+ui	削除: y で確かめる。印・範囲をまとめて	Share: tabbatar da y. Alamomi da kewayo tare. Manyan fayiloli tare da abin da ke ciki
 ui	フォルダを削除（中身ごと）	Share babban fayil (tare da abin da ke ciki)
 ui	名前を変える（今の名前を直して Enter）	Sake suna (gyara suna, Enter)
 ui	属性: R 読み出し専用・H 隠し・S システム・A アーカイブ	Halaye: R karatu kawai, H ɓoye, S tsarin, A taskar
@@ -50,22 +50,19 @@ ui	画面（Alt+F。FD の F キーとぶつからない）	Allo (Alt+F, ba ya k
 ui	FB（絵）/ テキスト面を出す・隠す	Nuna / ɓoye FB (hoto) / rubutu
 ui	FB の表示ページ（0〜3）	Shafin nuni na FB (0-3)
 ui	FB を 0 で消す / 明るさを 1/2 に（RGB555）	Share FB zuwa 0 / rage haske rabi (RGB555)
-ui	USB のエンドポイントと LAN の状態	Wuraren ƙarshe na USB da yanayin LAN
+ui	USB のエンドポイントと LAN（U: 10 秒に 1 度）	Wuraren ƙarshe na USB da yanayin LAN
 ui	FB の表示ページを消す / 明るさを 1/2 に	Share shafin nuni na FB / rage haske rabi
 ui	テキストの属性の見本	Misalan halayen rubutu
 ui	モニタの EDID（起動時に読んだもの）	EDID na allo (an karanta lokacin kunnawa)
 ui	フォント ROM のライセンスとクレジット	Lasisi da yabo na ROM ɗin rubutu
 ui	設定（表示の言語・IME・キーボードロケール）	Saituna (harshen nuni, IME da tsarin madannai)
-ui	時計（NTP で合わせた日本時間。s ですぐ合わせる）	Agogo (lokacin Japan ta NTP; s yana daidaitawa yanzu)
+ui	時計（NTP で合わせた日本時間。s は 3 分に 1 度）	Agogo (lokacin Japan ta NTP; s yana daidaitawa yanzu)
 ui	表計算（SGCALC）を開く	Buɗe takardar lissafi (SGCALC)
 ui	S: ドライブのエラー検査（誤りがあれば直すか聞く）	Bincika kurakuran S: (yana tambaya kafin gyara)
 ui	トラッカー（TRACKER）を開く	Buɗe TRACKER
-ui	再起動（確かめの窓が出る）	Sake kunnawa (yana tambaya da farko)
+ui	再起動（確かめの窓）。Ctrl+Alt+Del も同じ	Sake kunnawa (yana tambaya da farko) = Ctrl+Alt+Del
 ui	ADC のステレオ入力（GP40 / 41）を鳴らす	Kunna shigarwar sitiriyo ta ADC (GP40 / 41)
 ui	VGM/VGZ を 96kHz/24bit WAV に書き出す	Fitar da VGM/VGZ zuwa WAV na kHz 96 / bit 24
-ui	このヘルプ	Wannan taimako
-ui	ページを替える	Canza shafi
-ui	閉じる	Rufe
 ui	テキスト・16 進のビュアー（less 風）	Mai duba rubutu / hex (kamar less)
 ui	1 行	Layi ɗaya
 ui	1 ページ	Shafi ɗaya
@@ -83,10 +80,9 @@ ui	IME の言語（日本語 / English / 한국어）	Harshen IME (Jafananci / T
 ui	ひらがな / カタカナで確定	Tabbatar a matsayin hiragana / katakana
 ui	エディタのヘルプ	Taimakon editan rubutu
 ui	シェル	Shell
-ui	シェル（csh のサブセット。exit / Ctrl-D で戻る、help で一覧）	Shell (ɓangaren csh. exit / Ctrl-D don komawa, help yana jera umarni)
+ui	シェル（csh の一部。exit / Ctrl-D で戻る、help で一覧）	Shell (ɓangaren csh. exit / Ctrl-D don komawa, help yana jera umarni)
 ui	一覧と移動	Jeri da motsi
 ui	ファイルの操作	Ayyukan fayil
-ui	画面と機器	Allo da na'urori
 ui	ビュアーとエディタ	Masu duba da editan rubutu
 ui	ヘルプ  %u / %u  %s	Taimako  %u / %u  %s
 ui	Left Right: ページを替える    F1 / ESC: 閉じる	Hagu Dama: canza shafi    F1 / ESC: rufe
@@ -147,9 +143,9 @@ ui	10 EP表	10 EP
 ui	11 時計	11 Agogo
 ui	12 表計	12 CALC
 ui	1 属性	1 Hali
-ui	2 情報	2 Bayani
+ui	2Drv情報	2 Bayani
 ui	3 移動	3 Matsar
-ui	5 作成	5 Jaka
+ui	5 ﾌｫﾙﾀﾞ	5 Jaka
 ui	6 シェル	6 Shell
 ui	8 編集	8 Gyara
 ui	9 表示	9 Duba
@@ -487,11 +483,11 @@ msg.phrase	the sound is not open	ba a buɗe sauti ba
 msg.phrase	no such channel	babu irin wannan tasha
 msg.phrase	the sequencer is busy	mai jerawa yana aiki
 msg.phrase	not enough PSRAM for the song	PSRAM ba ta isa ga waƙa ba
-msg.phrase	not a standard MIDI file (no MThd)	ba daidaitaccen fayil na MIDI ba (babu MThd)
-msg.phrase	no tracks	babu waƙoƙi
-msg.phrase	a track is broken (MTrk)	wata waƙa ta lalace (MTrk)
-msg.phrase	SMPTE time division is not supported	ba a tallafa wa rabon lokaci na SMPTE ba
-msg.phrase	SMF format 2 is not supported (0 and 1 only)	ba a tallafa wa tsarin SMF 2 ba (0 da 1 kawai)
+msg.phrase	not a standard MIDI file (no MThd)	ba fayil na MIDI na yau da kullum ba (babu MThd)
+msg.phrase	no tracks	babu track
+msg.phrase	a track is broken (MTrk)	wani track ya lalace (MTrk)
+msg.phrase	SMPTE time division is not supported	ba a goyi bayan rabon lokaci na SMPTE ba
+msg.phrase	SMF format 2 is not supported (0 and 1 only)	ba a goyi bayan tsarin SMF 2 ba (0 da 1 kawai)
 msg.phrase	not a Bulk-Only drive	ba faifan Bulk-Only ba
 msg.phrase	not an optical drive	ba faifan haske ba
 msg.phrase	a system folder cannot be deleted or renamed	ba za a iya share ko sake sunan babban fayil na tsarin ba
@@ -547,7 +543,7 @@ msg.phrase	Not supported on this drive	Ba a tallafa a wannan faifai ba
 msg.phrase	Invalid path	Hanya mara inganci
 msg.phrase	Out of memory	Ƙwaƙwalwa ta ƙare
 msg.phrase	No such drive	Babu irin wannan faifai
-msg.phrase	stopped	an tsaya
+msg.phrase	stopped	ya tsaya
 msg.phrase	cancelled (not enough free space)	an soke (sarari bai isa ba)
 msg.phrase	could not count the free space	ba a iya ƙirga sarari ba
 msg.phrase	the receiver cancelled	mai karɓa ya soke
@@ -622,22 +618,22 @@ msg.word	 rows	 layi
 msg.word	 -- not supported yet (FAT / exFAT / NTFS only)	 -- ba a tallafa ba tukuna (FAT / exFAT / NTFS kawai)
 msg.word	 files	 fayiloli
 msg.word	 (	 (
-msg.phrase	Untitled	Mara suna
+msg.phrase	Untitled	Babu suna
 msg.phrase	1 File	1 Fayil
 msg.phrase	2 Edit	2 Gyara
 msg.phrase	3 Graph	3 Jadawali
 msg.phrase	4 Sheet	4 Takarda
 msg.phrase	5 Help	5 Taimako
-msg.phrase	EMPTY	FANKO
+msg.phrase	EMPTY	BABU
 msg.phrase	NUMBER	LAMBA
 msg.phrase	TEXT	RUBUTU
 msg.phrase	FORMULA	DABARA
 msg.phrase	Type to enter, F2 to edit, F1 for help	Rubuta don shigarwa, F2 don gyara, F1 don taimako
 msg.phrase	Ready	A shirye
 msg.phrase	Press any key	Danna kowane maɓalli
-msg.phrase	Y = yes    N = no    Esc = cancel	Y = ee    N = a'a    Esc = soke
-msg.phrase	Enter = OK    Esc = cancel    Ctrl-U = clear	Enter = To    Esc = soke    Ctrl-U = share
-msg.phrase	First row/column = labels; charts use the 640x480 CLUT8 FB.	Layi/ginshiƙi na farko = lakabi; jadawali suna amfani da FB CLUT8 640x480.
+msg.phrase	Y = yes    N = no    Esc = cancel	Y = i    N = a'a    Esc = soke
+msg.phrase	Enter = OK    Esc = cancel    Ctrl-U = clear	Enter = to    Esc = soke    Ctrl-U = goge
+msg.phrase	First row/column = labels; charts use the 640x480 CLUT8 FB.	Layi na farko = lakabi; jadawali yana amfani da FB CLUT8 640x480.
 msg.phrase	SGCALC - HELP	SGCALC - TAIMAKO
 msg.phrase	Press any key to return	Danna kowane maɓalli don komawa
 msg.phrase	Press any key to return.	Danna kowane maɓalli don komawa.
@@ -646,54 +642,54 @@ msg.phrase	New	Sabo
 msg.phrase	Start a new sheet	Fara sabuwar takarda
 msg.phrase	Open...	Buɗe...
 msg.phrase	Open an ODS, FODS or CSV file	Buɗe fayil na ODS, FODS ko CSV
-msg.phrase	Save	Ajiye
-msg.phrase	Save the current file	Ajiye fayil na yanzu
-msg.phrase	Save As...	Ajiye a matsayin...
-msg.phrase	Save with a new name or format	Ajiye da sabon suna ko tsari
+msg.phrase	Save	Adana
+msg.phrase	Save the current file	Adana fayil na yanzu
+msg.phrase	Save As...	Adana kamar...
+msg.phrase	Save with a new name or format	Adana da sabon suna ko tsari
 msg.phrase	Export CSV...	Fitar da CSV...
 msg.phrase	Write a CSV copy	Rubuta kwafin CSV
 msg.phrase	Export ODS...	Fitar da ODS...
 msg.phrase	Write a LibreOffice copy	Rubuta kwafin LibreOffice
 msg.phrase	Quit	Fita
-msg.phrase	Leave SGCALC	Bar SGCALC
-msg.phrase	Clear	Share
-msg.phrase	Clear the selected cells	Share ƙwayoyin da aka zaɓa
-msg.phrase	Copy	Kwafa
-msg.phrase	Copy the selection	Kwafa zaɓi
+msg.phrase	Leave SGCALC	Fita daga SGCALC
+msg.phrase	Clear	Goge
+msg.phrase	Clear the selected cells	Goge sel da aka zaɓa
+msg.phrase	Copy	Kwafi
+msg.phrase	Copy the selection	Kwafi abin da aka zaɓa
 msg.phrase	Paste	Liƙa
-msg.phrase	Paste at the cursor	Liƙa a siginan
+msg.phrase	Paste at the cursor	Liƙa a wurin alama
 msg.phrase	Cut	Yanke
-msg.phrase	Copy and clear the selection	Kwafa ka share zaɓi
+msg.phrase	Copy and clear the selection	Kwafi sannan ka goge abin da aka zaɓa
 msg.phrase	Select all	Zaɓi duka
-msg.phrase	Select all used cells	Zaɓi duk ƙwayoyin da aka yi amfani da su
+msg.phrase	Select all used cells	Zaɓi duk sel da aka yi amfani
 msg.phrase	Text color...	Launin rubutu...
 msg.phrase	Choose the text colour	Zaɓi launin rubutu
 msg.phrase	Background...	Bango...
-msg.phrase	Choose the cell background	Zaɓi bangon ƙwaya
+msg.phrase	Choose the cell background	Zaɓi bangon sel
 msg.phrase	Line	Layi
 msg.phrase	Draw a line graph from the selection	Zana jadawalin layi daga zaɓi
 msg.phrase	Bar	Sanda
 msg.phrase	Draw a bar graph from the selection	Zana jadawalin sanda daga zaɓi
 msg.phrase	Mixed	Gauraye
-msg.phrase	Bars for the first series, lines for the rest	Sanduna ga jeri na farko, layuka ga sauran
-msg.phrase	Pie	Ƙeƙe
-msg.phrase	Draw a pie graph from the selection	Zana jadawalin ƙeƙe daga zaɓi
-msg.phrase	Range...	Kewayo...
-msg.phrase	Set the graph range explicitly	Saita kewayon jadawali a sarari
+msg.phrase	Bars for the first series, lines for the rest	Sanda don jeri na farko, layi don sauran
+msg.phrase	Pie	Pie
+msg.phrase	Draw a pie graph from the selection	Zana jadawalin pie daga zaɓi
+msg.phrase	Range...	Iyaka...
+msg.phrase	Set the graph range explicitly	Rubuta iyakar jadawali
 msg.phrase	Draw again	Sake zana
-msg.phrase	Redraw the last graph	Sake zana jadawalin ƙarshe
+msg.phrase	Redraw the last graph	Sake zana jadawali na ƙarshe
 msg.phrase	Goto...	Je zuwa...
-msg.phrase	Jump to a cell (for example C12)	Tsalle zuwa ƙwaya (misali C12)
-msg.phrase	Column width...	Faɗin ginshiƙi...
-msg.phrase	Change the selected columns' width	Canza faɗin ginshiƙan da aka zaɓa
+msg.phrase	Jump to a cell (for example C12)	Je zuwa sel (misali C12)
+msg.phrase	Column width...	Faɗin layi a tsaye...
+msg.phrase	Change the selected columns' width	Canza faɗin layukan tsaye da aka zaɓa
 msg.phrase	Row height...	Tsayin layi...
 msg.phrase	Change the selected rows' height	Canza tsayin layukan da aka zaɓa
-msg.phrase	Auto fit	Daidaita kai tsaye
-msg.phrase	Fit widths/heights to the contents (F7)	Daidaita faɗi/tsayi da abin da ke ciki (F7)
+msg.phrase	Auto fit	Daidaita
+msg.phrase	Fit widths/heights to the contents (F7)	Daidaita faɗi da tsayi da abin da ke ciki (F7)
 msg.phrase	Recalculate	Sake lissafi
-msg.phrase	Re-evaluate all formulas	Sake kimanta duk dabaru
-msg.phrase	Erase all	Share duka
-msg.phrase	Clear the whole sheet	Share takardar gaba ɗaya
+msg.phrase	Re-evaluate all formulas	Sake lissafin duk dabaru
+msg.phrase	Erase all	Goge duka
+msg.phrase	Clear the whole sheet	Goge duk takardar
 msg.phrase	Keys	Maɓallai
 msg.phrase	Show the key guide	Nuna jagorar maɓallai
 msg.phrase	About	Game da
@@ -703,26 +699,26 @@ msg.phrase	Edit	Gyara
 msg.phrase	Graph	Jadawali
 msg.phrase	Sheet	Takarda
 msg.phrase	Help	Taimako
-msg.phrase	File: new, open, save, export, quit	Fayil: sabo, buɗe, ajiye, fitar, fita
-msg.phrase	Edit: clear, copy, paste, cut, select all	Gyara: share, kwafa, liƙa, yanke, zaɓi duka
-msg.phrase	Graph: line, bar, mixed, pie (draws in the FB)	Jadawali: layi, sanda, gauraye, ƙeƙe (ana zanawa a FB)
-msg.phrase	Sheet: goto, column width, recalculate, erase	Takarda: je zuwa, faɗin ginshiƙi, sake lissafi, share
+msg.phrase	File: new, open, save, export, quit	Fayil: sabo, buɗe, adana, fitarwa, fita
+msg.phrase	Edit: clear, copy, paste, cut, select all	Gyara: goge, kwafi, liƙa, yanke, zaɓi duka
+msg.phrase	Graph: line, bar, mixed, pie (draws in the FB)	Jadawali: layi, sanda, gauraye, pie (a FB)
+msg.phrase	Sheet: goto, column width, recalculate, erase	Takarda: je zuwa, faɗin layi a tsaye, sake lissafi, goge
 msg.phrase	Help: keys and about	Taimako: maɓallai da game da
 msg.phrase	Left/Right = menu    Up/Down = item    Enter = choose    Esc = cancel	Hagu/Dama = menu    Sama/Ƙasa = abu    Enter = zaɓi    Esc = soke
 msg.phrase	Cancelled	An soke
-msg.phrase	The selection is too large or memory is low.	Zaɓi ya yi girma da yawa ko ƙwaƙwalwa ta yi ƙasa.
+msg.phrase	The selection is too large or memory is low.	Zaɓin ya yi girma ko ƙwaƙwalwa ta yi ƙasa.
 msg.phrase	the cell	ƙwayar
 msg.phrase	the selection	zaɓin
 msg.phrase	Nothing to paste	Babu abin liƙawa
 msg.phrase	Pasted	An liƙa
-msg.phrase	GO TO CELL	JE ZUWA ƘWAYA
-msg.phrase	Cell reference (A1):	Nunin ƙwaya (A1):
+msg.phrase	GO TO CELL	JE ZUWA SEL
+msg.phrase	Cell reference (A1):	Nassin sel (A1):
 msg.phrase	Goto	Je zuwa
-msg.phrase	COLUMN WIDTH	FAƊIN GINSHIƘI
+msg.phrase	COLUMN WIDTH	FAƊIN LAYI A TSAYE
 msg.phrase	Width in characters (4..30):	Faɗi a haruffa (4..30):
 msg.phrase	ROW HEIGHT	TSAYIN LAYI
 msg.phrase	Height in text rows (1..8):	Tsayi a layukan rubutu (1..8):
-msg.phrase	Auto fit: the sheet is empty	Daidaita kai tsaye: takarda fanko ce
+msg.phrase	Auto fit: the sheet is empty	Daidaita: takardar babu komai
 msg.phrase	BACKGROUND COLOUR	LAUNIN BANGO
 msg.phrase	TEXT COLOUR	LAUNIN RUBUTU
 msg.phrase	Arrows: choose    Enter: apply    Esc: cancel	Kibiyoyi: zaɓi    Enter: aiwatar    Esc: soke
@@ -731,254 +727,254 @@ msg.phrase	Enter = apply    Esc = cancel	Enter = aiwatar    Esc = soke
 msg.phrase	Colour	Launi
 msg.phrase	Background	Bango
 msg.phrase	Text	Rubutu
-msg.phrase	GRAPH RANGE	KEWAYON JADAWALI
-msg.phrase	Range (for example A1:C10):	Kewayo (misali A1:C10):
-msg.phrase	Graph range	Kewayon jadawali
-msg.phrase	Use a range such as A1:C10.	Yi amfani da kewayo kamar A1:C10.
+msg.phrase	GRAPH RANGE	IYAKAR JADAWALI
+msg.phrase	Range (for example A1:C10):	Iyaka (misali A1:C10):
+msg.phrase	Graph range	Iyakar jadawali
+msg.phrase	Use a range such as A1:C10.	Yi amfani da iyaka kamar A1:C10.
 msg.phrase	Cannot draw the graph.	Ba za a iya zana jadawali ba.
 msg.phrase	line	layi
 msg.phrase	bar	sanda
 msg.phrase	mixed	gauraye
 msg.phrase	pie	ƙeƙe
-msg.phrase	Clear every cell in this sheet?	Share kowace ƙwaya a wannan takarda?
-msg.phrase	Sheet erased	An share takarda
-msg.phrase	Selected all used cells	An zaɓi duk ƙwayoyin da aka yi amfani da su
+msg.phrase	Clear every cell in this sheet?	A goge duk sel na wannan takarda?
+msg.phrase	Sheet erased	An goge takarda
+msg.phrase	Selected all used cells	An zaɓi duk sel da aka yi amfani
 msg.phrase	Recalculated	An sake lissafi
 msg.phrase	Memory	Ƙwaƙwalwa
-msg.phrase	Not enough PSRAM for the spreadsheet.	PSRAM ba ta isa ga takardar lissafi ba.
-msg.phrase	The sheet is empty.	Takarda fanko ce.
-msg.phrase	No numeric data in the selected range.	Babu bayanan lamba a kewayon da aka zaɓa.
-msg.phrase	Other	Wani
-msg.phrase	No positive values for a pie chart	Babu ƙima mai kyau ga jadawalin ƙeƙe
+msg.phrase	Not enough PSRAM for the spreadsheet.	PSRAM bai isa ga takardar lissafi ba.
+msg.phrase	The sheet is empty.	Takardar babu komai.
+msg.phrase	No numeric data in the selected range.	Babu lambobi a iyakar da aka zaɓa.
+msg.phrase	Other	Sauran
+msg.phrase	No positive values for a pie chart	Babu ƙimomi masu kyau don jadawalin pie
 msg.phrase	LINE	LAYI
 msg.phrase	BAR	SANDA
 msg.phrase	MIXED	GAURAYE
-msg.phrase	PIE	ƘEƘE
+msg.phrase	PIE	PIE
 msg.phrase	Folder	Babban fayil
-msg.phrase	SAVE AS	AJIYE A MATSAYIN
+msg.phrase	SAVE AS	ADANA KAMAR
 msg.phrase	OPEN FILE	BUƊE FAYIL
 msg.phrase	Name:	Suna:
 msg.phrase	(type a name, or choose below)	(rubuta suna, ko zaɓi a ƙasa)
 msg.phrase	Name	Suna
 msg.phrase	Size	Girma
-msg.phrase	Enter=save  Left=up  Right/Enter on [DIR]=open  Tab=drive  Esc=cancel	Enter=ajiye  Hagu=sama  Dama/Enter a [DIR]=buɗe  Tab=faifai  Esc=soke
+msg.phrase	Enter=save  Left=up  Right/Enter on [DIR]=open  Tab=drive  Esc=cancel	Enter=adana  Hagu=sama  Dama/Enter a [DIR]=buɗe  Tab=faifai  Esc=soke
 msg.phrase	Enter=open  Left=up  Right/Enter on [DIR]=open  Tab=drive  Esc=cancel	Enter=buɗe  Hagu=sama  Dama/Enter a [DIR]=buɗe  Tab=faifai  Esc=soke
 msg.phrase	Not enough memory.	Ƙwaƙwalwa ba ta isa ba.
 msg.phrase	Overwrite	Rubuta a kai
 msg.phrase	Open	Buɗe
-msg.phrase	The file is too large (limit 8 MB).	Fayil ya yi girma da yawa (iyaka MB 8).
-msg.phrase	Not enough memory to read the file.	Ƙwaƙwalwa ba ta isa don karanta fayil ba.
-msg.phrase	Bad ZIP/ODS data.	Mummunan bayanan ZIP/ODS.
+msg.phrase	The file is too large (limit 8 MB).	Fayil ya yi girma sosai (iyaka 8 MB).
+msg.phrase	Not enough memory to read the file.	Ƙwaƙwalwa ba ta isa ta karanta fayil ba.
+msg.phrase	Bad ZIP/ODS data.	Bayanan ZIP/ODS sun lalace.
 msg.phrase	CRC error in the ODS file.	Kuskuren CRC a fayil na ODS.
-msg.phrase	Unsupported or damaged file.	Fayil ba a tallafa ba ko ya lalace.
+msg.phrase	Unsupported or damaged file.	Fayil da ba a goyi baya ba ko ya lalace.
 msg.phrase	Saved	An ajiye
 msg.phrase	Exported	An fitar
-msg.phrase	Unsaved changes	Canje-canje da ba a ajiye ba
-msg.phrase	Save the current sheet before continuing?	A ajiye takardar yanzu kafin a ci gaba?
+msg.phrase	Unsaved changes	Canje-canjen da ba a adana ba
+msg.phrase	Save the current sheet before continuing?	A adana takardar yanzu kafin a ci gaba?
 msg.phrase	New sheet	Sabuwar takarda
-msg.phrase	song is too large	waƙa ta yi girma da yawa
-msg.phrase	empty file	fayil fanko
+msg.phrase	song is too large	waƙar ta yi girma
+msg.phrase	empty file	fayil babu komai
 msg.phrase	not an SGT file	ba fayil na SGT ba
-msg.phrase	bad BPM	mummunan BPM
-msg.phrase	bad speed	mummunan sauri
-msg.phrase	bad title length	mummunan tsayin take
-msg.phrase	truncated title	take ya yanke
-msg.phrase	bad character in title	mummunan harafi a take
-msg.phrase	truncated order	tsari ya yanke
-msg.phrase	bad order length	mummunan tsayin tsari
-msg.phrase	bad pattern number in order	mummunar lambar tsari a jeri
-msg.phrase	truncated pattern list	jerin tsari ya yanke
-msg.phrase	bad pattern count	mummunan adadin tsari
-msg.phrase	bad pattern index	mummunar fihirisar tsari
-msg.phrase	duplicate pattern	tsari ya maimaita
-msg.phrase	truncated pattern data	bayanan tsari sun yanke
-msg.phrase	invalid pattern data	bayanan tsari marasa inganci
-msg.phrase	trailing data in file	ƙarin bayanai a ƙarshen fayil
-msg.phrase	order refers to a missing pattern	jeri yana nuna tsarin da babu
-msg.phrase	(untitled)	(mara suna)
+msg.phrase	bad BPM	BPM ba daidai ba
+msg.phrase	bad speed	gudu ba daidai ba
+msg.phrase	bad title length	tsawon take ba daidai ba
+msg.phrase	truncated title	take bai cika ba
+msg.phrase	bad character in title	harafi mara inganci a take
+msg.phrase	truncated order	jerin tsari bai cika ba
+msg.phrase	bad order length	tsawon jerin tsari ba daidai ba
+msg.phrase	bad pattern number in order	lambar pattern ba daidai ba a jerin tsari
+msg.phrase	truncated pattern list	jerin pattern bai cika ba
+msg.phrase	bad pattern count	yawan pattern ba daidai ba
+msg.phrase	bad pattern index	lambar pattern ba daidai ba
+msg.phrase	duplicate pattern	pattern ya maimaita
+msg.phrase	truncated pattern data	bayanan pattern ba su cika ba
+msg.phrase	invalid pattern data	bayanan pattern ba su da inganci
+msg.phrase	trailing data in file	akwai ƙarin bayanai a ƙarshen fayil
+msg.phrase	order refers to a missing pattern	jerin tsari yana amfani da pattern da babu
+msg.phrase	(untitled)	(babu suna)
 msg.phrase	Ready. Press F1 for help.	A shirye. Danna F1 don taimako.
 msg.phrase	Follow OFF	Bi A KASHE
-msg.phrase	Nothing to undo	Babu abin da za a maido
-msg.phrase	Undo	Maido
-msg.phrase	Note OFF	Kashe sauti
-msg.phrase	Set an effect letter first	Saita harafin tasiri da farko
-msg.phrase	Effect cleared	An share tasiri
-msg.phrase	Parameter cleared	An share siga
-msg.phrase	Note cleared	An share sauti
-msg.phrase	Instrument cleared	An share kayan kiɗa
-msg.phrase	Volume cleared	An share ƙara
+msg.phrase	Nothing to undo	Babu abin sokewa
+msg.phrase	Undo	An soke
+msg.phrase	Note OFF	Note off
+msg.phrase	Set an effect letter first	Rubuta harafin effect da farko
+msg.phrase	Effect cleared	An goge effect
+msg.phrase	Parameter cleared	An goge siga
+msg.phrase	Note cleared	An goge note
+msg.phrase	Instrument cleared	An goge kayan kiɗa
+msg.phrase	Volume cleared	An goge ƙara
 msg.phrase	Order list is full	Jerin tsari ya cika
-msg.phrase	Order inserted	An saka tsari
-msg.phrase	Cannot delete the last order	Ba za a iya share tsari na ƙarshe ba
-msg.phrase	Order deleted	An share tsari
+msg.phrase	Order inserted	An saka matsayi a jerin tsari
+msg.phrase	Cannot delete the last order	Ba za a iya goge matsayin ƙarshe ba
+msg.phrase	Order deleted	An goge matsayi daga jerin tsari
 msg.phrase	Playing song	Ana kunna waƙa
-msg.phrase	Stopped	An tsaya
+msg.phrase	Stopped	Ya tsaya
 msg.phrase	New song	Sabuwar waƙa
-msg.phrase	Discard unsaved changes and start a new song? (Y/N)	A watsar da canje-canje da ba a ajiye ba a fara sabuwar waƙa? (Y/N)
-msg.phrase	Discard unsaved changes and open a song? (Y/N)	A watsar da canje-canje da ba a ajiye ba a buɗe waƙa? (Y/N)
-msg.phrase	Discard unsaved changes and quit? (Y/N)	A watsar da canje-canje da ba a ajiye ba a fita? (Y/N)
-msg.phrase	Song settings updated	An sabunta saitunan waƙa
-msg.phrase	Filename is empty	Sunan fayil fanko ne
-msg.phrase	Save cancelled	An soke ajiyewa
+msg.phrase	Discard unsaved changes and start a new song? (Y/N)	A watsar da canje-canjen da ba a adana ba, a fara sabuwar waƙa? (Y/N)
+msg.phrase	Discard unsaved changes and open a song? (Y/N)	A watsar da canje-canjen da ba a adana ba, a buɗe waƙa? (Y/N)
+msg.phrase	Discard unsaved changes and quit? (Y/N)	A watsar da canje-canjen da ba a adana ba, a fita? (Y/N)
+msg.phrase	Song settings updated	An canza saitunan waƙa
+msg.phrase	Filename is empty	Sunan fayil babu komai
+msg.phrase	Save cancelled	An soke adanawa
 msg.phrase	Open cancelled	An soke buɗewa
 msg.phrase	Edit ON	Gyara A KUNNE
 msg.phrase	Edit OFF	Gyara A KASHE
 msg.phrase	Follow ON	Bi A KUNNE
 msg.phrase	Edit is OFF. Press F8 to edit.	Gyara a kashe yake. Danna F8 don gyara.
-msg.phrase	I/O error	Kuskuren I/O
-msg.phrase	file is too large	fayil ya yi girma da yawa
-msg.phrase	truncated file	fayil ya yanke
+msg.phrase	I/O error	kuskuren karatu/rubutu
+msg.phrase	file is too large	fayil ya yi girma
+msg.phrase	truncated file	fayil bai cika ba
 msg.phrase	#TRANSPORT AND FILES	#KUNNAWA DA FAYILOLI
 msg.phrase	#ORDER LIST	#JERIN TSARI
 msg.phrase	#DISPLAY	#NUNI
 msg.phrase	#EDITING	#GYARA
-msg.phrase	#EFFECTS (parameter is hexadecimal)	#TASIRI (siga hexadecimal ce)
-msg.phrase	LEFT/RIGHT PAGE   ENTER OR F1 CLOSE	HAGU/DAMA SHAFI   ENTER KO F1 RUFE
+msg.phrase	#EFFECTS (parameter is hexadecimal)	#EFFECT (siga a hexadecimal)
+msg.phrase	LEFT/RIGHT PAGE   ENTER OR F1 CLOSE	LEFT/RIGHT PAGE   ENTER OR F1 CLOSE
 msg.phrase	SONG SETTINGS	SAITUNAN WAƘA
-msg.phrase	UP/DOWN SELECT   LEFT/RIGHT ADJUST   ENTER/F2 CLOSE	SAMA/ƘASA ZAƁI   HAGU/DAMA DAIDAITA   ENTER/F2 RUFE
-msg.phrase	Type to edit the title. Backspace deletes the last character.	Rubuta don gyara take. Backspace yana share harafin ƙarshe.
-msg.phrase	BPM range 32..255. Speed range 1..31.	BPM 32..255. Sauri 1..31.
-msg.phrase	Pattern effects can also change speed and BPM while playing.	Tasirin tsari ma na iya canza sauri da BPM yayin kunnawa.
+msg.phrase	UP/DOWN SELECT   LEFT/RIGHT ADJUST   ENTER/F2 CLOSE	UP/DOWN SELECT   LEFT/RIGHT ADJUST   ENTER/F2 CLOSE
+msg.phrase	Type to edit the title. Backspace deletes the last character.	Rubuta don canza take. Backspace yana goge harafin ƙarshe.
+msg.phrase	BPM range 32..255. Speed range 1..31.	BPM daga 32 zuwa 255. Gudu daga 1 zuwa 31.
+msg.phrase	Pattern effects can also change speed and BPM while playing.	Effect na pattern ma na iya canza gudu da BPM yayin kunnawa.
 msg.phrase	INSTRUMENTS	KAYAN KIƊA
-msg.phrase	UP/DOWN SELECT   SPACE PREVIEW   ENTER USE   F3 CLOSE	SAMA/ƘASA ZAƁI   SPACE SAURARA   ENTER YI AMFANI   F3 RUFE
-msg.phrase	All four channels use wavetable synthesis.	Duk tashoshi huɗu suna amfani da haɗa sautin teburin raƙuman ruwa.
-msg.phrase	Preview plays C-4 on the track under the edit cursor.	Sauraro yana kunna C-4 a waƙar da ke ƙarƙashin siginan gyara.
-msg.phrase	SAVE SONG AS	AJIYE WAƘA A MATSAYIN
-msg.phrase	ENTER SAVE   F4 OR CTRL-C CANCEL	ENTER AJIYE   F4 KO CTRL-C SOKE
+msg.phrase	UP/DOWN SELECT   SPACE PREVIEW   ENTER USE   F3 CLOSE	UP/DOWN SELECT   SPACE PREVIEW   ENTER USE   F3 CLOSE
+msg.phrase	All four channels use wavetable synthesis.	Duk tashoshi huɗu suna amfani da wavetable.
+msg.phrase	Preview plays C-4 on the track under the edit cursor.	Sauraro yana kunna C-4 a track na alamar gyara.
+msg.phrase	SAVE SONG AS	ADANA WAƘA KAMAR
+msg.phrase	ENTER SAVE   F4 OR CTRL-C CANCEL	ENTER SAVE   F4 OR CTRL-C CANCEL
 msg.phrase	Directory:	Babban fayil:
 msg.phrase	File name:	Sunan fayil:
 msg.phrase	The extension .SGT is added automatically.	Ana ƙara tsawo .SGT kai tsaye.
 msg.phrase	An existing file can be overwritten.	Ana iya rubuta a kan fayil da ke akwai.
 msg.phrase	OPEN SONG	BUƊE WAƘA
-msg.phrase	ENTER OPEN  BS PARENT  CTRL-O/CTRL-C CANCEL	ENTER BUƊE  BS SAMA  CTRL-O/CTRL-C SOKE
-msg.phrase	(no .SGT files in this folder)	(babu fayilolin .SGT a wannan babban fayil)
+msg.phrase	ENTER OPEN  BS PARENT  CTRL-O/CTRL-C CANCEL	ENTER OPEN  BS PARENT  CTRL-O/CTRL-C CANCEL
+msg.phrase	(no .SGT files in this folder)	(babu fayil na .SGT a wannan babban fayil)
 msg.phrase	CONFIRM	TABBATAR
-msg.phrase	Y = YES   N / ENTER / CTRL-C = NO	Y = EE   N / ENTER / CTRL-C = A'A
-msg.phrase	Y = yes        N = no	Y = ee        N = a'a
+msg.phrase	Y = YES   N / ENTER / CTRL-C = NO	Y = YES   N / ENTER / CTRL-C = NO
+msg.phrase	Y = yes        N = no	Y = i        N = a'a
 msg.phrase	broken MThd	MThd ya lalace
 msg.phrase	MIDI IMPORT	SHIGO DA MIDI
-msg.phrase	broken delta time	lokacin delta ya lalace
+msg.phrase	broken delta time	delta time ya lalace
 msg.phrase	broken running status	running status ya lalace
-msg.phrase	broken meta event	taron meta ya lalace
-msg.phrase	broken sysex event	taron sysex ya lalace
-msg.phrase	broken channel event	taron tasha ya lalace
+msg.phrase	broken meta event	meta event ya lalace
+msg.phrase	broken sysex event	SysEx event ya lalace
+msg.phrase	broken channel event	channel event ya lalace
 msg.phrase	SMF output is too small	fitarwar SMF ta yi ƙanƙanta
-msg.phrase	SMF output is too large	fitarwar SMF ta yi girma da yawa
-msg.phrase	the song is too long for SMF	waƙa ta yi tsayi da yawa ga SMF
-msg.phrase	ARROWS      move the cell cursor\n	KIBIYOYI    matsar da siginan ƙwaya\n
-msg.phrase	SHIFT+ARR   extend the selection (for graphs/copy)\n	SHIFT+KIBI  faɗaɗa zaɓi (don jadawali/kwafa)\n
-msg.phrase	ENTER       edit the cell; in edit, commit and move down\n	ENTER       gyara ƙwaya; yayin gyara, tabbatar ka sauka\n
-msg.phrase	TAB         next cell    SHIFT+TAB  previous cell\n	TAB         ƙwaya ta gaba    SHIFT+TAB  ta baya\n
-msg.phrase	DELETE      clear the selected cell(s)    ESC  cancel\n	DELETE      share ƙwayoyin da aka zaɓa    ESC  soke\n
-msg.phrase	PGUP/PGDN   move one screen    HOME/END  first/last column\n	PGUP/PGDN   allo ɗaya    HOME/END  ginshiƙi na farko/ƙarshe\n
-msg.phrase	CTRL+HOME   A1    CTRL+END  last used cell\n	CTRL+HOME   A1    CTRL+END  ƙwaya ta ƙarshe da aka yi amfani da ita\n
-msg.phrase	F1 help  F2 edit  F3 copy  F4 paste  F5 goto  F6 colour\n	F1 taimako  F2 gyara  F3 kwafa  F4 liƙa  F5 je  F6 launi\n
-msg.phrase	F7 auto-fit  F8 background  F9 recalc  F10 graph  F11 save  F12 menu\n	F7 daidaita  F8 bango  F9 lissafi  F10 jadawali  F11 ajiye  F12 menu\n
-msg.phrase	SHIFT+F1 about  SHIFT+F2 row height  SHIFT+F3 column width\n	SHIFT+F1 game da  SHIFT+F2 tsayin layi  SHIFT+F3 faɗin ginshiƙi\n
-msg.phrase	SHIFT+F4 select all  SHIFT+F10 graph range  SHIFT+F11 save as\n	SHIFT+F4 zaɓi duka  SHIFT+F10 kewayon jadawali  SHIFT+F11 ajiye a matsayin\n
-msg.phrase	CTRL+F1 new  CTRL+F2 open  CTRL+F3 save  CTRL+F4 save as\n	CTRL+F1 sabo  CTRL+F2 buɗe  CTRL+F3 ajiye  CTRL+F4 ajiye a matsayin\n
-msg.phrase	CTRL+F5 export CSV  CTRL+F6 export ODS  ALT+F12 quit\n	CTRL+F5 fitar CSV  CTRL+F6 fitar ODS  ALT+F12 fita\n
-msg.phrase	Bottom 2 lines: function keys; [SHIFT]/[CTRL]/[ALT] like the filer\n	Layi 2 na ƙasa: maɓallan aiki; [SHIFT]/[CTRL]/[ALT] kamar mai sarrafa fayil\n
-msg.phrase	CTRL+S save  CTRL+O open  CTRL+N new  CTRL+C/V/X copy/paste/cut\n	CTRL+S ajiye  CTRL+O buɗe  CTRL+N sabo  CTRL+C/V/X kwafa/liƙa/yanke\n
+msg.phrase	SMF output is too large	fitarwar SMF ta yi girma
+msg.phrase	the song is too long for SMF	waƙar ta yi tsawo ga SMF
+msg.phrase	ARROWS      move the cell cursor\n	KIBIYOYI    matsar da alamar sel\n
+msg.phrase	SHIFT+ARR   extend the selection (for graphs/copy)\n	SHIFT+KIB   faɗaɗa zaɓi (don jadawali/kwafi)\n
+msg.phrase	ENTER       edit the cell; in edit, commit and move down\n	ENTER       gyara sel; idan ana gyara, tabbatar ka sauka ƙasa\n
+msg.phrase	TAB         next cell    SHIFT+TAB  previous cell\n	TAB         sel na gaba    SHIFT+TAB  sel na baya\n
+msg.phrase	DELETE      clear the selected cell(s)    ESC  cancel\n	DELETE      goge sel da aka zaɓa    ESC  soke\n
+msg.phrase	PGUP/PGDN   move one screen    HOME/END  first/last column\n	PGUP/PGDN   allo ɗaya    HOME/END  layi na farko/ƙarshe a tsaye\n
+msg.phrase	CTRL+HOME   A1    CTRL+END  last used cell\n	CTRL+HOME   A1    CTRL+END  sel na ƙarshe da aka yi amfani\n
+msg.phrase	F1 help  F2 edit  F3 copy  F4 paste  F5 goto  F6 colour\n	F1 taimako  F2 gyara  F3 kwafi  F4 liƙa  F5 je  F6 launi\n
+msg.phrase	F7 auto-fit  F8 background  F9 recalc  F10 graph  F11 save  F12 menu\n	F7 daidaita  F8 bango  F9 lissafa  F10 jadawali  F11 adana  F12 menu\n
+msg.phrase	SHIFT+F1 about  SHIFT+F2 row height  SHIFT+F3 column width\n	SHIFT+F1 game da  SHIFT+F2 tsayin layi  SHIFT+F3 faɗin layi a tsaye\n
+msg.phrase	SHIFT+F4 select all  SHIFT+F10 graph range  SHIFT+F11 save as\n	SHIFT+F4 zaɓi duka  SHIFT+F10 iyakar jadawali  SHIFT+F11 adana kamar\n
+msg.phrase	CTRL+F1 new  CTRL+F2 open  CTRL+F3 save  CTRL+F4 save as\n	CTRL+F1 sabo  CTRL+F2 buɗe  CTRL+F3 adana  CTRL+F4 adana kamar\n
+msg.phrase	CTRL+F5 export CSV  CTRL+F6 export ODS  ALT+F12 quit\n	CTRL+F5 fitar da CSV  CTRL+F6 fitar da ODS  ALT+F12 fita\n
+msg.phrase	Bottom 2 lines: function keys; [SHIFT]/[CTRL]/[ALT] like the filer\n	Layi 2 na ƙasa: maɓallan aiki; [SHIFT]/[CTRL]/[ALT] kamar filer\n
+msg.phrase	CTRL+S save  CTRL+O open  CTRL+N new  CTRL+C/V/X copy/paste/cut\n	CTRL+S adana  CTRL+O buɗe  CTRL+N sabo  CTRL+C/V/X kwafi/liƙa/yanke\n
 msg.phrase	CTRL+G goto    /  open the menu (1 File, 2 Edit, ...)\n	CTRL+G je    /  buɗe menu (1 Fayil, 2 Gyara, ...)\n
-msg.phrase	Built-in functions: SUM AVERAGE MIN MAX COUNT COUNTA\n	Ayyukan ciki: SUM AVERAGE MIN MAX COUNT COUNTA\n
-msg.phrase	Cell refs: A1, $A$1, A1:B10.  Formulas begin with '='.\n	Nunin ƙwaya: A1, $A$1, A1:B10.  Dabaru suna farawa da '='.\n
-msg.phrase	Files: .ods (LibreOffice), .fods (flat XML), .csv\n	Fayiloli: .ods (LibreOffice), .fods (XML lebur), .csv\n
-msg.phrase	ODS/FODS keeps formulas, widths, heights and colours.\n	ODS/FODS suna riƙe da dabaru, faɗi, tsayi da launuka.\n
-msg.phrase	CSV keeps values and formulas (no colours/heights).\n	CSV yana riƙe da ƙima da dabaru (babu launi/tsayi).\n
-msg.phrase	Graph: select a range, press F10, and choose Line/Bar/Mixed/Pie.\n	Jadawali: zaɓi kewayo, danna F10, sannan zaɓi Layi/Sanda/Gauraye/Ƙeƙe.\n
-msg.phrase	SGCALC for sgnano\n	SGCALC don sgnano\n
+msg.phrase	Built-in functions: SUM AVERAGE MIN MAX COUNT COUNTA\n	Ayyuka: SUM AVERAGE MIN MAX COUNT COUNTA\n
+msg.phrase	Cell refs: A1, $A$1, A1:B10.  Formulas begin with '='.\n	Nassoshin sel: A1, $A$1, A1:B10.  Dabara tana farawa da '='.\n
+msg.phrase	Files: .ods (LibreOffice), .fods (flat XML), .csv\n	Fayiloli: .ods (LibreOffice), .fods (XML), .csv\n
+msg.phrase	ODS/FODS keeps formulas, widths, heights and colours.\n	ODS/FODS yana adana dabaru, faɗi, tsayi da launuka.\n
+msg.phrase	CSV keeps values and formulas (no colours/heights).\n	CSV yana adana ƙima da dabaru kawai (babu launi/tsayi).\n
+msg.phrase	Graph: select a range, press F10, and choose Line/Bar/Mixed/Pie.\n	Jadawali: zaɓi iyaka, danna F10, zaɓi Layi/Sanda/Gauraye/Pie.\n
+msg.phrase	SGCALC for sgnano\n	SGCALC for sgnano\n
 msg.phrase	Version 	Siga
-msg.phrase	A Lotus 1-2-3 style spreadsheet as an SGX program.\n\n	Takardar lissafi irin ta Lotus 1-2-3 a matsayin shirin SGX.\n\n
-msg.phrase	Screen mode 3: text + CLUT8 FB (lowres disabled)\n	Yanayin allo 3: rubutu + FB CLUT8 (an kashe lowres)\n
+msg.phrase	A Lotus 1-2-3 style spreadsheet as an SGX program.\n\n	Takardar lissafi irin ta Lotus 1-2-3, shirin SGX.\n\n
+msg.phrase	Screen mode 3: text + CLUT8 FB (lowres disabled)\n	Yanayin allo 3: rubutu + FB CLUT8 (ba lowres)\n
 msg.phrase	Sheet: %d rows x %d columns\n	Takarda: layi %d x ginshiƙi %d\n
 msg.phrase	Formats: .ods / .fods (LibreOffice), .csv\n\n	Tsari: .ods / .fods (LibreOffice), .csv\n\n
-msg.phrase	The grid is drawn on the text plane.\n	Ana zana layukan grid a fagen rubutu.\n
+msg.phrase	The grid is drawn on the text plane.\n	Ana zana layukan tebur a kan matakin rubutu.\n
 msg.phrase	Charts and the 640x480 background use the FB.\n\n	Jadawali da bango na 640x480 suna amfani da FB.\n\n
-msg.phrase	Cannot store the cell (%d).	Ba za a iya ajiye ƙwaya ba (%d).
-msg.phrase	Copied %d x %d cells	An kwafa ƙwayoyi %d x %d
+msg.phrase	Cannot store the cell (%d).	Ba za a iya adana sel ba (%d).
+msg.phrase	Copied %d x %d cells	An kwafi sel %d x %d
 msg.phrase	Cleared %s	An share %s
-msg.phrase	'%s' is not a cell reference.	'%s' ba nunin ƙwaya ba ne.
-msg.phrase	Column width = %d	Faɗin ginshiƙi = %d
+msg.phrase	'%s' is not a cell reference.	'%s' ba nassin sel ba ne.
+msg.phrase	Column width = %d	Faɗin layi a tsaye = %d
 msg.phrase	Row height = %d	Tsayin layi = %d
-msg.phrase	Auto fit: %d column(s), %d row(s)	Daidaita kai tsaye: ginshiƙi %d, layi %d
-msg.phrase	Cannot apply the colour (%d).	Ba za a iya aiwatar da launi ba (%d).
-msg.phrase	Not a valid range.\nUse a range such as A1:C10.	Kewayo mara inganci.\nYi amfani da kewayo kamar A1:C10.
-msg.phrase	Graph range %s	Kewayon jadawali %s
+msg.phrase	Auto fit: %d column(s), %d row(s)	Daidaita: layin tsaye %d, layi %d
+msg.phrase	Cannot apply the colour (%d).	Ba za a iya sa launi ba (%d).
+msg.phrase	Not a valid range.\nUse a range such as A1:C10.	Iyakar ba daidai ba ce.\nYi amfani da iyaka kamar A1:C10.
+msg.phrase	Graph range %s	Iyakar jadawali %s
 msg.phrase	Graph: %s	Jadawali: %s
 msg.phrase	SGCALC: cannot set screen mode 3: %s\n	SGCALC: ba za a iya saita yanayin allo 3 ba: %s\n
 msg.phrase	Cannot read %s\n%s	Ba za a iya karanta %s ba\n%s
 msg.phrase	Folder: %s	Babban fayil: %s
-msg.phrase	Unsupported extension.\nUse .csv, .ods or .fods.	Tsawo da ba a tallafa ba.\nYi amfani da .csv, .ods ko .fods.
-msg.phrase	%s already exists.\nOverwrite it?	%s ya riga ya wanzu.\nA rubuta a kai?
-msg.phrase	%s may not be writable.\nTry anyway?	Mai yiwuwa ba za a iya rubuta %s ba.\nA gwada duk da haka?
-msg.phrase	Unknown file type for %s	Ba a san irin fayil na %s ba
-msg.phrase	Unsupported file type.\nUse .csv, .ods or .fods.	Irin fayil da ba a tallafa ba.\nYi amfani da .csv, .ods ko .fods.
+msg.phrase	Unsupported extension.\nUse .csv, .ods or .fods.	Ba a goyi bayan wannan tsawo ba.\nYi amfani da .csv, .ods ko .fods.
+msg.phrase	%s already exists.\nOverwrite it?	%s yana nan riga.\nA rubuta a kai?
+msg.phrase	%s may not be writable.\nTry anyway?	Watakila ba za a iya rubuta %s ba.\nA gwada duk da haka?
+msg.phrase	Unknown file type for %s	Ba a san irin fayil ba: %s
+msg.phrase	Unsupported file type.\nUse .csv, .ods or .fods.	Ba a goyi bayan irin fayil ba.\nYi amfani da .csv, .ods ko .fods.
 msg.phrase	Cannot open %s\n%s	Ba za a iya buɗe %s ba\n%s
 msg.phrase	%s is a folder.	%s babban fayil ne.
 msg.phrase	Cannot import %s\n%s	Ba za a iya shigo da %s ba\n%s
 msg.phrase	Loaded %s	An loda %s
-msg.phrase	Cannot build the %s file.	Ba za a iya gina fayil na %s ba.
+msg.phrase	Cannot build the %s file.	Ba za a iya ƙirƙiri fayil na %s ba.
 msg.phrase	Cannot write %s\n%s	Ba za a iya rubuta %s ba\n%s
-msg.phrase	unsupported version %u	siga %u ba a tallafa ba
-msg.phrase	Octave %d	Oktaf %d
-msg.phrase	Note %s	Sauti %s
+msg.phrase	unsupported version %u	sigar da ba a goyi baya ba (%u)
+msg.phrase	Octave %d	Octave %d
+msg.phrase	Note %s	Note %s
 msg.phrase	Instrument %d	Kayan kiɗa %d
 msg.phrase	Volume %s	Ƙara %s
-msg.phrase	Effect %c	Tasiri %c
+msg.phrase	Effect %c	Effect %c
 msg.phrase	Parameter %s	Siga %s
-msg.phrase	Pattern %s	Tsari %s
-msg.phrase	Playing pattern %s	Ana kunna tsari %s
-msg.phrase	SAVE ERROR: %s	KUSKUREN AJIYEWA: %s
-msg.phrase	Saved %s	An ajiye %s
+msg.phrase	Pattern %s	Pattern %s
+msg.phrase	Playing pattern %s	Ana kunna pattern %s
+msg.phrase	SAVE ERROR: %s	KUSKUREN ADANAWA: %s
+msg.phrase	Saved %s	An adana %s
 msg.phrase	LOAD ERROR: %s	KUSKUREN LODAWA: %s
 msg.phrase	BPM %d	BPM %d
-msg.phrase	Speed %d	Sauri %d
-msg.phrase	Preview %s	Sauraro %s
+msg.phrase	Speed %d	Gudu %d
+msg.phrase	Preview %s	Saurari %s
 msg.phrase	Instrument %s %s	Kayan kiɗa %s %s
 msg.phrase	Overwrite %s? (Y/N)	A rubuta a kan %s? (Y/N)
-msg.phrase	  F5          Play the song from the current order	  F5          Kunna waƙa daga tsari na yanzu
-msg.phrase	  F6          Play the current pattern	  F6          Kunna tsari na yanzu
-msg.phrase	  F7/Ctrl-C   Stop playback	  F7/Ctrl-C   Tsayar da kunnawa
-msg.phrase	  Space       Play / stop	  Space       Kunna / tsaya
-msg.phrase	  F4          Save as	  F4          Ajiye a matsayin
-msg.phrase	  Ctrl-S      Save (asks for a name if new)	  Ctrl-S      Ajiye (yana tambayar suna idan sabo ne)
+msg.phrase	  F5          Play the song from the current order	  F5          Kunna waƙa daga matsayin yanzu
+msg.phrase	  F6          Play the current pattern	  F6          Kunna pattern na yanzu
+msg.phrase	  F7/Ctrl-C   Stop playback	  F7/Ctrl-C   Dakatar da kunnawa
+msg.phrase	  Space       Play / stop	  Space       Kunna / dakatar
+msg.phrase	  F4          Save as	  F4          Adana kamar
+msg.phrase	  Ctrl-S      Save (asks for a name if new)	  Ctrl-S      Adana (yana tambayar suna idan sabo ne)
 msg.phrase	  Ctrl-O      Open a song	  Ctrl-O      Buɗe waƙa
 msg.phrase	  Ctrl-N      New song	  Ctrl-N      Sabuwar waƙa
-msg.phrase	  F12         Quit (confirmation if modified)	  F12         Fita (yana tabbatarwa idan an canza)
-msg.phrase	  [ ]         Previous / next order entry	  [ ]         Shigarwar jeri ta baya / ta gaba
-msg.phrase	  { }         Insert / delete an order entry	  { }         Saka / share shigarwar jeri
-msg.phrase	  - +         Change the pattern in the entry	  - +         Canza tsari a shigarwa
-msg.phrase	  F11         Follow playback (turns off on manual move)	  F11         Bi kunnawa (yana kashewa idan an motsa da hannu)
+msg.phrase	  F12         Quit (confirmation if modified)	  F12         Fita (yana neman tabbaci idan an canza)
+msg.phrase	  [ ]         Previous / next order entry	  [ ]         Matsayi na baya / na gaba
+msg.phrase	  { }         Insert / delete an order entry	  { }         Saka / goge matsayi
+msg.phrase	  - +         Change the pattern in the entry	  - +         Canza pattern na wannan matsayi
+msg.phrase	  F11         Follow playback (turns off on manual move)	  F11         Bi kunnawa (yana kashewa idan an matsa da hannu)
 msg.phrase	  F1          Help; Left/Right changes page	  F1          Taimako; Hagu/Dama yana canza shafi
-msg.phrase	  F8          Toggle edit mode	  F8          Kunna/kashe yanayin gyara
-msg.phrase	  Arrows      Move the cursor	  Kibiyoyi    Matsar da siginan
-msg.phrase	  PgUp/PgDn   Jump 16 rows	  PgUp/PgDn   Tsalle layi 16
-msg.phrase	  Home/End    First / last row	  Home/End    Layi na farko / ƙarshe
-msg.phrase	  F9/F10      Octave down / up	  F9/F10      Oktaf ƙasa / sama
-msg.phrase	  Z S X D C V G B H N J M      lower piano row	  Z S X D C V G B H N J M      jeren piano na ƙasa
-msg.phrase	  Q 2 W 3 E R 5 T 6 Y 7 U      upper piano row	  Q 2 W 3 E R 5 T 6 Y 7 U      jeren piano na sama
-msg.phrase	  1           Note off	  1           Kashe sauti
-msg.phrase	  0 / Del     0 clears note/inst/fx; Del clears any	  0 / Del     0 yana share sauti/kayan/tasiri; Del yana share kowane
-msg.phrase	  Ctrl-Z      Undo the last pattern/order edit	  Ctrl-Z      Maido gyaran tsari/jeri na ƙarshe
+msg.phrase	  F8          Toggle edit mode	  F8          Kunna / kashe gyara
+msg.phrase	  Arrows      Move the cursor	  Kibiyoyi    Matsar da alama
+msg.phrase	  PgUp/PgDn   Jump 16 rows	  PgUp/PgDn   Tsallake layi 16
+msg.phrase	  Home/End    First / last row	  Home/End    Layi na farko / na ƙarshe
+msg.phrase	  F9/F10      Octave down / up	  F9/F10      Octave ƙasa / sama
+msg.phrase	  Z S X D C V G B H N J M      lower piano row	  Z S X D C V G B H N J M      layin piano na ƙasa
+msg.phrase	  Q 2 W 3 E R 5 T 6 Y 7 U      upper piano row	  Q 2 W 3 E R 5 T 6 Y 7 U      layin piano na sama
+msg.phrase	  1           Note off	  1           Note off
+msg.phrase	  0 / Del     0 clears note/inst/fx; Del clears any	  0 / Del     0 yana goge note/kaya/effect; Del yana goge filin
+msg.phrase	  Ctrl-Z      Undo the last pattern/order edit	  Ctrl-Z      Soke gyaran pattern/jerin tsari na ƙarshe
 msg.phrase	  Axy   Volume slide: up x, down y	  Axy   Zamewar ƙara: sama x, ƙasa y
-msg.phrase	  Cxx   Note cut after xx ticks	  Cxx   Yanke sauti bayan tick xx
+msg.phrase	  Cxx   Note cut after xx ticks	  Cxx   Yanke note bayan tick xx
 msg.phrase	  Dxx   Set volume (00..7F)	  Dxx   Saita ƙara (00..7F)
-msg.phrase	  Fxx   Speed if xx < 20, otherwise BPM	  Fxx   Sauri idan xx < 20, in ba haka ba BPM
-msg.phrase	  Hxy   Arpeggio x, y semitones	  Hxy   Arpeggio x, y rabin murya
-msg.phrase	  Pxx   Pitch slide up	  Pxx   Zamewar sautin sama
-msg.phrase	  Qxx   Pitch slide down	  Qxx   Zamewar sautin ƙasa
+msg.phrase	  Fxx   Speed if xx < 20, otherwise BPM	  Fxx   Gudu idan xx < 20, idan ba haka ba BPM
+msg.phrase	  Hxy   Arpeggio x, y semitones	  Hxy   Arpeggio x, y semitone
+msg.phrase	  Pxx   Pitch slide up	  Pxx   Zamewar sauti sama
+msg.phrase	  Qxx   Pitch slide down	  Qxx   Zamewar sauti ƙasa
 msg.phrase	  F2 song settings, F3 instrument list	  F2 saitunan waƙa, F3 jerin kayan kiɗa
-msg.phrase	HELP %d/2	TAIMAKO %d/2
+msg.phrase	HELP %d/2	HELP %d/2
 msg.phrase	  Title	  Take
 msg.phrase	  BPM   : %d     (left/right -1/+1, -/+ -5/+5)	  BPM   : %d     (hagu/dama -1/+1, -/+ -5/+5)
-msg.phrase	  Speed : %d ticks/row	  Sauri : tick %d/layi
-msg.phrase	  Rows  : %d (fixed)	  Layi  : %d (tsayayye)
-msg.phrase	  Order : %d entries	  Jeri  : shigarwa %d
-msg.phrase	  Patterns in use : %d	  Tsarin da ake amfani da su : %d
+msg.phrase	  Speed : %d ticks/row	  Gudu  : tick %d a kowane layi
+msg.phrase	  Rows  : %d (fixed)	  Layuka : %d (tsayayye)
+msg.phrase	  Order : %d entries	  Jerin tsari : matsayi %d
+msg.phrase	  Patterns in use : %d	  Pattern da ake amfani : %d
 msg.phrase	Current instrument: %s %s	Kayan kiɗa na yanzu: %s %s
 msg.phrase	Files: %d	Fayiloli: %d
-msg.phrase	SGNO TRACKER: incompatible SGX ABI\n	SGNO TRACKER: SGX ABI bai dace ba\n
+msg.phrase	SGNO TRACKER: incompatible SGX ABI\n	SGNO TRACKER: sigar SGX ABI ba ta dace ba\n
 msg.phrase	S: check: wait -- a file is being read or written	Binciken S:: jira -- ana karanta ko rubuta fayil
 msg.phrase	S: check: the drive is busy or not ready	Binciken S:: faifai yana aiki ko bai shirya ba
 msg.phrase	nothing for this item (ContextMenu.cfg)	babu komai ga wannan abu (ContextMenu.cfg)
@@ -987,46 +983,46 @@ msg.phrase	unknown action in ContextMenu.cfg	aikin da ba a sani ba a ContextMenu
 msg.prefix	menu	menu
 msg.phrase	5 Macro	5 Macro
 msg.phrase	6 Help	6 Taimako
-msg.phrase	Run current	Gudanar na yanzu
-msg.phrase	Run the macro at the cursor (#! header cell and the cells below it)	Gudanar da macro a siginan (ƙwayar take #! da ƙwayoyin ƙasa da ita)
+msg.phrase	Run current	Gudanar da wannan
+msg.phrase	Run the macro at the cursor (#! header cell and the cells below it)	Gudanar da macro a wurin alama (sel na kai #! da na ƙasansa)
 msg.phrase	Run selection	Gudanar da zaɓi
-msg.phrase	Run the selected cells as one macro (top-left cell is the #! header)	Gudanar da ƙwayoyin da aka zaɓa a matsayin macro ɗaya (ƙwaya ta sama hagu ita ce take #!)
+msg.phrase	Run the selected cells as one macro (top-left cell is the #! header)	Gudanar da sel da aka zaɓa a matsayin macro ɗaya (#! a sama hagu)
 msg.phrase	Run all	Gudanar da duka
-msg.phrase	Run every macro in the sheet, top-left to bottom-right	Gudanar da kowane macro a takarda, daga sama hagu zuwa ƙasa dama
+msg.phrase	Run every macro in the sheet, top-left to bottom-right	Gudanar da duk macro na takarda, daga sama hagu zuwa ƙasa dama
 msg.phrase	Last error	Kuskuren ƙarshe
 msg.phrase	Show the last macro error	Nuna kuskuren macro na ƙarshe
 msg.phrase	Macro	Macro
-msg.phrase	Macro: run #!ruby / #!python / #!basic cells	Macro: gudanar da ƙwayoyin #!ruby / #!python / #!basic
-msg.phrase	Edit the cell (F2)	Gyara ƙwaya (F2)
-msg.phrase	Fit widths/heights to the contents	Daidaita faɗi/tsayi da abin da ke ciki
+msg.phrase	Macro: run #!ruby / #!python / #!basic cells	Macro: gudanar da sel #!ruby / #!python / #!basic
+msg.phrase	Edit the cell (F2)	Gyara sel (F2)
+msg.phrase	Fit widths/heights to the contents	Daidaita faɗi da tsayi da abin da ke ciki
 msg.phrase	Last macro error	Kuskuren macro na ƙarshe
 msg.phrase	No macro error.	Babu kuskuren macro.
 msg.phrase	IME on	IME a kunne
 msg.phrase	IME off	IME a kashe
 msg.phrase	Macro: %s %s ...	Macro: %s %s ...
-msg.phrase	%s: this firmware cannot run macros (SGX ABI 5.10 or later)	%s: wannan firmware ba za ta iya gudanar da macro ba (SGX ABI 5.10 ko sama)
+msg.phrase	%s: this firmware cannot run macros (SGX ABI 5.10 or later)	%s: wannan firmware ba ya gudanar da macro (ana buƙatar SGX ABI 5.10 ko sabo)
 msg.phrase	Macro error: %s	Kuskuren macro: %s
-msg.phrase	Macro: %s done	Macro: %s an gama
-msg.phrase	a macro is already running	wani macro yana gudana tuni
+msg.phrase	Macro: %s done	Macro: %s ya kammala
+msg.phrase	a macro is already running	wani macro yana gudana
 msg.phrase	this language is not available	wannan harshe ba ya samuwa
 msg.phrase	not enough memory	ƙwaƙwalwa ba ta isa ba
 msg.phrase	the macro stopped with an error	macro ya tsaya da kuskure
 msg.phrase	Macro error %s: %s	Kuskuren macro %s: %s
 msg.phrase	Macro: not enough memory	Macro: ƙwaƙwalwa ba ta isa ba
-msg.phrase	Macro: the cursor is not on a macro (a #!ruby / #!python / #!basic cell or the cells below it)	Macro: siginan ba ya kan macro (ƙwayar #!ruby / #!python / #!basic ko ƙwayoyin ƙasa da ita)
+msg.phrase	Macro: the cursor is not on a macro (a #!ruby / #!python / #!basic cell or the cells below it)	Macro: alama ba ta kan macro (sel #!ruby / #!python / #!basic ko na ƙasansa)
 msg.phrase	Macro: no macro in the sheet	Macro: babu macro a takarda
 msg.phrase	Run all macros	Gudanar da duk macro
-msg.phrase	Macros: %d. Run them all, top-left to bottom-right? Changes cannot be undone.	Macro: %d. A gudanar da su duka, daga sama hagu zuwa ƙasa dama? Ba za a iya maido canje-canje ba.
-msg.phrase	Macro: %d of %d done	Macro: an gama %d cikin %d
-msg.phrase	Cleared the cell	An share ƙwayar
-msg.phrase	Cleared the selection	An share zaɓin
+msg.phrase	Macros: %d. Run them all, top-left to bottom-right? Changes cannot be undone.	Macro: %d. A gudanar da duka daga sama hagu zuwa ƙasa dama? Ba za a iya soke canje-canje ba.
+msg.phrase	Macro: %d of %d done	Macro: %d cikin %d sun kammala
+msg.phrase	Cleared the cell	An goge sel
+msg.phrase	Cleared the selection	An goge zaɓi
 msg.phrase	Background colour = %d	Launin bango = %d
 msg.phrase	Text colour = %d	Launin rubutu = %d
 msg.phrase	Graph: line	Jadawali: layi
 msg.phrase	Graph: bar	Jadawali: sanda
 msg.phrase	Graph: mixed	Jadawali: gauraye
-msg.phrase	Graph: pie	Jadawali: ƙeƙe
-msg.phrase	Exported %s	An fitar %s
+msg.phrase	Graph: pie	Jadawali: pie
+msg.phrase	Exported %s	An fitar da %s
 msg.phrase	choose a file or folder	zaɓi fayil ko babban fayil
 msg.phrase	this drive cannot be written	ba za a iya rubuta a wannan ma'ajiya ba
 msg.phrase	an archive job is already running	aikin ma'aji yana gudana tuni
@@ -1039,3 +1035,36 @@ msg.phrase	32 items at most (mark fewer, or put them in a folder)	abubuwa 32 ne 
 msg.prefix	archive	ma'aji
 msg.prefix	compress	matsa
 msg.prefix	render	fitar da WAV
+ui	USB・時計・設定	USB, clock, settings
+ui	0.001 秒未満	ƙasa da 0.001 s
+ui	%s 秒	%s s
+ui	コンパイル %s  実行 %s	compile %s  run %s
+ui	コンパイル %s	compile %s
+ui	実行 %s	run %s
+msg.phrase	%s Sum %.7g N %ld%s	%s Jimla %.7g N %ld%s
+msg.phrase	EDIT  	GYARA
+msg.phrase	GRAPH  %s  %s	JADAWALI  %s  %s
+msg.phrase	READY 	SHIRI
+msg.phrase	Version %s	Siga %s
+msg.phrase	1 Help	1 Taimak
+msg.phrase	3 Copy	3 Kwafi
+msg.phrase	4 Paste	4 Liƙa
+msg.phrase	5 Goto	5 Je
+msg.phrase	6 Colour	6 Launi
+msg.phrase	7 Fit	7 Daidai
+msg.phrase	8 Backgr	8 Bango
+msg.phrase	9 Recalc	9 Lissaf
+msg.phrase	10 Graph	10 Jadaw
+msg.phrase	11 Save	11 Adana
+msg.phrase	12 Menu	12 Menu
+msg.phrase	1 About	1 Game
+msg.phrase	2 Height	2 Tsayi
+msg.phrase	3 Width	3 Faɗi
+msg.phrase	4 SelAll	4 Duka
+msg.phrase	10 Range	10 Iyaka
+msg.phrase	11 Name	11 Kamar
+msg.phrase	1 New	1 Sabo
+msg.phrase	2 Open	2 Buɗe
+msg.phrase	4 SaveAs	4 Kamar
+msg.phrase	12 Quit	12 Fita
+msg.phrase	3 Save	3 Adana

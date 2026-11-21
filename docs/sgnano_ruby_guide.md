@@ -413,7 +413,7 @@ Ruby のヒープは 64KB から始まり、空きが 32KB を切ると 64KB ず
 | `Machine.pad_dir(i)` | 向き `[dx, dy]`（各 -1 / 0 / 1、**上が -1**）。十字キーと左スティック（半分より倒したとき）のどちらでも |
 | `Machine.pad_stick(i, :left / :right [, dead])` | スティック `[x, y]`（-1.0〜1.0、上が -1.0）。中央の遊び dead（既定 0.15）の内は 0.0。右は Z・Rz があればそれ（F310 など）、無ければ Rx・Ry |
 | `Machine.pad_axis(i, a [, dead])` | 軸 a（0 X・1 Y・2 Z・3 Rx・4 Ry・5 Rz）を -1.0〜1.0 で。無い軸は 0.0 |
-| `Machine::PAD_X` `PAD_A` `PAD_B` `PAD_Y` `PAD_LB` `PAD_RB` `PAD_LT` `PAD_RT` `PAD_BACK` `PAD_START` `PAD_LS` `PAD_RS` | ボタンの番号（1〜12）。**F310 の D モードの並び**（ほかのパッドでは並びが違うことがある。`samples/ruby/pad.rb` で確かめる） |
+| `Machine::PAD_X` `PAD_A` `PAD_B` `PAD_Y` `PAD_LB` `PAD_RB` `PAD_LT` `PAD_RT` `PAD_BACK` `PAD_START` `PAD_LS` `PAD_RS` | ボタンの番号（1〜12）。**F310 の D モードの並びにそろえてある**（DS3・Switch Pro も記述子と機種の対応表から変換する。`samples/ruby/pad.rb` で確かめる） |
 | `Machine::PAD_UP` `PAD_DOWN` `PAD_LEFT` `PAD_RIGHT` | 向き（29〜32 番）。`pad_pressed?(0, Machine::PAD_UP)` のように、ボタンと同じ口で使う |
 
 - つながっていないパッドはどれも「押していない」・`[0, 0]`・0.0。パッドの番号が 0〜3、ボタンが 1〜32 の外なら ArgumentError
@@ -751,6 +751,7 @@ end
 - 描画: `pset` `pget` `line` `rect` `fill_rect` `triangle` `fill_triangle` `clear`。ブロック転送は `blit(sx, sy, w, h, dx, dy, page, key)`（ページ間も、透明色も）と `get_block` / `put_block`（String）
 - ファイルは CRuby と同じ `File` / `Dir` / `IO`（パスは `A:/...` か相対）。失敗は `Errno::*`
 - キー入力: 行は `gets`（Ctrl-D で nil）、1 つずつは `Machine.key`（無ければ nil）・`Machine.wait_key`、押している間は `Machine.key_down?`。ESC は使えない（実行を止める）
+- パッドの振動（DS3）: `Machine.pad_rumble(0, weak, strong)`（weak 0/1、strong 0..255、対応していなければ false）
 - パッド: `Machine.vsync` のあと `Machine.pad_pressed?(0, Machine::PAD_A)`（押した瞬間）・`pad_button?`（押している）・`pad_dir(0)`（[dx, dy]、上が -1）・`pad_stick(0, :left)`（-1.0〜1.0）
 - 音: `Sound.note_on(ch, note, vel)` / `note_off(ch)` / `adsr(ch, a, d, s, r)`（各 0〜127、ch は 0〜3）、曲は `Sound.play("x.mid")`（SMF）や `Sound.play("x.sgt")`（SGT）・`Sound.playing?`・`Sound.stop`。ノイズは `Sound.set_mode(ch, Sound::NOISE_MODE)`、パンは `Sound.pan(ch, v)`、PCM は `Sound.pcm(ch, data)` + `Sound.set_mode(ch, Sound::PCM)`。SMF のチャンネル 10 のドラムも鳴る
 - 経過時間は `Machine.ms`、日時は `Time.now`、乱数は `rand` / `srand`、待ちは `Machine.vsync` / `sleep`

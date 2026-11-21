@@ -21,14 +21,14 @@ ui	属性を変える	Променете атрибутите
 ui	エディタで開く	Отворете в редактора
 ui	テキスト表示（Shift+V / Ctrl+Alt+F7 は 16 進）	Преглед като текст (Shift+V / Ctrl+Alt+F7 шестнадесетичен)
 ui	ドライブの情報	Информация за шофиране
-ui	フォルダを作る / 新しいファイル	Нова папка / нов файл
+ui	フォルダを作る（Shift+F5） / 新しいファイル（Ctrl+F1）	Нова папка (Shift+F5) / файл (Ctrl+F1)
 ui	シェル sgsh / 媒体を取り出す	Shell sgsh / извадете носителя
 ui	読み直す	Презареди
-ui	見えている画面を PNG で保存	Запазете екрана като PNG
+ui	見えている画面を PNG で保存（Alt+F5 も同じ）	Запазете екрана като PNG (= Alt+F5)
 ui	窓を閉じる・選択を解く（サブフォルダでは上位へ）	Затворете прозореца / изчистете селекцията (в подпапка: отидете нагоре)
-ui	ファイルの操作（FD と同じ。印・範囲・カーソルの順に選ぶ）	Файлови операции (както във FD: марки, след това диапазонът, след това курсорът)
-ui	コピー: 行き先はドライブとフォルダの木から。ESC で止める	Копиране: изберете дестинацията от дървото на устройството и папката. ESC спира
-ui	削除: y で確かめる。印・範囲をまとめて。フォルダは中身ごと	Изтриване: потвърдете с y. Марки и диапазони наведнъж. Папки с тяхното съдържание
+ui	ファイルの操作（FD と同じ。印・範囲・カーソルの順）	Файлови операции (както във FD: марки, след това диапазонът, след това курсорът)
+ui	コピー: 行き先は木から選ぶ。ESC で止める	Копиране: изберете дестинацията от дървото на устройството и папката. ESC спира
+ui	削除: y で確かめる。印・範囲をまとめて	Изтриване: потвърдете с y. Марки и диапазони наведнъж. Папки с тяхното съдържание
 ui	フォルダを削除（中身ごと）	Изтриване на папка (с нейното съдържание)
 ui	名前を変える（今の名前を直して Enter）	Преименуване (редактирайте името, Enter)
 ui	属性: R 読み出し専用・H 隠し・S システム・A アーカイブ	Атрибути: R само за четене, H скрит, S система, A архив
@@ -50,22 +50,19 @@ ui	画面（Alt+F。FD の F キーとぶつからない）	Екран (Alt+F, �
 ui	FB（絵）/ テキスト面を出す・隠す	Показване / скриване на FB (картинка) / текста
 ui	FB の表示ページ（0〜3）	Показване на FB страница (0-3)
 ui	FB を 0 で消す / 明るさを 1/2 に（RGB555）	Изчистете FB до 0 / намалете яркостта му наполовина (RGB555)
-ui	USB のエンドポイントと LAN の状態	USB крайни точки и състоянието на LAN
+ui	USB のエンドポイントと LAN（U: 10 秒に 1 度）	USB крайни точки и състоянието на LAN
 ui	FB の表示ページを消す / 明るさを 1/2 に	Изчистете страницата на дисплея на FB / намалете наполовина нейната яркост
 ui	テキストの属性の見本	Примери за текстови атрибути
 ui	モニタの EDID（起動時に読んだもの）	Наблюдавайте EDID (четете при зареждане)
 ui	フォント ROM のライセンスとクレジット	Лицензи и кредити за ROM шрифтове
 ui	設定（表示の言語・IME・キーボードロケール）	Настройки (език на дисплея, IME и локал на клавиатурата)
-ui	時計（NTP で合わせた日本時間。s ですぐ合わせる）	Часовник (японско време, зададено от NTP; s се синхронизира сега)
+ui	時計（NTP で合わせた日本時間。s は 3 分に 1 度）	Часовник (японско време, зададено от NTP; s се синхронизира сега)
 ui	表計算（SGCALC）を開く	Отваряне на електронна таблица (SGCALC)
 ui	S: ドライブのエラー検査（誤りがあれば直すか聞く）	Проверете S: за грешки (пита преди ремонт)
 ui	トラッカー（TRACKER）を開く	Отворете TRACKER
-ui	再起動（確かめの窓が出る）	Рестартиране (първо пита)
+ui	再起動（確かめの窓）。Ctrl+Alt+Del も同じ	Рестарт (пита) = Ctrl+Alt+Del
 ui	ADC のステレオ入力（GP40 / 41）を鳴らす	Възпроизвеждане на ADC стерео вход (GP40 / 41)
 ui	VGM/VGZ を 96kHz/24bit WAV に書き出す	Експортирайте VGM/VGZ към 96 kHz / 24-bit WAV
-ui	このヘルプ	Тази помощ
-ui	ページを替える	Променете страницата
-ui	閉じる	затвори
 ui	テキスト・16 進のビュアー（less 風）	Преглед на текст / шестнадесетичен (като по-малко)
 ui	1 行	Един ред
 ui	1 ページ	Една страница
@@ -83,10 +80,9 @@ ui	IME の言語（日本語 / English / 한국어）	IME език (японск
 ui	ひらがな / カタカナで確定	Ангажирайте като хирагана / катакана
 ui	エディタのヘルプ	Помощ от редактора
 ui	シェル	Черупка
-ui	シェル（csh のサブセット。exit / Ctrl-D で戻る、help で一覧）	Shell (csh подмножество. изход / Ctrl-D за връщане, помощ изброява командите)
+ui	シェル（csh の一部。exit / Ctrl-D で戻る、help で一覧）	Shell (csh подмножество. изход / Ctrl-D за връщане, помощ изброява командите)
 ui	一覧と移動	Списък и преместване
 ui	ファイルの操作	Файлови операции
-ui	画面と機器	Екран и устройства
 ui	ビュアーとエディタ	Зрители и редактор
 ui	ヘルプ  %u / %u  %s	Помощ %u / %u %s
 ui	Left Right: ページを替える    F1 / ESC: 閉じる	Ляво дясно: промяна на страницата F1 / ESC: затваряне
@@ -147,9 +143,9 @@ ui	10 EP表	10 ЕР
 ui	11 時計	11 Clock
 ui	12 表計	12 КАЛ
 ui	1 属性	1 Атр
-ui	2 情報	2 Info
+ui	2Drv情報	2 Info
 ui	3 移動	3 Move
-ui	5 作成	5 Mkdir
+ui	5 ﾌｫﾙﾀﾞ	5 Mkdir
 ui	6 シェル	6 Shell
 ui	8 編集	8 Edit
 ui	9 表示	9 View
@@ -187,10 +183,10 @@ ui	新しいファイル	Нов файл
 ui	時刻:	Време:
 ui	実行:	тичам:
 ui	名前:	Име:
-ui	年-月-日 時:分  Enter 合わせる  ESC そのまま	ГГГГ-ММ-ДД чч:мм Въведете задаване ESC запазване
-ui	Enter 走らせる  ←→ 動かす  BS / Del 消す  ESC やめる	Въведете изпълнение <-> преместване BS / Del изтриване ESC отмяна
-ui	Enter 変える  ←→ 動かす  BS / Del 消す  ESC やめる	Въведете преименуване <-> преместване BS / Del изтриване ESC отмяна
-ui	Enter 作る  ←→ 動かす  BS / Del 消す  ESC やめる	Въведете създаване <-> преместване BS / Del изтриване ESC отмяна
+ui	年-月-日 時:分  Enter 合わせる  ESC そのまま	ГГГГ-ММ-ДД чч:мм  Enter задай  ESC остави
+ui	Enter 走らせる  ←→ 動かす  BS / Del 消す  ESC やめる	Enter изпълни  ←→ премести  BS / Del изтрий  ESC отказ
+ui	Enter 変える  ←→ 動かす  BS / Del 消す  ESC やめる	Enter преименувай ←→ премести BS/Del изтрий ESC отказ
+ui	Enter 作る  ←→ 動かす  BS / Del 消す  ESC やめる	Enter създай  ←→ премести  BS / Del изтрий  ESC отказ
 ui	消す	Изтриване
 ui	個の項目	елементи
 ui	フォルダは中身ごと消します。よろしいですか？	Папките се изтриват със съдържанието им. сигурен ли си
@@ -344,7 +340,7 @@ ui	 組み立てています... %lu / %lu 行	Сграда... %lu / %lu редо
 ui	 書いています... %lu / %lu KB（FB は隠しています）	Писане... %lu / %lu KB (FB е скрит)
 ui	書けませんでした	Не можех да пиша
 ui	書庫の名前（印の付いた項目、無ければカーソルの項目を入れる）	Име на архив (маркираните елементи или елементът на курсора, ако няма такъв)
-ui	Enter 圧縮する  ←→ 動かす  BS / Del 消す  ESC やめる	Въведете компресиране ←→ преместване BS / Del изтриване ESC отмяна
+ui	Enter 圧縮する  ←→ 動かす  BS / Del 消す  ESC やめる	Enter компресирай ←→ премести BS/Del изтрий ESC отказ
 ui	WAV 書き出し: %s 中止（%s）	WAV експортиране: %s отменено (%s)
 ui	WAV 書き出し: %s 失敗（%s）	WAV експортиране: %s неуспешно (%s)
 ui	WAV 書き出し: %s 合計 %s	WAV експорт: %s общо %s
@@ -487,11 +483,11 @@ msg.phrase	the sound is not open	звукът не е отворен
 msg.phrase	no such channel	няма такъв канал
 msg.phrase	the sequencer is busy	секвенсерът е зает
 msg.phrase	not enough PSRAM for the song	няма достатъчно PSRAM за песента
-msg.phrase	not a standard MIDI file (no MThd)	не е стандартен MIDI файл (без MThd)
-msg.phrase	no tracks	няма следи
-msg.phrase	a track is broken (MTrk)	коловозът е счупен (MTrk)
-msg.phrase	SMPTE time division is not supported	SMPTE времево деление не се поддържа
-msg.phrase	SMF format 2 is not supported (0 and 1 only)	SMF формат 2 не се поддържа (само 0 и 1)
+msg.phrase	not a standard MIDI file (no MThd)	не е стандартен MIDI файл (няма MThd)
+msg.phrase	no tracks	няма писти
+msg.phrase	a track is broken (MTrk)	писта е повредена (MTrk)
+msg.phrase	SMPTE time division is not supported	Делението на времето SMPTE не се поддържа
+msg.phrase	SMF format 2 is not supported (0 and 1 only)	Формат SMF 2 не се поддържа (само 0 и 1)
 msg.phrase	not a Bulk-Only drive	не е само групово устройство
 msg.phrase	not an optical drive	не е оптично устройство
 msg.phrase	a system folder cannot be deleted or renamed	системна папка не може да бъде изтрита или преименувана
@@ -510,7 +506,7 @@ msg.phrase	cancelled	отменен
 msg.phrase	could not mount	не можа да се монтира
 msg.phrase	could not start a read	не можа да започне четене
 msg.phrase	could not start a write	не можа да започне запис
-msg.phrase	is a directory	е директория
+msg.phrase	is a directory	е папка
 msg.phrase	that is a directory	това е директория
 msg.phrase	no clusters	няма клъстери
 msg.phrase	no room for the cluster list	няма място за списъка с клъстери
@@ -547,7 +543,7 @@ msg.phrase	Not supported on this drive	Не се поддържа на това 
 msg.phrase	Invalid path	Невалиден път
 msg.phrase	Out of memory	Няма памет
 msg.phrase	No such drive	Няма такова шофиране
-msg.phrase	stopped	спря
+msg.phrase	stopped	спряно
 msg.phrase	cancelled (not enough free space)	анулирано (няма достатъчно свободно място)
 msg.phrase	could not count the free space	не можа да преброи свободното пространство
 msg.phrase	the receiver cancelled	приемникът отмени
@@ -622,484 +618,484 @@ msg.word	 rows	редове
 msg.word	 -- not supported yet (FAT / exFAT / NTFS only)	-- все още не се поддържа (само FAT / exFAT / NTFS)
 msg.word	 files	файлове
 msg.word	 (	(
-msg.phrase	Untitled	Без заглавие
+msg.phrase	Untitled	Без име
 msg.phrase	1 File	1 файл
-msg.phrase	2 Edit	2 Редактиране
+msg.phrase	2 Edit	2 Редак
 msg.phrase	3 Graph	3 Графика
 msg.phrase	4 Sheet	4 листа
 msg.phrase	5 Help	5 Помощ
-msg.phrase	EMPTY	ПРАЗЕН
-msg.phrase	NUMBER	НОМЕР
+msg.phrase	EMPTY	ПРАЗНА
+msg.phrase	NUMBER	ЧИСЛО
 msg.phrase	TEXT	ТЕКСТ
 msg.phrase	FORMULA	ФОРМУЛА
-msg.phrase	Type to enter, F2 to edit, F1 for help	Въведете за въвеждане, F2 за редактиране, F1 за помощ
+msg.phrase	Type to enter, F2 to edit, F1 for help	Пишете за въвеждане, F2 за редакция, F1 за помощ
 msg.phrase	5 CSV	5 CSV
 msg.phrase	6 ODS	6 ODS
 msg.phrase	[SHIFT]	[SHIFT]
 msg.phrase	[CTRL]	[CTRL]
 msg.phrase	[ALT]	[ALT]
-msg.phrase	Ready	Готови
+msg.phrase	Ready	Готово
 msg.phrase	SGCALC	SGCALC
 msg.phrase	Press any key	Натиснете произволен клавиш
-msg.phrase	Y = yes    N = no    Esc = cancel	Y = да N = не Esc = отказ
-msg.phrase	Enter = OK    Esc = cancel    Ctrl-U = clear	Enter = OK Esc = отмяна Ctrl-U = изчистване
-msg.phrase	First row/column = labels; charts use the 640x480 CLUT8 FB.	Първи ред/колона = етикети; диаграмите използват 640x480 CLUT8 FB.
+msg.phrase	Y = yes    N = no    Esc = cancel	Y = да    N = не    Esc = отказ
+msg.phrase	Enter = OK    Esc = cancel    Ctrl-U = clear	Enter = OK    Esc = отказ    Ctrl-U = изчистване
+msg.phrase	First row/column = labels; charts use the 640x480 CLUT8 FB.	Първи ред/колона = етикети; диаграмите ползват CLUT8 FB 640x480.
 msg.phrase	SGCALC - HELP	SGCALC - ПОМОЩ
-msg.phrase	Press any key to return	Натиснете произволен клавиш, за да се върнете
-msg.phrase	Press any key to return.	Натиснете произволен клавиш, за да се върнете.
-msg.phrase	ABOUT SGCALC	ЗА SGCALC
+msg.phrase	Press any key to return	Натиснете произволен клавиш за връщане
+msg.phrase	Press any key to return.	Натиснете произволен клавиш за връщане.
+msg.phrase	ABOUT SGCALC	ОТНОСНО SGCALC
 msg.phrase	New	Нов
-msg.phrase	Start a new sheet	Започнете нов лист
-msg.phrase	Open...	отворен...
-msg.phrase	Open an ODS, FODS or CSV file	Отворете ODS, FODS или CSV файл
-msg.phrase	Save	Запазване
-msg.phrase	Save the current file	Запазете текущия файл
-msg.phrase	Save As...	Запиши като...
-msg.phrase	Save with a new name or format	Запазете с ново име или формат
-msg.phrase	Export CSV...	Експортиране на CSV...
-msg.phrase	Write a CSV copy	Напишете CSV копие
-msg.phrase	Export ODS...	Експортиране на ОРВ...
-msg.phrase	Write a LibreOffice copy	Напишете копие на LibreOffice
-msg.phrase	Quit	Откажете се
-msg.phrase	Leave SGCALC	Напуснете SGCALC
-msg.phrase	Clear	ясно
-msg.phrase	Clear the selected cells	Изчистете избраните клетки
-msg.phrase	Copy	копие
-msg.phrase	Copy the selection	Копирайте селекцията
-msg.phrase	Paste	Залепете
-msg.phrase	Paste at the cursor	Поставете върху курсора
-msg.phrase	Cut	Изрежете
-msg.phrase	Copy and clear the selection	Копирайте и изчистете селекцията
-msg.phrase	Select all	Изберете всички
-msg.phrase	Select all used cells	Изберете всички използвани клетки
+msg.phrase	Start a new sheet	Започване на нов лист
+msg.phrase	Open...	Отваряне...
+msg.phrase	Open an ODS, FODS or CSV file	Отваряне на файл ODS, FODS или CSV
+msg.phrase	Save	Запис
+msg.phrase	Save the current file	Запис на текущия файл
+msg.phrase	Save As...	Запис като...
+msg.phrase	Save with a new name or format	Запис с ново име или формат
+msg.phrase	Export CSV...	Износ CSV...
+msg.phrase	Write a CSV copy	Запис на копие в CSV
+msg.phrase	Export ODS...	Износ ODS...
+msg.phrase	Write a LibreOffice copy	Запис на копие за LibreOffice
+msg.phrase	Quit	Изход
+msg.phrase	Leave SGCALC	Изход от SGCALC
+msg.phrase	Clear	Изчистване
+msg.phrase	Clear the selected cells	Изчистване на избраните клетки
+msg.phrase	Copy	Копиране
+msg.phrase	Copy the selection	Копиране на избраното
+msg.phrase	Paste	Поставяне
+msg.phrase	Paste at the cursor	Поставяне при курсора
+msg.phrase	Cut	Изрязване
+msg.phrase	Copy and clear the selection	Копиране и изчистване на избраното
+msg.phrase	Select all	Избор на всичко
+msg.phrase	Select all used cells	Избор на всички използвани клетки
 msg.phrase	Text color...	Цвят на текста...
-msg.phrase	Choose the text colour	Изберете цвета на текста
-msg.phrase	Background...	фон...
-msg.phrase	Choose the cell background	Изберете фона на клетката
-msg.phrase	Line	Линия
-msg.phrase	Draw a line graph from the selection	Начертайте линейна графика от селекцията
-msg.phrase	Bar	Бар
-msg.phrase	Draw a bar graph from the selection	Начертайте лентова графика от селекцията
-msg.phrase	Mixed	Смесени
-msg.phrase	Bars for the first series, lines for the rest	Барове за първата серия, линии за останалите
-msg.phrase	Pie	пай
-msg.phrase	Draw a pie graph from the selection	Начертайте кръгова графика от селекцията
+msg.phrase	Choose the text colour	Избор на цвят на текста
+msg.phrase	Background...	Фон...
+msg.phrase	Choose the cell background	Избор на фон на клетката
+msg.phrase	Line	Линейна
+msg.phrase	Draw a line graph from the selection	Линейна диаграма от избраното
+msg.phrase	Bar	Стълбова
+msg.phrase	Draw a bar graph from the selection	Стълбова диаграма от избраното
+msg.phrase	Mixed	Смесена
+msg.phrase	Bars for the first series, lines for the rest	Стълбове за първата серия, линии за останалите
+msg.phrase	Pie	Кръгова
+msg.phrase	Draw a pie graph from the selection	Кръгова диаграма от избраното
 msg.phrase	Range...	Обхват...
-msg.phrase	Set the graph range explicitly	Задайте изрично диапазона на графиката
-msg.phrase	Draw again	Начертайте отново
-msg.phrase	Redraw the last graph	Преначертайте последната графика
-msg.phrase	Goto...	Отивам...
-msg.phrase	Jump to a cell (for example C12)	Преминете към клетка (например C12)
-msg.phrase	Column width...	Ширина на колоната...
-msg.phrase	Change the selected columns' width	Променете ширината на избраните колони
-msg.phrase	Row height...	Височина на реда...
-msg.phrase	Change the selected rows' height	Променете височината на избраните редове
-msg.phrase	Auto fit	Автоматично прилягане
+msg.phrase	Set the graph range explicitly	Ръчно задаване на обхвата на диаграмата
+msg.phrase	Draw again	Прерисуване
+msg.phrase	Redraw the last graph	Прерисуване на последната диаграма
+msg.phrase	Goto...	Към...
+msg.phrase	Jump to a cell (for example C12)	Към клетка (например C12)
+msg.phrase	Column width...	Ширина на колона...
+msg.phrase	Change the selected columns' width	Промяна на ширината на избраните колони
+msg.phrase	Row height...	Височина на ред...
+msg.phrase	Change the selected rows' height	Промяна на височината на избраните редове
+msg.phrase	Auto fit	Напасване
 msg.phrase	Fit widths/heights to the contents (F7)	Напасване на ширини/височини към съдържанието (F7)
-msg.phrase	Recalculate	Преизчислете
-msg.phrase	Re-evaluate all formulas	Преоценете всички формули
-msg.phrase	Erase all	Изтрий всички
-msg.phrase	Clear the whole sheet	Изчистете целия лист
-msg.phrase	Keys	Ключове
-msg.phrase	Show the key guide	Покажете ръководството за ключове
-msg.phrase	About	За
+msg.phrase	Recalculate	Преизчисляване
+msg.phrase	Re-evaluate all formulas	Преизчисляване на всички формули
+msg.phrase	Erase all	Изтриване на всичко
+msg.phrase	Clear the whole sheet	Изчистване на целия лист
+msg.phrase	Keys	Клавиши
+msg.phrase	Show the key guide	Показване на клавишите
+msg.phrase	About	Относно
 msg.phrase	About SGCALC	Относно SGCALC
 msg.phrase	File	Файл
-msg.phrase	Edit	Редактиране
-msg.phrase	Graph	Графика
+msg.phrase	Edit	Редакция
+msg.phrase	Graph	Диаграма
 msg.phrase	Sheet	Лист
 msg.phrase	Help	Помощ
-msg.phrase	File: new, open, save, export, quit	Файл: нов, отваряне, запазване, експортиране, излизане
-msg.phrase	Edit: clear, copy, paste, cut, select all	Редактиране: изчистване, копиране, поставяне, изрязване, избиране на всички
-msg.phrase	Graph: line, bar, mixed, pie (draws in the FB)	Графика: линейна, лентова, смесена, пай (теглене във FB)
-msg.phrase	Sheet: goto, column width, recalculate, erase	Лист: отиване, ширина на колона, преизчисляване, изтриване
-msg.phrase	Help: keys and about	Помощ: ключове и около
+msg.phrase	File: new, open, save, export, quit	Файл: нов, отваряне, запис, износ, изход
+msg.phrase	Edit: clear, copy, paste, cut, select all	Редакция: изчистване, копиране, поставяне, изрязване, всичко
+msg.phrase	Graph: line, bar, mixed, pie (draws in the FB)	Диаграма: линейна, стълбова, смесена, кръгова (във FB)
+msg.phrase	Sheet: goto, column width, recalculate, erase	Лист: към, ширина на колона, преизчисляване, изтриване
+msg.phrase	Help: keys and about	Помощ: клавиши и относно
 msg.phrase	Left/Right = menu    Up/Down = item    Enter = choose    Esc = cancel	Наляво/надясно = меню нагоре/надолу = елемент Enter = избор на Esc = отмяна
-msg.phrase	Cancelled	Отменено
-msg.phrase	The selection is too large or memory is low.	Изборът е твърде голям или паметта е малко.
+msg.phrase	Cancelled	Отказано
+msg.phrase	The selection is too large or memory is low.	Изборът е твърде голям или паметта не стига.
 msg.phrase	the cell	клетката
 msg.phrase	the selection	селекцията
-msg.phrase	Nothing to paste	Нищо за поставяне
-msg.phrase	Pasted	Залепено
-msg.phrase	GO TO CELL	ОТИДЕТЕ КЪМ КЛЕТКАТА
+msg.phrase	Nothing to paste	Няма какво да се постави
+msg.phrase	Pasted	Поставено
+msg.phrase	GO TO CELL	КЪМ КЛЕТКА
 msg.phrase	Cell reference (A1):	Препратка към клетка (A1):
-msg.phrase	Goto	Отивам
-msg.phrase	COLUMN WIDTH	ШИРИНА НА КОЛОНАТА
+msg.phrase	Goto	Към
+msg.phrase	COLUMN WIDTH	ШИРИНА НА КОЛОНА
 msg.phrase	Width in characters (4..30):	Ширина в знаци (4..30):
-msg.phrase	ROW HEIGHT	ВИСОЧИНА НА РЕДА
+msg.phrase	ROW HEIGHT	ВИСОЧИНА НА РЕД
 msg.phrase	Height in text rows (1..8):	Височина в текстови редове (1..8):
-msg.phrase	Auto fit: the sheet is empty	Автоматично побиране: листът е празен
+msg.phrase	Auto fit: the sheet is empty	Напасване: листът е празен
 msg.phrase	BACKGROUND COLOUR	ЦВЯТ НА ФОНА
 msg.phrase	TEXT COLOUR	ЦВЯТ НА ТЕКСТА
-msg.phrase	Arrows: choose    Enter: apply    Esc: cancel	Стрелки: изберете Enter: приложете Esc: отменете
-msg.phrase	Colour index (PC-98 16-colour palette)	Цветов индекс (PC-98 16-цветна палитра)
+msg.phrase	Arrows: choose    Enter: apply    Esc: cancel	Стрелки: избор    Enter: прилагане    Esc: отказ
+msg.phrase	Colour index (PC-98 16-colour palette)	Номер на цвят (16-цветна палитра на PC-98)
 msg.phrase	Aa 123	Aa 123
-msg.phrase	Enter = apply    Esc = cancel	Enter = прилагане Esc = отмяна
+msg.phrase	Enter = apply    Esc = cancel	Enter = прилагане    Esc = отказ
 msg.phrase	Colour	Цвят
 msg.phrase	Background	Фон
 msg.phrase	Text	Текст
-msg.phrase	GRAPH RANGE	ОБХВАТ НА ГРАФИКАТА
-msg.phrase	Range (for example A1:C10):	Диапазон (например A1:C10):
-msg.phrase	Graph range	Диапазон на графиката
-msg.phrase	Use a range such as A1:C10.	Използвайте диапазон като A1:C10.
-msg.phrase	Cannot draw the graph.	Не може да начертае графиката.
+msg.phrase	GRAPH RANGE	ОБХВАТ НА ДИАГРАМАТА
+msg.phrase	Range (for example A1:C10):	Обхват (например A1:C10):
+msg.phrase	Graph range	Обхват на диаграмата
+msg.phrase	Use a range such as A1:C10.	Въведете обхват като A1:C10.
+msg.phrase	Cannot draw the graph.	Диаграмата не може да се начертае.
 msg.phrase	line	линия
 msg.phrase	bar	бар
 msg.phrase	mixed	смесен
 msg.phrase	pie	пай
-msg.phrase	Clear every cell in this sheet?	Изчистване на всяка клетка в този лист?
+msg.phrase	Clear every cell in this sheet?	Изчистване на всички клетки в този лист?
 msg.phrase	Sheet erased	Листът е изтрит
 msg.phrase	Selected all used cells	Избрани са всички използвани клетки
 msg.phrase	Recalculated	Преизчислено
-msg.phrase	Memory	памет
-msg.phrase	Not enough PSRAM for the spreadsheet.	Няма достатъчно PSRAM за електронната таблица.
+msg.phrase	Memory	Памет
+msg.phrase	Not enough PSRAM for the spreadsheet.	Няма достатъчно PSRAM за таблицата.
 msg.phrase	The sheet is empty.	Листът е празен.
-msg.phrase	No numeric data in the selected range.	Няма цифрови данни в избрания диапазон.
-msg.phrase	Other	други
+msg.phrase	No numeric data in the selected range.	В избрания обхват няма числа.
+msg.phrase	Other	Други
 msg.phrase	No positive values for a pie chart	Няма положителни стойности за кръгова диаграма
-msg.phrase	LINE	ЛИНИЯ
-msg.phrase	BAR	БАР
-msg.phrase	MIXED	СМЕСЕНИ
-msg.phrase	PIE	БАНИЦА
+msg.phrase	LINE	ЛИНЕЙНА
+msg.phrase	BAR	СТЪЛБОВА
+msg.phrase	MIXED	СМЕСЕНА
+msg.phrase	PIE	КРЪГОВА
 msg.phrase	S:/	S:/
 msg.phrase	Folder	Папка
-msg.phrase	SAVE AS	ЗАПАЗИ КАТО
-msg.phrase	OPEN FILE	ОТВОРЕТЕ ФАЙЛА
+msg.phrase	SAVE AS	ЗАПИС КАТО
+msg.phrase	OPEN FILE	ОТВАРЯНЕ НА ФАЙЛ
 msg.phrase	LibreOffice / CSV	LibreOffice / CSV
-msg.phrase	ODS  FODS  CSV	ODS FODS CSV
+msg.phrase	ODS  FODS  CSV	ODS  FODS  CSV
 msg.phrase	Name:	Име:
-msg.phrase	(type a name, or choose below)	(напишете име или изберете по-долу)
+msg.phrase	(type a name, or choose below)	(въведете име или изберете по-долу)
 msg.phrase	Name	Име
 msg.phrase	Size	Размер
-msg.phrase	Enter=save  Left=up  Right/Enter on [DIR]=open  Tab=drive  Esc=cancel	Enter=запазване наляво=нагоре надясно/Въведете в [DIR]=отворете Tab=диск Esc=отказ
-msg.phrase	Enter=open  Left=up  Right/Enter on [DIR]=open  Tab=drive  Esc=cancel	Enter=отворете наляво=нагоре надясно/Въведете в [DIR]=отворете Tab=устройство Esc=отказ
+msg.phrase	Enter=save  Left=up  Right/Enter on [DIR]=open  Tab=drive  Esc=cancel	Enter=запис  ←=нагоре  →/Enter на [DIR]=отваряне  Tab=диск  Esc=отказ
+msg.phrase	Enter=open  Left=up  Right/Enter on [DIR]=open  Tab=drive  Esc=cancel	Enter=отваряне  ←=нагоре  →/Enter на [DIR]=отваряне  Tab=диск  Esc=отказ
 msg.phrase	Not enough memory.	Няма достатъчно памет.
-msg.phrase	Overwrite	Презаписване
-msg.phrase	Open	Отворете
+msg.phrase	Overwrite	Презапис
+msg.phrase	Open	Отваряне
 msg.phrase	The file is too large (limit 8 MB).	Файлът е твърде голям (ограничение 8 MB).
 msg.phrase	Not enough memory to read the file.	Няма достатъчно памет за четене на файла.
-msg.phrase	Bad ZIP/ODS data.	Лоши ZIP/ODS данни.
-msg.phrase	CRC error in the ODS file.	CRC грешка в ODS файла.
+msg.phrase	Bad ZIP/ODS data.	Повредени данни ZIP/ODS.
+msg.phrase	CRC error in the ODS file.	CRC грешка във файла ODS.
 msg.phrase	Unsupported or damaged file.	Неподдържан или повреден файл.
 msg.phrase	Saved	Запазено
 msg.phrase	Exported	Изнесени
-msg.phrase	Unsaved changes	Незапазени промени
-msg.phrase	Save the current sheet before continuing?	Запазване на текущия лист, преди да продължите?
+msg.phrase	Unsaved changes	Незаписани промени
+msg.phrase	Save the current sheet before continuing?	Да се запише ли текущият лист, преди да продължите?
 msg.phrase	New sheet	Нов лист
 msg.phrase	SGTRK	SGTRK
-msg.phrase	UNTITLED	НЕЗАГЛАВЛЕН
+msg.phrase	UNTITLED	UNTITLED
 msg.phrase	song is too large	песента е твърде голяма
 msg.phrase	empty file	празен файл
 msg.phrase	not an SGT file	не е SGT файл
-msg.phrase	bad BPM	лош BPM
-msg.phrase	bad speed	лоша скорост
-msg.phrase	bad title length	лоша дължина на заглавието
-msg.phrase	truncated title	съкратено заглавие
-msg.phrase	bad character in title	лош знак в заглавието
-msg.phrase	truncated order	пресечен ред
-msg.phrase	bad order length	лоша дължина на поръчката
-msg.phrase	bad pattern number in order	лош модел номер в ред
-msg.phrase	truncated pattern list	съкратен списък с шаблони
-msg.phrase	bad pattern count	лош брой на модела
-msg.phrase	bad pattern index	лош модел индекс
-msg.phrase	duplicate pattern	дублиран модел
-msg.phrase	truncated pattern data	съкратени данни за модел
-msg.phrase	invalid pattern data	невалидни данни за шаблон
-msg.phrase	trailing data in file	завършващи данни във файла
-msg.phrase	order refers to a missing pattern	редът се отнася до липсващ модел
+msg.phrase	bad BPM	грешен BPM
+msg.phrase	bad speed	грешна скорост
+msg.phrase	bad title length	грешна дължина на заглавието
+msg.phrase	truncated title	отрязано заглавие
+msg.phrase	bad character in title	невалиден знак в заглавието
+msg.phrase	truncated order	отрязан ред
+msg.phrase	bad order length	грешна дължина на реда
+msg.phrase	bad pattern number in order	грешен номер на патерн в реда
+msg.phrase	truncated pattern list	отрязан списък с патерни
+msg.phrase	bad pattern count	грешен брой патерни
+msg.phrase	bad pattern index	грешен индекс на патерн
+msg.phrase	duplicate pattern	повтарящ се патерн
+msg.phrase	truncated pattern data	отрязани данни на патерн
+msg.phrase	invalid pattern data	невалидни данни на патерн
+msg.phrase	trailing data in file	излишни данни в края на файла
+msg.phrase	order refers to a missing pattern	редът сочи липсващ патерн
 msg.phrase	A:/	A:/
-msg.phrase	(untitled)	(без заглавие)
-msg.phrase	Ready. Press F1 for help.	Готови. Натиснете F1 за помощ.
-msg.phrase	Follow OFF	Следвайте OFF
-msg.phrase	Nothing to undo	Няма нищо за отмяна
-msg.phrase	Undo	Отмяна
-msg.phrase	Note OFF	Забележка ИЗКЛ
-msg.phrase	Set an effect letter first	Първо задайте буква за ефект
-msg.phrase	Effect cleared	Ефектът е изчистен
-msg.phrase	Parameter cleared	Параметърът е изчистен
-msg.phrase	Note cleared	Бележката е изчистена
-msg.phrase	Instrument cleared	Инструментът е изчистен
-msg.phrase	Volume cleared	Томът е изчистен
-msg.phrase	Order list is full	Списъкът с поръчки е пълен
-msg.phrase	Order inserted	Поръчката е въведена
-msg.phrase	Cannot delete the last order	Не може да се изтрие последната поръчка
-msg.phrase	Order deleted	Поръчката е изтрита
-msg.phrase	Playing song	Пускане на песен
+msg.phrase	(untitled)	(без име)
+msg.phrase	Ready. Press F1 for help.	Готово. F1 за помощ.
+msg.phrase	Follow OFF	Следене ИЗКЛ
+msg.phrase	Nothing to undo	Няма какво да се отмени
+msg.phrase	Undo	Отменено
+msg.phrase	Note OFF	Note off
+msg.phrase	Set an effect letter first	Първо въведете буквата на ефекта
+msg.phrase	Effect cleared	Ефектът е изтрит
+msg.phrase	Parameter cleared	Параметърът е изтрит
+msg.phrase	Note cleared	Нотата е изтрита
+msg.phrase	Instrument cleared	Инструментът е изтрит
+msg.phrase	Volume cleared	Силата е изтрита
+msg.phrase	Order list is full	Списъкът с реда е пълен
+msg.phrase	Order inserted	Позицията е вмъкната
+msg.phrase	Cannot delete the last order	Последната позиция не може да се изтрие
+msg.phrase	Order deleted	Позицията е изтрита
+msg.phrase	Playing song	Свири песента
 msg.phrase	Stopped	Спряно
 msg.phrase	New song	Нова песен
-msg.phrase	Discard unsaved changes and start a new song? (Y/N)	Да се ​​отхвърлят незапазените промени и да се започне нова песен? (да/не)
-msg.phrase	Discard unsaved changes and open a song? (Y/N)	Да се ​​отхвърлят незапазените промени и да се отвори песен? (да/не)
-msg.phrase	Discard unsaved changes and quit? (Y/N)	Отхвърляне на незапазените промени и излизане? (да/не)
-msg.phrase	Song settings updated	Настройките на песента са актуализирани
+msg.phrase	Discard unsaved changes and start a new song? (Y/N)	Отхвърляне на незаписаните промени и нова песен? (Y/N)
+msg.phrase	Discard unsaved changes and open a song? (Y/N)	Отхвърляне на незаписаните промени и отваряне на песен? (Y/N)
+msg.phrase	Discard unsaved changes and quit? (Y/N)	Отхвърляне на незаписаните промени и изход? (Y/N)
+msg.phrase	Song settings updated	Настройките на песента са променени
 msg.phrase	Filename is empty	Името на файла е празно
-msg.phrase	Save cancelled	Запазването е отменено
-msg.phrase	Open cancelled	Отварянето е отменено
-msg.phrase	Edit ON	Редактиране ВКЛ
-msg.phrase	Edit OFF	Редактиране ИЗКЛ
-msg.phrase	Follow ON	Следвайте ON
-msg.phrase	Edit is OFF. Press F8 to edit.	Редактирането е ИЗКЛЮЧЕНО. Натиснете F8 за редактиране.
-msg.phrase	I/O error	I/O грешка
+msg.phrase	Save cancelled	Записът е отказан
+msg.phrase	Open cancelled	Отварянето е отказано
+msg.phrase	Edit ON	Редакция ВКЛ
+msg.phrase	Edit OFF	Редакция ИЗКЛ
+msg.phrase	Follow ON	Следене ВКЛ
+msg.phrase	Edit is OFF. Press F8 to edit.	Редакцията е изключена. Натиснете F8.
+msg.phrase	I/O error	В/И грешка
 msg.phrase	file is too large	файлът е твърде голям
-msg.phrase	truncated file	съкратен файл
-msg.phrase	SINE PAD	СИНУС ПАД
-msg.phrase	TRIANGLE	ТРИЪГЪЛНИК
-msg.phrase	SAW LEAD	ОЛОВЕН ТРИН
-msg.phrase	SQUARE	КВАДРАТ
-msg.phrase	PULSE 25	ПУЛС 25
-msg.phrase	ORGAN	ОРГАН
-msg.phrase	BASS	БАС
-msg.phrase	BELL	ЗВЪНЧЕ
-msg.phrase	NOISE	ШУМ
-msg.phrase	SINE	СИНУС
-msg.phrase	SAW	ТРИОН
-msg.phrase	OFF	ИЗКЛ
-msg.phrase	ON	ВКЛ
-msg.phrase	ROW	РЕД
-msg.phrase	CHAN LEVEL	ЧАН НИВО
-msg.phrase	F1 HELP F2 SONG	F1 ПОМОЩ F2 ПЕСЕН
-msg.phrase	F3 INS  F4 SAVE	F3 INS F4 ЗАПАЗИ
-msg.phrase	F5 PLAY F6 PAT	F5 ИГРА F6 PAT
-msg.phrase	F7 STOP F8 EDIT	F7 СПРИ F8 РЕДАКТИРАНЕ
-msg.phrase	F9/F10 OCTAVE	F9/F10 ОКТАВА
-msg.phrase	F11 FOLLOW	F11 СЛЕДВАЙ
-msg.phrase	F12 QUIT	F12 ИЗХОД
-msg.phrase	SPACE PLAY/STOP	ПРОСТРАНСТВО ИГРА/СПРИ
-msg.phrase	CTRL-S SAVE	CTRL-S ЗАПАЗИ
-msg.phrase	CTRL-O OPEN	CTRL-O ОТВОРИ
-msg.phrase	C-N NEW C-Z UNDO	C-N НОВ C-Z ОТМЕНЯ
-msg.phrase	C-C STOP	C-C СПРИ
-msg.phrase	#TRANSPORT AND FILES	#ТРАНСПОРТ И ПИЛА
-msg.phrase	#ORDER LIST	#СПИСЪК ЗА ПОРЪЧКИ
-msg.phrase	#DISPLAY	#ДИСПЛЕЙ
-msg.phrase	#EDITING	#РЕДАКТИРАНЕ
-msg.phrase	#EFFECTS (parameter is hexadecimal)	#EFFECTS (параметърът е шестнадесетичен)
-msg.phrase	LEFT/RIGHT PAGE   ENTER OR F1 CLOSE	ЛЯВО/ДЯСНО ВЪВЕДЕТЕ В СТРАНИЦА ИЛИ F1 ЗАТВОРИ
+msg.phrase	truncated file	отрязан файл
+msg.phrase	SINE PAD	SINE PAD
+msg.phrase	TRIANGLE	TRIANGLE
+msg.phrase	SAW LEAD	SAW LEAD
+msg.phrase	SQUARE	SQUARE
+msg.phrase	PULSE 25	PULSE 25
+msg.phrase	ORGAN	ORGAN
+msg.phrase	BASS	BASS
+msg.phrase	BELL	BELL
+msg.phrase	NOISE	NOISE
+msg.phrase	SINE	SINE
+msg.phrase	SAW	SAW
+msg.phrase	OFF	OFF
+msg.phrase	ON	ON
+msg.phrase	ROW	ROW
+msg.phrase	CHAN LEVEL	CHAN LEVEL
+msg.phrase	F1 HELP F2 SONG	F1 HELP F2 SONG
+msg.phrase	F3 INS  F4 SAVE	F3 INS  F4 SAVE
+msg.phrase	F5 PLAY F6 PAT	F5 PLAY F6 PAT
+msg.phrase	F7 STOP F8 EDIT	F7 STOP F8 EDIT
+msg.phrase	F9/F10 OCTAVE	F9/F10 OCTAVE
+msg.phrase	F11 FOLLOW	F11 FOLLOW
+msg.phrase	F12 QUIT	F12 QUIT
+msg.phrase	SPACE PLAY/STOP	SPACE PLAY/STOP
+msg.phrase	CTRL-S SAVE	CTRL-S SAVE
+msg.phrase	CTRL-O OPEN	CTRL-O OPEN
+msg.phrase	C-N NEW C-Z UNDO	C-N NEW C-Z UNDO
+msg.phrase	C-C STOP	C-C STOP
+msg.phrase	#TRANSPORT AND FILES	#ВЪЗПРОИЗВЕЖДАНЕ И ФАЙЛОВЕ
+msg.phrase	#ORDER LIST	#СПИСЪК С РЕДА
+msg.phrase	#DISPLAY	#ИЗГЛЕД
+msg.phrase	#EDITING	#РЕДАКЦИЯ
+msg.phrase	#EFFECTS (parameter is hexadecimal)	#ЕФЕКТИ (параметърът е шестнадесетичен)
+msg.phrase	LEFT/RIGHT PAGE   ENTER OR F1 CLOSE	LEFT/RIGHT PAGE   ENTER OR F1 CLOSE
 msg.phrase	SONG SETTINGS	НАСТРОЙКИ НА ПЕСЕНТА
-msg.phrase	UP/DOWN SELECT   LEFT/RIGHT ADJUST   ENTER/F2 CLOSE	НАГОРЕ/НАДОЛУ ИЗБОР НАЛЯВО/НАДЯСНО РЕГУЛИРАНЕ ENTER/F2 ЗАТВОРИ
-msg.phrase	Type to edit the title. Backspace deletes the last character.	Въведете, за да редактирате заглавието. Backspace изтрива последния знак.
-msg.phrase	BPM range 32..255. Speed range 1..31.	BPM диапазон 32..255. Диапазон на скоростта 1..31.
-msg.phrase	Pattern effects can also change speed and BPM while playing.	Ефектите на модела също могат да променят скоростта и BPM по време на игра.
+msg.phrase	UP/DOWN SELECT   LEFT/RIGHT ADJUST   ENTER/F2 CLOSE	UP/DOWN SELECT   LEFT/RIGHT ADJUST   ENTER/F2 CLOSE
+msg.phrase	Type to edit the title. Backspace deletes the last character.	Пишете, за да смените заглавието. Backspace трие последния знак.
+msg.phrase	BPM range 32..255. Speed range 1..31.	BPM от 32 до 255. Скорост от 1 до 31.
+msg.phrase	Pattern effects can also change speed and BPM while playing.	Ефектите в патерните също могат да сменят скоростта и BPM по време на свирене.
 msg.phrase	INSTRUMENTS	ИНСТРУМЕНТИ
-msg.phrase	UP/DOWN SELECT   SPACE PREVIEW   ENTER USE   F3 CLOSE	НАГОРЕ/НАДОЛУ ИЗБЕРЕТЕ ПРОСТРАНСТВО ПРЕЗГЛЕД ВЪВЕДЕТЕ ИЗПОЛЗВАЙТЕ F3 ЗАТВОРИ
-msg.phrase	All four channels use wavetable synthesis.	И четирите канала използват синтез на вълнова таблица.
-msg.phrase	Preview plays C-4 on the track under the edit cursor.	Прегледът възпроизвежда C-4 на песента под курсора за редактиране.
-msg.phrase	SAVE SONG AS	ЗАПАЗИ ПЕСЕНТА КАТО
-msg.phrase	ENTER SAVE   F4 OR CTRL-C CANCEL	ENTER SAVE F4 ИЛИ CTRL-C CANCEL
-msg.phrase	Directory:	указател:
+msg.phrase	UP/DOWN SELECT   SPACE PREVIEW   ENTER USE   F3 CLOSE	UP/DOWN SELECT   SPACE PREVIEW   ENTER USE   F3 CLOSE
+msg.phrase	All four channels use wavetable synthesis.	И четирите канала използват wavetable синтез.
+msg.phrase	Preview plays C-4 on the track under the edit cursor.	Прослушването свири C-4 на пистата под курсора.
+msg.phrase	SAVE SONG AS	ЗАПИС НА ПЕСЕНТА КАТО
+msg.phrase	ENTER SAVE   F4 OR CTRL-C CANCEL	ENTER SAVE   F4 OR CTRL-C CANCEL
+msg.phrase	Directory:	Папка:
 msg.phrase	File name:	Име на файла:
 msg.phrase	The extension .SGT is added automatically.	Разширението .SGT се добавя автоматично.
-msg.phrase	An existing file can be overwritten.	Съществуващ файл може да бъде презаписан.
-msg.phrase	OPEN SONG	ОТВОРЕНА ПЕСЕН
-msg.phrase	ENTER OPEN  BS PARENT  CTRL-O/CTRL-C CANCEL	ENTER OPEN BS PARENT CTRL-O/CTRL-C CANCEL
-msg.phrase	(no .SGT files in this folder)	(няма .SGT файлове в тази папка)
-msg.phrase	CONFIRM	ПОТВЪРЖДАВАНЕ
-msg.phrase	Y = YES   N / ENTER / CTRL-C = NO	Y = ДА N / ENTER / CTRL-C = НЕ
-msg.phrase	Y = yes        N = no	Y = да N = не
+msg.phrase	An existing file can be overwritten.	Съществуващ файл може да се презапише.
+msg.phrase	OPEN SONG	ОТВАРЯНЕ НА ПЕСЕН
+msg.phrase	ENTER OPEN  BS PARENT  CTRL-O/CTRL-C CANCEL	ENTER OPEN  BS PARENT  CTRL-O/CTRL-C CANCEL
+msg.phrase	(no .SGT files in this folder)	(в тази папка няма .SGT файлове)
+msg.phrase	CONFIRM	ПОТВЪРЖДЕНИЕ
+msg.phrase	Y = YES   N / ENTER / CTRL-C = NO	Y = YES   N / ENTER / CTRL-C = NO
+msg.phrase	Y = yes        N = no	Y = да        N = не
 msg.phrase	C-	C-
 msg.phrase	C#	C#
-msg.phrase	D-	Д-
+msg.phrase	D-	D-
 msg.phrase	D#	D#
-msg.phrase	E-	д-
-msg.phrase	F-	Ф-
+msg.phrase	E-	E-
+msg.phrase	F-	F-
 msg.phrase	F#	F#
 msg.phrase	G-	G-
 msg.phrase	G#	G#
-msg.phrase	A-	а-
+msg.phrase	A-	A-
 msg.phrase	A#	A#
-msg.phrase	B-	Б-
+msg.phrase	B-	B-
 msg.phrase	A:/dir/name	A:/dir/име
 msg.phrase	MThd	MThd
-msg.phrase	broken MThd	счупен MThd
-msg.phrase	MIDI IMPORT	MIDI ВНОС
+msg.phrase	broken MThd	повреден MThd
+msg.phrase	MIDI IMPORT	ВНОС НА MIDI
 msg.phrase	MTrk	MTrk
-msg.phrase	broken delta time	счупено делта време
-msg.phrase	broken running status	счупено състояние на работа
-msg.phrase	broken meta event	счупено мета събитие
-msg.phrase	broken sysex event	счупено sysex събитие
-msg.phrase	broken channel event	събитие на повреден канал
-msg.phrase	SMF output is too small	SMF изходът е твърде малък
-msg.phrase	SMF output is too large	SMF изходът е твърде голям
+msg.phrase	broken delta time	повреден delta time
+msg.phrase	broken running status	повреден running status
+msg.phrase	broken meta event	повредено meta събитие
+msg.phrase	broken sysex event	повредено SysEx събитие
+msg.phrase	broken channel event	повредено събитие на канал
+msg.phrase	SMF output is too small	Резултатът SMF е твърде малък
+msg.phrase	SMF output is too large	Резултатът SMF е твърде голям
 msg.phrase	the song is too long for SMF	песента е твърде дълга за SMF
 msg.phrase	TRK1	TRK1
 msg.phrase	%s%d	%s%d
 msg.phrase	%s%d:%s%d	%s%d:%s%d
 msg.phrase	%s	%s
 msg.phrase	%.40s%s	%.40s%s
-msg.phrase	  [%s]   %s	[%s] %s
-msg.phrase	EDIT  	РЕДАКТИРАНЕ
+msg.phrase	  [%s]   %s	  [%s]   %s
+msg.phrase	EDIT  	РЕД.
 msg.phrase	READY 	ГОТОВ
-msg.phrase	%4d 	%4d
+msg.phrase	%4d 	%4d 
 msg.phrase	%s Sum %.7g N %ld%s	%s Сума %.7g N %ld%s
-msg.phrase	ARROWS      move the cell cursor\n	СТРЕЛКИТЕ преместват курсора на клетката
-msg.phrase	SHIFT+ARR   extend the selection (for graphs/copy)\n	SHIFT+ARR разширява селекцията (за графики/копиране)
-msg.phrase	ENTER       edit the cell; in edit, commit and move down\n	ENTER редактиране на клетката; в редактиране, ангажиране и преместване надолу
-msg.phrase	TAB         next cell    SHIFT+TAB  previous cell\n	TAB следваща клетка SHIFT+TAB предишна клетка
-msg.phrase	DELETE      clear the selected cell(s)    ESC  cancel\n	DELETE изчистване на избраната клетка(и) ESC отмяна
-msg.phrase	PGUP/PGDN   move one screen    HOME/END  first/last column\n	PGUP/PGDN преместване на един екран HOME/END първа/последна колона
-msg.phrase	CTRL+HOME   A1    CTRL+END  last used cell\n	CTRL+HOME A1 CTRL+END последната използвана клетка
-msg.phrase	F1 help  F2 edit  F3 copy  F4 paste  F5 goto  F6 colour\n	F1 помощ F2 редактиране F3 копиране F4 поставяне F5 преминаване към F6 цвят
-msg.phrase	F7 auto-fit  F8 background  F9 recalc  F10 graph  F11 save  F12 menu\n	F7 автоматично побиране F8 фон F9 повторно изчисляване F10 графика F11 запазване F12 меню
-msg.phrase	SHIFT+F1 about  SHIFT+F2 row height  SHIFT+F3 column width\n	SHIFT+F1 около SHIFT+F2 височина на ред SHIFT+F3 ширина на колона
-msg.phrase	SHIFT+F4 select all  SHIFT+F10 graph range  SHIFT+F11 save as\n	SHIFT+F4 избиране на целия диапазон на графиката SHIFT+F10 SHIFT+F11 запазване като
-msg.phrase	CTRL+F1 new  CTRL+F2 open  CTRL+F3 save  CTRL+F4 save as\n	CTRL+F1 нов CTRL+F2 отваряне CTRL+F3 запазване CTRL+F4 запазване като
-msg.phrase	CTRL+F5 export CSV  CTRL+F6 export ODS  ALT+F12 quit\n	CTRL+F5 експортиране на CSV CTRL+F6 експортиране на ODS ALT+F12 изход
-msg.phrase	Bottom 2 lines: function keys; [SHIFT]/[CTRL]/[ALT] like the filer\n	Долни 2 реда: функционални клавиши; [SHIFT]/[CTRL]/[ALT] като файла
-msg.phrase	CTRL+S save  CTRL+O open  CTRL+N new  CTRL+C/V/X copy/paste/cut\n	CTRL+S запазване CTRL+O отваряне CTRL+N ново CTRL+C/V/X копиране/поставяне/изрязване
-msg.phrase	CTRL+G goto    /  open the menu (1 File, 2 Edit, ...)\n	CTRL+G отидете / отворете менюто (1 файл, 2 редактиране, ...)
-msg.phrase	Built-in functions: SUM AVERAGE MIN MAX COUNT COUNTA\n	Вградени функции: SUM AVERAGE MIN MAX COUNT COUNTA
-msg.phrase	PRODUCT ABS SQRT INT ROUND MOD POWER IF AND OR NOT\n	ПРОДУКТ ABS SQRT INT ROUND MOD POWER АКО И ИЛИ НЕ
-msg.phrase	IFERROR LEN LEFT RIGHT MID UPPER LOWER TRIM CONCATENATE PI\n	IFERROR LEN ЛЯВО ДЯСНО СРЕДНО ГОРНО ДОЛНО СЪЕДИНЕНИЕ PI
-msg.phrase	Cell refs: A1, $A$1, A1:B10.  Formulas begin with '='.\n	Референтни клетки: A1, $A$1, A1:B10.  Формулите започват с '='.
-msg.phrase	Files: .ods (LibreOffice), .fods (flat XML), .csv\n	Файлове: .ods (LibreOffice), .fods (плосък XML), .csv
-msg.phrase	ODS/FODS keeps formulas, widths, heights and colours.\n	ODS/FODS запазва формули, ширини, височини и цветове.
-msg.phrase	CSV keeps values and formulas (no colours/heights).\n	CSV пази стойности и формули (без цветове/височини).
-msg.phrase	Graph: select a range, press F10, and choose Line/Bar/Mixed/Pie.\n	Графика: изберете диапазон, натиснете F10 и изберете Line/Bar/Mixed/Pie.
-msg.phrase	SGCALC for sgnano\n	SGCALC за снано
+msg.phrase	ARROWS      move the cell cursor\n	СТРЕЛКИ     преместване на курсора\n
+msg.phrase	SHIFT+ARR   extend the selection (for graphs/copy)\n	SHIFT+СТР   разширяване на избора (за диаграми/копиране)\n
+msg.phrase	ENTER       edit the cell; in edit, commit and move down\n	ENTER       редакция на клетката; при редакция потвърждава и слиза\n
+msg.phrase	TAB         next cell    SHIFT+TAB  previous cell\n	TAB         следваща клетка    SHIFT+TAB  предишна клетка\n
+msg.phrase	DELETE      clear the selected cell(s)    ESC  cancel\n	DELETE      изчистване на избраните клетки    ESC  отказ\n
+msg.phrase	PGUP/PGDN   move one screen    HOME/END  first/last column\n	PGUP/PGDN   един екран    HOME/END  първа/последна колона\n
+msg.phrase	CTRL+HOME   A1    CTRL+END  last used cell\n	CTRL+HOME   A1    CTRL+END  последна използвана клетка\n
+msg.phrase	F1 help  F2 edit  F3 copy  F4 paste  F5 goto  F6 colour\n	F1 помощ  F2 редакция  F3 копиране  F4 поставяне  F5 към  F6 цвят\n
+msg.phrase	F7 auto-fit  F8 background  F9 recalc  F10 graph  F11 save  F12 menu\n	F7 напасване  F8 фон  F9 преизчисляване  F10 диаграма  F11 запис  F12 меню\n
+msg.phrase	SHIFT+F1 about  SHIFT+F2 row height  SHIFT+F3 column width\n	SHIFT+F1 относно  SHIFT+F2 височина на ред  SHIFT+F3 ширина на колона\n
+msg.phrase	SHIFT+F4 select all  SHIFT+F10 graph range  SHIFT+F11 save as\n	SHIFT+F4 избор на всичко  SHIFT+F10 обхват  SHIFT+F11 запис като\n
+msg.phrase	CTRL+F1 new  CTRL+F2 open  CTRL+F3 save  CTRL+F4 save as\n	CTRL+F1 нов  CTRL+F2 отваряне  CTRL+F3 запис  CTRL+F4 запис като\n
+msg.phrase	CTRL+F5 export CSV  CTRL+F6 export ODS  ALT+F12 quit\n	CTRL+F5 износ CSV  CTRL+F6 износ ODS  ALT+F12 изход\n
+msg.phrase	Bottom 2 lines: function keys; [SHIFT]/[CTRL]/[ALT] like the filer\n	Долните 2 реда: функционални клавиши; [SHIFT]/[CTRL]/[ALT] като във filer\n
+msg.phrase	CTRL+S save  CTRL+O open  CTRL+N new  CTRL+C/V/X copy/paste/cut\n	CTRL+S запис  CTRL+O отваряне  CTRL+N нов  CTRL+C/V/X коп./пост./изрязв.\n
+msg.phrase	CTRL+G goto    /  open the menu (1 File, 2 Edit, ...)\n	CTRL+G към    /  отваряне на менюто (1 Файл, 2 Редакция, ...)\n
+msg.phrase	Built-in functions: SUM AVERAGE MIN MAX COUNT COUNTA\n	Вградени функции: SUM AVERAGE MIN MAX COUNT COUNTA\n
+msg.phrase	PRODUCT ABS SQRT INT ROUND MOD POWER IF AND OR NOT\n	PRODUCT ABS SQRT INT ROUND MOD POWER IF AND OR NOT\n
+msg.phrase	IFERROR LEN LEFT RIGHT MID UPPER LOWER TRIM CONCATENATE PI\n	IFERROR LEN LEFT RIGHT MID UPPER LOWER TRIM CONCATENATE PI\n
+msg.phrase	Cell refs: A1, $A$1, A1:B10.  Formulas begin with '='.\n	Препратки: A1, $A$1, A1:B10.  Формулите започват с '='.\n
+msg.phrase	Files: .ods (LibreOffice), .fods (flat XML), .csv\n	Файлове: .ods (LibreOffice), .fods (плосък XML), .csv\n
+msg.phrase	ODS/FODS keeps formulas, widths, heights and colours.\n	ODS/FODS пази формули, ширини, височини и цветове.\n
+msg.phrase	CSV keeps values and formulas (no colours/heights).\n	CSV пази само стойности и формули (без цветове/височини).\n
+msg.phrase	Graph: select a range, press F10, and choose Line/Bar/Mixed/Pie.\n	Диаграма: изберете обхват, F10, после Линейна/Стълбова/Смесена/Кръгова.\n
+msg.phrase	SGCALC for sgnano\n	SGCALC for sgnano\n
 msg.phrase	Version 	Версия
-msg.phrase	A Lotus 1-2-3 style spreadsheet as an SGX program.\n\n	Електронна таблица в стил Lotus 1-2-3 като SGX програма.
+msg.phrase	A Lotus 1-2-3 style spreadsheet as an SGX program.\n\n	Електронна таблица в стил Lotus 1-2-3 като програма SGX.\n\n
 msg.phrase	SGX ABI %u.%u\n	SGX ABI %u.%u
-msg.phrase	Screen mode 3: text + CLUT8 FB (lowres disabled)\n	Режим на екрана 3: текст + CLUT8 FB (ниска разделителна способност е деактивирана)
+msg.phrase	Screen mode 3: text + CLUT8 FB (lowres disabled)\n	Екранен режим 3: текст + CLUT8 FB (без слоя lowres)\n
 msg.phrase	Sheet: %d rows x %d columns\n	Лист: %d реда x %d колони
-msg.phrase	Formats: .ods / .fods (LibreOffice), .csv\n\n	Формати: .ods / .fods (LibreOffice), .csv
-msg.phrase	The grid is drawn on the text plane.\n	Мрежата се изчертава върху текстовата равнина.
-msg.phrase	Charts and the 640x480 background use the FB.\n\n	Графиките и фонът 640x480 използват FB.
+msg.phrase	Formats: .ods / .fods (LibreOffice), .csv\n\n	Формати: .ods / .fods (LibreOffice), .csv\n\n
+msg.phrase	The grid is drawn on the text plane.\n	Мрежата се рисува върху текстовия слой.\n
+msg.phrase	Charts and the 640x480 background use the FB.\n\n	Диаграмите и фонът 640x480 използват FB.\n\n
 msg.phrase	%d %s	%d %s
-msg.phrase	Cannot store the cell (%d).	Не може да съхрани клетката (%d).
+msg.phrase	Cannot store the cell (%d).	Клетката не може да се запише (%d).
 msg.phrase	Copied %d x %d cells	Копирани %d x %d клетки
 msg.phrase	Cleared %s	Изчистено %s
-msg.phrase	'%s' is not a cell reference.	„%s“ не е препратка към клетка.
+msg.phrase	'%s' is not a cell reference.	'%s' не е препратка към клетка.
 msg.phrase	%d	%d
-msg.phrase	Column width = %d	Ширина на колоната = %d
-msg.phrase	Row height = %d	Височина на реда = %d
-msg.phrase	Auto fit: %d column(s), %d row(s)	Автоматично побиране: %d колона(и), %d ред(ове)
+msg.phrase	Column width = %d	Ширина на колона = %d
+msg.phrase	Row height = %d	Височина на ред = %d
+msg.phrase	Auto fit: %d column(s), %d row(s)	Напасване: колони %d, редове %d
 msg.phrase	%2d	%2d
-msg.phrase	Cannot apply the colour (%d).	Не може да се приложи цвета (%d).
+msg.phrase	Cannot apply the colour (%d).	Цветът не може да се приложи (%d).
 msg.phrase	%s colour = %d	%s цвят = %d
-msg.phrase	Not a valid range.\nUse a range such as A1:C10.	Не е валиден диапазон.\nИзползвайте диапазон като A1:C10.
-msg.phrase	Graph range %s	Диапазон на графиката %s
+msg.phrase	Not a valid range.\nUse a range such as A1:C10.	Невалиден обхват.\nВъведете обхват като A1:C10.
+msg.phrase	Graph range %s	Обхват на диаграмата %s
 msg.phrase	Graph: %s	Графика: %s
-msg.phrase	SGCALC: cannot set screen mode 3: %s\n	SGCALC: не може да зададе екранен режим 3: %s
+msg.phrase	SGCALC: cannot set screen mode 3: %s\n	SGCALC: не може да се зададе екранен режим 3: %s\n
 msg.phrase	%.2g	%.2g
 msg.phrase	%.6g	%.6g
-msg.phrase	%s  %.0f%%	%s %.0f%%
-msg.phrase	GRAPH  %s  %s	ГРАФИКА %s %s
+msg.phrase	%s  %.0f%%	%s  %.0f%%
+msg.phrase	GRAPH  %s  %s	ДИАГРАМА  %s  %s
 msg.phrase	%s%s	%s%s
 msg.phrase	%s/%s	%s/%s
 msg.phrase	%.*s	%.*s
 msg.phrase	%.*s/	%.*s/
-msg.phrase	Cannot read %s\n%s	Не може да се прочете %s\n%s
+msg.phrase	Cannot read %s\n%s	%s не може да се прочете\n%s
 msg.phrase	Folder: %s	Папка: %s
 msg.phrase	[DIR] %s	[DIR] %s
-msg.phrase	      %s	%s
-msg.phrase	%lu.%luM	%lu.%luМ
-msg.phrase	%luK	%luК
-msg.phrase	%luB	%luБ
-msg.phrase	BOOK1%s	КНИГА 1%s
+msg.phrase	      %s	      %s
+msg.phrase	%lu.%luM	%lu.%luM
+msg.phrase	%luK	%luK
+msg.phrase	%luB	%luB
+msg.phrase	BOOK1%s	BOOK1%s
 msg.phrase	%c:/	%c:/
 msg.phrase	Unsupported extension.\nUse .csv, .ods or .fods.	Неподдържано разширение.\nИзползвайте .csv, .ods или .fods.
-msg.phrase	%s already exists.\nOverwrite it?	%s вече съществува.\nДа го презапиша?
-msg.phrase	%s may not be writable.\nTry anyway?	%s може да не може да се записва.\nОпитайте все пак?
-msg.phrase	Unknown file type for %s	Неизвестен файлов тип за %s
-msg.phrase	Unsupported file type.\nUse .csv, .ods or .fods.	Неподдържан файлов тип.\nИзползвайте .csv, .ods или .fods.
-msg.phrase	Cannot open %s\n%s	Не може да се отвори %s\n%s
+msg.phrase	%s already exists.\nOverwrite it?	%s вече съществува.\nДа се презапише ли?
+msg.phrase	%s may not be writable.\nTry anyway?	В %s може да не се записва.\nДа се опита ли все пак?
+msg.phrase	Unknown file type for %s	Непознат тип файл: %s
+msg.phrase	Unsupported file type.\nUse .csv, .ods or .fods.	Неподдържан тип файл.\nИзползвайте .csv, .ods или .fods.
+msg.phrase	Cannot open %s\n%s	%s не може да се отвори\n%s
 msg.phrase	%s is a folder.	%s е папка.
-msg.phrase	Cannot import %s\n%s	Не може да се импортира %s\n%s
-msg.phrase	Loaded %s	Заредено %s
-msg.phrase	Cannot build the %s file.	Не може да се създаде %s файл.
-msg.phrase	Cannot write %s\n%s	Не може да се напише %s\n%s
+msg.phrase	Cannot import %s\n%s	%s не може да се внесе\n%s
+msg.phrase	Loaded %s	Зареден: %s
+msg.phrase	Cannot build the %s file.	Файлът %s не може да се създаде.
+msg.phrase	Cannot write %s\n%s	%s не може да се запише\n%s
 msg.phrase	%s %s	%s %s
-msg.phrase	unsupported version %u	неподдържана версия %u
+msg.phrase	unsupported version %u	неподдържана версия (%u)
 msg.phrase	%d:%d:%d:%d:%d:%d	%d:%d:%d:%d:%d:%d
 msg.phrase	Octave %d	Октава %d
-msg.phrase	Note %s	Забележка %s
+msg.phrase	Note %s	Нота %s
 msg.phrase	Instrument %d	Инструмент %d
-msg.phrase	Volume %s	Обем %s
+msg.phrase	Volume %s	Сила %s
 msg.phrase	Effect %c	Ефект %c
 msg.phrase	Parameter %s	Параметър %s
-msg.phrase	Pattern %s	Модел %s
-msg.phrase	Playing pattern %s	Модел на възпроизвеждане %s
-msg.phrase	SAVE ERROR: %s	ГРЕШКА ЗА ЗАПАЗВАНЕ: %s
-msg.phrase	Saved %s	Запазено %s
+msg.phrase	Pattern %s	Патерн %s
+msg.phrase	Playing pattern %s	Свири патерн %s
+msg.phrase	SAVE ERROR: %s	ГРЕШКА ПРИ ЗАПИС: %s
+msg.phrase	Saved %s	Записан: %s
 msg.phrase	LOAD ERROR: %s	ГРЕШКА ПРИ ЗАРЕЖДАНЕ: %s
 msg.phrase	BPM %d	BPM %d
 msg.phrase	Speed %d	Скорост %d
-msg.phrase	Preview %s	Визуализация %s
+msg.phrase	Preview %s	Прослушване %s
 msg.phrase	Instrument %s %s	Инструмент %s %s
-msg.phrase	Overwrite %s? (Y/N)	Презаписване %s? (да/не)
-msg.phrase	 | BPM %s SPD %s 	| BPM %s SPD %s
-msg.phrase	 SGNO TRACKER 1.0 | 	SGNO TRACKER 1.0 |
-msg.phrase	FILE 	ФАЙЛ
-msg.phrase	 PAT %s	PAT %s
-msg.phrase	 ORD %d/%d	ORD %d/%d
-msg.phrase	 INS %s 	INS %s
-msg.phrase	 OCT %d	ОКТ %d
-msg.phrase	 EDIT %s	РЕДАКТИРАНЕ %s
-msg.phrase	ON 	ВКЛ
-msg.phrase	 FOL %s	FOL %s
-msg.phrase	TRACK %d	ПРОЛЕТИ %d
+msg.phrase	Overwrite %s? (Y/N)	Презапис на %s? (Y/N)
+msg.phrase	 | BPM %s SPD %s 	 | BPM %s SPD %s 
+msg.phrase	 SGNO TRACKER 1.0 | 	 SGNO TRACKER 1.0 | 
+msg.phrase	FILE 	FILE 
+msg.phrase	 PAT %s	 PAT %s
+msg.phrase	 ORD %d/%d	 ORD %d/%d
+msg.phrase	 INS %s 	 INS %s 
+msg.phrase	 OCT %d	 OCT %d
+msg.phrase	 EDIT %s	 EDIT %s
+msg.phrase	ON 	ON 
+msg.phrase	 FOL %s	 FOL %s
+msg.phrase	TRACK %d	TRACK %d
 msg.phrase	%c%s	%c%s
 msg.phrase	%s %s %s %s	%s %s %s %s
-msg.phrase	%s 	%s
+msg.phrase	%s 	%s 
 msg.phrase	%d %s %s	%d %s %s
-msg.phrase	ORDER %d/%d	ПОРЪЧАЙ %d/%d
-msg.phrase	PAT   %s	PAT %s
+msg.phrase	ORDER %d/%d	ORDER %d/%d
+msg.phrase	PAT   %s	PAT   %s
 msg.phrase	INS %s %s	INS %s %s
-msg.phrase	OCT %d  EDIT %s	OCT %d РЕДАКТИРАНЕ %s
-msg.phrase	FOLLOW %s	СЛЕДВАЙТЕ %s
-msg.phrase	PLAYING  ORD %d/%d  PAT %s  ROW %s/%d  SPD %s  BPM %d  F7 STOP	PLAYING ORD %d/%d PAT %s ROW %s/%d SPD %s BPM %d F7 STOP
-msg.phrase	READY  EDIT %s  OCT %d  F1 HELP  F5 PLAY  CTRL-S SAVE	ГОТОВ РЕДАКТИРАНЕ %s OCT %d F1 ПОМОЩ F5 ИЗПЪЛНЯВАНЕ CTRL-S ЗАПАЗВАНЕ
-msg.phrase	 %s 	%s
-msg.phrase	  F5          Play the song from the current order	F5 Възпроизвеждане на песента от текущия ред
-msg.phrase	  F6          Play the current pattern	F6 Възпроизвеждане на текущия модел
-msg.phrase	  F7/Ctrl-C   Stop playback	F7/Ctrl-C Спрете възпроизвеждането
-msg.phrase	  Space       Play / stop	Space Възпроизвеждане / спиране
-msg.phrase	  F4          Save as	F4 Запиши като
-msg.phrase	  Ctrl-S      Save (asks for a name if new)	Ctrl-S Запазване (пита за име, ако е ново)
-msg.phrase	  Ctrl-O      Open a song	Ctrl-O Отваряне на песен
-msg.phrase	  Ctrl-N      New song	Ctrl-N Нова песен
-msg.phrase	  F12         Quit (confirmation if modified)	F12 Изход (потвърждение, ако е променено)
-msg.phrase	  [ ]         Previous / next order entry	[ ] Предишно / следващо въвеждане на поръчка
-msg.phrase	  { }         Insert / delete an order entry	{ } Вмъкване/изтриване на запис на поръчка
-msg.phrase	  - +         Change the pattern in the entry	- + Промяна на модела в записа
-msg.phrase	  F11         Follow playback (turns off on manual move)	F11 Следвайте възпроизвеждането (изключва се при ръчно преместване)
-msg.phrase	  F1          Help; Left/Right changes page	F1 Помощ; Ляво/Дясно променя страницата
-msg.phrase	  F8          Toggle edit mode	F8 Превключване на режима на редактиране
-msg.phrase	  Arrows      Move the cursor	Стрелки Преместване на курсора
-msg.phrase	  PgUp/PgDn   Jump 16 rows	PgUp/PgDn Скок 16 реда
-msg.phrase	  Home/End    First / last row	Начало/Край Първи/последен ред
-msg.phrase	  F9/F10      Octave down / up	F9/F10 Октава надолу / нагоре
-msg.phrase	  Z S X D C V G B H N J M      lower piano row	Z S X D C V G B H N J M долен ред на пиано
-msg.phrase	  Q 2 W 3 E R 5 T 6 Y 7 U      upper piano row	Q 2 W 3 E R 5 T 6 Y 7 U горен ред пиано
-msg.phrase	  1           Note off	1 Забележка изключена
-msg.phrase	  0 / Del     0 clears note/inst/fx; Del clears any	0 / Del 0 изчиства note/inst/fx; Del изчиства всякакви
-msg.phrase	  Ctrl-Z      Undo the last pattern/order edit	Ctrl-Z Отмяна на последната редакция на шаблон/поръчка
-msg.phrase	  Axy   Volume slide: up x, down y	Плъзгач за обем на Axy: нагоре x, надолу y
-msg.phrase	  Cxx   Note cut after xx ticks	Cxx Бележка изрязана след xx отметки
-msg.phrase	  Dxx   Set volume (00..7F)	Dxx Задайте обем (00..7F)
-msg.phrase	  Fxx   Speed if xx < 20, otherwise BPM	Fxx Скорост, ако xx < 20, в противен случай BPM
-msg.phrase	  Hxy   Arpeggio x, y semitones	Hxy Арпеджио x, y полутонове
-msg.phrase	  Pxx   Pitch slide up	Pxx Плъзнете стъпка нагоре
-msg.phrase	  Qxx   Pitch slide down	Qxx Слайд надолу
-msg.phrase	  F2 song settings, F3 instrument list	F2 настройки за песни, F3 списък с инструменти
-msg.phrase	HELP %d/2	ПОМОЩ %d/2
-msg.phrase	  Title	Заглавие
-msg.phrase	  [%s_]	[%s_]
-msg.phrase	  BPM   : %d     (left/right -1/+1, -/+ -5/+5)	BPM: %d (ляво/дясно -1/+1, -/+ -5/+5)
-msg.phrase	  Speed : %d ticks/row	Скорост: %d отметки/ред
-msg.phrase	  Rows  : %d (fixed)	Редове: %d (фиксиран)
-msg.phrase	  Order : %d entries	Ред: %d записи
-msg.phrase	  Patterns in use : %d	Модели в употреба: %d
-msg.phrase	 #  NAME       WAVE       A   D   S   R  VOL	# ИМЕ ВЪЛНА A D S R VOL
-msg.phrase	 %c %d  %-9s %-9s %3d %3d %3d %3d %4d	%c %d %-9s %-9s %3d %3d %3d %3d %4d
+msg.phrase	OCT %d  EDIT %s	OCT %d  EDIT %s
+msg.phrase	FOLLOW %s	FOLLOW %s
+msg.phrase	PLAYING  ORD %d/%d  PAT %s  ROW %s/%d  SPD %s  BPM %d  F7 STOP	PLAYING  ORD %d/%d  PAT %s  ROW %s/%d  SPD %s  BPM %d  F7 STOP
+msg.phrase	READY  EDIT %s  OCT %d  F1 HELP  F5 PLAY  CTRL-S SAVE	READY  EDIT %s  OCT %d  F1 HELP  F5 PLAY  CTRL-S SAVE
+msg.phrase	 %s 	 %s 
+msg.phrase	  F5          Play the song from the current order	  F5          Свирене на песента от текущата позиция
+msg.phrase	  F6          Play the current pattern	  F6          Свирене на текущия патерн
+msg.phrase	  F7/Ctrl-C   Stop playback	  F7/Ctrl-C   Спиране
+msg.phrase	  Space       Play / stop	  Space       Свирене / спиране
+msg.phrase	  F4          Save as	  F4          Запис като
+msg.phrase	  Ctrl-S      Save (asks for a name if new)	  Ctrl-S      Запис (пита за име, ако е нова)
+msg.phrase	  Ctrl-O      Open a song	  Ctrl-O      Отваряне на песен
+msg.phrase	  Ctrl-N      New song	  Ctrl-N      Нова песен
+msg.phrase	  F12         Quit (confirmation if modified)	  F12         Изход (пита, ако има промени)
+msg.phrase	  [ ]         Previous / next order entry	  [ ]         Предишна / следваща позиция
+msg.phrase	  { }         Insert / delete an order entry	  { }         Вмъкване / изтриване на позиция
+msg.phrase	  - +         Change the pattern in the entry	  - +         Смяна на патерна в позицията
+msg.phrase	  F11         Follow playback (turns off on manual move)	  F11         Следене на свиренето (изключва се при ръчно местене)
+msg.phrase	  F1          Help; Left/Right changes page	  F1          Помощ; Ляво/Дясно сменя страницата
+msg.phrase	  F8          Toggle edit mode	  F8          Вкл. / изкл. на редакцията
+msg.phrase	  Arrows      Move the cursor	  Стрелки     Преместване на курсора
+msg.phrase	  PgUp/PgDn   Jump 16 rows	  PgUp/PgDn   Скок с 16 реда
+msg.phrase	  Home/End    First / last row	  Home/End    Първи / последен ред
+msg.phrase	  F9/F10      Octave down / up	  F9/F10      Октава надолу / нагоре
+msg.phrase	  Z S X D C V G B H N J M      lower piano row	  Z S X D C V G B H N J M      долен ред на пианото
+msg.phrase	  Q 2 W 3 E R 5 T 6 Y 7 U      upper piano row	  Q 2 W 3 E R 5 T 6 Y 7 U      горен ред на пианото
+msg.phrase	  1           Note off	  1           Note off
+msg.phrase	  0 / Del     0 clears note/inst/fx; Del clears any	  0 / Del     0 трие нота/инстр./ефект; Del полето
+msg.phrase	  Ctrl-Z      Undo the last pattern/order edit	  Ctrl-Z      Отмяна на последната промяна на патерн/ред
+msg.phrase	  Axy   Volume slide: up x, down y	  Axy   Плъзгане на силата: нагоре x, надолу y
+msg.phrase	  Cxx   Note cut after xx ticks	  Cxx   Прекъсване на нотата след xx тика
+msg.phrase	  Dxx   Set volume (00..7F)	  Dxx   Задаване на силата (00..7F)
+msg.phrase	  Fxx   Speed if xx < 20, otherwise BPM	  Fxx   Скорост при xx < 20, иначе BPM
+msg.phrase	  Hxy   Arpeggio x, y semitones	  Hxy   Арпеж x, y полутона
+msg.phrase	  Pxx   Pitch slide up	  Pxx   Плъзгане на височината нагоре
+msg.phrase	  Qxx   Pitch slide down	  Qxx   Плъзгане на височината надолу
+msg.phrase	  F2 song settings, F3 instrument list	  F2 настройки на песента, F3 списък с инструменти
+msg.phrase	HELP %d/2	HELP %d/2
+msg.phrase	  Title	  Заглавие
+msg.phrase	  [%s_]	  [%s_]
+msg.phrase	  BPM   : %d     (left/right -1/+1, -/+ -5/+5)	  BPM   : %d     (ляво/дясно -1/+1, -/+ -5/+5)
+msg.phrase	  Speed : %d ticks/row	  Скорост : %d тика на ред
+msg.phrase	  Rows  : %d (fixed)	  Редове : %d (фиксирано)
+msg.phrase	  Order : %d entries	  Ред   : %d позиции
+msg.phrase	  Patterns in use : %d	  Използвани патерни : %d
+msg.phrase	 #  NAME       WAVE       A   D   S   R  VOL	 #  NAME       WAVE       A   D   S   R  VOL
+msg.phrase	 %c %d  %-9s %-9s %3d %3d %3d %3d %4d	 %c %d  %-9s %-9s %3d %3d %3d %3d %4d
 msg.phrase	Current instrument: %s %s	Текущ инструмент: %s %s
-msg.phrase	  %s	%s
-msg.phrase	DIR  %s	DIR %s
-msg.phrase	 %c %s%s	%c %s%s
+msg.phrase	  %s	  %s
+msg.phrase	DIR  %s	DIR  %s
+msg.phrase	 %c %s%s	 %c %s%s
 msg.phrase	Files: %d	Файлове: %d
 msg.phrase	%02d	%02d
 msg.phrase	%03d	%03d
 msg.phrase	%02X	%02X
-msg.phrase	SGNO TRACKER: incompatible SGX ABI\n	SGNO TRACKER: несъвместим SGX ABI
+msg.phrase	SGNO TRACKER: incompatible SGX ABI\n	SGNO TRACKER: несъвместим SGX ABI\n
 msg.phrase	S: check: wait -- a file is being read or written	S: проверка: изчакайте -- файл се чете или записва
 msg.phrase	S: check: the drive is busy or not ready	S: проверка: устройството е заето или не е готово
 msg.phrase	nothing for this item (ContextMenu.cfg)	нищо за този елемент (ContextMenu.cfg)
@@ -1120,43 +1116,72 @@ msg.prefix	compress	компресирам
 msg.prefix	render	рендиране
 msg.phrase	5 Macro	5 Макро
 msg.phrase	6 Help	6 Помощ
-msg.phrase	Run current	Пуснете ток
-msg.phrase	Run the macro at the cursor (#! header cell and the cells below it)	Стартирайте макроса при курсора (#! заглавна клетка и клетките под нея)
-msg.phrase	Run selection	Изпълнете избора
-msg.phrase	Run the selected cells as one macro (top-left cell is the #! header)	Изпълнете избраните клетки като един макрос (горната лява клетка е заглавката #!)
-msg.phrase	Run all	Изпълнете всички
-msg.phrase	Run every macro in the sheet, top-left to bottom-right	Стартирайте всеки макрос в листа, от горния ляв до долния десен ъгъл
+msg.phrase	Run current	Изпълнение на текущия
+msg.phrase	Run the macro at the cursor (#! header cell and the cells below it)	Изпълнение на макроса при курсора (заглавната клетка #! и клетките под нея)
+msg.phrase	Run selection	Изпълнение на избраното
+msg.phrase	Run the selected cells as one macro (top-left cell is the #! header)	Изпълнение на избраните клетки като един макрос (горната лява е заглавието #!)
+msg.phrase	Run all	Изпълнение на всички
+msg.phrase	Run every macro in the sheet, top-left to bottom-right	Изпълнение на всички макроси в листа, от горе вляво до долу вдясно
 msg.phrase	Last error	Последна грешка
-msg.phrase	Show the last macro error	Показване на последната макро грешка
-msg.phrase	Macro	Макро
-msg.phrase	Macro: run #!ruby / #!python / #!basic cells	Макрос: стартирайте #!ruby / #!python / #!basic клетки
-msg.phrase	Edit the cell (F2)	Редактиране на клетката (F2)
+msg.phrase	Show the last macro error	Показване на последната грешка в макрос
+msg.phrase	Macro	Макрос
+msg.phrase	Macro: run #!ruby / #!python / #!basic cells	Макрос: изпълнение на клетки #!ruby / #!python / #!basic
+msg.phrase	Edit the cell (F2)	Редакция на клетката (F2)
 msg.phrase	Fit widths/heights to the contents	Напасване на ширини/височини към съдържанието
-msg.phrase	Last macro error	Последна макро грешка
-msg.phrase	No macro error.	Няма макро грешка.
-msg.phrase	IME on	IME е включен
-msg.phrase	IME off	IME е изключен
-msg.phrase	Macro: %s %s ...	Макро: %s %s ...
-msg.phrase	%s: this firmware cannot run macros (SGX ABI 5.10 or later)	%s: този фърмуер не може да изпълнява макроси (SGX ABI 5.10 или по-нова версия)
-msg.phrase	Macro error: %s	Макро грешка: %s
-msg.phrase	Macro: %s done	Макро: %s готово
-msg.phrase	a macro is already running	макросът вече се изпълнява
+msg.phrase	Last macro error	Последна грешка в макрос
+msg.phrase	No macro error.	Няма грешки в макроси.
+msg.phrase	IME on	IME вкл.
+msg.phrase	IME off	IME изкл.
+msg.phrase	Macro: %s %s ...	Макрос: %s %s ...
+msg.phrase	%s: this firmware cannot run macros (SGX ABI 5.10 or later)	%s: този фърмуер не може да изпълнява макроси (нужен е SGX ABI 5.10 или по-нов)
+msg.phrase	Macro error: %s	Грешка в макрос: %s
+msg.phrase	Macro: %s done	Макрос: %s завърши
+msg.phrase	a macro is already running	вече се изпълнява макрос
 msg.phrase	this language is not available	този език не е наличен
 msg.phrase	not enough memory	няма достатъчно памет
 msg.phrase	the macro stopped with an error	макросът спря с грешка
-msg.phrase	Macro error %s: %s	Макро грешка %s: %s
-msg.phrase	Macro: not enough memory	Макро: няма достатъчно памет
+msg.phrase	Macro error %s: %s	Грешка в макрос %s: %s
+msg.phrase	Macro: not enough memory	Макрос: няма достатъчно памет
 msg.phrase	Macro: the cursor is not on a macro (a #!ruby / #!python / #!basic cell or the cells below it)	Макрос: курсорът не е върху макрос (клетка #!ruby / #!python / #!basic или клетките под нея)
-msg.phrase	Macro: no macro in the sheet	Макрос: няма макрос в листа
-msg.phrase	Run all macros	Стартирайте всички макроси
-msg.phrase	Macros: %d. Run them all, top-left to bottom-right? Changes cannot be undone.	Макроси: %d. Пуснете ги всички, отгоре вляво до долу вдясно? Промените не могат да бъдат отменени.
-msg.phrase	Macro: %d of %d done	Макрос: %d от %d готово
-msg.phrase	Cleared the cell	Изчисти клетката
-msg.phrase	Cleared the selection	Изчистих селекцията
+msg.phrase	Macro: no macro in the sheet	Макрос: в листа няма макроси
+msg.phrase	Run all macros	Изпълнение на всички макроси
+msg.phrase	Macros: %d. Run them all, top-left to bottom-right? Changes cannot be undone.	Макроси: %d. Да се изпълнят ли всички, от горе вляво до долу вдясно? Промените не могат да се отменят.
+msg.phrase	Macro: %d of %d done	Макрос: завършени %d от %d
+msg.phrase	Cleared the cell	Клетката е изчистена
+msg.phrase	Cleared the selection	Избраното е изчистено
 msg.phrase	Background colour = %d	Цвят на фона = %d
 msg.phrase	Text colour = %d	Цвят на текста = %d
-msg.phrase	Graph: line	Графика: линия
-msg.phrase	Graph: bar	Графика: бар
-msg.phrase	Graph: mixed	Графика: смесена
-msg.phrase	Graph: pie	Графика: пай
-msg.phrase	Exported %s	Изнесено %s
+msg.phrase	Graph: line	Диаграма: линейна
+msg.phrase	Graph: bar	Диаграма: стълбова
+msg.phrase	Graph: mixed	Диаграма: смесена
+msg.phrase	Graph: pie	Диаграма: кръгова
+msg.phrase	Exported %s	Изнесен: %s
+ui	USB・時計・設定	USB, clock, settings
+ui	0.001 秒未満	под 0.001 с
+ui	%s 秒	%s с
+ui	コンパイル %s  実行 %s	компилация %s  изпълнение %s
+ui	コンパイル %s	компилация %s
+ui	実行 %s	изпълнение %s
+msg.phrase	1 Help	1 Помощ
+msg.phrase	3 Copy	3 Копир
+msg.phrase	4 Paste	4 Постав
+msg.phrase	5 Goto	5 Към
+msg.phrase	6 Colour	6 Цвят
+msg.phrase	7 Fit	7 Напас
+msg.phrase	8 Backgr	8 Фон
+msg.phrase	9 Recalc	9 Преизч
+msg.phrase	10 Graph	10 Граф
+msg.phrase	11 Save	11 Запис
+msg.phrase	12 Menu	12 Меню
+msg.phrase	1 About	1 За
+msg.phrase	2 Height	2 Височ
+msg.phrase	3 Width	3 Ширина
+msg.phrase	4 SelAll	4 Всичко
+msg.phrase	10 Range	10 Обхв
+msg.phrase	11 Name	11 Като
+msg.phrase	1 New	1 Нов
+msg.phrase	2 Open	2 Отвори
+msg.phrase	4 SaveAs	4 Като
+msg.phrase	12 Quit	12 Изход
+msg.phrase	3 Save	3 Запис
+msg.phrase	Version %s	Версия %s

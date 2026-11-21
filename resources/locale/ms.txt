@@ -20,14 +20,14 @@ ui	属性を変える	Tukar atribut
 ui	エディタで開く	buka dalam editor
 ui	テキスト表示（Shift+V / Ctrl+Alt+F7 は 16 進）	Lihat sebagai teks (Shift+V / Ctrl+Alt+F7 hex)
 ui	ドライブの情報	Maklumat pemacu
-ui	フォルダを作る / 新しいファイル	Folder baharu / fail baharu
+ui	フォルダを作る（Shift+F5） / 新しいファイル（Ctrl+F1）	Folder baharu (Shift+F5) / fail baharu (Ctrl+F1)
 ui	シェル sgsh / 媒体を取り出す	Shell sgsh / keluarkan media
 ui	読み直す	Muat semula
-ui	見えている画面を PNG で保存	Simpan skrin sebagai PNG
+ui	見えている画面を PNG で保存（Alt+F5 も同じ）	Simpan skrin sebagai PNG (= Alt+F5)
 ui	窓を閉じる・選択を解く（サブフォルダでは上位へ）	Tutup tetingkap / kosongkan pilihan (dalam subfolder: naik)
-ui	ファイルの操作（FD と同じ。印・範囲・カーソルの順に選ぶ）	Operasi fail (seperti FD: tanda, kemudian julat, kemudian kursor)
-ui	コピー: 行き先はドライブとフォルダの木から。ESC で止める	Salin: pilih destinasi dari pokok pemacu dan folder. ESC menghentikan
-ui	削除: y で確かめる。印・範囲をまとめて。フォルダは中身ごと	Padam: sahkan dengan y. Tanda dan julat serentak. Folder beserta kandungan
+ui	ファイルの操作（FD と同じ。印・範囲・カーソルの順）	Operasi fail (seperti FD: tanda, kemudian julat, kemudian kursor)
+ui	コピー: 行き先は木から選ぶ。ESC で止める	Salin: pilih destinasi dari pokok pemacu dan folder. ESC menghentikan
+ui	削除: y で確かめる。印・範囲をまとめて	Padam: sahkan dengan y. Tanda dan julat serentak. Folder beserta kandungan
 ui	フォルダを削除（中身ごと）	Padam folder (beserta kandungan)
 ui	名前を変える（今の名前を直して Enter）	Tukar nama (betulkan nama semasa dan tekan Enter)
 ui	属性: R 読み出し専用・H 隠し・S システム・A アーカイブ	Atribut: R baca sahaja, H tersembunyi, S sistem, A arkib
@@ -49,22 +49,19 @@ ui	画面（Alt+F。FD の F キーとぶつからない）	Skrin (Alt+F, tidak 
 ui	FB（絵）/ テキスト面を出す・隠す	FB (gambar)/Tunjukkan/sembunyikan bahagian teks
 ui	FB の表示ページ（0〜3）	Halaman paparan FB (0-3)
 ui	FB を 0 で消す / 明るさを 1/2 に（RGB555）	Kosongkan FB kepada 0 / kurangkan kecerahan separuh (RGB555)
-ui	USB のエンドポイントと LAN の状態	Titik akhir USB dan status LAN
+ui	USB のエンドポイントと LAN（U: 10 秒に 1 度）	Titik akhir USB dan status LAN
 ui	FB の表示ページを消す / 明るさを 1/2 に	Kosongkan halaman paparan FB / kurangkan kecerahan separuh
 ui	テキストの属性の見本	Contoh atribut teks
 ui	モニタの EDID（起動時に読んだもの）	Pantau EDID (baca semasa permulaan)
 ui	フォント ROM のライセンスとクレジット	Lesen dan kredit fon ROM
 ui	設定（表示の言語・IME・キーボードロケール）	Tetapan (bahasa paparan, IME, tempat papan kekunci)
-ui	時計（NTP で合わせた日本時間。s ですぐ合わせる）	Jam (masa Jepun ditetapkan dengan NTP. Tetapkan serta-merta dengan s)
+ui	時計（NTP で合わせた日本時間。s は 3 分に 1 度）	Jam (masa Jepun ditetapkan dengan NTP. Tetapkan serta-merta dengan s)
 ui	表計算（SGCALC）を開く	Buka hamparan (SGCALC)
 ui	S: ドライブのエラー検査（誤りがあれば直すか聞く）	Semak S: (bertanya sebelum membaiki)
 ui	トラッカー（TRACKER）を開く	Buka TRACKER
-ui	再起動（確かめの窓が出る）	Mulakan semula (tetingkap pengesahan akan muncul)
+ui	再起動（確かめの窓）。Ctrl+Alt+Del も同じ	Mulakan semula (tanya dulu) = Ctrl+Alt+Del
 ui	ADC のステレオ入力（GP40 / 41）を鳴らす	Memainkan input stereo ADC (GP40/41)
 ui	VGM/VGZ を 96kHz/24bit WAV に書き出す	Eksport VGM/VGZ ke WAV 96 kHz / 24 bit
-ui	このヘルプ	Bantuan ini
-ui	ページを替える	tukar muka surat
-ui	閉じる	tutup
 ui	テキスト・16 進のビュアー（less 風）	Pemapar teks/Hex (kurang gaya)
 ui	1 行	One line
 ui	1 ページ	One page
@@ -82,10 +79,9 @@ ui	IME の言語（日本語 / English / 한국어）	Bahasa IME (Bahasa Jepun /
 ui	ひらがな / カタカナで確定	Disahkan dalam Hiragana/Katakana
 ui	エディタのヘルプ	Bantuan editor
 ui	シェル	cangkerang
-ui	シェル（csh のサブセット。exit / Ctrl-D で戻る、help で一覧）	Shell (subset csh. exit / Ctrl-D untuk kembali, help menyenaraikan arahan)
+ui	シェル（csh の一部。exit / Ctrl-D で戻る、help で一覧）	Shell (subset csh. exit / Ctrl-D untuk kembali, help menyenaraikan arahan)
 ui	一覧と移動	Senaraikan dan gerakkan
 ui	ファイルの操作	Operasi fail
-ui	画面と機器	skrin dan peralatan
 ui	ビュアーとエディタ	penonton dan editor
 ui	ヘルプ  %u / %u  %s	Bantu %u / %u %s
 ui	Left Right: ページを替える    F1 / ESC: 閉じる	Kiri Kanan: Tukar halaman F1 / ESC: Tutup
@@ -146,9 +142,9 @@ ui	10 EP表	10 EP
 ui	11 時計	11 Clock
 ui	12 表計	12 CALC
 ui	1 属性	1 Atrib
-ui	2 情報	2 Info
+ui	2Drv情報	2 Info
 ui	3 移動	3 Alih
-ui	5 作成	5 Folder
+ui	5 ﾌｫﾙﾀﾞ	5 Folder
 ui	6 シェル	6 Shell
 ui	8 編集	8 Sunt
 ui	9 表示	9 Lihat
@@ -487,10 +483,10 @@ msg.phrase	no such channel	tiada saluran sedemikian
 msg.phrase	the sequencer is busy	sequencer sedang sibuk
 msg.phrase	not enough PSRAM for the song	tidak cukup PSRAM untuk lagu itu
 msg.phrase	not a standard MIDI file (no MThd)	bukan fail MIDI standard (tiada MThd)
-msg.phrase	no tracks	tiada jejak
-msg.phrase	a track is broken (MTrk)	trek rosak (MTrk)
-msg.phrase	SMPTE time division is not supported	SMPTE pembahagian masa tidak disokong
-msg.phrase	SMF format 2 is not supported (0 and 1 only)	Format SMF 2 tidak disokong (0 dan 1 sahaja)
+msg.phrase	no tracks	tiada trek
+msg.phrase	a track is broken (MTrk)	satu trek rosak (MTrk)
+msg.phrase	SMPTE time division is not supported	Pembahagian masa SMPTE tidak disokong
+msg.phrase	SMF format 2 is not supported (0 and 1 only)	Format SMF 2 tidak disokong (hanya 0 dan 1)
 msg.phrase	not a Bulk-Only drive	bukan pemanduan Pukal Sahaja
 msg.phrase	not an optical drive	bukan pemacu optik
 msg.phrase	a system folder cannot be deleted or renamed	folder sistem tidak boleh dipadam atau dinamakan semula
@@ -509,7 +505,7 @@ msg.phrase	cancelled	dibatalkan
 msg.phrase	could not mount	tidak dapat dipasang
 msg.phrase	could not start a read	tidak dapat memulakan bacaan
 msg.phrase	could not start a write	tidak dapat memulakan penulisan
-msg.phrase	is a directory	ialah sebuah direktori
+msg.phrase	is a directory	ialah folder
 msg.phrase	that is a directory	itu adalah direktori
 msg.phrase	no clusters	tiada kelompok
 msg.phrase	no room for the cluster list	tiada ruang untuk senarai kluster
@@ -621,11 +617,11 @@ msg.word	 rows	 barisan
 msg.word	 -- not supported yet (FAT / exFAT / NTFS only)	 -- belum disokong lagi (FAT / exFAT / NTFS sahaja)
 msg.word	 files	 fail
 msg.word	 (	 (
-msg.phrase	Untitled	Tidak bertajuk
+msg.phrase	Untitled	Tanpa tajuk
 msg.phrase	%s%d	%s%d
 msg.phrase	%s%d:%s%d	%s%d:%s%d
 msg.phrase	1 File	1 Fail
-msg.phrase	2 Edit	2 Sunting
+msg.phrase	2 Edit	2 Suntin
 msg.phrase	3 Graph	3 Graf
 msg.phrase	4 Sheet	4 Helaian
 msg.phrase	5 Help	5 Bantuan
@@ -635,440 +631,440 @@ msg.phrase	EMPTY	KOSONG
 msg.phrase	NUMBER	NOMBOR
 msg.phrase	TEXT	TEKS
 msg.phrase	FORMULA	FORMULA
-msg.phrase	  [%s]   %s	  [%s] %s
-msg.phrase	EDIT  	EDIT
+msg.phrase	  [%s]   %s	  [%s]   %s
+msg.phrase	EDIT  	SUNT.
 msg.phrase	READY 	SEDIA
-msg.phrase	Type to enter, F2 to edit, F1 for help	Taip untuk masuk, F2 untuk edit, F1 untuk bantuan
-msg.phrase	%4d 	%4d
+msg.phrase	Type to enter, F2 to edit, F1 for help	Taip untuk memasukkan, F2 untuk menyunting, F1 untuk bantuan
+msg.phrase	%4d 	%4d 
 msg.phrase	5 CSV	5 CSV
 msg.phrase	6 ODS	6 ODS
 msg.phrase	[SHIFT]	[SHIFT]
 msg.phrase	[CTRL]	[CTRL]
 msg.phrase	[ALT]	[ALT]
-msg.phrase	Ready	sedia
+msg.phrase	Ready	Sedia
 msg.phrase	%s Sum %.7g N %ld%s	%s Jumlah %.7g N %ld%s
 msg.phrase	SGCALC	SGCALC
 msg.phrase	Press any key	Tekan sebarang kekunci
-msg.phrase	Y = yes    N = no    Esc = cancel	Y = ya N = tidak Esc = batal
-msg.phrase	Enter = OK    Esc = cancel    Ctrl-U = clear	Masukkan = OK Esc = batal Ctrl-U = kosong
-msg.phrase	ARROWS      move the cell cursor\n	ARROWS menggerakkan kursor sel
-msg.phrase	SHIFT+ARR   extend the selection (for graphs/copy)\n	SHIFT+ARR melanjutkan pemilihan (untuk graf/salinan)
-msg.phrase	ENTER       edit the cell; in edit, commit and move down\n	ENTER edit sel; dalam mengedit, komit dan bergerak ke bawah
-msg.phrase	TAB         next cell    SHIFT+TAB  previous cell\n	TAB sel seterusnya SHIFT+TAB sel sebelumnya
-msg.phrase	DELETE      clear the selected cell(s)    ESC  cancel\n	PADAM kosongkan sel yang dipilih batalkan ESC
-msg.phrase	PGUP/PGDN   move one screen    HOME/END  first/last column\n	PGUP/PGDN alihkan satu skrin HOME/END lajur pertama/terakhir
-msg.phrase	CTRL+HOME   A1    CTRL+END  last used cell\n	CTRL+HOME A1 CTRL+END sel terakhir digunakan
-msg.phrase	F1 help  F2 edit  F3 copy  F4 paste  F5 goto  F6 colour\n	F1 bantu F2 edit F3 salin F4 tampal F5 goto F6 warna
-msg.phrase	F7 auto-fit  F8 background  F9 recalc  F10 graph  F11 save  F12 menu\n	F7 automuat latar belakang F8 F9 kira semula graf F10 F11 simpan menu F12
-msg.phrase	SHIFT+F1 about  SHIFT+F2 row height  SHIFT+F3 column width\n	SHIFT+F1 mengenai SHIFT+F2 tinggi baris SHIFT+F3 lebar lajur
-msg.phrase	SHIFT+F4 select all  SHIFT+F10 graph range  SHIFT+F11 save as\n	SHIFT+F4 pilih semua julat graf SHIFT+F10 SHIFT+F11 simpan sebagai
-msg.phrase	CTRL+F1 new  CTRL+F2 open  CTRL+F3 save  CTRL+F4 save as\n	CTRL+F1 CTRL+F2 baharu buka CTRL+F3 simpan CTRL+F4 simpan sebagai
-msg.phrase	CTRL+F5 export CSV  CTRL+F6 export ODS  ALT+F12 quit\n	CTRL+F5 eksport CSV CTRL+F6 eksport ODS ALT+F12 berhenti
-msg.phrase	Bottom 2 lines: function keys; [SHIFT]/[CTRL]/[ALT] like the filer\n	2 baris bawah: kekunci fungsi; [SHIFT]/[CTRL]/[ALT] seperti pemfail
-msg.phrase	CTRL+S save  CTRL+O open  CTRL+N new  CTRL+C/V/X copy/paste/cut\n	CTRL+S simpan CTRL+O buka CTRL+N baharu CTRL+C/V/X salin/tampal/potong
-msg.phrase	CTRL+G goto    /  open the menu (1 File, 2 Edit, ...)\n	CTRL+G goto / buka menu (1 Fail, 2 Edit, ...)
-msg.phrase	Built-in functions: SUM AVERAGE MIN MAX COUNT COUNTA\n	Fungsi terbina dalam: JUMLAH PURATA MIN MAKS KIRAAN
-msg.phrase	PRODUCT ABS SQRT INT ROUND MOD POWER IF AND OR NOT\n	PRODUK ABS SQRT INT ROUND MOD POWER JIKA DAN ATAU TIDAK
-msg.phrase	IFERROR LEN LEFT RIGHT MID UPPER LOWER TRIM CONCATENATE PI\n	IFERROR LEN KIRI KANAN PERTENGAHAN ATAS HINGGA BAWAH CONCATENATE PI
-msg.phrase	Cell refs: A1, $A$1, A1:B10.  Formulas begin with '='.\n	Rujukan sel: A1, $A$1, A1:B10.  Formula bermula dengan '='.
-msg.phrase	Files: .ods (LibreOffice), .fods (flat XML), .csv\n	Fail: .ods (LibreOffice), .fods (XML rata), .csv
-msg.phrase	ODS/FODS keeps formulas, widths, heights and colours.\n	ODS/FODS menyimpan formula, lebar, ketinggian dan warna.
-msg.phrase	CSV keeps values and formulas (no colours/heights).\n	CSV menyimpan nilai dan formula (tiada warna/ketinggian).
-msg.phrase	Graph: select a range, press F10, and choose Line/Bar/Mixed/Pie.\n	Graf: pilih julat, tekan F10, dan pilih Line/Bar/Mixed/Pie.
-msg.phrase	First row/column = labels; charts use the 640x480 CLUT8 FB.	Baris/lajur pertama = label; carta menggunakan FB 640x480 CLUT8.
+msg.phrase	Y = yes    N = no    Esc = cancel	Y = ya    N = tidak    Esc = batal
+msg.phrase	Enter = OK    Esc = cancel    Ctrl-U = clear	Enter = OK    Esc = batal    Ctrl-U = kosongkan
+msg.phrase	ARROWS      move the cell cursor\n	ANAK PANAH  gerakkan kursor sel\n
+msg.phrase	SHIFT+ARR   extend the selection (for graphs/copy)\n	SHIFT+ANAK  luaskan pilihan (untuk graf/salinan)\n
+msg.phrase	ENTER       edit the cell; in edit, commit and move down\n	ENTER       sunting sel; semasa menyunting, sahkan dan turun\n
+msg.phrase	TAB         next cell    SHIFT+TAB  previous cell\n	TAB         sel seterusnya    SHIFT+TAB  sel sebelumnya\n
+msg.phrase	DELETE      clear the selected cell(s)    ESC  cancel\n	DELETE      kosongkan sel yang dipilih    ESC  batal\n
+msg.phrase	PGUP/PGDN   move one screen    HOME/END  first/last column\n	PGUP/PGDN   satu skrin    HOME/END  lajur pertama/terakhir\n
+msg.phrase	CTRL+HOME   A1    CTRL+END  last used cell\n	CTRL+HOME   A1    CTRL+END  sel terakhir yang digunakan\n
+msg.phrase	F1 help  F2 edit  F3 copy  F4 paste  F5 goto  F6 colour\n	F1 bantuan  F2 sunting  F3 salin  F4 tampal  F5 pergi  F6 warna\n
+msg.phrase	F7 auto-fit  F8 background  F9 recalc  F10 graph  F11 save  F12 menu\n	F7 muat  F8 latar  F9 kira semula  F10 graf  F11 simpan  F12 menu\n
+msg.phrase	SHIFT+F1 about  SHIFT+F2 row height  SHIFT+F3 column width\n	SHIFT+F1 perihal  SHIFT+F2 tinggi baris  SHIFT+F3 lebar lajur\n
+msg.phrase	SHIFT+F4 select all  SHIFT+F10 graph range  SHIFT+F11 save as\n	SHIFT+F4 pilih semua  SHIFT+F10 julat graf  SHIFT+F11 simpan sebagai\n
+msg.phrase	CTRL+F1 new  CTRL+F2 open  CTRL+F3 save  CTRL+F4 save as\n	CTRL+F1 baharu  CTRL+F2 buka  CTRL+F3 simpan  CTRL+F4 simpan sebagai\n
+msg.phrase	CTRL+F5 export CSV  CTRL+F6 export ODS  ALT+F12 quit\n	CTRL+F5 eksport CSV  CTRL+F6 eksport ODS  ALT+F12 keluar\n
+msg.phrase	Bottom 2 lines: function keys; [SHIFT]/[CTRL]/[ALT] like the filer\n	2 baris bawah: kekunci fungsi; [SHIFT]/[CTRL]/[ALT] seperti dalam filer\n
+msg.phrase	CTRL+S save  CTRL+O open  CTRL+N new  CTRL+C/V/X copy/paste/cut\n	CTRL+S simpan  CTRL+O buka  CTRL+N baharu  CTRL+C/V/X salin/tampal/potong\n
+msg.phrase	CTRL+G goto    /  open the menu (1 File, 2 Edit, ...)\n	CTRL+G pergi    /  buka menu (1 Fail, 2 Sunting, ...)\n
+msg.phrase	Built-in functions: SUM AVERAGE MIN MAX COUNT COUNTA\n	Fungsi terbina dalam: SUM AVERAGE MIN MAX COUNT COUNTA\n
+msg.phrase	PRODUCT ABS SQRT INT ROUND MOD POWER IF AND OR NOT\n	PRODUCT ABS SQRT INT ROUND MOD POWER IF AND OR NOT\n
+msg.phrase	IFERROR LEN LEFT RIGHT MID UPPER LOWER TRIM CONCATENATE PI\n	IFERROR LEN LEFT RIGHT MID UPPER LOWER TRIM CONCATENATE PI\n
+msg.phrase	Cell refs: A1, $A$1, A1:B10.  Formulas begin with '='.\n	Rujukan sel: A1, $A$1, A1:B10.  Formula bermula dengan '='.\n
+msg.phrase	Files: .ods (LibreOffice), .fods (flat XML), .csv\n	Fail: .ods (LibreOffice), .fods (XML rata), .csv\n
+msg.phrase	ODS/FODS keeps formulas, widths, heights and colours.\n	ODS/FODS menyimpan formula, lebar, tinggi dan warna.\n
+msg.phrase	CSV keeps values and formulas (no colours/heights).\n	CSV hanya menyimpan nilai dan formula (tanpa warna/tinggi).\n
+msg.phrase	Graph: select a range, press F10, and choose Line/Bar/Mixed/Pie.\n	Graf: pilih julat, tekan F10, kemudian pilih Garis/Bar/Campuran/Pai.\n
+msg.phrase	First row/column = labels; charts use the 640x480 CLUT8 FB.	Baris/lajur pertama = label; carta menggunakan FB CLUT8 640x480.
 msg.phrase	SGCALC - HELP	SGCALC - BANTUAN
 msg.phrase	Press any key to return	Tekan sebarang kekunci untuk kembali
-msg.phrase	SGCALC for sgnano\n	SGCALC untuk sgnano
+msg.phrase	SGCALC for sgnano\n	SGCALC for sgnano\n
 msg.phrase	Version 	Versi
-msg.phrase	A Lotus 1-2-3 style spreadsheet as an SGX program.\n\n	Hamparan gaya Lotus 1-2-3 sebagai program SGX.
+msg.phrase	A Lotus 1-2-3 style spreadsheet as an SGX program.\n\n	Hamparan gaya Lotus 1-2-3 sebagai program SGX.\n\n
 msg.phrase	SGX ABI %u.%u\n	SGX ABI %u.%u
-msg.phrase	Screen mode 3: text + CLUT8 FB (lowres disabled)\n	Mod skrin 3: teks + CLUT8 FB (lowres dilumpuhkan)
+msg.phrase	Screen mode 3: text + CLUT8 FB (lowres disabled)\n	Mod skrin 3: teks + FB CLUT8 (tanpa lapisan lowres)\n
 msg.phrase	Sheet: %d rows x %d columns\n	Helaian: %d baris x %d lajur
-msg.phrase	Formats: .ods / .fods (LibreOffice), .csv\n\n	Format: .ods / .fods (LibreOffice), .csv
-msg.phrase	The grid is drawn on the text plane.\n	Grid dilukis pada satah teks.
-msg.phrase	Charts and the 640x480 background use the FB.\n\n	Carta dan latar belakang 640x480 menggunakan FB.
+msg.phrase	Formats: .ods / .fods (LibreOffice), .csv\n\n	Format: .ods / .fods (LibreOffice), .csv\n\n
+msg.phrase	The grid is drawn on the text plane.\n	Grid dilukis pada lapisan teks.\n
+msg.phrase	Charts and the 640x480 background use the FB.\n\n	Carta dan latar 640x480 menggunakan FB.\n\n
 msg.phrase	Press any key to return.	Tekan sebarang kekunci untuk kembali.
-msg.phrase	ABOUT SGCALC	MENGENAI SGCALC
-msg.phrase	New	baru
+msg.phrase	ABOUT SGCALC	PERIHAL SGCALC
+msg.phrase	New	Baharu
 msg.phrase	Start a new sheet	Mulakan helaian baharu
 msg.phrase	Open...	Buka...
 msg.phrase	Open an ODS, FODS or CSV file	Buka fail ODS, FODS atau CSV
-msg.phrase	Save	Jimat
+msg.phrase	Save	Simpan
 msg.phrase	Save the current file	Simpan fail semasa
-msg.phrase	Save As...	Simpan Sebagai...
+msg.phrase	Save As...	Simpan sebagai...
 msg.phrase	Save with a new name or format	Simpan dengan nama atau format baharu
 msg.phrase	Export CSV...	Eksport CSV...
 msg.phrase	Write a CSV copy	Tulis salinan CSV
 msg.phrase	Export ODS...	Eksport ODS...
 msg.phrase	Write a LibreOffice copy	Tulis salinan LibreOffice
-msg.phrase	Quit	Berhenti
-msg.phrase	Leave SGCALC	Tinggalkan SGCALC
-msg.phrase	Clear	Jelas
+msg.phrase	Quit	Keluar
+msg.phrase	Leave SGCALC	Keluar dari SGCALC
+msg.phrase	Clear	Kosongkan
 msg.phrase	Clear the selected cells	Kosongkan sel yang dipilih
-msg.phrase	Copy	salin
+msg.phrase	Copy	Salin
 msg.phrase	Copy the selection	Salin pilihan
-msg.phrase	Paste	tampal
-msg.phrase	Paste at the cursor	Tampal pada kursor
-msg.phrase	Cut	potong
+msg.phrase	Paste	Tampal
+msg.phrase	Paste at the cursor	Tampal di kursor
+msg.phrase	Cut	Potong
 msg.phrase	Copy and clear the selection	Salin dan kosongkan pilihan
 msg.phrase	Select all	Pilih semua
 msg.phrase	Select all used cells	Pilih semua sel yang digunakan
 msg.phrase	Text color...	Warna teks...
 msg.phrase	Choose the text colour	Pilih warna teks
-msg.phrase	Background...	latar belakang...
-msg.phrase	Choose the cell background	Pilih latar belakang sel
-msg.phrase	Line	Talian
+msg.phrase	Background...	Latar...
+msg.phrase	Choose the cell background	Pilih latar sel
+msg.phrase	Line	Garis
 msg.phrase	Draw a line graph from the selection	Lukis graf garis daripada pilihan
 msg.phrase	Bar	Bar
 msg.phrase	Draw a bar graph from the selection	Lukis graf bar daripada pilihan
-msg.phrase	Mixed	bercampur
-msg.phrase	Bars for the first series, lines for the rest	Bar untuk siri pertama, baris untuk yang lain
-msg.phrase	Pie	pai
+msg.phrase	Mixed	Campuran
+msg.phrase	Bars for the first series, lines for the rest	Bar untuk siri pertama, garis untuk yang lain
+msg.phrase	Pie	Pai
 msg.phrase	Draw a pie graph from the selection	Lukis graf pai daripada pilihan
 msg.phrase	Range...	Julat...
-msg.phrase	Set the graph range explicitly	Tetapkan julat graf secara eksplisit
-msg.phrase	Draw again	Lukis lagi
+msg.phrase	Set the graph range explicitly	Tetapkan julat graf secara manual
+msg.phrase	Draw again	Lukis semula
 msg.phrase	Redraw the last graph	Lukis semula graf terakhir
-msg.phrase	Goto...	Pergi...
+msg.phrase	Goto...	Pergi ke...
 msg.phrase	Jump to a cell (for example C12)	Lompat ke sel (contohnya C12)
 msg.phrase	Column width...	Lebar lajur...
 msg.phrase	Change the selected columns' width	Tukar lebar lajur yang dipilih
-msg.phrase	Row height...	Ketinggian baris...
-msg.phrase	Change the selected rows' height	Tukar ketinggian baris yang dipilih
-msg.phrase	Auto fit	Auto muat
-msg.phrase	Fit widths/heights to the contents (F7)	Muatkan lebar/tinggi pada kandungan (F7)
+msg.phrase	Row height...	Tinggi baris...
+msg.phrase	Change the selected rows' height	Tukar tinggi baris yang dipilih
+msg.phrase	Auto fit	Muat automatik
+msg.phrase	Fit widths/heights to the contents (F7)	Muatkan lebar/tinggi mengikut kandungan (F7)
 msg.phrase	Recalculate	Kira semula
-msg.phrase	Re-evaluate all formulas	Nilai semula semua formula
+msg.phrase	Re-evaluate all formulas	Kira semula semua formula
 msg.phrase	Erase all	Padam semua
 msg.phrase	Clear the whole sheet	Kosongkan seluruh helaian
-msg.phrase	Keys	kunci
-msg.phrase	Show the key guide	Tunjukkan panduan utama
-msg.phrase	About	Tentang
-msg.phrase	About SGCALC	Mengenai SGCALC
+msg.phrase	Keys	Kekunci
+msg.phrase	Show the key guide	Tunjukkan panduan kekunci
+msg.phrase	About	Perihal
+msg.phrase	About SGCALC	Perihal SGCALC
 msg.phrase	File	Fail
 msg.phrase	Edit	Sunting
 msg.phrase	Graph	Graf
-msg.phrase	Sheet	Lembaran
-msg.phrase	Help	Tolong
-msg.phrase	File: new, open, save, export, quit	Fail: baharu, buka, simpan, eksport, berhenti
-msg.phrase	Edit: clear, copy, paste, cut, select all	Edit: kosongkan, salin, tampal, potong, pilih semua
-msg.phrase	Graph: line, bar, mixed, pie (draws in the FB)	Graf: garisan, bar, bercampur, pai (lukisan dalam FB)
-msg.phrase	Sheet: goto, column width, recalculate, erase	Helaian: goto, lebar lajur, kira semula, padam
-msg.phrase	Help: keys and about	Bantuan: kunci dan tentang
+msg.phrase	Sheet	Helaian
+msg.phrase	Help	Bantuan
+msg.phrase	File: new, open, save, export, quit	Fail: baharu, buka, simpan, eksport, keluar
+msg.phrase	Edit: clear, copy, paste, cut, select all	Sunting: kosongkan, salin, tampal, potong, pilih semua
+msg.phrase	Graph: line, bar, mixed, pie (draws in the FB)	Graf: garis, bar, campuran, pai (dilukis pada FB)
+msg.phrase	Sheet: goto, column width, recalculate, erase	Helaian: pergi ke, lebar lajur, kira semula, padam
+msg.phrase	Help: keys and about	Bantuan: kekunci dan perihal
 msg.phrase	%d %s	%d %s
 msg.phrase	Left/Right = menu    Up/Down = item    Enter = choose    Esc = cancel	Kiri/Kanan = menu Atas/Bawah = item Enter = pilih Esc = batal
-msg.phrase	Cannot store the cell (%d).	Tidak boleh menyimpan sel (%d).
+msg.phrase	Cannot store the cell (%d).	Sel tidak dapat disimpan (%d).
 msg.phrase	Cancelled	Dibatalkan
 msg.phrase	Copied %d x %d cells	%d x %d sel disalin
-msg.phrase	The selection is too large or memory is low.	Pilihan terlalu besar atau ingatan rendah.
+msg.phrase	The selection is too large or memory is low.	Pilihan terlalu besar atau memori tidak cukup.
 msg.phrase	Cleared %s	Dikosongkan %s
 msg.phrase	the cell	sel itu
 msg.phrase	the selection	pemilihan itu
-msg.phrase	Nothing to paste	Tiada apa-apa untuk ditampal
+msg.phrase	Nothing to paste	Tiada apa untuk ditampal
 msg.phrase	Pasted	Ditampal
 msg.phrase	GO TO CELL	PERGI KE SEL
 msg.phrase	Cell reference (A1):	Rujukan sel (A1):
-msg.phrase	Goto	Goto
+msg.phrase	Goto	Pergi ke
 msg.phrase	'%s' is not a cell reference.	'%s' bukan rujukan sel.
 msg.phrase	%d	%d
-msg.phrase	COLUMN WIDTH	LEBAR LAjur
+msg.phrase	COLUMN WIDTH	LEBAR LAJUR
 msg.phrase	Width in characters (4..30):	Lebar dalam aksara (4..30):
 msg.phrase	Column width = %d	Lebar lajur = %d
 msg.phrase	ROW HEIGHT	TINGGI BARIS
-msg.phrase	Height in text rows (1..8):	Ketinggian dalam baris teks (1..8):
-msg.phrase	Row height = %d	Ketinggian baris = %d
-msg.phrase	Auto fit: the sheet is empty	Muatan automatik: helaian kosong
-msg.phrase	Auto fit: %d column(s), %d row(s)	Muatan automatik: %d lajur, %d baris
-msg.phrase	BACKGROUND COLOUR	WARNA LATAR BELAKANG
+msg.phrase	Height in text rows (1..8):	Tinggi dalam baris teks (1..8):
+msg.phrase	Row height = %d	Tinggi baris = %d
+msg.phrase	Auto fit: the sheet is empty	Muat automatik: helaian kosong
+msg.phrase	Auto fit: %d column(s), %d row(s)	Muat automatik: %d lajur, %d baris
+msg.phrase	BACKGROUND COLOUR	WARNA LATAR
 msg.phrase	TEXT COLOUR	WARNA TEKS
-msg.phrase	Arrows: choose    Enter: apply    Esc: cancel	Anak panah: pilih Masukkan: gunakan Esc: batal
-msg.phrase	Colour index (PC-98 16-colour palette)	Indeks warna (PC-98 palet 16 warna)
+msg.phrase	Arrows: choose    Enter: apply    Esc: cancel	Anak panah: pilih    Enter: guna    Esc: batal
+msg.phrase	Colour index (PC-98 16-colour palette)	Nombor warna (palet 16 warna PC-98)
 msg.phrase	%2d	%2d
 msg.phrase	Aa 123	Aa 123
-msg.phrase	Enter = apply    Esc = cancel	Masukkan = gunakan Esc = batal
-msg.phrase	Colour	warna
-msg.phrase	Cannot apply the colour (%d).	Tidak boleh menggunakan warna (%d).
+msg.phrase	Enter = apply    Esc = cancel	Enter = guna    Esc = batal
+msg.phrase	Colour	Warna
+msg.phrase	Cannot apply the colour (%d).	Warna tidak dapat digunakan (%d).
 msg.phrase	%s colour = %d	%s warna = %d
 msg.phrase	Background	Latar belakang
 msg.phrase	Text	Teks
-msg.phrase	GRAPH RANGE	Julat GRAF
+msg.phrase	GRAPH RANGE	JULAT GRAF
 msg.phrase	Range (for example A1:C10):	Julat (contohnya A1:C10):
 msg.phrase	Graph range	Julat graf
 msg.phrase	Use a range such as A1:C10.	Gunakan julat seperti A1:C10.
-msg.phrase	Not a valid range.\nUse a range such as A1:C10.	Bukan julat yang sah.\nGunakan julat seperti A1:C10.
+msg.phrase	Not a valid range.\nUse a range such as A1:C10.	Julat tidak sah.\nGunakan julat seperti A1:C10.
 msg.phrase	Graph range %s	Julat graf %s
-msg.phrase	Cannot draw the graph.	Tidak boleh melukis graf.
+msg.phrase	Cannot draw the graph.	Graf tidak dapat dilukis.
 msg.phrase	Graph: %s	Graf: %s
 msg.phrase	line	barisan
 msg.phrase	bar	bar
 msg.phrase	mixed	bercampur-campur
 msg.phrase	pie	pai
-msg.phrase	Clear every cell in this sheet?	Kosongkan setiap sel dalam helaian ini?
-msg.phrase	Sheet erased	Helaian dipadamkan
-msg.phrase	Selected all used cells	Memilih semua sel yang digunakan
+msg.phrase	Clear every cell in this sheet?	Kosongkan semua sel dalam helaian ini?
+msg.phrase	Sheet erased	Helaian dipadam
+msg.phrase	Selected all used cells	Semua sel yang digunakan dipilih
 msg.phrase	Recalculated	Dikira semula
-msg.phrase	SGCALC: cannot set screen mode 3: %s\n	SGCALC: tidak boleh menetapkan mod skrin 3: %s
-msg.phrase	Memory	Ingatan
-msg.phrase	Not enough PSRAM for the spreadsheet.	PSRAM tidak mencukupi untuk hamparan.
-msg.phrase	The sheet is empty.	Lembaran itu kosong.
-msg.phrase	No numeric data in the selected range.	Tiada data berangka dalam julat yang dipilih.
+msg.phrase	SGCALC: cannot set screen mode 3: %s\n	SGCALC: mod skrin 3 tidak dapat ditetapkan: %s\n
+msg.phrase	Memory	Memori
+msg.phrase	Not enough PSRAM for the spreadsheet.	PSRAM tidak cukup untuk hamparan.
+msg.phrase	The sheet is empty.	Helaian kosong.
+msg.phrase	No numeric data in the selected range.	Tiada nombor dalam julat yang dipilih.
 msg.phrase	%.2g	%.2g
 msg.phrase	%.6g	%.6g
 msg.phrase	Other	Lain-lain
 msg.phrase	No positive values for a pie chart	Tiada nilai positif untuk carta pai
-msg.phrase	%s  %.0f%%	%s %.0f%%
-msg.phrase	GRAPH  %s  %s	GRAF %s %s
-msg.phrase	LINE	TALIAN
+msg.phrase	%s  %.0f%%	%s  %.0f%%
+msg.phrase	GRAPH  %s  %s	GRAF  %s  %s
+msg.phrase	LINE	GARIS
 msg.phrase	BAR	BAR
-msg.phrase	MIXED	BERCAMPUR
-msg.phrase	PIE	PIE
+msg.phrase	MIXED	CAMPURAN
+msg.phrase	PIE	PAI
 msg.phrase	S:/	S:/
 msg.phrase	%s%s	%s%s
 msg.phrase	%s/%s	%s/%s
 msg.phrase	%.*s	%.*s
 msg.phrase	%.*s/	%.*s/
-msg.phrase	Folder	folder
-msg.phrase	Cannot read %s\n%s	Tidak boleh membaca %s\n%s
+msg.phrase	Folder	Folder
+msg.phrase	Cannot read %s\n%s	%s tidak dapat dibaca\n%s
 msg.phrase	SAVE AS	SIMPAN SEBAGAI
 msg.phrase	OPEN FILE	BUKA FAIL
 msg.phrase	LibreOffice / CSV	LibreOffice / CSV
-msg.phrase	ODS  FODS  CSV	ODS FODS CSV
+msg.phrase	ODS  FODS  CSV	ODS  FODS  CSV
 msg.phrase	Folder: %s	Folder: %s
-msg.phrase	Name:	nama:
+msg.phrase	Name:	Nama:
 msg.phrase	(type a name, or choose below)	(taip nama, atau pilih di bawah)
 msg.phrase	Name	Nama
 msg.phrase	Size	Saiz
 msg.phrase	[DIR] %s	[DIR] %s
-msg.phrase	      %s	%s
+msg.phrase	      %s	      %s
 msg.phrase	%lu.%luM	%lu.%luM
 msg.phrase	%luK	%luK
 msg.phrase	%luB	%luB
-msg.phrase	Enter=save  Left=up  Right/Enter on [DIR]=open  Tab=drive  Esc=cancel	Enter=simpan Kiri=atas Kanan/Enter pada [DIR]=buka Tab=drive Esc=batal
-msg.phrase	Enter=open  Left=up  Right/Enter on [DIR]=open  Tab=drive  Esc=cancel	Enter=buka Kiri=atas Kanan/Enter pada [DIR]=buka Tab=drive Esc=batal
-msg.phrase	BOOK1%s	BUKU1%s
-msg.phrase	Not enough memory.	Tidak cukup ingatan.
+msg.phrase	Enter=save  Left=up  Right/Enter on [DIR]=open  Tab=drive  Esc=cancel	Enter=simpan  Kiri=naik  Kanan/Enter pada [DIR]=buka  Tab=pemacu  Esc=batal
+msg.phrase	Enter=open  Left=up  Right/Enter on [DIR]=open  Tab=drive  Esc=cancel	Enter=buka  Kiri=naik  Kanan/Enter pada [DIR]=buka  Tab=pemacu  Esc=batal
+msg.phrase	BOOK1%s	BOOK1%s
+msg.phrase	Not enough memory.	Memori tidak cukup.
 msg.phrase	%c:/	%c:/
 msg.phrase	Unsupported extension.\nUse .csv, .ods or .fods.	Sambungan tidak disokong.\nGunakan .csv, .ods atau .fods.
 msg.phrase	Overwrite	Tulis ganti
 msg.phrase	%s already exists.\nOverwrite it?	%s sudah wujud.\nTulis ganti?
-msg.phrase	%s may not be writable.\nTry anyway?	%s mungkin tidak boleh ditulis.\nCuba pula?
-msg.phrase	Unknown file type for %s	Jenis fail tidak diketahui untuk %s
+msg.phrase	%s may not be writable.\nTry anyway?	%s mungkin tidak boleh ditulis.\nCuba juga?
+msg.phrase	Unknown file type for %s	Jenis fail tidak diketahui: %s
 msg.phrase	Open	Buka
 msg.phrase	Unsupported file type.\nUse .csv, .ods or .fods.	Jenis fail tidak disokong.\nGunakan .csv, .ods atau .fods.
-msg.phrase	Cannot open %s\n%s	Tidak boleh membuka %s\n%s
+msg.phrase	Cannot open %s\n%s	%s tidak dapat dibuka\n%s
 msg.phrase	%s is a folder.	%s ialah folder.
 msg.phrase	The file is too large (limit 8 MB).	Fail terlalu besar (had 8 MB).
-msg.phrase	Not enough memory to read the file.	Tidak cukup memori untuk membaca fail.
-msg.phrase	Cannot import %s\n%s	Tidak boleh mengimport %s\n%s
-msg.phrase	Bad ZIP/ODS data.	Data ZIP/ODS buruk.
+msg.phrase	Not enough memory to read the file.	Memori tidak cukup untuk membaca fail.
+msg.phrase	Cannot import %s\n%s	%s tidak dapat diimport\n%s
+msg.phrase	Bad ZIP/ODS data.	Data ZIP/ODS rosak.
 msg.phrase	CRC error in the ODS file.	Ralat CRC dalam fail ODS.
 msg.phrase	Unsupported or damaged file.	Fail tidak disokong atau rosak.
 msg.phrase	Loaded %s	%s dimuatkan
-msg.phrase	Cannot build the %s file.	Tidak dapat membina fail %s.
-msg.phrase	Cannot write %s\n%s	Tidak boleh menulis %s\n%s
+msg.phrase	Cannot build the %s file.	Fail %s tidak dapat dibina.
+msg.phrase	Cannot write %s\n%s	%s tidak dapat ditulis\n%s
 msg.phrase	%s %s	%s %s
 msg.phrase	Saved	Disimpan
 msg.phrase	Exported	Dieksport
-msg.phrase	Unsaved changes	Perubahan yang tidak disimpan
+msg.phrase	Unsaved changes	Perubahan belum disimpan
 msg.phrase	Save the current sheet before continuing?	Simpan helaian semasa sebelum meneruskan?
 msg.phrase	New sheet	Helaian baharu
 msg.phrase	SGTRK	SGTRK
-msg.phrase	UNTITLED	TAK BERTAJUK
+msg.phrase	UNTITLED	UNTITLED
 msg.phrase	song is too large	lagu terlalu besar
 msg.phrase	empty file	fail kosong
 msg.phrase	not an SGT file	bukan fail SGT
-msg.phrase	unsupported version %u	versi tidak disokong %u
-msg.phrase	bad BPM	BPM teruk
-msg.phrase	bad speed	kelajuan teruk
-msg.phrase	bad title length	panjang tajuk buruk
+msg.phrase	unsupported version %u	versi tidak disokong (%u)
+msg.phrase	bad BPM	BPM salah
+msg.phrase	bad speed	kelajuan salah
+msg.phrase	bad title length	panjang tajuk salah
 msg.phrase	truncated title	tajuk terpotong
-msg.phrase	bad character in title	watak buruk dalam tajuk
-msg.phrase	truncated order	perintah terpotong
-msg.phrase	bad order length	panjang pesanan yang buruk
-msg.phrase	bad pattern number in order	nombor corak buruk mengikut susunan
-msg.phrase	truncated pattern list	senarai corak terpenggal
-msg.phrase	bad pattern count	kiraan corak yang buruk
-msg.phrase	bad pattern index	indeks corak buruk
-msg.phrase	duplicate pattern	corak pendua
-msg.phrase	truncated pattern data	data corak terpenggal
-msg.phrase	invalid pattern data	data corak tidak sah
-msg.phrase	trailing data in file	mengekori data dalam fail
-msg.phrase	order refers to a missing pattern	pesanan merujuk kepada corak yang hilang
+msg.phrase	bad character in title	aksara salah dalam tajuk
+msg.phrase	truncated order	susunan terpotong
+msg.phrase	bad order length	panjang susunan salah
+msg.phrase	bad pattern number in order	nombor pattern salah dalam susunan
+msg.phrase	truncated pattern list	senarai pattern terpotong
+msg.phrase	bad pattern count	bilangan pattern salah
+msg.phrase	bad pattern index	indeks pattern salah
+msg.phrase	duplicate pattern	pattern berganda
+msg.phrase	truncated pattern data	data pattern terpotong
+msg.phrase	invalid pattern data	data pattern tidak sah
+msg.phrase	trailing data in file	data lebihan di hujung fail
+msg.phrase	order refers to a missing pattern	susunan merujuk pattern yang tiada
 msg.phrase	A:/	A:/
 msg.phrase	(untitled)	(tanpa tajuk)
-msg.phrase	Ready. Press F1 for help.	sedia. Tekan F1 untuk mendapatkan bantuan.
+msg.phrase	Ready. Press F1 for help.	Sedia. Tekan F1 untuk bantuan.
 msg.phrase	%d:%d:%d:%d:%d:%d	%d:%d:%d:%d:%d:%d
 msg.phrase	Follow OFF	Ikut MATI
 msg.phrase	Octave %d	Oktaf %d
-msg.phrase	Nothing to undo	Tiada apa yang perlu dibuat asal
-msg.phrase	Undo	Buat asal
-msg.phrase	Note OFF	Nota DIMATIKAN
-msg.phrase	Note %s	Nota %s
+msg.phrase	Nothing to undo	Tiada apa untuk dibuat asal
+msg.phrase	Undo	Dibuat asal
+msg.phrase	Note OFF	Note off
+msg.phrase	Note %s	Not %s
 msg.phrase	Instrument %d	Instrumen %d
-msg.phrase	Volume %s	Jilid %s
+msg.phrase	Volume %s	Kelantangan %s
 msg.phrase	Effect %c	Kesan %c
-msg.phrase	Set an effect letter first	Tetapkan huruf kesan dahulu
+msg.phrase	Set an effect letter first	Masukkan huruf kesan dahulu
 msg.phrase	Parameter %s	Parameter %s
-msg.phrase	Effect cleared	Kesan dibersihkan
-msg.phrase	Parameter cleared	Parameter dikosongkan
-msg.phrase	Note cleared	Nota dikosongkan
-msg.phrase	Instrument cleared	Instrumen dibersihkan
-msg.phrase	Volume cleared	Kelantangan dikosongkan
-msg.phrase	Order list is full	Senarai pesanan penuh
-msg.phrase	Order inserted	Pesanan dimasukkan
-msg.phrase	Cannot delete the last order	Tidak boleh memadam pesanan terakhir
-msg.phrase	Order deleted	Pesanan dipadamkan
-msg.phrase	Pattern %s	Corak %s
+msg.phrase	Effect cleared	Kesan dipadam
+msg.phrase	Parameter cleared	Parameter dipadam
+msg.phrase	Note cleared	Not dipadam
+msg.phrase	Instrument cleared	Instrumen dipadam
+msg.phrase	Volume cleared	Kelantangan dipadam
+msg.phrase	Order list is full	Senarai susunan penuh
+msg.phrase	Order inserted	Kedudukan disisipkan
+msg.phrase	Cannot delete the last order	Kedudukan terakhir tidak boleh dipadam
+msg.phrase	Order deleted	Kedudukan dipadam
+msg.phrase	Pattern %s	Pattern %s
 msg.phrase	Playing song	Memainkan lagu
-msg.phrase	Playing pattern %s	Memainkan corak %s
+msg.phrase	Playing pattern %s	Memainkan pattern %s
 msg.phrase	Stopped	Berhenti
-msg.phrase	New song	Lagu baru
+msg.phrase	New song	Lagu baharu
 msg.phrase	Discard unsaved changes and start a new song? (Y/N)	Buang perubahan yang belum disimpan dan mulakan lagu baharu? (Y/N)
 msg.phrase	SAVE ERROR: %s	RALAT SIMPAN: %s
 msg.phrase	Saved %s	%s disimpan
 msg.phrase	LOAD ERROR: %s	RALAT MUAT: %s
 msg.phrase	Discard unsaved changes and open a song? (Y/N)	Buang perubahan yang belum disimpan dan buka lagu? (Y/N)
-msg.phrase	Discard unsaved changes and quit? (Y/N)	Buang perubahan yang belum disimpan dan berhenti? (Y/N)
+msg.phrase	Discard unsaved changes and quit? (Y/N)	Buang perubahan yang belum disimpan dan keluar? (Y/N)
 msg.phrase	BPM %d	BPM %d
 msg.phrase	Speed %d	Kelajuan %d
 msg.phrase	Song settings updated	Tetapan lagu dikemas kini
-msg.phrase	Preview %s	Pratonton %s
+msg.phrase	Preview %s	Dengar %s
 msg.phrase	Instrument %s %s	Instrumen %s %s
 msg.phrase	Filename is empty	Nama fail kosong
 msg.phrase	Overwrite %s? (Y/N)	Tulis ganti %s? (Y/N)
-msg.phrase	Save cancelled	Simpanan dibatalkan
+msg.phrase	Save cancelled	Simpan dibatalkan
 msg.phrase	Open cancelled	Buka dibatalkan
-msg.phrase	Edit ON	Edit HIDUP
-msg.phrase	Edit OFF	Edit MATI
-msg.phrase	Follow ON	Ikuti ON
-msg.phrase	Edit is OFF. Press F8 to edit.	Suntingan DIMATIKAN. Tekan F8 untuk mengedit.
+msg.phrase	Edit ON	Sunting HIDUP
+msg.phrase	Edit OFF	Sunting MATI
+msg.phrase	Follow ON	Ikut HIDUP
+msg.phrase	Edit is OFF. Press F8 to edit.	Suntingan dimatikan. Tekan F8 untuk menyunting.
 msg.phrase	I/O error	Ralat I/O
 msg.phrase	file is too large	fail terlalu besar
-msg.phrase	truncated file	fail dipotong
-msg.phrase	SINE PAD	PAD SINUS
-msg.phrase	TRIANGLE	SEGITIGA
-msg.phrase	SAW LEAD	SAW PIMPIN
-msg.phrase	SQUARE	SEGI SEGI
-msg.phrase	PULSE 25	NADI 25
+msg.phrase	truncated file	fail terpotong
+msg.phrase	SINE PAD	SINE PAD
+msg.phrase	TRIANGLE	TRIANGLE
+msg.phrase	SAW LEAD	SAW LEAD
+msg.phrase	SQUARE	SQUARE
+msg.phrase	PULSE 25	PULSE 25
 msg.phrase	ORGAN	ORGAN
 msg.phrase	BASS	BASS
-msg.phrase	BELL	LOCENG
-msg.phrase	NOISE	BISING
+msg.phrase	BELL	BELL
+msg.phrase	NOISE	NOISE
 msg.phrase	SINE	SINE
 msg.phrase	SAW	SAW
-msg.phrase	 | BPM %s SPD %s 	 | BPM %s SPD %s
-msg.phrase	 SGNO TRACKER 1.0 | 	SGNO TRACKER 1.0 |
-msg.phrase	FILE 	FAIL
+msg.phrase	 | BPM %s SPD %s 	 | BPM %s SPD %s 
+msg.phrase	 SGNO TRACKER 1.0 | 	 SGNO TRACKER 1.0 | 
+msg.phrase	FILE 	FILE 
 msg.phrase	 PAT %s	 PAT %s
 msg.phrase	 ORD %d/%d	 ORD %d/%d
-msg.phrase	 INS %s 	 INS %s
-msg.phrase	 OCT %d	 OKT %d
+msg.phrase	 INS %s 	 INS %s 
+msg.phrase	 OCT %d	 OCT %d
 msg.phrase	 EDIT %s	 EDIT %s
-msg.phrase	ON 	HIDUP
-msg.phrase	OFF	DIMATIKAN
+msg.phrase	ON 	ON 
+msg.phrase	OFF	OFF
 msg.phrase	 FOL %s	 FOL %s
-msg.phrase	ON	HIDUP
-msg.phrase	ROW	BARIS
-msg.phrase	TRACK %d	JEJAK %d
-msg.phrase	CHAN LEVEL	TAHAP CHAN
+msg.phrase	ON	ON
+msg.phrase	ROW	ROW
+msg.phrase	TRACK %d	TRACK %d
+msg.phrase	CHAN LEVEL	CHAN LEVEL
 msg.phrase	%c%s	%c%s
 msg.phrase	%s %s %s %s	%s %s %s %s
-msg.phrase	%s 	%s
+msg.phrase	%s 	%s 
 msg.phrase	%d %s %s	%d %s %s
-msg.phrase	ORDER %d/%d	PESANAN %d/%d
-msg.phrase	PAT   %s	PAT %s
+msg.phrase	ORDER %d/%d	ORDER %d/%d
+msg.phrase	PAT   %s	PAT   %s
 msg.phrase	INS %s %s	INS %s %s
-msg.phrase	OCT %d  EDIT %s	OCT %d EDIT %s
-msg.phrase	FOLLOW %s	IKUTI %s
-msg.phrase	F1 HELP F2 SONG	F1 BANTUAN F2 LAGU
-msg.phrase	F3 INS  F4 SAVE	F3 INS F4 SIMPAN
-msg.phrase	F5 PLAY F6 PAT	F5 MAIN F6 PAT
-msg.phrase	F7 STOP F8 EDIT	F7 BERHENTI F8 EDIT
-msg.phrase	F9/F10 OCTAVE	F9/F10 OKTAF
-msg.phrase	F11 FOLLOW	F11 IKUTI
-msg.phrase	F12 QUIT	F12 BERHENTI
-msg.phrase	SPACE PLAY/STOP	MAIN/BERHENTI ANGKASA
-msg.phrase	CTRL-S SAVE	CTRL-S SIMPAN
-msg.phrase	CTRL-O OPEN	CTRL-O BUKA
-msg.phrase	C-N NEW C-Z UNDO	C-N BAHARU C-Z BALI
-msg.phrase	C-C STOP	C-C BERHENTI
-msg.phrase	PLAYING  ORD %d/%d  PAT %s  ROW %s/%d  SPD %s  BPM %d  F7 STOP	BERMAIN ORD %d/%d PAT %s ROW %s/%d SPD %s BPM %d F7 STOP
-msg.phrase	READY  EDIT %s  OCT %d  F1 HELP  F5 PLAY  CTRL-S SAVE	SEDIA EDIT %s OKT %d F1 BANTUAN F5 MAIN CTRL-S SIMPAN
-msg.phrase	 %s 	 %s
-msg.phrase	#TRANSPORT AND FILES	#ANGKUTAN DAN FAIL
-msg.phrase	  F5          Play the song from the current order	  F5 Mainkan lagu dari susunan semasa
-msg.phrase	  F6          Play the current pattern	  F6 Mainkan corak semasa
-msg.phrase	  F7/Ctrl-C   Stop playback	  F7/Ctrl-C Hentikan main balik
-msg.phrase	  Space       Play / stop	  Angkasa Main / berhenti
-msg.phrase	  F4          Save as	  F4 Simpan sebagai
-msg.phrase	  Ctrl-S      Save (asks for a name if new)	  Ctrl-S Save (meminta nama jika baru)
-msg.phrase	  Ctrl-O      Open a song	  Ctrl-O Buka lagu
-msg.phrase	  Ctrl-N      New song	  Ctrl-N Lagu baharu
-msg.phrase	  F12         Quit (confirmation if modified)	  F12 Berhenti (pengesahan jika diubah suai)
-msg.phrase	#ORDER LIST	#SENARAI PESANAN
-msg.phrase	  [ ]         Previous / next order entry	  [ ] Entri pesanan sebelumnya / seterusnya
-msg.phrase	  { }         Insert / delete an order entry	  { } Sisipkan / padamkan entri pesanan
-msg.phrase	  - +         Change the pattern in the entry	  - + Tukar corak dalam entri
-msg.phrase	#DISPLAY	#PAPARKAN
-msg.phrase	  F11         Follow playback (turns off on manual move)	  F11 Ikuti main balik (matikan pada pergerakan manual)
-msg.phrase	  F1          Help; Left/Right changes page	  F1 Bantuan; Kiri/Kanan menukar halaman
-msg.phrase	#EDITING	#Suntingan
-msg.phrase	  F8          Toggle edit mode	  F8 Togol mod edit
-msg.phrase	  Arrows      Move the cursor	  Anak panah Gerakkan kursor
-msg.phrase	  PgUp/PgDn   Jump 16 rows	  PgUp/PgDn Lompat 16 baris
-msg.phrase	  Home/End    First / last row	  Rumah/Tamat Baris pertama / terakhir
-msg.phrase	  F9/F10      Octave down / up	F9/F10 Oktaf bawah / atas
-msg.phrase	  Z S X D C V G B H N J M      lower piano row	  Z S X D C V G B H N J M baris piano bawah
-msg.phrase	  Q 2 W 3 E R 5 T 6 Y 7 U      upper piano row	  Q 2 W 3 E R 5 T 6 Y 7 U baris atas piano
-msg.phrase	  1           Note off	  1 Nota dimatikan
-msg.phrase	  0 / Del     0 clears note/inst/fx; Del clears any	  0 / Del 0 mengosongkan nota/inst/fx; Del membersihkan mana-mana
-msg.phrase	  Ctrl-Z      Undo the last pattern/order edit	  Ctrl-Z Buat asal suntingan corak/tertib terakhir
-msg.phrase	#EFFECTS (parameter is hexadecimal)	#KESAN (parameter ialah perenambelasan)
-msg.phrase	  Axy   Volume slide: up x, down y	  Slaid Kelantangan Axy: atas x, bawah y
-msg.phrase	  Cxx   Note cut after xx ticks	  Nota Cxx dipotong selepas tanda xx
-msg.phrase	  Dxx   Set volume (00..7F)	  Dxx Tetapkan volum (00..7F)
-msg.phrase	  Fxx   Speed if xx < 20, otherwise BPM	  Fxx Kelajuan jika xx < 20, jika tidak BPM
-msg.phrase	  Hxy   Arpeggio x, y semitones	  Hxy Arpeggio x, y semiton
-msg.phrase	  Pxx   Pitch slide up	Pxx Pitch slaid ke atas
-msg.phrase	  Qxx   Pitch slide down	  Qxx Pitch slaid ke bawah
-msg.phrase	  F2 song settings, F3 instrument list	  Tetapan lagu F2, senarai instrumen F3
-msg.phrase	HELP %d/2	BANTUAN %d/2
-msg.phrase	LEFT/RIGHT PAGE   ENTER OR F1 CLOSE	HALAMAN KIRI/KANAN MASUK ATAU F1 TUTUP
+msg.phrase	OCT %d  EDIT %s	OCT %d  EDIT %s
+msg.phrase	FOLLOW %s	FOLLOW %s
+msg.phrase	F1 HELP F2 SONG	F1 HELP F2 SONG
+msg.phrase	F3 INS  F4 SAVE	F3 INS  F4 SAVE
+msg.phrase	F5 PLAY F6 PAT	F5 PLAY F6 PAT
+msg.phrase	F7 STOP F8 EDIT	F7 STOP F8 EDIT
+msg.phrase	F9/F10 OCTAVE	F9/F10 OCTAVE
+msg.phrase	F11 FOLLOW	F11 FOLLOW
+msg.phrase	F12 QUIT	F12 QUIT
+msg.phrase	SPACE PLAY/STOP	SPACE PLAY/STOP
+msg.phrase	CTRL-S SAVE	CTRL-S SAVE
+msg.phrase	CTRL-O OPEN	CTRL-O OPEN
+msg.phrase	C-N NEW C-Z UNDO	C-N NEW C-Z UNDO
+msg.phrase	C-C STOP	C-C STOP
+msg.phrase	PLAYING  ORD %d/%d  PAT %s  ROW %s/%d  SPD %s  BPM %d  F7 STOP	PLAYING  ORD %d/%d  PAT %s  ROW %s/%d  SPD %s  BPM %d  F7 STOP
+msg.phrase	READY  EDIT %s  OCT %d  F1 HELP  F5 PLAY  CTRL-S SAVE	READY  EDIT %s  OCT %d  F1 HELP  F5 PLAY  CTRL-S SAVE
+msg.phrase	 %s 	 %s 
+msg.phrase	#TRANSPORT AND FILES	#MAIN DAN FAIL
+msg.phrase	  F5          Play the song from the current order	  F5          Mainkan lagu dari kedudukan semasa
+msg.phrase	  F6          Play the current pattern	  F6          Mainkan pattern semasa
+msg.phrase	  F7/Ctrl-C   Stop playback	  F7/Ctrl-C   Hentikan main balik
+msg.phrase	  Space       Play / stop	  Space       Main / henti
+msg.phrase	  F4          Save as	  F4          Simpan sebagai
+msg.phrase	  Ctrl-S      Save (asks for a name if new)	  Ctrl-S      Simpan (minta nama jika baharu)
+msg.phrase	  Ctrl-O      Open a song	  Ctrl-O      Buka lagu
+msg.phrase	  Ctrl-N      New song	  Ctrl-N      Lagu baharu
+msg.phrase	  F12         Quit (confirmation if modified)	  F12         Keluar (minta pengesahan jika diubah)
+msg.phrase	#ORDER LIST	#SENARAI SUSUNAN
+msg.phrase	  [ ]         Previous / next order entry	  [ ]         Kedudukan sebelum / seterusnya
+msg.phrase	  { }         Insert / delete an order entry	  { }         Sisip / padam kedudukan
+msg.phrase	  - +         Change the pattern in the entry	  - +         Tukar pattern dalam kedudukan
+msg.phrase	#DISPLAY	#PAPARAN
+msg.phrase	  F11         Follow playback (turns off on manual move)	  F11         Ikut main balik (mati jika digerakkan sendiri)
+msg.phrase	  F1          Help; Left/Right changes page	  F1          Bantuan; Kiri/Kanan tukar halaman
+msg.phrase	#EDITING	#SUNTINGAN
+msg.phrase	  F8          Toggle edit mode	  F8          Hidup / matikan mod sunting
+msg.phrase	  Arrows      Move the cursor	  Anak panah  Gerakkan kursor
+msg.phrase	  PgUp/PgDn   Jump 16 rows	  PgUp/PgDn   Lompat 16 baris
+msg.phrase	  Home/End    First / last row	  Home/End    Baris pertama / terakhir
+msg.phrase	  F9/F10      Octave down / up	  F9/F10      Oktaf turun / naik
+msg.phrase	  Z S X D C V G B H N J M      lower piano row	  Z S X D C V G B H N J M      baris piano bawah
+msg.phrase	  Q 2 W 3 E R 5 T 6 Y 7 U      upper piano row	  Q 2 W 3 E R 5 T 6 Y 7 U      baris piano atas
+msg.phrase	  1           Note off	  1           Note off
+msg.phrase	  0 / Del     0 clears note/inst/fx; Del clears any	  0 / Del     0 padam not/instr./kesan; Del padam medan
+msg.phrase	  Ctrl-Z      Undo the last pattern/order edit	  Ctrl-Z      Buat asal suntingan pattern/susunan terakhir
+msg.phrase	#EFFECTS (parameter is hexadecimal)	#KESAN (parameter dalam perenambelasan)
+msg.phrase	  Axy   Volume slide: up x, down y	  Axy   Gelincir kelantangan: naik x, turun y
+msg.phrase	  Cxx   Note cut after xx ticks	  Cxx   Potong not selepas xx tick
+msg.phrase	  Dxx   Set volume (00..7F)	  Dxx   Tetapkan kelantangan (00..7F)
+msg.phrase	  Fxx   Speed if xx < 20, otherwise BPM	  Fxx   Kelajuan jika xx < 20, jika tidak BPM
+msg.phrase	  Hxy   Arpeggio x, y semitones	  Hxy   Arpeggio x, y semiton
+msg.phrase	  Pxx   Pitch slide up	  Pxx   Gelincir pic ke atas
+msg.phrase	  Qxx   Pitch slide down	  Qxx   Gelincir pic ke bawah
+msg.phrase	  F2 song settings, F3 instrument list	  F2 tetapan lagu, F3 senarai instrumen
+msg.phrase	HELP %d/2	HELP %d/2
+msg.phrase	LEFT/RIGHT PAGE   ENTER OR F1 CLOSE	LEFT/RIGHT PAGE   ENTER OR F1 CLOSE
 msg.phrase	SONG SETTINGS	TETAPAN LAGU
-msg.phrase	UP/DOWN SELECT   LEFT/RIGHT ADJUST   ENTER/F2 CLOSE	ATAS/BAWAH PILIH KIRI/KANAN LARAS MASUK/F2 TUTUP
+msg.phrase	UP/DOWN SELECT   LEFT/RIGHT ADJUST   ENTER/F2 CLOSE	UP/DOWN SELECT   LEFT/RIGHT ADJUST   ENTER/F2 CLOSE
 msg.phrase	  Title	  Tajuk
 msg.phrase	  [%s_]	  [%s_]
-msg.phrase	  BPM   : %d     (left/right -1/+1, -/+ -5/+5)	  BPM : %d (kiri/kanan -1/+1, -/+ -5/+5)
-msg.phrase	  Speed : %d ticks/row	  Kelajuan : %d kutu/baris
+msg.phrase	  BPM   : %d     (left/right -1/+1, -/+ -5/+5)	  BPM   : %d     (kiri/kanan -1/+1, -/+ -5/+5)
+msg.phrase	  Speed : %d ticks/row	  Laju  : %d tick sebaris
 msg.phrase	  Rows  : %d (fixed)	  Baris : %d (tetap)
-msg.phrase	  Order : %d entries	Pesanan : %d entri
-msg.phrase	  Patterns in use : %d	  Corak yang digunakan : %d
-msg.phrase	Type to edit the title. Backspace deletes the last character.	Taip untuk mengedit tajuk. Backspace memadam aksara terakhir.
-msg.phrase	BPM range 32..255. Speed range 1..31.	Julat BPM 32..255. Julat kelajuan 1..31.
-msg.phrase	Pattern effects can also change speed and BPM while playing.	Kesan corak juga boleh menukar kelajuan dan BPM semasa bermain.
+msg.phrase	  Order : %d entries	  Susunan : %d kedudukan
+msg.phrase	  Patterns in use : %d	  Pattern digunakan : %d
+msg.phrase	Type to edit the title. Backspace deletes the last character.	Taip untuk menukar tajuk. Backspace memadam aksara terakhir.
+msg.phrase	BPM range 32..255. Speed range 1..31.	BPM antara 32 hingga 255. Kelajuan antara 1 hingga 31.
+msg.phrase	Pattern effects can also change speed and BPM while playing.	Kesan dalam pattern juga boleh menukar kelajuan dan BPM semasa bermain.
 msg.phrase	INSTRUMENTS	INSTRUMEN
-msg.phrase	UP/DOWN SELECT   SPACE PREVIEW   ENTER USE   F3 CLOSE	ATAS/BAWAH PILIH RUANG PREVIEW MASUK GUNA F3 TUTUP
-msg.phrase	 #  NAME       WAVE       A   D   S   R  VOL	 # NAMA GELOMBANG A D S R VOL
-msg.phrase	 %c %d  %-9s %-9s %3d %3d %3d %3d %4d	 %c %d %-9s %-9s %3d %3d %3d %3d %4d
-msg.phrase	All four channels use wavetable synthesis.	Keempat-empat saluran menggunakan sintesis gelombang.
-msg.phrase	Preview plays C-4 on the track under the edit cursor.	Pratonton memainkan C-4 pada trek di bawah kursor edit.
+msg.phrase	UP/DOWN SELECT   SPACE PREVIEW   ENTER USE   F3 CLOSE	UP/DOWN SELECT   SPACE PREVIEW   ENTER USE   F3 CLOSE
+msg.phrase	 #  NAME       WAVE       A   D   S   R  VOL	 #  NAME       WAVE       A   D   S   R  VOL
+msg.phrase	 %c %d  %-9s %-9s %3d %3d %3d %3d %4d	 %c %d  %-9s %-9s %3d %3d %3d %3d %4d
+msg.phrase	All four channels use wavetable synthesis.	Keempat-empat saluran menggunakan sintesis wavetable.
+msg.phrase	Preview plays C-4 on the track under the edit cursor.	Dengar memainkan C-4 pada trek di bawah kursor sunting.
 msg.phrase	Current instrument: %s %s	Instrumen semasa: %s %s
 msg.phrase	SAVE SONG AS	SIMPAN LAGU SEBAGAI
-msg.phrase	ENTER SAVE   F4 OR CTRL-C CANCEL	MASUKKAN SAVE F4 ATAU CTRL-C CANCEL
-msg.phrase	Directory:	Direktori:
+msg.phrase	ENTER SAVE   F4 OR CTRL-C CANCEL	ENTER SAVE   F4 OR CTRL-C CANCEL
+msg.phrase	Directory:	Folder:
 msg.phrase	  %s	  %s
-msg.phrase	File name:	Nama fail : �
+msg.phrase	File name:	Nama fail:
 msg.phrase	The extension .SGT is added automatically.	Sambungan .SGT ditambah secara automatik.
-msg.phrase	An existing file can be overwritten.	Fail sedia ada boleh ditimpa.
-msg.phrase	OPEN SONG	LAGU TERBUKA
-msg.phrase	ENTER OPEN  BS PARENT  CTRL-O/CTRL-C CANCEL	MASUKKAN OPEN BS parent CTRL-O/CTRL-C CANCEL
-msg.phrase	DIR  %s	DIR %s
+msg.phrase	An existing file can be overwritten.	Fail sedia ada boleh ditulis ganti.
+msg.phrase	OPEN SONG	BUKA LAGU
+msg.phrase	ENTER OPEN  BS PARENT  CTRL-O/CTRL-C CANCEL	ENTER OPEN  BS PARENT  CTRL-O/CTRL-C CANCEL
+msg.phrase	DIR  %s	DIR  %s
 msg.phrase	(no .SGT files in this folder)	(tiada fail .SGT dalam folder ini)
 msg.phrase	 %c %s%s	 %c %s%s
 msg.phrase	Files: %d	Fail: %d
 msg.phrase	CONFIRM	SAHKAN
-msg.phrase	Y = YES   N / ENTER / CTRL-C = NO	Y = YA N / ENTER / CTRL-C = TIDAK
-msg.phrase	Y = yes        N = no	Y = ya N = tidak
+msg.phrase	Y = YES   N / ENTER / CTRL-C = NO	Y = YES   N / ENTER / CTRL-C = NO
+msg.phrase	Y = yes        N = no	Y = ya        N = tidak
 msg.phrase	%02d	%02d
 msg.phrase	%03d	%03d
 msg.phrase	%02X	%02X
@@ -1086,52 +1082,52 @@ msg.phrase	A#	A#
 msg.phrase	B-	B-
 msg.phrase	A:/dir/name	A:/dir/nama
 msg.phrase	MThd	MThd
-msg.phrase	broken MThd	patah MThd
-msg.phrase	MIDI IMPORT	MIDI IMPORT
+msg.phrase	broken MThd	MThd rosak
+msg.phrase	MIDI IMPORT	IMPORT MIDI
 msg.phrase	MTrk	MTrk
-msg.phrase	broken delta time	masa delta rosak
-msg.phrase	broken running status	status larian rosak
+msg.phrase	broken delta time	delta time rosak
+msg.phrase	broken running status	running status rosak
 msg.phrase	broken meta event	peristiwa meta rosak
-msg.phrase	broken sysex event	acara sysex rosak
+msg.phrase	broken sysex event	peristiwa SysEx rosak
 msg.phrase	broken channel event	peristiwa saluran rosak
-msg.phrase	SMF output is too small	Keluaran SMF terlalu kecil
-msg.phrase	SMF output is too large	Keluaran SMF terlalu besar
-msg.phrase	the song is too long for SMF	lagu itu terlalu panjang untuk SMF
+msg.phrase	SMF output is too small	Output SMF terlalu kecil
+msg.phrase	SMF output is too large	Output SMF terlalu besar
+msg.phrase	the song is too long for SMF	lagu terlalu panjang untuk SMF
 msg.phrase	TRK1	TRK1
-msg.phrase	SGNO TRACKER: incompatible SGX ABI\n	SGNO TRACKER: SGX ABI tidak serasi
+msg.phrase	SGNO TRACKER: incompatible SGX ABI\n	SGNO TRACKER: SGX ABI tidak serasi\n
 msg.phrase	5 Macro	5 Makro
 msg.phrase	6 Help	6 Bantuan
-msg.phrase	Run current	Jalankan semasa
-msg.phrase	Run the macro at the cursor (#! header cell and the cells below it)	Jalankan makro di kursor (sel tajuk #! dan sel di bawahnya)
+msg.phrase	Run current	Jalankan ini
+msg.phrase	Run the macro at the cursor (#! header cell and the cells below it)	Jalankan makro di kursor (sel kepala #! dan sel di bawahnya)
 msg.phrase	Run selection	Jalankan pilihan
-msg.phrase	Run the selected cells as one macro (top-left cell is the #! header)	Jalankan sel yang dipilih sebagai satu makro (sel kiri atas ialah tajuk #!)
+msg.phrase	Run the selected cells as one macro (top-left cell is the #! header)	Jalankan sel yang dipilih sebagai satu makro (sel kiri atas ialah kepala #!)
 msg.phrase	Run all	Jalankan semua
-msg.phrase	Run every macro in the sheet, top-left to bottom-right	Jalankan semua makro dalam helaian, dari kiri atas ke kanan bawah
+msg.phrase	Run every macro in the sheet, top-left to bottom-right	Jalankan setiap makro dalam helaian, dari kiri atas ke kanan bawah
 msg.phrase	Last error	Ralat terakhir
 msg.phrase	Show the last macro error	Tunjukkan ralat makro terakhir
 msg.phrase	Macro	Makro
 msg.phrase	Macro: run #!ruby / #!python / #!basic cells	Makro: jalankan sel #!ruby / #!python / #!basic
 msg.phrase	Edit the cell (F2)	Sunting sel (F2)
-msg.phrase	Fit widths/heights to the contents	Sesuaikan lebar/tinggi dengan kandungan
+msg.phrase	Fit widths/heights to the contents	Muatkan lebar/tinggi mengikut kandungan
 msg.phrase	Last macro error	Ralat makro terakhir
 msg.phrase	No macro error.	Tiada ralat makro.
 msg.phrase	IME on	IME hidup
 msg.phrase	IME off	IME mati
 msg.phrase	Macro: %s %s ...	Makro: %s %s ...
-msg.phrase	%s: this firmware cannot run macros (SGX ABI 5.10 or later)	%s: perisian tegar ini tidak boleh menjalankan makro (SGX ABI 5.10 atau lebih baharu)
+msg.phrase	%s: this firmware cannot run macros (SGX ABI 5.10 or later)	%s: perisian tegar ini tidak dapat menjalankan makro (perlu SGX ABI 5.10 atau lebih baharu)
 msg.phrase	Macro error: %s	Ralat makro: %s
 msg.phrase	Macro: %s done	Makro: %s selesai
-msg.phrase	a macro is already running	makro sudah berjalan
+msg.phrase	a macro is already running	satu makro sedang berjalan
 msg.phrase	this language is not available	bahasa ini tidak tersedia
-msg.phrase	not enough memory	memori tidak mencukupi
+msg.phrase	not enough memory	memori tidak cukup
 msg.phrase	the macro stopped with an error	makro berhenti kerana ralat
 msg.phrase	Macro error %s: %s	Ralat makro %s: %s
-msg.phrase	Macro: not enough memory	Makro: memori tidak mencukupi
-msg.phrase	Macro: the cursor is not on a macro (a #!ruby / #!python / #!basic cell or the cells below it)	Makro: kursor tiada pada makro (sel #!ruby / #!python / #!basic atau sel di bawahnya)
+msg.phrase	Macro: not enough memory	Makro: memori tidak cukup
+msg.phrase	Macro: the cursor is not on a macro (a #!ruby / #!python / #!basic cell or the cells below it)	Makro: kursor tidak berada pada makro (sel #!ruby / #!python / #!basic atau sel di bawahnya)
 msg.phrase	Macro: no macro in the sheet	Makro: tiada makro dalam helaian
 msg.phrase	Run all macros	Jalankan semua makro
-msg.phrase	Macros: %d. Run them all, top-left to bottom-right? Changes cannot be undone.	Makro: %d. Jalankan semua, dari kiri atas ke kanan bawah? Perubahan tidak boleh dibuat asal.
-msg.phrase	Macro: %d of %d done	Makro: %d selesai (daripada %d)
+msg.phrase	Macros: %d. Run them all, top-left to bottom-right? Changes cannot be undone.	Makro: %d. Jalankan semuanya dari kiri atas ke kanan bawah? Perubahan tidak boleh dibuat asal.
+msg.phrase	Macro: %d of %d done	Makro: %d daripada %d selesai
 msg.phrase	Cleared the cell	Sel dikosongkan
 msg.phrase	Cleared the selection	Pilihan dikosongkan
 msg.phrase	Background colour = %d	Warna latar = %d
@@ -1140,7 +1136,7 @@ msg.phrase	Graph: line	Graf: garis
 msg.phrase	Graph: bar	Graf: bar
 msg.phrase	Graph: mixed	Graf: campuran
 msg.phrase	Graph: pie	Graf: pai
-msg.phrase	Exported %s	Dieksport %s
+msg.phrase	Exported %s	%s dieksport
 msg.phrase	S: check: wait -- a file is being read or written	Semakan S:: tunggu -- fail sedang dibaca atau ditulis
 msg.phrase	S: check: the drive is busy or not ready	Semakan S:: pemacu sibuk atau belum sedia
 msg.phrase	nothing for this item (ContextMenu.cfg)	tiada apa-apa untuk item ini (ContextMenu.cfg)
@@ -1159,3 +1155,32 @@ msg.phrase	32 items at most (mark fewer, or put them in a folder)	maksimum 32 it
 msg.prefix	archive	arkib
 msg.prefix	compress	mampat
 msg.prefix	render	eksport WAV
+ui	USB・時計・設定	USB, clock, settings
+ui	0.001 秒未満	kurang daripada 0.001 s
+ui	%s 秒	%s s
+ui	コンパイル %s  実行 %s	kompil %s  jalan %s
+ui	コンパイル %s	kompil %s
+ui	実行 %s	jalan %s
+msg.phrase	Version %s	Versi %s
+msg.phrase	1 Help	1 Bantu
+msg.phrase	3 Copy	3 Salin
+msg.phrase	4 Paste	4 Tampal
+msg.phrase	5 Goto	5 Pergi
+msg.phrase	6 Colour	6 Warna
+msg.phrase	7 Fit	7 Muat
+msg.phrase	8 Backgr	8 Latar
+msg.phrase	9 Recalc	9 Kira
+msg.phrase	10 Graph	10 Graf
+msg.phrase	11 Save	11 Simpn
+msg.phrase	12 Menu	12 Menu
+msg.phrase	1 About	1 Perihl
+msg.phrase	2 Height	2 Tinggi
+msg.phrase	3 Width	3 Lebar
+msg.phrase	4 SelAll	4 Semua
+msg.phrase	10 Range	10 Julat
+msg.phrase	11 Name	11 Nama
+msg.phrase	1 New	1 Baharu
+msg.phrase	2 Open	2 Buka
+msg.phrase	4 SaveAs	4 Sbg
+msg.phrase	12 Quit	12 Kelur
+msg.phrase	3 Save	3 Simpn

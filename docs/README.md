@@ -11,6 +11,7 @@
 | [`DEVELOPMENT.md`](DEVELOPMENT.md) | 現在の状態・設計の決まり・用語（公開用） | 開発ガイドを更新したとき |
 | [`machine_api.md`](machine_api.md) | mruby / MicroPython / SG BASIC の `Machine` 対応表 | API を足したとき |
 | [`sgx_abi.md`](sgx_abi.md) | SGX（外部実行ファイル）の ABI | ABI を変えたとき |
+| [`remote_commands.md`](remote_commands.md)（PDF も） | UART の遠隔コマンド（人・AI エージェント・道具が実機を操作するための参照） | 遠隔コマンドを足した・変えたとき |
 | [`TEST_PLAN_2026-10-31.md`](TEST_PLAN_2026-10-31.md) | 実機試験の計画 | 試験を足したとき |
 | [`../hardware/c_board/ASSEMBLY.md`](../hardware/c_board/ASSEMBLY.md) | C ボード Rev1.0 の組み立てガイド（PDF・BOM・配置つき） | 基板を変えたとき |
 | [`magazine/`](magazine/) | sgnano magazine（読み物。第 1 号・第 2 号） | 号を足したとき |

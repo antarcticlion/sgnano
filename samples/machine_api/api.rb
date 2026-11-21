@@ -88,5 +88,8 @@ o "bmready", b(bm.ready?); o "bmw", bm.width; o "bmh", bm.height
 bm.pset(1, 1, 9); o "bmpget", bm.pget(1, 1)
 bm.write(640, "ABC"); o "bmread", bm.read(640, 3)
 bm.palette(9, 0, 255, 0); o "bmpal", (bm.palette(9) == [0, 255, 0] ? 1 : 0)
+# 音楽の口（ABI 4.4、2026-11-18 に 3 言語で突き合わせ）。定数と、鳴っていないときの様子
+o "musicconst", M::Music::MP3 + M::Music::OGG * 10 + M::Music::WAV * 100 + M::Music::VGM * 1000 + M::Music::LOOP * 10000
+o "musicidle", b(M::Music.playing?) + b(M::Music.paused?) * 2 + M::Music.position * 4 + M::Music.length * 8 + M::Music.format * 16
 M.mode = 1
 puts "API-END"

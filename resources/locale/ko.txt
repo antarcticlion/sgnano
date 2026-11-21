@@ -20,14 +20,14 @@ ui	属性を変える	속성 변경
 ui	エディタで開く	편집기로 열기
 ui	テキスト表示（Shift+V / Ctrl+Alt+F7 は 16 進）	텍스트로 보기 (Shift+V / Ctrl+Alt+F7은 16진)
 ui	ドライブの情報	드라이브 정보
-ui	フォルダを作る / 新しいファイル	새 폴더 / 새 파일
+ui	フォルダを作る（Shift+F5） / 新しいファイル（Ctrl+F1）	새 폴더 (Shift+F5) / 새 파일 (Ctrl+F1)
 ui	シェル sgsh / 媒体を取り出す	셸 sgsh / 미디어 꺼내기
 ui	読み直す	다시 읽기
-ui	見えている画面を PNG で保存	화면을 PNG로 저장
+ui	見えている画面を PNG で保存（Alt+F5 も同じ）	화면을 PNG로 저장 (= Alt+F5)
 ui	窓を閉じる・選択を解く（サブフォルダでは上位へ）	창 닫기·선택 해제 (하위 폴더에서는 위로)
-ui	ファイルの操作（FD と同じ。印・範囲・カーソルの順に選ぶ）	파일 조작 (FD와 같음. 표시·범위·커서 순서)
-ui	コピー: 行き先はドライブとフォルダの木から。ESC で止める	복사: 드라이브와 폴더 트리에서 대상 선택. ESC로 중지
-ui	削除: y で確かめる。印・範囲をまとめて。フォルダは中身ごと	삭제: y로 확인. 표시·범위를 한꺼번에. 폴더는 내용째
+ui	ファイルの操作（FD と同じ。印・範囲・カーソルの順）	파일 조작 (FD와 같음. 표시·범위·커서 순서)
+ui	コピー: 行き先は木から選ぶ。ESC で止める	복사: 드라이브와 폴더 트리에서 대상 선택. ESC로 중지
+ui	削除: y で確かめる。印・範囲をまとめて	삭제: y로 확인. 표시·범위를 한꺼번에. 폴더는 내용째
 ui	フォルダを削除（中身ごと）	폴더 삭제 (내용째)
 ui	名前を変える（今の名前を直して Enter）	이름 바꾸기 (이름을 고치고 Enter)
 ui	属性: R 読み出し専用・H 隠し・S システム・A アーカイブ	속성: R 읽기 전용·H 숨김·S 시스템·A 보관
@@ -49,22 +49,19 @@ ui	画面（Alt+F。FD の F キーとぶつからない）	화면 (Alt+F. FD의
 ui	FB（絵）/ テキスト面を出す・隠す	FB(그림) / 텍스트 면 표시·숨김
 ui	FB の表示ページ（0〜3）	FB 표시 페이지 (0~3)
 ui	FB を 0 で消す / 明るさを 1/2 に（RGB555）	FB를 0으로 지우기 / 밝기 1/2 (RGB555)
-ui	USB のエンドポイントと LAN の状態	USB 엔드포인트와 LAN 상태
+ui	USB のエンドポイントと LAN（U: 10 秒に 1 度）	USB 엔드포인트와 LAN 상태
 ui	FB の表示ページを消す / 明るさを 1/2 に	FB 표시 페이지 지우기 / 밝기 1/2
 ui	テキストの属性の見本	텍스트 속성 견본
 ui	モニタの EDID（起動時に読んだもの）	모니터 EDID (시작할 때 읽은 것)
 ui	フォント ROM のライセンスとクレジット	폰트 ROM 라이선스와 저작자 표시
 ui	設定（表示の言語・IME・キーボードロケール）	설정 (표시 언어, IME, 키보드 로캘)
-ui	時計（NTP で合わせた日本時間。s ですぐ合わせる）	시계 (NTP로 맞춘 일본 시간. s로 바로 맞춤)
+ui	時計（NTP で合わせた日本時間。s は 3 分に 1 度）	시계 (NTP로 맞춘 일본 시간. s로 바로 맞춤)
 ui	表計算（SGCALC）を開く	스프레드시트(SGCALC) 열기
 ui	S: ドライブのエラー検査（誤りがあれば直すか聞く）	S: 드라이브 오류 검사 (오류가 있으면 복구할지 묻는다)
 ui	トラッカー（TRACKER）を開く	트래커(TRACKER) 열기
-ui	再起動（確かめの窓が出る）	재시작 (확인 창이 나옴)
+ui	再起動（確かめの窓）。Ctrl+Alt+Del も同じ	재시작 (확인 창이 나옴) = Ctrl+Alt+Del
 ui	ADC のステレオ入力（GP40 / 41）を鳴らす	ADC 스테레오 입력 (GP40 / 41) 재생
 ui	VGM/VGZ を 96kHz/24bit WAV に書き出す	VGM/VGZ를 96kHz/24bit WAV로 내보내기
-ui	このヘルプ	이 도움말
-ui	ページを替える	페이지 바꾸기
-ui	閉じる	닫기
 ui	テキスト・16 進のビュアー（less 風）	텍스트·16진수 뷰어 (less 방식)
 ui	1 行	1행
 ui	1 ページ	1페이지
@@ -82,10 +79,9 @@ ui	IME の言語（日本語 / English / 한국어）	IME 언어 (일본어 / En
 ui	ひらがな / カタカナで確定	히라가나 / 가타카나로 확정
 ui	エディタのヘルプ	편집기 도움말
 ui	シェル	셸
-ui	シェル（csh のサブセット。exit / Ctrl-D で戻る、help で一覧）	셸 (csh의 일부. exit / Ctrl-D로 돌아감, help로 목록)
+ui	シェル（csh の一部。exit / Ctrl-D で戻る、help で一覧）	셸 (csh의 일부. exit / Ctrl-D로 돌아감, help로 목록)
 ui	一覧と移動	목록과 이동
 ui	ファイルの操作	파일 조작
-ui	画面と機器	화면과 기기
 ui	ビュアーとエディタ	뷰어와 편집기
 ui	ヘルプ  %u / %u  %s	도움말  %u / %u  %s
 ui	Left Right: ページを替える    F1 / ESC: 閉じる	Left Right: 페이지 바꾸기    F1 / ESC: 닫기
@@ -146,9 +142,9 @@ ui	10 EP表	10 EP
 ui	11 時計	11 시계
 ui	12 表計	12 CALC
 ui	1 属性	1 속성
-ui	2 情報	2 정보
+ui	2Drv情報	2 정보
 ui	3 移動	3 이동
-ui	5 作成	5 생성
+ui	5 ﾌｫﾙﾀﾞ	5 생성
 ui	6 シェル	6 셸
 ui	8 編集	8 편집
 ui	9 表示	9 보기
@@ -486,11 +482,11 @@ msg.phrase	the sound is not open	소리가 열려 있지 않습니다
 msg.phrase	no such channel	그런 채널은 없습니다
 msg.phrase	the sequencer is busy	시퀀서가 사용 중입니다
 msg.phrase	not enough PSRAM for the song	곡을 둘 PSRAM이 부족합니다
-msg.phrase	not a standard MIDI file (no MThd)	SMF가 아닙니다 (MThd 없음)
-msg.phrase	no tracks	트랙이 없습니다
-msg.phrase	a track is broken (MTrk)	트랙이 손상되었습니다 (MTrk)
-msg.phrase	SMPTE time division is not supported	SMPTE 시간 단위는 다룰 수 없습니다
-msg.phrase	SMF format 2 is not supported (0 and 1 only)	SMF 포맷 2는 다룰 수 없습니다 (0과 1만)
+msg.phrase	not a standard MIDI file (no MThd)	표준 MIDI 파일이 아닙니다 (MThd 없음)
+msg.phrase	no tracks	트랙 없음
+msg.phrase	a track is broken (MTrk)	트랙이 손상됨 (MTrk)
+msg.phrase	SMPTE time division is not supported	SMPTE 시간 분할은 지원하지 않습니다
+msg.phrase	SMF format 2 is not supported (0 and 1 only)	SMF 형식 2는 지원하지 않습니다 (0과 1만)
 msg.phrase	not a Bulk-Only drive	Bulk-Only 드라이브가 아닙니다
 msg.phrase	not an optical drive	광학 드라이브가 아닙니다
 msg.phrase	a system folder cannot be deleted or renamed	시스템 폴더는 삭제하거나 이름을 바꿀 수 없습니다
@@ -546,7 +542,7 @@ msg.phrase	Not supported on this drive	이 드라이브에서는 할 수 없습�
 msg.phrase	Invalid path	경로가 잘못되었습니다
 msg.phrase	Out of memory	메모리가 부족합니다
 msg.phrase	No such drive	그런 드라이브는 없습니다
-msg.phrase	stopped	중지했습니다
+msg.phrase	stopped	정지
 msg.phrase	cancelled (not enough free space)	취소했습니다 (빈 공간 부족)
 msg.phrase	could not count the free space	빈 공간을 셀 수 없습니다
 msg.phrase	the receiver cancelled	받는 쪽이 취소했습니다
@@ -627,82 +623,82 @@ msg.phrase	2 Edit	2 편집
 msg.phrase	3 Graph	3 그래프
 msg.phrase	4 Sheet	4장
 msg.phrase	5 Help	5 도움말
-msg.phrase	EMPTY	비어 있음
-msg.phrase	NUMBER	번호
+msg.phrase	EMPTY	빈 셀
+msg.phrase	NUMBER	숫자
 msg.phrase	TEXT	텍스트
-msg.phrase	FORMULA	공식
-msg.phrase	Type to enter, F2 to edit, F1 for help	입력하려면 입력하고, 편집하려면 F2, 도움말을 보려면 F1을 입력하세요.
+msg.phrase	FORMULA	수식
+msg.phrase	Type to enter, F2 to edit, F1 for help	입력하려면 타이핑, 편집은 F2, 도움말은 F1
 msg.phrase	5 CSV	5 CSV
-msg.phrase	6 ODS	6OD
-msg.phrase	[SHIFT]	[시프트]
+msg.phrase	6 ODS	6 ODS
+msg.phrase	[SHIFT]	[SHIFT]
 msg.phrase	[CTRL]	[CTRL]
-msg.phrase	[ALT]	[대체]
+msg.phrase	[ALT]	[ALT]
 msg.phrase	Ready	준비
 msg.phrase	SGCALC	SGCALC
 msg.phrase	Press any key	아무 키나 누르세요
-msg.phrase	Y = yes    N = no    Esc = cancel	Y = 예 N = 아니요 Esc = 취소
-msg.phrase	Enter = OK    Esc = cancel    Ctrl-U = clear	Enter = 확인 Esc = 취소 Ctrl-U = 지우기
-msg.phrase	First row/column = labels; charts use the 640x480 CLUT8 FB.	첫 번째 행/열 = 레이블; 차트는 640x480 CLUT8 FB를 사용합니다.
+msg.phrase	Y = yes    N = no    Esc = cancel	Y = 예    N = 아니요    Esc = 취소
+msg.phrase	Enter = OK    Esc = cancel    Ctrl-U = clear	Enter = 확인    Esc = 취소    Ctrl-U = 지우기
+msg.phrase	First row/column = labels; charts use the 640x480 CLUT8 FB.	첫 행/열 = 레이블, 차트는 640x480 CLUT8 FB를 사용합니다.
 msg.phrase	SGCALC - HELP	SGCALC - 도움말
-msg.phrase	Press any key to return	돌아가려면 아무 키나 누르세요.
+msg.phrase	Press any key to return	돌아가려면 아무 키나 누르세요
 msg.phrase	Press any key to return.	돌아가려면 아무 키나 누르세요.
-msg.phrase	ABOUT SGCALC	SGCALC 소개
-msg.phrase	New	새로운
+msg.phrase	ABOUT SGCALC	SGCALC 정보
+msg.phrase	New	새로 만들기
 msg.phrase	Start a new sheet	새 시트 시작
-msg.phrase	Open...	열어...
-msg.phrase	Open an ODS, FODS or CSV file	ODS, FODS 또는 CSV 파일 열기
+msg.phrase	Open...	열기...
+msg.phrase	Open an ODS, FODS or CSV file	ODS, FODS, CSV 파일 열기
 msg.phrase	Save	저장
 msg.phrase	Save the current file	현재 파일 저장
 msg.phrase	Save As...	다른 이름으로 저장...
-msg.phrase	Save with a new name or format	새로운 이름이나 형식으로 저장
+msg.phrase	Save with a new name or format	새 이름이나 형식으로 저장
 msg.phrase	Export CSV...	CSV 내보내기...
-msg.phrase	Write a CSV copy	CSV 사본 작성
+msg.phrase	Write a CSV copy	CSV 사본 쓰기
 msg.phrase	Export ODS...	ODS 내보내기...
-msg.phrase	Write a LibreOffice copy	LibreOffice 사본 작성
+msg.phrase	Write a LibreOffice copy	LibreOffice 사본 쓰기
 msg.phrase	Quit	종료
-msg.phrase	Leave SGCALC	SGCALC 탈퇴
+msg.phrase	Leave SGCALC	SGCALC 종료
 msg.phrase	Clear	지우기
 msg.phrase	Clear the selected cells	선택한 셀 지우기
 msg.phrase	Copy	복사
-msg.phrase	Copy the selection	선택 항목 복사
+msg.phrase	Copy the selection	선택 영역 복사
 msg.phrase	Paste	붙여넣기
 msg.phrase	Paste at the cursor	커서 위치에 붙여넣기
-msg.phrase	Cut	컷
-msg.phrase	Copy and clear the selection	선택 항목 복사 및 지우기
+msg.phrase	Cut	잘라내기
+msg.phrase	Copy and clear the selection	선택 영역을 복사하고 지우기
 msg.phrase	Select all	모두 선택
-msg.phrase	Select all used cells	사용된 셀 모두 선택
-msg.phrase	Text color...	텍스트 색상...
-msg.phrase	Choose the text colour	텍스트 색상을 선택하세요
+msg.phrase	Select all used cells	사용한 셀 모두 선택
+msg.phrase	Text color...	글자 색...
+msg.phrase	Choose the text colour	글자 색 고르기
 msg.phrase	Background...	배경...
-msg.phrase	Choose the cell background	셀 배경을 선택하세요
-msg.phrase	Line	라인
-msg.phrase	Draw a line graph from the selection	선택 항목에서 선 그래프 그리기
-msg.phrase	Bar	바
-msg.phrase	Draw a bar graph from the selection	선택 항목에서 막대 그래프 그리기
+msg.phrase	Choose the cell background	셀 배경 고르기
+msg.phrase	Line	꺾은선
+msg.phrase	Draw a line graph from the selection	선택 영역으로 꺾은선 그래프 그리기
+msg.phrase	Bar	막대
+msg.phrase	Draw a bar graph from the selection	선택 영역으로 막대 그래프 그리기
 msg.phrase	Mixed	혼합
-msg.phrase	Bars for the first series, lines for the rest	첫 번째 시리즈는 막대, 나머지 시리즈는 선
-msg.phrase	Pie	파이
-msg.phrase	Draw a pie graph from the selection	선택 항목에서 파이 그래프 그리기
+msg.phrase	Bars for the first series, lines for the rest	첫 계열은 막대, 나머지는 꺾은선
+msg.phrase	Pie	원형
+msg.phrase	Draw a pie graph from the selection	선택 영역으로 원형 그래프 그리기
 msg.phrase	Range...	범위...
-msg.phrase	Set the graph range explicitly	그래프 범위를 명시적으로 설정
+msg.phrase	Set the graph range explicitly	그래프 범위 직접 지정
 msg.phrase	Draw again	다시 그리기
 msg.phrase	Redraw the last graph	마지막 그래프 다시 그리기
-msg.phrase	Goto...	고토...
-msg.phrase	Jump to a cell (for example C12)	셀로 이동(예: C12)
+msg.phrase	Goto...	이동...
+msg.phrase	Jump to a cell (for example C12)	셀로 이동 (예: C12)
 msg.phrase	Column width...	열 너비...
 msg.phrase	Change the selected columns' width	선택한 열의 너비 변경
 msg.phrase	Row height...	행 높이...
 msg.phrase	Change the selected rows' height	선택한 행의 높이 변경
 msg.phrase	Auto fit	자동 맞춤
-msg.phrase	Fit widths/heights to the contents (F7)	내용에 맞게 너비/높이 맞추기(F7)
+msg.phrase	Fit widths/heights to the contents (F7)	내용에 맞게 너비/높이 조정 (F7)
 msg.phrase	Recalculate	재계산
-msg.phrase	Re-evaluate all formulas	모든 수식을 재평가
-msg.phrase	Erase all	모두 삭제
-msg.phrase	Clear the whole sheet	전체 시트 지우기
-msg.phrase	Keys	열쇠
-msg.phrase	Show the key guide	주요 가이드 표시
-msg.phrase	About	소개
-msg.phrase	About SGCALC	SGCALC 소개
+msg.phrase	Re-evaluate all formulas	모든 수식 다시 계산
+msg.phrase	Erase all	모두 지우기
+msg.phrase	Clear the whole sheet	시트 전체 지우기
+msg.phrase	Keys	키
+msg.phrase	Show the key guide	키 안내 보기
+msg.phrase	About	정보
+msg.phrase	About SGCALC	SGCALC 정보
 msg.phrase	File	파일
 msg.phrase	Edit	편집
 msg.phrase	Graph	그래프
@@ -710,193 +706,193 @@ msg.phrase	Sheet	시트
 msg.phrase	Help	도움말
 msg.phrase	File: new, open, save, export, quit	파일: 새로 만들기, 열기, 저장, 내보내기, 종료
 msg.phrase	Edit: clear, copy, paste, cut, select all	편집: 지우기, 복사, 붙여넣기, 잘라내기, 모두 선택
-msg.phrase	Graph: line, bar, mixed, pie (draws in the FB)	그래프: 선, 막대, 혼합, 원형(FB에 그리기)
-msg.phrase	Sheet: goto, column width, recalculate, erase	시트: 이동, 열 너비, 다시 계산, 지우기
-msg.phrase	Help: keys and about	도움말: 키 및 정보
+msg.phrase	Graph: line, bar, mixed, pie (draws in the FB)	그래프: 꺾은선, 막대, 혼합, 원형 (FB에 그림)
+msg.phrase	Sheet: goto, column width, recalculate, erase	시트: 이동, 열 너비, 재계산, 모두 지우기
+msg.phrase	Help: keys and about	도움말: 키와 정보
 msg.phrase	Left/Right = menu    Up/Down = item    Enter = choose    Esc = cancel	왼쪽/오른쪽 = 메뉴 위/아래 = 항목 Enter = 선택 Esc = 취소
 msg.phrase	Cancelled	취소됨
-msg.phrase	The selection is too large or memory is low.	선택 항목이 너무 크거나 메모리가 부족합니다.
+msg.phrase	The selection is too large or memory is low.	선택 영역이 너무 크거나 메모리가 부족합니다.
 msg.phrase	the cell	세포
 msg.phrase	the selection	선택
-msg.phrase	Nothing to paste	붙여넣을 내용이 없습니다.
-msg.phrase	Pasted	붙여넣음
+msg.phrase	Nothing to paste	붙여넣을 내용이 없습니다
+msg.phrase	Pasted	붙여넣었습니다
 msg.phrase	GO TO CELL	셀로 이동
-msg.phrase	Cell reference (A1):	셀 참조(A1):
-msg.phrase	Goto	고토
+msg.phrase	Cell reference (A1):	셀 참조 (A1):
+msg.phrase	Goto	이동
 msg.phrase	COLUMN WIDTH	열 너비
-msg.phrase	Width in characters (4..30):	문자 너비(4..30):
+msg.phrase	Width in characters (4..30):	글자 수로 너비 (4..30):
 msg.phrase	ROW HEIGHT	행 높이
-msg.phrase	Height in text rows (1..8):	텍스트 행의 높이(1..8):
-msg.phrase	Auto fit: the sheet is empty	자동 맞춤: 시트가 비어 있습니다.
-msg.phrase	BACKGROUND COLOUR	배경색
-msg.phrase	TEXT COLOUR	텍스트 색상
-msg.phrase	Arrows: choose    Enter: apply    Esc: cancel	화살표: Enter 선택: 적용 Esc: 취소
-msg.phrase	Colour index (PC-98 16-colour palette)	컬러 인덱스(PC-98 16색 팔레트)
-msg.phrase	Aa 123	아아 123
-msg.phrase	Enter = apply    Esc = cancel	Enter = 적용 Esc = 취소
-msg.phrase	Colour	색상
+msg.phrase	Height in text rows (1..8):	텍스트 줄 수로 높이 (1..8):
+msg.phrase	Auto fit: the sheet is empty	자동 맞춤: 시트가 비어 있습니다
+msg.phrase	BACKGROUND COLOUR	배경 색
+msg.phrase	TEXT COLOUR	글자 색
+msg.phrase	Arrows: choose    Enter: apply    Esc: cancel	화살표: 선택    Enter: 적용    Esc: 취소
+msg.phrase	Colour index (PC-98 16-colour palette)	색 번호 (PC-98 16색 팔레트)
+msg.phrase	Aa 123	Aa 123
+msg.phrase	Enter = apply    Esc = cancel	Enter = 적용    Esc = 취소
+msg.phrase	Colour	색
 msg.phrase	Background	배경
 msg.phrase	Text	텍스트
 msg.phrase	GRAPH RANGE	그래프 범위
-msg.phrase	Range (for example A1:C10):	범위(예: A1:C10):
+msg.phrase	Range (for example A1:C10):	범위 (예: A1:C10):
 msg.phrase	Graph range	그래프 범위
-msg.phrase	Use a range such as A1:C10.	A1:C10과 같은 범위를 사용합니다.
+msg.phrase	Use a range such as A1:C10.	A1:C10 같은 범위를 입력하세요.
 msg.phrase	Cannot draw the graph.	그래프를 그릴 수 없습니다.
 msg.phrase	line	라인
 msg.phrase	bar	바
 msg.phrase	mixed	혼합된
 msg.phrase	pie	파이
-msg.phrase	Clear every cell in this sheet?	이 시트의 모든 셀을 삭제하시겠습니까?
-msg.phrase	Sheet erased	시트가 지워졌습니다.
-msg.phrase	Selected all used cells	사용된 셀을 모두 선택했습니다.
-msg.phrase	Recalculated	재계산됨
+msg.phrase	Clear every cell in this sheet?	이 시트의 모든 셀을 지울까요?
+msg.phrase	Sheet erased	시트를 지웠습니다
+msg.phrase	Selected all used cells	사용한 셀을 모두 선택했습니다
+msg.phrase	Recalculated	다시 계산했습니다
 msg.phrase	Memory	메모리
-msg.phrase	Not enough PSRAM for the spreadsheet.	스프레드시트를 위한 PSRAM이 부족합니다.
+msg.phrase	Not enough PSRAM for the spreadsheet.	스프레드시트에 쓸 PSRAM이 부족합니다.
 msg.phrase	The sheet is empty.	시트가 비어 있습니다.
-msg.phrase	No numeric data in the selected range.	선택한 범위에 숫자 데이터가 없습니다.
+msg.phrase	No numeric data in the selected range.	선택한 범위에 숫자가 없습니다.
 msg.phrase	Other	기타
-msg.phrase	No positive values for a pie chart	원형 차트에는 양수 값이 없습니다.
-msg.phrase	LINE	라인
-msg.phrase	BAR	바
+msg.phrase	No positive values for a pie chart	원형 차트에 쓸 양수 값이 없습니다
+msg.phrase	LINE	꺾은선
+msg.phrase	BAR	막대
 msg.phrase	MIXED	혼합
-msg.phrase	PIE	파이
-msg.phrase	S:/	에스:/
+msg.phrase	PIE	원형
+msg.phrase	S:/	S:/
 msg.phrase	Folder	폴더
 msg.phrase	SAVE AS	다른 이름으로 저장
 msg.phrase	OPEN FILE	파일 열기
-msg.phrase	LibreOffice / CSV	리브레오피스 / CSV
-msg.phrase	ODS  FODS  CSV	ODS 식품 CSV
+msg.phrase	LibreOffice / CSV	LibreOffice / CSV
+msg.phrase	ODS  FODS  CSV	ODS  FODS  CSV
 msg.phrase	Name:	이름:
-msg.phrase	(type a name, or choose below)	(이름을 입력하거나 아래에서 선택)
+msg.phrase	(type a name, or choose below)	(이름을 입력하거나 아래에서 고르세요)
 msg.phrase	Name	이름
 msg.phrase	Size	크기
-msg.phrase	Enter=save  Left=up  Right/Enter on [DIR]=open  Tab=drive  Esc=cancel	Enter=저장 왼쪽=위 오른쪽/Enter on [DIR]=열기 Tab=드라이브 Esc=취소
-msg.phrase	Enter=open  Left=up  Right/Enter on [DIR]=open  Tab=drive  Esc=cancel	Enter=열기 왼쪽=위로 오른쪽/Enter on [DIR]=열기 Tab=드라이브 Esc=취소
+msg.phrase	Enter=save  Left=up  Right/Enter on [DIR]=open  Tab=drive  Esc=cancel	Enter=저장  왼쪽=위로  [DIR]에서 오른쪽/Enter=열기  Tab=드라이브  Esc=취소
+msg.phrase	Enter=open  Left=up  Right/Enter on [DIR]=open  Tab=drive  Esc=cancel	Enter=열기  왼쪽=위로  [DIR]에서 오른쪽/Enter=열기  Tab=드라이브  Esc=취소
 msg.phrase	Not enough memory.	메모리가 부족합니다.
 msg.phrase	Overwrite	덮어쓰기
 msg.phrase	Open	열기
-msg.phrase	The file is too large (limit 8 MB).	파일이 너무 큽니다(8MB 제한).
+msg.phrase	The file is too large (limit 8 MB).	파일이 너무 큽니다 (최대 8 MB).
 msg.phrase	Not enough memory to read the file.	파일을 읽을 메모리가 부족합니다.
-msg.phrase	Bad ZIP/ODS data.	ZIP/ODS 데이터가 잘못되었습니다.
+msg.phrase	Bad ZIP/ODS data.	ZIP/ODS 데이터가 손상되었습니다.
 msg.phrase	CRC error in the ODS file.	ODS 파일에 CRC 오류가 있습니다.
-msg.phrase	Unsupported or damaged file.	지원되지 않거나 손상된 파일입니다.
+msg.phrase	Unsupported or damaged file.	지원하지 않거나 손상된 파일입니다.
 msg.phrase	Saved	저장됨
 msg.phrase	Exported	수출됨
-msg.phrase	Unsaved changes	저장되지 않은 변경사항
-msg.phrase	Save the current sheet before continuing?	계속하기 전에 현재 시트를 저장하시겠습니까?
+msg.phrase	Unsaved changes	저장하지 않은 변경
+msg.phrase	Save the current sheet before continuing?	계속하기 전에 현재 시트를 저장할까요?
 msg.phrase	New sheet	새 시트
 msg.phrase	SGTRK	SGTRK
-msg.phrase	UNTITLED	제목 없음
-msg.phrase	song is too large	노래가 너무 커
+msg.phrase	UNTITLED	UNTITLED
+msg.phrase	song is too large	곡이 너무 큽니다
 msg.phrase	empty file	빈 파일
 msg.phrase	not an SGT file	SGT 파일이 아닙니다
-msg.phrase	bad BPM	나쁜 BPM
-msg.phrase	bad speed	나쁜 속도
-msg.phrase	bad title length	잘못된 제목 길이
-msg.phrase	truncated title	잘린 제목
-msg.phrase	bad character in title	제목에 나쁜 문자
-msg.phrase	truncated order	잘린 순서
-msg.phrase	bad order length	잘못된 주문 길이
-msg.phrase	bad pattern number in order	잘못된 패턴 번호 순서
-msg.phrase	truncated pattern list	잘린 패턴 목록
-msg.phrase	bad pattern count	잘못된 패턴 수
-msg.phrase	bad pattern index	불량 패턴 지수
-msg.phrase	duplicate pattern	중복 패턴
-msg.phrase	truncated pattern data	잘린 패턴 데이터
-msg.phrase	invalid pattern data	잘못된 패턴 데이터
-msg.phrase	trailing data in file	파일의 후행 데이터
-msg.phrase	order refers to a missing pattern	순서는 누락된 패턴을 나타냅니다.
-msg.phrase	A:/	답변:/
+msg.phrase	bad BPM	BPM이 잘못됨
+msg.phrase	bad speed	속도가 잘못됨
+msg.phrase	bad title length	제목 길이가 잘못됨
+msg.phrase	truncated title	제목이 잘림
+msg.phrase	bad character in title	제목에 잘못된 문자
+msg.phrase	truncated order	오더가 잘림
+msg.phrase	bad order length	오더 길이가 잘못됨
+msg.phrase	bad pattern number in order	오더의 패턴 번호가 잘못됨
+msg.phrase	truncated pattern list	패턴 목록이 잘림
+msg.phrase	bad pattern count	패턴 개수가 잘못됨
+msg.phrase	bad pattern index	패턴 번호가 잘못됨
+msg.phrase	duplicate pattern	중복된 패턴
+msg.phrase	truncated pattern data	패턴 데이터가 잘림
+msg.phrase	invalid pattern data	패턴 데이터가 잘못됨
+msg.phrase	trailing data in file	파일 끝에 남는 데이터
+msg.phrase	order refers to a missing pattern	오더가 없는 패턴을 가리킴
+msg.phrase	A:/	A:/
 msg.phrase	(untitled)	(제목 없음)
-msg.phrase	Ready. Press F1 for help.	준비되었습니다. 도움말을 보려면 F1을 누르세요.
-msg.phrase	Follow OFF	팔로우 끄기
-msg.phrase	Nothing to undo	실행취소할 항목이 없습니다.
-msg.phrase	Undo	실행 취소
-msg.phrase	Note OFF	참고 OFF
-msg.phrase	Set an effect letter first	먼저 효과 문자를 설정하세요.
-msg.phrase	Effect cleared	효과가 지워졌습니다.
-msg.phrase	Parameter cleared	매개변수가 삭제됨
-msg.phrase	Note cleared	메모가 삭제되었습니다.
-msg.phrase	Instrument cleared	결제 수단이 삭제됨
-msg.phrase	Volume cleared	볼륨이 지워졌습니다.
-msg.phrase	Order list is full	주문 목록이 가득 찼습니다.
-msg.phrase	Order inserted	주문이 삽입되었습니다.
-msg.phrase	Cannot delete the last order	마지막 주문을 삭제할 수 없습니다
-msg.phrase	Order deleted	주문이 삭제되었습니다.
-msg.phrase	Playing song	노래 재생 중
-msg.phrase	Stopped	중지됨
-msg.phrase	New song	신곡
-msg.phrase	Discard unsaved changes and start a new song? (Y/N)	저장되지 않은 변경사항을 취소하고 새 노래를 시작하시겠습니까? (예/아니요)
-msg.phrase	Discard unsaved changes and open a song? (Y/N)	저장되지 않은 변경사항을 삭제하고 노래를 열까요? (예/아니요)
-msg.phrase	Discard unsaved changes and quit? (Y/N)	저장되지 않은 변경사항을 취소하고 종료하시겠습니까? (예/아니요)
-msg.phrase	Song settings updated	노래 설정이 업데이트되었습니다.
-msg.phrase	Filename is empty	파일 이름이 비어 있습니다.
-msg.phrase	Save cancelled	저장이 취소되었습니다.
-msg.phrase	Open cancelled	오픈 취소됨
-msg.phrase	Edit ON	편집 ON
-msg.phrase	Edit OFF	편집 끄기
-msg.phrase	Follow ON	팔로우 ON
-msg.phrase	Edit is OFF. Press F8 to edit.	편집이 꺼져 있습니다. 편집하려면 F8을 누르세요.
+msg.phrase	Ready. Press F1 for help.	준비. 도움말은 F1.
+msg.phrase	Follow OFF	따라가기 끔
+msg.phrase	Nothing to undo	되돌릴 것이 없습니다
+msg.phrase	Undo	되돌렸습니다
+msg.phrase	Note OFF	노트 오프
+msg.phrase	Set an effect letter first	먼저 효과 문자를 입력하세요
+msg.phrase	Effect cleared	효과를 지웠습니다
+msg.phrase	Parameter cleared	파라미터를 지웠습니다
+msg.phrase	Note cleared	음을 지웠습니다
+msg.phrase	Instrument cleared	악기를 지웠습니다
+msg.phrase	Volume cleared	음량을 지웠습니다
+msg.phrase	Order list is full	오더 목록이 가득 찼습니다
+msg.phrase	Order inserted	오더를 넣었습니다
+msg.phrase	Cannot delete the last order	마지막 오더는 지울 수 없습니다
+msg.phrase	Order deleted	오더를 지웠습니다
+msg.phrase	Playing song	곡 재생 중
+msg.phrase	Stopped	정지
+msg.phrase	New song	새 곡
+msg.phrase	Discard unsaved changes and start a new song? (Y/N)	저장하지 않은 변경을 버리고 새 곡을 시작할까요? (Y/N)
+msg.phrase	Discard unsaved changes and open a song? (Y/N)	저장하지 않은 변경을 버리고 곡을 열까요? (Y/N)
+msg.phrase	Discard unsaved changes and quit? (Y/N)	저장하지 않은 변경을 버리고 종료할까요? (Y/N)
+msg.phrase	Song settings updated	곡 설정을 바꿨습니다
+msg.phrase	Filename is empty	파일 이름이 비어 있습니다
+msg.phrase	Save cancelled	저장을 취소했습니다
+msg.phrase	Open cancelled	열기를 취소했습니다
+msg.phrase	Edit ON	편집 켬
+msg.phrase	Edit OFF	편집 끔
+msg.phrase	Follow ON	따라가기 켬
+msg.phrase	Edit is OFF. Press F8 to edit.	편집이 꺼져 있습니다. 편집하려면 F8.
 msg.phrase	I/O error	입출력 오류
 msg.phrase	file is too large	파일이 너무 큽니다
-msg.phrase	truncated file	잘린 파일
-msg.phrase	SINE PAD	사인 패드
-msg.phrase	TRIANGLE	삼각형
-msg.phrase	SAW LEAD	리드를 보았다
-msg.phrase	SQUARE	광장
-msg.phrase	PULSE 25	펄스 25
-msg.phrase	ORGAN	오르간
-msg.phrase	BASS	베이스
-msg.phrase	BELL	벨
-msg.phrase	NOISE	소음
-msg.phrase	SINE	사인
-msg.phrase	SAW	톱
-msg.phrase	OFF	꺼짐
-msg.phrase	ON	켜짐
-msg.phrase	ROW	행
-msg.phrase	CHAN LEVEL	찬 레벨
-msg.phrase	F1 HELP F2 SONG	F1 도움말 F2 노래
-msg.phrase	F3 INS  F4 SAVE	F3 입력 F4 저장
-msg.phrase	F5 PLAY F6 PAT	F5 플레이 F6 팻
-msg.phrase	F7 STOP F8 EDIT	F7 중지 F8 편집
-msg.phrase	F9/F10 OCTAVE	F9/F10 옥타브
-msg.phrase	F11 FOLLOW	F11 팔로우
-msg.phrase	F12 QUIT	F12 종료
-msg.phrase	SPACE PLAY/STOP	우주 플레이/스톱
-msg.phrase	CTRL-S SAVE	CTRL-S 저장
-msg.phrase	CTRL-O OPEN	CTRL-O 열기
-msg.phrase	C-N NEW C-Z UNDO	C-N 새로운 C-Z 실행 취소
-msg.phrase	C-C STOP	CC 정지
-msg.phrase	#TRANSPORT AND FILES	#운송 및 파일
-msg.phrase	#ORDER LIST	#주문목록
-msg.phrase	#DISPLAY	#디스플레이
+msg.phrase	truncated file	파일이 잘림
+msg.phrase	SINE PAD	SINE PAD
+msg.phrase	TRIANGLE	TRIANGLE
+msg.phrase	SAW LEAD	SAW LEAD
+msg.phrase	SQUARE	SQUARE
+msg.phrase	PULSE 25	PULSE 25
+msg.phrase	ORGAN	ORGAN
+msg.phrase	BASS	BASS
+msg.phrase	BELL	BELL
+msg.phrase	NOISE	NOISE
+msg.phrase	SINE	SINE
+msg.phrase	SAW	SAW
+msg.phrase	OFF	OFF
+msg.phrase	ON	ON
+msg.phrase	ROW	ROW
+msg.phrase	CHAN LEVEL	CHAN LEVEL
+msg.phrase	F1 HELP F2 SONG	F1 HELP F2 SONG
+msg.phrase	F3 INS  F4 SAVE	F3 INS  F4 SAVE
+msg.phrase	F5 PLAY F6 PAT	F5 PLAY F6 PAT
+msg.phrase	F7 STOP F8 EDIT	F7 STOP F8 EDIT
+msg.phrase	F9/F10 OCTAVE	F9/F10 OCTAVE
+msg.phrase	F11 FOLLOW	F11 FOLLOW
+msg.phrase	F12 QUIT	F12 QUIT
+msg.phrase	SPACE PLAY/STOP	SPACE PLAY/STOP
+msg.phrase	CTRL-S SAVE	CTRL-S SAVE
+msg.phrase	CTRL-O OPEN	CTRL-O OPEN
+msg.phrase	C-N NEW C-Z UNDO	C-N NEW C-Z UNDO
+msg.phrase	C-C STOP	C-C STOP
+msg.phrase	#TRANSPORT AND FILES	#재생과 파일
+msg.phrase	#ORDER LIST	#오더 목록
+msg.phrase	#DISPLAY	#표시
 msg.phrase	#EDITING	#편집
-msg.phrase	#EFFECTS (parameter is hexadecimal)	#EFFECTS(매개변수는 16진수임)
-msg.phrase	LEFT/RIGHT PAGE   ENTER OR F1 CLOSE	왼쪽/오른쪽 페이지 Enter 또는 F1 닫기
-msg.phrase	SONG SETTINGS	노래 설정
-msg.phrase	UP/DOWN SELECT   LEFT/RIGHT ADJUST   ENTER/F2 CLOSE	상/하 선택 좌/우 조정 ENTER/F2 닫기
-msg.phrase	Type to edit the title. Backspace deletes the last character.	제목을 편집하려면 입력하세요. 백스페이스는 마지막 문자를 삭제합니다.
-msg.phrase	BPM range 32..255. Speed range 1..31.	BPM 범위는 32..255입니다. 속도 범위 1..31.
-msg.phrase	Pattern effects can also change speed and BPM while playing.	패턴 효과는 재생 중에 속도와 BPM을 변경할 수도 있습니다.
+msg.phrase	#EFFECTS (parameter is hexadecimal)	#효과 (파라미터는 16진수)
+msg.phrase	LEFT/RIGHT PAGE   ENTER OR F1 CLOSE	LEFT/RIGHT PAGE   ENTER OR F1 CLOSE
+msg.phrase	SONG SETTINGS	곡 설정
+msg.phrase	UP/DOWN SELECT   LEFT/RIGHT ADJUST   ENTER/F2 CLOSE	UP/DOWN SELECT   LEFT/RIGHT ADJUST   ENTER/F2 CLOSE
+msg.phrase	Type to edit the title. Backspace deletes the last character.	제목을 바꾸려면 입력하세요. Backspace는 마지막 글자를 지웁니다.
+msg.phrase	BPM range 32..255. Speed range 1..31.	BPM은 32~255, 속도는 1~31.
+msg.phrase	Pattern effects can also change speed and BPM while playing.	패턴의 효과로도 재생 중에 속도와 BPM을 바꿀 수 있습니다.
 msg.phrase	INSTRUMENTS	악기
-msg.phrase	UP/DOWN SELECT   SPACE PREVIEW   ENTER USE   F3 CLOSE	위/아래 선택 공간 미리보기 ENTER 사용 F3 닫기
-msg.phrase	All four channels use wavetable synthesis.	4개 채널 모두 웨이브테이블 합성을 사용합니다.
-msg.phrase	Preview plays C-4 on the track under the edit cursor.	미리보기는 편집 커서 아래의 트랙에서 C-4를 재생합니다.
-msg.phrase	SAVE SONG AS	다른 이름으로 노래 저장
-msg.phrase	ENTER SAVE   F4 OR CTRL-C CANCEL	저장 F4 또는 CTRL-C 취소를 입력하세요.
-msg.phrase	Directory:	디렉토리:
+msg.phrase	UP/DOWN SELECT   SPACE PREVIEW   ENTER USE   F3 CLOSE	UP/DOWN SELECT   SPACE PREVIEW   ENTER USE   F3 CLOSE
+msg.phrase	All four channels use wavetable synthesis.	네 채널 모두 웨이브테이블 합성을 사용합니다.
+msg.phrase	Preview plays C-4 on the track under the edit cursor.	미리 듣기는 편집 커서가 있는 트랙에서 C-4를 연주합니다.
+msg.phrase	SAVE SONG AS	곡을 다른 이름으로 저장
+msg.phrase	ENTER SAVE   F4 OR CTRL-C CANCEL	ENTER SAVE   F4 OR CTRL-C CANCEL
+msg.phrase	Directory:	폴더:
 msg.phrase	File name:	파일 이름:
-msg.phrase	The extension .SGT is added automatically.	확장자 .SGT가 자동으로 추가됩니다.
-msg.phrase	An existing file can be overwritten.	기존 파일을 덮어쓸 수 있습니다.
-msg.phrase	OPEN SONG	오픈송
-msg.phrase	ENTER OPEN  BS PARENT  CTRL-O/CTRL-C CANCEL	ENTER 열기 BS 부모 CTRL-O/CTRL-C 취소
-msg.phrase	(no .SGT files in this folder)	(이 폴더에는 .SGT 파일이 없습니다)
+msg.phrase	The extension .SGT is added automatically.	확장자 .SGT는 자동으로 붙습니다.
+msg.phrase	An existing file can be overwritten.	이미 있는 파일을 덮어쓸 수 있습니다.
+msg.phrase	OPEN SONG	곡 열기
+msg.phrase	ENTER OPEN  BS PARENT  CTRL-O/CTRL-C CANCEL	ENTER OPEN  BS PARENT  CTRL-O/CTRL-C CANCEL
+msg.phrase	(no .SGT files in this folder)	(이 폴더에 .SGT 파일이 없습니다)
 msg.phrase	CONFIRM	확인
-msg.phrase	Y = YES   N / ENTER / CTRL-C = NO	Y = 예 N / Enter / CTRL-C = 아니요
-msg.phrase	Y = yes        N = no	Y = 예 N = 아니오
+msg.phrase	Y = YES   N / ENTER / CTRL-C = NO	Y = YES   N / ENTER / CTRL-C = NO
+msg.phrase	Y = yes        N = no	Y = 예        N = 아니요
 msg.phrase	C-	C-
 msg.phrase	C#	C#
-msg.phrase	D-	디-
+msg.phrase	D-	D-
 msg.phrase	D#	D#
 msg.phrase	E-	E-
 msg.phrase	F-	F-
@@ -905,66 +901,66 @@ msg.phrase	G-	G-
 msg.phrase	G#	G#
 msg.phrase	A-	A-
 msg.phrase	A#	A#
-msg.phrase	B-	ㄴ-
+msg.phrase	B-	B-
 msg.phrase	A:/dir/name	A:/디렉터리/이름
 msg.phrase	MThd	MThd
-msg.phrase	broken MThd	고장난 MThd
-msg.phrase	MIDI IMPORT	미디 가져오기
+msg.phrase	broken MThd	MThd 손상
+msg.phrase	MIDI IMPORT	MIDI 가져오기
 msg.phrase	MTrk	MTrk
-msg.phrase	broken delta time	깨진 델타 시간
-msg.phrase	broken running status	깨진 실행 상태
-msg.phrase	broken meta event	깨진 메타 이벤트
-msg.phrase	broken sysex event	깨진 sysex 이벤트
-msg.phrase	broken channel event	깨진 채널 이벤트
-msg.phrase	SMF output is too small	SMF 출력이 너무 작습니다.
-msg.phrase	SMF output is too large	SMF 출력이 너무 큼
-msg.phrase	the song is too long for SMF	SMF치고는 노래가 너무 길어요
+msg.phrase	broken delta time	델타 타임 손상
+msg.phrase	broken running status	러닝 스테이터스 손상
+msg.phrase	broken meta event	메타 이벤트 손상
+msg.phrase	broken sysex event	SysEx 이벤트 손상
+msg.phrase	broken channel event	채널 이벤트 손상
+msg.phrase	SMF output is too small	SMF 출력이 너무 작습니다
+msg.phrase	SMF output is too large	SMF 출력이 너무 큽니다
+msg.phrase	the song is too long for SMF	곡이 SMF로는 너무 깁니다
 msg.phrase	TRK1	TRK1
 msg.phrase	%s%d	%s%d
 msg.phrase	%s%d:%s%d	%s%d:%s%d
 msg.phrase	%s	%s
 msg.phrase	%.40s%s	%.40s%s
 msg.phrase	  [%s]   %s	  [%s]   %s
-msg.phrase	EDIT  	편집하다
-msg.phrase	READY 	준비가 된
-msg.phrase	%4d 	%4d
+msg.phrase	EDIT  	편집
+msg.phrase	READY 	준비
+msg.phrase	%4d 	%4d 
 msg.phrase	%s Sum %.7g N %ld%s	%s 합계 %.7g N %ld%s
-msg.phrase	ARROWS      move the cell cursor\n	화살표 셀 커서 이동
-msg.phrase	SHIFT+ARR   extend the selection (for graphs/copy)\n	SHIFT+ARR 선택 항목 확장(그래프/복사용)
-msg.phrase	ENTER       edit the cell; in edit, commit and move down\n	ENTER 셀을 편집합니다. 편집, 커밋 및 아래로 이동
-msg.phrase	TAB         next cell    SHIFT+TAB  previous cell\n	TAB 다음 셀 SHIFT+TAB 이전 셀
-msg.phrase	DELETE      clear the selected cell(s)    ESC  cancel\n	DELETE 선택한 셀 지우기 ESC 취소
-msg.phrase	PGUP/PGDN   move one screen    HOME/END  first/last column\n	PGUP/PGDN 한 화면 이동 HOME/END 첫 번째/마지막 열
-msg.phrase	CTRL+HOME   A1    CTRL+END  last used cell\n	CTRL+HOME A1 CTRL+END 마지막으로 사용한 셀
-msg.phrase	F1 help  F2 edit  F3 copy  F4 paste  F5 goto  F6 colour\n	F1 도움말 F2 편집 F3 복사 F4 붙여넣기 F5 F6 색상으로 이동
-msg.phrase	F7 auto-fit  F8 background  F9 recalc  F10 graph  F11 save  F12 menu\n	F7 자동 맞춤 F8 배경 F9 재계산 F10 그래프 F11 저장 F12 메뉴
-msg.phrase	SHIFT+F1 about  SHIFT+F2 row height  SHIFT+F3 column width\n	SHIFT+F1 약 SHIFT+F2 행 높이 SHIFT+F3 열 너비
-msg.phrase	SHIFT+F4 select all  SHIFT+F10 graph range  SHIFT+F11 save as\n	SHIFT+F4 모든 SHIFT+F10 그래프 범위 선택 SHIFT+F11 다른 이름으로 저장
-msg.phrase	CTRL+F1 new  CTRL+F2 open  CTRL+F3 save  CTRL+F4 save as\n	CTRL+F1 새로 만들기 CTRL+F2 열기 CTRL+F3 저장 CTRL+F4 다른 이름으로 저장
-msg.phrase	CTRL+F5 export CSV  CTRL+F6 export ODS  ALT+F12 quit\n	CTRL+F5 CSV 내보내기 CTRL+F6 ODS 내보내기 ALT+F12 종료
-msg.phrase	Bottom 2 lines: function keys; [SHIFT]/[CTRL]/[ALT] like the filer\n	하단 2줄: 기능 키; 파일러와 마찬가지로 [SHIFT]/[CTRL]/[ALT]
-msg.phrase	CTRL+S save  CTRL+O open  CTRL+N new  CTRL+C/V/X copy/paste/cut\n	CTRL+S 저장 CTRL+O 열기 CTRL+N 새로 만들기 CTRL+C/V/X 복사/붙여넣기/잘라내기
-msg.phrase	CTRL+G goto    /  open the menu (1 File, 2 Edit, ...)\n	Ctrl+G로 이동/메뉴 열기(파일 1개, 편집 2개, ...)
-msg.phrase	Built-in functions: SUM AVERAGE MIN MAX COUNT COUNTA\n	내장 기능: SUM AVERAGE MIN MAX COUNT COUNTA
-msg.phrase	PRODUCT ABS SQRT INT ROUND MOD POWER IF AND OR NOT\n	제품 ABS SQRT INT ROUND MOD POWER IF AND NOT
-msg.phrase	IFERROR LEN LEFT RIGHT MID UPPER LOWER TRIM CONCATENATE PI\n	IFERROR LEN 왼쪽 오른쪽 중간 위 아래 트림 PI 연결
-msg.phrase	Cell refs: A1, $A$1, A1:B10.  Formulas begin with '='.\n	셀 참조: A1, $A$1, A1:B10.  수식은 '='으로 시작합니다.
-msg.phrase	Files: .ods (LibreOffice), .fods (flat XML), .csv\n	파일: .ods(LibreOffice), .fods(플랫 XML), .csv
-msg.phrase	ODS/FODS keeps formulas, widths, heights and colours.\n	ODS/FODS는 공식, 너비, 높이 및 색상을 유지합니다.
-msg.phrase	CSV keeps values and formulas (no colours/heights).\n	CSV는 값과 수식을 유지합니다(색상/높이 없음).
-msg.phrase	Graph: select a range, press F10, and choose Line/Bar/Mixed/Pie.\n	그래프: 범위를 선택하고 F10을 누른 다음 선/막대/혼합/원형을 선택합니다.
-msg.phrase	SGCALC for sgnano\n	sgnano용 SGCALC
+msg.phrase	ARROWS      move the cell cursor\n	화살표      셀 커서 이동\n
+msg.phrase	SHIFT+ARR   extend the selection (for graphs/copy)\n	SHIFT+화살표  선택 범위 넓히기 (그래프/복사용)\n
+msg.phrase	ENTER       edit the cell; in edit, commit and move down\n	ENTER       셀 편집, 편집 중에는 확정하고 아래로\n
+msg.phrase	TAB         next cell    SHIFT+TAB  previous cell\n	TAB         다음 셀    SHIFT+TAB  이전 셀\n
+msg.phrase	DELETE      clear the selected cell(s)    ESC  cancel\n	DELETE      선택한 셀 지우기    ESC  취소\n
+msg.phrase	PGUP/PGDN   move one screen    HOME/END  first/last column\n	PGUP/PGDN   한 화면 이동    HOME/END  첫/마지막 열\n
+msg.phrase	CTRL+HOME   A1    CTRL+END  last used cell\n	CTRL+HOME   A1    CTRL+END  마지막으로 사용한 셀\n
+msg.phrase	F1 help  F2 edit  F3 copy  F4 paste  F5 goto  F6 colour\n	F1 도움말  F2 편집  F3 복사  F4 붙여넣기  F5 이동  F6 색\n
+msg.phrase	F7 auto-fit  F8 background  F9 recalc  F10 graph  F11 save  F12 menu\n	F7 자동 맞춤  F8 배경  F9 재계산  F10 그래프  F11 저장  F12 메뉴\n
+msg.phrase	SHIFT+F1 about  SHIFT+F2 row height  SHIFT+F3 column width\n	SHIFT+F1 정보  SHIFT+F2 행 높이  SHIFT+F3 열 너비\n
+msg.phrase	SHIFT+F4 select all  SHIFT+F10 graph range  SHIFT+F11 save as\n	SHIFT+F4 모두 선택  SHIFT+F10 그래프 범위  SHIFT+F11 다른 이름으로 저장\n
+msg.phrase	CTRL+F1 new  CTRL+F2 open  CTRL+F3 save  CTRL+F4 save as\n	CTRL+F1 새로 만들기  CTRL+F2 열기  CTRL+F3 저장  CTRL+F4 다른 이름으로\n
+msg.phrase	CTRL+F5 export CSV  CTRL+F6 export ODS  ALT+F12 quit\n	CTRL+F5 CSV 내보내기  CTRL+F6 ODS 내보내기  ALT+F12 종료\n
+msg.phrase	Bottom 2 lines: function keys; [SHIFT]/[CTRL]/[ALT] like the filer\n	아래 2줄: 기능 키, [SHIFT]/[CTRL]/[ALT]는 파일러와 같음\n
+msg.phrase	CTRL+S save  CTRL+O open  CTRL+N new  CTRL+C/V/X copy/paste/cut\n	CTRL+S 저장  CTRL+O 열기  CTRL+N 새로  CTRL+C/V/X 복사/붙여넣기/잘라내기\n
+msg.phrase	CTRL+G goto    /  open the menu (1 File, 2 Edit, ...)\n	CTRL+G 이동    /  메뉴 열기 (1 파일, 2 편집, ...)\n
+msg.phrase	Built-in functions: SUM AVERAGE MIN MAX COUNT COUNTA\n	내장 함수: SUM AVERAGE MIN MAX COUNT COUNTA\n
+msg.phrase	PRODUCT ABS SQRT INT ROUND MOD POWER IF AND OR NOT\n	PRODUCT ABS SQRT INT ROUND MOD POWER IF AND OR NOT\n
+msg.phrase	IFERROR LEN LEFT RIGHT MID UPPER LOWER TRIM CONCATENATE PI\n	IFERROR LEN LEFT RIGHT MID UPPER LOWER TRIM CONCATENATE PI\n
+msg.phrase	Cell refs: A1, $A$1, A1:B10.  Formulas begin with '='.\n	셀 참조: A1, $A$1, A1:B10.  수식은 '='로 시작합니다.\n
+msg.phrase	Files: .ods (LibreOffice), .fods (flat XML), .csv\n	파일: .ods (LibreOffice), .fods (단일 XML), .csv\n
+msg.phrase	ODS/FODS keeps formulas, widths, heights and colours.\n	ODS/FODS는 수식, 너비, 높이, 색을 보존합니다.\n
+msg.phrase	CSV keeps values and formulas (no colours/heights).\n	CSV는 값과 수식만 보존합니다 (색/높이 없음).\n
+msg.phrase	Graph: select a range, press F10, and choose Line/Bar/Mixed/Pie.\n	그래프: 범위를 선택하고 F10을 눌러 꺾은선/막대/혼합/원형을 고릅니다.\n
+msg.phrase	SGCALC for sgnano\n	SGCALC for sgnano\n
 msg.phrase	Version 	버전
-msg.phrase	A Lotus 1-2-3 style spreadsheet as an SGX program.\n\n	SGX 프로그램인 Lotus 1-2-3 스타일 스프레드시트입니다.
+msg.phrase	A Lotus 1-2-3 style spreadsheet as an SGX program.\n\n	SGX 프로그램으로 만든 Lotus 1-2-3 스타일의 스프레드시트.\n\n
 msg.phrase	SGX ABI %u.%u\n	SGX ABI %u.%u
-msg.phrase	Screen mode 3: text + CLUT8 FB (lowres disabled)\n	화면 모드 3: 텍스트 + CLUT8 FB(저해상도 비활성화)
+msg.phrase	Screen mode 3: text + CLUT8 FB (lowres disabled)\n	화면 모드 3: 텍스트 + CLUT8 FB (저해상도 면 없음)\n
 msg.phrase	Sheet: %d rows x %d columns\n	시트: %d행 x %d열
-msg.phrase	Formats: .ods / .fods (LibreOffice), .csv\n\n	형식: .ods / .fods(LibreOffice), .csv
-msg.phrase	The grid is drawn on the text plane.\n	그리드는 텍스트 평면에 그려집니다.
-msg.phrase	Charts and the 640x480 background use the FB.\n\n	차트와 640x480 배경은 FB를 사용합니다.
-msg.phrase	%d %s	%d%s
-msg.phrase	Cannot store the cell (%d).	셀(%d)을 저장할 수 없습니다.
-msg.phrase	Copied %d x %d cells	%d x %d개 셀을 복사했습니다.
+msg.phrase	Formats: .ods / .fods (LibreOffice), .csv\n\n	형식: .ods / .fods (LibreOffice), .csv\n\n
+msg.phrase	The grid is drawn on the text plane.\n	격자는 텍스트 면에 그립니다.\n
+msg.phrase	Charts and the 640x480 background use the FB.\n\n	차트와 640x480 배경은 FB를 사용합니다.\n\n
+msg.phrase	%d %s	%d %s
+msg.phrase	Cannot store the cell (%d).	셀을 저장할 수 없습니다 (%d).
+msg.phrase	Copied %d x %d cells	%d x %d 셀 복사됨
 msg.phrase	Cleared %s	%s 삭제됨
 msg.phrase	'%s' is not a cell reference.	'%s'은(는) 셀 참조가 아닙니다.
 msg.phrase	%d	%d
@@ -972,133 +968,133 @@ msg.phrase	Column width = %d	열 너비 = %d
 msg.phrase	Row height = %d	행 높이 = %d
 msg.phrase	Auto fit: %d column(s), %d row(s)	자동 맞춤: 열 %d개, 행 %d개
 msg.phrase	%2d	%2d
-msg.phrase	Cannot apply the colour (%d).	색상(%d)을 적용할 수 없습니다.
+msg.phrase	Cannot apply the colour (%d).	색을 적용할 수 없습니다 (%d).
 msg.phrase	%s colour = %d	%s 색상 = %d
-msg.phrase	Not a valid range.\nUse a range such as A1:C10.	유효한 범위가 아닙니다.\nA1:C10과 같은 범위를 사용합니다.
+msg.phrase	Not a valid range.\nUse a range such as A1:C10.	올바른 범위가 아닙니다.\nA1:C10 같은 범위를 입력하세요.
 msg.phrase	Graph range %s	그래프 범위 %s
 msg.phrase	Graph: %s	그래프: %s
-msg.phrase	SGCALC: cannot set screen mode 3: %s\n	SGCALC: 화면 모드 3을 설정할 수 없습니다: %s
+msg.phrase	SGCALC: cannot set screen mode 3: %s\n	SGCALC: 화면 모드 3으로 바꿀 수 없습니다: %s\n
 msg.phrase	%.2g	%.2g
 msg.phrase	%.6g	%.6g
-msg.phrase	%s  %.0f%%	%s %.0f%%
-msg.phrase	GRAPH  %s  %s	그래프 %s %s
+msg.phrase	%s  %.0f%%	%s  %.0f%%
+msg.phrase	GRAPH  %s  %s	그래프  %s  %s
 msg.phrase	%s%s	%s%s
 msg.phrase	%s/%s	%s/%s
 msg.phrase	%.*s	%.*s
 msg.phrase	%.*s/	%.*s/
-msg.phrase	Cannot read %s\n%s	%s을(를) 읽을 수 없습니다.\n%s
+msg.phrase	Cannot read %s\n%s	%s을(를) 읽을 수 없습니다\n%s
 msg.phrase	Folder: %s	폴더: %s
-msg.phrase	[DIR] %s	[디렉터리] %s
+msg.phrase	[DIR] %s	[DIR] %s
 msg.phrase	      %s	      %s
 msg.phrase	%lu.%luM	%lu.%luM
 msg.phrase	%luK	%luK
 msg.phrase	%luB	%luB
-msg.phrase	BOOK1%s	예약1%s
+msg.phrase	BOOK1%s	BOOK1%s
 msg.phrase	%c:/	%c:/
-msg.phrase	Unsupported extension.\nUse .csv, .ods or .fods.	지원되지 않는 확장입니다.\n.csv, .ods 또는 .fods를 사용하세요.
-msg.phrase	%s already exists.\nOverwrite it?	%s이(가) 이미 존재합니다.\n덮어쓰시겠습니까?
-msg.phrase	%s may not be writable.\nTry anyway?	%s에 쓰기가 불가능할 수 있습니다.\n그래도 시도해 보시겠습니까?
-msg.phrase	Unknown file type for %s	%s에 대한 알 수 없는 파일 형식
-msg.phrase	Unsupported file type.\nUse .csv, .ods or .fods.	지원되지 않는 파일 형식입니다.\n.csv, .ods 또는 .fods를 사용하세요.
+msg.phrase	Unsupported extension.\nUse .csv, .ods or .fods.	지원하지 않는 확장자입니다.\n.csv, .ods, .fods를 사용하세요.
+msg.phrase	%s already exists.\nOverwrite it?	%s이(가) 이미 있습니다.\n덮어쓸까요?
+msg.phrase	%s may not be writable.\nTry anyway?	%s에 쓸 수 없을지도 모릅니다.\n그래도 시도할까요?
+msg.phrase	Unknown file type for %s	알 수 없는 파일 종류: %s
+msg.phrase	Unsupported file type.\nUse .csv, .ods or .fods.	지원하지 않는 파일 종류입니다.\n.csv, .ods, .fods를 사용하세요.
 msg.phrase	Cannot open %s\n%s	%s을(를) 열 수 없습니다\n%s
 msg.phrase	%s is a folder.	%s은(는) 폴더입니다.
-msg.phrase	Cannot import %s\n%s	%s을(를) 가져올 수 없습니다.\n%s
-msg.phrase	Loaded %s	%s 로드됨
-msg.phrase	Cannot build the %s file.	%s 파일을 빌드할 수 없습니다.
-msg.phrase	Cannot write %s\n%s	%s을(를) 쓸 수 없습니다.\n%s
+msg.phrase	Cannot import %s\n%s	%s을(를) 가져올 수 없습니다\n%s
+msg.phrase	Loaded %s	%s 불러옴
+msg.phrase	Cannot build the %s file.	%s 파일을 만들 수 없습니다.
+msg.phrase	Cannot write %s\n%s	%s을(를) 쓸 수 없습니다\n%s
 msg.phrase	%s %s	%s %s
-msg.phrase	unsupported version %u	지원되지 않는 버전 %u
+msg.phrase	unsupported version %u	지원하지 않는 버전 (%u)
 msg.phrase	%d:%d:%d:%d:%d:%d	%d:%d:%d:%d:%d:%d
 msg.phrase	Octave %d	옥타브 %d
-msg.phrase	Note %s	메모 %s
+msg.phrase	Note %s	음 %s
 msg.phrase	Instrument %d	악기 %d
-msg.phrase	Volume %s	볼륨 %s
+msg.phrase	Volume %s	음량 %s
 msg.phrase	Effect %c	효과 %c
-msg.phrase	Parameter %s	매개변수 %s
+msg.phrase	Parameter %s	파라미터 %s
 msg.phrase	Pattern %s	패턴 %s
 msg.phrase	Playing pattern %s	패턴 %s 재생 중
 msg.phrase	SAVE ERROR: %s	저장 오류: %s
-msg.phrase	Saved %s	저장됨 %s
-msg.phrase	LOAD ERROR: %s	로드 오류: %s
+msg.phrase	Saved %s	%s 저장됨
+msg.phrase	LOAD ERROR: %s	불러오기 오류: %s
 msg.phrase	BPM %d	BPM %d
 msg.phrase	Speed %d	속도 %d
-msg.phrase	Preview %s	미리보기 %s
-msg.phrase	Instrument %s %s	기기 %s %s
-msg.phrase	Overwrite %s? (Y/N)	%s을(를) 덮어쓰시겠습니까? (예/아니요)
-msg.phrase	 | BPM %s SPD %s 	| BPM %s SPD %s
-msg.phrase	 SGNO TRACKER 1.0 | 	SGNO 추적기 1.0 |
-msg.phrase	FILE 	파일
-msg.phrase	 PAT %s	PAT %s
-msg.phrase	 ORD %d/%d	ORD %d/%d
-msg.phrase	 INS %s 	INS %s
-msg.phrase	 OCT %d	10월 %d
-msg.phrase	 EDIT %s	편집 %s
-msg.phrase	ON 	에
-msg.phrase	 FOL %s	FOL %s
-msg.phrase	TRACK %d	%d 추적
+msg.phrase	Preview %s	미리 듣기 %s
+msg.phrase	Instrument %s %s	악기 %s %s
+msg.phrase	Overwrite %s? (Y/N)	%s을(를) 덮어쓸까요? (Y/N)
+msg.phrase	 | BPM %s SPD %s 	 | BPM %s SPD %s 
+msg.phrase	 SGNO TRACKER 1.0 | 	 SGNO TRACKER 1.0 | 
+msg.phrase	FILE 	FILE 
+msg.phrase	 PAT %s	 PAT %s
+msg.phrase	 ORD %d/%d	 ORD %d/%d
+msg.phrase	 INS %s 	 INS %s 
+msg.phrase	 OCT %d	 OCT %d
+msg.phrase	 EDIT %s	 EDIT %s
+msg.phrase	ON 	ON 
+msg.phrase	 FOL %s	 FOL %s
+msg.phrase	TRACK %d	TRACK %d
 msg.phrase	%c%s	%c%s
 msg.phrase	%s %s %s %s	%s %s %s %s
-msg.phrase	%s 	%s
+msg.phrase	%s 	%s 
 msg.phrase	%d %s %s	%d %s %s
-msg.phrase	ORDER %d/%d	주문 %d/%d
-msg.phrase	PAT   %s	PAT %s
+msg.phrase	ORDER %d/%d	ORDER %d/%d
+msg.phrase	PAT   %s	PAT   %s
 msg.phrase	INS %s %s	INS %s %s
-msg.phrase	OCT %d  EDIT %s	10월 %d 편집 %s
-msg.phrase	FOLLOW %s	%s 팔로우
-msg.phrase	PLAYING  ORD %d/%d  PAT %s  ROW %s/%d  SPD %s  BPM %d  F7 STOP	ORD %d/%d PAT %s ROW %s/%d SPD %s BPM %d F7 중지 재생 중
-msg.phrase	READY  EDIT %s  OCT %d  F1 HELP  F5 PLAY  CTRL-S SAVE	준비 편집 %s OCT %d F1 도움말 F5 재생 CTRL-S 저장
-msg.phrase	 %s 	 %s
-msg.phrase	  F5          Play the song from the current order	F5 현재 순서부터 노래 재생
-msg.phrase	  F6          Play the current pattern	F6 현재 패턴 재생
-msg.phrase	  F7/Ctrl-C   Stop playback	F7/Ctrl-C 재생 중지
-msg.phrase	  Space       Play / stop	스페이스 플레이/스톱
-msg.phrase	  F4          Save as	F4 다른 이름으로 저장
-msg.phrase	  Ctrl-S      Save (asks for a name if new)	Ctrl-S 저장(새 이름인 경우 이름 요청)
-msg.phrase	  Ctrl-O      Open a song	Ctrl-O 노래 열기
-msg.phrase	  Ctrl-N      New song	Ctrl-N 새 노래
-msg.phrase	  F12         Quit (confirmation if modified)	F12 종료(수정된 경우 확인)
-msg.phrase	  [ ]         Previous / next order entry	[ ] 이전/다음 주문 입력
-msg.phrase	  { }         Insert / delete an order entry	{ } 주문 항목 삽입/삭제
-msg.phrase	  - +         Change the pattern in the entry	- + 항목의 패턴을 변경합니다.
-msg.phrase	  F11         Follow playback (turns off on manual move)	F11 재생 따르기(수동 이동 시 꺼짐)
-msg.phrase	  F1          Help; Left/Right changes page	F1 도움말; 왼쪽/오른쪽 변경 페이지
-msg.phrase	  F8          Toggle edit mode	F8 편집 모드 전환
-msg.phrase	  Arrows      Move the cursor	화살표 커서 이동
-msg.phrase	  PgUp/PgDn   Jump 16 rows	PgUp/PgDn 점프 16행
-msg.phrase	  Home/End    First / last row	홈/첫 번째/마지막 행 끝
-msg.phrase	  F9/F10      Octave down / up	F9/F10 옥타브 아래로/위로
-msg.phrase	  Z S X D C V G B H N J M      lower piano row	Z S X D C V G B H N J M 하단 피아노 행
-msg.phrase	  Q 2 W 3 E R 5 T 6 Y 7 U      upper piano row	Q 2 W 3 E R 5 T 6 Y 7 U 피아노 윗줄
-msg.phrase	  1           Note off	메모 1개 꺼짐
-msg.phrase	  0 / Del     0 clears note/inst/fx; Del clears any	0 / Del 0은 note/inst/fx를 지웁니다. Del은 모든 것을 지웁니다.
-msg.phrase	  Ctrl-Z      Undo the last pattern/order edit	Ctrl-Z 마지막 패턴/순서 편집 취소
-msg.phrase	  Axy   Volume slide: up x, down y	Axy 볼륨 슬라이드: x 위로, y 아래로
-msg.phrase	  Cxx   Note cut after xx ticks	Cxx 노트는 xx 틱 후에 잘립니다.
-msg.phrase	  Dxx   Set volume (00..7F)	Dxx 설정 볼륨 (00..7F)
-msg.phrase	  Fxx   Speed if xx < 20, otherwise BPM	xx < 20인 경우 Fxx 속도, 그렇지 않은 경우 BPM
-msg.phrase	  Hxy   Arpeggio x, y semitones	Hxy 아르페지오 x, y 반음
-msg.phrase	  Pxx   Pitch slide up	Pxx 피치 슬라이드 업
-msg.phrase	  Qxx   Pitch slide down	Qxx 피치 슬라이드 다운
-msg.phrase	  F2 song settings, F3 instrument list	F2 곡 설정, F3 악기 목록
-msg.phrase	HELP %d/2	도와주세요 %d/2
-msg.phrase	  Title	제목
+msg.phrase	OCT %d  EDIT %s	OCT %d  EDIT %s
+msg.phrase	FOLLOW %s	FOLLOW %s
+msg.phrase	PLAYING  ORD %d/%d  PAT %s  ROW %s/%d  SPD %s  BPM %d  F7 STOP	PLAYING  ORD %d/%d  PAT %s  ROW %s/%d  SPD %s  BPM %d  F7 STOP
+msg.phrase	READY  EDIT %s  OCT %d  F1 HELP  F5 PLAY  CTRL-S SAVE	READY  EDIT %s  OCT %d  F1 HELP  F5 PLAY  CTRL-S SAVE
+msg.phrase	 %s 	 %s 
+msg.phrase	  F5          Play the song from the current order	  F5          현재 오더부터 곡 재생
+msg.phrase	  F6          Play the current pattern	  F6          현재 패턴 재생
+msg.phrase	  F7/Ctrl-C   Stop playback	  F7/Ctrl-C   재생 정지
+msg.phrase	  Space       Play / stop	  Space       재생 / 정지
+msg.phrase	  F4          Save as	  F4          다른 이름으로 저장
+msg.phrase	  Ctrl-S      Save (asks for a name if new)	  Ctrl-S      저장 (새 곡이면 이름을 물음)
+msg.phrase	  Ctrl-O      Open a song	  Ctrl-O      곡 열기
+msg.phrase	  Ctrl-N      New song	  Ctrl-N      새 곡
+msg.phrase	  F12         Quit (confirmation if modified)	  F12         종료 (변경이 있으면 확인)
+msg.phrase	  [ ]         Previous / next order entry	  [ ]         이전 / 다음 오더
+msg.phrase	  { }         Insert / delete an order entry	  { }         오더 넣기 / 지우기
+msg.phrase	  - +         Change the pattern in the entry	  - +         오더의 패턴 바꾸기
+msg.phrase	  F11         Follow playback (turns off on manual move)	  F11         재생 따라가기 (직접 움직이면 꺼짐)
+msg.phrase	  F1          Help; Left/Right changes page	  F1          도움말, 왼쪽/오른쪽으로 페이지 넘김
+msg.phrase	  F8          Toggle edit mode	  F8          편집 모드 켜기 / 끄기
+msg.phrase	  Arrows      Move the cursor	  화살표      커서 이동
+msg.phrase	  PgUp/PgDn   Jump 16 rows	  PgUp/PgDn   16행 이동
+msg.phrase	  Home/End    First / last row	  Home/End    첫 / 마지막 행
+msg.phrase	  F9/F10      Octave down / up	  F9/F10      옥타브 내림 / 올림
+msg.phrase	  Z S X D C V G B H N J M      lower piano row	  Z S X D C V G B H N J M      아래 건반 줄
+msg.phrase	  Q 2 W 3 E R 5 T 6 Y 7 U      upper piano row	  Q 2 W 3 E R 5 T 6 Y 7 U      위 건반 줄
+msg.phrase	  1           Note off	  1           노트 오프
+msg.phrase	  0 / Del     0 clears note/inst/fx; Del clears any	  0 / Del     0은 음/악기/효과 지움, Del은 칸 지움
+msg.phrase	  Ctrl-Z      Undo the last pattern/order edit	  Ctrl-Z      마지막 패턴/오더 편집 되돌리기
+msg.phrase	  Axy   Volume slide: up x, down y	  Axy   볼륨 슬라이드: 위로 x, 아래로 y
+msg.phrase	  Cxx   Note cut after xx ticks	  Cxx   xx 틱 뒤에 음 끊기
+msg.phrase	  Dxx   Set volume (00..7F)	  Dxx   음량 설정 (00..7F)
+msg.phrase	  Fxx   Speed if xx < 20, otherwise BPM	  Fxx   xx < 20이면 속도, 아니면 BPM
+msg.phrase	  Hxy   Arpeggio x, y semitones	  Hxy   아르페지오 x, y 반음
+msg.phrase	  Pxx   Pitch slide up	  Pxx   음높이 위로 슬라이드
+msg.phrase	  Qxx   Pitch slide down	  Qxx   음높이 아래로 슬라이드
+msg.phrase	  F2 song settings, F3 instrument list	  F2 곡 설정, F3 악기 목록
+msg.phrase	HELP %d/2	HELP %d/2
+msg.phrase	  Title	  제목
 msg.phrase	  [%s_]	  [%s_]
-msg.phrase	  BPM   : %d     (left/right -1/+1, -/+ -5/+5)	BPM: %d(왼쪽/오른쪽 -1/+1, -/+ -5/+5)
-msg.phrase	  Speed : %d ticks/row	속도: %d틱/행
-msg.phrase	  Rows  : %d (fixed)	행: %d(고정)
-msg.phrase	  Order : %d entries	주문: %d개 항목
-msg.phrase	  Patterns in use : %d	사용 중인 패턴: %d
-msg.phrase	 #  NAME       WAVE       A   D   S   R  VOL	# 이름 WAVE A D S R VOL
-msg.phrase	 %c %d  %-9s %-9s %3d %3d %3d %3d %4d	%c %d %-9s %-9s %3d %3d %3d %3d %4d
-msg.phrase	Current instrument: %s %s	현재 기기: %s %s
+msg.phrase	  BPM   : %d     (left/right -1/+1, -/+ -5/+5)	  BPM   : %d     (왼쪽/오른쪽 -1/+1, -/+ -5/+5)
+msg.phrase	  Speed : %d ticks/row	  속도  : 행당 %d 틱
+msg.phrase	  Rows  : %d (fixed)	  행 수 : %d (고정)
+msg.phrase	  Order : %d entries	  오더  : %d개
+msg.phrase	  Patterns in use : %d	  사용 중인 패턴 : %d
+msg.phrase	 #  NAME       WAVE       A   D   S   R  VOL	 #  NAME       WAVE       A   D   S   R  VOL
+msg.phrase	 %c %d  %-9s %-9s %3d %3d %3d %3d %4d	 %c %d  %-9s %-9s %3d %3d %3d %3d %4d
+msg.phrase	Current instrument: %s %s	현재 악기: %s %s
 msg.phrase	  %s	  %s
-msg.phrase	DIR  %s	디렉터리 %s
-msg.phrase	 %c %s%s	%c %s%s
+msg.phrase	DIR  %s	DIR  %s
+msg.phrase	 %c %s%s	 %c %s%s
 msg.phrase	Files: %d	파일: %d
 msg.phrase	%02d	%02d
 msg.phrase	%03d	%03d
 msg.phrase	%02X	%02X
-msg.phrase	SGNO TRACKER: incompatible SGX ABI\n	SGNO 추적기: 호환되지 않는 SGX ABI
+msg.phrase	SGNO TRACKER: incompatible SGX ABI\n	SGNO TRACKER: SGX ABI가 맞지 않습니다\n
 msg.phrase	S: check: wait -- a file is being read or written	S: 검사: 파일 읽기·쓰기가 끝날 때까지 기다려 주세요
 msg.phrase	S: check: the drive is busy or not ready	S: 검사: S: 가 사용 중이거나 준비되지 않았습니다
 msg.phrase	nothing for this item (ContextMenu.cfg)	이 항목에는 메뉴가 없습니다 (ContextMenu.cfg)
@@ -1107,45 +1103,45 @@ msg.phrase	unknown action in ContextMenu.cfg	ContextMenu.cfg의 알 수 없는 �
 msg.prefix	menu	메뉴
 msg.phrase	5 Macro	5 매크로
 msg.phrase	6 Help	6 도움말
-msg.phrase	Run current	현재 실행
-msg.phrase	Run the macro at the cursor (#! header cell and the cells below it)	커서의 매크로 실행 (#! 머리 셀과 그 아래 셀)
+msg.phrase	Run current	현재 매크로 실행
+msg.phrase	Run the macro at the cursor (#! header cell and the cells below it)	커서 위치의 매크로 실행 (#! 머리 셀과 그 아래 셀)
 msg.phrase	Run selection	선택 영역 실행
 msg.phrase	Run the selected cells as one macro (top-left cell is the #! header)	선택한 셀을 하나의 매크로로 실행 (왼쪽 위 셀이 #! 머리)
 msg.phrase	Run all	모두 실행
-msg.phrase	Run every macro in the sheet, top-left to bottom-right	시트의 모든 매크로를 왼쪽 위부터 오른쪽 아래로 실행
+msg.phrase	Run every macro in the sheet, top-left to bottom-right	시트의 모든 매크로를 왼쪽 위부터 오른쪽 아래까지 실행
 msg.phrase	Last error	마지막 오류
-msg.phrase	Show the last macro error	마지막 매크로 오류 표시
+msg.phrase	Show the last macro error	마지막 매크로 오류 보기
 msg.phrase	Macro	매크로
 msg.phrase	Macro: run #!ruby / #!python / #!basic cells	매크로: #!ruby / #!python / #!basic 셀 실행
 msg.phrase	Edit the cell (F2)	셀 편집 (F2)
-msg.phrase	Fit widths/heights to the contents	너비/높이를 내용에 맞춤
+msg.phrase	Fit widths/heights to the contents	내용에 맞게 너비/높이 조정
 msg.phrase	Last macro error	마지막 매크로 오류
 msg.phrase	No macro error.	매크로 오류가 없습니다.
 msg.phrase	IME on	IME 켜짐
 msg.phrase	IME off	IME 꺼짐
 msg.phrase	Macro: %s %s ...	매크로: %s %s ...
-msg.phrase	%s: this firmware cannot run macros (SGX ABI 5.10 or later)	%s: 이 펌웨어는 매크로를 실행할 수 없습니다 (SGX ABI 5.10 이상)
+msg.phrase	%s: this firmware cannot run macros (SGX ABI 5.10 or later)	%s: 이 펌웨어는 매크로를 실행할 수 없습니다 (SGX ABI 5.10 이상 필요)
 msg.phrase	Macro error: %s	매크로 오류: %s
 msg.phrase	Macro: %s done	매크로: %s 완료
-msg.phrase	a macro is already running	매크로가 이미 실행 중입니다
+msg.phrase	a macro is already running	이미 매크로가 실행 중입니다
 msg.phrase	this language is not available	이 언어는 사용할 수 없습니다
 msg.phrase	not enough memory	메모리가 부족합니다
 msg.phrase	the macro stopped with an error	매크로가 오류로 멈췄습니다
 msg.phrase	Macro error %s: %s	매크로 오류 %s: %s
 msg.phrase	Macro: not enough memory	매크로: 메모리가 부족합니다
-msg.phrase	Macro: the cursor is not on a macro (a #!ruby / #!python / #!basic cell or the cells below it)	매크로: 커서가 매크로 위에 없습니다 (#!ruby / #!python / #!basic 셀 또는 그 아래 셀)
+msg.phrase	Macro: the cursor is not on a macro (a #!ruby / #!python / #!basic cell or the cells below it)	매크로: 커서가 매크로 위에 있지 않습니다 (#!ruby / #!python / #!basic 셀이나 그 아래 셀)
 msg.phrase	Macro: no macro in the sheet	매크로: 시트에 매크로가 없습니다
 msg.phrase	Run all macros	모든 매크로 실행
-msg.phrase	Macros: %d. Run them all, top-left to bottom-right? Changes cannot be undone.	매크로 %d개. 왼쪽 위부터 오른쪽 아래로 모두 실행할까요? 되돌릴 수 없습니다.
-msg.phrase	Macro: %d of %d done	매크로: %d개 완료 (전체 %d개)
+msg.phrase	Macros: %d. Run them all, top-left to bottom-right? Changes cannot be undone.	매크로: %d개. 왼쪽 위부터 오른쪽 아래까지 모두 실행할까요? 변경은 되돌릴 수 없습니다.
+msg.phrase	Macro: %d of %d done	매크로: %d / %d 완료
 msg.phrase	Cleared the cell	셀을 지웠습니다
 msg.phrase	Cleared the selection	선택 영역을 지웠습니다
-msg.phrase	Background colour = %d	배경색 = %d
-msg.phrase	Text colour = %d	글자색 = %d
+msg.phrase	Background colour = %d	배경 색 = %d
+msg.phrase	Text colour = %d	글자 색 = %d
 msg.phrase	Graph: line	그래프: 꺾은선
 msg.phrase	Graph: bar	그래프: 막대
 msg.phrase	Graph: mixed	그래프: 혼합
-msg.phrase	Graph: pie	그래프: 원
+msg.phrase	Graph: pie	그래프: 원형
 msg.phrase	Exported %s	%s 내보냄
 msg.phrase	choose a file or folder	파일이나 폴더를 고르세요
 msg.phrase	this drive cannot be written	이 드라이브에는 쓸 수 없습니다
@@ -1159,3 +1155,32 @@ msg.phrase	32 items at most (mark fewer, or put them in a folder)	32 개까지�
 msg.prefix	archive	압축 파일
 msg.prefix	compress	압축
 msg.prefix	render	WAV 내보내기
+ui	USB・時計・設定	USB, clock, settings
+ui	0.001 秒未満	0.001 초 미만
+ui	%s 秒	%s 초
+ui	コンパイル %s  実行 %s	컴파일 %s  실행 %s
+ui	コンパイル %s	컴파일 %s
+ui	実行 %s	실행 %s
+msg.phrase	Version %s	버전 %s
+msg.phrase	1 Help	1 도움말
+msg.phrase	3 Copy	3 복사
+msg.phrase	4 Paste	4 붙이기
+msg.phrase	5 Goto	5 이동
+msg.phrase	6 Colour	6 글자색
+msg.phrase	7 Fit	7 맞춤
+msg.phrase	8 Backgr	8 배경
+msg.phrase	9 Recalc	9 재계산
+msg.phrase	10 Graph	10 도표
+msg.phrase	11 Save	11 저장
+msg.phrase	12 Menu	12 메뉴
+msg.phrase	1 About	1 정보
+msg.phrase	2 Height	2 행높이
+msg.phrase	3 Width	3 열너비
+msg.phrase	4 SelAll	4 전체
+msg.phrase	10 Range	10 범위
+msg.phrase	11 Name	11 이름
+msg.phrase	1 New	1 새로
+msg.phrase	2 Open	2 열기
+msg.phrase	4 SaveAs	4 새이름
+msg.phrase	12 Quit	12 종료
+msg.phrase	3 Save	3 저장

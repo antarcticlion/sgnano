@@ -20,14 +20,14 @@ ui	属性を変える	Muuta määritteitä
 ui	エディタで開く	avaa editorissa
 ui	テキスト表示（Shift+V / Ctrl+Alt+F7 は 16 進）	Näytä tekstinä (Shift+V / Ctrl+Alt+F7 hex)
 ui	ドライブの情報	Aseman tiedot
-ui	フォルダを作る / 新しいファイル	Uusi kansio / uusi tiedosto
+ui	フォルダを作る（Shift+F5） / 新しいファイル（Ctrl+F1）	Uusi kansio (Shift+F5) / uusi tiedosto (Ctrl+F1)
 ui	シェル sgsh / 媒体を取り出す	Shell sgsh / poista tallenne
 ui	読み直す	Lataa uudelleen
-ui	見えている画面を PNG で保存	Tallenna näyttö PNG-kuvana
+ui	見えている画面を PNG で保存（Alt+F5 も同じ）	Tallenna näyttö PNG-kuvana (= Alt+F5)
 ui	窓を閉じる・選択を解く（サブフォルダでは上位へ）	Sulje ikkuna / poista valinta (alikansiossa: ylös)
-ui	ファイルの操作（FD と同じ。印・範囲・カーソルの順に選ぶ）	Tiedostotoiminnot (kuten FD: merkinnät, sitten alue, sitten kohdistin)
-ui	コピー: 行き先はドライブとフォルダの木から。ESC で止める	Kopioi: valitse kohde asemien ja kansioiden puusta. ESC pysäyttää
-ui	削除: y で確かめる。印・範囲をまとめて。フォルダは中身ごと	Poista: vahvista y:llä. Merkinnät ja alueet yhdessä. Kansiot sisältöineen
+ui	ファイルの操作（FD と同じ。印・範囲・カーソルの順）	Tiedostotoiminnot (kuten FD: merkinnät, sitten alue, sitten kohdistin)
+ui	コピー: 行き先は木から選ぶ。ESC で止める	Kopioi: valitse kohde asemien ja kansioiden puusta. ESC pysäyttää
+ui	削除: y で確かめる。印・範囲をまとめて	Poista: vahvista y:llä. Merkinnät ja alueet yhdessä. Kansiot sisältöineen
 ui	フォルダを削除（中身ごと）	Poista kansio (sisältöineen)
 ui	名前を変える（今の名前を直して Enter）	Vaihda nimi (korjaa nykyinen nimi ja paina Enter)
 ui	属性: R 読み出し専用・H 隠し・S システム・A アーカイブ	Määritteet: R vain luku, H piilotettu, S järjestelmä, A arkisto
@@ -49,22 +49,19 @@ ui	画面（Alt+F。FD の F キーとぶつからない）	Näyttö (Alt+F, ei 
 ui	FB（絵）/ テキスト面を出す・隠す	FB (kuva)/Näytä/piilota tekstipuoli
 ui	FB の表示ページ（0〜3）	FB:n näyttösivu (0-3)
 ui	FB を 0 で消す / 明るさを 1/2 に（RGB555）	Tyhjennä FB nollaan / puolita kirkkaus (RGB555)
-ui	USB のエンドポイントと LAN の状態	USB-päätepiste ja LAN-tila
+ui	USB のエンドポイントと LAN（U: 10 秒に 1 度）	USB-päätepiste ja LAN-tila
 ui	FB の表示ページを消す / 明るさを 1/2 に	Tyhjennä FB:n näyttösivu / puolita kirkkaus
 ui	テキストの属性の見本	Esimerkkitekstiattribuutit
 ui	モニタの EDID（起動時に読んだもの）	Monitorin EDID (lue käynnistettäessä)
 ui	フォント ROM のライセンスとクレジット	Font ROM -lisenssit ja hyvitykset
 ui	設定（表示の言語・IME・キーボードロケール）	Asetukset (näytön kieli, IME, näppäimistön kieli)
-ui	時計（NTP で合わせた日本時間。s ですぐ合わせる）	Kello (Japanin aika asetettu NTP:llä. Aseta heti s:llä)
+ui	時計（NTP で合わせた日本時間。s は 3 分に 1 度）	Kello (Japanin aika asetettu NTP:llä. Aseta heti s:llä)
 ui	表計算（SGCALC）を開く	Avaa laskentataulukko (SGCALC)
 ui	S: ドライブのエラー検査（誤りがあれば直すか聞く）	Tarkista S: (kysyy ennen korjausta)
 ui	トラッカー（TRACKER）を開く	Avaa TRACKER
-ui	再起動（確かめの窓が出る）	Käynnistä uudelleen (vahvistusikkuna tulee näkyviin)
+ui	再起動（確かめの窓）。Ctrl+Alt+Del も同じ	Käynnistä uudelleen (kysyy ensin) = Ctrl+Alt+Del
 ui	ADC のステレオ入力（GP40 / 41）を鳴らす	Toistaa ADC-stereotuloa (GP40/41)
 ui	VGM/VGZ を 96kHz/24bit WAV に書き出す	Vie VGM/VGZ WAV-muotoon 96 kHz / 24 bit
-ui	このヘルプ	Tämä apu
-ui	ページを替える	vaihda sivua
-ui	閉じる	Sulje
 ui	テキスト・16 進のビュアー（less 風）	Teksti-/heksaanikatseluohjelma (vähemmän tyyliä)
 ui	1 行	One line
 ui	1 ページ	One page
@@ -82,10 +79,9 @@ ui	IME の言語（日本語 / English / 한국어）	IME-kieli (japani / englan
 ui	ひらがな / カタカナで確定	Vahvistettu Hiragana/Katakana
 ui	エディタのヘルプ	Toimittajan apua
 ui	シェル	kuori
-ui	シェル（csh のサブセット。exit / Ctrl-D で戻る、help で一覧）	Shell (csh:n osajoukko. exit / Ctrl-D palaa, help luettelee komennot)
+ui	シェル（csh の一部。exit / Ctrl-D で戻る、help で一覧）	Shell (csh:n osajoukko. exit / Ctrl-D palaa, help luettelee komennot)
 ui	一覧と移動	Listaa ja siirrä
 ui	ファイルの操作	Tiedostotoiminnot
-ui	画面と機器	näyttö ja varusteet
 ui	ビュアーとエディタ	katsoja ja editori
 ui	ヘルプ  %u / %u  %s	Apua %u / %u %s
 ui	Left Right: ページを替える    F1 / ESC: 閉じる	Vasen Oikea: Vaihda sivua F1 / ESC: Sulje
@@ -146,9 +142,9 @@ ui	10 EP表	10 EP
 ui	11 時計	11 Clock
 ui	12 表計	12 CALC
 ui	1 属性	1 Määr
-ui	2 情報	2 Tiedot
+ui	2Drv情報	2 Tiedot
 ui	3 移動	3 Siirrä
-ui	5 作成	5 Kansio
+ui	5 ﾌｫﾙﾀﾞ	5 Kansio
 ui	6 シェル	6 Shell
 ui	8 編集	8 Muokk
 ui	9 表示	9 Näytä
@@ -486,9 +482,9 @@ msg.phrase	the sound is not open	ääni ei ole auki
 msg.phrase	no such channel	ei sellaista kanavaa
 msg.phrase	the sequencer is busy	sekvensseri on varattu
 msg.phrase	not enough PSRAM for the song	ei riitä PSRAM kappaleeseen
-msg.phrase	not a standard MIDI file (no MThd)	ei tavallinen MIDI-tiedosto (ei MThd:tä)
-msg.phrase	no tracks	ei jälkiä
-msg.phrase	a track is broken (MTrk)	raita on rikki (MTrk)
+msg.phrase	not a standard MIDI file (no MThd)	ei vakiomuotoinen MIDI-tiedosto (MThd puuttuu)
+msg.phrase	no tracks	ei raitoja
+msg.phrase	a track is broken (MTrk)	raita on vioittunut (MTrk)
 msg.phrase	SMPTE time division is not supported	SMPTE-aikajakoa ei tueta
 msg.phrase	SMF format 2 is not supported (0 and 1 only)	SMF-muotoa 2 ei tueta (vain 0 ja 1)
 msg.phrase	not a Bulk-Only drive	ei vain massakäyttöinen asema
@@ -509,7 +505,7 @@ msg.phrase	cancelled	peruutettu
 msg.phrase	could not mount	ei voinut asentaa
 msg.phrase	could not start a read	ei voinut aloittaa lukemista
 msg.phrase	could not start a write	ei voinut aloittaa kirjoittamista
-msg.phrase	is a directory	on hakemisto
+msg.phrase	is a directory	on kansio
 msg.phrase	that is a directory	se on hakemisto
 msg.phrase	no clusters	ei klustereita
 msg.phrase	no room for the cluster list	ei tilaa klusteriluettelolle
@@ -546,7 +542,7 @@ msg.phrase	Not supported on this drive	Ei tueta tässä asemassa
 msg.phrase	Invalid path	Virheellinen polku
 msg.phrase	Out of memory	Muisti loppu
 msg.phrase	No such drive	Ei sellaista ajoa
-msg.phrase	stopped	pysähtyi
+msg.phrase	stopped	pysäytetty
 msg.phrase	cancelled (not enough free space)	peruutettu (ei tarpeeksi vapaata tilaa)
 msg.phrase	could not count the free space	ei voinut laskea vapaata tilaa
 msg.phrase	the receiver cancelled	vastaanotin peruutettu
@@ -625,21 +621,21 @@ msg.phrase	Untitled	Nimetön
 msg.phrase	%s%d	%s%d
 msg.phrase	%s%d:%s%d	%s%d:%s%d
 msg.phrase	1 File	1 Tiedosto
-msg.phrase	2 Edit	2 Muokkaa
+msg.phrase	2 Edit	2 Muokk
 msg.phrase	3 Graph	3 Kaavio
 msg.phrase	4 Sheet	4 Arkki
 msg.phrase	5 Help	5 Apua
 msg.phrase	%s	%s
 msg.phrase	%.40s%s	%.40s%s
 msg.phrase	EMPTY	TYHJÄ
-msg.phrase	NUMBER	NUMBER
+msg.phrase	NUMBER	LUKU
 msg.phrase	TEXT	TEKSTI
 msg.phrase	FORMULA	KAAVA
-msg.phrase	  [%s]   %s	  [%s] %s
-msg.phrase	EDIT  	EDIT
-msg.phrase	READY 	VALMIS
-msg.phrase	Type to enter, F2 to edit, F1 for help	Kirjoita kirjoittaaksesi, F2 muokataksesi, F1 saadaksesi apua
-msg.phrase	%4d 	%4d
+msg.phrase	  [%s]   %s	  [%s]   %s
+msg.phrase	EDIT  	MUOK.
+msg.phrase	READY 	VALM.
+msg.phrase	Type to enter, F2 to edit, F1 for help	Kirjoita syöttääksesi, F2 muokkaa, F1 ohje
+msg.phrase	%4d 	%4d 
 msg.phrase	5 CSV	5 CSV
 msg.phrase	6 ODS	6 ODS
 msg.phrase	[SHIFT]	[SHIFT]
@@ -649,49 +645,49 @@ msg.phrase	Ready	Valmis
 msg.phrase	%s Sum %.7g N %ld%s	%s Summa %.7g N %ld%s
 msg.phrase	SGCALC	SGCALC
 msg.phrase	Press any key	Paina mitä tahansa näppäintä
-msg.phrase	Y = yes    N = no    Esc = cancel	Y = kyllä ​​N = ei Esc = peruuta
-msg.phrase	Enter = OK    Esc = cancel    Ctrl-U = clear	Enter = OK Esc = peruuta Ctrl-U = tyhjennä
-msg.phrase	ARROWS      move the cell cursor\n	NUOLI siirtää solukohdistinta
-msg.phrase	SHIFT+ARR   extend the selection (for graphs/copy)\n	SHIFT+ARR laajentaa valintaa (kaavioita/kopioita varten)
-msg.phrase	ENTER       edit the cell; in edit, commit and move down\n	ENTER muokkaa solua; muokkaa, sitoudu ja siirrä alas
-msg.phrase	TAB         next cell    SHIFT+TAB  previous cell\n	SARKAIN seuraava solu VAIHTO+TAB edellinen solu
-msg.phrase	DELETE      clear the selected cell(s)    ESC  cancel\n	DELETE tyhjentää valitut solut ESC-peruuta
-msg.phrase	PGUP/PGDN   move one screen    HOME/END  first/last column\n	PGUP/PGDN siirtää yhden näytön HOME/END ensimmäinen/viimeinen sarake
-msg.phrase	CTRL+HOME   A1    CTRL+END  last used cell\n	CTRL+HOME A1 CTRL+END viimeksi käytetty solu
-msg.phrase	F1 help  F2 edit  F3 copy  F4 paste  F5 goto  F6 colour\n	F1 ohje F2 muokkaa F3 kopioi F4 liitä F5 goto F6 color
-msg.phrase	F7 auto-fit  F8 background  F9 recalc  F10 graph  F11 save  F12 menu\n	F7 sovita automaattisesti F8 tausta F9 laske uudelleen F10 kuvaaja F11 tallenna F12-valikko
-msg.phrase	SHIFT+F1 about  SHIFT+F2 row height  SHIFT+F3 column width\n	SHIFT+F1 noin SHIFT+F2 rivin korkeudesta SHIFT+F3 sarakkeen leveydestä
-msg.phrase	SHIFT+F4 select all  SHIFT+F10 graph range  SHIFT+F11 save as\n	VAIHTO+F4 valitse kaikki SHIFT+F10-kaavioalue VAIHTO+F11 tallenna nimellä
-msg.phrase	CTRL+F1 new  CTRL+F2 open  CTRL+F3 save  CTRL+F4 save as\n	CTRL+F1 uusi CTRL+F2 avaa CTRL+F3 tallenna CTRL+F4 tallenna nimellä
-msg.phrase	CTRL+F5 export CSV  CTRL+F6 export ODS  ALT+F12 quit\n	CTRL+F5 vienti CSV CTRL+F6 vienti ODS ALT+F12 lopettaa
-msg.phrase	Bottom 2 lines: function keys; [SHIFT]/[CTRL]/[ALT] like the filer\n	2 alareunaa: toimintonäppäimet; [SHIFT]/[CTRL]/[ALT] kuten tiedosto
-msg.phrase	CTRL+S save  CTRL+O open  CTRL+N new  CTRL+C/V/X copy/paste/cut\n	CTRL+S tallenna CTRL+O avaa CTRL+N uusi CTRL+C/V/X kopioi/liitä/leikkaa
-msg.phrase	CTRL+G goto    /  open the menu (1 File, 2 Edit, ...)\n	CTRL+G siirtyy / avaa valikko (1 Tiedosto, 2 Muokkaa, ...)
-msg.phrase	Built-in functions: SUM AVERAGE MIN MAX COUNT COUNTA\n	Sisäänrakennetut toiminnot: SUMMA AVERAGE MIN MAX COUNTA
-msg.phrase	PRODUCT ABS SQRT INT ROUND MOD POWER IF AND OR NOT\n	TUOTE ABS SQRT INT ROUND MOD POWER JOS JA TAI EI
-msg.phrase	IFERROR LEN LEFT RIGHT MID UPPER LOWER TRIM CONCATENATE PI\n	IFERROR LEN LEFT OIKEA KESKELÄ YLÄ ALATRIM CONCATENATE PI
-msg.phrase	Cell refs: A1, $A$1, A1:B10.  Formulas begin with '='.\n	Solun viitenumerot: A1, $A$1, A1:B10.  Kaavat alkavat kirjaimella '='.
-msg.phrase	Files: .ods (LibreOffice), .fods (flat XML), .csv\n	Tiedostot: .ods (LibreOffice), .fods (flat XML), .csv
-msg.phrase	ODS/FODS keeps formulas, widths, heights and colours.\n	ODS/FODS säilyttää kaavat, leveydet, korkeudet ja värit.
-msg.phrase	CSV keeps values and formulas (no colours/heights).\n	CSV säilyttää arvot ja kaavat (ei värejä/korkeuksia).
-msg.phrase	Graph: select a range, press F10, and choose Line/Bar/Mixed/Pie.\n	Kaavio: valitse alue, paina F10 ja valitse Line/Bar/Mixed/Pie.
-msg.phrase	First row/column = labels; charts use the 640x480 CLUT8 FB.	Ensimmäinen rivi/sarake = tarrat; kaavioissa käytetään 640x480 CLUT8 FB:tä.
-msg.phrase	SGCALC - HELP	SGCALC - APUA
+msg.phrase	Y = yes    N = no    Esc = cancel	Y = kyllä    N = ei    Esc = peruuta
+msg.phrase	Enter = OK    Esc = cancel    Ctrl-U = clear	Enter = OK    Esc = peruuta    Ctrl-U = tyhjennä
+msg.phrase	ARROWS      move the cell cursor\n	NUOLET      siirrä solukohdistinta\n
+msg.phrase	SHIFT+ARR   extend the selection (for graphs/copy)\n	SHIFT+NUOLI laajenna valintaa (kaavioihin/kopiointiin)\n
+msg.phrase	ENTER       edit the cell; in edit, commit and move down\n	ENTER       muokkaa solua; muokatessa hyväksy ja siirry alas\n
+msg.phrase	TAB         next cell    SHIFT+TAB  previous cell\n	TAB         seuraava solu    SHIFT+TAB  edellinen solu\n
+msg.phrase	DELETE      clear the selected cell(s)    ESC  cancel\n	DELETE      tyhjennä valitut solut    ESC  peruuta\n
+msg.phrase	PGUP/PGDN   move one screen    HOME/END  first/last column\n	PGUP/PGDN   yksi näyttö    HOME/END  ensimmäinen/viimeinen sarake\n
+msg.phrase	CTRL+HOME   A1    CTRL+END  last used cell\n	CTRL+HOME   A1    CTRL+END  viimeinen käytetty solu\n
+msg.phrase	F1 help  F2 edit  F3 copy  F4 paste  F5 goto  F6 colour\n	F1 ohje  F2 muokkaa  F3 kopioi  F4 liitä  F5 siirry  F6 väri\n
+msg.phrase	F7 auto-fit  F8 background  F9 recalc  F10 graph  F11 save  F12 menu\n	F7 sovita  F8 tausta  F9 laske  F10 kaavio  F11 tallenna  F12 valikko\n
+msg.phrase	SHIFT+F1 about  SHIFT+F2 row height  SHIFT+F3 column width\n	SHIFT+F1 tietoja  SHIFT+F2 rivin korkeus  SHIFT+F3 sarakkeen leveys\n
+msg.phrase	SHIFT+F4 select all  SHIFT+F10 graph range  SHIFT+F11 save as\n	SHIFT+F4 valitse kaikki  SHIFT+F10 kaavion alue  SHIFT+F11 tallenna nimellä\n
+msg.phrase	CTRL+F1 new  CTRL+F2 open  CTRL+F3 save  CTRL+F4 save as\n	CTRL+F1 uusi  CTRL+F2 avaa  CTRL+F3 tallenna  CTRL+F4 tallenna nimellä\n
+msg.phrase	CTRL+F5 export CSV  CTRL+F6 export ODS  ALT+F12 quit\n	CTRL+F5 vie CSV  CTRL+F6 vie ODS  ALT+F12 lopeta\n
+msg.phrase	Bottom 2 lines: function keys; [SHIFT]/[CTRL]/[ALT] like the filer\n	Alimmat 2 riviä: toimintonäppäimet; [SHIFT]/[CTRL]/[ALT] kuten filerissä\n
+msg.phrase	CTRL+S save  CTRL+O open  CTRL+N new  CTRL+C/V/X copy/paste/cut\n	CTRL+S tallenna  CTRL+O avaa  CTRL+N uusi  CTRL+C/V/X kopioi/liitä/leikkaa\n
+msg.phrase	CTRL+G goto    /  open the menu (1 File, 2 Edit, ...)\n	CTRL+G siirry    /  avaa valikko (1 Tiedosto, 2 Muokkaa, ...)\n
+msg.phrase	Built-in functions: SUM AVERAGE MIN MAX COUNT COUNTA\n	Sisäiset funktiot: SUM AVERAGE MIN MAX COUNT COUNTA\n
+msg.phrase	PRODUCT ABS SQRT INT ROUND MOD POWER IF AND OR NOT\n	PRODUCT ABS SQRT INT ROUND MOD POWER IF AND OR NOT\n
+msg.phrase	IFERROR LEN LEFT RIGHT MID UPPER LOWER TRIM CONCATENATE PI\n	IFERROR LEN LEFT RIGHT MID UPPER LOWER TRIM CONCATENATE PI\n
+msg.phrase	Cell refs: A1, $A$1, A1:B10.  Formulas begin with '='.\n	Soluviittaukset: A1, $A$1, A1:B10.  Kaavat alkavat merkillä '='.\n
+msg.phrase	Files: .ods (LibreOffice), .fods (flat XML), .csv\n	Tiedostot: .ods (LibreOffice), .fods (yksi XML), .csv\n
+msg.phrase	ODS/FODS keeps formulas, widths, heights and colours.\n	ODS/FODS säilyttää kaavat, leveydet, korkeudet ja värit.\n
+msg.phrase	CSV keeps values and formulas (no colours/heights).\n	CSV säilyttää vain arvot ja kaavat (ei värejä/korkeuksia).\n
+msg.phrase	Graph: select a range, press F10, and choose Line/Bar/Mixed/Pie.\n	Kaavio: valitse alue, paina F10 ja valitse Viiva/Pylväs/Yhdistelmä/Piirakka.\n
+msg.phrase	First row/column = labels; charts use the 640x480 CLUT8 FB.	Ensimmäinen rivi/sarake = otsikot; kaaviot käyttävät 640x480 CLUT8 -FB:tä.
+msg.phrase	SGCALC - HELP	SGCALC - OHJE
 msg.phrase	Press any key to return	Palaa painamalla mitä tahansa näppäintä
-msg.phrase	SGCALC for sgnano\n	SGCALC for sgnano
+msg.phrase	SGCALC for sgnano\n	SGCALC for sgnano\n
 msg.phrase	Version 	Versio
-msg.phrase	A Lotus 1-2-3 style spreadsheet as an SGX program.\n\n	Lotus 1-2-3 -tyylinen laskentataulukko SGX-ohjelmana.
+msg.phrase	A Lotus 1-2-3 style spreadsheet as an SGX program.\n\n	Lotus 1-2-3 -tyylinen taulukkolaskenta SGX-ohjelmana.\n\n
 msg.phrase	SGX ABI %u.%u\n	SGX ABI %u.%u
-msg.phrase	Screen mode 3: text + CLUT8 FB (lowres disabled)\n	Näyttötila 3: teksti + CLUT8 FB (alhaiset äänet pois käytöstä)
+msg.phrase	Screen mode 3: text + CLUT8 FB (lowres disabled)\n	Näyttötila 3: teksti + CLUT8-FB (ilman lowres-tasoa)\n
 msg.phrase	Sheet: %d rows x %d columns\n	Arkki: %d riviä x %d saraketta
-msg.phrase	Formats: .ods / .fods (LibreOffice), .csv\n\n	Muodot: .ods / .fods (LibreOffice), .csv
-msg.phrase	The grid is drawn on the text plane.\n	Ruudukko piirretään tekstitasolle.
-msg.phrase	Charts and the 640x480 background use the FB.\n\n	Kaaviot ja 640 x 480 -tausta käyttävät FB:tä.
+msg.phrase	Formats: .ods / .fods (LibreOffice), .csv\n\n	Muodot: .ods / .fods (LibreOffice), .csv\n\n
+msg.phrase	The grid is drawn on the text plane.\n	Ruudukko piirretään tekstitasolle.\n
+msg.phrase	Charts and the 640x480 background use the FB.\n\n	Kaaviot ja 640x480-tausta käyttävät FB:tä.\n\n
 msg.phrase	Press any key to return.	Palaa painamalla mitä tahansa näppäintä.
 msg.phrase	ABOUT SGCALC	TIETOJA SGCALCISTA
 msg.phrase	New	Uusi
-msg.phrase	Start a new sheet	Aloita uusi arkki
-msg.phrase	Open...	Avata...
+msg.phrase	Start a new sheet	Aloita uusi taulukko
+msg.phrase	Open...	Avaa...
 msg.phrase	Open an ODS, FODS or CSV file	Avaa ODS-, FODS- tai CSV-tiedosto
 msg.phrase	Save	Tallenna
 msg.phrase	Save the current file	Tallenna nykyinen tiedosto
@@ -702,373 +698,373 @@ msg.phrase	Write a CSV copy	Kirjoita CSV-kopio
 msg.phrase	Export ODS...	Vie ODS...
 msg.phrase	Write a LibreOffice copy	Kirjoita LibreOffice-kopio
 msg.phrase	Quit	Lopeta
-msg.phrase	Leave SGCALC	Jätä SGCALC
-msg.phrase	Clear	Selkeä
+msg.phrase	Leave SGCALC	Lopeta SGCALC
+msg.phrase	Clear	Tyhjennä
 msg.phrase	Clear the selected cells	Tyhjennä valitut solut
 msg.phrase	Copy	Kopioi
 msg.phrase	Copy the selection	Kopioi valinta
 msg.phrase	Paste	Liitä
-msg.phrase	Paste at the cursor	Liitä kohdistimen kohdalle
+msg.phrase	Paste at the cursor	Liitä kohdistimen kohtaan
 msg.phrase	Cut	Leikkaa
 msg.phrase	Copy and clear the selection	Kopioi ja tyhjennä valinta
 msg.phrase	Select all	Valitse kaikki
 msg.phrase	Select all used cells	Valitse kaikki käytetyt solut
 msg.phrase	Text color...	Tekstin väri...
 msg.phrase	Choose the text colour	Valitse tekstin väri
-msg.phrase	Background...	Taustaa...
+msg.phrase	Background...	Tausta...
 msg.phrase	Choose the cell background	Valitse solun tausta
-msg.phrase	Line	rivi
-msg.phrase	Draw a line graph from the selection	Piirrä valinnasta viivakaavio
-msg.phrase	Bar	Baari
-msg.phrase	Draw a bar graph from the selection	Piirrä valinnasta pylväsdiagrammi
-msg.phrase	Mixed	Sekoitettu
-msg.phrase	Bars for the first series, lines for the rest	Ensimmäisen sarjan tangot, loput rivit
-msg.phrase	Pie	Pie
-msg.phrase	Draw a pie graph from the selection	Piirrä valinnasta ympyrädiagrammi
+msg.phrase	Line	Viiva
+msg.phrase	Draw a line graph from the selection	Piirrä viivakaavio valinnasta
+msg.phrase	Bar	Pylväs
+msg.phrase	Draw a bar graph from the selection	Piirrä pylväskaavio valinnasta
+msg.phrase	Mixed	Yhdistelmä
+msg.phrase	Bars for the first series, lines for the rest	Pylväät ensimmäiselle sarjalle, viivat muille
+msg.phrase	Pie	Piirakka
+msg.phrase	Draw a pie graph from the selection	Piirrä piirakkakaavio valinnasta
 msg.phrase	Range...	Alue...
-msg.phrase	Set the graph range explicitly	Aseta kaavion alue eksplisiittisesti
+msg.phrase	Set the graph range explicitly	Anna kaavion alue käsin
 msg.phrase	Draw again	Piirrä uudelleen
-msg.phrase	Redraw the last graph	Piirrä viimeinen kaavio uudelleen
-msg.phrase	Goto...	Goto...
+msg.phrase	Redraw the last graph	Piirrä viimeisin kaavio uudelleen
+msg.phrase	Goto...	Siirry...
 msg.phrase	Jump to a cell (for example C12)	Siirry soluun (esimerkiksi C12)
 msg.phrase	Column width...	Sarakkeen leveys...
 msg.phrase	Change the selected columns' width	Muuta valittujen sarakkeiden leveyttä
 msg.phrase	Row height...	Rivin korkeus...
 msg.phrase	Change the selected rows' height	Muuta valittujen rivien korkeutta
-msg.phrase	Auto fit	Automaattinen sovitus
+msg.phrase	Auto fit	Sovita
 msg.phrase	Fit widths/heights to the contents (F7)	Sovita leveydet/korkeudet sisältöön (F7)
 msg.phrase	Recalculate	Laske uudelleen
-msg.phrase	Re-evaluate all formulas	Arvioi kaikki kaavat uudelleen
+msg.phrase	Re-evaluate all formulas	Laske kaikki kaavat uudelleen
 msg.phrase	Erase all	Poista kaikki
-msg.phrase	Clear the whole sheet	Tyhjennä koko arkki
-msg.phrase	Keys	Avaimet
-msg.phrase	Show the key guide	Näytä avainopas
+msg.phrase	Clear the whole sheet	Tyhjennä koko taulukko
+msg.phrase	Keys	Näppäimet
+msg.phrase	Show the key guide	Näytä näppäinohje
 msg.phrase	About	Tietoja
-msg.phrase	About SGCALC	Tietoja SGCALC:sta
+msg.phrase	About SGCALC	Tietoja SGCALCista
 msg.phrase	File	Tiedosto
 msg.phrase	Edit	Muokkaa
 msg.phrase	Graph	Kaavio
-msg.phrase	Sheet	Arkki
-msg.phrase	Help	Apua
+msg.phrase	Sheet	Taulukko
+msg.phrase	Help	Ohje
 msg.phrase	File: new, open, save, export, quit	Tiedosto: uusi, avaa, tallenna, vie, lopeta
 msg.phrase	Edit: clear, copy, paste, cut, select all	Muokkaa: tyhjennä, kopioi, liitä, leikkaa, valitse kaikki
-msg.phrase	Graph: line, bar, mixed, pie (draws in the FB)	Kaavio: viiva, pylväs, sekoitettu, piirakka (piirtää FB:ssä)
-msg.phrase	Sheet: goto, column width, recalculate, erase	Arkki: Goto, sarakkeen leveys, laske uudelleen, pyyhi
-msg.phrase	Help: keys and about	Ohje: avaimet ja noin
+msg.phrase	Graph: line, bar, mixed, pie (draws in the FB)	Kaavio: viiva, pylväs, yhdistelmä, piirakka (FB:hen)
+msg.phrase	Sheet: goto, column width, recalculate, erase	Taulukko: siirry, sarakkeen leveys, laske, poista
+msg.phrase	Help: keys and about	Ohje: näppäimet ja tietoja
 msg.phrase	%d %s	%d %s
 msg.phrase	Left/Right = menu    Up/Down = item    Enter = choose    Esc = cancel	Vasen/Oikea = valikko Ylös/Alas = kohde Enter = valitse Esc = peruuta
-msg.phrase	Cannot store the cell (%d).	Solua (%d) ei voi tallentaa.
+msg.phrase	Cannot store the cell (%d).	Solua ei voi tallentaa (%d).
 msg.phrase	Cancelled	Peruutettu
 msg.phrase	Copied %d x %d cells	Kopioitu %d x %d solua
-msg.phrase	The selection is too large or memory is low.	Valikoima on liian suuri tai muisti on vähissä.
+msg.phrase	The selection is too large or memory is low.	Valinta on liian suuri tai muisti ei riitä.
 msg.phrase	Cleared %s	Tyhjennetty %s
 msg.phrase	the cell	solu
 msg.phrase	the selection	valinta
-msg.phrase	Nothing to paste	Ei mitään liitettävää
+msg.phrase	Nothing to paste	Ei liitettävää
 msg.phrase	Pasted	Liitetty
-msg.phrase	GO TO CELL	SIIRRY SOLUON
+msg.phrase	GO TO CELL	SIIRRY SOLUUN
 msg.phrase	Cell reference (A1):	Soluviittaus (A1):
-msg.phrase	Goto	Goto
+msg.phrase	Goto	Siirry
 msg.phrase	'%s' is not a cell reference.	'%s' ei ole soluviittaus.
 msg.phrase	%d	%d
-msg.phrase	COLUMN WIDTH	SARAKE LEVEYS
-msg.phrase	Width in characters (4..30):	Leveys merkeissä (4...30):
+msg.phrase	COLUMN WIDTH	SARAKKEEN LEVEYS
+msg.phrase	Width in characters (4..30):	Leveys merkkeinä (4..30):
 msg.phrase	Column width = %d	Sarakkeen leveys = %d
-msg.phrase	ROW HEIGHT	RIVUN KORKEUS
-msg.phrase	Height in text rows (1..8):	Korkeus tekstiriveissä (1..8):
+msg.phrase	ROW HEIGHT	RIVIN KORKEUS
+msg.phrase	Height in text rows (1..8):	Korkeus tekstiriveinä (1..8):
 msg.phrase	Row height = %d	Rivin korkeus = %d
-msg.phrase	Auto fit: the sheet is empty	Automaattinen sovitus: arkki on tyhjä
-msg.phrase	Auto fit: %d column(s), %d row(s)	Automaattinen sovitus: %d sarake(a), %d rivi(ä)
+msg.phrase	Auto fit: the sheet is empty	Sovita: taulukko on tyhjä
+msg.phrase	Auto fit: %d column(s), %d row(s)	Sovita: %d saraketta, %d riviä
 msg.phrase	BACKGROUND COLOUR	TAUSTAVÄRI
 msg.phrase	TEXT COLOUR	TEKSTIN VÄRI
-msg.phrase	Arrows: choose    Enter: apply    Esc: cancel	Nuolet: valitse Enter: käytä Esc: peruuta
-msg.phrase	Colour index (PC-98 16-colour palette)	Väriindeksi (PC-98 16 värin paletti)
+msg.phrase	Arrows: choose    Enter: apply    Esc: cancel	Nuolet: valitse    Enter: käytä    Esc: peruuta
+msg.phrase	Colour index (PC-98 16-colour palette)	Värin numero (PC-98:n 16 värin paletti)
 msg.phrase	%2d	%2d
 msg.phrase	Aa 123	Aa 123
-msg.phrase	Enter = apply    Esc = cancel	Enter = käytä Esc = peruuta
+msg.phrase	Enter = apply    Esc = cancel	Enter = käytä    Esc = peruuta
 msg.phrase	Colour	Väri
-msg.phrase	Cannot apply the colour (%d).	Väriä (%d) ei voi käyttää.
+msg.phrase	Cannot apply the colour (%d).	Väriä ei voi käyttää (%d).
 msg.phrase	%s colour = %d	%s väri = %d
 msg.phrase	Background	Tausta
 msg.phrase	Text	Teksti
-msg.phrase	GRAPH RANGE	KAAVIOALUEET
+msg.phrase	GRAPH RANGE	KAAVION ALUE
 msg.phrase	Range (for example A1:C10):	Alue (esimerkiksi A1:C10):
-msg.phrase	Graph range	Kaavioalue
-msg.phrase	Use a range such as A1:C10.	Käytä aluetta, kuten A1:C10.
-msg.phrase	Not a valid range.\nUse a range such as A1:C10.	Ei kelvollinen alue.\nKäytä aluetta, kuten A1:C10.
-msg.phrase	Graph range %s	Kaavioalue %s
+msg.phrase	Graph range	Kaavion alue
+msg.phrase	Use a range such as A1:C10.	Anna alue, kuten A1:C10.
+msg.phrase	Not a valid range.\nUse a range such as A1:C10.	Virheellinen alue.\nAnna alue, kuten A1:C10.
+msg.phrase	Graph range %s	Kaavion alue %s
 msg.phrase	Cannot draw the graph.	Kaaviota ei voi piirtää.
 msg.phrase	Graph: %s	Kaavio: %s
 msg.phrase	line	linja
 msg.phrase	bar	baari
 msg.phrase	mixed	sekoitettu
 msg.phrase	pie	piirakka
-msg.phrase	Clear every cell in this sheet?	Poistetaanko tämän taulukon kaikki solut?
-msg.phrase	Sheet erased	Arkki poistettu
-msg.phrase	Selected all used cells	Valittiin kaikki käytetyt solut
+msg.phrase	Clear every cell in this sheet?	Tyhjennetäänkö kaikki tämän taulukon solut?
+msg.phrase	Sheet erased	Taulukko poistettu
+msg.phrase	Selected all used cells	Kaikki käytetyt solut valittu
 msg.phrase	Recalculated	Laskettu uudelleen
-msg.phrase	SGCALC: cannot set screen mode 3: %s\n	SGCALC: näyttötilaa 3 ei voi asettaa: %s
+msg.phrase	SGCALC: cannot set screen mode 3: %s\n	SGCALC: näyttötilaa 3 ei voi asettaa: %s\n
 msg.phrase	Memory	Muisti
-msg.phrase	Not enough PSRAM for the spreadsheet.	Ei tarpeeksi PSRAM-muistia laskentataulukkoon.
-msg.phrase	The sheet is empty.	Arkki on tyhjä.
-msg.phrase	No numeric data in the selected range.	Valitulla alueella ei ole numeerisia tietoja.
+msg.phrase	Not enough PSRAM for the spreadsheet.	PSRAM-muisti ei riitä taulukolle.
+msg.phrase	The sheet is empty.	Taulukko on tyhjä.
+msg.phrase	No numeric data in the selected range.	Valitulla alueella ei ole lukuja.
 msg.phrase	%.2g	%.2g
 msg.phrase	%.6g	%.6g
-msg.phrase	Other	muu
-msg.phrase	No positive values for a pie chart	Ei positiivisia arvoja ympyräkaaviolle
-msg.phrase	%s  %.0f%%	%s %.0f%%
-msg.phrase	GRAPH  %s  %s	KAAVIO %s %s
-msg.phrase	LINE	LINE
-msg.phrase	BAR	BAR
-msg.phrase	MIXED	SEKATTU
-msg.phrase	PIE	PIE
+msg.phrase	Other	Muut
+msg.phrase	No positive values for a pie chart	Ei positiivisia arvoja piirakkakaavioon
+msg.phrase	%s  %.0f%%	%s  %.0f%%
+msg.phrase	GRAPH  %s  %s	KAAVIO  %s  %s
+msg.phrase	LINE	VIIVA
+msg.phrase	BAR	PYLVÄS
+msg.phrase	MIXED	YHDISTELMÄ
+msg.phrase	PIE	PIIRAKKA
 msg.phrase	S:/	S:/
 msg.phrase	%s%s	%s%s
 msg.phrase	%s/%s	%s/%s
 msg.phrase	%.*s	%.*s
 msg.phrase	%.*s/	%.*s/
 msg.phrase	Folder	Kansio
-msg.phrase	Cannot read %s\n%s	%s ei voi lukea\n%s
-msg.phrase	SAVE AS	TALLENNA AS
+msg.phrase	Cannot read %s\n%s	Tiedostoa %s ei voi lukea\n%s
+msg.phrase	SAVE AS	TALLENNA NIMELLÄ
 msg.phrase	OPEN FILE	AVAA TIEDOSTO
 msg.phrase	LibreOffice / CSV	LibreOffice / CSV
-msg.phrase	ODS  FODS  CSV	ODS FODS CSV
+msg.phrase	ODS  FODS  CSV	ODS  FODS  CSV
 msg.phrase	Folder: %s	Kansio: %s
 msg.phrase	Name:	Nimi:
 msg.phrase	(type a name, or choose below)	(kirjoita nimi tai valitse alta)
 msg.phrase	Name	Nimi
 msg.phrase	Size	Koko
 msg.phrase	[DIR] %s	[DIR] %s
-msg.phrase	      %s	%s
+msg.phrase	      %s	      %s
 msg.phrase	%lu.%luM	%lu.%luM
 msg.phrase	%luK	%luK
 msg.phrase	%luB	%luB
-msg.phrase	Enter=save  Left=up  Right/Enter on [DIR]=open  Tab=drive  Esc=cancel	Enter=tallenna Vasen=ylös oikealle/Enter [DIR]=avoin Tab=ajo Esc=peruuta
-msg.phrase	Enter=open  Left=up  Right/Enter on [DIR]=open  Tab=drive  Esc=cancel	Enter=avoin Vasen=ylös oikealle/Syötä [DIR]=avoin Tab=ajo Esc=peruuta
-msg.phrase	BOOK1%s	KIRJA1%s
+msg.phrase	Enter=save  Left=up  Right/Enter on [DIR]=open  Tab=drive  Esc=cancel	Enter=tallenna  ←=ylös  →/Enter [DIR]:ssä=avaa  Tab=asema  Esc=peruuta
+msg.phrase	Enter=open  Left=up  Right/Enter on [DIR]=open  Tab=drive  Esc=cancel	Enter=avaa  ←=ylös  →/Enter [DIR]:ssä=avaa  Tab=asema  Esc=peruuta
+msg.phrase	BOOK1%s	BOOK1%s
 msg.phrase	Not enough memory.	Muisti ei riitä.
 msg.phrase	%c:/	%c:/
-msg.phrase	Unsupported extension.\nUse .csv, .ods or .fods.	Laajennusta ei tueta.\nKäytä .csv-, .ods- tai .fods-tiedostoja.
+msg.phrase	Unsupported extension.\nUse .csv, .ods or .fods.	Tiedostopäätettä ei tueta.\nKäytä .csv, .ods tai .fods.
 msg.phrase	Overwrite	Korvaa
-msg.phrase	%s already exists.\nOverwrite it?	%s on jo olemassa.\nKorvaako se?
-msg.phrase	%s may not be writable.\nTry anyway?	%s ei ehkä ole kirjoituskelpoinen.\nKokeile silti?
-msg.phrase	Unknown file type for %s	Tuntematon tiedostotyyppi %s:lle
-msg.phrase	Open	Avata
-msg.phrase	Unsupported file type.\nUse .csv, .ods or .fods.	Tiedostotyyppiä ei tueta.\nKäytä .csv-, .ods- tai .fods-tiedostoja.
-msg.phrase	Cannot open %s\n%s	%s ei voi avata\n%s
+msg.phrase	%s already exists.\nOverwrite it?	%s on jo olemassa.\nKorvataanko?
+msg.phrase	%s may not be writable.\nTry anyway?	Kohteeseen %s ei ehkä voi kirjoittaa.\nYritetäänkö silti?
+msg.phrase	Unknown file type for %s	Tuntematon tiedostotyyppi: %s
+msg.phrase	Open	Avaa
+msg.phrase	Unsupported file type.\nUse .csv, .ods or .fods.	Tiedostotyyppiä ei tueta.\nKäytä .csv, .ods tai .fods.
+msg.phrase	Cannot open %s\n%s	Tiedostoa %s ei voi avata\n%s
 msg.phrase	%s is a folder.	%s on kansio.
-msg.phrase	The file is too large (limit 8 MB).	Tiedosto on liian suuri (enintään 8 Mt).
+msg.phrase	The file is too large (limit 8 MB).	Tiedosto on liian suuri (raja 8 Mt).
 msg.phrase	Not enough memory to read the file.	Muisti ei riitä tiedoston lukemiseen.
-msg.phrase	Cannot import %s\n%s	%s ei voi tuoda\n%s
-msg.phrase	Bad ZIP/ODS data.	Virheelliset ZIP/ODS-tiedot.
+msg.phrase	Cannot import %s\n%s	Tiedostoa %s ei voi tuoda\n%s
+msg.phrase	Bad ZIP/ODS data.	Viallinen ZIP/ODS-data.
 msg.phrase	CRC error in the ODS file.	CRC-virhe ODS-tiedostossa.
 msg.phrase	Unsupported or damaged file.	Tiedostoa ei tueta tai se on vioittunut.
-msg.phrase	Loaded %s	Ladattu %s
-msg.phrase	Cannot build the %s file.	Tiedostoa %s ei voi rakentaa.
-msg.phrase	Cannot write %s\n%s	%s ei voi kirjoittaa\n%s
+msg.phrase	Loaded %s	%s ladattu
+msg.phrase	Cannot build the %s file.	Tiedostoa %s ei voi luoda.
+msg.phrase	Cannot write %s\n%s	Tiedostoa %s ei voi kirjoittaa\n%s
 msg.phrase	%s %s	%s %s
 msg.phrase	Saved	Tallennettu
 msg.phrase	Exported	Vietiin
-msg.phrase	Unsaved changes	Tallentamattomat muutokset
-msg.phrase	Save the current sheet before continuing?	Tallennetaanko nykyinen taulukko ennen kuin jatkat?
-msg.phrase	New sheet	Uusi arkki
+msg.phrase	Unsaved changes	Tallentamattomia muutoksia
+msg.phrase	Save the current sheet before continuing?	Tallennetaanko nykyinen taulukko ennen jatkamista?
+msg.phrase	New sheet	Uusi taulukko
 msg.phrase	SGTRK	SGTRK
-msg.phrase	UNTITLED	NIMEÄMÄTÖN
+msg.phrase	UNTITLED	UNTITLED
 msg.phrase	song is too large	kappale on liian suuri
 msg.phrase	empty file	tyhjä tiedosto
 msg.phrase	not an SGT file	ei SGT-tiedosto
-msg.phrase	unsupported version %u	ei tuettu versio %u
-msg.phrase	bad BPM	huono BPM
-msg.phrase	bad speed	huono nopeus
-msg.phrase	bad title length	huono otsikon pituus
-msg.phrase	truncated title	katkaistu otsikko
-msg.phrase	bad character in title	huono hahmo otsikossa
-msg.phrase	truncated order	katkaistu järjestys
-msg.phrase	bad order length	huono tilauksen pituus
-msg.phrase	bad pattern number in order	huono mallinumero järjestyksessä
-msg.phrase	truncated pattern list	katkaistu malliluettelo
-msg.phrase	bad pattern count	huono kuvioluku
-msg.phrase	bad pattern index	huono malliindeksi
-msg.phrase	duplicate pattern	päällekkäinen kuvio
-msg.phrase	truncated pattern data	katkaistu kuviotieto
-msg.phrase	invalid pattern data	virheelliset kuviotiedot
-msg.phrase	trailing data in file	tiedoston lopussa olevat tiedot
-msg.phrase	order refers to a missing pattern	tilaus viittaa puuttuvaan kuvioon
+msg.phrase	unsupported version %u	versiota ei tueta (%u)
+msg.phrase	bad BPM	virheellinen BPM
+msg.phrase	bad speed	virheellinen nopeus
+msg.phrase	bad title length	virheellinen nimen pituus
+msg.phrase	truncated title	katkennut nimi
+msg.phrase	bad character in title	virheellinen merkki nimessä
+msg.phrase	truncated order	katkennut järjestys
+msg.phrase	bad order length	virheellinen järjestyksen pituus
+msg.phrase	bad pattern number in order	virheellinen patternin numero järjestyksessä
+msg.phrase	truncated pattern list	katkennut patternlista
+msg.phrase	bad pattern count	virheellinen patternien määrä
+msg.phrase	bad pattern index	virheellinen patternin indeksi
+msg.phrase	duplicate pattern	kaksinkertainen pattern
+msg.phrase	truncated pattern data	katkennut patternin data
+msg.phrase	invalid pattern data	virheellinen patternin data
+msg.phrase	trailing data in file	ylimääräistä dataa tiedoston lopussa
+msg.phrase	order refers to a missing pattern	järjestys viittaa puuttuvaan patterniin
 msg.phrase	A:/	A:/
 msg.phrase	(untitled)	(nimetön)
-msg.phrase	Ready. Press F1 for help.	Valmis. Paina F1 saadaksesi apua.
+msg.phrase	Ready. Press F1 for help.	Valmis. Ohje: F1.
 msg.phrase	%d:%d:%d:%d:%d:%d	%d:%d:%d:%d:%d:%d
-msg.phrase	Follow OFF	Seuraa OFF
+msg.phrase	Follow OFF	Seuranta POIS
 msg.phrase	Octave %d	Oktaavi %d
-msg.phrase	Nothing to undo	Ei mitään peruttavaa
-msg.phrase	Undo	Kumoa
-msg.phrase	Note OFF	Huomautus OFF
-msg.phrase	Note %s	Huomautus %s
-msg.phrase	Instrument %d	Laite %d
-msg.phrase	Volume %s	Äänenvoimakkuus %s
-msg.phrase	Effect %c	Vaikutus %c
-msg.phrase	Set an effect letter first	Aseta ensin tehostekirjain
+msg.phrase	Nothing to undo	Ei kumottavaa
+msg.phrase	Undo	Kumottu
+msg.phrase	Note OFF	Note off
+msg.phrase	Note %s	Nuotti %s
+msg.phrase	Instrument %d	Soitin %d
+msg.phrase	Volume %s	Voimakkuus %s
+msg.phrase	Effect %c	Efekti %c
+msg.phrase	Set an effect letter first	Anna ensin efektin kirjain
 msg.phrase	Parameter %s	Parametri %s
-msg.phrase	Effect cleared	Tehoste tyhjennetty
-msg.phrase	Parameter cleared	Parametri tyhjennetty
-msg.phrase	Note cleared	Huomautus tyhjennetty
-msg.phrase	Instrument cleared	Instrumentti tyhjennetty
-msg.phrase	Volume cleared	Äänenvoimakkuus tyhjennetty
-msg.phrase	Order list is full	Tilauslista on täynnä
-msg.phrase	Order inserted	Tilaus lisätty
-msg.phrase	Cannot delete the last order	Viimeistä tilausta ei voi poistaa
-msg.phrase	Order deleted	Tilaus poistettu
-msg.phrase	Pattern %s	Kuvio %s
-msg.phrase	Playing song	Toistaa kappaletta
-msg.phrase	Playing pattern %s	Toistetaan kuvio %s
-msg.phrase	Stopped	Pysähtynyt
-msg.phrase	New song	Uusi biisi
-msg.phrase	Discard unsaved changes and start a new song? (Y/N)	Hylätäänkö tallentamattomat muutokset ja aloitetaanko uusi kappale? (K/E)
+msg.phrase	Effect cleared	Efekti poistettu
+msg.phrase	Parameter cleared	Parametri poistettu
+msg.phrase	Note cleared	Nuotti poistettu
+msg.phrase	Instrument cleared	Soitin poistettu
+msg.phrase	Volume cleared	Voimakkuus poistettu
+msg.phrase	Order list is full	Järjestyslista on täynnä
+msg.phrase	Order inserted	Kohta lisätty
+msg.phrase	Cannot delete the last order	Viimeistä kohtaa ei voi poistaa
+msg.phrase	Order deleted	Kohta poistettu
+msg.phrase	Pattern %s	Pattern %s
+msg.phrase	Playing song	Soitetaan kappaletta
+msg.phrase	Playing pattern %s	Soitetaan patternia %s
+msg.phrase	Stopped	Pysäytetty
+msg.phrase	New song	Uusi kappale
+msg.phrase	Discard unsaved changes and start a new song? (Y/N)	Hylätäänkö tallentamattomat muutokset ja aloitetaan uusi kappale? (Y/N)
 msg.phrase	SAVE ERROR: %s	TALLENNUSVIRHE: %s
-msg.phrase	Saved %s	Tallennettu %s
+msg.phrase	Saved %s	%s tallennettu
 msg.phrase	LOAD ERROR: %s	LATAUSVIRHE: %s
-msg.phrase	Discard unsaved changes and open a song? (Y/N)	Hylätäänkö tallentamattomat muutokset ja avataanko kappale? (K/E)
-msg.phrase	Discard unsaved changes and quit? (Y/N)	Hylätäänkö tallentamattomat muutokset ja lopetetaanko? (K/E)
+msg.phrase	Discard unsaved changes and open a song? (Y/N)	Hylätäänkö tallentamattomat muutokset ja avataan kappale? (Y/N)
+msg.phrase	Discard unsaved changes and quit? (Y/N)	Hylätäänkö tallentamattomat muutokset ja lopetetaan? (Y/N)
 msg.phrase	BPM %d	BPM %d
 msg.phrase	Speed %d	Nopeus %d
-msg.phrase	Song settings updated	Kappaleen asetukset päivitetty
-msg.phrase	Preview %s	Esikatselu %s
-msg.phrase	Instrument %s %s	Instrumentti %s %s
+msg.phrase	Song settings updated	Kappaleen asetukset muutettu
+msg.phrase	Preview %s	Kuuntele %s
+msg.phrase	Instrument %s %s	Soitin %s %s
 msg.phrase	Filename is empty	Tiedostonimi on tyhjä
-msg.phrase	Overwrite %s? (Y/N)	Korvaako %s? (K/E)
+msg.phrase	Overwrite %s? (Y/N)	Korvataanko %s? (Y/N)
 msg.phrase	Save cancelled	Tallennus peruutettu
-msg.phrase	Open cancelled	Avoinna peruttu
-msg.phrase	Edit ON	Muokkaa PÄÄLLÄ
-msg.phrase	Edit OFF	Muokkaa POIS
-msg.phrase	Follow ON	Seuraa PÄÄLLÄ
-msg.phrase	Edit is OFF. Press F8 to edit.	Muokkaus on POIS PÄÄLTÄ. Muokkaa painamalla F8.
+msg.phrase	Open cancelled	Avaus peruutettu
+msg.phrase	Edit ON	Muokkaus PÄÄLLÄ
+msg.phrase	Edit OFF	Muokkaus POIS
+msg.phrase	Follow ON	Seuranta PÄÄLLÄ
+msg.phrase	Edit is OFF. Press F8 to edit.	Muokkaus on pois päältä. Paina F8.
 msg.phrase	I/O error	I/O-virhe
 msg.phrase	file is too large	tiedosto on liian suuri
-msg.phrase	truncated file	katkaistu tiedosto
+msg.phrase	truncated file	katkennut tiedosto
 msg.phrase	SINE PAD	SINE PAD
-msg.phrase	TRIANGLE	KOLMIO
-msg.phrase	SAW LEAD	SAHALYIJY
-msg.phrase	SQUARE	NELIÖ
-msg.phrase	PULSE 25	PULSSI 25
-msg.phrase	ORGAN	URKU
+msg.phrase	TRIANGLE	TRIANGLE
+msg.phrase	SAW LEAD	SAW LEAD
+msg.phrase	SQUARE	SQUARE
+msg.phrase	PULSE 25	PULSE 25
+msg.phrase	ORGAN	ORGAN
 msg.phrase	BASS	BASS
 msg.phrase	BELL	BELL
-msg.phrase	NOISE	MELU
+msg.phrase	NOISE	NOISE
 msg.phrase	SINE	SINE
 msg.phrase	SAW	SAW
-msg.phrase	 | BPM %s SPD %s 	 | BPM %s SPD %s
-msg.phrase	 SGNO TRACKER 1.0 | 	SGNO TRACKER 1.0 |
-msg.phrase	FILE 	TIEDOSTO
+msg.phrase	 | BPM %s SPD %s 	 | BPM %s SPD %s 
+msg.phrase	 SGNO TRACKER 1.0 | 	 SGNO TRACKER 1.0 | 
+msg.phrase	FILE 	FILE 
 msg.phrase	 PAT %s	 PAT %s
 msg.phrase	 ORD %d/%d	 ORD %d/%d
-msg.phrase	 INS %s 	 INS %s
+msg.phrase	 INS %s 	 INS %s 
 msg.phrase	 OCT %d	 OCT %d
-msg.phrase	 EDIT %s	 MUOKKAA %s
-msg.phrase	ON 	PÄÄLLÄ
-msg.phrase	OFF	POIS PÄÄLTÄ
+msg.phrase	 EDIT %s	 EDIT %s
+msg.phrase	ON 	ON 
+msg.phrase	OFF	OFF
 msg.phrase	 FOL %s	 FOL %s
-msg.phrase	ON	PÄÄLLÄ
-msg.phrase	ROW	RIVI
-msg.phrase	TRACK %d	KAPPALE %d
+msg.phrase	ON	ON
+msg.phrase	ROW	ROW
+msg.phrase	TRACK %d	TRACK %d
 msg.phrase	CHAN LEVEL	CHAN LEVEL
 msg.phrase	%c%s	%c%s
 msg.phrase	%s %s %s %s	%s %s %s %s
-msg.phrase	%s 	%s
+msg.phrase	%s 	%s 
 msg.phrase	%d %s %s	%d %s %s
-msg.phrase	ORDER %d/%d	TILAA %d/%d
-msg.phrase	PAT   %s	PAT %s
+msg.phrase	ORDER %d/%d	ORDER %d/%d
+msg.phrase	PAT   %s	PAT   %s
 msg.phrase	INS %s %s	INS %s %s
-msg.phrase	OCT %d  EDIT %s	OCT %d MUOKKAA %s
-msg.phrase	FOLLOW %s	SEURAA %s
-msg.phrase	F1 HELP F2 SONG	F1 APUA F2 SONG
-msg.phrase	F3 INS  F4 SAVE	F3 INS F4 SAVE
-msg.phrase	F5 PLAY F6 PAT	F5 PELAA F6 PAT
+msg.phrase	OCT %d  EDIT %s	OCT %d  EDIT %s
+msg.phrase	FOLLOW %s	FOLLOW %s
+msg.phrase	F1 HELP F2 SONG	F1 HELP F2 SONG
+msg.phrase	F3 INS  F4 SAVE	F3 INS  F4 SAVE
+msg.phrase	F5 PLAY F6 PAT	F5 PLAY F6 PAT
 msg.phrase	F7 STOP F8 EDIT	F7 STOP F8 EDIT
 msg.phrase	F9/F10 OCTAVE	F9/F10 OCTAVE
-msg.phrase	F11 FOLLOW	F11 SEURAA
-msg.phrase	F12 QUIT	F12 LOPETA
-msg.phrase	SPACE PLAY/STOP	Space Play/STOP
-msg.phrase	CTRL-S SAVE	CTRL-S TALLENNA
-msg.phrase	CTRL-O OPEN	CTRL-O AUKI
-msg.phrase	C-N NEW C-Z UNDO	C-N UUSI C-Z UNDO
+msg.phrase	F11 FOLLOW	F11 FOLLOW
+msg.phrase	F12 QUIT	F12 QUIT
+msg.phrase	SPACE PLAY/STOP	SPACE PLAY/STOP
+msg.phrase	CTRL-S SAVE	CTRL-S SAVE
+msg.phrase	CTRL-O OPEN	CTRL-O OPEN
+msg.phrase	C-N NEW C-Z UNDO	C-N NEW C-Z UNDO
 msg.phrase	C-C STOP	C-C STOP
-msg.phrase	PLAYING  ORD %d/%d  PAT %s  ROW %s/%d  SPD %s  BPM %d  F7 STOP	TOISTO: %d/%d PAT %s ROW %s/%d SPD %s BPM %d F7 STOP
-msg.phrase	READY  EDIT %s  OCT %d  F1 HELP  F5 PLAY  CTRL-S SAVE	VALMIS MUOKKAA %s LOK %d F1 APUA F5 TOISTA CTRL-S TALLENNA
-msg.phrase	 %s 	 %s
-msg.phrase	#TRANSPORT AND FILES	#KULJETUS JA TIEDOSTOT
-msg.phrase	  F5          Play the song from the current order	  F5 Toista kappale nykyisestä järjestyksestä
-msg.phrase	  F6          Play the current pattern	  F6 Toista nykyinen kuvio
-msg.phrase	  F7/Ctrl-C   Stop playback	  F7/Ctrl-C Pysäytä toisto
-msg.phrase	  Space       Play / stop	  Space Play / stop
-msg.phrase	  F4          Save as	  F4 Tallenna nimellä
-msg.phrase	  Ctrl-S      Save (asks for a name if new)	  Ctrl-S Tallenna (pyytää nimeä, jos uusi)
-msg.phrase	  Ctrl-O      Open a song	  Ctrl-O Avaa kappale
-msg.phrase	  Ctrl-N      New song	  Ctrl-N Uusi kappale
-msg.phrase	  F12         Quit (confirmation if modified)	  F12 Lopeta (vahvistus, jos sitä muutetaan)
-msg.phrase	#ORDER LIST	#TILAUSLUETTELO
-msg.phrase	  [ ]         Previous / next order entry	  [ ] Edellinen/seuraava tilausmerkintä
-msg.phrase	  { }         Insert / delete an order entry	  { } Lisää / poista tilausmerkintä
-msg.phrase	  - +         Change the pattern in the entry	  - + Muuta kuviota syötteessä
-msg.phrase	#DISPLAY	#DISPLAY
-msg.phrase	  F11         Follow playback (turns off on manual move)	  F11 Seuraa toistoa (pois päältä manuaalisessa siirrossa)
-msg.phrase	  F1          Help; Left/Right changes page	  F1 Ohje; Vasen/Oikea muuttaa sivua
+msg.phrase	PLAYING  ORD %d/%d  PAT %s  ROW %s/%d  SPD %s  BPM %d  F7 STOP	PLAYING  ORD %d/%d  PAT %s  ROW %s/%d  SPD %s  BPM %d  F7 STOP
+msg.phrase	READY  EDIT %s  OCT %d  F1 HELP  F5 PLAY  CTRL-S SAVE	READY  EDIT %s  OCT %d  F1 HELP  F5 PLAY  CTRL-S SAVE
+msg.phrase	 %s 	 %s 
+msg.phrase	#TRANSPORT AND FILES	#SOITTO JA TIEDOSTOT
+msg.phrase	  F5          Play the song from the current order	  F5          Soita kappale nykyisestä kohdasta
+msg.phrase	  F6          Play the current pattern	  F6          Soita nykyinen pattern
+msg.phrase	  F7/Ctrl-C   Stop playback	  F7/Ctrl-C   Pysäytä soitto
+msg.phrase	  Space       Play / stop	  Space       Soita / pysäytä
+msg.phrase	  F4          Save as	  F4          Tallenna nimellä
+msg.phrase	  Ctrl-S      Save (asks for a name if new)	  Ctrl-S      Tallenna (kysyy nimen, jos uusi)
+msg.phrase	  Ctrl-O      Open a song	  Ctrl-O      Avaa kappale
+msg.phrase	  Ctrl-N      New song	  Ctrl-N      Uusi kappale
+msg.phrase	  F12         Quit (confirmation if modified)	  F12         Lopeta (kysyy, jos on muutoksia)
+msg.phrase	#ORDER LIST	#JÄRJESTYSLISTA
+msg.phrase	  [ ]         Previous / next order entry	  [ ]         Edellinen / seuraava kohta
+msg.phrase	  { }         Insert / delete an order entry	  { }         Lisää / poista kohta
+msg.phrase	  - +         Change the pattern in the entry	  - +         Vaihda kohdan pattern
+msg.phrase	#DISPLAY	#NÄYTTÖ
+msg.phrase	  F11         Follow playback (turns off on manual move)	  F11         Seuraa soittoa (pois, kun siirrät käsin)
+msg.phrase	  F1          Help; Left/Right changes page	  F1          Ohje; Vasen/Oikea vaihtaa sivua
 msg.phrase	#EDITING	#MUOKKAUS
-msg.phrase	  F8          Toggle edit mode	  F8 Vaihda muokkaustilaa
-msg.phrase	  Arrows      Move the cursor	  Nuolet Siirrä kohdistinta
-msg.phrase	  PgUp/PgDn   Jump 16 rows	  PgUp/PgDn Hyppää 16 riviä
-msg.phrase	  Home/End    First / last row	  Etusivu/Loppu Ensimmäinen / viimeinen rivi
-msg.phrase	  F9/F10      Octave down / up	F9/F10 Oktaavi alas/ylös
-msg.phrase	  Z S X D C V G B H N J M      lower piano row	  Z S X D C V G B H N J M alempi pianorivi
-msg.phrase	  Q 2 W 3 E R 5 T 6 Y 7 U      upper piano row	  Q 2 W 3 E R 5 T 6 Y 7 U ylempi pianorivi
-msg.phrase	  1           Note off	  1 Huomautus pois
-msg.phrase	  0 / Del     0 clears note/inst/fx; Del clears any	  0 / Del 0 tyhjentää note/inst/fx; Del tyhjentää minkä tahansa
-msg.phrase	  Ctrl-Z      Undo the last pattern/order edit	  Ctrl-Z Kumoa viimeinen kuvion/järjestyksen muokkaus
-msg.phrase	#EFFECTS (parameter is hexadecimal)	#EFFECTS (parametri on heksadesimaali)
-msg.phrase	  Axy   Volume slide: up x, down y	  Axy Volume liuku: ylös x, alas y
-msg.phrase	  Cxx   Note cut after xx ticks	  Cxx Huomautus leikattu xx tikkujen jälkeen
-msg.phrase	  Dxx   Set volume (00..7F)	  Dxx Aseta äänenvoimakkuus (00..7F)
-msg.phrase	  Fxx   Speed if xx < 20, otherwise BPM	  Fxx Nopeus, jos xx < 20, muuten BPM
-msg.phrase	  Hxy   Arpeggio x, y semitones	  Hxy Arpeggio x, y puolisävelet
-msg.phrase	  Pxx   Pitch slide up	Pxx Pitch liuku ylös
-msg.phrase	  Qxx   Pitch slide down	  Qxx Pitch liuku alas
-msg.phrase	  F2 song settings, F3 instrument list	  F2-kappaleasetukset, F3-soitinluettelo
-msg.phrase	HELP %d/2	APUA %d/2
-msg.phrase	LEFT/RIGHT PAGE   ENTER OR F1 CLOSE	VASEN/OIKEA SIVU ANNA TAI F1 SULJE
+msg.phrase	  F8          Toggle edit mode	  F8          Muokkaus päälle / pois
+msg.phrase	  Arrows      Move the cursor	  Nuolet      Siirrä kohdistinta
+msg.phrase	  PgUp/PgDn   Jump 16 rows	  PgUp/PgDn   Hyppää 16 riviä
+msg.phrase	  Home/End    First / last row	  Home/End    Ensimmäinen / viimeinen rivi
+msg.phrase	  F9/F10      Octave down / up	  F9/F10      Oktaavi alas / ylös
+msg.phrase	  Z S X D C V G B H N J M      lower piano row	  Z S X D C V G B H N J M      alempi pianorivi
+msg.phrase	  Q 2 W 3 E R 5 T 6 Y 7 U      upper piano row	  Q 2 W 3 E R 5 T 6 Y 7 U      ylempi pianorivi
+msg.phrase	  1           Note off	  1           Note off
+msg.phrase	  0 / Del     0 clears note/inst/fx; Del clears any	  0 / Del     0 poistaa nuotin/soit./efektin; Del kentän
+msg.phrase	  Ctrl-Z      Undo the last pattern/order edit	  Ctrl-Z      Kumoa viimeisin pattern-/järjestysmuutos
+msg.phrase	#EFFECTS (parameter is hexadecimal)	#EFEKTIT (parametri heksadesimaalina)
+msg.phrase	  Axy   Volume slide: up x, down y	  Axy   Voimakkuuden liuku: ylös x, alas y
+msg.phrase	  Cxx   Note cut after xx ticks	  Cxx   Katkaise nuotti xx tickin jälkeen
+msg.phrase	  Dxx   Set volume (00..7F)	  Dxx   Aseta voimakkuus (00..7F)
+msg.phrase	  Fxx   Speed if xx < 20, otherwise BPM	  Fxx   Nopeus, jos xx < 20, muuten BPM
+msg.phrase	  Hxy   Arpeggio x, y semitones	  Hxy   Arpeggio x, y puolisävelaskelta
+msg.phrase	  Pxx   Pitch slide up	  Pxx   Sävelkorkeuden liuku ylös
+msg.phrase	  Qxx   Pitch slide down	  Qxx   Sävelkorkeuden liuku alas
+msg.phrase	  F2 song settings, F3 instrument list	  F2 kappaleen asetukset, F3 soitinlista
+msg.phrase	HELP %d/2	HELP %d/2
+msg.phrase	LEFT/RIGHT PAGE   ENTER OR F1 CLOSE	LEFT/RIGHT PAGE   ENTER OR F1 CLOSE
 msg.phrase	SONG SETTINGS	KAPPALEEN ASETUKSET
-msg.phrase	UP/DOWN SELECT   LEFT/RIGHT ADJUST   ENTER/F2 CLOSE	YLÖS/ALAS VALITSE VASEN/OIKEA SÄÄDÄ ENTER/F2 CLOSE
-msg.phrase	  Title	  Otsikko
+msg.phrase	UP/DOWN SELECT   LEFT/RIGHT ADJUST   ENTER/F2 CLOSE	UP/DOWN SELECT   LEFT/RIGHT ADJUST   ENTER/F2 CLOSE
+msg.phrase	  Title	  Nimi
 msg.phrase	  [%s_]	  [%s_]
-msg.phrase	  BPM   : %d     (left/right -1/+1, -/+ -5/+5)	  BPM: %d (vasen/oikea -1/+1, -/+ -5/+5)
-msg.phrase	  Speed : %d ticks/row	  Nopeus: %d tikkkiä/rivi
-msg.phrase	  Rows  : %d (fixed)	  Rivit: %d (korjattu)
-msg.phrase	  Order : %d entries	Järjestys: %d merkintää
-msg.phrase	  Patterns in use : %d	  Käytössä olevat kuviot: %d
-msg.phrase	Type to edit the title. Backspace deletes the last character.	Muokkaa otsikkoa kirjoittamalla. Askelpalautin poistaa viimeisen merkin.
-msg.phrase	BPM range 32..255. Speed range 1..31.	BPM-alue 32...255. Nopeusalue 1...31.
-msg.phrase	Pattern effects can also change speed and BPM while playing.	Kuvioefektit voivat myös muuttaa nopeutta ja BPM:ää pelaamisen aikana.
-msg.phrase	INSTRUMENTS	INSTRUMENTIT
-msg.phrase	UP/DOWN SELECT   SPACE PREVIEW   ENTER USE   F3 CLOSE	YLÖS/ALAS VALITSE VÄLILYÖNTI ESIKATSELU ANNA KÄYTÄ F3 SULJE
-msg.phrase	 #  NAME       WAVE       A   D   S   R  VOL	 # NIMI WAVE A D S R VOL
-msg.phrase	 %c %d  %-9s %-9s %3d %3d %3d %3d %4d	 %c %d %-9s %-9s %3d %3d %3d %3d %4d
-msg.phrase	All four channels use wavetable synthesis.	Kaikki neljä kanavaa käyttävät aaltotaulukkosynteesiä.
-msg.phrase	Preview plays C-4 on the track under the edit cursor.	Esikatselu toistaa C-4:n muokkauskohdistimen alla olevalla raidalla.
-msg.phrase	Current instrument: %s %s	Nykyinen instrumentti: %s %s
-msg.phrase	SAVE SONG AS	TALLENNA KAPPALE AS
-msg.phrase	ENTER SAVE   F4 OR CTRL-C CANCEL	ANNA TALLENNA F4 TAI CTRL-C PERUUTA
-msg.phrase	Directory:	Hakemisto:
+msg.phrase	  BPM   : %d     (left/right -1/+1, -/+ -5/+5)	  BPM   : %d     (vasen/oikea -1/+1, -/+ -5/+5)
+msg.phrase	  Speed : %d ticks/row	  Nopeus : %d tickiä riville
+msg.phrase	  Rows  : %d (fixed)	  Rivit : %d (kiinteä)
+msg.phrase	  Order : %d entries	  Järjestys : %d kohtaa
+msg.phrase	  Patterns in use : %d	  Käytössä olevat patternit : %d
+msg.phrase	Type to edit the title. Backspace deletes the last character.	Kirjoita muuttaaksesi nimeä. Backspace poistaa viimeisen merkin.
+msg.phrase	BPM range 32..255. Speed range 1..31.	BPM 32–255. Nopeus 1–31.
+msg.phrase	Pattern effects can also change speed and BPM while playing.	Patternien efektit voivat myös muuttaa nopeutta ja BPM:ää soiton aikana.
+msg.phrase	INSTRUMENTS	SOITTIMET
+msg.phrase	UP/DOWN SELECT   SPACE PREVIEW   ENTER USE   F3 CLOSE	UP/DOWN SELECT   SPACE PREVIEW   ENTER USE   F3 CLOSE
+msg.phrase	 #  NAME       WAVE       A   D   S   R  VOL	 #  NAME       WAVE       A   D   S   R  VOL
+msg.phrase	 %c %d  %-9s %-9s %3d %3d %3d %3d %4d	 %c %d  %-9s %-9s %3d %3d %3d %3d %4d
+msg.phrase	All four channels use wavetable synthesis.	Kaikki neljä kanavaa käyttävät wavetable-synteesiä.
+msg.phrase	Preview plays C-4 on the track under the edit cursor.	Kuuntelu soittaa C-4:n kohdistimen alla olevalla raidalla.
+msg.phrase	Current instrument: %s %s	Nykyinen soitin: %s %s
+msg.phrase	SAVE SONG AS	TALLENNA KAPPALE NIMELLÄ
+msg.phrase	ENTER SAVE   F4 OR CTRL-C CANCEL	ENTER SAVE   F4 OR CTRL-C CANCEL
+msg.phrase	Directory:	Kansio:
 msg.phrase	  %s	  %s
-msg.phrase	File name:	Tiedoston nimi:
-msg.phrase	The extension .SGT is added automatically.	Tunniste .SGT lisätään automaattisesti.
-msg.phrase	An existing file can be overwritten.	Olemassa oleva tiedosto voidaan korvata.
+msg.phrase	File name:	Tiedostonimi:
+msg.phrase	The extension .SGT is added automatically.	Pääte .SGT lisätään automaattisesti.
+msg.phrase	An existing file can be overwritten.	Olemassa olevan tiedoston voi korvata.
 msg.phrase	OPEN SONG	AVAA KAPPALE
-msg.phrase	ENTER OPEN  BS PARENT  CTRL-O/CTRL-C CANCEL	ANNA OPEN BS PAREN CTRL-O/CTRL-C CANCEL
-msg.phrase	DIR  %s	DIR %s
+msg.phrase	ENTER OPEN  BS PARENT  CTRL-O/CTRL-C CANCEL	ENTER OPEN  BS PARENT  CTRL-O/CTRL-C CANCEL
+msg.phrase	DIR  %s	DIR  %s
 msg.phrase	(no .SGT files in this folder)	(tässä kansiossa ei ole .SGT-tiedostoja)
 msg.phrase	 %c %s%s	 %c %s%s
 msg.phrase	Files: %d	Tiedostot: %d
 msg.phrase	CONFIRM	VAHVISTA
-msg.phrase	Y = YES   N / ENTER / CTRL-C = NO	Y = KYLLÄ N / ENTER / CTRL-C = EI
-msg.phrase	Y = yes        N = no	Y = kyllä N = ei
+msg.phrase	Y = YES   N / ENTER / CTRL-C = NO	Y = YES   N / ENTER / CTRL-C = NO
+msg.phrase	Y = yes        N = no	Y = kyllä        N = ei
 msg.phrase	%02d	%02d
 msg.phrase	%03d	%03d
 msg.phrase	%02X	%02X
@@ -1086,19 +1082,19 @@ msg.phrase	A#	A#
 msg.phrase	B-	B-
 msg.phrase	A:/dir/name	A:/hakemisto/nimi
 msg.phrase	MThd	MThd
-msg.phrase	broken MThd	rikki MThd
-msg.phrase	MIDI IMPORT	MIDI TUONTI
+msg.phrase	broken MThd	vioittunut MThd
+msg.phrase	MIDI IMPORT	MIDI-TUONTI
 msg.phrase	MTrk	MTrk
-msg.phrase	broken delta time	rikki delta-aika
-msg.phrase	broken running status	rikki käynnissä tila
-msg.phrase	broken meta event	rikki metatapahtuma
-msg.phrase	broken sysex event	rikki sysex -tapahtuma
-msg.phrase	broken channel event	rikkinäinen kanavatapahtuma
-msg.phrase	SMF output is too small	SMF-lähtö on liian pieni
-msg.phrase	SMF output is too large	SMF-lähtö on liian suuri
+msg.phrase	broken delta time	vioittunut delta time
+msg.phrase	broken running status	vioittunut running status
+msg.phrase	broken meta event	vioittunut meta-tapahtuma
+msg.phrase	broken sysex event	vioittunut SysEx-tapahtuma
+msg.phrase	broken channel event	vioittunut kanavatapahtuma
+msg.phrase	SMF output is too small	SMF-tuloste on liian pieni
+msg.phrase	SMF output is too large	SMF-tuloste on liian suuri
 msg.phrase	the song is too long for SMF	kappale on liian pitkä SMF:lle
 msg.phrase	TRK1	TRK1
-msg.phrase	SGNO TRACKER: incompatible SGX ABI\n	SGNO TRACKER: yhteensopimaton SGX ABI
+msg.phrase	SGNO TRACKER: incompatible SGX ABI\n	SGNO TRACKER: yhteensopimaton SGX ABI\n
 msg.phrase	5 Macro	5 Makro
 msg.phrase	6 Help	6 Ohje
 msg.phrase	Run current	Suorita nykyinen
@@ -1106,7 +1102,7 @@ msg.phrase	Run the macro at the cursor (#! header cell and the cells below it)	S
 msg.phrase	Run selection	Suorita valinta
 msg.phrase	Run the selected cells as one macro (top-left cell is the #! header)	Suorita valitut solut yhtenä makrona (vasen yläsolu on #!-otsikko)
 msg.phrase	Run all	Suorita kaikki
-msg.phrase	Run every macro in the sheet, top-left to bottom-right	Suorita kaikki taulukon makrot vasemmasta yläkulmasta oikeaan alakulmaan
+msg.phrase	Run every macro in the sheet, top-left to bottom-right	Suorita kaikki taulukon makrot vasemmalta ylhäältä oikealle alas
 msg.phrase	Last error	Viimeisin virhe
 msg.phrase	Show the last macro error	Näytä viimeisin makrovirhe
 msg.phrase	Macro	Makro
@@ -1114,11 +1110,11 @@ msg.phrase	Macro: run #!ruby / #!python / #!basic cells	Makro: suorita #!ruby / 
 msg.phrase	Edit the cell (F2)	Muokkaa solua (F2)
 msg.phrase	Fit widths/heights to the contents	Sovita leveydet/korkeudet sisältöön
 msg.phrase	Last macro error	Viimeisin makrovirhe
-msg.phrase	No macro error.	Ei makrovirhettä.
+msg.phrase	No macro error.	Ei makrovirheitä.
 msg.phrase	IME on	IME päällä
 msg.phrase	IME off	IME pois
 msg.phrase	Macro: %s %s ...	Makro: %s %s ...
-msg.phrase	%s: this firmware cannot run macros (SGX ABI 5.10 or later)	%s: tämä laiteohjelmisto ei voi suorittaa makroja (SGX ABI 5.10 tai uudempi)
+msg.phrase	%s: this firmware cannot run macros (SGX ABI 5.10 or later)	%s: tämä laiteohjelmisto ei voi suorittaa makroja (vaatii SGX ABI 5.10:n tai uudemman)
 msg.phrase	Macro error: %s	Makrovirhe: %s
 msg.phrase	Macro: %s done	Makro: %s valmis
 msg.phrase	a macro is already running	makro on jo käynnissä
@@ -1127,11 +1123,11 @@ msg.phrase	not enough memory	muisti ei riitä
 msg.phrase	the macro stopped with an error	makro pysähtyi virheeseen
 msg.phrase	Macro error %s: %s	Makrovirhe %s: %s
 msg.phrase	Macro: not enough memory	Makro: muisti ei riitä
-msg.phrase	Macro: the cursor is not on a macro (a #!ruby / #!python / #!basic cell or the cells below it)	Makro: kohdistin ei ole makron kohdalla (#!ruby / #!python / #!basic -solu tai sen alla olevat solut)
+msg.phrase	Macro: the cursor is not on a macro (a #!ruby / #!python / #!basic cell or the cells below it)	Makro: kohdistin ei ole makron kohdalla (#!ruby / #!python / #!basic -solu tai sen alla olevat)
 msg.phrase	Macro: no macro in the sheet	Makro: taulukossa ei ole makroja
 msg.phrase	Run all macros	Suorita kaikki makrot
-msg.phrase	Macros: %d. Run them all, top-left to bottom-right? Changes cannot be undone.	Makroja: %d. Suoritetaanko kaikki vasemmasta yläkulmasta oikeaan alakulmaan? Muutoksia ei voi perua.
-msg.phrase	Macro: %d of %d done	Makro: %d valmis (yhteensä %d)
+msg.phrase	Macros: %d. Run them all, top-left to bottom-right? Changes cannot be undone.	Makroja: %d. Suoritetaanko kaikki vasemmalta ylhäältä oikealle alas? Muutoksia ei voi kumota.
+msg.phrase	Macro: %d of %d done	Makro: %d / %d valmis
 msg.phrase	Cleared the cell	Solu tyhjennetty
 msg.phrase	Cleared the selection	Valinta tyhjennetty
 msg.phrase	Background colour = %d	Taustaväri = %d
@@ -1140,7 +1136,7 @@ msg.phrase	Graph: line	Kaavio: viiva
 msg.phrase	Graph: bar	Kaavio: pylväs
 msg.phrase	Graph: mixed	Kaavio: yhdistelmä
 msg.phrase	Graph: pie	Kaavio: piirakka
-msg.phrase	Exported %s	Viety %s
+msg.phrase	Exported %s	%s viety
 msg.phrase	S: check: wait -- a file is being read or written	S:n tarkistus: odota -- tiedostoa luetaan tai kirjoitetaan
 msg.phrase	S: check: the drive is busy or not ready	S:n tarkistus: asema on varattu tai ei valmis
 msg.phrase	nothing for this item (ContextMenu.cfg)	ei mitään tälle kohteelle (ContextMenu.cfg)
@@ -1159,3 +1155,32 @@ msg.phrase	32 items at most (mark fewer, or put them in a folder)	enintään 32 
 msg.prefix	archive	arkisto
 msg.prefix	compress	pakkaa
 msg.prefix	render	WAV-vienti
+ui	USB・時計・設定	USB, clock, settings
+ui	0.001 秒未満	alle 0.001 s
+ui	%s 秒	%s s
+ui	コンパイル %s  実行 %s	käännös %s  ajo %s
+ui	コンパイル %s	käännös %s
+ui	実行 %s	ajo %s
+msg.phrase	1 Help	1 Ohje
+msg.phrase	3 Copy	3 Kopioi
+msg.phrase	4 Paste	4 Liitä
+msg.phrase	5 Goto	5 Siirry
+msg.phrase	6 Colour	6 Väri
+msg.phrase	7 Fit	7 Sovita
+msg.phrase	8 Backgr	8 Tausta
+msg.phrase	9 Recalc	9 Laske
+msg.phrase	10 Graph	10 Kaav
+msg.phrase	11 Save	11 Tall
+msg.phrase	12 Menu	12 Valik
+msg.phrase	1 About	1 Tietoa
+msg.phrase	2 Height	2 Korkeu
+msg.phrase	3 Width	3 Leveys
+msg.phrase	4 SelAll	4 Kaikki
+msg.phrase	10 Range	10 Alue
+msg.phrase	11 Name	11 Nimel
+msg.phrase	1 New	1 Uusi
+msg.phrase	2 Open	2 Avaa
+msg.phrase	4 SaveAs	4 Nimell
+msg.phrase	12 Quit	12 Lopet
+msg.phrase	3 Save	3 Tall
+msg.phrase	Version %s	Versio %s

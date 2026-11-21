@@ -58,6 +58,7 @@ Status column: ✓ = present. Anything missing is a bug — add it.
 | `pad_dir(i)` | `pad_dir(i)` | `PadDirX(i)` / `PadDirY(i)` | -1 / 0 / 1 |
 | `pad_axis(i,a[,dead])` | `pad_axis(i,a[,dead])` | `PadAxis(i,a[,dead])` | -1.0..1.0 with dead zone |
 | `pad_stick(i,side[,dead])` | `pad_stick(i,side[,dead])` | `PadStickX` / `PadStickY` | side "left" / "right" |
+| `pad_rumble(i,weak,strong)` | — | — | DS3 only. weak 0/1, strong 0..255 |
 | `text_attr` / `text_attr=` | `text_attr()` / `set_text_attr` | `TextAttr` (`=`) | |
 | `tattr(fg[,bg[,flags]])` | `tattr(...)` | `TAttr(...)` | |
 | `text_color(fg[,bg])` | `text_color(...)` | `TextColor fg[,bg]` | |
@@ -77,8 +78,9 @@ Status column: ✓ = present. Anything missing is a bug — add it.
 | `Machine::ADC` | `machine.ADC` | (`Machine.Adc*`) | ADC — see below |
 | `Machine::Music` | `machine.Music` | (`Machine.Music*`) | music player — see below |
 | `Machine::MIDI` | `machine.MIDI` | (`Machine.Midi*`) | MIDI — see below |
+| `Machine::Archive` | `machine.Archive` | (`Machine.Arc*`) | compression and archives — see below |
 
-Python: `machine.Music` / `machine.MIDI` / `machine.GPIO` / `machine.PIO2` are **namespace
+Python: `machine.Music` / `machine.MIDI` / `machine.GPIO` / `machine.PIO2` / `machine.Archive` are **namespace
 instances**, not types (MicroPython's type objects apply a self-type check to built-in
 functions with arguments). The prelude also exposes them as `M.Music` / `M.MIDI` /
 `M.GPIO` / `M.PIO2`.
@@ -96,15 +98,37 @@ music stream uses port 0, so the game sound effects should use another port.
 | `Machine::Music.pause(on)` | `machine.Music.pause(on)` | `Machine.MusicPause on` | |
 | `Machine::Music.playing?` | `machine.Music.playing()` | `Machine.MusicPlaying` | |
 | `Machine::Music.paused?` | `machine.Music.paused()` | `Machine.MusicPaused` | |
-| `Machine::Music.volume(v)` | `machine.Music.volume(v)` | `Machine.MusicVolume v` | 0..127 |
-| `Machine::Music.seek(ms)` | `machine.Music.seek(ms)` | `Machine.MusicSeek ms` | VGM cannot seek |
-| `Machine::Music.position` / `length` | `...position()` / `length()` | `Machine.MusicPosition` / `MusicLength` | ms |
+| `Machine::Music.volume(v)` | `machine.Music.volume(v)` | `Machine.MusicVolume v` | 0..254 (127 = 100%, 254 = 200%) |
+| `Machine::Music.seek(ms)` | `machine.Music.seek(ms)` | `Machine.MusicSeek ms` | VGM cannot seek; MP3/OGG/WAV can (the firmware applies it on its next chunk) |
+| `Machine::Music.position` / `length` | `...position()` / `length()` | `Machine.MusicPosition` / `MusicLength` | ms. MP3 uses Xing/Info/VBRI, OGG the last page granule; without those it is an estimate |
 | `Machine::Music.format` | `...format()` | `Machine.MusicFormat` | `MUSIC_MP3` / OGG / WAV / VGM |
 | `Machine::Music.title` | `...title()` | `Machine.MusicTitle` | VGM GD3 title, or the file name |
-| `Machine::Music.underruns` / `load` | `...underruns()` / `load()` | `Machine.MusicUnderruns` / `MusicLoad` | VGM only |
+| `Machine::Music.underruns` / `load` | `...underruns()` / `load()` | `Machine.MusicUnderruns` / `MusicLoad` | playback diagnostics (all formats) |
 
 Constants: Ruby `Machine::Music::LOOP` / `MP3` / `OGG` / `WAV` / `VGM`,
 Python `machine.Music.LOOP` etc., BASIC `Machine.MUSIC_LOOP` etc.
+
+## Archive (`Machine::Archive` / `machine.Archive` / `Machine.Arc*`, 2026-11-17)
+
+Compression and archives (SGX ABI 5.12, `src/archive/`). Formats: `STORE` `DEFLATE` `ZLIB` `GZIP` `BZIP2`
+`LZMA` (.lzma) `XZ`. Archives: ZIP (store / deflate / bzip2 / LZMA), 7z (LZMA, solid), tar and
+.tar.gz / .tar.bz2 / .tar.xz / .tar.lzma; the kind comes from the archive name. The work area is in PSRAM
+(the firmware picks a smaller level if the level does not fit; when the plain PSRAM is short and the FB is not shown, it borrows the four FB pages and clears them afterwards, so FB contents drawn earlier are lost). ESC stops a long call. Errors raise
+`RuntimeError` (Ruby) / `OSError` (Python) with the reason; BASIC returns a negative number and
+`Machine.ArcWhy` gives the reason.
+
+| Ruby | Python | BASIC | Notes |
+|---|---|---|---|
+| `Machine::Archive.compress(s[,fmt[,level]])` | `machine.Archive.compress(b[,fmt[,level]])` | — | bytes; fmt defaults to GZIP, level to 6 (BASIC strings cannot hold bytes) |
+| `Machine::Archive.decompress(s[,fmt])` | `machine.Archive.decompress(b[,fmt])` | — | fmt = nil / None: from the first bytes. Up to 4 MB |
+| `Machine::Archive.compress_file(in,out[,fmt[,level]])` | `...compress_file(in,out[,fmt[,level]])` | `Machine.ArcCompressFile in$,out$[,fmt[,level]]` | one file (.gz .bz2 .xz .lzma) |
+| `Machine::Archive.decompress_file(in,out)` | `...decompress_file(in,out)` | `Machine.ArcDecompressFile in$,out$` | the format from the file |
+| `Machine::Archive.list(path)` | `machine.Archive.list(path)` | `n = Machine.ArcList(path$)` | Ruby: Array of Hash, Python: list of dict (`name` `size` `csize` `mtime` `crc` `dir`). BASIC: then `Machine.ArcName(i)` / `ArcSize(i)` / `ArcCsize(i)` / `ArcMtime(i)` / `ArcCrc(i)` / `ArcDir(i)` (0-based) |
+| `Machine::Archive.extract(path[,dest[,only]])` | `...extract(path[,dest[,only]])` | `Machine.ArcExtract path$[,dest$[,only$]]` | the number of files written; folders are made, same names are replaced |
+| `Machine::Archive.create(path,paths[,method[,level]])` | `...create(path,paths[,method[,level]])` | `Machine.ArcCreate path$,"a;b;c"[,method[,level]]` | the number of items; paths are files or folders (with everything under them). method: ZIP only (STORE DEFLATE BZIP2 LZMA) |
+| — | — | `Machine.ArcWhy` | the reason of the last error |
+
+Constants: Ruby `Machine::Archive::GZIP` etc., Python `machine.Archive.GZIP` etc., BASIC `Machine.ARC_GZIP` etc.
 
 ## MIDI (`Machine::MIDI` / `machine.MIDI` / `Machine.Midi*`)
 

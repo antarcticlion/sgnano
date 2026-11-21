@@ -18,8 +18,9 @@
 | `docs/` | 3 言語のコーディングガイド、SGX の ABI、`Machine` の対応表、キー操作の早見表 |
 | `samples/` | mruby・MicroPython・SG BASIC の見本（3 言語で同じものがそろったテスト用アプリ、ベンチマーク、デモ） |
 | `sdk/sgx/` | C で外部実行ファイル（`.sgx`）を組むための SDK（ABI はα版の間に変わることがあります） |
-| `apps/` | SGX の見本（`hello`）。Doom と wav2mp3 のソースは別のリポジトリ（`sgnano_doomgeneric`・`sgnano_wav2mp3`） |
-| `hardware/` | C ボードのガーバー |
+| `apps/` | SGX の見本（`hello`）と CPU の計測 `cpubench`（α2 から）。Doom と wav2mp3 のソースは別のリポジトリ（`sgnano_doomgeneric`・`sgnano_wav2mp3`） |
+| `hardware/` | C ボードのガーバーと KiCad のプロジェクト（回路図・基板、α2 から） |
+| `resources/bench/` | cpubench の負荷の曲（VGZ・MP3、CC BY-SA 4.0） |
 | `LICENSES/` | ファームウェアと SGX に入っている外部の部品のライセンス文 |
 
 ## ハードウェア
@@ -74,18 +75,36 @@
 
 | 何を入れるか | ファイル |
 |---|---|
-| **α1 の一式**（初回。S: とフォントも入る） | [alpha1-2026.11.2 の Release](https://github.com/antarcticlion/sgnano/releases/tag/alpha1-2026.11.2) / [全体 UF2](https://github.com/antarcticlion/sgnano/releases/download/alpha1-2026.11.2/sgnano-alpha1-2026.11.2-full.uf2) / [IME の辞書](https://github.com/antarcticlion/sgnano/releases/download/alpha1-2026.11/sgnano-alpha1-2026.11-ime-dict.zip) |
-| **最終ファームウェア**（ファームだけ更新） | [alpha1-2026.11.3 の Release](https://github.com/antarcticlion/sgnano/releases/tag/alpha1-2026.11.3) / [ファーム UF2](https://github.com/antarcticlion/sgnano/releases/download/alpha1-2026.11.3/sgnano-alpha1-2026.11.3-firmware.uf2) |
+| **α2 の一式**（初回。S: とフォントも入る） | [alpha2-2026.11 の Release](https://github.com/antarcticlion/sgnano/releases/tag/alpha2-2026.11) / [全体 UF2](https://github.com/antarcticlion/sgnano/releases/download/alpha2-2026.11/sgnano-alpha2-2026.11-full.uf2) / [IME の辞書](https://github.com/antarcticlion/sgnano/releases/download/alpha1-2026.11/sgnano-alpha1-2026.11-ime-dict.zip)（α1 と同じ） |
+| **ファームウェアだけ**（S: とフォントを残して更新） | [ファーム UF2](https://github.com/antarcticlion/sgnano/releases/download/alpha2-2026.11/sgnano-alpha2-2026.11-firmware.uf2) |
+| **S: とフォント** | [後半 UF2](https://github.com/antarcticlion/sgnano/releases/download/alpha2-2026.11/sgnano-alpha2-2026.11-system-font.uf2) |
 
-1. **初回**は α1 の全体 UF2 を、BOOTSEL で立ち上げた `RPI-RP2` へコピーします。**S: は初期化されます。**
-2. そのあと、**最終ファームウェアの UF2** をコピーします（ファームだけ更新。S: とフォントは残ります）。
-   - `alpha1-2026.11.1` の全体 UF2 は、作成の不具合で各ブロックの先頭が壊れていたため配布を停止しました。全体を入れ直すときは **11.2 の全体 UF2** を使ってください。
-   - 11.3 以降のパッチリリースは、**ファームウェア UF2 だけ**を配布します。
-3. **S: とフォントを入れ直すとき**は、α1 の後半 UF2（`-system-font.uf2`）。ファームは残ります。
+1. **初回**は α2 の全体 UF2 を、BOOTSEL で立ち上げた `RPI-RP2` へコピーします。**S: は初期化されます。**
+2. **α1 から更新するとき**は、ファームウェアの UF2 だけでも動きます（S: とフォントは残ります）。ただし S: の言語の書庫・`bin` のプログラム・見本は
+   α2 で新しくなっています。新しくするときは後半 UF2（`-system-font.uf2`）も入れてください（**S: は初期化されます**。設定やファイルは先に控えてください）。
+3. α1 のときの注意: `alpha1-2026.11.1` の全体 UF2 は作成の不具合で配布を停止しました（11.2 で直しました）。
 4. 日本語の漢字変換には **IME の辞書**（`-ime-dict.zip`）が要ります。USB のドライブのルートに `SgnanoIME/` ごと置いてください（S: の 4MB には入りません）。
 5. フォント ROM はファームと同じ版を使ってください。v1 の ROM では文字が出ません。
 
 SHA-256 は各 Release の `SHA256SUMS` にあります。
+
+## CPU の計測（cpubench、α2）
+
+[`apps/cpubench`](apps/cpubench/) で、画面モードと音楽の負荷の下で Dhrystone 2.1 と Linpack（n = 100）を測った結果です
+（clk_sys 302.4 MHz、1 つ 5 秒、データとスタックは SRAM。2026-11-21、α2）。
+
+| 画面 | 音楽 | DMIPS | 単精度 MFLOPS | 倍精度 MFLOPS | 曲の負荷 |
+|---|---|---:|---:|---:|---:|
+| モード 0（表示なし） | なし | 410.9 | 59.61 | 7.13 | 0% |
+| モード 0 | MP3 | 263.3 | 39.24 | 4.60 | 31% |
+| モード 0 | VGM（YM2151 + C352） | 155.0 | 24.94 | n/a | 57% |
+| モード 1（テキスト） | なし | 411.5 | 59.76 | 7.13 | 0% |
+| モード 2（テキスト + RGB555 の FB） | なし | 116.8 | 16.95 | 2.02 | 0% |
+| モード 4（テキスト + ローレゾ + CLUT4 の FB） | なし | 309.0 | 44.51 | 5.20 | 0% |
+| モード 5（テキスト + ローレゾ） | なし | 410.6 | 59.56 | 7.15 | 0% |
+| モード 7（テキスト + 320x200 のビットマップ） | なし | 358.1 | 52.12 | 6.55 | 0% |
+
+n/a は SRAM が足りずに測れなかった組み合わせです。FB を出すモードでは、画面の取得がメモリの帯域を使うぶん遅くなります。
 
 **サウンドフォント（SF2）は入っていません。** ファームの SMF 再生は内蔵の音源（4 声のウェーブテーブル）で鳴るので要りません。
 `smf2vgm.sgx`（MIDI → VGM / VGZ）を使うときだけ、[MuseScore_General.sf2](https://ftp.osuosl.org/pub/musescore/soundfont/MuseScore_General/MuseScore_General.sf2)（約 83MB、MIT）を落として、

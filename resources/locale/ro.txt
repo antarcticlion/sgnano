@@ -21,14 +21,14 @@ ui	属性を変える	Schimbați atributele
 ui	エディタで開く	Deschideți în editor
 ui	テキスト表示（Shift+V / Ctrl+Alt+F7 は 16 進）	Vizualizați ca text (Shift+V / Ctrl+Alt+F7 hex)
 ui	ドライブの情報	Informații de conducere
-ui	フォルダを作る / 新しいファイル	Dosar nou / fișier nou
+ui	フォルダを作る（Shift+F5） / 新しいファイル（Ctrl+F1）	Dosar nou (Shift+F5) / fișier nou (Ctrl+F1)
 ui	シェル sgsh / 媒体を取り出す	Shell sgsh / scoateți mediul
 ui	読み直す	Reîncărcați
-ui	見えている画面を PNG で保存	Salvați ecranul ca PNG
+ui	見えている画面を PNG で保存（Alt+F5 も同じ）	Salvați ecranul ca PNG (= Alt+F5)
 ui	窓を閉じる・選択を解く（サブフォルダでは上位へ）	Închideți fereastra / ștergeți selecția (într-un subdosar: mergeți sus)
-ui	ファイルの操作（FD と同じ。印・範囲・カーソルの順に選ぶ）	Operații cu fișiere (ca în FD: marcaje, apoi intervalul, apoi cursorul)
-ui	コピー: 行き先はドライブとフォルダの木から。ESC で止める	Copiere: alegeți destinația din arborele de unitate și foldere. ESC se oprește
-ui	削除: y で確かめる。印・範囲をまとめて。フォルダは中身ごと	Șterge: confirmați cu y. Marchează și intervale deodată. Foldere cu conținutul lor
+ui	ファイルの操作（FD と同じ。印・範囲・カーソルの順）	Operații cu fișiere (ca în FD: marcaje, apoi intervalul, apoi cursorul)
+ui	コピー: 行き先は木から選ぶ。ESC で止める	Copiere: alegeți destinația din arborele de unitate și foldere. ESC se oprește
+ui	削除: y で確かめる。印・範囲をまとめて	Șterge: confirmați cu y. Marchează și intervale deodată. Foldere cu conținutul lor
 ui	フォルダを削除（中身ごと）	Ștergeți un folder (cu conținutul său)
 ui	名前を変える（今の名前を直して Enter）	Redenumiți (editați numele, Enter)
 ui	属性: R 読み出し専用・H 隠し・S システム・A アーカイブ	Atribute: R numai pentru citire, H ascuns, S sistem, A arhivă
@@ -50,22 +50,19 @@ ui	画面（Alt+F。FD の F キーとぶつからない）	Ecran (Alt+F, nu int
 ui	FB（絵）/ テキスト面を出す・隠す	Afișează / ascunde FB (poza) / textul
 ui	FB の表示ページ（0〜3）	Pagina de afișare FB (0-3)
 ui	FB を 0 で消す / 明るさを 1/2 に（RGB555）	Ștergeți FB la 0 / reduceți la jumătate luminozitatea (RGB555)
-ui	USB のエンドポイントと LAN の状態	Punctele terminale USB și starea LAN
+ui	USB のエンドポイントと LAN（U: 10 秒に 1 度）	Punctele terminale USB și starea LAN
 ui	FB の表示ページを消す / 明るさを 1/2 に	Ștergeți pagina de afișare FB / reduceți-i luminozitatea la jumătate
 ui	テキストの属性の見本	Exemple de atribute text
 ui	モニタの EDID（起動時に読んだもの）	Monitorizați EDID (citit la pornire)
 ui	フォント ROM のライセンスとクレジット	Licențe și credite pentru font ROM
 ui	設定（表示の言語・IME・キーボードロケール）	Setări (limba de afișare, IME și localitatea tastaturii)
-ui	時計（NTP で合わせた日本時間。s ですぐ合わせる）	Ceas (ora Japoniei setată de NTP; s se sincronizează acum)
+ui	時計（NTP で合わせた日本時間。s は 3 分に 1 度）	Ceas (ora Japoniei setată de NTP; s se sincronizează acum)
 ui	表計算（SGCALC）を開く	Deschideți foaia de calcul (SGCALC)
 ui	S: ドライブのエラー検査（誤りがあれば直すか聞く）	Verificați S: pentru erori (întreabă înainte de a repara)
 ui	トラッカー（TRACKER）を開く	Deschideți TRACKER
-ui	再起動（確かめの窓が出る）	Reporniți (întreabă mai întâi)
+ui	再起動（確かめの窓）。Ctrl+Alt+Del も同じ	Reporniți (întreabă mai întâi) = Ctrl+Alt+Del
 ui	ADC のステレオ入力（GP40 / 41）を鳴らす	Redați intrarea stereo ADC (GP40 / 41)
 ui	VGM/VGZ を 96kHz/24bit WAV に書き出す	Exportați VGM/VGZ la un WAV de 96 kHz / 24 de biți
-ui	このヘルプ	Acest ajutor
-ui	ページを替える	Schimbați pagina
-ui	閉じる	Aproape
 ui	テキスト・16 進のビュアー（less 風）	Vizualizator text/hexadecimal (ca mai puțin)
 ui	1 行	O singură linie
 ui	1 ページ	O pagină
@@ -83,10 +80,9 @@ ui	IME の言語（日本語 / English / 한국어）	Limba IME (Japoneză / Eng
 ui	ひらがな / カタカナで確定	Comite ca hiragana / katakana
 ui	エディタのヘルプ	Ajutorul editorului
 ui	シェル	Coajă
-ui	シェル（csh のサブセット。exit / Ctrl-D で戻る、help で一覧）	Shell (un subset csh. ieșire / Ctrl-D pentru a reveni, ajutor listează comenzile)
+ui	シェル（csh の一部。exit / Ctrl-D で戻る、help で一覧）	Shell (un subset csh. ieșire / Ctrl-D pentru a reveni, ajutor listează comenzile)
 ui	一覧と移動	Lista și mutarea
 ui	ファイルの操作	Operații cu fișiere
-ui	画面と機器	Ecran și dispozitive
 ui	ビュアーとエディタ	Spectatorii și editorul
 ui	ヘルプ  %u / %u  %s	Ajutor %u / %u %s
 ui	Left Right: ページを替える    F1 / ESC: 閉じる	Stânga Dreapta: schimbați pagina F1 / ESC: închideți
@@ -147,9 +143,9 @@ ui	10 EP表	10 EPs
 ui	11 時計	11 Clock
 ui	12 表計	12 CALC
 ui	1 属性	1 Attr
-ui	2 情報	2 Info
+ui	2Drv情報	2 Info
 ui	3 移動	3 Move
-ui	5 作成	5 Mkdir
+ui	5 ﾌｫﾙﾀﾞ	5 Mkdir
 ui	6 シェル	6 Shell
 ui	8 編集	8 Edit
 ui	9 表示	9 View
@@ -187,10 +183,10 @@ ui	新しいファイル	Fișier nou
 ui	時刻:	Timp:
 ui	実行:	Run:
 ui	名前:	Nume:
-ui	年-月-日 時:分  Enter 合わせる  ESC そのまま	AAAA-LL-ZZ hh:mm Introduceți set ESC keep
-ui	Enter 走らせる  ←→ 動かす  BS / Del 消す  ESC やめる	Introduceți rulare <-> mutare BS / Delete ștergere ESC anulare
-ui	Enter 変える  ←→ 動かす  BS / Del 消す  ESC やめる	Introduceți redenumirea <-> mutare BS / Ștergere ștergere ESC anulare
-ui	Enter 作る  ←→ 動かす  BS / Del 消す  ESC やめる	Introduceți creați <-> mutați BS / ștergeți ștergeți ESC anulați
+ui	年-月-日 時:分  Enter 合わせる  ESC そのまま	AAAA-LL-ZZ hh:mm  Enter setează  ESC păstrează
+ui	Enter 走らせる  ←→ 動かす  BS / Del 消す  ESC やめる	Enter rulează  ←→ mută  BS / Del șterge  ESC anulează
+ui	Enter 変える  ←→ 動かす  BS / Del 消す  ESC やめる	Enter redenumește ←→ mută BS/Del șterge ESC anulează
+ui	Enter 作る  ←→ 動かす  BS / Del 消す  ESC やめる	Enter creează  ←→ mută  BS / Del șterge  ESC anulează
 ui	消す	Şterge
 ui	個の項目	articole
 ui	フォルダは中身ごと消します。よろしいですか？	Folderele sunt șterse cu conținutul lor. esti sigur?
@@ -344,7 +340,7 @@ ui	 組み立てています... %lu / %lu 行	Construire... %lu / %lu rânduri
 ui	 書いています... %lu / %lu KB（FB は隠しています）	Se scrie... %lu / %lu KB (FB-ul este ascuns)
 ui	書けませんでした	Nu am putut scrie
 ui	書庫の名前（印の付いた項目、無ければカーソルの項目を入れる）	Numele arhivei (elementele marcate sau elementul cursorului dacă nu există)
-ui	Enter 圧縮する  ←→ 動かす  BS / Del 消す  ESC やめる	Introduceți comprimare ←→ mutare BS / Delete ștergere ESC anulare
+ui	Enter 圧縮する  ←→ 動かす  BS / Del 消す  ESC やめる	Enter comprimă  ←→ mută  BS / Del șterge  ESC anulează
 ui	WAV 書き出し: %s 中止（%s）	Export WAV: %s anulat (%s)
 ui	WAV 書き出し: %s 失敗（%s）	Exportul WAV: %s a eșuat (%s)
 ui	WAV 書き出し: %s 合計 %s	Export WAV: %s total %s
@@ -487,10 +483,10 @@ msg.phrase	the sound is not open	sunetul nu este deschis
 msg.phrase	no such channel	nici un astfel de canal
 msg.phrase	the sequencer is busy	secvențiatorul este ocupat
 msg.phrase	not enough PSRAM for the song	nu este suficient PSRAM pentru melodie
-msg.phrase	not a standard MIDI file (no MThd)	nu este un fișier MIDI standard (fără MThd)
-msg.phrase	no tracks	fara urme
-msg.phrase	a track is broken (MTrk)	o pistă este ruptă (MTrk)
-msg.phrase	SMPTE time division is not supported	Diviziunea în timp SMPTE nu este acceptată
+msg.phrase	not a standard MIDI file (no MThd)	nu este un fișier MIDI standard (lipsește MThd)
+msg.phrase	no tracks	nicio pistă
+msg.phrase	a track is broken (MTrk)	o pistă este deteriorată (MTrk)
+msg.phrase	SMPTE time division is not supported	Diviziunea de timp SMPTE nu este acceptată
 msg.phrase	SMF format 2 is not supported (0 and 1 only)	Formatul SMF 2 nu este acceptat (doar 0 și 1)
 msg.phrase	not a Bulk-Only drive	nu o unitate de tip Bulk-Only
 msg.phrase	not an optical drive	nu o unitate optică
@@ -510,7 +506,7 @@ msg.phrase	cancelled	anulat
 msg.phrase	could not mount	nu se putea monta
 msg.phrase	could not start a read	nu a putut începe o citire
 msg.phrase	could not start a write	nu a putut începe o scriere
-msg.phrase	is a directory	este un director
+msg.phrase	is a directory	este un dosar
 msg.phrase	that is a directory	acela este un director
 msg.phrase	no clusters	fără clustere
 msg.phrase	no room for the cluster list	nu există loc pentru lista de clustere
@@ -624,161 +620,161 @@ msg.word	 files	fișiere
 msg.word	 (	(
 msg.phrase	Untitled	Fără titlu
 msg.phrase	1 File	1 Fișier
-msg.phrase	2 Edit	2 Editați
+msg.phrase	2 Edit	2 Editar
 msg.phrase	3 Graph	3 Graficul
 msg.phrase	4 Sheet	4 foaie
 msg.phrase	5 Help	5 Ajutor
-msg.phrase	EMPTY	GOL
+msg.phrase	EMPTY	GOALĂ
 msg.phrase	NUMBER	NUMĂR
 msg.phrase	TEXT	TEXT
 msg.phrase	FORMULA	FORMULĂ
-msg.phrase	Type to enter, F2 to edit, F1 for help	Tastați pentru a intra, F2 pentru a edita, F1 pentru ajutor
+msg.phrase	Type to enter, F2 to edit, F1 for help	Scrieți pentru a introduce, F2 pentru editare, F1 pentru ajutor
 msg.phrase	5 CSV	5 CSV
 msg.phrase	6 ODS	6 ODS
-msg.phrase	[SHIFT]	[SCHIMBARE]
+msg.phrase	[SHIFT]	[SHIFT]
 msg.phrase	[CTRL]	[CTRL]
 msg.phrase	[ALT]	[ALT]
 msg.phrase	Ready	Gata
-msg.phrase	SGCALC	SGCAC
+msg.phrase	SGCALC	SGCALC
 msg.phrase	Press any key	Apăsați orice tastă
-msg.phrase	Y = yes    N = no    Esc = cancel	Y = da N = nu Esc = anulare
-msg.phrase	Enter = OK    Esc = cancel    Ctrl-U = clear	Enter = OK Esc = anulare Ctrl-U = șterge
-msg.phrase	First row/column = labels; charts use the 640x480 CLUT8 FB.	Primul rând/coloană = etichete; diagramele folosesc 640x480 CLUT8 FB.
-msg.phrase	SGCALC - HELP	SGCAC - AJUTOR
+msg.phrase	Y = yes    N = no    Esc = cancel	Y = da    N = nu    Esc = anulare
+msg.phrase	Enter = OK    Esc = cancel    Ctrl-U = clear	Enter = OK    Esc = anulare    Ctrl-U = golire
+msg.phrase	First row/column = labels; charts use the 640x480 CLUT8 FB.	Primul rând/coloană = etichete; graficele folosesc FB CLUT8 640x480.
+msg.phrase	SGCALC - HELP	SGCALC - AJUTOR
 msg.phrase	Press any key to return	Apăsați orice tastă pentru a reveni
 msg.phrase	Press any key to return.	Apăsați orice tastă pentru a reveni.
-msg.phrase	ABOUT SGCALC	DESPRE SGALC
+msg.phrase	ABOUT SGCALC	DESPRE SGCALC
 msg.phrase	New	Nou
-msg.phrase	Start a new sheet	Începeți o foaie nouă
-msg.phrase	Open...	Deschide...
-msg.phrase	Open an ODS, FODS or CSV file	Deschideți un fișier ODS, FODS sau CSV
-msg.phrase	Save	Salva
-msg.phrase	Save the current file	Salvați fișierul curent
-msg.phrase	Save As...	Salvați ca...
-msg.phrase	Save with a new name or format	Salvați cu un nou nume sau format
-msg.phrase	Export CSV...	Exportați CSV...
-msg.phrase	Write a CSV copy	Scrieți o copie CSV
+msg.phrase	Start a new sheet	Începe o foaie nouă
+msg.phrase	Open...	Deschidere...
+msg.phrase	Open an ODS, FODS or CSV file	Deschide un fișier ODS, FODS sau CSV
+msg.phrase	Save	Salvare
+msg.phrase	Save the current file	Salvează fișierul curent
+msg.phrase	Save As...	Salvare ca...
+msg.phrase	Save with a new name or format	Salvează cu un nume sau format nou
+msg.phrase	Export CSV...	Export CSV...
+msg.phrase	Write a CSV copy	Scrie o copie CSV
 msg.phrase	Export ODS...	Export ODS...
-msg.phrase	Write a LibreOffice copy	Scrieți o copie a LibreOffice
-msg.phrase	Quit	Renunță
-msg.phrase	Leave SGCALC	Părăsiți SGCLC
-msg.phrase	Clear	Clar
-msg.phrase	Clear the selected cells	Ștergeți celulele selectate
-msg.phrase	Copy	Copie
-msg.phrase	Copy the selection	Copiați selecția
-msg.phrase	Paste	Pastă
-msg.phrase	Paste at the cursor	Lipiți pe cursor
-msg.phrase	Cut	Tăiați
-msg.phrase	Copy and clear the selection	Copiați și ștergeți selecția
-msg.phrase	Select all	Selectați toate
-msg.phrase	Select all used cells	Selectați toate celulele utilizate
-msg.phrase	Text color...	Culoarea textului...
-msg.phrase	Choose the text colour	Alegeți culoarea textului
+msg.phrase	Write a LibreOffice copy	Scrie o copie LibreOffice
+msg.phrase	Quit	Ieșire
+msg.phrase	Leave SGCALC	Ieșire din SGCALC
+msg.phrase	Clear	Golire
+msg.phrase	Clear the selected cells	Golește celulele selectate
+msg.phrase	Copy	Copiere
+msg.phrase	Copy the selection	Copiază selecția
+msg.phrase	Paste	Lipire
+msg.phrase	Paste at the cursor	Lipește la cursor
+msg.phrase	Cut	Tăiere
+msg.phrase	Copy and clear the selection	Copiază și golește selecția
+msg.phrase	Select all	Selectare tot
+msg.phrase	Select all used cells	Selectează toate celulele folosite
+msg.phrase	Text color...	Culoare text...
+msg.phrase	Choose the text colour	Alege culoarea textului
 msg.phrase	Background...	Fundal...
-msg.phrase	Choose the cell background	Alegeți fundalul celulei
-msg.phrase	Line	Linia
-msg.phrase	Draw a line graph from the selection	Desenați un grafic cu linii din selecție
-msg.phrase	Bar	Bar
-msg.phrase	Draw a bar graph from the selection	Desenați un grafic cu bare din selecție
-msg.phrase	Mixed	Amestecat
-msg.phrase	Bars for the first series, lines for the rest	Bare pentru prima serie, rânduri pentru restul
-msg.phrase	Pie	Plăcintă
-msg.phrase	Draw a pie graph from the selection	Desenați un grafic circular din selecție
-msg.phrase	Range...	Gamă...
-msg.phrase	Set the graph range explicitly	Setați în mod explicit intervalul graficului
-msg.phrase	Draw again	Desenează din nou
-msg.phrase	Redraw the last graph	Redesenați ultimul grafic
-msg.phrase	Goto...	Du-te la...
-msg.phrase	Jump to a cell (for example C12)	Salt la o celulă (de exemplu C12)
-msg.phrase	Column width...	Lățimea coloanei...
-msg.phrase	Change the selected columns' width	Modificați lățimea coloanelor selectate
-msg.phrase	Row height...	Înălțimea rândului...
-msg.phrase	Change the selected rows' height	Modificați înălțimea rândurilor selectate
-msg.phrase	Auto fit	Potrivire automată
-msg.phrase	Fit widths/heights to the contents (F7)	Potriviți lățimi/înălțimi la conținut (F7)
-msg.phrase	Recalculate	Recalculați
-msg.phrase	Re-evaluate all formulas	Reevaluați toate formulele
-msg.phrase	Erase all	Ștergeți totul
-msg.phrase	Clear the whole sheet	Curățați toată foaia
-msg.phrase	Keys	Chei
-msg.phrase	Show the key guide	Arată ghidul cheii
+msg.phrase	Choose the cell background	Alege fundalul celulei
+msg.phrase	Line	Linie
+msg.phrase	Draw a line graph from the selection	Desenează un grafic liniar din selecție
+msg.phrase	Bar	Bare
+msg.phrase	Draw a bar graph from the selection	Desenează un grafic cu bare din selecție
+msg.phrase	Mixed	Mixt
+msg.phrase	Bars for the first series, lines for the rest	Bare pentru prima serie, linii pentru restul
+msg.phrase	Pie	Disc
+msg.phrase	Draw a pie graph from the selection	Desenează un grafic circular din selecție
+msg.phrase	Range...	Zonă...
+msg.phrase	Set the graph range explicitly	Introdu manual zona graficului
+msg.phrase	Draw again	Redesenare
+msg.phrase	Redraw the last graph	Redesenează ultimul grafic
+msg.phrase	Goto...	Salt...
+msg.phrase	Jump to a cell (for example C12)	Sari la o celulă (de exemplu C12)
+msg.phrase	Column width...	Lățime coloană...
+msg.phrase	Change the selected columns' width	Schimbă lățimea coloanelor selectate
+msg.phrase	Row height...	Înălțime rând...
+msg.phrase	Change the selected rows' height	Schimbă înălțimea rândurilor selectate
+msg.phrase	Auto fit	Potrivire
+msg.phrase	Fit widths/heights to the contents (F7)	Potrivește lățimile/înălțimile la conținut (F7)
+msg.phrase	Recalculate	Recalculare
+msg.phrase	Re-evaluate all formulas	Recalculează toate formulele
+msg.phrase	Erase all	Șterge tot
+msg.phrase	Clear the whole sheet	Golește toată foaia
+msg.phrase	Keys	Taste
+msg.phrase	Show the key guide	Arată ghidul tastelor
 msg.phrase	About	Despre
-msg.phrase	About SGCALC	Despre SGCLC
-msg.phrase	File	Fişier
-msg.phrase	Edit	Edita
+msg.phrase	About SGCALC	Despre SGCALC
+msg.phrase	File	Fișier
+msg.phrase	Edit	Editare
 msg.phrase	Graph	Grafic
-msg.phrase	Sheet	foaie
+msg.phrase	Sheet	Foaie
 msg.phrase	Help	Ajutor
-msg.phrase	File: new, open, save, export, quit	Fișier: nou, deschidere, salvare, exportare, ieșire
-msg.phrase	Edit: clear, copy, paste, cut, select all	Editați: ștergeți, copiați, lipiți, tăiați, selectați tot
-msg.phrase	Graph: line, bar, mixed, pie (draws in the FB)	Grafic: linie, bară, mixt, plăcintă (desenează în FB)
-msg.phrase	Sheet: goto, column width, recalculate, erase	Foaie: du-te la, lățimea coloanei, recalcula, șterge
-msg.phrase	Help: keys and about	Ajutor: chei și despre
+msg.phrase	File: new, open, save, export, quit	Fișier: nou, deschidere, salvare, export, ieșire
+msg.phrase	Edit: clear, copy, paste, cut, select all	Editare: golire, copiere, lipire, tăiere, selectare tot
+msg.phrase	Graph: line, bar, mixed, pie (draws in the FB)	Grafic: linie, bare, mixt, disc (desenat în FB)
+msg.phrase	Sheet: goto, column width, recalculate, erase	Foaie: salt, lățime coloană, recalculare, ștergere
+msg.phrase	Help: keys and about	Ajutor: taste și despre
 msg.phrase	Left/Right = menu    Up/Down = item    Enter = choose    Esc = cancel	Stânga/Dreapta = meniu Sus/Jos = element Enter = alege Esc = anulare
 msg.phrase	Cancelled	Anulat
-msg.phrase	The selection is too large or memory is low.	Selecția este prea mare sau memoria este scăzută.
+msg.phrase	The selection is too large or memory is low.	Selecția este prea mare sau memoria este insuficientă.
 msg.phrase	the cell	celula
 msg.phrase	the selection	selecția
 msg.phrase	Nothing to paste	Nimic de lipit
-msg.phrase	Pasted	Lipită
-msg.phrase	GO TO CELL	MERGE LA CELULA
+msg.phrase	Pasted	Lipit
+msg.phrase	GO TO CELL	SALT LA CELULĂ
 msg.phrase	Cell reference (A1):	Referința celulei (A1):
-msg.phrase	Goto	Du-te la
-msg.phrase	COLUMN WIDTH	LĂȚimea coloanei
-msg.phrase	Width in characters (4..30):	Lățimea în caractere (4..30):
-msg.phrase	ROW HEIGHT	ÎNĂLȚIE RIND
-msg.phrase	Height in text rows (1..8):	Înălțimea în rândurile de text (1..8):
-msg.phrase	Auto fit: the sheet is empty	Potrivire automată: foaia este goală
-msg.phrase	BACKGROUND COLOUR	CULOARE DE FUNDAL
-msg.phrase	TEXT COLOUR	CULOAREA TEXTULUI
-msg.phrase	Arrows: choose    Enter: apply    Esc: cancel	Săgeți: alegeți Enter: aplicați Esc: anulați
-msg.phrase	Colour index (PC-98 16-colour palette)	Index de culoare (paleta PC-98 cu 16 culori)
+msg.phrase	Goto	Salt
+msg.phrase	COLUMN WIDTH	LĂȚIME COLOANĂ
+msg.phrase	Width in characters (4..30):	Lățime în caractere (4..30):
+msg.phrase	ROW HEIGHT	ÎNĂLȚIME RÂND
+msg.phrase	Height in text rows (1..8):	Înălțime în rânduri de text (1..8):
+msg.phrase	Auto fit: the sheet is empty	Potrivire: foaia este goală
+msg.phrase	BACKGROUND COLOUR	CULOARE FUNDAL
+msg.phrase	TEXT COLOUR	CULOARE TEXT
+msg.phrase	Arrows: choose    Enter: apply    Esc: cancel	Săgeți: alegere    Enter: aplicare    Esc: anulare
+msg.phrase	Colour index (PC-98 16-colour palette)	Număr de culoare (paleta PC-98 cu 16 culori)
 msg.phrase	Aa 123	Aa 123
-msg.phrase	Enter = apply    Esc = cancel	Enter = aplicați Esc = anulați
+msg.phrase	Enter = apply    Esc = cancel	Enter = aplicare    Esc = anulare
 msg.phrase	Colour	Culoare
 msg.phrase	Background	Fundal
 msg.phrase	Text	Text
-msg.phrase	GRAPH RANGE	GAMA GRAF
-msg.phrase	Range (for example A1:C10):	Interval (de exemplu A1:C10):
-msg.phrase	Graph range	Gama grafică
-msg.phrase	Use a range such as A1:C10.	Utilizați un interval precum A1:C10.
-msg.phrase	Cannot draw the graph.	Nu se poate desena graficul.
+msg.phrase	GRAPH RANGE	ZONĂ GRAFIC
+msg.phrase	Range (for example A1:C10):	Zonă (de exemplu A1:C10):
+msg.phrase	Graph range	Zonă grafic
+msg.phrase	Use a range such as A1:C10.	Folosiți o zonă precum A1:C10.
+msg.phrase	Cannot draw the graph.	Graficul nu poate fi desenat.
 msg.phrase	line	linia
 msg.phrase	bar	bar
 msg.phrase	mixed	amestecat
 msg.phrase	pie	plăcintă
-msg.phrase	Clear every cell in this sheet?	Ștergeți fiecare celulă din această foaie?
-msg.phrase	Sheet erased	Foaia ștearsă
-msg.phrase	Selected all used cells	S-au selectat toate celulele utilizate
+msg.phrase	Clear every cell in this sheet?	Goliți toate celulele din această foaie?
+msg.phrase	Sheet erased	Foaia a fost ștearsă
+msg.phrase	Selected all used cells	S-au selectat toate celulele folosite
 msg.phrase	Recalculated	Recalculat
 msg.phrase	Memory	Memorie
-msg.phrase	Not enough PSRAM for the spreadsheet.	Nu este suficient PSRAM pentru foaia de calcul.
+msg.phrase	Not enough PSRAM for the spreadsheet.	PSRAM insuficientă pentru foaia de calcul.
 msg.phrase	The sheet is empty.	Foaia este goală.
-msg.phrase	No numeric data in the selected range.	Nu există date numerice în intervalul selectat.
-msg.phrase	Other	Alte
-msg.phrase	No positive values for a pie chart	Nu există valori pozitive pentru o diagramă circulară
-msg.phrase	LINE	LINIA
-msg.phrase	BAR	BAR
-msg.phrase	MIXED	AMESTECAT
-msg.phrase	PIE	PLĂCINTĂ
+msg.phrase	No numeric data in the selected range.	Nu există numere în zona selectată.
+msg.phrase	Other	Altele
+msg.phrase	No positive values for a pie chart	Nu există valori pozitive pentru un grafic circular
+msg.phrase	LINE	LINIE
+msg.phrase	BAR	BARE
+msg.phrase	MIXED	MIXT
+msg.phrase	PIE	DISC
 msg.phrase	S:/	S:/
-msg.phrase	Folder	Pliant
-msg.phrase	SAVE AS	SALVAȚI CA
-msg.phrase	OPEN FILE	DESCHIDE FIȘIER
+msg.phrase	Folder	Dosar
+msg.phrase	SAVE AS	SALVARE CA
+msg.phrase	OPEN FILE	DESCHIDERE FIȘIER
 msg.phrase	LibreOffice / CSV	LibreOffice / CSV
-msg.phrase	ODS  FODS  CSV	ODS FODS CSV
+msg.phrase	ODS  FODS  CSV	ODS  FODS  CSV
 msg.phrase	Name:	Nume:
-msg.phrase	(type a name, or choose below)	(introduceți un nume sau alegeți mai jos)
+msg.phrase	(type a name, or choose below)	(scrieți un nume sau alegeți mai jos)
 msg.phrase	Name	Nume
-msg.phrase	Size	Dimensiune
-msg.phrase	Enter=save  Left=up  Right/Enter on [DIR]=open  Tab=drive  Esc=cancel	Enter=salvează Stânga=sus Dreapta/Enter pe [DIR]=deschide Tab=drive Esc=anulează
-msg.phrase	Enter=open  Left=up  Right/Enter on [DIR]=open  Tab=drive  Esc=cancel	Enter=deschide Stânga=sus Dreapta/Enter pe [DIR]=deschide Tab=Drive Esc=anulează
-msg.phrase	Not enough memory.	Nu este suficientă memorie.
-msg.phrase	Overwrite	Suprascrie
-msg.phrase	Open	Deschide
-msg.phrase	The file is too large (limit 8 MB).	Fișierul este prea mare (limită 8 MB).
-msg.phrase	Not enough memory to read the file.	Nu este suficientă memorie pentru a citi fișierul.
-msg.phrase	Bad ZIP/ODS data.	Date ZIP/ODS incorecte.
+msg.phrase	Size	Mărime
+msg.phrase	Enter=save  Left=up  Right/Enter on [DIR]=open  Tab=drive  Esc=cancel	Enter=salvare  ←=sus  →/Enter pe [DIR]=deschidere  Tab=unitate  Esc=anulare
+msg.phrase	Enter=open  Left=up  Right/Enter on [DIR]=open  Tab=drive  Esc=cancel	Enter=deschid.  ←=sus  →/Enter pe [DIR]=deschidere  Tab=unitate  Esc=anulare
+msg.phrase	Not enough memory.	Memorie insuficientă.
+msg.phrase	Overwrite	Suprascriere
+msg.phrase	Open	Deschidere
+msg.phrase	The file is too large (limit 8 MB).	Fișierul este prea mare (limita 8 MB).
+msg.phrase	Not enough memory to read the file.	Memorie insuficientă pentru a citi fișierul.
+msg.phrase	Bad ZIP/ODS data.	Date ZIP/ODS deteriorate.
 msg.phrase	CRC error in the ODS file.	Eroare CRC în fișierul ODS.
 msg.phrase	Unsupported or damaged file.	Fișier neacceptat sau deteriorat.
 msg.phrase	Saved	Salvat
@@ -787,114 +783,114 @@ msg.phrase	Unsaved changes	Modificări nesalvate
 msg.phrase	Save the current sheet before continuing?	Salvați foaia curentă înainte de a continua?
 msg.phrase	New sheet	Foaie nouă
 msg.phrase	SGTRK	SGTRK
-msg.phrase	UNTITLED	FĂRĂ TITLUL
+msg.phrase	UNTITLED	UNTITLED
 msg.phrase	song is too large	melodia este prea mare
-msg.phrase	empty file	dosar gol
-msg.phrase	not an SGT file	nu un fișier SGT
-msg.phrase	bad BPM	BPM prost
-msg.phrase	bad speed	viteza proasta
-msg.phrase	bad title length	lungime proastă a titlului
+msg.phrase	empty file	fișier gol
+msg.phrase	not an SGT file	nu este un fișier SGT
+msg.phrase	bad BPM	BPM greșit
+msg.phrase	bad speed	viteză greșită
+msg.phrase	bad title length	lungime greșită a titlului
 msg.phrase	truncated title	titlu trunchiat
-msg.phrase	bad character in title	caracter prost în titlu
+msg.phrase	bad character in title	caracter nevalid în titlu
 msg.phrase	truncated order	ordine trunchiată
-msg.phrase	bad order length	lungime proastă a comenzii
-msg.phrase	bad pattern number in order	numărul de model rău în ordine
-msg.phrase	truncated pattern list	lista de modele trunchiate
-msg.phrase	bad pattern count	număr de modele proaste
-msg.phrase	bad pattern index	indice de model prost
-msg.phrase	duplicate pattern	model duplicat
-msg.phrase	truncated pattern data	date de model trunchiate
-msg.phrase	invalid pattern data	date de model nevalide
-msg.phrase	trailing data in file	datele de sfârșit în fișier
-msg.phrase	order refers to a missing pattern	ordinea se referă la un model lipsă
-msg.phrase	A:/	O:/
-msg.phrase	(untitled)	(fara titlu)
+msg.phrase	bad order length	lungime greșită a ordinii
+msg.phrase	bad pattern number in order	număr de pattern greșit în ordine
+msg.phrase	truncated pattern list	listă de patternuri trunchiată
+msg.phrase	bad pattern count	număr greșit de patternuri
+msg.phrase	bad pattern index	index de pattern greșit
+msg.phrase	duplicate pattern	pattern duplicat
+msg.phrase	truncated pattern data	date de pattern trunchiate
+msg.phrase	invalid pattern data	date de pattern nevalide
+msg.phrase	trailing data in file	date în plus la sfârșitul fișierului
+msg.phrase	order refers to a missing pattern	ordinea indică un pattern lipsă
+msg.phrase	A:/	A:/
+msg.phrase	(untitled)	(fără titlu)
 msg.phrase	Ready. Press F1 for help.	Gata. Apăsați F1 pentru ajutor.
-msg.phrase	Follow OFF	Urmăriți OFF
+msg.phrase	Follow OFF	Urmărire OPRITĂ
 msg.phrase	Nothing to undo	Nimic de anulat
-msg.phrase	Undo	Anula
-msg.phrase	Note OFF	Nota OFF
-msg.phrase	Set an effect letter first	Setați mai întâi o literă de efect
-msg.phrase	Effect cleared	Efectul a fost eliminat
-msg.phrase	Parameter cleared	Parametrul a fost șters
-msg.phrase	Note cleared	Nota ștearsă
-msg.phrase	Instrument cleared	Instrumentul a fost eliminat
-msg.phrase	Volume cleared	Volumul a fost șters
-msg.phrase	Order list is full	Lista de comenzi este plină
-msg.phrase	Order inserted	Comanda introdusă
-msg.phrase	Cannot delete the last order	Nu se poate șterge ultima comandă
-msg.phrase	Order deleted	Comanda a fost ștearsă
-msg.phrase	Playing song	Redând cântec
-msg.phrase	Stopped	oprit
-msg.phrase	New song	Cântec nou
-msg.phrase	Discard unsaved changes and start a new song? (Y/N)	Renunțați la modificările nesalvate și începeți o melodie nouă? (Da/Nu)
-msg.phrase	Discard unsaved changes and open a song? (Y/N)	Renunțați la modificările nesalvate și deschideți o melodie? (Da/Nu)
-msg.phrase	Discard unsaved changes and quit? (Y/N)	Renunțați la modificările nesalvate și renunțați? (Da/Nu)
-msg.phrase	Song settings updated	Setările cântecului au fost actualizate
+msg.phrase	Undo	Anulat
+msg.phrase	Note OFF	Note off
+msg.phrase	Set an effect letter first	Introduceți întâi litera efectului
+msg.phrase	Effect cleared	Efect șters
+msg.phrase	Parameter cleared	Parametru șters
+msg.phrase	Note cleared	Notă ștearsă
+msg.phrase	Instrument cleared	Instrument șters
+msg.phrase	Volume cleared	Volum șters
+msg.phrase	Order list is full	Lista de ordine este plină
+msg.phrase	Order inserted	Poziție inserată
+msg.phrase	Cannot delete the last order	Ultima poziție nu poate fi ștearsă
+msg.phrase	Order deleted	Poziție ștearsă
+msg.phrase	Playing song	Se redă melodia
+msg.phrase	Stopped	Oprit
+msg.phrase	New song	Melodie nouă
+msg.phrase	Discard unsaved changes and start a new song? (Y/N)	Renunțați la modificările nesalvate și începeți o melodie nouă? (Y/N)
+msg.phrase	Discard unsaved changes and open a song? (Y/N)	Renunțați la modificările nesalvate și deschideți o melodie? (Y/N)
+msg.phrase	Discard unsaved changes and quit? (Y/N)	Renunțați la modificările nesalvate și ieșiți? (Y/N)
+msg.phrase	Song settings updated	Setările melodiei au fost schimbate
 msg.phrase	Filename is empty	Numele fișierului este gol
 msg.phrase	Save cancelled	Salvare anulată
 msg.phrase	Open cancelled	Deschidere anulată
-msg.phrase	Edit ON	Editare ON
-msg.phrase	Edit OFF	Editare OFF
-msg.phrase	Follow ON	Urmăriți ON
-msg.phrase	Edit is OFF. Press F8 to edit.	Editarea este DEZACTIVATĂ. Apăsați F8 pentru a edita.
-msg.phrase	I/O error	Eroare I/O
+msg.phrase	Edit ON	Editare PORNITĂ
+msg.phrase	Edit OFF	Editare OPRITĂ
+msg.phrase	Follow ON	Urmărire PORNITĂ
+msg.phrase	Edit is OFF. Press F8 to edit.	Editarea este oprită. Apăsați F8 pentru a edita.
+msg.phrase	I/O error	eroare I/O
 msg.phrase	file is too large	fișierul este prea mare
 msg.phrase	truncated file	fișier trunchiat
 msg.phrase	SINE PAD	SINE PAD
-msg.phrase	TRIANGLE	TRIUNGHI
-msg.phrase	SAW LEAD	PLUMB DE FERĂSĂRU
-msg.phrase	SQUARE	PĂTRAT
-msg.phrase	PULSE 25	PULSUL 25
+msg.phrase	TRIANGLE	TRIANGLE
+msg.phrase	SAW LEAD	SAW LEAD
+msg.phrase	SQUARE	SQUARE
+msg.phrase	PULSE 25	PULSE 25
 msg.phrase	ORGAN	ORGAN
-msg.phrase	BASS	BAS
-msg.phrase	BELL	CLOPOT
-msg.phrase	NOISE	ZGOMOT
-msg.phrase	SINE	SINUS
+msg.phrase	BASS	BASS
+msg.phrase	BELL	BELL
+msg.phrase	NOISE	NOISE
+msg.phrase	SINE	SINE
 msg.phrase	SAW	SAW
 msg.phrase	OFF	OFF
-msg.phrase	ON	PE
-msg.phrase	ROW	RÂND
-msg.phrase	CHAN LEVEL	NIVEL CHAN
-msg.phrase	F1 HELP F2 SONG	F1 AJUTOR F2 CÂNTEC
-msg.phrase	F3 INS  F4 SAVE	F3 INS F4 SALVA
+msg.phrase	ON	ON
+msg.phrase	ROW	ROW
+msg.phrase	CHAN LEVEL	CHAN LEVEL
+msg.phrase	F1 HELP F2 SONG	F1 HELP F2 SONG
+msg.phrase	F3 INS  F4 SAVE	F3 INS  F4 SAVE
 msg.phrase	F5 PLAY F6 PAT	F5 PLAY F6 PAT
 msg.phrase	F7 STOP F8 EDIT	F7 STOP F8 EDIT
 msg.phrase	F9/F10 OCTAVE	F9/F10 OCTAVE
 msg.phrase	F11 FOLLOW	F11 FOLLOW
-msg.phrase	F12 QUIT	F12 RENUNȚĂ
-msg.phrase	SPACE PLAY/STOP	SPAȚIAL PLAY/STOP
-msg.phrase	CTRL-S SAVE	CTRL-S SALVARE
-msg.phrase	CTRL-O OPEN	CTRL-O DESCHIS
+msg.phrase	F12 QUIT	F12 QUIT
+msg.phrase	SPACE PLAY/STOP	SPACE PLAY/STOP
+msg.phrase	CTRL-S SAVE	CTRL-S SAVE
+msg.phrase	CTRL-O OPEN	CTRL-O OPEN
 msg.phrase	C-N NEW C-Z UNDO	C-N NEW C-Z UNDO
 msg.phrase	C-C STOP	C-C STOP
-msg.phrase	#TRANSPORT AND FILES	#TRASPORT ȘI DOSARE
-msg.phrase	#ORDER LIST	#LISTA COMANDĂ
-msg.phrase	#DISPLAY	#AFIŞA
+msg.phrase	#TRANSPORT AND FILES	#REDARE ȘI FIȘIERE
+msg.phrase	#ORDER LIST	#LISTA DE ORDINE
+msg.phrase	#DISPLAY	#AFIȘARE
 msg.phrase	#EDITING	#EDITARE
-msg.phrase	#EFFECTS (parameter is hexadecimal)	#EFFECTS (parametrul este hexazecimal)
-msg.phrase	LEFT/RIGHT PAGE   ENTER OR F1 CLOSE	PAGINA STÂNGA/DREAPTA ENTER SAU F1 ÎNCHIDERE
-msg.phrase	SONG SETTINGS	SETĂRI CÂNTEC
-msg.phrase	UP/DOWN SELECT   LEFT/RIGHT ADJUST   ENTER/F2 CLOSE	SUS/JOS SELECTARE STÂNGA/DREAPTA AJUSTARE ENTER/F2 ÎNCHIS
-msg.phrase	Type to edit the title. Backspace deletes the last character.	Tastați pentru a edita titlul. Backspace șterge ultimul caracter.
-msg.phrase	BPM range 32..255. Speed range 1..31.	Interval BPM 32..255. Interval de viteză 1..31.
-msg.phrase	Pattern effects can also change speed and BPM while playing.	Efectele de tipar pot modifica, de asemenea, viteza și BPM-ul în timpul redării.
+msg.phrase	#EFFECTS (parameter is hexadecimal)	#EFECTE (parametrul este hexazecimal)
+msg.phrase	LEFT/RIGHT PAGE   ENTER OR F1 CLOSE	LEFT/RIGHT PAGE   ENTER OR F1 CLOSE
+msg.phrase	SONG SETTINGS	SETĂRI MELODIE
+msg.phrase	UP/DOWN SELECT   LEFT/RIGHT ADJUST   ENTER/F2 CLOSE	UP/DOWN SELECT   LEFT/RIGHT ADJUST   ENTER/F2 CLOSE
+msg.phrase	Type to edit the title. Backspace deletes the last character.	Scrieți pentru a schimba titlul. Backspace șterge ultimul caracter.
+msg.phrase	BPM range 32..255. Speed range 1..31.	BPM între 32 și 255. Viteză între 1 și 31.
+msg.phrase	Pattern effects can also change speed and BPM while playing.	Efectele din patternuri pot schimba și viteza și BPM în timpul redării.
 msg.phrase	INSTRUMENTS	INSTRUMENTE
-msg.phrase	UP/DOWN SELECT   SPACE PREVIEW   ENTER USE   F3 CLOSE	SUS/JOS SELECTAȚI SPAȚIU PREVIEW ENTER USE F3 ÎNCHIDERE
+msg.phrase	UP/DOWN SELECT   SPACE PREVIEW   ENTER USE   F3 CLOSE	UP/DOWN SELECT   SPACE PREVIEW   ENTER USE   F3 CLOSE
 msg.phrase	All four channels use wavetable synthesis.	Toate cele patru canale folosesc sinteza wavetable.
-msg.phrase	Preview plays C-4 on the track under the edit cursor.	Previzualizarea redă C-4 pe piesa sub cursorul de editare.
-msg.phrase	SAVE SONG AS	SALVAȚI CÂNTECUL CA
-msg.phrase	ENTER SAVE   F4 OR CTRL-C CANCEL	INTRODUCEȚI SALVARE F4 SAU CTRL-C CANCEL
-msg.phrase	Directory:	Director:
-msg.phrase	File name:	Nume de fișier:
-msg.phrase	The extension .SGT is added automatically.	Extensia .SGT este adăugată automat.
+msg.phrase	Preview plays C-4 on the track under the edit cursor.	Ascultarea redă C-4 pe pista de sub cursor.
+msg.phrase	SAVE SONG AS	SALVARE MELODIE CA
+msg.phrase	ENTER SAVE   F4 OR CTRL-C CANCEL	ENTER SAVE   F4 OR CTRL-C CANCEL
+msg.phrase	Directory:	Dosar:
+msg.phrase	File name:	Nume fișier:
+msg.phrase	The extension .SGT is added automatically.	Extensia .SGT se adaugă automat.
 msg.phrase	An existing file can be overwritten.	Un fișier existent poate fi suprascris.
-msg.phrase	OPEN SONG	CÂNTEC DESCHIS
-msg.phrase	ENTER OPEN  BS PARENT  CTRL-O/CTRL-C CANCEL	ENTER OPEN BS PARENT CTRL-O/CTRL-C CANCEL
-msg.phrase	(no .SGT files in this folder)	(nu există fișiere .SGT în acest folder)
-msg.phrase	CONFIRM	CONFIRMA
-msg.phrase	Y = YES   N / ENTER / CTRL-C = NO	Y = DA N / ENTER / CTRL-C = NU
-msg.phrase	Y = yes        N = no	Y = da N = nu
+msg.phrase	OPEN SONG	DESCHIDERE MELODIE
+msg.phrase	ENTER OPEN  BS PARENT  CTRL-O/CTRL-C CANCEL	ENTER OPEN  BS PARENT  CTRL-O/CTRL-C CANCEL
+msg.phrase	(no .SGT files in this folder)	(niciun fișier .SGT în acest dosar)
+msg.phrase	CONFIRM	CONFIRMARE
+msg.phrase	Y = YES   N / ENTER / CTRL-C = NO	Y = YES   N / ENTER / CTRL-C = NO
+msg.phrase	Y = yes        N = no	Y = da        N = nu
 msg.phrase	C-	C-
 msg.phrase	C#	C#
 msg.phrase	D-	D-
@@ -904,202 +900,202 @@ msg.phrase	F-	F-
 msg.phrase	F#	F#
 msg.phrase	G-	G-
 msg.phrase	G#	G#
-msg.phrase	A-	O-
-msg.phrase	A#	O#
+msg.phrase	A-	A-
+msg.phrase	A#	A#
 msg.phrase	B-	B-
 msg.phrase	A:/dir/name	A:/dir/nume
 msg.phrase	MThd	MThd
-msg.phrase	broken MThd	rupt MThd
+msg.phrase	broken MThd	MThd deteriorat
 msg.phrase	MIDI IMPORT	IMPORT MIDI
 msg.phrase	MTrk	MTrk
-msg.phrase	broken delta time	timp delta spart
-msg.phrase	broken running status	stare de rulare ruptă
-msg.phrase	broken meta event	meta eveniment spart
-msg.phrase	broken sysex event	eveniment sysex întrerupt
-msg.phrase	broken channel event	eveniment canal întrerupt
-msg.phrase	SMF output is too small	Ieșirea SMF este prea mică
-msg.phrase	SMF output is too large	Ieșirea SMF este prea mare
-msg.phrase	the song is too long for SMF	melodia este prea lunga pentru SMF
+msg.phrase	broken delta time	delta time deteriorat
+msg.phrase	broken running status	running status deteriorat
+msg.phrase	broken meta event	eveniment meta deteriorat
+msg.phrase	broken sysex event	eveniment SysEx deteriorat
+msg.phrase	broken channel event	eveniment de canal deteriorat
+msg.phrase	SMF output is too small	Rezultatul SMF este prea mic
+msg.phrase	SMF output is too large	Rezultatul SMF este prea mare
+msg.phrase	the song is too long for SMF	melodia este prea lungă pentru SMF
 msg.phrase	TRK1	TRK1
 msg.phrase	%s%d	%s%d
 msg.phrase	%s%d:%s%d	%s%d:%s%d
 msg.phrase	%s	%s
 msg.phrase	%.40s%s	%.40s%s
-msg.phrase	  [%s]   %s	[%s] %s
-msg.phrase	EDIT  	EDITA
+msg.phrase	  [%s]   %s	  [%s]   %s
+msg.phrase	EDIT  	EDIT.
 msg.phrase	READY 	GATA
-msg.phrase	%4d 	%4d
-msg.phrase	%s Sum %.7g N %ld%s	%s Suma %.7g N %ld%s
-msg.phrase	ARROWS      move the cell cursor\n	SAGEȚELE mută cursorul celulei
-msg.phrase	SHIFT+ARR   extend the selection (for graphs/copy)\n	SHIFT+ARR extinde selecția (pentru grafice/copiere)
-msg.phrase	ENTER       edit the cell; in edit, commit and move down\n	ENTER editați celula; în editare, comite și deplasare în jos
-msg.phrase	TAB         next cell    SHIFT+TAB  previous cell\n	TAB celula următoare SHIFT+TAB celula anterioară
-msg.phrase	DELETE      clear the selected cell(s)    ESC  cancel\n	DELETE ștergeți celulele selectate ESC anulați
-msg.phrase	PGUP/PGDN   move one screen    HOME/END  first/last column\n	PGUP/PGDN mută un ecran HOME/END prima/ultima coloană
-msg.phrase	CTRL+HOME   A1    CTRL+END  last used cell\n	CTRL+HOME A1 CTRL+END ultima celulă folosită
-msg.phrase	F1 help  F2 edit  F3 copy  F4 paste  F5 goto  F6 colour\n	F1 ajutor F2 editați F3 copieți F4 lipiți F5 mergeți la culoarea F6
-msg.phrase	F7 auto-fit  F8 background  F9 recalc  F10 graph  F11 save  F12 menu\n	F7 potrivire automată F8 fundal F9 recalc F10 grafic F11 salvare F12 meniu
-msg.phrase	SHIFT+F1 about  SHIFT+F2 row height  SHIFT+F3 column width\n	SHIFT+F1 despre SHIFT+F2 înălțimea rândului SHIFT+F3 lățimea coloanei
-msg.phrase	SHIFT+F4 select all  SHIFT+F10 graph range  SHIFT+F11 save as\n	SHIFT+F4 selectează tot intervalul grafic SHIFT+F10 SHIFT+F11 salvați ca
-msg.phrase	CTRL+F1 new  CTRL+F2 open  CTRL+F3 save  CTRL+F4 save as\n	CTRL+F1 nou CTRL+F2 deschide CTRL+F3 salva CTRL+F4 salvează ca
-msg.phrase	CTRL+F5 export CSV  CTRL+F6 export ODS  ALT+F12 quit\n	CTRL+F5 export CSV CTRL+F6 export ODS ALT+F12 ieșire
-msg.phrase	Bottom 2 lines: function keys; [SHIFT]/[CTRL]/[ALT] like the filer\n	Cele 2 linii de jos: taste funcționale; [SHIFT]/[CTRL]/[ALT] ca și filerul
-msg.phrase	CTRL+S save  CTRL+O open  CTRL+N new  CTRL+C/V/X copy/paste/cut\n	CTRL+S salvare CTRL+O deschide CTRL+N nou CTRL+C/V/X copiere/lipire/tăiare
-msg.phrase	CTRL+G goto    /  open the menu (1 File, 2 Edit, ...)\n	CTRL+G acces / deschide meniul (1 Fișier, 2 Editare, ...)
-msg.phrase	Built-in functions: SUM AVERAGE MIN MAX COUNT COUNTA\n	Funcții încorporate: SUM MEDIA MIN MAX COUNT COUNTA
-msg.phrase	PRODUCT ABS SQRT INT ROUND MOD POWER IF AND OR NOT\n	PRODUS ABS SQRT INT ROUND MOD POWER DACA SI SAU NU
-msg.phrase	IFERROR LEN LEFT RIGHT MID UPPER LOWER TRIM CONCATENATE PI\n	DACĂ EROARE LEN STÂNGA DREAPTA MIJLOC SUS INFERIOR TRIM CONCATENATE PI
-msg.phrase	Cell refs: A1, $A$1, A1:B10.  Formulas begin with '='.\n	Ref. celule: A1, $A$1, A1:B10.  Formulele încep cu „=”.
-msg.phrase	Files: .ods (LibreOffice), .fods (flat XML), .csv\n	Fișiere: .ods (LibreOffice), .fods (XML plat), .csv
-msg.phrase	ODS/FODS keeps formulas, widths, heights and colours.\n	ODS/FODS păstrează formulele, lățimile, înălțimile și culorile.
-msg.phrase	CSV keeps values and formulas (no colours/heights).\n	CSV păstrează valorile și formulele (fără culori/înălțimi).
-msg.phrase	Graph: select a range, press F10, and choose Line/Bar/Mixed/Pie.\n	Grafic: selectați un interval, apăsați F10 și alegeți Line/Bar/Mixed/Pie.
-msg.phrase	SGCALC for sgnano\n	SGCAC pentru sgnano
+msg.phrase	%4d 	%4d 
+msg.phrase	%s Sum %.7g N %ld%s	%s Sumă %.7g N %ld%s
+msg.phrase	ARROWS      move the cell cursor\n	SĂGEȚI     mută cursorul celulei\n
+msg.phrase	SHIFT+ARR   extend the selection (for graphs/copy)\n	SHIFT+SĂG   extinde selecția (pentru grafice/copiere)\n
+msg.phrase	ENTER       edit the cell; in edit, commit and move down\n	ENTER       editează celula; la editare, confirmă și coboară\n
+msg.phrase	TAB         next cell    SHIFT+TAB  previous cell\n	TAB         celula următoare    SHIFT+TAB  celula anterioară\n
+msg.phrase	DELETE      clear the selected cell(s)    ESC  cancel\n	DELETE      golește celulele selectate    ESC  anulare\n
+msg.phrase	PGUP/PGDN   move one screen    HOME/END  first/last column\n	PGUP/PGDN   un ecran    HOME/END  prima/ultima coloană\n
+msg.phrase	CTRL+HOME   A1    CTRL+END  last used cell\n	CTRL+HOME   A1    CTRL+END  ultima celulă folosită\n
+msg.phrase	F1 help  F2 edit  F3 copy  F4 paste  F5 goto  F6 colour\n	F1 ajutor  F2 editare  F3 copiere  F4 lipire  F5 salt  F6 culoare\n
+msg.phrase	F7 auto-fit  F8 background  F9 recalc  F10 graph  F11 save  F12 menu\n	F7 potrivire  F8 fundal  F9 recalculare  F10 grafic  F11 salvare  F12 meniu\n
+msg.phrase	SHIFT+F1 about  SHIFT+F2 row height  SHIFT+F3 column width\n	SHIFT+F1 despre  SHIFT+F2 înălțime rând  SHIFT+F3 lățime coloană\n
+msg.phrase	SHIFT+F4 select all  SHIFT+F10 graph range  SHIFT+F11 save as\n	SHIFT+F4 selectare tot  SHIFT+F10 zonă grafic  SHIFT+F11 salvare ca\n
+msg.phrase	CTRL+F1 new  CTRL+F2 open  CTRL+F3 save  CTRL+F4 save as\n	CTRL+F1 nou  CTRL+F2 deschidere  CTRL+F3 salvare  CTRL+F4 salvare ca\n
+msg.phrase	CTRL+F5 export CSV  CTRL+F6 export ODS  ALT+F12 quit\n	CTRL+F5 export CSV  CTRL+F6 export ODS  ALT+F12 ieșire\n
+msg.phrase	Bottom 2 lines: function keys; [SHIFT]/[CTRL]/[ALT] like the filer\n	Ultimele 2 rânduri: taste funcționale; [SHIFT]/[CTRL]/[ALT] ca în filer\n
+msg.phrase	CTRL+S save  CTRL+O open  CTRL+N new  CTRL+C/V/X copy/paste/cut\n	CTRL+S salvare  CTRL+O deschidere  CTRL+N nou  CTRL+C/V/X cop./lip./tăiere\n
+msg.phrase	CTRL+G goto    /  open the menu (1 File, 2 Edit, ...)\n	CTRL+G salt    /  deschide meniul (1 Fișier, 2 Editare, ...)\n
+msg.phrase	Built-in functions: SUM AVERAGE MIN MAX COUNT COUNTA\n	Funcții integrate: SUM AVERAGE MIN MAX COUNT COUNTA\n
+msg.phrase	PRODUCT ABS SQRT INT ROUND MOD POWER IF AND OR NOT\n	PRODUCT ABS SQRT INT ROUND MOD POWER IF AND OR NOT\n
+msg.phrase	IFERROR LEN LEFT RIGHT MID UPPER LOWER TRIM CONCATENATE PI\n	IFERROR LEN LEFT RIGHT MID UPPER LOWER TRIM CONCATENATE PI\n
+msg.phrase	Cell refs: A1, $A$1, A1:B10.  Formulas begin with '='.\n	Referințe: A1, $A$1, A1:B10.  Formulele încep cu '='.\n
+msg.phrase	Files: .ods (LibreOffice), .fods (flat XML), .csv\n	Fișiere: .ods (LibreOffice), .fods (XML plat), .csv\n
+msg.phrase	ODS/FODS keeps formulas, widths, heights and colours.\n	ODS/FODS păstrează formulele, lățimile, înălțimile și culorile.\n
+msg.phrase	CSV keeps values and formulas (no colours/heights).\n	CSV păstrează doar valorile și formulele (fără culori/înălțimi).\n
+msg.phrase	Graph: select a range, press F10, and choose Line/Bar/Mixed/Pie.\n	Grafic: selectați o zonă, apăsați F10, alegeți Linie/Bare/Mixt/Disc.\n
+msg.phrase	SGCALC for sgnano\n	SGCALC for sgnano\n
 msg.phrase	Version 	Versiune
-msg.phrase	A Lotus 1-2-3 style spreadsheet as an SGX program.\n\n	O foaie de calcul în stil Lotus 1-2-3 ca program SGX.
+msg.phrase	A Lotus 1-2-3 style spreadsheet as an SGX program.\n\n	O foaie de calcul în stil Lotus 1-2-3, ca program SGX.\n\n
 msg.phrase	SGX ABI %u.%u\n	SGX ABI %u.%u
-msg.phrase	Screen mode 3: text + CLUT8 FB (lowres disabled)\n	Modul ecran 3: text + CLUT8 FB (reducere redusă dezactivată)
+msg.phrase	Screen mode 3: text + CLUT8 FB (lowres disabled)\n	Modul de ecran 3: text + FB CLUT8 (fără stratul lowres)\n
 msg.phrase	Sheet: %d rows x %d columns\n	Foaie: %d rânduri x %d coloane
-msg.phrase	Formats: .ods / .fods (LibreOffice), .csv\n\n	Formate: .ods / .fods (LibreOffice), .csv
-msg.phrase	The grid is drawn on the text plane.\n	Grila este desenată pe planul textului.
-msg.phrase	Charts and the 640x480 background use the FB.\n\n	Graficele și fundalul 640x480 folosesc FB.
+msg.phrase	Formats: .ods / .fods (LibreOffice), .csv\n\n	Formate: .ods / .fods (LibreOffice), .csv\n\n
+msg.phrase	The grid is drawn on the text plane.\n	Grila este desenată pe stratul de text.\n
+msg.phrase	Charts and the 640x480 background use the FB.\n\n	Graficele și fundalul 640x480 folosesc FB.\n\n
 msg.phrase	%d %s	%d %s
-msg.phrase	Cannot store the cell (%d).	Nu se poate stoca celula (%d).
-msg.phrase	Copied %d x %d cells	%d x %d celule copiate
+msg.phrase	Cannot store the cell (%d).	Celula nu poate fi scrisă (%d).
+msg.phrase	Copied %d x %d cells	S-au copiat %d x %d celule
 msg.phrase	Cleared %s	Eliberat %s
-msg.phrase	'%s' is not a cell reference.	„%s” nu este o referință de celulă.
+msg.phrase	'%s' is not a cell reference.	'%s' nu este o referință de celulă.
 msg.phrase	%d	%d
-msg.phrase	Column width = %d	Lățimea coloanei = %d
-msg.phrase	Row height = %d	Înălțimea rândului = %d
-msg.phrase	Auto fit: %d column(s), %d row(s)	Potrivire automată: %d coloană(e), %d rând(e)
+msg.phrase	Column width = %d	Lățime coloană = %d
+msg.phrase	Row height = %d	Înălțime rând = %d
+msg.phrase	Auto fit: %d column(s), %d row(s)	Potrivire: %d coloane, %d rânduri
 msg.phrase	%2d	%2d
-msg.phrase	Cannot apply the colour (%d).	Nu se poate aplica culoarea (%d).
+msg.phrase	Cannot apply the colour (%d).	Culoarea nu poate fi aplicată (%d).
 msg.phrase	%s colour = %d	%s culoare = %d
-msg.phrase	Not a valid range.\nUse a range such as A1:C10.	Nu este un interval valid.\nUtilizați un interval precum A1:C10.
-msg.phrase	Graph range %s	Domeniul grafic %s
+msg.phrase	Not a valid range.\nUse a range such as A1:C10.	Zonă nevalidă.\nFolosiți o zonă precum A1:C10.
+msg.phrase	Graph range %s	Zonă grafic %s
 msg.phrase	Graph: %s	Grafic: %s
-msg.phrase	SGCALC: cannot set screen mode 3: %s\n	SGCALC: nu se poate seta modul ecran 3: %s
+msg.phrase	SGCALC: cannot set screen mode 3: %s\n	SGCALC: modul de ecran 3 nu poate fi setat: %s\n
 msg.phrase	%.2g	%.2g
 msg.phrase	%.6g	%.6g
-msg.phrase	%s  %.0f%%	%s %.0f%%
-msg.phrase	GRAPH  %s  %s	GRAF %s %s
+msg.phrase	%s  %.0f%%	%s  %.0f%%
+msg.phrase	GRAPH  %s  %s	GRAFIC  %s  %s
 msg.phrase	%s%s	%s%s
 msg.phrase	%s/%s	%s/%s
 msg.phrase	%.*s	%.*s
 msg.phrase	%.*s/	%.*s/
-msg.phrase	Cannot read %s\n%s	Nu se poate citi %s\n%s
+msg.phrase	Cannot read %s\n%s	%s nu poate fi citit\n%s
 msg.phrase	Folder: %s	Dosar: %s
 msg.phrase	[DIR] %s	[DIR] %s
-msg.phrase	      %s	%s
+msg.phrase	      %s	      %s
 msg.phrase	%lu.%luM	%lu.%luM
 msg.phrase	%luK	%luK
 msg.phrase	%luB	%luB
-msg.phrase	BOOK1%s	CARTEA1%s
+msg.phrase	BOOK1%s	BOOK1%s
 msg.phrase	%c:/	%c:/
-msg.phrase	Unsupported extension.\nUse .csv, .ods or .fods.	Extensie neacceptată.\nUtilizați .csv, .ods sau .fods.
-msg.phrase	%s already exists.\nOverwrite it?	%s există deja.\nÎl suprascrieți?
-msg.phrase	%s may not be writable.\nTry anyway?	Este posibil ca %s să nu poată fi scris.\nÎncerci oricum?
-msg.phrase	Unknown file type for %s	Tip de fișier necunoscut pentru %s
-msg.phrase	Unsupported file type.\nUse .csv, .ods or .fods.	Tip de fișier neacceptat.\nUtilizați .csv, .ods sau .fods.
-msg.phrase	Cannot open %s\n%s	Nu se poate deschide %s\n%s
-msg.phrase	%s is a folder.	%s este un folder.
-msg.phrase	Cannot import %s\n%s	Nu se poate importa %s\n%s
-msg.phrase	Loaded %s	Încărcat %s
-msg.phrase	Cannot build the %s file.	Nu se poate construi fișierul %s.
-msg.phrase	Cannot write %s\n%s	Nu se poate scrie %s\n%s
+msg.phrase	Unsupported extension.\nUse .csv, .ods or .fods.	Extensie neacceptată.\nFolosiți .csv, .ods sau .fods.
+msg.phrase	%s already exists.\nOverwrite it?	%s există deja.\nSuprascrieți?
+msg.phrase	%s may not be writable.\nTry anyway?	Este posibil ca %s să nu poată fi scris.\nÎncercați totuși?
+msg.phrase	Unknown file type for %s	Tip de fișier necunoscut: %s
+msg.phrase	Unsupported file type.\nUse .csv, .ods or .fods.	Tip de fișier neacceptat.\nFolosiți .csv, .ods sau .fods.
+msg.phrase	Cannot open %s\n%s	%s nu poate fi deschis\n%s
+msg.phrase	%s is a folder.	%s este un dosar.
+msg.phrase	Cannot import %s\n%s	%s nu poate fi importat\n%s
+msg.phrase	Loaded %s	S-a încărcat %s
+msg.phrase	Cannot build the %s file.	Fișierul %s nu poate fi creat.
+msg.phrase	Cannot write %s\n%s	%s nu poate fi scris\n%s
 msg.phrase	%s %s	%s %s
-msg.phrase	unsupported version %u	versiunea neacceptată %u
+msg.phrase	unsupported version %u	versiune neacceptată (%u)
 msg.phrase	%d:%d:%d:%d:%d:%d	%d:%d:%d:%d:%d:%d
 msg.phrase	Octave %d	Octava %d
 msg.phrase	Note %s	Notă %s
-msg.phrase	Instrument %d	Instrumentul %d
-msg.phrase	Volume %s	Volumul %s
+msg.phrase	Instrument %d	Instrument %d
+msg.phrase	Volume %s	Volum %s
 msg.phrase	Effect %c	Efect %c
-msg.phrase	Parameter %s	Parametrul %s
-msg.phrase	Pattern %s	Model %s
-msg.phrase	Playing pattern %s	Model de redare %s
-msg.phrase	SAVE ERROR: %s	SALVARE EROARE: %s
-msg.phrase	Saved %s	Salvat %s
-msg.phrase	LOAD ERROR: %s	EROARE ÎNCĂRCARE: %s
+msg.phrase	Parameter %s	Parametru %s
+msg.phrase	Pattern %s	Pattern %s
+msg.phrase	Playing pattern %s	Se redă patternul %s
+msg.phrase	SAVE ERROR: %s	EROARE LA SALVARE: %s
+msg.phrase	Saved %s	S-a salvat %s
+msg.phrase	LOAD ERROR: %s	EROARE LA ÎNCĂRCARE: %s
 msg.phrase	BPM %d	BPM %d
-msg.phrase	Speed %d	Viteza %d
-msg.phrase	Preview %s	Previzualizare %s
+msg.phrase	Speed %d	Viteză %d
+msg.phrase	Preview %s	Ascultare %s
 msg.phrase	Instrument %s %s	Instrument %s %s
-msg.phrase	Overwrite %s? (Y/N)	Suprascrie %s? (Da/Nu)
-msg.phrase	 | BPM %s SPD %s 	| BPM %s SPD %s
-msg.phrase	 SGNO TRACKER 1.0 | 	SGNO TRACKER 1.0 |
-msg.phrase	FILE 	FIŞIER
-msg.phrase	 PAT %s	PAT %s
-msg.phrase	 ORD %d/%d	ORD %d/%d
-msg.phrase	 INS %s 	INS %s
-msg.phrase	 OCT %d	OCT %d
-msg.phrase	 EDIT %s	EDITARE %s
-msg.phrase	ON 	PE
-msg.phrase	 FOL %s	FOL %s
-msg.phrase	TRACK %d	PISTA %d
+msg.phrase	Overwrite %s? (Y/N)	Suprascrieți %s? (Y/N)
+msg.phrase	 | BPM %s SPD %s 	 | BPM %s SPD %s 
+msg.phrase	 SGNO TRACKER 1.0 | 	 SGNO TRACKER 1.0 | 
+msg.phrase	FILE 	FILE 
+msg.phrase	 PAT %s	 PAT %s
+msg.phrase	 ORD %d/%d	 ORD %d/%d
+msg.phrase	 INS %s 	 INS %s 
+msg.phrase	 OCT %d	 OCT %d
+msg.phrase	 EDIT %s	 EDIT %s
+msg.phrase	ON 	ON 
+msg.phrase	 FOL %s	 FOL %s
+msg.phrase	TRACK %d	TRACK %d
 msg.phrase	%c%s	%c%s
 msg.phrase	%s %s %s %s	%s %s %s %s
-msg.phrase	%s 	%s
+msg.phrase	%s 	%s 
 msg.phrase	%d %s %s	%d %s %s
-msg.phrase	ORDER %d/%d	COMANDĂ %d/%d
-msg.phrase	PAT   %s	PAT %s
+msg.phrase	ORDER %d/%d	ORDER %d/%d
+msg.phrase	PAT   %s	PAT   %s
 msg.phrase	INS %s %s	INS %s %s
-msg.phrase	OCT %d  EDIT %s	OCT %d EDIT %s
-msg.phrase	FOLLOW %s	Urmăriți %s
-msg.phrase	PLAYING  ORD %d/%d  PAT %s  ROW %s/%d  SPD %s  BPM %d  F7 STOP	PLAYING ORD %d/%d PAT %s ROW %s/%d SPD %s BPM %d F7 STOP
-msg.phrase	READY  EDIT %s  OCT %d  F1 HELP  F5 PLAY  CTRL-S SAVE	GATA EDITARE %s OCT %d F1 AJUTOR F5 REDARE CTRL-S SALVARE
-msg.phrase	 %s 	%s
-msg.phrase	  F5          Play the song from the current order	F5 Redați melodia din ordinea curentă
-msg.phrase	  F6          Play the current pattern	F6 Redați modelul curent
-msg.phrase	  F7/Ctrl-C   Stop playback	F7/Ctrl-C Opriți redarea
-msg.phrase	  Space       Play / stop	Space Play / stop
-msg.phrase	  F4          Save as	F4 Salvați ca
-msg.phrase	  Ctrl-S      Save (asks for a name if new)	Ctrl-S Salvare (cere un nume dacă este nou)
-msg.phrase	  Ctrl-O      Open a song	Ctrl-O Deschide o melodie
-msg.phrase	  Ctrl-N      New song	Ctrl-N Cântec nou
-msg.phrase	  F12         Quit (confirmation if modified)	F12 Ieșire (confirmare dacă a fost modificat)
-msg.phrase	  [ ]         Previous / next order entry	[ ] Intrarea comenzii anterioare/următoare
-msg.phrase	  { }         Insert / delete an order entry	{ } Inserați / ștergeți o intrare de comandă
-msg.phrase	  - +         Change the pattern in the entry	- + Schimbați modelul din intrare
-msg.phrase	  F11         Follow playback (turns off on manual move)	F11 Urmăriți redarea (se dezactivează la mutarea manuală)
-msg.phrase	  F1          Help; Left/Right changes page	Ajutor F1; Pagina de modificări stânga/dreapta
-msg.phrase	  F8          Toggle edit mode	F8 Comută modul de editare
-msg.phrase	  Arrows      Move the cursor	Săgeți Deplasați cursorul
-msg.phrase	  PgUp/PgDn   Jump 16 rows	PgUp/PgDn Salt 16 rânduri
-msg.phrase	  Home/End    First / last row	Acasă/Sfârșit Primul / ultimul rând
-msg.phrase	  F9/F10      Octave down / up	F9/F10 Octave în jos / în sus
-msg.phrase	  Z S X D C V G B H N J M      lower piano row	Z S X D C V G B H N J M rând de pian inferior
-msg.phrase	  Q 2 W 3 E R 5 T 6 Y 7 U      upper piano row	Q 2 W 3 E R 5 T 6 Y 7 U rând de pian superior
-msg.phrase	  1           Note off	1 Notă dezactivată
-msg.phrase	  0 / Del     0 clears note/inst/fx; Del clears any	0 / Del 0 șterge note/inst/fx; Del șterge orice
-msg.phrase	  Ctrl-Z      Undo the last pattern/order edit	Ctrl-Z Anulați ultima editare de model/ordine
-msg.phrase	  Axy   Volume slide: up x, down y	Axy Volum slide: sus x, jos y
-msg.phrase	  Cxx   Note cut after xx ticks	Cxx Nota tăiată după xx căpușe
-msg.phrase	  Dxx   Set volume (00..7F)	Dxx Setați volumul (00..7F)
-msg.phrase	  Fxx   Speed if xx < 20, otherwise BPM	Fxx Speed ​​dacă xx < 20, altfel BPM
-msg.phrase	  Hxy   Arpeggio x, y semitones	Hxy Arpegiu x, y semitonuri
-msg.phrase	  Pxx   Pitch slide up	Pxx Pitch alunecă în sus
-msg.phrase	  Qxx   Pitch slide down	Qxx Pitch alunecă în jos
-msg.phrase	  F2 song settings, F3 instrument list	Setări de melodii F2, lista de instrumente F3
-msg.phrase	HELP %d/2	AJUTOR %d/2
-msg.phrase	  Title	Titlu
-msg.phrase	  [%s_]	[%s_]
-msg.phrase	  BPM   : %d     (left/right -1/+1, -/+ -5/+5)	BPM: %d (stânga/dreapta -1/+1, -/+ -5/+5)
-msg.phrase	  Speed : %d ticks/row	Viteză: %d ticuri/rând
-msg.phrase	  Rows  : %d (fixed)	Rânduri: %d (fixe)
-msg.phrase	  Order : %d entries	Comanda: %d intrări
-msg.phrase	  Patterns in use : %d	Modele utilizate: %d
-msg.phrase	 #  NAME       WAVE       A   D   S   R  VOL	# NAME WAVE A D S R VOL
-msg.phrase	 %c %d  %-9s %-9s %3d %3d %3d %3d %4d	%c %d %-9s %-9s %3d %3d %3d %3d %4d
-msg.phrase	Current instrument: %s %s	Instrumentul actual: %s %s
-msg.phrase	  %s	%s
-msg.phrase	DIR  %s	DIR %s
-msg.phrase	 %c %s%s	%c %s%s
+msg.phrase	OCT %d  EDIT %s	OCT %d  EDIT %s
+msg.phrase	FOLLOW %s	FOLLOW %s
+msg.phrase	PLAYING  ORD %d/%d  PAT %s  ROW %s/%d  SPD %s  BPM %d  F7 STOP	PLAYING  ORD %d/%d  PAT %s  ROW %s/%d  SPD %s  BPM %d  F7 STOP
+msg.phrase	READY  EDIT %s  OCT %d  F1 HELP  F5 PLAY  CTRL-S SAVE	READY  EDIT %s  OCT %d  F1 HELP  F5 PLAY  CTRL-S SAVE
+msg.phrase	 %s 	 %s 
+msg.phrase	  F5          Play the song from the current order	  F5          Redă melodia de la poziția curentă
+msg.phrase	  F6          Play the current pattern	  F6          Redă patternul curent
+msg.phrase	  F7/Ctrl-C   Stop playback	  F7/Ctrl-C   Oprește redarea
+msg.phrase	  Space       Play / stop	  Space       Redare / oprire
+msg.phrase	  F4          Save as	  F4          Salvare ca
+msg.phrase	  Ctrl-S      Save (asks for a name if new)	  Ctrl-S      Salvare (cere un nume dacă e nouă)
+msg.phrase	  Ctrl-O      Open a song	  Ctrl-O      Deschide o melodie
+msg.phrase	  Ctrl-N      New song	  Ctrl-N      Melodie nouă
+msg.phrase	  F12         Quit (confirmation if modified)	  F12         Ieșire (cere confirmare dacă e modificată)
+msg.phrase	  [ ]         Previous / next order entry	  [ ]         Poziția anterioară / următoare
+msg.phrase	  { }         Insert / delete an order entry	  { }         Inserează / șterge o poziție
+msg.phrase	  - +         Change the pattern in the entry	  - +         Schimbă patternul poziției
+msg.phrase	  F11         Follow playback (turns off on manual move)	  F11         Urmărește redarea (se oprește la mutare manuală)
+msg.phrase	  F1          Help; Left/Right changes page	  F1          Ajutor; Stânga/Dreapta schimbă pagina
+msg.phrase	  F8          Toggle edit mode	  F8          Pornește / oprește editarea
+msg.phrase	  Arrows      Move the cursor	  Săgeți      Mută cursorul
+msg.phrase	  PgUp/PgDn   Jump 16 rows	  PgUp/PgDn   Salt de 16 rânduri
+msg.phrase	  Home/End    First / last row	  Home/End    Primul / ultimul rând
+msg.phrase	  F9/F10      Octave down / up	  F9/F10      Octava în jos / în sus
+msg.phrase	  Z S X D C V G B H N J M      lower piano row	  Z S X D C V G B H N J M      rândul de jos al pianului
+msg.phrase	  Q 2 W 3 E R 5 T 6 Y 7 U      upper piano row	  Q 2 W 3 E R 5 T 6 Y 7 U      rândul de sus al pianului
+msg.phrase	  1           Note off	  1           Note off
+msg.phrase	  0 / Del     0 clears note/inst/fx; Del clears any	  0 / Del     0 șterge nota/instr./efectul; Del câmpul
+msg.phrase	  Ctrl-Z      Undo the last pattern/order edit	  Ctrl-Z      Anulează ultima editare a patternului/ordinii
+msg.phrase	  Axy   Volume slide: up x, down y	  Axy   Glisare volum: sus x, jos y
+msg.phrase	  Cxx   Note cut after xx ticks	  Cxx   Taie nota după xx tickuri
+msg.phrase	  Dxx   Set volume (00..7F)	  Dxx   Setează volumul (00..7F)
+msg.phrase	  Fxx   Speed if xx < 20, otherwise BPM	  Fxx   Viteză dacă xx < 20, altfel BPM
+msg.phrase	  Hxy   Arpeggio x, y semitones	  Hxy   Arpegiu x, y semitonuri
+msg.phrase	  Pxx   Pitch slide up	  Pxx   Glisare înălțime în sus
+msg.phrase	  Qxx   Pitch slide down	  Qxx   Glisare înălțime în jos
+msg.phrase	  F2 song settings, F3 instrument list	  F2 setări melodie, F3 lista de instrumente
+msg.phrase	HELP %d/2	HELP %d/2
+msg.phrase	  Title	  Titlu
+msg.phrase	  [%s_]	  [%s_]
+msg.phrase	  BPM   : %d     (left/right -1/+1, -/+ -5/+5)	  BPM   : %d     (stânga/dreapta -1/+1, -/+ -5/+5)
+msg.phrase	  Speed : %d ticks/row	  Viteză: %d tickuri pe rând
+msg.phrase	  Rows  : %d (fixed)	  Rânduri : %d (fix)
+msg.phrase	  Order : %d entries	  Ordine : %d poziții
+msg.phrase	  Patterns in use : %d	  Patternuri folosite : %d
+msg.phrase	 #  NAME       WAVE       A   D   S   R  VOL	 #  NAME       WAVE       A   D   S   R  VOL
+msg.phrase	 %c %d  %-9s %-9s %3d %3d %3d %3d %4d	 %c %d  %-9s %-9s %3d %3d %3d %3d %4d
+msg.phrase	Current instrument: %s %s	Instrumentul curent: %s %s
+msg.phrase	  %s	  %s
+msg.phrase	DIR  %s	DIR  %s
+msg.phrase	 %c %s%s	 %c %s%s
 msg.phrase	Files: %d	Fișiere: %d
 msg.phrase	%02d	%02d
 msg.phrase	%03d	%03d
 msg.phrase	%02X	%02X
-msg.phrase	SGNO TRACKER: incompatible SGX ABI\n	SGNO TRACKER: SGX ABI incompatibil
+msg.phrase	SGNO TRACKER: incompatible SGX ABI\n	SGNO TRACKER: SGX ABI incompatibil\n
 msg.phrase	S: check: wait -- a file is being read or written	S: verificați: așteptați -- un fișier este citit sau scris
 msg.phrase	S: check: the drive is busy or not ready	S: verificați: unitatea este ocupată sau nu este pregătită
 msg.phrase	nothing for this item (ContextMenu.cfg)	nimic pentru acest articol (ContextMenu.cfg)
@@ -1120,43 +1116,72 @@ msg.prefix	compress	comprima
 msg.prefix	render	face
 msg.phrase	5 Macro	5 Macro
 msg.phrase	6 Help	6 Ajutor
-msg.phrase	Run current	Rulați curent
-msg.phrase	Run the macro at the cursor (#! header cell and the cells below it)	Rulați macrocomanda la cursor (celula antet #! și celulele de sub ea)
-msg.phrase	Run selection	Rulați selecția
-msg.phrase	Run the selected cells as one macro (top-left cell is the #! header)	Rulați celulele selectate ca o singură macrocomandă (celula din stânga sus este antetul #!)
-msg.phrase	Run all	Rulați toate
-msg.phrase	Run every macro in the sheet, top-left to bottom-right	Rulați fiecare macrocomandă din foaie, de la stânga sus la dreapta jos
+msg.phrase	Run current	Rulează curentul
+msg.phrase	Run the macro at the cursor (#! header cell and the cells below it)	Rulează macroul de la cursor (celula antet #! și celulele de sub ea)
+msg.phrase	Run selection	Rulează selecția
+msg.phrase	Run the selected cells as one macro (top-left cell is the #! header)	Rulează celulele selectate ca un singur macro (celula din stânga sus este antetul #!)
+msg.phrase	Run all	Rulează tot
+msg.phrase	Run every macro in the sheet, top-left to bottom-right	Rulează toate macrourile din foaie, din stânga sus până în dreapta jos
 msg.phrase	Last error	Ultima eroare
-msg.phrase	Show the last macro error	Afișați ultima eroare macro
+msg.phrase	Show the last macro error	Arată ultima eroare de macro
 msg.phrase	Macro	Macro
-msg.phrase	Macro: run #!ruby / #!python / #!basic cells	Macro: rulați #!ruby / #!python / #!celule de bază
-msg.phrase	Edit the cell (F2)	Editați celula (F2)
-msg.phrase	Fit widths/heights to the contents	Potriviți lățimi/înălțimi la conținut
-msg.phrase	Last macro error	Ultima eroare macro
-msg.phrase	No macro error.	Nicio eroare macro.
-msg.phrase	IME on	IME activat
+msg.phrase	Macro: run #!ruby / #!python / #!basic cells	Macro: rulează celulele #!ruby / #!python / #!basic
+msg.phrase	Edit the cell (F2)	Editează celula (F2)
+msg.phrase	Fit widths/heights to the contents	Potrivește lățimile/înălțimile la conținut
+msg.phrase	Last macro error	Ultima eroare de macro
+msg.phrase	No macro error.	Nicio eroare de macro.
+msg.phrase	IME on	IME pornit
 msg.phrase	IME off	IME oprit
 msg.phrase	Macro: %s %s ...	Macro: %s %s ...
-msg.phrase	%s: this firmware cannot run macros (SGX ABI 5.10 or later)	%s: acest firmware nu poate rula macrocomenzi (SGX ABI 5.10 sau o versiune ulterioară)
-msg.phrase	Macro error: %s	Eroare macro: %s
-msg.phrase	Macro: %s done	Macro: %s gata
-msg.phrase	a macro is already running	o macrocomandă rulează deja
-msg.phrase	this language is not available	această limbă nu este disponibilă
+msg.phrase	%s: this firmware cannot run macros (SGX ABI 5.10 or later)	%s: acest firmware nu poate rula macrouri (necesită SGX ABI 5.10 sau mai nou)
+msg.phrase	Macro error: %s	Eroare de macro: %s
+msg.phrase	Macro: %s done	Macro: %s terminat
+msg.phrase	a macro is already running	un macro rulează deja
+msg.phrase	this language is not available	acest limbaj nu este disponibil
 msg.phrase	not enough memory	memorie insuficientă
-msg.phrase	the macro stopped with an error	macro-ul s-a oprit cu o eroare
-msg.phrase	Macro error %s: %s	Eroare macro %s: %s
+msg.phrase	the macro stopped with an error	macroul s-a oprit cu o eroare
+msg.phrase	Macro error %s: %s	Eroare de macro %s: %s
 msg.phrase	Macro: not enough memory	Macro: memorie insuficientă
-msg.phrase	Macro: the cursor is not on a macro (a #!ruby / #!python / #!basic cell or the cells below it)	Macro: cursorul nu se află pe o macrocomandă (o celulă #!ruby / #!python / #!de bază sau celulele de sub ea)
-msg.phrase	Macro: no macro in the sheet	Macro: nu există macrocomandă în foaie
-msg.phrase	Run all macros	Rulați toate macrocomenzile
-msg.phrase	Macros: %d. Run them all, top-left to bottom-right? Changes cannot be undone.	Macrocomenzi: %d. Rulați-le pe toate, de la stânga sus la dreapta jos? Modificările nu pot fi anulate.
-msg.phrase	Macro: %d of %d done	Macro: %d din %d gata
-msg.phrase	Cleared the cell	Am golit celula
-msg.phrase	Cleared the selection	S-a șters selecția
-msg.phrase	Background colour = %d	Culoare de fundal = %d
-msg.phrase	Text colour = %d	Culoarea textului = %d
+msg.phrase	Macro: the cursor is not on a macro (a #!ruby / #!python / #!basic cell or the cells below it)	Macro: cursorul nu este pe un macro (o celulă #!ruby / #!python / #!basic sau cele de sub ea)
+msg.phrase	Macro: no macro in the sheet	Macro: niciun macro în foaie
+msg.phrase	Run all macros	Rulează toate macrourile
+msg.phrase	Macros: %d. Run them all, top-left to bottom-right? Changes cannot be undone.	Macrouri: %d. Le rulați pe toate, din stânga sus până în dreapta jos? Modificările nu pot fi anulate.
+msg.phrase	Macro: %d of %d done	Macro: %d din %d terminate
+msg.phrase	Cleared the cell	Celula a fost golită
+msg.phrase	Cleared the selection	Selecția a fost golită
+msg.phrase	Background colour = %d	Culoare fundal = %d
+msg.phrase	Text colour = %d	Culoare text = %d
 msg.phrase	Graph: line	Grafic: linie
-msg.phrase	Graph: bar	Grafic: bară
+msg.phrase	Graph: bar	Grafic: bare
 msg.phrase	Graph: mixed	Grafic: mixt
-msg.phrase	Graph: pie	Grafic: plăcintă
-msg.phrase	Exported %s	Exportat %s
+msg.phrase	Graph: pie	Grafic: disc
+msg.phrase	Exported %s	S-a exportat %s
+ui	USB・時計・設定	USB, clock, settings
+ui	0.001 秒未満	sub 0.001 s
+ui	%s 秒	%s s
+ui	コンパイル %s  実行 %s	compilare %s  execuție %s
+ui	コンパイル %s	compilare %s
+ui	実行 %s	execuție %s
+msg.phrase	Version %s	Versiunea %s
+msg.phrase	1 Help	1 Ajutor
+msg.phrase	3 Copy	3 Copier
+msg.phrase	4 Paste	4 Lipire
+msg.phrase	5 Goto	5 Salt
+msg.phrase	6 Colour	6 Culoar
+msg.phrase	7 Fit	7 Potriv
+msg.phrase	8 Backgr	8 Fundal
+msg.phrase	9 Recalc	9 Recalc
+msg.phrase	10 Graph	10 Grafi
+msg.phrase	11 Save	11 Salv.
+msg.phrase	12 Menu	12 Meniu
+msg.phrase	1 About	1 Despre
+msg.phrase	2 Height	2 Înălț
+msg.phrase	3 Width	3 Lățime
+msg.phrase	4 SelAll	4 Tot
+msg.phrase	10 Range	10 Zonă
+msg.phrase	11 Name	11 Ca
+msg.phrase	1 New	1 Nou
+msg.phrase	2 Open	2 Deschi
+msg.phrase	4 SaveAs	4 Ca
+msg.phrase	12 Quit	12 Ieșir
+msg.phrase	3 Save	3 Salv.

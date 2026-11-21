@@ -1,0 +1,97 @@
+
+(rules PCB SG_NanoDeck_SGNANO_SOLO
+  (snap_angle 
+    fortyfive_degree
+  )
+  (autoroute_settings
+    (fanout off)
+    (autoroute on)
+    (postroute on)
+    (vias on)
+    (via_costs 50)
+    (plane_via_costs 5)
+    (start_ripup_costs 100)
+    (start_pass_no 11455)
+    (layer_rule F.Cu
+      (active on)
+      (preferred_direction horizontal)
+      (preferred_direction_trace_costs 1.0)
+      (against_preferred_direction_trace_costs 2.0)
+    )
+    (layer_rule B.Cu
+      (active on)
+      (preferred_direction vertical)
+      (preferred_direction_trace_costs 1.0)
+      (against_preferred_direction_trace_costs 2.0)
+    )
+  )
+  (rule
+    (width 200.0)
+    (clear 200.0)
+    (clear 100.0 (type smd_to_turn_gap))
+    (clear 50.0 (type smd_smd))
+  )
+  (padstack "Via[0-1]_600:300_um"
+    (shape
+      (circle F.Cu 600.0 0.0 0.0)
+    )
+    (shape
+      (circle B.Cu 600.0 0.0 0.0)
+    )
+    (attach off)
+  )
+  (via 
+    "Via[0-1]_600:300_um" "Via[0-1]_600:300_um" default
+  )
+  (via 
+    "Via[0-1]_600:300_um-kicad_default" "Via[0-1]_600:300_um" "kicad_default"
+  )
+  (via_rule
+    default "Via[0-1]_600:300_um"
+  )
+  (via_rule
+    "kicad_default" "Via[0-1]_600:300_um-kicad_default"
+  )
+  (class default
+    (clearance_class default)
+    (via_rule default)
+    (rule
+      (width 200.0)
+    )
+    (circuit 
+      (use_layer F.Cu B.Cu)
+    )
+  )
+  (class "kicad_default"
+    "Net-(C1-Pad2)" "Net-(U2-RCH)" "Net-(C2-Pad2)" "Net-(U2-LCH)" "Net-(C3-Pad2)" "Net-(U3-RCH)" "Net-(C4-Pad2)" "Net-(U3-LCH)"
+    "Net-(C5-Pad2)" "Net-(U4-RCH)" "Net-(U4-LCH)" "Net-(C6-Pad2)" "Net-(C7-Pad2)" "Net-(U5-RCH)" "Net-(C8-Pad2)" "Net-(U5-LCH)"
+    "Net-(C9-Pad1)" "Net-(U6A-+)" GNDA +5V +3V3 GND "Net-(C15-Pad1)" "Net-(U6B-+)"
+    "Net-(C16-Pad1)" "Net-(U10A-+)" "Net-(U10A--)" "Net-(C26-Pad2)" "Net-(U10B--)" "Net-(C27-Pad2)" "Net-(C29-Pad2)" "Net-(C30-Pad2)"
+    "Net-(U11A--)" "Net-(C32-Pad2)" "Net-(U11B--)" "Net-(C33-Pad2)" "Net-(C34-Pad2)" "Net-(C34-Pad1)" "Net-(C35-Pad1)" "Net-(C35-Pad2)"
+    "Net-(D1-A)" "Net-(D2-A)" "Net-(D2-K)" GNDV GP29 GP5 GP43 GP40
+    GP25 GP42 GP39 GP19 GP21 GP27 B2 G2
+    B3 GP34 GP35 "ADC AUDIO R IN" B0 GP33 GP41 "ADC AUDIO L IN"
+    GP30 B1 GP26 GP23 GP2 GP17 GP1 GP20
+    G0 GP44 GP38 GP32 GP3 B4 GP16 G4
+    GP0 GP24 GP37 "Net-(R78-Pad1)" GP28 GP22 G3 G1
+    GP45 GP18 GP36 GP4 "unconnected-(J2-Pad4)" "Net-(J2-Pad14)" "unconnected-(J2-Pad11)" "unconnected-(J2-Pad9)"
+    "Net-(J2-Pad2)" "Net-(J2-Pad3)" "unconnected-(J2-Pad15)" "Net-(J2-Pad1)" "unconnected-(J2-Pad12)" "Net-(J2-Pad13)" "unconnected-(J3-Pad2)" "Net-(J3-Pad4)"
+    "unconnected-(J3-Pad3)" "unconnected-(J3-Pad1)" "unconnected-(J5-D--Pad2)" "unconnected-(J5-D+-Pad3)" "Net-(J5-VBUS)" "unconnected-(J6-Pad2)" "Net-(J6-Pad4)" "Net-(J6-Pad5)"
+    "unconnected-(J6-Pad1)" "unconnected-(J6-Pad3)" "Net-(R2-Pad2)" "Net-(R3-Pad2)" "Net-(R4-Pad2)" "Net-(R10-Pad2)" "Net-(R12-Pad1)" "Net-(R15-Pad2)"
+    "Net-(R16-Pad2)" "Net-(R17-Pad2)" "Net-(R18-Pad2)" "Net-(R24-Pad1)" "Net-(R27-Pad2)" "Net-(R28-Pad2)" "Net-(R29-Pad2)" "Net-(R30-Pad2)"
+    "Net-(R36-Pad1)" "Net-(U6B--)" "Net-(U6A--)" "Net-(SW1-B)" "unconnected-(SW1-C-Pad3)" RUN "unconnected-(U1-3V3EN-Pad57)" "unconnected-(U1-VREF-Pad5)"
+    "unconnected-(U2-NC-Pad7)" "unconnected-(U3-NC-Pad7)" "unconnected-(U4-NC-Pad7)" "unconnected-(U5-NC-Pad7)" "unconnected-(A1-GPIO27_ADC1-Pad32)" "unconnected-(A1-GPIO18-Pad24)" "unconnected-(A1-GPIO0-Pad1)" "unconnected-(A1-GPIO10-Pad14)"
+    "unconnected-(A1-GPIO19-Pad25)" "unconnected-(A1-GPIO7-Pad10)" "unconnected-(A1-GPIO14-Pad19)" "unconnected-(A1-3V3-Pad36)" "unconnected-(A1-GPIO17-Pad22)" "unconnected-(A1-GPIO15-Pad20)" "unconnected-(A1-GPIO12-Pad16)" "unconnected-(A1-ADC_VREF-Pad35)"
+    "unconnected-(A1-GPIO20-Pad26)" "unconnected-(A1-VBUS-Pad40)" "unconnected-(A1-GPIO13-Pad17)" "unconnected-(A1-3V3_EN-Pad37)" "UART TX" "unconnected-(A1-GPIO21-Pad27)" "unconnected-(A1-GPIO11-Pad15)" "unconnected-(A1-GPIO8-Pad11)"
+    "unconnected-(A1-VSYS-Pad39)" SWDIO "unconnected-(A1-GPIO22-Pad29)" SWCLK "unconnected-(A1-GPIO9-Pad12)" "UART RX" "unconnected-(A1-GPIO26_ADC0-Pad31)" "unconnected-(A1-GPIO28_ADC2-Pad34)"
+    "unconnected-(A1-RUN-Pad30)" "unconnected-(A1-GPIO16-Pad21)" "unconnected-(A1-GPIO1-Pad2)" "unconnected-(A1-GPIO6-Pad9)" "Net-(R10-Pad1)" "Net-(R23-Pad1)" "Net-(R35-Pad1)" +5VA
+    (clearance_class "kicad_default")
+    (via_rule kicad_default)
+    (rule
+      (width 200.0)
+    )
+    (circuit 
+      (use_layer F.Cu B.Cu)
+    )
+  )
+)

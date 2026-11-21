@@ -21,14 +21,14 @@ ui	属性を変える	Cheñch an elfennoù
 ui	エディタで開く	Digeriñ en embanner
 ui	テキスト表示（Shift+V / Ctrl+Alt+F7 は 16 進）	Gwelet evel testenn (Shift+V / Ctrl+Alt+F7 hex)
 ui	ドライブの情報	Titouroù war ar bleniañ
-ui	フォルダを作る / 新しいファイル	Teuliad nevez / restr nevez
+ui	フォルダを作る（Shift+F5） / 新しいファイル（Ctrl+F1）	Teuliad nevez (Shift+F5) / restr nevez (Ctrl+F1)
 ui	シェル sgsh / 媒体を取り出す	Shell sgsh / skarzhañ ar meziant
 ui	読み直す	Adkargañ
-ui	見えている画面を PNG で保存	Enrollañ ar skramm evel PNG
+ui	見えている画面を PNG で保存（Alt+F5 も同じ）	Enrollañ ar skramm evel PNG (= Alt+F5)
 ui	窓を閉じる・選択を解く（サブフォルダでは上位へ）	Serriñ ar prenestr / diverkañ an diuzad (en un isrenkell : mont war-zu an nec'h)
-ui	ファイルの操作（FD と同じ。印・範囲・カーソルの順に選ぶ）	Obererezhioù ar restr (evel e FD : merkoù, goude ar c'hementad, goude ar biz)
-ui	コピー: 行き先はドライブとフォルダの木から。ESC で止める	Eilañ : dibabit an destenn diwar ar wezenn lenner ha teuliad. Paouez a ra an ESC
-ui	削除: y で確かめる。印・範囲をまとめて。フォルダは中身ごと	Dilemel : kadarnaat gant y. Merkoù ha rannoù war un dro. Teuliadoù gant o endalc'hadoù
+ui	ファイルの操作（FD と同じ。印・範囲・カーソルの順）	Obererezhioù ar restr (evel e FD : merkoù, goude ar c'hementad, goude ar biz)
+ui	コピー: 行き先は木から選ぶ。ESC で止める	Eilañ : dibabit an destenn diwar ar wezenn lenner ha teuliad. Paouez a ra an ESC
+ui	削除: y で確かめる。印・範囲をまとめて	Dilemel : kadarnaat gant y. Merkoù ha rannoù war un dro. Teuliadoù gant o endalc'hadoù
 ui	フォルダを削除（中身ごと）	Dilemel un teuliad (gant e endalc'hadoù)
 ui	名前を変える（今の名前を直して Enter）	Adlakaat an anv (kemmañ an anv, Lakaat)
 ui	属性: R 読み出し専用・H 隠し・S システム・A アーカイブ	Perzhioù : R lenn hepken, H kuzhet, S reizhiad, Un diell
@@ -50,22 +50,19 @@ ui	画面（Alt+F。FD の F キーとぶつからない）	Skramm (Alt+F, ne gl
 ui	FB（絵）/ テキスト面を出す・隠す	Diskouez / kuzhat an FB (skeudenn) / an destenn
 ui	FB の表示ページ（0〜3）	Pajenn diskouez FB (0-3)
 ui	FB を 0 で消す / 明るさを 1/2 に（RGB555）	Lakaat an FB da 0 / hanter e sked (RGB555)
-ui	USB のエンドポイントと LAN の状態	Poentoù dibenn USB hag ar stad LAN
+ui	USB のエンドポイントと LAN（U: 10 秒に 1 度）	Poentoù dibenn USB hag ar stad LAN
 ui	FB の表示ページを消す / 明るさを 1/2 に	Naetaat ar bajenn diskouezañ FB / digreskiñ he sked dre hanterouriezh
 ui	テキストの属性の見本	Skouerioù doareennoù testenn
 ui	モニタの EDID（起動時に読んだもの）	EDID ar surentez (lenn pa vez loc'het)
 ui	フォント ROM のライセンスとクレジット	Aotreoù ha kredennoù ROM nodrezh
 ui	設定（表示の言語・IME・キーボードロケール）	Arventennoù (yezh diskouez, IME ha lec'hiadur ar c'hlavier)
-ui	時計（NTP で合わせた日本時間。s ですぐ合わせる）	Eurier (Eur Japan arventennet gant NTP ; s a sinkronela bremañ)
+ui	時計（NTP で合わせた日本時間。s は 3 分に 1 度）	Eurier (Eur Japan arventennet gant NTP ; s a sinkronela bremañ)
 ui	表計算（SGCALC）を開く	Follenn jediñ digor (SGCALC)
 ui	S: ドライブのエラー検査（誤りがあれば直すか聞く）	Gwiriañ S: evit fazioù (goulenn a ra a-raok dresañ)
 ui	トラッカー（TRACKER）を開く	Digeriñ TRACKER
-ui	再起動（確かめの窓が出る）	Adloc'hañ (goulenn a ra da gentañ)
+ui	再起動（確かめの窓）。Ctrl+Alt+Del も同じ	Adloc'hañ (goulenn a ra da gentañ) = Ctrl+Alt+Del
 ui	ADC のステレオ入力（GP40 / 41）を鳴らす	Seniñ an enankad stereo ADC (GP40 / 41)
 ui	VGM/VGZ を 96kHz/24bit WAV に書き出す	Ezporzhiañ VGM/VGZ d'ur WAV 96 kHz / 24 bit
-ui	このヘルプ	Ar skoazell-mañ
-ui	ページを替える	Cheñch ar bajenn
-ui	閉じる	Serriñ
 ui	テキスト・16 進のビュアー（less 風）	Gweler testenn / c'hwezek (nebeutoc'h a blij)
 ui	1 行	Ul linenn
 ui	1 ページ	Ur bajenn
@@ -83,10 +80,9 @@ ui	IME の言語（日本語 / English / 한국어）	yezh IME (japaneg / saozne
 ui	ひらがな / カタカナで確定	Emglev evel hiragana / katakana
 ui	エディタのヘルプ	Skoazell an embanner
 ui	シェル	Krogenn
-ui	シェル（csh のサブセット。exit / Ctrl-D で戻る、help で一覧）	Shell (un isstrollad csh. mont kuit / Ctrl-D da zistreiñ, sikour a ro roll ar c'hemennadennoù)
+ui	シェル（csh の一部。exit / Ctrl-D で戻る、help で一覧）	Shell (un isstrollad csh. mont kuit / Ctrl-D da zistreiñ, sikour a ro roll ar c'hemennadennoù)
 ui	一覧と移動	Roll ha dilec'hiañ
 ui	ファイルの操作	Obererezhioù restr
-ui	画面と機器	Skramm hag urzhiataerioù
 ui	ビュアーとエディタ	Arvesterien hag an embanner
 ui	ヘルプ  %u / %u  %s	Sikour %u / %u %s
 ui	Left Right: ページを替える    F1 / ESC: 閉じる	A-gleiz A-zehou: cheñch ar bajenn F1 / ESC: serriñ
@@ -147,9 +143,9 @@ ui	10 EP表	10 EPs
 ui	11 時計	11 Eur
 ui	12 表計	12 CALC
 ui	1 属性	1 Attr
-ui	2 情報	2 Info
+ui	2Drv情報	2 Info
 ui	3 移動	3 Move
-ui	5 作成	5 Mkdir
+ui	5 ﾌｫﾙﾀﾞ	5 Mkdir
 ui	6 シェル	6 Shell
 ui	8 編集	8 Kemmañ
 ui	9 表示	9 Gwelet
@@ -187,10 +183,10 @@ ui	新しいファイル	Restr nevez
 ui	時刻:	Amzer:
 ui	実行:	Redek:
 ui	名前:	Anv:
-ui	年-月-日 時:分  Enter 合わせる  ESC そのまま	AAAA-MM-DD hh:mm Ebarzhiñ ar strollad ESC mirout
-ui	Enter 走らせる  ←→ 動かす  BS / Del 消す  ESC やめる	Lakaat redek <-> dilec'hiañ BS / Dilemel dilemel ESC nullañ
-ui	Enter 変える  ←→ 動かす  BS / Del 消す  ESC やめる	Lakaat adenvel <-> dilec'hiañ BS / Dilemel dilemel ESC nullañ
-ui	Enter 作る  ←→ 動かす  BS / Del 消す  ESC やめる	Lakaat krouiñ <-> dilec'hiañ BS / Dilemel dilemel ESC nullañ
+ui	年-月-日 時:分  Enter 合わせる  ESC そのまま	BBBB-MM-DD hh:mm  Enter lakaat  ESC lezel
+ui	Enter 走らせる  ←→ 動かす  BS / Del 消す  ESC やめる	Enter lañsañ  ←→ fiñval  BS / Del diverkañ  ESC nullañ
+ui	Enter 変える  ←→ 動かす  BS / Del 消す  ESC やめる	Enter adenvel  ←→ fiñval  BS/Del diverkañ  ESC nullañ
+ui	Enter 作る  ←→ 動かす  BS / Del 消す  ESC やめる	Enter krouiñ  ←→ fiñval  BS / Del diverkañ  ESC nullañ
 ui	消す	Dilemel
 ui	個の項目	traoù
 ui	フォルダは中身ごと消します。よろしいですか？	Dilamet e vez an teuliadoù gant o endalc'hadoù. Sur oc'h ?
@@ -344,7 +340,7 @@ ui	 組み立てています... %lu / %lu 行	O sevel... %lu / %lu renkennadoù
 ui	 書いています... %lu / %lu KB（FB は隠しています）	O skrivañ... %lu / %lu KB (kuzhet eo an FB)
 ui	書けませんでした	N'haller ket skrivañ
 ui	書庫の名前（印の付いた項目、無ければカーソルの項目を入れる）	Anv an arc'hwel (an elfennoù merket, pe an elfenn gant ar biz ma n'eus hini ebet)
-ui	Enter 圧縮する  ←→ 動かす  BS / Del 消す  ESC やめる	Ebarzhiñ gwaskañ ←→ dilec'hiañ BS / Dilemel dilemel ESC nullañ
+ui	Enter 圧縮する  ←→ 動かす  BS / Del 消す  ESC やめる	Enter gwaskañ  ←→ fiñval  BS/Del diverkañ  ESC nullañ
 ui	WAV 書き出し: %s 中止（%s）	ezporzhiañ WAV : %s nullet (%s)
 ui	WAV 書き出し: %s 失敗（%s）	ezporzhiañ WAV : c'hwitet eo %s (%s)
 ui	WAV 書き出し: %s 合計 %s	ezporzhiañ WAV : %s en holl %s
@@ -487,10 +483,10 @@ msg.phrase	the sound is not open	n'eo ket digor ar son
 msg.phrase	no such channel	chadenn ebet evel-se
 msg.phrase	the sequencer is busy	oberiant eo an heulier
 msg.phrase	not enough PSRAM for the song	n'eus ket a-walc'h a PSRAM evit ar ganaouenn
-msg.phrase	not a standard MIDI file (no MThd)	n'eo ket ur restr MIDI skoueriek (MThd ebet)
-msg.phrase	no tracks	roudoù ebet
-msg.phrase	a track is broken (MTrk)	torret eo un hent (MTrk)
-msg.phrase	SMPTE time division is not supported	N'eo ket skoret ar rannadur amzer SMPTE
+msg.phrase	not a standard MIDI file (no MThd)	n'eo ket ur restr MIDI skoueriek (MThd a vank)
+msg.phrase	no tracks	roudenn ebet
+msg.phrase	a track is broken (MTrk)	ur roudenn a zo gwastet (MTrk)
+msg.phrase	SMPTE time division is not supported	N'eo ket skoret rannadur amzer SMPTE
 msg.phrase	SMF format 2 is not supported (0 and 1 only)	N'eo ket skoret ar furmad SMF 2 (0 hag 1 hepken)
 msg.phrase	not a Bulk-Only drive	n'eo ket ur c'harr-boutin hepken
 msg.phrase	not an optical drive	n'eo ket ur c'heflusker optikel
@@ -510,7 +506,7 @@ msg.phrase	cancelled	nullet
 msg.phrase	could not mount	n'haller ket mont
 msg.phrase	could not start a read	n'eus ket bet gallet kregiñ gant ul lennadenn
 msg.phrase	could not start a write	n'hall ket kregiñ gant ur skrivañ
-msg.phrase	is a directory	zo ur c'havlec'hiad
+msg.phrase	is a directory	un teuliad eo
 msg.phrase	that is a directory	ur renkell eo
 msg.phrase	no clusters	strollad ebet
 msg.phrase	no room for the cluster list	plas ebet evit roll ar c'hlusteroù
@@ -624,7 +620,7 @@ msg.word	 files	restroù
 msg.word	 (	(
 msg.phrase	Untitled	Hep titl
 msg.phrase	1 File	1 Restr
-msg.phrase	2 Edit	2 Kemmañ
+msg.phrase	2 Edit	2 Aozañ
 msg.phrase	3 Graph	3 Grafik
 msg.phrase	4 Sheet	4 follenn
 msg.phrase	5 Help	5 Sikour
@@ -632,269 +628,269 @@ msg.phrase	EMPTY	GOULLO
 msg.phrase	NUMBER	NIVER
 msg.phrase	TEXT	TESTENN
 msg.phrase	FORMULA	FORMULENN
-msg.phrase	Type to enter, F2 to edit, F1 for help	Skrivit evit lakaat, F2 evit kemmañ, F1 evit sikour
+msg.phrase	Type to enter, F2 to edit, F1 for help	Skrivit evit enankañ, F2 evit aozañ, F1 evit skoazell
 msg.phrase	5 CSV	5 CSV
 msg.phrase	6 ODS	6 ODS
-msg.phrase	[SHIFT]	[GWINTAÑ]
+msg.phrase	[SHIFT]	[SHIFT]
 msg.phrase	[CTRL]	[CTRL]
 msg.phrase	[ALT]	[ALT]
 msg.phrase	Ready	Prest
 msg.phrase	SGCALC	SGCALC
-msg.phrase	Press any key	Pouezit war ne vern peseurt stokell
-msg.phrase	Y = yes    N = no    Esc = cancel	Y = ya N = nann Esc = nullañ
-msg.phrase	Enter = OK    Esc = cancel    Ctrl-U = clear	Ebarzhiñ = Mat eo Esc = nullañ Ctrl-U = diverkañ
-msg.phrase	First row/column = labels; charts use the 640x480 CLUT8 FB.	Linenn/banenn gentañ = tikedennoù; ar gartennoù a implij ar 640x480 CLUT8 FB.
-msg.phrase	SGCALC - HELP	SGCALC - SIKOUR
-msg.phrase	Press any key to return	Pouezit war ne vern peseurt stokell evit distreiñ
-msg.phrase	Press any key to return.	Pouezit war ne vern peseurt stokell evit distreiñ.
+msg.phrase	Press any key	Pouezit war un alc'hwez
+msg.phrase	Y = yes    N = no    Esc = cancel	Y = ya    N = nann    Esc = nullañ
+msg.phrase	Enter = OK    Esc = cancel    Ctrl-U = clear	Enter = Mat eo    Esc = nullañ    Ctrl-U = skarzhañ
+msg.phrase	First row/column = labels; charts use the 640x480 CLUT8 FB.	Linenn/bann kentañ = tikedennoù; ar grafikoù a implij ar FB CLUT8 640x480.
+msg.phrase	SGCALC - HELP	SGCALC - SKOAZELL
+msg.phrase	Press any key to return	Pouezit war un alc'hwez evit distreiñ
+msg.phrase	Press any key to return.	Pouezit war un alc'hwez evit distreiñ.
 msg.phrase	ABOUT SGCALC	DIWAR-BENN SGCALC
 msg.phrase	New	Nevez
 msg.phrase	Start a new sheet	Kregiñ gant ur follenn nevez
-msg.phrase	Open...	Digor...
+msg.phrase	Open...	Digeriñ...
 msg.phrase	Open an ODS, FODS or CSV file	Digeriñ ur restr ODS, FODS pe CSV
-msg.phrase	Save	Saveteiñ
-msg.phrase	Save the current file	Enrollañ ar restr bremanel
+msg.phrase	Save	Enrollañ
+msg.phrase	Save the current file	Enrollañ ar restr vremanel
 msg.phrase	Save As...	Enrollañ evel...
 msg.phrase	Save with a new name or format	Enrollañ gant un anv pe ur furmad nevez
 msg.phrase	Export CSV...	Ezporzhiañ CSV...
-msg.phrase	Write a CSV copy	Skrivañ un eiladenn CSV
+msg.phrase	Write a CSV copy	Skrivañ un eilad CSV
 msg.phrase	Export ODS...	Ezporzhiañ ODS...
-msg.phrase	Write a LibreOffice copy	Skrivañ un eiladenn eus LibreOffice
+msg.phrase	Write a LibreOffice copy	Skrivañ un eilad LibreOffice
 msg.phrase	Quit	Kuitaat
 msg.phrase	Leave SGCALC	Kuitaat SGCALC
-msg.phrase	Clear	Sklaer
-msg.phrase	Clear the selected cells	Diverkañ ar c'helligoù diuzet
+msg.phrase	Clear	Skarzhañ
+msg.phrase	Clear the selected cells	Skarzhañ ar c'helligoù diuzet
 msg.phrase	Copy	Eilañ
-msg.phrase	Copy the selection	Eilañ an diuzad
+msg.phrase	Copy the selection	Eilañ an diuz
 msg.phrase	Paste	Pegañ
-msg.phrase	Paste at the cursor	Pegañ ouzh ar biz
+msg.phrase	Paste at the cursor	Pegañ e-lec'h ma'z eo ar reti
 msg.phrase	Cut	Troc'hañ
-msg.phrase	Copy and clear the selection	Eilañ ha diverkañ an diuzad
-msg.phrase	Select all	Dibab an holl
-msg.phrase	Select all used cells	Dibabit an holl gelligoù arveret
+msg.phrase	Copy and clear the selection	Eilañ ha skarzhañ an diuz
+msg.phrase	Select all	Diuz pep tra
+msg.phrase	Select all used cells	Diuz an holl gelligoù implijet
 msg.phrase	Text color...	Liv an destenn...
 msg.phrase	Choose the text colour	Dibab liv an destenn
 msg.phrase	Background...	Drekleur...
-msg.phrase	Choose the cell background	Dibab foñs ar gellig
+msg.phrase	Choose the cell background	Dibab drekleur ar gellig
 msg.phrase	Line	Linenn
-msg.phrase	Draw a line graph from the selection	Tresañ ur grafik linennoù diwar an dibab
-msg.phrase	Bar	Tavarn
-msg.phrase	Draw a bar graph from the selection	Tresañ ur grafik barrennoù diwar an dibab
-msg.phrase	Mixed	Mesket
-msg.phrase	Bars for the first series, lines for the rest	Barrennoù evit an heuliad kentañ, linennoù evit ar peurrest
-msg.phrase	Pie	Tastell
-msg.phrase	Draw a pie graph from the selection	Tresañ ur grafik tro-dro diwar an dibab
-msg.phrase	Range...	Skalfad...
-msg.phrase	Set the graph range explicitly	Lakaat ar c'hementad grafikoù splann
-msg.phrase	Draw again	Tresañ adarre
-msg.phrase	Redraw the last graph	Adtresañ ar grafik diwezhañ
-msg.phrase	Goto...	Mont...
+msg.phrase	Draw a line graph from the selection	Treseñ ur grafik linennoù diouzh an diuz
+msg.phrase	Bar	Barrenn
+msg.phrase	Draw a bar graph from the selection	Treseñ ur grafik barrennoù diouzh an diuz
+msg.phrase	Mixed	Kemmesk
+msg.phrase	Bars for the first series, lines for the rest	Barrennoù evit ar steudad kentañ, linennoù evit ar re all
+msg.phrase	Pie	Kouign
+msg.phrase	Draw a pie graph from the selection	Treseñ ur grafik kouign diouzh an diuz
+msg.phrase	Range...	Maez...
+msg.phrase	Set the graph range explicitly	Lakaat maez ar grafik gant an dorn
+msg.phrase	Draw again	Adtreseñ
+msg.phrase	Redraw the last graph	Adtreseñ ar grafik diwezhañ
+msg.phrase	Goto...	Mont da...
 msg.phrase	Jump to a cell (for example C12)	Mont d'ur gellig (da skouer C12)
-msg.phrase	Column width...	Led ar bann...
+msg.phrase	Column width...	Ledander ar bann...
 msg.phrase	Change the selected columns' width	Kemmañ ledander ar bannoù diuzet
-msg.phrase	Row height...	Uhelder ar renk...
+msg.phrase	Row height...	Uhelder al linenn...
 msg.phrase	Change the selected rows' height	Kemmañ uhelder al linennoù diuzet
-msg.phrase	Auto fit	Ensoc'hañ emgefre
-msg.phrase	Fit widths/heights to the contents (F7)	Lakaat ledanderioù/uhelderioù da glotañ gant an endalc'hadoù (F7)
-msg.phrase	Recalculate	Adkontañ
-msg.phrase	Re-evaluate all formulas	Adpriziañ an holl formulennoù
-msg.phrase	Erase all	Diverkañ an holl
-msg.phrase	Clear the whole sheet	Naetaat ar follenn a-bezh
+msg.phrase	Auto fit	Klotañ
+msg.phrase	Fit widths/heights to the contents (F7)	Klotañ al ledanderioù/uhelderioù gant an endalc'had (F7)
+msg.phrase	Recalculate	Adjediñ
+msg.phrase	Re-evaluate all formulas	Adjediñ an holl formulennoù
+msg.phrase	Erase all	Diverkañ pep tra
+msg.phrase	Clear the whole sheet	Skarzhañ ar follenn a-bezh
 msg.phrase	Keys	Alc'hwezioù
-msg.phrase	Show the key guide	Diskouez an hentenn alc'hwez
+msg.phrase	Show the key guide	Diskouez sturlevr an alc'hwezioù
 msg.phrase	About	Diwar-benn
 msg.phrase	About SGCALC	Diwar-benn SGCALC
 msg.phrase	File	Restr
-msg.phrase	Edit	Embann
+msg.phrase	Edit	Aozañ
 msg.phrase	Graph	Grafik
 msg.phrase	Sheet	Follenn
-msg.phrase	Help	Sikour
-msg.phrase	File: new, open, save, export, quit	Restr : nevez, digeriñ, enrollañ, ezporzhiañ, kuitaat
-msg.phrase	Edit: clear, copy, paste, cut, select all	Kemmañ : diverkañ, kopiañ, pegañ, troc'hañ, diuzañ an holl
-msg.phrase	Graph: line, bar, mixed, pie (draws in the FB)	Grafik : linenn, barrenn, mesket, pastez (tresadennoù er FB)
-msg.phrase	Sheet: goto, column width, recalculate, erase	Follenn : goto, led ar bann, adreizhañ, diverkañ
-msg.phrase	Help: keys and about	Skoazell : alc'hwezioù ha diwar-benn
+msg.phrase	Help	Skoazell
+msg.phrase	File: new, open, save, export, quit	Restr: nevez, digeriñ, enrollañ, ezporzhiañ, kuitaat
+msg.phrase	Edit: clear, copy, paste, cut, select all	Aozañ: skarzhañ, eilañ, pegañ, troc'hañ, diuz pep tra
+msg.phrase	Graph: line, bar, mixed, pie (draws in the FB)	Grafik: linenn, barrenn, kemmesk, kouign (er FB)
+msg.phrase	Sheet: goto, column width, recalculate, erase	Follenn: mont da, ledander bann, adjediñ, diverkañ
+msg.phrase	Help: keys and about	Skoazell: alc'hwezioù ha diwar-benn
 msg.phrase	Left/Right = menu    Up/Down = item    Enter = choose    Esc = cancel	Kleiz/Dehou = meni Uhel/Izel = elfenn Ebarzhiñ = dibab Esc = nullañ
 msg.phrase	Cancelled	Nullet
-msg.phrase	The selection is too large or memory is low.	Re vras ​​eo an dibab pe izel eo ar vemor.
+msg.phrase	The selection is too large or memory is low.	Re vras eo an diuz pe n'eus ket a-walc'h a vemor.
 msg.phrase	the cell	ar gellig
 msg.phrase	the selection	an dibab
 msg.phrase	Nothing to paste	Netra da begañ
 msg.phrase	Pasted	Peget
-msg.phrase	GO TO CELL	MONT D'AR C'HELL
-msg.phrase	Cell reference (A1):	Daveenn ar gellig (A1):
-msg.phrase	Goto	Mont
-msg.phrase	COLUMN WIDTH	LED AR BOLONENN
+msg.phrase	GO TO CELL	MONT D'UR GELLIG
+msg.phrase	Cell reference (A1):	Dave ar gellig (A1):
+msg.phrase	Goto	Mont da
+msg.phrase	COLUMN WIDTH	LEDANDER AR BANN
 msg.phrase	Width in characters (4..30):	Ledander e arouezennoù (4..30):
-msg.phrase	ROW HEIGHT	UHELL AR RENDENN
-msg.phrase	Height in text rows (1..8):	Uhelder ar renkennadoù testenn (1..8):
-msg.phrase	Auto fit: the sheet is empty	Emgefre : goullo eo ar follenn
-msg.phrase	BACKGROUND COLOUR	LIV AN FORN
-msg.phrase	TEXT COLOUR	LIV an TESTENN
-msg.phrase	Arrows: choose    Enter: apply    Esc: cancel	Saezhoù : dibabit Enankaat : arverañ Esc : nullañ
-msg.phrase	Colour index (PC-98 16-colour palette)	Indez livioù (paled 16 liv PC-98)
+msg.phrase	ROW HEIGHT	UHELDER AL LINENN
+msg.phrase	Height in text rows (1..8):	Uhelder e linennoù testenn (1..8):
+msg.phrase	Auto fit: the sheet is empty	Klotañ: goullo eo ar follenn
+msg.phrase	BACKGROUND COLOUR	LIV AN DREKLEUR
+msg.phrase	TEXT COLOUR	LIV AN DESTENN
+msg.phrase	Arrows: choose    Enter: apply    Esc: cancel	Birou: dibab    Enter: arloañ    Esc: nullañ
+msg.phrase	Colour index (PC-98 16-colour palette)	Niver al liv (livaoueg 16 liv PC-98)
 msg.phrase	Aa 123	Aa 123
-msg.phrase	Enter = apply    Esc = cancel	Ebarzhiñ = lakaat da dalvezout Esc = nullañ
+msg.phrase	Enter = apply    Esc = cancel	Enter = arloañ    Esc = nullañ
 msg.phrase	Colour	Liv
 msg.phrase	Background	Drekleur
 msg.phrase	Text	Testenn
-msg.phrase	GRAPH RANGE	HADENN AR GRAFIKOÙ
-msg.phrase	Range (for example A1:C10):	Damm (da skouer A1:C10) :
-msg.phrase	Graph range	Tammad ar grafikoù
-msg.phrase	Use a range such as A1:C10.	Implijit ur pakad evel A1:C10.
-msg.phrase	Cannot draw the graph.	N'haller ket tresañ ar grafik.
+msg.phrase	GRAPH RANGE	MAEZ AR GRAFIK
+msg.phrase	Range (for example A1:C10):	Maez (da skouer A1:C10):
+msg.phrase	Graph range	Maez ar grafik
+msg.phrase	Use a range such as A1:C10.	Enankit ur maez evel A1:C10.
+msg.phrase	Cannot draw the graph.	N'haller ket treseñ ar grafik.
 msg.phrase	line	linenn
 msg.phrase	bar	tavarn
 msg.phrase	mixed	mesket
 msg.phrase	pie	pastez
-msg.phrase	Clear every cell in this sheet?	Diverkañ pep kellig er follenn-mañ ?
+msg.phrase	Clear every cell in this sheet?	Skarzhañ holl gelligoù ar follenn-mañ?
 msg.phrase	Sheet erased	Diverket eo bet ar follenn
-msg.phrase	Selected all used cells	Dibabet an holl gelligoù implijet
+msg.phrase	Selected all used cells	Diuzet eo bet an holl gelligoù implijet
 msg.phrase	Recalculated	Adjedet
-msg.phrase	Memory	Eñvor
-msg.phrase	Not enough PSRAM for the spreadsheet.	N'eus ket a-walc'h a PSRAM evit ar follenn jediñ.
+msg.phrase	Memory	Memor
+msg.phrase	Not enough PSRAM for the spreadsheet.	N'eus ket a-walc'h a PSRAM evit ar follenn-jediñ.
 msg.phrase	The sheet is empty.	Goullo eo ar follenn.
-msg.phrase	No numeric data in the selected range.	Roadenn niverel ebet en dibarzh diuzet.
+msg.phrase	No numeric data in the selected range.	N'eus niver ebet er maez diuzet.
 msg.phrase	Other	All
-msg.phrase	No positive values for a pie chart	N'eus talvoud pozitivel ebet evit ur grafik tro-dro
+msg.phrase	No positive values for a pie chart	Talvoud pozitivel ebet evit ur grafik kouign
 msg.phrase	LINE	LINENN
-msg.phrase	BAR	TAVARN
-msg.phrase	MIXED	MESKET
-msg.phrase	PIE	PIE
+msg.phrase	BAR	BARRENN
+msg.phrase	MIXED	KEMMESK
+msg.phrase	PIE	KOUIGN
 msg.phrase	S:/	S:/
 msg.phrase	Folder	Teuliad
-msg.phrase	SAVE AS	ENROLLIT EVEL
-msg.phrase	OPEN FILE	DIGORIT AR RESTRENN
+msg.phrase	SAVE AS	ENROLLAÑ EVEL
+msg.phrase	OPEN FILE	DIGERIÑ UR RESTR
 msg.phrase	LibreOffice / CSV	LibreOffice / CSV
-msg.phrase	ODS  FODS  CSV	ODS FODS CSV
+msg.phrase	ODS  FODS  CSV	ODS  FODS  CSV
 msg.phrase	Name:	Anv:
 msg.phrase	(type a name, or choose below)	(skrivit un anv, pe dibabit amañ dindan)
 msg.phrase	Name	Anv
 msg.phrase	Size	Ment
-msg.phrase	Enter=save  Left=up  Right/Enter on [DIR]=open  Tab=drive  Esc=cancel	Ebarzhiñ=enrollañ Kleiz=war-zu an tu dehou/Ebarzhiñ war [DIR]=digeriñ Tab=dreuzkas Esc=nullañ
-msg.phrase	Enter=open  Left=up  Right/Enter on [DIR]=open  Tab=drive  Esc=cancel	Ebarzhiñ=digeriñ Kleiz=war-zu an tu dehou/Ebarzhiñ war [DIR]=digeriñ Tab=dreuzkas Esc=nullañ
+msg.phrase	Enter=save  Left=up  Right/Enter on [DIR]=open  Tab=drive  Esc=cancel	Enter=enrollañ  ←=krec'h  →/Enter war [DIR]=digeriñ  Tab=lenner  Esc=nullañ
+msg.phrase	Enter=open  Left=up  Right/Enter on [DIR]=open  Tab=drive  Esc=cancel	Enter=digeriñ  ←=krec'h  →/Enter war [DIR]=digeriñ  Tab=lenner  Esc=nullañ
 msg.phrase	Not enough memory.	N'eus ket a-walc'h a vemor.
-msg.phrase	Overwrite	Dreistskrivañ
-msg.phrase	Open	Digor
-msg.phrase	The file is too large (limit 8 MB).	Re vras ​​eo ar restr (bevenn 8 Mo).
-msg.phrase	Not enough memory to read the file.	N'eus ket a vemor a-walc'h evit lenn ar restr.
-msg.phrase	Bad ZIP/ODS data.	Roadennoù ZIP/ODS fall.
+msg.phrase	Overwrite	Flastrañ
+msg.phrase	Open	Digeriñ
+msg.phrase	The file is too large (limit 8 MB).	Re vras eo ar restr (bevenn 8 MB).
+msg.phrase	Not enough memory to read the file.	N'eus ket a-walc'h a vemor evit lenn ar restr.
+msg.phrase	Bad ZIP/ODS data.	Roadennoù ZIP/ODS gwastet.
 msg.phrase	CRC error in the ODS file.	Fazi CRC er restr ODS.
-msg.phrase	Unsupported or damaged file.	Restr dic'houestlet pe gwallet.
+msg.phrase	Unsupported or damaged file.	Restr n'eo ket skoret pe gwastet.
 msg.phrase	Saved	Enrollet
 msg.phrase	Exported	Ezporzhiet
-msg.phrase	Unsaved changes	Kemmoù nann enrollet
-msg.phrase	Save the current sheet before continuing?	Enrollañ ar follenn bremanel a-raok kenderc'hel ?
+msg.phrase	Unsaved changes	Kemmoù n'int ket enrollet
+msg.phrase	Save the current sheet before continuing?	Enrollañ ar follenn vremanel a-raok kenderc'hel?
 msg.phrase	New sheet	Follenn nevez
 msg.phrase	SGTRK	SGTRK
-msg.phrase	UNTITLED	HEP titl
-msg.phrase	song is too large	re vras ​​eo ar ganaouenn
+msg.phrase	UNTITLED	UNTITLED
+msg.phrase	song is too large	re vras eo ar ganaouenn
 msg.phrase	empty file	restr goullo
 msg.phrase	not an SGT file	n'eo ket ur restr SGT
 msg.phrase	bad BPM	BPM fall
 msg.phrase	bad speed	tizh fall
-msg.phrase	bad title length	hirder fall an titl
+msg.phrase	bad title length	hirder titl fall
 msg.phrase	truncated title	titl troc'het
-msg.phrase	bad character in title	tudenn fall an titl
+msg.phrase	bad character in title	arouezenn direizh en titl
 msg.phrase	truncated order	urzh troc'het
-msg.phrase	bad order length	hirder fall an urzh
-msg.phrase	bad pattern number in order	niverenn patrom fall en urzh
-msg.phrase	truncated pattern list	roll patromoù troc'het
-msg.phrase	bad pattern count	niver patromoù fall
-msg.phrase	bad pattern index	indez patromoù fall
-msg.phrase	duplicate pattern	patrom doublet
-msg.phrase	truncated pattern data	roadennoù patrom troc'het
-msg.phrase	invalid pattern data	roadennoù patrom direizh
-msg.phrase	trailing data in file	roadennoù da-heul er restr
-msg.phrase	order refers to a missing pattern	urzh a denn d'ur patrom mankout
-msg.phrase	A:/	UN:/
+msg.phrase	bad order length	hirder urzh fall
+msg.phrase	bad pattern number in order	niver pattern fall en urzh
+msg.phrase	truncated pattern list	roll pattern troc'het
+msg.phrase	bad pattern count	niver a pattern fall
+msg.phrase	bad pattern index	ibil pattern fall
+msg.phrase	duplicate pattern	pattern doubl
+msg.phrase	truncated pattern data	roadennoù pattern troc'het
+msg.phrase	invalid pattern data	roadennoù pattern direizh
+msg.phrase	trailing data in file	roadennoù a-ziouer e dibenn ar restr
+msg.phrase	order refers to a missing pattern	an urzh a ra dave d'ur pattern a vank
+msg.phrase	A:/	A:/
 msg.phrase	(untitled)	(hep titl)
-msg.phrase	Ready. Press F1 for help.	Prest. Pouezit war F1 evit sikour.
-msg.phrase	Follow OFF	Heuliañ OFF
-msg.phrase	Nothing to undo	Netra da zistreiñ
-msg.phrase	Undo	Dizober
-msg.phrase	Note OFF	Notenn DIWAR
-msg.phrase	Set an effect letter first	Lakaat ul lizherenn efed da gentañ
-msg.phrase	Effect cleared	Sklaeraet eo bet an efedoù
-msg.phrase	Parameter cleared	Diverket eo bet ar barametr
-msg.phrase	Note cleared	Notenn diverket
-msg.phrase	Instrument cleared	Diverket eo bet ar binvioù
-msg.phrase	Volume cleared	Diverket eo bet ar volum
-msg.phrase	Order list is full	Leun eo roll an urzhioù
-msg.phrase	Order inserted	Urzh enlakaet
-msg.phrase	Cannot delete the last order	N'haller ket dilemel an urzh diwezhañ
-msg.phrase	Order deleted	Urzh diverket
-msg.phrase	Playing song	O seniñ ur ganaouenn
+msg.phrase	Ready. Press F1 for help.	Prest. Pouezit war F1 evit skoazell.
+msg.phrase	Follow OFF	Heuliañ LAZHET
+msg.phrase	Nothing to undo	Netra da zizober
+msg.phrase	Undo	Dizobet
+msg.phrase	Note OFF	Note off
+msg.phrase	Set an effect letter first	Enankit lizherenn an efed da gentañ
+msg.phrase	Effect cleared	Skarzhet eo an efed
+msg.phrase	Parameter cleared	Skarzhet eo an arventenn
+msg.phrase	Note cleared	Skarzhet eo an notenn
+msg.phrase	Instrument cleared	Skarzhet eo ar benveg
+msg.phrase	Volume cleared	Skarzhet eo an ampled
+msg.phrase	Order list is full	Leun eo roll an urzh
+msg.phrase	Order inserted	Lakaet ez eus bet ul lec'hiadur
+msg.phrase	Cannot delete the last order	N'haller ket diverkañ al lec'hiadur diwezhañ
+msg.phrase	Order deleted	Diverket eo bet ul lec'hiadur
+msg.phrase	Playing song	O seniñ ar ganaouenn
 msg.phrase	Stopped	Paouezet
 msg.phrase	New song	Kanaouenn nevez
-msg.phrase	Discard unsaved changes and start a new song? (Y/N)	Dilemel ar c'hemmoù nann-enrollet ha kregiñ gant ur ganaouenn nevez ? (Y/N)
-msg.phrase	Discard unsaved changes and open a song? (Y/N)	Dilezel ar c'hemmoù nann-enrollet ha digeriñ ur ganaouenn ? (Y/N)
-msg.phrase	Discard unsaved changes and quit? (Y/N)	Dilezel ar c'hemmoù nann-enrollet ha kuitaat ? (Y/N)
-msg.phrase	Song settings updated	Hizivaet eo bet arventennoù ar ganaouenn
+msg.phrase	Discard unsaved changes and start a new song? (Y/N)	Dilezel ar c'hemmoù n'int ket enrollet ha kregiñ gant ur ganaouenn nevez? (Y/N)
+msg.phrase	Discard unsaved changes and open a song? (Y/N)	Dilezel ar c'hemmoù n'int ket enrollet ha digeriñ ur ganaouenn? (Y/N)
+msg.phrase	Discard unsaved changes and quit? (Y/N)	Dilezel ar c'hemmoù n'int ket enrollet ha kuitaat? (Y/N)
+msg.phrase	Song settings updated	Kemmet eo bet arventennoù ar ganaouenn
 msg.phrase	Filename is empty	Goullo eo anv ar restr
-msg.phrase	Save cancelled	Nullet enrollañ
-msg.phrase	Open cancelled	Digeriñ nullet
-msg.phrase	Edit ON	Kemmañ war
-msg.phrase	Edit OFF	Kemmañ DIWAR
-msg.phrase	Follow ON	Heuliañ ON
-msg.phrase	Edit is OFF. Press F8 to edit.	Diweredekaet eo ar c'hemm. Pouezit war F8 evit kemmañ.
-msg.phrase	I/O error	Fazi E/S
-msg.phrase	file is too large	re vras ​​eo ar restr
+msg.phrase	Save cancelled	Nullet eo bet an enrollañ
+msg.phrase	Open cancelled	Nullet eo bet an digeriñ
+msg.phrase	Edit ON	Aozañ ENAOUET
+msg.phrase	Edit OFF	Aozañ LAZHET
+msg.phrase	Follow ON	Heuliañ ENAOUET
+msg.phrase	Edit is OFF. Press F8 to edit.	Lazhet eo an aozañ. Pouezit war F8.
+msg.phrase	I/O error	Fazi I/O
+msg.phrase	file is too large	re vras eo ar restr
 msg.phrase	truncated file	restr troc'het
-msg.phrase	SINE PAD	PAD SINE
-msg.phrase	TRIANGLE	TRIKORN
-msg.phrase	SAW LEAD	GWAR PLOM
-msg.phrase	SQUARE	PLASENN
-msg.phrase	PULSE 25	PULS 25
+msg.phrase	SINE PAD	SINE PAD
+msg.phrase	TRIANGLE	TRIANGLE
+msg.phrase	SAW LEAD	SAW LEAD
+msg.phrase	SQUARE	SQUARE
+msg.phrase	PULSE 25	PULSE 25
 msg.phrase	ORGAN	ORGAN
-msg.phrase	BASS	BAS
-msg.phrase	BELL	KLOC'H
-msg.phrase	NOISE	TROUZ
+msg.phrase	BASS	BASS
+msg.phrase	BELL	BELL
+msg.phrase	NOISE	NOISE
 msg.phrase	SINE	SINE
-msg.phrase	SAW	GWELET
-msg.phrase	OFF	LAZHET
-msg.phrase	ON	WAR
-msg.phrase	ROW	LINENN
+msg.phrase	SAW	SAW
+msg.phrase	OFF	OFF
+msg.phrase	ON	ON
+msg.phrase	ROW	ROW
 msg.phrase	CHAN LEVEL	CHAN LEVEL
-msg.phrase	F1 HELP F2 SONG	F1 SIKOUR F2 KAN
-msg.phrase	F3 INS  F4 SAVE	F3 INS F4 SAVE
-msg.phrase	F5 PLAY F6 PAT	F5 C'HOARI F6 PAT
+msg.phrase	F1 HELP F2 SONG	F1 HELP F2 SONG
+msg.phrase	F3 INS  F4 SAVE	F3 INS  F4 SAVE
+msg.phrase	F5 PLAY F6 PAT	F5 PLAY F6 PAT
 msg.phrase	F7 STOP F8 EDIT	F7 STOP F8 EDIT
-msg.phrase	F9/F10 OCTAVE	F9/F10 OKTAV
-msg.phrase	F11 FOLLOW	F11 HEULIÑ
-msg.phrase	F12 QUIT	F12 KOUIT
-msg.phrase	SPACE PLAY/STOP	C'HOARI/ARREZH AN Egor
-msg.phrase	CTRL-S SAVE	CTRL-S Enrollañ
-msg.phrase	CTRL-O OPEN	CTRL-O DIGOR
-msg.phrase	C-N NEW C-Z UNDO	C-N NEVEZ C-Z DISTRO
+msg.phrase	F9/F10 OCTAVE	F9/F10 OCTAVE
+msg.phrase	F11 FOLLOW	F11 FOLLOW
+msg.phrase	F12 QUIT	F12 QUIT
+msg.phrase	SPACE PLAY/STOP	SPACE PLAY/STOP
+msg.phrase	CTRL-S SAVE	CTRL-S SAVE
+msg.phrase	CTRL-O OPEN	CTRL-O OPEN
+msg.phrase	C-N NEW C-Z UNDO	C-N NEW C-Z UNDO
 msg.phrase	C-C STOP	C-C STOP
-msg.phrase	#TRANSPORT AND FILES	#TREuzdougen HA RESTROÙ
-msg.phrase	#ORDER LIST	#ROLL UMANIOU
-msg.phrase	#DISPLAY	#DISPAKAÑ
-msg.phrase	#EDITING	#KEMMAÑ
-msg.phrase	#EFFECTS (parameter is hexadecimal)	#EFEDOÙ (arventenn c'hwezekvedennek eo)
-msg.phrase	LEFT/RIGHT PAGE   ENTER OR F1 CLOSE	BAJENN KLEIZ/DEHOU ERAÑ PE F1 SERRIÑ
-msg.phrase	SONG SETTINGS	ARVENNADOÙ KAN
-msg.phrase	UP/DOWN SELECT   LEFT/RIGHT ADJUST   ENTER/F2 CLOSE	UP/DOWN DIBABIT KLEIZ/DEOU AREZH ENTER/F2 CLOSE
-msg.phrase	Type to edit the title. Backspace deletes the last character.	Skrivit evit kemmañ an titl. An esaouenn en-dro a ziverk an arouezenn ziwezhañ.
-msg.phrase	BPM range 32..255. Speed range 1..31.	BPM 32..255. Tizh 1..31.
-msg.phrase	Pattern effects can also change speed and BPM while playing.	Efedoù ar patromoù a c'hell ivez cheñch an tizh hag ar BPM e-pad ar c'hoari.
-msg.phrase	INSTRUMENTS	BINVIJOÙ
-msg.phrase	UP/DOWN SELECT   SPACE PREVIEW   ENTER USE   F3 CLOSE	UP/DOWN DIBABIT AN ESPAZ RAKWELLENN ENNER IMPLIJ F3 SERRIÑ
-msg.phrase	All four channels use wavetable synthesis.	An holl bevar c'hanol a implij sintezenn an daolenn gwagennoù.
-msg.phrase	Preview plays C-4 on the track under the edit cursor.	Ar rakweledenn a c'hoari C-4 war an ton dindan ar biz kemmañ.
-msg.phrase	SAVE SONG AS	ENROLLIT AR GAN EVEL
-msg.phrase	ENTER SAVE   F4 OR CTRL-C CANCEL	ENAÑ ENROLL F4 PE CTRL-C NULL
-msg.phrase	Directory:	Roll :
-msg.phrase	File name:	Anv ar restr :
-msg.phrase	The extension .SGT is added automatically.	Ouzhpennet eo an astenn .SGT ent emgefre.
-msg.phrase	An existing file can be overwritten.	Ur restr zo anezhañ a c'hall bezañ adskrivet.
-msg.phrase	OPEN SONG	KAN DIGOR
-msg.phrase	ENTER OPEN  BS PARENT  CTRL-O/CTRL-C CANCEL	ENTER OPEN BS PARENT CTRL-O/CTRL-C CANCEL
-msg.phrase	(no .SGT files in this folder)	(restr .SGT ebet er renkell-mañ)
+msg.phrase	#TRANSPORT AND FILES	#SENIÑ HA RESTROÙ
+msg.phrase	#ORDER LIST	#ROLL AN URZH
+msg.phrase	#DISPLAY	#SKRAMM
+msg.phrase	#EDITING	#AOZAÑ
+msg.phrase	#EFFECTS (parameter is hexadecimal)	#EFEDOÙ (arventenn c'hwezekredel)
+msg.phrase	LEFT/RIGHT PAGE   ENTER OR F1 CLOSE	LEFT/RIGHT PAGE   ENTER OR F1 CLOSE
+msg.phrase	SONG SETTINGS	ARVENTENNOÙ AR GANAOUENN
+msg.phrase	UP/DOWN SELECT   LEFT/RIGHT ADJUST   ENTER/F2 CLOSE	UP/DOWN SELECT   LEFT/RIGHT ADJUST   ENTER/F2 CLOSE
+msg.phrase	Type to edit the title. Backspace deletes the last character.	Skrivit evit kemmañ an titl. Backspace a ziverk an arouezenn ziwezhañ.
+msg.phrase	BPM range 32..255. Speed range 1..31.	BPM eus 32 betek 255. Tizh eus 1 betek 31.
+msg.phrase	Pattern effects can also change speed and BPM while playing.	Efedoù ar pattern a c'hall ivez kemmañ an tizh hag ar BPM e-pad ar seniñ.
+msg.phrase	INSTRUMENTS	BINVIOÙ
+msg.phrase	UP/DOWN SELECT   SPACE PREVIEW   ENTER USE   F3 CLOSE	UP/DOWN SELECT   SPACE PREVIEW   ENTER USE   F3 CLOSE
+msg.phrase	All four channels use wavetable synthesis.	Ar pevar c'hanol a implij ar sintezenn wavetable.
+msg.phrase	Preview plays C-4 on the track under the edit cursor.	Ar selaou a sen C-4 war ar roudenn dindan ar reti.
+msg.phrase	SAVE SONG AS	ENROLLAÑ AR GANAOUENN EVEL
+msg.phrase	ENTER SAVE   F4 OR CTRL-C CANCEL	ENTER SAVE   F4 OR CTRL-C CANCEL
+msg.phrase	Directory:	Teuliad:
+msg.phrase	File name:	Anv ar restr:
+msg.phrase	The extension .SGT is added automatically.	An astenn .SGT a vez ouzhpennet ent-emgefreek.
+msg.phrase	An existing file can be overwritten.	Gallout a reer flastrañ ur restr a zo anezhi.
+msg.phrase	OPEN SONG	DIGERIÑ UR GANAOUENN
+msg.phrase	ENTER OPEN  BS PARENT  CTRL-O/CTRL-C CANCEL	ENTER OPEN  BS PARENT  CTRL-O/CTRL-C CANCEL
+msg.phrase	(no .SGT files in this folder)	(restr .SGT ebet en teuliad-mañ)
 msg.phrase	CONFIRM	KADARNAAT
-msg.phrase	Y = YES   N / ENTER / CTRL-C = NO	Y = YA N / ENTER / CTRL-C = NANN
-msg.phrase	Y = yes        N = no	Y = ya N = nann
+msg.phrase	Y = YES   N / ENTER / CTRL-C = NO	Y = YES   N / ENTER / CTRL-C = NO
+msg.phrase	Y = yes        N = no	Y = ya        N = nann
 msg.phrase	C-	C-
 msg.phrase	C#	C#
 msg.phrase	D-	D-
@@ -904,202 +900,202 @@ msg.phrase	F-	F-
 msg.phrase	F#	F#
 msg.phrase	G-	G-
 msg.phrase	G#	G#
-msg.phrase	A-	UN-
-msg.phrase	A#	UN#
+msg.phrase	A-	A-
+msg.phrase	A#	A#
 msg.phrase	B-	B-
 msg.phrase	A:/dir/name	A:/dir/name
 msg.phrase	MThd	MThd
-msg.phrase	broken MThd	MThd torret
-msg.phrase	MIDI IMPORT	ENPORAÑ MIDI
+msg.phrase	broken MThd	MThd gwastet
+msg.phrase	MIDI IMPORT	ENPORZHIAÑ MIDI
 msg.phrase	MTrk	MTrk
-msg.phrase	broken delta time	amzer delta torret
-msg.phrase	broken running status	statud mont en-dro torret
-msg.phrase	broken meta event	darvoud meta torret
-msg.phrase	broken sysex event	darvoud sysex torret
-msg.phrase	broken channel event	darvoud ar chadenn torret
-msg.phrase	SMF output is too small	Re vihan eo an disoc'h SMF
-msg.phrase	SMF output is too large	Re vras ​​eo an disoc'h SMF
+msg.phrase	broken delta time	delta time gwastet
+msg.phrase	broken running status	running status gwastet
+msg.phrase	broken meta event	darvoud meta gwastet
+msg.phrase	broken sysex event	darvoud SysEx gwastet
+msg.phrase	broken channel event	darvoud kanol gwastet
+msg.phrase	SMF output is too small	Re vihan eo ec'hankad SMF
+msg.phrase	SMF output is too large	Re vras eo ec'hankad SMF
 msg.phrase	the song is too long for SMF	re hir eo ar ganaouenn evit SMF
 msg.phrase	TRK1	TRK1
 msg.phrase	%s%d	%s%d
 msg.phrase	%s%d:%s%d	%s%d:%s%d
 msg.phrase	%s	%s
 msg.phrase	%.40s%s	%.40s%s
-msg.phrase	  [%s]   %s	[%s] %s
-msg.phrase	EDIT  	EMBANN
+msg.phrase	  [%s]   %s	  [%s]   %s
+msg.phrase	EDIT  	AOZAÑ
 msg.phrase	READY 	PREST
-msg.phrase	%4d 	%4d
+msg.phrase	%4d 	%4d 
 msg.phrase	%s Sum %.7g N %ld%s	%s Sammad %.7g N %ld%s
-msg.phrase	ARROWS      move the cell cursor\n	ARROÙ a zilec'h biz ar gellig
-msg.phrase	SHIFT+ARR   extend the selection (for graphs/copy)\n	SHIFT+ARR astenn an diuzad (evit ar grafikoù/eilañ)
-msg.phrase	ENTER       edit the cell; in edit, commit and move down\n	ENTER kemmañ ar gellig; e-barzh kemmañ, embreger ha dilec'hiañ war-zu an traoñ
-msg.phrase	TAB         next cell    SHIFT+TAB  previous cell\n	TAB kellig da heul SHIFT+TAB kellig a-raok
-msg.phrase	DELETE      clear the selected cell(s)    ESC  cancel\n	DELETE diverkañ ar gellig(où) diuzet ESC nullañ
-msg.phrase	PGUP/PGDN   move one screen    HOME/END  first/last column\n	PGUP/PGDN dilec'hiañ ur skramm HOME/END bann kentañ/diwezhañ
-msg.phrase	CTRL+HOME   A1    CTRL+END  last used cell\n	CTRL+HOME A1 CTRL+END ar gellig implijet diwezhañ
-msg.phrase	F1 help  F2 edit  F3 copy  F4 paste  F5 goto  F6 colour\n	F1 sikour F2 kemmañ F3 eilañ F4 pegañ F5 mont da F6 liv
-msg.phrase	F7 auto-fit  F8 background  F9 recalc  F10 graph  F11 save  F12 menu\n	F7 emgefre F8 foñs F9 adtal F10 grafik F11 enrollañ al lañser F12
-msg.phrase	SHIFT+F1 about  SHIFT+F2 row height  SHIFT+F3 column width\n	SHIFT+F1 diwar-benn SHIFT+F2 uhelder ar renk SHIFT+F3 led ar bann
-msg.phrase	SHIFT+F4 select all  SHIFT+F10 graph range  SHIFT+F11 save as\n	SHIFT+F4 diuzañ an holl grafoù SHIFT+F10 SHIFT+F11 enrollañ evel
-msg.phrase	CTRL+F1 new  CTRL+F2 open  CTRL+F3 save  CTRL+F4 save as\n	CTRL+F1 nevez CTRL+F2 digeriñ CTRL+F3 enrollañ CTRL+F4 enrollañ evel
-msg.phrase	CTRL+F5 export CSV  CTRL+F6 export ODS  ALT+F12 quit\n	CTRL+F5 ezporzhiañ CSV CTRL+F6 ezporzhiañ ODS ALT+F12 kuitaat
-msg.phrase	Bottom 2 lines: function keys; [SHIFT]/[CTRL]/[ALT] like the filer\n	Daou linenn izelañ : alc'hwezioù arc'hwel ; [SHIFT]/[CTRL]/[ALT] evel ar restr
-msg.phrase	CTRL+S save  CTRL+O open  CTRL+N new  CTRL+C/V/X copy/paste/cut\n	CTRL+S enrollañ CTRL+O digeriñ CTRL+N nevez CTRL+C/V/X eilañ/pegañ/troc'hañ
-msg.phrase	CTRL+G goto    /  open the menu (1 File, 2 Edit, ...)\n	CTRL+G mont / digeriñ al lañser (1 Restr, 2 Kemmañ, ...)
-msg.phrase	Built-in functions: SUM AVERAGE MIN MAX COUNT COUNTA\n	Arc'hwelioù enkorfet : SUMM AVERAGE MIN MAX COUNT COUNTA
-msg.phrase	PRODUCT ABS SQRT INT ROUND MOD POWER IF AND OR NOT\n	PRODUIT ABS SQRT INT ROUND MOD POWER IF AND OR NOT
-msg.phrase	IFERROR LEN LEFT RIGHT MID UPPER LOWER TRIM CONCATENATE PI\n	IFERROR LEN LEFT RIGHT MID UPPER LOWER TRIM CONCATENATE PI
-msg.phrase	Cell refs: A1, $A$1, A1:B10.  Formulas begin with '='.\n	Referennoù ar bellgomz : A1, $A$1, A1:B10.  Kregiñ a ra ar formulennoù gant '='.
-msg.phrase	Files: .ods (LibreOffice), .fods (flat XML), .csv\n	Restroù : .ods (LibreOffice), .fods (XML plaen), .csv
-msg.phrase	ODS/FODS keeps formulas, widths, heights and colours.\n	ODS/FODS a vir ar formulennoù, al ledanderioù, an uhelderioù hag al livioù.
-msg.phrase	CSV keeps values and formulas (no colours/heights).\n	CSV a vir talvoudoù ha formulennoù (livioù/uhelder ebet).
-msg.phrase	Graph: select a range, press F10, and choose Line/Bar/Mixed/Pie.\n	Grafik : diuzit ur rann, pouezit war F10, ha dibabit Linenn/Barrenn/Mesket/Pastez.
-msg.phrase	SGCALC for sgnano\n	SGCALC evit sgnano
+msg.phrase	ARROWS      move the cell cursor\n	BIROU       fiñval reti ar gellig\n
+msg.phrase	SHIFT+ARR   extend the selection (for graphs/copy)\n	SHIFT+BIR   astenn an diuz (evit ar grafikoù/eilañ)\n
+msg.phrase	ENTER       edit the cell; in edit, commit and move down\n	ENTER       aozañ ar gellig; o aozañ, kadarnaat ha mont d'an traoñ\n
+msg.phrase	TAB         next cell    SHIFT+TAB  previous cell\n	TAB         kellig war-lerc'h    SHIFT+TAB  kellig a-raok\n
+msg.phrase	DELETE      clear the selected cell(s)    ESC  cancel\n	DELETE      skarzhañ ar c'helligoù diuzet    ESC  nullañ\n
+msg.phrase	PGUP/PGDN   move one screen    HOME/END  first/last column\n	PGUP/PGDN   ur skramm    HOME/END  bann kentañ/diwezhañ\n
+msg.phrase	CTRL+HOME   A1    CTRL+END  last used cell\n	CTRL+HOME   A1    CTRL+END  kellig implijet diwezhañ\n
+msg.phrase	F1 help  F2 edit  F3 copy  F4 paste  F5 goto  F6 colour\n	F1 skoazell  F2 aozañ  F3 eilañ  F4 pegañ  F5 mont  F6 liv\n
+msg.phrase	F7 auto-fit  F8 background  F9 recalc  F10 graph  F11 save  F12 menu\n	F7 klotañ  F8 drekleur  F9 adjediñ  F10 grafik  F11 enrollañ  F12 lañser\n
+msg.phrase	SHIFT+F1 about  SHIFT+F2 row height  SHIFT+F3 column width\n	SHIFT+F1 diwar-benn  SHIFT+F2 uhelder al linenn  SHIFT+F3 ledander ar bann\n
+msg.phrase	SHIFT+F4 select all  SHIFT+F10 graph range  SHIFT+F11 save as\n	SHIFT+F4 diuz pep tra  SHIFT+F10 maez ar grafik  SHIFT+F11 enrollañ evel\n
+msg.phrase	CTRL+F1 new  CTRL+F2 open  CTRL+F3 save  CTRL+F4 save as\n	CTRL+F1 nevez  CTRL+F2 digeriñ  CTRL+F3 enrollañ  CTRL+F4 enrollañ evel\n
+msg.phrase	CTRL+F5 export CSV  CTRL+F6 export ODS  ALT+F12 quit\n	CTRL+F5 ezporzhiañ CSV  CTRL+F6 ezporzhiañ ODS  ALT+F12 kuitaat\n
+msg.phrase	Bottom 2 lines: function keys; [SHIFT]/[CTRL]/[ALT] like the filer\n	2 linenn izel: alc'hwezioù arc'hwel; [SHIFT]/[CTRL]/[ALT] evel er filer\n
+msg.phrase	CTRL+S save  CTRL+O open  CTRL+N new  CTRL+C/V/X copy/paste/cut\n	CTRL+S enroll.  CTRL+O dig.  CTRL+N nevez  CTRL+C/V/X eilañ/pegañ/troc'hañ\n
+msg.phrase	CTRL+G goto    /  open the menu (1 File, 2 Edit, ...)\n	CTRL+G mont    /  digeriñ al lañser (1 Restr, 2 Aozañ, ...)\n
+msg.phrase	Built-in functions: SUM AVERAGE MIN MAX COUNT COUNTA\n	Arc'hwelioù enframmet: SUM AVERAGE MIN MAX COUNT COUNTA\n
+msg.phrase	PRODUCT ABS SQRT INT ROUND MOD POWER IF AND OR NOT\n	PRODUCT ABS SQRT INT ROUND MOD POWER IF AND OR NOT\n
+msg.phrase	IFERROR LEN LEFT RIGHT MID UPPER LOWER TRIM CONCATENATE PI\n	IFERROR LEN LEFT RIGHT MID UPPER LOWER TRIM CONCATENATE PI\n
+msg.phrase	Cell refs: A1, $A$1, A1:B10.  Formulas begin with '='.\n	Daveoù kelligoù: A1, $A$1, A1:B10.  Ar formulennoù a grog gant '='.\n
+msg.phrase	Files: .ods (LibreOffice), .fods (flat XML), .csv\n	Restroù: .ods (LibreOffice), .fods (XML plaen), .csv\n
+msg.phrase	ODS/FODS keeps formulas, widths, heights and colours.\n	ODS/FODS a vir ar formulennoù, al ledanderioù, an uhelderioù hag al livioù.\n
+msg.phrase	CSV keeps values and formulas (no colours/heights).\n	CSV a vir an talvoudoù hag ar formulennoù hepken (liv/uhelder ebet).\n
+msg.phrase	Graph: select a range, press F10, and choose Line/Bar/Mixed/Pie.\n	Grafik: diuzit ur maez, F10, ha neuze Linenn/Barrenn/Kemmesk/Kouign.\n
+msg.phrase	SGCALC for sgnano\n	SGCALC for sgnano\n
 msg.phrase	Version 	Doare
-msg.phrase	A Lotus 1-2-3 style spreadsheet as an SGX program.\n\n	Ur follenn jediñ e doare Lotus 1-2-3 evel ur programm SGX.
+msg.phrase	A Lotus 1-2-3 style spreadsheet as an SGX program.\n\n	Ur follenn-jediñ e stil Lotus 1-2-3, evel ur programm SGX.\n\n
 msg.phrase	SGX ABI %u.%u\n	SGX ABI %u.%u
-msg.phrase	Screen mode 3: text + CLUT8 FB (lowres disabled)\n	Mod skramm 3 : testenn + CLUT8 FB (diweredekaet an izelañ)
+msg.phrase	Screen mode 3: text + CLUT8 FB (lowres disabled)\n	Mod skramm 3: testenn + FB CLUT8 (hep ar gwiskad lowres)\n
 msg.phrase	Sheet: %d rows x %d columns\n	Follenn : %d renkennad x %d bann
-msg.phrase	Formats: .ods / .fods (LibreOffice), .csv\n\n	Furmadoù : .ods / .fods (LibreOffice), .csv
-msg.phrase	The grid is drawn on the text plane.\n	Treset eo ar gael war ar blaenenn destenn.
-msg.phrase	Charts and the 640x480 background use the FB.\n\n	Ar grafikoù hag an drekleur 640x480 a implij an FB.
+msg.phrase	Formats: .ods / .fods (LibreOffice), .csv\n\n	Furmadoù: .ods / .fods (LibreOffice), .csv\n\n
+msg.phrase	The grid is drawn on the text plane.\n	Ar gael a vez treset war ar gwiskad testenn.\n
+msg.phrase	Charts and the 640x480 background use the FB.\n\n	Ar grafikoù hag an drekleur 640x480 a implij ar FB.\n\n
 msg.phrase	%d %s	%d %s
-msg.phrase	Cannot store the cell (%d).	N'hall ket enrollañ ar gellig (%d).
-msg.phrase	Copied %d x %d cells	Eilet %d x %d kelligoù
+msg.phrase	Cannot store the cell (%d).	N'haller ket enrollañ ar gellig (%d).
+msg.phrase	Copied %d x %d cells	Eilet eo bet %d x %d kellig
 msg.phrase	Cleared %s	Diverket %s
-msg.phrase	'%s' is not a cell reference.	'%s' n'eo ket un daveenn gellig.
+msg.phrase	'%s' is not a cell reference.	N'eo ket '%s' un dave kellig.
 msg.phrase	%d	%d
 msg.phrase	Column width = %d	Ledander ar bann = %d
-msg.phrase	Row height = %d	Uhelder ar renkennad = %d
-msg.phrase	Auto fit: %d column(s), %d row(s)	Ensoc'hañ emgefre : %d bann(où), %d renkennad(où)
+msg.phrase	Row height = %d	Uhelder al linenn = %d
+msg.phrase	Auto fit: %d column(s), %d row(s)	Klotañ: %d bann, %d linenn
 msg.phrase	%2d	%2d
-msg.phrase	Cannot apply the colour (%d).	N'haller ket arverañ al liv (%d).
+msg.phrase	Cannot apply the colour (%d).	N'haller ket arloañ al liv (%d).
 msg.phrase	%s colour = %d	%s liv = %d
-msg.phrase	Not a valid range.\nUse a range such as A1:C10.	N'eo ket ur c'hementad reizh.\nImplijit ur pakad evel A1:C10.
-msg.phrase	Graph range %s	Diell ar grafikoù %s
+msg.phrase	Not a valid range.\nUse a range such as A1:C10.	N'eo ket reizh ar maez.\nEnankit ur maez evel A1:C10.
+msg.phrase	Graph range %s	Maez ar grafik %s
 msg.phrase	Graph: %s	Grafik : %s
-msg.phrase	SGCALC: cannot set screen mode 3: %s\n	SGCALC: n'haller ket termeniñ ar mod skramm 3 : %s
+msg.phrase	SGCALC: cannot set screen mode 3: %s\n	SGCALC: n'haller ket lakaat ar mod skramm 3: %s\n
 msg.phrase	%.2g	%.2g
 msg.phrase	%.6g	%.6g
-msg.phrase	%s  %.0f%%	%s %.0f%%
-msg.phrase	GRAPH  %s  %s	GRAFIK %s %s
+msg.phrase	%s  %.0f%%	%s  %.0f%%
+msg.phrase	GRAPH  %s  %s	GRAFIK  %s  %s
 msg.phrase	%s%s	%s%s
 msg.phrase	%s/%s	%s/%s
 msg.phrase	%.*s	%.*s
 msg.phrase	%.*s/	%.*s/
 msg.phrase	Cannot read %s\n%s	N'haller ket lenn %s\n%s
-msg.phrase	Folder: %s	Teuliad : %s
+msg.phrase	Folder: %s	Teuliad: %s
 msg.phrase	[DIR] %s	[DIR] %s
-msg.phrase	      %s	%s
+msg.phrase	      %s	      %s
 msg.phrase	%lu.%luM	%lu.%luM
 msg.phrase	%luK	%luK
 msg.phrase	%luB	%luB
-msg.phrase	BOOK1%s	LEVR1%s
+msg.phrase	BOOK1%s	BOOK1%s
 msg.phrase	%c:/	%c:/
-msg.phrase	Unsupported extension.\nUse .csv, .ods or .fods.	Astenn dic'houestlet.\nImplijit .csv, .ods pe .fods.
-msg.phrase	%s already exists.\nOverwrite it?	%s zo anezhañ dija.\nDreistskrivañ ?
-msg.phrase	%s may not be writable.\nTry anyway?	Marteze n'eo ket skrivadus %s.\nKlask koulskoude ?
-msg.phrase	Unknown file type for %s	Seurt restr dianav evit %s
-msg.phrase	Unsupported file type.\nUse .csv, .ods or .fods.	Seurt restr nann skoret.\nImplijit .csv, .ods pe .fods.
+msg.phrase	Unsupported extension.\nUse .csv, .ods or .fods.	Astenn n'eo ket skoret.\nImplijit .csv, .ods pe .fods.
+msg.phrase	%s already exists.\nOverwrite it?	Bez' ez eus eus %s dija.\nE flastrañ?
+msg.phrase	%s may not be writable.\nTry anyway?	Marteze n'haller ket skrivañ e %s.\nKlask memes tra?
+msg.phrase	Unknown file type for %s	Rizh restr dianav: %s
+msg.phrase	Unsupported file type.\nUse .csv, .ods or .fods.	Rizh restr n'eo ket skoret.\nImplijit .csv, .ods pe .fods.
 msg.phrase	Cannot open %s\n%s	N'haller ket digeriñ %s\n%s
-msg.phrase	%s is a folder.	Ur renkell eo %s.
+msg.phrase	%s is a folder.	Un teuliad eo %s.
 msg.phrase	Cannot import %s\n%s	N'haller ket enporzhiañ %s\n%s
 msg.phrase	Loaded %s	Karget eo bet %s
-msg.phrase	Cannot build the %s file.	N'haller ket sevel ar restr %s.
+msg.phrase	Cannot build the %s file.	N'haller ket krouiñ ar restr %s.
 msg.phrase	Cannot write %s\n%s	N'haller ket skrivañ %s\n%s
 msg.phrase	%s %s	%s %s
-msg.phrase	unsupported version %u	stumm nann skoret %u
+msg.phrase	unsupported version %u	handelv n'eo ket skoret (%u)
 msg.phrase	%d:%d:%d:%d:%d:%d	%d:%d:%d:%d:%d:%d
-msg.phrase	Octave %d	Oktav %d
+msg.phrase	Octave %d	Oktavenn %d
 msg.phrase	Note %s	Notenn %s
 msg.phrase	Instrument %d	Benveg %d
-msg.phrase	Volume %s	Levr %s
+msg.phrase	Volume %s	Ampled %s
 msg.phrase	Effect %c	Efed %c
 msg.phrase	Parameter %s	Arventenn %s
-msg.phrase	Pattern %s	Patrom %s
-msg.phrase	Playing pattern %s	C'hoari patrom %s
-msg.phrase	SAVE ERROR: %s	FAZI ENROLL : %s
-msg.phrase	Saved %s	Enrollet %s
-msg.phrase	LOAD ERROR: %s	FAZI KARGAÑ : %s
+msg.phrase	Pattern %s	Pattern %s
+msg.phrase	Playing pattern %s	O seniñ ar pattern %s
+msg.phrase	SAVE ERROR: %s	FAZI ENROLLAÑ: %s
+msg.phrase	Saved %s	Enrollet eo bet %s
+msg.phrase	LOAD ERROR: %s	FAZI KARGAÑ: %s
 msg.phrase	BPM %d	BPM %d
 msg.phrase	Speed %d	Tizh %d
-msg.phrase	Preview %s	Rakwelet %s
-msg.phrase	Instrument %s %s	Ostilh %s %s
-msg.phrase	Overwrite %s? (Y/N)	Dreistskrivañ %s ? (Y/N)
-msg.phrase	 | BPM %s SPD %s 	| BPM %s SPD %s
-msg.phrase	 SGNO TRACKER 1.0 | 	SGNO TRACKER 1.0 |
-msg.phrase	FILE 	RESTR
-msg.phrase	 PAT %s	PAT %s
-msg.phrase	 ORD %d/%d	ORD %d/%d
-msg.phrase	 INS %s 	INS %s
-msg.phrase	 OCT %d	OCT %d
-msg.phrase	 EDIT %s	KEMENN %s
-msg.phrase	ON 	WAR
-msg.phrase	 FOL %s	FOL %s
-msg.phrase	TRACK %d	HEUL %d
+msg.phrase	Preview %s	Selaou %s
+msg.phrase	Instrument %s %s	Benveg %s %s
+msg.phrase	Overwrite %s? (Y/N)	Flastrañ %s? (Y/N)
+msg.phrase	 | BPM %s SPD %s 	 | BPM %s SPD %s 
+msg.phrase	 SGNO TRACKER 1.0 | 	 SGNO TRACKER 1.0 | 
+msg.phrase	FILE 	FILE 
+msg.phrase	 PAT %s	 PAT %s
+msg.phrase	 ORD %d/%d	 ORD %d/%d
+msg.phrase	 INS %s 	 INS %s 
+msg.phrase	 OCT %d	 OCT %d
+msg.phrase	 EDIT %s	 EDIT %s
+msg.phrase	ON 	ON 
+msg.phrase	 FOL %s	 FOL %s
+msg.phrase	TRACK %d	TRACK %d
 msg.phrase	%c%s	%c%s
 msg.phrase	%s %s %s %s	%s %s %s %s
-msg.phrase	%s 	%s
+msg.phrase	%s 	%s 
 msg.phrase	%d %s %s	%d %s %s
-msg.phrase	ORDER %d/%d	URZH %d/%d
-msg.phrase	PAT   %s	PAT %s
+msg.phrase	ORDER %d/%d	ORDER %d/%d
+msg.phrase	PAT   %s	PAT   %s
 msg.phrase	INS %s %s	INS %s %s
-msg.phrase	OCT %d  EDIT %s	OCT %d KEMM %s
-msg.phrase	FOLLOW %s	HEULIÑ %s
-msg.phrase	PLAYING  ORD %d/%d  PAT %s  ROW %s/%d  SPD %s  BPM %d  F7 STOP	PLAYING ORD %d/%d PAT %s ROW %s/%d SPD %s BPM %d F7 STOP
-msg.phrase	READY  EDIT %s  OCT %d  F1 HELP  F5 PLAY  CTRL-S SAVE	PREST EDIÑ %s OCT %d F1 SIKOUR F5 C'hoari CTRL-S ENROLL
-msg.phrase	 %s 	%s
-msg.phrase	  F5          Play the song from the current order	F5 Seniñ ar ganaouenn diouzh an urzh bremanel
-msg.phrase	  F6          Play the current pattern	F6 C'hoari ar patrom bremanel
-msg.phrase	  F7/Ctrl-C   Stop playback	F7/Ctrl-C Paouez gant ar c'hoari
-msg.phrase	  Space       Play / stop	C'hoari egor / paouez
-msg.phrase	  F4          Save as	F4 Enrollañ evel
-msg.phrase	  Ctrl-S      Save (asks for a name if new)	Ctrl-S Enrollañ (goulenn a ra un anv ma nevez)
-msg.phrase	  Ctrl-O      Open a song	Ctrl-O Digeriñ ur ganaouenn
-msg.phrase	  Ctrl-N      New song	Ctrl-N Kanaouenn nevez
-msg.phrase	  F12         Quit (confirmation if modified)	F12 Kuitaat (kadarnaat ma'z eo bet kemmet)
-msg.phrase	  [ ]         Previous / next order entry	[ ] Enankad urzh a-raok / da heul
-msg.phrase	  { }         Insert / delete an order entry	{ } Enlakaat / dilemel un enankad urzh
-msg.phrase	  - +         Change the pattern in the entry	- + Cheñch patrom an enankad
-msg.phrase	  F11         Follow playback (turns off on manual move)	F11 Heuliañ ar c'hoari (diweredekaet pa vez dilec'hiet dre zorn)
-msg.phrase	  F1          Help; Left/Right changes page	F1 Sikour; Kemmañ a ra ar bajenn a-gleiz/a-zehou
-msg.phrase	  F8          Toggle edit mode	F8 Dilec'hiañ ar mod kemmañ
-msg.phrase	  Arrows      Move the cursor	Saezhoù Dilec'hiañ ar biz
-msg.phrase	  PgUp/PgDn   Jump 16 rows	PgUp/PgDn Lamm 16 renkennad
-msg.phrase	  Home/End    First / last row	Degemer/Dibenn Linkenn gentañ / diwezhañ
-msg.phrase	  F9/F10      Octave down / up	F9/F10 Oktav war-zu an traoñ / war-zu an nec'h
-msg.phrase	  Z S X D C V G B H N J M      lower piano row	Z S X D C V G B H N J M renk piano izelañ
-msg.phrase	  Q 2 W 3 E R 5 T 6 Y 7 U      upper piano row	Q 2 W 3 E R 5 T 6 Y 7 Renkenn uhelañ ar piano
-msg.phrase	  1           Note off	1 Notenn diweredekaet
-msg.phrase	  0 / Del     0 clears note/inst/fx; Del clears any	0 / Del 0 a ziverk notenn/inst/fx; Del a ziverk kement
-msg.phrase	  Ctrl-Z      Undo the last pattern/order edit	Ctrl-Z Distreiñ ar c'hemm patrom/urzh diwezhañ
-msg.phrase	  Axy   Volume slide: up x, down y	Axy Volume slide: up x, down y
-msg.phrase	  Cxx   Note cut after xx ticks	Cxx Notenn troc'het goude xx tik
-msg.phrase	  Dxx   Set volume (00..7F)	Dxx Lakaat ar volum (00..7F)
-msg.phrase	  Fxx   Speed if xx < 20, otherwise BPM	Fxx Tizh ma xx < 20, a-hend-all BPM
-msg.phrase	  Hxy   Arpeggio x, y semitones	Hxy Arpeggio x, y hantertonioù
-msg.phrase	  Pxx   Pitch slide up	Pxx Lakaat an ton war-zu an nec'h
-msg.phrase	  Qxx   Pitch slide down	Qxx Lakaat an ton war-zu an traoñ
-msg.phrase	  F2 song settings, F3 instrument list	Arventennoù kanaouenn F2, roll binvioù F3
-msg.phrase	HELP %d/2	SIKOUR %d/2
-msg.phrase	  Title	Titl
-msg.phrase	  [%s_]	[%s_]
-msg.phrase	  BPM   : %d     (left/right -1/+1, -/+ -5/+5)	BPM : %d (kleiz/dehou -1/+1, -/+ -5/+5)
-msg.phrase	  Speed : %d ticks/row	Tizh : %d tik/linenn
-msg.phrase	  Rows  : %d (fixed)	Linennoù : %d (reizhet)
-msg.phrase	  Order : %d entries	Urzh : %d enankad
-msg.phrase	  Patterns in use : %d	Patromoù implijet : %d
-msg.phrase	 #  NAME       WAVE       A   D   S   R  VOL	# NAME WAVE A D S R VOL
-msg.phrase	 %c %d  %-9s %-9s %3d %3d %3d %3d %4d	%c %d %-9s %-9s %3d %3d %3d %3d %4d
-msg.phrase	Current instrument: %s %s	Benveg bremanel : %s %s
-msg.phrase	  %s	%s
-msg.phrase	DIR  %s	DIR %s
-msg.phrase	 %c %s%s	%c %s%s
-msg.phrase	Files: %d	Restroù : %d
+msg.phrase	OCT %d  EDIT %s	OCT %d  EDIT %s
+msg.phrase	FOLLOW %s	FOLLOW %s
+msg.phrase	PLAYING  ORD %d/%d  PAT %s  ROW %s/%d  SPD %s  BPM %d  F7 STOP	PLAYING  ORD %d/%d  PAT %s  ROW %s/%d  SPD %s  BPM %d  F7 STOP
+msg.phrase	READY  EDIT %s  OCT %d  F1 HELP  F5 PLAY  CTRL-S SAVE	READY  EDIT %s  OCT %d  F1 HELP  F5 PLAY  CTRL-S SAVE
+msg.phrase	 %s 	 %s 
+msg.phrase	  F5          Play the song from the current order	  F5          Seniñ ar ganaouenn adalek al lec'hiadur bremanel
+msg.phrase	  F6          Play the current pattern	  F6          Seniñ ar pattern bremanel
+msg.phrase	  F7/Ctrl-C   Stop playback	  F7/Ctrl-C   Paouez da seniñ
+msg.phrase	  Space       Play / stop	  Space       Seniñ / paouez
+msg.phrase	  F4          Save as	  F4          Enrollañ evel
+msg.phrase	  Ctrl-S      Save (asks for a name if new)	  Ctrl-S      Enrollañ (goulenn a ra un anv mard eo nevez)
+msg.phrase	  Ctrl-O      Open a song	  Ctrl-O      Digeriñ ur ganaouenn
+msg.phrase	  Ctrl-N      New song	  Ctrl-N      Kanaouenn nevez
+msg.phrase	  F12         Quit (confirmation if modified)	  F12         Kuitaat (goulenn a ra ma'z eus kemmoù)
+msg.phrase	  [ ]         Previous / next order entry	  [ ]         Lec'hiadur a-raok / war-lerc'h
+msg.phrase	  { }         Insert / delete an order entry	  { }         Lakaat / diverkañ ul lec'hiadur
+msg.phrase	  - +         Change the pattern in the entry	  - +         Kemmañ pattern al lec'hiadur
+msg.phrase	  F11         Follow playback (turns off on manual move)	  F11         Heuliañ ar seniñ (lazhet pa fiñver gant an dorn)
+msg.phrase	  F1          Help; Left/Right changes page	  F1          Skoazell; Kleiz/Dehou a gemm ar bajenn
+msg.phrase	  F8          Toggle edit mode	  F8          Enaouiñ / lazhañ an aozañ
+msg.phrase	  Arrows      Move the cursor	  Birou       Fiñval ar reti
+msg.phrase	  PgUp/PgDn   Jump 16 rows	  PgUp/PgDn   Lammat 16 linenn
+msg.phrase	  Home/End    First / last row	  Home/End    Linenn gentañ / diwezhañ
+msg.phrase	  F9/F10      Octave down / up	  F9/F10      Oktavenn d'an traoñ / d'al laez
+msg.phrase	  Z S X D C V G B H N J M      lower piano row	  Z S X D C V G B H N J M      renk izel ar piano
+msg.phrase	  Q 2 W 3 E R 5 T 6 Y 7 U      upper piano row	  Q 2 W 3 E R 5 T 6 Y 7 U      renk uhel ar piano
+msg.phrase	  1           Note off	  1           Note off
+msg.phrase	  0 / Del     0 clears note/inst/fx; Del clears any	  0 / Del     0 a skarzh notenn/benveg/efed; Del ar vaezienn
+msg.phrase	  Ctrl-Z      Undo the last pattern/order edit	  Ctrl-Z      Dizober ar c'hemm diwezhañ d'ar pattern/urzh
+msg.phrase	  Axy   Volume slide: up x, down y	  Axy   Riklañ an ampled: d'al laez x, d'an traoñ y
+msg.phrase	  Cxx   Note cut after xx ticks	  Cxx   Troc'hañ an notenn goude xx tick
+msg.phrase	  Dxx   Set volume (00..7F)	  Dxx   Lakaat an ampled (00..7F)
+msg.phrase	  Fxx   Speed if xx < 20, otherwise BPM	  Fxx   Tizh ma'z eo xx < 20, a-hend-all BPM
+msg.phrase	  Hxy   Arpeggio x, y semitones	  Hxy   Arpeggio x, y hanter-ton
+msg.phrase	  Pxx   Pitch slide up	  Pxx   Riklañ an ton d'al laez
+msg.phrase	  Qxx   Pitch slide down	  Qxx   Riklañ an ton d'an traoñ
+msg.phrase	  F2 song settings, F3 instrument list	  F2 arventennoù ar ganaouenn, F3 roll ar binvioù
+msg.phrase	HELP %d/2	HELP %d/2
+msg.phrase	  Title	  Titl
+msg.phrase	  [%s_]	  [%s_]
+msg.phrase	  BPM   : %d     (left/right -1/+1, -/+ -5/+5)	  BPM   : %d     (kleiz/dehou -1/+1, -/+ -5/+5)
+msg.phrase	  Speed : %d ticks/row	  Tizh  : %d tick dre linenn
+msg.phrase	  Rows  : %d (fixed)	  Linennoù : %d (start)
+msg.phrase	  Order : %d entries	  Urzh  : %d lec'hiadur
+msg.phrase	  Patterns in use : %d	  Pattern implijet : %d
+msg.phrase	 #  NAME       WAVE       A   D   S   R  VOL	 #  NAME       WAVE       A   D   S   R  VOL
+msg.phrase	 %c %d  %-9s %-9s %3d %3d %3d %3d %4d	 %c %d  %-9s %-9s %3d %3d %3d %3d %4d
+msg.phrase	Current instrument: %s %s	Benveg bremanel: %s %s
+msg.phrase	  %s	  %s
+msg.phrase	DIR  %s	DIR  %s
+msg.phrase	 %c %s%s	 %c %s%s
+msg.phrase	Files: %d	Restroù: %d
 msg.phrase	%02d	%02d
 msg.phrase	%03d	%03d
 msg.phrase	%02X	%02X
-msg.phrase	SGNO TRACKER: incompatible SGX ABI\n	SGNO TRACKER: SGX ABI digemm
+msg.phrase	SGNO TRACKER: incompatible SGX ABI\n	SGNO TRACKER: SGX ABI digenglotus\n
 msg.phrase	S: check: wait -- a file is being read or written	S: gwiriañ: gortoz -- ur restr a zo o lenn pe o skrivañ
 msg.phrase	S: check: the drive is busy or not ready	S: gwiriañ: oberiant eo ar c'harr pe n'eo ket prest
 msg.phrase	nothing for this item (ContextMenu.cfg)	netra evit an elfenn-mañ (ContextMenu.cfg)
@@ -1120,43 +1116,72 @@ msg.prefix	compress	gwaskañ
 msg.prefix	render	lakaat da vezañ
 msg.phrase	5 Macro	5 Makro
 msg.phrase	6 Help	6 Sikour
-msg.phrase	Run current	Lakaat ar breman da vont en-dro
-msg.phrase	Run the macro at the cursor (#! header cell and the cells below it)	Lakait ar makro da vont en-dro gant ar biz (kellig penn #! hag ar c'helligoù dindan)
-msg.phrase	Run selection	Lakaat an diuzad da vont en-dro
-msg.phrase	Run the selected cells as one macro (top-left cell is the #! header)	Lakaat ar c'helligoù diuzet da vont en-dro evel ur makro (ar gellig uhelañ a-gleiz eo an talbenn #!)
-msg.phrase	Run all	Lakaat an holl da vont en-dro
-msg.phrase	Run every macro in the sheet, top-left to bottom-right	Lakaat pep makro da vont en-dro er follenn, eus an tu kleiz d'an traoñ d'an tu dehou
+msg.phrase	Run current	Lañsañ hemañ
+msg.phrase	Run the macro at the cursor (#! header cell and the cells below it)	Lañsañ ar makro e-lec'h ma'z eo ar reti (kellig talbenn #! hag ar c'helligoù dindan)
+msg.phrase	Run selection	Lañsañ an diuz
+msg.phrase	Run the selected cells as one macro (top-left cell is the #! header)	Lañsañ ar c'helligoù diuzet evel ur makro (ar gellig krec'h a-gleiz eo an talbenn #!)
+msg.phrase	Run all	Lañsañ an holl
+msg.phrase	Run every macro in the sheet, top-left to bottom-right	Lañsañ holl vakroioù ar follenn, eus krec'h a-gleiz betek traoñ a-zehou
 msg.phrase	Last error	Fazi diwezhañ
-msg.phrase	Show the last macro error	Diskouez ar fazi makro diwezhañ
+msg.phrase	Show the last macro error	Diskouez fazi diwezhañ ar makro
 msg.phrase	Macro	Makro
-msg.phrase	Macro: run #!ruby / #!python / #!basic cells	Makro : seveniñ #!ruby / #!python / #!kelligoù diazez
-msg.phrase	Edit the cell (F2)	Kemmañ ar gellig (F2)
-msg.phrase	Fit widths/heights to the contents	Lakaat ledanderioù/uhelderioù da glotañ gant an endalc'hadoù
+msg.phrase	Macro: run #!ruby / #!python / #!basic cells	Makro: lañsañ kelligoù #!ruby / #!python / #!basic
+msg.phrase	Edit the cell (F2)	Aozañ ar gellig (F2)
+msg.phrase	Fit widths/heights to the contents	Klotañ al ledanderioù/uhelderioù gant an endalc'had
 msg.phrase	Last macro error	Fazi makro diwezhañ
 msg.phrase	No macro error.	Fazi makro ebet.
-msg.phrase	IME on	IME war
-msg.phrase	IME off	IME diweredekaet
-msg.phrase	Macro: %s %s ...	Makro : %s %s ...
-msg.phrase	%s: this firmware cannot run macros (SGX ABI 5.10 or later)	%s: n'hall ket ar meziant-mañ kas makroioù da benn (SGX ABI 5.10 pe nevesoc'h)
-msg.phrase	Macro error: %s	Fazi makro : %s
-msg.phrase	Macro: %s done	Makro : %s graet
+msg.phrase	IME on	IME enaouet
+msg.phrase	IME off	IME lazhet
+msg.phrase	Macro: %s %s ...	Makro: %s %s ...
+msg.phrase	%s: this firmware cannot run macros (SGX ABI 5.10 or later)	%s: ar firmware-mañ ne c'hall ket lañsañ makroioù (ezhomm eus SGX ABI 5.10 pe nevesoc'h)
+msg.phrase	Macro error: %s	Fazi makro: %s
+msg.phrase	Macro: %s done	Makro: %s echu
 msg.phrase	a macro is already running	ur makro a zo o vont en-dro dija
-msg.phrase	this language is not available	n'emañ ket ar yezh-mañ
+msg.phrase	this language is not available	n'eo ket hegerz ar yezh-mañ
 msg.phrase	not enough memory	n'eus ket a-walc'h a vemor
-msg.phrase	the macro stopped with an error	paouezet eo bet ar makro gant ur fazi
-msg.phrase	Macro error %s: %s	Fazi makro %s : %s
-msg.phrase	Macro: not enough memory	Makro : n'eus ket a vemor a-walc'h
-msg.phrase	Macro: the cursor is not on a macro (a #!ruby / #!python / #!basic cell or the cells below it)	Makro: n'emañ ket ar biz war ur makro (ur gellig #!ruby / #!python / #!basic pe ar c'helligoù dindanañ)
-msg.phrase	Macro: no macro in the sheet	Makro : makro ebet er follenn
-msg.phrase	Run all macros	Lakaat an holl makroioù da vont en-dro
-msg.phrase	Macros: %d. Run them all, top-left to bottom-right? Changes cannot be undone.	Makroioù : %d. Lakaat anezho holl da vont en-dro, eus an tu kleiz d'an traoñ d'an tu dehou ? N'hall ket ar c'hemmoù bezañ nullet.
-msg.phrase	Macro: %d of %d done	Makro : %d eus %d graet
-msg.phrase	Cleared the cell	Naetaet ar gellig
-msg.phrase	Cleared the selection	Diverket an diuzad
+msg.phrase	the macro stopped with an error	paouezet en deus ar makro gant ur fazi
+msg.phrase	Macro error %s: %s	Fazi makro %s: %s
+msg.phrase	Macro: not enough memory	Makro: n'eus ket a-walc'h a vemor
+msg.phrase	Macro: the cursor is not on a macro (a #!ruby / #!python / #!basic cell or the cells below it)	Makro: n'emañ ket ar reti war ur makro (kellig #!ruby / #!python / #!basic pe ar re dindan)
+msg.phrase	Macro: no macro in the sheet	Makro: makro ebet er follenn
+msg.phrase	Run all macros	Lañsañ an holl vakroioù
+msg.phrase	Macros: %d. Run them all, top-left to bottom-right? Changes cannot be undone.	Makroioù: %d. Lañsañ anezho holl, eus krec'h a-gleiz betek traoñ a-zehou? N'haller ket dizober ar c'hemmoù.
+msg.phrase	Macro: %d of %d done	Makro: %d diwar %d echu
+msg.phrase	Cleared the cell	Skarzhet eo bet ar gellig
+msg.phrase	Cleared the selection	Skarzhet eo bet an diuz
 msg.phrase	Background colour = %d	Liv an drekleur = %d
 msg.phrase	Text colour = %d	Liv an destenn = %d
-msg.phrase	Graph: line	Grafik : linenn
-msg.phrase	Graph: bar	Grafik : barrenn
-msg.phrase	Graph: mixed	Grafik : mesket
-msg.phrase	Graph: pie	Grafik : pastez
-msg.phrase	Exported %s	%s ezporzhiet
+msg.phrase	Graph: line	Grafik: linenn
+msg.phrase	Graph: bar	Grafik: barrenn
+msg.phrase	Graph: mixed	Grafik: kemmesk
+msg.phrase	Graph: pie	Grafik: kouign
+msg.phrase	Exported %s	Ezporzhiet eo bet %s
+ui	USB・時計・設定	USB, clock, settings
+ui	0.001 秒未満	dindan 0.001 s
+ui	%s 秒	%s s
+ui	コンパイル %s  実行 %s	kempunañ %s  lañsañ %s
+ui	コンパイル %s	kempunañ %s
+ui	実行 %s	lañsañ %s
+msg.phrase	1 Help	1 Skoaze
+msg.phrase	3 Copy	3 Eilañ
+msg.phrase	4 Paste	4 Pegañ
+msg.phrase	5 Goto	5 Mont
+msg.phrase	6 Colour	6 Liv
+msg.phrase	7 Fit	7 Klotañ
+msg.phrase	8 Backgr	8 Drekva
+msg.phrase	9 Recalc	9 Jediñ
+msg.phrase	10 Graph	10 Grafi
+msg.phrase	11 Save	11 Enrol
+msg.phrase	12 Menu	12 Lañse
+msg.phrase	1 About	1 Diwar
+msg.phrase	2 Height	2 Uhelde
+msg.phrase	3 Width	3 Ledand
+msg.phrase	4 SelAll	4 Pep tr
+msg.phrase	10 Range	10 Takad
+msg.phrase	11 Name	11 Evel
+msg.phrase	1 New	1 Nevez
+msg.phrase	2 Open	2 Digeri
+msg.phrase	4 SaveAs	4 Evel
+msg.phrase	12 Quit	12 Kuit
+msg.phrase	3 Save	3 Enrol
+msg.phrase	Version %s	Handelv %s

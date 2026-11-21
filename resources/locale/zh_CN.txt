@@ -20,14 +20,14 @@ ui	属性を変える	更改属性
 ui	エディタで開く	以编辑器开启
 ui	テキスト表示（Shift+V / Ctrl+Alt+F7 は 16 進）	以文本查看（Shift+V / Ctrl+Alt+F7 十六进制）
 ui	ドライブの情報	驱动器信息
-ui	フォルダを作る / 新しいファイル	新文件夹 / 新文件
+ui	フォルダを作る（Shift+F5） / 新しいファイル（Ctrl+F1）	新文件夹 (Shift+F5) / 新文件 (Ctrl+F1)
 ui	シェル sgsh / 媒体を取り出す	Shell sgsh / 弹出介质
 ui	読み直す	重新读取
-ui	見えている画面を PNG で保存	将屏幕保存为 PNG
+ui	見えている画面を PNG で保存（Alt+F5 も同じ）	将屏幕保存为 PNG (= Alt+F5)
 ui	窓を閉じる・選択を解く（サブフォルダでは上位へ）	关闭窗口 / 取消选择（在子文件夹中：上一级）
-ui	ファイルの操作（FD と同じ。印・範囲・カーソルの順に選ぶ）	文件操作（同 FD：标记、范围、光标的顺序）
-ui	コピー: 行き先はドライブとフォルダの木から。ESC で止める	复制：从驱动器和文件夹树中选择目标。ESC 停止
-ui	削除: y で確かめる。印・範囲をまとめて。フォルダは中身ごと	删除：按 y 确认。标记和范围一起处理。文件夹连同内容
+ui	ファイルの操作（FD と同じ。印・範囲・カーソルの順）	文件操作（同 FD：标记、范围、光标的顺序）
+ui	コピー: 行き先は木から選ぶ。ESC で止める	复制：从驱动器和文件夹树中选择目标。ESC 停止
+ui	削除: y で確かめる。印・範囲をまとめて	删除：按 y 确认。标记和范围一起处理。文件夹连同内容
 ui	フォルダを削除（中身ごと）	删除文件夹（连同内容）
 ui	名前を変える（今の名前を直して Enter）	重新命名（修改名称后 Enter）
 ui	属性: R 読み出し専用・H 隠し・S システム・A アーカイブ	属性：R 只读、H 隐藏、S 系统、A 存档
@@ -49,22 +49,19 @@ ui	画面（Alt+F。FD の F キーとぶつからない）	屏幕（Alt+F，不
 ui	FB（絵）/ テキスト面を出す・隠す	显示・隐藏 FB（图片）/ 文字
 ui	FB の表示ページ（0〜3）	FB 显示页（0-3）
 ui	FB を 0 で消す / 明るさを 1/2 に（RGB555）	将 FB 清为 0 / 亮度减半（RGB555）
-ui	USB のエンドポイントと LAN の状態	USB 端点与 LAN 状态
+ui	USB のエンドポイントと LAN（U: 10 秒に 1 度）	USB 端点与 LAN 状态
 ui	FB の表示ページを消す / 明るさを 1/2 に	清除 FB 显示页 / 亮度减半
 ui	テキストの属性の見本	文字属性范例
 ui	モニタの EDID（起動時に読んだもの）	屏幕 EDID（开机时读取）
 ui	フォント ROM のライセンスとクレジット	字体 ROM 的许可与鸣谢
 ui	設定（表示の言語・IME・キーボードロケール）	设置（显示语言、IME、键盘区域设置）
-ui	時計（NTP で合わせた日本時間。s ですぐ合わせる）	时钟（以 NTP 校正的日本时间；s 立即校正）
+ui	時計（NTP で合わせた日本時間。s は 3 分に 1 度）	时钟（以 NTP 校正的日本时间；s 立即校正）
 ui	表計算（SGCALC）を開く	打开电子表格 (SGCALC)
 ui	S: ドライブのエラー検査（誤りがあれば直すか聞く）	检查 S:（修复前会询问）
 ui	トラッカー（TRACKER）を開く	打开追踪器
-ui	再起動（確かめの窓が出る）	重启（会先确认）
+ui	再起動（確かめの窓）。Ctrl+Alt+Del も同じ	重启（会先确认） = Ctrl+Alt+Del
 ui	ADC のステレオ入力（GP40 / 41）を鳴らす	播放 ADC 立体声输入（GP40 / 41）
 ui	VGM/VGZ を 96kHz/24bit WAV に書き出す	将 VGM/VGZ 导出为 96 kHz / 24 位 WAV
-ui	このヘルプ	本帮助
-ui	ページを替える	换页
-ui	閉じる	关闭
 ui	テキスト・16 進のビュアー（less 風）	文字・十六进制查看器（类 less）
 ui	1 行	1 行
 ui	1 ページ	1 页
@@ -82,10 +79,9 @@ ui	IME の言語（日本語 / English / 한국어）	IME语言（日语/英语/
 ui	ひらがな / カタカナで確定	以平假名 / 片假名确定
 ui	エディタのヘルプ	编辑器帮助
 ui	シェル	外壳
-ui	シェル（csh のサブセット。exit / Ctrl-D で戻る、help で一覧）	Shell（csh 子集。exit / Ctrl-D 返回，help 列出命令）
+ui	シェル（csh の一部。exit / Ctrl-D で戻る、help で一覧）	Shell（csh 子集。exit / Ctrl-D 返回，help 列出命令）
 ui	一覧と移動	列表与移动
 ui	ファイルの操作	文件操作
-ui	画面と機器	画面与装置
 ui	ビュアーとエディタ	查看器与编辑器
 ui	ヘルプ  %u / %u  %s	帮助  %u / %u  %s
 ui	Left Right: ページを替える    F1 / ESC: 閉じる	Left Right：换页    F1 / ESC：关闭
@@ -146,9 +142,9 @@ ui	10 EP表	10 EP
 ui	11 時計	11 时钟
 ui	12 表計	12 CALC
 ui	1 属性	1 属性
-ui	2 情報	2 信息
+ui	2Drv情報	2 信息
 ui	3 移動	3 移动
-ui	5 作成	5 新建
+ui	5 ﾌｫﾙﾀﾞ	5 新建
 ui	6 シェル	6 Shell
 ui	8 編集	8 编辑
 ui	9 表示	9 查看
@@ -486,11 +482,11 @@ msg.phrase	the sound is not open	音效尚未开启
 msg.phrase	no such channel	没有此声道
 msg.phrase	the sequencer is busy	音序器忙碌中
 msg.phrase	not enough PSRAM for the song	放置乐曲的 PSRAM 不足
-msg.phrase	not a standard MIDI file (no MThd)	不是 SMF（没有 MThd）
+msg.phrase	not a standard MIDI file (no MThd)	不是标准 MIDI 文件（没有 MThd）
 msg.phrase	no tracks	没有音轨
-msg.phrase	a track is broken (MTrk)	音轨损坏（MTrk）
+msg.phrase	a track is broken (MTrk)	音轨已损坏（MTrk）
 msg.phrase	SMPTE time division is not supported	不支持 SMPTE 时间单位
-msg.phrase	SMF format 2 is not supported (0 and 1 only)	不支持 SMF 格式 2（仅 0 与 1）
+msg.phrase	SMF format 2 is not supported (0 and 1 only)	不支持 SMF 格式 2（仅支持 0 和 1）
 msg.phrase	not a Bulk-Only drive	不是 Bulk-Only 驱动器
 msg.phrase	not an optical drive	不是光驱
 msg.phrase	a system folder cannot be deleted or renamed	系统文件夹无法删除或重新命名
@@ -621,507 +617,507 @@ msg.word	 rows	 行
 msg.word	 -- not supported yet (FAT / exFAT / NTFS only)	 尚未支持（仅 FAT・exFAT・NTFS）
 msg.word	 files	 个文件
 msg.word	 (	（
-msg.phrase	Untitled	无题
+msg.phrase	Untitled	未命名
 msg.phrase	1 File	1 个文件
 msg.phrase	2 Edit	2 编辑
 msg.phrase	3 Graph	3 图
 msg.phrase	4 Sheet	4张
 msg.phrase	5 Help	5 帮助
 msg.phrase	EMPTY	空
-msg.phrase	NUMBER	号码
+msg.phrase	NUMBER	数值
 msg.phrase	TEXT	文本
-msg.phrase	FORMULA	配方
-msg.phrase	Type to enter, F2 to edit, F1 for help	键入输入，F2 进行编辑，F1 获取帮助
+msg.phrase	FORMULA	公式
+msg.phrase	Type to enter, F2 to edit, F1 for help	直接输入，F2 编辑，F1 帮助
 msg.phrase	5 CSV	5 CSV
-msg.phrase	6 ODS	6 消耗臭氧层物质
-msg.phrase	[SHIFT]	[转变]
+msg.phrase	6 ODS	6 ODS
+msg.phrase	[SHIFT]	[SHIFT]
 msg.phrase	[CTRL]	[CTRL]
-msg.phrase	[ALT]	[替代]
-msg.phrase	Ready	准备好
-msg.phrase	SGCALC	SG计算中心
-msg.phrase	Press any key	按任意键
-msg.phrase	Y = yes    N = no    Esc = cancel	Y = 是 N = 否 Esc = 取消
-msg.phrase	Enter = OK    Esc = cancel    Ctrl-U = clear	Enter = 确定 Esc = 取消 Ctrl-U = 清除
-msg.phrase	First row/column = labels; charts use the 640x480 CLUT8 FB.	第一行/列 = 标签；图表使用 640x480 CLUT8 FB。
+msg.phrase	[ALT]	[ALT]
+msg.phrase	Ready	就绪
+msg.phrase	SGCALC	SGCALC
+msg.phrase	Press any key	请按任意键
+msg.phrase	Y = yes    N = no    Esc = cancel	Y = 是    N = 否    Esc = 取消
+msg.phrase	Enter = OK    Esc = cancel    Ctrl-U = clear	Enter = 确定    Esc = 取消    Ctrl-U = 清除
+msg.phrase	First row/column = labels; charts use the 640x480 CLUT8 FB.	首行 / 首列为标签；图表画在 640x480 的 CLUT8 FB 上
 msg.phrase	SGCALC - HELP	SGCALC - 帮助
 msg.phrase	Press any key to return	按任意键返回
-msg.phrase	Press any key to return.	按任意键返回。
-msg.phrase	ABOUT SGCALC	关于国标计算
-msg.phrase	New	新
-msg.phrase	Start a new sheet	开始一个新工作表
-msg.phrase	Open...	打开...
+msg.phrase	Press any key to return.	按任意键返回
+msg.phrase	ABOUT SGCALC	关于 SGCALC
+msg.phrase	New	新建
+msg.phrase	Start a new sheet	新建工作表
+msg.phrase	Open...	打开…
 msg.phrase	Open an ODS, FODS or CSV file	打开 ODS、FODS 或 CSV 文件
 msg.phrase	Save	保存
 msg.phrase	Save the current file	保存当前文件
-msg.phrase	Save As...	另存为...
-msg.phrase	Save with a new name or format	使用新名称或格式保存
-msg.phrase	Export CSV...	导出 CSV...
-msg.phrase	Write a CSV copy	写入 CSV 副本
-msg.phrase	Export ODS...	出口消耗臭氧层物质...
-msg.phrase	Write a LibreOffice copy	编写 LibreOffice 副本
-msg.phrase	Quit	戒烟
-msg.phrase	Leave SGCALC	离开SGCALC
+msg.phrase	Save As...	另存为…
+msg.phrase	Save with a new name or format	以新的名称或格式保存
+msg.phrase	Export CSV...	导出 CSV…
+msg.phrase	Write a CSV copy	另写一份 CSV
+msg.phrase	Export ODS...	导出 ODS…
+msg.phrase	Write a LibreOffice copy	另写一份 LibreOffice 文件
+msg.phrase	Quit	退出
+msg.phrase	Leave SGCALC	退出 SGCALC
 msg.phrase	Clear	清除
-msg.phrase	Clear the selected cells	清除选定的单元格
+msg.phrase	Clear the selected cells	清除所选单元格
 msg.phrase	Copy	复制
-msg.phrase	Copy the selection	复制选择
+msg.phrase	Copy the selection	复制所选范围
 msg.phrase	Paste	粘贴
 msg.phrase	Paste at the cursor	粘贴到光标处
-msg.phrase	Cut	切
-msg.phrase	Copy and clear the selection	复制并清除选择
-msg.phrase	Select all	选择全部
-msg.phrase	Select all used cells	选择所有使用的单元格
-msg.phrase	Text color...	文字颜色...
+msg.phrase	Cut	剪切
+msg.phrase	Copy and clear the selection	复制并清除所选范围
+msg.phrase	Select all	全选
+msg.phrase	Select all used cells	选择所有已使用的单元格
+msg.phrase	Text color...	文字颜色…
 msg.phrase	Choose the text colour	选择文字颜色
-msg.phrase	Background...	背景...
-msg.phrase	Choose the cell background	选择单元格背景
-msg.phrase	Line	线
-msg.phrase	Draw a line graph from the selection	根据选择绘制折线图
-msg.phrase	Bar	酒吧
-msg.phrase	Draw a bar graph from the selection	根据选择绘制条形图
-msg.phrase	Mixed	混合
-msg.phrase	Bars for the first series, lines for the rest	第一个系列的条形图，其余系列的线形图
-msg.phrase	Pie	馅饼
-msg.phrase	Draw a pie graph from the selection	根据选择绘制饼图
-msg.phrase	Range...	范围...
-msg.phrase	Set the graph range explicitly	明确设置图形范围
-msg.phrase	Draw again	再画一次
-msg.phrase	Redraw the last graph	重画最后一张图
-msg.phrase	Goto...	后藤...
-msg.phrase	Jump to a cell (for example C12)	跳转到单元格（例如 C12）
-msg.phrase	Column width...	列宽...
-msg.phrase	Change the selected columns' width	更改选定列的宽度
-msg.phrase	Row height...	行高...
-msg.phrase	Change the selected rows' height	更改选定行的高度
-msg.phrase	Auto fit	自动适配
-msg.phrase	Fit widths/heights to the contents (F7)	使宽度/高度适合内容 (F7)
+msg.phrase	Background...	背景色…
+msg.phrase	Choose the cell background	选择单元格背景色
+msg.phrase	Line	折线
+msg.phrase	Draw a line graph from the selection	用所选范围画折线图
+msg.phrase	Bar	柱形
+msg.phrase	Draw a bar graph from the selection	用所选范围画柱形图
+msg.phrase	Mixed	组合
+msg.phrase	Bars for the first series, lines for the rest	第一个系列为柱形，其余为折线
+msg.phrase	Pie	饼图
+msg.phrase	Draw a pie graph from the selection	用所选范围画饼图
+msg.phrase	Range...	范围…
+msg.phrase	Set the graph range explicitly	直接输入图表范围
+msg.phrase	Draw again	重画
+msg.phrase	Redraw the last graph	重画上一个图表
+msg.phrase	Goto...	跳转…
+msg.phrase	Jump to a cell (for example C12)	跳到单元格（例如 C12）
+msg.phrase	Column width...	列宽…
+msg.phrase	Change the selected columns' width	更改所选列的宽度
+msg.phrase	Row height...	行高…
+msg.phrase	Change the selected rows' height	更改所选行的高度
+msg.phrase	Auto fit	自动调整
+msg.phrase	Fit widths/heights to the contents (F7)	按内容调整列宽和行高（F7）
 msg.phrase	Recalculate	重新计算
-msg.phrase	Re-evaluate all formulas	重新评估所有公式
-msg.phrase	Erase all	全部删除
-msg.phrase	Clear the whole sheet	清除整张纸
-msg.phrase	Keys	按键
-msg.phrase	Show the key guide	显示按键指南
+msg.phrase	Re-evaluate all formulas	重新计算所有公式
+msg.phrase	Erase all	全部清除
+msg.phrase	Clear the whole sheet	清除整个工作表
+msg.phrase	Keys	按键说明
+msg.phrase	Show the key guide	显示按键说明
 msg.phrase	About	关于
-msg.phrase	About SGCALC	关于国工计算
+msg.phrase	About SGCALC	关于 SGCALC
 msg.phrase	File	文件
 msg.phrase	Edit	编辑
-msg.phrase	Graph	图
-msg.phrase	Sheet	板材
+msg.phrase	Graph	图表
+msg.phrase	Sheet	工作表
 msg.phrase	Help	帮助
 msg.phrase	File: new, open, save, export, quit	文件：新建、打开、保存、导出、退出
 msg.phrase	Edit: clear, copy, paste, cut, select all	编辑：清除、复制、粘贴、剪切、全选
-msg.phrase	Graph: line, bar, mixed, pie (draws in the FB)	图表：折线图、条形图、混合图、饼图（在 FB 中绘制）
-msg.phrase	Sheet: goto, column width, recalculate, erase	工作表：转到、列宽、重新计算、擦除
-msg.phrase	Help: keys and about	帮助：按键和关于
+msg.phrase	Graph: line, bar, mixed, pie (draws in the FB)	图表：折线、柱形、组合、饼图（画在 FB 上）
+msg.phrase	Sheet: goto, column width, recalculate, erase	工作表：跳转、列宽、重新计算、清除
+msg.phrase	Help: keys and about	帮助：按键说明和关于
 msg.phrase	Left/Right = menu    Up/Down = item    Enter = choose    Esc = cancel	左/右 = 菜单 上/下 = 项目 Enter = 选择 Esc = 取消
-msg.phrase	Cancelled	取消
-msg.phrase	The selection is too large or memory is low.	选择太大或内存不足。
+msg.phrase	Cancelled	已取消
+msg.phrase	The selection is too large or memory is low.	所选范围太大，或内存不足
 msg.phrase	the cell	细胞
 msg.phrase	the selection	选择
-msg.phrase	Nothing to paste	没什么可粘贴的
-msg.phrase	Pasted	粘贴的
-msg.phrase	GO TO CELL	转到单元格
-msg.phrase	Cell reference (A1):	单元格参考（A1）：
-msg.phrase	Goto	后藤
-msg.phrase	COLUMN WIDTH	柱宽
-msg.phrase	Width in characters (4..30):	字符宽度 (4..30)：
+msg.phrase	Nothing to paste	没有可粘贴的内容
+msg.phrase	Pasted	已粘贴
+msg.phrase	GO TO CELL	跳到单元格
+msg.phrase	Cell reference (A1):	单元格引用（A1）：
+msg.phrase	Goto	跳转
+msg.phrase	COLUMN WIDTH	列宽
+msg.phrase	Width in characters (4..30):	宽度（字符数，4〜30）：
 msg.phrase	ROW HEIGHT	行高
-msg.phrase	Height in text rows (1..8):	文本行高度 (1..8)：
+msg.phrase	Height in text rows (1..8):	高度（文本行数，1〜8）：
 msg.phrase	Auto fit: the sheet is empty	自动调整：工作表为空
-msg.phrase	BACKGROUND COLOUR	背景颜色
+msg.phrase	BACKGROUND COLOUR	背景色
 msg.phrase	TEXT COLOUR	文字颜色
-msg.phrase	Arrows: choose    Enter: apply    Esc: cancel	箭头：选择 Enter：应用 Esc：取消
-msg.phrase	Colour index (PC-98 16-colour palette)	颜色索引（PC-98 16 色调色板）
-msg.phrase	Aa 123	AA 123
-msg.phrase	Enter = apply    Esc = cancel	Enter = 应用 Esc = 取消
+msg.phrase	Arrows: choose    Enter: apply    Esc: cancel	方向键：选择    Enter：确定    Esc：取消
+msg.phrase	Colour index (PC-98 16-colour palette)	颜色编号（PC-98 的 16 色）
+msg.phrase	Aa 123	Aa 123
+msg.phrase	Enter = apply    Esc = cancel	Enter = 确定    Esc = 取消
 msg.phrase	Colour	颜色
 msg.phrase	Background	背景
 msg.phrase	Text	文字
 msg.phrase	GRAPH RANGE	图表范围
 msg.phrase	Range (for example A1:C10):	范围（例如 A1:C10）：
 msg.phrase	Graph range	图表范围
-msg.phrase	Use a range such as A1:C10.	使用 A1:C10 等范围。
-msg.phrase	Cannot draw the graph.	无法绘制图表。
+msg.phrase	Use a range such as A1:C10.	请输入 A1:C10 这样的范围
+msg.phrase	Cannot draw the graph.	无法绘制图表
 msg.phrase	line	线
 msg.phrase	bar	酒吧
 msg.phrase	mixed	混合的
 msg.phrase	pie	馅饼
-msg.phrase	Clear every cell in this sheet?	清除此工作表中的每个单元格吗？
-msg.phrase	Sheet erased	纸张被擦除
-msg.phrase	Selected all used cells	选择所有使用的单元格
-msg.phrase	Recalculated	重新计算
+msg.phrase	Clear every cell in this sheet?	清除此工作表的所有单元格吗？
+msg.phrase	Sheet erased	已清除工作表
+msg.phrase	Selected all used cells	已选择所有已使用的单元格
+msg.phrase	Recalculated	已重新计算
 msg.phrase	Memory	内存
-msg.phrase	Not enough PSRAM for the spreadsheet.	PSRAM 不足用于电子表格。
-msg.phrase	The sheet is empty.	该表是空的。
-msg.phrase	No numeric data in the selected range.	所选范围内没有数值数据。
+msg.phrase	Not enough PSRAM for the spreadsheet.	电子表格可用的 PSRAM 不足
+msg.phrase	The sheet is empty.	工作表为空
+msg.phrase	No numeric data in the selected range.	所选范围内没有数值
 msg.phrase	Other	其他
-msg.phrase	No positive values for a pie chart	饼图没有正值
-msg.phrase	LINE	线
-msg.phrase	BAR	酒吧
-msg.phrase	MIXED	混合
-msg.phrase	PIE	PIE
-msg.phrase	S:/	号：/
+msg.phrase	No positive values for a pie chart	没有可画饼图的正数
+msg.phrase	LINE	折线
+msg.phrase	BAR	柱形
+msg.phrase	MIXED	组合
+msg.phrase	PIE	饼图
+msg.phrase	S:/	S:/
 msg.phrase	Folder	文件夹
 msg.phrase	SAVE AS	另存为
 msg.phrase	OPEN FILE	打开文件
 msg.phrase	LibreOffice / CSV	LibreOffice / CSV
-msg.phrase	ODS  FODS  CSV	ODS FDS CSV
-msg.phrase	Name:	姓名：
-msg.phrase	(type a name, or choose below)	（输入名称，或在下面选择）
+msg.phrase	ODS  FODS  CSV	ODS  FODS  CSV
+msg.phrase	Name:	名称：
+msg.phrase	(type a name, or choose below)	（输入名称，或从下面选择）
 msg.phrase	Name	名称
-msg.phrase	Size	尺寸
-msg.phrase	Enter=save  Left=up  Right/Enter on [DIR]=open  Tab=drive  Esc=cancel	Enter=保存 左=上右/在 [DIR] 上输入=打开 Tab=驱动器 Esc=取消
-msg.phrase	Enter=open  Left=up  Right/Enter on [DIR]=open  Tab=drive  Esc=cancel	Enter=打开左=上右/在 [DIR] 上输入=打开 Tab=驱动器 Esc=取消
-msg.phrase	Not enough memory.	内存不够。
+msg.phrase	Size	大小
+msg.phrase	Enter=save  Left=up  Right/Enter on [DIR]=open  Tab=drive  Esc=cancel	Enter=保存  ←=上一级  →/在 [DIR] 上按 Enter=打开  Tab=驱动器  Esc=取消
+msg.phrase	Enter=open  Left=up  Right/Enter on [DIR]=open  Tab=drive  Esc=cancel	Enter=打开  ←=上一级  →/在 [DIR] 上按 Enter=打开  Tab=驱动器  Esc=取消
+msg.phrase	Not enough memory.	内存不足
 msg.phrase	Overwrite	覆盖
 msg.phrase	Open	打开
-msg.phrase	The file is too large (limit 8 MB).	文件太大（限制 8 MB）。
-msg.phrase	Not enough memory to read the file.	内存不足，无法读取文件。
-msg.phrase	Bad ZIP/ODS data.	错误的 ZIP/ODS 数据。
-msg.phrase	CRC error in the ODS file.	ODS 文件中的 CRC 错误。
-msg.phrase	Unsupported or damaged file.	文件不受支持或损坏。
+msg.phrase	The file is too large (limit 8 MB).	文件太大（上限 8MB）
+msg.phrase	Not enough memory to read the file.	读取文件的内存不足
+msg.phrase	Bad ZIP/ODS data.	ZIP / ODS 数据已损坏
+msg.phrase	CRC error in the ODS file.	ODS 文件有 CRC 错误
+msg.phrase	Unsupported or damaged file.	不支持的格式或文件已损坏
 msg.phrase	Saved	已保存
 msg.phrase	Exported	出口
-msg.phrase	Unsaved changes	未保存的更改
-msg.phrase	Save the current sheet before continuing?	在继续之前保存当前工作表吗？
-msg.phrase	New sheet	新表
+msg.phrase	Unsaved changes	有未保存的更改
+msg.phrase	Save the current sheet before continuing?	继续之前保存当前工作表吗？
+msg.phrase	New sheet	新工作表
 msg.phrase	SGTRK	SGTRK
-msg.phrase	UNTITLED	无题
-msg.phrase	song is too large	歌曲太大
+msg.phrase	UNTITLED	UNTITLED
+msg.phrase	song is too large	乐曲太大
 msg.phrase	empty file	空文件
 msg.phrase	not an SGT file	不是 SGT 文件
-msg.phrase	bad BPM	糟糕的 BPM
-msg.phrase	bad speed	速度不好
-msg.phrase	bad title length	标题长度不好
-msg.phrase	truncated title	标题被截断
-msg.phrase	bad character in title	标题中的坏角色
-msg.phrase	truncated order	截断顺序
-msg.phrase	bad order length	订单长度错误
-msg.phrase	bad pattern number in order	错误的模式编号顺序
-msg.phrase	truncated pattern list	截断的模式列表
-msg.phrase	bad pattern count	不良模式计数
-msg.phrase	bad pattern index	不良模式指数
-msg.phrase	duplicate pattern	重复模式
-msg.phrase	truncated pattern data	截断的模式数据
-msg.phrase	invalid pattern data	无效的模式数据
-msg.phrase	trailing data in file	文件中的尾随数据
-msg.phrase	order refers to a missing pattern	order 指的是缺失的模式
-msg.phrase	A:/	答：/
-msg.phrase	(untitled)	（无标题）
-msg.phrase	Ready. Press F1 for help.	准备好了。按 F1 寻求帮助。
-msg.phrase	Follow OFF	跟随关闭
-msg.phrase	Nothing to undo	没有什么可撤消的
-msg.phrase	Undo	撤消
-msg.phrase	Note OFF	注意关闭
-msg.phrase	Set an effect letter first	先设置一个效果字母
-msg.phrase	Effect cleared	效果清除
-msg.phrase	Parameter cleared	参数清除
-msg.phrase	Note cleared	注释已清除
-msg.phrase	Instrument cleared	仪器清零
-msg.phrase	Volume cleared	成交量已清空
-msg.phrase	Order list is full	订单清单已满
-msg.phrase	Order inserted	已插入订单
-msg.phrase	Cannot delete the last order	无法删除最后的订单
-msg.phrase	Order deleted	订单已删除
-msg.phrase	Playing song	播放歌曲
+msg.phrase	bad BPM	BPM 不正确
+msg.phrase	bad speed	速度不正确
+msg.phrase	bad title length	标题长度不正确
+msg.phrase	truncated title	标题不完整
+msg.phrase	bad character in title	标题中有无效字符
+msg.phrase	truncated order	播放顺序不完整
+msg.phrase	bad order length	播放顺序长度不正确
+msg.phrase	bad pattern number in order	播放顺序中的样式编号不正确
+msg.phrase	truncated pattern list	样式列表不完整
+msg.phrase	bad pattern count	样式数量不正确
+msg.phrase	bad pattern index	样式编号不正确
+msg.phrase	duplicate pattern	样式重复
+msg.phrase	truncated pattern data	样式数据不完整
+msg.phrase	invalid pattern data	样式数据无效
+msg.phrase	trailing data in file	文件末尾有多余数据
+msg.phrase	order refers to a missing pattern	播放顺序引用了不存在的样式
+msg.phrase	A:/	A:/
+msg.phrase	(untitled)	（未命名）
+msg.phrase	Ready. Press F1 for help.	就绪。按 F1 查看帮助
+msg.phrase	Follow OFF	跟随 关
+msg.phrase	Nothing to undo	没有可撤销的操作
+msg.phrase	Undo	已撤销
+msg.phrase	Note OFF	音符关闭
+msg.phrase	Set an effect letter first	请先输入效果字母
+msg.phrase	Effect cleared	已清除效果
+msg.phrase	Parameter cleared	已清除参数
+msg.phrase	Note cleared	已清除音符
+msg.phrase	Instrument cleared	已清除乐器
+msg.phrase	Volume cleared	已清除音量
+msg.phrase	Order list is full	播放顺序已满
+msg.phrase	Order inserted	已插入播放顺序
+msg.phrase	Cannot delete the last order	不能删除最后一个播放顺序
+msg.phrase	Order deleted	已删除播放顺序
+msg.phrase	Playing song	正在播放乐曲
 msg.phrase	Stopped	已停止
-msg.phrase	New song	新歌
-msg.phrase	Discard unsaved changes and start a new song? (Y/N)	放弃未保存的更改并开始一首新歌曲？ （是/否）
-msg.phrase	Discard unsaved changes and open a song? (Y/N)	放弃未保存的更改并打开歌曲？ （是/否）
-msg.phrase	Discard unsaved changes and quit? (Y/N)	放弃未保存的更改并退出？ （是/否）
-msg.phrase	Song settings updated	歌曲设置已更新
+msg.phrase	New song	新乐曲
+msg.phrase	Discard unsaved changes and start a new song? (Y/N)	放弃未保存的更改并新建乐曲吗？（Y/N）
+msg.phrase	Discard unsaved changes and open a song? (Y/N)	放弃未保存的更改并打开乐曲吗？（Y/N）
+msg.phrase	Discard unsaved changes and quit? (Y/N)	放弃未保存的更改并退出吗？（Y/N）
+msg.phrase	Song settings updated	已更改乐曲设置
 msg.phrase	Filename is empty	文件名为空
-msg.phrase	Save cancelled	保存已取消
-msg.phrase	Open cancelled	开放已取消
-msg.phrase	Edit ON	编辑开启
-msg.phrase	Edit OFF	编辑关闭
-msg.phrase	Follow ON	关注ON
-msg.phrase	Edit is OFF. Press F8 to edit.	编辑已关闭。按 F8 进行编辑。
-msg.phrase	I/O error	输入/输出错误
+msg.phrase	Save cancelled	已取消保存
+msg.phrase	Open cancelled	已取消打开
+msg.phrase	Edit ON	编辑 开
+msg.phrase	Edit OFF	编辑 关
+msg.phrase	Follow ON	跟随 开
+msg.phrase	Edit is OFF. Press F8 to edit.	编辑已关闭。按 F8 编辑
+msg.phrase	I/O error	读写错误
 msg.phrase	file is too large	文件太大
-msg.phrase	truncated file	截断的文件
-msg.phrase	SINE PAD	正弦垫
-msg.phrase	TRIANGLE	三角
-msg.phrase	SAW LEAD	锯铅
-msg.phrase	SQUARE	方形
-msg.phrase	PULSE 25	脉冲25
-msg.phrase	ORGAN	风琴
-msg.phrase	BASS	低音
-msg.phrase	BELL	贝尔
-msg.phrase	NOISE	噪音
-msg.phrase	SINE	正弦
-msg.phrase	SAW	声表面波
-msg.phrase	OFF	关闭
-msg.phrase	ON	开
-msg.phrase	ROW	行
-msg.phrase	CHAN LEVEL	陈级
-msg.phrase	F1 HELP F2 SONG	F1 帮助 F2 歌曲
-msg.phrase	F3 INS  F4 SAVE	F3 插入 F4 保存
-msg.phrase	F5 PLAY F6 PAT	F5 播放 F6 拍拍
-msg.phrase	F7 STOP F8 EDIT	F7 停止 F8 编辑
-msg.phrase	F9/F10 OCTAVE	F9/F10 八度
-msg.phrase	F11 FOLLOW	F11 关注
-msg.phrase	F12 QUIT	F12 退出
-msg.phrase	SPACE PLAY/STOP	空间播放/停止
-msg.phrase	CTRL-S SAVE	CTRL-S 保存
-msg.phrase	CTRL-O OPEN	CTRL-O 打开
-msg.phrase	C-N NEW C-Z UNDO	C-N 新 C-Z 撤消
-msg.phrase	C-C STOP	C-C 停止
-msg.phrase	#TRANSPORT AND FILES	#运输和文件
-msg.phrase	#ORDER LIST	#订单清单
+msg.phrase	truncated file	文件不完整
+msg.phrase	SINE PAD	SINE PAD
+msg.phrase	TRIANGLE	TRIANGLE
+msg.phrase	SAW LEAD	SAW LEAD
+msg.phrase	SQUARE	SQUARE
+msg.phrase	PULSE 25	PULSE 25
+msg.phrase	ORGAN	ORGAN
+msg.phrase	BASS	BASS
+msg.phrase	BELL	BELL
+msg.phrase	NOISE	NOISE
+msg.phrase	SINE	SINE
+msg.phrase	SAW	SAW
+msg.phrase	OFF	OFF
+msg.phrase	ON	ON
+msg.phrase	ROW	ROW
+msg.phrase	CHAN LEVEL	CHAN LEVEL
+msg.phrase	F1 HELP F2 SONG	F1 HELP F2 SONG
+msg.phrase	F3 INS  F4 SAVE	F3 INS  F4 SAVE
+msg.phrase	F5 PLAY F6 PAT	F5 PLAY F6 PAT
+msg.phrase	F7 STOP F8 EDIT	F7 STOP F8 EDIT
+msg.phrase	F9/F10 OCTAVE	F9/F10 OCTAVE
+msg.phrase	F11 FOLLOW	F11 FOLLOW
+msg.phrase	F12 QUIT	F12 QUIT
+msg.phrase	SPACE PLAY/STOP	SPACE PLAY/STOP
+msg.phrase	CTRL-S SAVE	CTRL-S SAVE
+msg.phrase	CTRL-O OPEN	CTRL-O OPEN
+msg.phrase	C-N NEW C-Z UNDO	C-N NEW C-Z UNDO
+msg.phrase	C-C STOP	C-C STOP
+msg.phrase	#TRANSPORT AND FILES	#播放与文件
+msg.phrase	#ORDER LIST	#播放顺序
 msg.phrase	#DISPLAY	#显示
 msg.phrase	#EDITING	#编辑
-msg.phrase	#EFFECTS (parameter is hexadecimal)	#EFFECTS（参数为十六进制）
-msg.phrase	LEFT/RIGHT PAGE   ENTER OR F1 CLOSE	左/右页输入或 F1 关闭
-msg.phrase	SONG SETTINGS	歌曲设置
-msg.phrase	UP/DOWN SELECT   LEFT/RIGHT ADJUST   ENTER/F2 CLOSE	上/下选择 左/右调整 ENTER/F2 关闭
-msg.phrase	Type to edit the title. Backspace deletes the last character.	键入以编辑标题。退格键删除最后一个字符。
-msg.phrase	BPM range 32..255. Speed range 1..31.	BPM 范围 32..255。速度范围 1..31。
-msg.phrase	Pattern effects can also change speed and BPM while playing.	模式效果还可以在演奏时改变速度和 BPM。
-msg.phrase	INSTRUMENTS	仪器仪表
-msg.phrase	UP/DOWN SELECT   SPACE PREVIEW   ENTER USE   F3 CLOSE	向上/向下选择空间预览 进入使用 F3 关闭
-msg.phrase	All four channels use wavetable synthesis.	所有四个通道都使用波表合成。
-msg.phrase	Preview plays C-4 on the track under the edit cursor.	预览在编辑光标下的轨道上播放 C-4。
-msg.phrase	SAVE SONG AS	将歌曲另存为
-msg.phrase	ENTER SAVE   F4 OR CTRL-C CANCEL	输入保存 F4 或 CTRL-C 取消
-msg.phrase	Directory:	目录：
+msg.phrase	#EFFECTS (parameter is hexadecimal)	#效果（参数为十六进制）
+msg.phrase	LEFT/RIGHT PAGE   ENTER OR F1 CLOSE	LEFT/RIGHT PAGE   ENTER OR F1 CLOSE
+msg.phrase	SONG SETTINGS	乐曲设置
+msg.phrase	UP/DOWN SELECT   LEFT/RIGHT ADJUST   ENTER/F2 CLOSE	UP/DOWN SELECT   LEFT/RIGHT ADJUST   ENTER/F2 CLOSE
+msg.phrase	Type to edit the title. Backspace deletes the last character.	直接输入可修改标题。Backspace 删除最后一个字符
+msg.phrase	BPM range 32..255. Speed range 1..31.	BPM 范围 32〜255，速度范围 1〜31
+msg.phrase	Pattern effects can also change speed and BPM while playing.	播放时也可用样式中的效果改变速度和 BPM
+msg.phrase	INSTRUMENTS	乐器
+msg.phrase	UP/DOWN SELECT   SPACE PREVIEW   ENTER USE   F3 CLOSE	UP/DOWN SELECT   SPACE PREVIEW   ENTER USE   F3 CLOSE
+msg.phrase	All four channels use wavetable synthesis.	四个通道都使用波表合成
+msg.phrase	Preview plays C-4 on the track under the edit cursor.	试听会在编辑光标所在音轨上播放 C-4
+msg.phrase	SAVE SONG AS	乐曲另存为
+msg.phrase	ENTER SAVE   F4 OR CTRL-C CANCEL	ENTER SAVE   F4 OR CTRL-C CANCEL
+msg.phrase	Directory:	文件夹：
 msg.phrase	File name:	文件名：
-msg.phrase	The extension .SGT is added automatically.	扩展名 .SGT 会自动添加。
-msg.phrase	An existing file can be overwritten.	现有文件可以被覆盖。
-msg.phrase	OPEN SONG	开放歌曲
-msg.phrase	ENTER OPEN  BS PARENT  CTRL-O/CTRL-C CANCEL	输入打开 BS 父级 CTRL-O/CTRL-C 取消
+msg.phrase	The extension .SGT is added automatically.	会自动加上扩展名 .SGT
+msg.phrase	An existing file can be overwritten.	可以覆盖已有的文件
+msg.phrase	OPEN SONG	打开乐曲
+msg.phrase	ENTER OPEN  BS PARENT  CTRL-O/CTRL-C CANCEL	ENTER OPEN  BS PARENT  CTRL-O/CTRL-C CANCEL
 msg.phrase	(no .SGT files in this folder)	（此文件夹中没有 .SGT 文件）
 msg.phrase	CONFIRM	确认
-msg.phrase	Y = YES   N / ENTER / CTRL-C = NO	Y = 是 N / ENTER / CTRL-C = 否
-msg.phrase	Y = yes        N = no	Y = 是 N = 否
+msg.phrase	Y = YES   N / ENTER / CTRL-C = NO	Y = YES   N / ENTER / CTRL-C = NO
+msg.phrase	Y = yes        N = no	Y = 是        N = 否
 msg.phrase	C-	C-
 msg.phrase	C#	C#
 msg.phrase	D-	D-
 msg.phrase	D#	D#
-msg.phrase	E-	电子-
+msg.phrase	E-	E-
 msg.phrase	F-	F-
 msg.phrase	F#	F#
 msg.phrase	G-	G-
 msg.phrase	G#	G#
-msg.phrase	A-	一个-
+msg.phrase	A-	A-
 msg.phrase	A#	A#
 msg.phrase	B-	B-
 msg.phrase	A:/dir/name	A：/目录/名称
-msg.phrase	MThd	平均阈值
-msg.phrase	broken MThd	破碎的MTHD
-msg.phrase	MIDI IMPORT	MIDI 导入
+msg.phrase	MThd	MThd
+msg.phrase	broken MThd	MThd 已损坏
+msg.phrase	MIDI IMPORT	导入 MIDI
 msg.phrase	MTrk	MTrk
-msg.phrase	broken delta time	破碎的增量时间
-msg.phrase	broken running status	运行状态中断
-msg.phrase	broken meta event	损坏的元事件
-msg.phrase	broken sysex event	损坏的 sysex 事件
-msg.phrase	broken channel event	通道中断事件
-msg.phrase	SMF output is too small	SMF输出太小
-msg.phrase	SMF output is too large	SMF输出太大
-msg.phrase	the song is too long for SMF	这首歌对于 SMF 来说太长了
+msg.phrase	broken delta time	增量时间已损坏
+msg.phrase	broken running status	运行状态已损坏
+msg.phrase	broken meta event	Meta 事件已损坏
+msg.phrase	broken sysex event	SysEx 事件已损坏
+msg.phrase	broken channel event	通道事件已损坏
+msg.phrase	SMF output is too small	SMF 输出太小
+msg.phrase	SMF output is too large	SMF 输出太大
+msg.phrase	the song is too long for SMF	乐曲太长，无法转为 SMF
 msg.phrase	TRK1	TRK1
 msg.phrase	%s%d	%s%d
-msg.phrase	%s%d:%s%d	%s%d：%s%d
+msg.phrase	%s%d:%s%d	%s%d:%s%d
 msg.phrase	%s	%s
 msg.phrase	%.40s%s	%.40s%s
-msg.phrase	  [%s]   %s	[%s] %s
+msg.phrase	  [%s]   %s	  [%s]   %s
 msg.phrase	EDIT  	编辑
-msg.phrase	READY 	准备好
-msg.phrase	%4d 	%4d
-msg.phrase	%s Sum %.7g N %ld%s	%s 总计 %.7g N %ld%s
-msg.phrase	ARROWS      move the cell cursor\n	箭头移动单元格光标
-msg.phrase	SHIFT+ARR   extend the selection (for graphs/copy)\n	SHIFT+ARR 扩展选择（对于图形/副本）
-msg.phrase	ENTER       edit the cell; in edit, commit and move down\n	ENTER 编辑单元格；编辑、提交并下移
-msg.phrase	TAB         next cell    SHIFT+TAB  previous cell\n	TAB 下一个单元格 SHIFT+TAB 上一个单元格
-msg.phrase	DELETE      clear the selected cell(s)    ESC  cancel\n	DELETE 清除所选单元格 ESC 取消
-msg.phrase	PGUP/PGDN   move one screen    HOME/END  first/last column\n	PGUP/PGDN 移动一屏 HOME/END 第一列/最后一列
-msg.phrase	CTRL+HOME   A1    CTRL+END  last used cell\n	CTRL+HOME A1 CTRL+END 最后使用的单元格
-msg.phrase	F1 help  F2 edit  F3 copy  F4 paste  F5 goto  F6 colour\n	F1 帮助 F2 编辑 F3 复制 F4 粘贴 F5 转到 F6 颜色
-msg.phrase	F7 auto-fit  F8 background  F9 recalc  F10 graph  F11 save  F12 menu\n	F7 自动调整 F8 背景 F9 重新计算 F10 图形 F11 保存 F12 菜单
-msg.phrase	SHIFT+F1 about  SHIFT+F2 row height  SHIFT+F3 column width\n	SHIFT+F1 左右 SHIFT+F2 行高 SHIFT+F3 列宽
-msg.phrase	SHIFT+F4 select all  SHIFT+F10 graph range  SHIFT+F11 save as\n	SHIFT+F4 选择所有 SHIFT+F10 图形范围 SHIFT+F11 另存为
-msg.phrase	CTRL+F1 new  CTRL+F2 open  CTRL+F3 save  CTRL+F4 save as\n	CTRL+F1 新建 CTRL+F2 打开 CTRL+F3 保存 CTRL+F4 另存为
-msg.phrase	CTRL+F5 export CSV  CTRL+F6 export ODS  ALT+F12 quit\n	CTRL+F5 导出 CSV CTRL+F6 导出 ODS ALT+F12 退出
-msg.phrase	Bottom 2 lines: function keys; [SHIFT]/[CTRL]/[ALT] like the filer\n	最下面2行：功能键； [SHIFT]/[CTRL]/[ALT] 就像文件管理器一样
-msg.phrase	CTRL+S save  CTRL+O open  CTRL+N new  CTRL+C/V/X copy/paste/cut\n	CTRL+S 保存 CTRL+O 打开 CTRL+N 新建 CTRL+C/V/X 复制/粘贴/剪切
-msg.phrase	CTRL+G goto    /  open the menu (1 File, 2 Edit, ...)\n	CTRL+G 转到/打开菜单（1 文件，2 编辑，...）
-msg.phrase	Built-in functions: SUM AVERAGE MIN MAX COUNT COUNTA\n	内置函数：SUM AVERAGE MIN MAX COUNT COUNTA
-msg.phrase	PRODUCT ABS SQRT INT ROUND MOD POWER IF AND OR NOT\n	产品 ABS SQRT INT ROUND MOD 电源 如果和或没有
-msg.phrase	IFERROR LEN LEFT RIGHT MID UPPER LOWER TRIM CONCATENATE PI\n	IFERROR LEN 左 右 中 上 下 修剪 连接 PI
-msg.phrase	Cell refs: A1, $A$1, A1:B10.  Formulas begin with '='.\n	单元格参考：A1、$A$1、A1:B10。  公式以“=”开头。
-msg.phrase	Files: .ods (LibreOffice), .fods (flat XML), .csv\n	文件：.ods (LibreOffice)、.fods（平面 XML）、.csv
-msg.phrase	ODS/FODS keeps formulas, widths, heights and colours.\n	ODS/FODS 保留公式、宽度、高度和颜色。
-msg.phrase	CSV keeps values and formulas (no colours/heights).\n	CSV 保留值和公式（无颜色/高度）。
-msg.phrase	Graph: select a range, press F10, and choose Line/Bar/Mixed/Pie.\n	图表：选择一个范围，按F10，然后选择折线图/条形图/混合图/饼图。
-msg.phrase	SGCALC for sgnano\n	SGCALC 用于 sgnano
+msg.phrase	READY 	就绪
+msg.phrase	%4d 	%4d 
+msg.phrase	%s Sum %.7g N %ld%s	%s 合计 %.7g 个数 %ld%s
+msg.phrase	ARROWS      move the cell cursor\n	方向键      移动单元格光标\n
+msg.phrase	SHIFT+ARR   extend the selection (for graphs/copy)\n	SHIFT+方向  扩大选择范围（用于图表 / 复制）\n
+msg.phrase	ENTER       edit the cell; in edit, commit and move down\n	ENTER       编辑单元格；编辑时确认并下移\n
+msg.phrase	TAB         next cell    SHIFT+TAB  previous cell\n	TAB         下一个单元格    SHIFT+TAB  上一个单元格\n
+msg.phrase	DELETE      clear the selected cell(s)    ESC  cancel\n	DELETE      清除所选单元格    ESC  取消\n
+msg.phrase	PGUP/PGDN   move one screen    HOME/END  first/last column\n	PGUP/PGDN   翻一屏    HOME/END  第一列 / 最后一列\n
+msg.phrase	CTRL+HOME   A1    CTRL+END  last used cell\n	CTRL+HOME   到 A1    CTRL+END  到最后使用的单元格\n
+msg.phrase	F1 help  F2 edit  F3 copy  F4 paste  F5 goto  F6 colour\n	F1 帮助  F2 编辑  F3 复制  F4 粘贴  F5 跳转  F6 文字颜色\n
+msg.phrase	F7 auto-fit  F8 background  F9 recalc  F10 graph  F11 save  F12 menu\n	F7 自动调整  F8 背景色  F9 重算  F10 图表  F11 保存  F12 菜单\n
+msg.phrase	SHIFT+F1 about  SHIFT+F2 row height  SHIFT+F3 column width\n	SHIFT+F1 关于  SHIFT+F2 行高  SHIFT+F3 列宽\n
+msg.phrase	SHIFT+F4 select all  SHIFT+F10 graph range  SHIFT+F11 save as\n	SHIFT+F4 全选  SHIFT+F10 图表范围  SHIFT+F11 另存为\n
+msg.phrase	CTRL+F1 new  CTRL+F2 open  CTRL+F3 save  CTRL+F4 save as\n	CTRL+F1 新建  CTRL+F2 打开  CTRL+F3 保存  CTRL+F4 另存为\n
+msg.phrase	CTRL+F5 export CSV  CTRL+F6 export ODS  ALT+F12 quit\n	CTRL+F5 导出 CSV  CTRL+F6 导出 ODS  ALT+F12 退出\n
+msg.phrase	Bottom 2 lines: function keys; [SHIFT]/[CTRL]/[ALT] like the filer\n	底部 2 行是功能键；[SHIFT]/[CTRL]/[ALT] 与文件管理器相同\n
+msg.phrase	CTRL+S save  CTRL+O open  CTRL+N new  CTRL+C/V/X copy/paste/cut\n	CTRL+S 保存  CTRL+O 打开  CTRL+N 新建  CTRL+C/V/X 复制/粘贴/剪切\n
+msg.phrase	CTRL+G goto    /  open the menu (1 File, 2 Edit, ...)\n	CTRL+G 跳转    /  打开菜单（1 文件、2 编辑……）\n
+msg.phrase	Built-in functions: SUM AVERAGE MIN MAX COUNT COUNTA\n	内置函数：SUM AVERAGE MIN MAX COUNT COUNTA\n
+msg.phrase	PRODUCT ABS SQRT INT ROUND MOD POWER IF AND OR NOT\n	PRODUCT ABS SQRT INT ROUND MOD POWER IF AND OR NOT\n
+msg.phrase	IFERROR LEN LEFT RIGHT MID UPPER LOWER TRIM CONCATENATE PI\n	IFERROR LEN LEFT RIGHT MID UPPER LOWER TRIM CONCATENATE PI\n
+msg.phrase	Cell refs: A1, $A$1, A1:B10.  Formulas begin with '='.\n	单元格引用：A1、$A$1、A1:B10。公式以 '=' 开头\n
+msg.phrase	Files: .ods (LibreOffice), .fods (flat XML), .csv\n	文件：.ods（LibreOffice）、.fods（扁平 XML）、.csv\n
+msg.phrase	ODS/FODS keeps formulas, widths, heights and colours.\n	ODS/FODS 保留公式、列宽、行高和颜色\n
+msg.phrase	CSV keeps values and formulas (no colours/heights).\n	CSV 只保留数值和公式（不含颜色、行高）\n
+msg.phrase	Graph: select a range, press F10, and choose Line/Bar/Mixed/Pie.\n	图表：选择范围后按 F10，再选折线 / 柱形 / 组合 / 饼图\n
+msg.phrase	SGCALC for sgnano\n	SGCALC for sgnano\n
 msg.phrase	Version 	版本
-msg.phrase	A Lotus 1-2-3 style spreadsheet as an SGX program.\n\n	作为 SGX 程序的 Lotus 1-2-3 样式电子表格。
+msg.phrase	A Lotus 1-2-3 style spreadsheet as an SGX program.\n\n	Lotus 1-2-3 风格的电子表格（SGX 程序）\n\n
 msg.phrase	SGX ABI %u.%u\n	新交所 ABI %u.%u
-msg.phrase	Screen mode 3: text + CLUT8 FB (lowres disabled)\n	屏幕模式 3：文本 + CLUT8 FB（低分辨率禁用）
+msg.phrase	Screen mode 3: text + CLUT8 FB (lowres disabled)\n	画面模式 3：文本 + CLUT8 FB（不使用低分辨率层）\n
 msg.phrase	Sheet: %d rows x %d columns\n	工作表：%d 行 x %d 列
-msg.phrase	Formats: .ods / .fods (LibreOffice), .csv\n\n	格式：.ods / .fods (LibreOffice)、.csv
-msg.phrase	The grid is drawn on the text plane.\n	网格绘制在文本平面上。
-msg.phrase	Charts and the 640x480 background use the FB.\n\n	图表和 640x480 背景使用 FB。
+msg.phrase	Formats: .ods / .fods (LibreOffice), .csv\n\n	格式：.ods / .fods（LibreOffice）、.csv\n\n
+msg.phrase	The grid is drawn on the text plane.\n	表格网格画在文本层上\n
+msg.phrase	Charts and the 640x480 background use the FB.\n\n	图表和 640x480 的背景使用 FB\n\n
 msg.phrase	%d %s	%d %s
-msg.phrase	Cannot store the cell (%d).	无法存储单元格（%d）。
+msg.phrase	Cannot store the cell (%d).	无法写入单元格（%d）
 msg.phrase	Copied %d x %d cells	已复制 %d x %d 个单元格
 msg.phrase	Cleared %s	已清除 %s
-msg.phrase	'%s' is not a cell reference.	“%s”不是单元格引用。
+msg.phrase	'%s' is not a cell reference.	'%s' 不是单元格引用
 msg.phrase	%d	%d
 msg.phrase	Column width = %d	列宽 = %d
 msg.phrase	Row height = %d	行高 = %d
-msg.phrase	Auto fit: %d column(s), %d row(s)	自动调整：%d 列，%d 行
+msg.phrase	Auto fit: %d column(s), %d row(s)	自动调整：%d 列、%d 行
 msg.phrase	%2d	%2d
-msg.phrase	Cannot apply the colour (%d).	无法应用颜色 (%d)。
+msg.phrase	Cannot apply the colour (%d).	无法设置颜色（%d）
 msg.phrase	%s colour = %d	%s 颜色 = %d
-msg.phrase	Not a valid range.\nUse a range such as A1:C10.	不是有效范围。\n使用 A1:C10 等范围。
+msg.phrase	Not a valid range.\nUse a range such as A1:C10.	范围无效。\n请输入 A1:C10 这样的范围
 msg.phrase	Graph range %s	图表范围 %s
 msg.phrase	Graph: %s	图表：%s
-msg.phrase	SGCALC: cannot set screen mode 3: %s\n	SGCALC：无法设置屏幕模式 3：%s
+msg.phrase	SGCALC: cannot set screen mode 3: %s\n	SGCALC：无法切换到画面模式 3：%s\n
 msg.phrase	%.2g	%.2g
 msg.phrase	%.6g	%.6g
-msg.phrase	%s  %.0f%%	%s %.0f%%
-msg.phrase	GRAPH  %s  %s	图表 %s %s
+msg.phrase	%s  %.0f%%	%s  %.0f%%
+msg.phrase	GRAPH  %s  %s	图表  %s  %s
 msg.phrase	%s%s	%s%s
 msg.phrase	%s/%s	%s/%s
 msg.phrase	%.*s	%.*s
 msg.phrase	%.*s/	%.*s/
 msg.phrase	Cannot read %s\n%s	无法读取 %s\n%s
 msg.phrase	Folder: %s	文件夹：%s
-msg.phrase	[DIR] %s	[目录] %s
-msg.phrase	      %s	%s
+msg.phrase	[DIR] %s	[DIR] %s
+msg.phrase	      %s	      %s
 msg.phrase	%lu.%luM	%lu.%luM
 msg.phrase	%luK	%luK
 msg.phrase	%luB	%luB
-msg.phrase	BOOK1%s	书 1%s
+msg.phrase	BOOK1%s	BOOK1%s
 msg.phrase	%c:/	%c:/
-msg.phrase	Unsupported extension.\nUse .csv, .ods or .fods.	不支持的扩展。\n使用 .csv、.ods 或 .fods。
-msg.phrase	%s already exists.\nOverwrite it?	%s 已经存在。\n覆盖它吗？
-msg.phrase	%s may not be writable.\nTry anyway?	%s 可能不可写。\n还是尝试一下？
-msg.phrase	Unknown file type for %s	%s 的文件类型未知
-msg.phrase	Unsupported file type.\nUse .csv, .ods or .fods.	不支持的文件类型。\n使用 .csv、.ods 或 .fods。
+msg.phrase	Unsupported extension.\nUse .csv, .ods or .fods.	不支持的扩展名。\n请使用 .csv、.ods 或 .fods
+msg.phrase	%s already exists.\nOverwrite it?	%s 已存在。\n要覆盖吗？
+msg.phrase	%s may not be writable.\nTry anyway?	%s 可能无法写入。\n仍要尝试吗？
+msg.phrase	Unknown file type for %s	无法识别 %s 的文件类型
+msg.phrase	Unsupported file type.\nUse .csv, .ods or .fods.	不支持的文件类型。\n请使用 .csv、.ods 或 .fods
 msg.phrase	Cannot open %s\n%s	无法打开 %s\n%s
-msg.phrase	%s is a folder.	%s 是一个文件夹。
+msg.phrase	%s is a folder.	%s 是文件夹
 msg.phrase	Cannot import %s\n%s	无法导入 %s\n%s
-msg.phrase	Loaded %s	已加载 %s
-msg.phrase	Cannot build the %s file.	无法构建 %s 文件。
+msg.phrase	Loaded %s	已载入 %s
+msg.phrase	Cannot build the %s file.	无法生成 %s 文件
 msg.phrase	Cannot write %s\n%s	无法写入 %s\n%s
 msg.phrase	%s %s	%s %s
-msg.phrase	unsupported version %u	不受支持的版本 %u
+msg.phrase	unsupported version %u	不支持的版本（%u）
 msg.phrase	%d:%d:%d:%d:%d:%d	%d:%d:%d:%d:%d:%d
 msg.phrase	Octave %d	八度 %d
-msg.phrase	Note %s	注意%s
-msg.phrase	Instrument %d	仪器%d
+msg.phrase	Note %s	音符 %s
+msg.phrase	Instrument %d	乐器 %d
 msg.phrase	Volume %s	音量 %s
-msg.phrase	Effect %c	效果%c
-msg.phrase	Parameter %s	Parameter %s
-msg.phrase	Pattern %s	模式 %s
-msg.phrase	Playing pattern %s	播放模式 %s
-msg.phrase	SAVE ERROR: %s	保存错误：%s
+msg.phrase	Effect %c	效果 %c
+msg.phrase	Parameter %s	参数 %s
+msg.phrase	Pattern %s	样式 %s
+msg.phrase	Playing pattern %s	正在播放样式 %s
+msg.phrase	SAVE ERROR: %s	无法保存：%s
 msg.phrase	Saved %s	已保存 %s
-msg.phrase	LOAD ERROR: %s	加载错误：%s
+msg.phrase	LOAD ERROR: %s	无法载入：%s
 msg.phrase	BPM %d	BPM %d
-msg.phrase	Speed %d	速度%d
-msg.phrase	Preview %s	预览 %s
-msg.phrase	Instrument %s %s	仪器 %s %s
-msg.phrase	Overwrite %s? (Y/N)	覆盖%s？ （是/否）
-msg.phrase	 | BPM %s SPD %s 	| BPM %s SPD %s
-msg.phrase	 SGNO TRACKER 1.0 | 	SGNO 追踪器 1.0 |
-msg.phrase	FILE 	文件
-msg.phrase	 PAT %s	帕特%s
-msg.phrase	 ORD %d/%d	ORD %d/%d
-msg.phrase	 INS %s 	INS %s
-msg.phrase	 OCT %d	华侨城 %d
-msg.phrase	 EDIT %s	编辑%s
-msg.phrase	ON 	在
-msg.phrase	 FOL %s	下线 %s
-msg.phrase	TRACK %d	跟踪 %d
+msg.phrase	Speed %d	速度 %d
+msg.phrase	Preview %s	试听 %s
+msg.phrase	Instrument %s %s	乐器 %s %s
+msg.phrase	Overwrite %s? (Y/N)	覆盖 %s 吗？（Y/N）
+msg.phrase	 | BPM %s SPD %s 	 | BPM %s SPD %s 
+msg.phrase	 SGNO TRACKER 1.0 | 	 SGNO TRACKER 1.0 | 
+msg.phrase	FILE 	FILE 
+msg.phrase	 PAT %s	 PAT %s
+msg.phrase	 ORD %d/%d	 ORD %d/%d
+msg.phrase	 INS %s 	 INS %s 
+msg.phrase	 OCT %d	 OCT %d
+msg.phrase	 EDIT %s	 EDIT %s
+msg.phrase	ON 	ON 
+msg.phrase	 FOL %s	 FOL %s
+msg.phrase	TRACK %d	TRACK %d
 msg.phrase	%c%s	%c%s
 msg.phrase	%s %s %s %s	%s %s %s %s
-msg.phrase	%s 	%s
+msg.phrase	%s 	%s 
 msg.phrase	%d %s %s	%d %s %s
-msg.phrase	ORDER %d/%d	订单 %d/%d
-msg.phrase	PAT   %s	帕特%s
+msg.phrase	ORDER %d/%d	ORDER %d/%d
+msg.phrase	PAT   %s	PAT   %s
 msg.phrase	INS %s %s	INS %s %s
-msg.phrase	OCT %d  EDIT %s	10 月 %d 编辑 %s
-msg.phrase	FOLLOW %s	关注 %s
-msg.phrase	PLAYING  ORD %d/%d  PAT %s  ROW %s/%d  SPD %s  BPM %d  F7 STOP	正在播放 ORD %d/%d PAT %s ROW %s/%d SPD %s BPM %d F7 STOP
-msg.phrase	READY  EDIT %s  OCT %d  F1 HELP  F5 PLAY  CTRL-S SAVE	准备编辑 %s OCT %d F1 帮助 F5 播放 CTRL-S 保存
-msg.phrase	 %s 	%s
-msg.phrase	  F5          Play the song from the current order	F5 从当前顺序播放歌曲
-msg.phrase	  F6          Play the current pattern	F6 播放当前模板
-msg.phrase	  F7/Ctrl-C   Stop playback	F7/Ctrl-C 停止播放
-msg.phrase	  Space       Play / stop	空间 播放/停止
-msg.phrase	  F4          Save as	F4 另存为
-msg.phrase	  Ctrl-S      Save (asks for a name if new)	Ctrl-S 保存（如果是新的则要求输入名称）
-msg.phrase	  Ctrl-O      Open a song	Ctrl-O 打开歌曲
-msg.phrase	  Ctrl-N      New song	Ctrl-N 新歌曲
-msg.phrase	  F12         Quit (confirmation if modified)	F12 退出（如果修改则确认）
-msg.phrase	  [ ]         Previous / next order entry	[ ] 上一个/下一个订单输入
-msg.phrase	  { }         Insert / delete an order entry	{ } 插入/删除订单条目
-msg.phrase	  - +         Change the pattern in the entry	- + 更改条目中的模式
-msg.phrase	  F11         Follow playback (turns off on manual move)	F11 跟随播放（手动移动时关闭）
-msg.phrase	  F1          Help; Left/Right changes page	F1 帮助；左/右更改页面
-msg.phrase	  F8          Toggle edit mode	F8 切换编辑模式
-msg.phrase	  Arrows      Move the cursor	箭头 移动光标
-msg.phrase	  PgUp/PgDn   Jump 16 rows	PgUp/PgDn 跳转 16 行
-msg.phrase	  Home/End    First / last row	Home/End 第一行/最后一行
-msg.phrase	  F9/F10      Octave down / up	F9/F10 八度向下/向上
-msg.phrase	  Z S X D C V G B H N J M      lower piano row	Z S X D C V G B H N J M 下琴排
-msg.phrase	  Q 2 W 3 E R 5 T 6 Y 7 U      upper piano row	Q 2 W 3 E R 5 T 6 Y 7 U 上琴排
-msg.phrase	  1           Note off	1 注释掉
-msg.phrase	  0 / Del     0 clears note/inst/fx; Del clears any	0 / Del 0 清除音符/inst/fx； Del 清除任何
-msg.phrase	  Ctrl-Z      Undo the last pattern/order edit	Ctrl-Z 撤消上次的模式/顺序编辑
-msg.phrase	  Axy   Volume slide: up x, down y	Axy 音量滑块：向上 x，向下 y
-msg.phrase	  Cxx   Note cut after xx ticks	Cxx 音符在 xx 个刻度后剪切
-msg.phrase	  Dxx   Set volume (00..7F)	Dxx 设置音量 (00..7F)
-msg.phrase	  Fxx   Speed if xx < 20, otherwise BPM	如果 xx < 20，则为 Fxx 速度，否则为 BPM
-msg.phrase	  Hxy   Arpeggio x, y semitones	Hxy 琶音 x, y 半音
-msg.phrase	  Pxx   Pitch slide up	Pxx 音调向上滑动
-msg.phrase	  Qxx   Pitch slide down	Qxx 俯仰滑下
-msg.phrase	  F2 song settings, F3 instrument list	F2歌曲设置、F3乐器列表
-msg.phrase	HELP %d/2	帮助 %d/2
-msg.phrase	  Title	标题
-msg.phrase	  [%s_]	[%s_]
-msg.phrase	  BPM   : %d     (left/right -1/+1, -/+ -5/+5)	BPM：%d（左/右-1/+1，-/+ -5/+5）
-msg.phrase	  Speed : %d ticks/row	速度：%d 个刻度/行
-msg.phrase	  Rows  : %d (fixed)	行：%d（固定）
-msg.phrase	  Order : %d entries	订单：%d 条
-msg.phrase	  Patterns in use : %d	正在使用的模式：%d
-msg.phrase	 #  NAME       WAVE       A   D   S   R  VOL	# 命名 WAVE AD S R VOL
-msg.phrase	 %c %d  %-9s %-9s %3d %3d %3d %3d %4d	%c %d %-9s %-9s %3d %3d %3d %3d %4d
-msg.phrase	Current instrument: %s %s	当前仪器：%s %s
-msg.phrase	  %s	%s
-msg.phrase	DIR  %s	目录 %s
-msg.phrase	 %c %s%s	%c %s%s
+msg.phrase	OCT %d  EDIT %s	OCT %d  EDIT %s
+msg.phrase	FOLLOW %s	FOLLOW %s
+msg.phrase	PLAYING  ORD %d/%d  PAT %s  ROW %s/%d  SPD %s  BPM %d  F7 STOP	PLAYING  ORD %d/%d  PAT %s  ROW %s/%d  SPD %s  BPM %d  F7 STOP
+msg.phrase	READY  EDIT %s  OCT %d  F1 HELP  F5 PLAY  CTRL-S SAVE	READY  EDIT %s  OCT %d  F1 HELP  F5 PLAY  CTRL-S SAVE
+msg.phrase	 %s 	 %s 
+msg.phrase	  F5          Play the song from the current order	  F5          从当前播放顺序开始播放乐曲
+msg.phrase	  F6          Play the current pattern	  F6          播放当前样式
+msg.phrase	  F7/Ctrl-C   Stop playback	  F7/Ctrl-C   停止播放
+msg.phrase	  Space       Play / stop	  Space       播放 / 停止
+msg.phrase	  F4          Save as	  F4          另存为
+msg.phrase	  Ctrl-S      Save (asks for a name if new)	  Ctrl-S      保存（新乐曲时询问名称）
+msg.phrase	  Ctrl-O      Open a song	  Ctrl-O      打开乐曲
+msg.phrase	  Ctrl-N      New song	  Ctrl-N      新乐曲
+msg.phrase	  F12         Quit (confirmation if modified)	  F12         退出（有更改时会确认）
+msg.phrase	  [ ]         Previous / next order entry	  [ ]         上一个 / 下一个播放顺序
+msg.phrase	  { }         Insert / delete an order entry	  { }         插入 / 删除播放顺序
+msg.phrase	  - +         Change the pattern in the entry	  - +         更改该位置的样式
+msg.phrase	  F11         Follow playback (turns off on manual move)	  F11         跟随播放（手动移动时关闭）
+msg.phrase	  F1          Help; Left/Right changes page	  F1          帮助；左右键翻页
+msg.phrase	  F8          Toggle edit mode	  F8          开关编辑模式
+msg.phrase	  Arrows      Move the cursor	  方向键      移动光标
+msg.phrase	  PgUp/PgDn   Jump 16 rows	  PgUp/PgDn   跳 16 行
+msg.phrase	  Home/End    First / last row	  Home/End    第一行 / 最后一行
+msg.phrase	  F9/F10      Octave down / up	  F9/F10      降低 / 升高八度
+msg.phrase	  Z S X D C V G B H N J M      lower piano row	  Z S X D C V G B H N J M      下排琴键
+msg.phrase	  Q 2 W 3 E R 5 T 6 Y 7 U      upper piano row	  Q 2 W 3 E R 5 T 6 Y 7 U      上排琴键
+msg.phrase	  1           Note off	  1           音符关闭
+msg.phrase	  0 / Del     0 clears note/inst/fx; Del clears any	  0 / Del     0 清除音符/乐器/效果；Del 清除该栏
+msg.phrase	  Ctrl-Z      Undo the last pattern/order edit	  Ctrl-Z      撤销上一次样式 / 播放顺序编辑
+msg.phrase	  Axy   Volume slide: up x, down y	  Axy   音量滑动：升 x，降 y
+msg.phrase	  Cxx   Note cut after xx ticks	  Cxx   xx 个 tick 后切断音符
+msg.phrase	  Dxx   Set volume (00..7F)	  Dxx   设置音量（00〜7F）
+msg.phrase	  Fxx   Speed if xx < 20, otherwise BPM	  Fxx   xx < 20 时为速度，否则为 BPM
+msg.phrase	  Hxy   Arpeggio x, y semitones	  Hxy   琶音（x、y 半音）
+msg.phrase	  Pxx   Pitch slide up	  Pxx   音高上滑
+msg.phrase	  Qxx   Pitch slide down	  Qxx   音高下滑
+msg.phrase	  F2 song settings, F3 instrument list	  F2 乐曲设置，F3 乐器列表
+msg.phrase	HELP %d/2	HELP %d/2
+msg.phrase	  Title	  标题
+msg.phrase	  [%s_]	  [%s_]
+msg.phrase	  BPM   : %d     (left/right -1/+1, -/+ -5/+5)	  BPM   : %d     （左右 -1/+1，-/+ -5/+5）
+msg.phrase	  Speed : %d ticks/row	  速度  : 每行 %d tick
+msg.phrase	  Rows  : %d (fixed)	  行数  : %d（固定）
+msg.phrase	  Order : %d entries	  播放顺序 : %d
+msg.phrase	  Patterns in use : %d	  使用中的样式 : %d
+msg.phrase	 #  NAME       WAVE       A   D   S   R  VOL	 #  NAME       WAVE       A   D   S   R  VOL
+msg.phrase	 %c %d  %-9s %-9s %3d %3d %3d %3d %4d	 %c %d  %-9s %-9s %3d %3d %3d %3d %4d
+msg.phrase	Current instrument: %s %s	当前乐器：%s %s
+msg.phrase	  %s	  %s
+msg.phrase	DIR  %s	DIR  %s
+msg.phrase	 %c %s%s	 %c %s%s
 msg.phrase	Files: %d	文件：%d
 msg.phrase	%02d	%02d
 msg.phrase	%03d	%03d
 msg.phrase	%02X	%02X
-msg.phrase	SGNO TRACKER: incompatible SGX ABI\n	SGNO TRACKER：不兼容的 SGX ABI
+msg.phrase	SGNO TRACKER: incompatible SGX ABI\n	SGNO TRACKER：SGX ABI 版本不兼容\n
 msg.phrase	5 Macro	5 宏
 msg.phrase	6 Help	6 帮助
-msg.phrase	Run current	运行当前
+msg.phrase	Run current	运行当前宏
 msg.phrase	Run the macro at the cursor (#! header cell and the cells below it)	运行光标处的宏（#! 标题单元格及其下方的单元格）
-msg.phrase	Run selection	运行选区
-msg.phrase	Run the selected cells as one macro (top-left cell is the #! header)	将选中的单元格作为一个宏运行（左上单元格为 #! 标题）
+msg.phrase	Run selection	运行所选范围
+msg.phrase	Run the selected cells as one macro (top-left cell is the #! header)	把所选单元格作为一个宏运行（左上角为 #! 标题）
 msg.phrase	Run all	全部运行
 msg.phrase	Run every macro in the sheet, top-left to bottom-right	从左上到右下运行工作表中的所有宏
-msg.phrase	Last error	最后的错误
-msg.phrase	Show the last macro error	显示最后的宏错误
+msg.phrase	Last error	上次错误
+msg.phrase	Show the last macro error	显示最后一次宏错误
 msg.phrase	Macro	宏
 msg.phrase	Macro: run #!ruby / #!python / #!basic cells	宏：运行 #!ruby / #!python / #!basic 单元格
 msg.phrase	Edit the cell (F2)	编辑单元格（F2）
-msg.phrase	Fit widths/heights to the contents	按内容调整宽度/高度
-msg.phrase	Last macro error	最后的宏错误
-msg.phrase	No macro error.	没有宏错误。
-msg.phrase	IME on	IME 开
-msg.phrase	IME off	IME 关
+msg.phrase	Fit widths/heights to the contents	按内容调整列宽和行高
+msg.phrase	Last macro error	最后一次宏错误
+msg.phrase	No macro error.	没有宏错误
+msg.phrase	IME on	输入法 开
+msg.phrase	IME off	输入法 关
 msg.phrase	Macro: %s %s ...	宏：%s %s ...
-msg.phrase	%s: this firmware cannot run macros (SGX ABI 5.10 or later)	%s：此固件无法运行宏（需要 SGX ABI 5.10 或更高）
+msg.phrase	%s: this firmware cannot run macros (SGX ABI 5.10 or later)	%s：此固件不能运行宏（需要 SGX ABI 5.10 或更高版本）
 msg.phrase	Macro error: %s	宏错误：%s
 msg.phrase	Macro: %s done	宏：%s 完成
-msg.phrase	a macro is already running	宏已在运行
+msg.phrase	a macro is already running	已有宏在运行
 msg.phrase	this language is not available	此语言不可用
 msg.phrase	not enough memory	内存不足
 msg.phrase	the macro stopped with an error	宏因错误而停止
@@ -1130,12 +1126,12 @@ msg.phrase	Macro: not enough memory	宏：内存不足
 msg.phrase	Macro: the cursor is not on a macro (a #!ruby / #!python / #!basic cell or the cells below it)	宏：光标不在宏上（#!ruby / #!python / #!basic 单元格或其下方的单元格）
 msg.phrase	Macro: no macro in the sheet	宏：工作表中没有宏
 msg.phrase	Run all macros	运行所有宏
-msg.phrase	Macros: %d. Run them all, top-left to bottom-right? Changes cannot be undone.	宏 %d 个。从左上到右下全部运行吗？更改无法撤销。
+msg.phrase	Macros: %d. Run them all, top-left to bottom-right? Changes cannot be undone.	宏：%d 个。从左上到右下全部运行吗？更改无法撤销。
 msg.phrase	Macro: %d of %d done	宏：已完成 %d 个（共 %d 个）
 msg.phrase	Cleared the cell	已清除单元格
-msg.phrase	Cleared the selection	已清除选区
+msg.phrase	Cleared the selection	已清除所选范围
 msg.phrase	Background colour = %d	背景色 = %d
-msg.phrase	Text colour = %d	文字色 = %d
+msg.phrase	Text colour = %d	文字颜色 = %d
 msg.phrase	Graph: line	图表：折线
 msg.phrase	Graph: bar	图表：柱形
 msg.phrase	Graph: mixed	图表：组合
@@ -1159,3 +1155,32 @@ msg.phrase	32 items at most (mark fewer, or put them in a folder)	最多 32 个�
 msg.prefix	archive	压缩包
 msg.prefix	compress	压缩
 msg.prefix	render	WAV 导出
+ui	USB・時計・設定	USB, clock, settings
+ui	0.001 秒未満	不到 0.001 秒
+ui	%s 秒	%s 秒
+ui	コンパイル %s  実行 %s	编译 %s  运行 %s
+ui	コンパイル %s	编译 %s
+ui	実行 %s	运行 %s
+msg.phrase	Version %s	版本 %s
+msg.phrase	1 Help	1 帮助
+msg.phrase	3 Copy	3 复制
+msg.phrase	4 Paste	4 粘贴
+msg.phrase	5 Goto	5 跳转
+msg.phrase	6 Colour	6 文字色
+msg.phrase	7 Fit	7 自动
+msg.phrase	8 Backgr	8 背景色
+msg.phrase	9 Recalc	9 重算
+msg.phrase	10 Graph	10 图表
+msg.phrase	11 Save	11 保存
+msg.phrase	12 Menu	12 菜单
+msg.phrase	1 About	1 关于
+msg.phrase	2 Height	2 行高
+msg.phrase	3 Width	3 列宽
+msg.phrase	4 SelAll	4 全选
+msg.phrase	10 Range	10 范围
+msg.phrase	11 Name	11 另存
+msg.phrase	1 New	1 新建
+msg.phrase	2 Open	2 打开
+msg.phrase	4 SaveAs	4 另存
+msg.phrase	12 Quit	12 退出
+msg.phrase	3 Save	3 保存

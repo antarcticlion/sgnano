@@ -1,5 +1,6 @@
 # Pad helpers on the device (2026-10-18): press the buttons, move the sticks. q ends it (ESC also stops).
-# The screen shows what is held now; the log (and the bottom rows) get a line on every press and release.
+# The screen shows what is held now; the bottom rows get a line on every press and release.
+# Nothing is printed inside the loop: puts writes at the terminal's cursor and broke the rows (2026-11-20).
 M = Machine
 NAMES = { M::PAD_X => "X", M::PAD_A => "A", M::PAD_B => "B", M::PAD_Y => "Y", M::PAD_LB => "LB", M::PAD_RB => "RB",
           M::PAD_LT => "LT", M::PAD_RT => "RT", M::PAD_BACK => "BACK", M::PAD_START => "START", M::PAD_LS => "LS", M::PAD_RS => "RS",
@@ -24,7 +25,6 @@ loop do
       e = M.pad_pressed?(i, n) ? "pressed" : M.pad_released?(i, n) ? "released" : nil
       next unless e
       s = "pad #{i} #{name} #{e}"
-      puts "PAD #{s}"
       log << s; log.shift while log.size > 8
     end
   end

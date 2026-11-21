@@ -272,6 +272,10 @@ def put_files(ser, files, remote_dir):
             if not got.isdigit() or int(got) != n:          # つないだ数が送った数と違う: 部品を消さずに止める（2026-11-16）
                 print("remote: JOIN %s joined %s parts, but %d were sent; the parts are kept" % (name, got, n)); return 1
             print("joined %s on the device (%d parts) in %.1f s" % (name, n, time.time() - t0))
+            # 【2026-11-20】FAT のドライブでは、実機が部品のクラスタの鎖をつないで結合する（写さない）。そのときは部品はもう無い
+            if remote_stat_size(ser, "%s/%s.001" % (d, name)) is None:
+                print("the parts were linked into %s on the device (nothing to delete)" % name)
+                return 0
             for k in range(1, n + 1):
                 l = remote_cmd(ser, "DEL %s/%s.%03d" % (d, name, k))
                 if not l or not l.startswith("@SG\tOK"): print("remote: could not delete %s.%03d: %s" % (name, k, l))

@@ -152,7 +152,7 @@ Ruby の Hash を返すもの（`video_info` など）は dict（鍵は文字列
 **ビットマップ**（`bm = M.bitmap`、モード 7）: `bm.clear` `bm.pset` `bm.pget` `bm.line` `bm.rect` `bm.fill_rect` `bm.palette(i[, r, g, b])` `bm.write(off, data)` `bm.read(off, n)`、`bm.width` `bm.height` `bm.ready`。
 
 **パッド**: `M.vsync()` のたびに写す（使わないなら `M.pad_update()`）。`M.pad_button(i, n)` `M.pad_pressed(i, n)` `M.pad_released(i, n)`、`M.pad_dir(i)` -> `(dx, dy)`、
-`M.pad_stick(i, "left"/"right", dead=0.15)` -> `(x, y)`（-1.0〜1.0）、`M.pad_axis(i, a, dead=0.15)`、定数 `M.PAD_A` など（F310 の D モードの並び）。
+`M.pad_stick(i, "left"/"right", dead=0.15)` -> `(x, y)`（-1.0〜1.0）、`M.pad_axis(i, a, dead=0.15)`、定数 `M.PAD_A` など（F310 の D モードの並びに正規化）。
 
 ### GPIO / PIO2 / MIDI / 音楽（2026-11-11）
 

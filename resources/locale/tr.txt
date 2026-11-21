@@ -20,14 +20,14 @@ ui	属性を変える	Öznitelikleri değiştir
 ui	エディタで開く	editörde aç
 ui	テキスト表示（Shift+V / Ctrl+Alt+F7 は 16 進）	Metin olarak göster (Shift+V / Ctrl+Alt+F7 hex)
 ui	ドライブの情報	Sürücü bilgisi
-ui	フォルダを作る / 新しいファイル	Yeni klasör / yeni dosya
+ui	フォルダを作る（Shift+F5） / 新しいファイル（Ctrl+F1）	Yeni klasör (Shift+F5) / yeni dosya (Ctrl+F1)
 ui	シェル sgsh / 媒体を取り出す	Shell sgsh / ortamı çıkar
 ui	読み直す	Yeniden yükle
-ui	見えている画面を PNG で保存	Ekranı PNG olarak kaydet
+ui	見えている画面を PNG で保存（Alt+F5 も同じ）	Ekranı PNG olarak kaydet (= Alt+F5)
 ui	窓を閉じる・選択を解く（サブフォルダでは上位へ）	Pencereyi kapat / seçimi kaldır (alt klasörde: yukarı çık)
-ui	ファイルの操作（FD と同じ。印・範囲・カーソルの順に選ぶ）	Dosya işlemleri (FD gibi: işaretler, sonra aralık, sonra imleç)
-ui	コピー: 行き先はドライブとフォルダの木から。ESC で止める	Kopyala: hedefi sürücü ve klasör ağacından seç. ESC durdurur
-ui	削除: y で確かめる。印・範囲をまとめて。フォルダは中身ごと	Sil: y ile onayla. İşaretler ve aralıklar birlikte. Klasörler içerikleriyle
+ui	ファイルの操作（FD と同じ。印・範囲・カーソルの順）	Dosya işlemleri (FD gibi: işaretler, sonra aralık, sonra imleç)
+ui	コピー: 行き先は木から選ぶ。ESC で止める	Kopyala: hedefi sürücü ve klasör ağacından seç. ESC durdurur
+ui	削除: y で確かめる。印・範囲をまとめて	Sil: y ile onayla. İşaretler ve aralıklar birlikte. Klasörler içerikleriyle
 ui	フォルダを削除（中身ごと）	Klasörü sil (içeriğiyle)
 ui	名前を変える（今の名前を直して Enter）	Adı değiştirin (geçerli adı düzeltin ve Enter'a basın)
 ui	属性: R 読み出し専用・H 隠し・S システム・A アーカイブ	Öznitelikler: R salt okunur, H gizli, S sistem, A arşiv
@@ -49,22 +49,19 @@ ui	画面（Alt+F。FD の F キーとぶつからない）	Ekran (Alt+F, FD'nin
 ui	FB（絵）/ テキスト面を出す・隠す	FB (resim)/Metin tarafını göster/gizle
 ui	FB の表示ページ（0〜3）	FB görüntü sayfası (0-3)
 ui	FB を 0 で消す / 明るさを 1/2 に（RGB555）	FB'yi 0'a temizle / parlaklığı yarıya indir (RGB555)
-ui	USB のエンドポイントと LAN の状態	USB uç noktası ve LAN durumu
+ui	USB のエンドポイントと LAN（U: 10 秒に 1 度）	USB uç noktası ve LAN durumu
 ui	FB の表示ページを消す / 明るさを 1/2 に	FB görüntü sayfasını temizle / parlaklığı yarıya indir
 ui	テキストの属性の見本	Örnek metin nitelikleri
 ui	モニタの EDID（起動時に読んだもの）	EDID'yi izleyin (başlangıçta okuyun)
 ui	フォント ROM のライセンスとクレジット	Font ROM lisansları ve kredileri
 ui	設定（表示の言語・IME・キーボードロケール）	Ayarlar (görüntüleme dili, IME, klavye yerel ayarı)
-ui	時計（NTP で合わせた日本時間。s ですぐ合わせる）	Saat (Japonya saati NTP ile ayarlanır. s ile hemen ayarlanır)
+ui	時計（NTP で合わせた日本時間。s は 3 分に 1 度）	Saat (Japonya saati NTP ile ayarlanır. s ile hemen ayarlanır)
 ui	表計算（SGCALC）を開く	Elektronik tabloyu aç (SGCALC)
 ui	S: ドライブのエラー検査（誤りがあれば直すか聞く）	S:'yi hatalar için denetle (onarmadan önce sorar)
 ui	トラッカー（TRACKER）を開く	TRACKER'ı aç
-ui	再起動（確かめの窓が出る）	Yeniden başlat (bir onay penceresi görünecektir)
+ui	再起動（確かめの窓）。Ctrl+Alt+Del も同じ	Yeniden başlat (önce sorar) = Ctrl+Alt+Del
 ui	ADC のステレオ入力（GP40 / 41）を鳴らす	ADC stereo girişinin çalınması (GP40/41)
 ui	VGM/VGZ を 96kHz/24bit WAV に書き出す	VGM/VGZ'yi 96 kHz / 24 bit WAV olarak dışa aktar
-ui	このヘルプ	Bu yardım
-ui	ページを替える	sayfayı değiştir
-ui	閉じる	Kapat
 ui	テキスト・16 進のビュアー（less 風）	Metin/Hex görüntüleyici (daha az stil)
 ui	1 行	One line
 ui	1 ページ	One page
@@ -82,10 +79,9 @@ ui	IME の言語（日本語 / English / 한국어）	IME dili (Japonca / İngil
 ui	ひらがな / カタカナで確定	Hiragana/Katakana'da onaylandı
 ui	エディタのヘルプ	Editör yardımı
 ui	シェル	kabuk
-ui	シェル（csh のサブセット。exit / Ctrl-D で戻る、help で一覧）	Shell (csh alt kümesi. exit / Ctrl-D döner, help komutları listeler)
+ui	シェル（csh の一部。exit / Ctrl-D で戻る、help で一覧）	Shell (csh alt kümesi. exit / Ctrl-D döner, help komutları listeler)
 ui	一覧と移動	Listele ve taşı
 ui	ファイルの操作	Dosya işlemleri
-ui	画面と機器	ekran ve ekipman
 ui	ビュアーとエディタ	izleyici ve editör
 ui	ヘルプ  %u / %u  %s	Yardım %u / %u %s
 ui	Left Right: ページを替える    F1 / ESC: 閉じる	Sol Sağ: Sayfayı değiştir F1 / ESC: Kapat
@@ -146,9 +142,9 @@ ui	10 EP表	10 EP
 ui	11 時計	11 Clock
 ui	12 表計	12 CALC
 ui	1 属性	1 Özn
-ui	2 情報	2 Bilgi
+ui	2Drv情報	2 Bilgi
 ui	3 移動	3 Taşı
-ui	5 作成	5 Klasör
+ui	5 ﾌｫﾙﾀﾞ	5 Klasör
 ui	6 シェル	6 Shell
 ui	8 編集	8 Düzen
 ui	9 表示	9 Göster
@@ -486,11 +482,11 @@ msg.phrase	the sound is not open	ses açık değil
 msg.phrase	no such channel	öyle bir kanal yok
 msg.phrase	the sequencer is busy	sıralayıcı meşgul
 msg.phrase	not enough PSRAM for the song	şarkı için yeterli PSRAM yok
-msg.phrase	not a standard MIDI file (no MThd)	standart bir MIDI dosyası değil (MThd yok)
+msg.phrase	not a standard MIDI file (no MThd)	standart MIDI dosyası değil (MThd yok)
 msg.phrase	no tracks	iz yok
-msg.phrase	a track is broken (MTrk)	bir parça bozuk (MTrk)
+msg.phrase	a track is broken (MTrk)	bir iz bozuk (MTrk)
 msg.phrase	SMPTE time division is not supported	SMPTE zaman bölümü desteklenmiyor
-msg.phrase	SMF format 2 is not supported (0 and 1 only)	SMF formatı 2 desteklenmiyor (yalnızca 0 ve 1)
+msg.phrase	SMF format 2 is not supported (0 and 1 only)	SMF biçim 2 desteklenmiyor (yalnız 0 ve 1)
 msg.phrase	not a Bulk-Only drive	Yalnızca Toplu sürücü değil
 msg.phrase	not an optical drive	optik sürücü değil
 msg.phrase	a system folder cannot be deleted or renamed	bir sistem klasörü silinemez veya yeniden adlandırılamaz
@@ -509,7 +505,7 @@ msg.phrase	cancelled	iptal edildi
 msg.phrase	could not mount	monte edilemedi
 msg.phrase	could not start a read	okumaya başlayamadım
 msg.phrase	could not start a write	yazmaya başlayamadım
-msg.phrase	is a directory	bir dizindir
+msg.phrase	is a directory	bir klasör
 msg.phrase	that is a directory	bu bir dizin
 msg.phrase	no clusters	küme yok
 msg.phrase	no room for the cluster list	küme listesine yer yok
@@ -546,7 +542,7 @@ msg.phrase	Not supported on this drive	Bu sürücüde desteklenmiyor
 msg.phrase	Invalid path	Geçersiz yol
 msg.phrase	Out of memory	Bellek yetersiz
 msg.phrase	No such drive	Böyle bir sürüş yok
-msg.phrase	stopped	durduruldu
+msg.phrase	stopped	durdu
 msg.phrase	cancelled (not enough free space)	iptal edildi (yeterli boş alan yok)
 msg.phrase	could not count the free space	boş alanı sayamadım
 msg.phrase	the receiver cancelled	alıcı iptal edildi
@@ -621,11 +617,11 @@ msg.word	 rows	 satırlar
 msg.word	 -- not supported yet (FAT / exFAT / NTFS only)	 -- henüz desteklenmiyor (yalnızca FAT / exFAT / NTFS)
 msg.word	 files	 dosyalar
 msg.word	 (	 (
-msg.phrase	Untitled	İsimsiz
+msg.phrase	Untitled	Adsız
 msg.phrase	%s%d	%s%d
 msg.phrase	%s%d:%s%d	%s%d:%s%d
 msg.phrase	1 File	1 Dosya
-msg.phrase	2 Edit	2 Düzenle
+msg.phrase	2 Edit	2 Düzen
 msg.phrase	3 Graph	3 Grafik
 msg.phrase	4 Sheet	4 sayfa
 msg.phrase	5 Help	5 Yardım
@@ -635,11 +631,11 @@ msg.phrase	EMPTY	BOŞ
 msg.phrase	NUMBER	SAYI
 msg.phrase	TEXT	METİN
 msg.phrase	FORMULA	FORMÜL
-msg.phrase	  [%s]   %s	  [%s] %s
-msg.phrase	EDIT  	DÜZENLE
+msg.phrase	  [%s]   %s	  [%s]   %s
+msg.phrase	EDIT  	DÜZEN
 msg.phrase	READY 	HAZIR
 msg.phrase	Type to enter, F2 to edit, F1 for help	Girmek için yazın, düzenlemek için F2, yardım için F1
-msg.phrase	%4d 	%4d
+msg.phrase	%4d 	%4d 
 msg.phrase	5 CSV	5 CSV
 msg.phrase	6 ODS	6 ODS
 msg.phrase	[SHIFT]	[SHIFT]
@@ -648,154 +644,154 @@ msg.phrase	[ALT]	[ALT]
 msg.phrase	Ready	Hazır
 msg.phrase	%s Sum %.7g N %ld%s	%s Toplam %.7g N %ld%s
 msg.phrase	SGCALC	SGCALC
-msg.phrase	Press any key	Herhangi bir tuşa basın
-msg.phrase	Y = yes    N = no    Esc = cancel	Y = evet N = hayır Esc = iptal
-msg.phrase	Enter = OK    Esc = cancel    Ctrl-U = clear	Enter = Tamam Esc = iptal Ctrl-U = temizle
-msg.phrase	ARROWS      move the cell cursor\n	OKLAR hücre imlecini hareket ettirir
-msg.phrase	SHIFT+ARR   extend the selection (for graphs/copy)\n	SHIFT+ARR seçimi genişletir (grafikler/kopyalama için)
-msg.phrase	ENTER       edit the cell; in edit, commit and move down\n	ENTER hücreyi düzenleyin; düzenlemede, taahhüt etme ve aşağı kaydırma
-msg.phrase	TAB         next cell    SHIFT+TAB  previous cell\n	TAB sonraki hücre SHIFT+TAB önceki hücre
-msg.phrase	DELETE      clear the selected cell(s)    ESC  cancel\n	DELETE seçilen hücreyi/hücreleri temizle ESC iptal
-msg.phrase	PGUP/PGDN   move one screen    HOME/END  first/last column\n	PGUP/PGDN bir ekrana git HOME/END ilk/son sütun
-msg.phrase	CTRL+HOME   A1    CTRL+END  last used cell\n	CTRL+HOME A1 CTRL+END son kullanılan hücre
-msg.phrase	F1 help  F2 edit  F3 copy  F4 paste  F5 goto  F6 colour\n	F1 yardım F2 düzenle F3 kopyala F4 yapıştır F5 F6 rengine git
-msg.phrase	F7 auto-fit  F8 background  F9 recalc  F10 graph  F11 save  F12 menu\n	F7 otomatik sığdır F8 arka plan F9 yeniden hesaplama F10 grafiği F11 kaydetme F12 menüsü
-msg.phrase	SHIFT+F1 about  SHIFT+F2 row height  SHIFT+F3 column width\n	SHIFT+F1 yaklaşık olarak SHIFT+F2 satır yüksekliği SHIFT+F3 sütun genişliği
-msg.phrase	SHIFT+F4 select all  SHIFT+F10 graph range  SHIFT+F11 save as\n	SHIFT+F4 tümünü seç SHIFT+F10 grafik aralığı SHIFT+F11 farklı kaydet
-msg.phrase	CTRL+F1 new  CTRL+F2 open  CTRL+F3 save  CTRL+F4 save as\n	CTRL+F1 yeni CTRL+F2 aç CTRL+F3 kaydet CTRL+F4 farklı kaydet
-msg.phrase	CTRL+F5 export CSV  CTRL+F6 export ODS  ALT+F12 quit\n	CTRL+F5 CSV'yi dışa aktar CTRL+F6 ODS'yi dışa aktar ALT+F12 çık
-msg.phrase	Bottom 2 lines: function keys; [SHIFT]/[CTRL]/[ALT] like the filer\n	Alttaki 2 satır: işlev tuşları; [SHIFT]/[CTRL]/[ALT] dosyalayıcıyı beğendi
-msg.phrase	CTRL+S save  CTRL+O open  CTRL+N new  CTRL+C/V/X copy/paste/cut\n	CTRL+S kaydet CTRL+O aç CTRL+N yeni CTRL+C/V/X kopyala/yapıştır/kes
-msg.phrase	CTRL+G goto    /  open the menu (1 File, 2 Edit, ...)\n	CTRL+G git / menüyü aç (1 Dosya, 2 Düzenleme, ...)
-msg.phrase	Built-in functions: SUM AVERAGE MIN MAX COUNT COUNTA\n	Yerleşik işlevler: TOPLAM ORTALAMA MIN MAX COUNT COUNTA
-msg.phrase	PRODUCT ABS SQRT INT ROUND MOD POWER IF AND OR NOT\n	ÜRÜN ABS SQRT INT YUVARLAK MOD GÜCÜ İSE VEYA DEĞİLSE
-msg.phrase	IFERROR LEN LEFT RIGHT MID UPPER LOWER TRIM CONCATENATE PI\n	EĞER HATA UZUNLUK SOL SAĞ ORTA ÜST ALT TRIM BİRLEŞTİR PI
-msg.phrase	Cell refs: A1, $A$1, A1:B10.  Formulas begin with '='.\n	Hücre referansları: A1, $A$1, A1:B10.  Formüller '=' ile başlar.
-msg.phrase	Files: .ods (LibreOffice), .fods (flat XML), .csv\n	Dosyalar: .ods (LibreOffice), .fods (düz XML), .csv
-msg.phrase	ODS/FODS keeps formulas, widths, heights and colours.\n	ODS/FODS formülleri, genişlikleri, yükseklikleri ve renkleri korur.
-msg.phrase	CSV keeps values and formulas (no colours/heights).\n	CSV, değerleri ve formülleri korur (renk/yükseklik yoktur).
-msg.phrase	Graph: select a range, press F10, and choose Line/Bar/Mixed/Pie.\n	Grafik: bir aralık seçin, F10 tuşuna basın ve Çizgi/Çubuk/Karışık/Pasta'yı seçin.
-msg.phrase	First row/column = labels; charts use the 640x480 CLUT8 FB.	İlk satır/sütun = etiketler; grafikler 640x480 CLUT8 FB'yi kullanır.
+msg.phrase	Press any key	Bir tuşa basın
+msg.phrase	Y = yes    N = no    Esc = cancel	Y = evet    N = hayır    Esc = iptal
+msg.phrase	Enter = OK    Esc = cancel    Ctrl-U = clear	Enter = tamam    Esc = iptal    Ctrl-U = temizle
+msg.phrase	ARROWS      move the cell cursor\n	OKLAR       hücre imlecini taşı\n
+msg.phrase	SHIFT+ARR   extend the selection (for graphs/copy)\n	SHIFT+OK    seçimi genişlet (grafik/kopyalama için)\n
+msg.phrase	ENTER       edit the cell; in edit, commit and move down\n	ENTER       hücreyi düzenle; düzenlerken onayla ve aşağı in\n
+msg.phrase	TAB         next cell    SHIFT+TAB  previous cell\n	TAB         sonraki hücre    SHIFT+TAB  önceki hücre\n
+msg.phrase	DELETE      clear the selected cell(s)    ESC  cancel\n	DELETE      seçili hücreleri temizle    ESC  iptal\n
+msg.phrase	PGUP/PGDN   move one screen    HOME/END  first/last column\n	PGUP/PGDN   bir ekran    HOME/END  ilk/son sütun\n
+msg.phrase	CTRL+HOME   A1    CTRL+END  last used cell\n	CTRL+HOME   A1    CTRL+END  kullanılan son hücre\n
+msg.phrase	F1 help  F2 edit  F3 copy  F4 paste  F5 goto  F6 colour\n	F1 yardım  F2 düzenle  F3 kopyala  F4 yapıştır  F5 git  F6 renk\n
+msg.phrase	F7 auto-fit  F8 background  F9 recalc  F10 graph  F11 save  F12 menu\n	F7 sığdır  F8 arka plan  F9 hesapla  F10 grafik  F11 kaydet  F12 menü\n
+msg.phrase	SHIFT+F1 about  SHIFT+F2 row height  SHIFT+F3 column width\n	SHIFT+F1 hakkında  SHIFT+F2 satır yüksekliği  SHIFT+F3 sütun genişliği\n
+msg.phrase	SHIFT+F4 select all  SHIFT+F10 graph range  SHIFT+F11 save as\n	SHIFT+F4 tümünü seç  SHIFT+F10 grafik aralığı  SHIFT+F11 farklı kaydet\n
+msg.phrase	CTRL+F1 new  CTRL+F2 open  CTRL+F3 save  CTRL+F4 save as\n	CTRL+F1 yeni  CTRL+F2 aç  CTRL+F3 kaydet  CTRL+F4 farklı kaydet\n
+msg.phrase	CTRL+F5 export CSV  CTRL+F6 export ODS  ALT+F12 quit\n	CTRL+F5 CSV dışa aktar  CTRL+F6 ODS dışa aktar  ALT+F12 çık\n
+msg.phrase	Bottom 2 lines: function keys; [SHIFT]/[CTRL]/[ALT] like the filer\n	Alttaki 2 satır işlev tuşları; [SHIFT]/[CTRL]/[ALT] filer ile aynı\n
+msg.phrase	CTRL+S save  CTRL+O open  CTRL+N new  CTRL+C/V/X copy/paste/cut\n	CTRL+S kaydet  CTRL+O aç  CTRL+N yeni  CTRL+C/V/X kopyala/yapıştır/kes\n
+msg.phrase	CTRL+G goto    /  open the menu (1 File, 2 Edit, ...)\n	CTRL+G git    /  menüyü aç (1 Dosya, 2 Düzen, ...)\n
+msg.phrase	Built-in functions: SUM AVERAGE MIN MAX COUNT COUNTA\n	Yerleşik işlevler: SUM AVERAGE MIN MAX COUNT COUNTA\n
+msg.phrase	PRODUCT ABS SQRT INT ROUND MOD POWER IF AND OR NOT\n	PRODUCT ABS SQRT INT ROUND MOD POWER IF AND OR NOT\n
+msg.phrase	IFERROR LEN LEFT RIGHT MID UPPER LOWER TRIM CONCATENATE PI\n	IFERROR LEN LEFT RIGHT MID UPPER LOWER TRIM CONCATENATE PI\n
+msg.phrase	Cell refs: A1, $A$1, A1:B10.  Formulas begin with '='.\n	Hücre başvuruları: A1, $A$1, A1:B10.  Formüller '=' ile başlar.\n
+msg.phrase	Files: .ods (LibreOffice), .fods (flat XML), .csv\n	Dosyalar: .ods (LibreOffice), .fods (düz XML), .csv\n
+msg.phrase	ODS/FODS keeps formulas, widths, heights and colours.\n	ODS/FODS formülleri, genişlikleri, yükseklikleri ve renkleri saklar.\n
+msg.phrase	CSV keeps values and formulas (no colours/heights).\n	CSV yalnızca değerleri ve formülleri saklar (renk/yükseklik yok).\n
+msg.phrase	Graph: select a range, press F10, and choose Line/Bar/Mixed/Pie.\n	Grafik: aralık seçin, F10, sonra Çizgi/Sütun/Karma/Pasta seçin.\n
+msg.phrase	First row/column = labels; charts use the 640x480 CLUT8 FB.	İlk satır/sütun = etiketler; grafikler 640x480 CLUT8 FB kullanır.
 msg.phrase	SGCALC - HELP	SGCALC - YARDIM
-msg.phrase	Press any key to return	Geri dönmek için herhangi bir tuşa basın
-msg.phrase	SGCALC for sgnano\n	Sgnano için SGCALC
+msg.phrase	Press any key to return	Dönmek için bir tuşa basın
+msg.phrase	SGCALC for sgnano\n	SGCALC for sgnano\n
 msg.phrase	Version 	Sürüm
-msg.phrase	A Lotus 1-2-3 style spreadsheet as an SGX program.\n\n	SGX programı olarak Lotus 1-2-3 tarzı bir elektronik tablo.
+msg.phrase	A Lotus 1-2-3 style spreadsheet as an SGX program.\n\n	SGX programı olarak Lotus 1-2-3 tarzı bir hesap tablosu.\n\n
 msg.phrase	SGX ABI %u.%u\n	SGX ABI %u.%u
-msg.phrase	Screen mode 3: text + CLUT8 FB (lowres disabled)\n	Ekran modu 3: metin + CLUT8 FB (düşükler devre dışı)
+msg.phrase	Screen mode 3: text + CLUT8 FB (lowres disabled)\n	Ekran modu 3: metin + CLUT8 FB (düşük çözünürlük katmanı yok)\n
 msg.phrase	Sheet: %d rows x %d columns\n	Sayfa: %d satır x %d sütun
-msg.phrase	Formats: .ods / .fods (LibreOffice), .csv\n\n	Formatlar: .ods / .fods (LibreOffice), .csv
-msg.phrase	The grid is drawn on the text plane.\n	Izgara metin düzleminde çizilir.
-msg.phrase	Charts and the 640x480 background use the FB.\n\n	Grafikler ve 640x480 arka plan FB'yi kullanır.
-msg.phrase	Press any key to return.	Geri dönmek için herhangi bir tuşa basın.
+msg.phrase	Formats: .ods / .fods (LibreOffice), .csv\n\n	Biçimler: .ods / .fods (LibreOffice), .csv\n\n
+msg.phrase	The grid is drawn on the text plane.\n	Izgara metin katmanına çizilir.\n
+msg.phrase	Charts and the 640x480 background use the FB.\n\n	Grafikler ve 640x480 arka plan FB kullanır.\n\n
+msg.phrase	Press any key to return.	Dönmek için bir tuşa basın.
 msg.phrase	ABOUT SGCALC	SGCALC HAKKINDA
 msg.phrase	New	Yeni
 msg.phrase	Start a new sheet	Yeni bir sayfa başlat
-msg.phrase	Open...	Açık...
-msg.phrase	Open an ODS, FODS or CSV file	Bir ODS, FODS veya CSV dosyası açın
+msg.phrase	Open...	Aç...
+msg.phrase	Open an ODS, FODS or CSV file	Bir ODS, FODS veya CSV dosyası aç
 msg.phrase	Save	Kaydet
 msg.phrase	Save the current file	Geçerli dosyayı kaydet
-msg.phrase	Save As...	Farklı Kaydet...
-msg.phrase	Save with a new name or format	Yeni bir ad veya formatla kaydet
-msg.phrase	Export CSV...	CSV'yi dışa aktar...
-msg.phrase	Write a CSV copy	CSV kopyası yazın
-msg.phrase	Export ODS...	ODS'yi dışa aktar...
-msg.phrase	Write a LibreOffice copy	LibreOffice kopyası yazın
+msg.phrase	Save As...	Farklı kaydet...
+msg.phrase	Save with a new name or format	Yeni bir ad veya biçimle kaydet
+msg.phrase	Export CSV...	CSV dışa aktar...
+msg.phrase	Write a CSV copy	Bir CSV kopyası yaz
+msg.phrase	Export ODS...	ODS dışa aktar...
+msg.phrase	Write a LibreOffice copy	Bir LibreOffice kopyası yaz
 msg.phrase	Quit	Çık
-msg.phrase	Leave SGCALC	SGCALC'den ayrıl
+msg.phrase	Leave SGCALC	SGCALC'tan çık
 msg.phrase	Clear	Temizle
-msg.phrase	Clear the selected cells	Seçilen hücreleri temizle
+msg.phrase	Clear the selected cells	Seçili hücreleri temizle
 msg.phrase	Copy	Kopyala
 msg.phrase	Copy the selection	Seçimi kopyala
 msg.phrase	Paste	Yapıştır
-msg.phrase	Paste at the cursor	İmlecin üzerine yapıştır
+msg.phrase	Paste at the cursor	İmlecin olduğu yere yapıştır
 msg.phrase	Cut	Kes
-msg.phrase	Copy and clear the selection	Seçimi kopyalayıp temizleyin
+msg.phrase	Copy and clear the selection	Seçimi kopyala ve temizle
 msg.phrase	Select all	Tümünü seç
 msg.phrase	Select all used cells	Kullanılan tüm hücreleri seç
 msg.phrase	Text color...	Metin rengi...
-msg.phrase	Choose the text colour	Metin rengini seçin
+msg.phrase	Choose the text colour	Metin rengini seç
 msg.phrase	Background...	Arka plan...
-msg.phrase	Choose the cell background	Hücre arka planını seçin
-msg.phrase	Line	Hat
-msg.phrase	Draw a line graph from the selection	Seçimden çizgi grafiği çizin
-msg.phrase	Bar	Bar
-msg.phrase	Draw a bar graph from the selection	Seçimden bir çubuk grafik çizin
-msg.phrase	Mixed	Karışık
-msg.phrase	Bars for the first series, lines for the rest	İlk seri için çubuklar, geri kalanı için çizgiler
+msg.phrase	Choose the cell background	Hücre arka planını seç
+msg.phrase	Line	Çizgi
+msg.phrase	Draw a line graph from the selection	Seçimden çizgi grafiği çiz
+msg.phrase	Bar	Sütun
+msg.phrase	Draw a bar graph from the selection	Seçimden sütun grafiği çiz
+msg.phrase	Mixed	Karma
+msg.phrase	Bars for the first series, lines for the rest	İlk seri sütun, diğerleri çizgi
 msg.phrase	Pie	Pasta
-msg.phrase	Draw a pie graph from the selection	Seçimden bir pasta grafiği çizin
-msg.phrase	Range...	Menzil...
-msg.phrase	Set the graph range explicitly	Grafik aralığını açıkça ayarlayın
-msg.phrase	Draw again	Tekrar çiz
-msg.phrase	Redraw the last graph	Son grafiği yeniden çizin
+msg.phrase	Draw a pie graph from the selection	Seçimden pasta grafiği çiz
+msg.phrase	Range...	Aralık...
+msg.phrase	Set the graph range explicitly	Grafik aralığını elle gir
+msg.phrase	Draw again	Yeniden çiz
+msg.phrase	Redraw the last graph	Son grafiği yeniden çiz
 msg.phrase	Goto...	Git...
-msg.phrase	Jump to a cell (for example C12)	Bir hücreye atla (örneğin C12)
+msg.phrase	Jump to a cell (for example C12)	Bir hücreye git (örneğin C12)
 msg.phrase	Column width...	Sütun genişliği...
-msg.phrase	Change the selected columns' width	Seçilen sütunların genişliğini değiştir
+msg.phrase	Change the selected columns' width	Seçili sütunların genişliğini değiştir
 msg.phrase	Row height...	Satır yüksekliği...
-msg.phrase	Change the selected rows' height	Seçilen satırların yüksekliğini değiştir
-msg.phrase	Auto fit	Otomatik uyum
-msg.phrase	Fit widths/heights to the contents (F7)	Genişlikleri/yükseklikleri içeriğe sığdır (F7)
+msg.phrase	Change the selected rows' height	Seçili satırların yüksekliğini değiştir
+msg.phrase	Auto fit	Sığdır
+msg.phrase	Fit widths/heights to the contents (F7)	Genişlik ve yüksekliği içeriğe göre ayarla (F7)
 msg.phrase	Recalculate	Yeniden hesapla
-msg.phrase	Re-evaluate all formulas	Tüm formülleri yeniden değerlendirin
+msg.phrase	Re-evaluate all formulas	Tüm formülleri yeniden hesapla
 msg.phrase	Erase all	Tümünü sil
 msg.phrase	Clear the whole sheet	Tüm sayfayı temizle
-msg.phrase	Keys	Anahtarlar
-msg.phrase	Show the key guide	Anahtar kılavuzunu göster
+msg.phrase	Keys	Tuşlar
+msg.phrase	Show the key guide	Tuş kılavuzunu göster
 msg.phrase	About	Hakkında
-msg.phrase	About SGCALC	SGCALC Hakkında
+msg.phrase	About SGCALC	SGCALC hakkında
 msg.phrase	File	Dosya
-msg.phrase	Edit	Düzenle
+msg.phrase	Edit	Düzen
 msg.phrase	Graph	Grafik
 msg.phrase	Sheet	Sayfa
 msg.phrase	Help	Yardım
 msg.phrase	File: new, open, save, export, quit	Dosya: yeni, aç, kaydet, dışa aktar, çık
-msg.phrase	Edit: clear, copy, paste, cut, select all	Düzenleme: temizle, kopyala, yapıştır, kes, tümünü seç
-msg.phrase	Graph: line, bar, mixed, pie (draws in the FB)	Grafik: çizgi, çubuk, karışık, pasta (FB'de çizer)
-msg.phrase	Sheet: goto, column width, recalculate, erase	Sayfa: git, sütun genişliği, yeniden hesaplama, silme
+msg.phrase	Edit: clear, copy, paste, cut, select all	Düzen: temizle, kopyala, yapıştır, kes, tümünü seç
+msg.phrase	Graph: line, bar, mixed, pie (draws in the FB)	Grafik: çizgi, sütun, karma, pasta (FB üzerine)
+msg.phrase	Sheet: goto, column width, recalculate, erase	Sayfa: git, sütun genişliği, yeniden hesapla, sil
 msg.phrase	Help: keys and about	Yardım: tuşlar ve hakkında
 msg.phrase	%d %s	%d %s
 msg.phrase	Left/Right = menu    Up/Down = item    Enter = choose    Esc = cancel	Sol/Sağ = menü Yukarı/Aşağı = öğe Enter = Esc'yi seç = iptal et
-msg.phrase	Cannot store the cell (%d).	Hücre (%d) depolanamıyor.
+msg.phrase	Cannot store the cell (%d).	Hücre kaydedilemiyor (%d).
 msg.phrase	Cancelled	İptal edildi
 msg.phrase	Copied %d x %d cells	%d x %d hücre kopyalandı
-msg.phrase	The selection is too large or memory is low.	Seçim çok büyük veya bellek yetersiz.
+msg.phrase	The selection is too large or memory is low.	Seçim çok büyük ya da bellek yetersiz.
 msg.phrase	Cleared %s	%s temizlendi
 msg.phrase	the cell	hücre
 msg.phrase	the selection	seçim
 msg.phrase	Nothing to paste	Yapıştırılacak bir şey yok
 msg.phrase	Pasted	Yapıştırıldı
 msg.phrase	GO TO CELL	HÜCREYE GİT
-msg.phrase	Cell reference (A1):	Hücre referansı (A1):
+msg.phrase	Cell reference (A1):	Hücre başvurusu (A1):
 msg.phrase	Goto	Git
-msg.phrase	'%s' is not a cell reference.	'%s' bir hücre referansı değil.
+msg.phrase	'%s' is not a cell reference.	'%s' bir hücre başvurusu değil.
 msg.phrase	%d	%d
-msg.phrase	COLUMN WIDTH	KOLON GENİŞLİĞİ
+msg.phrase	COLUMN WIDTH	SÜTUN GENİŞLİĞİ
 msg.phrase	Width in characters (4..30):	Karakter cinsinden genişlik (4..30):
 msg.phrase	Column width = %d	Sütun genişliği = %d
-msg.phrase	ROW HEIGHT	SIRA YÜKSEKLİĞİ
-msg.phrase	Height in text rows (1..8):	Metin satırlarındaki yükseklik (1..8):
+msg.phrase	ROW HEIGHT	SATIR YÜKSEKLİĞİ
+msg.phrase	Height in text rows (1..8):	Metin satırı cinsinden yükseklik (1..8):
 msg.phrase	Row height = %d	Satır yüksekliği = %d
-msg.phrase	Auto fit: the sheet is empty	Otomatik sığdırma: sayfa boş
-msg.phrase	Auto fit: %d column(s), %d row(s)	Otomatik sığdırma: %d sütun/sütun, %d satır/satır
+msg.phrase	Auto fit: the sheet is empty	Sığdır: sayfa boş
+msg.phrase	Auto fit: %d column(s), %d row(s)	Sığdır: %d sütun, %d satır
 msg.phrase	BACKGROUND COLOUR	ARKA PLAN RENGİ
 msg.phrase	TEXT COLOUR	METİN RENGİ
-msg.phrase	Arrows: choose    Enter: apply    Esc: cancel	Oklar: Enter'ı seçin: uygulayın Esc: iptal edin
-msg.phrase	Colour index (PC-98 16-colour palette)	Renk indeksi (PC-98 16 renkli palet)
+msg.phrase	Arrows: choose    Enter: apply    Esc: cancel	Oklar: seç    Enter: uygula    Esc: iptal
+msg.phrase	Colour index (PC-98 16-colour palette)	Renk numarası (PC-98 16 renk paleti)
 msg.phrase	%2d	%2d
 msg.phrase	Aa 123	Aa 123
-msg.phrase	Enter = apply    Esc = cancel	Enter = uygula Esc = iptal et
+msg.phrase	Enter = apply    Esc = cancel	Enter = uygula    Esc = iptal
 msg.phrase	Colour	Renk
-msg.phrase	Cannot apply the colour (%d).	Renk (%d) uygulanamıyor.
+msg.phrase	Cannot apply the colour (%d).	Renk uygulanamıyor (%d).
 msg.phrase	%s colour = %d	%s renk = %d
 msg.phrase	Background	Arka plan
 msg.phrase	Text	Metin
 msg.phrase	GRAPH RANGE	GRAFİK ARALIĞI
 msg.phrase	Range (for example A1:C10):	Aralık (örneğin A1:C10):
 msg.phrase	Graph range	Grafik aralığı
-msg.phrase	Use a range such as A1:C10.	A1:C10 gibi bir aralık kullanın.
-msg.phrase	Not a valid range.\nUse a range such as A1:C10.	Geçerli bir aralık değil.\nA1:C10 gibi bir aralık kullanın.
+msg.phrase	Use a range such as A1:C10.	A1:C10 gibi bir aralık girin.
+msg.phrase	Not a valid range.\nUse a range such as A1:C10.	Geçerli bir aralık değil.\nA1:C10 gibi bir aralık girin.
 msg.phrase	Graph range %s	Grafik aralığı %s
 msg.phrase	Cannot draw the graph.	Grafik çizilemiyor.
 msg.phrase	Graph: %s	Grafik: %s
@@ -803,66 +799,66 @@ msg.phrase	line	astar
 msg.phrase	bar	çubuk
 msg.phrase	mixed	karışık
 msg.phrase	pie	turta
-msg.phrase	Clear every cell in this sheet?	Bu sayfadaki her hücre temizlensin mi?
+msg.phrase	Clear every cell in this sheet?	Bu sayfadaki tüm hücreler temizlensin mi?
 msg.phrase	Sheet erased	Sayfa silindi
-msg.phrase	Selected all used cells	Kullanılan tüm hücreleri seçti
+msg.phrase	Selected all used cells	Kullanılan tüm hücreler seçildi
 msg.phrase	Recalculated	Yeniden hesaplandı
-msg.phrase	SGCALC: cannot set screen mode 3: %s\n	SGCALC: ekran modu ayarlanamıyor 3: %s
-msg.phrase	Memory	Hafıza
-msg.phrase	Not enough PSRAM for the spreadsheet.	Elektronik tablo için yeterli PSRAM yok.
+msg.phrase	SGCALC: cannot set screen mode 3: %s\n	SGCALC: ekran modu 3 ayarlanamıyor: %s\n
+msg.phrase	Memory	Bellek
+msg.phrase	Not enough PSRAM for the spreadsheet.	Hesap tablosu için yeterli PSRAM yok.
 msg.phrase	The sheet is empty.	Sayfa boş.
-msg.phrase	No numeric data in the selected range.	Seçilen aralıkta sayısal veri yok.
+msg.phrase	No numeric data in the selected range.	Seçili aralıkta sayı yok.
 msg.phrase	%.2g	%.2g
 msg.phrase	%.6g	%.6g
 msg.phrase	Other	Diğer
-msg.phrase	No positive values for a pie chart	Pasta grafik için pozitif değer yok
-msg.phrase	%s  %.0f%%	%s %.0f%%
-msg.phrase	GRAPH  %s  %s	GRAFİK %s %s
-msg.phrase	LINE	HAT
-msg.phrase	BAR	BAR
-msg.phrase	MIXED	KARIŞIK
-msg.phrase	PIE	pasta
+msg.phrase	No positive values for a pie chart	Pasta grafiği için pozitif değer yok
+msg.phrase	%s  %.0f%%	%s  %.0f%%
+msg.phrase	GRAPH  %s  %s	GRAFİK  %s  %s
+msg.phrase	LINE	ÇİZGİ
+msg.phrase	BAR	SÜTUN
+msg.phrase	MIXED	KARMA
+msg.phrase	PIE	PASTA
 msg.phrase	S:/	S:/
 msg.phrase	%s%s	%s%s
 msg.phrase	%s/%s	%s/%s
 msg.phrase	%.*s	%.*s
 msg.phrase	%.*s/	%.*s/
-msg.phrase	Folder	Dosya
+msg.phrase	Folder	Klasör
 msg.phrase	Cannot read %s\n%s	%s okunamıyor\n%s
 msg.phrase	SAVE AS	FARKLI KAYDET
 msg.phrase	OPEN FILE	DOSYA AÇ
 msg.phrase	LibreOffice / CSV	LibreOffice / CSV
-msg.phrase	ODS  FODS  CSV	ODS FODS CSV
+msg.phrase	ODS  FODS  CSV	ODS  FODS  CSV
 msg.phrase	Folder: %s	Klasör: %s
-msg.phrase	Name:	İsim:
-msg.phrase	(type a name, or choose below)	(bir ad yazın veya aşağıdan seçin)
-msg.phrase	Name	İsim
+msg.phrase	Name:	Ad:
+msg.phrase	(type a name, or choose below)	(bir ad yazın ya da aşağıdan seçin)
+msg.phrase	Name	Ad
 msg.phrase	Size	Boyut
 msg.phrase	[DIR] %s	[DIR] %s
 msg.phrase	      %s	      %s
 msg.phrase	%lu.%luM	%lu.%luM
 msg.phrase	%luK	%luK
 msg.phrase	%luB	%luB
-msg.phrase	Enter=save  Left=up  Right/Enter on [DIR]=open  Tab=drive  Esc=cancel	Enter=Kaydet Sola=yukarı Sağa/Enter on [DIR]=açık Sekme=sürücü Esc=iptal
-msg.phrase	Enter=open  Left=up  Right/Enter on [DIR]=open  Tab=drive  Esc=cancel	Enter=açık Sol=yukarı Sağ/Enter [DIR]=açık Sekme=sürücü Esc=iptal
-msg.phrase	BOOK1%s	REZERVASYON1%s
-msg.phrase	Not enough memory.	Yeterli hafıza yok.
+msg.phrase	Enter=save  Left=up  Right/Enter on [DIR]=open  Tab=drive  Esc=cancel	Enter=kaydet  Sol=yukarı  Sağ/[DIR] üzerinde Enter=aç  Tab=sürücü  Esc=iptal
+msg.phrase	Enter=open  Left=up  Right/Enter on [DIR]=open  Tab=drive  Esc=cancel	Enter=aç  Sol=yukarı  Sağ/[DIR] üzerinde Enter=aç  Tab=sürücü  Esc=iptal
+msg.phrase	BOOK1%s	BOOK1%s
+msg.phrase	Not enough memory.	Bellek yetersiz.
 msg.phrase	%c:/	%c:/
 msg.phrase	Unsupported extension.\nUse .csv, .ods or .fods.	Desteklenmeyen uzantı.\n.csv, .ods veya .fods kullanın.
 msg.phrase	Overwrite	Üzerine yaz
-msg.phrase	%s already exists.\nOverwrite it?	%s zaten mevcut.\nÜzerine yazılsın mı?
-msg.phrase	%s may not be writable.\nTry anyway?	%s yazılabilir olmayabilir.\nYine de dene?
-msg.phrase	Unknown file type for %s	%s için bilinmeyen dosya türü
-msg.phrase	Open	Açık
+msg.phrase	%s already exists.\nOverwrite it?	%s zaten var.\nÜzerine yazılsın mı?
+msg.phrase	%s may not be writable.\nTry anyway?	%s yazılabilir olmayabilir.\nYine de denensin mi?
+msg.phrase	Unknown file type for %s	Bilinmeyen dosya türü: %s
+msg.phrase	Open	Aç
 msg.phrase	Unsupported file type.\nUse .csv, .ods or .fods.	Desteklenmeyen dosya türü.\n.csv, .ods veya .fods kullanın.
 msg.phrase	Cannot open %s\n%s	%s açılamıyor\n%s
-msg.phrase	%s is a folder.	%s bir klasördür.
+msg.phrase	%s is a folder.	%s bir klasör.
 msg.phrase	The file is too large (limit 8 MB).	Dosya çok büyük (sınır 8 MB).
-msg.phrase	Not enough memory to read the file.	Dosyayı okumak için yeterli bellek yok.
+msg.phrase	Not enough memory to read the file.	Dosyayı okumak için bellek yetersiz.
 msg.phrase	Cannot import %s\n%s	%s içe aktarılamıyor\n%s
-msg.phrase	Bad ZIP/ODS data.	Bozuk ZIP/ODS verileri.
+msg.phrase	Bad ZIP/ODS data.	ZIP/ODS verisi bozuk.
 msg.phrase	CRC error in the ODS file.	ODS dosyasında CRC hatası.
-msg.phrase	Unsupported or damaged file.	Desteklenmeyen veya hasarlı dosya.
+msg.phrase	Unsupported or damaged file.	Desteklenmeyen ya da bozuk dosya.
 msg.phrase	Loaded %s	%s yüklendi
 msg.phrase	Cannot build the %s file.	%s dosyası oluşturulamıyor.
 msg.phrase	Cannot write %s\n%s	%s yazılamıyor\n%s
@@ -870,205 +866,205 @@ msg.phrase	%s %s	%s %s
 msg.phrase	Saved	Kaydedildi
 msg.phrase	Exported	Dışa aktarıldı
 msg.phrase	Unsaved changes	Kaydedilmemiş değişiklikler
-msg.phrase	Save the current sheet before continuing?	Devam etmeden önce mevcut sayfa kaydedilsin mi?
+msg.phrase	Save the current sheet before continuing?	Devam etmeden önce geçerli sayfa kaydedilsin mi?
 msg.phrase	New sheet	Yeni sayfa
 msg.phrase	SGTRK	SGTRK
-msg.phrase	UNTITLED	BAŞLIKSIZ
+msg.phrase	UNTITLED	UNTITLED
 msg.phrase	song is too large	şarkı çok büyük
 msg.phrase	empty file	boş dosya
 msg.phrase	not an SGT file	SGT dosyası değil
-msg.phrase	unsupported version %u	desteklenmeyen sürüm %u
-msg.phrase	bad BPM	kötü BPM
-msg.phrase	bad speed	kötü hız
-msg.phrase	bad title length	kötü başlık uzunluğu
-msg.phrase	truncated title	kısaltılmış başlık
-msg.phrase	bad character in title	başlıktaki kötü karakter
-msg.phrase	truncated order	kısaltılmış sıra
-msg.phrase	bad order length	hatalı sipariş uzunluğu
-msg.phrase	bad pattern number in order	sırayla kötü desen numarası
-msg.phrase	truncated pattern list	kesilmiş model listesi
-msg.phrase	bad pattern count	kötü desen sayısı
-msg.phrase	bad pattern index	kötü model indeksi
-msg.phrase	duplicate pattern	yinelenen desen
-msg.phrase	truncated pattern data	kesilmiş model verileri
-msg.phrase	invalid pattern data	geçersiz desen verileri
-msg.phrase	trailing data in file	dosyadaki son veriler
-msg.phrase	order refers to a missing pattern	sipariş eksik bir modeli ifade eder
-msg.phrase	A:/	C:/
-msg.phrase	(untitled)	(başlıksız)
-msg.phrase	Ready. Press F1 for help.	Hazır. Yardım için F1'e basın.
+msg.phrase	unsupported version %u	desteklenmeyen sürüm (%u)
+msg.phrase	bad BPM	BPM hatalı
+msg.phrase	bad speed	hız hatalı
+msg.phrase	bad title length	başlık uzunluğu hatalı
+msg.phrase	truncated title	başlık eksik
+msg.phrase	bad character in title	başlıkta geçersiz karakter
+msg.phrase	truncated order	sıra eksik
+msg.phrase	bad order length	sıra uzunluğu hatalı
+msg.phrase	bad pattern number in order	sırada pattern numarası hatalı
+msg.phrase	truncated pattern list	pattern listesi eksik
+msg.phrase	bad pattern count	pattern sayısı hatalı
+msg.phrase	bad pattern index	pattern numarası hatalı
+msg.phrase	duplicate pattern	tekrarlanan pattern
+msg.phrase	truncated pattern data	pattern verisi eksik
+msg.phrase	invalid pattern data	pattern verisi geçersiz
+msg.phrase	trailing data in file	dosya sonunda fazla veri
+msg.phrase	order refers to a missing pattern	sıra olmayan bir pattern kullanıyor
+msg.phrase	A:/	A:/
+msg.phrase	(untitled)	(adsız)
+msg.phrase	Ready. Press F1 for help.	Hazır. Yardım için F1.
 msg.phrase	%d:%d:%d:%d:%d:%d	%d:%d:%d:%d:%d:%d
-msg.phrase	Follow OFF	Takip Et KAPALI
+msg.phrase	Follow OFF	Takip KAPALI
 msg.phrase	Octave %d	Oktav %d
 msg.phrase	Nothing to undo	Geri alınacak bir şey yok
-msg.phrase	Undo	Geri al
-msg.phrase	Note OFF	Not KAPALI
-msg.phrase	Note %s	Not %s
+msg.phrase	Undo	Geri alındı
+msg.phrase	Note OFF	Note off
+msg.phrase	Note %s	Nota %s
 msg.phrase	Instrument %d	Enstrüman %d
-msg.phrase	Volume %s	Cilt %s
-msg.phrase	Effect %c	Etki %c
-msg.phrase	Set an effect letter first	Önce bir efekt harfi ayarlayın
+msg.phrase	Volume %s	Ses %s
+msg.phrase	Effect %c	Efekt %c
+msg.phrase	Set an effect letter first	Önce efekt harfini girin
 msg.phrase	Parameter %s	Parametre %s
-msg.phrase	Effect cleared	Efekt temizlendi
-msg.phrase	Parameter cleared	Parametre temizlendi
-msg.phrase	Note cleared	Not temizlendi
-msg.phrase	Instrument cleared	Cihaz temizlendi
-msg.phrase	Volume cleared	Hacim temizlendi
-msg.phrase	Order list is full	Sipariş listesi dolu
-msg.phrase	Order inserted	Sipariş eklendi
-msg.phrase	Cannot delete the last order	Son sipariş silinemiyor
-msg.phrase	Order deleted	Sipariş silindi
-msg.phrase	Pattern %s	Desen %s
-msg.phrase	Playing song	Şarkı çalınıyor
-msg.phrase	Playing pattern %s	%s deseni çalınıyor
-msg.phrase	Stopped	Durduruldu
+msg.phrase	Effect cleared	Efekt silindi
+msg.phrase	Parameter cleared	Parametre silindi
+msg.phrase	Note cleared	Nota silindi
+msg.phrase	Instrument cleared	Enstrüman silindi
+msg.phrase	Volume cleared	Ses silindi
+msg.phrase	Order list is full	Sıra listesi dolu
+msg.phrase	Order inserted	Sıraya konum eklendi
+msg.phrase	Cannot delete the last order	Son konum silinemez
+msg.phrase	Order deleted	Sıradan konum silindi
+msg.phrase	Pattern %s	Pattern %s
+msg.phrase	Playing song	Şarkı çalıyor
+msg.phrase	Playing pattern %s	Pattern %s çalıyor
+msg.phrase	Stopped	Durdu
 msg.phrase	New song	Yeni şarkı
-msg.phrase	Discard unsaved changes and start a new song? (Y/N)	Kaydedilmemiş değişiklikler atılıp yeni bir şarkı başlatılsın mı? (E/H)
+msg.phrase	Discard unsaved changes and start a new song? (Y/N)	Kaydedilmemiş değişiklikler atılıp yeni şarkı başlatılsın mı? (Y/N)
 msg.phrase	SAVE ERROR: %s	KAYDETME HATASI: %s
 msg.phrase	Saved %s	%s kaydedildi
 msg.phrase	LOAD ERROR: %s	YÜKLEME HATASI: %s
-msg.phrase	Discard unsaved changes and open a song? (Y/N)	Kaydedilmemiş değişiklikler atılıp bir şarkı açılsın mı? (E/H)
-msg.phrase	Discard unsaved changes and quit? (Y/N)	Kaydedilmemiş değişiklikler atılıp çıkılsın mı? (E/H)
+msg.phrase	Discard unsaved changes and open a song? (Y/N)	Kaydedilmemiş değişiklikler atılıp şarkı açılsın mı? (Y/N)
+msg.phrase	Discard unsaved changes and quit? (Y/N)	Kaydedilmemiş değişiklikler atılıp çıkılsın mı? (Y/N)
 msg.phrase	BPM %d	BPM %d
 msg.phrase	Speed %d	Hız %d
-msg.phrase	Song settings updated	Şarkı ayarları güncellendi
-msg.phrase	Preview %s	%s'yi önizle
+msg.phrase	Song settings updated	Şarkı ayarları değişti
+msg.phrase	Preview %s	Dinle: %s
 msg.phrase	Instrument %s %s	Enstrüman %s %s
 msg.phrase	Filename is empty	Dosya adı boş
-msg.phrase	Overwrite %s? (Y/N)	%s'in üzerine yazılsın mı? (E/H)
+msg.phrase	Overwrite %s? (Y/N)	%s üzerine yazılsın mı? (Y/N)
 msg.phrase	Save cancelled	Kaydetme iptal edildi
-msg.phrase	Open cancelled	Açık iptal edildi
-msg.phrase	Edit ON	Düzenle AÇIK
-msg.phrase	Edit OFF	Düzenle KAPALI
-msg.phrase	Follow ON	Takip Et AÇIK
-msg.phrase	Edit is OFF. Press F8 to edit.	Düzenleme KAPALI. Düzenlemek için F8 tuşuna basın.
+msg.phrase	Open cancelled	Açma iptal edildi
+msg.phrase	Edit ON	Düzenleme AÇIK
+msg.phrase	Edit OFF	Düzenleme KAPALI
+msg.phrase	Follow ON	Takip AÇIK
+msg.phrase	Edit is OFF. Press F8 to edit.	Düzenleme kapalı. Düzenlemek için F8.
 msg.phrase	I/O error	G/Ç hatası
 msg.phrase	file is too large	dosya çok büyük
-msg.phrase	truncated file	kesilmiş dosya
-msg.phrase	SINE PAD	SİNÜS PEDİ
-msg.phrase	TRIANGLE	ÜÇGEN
-msg.phrase	SAW LEAD	TESTERE KURŞUNU
-msg.phrase	SQUARE	KARE
-msg.phrase	PULSE 25	NABIZ 25
+msg.phrase	truncated file	dosya eksik
+msg.phrase	SINE PAD	SINE PAD
+msg.phrase	TRIANGLE	TRIANGLE
+msg.phrase	SAW LEAD	SAW LEAD
+msg.phrase	SQUARE	SQUARE
+msg.phrase	PULSE 25	PULSE 25
 msg.phrase	ORGAN	ORGAN
-msg.phrase	BASS	BAS
-msg.phrase	BELL	ZİL
-msg.phrase	NOISE	GÜRÜLTÜ
-msg.phrase	SINE	SİNÜS
-msg.phrase	SAW	TESTERE
-msg.phrase	 | BPM %s SPD %s 	 | BPM %s SPD %s
-msg.phrase	 SGNO TRACKER 1.0 | 	SGNO İZLEYİCİ 1.0 |
-msg.phrase	FILE 	DOSYA
+msg.phrase	BASS	BASS
+msg.phrase	BELL	BELL
+msg.phrase	NOISE	NOISE
+msg.phrase	SINE	SINE
+msg.phrase	SAW	SAW
+msg.phrase	 | BPM %s SPD %s 	 | BPM %s SPD %s 
+msg.phrase	 SGNO TRACKER 1.0 | 	 SGNO TRACKER 1.0 | 
+msg.phrase	FILE 	FILE 
 msg.phrase	 PAT %s	 PAT %s
 msg.phrase	 ORD %d/%d	 ORD %d/%d
-msg.phrase	 INS %s 	 INS %s
-msg.phrase	 OCT %d	 EKİM %d
-msg.phrase	 EDIT %s	 %s'yi DÜZENLE
-msg.phrase	ON 	AÇIK
-msg.phrase	OFF	KAPALI
+msg.phrase	 INS %s 	 INS %s 
+msg.phrase	 OCT %d	 OCT %d
+msg.phrase	 EDIT %s	 EDIT %s
+msg.phrase	ON 	ON 
+msg.phrase	OFF	OFF
 msg.phrase	 FOL %s	 FOL %s
-msg.phrase	ON	AÇIK
-msg.phrase	ROW	SATIR
-msg.phrase	TRACK %d	PARÇA %d
-msg.phrase	CHAN LEVEL	KAN SEVİYESİ
+msg.phrase	ON	ON
+msg.phrase	ROW	ROW
+msg.phrase	TRACK %d	TRACK %d
+msg.phrase	CHAN LEVEL	CHAN LEVEL
 msg.phrase	%c%s	%c%s
 msg.phrase	%s %s %s %s	%s %s %s %s
-msg.phrase	%s 	%s
+msg.phrase	%s 	%s 
 msg.phrase	%d %s %s	%d %s %s
-msg.phrase	ORDER %d/%d	SİPARİŞ %d/%d
-msg.phrase	PAT   %s	PAT %s
+msg.phrase	ORDER %d/%d	ORDER %d/%d
+msg.phrase	PAT   %s	PAT   %s
 msg.phrase	INS %s %s	INS %s %s
-msg.phrase	OCT %d  EDIT %s	EKİM %d DÜZENLE %s
-msg.phrase	FOLLOW %s	%s'i TAKİP EDİN
-msg.phrase	F1 HELP F2 SONG	F1 YARDIM F2 ŞARKISI
-msg.phrase	F3 INS  F4 SAVE	F3 INS F4 KAYDET
-msg.phrase	F5 PLAY F6 PAT	F5 OYNA F6 PAT
-msg.phrase	F7 STOP F8 EDIT	F7 DUR F8 DÜZENLE
-msg.phrase	F9/F10 OCTAVE	F9/F10 OKTAV
-msg.phrase	F11 FOLLOW	F11 TAKİP ET
-msg.phrase	F12 QUIT	F12 ÇIK
-msg.phrase	SPACE PLAY/STOP	UZAY OYNAT/DURDUR
-msg.phrase	CTRL-S SAVE	CTRL-S KAYDET
-msg.phrase	CTRL-O OPEN	CTRL-O AÇ
-msg.phrase	C-N NEW C-Z UNDO	C-N YENİ C-Z GERİ AL
-msg.phrase	C-C STOP	C-C DURDUR
-msg.phrase	PLAYING  ORD %d/%d  PAT %s  ROW %s/%d  SPD %s  BPM %d  F7 STOP	ORD %d/%d PAT OYNATIYOR %s ROW %s/%d SPD %s BPM %d F7 STOP
-msg.phrase	READY  EDIT %s  OCT %d  F1 HELP  F5 PLAY  CTRL-S SAVE	HAZIR DÜZENLE %s EKİM %d F1 YARDIM F5 OYNAT CTRL-S KAYDET
-msg.phrase	 %s 	 %s
-msg.phrase	#TRANSPORT AND FILES	#NAKLİYE VE DOSYALAR
-msg.phrase	  F5          Play the song from the current order	  F5 Şarkıyı mevcut sıraya göre çal
-msg.phrase	  F6          Play the current pattern	  F6 Geçerli deseni oynat
-msg.phrase	  F7/Ctrl-C   Stop playback	  F7/Ctrl-C Oynatmayı durdur
-msg.phrase	  Space       Play / stop	  Uzay Oynat / durdur
-msg.phrase	  F4          Save as	  F4 Farklı kaydet
-msg.phrase	  Ctrl-S      Save (asks for a name if new)	  Ctrl-S Kaydet (yeni ise ad sorar)
-msg.phrase	  Ctrl-O      Open a song	  Ctrl-O Bir şarkıyı aç
-msg.phrase	  Ctrl-N      New song	  Ctrl-N Yeni şarkı
-msg.phrase	  F12         Quit (confirmation if modified)	  F12 Çık (değiştirilmişse onay)
-msg.phrase	#ORDER LIST	#SİPARİŞ LİSTESİ
-msg.phrase	  [ ]         Previous / next order entry	  [ ] Önceki / sonraki sipariş girişi
-msg.phrase	  { }         Insert / delete an order entry	  { } Sipariş girişi ekleme / silme
-msg.phrase	  - +         Change the pattern in the entry	  - + Girişteki deseni değiştirin
-msg.phrase	#DISPLAY	#EKRAN
-msg.phrase	  F11         Follow playback (turns off on manual move)	  F11 İzlemeyi takip et (manuel hareket ettirildiğinde kapanır)
-msg.phrase	  F1          Help; Left/Right changes page	  F1 Yardımı; Sol/Sağ değişiklikleri sayfası
+msg.phrase	OCT %d  EDIT %s	OCT %d  EDIT %s
+msg.phrase	FOLLOW %s	FOLLOW %s
+msg.phrase	F1 HELP F2 SONG	F1 HELP F2 SONG
+msg.phrase	F3 INS  F4 SAVE	F3 INS  F4 SAVE
+msg.phrase	F5 PLAY F6 PAT	F5 PLAY F6 PAT
+msg.phrase	F7 STOP F8 EDIT	F7 STOP F8 EDIT
+msg.phrase	F9/F10 OCTAVE	F9/F10 OCTAVE
+msg.phrase	F11 FOLLOW	F11 FOLLOW
+msg.phrase	F12 QUIT	F12 QUIT
+msg.phrase	SPACE PLAY/STOP	SPACE PLAY/STOP
+msg.phrase	CTRL-S SAVE	CTRL-S SAVE
+msg.phrase	CTRL-O OPEN	CTRL-O OPEN
+msg.phrase	C-N NEW C-Z UNDO	C-N NEW C-Z UNDO
+msg.phrase	C-C STOP	C-C STOP
+msg.phrase	PLAYING  ORD %d/%d  PAT %s  ROW %s/%d  SPD %s  BPM %d  F7 STOP	PLAYING  ORD %d/%d  PAT %s  ROW %s/%d  SPD %s  BPM %d  F7 STOP
+msg.phrase	READY  EDIT %s  OCT %d  F1 HELP  F5 PLAY  CTRL-S SAVE	READY  EDIT %s  OCT %d  F1 HELP  F5 PLAY  CTRL-S SAVE
+msg.phrase	 %s 	 %s 
+msg.phrase	#TRANSPORT AND FILES	#ÇALMA VE DOSYALAR
+msg.phrase	  F5          Play the song from the current order	  F5          Şarkıyı geçerli sıra konumundan çal
+msg.phrase	  F6          Play the current pattern	  F6          Geçerli pattern'i çal
+msg.phrase	  F7/Ctrl-C   Stop playback	  F7/Ctrl-C   Çalmayı durdur
+msg.phrase	  Space       Play / stop	  Space       Çal / durdur
+msg.phrase	  F4          Save as	  F4          Farklı kaydet
+msg.phrase	  Ctrl-S      Save (asks for a name if new)	  Ctrl-S      Kaydet (yeniyse ad sorar)
+msg.phrase	  Ctrl-O      Open a song	  Ctrl-O      Şarkı aç
+msg.phrase	  Ctrl-N      New song	  Ctrl-N      Yeni şarkı
+msg.phrase	  F12         Quit (confirmation if modified)	  F12         Çık (değişiklik varsa onay ister)
+msg.phrase	#ORDER LIST	#SIRA LİSTESİ
+msg.phrase	  [ ]         Previous / next order entry	  [ ]         Önceki / sonraki konum
+msg.phrase	  { }         Insert / delete an order entry	  { }         Konum ekle / sil
+msg.phrase	  - +         Change the pattern in the entry	  - +         Konumdaki pattern'i değiştir
+msg.phrase	#DISPLAY	#GÖRÜNÜM
+msg.phrase	  F11         Follow playback (turns off on manual move)	  F11         Çalmayı takip et (elle taşınınca kapanır)
+msg.phrase	  F1          Help; Left/Right changes page	  F1          Yardım; Sol/Sağ sayfa değiştirir
 msg.phrase	#EDITING	#DÜZENLEME
-msg.phrase	  F8          Toggle edit mode	  F8 Düzenleme modunu değiştir
-msg.phrase	  Arrows      Move the cursor	  Oklar İmleci hareket ettirin
-msg.phrase	  PgUp/PgDn   Jump 16 rows	  PgUp/PgDn 16 satıra atla
-msg.phrase	  Home/End    First / last row	  Ana Sayfa/Son İlk / son satır
-msg.phrase	  F9/F10      Octave down / up	F9/F10 Oktav aşağı/yukarı
-msg.phrase	  Z S X D C V G B H N J M      lower piano row	  Z S X D C V G B H N J M alt piyano sırası
-msg.phrase	  Q 2 W 3 E R 5 T 6 Y 7 U      upper piano row	  Q 2 W 3 E R 5 T 6 Y 7 U üst piyano sırası
-msg.phrase	  1           Note off	  1 Not kapalı
-msg.phrase	  0 / Del     0 clears note/inst/fx; Del clears any	  0 / Del 0 notayı/inst/fx'i temizler; Del, herhangi birini temizler
-msg.phrase	  Ctrl-Z      Undo the last pattern/order edit	  Ctrl-Z Son desen/sıra düzenlemesini geri al
-msg.phrase	#EFFECTS (parameter is hexadecimal)	#EFFECTS (parametre onaltılıktır)
-msg.phrase	  Axy   Volume slide: up x, down y	  Axy Volume slaytı: yukarı x, aşağı y
-msg.phrase	  Cxx   Note cut after xx ticks	  Cxx Notu xx işaretlerinden sonra kesilir
-msg.phrase	  Dxx   Set volume (00..7F)	  Dxx Ses seviyesini ayarla (00..7F)
-msg.phrase	  Fxx   Speed if xx < 20, otherwise BPM	  Fxx Hızı xx < 20 ise, aksi halde BPM
-msg.phrase	  Hxy   Arpeggio x, y semitones	  Hxy Arpeggio x, y yarım tonlar
-msg.phrase	  Pxx   Pitch slide up	Pxx Pitch yukarı kaydır
-msg.phrase	  Qxx   Pitch slide down	  Qxx Perde aşağı kaydır
+msg.phrase	  F8          Toggle edit mode	  F8          Düzenlemeyi aç / kapat
+msg.phrase	  Arrows      Move the cursor	  Oklar       İmleci taşı
+msg.phrase	  PgUp/PgDn   Jump 16 rows	  PgUp/PgDn   16 satır atla
+msg.phrase	  Home/End    First / last row	  Home/End    İlk / son satır
+msg.phrase	  F9/F10      Octave down / up	  F9/F10      Oktav aşağı / yukarı
+msg.phrase	  Z S X D C V G B H N J M      lower piano row	  Z S X D C V G B H N J M      alt piyano sırası
+msg.phrase	  Q 2 W 3 E R 5 T 6 Y 7 U      upper piano row	  Q 2 W 3 E R 5 T 6 Y 7 U      üst piyano sırası
+msg.phrase	  1           Note off	  1           Note off
+msg.phrase	  0 / Del     0 clears note/inst/fx; Del clears any	  0 / Del     0 nota/enst./efekt siler; Del alanı siler
+msg.phrase	  Ctrl-Z      Undo the last pattern/order edit	  Ctrl-Z      Son pattern/sıra düzenlemesini geri al
+msg.phrase	#EFFECTS (parameter is hexadecimal)	#EFEKTLER (parametre onaltılık)
+msg.phrase	  Axy   Volume slide: up x, down y	  Axy   Ses kaydırma: x yukarı, y aşağı
+msg.phrase	  Cxx   Note cut after xx ticks	  Cxx   xx tick sonra notayı kes
+msg.phrase	  Dxx   Set volume (00..7F)	  Dxx   Sesi ayarla (00..7F)
+msg.phrase	  Fxx   Speed if xx < 20, otherwise BPM	  Fxx   xx < 20 ise hız, değilse BPM
+msg.phrase	  Hxy   Arpeggio x, y semitones	  Hxy   Arpej x, y yarım ton
+msg.phrase	  Pxx   Pitch slide up	  Pxx   Perdeyi yukarı kaydır
+msg.phrase	  Qxx   Pitch slide down	  Qxx   Perdeyi aşağı kaydır
 msg.phrase	  F2 song settings, F3 instrument list	  F2 şarkı ayarları, F3 enstrüman listesi
-msg.phrase	HELP %d/2	YARDIM %d/2
-msg.phrase	LEFT/RIGHT PAGE   ENTER OR F1 CLOSE	SOL/SAĞ SAYFA GİRİŞ VEYA F1 KAPAT
+msg.phrase	HELP %d/2	HELP %d/2
+msg.phrase	LEFT/RIGHT PAGE   ENTER OR F1 CLOSE	LEFT/RIGHT PAGE   ENTER OR F1 CLOSE
 msg.phrase	SONG SETTINGS	ŞARKI AYARLARI
-msg.phrase	UP/DOWN SELECT   LEFT/RIGHT ADJUST   ENTER/F2 CLOSE	YUKARI/AŞAĞI SEÇ SOL/SAĞ AYARLA GİRİŞ/F2 KAPAT
+msg.phrase	UP/DOWN SELECT   LEFT/RIGHT ADJUST   ENTER/F2 CLOSE	UP/DOWN SELECT   LEFT/RIGHT ADJUST   ENTER/F2 CLOSE
 msg.phrase	  Title	  Başlık
 msg.phrase	  [%s_]	  [%s_]
-msg.phrase	  BPM   : %d     (left/right -1/+1, -/+ -5/+5)	  BPM : %d (sol/sağ -1/+1, -/+ -5/+5)
-msg.phrase	  Speed : %d ticks/row	  Hız: %d tıklama/satır
-msg.phrase	  Rows  : %d (fixed)	  Satırlar : %d (sabit)
-msg.phrase	  Order : %d entries	Sipariş: %d giriş
-msg.phrase	  Patterns in use : %d	  Kullanılan desenler : %d
-msg.phrase	Type to edit the title. Backspace deletes the last character.	Başlığı düzenlemek için yazın. Geri tuşu son karakteri siler.
-msg.phrase	BPM range 32..255. Speed range 1..31.	BPM aralığı 32..255. Hız aralığı 1..31.
-msg.phrase	Pattern effects can also change speed and BPM while playing.	Desen efektleri, oynatma sırasında hızı ve BPM'yi de değiştirebilir.
-msg.phrase	INSTRUMENTS	GÖSTERGELER
-msg.phrase	UP/DOWN SELECT   SPACE PREVIEW   ENTER USE   F3 CLOSE	YUKARI/AŞAĞI SEÇ BOŞLUK ÖNİZLEME GİRİŞ F3 KULLANIN KAPAT
-msg.phrase	 #  NAME       WAVE       A   D   S   R  VOL	 # İSİM WAVE A D S R VOL
-msg.phrase	 %c %d  %-9s %-9s %3d %3d %3d %3d %4d	 %c %d %-9s %-9s %3d %3d %3d %3d %4d
-msg.phrase	All four channels use wavetable synthesis.	Dört kanalın tümü dalgalanabilir sentez kullanır.
-msg.phrase	Preview plays C-4 on the track under the edit cursor.	Önizleme, düzenleme imlecinin altındaki parçadaki C-4'ü oynatır.
-msg.phrase	Current instrument: %s %s	Mevcut enstrüman: %s %s
+msg.phrase	  BPM   : %d     (left/right -1/+1, -/+ -5/+5)	  BPM   : %d     (sol/sağ -1/+1, -/+ -5/+5)
+msg.phrase	  Speed : %d ticks/row	  Hız   : satır başına %d tick
+msg.phrase	  Rows  : %d (fixed)	  Satır : %d (sabit)
+msg.phrase	  Order : %d entries	  Sıra  : %d konum
+msg.phrase	  Patterns in use : %d	  Kullanılan pattern : %d
+msg.phrase	Type to edit the title. Backspace deletes the last character.	Başlığı değiştirmek için yazın. Backspace son karakteri siler.
+msg.phrase	BPM range 32..255. Speed range 1..31.	BPM 32 ile 255 arası. Hız 1 ile 31 arası.
+msg.phrase	Pattern effects can also change speed and BPM while playing.	Pattern efektleri çalarken hızı ve BPM'i de değiştirebilir.
+msg.phrase	INSTRUMENTS	ENSTRÜMANLAR
+msg.phrase	UP/DOWN SELECT   SPACE PREVIEW   ENTER USE   F3 CLOSE	UP/DOWN SELECT   SPACE PREVIEW   ENTER USE   F3 CLOSE
+msg.phrase	 #  NAME       WAVE       A   D   S   R  VOL	 #  NAME       WAVE       A   D   S   R  VOL
+msg.phrase	 %c %d  %-9s %-9s %3d %3d %3d %3d %4d	 %c %d  %-9s %-9s %3d %3d %3d %3d %4d
+msg.phrase	All four channels use wavetable synthesis.	Dört kanalın hepsi dalga tablosu sentezi kullanır.
+msg.phrase	Preview plays C-4 on the track under the edit cursor.	Dinleme, düzenleme imlecinin izinde C-4 çalar.
+msg.phrase	Current instrument: %s %s	Geçerli enstrüman: %s %s
 msg.phrase	SAVE SONG AS	ŞARKIYI FARKLI KAYDET
-msg.phrase	ENTER SAVE   F4 OR CTRL-C CANCEL	KAYDET F4 VEYA CTRL-C İPTAL'e girin
-msg.phrase	Directory:	Dizin:
+msg.phrase	ENTER SAVE   F4 OR CTRL-C CANCEL	ENTER SAVE   F4 OR CTRL-C CANCEL
+msg.phrase	Directory:	Klasör:
 msg.phrase	  %s	  %s
 msg.phrase	File name:	Dosya adı:
-msg.phrase	The extension .SGT is added automatically.	.SGT uzantısı otomatik olarak eklenir.
-msg.phrase	An existing file can be overwritten.	Mevcut bir dosyanın üzerine yazılabilir.
-msg.phrase	OPEN SONG	AÇIK ŞARKI
-msg.phrase	ENTER OPEN  BS PARENT  CTRL-O/CTRL-C CANCEL	GİRİŞ AÇ BS EBEVEYN CTRL-O/CTRL-C İPTAL
-msg.phrase	DIR  %s	DIR %s
+msg.phrase	The extension .SGT is added automatically.	.SGT uzantısı otomatik eklenir.
+msg.phrase	An existing file can be overwritten.	Var olan bir dosyanın üzerine yazılabilir.
+msg.phrase	OPEN SONG	ŞARKI AÇ
+msg.phrase	ENTER OPEN  BS PARENT  CTRL-O/CTRL-C CANCEL	ENTER OPEN  BS PARENT  CTRL-O/CTRL-C CANCEL
+msg.phrase	DIR  %s	DIR  %s
 msg.phrase	(no .SGT files in this folder)	(bu klasörde .SGT dosyası yok)
 msg.phrase	 %c %s%s	 %c %s%s
 msg.phrase	Files: %d	Dosyalar: %d
-msg.phrase	CONFIRM	ONAYLA
-msg.phrase	Y = YES   N / ENTER / CTRL-C = NO	Y = EVET N / ENTER / CTRL-C = HAYIR
-msg.phrase	Y = yes        N = no	Y = evet N = hayır
+msg.phrase	CONFIRM	ONAY
+msg.phrase	Y = YES   N / ENTER / CTRL-C = NO	Y = YES   N / ENTER / CTRL-C = NO
+msg.phrase	Y = yes        N = no	Y = evet        N = hayır
 msg.phrase	%02d	%02d
 msg.phrase	%03d	%03d
 msg.phrase	%02X	%02X
@@ -1078,69 +1074,69 @@ msg.phrase	D-	D-
 msg.phrase	D#	D#
 msg.phrase	E-	E-
 msg.phrase	F-	F-
-msg.phrase	F#	F #
+msg.phrase	F#	F#
 msg.phrase	G-	G-
 msg.phrase	G#	G#
-msg.phrase	A-	A...
-msg.phrase	A#	bir #
+msg.phrase	A-	A-
+msg.phrase	A#	A#
 msg.phrase	B-	B-
 msg.phrase	A:/dir/name	A:/dir/isim
 msg.phrase	MThd	MThd
-msg.phrase	broken MThd	kırık MThd
-msg.phrase	MIDI IMPORT	MIDI İTHALATI
+msg.phrase	broken MThd	MThd bozuk
+msg.phrase	MIDI IMPORT	MIDI İÇE AKTAR
 msg.phrase	MTrk	MTrk
-msg.phrase	broken delta time	kırık delta zamanı
-msg.phrase	broken running status	bozuk çalışma durumu
-msg.phrase	broken meta event	kırık meta olayı
-msg.phrase	broken sysex event	kırık sysex olayı
-msg.phrase	broken channel event	kırık kanal olayı
-msg.phrase	SMF output is too small	SMF çıkışı çok küçük
+msg.phrase	broken delta time	delta time bozuk
+msg.phrase	broken running status	running status bozuk
+msg.phrase	broken meta event	meta olayı bozuk
+msg.phrase	broken sysex event	SysEx olayı bozuk
+msg.phrase	broken channel event	kanal olayı bozuk
+msg.phrase	SMF output is too small	SMF çıktısı çok küçük
 msg.phrase	SMF output is too large	SMF çıktısı çok büyük
 msg.phrase	the song is too long for SMF	şarkı SMF için çok uzun
 msg.phrase	TRK1	TRK1
-msg.phrase	SGNO TRACKER: incompatible SGX ABI\n	SGNO TRACKER: uyumsuz SGX ABI
+msg.phrase	SGNO TRACKER: incompatible SGX ABI\n	SGNO TRACKER: SGX ABI sürümü uyumsuz\n
 msg.phrase	5 Macro	5 Makro
 msg.phrase	6 Help	6 Yardım
-msg.phrase	Run current	Geçerliyi çalıştır
-msg.phrase	Run the macro at the cursor (#! header cell and the cells below it)	İmleçteki makroyu çalıştır (#! başlık hücresi ve altındaki hücreler)
+msg.phrase	Run current	Bunu çalıştır
+msg.phrase	Run the macro at the cursor (#! header cell and the cells below it)	İmleçteki makroyu çalıştır (#! başlık hücresi ve altındakiler)
 msg.phrase	Run selection	Seçimi çalıştır
-msg.phrase	Run the selected cells as one macro (top-left cell is the #! header)	Seçili hücreleri tek makro olarak çalıştır (sol üst hücre #! başlığıdır)
+msg.phrase	Run the selected cells as one macro (top-left cell is the #! header)	Seçili hücreleri tek makro olarak çalıştır (sol üst hücre #! başlığı)
 msg.phrase	Run all	Tümünü çalıştır
-msg.phrase	Run every macro in the sheet, top-left to bottom-right	Sayfadaki tüm makroları sol üstten sağ alta çalıştır
+msg.phrase	Run every macro in the sheet, top-left to bottom-right	Sayfadaki tüm makroları soldan üstten sağ alta çalıştır
 msg.phrase	Last error	Son hata
 msg.phrase	Show the last macro error	Son makro hatasını göster
 msg.phrase	Macro	Makro
 msg.phrase	Macro: run #!ruby / #!python / #!basic cells	Makro: #!ruby / #!python / #!basic hücrelerini çalıştır
 msg.phrase	Edit the cell (F2)	Hücreyi düzenle (F2)
-msg.phrase	Fit widths/heights to the contents	Genişlik/yüksekliği içeriğe uydur
+msg.phrase	Fit widths/heights to the contents	Genişlik ve yüksekliği içeriğe göre ayarla
 msg.phrase	Last macro error	Son makro hatası
 msg.phrase	No macro error.	Makro hatası yok.
 msg.phrase	IME on	IME açık
 msg.phrase	IME off	IME kapalı
 msg.phrase	Macro: %s %s ...	Makro: %s %s ...
-msg.phrase	%s: this firmware cannot run macros (SGX ABI 5.10 or later)	%s: bu yazılım makro çalıştıramaz (SGX ABI 5.10 veya üstü)
+msg.phrase	%s: this firmware cannot run macros (SGX ABI 5.10 or later)	%s: bu yazılım makro çalıştıramaz (SGX ABI 5.10 veya üstü gerekir)
 msg.phrase	Macro error: %s	Makro hatası: %s
-msg.phrase	Macro: %s done	Makro: %s tamam
+msg.phrase	Macro: %s done	Makro: %s tamamlandı
 msg.phrase	a macro is already running	zaten bir makro çalışıyor
 msg.phrase	this language is not available	bu dil kullanılamıyor
-msg.phrase	not enough memory	yetersiz bellek
+msg.phrase	not enough memory	bellek yetersiz
 msg.phrase	the macro stopped with an error	makro bir hatayla durdu
 msg.phrase	Macro error %s: %s	Makro hatası %s: %s
-msg.phrase	Macro: not enough memory	Makro: yetersiz bellek
-msg.phrase	Macro: the cursor is not on a macro (a #!ruby / #!python / #!basic cell or the cells below it)	Makro: imleç bir makronun üzerinde değil (#!ruby / #!python / #!basic hücresi veya altındaki hücreler)
+msg.phrase	Macro: not enough memory	Makro: bellek yetersiz
+msg.phrase	Macro: the cursor is not on a macro (a #!ruby / #!python / #!basic cell or the cells below it)	Makro: imleç bir makronun üzerinde değil (#!ruby / #!python / #!basic hücresi veya altı)
 msg.phrase	Macro: no macro in the sheet	Makro: sayfada makro yok
 msg.phrase	Run all macros	Tüm makroları çalıştır
-msg.phrase	Macros: %d. Run them all, top-left to bottom-right? Changes cannot be undone.	Makrolar: %d. Hepsi sol üstten sağ alta çalıştırılsın mı? Değişiklikler geri alınamaz.
-msg.phrase	Macro: %d of %d done	Makro: %d tamam (toplam %d)
+msg.phrase	Macros: %d. Run them all, top-left to bottom-right? Changes cannot be undone.	Makro: %d. Hepsi soldan üstten sağ alta çalıştırılsın mı? Değişiklikler geri alınamaz.
+msg.phrase	Macro: %d of %d done	Makro: %d / %d tamamlandı
 msg.phrase	Cleared the cell	Hücre temizlendi
 msg.phrase	Cleared the selection	Seçim temizlendi
 msg.phrase	Background colour = %d	Arka plan rengi = %d
 msg.phrase	Text colour = %d	Metin rengi = %d
 msg.phrase	Graph: line	Grafik: çizgi
-msg.phrase	Graph: bar	Grafik: çubuk
+msg.phrase	Graph: bar	Grafik: sütun
 msg.phrase	Graph: mixed	Grafik: karma
 msg.phrase	Graph: pie	Grafik: pasta
-msg.phrase	Exported %s	Dışa aktarıldı %s
+msg.phrase	Exported %s	%s dışa aktarıldı
 msg.phrase	S: check: wait -- a file is being read or written	S: denetimi: bekleyin -- bir dosya okunuyor veya yazılıyor
 msg.phrase	S: check: the drive is busy or not ready	S: denetimi: sürücü meşgul veya hazır değil
 msg.phrase	nothing for this item (ContextMenu.cfg)	bu öğe için bir şey yok (ContextMenu.cfg)
@@ -1159,3 +1155,32 @@ msg.phrase	32 items at most (mark fewer, or put them in a folder)	en çok 32 ö�
 msg.prefix	archive	arşiv
 msg.prefix	compress	sıkıştır
 msg.prefix	render	WAV dışa aktarma
+ui	USB・時計・設定	USB, clock, settings
+ui	0.001 秒未満	0.001 sn altında
+ui	%s 秒	%s sn
+ui	コンパイル %s  実行 %s	derleme %s  çalıştırma %s
+ui	コンパイル %s	derleme %s
+ui	実行 %s	çalıştırma %s
+msg.phrase	Version %s	Sürüm %s
+msg.phrase	1 Help	1 Yardım
+msg.phrase	3 Copy	3 Kopya
+msg.phrase	4 Paste	4 Yapış
+msg.phrase	5 Goto	5 Git
+msg.phrase	6 Colour	6 Renk
+msg.phrase	7 Fit	7 Sığdır
+msg.phrase	8 Backgr	8 Arka
+msg.phrase	9 Recalc	9 Hesapl
+msg.phrase	10 Graph	10 Grafk
+msg.phrase	11 Save	11 Kayd
+msg.phrase	12 Menu	12 Menü
+msg.phrase	1 About	1 Hakk
+msg.phrase	2 Height	2 Yüksek
+msg.phrase	3 Width	3 Genişl
+msg.phrase	4 SelAll	4 Tümü
+msg.phrase	10 Range	10 Aralı
+msg.phrase	11 Name	11 Farkl
+msg.phrase	1 New	1 Yeni
+msg.phrase	2 Open	2 Aç
+msg.phrase	4 SaveAs	4 Farklı
+msg.phrase	12 Quit	12 Çık
+msg.phrase	3 Save	3 Kayd

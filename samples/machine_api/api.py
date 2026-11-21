@@ -87,5 +87,9 @@ o("bmready", b(bm.ready)); o("bmw", bm.width); o("bmh", bm.height)
 bm.pset(1, 1, 9); o("bmpget", bm.pget(1, 1))
 bm.write(640, b"ABC"); o("bmread", bm.read(640, 3).decode())
 bm.palette(9, 0, 255, 0); o("bmpal", 1 if list(bm.palette(9)) == [0, 255, 0] else 0)
+# Music (ABI 4.4, checked against Ruby/BASIC on 2026-11-18): constants and the idle state
+mus = M.Music
+o("musicconst", mus.MP3 + mus.OGG * 10 + mus.WAV * 100 + mus.VGM * 1000 + mus.LOOP * 10000)
+o("musicidle", b(mus.playing()) + b(mus.paused()) * 2 + mus.position() * 4 + mus.length() * 8 + mus.format() * 16)
 M.mode = 1
 print("API-END")

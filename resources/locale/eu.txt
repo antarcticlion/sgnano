@@ -21,14 +21,14 @@ ui	属性を変える	Aldatu atributuak
 ui	エディタで開く	Ireki editorean
 ui	テキスト表示（Shift+V / Ctrl+Alt+F7 は 16 進）	Ikusi testu gisa (Maius+V / Ctrl+Alt+F7 hex)
 ui	ドライブの情報	Gidatzeko informazioa
-ui	フォルダを作る / 新しいファイル	Karpeta berria / fitxategi berria
+ui	フォルダを作る（Shift+F5） / 新しいファイル（Ctrl+F1）	Karpeta berria (Shift+F5) / fitxategi berria (Ctrl+F1)
 ui	シェル sgsh / 媒体を取り出す	Shell sgsh / kanporatu euskarria
 ui	読み直す	Berriz kargatu
-ui	見えている画面を PNG で保存	Gorde pantaila PNG gisa
+ui	見えている画面を PNG で保存（Alt+F5 も同じ）	Gorde pantaila PNG gisa (= Alt+F5)
 ui	窓を閉じる・選択を解く（サブフォルダでは上位へ）	Itxi leihoa / garbitu hautapena (azpikarpeta batean: igo)
-ui	ファイルの操作（FD と同じ。印・範囲・カーソルの順に選ぶ）	Fitxategien eragiketak (FDn bezala: markak, gero barrutia, gero kurtsorea)
-ui	コピー: 行き先はドライブとフォルダの木から。ESC で止める	Kopiatu: hautatu helmuga diskoaren eta karpeten zuhaitzetik. ESC gelditzen da
-ui	削除: y で確かめる。印・範囲をまとめて。フォルダは中身ごと	Ezabatu: berretsi y-rekin. Markak eta barrutiak aldi berean. Karpetak euren edukiarekin
+ui	ファイルの操作（FD と同じ。印・範囲・カーソルの順）	Fitxategien eragiketak (FDn bezala: markak, gero barrutia, gero kurtsorea)
+ui	コピー: 行き先は木から選ぶ。ESC で止める	Kopiatu: hautatu helmuga diskoaren eta karpeten zuhaitzetik. ESC gelditzen da
+ui	削除: y で確かめる。印・範囲をまとめて	Ezabatu: berretsi y-rekin. Markak eta barrutiak aldi berean. Karpetak euren edukiarekin
 ui	フォルダを削除（中身ごと）	Ezabatu karpeta bat (bere edukiarekin)
 ui	名前を変える（今の名前を直して Enter）	Aldatu izena (editatu izena, Sartu)
 ui	属性: R 読み出し専用・H 隠し・S システム・A アーカイブ	Atributuak: R irakurtzeko soilik, H ezkutua, S sistema, A artxiboa
@@ -50,22 +50,19 @@ ui	画面（Alt+F。FD の F キーとぶつからない）	Pantaila (Alt+F, ez 
 ui	FB（絵）/ テキスト面を出す・隠す	Erakutsi / ezkutatu FB (irudia) / testua
 ui	FB の表示ページ（0〜3）	FB bistaratzeko orria (0-3)
 ui	FB を 0 で消す / 明るさを 1/2 に（RGB555）	Garbitu FBa 0ra / erdira murriztu bere distira (RGB555)
-ui	USB のエンドポイントと LAN の状態	USB amaierako puntuak eta LAN egoera
+ui	USB のエンドポイントと LAN（U: 10 秒に 1 度）	USB amaierako puntuak eta LAN egoera
 ui	FB の表示ページを消す / 明るさを 1/2 に	Garbitu FB pantaila orria / erdira murriztu bere distira
 ui	テキストの属性の見本	Testu-atributuen laginak
 ui	モニタの EDID（起動時に読んだもの）	Monitoreatu EDID (abiaraztean irakurri)
 ui	フォント ROM のライセンスとクレジット	Font ROM lizentziak eta kredituak
 ui	設定（表示の言語・IME・キーボードロケール）	Ezarpenak (bistaratzeko hizkuntza, IME eta teklatuaren lokalizazioa)
-ui	時計（NTP で合わせた日本時間。s ですぐ合わせる）	Erlojua (Japoniako ordua NTPk ezarrita; s sinkronizatzen da orain)
+ui	時計（NTP で合わせた日本時間。s は 3 分に 1 度）	Erlojua (Japoniako ordua NTPk ezarrita; s sinkronizatzen da orain)
 ui	表計算（SGCALC）を開く	Ireki kalkulu-orria (SGCALC)
 ui	S: ドライブのエラー検査（誤りがあれば直すか聞く）	Egiaztatu S: akatsak ikusteko (galdetzen du konpondu aurretik)
 ui	トラッカー（TRACKER）を開く	Ireki TRACKER
-ui	再起動（確かめの窓が出る）	Berrabiarazi (galdetzen du lehenik)
+ui	再起動（確かめの窓）。Ctrl+Alt+Del も同じ	Berrabiarazi (galdetzen du lehenik) = Ctrl+Alt+Del
 ui	ADC のステレオ入力（GP40 / 41）を鳴らす	Erreproduzitu ADC sarrera estereoa (GP40 / 41)
 ui	VGM/VGZ を 96kHz/24bit WAV に書き出す	Esportatu VGM/VGZ 96 kHz/24 biteko WAV batera
-ui	このヘルプ	Laguntza hau
-ui	ページを替える	Aldatu orria
-ui	閉じる	Itxi
 ui	テキスト・16 進のビュアー（less 風）	Testu/hex ikuslea (gutxiago bezala)
 ui	1 行	Lerro bat
 ui	1 ページ	Orrialde bat
@@ -83,10 +80,9 @@ ui	IME の言語（日本語 / English / 한국어）	IME hizkuntza (japoniera /
 ui	ひらがな / カタカナで確定	Konprometitu hiragana / katakana gisa
 ui	エディタのヘルプ	Editorearen laguntza
 ui	シェル	Maskorra
-ui	シェル（csh のサブセット。exit / Ctrl-D で戻る、help で一覧）	Shell (csh azpimultzo bat. Irten / Ctrl-D itzultzeko, laguntza komandoak zerrendatzen ditu)
+ui	シェル（csh の一部。exit / Ctrl-D で戻る、help で一覧）	Shell (csh azpimultzo bat. Irten / Ctrl-D itzultzeko, laguntza komandoak zerrendatzen ditu)
 ui	一覧と移動	Zerrenda eta mugitzea
 ui	ファイルの操作	Fitxategien eragiketak
-ui	画面と機器	Pantaila eta gailuak
 ui	ビュアーとエディタ	Ikusleak eta editorea
 ui	ヘルプ  %u / %u  %s	Laguntza %u / %u %s
 ui	Left Right: ページを替える    F1 / ESC: 閉じる	Ezker Eskuin: orria aldatu F1 / ESC: itxi
@@ -147,9 +143,9 @@ ui	10 EP表	10 EP
 ui	11 時計	11 Clock
 ui	12 表計	12 CALC
 ui	1 属性	1 Atr
-ui	2 情報	2 Info
+ui	2Drv情報	2 Info
 ui	3 移動	3 Mugitu
-ui	5 作成	5 Mkdir
+ui	5 ﾌｫﾙﾀﾞ	5 Mkdir
 ui	6 シェル	6 Shell
 ui	8 編集	8 Edit
 ui	9 表示	9 Ikusi
@@ -187,10 +183,10 @@ ui	新しいファイル	Fitxategi berria
 ui	時刻:	Ordua:
 ui	実行:	Korrika:
 ui	名前:	Izena:
-ui	年-月-日 時:分  Enter 合わせる  ESC そのまま	YYYY-MM-DD hh:mm Sartu ezarri ESC keep
-ui	Enter 走らせる  ←→ 動かす  BS / Del 消す  ESC やめる	Sartu run <-> mugitu BS / Ezabatu ezabatu ESC bertan behera
-ui	Enter 変える  ←→ 動かす  BS / Del 消す  ESC やめる	Sartu aldatu izena <-> mugitu BS / Ezabatu ezabatu ESC bertan behera
-ui	Enter 作る  ←→ 動かす  BS / Del 消す  ESC やめる	Sartu sortu <-> mugitu BS / Ezabatu ezabatu ESC ezeztatu
+ui	年-月-日 時:分  Enter 合わせる  ESC そのまま	UUUU-HH-EE oo:mm  Enter ezarri  ESC mantendu
+ui	Enter 走らせる  ←→ 動かす  BS / Del 消す  ESC やめる	Enter exekutatu  ←→ mugitu  BS / Del ezabatu  ESC utzi
+ui	Enter 変える  ←→ 動かす  BS / Del 消す  ESC やめる	Enter aldatu izena ←→ mugitu BS/Del ezabatu ESC utzi
+ui	Enter 作る  ←→ 動かす  BS / Del 消す  ESC やめる	Enter sortu  ←→ mugitu  BS / Del ezabatu  ESC utzi
 ui	消す	Ezabatu
 ui	個の項目	elementuak
 ui	フォルダは中身ごと消します。よろしいですか？	Karpetak euren edukiarekin ezabatzen dira. Ziur al zaude?
@@ -344,7 +340,7 @@ ui	 組み立てています... %lu / %lu 行	Eraikuntza... %lu / %lu errenkadak
 ui	 書いています... %lu / %lu KB（FB は隠しています）	Idazten... %lu / %lu KB (FB ezkutatuta dago)
 ui	書けませんでした	Ezin izan da idatzi
 ui	書庫の名前（印の付いた項目、無ければカーソルの項目を入れる）	Artxiboaren izena (markatutako elementuak edo kurtsorearen elementua ez bada)
-ui	Enter 圧縮する  ←→ 動かす  BS / Del 消す  ESC やめる	Sartu konprimitu ←→ mugitu BS / Ezabatu ezabatu ESC bertan behera
+ui	Enter 圧縮する  ←→ 動かす  BS / Del 消す  ESC やめる	Enter konprimatu  ←→ mugitu  BS/Del ezabatu  ESC utzi
 ui	WAV 書き出し: %s 中止（%s）	WAV esportazioa: %s bertan behera (%s)
 ui	WAV 書き出し: %s 失敗（%s）	WAV esportazioa: %s huts egin du (%s)
 ui	WAV 書き出し: %s 合計 %s	WAV esportazioa: %s guztira %s
@@ -487,9 +483,9 @@ msg.phrase	the sound is not open	soinua ez da irekia
 msg.phrase	no such channel	halako kanalik ez
 msg.phrase	the sequencer is busy	sekuentziatzailea lanpetuta dago
 msg.phrase	not enough PSRAM for the song	abestirako PSRAM nahikoa ez
-msg.phrase	not a standard MIDI file (no MThd)	ez MIDI fitxategi estandarra (ez MThd)
-msg.phrase	no tracks	pistarik ez
-msg.phrase	a track is broken (MTrk)	pista bat hautsi da (MTrk)
+msg.phrase	not a standard MIDI file (no MThd)	ez da MIDI fitxategi estandarra (MThd falta da)
+msg.phrase	no tracks	ez dago pistarik
+msg.phrase	a track is broken (MTrk)	pista bat hondatuta dago (MTrk)
 msg.phrase	SMPTE time division is not supported	SMPTE denbora-zatiketa ez da onartzen
 msg.phrase	SMF format 2 is not supported (0 and 1 only)	SMF 2 formatua ez da onartzen (0 eta 1 soilik)
 msg.phrase	not a Bulk-Only drive	ez Bulk-Only disko bat
@@ -510,7 +506,7 @@ msg.phrase	cancelled	bertan behera utzi
 msg.phrase	could not mount	ezin muntatu
 msg.phrase	could not start a read	ezin izan da irakurketa bat hasi
 msg.phrase	could not start a write	ezin izan da idazten hasi
-msg.phrase	is a directory	direktorio bat da
+msg.phrase	is a directory	karpeta bat da
 msg.phrase	that is a directory	hori direktorio bat da
 msg.phrase	no clusters	klusterrik ez
 msg.phrase	no room for the cluster list	kluster zerrendarako lekurik ez
@@ -547,7 +543,7 @@ msg.phrase	Not supported on this drive	Ez da onartzen disko honetan
 msg.phrase	Invalid path	Bide baliogabea
 msg.phrase	Out of memory	Memoriatik kanpo
 msg.phrase	No such drive	Ez dago horrelako diskorik
-msg.phrase	stopped	gelditu zen
+msg.phrase	stopped	geldituta
 msg.phrase	cancelled (not enough free space)	bertan behera (ez dago leku libre nahikoa)
 msg.phrase	could not count the free space	ezin izan du espazio librea zenbatu
 msg.phrase	the receiver cancelled	hartzaileak bertan behera utzi zuen
@@ -622,9 +618,9 @@ msg.word	 rows	errenkadak
 msg.word	 -- not supported yet (FAT / exFAT / NTFS only)	-- oraindik ez da onartzen (FAT / exFAT / NTFS soilik)
 msg.word	 files	fitxategiak
 msg.word	 (	(
-msg.phrase	Untitled	Izenbururik gabe
+msg.phrase	Untitled	Izengabea
 msg.phrase	1 File	1 Fitxategia
-msg.phrase	2 Edit	2 Editatu
+msg.phrase	2 Edit	2 Editat
 msg.phrase	3 Graph	3 Grafikoa
 msg.phrase	4 Sheet	4 fitxa
 msg.phrase	5 Help	5 Laguntza
@@ -632,7 +628,7 @@ msg.phrase	EMPTY	HUTSIK
 msg.phrase	NUMBER	ZENBAKIA
 msg.phrase	TEXT	TESTUA
 msg.phrase	FORMULA	FORMULA
-msg.phrase	Type to enter, F2 to edit, F1 for help	Idatzi sartzeko, F2 editatzeko, F1 laguntza lortzeko
+msg.phrase	Type to enter, F2 to edit, F1 for help	Idatzi sartzeko, F2 editatzeko, F1 laguntzarako
 msg.phrase	5 CSV	5 CSV
 msg.phrase	6 ODS	6 ODS
 msg.phrase	[SHIFT]	[SHIFT]
@@ -641,260 +637,260 @@ msg.phrase	[ALT]	[ALT]
 msg.phrase	Ready	Prest
 msg.phrase	SGCALC	SGCALC
 msg.phrase	Press any key	Sakatu edozein tekla
-msg.phrase	Y = yes    N = no    Esc = cancel	Y = bai N = ez Esc = ezeztatu
-msg.phrase	Enter = OK    Esc = cancel    Ctrl-U = clear	Sartu = Ados Esc = ezeztatu Ctrl-U = garbitu
-msg.phrase	First row/column = labels; charts use the 640x480 CLUT8 FB.	Lehen errenkada/zutabea = etiketak; diagramek 640x480 CLUT8 FB erabiltzen dute.
-msg.phrase	SGCALC - HELP	SGALC - LAGUNTZA
+msg.phrase	Y = yes    N = no    Esc = cancel	Y = bai    N = ez    Esc = utzi
+msg.phrase	Enter = OK    Esc = cancel    Ctrl-U = clear	Enter = Ados    Esc = utzi    Ctrl-U = garbitu
+msg.phrase	First row/column = labels; charts use the 640x480 CLUT8 FB.	Lehen errenkada/zutabea = etiketak; grafikoek 640x480 CLUT8 FB erabiltzen dute.
+msg.phrase	SGCALC - HELP	SGCALC - LAGUNTZA
 msg.phrase	Press any key to return	Sakatu edozein tekla itzultzeko
 msg.phrase	Press any key to return.	Sakatu edozein tekla itzultzeko.
-msg.phrase	ABOUT SGCALC	SGCALC BURUZ
+msg.phrase	ABOUT SGCALC	SGCALC-I BURUZ
 msg.phrase	New	Berria
-msg.phrase	Start a new sheet	Hasi orri berri bat
+msg.phrase	Start a new sheet	Hasi orri berria
 msg.phrase	Open...	Ireki...
 msg.phrase	Open an ODS, FODS or CSV file	Ireki ODS, FODS edo CSV fitxategi bat
 msg.phrase	Save	Gorde
 msg.phrase	Save the current file	Gorde uneko fitxategia
 msg.phrase	Save As...	Gorde honela...
-msg.phrase	Save with a new name or format	Gorde izen edo formatu berri batekin
+msg.phrase	Save with a new name or format	Gorde izen edo formatu berriarekin
 msg.phrase	Export CSV...	Esportatu CSV...
 msg.phrase	Write a CSV copy	Idatzi CSV kopia bat
 msg.phrase	Export ODS...	Esportatu ODS...
 msg.phrase	Write a LibreOffice copy	Idatzi LibreOffice kopia bat
 msg.phrase	Quit	Irten
-msg.phrase	Leave SGCALC	Utzi SGCALC
-msg.phrase	Clear	Garbi
+msg.phrase	Leave SGCALC	Irten SGCALC-etik
+msg.phrase	Clear	Garbitu
 msg.phrase	Clear the selected cells	Garbitu hautatutako gelaxkak
 msg.phrase	Copy	Kopiatu
 msg.phrase	Copy the selection	Kopiatu hautapena
 msg.phrase	Paste	Itsatsi
 msg.phrase	Paste at the cursor	Itsatsi kurtsorean
-msg.phrase	Cut	Moztu
+msg.phrase	Cut	Ebaki
 msg.phrase	Copy and clear the selection	Kopiatu eta garbitu hautapena
-msg.phrase	Select all	Hautatu guztiak
+msg.phrase	Select all	Hautatu dena
 msg.phrase	Select all used cells	Hautatu erabilitako gelaxka guztiak
 msg.phrase	Text color...	Testuaren kolorea...
 msg.phrase	Choose the text colour	Aukeratu testuaren kolorea
-msg.phrase	Background...	Atzeko planoa...
-msg.phrase	Choose the cell background	Aukeratu gelaxka atzeko planoa
+msg.phrase	Background...	Atzealdea...
+msg.phrase	Choose the cell background	Aukeratu gelaxkaren atzealdea
 msg.phrase	Line	Lerroa
-msg.phrase	Draw a line graph from the selection	Marraztu lerro-grafiko bat hautapenetik
-msg.phrase	Bar	Taberna
-msg.phrase	Draw a bar graph from the selection	Marraztu barra-grafiko bat hautapenetik
+msg.phrase	Draw a line graph from the selection	Marraztu lerro-grafikoa hautapenetik
+msg.phrase	Bar	Barra
+msg.phrase	Draw a bar graph from the selection	Marraztu barra-grafikoa hautapenetik
 msg.phrase	Mixed	Mistoa
-msg.phrase	Bars for the first series, lines for the rest	Lehen serierako barrak, gainontzeko lerroak
+msg.phrase	Bars for the first series, lines for the rest	Barrak lehen seriean, lerroak gainerakoetan
 msg.phrase	Pie	Tarta
-msg.phrase	Draw a pie graph from the selection	Marraztu tarte grafiko bat hautapenetik
-msg.phrase	Range...	Sorta...
-msg.phrase	Set the graph range explicitly	Ezarri grafikoaren barrutia esplizituki
+msg.phrase	Draw a pie graph from the selection	Marraztu tarta-grafikoa hautapenetik
+msg.phrase	Range...	Barrutia...
+msg.phrase	Set the graph range explicitly	Ezarri grafikoaren barrutia eskuz
 msg.phrase	Draw again	Marraztu berriro
 msg.phrase	Redraw the last graph	Marraztu berriro azken grafikoa
 msg.phrase	Goto...	Joan...
 msg.phrase	Jump to a cell (for example C12)	Joan gelaxka batera (adibidez C12)
-msg.phrase	Column width...	Zutabearen zabalera...
+msg.phrase	Column width...	Zutabe-zabalera...
 msg.phrase	Change the selected columns' width	Aldatu hautatutako zutabeen zabalera
-msg.phrase	Row height...	Errenkaden altuera...
-msg.phrase	Change the selected rows' height	Aldatu hautatutako errenken altuera
-msg.phrase	Auto fit	Auto-egokitzea
-msg.phrase	Fit widths/heights to the contents (F7)	Egokitu zabalerak/altuerak edukiari (F7)
-msg.phrase	Recalculate	Berriro kalkulatu
-msg.phrase	Re-evaluate all formulas	Berriz ebaluatu formula guztiak
-msg.phrase	Erase all	Ezabatu guztiak
+msg.phrase	Row height...	Errenkadaren altuera...
+msg.phrase	Change the selected rows' height	Aldatu hautatutako errenkaden altuera
+msg.phrase	Auto fit	Doitu
+msg.phrase	Fit widths/heights to the contents (F7)	Doitu zabalerak/altuerak edukira (F7)
+msg.phrase	Recalculate	Birkalkulatu
+msg.phrase	Re-evaluate all formulas	Birkalkulatu formula guztiak
+msg.phrase	Erase all	Ezabatu dena
 msg.phrase	Clear the whole sheet	Garbitu orri osoa
-msg.phrase	Keys	Giltzak
-msg.phrase	Show the key guide	Erakutsi giltza-gida
-msg.phrase	About	Buruz
+msg.phrase	Keys	Teklak
+msg.phrase	Show the key guide	Erakutsi teklen gida
+msg.phrase	About	Honi buruz
 msg.phrase	About SGCALC	SGCALC-i buruz
 msg.phrase	File	Fitxategia
 msg.phrase	Edit	Editatu
 msg.phrase	Graph	Grafikoa
-msg.phrase	Sheet	Fitxa
+msg.phrase	Sheet	Orria
 msg.phrase	Help	Laguntza
 msg.phrase	File: new, open, save, export, quit	Fitxategia: berria, ireki, gorde, esportatu, irten
-msg.phrase	Edit: clear, copy, paste, cut, select all	Editatu: garbitu, kopiatu, itsatsi, moztu, hautatu guztiak
-msg.phrase	Graph: line, bar, mixed, pie (draws in the FB)	Grafikoa: lerroa, barra, mistoa, tarta (marrazten du FBn)
-msg.phrase	Sheet: goto, column width, recalculate, erase	Fitxa: joan, zutabearen zabalera, birkalkulatu, ezabatu
-msg.phrase	Help: keys and about	Laguntza: giltzak eta buruz
+msg.phrase	Edit: clear, copy, paste, cut, select all	Editatu: garbitu, kopiatu, itsatsi, ebaki, hautatu dena
+msg.phrase	Graph: line, bar, mixed, pie (draws in the FB)	Grafikoa: lerroa, barra, mistoa, tarta (FB-n)
+msg.phrase	Sheet: goto, column width, recalculate, erase	Orria: joan, zutabe-zabalera, birkalkulatu, ezabatu
+msg.phrase	Help: keys and about	Laguntza: teklak eta honi buruz
 msg.phrase	Left/Right = menu    Up/Down = item    Enter = choose    Esc = cancel	Ezkerra/Eskuinera = menua Gora/Behera = elementua Sartu = aukeratu Esc = ezeztatu
-msg.phrase	Cancelled	Bertan behera utzita
-msg.phrase	The selection is too large or memory is low.	Hautaketa handiegia da edo memoria gutxi dago.
+msg.phrase	Cancelled	Utzita
+msg.phrase	The selection is too large or memory is low.	Hautapena handiegia da edo memoria ez da nahikoa.
 msg.phrase	the cell	zelula
 msg.phrase	the selection	hautaketa
-msg.phrase	Nothing to paste	Ezer itsatsi beharrik
+msg.phrase	Nothing to paste	Ez dago itsasteko ezer
 msg.phrase	Pasted	Itsatsita
-msg.phrase	GO TO CELL	JOAN ZELULARA
-msg.phrase	Cell reference (A1):	Gelaxka erreferentzia (A1):
-msg.phrase	Goto	Joan zaitez
-msg.phrase	COLUMN WIDTH	ZUTABEAREN ZABALERA
-msg.phrase	Width in characters (4..30):	Zabalera karaktereetan (4..30):
-msg.phrase	ROW HEIGHT	ERRENALAREN ALTUERA
-msg.phrase	Height in text rows (1..8):	Altuera testu-lerroetan (1..8):
-msg.phrase	Auto fit: the sheet is empty	Auto-egokitzea: orria hutsik dago
-msg.phrase	BACKGROUND COLOUR	ATZEKO KOLOREA
+msg.phrase	GO TO CELL	JOAN GELAXKARA
+msg.phrase	Cell reference (A1):	Gelaxka-erreferentzia (A1):
+msg.phrase	Goto	Joan
+msg.phrase	COLUMN WIDTH	ZUTABE-ZABALERA
+msg.phrase	Width in characters (4..30):	Zabalera karakteretan (4..30):
+msg.phrase	ROW HEIGHT	ERRENKADAREN ALTUERA
+msg.phrase	Height in text rows (1..8):	Altuera testu-lerrotan (1..8):
+msg.phrase	Auto fit: the sheet is empty	Doitu: orria hutsik dago
+msg.phrase	BACKGROUND COLOUR	ATZEALDEKO KOLOREA
 msg.phrase	TEXT COLOUR	TESTUAREN KOLOREA
-msg.phrase	Arrows: choose    Enter: apply    Esc: cancel	Geziak: aukeratu Sartu: aplikatu Esc: bertan behera
-msg.phrase	Colour index (PC-98 16-colour palette)	Kolore-indizea (PC-98 16 kolore-paleta)
+msg.phrase	Arrows: choose    Enter: apply    Esc: cancel	Geziak: aukeratu    Enter: aplikatu    Esc: utzi
+msg.phrase	Colour index (PC-98 16-colour palette)	Kolore-zenbakia (PC-98ren 16 koloreko paleta)
 msg.phrase	Aa 123	Aa 123
-msg.phrase	Enter = apply    Esc = cancel	Sartu = aplikatu Esc = ezeztatu
+msg.phrase	Enter = apply    Esc = cancel	Enter = aplikatu    Esc = utzi
 msg.phrase	Colour	Kolorea
 msg.phrase	Background	Aurrekariak
 msg.phrase	Text	Testua
-msg.phrase	GRAPH RANGE	GRAFIKO BARRUA
+msg.phrase	GRAPH RANGE	GRAFIKOAREN BARRUTIA
 msg.phrase	Range (for example A1:C10):	Barrutia (adibidez A1:C10):
-msg.phrase	Graph range	Grafiko-barrutia
-msg.phrase	Use a range such as A1:C10.	Erabili A1:C10 bezalako barruti bat.
+msg.phrase	Graph range	Grafikoaren barrutia
+msg.phrase	Use a range such as A1:C10.	Idatzi A1:C10 bezalako barruti bat.
 msg.phrase	Cannot draw the graph.	Ezin da grafikoa marraztu.
 msg.phrase	line	lerroa
 msg.phrase	bar	taberna
 msg.phrase	mixed	mistoa
 msg.phrase	pie	tarta
-msg.phrase	Clear every cell in this sheet?	Orri honetako gelaxka guztiak garbitu nahi dituzu?
+msg.phrase	Clear every cell in this sheet?	Orri honetako gelaxka guztiak garbitu?
 msg.phrase	Sheet erased	Orria ezabatu da
 msg.phrase	Selected all used cells	Erabilitako gelaxka guztiak hautatu dira
-msg.phrase	Recalculated	Berriz kalkulatua
+msg.phrase	Recalculated	Birkalkulatuta
 msg.phrase	Memory	Memoria
-msg.phrase	Not enough PSRAM for the spreadsheet.	Ez dago PSRAM nahikoa kalkulu-orrirako.
+msg.phrase	Not enough PSRAM for the spreadsheet.	Ez dago kalkulu-orrirako PSRAM nahikorik.
 msg.phrase	The sheet is empty.	Orria hutsik dago.
-msg.phrase	No numeric data in the selected range.	Ez dago zenbakizko daturik hautatutako barrutian.
-msg.phrase	Other	Bestela
-msg.phrase	No positive values for a pie chart	Ez dago balio positiborik tarte-diagramarako
+msg.phrase	No numeric data in the selected range.	Hautatutako barrutian ez dago zenbakirik.
+msg.phrase	Other	Besteak
+msg.phrase	No positive values for a pie chart	Ez dago balio positiborik tarta-grafikorako
 msg.phrase	LINE	LERROA
-msg.phrase	BAR	TABERNA
-msg.phrase	MIXED	NAHASI
+msg.phrase	BAR	BARRA
+msg.phrase	MIXED	MISTOA
 msg.phrase	PIE	TARTA
 msg.phrase	S:/	S:/
 msg.phrase	Folder	Karpeta
-msg.phrase	SAVE AS	GORDE AS
-msg.phrase	OPEN FILE	FITXATEGIA IREKI
+msg.phrase	SAVE AS	GORDE HONELA
+msg.phrase	OPEN FILE	IREKI FITXATEGIA
 msg.phrase	LibreOffice / CSV	LibreOffice / CSV
-msg.phrase	ODS  FODS  CSV	ODS FODS CSV
+msg.phrase	ODS  FODS  CSV	ODS  FODS  CSV
 msg.phrase	Name:	Izena:
 msg.phrase	(type a name, or choose below)	(idatzi izen bat edo aukeratu behean)
 msg.phrase	Name	Izena
 msg.phrase	Size	Tamaina
-msg.phrase	Enter=save  Left=up  Right/Enter on [DIR]=open  Tab=drive  Esc=cancel	Sartu=gorde Ezkerra=gora Eskuinera/Sartu [DIR]=ireki fitxa=unitatea Esc=ezeztatu
-msg.phrase	Enter=open  Left=up  Right/Enter on [DIR]=open  Tab=drive  Esc=cancel	Sartu=ireki Ezkerra=gora Eskuinera/Sartu [DIR]=ireki fitxa=unitatea Esc=ezeztatu
-msg.phrase	Not enough memory.	Memoria nahikoa ez.
+msg.phrase	Enter=save  Left=up  Right/Enter on [DIR]=open  Tab=drive  Esc=cancel	Enter=gorde  ←=gora  →/Enter [DIR]-en=ireki  Tab=unitatea  Esc=utzi
+msg.phrase	Enter=open  Left=up  Right/Enter on [DIR]=open  Tab=drive  Esc=cancel	Enter=ireki  ←=gora  →/Enter [DIR]-en=ireki  Tab=unitatea  Esc=utzi
+msg.phrase	Not enough memory.	Memoria ez da nahikoa.
 msg.phrase	Overwrite	Gainidatzi
 msg.phrase	Open	Ireki
-msg.phrase	The file is too large (limit 8 MB).	Fitxategia handiegia da (8 MBko muga).
-msg.phrase	Not enough memory to read the file.	Ez dago memoria nahikoa fitxategia irakurtzeko.
-msg.phrase	Bad ZIP/ODS data.	ZIP/ODS datu txarrak.
+msg.phrase	The file is too large (limit 8 MB).	Fitxategia handiegia da (muga 8 MB).
+msg.phrase	Not enough memory to read the file.	Ez dago fitxategia irakurtzeko memoria nahikorik.
+msg.phrase	Bad ZIP/ODS data.	ZIP/ODS datu hondatuak.
 msg.phrase	CRC error in the ODS file.	CRC errorea ODS fitxategian.
-msg.phrase	Unsupported or damaged file.	Onartu gabeko edo hondatutako fitxategia.
+msg.phrase	Unsupported or damaged file.	Fitxategia ez da onartzen edo hondatuta dago.
 msg.phrase	Saved	Gorde
 msg.phrase	Exported	Esportatua
 msg.phrase	Unsaved changes	Gorde gabeko aldaketak
-msg.phrase	Save the current sheet before continuing?	Jarraitu aurretik uneko orria gorde nahi duzu?
-msg.phrase	New sheet	Fitxa berria
+msg.phrase	Save the current sheet before continuing?	Uneko orria gorde jarraitu aurretik?
+msg.phrase	New sheet	Orri berria
 msg.phrase	SGTRK	SGTRK
-msg.phrase	UNTITLED	TITULIK GABE
+msg.phrase	UNTITLED	UNTITLED
 msg.phrase	song is too large	abestia handiegia da
 msg.phrase	empty file	fitxategi hutsa
-msg.phrase	not an SGT file	ez SGT fitxategi bat
-msg.phrase	bad BPM	BPM txarra
-msg.phrase	bad speed	abiadura txarra
-msg.phrase	bad title length	tituluaren luzera txarra
-msg.phrase	truncated title	titulu moztua
-msg.phrase	bad character in title	pertsonaia txarra izenburuan
+msg.phrase	not an SGT file	ez da SGT fitxategia
+msg.phrase	bad BPM	BPM okerra
+msg.phrase	bad speed	abiadura okerra
+msg.phrase	bad title length	izenburuaren luzera okerra
+msg.phrase	truncated title	izenburu moztua
+msg.phrase	bad character in title	karaktere baliogabea izenburuan
 msg.phrase	truncated order	ordena moztua
-msg.phrase	bad order length	eskaeraren luzera txarra
-msg.phrase	bad pattern number in order	eredu-zenbaki txarra ordenan
-msg.phrase	truncated pattern list	ereduen zerrenda moztuta
-msg.phrase	bad pattern count	ereduen zenbaketa txarra
-msg.phrase	bad pattern index	eredu txarraren indizea
-msg.phrase	duplicate pattern	eredu bikoiztua
-msg.phrase	truncated pattern data	eredu moztutako datuak
-msg.phrase	invalid pattern data	ereduaren datu baliogabeak
-msg.phrase	trailing data in file	fitxategiko azken datuak
-msg.phrase	order refers to a missing pattern	ordena falta den eredu bati egiten dio erreferentzia
+msg.phrase	bad order length	ordenaren luzera okerra
+msg.phrase	bad pattern number in order	pattern-zenbaki okerra ordenan
+msg.phrase	truncated pattern list	pattern-zerrenda moztua
+msg.phrase	bad pattern count	pattern kopuru okerra
+msg.phrase	bad pattern index	pattern-indize okerra
+msg.phrase	duplicate pattern	pattern bikoiztua
+msg.phrase	truncated pattern data	pattern-datu moztuak
+msg.phrase	invalid pattern data	pattern-datu baliogabeak
+msg.phrase	trailing data in file	soberako datuak fitxategiaren amaieran
+msg.phrase	order refers to a missing pattern	ordenak falta den pattern bat aipatzen du
 msg.phrase	A:/	A:/
-msg.phrase	(untitled)	(izenbururik gabe)
-msg.phrase	Ready. Press F1 for help.	Prest. Sakatu F1 laguntza lortzeko.
-msg.phrase	Follow OFF	Jarraitu OFF
-msg.phrase	Nothing to undo	Ez dago ezer desegin
-msg.phrase	Undo	Desegin
-msg.phrase	Note OFF	Oharra OFF
-msg.phrase	Set an effect letter first	Ezarri efektu letra bat lehenik
-msg.phrase	Effect cleared	Efektua garbitu da
-msg.phrase	Parameter cleared	Garbitu da parametroa
-msg.phrase	Note cleared	Oharra garbitu da
-msg.phrase	Instrument cleared	Tresna garbitu da
-msg.phrase	Volume cleared	Bolumena garbitu da
-msg.phrase	Order list is full	Eskaera zerrenda beteta dago
-msg.phrase	Order inserted	Agindua txertatuta
-msg.phrase	Cannot delete the last order	Ezin da azken eskaera ezabatu
-msg.phrase	Order deleted	Eskaera ezabatu da
+msg.phrase	(untitled)	(izengabea)
+msg.phrase	Ready. Press F1 for help.	Prest. Sakatu F1 laguntzarako.
+msg.phrase	Follow OFF	Jarraitu EZ
+msg.phrase	Nothing to undo	Ez dago desegiteko ezer
+msg.phrase	Undo	Desegin da
+msg.phrase	Note OFF	Note off
+msg.phrase	Set an effect letter first	Idatzi lehenik efektuaren letra
+msg.phrase	Effect cleared	Efektua ezabatu da
+msg.phrase	Parameter cleared	Parametroa ezabatu da
+msg.phrase	Note cleared	Nota ezabatu da
+msg.phrase	Instrument cleared	Instrumentua ezabatu da
+msg.phrase	Volume cleared	Bolumena ezabatu da
+msg.phrase	Order list is full	Ordena-zerrenda beteta dago
+msg.phrase	Order inserted	Posizioa txertatu da
+msg.phrase	Cannot delete the last order	Ezin da azken posizioa ezabatu
+msg.phrase	Order deleted	Posizioa ezabatu da
 msg.phrase	Playing song	Abestia jotzen
-msg.phrase	Stopped	Gelditu
+msg.phrase	Stopped	Geldituta
 msg.phrase	New song	Abesti berria
-msg.phrase	Discard unsaved changes and start a new song? (Y/N)	Gorde gabeko aldaketak baztertu eta abesti berri bat hasi nahi duzu? (Y/N)
-msg.phrase	Discard unsaved changes and open a song? (Y/N)	Gorde gabeko aldaketak baztertu eta abesti bat ireki? (Y/N)
-msg.phrase	Discard unsaved changes and quit? (Y/N)	Gorde gabeko aldaketak baztertu eta irten? (Y/N)
-msg.phrase	Song settings updated	Abestien ezarpenak eguneratu dira
-msg.phrase	Filename is empty	Fitxategiaren izena hutsik dago
-msg.phrase	Save cancelled	Gorde bertan behera utzi da
-msg.phrase	Open cancelled	Irekia bertan behera utzi da
-msg.phrase	Edit ON	Editatu ON
-msg.phrase	Edit OFF	Editatu OFF
-msg.phrase	Follow ON	Jarraitu ON
-msg.phrase	Edit is OFF. Press F8 to edit.	Edita desaktibatuta dago. Sakatu F8 editatzeko.
-msg.phrase	I/O error	I/O errorea
+msg.phrase	Discard unsaved changes and start a new song? (Y/N)	Baztertu gorde gabeko aldaketak eta hasi abesti berria? (Y/N)
+msg.phrase	Discard unsaved changes and open a song? (Y/N)	Baztertu gorde gabeko aldaketak eta ireki abesti bat? (Y/N)
+msg.phrase	Discard unsaved changes and quit? (Y/N)	Baztertu gorde gabeko aldaketak eta irten? (Y/N)
+msg.phrase	Song settings updated	Abestiaren ezarpenak aldatu dira
+msg.phrase	Filename is empty	Fitxategi-izena hutsik dago
+msg.phrase	Save cancelled	Gordetzea utzi da
+msg.phrase	Open cancelled	Irekitzea utzi da
+msg.phrase	Edit ON	Edizioa BAI
+msg.phrase	Edit OFF	Edizioa EZ
+msg.phrase	Follow ON	Jarraitu BAI
+msg.phrase	Edit is OFF. Press F8 to edit.	Edizioa desaktibatuta dago. Sakatu F8.
+msg.phrase	I/O error	S/I errorea
 msg.phrase	file is too large	fitxategia handiegia da
 msg.phrase	truncated file	fitxategi moztua
 msg.phrase	SINE PAD	SINE PAD
-msg.phrase	TRIANGLE	TRIANGELUA
-msg.phrase	SAW LEAD	ZERRA BERUNA
-msg.phrase	SQUARE	PLAZA
-msg.phrase	PULSE 25	PULTSUA 25
-msg.phrase	ORGAN	ORGANOA
-msg.phrase	BASS	BAXUA
-msg.phrase	BELL	KANPAIA
-msg.phrase	NOISE	ZARATA
+msg.phrase	TRIANGLE	TRIANGLE
+msg.phrase	SAW LEAD	SAW LEAD
+msg.phrase	SQUARE	SQUARE
+msg.phrase	PULSE 25	PULSE 25
+msg.phrase	ORGAN	ORGAN
+msg.phrase	BASS	BASS
+msg.phrase	BELL	BELL
+msg.phrase	NOISE	NOISE
 msg.phrase	SINE	SINE
-msg.phrase	SAW	ZERRA
+msg.phrase	SAW	SAW
 msg.phrase	OFF	OFF
 msg.phrase	ON	ON
-msg.phrase	ROW	ERRENKA
-msg.phrase	CHAN LEVEL	CHAN MAILA
-msg.phrase	F1 HELP F2 SONG	F1 LAGUNTZA F2 ABESTIA
-msg.phrase	F3 INS  F4 SAVE	F3 INS F4 GORDE
+msg.phrase	ROW	ROW
+msg.phrase	CHAN LEVEL	CHAN LEVEL
+msg.phrase	F1 HELP F2 SONG	F1 HELP F2 SONG
+msg.phrase	F3 INS  F4 SAVE	F3 INS  F4 SAVE
 msg.phrase	F5 PLAY F6 PAT	F5 PLAY F6 PAT
-msg.phrase	F7 STOP F8 EDIT	F7 GELDITU F8 EDIZIOA
-msg.phrase	F9/F10 OCTAVE	F9/F10 UZTARA
-msg.phrase	F11 FOLLOW	F11 JARRAITU
-msg.phrase	F12 QUIT	F12 IRTEN
-msg.phrase	SPACE PLAY/STOP	ESPAZIOA PLAY/STOP
-msg.phrase	CTRL-S SAVE	CTRL-S GORDE
-msg.phrase	CTRL-O OPEN	CTRL-O IREKI
-msg.phrase	C-N NEW C-Z UNDO	C-N BERRIA C-Z UNDO
-msg.phrase	C-C STOP	C-C GELDITU
-msg.phrase	#TRANSPORT AND FILES	#GARRAIOA ETA FITXAK
-msg.phrase	#ORDER LIST	#ESKAERA ZERRENDA
-msg.phrase	#DISPLAY	#PANTALLA
+msg.phrase	F7 STOP F8 EDIT	F7 STOP F8 EDIT
+msg.phrase	F9/F10 OCTAVE	F9/F10 OCTAVE
+msg.phrase	F11 FOLLOW	F11 FOLLOW
+msg.phrase	F12 QUIT	F12 QUIT
+msg.phrase	SPACE PLAY/STOP	SPACE PLAY/STOP
+msg.phrase	CTRL-S SAVE	CTRL-S SAVE
+msg.phrase	CTRL-O OPEN	CTRL-O OPEN
+msg.phrase	C-N NEW C-Z UNDO	C-N NEW C-Z UNDO
+msg.phrase	C-C STOP	C-C STOP
+msg.phrase	#TRANSPORT AND FILES	#ERREPRODUKZIOA ETA FITXATEGIAK
+msg.phrase	#ORDER LIST	#ORDENA-ZERRENDA
+msg.phrase	#DISPLAY	#BISTARATZEA
 msg.phrase	#EDITING	#EDIZIOA
-msg.phrase	#EFFECTS (parameter is hexadecimal)	#EFFECTS (parametroa hamaseitarra da)
-msg.phrase	LEFT/RIGHT PAGE   ENTER OR F1 CLOSE	EZKER/ESKUIN ORRIA SARTU EDO F1 ITXI
+msg.phrase	#EFFECTS (parameter is hexadecimal)	#EFEKTUAK (parametroa hamaseitarra da)
+msg.phrase	LEFT/RIGHT PAGE   ENTER OR F1 CLOSE	LEFT/RIGHT PAGE   ENTER OR F1 CLOSE
 msg.phrase	SONG SETTINGS	ABESTIAREN EZARPENAK
-msg.phrase	UP/DOWN SELECT   LEFT/RIGHT ADJUST   ENTER/F2 CLOSE	GORA/BEHERA HAUTATU EZKERRA/ESKUINA EGOKITU SARTU/F2 ITXI
-msg.phrase	Type to edit the title. Backspace deletes the last character.	Idatzi izenburua editatzeko. Atzera atzera egiteko azken karakterea ezabatzen du.
-msg.phrase	BPM range 32..255. Speed range 1..31.	BPM tartea 32..255. Abiadura tartea 1..31.
-msg.phrase	Pattern effects can also change speed and BPM while playing.	Ereduen efektuek abiadura eta BPM ere alda ditzakete jolasten ari diren bitartean.
-msg.phrase	INSTRUMENTS	TRESNAK
-msg.phrase	UP/DOWN SELECT   SPACE PREVIEW   ENTER USE   F3 CLOSE	GORA/BEHERA AUKERATU ESPAZIOA AURREBISTA SARTU ERABILI F3 ITXI
-msg.phrase	All four channels use wavetable synthesis.	Lau kanalek uhin-taularen sintesia erabiltzen dute.
-msg.phrase	Preview plays C-4 on the track under the edit cursor.	Aurrebistak C-4 erreproduzitzen du editatzeko kurtsorearen azpian dagoen pistan.
-msg.phrase	SAVE SONG AS	GORDE ABESTIA AS
-msg.phrase	ENTER SAVE   F4 OR CTRL-C CANCEL	SARTU GORDE F4 EDO CTRL-C UTZEZ
-msg.phrase	Directory:	Direktorioa:
-msg.phrase	File name:	Fitxategiaren izena:
+msg.phrase	UP/DOWN SELECT   LEFT/RIGHT ADJUST   ENTER/F2 CLOSE	UP/DOWN SELECT   LEFT/RIGHT ADJUST   ENTER/F2 CLOSE
+msg.phrase	Type to edit the title. Backspace deletes the last character.	Idatzi izenburua aldatzeko. Backspace-k azken karakterea ezabatzen du.
+msg.phrase	BPM range 32..255. Speed range 1..31.	BPM 32tik 255era. Abiadura 1etik 31ra.
+msg.phrase	Pattern effects can also change speed and BPM while playing.	Pattern-en efektuek erreprodukzioan abiadura eta BPM ere alda ditzakete.
+msg.phrase	INSTRUMENTS	INSTRUMENTUAK
+msg.phrase	UP/DOWN SELECT   SPACE PREVIEW   ENTER USE   F3 CLOSE	UP/DOWN SELECT   SPACE PREVIEW   ENTER USE   F3 CLOSE
+msg.phrase	All four channels use wavetable synthesis.	Lau kanalek wavetable sintesia erabiltzen dute.
+msg.phrase	Preview plays C-4 on the track under the edit cursor.	Entzuteak C-4 jotzen du kurtsorearen azpiko pistan.
+msg.phrase	SAVE SONG AS	GORDE ABESTIA HONELA
+msg.phrase	ENTER SAVE   F4 OR CTRL-C CANCEL	ENTER SAVE   F4 OR CTRL-C CANCEL
+msg.phrase	Directory:	Karpeta:
+msg.phrase	File name:	Fitxategi-izena:
 msg.phrase	The extension .SGT is added automatically.	.SGT luzapena automatikoki gehitzen da.
-msg.phrase	An existing file can be overwritten.	Lehendik dagoen fitxategi bat gainidatzi daiteke.
-msg.phrase	OPEN SONG	ABESTI IREKIA
-msg.phrase	ENTER OPEN  BS PARENT  CTRL-O/CTRL-C CANCEL	SARTU IREKI BS GURASO CTRL-O/CTRL-C UTZEA
-msg.phrase	(no .SGT files in this folder)	(ez dago .SGT fitxategirik karpeta honetan)
-msg.phrase	CONFIRM	KONFIRMATU
-msg.phrase	Y = YES   N / ENTER / CTRL-C = NO	Y = BAI N / SARTU / CTRL-C = EZ
-msg.phrase	Y = yes        N = no	Y = bai N = ez
+msg.phrase	An existing file can be overwritten.	Lehendik dagoen fitxategia gainidatz daiteke.
+msg.phrase	OPEN SONG	IREKI ABESTIA
+msg.phrase	ENTER OPEN  BS PARENT  CTRL-O/CTRL-C CANCEL	ENTER OPEN  BS PARENT  CTRL-O/CTRL-C CANCEL
+msg.phrase	(no .SGT files in this folder)	(karpeta honetan ez dago .SGT fitxategirik)
+msg.phrase	CONFIRM	BERRETSI
+msg.phrase	Y = YES   N / ENTER / CTRL-C = NO	Y = YES   N / ENTER / CTRL-C = NO
+msg.phrase	Y = yes        N = no	Y = bai        N = ez
 msg.phrase	C-	C-
 msg.phrase	C#	C#
 msg.phrase	D-	D-
@@ -909,197 +905,197 @@ msg.phrase	A#	A#
 msg.phrase	B-	B-
 msg.phrase	A:/dir/name	A:/dir/izena
 msg.phrase	MThd	MThd
-msg.phrase	broken MThd	hautsi MThd
+msg.phrase	broken MThd	MThd hondatuta
 msg.phrase	MIDI IMPORT	MIDI INPORTAZIOA
 msg.phrase	MTrk	MTrk
-msg.phrase	broken delta time	hautsitako delta denbora
-msg.phrase	broken running status	exekutatzeko egoera hautsita
-msg.phrase	broken meta event	hautsitako meta gertaera
-msg.phrase	broken sysex event	hautsitako sysex gertaera
-msg.phrase	broken channel event	hautsitako kanaleko gertaera
+msg.phrase	broken delta time	delta time hondatuta
+msg.phrase	broken running status	running status hondatuta
+msg.phrase	broken meta event	meta gertaera hondatuta
+msg.phrase	broken sysex event	SysEx gertaera hondatuta
+msg.phrase	broken channel event	kanal-gertaera hondatuta
 msg.phrase	SMF output is too small	SMF irteera txikiegia da
 msg.phrase	SMF output is too large	SMF irteera handiegia da
-msg.phrase	the song is too long for SMF	abestia luzeegia da SMFrentzat
+msg.phrase	the song is too long for SMF	abestia luzeegia da SMF-rako
 msg.phrase	TRK1	TRK1
 msg.phrase	%s%d	%s%d
 msg.phrase	%s%d:%s%d	%s%d:%s%d
 msg.phrase	%s	%s
 msg.phrase	%.40s%s	%.40s%s
-msg.phrase	  [%s]   %s	[%s] %s
-msg.phrase	EDIT  	EDIZIOA
+msg.phrase	  [%s]   %s	  [%s]   %s
+msg.phrase	EDIT  	EDIT.
 msg.phrase	READY 	PREST
-msg.phrase	%4d 	%4d
-msg.phrase	%s Sum %.7g N %ld%s	%s Batuketa %.7g N %ld%s
-msg.phrase	ARROWS      move the cell cursor\n	GEZIEK gelaxka kurtsorea mugitzen da
-msg.phrase	SHIFT+ARR   extend the selection (for graphs/copy)\n	SHIFT+ARR aukeraketa zabaltzen du (grafikoetarako/kopiarako)
-msg.phrase	ENTER       edit the cell; in edit, commit and move down\n	SARTU editatu gelaxka; editatzean, konprometitu eta behera mugitu
-msg.phrase	TAB         next cell    SHIFT+TAB  previous cell\n	TAB hurrengo gelaxka MAIUS+TAB aurreko gelaxka
-msg.phrase	DELETE      clear the selected cell(s)    ESC  cancel\n	DELETE garbitu hautatutako gelaxka(k) ESC bertan behera utzi
-msg.phrase	PGUP/PGDN   move one screen    HOME/END  first/last column\n	PGUP/PGDN pantaila bat mugitu HOME/END lehen/azken zutabea
-msg.phrase	CTRL+HOME   A1    CTRL+END  last used cell\n	CTRL+HOME A1 CTRL+END erabilitako azken gelaxka
-msg.phrase	F1 help  F2 edit  F3 copy  F4 paste  F5 goto  F6 colour\n	F1 laguntza F2 editatu F3 kopiatu F4 itsatsi F5 joan F6 kolorera
-msg.phrase	F7 auto-fit  F8 background  F9 recalc  F10 graph  F11 save  F12 menu\n	F7 automatikoki doitzea F8 atzeko planoa F9 birkalkatzea F10 grafikoa F11 gorde F12 menua
-msg.phrase	SHIFT+F1 about  SHIFT+F2 row height  SHIFT+F3 column width\n	SHIFT+F1 SHIFT+F2 errenkaden altuerari buruz SHIFT+F3 zutabearen zabalerari buruz
-msg.phrase	SHIFT+F4 select all  SHIFT+F10 graph range  SHIFT+F11 save as\n	SHIFT+F4 hautatu SHIFT+F10 grafiko-barruti guztiak SHIFT+F11 honela gordetzeko
-msg.phrase	CTRL+F1 new  CTRL+F2 open  CTRL+F3 save  CTRL+F4 save as\n	CTRL+F1 CTRL+F2 berria ireki CTRL+F3 gorde CTRL+F4 gorde honela
-msg.phrase	CTRL+F5 export CSV  CTRL+F6 export ODS  ALT+F12 quit\n	CTRL+F5 esportatu CSV CTRL+F6 esportatu ODS ALT+F12 irten
-msg.phrase	Bottom 2 lines: function keys; [SHIFT]/[CTRL]/[ALT] like the filer\n	Beheko 2 lerroak: funtzio-teklak; [SHIFT]/[CTRL]/[ALT] fitxategia bezala
-msg.phrase	CTRL+S save  CTRL+O open  CTRL+N new  CTRL+C/V/X copy/paste/cut\n	CTRL+S gorde CTRL+O ireki CTRL+N CTRL+C/V/X berria kopiatu/itsatsi/moztu
-msg.phrase	CTRL+G goto    /  open the menu (1 File, 2 Edit, ...)\n	CTRL+G menura joan / ireki (1 Fitxategia, 2 Editatu, ...)
-msg.phrase	Built-in functions: SUM AVERAGE MIN MAX COUNT COUNTA\n	Funtzio integratuak: BATURUZKO BATEZBESTEKO MIN GEH. ZENBAKETA COUNTA
-msg.phrase	PRODUCT ABS SQRT INT ROUND MOD POWER IF AND OR NOT\n	PRODUKTU ABS SQRT INT BORROBILA MOD POWER BADA ETA EDO EZ
-msg.phrase	IFERROR LEN LEFT RIGHT MID UPPER LOWER TRIM CONCATENATE PI\n	IFERROR LEN EZKER ESKUINA MID GOIKO BEHEKO MOZKETA KATENATU PI
-msg.phrase	Cell refs: A1, $A$1, A1:B10.  Formulas begin with '='.\n	Gelaxken erreferentziak: A1, $A$1, A1:B10.  Formulak '='-rekin hasten dira.
-msg.phrase	Files: .ods (LibreOffice), .fods (flat XML), .csv\n	Fitxategiak: .ods (LibreOffice), .fods (XML laua), .csv
-msg.phrase	ODS/FODS keeps formulas, widths, heights and colours.\n	ODS/FODS formulak, zabalerak, altuerak eta koloreak mantentzen ditu.
-msg.phrase	CSV keeps values and formulas (no colours/heights).\n	CSV-k balioak eta formulak gordetzen ditu (kolorerik/altuerarik gabe).
-msg.phrase	Graph: select a range, press F10, and choose Line/Bar/Mixed/Pie.\n	Grafikoa: hautatu barruti bat, sakatu F10 eta aukeratu Line/Bar/Mixed/Pie.
-msg.phrase	SGCALC for sgnano\n	SGCALC sgnanorako
+msg.phrase	%4d 	%4d 
+msg.phrase	%s Sum %.7g N %ld%s	%s Batura %.7g N %ld%s
+msg.phrase	ARROWS      move the cell cursor\n	GEZIAK      mugitu gelaxkaren kurtsorea\n
+msg.phrase	SHIFT+ARR   extend the selection (for graphs/copy)\n	SHIFT+GEZI  zabaldu hautapena (grafikoetarako/kopiatzeko)\n
+msg.phrase	ENTER       edit the cell; in edit, commit and move down\n	ENTER       editatu gelaxka; editatzean, berretsi eta jaitsi\n
+msg.phrase	TAB         next cell    SHIFT+TAB  previous cell\n	TAB         hurrengo gelaxka    SHIFT+TAB  aurreko gelaxka\n
+msg.phrase	DELETE      clear the selected cell(s)    ESC  cancel\n	DELETE      garbitu hautatutako gelaxkak    ESC  utzi\n
+msg.phrase	PGUP/PGDN   move one screen    HOME/END  first/last column\n	PGUP/PGDN   pantaila bat    HOME/END  lehen/azken zutabea\n
+msg.phrase	CTRL+HOME   A1    CTRL+END  last used cell\n	CTRL+HOME   A1    CTRL+END  erabilitako azken gelaxka\n
+msg.phrase	F1 help  F2 edit  F3 copy  F4 paste  F5 goto  F6 colour\n	F1 laguntza  F2 editatu  F3 kopiatu  F4 itsatsi  F5 joan  F6 kolorea\n
+msg.phrase	F7 auto-fit  F8 background  F9 recalc  F10 graph  F11 save  F12 menu\n	F7 doitu  F8 atzealdea  F9 birkalkulatu  F10 grafikoa  F11 gorde  F12 menua\n
+msg.phrase	SHIFT+F1 about  SHIFT+F2 row height  SHIFT+F3 column width\n	SHIFT+F1 honi buruz  SHIFT+F2 errenkadaren altuera  SHIFT+F3 zutabe-zabalera\n
+msg.phrase	SHIFT+F4 select all  SHIFT+F10 graph range  SHIFT+F11 save as\n	SHIFT+F4 hautatu dena  SHIFT+F10 grafiko-barrutia  SHIFT+F11 gorde honela\n
+msg.phrase	CTRL+F1 new  CTRL+F2 open  CTRL+F3 save  CTRL+F4 save as\n	CTRL+F1 berria  CTRL+F2 ireki  CTRL+F3 gorde  CTRL+F4 gorde honela\n
+msg.phrase	CTRL+F5 export CSV  CTRL+F6 export ODS  ALT+F12 quit\n	CTRL+F5 esportatu CSV  CTRL+F6 esportatu ODS  ALT+F12 irten\n
+msg.phrase	Bottom 2 lines: function keys; [SHIFT]/[CTRL]/[ALT] like the filer\n	Beheko 2 lerroak: funtzio-teklak; [SHIFT]/[CTRL]/[ALT] filer-en bezala\n
+msg.phrase	CTRL+S save  CTRL+O open  CTRL+N new  CTRL+C/V/X copy/paste/cut\n	CTRL+S gorde  CTRL+O ireki  CTRL+N berria  CTRL+C/V/X kopiatu/itsatsi/ebaki\n
+msg.phrase	CTRL+G goto    /  open the menu (1 File, 2 Edit, ...)\n	CTRL+G joan    /  ireki menua (1 Fitxategia, 2 Editatu, ...)\n
+msg.phrase	Built-in functions: SUM AVERAGE MIN MAX COUNT COUNTA\n	Funtzio barneratuak: SUM AVERAGE MIN MAX COUNT COUNTA\n
+msg.phrase	PRODUCT ABS SQRT INT ROUND MOD POWER IF AND OR NOT\n	PRODUCT ABS SQRT INT ROUND MOD POWER IF AND OR NOT\n
+msg.phrase	IFERROR LEN LEFT RIGHT MID UPPER LOWER TRIM CONCATENATE PI\n	IFERROR LEN LEFT RIGHT MID UPPER LOWER TRIM CONCATENATE PI\n
+msg.phrase	Cell refs: A1, $A$1, A1:B10.  Formulas begin with '='.\n	Erreferentziak: A1, $A$1, A1:B10.  Formulak '=' ikurrarekin hasten dira.\n
+msg.phrase	Files: .ods (LibreOffice), .fods (flat XML), .csv\n	Fitxategiak: .ods (LibreOffice), .fods (XML laua), .csv\n
+msg.phrase	ODS/FODS keeps formulas, widths, heights and colours.\n	ODS/FODS-ek formulak, zabalerak, altuerak eta koloreak gordetzen ditu.\n
+msg.phrase	CSV keeps values and formulas (no colours/heights).\n	CSV-k balioak eta formulak soilik gordetzen ditu (kolore/altuerarik ez).\n
+msg.phrase	Graph: select a range, press F10, and choose Line/Bar/Mixed/Pie.\n	Grafikoa: hautatu barrutia, F10, eta gero Lerroa/Barra/Mistoa/Tarta.\n
+msg.phrase	SGCALC for sgnano\n	SGCALC for sgnano\n
 msg.phrase	Version 	Bertsioa
-msg.phrase	A Lotus 1-2-3 style spreadsheet as an SGX program.\n\n	Lotus 1-2-3 estiloko kalkulu-orria SGX programa gisa.
+msg.phrase	A Lotus 1-2-3 style spreadsheet as an SGX program.\n\n	Lotus 1-2-3 estiloko kalkulu-orria, SGX programa gisa.\n\n
 msg.phrase	SGX ABI %u.%u\n	SGX ABI %u.%u
-msg.phrase	Screen mode 3: text + CLUT8 FB (lowres disabled)\n	Pantaila modua 3: testua + CLUT8 FB (lowres desgaituta)
+msg.phrase	Screen mode 3: text + CLUT8 FB (lowres disabled)\n	Pantaila-modua 3: testua + CLUT8 FB (lowres geruzarik gabe)\n
 msg.phrase	Sheet: %d rows x %d columns\n	Orria: %d errenkada x %d zutabe
-msg.phrase	Formats: .ods / .fods (LibreOffice), .csv\n\n	Formatuak: .ods / .fods (LibreOffice), .csv
-msg.phrase	The grid is drawn on the text plane.\n	Sarea testu-planoan marraztuta dago.
-msg.phrase	Charts and the 640x480 background use the FB.\n\n	Grafikoek eta 640x480ko atzeko planoek FB erabiltzen dute.
+msg.phrase	Formats: .ods / .fods (LibreOffice), .csv\n\n	Formatuak: .ods / .fods (LibreOffice), .csv\n\n
+msg.phrase	The grid is drawn on the text plane.\n	Sareta testu-geruzan marrazten da.\n
+msg.phrase	Charts and the 640x480 background use the FB.\n\n	Grafikoek eta 640x480 atzealdeak FB erabiltzen dute.\n\n
 msg.phrase	%d %s	%d %s
-msg.phrase	Cannot store the cell (%d).	Ezin da zelula gorde (%d).
-msg.phrase	Copied %d x %d cells	Kopiatu dira %d x %d gelaxkak
+msg.phrase	Cannot store the cell (%d).	Ezin da gelaxka gorde (%d).
+msg.phrase	Copied %d x %d cells	%d x %d gelaxka kopiatu dira
 msg.phrase	Cleared %s	Garbitu %s
-msg.phrase	'%s' is not a cell reference.	'%s' ez da gelaxka-erreferentzia bat.
+msg.phrase	'%s' is not a cell reference.	'%s' ez da gelaxka-erreferentzia.
 msg.phrase	%d	%d
-msg.phrase	Column width = %d	Zutabearen zabalera = %d
-msg.phrase	Row height = %d	Errenkaden altuera = %d
-msg.phrase	Auto fit: %d column(s), %d row(s)	Egokitze automatikoa: %d zutabe(k), %d errenkada(k)
+msg.phrase	Column width = %d	Zutabe-zabalera = %d
+msg.phrase	Row height = %d	Errenkadaren altuera = %d
+msg.phrase	Auto fit: %d column(s), %d row(s)	Doitu: %d zutabe, %d errenkada
 msg.phrase	%2d	%2d
 msg.phrase	Cannot apply the colour (%d).	Ezin da kolorea aplikatu (%d).
 msg.phrase	%s colour = %d	%s kolorea = %d
-msg.phrase	Not a valid range.\nUse a range such as A1:C10.	Ez da baliozko barrutia.\nErabili A1:C10 bezalako barruti bat.
-msg.phrase	Graph range %s	Grafiko-barrutia %s
+msg.phrase	Not a valid range.\nUse a range such as A1:C10.	Barrutia ez da baliozkoa.\nIdatzi A1:C10 bezalako barruti bat.
+msg.phrase	Graph range %s	Grafikoaren barrutia %s
 msg.phrase	Graph: %s	Grafikoa: %s
-msg.phrase	SGCALC: cannot set screen mode 3: %s\n	SGCALC: ezin da ezarri 3. pantaila modua: %s
+msg.phrase	SGCALC: cannot set screen mode 3: %s\n	SGCALC: ezin da 3. pantaila-modua ezarri: %s\n
 msg.phrase	%.2g	%.2g
 msg.phrase	%.6g	%.6g
-msg.phrase	%s  %.0f%%	%s %.0f%%
-msg.phrase	GRAPH  %s  %s	GRAFIKOA %s %s
+msg.phrase	%s  %.0f%%	%s  %.0f%%
+msg.phrase	GRAPH  %s  %s	GRAFIKOA  %s  %s
 msg.phrase	%s%s	%s%s
 msg.phrase	%s/%s	%s/%s
 msg.phrase	%.*s	%.*s
 msg.phrase	%.*s/	%.*s/
 msg.phrase	Cannot read %s\n%s	Ezin da %s irakurri\n%s
 msg.phrase	Folder: %s	Karpeta: %s
-msg.phrase	[DIR] %s	[ZUZ.] %s
-msg.phrase	      %s	%s
+msg.phrase	[DIR] %s	[DIR] %s
+msg.phrase	      %s	      %s
 msg.phrase	%lu.%luM	%lu.%luM
 msg.phrase	%luK	%luK
 msg.phrase	%luB	%luB
-msg.phrase	BOOK1%s	LIBURUA 1%s
+msg.phrase	BOOK1%s	BOOK1%s
 msg.phrase	%c:/	%c:/
-msg.phrase	Unsupported extension.\nUse .csv, .ods or .fods.	Onartzen ez den luzapena.\nErabili .csv, .ods edo .fods.
-msg.phrase	%s already exists.\nOverwrite it?	%s dagoeneko existitzen da.\nGainidatzi?
-msg.phrase	%s may not be writable.\nTry anyway?	Baliteke %s ezin idaztea.\nSaiatu hala ere?
-msg.phrase	Unknown file type for %s	Fitxategi mota ezezaguna %s
-msg.phrase	Unsupported file type.\nUse .csv, .ods or .fods.	Onartu gabeko fitxategi mota.\nErabili .csv, .ods edo .fods.
+msg.phrase	Unsupported extension.\nUse .csv, .ods or .fods.	Luzapena ez da onartzen.\nErabili .csv, .ods edo .fods.
+msg.phrase	%s already exists.\nOverwrite it?	%s badago jada.\nGainidatzi?
+msg.phrase	%s may not be writable.\nTry anyway?	Agian ezin da %s idatzi.\nSaiatu hala ere?
+msg.phrase	Unknown file type for %s	Fitxategi mota ezezaguna: %s
+msg.phrase	Unsupported file type.\nUse .csv, .ods or .fods.	Fitxategi mota ez da onartzen.\nErabili .csv, .ods edo .fods.
 msg.phrase	Cannot open %s\n%s	Ezin da %s ireki\n%s
 msg.phrase	%s is a folder.	%s karpeta bat da.
 msg.phrase	Cannot import %s\n%s	Ezin da %s inportatu\n%s
-msg.phrase	Loaded %s	Kargatu %s
-msg.phrase	Cannot build the %s file.	Ezin da %s fitxategia eraiki.
+msg.phrase	Loaded %s	%s kargatu da
+msg.phrase	Cannot build the %s file.	Ezin da %s fitxategia sortu.
 msg.phrase	Cannot write %s\n%s	Ezin da %s idatzi\n%s
 msg.phrase	%s %s	%s %s
-msg.phrase	unsupported version %u	onartzen ez den bertsioa %u
+msg.phrase	unsupported version %u	onartzen ez den bertsioa (%u)
 msg.phrase	%d:%d:%d:%d:%d:%d	%d:%d:%d:%d:%d:%d
-msg.phrase	Octave %d	Octaba %d
-msg.phrase	Note %s	Oharra %s
+msg.phrase	Octave %d	Zortzidun %d
+msg.phrase	Note %s	Nota %s
 msg.phrase	Instrument %d	Instrumentua %d
 msg.phrase	Volume %s	Bolumena %s
 msg.phrase	Effect %c	Efektua %c
-msg.phrase	Parameter %s	%s parametroa
-msg.phrase	Pattern %s	Eredua %s
-msg.phrase	Playing pattern %s	Jolasteko eredua %s
-msg.phrase	SAVE ERROR: %s	GORDE ERROREA: %s
-msg.phrase	Saved %s	Gorde %s
-msg.phrase	LOAD ERROR: %s	KARGATZEKO ERROREA: %s
+msg.phrase	Parameter %s	Parametroa %s
+msg.phrase	Pattern %s	Pattern %s
+msg.phrase	Playing pattern %s	%s pattern-a jotzen
+msg.phrase	SAVE ERROR: %s	GORDETZE-ERROREA: %s
+msg.phrase	Saved %s	%s gorde da
+msg.phrase	LOAD ERROR: %s	KARGATZE-ERROREA: %s
 msg.phrase	BPM %d	BPM %d
 msg.phrase	Speed %d	Abiadura %d
-msg.phrase	Preview %s	Aurrebista %s
+msg.phrase	Preview %s	Entzun %s
 msg.phrase	Instrument %s %s	Instrumentua %s %s
-msg.phrase	Overwrite %s? (Y/N)	Gainidatzi %s? (Y/N)
-msg.phrase	 | BPM %s SPD %s 	| BPM %s SPD %s
-msg.phrase	 SGNO TRACKER 1.0 | 	SGNO TRACKER 1.0 |
-msg.phrase	FILE 	FITXATEGIA
-msg.phrase	 PAT %s	PAT %s
-msg.phrase	 ORD %d/%d	ORD %d/%d
-msg.phrase	 INS %s 	INS %s
-msg.phrase	 OCT %d	URRI %d
-msg.phrase	 EDIT %s	EDIZIOA %s
-msg.phrase	ON 	ON
-msg.phrase	 FOL %s	FOL %s
-msg.phrase	TRACK %d	PISTA %d
+msg.phrase	Overwrite %s? (Y/N)	%s gainidatzi? (Y/N)
+msg.phrase	 | BPM %s SPD %s 	 | BPM %s SPD %s 
+msg.phrase	 SGNO TRACKER 1.0 | 	 SGNO TRACKER 1.0 | 
+msg.phrase	FILE 	FILE 
+msg.phrase	 PAT %s	 PAT %s
+msg.phrase	 ORD %d/%d	 ORD %d/%d
+msg.phrase	 INS %s 	 INS %s 
+msg.phrase	 OCT %d	 OCT %d
+msg.phrase	 EDIT %s	 EDIT %s
+msg.phrase	ON 	ON 
+msg.phrase	 FOL %s	 FOL %s
+msg.phrase	TRACK %d	TRACK %d
 msg.phrase	%c%s	%c%s
 msg.phrase	%s %s %s %s	%s %s %s %s
-msg.phrase	%s 	%s
+msg.phrase	%s 	%s 
 msg.phrase	%d %s %s	%d %s %s
-msg.phrase	ORDER %d/%d	ESKAERA %d/%d
-msg.phrase	PAT   %s	PAT %s
+msg.phrase	ORDER %d/%d	ORDER %d/%d
+msg.phrase	PAT   %s	PAT   %s
 msg.phrase	INS %s %s	INS %s %s
-msg.phrase	OCT %d  EDIT %s	URRI %d EDIZIOA %s
-msg.phrase	FOLLOW %s	JARRAITU %s
-msg.phrase	PLAYING  ORD %d/%d  PAT %s  ROW %s/%d  SPD %s  BPM %d  F7 STOP	PLAYING ORD %d/%d PAT %s ROW %s/%d SPD %s BPM %d F7 STOP
-msg.phrase	READY  EDIT %s  OCT %d  F1 HELP  F5 PLAY  CTRL-S SAVE	PREST EDIZIOA %s URRI %d F1 LAGUNTZA F5 ERREPRODAGOK KTRL-S GORDE
-msg.phrase	 %s 	%s
-msg.phrase	  F5          Play the song from the current order	F5 Erreproduzitu abestia uneko ordenatik
-msg.phrase	  F6          Play the current pattern	F6 Erreproduzitu uneko eredua
-msg.phrase	  F7/Ctrl-C   Stop playback	F7/Ctrl-C Erreprodukzioa gelditu
-msg.phrase	  Space       Play / stop	Space Play/gelditu
-msg.phrase	  F4          Save as	F4 Gorde honela
-msg.phrase	  Ctrl-S      Save (asks for a name if new)	Ctrl-S Gorde (izen bat eskatzen du berria bada)
-msg.phrase	  Ctrl-O      Open a song	Ktrl-O Ireki abesti bat
-msg.phrase	  Ctrl-N      New song	Ktrl-N Abesti berria
-msg.phrase	  F12         Quit (confirmation if modified)	F12 Irten (berrespena aldatuz gero)
-msg.phrase	  [ ]         Previous / next order entry	[ ] Aurreko / hurrengo eskaera sarrera
-msg.phrase	  { }         Insert / delete an order entry	{ } Sartu / ezabatu eskaera-sarrera
-msg.phrase	  - +         Change the pattern in the entry	- + Aldatu eredua sarreran
-msg.phrase	  F11         Follow playback (turns off on manual move)	F11 Jarraitu erreprodukzioa (eskuzko mugimendua desaktibatu egiten du)
-msg.phrase	  F1          Help; Left/Right changes page	F1 Laguntza; Ezker/Eskuin orrialdea aldatzen du
-msg.phrase	  F8          Toggle edit mode	F8 Aldatu editatzeko modua
-msg.phrase	  Arrows      Move the cursor	Geziak Mugitu kurtsorea
-msg.phrase	  PgUp/PgDn   Jump 16 rows	PgUp/PgDn Salto 16 errenkada
-msg.phrase	  Home/End    First / last row	Hasiera/Amaiera Lehen/azken errenkada
-msg.phrase	  F9/F10      Octave down / up	F9/F10 Octave behera / gora
-msg.phrase	  Z S X D C V G B H N J M      lower piano row	Z S X D C V G B H N J M pianoaren beheko ilara
-msg.phrase	  Q 2 W 3 E R 5 T 6 Y 7 U      upper piano row	Q 2 W 3 E R 5 T 6 Y 7 U pianoaren goiko ilara
-msg.phrase	  1           Note off	1 Oharra desaktibatuta
-msg.phrase	  0 / Del     0 clears note/inst/fx; Del clears any	0 / Del 0 ohar/inst/fx garbitzen du; Delek edozein garbitzen du
-msg.phrase	  Ctrl-Z      Undo the last pattern/order edit	Ktrl-Z Desegin azken eredua/ordenaren edizioa
-msg.phrase	  Axy   Volume slide: up x, down y	Axy Bolumen diapositiba: gora x, behera y
-msg.phrase	  Cxx   Note cut after xx ticks	Cxx Oharra xx ticks ondoren moztuta
-msg.phrase	  Dxx   Set volume (00..7F)	Dxx Ezarri bolumena (00..7F)
-msg.phrase	  Fxx   Speed if xx < 20, otherwise BPM	Fxx Abiadura xx < 20 bada, bestela BPM
-msg.phrase	  Hxy   Arpeggio x, y semitones	Hxy Arpegioa x, y tonu erdiak
-msg.phrase	  Pxx   Pitch slide up	Pxx Pitch irristatu gora
-msg.phrase	  Qxx   Pitch slide down	Qxx Pitch irristatu behera
-msg.phrase	  F2 song settings, F3 instrument list	F2 abestien ezarpenak, F3 instrumentuen zerrenda
-msg.phrase	HELP %d/2	LAGUNTZA %d/2
-msg.phrase	  Title	Izenburua
-msg.phrase	  [%s_]	[%s_]
-msg.phrase	  BPM   : %d     (left/right -1/+1, -/+ -5/+5)	BPM: %d (ezkerrean/eskuinean -1/+1, -/+ -5/+5)
-msg.phrase	  Speed : %d ticks/row	Abiadura: %d ticks/ilara
-msg.phrase	  Rows  : %d (fixed)	Errenkadak: %d (finkoak)
-msg.phrase	  Order : %d entries	Ordena: %d sarrera
-msg.phrase	  Patterns in use : %d	Erabiltzen diren ereduak: %d
-msg.phrase	 #  NAME       WAVE       A   D   S   R  VOL	# IZENA WAVE A D S R VOL
-msg.phrase	 %c %d  %-9s %-9s %3d %3d %3d %3d %4d	%c %d %-9s %-9s %3d %3d %3d %3d %4d
-msg.phrase	Current instrument: %s %s	Egungo tresna: %s %s
-msg.phrase	  %s	%s
-msg.phrase	DIR  %s	DIR %s
-msg.phrase	 %c %s%s	%c %s%s
+msg.phrase	OCT %d  EDIT %s	OCT %d  EDIT %s
+msg.phrase	FOLLOW %s	FOLLOW %s
+msg.phrase	PLAYING  ORD %d/%d  PAT %s  ROW %s/%d  SPD %s  BPM %d  F7 STOP	PLAYING  ORD %d/%d  PAT %s  ROW %s/%d  SPD %s  BPM %d  F7 STOP
+msg.phrase	READY  EDIT %s  OCT %d  F1 HELP  F5 PLAY  CTRL-S SAVE	READY  EDIT %s  OCT %d  F1 HELP  F5 PLAY  CTRL-S SAVE
+msg.phrase	 %s 	 %s 
+msg.phrase	  F5          Play the song from the current order	  F5          Jo abestia uneko posiziotik
+msg.phrase	  F6          Play the current pattern	  F6          Jo uneko pattern-a
+msg.phrase	  F7/Ctrl-C   Stop playback	  F7/Ctrl-C   Gelditu erreprodukzioa
+msg.phrase	  Space       Play / stop	  Space       Jo / gelditu
+msg.phrase	  F4          Save as	  F4          Gorde honela
+msg.phrase	  Ctrl-S      Save (asks for a name if new)	  Ctrl-S      Gorde (berria bada izena eskatzen du)
+msg.phrase	  Ctrl-O      Open a song	  Ctrl-O      Ireki abesti bat
+msg.phrase	  Ctrl-N      New song	  Ctrl-N      Abesti berria
+msg.phrase	  F12         Quit (confirmation if modified)	  F12         Irten (aldaketak badaude galdetzen du)
+msg.phrase	  [ ]         Previous / next order entry	  [ ]         Aurreko / hurrengo posizioa
+msg.phrase	  { }         Insert / delete an order entry	  { }         Txertatu / ezabatu posizioa
+msg.phrase	  - +         Change the pattern in the entry	  - +         Aldatu posizioko pattern-a
+msg.phrase	  F11         Follow playback (turns off on manual move)	  F11         Jarraitu erreprodukzioari (eskuz mugitzean itzaltzen da)
+msg.phrase	  F1          Help; Left/Right changes page	  F1          Laguntza; Ezker/Eskuin orria aldatzen du
+msg.phrase	  F8          Toggle edit mode	  F8          Aktibatu / desaktibatu edizioa
+msg.phrase	  Arrows      Move the cursor	  Geziak      Mugitu kurtsorea
+msg.phrase	  PgUp/PgDn   Jump 16 rows	  PgUp/PgDn   Jauzi 16 errenkada
+msg.phrase	  Home/End    First / last row	  Home/End    Lehen / azken errenkada
+msg.phrase	  F9/F10      Octave down / up	  F9/F10      Zortzidun behera / gora
+msg.phrase	  Z S X D C V G B H N J M      lower piano row	  Z S X D C V G B H N J M      pianoaren beheko errenkada
+msg.phrase	  Q 2 W 3 E R 5 T 6 Y 7 U      upper piano row	  Q 2 W 3 E R 5 T 6 Y 7 U      pianoaren goiko errenkada
+msg.phrase	  1           Note off	  1           Note off
+msg.phrase	  0 / Del     0 clears note/inst/fx; Del clears any	  0 / Del     0 nota/instr./efektua ezabatzen ditu; Del eremua
+msg.phrase	  Ctrl-Z      Undo the last pattern/order edit	  Ctrl-Z      Desegin pattern/ordenaren azken aldaketa
+msg.phrase	  Axy   Volume slide: up x, down y	  Axy   Bolumen-irristatzea: gora x, behera y
+msg.phrase	  Cxx   Note cut after xx ticks	  Cxx   Moztu nota xx tick-en ondoren
+msg.phrase	  Dxx   Set volume (00..7F)	  Dxx   Ezarri bolumena (00..7F)
+msg.phrase	  Fxx   Speed if xx < 20, otherwise BPM	  Fxx   Abiadura xx < 20 bada, bestela BPM
+msg.phrase	  Hxy   Arpeggio x, y semitones	  Hxy   Arpegioa x, y tonuerdi
+msg.phrase	  Pxx   Pitch slide up	  Pxx   Tonu-irristatzea gora
+msg.phrase	  Qxx   Pitch slide down	  Qxx   Tonu-irristatzea behera
+msg.phrase	  F2 song settings, F3 instrument list	  F2 abestiaren ezarpenak, F3 instrumentu-zerrenda
+msg.phrase	HELP %d/2	HELP %d/2
+msg.phrase	  Title	  Izenburua
+msg.phrase	  [%s_]	  [%s_]
+msg.phrase	  BPM   : %d     (left/right -1/+1, -/+ -5/+5)	  BPM   : %d     (ezker/eskuin -1/+1, -/+ -5/+5)
+msg.phrase	  Speed : %d ticks/row	  Abiadura : %d tick errenkadako
+msg.phrase	  Rows  : %d (fixed)	  Errenkadak : %d (finkoa)
+msg.phrase	  Order : %d entries	  Ordena : %d posizio
+msg.phrase	  Patterns in use : %d	  Erabilitako pattern-ak : %d
+msg.phrase	 #  NAME       WAVE       A   D   S   R  VOL	 #  NAME       WAVE       A   D   S   R  VOL
+msg.phrase	 %c %d  %-9s %-9s %3d %3d %3d %3d %4d	 %c %d  %-9s %-9s %3d %3d %3d %3d %4d
+msg.phrase	Current instrument: %s %s	Uneko instrumentua: %s %s
+msg.phrase	  %s	  %s
+msg.phrase	DIR  %s	DIR  %s
+msg.phrase	 %c %s%s	 %c %s%s
 msg.phrase	Files: %d	Fitxategiak: %d
 msg.phrase	%02d	%02d
 msg.phrase	%03d	%03d
 msg.phrase	%02X	%02X
-msg.phrase	SGNO TRACKER: incompatible SGX ABI\n	SGNO TRACKER: SGX ABI bateraezina
+msg.phrase	SGNO TRACKER: incompatible SGX ABI\n	SGNO TRACKER: SGX ABI bateraezina\n
 msg.phrase	S: check: wait -- a file is being read or written	S: egiaztatu: itxaron -- fitxategi bat irakurtzen edo idazten ari da
 msg.phrase	S: check: the drive is busy or not ready	S: egiaztatu: diskoa okupatuta dago edo ez dago prest
 msg.phrase	nothing for this item (ContextMenu.cfg)	elementu honetarako ezer (ContextMenu.cfg)
@@ -1120,43 +1116,72 @@ msg.prefix	compress	konprimitu
 msg.prefix	render	errendatu
 msg.phrase	5 Macro	5 Makroa
 msg.phrase	6 Help	6 Laguntza
-msg.phrase	Run current	Exekutatu korrontea
-msg.phrase	Run the macro at the cursor (#! header cell and the cells below it)	Exekutatu makroa kurtsorean (#! goiburuko gelaxka eta azpian dauden gelaxkak)
-msg.phrase	Run selection	Exekutatu aukeraketa
-msg.phrase	Run the selected cells as one macro (top-left cell is the #! header)	Exekutatu hautatutako gelaxkak makro bakar gisa (goiko ezkerreko gelaxka #! goiburua da)
-msg.phrase	Run all	Exekutatu guztiak
-msg.phrase	Run every macro in the sheet, top-left to bottom-right	Exekutatu orriko makro guztiak, goitik ezkerretik behetik eskuinera
+msg.phrase	Run current	Exekutatu unekoa
+msg.phrase	Run the macro at the cursor (#! header cell and the cells below it)	Exekutatu kurtsoreko makroa (#! goiburu-gelaxka eta azpiko gelaxkak)
+msg.phrase	Run selection	Exekutatu hautapena
+msg.phrase	Run the selected cells as one macro (top-left cell is the #! header)	Exekutatu hautatutako gelaxkak makro bakar gisa (goiko ezkerrekoa da #! goiburua)
+msg.phrase	Run all	Exekutatu denak
+msg.phrase	Run every macro in the sheet, top-left to bottom-right	Exekutatu orriko makro guztiak, goian ezkerretik behean eskuinera
 msg.phrase	Last error	Azken errorea
-msg.phrase	Show the last macro error	Erakutsi azken makro-errorea
+msg.phrase	Show the last macro error	Erakutsi makroaren azken errorea
 msg.phrase	Macro	Makroa
-msg.phrase	Macro: run #!ruby / #!python / #!basic cells	Makroa: exekutatu #!ruby / #!python / #!oinarrizko zelulak
+msg.phrase	Macro: run #!ruby / #!python / #!basic cells	Makroa: exekutatu #!ruby / #!python / #!basic gelaxkak
 msg.phrase	Edit the cell (F2)	Editatu gelaxka (F2)
-msg.phrase	Fit widths/heights to the contents	Egokitu zabalerak/altuerak edukiari
-msg.phrase	Last macro error	Azken makro errorea
-msg.phrase	No macro error.	Makro errorerik ez.
-msg.phrase	IME on	IME aktibatuta
-msg.phrase	IME off	IME desaktibatuta
-msg.phrase	Macro: %s %s ...	Makroa: %s %s...
-msg.phrase	%s: this firmware cannot run macros (SGX ABI 5.10 or later)	%s: firmware honek ezin ditu makroak exekutatu (SGX ABI 5.10 edo berriagoa)
-msg.phrase	Macro error: %s	Makro errorea: %s
-msg.phrase	Macro: %s done	Makroa: %s eginda
-msg.phrase	a macro is already running	makro bat martxan dago jada
+msg.phrase	Fit widths/heights to the contents	Doitu zabalerak/altuerak edukira
+msg.phrase	Last macro error	Makroaren azken errorea
+msg.phrase	No macro error.	Ez dago makro-errorerik.
+msg.phrase	IME on	IME aktibo
+msg.phrase	IME off	IME desaktibo
+msg.phrase	Macro: %s %s ...	Makroa: %s %s ...
+msg.phrase	%s: this firmware cannot run macros (SGX ABI 5.10 or later)	%s: firmware honek ezin ditu makroak exekutatu (SGX ABI 5.10 edo berriagoa behar da)
+msg.phrase	Macro error: %s	Makro-errorea: %s
+msg.phrase	Macro: %s done	Makroa: %s amaitu da
+msg.phrase	a macro is already running	makro bat exekutatzen ari da jada
 msg.phrase	this language is not available	hizkuntza hau ez dago erabilgarri
-msg.phrase	not enough memory	memoria nahikoa ez
-msg.phrase	the macro stopped with an error	makroa akats batekin gelditu da
-msg.phrase	Macro error %s: %s	Makro errorea %s: %s
-msg.phrase	Macro: not enough memory	Makroa: memoria nahikoa ez
-msg.phrase	Macro: the cursor is not on a macro (a #!ruby / #!python / #!basic cell or the cells below it)	Makroa: kurtsorea ez dago makro batean (#!ruby / #!python / #!oinarrizko gelaxka edo azpian dauden gelaxkak)
-msg.phrase	Macro: no macro in the sheet	Makroa: ez dago makrorik fitxan
+msg.phrase	not enough memory	memoria ez da nahikoa
+msg.phrase	the macro stopped with an error	makroa errore batekin gelditu da
+msg.phrase	Macro error %s: %s	Makro-errorea %s: %s
+msg.phrase	Macro: not enough memory	Makroa: memoria ez da nahikoa
+msg.phrase	Macro: the cursor is not on a macro (a #!ruby / #!python / #!basic cell or the cells below it)	Makroa: kurtsorea ez dago makro batean (#!ruby / #!python / #!basic gelaxka edo azpikoak)
+msg.phrase	Macro: no macro in the sheet	Makroa: orrian ez dago makrorik
 msg.phrase	Run all macros	Exekutatu makro guztiak
-msg.phrase	Macros: %d. Run them all, top-left to bottom-right? Changes cannot be undone.	Makroak: %d. Exekutatu denak, goitik ezkerretik behetik eskuinera? Aldaketak ezin dira desegin.
-msg.phrase	Macro: %d of %d done	Makroa: %d/ %d eginda
-msg.phrase	Cleared the cell	Gelaxka garbitu
-msg.phrase	Cleared the selection	Hautaketa garbitu da
-msg.phrase	Background colour = %d	Atzeko planoaren kolorea = %d
+msg.phrase	Macros: %d. Run them all, top-left to bottom-right? Changes cannot be undone.	Makroak: %d. Denak exekutatu, goian ezkerretik behean eskuinera? Aldaketak ezin dira desegin.
+msg.phrase	Macro: %d of %d done	Makroa: %d / %d amaituta
+msg.phrase	Cleared the cell	Gelaxka garbitu da
+msg.phrase	Cleared the selection	Hautapena garbitu da
+msg.phrase	Background colour = %d	Atzealdeko kolorea = %d
 msg.phrase	Text colour = %d	Testuaren kolorea = %d
 msg.phrase	Graph: line	Grafikoa: lerroa
 msg.phrase	Graph: bar	Grafikoa: barra
 msg.phrase	Graph: mixed	Grafikoa: mistoa
 msg.phrase	Graph: pie	Grafikoa: tarta
-msg.phrase	Exported %s	Esportatu %s
+msg.phrase	Exported %s	%s esportatu da
+ui	USB・時計・設定	USB, clock, settings
+ui	0.001 秒未満	0.001 s baino gutxiago
+ui	%s 秒	%s s
+ui	コンパイル %s  実行 %s	konpilazioa %s  exekuzioa %s
+ui	コンパイル %s	konpilazioa %s
+ui	実行 %s	exekuzioa %s
+msg.phrase	1 Help	1 Lagun
+msg.phrase	3 Copy	3 Kopiat
+msg.phrase	4 Paste	4 Itsats
+msg.phrase	5 Goto	5 Joan
+msg.phrase	6 Colour	6 Kolore
+msg.phrase	7 Fit	7 Doitu
+msg.phrase	8 Backgr	8 Atzeko
+msg.phrase	9 Recalc	9 Kalkul
+msg.phrase	10 Graph	10 Graf
+msg.phrase	11 Save	11 Gorde
+msg.phrase	12 Menu	12 Menua
+msg.phrase	1 About	1 Honi
+msg.phrase	2 Height	2 Altuer
+msg.phrase	3 Width	3 Zabal
+msg.phrase	4 SelAll	4 Dena
+msg.phrase	10 Range	10 Barru
+msg.phrase	11 Name	11 Honel
+msg.phrase	1 New	1 Berria
+msg.phrase	2 Open	2 Ireki
+msg.phrase	4 SaveAs	4 Honela
+msg.phrase	12 Quit	12 Irten
+msg.phrase	3 Save	3 Gorde
+msg.phrase	Version %s	%s bertsioa

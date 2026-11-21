@@ -1,5 +1,6 @@
 # Pad helpers on the device (MicroPython port, 2026-10-30).  Ported from samples/ruby/pad.rb.
 # Press the buttons, move the sticks. q ends it (ESC also stops).
+# Nothing is printed inside the loop: print writes at the terminal's cursor and broke the rows (2026-11-20).
 NAMES = {M.PAD_X: "X", M.PAD_A: "A", M.PAD_B: "B", M.PAD_Y: "Y", M.PAD_LB: "LB", M.PAD_RB: "RB",
          M.PAD_LT: "LT", M.PAD_RT: "RT", M.PAD_BACK: "BACK", M.PAD_START: "START", M.PAD_LS: "LS", M.PAD_RS: "RS",
          M.PAD_UP: "UP", M.PAD_DOWN: "DOWN", M.PAD_LEFT: "LEFT", M.PAD_RIGHT: "RIGHT"}
@@ -28,7 +29,6 @@ while True:
             if not e:
                 continue
             s = "pad %d %s %s" % (i, name, e)
-            print("PAD " + s)
             log.append(s)
             while len(log) > 8:
                 log.pop(0)

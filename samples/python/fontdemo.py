@@ -6,7 +6,7 @@
 M.set_mode(1)
 M.clear_keys()
 M.text_clear(M.TEXT_CLEAR)
-W = M.text_cols
+W = M.text_cols()          # 2026-11-18: 値ではなくメソッド（ガイド・mode7.py と同じ形）
 
 def put(x, y, s, a):
     M.text_put(x, y, s, a)

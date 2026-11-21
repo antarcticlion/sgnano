@@ -21,14 +21,14 @@ ui	属性を変える	Փոխեք ատրիբուտները
 ui	エディタで開く	Բացեք խմբագրում
 ui	テキスト表示（Shift+V / Ctrl+Alt+F7 は 16 進）	Դիտել որպես տեքստ (Shift+V / Ctrl+Alt+F7 hex)
 ui	ドライブの情報	Drive տեղեկատվություն
-ui	フォルダを作る / 新しいファイル	Նոր թղթապանակ / նոր ֆայլ
+ui	フォルダを作る（Shift+F5） / 新しいファイル（Ctrl+F1）	Նոր թղթապանակ (Shift+F5) / նոր ֆայլ (Ctrl+F1)
 ui	シェル sgsh / 媒体を取り出す	Shell sgsh / դուրս հանել միջինը
 ui	読み直す	Վերբեռնել
-ui	見えている画面を PNG で保存	Պահպանեք էկրանը որպես PNG
+ui	見えている画面を PNG で保存（Alt+F5 も同じ）	Պահպանեք էկրանը որպես PNG (= Alt+F5)
 ui	窓を閉じる・選択を解く（サブフォルダでは上位へ）	Փակել պատուհանը / ջնջել ընտրությունը (ենթաթղթապանակում՝ բարձրանալ վերև)
-ui	ファイルの操作（FD と同じ。印・範囲・カーソルの順に選ぶ）	Ֆայլի գործողություններ (ինչպես FD-ում. նշաններ, ապա միջակայք, ապա կուրսոր)
-ui	コピー: 行き先はドライブとフォルダの木から。ESC で止める	Պատճենել. ընտրեք նպատակակետը սկավառակի և թղթապանակի ծառից: ESC-ն կանգ է առնում
-ui	削除: y で確かめる。印・範囲をまとめて。フォルダは中身ごと	Ջնջել. հաստատել y-ով: Նշում և ընդգրկում է միանգամից: Թղթապանակներ իրենց բովանդակությամբ
+ui	ファイルの操作（FD と同じ。印・範囲・カーソルの順）	Ֆայլի գործողություններ (ինչպես FD-ում. նշաններ, ապա միջակայք, ապա կուրսոր)
+ui	コピー: 行き先は木から選ぶ。ESC で止める	Պատճենել. ընտրեք նպատակակետը սկավառակի և թղթապանակի ծառից: ESC-ն կանգ է առնում
+ui	削除: y で確かめる。印・範囲をまとめて	Ջնջել. հաստատել y-ով: Նշում և ընդգրկում է միանգամից: Թղթապանակներ իրենց բովանդակությամբ
 ui	フォルダを削除（中身ごと）	Ջնջել թղթապանակը (իր բովանդակությամբ)
 ui	名前を変える（今の名前を直して Enter）	Վերանվանել (խմբագրել անունը, Մուտքագրել)
 ui	属性: R 読み出し専用・H 隠し・S システム・A アーカイブ	Հատկանիշներ՝ R միայն կարդալու, H թաքնված, S համակարգ, A արխիվ
@@ -50,22 +50,19 @@ ui	画面（Alt+F。FD の F キーとぶつからない）	Էկրան (Alt+F, �
 ui	FB（絵）/ テキスト面を出す・隠す	Ցույց տալ/թաքցնել FB-ն (նկարը)/տեքստը
 ui	FB の表示ページ（0〜3）	FB ցուցադրվող էջ (0-3)
 ui	FB を 0 で消す / 明るさを 1/2 に（RGB555）	Մաքրել FB-ը մինչև 0 / կիսով չափ կրճատել դրա պայծառությունը (RGB555)
-ui	USB のエンドポイントと LAN の状態	USB վերջնակետերը և LAN վիճակը
+ui	USB のエンドポイントと LAN（U: 10 秒に 1 度）	USB վերջնակետերը և LAN վիճակը
 ui	FB の表示ページを消す / 明るさを 1/2 に	Մաքրել FB-ի ցուցադրման էջը / կիսով չափ կրճատել դրա պայծառությունը
 ui	テキストの属性の見本	Տեքստի հատկանիշի նմուշներ
 ui	モニタの EDID（起動時に読んだもの）	Մոնիտոր EDID (կարդացեք բեռնման ժամանակ)
 ui	フォント ROM のライセンスとクレジット	Տառատեսակի ROM լիցենզիաներ և վարկեր
 ui	設定（表示の言語・IME・キーボードロケール）	Կարգավորումներ (ցուցադրման լեզու, IME և ստեղնաշարի տեղակայում)
-ui	時計（NTP で合わせた日本時間。s ですぐ合わせる）	Ժամացույց (Ճապոնիայի ժամանակը սահմանված է NTP-ի կողմից, այն համաժամացվում է հիմա)
+ui	時計（NTP で合わせた日本時間。s は 3 分に 1 度）	Ժամացույց (Ճապոնիայի ժամանակը սահմանված է NTP-ի կողմից, այն համաժամացվում է հիմա)
 ui	表計算（SGCALC）を開く	Բացել աղյուսակը (SGCALC)
 ui	S: ドライブのエラー検査（誤りがあれば直すか聞く）	Ստուգեք S. սխալների համար (հարցնում է նախքան վերանորոգելը)
 ui	トラッカー（TRACKER）を開く	Բացեք TRACKER-ը
-ui	再起動（確かめの窓が出る）	Վերագործարկեք (առաջինը հարցնում է)
+ui	再起動（確かめの窓）。Ctrl+Alt+Del も同じ	Վերագործարկեք (առաջինը հարցնում է) = Ctrl+Alt+Del
 ui	ADC のステレオ入力（GP40 / 41）を鳴らす	Նվագարկեք ADC ստերեո մուտքը (GP40 / 41)
 ui	VGM/VGZ を 96kHz/24bit WAV に書き出す	Արտահանել VGM/VGZ 96 կՀց / 24 բիթ WAV
-ui	このヘルプ	Այս օգնությունը
-ui	ページを替える	Փոխեք էջը
-ui	閉じる	Փակել
 ui	テキスト・16 進のビュアー（less 風）	Տեքստ / վեցանկյուն դիտող (հավանում է ավելի քիչ)
 ui	1 行	Մեկ տող
 ui	1 ページ	Մեկ էջ
@@ -83,10 +80,9 @@ ui	IME の言語（日本語 / English / 한국어）	IME լեզու (ճապոն
 ui	ひらがな / カタカナで確定	Կատարել որպես hiragana / katakana
 ui	エディタのヘルプ	Խմբագրի օգնությունը
 ui	シェル	Շելլ
-ui	シェル（csh のサブセット。exit / Ctrl-D で戻る、help で一覧）	Shell (csh ենթաբազմություն. ելք / Ctrl-D վերադառնալու համար, օգնությունը ցուցակագրում է հրամանները)
+ui	シェル（csh の一部。exit / Ctrl-D で戻る、help で一覧）	Shell (csh ենթաբազմություն. ելք / Ctrl-D վերադառնալու համար, օգնությունը ցուցակագրում է հրամանները)
 ui	一覧と移動	Ցուցակ և տեղափոխում
 ui	ファイルの操作	Ֆայլի գործողություններ
-ui	画面と機器	Էկրան և սարքեր
 ui	ビュアーとエディタ	Դիտողներ և խմբագիր
 ui	ヘルプ  %u / %u  %s	Օգնություն %u / %u %s
 ui	Left Right: ページを替える    F1 / ESC: 閉じる	Ձախ աջ՝ փոխել էջը F1 / ESC՝ փակել
@@ -147,9 +143,9 @@ ui	10 EP表	10 ՊԸ
 ui	11 時計	11 Clock
 ui	12 表計	12 CALC
 ui	1 属性	1 Attr
-ui	2 情報	2 Info
+ui	2Drv情報	2 Info
 ui	3 移動	3 Move
-ui	5 作成	5 մկդր
+ui	5 ﾌｫﾙﾀﾞ	5 մկդր
 ui	6 シェル	6 Շելլ
 ui	8 編集	8 Edit
 ui	9 表示	9 Դիտել
@@ -187,10 +183,10 @@ ui	新しいファイル	Նոր ֆայլ
 ui	時刻:	Ժամանակը:
 ui	実行:	Վազել:
 ui	名前:	Անունը:
-ui	年-月-日 時:分  Enter 合わせる  ESC そのまま	YYYY-MM-DD hh:mm Մուտքագրեք սահմանված ESC պահպանումը
-ui	Enter 走らせる  ←→ 動かす  BS / Del 消す  ESC やめる	Մուտքագրեք գործարկել <-> տեղափոխել BS / Ջնջել ջնջել ESC չեղարկել
-ui	Enter 変える  ←→ 動かす  BS / Del 消す  ESC やめる	Մուտքագրեք վերանվանել <-> տեղափոխել BS / Ջնջել ջնջել ESC չեղարկել
-ui	Enter 作る  ←→ 動かす  BS / Del 消す  ESC やめる	Մուտքագրեք ստեղծել <-> տեղափոխել BS / Ջնջել ջնջել ESC չեղարկել
+ui	年-月-日 時:分  Enter 合わせる  ESC そのまま	YYYY-MM-DD hh:mm  Enter սահմանել  ESC թողնել
+ui	Enter 走らせる  ←→ 動かす  BS / Del 消す  ESC やめる	Enter գործարկել  ←→ շարժել  BS/Del ջնջել  ESC չեղարկել
+ui	Enter 変える  ←→ 動かす  BS / Del 消す  ESC やめる	Enter վերանվանել ←→ շարժել BS/Del ջնջել ESC չեղարկել
+ui	Enter 作る  ←→ 動かす  BS / Del 消す  ESC やめる	Enter ստեղծել  ←→ շարժել  BS / Del ջնջել  ESC չեղարկել
 ui	消す	Ջնջել
 ui	個の項目	իրեր
 ui	フォルダは中身ごと消します。よろしいですか？	Թղթապանակները ջնջվում են իրենց բովանդակությամբ: Համոզվա՞ծ ես։
@@ -344,7 +340,7 @@ ui	 組み立てています... %lu / %lu 行	Շինություն... %lu / %lu 
 ui	 書いています... %lu / %lu KB（FB は隠しています）	Գրում... %lu / %lu KB (FB-ը թաքնված է)
 ui	書けませんでした	Չհաջողվեց գրել
 ui	書庫の名前（印の付いた項目、無ければカーソルの項目を入れる）	Արխիվի անվանումը (նշված տարրերը կամ կուրսորի տարրը, եթե չկա)
-ui	Enter 圧縮する  ←→ 動かす  BS / Del 消す  ESC やめる	Մուտքագրեք սեղմել ←→ տեղափոխել BS / Ջնջել ջնջել ESC չեղարկել
+ui	Enter 圧縮する  ←→ 動かす  BS / Del 消す  ESC やめる	Enter սեղմել  ←→ շարժել  BS / Del ջնջել  ESC չեղարկել
 ui	WAV 書き出し: %s 中止（%s）	WAV արտահանում՝ %s չեղարկված (%s)
 ui	WAV 書き出し: %s 失敗（%s）	WAV արտահանում. %s ձախողվեց (%s)
 ui	WAV 書き出し: %s 合計 %s	WAV արտահանում՝ %s ընդհանուր %s
@@ -487,11 +483,11 @@ msg.phrase	the sound is not open	ձայնը բաց չէ
 msg.phrase	no such channel	նման ալիք չկա
 msg.phrase	the sequencer is busy	հաջորդականությունը զբաղված է
 msg.phrase	not enough PSRAM for the song	երգի համար բավական չէ PSRAM-ը
-msg.phrase	not a standard MIDI file (no MThd)	ոչ ստանդարտ MIDI ֆայլ (առանց MThd)
-msg.phrase	no tracks	հետքեր չկան
-msg.phrase	a track is broken (MTrk)	հետքը կոտրված է (MTrk)
+msg.phrase	not a standard MIDI file (no MThd)	ստանդարտ MIDI ֆայլ չէ (MThd չկա)
+msg.phrase	no tracks	ձայնագրություններ չկան
+msg.phrase	a track is broken (MTrk)	ձայնագրությունը վնասված է (MTrk)
 msg.phrase	SMPTE time division is not supported	SMPTE ժամանակի բաժանումը չի աջակցվում
-msg.phrase	SMF format 2 is not supported (0 and 1 only)	SMF ձևաչափ 2-ը չի աջակցվում (միայն 0 և 1)
+msg.phrase	SMF format 2 is not supported (0 and 1 only)	SMF 2 ձևաչափը չի աջակցվում (միայն 0 և 1)
 msg.phrase	not a Bulk-Only drive	ոչ միայն զանգվածային սկավառակ
 msg.phrase	not an optical drive	ոչ օպտիկական սկավառակ
 msg.phrase	a system folder cannot be deleted or renamed	համակարգի թղթապանակը չի կարող ջնջվել կամ վերանվանվել
@@ -510,7 +506,7 @@ msg.phrase	cancelled	չեղյալ է հայտարարվել
 msg.phrase	could not mount	չկարողացավ բարձրանալ
 msg.phrase	could not start a read	չկարողացա կարդալ
 msg.phrase	could not start a write	չկարողացա գրել
-msg.phrase	is a directory	գրացուցակ է
+msg.phrase	is a directory	թղթապանակ է
 msg.phrase	that is a directory	դա գրացուցակ է
 msg.phrase	no clusters	ոչ մի կլաստեր
 msg.phrase	no room for the cluster list	կլաստերի ցուցակի համար տեղ չկա
@@ -547,7 +543,7 @@ msg.phrase	Not supported on this drive	Չի աջակցվում այս դրայվ
 msg.phrase	Invalid path	Անվավեր ուղի
 msg.phrase	Out of memory	Հիշողությունից դուրս
 msg.phrase	No such drive	Նման դրայվ չկա
-msg.phrase	stopped	կանգ առավ
+msg.phrase	stopped	կանգնեցված
 msg.phrase	cancelled (not enough free space)	չեղարկված (բավարար ազատ տարածք չկա)
 msg.phrase	could not count the free space	չկարողացավ հաշվել ազատ տարածությունը
 msg.phrase	the receiver cancelled	ստացողը չեղարկվել է
@@ -622,9 +618,9 @@ msg.word	 rows	շարքեր
 msg.word	 -- not supported yet (FAT / exFAT / NTFS only)	-- դեռ չի աջակցվում (միայն FAT / exFAT / NTFS)
 msg.word	 files	ֆայլեր
 msg.word	 (	(
-msg.phrase	Untitled	Անվերնագիր
+msg.phrase	Untitled	Անանուն
 msg.phrase	1 File	1 Ֆայլ
-msg.phrase	2 Edit	2 Խմբագրել
+msg.phrase	2 Edit	2 Խմբագր
 msg.phrase	3 Graph	3 Գրաֆիկ
 msg.phrase	4 Sheet	4 թերթ
 msg.phrase	5 Help	5 Օգնություն
@@ -632,474 +628,474 @@ msg.phrase	EMPTY	ԴԱՏԱՐԿ
 msg.phrase	NUMBER	ԹԻՎ
 msg.phrase	TEXT	ՏԵՔՍՏ
 msg.phrase	FORMULA	ԲԱՆԱՁԵՎ
-msg.phrase	Type to enter, F2 to edit, F1 for help	Մուտքագրեք մուտքագրելու համար, F2 խմբագրելու համար, F1 օգնության համար
+msg.phrase	Type to enter, F2 to edit, F1 for help	Մուտքագրեք, F2՝ խմբագրել, F1՝ օգնություն
 msg.phrase	5 CSV	5 CSV
-msg.phrase	6 ODS	6 ՕԴՍ
+msg.phrase	6 ODS	6 ODS
 msg.phrase	[SHIFT]	[SHIFT]
 msg.phrase	[CTRL]	[CTRL]
 msg.phrase	[ALT]	[ALT]
-msg.phrase	Ready	Պատրաստ
+msg.phrase	Ready	Պատրաստ է
 msg.phrase	SGCALC	SGCALC
 msg.phrase	Press any key	Սեղմեք ցանկացած ստեղն
-msg.phrase	Y = yes    N = no    Esc = cancel	Y = այո N = ոչ Esc = չեղարկել
-msg.phrase	Enter = OK    Esc = cancel    Ctrl-U = clear	Մուտքագրեք = OK Esc = չեղարկել Ctrl-U = մաքրել
-msg.phrase	First row/column = labels; charts use the 640x480 CLUT8 FB.	Առաջին տող/սյունակ = պիտակներ; գծապատկերները օգտագործում են 640x480 CLUT8 FB:
-msg.phrase	SGCALC - HELP	SGCALC - ՕԳՆԵԼ
+msg.phrase	Y = yes    N = no    Esc = cancel	Y = այո    N = ոչ    Esc = չեղարկել
+msg.phrase	Enter = OK    Esc = cancel    Ctrl-U = clear	Enter = լավ    Esc = չեղարկել    Ctrl-U = մաքրել
+msg.phrase	First row/column = labels; charts use the 640x480 CLUT8 FB.	Առաջին տող/սյունակ = պիտակներ. գծապատկերներն օգտագործում են 640x480 CLUT8 FB-ն։
+msg.phrase	SGCALC - HELP	SGCALC - ՕԳՆՈՒԹՅՈՒՆ
 msg.phrase	Press any key to return	Սեղմեք ցանկացած ստեղն՝ վերադառնալու համար
-msg.phrase	Press any key to return.	Սեղմեք ցանկացած ստեղն՝ վերադառնալու համար:
-msg.phrase	ABOUT SGCALC	SGCALC-ի ՄԱՍԻՆ
+msg.phrase	Press any key to return.	Սեղմեք ցանկացած ստեղն՝ վերադառնալու համար։
+msg.phrase	ABOUT SGCALC	SGCALC-Ի ՄԱՍԻՆ
 msg.phrase	New	Նոր
-msg.phrase	Start a new sheet	Սկսեք նոր թերթիկ
+msg.phrase	Start a new sheet	Սկսել նոր թերթ
 msg.phrase	Open...	Բացել...
-msg.phrase	Open an ODS, FODS or CSV file	Բացեք ODS, FODS կամ CSV ֆայլ
+msg.phrase	Open an ODS, FODS or CSV file	Բացել ODS, FODS կամ CSV ֆայլ
 msg.phrase	Save	Պահպանել
-msg.phrase	Save the current file	Պահպանեք ընթացիկ ֆայլը
+msg.phrase	Save the current file	Պահպանել ընթացիկ ֆայլը
 msg.phrase	Save As...	Պահպանել որպես...
 msg.phrase	Save with a new name or format	Պահպանել նոր անունով կամ ձևաչափով
 msg.phrase	Export CSV...	Արտահանել CSV...
-msg.phrase	Write a CSV copy	Գրեք CSV պատճեն
+msg.phrase	Write a CSV copy	Գրել CSV պատճեն
 msg.phrase	Export ODS...	Արտահանել ODS...
-msg.phrase	Write a LibreOffice copy	Գրեք LibreOffice-ի պատճենը
-msg.phrase	Quit	Դուրս գալ
-msg.phrase	Leave SGCALC	Թողեք SGCALC-ը
-msg.phrase	Clear	Պարզ
+msg.phrase	Write a LibreOffice copy	Գրել LibreOffice պատճեն
+msg.phrase	Quit	Ելք
+msg.phrase	Leave SGCALC	Դուրս գալ SGCALC-ից
+msg.phrase	Clear	Մաքրել
 msg.phrase	Clear the selected cells	Մաքրել ընտրված բջիջները
 msg.phrase	Copy	Պատճենել
-msg.phrase	Copy the selection	Պատճենեք ընտրությունը
-msg.phrase	Paste	Կպցնել
-msg.phrase	Paste at the cursor	Կպցնել կուրսորին
+msg.phrase	Copy the selection	Պատճենել ընտրվածը
+msg.phrase	Paste	Տեղադրել
+msg.phrase	Paste at the cursor	Տեղադրել կուրսորի մոտ
 msg.phrase	Cut	Կտրել
-msg.phrase	Copy and clear the selection	Պատճենեք և մաքրեք ընտրությունը
-msg.phrase	Select all	Ընտրեք բոլորը
-msg.phrase	Select all used cells	Ընտրեք բոլոր օգտագործված բջիջները
-msg.phrase	Text color...	Տեքստի գույնը...
-msg.phrase	Choose the text colour	Ընտրեք տեքստի գույնը
-msg.phrase	Background...	Նախապատմություն...
-msg.phrase	Choose the cell background	Ընտրեք բջջային ֆոն
-msg.phrase	Line	Գիծ
-msg.phrase	Draw a line graph from the selection	Ընտրությունից նկարեք գծային գրաֆիկ
-msg.phrase	Bar	Բար
-msg.phrase	Draw a bar graph from the selection	Ընտրվածից նկարեք գծապատկեր
+msg.phrase	Copy and clear the selection	Պատճենել և մաքրել ընտրվածը
+msg.phrase	Select all	Ընտրել բոլորը
+msg.phrase	Select all used cells	Ընտրել բոլոր օգտագործված բջիջները
+msg.phrase	Text color...	Տեքստի գույն...
+msg.phrase	Choose the text colour	Ընտրել տեքստի գույնը
+msg.phrase	Background...	Ֆոն...
+msg.phrase	Choose the cell background	Ընտրել բջջի ֆոնը
+msg.phrase	Line	Գծային
+msg.phrase	Draw a line graph from the selection	Գծել գծային գծապատկեր ընտրվածից
+msg.phrase	Bar	Սյունային
+msg.phrase	Draw a bar graph from the selection	Գծել սյունային գծապատկեր ընտրվածից
 msg.phrase	Mixed	Խառը
-msg.phrase	Bars for the first series, lines for the rest	Ձողեր առաջին սերիայի համար, տողեր մնացածի համար
-msg.phrase	Pie	Կարկանդակ
-msg.phrase	Draw a pie graph from the selection	Ընտրվածից նկարեք կարկանդակ գրաֆիկ
-msg.phrase	Range...	Շրջանակ...
-msg.phrase	Set the graph range explicitly	Հստակ սահմանեք գրաֆիկի տիրույթը
-msg.phrase	Draw again	Կրկին նկարեք
-msg.phrase	Redraw the last graph	Վերափոխեք վերջին գրաֆիկը
-msg.phrase	Goto...	Գնա...
-msg.phrase	Jump to a cell (for example C12)	Անցնել բջիջ (օրինակ C12)
-msg.phrase	Column width...	Սյունակի լայնությունը...
-msg.phrase	Change the selected columns' width	Փոխեք ընտրված սյունակների լայնությունը
-msg.phrase	Row height...	Շարքի բարձրությունը...
-msg.phrase	Change the selected rows' height	Փոխեք ընտրված տողերի բարձրությունը
-msg.phrase	Auto fit	Ավտոմատ տեղավորում
-msg.phrase	Fit widths/heights to the contents (F7)	Հարմարեցրեք լայնությունները/բարձրությունները բովանդակությանը (F7)
-msg.phrase	Recalculate	Վերահաշվարկ
-msg.phrase	Re-evaluate all formulas	Վերագնահատեք բոլոր բանաձևերը
-msg.phrase	Erase all	Ջնջել բոլորը
-msg.phrase	Clear the whole sheet	Մաքրել ամբողջ թերթիկը
-msg.phrase	Keys	Բանալիներ
-msg.phrase	Show the key guide	Ցույց տալ հիմնական ուղեցույցը
-msg.phrase	About	Մոտ
+msg.phrase	Bars for the first series, lines for the rest	Սյուներ առաջին շարքի համար, գծեր՝ մնացածի
+msg.phrase	Pie	Շրջանային
+msg.phrase	Draw a pie graph from the selection	Գծել շրջանային գծապատկեր ընտրվածից
+msg.phrase	Range...	Տիրույթ...
+msg.phrase	Set the graph range explicitly	Ձեռքով նշել գծապատկերի տիրույթը
+msg.phrase	Draw again	Կրկին գծել
+msg.phrase	Redraw the last graph	Կրկին գծել վերջին գծապատկերը
+msg.phrase	Goto...	Անցնել...
+msg.phrase	Jump to a cell (for example C12)	Անցնել բջջի (օրինակ՝ C12)
+msg.phrase	Column width...	Սյունակի լայնք...
+msg.phrase	Change the selected columns' width	Փոխել ընտրված սյունակների լայնքը
+msg.phrase	Row height...	Տողի բարձրություն...
+msg.phrase	Change the selected rows' height	Փոխել ընտրված տողերի բարձրությունը
+msg.phrase	Auto fit	Հարմարեցնել
+msg.phrase	Fit widths/heights to the contents (F7)	Հարմարեցնել լայնքն/բարձրությունը պարունակությանը (F7)
+msg.phrase	Recalculate	Վերահաշվել
+msg.phrase	Re-evaluate all formulas	Վերահաշվել բոլոր բանաձևերը
+msg.phrase	Erase all	Ջնջել ամբողջը
+msg.phrase	Clear the whole sheet	Մաքրել ամբողջ թերթը
+msg.phrase	Keys	Ստեղներ
+msg.phrase	Show the key guide	Ցույց տալ ստեղների ուղեցույցը
+msg.phrase	About	Մասին
 msg.phrase	About SGCALC	SGCALC-ի մասին
 msg.phrase	File	Ֆայլ
-msg.phrase	Edit	Խմբագրել
-msg.phrase	Graph	Գրաֆիկ
-msg.phrase	Sheet	Թերթիկ
+msg.phrase	Edit	Խմբագրում
+msg.phrase	Graph	Գծապատկեր
+msg.phrase	Sheet	Թերթ
 msg.phrase	Help	Օգնություն
-msg.phrase	File: new, open, save, export, quit	Ֆայլ՝ նոր, բաց, պահպանել, արտահանել, դուրս գալ
-msg.phrase	Edit: clear, copy, paste, cut, select all	Խմբագրել՝ մաքրել, պատճենել, տեղադրել, կտրել, ընտրել բոլորը
-msg.phrase	Graph: line, bar, mixed, pie (draws in the FB)	Գրաֆիկ՝ տող, բար, խառը, կարկանդակ (նկարներ ՖԲ-ում)
-msg.phrase	Sheet: goto, column width, recalculate, erase	Թերթ՝ goto, սյունակի լայնությունը, վերահաշվարկել, ջնջել
-msg.phrase	Help: keys and about	Օգնություն՝ բանալիներ և մոտ
+msg.phrase	File: new, open, save, export, quit	Ֆայլ՝ նոր, բացել, պահպանել, արտահանել, ելք
+msg.phrase	Edit: clear, copy, paste, cut, select all	Խմբագրում՝ մաքրել, պատճենել, տեղադրել, կտրել, ընտրել բոլորը
+msg.phrase	Graph: line, bar, mixed, pie (draws in the FB)	Գծապատկեր՝ գծային, սյունային, խառը, շրջանային (FB-ում)
+msg.phrase	Sheet: goto, column width, recalculate, erase	Թերթ՝ անցնել, սյունակի լայնք, վերահաշվել, ջնջել
+msg.phrase	Help: keys and about	Օգնություն՝ ստեղներ և մասին
 msg.phrase	Left/Right = menu    Up/Down = item    Enter = choose    Esc = cancel	Ձախ/Աջ = մենյու Վեր/ներքև = տարր Մուտքագրեք = ընտրեք Esc = չեղարկել
-msg.phrase	Cancelled	Չեղարկված է
-msg.phrase	The selection is too large or memory is low.	Ընտրությունը չափազանց մեծ է կամ հիշողությունը ցածր է:
+msg.phrase	Cancelled	Չեղարկվեց
+msg.phrase	The selection is too large or memory is low.	Ընտրվածը չափազանց մեծ է, կամ հիշողությունը չի բավականացնում։
 msg.phrase	the cell	բջիջը
 msg.phrase	the selection	ընտրությունը
-msg.phrase	Nothing to paste	Կպցնելու ոչինչ չկա
-msg.phrase	Pasted	Տեղադրված է
-msg.phrase	GO TO CELL	ԳՆԱՑԵՔ ԲՈՒՋ
+msg.phrase	Nothing to paste	Տեղադրելու բան չկա
+msg.phrase	Pasted	Տեղադրվեց
+msg.phrase	GO TO CELL	ԱՆՑՆԵԼ ԲՋՋԻՆ
 msg.phrase	Cell reference (A1):	Բջջի հղում (A1):
-msg.phrase	Goto	Գոտո
-msg.phrase	COLUMN WIDTH	ՍՅՈՒՆԻ Լայնությունը
-msg.phrase	Width in characters (4..30):	Լայնությունը նիշերով (4..30):
-msg.phrase	ROW HEIGHT	ՇԱՐՔԻ ԲԱՐՁՐՈՒԹՅՈՒՆ
-msg.phrase	Height in text rows (1..8):	Բարձրությունը տեքստային տողերում (1..8):
-msg.phrase	Auto fit: the sheet is empty	Ավտոմատ տեղավորում. թերթիկը դատարկ է
-msg.phrase	BACKGROUND COLOUR	ֆոնային գույն
+msg.phrase	Goto	Անցնել
+msg.phrase	COLUMN WIDTH	ՍՅՈՒՆԱԿԻ ԼԱՅՆՔ
+msg.phrase	Width in characters (4..30):	Լայնքը նիշերով (4..30):
+msg.phrase	ROW HEIGHT	ՏՈՂԻ ԲԱՐՁՐՈՒԹՅՈՒՆ
+msg.phrase	Height in text rows (1..8):	Բարձրությունը տեքստի տողերով (1..8):
+msg.phrase	Auto fit: the sheet is empty	Հարմարեցնել՝ թերթը դատարկ է
+msg.phrase	BACKGROUND COLOUR	ՖՈՆԻ ԳՈՒՅՆ
 msg.phrase	TEXT COLOUR	ՏԵՔՍՏԻ ԳՈՒՅՆ
-msg.phrase	Arrows: choose    Enter: apply    Esc: cancel	Սլաքներ. ընտրեք Մուտքագրեք. կիրառեք Esc. չեղարկեք
-msg.phrase	Colour index (PC-98 16-colour palette)	Գույնի ինդեքս (PC-98 16 գունավոր գունապնակ)
-msg.phrase	Aa 123	Աա 123
-msg.phrase	Enter = apply    Esc = cancel	Մուտքագրեք = կիրառել Esc = չեղարկել
+msg.phrase	Arrows: choose    Enter: apply    Esc: cancel	Սլաքներ՝ ընտրել    Enter՝ կիրառել    Esc՝ չեղարկել
+msg.phrase	Colour index (PC-98 16-colour palette)	Գույնի համար (PC-98-ի 16 գույնի ներկապնակ)
+msg.phrase	Aa 123	Aa 123
+msg.phrase	Enter = apply    Esc = cancel	Enter = կիրառել    Esc = չեղարկել
 msg.phrase	Colour	Գույն
 msg.phrase	Background	Նախապատմություն
 msg.phrase	Text	Տեքստ
-msg.phrase	GRAPH RANGE	ԳՐԱՖԻԿԻ ՇՐՋԱՆԱԿ
-msg.phrase	Range (for example A1:C10):	Շրջանակ (օրինակ A1:C10):
-msg.phrase	Graph range	Գրաֆիկի տիրույթ
-msg.phrase	Use a range such as A1:C10.	Օգտագործեք այնպիսի միջակայք, ինչպիսին է A1:C10:
-msg.phrase	Cannot draw the graph.	Հնարավոր չէ գծել գրաֆիկը:
+msg.phrase	GRAPH RANGE	ԳԾԱՊԱՏԿԵՐԻ ՏԻՐՈՒՅԹ
+msg.phrase	Range (for example A1:C10):	Տիրույթ (օրինակ՝ A1:C10):
+msg.phrase	Graph range	Գծապատկերի տիրույթ
+msg.phrase	Use a range such as A1:C10.	Նշեք տիրույթ, օրինակ՝ A1:C10։
+msg.phrase	Cannot draw the graph.	Չհաջողվեց գծել գծապատկերը։
 msg.phrase	line	տող
 msg.phrase	bar	բար
 msg.phrase	mixed	խառը
 msg.phrase	pie	կարկանդակ
-msg.phrase	Clear every cell in this sheet?	Մաքրե՞լ այս թերթի բոլոր բջիջները:
-msg.phrase	Sheet erased	Թերթը ջնջված է
-msg.phrase	Selected all used cells	Ընտրվել են բոլոր օգտագործված բջիջները
-msg.phrase	Recalculated	Վերահաշվարկված
+msg.phrase	Clear every cell in this sheet?	Մաքրե՞լ այս թերթի բոլոր բջիջները
+msg.phrase	Sheet erased	Թերթը ջնջվեց
+msg.phrase	Selected all used cells	Ընտրվեցին բոլոր օգտագործված բջիջները
+msg.phrase	Recalculated	Վերահաշվվեց
 msg.phrase	Memory	Հիշողություն
-msg.phrase	Not enough PSRAM for the spreadsheet.	PSRAM-ը բավարար չէ աղյուսակի համար:
+msg.phrase	Not enough PSRAM for the spreadsheet.	PSRAM-ը չի բավականացնում աղյուսակի համար։
 msg.phrase	The sheet is empty.	Թերթը դատարկ է։
-msg.phrase	No numeric data in the selected range.	Ընտրված տիրույթում թվային տվյալներ չկան:
+msg.phrase	No numeric data in the selected range.	Ընտրված տիրույթում թվեր չկան։
 msg.phrase	Other	Այլ
-msg.phrase	No positive values for a pie chart	Կարկանդակ գծապատկերի համար դրական արժեքներ չկան
-msg.phrase	LINE	ԳԻԾ
-msg.phrase	BAR	ԲԱՐ
-msg.phrase	MIXED	ԽԱՌՆՎԱԾ
-msg.phrase	PIE	ՊԻԵ
+msg.phrase	No positive values for a pie chart	Շրջանային գծապատկերի համար դրական արժեքներ չկան
+msg.phrase	LINE	ԳԾԱՅԻՆ
+msg.phrase	BAR	ՍՅՈՒՆԱՅԻՆ
+msg.phrase	MIXED	ԽԱՌԸ
+msg.phrase	PIE	ՇՐՋԱՆԱՅԻՆ
 msg.phrase	S:/	S:/
 msg.phrase	Folder	Թղթապանակ
 msg.phrase	SAVE AS	ՊԱՀՊԱՆԵԼ ՈՐՊԵՍ
-msg.phrase	OPEN FILE	ԲԱՑ ՖԱՅԼԸ
+msg.phrase	OPEN FILE	ԲԱՑԵԼ ՖԱՅԼ
 msg.phrase	LibreOffice / CSV	LibreOffice / CSV
-msg.phrase	ODS  FODS  CSV	ODS FODS CSV
-msg.phrase	Name:	Անունը:
-msg.phrase	(type a name, or choose below)	(մուտքագրեք անունը կամ ընտրեք ստորև)
+msg.phrase	ODS  FODS  CSV	ODS  FODS  CSV
+msg.phrase	Name:	Անուն:
+msg.phrase	(type a name, or choose below)	(մուտքագրեք անուն կամ ընտրեք ներքևից)
 msg.phrase	Name	Անուն
-msg.phrase	Size	Չափը
-msg.phrase	Enter=save  Left=up  Right/Enter on [DIR]=open  Tab=drive  Esc=cancel	Մուտքագրեք=պահեք Ձախ=վերև Աջ/Մուտքագրեք [DIR]=բաց ներդիր=drive Esc=չեղարկել
-msg.phrase	Enter=open  Left=up  Right/Enter on [DIR]=open  Tab=drive  Esc=cancel	Enter=բաց ձախ=վերև Աջ/Մուտքագրեք [DIR]=բաց Tab=drive Esc=չեղարկել
-msg.phrase	Not enough memory.	Հիշողությունը բավարար չէ:
+msg.phrase	Size	Չափ
+msg.phrase	Enter=save  Left=up  Right/Enter on [DIR]=open  Tab=drive  Esc=cancel	Enter=պահել  ←=վերև  →/Enter [DIR]-ի վրա=բացել  Tab=սկավառակ  Esc=չեղարկել
+msg.phrase	Enter=open  Left=up  Right/Enter on [DIR]=open  Tab=drive  Esc=cancel	Enter=բացել  ←=վերև  →/Enter [DIR]-ի վրա=բացել  Tab=սկավառակ  Esc=չեղարկել
+msg.phrase	Not enough memory.	Հիշողությունը չի բավականացնում։
 msg.phrase	Overwrite	Վերագրել
-msg.phrase	Open	Բաց
-msg.phrase	The file is too large (limit 8 MB).	Ֆայլը չափազանց մեծ է (սահմանափակ 8 ՄԲ):
-msg.phrase	Not enough memory to read the file.	Ֆայլը կարդալու համար բավարար հիշողություն չկա:
-msg.phrase	Bad ZIP/ODS data.	Վատ ZIP/ODS տվյալներ:
-msg.phrase	CRC error in the ODS file.	CRC սխալ ODS ֆայլում:
-msg.phrase	Unsupported or damaged file.	Չաջակցվող կամ վնասված ֆայլ:
+msg.phrase	Open	Բացել
+msg.phrase	The file is too large (limit 8 MB).	Ֆայլը չափազանց մեծ է (սահմանը՝ 8 MB)։
+msg.phrase	Not enough memory to read the file.	Ֆայլը կարդալու համար հիշողությունը չի բավականացնում։
+msg.phrase	Bad ZIP/ODS data.	Վնասված ZIP/ODS տվյալներ։
+msg.phrase	CRC error in the ODS file.	CRC սխալ ODS ֆայլում։
+msg.phrase	Unsupported or damaged file.	Չաջակցվող կամ վնասված ֆայլ։
 msg.phrase	Saved	Պահպանված է
 msg.phrase	Exported	Արտահանված
-msg.phrase	Unsaved changes	Չպահված փոփոխություններ
-msg.phrase	Save the current sheet before continuing?	Պահե՞լ ընթացիկ թերթիկը շարունակելուց առաջ:
-msg.phrase	New sheet	Նոր թերթիկ
+msg.phrase	Unsaved changes	Չպահպանված փոփոխություններ
+msg.phrase	Save the current sheet before continuing?	Պահպանե՞լ ընթացիկ թերթը շարունակելուց առաջ
+msg.phrase	New sheet	Նոր թերթ
 msg.phrase	SGTRK	SGTRK
-msg.phrase	UNTITLED	ԱՆՎԵՐԱՆԳ
+msg.phrase	UNTITLED	UNTITLED
 msg.phrase	song is too large	երգը չափազանց մեծ է
 msg.phrase	empty file	դատարկ ֆայլ
-msg.phrase	not an SGT file	ոչ SGT ֆայլ
-msg.phrase	bad BPM	վատ BPM
-msg.phrase	bad speed	վատ արագություն
-msg.phrase	bad title length	վերնագրի վատ երկարությունը
-msg.phrase	truncated title	կրճատված վերնագիր
-msg.phrase	bad character in title	վատ կերպար վերնագրում
-msg.phrase	truncated order	կրճատված կարգը
-msg.phrase	bad order length	պատվերի վատ երկարություն
-msg.phrase	bad pattern number in order	սխալ օրինաչափության համարը հերթականությամբ
-msg.phrase	truncated pattern list	կրճատված նախշերի ցանկ
-msg.phrase	bad pattern count	վատ նախշերի հաշվարկ
-msg.phrase	bad pattern index	վատ օրինակի ինդեքս
-msg.phrase	duplicate pattern	կրկնօրինակ օրինակ
-msg.phrase	truncated pattern data	կտրված օրինաչափության տվյալներ
-msg.phrase	invalid pattern data	օրինաչափության անվավեր տվյալներ
-msg.phrase	trailing data in file	հետագծային տվյալները ֆայլում
-msg.phrase	order refers to a missing pattern	կարգը վերաբերում է բացակայող օրինակին
-msg.phrase	A:/	Ա:/
-msg.phrase	(untitled)	(անվերնագիր)
-msg.phrase	Ready. Press F1 for help.	Պատրաստ. Օգնության համար սեղմեք F1:
-msg.phrase	Follow OFF	Հետևեք OFF-ին
-msg.phrase	Nothing to undo	Չեղարկելու ոչինչ չկա
-msg.phrase	Undo	Հետարկել
-msg.phrase	Note OFF	Նշում OFF
-msg.phrase	Set an effect letter first	Նախ սահմանեք էֆեկտի տառը
+msg.phrase	not an SGT file	SGT ֆայլ չէ
+msg.phrase	bad BPM	սխալ BPM
+msg.phrase	bad speed	սխալ արագություն
+msg.phrase	bad title length	վերնագրի սխալ երկարություն
+msg.phrase	truncated title	կտրված վերնագիր
+msg.phrase	bad character in title	անվավեր նիշ վերնագրում
+msg.phrase	truncated order	կտրված հերթականություն
+msg.phrase	bad order length	հերթականության սխալ երկարություն
+msg.phrase	bad pattern number in order	pattern-ի սխալ համար հերթականությունում
+msg.phrase	truncated pattern list	pattern-ների կտրված ցանկ
+msg.phrase	bad pattern count	pattern-ների սխալ քանակ
+msg.phrase	bad pattern index	pattern-ի սխալ ինդեքս
+msg.phrase	duplicate pattern	կրկնվող pattern
+msg.phrase	truncated pattern data	pattern-ի կտրված տվյալներ
+msg.phrase	invalid pattern data	pattern-ի անվավեր տվյալներ
+msg.phrase	trailing data in file	ավելորդ տվյալներ ֆայլի վերջում
+msg.phrase	order refers to a missing pattern	հերթականությունը հղում է բացակայող pattern-ի
+msg.phrase	A:/	A:/
+msg.phrase	(untitled)	(անանուն)
+msg.phrase	Ready. Press F1 for help.	Պատրաստ է։ F1՝ օգնություն։
+msg.phrase	Follow OFF	Հետևել ԱՆՋ
+msg.phrase	Nothing to undo	Հետ շրջելու բան չկա
+msg.phrase	Undo	Հետ շրջվեց
+msg.phrase	Note OFF	Note off
+msg.phrase	Set an effect letter first	Նախ նշեք էֆեկտի տառը
 msg.phrase	Effect cleared	Էֆեկտը ջնջվեց
-msg.phrase	Parameter cleared	Պարամետրը ջնջված է
-msg.phrase	Note cleared	Նշումը մաքրված է
-msg.phrase	Instrument cleared	Գործիքը մաքրված է
-msg.phrase	Volume cleared	Ձայնը մաքրված է
-msg.phrase	Order list is full	Պատվերների ցանկը լի է
-msg.phrase	Order inserted	Պատվերը տեղադրված է
-msg.phrase	Cannot delete the last order	Հնարավոր չէ ջնջել վերջին պատվերը
-msg.phrase	Order deleted	Պատվերը ջնջված է
-msg.phrase	Playing song	Երգի նվագարկում
-msg.phrase	Stopped	Դադարեցվեց
+msg.phrase	Parameter cleared	Պարամետրը ջնջվեց
+msg.phrase	Note cleared	Նոտան ջնջվեց
+msg.phrase	Instrument cleared	Գործիքը ջնջվեց
+msg.phrase	Volume cleared	Ուժգնությունը ջնջվեց
+msg.phrase	Order list is full	Հերթականության ցանկը լիքն է
+msg.phrase	Order inserted	Դիրքը ավելացվեց
+msg.phrase	Cannot delete the last order	Վերջին դիրքը հնարավոր չէ ջնջել
+msg.phrase	Order deleted	Դիրքը ջնջվեց
+msg.phrase	Playing song	Երգը նվագում է
+msg.phrase	Stopped	Կանգնեցված
 msg.phrase	New song	Նոր երգ
-msg.phrase	Discard unsaved changes and start a new song? (Y/N)	Հեռացնե՞լ չպահված փոփոխությունները և սկսել նոր երգ: (Y/N)
-msg.phrase	Discard unsaved changes and open a song? (Y/N)	Հեռացնե՞լ չպահված փոփոխությունները և բացե՞լ երգը: (Y/N)
-msg.phrase	Discard unsaved changes and quit? (Y/N)	Հեռացնե՞լ չպահված փոփոխությունները և լքե՞լ: (Y/N)
-msg.phrase	Song settings updated	Երգի կարգավորումները թարմացվել են
+msg.phrase	Discard unsaved changes and start a new song? (Y/N)	Հրաժարվե՞լ չպահպանված փոփոխություններից և սկսել նոր երգ (Y/N)
+msg.phrase	Discard unsaved changes and open a song? (Y/N)	Հրաժարվե՞լ չպահպանված փոփոխություններից և բացել երգ (Y/N)
+msg.phrase	Discard unsaved changes and quit? (Y/N)	Հրաժարվե՞լ չպահպանված փոփոխություններից և դուրս գալ (Y/N)
+msg.phrase	Song settings updated	Երգի կարգավորումները փոխվեցին
 msg.phrase	Filename is empty	Ֆայլի անունը դատարկ է
-msg.phrase	Save cancelled	Պահպանումը չեղարկված է
-msg.phrase	Open cancelled	Բացումը չեղարկվել է
-msg.phrase	Edit ON	Խմբագրել ՄԻԱՑՎԱԾ
-msg.phrase	Edit OFF	Խմբագրել ԱՆՋԱՏՎԱԾ
-msg.phrase	Follow ON	Հետևեք ON
-msg.phrase	Edit is OFF. Press F8 to edit.	Խմբագրումն ԱՆՋԱՏՎԱԾ է: Խմբագրելու համար սեղմեք F8:
-msg.phrase	I/O error	I/O սխալ
+msg.phrase	Save cancelled	Պահպանումը չեղարկվեց
+msg.phrase	Open cancelled	Բացումը չեղարկվեց
+msg.phrase	Edit ON	Խմբագրում ՄԻԱՑ
+msg.phrase	Edit OFF	Խմբագրում ԱՆՋ
+msg.phrase	Follow ON	Հետևել ՄԻԱՑ
+msg.phrase	Edit is OFF. Press F8 to edit.	Խմբագրումն անջատված է։ Սեղմեք F8։
+msg.phrase	I/O error	Մ/Ե սխալ
 msg.phrase	file is too large	ֆայլը չափազանց մեծ է
-msg.phrase	truncated file	կրճատված ֆայլ
+msg.phrase	truncated file	կտրված ֆայլ
 msg.phrase	SINE PAD	SINE PAD
-msg.phrase	TRIANGLE	ԵՌԱՆԿՅՈՒՆ
-msg.phrase	SAW LEAD	ՍԵՂԱ ԿԱՊԱՐ
-msg.phrase	SQUARE	ՀՐԱՊԱՐԱԿ
+msg.phrase	TRIANGLE	TRIANGLE
+msg.phrase	SAW LEAD	SAW LEAD
+msg.phrase	SQUARE	SQUARE
 msg.phrase	PULSE 25	PULSE 25
-msg.phrase	ORGAN	ՕՐԳԱՆ
-msg.phrase	BASS	ԲԱՍ
-msg.phrase	BELL	ԶԱՆԳ
-msg.phrase	NOISE	ԱՂՄՈՒԿ
-msg.phrase	SINE	ՍԻՆԵ
-msg.phrase	SAW	ՍԵՎ
-msg.phrase	OFF	ԱՆՋԱՏՎԱԾ
-msg.phrase	ON	ՄԻԱՑՎԱԾ
-msg.phrase	ROW	ՇԱՐՔ
-msg.phrase	CHAN LEVEL	ՉԱՆ ՄԱՐԴԱԿ
-msg.phrase	F1 HELP F2 SONG	F1 ՕԳՆՈՒԹՅՈՒՆ F2 ԵՐԳ
-msg.phrase	F3 INS  F4 SAVE	F3 INS F4 SAVE
+msg.phrase	ORGAN	ORGAN
+msg.phrase	BASS	BASS
+msg.phrase	BELL	BELL
+msg.phrase	NOISE	NOISE
+msg.phrase	SINE	SINE
+msg.phrase	SAW	SAW
+msg.phrase	OFF	OFF
+msg.phrase	ON	ON
+msg.phrase	ROW	ROW
+msg.phrase	CHAN LEVEL	CHAN LEVEL
+msg.phrase	F1 HELP F2 SONG	F1 HELP F2 SONG
+msg.phrase	F3 INS  F4 SAVE	F3 INS  F4 SAVE
 msg.phrase	F5 PLAY F6 PAT	F5 PLAY F6 PAT
-msg.phrase	F7 STOP F8 EDIT	F7 STOP F8 Խմբագրել
+msg.phrase	F7 STOP F8 EDIT	F7 STOP F8 EDIT
 msg.phrase	F9/F10 OCTAVE	F9/F10 OCTAVE
-msg.phrase	F11 FOLLOW	F11 ՀԵՏԵՎԵԼ
+msg.phrase	F11 FOLLOW	F11 FOLLOW
 msg.phrase	F12 QUIT	F12 QUIT
 msg.phrase	SPACE PLAY/STOP	SPACE PLAY/STOP
 msg.phrase	CTRL-S SAVE	CTRL-S SAVE
-msg.phrase	CTRL-O OPEN	CTRL-O ԲԱՑ
-msg.phrase	C-N NEW C-Z UNDO	C-N ՆՈՐ C-Z UNDO
+msg.phrase	CTRL-O OPEN	CTRL-O OPEN
+msg.phrase	C-N NEW C-Z UNDO	C-N NEW C-Z UNDO
 msg.phrase	C-C STOP	C-C STOP
-msg.phrase	#TRANSPORT AND FILES	#ՏՐԱՆՍՊՈՐՏ ԵՎ ՖԱՅԼԵՐ
-msg.phrase	#ORDER LIST	#ՊԱՏՎԵՐԻ ՑԱՆԿ
+msg.phrase	#TRANSPORT AND FILES	#ՆՎԱԳՈՒՄ ԵՎ ՖԱՅԼԵՐ
+msg.phrase	#ORDER LIST	#ՀԵՐԹԱԿԱՆՈՒԹՅԱՆ ՑԱՆԿ
 msg.phrase	#DISPLAY	#ՑՈՒՑԱԴՐՈՒՄ
 msg.phrase	#EDITING	#ԽՄԲԱԳՐՈՒՄ
-msg.phrase	#EFFECTS (parameter is hexadecimal)	#EFFECTS (պարամետրը տասնվեցական է)
-msg.phrase	LEFT/RIGHT PAGE   ENTER OR F1 CLOSE	ՁԱԽ/ԱՋ ԷՋ ՄՏՆԵԼ ԿԱՄ F1 ՓԱԿԵԼ
+msg.phrase	#EFFECTS (parameter is hexadecimal)	#ԷՖԵԿՏՆԵՐ (պարամետրը տասնվեցական է)
+msg.phrase	LEFT/RIGHT PAGE   ENTER OR F1 CLOSE	LEFT/RIGHT PAGE   ENTER OR F1 CLOSE
 msg.phrase	SONG SETTINGS	ԵՐԳԻ ԿԱՐԳԱՎՈՐՈՒՄՆԵՐ
-msg.phrase	UP/DOWN SELECT   LEFT/RIGHT ADJUST   ENTER/F2 CLOSE	ՎԵՐ/ՎԵՐԵՎ ԸՆՏՐԵԼ ՁԱԽ/ԱՋ ԿԱՐԳԱՎՈՐԵԼ ՄՏՆԵԼ/F2 ՓԱԿԵԼ
-msg.phrase	Type to edit the title. Backspace deletes the last character.	Մուտքագրեք վերնագիրը խմբագրելու համար: Backspace-ը ջնջում է վերջին նիշը:
-msg.phrase	BPM range 32..255. Speed range 1..31.	BPM միջակայք 32..255. Արագության միջակայք 1..31.
-msg.phrase	Pattern effects can also change speed and BPM while playing.	Կաղապարի էֆեկտները կարող են նաև փոխել արագությունը և BPM-ը խաղալիս:
+msg.phrase	UP/DOWN SELECT   LEFT/RIGHT ADJUST   ENTER/F2 CLOSE	UP/DOWN SELECT   LEFT/RIGHT ADJUST   ENTER/F2 CLOSE
+msg.phrase	Type to edit the title. Backspace deletes the last character.	Մուտքագրեք՝ վերնագիրը փոխելու համար։ Backspace-ը ջնջում է վերջին նիշը։
+msg.phrase	BPM range 32..255. Speed range 1..31.	BPM՝ 32-ից 255։ Արագություն՝ 1-ից 31։
+msg.phrase	Pattern effects can also change speed and BPM while playing.	Pattern-ների էֆեկտները նվագելիս նույնպես կարող են փոխել արագությունն ու BPM-ը։
 msg.phrase	INSTRUMENTS	ԳՈՐԾԻՔՆԵՐ
-msg.phrase	UP/DOWN SELECT   SPACE PREVIEW   ENTER USE   F3 CLOSE	ՎԵՐԵՎ/ՎԵՐԵՎ ԸՆՏՐԵԼ ՏԵՂԱՏԵՂԻ ՆԱԽԱԴԻՏՈՒՄ ՄՏՆԵԼ ՕԳՏԱԳՈՐԾԵԼ F3 ՓԱԿԵԼ
-msg.phrase	All four channels use wavetable synthesis.	Բոլոր չորս ալիքներն օգտագործում են ալիքային սինթեզ:
-msg.phrase	Preview plays C-4 on the track under the edit cursor.	Նախադիտումը նվագարկում է C-4 ուղու վրա՝ խմբագրման կուրսորի տակ:
-msg.phrase	SAVE SONG AS	ՊԱՀՊԱՆԵՔ ԵՐԳԸ ՈՐՊԵՍ
-msg.phrase	ENTER SAVE   F4 OR CTRL-C CANCEL	Մուտքագրեք ՊԱՀՊԱՆԵԼ F4 ԿԱՄ CTRL-C ՉԵՂԱՐԿԵԼ
-msg.phrase	Directory:	տեղեկատու:
-msg.phrase	File name:	Ֆայլի անունը.
-msg.phrase	The extension .SGT is added automatically.	Ընդլայնումը .SGT ավելացվում է ավտոմատ կերպով:
-msg.phrase	An existing file can be overwritten.	Գոյություն ունեցող ֆայլը կարող է վերագրանցվել:
-msg.phrase	OPEN SONG	ԲԱՑ ԵՐԳ
-msg.phrase	ENTER OPEN  BS PARENT  CTRL-O/CTRL-C CANCEL	Մուտքագրեք ԲԱՑ BS PARENT CTRL-O/CTRL-C ՉԵՂԱՐԿԵԼ
-msg.phrase	(no .SGT files in this folder)	(Այս թղթապանակում չկա .SGT ֆայլ)
-msg.phrase	CONFIRM	ՀԱՍՏԱՏԵԼ
-msg.phrase	Y = YES   N / ENTER / CTRL-C = NO	Y = YES N / ENTER / CTRL-C = NO
-msg.phrase	Y = yes        N = no	Y = այո N = ոչ
-msg.phrase	C-	Գ-
+msg.phrase	UP/DOWN SELECT   SPACE PREVIEW   ENTER USE   F3 CLOSE	UP/DOWN SELECT   SPACE PREVIEW   ENTER USE   F3 CLOSE
+msg.phrase	All four channels use wavetable synthesis.	Բոլոր չորս ալիքներն օգտագործում են wavetable սինթեզ։
+msg.phrase	Preview plays C-4 on the track under the edit cursor.	Լսումը նվագում է C-4 կուրսորի տակի ձայնագրությունում։
+msg.phrase	SAVE SONG AS	ՊԱՀՊԱՆԵԼ ԵՐԳԸ ՈՐՊԵՍ
+msg.phrase	ENTER SAVE   F4 OR CTRL-C CANCEL	ENTER SAVE   F4 OR CTRL-C CANCEL
+msg.phrase	Directory:	Թղթապանակ:
+msg.phrase	File name:	Ֆայլի անուն:
+msg.phrase	The extension .SGT is added automatically.	.SGT ընդլայնումն ավելացվում է ինքնաշխատ։
+msg.phrase	An existing file can be overwritten.	Գոյություն ունեցող ֆայլը կարելի է վերագրել։
+msg.phrase	OPEN SONG	ԲԱՑԵԼ ԵՐԳ
+msg.phrase	ENTER OPEN  BS PARENT  CTRL-O/CTRL-C CANCEL	ENTER OPEN  BS PARENT  CTRL-O/CTRL-C CANCEL
+msg.phrase	(no .SGT files in this folder)	(այս թղթապանակում .SGT ֆայլեր չկան)
+msg.phrase	CONFIRM	ՀԱՍՏԱՏՈՒՄ
+msg.phrase	Y = YES   N / ENTER / CTRL-C = NO	Y = YES   N / ENTER / CTRL-C = NO
+msg.phrase	Y = yes        N = no	Y = այո        N = ոչ
+msg.phrase	C-	C-
 msg.phrase	C#	C#
-msg.phrase	D-	Դ-
+msg.phrase	D-	D-
 msg.phrase	D#	D#
-msg.phrase	E-	Էլ.
-msg.phrase	F-	Զ-
+msg.phrase	E-	E-
+msg.phrase	F-	F-
 msg.phrase	F#	F#
-msg.phrase	G-	Գ-
+msg.phrase	G-	G-
 msg.phrase	G#	G#
-msg.phrase	A-	Ա-
+msg.phrase	A-	A-
 msg.phrase	A#	A#
-msg.phrase	B-	Բ-
+msg.phrase	B-	B-
 msg.phrase	A:/dir/name	A:/dir/name
-msg.phrase	MThd	ՄԹդ
-msg.phrase	broken MThd	կոտրված ՄԹհդ
-msg.phrase	MIDI IMPORT	MIDI IMPORT
-msg.phrase	MTrk	ՄՏրկ
-msg.phrase	broken delta time	կոտրված դելտայի ժամանակը
-msg.phrase	broken running status	կոտրված վազքի կարգավիճակը
-msg.phrase	broken meta event	կոտրված մետա իրադարձություն
-msg.phrase	broken sysex event	կոտրված sysex իրադարձություն
-msg.phrase	broken channel event	կոտրված ալիքի իրադարձություն
-msg.phrase	SMF output is too small	SMF-ի ելքը չափազանց փոքր է
-msg.phrase	SMF output is too large	SMF-ի ելքը չափազանց մեծ է
+msg.phrase	MThd	MThd
+msg.phrase	broken MThd	վնասված MThd
+msg.phrase	MIDI IMPORT	MIDI ՆԵՐՄՈՒԾՈՒՄ
+msg.phrase	MTrk	MTrk
+msg.phrase	broken delta time	վնասված delta time
+msg.phrase	broken running status	վնասված running status
+msg.phrase	broken meta event	վնասված meta իրադարձություն
+msg.phrase	broken sysex event	վնասված SysEx իրադարձություն
+msg.phrase	broken channel event	վնասված ալիքի իրադարձություն
+msg.phrase	SMF output is too small	SMF արդյունքը չափազանց փոքր է
+msg.phrase	SMF output is too large	SMF արդյունքը չափազանց մեծ է
 msg.phrase	the song is too long for SMF	երգը չափազանց երկար է SMF-ի համար
 msg.phrase	TRK1	TRK1
 msg.phrase	%s%d	%s%d
 msg.phrase	%s%d:%s%d	%s%d:%s%d
 msg.phrase	%s	%s
 msg.phrase	%.40s%s	%.40s%s
-msg.phrase	  [%s]   %s	[%s] %s
-msg.phrase	EDIT  	ԽՄԲԱԳՐԵԼ
-msg.phrase	READY 	ՊԱՏՐԱՍՏ
-msg.phrase	%4d 	%4d
+msg.phrase	  [%s]   %s	  [%s]   %s
+msg.phrase	EDIT  	ԽՄԲ.
+msg.phrase	READY 	ՊԱՏՐ
+msg.phrase	%4d 	%4d 
 msg.phrase	%s Sum %.7g N %ld%s	%s Գումար %.7g N %ld%s
-msg.phrase	ARROWS      move the cell cursor\n	ՍՏԱՔՆԵՐԸ տեղափոխում են բջջային կուրսորը
-msg.phrase	SHIFT+ARR   extend the selection (for graphs/copy)\n	SHIFT+ARR ընդլայնել ընտրությունը (գրաֆիկների/պատճենների համար)
-msg.phrase	ENTER       edit the cell; in edit, commit and move down\n	ENTER խմբագրել բջիջը; խմբագրելիս, ստանձնել և շարժվել ներքև
-msg.phrase	TAB         next cell    SHIFT+TAB  previous cell\n	TAB հաջորդ բջիջը SHIFT+TAB նախորդ բջիջը
-msg.phrase	DELETE      clear the selected cell(s)    ESC  cancel\n	DELETE ջնջել ընտրված բջիջ(ներ)ը ESC-ի չեղարկումը
-msg.phrase	PGUP/PGDN   move one screen    HOME/END  first/last column\n	PGUP/PGDN-ը տեղափոխում է մեկ էկրան ՏՈՒՆ/ՎԵՐՋ առաջին/վերջին սյունակը
-msg.phrase	CTRL+HOME   A1    CTRL+END  last used cell\n	CTRL+HOME A1 CTRL+END վերջին օգտագործված բջիջը
-msg.phrase	F1 help  F2 edit  F3 copy  F4 paste  F5 goto  F6 colour\n	F1 օգնություն F2 խմբագրել F3 պատճենել F4 paste F5 goto F6 գույն
-msg.phrase	F7 auto-fit  F8 background  F9 recalc  F10 graph  F11 save  F12 menu\n	F7 ավտոմատ տեղավորվում է F8 ֆոն F9 recalc F10 graph F11 save F12 menu
-msg.phrase	SHIFT+F1 about  SHIFT+F2 row height  SHIFT+F3 column width\n	SHIFT+F1 SHIFT+F2 տողի բարձրության մասին SHIFT+F3 սյունակի լայնությունը
-msg.phrase	SHIFT+F4 select all  SHIFT+F10 graph range  SHIFT+F11 save as\n	SHIFT+F4 ընտրել բոլոր SHIFT+F10 գրաֆիկական տիրույթը SHIFT+F11 պահպանել որպես
-msg.phrase	CTRL+F1 new  CTRL+F2 open  CTRL+F3 save  CTRL+F4 save as\n	CTRL+F1 նոր CTRL+F2 բացել CTRL+F3 պահպանել CTRL+F4 պահել որպես
-msg.phrase	CTRL+F5 export CSV  CTRL+F6 export ODS  ALT+F12 quit\n	CTRL+F5 արտահանում CSV CTRL+F6 արտահանում ODS ALT+F12 դուրս
-msg.phrase	Bottom 2 lines: function keys; [SHIFT]/[CTRL]/[ALT] like the filer\n	Ներքևի 2 տող. ֆունկցիոնալ ստեղներ; [SHIFT]/[CTRL]/[ALT] նման ֆայլերի
-msg.phrase	CTRL+S save  CTRL+O open  CTRL+N new  CTRL+C/V/X copy/paste/cut\n	CTRL+S պահպանել CTRL+O բացել CTRL+N նոր CTRL+C/V/X պատճենել/տեղադրել/կտրել
-msg.phrase	CTRL+G goto    /  open the menu (1 File, 2 Edit, ...)\n	CTRL+G-ն անցավ / բացիր ընտրացանկը (1 Ֆայլ, 2 Խմբագրել, ...)
-msg.phrase	Built-in functions: SUM AVERAGE MIN MAX COUNT COUNTA\n	Ներկառուցված գործառույթներ. ՄԻՋԻՆ ԳՈՒՄԱՐ ՆՎԱԶԱԳՈՒՅՆ ՄԱՍ COUNT COUNTA
-msg.phrase	PRODUCT ABS SQRT INT ROUND MOD POWER IF AND OR NOT\n	ԱՊՐԱՆՔ ABS SQRT INT ROUND MOD POWER ԵԹԵ ԵՎ ԿԱՄ ՈՉ
-msg.phrase	IFERROR LEN LEFT RIGHT MID UPPER LOWER TRIM CONCATENATE PI\n	IFERROR LEN ՁԱԽ ԱՋ ՄԻՋԻՆ ՎԵՐԻՆ ՆԵՐՔԻՆ ԵԶՐԱՓԱԿԻՉ PI
-msg.phrase	Cell refs: A1, $A$1, A1:B10.  Formulas begin with '='.\n	Բջջի հղումներ՝ A1, $A$1, A1:B10:  Բանաձևերը սկսվում են '='-ով:
-msg.phrase	Files: .ods (LibreOffice), .fods (flat XML), .csv\n	Ֆայլեր՝ .ods (LibreOffice), .fods (հարթ XML), .csv
-msg.phrase	ODS/FODS keeps formulas, widths, heights and colours.\n	ODS/FODS-ը պահպանում է բանաձևերը, լայնությունները, բարձրությունները և գույները:
-msg.phrase	CSV keeps values and formulas (no colours/heights).\n	CSV-ը պահպանում է արժեքներ և բանաձևեր (առանց գույների/բարձրությունների):
-msg.phrase	Graph: select a range, press F10, and choose Line/Bar/Mixed/Pie.\n	Գրաֆիկ. ընտրեք տիրույթ, սեղմեք F10 և ընտրեք Line/Bar/Mixed/Pie:
-msg.phrase	SGCALC for sgnano\n	SGCALC sgnano-ի համար
+msg.phrase	ARROWS      move the cell cursor\n	ՍԼԱՔՆԵՐ    տեղաշարժել բջջի կուրսորը\n
+msg.phrase	SHIFT+ARR   extend the selection (for graphs/copy)\n	SHIFT+ՍԼԱՔ  ընդարձակել ընտրությունը (գծապատկեր/պատճեն)\n
+msg.phrase	ENTER       edit the cell; in edit, commit and move down\n	ENTER       խմբագրել բջիջը. խմբագրելիս հաստատել և իջնել\n
+msg.phrase	TAB         next cell    SHIFT+TAB  previous cell\n	TAB         հաջորդ բջիջ    SHIFT+TAB  նախորդ բջիջ\n
+msg.phrase	DELETE      clear the selected cell(s)    ESC  cancel\n	DELETE      մաքրել ընտրված բջիջները    ESC  չեղարկել\n
+msg.phrase	PGUP/PGDN   move one screen    HOME/END  first/last column\n	PGUP/PGDN   մեկ էկրան    HOME/END  առաջին/վերջին սյունակ\n
+msg.phrase	CTRL+HOME   A1    CTRL+END  last used cell\n	CTRL+HOME   A1    CTRL+END  վերջին օգտագործված բջիջ\n
+msg.phrase	F1 help  F2 edit  F3 copy  F4 paste  F5 goto  F6 colour\n	F1 օգնություն  F2 խմբագրել  F3 պատճենել  F4 տեղադրել  F5 անցնել  F6 գույն\n
+msg.phrase	F7 auto-fit  F8 background  F9 recalc  F10 graph  F11 save  F12 menu\n	F7 հարմարեցնել  F8 ֆոն  F9 վերահաշվել  F10 գծապատկեր  F11 պահել  F12 մենյու\n
+msg.phrase	SHIFT+F1 about  SHIFT+F2 row height  SHIFT+F3 column width\n	SHIFT+F1 մասին  SHIFT+F2 տողի բարձրություն  SHIFT+F3 սյունակի լայնք\n
+msg.phrase	SHIFT+F4 select all  SHIFT+F10 graph range  SHIFT+F11 save as\n	SHIFT+F4 ընտրել բոլորը  SHIFT+F10 տիրույթ  SHIFT+F11 պահել որպես\n
+msg.phrase	CTRL+F1 new  CTRL+F2 open  CTRL+F3 save  CTRL+F4 save as\n	CTRL+F1 նոր  CTRL+F2 բացել  CTRL+F3 պահել  CTRL+F4 պահել որպես\n
+msg.phrase	CTRL+F5 export CSV  CTRL+F6 export ODS  ALT+F12 quit\n	CTRL+F5 արտահանել CSV  CTRL+F6 արտահանել ODS  ALT+F12 ելք\n
+msg.phrase	Bottom 2 lines: function keys; [SHIFT]/[CTRL]/[ALT] like the filer\n	Ներքևի 2 տողը՝ ֆունկցիոնալ ստեղներ. [SHIFT]/[CTRL]/[ALT]՝ ինչպես filer-ում\n
+msg.phrase	CTRL+S save  CTRL+O open  CTRL+N new  CTRL+C/V/X copy/paste/cut\n	CTRL+S պահել  CTRL+O բացել  CTRL+N նոր  CTRL+C/V/X պատճ./տեղ./կտրել\n
+msg.phrase	CTRL+G goto    /  open the menu (1 File, 2 Edit, ...)\n	CTRL+G անցնել    /  բացել ընտրացանկը (1 Ֆայլ, 2 Խմբագրում, ...)\n
+msg.phrase	Built-in functions: SUM AVERAGE MIN MAX COUNT COUNTA\n	Ներկառուցված ֆունկցիաներ՝ SUM AVERAGE MIN MAX COUNT COUNTA\n
+msg.phrase	PRODUCT ABS SQRT INT ROUND MOD POWER IF AND OR NOT\n	PRODUCT ABS SQRT INT ROUND MOD POWER IF AND OR NOT\n
+msg.phrase	IFERROR LEN LEFT RIGHT MID UPPER LOWER TRIM CONCATENATE PI\n	IFERROR LEN LEFT RIGHT MID UPPER LOWER TRIM CONCATENATE PI\n
+msg.phrase	Cell refs: A1, $A$1, A1:B10.  Formulas begin with '='.\n	Բջջի հղումներ՝ A1, $A$1, A1:B10.  Բանաձևերը սկսվում են '='-ով։\n
+msg.phrase	Files: .ods (LibreOffice), .fods (flat XML), .csv\n	Ֆայլեր՝ .ods (LibreOffice), .fods (հարթ XML), .csv\n
+msg.phrase	ODS/FODS keeps formulas, widths, heights and colours.\n	ODS/FODS-ը պահում է բանաձևերը, լայնքը, բարձրությունը և գույները։\n
+msg.phrase	CSV keeps values and formulas (no colours/heights).\n	CSV-ն պահում է միայն արժեքներն ու բանաձևերը (առանց գույնի/բարձրության)։\n
+msg.phrase	Graph: select a range, press F10, and choose Line/Bar/Mixed/Pie.\n	Գծապատկեր՝ ընտրեք տիրույթ, F10, ապա Գծային/Սյունային/Խառը/Շրջանային։\n
+msg.phrase	SGCALC for sgnano\n	SGCALC for sgnano\n
 msg.phrase	Version 	Տարբերակ
-msg.phrase	A Lotus 1-2-3 style spreadsheet as an SGX program.\n\n	Lotus 1-2-3 ոճի աղյուսակ՝ որպես SGX ծրագիր:
+msg.phrase	A Lotus 1-2-3 style spreadsheet as an SGX program.\n\n	Lotus 1-2-3 ոճի աղյուսակային ծրագիր՝ որպես SGX ծրագիր։\n\n
 msg.phrase	SGX ABI %u.%u\n	SGX ABI %u.%u
-msg.phrase	Screen mode 3: text + CLUT8 FB (lowres disabled)\n	Էկրանի ռեժիմ 3. տեքստ + CLUT8 FB (իջեցնում է անջատված)
+msg.phrase	Screen mode 3: text + CLUT8 FB (lowres disabled)\n	Էկրանի ռեժիմ 3՝ տեքստ + CLUT8 FB (առանց lowres շերտի)\n
 msg.phrase	Sheet: %d rows x %d columns\n	Թերթ՝ %d տող x %d սյունակ
-msg.phrase	Formats: .ods / .fods (LibreOffice), .csv\n\n	Ձևաչափեր՝ .ods / .fods (LibreOffice), .csv
-msg.phrase	The grid is drawn on the text plane.\n	Ցանցը գծված է տեքստի հարթության վրա:
-msg.phrase	Charts and the 640x480 background use the FB.\n\n	Գծապատկերները և 640x480 ֆոնն օգտագործում են FB-ն:
+msg.phrase	Formats: .ods / .fods (LibreOffice), .csv\n\n	Ձևաչափեր՝ .ods / .fods (LibreOffice), .csv\n\n
+msg.phrase	The grid is drawn on the text plane.\n	Ցանցը գծվում է տեքստային շերտի վրա։\n
+msg.phrase	Charts and the 640x480 background use the FB.\n\n	Գծապատկերներն ու 640x480 ֆոնը օգտագործում են FB-ն։\n\n
 msg.phrase	%d %s	%d %s
-msg.phrase	Cannot store the cell (%d).	Հնարավոր չէ պահել բջիջը (%d):
-msg.phrase	Copied %d x %d cells	Պատճենված %d x %d բջիջներ
+msg.phrase	Cannot store the cell (%d).	Չհաջողվեց գրել բջիջը (%d)։
+msg.phrase	Copied %d x %d cells	Պատճենվեց %d x %d բջիջ
 msg.phrase	Cleared %s	Մաքրված է %s
-msg.phrase	'%s' is not a cell reference.	«%s»-ը բջջային հղում չէ:
+msg.phrase	'%s' is not a cell reference.	'%s'-ը բջջի հղում չէ։
 msg.phrase	%d	%d
-msg.phrase	Column width = %d	Սյունակի լայնությունը = %d
-msg.phrase	Row height = %d	Շարքի բարձրությունը = %d
-msg.phrase	Auto fit: %d column(s), %d row(s)	Ավտոմատ տեղավորում՝ %d սյունակ(ներ), %d տող(ներ)
+msg.phrase	Column width = %d	Սյունակի լայնք = %d
+msg.phrase	Row height = %d	Տողի բարձրություն = %d
+msg.phrase	Auto fit: %d column(s), %d row(s)	Հարմարեցնել՝ %d սյունակ, %d տող
 msg.phrase	%2d	%2d
-msg.phrase	Cannot apply the colour (%d).	Հնարավոր չէ կիրառել գույնը (%d):
+msg.phrase	Cannot apply the colour (%d).	Չհաջողվեց կիրառել գույնը (%d)։
 msg.phrase	%s colour = %d	%s գույն = %d
-msg.phrase	Not a valid range.\nUse a range such as A1:C10.	Վավեր ընդգրկույթ չէ:\nՕգտագործեք այնպիսի միջակայք, ինչպիսին է A1:C10:
-msg.phrase	Graph range %s	Գրաֆիկի տիրույթ %s
+msg.phrase	Not a valid range.\nUse a range such as A1:C10.	Անվավեր տիրույթ։\nՆշեք տիրույթ, օրինակ՝ A1:C10։
+msg.phrase	Graph range %s	Գծապատկերի տիրույթ %s
 msg.phrase	Graph: %s	Գրաֆիկ՝ %s
-msg.phrase	SGCALC: cannot set screen mode 3: %s\n	SGCALC. հնարավոր չէ սահմանել էկրանի ռեժիմը 3. %s
+msg.phrase	SGCALC: cannot set screen mode 3: %s\n	SGCALC: չհաջողվեց սահմանել էկրանի ռեժիմ 3. %s\n
 msg.phrase	%.2g	%.2g
 msg.phrase	%.6g	%.6g
-msg.phrase	%s  %.0f%%	%s %.0f%%
-msg.phrase	GRAPH  %s  %s	ԳՐԱՖԻԿ %s %s
+msg.phrase	%s  %.0f%%	%s  %.0f%%
+msg.phrase	GRAPH  %s  %s	ԳԾԱՊԱՏԿԵՐ  %s  %s
 msg.phrase	%s%s	%s%s
 msg.phrase	%s/%s	%s/%s
 msg.phrase	%.*s	%.*s
 msg.phrase	%.*s/	%.*s/
-msg.phrase	Cannot read %s\n%s	Հնարավոր չէ կարդալ %s\n%s
+msg.phrase	Cannot read %s\n%s	Չհաջողվեց կարդալ %s\n%s
 msg.phrase	Folder: %s	Թղթապանակ՝ %s
 msg.phrase	[DIR] %s	[DIR] %s
-msg.phrase	      %s	%s
-msg.phrase	%lu.%luM	%lu.%luՄ
-msg.phrase	%luK	%luԿ
-msg.phrase	%luB	%luԲ
-msg.phrase	BOOK1%s	ԳԻՐՔ1%s
+msg.phrase	      %s	      %s
+msg.phrase	%lu.%luM	%lu.%luM
+msg.phrase	%luK	%luK
+msg.phrase	%luB	%luB
+msg.phrase	BOOK1%s	BOOK1%s
 msg.phrase	%c:/	%c:/
-msg.phrase	Unsupported extension.\nUse .csv, .ods or .fods.	Չաջակցվող ընդլայնում:\nՕգտագործեք .csv, .ods կամ .fods:
-msg.phrase	%s already exists.\nOverwrite it?	%s արդեն գոյություն ունի:\nՎերագրե՞լ այն:
-msg.phrase	%s may not be writable.\nTry anyway?	%s-ը կարող է գրառելի չլինել:\nՓորձե՞լ, այնուամենայնիվ:
-msg.phrase	Unknown file type for %s	Անհայտ ֆայլի տեսակը %s
-msg.phrase	Unsupported file type.\nUse .csv, .ods or .fods.	Չաջակցվող ֆայլի տեսակ:\nՕգտագործեք .csv, .ods կամ .fods:
-msg.phrase	Cannot open %s\n%s	Հնարավոր չէ բացել %s-ը\n%s
-msg.phrase	%s is a folder.	%s թղթապանակ է։
-msg.phrase	Cannot import %s\n%s	Հնարավոր չէ ներմուծել %s\n%s
-msg.phrase	Loaded %s	Բեռնված %s
-msg.phrase	Cannot build the %s file.	Հնարավոր չէ կառուցել %s ֆայլը:
-msg.phrase	Cannot write %s\n%s	Հնարավոր չէ գրել %s\n%s
+msg.phrase	Unsupported extension.\nUse .csv, .ods or .fods.	Չաջակցվող ընդլայնում։\nՕգտագործեք .csv, .ods կամ .fods։
+msg.phrase	%s already exists.\nOverwrite it?	%s-ն արդեն կա։\nՎերագրե՞լ
+msg.phrase	%s may not be writable.\nTry anyway?	%s-ում գուցե հնարավոր չէ գրել։\nՓորձե՞լ այնուամենայնիվ
+msg.phrase	Unknown file type for %s	Անհայտ ֆայլի տեսակ՝ %s
+msg.phrase	Unsupported file type.\nUse .csv, .ods or .fods.	Չաջակցվող ֆայլի տեսակ։\nՕգտագործեք .csv, .ods կամ .fods։
+msg.phrase	Cannot open %s\n%s	Չհաջողվեց բացել %s\n%s
+msg.phrase	%s is a folder.	%s-ը թղթապանակ է։
+msg.phrase	Cannot import %s\n%s	Չհաջողվեց ներմուծել %s\n%s
+msg.phrase	Loaded %s	Բեռնվեց՝ %s
+msg.phrase	Cannot build the %s file.	Չհաջողվեց ստեղծել %s ֆայլը։
+msg.phrase	Cannot write %s\n%s	Չհաջողվեց գրել %s\n%s
 msg.phrase	%s %s	%s %s
-msg.phrase	unsupported version %u	չաջակցվող տարբերակ %u
+msg.phrase	unsupported version %u	չաջակցվող տարբերակ (%u)
 msg.phrase	%d:%d:%d:%d:%d:%d	%d:%d:%d:%d:%d:%d
 msg.phrase	Octave %d	Օկտավա %d
-msg.phrase	Note %s	Նշում %s
+msg.phrase	Note %s	Նոտա %s
 msg.phrase	Instrument %d	Գործիք %d
-msg.phrase	Volume %s	Ծավալը %s
+msg.phrase	Volume %s	Ձայնի ուժգնություն %s
 msg.phrase	Effect %c	Էֆեկտ %c
 msg.phrase	Parameter %s	Պարամետր %s
-msg.phrase	Pattern %s	Նախշ %s
-msg.phrase	Playing pattern %s	Խաղի օրինաչափություն %s
-msg.phrase	SAVE ERROR: %s	ՊԱՀՊԱՆԵԼ ՍԽԱԼ. %s
-msg.phrase	Saved %s	Պահպանված է %s
-msg.phrase	LOAD ERROR: %s	Բեռնման ՍԽԱԼ՝ %s
+msg.phrase	Pattern %s	Pattern %s
+msg.phrase	Playing pattern %s	Pattern %s-ը նվագում է
+msg.phrase	SAVE ERROR: %s	ՊԱՀՊԱՆՄԱՆ ՍԽԱԼ՝ %s
+msg.phrase	Saved %s	Պահպանվեց՝ %s
+msg.phrase	LOAD ERROR: %s	ԲԵՌՆՄԱՆ ՍԽԱԼ՝ %s
 msg.phrase	BPM %d	BPM %d
 msg.phrase	Speed %d	Արագություն %d
-msg.phrase	Preview %s	Նախադիտում %s
+msg.phrase	Preview %s	Լսել %s
 msg.phrase	Instrument %s %s	Գործիք %s %s
 msg.phrase	Overwrite %s? (Y/N)	Վերագրե՞լ %s (Y/N)
-msg.phrase	 | BPM %s SPD %s 	| BPM %s SPD %s
-msg.phrase	 SGNO TRACKER 1.0 | 	SGNO TRACKER 1.0 |
-msg.phrase	FILE 	ՖԱՅԼ
-msg.phrase	 PAT %s	PAT %s
-msg.phrase	 ORD %d/%d	ORD %d/%d
-msg.phrase	 INS %s 	INS %s
-msg.phrase	 OCT %d	ՀՈԿՏ %d
-msg.phrase	 EDIT %s	ԽՄԲԱԳՐԵԼ %s
-msg.phrase	ON 	ՄԻԱՑՎԱԾ
-msg.phrase	 FOL %s	FOL %s
+msg.phrase	 | BPM %s SPD %s 	 | BPM %s SPD %s 
+msg.phrase	 SGNO TRACKER 1.0 | 	 SGNO TRACKER 1.0 | 
+msg.phrase	FILE 	FILE 
+msg.phrase	 PAT %s	 PAT %s
+msg.phrase	 ORD %d/%d	 ORD %d/%d
+msg.phrase	 INS %s 	 INS %s 
+msg.phrase	 OCT %d	 OCT %d
+msg.phrase	 EDIT %s	 EDIT %s
+msg.phrase	ON 	ON 
+msg.phrase	 FOL %s	 FOL %s
 msg.phrase	TRACK %d	TRACK %d
 msg.phrase	%c%s	%c%s
 msg.phrase	%s %s %s %s	%s %s %s %s
-msg.phrase	%s 	%s
+msg.phrase	%s 	%s 
 msg.phrase	%d %s %s	%d %s %s
-msg.phrase	ORDER %d/%d	ՊԱՏՎԻՐԵԼ %d/%d
-msg.phrase	PAT   %s	PAT %s
+msg.phrase	ORDER %d/%d	ORDER %d/%d
+msg.phrase	PAT   %s	PAT   %s
 msg.phrase	INS %s %s	INS %s %s
-msg.phrase	OCT %d  EDIT %s	OCT %d ԽՄԲԱԳՐԵԼ %s
-msg.phrase	FOLLOW %s	ՀԵՏԵՎԵՔ %s
-msg.phrase	PLAYING  ORD %d/%d  PAT %s  ROW %s/%d  SPD %s  BPM %d  F7 STOP	ՆՎԱԾՈՒՄ Է ՕՐԴ %d/%d PAT %s ՇԱՐՔ %s/%d SPD %s BPM %d F7 STOP
-msg.phrase	READY  EDIT %s  OCT %d  F1 HELP  F5 PLAY  CTRL-S SAVE	ՊԱՏՐԱՍՏ ԽՄԲԱԳՐԵԼ %s ՀՈԿՏ %d F1 ՕԳՆԵԼ F5 PLAY CTRL-S ՊԱՀՊԱՆԵԼ
-msg.phrase	 %s 	%s
-msg.phrase	  F5          Play the song from the current order	F5 Նվագարկել երգը ընթացիկ պատվերից
-msg.phrase	  F6          Play the current pattern	F6 Նվագարկել ընթացիկ օրինակը
-msg.phrase	  F7/Ctrl-C   Stop playback	F7/Ctrl-C Դադարեցնել նվագարկումը
-msg.phrase	  Space       Play / stop	Տիեզերական խաղ / կանգառ
-msg.phrase	  F4          Save as	F4 Պահպանել որպես
-msg.phrase	  Ctrl-S      Save (asks for a name if new)	Ctrl-S Save (նոր դեպքում անուն է խնդրում)
-msg.phrase	  Ctrl-O      Open a song	Ctrl-O Բացեք երգ
-msg.phrase	  Ctrl-N      New song	Ctrl-N Նոր երգ
-msg.phrase	  F12         Quit (confirmation if modified)	F12 Դուրս գալ (հաստատում, եթե փոփոխված է)
-msg.phrase	  [ ]         Previous / next order entry	[ ] Նախորդ / հաջորդ պատվերի մուտքագրում
-msg.phrase	  { }         Insert / delete an order entry	{ } Տեղադրել / ջնջել պատվերի գրառումը
-msg.phrase	  - +         Change the pattern in the entry	- + Փոխեք նախշը մուտքի մեջ
-msg.phrase	  F11         Follow playback (turns off on manual move)	F11 Հետևեք նվագարկումը (անջատվում է ձեռքով շարժվելիս)
-msg.phrase	  F1          Help; Left/Right changes page	F1 Օգնություն; Ձախ/աջ փոփոխության էջը
-msg.phrase	  F8          Toggle edit mode	F8 Փոխարկել խմբագրման ռեժիմը
-msg.phrase	  Arrows      Move the cursor	Սլաքներ Տեղափոխեք կուրսորը
-msg.phrase	  PgUp/PgDn   Jump 16 rows	PgUp/PgDn Անցնել 16 տող
-msg.phrase	  Home/End    First / last row	Գլխավոր/Վերջ Առաջին/վերջին տող
-msg.phrase	  F9/F10      Octave down / up	F9/F10 Օկտավա ներքև/վերև
-msg.phrase	  Z S X D C V G B H N J M      lower piano row	Z S X D C V G B H N J M դաշնամուրի ստորին շարք
-msg.phrase	  Q 2 W 3 E R 5 T 6 Y 7 U      upper piano row	Q 2 W 3 E R 5 T 6 Y 7 U վերին դաշնամուրի շարք
-msg.phrase	  1           Note off	1 Նշումն անջատված է
-msg.phrase	  0 / Del     0 clears note/inst/fx; Del clears any	0 / Del 0 մաքրում է նշում/inst/fx; Դելը մաքրում է ցանկացածը
-msg.phrase	  Ctrl-Z      Undo the last pattern/order edit	Ctrl-Z Հետարկել վերջին օրինաչափության/պատվերի խմբագրումը
-msg.phrase	  Axy   Volume slide: up x, down y	Axy ծավալի սլայդ՝ վերև x, ներքև y
-msg.phrase	  Cxx   Note cut after xx ticks	Cxx նշումը կտրված է xx տիզերից հետո
-msg.phrase	  Dxx   Set volume (00..7F)	Dxx Սահմանված ծավալը (00..7F)
-msg.phrase	  Fxx   Speed if xx < 20, otherwise BPM	Fxx Արագություն, եթե xx < 20, հակառակ դեպքում BPM
-msg.phrase	  Hxy   Arpeggio x, y semitones	Hxy Arpeggio x, y կիսաձայններ
-msg.phrase	  Pxx   Pitch slide up	Pxx Pitch սահեցրեք վերև
-msg.phrase	  Qxx   Pitch slide down	Qxx Pitch-ը սահում է ներքև
-msg.phrase	  F2 song settings, F3 instrument list	F2 երգի կարգավորումներ, F3 գործիքների ցանկ
-msg.phrase	HELP %d/2	ՕԳՆԵԼ %d/2
-msg.phrase	  Title	Վերնագիր
-msg.phrase	  [%s_]	[%s_]
-msg.phrase	  BPM   : %d     (left/right -1/+1, -/+ -5/+5)	BPM: %d (ձախ/աջ -1/+1, -/+ -5/+5)
-msg.phrase	  Speed : %d ticks/row	Արագություն՝ %d տիզ/տող
-msg.phrase	  Rows  : %d (fixed)	Տողեր՝ %d (ֆիքսված)
-msg.phrase	  Order : %d entries	Պատվիրել՝ %d գրառում
-msg.phrase	  Patterns in use : %d	Օգտագործվող նախշեր՝ %d
-msg.phrase	 #  NAME       WAVE       A   D   S   R  VOL	# ԱՆՎԱՆԱԿԱՆ ԱԼԻՔ A D S R VOL
-msg.phrase	 %c %d  %-9s %-9s %3d %3d %3d %3d %4d	%c %d %-9s %-9s %3d %3d %3d %3d %4d
+msg.phrase	OCT %d  EDIT %s	OCT %d  EDIT %s
+msg.phrase	FOLLOW %s	FOLLOW %s
+msg.phrase	PLAYING  ORD %d/%d  PAT %s  ROW %s/%d  SPD %s  BPM %d  F7 STOP	PLAYING  ORD %d/%d  PAT %s  ROW %s/%d  SPD %s  BPM %d  F7 STOP
+msg.phrase	READY  EDIT %s  OCT %d  F1 HELP  F5 PLAY  CTRL-S SAVE	READY  EDIT %s  OCT %d  F1 HELP  F5 PLAY  CTRL-S SAVE
+msg.phrase	 %s 	 %s 
+msg.phrase	  F5          Play the song from the current order	  F5          Նվագել երգը ընթացիկ դիրքից
+msg.phrase	  F6          Play the current pattern	  F6          Նվագել ընթացիկ pattern-ը
+msg.phrase	  F7/Ctrl-C   Stop playback	  F7/Ctrl-C   Կանգնեցնել նվագումը
+msg.phrase	  Space       Play / stop	  Space       Նվագել / կանգնեցնել
+msg.phrase	  F4          Save as	  F4          Պահպանել որպես
+msg.phrase	  Ctrl-S      Save (asks for a name if new)	  Ctrl-S      Պահպանել (նորի դեպքում անուն է հարցնում)
+msg.phrase	  Ctrl-O      Open a song	  Ctrl-O      Բացել երգ
+msg.phrase	  Ctrl-N      New song	  Ctrl-N      Նոր երգ
+msg.phrase	  F12         Quit (confirmation if modified)	  F12         Ելք (հարցնում է, եթե փոփոխություն կա)
+msg.phrase	  [ ]         Previous / next order entry	  [ ]         Նախորդ / հաջորդ դիրք
+msg.phrase	  { }         Insert / delete an order entry	  { }         Ավելացնել / ջնջել դիրք
+msg.phrase	  - +         Change the pattern in the entry	  - +         Փոխել դիրքի pattern-ը
+msg.phrase	  F11         Follow playback (turns off on manual move)	  F11         Հետևել նվագմանը (անջատվում է ձեռքով շարժելիս)
+msg.phrase	  F1          Help; Left/Right changes page	  F1          Օգնություն. Ձախ/Աջ՝ էջը փոխել
+msg.phrase	  F8          Toggle edit mode	  F8          Միացնել / անջատել խմբագրումը
+msg.phrase	  Arrows      Move the cursor	  Սլաքներ     Տեղաշարժել կուրսորը
+msg.phrase	  PgUp/PgDn   Jump 16 rows	  PgUp/PgDn   Ցատկել 16 տող
+msg.phrase	  Home/End    First / last row	  Home/End    Առաջին / վերջին տող
+msg.phrase	  F9/F10      Octave down / up	  F9/F10      Օկտավա ներքև / վերև
+msg.phrase	  Z S X D C V G B H N J M      lower piano row	  Z S X D C V G B H N J M      դաշնամուրի ստորին շարք
+msg.phrase	  Q 2 W 3 E R 5 T 6 Y 7 U      upper piano row	  Q 2 W 3 E R 5 T 6 Y 7 U      դաշնամուրի վերին շարք
+msg.phrase	  1           Note off	  1           Note off
+msg.phrase	  0 / Del     0 clears note/inst/fx; Del clears any	  0 / Del     0՝ ջնջում է նոտա/գործիք/էֆեկտ, Del՝ դաշտը
+msg.phrase	  Ctrl-Z      Undo the last pattern/order edit	  Ctrl-Z      Հետ շրջել pattern-ի/հերթականության վերջին փոփոխությունը
+msg.phrase	  Axy   Volume slide: up x, down y	  Axy   Ուժգնության սահք՝ վերև x, ներքև y
+msg.phrase	  Cxx   Note cut after xx ticks	  Cxx   Կտրել նոտան xx tick-ից հետո
+msg.phrase	  Dxx   Set volume (00..7F)	  Dxx   Սահմանել ուժգնությունը (00..7F)
+msg.phrase	  Fxx   Speed if xx < 20, otherwise BPM	  Fxx   Արագություն, եթե xx < 20, այլապես BPM
+msg.phrase	  Hxy   Arpeggio x, y semitones	  Hxy   Արպեջիո x, y կիսատոն
+msg.phrase	  Pxx   Pitch slide up	  Pxx   Բարձրության սահք վերև
+msg.phrase	  Qxx   Pitch slide down	  Qxx   Բարձրության սահք ներքև
+msg.phrase	  F2 song settings, F3 instrument list	  F2 երգի կարգավորումներ, F3 գործիքների ցանկ
+msg.phrase	HELP %d/2	HELP %d/2
+msg.phrase	  Title	  Վերնագիր
+msg.phrase	  [%s_]	  [%s_]
+msg.phrase	  BPM   : %d     (left/right -1/+1, -/+ -5/+5)	  BPM   : %d     (ձախ/աջ -1/+1, -/+ -5/+5)
+msg.phrase	  Speed : %d ticks/row	  Արագ. : %d tick տողում
+msg.phrase	  Rows  : %d (fixed)	  Տողեր : %d (հաստատուն)
+msg.phrase	  Order : %d entries	  Հերթ. : %d դիրք
+msg.phrase	  Patterns in use : %d	  Օգտագործվող pattern-ներ : %d
+msg.phrase	 #  NAME       WAVE       A   D   S   R  VOL	 #  NAME       WAVE       A   D   S   R  VOL
+msg.phrase	 %c %d  %-9s %-9s %3d %3d %3d %3d %4d	 %c %d  %-9s %-9s %3d %3d %3d %3d %4d
 msg.phrase	Current instrument: %s %s	Ընթացիկ գործիք՝ %s %s
-msg.phrase	  %s	%s
-msg.phrase	DIR  %s	DIR %s
-msg.phrase	 %c %s%s	%c %s%s
+msg.phrase	  %s	  %s
+msg.phrase	DIR  %s	DIR  %s
+msg.phrase	 %c %s%s	 %c %s%s
 msg.phrase	Files: %d	Ֆայլեր՝ %d
 msg.phrase	%02d	%02d
 msg.phrase	%03d	%03d
 msg.phrase	%02X	%02X
-msg.phrase	SGNO TRACKER: incompatible SGX ABI\n	SGNO TRACKER՝ անհամատեղելի SGX ABI
+msg.phrase	SGNO TRACKER: incompatible SGX ABI\n	SGNO TRACKER: անհամատեղելի SGX ABI\n
 msg.phrase	S: check: wait -- a file is being read or written	S: ստուգեք. սպասեք - ֆայլը ընթերցվում կամ գրվում է
 msg.phrase	S: check: the drive is busy or not ready	S: ստուգեք. սկավառակը զբաղված է, թե պատրաստ չէ
 msg.phrase	nothing for this item (ContextMenu.cfg)	ոչինչ այս տարրի համար (ContextMenu.cfg)
@@ -1120,43 +1116,72 @@ msg.prefix	compress	սեղմել
 msg.prefix	render	մատուցել
 msg.phrase	5 Macro	5 Մակրո
 msg.phrase	6 Help	6 Օգնություն
-msg.phrase	Run current	Գործարկել ընթացիկ
-msg.phrase	Run the macro at the cursor (#! header cell and the cells below it)	Գործարկեք մակրոն կուրսորի վրա (#! վերնագրի բջիջ և դրա տակ գտնվող բջիջները)
-msg.phrase	Run selection	Գործարկել ընտրությունը
-msg.phrase	Run the selected cells as one macro (top-left cell is the #! header)	Գործարկեք ընտրված բջիջները որպես մեկ մակրո (վերևի ձախ բջիջը #! վերնագիրն է)
+msg.phrase	Run current	Գործարկել ընթացիկը
+msg.phrase	Run the macro at the cursor (#! header cell and the cells below it)	Գործարկել կուրսորի մակրոն (#! վերնագրի բջիջը և դրա տակի բջիջները)
+msg.phrase	Run selection	Գործարկել ընտրվածը
+msg.phrase	Run the selected cells as one macro (top-left cell is the #! header)	Գործարկել ընտրված բջիջները որպես մեկ մակրո (վերին ձախ բջիջը #! վերնագիրն է)
 msg.phrase	Run all	Գործարկել բոլորը
-msg.phrase	Run every macro in the sheet, top-left to bottom-right	Գործարկեք թերթի յուրաքանչյուր մակրո՝ վերևից ձախից ներքև աջ
+msg.phrase	Run every macro in the sheet, top-left to bottom-right	Գործարկել թերթի բոլոր մակրոները՝ վերին ձախից ներքևի աջ
 msg.phrase	Last error	Վերջին սխալը
-msg.phrase	Show the last macro error	Ցույց տալ վերջին մակրո սխալը
+msg.phrase	Show the last macro error	Ցույց տալ մակրոյի վերջին սխալը
 msg.phrase	Macro	Մակրո
-msg.phrase	Macro: run #!ruby / #!python / #!basic cells	Մակրո. գործարկել #!ruby / #!python / #!հիմնական բջիջները
+msg.phrase	Macro: run #!ruby / #!python / #!basic cells	Մակրո՝ գործարկել #!ruby / #!python / #!basic բջիջները
 msg.phrase	Edit the cell (F2)	Խմբագրել բջիջը (F2)
-msg.phrase	Fit widths/heights to the contents	Հարմարեցրեք լայնությունները/բարձրությունները բովանդակությանը
-msg.phrase	Last macro error	Վերջին մակրո սխալը
-msg.phrase	No macro error.	Մակրո սխալ չկա:
-msg.phrase	IME on	IME-ը միացված է
-msg.phrase	IME off	IME-ն անջատված է
-msg.phrase	Macro: %s %s ...	Մակրո: %s %s ...
-msg.phrase	%s: this firmware cannot run macros (SGX ABI 5.10 or later)	%s. այս որոնվածը չի կարող գործարկել մակրոները (SGX ABI 5.10 կամ ավելի նոր)
-msg.phrase	Macro error: %s	Մակրո սխալ՝ %s
-msg.phrase	Macro: %s done	Մակրո՝ %s ավարտված է
-msg.phrase	a macro is already running	մակրո արդեն աշխատում է
+msg.phrase	Fit widths/heights to the contents	Հարմարեցնել լայնքն/բարձրությունը պարունակությանը
+msg.phrase	Last macro error	Մակրոյի վերջին սխալը
+msg.phrase	No macro error.	Մակրոյի սխալ չկա։
+msg.phrase	IME on	IME միացված
+msg.phrase	IME off	IME անջատված
+msg.phrase	Macro: %s %s ...	Մակրո՝ %s %s ...
+msg.phrase	%s: this firmware cannot run macros (SGX ABI 5.10 or later)	%s: այս որոնվածը չի կարող մակրոներ գործարկել (պետք է SGX ABI 5.10 կամ ավելի նոր)
+msg.phrase	Macro error: %s	Մակրոյի սխալ՝ %s
+msg.phrase	Macro: %s done	Մակրո՝ %s-ն ավարտվեց
+msg.phrase	a macro is already running	մակրոն արդեն աշխատում է
 msg.phrase	this language is not available	այս լեզուն հասանելի չէ
-msg.phrase	not enough memory	անբավարար հիշողություն
-msg.phrase	the macro stopped with an error	մակրոն կանգ առավ սխալմամբ
-msg.phrase	Macro error %s: %s	Մակրո սխալ %s: %s
-msg.phrase	Macro: not enough memory	Մակրո. հիշողությունը բավարար չէ
-msg.phrase	Macro: the cursor is not on a macro (a #!ruby / #!python / #!basic cell or the cells below it)	Մակրո. կուրսորը մակրոյի վրա չէ (#!ruby / #!python / #!հիմնական բջիջ կամ դրա տակ գտնվող բջիջները)
-msg.phrase	Macro: no macro in the sheet	Մակրո. թերթիկում մակրո չկա
+msg.phrase	not enough memory	հիշողությունը չի բավականացնում
+msg.phrase	the macro stopped with an error	մակրոն կանգ առավ սխալով
+msg.phrase	Macro error %s: %s	Մակրոյի սխալ %s՝ %s
+msg.phrase	Macro: not enough memory	Մակրո՝ հիշողությունը չի բավականացնում
+msg.phrase	Macro: the cursor is not on a macro (a #!ruby / #!python / #!basic cell or the cells below it)	Մակրո՝ կուրսորը մակրոյի վրա չէ (#!ruby / #!python / #!basic բջիջ կամ դրա տակի բջիջները)
+msg.phrase	Macro: no macro in the sheet	Մակրո՝ թերթում մակրո չկա
 msg.phrase	Run all macros	Գործարկել բոլոր մակրոները
-msg.phrase	Macros: %d. Run them all, top-left to bottom-right? Changes cannot be undone.	Մակրոներ՝ %d. Գործարկե՞լ դրանք բոլորը, վերևից ձախից ներքև-աջ: Փոփոխությունները հնարավոր չէ հետարկել:
-msg.phrase	Macro: %d of %d done	Մակրո՝ %d-ի %d կատարված
-msg.phrase	Cleared the cell	Մաքրեց խուցը
-msg.phrase	Cleared the selection	Մաքրել է ընտրությունը
-msg.phrase	Background colour = %d	Ֆոնի գույնը = %d
-msg.phrase	Text colour = %d	Տեքստի գույնը = %d
-msg.phrase	Graph: line	Գրաֆիկ՝ տող
-msg.phrase	Graph: bar	Գծապատկեր՝ բար
-msg.phrase	Graph: mixed	Գրաֆիկը՝ խառը
-msg.phrase	Graph: pie	Գրաֆիկ՝ կարկանդակ
-msg.phrase	Exported %s	Արտահանված %s
+msg.phrase	Macros: %d. Run them all, top-left to bottom-right? Changes cannot be undone.	Մակրոներ՝ %d։ Գործարկե՞լ բոլորը՝ վերին ձախից ներքևի աջ։ Փոփոխությունները հետ չեն շրջվում։
+msg.phrase	Macro: %d of %d done	Մակրո՝ ավարտվեց %d-ը %d-ից
+msg.phrase	Cleared the cell	Բջիջը մաքրվեց
+msg.phrase	Cleared the selection	Ընտրվածը մաքրվեց
+msg.phrase	Background colour = %d	Ֆոնի գույն = %d
+msg.phrase	Text colour = %d	Տեքստի գույն = %d
+msg.phrase	Graph: line	Գծապատկեր՝ գծային
+msg.phrase	Graph: bar	Գծապատկեր՝ սյունային
+msg.phrase	Graph: mixed	Գծապատկեր՝ խառը
+msg.phrase	Graph: pie	Գծապատկեր՝ շրջանային
+msg.phrase	Exported %s	Արտահանվեց՝ %s
+ui	USB・時計・設定	USB, clock, settings
+ui	0.001 秒未満	0.001 վ-ից պակաս
+ui	%s 秒	%s վ
+ui	コンパイル %s  実行 %s	կոմպիլյացիա %s  կատարում %s
+ui	コンパイル %s	կոմպիլյացիա %s
+ui	実行 %s	կատարում %s
+msg.phrase	1 Help	1 Օգնութ
+msg.phrase	3 Copy	3 Պատճեն
+msg.phrase	4 Paste	4 Տեղադր
+msg.phrase	5 Goto	5 Անցնել
+msg.phrase	6 Colour	6 Գույն
+msg.phrase	7 Fit	7 Հարմար
+msg.phrase	8 Backgr	8 Ֆոն
+msg.phrase	9 Recalc	9 Վերահ
+msg.phrase	10 Graph	10 Գրաֆ
+msg.phrase	11 Save	11 Պահել
+msg.phrase	12 Menu	12 Ընտր
+msg.phrase	1 About	1 Մասին
+msg.phrase	2 Height	2 Բարձր
+msg.phrase	3 Width	3 Լայնք
+msg.phrase	4 SelAll	4 Բոլորը
+msg.phrase	10 Range	10 Տիրու
+msg.phrase	11 Name	11 Որպես
+msg.phrase	1 New	1 Նոր
+msg.phrase	2 Open	2 Բացել
+msg.phrase	4 SaveAs	4 Որպես
+msg.phrase	12 Quit	12 Ելք
+msg.phrase	3 Save	3 Պահել
+msg.phrase	Version %s	Տարբերակ %s

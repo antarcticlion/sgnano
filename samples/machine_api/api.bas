@@ -125,9 +125,12 @@
 984 IF C THEN Machine.VSync 6
 985 IF C THEN K$ = "adca6frames": V = ABS(Machine.AdcStats("frames") > 0): GOSUB 9000
 986 IF C THEN Machine.AdcStop
-987 Machine.Mode = 1
-988 PRINT "API-END"
-989 END
+987 REM Music (ABI 4.4, checked against Ruby/Python on 2026-11-18): constants and the idle state
+988 K$ = "musicconst": V = Machine.MUSIC_MP3 + Machine.MUSIC_OGG * 10 + Machine.MUSIC_WAV * 100 + Machine.MUSIC_VGM * 1000 + Machine.MUSIC_LOOP * 10000: GOSUB 9000
+989 K$ = "musicidle": V = Machine.MusicPlaying + Machine.MusicPaused * 2 + Machine.MusicPosition * 4 + Machine.MusicLength * 8 + Machine.MusicFormat * 16: GOSUB 9000
+990 Machine.Mode = 1
+991 PRINT "API-END"
+992 END
 9000 S$ = STR$(V): IF LEFT$(S$, 1) = " " THEN S$ = MID$(S$, 2)
 9100 PRINT K$; "="; S$
 9110 RETURN

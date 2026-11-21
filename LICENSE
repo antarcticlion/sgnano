@@ -2409,3 +2409,65 @@ See <http://creativecommons.org/publicdomain/zero/1.0/>.
 | apps/wav2mp3 が静的にリンクする third_party/lame | LGPL 2.0 以降（LICENSES/lame-LGPL.txt） |
 
 各部品のライセンス文の原本は LICENSES/ フォルダにもあります（一覧は LICENSES/README.md）。
+
+--- libbzip2: bzip2 compression (.bz2, ZIP method 12) (bzip2 license (BSD-like)) ---
+
+
+--------------------------------------------------------------------------
+
+This program, "bzip2", the associated library "libbzip2", and all
+documentation, are copyright (C) 1996-2019 Julian R Seward.  All
+rights reserved.
+
+Redistribution and use in source and binary forms, with or without
+modification, are permitted provided that the following conditions
+are met:
+
+1. Redistributions of source code must retain the above copyright
+   notice, this list of conditions and the following disclaimer.
+
+2. The origin of this software must not be misrepresented; you must 
+   not claim that you wrote the original software.  If you use this 
+   software in a product, an acknowledgment in the product 
+   documentation would be appreciated but is not required.
+
+3. Altered source versions must be plainly marked as such, and must
+   not be misrepresented as being the original software.
+
+4. The name of the author may not be used to endorse or promote 
+   products derived from this software without specific prior written 
+   permission.
+
+THIS SOFTWARE IS PROVIDED BY THE AUTHOR ``AS IS'' AND ANY EXPRESS
+OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED
+WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE
+ARE DISCLAIMED.  IN NO EVENT SHALL THE AUTHOR BE LIABLE FOR ANY
+DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL
+DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE
+GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS
+INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY,
+WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING
+NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS
+SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+
+Julian Seward, jseward@acm.org
+bzip2/libbzip2 version 1.0.8 of 13 July 2019
+
+--------------------------------------------------------------------------
+
+--- LZMA SDK: LZMA / LZMA2 / xz / 7z (public domain) ---
+
+LZMA SDK 26.06 (https://www.7-zip.org/sdk.html)
+
+LZMA SDK is written and placed in the public domain by Igor Pavlov.
+
+Some code in LZMA SDK is based on public domain code from another developers:
+  1) PPMd var.H (2001): Dmitry Shkarin
+  2) SHA-256: Wei Dai (Crypto++ library)
+
+Anyone is free to copy, modify, publish, use, compile, sell, or distribute the 
+original LZMA SDK code, either in source code form or as a compiled binary, for 
+any purpose, commercial or non-commercial, and by any means.
+
+LZMA SDK code is compatible with open source licenses, for example, you can 
+include it to GNU GPL or GNU LGPL code.

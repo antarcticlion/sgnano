@@ -20,14 +20,14 @@ ui	属性を変える	Change the attributes
 ui	エディタで開く	Open in the editor
 ui	テキスト表示（Shift+V / Ctrl+Alt+F7 は 16 進）	View as text (Shift+V / Ctrl+Alt+F7 hex)
 ui	ドライブの情報	Drive information
-ui	フォルダを作る / 新しいファイル	New folder / new file
+ui	フォルダを作る（Shift+F5） / 新しいファイル（Ctrl+F1）	New folder (Shift+F5) / new file (Ctrl+F1)
 ui	シェル sgsh / 媒体を取り出す	Shell sgsh / eject the medium
 ui	読み直す	Reload
-ui	見えている画面を PNG で保存	Save the screen as PNG
+ui	見えている画面を PNG で保存（Alt+F5 も同じ）	Save the screen as PNG (= Alt+F5)
 ui	窓を閉じる・選択を解く（サブフォルダでは上位へ）	Close the window / clear the selection (in a subfolder: go up)
-ui	ファイルの操作（FD と同じ。印・範囲・カーソルの順に選ぶ）	File operations (as in FD: marks, then the range, then the cursor)
-ui	コピー: 行き先はドライブとフォルダの木から。ESC で止める	Copy: pick the destination from the drive and folder tree. ESC stops
-ui	削除: y で確かめる。印・範囲をまとめて。フォルダは中身ごと	Delete: confirm with y. Marks and ranges at once. Folders with their contents
+ui	ファイルの操作（FD と同じ。印・範囲・カーソルの順）	File operations (as in FD: marks, then the range, then the cursor)
+ui	コピー: 行き先は木から選ぶ。ESC で止める	Copy: pick the destination from the drive and folder tree. ESC stops
+ui	削除: y で確かめる。印・範囲をまとめて	Delete: confirm with y. Marks and ranges at once. Folders with their contents
 ui	フォルダを削除（中身ごと）	Delete a folder (with its contents)
 ui	名前を変える（今の名前を直して Enter）	Rename (edit the name, Enter)
 ui	属性: R 読み出し専用・H 隠し・S システム・A アーカイブ	Attributes: R read-only, H hidden, S system, A archive
@@ -49,22 +49,19 @@ ui	画面（Alt+F。FD の F キーとぶつからない）	Screen (Alt+F, does 
 ui	FB（絵）/ テキスト面を出す・隠す	Show / hide the FB (picture) / the text
 ui	FB の表示ページ（0〜3）	FB display page (0-3)
 ui	FB を 0 で消す / 明るさを 1/2 に（RGB555）	Clear the FB to 0 / halve its brightness (RGB555)
-ui	USB のエンドポイントと LAN の状態	USB endpoints and the LAN state
+ui	USB のエンドポイントと LAN（U: 10 秒に 1 度）	USB endpoints and the LAN state
 ui	FB の表示ページを消す / 明るさを 1/2 に	Clear the FB display page / halve its brightness
 ui	テキストの属性の見本	Text attribute samples
 ui	モニタの EDID（起動時に読んだもの）	Monitor EDID (read at boot)
 ui	フォント ROM のライセンスとクレジット	Font ROM licenses and credits
 ui	設定（表示の言語・IME・キーボードロケール）	Settings (display language, IME and keyboard locale)
-ui	時計（NTP で合わせた日本時間。s ですぐ合わせる）	Clock (Japan time set by NTP; s syncs now)
+ui	時計（NTP で合わせた日本時間。s は 3 分に 1 度）	Clock (Japan time set by NTP; s syncs now)
 ui	表計算（SGCALC）を開く	Open spreadsheet (SGCALC)
 ui	S: ドライブのエラー検査（誤りがあれば直すか聞く）	Check S: for errors (asks before repairing)
 ui	トラッカー（TRACKER）を開く	Open TRACKER
-ui	再起動（確かめの窓が出る）	Reboot (asks first)
+ui	再起動（確かめの窓）。Ctrl+Alt+Del も同じ	Reboot (asks first) = Ctrl+Alt+Del
 ui	ADC のステレオ入力（GP40 / 41）を鳴らす	Play the ADC stereo input (GP40 / 41)
 ui	VGM/VGZ を 96kHz/24bit WAV に書き出す	Export VGM/VGZ to a 96 kHz / 24-bit WAV
-ui	このヘルプ	This help
-ui	ページを替える	Change the page
-ui	閉じる	Close
 ui	テキスト・16 進のビュアー（less 風）	Text / hex viewer (like less)
 ui	1 行	One line
 ui	1 ページ	One page
@@ -82,10 +79,9 @@ ui	IME の言語（日本語 / English / 한국어）	IME language (Japanese / E
 ui	ひらがな / カタカナで確定	Commit as hiragana / katakana
 ui	エディタのヘルプ	The editor's help
 ui	シェル	Shell
-ui	シェル（csh のサブセット。exit / Ctrl-D で戻る、help で一覧）	Shell (a csh subset. exit / Ctrl-D to return, help lists the commands)
+ui	シェル（csh の一部。exit / Ctrl-D で戻る、help で一覧）	Shell (a csh subset. exit / Ctrl-D to return, help lists the commands)
 ui	一覧と移動	List and moving
 ui	ファイルの操作	File operations
-ui	画面と機器	Screen and devices
 ui	ビュアーとエディタ	Viewers and the editor
 ui	ヘルプ  %u / %u  %s	Help  %u / %u  %s
 ui	Left Right: ページを替える    F1 / ESC: 閉じる	Left Right: change the page    F1 / ESC: close
@@ -146,9 +142,9 @@ ui	10 EP表	10 EPs
 ui	11 時計	11 Clock
 ui	12 表計	12 CALC
 ui	1 属性	1 Attr
-ui	2 情報	2 Info
+ui	2Drv情報	2 Info
 ui	3 移動	3 Move
-ui	5 作成	5 Mkdir
+ui	5 ﾌｫﾙﾀﾞ	5 Mkdir
 ui	6 シェル	6 Shell
 ui	8 編集	8 Edit
 ui	9 表示	9 View
@@ -373,3 +369,9 @@ ui	 ESC: 止める（書きかけのファイルは消します）	 ESC: stop (t
 ui	書庫: %s 失敗（%s）	Archive: %s failed (%s)
 ui	圧縮: %s（%u 項目）	Compressed: %s (%u items)
 ui	展開: %s（%u ファイル）	Extracted: %s (%u files)
+ui	USB・時計・設定	USB, clock, settings
+ui	0.001 秒未満	under 0.001 s
+ui	%s 秒	%s s
+ui	コンパイル %s  実行 %s	compile %s  run %s
+ui	コンパイル %s	compile %s
+ui	実行 %s	run %s

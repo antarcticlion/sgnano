@@ -21,14 +21,14 @@ ui	属性を変える	Muutke atribuute
 ui	エディタで開く	Ava redaktoris
 ui	テキスト表示（Shift+V / Ctrl+Alt+F7 は 16 進）	Kuva tekstina (Tõstuklahv+V / Ctrl+Alt+F7 kuueteistkümnend)
 ui	ドライブの情報	Sõiduteave
-ui	フォルダを作る / 新しいファイル	Uus kaust / uus fail
+ui	フォルダを作る（Shift+F5） / 新しいファイル（Ctrl+F1）	Uus kaust (Shift+F5) / uus fail (Ctrl+F1)
 ui	シェル sgsh / 媒体を取り出す	Shell sgsh / väljuta andmekandja
 ui	読み直す	Laadi uuesti
-ui	見えている画面を PNG で保存	Salvestage ekraan PNG-vormingus
+ui	見えている画面を PNG で保存（Alt+F5 も同じ）	Salvestage ekraan PNG-vormingus (= Alt+F5)
 ui	窓を閉じる・選択を解く（サブフォルダでは上位へ）	Sulgege aken / tühjendage valik (alamkaustas: minge üles)
-ui	ファイルの操作（FD と同じ。印・範囲・カーソルの順に選ぶ）	Failitoimingud (nagu FD-s: märgid, seejärel vahemik, seejärel kursor)
-ui	コピー: 行き先はドライブとフォルダの木から。ESC で止める	Kopeeri: valige draivi- ja kaustapuust sihtkoht. ESC peatub
-ui	削除: y で確かめる。印・範囲をまとめて。フォルダは中身ごと	Kustuta: kinnitage y-ga. Märgid ja vahemikud korraga. Kaustad koos nende sisuga
+ui	ファイルの操作（FD と同じ。印・範囲・カーソルの順）	Failitoimingud (nagu FD-s: märgid, seejärel vahemik, seejärel kursor)
+ui	コピー: 行き先は木から選ぶ。ESC で止める	Kopeeri: valige draivi- ja kaustapuust sihtkoht. ESC peatub
+ui	削除: y で確かめる。印・範囲をまとめて	Kustuta: kinnitage y-ga. Märgid ja vahemikud korraga. Kaustad koos nende sisuga
 ui	フォルダを削除（中身ごと）	Kustutage kaust (koos selle sisuga)
 ui	名前を変える（今の名前を直して Enter）	Nimeta ümber (muutke nime, sisestage)
 ui	属性: R 読み出し専用・H 隠し・S システム・A アーカイブ	Atribuudid: R-kirjutuskaitstud, H peidetud, S-süsteem, A-arhiiv
@@ -50,22 +50,19 @@ ui	画面（Alt+F。FD の F キーとぶつからない）	Ekraan (Alt+F, ei pu
 ui	FB（絵）/ テキスト面を出す・隠す	Näita / peida FB (pilt) / tekst
 ui	FB の表示ページ（0〜3）	FB kuvaleht (0-3)
 ui	FB を 0 で消す / 明るさを 1/2 に（RGB555）	Tühjendage FB 0-ni / vähendage selle heledust poole võrra (RGB555)
-ui	USB のエンドポイントと LAN の状態	USB lõpp-punktid ja LAN olek
+ui	USB のエンドポイントと LAN（U: 10 秒に 1 度）	USB lõpp-punktid ja LAN olek
 ui	FB の表示ページを消す / 明るさを 1/2 に	Tühjendage FB kuvaleht / poolitage selle heledus
 ui	テキストの属性の見本	Tekstiatribuudi näidised
 ui	モニタの EDID（起動時に読んだもの）	Monitor EDID (loe alglaadimisel)
 ui	フォント ROM のライセンスとクレジット	Font ROM litsentsid ja krediit
 ui	設定（表示の言語・IME・キーボードロケール）	Seaded (kuva keel, IME ja klaviatuuri lokaat)
-ui	時計（NTP で合わせた日本時間。s ですぐ合わせる）	Kell (Jaapani aja määras NTP; s sünkroonib nüüd)
+ui	時計（NTP で合わせた日本時間。s は 3 分に 1 度）	Kell (Jaapani aja määras NTP; s sünkroonib nüüd)
 ui	表計算（SGCALC）を開く	Ava arvutustabel (SGCALC)
 ui	S: ドライブのエラー検査（誤りがあれば直すか聞く）	Kontrollige S: vigade suhtes (küsib enne parandamist)
 ui	トラッカー（TRACKER）を開く	Avage TRACKER
-ui	再起動（確かめの窓が出る）	Taaskäivitamine (küsib kõigepealt)
+ui	再起動（確かめの窓）。Ctrl+Alt+Del も同じ	Taaskäivitamine (küsib kõigepealt) = Ctrl+Alt+Del
 ui	ADC のステレオ入力（GP40 / 41）を鳴らす	Esitage ADC stereosisendit (GP40 / 41)
 ui	VGM/VGZ を 96kHz/24bit WAV に書き出す	Eksportige VGM/VGZ 96 kHz / 24-bitise WAV-vormingusse
-ui	このヘルプ	See abi
-ui	ページを替える	Muutke lehte
-ui	閉じる	Sule
 ui	テキスト・16 進のビュアー（less 風）	Tekst / hex-vaatur (meeldib vähem)
 ui	1 行	Üks rida
 ui	1 ページ	Üks leht
@@ -83,10 +80,9 @@ ui	IME の言語（日本語 / English / 한국어）	IME keel (jaapani / inglis
 ui	ひらがな / カタカナで確定	Pühendu hiragana / katakana
 ui	エディタのヘルプ	Toimetaja abi
 ui	シェル	Kest
-ui	シェル（csh のサブセット。exit / Ctrl-D で戻る、help で一覧）	Shell (csh-i alamhulk. exit / Ctrl-D naasmiseks, spikker loetleb käsud)
+ui	シェル（csh の一部。exit / Ctrl-D で戻る、help で一覧）	Shell (csh-i alamhulk. exit / Ctrl-D naasmiseks, spikker loetleb käsud)
 ui	一覧と移動	Nimekiri ja liigutamine
 ui	ファイルの操作	Failitoimingud
-ui	画面と機器	Ekraan ja seadmed
 ui	ビュアーとエディタ	Vaatajad ja toimetaja
 ui	ヘルプ  %u / %u  %s	Abi %u / %u %s
 ui	Left Right: ページを替える    F1 / ESC: 閉じる	Vasak Parem: muutke lehekülge F1 / ESC: sulgege
@@ -147,9 +143,9 @@ ui	10 EP表	10 EP-d
 ui	11 時計	11 Kell
 ui	12 表計	12 CALC
 ui	1 属性	1 Attr
-ui	2 情報	2 Teave
+ui	2Drv情報	2 Teave
 ui	3 移動	3 Move
-ui	5 作成	5 Mkdir
+ui	5 ﾌｫﾙﾀﾞ	5 Mkdir
 ui	6 シェル	6 Kest
 ui	8 編集	8 Edit
 ui	9 表示	9 Vaade
@@ -187,10 +183,10 @@ ui	新しいファイル	Uus fail
 ui	時刻:	Aeg:
 ui	実行:	Jookse:
 ui	名前:	Nimi:
-ui	年-月-日 時:分  Enter 合わせる  ESC そのまま	AAAA-KK-PP hh:mm Sisestage komplekt ESC hoida
-ui	Enter 走らせる  ←→ 動かす  BS / Del 消す  ESC やめる	Sisesta run <-> move BS / Del delete ESC tühistada
-ui	Enter 変える  ←→ 動かす  BS / Del 消す  ESC やめる	Sisesta ümbernimetamine <-> teisalda BS / Kustuta kustuta ESC tühista
-ui	Enter 作る  ←→ 動かす  BS / Del 消す  ESC やめる	Sisesta loo <-> liiguta BS / Del delete ESC tühista
+ui	年-月-日 時:分  Enter 合わせる  ESC そのまま	AAAA-KK-PP tt:mm  Enter määra  ESC jäta
+ui	Enter 走らせる  ←→ 動かす  BS / Del 消す  ESC やめる	Enter käivita  ←→ liiguta  BS / Del kustuta  ESC loobu
+ui	Enter 変える  ←→ 動かす  BS / Del 消す  ESC やめる	Enter nimeta ümber ←→ liiguta BS/Del kustuta ESC loobu
+ui	Enter 作る  ←→ 動かす  BS / Del 消す  ESC やめる	Enter loo  ←→ liiguta  BS / Del kustuta  ESC loobu
 ui	消す	Kustuta
 ui	個の項目	esemed
 ui	フォルダは中身ごと消します。よろしいですか？	Kaustad kustutatakse koos nende sisuga. Oled sa kindel?
@@ -344,7 +340,7 @@ ui	 組み立てています... %lu / %lu 行	Hoone... %lu / %lu rida
 ui	 書いています... %lu / %lu KB（FB は隠しています）	Kirjutamine... %lu / %lu KB (FB on peidetud)
 ui	書けませんでした	Ei saanud kirjutada
 ui	書庫の名前（印の付いた項目、無ければカーソルの項目を入れる）	Arhiivi nimi (märgitud üksused või kursoriüksus, kui seda pole)
-ui	Enter 圧縮する  ←→ 動かす  BS / Del 消す  ESC やめる	Sisesta kompressioon ← → teisalda BS / Kustuta kustuta ESC tühista
+ui	Enter 圧縮する  ←→ 動かす  BS / Del 消す  ESC やめる	Enter paki  ←→ liiguta  BS / Del kustuta  ESC loobu
 ui	WAV 書き出し: %s 中止（%s）	WAV-i eksport: %s tühistatud (%s)
 ui	WAV 書き出し: %s 失敗（%s）	WAV-i eksport: %s nurjus (%s)
 ui	WAV 書き出し: %s 合計 %s	WAV eksport: %s kokku %s
@@ -487,9 +483,9 @@ msg.phrase	the sound is not open	heli pole avatud
 msg.phrase	no such channel	sellist kanalit pole
 msg.phrase	the sequencer is busy	sekvenser on hõivatud
 msg.phrase	not enough PSRAM for the song	laulu jaoks pole piisavalt PSRAM-i
-msg.phrase	not a standard MIDI file (no MThd)	pole tavaline MIDI-fail (ilma MThd-d)
-msg.phrase	no tracks	jälgi pole
-msg.phrase	a track is broken (MTrk)	rada on katki (MTrk)
+msg.phrase	not a standard MIDI file (no MThd)	pole standardne MIDI-fail (MThd puudub)
+msg.phrase	no tracks	radu pole
+msg.phrase	a track is broken (MTrk)	rada on rikutud (MTrk)
 msg.phrase	SMPTE time division is not supported	SMPTE ajajaotust ei toetata
 msg.phrase	SMF format 2 is not supported (0 and 1 only)	SMF-vormingut 2 ei toetata (ainult 0 ja 1)
 msg.phrase	not a Bulk-Only drive	mitte ainult hulgidraiv
@@ -510,7 +506,7 @@ msg.phrase	cancelled	tühistatud
 msg.phrase	could not mount	ei saanud paigaldada
 msg.phrase	could not start a read	ei saanud lugemist alustada
 msg.phrase	could not start a write	ei saanud kirjutama hakata
-msg.phrase	is a directory	on kataloog
+msg.phrase	is a directory	on kaust
 msg.phrase	that is a directory	see on kataloog
 msg.phrase	no clusters	ei mingeid klastreid
 msg.phrase	no room for the cluster list	klastri loendile pole ruumi
@@ -547,7 +543,7 @@ msg.phrase	Not supported on this drive	Sellel draivil ei toetata
 msg.phrase	Invalid path	Vale tee
 msg.phrase	Out of memory	Mälu otsas
 msg.phrase	No such drive	Sellist sõitu pole
-msg.phrase	stopped	peatunud
+msg.phrase	stopped	peatatud
 msg.phrase	cancelled (not enough free space)	tühistatud (pole piisavalt vaba ruumi)
 msg.phrase	could not count the free space	ei suutnud vaba ruumi kokku lugeda
 msg.phrase	the receiver cancelled	vastuvõtja tühistati
@@ -622,17 +618,17 @@ msg.word	 rows	read
 msg.word	 -- not supported yet (FAT / exFAT / NTFS only)	-- pole veel toetatud (ainult FAT / exFAT / NTFS)
 msg.word	 files	failid
 msg.word	 (	(
-msg.phrase	Untitled	Pealkirjata
+msg.phrase	Untitled	Nimetu
 msg.phrase	1 File	1 fail
-msg.phrase	2 Edit	2 Redigeeri
+msg.phrase	2 Edit	2 Muuda
 msg.phrase	3 Graph	3 Graafik
 msg.phrase	4 Sheet	4 Leht
 msg.phrase	5 Help	5 Abi
-msg.phrase	EMPTY	TÜHJA
-msg.phrase	NUMBER	NUMBER
+msg.phrase	EMPTY	TÜHI
+msg.phrase	NUMBER	ARV
 msg.phrase	TEXT	TEKST
 msg.phrase	FORMULA	VALEM
-msg.phrase	Type to enter, F2 to edit, F1 for help	Sisestamiseks tippige, muutmiseks F2, abi saamiseks F1
+msg.phrase	Type to enter, F2 to edit, F1 for help	Sisestamiseks tippige, F2 redigeerib, F1 abi
 msg.phrase	5 CSV	5 CSV
 msg.phrase	6 ODS	6 ODS
 msg.phrase	[SHIFT]	[SHIFT]
@@ -641,260 +637,260 @@ msg.phrase	[ALT]	[ALT]
 msg.phrase	Ready	Valmis
 msg.phrase	SGCALC	SGCALC
 msg.phrase	Press any key	Vajutage suvalist klahvi
-msg.phrase	Y = yes    N = no    Esc = cancel	Y = jah N = ei Esc = tühista
-msg.phrase	Enter = OK    Esc = cancel    Ctrl-U = clear	Enter = OK Esc = tühista Ctrl-U = tühjendamine
+msg.phrase	Y = yes    N = no    Esc = cancel	Y = jah    N = ei    Esc = loobu
+msg.phrase	Enter = OK    Esc = cancel    Ctrl-U = clear	Enter = OK    Esc = loobu    Ctrl-U = tühjenda
 msg.phrase	First row/column = labels; charts use the 640x480 CLUT8 FB.	Esimene rida/veerg = sildid; diagrammid kasutavad 640x480 CLUT8 FB-d.
-msg.phrase	SGCALC - HELP	SGCALC – ABI
-msg.phrase	Press any key to return	Naasmiseks vajutage suvalist klahvi
-msg.phrase	Press any key to return.	Naasmiseks vajutage suvalist klahvi.
-msg.phrase	ABOUT SGCALC	SGCALCI KOHTA
+msg.phrase	SGCALC - HELP	SGCALC - ABI
+msg.phrase	Press any key to return	Tagasi minekuks vajutage suvalist klahvi
+msg.phrase	Press any key to return.	Tagasi minekuks vajutage suvalist klahvi.
+msg.phrase	ABOUT SGCALC	SGCALCI TEAVE
 msg.phrase	New	Uus
-msg.phrase	Start a new sheet	Alustage uut lehte
+msg.phrase	Start a new sheet	Alusta uut lehte
 msg.phrase	Open...	Ava...
-msg.phrase	Open an ODS, FODS or CSV file	Avage ODS-, FODS- või CSV-fail
+msg.phrase	Open an ODS, FODS or CSV file	Ava ODS-, FODS- või CSV-fail
 msg.phrase	Save	Salvesta
-msg.phrase	Save the current file	Salvestage praegune fail
-msg.phrase	Save As...	Salvesta kui...
-msg.phrase	Save with a new name or format	Salvestage uue nime või vorminguga
+msg.phrase	Save the current file	Salvesta praegune fail
+msg.phrase	Save As...	Salvesta nimega...
+msg.phrase	Save with a new name or format	Salvesta uue nime või vorminguga
 msg.phrase	Export CSV...	Ekspordi CSV...
-msg.phrase	Write a CSV copy	Kirjutage CSV-koopia
+msg.phrase	Write a CSV copy	Kirjuta CSV-koopia
 msg.phrase	Export ODS...	Ekspordi ODS...
-msg.phrase	Write a LibreOffice copy	Kirjutage LibreOffice'i koopia
-msg.phrase	Quit	Lõpeta
-msg.phrase	Leave SGCALC	Lahku SGCALC-st
-msg.phrase	Clear	Selge
-msg.phrase	Clear the selected cells	Tühjendage valitud lahtrid
+msg.phrase	Write a LibreOffice copy	Kirjuta LibreOffice'i koopia
+msg.phrase	Quit	Välju
+msg.phrase	Leave SGCALC	Välju SGCALCist
+msg.phrase	Clear	Tühjenda
+msg.phrase	Clear the selected cells	Tühjenda valitud lahtrid
 msg.phrase	Copy	Kopeeri
-msg.phrase	Copy the selection	Kopeerige valik
+msg.phrase	Copy the selection	Kopeeri valik
 msg.phrase	Paste	Kleebi
-msg.phrase	Paste at the cursor	Kleebi kursorile
+msg.phrase	Paste at the cursor	Kleebi kursori kohale
 msg.phrase	Cut	Lõika
-msg.phrase	Copy and clear the selection	Kopeerige ja tühjendage valik
-msg.phrase	Select all	Valige kõik
-msg.phrase	Select all used cells	Valige kõik kasutatud lahtrid
+msg.phrase	Copy and clear the selection	Kopeeri ja tühjenda valik
+msg.phrase	Select all	Vali kõik
+msg.phrase	Select all used cells	Vali kõik kasutatud lahtrid
 msg.phrase	Text color...	Teksti värv...
-msg.phrase	Choose the text colour	Valige teksti värv
+msg.phrase	Choose the text colour	Vali teksti värv
 msg.phrase	Background...	Taust...
-msg.phrase	Choose the cell background	Valige lahtri taust
-msg.phrase	Line	Liin
-msg.phrase	Draw a line graph from the selection	Joonistage valikust joondiagramm
-msg.phrase	Bar	Baar
-msg.phrase	Draw a bar graph from the selection	Joonistage valikust tulpdiagramm
+msg.phrase	Choose the cell background	Vali lahtri taust
+msg.phrase	Line	Joon
+msg.phrase	Draw a line graph from the selection	Joonista valikust joondiagramm
+msg.phrase	Bar	Tulp
+msg.phrase	Draw a bar graph from the selection	Joonista valikust tulpdiagramm
 msg.phrase	Mixed	Segatud
-msg.phrase	Bars for the first series, lines for the rest	Esimese seeria jaoks kangid, ülejäänud jaoks read
-msg.phrase	Pie	Pirukas
-msg.phrase	Draw a pie graph from the selection	Joonistage valikust sektordiagramm
-msg.phrase	Range...	Vahemik...
-msg.phrase	Set the graph range explicitly	Määrake graafiku vahemik selgelt
+msg.phrase	Bars for the first series, lines for the rest	Tulbad esimesele seeriale, jooned teistele
+msg.phrase	Pie	Sektor
+msg.phrase	Draw a pie graph from the selection	Joonista valikust sektordiagramm
+msg.phrase	Range...	Ala...
+msg.phrase	Set the graph range explicitly	Määra diagrammi ala käsitsi
 msg.phrase	Draw again	Joonista uuesti
-msg.phrase	Redraw the last graph	Joonistage viimane graafik uuesti
+msg.phrase	Redraw the last graph	Joonista viimane diagramm uuesti
 msg.phrase	Goto...	Mine...
-msg.phrase	Jump to a cell (for example C12)	Hüppa lahtrisse (näiteks C12)
+msg.phrase	Jump to a cell (for example C12)	Mine lahtrisse (näiteks C12)
 msg.phrase	Column width...	Veeru laius...
-msg.phrase	Change the selected columns' width	Muutke valitud veergude laiust
+msg.phrase	Change the selected columns' width	Muuda valitud veergude laiust
 msg.phrase	Row height...	Rea kõrgus...
-msg.phrase	Change the selected rows' height	Muutke valitud ridade kõrgust
-msg.phrase	Auto fit	Automaatne sobivus
-msg.phrase	Fit widths/heights to the contents (F7)	Sobitage laiused/kõrgused sisule (F7)
-msg.phrase	Recalculate	Arvuta ümber
-msg.phrase	Re-evaluate all formulas	Hinnake kõik valemid uuesti
+msg.phrase	Change the selected rows' height	Muuda valitud ridade kõrgust
+msg.phrase	Auto fit	Sobita
+msg.phrase	Fit widths/heights to the contents (F7)	Sobita laiused/kõrgused sisuga (F7)
+msg.phrase	Recalculate	Arvuta uuesti
+msg.phrase	Re-evaluate all formulas	Arvuta kõik valemid uuesti
 msg.phrase	Erase all	Kustuta kõik
-msg.phrase	Clear the whole sheet	Tühjendage kogu leht
-msg.phrase	Keys	Võtmed
-msg.phrase	Show the key guide	Näidake võtmejuhendit
-msg.phrase	About	Umbes
-msg.phrase	About SGCALC	SGCALC kohta
+msg.phrase	Clear the whole sheet	Tühjenda kogu leht
+msg.phrase	Keys	Klahvid
+msg.phrase	Show the key guide	Näita klahvide loendit
+msg.phrase	About	Teave
+msg.phrase	About SGCALC	SGCALCi teave
 msg.phrase	File	Fail
-msg.phrase	Edit	Muuda
-msg.phrase	Graph	Graafik
+msg.phrase	Edit	Redigeeri
+msg.phrase	Graph	Diagramm
 msg.phrase	Sheet	Leht
 msg.phrase	Help	Abi
-msg.phrase	File: new, open, save, export, quit	Fail: uus, ava, salvesta, eksport, sulge
-msg.phrase	Edit: clear, copy, paste, cut, select all	Redigeerimine: tühjendage, kopeerige, kleepige, lõigake, valige kõik
-msg.phrase	Graph: line, bar, mixed, pie (draws in the FB)	Graafik: joon, riba, segatud, pirukas (joonised FB-s)
-msg.phrase	Sheet: goto, column width, recalculate, erase	Leht: Goto, veeru laius, ümberarvutamine, kustutamine
-msg.phrase	Help: keys and about	Abi: võtmed ja umbes
+msg.phrase	File: new, open, save, export, quit	Fail: uus, ava, salvesta, ekspordi, välju
+msg.phrase	Edit: clear, copy, paste, cut, select all	Redigeeri: tühjenda, kopeeri, kleebi, lõika, vali kõik
+msg.phrase	Graph: line, bar, mixed, pie (draws in the FB)	Diagramm: joon, tulp, segatud, sektor (FB-sse)
+msg.phrase	Sheet: goto, column width, recalculate, erase	Leht: mine, veeru laius, arvuta uuesti, kustuta
+msg.phrase	Help: keys and about	Abi: klahvid ja teave
 msg.phrase	Left/Right = menu    Up/Down = item    Enter = choose    Esc = cancel	Vasak/Parem = menüü Üles/Alla = üksus Enter = vali Esc = tühista
-msg.phrase	Cancelled	Tühistatud
-msg.phrase	The selection is too large or memory is low.	Valik on liiga suur või mälu on vähe.
+msg.phrase	Cancelled	Katkestatud
+msg.phrase	The selection is too large or memory is low.	Valik on liiga suur või mälu ei jätku.
 msg.phrase	the cell	rakk
 msg.phrase	the selection	valikut
 msg.phrase	Nothing to paste	Pole midagi kleepida
 msg.phrase	Pasted	Kleebitud
-msg.phrase	GO TO CELL	MINGE CELL
-msg.phrase	Cell reference (A1):	Lahtri viide (A1):
+msg.phrase	GO TO CELL	MINE LAHTRISSE
+msg.phrase	Cell reference (A1):	Lahtriviide (A1):
 msg.phrase	Goto	Mine
 msg.phrase	COLUMN WIDTH	VEERU LAIUS
-msg.phrase	Width in characters (4..30):	Laius tähemärkides (4...30):
+msg.phrase	Width in characters (4..30):	Laius märkides (4..30):
 msg.phrase	ROW HEIGHT	REA KÕRGUS
-msg.phrase	Height in text rows (1..8):	Kõrgus tekstiridades (1...8):
-msg.phrase	Auto fit: the sheet is empty	Automaatne sobitamine: leht on tühi
-msg.phrase	BACKGROUND COLOUR	TAUST VÄRV
+msg.phrase	Height in text rows (1..8):	Kõrgus tekstiridades (1..8):
+msg.phrase	Auto fit: the sheet is empty	Sobita: leht on tühi
+msg.phrase	BACKGROUND COLOUR	TAUSTAVÄRV
 msg.phrase	TEXT COLOUR	TEKSTI VÄRV
-msg.phrase	Arrows: choose    Enter: apply    Esc: cancel	Nooled: vali Enter: rakenda Esc: tühista
-msg.phrase	Colour index (PC-98 16-colour palette)	Värviindeks (PC-98 16-värvipalett)
+msg.phrase	Arrows: choose    Enter: apply    Esc: cancel	Nooled: vali    Enter: rakenda    Esc: loobu
+msg.phrase	Colour index (PC-98 16-colour palette)	Värvi number (PC-98 16 värvi palett)
 msg.phrase	Aa 123	Aa 123
-msg.phrase	Enter = apply    Esc = cancel	Enter = rakenda Esc = tühista
+msg.phrase	Enter = apply    Esc = cancel	Enter = rakenda    Esc = loobu
 msg.phrase	Colour	Värv
 msg.phrase	Background	Taust
 msg.phrase	Text	Tekst
-msg.phrase	GRAPH RANGE	GRAAFIKAVALIK
-msg.phrase	Range (for example A1:C10):	Vahemik (näiteks A1:C10):
-msg.phrase	Graph range	Graafiku vahemik
-msg.phrase	Use a range such as A1:C10.	Kasutage vahemikku, näiteks A1:C10.
-msg.phrase	Cannot draw the graph.	Graafikut ei saa joonistada.
+msg.phrase	GRAPH RANGE	DIAGRAMMI ALA
+msg.phrase	Range (for example A1:C10):	Ala (näiteks A1:C10):
+msg.phrase	Graph range	Diagrammi ala
+msg.phrase	Use a range such as A1:C10.	Sisestage ala, nt A1:C10.
+msg.phrase	Cannot draw the graph.	Diagrammi ei saa joonistada.
 msg.phrase	line	rida
 msg.phrase	bar	baar
 msg.phrase	mixed	segatud
 msg.phrase	pie	pirukas
-msg.phrase	Clear every cell in this sheet?	Kas kustutada kõik selle lehe lahtrid?
+msg.phrase	Clear every cell in this sheet?	Kas tühjendada selle lehe kõik lahtrid?
 msg.phrase	Sheet erased	Leht kustutatud
-msg.phrase	Selected all used cells	Valiti kõik kasutatud lahtrid
-msg.phrase	Recalculated	Arvutatud ümber
+msg.phrase	Selected all used cells	Kõik kasutatud lahtrid valitud
+msg.phrase	Recalculated	Arvutatud uuesti
 msg.phrase	Memory	Mälu
-msg.phrase	Not enough PSRAM for the spreadsheet.	Arvutustabeli jaoks pole piisavalt PSRAM-i.
+msg.phrase	Not enough PSRAM for the spreadsheet.	Tabelarvutuse jaoks pole piisavalt PSRAM-i.
 msg.phrase	The sheet is empty.	Leht on tühi.
-msg.phrase	No numeric data in the selected range.	Valitud vahemikus pole arvandmeid.
-msg.phrase	Other	muud
-msg.phrase	No positive values for a pie chart	Sektordiagrammil pole positiivseid väärtusi
+msg.phrase	No numeric data in the selected range.	Valitud alas pole arve.
+msg.phrase	Other	Muu
+msg.phrase	No positive values for a pie chart	Sektordiagrammi jaoks pole positiivseid väärtusi
 msg.phrase	LINE	JOON
-msg.phrase	BAR	BAR
-msg.phrase	MIXED	SEGA
-msg.phrase	PIE	PIIRKAS
+msg.phrase	BAR	TULP
+msg.phrase	MIXED	SEGATUD
+msg.phrase	PIE	SEKTOR
 msg.phrase	S:/	S:/
 msg.phrase	Folder	Kaust
-msg.phrase	SAVE AS	SALVESTA AS
+msg.phrase	SAVE AS	SALVESTA NIMEGA
 msg.phrase	OPEN FILE	AVA FAIL
 msg.phrase	LibreOffice / CSV	LibreOffice / CSV
-msg.phrase	ODS  FODS  CSV	ODS FODS CSV
+msg.phrase	ODS  FODS  CSV	ODS  FODS  CSV
 msg.phrase	Name:	Nimi:
-msg.phrase	(type a name, or choose below)	(sisestage nimi või valige allpool)
+msg.phrase	(type a name, or choose below)	(tippige nimi või valige allpool)
 msg.phrase	Name	Nimi
 msg.phrase	Size	Suurus
-msg.phrase	Enter=save  Left=up  Right/Enter on [DIR]=open  Tab=drive  Esc=cancel	Enter=salvesta Vasak=üles paremale/Sisesta [DIR]=ava Tab=sõit Esc=tühista
-msg.phrase	Enter=open  Left=up  Right/Enter on [DIR]=open  Tab=drive  Esc=cancel	Enter=ava Vasak=üles paremale/Sisesta [DIR]=ava Tab=draiv Esc=tühista
-msg.phrase	Not enough memory.	Pole piisavalt mälu.
-msg.phrase	Overwrite	Üle kirjutada
-msg.phrase	Open	Avatud
-msg.phrase	The file is too large (limit 8 MB).	Fail on liiga suur (piirang 8 MB).
-msg.phrase	Not enough memory to read the file.	Faili lugemiseks pole piisavalt mälu.
-msg.phrase	Bad ZIP/ODS data.	Valed ZIP/ODS-andmed.
-msg.phrase	CRC error in the ODS file.	CRC viga ODS-failis.
-msg.phrase	Unsupported or damaged file.	Toetamata või kahjustatud fail.
+msg.phrase	Enter=save  Left=up  Right/Enter on [DIR]=open  Tab=drive  Esc=cancel	Enter=salvesta  ←=üles  →/Enter [DIR]-il=ava  Tab=ketas  Esc=loobu
+msg.phrase	Enter=open  Left=up  Right/Enter on [DIR]=open  Tab=drive  Esc=cancel	Enter=ava  ←=üles  →/Enter [DIR]-il=ava  Tab=ketas  Esc=loobu
+msg.phrase	Not enough memory.	Mälu ei jätku.
+msg.phrase	Overwrite	Kirjuta üle
+msg.phrase	Open	Ava
+msg.phrase	The file is too large (limit 8 MB).	Fail on liiga suur (piir 8 MB).
+msg.phrase	Not enough memory to read the file.	Faili lugemiseks ei jätku mälu.
+msg.phrase	Bad ZIP/ODS data.	Rikutud ZIP/ODS-andmed.
+msg.phrase	CRC error in the ODS file.	CRC-viga ODS-failis.
+msg.phrase	Unsupported or damaged file.	Toetamata või rikutud fail.
 msg.phrase	Saved	Salvestatud
 msg.phrase	Exported	Eksporditud
 msg.phrase	Unsaved changes	Salvestamata muudatused
 msg.phrase	Save the current sheet before continuing?	Kas salvestada praegune leht enne jätkamist?
 msg.phrase	New sheet	Uus leht
 msg.phrase	SGTRK	SGTRK
-msg.phrase	UNTITLED	NIMETAMATA
-msg.phrase	song is too large	laul on liiga suur
+msg.phrase	UNTITLED	UNTITLED
+msg.phrase	song is too large	lugu on liiga suur
 msg.phrase	empty file	tühi fail
-msg.phrase	not an SGT file	mitte SGT-fail
-msg.phrase	bad BPM	halb BPM
-msg.phrase	bad speed	halb kiirus
-msg.phrase	bad title length	halb pealkirja pikkus
+msg.phrase	not an SGT file	pole SGT-fail
+msg.phrase	bad BPM	vale BPM
+msg.phrase	bad speed	vale kiirus
+msg.phrase	bad title length	vale pealkirja pikkus
 msg.phrase	truncated title	kärbitud pealkiri
-msg.phrase	bad character in title	pealkirjas halb tegelane
-msg.phrase	truncated order	kärbitud järjekord
-msg.phrase	bad order length	halb tellimuse pikkus
-msg.phrase	bad pattern number in order	halb mustri number korras
-msg.phrase	truncated pattern list	kärbitud mustrite loend
-msg.phrase	bad pattern count	halb mustrite arv
-msg.phrase	bad pattern index	halva mustri indeks
-msg.phrase	duplicate pattern	dubleeritud muster
-msg.phrase	truncated pattern data	kärbitud mustriandmed
-msg.phrase	invalid pattern data	kehtetud mustriandmed
-msg.phrase	trailing data in file	faili lõpuandmed
-msg.phrase	order refers to a missing pattern	järjekord viitab puuduvale mustrile
+msg.phrase	bad character in title	vigane märk pealkirjas
+msg.phrase	truncated order	kärbitud järjestus
+msg.phrase	bad order length	vale järjestuse pikkus
+msg.phrase	bad pattern number in order	vale patterni number järjestuses
+msg.phrase	truncated pattern list	kärbitud patternite loend
+msg.phrase	bad pattern count	vale patternite arv
+msg.phrase	bad pattern index	vale patterni indeks
+msg.phrase	duplicate pattern	topeltpattern
+msg.phrase	truncated pattern data	kärbitud patterni andmed
+msg.phrase	invalid pattern data	vigased patterni andmed
+msg.phrase	trailing data in file	liigsed andmed faili lõpus
+msg.phrase	order refers to a missing pattern	järjestus viitab puuduvale patternile
 msg.phrase	A:/	A:/
-msg.phrase	(untitled)	(pealkirjata)
-msg.phrase	Ready. Press F1 for help.	Valmis. Abi saamiseks vajutage F1.
-msg.phrase	Follow OFF	Jälgi VÄLJAS
-msg.phrase	Nothing to undo	Midagi pole tagasi võtta
-msg.phrase	Undo	Võta tagasi
-msg.phrase	Note OFF	Märkus VÄLJAS
-msg.phrase	Set an effect letter first	Esmalt määrake efekttäht
+msg.phrase	(untitled)	(nimetu)
+msg.phrase	Ready. Press F1 for help.	Valmis. Abi: F1.
+msg.phrase	Follow OFF	Jälgimine VÄLJAS
+msg.phrase	Nothing to undo	Pole midagi tagasi võtta
+msg.phrase	Undo	Tagasi võetud
+msg.phrase	Note OFF	Note off
+msg.phrase	Set an effect letter first	Sisestage esmalt efekti täht
 msg.phrase	Effect cleared	Efekt kustutatud
 msg.phrase	Parameter cleared	Parameeter kustutatud
-msg.phrase	Note cleared	Märkus kustutatud
-msg.phrase	Instrument cleared	Instrument tühjendatud
+msg.phrase	Note cleared	Noot kustutatud
+msg.phrase	Instrument cleared	Pill kustutatud
 msg.phrase	Volume cleared	Helitugevus kustutatud
-msg.phrase	Order list is full	Tellimuste nimekiri on täis
-msg.phrase	Order inserted	Tellimus sisestatud
-msg.phrase	Cannot delete the last order	Viimast tellimust ei saa kustutada
-msg.phrase	Order deleted	Tellimus kustutatud
-msg.phrase	Playing song	Laulu mängimine
+msg.phrase	Order list is full	Järjestuse loend on täis
+msg.phrase	Order inserted	Positsioon lisatud
+msg.phrase	Cannot delete the last order	Viimast positsiooni ei saa kustutada
+msg.phrase	Order deleted	Positsioon kustutatud
+msg.phrase	Playing song	Lugu mängib
 msg.phrase	Stopped	Peatatud
-msg.phrase	New song	Uus laul
-msg.phrase	Discard unsaved changes and start a new song? (Y/N)	Kas loobuda salvestamata muudatustest ja alustada uut lugu? (jah/ei)
-msg.phrase	Discard unsaved changes and open a song? (Y/N)	Kas loobuda salvestamata muudatustest ja avada lugu? (jah/ei)
-msg.phrase	Discard unsaved changes and quit? (Y/N)	Kas loobuda salvestamata muudatustest ja väljuda? (jah/ei)
-msg.phrase	Song settings updated	Loo seadeid värskendati
+msg.phrase	New song	Uus lugu
+msg.phrase	Discard unsaved changes and start a new song? (Y/N)	Kas loobuda salvestamata muudatustest ja alustada uut lugu? (Y/N)
+msg.phrase	Discard unsaved changes and open a song? (Y/N)	Kas loobuda salvestamata muudatustest ja avada lugu? (Y/N)
+msg.phrase	Discard unsaved changes and quit? (Y/N)	Kas loobuda salvestamata muudatustest ja väljuda? (Y/N)
+msg.phrase	Song settings updated	Loo sätted muudetud
 msg.phrase	Filename is empty	Failinimi on tühi
-msg.phrase	Save cancelled	Salvestamine tühistati
-msg.phrase	Open cancelled	Avatud on tühistatud
-msg.phrase	Edit ON	Redigeerimine ON
+msg.phrase	Save cancelled	Salvestamine katkestatud
+msg.phrase	Open cancelled	Avamine katkestatud
+msg.phrase	Edit ON	Redigeerimine SEES
 msg.phrase	Edit OFF	Redigeerimine VÄLJAS
-msg.phrase	Follow ON	Jälgi ON
-msg.phrase	Edit is OFF. Press F8 to edit.	Redigeerimine on VÄLJAS. Redigeerimiseks vajutage F8.
-msg.phrase	I/O error	I/O viga
+msg.phrase	Follow ON	Jälgimine SEES
+msg.phrase	Edit is OFF. Press F8 to edit.	Redigeerimine on väljas. Vajutage F8.
+msg.phrase	I/O error	S/V-viga
 msg.phrase	file is too large	fail on liiga suur
 msg.phrase	truncated file	kärbitud fail
 msg.phrase	SINE PAD	SINE PAD
-msg.phrase	TRIANGLE	KOLMNURK
-msg.phrase	SAW LEAD	SAEE PLII
-msg.phrase	SQUARE	RUUT
-msg.phrase	PULSE 25	PULSS 25
+msg.phrase	TRIANGLE	TRIANGLE
+msg.phrase	SAW LEAD	SAW LEAD
+msg.phrase	SQUARE	SQUARE
+msg.phrase	PULSE 25	PULSE 25
 msg.phrase	ORGAN	ORGAN
 msg.phrase	BASS	BASS
-msg.phrase	BELL	KELLU
-msg.phrase	NOISE	MÜRA
+msg.phrase	BELL	BELL
+msg.phrase	NOISE	NOISE
 msg.phrase	SINE	SINE
 msg.phrase	SAW	SAW
-msg.phrase	OFF	VÄLJAS
-msg.phrase	ON	SEES
-msg.phrase	ROW	RIDA
-msg.phrase	CHAN LEVEL	KANALI TASE
-msg.phrase	F1 HELP F2 SONG	F1 ABI F2 LAUL
-msg.phrase	F3 INS  F4 SAVE	F3 INS F4 SAVE
-msg.phrase	F5 PLAY F6 PAT	F5 MÄNGI F6 PAT
+msg.phrase	OFF	OFF
+msg.phrase	ON	ON
+msg.phrase	ROW	ROW
+msg.phrase	CHAN LEVEL	CHAN LEVEL
+msg.phrase	F1 HELP F2 SONG	F1 HELP F2 SONG
+msg.phrase	F3 INS  F4 SAVE	F3 INS  F4 SAVE
+msg.phrase	F5 PLAY F6 PAT	F5 PLAY F6 PAT
 msg.phrase	F7 STOP F8 EDIT	F7 STOP F8 EDIT
 msg.phrase	F9/F10 OCTAVE	F9/F10 OCTAVE
-msg.phrase	F11 FOLLOW	F11 JÄLGI
-msg.phrase	F12 QUIT	F12 LÕPETA
-msg.phrase	SPACE PLAY/STOP	RUUMI MÄNGIMINE/STOPP
-msg.phrase	CTRL-S SAVE	CTRL-S SALVESTA
-msg.phrase	CTRL-O OPEN	CTRL-O AVATUD
-msg.phrase	C-N NEW C-Z UNDO	C-N UUS C-Z UNDO
+msg.phrase	F11 FOLLOW	F11 FOLLOW
+msg.phrase	F12 QUIT	F12 QUIT
+msg.phrase	SPACE PLAY/STOP	SPACE PLAY/STOP
+msg.phrase	CTRL-S SAVE	CTRL-S SAVE
+msg.phrase	CTRL-O OPEN	CTRL-O OPEN
+msg.phrase	C-N NEW C-Z UNDO	C-N NEW C-Z UNDO
 msg.phrase	C-C STOP	C-C STOP
-msg.phrase	#TRANSPORT AND FILES	#TRANSPORT JA FAILID
-msg.phrase	#ORDER LIST	#TELLIMISLOE
-msg.phrase	#DISPLAY	#DISPLAY
-msg.phrase	#EDITING	#TOIMING
-msg.phrase	#EFFECTS (parameter is hexadecimal)	#EFFECTS (parameeter on kuueteistkümnendsüsteem)
-msg.phrase	LEFT/RIGHT PAGE   ENTER OR F1 CLOSE	VASAKU/PAREMA LEHEKÜLJE SISESTAMINE VÕI F1 SULGE
-msg.phrase	SONG SETTINGS	LAULU SEADED
-msg.phrase	UP/DOWN SELECT   LEFT/RIGHT ADJUST   ENTER/F2 CLOSE	ÜLES/ALLA VALI VASAKULE/PAREMALE REGULEERIMINE ENTER/F2 SULE
-msg.phrase	Type to edit the title. Backspace deletes the last character.	Pealkirja muutmiseks tippige. Backspace kustutab viimase tähemärgi.
-msg.phrase	BPM range 32..255. Speed range 1..31.	BPM vahemik 32...255. Kiirusevahemik 1...31.
-msg.phrase	Pattern effects can also change speed and BPM while playing.	Mustriefektid võivad mängu ajal muuta ka kiirust ja BPM-i.
-msg.phrase	INSTRUMENTS	INSTRUMENDID
-msg.phrase	UP/DOWN SELECT   SPACE PREVIEW   ENTER USE   F3 CLOSE	ÜLES/ALLA VALI RUUMI EELVAADE SISESTAGE KASUTAMINE F3 SULGE
-msg.phrase	All four channels use wavetable synthesis.	Kõik neli kanalit kasutavad lainetabeli sünteesi.
-msg.phrase	Preview plays C-4 on the track under the edit cursor.	Eelvaade esitab C-4 rajal redigeerimiskursori all.
-msg.phrase	SAVE SONG AS	SALVESTA LAULU AS
-msg.phrase	ENTER SAVE   F4 OR CTRL-C CANCEL	SISESTAGE SAVE F4 VÕI CTRL-C TÜHISTA
-msg.phrase	Directory:	Kataloog:
-msg.phrase	File name:	Faili nimi:
+msg.phrase	#TRANSPORT AND FILES	#MÄNGIMINE JA FAILID
+msg.phrase	#ORDER LIST	#JÄRJESTUSE LOEND
+msg.phrase	#DISPLAY	#KUVA
+msg.phrase	#EDITING	#REDIGEERIMINE
+msg.phrase	#EFFECTS (parameter is hexadecimal)	#EFEKTID (parameeter on kuueteistkümnendsüsteemis)
+msg.phrase	LEFT/RIGHT PAGE   ENTER OR F1 CLOSE	LEFT/RIGHT PAGE   ENTER OR F1 CLOSE
+msg.phrase	SONG SETTINGS	LOO SÄTTED
+msg.phrase	UP/DOWN SELECT   LEFT/RIGHT ADJUST   ENTER/F2 CLOSE	UP/DOWN SELECT   LEFT/RIGHT ADJUST   ENTER/F2 CLOSE
+msg.phrase	Type to edit the title. Backspace deletes the last character.	Pealkirja muutmiseks tippige. Backspace kustutab viimase märgi.
+msg.phrase	BPM range 32..255. Speed range 1..31.	BPM 32 kuni 255. Kiirus 1 kuni 31.
+msg.phrase	Pattern effects can also change speed and BPM while playing.	Patternite efektid saavad mängimise ajal muuta ka kiirust ja BPM-i.
+msg.phrase	INSTRUMENTS	PILLID
+msg.phrase	UP/DOWN SELECT   SPACE PREVIEW   ENTER USE   F3 CLOSE	UP/DOWN SELECT   SPACE PREVIEW   ENTER USE   F3 CLOSE
+msg.phrase	All four channels use wavetable synthesis.	Kõik neli kanalit kasutavad wavetable-sünteesi.
+msg.phrase	Preview plays C-4 on the track under the edit cursor.	Kuulamine mängib C-4 kursori all oleval rajal.
+msg.phrase	SAVE SONG AS	SALVESTA LUGU NIMEGA
+msg.phrase	ENTER SAVE   F4 OR CTRL-C CANCEL	ENTER SAVE   F4 OR CTRL-C CANCEL
+msg.phrase	Directory:	Kaust:
+msg.phrase	File name:	Failinimi:
 msg.phrase	The extension .SGT is added automatically.	Laiend .SGT lisatakse automaatselt.
 msg.phrase	An existing file can be overwritten.	Olemasoleva faili saab üle kirjutada.
-msg.phrase	OPEN SONG	AVATUD LAUL
-msg.phrase	ENTER OPEN  BS PARENT  CTRL-O/CTRL-C CANCEL	SISESTAGE AVA BS PARENT CTRL-O/CTRL-C TÜHISTA
+msg.phrase	OPEN SONG	AVA LUGU
+msg.phrase	ENTER OPEN  BS PARENT  CTRL-O/CTRL-C CANCEL	ENTER OPEN  BS PARENT  CTRL-O/CTRL-C CANCEL
 msg.phrase	(no .SGT files in this folder)	(selles kaustas pole .SGT-faile)
-msg.phrase	CONFIRM	KINNITA
-msg.phrase	Y = YES   N / ENTER / CTRL-C = NO	Y = JAH N / ENTER / CTRL-C = EI
-msg.phrase	Y = yes        N = no	Y = jah N = ei
+msg.phrase	CONFIRM	KINNITUS
+msg.phrase	Y = YES   N / ENTER / CTRL-C = NO	Y = YES   N / ENTER / CTRL-C = NO
+msg.phrase	Y = yes        N = no	Y = jah        N = ei
 msg.phrase	C-	C-
 msg.phrase	C#	C#
 msg.phrase	D-	D-
@@ -909,80 +905,80 @@ msg.phrase	A#	A#
 msg.phrase	B-	B-
 msg.phrase	A:/dir/name	A:/direktor/nimi
 msg.phrase	MThd	MThd
-msg.phrase	broken MThd	MThd katki
+msg.phrase	broken MThd	rikutud MThd
 msg.phrase	MIDI IMPORT	MIDI IMPORT
 msg.phrase	MTrk	MTrk
-msg.phrase	broken delta time	katki deltaaeg
-msg.phrase	broken running status	katki jooksmise olek
-msg.phrase	broken meta event	katki metasündmus
-msg.phrase	broken sysex event	murtud sysex sündmus
-msg.phrase	broken channel event	katkise kanali sündmus
-msg.phrase	SMF output is too small	SMF-i väljund on liiga väike
-msg.phrase	SMF output is too large	SMF-i väljund on liiga suur
+msg.phrase	broken delta time	rikutud delta time
+msg.phrase	broken running status	rikutud running status
+msg.phrase	broken meta event	rikutud meta-sündmus
+msg.phrase	broken sysex event	rikutud SysEx-sündmus
+msg.phrase	broken channel event	rikutud kanalisündmus
+msg.phrase	SMF output is too small	SMF-väljund on liiga väike
+msg.phrase	SMF output is too large	SMF-väljund on liiga suur
 msg.phrase	the song is too long for SMF	lugu on SMF-i jaoks liiga pikk
 msg.phrase	TRK1	TRK1
 msg.phrase	%s%d	%s%d
 msg.phrase	%s%d:%s%d	%s%d:%s%d
 msg.phrase	%s	%s
 msg.phrase	%.40s%s	%.40s%s
-msg.phrase	  [%s]   %s	[%s] %s
-msg.phrase	EDIT  	MUUDA
-msg.phrase	READY 	VALMIS
-msg.phrase	%4d 	%4d
+msg.phrase	  [%s]   %s	  [%s]   %s
+msg.phrase	EDIT  	REDIG
+msg.phrase	READY 	VALM.
+msg.phrase	%4d 	%4d 
 msg.phrase	%s Sum %.7g N %ld%s	%s Summa %.7g N %ld%s
-msg.phrase	ARROWS      move the cell cursor\n	NOOLED liigutavad lahtri kursorit
-msg.phrase	SHIFT+ARR   extend the selection (for graphs/copy)\n	SHIFT+ARR laiendab valikut (graafikute/kopeerimise jaoks)
-msg.phrase	ENTER       edit the cell; in edit, commit and move down\n	ENTER muuda lahtrit; muutmises, siduda ja liikuda alla
-msg.phrase	TAB         next cell    SHIFT+TAB  previous cell\n	TAB järgmine lahter SHIFT+TAB eelmine lahter
-msg.phrase	DELETE      clear the selected cell(s)    ESC  cancel\n	DELETE kustutab valitud lahtri(d) ESC tühistab
-msg.phrase	PGUP/PGDN   move one screen    HOME/END  first/last column\n	PGUP/PGDN liigutab ühe ekraani AVA/LÕPP esimese/viimase veeru
-msg.phrase	CTRL+HOME   A1    CTRL+END  last used cell\n	CTRL+HOME A1 CTRL+END viimati kasutatud lahter
-msg.phrase	F1 help  F2 edit  F3 copy  F4 paste  F5 goto  F6 colour\n	F1 abi F2 redigeerimine F3 kopeeri F4 kleebi F5 läks F6 värvi
-msg.phrase	F7 auto-fit  F8 background  F9 recalc  F10 graph  F11 save  F12 menu\n	F7 automaatne sobitamine F8 taust F9 uuesti arvutamine F10 graafik F11 salvesta F12 menüü
-msg.phrase	SHIFT+F1 about  SHIFT+F2 row height  SHIFT+F3 column width\n	SHIFT+F1 umbes SHIFT+F2 rea kõrguse kohta SHIFT+F3 veeru laius
-msg.phrase	SHIFT+F4 select all  SHIFT+F10 graph range  SHIFT+F11 save as\n	SHIFT+F4 vali kogu SHIFT+F10 graafiku vahemik SHIFT+F11 salvesta kui
-msg.phrase	CTRL+F1 new  CTRL+F2 open  CTRL+F3 save  CTRL+F4 save as\n	CTRL+F1 uus CTRL+F2 ava CTRL+F3 salvesta CTRL+F4 salvesta nimega
-msg.phrase	CTRL+F5 export CSV  CTRL+F6 export ODS  ALT+F12 quit\n	CTRL+F5 eksport CSV CTRL+F6 eksport ODS ALT+F12 väljub
-msg.phrase	Bottom 2 lines: function keys; [SHIFT]/[CTRL]/[ALT] like the filer\n	Alumised 2 rida: funktsiooniklahvid; [SHIFT]/[CTRL]/[ALT] nagu failier
-msg.phrase	CTRL+S save  CTRL+O open  CTRL+N new  CTRL+C/V/X copy/paste/cut\n	CTRL+S salvesta CTRL+O ava CTRL+N uus CTRL+C/V/X kopeeri/kleebi/lõika
-msg.phrase	CTRL+G goto    /  open the menu (1 File, 2 Edit, ...)\n	CTRL+G läheb / avage menüü (1 fail, 2 redigeerimine, ...)
-msg.phrase	Built-in functions: SUM AVERAGE MIN MAX COUNT COUNTA\n	Sisseehitatud funktsioonid: SUMMA KESKMINE MIN MAX COUNT COUNTA
-msg.phrase	PRODUCT ABS SQRT INT ROUND MOD POWER IF AND OR NOT\n	TOODE ABS SQRT INT ROUND MOD POWER, KUI JA VÕI MITTE
-msg.phrase	IFERROR LEN LEFT RIGHT MID UPPER LOWER TRIM CONCATENATE PI\n	IFERROR LEN LEFT PAREM KESKMINE ÜLEMINE ALUMINE TRIM CONCATENATE PI
-msg.phrase	Cell refs: A1, $A$1, A1:B10.  Formulas begin with '='.\n	Lahtri viited: A1, $A$1, A1:B10.  Valemid algavad tähega '='.
-msg.phrase	Files: .ods (LibreOffice), .fods (flat XML), .csv\n	Failid: .ods (LibreOffice), .fods (flat XML), .csv
-msg.phrase	ODS/FODS keeps formulas, widths, heights and colours.\n	ODS/FODS säilitab valemid, laiused, kõrgused ja värvid.
-msg.phrase	CSV keeps values and formulas (no colours/heights).\n	CSV säilitab väärtused ja valemid (pole värve/kõrgusi).
-msg.phrase	Graph: select a range, press F10, and choose Line/Bar/Mixed/Pie.\n	Graafik: valige vahemik, vajutage F10 ja valige Line/Bar/Mixed/Pie.
-msg.phrase	SGCALC for sgnano\n	SGCALC sgnano jaoks
+msg.phrase	ARROWS      move the cell cursor\n	NOOLED      liiguta lahtrikursorit\n
+msg.phrase	SHIFT+ARR   extend the selection (for graphs/copy)\n	SHIFT+NOOL  laienda valikut (diagrammide/kopeerimise jaoks)\n
+msg.phrase	ENTER       edit the cell; in edit, commit and move down\n	ENTER       redigeeri lahtrit; redigeerimisel kinnita ja liigu alla\n
+msg.phrase	TAB         next cell    SHIFT+TAB  previous cell\n	TAB         järgmine lahter    SHIFT+TAB  eelmine lahter\n
+msg.phrase	DELETE      clear the selected cell(s)    ESC  cancel\n	DELETE      tühjenda valitud lahtrid    ESC  loobu\n
+msg.phrase	PGUP/PGDN   move one screen    HOME/END  first/last column\n	PGUP/PGDN   üks ekraanitäis    HOME/END  esimene/viimane veerg\n
+msg.phrase	CTRL+HOME   A1    CTRL+END  last used cell\n	CTRL+HOME   A1    CTRL+END  viimane kasutatud lahter\n
+msg.phrase	F1 help  F2 edit  F3 copy  F4 paste  F5 goto  F6 colour\n	F1 abi  F2 redigeeri  F3 kopeeri  F4 kleebi  F5 mine  F6 värv\n
+msg.phrase	F7 auto-fit  F8 background  F9 recalc  F10 graph  F11 save  F12 menu\n	F7 sobita  F8 taust  F9 arvuta  F10 diagramm  F11 salvesta  F12 menüü\n
+msg.phrase	SHIFT+F1 about  SHIFT+F2 row height  SHIFT+F3 column width\n	SHIFT+F1 teave  SHIFT+F2 rea kõrgus  SHIFT+F3 veeru laius\n
+msg.phrase	SHIFT+F4 select all  SHIFT+F10 graph range  SHIFT+F11 save as\n	SHIFT+F4 vali kõik  SHIFT+F10 diagrammi ala  SHIFT+F11 salvesta nimega\n
+msg.phrase	CTRL+F1 new  CTRL+F2 open  CTRL+F3 save  CTRL+F4 save as\n	CTRL+F1 uus  CTRL+F2 ava  CTRL+F3 salvesta  CTRL+F4 salvesta nimega\n
+msg.phrase	CTRL+F5 export CSV  CTRL+F6 export ODS  ALT+F12 quit\n	CTRL+F5 ekspordi CSV  CTRL+F6 ekspordi ODS  ALT+F12 välju\n
+msg.phrase	Bottom 2 lines: function keys; [SHIFT]/[CTRL]/[ALT] like the filer\n	Alumised 2 rida: funktsiooniklahvid; [SHIFT]/[CTRL]/[ALT] nagu filer\n
+msg.phrase	CTRL+S save  CTRL+O open  CTRL+N new  CTRL+C/V/X copy/paste/cut\n	CTRL+S salvesta  CTRL+O ava  CTRL+N uus  CTRL+C/V/X kopeeri/kleebi/lõika\n
+msg.phrase	CTRL+G goto    /  open the menu (1 File, 2 Edit, ...)\n	CTRL+G mine    /  ava menüü (1 Fail, 2 Redigeeri, ...)\n
+msg.phrase	Built-in functions: SUM AVERAGE MIN MAX COUNT COUNTA\n	Sisseehitatud funktsioonid: SUM AVERAGE MIN MAX COUNT COUNTA\n
+msg.phrase	PRODUCT ABS SQRT INT ROUND MOD POWER IF AND OR NOT\n	PRODUCT ABS SQRT INT ROUND MOD POWER IF AND OR NOT\n
+msg.phrase	IFERROR LEN LEFT RIGHT MID UPPER LOWER TRIM CONCATENATE PI\n	IFERROR LEN LEFT RIGHT MID UPPER LOWER TRIM CONCATENATE PI\n
+msg.phrase	Cell refs: A1, $A$1, A1:B10.  Formulas begin with '='.\n	Lahtriviited: A1, $A$1, A1:B10.  Valemid algavad märgiga '='.\n
+msg.phrase	Files: .ods (LibreOffice), .fods (flat XML), .csv\n	Failid: .ods (LibreOffice), .fods (lame XML), .csv\n
+msg.phrase	ODS/FODS keeps formulas, widths, heights and colours.\n	ODS/FODS säilitab valemid, laiused, kõrgused ja värvid.\n
+msg.phrase	CSV keeps values and formulas (no colours/heights).\n	CSV säilitab ainult väärtused ja valemid (värve/kõrgusi ei).\n
+msg.phrase	Graph: select a range, press F10, and choose Line/Bar/Mixed/Pie.\n	Diagramm: valige ala, vajutage F10 ja valige Joon/Tulp/Segatud/Sektor.\n
+msg.phrase	SGCALC for sgnano\n	SGCALC for sgnano\n
 msg.phrase	Version 	Versioon
-msg.phrase	A Lotus 1-2-3 style spreadsheet as an SGX program.\n\n	Lotus 1-2-3 stiilis arvutustabel SGX-programmina.
+msg.phrase	A Lotus 1-2-3 style spreadsheet as an SGX program.\n\n	Lotus 1-2-3 stiilis tabelarvutus SGX-programmina.\n\n
 msg.phrase	SGX ABI %u.%u\n	SGX ABI %u.%u
-msg.phrase	Screen mode 3: text + CLUT8 FB (lowres disabled)\n	Ekraanirežiim 3: tekst + CLUT8 FB (madal sagedus keelatud)
+msg.phrase	Screen mode 3: text + CLUT8 FB (lowres disabled)\n	Ekraanirežiim 3: tekst + CLUT8 FB (lowres-kihita)\n
 msg.phrase	Sheet: %d rows x %d columns\n	Leht: %d rida x %d veergu
-msg.phrase	Formats: .ods / .fods (LibreOffice), .csv\n\n	Vormingud: .ods / .fods (LibreOffice), .csv
-msg.phrase	The grid is drawn on the text plane.\n	Ruudustik joonistatakse tekstitasandile.
-msg.phrase	Charts and the 640x480 background use the FB.\n\n	Diagrammid ja 640x480 taust kasutavad FB-d.
+msg.phrase	Formats: .ods / .fods (LibreOffice), .csv\n\n	Vormingud: .ods / .fods (LibreOffice), .csv\n\n
+msg.phrase	The grid is drawn on the text plane.\n	Ruudustik joonistatakse tekstikihile.\n
+msg.phrase	Charts and the 640x480 background use the FB.\n\n	Diagrammid ja 640x480 taust kasutavad FB-d.\n\n
 msg.phrase	%d %s	%d %s
-msg.phrase	Cannot store the cell (%d).	Lahtrit (%d) ei saa salvestada.
-msg.phrase	Copied %d x %d cells	Kopeeritud %d x %d lahtrit
+msg.phrase	Cannot store the cell (%d).	Lahtrit ei saa salvestada (%d).
+msg.phrase	Copied %d x %d cells	Kopeeriti %d x %d lahtrit
 msg.phrase	Cleared %s	Kustutatud %s
-msg.phrase	'%s' is not a cell reference.	„%s” ei ole lahtriviide.
+msg.phrase	'%s' is not a cell reference.	'%s' ei ole lahtriviide.
 msg.phrase	%d	%d
 msg.phrase	Column width = %d	Veeru laius = %d
 msg.phrase	Row height = %d	Rea kõrgus = %d
-msg.phrase	Auto fit: %d column(s), %d row(s)	Automaatne sobitamine: %d veerg(id), %d rida(d)
+msg.phrase	Auto fit: %d column(s), %d row(s)	Sobita: %d veergu, %d rida
 msg.phrase	%2d	%2d
-msg.phrase	Cannot apply the colour (%d).	Värvi (%d) ei saa rakendada.
+msg.phrase	Cannot apply the colour (%d).	Värvi ei saa rakendada (%d).
 msg.phrase	%s colour = %d	%s värv = %d
-msg.phrase	Not a valid range.\nUse a range such as A1:C10.	Ei ole kehtiv vahemik.\nKasutage vahemikku, näiteks A1:C10.
-msg.phrase	Graph range %s	Graafiku vahemik %s
+msg.phrase	Not a valid range.\nUse a range such as A1:C10.	Vigane ala.\nSisestage ala, nt A1:C10.
+msg.phrase	Graph range %s	Diagrammi ala %s
 msg.phrase	Graph: %s	Graafik: %s
-msg.phrase	SGCALC: cannot set screen mode 3: %s\n	SGCALC: ei saa seadistada ekraanirežiimi 3: %s
+msg.phrase	SGCALC: cannot set screen mode 3: %s\n	SGCALC: ekraanirežiimi 3 ei saa seada: %s\n
 msg.phrase	%.2g	%.2g
 msg.phrase	%.6g	%.6g
-msg.phrase	%s  %.0f%%	%s %.0f%%
-msg.phrase	GRAPH  %s  %s	GRAAFIK %s %s
+msg.phrase	%s  %.0f%%	%s  %.0f%%
+msg.phrase	GRAPH  %s  %s	DIAGRAMM  %s  %s
 msg.phrase	%s%s	%s%s
 msg.phrase	%s/%s	%s/%s
 msg.phrase	%.*s	%.*s
@@ -990,116 +986,116 @@ msg.phrase	%.*s/	%.*s/
 msg.phrase	Cannot read %s\n%s	%s ei saa lugeda\n%s
 msg.phrase	Folder: %s	Kaust: %s
 msg.phrase	[DIR] %s	[DIR] %s
-msg.phrase	      %s	%s
+msg.phrase	      %s	      %s
 msg.phrase	%lu.%luM	%lu.%luM
 msg.phrase	%luK	%luK
 msg.phrase	%luB	%luB
-msg.phrase	BOOK1%s	RAAMAT1%s
+msg.phrase	BOOK1%s	BOOK1%s
 msg.phrase	%c:/	%c:/
-msg.phrase	Unsupported extension.\nUse .csv, .ods or .fods.	Toetamata laiendus.\nKasutage faili .csv, .ods või .fods.
+msg.phrase	Unsupported extension.\nUse .csv, .ods or .fods.	Toetamata laiend.\nKasutage .csv, .ods või .fods.
 msg.phrase	%s already exists.\nOverwrite it?	%s on juba olemas.\nKas kirjutada üle?
-msg.phrase	%s may not be writable.\nTry anyway?	%s ei pruugi olla kirjutatav.\nProovi ikkagi?
-msg.phrase	Unknown file type for %s	Tundmatu failitüüp %s jaoks
-msg.phrase	Unsupported file type.\nUse .csv, .ods or .fods.	Toetamata failitüüp.\nKasutage faili .csv, .ods või .fods.
+msg.phrase	%s may not be writable.\nTry anyway?	%s ei pruugi olla kirjutatav.\nKas proovida ikka?
+msg.phrase	Unknown file type for %s	Tundmatu failitüüp: %s
+msg.phrase	Unsupported file type.\nUse .csv, .ods or .fods.	Toetamata failitüüp.\nKasutage .csv, .ods või .fods.
 msg.phrase	Cannot open %s\n%s	%s ei saa avada\n%s
 msg.phrase	%s is a folder.	%s on kaust.
 msg.phrase	Cannot import %s\n%s	%s ei saa importida\n%s
-msg.phrase	Loaded %s	Laaditud %s
-msg.phrase	Cannot build the %s file.	%s-faili ei saa koostada.
+msg.phrase	Loaded %s	%s laaditud
+msg.phrase	Cannot build the %s file.	Faili %s ei saa luua.
 msg.phrase	Cannot write %s\n%s	%s ei saa kirjutada\n%s
 msg.phrase	%s %s	%s %s
-msg.phrase	unsupported version %u	toetamata versioon %u
+msg.phrase	unsupported version %u	toetamata versioon (%u)
 msg.phrase	%d:%d:%d:%d:%d:%d	%d:%d:%d:%d:%d:%d
 msg.phrase	Octave %d	Oktav %d
-msg.phrase	Note %s	Märkus %s
-msg.phrase	Instrument %d	Instrument %d
+msg.phrase	Note %s	Noot %s
+msg.phrase	Instrument %d	Pill %d
 msg.phrase	Volume %s	Helitugevus %s
-msg.phrase	Effect %c	Mõju %c
+msg.phrase	Effect %c	Efekt %c
 msg.phrase	Parameter %s	Parameeter %s
-msg.phrase	Pattern %s	Muster %s
-msg.phrase	Playing pattern %s	Mängimismuster %s
-msg.phrase	SAVE ERROR: %s	SALVESTAMISVIGA: %s
-msg.phrase	Saved %s	Salvestatud %s
+msg.phrase	Pattern %s	Pattern %s
+msg.phrase	Playing pattern %s	Mängib pattern %s
+msg.phrase	SAVE ERROR: %s	SALVESTUSVIGA: %s
+msg.phrase	Saved %s	%s on salvestatud
 msg.phrase	LOAD ERROR: %s	LAADIMISVIGA: %s
 msg.phrase	BPM %d	BPM %d
 msg.phrase	Speed %d	Kiirus %d
-msg.phrase	Preview %s	Eelvaade %s
-msg.phrase	Instrument %s %s	Instrument %s %s
-msg.phrase	Overwrite %s? (Y/N)	Kas kirjutada %s? (jah/ei)
-msg.phrase	 | BPM %s SPD %s 	| BPM %s SPD %s
-msg.phrase	 SGNO TRACKER 1.0 | 	SGNO TRACKER 1.0 |
-msg.phrase	FILE 	FAIL
-msg.phrase	 PAT %s	PAT %s
-msg.phrase	 ORD %d/%d	ORD %d/%d
-msg.phrase	 INS %s 	INS %s
-msg.phrase	 OCT %d	OKT %d
-msg.phrase	 EDIT %s	MUUDA %s
-msg.phrase	ON 	SEES
-msg.phrase	 FOL %s	FOL %s
-msg.phrase	TRACK %d	RAADA %d
+msg.phrase	Preview %s	Kuula %s
+msg.phrase	Instrument %s %s	Pill %s %s
+msg.phrase	Overwrite %s? (Y/N)	Kas kirjutada %s üle? (Y/N)
+msg.phrase	 | BPM %s SPD %s 	 | BPM %s SPD %s 
+msg.phrase	 SGNO TRACKER 1.0 | 	 SGNO TRACKER 1.0 | 
+msg.phrase	FILE 	FILE 
+msg.phrase	 PAT %s	 PAT %s
+msg.phrase	 ORD %d/%d	 ORD %d/%d
+msg.phrase	 INS %s 	 INS %s 
+msg.phrase	 OCT %d	 OCT %d
+msg.phrase	 EDIT %s	 EDIT %s
+msg.phrase	ON 	ON 
+msg.phrase	 FOL %s	 FOL %s
+msg.phrase	TRACK %d	TRACK %d
 msg.phrase	%c%s	%c%s
 msg.phrase	%s %s %s %s	%s %s %s %s
-msg.phrase	%s 	%s
+msg.phrase	%s 	%s 
 msg.phrase	%d %s %s	%d %s %s
-msg.phrase	ORDER %d/%d	TELLI %d/%d
-msg.phrase	PAT   %s	PAT %s
+msg.phrase	ORDER %d/%d	ORDER %d/%d
+msg.phrase	PAT   %s	PAT   %s
 msg.phrase	INS %s %s	INS %s %s
-msg.phrase	OCT %d  EDIT %s	OCT %d MUUDA %s
-msg.phrase	FOLLOW %s	JÄLGI %s
-msg.phrase	PLAYING  ORD %d/%d  PAT %s  ROW %s/%d  SPD %s  BPM %d  F7 STOP	MÄNGIMISORD %d/%d PAT %s RIDA %s/%d SPD %s BPM %d F7 STOP
-msg.phrase	READY  EDIT %s  OCT %d  F1 HELP  F5 PLAY  CTRL-S SAVE	VALMIS EDIT %s OKT %d F1 ABI F5 MÄNGI CTRL-S SALVESTA
-msg.phrase	 %s 	%s
-msg.phrase	  F5          Play the song from the current order	F5 Esitage lugu praegusest järjestusest
-msg.phrase	  F6          Play the current pattern	F6 Esitage praegune muster
-msg.phrase	  F7/Ctrl-C   Stop playback	F7/Ctrl-C Taasesituse peatamine
-msg.phrase	  Space       Play / stop	Space Play / stop
-msg.phrase	  F4          Save as	F4 Salvesta nimega
-msg.phrase	  Ctrl-S      Save (asks for a name if new)	Ctrl-S Salvesta (kui uus, küsib nime)
-msg.phrase	  Ctrl-O      Open a song	Ctrl-O Loo avamine
-msg.phrase	  Ctrl-N      New song	Ctrl-N Uus laul
-msg.phrase	  F12         Quit (confirmation if modified)	F12 Välju (muutmise korral kinnitus)
-msg.phrase	  [ ]         Previous / next order entry	[ ] Eelmine / järgmine tellimuse kanne
-msg.phrase	  { }         Insert / delete an order entry	{ } Tellimuse kirje sisestamine/kustutamine
-msg.phrase	  - +         Change the pattern in the entry	- + Muutke kirjes olevat mustrit
-msg.phrase	  F11         Follow playback (turns off on manual move)	F11 Jälgi taasesitust (lülitub käsitsi liigutamisel välja)
-msg.phrase	  F1          Help; Left/Right changes page	F1 Abi; Vasak/parem muudab lehte
-msg.phrase	  F8          Toggle edit mode	F8 Muutmisrežiimi sisse- ja väljalülitamine
-msg.phrase	  Arrows      Move the cursor	Nooled Liigutage kursorit
-msg.phrase	  PgUp/PgDn   Jump 16 rows	PgUp/PgDn Hüppa 16 rida
-msg.phrase	  Home/End    First / last row	Avaleht/Lõpp Esimene / viimane rida
-msg.phrase	  F9/F10      Octave down / up	F9/F10 Oktav alla/üles
-msg.phrase	  Z S X D C V G B H N J M      lower piano row	Z S X D C V G B H N J M alumine klaveririda
-msg.phrase	  Q 2 W 3 E R 5 T 6 Y 7 U      upper piano row	Q 2 W 3 E R 5 T 6 Y 7 U ülemine klaveririda
-msg.phrase	  1           Note off	1 Märkus väljas
-msg.phrase	  0 / Del     0 clears note/inst/fx; Del clears any	0 / Del 0 tühjendab note/inst/fx; Del tühjendab kõik
-msg.phrase	  Ctrl-Z      Undo the last pattern/order edit	Ctrl-Z Tühistab viimase mustri/järjestuse redigeerimise
-msg.phrase	  Axy   Volume slide: up x, down y	Axy Volume liugur: üles x, alla y
-msg.phrase	  Cxx   Note cut after xx ticks	Cxx Märkus lõigatud pärast xx linnukest
-msg.phrase	  Dxx   Set volume (00..7F)	Dxx Helitugevuse määramine (00..7F)
-msg.phrase	  Fxx   Speed if xx < 20, otherwise BPM	Fxx Kiirus, kui xx < 20, muidu BPM
-msg.phrase	  Hxy   Arpeggio x, y semitones	Hxy Arpeggio x, y pooltoonid
-msg.phrase	  Pxx   Pitch slide up	Pxx Tõusu üles
-msg.phrase	  Qxx   Pitch slide down	Qxx Pöörake alla
-msg.phrase	  F2 song settings, F3 instrument list	F2 laulu seaded, F3 pillide loend
-msg.phrase	HELP %d/2	ABI %d/2
-msg.phrase	  Title	Pealkiri
-msg.phrase	  [%s_]	[%s_]
-msg.phrase	  BPM   : %d     (left/right -1/+1, -/+ -5/+5)	BPM : %d (vasak/parem -1/+1, -/+ -5/+5)
-msg.phrase	  Speed : %d ticks/row	Kiirus : %d puugid/rida
-msg.phrase	  Rows  : %d (fixed)	read: %d (fikseeritud)
-msg.phrase	  Order : %d entries	Järjestus : %d kanded
-msg.phrase	  Patterns in use : %d	Kasutusel olevad mustrid: %d
-msg.phrase	 #  NAME       WAVE       A   D   S   R  VOL	# NIMI LAINE A D S R VOL
-msg.phrase	 %c %d  %-9s %-9s %3d %3d %3d %3d %4d	%c %d %-9s %-9s %3d %3d %3d %3d %4d
-msg.phrase	Current instrument: %s %s	Praegune instrument: %s %s
-msg.phrase	  %s	%s
-msg.phrase	DIR  %s	REŽ %s
-msg.phrase	 %c %s%s	%c %s%s
+msg.phrase	OCT %d  EDIT %s	OCT %d  EDIT %s
+msg.phrase	FOLLOW %s	FOLLOW %s
+msg.phrase	PLAYING  ORD %d/%d  PAT %s  ROW %s/%d  SPD %s  BPM %d  F7 STOP	PLAYING  ORD %d/%d  PAT %s  ROW %s/%d  SPD %s  BPM %d  F7 STOP
+msg.phrase	READY  EDIT %s  OCT %d  F1 HELP  F5 PLAY  CTRL-S SAVE	READY  EDIT %s  OCT %d  F1 HELP  F5 PLAY  CTRL-S SAVE
+msg.phrase	 %s 	 %s 
+msg.phrase	  F5          Play the song from the current order	  F5          Mängi lugu praegusest positsioonist
+msg.phrase	  F6          Play the current pattern	  F6          Mängi praegust patternit
+msg.phrase	  F7/Ctrl-C   Stop playback	  F7/Ctrl-C   Peata mängimine
+msg.phrase	  Space       Play / stop	  Space       Mängi / peata
+msg.phrase	  F4          Save as	  F4          Salvesta nimega
+msg.phrase	  Ctrl-S      Save (asks for a name if new)	  Ctrl-S      Salvesta (uue puhul küsib nime)
+msg.phrase	  Ctrl-O      Open a song	  Ctrl-O      Ava lugu
+msg.phrase	  Ctrl-N      New song	  Ctrl-N      Uus lugu
+msg.phrase	  F12         Quit (confirmation if modified)	  F12         Välju (küsib, kui on muudatusi)
+msg.phrase	  [ ]         Previous / next order entry	  [ ]         Eelmine / järgmine positsioon
+msg.phrase	  { }         Insert / delete an order entry	  { }         Lisa / kustuta positsioon
+msg.phrase	  - +         Change the pattern in the entry	  - +         Muuda positsiooni patternit
+msg.phrase	  F11         Follow playback (turns off on manual move)	  F11         Jälgi mängimist (lülitub käsitsi liigutades välja)
+msg.phrase	  F1          Help; Left/Right changes page	  F1          Abi; Vasak/Parem vahetab lehte
+msg.phrase	  F8          Toggle edit mode	  F8          Redigeerimine sisse / välja
+msg.phrase	  Arrows      Move the cursor	  Nooled      Liiguta kursorit
+msg.phrase	  PgUp/PgDn   Jump 16 rows	  PgUp/PgDn   Hüppa 16 rida
+msg.phrase	  Home/End    First / last row	  Home/End    Esimene / viimane rida
+msg.phrase	  F9/F10      Octave down / up	  F9/F10      Oktav alla / üles
+msg.phrase	  Z S X D C V G B H N J M      lower piano row	  Z S X D C V G B H N J M      klaveri alumine rida
+msg.phrase	  Q 2 W 3 E R 5 T 6 Y 7 U      upper piano row	  Q 2 W 3 E R 5 T 6 Y 7 U      klaveri ülemine rida
+msg.phrase	  1           Note off	  1           Note off
+msg.phrase	  0 / Del     0 clears note/inst/fx; Del clears any	  0 / Del     0 kustutab noodi/pilli/efekti; Del välja
+msg.phrase	  Ctrl-Z      Undo the last pattern/order edit	  Ctrl-Z      Võta tagasi viimane patterni/järjestuse muudatus
+msg.phrase	  Axy   Volume slide: up x, down y	  Axy   Helitugevuse libistus: üles x, alla y
+msg.phrase	  Cxx   Note cut after xx ticks	  Cxx   Katkesta noot xx tick'i järel
+msg.phrase	  Dxx   Set volume (00..7F)	  Dxx   Määra helitugevus (00..7F)
+msg.phrase	  Fxx   Speed if xx < 20, otherwise BPM	  Fxx   Kiirus, kui xx < 20, muidu BPM
+msg.phrase	  Hxy   Arpeggio x, y semitones	  Hxy   Arpedžo x, y pooltooni
+msg.phrase	  Pxx   Pitch slide up	  Pxx   Helikõrguse libistus üles
+msg.phrase	  Qxx   Pitch slide down	  Qxx   Helikõrguse libistus alla
+msg.phrase	  F2 song settings, F3 instrument list	  F2 loo sätted, F3 pillide loend
+msg.phrase	HELP %d/2	HELP %d/2
+msg.phrase	  Title	  Pealkiri
+msg.phrase	  [%s_]	  [%s_]
+msg.phrase	  BPM   : %d     (left/right -1/+1, -/+ -5/+5)	  BPM   : %d     (vasak/parem -1/+1, -/+ -5/+5)
+msg.phrase	  Speed : %d ticks/row	  Kiirus : %d tick'i rea kohta
+msg.phrase	  Rows  : %d (fixed)	  Read  : %d (fikseeritud)
+msg.phrase	  Order : %d entries	  Järjestus : %d positsiooni
+msg.phrase	  Patterns in use : %d	  Kasutusel patterneid : %d
+msg.phrase	 #  NAME       WAVE       A   D   S   R  VOL	 #  NAME       WAVE       A   D   S   R  VOL
+msg.phrase	 %c %d  %-9s %-9s %3d %3d %3d %3d %4d	 %c %d  %-9s %-9s %3d %3d %3d %3d %4d
+msg.phrase	Current instrument: %s %s	Praegune pill: %s %s
+msg.phrase	  %s	  %s
+msg.phrase	DIR  %s	DIR  %s
+msg.phrase	 %c %s%s	 %c %s%s
 msg.phrase	Files: %d	Failid: %d
 msg.phrase	%02d	%02d
 msg.phrase	%03d	%03d
 msg.phrase	%02X	%02X
-msg.phrase	SGNO TRACKER: incompatible SGX ABI\n	SGNO TRACKER: ühildumatu SGX ABI
+msg.phrase	SGNO TRACKER: incompatible SGX ABI\n	SGNO TRACKER: ühildumatu SGX ABI\n
 msg.phrase	S: check: wait -- a file is being read or written	S: check: oota -- faili loetakse või kirjutatakse
 msg.phrase	S: check: the drive is busy or not ready	S: kontrollige: draiv on hõivatud või pole valmis
 msg.phrase	nothing for this item (ContextMenu.cfg)	selle üksuse jaoks pole midagi (ContextMenu.cfg)
@@ -1120,43 +1116,72 @@ msg.prefix	compress	suruma kokku
 msg.prefix	render	renderdama
 msg.phrase	5 Macro	5 Makro
 msg.phrase	6 Help	6 Abi
-msg.phrase	Run current	Käivitage vool
-msg.phrase	Run the macro at the cursor (#! header cell and the cells below it)	Käivitage makro kursoril (#! päiselahter ja selle all olevad lahtrid)
+msg.phrase	Run current	Käivita praegune
+msg.phrase	Run the macro at the cursor (#! header cell and the cells below it)	Käivita kursori kohal olev makro (#! päiselahter ja selle all olevad lahtrid)
 msg.phrase	Run selection	Käivita valik
-msg.phrase	Run the selected cells as one macro (top-left cell is the #! header)	Käivitage valitud lahtrid ühe makrona (ülemine vasak lahter on #! päis)
+msg.phrase	Run the selected cells as one macro (top-left cell is the #! header)	Käivita valitud lahtrid ühe makrona (vasak ülemine lahter on #! päis)
 msg.phrase	Run all	Käivita kõik
-msg.phrase	Run every macro in the sheet, top-left to bottom-right	Käitage lehe kõiki makrosid ülevalt vasakult alla paremale
+msg.phrase	Run every macro in the sheet, top-left to bottom-right	Käivita kõik lehe makrod vasakult ülevalt paremale alla
 msg.phrase	Last error	Viimane viga
-msg.phrase	Show the last macro error	Kuva viimane makro viga
+msg.phrase	Show the last macro error	Näita viimast makroviga
 msg.phrase	Macro	Makro
-msg.phrase	Macro: run #!ruby / #!python / #!basic cells	Makro: käivitage #!ruby / #!python / #!baaslahtrid
-msg.phrase	Edit the cell (F2)	Muuda lahtrit (F2)
-msg.phrase	Fit widths/heights to the contents	Sobitage laiused/kõrgused sisuga
-msg.phrase	Last macro error	Viimane makro viga
-msg.phrase	No macro error.	Makro viga pole.
-msg.phrase	IME on	IME sisse
+msg.phrase	Macro: run #!ruby / #!python / #!basic cells	Makro: käivita #!ruby / #!python / #!basic lahtrid
+msg.phrase	Edit the cell (F2)	Redigeeri lahtrit (F2)
+msg.phrase	Fit widths/heights to the contents	Sobita laiused/kõrgused sisuga
+msg.phrase	Last macro error	Viimane makroviga
+msg.phrase	No macro error.	Makrovigu pole.
+msg.phrase	IME on	IME sees
 msg.phrase	IME off	IME väljas
 msg.phrase	Macro: %s %s ...	Makro: %s %s ...
-msg.phrase	%s: this firmware cannot run macros (SGX ABI 5.10 or later)	%s: see püsivara ei saa käivitada makrosid (SGX ABI 5.10 või uuem)
-msg.phrase	Macro error: %s	Makro viga: %s
-msg.phrase	Macro: %s done	Makro: %s tehtud
+msg.phrase	%s: this firmware cannot run macros (SGX ABI 5.10 or later)	%s: see püsivara ei saa makrosid käivitada (vaja SGX ABI 5.10 või uuemat)
+msg.phrase	Macro error: %s	Makroviga: %s
+msg.phrase	Macro: %s done	Makro: %s valmis
 msg.phrase	a macro is already running	makro juba töötab
 msg.phrase	this language is not available	see keel pole saadaval
-msg.phrase	not enough memory	pole piisavalt mälu
+msg.phrase	not enough memory	mälu ei jätku
 msg.phrase	the macro stopped with an error	makro peatus veaga
-msg.phrase	Macro error %s: %s	Makro viga %s: %s
-msg.phrase	Macro: not enough memory	Makro: pole piisavalt mälu
-msg.phrase	Macro: the cursor is not on a macro (a #!ruby / #!python / #!basic cell or the cells below it)	Makro: kursor ei asu makrol (#!ruby / #!python / #!põhilahter või selle all olevad lahtrid)
-msg.phrase	Macro: no macro in the sheet	Makro: lehel makrot pole
-msg.phrase	Run all macros	Käivitage kõik makrod
-msg.phrase	Macros: %d. Run them all, top-left to bottom-right? Changes cannot be undone.	Makrod: %d. Kas käivitada need kõik, ülevalt vasakult alla-paremale? Muudatusi ei saa tagasi võtta.
-msg.phrase	Macro: %d of %d done	Makro: %d/%d tehtud
-msg.phrase	Cleared the cell	Tühjendas raku
-msg.phrase	Cleared the selection	Tühjendas valiku
+msg.phrase	Macro error %s: %s	Makroviga %s: %s
+msg.phrase	Macro: not enough memory	Makro: mälu ei jätku
+msg.phrase	Macro: the cursor is not on a macro (a #!ruby / #!python / #!basic cell or the cells below it)	Makro: kursor ei ole makrol (#!ruby / #!python / #!basic lahter või selle all olevad)
+msg.phrase	Macro: no macro in the sheet	Makro: lehel pole makrosid
+msg.phrase	Run all macros	Käivita kõik makrod
+msg.phrase	Macros: %d. Run them all, top-left to bottom-right? Changes cannot be undone.	Makrosid: %d. Kas käivitada kõik vasakult ülevalt paremale alla? Muudatusi ei saa tagasi võtta.
+msg.phrase	Macro: %d of %d done	Makro: %d / %d valmis
+msg.phrase	Cleared the cell	Lahter tühjendatud
+msg.phrase	Cleared the selection	Valik tühjendatud
 msg.phrase	Background colour = %d	Taustavärv = %d
 msg.phrase	Text colour = %d	Teksti värv = %d
-msg.phrase	Graph: line	Graafik: joon
-msg.phrase	Graph: bar	Graafik: riba
-msg.phrase	Graph: mixed	Graafik: segatud
-msg.phrase	Graph: pie	Graafik: pirukas
-msg.phrase	Exported %s	Eksporditud %s
+msg.phrase	Graph: line	Diagramm: joon
+msg.phrase	Graph: bar	Diagramm: tulp
+msg.phrase	Graph: mixed	Diagramm: segatud
+msg.phrase	Graph: pie	Diagramm: sektor
+msg.phrase	Exported %s	%s eksporditud
+ui	USB・時計・設定	USB, clock, settings
+ui	0.001 秒未満	alla 0.001 s
+ui	%s 秒	%s s
+ui	コンパイル %s  実行 %s	kompileerimine %s  käivitus %s
+ui	コンパイル %s	kompileerimine %s
+ui	実行 %s	käivitus %s
+msg.phrase	1 Help	1 Abi
+msg.phrase	3 Copy	3 Kopeer
+msg.phrase	4 Paste	4 Kleebi
+msg.phrase	5 Goto	5 Mine
+msg.phrase	6 Colour	6 Värv
+msg.phrase	7 Fit	7 Sobita
+msg.phrase	8 Backgr	8 Taust
+msg.phrase	9 Recalc	9 Arvuta
+msg.phrase	10 Graph	10 Graaf
+msg.phrase	11 Save	11 Salv
+msg.phrase	12 Menu	12 Menüü
+msg.phrase	1 About	1 Teave
+msg.phrase	2 Height	2 Kõrgus
+msg.phrase	3 Width	3 Laius
+msg.phrase	4 SelAll	4 Kõik
+msg.phrase	10 Range	10 Ala
+msg.phrase	11 Name	11 Nimel
+msg.phrase	1 New	1 Uus
+msg.phrase	2 Open	2 Ava
+msg.phrase	4 SaveAs	4 Nimega
+msg.phrase	12 Quit	12 Välju
+msg.phrase	3 Save	3 Salv
+msg.phrase	Version %s	Versioon %s

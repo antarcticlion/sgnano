@@ -21,14 +21,14 @@ ui	属性を変える	Đổi thuộc tính
 ui	エディタで開く	Mở trong trình soạn thảo
 ui	テキスト表示（Shift+V / Ctrl+Alt+F7 は 16 進）	Xem dạng văn bản (Shift+V / Ctrl+Alt+F7 hex)
 ui	ドライブの情報	Thông tin ổ đĩa
-ui	フォルダを作る / 新しいファイル	Thư mục mới / tệp mới
+ui	フォルダを作る（Shift+F5） / 新しいファイル（Ctrl+F1）	Thư mục mới (Shift+F5) / tệp mới (Ctrl+F1)
 ui	シェル sgsh / 媒体を取り出す	Shell sgsh / đẩy đĩa ra
 ui	読み直す	Tải lại
-ui	見えている画面を PNG で保存	Lưu màn hình thành PNG
+ui	見えている画面を PNG で保存（Alt+F5 も同じ）	Lưu màn hình thành PNG (= Alt+F5)
 ui	窓を閉じる・選択を解く（サブフォルダでは上位へ）	Đóng cửa sổ / bỏ chọn (trong thư mục con: lên trên)
-ui	ファイルの操作（FD と同じ。印・範囲・カーソルの順に選ぶ）	Thao tác tệp (như FD: dấu, rồi vùng, rồi con trỏ)
-ui	コピー: 行き先はドライブとフォルダの木から。ESC で止める	Sao chép: chọn đích từ cây ổ đĩa và thư mục. ESC để dừng
-ui	削除: y で確かめる。印・範囲をまとめて。フォルダは中身ごと	Xóa: xác nhận bằng y. Dấu và vùng cùng lúc. Thư mục kèm nội dung
+ui	ファイルの操作（FD と同じ。印・範囲・カーソルの順）	Thao tác tệp (như FD: dấu, rồi vùng, rồi con trỏ)
+ui	コピー: 行き先は木から選ぶ。ESC で止める	Sao chép: chọn đích từ cây ổ đĩa và thư mục. ESC để dừng
+ui	削除: y で確かめる。印・範囲をまとめて	Xóa: xác nhận bằng y. Dấu và vùng cùng lúc. Thư mục kèm nội dung
 ui	フォルダを削除（中身ごと）	Xóa thư mục (kèm nội dung)
 ui	名前を変える（今の名前を直して Enter）	Đổi tên (sửa tên, Enter)
 ui	属性: R 読み出し専用・H 隠し・S システム・A アーカイブ	Thuộc tính: R chỉ đọc, H ẩn, S hệ thống, A lưu trữ
@@ -50,22 +50,19 @@ ui	画面（Alt+F。FD の F キーとぶつからない）	Màn hình (Alt+F, k
 ui	FB（絵）/ テキスト面を出す・隠す	Hiện / ẩn FB (hình) / văn bản
 ui	FB の表示ページ（0〜3）	Trang hiển thị FB (0-3)
 ui	FB を 0 で消す / 明るさを 1/2 に（RGB555）	Xóa FB về 0 / giảm nửa độ sáng (RGB555)
-ui	USB のエンドポイントと LAN の状態	Điểm cuối USB và trạng thái LAN
+ui	USB のエンドポイントと LAN（U: 10 秒に 1 度）	Điểm cuối USB và trạng thái LAN
 ui	FB の表示ページを消す / 明るさを 1/2 に	Xóa trang hiển thị FB / giảm nửa độ sáng
 ui	テキストの属性の見本	Mẫu thuộc tính văn bản
 ui	モニタの EDID（起動時に読んだもの）	EDID màn hình (đọc khi khởi động)
 ui	フォント ROM のライセンスとクレジット	Giấy phép và ghi công ROM phông chữ
 ui	設定（表示の言語・IME・キーボードロケール）	Cài đặt (ngôn ngữ hiển thị, IME và bố cục bàn phím)
-ui	時計（NTP で合わせた日本時間。s ですぐ合わせる）	Đồng hồ (giờ Nhật theo NTP; s đồng bộ ngay)
+ui	時計（NTP で合わせた日本時間。s は 3 分に 1 度）	Đồng hồ (giờ Nhật theo NTP; s đồng bộ ngay)
 ui	表計算（SGCALC）を開く	Mở bảng tính (SGCALC)
 ui	S: ドライブのエラー検査（誤りがあれば直すか聞く）	Kiểm tra lỗi S: (hỏi trước khi sửa)
 ui	トラッカー（TRACKER）を開く	Mở TRACKER
-ui	再起動（確かめの窓が出る）	Khởi động lại (hỏi trước)
+ui	再起動（確かめの窓）。Ctrl+Alt+Del も同じ	Khởi động lại (hỏi trước) = Ctrl+Alt+Del
 ui	ADC のステレオ入力（GP40 / 41）を鳴らす	Phát đầu vào stereo ADC (GP40 / 41)
 ui	VGM/VGZ を 96kHz/24bit WAV に書き出す	Xuất VGM/VGZ ra WAV 96 kHz / 24 bit
-ui	このヘルプ	Trợ giúp này
-ui	ページを替える	Đổi trang
-ui	閉じる	Đóng
 ui	テキスト・16 進のビュアー（less 風）	Trình xem văn bản / hex (giống less)
 ui	1 行	Một dòng
 ui	1 ページ	Một trang
@@ -83,10 +80,9 @@ ui	IME の言語（日本語 / English / 한국어）	Ngôn ngữ IME (Nhật / 
 ui	ひらがな / カタカナで確定	Xác nhận thành hiragana / katakana
 ui	エディタのヘルプ	Trợ giúp của trình soạn thảo
 ui	シェル	Shell
-ui	シェル（csh のサブセット。exit / Ctrl-D で戻る、help で一覧）	Shell (tập con của csh. exit / Ctrl-D để quay lại, help liệt kê lệnh)
+ui	シェル（csh の一部。exit / Ctrl-D で戻る、help で一覧）	Shell (tập con của csh. exit / Ctrl-D để quay lại, help liệt kê lệnh)
 ui	一覧と移動	Danh sách và di chuyển
 ui	ファイルの操作	Thao tác tệp
-ui	画面と機器	Màn hình và thiết bị
 ui	ビュアーとエディタ	Trình xem và trình soạn thảo
 ui	ヘルプ  %u / %u  %s	Trợ giúp  %u / %u  %s
 ui	Left Right: ページを替える    F1 / ESC: 閉じる	Trái Phải: đổi trang    F1 / ESC: đóng
@@ -147,9 +143,9 @@ ui	10 EP表	10 EP
 ui	11 時計	11 Giờ
 ui	12 表計	12 CALC
 ui	1 属性	1 T.tính
-ui	2 情報	2 T.tin
+ui	2Drv情報	2 T.tin
 ui	3 移動	3 Dời
-ui	5 作成	5 T.mục
+ui	5 ﾌｫﾙﾀﾞ	5 T.mục
 ui	6 シェル	6 Shell
 ui	8 編集	8 Sửa
 ui	9 表示	9 Xem
@@ -488,10 +484,10 @@ msg.phrase	no such channel	không có kênh này
 msg.phrase	the sequencer is busy	bộ tuần tự đang bận
 msg.phrase	not enough PSRAM for the song	không đủ PSRAM cho bài hát
 msg.phrase	not a standard MIDI file (no MThd)	không phải tệp MIDI chuẩn (không có MThd)
-msg.phrase	no tracks	không có rãnh nào
-msg.phrase	a track is broken (MTrk)	một rãnh bị hỏng (MTrk)
-msg.phrase	SMPTE time division is not supported	không hỗ trợ chia thời gian SMPTE
-msg.phrase	SMF format 2 is not supported (0 and 1 only)	không hỗ trợ SMF định dạng 2 (chỉ 0 và 1)
+msg.phrase	no tracks	không có track
+msg.phrase	a track is broken (MTrk)	một track bị hỏng (MTrk)
+msg.phrase	SMPTE time division is not supported	Không hỗ trợ chia thời gian SMPTE
+msg.phrase	SMF format 2 is not supported (0 and 1 only)	Không hỗ trợ SMF dạng 2 (chỉ 0 và 1)
 msg.phrase	not a Bulk-Only drive	không phải ổ Bulk-Only
 msg.phrase	not an optical drive	không phải ổ quang
 msg.phrase	a system folder cannot be deleted or renamed	không thể xóa hoặc đổi tên thư mục hệ thống
@@ -510,7 +506,7 @@ msg.phrase	cancelled	đã hủy
 msg.phrase	could not mount	không gắn được
 msg.phrase	could not start a read	không thể bắt đầu đọc
 msg.phrase	could not start a write	không thể bắt đầu ghi
-msg.phrase	is a directory	là một thư mục
+msg.phrase	is a directory	là thư mục
 msg.phrase	that is a directory	đó là một thư mục
 msg.phrase	no clusters	không còn cụm
 msg.phrase	no room for the cluster list	không đủ chỗ cho danh sách cụm
@@ -636,7 +632,7 @@ msg.phrase	Type to enter, F2 to edit, F1 for help	Gõ để nhập, F2 để s�
 msg.phrase	Ready	Sẵn sàng
 msg.phrase	Press any key	Nhấn phím bất kỳ
 msg.phrase	Y = yes    N = no    Esc = cancel	Y = có    N = không    Esc = hủy
-msg.phrase	Enter = OK    Esc = cancel    Ctrl-U = clear	Enter = OK    Esc = hủy    Ctrl-U = xóa
+msg.phrase	Enter = OK    Esc = cancel    Ctrl-U = clear	Enter = đồng ý    Esc = hủy    Ctrl-U = xóa
 msg.phrase	First row/column = labels; charts use the 640x480 CLUT8 FB.	Hàng/cột đầu = nhãn; biểu đồ dùng FB CLUT8 640x480.
 msg.phrase	SGCALC - HELP	SGCALC - TRỢ GIÚP
 msg.phrase	Press any key to return	Nhấn phím bất kỳ để quay lại
@@ -655,58 +651,58 @@ msg.phrase	Write a CSV copy	Ghi một bản CSV
 msg.phrase	Export ODS...	Xuất ODS...
 msg.phrase	Write a LibreOffice copy	Ghi một bản LibreOffice
 msg.phrase	Quit	Thoát
-msg.phrase	Leave SGCALC	Rời SGCALC
+msg.phrase	Leave SGCALC	Thoát khỏi SGCALC
 msg.phrase	Clear	Xóa
 msg.phrase	Clear the selected cells	Xóa các ô đã chọn
-msg.phrase	Copy	Sao chép
-msg.phrase	Copy the selection	Sao chép vùng chọn
+msg.phrase	Copy	Chép
+msg.phrase	Copy the selection	Chép vùng chọn
 msg.phrase	Paste	Dán
 msg.phrase	Paste at the cursor	Dán tại con trỏ
 msg.phrase	Cut	Cắt
-msg.phrase	Copy and clear the selection	Sao chép và xóa vùng chọn
+msg.phrase	Copy and clear the selection	Chép rồi xóa vùng chọn
 msg.phrase	Select all	Chọn tất cả
-msg.phrase	Select all used cells	Chọn mọi ô đã dùng
+msg.phrase	Select all used cells	Chọn mọi ô có dữ liệu
 msg.phrase	Text color...	Màu chữ...
 msg.phrase	Choose the text colour	Chọn màu chữ
 msg.phrase	Background...	Nền...
-msg.phrase	Choose the cell background	Chọn màu nền ô
+msg.phrase	Choose the cell background	Chọn màu nền của ô
 msg.phrase	Line	Đường
 msg.phrase	Draw a line graph from the selection	Vẽ biểu đồ đường từ vùng chọn
 msg.phrase	Bar	Cột
 msg.phrase	Draw a bar graph from the selection	Vẽ biểu đồ cột từ vùng chọn
 msg.phrase	Mixed	Kết hợp
-msg.phrase	Bars for the first series, lines for the rest	Cột cho dãy đầu, đường cho phần còn lại
+msg.phrase	Bars for the first series, lines for the rest	Dãy đầu là cột, các dãy còn lại là đường
 msg.phrase	Pie	Tròn
 msg.phrase	Draw a pie graph from the selection	Vẽ biểu đồ tròn từ vùng chọn
 msg.phrase	Range...	Vùng...
-msg.phrase	Set the graph range explicitly	Đặt vùng biểu đồ rõ ràng
+msg.phrase	Set the graph range explicitly	Nhập vùng biểu đồ bằng tay
 msg.phrase	Draw again	Vẽ lại
-msg.phrase	Redraw the last graph	Vẽ lại biểu đồ trước
-msg.phrase	Goto...	Đi đến...
+msg.phrase	Redraw the last graph	Vẽ lại biểu đồ gần nhất
+msg.phrase	Goto...	Đến ô...
 msg.phrase	Jump to a cell (for example C12)	Nhảy đến một ô (ví dụ C12)
 msg.phrase	Column width...	Độ rộng cột...
 msg.phrase	Change the selected columns' width	Đổi độ rộng các cột đã chọn
 msg.phrase	Row height...	Chiều cao hàng...
 msg.phrase	Change the selected rows' height	Đổi chiều cao các hàng đã chọn
-msg.phrase	Auto fit	Tự khớp
-msg.phrase	Fit widths/heights to the contents (F7)	Khớp độ rộng/chiều cao theo nội dung (F7)
+msg.phrase	Auto fit	Vừa nội dung
+msg.phrase	Fit widths/heights to the contents (F7)	Chỉnh độ rộng/chiều cao theo nội dung (F7)
 msg.phrase	Recalculate	Tính lại
 msg.phrase	Re-evaluate all formulas	Tính lại mọi công thức
 msg.phrase	Erase all	Xóa hết
 msg.phrase	Clear the whole sheet	Xóa toàn bộ trang tính
 msg.phrase	Keys	Phím
-msg.phrase	Show the key guide	Hiện hướng dẫn phím
+msg.phrase	Show the key guide	Xem hướng dẫn phím
 msg.phrase	About	Giới thiệu
 msg.phrase	About SGCALC	Giới thiệu SGCALC
 msg.phrase	File	Tệp
 msg.phrase	Edit	Sửa
 msg.phrase	Graph	Biểu đồ
-msg.phrase	Sheet	Trang tính
+msg.phrase	Sheet	Trang
 msg.phrase	Help	Trợ giúp
 msg.phrase	File: new, open, save, export, quit	Tệp: mới, mở, lưu, xuất, thoát
-msg.phrase	Edit: clear, copy, paste, cut, select all	Sửa: xóa, sao chép, dán, cắt, chọn tất cả
+msg.phrase	Edit: clear, copy, paste, cut, select all	Sửa: xóa, chép, dán, cắt, chọn tất cả
 msg.phrase	Graph: line, bar, mixed, pie (draws in the FB)	Biểu đồ: đường, cột, kết hợp, tròn (vẽ trên FB)
-msg.phrase	Sheet: goto, column width, recalculate, erase	Trang tính: đi đến, độ rộng cột, tính lại, xóa
+msg.phrase	Sheet: goto, column width, recalculate, erase	Trang: đến ô, độ rộng cột, tính lại, xóa hết
 msg.phrase	Help: keys and about	Trợ giúp: phím và giới thiệu
 msg.phrase	Left/Right = menu    Up/Down = item    Enter = choose    Esc = cancel	Trái/Phải = menu    Lên/Xuống = mục    Enter = chọn    Esc = hủy
 msg.phrase	Cancelled	Đã hủy
@@ -715,18 +711,18 @@ msg.phrase	the cell	ô này
 msg.phrase	the selection	vùng chọn
 msg.phrase	Nothing to paste	Không có gì để dán
 msg.phrase	Pasted	Đã dán
-msg.phrase	GO TO CELL	ĐI ĐẾN Ô
+msg.phrase	GO TO CELL	ĐẾN Ô
 msg.phrase	Cell reference (A1):	Tham chiếu ô (A1):
-msg.phrase	Goto	Đi đến
+msg.phrase	Goto	Đến ô
 msg.phrase	COLUMN WIDTH	ĐỘ RỘNG CỘT
-msg.phrase	Width in characters (4..30):	Độ rộng theo ký tự (4..30):
+msg.phrase	Width in characters (4..30):	Độ rộng tính bằng ký tự (4..30):
 msg.phrase	ROW HEIGHT	CHIỀU CAO HÀNG
-msg.phrase	Height in text rows (1..8):	Chiều cao theo dòng chữ (1..8):
-msg.phrase	Auto fit: the sheet is empty	Tự khớp: trang tính trống
+msg.phrase	Height in text rows (1..8):	Chiều cao tính bằng dòng chữ (1..8):
+msg.phrase	Auto fit: the sheet is empty	Vừa nội dung: trang tính trống
 msg.phrase	BACKGROUND COLOUR	MÀU NỀN
 msg.phrase	TEXT COLOUR	MÀU CHỮ
 msg.phrase	Arrows: choose    Enter: apply    Esc: cancel	Mũi tên: chọn    Enter: áp dụng    Esc: hủy
-msg.phrase	Colour index (PC-98 16-colour palette)	Chỉ số màu (bảng 16 màu PC-98)
+msg.phrase	Colour index (PC-98 16-colour palette)	Số màu (bảng 16 màu PC-98)
 msg.phrase	Enter = apply    Esc = cancel	Enter = áp dụng    Esc = hủy
 msg.phrase	Colour	Màu
 msg.phrase	Background	Nền
@@ -734,7 +730,7 @@ msg.phrase	Text	Chữ
 msg.phrase	GRAPH RANGE	VÙNG BIỂU ĐỒ
 msg.phrase	Range (for example A1:C10):	Vùng (ví dụ A1:C10):
 msg.phrase	Graph range	Vùng biểu đồ
-msg.phrase	Use a range such as A1:C10.	Hãy dùng vùng như A1:C10.
+msg.phrase	Use a range such as A1:C10.	Hãy nhập vùng như A1:C10.
 msg.phrase	Cannot draw the graph.	Không vẽ được biểu đồ.
 msg.phrase	line	đường
 msg.phrase	bar	cột
@@ -742,12 +738,12 @@ msg.phrase	mixed	kết hợp
 msg.phrase	pie	tròn
 msg.phrase	Clear every cell in this sheet?	Xóa mọi ô trong trang tính này?
 msg.phrase	Sheet erased	Đã xóa trang tính
-msg.phrase	Selected all used cells	Đã chọn mọi ô đã dùng
+msg.phrase	Selected all used cells	Đã chọn mọi ô có dữ liệu
 msg.phrase	Recalculated	Đã tính lại
 msg.phrase	Memory	Bộ nhớ
 msg.phrase	Not enough PSRAM for the spreadsheet.	Không đủ PSRAM cho bảng tính.
 msg.phrase	The sheet is empty.	Trang tính trống.
-msg.phrase	No numeric data in the selected range.	Không có dữ liệu số trong vùng đã chọn.
+msg.phrase	No numeric data in the selected range.	Vùng đã chọn không có số.
 msg.phrase	Other	Khác
 msg.phrase	No positive values for a pie chart	Không có giá trị dương cho biểu đồ tròn
 msg.phrase	LINE	ĐƯỜNG
@@ -761,14 +757,14 @@ msg.phrase	Name:	Tên:
 msg.phrase	(type a name, or choose below)	(gõ tên, hoặc chọn bên dưới)
 msg.phrase	Name	Tên
 msg.phrase	Size	Cỡ
-msg.phrase	Enter=save  Left=up  Right/Enter on [DIR]=open  Tab=drive  Esc=cancel	Enter=lưu  Trái=lên  Phải/Enter trên [DIR]=mở  Tab=ổ  Esc=hủy
-msg.phrase	Enter=open  Left=up  Right/Enter on [DIR]=open  Tab=drive  Esc=cancel	Enter=mở  Trái=lên  Phải/Enter trên [DIR]=mở  Tab=ổ  Esc=hủy
+msg.phrase	Enter=save  Left=up  Right/Enter on [DIR]=open  Tab=drive  Esc=cancel	Enter=lưu  Trái=lên  Phải/Enter trên [DIR]=mở  Tab=ổ đĩa  Esc=hủy
+msg.phrase	Enter=open  Left=up  Right/Enter on [DIR]=open  Tab=drive  Esc=cancel	Enter=mở  Trái=lên  Phải/Enter trên [DIR]=mở  Tab=ổ đĩa  Esc=hủy
 msg.phrase	Not enough memory.	Không đủ bộ nhớ.
 msg.phrase	Overwrite	Ghi đè
 msg.phrase	Open	Mở
 msg.phrase	The file is too large (limit 8 MB).	Tệp quá lớn (giới hạn 8 MB).
 msg.phrase	Not enough memory to read the file.	Không đủ bộ nhớ để đọc tệp.
-msg.phrase	Bad ZIP/ODS data.	Dữ liệu ZIP/ODS hỏng.
+msg.phrase	Bad ZIP/ODS data.	Dữ liệu ZIP/ODS bị hỏng.
 msg.phrase	CRC error in the ODS file.	Lỗi CRC trong tệp ODS.
 msg.phrase	Unsupported or damaged file.	Tệp không được hỗ trợ hoặc bị hỏng.
 msg.phrase	Saved	Đã lưu
@@ -776,8 +772,8 @@ msg.phrase	Exported	Đã xuất
 msg.phrase	Unsaved changes	Thay đổi chưa lưu
 msg.phrase	Save the current sheet before continuing?	Lưu trang tính hiện tại trước khi tiếp tục?
 msg.phrase	New sheet	Trang tính mới
-msg.phrase	song is too large	bài hát quá lớn
-msg.phrase	empty file	tệp rỗng
+msg.phrase	song is too large	bài quá lớn
+msg.phrase	empty file	tệp trống
 msg.phrase	not an SGT file	không phải tệp SGT
 msg.phrase	bad BPM	BPM sai
 msg.phrase	bad speed	tốc độ sai
@@ -786,114 +782,114 @@ msg.phrase	truncated title	tiêu đề bị cắt
 msg.phrase	bad character in title	ký tự sai trong tiêu đề
 msg.phrase	truncated order	thứ tự bị cắt
 msg.phrase	bad order length	độ dài thứ tự sai
-msg.phrase	bad pattern number in order	số mẫu sai trong thứ tự
-msg.phrase	truncated pattern list	danh sách mẫu bị cắt
-msg.phrase	bad pattern count	số lượng mẫu sai
-msg.phrase	bad pattern index	chỉ số mẫu sai
-msg.phrase	duplicate pattern	mẫu bị trùng
-msg.phrase	truncated pattern data	dữ liệu mẫu bị cắt
-msg.phrase	invalid pattern data	dữ liệu mẫu không hợp lệ
+msg.phrase	bad pattern number in order	số pattern sai trong thứ tự
+msg.phrase	truncated pattern list	danh sách pattern bị cắt
+msg.phrase	bad pattern count	số lượng pattern sai
+msg.phrase	bad pattern index	chỉ số pattern sai
+msg.phrase	duplicate pattern	pattern bị trùng
+msg.phrase	truncated pattern data	dữ liệu pattern bị cắt
+msg.phrase	invalid pattern data	dữ liệu pattern không hợp lệ
 msg.phrase	trailing data in file	dữ liệu thừa ở cuối tệp
-msg.phrase	order refers to a missing pattern	thứ tự trỏ tới mẫu không có
+msg.phrase	order refers to a missing pattern	thứ tự trỏ tới pattern không có
 msg.phrase	(untitled)	(chưa đặt tên)
 msg.phrase	Ready. Press F1 for help.	Sẵn sàng. Nhấn F1 để xem trợ giúp.
 msg.phrase	Follow OFF	Theo dõi TẮT
 msg.phrase	Nothing to undo	Không có gì để hoàn tác
-msg.phrase	Undo	Hoàn tác
-msg.phrase	Note OFF	Tắt nốt
-msg.phrase	Set an effect letter first	Hãy đặt chữ hiệu ứng trước
+msg.phrase	Undo	Đã hoàn tác
+msg.phrase	Note OFF	Note off
+msg.phrase	Set an effect letter first	Hãy nhập chữ hiệu ứng trước
 msg.phrase	Effect cleared	Đã xóa hiệu ứng
 msg.phrase	Parameter cleared	Đã xóa tham số
 msg.phrase	Note cleared	Đã xóa nốt
 msg.phrase	Instrument cleared	Đã xóa nhạc cụ
 msg.phrase	Volume cleared	Đã xóa âm lượng
 msg.phrase	Order list is full	Danh sách thứ tự đã đầy
-msg.phrase	Order inserted	Đã chèn thứ tự
-msg.phrase	Cannot delete the last order	Không thể xóa thứ tự cuối cùng
-msg.phrase	Order deleted	Đã xóa thứ tự
-msg.phrase	Playing song	Đang phát bài hát
+msg.phrase	Order inserted	Đã chèn một mục thứ tự
+msg.phrase	Cannot delete the last order	Không xóa được mục thứ tự cuối cùng
+msg.phrase	Order deleted	Đã xóa một mục thứ tự
+msg.phrase	Playing song	Đang phát bài
 msg.phrase	Stopped	Đã dừng
-msg.phrase	New song	Bài hát mới
+msg.phrase	New song	Bài mới
 msg.phrase	Discard unsaved changes and start a new song? (Y/N)	Bỏ thay đổi chưa lưu và bắt đầu bài mới? (Y/N)
-msg.phrase	Discard unsaved changes and open a song? (Y/N)	Bỏ thay đổi chưa lưu và mở bài hát? (Y/N)
+msg.phrase	Discard unsaved changes and open a song? (Y/N)	Bỏ thay đổi chưa lưu và mở bài khác? (Y/N)
 msg.phrase	Discard unsaved changes and quit? (Y/N)	Bỏ thay đổi chưa lưu và thoát? (Y/N)
-msg.phrase	Song settings updated	Đã cập nhật cài đặt bài hát
+msg.phrase	Song settings updated	Đã đổi cài đặt bài
 msg.phrase	Filename is empty	Tên tệp trống
 msg.phrase	Save cancelled	Đã hủy lưu
 msg.phrase	Open cancelled	Đã hủy mở
 msg.phrase	Edit ON	Sửa BẬT
 msg.phrase	Edit OFF	Sửa TẮT
 msg.phrase	Follow ON	Theo dõi BẬT
-msg.phrase	Edit is OFF. Press F8 to edit.	Đang tắt chế độ sửa. Nhấn F8 để sửa.
+msg.phrase	Edit is OFF. Press F8 to edit.	Chế độ sửa đang tắt. Nhấn F8 để sửa.
 msg.phrase	I/O error	Lỗi vào/ra
 msg.phrase	file is too large	tệp quá lớn
 msg.phrase	truncated file	tệp bị cắt
 msg.phrase	#TRANSPORT AND FILES	#PHÁT VÀ TỆP
 msg.phrase	#ORDER LIST	#DANH SÁCH THỨ TỰ
 msg.phrase	#DISPLAY	#HIỂN THỊ
-msg.phrase	#EDITING	#CHỈNH SỬA
-msg.phrase	#EFFECTS (parameter is hexadecimal)	#HIỆU ỨNG (tham số là hệ 16)
-msg.phrase	LEFT/RIGHT PAGE   ENTER OR F1 CLOSE	TRÁI/PHẢI TRANG   ENTER HOẶC F1 ĐÓNG
-msg.phrase	SONG SETTINGS	CÀI ĐẶT BÀI HÁT
-msg.phrase	UP/DOWN SELECT   LEFT/RIGHT ADJUST   ENTER/F2 CLOSE	LÊN/XUỐNG CHỌN   TRÁI/PHẢI CHỈNH   ENTER/F2 ĐÓNG
+msg.phrase	#EDITING	#SỬA
+msg.phrase	#EFFECTS (parameter is hexadecimal)	#HIỆU ỨNG (tham số là số thập lục phân)
+msg.phrase	LEFT/RIGHT PAGE   ENTER OR F1 CLOSE	LEFT/RIGHT PAGE   ENTER OR F1 CLOSE
+msg.phrase	SONG SETTINGS	CÀI ĐẶT BÀI
+msg.phrase	UP/DOWN SELECT   LEFT/RIGHT ADJUST   ENTER/F2 CLOSE	UP/DOWN SELECT   LEFT/RIGHT ADJUST   ENTER/F2 CLOSE
 msg.phrase	Type to edit the title. Backspace deletes the last character.	Gõ để sửa tiêu đề. Backspace xóa ký tự cuối.
-msg.phrase	BPM range 32..255. Speed range 1..31.	BPM 32..255. Tốc độ 1..31.
-msg.phrase	Pattern effects can also change speed and BPM while playing.	Hiệu ứng trong mẫu cũng có thể đổi tốc độ và BPM khi đang phát.
+msg.phrase	BPM range 32..255. Speed range 1..31.	BPM từ 32 đến 255. Tốc độ từ 1 đến 31.
+msg.phrase	Pattern effects can also change speed and BPM while playing.	Hiệu ứng trong pattern cũng đổi được tốc độ và BPM khi đang phát.
 msg.phrase	INSTRUMENTS	NHẠC CỤ
-msg.phrase	UP/DOWN SELECT   SPACE PREVIEW   ENTER USE   F3 CLOSE	LÊN/XUỐNG CHỌN   SPACE NGHE THỬ   ENTER DÙNG   F3 ĐÓNG
-msg.phrase	All four channels use wavetable synthesis.	Cả bốn kênh đều dùng tổng hợp bảng sóng.
-msg.phrase	Preview plays C-4 on the track under the edit cursor.	Nghe thử phát C-4 trên rãnh dưới con trỏ sửa.
-msg.phrase	SAVE SONG AS	LƯU BÀI HÁT THÀNH
-msg.phrase	ENTER SAVE   F4 OR CTRL-C CANCEL	ENTER LƯU   F4 HOẶC CTRL-C HỦY
+msg.phrase	UP/DOWN SELECT   SPACE PREVIEW   ENTER USE   F3 CLOSE	UP/DOWN SELECT   SPACE PREVIEW   ENTER USE   F3 CLOSE
+msg.phrase	All four channels use wavetable synthesis.	Cả bốn kênh đều dùng tổng hợp wavetable.
+msg.phrase	Preview plays C-4 on the track under the edit cursor.	Nghe thử phát C-4 trên track dưới con trỏ sửa.
+msg.phrase	SAVE SONG AS	LƯU BÀI THÀNH
+msg.phrase	ENTER SAVE   F4 OR CTRL-C CANCEL	ENTER SAVE   F4 OR CTRL-C CANCEL
 msg.phrase	Directory:	Thư mục:
 msg.phrase	File name:	Tên tệp:
-msg.phrase	The extension .SGT is added automatically.	Đuôi .SGT được thêm tự động.
+msg.phrase	The extension .SGT is added automatically.	Phần mở rộng .SGT được thêm tự động.
 msg.phrase	An existing file can be overwritten.	Có thể ghi đè tệp đã có.
-msg.phrase	OPEN SONG	MỞ BÀI HÁT
-msg.phrase	ENTER OPEN  BS PARENT  CTRL-O/CTRL-C CANCEL	ENTER MỞ  BS LÊN TRÊN  CTRL-O/CTRL-C HỦY
-msg.phrase	(no .SGT files in this folder)	(không có tệp .SGT trong thư mục này)
+msg.phrase	OPEN SONG	MỞ BÀI
+msg.phrase	ENTER OPEN  BS PARENT  CTRL-O/CTRL-C CANCEL	ENTER OPEN  BS PARENT  CTRL-O/CTRL-C CANCEL
+msg.phrase	(no .SGT files in this folder)	(thư mục này không có tệp .SGT)
 msg.phrase	CONFIRM	XÁC NHẬN
-msg.phrase	Y = YES   N / ENTER / CTRL-C = NO	Y = CÓ   N / ENTER / CTRL-C = KHÔNG
+msg.phrase	Y = YES   N / ENTER / CTRL-C = NO	Y = YES   N / ENTER / CTRL-C = NO
 msg.phrase	Y = yes        N = no	Y = có        N = không
-msg.phrase	broken MThd	MThd hỏng
+msg.phrase	broken MThd	MThd bị hỏng
 msg.phrase	MIDI IMPORT	NHẬP MIDI
-msg.phrase	broken delta time	thời gian delta hỏng
-msg.phrase	broken running status	running status hỏng
-msg.phrase	broken meta event	sự kiện meta hỏng
-msg.phrase	broken sysex event	sự kiện sysex hỏng
-msg.phrase	broken channel event	sự kiện kênh hỏng
-msg.phrase	SMF output is too small	đầu ra SMF quá nhỏ
-msg.phrase	SMF output is too large	đầu ra SMF quá lớn
-msg.phrase	the song is too long for SMF	bài hát quá dài cho SMF
-msg.phrase	ARROWS      move the cell cursor\n	MŨI TÊN     di chuyển con trỏ ô\n
-msg.phrase	SHIFT+ARR   extend the selection (for graphs/copy)\n	SHIFT+MŨI   mở rộng vùng chọn (cho biểu đồ/sao chép)\n
-msg.phrase	ENTER       edit the cell; in edit, commit and move down\n	ENTER       sửa ô; khi sửa, xác nhận và đi xuống\n
-msg.phrase	TAB         next cell    SHIFT+TAB  previous cell\n	TAB         ô sau    SHIFT+TAB  ô trước\n
-msg.phrase	DELETE      clear the selected cell(s)    ESC  cancel\n	DELETE      xóa (các) ô đã chọn    ESC  hủy\n
-msg.phrase	PGUP/PGDN   move one screen    HOME/END  first/last column\n	PGUP/PGDN   đi một màn hình    HOME/END  cột đầu/cuối\n
-msg.phrase	CTRL+HOME   A1    CTRL+END  last used cell\n	CTRL+HOME   A1    CTRL+END  ô cuối đã dùng\n
-msg.phrase	F1 help  F2 edit  F3 copy  F4 paste  F5 goto  F6 colour\n	F1 trợ giúp  F2 sửa  F3 chép  F4 dán  F5 đi đến  F6 màu\n
-msg.phrase	F7 auto-fit  F8 background  F9 recalc  F10 graph  F11 save  F12 menu\n	F7 tự khớp  F8 nền  F9 tính lại  F10 biểu đồ  F11 lưu  F12 menu\n
-msg.phrase	SHIFT+F1 about  SHIFT+F2 row height  SHIFT+F3 column width\n	SHIFT+F1 giới thiệu  SHIFT+F2 cao hàng  SHIFT+F3 rộng cột\n
+msg.phrase	broken delta time	delta time bị hỏng
+msg.phrase	broken running status	running status bị hỏng
+msg.phrase	broken meta event	meta event bị hỏng
+msg.phrase	broken sysex event	SysEx bị hỏng
+msg.phrase	broken channel event	channel event bị hỏng
+msg.phrase	SMF output is too small	Kết quả SMF quá nhỏ
+msg.phrase	SMF output is too large	Kết quả SMF quá lớn
+msg.phrase	the song is too long for SMF	bài quá dài cho SMF
+msg.phrase	ARROWS      move the cell cursor\n	MŨI TÊN    di chuyển con trỏ ô\n
+msg.phrase	SHIFT+ARR   extend the selection (for graphs/copy)\n	SHIFT+MŨI TÊN  mở rộng vùng chọn (cho biểu đồ/sao chép)\n
+msg.phrase	ENTER       edit the cell; in edit, commit and move down\n	ENTER       sửa ô; khi đang sửa, xác nhận và xuống dưới\n
+msg.phrase	TAB         next cell    SHIFT+TAB  previous cell\n	TAB         ô kế tiếp    SHIFT+TAB  ô trước\n
+msg.phrase	DELETE      clear the selected cell(s)    ESC  cancel\n	DELETE      xóa các ô đã chọn    ESC  hủy\n
+msg.phrase	PGUP/PGDN   move one screen    HOME/END  first/last column\n	PGUP/PGDN   một màn hình    HOME/END  cột đầu/cuối\n
+msg.phrase	CTRL+HOME   A1    CTRL+END  last used cell\n	CTRL+HOME   A1    CTRL+END  ô cuối cùng có dữ liệu\n
+msg.phrase	F1 help  F2 edit  F3 copy  F4 paste  F5 goto  F6 colour\n	F1 trợ giúp  F2 sửa  F3 chép  F4 dán  F5 đến ô  F6 màu\n
+msg.phrase	F7 auto-fit  F8 background  F9 recalc  F10 graph  F11 save  F12 menu\n	F7 vừa nội dung  F8 nền  F9 tính lại  F10 biểu đồ  F11 lưu  F12 menu\n
+msg.phrase	SHIFT+F1 about  SHIFT+F2 row height  SHIFT+F3 column width\n	SHIFT+F1 giới thiệu  SHIFT+F2 chiều cao hàng  SHIFT+F3 độ rộng cột\n
 msg.phrase	SHIFT+F4 select all  SHIFT+F10 graph range  SHIFT+F11 save as\n	SHIFT+F4 chọn tất cả  SHIFT+F10 vùng biểu đồ  SHIFT+F11 lưu thành\n
 msg.phrase	CTRL+F1 new  CTRL+F2 open  CTRL+F3 save  CTRL+F4 save as\n	CTRL+F1 mới  CTRL+F2 mở  CTRL+F3 lưu  CTRL+F4 lưu thành\n
 msg.phrase	CTRL+F5 export CSV  CTRL+F6 export ODS  ALT+F12 quit\n	CTRL+F5 xuất CSV  CTRL+F6 xuất ODS  ALT+F12 thoát\n
-msg.phrase	Bottom 2 lines: function keys; [SHIFT]/[CTRL]/[ALT] like the filer\n	2 dòng cuối: phím chức năng; [SHIFT]/[CTRL]/[ALT] như trình quản lý tệp\n
+msg.phrase	Bottom 2 lines: function keys; [SHIFT]/[CTRL]/[ALT] like the filer\n	2 dòng cuối: phím chức năng; [SHIFT]/[CTRL]/[ALT] như trong filer\n
 msg.phrase	CTRL+S save  CTRL+O open  CTRL+N new  CTRL+C/V/X copy/paste/cut\n	CTRL+S lưu  CTRL+O mở  CTRL+N mới  CTRL+C/V/X chép/dán/cắt\n
-msg.phrase	CTRL+G goto    /  open the menu (1 File, 2 Edit, ...)\n	CTRL+G đi đến    /  mở menu (1 Tệp, 2 Sửa, ...)\n
+msg.phrase	CTRL+G goto    /  open the menu (1 File, 2 Edit, ...)\n	CTRL+G đến ô    /  mở menu (1 Tệp, 2 Sửa, ...)\n
 msg.phrase	Built-in functions: SUM AVERAGE MIN MAX COUNT COUNTA\n	Hàm có sẵn: SUM AVERAGE MIN MAX COUNT COUNTA\n
 msg.phrase	Cell refs: A1, $A$1, A1:B10.  Formulas begin with '='.\n	Tham chiếu ô: A1, $A$1, A1:B10.  Công thức bắt đầu bằng '='.\n
 msg.phrase	Files: .ods (LibreOffice), .fods (flat XML), .csv\n	Tệp: .ods (LibreOffice), .fods (XML phẳng), .csv\n
 msg.phrase	ODS/FODS keeps formulas, widths, heights and colours.\n	ODS/FODS giữ công thức, độ rộng, chiều cao và màu.\n
-msg.phrase	CSV keeps values and formulas (no colours/heights).\n	CSV giữ giá trị và công thức (không màu/chiều cao).\n
+msg.phrase	CSV keeps values and formulas (no colours/heights).\n	CSV chỉ giữ giá trị và công thức (không có màu/chiều cao).\n
 msg.phrase	Graph: select a range, press F10, and choose Line/Bar/Mixed/Pie.\n	Biểu đồ: chọn vùng, nhấn F10, rồi chọn Đường/Cột/Kết hợp/Tròn.\n
-msg.phrase	SGCALC for sgnano\n	SGCALC cho sgnano\n
+msg.phrase	SGCALC for sgnano\n	SGCALC for sgnano\n
 msg.phrase	Version 	Phiên bản
-msg.phrase	A Lotus 1-2-3 style spreadsheet as an SGX program.\n\n	Bảng tính kiểu Lotus 1-2-3, chạy như chương trình SGX.\n\n
-msg.phrase	Screen mode 3: text + CLUT8 FB (lowres disabled)\n	Chế độ màn hình 3: văn bản + FB CLUT8 (tắt lowres)\n
+msg.phrase	A Lotus 1-2-3 style spreadsheet as an SGX program.\n\n	Bảng tính kiểu Lotus 1-2-3, chạy như một chương trình SGX.\n\n
+msg.phrase	Screen mode 3: text + CLUT8 FB (lowres disabled)\n	Chế độ màn hình 3: chữ + FB CLUT8 (không dùng lớp lowres)\n
 msg.phrase	Sheet: %d rows x %d columns\n	Trang tính: %d hàng x %d cột\n
 msg.phrase	Formats: .ods / .fods (LibreOffice), .csv\n\n	Định dạng: .ods / .fods (LibreOffice), .csv\n\n
-msg.phrase	The grid is drawn on the text plane.\n	Lưới được vẽ trên mặt phẳng văn bản.\n
+msg.phrase	The grid is drawn on the text plane.\n	Lưới được vẽ trên lớp chữ.\n
 msg.phrase	Charts and the 640x480 background use the FB.\n\n	Biểu đồ và nền 640x480 dùng FB.\n\n
 msg.phrase	Cannot store the cell (%d).	Không lưu được ô (%d).
 msg.phrase	Copied %d x %d cells	Đã chép %d x %d ô
@@ -901,34 +897,34 @@ msg.phrase	Cleared %s	Đã xóa %s
 msg.phrase	'%s' is not a cell reference.	'%s' không phải tham chiếu ô.
 msg.phrase	Column width = %d	Độ rộng cột = %d
 msg.phrase	Row height = %d	Chiều cao hàng = %d
-msg.phrase	Auto fit: %d column(s), %d row(s)	Tự khớp: %d cột, %d hàng
+msg.phrase	Auto fit: %d column(s), %d row(s)	Vừa nội dung: %d cột, %d hàng
 msg.phrase	Cannot apply the colour (%d).	Không áp dụng được màu (%d).
-msg.phrase	Not a valid range.\nUse a range such as A1:C10.	Vùng không hợp lệ.\nHãy dùng vùng như A1:C10.
+msg.phrase	Not a valid range.\nUse a range such as A1:C10.	Vùng không hợp lệ.\nHãy nhập vùng như A1:C10.
 msg.phrase	Graph range %s	Vùng biểu đồ %s
 msg.phrase	Graph: %s	Biểu đồ: %s
 msg.phrase	SGCALC: cannot set screen mode 3: %s\n	SGCALC: không đặt được chế độ màn hình 3: %s\n
 msg.phrase	Cannot read %s\n%s	Không đọc được %s\n%s
 msg.phrase	Folder: %s	Thư mục: %s
-msg.phrase	Unsupported extension.\nUse .csv, .ods or .fods.	Đuôi tệp không được hỗ trợ.\nHãy dùng .csv, .ods hoặc .fods.
-msg.phrase	%s already exists.\nOverwrite it?	%s đã tồn tại.\nGhi đè?
-msg.phrase	%s may not be writable.\nTry anyway?	%s có thể không ghi được.\nVẫn thử?
-msg.phrase	Unknown file type for %s	Không rõ loại tệp của %s
+msg.phrase	Unsupported extension.\nUse .csv, .ods or .fods.	Phần mở rộng không được hỗ trợ.\nHãy dùng .csv, .ods hoặc .fods.
+msg.phrase	%s already exists.\nOverwrite it?	%s đã có.\nGhi đè lên?
+msg.phrase	%s may not be writable.\nTry anyway?	Có thể không ghi được %s.\nVẫn thử?
+msg.phrase	Unknown file type for %s	Không rõ loại tệp: %s
 msg.phrase	Unsupported file type.\nUse .csv, .ods or .fods.	Loại tệp không được hỗ trợ.\nHãy dùng .csv, .ods hoặc .fods.
 msg.phrase	Cannot open %s\n%s	Không mở được %s\n%s
 msg.phrase	%s is a folder.	%s là một thư mục.
 msg.phrase	Cannot import %s\n%s	Không nhập được %s\n%s
 msg.phrase	Loaded %s	Đã tải %s
-msg.phrase	Cannot build the %s file.	Không dựng được tệp %s.
+msg.phrase	Cannot build the %s file.	Không tạo được tệp %s.
 msg.phrase	Cannot write %s\n%s	Không ghi được %s\n%s
-msg.phrase	unsupported version %u	phiên bản %u không được hỗ trợ
+msg.phrase	unsupported version %u	phiên bản không được hỗ trợ (%u)
 msg.phrase	Octave %d	Quãng tám %d
 msg.phrase	Note %s	Nốt %s
 msg.phrase	Instrument %d	Nhạc cụ %d
 msg.phrase	Volume %s	Âm lượng %s
 msg.phrase	Effect %c	Hiệu ứng %c
 msg.phrase	Parameter %s	Tham số %s
-msg.phrase	Pattern %s	Mẫu %s
-msg.phrase	Playing pattern %s	Đang phát mẫu %s
+msg.phrase	Pattern %s	Pattern %s
+msg.phrase	Playing pattern %s	Đang phát pattern %s
 msg.phrase	SAVE ERROR: %s	LỖI LƯU: %s
 msg.phrase	Saved %s	Đã lưu %s
 msg.phrase	LOAD ERROR: %s	LỖI TẢI: %s
@@ -937,45 +933,45 @@ msg.phrase	Speed %d	Tốc độ %d
 msg.phrase	Preview %s	Nghe thử %s
 msg.phrase	Instrument %s %s	Nhạc cụ %s %s
 msg.phrase	Overwrite %s? (Y/N)	Ghi đè %s? (Y/N)
-msg.phrase	  F5          Play the song from the current order	  F5          Phát bài từ thứ tự hiện tại
-msg.phrase	  F6          Play the current pattern	  F6          Phát mẫu hiện tại
+msg.phrase	  F5          Play the song from the current order	  F5          Phát bài từ mục thứ tự hiện tại
+msg.phrase	  F6          Play the current pattern	  F6          Phát pattern hiện tại
 msg.phrase	  F7/Ctrl-C   Stop playback	  F7/Ctrl-C   Dừng phát
 msg.phrase	  Space       Play / stop	  Space       Phát / dừng
 msg.phrase	  F4          Save as	  F4          Lưu thành
 msg.phrase	  Ctrl-S      Save (asks for a name if new)	  Ctrl-S      Lưu (hỏi tên nếu là bài mới)
-msg.phrase	  Ctrl-O      Open a song	  Ctrl-O      Mở bài hát
-msg.phrase	  Ctrl-N      New song	  Ctrl-N      Bài hát mới
-msg.phrase	  F12         Quit (confirmation if modified)	  F12         Thoát (hỏi nếu đã sửa)
+msg.phrase	  Ctrl-O      Open a song	  Ctrl-O      Mở bài
+msg.phrase	  Ctrl-N      New song	  Ctrl-N      Bài mới
+msg.phrase	  F12         Quit (confirmation if modified)	  F12         Thoát (hỏi lại nếu có thay đổi)
 msg.phrase	  [ ]         Previous / next order entry	  [ ]         Mục thứ tự trước / sau
 msg.phrase	  { }         Insert / delete an order entry	  { }         Chèn / xóa mục thứ tự
-msg.phrase	  - +         Change the pattern in the entry	  - +         Đổi mẫu trong mục
-msg.phrase	  F11         Follow playback (turns off on manual move)	  F11         Theo dõi khi phát (tắt khi di chuyển tay)
+msg.phrase	  - +         Change the pattern in the entry	  - +         Đổi pattern của mục
+msg.phrase	  F11         Follow playback (turns off on manual move)	  F11         Theo dõi khi phát (tắt khi di chuyển bằng tay)
 msg.phrase	  F1          Help; Left/Right changes page	  F1          Trợ giúp; Trái/Phải đổi trang
-msg.phrase	  F8          Toggle edit mode	  F8          Bật/tắt chế độ sửa
+msg.phrase	  F8          Toggle edit mode	  F8          Bật / tắt chế độ sửa
 msg.phrase	  Arrows      Move the cursor	  Mũi tên     Di chuyển con trỏ
 msg.phrase	  PgUp/PgDn   Jump 16 rows	  PgUp/PgDn   Nhảy 16 hàng
 msg.phrase	  Home/End    First / last row	  Home/End    Hàng đầu / cuối
-msg.phrase	  F9/F10      Octave down / up	  F9/F10      Quãng tám xuống / lên
+msg.phrase	  F9/F10      Octave down / up	  F9/F10      Hạ / nâng quãng tám
 msg.phrase	  Z S X D C V G B H N J M      lower piano row	  Z S X D C V G B H N J M      hàng phím đàn dưới
 msg.phrase	  Q 2 W 3 E R 5 T 6 Y 7 U      upper piano row	  Q 2 W 3 E R 5 T 6 Y 7 U      hàng phím đàn trên
-msg.phrase	  1           Note off	  1           Tắt nốt
-msg.phrase	  0 / Del     0 clears note/inst/fx; Del clears any	  0 / Del     0 xóa nốt/nhạc cụ/hiệu ứng; Del xóa bất kỳ
-msg.phrase	  Ctrl-Z      Undo the last pattern/order edit	  Ctrl-Z      Hoàn tác sửa mẫu/thứ tự cuối
+msg.phrase	  1           Note off	  1           Note off
+msg.phrase	  0 / Del     0 clears note/inst/fx; Del clears any	  0 / Del     0 xóa nốt/nhạc cụ/hiệu ứng; Del xóa ô bất kỳ
+msg.phrase	  Ctrl-Z      Undo the last pattern/order edit	  Ctrl-Z      Hoàn tác lần sửa pattern/thứ tự gần nhất
 msg.phrase	  Axy   Volume slide: up x, down y	  Axy   Trượt âm lượng: lên x, xuống y
 msg.phrase	  Cxx   Note cut after xx ticks	  Cxx   Cắt nốt sau xx tick
 msg.phrase	  Dxx   Set volume (00..7F)	  Dxx   Đặt âm lượng (00..7F)
-msg.phrase	  Fxx   Speed if xx < 20, otherwise BPM	  Fxx   Tốc độ nếu xx < 20, còn lại là BPM
+msg.phrase	  Fxx   Speed if xx < 20, otherwise BPM	  Fxx   Tốc độ nếu xx < 20, ngược lại là BPM
 msg.phrase	  Hxy   Arpeggio x, y semitones	  Hxy   Arpeggio x, y nửa cung
 msg.phrase	  Pxx   Pitch slide up	  Pxx   Trượt cao độ lên
 msg.phrase	  Qxx   Pitch slide down	  Qxx   Trượt cao độ xuống
-msg.phrase	  F2 song settings, F3 instrument list	  F2 cài đặt bài hát, F3 danh sách nhạc cụ
-msg.phrase	HELP %d/2	TRỢ GIÚP %d/2
+msg.phrase	  F2 song settings, F3 instrument list	  F2 cài đặt bài, F3 danh sách nhạc cụ
+msg.phrase	HELP %d/2	HELP %d/2
 msg.phrase	  Title	  Tiêu đề
 msg.phrase	  BPM   : %d     (left/right -1/+1, -/+ -5/+5)	  BPM   : %d     (trái/phải -1/+1, -/+ -5/+5)
-msg.phrase	  Speed : %d ticks/row	  Tốc độ: %d tick/hàng
-msg.phrase	  Rows  : %d (fixed)	  Hàng  : %d (cố định)
+msg.phrase	  Speed : %d ticks/row	  Tốc độ: %d tick mỗi hàng
+msg.phrase	  Rows  : %d (fixed)	  Số hàng: %d (cố định)
 msg.phrase	  Order : %d entries	  Thứ tự: %d mục
-msg.phrase	  Patterns in use : %d	  Mẫu đang dùng : %d
+msg.phrase	  Patterns in use : %d	  Pattern đang dùng : %d
 msg.phrase	Current instrument: %s %s	Nhạc cụ hiện tại: %s %s
 msg.phrase	Files: %d	Tệp: %d
 msg.phrase	SGNO TRACKER: incompatible SGX ABI\n	SGNO TRACKER: SGX ABI không tương thích\n
@@ -987,18 +983,18 @@ msg.phrase	unknown action in ContextMenu.cfg	hành động không rõ trong Cont
 msg.prefix	menu	menu
 msg.phrase	5 Macro	5 Macro
 msg.phrase	6 Help	6 Trợ giúp
-msg.phrase	Run current	Chạy macro hiện tại
+msg.phrase	Run current	Chạy macro này
 msg.phrase	Run the macro at the cursor (#! header cell and the cells below it)	Chạy macro tại con trỏ (ô tiêu đề #! và các ô bên dưới)
 msg.phrase	Run selection	Chạy vùng chọn
 msg.phrase	Run the selected cells as one macro (top-left cell is the #! header)	Chạy các ô đã chọn như một macro (ô trên cùng bên trái là tiêu đề #!)
 msg.phrase	Run all	Chạy tất cả
-msg.phrase	Run every macro in the sheet, top-left to bottom-right	Chạy mọi macro trong trang tính, từ trên trái xuống dưới phải
-msg.phrase	Last error	Lỗi cuối
-msg.phrase	Show the last macro error	Hiện lỗi macro gần nhất
+msg.phrase	Run every macro in the sheet, top-left to bottom-right	Chạy mọi macro trong trang, từ trên trái xuống dưới phải
+msg.phrase	Last error	Lỗi gần nhất
+msg.phrase	Show the last macro error	Xem lỗi macro gần nhất
 msg.phrase	Macro	Macro
 msg.phrase	Macro: run #!ruby / #!python / #!basic cells	Macro: chạy các ô #!ruby / #!python / #!basic
 msg.phrase	Edit the cell (F2)	Sửa ô (F2)
-msg.phrase	Fit widths/heights to the contents	Khớp độ rộng/chiều cao theo nội dung
+msg.phrase	Fit widths/heights to the contents	Chỉnh độ rộng/chiều cao theo nội dung
 msg.phrase	Last macro error	Lỗi macro gần nhất
 msg.phrase	No macro error.	Không có lỗi macro.
 msg.phrase	IME on	IME bật
@@ -1008,17 +1004,17 @@ msg.phrase	%s: this firmware cannot run macros (SGX ABI 5.10 or later)	%s: firmw
 msg.phrase	Macro error: %s	Lỗi macro: %s
 msg.phrase	Macro: %s done	Macro: %s xong
 msg.phrase	a macro is already running	đang có một macro chạy
-msg.phrase	this language is not available	ngôn ngữ này không có sẵn
+msg.phrase	this language is not available	ngôn ngữ này không dùng được
 msg.phrase	not enough memory	không đủ bộ nhớ
 msg.phrase	the macro stopped with an error	macro dừng vì lỗi
 msg.phrase	Macro error %s: %s	Lỗi macro %s: %s
 msg.phrase	Macro: not enough memory	Macro: không đủ bộ nhớ
 msg.phrase	Macro: the cursor is not on a macro (a #!ruby / #!python / #!basic cell or the cells below it)	Macro: con trỏ không ở trên macro (ô #!ruby / #!python / #!basic hoặc các ô bên dưới)
-msg.phrase	Macro: no macro in the sheet	Macro: không có macro trong trang tính
+msg.phrase	Macro: no macro in the sheet	Macro: trang tính không có macro
 msg.phrase	Run all macros	Chạy mọi macro
-msg.phrase	Macros: %d. Run them all, top-left to bottom-right? Changes cannot be undone.	Số macro: %d. Chạy tất cả, từ trên trái xuống dưới phải? Không thể hoàn tác.
+msg.phrase	Macros: %d. Run them all, top-left to bottom-right? Changes cannot be undone.	Macro: %d. Chạy tất cả, từ trên trái xuống dưới phải? Không thể hoàn tác.
 msg.phrase	Macro: %d of %d done	Macro: xong %d / %d
-msg.phrase	Cleared the cell	Đã xóa ô này
+msg.phrase	Cleared the cell	Đã xóa ô
 msg.phrase	Cleared the selection	Đã xóa vùng chọn
 msg.phrase	Background colour = %d	Màu nền = %d
 msg.phrase	Text colour = %d	Màu chữ = %d
@@ -1039,3 +1035,36 @@ msg.phrase	32 items at most (mark fewer, or put them in a folder)	tối đa 32 m
 msg.prefix	archive	tệp nén
 msg.prefix	compress	nén
 msg.prefix	render	xuất WAV
+ui	USB・時計・設定	USB, clock, settings
+ui	0.001 秒未満	dưới 0.001 giây
+ui	%s 秒	%s giây
+ui	コンパイル %s  実行 %s	biên dịch %s  chạy %s
+ui	コンパイル %s	biên dịch %s
+ui	実行 %s	chạy %s
+msg.phrase	%s Sum %.7g N %ld%s	%s Tổng %.7g N %ld%s
+msg.phrase	EDIT  	SỬA
+msg.phrase	GRAPH  %s  %s	BIỂU ĐỒ  %s  %s
+msg.phrase	READY 	SẴN
+msg.phrase	Version %s	Phiên bản %s
+msg.phrase	1 Help	1 Giúp
+msg.phrase	3 Copy	3 Chép
+msg.phrase	4 Paste	4 Dán
+msg.phrase	5 Goto	5 Đến ô
+msg.phrase	6 Colour	6 Màu
+msg.phrase	7 Fit	7 Vừa
+msg.phrase	8 Backgr	8 Nền
+msg.phrase	9 Recalc	9 Tính
+msg.phrase	10 Graph	10 B.đồ
+msg.phrase	11 Save	11 Lưu
+msg.phrase	12 Menu	12 Menu
+msg.phrase	1 About	1 Về
+msg.phrase	2 Height	2 Cao
+msg.phrase	3 Width	3 Rộng
+msg.phrase	4 SelAll	4 Tất cả
+msg.phrase	10 Range	10 Vùng
+msg.phrase	11 Name	11 Tên
+msg.phrase	1 New	1 Mới
+msg.phrase	2 Open	2 Mở
+msg.phrase	4 SaveAs	4 Lưu là
+msg.phrase	12 Quit	12 Thoát
+msg.phrase	3 Save	3 Lưu

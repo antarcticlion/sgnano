@@ -21,14 +21,14 @@ ui	属性を変える	Baguhin ang mga katangian
 ui	エディタで開く	Buksan sa editor
 ui	テキスト表示（Shift+V / Ctrl+Alt+F7 は 16 進）	Tingnan bilang teksto (Shift+V / Ctrl+Alt+F7 hex)
 ui	ドライブの情報	Impormasyon ng drive
-ui	フォルダを作る / 新しいファイル	Bagong folder / bagong file
+ui	フォルダを作る（Shift+F5） / 新しいファイル（Ctrl+F1）	Bagong folder (Shift+F5) / bagong file (Ctrl+F1)
 ui	シェル sgsh / 媒体を取り出す	Shell sgsh / ilabas ang disk
 ui	読み直す	I-reload
-ui	見えている画面を PNG で保存	I-save ang screen bilang PNG
+ui	見えている画面を PNG で保存（Alt+F5 も同じ）	I-save ang screen bilang PNG (= Alt+F5)
 ui	窓を閉じる・選択を解く（サブフォルダでは上位へ）	Isara ang window / alisin ang pinili (sa subfolder: umakyat)
-ui	ファイルの操作（FD と同じ。印・範囲・カーソルの順に選ぶ）	Mga operasyon sa file (gaya ng FD: marka, saklaw, saka cursor)
-ui	コピー: 行き先はドライブとフォルダの木から。ESC で止める	Kopya: pumili ng patutunguhan sa puno ng drive at folder. ESC para huminto
-ui	削除: y で確かめる。印・範囲をまとめて。フォルダは中身ごと	Burahin: kumpirmahin sa y. Marka at saklaw nang sabay. Folder kasama ang laman
+ui	ファイルの操作（FD と同じ。印・範囲・カーソルの順）	Mga operasyon sa file (gaya ng FD: marka, saklaw, saka cursor)
+ui	コピー: 行き先は木から選ぶ。ESC で止める	Kopya: pumili ng patutunguhan sa puno ng drive at folder. ESC para huminto
+ui	削除: y で確かめる。印・範囲をまとめて	Burahin: kumpirmahin sa y. Marka at saklaw nang sabay. Folder kasama ang laman
 ui	フォルダを削除（中身ごと）	Burahin ang folder (kasama ang laman)
 ui	名前を変える（今の名前を直して Enter）	Palitan ang pangalan (i-edit ang pangalan, Enter)
 ui	属性: R 読み出し専用・H 隠し・S システム・A アーカイブ	Katangian: R read-only, H nakatago, S system, A archive
@@ -50,22 +50,19 @@ ui	画面（Alt+F。FD の F キーとぶつからない）	Screen (Alt+F, hindi
 ui	FB（絵）/ テキスト面を出す・隠す	Ipakita / itago ang FB (larawan) / ang teksto
 ui	FB の表示ページ（0〜3）	Display page ng FB (0-3)
 ui	FB を 0 で消す / 明るさを 1/2 に（RGB555）	Burahin ang FB sa 0 / hatiin ang liwanag (RGB555)
-ui	USB のエンドポイントと LAN の状態	Mga USB endpoint at estado ng LAN
+ui	USB のエンドポイントと LAN（U: 10 秒に 1 度）	Mga USB endpoint at estado ng LAN
 ui	FB の表示ページを消す / 明るさを 1/2 に	Burahin ang display page ng FB / hatiin ang liwanag
 ui	テキストの属性の見本	Mga halimbawa ng katangian ng teksto
 ui	モニタの EDID（起動時に読んだもの）	EDID ng monitor (binasa sa boot)
 ui	フォント ROM のライセンスとクレジット	Mga lisensya at kredito ng font ROM
 ui	設定（表示の言語・IME・キーボードロケール）	Mga setting (wika ng display, IME at keyboard locale)
-ui	時計（NTP で合わせた日本時間。s ですぐ合わせる）	Orasan (oras ng Japan sa NTP; s para i-sync ngayon)
+ui	時計（NTP で合わせた日本時間。s は 3 分に 1 度）	Orasan (oras ng Japan sa NTP; s para i-sync ngayon)
 ui	表計算（SGCALC）を開く	Buksan ang spreadsheet (SGCALC)
 ui	S: ドライブのエラー検査（誤りがあれば直すか聞く）	Suriin ang S: sa error (nagtatanong bago ayusin)
 ui	トラッカー（TRACKER）を開く	Buksan ang TRACKER
-ui	再起動（確かめの窓が出る）	I-reboot (nagtatanong muna)
+ui	再起動（確かめの窓）。Ctrl+Alt+Del も同じ	I-reboot (nagtatanong muna) = Ctrl+Alt+Del
 ui	ADC のステレオ入力（GP40 / 41）を鳴らす	I-play ang stereo input ng ADC (GP40 / 41)
 ui	VGM/VGZ を 96kHz/24bit WAV に書き出す	I-export ang VGM/VGZ sa WAV na 96 kHz / 24-bit
-ui	このヘルプ	Ang tulong na ito
-ui	ページを替える	Palitan ang pahina
-ui	閉じる	Isara
 ui	テキスト・16 進のビュアー（less 風）	Viewer ng teksto / hex (gaya ng less)
 ui	1 行	Isang linya
 ui	1 ページ	Isang pahina
@@ -83,10 +80,9 @@ ui	IME の言語（日本語 / English / 한국어）	Wika ng IME (Hapon / Ingle
 ui	ひらがな / カタカナで確定	Kumpirmahin bilang hiragana / katakana
 ui	エディタのヘルプ	Tulong ng editor
 ui	シェル	Shell
-ui	シェル（csh のサブセット。exit / Ctrl-D で戻る、help で一覧）	Shell (bahagi ng csh. exit / Ctrl-D pabalik, help para sa mga utos)
+ui	シェル（csh の一部。exit / Ctrl-D で戻る、help で一覧）	Shell (bahagi ng csh. exit / Ctrl-D pabalik, help para sa mga utos)
 ui	一覧と移動	Listahan at paggalaw
 ui	ファイルの操作	Mga operasyon sa file
-ui	画面と機器	Screen at mga device
 ui	ビュアーとエディタ	Mga viewer at ang editor
 ui	ヘルプ  %u / %u  %s	Tulong  %u / %u  %s
 ui	Left Right: ページを替える    F1 / ESC: 閉じる	Kaliwa Kanan: palitan ang pahina    F1 / ESC: isara
@@ -147,9 +143,9 @@ ui	10 EP表	10 EP
 ui	11 時計	11 Oras
 ui	12 表計	12 CALC
 ui	1 属性	1 Katang
-ui	2 情報	2 Info
+ui	2Drv情報	2 Info
 ui	3 移動	3 Lipat
-ui	5 作成	5 Folder
+ui	5 ﾌｫﾙﾀﾞ	5 Folder
 ui	6 シェル	6 Shell
 ui	8 編集	8 Edit
 ui	9 表示	9 Tingin
@@ -487,11 +483,11 @@ msg.phrase	the sound is not open	hindi bukas ang tunog
 msg.phrase	no such channel	walang ganyang channel
 msg.phrase	the sequencer is busy	abala ang sequencer
 msg.phrase	not enough PSRAM for the song	kulang ang PSRAM para sa kanta
-msg.phrase	not a standard MIDI file (no MThd)	hindi standard MIDI file (walang MThd)
+msg.phrase	not a standard MIDI file (no MThd)	hindi karaniwang MIDI file (walang MThd)
 msg.phrase	no tracks	walang track
-msg.phrase	a track is broken (MTrk)	sira ang isang track (MTrk)
-msg.phrase	SMPTE time division is not supported	hindi suportado ang SMPTE time division
-msg.phrase	SMF format 2 is not supported (0 and 1 only)	hindi suportado ang SMF format 2 (0 at 1 lang)
+msg.phrase	a track is broken (MTrk)	may sirang track (MTrk)
+msg.phrase	SMPTE time division is not supported	Hindi suportado ang SMPTE time division
+msg.phrase	SMF format 2 is not supported (0 and 1 only)	Hindi suportado ang SMF format 2 (0 at 1 lang)
 msg.phrase	not a Bulk-Only drive	hindi Bulk-Only na drive
 msg.phrase	not an optical drive	hindi optical drive
 msg.phrase	a system folder cannot be deleted or renamed	hindi mabubura o mapapalitan ang pangalan ng system folder
@@ -510,7 +506,7 @@ msg.phrase	cancelled	kinansela
 msg.phrase	could not mount	hindi ma-mount
 msg.phrase	could not start a read	hindi masimulan ang pagbasa
 msg.phrase	could not start a write	hindi masimulan ang pagsulat
-msg.phrase	is a directory	ay isang folder
+msg.phrase	is a directory	folder ito
 msg.phrase	that is a directory	folder iyan
 msg.phrase	no clusters	walang cluster
 msg.phrase	no room for the cluster list	walang lugar para sa listahan ng cluster
@@ -628,34 +624,34 @@ msg.phrase	2 Edit	2 Edit
 msg.phrase	3 Graph	3 Graph
 msg.phrase	4 Sheet	4 Sheet
 msg.phrase	5 Help	5 Tulong
-msg.phrase	EMPTY	WALANG LAMAN
+msg.phrase	EMPTY	WALA
 msg.phrase	NUMBER	NUMERO
 msg.phrase	TEXT	TEKSTO
 msg.phrase	FORMULA	FORMULA
-msg.phrase	Type to enter, F2 to edit, F1 for help	Mag-type para maglagay, F2 para mag-edit, F1 para sa tulong
+msg.phrase	Type to enter, F2 to edit, F1 for help	Mag-type para maglagay, F2 para i-edit, F1 para sa tulong
 msg.phrase	Ready	Handa
-msg.phrase	Press any key	Pindutin ang anumang key
+msg.phrase	Press any key	Pindutin ang kahit anong key
 msg.phrase	Y = yes    N = no    Esc = cancel	Y = oo    N = hindi    Esc = kanselahin
 msg.phrase	Enter = OK    Esc = cancel    Ctrl-U = clear	Enter = OK    Esc = kanselahin    Ctrl-U = burahin
-msg.phrase	First row/column = labels; charts use the 640x480 CLUT8 FB.	Unang hanay/linya = label; gumagamit ang chart ng 640x480 CLUT8 FB.
+msg.phrase	First row/column = labels; charts use the 640x480 CLUT8 FB.	Unang row/column = label; ginagamit ng chart ang 640x480 CLUT8 FB.
 msg.phrase	SGCALC - HELP	SGCALC - TULONG
-msg.phrase	Press any key to return	Pindutin ang anumang key para bumalik
-msg.phrase	Press any key to return.	Pindutin ang anumang key para bumalik.
+msg.phrase	Press any key to return	Pindutin ang kahit anong key para bumalik
+msg.phrase	Press any key to return.	Pindutin ang kahit anong key para bumalik.
 msg.phrase	ABOUT SGCALC	TUNGKOL SA SGCALC
 msg.phrase	New	Bago
 msg.phrase	Start a new sheet	Magsimula ng bagong sheet
 msg.phrase	Open...	Buksan...
-msg.phrase	Open an ODS, FODS or CSV file	Buksan ang ODS, FODS o CSV na file
+msg.phrase	Open an ODS, FODS or CSV file	Magbukas ng ODS, FODS o CSV na file
 msg.phrase	Save	I-save
 msg.phrase	Save the current file	I-save ang kasalukuyang file
 msg.phrase	Save As...	I-save bilang...
 msg.phrase	Save with a new name or format	I-save sa bagong pangalan o format
 msg.phrase	Export CSV...	I-export ang CSV...
-msg.phrase	Write a CSV copy	Sumulat ng kopyang CSV
+msg.phrase	Write a CSV copy	Gumawa ng kopyang CSV
 msg.phrase	Export ODS...	I-export ang ODS...
-msg.phrase	Write a LibreOffice copy	Sumulat ng kopyang LibreOffice
+msg.phrase	Write a LibreOffice copy	Gumawa ng kopyang LibreOffice
 msg.phrase	Quit	Lumabas
-msg.phrase	Leave SGCALC	Umalis sa SGCALC
+msg.phrase	Leave SGCALC	Lumabas sa SGCALC
 msg.phrase	Clear	Burahin
 msg.phrase	Clear the selected cells	Burahin ang mga napiling cell
 msg.phrase	Copy	Kopyahin
@@ -665,68 +661,68 @@ msg.phrase	Paste at the cursor	I-paste sa cursor
 msg.phrase	Cut	I-cut
 msg.phrase	Copy and clear the selection	Kopyahin at burahin ang napili
 msg.phrase	Select all	Piliin lahat
-msg.phrase	Select all used cells	Piliin ang lahat ng ginamit na cell
+msg.phrase	Select all used cells	Piliin lahat ng cell na may laman
 msg.phrase	Text color...	Kulay ng teksto...
 msg.phrase	Choose the text colour	Piliin ang kulay ng teksto
 msg.phrase	Background...	Background...
 msg.phrase	Choose the cell background	Piliin ang background ng cell
-msg.phrase	Line	Linya
+msg.phrase	Line	Line
 msg.phrase	Draw a line graph from the selection	Gumuhit ng line graph mula sa napili
 msg.phrase	Bar	Bar
 msg.phrase	Draw a bar graph from the selection	Gumuhit ng bar graph mula sa napili
-msg.phrase	Mixed	Halo
-msg.phrase	Bars for the first series, lines for the rest	Bar para sa unang serye, linya para sa iba
+msg.phrase	Mixed	Mixed
+msg.phrase	Bars for the first series, lines for the rest	Bar ang unang serye, line ang iba
 msg.phrase	Pie	Pie
 msg.phrase	Draw a pie graph from the selection	Gumuhit ng pie graph mula sa napili
 msg.phrase	Range...	Saklaw...
-msg.phrase	Set the graph range explicitly	Itakda nang tahasan ang saklaw ng graph
+msg.phrase	Set the graph range explicitly	Itakda nang mano-mano ang saklaw ng graph
 msg.phrase	Draw again	Iguhit muli
 msg.phrase	Redraw the last graph	Iguhit muli ang huling graph
 msg.phrase	Goto...	Pumunta...
-msg.phrase	Jump to a cell (for example C12)	Tumalon sa cell (halimbawa C12)
-msg.phrase	Column width...	Lapad ng hanay...
-msg.phrase	Change the selected columns' width	Baguhin ang lapad ng mga napiling hanay
-msg.phrase	Row height...	Taas ng linya...
-msg.phrase	Change the selected rows' height	Baguhin ang taas ng mga napiling linya
+msg.phrase	Jump to a cell (for example C12)	Pumunta sa isang cell (halimbawa C12)
+msg.phrase	Column width...	Lapad ng column...
+msg.phrase	Change the selected columns' width	Baguhin ang lapad ng mga napiling column
+msg.phrase	Row height...	Taas ng row...
+msg.phrase	Change the selected rows' height	Baguhin ang taas ng mga napiling row
 msg.phrase	Auto fit	Auto fit
-msg.phrase	Fit widths/heights to the contents (F7)	Iangkop ang lapad/taas sa laman (F7)
-msg.phrase	Recalculate	Kalkulahin muli
-msg.phrase	Re-evaluate all formulas	Suriin muli ang lahat ng formula
+msg.phrase	Fit widths/heights to the contents (F7)	Iakma ang lapad/taas sa laman (F7)
+msg.phrase	Recalculate	Kuwentahin muli
+msg.phrase	Re-evaluate all formulas	Kuwentahin muli ang lahat ng formula
 msg.phrase	Erase all	Burahin lahat
 msg.phrase	Clear the whole sheet	Burahin ang buong sheet
 msg.phrase	Keys	Mga key
-msg.phrase	Show the key guide	Ipakita ang gabay ng mga key
+msg.phrase	Show the key guide	Ipakita ang gabay sa mga key
 msg.phrase	About	Tungkol
 msg.phrase	About SGCALC	Tungkol sa SGCALC
 msg.phrase	File	File
-msg.phrase	Edit	Edit
+msg.phrase	Edit	I-edit
 msg.phrase	Graph	Graph
 msg.phrase	Sheet	Sheet
 msg.phrase	Help	Tulong
 msg.phrase	File: new, open, save, export, quit	File: bago, buksan, i-save, i-export, lumabas
-msg.phrase	Edit: clear, copy, paste, cut, select all	Edit: burahin, kopyahin, i-paste, i-cut, piliin lahat
-msg.phrase	Graph: line, bar, mixed, pie (draws in the FB)	Graph: linya, bar, halo, pie (iginuguhit sa FB)
-msg.phrase	Sheet: goto, column width, recalculate, erase	Sheet: pumunta, lapad ng hanay, kalkulahin muli, burahin
+msg.phrase	Edit: clear, copy, paste, cut, select all	I-edit: burahin, kopyahin, i-paste, i-cut, piliin lahat
+msg.phrase	Graph: line, bar, mixed, pie (draws in the FB)	Graph: line, bar, mixed, pie (iginuguhit sa FB)
+msg.phrase	Sheet: goto, column width, recalculate, erase	Sheet: pumunta, lapad ng column, kuwentahin, burahin
 msg.phrase	Help: keys and about	Tulong: mga key at tungkol
 msg.phrase	Left/Right = menu    Up/Down = item    Enter = choose    Esc = cancel	Kaliwa/Kanan = menu    Taas/Baba = item    Enter = piliin    Esc = kanselahin
 msg.phrase	Cancelled	Kinansela
-msg.phrase	The selection is too large or memory is low.	Masyadong malaki ang napili o kulang ang memorya.
+msg.phrase	The selection is too large or memory is low.	Masyadong malaki ang napili o kulang ang memory.
 msg.phrase	the cell	ang cell
 msg.phrase	the selection	ang napili
-msg.phrase	Nothing to paste	Walang ipe-paste
+msg.phrase	Nothing to paste	Walang mai-paste
 msg.phrase	Pasted	Na-paste
 msg.phrase	GO TO CELL	PUMUNTA SA CELL
 msg.phrase	Cell reference (A1):	Reference ng cell (A1):
 msg.phrase	Goto	Pumunta
-msg.phrase	COLUMN WIDTH	LAPAD NG HANAY
-msg.phrase	Width in characters (4..30):	Lapad sa titik (4..30):
-msg.phrase	ROW HEIGHT	TAAS NG LINYA
-msg.phrase	Height in text rows (1..8):	Taas sa linya ng teksto (1..8):
+msg.phrase	COLUMN WIDTH	LAPAD NG COLUMN
+msg.phrase	Width in characters (4..30):	Lapad sa bilang ng character (4..30):
+msg.phrase	ROW HEIGHT	TAAS NG ROW
+msg.phrase	Height in text rows (1..8):	Taas sa bilang ng linya (1..8):
 msg.phrase	Auto fit: the sheet is empty	Auto fit: walang laman ang sheet
 msg.phrase	BACKGROUND COLOUR	KULAY NG BACKGROUND
 msg.phrase	TEXT COLOUR	KULAY NG TEKSTO
-msg.phrase	Arrows: choose    Enter: apply    Esc: cancel	Arrow: pumili    Enter: ilapat    Esc: kanselahin
-msg.phrase	Colour index (PC-98 16-colour palette)	Index ng kulay (16-kulay na palette ng PC-98)
+msg.phrase	Arrows: choose    Enter: apply    Esc: cancel	Arrows: pumili    Enter: ilapat    Esc: kanselahin
+msg.phrase	Colour index (PC-98 16-colour palette)	Numero ng kulay (16-kulay na palette ng PC-98)
 msg.phrase	Enter = apply    Esc = cancel	Enter = ilapat    Esc = kanselahin
 msg.phrase	Colour	Kulay
 msg.phrase	Background	Background
@@ -740,19 +736,19 @@ msg.phrase	line	linya
 msg.phrase	bar	bar
 msg.phrase	mixed	halo
 msg.phrase	pie	pie
-msg.phrase	Clear every cell in this sheet?	Burahin ang bawat cell sa sheet na ito?
+msg.phrase	Clear every cell in this sheet?	Burahin ang lahat ng cell sa sheet na ito?
 msg.phrase	Sheet erased	Nabura ang sheet
-msg.phrase	Selected all used cells	Napili ang lahat ng ginamit na cell
-msg.phrase	Recalculated	Nakalkula muli
-msg.phrase	Memory	Memorya
+msg.phrase	Selected all used cells	Napili ang lahat ng cell na may laman
+msg.phrase	Recalculated	Nakuwenta muli
+msg.phrase	Memory	Memory
 msg.phrase	Not enough PSRAM for the spreadsheet.	Kulang ang PSRAM para sa spreadsheet.
 msg.phrase	The sheet is empty.	Walang laman ang sheet.
-msg.phrase	No numeric data in the selected range.	Walang numerong datos sa napiling saklaw.
+msg.phrase	No numeric data in the selected range.	Walang numero sa napiling saklaw.
 msg.phrase	Other	Iba pa
-msg.phrase	No positive values for a pie chart	Walang positibong halaga para sa pie chart
-msg.phrase	LINE	LINYA
+msg.phrase	No positive values for a pie chart	Walang positibong value para sa pie chart
+msg.phrase	LINE	LINE
 msg.phrase	BAR	BAR
-msg.phrase	MIXED	HALO
+msg.phrase	MIXED	MIXED
 msg.phrase	PIE	PIE
 msg.phrase	Folder	Folder
 msg.phrase	SAVE AS	I-SAVE BILANG
@@ -761,147 +757,147 @@ msg.phrase	Name:	Pangalan:
 msg.phrase	(type a name, or choose below)	(mag-type ng pangalan, o pumili sa ibaba)
 msg.phrase	Name	Pangalan
 msg.phrase	Size	Laki
-msg.phrase	Enter=save  Left=up  Right/Enter on [DIR]=open  Tab=drive  Esc=cancel	Enter=i-save  Kaliwa=taas  Kanan/Enter sa [DIR]=buksan  Tab=drive  Esc=kanselahin
-msg.phrase	Enter=open  Left=up  Right/Enter on [DIR]=open  Tab=drive  Esc=cancel	Enter=buksan  Kaliwa=taas  Kanan/Enter sa [DIR]=buksan  Tab=drive  Esc=kanselahin
-msg.phrase	Not enough memory.	Kulang ang memorya.
-msg.phrase	Overwrite	I-overwrite
+msg.phrase	Enter=save  Left=up  Right/Enter on [DIR]=open  Tab=drive  Esc=cancel	Enter=save  ←=taas  →/Enter sa [DIR]=buksan  Tab=drive  Esc=kanselahin
+msg.phrase	Enter=open  Left=up  Right/Enter on [DIR]=open  Tab=drive  Esc=cancel	Enter=buksan  ←=taas  →/Enter sa [DIR]=buksan  Tab=drive  Esc=kanselahin
+msg.phrase	Not enough memory.	Kulang ang memory.
+msg.phrase	Overwrite	Patungan
 msg.phrase	Open	Buksan
-msg.phrase	The file is too large (limit 8 MB).	Masyadong malaki ang file (limit 8 MB).
-msg.phrase	Not enough memory to read the file.	Kulang ang memorya para basahin ang file.
-msg.phrase	Bad ZIP/ODS data.	Sirang datos ng ZIP/ODS.
-msg.phrase	CRC error in the ODS file.	CRC error sa ODS file.
-msg.phrase	Unsupported or damaged file.	Hindi suportado o sirang file.
+msg.phrase	The file is too large (limit 8 MB).	Masyadong malaki ang file (hanggang 8 MB).
+msg.phrase	Not enough memory to read the file.	Kulang ang memory para basahin ang file.
+msg.phrase	Bad ZIP/ODS data.	Sira ang datos ng ZIP/ODS.
+msg.phrase	CRC error in the ODS file.	May CRC error sa ODS na file.
+msg.phrase	Unsupported or damaged file.	Hindi suportado o sira ang file.
 msg.phrase	Saved	Na-save
 msg.phrase	Exported	Na-export
-msg.phrase	Unsaved changes	Hindi na-save na pagbabago
-msg.phrase	Save the current sheet before continuing?	I-save ang kasalukuyang sheet bago magpatuloy?
+msg.phrase	Unsaved changes	May hindi pa na-save
+msg.phrase	Save the current sheet before continuing?	I-save muna ang kasalukuyang sheet bago magpatuloy?
 msg.phrase	New sheet	Bagong sheet
 msg.phrase	song is too large	masyadong malaki ang kanta
-msg.phrase	empty file	walang laman na file
+msg.phrase	empty file	walang laman ang file
 msg.phrase	not an SGT file	hindi SGT na file
 msg.phrase	bad BPM	maling BPM
 msg.phrase	bad speed	maling bilis
 msg.phrase	bad title length	maling haba ng pamagat
-msg.phrase	truncated title	putol na pamagat
-msg.phrase	bad character in title	maling titik sa pamagat
-msg.phrase	truncated order	putol na order
+msg.phrase	truncated title	putol ang pamagat
+msg.phrase	bad character in title	maling character sa pamagat
+msg.phrase	truncated order	putol ang order
 msg.phrase	bad order length	maling haba ng order
 msg.phrase	bad pattern number in order	maling numero ng pattern sa order
-msg.phrase	truncated pattern list	putol na listahan ng pattern
+msg.phrase	truncated pattern list	putol ang listahan ng pattern
 msg.phrase	bad pattern count	maling bilang ng pattern
 msg.phrase	bad pattern index	maling index ng pattern
 msg.phrase	duplicate pattern	dobleng pattern
-msg.phrase	truncated pattern data	putol na datos ng pattern
+msg.phrase	truncated pattern data	putol ang datos ng pattern
 msg.phrase	invalid pattern data	hindi wastong datos ng pattern
 msg.phrase	trailing data in file	may sobrang datos sa dulo ng file
-msg.phrase	order refers to a missing pattern	tumutukoy ang order sa wala nang pattern
+msg.phrase	order refers to a missing pattern	tumutukoy ang order sa pattern na wala
 msg.phrase	(untitled)	(walang pamagat)
 msg.phrase	Ready. Press F1 for help.	Handa. Pindutin ang F1 para sa tulong.
 msg.phrase	Follow OFF	Follow OFF
-msg.phrase	Nothing to undo	Walang ia-undo
-msg.phrase	Undo	Undo
-msg.phrase	Note OFF	Note OFF
-msg.phrase	Set an effect letter first	Magtakda muna ng titik ng effect
-msg.phrase	Effect cleared	Nabura ang effect
+msg.phrase	Nothing to undo	Walang maa-undo
+msg.phrase	Undo	Na-undo
+msg.phrase	Note OFF	Note off
+msg.phrase	Set an effect letter first	Ilagay muna ang titik ng epekto
+msg.phrase	Effect cleared	Nabura ang epekto
 msg.phrase	Parameter cleared	Nabura ang parameter
 msg.phrase	Note cleared	Nabura ang nota
 msg.phrase	Instrument cleared	Nabura ang instrumento
-msg.phrase	Volume cleared	Nabura ang volume
-msg.phrase	Order list is full	Puno na ang listahan ng order
-msg.phrase	Order inserted	Naisingit ang order
+msg.phrase	Volume cleared	Nabura ang lakas
+msg.phrase	Order list is full	Puno na ang order list
+msg.phrase	Order inserted	Nadagdag ang order
 msg.phrase	Cannot delete the last order	Hindi mabura ang huling order
 msg.phrase	Order deleted	Nabura ang order
-msg.phrase	Playing song	Tinutugtog ang kanta
+msg.phrase	Playing song	Tumutugtog ang kanta
 msg.phrase	Stopped	Huminto
 msg.phrase	New song	Bagong kanta
-msg.phrase	Discard unsaved changes and start a new song? (Y/N)	Itapon ang hindi na-save na pagbabago at magsimula ng bagong kanta? (Y/N)
-msg.phrase	Discard unsaved changes and open a song? (Y/N)	Itapon ang hindi na-save na pagbabago at magbukas ng kanta? (Y/N)
-msg.phrase	Discard unsaved changes and quit? (Y/N)	Itapon ang hindi na-save na pagbabago at lumabas? (Y/N)
-msg.phrase	Song settings updated	Na-update ang setting ng kanta
-msg.phrase	Filename is empty	Walang laman ang pangalan ng file
+msg.phrase	Discard unsaved changes and start a new song? (Y/N)	Itapon ang hindi na-save at magsimula ng bagong kanta? (Y/N)
+msg.phrase	Discard unsaved changes and open a song? (Y/N)	Itapon ang hindi na-save at magbukas ng kanta? (Y/N)
+msg.phrase	Discard unsaved changes and quit? (Y/N)	Itapon ang hindi na-save at lumabas? (Y/N)
+msg.phrase	Song settings updated	Nabago ang setting ng kanta
+msg.phrase	Filename is empty	Walang pangalan ng file
 msg.phrase	Save cancelled	Kinansela ang pag-save
 msg.phrase	Open cancelled	Kinansela ang pagbukas
 msg.phrase	Edit ON	Edit ON
 msg.phrase	Edit OFF	Edit OFF
 msg.phrase	Follow ON	Follow ON
-msg.phrase	Edit is OFF. Press F8 to edit.	Naka-OFF ang edit. Pindutin ang F8 para mag-edit.
-msg.phrase	I/O error	Error sa I/O
+msg.phrase	Edit is OFF. Press F8 to edit.	Naka-off ang edit. Pindutin ang F8 para mag-edit.
+msg.phrase	I/O error	I/O error
 msg.phrase	file is too large	masyadong malaki ang file
-msg.phrase	truncated file	putol na file
+msg.phrase	truncated file	putol ang file
 msg.phrase	#TRANSPORT AND FILES	#PAGTUGTOG AT MGA FILE
-msg.phrase	#ORDER LIST	#LISTAHAN NG ORDER
+msg.phrase	#ORDER LIST	#ORDER LIST
 msg.phrase	#DISPLAY	#DISPLAY
 msg.phrase	#EDITING	#PAG-EDIT
-msg.phrase	#EFFECTS (parameter is hexadecimal)	#MGA EFFECT (hexadecimal ang parameter)
-msg.phrase	LEFT/RIGHT PAGE   ENTER OR F1 CLOSE	KALIWA/KANAN PAHINA   ENTER O F1 ISARA
+msg.phrase	#EFFECTS (parameter is hexadecimal)	#MGA EPEKTO (hexadecimal ang parameter)
+msg.phrase	LEFT/RIGHT PAGE   ENTER OR F1 CLOSE	LEFT/RIGHT PAGE   ENTER OR F1 CLOSE
 msg.phrase	SONG SETTINGS	SETTING NG KANTA
-msg.phrase	UP/DOWN SELECT   LEFT/RIGHT ADJUST   ENTER/F2 CLOSE	TAAS/BABA PUMILI   KALIWA/KANAN AYUSIN   ENTER/F2 ISARA
-msg.phrase	Type to edit the title. Backspace deletes the last character.	Mag-type para i-edit ang pamagat. Binubura ng Backspace ang huling titik.
-msg.phrase	BPM range 32..255. Speed range 1..31.	BPM 32..255. Bilis 1..31.
-msg.phrase	Pattern effects can also change speed and BPM while playing.	Kaya ring baguhin ng pattern effect ang bilis at BPM habang tumutugtog.
+msg.phrase	UP/DOWN SELECT   LEFT/RIGHT ADJUST   ENTER/F2 CLOSE	UP/DOWN SELECT   LEFT/RIGHT ADJUST   ENTER/F2 CLOSE
+msg.phrase	Type to edit the title. Backspace deletes the last character.	Mag-type para baguhin ang pamagat. Binubura ng Backspace ang huling character.
+msg.phrase	BPM range 32..255. Speed range 1..31.	BPM mula 32 hanggang 255. Bilis mula 1 hanggang 31.
+msg.phrase	Pattern effects can also change speed and BPM while playing.	Kaya ring baguhin ng epekto sa pattern ang bilis at BPM habang tumutugtog.
 msg.phrase	INSTRUMENTS	MGA INSTRUMENTO
-msg.phrase	UP/DOWN SELECT   SPACE PREVIEW   ENTER USE   F3 CLOSE	TAAS/BABA PUMILI   SPACE PAKINGGAN   ENTER GAMITIN   F3 ISARA
-msg.phrase	All four channels use wavetable synthesis.	Lahat ng apat na channel ay gumagamit ng wavetable synthesis.
-msg.phrase	Preview plays C-4 on the track under the edit cursor.	Tinutugtog ng preview ang C-4 sa track sa ilalim ng edit cursor.
+msg.phrase	UP/DOWN SELECT   SPACE PREVIEW   ENTER USE   F3 CLOSE	UP/DOWN SELECT   SPACE PREVIEW   ENTER USE   F3 CLOSE
+msg.phrase	All four channels use wavetable synthesis.	Wavetable synthesis ang gamit ng apat na channel.
+msg.phrase	Preview plays C-4 on the track under the edit cursor.	Tinutugtog ng preview ang C-4 sa track na nasa ilalim ng cursor.
 msg.phrase	SAVE SONG AS	I-SAVE ANG KANTA BILANG
-msg.phrase	ENTER SAVE   F4 OR CTRL-C CANCEL	ENTER I-SAVE   F4 O CTRL-C KANSELAHIN
+msg.phrase	ENTER SAVE   F4 OR CTRL-C CANCEL	ENTER SAVE   F4 OR CTRL-C CANCEL
 msg.phrase	Directory:	Folder:
 msg.phrase	File name:	Pangalan ng file:
-msg.phrase	The extension .SGT is added automatically.	Awtomatikong idinadagdag ang extension na .SGT.
-msg.phrase	An existing file can be overwritten.	Maaaring i-overwrite ang umiiral na file.
+msg.phrase	The extension .SGT is added automatically.	Kusang idinadagdag ang extension na .SGT.
+msg.phrase	An existing file can be overwritten.	Maaaring patungan ang dati nang file.
 msg.phrase	OPEN SONG	BUKSAN ANG KANTA
-msg.phrase	ENTER OPEN  BS PARENT  CTRL-O/CTRL-C CANCEL	ENTER BUKSAN  BS PATAAS  CTRL-O/CTRL-C KANSELAHIN
+msg.phrase	ENTER OPEN  BS PARENT  CTRL-O/CTRL-C CANCEL	ENTER OPEN  BS PARENT  CTRL-O/CTRL-C CANCEL
 msg.phrase	(no .SGT files in this folder)	(walang .SGT na file sa folder na ito)
 msg.phrase	CONFIRM	KUMPIRMAHIN
-msg.phrase	Y = YES   N / ENTER / CTRL-C = NO	Y = OO   N / ENTER / CTRL-C = HINDI
+msg.phrase	Y = YES   N / ENTER / CTRL-C = NO	Y = YES   N / ENTER / CTRL-C = NO
 msg.phrase	Y = yes        N = no	Y = oo        N = hindi
-msg.phrase	broken MThd	sirang MThd
-msg.phrase	MIDI IMPORT	MIDI IMPORT
-msg.phrase	broken delta time	sirang delta time
-msg.phrase	broken running status	sirang running status
-msg.phrase	broken meta event	sirang meta event
-msg.phrase	broken sysex event	sirang sysex event
-msg.phrase	broken channel event	sirang channel event
-msg.phrase	SMF output is too small	masyadong maliit ang SMF output
-msg.phrase	SMF output is too large	masyadong malaki ang SMF output
+msg.phrase	broken MThd	sira ang MThd
+msg.phrase	MIDI IMPORT	I-IMPORT ANG MIDI
+msg.phrase	broken delta time	sira ang delta time
+msg.phrase	broken running status	sira ang running status
+msg.phrase	broken meta event	sira ang meta event
+msg.phrase	broken sysex event	sira ang SysEx event
+msg.phrase	broken channel event	sira ang channel event
+msg.phrase	SMF output is too small	Masyadong maliit ang SMF na output
+msg.phrase	SMF output is too large	Masyadong malaki ang SMF na output
 msg.phrase	the song is too long for SMF	masyadong mahaba ang kanta para sa SMF
-msg.phrase	ARROWS      move the cell cursor\n	ARROW       ilipat ang cursor ng cell\n
+msg.phrase	ARROWS      move the cell cursor\n	ARROWS      ilipat ang cursor ng cell\n
 msg.phrase	SHIFT+ARR   extend the selection (for graphs/copy)\n	SHIFT+ARR   palawakin ang napili (para sa graph/kopya)\n
-msg.phrase	ENTER       edit the cell; in edit, commit and move down\n	ENTER       i-edit ang cell; habang nag-e-edit, kumpirmahin at bumaba\n
-msg.phrase	TAB         next cell    SHIFT+TAB  previous cell\n	TAB         susunod na cell    SHIFT+TAB  nakaraang cell\n
+msg.phrase	ENTER       edit the cell; in edit, commit and move down\n	ENTER       i-edit ang cell; habang nag-e-edit, itala at bumaba\n
+msg.phrase	TAB         next cell    SHIFT+TAB  previous cell\n	TAB         susunod na cell    SHIFT+TAB  naunang cell\n
 msg.phrase	DELETE      clear the selected cell(s)    ESC  cancel\n	DELETE      burahin ang napiling cell    ESC  kanselahin\n
-msg.phrase	PGUP/PGDN   move one screen    HOME/END  first/last column\n	PGUP/PGDN   isang screen    HOME/END  una/huling hanay\n
-msg.phrase	CTRL+HOME   A1    CTRL+END  last used cell\n	CTRL+HOME   A1    CTRL+END  huling ginamit na cell\n
+msg.phrase	PGUP/PGDN   move one screen    HOME/END  first/last column\n	PGUP/PGDN   isang screen    HOME/END  una/huling column\n
+msg.phrase	CTRL+HOME   A1    CTRL+END  last used cell\n	CTRL+HOME   A1    CTRL+END  huling cell na may laman\n
 msg.phrase	F1 help  F2 edit  F3 copy  F4 paste  F5 goto  F6 colour\n	F1 tulong  F2 edit  F3 kopya  F4 paste  F5 punta  F6 kulay\n
-msg.phrase	F7 auto-fit  F8 background  F9 recalc  F10 graph  F11 save  F12 menu\n	F7 auto-fit  F8 background  F9 kalkula  F10 graph  F11 save  F12 menu\n
-msg.phrase	SHIFT+F1 about  SHIFT+F2 row height  SHIFT+F3 column width\n	SHIFT+F1 tungkol  SHIFT+F2 taas ng linya  SHIFT+F3 lapad ng hanay\n
-msg.phrase	SHIFT+F4 select all  SHIFT+F10 graph range  SHIFT+F11 save as\n	SHIFT+F4 piliin lahat  SHIFT+F10 saklaw ng graph  SHIFT+F11 save bilang\n
-msg.phrase	CTRL+F1 new  CTRL+F2 open  CTRL+F3 save  CTRL+F4 save as\n	CTRL+F1 bago  CTRL+F2 buksan  CTRL+F3 save  CTRL+F4 save bilang\n
-msg.phrase	CTRL+F5 export CSV  CTRL+F6 export ODS  ALT+F12 quit\n	CTRL+F5 export CSV  CTRL+F6 export ODS  ALT+F12 lumabas\n
+msg.phrase	F7 auto-fit  F8 background  F9 recalc  F10 graph  F11 save  F12 menu\n	F7 auto-fit  F8 background  F9 kuwentahin  F10 graph  F11 save  F12 menu\n
+msg.phrase	SHIFT+F1 about  SHIFT+F2 row height  SHIFT+F3 column width\n	SHIFT+F1 tungkol  SHIFT+F2 taas ng row  SHIFT+F3 lapad ng column\n
+msg.phrase	SHIFT+F4 select all  SHIFT+F10 graph range  SHIFT+F11 save as\n	SHIFT+F4 piliin lahat  SHIFT+F10 saklaw ng graph  SHIFT+F11 save as\n
+msg.phrase	CTRL+F1 new  CTRL+F2 open  CTRL+F3 save  CTRL+F4 save as\n	CTRL+F1 bago  CTRL+F2 buksan  CTRL+F3 save  CTRL+F4 save as\n
+msg.phrase	CTRL+F5 export CSV  CTRL+F6 export ODS  ALT+F12 quit\n	CTRL+F5 i-export CSV  CTRL+F6 i-export ODS  ALT+F12 lumabas\n
 msg.phrase	Bottom 2 lines: function keys; [SHIFT]/[CTRL]/[ALT] like the filer\n	Huling 2 linya: function key; [SHIFT]/[CTRL]/[ALT] gaya ng filer\n
 msg.phrase	CTRL+S save  CTRL+O open  CTRL+N new  CTRL+C/V/X copy/paste/cut\n	CTRL+S save  CTRL+O buksan  CTRL+N bago  CTRL+C/V/X kopya/paste/cut\n
-msg.phrase	CTRL+G goto    /  open the menu (1 File, 2 Edit, ...)\n	CTRL+G punta    /  buksan ang menu (1 File, 2 Edit, ...)\n
-msg.phrase	Built-in functions: SUM AVERAGE MIN MAX COUNT COUNTA\n	Built-in na function: SUM AVERAGE MIN MAX COUNT COUNTA\n
+msg.phrase	CTRL+G goto    /  open the menu (1 File, 2 Edit, ...)\n	CTRL+G punta    /  buksan ang menu (1 File, 2 I-edit, ...)\n
+msg.phrase	Built-in functions: SUM AVERAGE MIN MAX COUNT COUNTA\n	Mga built-in na function: SUM AVERAGE MIN MAX COUNT COUNTA\n
 msg.phrase	Cell refs: A1, $A$1, A1:B10.  Formulas begin with '='.\n	Reference ng cell: A1, $A$1, A1:B10.  Nagsisimula sa '=' ang formula.\n
-msg.phrase	Files: .ods (LibreOffice), .fods (flat XML), .csv\n	File: .ods (LibreOffice), .fods (flat XML), .csv\n
-msg.phrase	ODS/FODS keeps formulas, widths, heights and colours.\n	Pinapanatili ng ODS/FODS ang formula, lapad, taas at kulay.\n
-msg.phrase	CSV keeps values and formulas (no colours/heights).\n	Pinapanatili ng CSV ang halaga at formula (walang kulay/taas).\n
-msg.phrase	Graph: select a range, press F10, and choose Line/Bar/Mixed/Pie.\n	Graph: pumili ng saklaw, pindutin ang F10, at piliin ang Linya/Bar/Halo/Pie.\n
-msg.phrase	SGCALC for sgnano\n	SGCALC para sa sgnano\n
+msg.phrase	Files: .ods (LibreOffice), .fods (flat XML), .csv\n	Mga file: .ods (LibreOffice), .fods (flat XML), .csv\n
+msg.phrase	ODS/FODS keeps formulas, widths, heights and colours.\n	Iniingatan ng ODS/FODS ang formula, lapad, taas at kulay.\n
+msg.phrase	CSV keeps values and formulas (no colours/heights).\n	Value at formula lang ang nasa CSV (walang kulay/taas).\n
+msg.phrase	Graph: select a range, press F10, and choose Line/Bar/Mixed/Pie.\n	Graph: pumili ng saklaw, pindutin ang F10, at piliin ang Line/Bar/Mixed/Pie.\n
+msg.phrase	SGCALC for sgnano\n	SGCALC for sgnano\n
 msg.phrase	Version 	Bersyon
-msg.phrase	A Lotus 1-2-3 style spreadsheet as an SGX program.\n\n	Spreadsheet na istilong Lotus 1-2-3 bilang SGX na programa.\n\n
-msg.phrase	Screen mode 3: text + CLUT8 FB (lowres disabled)\n	Screen mode 3: teksto + CLUT8 FB (naka-off ang lowres)\n
+msg.phrase	A Lotus 1-2-3 style spreadsheet as an SGX program.\n\n	Spreadsheet na parang Lotus 1-2-3, bilang SGX program.\n\n
+msg.phrase	Screen mode 3: text + CLUT8 FB (lowres disabled)\n	Screen mode 3: teksto + CLUT8 FB (walang lowres)\n
 msg.phrase	Sheet: %d rows x %d columns\n	Sheet: %d linya x %d hanay\n
-msg.phrase	Formats: .ods / .fods (LibreOffice), .csv\n\n	Format: .ods / .fods (LibreOffice), .csv\n\n
-msg.phrase	The grid is drawn on the text plane.\n	Iginuguhit ang grid sa text plane.\n
-msg.phrase	Charts and the 640x480 background use the FB.\n\n	Gumagamit ng FB ang chart at ang 640x480 na background.\n\n
-msg.phrase	Cannot store the cell (%d).	Hindi maiimbak ang cell (%d).
-msg.phrase	Copied %d x %d cells	Nakopya ang %d x %d cell
+msg.phrase	Formats: .ods / .fods (LibreOffice), .csv\n\n	Mga format: .ods / .fods (LibreOffice), .csv\n\n
+msg.phrase	The grid is drawn on the text plane.\n	Sa text plane iginuguhit ang grid.\n
+msg.phrase	Charts and the 640x480 background use the FB.\n\n	Ginagamit ng chart at ng 640x480 na background ang FB.\n\n
+msg.phrase	Cannot store the cell (%d).	Hindi maitala ang cell (%d).
+msg.phrase	Copied %d x %d cells	Nakopya ang %d x %d na cell
 msg.phrase	Cleared %s	Nabura ang %s
 msg.phrase	'%s' is not a cell reference.	Hindi reference ng cell ang '%s'.
-msg.phrase	Column width = %d	Lapad ng hanay = %d
-msg.phrase	Row height = %d	Taas ng linya = %d
-msg.phrase	Auto fit: %d column(s), %d row(s)	Auto fit: %d hanay, %d linya
+msg.phrase	Column width = %d	Lapad ng column = %d
+msg.phrase	Row height = %d	Taas ng row = %d
+msg.phrase	Auto fit: %d column(s), %d row(s)	Auto fit: %d column, %d row
 msg.phrase	Cannot apply the colour (%d).	Hindi mailapat ang kulay (%d).
 msg.phrase	Not a valid range.\nUse a range such as A1:C10.	Hindi wastong saklaw.\nGumamit ng saklaw gaya ng A1:C10.
 msg.phrase	Graph range %s	Saklaw ng graph %s
@@ -909,76 +905,76 @@ msg.phrase	Graph: %s	Graph: %s
 msg.phrase	SGCALC: cannot set screen mode 3: %s\n	SGCALC: hindi maitakda ang screen mode 3: %s\n
 msg.phrase	Cannot read %s\n%s	Hindi mabasa ang %s\n%s
 msg.phrase	Folder: %s	Folder: %s
-msg.phrase	Unsupported extension.\nUse .csv, .ods or .fods.	Hindi suportadong extension.\nGumamit ng .csv, .ods o .fods.
-msg.phrase	%s already exists.\nOverwrite it?	Mayroon nang %s.\nI-overwrite?
-msg.phrase	%s may not be writable.\nTry anyway?	Maaaring hindi masulatan ang %s.\nSubukan pa rin?
-msg.phrase	Unknown file type for %s	Hindi kilalang uri ng file para sa %s
-msg.phrase	Unsupported file type.\nUse .csv, .ods or .fods.	Hindi suportadong uri ng file.\nGumamit ng .csv, .ods o .fods.
+msg.phrase	Unsupported extension.\nUse .csv, .ods or .fods.	Hindi suportado ang extension.\nGumamit ng .csv, .ods o .fods.
+msg.phrase	%s already exists.\nOverwrite it?	Mayroon nang %s.\nPatungan ito?
+msg.phrase	%s may not be writable.\nTry anyway?	Baka hindi masulatan ang %s.\nSubukan pa rin?
+msg.phrase	Unknown file type for %s	Hindi kilalang uri ng file: %s
+msg.phrase	Unsupported file type.\nUse .csv, .ods or .fods.	Hindi suportado ang uri ng file.\nGumamit ng .csv, .ods o .fods.
 msg.phrase	Cannot open %s\n%s	Hindi mabuksan ang %s\n%s
 msg.phrase	%s is a folder.	Folder ang %s.
 msg.phrase	Cannot import %s\n%s	Hindi ma-import ang %s\n%s
 msg.phrase	Loaded %s	Na-load ang %s
 msg.phrase	Cannot build the %s file.	Hindi mabuo ang %s na file.
-msg.phrase	Cannot write %s\n%s	Hindi maisulat ang %s\n%s
-msg.phrase	unsupported version %u	hindi suportadong bersyon %u
+msg.phrase	Cannot write %s\n%s	Hindi masulat ang %s\n%s
+msg.phrase	unsupported version %u	hindi suportadong bersyon (%u)
 msg.phrase	Octave %d	Octave %d
 msg.phrase	Note %s	Nota %s
 msg.phrase	Instrument %d	Instrumento %d
-msg.phrase	Volume %s	Volume %s
-msg.phrase	Effect %c	Effect %c
+msg.phrase	Volume %s	Lakas %s
+msg.phrase	Effect %c	Epekto %c
 msg.phrase	Parameter %s	Parameter %s
 msg.phrase	Pattern %s	Pattern %s
-msg.phrase	Playing pattern %s	Tinutugtog ang pattern %s
-msg.phrase	SAVE ERROR: %s	ERROR SA SAVE: %s
+msg.phrase	Playing pattern %s	Tumutugtog ang pattern %s
+msg.phrase	SAVE ERROR: %s	ERROR SA PAG-SAVE: %s
 msg.phrase	Saved %s	Na-save ang %s
-msg.phrase	LOAD ERROR: %s	ERROR SA LOAD: %s
+msg.phrase	LOAD ERROR: %s	ERROR SA PAG-LOAD: %s
 msg.phrase	BPM %d	BPM %d
 msg.phrase	Speed %d	Bilis %d
-msg.phrase	Preview %s	Preview %s
+msg.phrase	Preview %s	Pakinggan: %s
 msg.phrase	Instrument %s %s	Instrumento %s %s
-msg.phrase	Overwrite %s? (Y/N)	I-overwrite ang %s? (Y/N)
+msg.phrase	Overwrite %s? (Y/N)	Patungan ang %s? (Y/N)
 msg.phrase	  F5          Play the song from the current order	  F5          Tugtugin ang kanta mula sa kasalukuyang order
 msg.phrase	  F6          Play the current pattern	  F6          Tugtugin ang kasalukuyang pattern
 msg.phrase	  F7/Ctrl-C   Stop playback	  F7/Ctrl-C   Ihinto ang pagtugtog
-msg.phrase	  Space       Play / stop	  Space       Tugtog / hinto
+msg.phrase	  Space       Play / stop	  Space       Tugtugin / ihinto
 msg.phrase	  F4          Save as	  F4          I-save bilang
-msg.phrase	  Ctrl-S      Save (asks for a name if new)	  Ctrl-S      I-save (nagtatanong ng pangalan kung bago)
+msg.phrase	  Ctrl-S      Save (asks for a name if new)	  Ctrl-S      I-save (hihingi ng pangalan kung bago)
 msg.phrase	  Ctrl-O      Open a song	  Ctrl-O      Magbukas ng kanta
 msg.phrase	  Ctrl-N      New song	  Ctrl-N      Bagong kanta
-msg.phrase	  F12         Quit (confirmation if modified)	  F12         Lumabas (nagkukumpirma kung binago)
-msg.phrase	  [ ]         Previous / next order entry	  [ ]         Nakaraan / susunod na order entry
-msg.phrase	  { }         Insert / delete an order entry	  { }         Magsingit / magbura ng order entry
-msg.phrase	  - +         Change the pattern in the entry	  - +         Palitan ang pattern sa entry
-msg.phrase	  F11         Follow playback (turns off on manual move)	  F11         Sundan ang pagtugtog (naka-off kapag ginalaw nang manu-mano)
-msg.phrase	  F1          Help; Left/Right changes page	  F1          Tulong; Kaliwa/Kanan pinapalitan ang pahina
-msg.phrase	  F8          Toggle edit mode	  F8          I-toggle ang edit mode
-msg.phrase	  Arrows      Move the cursor	  Arrow       Ilipat ang cursor
-msg.phrase	  PgUp/PgDn   Jump 16 rows	  PgUp/PgDn   Tumalon ng 16 linya
-msg.phrase	  Home/End    First / last row	  Home/End    Una / huling linya
-msg.phrase	  F9/F10      Octave down / up	  F9/F10      Octave baba / taas
-msg.phrase	  Z S X D C V G B H N J M      lower piano row	  Z S X D C V G B H N J M      mababang hanay ng piano
-msg.phrase	  Q 2 W 3 E R 5 T 6 Y 7 U      upper piano row	  Q 2 W 3 E R 5 T 6 Y 7 U      mataas na hanay ng piano
+msg.phrase	  F12         Quit (confirmation if modified)	  F12         Lumabas (magtatanong kung may binago)
+msg.phrase	  [ ]         Previous / next order entry	  [ ]         Nauna / susunod na order
+msg.phrase	  { }         Insert / delete an order entry	  { }         Magdagdag / magbura ng order
+msg.phrase	  - +         Change the pattern in the entry	  - +         Palitan ang pattern sa order
+msg.phrase	  F11         Follow playback (turns off on manual move)	  F11         Sundan ang pagtugtog (hihinto kapag ginalaw nang mano-mano)
+msg.phrase	  F1          Help; Left/Right changes page	  F1          Tulong; Kaliwa/Kanan para lumipat ng pahina
+msg.phrase	  F8          Toggle edit mode	  F8          I-on / i-off ang edit mode
+msg.phrase	  Arrows      Move the cursor	  Arrows      Ilipat ang cursor
+msg.phrase	  PgUp/PgDn   Jump 16 rows	  PgUp/PgDn   Lumaktaw ng 16 row
+msg.phrase	  Home/End    First / last row	  Home/End    Una / huling row
+msg.phrase	  F9/F10      Octave down / up	  F9/F10      Ibaba / itaas ang octave
+msg.phrase	  Z S X D C V G B H N J M      lower piano row	  Z S X D C V G B H N J M      ibabang hanay ng piano
+msg.phrase	  Q 2 W 3 E R 5 T 6 Y 7 U      upper piano row	  Q 2 W 3 E R 5 T 6 Y 7 U      itaas na hanay ng piano
 msg.phrase	  1           Note off	  1           Note off
-msg.phrase	  0 / Del     0 clears note/inst/fx; Del clears any	  0 / Del     0 binubura ang nota/inst/fx; Del binubura kahit ano
+msg.phrase	  0 / Del     0 clears note/inst/fx; Del clears any	  0 / Del     0 bura nota/instr./epekto; Del bura kahit ano
 msg.phrase	  Ctrl-Z      Undo the last pattern/order edit	  Ctrl-Z      I-undo ang huling edit ng pattern/order
 msg.phrase	  Axy   Volume slide: up x, down y	  Axy   Volume slide: taas x, baba y
-msg.phrase	  Cxx   Note cut after xx ticks	  Cxx   Putulin ang nota pagkatapos ng xx tick
-msg.phrase	  Dxx   Set volume (00..7F)	  Dxx   Itakda ang volume (00..7F)
-msg.phrase	  Fxx   Speed if xx < 20, otherwise BPM	  Fxx   Bilis kung xx < 20, kung hindi BPM
+msg.phrase	  Cxx   Note cut after xx ticks	  Cxx   Putulin ang nota pagkalipas ng xx tick
+msg.phrase	  Dxx   Set volume (00..7F)	  Dxx   Itakda ang lakas (00..7F)
+msg.phrase	  Fxx   Speed if xx < 20, otherwise BPM	  Fxx   Bilis kung xx < 20, kung hindi ay BPM
 msg.phrase	  Hxy   Arpeggio x, y semitones	  Hxy   Arpeggio x, y semitone
 msg.phrase	  Pxx   Pitch slide up	  Pxx   Pitch slide pataas
 msg.phrase	  Qxx   Pitch slide down	  Qxx   Pitch slide pababa
 msg.phrase	  F2 song settings, F3 instrument list	  F2 setting ng kanta, F3 listahan ng instrumento
-msg.phrase	HELP %d/2	TULONG %d/2
+msg.phrase	HELP %d/2	HELP %d/2
 msg.phrase	  Title	  Pamagat
 msg.phrase	  BPM   : %d     (left/right -1/+1, -/+ -5/+5)	  BPM   : %d     (kaliwa/kanan -1/+1, -/+ -5/+5)
-msg.phrase	  Speed : %d ticks/row	  Bilis : %d tick/linya
-msg.phrase	  Rows  : %d (fixed)	  Linya : %d (nakapirmi)
+msg.phrase	  Speed : %d ticks/row	  Bilis : %d tick bawat row
+msg.phrase	  Rows  : %d (fixed)	  Row   : %d (nakatakda)
 msg.phrase	  Order : %d entries	  Order : %d entry
-msg.phrase	  Patterns in use : %d	  Pattern na ginagamit : %d
+msg.phrase	  Patterns in use : %d	  Pattern na gamit : %d
 msg.phrase	Current instrument: %s %s	Kasalukuyang instrumento: %s %s
-msg.phrase	Files: %d	File: %d
-msg.phrase	SGNO TRACKER: incompatible SGX ABI\n	SGNO TRACKER: hindi tugmang SGX ABI\n
+msg.phrase	Files: %d	Mga file: %d
+msg.phrase	SGNO TRACKER: incompatible SGX ABI\n	SGNO TRACKER: hindi tugma ang SGX ABI\n
 msg.phrase	S: check: wait -- a file is being read or written	Suri ng S:: sandali -- may binabasa o isinusulat na file
 msg.phrase	S: check: the drive is busy or not ready	Suri ng S:: abala o hindi handa ang drive
 msg.phrase	nothing for this item (ContextMenu.cfg)	walang aksyon para sa item na ito (ContextMenu.cfg)
@@ -987,44 +983,44 @@ msg.phrase	unknown action in ContextMenu.cfg	hindi kilalang aksyon sa ContextMen
 msg.prefix	menu	menu
 msg.phrase	5 Macro	5 Macro
 msg.phrase	6 Help	6 Tulong
-msg.phrase	Run current	Patakbuhin ang kasalukuyan
-msg.phrase	Run the macro at the cursor (#! header cell and the cells below it)	Patakbuhin ang macro sa cursor (header cell na #! at mga cell sa ilalim)
+msg.phrase	Run current	Patakbuhin ito
+msg.phrase	Run the macro at the cursor (#! header cell and the cells below it)	Patakbuhin ang macro sa cursor (cell na may #! at ang mga cell sa ilalim)
 msg.phrase	Run selection	Patakbuhin ang napili
-msg.phrase	Run the selected cells as one macro (top-left cell is the #! header)	Patakbuhin ang mga napiling cell bilang isang macro (ang kaliwang-itaas na cell ang header na #!)
+msg.phrase	Run the selected cells as one macro (top-left cell is the #! header)	Patakbuhin ang mga napiling cell bilang isang macro (#! ang cell sa kaliwang itaas)
 msg.phrase	Run all	Patakbuhin lahat
-msg.phrase	Run every macro in the sheet, top-left to bottom-right	Patakbuhin ang bawat macro sa sheet, mula kaliwang-itaas hanggang kanang-ibaba
+msg.phrase	Run every macro in the sheet, top-left to bottom-right	Patakbuhin ang bawat macro sa sheet, mula kaliwang itaas hanggang kanang ibaba
 msg.phrase	Last error	Huling error
 msg.phrase	Show the last macro error	Ipakita ang huling error ng macro
 msg.phrase	Macro	Macro
 msg.phrase	Macro: run #!ruby / #!python / #!basic cells	Macro: patakbuhin ang mga cell na #!ruby / #!python / #!basic
 msg.phrase	Edit the cell (F2)	I-edit ang cell (F2)
-msg.phrase	Fit widths/heights to the contents	Iangkop ang lapad/taas sa laman
+msg.phrase	Fit widths/heights to the contents	Iakma ang lapad/taas sa laman
 msg.phrase	Last macro error	Huling error ng macro
-msg.phrase	No macro error.	Walang error ng macro.
-msg.phrase	IME on	IME on
-msg.phrase	IME off	IME off
+msg.phrase	No macro error.	Walang error ang macro.
+msg.phrase	IME on	Naka-on ang IME
+msg.phrase	IME off	Naka-off ang IME
 msg.phrase	Macro: %s %s ...	Macro: %s %s ...
-msg.phrase	%s: this firmware cannot run macros (SGX ABI 5.10 or later)	%s: hindi kayang patakbuhin ng firmware na ito ang macro (SGX ABI 5.10 o mas bago)
+msg.phrase	%s: this firmware cannot run macros (SGX ABI 5.10 or later)	%s: hindi makapagpatakbo ng macro ang firmware na ito (kailangan ang SGX ABI 5.10 o mas bago)
 msg.phrase	Macro error: %s	Error ng macro: %s
 msg.phrase	Macro: %s done	Macro: tapos ang %s
-msg.phrase	a macro is already running	may macro nang tumatakbo
-msg.phrase	this language is not available	hindi available ang wikang ito
-msg.phrase	not enough memory	kulang ang memorya
+msg.phrase	a macro is already running	may tumatakbo nang macro
+msg.phrase	this language is not available	hindi magagamit ang wikang ito
+msg.phrase	not enough memory	kulang ang memory
 msg.phrase	the macro stopped with an error	huminto ang macro dahil sa error
 msg.phrase	Macro error %s: %s	Error ng macro %s: %s
-msg.phrase	Macro: not enough memory	Macro: kulang ang memorya
-msg.phrase	Macro: the cursor is not on a macro (a #!ruby / #!python / #!basic cell or the cells below it)	Macro: wala sa macro ang cursor (cell na #!ruby / #!python / #!basic o mga cell sa ilalim)
+msg.phrase	Macro: not enough memory	Macro: kulang ang memory
+msg.phrase	Macro: the cursor is not on a macro (a #!ruby / #!python / #!basic cell or the cells below it)	Macro: wala sa macro ang cursor (cell na #!ruby / #!python / #!basic o ang mga cell sa ilalim)
 msg.phrase	Macro: no macro in the sheet	Macro: walang macro sa sheet
 msg.phrase	Run all macros	Patakbuhin ang lahat ng macro
-msg.phrase	Macros: %d. Run them all, top-left to bottom-right? Changes cannot be undone.	Mga macro: %d. Patakbuhin lahat, mula kaliwang-itaas hanggang kanang-ibaba? Hindi na maibabalik.
+msg.phrase	Macros: %d. Run them all, top-left to bottom-right? Changes cannot be undone.	Macro: %d. Patakbuhin lahat, mula kaliwang itaas hanggang kanang ibaba? Hindi na maibabalik ang pagbabago.
 msg.phrase	Macro: %d of %d done	Macro: tapos ang %d sa %d
 msg.phrase	Cleared the cell	Nabura ang cell
 msg.phrase	Cleared the selection	Nabura ang napili
 msg.phrase	Background colour = %d	Kulay ng background = %d
 msg.phrase	Text colour = %d	Kulay ng teksto = %d
-msg.phrase	Graph: line	Graph: linya
+msg.phrase	Graph: line	Graph: line
 msg.phrase	Graph: bar	Graph: bar
-msg.phrase	Graph: mixed	Graph: halo
+msg.phrase	Graph: mixed	Graph: mixed
 msg.phrase	Graph: pie	Graph: pie
 msg.phrase	Exported %s	Na-export ang %s
 msg.phrase	choose a file or folder	pumili ng file o folder
@@ -1039,3 +1035,36 @@ msg.phrase	32 items at most (mark fewer, or put them in a folder)	hanggang 32 it
 msg.prefix	archive	archive
 msg.prefix	compress	i-compress
 msg.prefix	render	i-export ang WAV
+ui	USB・時計・設定	USB, clock, settings
+ui	0.001 秒未満	wala pang 0.001 s
+ui	%s 秒	%s s
+ui	コンパイル %s  実行 %s	compile %s  run %s
+ui	コンパイル %s	compile %s
+ui	実行 %s	run %s
+msg.phrase	%s Sum %.7g N %ld%s	%s Kabuuan %.7g N %ld%s
+msg.phrase	EDIT  	EDIT
+msg.phrase	GRAPH  %s  %s	GRAPH  %s  %s
+msg.phrase	READY 	HANDA
+msg.phrase	Version %s	Bersyon %s
+msg.phrase	1 Help	1 Tulong
+msg.phrase	3 Copy	3 Kopya
+msg.phrase	4 Paste	4 Paste
+msg.phrase	5 Goto	5 Punta
+msg.phrase	6 Colour	6 Kulay
+msg.phrase	7 Fit	7 Akma
+msg.phrase	8 Backgr	8 Backgr
+msg.phrase	9 Recalc	9 Kuwen
+msg.phrase	10 Graph	10 Graph
+msg.phrase	11 Save	11 Save
+msg.phrase	12 Menu	12 Menu
+msg.phrase	1 About	1 Tungk
+msg.phrase	2 Height	2 Taas
+msg.phrase	3 Width	3 Lapad
+msg.phrase	4 SelAll	4 Lahat
+msg.phrase	10 Range	10 Sakl
+msg.phrase	11 Name	11 Pang
+msg.phrase	1 New	1 Bago
+msg.phrase	2 Open	2 Buksan
+msg.phrase	4 SaveAs	4 Bilang
+msg.phrase	12 Quit	12 Labas
+msg.phrase	3 Save	3 Save

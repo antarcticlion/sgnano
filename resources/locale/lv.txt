@@ -21,14 +21,14 @@ ui	属性を変える	Mainiet atribūtus
 ui	エディタで開く	Atveriet redaktorā
 ui	テキスト表示（Shift+V / Ctrl+Alt+F7 は 16 進）	Skatīt kā tekstu (Shift+V/Ctrl+Alt+F7 hex)
 ui	ドライブの情報	Informācija par braucienu
-ui	フォルダを作る / 新しいファイル	Jauna mape / jauns fails
+ui	フォルダを作る（Shift+F5） / 新しいファイル（Ctrl+F1）	Jauna mape (Shift+F5) / jauns fails (Ctrl+F1)
 ui	シェル sgsh / 媒体を取り出す	Shell sgsh / izstumt datu nesēju
 ui	読み直す	Pārlādēt
-ui	見えている画面を PNG で保存	Saglabājiet ekrānu kā PNG
+ui	見えている画面を PNG で保存（Alt+F5 も同じ）	Saglabājiet ekrānu kā PNG (= Alt+F5)
 ui	窓を閉じる・選択を解く（サブフォルダでは上位へ）	Aizvērt logu / notīrīt atlasi (apakšmapē: iet uz augšu)
-ui	ファイルの操作（FD と同じ。印・範囲・カーソルの順に選ぶ）	Failu darbības (kā FD: atzīmes, tad diapazons, tad kursors)
-ui	コピー: 行き先はドライブとフォルダの木から。ESC で止める	Kopēt: izvēlieties galamērķi no diska un mapju koka. ESC apstājas
-ui	削除: y で確かめる。印・範囲をまとめて。フォルダは中身ごと	Dzēst: apstipriniet ar y. Atzīmes un diapazoni uzreiz. Mapes ar to saturu
+ui	ファイルの操作（FD と同じ。印・範囲・カーソルの順）	Failu darbības (kā FD: atzīmes, tad diapazons, tad kursors)
+ui	コピー: 行き先は木から選ぶ。ESC で止める	Kopēt: izvēlieties galamērķi no diska un mapju koka. ESC apstājas
+ui	削除: y で確かめる。印・範囲をまとめて	Dzēst: apstipriniet ar y. Atzīmes un diapazoni uzreiz. Mapes ar to saturu
 ui	フォルダを削除（中身ごと）	Dzēst mapi (ar tās saturu)
 ui	名前を変える（今の名前を直して Enter）	Pārdēvēt (rediģēt nosaukumu, ievadiet)
 ui	属性: R 読み出し専用・H 隠し・S システム・A アーカイブ	Atribūti: R tikai lasāms, H paslēpts, S sistēma, A arhīvs
@@ -50,22 +50,19 @@ ui	画面（Alt+F。FD の F キーとぶつからない）	Ekrāns (Alt+F, nesa
 ui	FB（絵）/ テキスト面を出す・隠す	Rādīt/slēpt FB (attēlu)/tekstu
 ui	FB の表示ページ（0〜3）	FB parādīšanas lapa (0-3)
 ui	FB を 0 で消す / 明るさを 1/2 に（RGB555）	Notīriet FB līdz 0 / uz pusi samaziniet tā spilgtumu (RGB555)
-ui	USB のエンドポイントと LAN の状態	USB galapunkti un LAN stāvoklis
+ui	USB のエンドポイントと LAN（U: 10 秒に 1 度）	USB galapunkti un LAN stāvoklis
 ui	FB の表示ページを消す / 明るさを 1/2 に	Notīriet FB displeja lapu / uz pusi tās spilgtumu
 ui	テキストの属性の見本	Teksta atribūtu paraugi
 ui	モニタの EDID（起動時に読んだもの）	Monitor EDID (lasīt sāknēšanas laikā)
 ui	フォント ROM のライセンスとクレジット	Font ROM licences un kredīti
 ui	設定（表示の言語・IME・キーボードロケール）	Iestatījumi (displeja valoda, IME un tastatūras lokalizācija)
-ui	時計（NTP で合わせた日本時間。s ですぐ合わせる）	Pulkstenis (Japānas laiku iestatījis NTP; s sinhronizē tagad)
+ui	時計（NTP で合わせた日本時間。s は 3 分に 1 度）	Pulkstenis (Japānas laiku iestatījis NTP; s sinhronizē tagad)
 ui	表計算（SGCALC）を開く	Atvērt izklājlapu (SGCALC)
 ui	S: ドライブのエラー検査（誤りがあれば直すか聞く）	Pārbaudiet S: vai nav kļūdu (jautājiet pirms remonta)
 ui	トラッカー（TRACKER）を開く	Atveriet TRACKER
-ui	再起動（確かめの窓が出る）	Reboot (vispirms jautā)
+ui	再起動（確かめの窓）。Ctrl+Alt+Del も同じ	Reboot (vispirms jautā) = Ctrl+Alt+Del
 ui	ADC のステレオ入力（GP40 / 41）を鳴らす	Atskaņojiet ADC stereo ieeju (GP40/41)
 ui	VGM/VGZ を 96kHz/24bit WAV に書き出す	Eksportējiet VGM/VGZ uz 96 kHz / 24 bitu WAV
-ui	このヘルプ	Šī palīdzība
-ui	ページを替える	Mainiet lapu
-ui	閉じる	Aizvērt
 ui	テキスト・16 進のビュアー（less 風）	Teksta/hex skatītājs (patīk mazāk)
 ui	1 行	Viena rinda
 ui	1 ページ	Viena lapa
@@ -83,10 +80,9 @@ ui	IME の言語（日本語 / English / 한국어）	IME valoda (japāņu/angļ
 ui	ひらがな / カタカナで確定	Apņemties kā hiragana/katakana
 ui	エディタのヘルプ	Redaktora palīdzība
 ui	シェル	Apvalks
-ui	シェル（csh のサブセット。exit / Ctrl-D で戻る、help で一覧）	Shell (csh apakškopa. exit / Ctrl-D, lai atgrieztos, palīdz norādīt komandas)
+ui	シェル（csh の一部。exit / Ctrl-D で戻る、help で一覧）	Shell (csh apakškopa. exit / Ctrl-D, lai atgrieztos, palīdz norādīt komandas)
 ui	一覧と移動	Saraksts un pārvietošana
 ui	ファイルの操作	Failu darbības
-ui	画面と機器	Ekrāns un ierīces
 ui	ビュアーとエディタ	Skatītāji un redaktors
 ui	ヘルプ  %u / %u  %s	Palīdzība %u / %u %s
 ui	Left Right: ページを替える    F1 / ESC: 閉じる	Pa kreisi Pa labi: mainīt lapu F1 / ESC: aizvērt
@@ -147,9 +143,9 @@ ui	10 EP表	10 EP
 ui	11 時計	11 Clock
 ui	12 表計	12 CALC
 ui	1 属性	1 Attr
-ui	2 情報	2 Info
+ui	2Drv情報	2 Info
 ui	3 移動	3 Move
-ui	5 作成	5 Mkdir
+ui	5 ﾌｫﾙﾀﾞ	5 Mkdir
 ui	6 シェル	6 Shell
 ui	8 編集	8 Edit
 ui	9 表示	9 Skats
@@ -187,10 +183,10 @@ ui	新しいファイル	Jauns fails
 ui	時刻:	Laiks:
 ui	実行:	Palaist:
 ui	名前:	Vārds:
-ui	年-月-日 時:分  Enter 合わせる  ESC そのまま	GGGG-MM-DD hh:mm Ievadiet kopu ESC saglabāt
-ui	Enter 走らせる  ←→ 動かす  BS / Del 消す  ESC やめる	Ievadiet palaist <-> pārvietot BS / Del dzēst ESC atcelt
-ui	Enter 変える  ←→ 動かす  BS / Del 消す  ESC やめる	Ievadiet pārdēvēt <-> pārvietot BS / Del dzēst ESC atcelt
-ui	Enter 作る  ←→ 動かす  BS / Del 消す  ESC やめる	Ievadiet izveidot <-> pārvietot BS / Del delete ESC atcelt
+ui	年-月-日 時:分  Enter 合わせる  ESC そのまま	GGGG-MM-DD hh:mm  Enter iestatīt  ESC atstāt
+ui	Enter 走らせる  ←→ 動かす  BS / Del 消す  ESC やめる	Enter palaist  ←→ pārvietot  BS/Del dzēst  ESC atcelt
+ui	Enter 変える  ←→ 動かす  BS / Del 消す  ESC やめる	Enter pārdēvēt  ←→ pārvietot  BS/Del dzēst  ESC atcelt
+ui	Enter 作る  ←→ 動かす  BS / Del 消す  ESC やめる	Enter izveidot  ←→ pārvietot  BS/Del dzēst  ESC atcelt
 ui	消す	Dzēst
 ui	個の項目	preces
 ui	フォルダは中身ごと消します。よろしいですか？	Mapes tiek dzēstas kopā ar to saturu. Vai esat pārliecināts?
@@ -344,7 +340,7 @@ ui	 組み立てています... %lu / %lu 行	Ēka... %lu / %lu rindas
 ui	 書いています... %lu / %lu KB（FB は隠しています）	Notiek rakstīšana... %lu / %lu KB (FB ir paslēpts)
 ui	書けませんでした	Nevarēja uzrakstīt
 ui	書庫の名前（印の付いた項目、無ければカーソルの項目を入れる）	Arhīva nosaukums (atzīmētie vienumi vai kursora vienums, ja tāda nav)
-ui	Enter 圧縮する  ←→ 動かす  BS / Del 消す  ESC やめる	Ievadiet saspiest ←→ pārvietot BS / Del dzēst ESC atcelt
+ui	Enter 圧縮する  ←→ 動かす  BS / Del 消す  ESC やめる	Enter saspiest  ←→ pārvietot  BS/Del dzēst  ESC atcelt
 ui	WAV 書き出し: %s 中止（%s）	WAV eksportēšana: %s atcelta (%s)
 ui	WAV 書き出し: %s 失敗（%s）	WAV eksportēšana: %s neizdevās (%s)
 ui	WAV 書き出し: %s 合計 %s	WAV eksports: %s kopā %s
@@ -487,11 +483,11 @@ msg.phrase	the sound is not open	skaņa nav atvērta
 msg.phrase	no such channel	tāda kanāla nav
 msg.phrase	the sequencer is busy	sekvencētājs ir aizņemts
 msg.phrase	not enough PSRAM for the song	dziesmai nepietiek PSRAM
-msg.phrase	not a standard MIDI file (no MThd)	nav standarta MIDI fails (bez MThd)
-msg.phrase	no tracks	nav pēdu
-msg.phrase	a track is broken (MTrk)	trase ir salauzta (MTrk)
+msg.phrase	not a standard MIDI file (no MThd)	nav standarta MIDI fails (nav MThd)
+msg.phrase	no tracks	nav celiņu
+msg.phrase	a track is broken (MTrk)	celiņš ir bojāts (MTrk)
 msg.phrase	SMPTE time division is not supported	SMPTE laika dalījums netiek atbalstīts
-msg.phrase	SMF format 2 is not supported (0 and 1 only)	SMF 2 formāts netiek atbalstīts (tikai 0 un 1)
+msg.phrase	SMF format 2 is not supported (0 and 1 only)	SMF formāts 2 netiek atbalstīts (tikai 0 un 1)
 msg.phrase	not a Bulk-Only drive	nav tikai lielapjoma disks
 msg.phrase	not an optical drive	nevis optiskais diskdzinis
 msg.phrase	a system folder cannot be deleted or renamed	sistēmas mapi nevar izdzēst vai pārdēvēt
@@ -510,7 +506,7 @@ msg.phrase	cancelled	atcelts
 msg.phrase	could not mount	nevarēja uzstādīt
 msg.phrase	could not start a read	nevarēja sākt lasīt
 msg.phrase	could not start a write	nevarēja sākt rakstīt
-msg.phrase	is a directory	ir direktorijs
+msg.phrase	is a directory	ir mape
 msg.phrase	that is a directory	tas ir direktorijs
 msg.phrase	no clusters	nav kopu
 msg.phrase	no room for the cluster list	nav vietas klasteru sarakstam
@@ -547,7 +543,7 @@ msg.phrase	Not supported on this drive	Šis disks netiek atbalstīts
 msg.phrase	Invalid path	Nederīgs ceļš
 msg.phrase	Out of memory	Trūkst atmiņas
 msg.phrase	No such drive	Nav tāda piedziņas
-msg.phrase	stopped	apstājās
+msg.phrase	stopped	apturēts
 msg.phrase	cancelled (not enough free space)	atcelts (nav pietiekami daudz brīvas vietas)
 msg.phrase	could not count the free space	nevarēja saskaitīt brīvo vietu
 msg.phrase	the receiver cancelled	uztvērējs ir atcelts
@@ -624,16 +620,16 @@ msg.word	 files	failus
 msg.word	 (	(
 msg.phrase	Untitled	Bez nosaukuma
 msg.phrase	1 File	1 fails
-msg.phrase	2 Edit	2 Rediģēt
+msg.phrase	2 Edit	2 Rediģ
 msg.phrase	3 Graph	3 Grafiks
 msg.phrase	4 Sheet	4 lapa
 msg.phrase	5 Help	5 Palīdzība
-msg.phrase	EMPTY	TUKŠS
-msg.phrase	NUMBER	NUMBER
+msg.phrase	EMPTY	TUKŠA
+msg.phrase	NUMBER	SKAITLIS
 msg.phrase	TEXT	TEKSTS
 msg.phrase	FORMULA	FORMULA
-msg.phrase	Type to enter, F2 to edit, F1 for help	Ierakstiet, lai ievadītu, F2, lai rediģētu, F1, lai saņemtu palīdzību
-msg.phrase	5 CSV	5 CSV
+msg.phrase	Type to enter, F2 to edit, F1 for help	Rakstiet, lai ievadītu, F2 – rediģēt, F1 – palīdzība
+msg.phrase	5 CSV	5 CSV
 msg.phrase	6 ODS	6 ODS
 msg.phrase	[SHIFT]	[SHIFT]
 msg.phrase	[CTRL]	[CTRL]
@@ -641,260 +637,260 @@ msg.phrase	[ALT]	[ALT]
 msg.phrase	Ready	Gatavs
 msg.phrase	SGCALC	SGCALC
 msg.phrase	Press any key	Nospiediet jebkuru taustiņu
-msg.phrase	Y = yes    N = no    Esc = cancel	Y = jā N = nē Esc = atcelt
-msg.phrase	Enter = OK    Esc = cancel    Ctrl-U = clear	Enter = OK Esc = atcelt Ctrl-U = notīrīt
+msg.phrase	Y = yes    N = no    Esc = cancel	Y = jā    N = nē    Esc = atcelt
+msg.phrase	Enter = OK    Esc = cancel    Ctrl-U = clear	Enter = Labi    Esc = atcelt    Ctrl-U = notīrīt
 msg.phrase	First row/column = labels; charts use the 640x480 CLUT8 FB.	Pirmā rinda/kolonna = etiķetes; diagrammas izmanto 640x480 CLUT8 FB.
-msg.phrase	SGCALC - HELP	SGCALC — PALĪDZĪBA
-msg.phrase	Press any key to return	Lai atgrieztos, nospiediet jebkuru taustiņu
-msg.phrase	Press any key to return.	Lai atgrieztos, nospiediet jebkuru taustiņu.
+msg.phrase	SGCALC - HELP	SGCALC - PALĪDZĪBA
+msg.phrase	Press any key to return	Nospiediet jebkuru taustiņu, lai atgrieztos
+msg.phrase	Press any key to return.	Nospiediet jebkuru taustiņu, lai atgrieztos.
 msg.phrase	ABOUT SGCALC	PAR SGCALC
 msg.phrase	New	Jauns
-msg.phrase	Start a new sheet	Sāciet jaunu lapu
+msg.phrase	Start a new sheet	Sākt jaunu lapu
 msg.phrase	Open...	Atvērt...
-msg.phrase	Open an ODS, FODS or CSV file	Atveriet ODS, FODS vai CSV failu
+msg.phrase	Open an ODS, FODS or CSV file	Atvērt ODS, FODS vai CSV failu
 msg.phrase	Save	Saglabāt
-msg.phrase	Save the current file	Saglabājiet pašreizējo failu
+msg.phrase	Save the current file	Saglabāt pašreizējo failu
 msg.phrase	Save As...	Saglabāt kā...
 msg.phrase	Save with a new name or format	Saglabāt ar jaunu nosaukumu vai formātu
 msg.phrase	Export CSV...	Eksportēt CSV...
-msg.phrase	Write a CSV copy	Uzrakstiet CSV kopiju
+msg.phrase	Write a CSV copy	Ierakstīt CSV kopiju
 msg.phrase	Export ODS...	Eksportēt ODS...
-msg.phrase	Write a LibreOffice copy	Uzrakstiet LibreOffice kopiju
+msg.phrase	Write a LibreOffice copy	Ierakstīt LibreOffice kopiju
 msg.phrase	Quit	Iziet
-msg.phrase	Leave SGCALC	Atstājiet SGCALC
-msg.phrase	Clear	Skaidrs
-msg.phrase	Clear the selected cells	Notīriet atlasītās šūnas
+msg.phrase	Leave SGCALC	Iziet no SGCALC
+msg.phrase	Clear	Notīrīt
+msg.phrase	Clear the selected cells	Notīrīt atlasītās šūnas
 msg.phrase	Copy	Kopēt
-msg.phrase	Copy the selection	Kopējiet atlasi
+msg.phrase	Copy the selection	Kopēt atlasi
 msg.phrase	Paste	Ielīmēt
-msg.phrase	Paste at the cursor	Ielīmējiet kursorā
+msg.phrase	Paste at the cursor	Ielīmēt pie kursora
 msg.phrase	Cut	Izgriezt
-msg.phrase	Copy and clear the selection	Kopējiet un notīriet atlasi
-msg.phrase	Select all	Atlasiet visu
-msg.phrase	Select all used cells	Atlasiet visas izmantotās šūnas
+msg.phrase	Copy and clear the selection	Nokopēt un notīrīt atlasi
+msg.phrase	Select all	Atlasīt visu
+msg.phrase	Select all used cells	Atlasīt visas izmantotās šūnas
 msg.phrase	Text color...	Teksta krāsa...
-msg.phrase	Choose the text colour	Izvēlieties teksta krāsu
+msg.phrase	Choose the text colour	Izvēlēties teksta krāsu
 msg.phrase	Background...	Fons...
-msg.phrase	Choose the cell background	Izvēlieties šūnas fonu
-msg.phrase	Line	Līnija
-msg.phrase	Draw a line graph from the selection	No atlases uzzīmējiet līniju diagrammu
-msg.phrase	Bar	Bārs
-msg.phrase	Draw a bar graph from the selection	No atlases uzzīmējiet joslu diagrammu
-msg.phrase	Mixed	Jaukti
-msg.phrase	Bars for the first series, lines for the rest	Stieņi pirmajai sērijai, līnijas pārējām
-msg.phrase	Pie	Pīrāgs
-msg.phrase	Draw a pie graph from the selection	Uzzīmējiet sektoru diagrammu no atlases
-msg.phrase	Range...	Diapazons...
-msg.phrase	Set the graph range explicitly	Skaidri iestatiet diagrammas diapazonu
-msg.phrase	Draw again	Zīmējiet vēlreiz
-msg.phrase	Redraw the last graph	Pārzīmējiet pēdējo grafiku
-msg.phrase	Goto...	Iet...
+msg.phrase	Choose the cell background	Izvēlēties šūnas fonu
+msg.phrase	Line	Līniju
+msg.phrase	Draw a line graph from the selection	Zīmēt līniju diagrammu no atlases
+msg.phrase	Bar	Stabiņu
+msg.phrase	Draw a bar graph from the selection	Zīmēt stabiņu diagrammu no atlases
+msg.phrase	Mixed	Jaukta
+msg.phrase	Bars for the first series, lines for the rest	Stabiņi pirmajai sērijai, līnijas pārējām
+msg.phrase	Pie	Sektoru
+msg.phrase	Draw a pie graph from the selection	Zīmēt sektoru diagrammu no atlases
+msg.phrase	Range...	Apgabals...
+msg.phrase	Set the graph range explicitly	Norādīt diagrammas apgabalu manuāli
+msg.phrase	Draw again	Zīmēt vēlreiz
+msg.phrase	Redraw the last graph	Vēlreiz zīmēt pēdējo diagrammu
+msg.phrase	Goto...	Pāriet...
 msg.phrase	Jump to a cell (for example C12)	Pāriet uz šūnu (piemēram, C12)
 msg.phrase	Column width...	Kolonnas platums...
-msg.phrase	Change the selected columns' width	Mainiet atlasīto kolonnu platumu
+msg.phrase	Change the selected columns' width	Mainīt atlasīto kolonnu platumu
 msg.phrase	Row height...	Rindas augstums...
-msg.phrase	Change the selected rows' height	Mainiet atlasīto rindu augstumu
-msg.phrase	Auto fit	Auto fit
-msg.phrase	Fit widths/heights to the contents (F7)	Pielāgojiet platumu/augstumu saturam (F7)
+msg.phrase	Change the selected rows' height	Mainīt atlasīto rindu augstumu
+msg.phrase	Auto fit	Pielāgot
+msg.phrase	Fit widths/heights to the contents (F7)	Pielāgot platumus/augstumus saturam (F7)
 msg.phrase	Recalculate	Pārrēķināt
-msg.phrase	Re-evaluate all formulas	Pārvērtējiet visas formulas
+msg.phrase	Re-evaluate all formulas	Pārrēķināt visas formulas
 msg.phrase	Erase all	Dzēst visu
-msg.phrase	Clear the whole sheet	Notīriet visu lapu
-msg.phrase	Keys	Atslēgas
-msg.phrase	Show the key guide	Parādiet taustiņu ceļvedi
+msg.phrase	Clear the whole sheet	Notīrīt visu lapu
+msg.phrase	Keys	Taustiņi
+msg.phrase	Show the key guide	Rādīt taustiņu sarakstu
 msg.phrase	About	Par
 msg.phrase	About SGCALC	Par SGCALC
 msg.phrase	File	Fails
 msg.phrase	Edit	Rediģēt
-msg.phrase	Graph	Grafiks
+msg.phrase	Graph	Diagramma
 msg.phrase	Sheet	Lapa
 msg.phrase	Help	Palīdzība
 msg.phrase	File: new, open, save, export, quit	Fails: jauns, atvērt, saglabāt, eksportēt, iziet
 msg.phrase	Edit: clear, copy, paste, cut, select all	Rediģēt: notīrīt, kopēt, ielīmēt, izgriezt, atlasīt visu
-msg.phrase	Graph: line, bar, mixed, pie (draws in the FB)	Diagramma: līnija, josla, jaukta, pīrāgs (zīmējas FB)
-msg.phrase	Sheet: goto, column width, recalculate, erase	Lapa: goto, kolonnas platums, pārrēķināt, dzēst
-msg.phrase	Help: keys and about	Palīdzība: atslēgas un par
+msg.phrase	Graph: line, bar, mixed, pie (draws in the FB)	Diagramma: līniju, stabiņu, jaukta, sektoru (FB)
+msg.phrase	Sheet: goto, column width, recalculate, erase	Lapa: pāriet, kolonnas platums, pārrēķināt, dzēst
+msg.phrase	Help: keys and about	Palīdzība: taustiņi un par
 msg.phrase	Left/Right = menu    Up/Down = item    Enter = choose    Esc = cancel	Pa kreisi/Pa labi = izvēlne Uz augšu/Uz leju = vienums Enter = izvēlieties Esc = atcelt
 msg.phrase	Cancelled	Atcelts
-msg.phrase	The selection is too large or memory is low.	Izvēle ir pārāk liela vai ir maz atmiņas.
+msg.phrase	The selection is too large or memory is low.	Atlase ir pārāk liela vai trūkst atmiņas.
 msg.phrase	the cell	šūna
 msg.phrase	the selection	atlasi
 msg.phrase	Nothing to paste	Nav ko ielīmēt
 msg.phrase	Pasted	Ielīmēts
-msg.phrase	GO TO CELL	DOTIES UZ ŠŪNU
+msg.phrase	GO TO CELL	PĀRIET UZ ŠŪNU
 msg.phrase	Cell reference (A1):	Šūnas atsauce (A1):
-msg.phrase	Goto	Goto
-msg.phrase	COLUMN WIDTH	KOLONAS PLATUMS
+msg.phrase	Goto	Pāriet
+msg.phrase	COLUMN WIDTH	KOLONNAS PLATUMS
 msg.phrase	Width in characters (4..30):	Platums rakstzīmēs (4..30):
 msg.phrase	ROW HEIGHT	RINDAS AUGSTUMS
 msg.phrase	Height in text rows (1..8):	Augstums teksta rindās (1..8):
-msg.phrase	Auto fit: the sheet is empty	Auto fit: lapa ir tukša
+msg.phrase	Auto fit: the sheet is empty	Pielāgot: lapa ir tukša
 msg.phrase	BACKGROUND COLOUR	FONA KRĀSA
 msg.phrase	TEXT COLOUR	TEKSTA KRĀSA
-msg.phrase	Arrows: choose    Enter: apply    Esc: cancel	Bultiņas: izvēlieties Enter: lietot Esc: atcelt
-msg.phrase	Colour index (PC-98 16-colour palette)	Krāsu indekss (PC-98 16 krāsu palete)
+msg.phrase	Arrows: choose    Enter: apply    Esc: cancel	Bultiņas: izvēlēties    Enter: lietot    Esc: atcelt
+msg.phrase	Colour index (PC-98 16-colour palette)	Krāsas numurs (PC-98 16 krāsu palete)
 msg.phrase	Aa 123	Aa 123
-msg.phrase	Enter = apply    Esc = cancel	Enter = lietot Esc = atcelt
+msg.phrase	Enter = apply    Esc = cancel	Enter = lietot    Esc = atcelt
 msg.phrase	Colour	Krāsa
 msg.phrase	Background	Fons
 msg.phrase	Text	Teksts
-msg.phrase	GRAPH RANGE	GRAFIKA DIAPAZONS
-msg.phrase	Range (for example A1:C10):	Diapazons (piemēram, A1:C10):
-msg.phrase	Graph range	Grafika diapazons
-msg.phrase	Use a range such as A1:C10.	Izmantojiet diapazonu, piemēram, A1:C10.
-msg.phrase	Cannot draw the graph.	Nevar uzzīmēt grafiku.
+msg.phrase	GRAPH RANGE	DIAGRAMMAS APGABALS
+msg.phrase	Range (for example A1:C10):	Apgabals (piemēram, A1:C10):
+msg.phrase	Graph range	Diagrammas apgabals
+msg.phrase	Use a range such as A1:C10.	Norādiet apgabalu, piemēram, A1:C10.
+msg.phrase	Cannot draw the graph.	Diagrammu nevar uzzīmēt.
 msg.phrase	line	līniju
 msg.phrase	bar	bārs
 msg.phrase	mixed	sajaukts
 msg.phrase	pie	pīrāgs
-msg.phrase	Clear every cell in this sheet?	Vai dzēst visas šūnas šajā lapā?
+msg.phrase	Clear every cell in this sheet?	Notīrīt visas šīs lapas šūnas?
 msg.phrase	Sheet erased	Lapa izdzēsta
 msg.phrase	Selected all used cells	Atlasītas visas izmantotās šūnas
 msg.phrase	Recalculated	Pārrēķināts
 msg.phrase	Memory	Atmiņa
-msg.phrase	Not enough PSRAM for the spreadsheet.	Nepietiek PSRAM izklājlapai.
+msg.phrase	Not enough PSRAM for the spreadsheet.	Izklājlapai nepietiek PSRAM.
 msg.phrase	The sheet is empty.	Lapa ir tukša.
-msg.phrase	No numeric data in the selected range.	Atlasītajā diapazonā nav ciparu datu.
-msg.phrase	Other	Cits
+msg.phrase	No numeric data in the selected range.	Atlasītajā apgabalā nav skaitļu.
+msg.phrase	Other	Citi
 msg.phrase	No positive values for a pie chart	Sektoru diagrammai nav pozitīvu vērtību
-msg.phrase	LINE	LĪNIJA
-msg.phrase	BAR	BĀRS
-msg.phrase	MIXED	JAUKTAS
-msg.phrase	PIE	PĪRĀGS
+msg.phrase	LINE	LĪNIJU
+msg.phrase	BAR	STABIŅU
+msg.phrase	MIXED	JAUKTA
+msg.phrase	PIE	SEKTORU
 msg.phrase	S:/	S:/
 msg.phrase	Folder	Mape
 msg.phrase	SAVE AS	SAGLABĀT KĀ
-msg.phrase	OPEN FILE	ATvērt failu
+msg.phrase	OPEN FILE	ATVĒRT FAILU
 msg.phrase	LibreOffice / CSV	LibreOffice / CSV
-msg.phrase	ODS  FODS  CSV	ODS FODS CSV
-msg.phrase	Name:	Vārds:
-msg.phrase	(type a name, or choose below)	(ievadiet vārdu vai izvēlieties tālāk)
-msg.phrase	Name	Vārds
+msg.phrase	ODS  FODS  CSV	ODS  FODS  CSV
+msg.phrase	Name:	Nosaukums:
+msg.phrase	(type a name, or choose below)	(ierakstiet nosaukumu vai izvēlieties zemāk)
+msg.phrase	Name	Nosaukums
 msg.phrase	Size	Izmērs
-msg.phrase	Enter=save  Left=up  Right/Enter on [DIR]=open  Tab=drive  Esc=cancel	Enter=save Left=up Right/Enter on [DIR]=atvērt Tab=drive Esc=atcelt
-msg.phrase	Enter=open  Left=up  Right/Enter on [DIR]=open  Tab=drive  Esc=cancel	Enter=atvērt Left=augšup pa labi/Ievadiet uz [DIR]=atvērt Tab=drive Esc=atcelt
+msg.phrase	Enter=save  Left=up  Right/Enter on [DIR]=open  Tab=drive  Esc=cancel	Enter=saglabāt  ←=augšup  →/Enter uz [DIR]=atvērt  Tab=disks  Esc=atcelt
+msg.phrase	Enter=open  Left=up  Right/Enter on [DIR]=open  Tab=drive  Esc=cancel	Enter=atvērt  ←=augšup  →/Enter uz [DIR]=atvērt  Tab=disks  Esc=atcelt
 msg.phrase	Not enough memory.	Nepietiek atmiņas.
 msg.phrase	Overwrite	Pārrakstīt
 msg.phrase	Open	Atvērt
-msg.phrase	The file is too large (limit 8 MB).	Fails ir pārāk liels (līdz 8 MB).
-msg.phrase	Not enough memory to read the file.	Nepietiek atmiņas, lai nolasītu failu.
-msg.phrase	Bad ZIP/ODS data.	Slikti ZIP/ODS dati.
+msg.phrase	The file is too large (limit 8 MB).	Fails ir pārāk liels (ierobežojums 8 MB).
+msg.phrase	Not enough memory to read the file.	Faila nolasīšanai nepietiek atmiņas.
+msg.phrase	Bad ZIP/ODS data.	Bojāti ZIP/ODS dati.
 msg.phrase	CRC error in the ODS file.	CRC kļūda ODS failā.
 msg.phrase	Unsupported or damaged file.	Neatbalstīts vai bojāts fails.
 msg.phrase	Saved	Saglabāts
 msg.phrase	Exported	Eksportēts
 msg.phrase	Unsaved changes	Nesaglabātas izmaiņas
-msg.phrase	Save the current sheet before continuing?	Vai saglabāt pašreizējo lapu pirms turpināt?
+msg.phrase	Save the current sheet before continuing?	Saglabāt pašreizējo lapu pirms turpināšanas?
 msg.phrase	New sheet	Jauna lapa
 msg.phrase	SGTRK	SGTRK
-msg.phrase	UNTITLED	BEZ NOSAUKUMA
+msg.phrase	UNTITLED	UNTITLED
 msg.phrase	song is too large	dziesma ir pārāk liela
 msg.phrase	empty file	tukšs fails
 msg.phrase	not an SGT file	nav SGT fails
-msg.phrase	bad BPM	slikts BPM
-msg.phrase	bad speed	slikts ātrums
-msg.phrase	bad title length	slikts virsraksta garums
-msg.phrase	truncated title	saīsināts virsraksts
-msg.phrase	bad character in title	slikts raksturs virsrakstā
-msg.phrase	truncated order	saīsināta kārtība
-msg.phrase	bad order length	slikts pasūtījuma garums
-msg.phrase	bad pattern number in order	slikts modeļa numurs kārtībā
-msg.phrase	truncated pattern list	saīsināts modeļu saraksts
-msg.phrase	bad pattern count	slikts modeļu skaits
-msg.phrase	bad pattern index	slikta modeļa indekss
-msg.phrase	duplicate pattern	dublēts modelis
-msg.phrase	truncated pattern data	saīsināti modeļa dati
-msg.phrase	invalid pattern data	nederīgi modeļa dati
-msg.phrase	trailing data in file	beigu dati failā
-msg.phrase	order refers to a missing pattern	pasūtījums attiecas uz trūkstošu modeli
+msg.phrase	bad BPM	nepareizs BPM
+msg.phrase	bad speed	nepareizs ātrums
+msg.phrase	bad title length	nepareizs nosaukuma garums
+msg.phrase	truncated title	apgriezts nosaukums
+msg.phrase	bad character in title	nederīga rakstzīme nosaukumā
+msg.phrase	truncated order	apgriezta secība
+msg.phrase	bad order length	nepareizs secības garums
+msg.phrase	bad pattern number in order	nepareizs pattern numurs secībā
+msg.phrase	truncated pattern list	apgriezts pattern saraksts
+msg.phrase	bad pattern count	nepareizs pattern skaits
+msg.phrase	bad pattern index	nepareizs pattern indekss
+msg.phrase	duplicate pattern	dublēts pattern
+msg.phrase	truncated pattern data	apgriezti pattern dati
+msg.phrase	invalid pattern data	nederīgi pattern dati
+msg.phrase	trailing data in file	lieki dati faila beigās
+msg.phrase	order refers to a missing pattern	secība norāda uz trūkstošu pattern
 msg.phrase	A:/	A:/
 msg.phrase	(untitled)	(bez nosaukuma)
-msg.phrase	Ready. Press F1 for help.	Gatavs. Lai saņemtu palīdzību, nospiediet taustiņu F1.
-msg.phrase	Follow OFF	Sekojiet OFF
+msg.phrase	Ready. Press F1 for help.	Gatavs. F1 – palīdzība.
+msg.phrase	Follow OFF	Sekošana IZSL
 msg.phrase	Nothing to undo	Nav ko atsaukt
-msg.phrase	Undo	Atsaukt
-msg.phrase	Note OFF	Piezīme OFF
-msg.phrase	Set an effect letter first	Vispirms iestatiet efekta burtu
-msg.phrase	Effect cleared	Efekts notīrīts
-msg.phrase	Parameter cleared	Parametrs notīrīts
-msg.phrase	Note cleared	Piezīme notīrīta
-msg.phrase	Instrument cleared	Instruments notīrīts
-msg.phrase	Volume cleared	Skaļums notīrīts
-msg.phrase	Order list is full	Pasūtījumu saraksts ir pilns
-msg.phrase	Order inserted	Pasūtījums ievietots
-msg.phrase	Cannot delete the last order	Nevar izdzēst pēdējo pasūtījumu
-msg.phrase	Order deleted	Pasūtījums dzēsts
+msg.phrase	Undo	Atsaukts
+msg.phrase	Note OFF	Note off
+msg.phrase	Set an effect letter first	Vispirms ievadiet efekta burtu
+msg.phrase	Effect cleared	Efekts izdzēsts
+msg.phrase	Parameter cleared	Parametrs izdzēsts
+msg.phrase	Note cleared	Nots izdzēsts
+msg.phrase	Instrument cleared	Instruments izdzēsts
+msg.phrase	Volume cleared	Skaļums izdzēsts
+msg.phrase	Order list is full	Secības saraksts ir pilns
+msg.phrase	Order inserted	Pozīcija ievietota
+msg.phrase	Cannot delete the last order	Pēdējo pozīciju nevar izdzēst
+msg.phrase	Order deleted	Pozīcija izdzēsta
 msg.phrase	Playing song	Atskaņo dziesmu
-msg.phrase	Stopped	Apstājās
+msg.phrase	Stopped	Apturēts
 msg.phrase	New song	Jauna dziesma
-msg.phrase	Discard unsaved changes and start a new song? (Y/N)	Vai atmest nesaglabātās izmaiņas un sākt jaunu dziesmu? (J/N)
-msg.phrase	Discard unsaved changes and open a song? (Y/N)	Vai atmest nesaglabātās izmaiņas un atvērt dziesmu? (J/N)
-msg.phrase	Discard unsaved changes and quit? (Y/N)	Vai atmest nesaglabātās izmaiņas un iziet? (J/N)
-msg.phrase	Song settings updated	Dziesmu iestatījumi ir atjaunināti
+msg.phrase	Discard unsaved changes and start a new song? (Y/N)	Atmest nesaglabātās izmaiņas un sākt jaunu dziesmu? (Y/N)
+msg.phrase	Discard unsaved changes and open a song? (Y/N)	Atmest nesaglabātās izmaiņas un atvērt dziesmu? (Y/N)
+msg.phrase	Discard unsaved changes and quit? (Y/N)	Atmest nesaglabātās izmaiņas un iziet? (Y/N)
+msg.phrase	Song settings updated	Dziesmas iestatījumi mainīti
 msg.phrase	Filename is empty	Faila nosaukums ir tukšs
 msg.phrase	Save cancelled	Saglabāšana atcelta
-msg.phrase	Open cancelled	Atvērts atcelts
-msg.phrase	Edit ON	Rediģēt IESL
-msg.phrase	Edit OFF	Rediģēt IZSL
-msg.phrase	Follow ON	Sekojiet ON
-msg.phrase	Edit is OFF. Press F8 to edit.	Rediģēšana ir IZSLĒGTA. Nospiediet F8, lai rediģētu.
+msg.phrase	Open cancelled	Atvēršana atcelta
+msg.phrase	Edit ON	Rediģēšana IESL
+msg.phrase	Edit OFF	Rediģēšana IZSL
+msg.phrase	Follow ON	Sekošana IESL
+msg.phrase	Edit is OFF. Press F8 to edit.	Rediģēšana izslēgta. Nospiediet F8.
 msg.phrase	I/O error	I/O kļūda
 msg.phrase	file is too large	fails ir pārāk liels
-msg.phrase	truncated file	saīsināts fails
+msg.phrase	truncated file	apgriezts fails
 msg.phrase	SINE PAD	SINE PAD
-msg.phrase	TRIANGLE	Trijstūris
-msg.phrase	SAW LEAD	ZĀĢĒJUMS
-msg.phrase	SQUARE	LAUKTS
-msg.phrase	PULSE 25	PULSS 25
-msg.phrase	ORGAN	ORGĀNES
+msg.phrase	TRIANGLE	TRIANGLE
+msg.phrase	SAW LEAD	SAW LEAD
+msg.phrase	SQUARE	SQUARE
+msg.phrase	PULSE 25	PULSE 25
+msg.phrase	ORGAN	ORGAN
 msg.phrase	BASS	BASS
-msg.phrase	BELL	ZVANS
-msg.phrase	NOISE	TROKSNIS
+msg.phrase	BELL	BELL
+msg.phrase	NOISE	NOISE
 msg.phrase	SINE	SINE
-msg.phrase	SAW	ZĀĢIS
-msg.phrase	OFF	IZSLĒGTS
-msg.phrase	ON	IESL
-msg.phrase	ROW	RINDA
-msg.phrase	CHAN LEVEL	KANĀLA LĪMENIS
-msg.phrase	F1 HELP F2 SONG	F1 PALĪDZĪBA F2 DZIESMA
-msg.phrase	F3 INS  F4 SAVE	F3 INS F4 SAGLABĀT
+msg.phrase	SAW	SAW
+msg.phrase	OFF	OFF
+msg.phrase	ON	ON
+msg.phrase	ROW	ROW
+msg.phrase	CHAN LEVEL	CHAN LEVEL
+msg.phrase	F1 HELP F2 SONG	F1 HELP F2 SONG
+msg.phrase	F3 INS  F4 SAVE	F3 INS  F4 SAVE
 msg.phrase	F5 PLAY F6 PAT	F5 PLAY F6 PAT
 msg.phrase	F7 STOP F8 EDIT	F7 STOP F8 EDIT
 msg.phrase	F9/F10 OCTAVE	F9/F10 OCTAVE
-msg.phrase	F11 FOLLOW	F11 SEKOT
-msg.phrase	F12 QUIT	F12 IZBEIGT
-msg.phrase	SPACE PLAY/STOP	SPĒLĒT/STOP
-msg.phrase	CTRL-S SAVE	CTRL-S SAGLABĀT
-msg.phrase	CTRL-O OPEN	CTRL-O ATVĒRTS
-msg.phrase	C-N NEW C-Z UNDO	C-N JAUNS C-Z UNDO
+msg.phrase	F11 FOLLOW	F11 FOLLOW
+msg.phrase	F12 QUIT	F12 QUIT
+msg.phrase	SPACE PLAY/STOP	SPACE PLAY/STOP
+msg.phrase	CTRL-S SAVE	CTRL-S SAVE
+msg.phrase	CTRL-O OPEN	CTRL-O OPEN
+msg.phrase	C-N NEW C-Z UNDO	C-N NEW C-Z UNDO
 msg.phrase	C-C STOP	C-C STOP
-msg.phrase	#TRANSPORT AND FILES	#TRANSPORTS UN FAILI
-msg.phrase	#ORDER LIST	#PASŪTĪJUMU SARAKSTS
-msg.phrase	#DISPLAY	#DISPLAY
+msg.phrase	#TRANSPORT AND FILES	#ATSKAŅOŠANA UN FAILI
+msg.phrase	#ORDER LIST	#SECĪBAS SARAKSTS
+msg.phrase	#DISPLAY	#ATTĒLOJUMS
 msg.phrase	#EDITING	#REDIĢĒŠANA
-msg.phrase	#EFFECTS (parameter is hexadecimal)	#EFFECTS (parametrs ir heksadecimāls)
-msg.phrase	LEFT/RIGHT PAGE   ENTER OR F1 CLOSE	KREISĀ/LABĀ LAPA IEVADĪT VAI F1 AIZVĒRT
-msg.phrase	SONG SETTINGS	DZIESMU IESTATĪJUMI
-msg.phrase	UP/DOWN SELECT   LEFT/RIGHT ADJUST   ENTER/F2 CLOSE	UZ AUGŠU/UZ LEJU IZVĒLĒTIES KREISĀ/LABOJĀ REGLAMENTĒT ENTER/F2 AIZVĒRT
-msg.phrase	Type to edit the title. Backspace deletes the last character.	Ierakstiet, lai rediģētu nosaukumu. Backspace izdzēš pēdējo rakstzīmi.
-msg.phrase	BPM range 32..255. Speed range 1..31.	BPM diapazons 32..255. Ātruma diapazons 1..31.
-msg.phrase	Pattern effects can also change speed and BPM while playing.	Modeļa efekti spēles laikā var arī mainīt ātrumu un BPM.
+msg.phrase	#EFFECTS (parameter is hexadecimal)	#EFEKTI (parametrs ir heksadecimāls)
+msg.phrase	LEFT/RIGHT PAGE   ENTER OR F1 CLOSE	LEFT/RIGHT PAGE   ENTER OR F1 CLOSE
+msg.phrase	SONG SETTINGS	DZIESMAS IESTATĪJUMI
+msg.phrase	UP/DOWN SELECT   LEFT/RIGHT ADJUST   ENTER/F2 CLOSE	UP/DOWN SELECT   LEFT/RIGHT ADJUST   ENTER/F2 CLOSE
+msg.phrase	Type to edit the title. Backspace deletes the last character.	Rakstiet, lai mainītu nosaukumu. Backspace dzēš pēdējo rakstzīmi.
+msg.phrase	BPM range 32..255. Speed range 1..31.	BPM no 32 līdz 255. Ātrums no 1 līdz 31.
+msg.phrase	Pattern effects can also change speed and BPM while playing.	Pattern efekti atskaņošanas laikā var mainīt arī ātrumu un BPM.
 msg.phrase	INSTRUMENTS	INSTRUMENTI
-msg.phrase	UP/DOWN SELECT   SPACE PREVIEW   ENTER USE   F3 CLOSE	UZ AUGŠU/UZ LEJU IZVĒLĒTIES Space PRIEKŠSKATĪJUMS IEVADĪT IZMANTOT F3 AIZVĒRT
-msg.phrase	All four channels use wavetable synthesis.	Visi četri kanāli izmanto viļņveida sintēzi.
-msg.phrase	Preview plays C-4 on the track under the edit cursor.	Priekšskatījums atskaņo C-4 ierakstā zem rediģēšanas kursora.
+msg.phrase	UP/DOWN SELECT   SPACE PREVIEW   ENTER USE   F3 CLOSE	UP/DOWN SELECT   SPACE PREVIEW   ENTER USE   F3 CLOSE
+msg.phrase	All four channels use wavetable synthesis.	Visi četri kanāli izmanto wavetable sintēzi.
+msg.phrase	Preview plays C-4 on the track under the edit cursor.	Noklausīšanās atskaņo C-4 celiņā zem kursora.
 msg.phrase	SAVE SONG AS	SAGLABĀT DZIESMU KĀ
-msg.phrase	ENTER SAVE   F4 OR CTRL-C CANCEL	IEVADĪT SAGLABĀT F4 VAI CTRL-C ATCELT
-msg.phrase	Directory:	Katalogs:
+msg.phrase	ENTER SAVE   F4 OR CTRL-C CANCEL	ENTER SAVE   F4 OR CTRL-C CANCEL
+msg.phrase	Directory:	Mape:
 msg.phrase	File name:	Faila nosaukums:
 msg.phrase	The extension .SGT is added automatically.	Paplašinājums .SGT tiek pievienots automātiski.
 msg.phrase	An existing file can be overwritten.	Esošu failu var pārrakstīt.
-msg.phrase	OPEN SONG	ATKLĀTA DZIESMA
-msg.phrase	ENTER OPEN  BS PARENT  CTRL-O/CTRL-C CANCEL	ENTER OPEN BS PARENT CTRL-O/CTRL-C CANCEL
+msg.phrase	OPEN SONG	ATVĒRT DZIESMU
+msg.phrase	ENTER OPEN  BS PARENT  CTRL-O/CTRL-C CANCEL	ENTER OPEN  BS PARENT  CTRL-O/CTRL-C CANCEL
 msg.phrase	(no .SGT files in this folder)	(šajā mapē nav .SGT failu)
-msg.phrase	CONFIRM	APSTIPRINĀT
-msg.phrase	Y = YES   N / ENTER / CTRL-C = NO	Y = JĀ N / ENTER / CTRL-C = NĒ
-msg.phrase	Y = yes        N = no	Y = jā N = nē
+msg.phrase	CONFIRM	APSTIPRINĀJUMS
+msg.phrase	Y = YES   N / ENTER / CTRL-C = NO	Y = YES   N / ENTER / CTRL-C = NO
+msg.phrase	Y = yes        N = no	Y = jā        N = nē
 msg.phrase	C-	C-
 msg.phrase	C#	C#
 msg.phrase	D-	D-
@@ -909,197 +905,197 @@ msg.phrase	A#	A#
 msg.phrase	B-	B-
 msg.phrase	A:/dir/name	A:/direktors/nosaukums
 msg.phrase	MThd	MThd
-msg.phrase	broken MThd	salauzts MThd
+msg.phrase	broken MThd	bojāts MThd
 msg.phrase	MIDI IMPORT	MIDI IMPORTS
 msg.phrase	MTrk	MTrk
-msg.phrase	broken delta time	salauzts delta laiks
-msg.phrase	broken running status	bojāts skriešanas statuss
-msg.phrase	broken meta event	bojāts meta pasākums
-msg.phrase	broken sysex event	bojāts siseksa pasākums
-msg.phrase	broken channel event	bojāta kanāla notikums
-msg.phrase	SMF output is too small	SMF izvade ir pārāk maza
-msg.phrase	SMF output is too large	SMF izvade ir pārāk liela
-msg.phrase	the song is too long for SMF	dziesma ir pārāk gara priekš SMF
+msg.phrase	broken delta time	bojāts delta time
+msg.phrase	broken running status	bojāts running status
+msg.phrase	broken meta event	bojāts meta notikums
+msg.phrase	broken sysex event	bojāts SysEx notikums
+msg.phrase	broken channel event	bojāts kanāla notikums
+msg.phrase	SMF output is too small	SMF rezultāts ir pārāk mazs
+msg.phrase	SMF output is too large	SMF rezultāts ir pārāk liels
+msg.phrase	the song is too long for SMF	dziesma ir pārāk gara SMF
 msg.phrase	TRK1	TRK1
 msg.phrase	%s%d	%s%d
 msg.phrase	%s%d:%s%d	%s%d:%s%d
 msg.phrase	%s	%s
 msg.phrase	%.40s%s	%.40s%s
-msg.phrase	  [%s]   %s	[%s] %s
-msg.phrase	EDIT  	REDIĢĒT
-msg.phrase	READY 	GATAVS
-msg.phrase	%4d 	%4d
+msg.phrase	  [%s]   %s	  [%s]   %s
+msg.phrase	EDIT  	RED.
+msg.phrase	READY 	GATAV
+msg.phrase	%4d 	%4d 
 msg.phrase	%s Sum %.7g N %ld%s	%s Summa %.7g N %ld%s
-msg.phrase	ARROWS      move the cell cursor\n	bultiņas pārvieto šūnas kursoru
-msg.phrase	SHIFT+ARR   extend the selection (for graphs/copy)\n	SHIFT+ARR paplašina atlasi (grafikiem/kopēšanai)
-msg.phrase	ENTER       edit the cell; in edit, commit and move down\n	ENTER rediģēt šūnu; rediģēt, veikt un pārvietot uz leju
-msg.phrase	TAB         next cell    SHIFT+TAB  previous cell\n	TAB nākamā šūna SHIFT+TAB iepriekšējā šūna
-msg.phrase	DELETE      clear the selected cell(s)    ESC  cancel\n	DELETE notīrīt atlasīto šūnu(-es) ESC atcelt
-msg.phrase	PGUP/PGDN   move one screen    HOME/END  first/last column\n	PGUP/PGDN pārvietot vienu ekrānu SĀKUMS/BEIGAS pirmajā/pēdējā kolonnā
-msg.phrase	CTRL+HOME   A1    CTRL+END  last used cell\n	CTRL+HOME A1 CTRL+END pēdējā lietotā šūna
-msg.phrase	F1 help  F2 edit  F3 copy  F4 paste  F5 goto  F6 colour\n	F1 palīdzība F2 rediģēt F3 kopēt F4 ielīmēt F5 goto F6 color
-msg.phrase	F7 auto-fit  F8 background  F9 recalc  F10 graph  F11 save  F12 menu\n	F7 automātiskā pielāgošana F8 fons F9 pārrēķināt F10 diagramma F11 saglabāt F12 izvēlni
-msg.phrase	SHIFT+F1 about  SHIFT+F2 row height  SHIFT+F3 column width\n	SHIFT+F1 par SHIFT+F2 rindas augstumu SHIFT+F3 kolonnas platumu
-msg.phrase	SHIFT+F4 select all  SHIFT+F10 graph range  SHIFT+F11 save as\n	SHIFT+F4 atlasīt visu SHIFT+F10 diagrammu diapazonu SHIFT+F11 saglabāt kā
-msg.phrase	CTRL+F1 new  CTRL+F2 open  CTRL+F3 save  CTRL+F4 save as\n	CTRL+F1 jauns CTRL+F2 atvērt CTRL+F3 saglabāt CTRL+F4 saglabāt kā
-msg.phrase	CTRL+F5 export CSV  CTRL+F6 export ODS  ALT+F12 quit\n	CTRL+F5 eksportēt CSV CTRL+F6 eksportēt ODS ALT+F12 iziet
-msg.phrase	Bottom 2 lines: function keys; [SHIFT]/[CTRL]/[ALT] like the filer\n	Apakšējās 2 rindas: funkciju taustiņi; [SHIFT]/[CTRL]/[ALT] tāpat kā fails
-msg.phrase	CTRL+S save  CTRL+O open  CTRL+N new  CTRL+C/V/X copy/paste/cut\n	CTRL+S saglabāt CTRL+O atvērt CTRL+N jauns CTRL+C/V/X kopēt/ielīmēt/izgriezt
-msg.phrase	CTRL+G goto    /  open the menu (1 File, 2 Edit, ...)\n	CTRL+G dodieties / atveriet izvēlni (1 fails, 2 rediģēšana, ...)
-msg.phrase	Built-in functions: SUM AVERAGE MIN MAX COUNT COUNTA\n	Iebūvētās funkcijas: SUM AVERAGE MIN MAX COUNT COUNTA
-msg.phrase	PRODUCT ABS SQRT INT ROUND MOD POWER IF AND OR NOT\n	PRODUCT ABS SQRT INT ROUND MOD POWER JA UN VAI NĒ
-msg.phrase	IFERROR LEN LEFT RIGHT MID UPPER LOWER TRIM CONCATENATE PI\n	IFERROR LEN LEFT LIGHT VIDUS AUGŠĒJĀ APAKŠĒJĀ TRIM CONCATENATE PI
-msg.phrase	Cell refs: A1, $A$1, A1:B10.  Formulas begin with '='.\n	Šūnu refs: A1, $A$1, A1:B10.  Formulas sākas ar “=”.
-msg.phrase	Files: .ods (LibreOffice), .fods (flat XML), .csv\n	Faili: .ods (LibreOffice), .fods (flat XML), .csv
-msg.phrase	ODS/FODS keeps formulas, widths, heights and colours.\n	ODS/FODS saglabā formulas, platumus, augstumus un krāsas.
-msg.phrase	CSV keeps values and formulas (no colours/heights).\n	CSV saglabā vērtības un formulas (bez krāsām/augstumiem).
-msg.phrase	Graph: select a range, press F10, and choose Line/Bar/Mixed/Pie.\n	Diagramma: atlasiet diapazonu, nospiediet F10 un izvēlieties Line/Bar/Mixed/Pie.
-msg.phrase	SGCALC for sgnano\n	SGCALC priekš sgnano
+msg.phrase	ARROWS      move the cell cursor\n	BULTIŅAS    pārvietot šūnas kursoru\n
+msg.phrase	SHIFT+ARR   extend the selection (for graphs/copy)\n	SHIFT+BULT  paplašināt atlasi (diagrammām/kopēšanai)\n
+msg.phrase	ENTER       edit the cell; in edit, commit and move down\n	ENTER       rediģēt šūnu; rediģējot – apstiprināt un uz leju\n
+msg.phrase	TAB         next cell    SHIFT+TAB  previous cell\n	TAB         nākamā šūna    SHIFT+TAB  iepriekšējā šūna\n
+msg.phrase	DELETE      clear the selected cell(s)    ESC  cancel\n	DELETE      notīrīt atlasītās šūnas    ESC  atcelt\n
+msg.phrase	PGUP/PGDN   move one screen    HOME/END  first/last column\n	PGUP/PGDN   viens ekrāns    HOME/END  pirmā/pēdējā kolonna\n
+msg.phrase	CTRL+HOME   A1    CTRL+END  last used cell\n	CTRL+HOME   A1    CTRL+END  pēdējā izmantotā šūna\n
+msg.phrase	F1 help  F2 edit  F3 copy  F4 paste  F5 goto  F6 colour\n	F1 palīdzība  F2 rediģēt  F3 kopēt  F4 ielīmēt  F5 pāriet  F6 krāsa\n
+msg.phrase	F7 auto-fit  F8 background  F9 recalc  F10 graph  F11 save  F12 menu\n	F7 pielāgot  F8 fons  F9 pārrēķināt  F10 diagr.  F11 saglabāt  F12 izvēlne\n
+msg.phrase	SHIFT+F1 about  SHIFT+F2 row height  SHIFT+F3 column width\n	SHIFT+F1 par  SHIFT+F2 rindas augstums  SHIFT+F3 kolonnas platums\n
+msg.phrase	SHIFT+F4 select all  SHIFT+F10 graph range  SHIFT+F11 save as\n	SHIFT+F4 atlasīt visu  SHIFT+F10 diagrammas apgabals  SHIFT+F11 saglabāt kā\n
+msg.phrase	CTRL+F1 new  CTRL+F2 open  CTRL+F3 save  CTRL+F4 save as\n	CTRL+F1 jauns  CTRL+F2 atvērt  CTRL+F3 saglabāt  CTRL+F4 saglabāt kā\n
+msg.phrase	CTRL+F5 export CSV  CTRL+F6 export ODS  ALT+F12 quit\n	CTRL+F5 eksportēt CSV  CTRL+F6 eksportēt ODS  ALT+F12 iziet\n
+msg.phrase	Bottom 2 lines: function keys; [SHIFT]/[CTRL]/[ALT] like the filer\n	Apakšējās 2 rindas: funkciju taustiņi; [SHIFT]/[CTRL]/[ALT] kā filer\n
+msg.phrase	CTRL+S save  CTRL+O open  CTRL+N new  CTRL+C/V/X copy/paste/cut\n	CTRL+S saglabāt  CTRL+O atvērt  CTRL+N jauns  CTRL+C/V/X kop./ielīm./izgr.\n
+msg.phrase	CTRL+G goto    /  open the menu (1 File, 2 Edit, ...)\n	CTRL+G pāriet    /  atvērt izvēlni (1 Fails, 2 Rediģēt, ...)\n
+msg.phrase	Built-in functions: SUM AVERAGE MIN MAX COUNT COUNTA\n	Iebūvētās funkcijas: SUM AVERAGE MIN MAX COUNT COUNTA\n
+msg.phrase	PRODUCT ABS SQRT INT ROUND MOD POWER IF AND OR NOT\n	PRODUCT ABS SQRT INT ROUND MOD POWER IF AND OR NOT\n
+msg.phrase	IFERROR LEN LEFT RIGHT MID UPPER LOWER TRIM CONCATENATE PI\n	IFERROR LEN LEFT RIGHT MID UPPER LOWER TRIM CONCATENATE PI\n
+msg.phrase	Cell refs: A1, $A$1, A1:B10.  Formulas begin with '='.\n	Šūnu atsauces: A1, $A$1, A1:B10.  Formulas sākas ar '='.\n
+msg.phrase	Files: .ods (LibreOffice), .fods (flat XML), .csv\n	Faili: .ods (LibreOffice), .fods (plakans XML), .csv\n
+msg.phrase	ODS/FODS keeps formulas, widths, heights and colours.\n	ODS/FODS saglabā formulas, platumus, augstumus un krāsas.\n
+msg.phrase	CSV keeps values and formulas (no colours/heights).\n	CSV saglabā tikai vērtības un formulas (bez krāsām/augstumiem).\n
+msg.phrase	Graph: select a range, press F10, and choose Line/Bar/Mixed/Pie.\n	Diagramma: atlasiet apgabalu, F10, tad Līniju/Stabiņu/Jaukta/Sektoru.\n
+msg.phrase	SGCALC for sgnano\n	SGCALC for sgnano\n
 msg.phrase	Version 	Versija
-msg.phrase	A Lotus 1-2-3 style spreadsheet as an SGX program.\n\n	Lotus 1-2-3 stila izklājlapa kā SGX programma.
+msg.phrase	A Lotus 1-2-3 style spreadsheet as an SGX program.\n\n	Lotus 1-2-3 stila izklājlapa kā SGX programma.\n\n
 msg.phrase	SGX ABI %u.%u\n	SGX ABI %u.%u
-msg.phrase	Screen mode 3: text + CLUT8 FB (lowres disabled)\n	3. ekrāna režīms: teksts + CLUT8 FB (zemais līmenis ir atspējots)
+msg.phrase	Screen mode 3: text + CLUT8 FB (lowres disabled)\n	Ekrāna režīms 3: teksts + CLUT8 FB (bez lowres slāņa)\n
 msg.phrase	Sheet: %d rows x %d columns\n	Lapa: %d rindas x %d kolonnas
-msg.phrase	Formats: .ods / .fods (LibreOffice), .csv\n\n	Formāti: .ods / .fods (LibreOffice), .csv
-msg.phrase	The grid is drawn on the text plane.\n	Režģis tiek uzzīmēts teksta plaknē.
-msg.phrase	Charts and the 640x480 background use the FB.\n\n	Diagrammas un 640x480 fons izmanto FB.
+msg.phrase	Formats: .ods / .fods (LibreOffice), .csv\n\n	Formāti: .ods / .fods (LibreOffice), .csv\n\n
+msg.phrase	The grid is drawn on the text plane.\n	Režģis tiek zīmēts teksta slānī.\n
+msg.phrase	Charts and the 640x480 background use the FB.\n\n	Diagrammas un 640x480 fons izmanto FB.\n\n
 msg.phrase	%d %s	%d %s
-msg.phrase	Cannot store the cell (%d).	Nevar saglabāt šūnu (%d).
+msg.phrase	Cannot store the cell (%d).	Šūnu nevar ierakstīt (%d).
 msg.phrase	Copied %d x %d cells	Nokopētas %d x %d šūnas
 msg.phrase	Cleared %s	Notīrīts %s
-msg.phrase	'%s' is not a cell reference.	“%s” nav šūnas atsauce.
+msg.phrase	'%s' is not a cell reference.	'%s' nav šūnas atsauce.
 msg.phrase	%d	%d
 msg.phrase	Column width = %d	Kolonnas platums = %d
 msg.phrase	Row height = %d	Rindas augstums = %d
-msg.phrase	Auto fit: %d column(s), %d row(s)	Automātiska pielāgošana: %d kolonna(-as), %d rinda(-s)
+msg.phrase	Auto fit: %d column(s), %d row(s)	Pielāgot: kolonnas %d, rindas %d
 msg.phrase	%2d	%2d
-msg.phrase	Cannot apply the colour (%d).	Nevar piemērot krāsu (%d).
+msg.phrase	Cannot apply the colour (%d).	Krāsu nevar lietot (%d).
 msg.phrase	%s colour = %d	%s krāsa = %d
-msg.phrase	Not a valid range.\nUse a range such as A1:C10.	Nav derīgs diapazons.\nIzmantojiet diapazonu, piemēram, A1:C10.
-msg.phrase	Graph range %s	Grafika diapazons %s
+msg.phrase	Not a valid range.\nUse a range such as A1:C10.	Nederīgs apgabals.\nNorādiet apgabalu, piemēram, A1:C10.
+msg.phrase	Graph range %s	Diagrammas apgabals %s
 msg.phrase	Graph: %s	Grafiks: %s
-msg.phrase	SGCALC: cannot set screen mode 3: %s\n	SGCALC: nevar iestatīt ekrāna režīmu 3: %s
+msg.phrase	SGCALC: cannot set screen mode 3: %s\n	SGCALC: nevar iestatīt ekrāna režīmu 3: %s\n
 msg.phrase	%.2g	%.2g
 msg.phrase	%.6g	%.6g
-msg.phrase	%s  %.0f%%	%s %.0f%%
-msg.phrase	GRAPH  %s  %s	GRAFIKS %s %s
+msg.phrase	%s  %.0f%%	%s  %.0f%%
+msg.phrase	GRAPH  %s  %s	DIAGRAMMA  %s  %s
 msg.phrase	%s%s	%s%s
 msg.phrase	%s/%s	%s/%s
 msg.phrase	%.*s	%.*s
 msg.phrase	%.*s/	%.*s/
-msg.phrase	Cannot read %s\n%s	Nevar nolasīt %s\n%s
+msg.phrase	Cannot read %s\n%s	%s nevar nolasīt\n%s
 msg.phrase	Folder: %s	Mape: %s
 msg.phrase	[DIR] %s	[DIR] %s
-msg.phrase	      %s	%s
+msg.phrase	      %s	      %s
 msg.phrase	%lu.%luM	%lu.%luM
 msg.phrase	%luK	%luK
 msg.phrase	%luB	%luB
-msg.phrase	BOOK1%s	GRĀMATA1%s
+msg.phrase	BOOK1%s	BOOK1%s
 msg.phrase	%c:/	%c:/
 msg.phrase	Unsupported extension.\nUse .csv, .ods or .fods.	Neatbalstīts paplašinājums.\nIzmantojiet .csv, .ods vai .fods.
-msg.phrase	%s already exists.\nOverwrite it?	%s jau pastāv.\nVai to pārrakstīt?
-msg.phrase	%s may not be writable.\nTry anyway?	%s var nebūt rakstāms.\nVai tomēr mēģināt?
-msg.phrase	Unknown file type for %s	Nezināms faila tips %s
-msg.phrase	Unsupported file type.\nUse .csv, .ods or .fods.	Neatbalstīts faila veids.\nIzmantojiet .csv, .ods vai .fods.
-msg.phrase	Cannot open %s\n%s	Nevar atvērt %s\n%s
+msg.phrase	%s already exists.\nOverwrite it?	%s jau pastāv.\nPārrakstīt?
+msg.phrase	%s may not be writable.\nTry anyway?	%s varbūt nevar ierakstīt.\nTomēr mēģināt?
+msg.phrase	Unknown file type for %s	Nezināms faila tips: %s
+msg.phrase	Unsupported file type.\nUse .csv, .ods or .fods.	Neatbalstīts faila tips.\nIzmantojiet .csv, .ods vai .fods.
+msg.phrase	Cannot open %s\n%s	%s nevar atvērt\n%s
 msg.phrase	%s is a folder.	%s ir mape.
-msg.phrase	Cannot import %s\n%s	Nevar importēt %s\n%s
-msg.phrase	Loaded %s	Ielādēts %s
-msg.phrase	Cannot build the %s file.	Nevar izveidot failu %s.
-msg.phrase	Cannot write %s\n%s	Nevar uzrakstīt %s\n%s
+msg.phrase	Cannot import %s\n%s	%s nevar importēt\n%s
+msg.phrase	Loaded %s	Ielādēts: %s
+msg.phrase	Cannot build the %s file.	%s failu nevar izveidot.
+msg.phrase	Cannot write %s\n%s	%s nevar ierakstīt\n%s
 msg.phrase	%s %s	%s %s
-msg.phrase	unsupported version %u	neatbalstīta versija %u
+msg.phrase	unsupported version %u	neatbalstīta versija (%u)
 msg.phrase	%d:%d:%d:%d:%d:%d	%d:%d:%d:%d:%d:%d
 msg.phrase	Octave %d	Oktāva %d
-msg.phrase	Note %s	Piezīme %s
+msg.phrase	Note %s	Nots %s
 msg.phrase	Instrument %d	Instruments %d
 msg.phrase	Volume %s	Skaļums %s
 msg.phrase	Effect %c	Efekts %c
 msg.phrase	Parameter %s	Parametrs %s
-msg.phrase	Pattern %s	Raksts %s
-msg.phrase	Playing pattern %s	Spēļu raksts %s
+msg.phrase	Pattern %s	Pattern %s
+msg.phrase	Playing pattern %s	Atskaņo pattern %s
 msg.phrase	SAVE ERROR: %s	SAGLABĀŠANAS KĻŪDA: %s
-msg.phrase	Saved %s	Saglabāts %s
-msg.phrase	LOAD ERROR: %s	LOAD KĻŪDA: %s
+msg.phrase	Saved %s	Saglabāts: %s
+msg.phrase	LOAD ERROR: %s	IELĀDES KĻŪDA: %s
 msg.phrase	BPM %d	BPM %d
 msg.phrase	Speed %d	Ātrums %d
-msg.phrase	Preview %s	Priekšskatījums %s
+msg.phrase	Preview %s	Noklausīties %s
 msg.phrase	Instrument %s %s	Instruments %s %s
-msg.phrase	Overwrite %s? (Y/N)	Pārrakstīt %s? (J/N)
-msg.phrase	 | BPM %s SPD %s 	| BPM %s SPD %s
-msg.phrase	 SGNO TRACKER 1.0 | 	SGNO TRACKER 1.0 |
-msg.phrase	FILE 	FILE
-msg.phrase	 PAT %s	PAT %s
-msg.phrase	 ORD %d/%d	ORD %d/%d
-msg.phrase	 INS %s 	INS %s
-msg.phrase	 OCT %d	OCT %d
-msg.phrase	 EDIT %s	REDIĢĒT %s
-msg.phrase	ON 	IESL
-msg.phrase	 FOL %s	FOL %s
-msg.phrase	TRACK %d	TRASE %d
+msg.phrase	Overwrite %s? (Y/N)	Pārrakstīt %s? (Y/N)
+msg.phrase	 | BPM %s SPD %s 	 | BPM %s SPD %s 
+msg.phrase	 SGNO TRACKER 1.0 | 	 SGNO TRACKER 1.0 | 
+msg.phrase	FILE 	FILE 
+msg.phrase	 PAT %s	 PAT %s
+msg.phrase	 ORD %d/%d	 ORD %d/%d
+msg.phrase	 INS %s 	 INS %s 
+msg.phrase	 OCT %d	 OCT %d
+msg.phrase	 EDIT %s	 EDIT %s
+msg.phrase	ON 	ON 
+msg.phrase	 FOL %s	 FOL %s
+msg.phrase	TRACK %d	TRACK %d
 msg.phrase	%c%s	%c%s
 msg.phrase	%s %s %s %s	%s %s %s %s
-msg.phrase	%s 	%s
+msg.phrase	%s 	%s 
 msg.phrase	%d %s %s	%d %s %s
-msg.phrase	ORDER %d/%d	PASŪTĪT %d/%d
-msg.phrase	PAT   %s	PAT %s
+msg.phrase	ORDER %d/%d	ORDER %d/%d
+msg.phrase	PAT   %s	PAT   %s
 msg.phrase	INS %s %s	INS %s %s
-msg.phrase	OCT %d  EDIT %s	OCT %d REDIĢĒT %s
-msg.phrase	FOLLOW %s	SEKOT %s
-msg.phrase	PLAYING  ORD %d/%d  PAT %s  ROW %s/%d  SPD %s  BPM %d  F7 STOP	ATSKAŅOŠANAS VADĪBA %d/%d PAT %s RINDA %s/%d SPD %s BPM %d F7 STOP
-msg.phrase	READY  EDIT %s  OCT %d  F1 HELP  F5 PLAY  CTRL-S SAVE	GATAVS REDIĢĒT %s OKT %d F1 PALĪDZĪBA F5 ATSKAŅOT CTRL-S SAGLABĀT
-msg.phrase	 %s 	%s
-msg.phrase	  F5          Play the song from the current order	F5 Atskaņojiet dziesmu no pašreizējā secības
-msg.phrase	  F6          Play the current pattern	F6 Atskaņojiet pašreizējo shēmu
-msg.phrase	  F7/Ctrl-C   Stop playback	F7/Ctrl-C Apturēt atskaņošanu
-msg.phrase	  Space       Play / stop	Space Play / stop
-msg.phrase	  F4          Save as	F4 Saglabāt kā
-msg.phrase	  Ctrl-S      Save (asks for a name if new)	Ctrl-S Saglabāt (prasa vārdu, ja jauns)
-msg.phrase	  Ctrl-O      Open a song	Ctrl-O Atveriet dziesmu
-msg.phrase	  Ctrl-N      New song	Ctrl-N Jauna dziesma
-msg.phrase	  F12         Quit (confirmation if modified)	F12 Iziet (apstiprinājums, ja tiek mainīts)
-msg.phrase	  [ ]         Previous / next order entry	[ ] Iepriekšējais/nākamais pasūtījuma ieraksts
-msg.phrase	  { }         Insert / delete an order entry	{ } Ievietojiet/dzēsiet pasūtījuma ierakstu
-msg.phrase	  - +         Change the pattern in the entry	- + Mainiet rakstu ierakstā
-msg.phrase	  F11         Follow playback (turns off on manual move)	F11 Sekot atskaņošanai (izslēdzas manuāli pārvietojot)
-msg.phrase	  F1          Help; Left/Right changes page	F1 palīdzība; Pa kreisi/pa labi maina lapu
-msg.phrase	  F8          Toggle edit mode	F8 Pārslēgt rediģēšanas režīmu
-msg.phrase	  Arrows      Move the cursor	Bultiņas Pārvietojiet kursoru
-msg.phrase	  PgUp/PgDn   Jump 16 rows	PgUp/PgDn Pārlēkt 16 rindas
-msg.phrase	  Home/End    First / last row	Sākums/Beigas Pirmā / pēdējā rinda
-msg.phrase	  F9/F10      Octave down / up	F9/F10 Oktāva uz leju/uz augšu
-msg.phrase	  Z S X D C V G B H N J M      lower piano row	Z S X D C V G B H N J M apakšējā klavieru rinda
-msg.phrase	  Q 2 W 3 E R 5 T 6 Y 7 U      upper piano row	Q 2 W 3 E R 5 T 6 Y 7 U augšējā klavieru rinda
-msg.phrase	  1           Note off	1 Piezīme izslēgta
-msg.phrase	  0 / Del     0 clears note/inst/fx; Del clears any	0 / Del 0 notīra note/inst/fx; Del notīra jebkuru
-msg.phrase	  Ctrl-Z      Undo the last pattern/order edit	Ctrl-Z Atsaukt pēdējo modeļa/pasūtījuma rediģēšanu
-msg.phrase	  Axy   Volume slide: up x, down y	Axy Volume slaids: uz augšu x, uz leju y
-msg.phrase	  Cxx   Note cut after xx ticks	Cxx Piezīme izgriezta pēc xx atzīmēm
-msg.phrase	  Dxx   Set volume (00..7F)	Dxx Iestatīt skaļumu (00..7F)
-msg.phrase	  Fxx   Speed if xx < 20, otherwise BPM	Fxx ātrums, ja xx < 20, pretējā gadījumā BPM
-msg.phrase	  Hxy   Arpeggio x, y semitones	Hxy Arpeggio x, y pustoņi
-msg.phrase	  Pxx   Pitch slide up	Pxx Pitch slaids uz augšu
-msg.phrase	  Qxx   Pitch slide down	Qxx Nobīde uz leju
-msg.phrase	  F2 song settings, F3 instrument list	F2 dziesmu iestatījumi, F3 instrumentu saraksts
-msg.phrase	HELP %d/2	PALĪDZĪBA %d/2
-msg.phrase	  Title	Nosaukums
-msg.phrase	  [%s_]	[%s_]
-msg.phrase	  BPM   : %d     (left/right -1/+1, -/+ -5/+5)	BPM: %d (pa kreisi/pa labi -1/+1, -/+ -5/+5)
-msg.phrase	  Speed : %d ticks/row	Ātrums: %d ērces/rinda
-msg.phrase	  Rows  : %d (fixed)	Rindas: %d (fiksēta)
-msg.phrase	  Order : %d entries	Pasūtījums: %d ieraksti
-msg.phrase	  Patterns in use : %d	Izmantotie modeļi: %d
-msg.phrase	 #  NAME       WAVE       A   D   S   R  VOL	# NOSAUKUMS WAVE A D S R VOL
-msg.phrase	 %c %d  %-9s %-9s %3d %3d %3d %3d %4d	%c %d %-9s %-9s %3d %3d %3d %3d %4d
+msg.phrase	OCT %d  EDIT %s	OCT %d  EDIT %s
+msg.phrase	FOLLOW %s	FOLLOW %s
+msg.phrase	PLAYING  ORD %d/%d  PAT %s  ROW %s/%d  SPD %s  BPM %d  F7 STOP	PLAYING  ORD %d/%d  PAT %s  ROW %s/%d  SPD %s  BPM %d  F7 STOP
+msg.phrase	READY  EDIT %s  OCT %d  F1 HELP  F5 PLAY  CTRL-S SAVE	READY  EDIT %s  OCT %d  F1 HELP  F5 PLAY  CTRL-S SAVE
+msg.phrase	 %s 	 %s 
+msg.phrase	  F5          Play the song from the current order	  F5          Atskaņot dziesmu no pašreizējās pozīcijas
+msg.phrase	  F6          Play the current pattern	  F6          Atskaņot pašreizējo pattern
+msg.phrase	  F7/Ctrl-C   Stop playback	  F7/Ctrl-C   Apturēt atskaņošanu
+msg.phrase	  Space       Play / stop	  Space       Atskaņot / apturēt
+msg.phrase	  F4          Save as	  F4          Saglabāt kā
+msg.phrase	  Ctrl-S      Save (asks for a name if new)	  Ctrl-S      Saglabāt (jaunai jautā nosaukumu)
+msg.phrase	  Ctrl-O      Open a song	  Ctrl-O      Atvērt dziesmu
+msg.phrase	  Ctrl-N      New song	  Ctrl-N      Jauna dziesma
+msg.phrase	  F12         Quit (confirmation if modified)	  F12         Iziet (jautā, ja ir izmaiņas)
+msg.phrase	  [ ]         Previous / next order entry	  [ ]         Iepriekšējā / nākamā pozīcija
+msg.phrase	  { }         Insert / delete an order entry	  { }         Ievietot / dzēst pozīciju
+msg.phrase	  - +         Change the pattern in the entry	  - +         Mainīt pozīcijas pattern
+msg.phrase	  F11         Follow playback (turns off on manual move)	  F11         Sekot atskaņošanai (izslēdzas, pārvietojot ar roku)
+msg.phrase	  F1          Help; Left/Right changes page	  F1          Palīdzība; Pa kreisi/pa labi maina lapu
+msg.phrase	  F8          Toggle edit mode	  F8          Ieslēgt / izslēgt rediģēšanu
+msg.phrase	  Arrows      Move the cursor	  Bultiņas    Pārvietot kursoru
+msg.phrase	  PgUp/PgDn   Jump 16 rows	  PgUp/PgDn   Pārlēkt 16 rindas
+msg.phrase	  Home/End    First / last row	  Home/End    Pirmā / pēdējā rinda
+msg.phrase	  F9/F10      Octave down / up	  F9/F10      Oktāva uz leju / uz augšu
+msg.phrase	  Z S X D C V G B H N J M      lower piano row	  Z S X D C V G B H N J M      klavieru apakšējā rinda
+msg.phrase	  Q 2 W 3 E R 5 T 6 Y 7 U      upper piano row	  Q 2 W 3 E R 5 T 6 Y 7 U      klavieru augšējā rinda
+msg.phrase	  1           Note off	  1           Note off
+msg.phrase	  0 / Del     0 clears note/inst/fx; Del clears any	  0 / Del     0 dzēš notu/instr./efektu; Del lauku
+msg.phrase	  Ctrl-Z      Undo the last pattern/order edit	  Ctrl-Z      Atsaukt pēdējo pattern/secības izmaiņu
+msg.phrase	  Axy   Volume slide: up x, down y	  Axy   Skaļuma slīdēšana: augšup x, lejup y
+msg.phrase	  Cxx   Note cut after xx ticks	  Cxx   Pārtraukt notu pēc xx tick
+msg.phrase	  Dxx   Set volume (00..7F)	  Dxx   Iestatīt skaļumu (00..7F)
+msg.phrase	  Fxx   Speed if xx < 20, otherwise BPM	  Fxx   Ātrums, ja xx < 20, citādi BPM
+msg.phrase	  Hxy   Arpeggio x, y semitones	  Hxy   Arpedžo x, y pustoņi
+msg.phrase	  Pxx   Pitch slide up	  Pxx   Augstuma slīdēšana augšup
+msg.phrase	  Qxx   Pitch slide down	  Qxx   Augstuma slīdēšana lejup
+msg.phrase	  F2 song settings, F3 instrument list	  F2 dziesmas iestatījumi, F3 instrumentu saraksts
+msg.phrase	HELP %d/2	HELP %d/2
+msg.phrase	  Title	  Nosaukums
+msg.phrase	  [%s_]	  [%s_]
+msg.phrase	  BPM   : %d     (left/right -1/+1, -/+ -5/+5)	  BPM   : %d     (pa kreisi/pa labi -1/+1, -/+ -5/+5)
+msg.phrase	  Speed : %d ticks/row	  Ātrums : %d tick rindā
+msg.phrase	  Rows  : %d (fixed)	  Rindas : %d (fiksēts)
+msg.phrase	  Order : %d entries	  Secība : %d pozīcijas
+msg.phrase	  Patterns in use : %d	  Izmantotie pattern : %d
+msg.phrase	 #  NAME       WAVE       A   D   S   R  VOL	 #  NAME       WAVE       A   D   S   R  VOL
+msg.phrase	 %c %d  %-9s %-9s %3d %3d %3d %3d %4d	 %c %d  %-9s %-9s %3d %3d %3d %3d %4d
 msg.phrase	Current instrument: %s %s	Pašreizējais instruments: %s %s
-msg.phrase	  %s	%s
-msg.phrase	DIR  %s	REŽ. %s
-msg.phrase	 %c %s%s	%c %s%s
+msg.phrase	  %s	  %s
+msg.phrase	DIR  %s	DIR  %s
+msg.phrase	 %c %s%s	 %c %s%s
 msg.phrase	Files: %d	Faili: %d
 msg.phrase	%02d	%02d
 msg.phrase	%03d	%03d
 msg.phrase	%02X	%02X
-msg.phrase	SGNO TRACKER: incompatible SGX ABI\n	SGNO TRACKER: nesaderīgs SGX ABI
+msg.phrase	SGNO TRACKER: incompatible SGX ABI\n	SGNO TRACKER: nesaderīgs SGX ABI\n
 msg.phrase	S: check: wait -- a file is being read or written	S: pārbaudiet: pagaidiet — fails tiek lasīts vai rakstīts
 msg.phrase	S: check: the drive is busy or not ready	S: pārbaudiet: disks ir aizņemts vai nav gatavs
 msg.phrase	nothing for this item (ContextMenu.cfg)	nekas šim vienumam (ContextMenu.cfg)
@@ -1120,43 +1116,72 @@ msg.prefix	compress	saspiest
 msg.prefix	render	renderēt
 msg.phrase	5 Macro	5 Makro
 msg.phrase	6 Help	6 Palīdzība
-msg.phrase	Run current	Palaidiet strāvu
-msg.phrase	Run the macro at the cursor (#! header cell and the cells below it)	Palaidiet makro kursorā (#! galvenes šūna un šūnas zem tā)
+msg.phrase	Run current	Palaist pašreizējo
+msg.phrase	Run the macro at the cursor (#! header cell and the cells below it)	Palaist makrosu pie kursora (#! virsraksta šūna un šūnas zem tās)
 msg.phrase	Run selection	Palaist atlasi
-msg.phrase	Run the selected cells as one macro (top-left cell is the #! header)	Palaidiet atlasītās šūnas kā vienu makro (augšējā kreisā šūna ir #! galvene)
-msg.phrase	Run all	Palaist visu
-msg.phrase	Run every macro in the sheet, top-left to bottom-right	Palaidiet katru lapas makro no augšas no kreisās puses uz apakšējo labo
+msg.phrase	Run the selected cells as one macro (top-left cell is the #! header)	Palaist atlasītās šūnas kā vienu makrosu (augšējā kreisā šūna ir #! virsraksts)
+msg.phrase	Run all	Palaist visus
+msg.phrase	Run every macro in the sheet, top-left to bottom-right	Palaist visus lapas makrosus no augšas pa kreisi līdz lejai pa labi
 msg.phrase	Last error	Pēdējā kļūda
-msg.phrase	Show the last macro error	Rādīt pēdējo makro kļūdu
-msg.phrase	Macro	Makro
-msg.phrase	Macro: run #!ruby / #!python / #!basic cells	Makro: palaidiet #!ruby / #!python / #!pamata šūnas
+msg.phrase	Show the last macro error	Rādīt pēdējo makrosa kļūdu
+msg.phrase	Macro	Makross
+msg.phrase	Macro: run #!ruby / #!python / #!basic cells	Makross: palaist #!ruby / #!python / #!basic šūnas
 msg.phrase	Edit the cell (F2)	Rediģēt šūnu (F2)
-msg.phrase	Fit widths/heights to the contents	Pielāgojiet platumu/augstumu saturam
-msg.phrase	Last macro error	Pēdējā makro kļūda
-msg.phrase	No macro error.	Nav makro kļūdu.
-msg.phrase	IME on	IME ieslēgts
-msg.phrase	IME off	IME izslēgts
-msg.phrase	Macro: %s %s ...	Makro: %s %s ...
-msg.phrase	%s: this firmware cannot run macros (SGX ABI 5.10 or later)	%s: šī programmaparatūra nevar palaist makro (SGX ABI 5.10 vai jaunāka versija)
-msg.phrase	Macro error: %s	Makro kļūda: %s
-msg.phrase	Macro: %s done	Makro: %s Gatavs
-msg.phrase	a macro is already running	makro jau darbojas
+msg.phrase	Fit widths/heights to the contents	Pielāgot platumus/augstumus saturam
+msg.phrase	Last macro error	Pēdējā makrosa kļūda
+msg.phrase	No macro error.	Makrosa kļūdu nav.
+msg.phrase	IME on	IME iesl.
+msg.phrase	IME off	IME izsl.
+msg.phrase	Macro: %s %s ...	Makross: %s %s ...
+msg.phrase	%s: this firmware cannot run macros (SGX ABI 5.10 or later)	%s: šī aparātprogrammatūra nevar palaist makrosus (vajag SGX ABI 5.10 vai jaunāku)
+msg.phrase	Macro error: %s	Makrosa kļūda: %s
+msg.phrase	Macro: %s done	Makross: %s pabeigts
+msg.phrase	a macro is already running	makross jau darbojas
 msg.phrase	this language is not available	šī valoda nav pieejama
 msg.phrase	not enough memory	nepietiek atmiņas
-msg.phrase	the macro stopped with an error	makro apstājās ar kļūdu
-msg.phrase	Macro error %s: %s	Makro kļūda %s: %s
-msg.phrase	Macro: not enough memory	Makro: nepietiek atmiņas
-msg.phrase	Macro: the cursor is not on a macro (a #!ruby / #!python / #!basic cell or the cells below it)	Makro: kursors neatrodas uz makro (#!ruby / #!python / #!pamata šūna vai šūnas zem tā)
-msg.phrase	Macro: no macro in the sheet	Makro: lapā nav makro
-msg.phrase	Run all macros	Palaist visus makro
-msg.phrase	Macros: %d. Run them all, top-left to bottom-right? Changes cannot be undone.	Makro: %d. Vai palaist tos visus — no augšējās kreisās puses uz apakšējo labo pusi? Izmaiņas nevar atsaukt.
-msg.phrase	Macro: %d of %d done	Makro: %d no %d pabeigts
-msg.phrase	Cleared the cell	Iztīrīja šūnu
-msg.phrase	Cleared the selection	Notīrīta atlase
+msg.phrase	the macro stopped with an error	makross apstājās ar kļūdu
+msg.phrase	Macro error %s: %s	Makrosa kļūda %s: %s
+msg.phrase	Macro: not enough memory	Makross: nepietiek atmiņas
+msg.phrase	Macro: the cursor is not on a macro (a #!ruby / #!python / #!basic cell or the cells below it)	Makross: kursors nav uz makrosa (#!ruby / #!python / #!basic šūna vai šūnas zem tās)
+msg.phrase	Macro: no macro in the sheet	Makross: lapā nav makrosu
+msg.phrase	Run all macros	Palaist visus makrosus
+msg.phrase	Macros: %d. Run them all, top-left to bottom-right? Changes cannot be undone.	Makrosi: %d. Palaist visus no augšas pa kreisi līdz lejai pa labi? Izmaiņas nevar atsaukt.
+msg.phrase	Macro: %d of %d done	Makross: pabeigti %d no %d
+msg.phrase	Cleared the cell	Šūna notīrīta
+msg.phrase	Cleared the selection	Atlase notīrīta
 msg.phrase	Background colour = %d	Fona krāsa = %d
 msg.phrase	Text colour = %d	Teksta krāsa = %d
-msg.phrase	Graph: line	Grafiks: līnija
-msg.phrase	Graph: bar	Grafiks: josla
-msg.phrase	Graph: mixed	Grafiks: jaukts
-msg.phrase	Graph: pie	Grafiks: pīrāgs
-msg.phrase	Exported %s	Eksportēts %s
+msg.phrase	Graph: line	Diagramma: līniju
+msg.phrase	Graph: bar	Diagramma: stabiņu
+msg.phrase	Graph: mixed	Diagramma: jaukta
+msg.phrase	Graph: pie	Diagramma: sektoru
+msg.phrase	Exported %s	Eksportēts: %s
+ui	USB・時計・設定	USB, clock, settings
+ui	0.001 秒未満	mazāk par 0.001 s
+ui	%s 秒	%s s
+ui	コンパイル %s  実行 %s	kompilēšana %s  izpilde %s
+ui	コンパイル %s	kompilēšana %s
+ui	実行 %s	izpilde %s
+msg.phrase	1 Help	1 Palīdz
+msg.phrase	3 Copy	3 Kopēt
+msg.phrase	4 Paste	4 Ielīmē
+msg.phrase	5 Goto	5 Iet uz
+msg.phrase	6 Colour	6 Krāsa
+msg.phrase	7 Fit	7 Pielāg
+msg.phrase	8 Backgr	8 Fons
+msg.phrase	9 Recalc	9 Pārrēķ
+msg.phrase	10 Graph	10 Diagr
+msg.phrase	11 Save	11 Sagla
+msg.phrase	12 Menu	12 Izvēl
+msg.phrase	1 About	1 Par
+msg.phrase	2 Height	2 Augst
+msg.phrase	3 Width	3 Platum
+msg.phrase	4 SelAll	4 Visu
+msg.phrase	10 Range	10 Apgab
+msg.phrase	11 Name	11 Kā
+msg.phrase	1 New	1 Jauns
+msg.phrase	2 Open	2 Atvērt
+msg.phrase	4 SaveAs	4 Kā
+msg.phrase	12 Quit	12 Iziet
+msg.phrase	3 Save	3 Sagla
+msg.phrase	Version %s	Versija %s

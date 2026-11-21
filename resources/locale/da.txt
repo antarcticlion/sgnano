@@ -21,14 +21,14 @@ ui	属性を変える	Skift attributterne
 ui	エディタで開く	Åbn i editoren
 ui	テキスト表示（Shift+V / Ctrl+Alt+F7 は 16 進）	Vis som tekst (Shift+V / Ctrl+Alt+F7 hex)
 ui	ドライブの情報	Drev oplysninger
-ui	フォルダを作る / 新しいファイル	Ny mappe / ny fil
+ui	フォルダを作る（Shift+F5） / 新しいファイル（Ctrl+F1）	Ny mappe (Shift+F5) / ny fil (Ctrl+F1)
 ui	シェル sgsh / 媒体を取り出す	Shell sgsh / skub mediet ud
 ui	読み直す	Genindlæs
-ui	見えている画面を PNG で保存	Gem skærmen som PNG
+ui	見えている画面を PNG で保存（Alt+F5 も同じ）	Gem skærmen som PNG (= Alt+F5)
 ui	窓を閉じる・選択を解く（サブフォルダでは上位へ）	Luk vinduet / fjern markeringen (i en undermappe: gå op)
-ui	ファイルの操作（FD と同じ。印・範囲・カーソルの順に選ぶ）	Filhandlinger (som i FD: mærker, derefter området og derefter markøren)
-ui	コピー: 行き先はドライブとフォルダの木から。ESC で止める	Kopier: vælg destinationen fra drev- og mappetræet. ESC stopper
-ui	削除: y で確かめる。印・範囲をまとめて。フォルダは中身ごと	Slet: bekræft med y. Mærker og rækker på én gang. Mapper med deres indhold
+ui	ファイルの操作（FD と同じ。印・範囲・カーソルの順）	Filhandlinger (som i FD: mærker, derefter området og derefter markøren)
+ui	コピー: 行き先は木から選ぶ。ESC で止める	Kopier: vælg destinationen fra drev- og mappetræet. ESC stopper
+ui	削除: y で確かめる。印・範囲をまとめて	Slet: bekræft med y. Mærker og rækker på én gang. Mapper med deres indhold
 ui	フォルダを削除（中身ごと）	Slet en mappe (med dens indhold)
 ui	名前を変える（今の名前を直して Enter）	Omdøb (rediger navnet, Enter)
 ui	属性: R 読み出し専用・H 隠し・S システム・A アーカイブ	Attributter: R skrivebeskyttet, H skjult, S-system, A-arkiv
@@ -50,22 +50,19 @@ ui	画面（Alt+F。FD の F キーとぶつからない）	Skærm (Alt+F, kolli
 ui	FB（絵）/ テキスト面を出す・隠す	Vis/skjul FB (billedet)/teksten
 ui	FB の表示ページ（0〜3）	FB-visningsside (0-3)
 ui	FB を 0 で消す / 明るさを 1/2 に（RGB555）	Ryd FB til 0 / halver dens lysstyrke (RGB555)
-ui	USB のエンドポイントと LAN の状態	USB-endepunkter og LAN-tilstanden
+ui	USB のエンドポイントと LAN（U: 10 秒に 1 度）	USB-endepunkter og LAN-tilstanden
 ui	FB の表示ページを消す / 明るさを 1/2 に	Ryd FB-visningssiden / halver dens lysstyrke
 ui	テキストの属性の見本	Eksempler på tekstattributter
 ui	モニタの EDID（起動時に読んだもの）	Monitor EDID (læs ved opstart)
 ui	フォント ROM のライセンスとクレジット	Font ROM-licenser og kreditter
 ui	設定（表示の言語・IME・キーボードロケール）	Indstillinger (skærmsprog, IME og tastaturlokalitet)
-ui	時計（NTP で合わせた日本時間。s ですぐ合わせる）	Ur (Japan tid indstillet af NTP; s synkroniseres nu)
+ui	時計（NTP で合わせた日本時間。s は 3 分に 1 度）	Ur (Japan tid indstillet af NTP; s synkroniseres nu)
 ui	表計算（SGCALC）を開く	Åbn regneark (SGCALC)
 ui	S: ドライブのエラー検査（誤りがあれば直すか聞く）	Tjek S: for fejl (spørger før reparation)
 ui	トラッカー（TRACKER）を開く	Åbn TRACKER
-ui	再起動（確かめの窓が出る）	Genstart (spørger først)
+ui	再起動（確かめの窓）。Ctrl+Alt+Del も同じ	Genstart (spørger først) = Ctrl+Alt+Del
 ui	ADC のステレオ入力（GP40 / 41）を鳴らす	Afspil ADC stereoindgangen (GP40 / 41)
 ui	VGM/VGZ を 96kHz/24bit WAV に書き出す	Eksporter VGM/VGZ til en 96 kHz / 24-bit WAV
-ui	このヘルプ	Denne hjælp
-ui	ページを替える	Skift side
-ui	閉じる	Tæt
 ui	テキスト・16 進のビュアー（less 風）	Tekst/hex-fremviser (som mindre)
 ui	1 行	En linje
 ui	1 ページ	Én side
@@ -83,10 +80,9 @@ ui	IME の言語（日本語 / English / 한국어）	IME-sprog (japansk / engel
 ui	ひらがな / カタカナで確定	Forpligt dig som hiragana / katakana
 ui	エディタのヘルプ	Redaktørens hjælp
 ui	シェル	Shell
-ui	シェル（csh のサブセット。exit / Ctrl-D で戻る、help で一覧）	Shell (et csh-undersæt. exit / Ctrl-D for at returnere, hjælp viser kommandoerne)
+ui	シェル（csh の一部。exit / Ctrl-D で戻る、help で一覧）	Shell (et csh-undersæt. exit / Ctrl-D for at returnere, hjælp viser kommandoerne)
 ui	一覧と移動	Liste og flytte
 ui	ファイルの操作	Filhandlinger
-ui	画面と機器	Skærm og enheder
 ui	ビュアーとエディタ	Seere og redaktøren
 ui	ヘルプ  %u / %u  %s	Hjælp %u / %u %s
 ui	Left Right: ページを替える    F1 / ESC: 閉じる	Venstre Højre: Skift side F1 / ESC: luk
@@ -147,9 +143,9 @@ ui	10 EP表	10 EP'er
 ui	11 時計	11 Ur
 ui	12 表計	12 CALC
 ui	1 属性	1 Attr
-ui	2 情報	2 Info
+ui	2Drv情報	2 Info
 ui	3 移動	3 Flyt
-ui	5 作成	5 Mkdir
+ui	5 ﾌｫﾙﾀﾞ	5 Mkdir
 ui	6 シェル	6 Skal
 ui	8 編集	8 Edit
 ui	9 表示	9 View
@@ -187,10 +183,10 @@ ui	新しいファイル	Ny fil
 ui	時刻:	Tid:
 ui	実行:	Løbe:
 ui	名前:	Navn:
-ui	年-月-日 時:分  Enter 合わせる  ESC そのまま	ÅÅÅÅ-MM-DD tt:mm Indtast sæt ESC hold
-ui	Enter 走らせる  ←→ 動かす  BS / Del 消す  ESC やめる	Indtast kørsel <-> flyt BS / Slet slet ESC annuller
-ui	Enter 変える  ←→ 動かす  BS / Del 消す  ESC やめる	Indtast omdøb <-> flyt BS / Slet slet ESC annuller
-ui	Enter 作る  ←→ 動かす  BS / Del 消す  ESC やめる	Indtast opret <-> flyt BS / Slet slet ESC annuller
+ui	年-月-日 時:分  Enter 合わせる  ESC そのまま	ÅÅÅÅ-MM-DD tt:mm  Enter indstil  ESC behold
+ui	Enter 走らせる  ←→ 動かす  BS / Del 消す  ESC やめる	Enter kør  ←→ flyt  BS / Del slet  ESC annullér
+ui	Enter 変える  ←→ 動かす  BS / Del 消す  ESC やめる	Enter omdøb  ←→ flyt  BS / Del slet  ESC annullér
+ui	Enter 作る  ←→ 動かす  BS / Del 消す  ESC やめる	Enter opret  ←→ flyt  BS / Del slet  ESC annullér
 ui	消す	Slet
 ui	個の項目	genstande
 ui	フォルダは中身ごと消します。よろしいですか？	Mapper slettes med deres indhold. Er du sikker?
@@ -344,7 +340,7 @@ ui	 組み立てています... %lu / %lu 行	Bygning... %lu / %lu rækker
 ui	 書いています... %lu / %lu KB（FB は隠しています）	Skriver... %lu / %lu KB (FB er skjult)
 ui	書けませんでした	Kunne ikke skrive
 ui	書庫の名前（印の付いた項目、無ければカーソルの項目を入れる）	Arkivnavn (de markerede elementer eller markørelementet, hvis ingen)
-ui	Enter 圧縮する  ←→ 動かす  BS / Del 消す  ESC やめる	Indtast komprimer ←→ flyt BS / Slet slet ESC annuller
+ui	Enter 圧縮する  ←→ 動かす  BS / Del 消す  ESC やめる	Enter komprimér  ←→ flyt  BS / Del slet  ESC annullér
 ui	WAV 書き出し: %s 中止（%s）	WAV-eksport: %s annulleret (%s)
 ui	WAV 書き出し: %s 失敗（%s）	WAV-eksport: %s mislykkedes (%s)
 ui	WAV 書き出し: %s 合計 %s	WAV-eksport: %s i alt %s
@@ -487,11 +483,11 @@ msg.phrase	the sound is not open	lyden er ikke åben
 msg.phrase	no such channel	ingen sådan kanal
 msg.phrase	the sequencer is busy	sequenceren er optaget
 msg.phrase	not enough PSRAM for the song	ikke nok PSRAM til sangen
-msg.phrase	not a standard MIDI file (no MThd)	ikke en standard MIDI-fil (ingen MThd)
+msg.phrase	not a standard MIDI file (no MThd)	ikke en standard-MIDI-fil (mangler MThd)
 msg.phrase	no tracks	ingen spor
-msg.phrase	a track is broken (MTrk)	et spor er brudt (MTrk)
-msg.phrase	SMPTE time division is not supported	SMPTE tidsinddeling understøttes ikke
-msg.phrase	SMF format 2 is not supported (0 and 1 only)	SMF format 2 er ikke understøttet (kun 0 og 1)
+msg.phrase	a track is broken (MTrk)	et spor er beskadiget (MTrk)
+msg.phrase	SMPTE time division is not supported	SMPTE-tidsinddeling understøttes ikke
+msg.phrase	SMF format 2 is not supported (0 and 1 only)	SMF-format 2 understøttes ikke (kun 0 og 1)
 msg.phrase	not a Bulk-Only drive	ikke en bulk-only drev
 msg.phrase	not an optical drive	ikke et optisk drev
 msg.phrase	a system folder cannot be deleted or renamed	en systemmappe kan ikke slettes eller omdøbes
@@ -622,37 +618,37 @@ msg.word	 rows	rækker
 msg.word	 -- not supported yet (FAT / exFAT / NTFS only)	-- ikke understøttet endnu (kun FAT / exFAT / NTFS)
 msg.word	 files	filer
 msg.word	 (	(
-msg.phrase	Untitled	Uden titel
+msg.phrase	Untitled	Unavngivet
 msg.phrase	1 File	1 Fil
-msg.phrase	2 Edit	2 Rediger
+msg.phrase	2 Edit	2 Redig
 msg.phrase	3 Graph	3 Graf
 msg.phrase	4 Sheet	4 ark
 msg.phrase	5 Help	5 Hjælp
 msg.phrase	EMPTY	TOM
-msg.phrase	NUMBER	ANTAL
+msg.phrase	NUMBER	TAL
 msg.phrase	TEXT	TEKST
 msg.phrase	FORMULA	FORMEL
-msg.phrase	Type to enter, F2 to edit, F1 for help	Skriv for at indtaste, F2 for at redigere, F1 for at få hjælp
+msg.phrase	Type to enter, F2 to edit, F1 for help	Skriv for at indtaste, F2 for at redigere, F1 for hjælp
 msg.phrase	5 CSV	5 CSV
 msg.phrase	6 ODS	6 ODS
-msg.phrase	[SHIFT]	[FLYTTE]
+msg.phrase	[SHIFT]	[SHIFT]
 msg.phrase	[CTRL]	[CTRL]
 msg.phrase	[ALT]	[ALT]
-msg.phrase	Ready	Parat
+msg.phrase	Ready	Klar
 msg.phrase	SGCALC	SGCALC
 msg.phrase	Press any key	Tryk på en vilkårlig tast
-msg.phrase	Y = yes    N = no    Esc = cancel	Y = ja N = nej Esc = annuller
-msg.phrase	Enter = OK    Esc = cancel    Ctrl-U = clear	Enter = OK Esc = annuller Ctrl-U = slet
-msg.phrase	First row/column = labels; charts use the 640x480 CLUT8 FB.	Første række/kolonne = etiketter; diagrammer bruger 640x480 CLUT8 FB.
+msg.phrase	Y = yes    N = no    Esc = cancel	Y = ja    N = nej    Esc = annuller
+msg.phrase	Enter = OK    Esc = cancel    Ctrl-U = clear	Enter = OK    Esc = annuller    Ctrl-U = ryd
+msg.phrase	First row/column = labels; charts use the 640x480 CLUT8 FB.	Første række/kolonne = etiketter; diagrammer bruger 640x480 CLUT8-FB.
 msg.phrase	SGCALC - HELP	SGCALC - HJÆLP
 msg.phrase	Press any key to return	Tryk på en vilkårlig tast for at vende tilbage
 msg.phrase	Press any key to return.	Tryk på en vilkårlig tast for at vende tilbage.
 msg.phrase	ABOUT SGCALC	OM SGCALC
 msg.phrase	New	Ny
-msg.phrase	Start a new sheet	Start et nyt ark
-msg.phrase	Open...	Åben...
+msg.phrase	Start a new sheet	Begynd et nyt ark
+msg.phrase	Open...	Åbn...
 msg.phrase	Open an ODS, FODS or CSV file	Åbn en ODS-, FODS- eller CSV-fil
-msg.phrase	Save	Spare
+msg.phrase	Save	Gem
 msg.phrase	Save the current file	Gem den aktuelle fil
 msg.phrase	Save As...	Gem som...
 msg.phrase	Save with a new name or format	Gem med et nyt navn eller format
@@ -660,63 +656,63 @@ msg.phrase	Export CSV...	Eksporter CSV...
 msg.phrase	Write a CSV copy	Skriv en CSV-kopi
 msg.phrase	Export ODS...	Eksporter ODS...
 msg.phrase	Write a LibreOffice copy	Skriv en LibreOffice-kopi
-msg.phrase	Quit	Forlade
-msg.phrase	Leave SGCALC	Forlad SGCALC
-msg.phrase	Clear	Klar
+msg.phrase	Quit	Afslut
+msg.phrase	Leave SGCALC	Afslut SGCALC
+msg.phrase	Clear	Ryd
 msg.phrase	Clear the selected cells	Ryd de markerede celler
-msg.phrase	Copy	Kopi
-msg.phrase	Copy the selection	Kopier valget
+msg.phrase	Copy	Kopier
+msg.phrase	Copy the selection	Kopier markeringen
 msg.phrase	Paste	Indsæt
 msg.phrase	Paste at the cursor	Indsæt ved markøren
-msg.phrase	Cut	Skære
-msg.phrase	Copy and clear the selection	Kopier og fjern markeringen
-msg.phrase	Select all	Vælg alle
-msg.phrase	Select all used cells	Vælg alle brugte celler
+msg.phrase	Cut	Klip
+msg.phrase	Copy and clear the selection	Kopier og ryd markeringen
+msg.phrase	Select all	Marker alt
+msg.phrase	Select all used cells	Marker alle brugte celler
 msg.phrase	Text color...	Tekstfarve...
 msg.phrase	Choose the text colour	Vælg tekstfarven
 msg.phrase	Background...	Baggrund...
-msg.phrase	Choose the cell background	Vælg cellebaggrunden
-msg.phrase	Line	Linje
-msg.phrase	Draw a line graph from the selection	Tegn en linjegraf fra markeringen
-msg.phrase	Bar	Bar
-msg.phrase	Draw a bar graph from the selection	Tegn et søjlediagram fra markeringen
+msg.phrase	Choose the cell background	Vælg cellens baggrund
+msg.phrase	Line	Kurve
+msg.phrase	Draw a line graph from the selection	Tegn et kurvediagram ud fra markeringen
+msg.phrase	Bar	Søjle
+msg.phrase	Draw a bar graph from the selection	Tegn et søjlediagram ud fra markeringen
 msg.phrase	Mixed	Blandet
-msg.phrase	Bars for the first series, lines for the rest	Stænger til den første serie, linjer til resten
-msg.phrase	Pie	Pie
-msg.phrase	Draw a pie graph from the selection	Tegn en cirkeldiagram fra markeringen
-msg.phrase	Range...	Rækkevidde...
-msg.phrase	Set the graph range explicitly	Indstil grafområdet eksplicit
+msg.phrase	Bars for the first series, lines for the rest	Søjler for den første serie, kurver for resten
+msg.phrase	Pie	Cirkel
+msg.phrase	Draw a pie graph from the selection	Tegn et cirkeldiagram ud fra markeringen
+msg.phrase	Range...	Område...
+msg.phrase	Set the graph range explicitly	Angiv diagramområdet manuelt
 msg.phrase	Draw again	Tegn igen
-msg.phrase	Redraw the last graph	Tegn den sidste graf igen
+msg.phrase	Redraw the last graph	Tegn det sidste diagram igen
 msg.phrase	Goto...	Gå til...
-msg.phrase	Jump to a cell (for example C12)	Hop til en celle (for eksempel C12)
+msg.phrase	Jump to a cell (for example C12)	Gå til en celle (for eksempel C12)
 msg.phrase	Column width...	Kolonnebredde...
-msg.phrase	Change the selected columns' width	Skift de valgte kolonners bredde
+msg.phrase	Change the selected columns' width	Ændr bredden på de markerede kolonner
 msg.phrase	Row height...	Rækkehøjde...
-msg.phrase	Change the selected rows' height	Skift højden på de valgte rækker
-msg.phrase	Auto fit	Autotilpasning
+msg.phrase	Change the selected rows' height	Ændr højden på de markerede rækker
+msg.phrase	Auto fit	Tilpas
 msg.phrase	Fit widths/heights to the contents (F7)	Tilpas bredder/højder til indholdet (F7)
 msg.phrase	Recalculate	Genberegn
-msg.phrase	Re-evaluate all formulas	Revurder alle formler
-msg.phrase	Erase all	Slet alle
+msg.phrase	Re-evaluate all formulas	Genberegn alle formler
+msg.phrase	Erase all	Slet alt
 msg.phrase	Clear the whole sheet	Ryd hele arket
-msg.phrase	Keys	Nøgler
-msg.phrase	Show the key guide	Vis nøglevejledningen
+msg.phrase	Keys	Taster
+msg.phrase	Show the key guide	Vis tasteoversigten
 msg.phrase	About	Om
 msg.phrase	About SGCALC	Om SGCALC
-msg.phrase	File	Fil
-msg.phrase	Edit	Redigere
-msg.phrase	Graph	Kurve
+msg.phrase	File	Filer
+msg.phrase	Edit	Rediger
+msg.phrase	Graph	Diagram
 msg.phrase	Sheet	Ark
 msg.phrase	Help	Hjælp
-msg.phrase	File: new, open, save, export, quit	Fil: ny, åbn, gem, eksporter, luk
-msg.phrase	Edit: clear, copy, paste, cut, select all	Rediger: Ryd, kopier, indsæt, klip, vælg alt
-msg.phrase	Graph: line, bar, mixed, pie (draws in the FB)	Graf: linje, søjle, blandet, tærte (tegner i FB)
-msg.phrase	Sheet: goto, column width, recalculate, erase	Ark: goto, kolonnebredde, genberegn, slet
-msg.phrase	Help: keys and about	Hjælp: nøgler og om
+msg.phrase	File: new, open, save, export, quit	Filer: ny, åbn, gem, eksporter, afslut
+msg.phrase	Edit: clear, copy, paste, cut, select all	Rediger: ryd, kopier, indsæt, klip, marker alt
+msg.phrase	Graph: line, bar, mixed, pie (draws in the FB)	Diagram: kurve, søjle, blandet, cirkel (tegnes i FB)
+msg.phrase	Sheet: goto, column width, recalculate, erase	Ark: gå til, kolonnebredde, genberegn, slet
+msg.phrase	Help: keys and about	Hjælp: taster og om
 msg.phrase	Left/Right = menu    Up/Down = item    Enter = choose    Esc = cancel	Venstre/Højre = menu Op/Ned = element Enter = vælg Esc = annuller
 msg.phrase	Cancelled	Annulleret
-msg.phrase	The selection is too large or memory is low.	Valget er for stort, eller hukommelsen er lav.
+msg.phrase	The selection is too large or memory is low.	Markeringen er for stor, eller der er for lidt hukommelse.
 msg.phrase	the cell	cellen
 msg.phrase	the selection	valget
 msg.phrase	Nothing to paste	Intet at indsætte
@@ -727,174 +723,174 @@ msg.phrase	Goto	Gå til
 msg.phrase	COLUMN WIDTH	KOLONNEBREDDE
 msg.phrase	Width in characters (4..30):	Bredde i tegn (4..30):
 msg.phrase	ROW HEIGHT	RÆKKEHØJDE
-msg.phrase	Height in text rows (1..8):	Højde i tekstrækker (1..8):
-msg.phrase	Auto fit: the sheet is empty	Automatisk tilpasning: arket er tomt
+msg.phrase	Height in text rows (1..8):	Højde i tekstlinjer (1..8):
+msg.phrase	Auto fit: the sheet is empty	Tilpas: arket er tomt
 msg.phrase	BACKGROUND COLOUR	BAGGRUNDSFARVE
-msg.phrase	TEXT COLOUR	TEKST FARVE
-msg.phrase	Arrows: choose    Enter: apply    Esc: cancel	Pile: vælg Enter: anvend Esc: annuller
-msg.phrase	Colour index (PC-98 16-colour palette)	Farveindeks (PC-98 16-farvepalet)
+msg.phrase	TEXT COLOUR	TEKSTFARVE
+msg.phrase	Arrows: choose    Enter: apply    Esc: cancel	Pile: vælg    Enter: anvend    Esc: annuller
+msg.phrase	Colour index (PC-98 16-colour palette)	Farvenummer (PC-98's palet med 16 farver)
 msg.phrase	Aa 123	Aa 123
-msg.phrase	Enter = apply    Esc = cancel	Enter = anvend Esc = annuller
+msg.phrase	Enter = apply    Esc = cancel	Enter = anvend    Esc = annuller
 msg.phrase	Colour	Farve
 msg.phrase	Background	Baggrund
 msg.phrase	Text	Tekst
-msg.phrase	GRAPH RANGE	GRAFORVALG
-msg.phrase	Range (for example A1:C10):	Område (f.eks. A1:C10):
-msg.phrase	Graph range	Grafområde
-msg.phrase	Use a range such as A1:C10.	Brug et område som A1:C10.
-msg.phrase	Cannot draw the graph.	Kan ikke tegne grafen.
+msg.phrase	GRAPH RANGE	DIAGRAMOMRÅDE
+msg.phrase	Range (for example A1:C10):	Område (for eksempel A1:C10):
+msg.phrase	Graph range	Diagramområde
+msg.phrase	Use a range such as A1:C10.	Angiv et område som A1:C10.
+msg.phrase	Cannot draw the graph.	Kan ikke tegne diagrammet.
 msg.phrase	line	linje
 msg.phrase	bar	bar
 msg.phrase	mixed	blandet
 msg.phrase	pie	pie
-msg.phrase	Clear every cell in this sheet?	Vil du rydde hver celle i dette ark?
-msg.phrase	Sheet erased	Ark slettet
-msg.phrase	Selected all used cells	Markerede alle brugte celler
+msg.phrase	Clear every cell in this sheet?	Ryd alle celler i dette ark?
+msg.phrase	Sheet erased	Arket er slettet
+msg.phrase	Selected all used cells	Alle brugte celler er markeret
 msg.phrase	Recalculated	Genberegnet
 msg.phrase	Memory	Hukommelse
 msg.phrase	Not enough PSRAM for the spreadsheet.	Ikke nok PSRAM til regnearket.
 msg.phrase	The sheet is empty.	Arket er tomt.
-msg.phrase	No numeric data in the selected range.	Ingen numeriske data i det valgte område.
-msg.phrase	Other	Andre
-msg.phrase	No positive values for a pie chart	Ingen positive værdier for et cirkeldiagram
-msg.phrase	LINE	LINE
-msg.phrase	BAR	BAR
+msg.phrase	No numeric data in the selected range.	Ingen tal i det markerede område.
+msg.phrase	Other	Andet
+msg.phrase	No positive values for a pie chart	Ingen positive værdier til et cirkeldiagram
+msg.phrase	LINE	KURVE
+msg.phrase	BAR	SØJLE
 msg.phrase	MIXED	BLANDET
-msg.phrase	PIE	PIE
+msg.phrase	PIE	CIRKEL
 msg.phrase	S:/	S:/
-msg.phrase	Folder	Folder
+msg.phrase	Folder	Mappe
 msg.phrase	SAVE AS	GEM SOM
 msg.phrase	OPEN FILE	ÅBN FIL
 msg.phrase	LibreOffice / CSV	LibreOffice / CSV
-msg.phrase	ODS  FODS  CSV	ODS FODS CSV
+msg.phrase	ODS  FODS  CSV	ODS  FODS  CSV
 msg.phrase	Name:	Navn:
 msg.phrase	(type a name, or choose below)	(skriv et navn, eller vælg nedenfor)
 msg.phrase	Name	Navn
 msg.phrase	Size	Størrelse
-msg.phrase	Enter=save  Left=up  Right/Enter on [DIR]=open  Tab=drive  Esc=cancel	Enter=gem Venstre=op Højre/Enter på [DIR]=åben fane=drev Esc=annuller
-msg.phrase	Enter=open  Left=up  Right/Enter on [DIR]=open  Tab=drive  Esc=cancel	Enter=åben Venstre=op Højre/Enter på [DIR]=åben fane=drev Esc=annuller
+msg.phrase	Enter=save  Left=up  Right/Enter on [DIR]=open  Tab=drive  Esc=cancel	Enter=gem  Venstre=op  Højre/Enter på [DIR]=åbn  Tab=drev  Esc=annuller
+msg.phrase	Enter=open  Left=up  Right/Enter on [DIR]=open  Tab=drive  Esc=cancel	Enter=åbn  Venstre=op  Højre/Enter på [DIR]=åbn  Tab=drev  Esc=annuller
 msg.phrase	Not enough memory.	Ikke nok hukommelse.
 msg.phrase	Overwrite	Overskriv
-msg.phrase	Open	Åben
+msg.phrase	Open	Åbn
 msg.phrase	The file is too large (limit 8 MB).	Filen er for stor (grænse 8 MB).
 msg.phrase	Not enough memory to read the file.	Ikke nok hukommelse til at læse filen.
-msg.phrase	Bad ZIP/ODS data.	Dårlige ZIP/ODS-data.
+msg.phrase	Bad ZIP/ODS data.	Beskadigede ZIP/ODS-data.
 msg.phrase	CRC error in the ODS file.	CRC-fejl i ODS-filen.
-msg.phrase	Unsupported or damaged file.	Ikke-understøttet eller beskadiget fil.
+msg.phrase	Unsupported or damaged file.	Filen understøttes ikke eller er beskadiget.
 msg.phrase	Saved	Gemt
 msg.phrase	Exported	Eksporteret
 msg.phrase	Unsaved changes	Ikke-gemte ændringer
-msg.phrase	Save the current sheet before continuing?	Vil du gemme det aktuelle ark, før du fortsætter?
+msg.phrase	Save the current sheet before continuing?	Gem det aktuelle ark, før du fortsætter?
 msg.phrase	New sheet	Nyt ark
 msg.phrase	SGTRK	SGTRK
-msg.phrase	UNTITLED	UDEN TITEL
+msg.phrase	UNTITLED	UNTITLED
 msg.phrase	song is too large	sangen er for stor
 msg.phrase	empty file	tom fil
 msg.phrase	not an SGT file	ikke en SGT-fil
-msg.phrase	bad BPM	dårlig BPM
-msg.phrase	bad speed	dårlig hastighed
-msg.phrase	bad title length	dårlig titellængde
+msg.phrase	bad BPM	forkert BPM
+msg.phrase	bad speed	forkert hastighed
+msg.phrase	bad title length	forkert titellængde
 msg.phrase	truncated title	afkortet titel
-msg.phrase	bad character in title	dårlig karakter i titlen
+msg.phrase	bad character in title	ugyldigt tegn i titlen
 msg.phrase	truncated order	afkortet rækkefølge
-msg.phrase	bad order length	dårlig ordrelængde
-msg.phrase	bad pattern number in order	dårligt mønsternummer i rækkefølge
-msg.phrase	truncated pattern list	afkortet mønsterliste
-msg.phrase	bad pattern count	dårligt mønsterantal
-msg.phrase	bad pattern index	dårligt mønsterindeks
-msg.phrase	duplicate pattern	duplikatmønster
-msg.phrase	truncated pattern data	trunkerede mønsterdata
-msg.phrase	invalid pattern data	ugyldige mønsterdata
-msg.phrase	trailing data in file	efterfølgende data i filen
-msg.phrase	order refers to a missing pattern	rækkefølge henviser til et manglende mønster
-msg.phrase	A:/	EN:/
-msg.phrase	(untitled)	(uden titel)
-msg.phrase	Ready. Press F1 for help.	Parat. Tryk på F1 for at få hjælp.
-msg.phrase	Follow OFF	Følg OFF
+msg.phrase	bad order length	forkert rækkefølgelængde
+msg.phrase	bad pattern number in order	forkert patternnummer i rækkefølgen
+msg.phrase	truncated pattern list	afkortet patternliste
+msg.phrase	bad pattern count	forkert antal patterns
+msg.phrase	bad pattern index	forkert patternindeks
+msg.phrase	duplicate pattern	dobbelt pattern
+msg.phrase	truncated pattern data	afkortede patterndata
+msg.phrase	invalid pattern data	ugyldige patterndata
+msg.phrase	trailing data in file	overskydende data i slutningen af filen
+msg.phrase	order refers to a missing pattern	rækkefølgen henviser til et manglende pattern
+msg.phrase	A:/	A:/
+msg.phrase	(untitled)	(unavngivet)
+msg.phrase	Ready. Press F1 for help.	Klar. Tryk F1 for hjælp.
+msg.phrase	Follow OFF	Følg FRA
 msg.phrase	Nothing to undo	Intet at fortryde
-msg.phrase	Undo	Fortryd
-msg.phrase	Note OFF	Bemærk FRA
-msg.phrase	Set an effect letter first	Indstil først et effektbogstav
+msg.phrase	Undo	Fortrudt
+msg.phrase	Note OFF	Note off
+msg.phrase	Set an effect letter first	Angiv først effektbogstavet
 msg.phrase	Effect cleared	Effekt ryddet
 msg.phrase	Parameter cleared	Parameter ryddet
-msg.phrase	Note cleared	Note slettet
+msg.phrase	Note cleared	Tone ryddet
 msg.phrase	Instrument cleared	Instrument ryddet
 msg.phrase	Volume cleared	Lydstyrke ryddet
-msg.phrase	Order list is full	Ordrelisten er fuld
-msg.phrase	Order inserted	Ordre indsat
-msg.phrase	Cannot delete the last order	Kan ikke slette den sidste ordre
-msg.phrase	Order deleted	Ordren slettet
-msg.phrase	Playing song	Spiller sang
+msg.phrase	Order list is full	Rækkefølgelisten er fuld
+msg.phrase	Order inserted	Position indsat
+msg.phrase	Cannot delete the last order	Den sidste position kan ikke slettes
+msg.phrase	Order deleted	Position slettet
+msg.phrase	Playing song	Afspiller sangen
 msg.phrase	Stopped	Stoppet
 msg.phrase	New song	Ny sang
-msg.phrase	Discard unsaved changes and start a new song? (Y/N)	Vil du kassere ikke-gemte ændringer og starte en ny sang? (J/N)
-msg.phrase	Discard unsaved changes and open a song? (Y/N)	Vil du kassere ikke-gemte ændringer og åbne en sang? (J/N)
-msg.phrase	Discard unsaved changes and quit? (Y/N)	Vil du kassere ikke-gemte ændringer og afslutte? (J/N)
-msg.phrase	Song settings updated	Sangindstillinger opdateret
+msg.phrase	Discard unsaved changes and start a new song? (Y/N)	Kassér ikke-gemte ændringer og begynd en ny sang? (Y/N)
+msg.phrase	Discard unsaved changes and open a song? (Y/N)	Kassér ikke-gemte ændringer og åbn en sang? (Y/N)
+msg.phrase	Discard unsaved changes and quit? (Y/N)	Kassér ikke-gemte ændringer og afslut? (Y/N)
+msg.phrase	Song settings updated	Sangens indstillinger ændret
 msg.phrase	Filename is empty	Filnavnet er tomt
 msg.phrase	Save cancelled	Gem annulleret
-msg.phrase	Open cancelled	Åben annulleret
-msg.phrase	Edit ON	Rediger TIL
-msg.phrase	Edit OFF	Rediger FRA
-msg.phrase	Follow ON	Følg PÅ
-msg.phrase	Edit is OFF. Press F8 to edit.	Redigering er FRA. Tryk på F8 for at redigere.
-msg.phrase	I/O error	I/O fejl
+msg.phrase	Open cancelled	Åbning annulleret
+msg.phrase	Edit ON	Redigering TIL
+msg.phrase	Edit OFF	Redigering FRA
+msg.phrase	Follow ON	Følg TIL
+msg.phrase	Edit is OFF. Press F8 to edit.	Redigering er slået fra. Tryk F8 for at redigere.
+msg.phrase	I/O error	I/O-fejl
 msg.phrase	file is too large	filen er for stor
 msg.phrase	truncated file	afkortet fil
-msg.phrase	SINE PAD	SINESPLADE
-msg.phrase	TRIANGLE	TREKANT
-msg.phrase	SAW LEAD	SAVBLY
-msg.phrase	SQUARE	FIRKANT
-msg.phrase	PULSE 25	PULS 25
+msg.phrase	SINE PAD	SINE PAD
+msg.phrase	TRIANGLE	TRIANGLE
+msg.phrase	SAW LEAD	SAW LEAD
+msg.phrase	SQUARE	SQUARE
+msg.phrase	PULSE 25	PULSE 25
 msg.phrase	ORGAN	ORGAN
-msg.phrase	BASS	BAS
-msg.phrase	BELL	KLOKKE
-msg.phrase	NOISE	STØJ
+msg.phrase	BASS	BASS
+msg.phrase	BELL	BELL
+msg.phrase	NOISE	NOISE
 msg.phrase	SINE	SINE
-msg.phrase	SAW	SAV
-msg.phrase	OFF	SLUKKET
-msg.phrase	ON	PÅ
-msg.phrase	ROW	RÆKKE
-msg.phrase	CHAN LEVEL	CHAN-NIVEAU
-msg.phrase	F1 HELP F2 SONG	F1 HJÆLP F2 SANG
-msg.phrase	F3 INS  F4 SAVE	F3 INS F4 GEM
-msg.phrase	F5 PLAY F6 PAT	F5 SPIL F6 PAT
-msg.phrase	F7 STOP F8 EDIT	F7 STOP F8 REDIGER
+msg.phrase	SAW	SAW
+msg.phrase	OFF	OFF
+msg.phrase	ON	ON
+msg.phrase	ROW	ROW
+msg.phrase	CHAN LEVEL	CHAN LEVEL
+msg.phrase	F1 HELP F2 SONG	F1 HELP F2 SONG
+msg.phrase	F3 INS  F4 SAVE	F3 INS  F4 SAVE
+msg.phrase	F5 PLAY F6 PAT	F5 PLAY F6 PAT
+msg.phrase	F7 STOP F8 EDIT	F7 STOP F8 EDIT
 msg.phrase	F9/F10 OCTAVE	F9/F10 OCTAVE
-msg.phrase	F11 FOLLOW	F11 FØLG
-msg.phrase	F12 QUIT	F12 AFSLUT
-msg.phrase	SPACE PLAY/STOP	RUMSPIL/STOP
-msg.phrase	CTRL-S SAVE	CTRL-S GEM
-msg.phrase	CTRL-O OPEN	CTRL-O ÅBN
-msg.phrase	C-N NEW C-Z UNDO	C-N NY C-Z FORTRYD
+msg.phrase	F11 FOLLOW	F11 FOLLOW
+msg.phrase	F12 QUIT	F12 QUIT
+msg.phrase	SPACE PLAY/STOP	SPACE PLAY/STOP
+msg.phrase	CTRL-S SAVE	CTRL-S SAVE
+msg.phrase	CTRL-O OPEN	CTRL-O OPEN
+msg.phrase	C-N NEW C-Z UNDO	C-N NEW C-Z UNDO
 msg.phrase	C-C STOP	C-C STOP
-msg.phrase	#TRANSPORT AND FILES	#TRANSPORT OG FILER
-msg.phrase	#ORDER LIST	#ORDRELISTE
-msg.phrase	#DISPLAY	#VISE
+msg.phrase	#TRANSPORT AND FILES	#AFSPILNING OG FILER
+msg.phrase	#ORDER LIST	#RÆKKEFØLGELISTE
+msg.phrase	#DISPLAY	#VISNING
 msg.phrase	#EDITING	#REDIGERING
-msg.phrase	#EFFECTS (parameter is hexadecimal)	#EFFECTS (parameter er hexadecimal)
-msg.phrase	LEFT/RIGHT PAGE   ENTER OR F1 CLOSE	VENSTRE/HØJRE SIDE ENTER ELLER F1 LUK
+msg.phrase	#EFFECTS (parameter is hexadecimal)	#EFFEKTER (parameteren er hexadecimal)
+msg.phrase	LEFT/RIGHT PAGE   ENTER OR F1 CLOSE	LEFT/RIGHT PAGE   ENTER OR F1 CLOSE
 msg.phrase	SONG SETTINGS	SANGINDSTILLINGER
-msg.phrase	UP/DOWN SELECT   LEFT/RIGHT ADJUST   ENTER/F2 CLOSE	OP/NED VÆLG VENSTRE/HØJRE JUSTER ENTER/F2 LUK
-msg.phrase	Type to edit the title. Backspace deletes the last character.	Skriv for at redigere titlen. Backspace sletter det sidste tegn.
-msg.phrase	BPM range 32..255. Speed range 1..31.	BPM-interval 32..255. Hastighedsområde 1..31.
-msg.phrase	Pattern effects can also change speed and BPM while playing.	Mønstereffekter kan også ændre hastighed og BPM, mens du spiller.
+msg.phrase	UP/DOWN SELECT   LEFT/RIGHT ADJUST   ENTER/F2 CLOSE	UP/DOWN SELECT   LEFT/RIGHT ADJUST   ENTER/F2 CLOSE
+msg.phrase	Type to edit the title. Backspace deletes the last character.	Skriv for at ændre titlen. Backspace sletter det sidste tegn.
+msg.phrase	BPM range 32..255. Speed range 1..31.	BPM fra 32 til 255. Hastighed fra 1 til 31.
+msg.phrase	Pattern effects can also change speed and BPM while playing.	Effekter i patterns kan også ændre hastighed og BPM under afspilning.
 msg.phrase	INSTRUMENTS	INSTRUMENTER
-msg.phrase	UP/DOWN SELECT   SPACE PREVIEW   ENTER USE   F3 CLOSE	OP/NED VÆLG MELLEMRUM PREVIEW INDGIV BRUG F3 LUK
-msg.phrase	All four channels use wavetable synthesis.	Alle fire kanaler bruger wavetable syntese.
-msg.phrase	Preview plays C-4 on the track under the edit cursor.	Preview afspiller C-4 på sporet under redigeringsmarkøren.
-msg.phrase	SAVE SONG AS	GEM SANG SOM
-msg.phrase	ENTER SAVE   F4 OR CTRL-C CANCEL	INDGIV GEM F4 ELLER CTRL-C ANNULLER
-msg.phrase	Directory:	Vejviser:
+msg.phrase	UP/DOWN SELECT   SPACE PREVIEW   ENTER USE   F3 CLOSE	UP/DOWN SELECT   SPACE PREVIEW   ENTER USE   F3 CLOSE
+msg.phrase	All four channels use wavetable synthesis.	Alle fire kanaler bruger wavetable-syntese.
+msg.phrase	Preview plays C-4 on the track under the edit cursor.	Lyt spiller C-4 på sporet under markøren.
+msg.phrase	SAVE SONG AS	GEM SANGEN SOM
+msg.phrase	ENTER SAVE   F4 OR CTRL-C CANCEL	ENTER SAVE   F4 OR CTRL-C CANCEL
+msg.phrase	Directory:	Mappe:
 msg.phrase	File name:	Filnavn:
 msg.phrase	The extension .SGT is added automatically.	Filtypenavnet .SGT tilføjes automatisk.
 msg.phrase	An existing file can be overwritten.	En eksisterende fil kan overskrives.
-msg.phrase	OPEN SONG	ÅBEN SANG
-msg.phrase	ENTER OPEN  BS PARENT  CTRL-O/CTRL-C CANCEL	INDGÅ ÅBEN BS FORÆLDRE CTRL-O/CTRL-C ANNULLER
+msg.phrase	OPEN SONG	ÅBN SANG
+msg.phrase	ENTER OPEN  BS PARENT  CTRL-O/CTRL-C CANCEL	ENTER OPEN  BS PARENT  CTRL-O/CTRL-C CANCEL
 msg.phrase	(no .SGT files in this folder)	(ingen .SGT-filer i denne mappe)
-msg.phrase	CONFIRM	BEKRÆFTE
-msg.phrase	Y = YES   N / ENTER / CTRL-C = NO	Y = JA N / ENTER / CTRL-C = NEJ
-msg.phrase	Y = yes        N = no	Y = ja N = nej
+msg.phrase	CONFIRM	BEKRÆFT
+msg.phrase	Y = YES   N / ENTER / CTRL-C = NO	Y = YES   N / ENTER / CTRL-C = NO
+msg.phrase	Y = yes        N = no	Y = ja        N = nej
 msg.phrase	C-	C-
 msg.phrase	C#	C#
 msg.phrase	D-	D-
@@ -904,19 +900,19 @@ msg.phrase	F-	F-
 msg.phrase	F#	F#
 msg.phrase	G-	G-
 msg.phrase	G#	G#
-msg.phrase	A-	EN-
-msg.phrase	A#	EN#
+msg.phrase	A-	A-
+msg.phrase	A#	A#
 msg.phrase	B-	B-
 msg.phrase	A:/dir/name	A:/dir/navn
 msg.phrase	MThd	MThd
-msg.phrase	broken MThd	brudt MThd
-msg.phrase	MIDI IMPORT	MIDI IMPORT
+msg.phrase	broken MThd	beskadiget MThd
+msg.phrase	MIDI IMPORT	MIDI-IMPORT
 msg.phrase	MTrk	MTrk
-msg.phrase	broken delta time	brudt deltatid
-msg.phrase	broken running status	brudt kørestatus
-msg.phrase	broken meta event	brudt metahændelse
-msg.phrase	broken sysex event	brudt sysex-begivenhed
-msg.phrase	broken channel event	brudt kanalhændelse
+msg.phrase	broken delta time	beskadiget delta time
+msg.phrase	broken running status	beskadiget running status
+msg.phrase	broken meta event	beskadiget metahændelse
+msg.phrase	broken sysex event	beskadiget SysEx-hændelse
+msg.phrase	broken channel event	beskadiget kanalhændelse
 msg.phrase	SMF output is too small	SMF-output er for lille
 msg.phrase	SMF output is too large	SMF-output er for stort
 msg.phrase	the song is too long for SMF	sangen er for lang til SMF
@@ -925,64 +921,64 @@ msg.phrase	%s%d	%s%d
 msg.phrase	%s%d:%s%d	%s%d:%s%d
 msg.phrase	%s	%s
 msg.phrase	%.40s%s	%.40s%s
-msg.phrase	  [%s]   %s	[%s] %s
-msg.phrase	EDIT  	REDIGERE
-msg.phrase	READY 	PARAT
-msg.phrase	%4d 	%4d
+msg.phrase	  [%s]   %s	  [%s]   %s
+msg.phrase	EDIT  	REDIG
+msg.phrase	READY 	KLAR
+msg.phrase	%4d 	%4d 
 msg.phrase	%s Sum %.7g N %ld%s	%s Sum %.7g N %ld%s
-msg.phrase	ARROWS      move the cell cursor\n	PILE flytter cellemarkøren
-msg.phrase	SHIFT+ARR   extend the selection (for graphs/copy)\n	SHIFT+ARR udvider markeringen (for grafer/kopi)
-msg.phrase	ENTER       edit the cell; in edit, commit and move down\n	ENTER rediger cellen; i edit, commit og flyt ned
-msg.phrase	TAB         next cell    SHIFT+TAB  previous cell\n	TAB næste celle SHIFT+TAB forrige celle
-msg.phrase	DELETE      clear the selected cell(s)    ESC  cancel\n	DELETE ryd den/de valgte celle(r) ESC annuller
-msg.phrase	PGUP/PGDN   move one screen    HOME/END  first/last column\n	PGUP/PGDN flytter én skærm HOME/END første/sidste kolonne
-msg.phrase	CTRL+HOME   A1    CTRL+END  last used cell\n	CTRL+HJEM A1 CTRL+END sidst brugte celle
-msg.phrase	F1 help  F2 edit  F3 copy  F4 paste  F5 goto  F6 colour\n	F1 hjælp F2 redigere F3 kopiere F4 indsætte F5 gå til F6 farve
-msg.phrase	F7 auto-fit  F8 background  F9 recalc  F10 graph  F11 save  F12 menu\n	F7 auto-tilpas F8 baggrund F9 recalc F10 graf F11 gem F12 menu
-msg.phrase	SHIFT+F1 about  SHIFT+F2 row height  SHIFT+F3 column width\n	SHIFT+F1 om SHIFT+F2 rækkehøjde SHIFT+F3 kolonnebredde
-msg.phrase	SHIFT+F4 select all  SHIFT+F10 graph range  SHIFT+F11 save as\n	SHIFT+F4 vælg alle SHIFT+F10 grafområde SHIFT+F11 gem som
-msg.phrase	CTRL+F1 new  CTRL+F2 open  CTRL+F3 save  CTRL+F4 save as\n	CTRL+F1 ny CTRL+F2 åben CTRL+F3 gem CTRL+F4 gem som
-msg.phrase	CTRL+F5 export CSV  CTRL+F6 export ODS  ALT+F12 quit\n	CTRL+F5 eksport CSV CTRL+F6 eksport ODS ALT+F12 afsluttes
-msg.phrase	Bottom 2 lines: function keys; [SHIFT]/[CTRL]/[ALT] like the filer\n	Nederste 2 linjer: funktionstaster; [SHIFT]/[CTRL]/[ALT] ligesom fileret
-msg.phrase	CTRL+S save  CTRL+O open  CTRL+N new  CTRL+C/V/X copy/paste/cut\n	CTRL+S gem CTRL+O åbn CTRL+N ny CTRL+C/V/X kopier/indsæt/klip
-msg.phrase	CTRL+G goto    /  open the menu (1 File, 2 Edit, ...)\n	CTRL+G gå til / åbn menuen (1 fil, 2 rediger, ...)
-msg.phrase	Built-in functions: SUM AVERAGE MIN MAX COUNT COUNTA\n	Indbyggede funktioner: SUM AVERAGE MIN MAX COUNT COUNTA
-msg.phrase	PRODUCT ABS SQRT INT ROUND MOD POWER IF AND OR NOT\n	PRODUKT ABS SQRT INT RUND MOD POWER HVIS OG ELLER IKKE
-msg.phrase	IFERROR LEN LEFT RIGHT MID UPPER LOWER TRIM CONCATENATE PI\n	IFERROR LEN VENSTRE HØJRE MIDTE ØVRE NEDERSTE TRIM CONCATENATE PI
-msg.phrase	Cell refs: A1, $A$1, A1:B10.  Formulas begin with '='.\n	Cellereferencer: A1, $A$1, A1:B10.  Formler begynder med '='.
-msg.phrase	Files: .ods (LibreOffice), .fods (flat XML), .csv\n	Filer: .ods (LibreOffice), .fods (flad XML), .csv
-msg.phrase	ODS/FODS keeps formulas, widths, heights and colours.\n	ODS/FODS beholder formler, bredder, højder og farver.
-msg.phrase	CSV keeps values and formulas (no colours/heights).\n	CSV beholder værdier og formler (ingen farver/højder).
-msg.phrase	Graph: select a range, press F10, and choose Line/Bar/Mixed/Pie.\n	Graf: vælg et område, tryk på F10, og vælg Linje/Søjle/Blandet/Tærte.
-msg.phrase	SGCALC for sgnano\n	SGCALC for sgnano
+msg.phrase	ARROWS      move the cell cursor\n	PILE        flyt cellemarkøren\n
+msg.phrase	SHIFT+ARR   extend the selection (for graphs/copy)\n	SHIFT+PIL   udvid markeringen (til diagrammer/kopiering)\n
+msg.phrase	ENTER       edit the cell; in edit, commit and move down\n	ENTER       rediger cellen; under redigering, godkend og gå ned\n
+msg.phrase	TAB         next cell    SHIFT+TAB  previous cell\n	TAB         næste celle    SHIFT+TAB  forrige celle\n
+msg.phrase	DELETE      clear the selected cell(s)    ESC  cancel\n	DELETE      ryd de markerede celler    ESC  annuller\n
+msg.phrase	PGUP/PGDN   move one screen    HOME/END  first/last column\n	PGUP/PGDN   én skærm    HOME/END  første/sidste kolonne\n
+msg.phrase	CTRL+HOME   A1    CTRL+END  last used cell\n	CTRL+HOME   A1    CTRL+END  sidste brugte celle\n
+msg.phrase	F1 help  F2 edit  F3 copy  F4 paste  F5 goto  F6 colour\n	F1 hjælp  F2 rediger  F3 kopier  F4 indsæt  F5 gå til  F6 farve\n
+msg.phrase	F7 auto-fit  F8 background  F9 recalc  F10 graph  F11 save  F12 menu\n	F7 tilpas  F8 baggrund  F9 genberegn  F10 diagram  F11 gem  F12 menu\n
+msg.phrase	SHIFT+F1 about  SHIFT+F2 row height  SHIFT+F3 column width\n	SHIFT+F1 om  SHIFT+F2 rækkehøjde  SHIFT+F3 kolonnebredde\n
+msg.phrase	SHIFT+F4 select all  SHIFT+F10 graph range  SHIFT+F11 save as\n	SHIFT+F4 marker alt  SHIFT+F10 diagramområde  SHIFT+F11 gem som\n
+msg.phrase	CTRL+F1 new  CTRL+F2 open  CTRL+F3 save  CTRL+F4 save as\n	CTRL+F1 ny  CTRL+F2 åbn  CTRL+F3 gem  CTRL+F4 gem som\n
+msg.phrase	CTRL+F5 export CSV  CTRL+F6 export ODS  ALT+F12 quit\n	CTRL+F5 eksporter CSV  CTRL+F6 eksporter ODS  ALT+F12 afslut\n
+msg.phrase	Bottom 2 lines: function keys; [SHIFT]/[CTRL]/[ALT] like the filer\n	Nederste 2 linjer: funktionstaster; [SHIFT]/[CTRL]/[ALT] som i filer\n
+msg.phrase	CTRL+S save  CTRL+O open  CTRL+N new  CTRL+C/V/X copy/paste/cut\n	CTRL+S gem  CTRL+O åbn  CTRL+N ny  CTRL+C/V/X kopier/indsæt/klip\n
+msg.phrase	CTRL+G goto    /  open the menu (1 File, 2 Edit, ...)\n	CTRL+G gå til    /  åbn menuen (1 Filer, 2 Rediger, ...)\n
+msg.phrase	Built-in functions: SUM AVERAGE MIN MAX COUNT COUNTA\n	Indbyggede funktioner: SUM AVERAGE MIN MAX COUNT COUNTA\n
+msg.phrase	PRODUCT ABS SQRT INT ROUND MOD POWER IF AND OR NOT\n	PRODUCT ABS SQRT INT ROUND MOD POWER IF AND OR NOT\n
+msg.phrase	IFERROR LEN LEFT RIGHT MID UPPER LOWER TRIM CONCATENATE PI\n	IFERROR LEN LEFT RIGHT MID UPPER LOWER TRIM CONCATENATE PI\n
+msg.phrase	Cell refs: A1, $A$1, A1:B10.  Formulas begin with '='.\n	Cellereferencer: A1, $A$1, A1:B10.  Formler begynder med '='.\n
+msg.phrase	Files: .ods (LibreOffice), .fods (flat XML), .csv\n	Filer: .ods (LibreOffice), .fods (flad XML), .csv\n
+msg.phrase	ODS/FODS keeps formulas, widths, heights and colours.\n	ODS/FODS bevarer formler, bredder, højder og farver.\n
+msg.phrase	CSV keeps values and formulas (no colours/heights).\n	CSV bevarer kun værdier og formler (ingen farver/højder).\n
+msg.phrase	Graph: select a range, press F10, and choose Line/Bar/Mixed/Pie.\n	Diagram: marker et område, tryk F10, og vælg Kurve/Søjle/Blandet/Cirkel.\n
+msg.phrase	SGCALC for sgnano\n	SGCALC for sgnano\n
 msg.phrase	Version 	Version
-msg.phrase	A Lotus 1-2-3 style spreadsheet as an SGX program.\n\n	Et Lotus 1-2-3 stil regneark som et SGX program.
+msg.phrase	A Lotus 1-2-3 style spreadsheet as an SGX program.\n\n	Et regneark i Lotus 1-2-3-stil som SGX-program.\n\n
 msg.phrase	SGX ABI %u.%u\n	SGX ABI %u.%u
-msg.phrase	Screen mode 3: text + CLUT8 FB (lowres disabled)\n	Skærmtilstand 3: tekst + CLUT8 FB (lowres deaktiveret)
+msg.phrase	Screen mode 3: text + CLUT8 FB (lowres disabled)\n	Skærmtilstand 3: tekst + CLUT8-FB (uden lowres-lag)\n
 msg.phrase	Sheet: %d rows x %d columns\n	Ark: %d rækker x %d kolonner
-msg.phrase	Formats: .ods / .fods (LibreOffice), .csv\n\n	Formater: .ods / .fods (LibreOffice), .csv
-msg.phrase	The grid is drawn on the text plane.\n	Gitteret er tegnet på tekstplanet.
-msg.phrase	Charts and the 640x480 background use the FB.\n\n	Diagrammer og 640x480 baggrunden bruger FB.
+msg.phrase	Formats: .ods / .fods (LibreOffice), .csv\n\n	Formater: .ods / .fods (LibreOffice), .csv\n\n
+msg.phrase	The grid is drawn on the text plane.\n	Gitteret tegnes på tekstlaget.\n
+msg.phrase	Charts and the 640x480 background use the FB.\n\n	Diagrammer og baggrunden på 640x480 bruger FB.\n\n
 msg.phrase	%d %s	%d %s
 msg.phrase	Cannot store the cell (%d).	Kan ikke gemme cellen (%d).
-msg.phrase	Copied %d x %d cells	Kopierede %d x %d celler
+msg.phrase	Copied %d x %d cells	%d x %d celler kopieret
 msg.phrase	Cleared %s	Ryddet %s
 msg.phrase	'%s' is not a cell reference.	'%s' er ikke en cellereference.
 msg.phrase	%d	%d
-msg.phrase	Column width = %d	Søjlebredde = %d
+msg.phrase	Column width = %d	Kolonnebredde = %d
 msg.phrase	Row height = %d	Rækkehøjde = %d
-msg.phrase	Auto fit: %d column(s), %d row(s)	Automatisk tilpasning: %d kolonne(r), %d række(r)
+msg.phrase	Auto fit: %d column(s), %d row(s)	Tilpas: %d kolonne(r), %d række(r)
 msg.phrase	%2d	%2d
 msg.phrase	Cannot apply the colour (%d).	Kan ikke anvende farven (%d).
 msg.phrase	%s colour = %d	%s farve = %d
-msg.phrase	Not a valid range.\nUse a range such as A1:C10.	Ikke et gyldigt interval.\nBrug et område som A1:C10.
-msg.phrase	Graph range %s	Grafområde %s
+msg.phrase	Not a valid range.\nUse a range such as A1:C10.	Ugyldigt område.\nAngiv et område som A1:C10.
+msg.phrase	Graph range %s	Diagramområde %s
 msg.phrase	Graph: %s	Graf: %s
-msg.phrase	SGCALC: cannot set screen mode 3: %s\n	SGCALC: kan ikke indstille skærmtilstand 3: %s
+msg.phrase	SGCALC: cannot set screen mode 3: %s\n	SGCALC: kan ikke skifte til skærmtilstand 3: %s\n
 msg.phrase	%.2g	%.2g
 msg.phrase	%.6g	%.6g
-msg.phrase	%s  %.0f%%	%s %.0f%%
-msg.phrase	GRAPH  %s  %s	GRAF %s %s
+msg.phrase	%s  %.0f%%	%s  %.0f%%
+msg.phrase	GRAPH  %s  %s	DIAGRAM  %s  %s
 msg.phrase	%s%s	%s%s
 msg.phrase	%s/%s	%s/%s
 msg.phrase	%.*s	%.*s
@@ -990,116 +986,116 @@ msg.phrase	%.*s/	%.*s/
 msg.phrase	Cannot read %s\n%s	Kan ikke læse %s\n%s
 msg.phrase	Folder: %s	Mappe: %s
 msg.phrase	[DIR] %s	[DIR] %s
-msg.phrase	      %s	%s
+msg.phrase	      %s	      %s
 msg.phrase	%lu.%luM	%lu.%luM
 msg.phrase	%luK	%luK
 msg.phrase	%luB	%luB
-msg.phrase	BOOK1%s	BOG1%s
+msg.phrase	BOOK1%s	BOOK1%s
 msg.phrase	%c:/	%c:/
-msg.phrase	Unsupported extension.\nUse .csv, .ods or .fods.	Ikke-understøttet udvidelse.\nBrug .csv, .ods eller .fods.
-msg.phrase	%s already exists.\nOverwrite it?	%s eksisterer allerede.\nVil du overskrive det?
-msg.phrase	%s may not be writable.\nTry anyway?	%s kan muligvis ikke skrives.\nPrøv alligevel?
-msg.phrase	Unknown file type for %s	Ukendt filtype for %s
-msg.phrase	Unsupported file type.\nUse .csv, .ods or .fods.	Ikke-understøttet filtype.\nBrug .csv, .ods eller .fods.
+msg.phrase	Unsupported extension.\nUse .csv, .ods or .fods.	Filtypenavnet understøttes ikke.\nBrug .csv, .ods eller .fods.
+msg.phrase	%s already exists.\nOverwrite it?	%s findes allerede.\nOverskriv?
+msg.phrase	%s may not be writable.\nTry anyway?	%s er måske skrivebeskyttet.\nPrøv alligevel?
+msg.phrase	Unknown file type for %s	Ukendt filtype: %s
+msg.phrase	Unsupported file type.\nUse .csv, .ods or .fods.	Filtypen understøttes ikke.\nBrug .csv, .ods eller .fods.
 msg.phrase	Cannot open %s\n%s	Kan ikke åbne %s\n%s
 msg.phrase	%s is a folder.	%s er en mappe.
 msg.phrase	Cannot import %s\n%s	Kan ikke importere %s\n%s
-msg.phrase	Loaded %s	Indlæst %s
-msg.phrase	Cannot build the %s file.	Kan ikke bygge %s-filen.
+msg.phrase	Loaded %s	%s indlæst
+msg.phrase	Cannot build the %s file.	Kan ikke oprette %s-filen.
 msg.phrase	Cannot write %s\n%s	Kan ikke skrive %s\n%s
 msg.phrase	%s %s	%s %s
-msg.phrase	unsupported version %u	ikke-understøttet version %u
+msg.phrase	unsupported version %u	version understøttes ikke (%u)
 msg.phrase	%d:%d:%d:%d:%d:%d	%d:%d:%d:%d:%d:%d
 msg.phrase	Octave %d	Oktav %d
-msg.phrase	Note %s	Bemærk %s
+msg.phrase	Note %s	Tone %s
 msg.phrase	Instrument %d	Instrument %d
 msg.phrase	Volume %s	Lydstyrke %s
 msg.phrase	Effect %c	Effekt %c
 msg.phrase	Parameter %s	Parameter %s
-msg.phrase	Pattern %s	Mønster %s
-msg.phrase	Playing pattern %s	Spillemønster %s
-msg.phrase	SAVE ERROR: %s	GEM FEJL: %s
-msg.phrase	Saved %s	Gemt %s
-msg.phrase	LOAD ERROR: %s	LOAD FEJL: %s
+msg.phrase	Pattern %s	Pattern %s
+msg.phrase	Playing pattern %s	Afspiller pattern %s
+msg.phrase	SAVE ERROR: %s	FEJL VED GEM: %s
+msg.phrase	Saved %s	%s gemt
+msg.phrase	LOAD ERROR: %s	FEJL VED INDLÆSNING: %s
 msg.phrase	BPM %d	BPM %d
 msg.phrase	Speed %d	Hastighed %d
-msg.phrase	Preview %s	Forhåndsvisning %s
+msg.phrase	Preview %s	Lyt %s
 msg.phrase	Instrument %s %s	Instrument %s %s
-msg.phrase	Overwrite %s? (Y/N)	Overskrive %s? (J/N)
-msg.phrase	 | BPM %s SPD %s 	| BPM %s SPD %s
-msg.phrase	 SGNO TRACKER 1.0 | 	SGNO TRACKER 1.0 |
-msg.phrase	FILE 	FIL
-msg.phrase	 PAT %s	PAT %s
-msg.phrase	 ORD %d/%d	ORD %d/%d
-msg.phrase	 INS %s 	INS %s
-msg.phrase	 OCT %d	OKT %d
-msg.phrase	 EDIT %s	REDIGER %s
-msg.phrase	ON 	PÅ
-msg.phrase	 FOL %s	FOL %s
-msg.phrase	TRACK %d	SPOR %d
+msg.phrase	Overwrite %s? (Y/N)	Overskriv %s? (Y/N)
+msg.phrase	 | BPM %s SPD %s 	 | BPM %s SPD %s 
+msg.phrase	 SGNO TRACKER 1.0 | 	 SGNO TRACKER 1.0 | 
+msg.phrase	FILE 	FILE 
+msg.phrase	 PAT %s	 PAT %s
+msg.phrase	 ORD %d/%d	 ORD %d/%d
+msg.phrase	 INS %s 	 INS %s 
+msg.phrase	 OCT %d	 OCT %d
+msg.phrase	 EDIT %s	 EDIT %s
+msg.phrase	ON 	ON 
+msg.phrase	 FOL %s	 FOL %s
+msg.phrase	TRACK %d	TRACK %d
 msg.phrase	%c%s	%c%s
 msg.phrase	%s %s %s %s	%s %s %s %s
-msg.phrase	%s 	%s
+msg.phrase	%s 	%s 
 msg.phrase	%d %s %s	%d %s %s
-msg.phrase	ORDER %d/%d	BESTIL %d/%d
-msg.phrase	PAT   %s	PAT %s
+msg.phrase	ORDER %d/%d	ORDER %d/%d
+msg.phrase	PAT   %s	PAT   %s
 msg.phrase	INS %s %s	INS %s %s
-msg.phrase	OCT %d  EDIT %s	OKT %d REDIGER %s
-msg.phrase	FOLLOW %s	FØLG %s
-msg.phrase	PLAYING  ORD %d/%d  PAT %s  ROW %s/%d  SPD %s  BPM %d  F7 STOP	SPIL ORD %d/%d PAT %s RÆKKE %s/%d SPD %s BPM %d F7 STOP
-msg.phrase	READY  EDIT %s  OCT %d  F1 HELP  F5 PLAY  CTRL-S SAVE	KLAR REDIGER %s OKT %d F1 HJÆLP F5 SPIL CTRL-S GEM
-msg.phrase	 %s 	%s
-msg.phrase	  F5          Play the song from the current order	F5 Afspil sangen fra den aktuelle rækkefølge
-msg.phrase	  F6          Play the current pattern	F6 Afspil det aktuelle mønster
-msg.phrase	  F7/Ctrl-C   Stop playback	F7/Ctrl-C Stop afspilning
-msg.phrase	  Space       Play / stop	Space Afspil / stop
-msg.phrase	  F4          Save as	F4 Gem som
-msg.phrase	  Ctrl-S      Save (asks for a name if new)	Ctrl-S Gem (spørger om et navn, hvis det er nyt)
-msg.phrase	  Ctrl-O      Open a song	Ctrl-O Åbn en sang
-msg.phrase	  Ctrl-N      New song	Ctrl-N Ny sang
-msg.phrase	  F12         Quit (confirmation if modified)	F12 Afslut (bekræftelse hvis ændret)
-msg.phrase	  [ ]         Previous / next order entry	[ ] Forrige / næste ordreindtastning
-msg.phrase	  { }         Insert / delete an order entry	{ } Indsæt/slet en ordrepost
-msg.phrase	  - +         Change the pattern in the entry	- + Skift mønsteret i indtastningen
-msg.phrase	  F11         Follow playback (turns off on manual move)	F11 Følg afspilning (deaktiverer ved manuel bevægelse)
-msg.phrase	  F1          Help; Left/Right changes page	F1 Hjælp; Venstre/Højre skifter side
-msg.phrase	  F8          Toggle edit mode	F8 Skift redigeringstilstand
-msg.phrase	  Arrows      Move the cursor	Pile Flyt markøren
-msg.phrase	  PgUp/PgDn   Jump 16 rows	PgUp/PgDn Spring 16 rækker
-msg.phrase	  Home/End    First / last row	Hjem/Slut Første/sidste række
-msg.phrase	  F9/F10      Octave down / up	F9/F10 Oktav ned/op
-msg.phrase	  Z S X D C V G B H N J M      lower piano row	Z S X D C V G B H N J M nederste klaverrække
-msg.phrase	  Q 2 W 3 E R 5 T 6 Y 7 U      upper piano row	Q 2 W 3 E R 5 T 6 Y 7 U øverste klaverrække
-msg.phrase	  1           Note off	1 Note fra
-msg.phrase	  0 / Del     0 clears note/inst/fx; Del clears any	0 / Del 0 rydder note/inst/fx; Del rydder evt
-msg.phrase	  Ctrl-Z      Undo the last pattern/order edit	Ctrl-Z Fortryd den sidste mønster-/ordreredigering
-msg.phrase	  Axy   Volume slide: up x, down y	Axy Volume slide: op x, ned y
-msg.phrase	  Cxx   Note cut after xx ticks	Cxx Bemærk skæres efter xx flueben
-msg.phrase	  Dxx   Set volume (00..7F)	Dxx Indstil lydstyrke (00..7F)
-msg.phrase	  Fxx   Speed if xx < 20, otherwise BPM	Fxx Hastighed hvis xx < 20, ellers BPM
-msg.phrase	  Hxy   Arpeggio x, y semitones	Hxy Arpeggio x, y halvtoner
-msg.phrase	  Pxx   Pitch slide up	Pxx Pitch glider op
-msg.phrase	  Qxx   Pitch slide down	Qxx Pitch glide ned
-msg.phrase	  F2 song settings, F3 instrument list	F2 sangindstillinger, F3 instrumentliste
-msg.phrase	HELP %d/2	HJÆLP %d/2
-msg.phrase	  Title	Titel
-msg.phrase	  [%s_]	[%s_]
-msg.phrase	  BPM   : %d     (left/right -1/+1, -/+ -5/+5)	BPM : %d (venstre/højre -1/+1, -/+ -5/+5)
-msg.phrase	  Speed : %d ticks/row	Hastighed : %d kryds/række
-msg.phrase	  Rows  : %d (fixed)	Rækker: %d (fast)
-msg.phrase	  Order : %d entries	Ordre: %d poster
-msg.phrase	  Patterns in use : %d	Mønstre i brug: %d
-msg.phrase	 #  NAME       WAVE       A   D   S   R  VOL	# NAME WAVE A D S R VOL
-msg.phrase	 %c %d  %-9s %-9s %3d %3d %3d %3d %4d	%c %d %-9s %-9s %3d %3d %3d %3d %4d
-msg.phrase	Current instrument: %s %s	Nuværende instrument: %s %s
-msg.phrase	  %s	%s
-msg.phrase	DIR  %s	DIR %s
-msg.phrase	 %c %s%s	%c %s%s
+msg.phrase	OCT %d  EDIT %s	OCT %d  EDIT %s
+msg.phrase	FOLLOW %s	FOLLOW %s
+msg.phrase	PLAYING  ORD %d/%d  PAT %s  ROW %s/%d  SPD %s  BPM %d  F7 STOP	PLAYING  ORD %d/%d  PAT %s  ROW %s/%d  SPD %s  BPM %d  F7 STOP
+msg.phrase	READY  EDIT %s  OCT %d  F1 HELP  F5 PLAY  CTRL-S SAVE	READY  EDIT %s  OCT %d  F1 HELP  F5 PLAY  CTRL-S SAVE
+msg.phrase	 %s 	 %s 
+msg.phrase	  F5          Play the song from the current order	  F5          Afspil sangen fra den aktuelle position
+msg.phrase	  F6          Play the current pattern	  F6          Afspil det aktuelle pattern
+msg.phrase	  F7/Ctrl-C   Stop playback	  F7/Ctrl-C   Stop afspilningen
+msg.phrase	  Space       Play / stop	  Space       Afspil / stop
+msg.phrase	  F4          Save as	  F4          Gem som
+msg.phrase	  Ctrl-S      Save (asks for a name if new)	  Ctrl-S      Gem (spørger om navn, hvis den er ny)
+msg.phrase	  Ctrl-O      Open a song	  Ctrl-O      Åbn en sang
+msg.phrase	  Ctrl-N      New song	  Ctrl-N      Ny sang
+msg.phrase	  F12         Quit (confirmation if modified)	  F12         Afslut (spørger, hvis der er ændringer)
+msg.phrase	  [ ]         Previous / next order entry	  [ ]         Forrige / næste position
+msg.phrase	  { }         Insert / delete an order entry	  { }         Indsæt / slet en position
+msg.phrase	  - +         Change the pattern in the entry	  - +         Skift pattern på positionen
+msg.phrase	  F11         Follow playback (turns off on manual move)	  F11         Følg afspilningen (slås fra ved manuel flytning)
+msg.phrase	  F1          Help; Left/Right changes page	  F1          Hjælp; Venstre/Højre skifter side
+msg.phrase	  F8          Toggle edit mode	  F8          Redigering til / fra
+msg.phrase	  Arrows      Move the cursor	  Pile        Flyt markøren
+msg.phrase	  PgUp/PgDn   Jump 16 rows	  PgUp/PgDn   Spring 16 rækker
+msg.phrase	  Home/End    First / last row	  Home/End    Første / sidste række
+msg.phrase	  F9/F10      Octave down / up	  F9/F10      Oktav ned / op
+msg.phrase	  Z S X D C V G B H N J M      lower piano row	  Z S X D C V G B H N J M      nederste klaverrække
+msg.phrase	  Q 2 W 3 E R 5 T 6 Y 7 U      upper piano row	  Q 2 W 3 E R 5 T 6 Y 7 U      øverste klaverrække
+msg.phrase	  1           Note off	  1           Note off
+msg.phrase	  0 / Del     0 clears note/inst/fx; Del clears any	  0 / Del     0 rydder tone/instr./effekt; Del feltet
+msg.phrase	  Ctrl-Z      Undo the last pattern/order edit	  Ctrl-Z      Fortryd seneste ændring af pattern/rækkefølge
+msg.phrase	  Axy   Volume slide: up x, down y	  Axy   Lydstyrkeglid: op x, ned y
+msg.phrase	  Cxx   Note cut after xx ticks	  Cxx   Afbryd tonen efter xx ticks
+msg.phrase	  Dxx   Set volume (00..7F)	  Dxx   Sæt lydstyrke (00..7F)
+msg.phrase	  Fxx   Speed if xx < 20, otherwise BPM	  Fxx   Hastighed hvis xx < 20, ellers BPM
+msg.phrase	  Hxy   Arpeggio x, y semitones	  Hxy   Arpeggio x, y halvtoner
+msg.phrase	  Pxx   Pitch slide up	  Pxx   Tonehøjdeglid op
+msg.phrase	  Qxx   Pitch slide down	  Qxx   Tonehøjdeglid ned
+msg.phrase	  F2 song settings, F3 instrument list	  F2 sangindstillinger, F3 instrumentliste
+msg.phrase	HELP %d/2	HELP %d/2
+msg.phrase	  Title	  Titel
+msg.phrase	  [%s_]	  [%s_]
+msg.phrase	  BPM   : %d     (left/right -1/+1, -/+ -5/+5)	  BPM   : %d     (venstre/højre -1/+1, -/+ -5/+5)
+msg.phrase	  Speed : %d ticks/row	  Hast. : %d ticks pr. række
+msg.phrase	  Rows  : %d (fixed)	  Rækker : %d (fast)
+msg.phrase	  Order : %d entries	  Rækkefølge : %d positioner
+msg.phrase	  Patterns in use : %d	  Patterns i brug : %d
+msg.phrase	 #  NAME       WAVE       A   D   S   R  VOL	 #  NAME       WAVE       A   D   S   R  VOL
+msg.phrase	 %c %d  %-9s %-9s %3d %3d %3d %3d %4d	 %c %d  %-9s %-9s %3d %3d %3d %3d %4d
+msg.phrase	Current instrument: %s %s	Aktuelt instrument: %s %s
+msg.phrase	  %s	  %s
+msg.phrase	DIR  %s	DIR  %s
+msg.phrase	 %c %s%s	 %c %s%s
 msg.phrase	Files: %d	Filer: %d
 msg.phrase	%02d	%02d
 msg.phrase	%03d	%03d
 msg.phrase	%02X	%02X
-msg.phrase	SGNO TRACKER: incompatible SGX ABI\n	SGNO TRACKER: inkompatibel SGX ABI
+msg.phrase	SGNO TRACKER: incompatible SGX ABI\n	SGNO TRACKER: inkompatibel SGX ABI\n
 msg.phrase	S: check: wait -- a file is being read or written	S: check: wait -- en fil bliver læst eller skrevet
 msg.phrase	S: check: the drive is busy or not ready	S: tjek: drevet er optaget eller ikke klar
 msg.phrase	nothing for this item (ContextMenu.cfg)	intet for dette element (ContextMenu.cfg)
@@ -1120,24 +1116,24 @@ msg.prefix	compress	sammenpresse
 msg.prefix	render	gengive
 msg.phrase	5 Macro	5 Makro
 msg.phrase	6 Help	6 Hjælp
-msg.phrase	Run current	Kør strøm
-msg.phrase	Run the macro at the cursor (#! header cell and the cells below it)	Kør makroen ved markøren (#! overskriftscelle og cellerne under den)
-msg.phrase	Run selection	Kør valg
-msg.phrase	Run the selected cells as one macro (top-left cell is the #! header)	Kør de valgte celler som én makro (celle øverst til venstre er #! overskriften)
+msg.phrase	Run current	Kør aktuel
+msg.phrase	Run the macro at the cursor (#! header cell and the cells below it)	Kør makroen ved markøren (overskriftscellen #! og cellerne under den)
+msg.phrase	Run selection	Kør markering
+msg.phrase	Run the selected cells as one macro (top-left cell is the #! header)	Kør de markerede celler som én makro (cellen øverst til venstre er #!-overskriften)
 msg.phrase	Run all	Kør alle
-msg.phrase	Run every macro in the sheet, top-left to bottom-right	Kør hver makro i arket, øverst til venstre til nederst til højre
-msg.phrase	Last error	Sidste fejl
-msg.phrase	Show the last macro error	Vis den sidste makrofejl
+msg.phrase	Run every macro in the sheet, top-left to bottom-right	Kør alle makroer i arket, fra øverst til venstre til nederst til højre
+msg.phrase	Last error	Seneste fejl
+msg.phrase	Show the last macro error	Vis den seneste makrofejl
 msg.phrase	Macro	Makro
-msg.phrase	Macro: run #!ruby / #!python / #!basic cells	Makro: kør #!ruby / #!python / #!basic celler
+msg.phrase	Macro: run #!ruby / #!python / #!basic cells	Makro: kør #!ruby / #!python / #!basic-celler
 msg.phrase	Edit the cell (F2)	Rediger cellen (F2)
 msg.phrase	Fit widths/heights to the contents	Tilpas bredder/højder til indholdet
-msg.phrase	Last macro error	Sidste makrofejl
+msg.phrase	Last macro error	Seneste makrofejl
 msg.phrase	No macro error.	Ingen makrofejl.
-msg.phrase	IME on	IME på
+msg.phrase	IME on	IME til
 msg.phrase	IME off	IME fra
 msg.phrase	Macro: %s %s ...	Makro: %s %s ...
-msg.phrase	%s: this firmware cannot run macros (SGX ABI 5.10 or later)	%s: denne firmware kan ikke køre makroer (SGX ABI 5.10 eller nyere)
+msg.phrase	%s: this firmware cannot run macros (SGX ABI 5.10 or later)	%s: denne firmware kan ikke køre makroer (kræver SGX ABI 5.10 eller nyere)
 msg.phrase	Macro error: %s	Makrofejl: %s
 msg.phrase	Macro: %s done	Makro: %s færdig
 msg.phrase	a macro is already running	en makro kører allerede
@@ -1146,17 +1142,46 @@ msg.phrase	not enough memory	ikke nok hukommelse
 msg.phrase	the macro stopped with an error	makroen stoppede med en fejl
 msg.phrase	Macro error %s: %s	Makrofejl %s: %s
 msg.phrase	Macro: not enough memory	Makro: ikke nok hukommelse
-msg.phrase	Macro: the cursor is not on a macro (a #!ruby / #!python / #!basic cell or the cells below it)	Makro: markøren er ikke på en makro (en #!ruby / #!python / #!basiscelle eller cellerne under den)
-msg.phrase	Macro: no macro in the sheet	Makro: ingen makro i arket
+msg.phrase	Macro: the cursor is not on a macro (a #!ruby / #!python / #!basic cell or the cells below it)	Makro: markøren står ikke på en makro (en #!ruby / #!python / #!basic-celle eller cellerne under)
+msg.phrase	Macro: no macro in the sheet	Makro: ingen makroer i arket
 msg.phrase	Run all macros	Kør alle makroer
-msg.phrase	Macros: %d. Run them all, top-left to bottom-right? Changes cannot be undone.	Makroer: %d. Køre dem alle, øverst til venstre til nederst til højre? Ændringer kan ikke fortrydes.
-msg.phrase	Macro: %d of %d done	Makro: %d af %d ​​udført
-msg.phrase	Cleared the cell	Ryddede cellen
-msg.phrase	Cleared the selection	Ryddede valget
+msg.phrase	Macros: %d. Run them all, top-left to bottom-right? Changes cannot be undone.	Makroer: %d. Kør dem alle, fra øverst til venstre til nederst til højre? Ændringer kan ikke fortrydes.
+msg.phrase	Macro: %d of %d done	Makro: %d af %d færdige
+msg.phrase	Cleared the cell	Cellen er ryddet
+msg.phrase	Cleared the selection	Markeringen er ryddet
 msg.phrase	Background colour = %d	Baggrundsfarve = %d
 msg.phrase	Text colour = %d	Tekstfarve = %d
-msg.phrase	Graph: line	Graf: linje
-msg.phrase	Graph: bar	Graf: søjle
-msg.phrase	Graph: mixed	Graf: blandet
-msg.phrase	Graph: pie	Graf: tærte
-msg.phrase	Exported %s	Eksporteret %s
+msg.phrase	Graph: line	Diagram: kurve
+msg.phrase	Graph: bar	Diagram: søjle
+msg.phrase	Graph: mixed	Diagram: blandet
+msg.phrase	Graph: pie	Diagram: cirkel
+msg.phrase	Exported %s	%s eksporteret
+ui	USB・時計・設定	USB, clock, settings
+ui	0.001 秒未満	under 0.001 s
+ui	%s 秒	%s s
+ui	コンパイル %s  実行 %s	kompilering %s  kørsel %s
+ui	コンパイル %s	kompilering %s
+ui	実行 %s	kørsel %s
+msg.phrase	1 Help	1 Hjælp
+msg.phrase	3 Copy	3 Kopi
+msg.phrase	4 Paste	4 Indsæt
+msg.phrase	5 Goto	5 Gå til
+msg.phrase	6 Colour	6 Farve
+msg.phrase	7 Fit	7 Tilpas
+msg.phrase	8 Backgr	8 Baggr
+msg.phrase	9 Recalc	9 Beregn
+msg.phrase	10 Graph	10 Diagr
+msg.phrase	11 Save	11 Gem
+msg.phrase	12 Menu	12 Menu
+msg.phrase	1 About	1 Om
+msg.phrase	2 Height	2 Højde
+msg.phrase	3 Width	3 Bredde
+msg.phrase	4 SelAll	4 Alt
+msg.phrase	10 Range	10 Omr.
+msg.phrase	11 Name	11 Som
+msg.phrase	1 New	1 Ny
+msg.phrase	2 Open	2 Åbn
+msg.phrase	4 SaveAs	4 Gem so
+msg.phrase	12 Quit	12 Afslu
+msg.phrase	3 Save	3 Gem
+msg.phrase	Version %s	Version %s

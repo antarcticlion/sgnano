@@ -1,7 +1,7 @@
 # sgnano の外部実行ファイル（SGX）の ABI と使い方
 
 sgnano のファームとは別に組み、USB ストレージなどに置いて走らせるプログラム（**外部実行ファイル、拡張子 `.sgx`**）の作り方と、
-ファームの機能を使うための口（ABI）の説明。版は **ABI 5.12**（2026-11-17。5.11 は 2026-11-16、5.10・5.9・5.8・5.7 は 2026-11-15、5.6 は 2026-11-14、5.5・5.4・5.3 は 2026-11-13、5.2 は 2026-11-11、5.1 は 2026-11-11、5.0 は 2026-11-11、4.2 は 2026-11-07、4.1 は 2026-11-06、4.0 は 2026-11-06、3.5 は 2026-11-06、3.4 は 2026-11-04、3.3 は 2026-11-04、3.2 は 2026-11-03、3.1 は 2026-11-02、3.0 は 2026-10-31、2.0 は 2026-10-31、1.8 は 2026-10-30、1.7 は 2026-10-30、1.6 は 2026-10-29、1.5 は 2026-10-29、1.4 は 2026-10-29、1.3 は 2026-10-28、1.2 は 2026-10-28、1.1 は 2026-10-25、1.0 は 2026-10-24）。
+ファームの機能を使うための口（ABI）の説明。版は **ABI 5.15**（2026-11-20。5.14・5.13 も 2026-11-20、5.12 は 2026-11-17、5.11 は 2026-11-16、5.10・5.9・5.8・5.7 は 2026-11-15、5.6 は 2026-11-14、5.5・5.4・5.3 は 2026-11-13、5.2 は 2026-11-11、5.1 は 2026-11-11、5.0 は 2026-11-11、4.2 は 2026-11-07、4.1 は 2026-11-06、4.0 は 2026-11-06、3.5 は 2026-11-06、3.4 は 2026-11-04、3.3 は 2026-11-04、3.2 は 2026-11-03、3.1 は 2026-11-02、3.0 は 2026-10-31、2.0 は 2026-10-31、1.8 は 2026-10-30、1.7 は 2026-10-30、1.6 は 2026-10-29、1.5 は 2026-10-29、1.4 は 2026-10-29、1.3 は 2026-10-28、1.2 は 2026-10-28、1.1 は 2026-10-25、1.0 は 2026-10-24）。
 
 - 見出し: `sdk/sgx/include/sgx_api.h`（口の定義はこれがすべて。この文書は使い方と決まりごと）
 - 組む道具: `sdk/sgx/`（リンカの台本 `sgx.ld`・始まり `sgx_crt0.c`・libc の口 `sgx_libc.c`・CMake の `sgx.cmake`・像を作る `sgx_link.py`）
@@ -223,7 +223,7 @@ FAT・exFAT・NTFS（読み書き）、CD（読むだけ）、S:（内蔵、読�
 
 | 群 | 関数 |
 |---|---|
-| タスク | `task_create(fn, arg, スタック, 優先度 0〜20, sram, 名前)` `task_alive` `task_join(t, timeout)` `task_exit` `task_self` |
+| タスク | `task_create(fn, arg, スタック, 優先度 0〜20（ファームの段は 18 + 2 x 優先度、上限 30。2026-11-20 から。以前は 9 + 優先度。prio の大小の関係は同じ）, sram, 名前)` `task_alive` `task_join(t, timeout)` `task_exit` `task_self`（スタックは 1KB 以上。小さければ 1KB。2026-11-20 から、以前は 2KB。終わったタスクのスタックは `task_join` のあと、ファームが次に片付けるとき（ほぼ毎フレーム）に返る） |
 | 排他・数・待ち行列 | `mutex_new` `mutex_lock(m, timeout)` `mutex_unlock` `mutex_free`、`sem_new(count, max)` `sem_take` `sem_give` `sem_free`、`queue_new(大きさ, 数)` `queue_send` `queue_recv` `queue_free` |
 | プログラム | `spawn(path, argc, argv)`（ほかの `.sgx` を読み込んで走らせる。番号を返す）`program_alive` `program_wait(id, timeout, &code)` `program_stop` `program_id` |
 | 受け渡し | `share_set(名前, ptr)` `share_get(名前)`（名前で指し示すものを置く。プログラムの間で共有のメモリを渡すなど） |
@@ -422,9 +422,9 @@ PT8211 のポートごとに独立したリング（4KB = 44.1kHz で約23ms）�
 | `int music_play(const char *path, unsigned flags)` | 鳴らし始める（鳴っていれば止めてから）。パスはプログラムのフォルダからの相対か `A:/...`。0 = 始めた、負 = `SGX_E*`（理由は `music_info` の `error`）。`SGX_MUSIC_LOOP` でくり返す（VGM はループの点からいつまでも、ほかは頭から）。無ければ VGM は 2 回まわして終わる |
 | `void music_stop(void)` | 止めて、ポートを返す |
 | `void music_pause(bool pause)` | 一時停止・再開 |
-| `void music_volume(unsigned vol)` | 0〜127（既定 127） |
+| `void music_volume(unsigned vol)` | 0〜254（既定 127 = 100%、254 = 200%） |
 | `void music_info(sgx_music_info_t *out)` | 様子: `state`（`SGX_MUSIC_IDLE` / `PLAYING` / `PAUSED` / `ENDED` / `ERROR`）・`format`・`voices`・`loops`・`rate`・`chips`（`SGX_VGM_*`）・`pos_ms`・`len_ms`・`load_pct`・`underruns`・GD3 の `title` / `game` / `system` / `author`（UTF-8）・`error` |
-| `int music_seek(uint32_t ms)` | 頭からの位置へ飛ぶ（MP3 / OGG / WAV）。VGM は `-SGX_ENOTSUP` |
+| `int music_seek(uint32_t ms)` | 頭からの位置へ飛ぶ（MP3 / OGG / WAV）。VGM は `-SGX_ENOTSUP`。鳴っている音楽のタスクが次の塊を作る前に受ける（戻り値は受けたかどうか） |
 | `int music_settings_reload(void)` | **ABI 4.5**。`S:/SystemSettings/Music.cfg`（`ym2203_ssg=0..200`、`sn76489=0..200`、`vgm_gain=0..100`）を読み直す。`vgm_gain` は 1 本に混ぜた VGM 全体の固定ゲイン（**2026-11-10、既定 80**）。鳴っている VGM にも次の塊から効く。0 = 読めた、負 = `SGX_E*`（読めない。今の値のまま）。ファイルが無ければ既定 76 / 50 / 80（見本は起動時にファイラーが書く）。読み取りだけで S: には書かない |
 | `unsigned music_ssg_pct(void)` | **ABI 4.5**。いまの YM2203 SSG の大きさ（%） |
 | `unsigned music_sn_pct(void)` | **ABI 4.6**。いまの SN76489 の大きさ（%） |
@@ -465,7 +465,8 @@ PT8211 のポートごとに独立したリング（4KB = 44.1kHz で約23ms）�
   実装は `src/audio/music/vgm_rf5c.c`。
 - 鳴らしている間、使っているポートは `stream_open` が `-SGX_EBUSY` で断る。シーケンサーの BGM からも予約される。プログラムが終わると止まる。
 - 開くのも音楽のタスクの中（minimp3 は開くときに最初のフレームを解くので大きなスタックが要る）。呼び手のスタックは小さくてよい（MPLAY は 8KB）。`music_play` は開き終えるまで待つ（10 秒まで）。
-- MP3 / OGG をストリームで開くとデコーダは長さを知らないので、`len_ms` は読んだバイト数と経過から見積もった値（鳴らすほど正しくなる）。
+- **長さ**（2026-11-18）: MP3 は ID3v2 を飛ばして最初のフレームを探し、Xing / Info / VBRI があればフレーム数から、無ければ CBR は大きさとビットレートから、VBR は頭の 256KB の平均フレーム長から出す。OGG は最後のページの granule position（総標本数）から出す。どちらも読めなかったときだけ、これまでどおり読んだバイト数と経過から見積もる（`len_ms` が鳴らすほど変わる）。
+- **飛び先**（2026-11-18）: MP3 は Xing / Info の TOC（100 個）か CBR の時間とバイト数の比例で目標の近くのフレームへ飛び、フレームヘッダへそろえてから 1% 以内をデコードして捨てる。Xing / VBRI の無い VBR と OGG は頭から開き直してデコードして捨てる（正しいが、長い曲では時間がかかる）。`music_seek` は受け付けた時点で 0 を返し、実際に飛ぶのは音楽のタスクの次の塊の前。
 - 置き場: 作業場・デコーダの状態・タスクのスタックは PSRAM（キャッシュの窓）。VGM はチップの状態（YM2151 約 7KB・YM2203 約 3.4KB・
   YM2612 約 5.2KB・YM2610/B 約 5.8KB）・混ぜ場（5KB）・スタック（8KB）を SRAM から取り、取れなければ PSRAM。
   合成の熱い関数と正弦・指数・音程の表はファームの SRAM（`ld/placement.cmake`、約 15KB）。
@@ -532,6 +533,8 @@ PT8211 のポートごとに独立したリング（4KB = 44.1kHz で約23ms）�
 | 定数 | 中身 |
 |---|---|
 | `SGX_MODE_LR_SMALL`（0x800、5.4） | ローレゾ面（モード 3〜6）はパターン 16KB でよい。足さないとき、VGM の合成の区画（SRAM のオーバーレイ）を借りずに開く形は 32KB・16 本以上で、テキスト面のあるモード 3〜6 では区画を借りてしまい、`music_play` の VGM は `no SRAM for the VGM engine` で失敗する。VGM を同時に鳴らすなら足す |
+| `SGX_MODE_CLOSE_PLANES`（0x2000、5.14） | 替えたあと、新しいモードで使わない面（ローレゾ面・モード 7 のビットマップ）を閉じて SRAM を返す。足さないときは今までどおりプログラムの終わりまで開いたまま（モードを行き来しても絵が残る）。また開くと絵・マップ・パレットは消えている。いくつものモードを行き来するなら足す（返さないと、テキスト面の字の置き場が行ごとに取れず行が欠ける・VGM の合成の区画が取れない） |
+| `SGX_MODE_LR_ONE_BG`（0x4000、5.15） | ローレゾ面を BG 1 面（BG0 だけ）で開く。BG1 のマップの 8KB の SRAM が空く。`lr_planes()` は 1 を返し、`lr_map(1)` は使えない（`ctrl.bg[1]` は無視される）。CPU パワーの計測がローレゾ面とテキスト面を出したまま倍精度の配列 82KB を SRAM に取るために足した |
 | `SGX_MODE_TEXT_SMALL`（0x400） | `set_mode(SGX_MODE_TEXT_BM8 | SGX_MODE_TEXT_SMALL)` のように足す。テキスト面を 25 行・グリフ 19 行にする |
 
 - `mplay` は 4.12 があればこれを足す。4.11 以前はこのビットを無視する（30 行の面のまま）。
@@ -744,9 +747,22 @@ FB の描画（5.3）を `gfx_*` で出す（`sdk/sgx/include/sgx_api.h` の末�
 
 ## 8. 履歴
 
+### 5.31 パッドの記述子の生情報（5.13、2026-11-20）
+
+`pad(i, sgx_pad_t*)` はそのままに、`pad_ex(i, sgx_pad_ex_t*)` を表の末尾に足した。`sgx_pad_ex_t` は
+`sgx_pad_t base` に `buttons_raw`（記述子の生のボタン）と `layout`（`SGX_PAD_LAYOUT_*`）を足したもの。
+
+- 汎用 HID パッド: レポート記述子のボタン宣言順が `buttons` と `buttons_raw`（同じ）。個別の機種表は無い。
+- DS3 / Switch Pro: `buttons` は F310 の D モードの並びに正規化し、`buttons_raw` に生のビットを残す。
+- `layout`: `SGX_PAD_LAYOUT_GENERIC` / `F310` / `DS3` / `SWITCH`。
+
+**5.13 の追加**: `sgx_api_t` の末尾に `pad_ex`、`sgx_pad_ex_t`、`SGX_PAD_LAYOUT_*`、`pad_rumble`（DS3 の振動。weak 0/1、strong 0..255）。5.12 以前のプログラムはそのまま動く。
+
 - 2026-11-17: **5.12**。圧縮と書庫 `arc_mem`・`arc_file`・`arc_list`・`arc_extract`・`arc_create`・`arc_why` と `sgx_arc_entry_t`・`sgx_arc_cb_t`・`SGX_ARC_*` を表の末尾に、誤りの番号 `SGX_EDATA`・`SGX_ECANCELED` を誤りの並びの末尾に追加（§5.30）。5.11 以前のプログラムはそのまま動く。
 - 2026-11-16: **5.11**。`run_context()` と `progress_box(p)`（`sgx_progress_t`、`SGX_RUN_*`・`SGX_PB_*`）を表の末尾に追加（§5.29）。ファイラーのコンテキストメニューの `!` で、ファイラーの画面の上の窓で走らせる。5.10 以前のプログラムはそのまま動く。
 - 2026-11-15: **5.10**。表計算のマクロ `macro_run(lang, code, len, sheet, err, errn)` を表の末尾に追加（`SGX_MACRO_RUBY` / `PYTHON` / `BASIC`）。ファームが言語をシェルの子と同じ口で走らせ（言語の `exit` / `END` はマクロだけを終わらせる、出力は捨てる）、終わるまで戻らない。言語の `Sheet` は `sgx_macro_sheet_t` のコールバック（`get_cell`・`set_number`・`set_text`・`set_formula`・`clear_cell`・`get_formula`・`bounds`・`recalc`・`name`、行・列は 0 始まり）でセルに触る。コールバックは言語のタスクから呼ばれ、その間に取ったメモリは呼び手のプログラムの持ち物になる。コールバックの中では画面・キー・ファイルの口を呼ばない。誤りは `-SGX_EMACRO`（新しい誤りの番号、文は `err`）、走らせている間は `-SGX_EBUSY`。SGCALC R01.007 が使う。5.9 以前のプログラムはそのまま動く。
+- 2026-11-20: **5.14**。`set_mode` の印 `SGX_MODE_CLOSE_PLANES`（0x2000）: 替えたあと、新しいモードで使わないローレゾ面とモード 7 のビットマップを閉じて SRAM を返す。CPU パワーの計測（`apps/cpubench`）がローレゾのモードで測ったあとモード 1 で結果を出すと、ローレゾ面が SRAM を持ったままで、倍角の字の行の置き場が取れず行が欠け、モード 7 のあとはビットマップが残って VGM が鳴らせなかった。表は 5.13 と同じ。5.13 以前のプログラムはそのまま動く。
+- 2026-11-20: **5.15**。`set_mode` の印 `SGX_MODE_LR_ONE_BG`（0x4000）: ローレゾ面を BG 1 面で開く（マップの 8KB が空く）。CPU パワーの計測（`apps/cpubench`）のローレゾのモードで、ローレゾ面（BG 2 面）とテキスト面を開くと SRAM の最大の塊が 524 B しか残らず、倍精度の配列とスタックが SRAM に取れなかった。表は 5.14 と同じ。5.14 以前のプログラムはそのまま動く（基板を作った人がまだいないうちに入れる。ユーザー判断）。
 - 2026-11-15: **5.9**。IME を表の末尾に追加: `ime_key(key, commit, n)`（キーを先に渡す。1 = IME が使った、確定した UTF-8 は commit）・`ime_on`・`ime_composing`・`ime_draw(col, row, max, attr)`（未確定の字を文節ごとに置き、候補の窓を重ねる。窓は端末の写しに直接書くので、呼び手の画面の写しは次に全部を送り直す）・`ime_state`・`ime_cancel`。ファイラーと同じ IME（日本語・English・한국어、辞書・学習も同じ）で、Ctrl+Space（`SGX_KEY_IME` 0x99）でオン・オフ。キーの定数 `SGX_KEY_MENU`（0x9B、メニューキー）と `SGX_KEY_GUI_L` / `SGX_KEY_GUI_R`（0x9C / 0x9D、左右の GUI キーを押した瞬間に 1 回届く）も足した。SGCALC のセルの編集で使う。5.8 以前のプログラムはそのまま動く。
 - 2026-11-15: **5.8**。`set_mode` の印 `SGX_MODE_NO_LR`（0x1000）: モード 3〜5 でもローレゾ面を開かない（テキスト + FB だけ）。ローレゾ面の 50〜60KB の SRAM をテキスト面などに回す。SGCALC はローレゾ面を使わないのにモード 3 で 60KB を取られ、テキスト面の字の形が 17 行分しか取れず、メニューとファンクションキーが出なかった。表は 5.7 と同じ。
 - 2026-11-15: **5.7**。`music_pcm_open(path, &frames, &rate)` / `music_pcm_read(stereo, frames)` / `music_pcm_close()` を表の末尾に追加。VGM / VGZ をファームの合成で 44.1kHz・16 ビット・ステレオの PCM として渡す（WAV の書き出しと同じ合成。ファイルを 1 回とおし、ループの所も 1 回）。開いている間は `music_play` / `music_play_mem` / `music_render_wav` を断る。`wav2mp3.sgx` が LAME で MP3 にするため（LAME はファームに入れない）。5.6 以前のプログラムはそのまま動く。

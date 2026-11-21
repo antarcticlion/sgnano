@@ -20,14 +20,14 @@ ui	属性を変える	Ändra attributen
 ui	エディタで開く	öppna i editorn
 ui	テキスト表示（Shift+V / Ctrl+Alt+F7 は 16 進）	Visa som text (Shift+V / Ctrl+Alt+F7 hex)
 ui	ドライブの情報	Enhetsinformation
-ui	フォルダを作る / 新しいファイル	Ny mapp / ny fil
+ui	フォルダを作る（Shift+F5） / 新しいファイル（Ctrl+F1）	Ny mapp (Shift+F5) / ny fil (Ctrl+F1)
 ui	シェル sgsh / 媒体を取り出す	Shell sgsh / mata ut mediet
 ui	読み直す	Läs om
-ui	見えている画面を PNG で保存	Spara skärmen som PNG
+ui	見えている画面を PNG で保存（Alt+F5 も同じ）	Spara skärmen som PNG (= Alt+F5)
 ui	窓を閉じる・選択を解く（サブフォルダでは上位へ）	Stäng fönstret / avmarkera (i en undermapp: gå upp)
-ui	ファイルの操作（FD と同じ。印・範囲・カーソルの順に選ぶ）	Filåtgärder (som FD: markeringar, sedan område, sedan markör)
-ui	コピー: 行き先はドライブとフォルダの木から。ESC で止める	Kopiera: välj målet i trädet med enheter och mappar. ESC stoppar
-ui	削除: y で確かめる。印・範囲をまとめて。フォルダは中身ごと	Ta bort: bekräfta med y. Markeringar och områden tillsammans. Mappar med innehåll
+ui	ファイルの操作（FD と同じ。印・範囲・カーソルの順）	Filåtgärder (som FD: markeringar, sedan område, sedan markör)
+ui	コピー: 行き先は木から選ぶ。ESC で止める	Kopiera: välj målet i trädet med enheter och mappar. ESC stoppar
+ui	削除: y で確かめる。印・範囲をまとめて	Ta bort: bekräfta med y. Markeringar och områden tillsammans. Mappar med innehåll
 ui	フォルダを削除（中身ごと）	Ta bort en mapp (med innehåll)
 ui	名前を変える（今の名前を直して Enter）	Ändra namnet (korrigera det aktuella namnet och tryck på Enter)
 ui	属性: R 読み出し専用・H 隠し・S システム・A アーカイブ	Attribut: R skrivskyddad, H dold, S system, A arkiv
@@ -49,22 +49,19 @@ ui	画面（Alt+F。FD の F キーとぶつからない）	Skärm (Alt+F, krock
 ui	FB（絵）/ テキスト面を出す・隠す	FB (bild)/Visa/dölj textsida
 ui	FB の表示ページ（0〜3）	FB-visningssida (0-3)
 ui	FB を 0 で消す / 明るさを 1/2 に（RGB555）	Rensa FB till 0 / halvera ljusstyrkan (RGB555)
-ui	USB のエンドポイントと LAN の状態	USB-ändpunkt och LAN-status
+ui	USB のエンドポイントと LAN（U: 10 秒に 1 度）	USB-ändpunkt och LAN-status
 ui	FB の表示ページを消す / 明るさを 1/2 に	Rensa FB-visningssidan / halvera ljusstyrkan
 ui	テキストの属性の見本	Exempel på textattribut
 ui	モニタの EDID（起動時に読んだもの）	Övervaka EDID (läs vid start)
 ui	フォント ROM のライセンスとクレジット	Font ROM-licenser och krediter
 ui	設定（表示の言語・IME・キーボードロケール）	Inställningar (visningsspråk, IME, tangentbordsspråk)
-ui	時計（NTP で合わせた日本時間。s ですぐ合わせる）	Klocka (Japan-tid inställd med NTP. Ställ omedelbart med s)
+ui	時計（NTP で合わせた日本時間。s は 3 分に 1 度）	Klocka (Japan-tid inställd med NTP. Ställ omedelbart med s)
 ui	表計算（SGCALC）を開く	Öppna kalkylark (SGCALC)
 ui	S: ドライブのエラー検査（誤りがあれば直すか聞く）	Kontrollera S: (frågar innan reparation)
 ui	トラッカー（TRACKER）を開く	Öppna TRACKER
-ui	再起動（確かめの窓が出る）	Starta om (ett bekräftelsefönster visas)
+ui	再起動（確かめの窓）。Ctrl+Alt+Del も同じ	Starta om (ett bekräftelsefönster visas) = Ctrl+Alt+Del
 ui	ADC のステレオ入力（GP40 / 41）を鳴らす	Spela ADC stereoingång (GP40/41)
 ui	VGM/VGZ を 96kHz/24bit WAV に書き出す	Exportera VGM/VGZ till WAV 96 kHz / 24 bitar
-ui	このヘルプ	Denna hjälp
-ui	ページを替える	byt sida
-ui	閉じる	Stäng
 ui	テキスト・16 進のビュアー（less 風）	Text/Hex viewer (mindre stil)
 ui	1 行	One line
 ui	1 ページ	One page
@@ -82,10 +79,9 @@ ui	IME の言語（日本語 / English / 한국어）	IME-språk (japanska / eng
 ui	ひらがな / カタカナで確定	Bekräftat i Hiragana/Katakana
 ui	エディタのヘルプ	Redaktörshjälp
 ui	シェル	skal
-ui	シェル（csh のサブセット。exit / Ctrl-D で戻る、help で一覧）	Shell (en del av csh. exit / Ctrl-D tillbaka, help listar kommandona)
+ui	シェル（csh の一部。exit / Ctrl-D で戻る、help で一覧）	Shell (en del av csh. exit / Ctrl-D tillbaka, help listar kommandona)
 ui	一覧と移動	Lista och flytta
 ui	ファイルの操作	Filoperationer
-ui	画面と機器	skärm och utrustning
 ui	ビュアーとエディタ	tittare och redaktör
 ui	ヘルプ  %u / %u  %s	Hjälp %u / %u %s
 ui	Left Right: ページを替える    F1 / ESC: 閉じる	Vänster Höger: Byt sida F1 / ESC: Stäng
@@ -146,9 +142,9 @@ ui	10 EP表	10 EP
 ui	11 時計	11 Clock
 ui	12 表計	12 CALC
 ui	1 属性	1 Attr
-ui	2 情報	2 Info
+ui	2Drv情報	2 Info
 ui	3 移動	3 Flytta
-ui	5 作成	5 Mapp
+ui	5 ﾌｫﾙﾀﾞ	5 Mapp
 ui	6 シェル	6 Shell
 ui	8 編集	8 Redig
 ui	9 表示	9 Visa
@@ -486,11 +482,11 @@ msg.phrase	the sound is not open	ljudet är inte öppet
 msg.phrase	no such channel	ingen sådan kanal
 msg.phrase	the sequencer is busy	sequencern är upptagen
 msg.phrase	not enough PSRAM for the song	inte tillräckligt med PSRAM för låten
-msg.phrase	not a standard MIDI file (no MThd)	inte en standard MIDI-fil (ingen MThd)
+msg.phrase	not a standard MIDI file (no MThd)	inte en standard-MIDI-fil (MThd saknas)
 msg.phrase	no tracks	inga spår
-msg.phrase	a track is broken (MTrk)	ett spår är brutet (MTrk)
-msg.phrase	SMPTE time division is not supported	SMPTE-tidsdelning stöds inte
-msg.phrase	SMF format 2 is not supported (0 and 1 only)	SMF-format 2 stöds inte (endast 0 och 1)
+msg.phrase	a track is broken (MTrk)	ett spår är skadat (MTrk)
+msg.phrase	SMPTE time division is not supported	SMPTE-tidsindelning stöds inte
+msg.phrase	SMF format 2 is not supported (0 and 1 only)	SMF-format 2 stöds inte (bara 0 och 1)
 msg.phrase	not a Bulk-Only drive	inte en bulkdisk
 msg.phrase	not an optical drive	inte en optisk enhet
 msg.phrase	a system folder cannot be deleted or renamed	en systemmapp kan inte tas bort eller byta namn
@@ -509,7 +505,7 @@ msg.phrase	cancelled	inställd
 msg.phrase	could not mount	kunde inte monteras
 msg.phrase	could not start a read	kunde inte starta en läsning
 msg.phrase	could not start a write	kunde inte börja skriva
-msg.phrase	is a directory	är en katalog
+msg.phrase	is a directory	är en mapp
 msg.phrase	that is a directory	det är en katalog
 msg.phrase	no clusters	inga kluster
 msg.phrase	no room for the cluster list	inget utrymme för klusterlistan
@@ -546,7 +542,7 @@ msg.phrase	Not supported on this drive	Stöds inte på den här enheten
 msg.phrase	Invalid path	Ogiltig sökväg
 msg.phrase	Out of memory	Slut på minne
 msg.phrase	No such drive	Ingen sådan enhet
-msg.phrase	stopped	stannade
+msg.phrase	stopped	stoppad
 msg.phrase	cancelled (not enough free space)	avbruten (inte tillräckligt med ledigt utrymme)
 msg.phrase	could not count the free space	kunde inte räkna ledigt utrymme
 msg.phrase	the receiver cancelled	mottagaren avbröts
@@ -625,151 +621,151 @@ msg.phrase	Untitled	Namnlös
 msg.phrase	%s%d	%s%d
 msg.phrase	%s%d:%s%d	%s%d:%s%d
 msg.phrase	1 File	1 Fil
-msg.phrase	2 Edit	2 Redigera
+msg.phrase	2 Edit	2 Redig
 msg.phrase	3 Graph	3 Graf
 msg.phrase	4 Sheet	4 ark
 msg.phrase	5 Help	5 Hjälp
 msg.phrase	%s	%s
 msg.phrase	%.40s%s	%.40s%s
 msg.phrase	EMPTY	TOM
-msg.phrase	NUMBER	NUMBER
+msg.phrase	NUMBER	TAL
 msg.phrase	TEXT	TEXT
 msg.phrase	FORMULA	FORMEL
-msg.phrase	  [%s]   %s	  [%s] %s
-msg.phrase	EDIT  	REDIGERA
+msg.phrase	  [%s]   %s	  [%s]   %s
+msg.phrase	EDIT  	REDIG
 msg.phrase	READY 	KLAR
-msg.phrase	Type to enter, F2 to edit, F1 for help	Skriv för att gå in, F2 för att redigera, F1 för hjälp
-msg.phrase	%4d 	%4d
+msg.phrase	Type to enter, F2 to edit, F1 for help	Skriv för att mata in, F2 för att redigera, F1 för hjälp
+msg.phrase	%4d 	%4d 
 msg.phrase	5 CSV	5 CSV
 msg.phrase	6 ODS	6 ODS
-msg.phrase	[SHIFT]	[SKIFT]
+msg.phrase	[SHIFT]	[SHIFT]
 msg.phrase	[CTRL]	[CTRL]
 msg.phrase	[ALT]	[ALT]
-msg.phrase	Ready	Redo
+msg.phrase	Ready	Klar
 msg.phrase	%s Sum %.7g N %ld%s	%s Summa %.7g N %ld%s
 msg.phrase	SGCALC	SGCALC
 msg.phrase	Press any key	Tryck på valfri tangent
-msg.phrase	Y = yes    N = no    Esc = cancel	Y = ja N = nej Esc = avbryt
-msg.phrase	Enter = OK    Esc = cancel    Ctrl-U = clear	Enter = OK Esc = avbryt Ctrl-U = radera
-msg.phrase	ARROWS      move the cell cursor\n	PILAR flyttar cellmarkören
-msg.phrase	SHIFT+ARR   extend the selection (for graphs/copy)\n	SKIFT+ARR utökar markeringen (för grafer/kopia)
-msg.phrase	ENTER       edit the cell; in edit, commit and move down\n	ENTER redigera cellen; i redigera, commit och flytta ner
-msg.phrase	TAB         next cell    SHIFT+TAB  previous cell\n	TAB nästa cell SKIFT+TABB föregående cell
-msg.phrase	DELETE      clear the selected cell(s)    ESC  cancel\n	DELETE radera markerade celler ESC avbryt
-msg.phrase	PGUP/PGDN   move one screen    HOME/END  first/last column\n	PGUP/PGDN flytta en skärm HOME/END första/sista kolumnen
-msg.phrase	CTRL+HOME   A1    CTRL+END  last used cell\n	CTRL+HEM A1 CTRL+END senast använda cell
-msg.phrase	F1 help  F2 edit  F3 copy  F4 paste  F5 goto  F6 colour\n	F1 hjälp F2 redigera F3 kopiera F4 klistra in F5 gå till F6 färg
-msg.phrase	F7 auto-fit  F8 background  F9 recalc  F10 graph  F11 save  F12 menu\n	F7 auto-fit F8 bakgrund F9 recalc F10 graf F11 spara F12 meny
-msg.phrase	SHIFT+F1 about  SHIFT+F2 row height  SHIFT+F3 column width\n	SHIFT+F1 om SHIFT+F2 radhöjd SHIFT+F3 kolumnbredd
-msg.phrase	SHIFT+F4 select all  SHIFT+F10 graph range  SHIFT+F11 save as\n	SHIFT+F4 markera alla SHIFT+F10 grafintervall SHIFT+F11 spara som
-msg.phrase	CTRL+F1 new  CTRL+F2 open  CTRL+F3 save  CTRL+F4 save as\n	CTRL+F1 ny CTRL+F2 öppna CTRL+F3 spara CTRL+F4 spara som
-msg.phrase	CTRL+F5 export CSV  CTRL+F6 export ODS  ALT+F12 quit\n	CTRL+F5 export CSV CTRL+F6 export ODS ALT+F12 avsluta
-msg.phrase	Bottom 2 lines: function keys; [SHIFT]/[CTRL]/[ALT] like the filer\n	Nedre 2 raderna: funktionstangenter; [SHIFT]/[CTRL]/[ALT] som filerna
-msg.phrase	CTRL+S save  CTRL+O open  CTRL+N new  CTRL+C/V/X copy/paste/cut\n	CTRL+S spara CTRL+O öppna CTRL+N ny CTRL+C/V/X kopiera/klistra in/klipp ut
-msg.phrase	CTRL+G goto    /  open the menu (1 File, 2 Edit, ...)\n	CTRL+G gå till / öppna menyn (1 fil, 2 redigera, ...)
-msg.phrase	Built-in functions: SUM AVERAGE MIN MAX COUNT COUNTA\n	Inbyggda funktioner: SUMMEDEL MIN MAX ANTAL
-msg.phrase	PRODUCT ABS SQRT INT ROUND MOD POWER IF AND OR NOT\n	PRODUKT ABS SQRT INT RUND MOD POWER OM OCH ELLER INTE
-msg.phrase	IFERROR LEN LEFT RIGHT MID UPPER LOWER TRIM CONCATENATE PI\n	IFERROR LEN VÄNSTER HÖGER MIDDEN ÖVRE UNDRE TRIM KONKATENERA PI
-msg.phrase	Cell refs: A1, $A$1, A1:B10.  Formulas begin with '='.\n	Cellreferenser: A1, $A$1, A1:B10.  Formler börjar med '='.
-msg.phrase	Files: .ods (LibreOffice), .fods (flat XML), .csv\n	Filer: .ods (LibreOffice), .fods (platt XML), .csv
-msg.phrase	ODS/FODS keeps formulas, widths, heights and colours.\n	ODS/FODS håller formler, bredder, höjder och färger.
-msg.phrase	CSV keeps values and formulas (no colours/heights).\n	CSV behåller värden och formler (inga färger/höjder).
-msg.phrase	Graph: select a range, press F10, and choose Line/Bar/Mixed/Pie.\n	Graf: välj ett intervall, tryck på F10 och välj Linje/Bar/Blandat/Paj.
-msg.phrase	First row/column = labels; charts use the 640x480 CLUT8 FB.	Första raden/kolumnen = etiketter; diagram använder 640x480 CLUT8 FB.
+msg.phrase	Y = yes    N = no    Esc = cancel	Y = ja    N = nej    Esc = avbryt
+msg.phrase	Enter = OK    Esc = cancel    Ctrl-U = clear	Enter = OK    Esc = avbryt    Ctrl-U = rensa
+msg.phrase	ARROWS      move the cell cursor\n	PILAR       flytta cellmarkören\n
+msg.phrase	SHIFT+ARR   extend the selection (for graphs/copy)\n	SHIFT+PIL   utöka markeringen (för diagram/kopiering)\n
+msg.phrase	ENTER       edit the cell; in edit, commit and move down\n	ENTER       redigera cellen; vid redigering, bekräfta och gå nedåt\n
+msg.phrase	TAB         next cell    SHIFT+TAB  previous cell\n	TAB         nästa cell    SHIFT+TAB  föregående cell\n
+msg.phrase	DELETE      clear the selected cell(s)    ESC  cancel\n	DELETE      rensa markerade celler    ESC  avbryt\n
+msg.phrase	PGUP/PGDN   move one screen    HOME/END  first/last column\n	PGUP/PGDN   en skärm    HOME/END  första/sista kolumnen\n
+msg.phrase	CTRL+HOME   A1    CTRL+END  last used cell\n	CTRL+HOME   A1    CTRL+END  sista använda cellen\n
+msg.phrase	F1 help  F2 edit  F3 copy  F4 paste  F5 goto  F6 colour\n	F1 hjälp  F2 redigera  F3 kopiera  F4 klistra in  F5 gå till  F6 färg\n
+msg.phrase	F7 auto-fit  F8 background  F9 recalc  F10 graph  F11 save  F12 menu\n	F7 anpassa  F8 bakgrund  F9 räkna om  F10 diagram  F11 spara  F12 meny\n
+msg.phrase	SHIFT+F1 about  SHIFT+F2 row height  SHIFT+F3 column width\n	SHIFT+F1 om  SHIFT+F2 radhöjd  SHIFT+F3 kolumnbredd\n
+msg.phrase	SHIFT+F4 select all  SHIFT+F10 graph range  SHIFT+F11 save as\n	SHIFT+F4 markera allt  SHIFT+F10 diagramområde  SHIFT+F11 spara som\n
+msg.phrase	CTRL+F1 new  CTRL+F2 open  CTRL+F3 save  CTRL+F4 save as\n	CTRL+F1 ny  CTRL+F2 öppna  CTRL+F3 spara  CTRL+F4 spara som\n
+msg.phrase	CTRL+F5 export CSV  CTRL+F6 export ODS  ALT+F12 quit\n	CTRL+F5 exportera CSV  CTRL+F6 exportera ODS  ALT+F12 avsluta\n
+msg.phrase	Bottom 2 lines: function keys; [SHIFT]/[CTRL]/[ALT] like the filer\n	Nedersta 2 raderna: funktionstangenter; [SHIFT]/[CTRL]/[ALT] som i filer\n
+msg.phrase	CTRL+S save  CTRL+O open  CTRL+N new  CTRL+C/V/X copy/paste/cut\n	CTRL+S spara  CTRL+O öppna  CTRL+N ny  CTRL+C/V/X kopiera/klistra/klipp\n
+msg.phrase	CTRL+G goto    /  open the menu (1 File, 2 Edit, ...)\n	CTRL+G gå till    /  öppna menyn (1 Arkiv, 2 Redigera, ...)\n
+msg.phrase	Built-in functions: SUM AVERAGE MIN MAX COUNT COUNTA\n	Inbyggda funktioner: SUM AVERAGE MIN MAX COUNT COUNTA\n
+msg.phrase	PRODUCT ABS SQRT INT ROUND MOD POWER IF AND OR NOT\n	PRODUCT ABS SQRT INT ROUND MOD POWER IF AND OR NOT\n
+msg.phrase	IFERROR LEN LEFT RIGHT MID UPPER LOWER TRIM CONCATENATE PI\n	IFERROR LEN LEFT RIGHT MID UPPER LOWER TRIM CONCATENATE PI\n
+msg.phrase	Cell refs: A1, $A$1, A1:B10.  Formulas begin with '='.\n	Cellreferenser: A1, $A$1, A1:B10.  Formler börjar med '='.\n
+msg.phrase	Files: .ods (LibreOffice), .fods (flat XML), .csv\n	Filer: .ods (LibreOffice), .fods (platt XML), .csv\n
+msg.phrase	ODS/FODS keeps formulas, widths, heights and colours.\n	ODS/FODS behåller formler, bredder, höjder och färger.\n
+msg.phrase	CSV keeps values and formulas (no colours/heights).\n	CSV behåller bara värden och formler (inga färger/höjder).\n
+msg.phrase	Graph: select a range, press F10, and choose Line/Bar/Mixed/Pie.\n	Diagram: markera ett område, tryck F10 och välj Linje/Stapel/Blandat/Cirkel.\n
+msg.phrase	First row/column = labels; charts use the 640x480 CLUT8 FB.	Första raden/kolumnen = etiketter; diagram använder 640x480 CLUT8-FB.
 msg.phrase	SGCALC - HELP	SGCALC - HJÄLP
 msg.phrase	Press any key to return	Tryck på valfri tangent för att gå tillbaka
-msg.phrase	SGCALC for sgnano\n	SGCALC för sgnano
+msg.phrase	SGCALC for sgnano\n	SGCALC for sgnano\n
 msg.phrase	Version 	Version
-msg.phrase	A Lotus 1-2-3 style spreadsheet as an SGX program.\n\n	Ett Lotus 1-2-3 stilkalkylblad som ett SGX-program.
+msg.phrase	A Lotus 1-2-3 style spreadsheet as an SGX program.\n\n	Ett kalkylark i Lotus 1-2-3-stil som SGX-program.\n\n
 msg.phrase	SGX ABI %u.%u\n	SGX ABI %u.%u
-msg.phrase	Screen mode 3: text + CLUT8 FB (lowres disabled)\n	Skärmläge 3: text + CLUT8 FB (lowres inaktiverad)
+msg.phrase	Screen mode 3: text + CLUT8 FB (lowres disabled)\n	Skärmläge 3: text + CLUT8-FB (utan lowres-lager)\n
 msg.phrase	Sheet: %d rows x %d columns\n	Blad: %d rader x %d kolumner
-msg.phrase	Formats: .ods / .fods (LibreOffice), .csv\n\n	Format: .ods / .fods (LibreOffice), .csv
-msg.phrase	The grid is drawn on the text plane.\n	Rutnätet ritas på textplanet.
-msg.phrase	Charts and the 640x480 background use the FB.\n\n	Diagram och bakgrunden på 640x480 använder FB.
+msg.phrase	Formats: .ods / .fods (LibreOffice), .csv\n\n	Format: .ods / .fods (LibreOffice), .csv\n\n
+msg.phrase	The grid is drawn on the text plane.\n	Rutnätet ritas på textlagret.\n
+msg.phrase	Charts and the 640x480 background use the FB.\n\n	Diagram och bakgrunden 640x480 använder FB.\n\n
 msg.phrase	Press any key to return.	Tryck på valfri tangent för att gå tillbaka.
 msg.phrase	ABOUT SGCALC	OM SGCALC
 msg.phrase	New	Ny
-msg.phrase	Start a new sheet	Starta ett nytt ark
+msg.phrase	Start a new sheet	Börja ett nytt blad
 msg.phrase	Open...	Öppna...
 msg.phrase	Open an ODS, FODS or CSV file	Öppna en ODS-, FODS- eller CSV-fil
 msg.phrase	Save	Spara
 msg.phrase	Save the current file	Spara den aktuella filen
 msg.phrase	Save As...	Spara som...
-msg.phrase	Save with a new name or format	Spara med ett nytt namn eller format
+msg.phrase	Save with a new name or format	Spara med nytt namn eller format
 msg.phrase	Export CSV...	Exportera CSV...
 msg.phrase	Write a CSV copy	Skriv en CSV-kopia
 msg.phrase	Export ODS...	Exportera ODS...
 msg.phrase	Write a LibreOffice copy	Skriv en LibreOffice-kopia
 msg.phrase	Quit	Avsluta
-msg.phrase	Leave SGCALC	Lämna SGCALC
+msg.phrase	Leave SGCALC	Avsluta SGCALC
 msg.phrase	Clear	Rensa
 msg.phrase	Clear the selected cells	Rensa de markerade cellerna
 msg.phrase	Copy	Kopiera
 msg.phrase	Copy the selection	Kopiera markeringen
 msg.phrase	Paste	Klistra in
 msg.phrase	Paste at the cursor	Klistra in vid markören
-msg.phrase	Cut	Klipp
+msg.phrase	Cut	Klipp ut
 msg.phrase	Copy and clear the selection	Kopiera och rensa markeringen
-msg.phrase	Select all	Välj alla
+msg.phrase	Select all	Markera allt
 msg.phrase	Select all used cells	Markera alla använda celler
 msg.phrase	Text color...	Textfärg...
 msg.phrase	Choose the text colour	Välj textfärg
 msg.phrase	Background...	Bakgrund...
-msg.phrase	Choose the cell background	Välj cellbakgrund
+msg.phrase	Choose the cell background	Välj cellens bakgrund
 msg.phrase	Line	Linje
-msg.phrase	Draw a line graph from the selection	Rita ett linjediagram från markeringen
-msg.phrase	Bar	Bar
-msg.phrase	Draw a bar graph from the selection	Rita ett stapeldiagram från markeringen
+msg.phrase	Draw a line graph from the selection	Rita ett linjediagram av markeringen
+msg.phrase	Bar	Stapel
+msg.phrase	Draw a bar graph from the selection	Rita ett stapeldiagram av markeringen
 msg.phrase	Mixed	Blandat
-msg.phrase	Bars for the first series, lines for the rest	Barer för första serien, linjer för resten
-msg.phrase	Pie	Paj
-msg.phrase	Draw a pie graph from the selection	Rita ett cirkeldiagram från markeringen
-msg.phrase	Range...	Räckvidd...
-msg.phrase	Set the graph range explicitly	Ställ in grafområdet explicit
-msg.phrase	Draw again	Rita igen
-msg.phrase	Redraw the last graph	Rita om den sista grafen
+msg.phrase	Bars for the first series, lines for the rest	Staplar för första serien, linjer för resten
+msg.phrase	Pie	Cirkel
+msg.phrase	Draw a pie graph from the selection	Rita ett cirkeldiagram av markeringen
+msg.phrase	Range...	Område...
+msg.phrase	Set the graph range explicitly	Ange diagramområdet manuellt
+msg.phrase	Draw again	Rita om
+msg.phrase	Redraw the last graph	Rita om det senaste diagrammet
 msg.phrase	Goto...	Gå till...
-msg.phrase	Jump to a cell (for example C12)	Hoppa till en cell (till exempel C12)
+msg.phrase	Jump to a cell (for example C12)	Gå till en cell (till exempel C12)
 msg.phrase	Column width...	Kolumnbredd...
-msg.phrase	Change the selected columns' width	Ändra de valda kolumnernas bredd
+msg.phrase	Change the selected columns' width	Ändra bredden på markerade kolumner
 msg.phrase	Row height...	Radhöjd...
-msg.phrase	Change the selected rows' height	Ändra de markerade radernas höjd
-msg.phrase	Auto fit	Autopassning
-msg.phrase	Fit widths/heights to the contents (F7)	Anpassa bredder/höjder till innehållet (F7)
+msg.phrase	Change the selected rows' height	Ändra höjden på markerade rader
+msg.phrase	Auto fit	Anpassa
+msg.phrase	Fit widths/heights to the contents (F7)	Anpassa bredder/höjder efter innehållet (F7)
 msg.phrase	Recalculate	Räkna om
-msg.phrase	Re-evaluate all formulas	Omvärdera alla formler
-msg.phrase	Erase all	Radera alla
-msg.phrase	Clear the whole sheet	Rensa hela arket
-msg.phrase	Keys	Nycklar
-msg.phrase	Show the key guide	Visa nyckelguiden
+msg.phrase	Re-evaluate all formulas	Räkna om alla formler
+msg.phrase	Erase all	Radera allt
+msg.phrase	Clear the whole sheet	Rensa hela bladet
+msg.phrase	Keys	Tangenter
+msg.phrase	Show the key guide	Visa tangentöversikten
 msg.phrase	About	Om
 msg.phrase	About SGCALC	Om SGCALC
 msg.phrase	File	Arkiv
 msg.phrase	Edit	Redigera
-msg.phrase	Graph	Graf
-msg.phrase	Sheet	Ark
+msg.phrase	Graph	Diagram
+msg.phrase	Sheet	Blad
 msg.phrase	Help	Hjälp
-msg.phrase	File: new, open, save, export, quit	Fil: ny, öppna, spara, exportera, avsluta
-msg.phrase	Edit: clear, copy, paste, cut, select all	Redigera: rensa, kopiera, klistra in, klipp ut, välj alla
-msg.phrase	Graph: line, bar, mixed, pie (draws in the FB)	Graf: linje, stapel, blandad, paj (ritar i FB)
+msg.phrase	File: new, open, save, export, quit	Arkiv: ny, öppna, spara, exportera, avsluta
+msg.phrase	Edit: clear, copy, paste, cut, select all	Redigera: rensa, kopiera, klistra in, klipp ut, markera allt
+msg.phrase	Graph: line, bar, mixed, pie (draws in the FB)	Diagram: linje, stapel, blandat, cirkel (ritas i FB)
 msg.phrase	Sheet: goto, column width, recalculate, erase	Blad: gå till, kolumnbredd, räkna om, radera
-msg.phrase	Help: keys and about	Hjälp: nycklar och om
+msg.phrase	Help: keys and about	Hjälp: tangenter och om
 msg.phrase	%d %s	%d %s
 msg.phrase	Left/Right = menu    Up/Down = item    Enter = choose    Esc = cancel	Vänster/Höger = meny Upp/Ner = objekt Enter = välj Esc = avbryt
-msg.phrase	Cannot store the cell (%d).	Kan inte lagra cellen (%d).
-msg.phrase	Cancelled	Avbruten
-msg.phrase	Copied %d x %d cells	Kopierade %d x %d celler
-msg.phrase	The selection is too large or memory is low.	Urvalet är för stort eller minnet är lågt.
+msg.phrase	Cannot store the cell (%d).	Kan inte spara cellen (%d).
+msg.phrase	Cancelled	Avbrutet
+msg.phrase	Copied %d x %d cells	%d x %d celler kopierade
+msg.phrase	The selection is too large or memory is low.	Markeringen är för stor eller minnet räcker inte.
 msg.phrase	Cleared %s	Rensade %s
 msg.phrase	the cell	cellen
 msg.phrase	the selection	urvalet
 msg.phrase	Nothing to paste	Inget att klistra in
-msg.phrase	Pasted	Klistras in
+msg.phrase	Pasted	Inklistrat
 msg.phrase	GO TO CELL	GÅ TILL CELL
 msg.phrase	Cell reference (A1):	Cellreferens (A1):
 msg.phrase	Goto	Gå till
-msg.phrase	'%s' is not a cell reference.	'%s' är inte en cellreferens.
+msg.phrase	'%s' is not a cell reference.	'%s' är ingen cellreferens.
 msg.phrase	%d	%d
 msg.phrase	COLUMN WIDTH	KOLUMNBREDD
 msg.phrase	Width in characters (4..30):	Bredd i tecken (4..30):
@@ -777,51 +773,51 @@ msg.phrase	Column width = %d	Kolumnbredd = %d
 msg.phrase	ROW HEIGHT	RADHÖJD
 msg.phrase	Height in text rows (1..8):	Höjd i textrader (1..8):
 msg.phrase	Row height = %d	Radhöjd = %d
-msg.phrase	Auto fit: the sheet is empty	Autopassning: arket är tomt
-msg.phrase	Auto fit: %d column(s), %d row(s)	Autopassning: %d kolumn(er), %d rad(er)
+msg.phrase	Auto fit: the sheet is empty	Anpassa: bladet är tomt
+msg.phrase	Auto fit: %d column(s), %d row(s)	Anpassa: %d kolumn(er), %d rad(er)
 msg.phrase	BACKGROUND COLOUR	BAKGRUNDSFÄRG
-msg.phrase	TEXT COLOUR	TEXT FÄRG
-msg.phrase	Arrows: choose    Enter: apply    Esc: cancel	Pilar: välj Enter: tillämpa Esc: avbryt
-msg.phrase	Colour index (PC-98 16-colour palette)	Färgindex (PC-98 16-färgspalett)
+msg.phrase	TEXT COLOUR	TEXTFÄRG
+msg.phrase	Arrows: choose    Enter: apply    Esc: cancel	Pilar: välj    Enter: verkställ    Esc: avbryt
+msg.phrase	Colour index (PC-98 16-colour palette)	Färgnummer (PC-98:s 16-färgspalett)
 msg.phrase	%2d	%2d
 msg.phrase	Aa 123	Aa 123
-msg.phrase	Enter = apply    Esc = cancel	Enter = tillämpa Esc = avbryt
+msg.phrase	Enter = apply    Esc = cancel	Enter = verkställ    Esc = avbryt
 msg.phrase	Colour	Färg
-msg.phrase	Cannot apply the colour (%d).	Kan inte tillämpa färgen (%d).
+msg.phrase	Cannot apply the colour (%d).	Kan inte använda färgen (%d).
 msg.phrase	%s colour = %d	%s färg = %d
 msg.phrase	Background	Bakgrund
 msg.phrase	Text	Text
-msg.phrase	GRAPH RANGE	GRAFOMRÅDE
+msg.phrase	GRAPH RANGE	DIAGRAMOMRÅDE
 msg.phrase	Range (for example A1:C10):	Område (till exempel A1:C10):
-msg.phrase	Graph range	Grafintervall
-msg.phrase	Use a range such as A1:C10.	Använd ett intervall som A1:C10.
-msg.phrase	Not a valid range.\nUse a range such as A1:C10.	Inte ett giltigt intervall.\nAnvänd ett intervall som A1:C10.
-msg.phrase	Graph range %s	Diagramintervall %s
-msg.phrase	Cannot draw the graph.	Kan inte rita grafen.
+msg.phrase	Graph range	Diagramområde
+msg.phrase	Use a range such as A1:C10.	Ange ett område som A1:C10.
+msg.phrase	Not a valid range.\nUse a range such as A1:C10.	Ogiltigt område.\nAnge ett område som A1:C10.
+msg.phrase	Graph range %s	Diagramområde %s
+msg.phrase	Cannot draw the graph.	Kan inte rita diagrammet.
 msg.phrase	Graph: %s	Graf: %s
 msg.phrase	line	linje
 msg.phrase	bar	bar
 msg.phrase	mixed	blandad
 msg.phrase	pie	paj
-msg.phrase	Clear every cell in this sheet?	Rensa alla celler i det här arket?
-msg.phrase	Sheet erased	Ark raderat
-msg.phrase	Selected all used cells	Markerade alla använda celler
+msg.phrase	Clear every cell in this sheet?	Rensa alla celler i det här bladet?
+msg.phrase	Sheet erased	Bladet raderat
+msg.phrase	Selected all used cells	Alla använda celler markerade
 msg.phrase	Recalculated	Omräknat
-msg.phrase	SGCALC: cannot set screen mode 3: %s\n	SGCALC: kan inte ställa in skärmläge 3: %s
+msg.phrase	SGCALC: cannot set screen mode 3: %s\n	SGCALC: kan inte ställa in skärmläge 3: %s\n
 msg.phrase	Memory	Minne
 msg.phrase	Not enough PSRAM for the spreadsheet.	Inte tillräckligt med PSRAM för kalkylarket.
-msg.phrase	The sheet is empty.	Arket är tomt.
-msg.phrase	No numeric data in the selected range.	Inga numeriska data i det valda området.
+msg.phrase	The sheet is empty.	Bladet är tomt.
+msg.phrase	No numeric data in the selected range.	Inga tal i det markerade området.
 msg.phrase	%.2g	%.2g
 msg.phrase	%.6g	%.6g
-msg.phrase	Other	Annat
+msg.phrase	Other	Övrigt
 msg.phrase	No positive values for a pie chart	Inga positiva värden för ett cirkeldiagram
-msg.phrase	%s  %.0f%%	%s %.0f%%
-msg.phrase	GRAPH  %s  %s	GRAPH %s %s
-msg.phrase	LINE	LINE
-msg.phrase	BAR	BAR
-msg.phrase	MIXED	BLANDAD
-msg.phrase	PIE	PAJ
+msg.phrase	%s  %.0f%%	%s  %.0f%%
+msg.phrase	GRAPH  %s  %s	DIAGRAM  %s  %s
+msg.phrase	LINE	LINJE
+msg.phrase	BAR	STAPEL
+msg.phrase	MIXED	BLANDAT
+msg.phrase	PIE	CIRKEL
 msg.phrase	S:/	S:/
 msg.phrase	%s%s	%s%s
 msg.phrase	%s/%s	%s/%s
@@ -832,243 +828,243 @@ msg.phrase	Cannot read %s\n%s	Kan inte läsa %s\n%s
 msg.phrase	SAVE AS	SPARA SOM
 msg.phrase	OPEN FILE	ÖPPNA FIL
 msg.phrase	LibreOffice / CSV	LibreOffice / CSV
-msg.phrase	ODS  FODS  CSV	ODS FODS CSV
+msg.phrase	ODS  FODS  CSV	ODS  FODS  CSV
 msg.phrase	Folder: %s	Mapp: %s
 msg.phrase	Name:	Namn:
 msg.phrase	(type a name, or choose below)	(skriv ett namn eller välj nedan)
 msg.phrase	Name	Namn
 msg.phrase	Size	Storlek
 msg.phrase	[DIR] %s	[DIR] %s
-msg.phrase	      %s	%s
+msg.phrase	      %s	      %s
 msg.phrase	%lu.%luM	%lu.%luM
 msg.phrase	%luK	%luK
 msg.phrase	%luB	%luB
-msg.phrase	Enter=save  Left=up  Right/Enter on [DIR]=open  Tab=drive  Esc=cancel	Enter=spara Vänster=upp Höger/Enter på [DIR]=öppna Tab=enhet Esc=avbryt
-msg.phrase	Enter=open  Left=up  Right/Enter on [DIR]=open  Tab=drive  Esc=cancel	Enter=öppna Vänster=upp Höger/Enter på [DIR]=öppna Tab=enhet Esc=avbryt
-msg.phrase	BOOK1%s	BOKA1%s
-msg.phrase	Not enough memory.	Inte tillräckligt med minne.
+msg.phrase	Enter=save  Left=up  Right/Enter on [DIR]=open  Tab=drive  Esc=cancel	Enter=spara  Vänster=upp  Höger/Enter på [DIR]=öppna  Tab=enhet  Esc=avbryt
+msg.phrase	Enter=open  Left=up  Right/Enter on [DIR]=open  Tab=drive  Esc=cancel	Enter=öppna  Vänster=upp  Höger/Enter på [DIR]=öppna  Tab=enhet  Esc=avbryt
+msg.phrase	BOOK1%s	BOOK1%s
+msg.phrase	Not enough memory.	Minnet räcker inte.
 msg.phrase	%c:/	%c:/
-msg.phrase	Unsupported extension.\nUse .csv, .ods or .fods.	Tillägget stöds inte.\nAnvänd .csv, .ods eller .fods.
-msg.phrase	Overwrite	Skriva över
-msg.phrase	%s already exists.\nOverwrite it?	%s finns redan.\nVill du skriva över det?
-msg.phrase	%s may not be writable.\nTry anyway?	%s kanske inte går att skriva.\nProva ändå?
-msg.phrase	Unknown file type for %s	Okänd filtyp för %s
+msg.phrase	Unsupported extension.\nUse .csv, .ods or .fods.	Filändelsen stöds inte.\nAnvänd .csv, .ods eller .fods.
+msg.phrase	Overwrite	Skriv över
+msg.phrase	%s already exists.\nOverwrite it?	%s finns redan.\nSkriva över?
+msg.phrase	%s may not be writable.\nTry anyway?	%s kanske inte är skrivbar.\nFörsöka ändå?
+msg.phrase	Unknown file type for %s	Okänd filtyp: %s
 msg.phrase	Open	Öppna
-msg.phrase	Unsupported file type.\nUse .csv, .ods or .fods.	Filtyp som inte stöds.\nAnvänd .csv, .ods eller .fods.
+msg.phrase	Unsupported file type.\nUse .csv, .ods or .fods.	Filtypen stöds inte.\nAnvänd .csv, .ods eller .fods.
 msg.phrase	Cannot open %s\n%s	Kan inte öppna %s\n%s
 msg.phrase	%s is a folder.	%s är en mapp.
-msg.phrase	The file is too large (limit 8 MB).	Filen är för stor (högst 8 MB).
-msg.phrase	Not enough memory to read the file.	Inte tillräckligt med minne för att läsa filen.
+msg.phrase	The file is too large (limit 8 MB).	Filen är för stor (gräns 8 MB).
+msg.phrase	Not enough memory to read the file.	Minnet räcker inte för att läsa filen.
 msg.phrase	Cannot import %s\n%s	Kan inte importera %s\n%s
-msg.phrase	Bad ZIP/ODS data.	Dålig ZIP/ODS-data.
+msg.phrase	Bad ZIP/ODS data.	Skadade ZIP/ODS-data.
 msg.phrase	CRC error in the ODS file.	CRC-fel i ODS-filen.
 msg.phrase	Unsupported or damaged file.	Filen stöds inte eller är skadad.
-msg.phrase	Loaded %s	Laddade %s
-msg.phrase	Cannot build the %s file.	Kan inte bygga %s-filen.
+msg.phrase	Loaded %s	%s inläst
+msg.phrase	Cannot build the %s file.	Kan inte skapa %s-filen.
 msg.phrase	Cannot write %s\n%s	Kan inte skriva %s\n%s
 msg.phrase	%s %s	%s %s
 msg.phrase	Saved	Sparad
 msg.phrase	Exported	Exporterad
 msg.phrase	Unsaved changes	Osparade ändringar
-msg.phrase	Save the current sheet before continuing?	Spara det aktuella arket innan du fortsätter?
+msg.phrase	Save the current sheet before continuing?	Spara det aktuella bladet innan du fortsätter?
 msg.phrase	New sheet	Nytt blad
 msg.phrase	SGTRK	SGTRK
-msg.phrase	UNTITLED	UTAN TITEL
+msg.phrase	UNTITLED	UNTITLED
 msg.phrase	song is too large	låten är för stor
 msg.phrase	empty file	tom fil
 msg.phrase	not an SGT file	inte en SGT-fil
-msg.phrase	unsupported version %u	version %u som inte stöds
-msg.phrase	bad BPM	dålig BPM
-msg.phrase	bad speed	dålig hastighet
-msg.phrase	bad title length	dålig titellängd
-msg.phrase	truncated title	trunkerad titel
-msg.phrase	bad character in title	dålig karaktär i titeln
-msg.phrase	truncated order	trunkerad ordning
-msg.phrase	bad order length	dålig orderlängd
-msg.phrase	bad pattern number in order	dåligt mönsternummer i ordning
-msg.phrase	truncated pattern list	trunkerad mönsterlista
-msg.phrase	bad pattern count	dåligt antal mönster
-msg.phrase	bad pattern index	dåligt mönsterindex
-msg.phrase	duplicate pattern	dubblettmönster
-msg.phrase	truncated pattern data	trunkerade mönsterdata
-msg.phrase	invalid pattern data	ogiltig mönsterdata
-msg.phrase	trailing data in file	efterföljande data i filen
-msg.phrase	order refers to a missing pattern	ordning hänvisar till ett saknat mönster
+msg.phrase	unsupported version %u	version som inte stöds (%u)
+msg.phrase	bad BPM	felaktig BPM
+msg.phrase	bad speed	felaktig hastighet
+msg.phrase	bad title length	felaktig titellängd
+msg.phrase	truncated title	avkortad titel
+msg.phrase	bad character in title	ogiltigt tecken i titeln
+msg.phrase	truncated order	avkortad ordning
+msg.phrase	bad order length	felaktig ordningslängd
+msg.phrase	bad pattern number in order	felaktigt patternnummer i ordningen
+msg.phrase	truncated pattern list	avkortad patternlista
+msg.phrase	bad pattern count	felaktigt antal patterns
+msg.phrase	bad pattern index	felaktigt patternindex
+msg.phrase	duplicate pattern	dubblerat pattern
+msg.phrase	truncated pattern data	avkortade patterndata
+msg.phrase	invalid pattern data	ogiltiga patterndata
+msg.phrase	trailing data in file	överflödiga data i slutet av filen
+msg.phrase	order refers to a missing pattern	ordningen pekar på ett pattern som saknas
 msg.phrase	A:/	A:/
 msg.phrase	(untitled)	(namnlös)
-msg.phrase	Ready. Press F1 for help.	Klar. Tryck på F1 för hjälp.
+msg.phrase	Ready. Press F1 for help.	Klar. Tryck F1 för hjälp.
 msg.phrase	%d:%d:%d:%d:%d:%d	%d:%d:%d:%d:%d:%d
 msg.phrase	Follow OFF	Följ AV
 msg.phrase	Octave %d	Oktav %d
 msg.phrase	Nothing to undo	Inget att ångra
-msg.phrase	Undo	Ångra
-msg.phrase	Note OFF	Notera AV
-msg.phrase	Note %s	Notera %s
+msg.phrase	Undo	Ångrat
+msg.phrase	Note OFF	Note off
+msg.phrase	Note %s	Ton %s
 msg.phrase	Instrument %d	Instrument %d
 msg.phrase	Volume %s	Volym %s
 msg.phrase	Effect %c	Effekt %c
-msg.phrase	Set an effect letter first	Ställ in en effektbokstav först
+msg.phrase	Set an effect letter first	Ange effektbokstaven först
 msg.phrase	Parameter %s	Parameter %s
-msg.phrase	Effect cleared	Effekten rensades
-msg.phrase	Parameter cleared	Parametern raderades
-msg.phrase	Note cleared	Anteckning rensad
-msg.phrase	Instrument cleared	Instrumentet har rensats
-msg.phrase	Volume cleared	Volymen rensades
-msg.phrase	Order list is full	Beställningslistan är full
-msg.phrase	Order inserted	Beställning införd
-msg.phrase	Cannot delete the last order	Kan inte ta bort den senaste beställningen
-msg.phrase	Order deleted	Beställning raderad
-msg.phrase	Pattern %s	Mönster %s
-msg.phrase	Playing song	Spelar låt
-msg.phrase	Playing pattern %s	Spelar mönster %s
-msg.phrase	Stopped	Slutade
+msg.phrase	Effect cleared	Effekt rensad
+msg.phrase	Parameter cleared	Parameter rensad
+msg.phrase	Note cleared	Ton rensad
+msg.phrase	Instrument cleared	Instrument rensat
+msg.phrase	Volume cleared	Volym rensad
+msg.phrase	Order list is full	Ordningslistan är full
+msg.phrase	Order inserted	Position infogad
+msg.phrase	Cannot delete the last order	Den sista positionen kan inte tas bort
+msg.phrase	Order deleted	Position borttagen
+msg.phrase	Pattern %s	Pattern %s
+msg.phrase	Playing song	Spelar låten
+msg.phrase	Playing pattern %s	Spelar pattern %s
+msg.phrase	Stopped	Stoppad
 msg.phrase	New song	Ny låt
-msg.phrase	Discard unsaved changes and start a new song? (Y/N)	Vill du ignorera osparade ändringar och starta en ny låt? (J/N)
-msg.phrase	SAVE ERROR: %s	SPARA FEL: %s
-msg.phrase	Saved %s	Sparade %s
-msg.phrase	LOAD ERROR: %s	LADDA FEL: %s
-msg.phrase	Discard unsaved changes and open a song? (Y/N)	Släng osparade ändringar och öppna en låt? (J/N)
-msg.phrase	Discard unsaved changes and quit? (Y/N)	Släng osparade ändringar och avsluta? (J/N)
+msg.phrase	Discard unsaved changes and start a new song? (Y/N)	Kasta osparade ändringar och börja en ny låt? (Y/N)
+msg.phrase	SAVE ERROR: %s	FEL VID SPARANDE: %s
+msg.phrase	Saved %s	%s sparad
+msg.phrase	LOAD ERROR: %s	FEL VID INLÄSNING: %s
+msg.phrase	Discard unsaved changes and open a song? (Y/N)	Kasta osparade ändringar och öppna en låt? (Y/N)
+msg.phrase	Discard unsaved changes and quit? (Y/N)	Kasta osparade ändringar och avsluta? (Y/N)
 msg.phrase	BPM %d	BPM %d
 msg.phrase	Speed %d	Hastighet %d
-msg.phrase	Song settings updated	Låtinställningar uppdaterade
-msg.phrase	Preview %s	Förhandsgranska %s
+msg.phrase	Song settings updated	Låtinställningarna ändrade
+msg.phrase	Preview %s	Provlyssna %s
 msg.phrase	Instrument %s %s	Instrument %s %s
 msg.phrase	Filename is empty	Filnamnet är tomt
-msg.phrase	Overwrite %s? (Y/N)	Vill du skriva över %s? (J/N)
-msg.phrase	Save cancelled	Spara avbröts
-msg.phrase	Open cancelled	Öppet avbröts
-msg.phrase	Edit ON	Redigera PÅ
-msg.phrase	Edit OFF	Redigera AV
+msg.phrase	Overwrite %s? (Y/N)	Skriva över %s? (Y/N)
+msg.phrase	Save cancelled	Sparandet avbröts
+msg.phrase	Open cancelled	Öppnandet avbröts
+msg.phrase	Edit ON	Redigering PÅ
+msg.phrase	Edit OFF	Redigering AV
 msg.phrase	Follow ON	Följ PÅ
-msg.phrase	Edit is OFF. Press F8 to edit.	Edit är AV. Tryck på F8 för att redigera.
+msg.phrase	Edit is OFF. Press F8 to edit.	Redigering är av. Tryck F8 för att redigera.
 msg.phrase	I/O error	I/O-fel
 msg.phrase	file is too large	filen är för stor
-msg.phrase	truncated file	trunkerad fil
-msg.phrase	SINE PAD	SINESKYDD
-msg.phrase	TRIANGLE	TRIANGEL
-msg.phrase	SAW LEAD	SÅG BLY
-msg.phrase	SQUARE	KVADRATUR
-msg.phrase	PULSE 25	PULS 25
-msg.phrase	ORGAN	ORGEL
+msg.phrase	truncated file	avkortad fil
+msg.phrase	SINE PAD	SINE PAD
+msg.phrase	TRIANGLE	TRIANGLE
+msg.phrase	SAW LEAD	SAW LEAD
+msg.phrase	SQUARE	SQUARE
+msg.phrase	PULSE 25	PULSE 25
+msg.phrase	ORGAN	ORGAN
 msg.phrase	BASS	BASS
-msg.phrase	BELL	KLOCKA
-msg.phrase	NOISE	BULLER
-msg.phrase	SINE	SINUS
-msg.phrase	SAW	SÅG
-msg.phrase	 | BPM %s SPD %s 	 | BPM %s SPD %s
-msg.phrase	 SGNO TRACKER 1.0 | 	SGNO TRACKER 1.0 |
-msg.phrase	FILE 	FIL
+msg.phrase	BELL	BELL
+msg.phrase	NOISE	NOISE
+msg.phrase	SINE	SINE
+msg.phrase	SAW	SAW
+msg.phrase	 | BPM %s SPD %s 	 | BPM %s SPD %s 
+msg.phrase	 SGNO TRACKER 1.0 | 	 SGNO TRACKER 1.0 | 
+msg.phrase	FILE 	FILE 
 msg.phrase	 PAT %s	 PAT %s
 msg.phrase	 ORD %d/%d	 ORD %d/%d
-msg.phrase	 INS %s 	 INS %s
-msg.phrase	 OCT %d	 OKT %d
-msg.phrase	 EDIT %s	 REDIGERA %s
-msg.phrase	ON 	PÅ
-msg.phrase	OFF	AV
+msg.phrase	 INS %s 	 INS %s 
+msg.phrase	 OCT %d	 OCT %d
+msg.phrase	 EDIT %s	 EDIT %s
+msg.phrase	ON 	ON 
+msg.phrase	OFF	OFF
 msg.phrase	 FOL %s	 FOL %s
-msg.phrase	ON	PÅ
-msg.phrase	ROW	RAD
-msg.phrase	TRACK %d	SPÅR %d
-msg.phrase	CHAN LEVEL	CHAN-NIVÅ
+msg.phrase	ON	ON
+msg.phrase	ROW	ROW
+msg.phrase	TRACK %d	TRACK %d
+msg.phrase	CHAN LEVEL	CHAN LEVEL
 msg.phrase	%c%s	%c%s
 msg.phrase	%s %s %s %s	%s %s %s %s
-msg.phrase	%s 	%s
+msg.phrase	%s 	%s 
 msg.phrase	%d %s %s	%d %s %s
-msg.phrase	ORDER %d/%d	BESTÄLL %d/%d
-msg.phrase	PAT   %s	PAT %s
+msg.phrase	ORDER %d/%d	ORDER %d/%d
+msg.phrase	PAT   %s	PAT   %s
 msg.phrase	INS %s %s	INS %s %s
-msg.phrase	OCT %d  EDIT %s	OKT %d REDIGERA %s
-msg.phrase	FOLLOW %s	FÖLJ %s
-msg.phrase	F1 HELP F2 SONG	F1 HJÄLP F2 SONG
-msg.phrase	F3 INS  F4 SAVE	F3 INS F4 SPARA
-msg.phrase	F5 PLAY F6 PAT	F5 SPELA F6 PAT
-msg.phrase	F7 STOP F8 EDIT	F7 STOPP F8 REDIGERA
+msg.phrase	OCT %d  EDIT %s	OCT %d  EDIT %s
+msg.phrase	FOLLOW %s	FOLLOW %s
+msg.phrase	F1 HELP F2 SONG	F1 HELP F2 SONG
+msg.phrase	F3 INS  F4 SAVE	F3 INS  F4 SAVE
+msg.phrase	F5 PLAY F6 PAT	F5 PLAY F6 PAT
+msg.phrase	F7 STOP F8 EDIT	F7 STOP F8 EDIT
 msg.phrase	F9/F10 OCTAVE	F9/F10 OCTAVE
-msg.phrase	F11 FOLLOW	F11 FÖLJ
-msg.phrase	F12 QUIT	F12 AVSLUTA
-msg.phrase	SPACE PLAY/STOP	SPACE PLAY/STOPP
-msg.phrase	CTRL-S SAVE	CTRL-S SPARA
-msg.phrase	CTRL-O OPEN	CTRL-O ÖPPEN
-msg.phrase	C-N NEW C-Z UNDO	C-N NYTT C-Z ÅNgra
-msg.phrase	C-C STOP	C-C STOPP
-msg.phrase	PLAYING  ORD %d/%d  PAT %s  ROW %s/%d  SPD %s  BPM %d  F7 STOP	SPELA ORD %d/%d PAT %s RAD %s/%d SPD %s BPM %d F7 STOP
-msg.phrase	READY  EDIT %s  OCT %d  F1 HELP  F5 PLAY  CTRL-S SAVE	REDO EDIT %s OKT %d F1 HJÄLP F5 SPELA CTRL-S SPARA
-msg.phrase	 %s 	 %s
-msg.phrase	#TRANSPORT AND FILES	#TRANSPORT OCH FILER
-msg.phrase	  F5          Play the song from the current order	  F5 Spela låten från den aktuella ordningen
-msg.phrase	  F6          Play the current pattern	  F6 Spela upp det aktuella mönstret
-msg.phrase	  F7/Ctrl-C   Stop playback	  F7/Ctrl-C Stoppa uppspelningen
-msg.phrase	  Space       Play / stop	  Mellanslag Spela / stoppa
-msg.phrase	  F4          Save as	  F4 Spara som
-msg.phrase	  Ctrl-S      Save (asks for a name if new)	  Ctrl-S Spara (frågar om ett namn om det är nytt)
-msg.phrase	  Ctrl-O      Open a song	  Ctrl-O Öppna en låt
-msg.phrase	  Ctrl-N      New song	  Ctrl-N Ny låt
-msg.phrase	  F12         Quit (confirmation if modified)	  F12 Avsluta (bekräftelse om modifierad)
-msg.phrase	#ORDER LIST	#ORDELLISTA
-msg.phrase	  [ ]         Previous / next order entry	  [ ] Föregående/nästa orderinmatning
-msg.phrase	  { }         Insert / delete an order entry	  { } Infoga/ta bort en beställningspost
-msg.phrase	  - +         Change the pattern in the entry	  - + Ändra mönstret i posten
-msg.phrase	#DISPLAY	#DISPLAY
-msg.phrase	  F11         Follow playback (turns off on manual move)	  F11 Följ uppspelning (stänger av vid manuell flyttning)
-msg.phrase	  F1          Help; Left/Right changes page	  F1 Hjälp; Vänster/Höger byter sida
+msg.phrase	F11 FOLLOW	F11 FOLLOW
+msg.phrase	F12 QUIT	F12 QUIT
+msg.phrase	SPACE PLAY/STOP	SPACE PLAY/STOP
+msg.phrase	CTRL-S SAVE	CTRL-S SAVE
+msg.phrase	CTRL-O OPEN	CTRL-O OPEN
+msg.phrase	C-N NEW C-Z UNDO	C-N NEW C-Z UNDO
+msg.phrase	C-C STOP	C-C STOP
+msg.phrase	PLAYING  ORD %d/%d  PAT %s  ROW %s/%d  SPD %s  BPM %d  F7 STOP	PLAYING  ORD %d/%d  PAT %s  ROW %s/%d  SPD %s  BPM %d  F7 STOP
+msg.phrase	READY  EDIT %s  OCT %d  F1 HELP  F5 PLAY  CTRL-S SAVE	READY  EDIT %s  OCT %d  F1 HELP  F5 PLAY  CTRL-S SAVE
+msg.phrase	 %s 	 %s 
+msg.phrase	#TRANSPORT AND FILES	#UPPSPELNING OCH FILER
+msg.phrase	  F5          Play the song from the current order	  F5          Spela låten från aktuell position
+msg.phrase	  F6          Play the current pattern	  F6          Spela aktuellt pattern
+msg.phrase	  F7/Ctrl-C   Stop playback	  F7/Ctrl-C   Stoppa uppspelningen
+msg.phrase	  Space       Play / stop	  Space       Spela / stoppa
+msg.phrase	  F4          Save as	  F4          Spara som
+msg.phrase	  Ctrl-S      Save (asks for a name if new)	  Ctrl-S      Spara (frågar efter namn om den är ny)
+msg.phrase	  Ctrl-O      Open a song	  Ctrl-O      Öppna en låt
+msg.phrase	  Ctrl-N      New song	  Ctrl-N      Ny låt
+msg.phrase	  F12         Quit (confirmation if modified)	  F12         Avsluta (frågar om något ändrats)
+msg.phrase	#ORDER LIST	#ORDNINGSLISTA
+msg.phrase	  [ ]         Previous / next order entry	  [ ]         Föregående / nästa position
+msg.phrase	  { }         Insert / delete an order entry	  { }         Infoga / ta bort position
+msg.phrase	  - +         Change the pattern in the entry	  - +         Byt pattern på positionen
+msg.phrase	#DISPLAY	#VISNING
+msg.phrase	  F11         Follow playback (turns off on manual move)	  F11         Följ uppspelningen (stängs av vid manuell flytt)
+msg.phrase	  F1          Help; Left/Right changes page	  F1          Hjälp; Vänster/Höger byter sida
 msg.phrase	#EDITING	#REDIGERING
-msg.phrase	  F8          Toggle edit mode	  F8 Växla redigeringsläge
-msg.phrase	  Arrows      Move the cursor	  Pilar Flytta markören
-msg.phrase	  PgUp/PgDn   Jump 16 rows	  PgUp/PgDn Hoppa 16 rader
-msg.phrase	  Home/End    First / last row	  Hem/Slut Första/sista raden
-msg.phrase	  F9/F10      Octave down / up	F9/F10 Oktav ner/upp
-msg.phrase	  Z S X D C V G B H N J M      lower piano row	  Z S X D C V G B H N J M nedre pianoraden
-msg.phrase	  Q 2 W 3 E R 5 T 6 Y 7 U      upper piano row	  Q 2 W 3 E R 5 T 6 Y 7 U övre pianoraden
-msg.phrase	  1           Note off	  1 Not av
-msg.phrase	  0 / Del     0 clears note/inst/fx; Del clears any	  0 / Del 0 rensar not/inst/fx; Del rensar någon
-msg.phrase	  Ctrl-Z      Undo the last pattern/order edit	  Ctrl-Z Ångra den senaste mönstret/beställningsredigeringen
-msg.phrase	#EFFECTS (parameter is hexadecimal)	#EFFECTS (parametern är hexadecimal)
-msg.phrase	  Axy   Volume slide: up x, down y	  Axy Volym glida: upp x, ner y
-msg.phrase	  Cxx   Note cut after xx ticks	  Cxx Notera skär efter xx fästingar
-msg.phrase	  Dxx   Set volume (00..7F)	  Dxx Ställ in volym (00..7F)
-msg.phrase	  Fxx   Speed if xx < 20, otherwise BPM	  Fxx Hastighet om xx < 20, annars BPM
-msg.phrase	  Hxy   Arpeggio x, y semitones	  Hxy Arpeggio x, y halvtoner
-msg.phrase	  Pxx   Pitch slide up	Pxx Pitch glida upp
-msg.phrase	  Qxx   Pitch slide down	  Qxx Pitch glida ner
-msg.phrase	  F2 song settings, F3 instrument list	  F2-låtinställningar, F3-instrumentlista
-msg.phrase	HELP %d/2	HJÄLP %d/2
-msg.phrase	LEFT/RIGHT PAGE   ENTER OR F1 CLOSE	VÄNSTER/HÖGER SIDA ENTER ELLER F1 STÄNG
-msg.phrase	SONG SETTINGS	SÅNGINSTÄLLNINGAR
-msg.phrase	UP/DOWN SELECT   LEFT/RIGHT ADJUST   ENTER/F2 CLOSE	UPP/NER VÄLJ VÄNSTER/HÖGER JUSTERA ENTER/F2 STÄNG
+msg.phrase	  F8          Toggle edit mode	  F8          Redigeringsläge på / av
+msg.phrase	  Arrows      Move the cursor	  Pilar       Flytta markören
+msg.phrase	  PgUp/PgDn   Jump 16 rows	  PgUp/PgDn   Hoppa 16 rader
+msg.phrase	  Home/End    First / last row	  Home/End    Första / sista raden
+msg.phrase	  F9/F10      Octave down / up	  F9/F10      Oktav ned / upp
+msg.phrase	  Z S X D C V G B H N J M      lower piano row	  Z S X D C V G B H N J M      nedre pianoraden
+msg.phrase	  Q 2 W 3 E R 5 T 6 Y 7 U      upper piano row	  Q 2 W 3 E R 5 T 6 Y 7 U      övre pianoraden
+msg.phrase	  1           Note off	  1           Note off
+msg.phrase	  0 / Del     0 clears note/inst/fx; Del clears any	  0 / Del     0 rensar ton/instr./effekt; Del fältet
+msg.phrase	  Ctrl-Z      Undo the last pattern/order edit	  Ctrl-Z      Ångra senaste ändring av pattern/ordning
+msg.phrase	#EFFECTS (parameter is hexadecimal)	#EFFEKTER (parametern är hexadecimal)
+msg.phrase	  Axy   Volume slide: up x, down y	  Axy   Volymglidning: upp x, ned y
+msg.phrase	  Cxx   Note cut after xx ticks	  Cxx   Klipp tonen efter xx ticks
+msg.phrase	  Dxx   Set volume (00..7F)	  Dxx   Ställ in volym (00..7F)
+msg.phrase	  Fxx   Speed if xx < 20, otherwise BPM	  Fxx   Hastighet om xx < 20, annars BPM
+msg.phrase	  Hxy   Arpeggio x, y semitones	  Hxy   Arpeggio x, y halvtoner
+msg.phrase	  Pxx   Pitch slide up	  Pxx   Tonhöjdsglidning uppåt
+msg.phrase	  Qxx   Pitch slide down	  Qxx   Tonhöjdsglidning nedåt
+msg.phrase	  F2 song settings, F3 instrument list	  F2 låtinställningar, F3 instrumentlista
+msg.phrase	HELP %d/2	HELP %d/2
+msg.phrase	LEFT/RIGHT PAGE   ENTER OR F1 CLOSE	LEFT/RIGHT PAGE   ENTER OR F1 CLOSE
+msg.phrase	SONG SETTINGS	LÅTINSTÄLLNINGAR
+msg.phrase	UP/DOWN SELECT   LEFT/RIGHT ADJUST   ENTER/F2 CLOSE	UP/DOWN SELECT   LEFT/RIGHT ADJUST   ENTER/F2 CLOSE
 msg.phrase	  Title	  Titel
 msg.phrase	  [%s_]	  [%s_]
-msg.phrase	  BPM   : %d     (left/right -1/+1, -/+ -5/+5)	  BPM : %d (vänster/höger -1/+1, -/+ -5/+5)
-msg.phrase	  Speed : %d ticks/row	  Hastighet : %d markeringar/rad
-msg.phrase	  Rows  : %d (fixed)	  Rader: %d (fast)
-msg.phrase	  Order : %d entries	Beställning: %d poster
-msg.phrase	  Patterns in use : %d	  Mönster som används: %d
-msg.phrase	Type to edit the title. Backspace deletes the last character.	Skriv för att redigera titeln. Backsteg tar bort det sista tecknet.
-msg.phrase	BPM range 32..255. Speed range 1..31.	BPM-intervall 32..255. Hastighetsområde 1..31.
-msg.phrase	Pattern effects can also change speed and BPM while playing.	Mönstereffekter kan också ändra hastighet och BPM medan du spelar.
+msg.phrase	  BPM   : %d     (left/right -1/+1, -/+ -5/+5)	  BPM   : %d     (vänster/höger -1/+1, -/+ -5/+5)
+msg.phrase	  Speed : %d ticks/row	  Hast. : %d ticks per rad
+msg.phrase	  Rows  : %d (fixed)	  Rader : %d (fast)
+msg.phrase	  Order : %d entries	  Ordning : %d positioner
+msg.phrase	  Patterns in use : %d	  Använda patterns : %d
+msg.phrase	Type to edit the title. Backspace deletes the last character.	Skriv för att ändra titeln. Backspace raderar sista tecknet.
+msg.phrase	BPM range 32..255. Speed range 1..31.	BPM från 32 till 255. Hastighet från 1 till 31.
+msg.phrase	Pattern effects can also change speed and BPM while playing.	Effekter i patterns kan också ändra hastighet och BPM under uppspelning.
 msg.phrase	INSTRUMENTS	INSTRUMENT
-msg.phrase	UP/DOWN SELECT   SPACE PREVIEW   ENTER USE   F3 CLOSE	UPP/NER VÄLJ MELLANSLAG FÖRHANDSVISNING ENTER ANVÄND F3 STÄNG
-msg.phrase	 #  NAME       WAVE       A   D   S   R  VOL	 # NAME WAVE A D S R VOL
-msg.phrase	 %c %d  %-9s %-9s %3d %3d %3d %3d %4d	 %c %d %-9s %-9s %3d %3d %3d %3d %4d
-msg.phrase	All four channels use wavetable synthesis.	Alla fyra kanalerna använder vågbar syntes.
-msg.phrase	Preview plays C-4 on the track under the edit cursor.	Preview spelar C-4 på spåret under redigeringsmarkören.
+msg.phrase	UP/DOWN SELECT   SPACE PREVIEW   ENTER USE   F3 CLOSE	UP/DOWN SELECT   SPACE PREVIEW   ENTER USE   F3 CLOSE
+msg.phrase	 #  NAME       WAVE       A   D   S   R  VOL	 #  NAME       WAVE       A   D   S   R  VOL
+msg.phrase	 %c %d  %-9s %-9s %3d %3d %3d %3d %4d	 %c %d  %-9s %-9s %3d %3d %3d %3d %4d
+msg.phrase	All four channels use wavetable synthesis.	Alla fyra kanalerna använder wavetable-syntes.
+msg.phrase	Preview plays C-4 on the track under the edit cursor.	Provlyssning spelar C-4 på spåret under markören.
 msg.phrase	Current instrument: %s %s	Aktuellt instrument: %s %s
-msg.phrase	SAVE SONG AS	SPARA LÅT SOM
-msg.phrase	ENTER SAVE   F4 OR CTRL-C CANCEL	ENTER SPARA F4 ELLER CTRL-C AVBRYT
-msg.phrase	Directory:	Katalog:
+msg.phrase	SAVE SONG AS	SPARA LÅTEN SOM
+msg.phrase	ENTER SAVE   F4 OR CTRL-C CANCEL	ENTER SAVE   F4 OR CTRL-C CANCEL
+msg.phrase	Directory:	Mapp:
 msg.phrase	  %s	  %s
 msg.phrase	File name:	Filnamn:
-msg.phrase	The extension .SGT is added automatically.	Tillägget .SGT läggs till automatiskt.
+msg.phrase	The extension .SGT is added automatically.	Filändelsen .SGT läggs till automatiskt.
 msg.phrase	An existing file can be overwritten.	En befintlig fil kan skrivas över.
-msg.phrase	OPEN SONG	ÖPPEN SÅNG
-msg.phrase	ENTER OPEN  BS PARENT  CTRL-O/CTRL-C CANCEL	ENTER ÖPPEN BS FÖRÄLDRE CTRL-O/CTRL-C AVBRYT
-msg.phrase	DIR  %s	DIR %s
+msg.phrase	OPEN SONG	ÖPPNA LÅT
+msg.phrase	ENTER OPEN  BS PARENT  CTRL-O/CTRL-C CANCEL	ENTER OPEN  BS PARENT  CTRL-O/CTRL-C CANCEL
+msg.phrase	DIR  %s	DIR  %s
 msg.phrase	(no .SGT files in this folder)	(inga .SGT-filer i den här mappen)
 msg.phrase	 %c %s%s	 %c %s%s
 msg.phrase	Files: %d	Filer: %d
 msg.phrase	CONFIRM	BEKRÄFTA
-msg.phrase	Y = YES   N / ENTER / CTRL-C = NO	Y = JA N / ENTER / CTRL-C = NEJ
-msg.phrase	Y = yes        N = no	Y = ja N = nej
+msg.phrase	Y = YES   N / ENTER / CTRL-C = NO	Y = YES   N / ENTER / CTRL-C = NO
+msg.phrase	Y = yes        N = no	Y = ja        N = nej
 msg.phrase	%02d	%02d
 msg.phrase	%03d	%03d
 msg.phrase	%02X	%02X
@@ -1086,52 +1082,52 @@ msg.phrase	A#	A#
 msg.phrase	B-	B-
 msg.phrase	A:/dir/name	A:/dir/namn
 msg.phrase	MThd	MThd
-msg.phrase	broken MThd	bruten MThd
-msg.phrase	MIDI IMPORT	MIDI IMPORT
+msg.phrase	broken MThd	skadad MThd
+msg.phrase	MIDI IMPORT	MIDI-IMPORT
 msg.phrase	MTrk	MTrk
-msg.phrase	broken delta time	bruten deltatid
-msg.phrase	broken running status	trasig körstatus
-msg.phrase	broken meta event	trasig metahändelse
-msg.phrase	broken sysex event	trasig sysexhändelse
-msg.phrase	broken channel event	trasig kanalhändelse
-msg.phrase	SMF output is too small	SMF-utgången är för liten
-msg.phrase	SMF output is too large	SMF-utgången är för stor
+msg.phrase	broken delta time	skadad delta time
+msg.phrase	broken running status	skadad running status
+msg.phrase	broken meta event	skadad metahändelse
+msg.phrase	broken sysex event	skadad SysEx-händelse
+msg.phrase	broken channel event	skadad kanalhändelse
+msg.phrase	SMF output is too small	SMF-utdata är för liten
+msg.phrase	SMF output is too large	SMF-utdata är för stor
 msg.phrase	the song is too long for SMF	låten är för lång för SMF
 msg.phrase	TRK1	TRK1
-msg.phrase	SGNO TRACKER: incompatible SGX ABI\n	SGNO TRACKER: inkompatibel SGX ABI
+msg.phrase	SGNO TRACKER: incompatible SGX ABI\n	SGNO TRACKER: inkompatibel SGX ABI\n
 msg.phrase	5 Macro	5 Makro
 msg.phrase	6 Help	6 Hjälp
 msg.phrase	Run current	Kör aktuell
-msg.phrase	Run the macro at the cursor (#! header cell and the cells below it)	Kör makrot vid markören (#!-rubrikcell och cellerna under)
-msg.phrase	Run selection	Kör markering
+msg.phrase	Run the macro at the cursor (#! header cell and the cells below it)	Kör makrot vid markören (rubrikcellen #! och cellerna under)
+msg.phrase	Run selection	Kör markeringen
 msg.phrase	Run the selected cells as one macro (top-left cell is the #! header)	Kör de markerade cellerna som ett makro (cellen överst till vänster är #!-rubriken)
 msg.phrase	Run all	Kör alla
-msg.phrase	Run every macro in the sheet, top-left to bottom-right	Kör alla makron i bladet, från övre vänster till nedre höger
+msg.phrase	Run every macro in the sheet, top-left to bottom-right	Kör alla makron i bladet, från övre vänstra till nedre högra
 msg.phrase	Last error	Senaste fel
 msg.phrase	Show the last macro error	Visa det senaste makrofelet
 msg.phrase	Macro	Makro
 msg.phrase	Macro: run #!ruby / #!python / #!basic cells	Makro: kör #!ruby / #!python / #!basic-celler
 msg.phrase	Edit the cell (F2)	Redigera cellen (F2)
-msg.phrase	Fit widths/heights to the contents	Anpassa bredd/höjd till innehållet
+msg.phrase	Fit widths/heights to the contents	Anpassa bredder/höjder efter innehållet
 msg.phrase	Last macro error	Senaste makrofel
-msg.phrase	No macro error.	Inget makrofel.
+msg.phrase	No macro error.	Inga makrofel.
 msg.phrase	IME on	IME på
 msg.phrase	IME off	IME av
 msg.phrase	Macro: %s %s ...	Makro: %s %s ...
-msg.phrase	%s: this firmware cannot run macros (SGX ABI 5.10 or later)	%s: denna firmware kan inte köra makron (SGX ABI 5.10 eller senare)
+msg.phrase	%s: this firmware cannot run macros (SGX ABI 5.10 or later)	%s: den här firmwaren kan inte köra makron (kräver SGX ABI 5.10 eller senare)
 msg.phrase	Macro error: %s	Makrofel: %s
 msg.phrase	Macro: %s done	Makro: %s klart
 msg.phrase	a macro is already running	ett makro körs redan
-msg.phrase	this language is not available	detta språk är inte tillgängligt
-msg.phrase	not enough memory	inte tillräckligt med minne
+msg.phrase	this language is not available	det här språket finns inte
+msg.phrase	not enough memory	minnet räcker inte
 msg.phrase	the macro stopped with an error	makrot stoppade med ett fel
 msg.phrase	Macro error %s: %s	Makrofel %s: %s
-msg.phrase	Macro: not enough memory	Makro: inte tillräckligt med minne
-msg.phrase	Macro: the cursor is not on a macro (a #!ruby / #!python / #!basic cell or the cells below it)	Makro: markören står inte på ett makro (#!ruby / #!python / #!basic-cell eller cellerna under)
+msg.phrase	Macro: not enough memory	Makro: minnet räcker inte
+msg.phrase	Macro: the cursor is not on a macro (a #!ruby / #!python / #!basic cell or the cells below it)	Makro: markören står inte på ett makro (en #!ruby / #!python / #!basic-cell eller cellerna under)
 msg.phrase	Macro: no macro in the sheet	Makro: inga makron i bladet
 msg.phrase	Run all macros	Kör alla makron
-msg.phrase	Macros: %d. Run them all, top-left to bottom-right? Changes cannot be undone.	Makron: %d. Kör alla, från övre vänster till nedre höger? Ändringar kan inte ångras.
-msg.phrase	Macro: %d of %d done	Makro: %d klara (av %d)
+msg.phrase	Macros: %d. Run them all, top-left to bottom-right? Changes cannot be undone.	Makron: %d. Köra alla, från övre vänstra till nedre högra? Ändringar kan inte ångras.
+msg.phrase	Macro: %d of %d done	Makro: %d av %d klara
 msg.phrase	Cleared the cell	Cellen rensad
 msg.phrase	Cleared the selection	Markeringen rensad
 msg.phrase	Background colour = %d	Bakgrundsfärg = %d
@@ -1140,7 +1136,7 @@ msg.phrase	Graph: line	Diagram: linje
 msg.phrase	Graph: bar	Diagram: stapel
 msg.phrase	Graph: mixed	Diagram: blandat
 msg.phrase	Graph: pie	Diagram: cirkel
-msg.phrase	Exported %s	Exporterade %s
+msg.phrase	Exported %s	%s exporterad
 msg.phrase	S: check: wait -- a file is being read or written	Kontroll av S:: vänta -- en fil läses eller skrivs
 msg.phrase	S: check: the drive is busy or not ready	Kontroll av S:: enheten är upptagen eller inte redo
 msg.phrase	nothing for this item (ContextMenu.cfg)	inget för detta objekt (ContextMenu.cfg)
@@ -1159,3 +1155,32 @@ msg.phrase	32 items at most (mark fewer, or put them in a folder)	högst 32 obje
 msg.prefix	archive	arkiv
 msg.prefix	compress	komprimera
 msg.prefix	render	WAV-export
+ui	USB・時計・設定	USB, clock, settings
+ui	0.001 秒未満	under 0.001 s
+ui	%s 秒	%s s
+ui	コンパイル %s  実行 %s	kompilering %s  körning %s
+ui	コンパイル %s	kompilering %s
+ui	実行 %s	körning %s
+msg.phrase	Version %s	Version %s
+msg.phrase	1 Help	1 Hjälp
+msg.phrase	3 Copy	3 Kopia
+msg.phrase	4 Paste	4 Klistr
+msg.phrase	5 Goto	5 Gå
+msg.phrase	6 Colour	6 Färg
+msg.phrase	7 Fit	7 Anpass
+msg.phrase	8 Backgr	8 Bakgr
+msg.phrase	9 Recalc	9 Räkna
+msg.phrase	10 Graph	10 Diagr
+msg.phrase	11 Save	11 Spara
+msg.phrase	12 Menu	12 Meny
+msg.phrase	1 About	1 Om
+msg.phrase	2 Height	2 Höjd
+msg.phrase	3 Width	3 Bredd
+msg.phrase	4 SelAll	4 Allt
+msg.phrase	10 Range	10 Omr.
+msg.phrase	11 Name	11 Som
+msg.phrase	1 New	1 Ny
+msg.phrase	2 Open	2 Öppna
+msg.phrase	4 SaveAs	4 Som
+msg.phrase	12 Quit	12 Sluta
+msg.phrase	3 Save	3 Spara

@@ -20,14 +20,13 @@ ui	属性を変える	属性を変える
 ui	エディタで開く	エディタで開く
 ui	テキスト表示（Shift+V / Ctrl+Alt+F7 は 16 進）	テキスト表示（Shift+V / Ctrl+Alt+F7 は 16 進）
 ui	ドライブの情報	ドライブの情報
-ui	フォルダを作る / 新しいファイル	フォルダを作る / 新しいファイル
+ui	フォルダを作る（Shift+F5） / 新しいファイル（Ctrl+F1）	フォルダを作る（Shift+F5） / 新しいファイル（Ctrl+F1）
 ui	シェル sgsh / 媒体を取り出す	シェル sgsh / 媒体を取り出す
 ui	読み直す	読み直す
-ui	見えている画面を PNG で保存	見えている画面を PNG で保存
 ui	窓を閉じる・選択を解く（サブフォルダでは上位へ）	窓を閉じる・選択を解く（サブフォルダでは上位へ）
-ui	ファイルの操作（FD と同じ。印・範囲・カーソルの順に選ぶ）	ファイルの操作（FD と同じ。印・範囲・カーソルの順に選ぶ）
-ui	コピー: 行き先はドライブとフォルダの木から。ESC で止める	コピー: 行き先はドライブとフォルダの木から。ESC で止める
-ui	削除: y で確かめる。印・範囲をまとめて。フォルダは中身ごと	削除: y で確かめる。印・範囲をまとめて。フォルダは中身ごと
+ui	ファイルの操作（FD と同じ。印・範囲・カーソルの順）	ファイルの操作（FD と同じ。印・範囲・カーソルの順）
+ui	コピー: 行き先は木から選ぶ。ESC で止める	コピー: 行き先は木から選ぶ。ESC で止める
+ui	削除: y で確かめる。印・範囲をまとめて	削除: y で確かめる。印・範囲をまとめて
 ui	フォルダを削除（中身ごと）	フォルダを削除（中身ごと）
 ui	名前を変える（今の名前を直して Enter）	名前を変える（今の名前を直して Enter）
 ui	属性: R 読み出し専用・H 隠し・S システム・A アーカイブ	属性: R 読み出し専用・H 隠し・S システム・A アーカイブ
@@ -49,22 +48,21 @@ ui	画面（Alt+F。FD の F キーとぶつからない）	画面（Alt+F。FD 
 ui	FB（絵）/ テキスト面を出す・隠す	FB（絵）/ テキスト面を出す・隠す
 ui	FB の表示ページ（0〜3）	FB の表示ページ（0〜3）
 ui	FB を 0 で消す / 明るさを 1/2 に（RGB555）	FB を 0 で消す / 明るさを 1/2 に（RGB555）
-ui	USB のエンドポイントと LAN の状態	USB のエンドポイントと LAN の状態
 ui	FB の表示ページを消す / 明るさを 1/2 に	FB の表示ページを消す / 明るさを 1/2 に
 ui	テキストの属性の見本	テキストの属性の見本
 ui	モニタの EDID（起動時に読んだもの）	モニタの EDID（起動時に読んだもの）
 ui	フォント ROM のライセンスとクレジット	フォント ROM のライセンスとクレジット
+ui	見えている画面を PNG で保存（Alt+F5 も同じ）	見えている画面を PNG で保存（Alt+F5 も同じ）
+ui	USB・時計・設定	USB・時計・設定
+ui	USB のエンドポイントと LAN（U: 10 秒に 1 度）	USB のエンドポイントと LAN（U: 10 秒に 1 度）
+ui	時計（NTP で合わせた日本時間。s は 3 分に 1 度）	時計（NTP で合わせた日本時間。s は 3 分に 1 度）
 ui	設定（表示の言語・IME・キーボードロケール）	設定（表示の言語・IME・キーボードロケール）
-ui	時計（NTP で合わせた日本時間。s ですぐ合わせる）	時計（NTP で合わせた日本時間。s ですぐ合わせる）
-ui	表計算（SGCALC）を開く	表計算（SGCALC）を開く
 ui	S: ドライブのエラー検査（誤りがあれば直すか聞く）	S: ドライブのエラー検査（誤りがあれば直すか聞く）
-ui	トラッカー（TRACKER）を開く	トラッカー（TRACKER）を開く
-ui	再起動（確かめの窓が出る）	再起動（確かめの窓が出る）
+ui	再起動（確かめの窓）。Ctrl+Alt+Del も同じ	再起動（確かめの窓）。Ctrl+Alt+Del も同じ
 ui	ADC のステレオ入力（GP40 / 41）を鳴らす	ADC のステレオ入力（GP40 / 41）を鳴らす
 ui	VGM/VGZ を 96kHz/24bit WAV に書き出す	VGM/VGZ を 96kHz/24bit WAV に書き出す
-ui	このヘルプ	このヘルプ
-ui	ページを替える	ページを替える
-ui	閉じる	閉じる
+ui	表計算（SGCALC）を開く	表計算（SGCALC）を開く
+ui	トラッカー（TRACKER）を開く	トラッカー（TRACKER）を開く
 ui	テキスト・16 進のビュアー（less 風）	テキスト・16 進のビュアー（less 風）
 ui	1 行	1 行
 ui	1 ページ	1 ページ
@@ -82,10 +80,10 @@ ui	IME の言語（日本語 / English / 한국어）	IME の言語（日本語 
 ui	ひらがな / カタカナで確定	ひらがな / カタカナで確定
 ui	エディタのヘルプ	エディタのヘルプ
 ui	シェル	シェル
-ui	シェル（csh のサブセット。exit / Ctrl-D で戻る、help で一覧）	シェル（csh のサブセット。exit / Ctrl-D で戻る、help で一覧）
+ui	シェル（csh の一部。exit / Ctrl-D で戻る、help で一覧）	シェル（csh の一部。exit / Ctrl-D で戻る、help で一覧）
 ui	一覧と移動	一覧と移動
 ui	ファイルの操作	ファイルの操作
-ui	画面と機器	画面と機器
+ui	画面	画面
 ui	ビュアーとエディタ	ビュアーとエディタ
 ui	ヘルプ  %u / %u  %s	ヘルプ  %u / %u  %s
 ui	Left Right: ページを替える    F1 / ESC: 閉じる	Left Right: ページを替える    F1 / ESC: 閉じる
@@ -112,6 +110,7 @@ ui	キーボードロケール	キーボードロケール
 ui	Up / Down  Enter 決める  ESC やめる	Up / Down  Enter 決める  ESC やめる
 ui	表示の言語 (Language)	表示の言語 (Language)
 ui	Up / Down  Enter 決める  ESC 戻る	Up / Down  Enter 決める  ESC 戻る
+ui	読んでいます...	読んでいます...
 ui	%c: をどの文字に固定しますか（A〜Z、S を除く。ESC でやめる）	%c: をどの文字に固定しますか（A〜Z、S を除く。ESC でやめる）
 ui	ドライブ  文字 / Enter 選ぶ  F2 文字を固定・解除  F3 文字を決めて固定  L / ESC やめる	ドライブ  文字 / Enter 選ぶ  F2 文字を固定・解除  F3 文字を決めて固定  L / ESC やめる
 ui	  区画 %u	  区画 %u
@@ -121,7 +120,6 @@ ui	ドライブ %c:  %s	ドライブ %c:  %s
 ui	ドライブ  (なし)	ドライブ  (なし)
 ui	音楽 CD  %u トラック	音楽 CD  %u トラック
 ui	フォルダ %u  ファイル %u  合計 %s	フォルダ %u  ファイル %u  合計 %s
-ui	読んでいます...	読んでいます...
 ui	* 印 %u 個  %s	* 印 %u 個  %s
 ui	%lu バイト	%lu バイト
 ui	属性 %s   更新日時 %s   作成日時 %s   %s	属性 %s   更新日時 %s   作成日時 %s   %s
@@ -146,9 +144,9 @@ ui	10 EP表	10 EP表
 ui	11 時計	11 時計
 ui	12 表計	12 表計
 ui	1 属性	1 属性
-ui	2 情報	2 情報
+ui	2Drv情報	2Drv情報
 ui	3 移動	3 移動
-ui	5 作成	5 作成
+ui	5 ﾌｫﾙﾀﾞ	5 ﾌｫﾙﾀﾞ
 ui	6 シェル	6 シェル
 ui	8 編集	8 編集
 ui	9 表示	9 表示
@@ -340,7 +338,6 @@ ui	\n== ROM のクレジットの区画 ==\n\n	\n== ROM のクレジットの区
 ui	（区画が無い）\n	（区画が無い）\n
 ui	\n== 組み込んだソフトウェアのライセンス ==\n	\n== 組み込んだソフトウェアのライセンス ==\n
 ui	 %s を PNG で保存   %s	 %s を PNG で保存   %s
-ui	画面	画面
 ui	 組み立てています... %lu / %lu 行	 組み立てています... %lu / %lu 行
 ui	 書いています... %lu / %lu KB（FB は隠しています）	 書いています... %lu / %lu KB（FB は隠しています）
 ui	書けませんでした	書けませんでした
@@ -373,6 +370,11 @@ ui	 ESC: 止める（書きかけのファイルは消します）	 ESC: 止め�
 ui	書庫: %s 失敗（%s）	書庫: %s 失敗（%s）
 ui	圧縮: %s（%u 項目）	圧縮: %s（%u 項目）
 ui	展開: %s（%u ファイル）	展開: %s（%u ファイル）
+ui	0.001 秒未満	0.001 秒未満
+ui	%s 秒	%s 秒
+ui	コンパイル %s  実行 %s	コンパイル %s  実行 %s
+ui	コンパイル %s	コンパイル %s
+ui	実行 %s	実行 %s
 msg.phrase	the drive went away	ドライブが外れました
 msg.phrase	S: check: wait -- a file is being read or written	S: の検査: ファイルの読み書きが終わるまで待ってください
 msg.phrase	S: check: the drive is busy or not ready	S: の検査: S: が使用中か、準備ができていません
@@ -585,7 +587,7 @@ msg.prefix	ZMODEM	ZMODEM
 msg.prefix	ZMODEM receive	ZMODEM の受け取り
 msg.prefix	ZMODEM send	ZMODEM の送り
 msg.prefix	split	分割
-msg.prefix	join	結合
+msg.prefix	join	分離ファイルの結合
 msg.prefix	Doom	Doom
 msg.prefix	SMF	SMF
 msg.prefix	CD	CD

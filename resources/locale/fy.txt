@@ -21,14 +21,14 @@ ui	属性を変える	Feroarje de attributen
 ui	エディタで開く	Iepenje yn de bewurker
 ui	テキスト表示（Shift+V / Ctrl+Alt+F7 は 16 進）	Sjoch as tekst (Shift+V / Ctrl+Alt+F7 hex)
 ui	ドライブの情報	Drive ynformaasje
-ui	フォルダを作る / 新しいファイル	Nije map / nij bestân
+ui	フォルダを作る（Shift+F5） / 新しいファイル（Ctrl+F1）	Nije map (Shift+F5) / nij bestân (Ctrl+F1)
 ui	シェル sgsh / 媒体を取り出す	Shell sgsh / it medium útsette
 ui	読み直す	Reload
-ui	見えている画面を PNG で保存	Bewarje it skerm as PNG
+ui	見えている画面を PNG で保存（Alt+F5 も同じ）	Bewarje it skerm as PNG (= Alt+F5)
 ui	窓を閉じる・選択を解く（サブフォルダでは上位へ）	Slút it finster / wiskje de seleksje (yn in submap: omheech gean)
-ui	ファイルの操作（FD と同じ。印・範囲・カーソルの順に選ぶ）	Triemoperaasjes (lykas yn FD: marks, dan it berik, dan de rinnerke)
-ui	コピー: 行き先はドライブとフォルダの木から。ESC で止める	Kopiearje: kies de bestimming út 'e stasjon en mapbeam. ESC stopt
-ui	削除: y で確かめる。印・範囲をまとめて。フォルダは中身ごと	Wiskje: befêstigje mei y. Marks en berik yn ien kear. Mappen mei har ynhâld
+ui	ファイルの操作（FD と同じ。印・範囲・カーソルの順）	Triemoperaasjes (lykas yn FD: marks, dan it berik, dan de rinnerke)
+ui	コピー: 行き先は木から選ぶ。ESC で止める	Kopiearje: kies de bestimming út 'e stasjon en mapbeam. ESC stopt
+ui	削除: y で確かめる。印・範囲をまとめて	Wiskje: befêstigje mei y. Marks en berik yn ien kear. Mappen mei har ynhâld
 ui	フォルダを削除（中身ごと）	In map wiskje (mei syn ynhâld)
 ui	名前を変える（今の名前を直して Enter）	Omneame (bewurkje de namme, Enter)
 ui	属性: R 読み出し専用・H 隠し・S システム・A アーカイブ	Attributen: R-allinnich lêzen, H ferburgen, S systeem, A argyf
@@ -50,22 +50,19 @@ ui	画面（Alt+F。FD の F キーとぶつからない）	Skerm (Alt+F, botst 
 ui	FB（絵）/ テキスト面を出す・隠す	De FB (ôfbylding) / de tekst sjen litte / ferbergje
 ui	FB の表示ページ（0〜3）	FB werjaan side (0-3)
 ui	FB を 0 で消す / 明るさを 1/2 に（RGB555）	Wiskje de FB nei 0 / halvearje syn helderheid (RGB555)
-ui	USB のエンドポイントと LAN の状態	USB einpunten en de LAN steat
+ui	USB のエンドポイントと LAN（U: 10 秒に 1 度）	USB einpunten en de LAN steat
 ui	FB の表示ページを消す / 明るさを 1/2 に	Wiskje de FB-werjeftepagina / halvearje syn helderheid
 ui	テキストの属性の見本	Foarbylden fan tekstattributen
 ui	モニタの EDID（起動時に読んだもの）	Monitor EDID (lêze by it opstarten)
 ui	フォント ROM のライセンスとクレジット	Lettertype ROM lisinsjes en credits
 ui	設定（表示の言語・IME・キーボードロケール）	Ynstellings (werjeftetaal, IME en toetseboerdlokaasje)
-ui	時計（NTP で合わせた日本時間。s ですぐ合わせる）	Klok (Japan-tiid ynsteld troch NTP; s syngronisearret no)
+ui	時計（NTP で合わせた日本時間。s は 3 分に 1 度）	Klok (Japan-tiid ynsteld troch NTP; s syngronisearret no)
 ui	表計算（SGCALC）を開く	Spreadsheet iepenje (SGCALC)
 ui	S: ドライブのエラー検査（誤りがあれば直すか聞く）	Kontrolearje S: foar flaters (freget foar reparaasje)
 ui	トラッカー（TRACKER）を開く	Iepenje TRACKER
-ui	再起動（確かめの窓が出る）	Reboot (freget earst)
+ui	再起動（確かめの窓）。Ctrl+Alt+Del も同じ	Reboot (freget earst) = Ctrl+Alt+Del
 ui	ADC のステレオ入力（GP40 / 41）を鳴らす	Spielje de ADC stereo-ynfier (GP40 / 41)
 ui	VGM/VGZ を 96kHz/24bit WAV に書き出す	Eksportearje VGM / VGZ nei in 96 kHz / 24-bit WAV
-ui	このヘルプ	Dizze help
-ui	ページを替える	Feroarje de side
-ui	閉じる	Slute
 ui	テキスト・16 進のビュアー（less 風）	Tekst / hex viewer (lykas minder)
 ui	1 行	Ien rigel
 ui	1 ページ	Ien side
@@ -83,10 +80,9 @@ ui	IME の言語（日本語 / English / 한국어）	IME-taal (Japansk / Ingels
 ui	ひらがな / カタカナで確定	Ynsette as hiragana / katakana
 ui	エディタのヘルプ	De help fan de redaksje
 ui	シェル	Shell
-ui	シェル（csh のサブセット。exit / Ctrl-D で戻る、help で一覧）	Shell (in csh subset. ôfslute / Ctrl-D om werom te gean, help jout de kommando's)
+ui	シェル（csh の一部。exit / Ctrl-D で戻る、help で一覧）	Shell (in csh subset. ôfslute / Ctrl-D om werom te gean, help jout de kommando's)
 ui	一覧と移動	List en ferpleatse
 ui	ファイルの操作	Triem operaasjes
-ui	画面と機器	Skerm en apparaten
 ui	ビュアーとエディタ	Sjoggers en de redaksje
 ui	ヘルプ  %u / %u  %s	Help %u / %u %s
 ui	Left Right: ページを替える    F1 / ESC: 閉じる	Lofts Rjochts: feroarje de side F1 / ESC: slute
@@ -147,9 +143,9 @@ ui	10 EP表	10 EPs
 ui	11 時計	11 Klok
 ui	12 表計	12 CALC
 ui	1 属性	1 Attr
-ui	2 情報	2 ynfo
+ui	2Drv情報	2 ynfo
 ui	3 移動	3 Bewege
-ui	5 作成	5 mkdy
+ui	5 ﾌｫﾙﾀﾞ	5 mkdy
 ui	6 シェル	6 skelp
 ui	8 編集	8 Edit
 ui	9 表示	9 sjo
@@ -187,10 +183,10 @@ ui	新しいファイル	Nije triem
 ui	時刻:	Tiid:
 ui	実行:	Run:
 ui	名前:	Namme:
-ui	年-月-日 時:分  Enter 合わせる  ESC そのまま	JJJJ-MM-DD hh:mm Enter set ESC keep
-ui	Enter 走らせる  ←→ 動かす  BS / Del 消す  ESC やめる	Enter run <-> move BS / Del wiskje ESC annulearje
-ui	Enter 変える  ←→ 動かす  BS / Del 消す  ESC やめる	Fier omneame <-> ferpleatse BS / Del wiskje ESC annulearje
-ui	Enter 作る  ←→ 動かす  BS / Del 消す  ESC やめる	Enter meitsje <-> move BS / Del wiskje ESC annulearje
+ui	年-月-日 時:分  Enter 合わせる  ESC そのまま	JJJJ-MM-DD oo:mm  Enter ynstelle  ESC litte
+ui	Enter 走らせる  ←→ 動かす  BS / Del 消す  ESC やめる	Enter útfiere ←→ ferskowe BS/Del wiskje ESC ôfbrekke
+ui	Enter 変える  ←→ 動かす  BS / Del 消す  ESC やめる	Enter omneame ←→ ferskowe BS/Del wiskje ESC ôfbrekke
+ui	Enter 作る  ←→ 動かす  BS / Del 消す  ESC やめる	Enter meitsje ←→ ferskowe BS/Del wiskje ESC ôfbrekke
 ui	消す	Wiskje
 ui	個の項目	items
 ui	フォルダは中身ごと消します。よろしいですか？	Mappen wurde wiske mei har ynhâld. Bisto wis?
@@ -344,7 +340,7 @@ ui	 組み立てています... %lu / %lu 行	Bouwe... %lu / %lu rigen
 ui	 書いています... %lu / %lu KB（FB は隠しています）	Skriuwen... %lu / %lu KB (de FB is ferburgen)
 ui	書けませんでした	Koe net skriuwe
 ui	書庫の名前（印の付いた項目、無ければカーソルの項目を入れる）	Argyfnamme (de markearre items, of it rinnerkeitem as der gjinien)
-ui	Enter 圧縮する  ←→ 動かす  BS / Del 消す  ESC やめる	Enter compress ←→ move BS / Del wiskje ESC annulearje
+ui	Enter 圧縮する  ←→ 動かす  BS / Del 消す  ESC やめる	Enter ynpakke ←→ ferskowe BS/Del wiskje ESC ôfbrekke
 ui	WAV 書き出し: %s 中止（%s）	WAV-eksport: %s annulearre (%s)
 ui	WAV 書き出し: %s 失敗（%s）	WAV-eksport: %s mislearre (%s)
 ui	WAV 書き出し: %s 合計 %s	WAV-eksport: %s totaal %s
@@ -487,11 +483,11 @@ msg.phrase	the sound is not open	it lûd is net iepen
 msg.phrase	no such channel	gjin sa'n kanaal
 msg.phrase	the sequencer is busy	de sequencer is drok
 msg.phrase	not enough PSRAM for the song	net genôch PSRAM foar it ferske
-msg.phrase	not a standard MIDI file (no MThd)	gjin standert MIDI-bestân (gjin MThd)
+msg.phrase	not a standard MIDI file (no MThd)	gjin standert MIDI-triem (MThd ûntbrekt)
 msg.phrase	no tracks	gjin spoaren
-msg.phrase	a track is broken (MTrk)	in spoar is brutsen (MTrk)
-msg.phrase	SMPTE time division is not supported	SMPTE-tiiddieling wurdt net stipe
-msg.phrase	SMF format 2 is not supported (0 and 1 only)	SMF-formaat 2 wurdt net stipe (allinich 0 en 1)
+msg.phrase	a track is broken (MTrk)	in spoar is skansearre (MTrk)
+msg.phrase	SMPTE time division is not supported	SMPTE-tiidferdieling wurdt net stipe
+msg.phrase	SMF format 2 is not supported (0 and 1 only)	SMF-formaat 2 wurdt net stipe (allinne 0 en 1)
 msg.phrase	not a Bulk-Only drive	net in Bulk-Only drive
 msg.phrase	not an optical drive	net in optyske skiif
 msg.phrase	a system folder cannot be deleted or renamed	in systeemmap kin net wiske of omneamd wurde
@@ -510,7 +506,7 @@ msg.phrase	cancelled	annulearre
 msg.phrase	could not mount	koe net mount
 msg.phrase	could not start a read	koe net begjinne in lêzen
 msg.phrase	could not start a write	koe net begjinne in skriuwe
-msg.phrase	is a directory	is in triemtafel
+msg.phrase	is a directory	is in map
 msg.phrase	that is a directory	dat is in map
 msg.phrase	no clusters	gjin klusters
 msg.phrase	no room for the cluster list	gjin romte foar de klusterlist
@@ -622,9 +618,9 @@ msg.word	 rows	rows
 msg.word	 -- not supported yet (FAT / exFAT / NTFS only)	- noch net stipe (allinich FAT / exFAT / NTFS)
 msg.word	 files	triemmen
 msg.word	 (	(
-msg.phrase	Untitled	Untitled
+msg.phrase	Untitled	Sûnder titel
 msg.phrase	1 File	1 File
-msg.phrase	2 Edit	2 Bewurkje
+msg.phrase	2 Edit	2 Bewurk
 msg.phrase	3 Graph	3 Grafyk
 msg.phrase	4 Sheet	4 blêd
 msg.phrase	5 Help	5 help
@@ -632,269 +628,269 @@ msg.phrase	EMPTY	LEECH
 msg.phrase	NUMBER	NÛMER
 msg.phrase	TEXT	TEKST
 msg.phrase	FORMULA	FORMULE
-msg.phrase	Type to enter, F2 to edit, F1 for help	Typ om yn te gean, F2 om te bewurkjen, F1 foar help
-msg.phrase	5 CSV	5 csv
-msg.phrase	6 ODS	6 odds
+msg.phrase	Type to enter, F2 to edit, F1 for help	Typ om yn te fieren, F2 om te bewurkjen, F1 foar help
+msg.phrase	5 CSV	5 CSV
+msg.phrase	6 ODS	6 ODS
 msg.phrase	[SHIFT]	[SHIFT]
 msg.phrase	[CTRL]	[CTRL]
 msg.phrase	[ALT]	[ALT]
 msg.phrase	Ready	Klear
 msg.phrase	SGCALC	SGCALC
-msg.phrase	Press any key	Druk op elke toets
-msg.phrase	Y = yes    N = no    Esc = cancel	Y = ja N = nee Esc = annulearje
-msg.phrase	Enter = OK    Esc = cancel    Ctrl-U = clear	Enter = OK Esc = annulearje Ctrl-U = wiskje
-msg.phrase	First row/column = labels; charts use the 640x480 CLUT8 FB.	Earste rige / kolom = labels; charts brûke de 640x480 CLUT8 FB.
+msg.phrase	Press any key	Druk op in toets
+msg.phrase	Y = yes    N = no    Esc = cancel	Y = ja    N = nee    Esc = annulearje
+msg.phrase	Enter = OK    Esc = cancel    Ctrl-U = clear	Enter = OK    Esc = annulearje    Ctrl-U = wiskje
+msg.phrase	First row/column = labels; charts use the 640x480 CLUT8 FB.	Earste rige/kolom = labels; grafiken brûke de CLUT8-FB fan 640x480.
 msg.phrase	SGCALC - HELP	SGCALC - HELP
-msg.phrase	Press any key to return	Druk op elke toets om werom te gean
-msg.phrase	Press any key to return.	Druk op elke toets om werom te gean.
+msg.phrase	Press any key to return	Druk op in toets om werom te gean
+msg.phrase	Press any key to return.	Druk op in toets om werom te gean.
 msg.phrase	ABOUT SGCALC	OER SGCALC
 msg.phrase	New	Nij
-msg.phrase	Start a new sheet	Begjin in nij blêd
-msg.phrase	Open...	Iepen...
-msg.phrase	Open an ODS, FODS or CSV file	Iepenje in ODS-, FODS- of CSV-bestân
-msg.phrase	Save	Rêde
-msg.phrase	Save the current file	Bewarje de aktuele triem
+msg.phrase	Start a new sheet	In nij blêd begjinne
+msg.phrase	Open...	Iepenje...
+msg.phrase	Open an ODS, FODS or CSV file	In ODS-, FODS- of CSV-triem iepenje
+msg.phrase	Save	Bewarje
+msg.phrase	Save the current file	De aktuele triem bewarje
 msg.phrase	Save As...	Bewarje as...
-msg.phrase	Save with a new name or format	Bewarje mei in nije namme of opmaak
+msg.phrase	Save with a new name or format	Bewarje mei in nije namme of in nij formaat
 msg.phrase	Export CSV...	CSV eksportearje...
-msg.phrase	Write a CSV copy	Skriuw in CSV-kopy
+msg.phrase	Write a CSV copy	In CSV-kopy skriuwe
 msg.phrase	Export ODS...	ODS eksportearje...
-msg.phrase	Write a LibreOffice copy	Skriuw in LibreOffice-kopy
-msg.phrase	Quit	Quit
-msg.phrase	Leave SGCALC	Ferlitte SGCALC
-msg.phrase	Clear	Klear
-msg.phrase	Clear the selected cells	Wiskje de selektearre sellen
-msg.phrase	Copy	Kopy
-msg.phrase	Copy the selection	Kopiearje de seleksje
-msg.phrase	Paste	Paste
-msg.phrase	Paste at the cursor	Plak by de rinnerke
-msg.phrase	Cut	Snije
-msg.phrase	Copy and clear the selection	Kopiearje en wiskje de seleksje
-msg.phrase	Select all	Selektearje alles
-msg.phrase	Select all used cells	Selektearje alle brûkte sellen
+msg.phrase	Write a LibreOffice copy	In LibreOffice-kopy skriuwe
+msg.phrase	Quit	Ôfslute
+msg.phrase	Leave SGCALC	SGCALC ferlitte
+msg.phrase	Clear	Wiskje
+msg.phrase	Clear the selected cells	De selektearre sellen wiskje
+msg.phrase	Copy	Kopiearje
+msg.phrase	Copy the selection	De seleksje kopiearje
+msg.phrase	Paste	Plakke
+msg.phrase	Paste at the cursor	By de kursor plakke
+msg.phrase	Cut	Knippe
+msg.phrase	Copy and clear the selection	De seleksje kopiearje en wiskje
+msg.phrase	Select all	Alles selektearje
+msg.phrase	Select all used cells	Alle brûkte sellen selektearje
 msg.phrase	Text color...	Tekstkleur...
-msg.phrase	Choose the text colour	Kies de tekstkleur
+msg.phrase	Choose the text colour	De tekstkleur kieze
 msg.phrase	Background...	Eftergrûn...
-msg.phrase	Choose the cell background	Kies de sel eftergrûn
-msg.phrase	Line	Rigel
-msg.phrase	Draw a line graph from the selection	Tekenje in linegrafyk út 'e seleksje
-msg.phrase	Bar	Bar
-msg.phrase	Draw a bar graph from the selection	Tekenje in staafgrafyk út 'e seleksje
-msg.phrase	Mixed	Mixed
-msg.phrase	Bars for the first series, lines for the rest	Bars foar de earste rige, rigels foar de rest
+msg.phrase	Choose the cell background	De eftergrûn fan de sel kieze
+msg.phrase	Line	Line
+msg.phrase	Draw a line graph from the selection	In linegrafyk fan de seleksje tekenje
+msg.phrase	Bar	Balke
+msg.phrase	Draw a bar graph from the selection	In balkegrafyk fan de seleksje tekenje
+msg.phrase	Mixed	Mingd
+msg.phrase	Bars for the first series, lines for the rest	Balken foar de earste rige, linen foar de rest
 msg.phrase	Pie	Taart
-msg.phrase	Draw a pie graph from the selection	Tekenje in taartgrafyk út 'e seleksje
+msg.phrase	Draw a pie graph from the selection	In taartgrafyk fan de seleksje tekenje
 msg.phrase	Range...	Berik...
-msg.phrase	Set the graph range explicitly	Stel it grafykberik eksplisyt yn
-msg.phrase	Draw again	Nochris tekenje
-msg.phrase	Redraw the last graph	Redraw de lêste grafyk
+msg.phrase	Set the graph range explicitly	It grafykberik mei de hân ynstelle
+msg.phrase	Draw again	Opnij tekenje
+msg.phrase	Redraw the last graph	De lêste grafyk opnij tekenje
 msg.phrase	Goto...	Gean nei...
-msg.phrase	Jump to a cell (for example C12)	Gean nei in sel (bygelyks C12)
+msg.phrase	Jump to a cell (for example C12)	Nei in sel gean (bygelyks C12)
 msg.phrase	Column width...	Kolombreedte...
-msg.phrase	Change the selected columns' width	Feroarje de breedte fan de selektearre kolommen
-msg.phrase	Row height...	Rijhoogte...
-msg.phrase	Change the selected rows' height	Feroarje de hichte fan de selektearre rigen
-msg.phrase	Auto fit	Auto fit
-msg.phrase	Fit widths/heights to the contents (F7)	Pas breedtes/hichtes oan de ynhâld (F7)
-msg.phrase	Recalculate	Recalculate
-msg.phrase	Re-evaluate all formulas	Re-evaluearje alle formules
-msg.phrase	Erase all	Wiskje alles
-msg.phrase	Clear the whole sheet	Wiskje it hiele blêd
-msg.phrase	Keys	Keys
-msg.phrase	Show the key guide	Lit de kaai gids sjen
+msg.phrase	Change the selected columns' width	De breedte fan de selektearre kolommen feroarje
+msg.phrase	Row height...	Rigehichte...
+msg.phrase	Change the selected rows' height	De hichte fan de selektearre rigen feroarje
+msg.phrase	Auto fit	Oanpasse
+msg.phrase	Fit widths/heights to the contents (F7)	Breedtes/hichtes oan de ynhâld oanpasse (F7)
+msg.phrase	Recalculate	Trochrekkenje
+msg.phrase	Re-evaluate all formulas	Alle formules opnij berekkenje
+msg.phrase	Erase all	Alles wiskje
+msg.phrase	Clear the whole sheet	It hiele blêd wiskje
+msg.phrase	Keys	Toetsen
+msg.phrase	Show the key guide	Toetsoersjoch sjen litte
 msg.phrase	About	Oer
 msg.phrase	About SGCALC	Oer SGCALC
-msg.phrase	File	File
+msg.phrase	File	Triem
 msg.phrase	Edit	Bewurkje
 msg.phrase	Graph	Grafyk
-msg.phrase	Sheet	Fel
+msg.phrase	Sheet	Blêd
 msg.phrase	Help	Help
 msg.phrase	File: new, open, save, export, quit	Triem: nij, iepenje, bewarje, eksportearje, ôfslute
-msg.phrase	Edit: clear, copy, paste, cut, select all	Bewurkje: wiskje, kopiearje, plakke, knippe, alles selektearje
-msg.phrase	Graph: line, bar, mixed, pie (draws in the FB)	Grafyk: line, bar, mingd, pie (tekent yn it FB)
-msg.phrase	Sheet: goto, column width, recalculate, erase	Blêd: goto, kolom breedte, recalculate, wiskje
-msg.phrase	Help: keys and about	Help: kaaien en oer
+msg.phrase	Edit: clear, copy, paste, cut, select all	Bewurkje: wiskje, kopiearje, plakke, knippe, alles
+msg.phrase	Graph: line, bar, mixed, pie (draws in the FB)	Grafyk: line, balke, mingd, taart (yn de FB)
+msg.phrase	Sheet: goto, column width, recalculate, erase	Blêd: gean nei, kolombreedte, trochrekkenje, wiskje
+msg.phrase	Help: keys and about	Help: toetsen en oer
 msg.phrase	Left/Right = menu    Up/Down = item    Enter = choose    Esc = cancel	Lofts/Rjochts = menu Up/Down = item Enter = kies Esc = ôfbrekke
 msg.phrase	Cancelled	Annulearre
-msg.phrase	The selection is too large or memory is low.	De seleksje is te grut of it ûnthâld is leech.
+msg.phrase	The selection is too large or memory is low.	De seleksje is te grut of der is net genôch ûnthâld.
 msg.phrase	the cell	de sel
 msg.phrase	the selection	de seleksje
-msg.phrase	Nothing to paste	Neat te plakken
-msg.phrase	Pasted	Pasted
-msg.phrase	GO TO CELL	GO TO CELL
-msg.phrase	Cell reference (A1):	Selreferinsje (A1):
+msg.phrase	Nothing to paste	Neat om te plakken
+msg.phrase	Pasted	Plakt
+msg.phrase	GO TO CELL	GEAN NEI SEL
+msg.phrase	Cell reference (A1):	Selferwizing (A1):
 msg.phrase	Goto	Gean nei
-msg.phrase	COLUMN WIDTH	KOLOMBREIDTE
+msg.phrase	COLUMN WIDTH	KOLOMBREEDTE
 msg.phrase	Width in characters (4..30):	Breedte yn tekens (4..30):
-msg.phrase	ROW HEIGHT	RIJHOOGTE
-msg.phrase	Height in text rows (1..8):	Hichte yn tekst rigen (1..8):
-msg.phrase	Auto fit: the sheet is empty	Auto fit: it blêd is leech
-msg.phrase	BACKGROUND COLOUR	ACHTERGRONDKLEUR
-msg.phrase	TEXT COLOUR	TEKST KLEUR
-msg.phrase	Arrows: choose    Enter: apply    Esc: cancel	Pylken: kies Enter: tapasse Esc: annulearje
-msg.phrase	Colour index (PC-98 16-colour palette)	Kleuryndeks (PC-98 16-kleurenpalet)
+msg.phrase	ROW HEIGHT	RIGEHICHTE
+msg.phrase	Height in text rows (1..8):	Hichte yn tekstrigels (1..8):
+msg.phrase	Auto fit: the sheet is empty	Oanpasse: it blêd is leech
+msg.phrase	BACKGROUND COLOUR	EFTERGRÛNKLEUR
+msg.phrase	TEXT COLOUR	TEKSTKLEUR
+msg.phrase	Arrows: choose    Enter: apply    Esc: cancel	Pijlen: kieze    Enter: tapasse    Esc: annulearje
+msg.phrase	Colour index (PC-98 16-colour palette)	Kleurnûmer (PC-98-palet mei 16 kleuren)
 msg.phrase	Aa 123	Aa 123
-msg.phrase	Enter = apply    Esc = cancel	Enter = tapasse Esc = annulearje
+msg.phrase	Enter = apply    Esc = cancel	Enter = tapasse    Esc = annulearje
 msg.phrase	Colour	Kleur
 msg.phrase	Background	Eftergrûn
 msg.phrase	Text	Tekst
-msg.phrase	GRAPH RANGE	GRAPH RANGE
+msg.phrase	GRAPH RANGE	GRAFYKBERIK
 msg.phrase	Range (for example A1:C10):	Berik (bygelyks A1:C10):
-msg.phrase	Graph range	Grafyk berik
-msg.phrase	Use a range such as A1:C10.	Brûk in berik lykas A1:C10.
-msg.phrase	Cannot draw the graph.	Kin de grafyk net tekenje.
+msg.phrase	Graph range	Grafykberik
+msg.phrase	Use a range such as A1:C10.	Fier in berik yn lykas A1:C10.
+msg.phrase	Cannot draw the graph.	De grafyk kin net tekene wurde.
 msg.phrase	line	rigel
 msg.phrase	bar	bar
 msg.phrase	mixed	mingd
 msg.phrase	pie	taart
-msg.phrase	Clear every cell in this sheet?	Elke sel yn dit blêd wiskje?
+msg.phrase	Clear every cell in this sheet?	Alle sellen yn dit blêd wiskje?
 msg.phrase	Sheet erased	Blêd wiske
-msg.phrase	Selected all used cells	Selektearre alle brûkte sellen
-msg.phrase	Recalculated	Opnij berekkene
-msg.phrase	Memory	Oantinken
+msg.phrase	Selected all used cells	Alle brûkte sellen selektearre
+msg.phrase	Recalculated	Trochrekkene
+msg.phrase	Memory	Unthâld
 msg.phrase	Not enough PSRAM for the spreadsheet.	Net genôch PSRAM foar it rekkenblêd.
 msg.phrase	The sheet is empty.	It blêd is leech.
-msg.phrase	No numeric data in the selected range.	Gjin numerike gegevens yn it selektearre berik.
-msg.phrase	Other	Oar
-msg.phrase	No positive values for a pie chart	Gjin positive wearden foar in sirkeldiagram
-msg.phrase	LINE	RIGEL
-msg.phrase	BAR	BAR
-msg.phrase	MIXED	MIXED
+msg.phrase	No numeric data in the selected range.	Gjin getallen yn it selektearre berik.
+msg.phrase	Other	Oaren
+msg.phrase	No positive values for a pie chart	Gjin positive wearden foar in taartgrafyk
+msg.phrase	LINE	LINE
+msg.phrase	BAR	BALKE
+msg.phrase	MIXED	MINGD
 msg.phrase	PIE	TAART
 msg.phrase	S:/	S:/
-msg.phrase	Folder	Folder
-msg.phrase	SAVE AS	SAVE AS
-msg.phrase	OPEN FILE	IEPJE FILE
+msg.phrase	Folder	Map
+msg.phrase	SAVE AS	BEWARJE AS
+msg.phrase	OPEN FILE	TRIEM IEPENJE
 msg.phrase	LibreOffice / CSV	LibreOffice / CSV
-msg.phrase	ODS  FODS  CSV	ODS FODS CSV
+msg.phrase	ODS  FODS  CSV	ODS  FODS  CSV
 msg.phrase	Name:	Namme:
 msg.phrase	(type a name, or choose below)	(typ in namme, of kies hjirûnder)
 msg.phrase	Name	Namme
 msg.phrase	Size	Grutte
-msg.phrase	Enter=save  Left=up  Right/Enter on [DIR]=open  Tab=drive  Esc=cancel	Enter=bewarje Lofts=Rjochts omheech/Enter op [DIR]=iepen ljepblêd=stasjon Esc=ôfbrekke
-msg.phrase	Enter=open  Left=up  Right/Enter on [DIR]=open  Tab=drive  Esc=cancel	Enter=iepen Lofts=Rjochts omheech/Enter op [DIR]=iepen Tab=drive Esc=ôfbrekke
+msg.phrase	Enter=save  Left=up  Right/Enter on [DIR]=open  Tab=drive  Esc=cancel	Enter=bewarje  ←=omheech  →/Enter op [DIR]=iepenje  Tab=stasjon  Esc=ôfbrekke
+msg.phrase	Enter=open  Left=up  Right/Enter on [DIR]=open  Tab=drive  Esc=cancel	Enter=iepenje  ←=omheech  →/Enter op [DIR]=iepenje  Tab=stasjon  Esc=ôfbrekke
 msg.phrase	Not enough memory.	Net genôch ûnthâld.
 msg.phrase	Overwrite	Oerskriuwe
-msg.phrase	Open	Iepen
+msg.phrase	Open	Iepenje
 msg.phrase	The file is too large (limit 8 MB).	De triem is te grut (limyt 8 MB).
-msg.phrase	Not enough memory to read the file.	Net genôch ûnthâld om it bestân te lêzen.
-msg.phrase	Bad ZIP/ODS data.	Min ZIP/ODS-gegevens.
-msg.phrase	CRC error in the ODS file.	CRC-flater yn it ODS-bestân.
-msg.phrase	Unsupported or damaged file.	Net-stipe of skansearre triem.
+msg.phrase	Not enough memory to read the file.	Net genôch ûnthâld om de triem te lêzen.
+msg.phrase	Bad ZIP/ODS data.	Skansearre ZIP/ODS-gegevens.
+msg.phrase	CRC error in the ODS file.	CRC-flater yn de ODS-triem.
+msg.phrase	Unsupported or damaged file.	Net stipe of skansearre triem.
 msg.phrase	Saved	Opslein
 msg.phrase	Exported	Eksportearre
-msg.phrase	Unsaved changes	Net bewarre feroarings
-msg.phrase	Save the current sheet before continuing?	It aktive blêd bewarje foardat jo trochgean?
+msg.phrase	Unsaved changes	Net bewarre wizigings
+msg.phrase	Save the current sheet before continuing?	It aktuele blêd bewarje foardat jo fierder geane?
 msg.phrase	New sheet	Nij blêd
 msg.phrase	SGTRK	SGTRK
-msg.phrase	UNTITLED	UNTITELLE
-msg.phrase	song is too large	liet is te grut
+msg.phrase	UNTITLED	UNTITLED
+msg.phrase	song is too large	it ferske is te grut
 msg.phrase	empty file	lege triem
-msg.phrase	not an SGT file	net in SGT triem
-msg.phrase	bad BPM	minne BPM
-msg.phrase	bad speed	min snelheid
-msg.phrase	bad title length	min titel lingte
+msg.phrase	not an SGT file	gjin SGT-triem
+msg.phrase	bad BPM	ferkearde BPM
+msg.phrase	bad speed	ferkearde snelheid
+msg.phrase	bad title length	ferkearde titellingte
 msg.phrase	truncated title	ôfkoarte titel
-msg.phrase	bad character in title	min karakter yn titel
+msg.phrase	bad character in title	ûnjildich teken yn de titel
 msg.phrase	truncated order	ôfkoarte folchoarder
-msg.phrase	bad order length	min oarder lingte
-msg.phrase	bad pattern number in order	min patroan nûmer yn oarder
-msg.phrase	truncated pattern list	truncated patroan list
-msg.phrase	bad pattern count	min patroan telle
-msg.phrase	bad pattern index	min patroan yndeks
-msg.phrase	duplicate pattern	duplikaat patroan
-msg.phrase	truncated pattern data	truncated patroan gegevens
-msg.phrase	invalid pattern data	ûnjildich patroan gegevens
-msg.phrase	trailing data in file	slepende gegevens yn triem
-msg.phrase	order refers to a missing pattern	oarder ferwiist nei in ûntbrekkende patroan
-msg.phrase	A:/	IN:/
+msg.phrase	bad order length	ferkearde folchoarderlingte
+msg.phrase	bad pattern number in order	ferkeard patternnûmer yn de folchoarder
+msg.phrase	truncated pattern list	ôfkoarte patternlist
+msg.phrase	bad pattern count	ferkeard tal patterns
+msg.phrase	bad pattern index	ferkearde patternyndeks
+msg.phrase	duplicate pattern	dûbel pattern
+msg.phrase	truncated pattern data	ôfkoarte patterngegevens
+msg.phrase	invalid pattern data	ûnjildige patterngegevens
+msg.phrase	trailing data in file	oerstallige gegevens oan de ein fan de triem
+msg.phrase	order refers to a missing pattern	de folchoarder ferwiist nei in ûntbrekkend pattern
+msg.phrase	A:/	A:/
 msg.phrase	(untitled)	(sûnder titel)
 msg.phrase	Ready. Press F1 for help.	Klear. Druk op F1 foar help.
-msg.phrase	Follow OFF	Folgje OFF
+msg.phrase	Follow OFF	Folgje ÚT
 msg.phrase	Nothing to undo	Neat om ûngedien te meitsjen
-msg.phrase	Undo	Ungedien meitsje
-msg.phrase	Note OFF	Opmerking OFF
-msg.phrase	Set an effect letter first	Stel earst in effektletter yn
+msg.phrase	Undo	Ungedien makke
+msg.phrase	Note OFF	Note off
+msg.phrase	Set an effect letter first	Fier earst de letter fan it effekt yn
 msg.phrase	Effect cleared	Effekt wiske
 msg.phrase	Parameter cleared	Parameter wiske
-msg.phrase	Note cleared	Notysje wiske
+msg.phrase	Note cleared	Noat wiske
 msg.phrase	Instrument cleared	Ynstrumint wiske
-msg.phrase	Volume cleared	Volume wiske
-msg.phrase	Order list is full	Bestellist is fol
-msg.phrase	Order inserted	Bestelling ynfoege
-msg.phrase	Cannot delete the last order	Kin de lêste bestelling net wiskje
-msg.phrase	Order deleted	Bestelling wiske
-msg.phrase	Playing song	Lied spielje
-msg.phrase	Stopped	Ophâlden
+msg.phrase	Volume cleared	Lûdsterkte wiske
+msg.phrase	Order list is full	De folchoarderlist is fol
+msg.phrase	Order inserted	Posysje ynfoege
+msg.phrase	Cannot delete the last order	De lêste posysje kin net wiske wurde
+msg.phrase	Order deleted	Posysje wiske
+msg.phrase	Playing song	Ferske wurdt spile
+msg.phrase	Stopped	Stoppe
 msg.phrase	New song	Nij ferske
-msg.phrase	Discard unsaved changes and start a new song? (Y/N)	Net bewarre wizigingen fuortsmite en in nij ferske begjinne? (J/N)
-msg.phrase	Discard unsaved changes and open a song? (Y/N)	Net bewarre wizigingen fuortsmite en in ferske iepenje? (J/N)
-msg.phrase	Discard unsaved changes and quit? (Y/N)	Net bewarre wizigingen fuortsmite en ôfslute? (J/N)
-msg.phrase	Song settings updated	Song ynstellings bywurke
-msg.phrase	Filename is empty	Bestânsnamme is leech
-msg.phrase	Save cancelled	Bewarje annulearre
-msg.phrase	Open cancelled	Iepenje annulearre
-msg.phrase	Edit ON	Bewurkje ON
-msg.phrase	Edit OFF	Bewurkje OFF
-msg.phrase	Follow ON	Folgje ON
-msg.phrase	Edit is OFF. Press F8 to edit.	Bewurkje is OFF. Druk op F8 om te bewurkjen.
-msg.phrase	I/O error	I/O flater
-msg.phrase	file is too large	triem is te grut
+msg.phrase	Discard unsaved changes and start a new song? (Y/N)	Net bewarre wizigings fuortsmite en in nij ferske begjinne? (Y/N)
+msg.phrase	Discard unsaved changes and open a song? (Y/N)	Net bewarre wizigings fuortsmite en in ferske iepenje? (Y/N)
+msg.phrase	Discard unsaved changes and quit? (Y/N)	Net bewarre wizigings fuortsmite en ôfslute? (Y/N)
+msg.phrase	Song settings updated	Ferske-ynstellings feroare
+msg.phrase	Filename is empty	De triemnamme is leech
+msg.phrase	Save cancelled	Bewarjen annulearre
+msg.phrase	Open cancelled	Iepenjen annulearre
+msg.phrase	Edit ON	Bewurkje OAN
+msg.phrase	Edit OFF	Bewurkje ÚT
+msg.phrase	Follow ON	Folgje OAN
+msg.phrase	Edit is OFF. Press F8 to edit.	Bewurkjen stiet út. Druk op F8.
+msg.phrase	I/O error	I/O-flater
+msg.phrase	file is too large	de triem is te grut
 msg.phrase	truncated file	ôfkoarte triem
 msg.phrase	SINE PAD	SINE PAD
-msg.phrase	TRIANGLE	DRIEHOEK
+msg.phrase	TRIANGLE	TRIANGLE
 msg.phrase	SAW LEAD	SAW LEAD
-msg.phrase	SQUARE	PLEIN
+msg.phrase	SQUARE	SQUARE
 msg.phrase	PULSE 25	PULSE 25
-msg.phrase	ORGAN	ORGAAN
+msg.phrase	ORGAN	ORGAN
 msg.phrase	BASS	BASS
-msg.phrase	BELL	BEL
-msg.phrase	NOISE	LÛD
+msg.phrase	BELL	BELL
+msg.phrase	NOISE	NOISE
 msg.phrase	SINE	SINE
 msg.phrase	SAW	SAW
-msg.phrase	OFF	ÚT
-msg.phrase	ON	OP
-msg.phrase	ROW	RIGEL
-msg.phrase	CHAN LEVEL	CHAN NIVEAU
+msg.phrase	OFF	OFF
+msg.phrase	ON	ON
+msg.phrase	ROW	ROW
+msg.phrase	CHAN LEVEL	CHAN LEVEL
 msg.phrase	F1 HELP F2 SONG	F1 HELP F2 SONG
-msg.phrase	F3 INS  F4 SAVE	F3 INS F4 SAVE
+msg.phrase	F3 INS  F4 SAVE	F3 INS  F4 SAVE
 msg.phrase	F5 PLAY F6 PAT	F5 PLAY F6 PAT
 msg.phrase	F7 STOP F8 EDIT	F7 STOP F8 EDIT
 msg.phrase	F9/F10 OCTAVE	F9/F10 OCTAVE
-msg.phrase	F11 FOLLOW	F11 FOLGJE
-msg.phrase	F12 QUIT	F12 FERGESE
-msg.phrase	SPACE PLAY/STOP	SPACE PLAY / STOPJE
-msg.phrase	CTRL-S SAVE	CTRL-S OPSLAAN
+msg.phrase	F11 FOLLOW	F11 FOLLOW
+msg.phrase	F12 QUIT	F12 QUIT
+msg.phrase	SPACE PLAY/STOP	SPACE PLAY/STOP
+msg.phrase	CTRL-S SAVE	CTRL-S SAVE
 msg.phrase	CTRL-O OPEN	CTRL-O OPEN
-msg.phrase	C-N NEW C-Z UNDO	C-N NIJE C-Z UNDO
+msg.phrase	C-N NEW C-Z UNDO	C-N NEW C-Z UNDO
 msg.phrase	C-C STOP	C-C STOP
-msg.phrase	#TRANSPORT AND FILES	#TRANSPORT EN BESTEMMEN
-msg.phrase	#ORDER LIST	#ORDERLIST
-msg.phrase	#DISPLAY	#SKERM
-msg.phrase	#EDITING	#BEWERKING
-msg.phrase	#EFFECTS (parameter is hexadecimal)	#EFFECTS (parameter is heksadesimale)
-msg.phrase	LEFT/RIGHT PAGE   ENTER OR F1 CLOSE	LEFT / RIGHT PAGE ENTER OF F1 SLUITEN
-msg.phrase	SONG SETTINGS	SONG ynstellings
-msg.phrase	UP/DOWN SELECT   LEFT/RIGHT ADJUST   ENTER/F2 CLOSE	UP/DOWN SELECT LEFT/RIGHT ADJUST ENTER/F2 CLOSE
-msg.phrase	Type to edit the title. Backspace deletes the last character.	Typ om de titel te bewurkjen. Backspace wisket it lêste karakter.
-msg.phrase	BPM range 32..255. Speed range 1..31.	BPM berik 32..255. Faasje berik 1..31.
-msg.phrase	Pattern effects can also change speed and BPM while playing.	Patterneffekten kinne ek snelheid en BPM feroarje by it spieljen.
-msg.phrase	INSTRUMENTS	YNSTRUMENTEN
-msg.phrase	UP/DOWN SELECT   SPACE PREVIEW   ENTER USE   F3 CLOSE	UP/DOWN SELECT SPACE PREVIEW ENTER GEBRUK F3 SLUITEN
-msg.phrase	All four channels use wavetable synthesis.	Alle fjouwer kanalen brûke wavetable synteze.
-msg.phrase	Preview plays C-4 on the track under the edit cursor.	Foarbyld spilet C-4 op it spoar ûnder de bewurkingsrinner.
-msg.phrase	SAVE SONG AS	SAVE SONG AS
-msg.phrase	ENTER SAVE   F4 OR CTRL-C CANCEL	ENTER SAVE F4 OF CTRL-C CANCEL
-msg.phrase	Directory:	Directory:
-msg.phrase	File name:	Bestânsnamme:
-msg.phrase	The extension .SGT is added automatically.	De tafoeging .SGT wurdt automatysk tafoege.
+msg.phrase	#TRANSPORT AND FILES	#ÔFSPYLJE EN TRIEMMEN
+msg.phrase	#ORDER LIST	#FOLCHOARDERLIST
+msg.phrase	#DISPLAY	#WERJEFTE
+msg.phrase	#EDITING	#BEWURKJE
+msg.phrase	#EFFECTS (parameter is hexadecimal)	#EFFEKTEN (parameter is heksadesimaal)
+msg.phrase	LEFT/RIGHT PAGE   ENTER OR F1 CLOSE	LEFT/RIGHT PAGE   ENTER OR F1 CLOSE
+msg.phrase	SONG SETTINGS	FERSKE-YNSTELLINGS
+msg.phrase	UP/DOWN SELECT   LEFT/RIGHT ADJUST   ENTER/F2 CLOSE	UP/DOWN SELECT   LEFT/RIGHT ADJUST   ENTER/F2 CLOSE
+msg.phrase	Type to edit the title. Backspace deletes the last character.	Typ om de titel te feroarjen. Backspace wisket it lêste teken.
+msg.phrase	BPM range 32..255. Speed range 1..31.	BPM fan 32 oant 255. Snelheid fan 1 oant 31.
+msg.phrase	Pattern effects can also change speed and BPM while playing.	Effekten yn patterns kinne by it spyljen ek snelheid en BPM feroarje.
+msg.phrase	INSTRUMENTS	YNSTRUMINTEN
+msg.phrase	UP/DOWN SELECT   SPACE PREVIEW   ENTER USE   F3 CLOSE	UP/DOWN SELECT   SPACE PREVIEW   ENTER USE   F3 CLOSE
+msg.phrase	All four channels use wavetable synthesis.	Alle fjouwer kanalen brûke wavetable-synteze.
+msg.phrase	Preview plays C-4 on the track under the edit cursor.	Harkje spilet C-4 op it spoar ûnder de kursor.
+msg.phrase	SAVE SONG AS	FERSKE BEWARJE AS
+msg.phrase	ENTER SAVE   F4 OR CTRL-C CANCEL	ENTER SAVE   F4 OR CTRL-C CANCEL
+msg.phrase	Directory:	Map:
+msg.phrase	File name:	Triemnamme:
+msg.phrase	The extension .SGT is added automatically.	De útwreiding .SGT wurdt automatysk tafoege.
 msg.phrase	An existing file can be overwritten.	In besteande triem kin oerskreaun wurde.
-msg.phrase	OPEN SONG	OPEN SONG
-msg.phrase	ENTER OPEN  BS PARENT  CTRL-O/CTRL-C CANCEL	ENTER OPEN BS PARENT CTRL-O/CTRL-C CANCEL
-msg.phrase	(no .SGT files in this folder)	(gjin .SGT-bestannen yn dizze map)
-msg.phrase	CONFIRM	BEVESTIGJE
-msg.phrase	Y = YES   N / ENTER / CTRL-C = NO	Y = YES N / ENTER / CTRL-C = NO
-msg.phrase	Y = yes        N = no	Y = ja N = nee
+msg.phrase	OPEN SONG	FERSKE IEPENJE
+msg.phrase	ENTER OPEN  BS PARENT  CTRL-O/CTRL-C CANCEL	ENTER OPEN  BS PARENT  CTRL-O/CTRL-C CANCEL
+msg.phrase	(no .SGT files in this folder)	(gjin .SGT-triemmen yn dizze map)
+msg.phrase	CONFIRM	BEFÊSTIGJE
+msg.phrase	Y = YES   N / ENTER / CTRL-C = NO	Y = YES   N / ENTER / CTRL-C = NO
+msg.phrase	Y = yes        N = no	Y = ja        N = nee
 msg.phrase	C-	C-
 msg.phrase	C#	C#
 msg.phrase	D-	D-
@@ -904,19 +900,19 @@ msg.phrase	F-	F-
 msg.phrase	F#	F#
 msg.phrase	G-	G-
 msg.phrase	G#	G#
-msg.phrase	A-	IN-
-msg.phrase	A#	IN#
+msg.phrase	A-	A-
+msg.phrase	A#	A#
 msg.phrase	B-	B-
 msg.phrase	A:/dir/name	A:/dir/name
 msg.phrase	MThd	MThd
-msg.phrase	broken MThd	brutsen MThd
-msg.phrase	MIDI IMPORT	MIDI YMPORT
+msg.phrase	broken MThd	skansearre MThd
+msg.phrase	MIDI IMPORT	MIDI-YMPORT
 msg.phrase	MTrk	MTrk
-msg.phrase	broken delta time	brutsen delta tiid
-msg.phrase	broken running status	brutsen rinnende status
-msg.phrase	broken meta event	brutsen meta evenemint
-msg.phrase	broken sysex event	brutsen sysex evenemint
-msg.phrase	broken channel event	brutsen kanaal evenemint
+msg.phrase	broken delta time	skansearre delta time
+msg.phrase	broken running status	skansearre running status
+msg.phrase	broken meta event	skansearre meta-barren
+msg.phrase	broken sysex event	skansearre SysEx-barren
+msg.phrase	broken channel event	skansearre kanaalbarren
 msg.phrase	SMF output is too small	SMF-útfier is te lyts
 msg.phrase	SMF output is too large	SMF-útfier is te grut
 msg.phrase	the song is too long for SMF	it ferske is te lang foar SMF
@@ -925,181 +921,181 @@ msg.phrase	%s%d	%s%d
 msg.phrase	%s%d:%s%d	%s%d:%s%d
 msg.phrase	%s	%s
 msg.phrase	%.40s%s	%.40s%s
-msg.phrase	  [%s]   %s	[%s] %s
-msg.phrase	EDIT  	BEWERKE
+msg.phrase	  [%s]   %s	  [%s]   %s
+msg.phrase	EDIT  	BEWRK
 msg.phrase	READY 	KLEAR
-msg.phrase	%4d 	%4d
+msg.phrase	%4d 	%4d 
 msg.phrase	%s Sum %.7g N %ld%s	%s Som %.7g N %ld%s
-msg.phrase	ARROWS      move the cell cursor\n	PIJLLEN ferpleatse de seloanwizer
-msg.phrase	SHIFT+ARR   extend the selection (for graphs/copy)\n	SHIFT+ARR wreidzje de seleksje út (foar grafiken/kopy)
-msg.phrase	ENTER       edit the cell; in edit, commit and move down\n	ENTER bewurkje de sel; yn bewurkje, commit en ferpleatse del
-msg.phrase	TAB         next cell    SHIFT+TAB  previous cell\n	TAB folgjende sel SHIFT+TAB foarige sel
-msg.phrase	DELETE      clear the selected cell(s)    ESC  cancel\n	DELETE wiskje de selektearre sel (s) ESC annulearje
-msg.phrase	PGUP/PGDN   move one screen    HOME/END  first/last column\n	PGUP / PGDN ferpleatse ien skerm HOME / END earste / lêste kolom
-msg.phrase	CTRL+HOME   A1    CTRL+END  last used cell\n	CTRL+HOME A1 CTRL+END lêste brûkte sel
-msg.phrase	F1 help  F2 edit  F3 copy  F4 paste  F5 goto  F6 colour\n	F1 help F2 bewurkje F3 kopiearje F4 plakke F5 gean nei F6 kleur
-msg.phrase	F7 auto-fit  F8 background  F9 recalc  F10 graph  F11 save  F12 menu\n	F7 auto-fit F8 eftergrûn F9 recalc F10 grafyk F11 bewarje F12 menu
-msg.phrase	SHIFT+F1 about  SHIFT+F2 row height  SHIFT+F3 column width\n	SHIFT+F1 oer SHIFT+F2 rigehichte SHIFT+F3 kolombreedte
-msg.phrase	SHIFT+F4 select all  SHIFT+F10 graph range  SHIFT+F11 save as\n	SHIFT+F4 selektearje alle SHIFT+F10-grafykberik SHIFT+F11 bewarje as
-msg.phrase	CTRL+F1 new  CTRL+F2 open  CTRL+F3 save  CTRL+F4 save as\n	CTRL+F1 nij CTRL+F2 iepenje CTRL+F3 opslaan CTRL+F4 opslaan as
-msg.phrase	CTRL+F5 export CSV  CTRL+F6 export ODS  ALT+F12 quit\n	CTRL+F5 eksportearje CSV CTRL+F6 eksportearje ODS ALT+F12 ôfslute
-msg.phrase	Bottom 2 lines: function keys; [SHIFT]/[CTRL]/[ALT] like the filer\n	Bottom 2 rigels: funksje toetsen; [SHIFT]/[CTRL]/[ALT] lykas de filer
-msg.phrase	CTRL+S save  CTRL+O open  CTRL+N new  CTRL+C/V/X copy/paste/cut\n	CTRL+S bewarje CTRL+O iepenje CTRL+N nij CTRL+C/V/X kopiearje/plakke/knipje
-msg.phrase	CTRL+G goto    /  open the menu (1 File, 2 Edit, ...)\n	CTRL+G gean nei / iepenje it menu (1 triem, 2 bewurkje, ...)
-msg.phrase	Built-in functions: SUM AVERAGE MIN MAX COUNT COUNTA\n	Ynboude funksjes: SUM AVERAGE MIN MAX COUNT COUNTA
-msg.phrase	PRODUCT ABS SQRT INT ROUND MOD POWER IF AND OR NOT\n	PRODUCT ABS SQRT INT ROUND MOD POWER AS EN OF NET
-msg.phrase	IFERROR LEN LEFT RIGHT MID UPPER LOWER TRIM CONCATENATE PI\n	IFERROR LEN LEFT RIGHT MID UPPER LOWER TRIM CONCATENATE PI
-msg.phrase	Cell refs: A1, $A$1, A1:B10.  Formulas begin with '='.\n	Selrefers: A1, $A$1, A1:B10.  Formules begjinne mei '='.
-msg.phrase	Files: .ods (LibreOffice), .fods (flat XML), .csv\n	Triemmen: .ods (LibreOffice), .fods (plat XML), .csv
-msg.phrase	ODS/FODS keeps formulas, widths, heights and colours.\n	ODS/FODS hâldt formules, breedtes, hichten en kleuren.
-msg.phrase	CSV keeps values and formulas (no colours/heights).\n	CSV hâldt wearden en formules (gjin kleuren / hichten).
-msg.phrase	Graph: select a range, press F10, and choose Line/Bar/Mixed/Pie.\n	Grafyk: selektearje in berik, druk op F10, en kies Line/Bar/Mixed/Pie.
-msg.phrase	SGCALC for sgnano\n	SGCALC foar sgnano
+msg.phrase	ARROWS      move the cell cursor\n	PIJLEN      selkursor ferpleatse\n
+msg.phrase	SHIFT+ARR   extend the selection (for graphs/copy)\n	SHIFT+PIJL  seleksje fergrutsje (foar grafiken/kopiearjen)\n
+msg.phrase	ENTER       edit the cell; in edit, commit and move down\n	ENTER       sel bewurkje; by it bewurkjen befêstigje en omleech\n
+msg.phrase	TAB         next cell    SHIFT+TAB  previous cell\n	TAB         folgjende sel    SHIFT+TAB  foarige sel\n
+msg.phrase	DELETE      clear the selected cell(s)    ESC  cancel\n	DELETE      selektearre sellen wiskje    ESC  annulearje\n
+msg.phrase	PGUP/PGDN   move one screen    HOME/END  first/last column\n	PGUP/PGDN   ien skerm    HOME/END  earste/lêste kolom\n
+msg.phrase	CTRL+HOME   A1    CTRL+END  last used cell\n	CTRL+HOME   A1    CTRL+END  lêst brûkte sel\n
+msg.phrase	F1 help  F2 edit  F3 copy  F4 paste  F5 goto  F6 colour\n	F1 help  F2 bewurkje  F3 kopiearje  F4 plakke  F5 gean nei  F6 kleur\n
+msg.phrase	F7 auto-fit  F8 background  F9 recalc  F10 graph  F11 save  F12 menu\n	F7 oanpasse  F8 eftergrûn  F9 rekkenje  F10 grafyk  F11 bewarje  F12 menu\n
+msg.phrase	SHIFT+F1 about  SHIFT+F2 row height  SHIFT+F3 column width\n	SHIFT+F1 oer  SHIFT+F2 rigehichte  SHIFT+F3 kolombreedte\n
+msg.phrase	SHIFT+F4 select all  SHIFT+F10 graph range  SHIFT+F11 save as\n	SHIFT+F4 alles selektearje  SHIFT+F10 grafykberik  SHIFT+F11 bewarje as\n
+msg.phrase	CTRL+F1 new  CTRL+F2 open  CTRL+F3 save  CTRL+F4 save as\n	CTRL+F1 nij  CTRL+F2 iepenje  CTRL+F3 bewarje  CTRL+F4 bewarje as\n
+msg.phrase	CTRL+F5 export CSV  CTRL+F6 export ODS  ALT+F12 quit\n	CTRL+F5 CSV eksportearje  CTRL+F6 ODS eksportearje  ALT+F12 ôfslute\n
+msg.phrase	Bottom 2 lines: function keys; [SHIFT]/[CTRL]/[ALT] like the filer\n	Ûnderste 2 rigels: funksjetoetsen; [SHIFT]/[CTRL]/[ALT] lykas yn de filer\n
+msg.phrase	CTRL+S save  CTRL+O open  CTRL+N new  CTRL+C/V/X copy/paste/cut\n	CTRL+S bewarje  CTRL+O iepenje  CTRL+N nij  CTRL+C/V/X kopy/plakke/knippe\n
+msg.phrase	CTRL+G goto    /  open the menu (1 File, 2 Edit, ...)\n	CTRL+G gean nei    /  menu iepenje (1 Triem, 2 Bewurkje, ...)\n
+msg.phrase	Built-in functions: SUM AVERAGE MIN MAX COUNT COUNTA\n	Ynboude funksjes: SUM AVERAGE MIN MAX COUNT COUNTA\n
+msg.phrase	PRODUCT ABS SQRT INT ROUND MOD POWER IF AND OR NOT\n	PRODUCT ABS SQRT INT ROUND MOD POWER IF AND OR NOT\n
+msg.phrase	IFERROR LEN LEFT RIGHT MID UPPER LOWER TRIM CONCATENATE PI\n	IFERROR LEN LEFT RIGHT MID UPPER LOWER TRIM CONCATENATE PI\n
+msg.phrase	Cell refs: A1, $A$1, A1:B10.  Formulas begin with '='.\n	Selferwizings: A1, $A$1, A1:B10.  Formules begjinne mei '='.\n
+msg.phrase	Files: .ods (LibreOffice), .fods (flat XML), .csv\n	Triemmen: .ods (LibreOffice), .fods (platte XML), .csv\n
+msg.phrase	ODS/FODS keeps formulas, widths, heights and colours.\n	ODS/FODS hâldt formules, breedtes, hichtes en kleuren.\n
+msg.phrase	CSV keeps values and formulas (no colours/heights).\n	CSV hâldt allinne wearden en formules (gjin kleuren/hichtes).\n
+msg.phrase	Graph: select a range, press F10, and choose Line/Bar/Mixed/Pie.\n	Grafyk: selektearje in berik, F10, dan Line/Balke/Mingd/Taart.\n
+msg.phrase	SGCALC for sgnano\n	SGCALC for sgnano\n
 msg.phrase	Version 	Ferzje
-msg.phrase	A Lotus 1-2-3 style spreadsheet as an SGX program.\n\n	In Lotus 1-2-3 styl spreadsheet as in SGX programma.
+msg.phrase	A Lotus 1-2-3 style spreadsheet as an SGX program.\n\n	In rekkenblêd yn de styl fan Lotus 1-2-3, as SGX-programma.\n\n
 msg.phrase	SGX ABI %u.%u\n	SGX ABI %u.%u
-msg.phrase	Screen mode 3: text + CLUT8 FB (lowres disabled)\n	Skermmodus 3: tekst + CLUT8 FB (lowres útskeakele)
+msg.phrase	Screen mode 3: text + CLUT8 FB (lowres disabled)\n	Skermmodus 3: tekst + CLUT8-FB (sûnder lowres-laach)\n
 msg.phrase	Sheet: %d rows x %d columns\n	Blêd: %d rigen x %d kolommen
-msg.phrase	Formats: .ods / .fods (LibreOffice), .csv\n\n	Formaten: .ods / .fods (LibreOffice), .csv
-msg.phrase	The grid is drawn on the text plane.\n	It raster wurdt tekene op it tekstflak.
-msg.phrase	Charts and the 640x480 background use the FB.\n\n	Charts en de 640x480 eftergrûn brûke de FB.
+msg.phrase	Formats: .ods / .fods (LibreOffice), .csv\n\n	Formaten: .ods / .fods (LibreOffice), .csv\n\n
+msg.phrase	The grid is drawn on the text plane.\n	It roaster wurdt op de tekstlaach tekene.\n
+msg.phrase	Charts and the 640x480 background use the FB.\n\n	Grafiken en de eftergrûn fan 640x480 brûke de FB.\n\n
 msg.phrase	%d %s	%d %s
-msg.phrase	Cannot store the cell (%d).	Kin de sel net opslaan (%d).
+msg.phrase	Cannot store the cell (%d).	De sel kin net bewarre wurde (%d).
 msg.phrase	Copied %d x %d cells	%d x %d sellen kopiearre
 msg.phrase	Cleared %s	Ferwiderje %s
 msg.phrase	'%s' is not a cell reference.	'%s' is gjin selferwizing.
 msg.phrase	%d	%d
 msg.phrase	Column width = %d	Kolombreedte = %d
 msg.phrase	Row height = %d	Rigehichte = %d
-msg.phrase	Auto fit: %d column(s), %d row(s)	Auto fit: %d kolom(men), %d rige(n)
+msg.phrase	Auto fit: %d column(s), %d row(s)	Oanpasse: %d kolom(men), %d rige(n)
 msg.phrase	%2d	%2d
-msg.phrase	Cannot apply the colour (%d).	Kin de kleur (%d) net tapasse.
+msg.phrase	Cannot apply the colour (%d).	De kleur kin net tapast wurde (%d).
 msg.phrase	%s colour = %d	%s kleur = %d
-msg.phrase	Not a valid range.\nUse a range such as A1:C10.	Net in jildich berik.\nBrûk in berik lykas A1:C10.
+msg.phrase	Not a valid range.\nUse a range such as A1:C10.	Unjildich berik.\nFier in berik yn lykas A1:C10.
 msg.phrase	Graph range %s	Grafykberik %s
 msg.phrase	Graph: %s	Grafyk: %s
-msg.phrase	SGCALC: cannot set screen mode 3: %s\n	SGCALC: kin skermmodus 3 net ynstelle: %s
+msg.phrase	SGCALC: cannot set screen mode 3: %s\n	SGCALC: skermmodus 3 kin net ynsteld wurde: %s\n
 msg.phrase	%.2g	%.2g
 msg.phrase	%.6g	%.6g
-msg.phrase	%s  %.0f%%	%s %.0f%%
-msg.phrase	GRAPH  %s  %s	GRAFIEK %s %s
+msg.phrase	%s  %.0f%%	%s  %.0f%%
+msg.phrase	GRAPH  %s  %s	GRAFYK  %s  %s
 msg.phrase	%s%s	%s%s
 msg.phrase	%s/%s	%s/%s
 msg.phrase	%.*s	%.*s
 msg.phrase	%.*s/	%.*s/
-msg.phrase	Cannot read %s\n%s	Kin %s net lêze\n%s
-msg.phrase	Folder: %s	Folder: %s
+msg.phrase	Cannot read %s\n%s	%s kin net lêzen wurde\n%s
+msg.phrase	Folder: %s	Map: %s
 msg.phrase	[DIR] %s	[DIR] %s
-msg.phrase	      %s	%s
+msg.phrase	      %s	      %s
 msg.phrase	%lu.%luM	%lu.%luM
 msg.phrase	%luK	%luK
 msg.phrase	%luB	%luB
-msg.phrase	BOOK1%s	BOEK1%s
+msg.phrase	BOOK1%s	BOOK1%s
 msg.phrase	%c:/	%c:/
-msg.phrase	Unsupported extension.\nUse .csv, .ods or .fods.	Net-stipe tafoeging.\nBrûk .csv, .ods of .fods.
-msg.phrase	%s already exists.\nOverwrite it?	%s bestiet al.\nIt oerskriuwe?
-msg.phrase	%s may not be writable.\nTry anyway?	%s is miskien net skriuwber.\nBesykje dochs?
-msg.phrase	Unknown file type for %s	Unbekend bestânstype foar %s
-msg.phrase	Unsupported file type.\nUse .csv, .ods or .fods.	Net-stipe triemtype.\nBrûk .csv, .ods of .fods.
-msg.phrase	Cannot open %s\n%s	Kin %s net iepenje\n%s
+msg.phrase	Unsupported extension.\nUse .csv, .ods or .fods.	Utwreiding net stipe.\nBrûk .csv, .ods of .fods.
+msg.phrase	%s already exists.\nOverwrite it?	%s bestiet al.\nOerskriuwe?
+msg.phrase	%s may not be writable.\nTry anyway?	Nei %s kin miskien net skreaun wurde.\nDochs besykje?
+msg.phrase	Unknown file type for %s	Unbekend triemtype: %s
+msg.phrase	Unsupported file type.\nUse .csv, .ods or .fods.	Triemtype net stipe.\nBrûk .csv, .ods of .fods.
+msg.phrase	Cannot open %s\n%s	%s kin net iepene wurde\n%s
 msg.phrase	%s is a folder.	%s is in map.
-msg.phrase	Cannot import %s\n%s	Kin %s net ymportearje\n%s
-msg.phrase	Loaded %s	Geladen %s
-msg.phrase	Cannot build the %s file.	Kin it %s bestân net bouwe.
-msg.phrase	Cannot write %s\n%s	Kin %s net skriuwe\n%s
+msg.phrase	Cannot import %s\n%s	%s kin net ymportearre wurde\n%s
+msg.phrase	Loaded %s	%s laden
+msg.phrase	Cannot build the %s file.	De %s-triem kin net makke wurde.
+msg.phrase	Cannot write %s\n%s	%s kin net skreaun wurde\n%s
 msg.phrase	%s %s	%s %s
-msg.phrase	unsupported version %u	net-stipe ferzje %u
+msg.phrase	unsupported version %u	net stipe ferzje (%u)
 msg.phrase	%d:%d:%d:%d:%d:%d	%d:%d:%d:%d:%d:%d
-msg.phrase	Octave %d	oktaaf ​​%d
-msg.phrase	Note %s	Opmerking %s
+msg.phrase	Octave %d	Oktaaf %d
+msg.phrase	Note %s	Noat %s
 msg.phrase	Instrument %d	Ynstrumint %d
-msg.phrase	Volume %s	Volume %s
+msg.phrase	Volume %s	Lûdsterkte %s
 msg.phrase	Effect %c	Effekt %c
 msg.phrase	Parameter %s	Parameter %s
-msg.phrase	Pattern %s	Patroan %s
-msg.phrase	Playing pattern %s	Spylje patroan %s
-msg.phrase	SAVE ERROR: %s	FOUT OPSLAAN: %s
-msg.phrase	Saved %s	Opslein %s
-msg.phrase	LOAD ERROR: %s	LOAD ERROR: %s
+msg.phrase	Pattern %s	Pattern %s
+msg.phrase	Playing pattern %s	Pattern %s wurdt spile
+msg.phrase	SAVE ERROR: %s	FLATER BY BEWARJEN: %s
+msg.phrase	Saved %s	%s bewarre
+msg.phrase	LOAD ERROR: %s	FLATER BY LADEN: %s
 msg.phrase	BPM %d	BPM %d
 msg.phrase	Speed %d	Snelheid %d
-msg.phrase	Preview %s	Foarbyld %s
+msg.phrase	Preview %s	Harkje %s
 msg.phrase	Instrument %s %s	Ynstrumint %s %s
-msg.phrase	Overwrite %s? (Y/N)	Oerskriuwe %s? (J/N)
-msg.phrase	 | BPM %s SPD %s 	| BPM %s SPD %s
-msg.phrase	 SGNO TRACKER 1.0 | 	SGNO TRACKER 1.0 |
-msg.phrase	FILE 	FILE
-msg.phrase	 PAT %s	PAT %s
-msg.phrase	 ORD %d/%d	ORD %d/%d
-msg.phrase	 INS %s 	INS %s
-msg.phrase	 OCT %d	OKT %d
-msg.phrase	 EDIT %s	BEWERKEN %s
-msg.phrase	ON 	OP
-msg.phrase	 FOL %s	FOL %s
+msg.phrase	Overwrite %s? (Y/N)	%s oerskriuwe? (Y/N)
+msg.phrase	 | BPM %s SPD %s 	 | BPM %s SPD %s 
+msg.phrase	 SGNO TRACKER 1.0 | 	 SGNO TRACKER 1.0 | 
+msg.phrase	FILE 	FILE 
+msg.phrase	 PAT %s	 PAT %s
+msg.phrase	 ORD %d/%d	 ORD %d/%d
+msg.phrase	 INS %s 	 INS %s 
+msg.phrase	 OCT %d	 OCT %d
+msg.phrase	 EDIT %s	 EDIT %s
+msg.phrase	ON 	ON 
+msg.phrase	 FOL %s	 FOL %s
 msg.phrase	TRACK %d	TRACK %d
 msg.phrase	%c%s	%c%s
 msg.phrase	%s %s %s %s	%s %s %s %s
-msg.phrase	%s 	%s
+msg.phrase	%s 	%s 
 msg.phrase	%d %s %s	%d %s %s
 msg.phrase	ORDER %d/%d	ORDER %d/%d
-msg.phrase	PAT   %s	PAT %s
+msg.phrase	PAT   %s	PAT   %s
 msg.phrase	INS %s %s	INS %s %s
-msg.phrase	OCT %d  EDIT %s	OKT %d BEWERKEN %s
-msg.phrase	FOLLOW %s	FOLGJE %s
-msg.phrase	PLAYING  ORD %d/%d  PAT %s  ROW %s/%d  SPD %s  BPM %d  F7 STOP	PLAYING ORD %d/%d PAT %s RIJ %s/%d SPD %s BPM %d F7 STOP
-msg.phrase	READY  EDIT %s  OCT %d  F1 HELP  F5 PLAY  CTRL-S SAVE	READY EDIT %s OKT %d F1 HELP F5 PLAY CTRL-S OPSLAAN
-msg.phrase	 %s 	%s
-msg.phrase	  F5          Play the song from the current order	F5 Spielje it ferske út de hjoeddeiske folchoarder
-msg.phrase	  F6          Play the current pattern	F6 Spielje it hjoeddeiske patroan
-msg.phrase	  F7/Ctrl-C   Stop playback	F7/Ctrl-C Stopje it ôfspieljen
-msg.phrase	  Space       Play / stop	Space Play / stopje
-msg.phrase	  F4          Save as	F4 Bewarje as
-msg.phrase	  Ctrl-S      Save (asks for a name if new)	Ctrl-S Bewarje (freget om in namme as nij)
-msg.phrase	  Ctrl-O      Open a song	Ctrl-O Iepenje in ferske
-msg.phrase	  Ctrl-N      New song	Ctrl-N Nij ferske
-msg.phrase	  F12         Quit (confirmation if modified)	F12 Quit (befêstiging as wizige)
-msg.phrase	  [ ]         Previous / next order entry	[ ] Foarige / folgjende oarder ynfier
-msg.phrase	  { }         Insert / delete an order entry	{ } In bestelling ynfier ynfoegje / wiskje
-msg.phrase	  - +         Change the pattern in the entry	- + Feroarje it patroan yn 'e yngong
-msg.phrase	  F11         Follow playback (turns off on manual move)	F11 Folgje ôfspieljen (slacht út by hânmjittich ferpleatse)
-msg.phrase	  F1          Help; Left/Right changes page	F1 Help; Links / Rjochts feroarings side
-msg.phrase	  F8          Toggle edit mode	F8 Bewurkje modus
-msg.phrase	  Arrows      Move the cursor	Pylken Ferpleats de rinnerke
-msg.phrase	  PgUp/PgDn   Jump 16 rows	PgUp/PgDn Springe 16 rigen
-msg.phrase	  Home/End    First / last row	Thús / Ein Earste / lêste rige
-msg.phrase	  F9/F10      Octave down / up	F9/F10 Oktaaf ​​omleech / omheech
-msg.phrase	  Z S X D C V G B H N J M      lower piano row	Z S X D C V G B H N J M legere piano rige
-msg.phrase	  Q 2 W 3 E R 5 T 6 Y 7 U      upper piano row	Q 2 W 3 E R 5 T 6 Y 7 U boppeste piano rige
-msg.phrase	  1           Note off	1 Notysje út
-msg.phrase	  0 / Del     0 clears note/inst/fx; Del clears any	0 / Del 0 wisket notysje/inst/fx; Del wisket eltse
-msg.phrase	  Ctrl-Z      Undo the last pattern/order edit	Ctrl-Z Skeakelje de lêste patroan / oarder bewurkje
-msg.phrase	  Axy   Volume slide: up x, down y	Axy Volume slide: omheech x, del y
-msg.phrase	  Cxx   Note cut after xx ticks	Cxx Note snije nei xx teken
-msg.phrase	  Dxx   Set volume (00..7F)	Dxx Set folume (00..7F)
-msg.phrase	  Fxx   Speed if xx < 20, otherwise BPM	Fxx-snelheid as xx <20, oars BPM
-msg.phrase	  Hxy   Arpeggio x, y semitones	Hxy Arpeggio x, y heale toanen
-msg.phrase	  Pxx   Pitch slide up	Pxx Pitch slide omheech
-msg.phrase	  Qxx   Pitch slide down	Qxx Pitch slide del
-msg.phrase	  F2 song settings, F3 instrument list	F2 ferske ynstellings, F3 ynstrumint list
+msg.phrase	OCT %d  EDIT %s	OCT %d  EDIT %s
+msg.phrase	FOLLOW %s	FOLLOW %s
+msg.phrase	PLAYING  ORD %d/%d  PAT %s  ROW %s/%d  SPD %s  BPM %d  F7 STOP	PLAYING  ORD %d/%d  PAT %s  ROW %s/%d  SPD %s  BPM %d  F7 STOP
+msg.phrase	READY  EDIT %s  OCT %d  F1 HELP  F5 PLAY  CTRL-S SAVE	READY  EDIT %s  OCT %d  F1 HELP  F5 PLAY  CTRL-S SAVE
+msg.phrase	 %s 	 %s 
+msg.phrase	  F5          Play the song from the current order	  F5          Ferske spylje fan de aktuele posysje ôf
+msg.phrase	  F6          Play the current pattern	  F6          Aktueel pattern spylje
+msg.phrase	  F7/Ctrl-C   Stop playback	  F7/Ctrl-C   Ôfspyljen stopje
+msg.phrase	  Space       Play / stop	  Space       Spylje / stopje
+msg.phrase	  F4          Save as	  F4          Bewarje as
+msg.phrase	  Ctrl-S      Save (asks for a name if new)	  Ctrl-S      Bewarje (freget om in namme as it nij is)
+msg.phrase	  Ctrl-O      Open a song	  Ctrl-O      In ferske iepenje
+msg.phrase	  Ctrl-N      New song	  Ctrl-N      Nij ferske
+msg.phrase	  F12         Quit (confirmation if modified)	  F12         Ôfslute (freget it as der wizigings binne)
+msg.phrase	  [ ]         Previous / next order entry	  [ ]         Foarige / folgjende posysje
+msg.phrase	  { }         Insert / delete an order entry	  { }         Posysje ynfoegje / wiskje
+msg.phrase	  - +         Change the pattern in the entry	  - +         Pattern fan de posysje wikselje
+msg.phrase	  F11         Follow playback (turns off on manual move)	  F11         Ôfspyljen folgje (giet út by ferpleatsen mei de hân)
+msg.phrase	  F1          Help; Left/Right changes page	  F1          Help; Lofts/Rjochts wikselet de side
+msg.phrase	  F8          Toggle edit mode	  F8          Bewurkjen oan / út
+msg.phrase	  Arrows      Move the cursor	  Pijlen      De kursor ferpleatse
+msg.phrase	  PgUp/PgDn   Jump 16 rows	  PgUp/PgDn   16 rigen springe
+msg.phrase	  Home/End    First / last row	  Home/End    Earste / lêste rige
+msg.phrase	  F9/F10      Octave down / up	  F9/F10      Oktaaf omleech / omheech
+msg.phrase	  Z S X D C V G B H N J M      lower piano row	  Z S X D C V G B H N J M      ûnderste pianorige
+msg.phrase	  Q 2 W 3 E R 5 T 6 Y 7 U      upper piano row	  Q 2 W 3 E R 5 T 6 Y 7 U      boppeste pianorige
+msg.phrase	  1           Note off	  1           Note off
+msg.phrase	  0 / Del     0 clears note/inst/fx; Del clears any	  0 / Del     0 wisket noat/ynstr./effekt; Del it fjild
+msg.phrase	  Ctrl-Z      Undo the last pattern/order edit	  Ctrl-Z      Lêste pattern-/folchoarderwiziging weromdraaie
+msg.phrase	  Axy   Volume slide: up x, down y	  Axy   Lûdsterkte glide: omheech x, omleech y
+msg.phrase	  Cxx   Note cut after xx ticks	  Cxx   Noat ôfsnije nei xx ticks
+msg.phrase	  Dxx   Set volume (00..7F)	  Dxx   Lûdsterkte ynstelle (00..7F)
+msg.phrase	  Fxx   Speed if xx < 20, otherwise BPM	  Fxx   Snelheid as xx < 20, oars BPM
+msg.phrase	  Hxy   Arpeggio x, y semitones	  Hxy   Arpeggio x, y healtoanen
+msg.phrase	  Pxx   Pitch slide up	  Pxx   Toanhichte omheech glide
+msg.phrase	  Qxx   Pitch slide down	  Qxx   Toanhichte omleech glide
+msg.phrase	  F2 song settings, F3 instrument list	  F2 ferske-ynstellings, F3 ynstruminte-list
 msg.phrase	HELP %d/2	HELP %d/2
-msg.phrase	  Title	Titel
-msg.phrase	  [%s_]	[%s_]
-msg.phrase	  BPM   : %d     (left/right -1/+1, -/+ -5/+5)	BPM: %d (lofts/rjochts -1/+1, -/+ -5/+5)
-msg.phrase	  Speed : %d ticks/row	Faasje: %d tiken/rige
-msg.phrase	  Rows  : %d (fixed)	Rigen: %d (fêst)
-msg.phrase	  Order : %d entries	Oarder: %d ynstjoerings
-msg.phrase	  Patterns in use : %d	Brûkte patroanen: %d
-msg.phrase	 #  NAME       WAVE       A   D   S   R  VOL	# NAME WAVE A D S R VOL
-msg.phrase	 %c %d  %-9s %-9s %3d %3d %3d %3d %4d	%c %d %-9s %-9s %3d %3d %3d %3d %4d
+msg.phrase	  Title	  Titel
+msg.phrase	  [%s_]	  [%s_]
+msg.phrase	  BPM   : %d     (left/right -1/+1, -/+ -5/+5)	  BPM   : %d     (lofts/rjochts -1/+1, -/+ -5/+5)
+msg.phrase	  Speed : %d ticks/row	  Snelheid : %d ticks per rige
+msg.phrase	  Rows  : %d (fixed)	  Rigen : %d (fêst)
+msg.phrase	  Order : %d entries	  Folchoarder : %d posysjes
+msg.phrase	  Patterns in use : %d	  Brûkte patterns : %d
+msg.phrase	 #  NAME       WAVE       A   D   S   R  VOL	 #  NAME       WAVE       A   D   S   R  VOL
+msg.phrase	 %c %d  %-9s %-9s %3d %3d %3d %3d %4d	 %c %d  %-9s %-9s %3d %3d %3d %3d %4d
 msg.phrase	Current instrument: %s %s	Aktueel ynstrumint: %s %s
-msg.phrase	  %s	%s
-msg.phrase	DIR  %s	DIR %s
-msg.phrase	 %c %s%s	%c %s%s
-msg.phrase	Files: %d	Bestannen: %d
+msg.phrase	  %s	  %s
+msg.phrase	DIR  %s	DIR  %s
+msg.phrase	 %c %s%s	 %c %s%s
+msg.phrase	Files: %d	Triemmen: %d
 msg.phrase	%02d	%02d
 msg.phrase	%03d	%03d
 msg.phrase	%02X	%02X
-msg.phrase	SGNO TRACKER: incompatible SGX ABI\n	SGNO TRACKER: ynkompatibele SGX ABI
+msg.phrase	SGNO TRACKER: incompatible SGX ABI\n	SGNO TRACKER: net kompatibele SGX ABI\n
 msg.phrase	S: check: wait -- a file is being read or written	S: kontrolearje: wachtsje - in bestân wurdt lêzen of skreaun
 msg.phrase	S: check: the drive is busy or not ready	S: kontrolearje: it stasjon is drok of net klear
 msg.phrase	nothing for this item (ContextMenu.cfg)	neat foar dit item (ContextMenu.cfg)
@@ -1120,43 +1116,72 @@ msg.prefix	compress	compress
 msg.prefix	render	render
 msg.phrase	5 Macro	5 Makro
 msg.phrase	6 Help	6 help
-msg.phrase	Run current	Run stroom
-msg.phrase	Run the macro at the cursor (#! header cell and the cells below it)	Rin de makro út by de rinnerke (#! koptekstsel en de sellen dêrûnder)
-msg.phrase	Run selection	Run seleksje
-msg.phrase	Run the selected cells as one macro (top-left cell is the #! header)	Laad de selekteare sellen as ien makro (sel linksboppe is de #! koptekst)
-msg.phrase	Run all	Run alles
-msg.phrase	Run every macro in the sheet, top-left to bottom-right	Rin elke makro yn it blêd út, lofts boppe nei ûnderen rjochts
+msg.phrase	Run current	Dizze útfiere
+msg.phrase	Run the macro at the cursor (#! header cell and the cells below it)	De makro by de kursor útfiere (#!-kopsel en de sellen derûnder)
+msg.phrase	Run selection	Seleksje útfiere
+msg.phrase	Run the selected cells as one macro (top-left cell is the #! header)	De selektearre sellen as ien makro útfiere (de sel lofts boppe is de #!-kop)
+msg.phrase	Run all	Alles útfiere
+msg.phrase	Run every macro in the sheet, top-left to bottom-right	Alle makro's yn it blêd útfiere, fan lofts boppe oant rjochts ûnder
 msg.phrase	Last error	Lêste flater
-msg.phrase	Show the last macro error	Lit de lêste makro flater sjen
+msg.phrase	Show the last macro error	De lêste makroflater sjen litte
 msg.phrase	Macro	Makro
-msg.phrase	Macro: run #!ruby / #!python / #!basic cells	Makro: útfiere #!ruby / #!python / #!basissellen
+msg.phrase	Macro: run #!ruby / #!python / #!basic cells	Makro: #!ruby / #!python / #!basic-sellen útfiere
 msg.phrase	Edit the cell (F2)	De sel bewurkje (F2)
-msg.phrase	Fit widths/heights to the contents	Pas breedtes / hichten oan de ynhâld
-msg.phrase	Last macro error	Lêste makro flater
-msg.phrase	No macro error.	Gjin makro flater.
+msg.phrase	Fit widths/heights to the contents	Breedtes/hichtes oan de ynhâld oanpasse
+msg.phrase	Last macro error	Lêste makroflater
+msg.phrase	No macro error.	Gjin makroflater.
 msg.phrase	IME on	IME oan
 msg.phrase	IME off	IME út
 msg.phrase	Macro: %s %s ...	Makro: %s %s ...
-msg.phrase	%s: this firmware cannot run macros (SGX ABI 5.10 or later)	%s: dizze firmware kin gjin makro's útfiere (SGX ABI 5.10 of letter)
-msg.phrase	Macro error: %s	Makro flater: %s
+msg.phrase	%s: this firmware cannot run macros (SGX ABI 5.10 or later)	%s: dizze firmware kin gjin makro's útfiere (SGX ABI 5.10 of nijer nedich)
+msg.phrase	Macro error: %s	Makroflater: %s
 msg.phrase	Macro: %s done	Makro: %s klear
-msg.phrase	a macro is already running	in makro rint al
+msg.phrase	a macro is already running	der rint al in makro
 msg.phrase	this language is not available	dizze taal is net beskikber
 msg.phrase	not enough memory	net genôch ûnthâld
-msg.phrase	the macro stopped with an error	de makro stoppe mei in flater
-msg.phrase	Macro error %s: %s	Makro flater %s: %s
+msg.phrase	the macro stopped with an error	de makro is mei in flater stoppe
+msg.phrase	Macro error %s: %s	Makroflater %s: %s
 msg.phrase	Macro: not enough memory	Makro: net genôch ûnthâld
-msg.phrase	Macro: the cursor is not on a macro (a #!ruby / #!python / #!basic cell or the cells below it)	Makro: de rinnerke stiet net op in makro (in #!ruby / #!python / #!basissel of de sellen dêrûnder)
-msg.phrase	Macro: no macro in the sheet	Makro: gjin makro yn it blêd
-msg.phrase	Run all macros	Run alle makros
-msg.phrase	Macros: %d. Run them all, top-left to bottom-right? Changes cannot be undone.	Makro's: %d. Run se allegearre, boppe-lofts nei ûnderen-rjochts? Feroarings kinne net ûngedien makke wurde.
-msg.phrase	Macro: %d of %d done	Makro: %d fan %d dien
-msg.phrase	Cleared the cell	De sel wiske
-msg.phrase	Cleared the selection	De seleksje wiske
+msg.phrase	Macro: the cursor is not on a macro (a #!ruby / #!python / #!basic cell or the cells below it)	Makro: de kursor stiet net op in makro (#!ruby / #!python / #!basic-sel of de sellen derûnder)
+msg.phrase	Macro: no macro in the sheet	Makro: gjin makro's yn it blêd
+msg.phrase	Run all macros	Alle makro's útfiere
+msg.phrase	Macros: %d. Run them all, top-left to bottom-right? Changes cannot be undone.	Makro's: %d. Allegear útfiere, fan lofts boppe oant rjochts ûnder? Wizigings kinne net ûngedien makke wurde.
+msg.phrase	Macro: %d of %d done	Makro: %d fan %d klear
+msg.phrase	Cleared the cell	Sel wiske
+msg.phrase	Cleared the selection	Seleksje wiske
 msg.phrase	Background colour = %d	Eftergrûnkleur = %d
 msg.phrase	Text colour = %d	Tekstkleur = %d
 msg.phrase	Graph: line	Grafyk: line
-msg.phrase	Graph: bar	Grafyk: bar
+msg.phrase	Graph: bar	Grafyk: balke
 msg.phrase	Graph: mixed	Grafyk: mingd
-msg.phrase	Graph: pie	Grafyk: pie
-msg.phrase	Exported %s	Eksportearre %s
+msg.phrase	Graph: pie	Grafyk: taart
+msg.phrase	Exported %s	%s eksportearre
+ui	USB・時計・設定	USB, clock, settings
+ui	0.001 秒未満	minder as 0.001 s
+ui	%s 秒	%s s
+ui	コンパイル %s  実行 %s	kompilearje %s  útfiere %s
+ui	コンパイル %s	kompilearje %s
+ui	実行 %s	útfiere %s
+msg.phrase	1 Help	1 Help
+msg.phrase	3 Copy	3 Kopy
+msg.phrase	4 Paste	4 Plak
+msg.phrase	5 Goto	5 Gean
+msg.phrase	6 Colour	6 Kleur
+msg.phrase	7 Fit	7 Pas
+msg.phrase	8 Backgr	8 Efterg
+msg.phrase	9 Recalc	9 Wer
+msg.phrase	10 Graph	10 Graf
+msg.phrase	11 Save	11 Opsl
+msg.phrase	12 Menu	12 Menu
+msg.phrase	1 About	1 Oer
+msg.phrase	2 Height	2 Hichte
+msg.phrase	3 Width	3 Breed
+msg.phrase	4 SelAll	4 Alles
+msg.phrase	10 Range	10 Berik
+msg.phrase	11 Name	11 As
+msg.phrase	1 New	1 Nij
+msg.phrase	2 Open	2 Iepen
+msg.phrase	4 SaveAs	4 As
+msg.phrase	12 Quit	12 Stop
+msg.phrase	3 Save	3 Opsl
+msg.phrase	Version %s	Ferzje %s

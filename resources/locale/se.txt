@@ -21,14 +21,14 @@ ui	属性を変える	Rievdat iešvuođaid
 ui	エディタで開く	Rahpat redaktevrras
 ui	テキスト表示（Shift+V / Ctrl+Alt+F7 は 16 進）	Geahča teakstan (Shift+V / Ctrl+Alt+F7 hex)
 ui	ドライブの情報	Johtolatdieđut
-ui	フォルダを作る / 新しいファイル	Ođđa máppa / ođđa fiila
+ui	フォルダを作る（Shift+F5） / 新しいファイル（Ctrl+F1）	Ođđa máppa (Shift+F5) / ođđa fiila (Ctrl+F1)
 ui	シェル sgsh / 媒体を取り出す	Shell sgsh / eject the media
 ui	読み直す	Ođđasit lasta
-ui	見えている画面を PNG で保存	Váldde čájáhusa PNG:n
+ui	見えている画面を PNG で保存（Alt+F5 も同じ）	Váldde čájáhusa PNG:n (= Alt+F5)
 ui	窓を閉じる・選択を解く（サブフォルダでは上位へ）	Gidde uvssa / buhtis válljema (oassemáppas: mannat bajás)
-ui	ファイルの操作（FD と同じ。印・範囲・カーソルの順に選ぶ）	Fiiladoaimmat (dego FD:s: mearkkat, de rádji, de kursor)
-ui	コピー: 行き先はドライブとフォルダの木から。ESC で止める	Kopiere: vállje ulbmila dihtora ja máppamuoras. ESC bisána
-ui	削除: y で確かめる。印・範囲をまとめて。フォルダは中身ごと	Slette: duođaš y:in. Mearkkat ja gaskkat oktanaga. Máppat main lea sisdoallu
+ui	ファイルの操作（FD と同じ。印・範囲・カーソルの順）	Fiiladoaimmat (dego FD:s: mearkkat, de rádji, de kursor)
+ui	コピー: 行き先は木から選ぶ。ESC で止める	Kopiere: vállje ulbmila dihtora ja máppamuoras. ESC bisána
+ui	削除: y で確かめる。印・範囲をまとめて	Slette: duođaš y:in. Mearkkat ja gaskkat oktanaga. Máppat main lea sisdoallu
 ui	フォルダを削除（中身ごと）	Deaddilat máppa (mas lea sisdoallu)
 ui	名前を変える（今の名前を直して Enter）	Ođasmahttit nama (rievdat nama, čále sisa)
 ui	属性: R 読み出し専用・H 隠し・S システム・A アーカイブ	Iešvuođat: R dušše lohkan, H čihkkojuvvon, S ortnet, A arkiiva
@@ -50,22 +50,19 @@ ui	画面（Alt+F。FD の F キーとぶつからない）	Čájáhus (Alt+F, i
 ui	FB（絵）/ テキスト面を出す・隠す	Čájet / čiehkat FB (gova) / teavstta
 ui	FB の表示ページ（0〜3）	FB čájehansiidu (0-3)
 ui	FB を 0 で消す / 明るさを 1/2 に（RGB555）	Buhtis FB 0 / beallemuttus dan čuovggas (RGB555)
-ui	USB のエンドポイントと LAN の状態	USB-loahppačuoggát ja LAN-dilli
+ui	USB のエンドポイントと LAN（U: 10 秒に 1 度）	USB-loahppačuoggát ja LAN-dilli
 ui	FB の表示ページを消す / 明るさを 1/2 に	Buhtis FB-čájáhussiiddu / geahpedit dan čuovgga
 ui	テキストの属性の見本	Teakstaattribuhta ovdamearkkat
 ui	モニタの EDID（起動時に読んだもの）	EDID čuovvu (lohket álggaheami áigge)
 ui	フォント ROM のライセンスとクレジット	Font ROM-liseanssat ja kredihtat
 ui	設定（表示の言語・IME・キーボードロケール）	Ásahusat (čájáhusgiella, IME ja tastaturbáiki)
-ui	時計（NTP で合わせた日本時間。s ですぐ合わせる）	Diibmu (Japána áigi mii lea biddjon NTP:in; s synkronisere dál)
+ui	時計（NTP で合わせた日本時間。s は 3 分に 1 度）	Diibmu (Japána áigi mii lea biddjon NTP:in; s synkronisere dál)
 ui	表計算（SGCALC）を開く	Rabas rehkenastinbláđđi (SGCALC)
 ui	S: ドライブのエラー検査（誤りがあれば直すか聞く）	Dárkkis S: ahte eai leat meattáhusat (jeara ovdal go divvu)
 ui	トラッカー（TRACKER）を開く	Rahpat TRACKER
-ui	再起動（確かめの窓が出る）	Ođđasit álggahit (jearrá vuos)
+ui	再起動（確かめの窓）。Ctrl+Alt+Del も同じ	Ođđasit álggahit (jearrá vuos) = Ctrl+Alt+Del
 ui	ADC のステレオ入力（GP40 / 41）を鳴らす	Čuojahit ADC-stereo sisaváldima (GP40 / 41)
 ui	VGM/VGZ を 96kHz/24bit WAV に書き出す	Viežže VGM/VGZ 96 kHz / 24-bit WAV:ii
-ui	このヘルプ	Dát veahkki
-ui	ページを替える	Rievdat siiddu
-ui	閉じる	Lahka
 ui	テキスト・16 進のビュアー（less 風）	Teaksta / heksa geahčči (dego unnit)
 ui	1 行	Okta linjá
 ui	1 ページ	Okta siidu
@@ -83,10 +80,9 @@ ui	IME の言語（日本語 / English / 한국어）	IME-giella (japánagiella 
 ui	ひらがな / カタカナで確定	Geatnegahtton hiragana / katakana
 ui	エディタのヘルプ	Redaktevrra veahkki
 ui	シェル	Garra
-ui	シェル（csh のサブセット。exit / Ctrl-D で戻る、help で一覧）	Shell (csh-oassejoavku. exit / Ctrl-D máhcahit, veahkki listtu gohččumiid)
+ui	シェル（csh の一部。exit / Ctrl-D で戻る、help で一覧）	Shell (csh-oassejoavku. exit / Ctrl-D máhcahit, veahkki listtu gohččumiid)
 ui	一覧と移動	Listu ja sirdin
 ui	ファイルの操作	Fiiladoaimmat
-ui	画面と機器	Čájáhus ja rusttegat
 ui	ビュアーとエディタ	Geahččit ja doaimmaheaddji
 ui	ヘルプ  %u / %u  %s	Veahket %u / %u %s
 ui	Left Right: ページを替える    F1 / ESC: 閉じる	Olgeš Gurut: rievdadit siiddu F1 / ESC: gidde
@@ -147,9 +143,9 @@ ui	10 EP表	10 EP:a
 ui	11 時計	11 Clock
 ui	12 表計	12 CALC
 ui	1 属性	1 Attr
-ui	2 情報	2 Dieđut
+ui	2Drv情報	2 Dieđut
 ui	3 移動	3 Sirdáš
-ui	5 作成	5 Mkdir
+ui	5 ﾌｫﾙﾀﾞ	5 Mkdir
 ui	6 シェル	6 Shell
 ui	8 編集	8 Edit
 ui	9 表示	9 Geahča
@@ -187,10 +183,10 @@ ui	新しいファイル	Ođđa fiila
 ui	時刻:	Áigi:
 ui	実行:	Viehkat:
 ui	名前:	Namma:
-ui	年-月-日 時:分  Enter 合わせる  ESC そのまま	JJJY-MM-DD hh:mm Čále set ESC keep
-ui	Enter 走らせる  ←→ 動かす  BS / Del 消す  ESC やめる	Čále joatkit <-> sirdit BS / Delet delet ESC cancel
-ui	Enter 変える  ←→ 動かす  BS / Del 消す  ESC やめる	Čále ođđasit nama <-> sirdit BS / Delete delet ESC cancel
-ui	Enter 作る  ←→ 動かす  BS / Del 消す  ESC やめる	Čále ráhkadit <-> sirdit BS / Heaittihit sihkkut ESC heaittihit
+ui	年-月-日 時:分  Enter 合わせる  ESC そのまま	JJJJ-MM-BB dd:mm  Enter bija  ESC guođe
+ui	Enter 走らせる  ←→ 動かす  BS / Del 消す  ESC やめる	Enter vuoje  ←→ sirdde  BS / Del sihko  ESC heaitte
+ui	Enter 変える  ←→ 動かす  BS / Del 消す  ESC やめる	Enter rievdat nama ←→ sirdde BS/Del sihko ESC heaitte
+ui	Enter 作る  ←→ 動かす  BS / Del 消す  ESC やめる	Enter ráhkat  ←→ sirdde  BS / Del sihko  ESC heaitte
 ui	消す	Duššadit
 ui	個の項目	tiŋggat
 ui	フォルダは中身ごと消します。よろしいですか？	Máppat sihkkojuvvojit sisdoaluin. Leat go sihkar?
@@ -344,7 +340,7 @@ ui	 組み立てています... %lu / %lu 行	Hukset... %lu / %lu rievtti
 ui	 書いています... %lu / %lu KB（FB は隠しています）	Čállin... %lu / %lu KB (FB lea čihkkojuvvon)
 ui	書けませんでした	Ii máhttán čállit
 ui	書庫の名前（印の付いた項目、無ければカーソルの項目を入れる）	Arkiiva namma (merkejuvvon áššit, dahje čujuhusa ášši jus eai leat)
-ui	Enter 圧縮する  ←→ 動かす  BS / Del 消す  ESC やめる	Čále komprimere ←→ sirdit BS / Slette slettet ESC heaittihit
+ui	Enter 圧縮する  ←→ 動かす  BS / Del 消す  ESC やめる	Enter komprimere  ←→ sirdde  BS/Del sihko  ESC heaitte
 ui	WAV 書き出し: %s 中止（%s）	WAV-eksporta: %s heaittihuvvon (%s)
 ui	WAV 書き出し: %s 失敗（%s）	WAV-eksporta: %s ii lihkostuvvan (%s)
 ui	WAV 書き出し: %s 合計 %s	WAV-eksporta: %s oktiibuot %s
@@ -487,11 +483,11 @@ msg.phrase	the sound is not open	jietna ii leat rabas
 msg.phrase	no such channel	ii dakkár kanála
 msg.phrase	the sequencer is busy	sekvenserejeaddji lea barggus
 msg.phrase	not enough PSRAM for the song	ii leat doarvái PSRAM lávlagii
-msg.phrase	not a standard MIDI file (no MThd)	ii leat dábálaš MIDI-fiila (ii MThd)
-msg.phrase	no tracks	ii leat luodda
-msg.phrase	a track is broken (MTrk)	luodda lea billašuvvan (MTrk)
-msg.phrase	SMPTE time division is not supported	SMPTE áigejuohku ii doarjjojuvvo
-msg.phrase	SMF format 2 is not supported (0 and 1 only)	SMF-formáhtta 2 ii doarjjojuvvo (dušše 0 ja 1)
+msg.phrase	not a standard MIDI file (no MThd)	ii leat standárda MIDI-fiila (MThd váilu)
+msg.phrase	no tracks	eai leat track
+msg.phrase	a track is broken (MTrk)	okta track lea billašuvvan (MTrk)
+msg.phrase	SMPTE time division is not supported	SMPTE áigejuogu ii dorjojuvvo
+msg.phrase	SMF format 2 is not supported (0 and 1 only)	SMF-hápmi 2 ii dorjojuvvo (dušše 0 ja 1)
 msg.phrase	not a Bulk-Only drive	ii dušše bulk-Only-dihtor
 msg.phrase	not an optical drive	ii optihkalaš fierpmádat
 msg.phrase	a system folder cannot be deleted or renamed	systemamáppa ii sáhte sihkkut dahje rievdadit nama
@@ -510,7 +506,7 @@ msg.phrase	cancelled	heaittihuvvon
 msg.phrase	could not mount	ii sáhttán bidjat
 msg.phrase	could not start a read	ii sáhttán álggahit lohkama
 msg.phrase	could not start a write	ii sáhttán álggahit čállima
-msg.phrase	is a directory	lea kataloga
+msg.phrase	is a directory	lea máhppa
 msg.phrase	that is a directory	dat lea kataloga
 msg.phrase	no clusters	eai leat klusterat
 msg.phrase	no room for the cluster list	ii leat sadji klusterlistui
@@ -547,7 +543,7 @@ msg.phrase	Not supported on this drive	Ii doarjjojuvvo dán dihtoris
 msg.phrase	Invalid path	Eahpevuoiggalaš geaidnu
 msg.phrase	Out of memory	Muittus eret
 msg.phrase	No such drive	Ii leat dakkár vuodjin
-msg.phrase	stopped	bissehuvvon
+msg.phrase	stopped	bisánan
 msg.phrase	cancelled (not enough free space)	heaittihuvvon (ii leat doarvái rabas sadji)
 msg.phrase	could not count the free space	ii nagodan lohkat friddja saji
 msg.phrase	the receiver cancelled	vuostáiváldi heaittihuvvui
@@ -622,279 +618,279 @@ msg.word	 rows	rievttit
 msg.word	 -- not supported yet (FAT / exFAT / NTFS only)	-- ii leat vuos doarjjan (dušše FAT / exFAT / NTFS)
 msg.word	 files	fiillat
 msg.word	 (	(
-msg.phrase	Untitled	Nammakeahttá
+msg.phrase	Untitled	Namahis
 msg.phrase	1 File	1 Fiila
-msg.phrase	2 Edit	2 Rievdat
+msg.phrase	2 Edit	2 Rievda
 msg.phrase	3 Graph	3 Gráfa
 msg.phrase	4 Sheet	4 arkiiva
 msg.phrase	5 Help	5 Veahkki
-msg.phrase	EMPTY	GUOROS
-msg.phrase	NUMBER	NUMMIR
+msg.phrase	EMPTY	GUORUS
+msg.phrase	NUMBER	LOHKU
 msg.phrase	TEXT	TEAKSTA
-msg.phrase	FORMULA	FORMÁLA
-msg.phrase	Type to enter, F2 to edit, F1 for help	Čále sisa, F2 rievdadit, F1 veahki várás
+msg.phrase	FORMULA	FORMELA
+msg.phrase	Type to enter, F2 to edit, F1 for help	Čális bidjat sisa, F2 rievdadit, F1 veahkki
 msg.phrase	5 CSV	5 CSV
 msg.phrase	6 ODS	6 ODS
-msg.phrase	[SHIFT]	[SIRDIN]
+msg.phrase	[SHIFT]	[SHIFT]
 msg.phrase	[CTRL]	[CTRL]
 msg.phrase	[ALT]	[ALT]
 msg.phrase	Ready	Gárvvis
 msg.phrase	SGCALC	SGCALC
-msg.phrase	Press any key	Deaddilat vaikko makkár boalu
-msg.phrase	Y = yes    N = no    Esc = cancel	Y = juo N = ii Esc = heaittihit
-msg.phrase	Enter = OK    Esc = cancel    Ctrl-U = clear	Enter = OK Esc = cancel Ctrl-U = clear
-msg.phrase	First row/column = labels; charts use the 640x480 CLUT8 FB.	Vuosttaš ráidu/kolonna = merkemat; diagrámmain geavahit 640x480 CLUT8 FB.
-msg.phrase	SGCALC - HELP	SGCALC - HELP
-msg.phrase	Press any key to return	Deaddilat vaikko makkár boalu vai beasat máhccat
-msg.phrase	Press any key to return.	Deaddilat makkárge čuoggá vai beasat máhccat.
+msg.phrase	Press any key	Deaddil makkár boalu ihkinassii
+msg.phrase	Y = yes    N = no    Esc = cancel	Y = juo    N = ii    Esc = gaskkalduhte
+msg.phrase	Enter = OK    Esc = cancel    Ctrl-U = clear	Enter = OK    Esc = gaskkalduhte    Ctrl-U = sihko
+msg.phrase	First row/column = labels; charts use the 640x480 CLUT8 FB.	Vuosttaš ráidu/ceaggi = namat; grafat geavahit 640x480 CLUT8 FB.
+msg.phrase	SGCALC - HELP	SGCALC - VEAHKKI
+msg.phrase	Press any key to return	Deaddil boalu máhccat
+msg.phrase	Press any key to return.	Deaddil boalu máhccat.
 msg.phrase	ABOUT SGCALC	SGCALC BIRRA
-msg.phrase	New	Ođas
-msg.phrase	Start a new sheet	Álggat ođđa arkiivva
-msg.phrase	Open...	Rabas...
-msg.phrase	Open an ODS, FODS or CSV file	Rahpat ODS-, FODS- dahje CSV-fiilla
-msg.phrase	Save	Seastit
-msg.phrase	Save the current file	Seagut dálá fiilla
-msg.phrase	Save As...	Seagut nu ahte...
-msg.phrase	Save with a new name or format	Seagut ođđa namain dahje hámis
-msg.phrase	Export CSV...	Viežže CSV...
-msg.phrase	Write a CSV copy	Čále CSV-kopiija
-msg.phrase	Export ODS...	Viežžet ODS...
-msg.phrase	Write a LibreOffice copy	Čále LibreOffice-kopiija
-msg.phrase	Quit	Loahpahit
-msg.phrase	Leave SGCALC	Heaittihit SGCALC
-msg.phrase	Clear	Čielggas
-msg.phrase	Clear the selected cells	Buhtte válljejuvvon seallaid
+msg.phrase	New	Ođđa
+msg.phrase	Start a new sheet	Álggat ođđa bláđi
+msg.phrase	Open...	Raba...
+msg.phrase	Open an ODS, FODS or CSV file	Raba ODS-, FODS- dahje CSV-fiilla
+msg.phrase	Save	Vurke
+msg.phrase	Save the current file	Vurke dálá fiilla
+msg.phrase	Save As...	Vurke nugo...
+msg.phrase	Save with a new name or format	Vurke ođđa namain dahje hámiin
+msg.phrase	Export CSV...	Olggosfievrrit CSV...
+msg.phrase	Write a CSV copy	Čále CSV-máŋgosa
+msg.phrase	Export ODS...	Olggosfievrrit ODS...
+msg.phrase	Write a LibreOffice copy	Čále LibreOffice-máŋgosa
+msg.phrase	Quit	Heaitte
+msg.phrase	Leave SGCALC	Guođe SGCALC
+msg.phrase	Clear	Sihko
+msg.phrase	Clear the selected cells	Sihko válljejuvvon seallaid
 msg.phrase	Copy	Kopiere
-msg.phrase	Copy the selection	Kopiere válljema
-msg.phrase	Paste	Liibmet
-msg.phrase	Paste at the cursor	Liibmet kursorii
-msg.phrase	Cut	Cuohpastat
-msg.phrase	Copy and clear the selection	Kopiere ja buhtis válljema
+msg.phrase	Copy the selection	Kopiere válljejumi
+msg.phrase	Paste	Liibme
+msg.phrase	Paste at the cursor	Liibme cursora sajis
+msg.phrase	Cut	Čuohpa
+msg.phrase	Copy and clear the selection	Kopiere ja sihko válljejumi
 msg.phrase	Select all	Vállje buot
 msg.phrase	Select all used cells	Vállje buot geavahuvvon seallaid
-msg.phrase	Text color...	Teavstta ivdni...
+msg.phrase	Text color...	Teavsttaivdni...
 msg.phrase	Choose the text colour	Vállje teavstta ivnni
 msg.phrase	Background...	Duogáš...
 msg.phrase	Choose the cell background	Vállje sealla duogáža
-msg.phrase	Line	Sáhcu
-msg.phrase	Draw a line graph from the selection	Čále linjágráfa válljejumis
-msg.phrase	Bar	Bára
-msg.phrase	Draw a bar graph from the selection	Čále čuoggáid válljema vuođul
-msg.phrase	Mixed	Seaguhuvvon
-msg.phrase	Bars for the first series, lines for the rest	Vuosttaš ráiddu čuoggát, muđui linnját
-msg.phrase	Pie	Pie
-msg.phrase	Draw a pie graph from the selection	Čále čuoggágráfa válljejumis
-msg.phrase	Range...	Skála...
-msg.phrase	Set the graph range explicitly	Bija gráfaráji čielgasit
-msg.phrase	Draw again	Govvet fas
-msg.phrase	Redraw the last graph	Ođđasit govve maŋimuš gráfa
-msg.phrase	Goto...	Váldde...
-msg.phrase	Jump to a cell (for example C12)	Váldde ovtta seallai (ovdamearkka dihte C12)
-msg.phrase	Column width...	Kolonna viidodat...
-msg.phrase	Change the selected columns' width	Rievdat válljejuvvon kolonnaid viidodaga
-msg.phrase	Row height...	Ráiddu govdodat...
-msg.phrase	Change the selected rows' height	Rievdat válljejuvvon rájiid govdodaga
-msg.phrase	Auto fit	Automáhtalaš heiveheapmi
-msg.phrase	Fit widths/heights to the contents (F7)	Heive viidodagaid/govdodagaid sisdollui (F7)
-msg.phrase	Recalculate	Ođđasit rehkenastit
-msg.phrase	Re-evaluate all formulas	Ođđasit árvvoštallat buot formlaid
-msg.phrase	Erase all	Slette buot
-msg.phrase	Clear the whole sheet	Buhtis olles arkiivva
-msg.phrase	Keys	Nuppit
-msg.phrase	Show the key guide	Čájet guovddáš rávvagiid
+msg.phrase	Line	Linnjá
+msg.phrase	Draw a line graph from the selection	Sárggo linnjágrafa válljejumis
+msg.phrase	Bar	Stolpa
+msg.phrase	Draw a bar graph from the selection	Sárggo stolpagrafa válljejumis
+msg.phrase	Mixed	Seagus
+msg.phrase	Bars for the first series, lines for the rest	Stolpat vuosttaš ráidui, linnját earáide
+msg.phrase	Pie	Gáhkku
+msg.phrase	Draw a pie graph from the selection	Sárggo gáhkkugrafa válljejumis
+msg.phrase	Range...	Guovlu...
+msg.phrase	Set the graph range explicitly	Bija grafa guovllu gieđain
+msg.phrase	Draw again	Sárggo fas
+msg.phrase	Redraw the last graph	Sárggo maŋimuš grafa fas
+msg.phrase	Goto...	Mana...
+msg.phrase	Jump to a cell (for example C12)	Mana seallii (ovdamearkka dihte C12)
+msg.phrase	Column width...	Ceakki govdodat...
+msg.phrase	Change the selected columns' width	Rievdat válljejuvvon ceakkiid govdodaga
+msg.phrase	Row height...	Ráiddu allodat...
+msg.phrase	Change the selected rows' height	Rievdat válljejuvvon ráidduid allodaga
+msg.phrase	Auto fit	Heivet
+msg.phrase	Fit widths/heights to the contents (F7)	Heivet govdodagaid/allodagaid sisdollui (F7)
+msg.phrase	Recalculate	Rehkenastte ođđasit
+msg.phrase	Re-evaluate all formulas	Rehkenastte buot formelaid ođđasit
+msg.phrase	Erase all	Sihko buot
+msg.phrase	Clear the whole sheet	Sihko olles bláđi
+msg.phrase	Keys	Boalut
+msg.phrase	Show the key guide	Čájet boaluid listtu
 msg.phrase	About	Birra
 msg.phrase	About SGCALC	SGCALC birra
 msg.phrase	File	Fiila
-msg.phrase	Edit	Divodit
-msg.phrase	Graph	Gráfa
-msg.phrase	Sheet	Láhkán
-msg.phrase	Help	Veahkehit
-msg.phrase	File: new, open, save, export, quit	Fiila: ođđa, rahpat, vurket, viežžat, heaittihit
-msg.phrase	Edit: clear, copy, paste, cut, select all	Rievdat: buhtistit, kopieret, liibmet, čuohppat, válljet buot
-msg.phrase	Graph: line, bar, mixed, pie (draws in the FB)	Gráfa: linjá, čuokkis, seaguhus, pie (govve FB:s)
-msg.phrase	Sheet: goto, column width, recalculate, erase	Arkiiva: goto, kolonna viidodat, ođđasit rehkenastit, sihkkut
-msg.phrase	Help: keys and about	Veahkki: nuppiid ja birra
+msg.phrase	Edit	Rievdat
+msg.phrase	Graph	Grafa
+msg.phrase	Sheet	Bláđđi
+msg.phrase	Help	Veahkki
+msg.phrase	File: new, open, save, export, quit	Fiila: ođđa, raba, vurke, olggosfievrrit, heaitte
+msg.phrase	Edit: clear, copy, paste, cut, select all	Rievdat: sihko, kopiere, liibme, čuohpa, vállje buot
+msg.phrase	Graph: line, bar, mixed, pie (draws in the FB)	Grafa: linnjá, stolpa, seagus, gáhkku (FB:s)
+msg.phrase	Sheet: goto, column width, recalculate, erase	Bláđđi: mana, ceakki govdodat, rehkenastte, sihko
+msg.phrase	Help: keys and about	Veahkki: boalut ja birra
 msg.phrase	Left/Right = menu    Up/Down = item    Enter = choose    Esc = cancel	Olgeš/Gurut = meny Badjel/Vuolábealde = ášši Enter = vállje Esc = heaittihit
-msg.phrase	Cancelled	Heaittihuvvon
-msg.phrase	The selection is too large or memory is low.	Válljejupmi lea menddo stuoris dahje muitu lea unnán.
+msg.phrase	Cancelled	Gaskkalduhttojuvvon
+msg.phrase	The selection is too large or memory is low.	Válljejupmi lea menddo stuoris dahje muitu ii doarvái.
 msg.phrase	the cell	sealla
 msg.phrase	the selection	válljen
-msg.phrase	Nothing to paste	Ii mihkkege maid liibmet
+msg.phrase	Nothing to paste	Ii mihkkege liibmet
 msg.phrase	Pasted	Liibmejuvvon
-msg.phrase	GO TO CELL	MANNAT CELLII
-msg.phrase	Cell reference (A1):	Seallačujuhus (A1):
-msg.phrase	Goto	Goto
-msg.phrase	COLUMN WIDTH	KOLONNA VIIDDU
-msg.phrase	Width in characters (4..30):	Viidodat mearkkain (4..30):
-msg.phrase	ROW HEIGHT	ROW HEIGHT
-msg.phrase	Height in text rows (1..8):	Govdodat teakstaráidduin (1..8):
-msg.phrase	Auto fit: the sheet is empty	Automáhtalaš heiveheapmi: arkiiva lea guoros
-msg.phrase	BACKGROUND COLOUR	DUOĐAŠVUOĐA Ivdni
-msg.phrase	TEXT COLOUR	TEAKSTA Ivdni
-msg.phrase	Arrows: choose    Enter: apply    Esc: cancel	Piillat: vállje Enter: geavahit Esc: heaittihit
-msg.phrase	Colour index (PC-98 16-colour palette)	Ivdneindeaksa (PC-98 16-ivdnepaleahtta)
+msg.phrase	GO TO CELL	MANA SEALLII
+msg.phrase	Cell reference (A1):	Sealla čujuhus (A1):
+msg.phrase	Goto	Mana
+msg.phrase	COLUMN WIDTH	CEAKKI GOVDODAT
+msg.phrase	Width in characters (4..30):	Govdodat mearkkain (4..30):
+msg.phrase	ROW HEIGHT	RÁIDDU ALLODAT
+msg.phrase	Height in text rows (1..8):	Allodat teakstalinnjáin (1..8):
+msg.phrase	Auto fit: the sheet is empty	Heivet: bláđđi lea guorus
+msg.phrase	BACKGROUND COLOUR	DUOGÁŠIVDNI
+msg.phrase	TEXT COLOUR	TEAVSTTAIVDNI
+msg.phrase	Arrows: choose    Enter: apply    Esc: cancel	Njuolat: vállje    Enter: geavat    Esc: gaskkalduhte
+msg.phrase	Colour index (PC-98 16-colour palette)	Ivdnenummar (PC-98 16 ivnni palehtta)
 msg.phrase	Aa 123	Aa 123
-msg.phrase	Enter = apply    Esc = cancel	Čále = geavahit Esc = heaittihit
+msg.phrase	Enter = apply    Esc = cancel	Enter = geavat    Esc = gaskkalduhte
 msg.phrase	Colour	Ivdni
 msg.phrase	Background	Duogáš
 msg.phrase	Text	Teaksta
-msg.phrase	GRAPH RANGE	GRAFA RANGE
-msg.phrase	Range (for example A1:C10):	Gaska (ovdamearkka dihte A1:C10):
-msg.phrase	Graph range	Gráfa rádji
-msg.phrase	Use a range such as A1:C10.	Geavat dakkár ráji go A1:C10.
-msg.phrase	Cannot draw the graph.	Ii sáhte govvet gráfa.
+msg.phrase	GRAPH RANGE	GRAFA GUOVLU
+msg.phrase	Range (for example A1:C10):	Guovlu (ovdamearkka dihte A1:C10):
+msg.phrase	Graph range	Grafa guovlu
+msg.phrase	Use a range such as A1:C10.	Čális guovllu nugo A1:C10.
+msg.phrase	Cannot draw the graph.	Grafa ii sáhte sárgojuvvot.
 msg.phrase	line	sáhcu
 msg.phrase	bar	bára
 msg.phrase	mixed	seaguhuvvon
 msg.phrase	pie	bihtá
-msg.phrase	Clear every cell in this sheet?	Buhtistit juohke sealla dán arkiivvain?
-msg.phrase	Sheet erased	Arkiiva lea sihkkojuvvon
-msg.phrase	Selected all used cells	Válljejuvvon buot geavahuvvon seallat
-msg.phrase	Recalculated	Ođđasit rehkenastojuvvon
+msg.phrase	Clear every cell in this sheet?	Sihkkut buot seallaid dán bláđis?
+msg.phrase	Sheet erased	Bláđđi sihkkojuvvui
+msg.phrase	Selected all used cells	Buot geavahuvvon seallat válljejuvvojedje
+msg.phrase	Recalculated	Rehkenastojuvvon ođđasit
 msg.phrase	Memory	Muitu
-msg.phrase	Not enough PSRAM for the spreadsheet.	Ii leat doarvái PSRAM rehkenastinbláđđái.
-msg.phrase	The sheet is empty.	Arkiiva lea guoros.
-msg.phrase	No numeric data in the selected range.	Válljejuvvon gaskkas eai leat numerála dieđut.
+msg.phrase	Not enough PSRAM for the spreadsheet.	Ii doarvái PSRAM rehkenastinbláđđái.
+msg.phrase	The sheet is empty.	Bláđđi lea guorus.
+msg.phrase	No numeric data in the selected range.	Válljejuvvon guovllus eai leat logut.
 msg.phrase	Other	Eará
-msg.phrase	No positive values for a pie chart	Ii leat positiiva árvu čuoggádiagrámmas
-msg.phrase	LINE	SÁHCU
-msg.phrase	BAR	BÁRA
-msg.phrase	MIXED	SEAGADUVVON
-msg.phrase	PIE	PIE
+msg.phrase	No positive values for a pie chart	Eai leat positiivvalaš árvvut gáhkkugrafii
+msg.phrase	LINE	LINNJÁ
+msg.phrase	BAR	STOLPA
+msg.phrase	MIXED	SEAGUS
+msg.phrase	PIE	GÁHKKU
 msg.phrase	S:/	S:/
 msg.phrase	Folder	Máhppa
-msg.phrase	SAVE AS	SEARVVU
-msg.phrase	OPEN FILE	RAHPA FIILA
+msg.phrase	SAVE AS	VURKE NUGO
+msg.phrase	OPEN FILE	RABA FIILLA
 msg.phrase	LibreOffice / CSV	LibreOffice / CSV
-msg.phrase	ODS  FODS  CSV	ODS FODS CSV
+msg.phrase	ODS  FODS  CSV	ODS  FODS  CSV
 msg.phrase	Name:	Namma:
-msg.phrase	(type a name, or choose below)	(čále nama, dahje vállje vuolábealde)
+msg.phrase	(type a name, or choose below)	(čális nama dahje vállje vuolábealde)
 msg.phrase	Name	Namma
 msg.phrase	Size	Sturrodat
-msg.phrase	Enter=save  Left=up  Right/Enter on [DIR]=open  Tab=drive  Esc=cancel	Sisdoallu=vurke Olgeš=ovddabeallái Oarjjabealde/Sisdoallu [DIR]=rahpat Tab=drive Esc=heaittihit
-msg.phrase	Enter=open  Left=up  Right/Enter on [DIR]=open  Tab=drive  Esc=cancel	Enter=rahpat Olgeš=bajás Gurut/Enter on [DIR]=rahpat Tab=drive Esc=heaittihit
-msg.phrase	Not enough memory.	Ii leat doarvái muitu.
+msg.phrase	Enter=save  Left=up  Right/Enter on [DIR]=open  Tab=drive  Esc=cancel	Enter=vurke  ←=bajás  →/Enter [DIR] alde=raba  Tab=stašuvdna  Esc=gaskk.
+msg.phrase	Enter=open  Left=up  Right/Enter on [DIR]=open  Tab=drive  Esc=cancel	Enter=raba  ←=bajás  →/Enter [DIR] alde=raba  Tab=stašuvdna  Esc=gaskk.
+msg.phrase	Not enough memory.	Muitu ii doarvái.
 msg.phrase	Overwrite	Čále badjel
-msg.phrase	Open	Rabas
-msg.phrase	The file is too large (limit 8 MB).	Fiila lea menddo stuoris (rádji 8 MB).
-msg.phrase	Not enough memory to read the file.	Ii leat doarvái muitu lohkat fiilla.
-msg.phrase	Bad ZIP/ODS data.	Heajos ZIP/ODS-dieđut.
+msg.phrase	Open	Raba
+msg.phrase	The file is too large (limit 8 MB).	Fiila lea menddo stuoris (ráddji 8 MB).
+msg.phrase	Not enough memory to read the file.	Muitu ii doarvái fiilla lohkat.
+msg.phrase	Bad ZIP/ODS data.	Billašuvvan ZIP/ODS-dieđut.
 msg.phrase	CRC error in the ODS file.	CRC-meattáhus ODS-fiillas.
-msg.phrase	Unsupported or damaged file.	Doarjjakeahtes dahje vahágahtton fiila.
+msg.phrase	Unsupported or damaged file.	Fiila ii dorjojuvvo dahje lea billašuvvan.
 msg.phrase	Saved	Seailluhuvvon
 msg.phrase	Exported	Viežžan
-msg.phrase	Unsaved changes	Vurkejuvvon rievdadusat
-msg.phrase	Save the current sheet before continuing?	Seagut go dálá arkiivva ovdal go joatkkát?
-msg.phrase	New sheet	Ođđa arkiiva
+msg.phrase	Unsaved changes	Vurkekeahtes rievdadusat
+msg.phrase	Save the current sheet before continuing?	Vurketgo dálá bláđi ovdal go joatkkát?
+msg.phrase	New sheet	Ođđa bláđđi
 msg.phrase	SGTRK	SGTRK
-msg.phrase	UNTITLED	NAMMÁLAŠ
+msg.phrase	UNTITLED	UNTITLED
 msg.phrase	song is too large	lávlla lea menddo stuoris
-msg.phrase	empty file	guoros fiila
+msg.phrase	empty file	guorus fiila
 msg.phrase	not an SGT file	ii leat SGT-fiila
-msg.phrase	bad BPM	heajos BPM
-msg.phrase	bad speed	heajos leahttu
-msg.phrase	bad title length	heajos nammaguhkkodat
-msg.phrase	truncated title	geahpeduvvon namma
-msg.phrase	bad character in title	heajos dovdomearka nammagirjjis
-msg.phrase	truncated order	geahpeduvvon ortnet
-msg.phrase	bad order length	heajos diŋgojumi guhkkodat
-msg.phrase	bad pattern number in order	heajos mállenummir ortnegis
-msg.phrase	truncated pattern list	geahpeduvvon mállelistu
-msg.phrase	bad pattern count	heajos mállelohku
-msg.phrase	bad pattern index	heajos málleindeaksa
-msg.phrase	duplicate pattern	duppal málle
-msg.phrase	truncated pattern data	geahpeduvvon málledieđut
-msg.phrase	invalid pattern data	boastut málledieđut
-msg.phrase	trailing data in file	maŋimuš dieđut fiillas
-msg.phrase	order refers to a missing pattern	ortnet čujuha váilon ortnegii
+msg.phrase	bad BPM	boasttu BPM
+msg.phrase	bad speed	boasttu leaktu
+msg.phrase	bad title length	boasttu namma-guhkkodat
+msg.phrase	truncated title	oaniduvvon namma
+msg.phrase	bad character in title	gustohis mearka namas
+msg.phrase	truncated order	oaniduvvon ortnet
+msg.phrase	bad order length	boasttu ortnet-guhkkodat
+msg.phrase	bad pattern number in order	boasttu pattern-nummar ortnegis
+msg.phrase	truncated pattern list	oaniduvvon pattern-listu
+msg.phrase	bad pattern count	boasttu pattern-lohku
+msg.phrase	bad pattern index	boasttu pattern-index
+msg.phrase	duplicate pattern	guoktegeardásaš pattern
+msg.phrase	truncated pattern data	oaniduvvon pattern-dieđut
+msg.phrase	invalid pattern data	gustohis pattern-dieđut
+msg.phrase	trailing data in file	liigedieđut fiilla loahpas
+msg.phrase	order refers to a missing pattern	ortnet čujuha pattern:ii mii váilu
 msg.phrase	A:/	A:/
-msg.phrase	(untitled)	(nammakeahttá)
-msg.phrase	Ready. Press F1 for help.	Gárvvis. Deaddilat F1 vai oaččut veahki.
-msg.phrase	Follow OFF	Čuovo OFF
-msg.phrase	Nothing to undo	Ii mihkkege maid galgá nuppástuhttit
-msg.phrase	Undo	Heaittihit
-msg.phrase	Note OFF	Fuomáš OFF
-msg.phrase	Set an effect letter first	Bija vuos váikkuhusbustáva
-msg.phrase	Effect cleared	Váikkuhus buhtistuvvui
-msg.phrase	Parameter cleared	Paramehter lea buhtistuvvon
-msg.phrase	Note cleared	Fuomáš buhttejuvvon
-msg.phrase	Instrument cleared	Instrumeanta lea buhtistuvvon
-msg.phrase	Volume cleared	Jietna lea buhtistuvvon
-msg.phrase	Order list is full	Diŋgonlistu lea dievva
-msg.phrase	Order inserted	Diŋgojupmi lea biddjon
-msg.phrase	Cannot delete the last order	Ii sáhte sihkkut maŋimuš diŋgojumi
-msg.phrase	Order deleted	Diŋgojupmi lea sihkkojuvvon
-msg.phrase	Playing song	Čuojahit lávlaga
+msg.phrase	(untitled)	(namahis)
+msg.phrase	Ready. Press F1 for help.	Gárvvis. Deaddil F1 veahkki várás.
+msg.phrase	Follow OFF	Čuovo ERET
+msg.phrase	Nothing to undo	Ii mihkkege máhcahit
+msg.phrase	Undo	Máhcahuvvon
+msg.phrase	Note OFF	Note off
+msg.phrase	Set an effect letter first	Čális vuos effeavtta bustávva
+msg.phrase	Effect cleared	Effeakta sihkkojuvvui
+msg.phrase	Parameter cleared	Parameter sihkkojuvvui
+msg.phrase	Note cleared	Nuohtta sihkkojuvvui
+msg.phrase	Instrument cleared	Instrumeanta sihkkojuvvui
+msg.phrase	Volume cleared	Jietnadássi sihkkojuvvui
+msg.phrase	Order list is full	Ortnetlistu lea dievva
+msg.phrase	Order inserted	Sadji lasihuvvui
+msg.phrase	Cannot delete the last order	Maŋimuš saji ii sáhte sihkkut
+msg.phrase	Order deleted	Sadji sihkkojuvvui
+msg.phrase	Playing song	Čuojaha lávlaga
 msg.phrase	Stopped	Bisánan
 msg.phrase	New song	Ođđa lávlla
-msg.phrase	Discard unsaved changes and start a new song? (Y/N)	Heaittihit vurkejuvvon rievdadusaid ja álggahit ođđa lávlaga? (J/N)
-msg.phrase	Discard unsaved changes and open a song? (Y/N)	Heaittihit vurkejuvvon rievdadusaid ja rahpat lávlaga? (J/N)
-msg.phrase	Discard unsaved changes and quit? (Y/N)	Heaittihit vurkejuvvon rievdadusaid ja heaitit? (J/N)
-msg.phrase	Song settings updated	Lávlaga njuolggadusat leat ođasmahttojuvvon
-msg.phrase	Filename is empty	Fiilanamma lea guoros
-msg.phrase	Save cancelled	Seailluheapmi heaittihuvvon
-msg.phrase	Open cancelled	Rahpan heaittihuvvon
-msg.phrase	Edit ON	Rievdat ON
-msg.phrase	Edit OFF	Edit OFF
-msg.phrase	Follow ON	Čuovo ON
-msg.phrase	Edit is OFF. Press F8 to edit.	Rievdadus lea OFF. Deaddilat F8 vai beasat rievdadit.
+msg.phrase	Discard unsaved changes and start a new song? (Y/N)	Hilggutgo vurkekeahtes rievdadusaid ja álggahit ođđa lávlaga? (Y/N)
+msg.phrase	Discard unsaved changes and open a song? (Y/N)	Hilggutgo vurkekeahtes rievdadusaid ja rahpat lávlaga? (Y/N)
+msg.phrase	Discard unsaved changes and quit? (Y/N)	Hilggutgo vurkekeahtes rievdadusaid ja heaitit? (Y/N)
+msg.phrase	Song settings updated	Lávlaga heivehusat rievdaduvvo
+msg.phrase	Filename is empty	Fiilanamma lea guorus
+msg.phrase	Save cancelled	Vurken gaskkalduhttojuvvui
+msg.phrase	Open cancelled	Rahpan gaskkalduhttojuvvui
+msg.phrase	Edit ON	Rievdadeapmi ALDE
+msg.phrase	Edit OFF	Rievdadeapmi ERET
+msg.phrase	Follow ON	Čuovo ALDE
+msg.phrase	Edit is OFF. Press F8 to edit.	Rievdadeapmi lea eret. Deaddil F8.
 msg.phrase	I/O error	I/O-meattáhus
 msg.phrase	file is too large	fiila lea menddo stuoris
-msg.phrase	truncated file	geahpeduvvon fiila
+msg.phrase	truncated file	oaniduvvon fiila
 msg.phrase	SINE PAD	SINE PAD
-msg.phrase	TRIANGLE	GOLMMAČÁLLÁ
-msg.phrase	SAW LEAD	SÁHKA ČÁLLÁN
-msg.phrase	SQUARE	NJEALJEHAS
-msg.phrase	PULSE 25	PULSA 25
-msg.phrase	ORGAN	ORGÁN
+msg.phrase	TRIANGLE	TRIANGLE
+msg.phrase	SAW LEAD	SAW LEAD
+msg.phrase	SQUARE	SQUARE
+msg.phrase	PULSE 25	PULSE 25
+msg.phrase	ORGAN	ORGAN
 msg.phrase	BASS	BASS
 msg.phrase	BELL	BELL
-msg.phrase	NOISE	JIETNA
+msg.phrase	NOISE	NOISE
 msg.phrase	SINE	SINE
-msg.phrase	SAW	OINNII
-msg.phrase	OFF	ERET
+msg.phrase	SAW	SAW
+msg.phrase	OFF	OFF
 msg.phrase	ON	ON
-msg.phrase	ROW	GURGADAS
-msg.phrase	CHAN LEVEL	CHAN DÁSSI
-msg.phrase	F1 HELP F2 SONG	F1 VEAHKI F2 LÁVLA
-msg.phrase	F3 INS  F4 SAVE	F3 INS F4 SAVE
+msg.phrase	ROW	ROW
+msg.phrase	CHAN LEVEL	CHAN LEVEL
+msg.phrase	F1 HELP F2 SONG	F1 HELP F2 SONG
+msg.phrase	F3 INS  F4 SAVE	F3 INS  F4 SAVE
 msg.phrase	F5 PLAY F6 PAT	F5 PLAY F6 PAT
 msg.phrase	F7 STOP F8 EDIT	F7 STOP F8 EDIT
-msg.phrase	F9/F10 OCTAVE	F9/F10 OKTAVA
-msg.phrase	F11 FOLLOW	F11 ČUOVVUT
-msg.phrase	F12 QUIT	F12 HEAITTIT
+msg.phrase	F9/F10 OCTAVE	F9/F10 OCTAVE
+msg.phrase	F11 FOLLOW	F11 FOLLOW
+msg.phrase	F12 QUIT	F12 QUIT
 msg.phrase	SPACE PLAY/STOP	SPACE PLAY/STOP
 msg.phrase	CTRL-S SAVE	CTRL-S SAVE
 msg.phrase	CTRL-O OPEN	CTRL-O OPEN
-msg.phrase	C-N NEW C-Z UNDO	C-N OĐĐA C-Z HEAITTIT
+msg.phrase	C-N NEW C-Z UNDO	C-N NEW C-Z UNDO
 msg.phrase	C-C STOP	C-C STOP
-msg.phrase	#TRANSPORT AND FILES	#JOĐIHAN JA FIILAT
-msg.phrase	#ORDER LIST	#DIŠŠELISTTU
-msg.phrase	#DISPLAY	#BIDJAT OAIDNINLÁHKAI
-msg.phrase	#EDITING	#REDIGEREJUVVON
-msg.phrase	#EFFECTS (parameter is hexadecimal)	#EFFECTS (paramehter lea heksadesimala)
-msg.phrase	LEFT/RIGHT PAGE   ENTER OR F1 CLOSE	OLGEš/GUORET SIIDU ČÁLLE DAHJE F1 ČÁLLE
-msg.phrase	SONG SETTINGS	LÁVLA ČÁLLOSAT
-msg.phrase	UP/DOWN SELECT   LEFT/RIGHT ADJUST   ENTER/F2 CLOSE	OVDAL/VUOLGGA VÁLLJE OLGEš/GUORAT HEIVEHA ENTER/F2 CLOSE
-msg.phrase	Type to edit the title. Backspace deletes the last character.	Čále rievdadit čállosa. Backspace sihkku maŋimuš mearkka.
-msg.phrase	BPM range 32..255. Speed range 1..31.	BPM-rádji 32..255. Leahttomearri 1..31.
-msg.phrase	Pattern effects can also change speed and BPM while playing.	Málleváikkuhusat sáhttet maiddái rievdadit jođánisvuođa ja BPM go speallat.
-msg.phrase	INSTRUMENTS	INSTRUMENTAT
-msg.phrase	UP/DOWN SELECT   SPACE PREVIEW   ENTER USE   F3 CLOSE	UP/DOWN VÁLLJE RUOVTTU OVDAČÁLLÁN ČÁLLE GEAVVA F3 ČÁLLE
-msg.phrase	All four channels use wavetable synthesis.	Buot njeallje kanála geavahit buollántávvala syntehta.
-msg.phrase	Preview plays C-4 on the track under the edit cursor.	Ovdagovva čuojaha C-4 bihtás rievdadusčujuhusa vuolde.
-msg.phrase	SAVE SONG AS	VÁLDDE LÁVLA NU GO
-msg.phrase	ENTER SAVE   F4 OR CTRL-C CANCEL	ČÁLE SAVE F4 DAHE CTRL-C CANCEL
-msg.phrase	Directory:	Kataloga:
-msg.phrase	File name:	Fiilla namma:
-msg.phrase	The extension .SGT is added automatically.	Lasáhus .SGT lasihuvvo automáhtalaččat.
-msg.phrase	An existing file can be overwritten.	Dálá fiila sáhttá čállojuvvot badjel.
-msg.phrase	OPEN SONG	RABAS LÁVLA
-msg.phrase	ENTER OPEN  BS PARENT  CTRL-O/CTRL-C CANCEL	ČÁLE OPEN BS PARENT CTRL-O/CTRL-C CANCEL
-msg.phrase	(no .SGT files in this folder)	(ii leat .SGT-fiila dán máppas)
-msg.phrase	CONFIRM	NANNET
-msg.phrase	Y = YES   N / ENTER / CTRL-C = NO	Y = JUO N / ČÁLLE / CTRL-C = II
-msg.phrase	Y = yes        N = no	Y = juo N = ii
+msg.phrase	#TRANSPORT AND FILES	#ČUOJAHEAPMI JA FIILLAT
+msg.phrase	#ORDER LIST	#ORTNETLISTU
+msg.phrase	#DISPLAY	#ČÁJEHEAPMI
+msg.phrase	#EDITING	#RIEVDADEAPMI
+msg.phrase	#EFFECTS (parameter is hexadecimal)	#EFFEAVTTAT (parameter lea heksadesimála)
+msg.phrase	LEFT/RIGHT PAGE   ENTER OR F1 CLOSE	LEFT/RIGHT PAGE   ENTER OR F1 CLOSE
+msg.phrase	SONG SETTINGS	LÁVLAGA HEIVEHUSAT
+msg.phrase	UP/DOWN SELECT   LEFT/RIGHT ADJUST   ENTER/F2 CLOSE	UP/DOWN SELECT   LEFT/RIGHT ADJUST   ENTER/F2 CLOSE
+msg.phrase	Type to edit the title. Backspace deletes the last character.	Čális rievdadit nama. Backspace sihkku maŋimuš mearkka.
+msg.phrase	BPM range 32..255. Speed range 1..31.	BPM 32 rájes 255 rádjai. Leaktu 1 rájes 31 rádjai.
+msg.phrase	Pattern effects can also change speed and BPM while playing.	Pattern effeavttat sáhttet maiddái rievdadit leavttu ja BPM čuojaheami áigge.
+msg.phrase	INSTRUMENTS	INSTRUMEANTTAT
+msg.phrase	UP/DOWN SELECT   SPACE PREVIEW   ENTER USE   F3 CLOSE	UP/DOWN SELECT   SPACE PREVIEW   ENTER USE   F3 CLOSE
+msg.phrase	All four channels use wavetable synthesis.	Buot njeallje kanála geavahit wavetable-syntesa.
+msg.phrase	Preview plays C-4 on the track under the edit cursor.	Guldaleapmi čuojaha C-4 track:s cursora vuolde.
+msg.phrase	SAVE SONG AS	VURKE LÁVLAGA NUGO
+msg.phrase	ENTER SAVE   F4 OR CTRL-C CANCEL	ENTER SAVE   F4 OR CTRL-C CANCEL
+msg.phrase	Directory:	Máhppa:
+msg.phrase	File name:	Fiilanamma:
+msg.phrase	The extension .SGT is added automatically.	Viiddádus .SGT lasihuvvo automáhtalaččat.
+msg.phrase	An existing file can be overwritten.	Fiila mii juo gávdno sáhttá čállojuvvot badjel.
+msg.phrase	OPEN SONG	RABA LÁVLAGA
+msg.phrase	ENTER OPEN  BS PARENT  CTRL-O/CTRL-C CANCEL	ENTER OPEN  BS PARENT  CTRL-O/CTRL-C CANCEL
+msg.phrase	(no .SGT files in this folder)	(eai leat .SGT-fiillat dán máhpas)
+msg.phrase	CONFIRM	DOHKKEHE
+msg.phrase	Y = YES   N / ENTER / CTRL-C = NO	Y = YES   N / ENTER / CTRL-C = NO
+msg.phrase	Y = yes        N = no	Y = juo        N = ii
 msg.phrase	C-	C-
 msg.phrase	C#	C#
 msg.phrase	D-	D-
@@ -910,196 +906,196 @@ msg.phrase	B-	B-
 msg.phrase	A:/dir/name	A:/dir/name
 msg.phrase	MThd	MThd
 msg.phrase	broken MThd	billašuvvan MThd
-msg.phrase	MIDI IMPORT	MIDI IMPORT
+msg.phrase	MIDI IMPORT	MIDI SISAFIEVRRIDEAPMI
 msg.phrase	MTrk	MTrk
-msg.phrase	broken delta time	billašuvvan deltaáigi
-msg.phrase	broken running status	billašuvvan jođus
-msg.phrase	broken meta event	billašuvvan metadáhpáhus
-msg.phrase	broken sysex event	billašuvvan sysex dáhpáhus
-msg.phrase	broken channel event	billašuvvan kanála dáhpáhus
-msg.phrase	SMF output is too small	SMF-boađus lea menddo unni
-msg.phrase	SMF output is too large	SMF-boađus lea menddo stuoris
+msg.phrase	broken delta time	billašuvvan delta time
+msg.phrase	broken running status	billašuvvan running status
+msg.phrase	broken meta event	billašuvvan meta event
+msg.phrase	broken sysex event	billašuvvan SysEx event
+msg.phrase	broken channel event	billašuvvan channel event
+msg.phrase	SMF output is too small	SMF-olggosbuktta lea menddo unni
+msg.phrase	SMF output is too large	SMF-olggosbuktta lea menddo stuoris
 msg.phrase	the song is too long for SMF	lávlla lea menddo guhkki SMF:ii
 msg.phrase	TRK1	TRK1
 msg.phrase	%s%d	%s%d
 msg.phrase	%s%d:%s%d	%s%d:%s%d
 msg.phrase	%s	%s
 msg.phrase	%.40s%s	%.40s%s
-msg.phrase	  [%s]   %s	[%s] %s
-msg.phrase	EDIT  	DIVODIT
-msg.phrase	READY 	GÁRVVIS
-msg.phrase	%4d 	%4d
-msg.phrase	%s Sum %.7g N %ld%s	%s Sum %.7g N %ld%s
-msg.phrase	ARROWS      move the cell cursor\n	PILLAT sirdet seallačujuhusa
-msg.phrase	SHIFT+ARR   extend the selection (for graphs/copy)\n	SHIFT+ARR viiddidit válljema (gráfaid/kopiijaid várás)
-msg.phrase	ENTER       edit the cell; in edit, commit and move down\n	ENTER rievdadit sealla; rievdadeamis, čatnat ja sirdit vuolábeallái
-msg.phrase	TAB         next cell    SHIFT+TAB  previous cell\n	TAB boahtte sealla SHIFT+TAB ovddit sealla
-msg.phrase	DELETE      clear the selected cell(s)    ESC  cancel\n	DELETE buhtistit válljejuvvon sealla(id) ESC cancel
-msg.phrase	PGUP/PGDN   move one screen    HOME/END  first/last column\n	PGUP/PGDN sirdá ovtta čájáhusa HOME/END vuosttaš/maŋimuš kolonna
-msg.phrase	CTRL+HOME   A1    CTRL+END  last used cell\n	CTRL+HOME A1 CTRL+END maŋimuš geavahuvvon sealla
-msg.phrase	F1 help  F2 edit  F3 copy  F4 paste  F5 goto  F6 colour\n	F1 veahket F2 rievdadit F3 kopiere F4 liibmet F5 goto F6 ivdni
-msg.phrase	F7 auto-fit  F8 background  F9 recalc  F10 graph  F11 save  F12 menu\n	F7 automáhtalaš heiveheapmi F8 duogáš F9 fas rehkenastit F10 gráfa F11 vurket F12-menu
-msg.phrase	SHIFT+F1 about  SHIFT+F2 row height  SHIFT+F3 column width\n	SHIFT+F1 birra SHIFT+F2 rievtti govdodat SHIFT+F3 kolonna viidodat
-msg.phrase	SHIFT+F4 select all  SHIFT+F10 graph range  SHIFT+F11 save as\n	SHIFT+F4 vállje buot SHIFT+F10 gráfaráji SHIFT+F11 vurke nu ahte
-msg.phrase	CTRL+F1 new  CTRL+F2 open  CTRL+F3 save  CTRL+F4 save as\n	CTRL+F1 ođđa CTRL+F2 rahpat CTRL+F3 vurket CTRL+F4 vurket nugo
-msg.phrase	CTRL+F5 export CSV  CTRL+F6 export ODS  ALT+F12 quit\n	CTRL+F5 export CSV CTRL+F6 export ODS ALT+F12 quit
-msg.phrase	Bottom 2 lines: function keys; [SHIFT]/[CTRL]/[ALT] like the filer\n	Vuolámus 2 linjá: funkšuvdnačuoggát; [SHIFT]/[CTRL]/[ALT] dego fiilla
-msg.phrase	CTRL+S save  CTRL+O open  CTRL+N new  CTRL+C/V/X copy/paste/cut\n	CTRL+S vurket CTRL+O rahpat CTRL+N ođđa CTRL+C/V/X kopiere/liibmet/čuohppat
-msg.phrase	CTRL+G goto    /  open the menu (1 File, 2 Edit, ...)\n	CTRL+G goto / rahpat meny (1 Fiila, 2 Edit, ...)
-msg.phrase	Built-in functions: SUM AVERAGE MIN MAX COUNT COUNTA\n	Sisáibmofunkšuvnnat: SUM AVERAGE MIN MAX COUNT COUNTA
-msg.phrase	PRODUCT ABS SQRT INT ROUND MOD POWER IF AND OR NOT\n	PRODUKTA ABS SQRT INT ROUND MOD POWER IF AND OR NOT
-msg.phrase	IFERROR LEN LEFT RIGHT MID UPPER LOWER TRIM CONCATENATE PI\n	IFERROR LEN LEFT RIGHT MID UPPER LOWER TRIM CONCATENATE PI
-msg.phrase	Cell refs: A1, $A$1, A1:B10.  Formulas begin with '='.\n	Cell refers: A1, $A$1, A1:B10.  Formálat álget '='.
-msg.phrase	Files: .ods (LibreOffice), .fods (flat XML), .csv\n	Fiillat: .ods (LibreOffice), .fods (flat XML), .csv
-msg.phrase	ODS/FODS keeps formulas, widths, heights and colours.\n	ODS/FODS vurke formulaid, viidodagaid, govdodagaid ja ivnniid.
-msg.phrase	CSV keeps values and formulas (no colours/heights).\n	CSV vurke árvvuid ja formlaid (ii leat ivdni/govdodat).
-msg.phrase	Graph: select a range, press F10, and choose Line/Bar/Mixed/Pie.\n	Grafa: vállje gaskka, deaddilat F10 ja vállje Line/Bar/Mixed/Pie.
-msg.phrase	SGCALC for sgnano\n	SGCALC sgnano várás
+msg.phrase	  [%s]   %s	  [%s]   %s
+msg.phrase	EDIT  	RIEVD
+msg.phrase	READY 	GÁRV.
+msg.phrase	%4d 	%4d 
+msg.phrase	%s Sum %.7g N %ld%s	%s Submi %.7g N %ld%s
+msg.phrase	ARROWS      move the cell cursor\n	NJUOLAT     sirdde sealla cursora\n
+msg.phrase	SHIFT+ARR   extend the selection (for graphs/copy)\n	SHIFT+NJUO  viiddit válljejumi (grafaide/kopieremii)\n
+msg.phrase	ENTER       edit the cell; in edit, commit and move down\n	ENTER       rievdat sealla; rievdadettiin, dohkket ja vuolás\n
+msg.phrase	TAB         next cell    SHIFT+TAB  previous cell\n	TAB         boahtte sealla    SHIFT+TAB  ovddit sealla\n
+msg.phrase	DELETE      clear the selected cell(s)    ESC  cancel\n	DELETE      sihko válljejuvvon seallaid    ESC  gaskkalduhte\n
+msg.phrase	PGUP/PGDN   move one screen    HOME/END  first/last column\n	PGUP/PGDN   okta šearbma    HOME/END  vuosttaš/maŋimuš ceaggi\n
+msg.phrase	CTRL+HOME   A1    CTRL+END  last used cell\n	CTRL+HOME   A1    CTRL+END  maŋimuš geavahuvvon sealla\n
+msg.phrase	F1 help  F2 edit  F3 copy  F4 paste  F5 goto  F6 colour\n	F1 veahkki  F2 rievdat  F3 kopiere  F4 liibme  F5 mana  F6 ivdni\n
+msg.phrase	F7 auto-fit  F8 background  F9 recalc  F10 graph  F11 save  F12 menu\n	F7 heivet  F8 duogáš  F9 rehkenastte  F10 grafa  F11 vurke  F12 fállu\n
+msg.phrase	SHIFT+F1 about  SHIFT+F2 row height  SHIFT+F3 column width\n	SHIFT+F1 birra  SHIFT+F2 ráiddu allodat  SHIFT+F3 ceakki govdodat\n
+msg.phrase	SHIFT+F4 select all  SHIFT+F10 graph range  SHIFT+F11 save as\n	SHIFT+F4 vállje buot  SHIFT+F10 grafa guovlu  SHIFT+F11 vurke nugo\n
+msg.phrase	CTRL+F1 new  CTRL+F2 open  CTRL+F3 save  CTRL+F4 save as\n	CTRL+F1 ođđa  CTRL+F2 raba  CTRL+F3 vurke  CTRL+F4 vurke nugo\n
+msg.phrase	CTRL+F5 export CSV  CTRL+F6 export ODS  ALT+F12 quit\n	CTRL+F5 olggosfievrrit CSV  CTRL+F6 olggosfievrrit ODS  ALT+F12 heaitte\n
+msg.phrase	Bottom 2 lines: function keys; [SHIFT]/[CTRL]/[ALT] like the filer\n	Vuolimus 2 linnjá: doaibmaboalut; [SHIFT]/[CTRL]/[ALT] nugo filer:s\n
+msg.phrase	CTRL+S save  CTRL+O open  CTRL+N new  CTRL+C/V/X copy/paste/cut\n	CTRL+S vurke  CTRL+O raba  CTRL+N ođđa  CTRL+C/V/X kopiere/liibme/čuohpa\n
+msg.phrase	CTRL+G goto    /  open the menu (1 File, 2 Edit, ...)\n	CTRL+G mana    /  raba fálu (1 Fiila, 2 Rievdat, ...)\n
+msg.phrase	Built-in functions: SUM AVERAGE MIN MAX COUNT COUNTA\n	Sisahuksejuvvon doaimmat: SUM AVERAGE MIN MAX COUNT COUNTA\n
+msg.phrase	PRODUCT ABS SQRT INT ROUND MOD POWER IF AND OR NOT\n	PRODUCT ABS SQRT INT ROUND MOD POWER IF AND OR NOT\n
+msg.phrase	IFERROR LEN LEFT RIGHT MID UPPER LOWER TRIM CONCATENATE PI\n	IFERROR LEN LEFT RIGHT MID UPPER LOWER TRIM CONCATENATE PI\n
+msg.phrase	Cell refs: A1, $A$1, A1:B10.  Formulas begin with '='.\n	Sealla čujuhusat: A1, $A$1, A1:B10.  Formelat álget '=' mearkkain.\n
+msg.phrase	Files: .ods (LibreOffice), .fods (flat XML), .csv\n	Fiillat: .ods (LibreOffice), .fods (njuolggo XML), .csv\n
+msg.phrase	ODS/FODS keeps formulas, widths, heights and colours.\n	ODS/FODS seailluha formelaid, govdodagaid, allodagaid ja ivnniid.\n
+msg.phrase	CSV keeps values and formulas (no colours/heights).\n	CSV seailluha dušše árvvuid ja formelaid (ii ivnniid/allodagaid).\n
+msg.phrase	Graph: select a range, press F10, and choose Line/Bar/Mixed/Pie.\n	Grafa: vállje guovllu, F10, dasto Linnjá/Stolpa/Seagus/Gáhkku.\n
+msg.phrase	SGCALC for sgnano\n	SGCALC for sgnano\n
 msg.phrase	Version 	Veršuvdna
-msg.phrase	A Lotus 1-2-3 style spreadsheet as an SGX program.\n\n	Lotus 1-2-3-stiila rehkenastinbláđđi SGX-prográmman.
+msg.phrase	A Lotus 1-2-3 style spreadsheet as an SGX program.\n\n	Rehkenastinbláđđi Lotus 1-2-3 vuogi mielde, SGX-prográmman.\n\n
 msg.phrase	SGX ABI %u.%u\n	SGX ABI %u.%u
-msg.phrase	Screen mode 3: text + CLUT8 FB (lowres disabled)\n	Čájáhusmodealla 3: teaksta + CLUT8 FB (allačuoggát leat deaktiverejuvvon)
+msg.phrase	Screen mode 3: text + CLUT8 FB (lowres disabled)\n	Šearbmamodus 3: teaksta + CLUT8 FB (lowres-dásit haga)\n
 msg.phrase	Sheet: %d rows x %d columns\n	Arkiiva: %d rievtti x %d kolonna
-msg.phrase	Formats: .ods / .fods (LibreOffice), .csv\n\n	Formáhtat: .ods / .fods (LibreOffice), .csv
-msg.phrase	The grid is drawn on the text plane.\n	Ráidu lea govvejuvvon teakstaplánas.
-msg.phrase	Charts and the 640x480 background use the FB.\n\n	Diagrámmat ja 640x480 duogáš geavahit FB.
+msg.phrase	Formats: .ods / .fods (LibreOffice), .csv\n\n	Hámit: .ods / .fods (LibreOffice), .csv\n\n
+msg.phrase	The grid is drawn on the text plane.\n	Fierpmádat sárgojuvvo teakstadássái.\n
+msg.phrase	Charts and the 640x480 background use the FB.\n\n	Grafat ja 640x480 duogáš geavahit FB.\n\n
 msg.phrase	%d %s	%d %s
-msg.phrase	Cannot store the cell (%d).	Ii sáhte vurket sealla (%d).
-msg.phrase	Copied %d x %d cells	Kopieren %d x %d seallaid
+msg.phrase	Cannot store the cell (%d).	Sealla ii sáhte vurkejuvvot (%d).
+msg.phrase	Copied %d x %d cells	%d x %d sealla kopierejuvvo
 msg.phrase	Cleared %s	Buhtaduvvon %s
-msg.phrase	'%s' is not a cell reference.	'%s' ii leat seallačujuhus.
+msg.phrase	'%s' is not a cell reference.	'%s' ii leat sealla čujuhus.
 msg.phrase	%d	%d
-msg.phrase	Column width = %d	Kolonna viidodat = %d
-msg.phrase	Row height = %d	Rievtti govdodat = %d
-msg.phrase	Auto fit: %d column(s), %d row(s)	Automáhtalaš heiveheapmi: %d kolonna(t), %d ráidu(t)
+msg.phrase	Column width = %d	Ceakki govdodat = %d
+msg.phrase	Row height = %d	Ráiddu allodat = %d
+msg.phrase	Auto fit: %d column(s), %d row(s)	Heivet: %d ceaggi, %d ráidu
 msg.phrase	%2d	%2d
-msg.phrase	Cannot apply the colour (%d).	Ii sáhte bidjat ivnni (%d).
+msg.phrase	Cannot apply the colour (%d).	Ivdni ii sáhte geavahuvvot (%d).
 msg.phrase	%s colour = %d	%s ivdni = %d
-msg.phrase	Not a valid range.\nUse a range such as A1:C10.	Ii leat dohkálaš rádji.\nGeavat dakkár ráji go A1:C10.
-msg.phrase	Graph range %s	Gráfa rádji %s
+msg.phrase	Not a valid range.\nUse a range such as A1:C10.	Guovlu ii leat gustovaš.\nČális guovllu nugo A1:C10.
+msg.phrase	Graph range %s	Grafa guovlu %s
 msg.phrase	Graph: %s	Gráfa: %s
-msg.phrase	SGCALC: cannot set screen mode 3: %s\n	SGCALC: ii sáhte bidjat čájáhusmodealla 3: %s
+msg.phrase	SGCALC: cannot set screen mode 3: %s\n	SGCALC: šearbmamodus 3 ii sáhte biddjot: %s\n
 msg.phrase	%.2g	%.2g
 msg.phrase	%.6g	%.6g
-msg.phrase	%s  %.0f%%	%s %.0f%%
-msg.phrase	GRAPH  %s  %s	GRAFA %s %s
+msg.phrase	%s  %.0f%%	%s  %.0f%%
+msg.phrase	GRAPH  %s  %s	GRAFA  %s  %s
 msg.phrase	%s%s	%s%s
 msg.phrase	%s/%s	%s/%s
 msg.phrase	%.*s	%.*s
 msg.phrase	%.*s/	%.*s/
-msg.phrase	Cannot read %s\n%s	Ii sáhte lohkat %s\n%s
+msg.phrase	Cannot read %s\n%s	%s ii sáhte lohkojuvvot\n%s
 msg.phrase	Folder: %s	Máhppa: %s
 msg.phrase	[DIR] %s	[DIR] %s
-msg.phrase	      %s	%s
+msg.phrase	      %s	      %s
 msg.phrase	%lu.%luM	%lu.%luM
 msg.phrase	%luK	%luK
 msg.phrase	%luB	%luB
-msg.phrase	BOOK1%s	GIRJJI1%s
+msg.phrase	BOOK1%s	BOOK1%s
 msg.phrase	%c:/	%c:/
-msg.phrase	Unsupported extension.\nUse .csv, .ods or .fods.	Doarjjakeahtes viiddideapmi.\nGeavat .csv, .ods dahje .fods.
-msg.phrase	%s already exists.\nOverwrite it?	%s gávdno juo.\nČállit dan badjel?
-msg.phrase	%s may not be writable.\nTry anyway?	%s ii soaitte leat čállojuvvon.\nGeahččal vaikko mo?
-msg.phrase	Unknown file type for %s	Dovddameahttun fiillašládja %s:ii
-msg.phrase	Unsupported file type.\nUse .csv, .ods or .fods.	Doarjjakeahtes fiillašládja.\nGeavat .csv, .ods dahje .fods.
-msg.phrase	Cannot open %s\n%s	Ii sáhte rahpat %s\n%s
+msg.phrase	Unsupported extension.\nUse .csv, .ods or .fods.	Viiddádus ii dorjojuvvo.\nGeavat .csv, .ods dahje .fods.
+msg.phrase	%s already exists.\nOverwrite it?	%s gávdno juo.\nČállitgo badjel?
+msg.phrase	%s may not be writable.\nTry anyway?	Várra ii sáhte čállit %s:ii.\nGeahččalitgo goittotge?
+msg.phrase	Unknown file type for %s	Amas fiilašládja: %s
+msg.phrase	Unsupported file type.\nUse .csv, .ods or .fods.	Fiilašládja ii dorjojuvvo.\nGeavat .csv, .ods dahje .fods.
+msg.phrase	Cannot open %s\n%s	%s ii sáhte rahpat\n%s
 msg.phrase	%s is a folder.	%s lea máhppa.
-msg.phrase	Cannot import %s\n%s	Ii sáhte buvttadit %s\n%s
-msg.phrase	Loaded %s	Láddejuvvon %s
-msg.phrase	Cannot build the %s file.	Ii sáhte hukset %s-fiilla.
-msg.phrase	Cannot write %s\n%s	Ii sáhte čállit %s\n%s
+msg.phrase	Cannot import %s\n%s	%s ii sáhte sisafievrriduvvot\n%s
+msg.phrase	Loaded %s	%s viežžojuvvui
+msg.phrase	Cannot build the %s file.	%s-fiila ii sáhte ráhkaduvvot.
+msg.phrase	Cannot write %s\n%s	%s ii sáhte čállojuvvot\n%s
 msg.phrase	%s %s	%s %s
-msg.phrase	unsupported version %u	doarjjakeahtes veršuvdna %u
+msg.phrase	unsupported version %u	veršuvdna ii dorjojuvvo (%u)
 msg.phrase	%d:%d:%d:%d:%d:%d	%d:%d:%d:%d:%d:%d
-msg.phrase	Octave %d	Oktávva %d
-msg.phrase	Note %s	Fuomáš %s
+msg.phrase	Octave %d	Oktáva %d
+msg.phrase	Note %s	Nuohtta %s
 msg.phrase	Instrument %d	Instrumeanta %d
-msg.phrase	Volume %s	Bihttá %s
-msg.phrase	Effect %c	Váikkuhus %c
-msg.phrase	Parameter %s	Paramehter %s
-msg.phrase	Pattern %s	Málle %s
-msg.phrase	Playing pattern %s	Speallanmálle %s
-msg.phrase	SAVE ERROR: %s	ČÁLLENMEARRI: %s
-msg.phrase	Saved %s	Seailluhuvvon %s
-msg.phrase	LOAD ERROR: %s	LOAD ERROR: %s
+msg.phrase	Volume %s	Jietnadássi %s
+msg.phrase	Effect %c	Effeakta %c
+msg.phrase	Parameter %s	Parameter %s
+msg.phrase	Pattern %s	Pattern %s
+msg.phrase	Playing pattern %s	Čuojaha pattern %s
+msg.phrase	SAVE ERROR: %s	VURKENMEATTÁHUS: %s
+msg.phrase	Saved %s	%s vurkejuvvui
+msg.phrase	LOAD ERROR: %s	VIEŽŽANMEATTÁHUS: %s
 msg.phrase	BPM %d	BPM %d
-msg.phrase	Speed %d	Leahttu %d
-msg.phrase	Preview %s	Ovdagovva %s
+msg.phrase	Speed %d	Leaktu %d
+msg.phrase	Preview %s	Guldal %s
 msg.phrase	Instrument %s %s	Instrumeanta %s %s
-msg.phrase	Overwrite %s? (Y/N)	Čállit %s badjel? (J/N)
-msg.phrase	 | BPM %s SPD %s 	| BPM %s SPD %s
-msg.phrase	 SGNO TRACKER 1.0 | 	SGNO TRACKER 1.0 |
-msg.phrase	FILE 	FIILA
-msg.phrase	 PAT %s	PAT %s
-msg.phrase	 ORD %d/%d	ORD %d/%d
-msg.phrase	 INS %s 	INS %s
-msg.phrase	 OCT %d	OCT %d
-msg.phrase	 EDIT %s	RIEVDADAT %s
-msg.phrase	ON 	ON
-msg.phrase	 FOL %s	FOL %s
-msg.phrase	TRACK %d	ČUOVVUT %d
+msg.phrase	Overwrite %s? (Y/N)	Čállitgo %s badjel? (Y/N)
+msg.phrase	 | BPM %s SPD %s 	 | BPM %s SPD %s 
+msg.phrase	 SGNO TRACKER 1.0 | 	 SGNO TRACKER 1.0 | 
+msg.phrase	FILE 	FILE 
+msg.phrase	 PAT %s	 PAT %s
+msg.phrase	 ORD %d/%d	 ORD %d/%d
+msg.phrase	 INS %s 	 INS %s 
+msg.phrase	 OCT %d	 OCT %d
+msg.phrase	 EDIT %s	 EDIT %s
+msg.phrase	ON 	ON 
+msg.phrase	 FOL %s	 FOL %s
+msg.phrase	TRACK %d	TRACK %d
 msg.phrase	%c%s	%c%s
 msg.phrase	%s %s %s %s	%s %s %s %s
-msg.phrase	%s 	%s
+msg.phrase	%s 	%s 
 msg.phrase	%d %s %s	%d %s %s
 msg.phrase	ORDER %d/%d	ORDER %d/%d
-msg.phrase	PAT   %s	PAT %s
+msg.phrase	PAT   %s	PAT   %s
 msg.phrase	INS %s %s	INS %s %s
-msg.phrase	OCT %d  EDIT %s	OCT %d EDIT %s
-msg.phrase	FOLLOW %s	ČUOVVUT %s
-msg.phrase	PLAYING  ORD %d/%d  PAT %s  ROW %s/%d  SPD %s  BPM %d  F7 STOP	PLAYING ORD %d/%d PAT %s ROW %s/%d SPD %s BPM %d F7 STOP
-msg.phrase	READY  EDIT %s  OCT %d  F1 HELP  F5 PLAY  CTRL-S SAVE	GÁLVVU RIEVDADEAPMI %s OCT %d F1 VEAHKKIN F5 ČÁLLÁN CTRL-S ČUOŽŽALDAT
-msg.phrase	 %s 	%s
-msg.phrase	  F5          Play the song from the current order	F5 Čuojahit lávlaga dálá ortnegis
-msg.phrase	  F6          Play the current pattern	F6 Čuojahit dálá málle
-msg.phrase	  F7/Ctrl-C   Stop playback	F7/Ctrl-C Bissehit čuojaheami
-msg.phrase	  Space       Play / stop	Space Play / stop
-msg.phrase	  F4          Save as	F4 Seailluhuvvo
-msg.phrase	  Ctrl-S      Save (asks for a name if new)	Ctrl-S Save (bivdá nama jus lea ođđa)
-msg.phrase	  Ctrl-O      Open a song	Ctrl-O Rahpat lávlaga
-msg.phrase	  Ctrl-N      New song	Ctrl-N Ođđa lávlla
-msg.phrase	  F12         Quit (confirmation if modified)	F12 Heaittihit (duođaštus jus rievdaduvvo)
-msg.phrase	  [ ]         Previous / next order entry	[ ] Ovddeš / boahtte diŋgončálus
-msg.phrase	  { }         Insert / delete an order entry	{ } Bija sisa / sihkkut diŋgončállosa
-msg.phrase	  - +         Change the pattern in the entry	- + Rievdat málle sisačáliheamis
-msg.phrase	  F11         Follow playback (turns off on manual move)	F11 Čuovo čuojaheami (heaitá go lihkada gieđaiguin)
-msg.phrase	  F1          Help; Left/Right changes page	F1 Veahkki; Olgeš/Gurut rievdada siiddu
-msg.phrase	  F8          Toggle edit mode	F8 Rievdat rievdadusmodealla
-msg.phrase	  Arrows      Move the cursor	Piillat Sirdde kursora
-msg.phrase	  PgUp/PgDn   Jump 16 rows	PgUp/PgDn Jump 16 rows
-msg.phrase	  Home/End    First / last row	Ruovttu/Loahppa Vuosttaš / maŋimuš ráidu
-msg.phrase	  F9/F10      Octave down / up	F9/F10 Oktava vuolábeallái / bajás
-msg.phrase	  Z S X D C V G B H N J M      lower piano row	Z S X D C V G B H N J M vuolimus pianoráidu
-msg.phrase	  Q 2 W 3 E R 5 T 6 Y 7 U      upper piano row	Q 2 W 3 E R 5 T 6 Y 7 Bajimus pianoráidu
-msg.phrase	  1           Note off	1 Mearkkašupmi
-msg.phrase	  0 / Del     0 clears note/inst/fx; Del clears any	0 / Del 0 čielggada note/inst/fx; Del buhtistit buot
-msg.phrase	  Ctrl-Z      Undo the last pattern/order edit	Ctrl-Z Váldde eret maŋimuš málle/ortnega rievdadeami
-msg.phrase	  Axy   Volume slide: up x, down y	Axy Volume slide: bajás x, vuolábeallái y
-msg.phrase	  Cxx   Note cut after xx ticks	Cxx Mearkkašupmi lea čuohppon maŋŋel xx čuoggáid
-msg.phrase	  Dxx   Set volume (00..7F)	Dxx Bija voluma (00..7F)
-msg.phrase	  Fxx   Speed if xx < 20, otherwise BPM	Fxx Leahttu jus xx < 20, muđui BPM
-msg.phrase	  Hxy   Arpeggio x, y semitones	Hxy Arpeggio x, y semitonat
-msg.phrase	  Pxx   Pitch slide up	Pxx Pitch čuožžila bajás
-msg.phrase	  Qxx   Pitch slide down	Qxx Pitch čuožžut vuolábeallái
-msg.phrase	  F2 song settings, F3 instrument list	F2 lávllaheiveheapmi, F3 instrumeantalistu
+msg.phrase	OCT %d  EDIT %s	OCT %d  EDIT %s
+msg.phrase	FOLLOW %s	FOLLOW %s
+msg.phrase	PLAYING  ORD %d/%d  PAT %s  ROW %s/%d  SPD %s  BPM %d  F7 STOP	PLAYING  ORD %d/%d  PAT %s  ROW %s/%d  SPD %s  BPM %d  F7 STOP
+msg.phrase	READY  EDIT %s  OCT %d  F1 HELP  F5 PLAY  CTRL-S SAVE	READY  EDIT %s  OCT %d  F1 HELP  F5 PLAY  CTRL-S SAVE
+msg.phrase	 %s 	 %s 
+msg.phrase	  F5          Play the song from the current order	  F5          Čuojat lávlaga dálá saji rájes
+msg.phrase	  F6          Play the current pattern	  F6          Čuojat dálá pattern
+msg.phrase	  F7/Ctrl-C   Stop playback	  F7/Ctrl-C   Bisset čuojaheami
+msg.phrase	  Space       Play / stop	  Space       Čuojat / bisset
+msg.phrase	  F4          Save as	  F4          Vurke nugo
+msg.phrase	  Ctrl-S      Save (asks for a name if new)	  Ctrl-S      Vurke (jearrá nama jus lea ođđa)
+msg.phrase	  Ctrl-O      Open a song	  Ctrl-O      Raba lávlaga
+msg.phrase	  Ctrl-N      New song	  Ctrl-N      Ođđa lávlla
+msg.phrase	  F12         Quit (confirmation if modified)	  F12         Heaitte (jearrá jus leat rievdadusat)
+msg.phrase	  [ ]         Previous / next order entry	  [ ]         Ovddit / boahtte sadji
+msg.phrase	  { }         Insert / delete an order entry	  { }         Lasit / sihko saji
+msg.phrase	  - +         Change the pattern in the entry	  - +         Rievdat saji pattern
+msg.phrase	  F11         Follow playback (turns off on manual move)	  F11         Čuovo čuojaheami (jáddá go sirddát gieđain)
+msg.phrase	  F1          Help; Left/Right changes page	  F1          Veahkki; Gurut/Olgeš rievdada siiddu
+msg.phrase	  F8          Toggle edit mode	  F8          Rievdadeapmi alde / eret
+msg.phrase	  Arrows      Move the cursor	  Njuolat     Sirdde cursora
+msg.phrase	  PgUp/PgDn   Jump 16 rows	  PgUp/PgDn   Njuikes 16 ráiddu
+msg.phrase	  Home/End    First / last row	  Home/End    Vuosttaš / maŋimuš ráidu
+msg.phrase	  F9/F10      Octave down / up	  F9/F10      Oktáva vuolás / bajás
+msg.phrase	  Z S X D C V G B H N J M      lower piano row	  Z S X D C V G B H N J M      piano vuolit ráidu
+msg.phrase	  Q 2 W 3 E R 5 T 6 Y 7 U      upper piano row	  Q 2 W 3 E R 5 T 6 Y 7 U      piano bajit ráidu
+msg.phrase	  1           Note off	  1           Note off
+msg.phrase	  0 / Del     0 clears note/inst/fx; Del clears any	  0 / Del     0 sihkku nuohta/instr./effeavtta; Del gietti
+msg.phrase	  Ctrl-Z      Undo the last pattern/order edit	  Ctrl-Z      Máhcat maŋimuš pattern/ortnet rievdadusa
+msg.phrase	  Axy   Volume slide: up x, down y	  Axy   Volume slide: bajás x, vuolás y
+msg.phrase	  Cxx   Note cut after xx ticks	  Cxx   Čuohpa nuohta xx tick maŋŋá
+msg.phrase	  Dxx   Set volume (00..7F)	  Dxx   Bija jietnadási (00..7F)
+msg.phrase	  Fxx   Speed if xx < 20, otherwise BPM	  Fxx   Leaktu jus xx < 20, muđui BPM
+msg.phrase	  Hxy   Arpeggio x, y semitones	  Hxy   Arpeggio x, y bealleteavnnat
+msg.phrase	  Pxx   Pitch slide up	  Pxx   Pitch slide bajás
+msg.phrase	  Qxx   Pitch slide down	  Qxx   Pitch slide vuolás
+msg.phrase	  F2 song settings, F3 instrument list	  F2 lávlaga heivehusat, F3 instrumeantalistu
 msg.phrase	HELP %d/2	HELP %d/2
-msg.phrase	  Title	Bajilčála
-msg.phrase	  [%s_]	[%s_]
-msg.phrase	  BPM   : %d     (left/right -1/+1, -/+ -5/+5)	BPM : %d (olgeš/gurut -1/+1, -/+ -5/+5)
-msg.phrase	  Speed : %d ticks/row	Leahttu : %d čuoggá/ráidu
-msg.phrase	  Rows  : %d (fixed)	Rievssat : %d (čielggaduvvon)
-msg.phrase	  Order : %d entries	Ordnet : %d sisačállosa
-msg.phrase	  Patterns in use : %d	Geavahuvvon ortnegat : %d
-msg.phrase	 #  NAME       WAVE       A   D   S   R  VOL	# NAME WAVE A D S R VOL
-msg.phrase	 %c %d  %-9s %-9s %3d %3d %3d %3d %4d	%c %d %-9s %-9s %3d %3d %3d %3d %4d
+msg.phrase	  Title	  Namma
+msg.phrase	  [%s_]	  [%s_]
+msg.phrase	  BPM   : %d     (left/right -1/+1, -/+ -5/+5)	  BPM   : %d     (gurut/olgeš -1/+1, -/+ -5/+5)
+msg.phrase	  Speed : %d ticks/row	  Leaktu : %d tick juohke ráidui
+msg.phrase	  Rows  : %d (fixed)	  Ráiddut : %d (giddejuvvon)
+msg.phrase	  Order : %d entries	  Ortnet : %d saji
+msg.phrase	  Patterns in use : %d	  Geavahuvvon pattern : %d
+msg.phrase	 #  NAME       WAVE       A   D   S   R  VOL	 #  NAME       WAVE       A   D   S   R  VOL
+msg.phrase	 %c %d  %-9s %-9s %3d %3d %3d %3d %4d	 %c %d  %-9s %-9s %3d %3d %3d %3d %4d
 msg.phrase	Current instrument: %s %s	Dálá instrumeanta: %s %s
-msg.phrase	  %s	%s
-msg.phrase	DIR  %s	DIR %s
-msg.phrase	 %c %s%s	%c %s%s
+msg.phrase	  %s	  %s
+msg.phrase	DIR  %s	DIR  %s
+msg.phrase	 %c %s%s	 %c %s%s
 msg.phrase	Files: %d	Fiillat: %d
 msg.phrase	%02d	%02d
 msg.phrase	%03d	%03d
 msg.phrase	%02X	%02X
-msg.phrase	SGNO TRACKER: incompatible SGX ABI\n	SGNO TRACKER: inkompatibel SGX ABI
+msg.phrase	SGNO TRACKER: incompatible SGX ABI\n	SGNO TRACKER: SGX ABI ii heive\n
 msg.phrase	S: check: wait -- a file is being read or written	S: dárkkis: vuordit -- fiila lohkkojuvvo dahje čállojuvvo
 msg.phrase	S: check: the drive is busy or not ready	S: dárkkis: vuodjin lea čalbmáičuohcci vai ii leat gárvvis
 msg.phrase	nothing for this item (ContextMenu.cfg)	ii mihkkege dán áššis (ContextMenu.cfg)
@@ -1120,43 +1116,72 @@ msg.prefix	compress	komprimere
 msg.prefix	render	rievdadit
 msg.phrase	5 Macro	5 Makro
 msg.phrase	6 Help	6 Veahkki
-msg.phrase	Run current	Doala dálá
-msg.phrase	Run the macro at the cursor (#! header cell and the cells below it)	Čuovvut makro kursoris (#! bajilcealla ja seallat dan vuolábealde)
-msg.phrase	Run selection	Čuovvut válljema
-msg.phrase	Run the selected cells as one macro (top-left cell is the #! header)	Čuovvut válljejuvvon seallaid ovtta makroin (ovddabealde olgeš sealla lea #! bajilgovva)
-msg.phrase	Run all	Doala buot
-msg.phrase	Run every macro in the sheet, top-left to bottom-right	Čuovvut juohke makro arkiivvas, bajimusas olgešbealde gitta vuolimusas olgešbealde
+msg.phrase	Run current	Vuoje dán
+msg.phrase	Run the macro at the cursor (#! header cell and the cells below it)	Vuoje makro cursora sajis (#! bajilčállosealla ja sealla dan vuolde)
+msg.phrase	Run selection	Vuoje válljejumi
+msg.phrase	Run the selected cells as one macro (top-left cell is the #! header)	Vuoje válljejuvvon seallaid ovtta makron (bajimus gurut sealla lea #! bajilčála)
+msg.phrase	Run all	Vuoje buot
+msg.phrase	Run every macro in the sheet, top-left to bottom-right	Vuoje buot makroid bláđis, bajimus gurut rájes vuolimus olgeš rádjai
 msg.phrase	Last error	Maŋimuš meattáhus
 msg.phrase	Show the last macro error	Čájet maŋimuš makromeattáhusa
 msg.phrase	Macro	Makro
-msg.phrase	Macro: run #!ruby / #!python / #!basic cells	Makro: čađat #!ruby / #!python / #!vuođđoseallaid
+msg.phrase	Macro: run #!ruby / #!python / #!basic cells	Makro: vuoje #!ruby / #!python / #!basic seallaid
 msg.phrase	Edit the cell (F2)	Rievdat sealla (F2)
-msg.phrase	Fit widths/heights to the contents	Heive viidodagaid/govdodagaid sisdollui
+msg.phrase	Fit widths/heights to the contents	Heivet govdodagaid/allodagaid sisdollui
 msg.phrase	Last macro error	Maŋimuš makromeattáhus
-msg.phrase	No macro error.	Ii leat makromeattáhus.
-msg.phrase	IME on	IME on
-msg.phrase	IME off	IME heaittihuvvon
+msg.phrase	No macro error.	Ii makromeattáhus.
+msg.phrase	IME on	IME lea alde
+msg.phrase	IME off	IME lea eret
 msg.phrase	Macro: %s %s ...	Makro: %s %s ...
-msg.phrase	%s: this firmware cannot run macros (SGX ABI 5.10 or later)	%s: dát fierpmádat ii sáhte čađahit makroid (SGX ABI 5.10 dahje ođđaseamos)
+msg.phrase	%s: this firmware cannot run macros (SGX ABI 5.10 or later)	%s: dát firmware ii sáhte vuodjit makroid (dárbbašuvvo SGX ABI 5.10 dahje ođđasut)
 msg.phrase	Macro error: %s	Makromeattáhus: %s
-msg.phrase	Macro: %s done	Makro: %s dahkkon
-msg.phrase	a macro is already running	makro lea juo jođus
-msg.phrase	this language is not available	dát giella ii gávdno
-msg.phrase	not enough memory	ii leat doarvái muitu
-msg.phrase	the macro stopped with an error	makro bisánii vealaheami dihte
+msg.phrase	Macro: %s done	Makro: %s gárvvis
+msg.phrase	a macro is already running	makro johtá juo
+msg.phrase	this language is not available	dát giella ii leat olámuttos
+msg.phrase	not enough memory	muitu ii doarvái
+msg.phrase	the macro stopped with an error	makro bisánii meattáhusain
 msg.phrase	Macro error %s: %s	Makromeattáhus %s: %s
-msg.phrase	Macro: not enough memory	Makro: ii leat doarvái muitu
-msg.phrase	Macro: the cursor is not on a macro (a #!ruby / #!python / #!basic cell or the cells below it)	Makro: kursor ii leat makros (#!ruby / #!python / #!basic cell dahje seallat dan vuolde)
-msg.phrase	Macro: no macro in the sheet	Makro: ii leat makro arkiivvas
-msg.phrase	Run all macros	Čuovvut buot makroid
-msg.phrase	Macros: %d. Run them all, top-left to bottom-right? Changes cannot be undone.	Makrot: %d. Jođihit daid buohkaid, bajimusas olgešbealde gitta vuolimusas olgešbeallái? Rievdadusaid ii sáhte nuppástuhttit.
-msg.phrase	Macro: %d of %d done	Makro: %d %d:s dahkkon
-msg.phrase	Cleared the cell	Buhtistuvvon sealla
-msg.phrase	Cleared the selection	Buhtistuvvon válljen
+msg.phrase	Macro: not enough memory	Makro: muitu ii doarvái
+msg.phrase	Macro: the cursor is not on a macro (a #!ruby / #!python / #!basic cell or the cells below it)	Makro: cursor ii leat makro alde (#!ruby / #!python / #!basic sealla dahje sealla dan vuolde)
+msg.phrase	Macro: no macro in the sheet	Makro: bláđis eai leat makrot
+msg.phrase	Run all macros	Vuoje buot makroid
+msg.phrase	Macros: %d. Run them all, top-left to bottom-right? Changes cannot be undone.	Makrot: %d. Vuodjitgo buot, bajimus gurut rájes vuolimus olgeš rádjai? Rievdadusaid ii sáhte máhcahit.
+msg.phrase	Macro: %d of %d done	Makro: %d / %d gárvvis
+msg.phrase	Cleared the cell	Sealla sihkkojuvvui
+msg.phrase	Cleared the selection	Válljejupmi sihkkojuvvui
 msg.phrase	Background colour = %d	Duogášivdni = %d
-msg.phrase	Text colour = %d	Teavstta ivdni = %d
-msg.phrase	Graph: line	Gráfa: linjá
-msg.phrase	Graph: bar	Gráfa: bar
-msg.phrase	Graph: mixed	Gráfa: seaguhuvvon
-msg.phrase	Graph: pie	Gráfa: pie
-msg.phrase	Exported %s	Viežžan %s
+msg.phrase	Text colour = %d	Teavsttaivdni = %d
+msg.phrase	Graph: line	Grafa: linnjá
+msg.phrase	Graph: bar	Grafa: stolpa
+msg.phrase	Graph: mixed	Grafa: seagus
+msg.phrase	Graph: pie	Grafa: gáhkku
+msg.phrase	Exported %s	%s olggosfievrriduvvui
+ui	USB・時計・設定	USB, clock, settings
+ui	0.001 秒未満	unnit go 0.001 s
+ui	%s 秒	%s s
+ui	コンパイル %s  実行 %s	kompileren %s  vuodjin %s
+ui	コンパイル %s	kompileren %s
+ui	実行 %s	vuodjin %s
+msg.phrase	1 Help	1 Veahk.
+msg.phrase	3 Copy	3 Kopier
+msg.phrase	4 Paste	4 Liibme
+msg.phrase	5 Goto	5 Mana
+msg.phrase	6 Colour	6 Ivdni
+msg.phrase	7 Fit	7 Heivet
+msg.phrase	8 Backgr	8 Duogáš
+msg.phrase	9 Recalc	9 Rehken
+msg.phrase	10 Graph	10 Grafa
+msg.phrase	11 Save	11 Vurke
+msg.phrase	12 Menu	12 Fállu
+msg.phrase	1 About	1 Birra
+msg.phrase	2 Height	2 Alloda
+msg.phrase	3 Width	3 Govdod
+msg.phrase	4 SelAll	4 Buot
+msg.phrase	10 Range	10 Guovl
+msg.phrase	11 Name	11 Nugo
+msg.phrase	1 New	1 Ođđa
+msg.phrase	2 Open	2 Raba
+msg.phrase	4 SaveAs	4 Nugo
+msg.phrase	12 Quit	12 Heait
+msg.phrase	3 Save	3 Vurke
+msg.phrase	Version %s	Veršuvdna %s
