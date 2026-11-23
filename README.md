@@ -77,7 +77,7 @@
 | 何を入れるか | ファイル |
 |---|---|
 | **α2 の一式**（初回。S: とフォントも入る） | [alpha2-2026.11 の Release](https://github.com/antarcticlion/sgnano/releases/tag/alpha2-2026.11) / [全体 UF2](https://github.com/antarcticlion/sgnano/releases/download/alpha2-2026.11/sgnano-alpha2-2026.11-full.uf2) / [IME の辞書](https://github.com/antarcticlion/sgnano/releases/download/alpha1-2026.11/sgnano-alpha1-2026.11-ime-dict.zip)（α1 と同じ） |
-| **ファームウェアだけ**（S: とフォントを残して更新） | [ファーム UF2](https://github.com/antarcticlion/sgnano/releases/download/alpha2-2026.11/sgnano-alpha2-2026.11-firmware.uf2) |
+| **ファームウェアだけ**（S: とフォントを残して更新） | [最新パッチ alpha2-2026.11.1 ファーム UF2](https://github.com/antarcticlion/sgnano/releases/download/alpha2-2026.11.1/sgnano-alpha2-2026.11.1-firmware.uf2) / [alpha2-2026.11 ファーム UF2](https://github.com/antarcticlion/sgnano/releases/download/alpha2-2026.11/sgnano-alpha2-2026.11-firmware.uf2) |
 | **S: とフォント** | [後半 UF2](https://github.com/antarcticlion/sgnano/releases/download/alpha2-2026.11/sgnano-alpha2-2026.11-system-font.uf2) |
 
 1. **初回**は α2 の全体 UF2 を、BOOTSEL で立ち上げた `RPI-RP2` へコピーします。**S: は初期化されます。**
