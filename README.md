@@ -72,18 +72,17 @@
 
 ## ダウンロードと書き込み
 
-**配布物は [Releases](https://github.com/antarcticlion/sgnano/releases) にあります。**
+**最新リリースは [alpha2-2026.11.1](https://github.com/antarcticlion/sgnano/releases/tag/alpha2-2026.11.1) です。配布物は [Releases](https://github.com/antarcticlion/sgnano/releases) にあります。**
 
 | 何を入れるか | ファイル |
 |---|---|
+| **最新ファームウェア**（S: とフォントを残して更新） | [alpha2-2026.11.1 の Release](https://github.com/antarcticlion/sgnano/releases/tag/alpha2-2026.11.1) / [ファーム UF2](https://github.com/antarcticlion/sgnano/releases/download/alpha2-2026.11.1/sgnano-alpha2-2026.11.1-firmware.uf2) |
 | **α2 の一式**（初回。S: とフォントも入る） | [alpha2-2026.11 の Release](https://github.com/antarcticlion/sgnano/releases/tag/alpha2-2026.11) / [全体 UF2](https://github.com/antarcticlion/sgnano/releases/download/alpha2-2026.11/sgnano-alpha2-2026.11-full.uf2) / [IME の辞書](https://github.com/antarcticlion/sgnano/releases/download/alpha1-2026.11/sgnano-alpha1-2026.11-ime-dict.zip)（α1 と同じ） |
-| **ファームウェアだけ**（S: とフォントを残して更新） | [最新パッチ alpha2-2026.11.1 ファーム UF2](https://github.com/antarcticlion/sgnano/releases/download/alpha2-2026.11.1/sgnano-alpha2-2026.11.1-firmware.uf2) / [alpha2-2026.11 ファーム UF2](https://github.com/antarcticlion/sgnano/releases/download/alpha2-2026.11/sgnano-alpha2-2026.11-firmware.uf2) |
 | **S: とフォント** | [後半 UF2](https://github.com/antarcticlion/sgnano/releases/download/alpha2-2026.11/sgnano-alpha2-2026.11-system-font.uf2) |
 
 1. **初回**は α2 の全体 UF2 を、BOOTSEL で立ち上げた `RPI-RP2` へコピーします。**S: は初期化されます。**
-2. **α1 から更新するとき**は、ファームウェアの UF2 だけでも動きます（S: とフォントは残ります）。ただし S: の言語の書庫・`bin` のプログラム・見本は
-   α2 で新しくなっています。新しくするときは後半 UF2（`-system-font.uf2`）も入れてください（**S: は初期化されます**。設定やファイルは先に控えてください）。
-3. α1 のときの注意: `alpha1-2026.11.1` の全体 UF2 は作成の不具合で配布を停止しました（11.2 で直しました）。
+2. そのあと、**最新ファームウェアの UF2（`alpha2-2026.11.1`）** をコピーします（ファームだけ更新。S: とフォントは残ります）。
+3. **α1 や α2 から更新するとき**は、最新ファームウェアの UF2 だけをコピーしてください（S: とフォントはそのまま残ります）。
 4. 日本語の漢字変換には **IME の辞書**（`-ime-dict.zip`）が要ります。USB のドライブのルートに `SgnanoIME/` ごと置いてください（S: の 4MB には入りません）。
 5. フォント ROM はファームと同じ版を使ってください。v1 の ROM では文字が出ません。
 
