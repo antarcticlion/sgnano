@@ -113,7 +113,7 @@
 | `MEM` | 診断 | `@SG\tOK\tMEM` | SRAM・PSRAM のアリーナの一覧を **ログ** へ |
 | `MUSICINFO` | 診断 | `@SG\tOK\tMUSICINFO` | 音楽の様子をログへ |
 | `DYN` | 診断 | `@SG\tDYN\t...` の後に `@SG\tOK\tDYN\t<件数>` | 常駐コードの動的ロードの区画（2026-11-28）: 名前・`sram`/`flash`・SRAM の番地・コードの大きさ・区画の中を指す番地の置き場の数・跳び台の数・載せた / 下ろした / SRAM が足りず載せなかった回数。`DYN HOLD` で全部下ろして載せない（フラッシュのままの道の試し）、`DYN FREE` で戻す |
-| `MODS` | 診断 | `@SG\tMOD\t...` の後に `@SG\tOK\tMODS\t<件数>` | SG-9 動的モジュール目録（名前・種別・状態 `idle`/`sram`/`flash`・参照数・SRAM 番地・イメージ長・BSS 長、2026-11-27） |
+| `MODS` | 診断 | `@SG\tMOD\t...` の後に `@SG\tOK\tMODS\t<件数>` | 音のドライバーの動的モジュールの目録（名前・種別・状態 `idle`/`sram`/`flash`・参照数・SRAM 番地・イメージ長・BSS 長、2026-11-27） |
 | `USBINFO` | 診断 | `@SG\tOK\tUSBINFO` | USB の状態と数をログへ（`U` キー相当） |
 | `MSCINFO` | 診断 | `@SG\tOK\tMSCINFO` | USB ストレージの台と番地をログへ（同じ機器の別の区画かの見分け） |
 | `USBDEV` | 診断 | `@SG\tOK\tUSBDEV` | 引き受け手のいない機器の構成をログへ |
