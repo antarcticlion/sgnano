@@ -106,7 +106,6 @@ ui	何かキーで閉じる	Igodo ọ bụla na-emechi
 ui	設定	Ntọala
 ui	表示の言語	Asụsụ ngosi
 ui	キーボードロケール	Nhazi ahụigodo
-ui	Up / Down  Enter 決める  ESC やめる	Elu / Ala  Enter họrọ  ESC kagbuo
 ui	表示の言語 (Language)	Asụsụ ngosi
 ui	Up / Down  Enter 決める  ESC 戻る	Elu / Ala  Enter: tọọ  ESC: laghachi
 ui	%c: をどの文字に固定しますか（A〜Z、S を除く。ESC でやめる）	Kpọchie %c: dị ka mkpụrụedemede ole? (A-Z ewezuga S. ESC kagbuo)
@@ -346,6 +345,13 @@ ui	WAV 書き出し: %s 失敗（%s）	Mbupụ WAV: %s dara (%s)
 ui	WAV 書き出し: %s 合計 %s	Mbupụ WAV: %s ngụkọta %s
 ui	 WAV 書き出し（96kHz / 24bit）: %s	 Mbupụ WAV (96kHz / 24bit): %s
 ui	中止しました	Kagburu
+ui	準　備　中　．．．	Na-akwado...
+ui	 合計 %s   出力 %s	 Mkpokọta %s   Mmepụta %s
+ui	 経過 %s	 Ogefe %s
+ui	 %u%%   経過 %s	 %u%%   Ogefe %s
+ui	   残り 約 %s	   Fọdụrụ ~%s
+ui	   出力 %s	   Mmepụta %s
+ui	 止めています...	 Na-akwụsị...
 ui	失敗しました	Dara
 ui	 合計 %s	 Ngụkọta %s
 ui	 中止しました（%s。半端なファイルは消しました）	 Kagburu (%s; ehichapụrụ faịlụ na-ezughị ezu)
@@ -1041,6 +1047,20 @@ ui	%s 秒	%s s
 ui	コンパイル %s  実行 %s	compile %s  run %s
 ui	コンパイル %s	compile %s
 ui	実行 %s	run %s
+ui	壁紙	Foto azụ
+ui	壁紙の輝度	Ìhè foto azụ
+ui	(なし)	(ọ dịghị)
+ui	%u%% (100=原画 0=黒)	%u%% (100=mbụ 0=ojii)
+ui	Up / Down  Enter 決める  Left/Right 輝度  ESC やめる	Up / Down  Enter họrọ  Left/Right ìhè  ESC kagbuo
+ui	現在	Ugbu a
+ui	壁紙を解除 (黒地)	Wepụ foto azụ (ojii)
+ui	壁紙を再読み込み	Bugharịa foto azụ
+ui	PNG ファイルで Menu キーから「壁紙に設定」できます	Pịa Menu na faịlụ PNG iji debe ya dị ka foto azụ
+ui	壁紙の輝度 (%)	Ìhè foto azụ (%)
+ui	 (黒)	 (ojii)
+ui	 (既定)	 (ndabara)
+ui	 (原画そのまま)	 (mbụ)
+ui	壁紙に設定	Debe dị ka foto azụ
 msg.phrase	%s Sum %.7g N %ld%s	%s Mkpokọta %.7g N %ld%s
 msg.phrase	EDIT  	DEZIE
 msg.phrase	GRAPH  %s  %s	ESERESE  %s  %s

@@ -106,12 +106,11 @@ ui	何かキーで閉じる	Bármelyik kulcs bezárul
 ui	設定	Beállítások elemre
 ui	表示の言語	Megjelenítési nyelv
 ui	キーボードロケール	Billentyűzet nyelvi beállítása
-ui	Up / Down  Enter 決める  ESC やめる	Fel / Le Enter válassza az ESC törlése lehetőséget
 ui	表示の言語 (Language)	Megjelenítési nyelv
 ui	Up / Down  Enter 決める  ESC 戻る	Fel / Le Enter: ESC beállítása: vissza
 ui	%c: をどの文字に固定しますか（A〜Z、S を除く。ESC でやめる）	Javítás %c: melyik betűként? (A-Z, kivéve S. ESC törli)
 ui	ドライブ  文字 / Enter 選ぶ  F2 文字を固定・解除  F3 文字を決めて固定  L / ESC やめる	Meghajtó betűjele / Enter válassza F2 fix/Unfix a betű F3 fix as... L / ESC cancel
-ui	  区画 %u	partíció %u
+ui	  区画 %u	  partíció %u
 ui	%c:* （固定・つながっていません）%04X:%04X%s  %s	%c:* (fix, nincs csatlakoztatva) %04X:%04X%s %s
 ui	お知らせ	Értesítés
 ui	ドライブ %c:  %s	Hajtás %c: %s
@@ -219,40 +218,40 @@ ui	 %s  %s  行 %lu/%lu 桁 %u  %s  %s %s%s%s	%s %s Ln %lu/%lu Col %u %s %s %s%s
 ui	*変更	*mod
 ui	上書	OVR
 ui	挿入	INS
-ui	  読出専用	R/O
+ui	  読出専用	  R/O
 ui	 エディタ (sgnano edit)                      F1 / ESC で閉じる	Szerkesztő (sgnano szerkesztés) F1 / ESC bezárul
-ui	 矢印 / Home End / PgUp PgDn   カーソルを動かす	Nyilak / Kezdőlap vége / PgUp PgDn mozgassa a kurzort
+ui	 矢印 / Home End / PgUp PgDn   カーソルを動かす	Nyilak / Home End / PgUp PgDn mozgassa a kurzort
 ui	 Ctrl-T / Ctrl-B               ファイルの先頭 / 最後	Ctrl-T / Ctrl-B a fájl tetején/végén
 ui	 BS / Del                      前の字 / カーソルの字を消す	BS / Törlés törlése a / előtt a kurzornál
-ui	 Enter                         改行（前の行の字下げを引き継ぐ）	Írjon be egy új sort (megtartja a behúzást)
+ui	 Enter                         改行（前の行の字下げを引き継ぐ）	 Enter                         Írjon be egy új sort (megtartja a behúzást)
 ui	 Tab / Ins                     タブ / 挿入と上書きの切り替え	Tab / Ins fül / beszúrás vagy felülírás
 ui	 F5                            色分け（拡張子から。C/C++・mruby・MicroPython・SG BASIC・なし）	F5 színezés (kiterjesztésből; C/C++, mruby, MicroPython, SG BASIC, nincs)
 ui	 F2  (Ctrl-S)                  保存（UTF-8、改行は元の形）	F2 (Ctrl-S) mentés (UTF-8, sorvégek megtartva)
 ui	 F10 / ESC                     閉じる（変更があれば聞く）	F10 / ESC bezárás (megkérdezi, ha változott)
 ui	 IME:  Ctrl-Space / F12        オン・オフ（あ / A）	IME: Ctrl-Szóköz / F12 be/ki (あ / A)
-ui	       F9                      IME の言語（このエディタの間だけ。閉じると戻る）	F9 IME nyelv (csak ez a szerkesztő; bezáráskor visszaállítva)
-ui	       F8                      日本語の予測変換 オン・オフ	F8 japán prediktív konverzió be/ki
-ui	       日本語                  ローマ字 -> ひらがな（F6）・カタカナ（F7）	Japán romaji -> hiragana (F6) / katakana (F7)
-ui	                               半角ひらがな（Shift+F6）・半角カタカナ（Shift+F7）	Félszélességű hiragana (Shift+F6) / félszélességű katakana (Shift+F7)
-ui	                               2 字以上で予測、Space で連文節変換	Jóslás 2 vagy több karakterrel, folytonos záradék konvertálása szóközzel
-ui	       English                 2 字以上で予測補完	Angol prediktív befejezés 2 vagy több karakterrel
-ui	       한국어                  2 ボル式ハングル	한국어 2 Bol-stílusú hangul
-ui	       Space / Enter           変換 / 確定	Szóköz / Enter Konvertálás / Megerősítés
-ui	       ← →                    文節を選ぶ	← → Válasszon ki egy kifejezést
-ui	       Shift+← →               文節の右端を 1 字 縮/拡（候補を出し直す）	Shift+← → A záradék jobb végének szűkítése/növelése egy karakterrel (új jelöltek)
-ui	       ↑ ↓ / Tab               候補の窓で前 / 次の候補（窓は変換の下、画面の下では上）	↑ ↓ / Előző lap / Következő jelölt a felugró ablakban (a szöveg alatt, fent az alján)
-ui	       →→→ で Enter            すべての候補（2 列 x 8 個、← → で列とページ、Enter で決める）	Belépés → → → Minden jelölt (2 x 8, ← → oszlop és oldal, Enter kiválaszt)
-ui	       Enter                   次の文節へ（最後の文節で全体を確定）	Írja be a Következő záradékot (megerősíti az egészet az utolsó záradéknál)
-ui	       Ctrl-U                  いまの語をユーザー辞書へ	Ctrl-U Aktuális szó hozzáadása a felhasználói szótárhoz
+ui	       F9                      IME の言語（このエディタの間だけ。閉じると戻る）	       F9 IME nyelv (csak ez a szerkesztő; bezáráskor visszaállítva)
+ui	       F8                      日本語の予測変換 オン・オフ	       F8 japán prediktív konverzió be/ki
+ui	       日本語                  ローマ字 -> ひらがな（F6）・カタカナ（F7）	       Japán romaji -> hiragana (F6) / katakana (F7)
+ui	                               半角ひらがな（Shift+F6）・半角カタカナ（Shift+F7）	                               Félszélességű hiragana (Shift+F6) / félszélességű katakana (Shift+F7)
+ui	                               2 字以上で予測、Space で連文節変換	                               Jóslás 2 vagy több karakterrel, folytonos záradék konvertálása szóközzel
+ui	       English                 2 字以上で予測補完	       Angol prediktív befejezés 2 vagy több karakterrel
+ui	       한국어                  2 ボル式ハングル	       한국어 2 Bol-stílusú hangul
+ui	       Space / Enter           変換 / 確定	       Szóköz / Enter Konvertálás / Megerősítés
+ui	       ← →                    文節を選ぶ	       ← → Válasszon ki egy kifejezést
+ui	       Shift+← →               文節の右端を 1 字 縮/拡（候補を出し直す）	       Shift+← → A záradék jobb végének szűkítése/növelése egy karakterrel (új jelöltek)
+ui	       ↑ ↓ / Tab               候補の窓で前 / 次の候補（窓は変換の下、画面の下では上）	       ↑ ↓ / Tab  Előző lap / Következő jelölt a felugró ablakban (a szöveg alatt, fent az alján)
+ui	       →→→ で Enter            すべての候補（2 列 x 8 個、← → で列とページ、Enter で決める）	       Belépés → → → Minden jelölt (2 x 8, ← → oszlop és oldal, Enter kiválaszt)
+ui	       Enter                   次の文節へ（最後の文節で全体を確定）	       Enter                   Írja be a Következő záradékot (megerősíti az egészet az utolsó záradéknál)
+ui	       Ctrl-U                  いまの語をユーザー辞書へ	       Ctrl-U Aktuális szó hozzáadása a felhasználói szótárhoz
 ui	 Shift+F1 / F2 / F3 / F4       先頭 / 最後 / 挿入と上書き / ユーザー辞書へ	Shift+F1 / F2 / F3 / F4 Felül / vége / beszúrás-felülírás / a felhasználói szótárba
-ui	       BS / ESC                1 字戻す / 取り消し	BS / ESC Visszalépés egy karakterrel / Mégse
-ui	       , . - [ ] /             、 。 ー 「 」 ・	, . - [ ] / 、 。 ー 「 」 ・
+ui	       BS / ESC                1 字戻す / 取り消し	       BS / ESC Visszalépés egy karakterrel / Mégse
+ui	       , . - [ ] /             、 。 ー 「 」 ・	       , . - [ ] / 、 。 ー 「 」 ・
 ui	変更あり  Y: 保存して閉じる  N: 保存せず閉じる  ESC: 戻る	Módosítva Y: mentés és bezárás N: bezárás mentés nélkül ESC: vissza
 ui	[予測] Tab/↑↓: 候補  Space: 変換  Esc: 取消	[Prediction] Tab/↑↓: jelölt Szóköz: konvertálás Esc: Mégse
 ui	[候補] ↑↓: 選ぶ  ←→: 列・ページ  Enter: 決める	[Jelöltek] ↑↓: válasszon ←→: oszlop/oldal Enter: válasszon
 ui	[変換] ↑↓候補 ←→文節 Shift+←→区切り Enter次へ	[Konvertálás] ↑↓cand ←→tagmondat Shift+←→korlátos Enter Következő
 ui	[한국어] Tab/↑↓: 候補  Enter/Space: 確定	[한국어] Tab/↑↓: jelölt Enter/Szóköz: megerősítés
-ui	[English] Tab/↑↓: 候補  Enter: 確定	[Magyar] Tab/↑↓: jelölt Belépés: megerősítés
+ui	[English] Tab/↑↓: 候補  Enter: 確定	[English] Tab/↑↓: jelölt Enter: megerősítés
 ui	2ボル式ハングル入力  Ctrl-Space: 英数	2-készletes hangul bevitel Ctrl-Szóköz: alfanumerikus
 ui	予測補完  Ctrl-Space: 直接入力	Prediktív befejezés Ctrl-Space: közvetlen bevitel
 ui	辞書なし: ひらがな/カタカナ入力のみ  F6/F7	Nincs szótár: csak hiragana/katakana F6/F7
@@ -269,8 +268,8 @@ ui	色分け: %s	Színezés: %s
 ui	読み込んでいます... (loading)	Terhelés...
 ui	読み込めませんでした (could not read)	Nem sikerült beolvasni a fájlt
 ui	%lu 行%s%s	%lu vonalak%s%s
-ui	  Shift_JIS を UTF-8 で開きました（保存は UTF-8）	megnyitotta a Shift_JIS-t UTF-8-ként (UTF-8-ként mentve)
-ui	  読み出し専用	csak olvasható
+ui	  Shift_JIS を UTF-8 で開きました（保存は UTF-8）	  megnyitotta a Shift_JIS-t UTF-8-ként (UTF-8-ként mentve)
+ui	  読み出し専用	  csak olvasható
 ui	保存しました (saved)	Mentve
 ui	保存できませんでした (write failed)	Nem sikerült menteni (nem sikerült az írás)
 ui	候補	Jelöltek
@@ -283,7 +282,7 @@ ui	16 進  q ESC: 戻る  F1: ヘルプ	Hex q ESC: vissza F1: súgó
 ui	テキスト  q ESC: 戻る  F1: ヘルプ	Szöveg q ESC: vissza F1: súgó
 ui	ビュアーのキー（less 風。テキストと 16 進で共通）	Nézőbillentyűk (például a kevesebb; ugyanaz a szöveghez és a hexalaphoz)
 ui	1 行進む	Egy sorral lejjebb
-ui	1 行戻る	Egy sor
+ui	1 行戻る	Egy sorral feljebb
 ui	1 ページ進む	Egy oldallal lejjebb
 ui	1 ページ戻る	Egy oldallal feljebb
 ui	半ページ進む / 戻る	Fél oldal le/fel
@@ -309,7 +308,7 @@ ui	（止めています）	(megállás)
 ui	 元: %s	Feladó: %s
 ui	 先: %s	Címzett: %s
 ui	 ファイル %u / %u 個  フォルダ %u 個  %s / %s  (%u%%)%s	Fájlok %u / %u mappák %u %s / %s (%u%%)%s
-ui	  多すぎるので一部だけ	túl sok: csak néhány
+ui	  多すぎるので一部だけ	  túl sok: csak néhány
 ui	 要る大きさ %s、空き %s。続けますか？	Szükséges %s, ingyenes %s. Folytatja?
 ui	 Y: 続ける   N / ESC: やめる	Y: folytatás N / ESC: Mégse
 ui	 何かキーを押すと閉じます	Nyomja meg bármelyik gombot a bezáráshoz
@@ -328,12 +327,12 @@ ui	一時停止	Szüneteltetve
 ui	再生中	Játék
 ui	 Space: 一時停止  m: MIDI OUT  q / ESC: 止める	Szóköz: szünet m: MIDI OUT q / ESC: stop
 ui	 q / ESC: やめる	q / ESC: megszakítás
-ui	フォント ROM のライセンスとクレジット\n\nROM: %s（版 %lu.%lu、%lu 文字、フラッシュの 0x%08lX から）\n\n	Font ROM licencek és kreditek\n\nROM: %s (%lu.%lu verzió, %lu karakter, 0x%08lX-től a flashben)
-ui	== 収めているフォント（ROM の出所の表）==\n	== Betűtípusok a ROM-ban (a ROM eredettáblázata) ==
-ui	  （表が無い ROM）\n	(a ROM-nak nincs táblázata)
-ui	\n== ROM のクレジットの区画 ==\n\n	== A ROM kredit területe ==
-ui	（区画が無い）\n	(nincs ilyen terület)
-ui	\n== 組み込んだソフトウェアのライセンス ==\n	== A beépített szoftver licencei ==
+ui	フォント ROM のライセンスとクレジット\n\nROM: %s（版 %lu.%lu、%lu 文字、フラッシュの 0x%08lX から）\n\n	Font ROM licencek és kreditek\n\nROM: %s (%lu.%lu verzió, %lu karakter, 0x%08lX-től a flashben)\n\n
+ui	== 収めているフォント（ROM の出所の表）==\n	== Betűtípusok a ROM-ban (a ROM eredettáblázata) ==\n
+ui	  （表が無い ROM）\n	  (a ROM-nak nincs táblázata)\n
+ui	\n== ROM のクレジットの区画 ==\n\n	\n== A ROM kredit területe ==\n\n
+ui	（区画が無い）\n	(nincs ilyen terület)\n
+ui	\n== 組み込んだソフトウェアのライセンス ==\n	\n== A beépített szoftver licencei ==\n
 ui	 %s を PNG で保存   %s	%s mentése PNG %s formátumban
 ui	画面	Képernyő
 ui	 組み立てています... %lu / %lu 行	Épület... %lu / %lu sor
@@ -346,6 +345,13 @@ ui	WAV 書き出し: %s 失敗（%s）	WAV export: %s sikertelen (%s)
 ui	WAV 書き出し: %s 合計 %s	WAV export: %s összesen %s
 ui	 WAV 書き出し（96kHz / 24bit）: %s	WAV export (96 kHz / 24 bit): %s
 ui	中止しました	Törölve
+ui	準　備　中　．．．	Előkészítés...
+ui	 合計 %s   出力 %s	 Összesen %s   Kimenet %s
+ui	 経過 %s	 Eltelt %s
+ui	 %u%%   経過 %s	 %u%%   Eltelt %s
+ui	   残り 約 %s	   Hátra ~%s
+ui	   出力 %s	   Kimenet %s
+ui	 止めています...	 Leállítás...
 ui	失敗しました	Sikertelen
 ui	 合計 %s	Összesen %s
 ui	 中止しました（%s。半端なファイルは消しました）	Törölve (%s; a részfájl törölve)
@@ -356,7 +362,7 @@ ui	 ESC: 止める（半端なファイルは消します）	ESC: stop (a részl
 ui	書庫: %s	Archívum: %s
 ui	読み込み中…（ESC でやめる）	Olvasás... (ESC a törléshez)
 ui	 %u 項目%s  合計 %s バイト  展開先: %s	%u tételek%s összesen %s bájt kibontása ide: %s
-ui	 Enter 項目を展開  X 全部を展開  ↑↓ 動かす  ESC 閉じる	Írja be az elem kivonatát X az összes kibontása ↑↓ ESC bezárása
+ui	 Enter 項目を展開  X 全部を展開  ↑↓ 動かす  ESC 閉じる	Enter az elem kivonatát X az összes kibontása ↑↓ ESC bezárása
 ui	圧縮	Borogatás
 ui	一覧	Lista
 ui	展開	Kivonat
@@ -1162,6 +1168,20 @@ ui	%s 秒	%s s
 ui	コンパイル %s  実行 %s	fordítás %s  futás %s
 ui	コンパイル %s	fordítás %s
 ui	実行 %s	futás %s
+ui	壁紙	Háttérkép
+ui	壁紙の輝度	Háttérkép fényereje
+ui	(なし)	(nincs)
+ui	%u%% (100=原画 0=黒)	%u%% (100=eredeti 0=fekete)
+ui	Up / Down  Enter 決める  Left/Right 輝度  ESC やめる	Up / Down  Enter választ  Left/Right fényerő  ESC mégse
+ui	現在	Jelenlegi
+ui	壁紙を解除 (黒地)	Háttérkép törlése (fekete)
+ui	壁紙を再読み込み	Háttérkép újratöltése
+ui	PNG ファイルで Menu キーから「壁紙に設定」できます	Nyomja meg a Menu gombot egy PNG-n háttérképhez
+ui	壁紙の輝度 (%)	Háttérkép fényereje (%)
+ui	 (黒)	 (fekete)
+ui	 (既定)	 (alapért.)
+ui	 (原画そのまま)	 (eredeti)
+ui	壁紙に設定	Beállítás háttérképként
 msg.phrase	Version %s	Verzió: %s
 msg.phrase	1 Help	1 Súgó
 msg.phrase	3 Copy	3 Másol

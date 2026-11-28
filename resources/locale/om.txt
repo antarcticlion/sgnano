@@ -106,7 +106,6 @@ ui	何かキーで閉じる	Furtuun kamiyyuu ni cufa
 ui	設定	Qindaa'ina
 ui	表示の言語	Afaan agarsiisaa
 ui	キーボードロケール	Qindaa'ina furtuu
-ui	Up / Down  Enter 決める  ESC やめる	Ol / Gad  Enter filadhu  ESC haqi
 ui	表示の言語 (Language)	Afaan agarsiisaa
 ui	Up / Down  Enter 決める  ESC 戻る	Ol / Gad  Enter: kaa'i  ESC: deebi'i
 ui	%c: をどの文字に固定しますか（A〜Z、S を除く。ESC でやめる）	%c: akka qubee kamiitti haa dhaabbatu? (A-Z S malee. ESC haqa)
@@ -346,6 +345,13 @@ ui	WAV 書き出し: %s 失敗（%s）	WAV baasuu: %s hin milkoofne (%s)
 ui	WAV 書き出し: %s 合計 %s	WAV baasuu: %s waliigala %s
 ui	 WAV 書き出し（96kHz / 24bit）: %s	 WAV baasuu (96kHz / 24bit): %s
 ui	中止しました	Dhiifame
+ui	準　備　中　．．．	Qophaa'aa jira...
+ui	 合計 %s   出力 %s	 Waliigala %s   Bahaa %s
+ui	 経過 %s	 Darbe %s
+ui	 %u%%   経過 %s	 %u%%   Darbe %s
+ui	   残り 約 %s	   Hafe ~%s
+ui	   出力 %s	   Bahaa %s
+ui	 止めています...	 Dhaabaa jira...
 ui	失敗しました	Hin milkoofne
 ui	 合計 %s	 Waliigala %s
 ui	 中止しました（%s。半端なファイルは消しました）	 Dhiifame (%s; faayilli hin guutamne haqameera)
@@ -1041,6 +1047,20 @@ ui	%s 秒	%s s
 ui	コンパイル %s  実行 %s	compile %s  run %s
 ui	コンパイル %s	compile %s
 ui	実行 %s	run %s
+ui	壁紙	Suuraa duubaa
+ui	壁紙の輝度	Ifa suuraa duubaa
+ui	(なし)	(homaa)
+ui	%u%% (100=原画 0=黒)	%u%% (100=jalqabaa 0=gurraacha)
+ui	Up / Down  Enter 決める  Left/Right 輝度  ESC やめる	Up / Down  Enter filadhu  Left/Right ifa  ESC haqi
+ui	現在	Ammaa
+ui	壁紙を解除 (黒地)	Suuraa duubaa haqi (gurraacha)
+ui	壁紙を再読み込み	Suuraa duubaa irra deebi'i fe'i
+ui	PNG ファイルで Menu キーから「壁紙に設定」できます	Faayilii PNG irratti Menu cuqaasii suuraa duubaa godhi
+ui	壁紙の輝度 (%)	Ifa suuraa duubaa (%)
+ui	 (黒)	 (gurraacha)
+ui	 (既定)	 (durti)
+ui	 (原画そのまま)	 (jalqabaa)
+ui	壁紙に設定	Suuraa duubaa godhi
 msg.phrase	%s Sum %.7g N %ld%s	%s Ida'ama %.7g N %ld%s
 msg.phrase	EDIT  	GUL.
 msg.phrase	GRAPH  %s  %s	GIRAAFII  %s  %s

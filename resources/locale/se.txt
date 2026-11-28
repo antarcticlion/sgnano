@@ -30,7 +30,7 @@ ui	ファイルの操作（FD と同じ。印・範囲・カーソルの順）	F
 ui	コピー: 行き先は木から選ぶ。ESC で止める	Kopiere: vállje ulbmila dihtora ja máppamuoras. ESC bisána
 ui	削除: y で確かめる。印・範囲をまとめて	Slette: duođaš y:in. Mearkkat ja gaskkat oktanaga. Máppat main lea sisdoallu
 ui	フォルダを削除（中身ごと）	Deaddilat máppa (mas lea sisdoallu)
-ui	名前を変える（今の名前を直して Enter）	Ođasmahttit nama (rievdat nama, čále sisa)
+ui	名前を変える（今の名前を直して Enter）	Ođasmahttit nama (rievdat nama, Enter)
 ui	属性: R 読み出し専用・H 隠し・S システム・A アーカイブ	Iešvuođat: R dušše lohkan, H čihkkojuvvon, S ortnet, A arkiiva
 ui	フォルダを作る	Ođđa máppa
 ui	新しいファイル（空）を作る	Ođđa (guoros) fiila
@@ -106,12 +106,11 @@ ui	何かキーで閉じる	Vaikko makkár čoavddus giddejuvvo
 ui	設定	Ásahusat
 ui	表示の言語	Čájehit giela
 ui	キーボードロケール	Tastaturbáiki
-ui	Up / Down  Enter 決める  ESC やめる	Badjel / Vuolle Sisdoallu vállje ESC heaittihit
 ui	表示の言語 (Language)	Čájehit giela
 ui	Up / Down  Enter 決める  ESC 戻る	Badjel / Vuolit Enter: bidjat ESC: ruovttoluotta
 ui	%c: をどの文字に固定しますか（A〜Z、S を除く。ESC でやめる）	Divtte %c: makkár bustáva? (A-Z earret S. ESC heaittiha)
-ui	ドライブ  文字 / Enter 選ぶ  F2 文字を固定・解除  F3 文字を決めて固定  L / ESC やめる	Vállje bustáva / Čále vállje F2 divvu/heive bustáva F3 divvu nu ahte... L / ESC heaittihit
-ui	  区画 %u	juohkin %u
+ui	ドライブ  文字 / Enter 選ぶ  F2 文字を固定・解除  F3 文字を決めて固定  L / ESC やめる	Vállje bustáva / Enter vállje  F2 divvu/heive bustáva  F3 divvu  L / ESC heaittihit
+ui	  区画 %u	  juohkin %u
 ui	%c:* （固定・つながっていません）%04X:%04X%s  %s	%c:* (fixed, not connected) %04X:%04X%s %s
 ui	お知らせ	Fuomášit
 ui	ドライブ %c:  %s	Drive %c: %s
@@ -219,40 +218,40 @@ ui	 %s  %s  行 %lu/%lu 桁 %u  %s  %s %s%s%s	%s %s Ln %lu/%lu Col %u %s %s %s%s
 ui	*変更	*mod
 ui	上書	OVR
 ui	挿入	INS
-ui	  読出専用	R/O
+ui	  読出専用	  R/O
 ui	 エディタ (sgnano edit)                      F1 / ESC で閉じる	Editor (sgnano edit) F1 / ESC giddejuvvo
 ui	 矢印 / Home End / PgUp PgDn   カーソルを動かす	Piillat / Home End / PgUp PgDn sirdet kursora
 ui	 Ctrl-T / Ctrl-B               ファイルの先頭 / 最後	Ctrl-T / Ctrl-B fiilla bajimusas / loahpas
 ui	 BS / Del                      前の字 / カーソルの字を消す	BS / Del sihkkut ovdal / čujuhusa luhtte
-ui	 Enter                         改行（前の行の字下げを引き継ぐ）	Čále ođđa linjá (doallá sisačuoggá)
+ui	 Enter                         改行（前の行の字下げを引き継ぐ）	 Enter                         Čále ođđa linjá (doallá sisačuoggá)
 ui	 Tab / Ins                     タブ / 挿入と上書きの切り替え	Tab / Ins tab / bidjat sisa dahje čállit badjel
 ui	 F5                            色分け（拡張子から。C/C++・mruby・MicroPython・SG BASIC・なし）	F5 Sárgun (viiddideamis; C/C++, mruby, MicroPython, SG BASIC, ii oktage)
 ui	 F2  (Ctrl-S)                  保存（UTF-8、改行は元の形）	F2 (Ctrl-S) vurket (UTF-8, linnjá loahpat leat vurkejuvvon)
 ui	 F10 / ESC                     閉じる（変更があれば聞く）	F10 / ESC giddejuvvon (jearrá lea go rievdaduvvon)
 ui	 IME:  Ctrl-Space / F12        オン・オフ（あ / A）	IME: Ctrl-Space / F12 on / off (あ / A)
-ui	       F9                      IME の言語（このエディタの間だけ。閉じると戻る）	F9 IME-giella (dušše dát redigeren; fas faskkoduvvon go giddejuvvui)
-ui	       F8                      日本語の予測変換 オン・オフ	F8 japánalaš einnostahtti konverteren on/off
-ui	       日本語                  ローマ字 -> ひらがな（F6）・カタカナ（F7）	Japánalaš romaji -> hiragana (F6) / katakana (F7)
-ui	                               半角ひらがな（Shift+F6）・半角カタカナ（Shift+F7）	Bealleviidosaš hiragana (Shift+F6) / bealleviidosaš katakana (Shift+F7)
-ui	                               2 字以上で予測、Space で連文節変換	Einnosta 2 dahje eanet mearkkain, rievdada joatkkacealkaga gaskkain
-ui	       English                 2 字以上で予測補完	Davvisámegiella Einnostahtti ollašuhttin mas leat 2 dahje eanet mearkkat
-ui	       한국어                  2 ボル式ハングル	한국어 2 Bol-stiila Hangul
-ui	       Space / Enter           変換 / 確定	Gaska / Čále Konverteret / Duođaštit
-ui	       ← →                    文節を選ぶ	← → Vállje cealkaga
-ui	       Shift+← →               文節の右端を 1 字 縮/拡（候補を出し直す）	Shift+← → Unnidit/stuorát cealkaga olgeš loahpa ovtta mearkkain (ođđa kandidáhtat)
-ui	       ↑ ↓ / Tab               候補の窓で前 / 次の候補（窓は変換の下、画面の下では上）	↑ ↓ / Tab Ovddit / boahtte kandidáhtta popup-uvssas (teavstta vuolábealde, bajábealde lahka vuolábealde)
-ui	       →→→ で Enter            すべての候補（2 列 x 8 個、← → で列とページ、Enter で決める）	Čále sisa →→→ Buot kandidáhtat (2 x 8, ← → kolonna ja siidu, Čále vállje)
-ui	       Enter                   次の文節へ（最後の文節で全体を確定）	Čále čuovvovaš cealkaga (duođašta olles maŋimuš cealkagis)
-ui	       Ctrl-U                  いまの語をユーザー辞書へ	Ctrl-U Lasit dálá sáni geavaheaddjisátnegirjái
+ui	       F9                      IME の言語（このエディタの間だけ。閉じると戻る）	       F9 IME-giella (dušše dát redigeren; fas faskkoduvvon go giddejuvvui)
+ui	       F8                      日本語の予測変換 オン・オフ	       F8 japánalaš einnostahtti konverteren on/off
+ui	       日本語                  ローマ字 -> ひらがな（F6）・カタカナ（F7）	       Japánalaš romaji -> hiragana (F6) / katakana (F7)
+ui	                               半角ひらがな（Shift+F6）・半角カタカナ（Shift+F7）	                               Bealleviidosaš hiragana (Shift+F6) / bealleviidosaš katakana (Shift+F7)
+ui	                               2 字以上で予測、Space で連文節変換	                               Einnosta 2 dahje eanet mearkkain, rievdada joatkkacealkaga gaskkain
+ui	       English                 2 字以上で予測補完	       Davvisámegiella Einnostahtti ollašuhttin mas leat 2 dahje eanet mearkkat
+ui	       한국어                  2 ボル式ハングル	       한국어 2 Bol-stiila Hangul
+ui	       Space / Enter           変換 / 確定	       Space / Enter           Rievdadit / Nannet
+ui	       ← →                    文節を選ぶ	       ← → Vállje cealkaga
+ui	       Shift+← →               文節の右端を 1 字 縮/拡（候補を出し直す）	       Shift+← → Unnidit/stuorát cealkaga olgeš loahpa ovtta mearkkain (ođđa kandidáhtat)
+ui	       ↑ ↓ / Tab               候補の窓で前 / 次の候補（窓は変換の下、画面の下では上）	       ↑ ↓ / Tab Ovddit / boahtte kandidáhtta popup-uvssas (teavstta vuolábealde, bajábealde lahka vuolábealde)
+ui	       →→→ で Enter            すべての候補（2 列 x 8 個、← → で列とページ、Enter で決める）	       Enter →→→               Buot kandidáhtat (2 x 8, ← → kolonna ja siidu, Enter vállje)
+ui	       Enter                   次の文節へ（最後の文節で全体を確定）	       Enter                   Čále čuovvovaš cealkaga (duođašta olles maŋimuš cealkagis)
+ui	       Ctrl-U                  いまの語をユーザー辞書へ	       Ctrl-U Lasit dálá sáni geavaheaddjisátnegirjái
 ui	 Shift+F1 / F2 / F3 / F4       先頭 / 最後 / 挿入と上書き / ユーザー辞書へ	Shift+F1 / F2 / F3 / F4 Top / end / insert-overwrite / to the user dictionary
-ui	       BS / ESC                1 字戻す / 取り消し	BS / ESC Mannet ovtta čálamearkka maŋos / Heaittihit
-ui	       , . - [ ] /             、 。 ー 「 」 ・	, . - [ ] / 、 。 ー 「 」 ・
+ui	       BS / ESC                1 字戻す / 取り消し	       BS / ESC Mannet ovtta čálamearkka maŋos / Heaittihit
+ui	       , . - [ ] /             、 。 ー 「 」 ・	       , . - [ ] / 、 。 ー 「 」 ・
 ui	変更あり  Y: 保存して閉じる  N: 保存せず閉じる  ESC: 戻る	Rievdaduvvon Y: vurke ja gidde N: gidde vurkema haga ESC: ruovttoluotta
 ui	[予測] Tab/↑↓: 候補  Space: 変換  Esc: 取消	[Einnostus] Tab/↑↓: kandidáhtta Gaska: konverter Esc: heaittihit
 ui	[候補] ↑↓: 選ぶ  ←→: 列・ページ  Enter: 決める	[Evttohasat] ↑↓: vállje ←→: kolonna/siidu Enter: vállje
-ui	[変換] ↑↓候補 ←→文節 Shift+←→区切り Enter次へ	[Convert] ↑↓cand ←→cealkaga Shift+←→bound Čále čuovvovaš
+ui	[変換] ↑↓候補 ←→文節 Shift+←→区切り Enter次へ	[Convert] ↑↓cand ←→cealkaga Shift+←→bound Enter čuovvovaš
 ui	[한국어] Tab/↑↓: 候補  Enter/Space: 確定	[한국어] Tab/↑↓: kandidáhtta Enter/Space: confirm
-ui	[English] Tab/↑↓: 候補  Enter: 確定	[Eaŋgalasgiella] Tab/↑↓: kandidáhtta Enter: duođaštit
+ui	[English] Tab/↑↓: 候補  Enter: 確定	[English] Tab/↑↓: kandidáhtta Enter: duođaštit
 ui	2ボル式ハングル入力  Ctrl-Space: 英数	2-set Hangul input Ctrl-Space: alphanumeric
 ui	予測補完  Ctrl-Space: 直接入力	Einnostahtti čađaheapmi Ctrl-Space: njuolggo sisačáliheapmi
 ui	辞書なし: ひらがな/カタカナ入力のみ  F6/F7	Ii sátnegirji: hiragana/katakana dušše F6/F7
@@ -269,8 +268,8 @@ ui	色分け: %s	Ivdnen: %s
 ui	読み込んでいます... (loading)	Lasta...
 ui	読み込めませんでした (could not read)	Ii sáhttán lohkat fiilla
 ui	%lu 行%s%s	%lu linnját%s%s
-ui	  Shift_JIS を UTF-8 で開きました（保存は UTF-8）	rahpan Shift_JIS UTF-8:n (vurkejuvvon UTF-8:n)
-ui	  読み出し専用	dušše lohkat
+ui	  Shift_JIS を UTF-8 で開きました（保存は UTF-8）	  rahpan Shift_JIS UTF-8:n (vurkejuvvon UTF-8:n)
+ui	  読み出し専用	  dušše lohkat
 ui	保存しました (saved)	Seailluhuvvon
 ui	保存できませんでした (write failed)	Ii sáhttán vurket (čállin ii lihkostuvvan)
 ui	候補	Evttohasat
@@ -283,7 +282,7 @@ ui	16 進  q ESC: 戻る  F1: ヘルプ	Hex q ESC: ruovttoluotta F1: veahkki
 ui	テキスト  q ESC: 戻る  F1: ヘルプ	Teaksta q ESC: ruovttoluotta F1: veahkki
 ui	ビュアーのキー（less 風。テキストと 16 進で共通）	Geahččančuoggát (dego unnit; seamma teavsttas ja heksa)
 ui	1 行進む	Okta linjá vuolábealde
-ui	1 行戻る	Okta linnjá
+ui	1 行戻る	Okta linnjá bajás
 ui	1 ページ進む	Okta siidu vuollelis
 ui	1 ページ戻る	Okta siidu ovddosguvlui
 ui	半ページ進む / 戻る	Bealli siiddu vuolábeallái / bajás
@@ -309,7 +308,7 @@ ui	（止めています）	(bisánan)
 ui	 元: %s	Dás: %s
 ui	 先: %s	Dasa: %s
 ui	 ファイル %u / %u 個  フォルダ %u 個  %s / %s  (%u%%)%s	Fiillat %u / %u mávssuid %u %s / %s (%u%%)%s
-ui	  多すぎるので一部だけ	menddo ollu: dušše muhtun
+ui	  多すぎるので一部だけ	  menddo ollu: dušše muhtun
 ui	 要る大きさ %s、空き %s。続けますか？	Dárbbaša %s, nuvttá %s. Joatkit?
 ui	 Y: 続ける   N / ESC: やめる	Y: joatkit N / ESC: heaittihit
 ui	 何かキーを押すと閉じます	Deaddilat makkárge čuoggá vai gidde
@@ -328,12 +327,12 @@ ui	一時停止	Bissehuvvon
 ui	再生中	Stoahkamin
 ui	 Space: 一時停止  m: MIDI OUT  q / ESC: 止める	Gaska: bisán m: MIDI OUT q / ESC: bisán
 ui	 q / ESC: やめる	q / ESC: heaittihit
-ui	フォント ROM のライセンスとクレジット\n\nROM: %s（版 %lu.%lu、%lu 文字、フラッシュの 0x%08lX から）\n\n	Font ROM-liseanssat ja kredihtat\n\nROM: %s (veršuvdna %lu.%lu, %lu čálamearkkat, 0x%08lX rájes čuovggas)
-ui	== 収めているフォント（ROM の出所の表）==\n	== Fonttat ROM:as (ROM:a álgotabealla) ==
-ui	  （表が無い ROM）\n	(ROM:as ii leat tabealla)
-ui	\n== ROM のクレジットの区画 ==\n\n	== ROM kredihttaguovlu ==
-ui	（区画が無い）\n	(ii dakkár guovlu)
-ui	\n== 組み込んだソフトウェアのライセンス ==\n	== Sisáibmoprográmma liseanssat ==
+ui	フォント ROM のライセンスとクレジット\n\nROM: %s（版 %lu.%lu、%lu 文字、フラッシュの 0x%08lX から）\n\n	Font ROM-liseanssat ja kredihtat\n\nROM: %s (veršuvdna %lu.%lu, %lu čálamearkkat, 0x%08lX rájes čuovggas)\n\n
+ui	== 収めているフォント（ROM の出所の表）==\n	== Fonttat ROM:as (ROM:a álgotabealla) ==\n
+ui	  （表が無い ROM）\n	  (ROM:as ii leat tabealla)\n
+ui	\n== ROM のクレジットの区画 ==\n\n	\n== ROM kredihttaguovlu ==\n\n
+ui	（区画が無い）\n	(ii dakkár guovlu)\n
+ui	\n== 組み込んだソフトウェアのライセンス ==\n	\n== Sisáibmoprográmma liseanssat ==\n
 ui	 %s を PNG で保存   %s	%s vurkejuvvo PNG %s -hámis
 ui	画面	Šearbma
 ui	 組み立てています... %lu / %lu 行	Hukset... %lu / %lu rievtti
@@ -346,17 +345,24 @@ ui	WAV 書き出し: %s 失敗（%s）	WAV-eksporta: %s ii lihkostuvvan (%s)
 ui	WAV 書き出し: %s 合計 %s	WAV-eksporta: %s oktiibuot %s
 ui	 WAV 書き出し（96kHz / 24bit）: %s	WAV-eksporta (96kHz / 24bit): %s
 ui	中止しました	Heaittihuvvon
+ui	準　備　中　．．．	Ráhkkanit...
+ui	 合計 %s   出力 %s	 Oktiibuot %s   Olggosbuktos %s
+ui	 経過 %s	 Vássán %s
+ui	 %u%%   経過 %s	 %u%%   Vássán %s
+ui	   残り 約 %s	   Báhcá ~%s
+ui	   出力 %s	   Olggosbuktos %s
+ui	 止めています...	 Bisseha...
 ui	失敗しました	Eahpelihkostuvvan
 ui	 合計 %s	Oktiibuot %s
 ui	 中止しました（%s。半端なファイルは消しました）	Heaittihuvvon (%s; oassefiila sihkkojuvvui)
 ui	 書き出せませんでした（%s）。理由:	Ii sáhttán viežžat (%s). Sivva:
 ui	 （理由は分かりません）	(sivva ii leat dieđus)
-ui	 %u%%   経過 %s%s	%u%% ​​mannan %s%s
+ui	 %u%%   経過 %s%s	%u%% mannan %s%s
 ui	 ESC: 止める（半端なファイルは消します）	ESC: bissehit (oassefiila lea sihkkojuvvon)
 ui	書庫: %s	Arkiiva: %s
 ui	読み込み中…（ESC でやめる）	Lohkan... (ESC heaittihuvvo)
 ui	 %u 項目%s  合計 %s バイト  展開先: %s	%u items%s oktiibuot %s bytes váldojuvvo eret: %s
-ui	 Enter 項目を展開  X 全部を展開  ↑↓ 動かす  ESC 閉じる	Čále čoaggit ášši X čoaggit buot ↑↓ sirdit ESC giddejuvvot
+ui	 Enter 項目を展開  X 全部を展開  ↑↓ 動かす  ESC 閉じる	 Enter čoaggit ášši  X čoaggit buot  ↑↓ sirdit  ESC giddejuvvot
 ui	圧縮	Komprimere
 ui	一覧	Listu
 ui	展開	Čájánas
@@ -364,7 +370,7 @@ ui	 合計 %s   %u 項目	Oktiibuot %s %u ášši
 ui	 合計 %s   %u ファイル	Oktiibuot %s %u fiillat
 ui	 中止しました（%s。書きかけのファイルは消しました）	Heaittihuvvon (%s; gárvviskeahtes fiila sihkkojuvvui)
 ui	 できませんでした（%s）: %s	Ii sáhttán dahkat dan (%s): %s
-ui	 %u%%   経過 %s   %s バイト%s	%u%% ​​mannan %s %s bytes%s
+ui	 %u%%   経過 %s   %s バイト%s	%u%% mannan %s %s bytes%s
 ui	 経過 %s   %s バイト%s	mannan %s %s bytes%s
 ui	 ESC: 止める（書きかけのファイルは消します）	ESC: bissehit (gárvvismeahttun fiila lea sihkkojuvvon)
 ui	書庫: %s 失敗（%s）	Arkiiva: %s lihkostuvvan (%s)
@@ -1162,6 +1168,20 @@ ui	%s 秒	%s s
 ui	コンパイル %s  実行 %s	kompileren %s  vuodjin %s
 ui	コンパイル %s	kompileren %s
 ui	実行 %s	vuodjin %s
+ui	壁紙	Duogášgovva
+ui	壁紙の輝度	Duogášgova čuvgesvuohta
+ui	(なし)	(ii mihkkege)
+ui	%u%% (100=原画 0=黒)	%u%% (100=álgogovva 0=čáhppat)
+ui	Up / Down  Enter 決める  Left/Right 輝度  ESC やめる	Up / Down  Enter vállje  Left/Right čuvgesvuohta  ESC heaittihit
+ui	現在	Dálá
+ui	壁紙を解除 (黒地)	Sihko duogášgova (čáhppat)
+ui	壁紙を再読み込み	Viečča duogášgova ođđasit
+ui	PNG ファイルで Menu キーから「壁紙に設定」できます	Deaddil Menu PNG-fiillas bidjat duogášgovvan
+ui	壁紙の輝度 (%)	Duogášgova čuvgesvuohta (%)
+ui	 (黒)	 (čáhppat)
+ui	 (既定)	 (standárda)
+ui	 (原画そのまま)	 (álgogovva)
+ui	壁紙に設定	Bija duogášgovvan
 msg.phrase	1 Help	1 Veahk.
 msg.phrase	3 Copy	3 Kopier
 msg.phrase	4 Paste	4 Liibme

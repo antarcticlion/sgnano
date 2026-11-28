@@ -6,11 +6,16 @@
 #include <stdint.h>
 #include "bench.h"
 
-int dhry_main();                         // third_party/dhrystone/dhry_1.c の main（-Dmain=dhry_main）
+int dhry_main(void);                     // third_party/dhrystone/dhry_1.c の main（-Dmain=dhry_main）
+int dhry0_main(void);                    // Core 0 用独立インスタンス（dhry0_1.c）
 
 static int      want_runs;
 static uint8_t *pool;                    // Rec_Type 2 つ（1 つ 60 バイトほど）。置き場（SRAM / PSRAM）は呼び手が渡す（2026-11-20）
 static unsigned pool_used;
+
+static int      want_runs0;
+static uint8_t *pool0;
+static unsigned pool_used0;
 
 char *dhry_malloc(size_t n) {
     n = (n + 7u) & ~(size_t)7u;
@@ -27,6 +32,21 @@ int dhry_scanf(const char *fmt, ...) {
     *p = want_runs;
     return 1;
 }
+char *dhry0_malloc(size_t n) {
+    n = (n + 7u) & ~(size_t)7u;
+    if (!pool0 || pool_used0 + n > BENCH_DHRY_POOL) return NULL;
+    char *p = (char *)pool0 + pool_used0;
+    pool_used0 += n;
+    return p;
+}
+int dhry0_scanf(const char *fmt, ...) {
+    (void)fmt;
+    va_list ap; va_start(ap, fmt);
+    int *p = va_arg(ap, int *);
+    va_end(ap);
+    *p = want_runs0;
+    return 1;
+}
 int dhry_printf(const char *fmt, ...) { (void)fmt; return 0; }
 long dhry_time(long *t) { if (t) *t = 0; return 0; }
 
@@ -35,4 +55,10 @@ void bench_dhry_runs(int runs, void *pool_mem) {
     pool = (uint8_t *)pool_mem;
     pool_used = 0;
     dhry_main();
+}
+void bench_dhry0_runs(int runs, void *pool_mem) {
+    want_runs0 = runs;
+    pool0 = (uint8_t *)pool_mem;
+    pool_used0 = 0;
+    dhry0_main();
 }

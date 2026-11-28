@@ -930,7 +930,7 @@ SUB PHYSSTEP
     HELD = 0
     IF Machine.KeyDown(Machine.KEY_SPACE) OR Machine.KeyDown(Machine.KEY_UP) THEN HELD = -1
     JUMP = 0
-    IF Machine.PadPressed(0, Machine.PAD_A) THEN JUMP = -1
+    IF Machine.PadPressed(0, Machine.PAD_A) OR Machine.PadDirY(0) < 0 THEN JUMP = -1
     IF HELD AND NOT JUMP_HELD THEN JUMP = -1
     JUMP_HELD = HELD
     IF KBJUMP(KU) THEN JUMP = -1

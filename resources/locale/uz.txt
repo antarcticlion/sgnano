@@ -106,7 +106,6 @@ ui	何かキーで閉じる	Istalgan tugma yopadi
 ui	設定	Sozlamalar
 ui	表示の言語	Koʻrsatish tili
 ui	キーボードロケール	Klaviatura tartibi
-ui	Up / Down  Enter 決める  ESC やめる	Yuqori / Pastki  Enter tanlash  ESC bekor qilish
 ui	表示の言語 (Language)	Koʻrsatish tili
 ui	Up / Down  Enter 決める  ESC 戻る	Yuqori / Pastki  Enter: oʻrnatish  ESC: orqaga
 ui	%c: をどの文字に固定しますか（A〜Z、S を除く。ESC でやめる）	%c: qaysi harfga biriktirilsin? (S dan tashqari A-Z. ESC bekor qiladi)
@@ -346,6 +345,13 @@ ui	WAV 書き出し: %s 失敗（%s）	WAV eksport: %s muvaffaqiyatsiz (%s)
 ui	WAV 書き出し: %s 合計 %s	WAV eksport: %s jami %s
 ui	 WAV 書き出し（96kHz / 24bit）: %s	 WAV eksport (96kHz / 24bit): %s
 ui	中止しました	Bekor qilindi
+ui	準　備　中　．．．	Tayyorlanmoqda...
+ui	 合計 %s   出力 %s	 Jami %s   Chiqish %s
+ui	 経過 %s	 O'tdi %s
+ui	 %u%%   経過 %s	 %u%%   O'tdi %s
+ui	   残り 約 %s	   Qoldi ~%s
+ui	   出力 %s	   Chiqish %s
+ui	 止めています...	 To'xtatilmoqda...
 ui	失敗しました	Muvaffaqiyatsiz
 ui	 合計 %s	 Jami %s
 ui	 中止しました（%s。半端なファイルは消しました）	 Bekor qilindi (%s; chala fayl o'chirildi)
@@ -1041,6 +1047,20 @@ ui	%s 秒	%s s
 ui	コンパイル %s  実行 %s	kompilyatsiya %s  ishga tushirish %s
 ui	コンパイル %s	kompilyatsiya %s
 ui	実行 %s	ishga tushirish %s
+ui	壁紙	Fon rasmi
+ui	壁紙の輝度	Fon yorqinligi
+ui	(なし)	(yoʻq)
+ui	%u%% (100=原画 0=黒)	%u%% (100=asl 0=qora)
+ui	Up / Down  Enter 決める  Left/Right 輝度  ESC やめる	Up / Down  Enter tanlash  Left/Right yorqinlik  ESC bekor qilish
+ui	現在	Joriy
+ui	壁紙を解除 (黒地)	Fon rasmini olib tashlash (qora)
+ui	壁紙を再読み込み	Fon rasmini qayta yuklash
+ui	PNG ファイルで Menu キーから「壁紙に設定」できます	Fon rasmi qilish uchun PNG faylida Menu tugmasini bosing
+ui	壁紙の輝度 (%)	Fon yorqinligi (%)
+ui	 (黒)	 (qora)
+ui	 (既定)	 (standart)
+ui	 (原画そのまま)	 (asl)
+ui	壁紙に設定	Fon rasmi qilish
 msg.phrase	%s Sum %.7g N %ld%s	%s Yigʻindi %.7g N %ld%s
 msg.phrase	EDIT  	TAHR.
 msg.phrase	GRAPH  %s  %s	GRAFIK  %s  %s

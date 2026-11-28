@@ -1,6 +1,6 @@
 # sgnano Python プログラミング仕様書（MicroPython 環境）
 
-版: 2026-11-17 ／ 対象: sgnano のファームウェア（RP2350B、MicroPython v1.29.0）
+版: 2026-11-24 ／ 対象: sgnano のファームウェア（RP2350B、MicroPython v1.29.0）
 
 この文書は、sgnano で動く Python のプログラムを**ほかの人や AI が書く**ための仕様書です。使える書き方・モジュール・メソッドは、
 **実機で一つずつ確かめたもの**です（推測ではありません）。ここに無いものは「無い」と考えてください。
@@ -9,6 +9,8 @@
 対応表は `docs/machine_api.md`、それぞれの仕様書は `docs/sgnano_ruby_guide.md`・`docs/sgnano_basic_guide.md` です。
 **`Machine` のメソッドの細かい働き（引数の範囲・画面モードの組み合わせ・負荷の目安）は Ruby の仕様書の §7・§9 と同じ**なので、そちらも参照してください。
 この文書は Python で違うところを中心に書きます。
+
+【2026-11-24】**マルチタスク・ジョブ制御・CPU 状態 API**（ABI 5.17〜5.19）を反映した。シェル sgsh から **MicroPython を最大 4 インスタンス同時に実行**でき、統合ジョブ制御（`&`・`start`・`detach`・`jobs`・`fg`・`bg`/`resume`・`suspend`/`stop`・`ends`・`wait`・`Ctrl-Z`）に対応した（§2.1）。また `M.core_stat()`・`M.core_id()`・`M.tasks()` を足した（§5）。
 
 【2026-11-17】**FB・ビットマップ・画像の描画**（線・図形・パス・文字・転送、§5）と**圧縮と書庫**（`machine.Archive`、§6）を足した（ABI 5.3・5.12）。
 
@@ -20,7 +22,7 @@
 |---|---|
 | 処理系 | MicroPython v1.29.0（組み込み向けの Python 3）。ソースは本体の中でコンパイルする |
 | 画面 | Ruby と同じ: テキスト面（80 桁 x 30 行。上 28 行が出力の端末、最下行が状態の行）、フレームバッファ（FB、640x480、RGB555・CLUT8・CLUT4、4 ページ）、ローレゾ面（320x240、BG 2 面 + オブジェクト 128 個）、ビットマップ（320x200x8）。`M.mode` の画面モード 0〜7。始めはモード 1 |
-| メモリ | ヒープ 512KB（PSRAM）、スタック 64KB |
+| メモリ | ヒープは初期 64KB から PSRAM へ自動拡張（最大 4MB、`machine.heap_reserve` / `heap_info` 対応）、スタック 64KB |
 | 整数 | **大きさの制限なし**（小さな数は 47 ビットのまま、大きな数は自動で多倍長。`2**100` も正しい） |
 | 浮動小数 | **倍精度**（CPython と同じ精度。`1/3` は `0.3333333333333333`） |
 | 文字列 | UTF-8（`len` は文字数）。**文字列の中の `\u` のエスケープは使えない**（ファイル全体が SyntaxError になる）。日本語はそのまま書く |
@@ -37,9 +39,9 @@
 - **`import` はファイルから読まない**（`import mylib` は ImportError）。プログラムは 1 つのファイルに書く。組み込みのモジュールは import できる（§4）
 - 始めから使える名前: **`M`**（`Machine()` の 1 つ。`M.mode = 2` のように使う）、`Machine`、`Sound`、`File`（`File.exist(path)`）、`Dir`（`Dir.pwd()`）、`machine`（下回りのモジュール）
 
-### 2.1 シェルから使う（2026-11-02）
+### 2.1 シェルから使う（2026-11-02、2026-11-24 改訂）
 
-ファイラーで **x** を押すとシェル **sgsh** が開く。MicroPython のコマンドは UNIX 版に寄せてある。
+ファイラーで **`H`**（または **`Shift+F6`**）を押すとシェル **sgsh** が開く。MicroPython のコマンドは UNIX 版に寄せてある。
 
 ```
 micropython [opts] [-c command | file] [args...]
@@ -54,8 +56,12 @@ micropython -X compile-only file.py  # 文法だけ（何も走らせない）
 - `python` / `python3` は `micropython` の別名（`alias` で上書きできる）
 - `file.py` のように**拡張子だけで**走らせられる。`run file.py a b` でも同じ
 - パイプ・リダイレクト・stdin がそのまま使える: `echo 'print(42)' | micropython`、`micropython file.py > out.txt`
-- 出力はシェルの端末、Traceback は stderr。`$status` は正常 0、例外・誤り・Ctrl-C は 1
-- 実行中に **Ctrl-C**（または Shift+ESC）で子だけを止めてシェルへ戻る。画面モード 2〜7 を使った子は、終わりにモード 1 へ戻して描き直す
+- 出力はシェルの端末（タスクごとの出力 sink で分離）、Traceback は stderr。`$status` は正常 0、例外・誤り・Ctrl-C は 1
+- **複数インスタンス同時実行と統一ジョブ制御（2026-11-24）**: シェルから MicroPython を**最大 4 インスタンス同時**に動かせる（PSRAM 上の独立した `mp_state_ctx_t`・ヒープ・64KB スタック。シェル全体の統合ジョブ表は最大 8 本）
+  - 起動: `python a.py &`、`start [/f|/b] [/s] python a.py`、`detach python a.py`
+  - 操作: `jobs`、`fg [id|%id]`、`bg` / `resume [id|%id]`、`suspend` / `stop [id|%id]`、`ends [-9|-f] id|%id`（終了要求／強制終了）、`wait [id|%id]`、`ps`（`C0`/`C1` 表示）
+  - キー操作: 実行中に **Ctrl-Z** で一時停止してシェルへ戻る（画面モード 2〜4 の FB 内容も保持し、`fg` で元の画面モードに復元）、**Ctrl-C**（または Shift+ESC）で前面ジョブだけを止めてシェルへ戻る
+- **ファイラー起動との違い**: シェル起動中は使わないモード 2 の FB（約 2.4MB）を自動で PSRAM へ解放して空きを広げる。終了時は「press any key」を待たず `$status` を設定して即座にプロンプトへ戻り、画面モード 2〜7 を使った子はモード 1 へ戻して描き直す。
 - `mpy-cross` はこのファームではビルドしていない（`.mpy` は使えない。`mpy-cross` はその旨を出して終わる）
 
 ## 3. 言語として使える書き方
@@ -133,6 +139,9 @@ Ruby の Hash を返すもの（`video_info` など）は dict（鍵は文字列
 | `M.fb_palette(i[, r, g, b])` | CLUT8・CLUT4 の色（読むと `[r, g, b]`） |
 | `M.clock_set()` | 時計を NTP で合わせたか |
 | `M.video_info()` `M.sys_info()` `M.mouse()` `M.tablet()` `M.pad(i)` `M.storage(i)` | 機械の状態（dict。つながっていない `pad` / `storage` は None） |
+| `M.core_stat()` | Core 0 の余裕度・描画負荷・サブタスク稼働率（dict、ABI 5.17/5.19: `idle_pct` `busy_pct` `sub_pct` `idle_us` `busy_us` `sub_us` `pair_max` `pairs` `min_ready`） |
+| `M.core_id()` | 実行中の CPU コア番号（`0` = Core 0、`1` = Core 1。Python スクリプトは常に `1`、ABI 5.19） |
+| `M.tasks()` | 全 RTOS・Core 0 タスク一覧（dict の list、ABI 5.19: `name` `state` `core` `prio` `base_prio` `current` `suspended` `qmi` `stack_size` `stack_unused` `run_us` `switches`）。`task_create` / `task_create_core0` は SGX 外部プログラム専用 |
 
 **FrameBuffer**（`fb = M.fb`）: `fb.width` `fb.height` `fb.bits_per_pixel` `fb.bytes_per_pixel`（属性）、`fb.clear(c=0)` `fb.pset(x, y, c)`
 `fb.pget(x, y)`（外は None）`fb.line` `fb.rect` `fb.fill_rect` `fb.triangle` `fb.fill_triangle` `fb.blit(sx, sy, w, h, dx, dy[, page[, key]])`
@@ -302,7 +311,7 @@ Sound.stop()
 ## 11. 制限のまとめ
 
 1. `import` は組み込みのモジュールだけ（自分のファイルは読まない）。f 文字列・`input`・`\u` のエスケープ・`re` は無い
-2. ヒープは 512KB。640x480 の画素を list に持つと足りない（bytearray で必要な分だけ）
+2. ヒープは初期 64KB から PSRAM へ自動拡張（最大 4MB、`machine.heap_reserve` で下限指定可）。640x480 の画素を list に持つと不足しやすい（bytearray で必要な分だけ）。Core 0 サブタスク生成は SGX 外部プログラム（C/C++）専用で、Python 本体は Core 1 で動作する
 3. 入力は `M.key()` / `M.wait_key()` / `M.key_down()`。ESC は実行を止める
 4. 画面モードは 0〜7。ローレゾ面は 512 タイル・16 パレットで開く
 5. 音はポート 4 つ（Ruby と同じ）
@@ -347,7 +356,7 @@ while M.ms() - t0 < 10000:
 - キー: `M.key()`（無ければ None）・`M.wait_key()`。ESC は使えない（実行を止める）
 - ファイル: `with open(p, "w") as f: f.write(s)`・`json.dump(obj, f)`（閉じるとき書かれる）、`os.listdir()`、`File.exist(p)`。パスは相対か `S:/...`。`json` `hashlib`（sha256）`binascii` `heapq` `cmath` `errno` `io` がある
 - 音: `Sound.note_on(ch, note, vel)`・`Sound.play("x.mid", True)`・`Sound.playing()`（メソッド）・`Sound.stop()`
-- 経過時間は `M.ms()`、待ちは `M.vsync()`、乱数は `random`
+- 経過時間は `M.ms()`、待ちは `M.vsync()`、乱数は `random`。ヒープは 64KB〜4MB の自動拡張（`machine.heap_reserve` / `heap_info`）、CPU・タスク監視は `M.core_id()`（常に 1）・`M.core_stat()`・`M.tasks()`。シェル `sgsh`（ファイラーから `H` / `Shift+F6`）では最大 4 本同時実行やジョブ制御（`&`・`start`・`jobs`・`fg`・`bg`・`suspend`・`ends`・`Ctrl-Z`）が可能
 - FB 表示中は遅い（空ループ 10 万回 0.5 秒、`pset` 1 回約 33µs、全面の `clear` 37ms）
 
 ## 付録: 確かめに使ったもの

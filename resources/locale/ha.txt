@@ -106,7 +106,6 @@ ui	何かキーで閉じる	Kowane maɓalli yana rufewa
 ui	設定	Saituna
 ui	表示の言語	Harshen nuni
 ui	キーボードロケール	Tsarin madannai
-ui	Up / Down  Enter 決める  ESC やめる	Sama / Ƙasa  Enter zaɓi  ESC soke
 ui	表示の言語 (Language)	Harshen nuni
 ui	Up / Down  Enter 決める  ESC 戻る	Sama / Ƙasa  Enter: saita  ESC: koma
 ui	%c: をどの文字に固定しますか（A〜Z、S を除く。ESC でやめる）	Kafa %c: a matsayin wane harafi? (A-Z ban da S. ESC soke)
@@ -346,6 +345,13 @@ ui	WAV 書き出し: %s 失敗（%s）	Fitar da WAV: %s ya kasa (%s)
 ui	WAV 書き出し: %s 合計 %s	Fitar da WAV: %s jimla %s
 ui	 WAV 書き出し（96kHz / 24bit）: %s	 Fitar da WAV (96kHz / 24bit): %s
 ui	中止しました	An soke
+ui	準　備　中　．．．	Ana shiryawa...
+ui	 合計 %s   出力 %s	 Jimla %s   Fitarwa %s
+ui	 経過 %s	 Ya wuce %s
+ui	 %u%%   経過 %s	 %u%%   Ya wuce %s
+ui	   残り 約 %s	   Saura ~%s
+ui	   出力 %s	   Fitarwa %s
+ui	 止めています...	 Ana tsayawa...
 ui	失敗しました	Ya kasa
 ui	 合計 %s	 Jimla %s
 ui	 中止しました（%s。半端なファイルは消しました）	 An soke (%s; an goge fayil ɗin da bai cika ba)
@@ -1041,6 +1047,20 @@ ui	%s 秒	%s s
 ui	コンパイル %s  実行 %s	compile %s  run %s
 ui	コンパイル %s	compile %s
 ui	実行 %s	run %s
+ui	壁紙	Hoton bango
+ui	壁紙の輝度	Hasken hoton bango
+ui	(なし)	(babu)
+ui	%u%% (100=原画 0=黒)	%u%% (100=asali 0=baƙi)
+ui	Up / Down  Enter 決める  Left/Right 輝度  ESC やめる	Up / Down  Enter zaɓi  Left/Right haske  ESC soke
+ui	現在	Na yanzu
+ui	壁紙を解除 (黒地)	Cire hoton bango (baƙi)
+ui	壁紙を再読み込み	Sake loda hoton bango
+ui	PNG ファイルで Menu キーから「壁紙に設定」できます	Danna Menu kan fayil PNG don saita shi hoton bango
+ui	壁紙の輝度 (%)	Hasken hoton bango (%)
+ui	 (黒)	 (baƙi)
+ui	 (既定)	 (tsoho)
+ui	 (原画そのまま)	 (asali)
+ui	壁紙に設定	Saita hoton bango
 msg.phrase	%s Sum %.7g N %ld%s	%s Jimla %.7g N %ld%s
 msg.phrase	EDIT  	GYARA
 msg.phrase	GRAPH  %s  %s	JADAWALI  %s  %s

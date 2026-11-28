@@ -8,18 +8,18 @@ ui	前のページ / 次のページ	Aurreko orrialdea / hurrengo orrialdea
 ui	全部に印 / 印を反転（PC-98 FD と同じ）	Mark guztiak / alderantzikatu markak (PC-98 FD-n bezala)
 ui	先頭 / 最後	Lehena/azkena
 ui	印を付けて次へ / 印だけ付ける	Markatu eta aurrera egin / bakarrik markatu
-ui	Shift+矢印	Maius + Geziak
+ui	Shift+矢印	Shift+ Geziak
 ui	範囲を選ぶ（Space でその範囲に印）	Hautatu barruti bat (Zuneak barrutia markatzen du)
 ui	フォルダに入る・ファイルを開く（F2/X は実行）	Sartu karpeta bat / ireki fitxategi bat (F2/X run)
 ui	上のフォルダへ	Karpeta nagusira arte
 ui	ドライブを選ぶ（USB・フロッピー・CD・S: 内蔵）	Aukeratu unitate bat (USB, diskete, CD, S: integratua)
-ui	コピー（Shift+C / Shift+F3 は行き先を木から）	Kopiatu (Maius+C / Maius+F3 zuhaitzetik helmuga hautatzen du)
+ui	コピー（Shift+C / Shift+F3 は行き先を木から）	Kopiatu (Shift+C / Shift+F3 zuhaitzetik helmuga hautatzen du)
 ui	移動	Mugitu
-ui	削除（Shift+D / Shift+F4 はフォルダ削除）	Ezabatu (Maius+D / Maius+F4 karpeta bat ezabatu)
+ui	削除（Shift+D / Shift+F4 はフォルダ削除）	Ezabatu (Shift+D / Shift+F4 karpeta bat ezabatu)
 ui	名前を変える	Aldatu izena
 ui	属性を変える	Aldatu atributuak
 ui	エディタで開く	Ireki editorean
-ui	テキスト表示（Shift+V / Ctrl+Alt+F7 は 16 進）	Ikusi testu gisa (Maius+V / Ctrl+Alt+F7 hex)
+ui	テキスト表示（Shift+V / Ctrl+Alt+F7 は 16 進）	Ikusi testu gisa (Shift+V / Ctrl+Alt+F7 hex)
 ui	ドライブの情報	Gidatzeko informazioa
 ui	フォルダを作る（Shift+F5） / 新しいファイル（Ctrl+F1）	Karpeta berria (Shift+F5) / fitxategi berria (Ctrl+F1)
 ui	シェル sgsh / 媒体を取り出す	Shell sgsh / kanporatu euskarria
@@ -30,11 +30,11 @@ ui	ファイルの操作（FD と同じ。印・範囲・カーソルの順）	F
 ui	コピー: 行き先は木から選ぶ。ESC で止める	Kopiatu: hautatu helmuga diskoaren eta karpeten zuhaitzetik. ESC gelditzen da
 ui	削除: y で確かめる。印・範囲をまとめて	Ezabatu: berretsi y-rekin. Markak eta barrutiak aldi berean. Karpetak euren edukiarekin
 ui	フォルダを削除（中身ごと）	Ezabatu karpeta bat (bere edukiarekin)
-ui	名前を変える（今の名前を直して Enter）	Aldatu izena (editatu izena, Sartu)
+ui	名前を変える（今の名前を直して Enter）	Aldatu izena (editatu izena, Enter)
 ui	属性: R 読み出し専用・H 隠し・S システム・A アーカイブ	Atributuak: R irakurtzeko soilik, H ezkutua, S sistema, A artxiboa
 ui	フォルダを作る	Karpeta berria
 ui	新しいファイル（空）を作る	Fitxategi berria (hutsik).
-ui	テキストで表示（Shift+V / Ctrl+Alt+F7 は 16 進）	Ikusi testu gisa (Maius+V / Ctrl+Alt+F7 hex)
+ui	テキストで表示（Shift+V / Ctrl+Alt+F7 は 16 進）	Ikusi testu gisa (Shift+V / Ctrl+Alt+F7 hex)
 ui	シェル sgsh（exit / Ctrl-D でファイラーへ）	Shell sgsh (irten / Ctrl-D itzuli fitxategira)
 ui	選んでいるドライブの素性（INQUIRY・IDENTIFY）	Unitatearen identitatea (CONTESTA, IDENTIFIKATU)
 ui	FDD・LS-120・CD の媒体を取り出す	Atera FDD / LS-120 / CD euskarria
@@ -45,7 +45,7 @@ ui	.rb をコンパイルして .mrb を書き出す	Konpilatu .rb eta idatzi .m
 ui	Ruby の REPL（1 行ずつ、Ctrl-D / ESC で終わり）	Ruby REPL (lerro bat aldi berean, Ctrl-D / ESC amaitzeko)
 ui	MicroPython の REPL	MicroPython REPL
 ui	4MB ずつ分割 / .001 から結合	Zatitu 4 MB zatitan / batu .001-tik
-ui	分割 / 結合（Ctrl+F11 / F12 と同じ）	Zatitu / elkartu (Ktrl+F11 / F12 bezala)
+ui	分割 / 結合（Ctrl+F11 / F12 と同じ）	Zatitu / elkartu (Ctrl+F11 / F12 bezala)
 ui	画面（Alt+F。FD の F キーとぶつからない）	Pantaila (Alt+F, ez du talka egiten FD F teklak)
 ui	FB（絵）/ テキスト面を出す・隠す	Erakutsi / ezkutatu FB (irudia) / testua
 ui	FB の表示ページ（0〜3）	FB bistaratzeko orria (0-3)
@@ -70,8 +70,8 @@ ui	半ページ	Orri erdi bat
 ui	探す（前へ・後ろへ）/ 次・前	Bilatu (aurrera / atzera) / hurrengo / aurreko
 ui	一覧へ戻る（F1 はビュアーのヘルプ）	Itzuli zerrendara (F1: ikuslearen laguntza)
 ui	画像のビュアー	Irudien ikuslea
-ui	一覧へ戻る（F2 F3 F6 F7 Shift+F2 F3 は効く）	Itzuli zerrendara (F2 F3 F6 F7 Maius+F2 F3 lana)
-ui	エディタ（E / Shift+F8）	Editorea (E/Maius+F8)
+ui	一覧へ戻る（F2 F3 F6 F7 Shift+F2 F3 は効く）	Itzuli zerrendara (F2 F3 F6 F7 Shift+F2 F3 lana)
+ui	エディタ（E / Shift+F8）	Editorea (E/Shift+F8)
 ui	保存する（UTF-8。改行と BOM は元のまま）	Gorde (UTF-8; lerro amaierak eta BOM mantendu)
 ui	閉じる（変わっていれば Y / N / ESC）	Itxi (aldatu bada: Y / N / ESC)
 ui	挿入 / 上書き	Txertatu / gainidatzi
@@ -106,12 +106,11 @@ ui	何かキーで閉じる	Edozein giltza ixten da
 ui	設定	Ezarpenak
 ui	表示の言語	Bistaratzeko hizkuntza
 ui	キーボードロケール	Teklatuaren lokalizazioa
-ui	Up / Down  Enter 決める  ESC やめる	Gora / Behera Sartu aukeratu ESC ezeztatu
 ui	表示の言語 (Language)	Bistaratzeko hizkuntza
-ui	Up / Down  Enter 決める  ESC 戻る	Gora / Behera Sartu: ezarri ESC: atzera
+ui	Up / Down  Enter 決める  ESC 戻る	Enter Gora / Behera Sartu: ezarri ESC: atzera
 ui	%c: をどの文字に固定しますか（A〜Z、S を除く。ESC でやめる）	Konpondu %c: zein letra gisa? (A-Z S. ESC ezeztatu ezik)
-ui	ドライブ  文字 / Enter 選ぶ  F2 文字を固定・解除  F3 文字を決めて固定  L / ESC やめる	Gidatzeko letra / Sartu hautatu F2 konpondu/deskonpondu F3 letra konpondu gisa... L / ESC ezeztatu
-ui	  区画 %u	zatiketa %u
+ui	ドライブ  文字 / Enter 選ぶ  F2 文字を固定・解除  F3 文字を決めて固定  L / ESC やめる	Gidatzeko letra / Enter hautatu F2 konpondu/deskonpondu F3 letra konpondu gisa... L / ESC ezeztatu
+ui	  区画 %u	  zatiketa %u
 ui	%c:* （固定・つながっていません）%04X:%04X%s  %s	%c:* (finkoa, ez konektatuta) %04X:%04X%s %s
 ui	お知らせ	Oharra
 ui	ドライブ %c:  %s	Gida %c: %s
@@ -219,40 +218,40 @@ ui	 %s  %s  行 %lu/%lu 桁 %u  %s  %s %s%s%s	%s %s Ln %lu/%lu Col %u %s %s %s%s
 ui	*変更	*mod
 ui	上書	OVR
 ui	挿入	INS
-ui	  読出専用	R/O
+ui	  読出専用	  R/O
 ui	 エディタ (sgnano edit)                      F1 / ESC で閉じる	Editor (sgnano edit) F1 / ESC ixten da
-ui	 矢印 / Home End / PgUp PgDn   カーソルを動かす	Geziak / Hasiera Amaiera / PgUp PgDn mugitu kurtsorea
+ui	 矢印 / Home End / PgUp PgDn   カーソルを動かす	Geziak / Home End / PgUp PgDn mugitu kurtsorea
 ui	 Ctrl-T / Ctrl-B               ファイルの先頭 / 最後	Ktrl-T / Ctrl-B fitxategiaren goiko / amaieran
-ui	 BS / Del                      前の字 / カーソルの字を消す	BS / Ezabatu aurretik / kurtsorean
-ui	 Enter                         改行（前の行の字下げを引き継ぐ）	Sartu lerro berria (koska mantentzen du)
-ui	 Tab / Ins                     タブ / 挿入と上書きの切り替え	Fitxa / Ins fitxa / txertatu edo gainidatzi
+ui	 BS / Del                      前の字 / カーソルの字を消す	BS / Del aurretik / kurtsorean
+ui	 Enter                         改行（前の行の字下げを引き継ぐ）	 Enter                         Sartu lerro berria (koska mantentzen du)
+ui	 Tab / Ins                     タブ / 挿入と上書きの切り替え	 Tab / Ins                     tabulazioa / txertatu edo gainidatzi
 ui	 F5                            色分け（拡張子から。C/C++・mruby・MicroPython・SG BASIC・なし）	F5 koloreztatzea (luzapenetik; C/C++, mruby, MicroPython, SG BASIC, bat ere ez)
-ui	 F2  (Ctrl-S)                  保存（UTF-8、改行は元の形）	F2 (Ktrl-S) gorde (UTF-8, lerro amaierak mantendu)
+ui	 F2  (Ctrl-S)                  保存（UTF-8、改行は元の形）	 F2  (Ctrl-S)                  gorde (UTF-8, lerro amaierak mantendu)
 ui	 F10 / ESC                     閉じる（変更があれば聞く）	F10 / ESC itxi (aldatu den galdetzen du)
 ui	 IME:  Ctrl-Space / F12        オン・オフ（あ / A）	IME: Ctrl-Space / F12 aktibatu / desaktibatu (あ / A)
-ui	       F9                      IME の言語（このエディタの間だけ。閉じると戻る）	F9 IME hizkuntza (editore hau soilik; itxitakoan leheneratu da)
-ui	       F8                      日本語の予測変換 オン・オフ	F8 Japoniako bihurketa prediktiboa aktibatu/desaktibatu
-ui	       日本語                  ローマ字 -> ひらがな（F6）・カタカナ（F7）	Japoniako romaji -> hiragana (F6) / katakana (F7)
-ui	                               半角ひらがな（Shift+F6）・半角カタカナ（Shift+F7）	Zabalera erdiko hiragana (Maius+F6) / Zabalera erdiko katakana (Maius+F7)
-ui	                               2 字以上で予測、Space で連文節変換	Aurreikusi 2 karaktere edo gehiagorekin, bihurtu esaldi jarraitua zuriunearekin
-ui	       English                 2 字以上で予測補完	Ingelesa 2 karaktere edo gehiagorekin osatze iragarlea
-ui	       한국어                  2 ボル式ハングル	한국어 2 Bol estiloko Hangul
-ui	       Space / Enter           変換 / 確定	Zuriunea / Sartu Bihurtu / Berretsi
-ui	       ← →                    文節を選ぶ	← → Hautatu esaldi bat
-ui	       Shift+← →               文節の右端を 1 字 縮/拡（候補を出し直す）	Maius+← → Txikitu/hazi esaldiaren eskuineko muturra karaktere batez (hautagai berriak)
-ui	       ↑ ↓ / Tab               候補の窓で前 / 次の候補（窓は変換の下、画面の下では上）	↑ ↓ / Tab Aurrekoa / hurrengo hautagaia laster-leihoan (testuaren azpian, behealdean goian)
-ui	       →→→ で Enter            すべての候補（2 列 x 8 個、← → で列とページ、Enter で決める）	Sartu →→→ Hautagai guztiak (2 x 8, ← → zutabea eta orrialdea, Sartu aukeratzen du)
-ui	       Enter                   次の文節へ（最後の文節で全体を確定）	Sartu hurrengo klausula (azken klausulan osoa berresten du)
-ui	       Ctrl-U                  いまの語をユーザー辞書へ	Ktrl-U Gehitu uneko hitza erabiltzailearen hiztegira
-ui	 Shift+F1 / F2 / F3 / F4       先頭 / 最後 / 挿入と上書き / ユーザー辞書へ	Maius+F1 / F2 / F3 / F4 Goia / amaiera / txertatu-gainidatzi / erabiltzailearen hiztegira
-ui	       BS / ESC                1 字戻す / 取り消し	BS / ESC Karaktere bat atzera egin / Utzi
-ui	       , . - [ ] /             、 。 ー 「 」 ・	, . - [ ] / 、 。 ー 「 」 ・
+ui	       F9                      IME の言語（このエディタの間だけ。閉じると戻る）	       F9 IME hizkuntza (editore hau soilik; itxitakoan leheneratu da)
+ui	       F8                      日本語の予測変換 オン・オフ	       F8 Japoniako bihurketa prediktiboa aktibatu/desaktibatu
+ui	       日本語                  ローマ字 -> ひらがな（F6）・カタカナ（F7）	       Japoniako romaji -> hiragana (F6) / katakana (F7)
+ui	                               半角ひらがな（Shift+F6）・半角カタカナ（Shift+F7）	                               Zabalera erdiko hiragana (Shift+F6) / Zabalera erdiko katakana (Shift+F7)
+ui	                               2 字以上で予測、Space で連文節変換	                               Aurreikusi 2 karaktere edo gehiagorekin, bihurtu esaldi jarraitua zuriunearekin
+ui	       English                 2 字以上で予測補完	       Ingelesa 2 karaktere edo gehiagorekin osatze iragarlea
+ui	       한국어                  2 ボル式ハングル	       한국어 2 Bol estiloko Hangul
+ui	       Space / Enter           変換 / 確定	       Space / Enter           Bihurtu / Berretsi
+ui	       ← →                    文節を選ぶ	       ← → Hautatu esaldi bat
+ui	       Shift+← →               文節の右端を 1 字 縮/拡（候補を出し直す）	       Shift+← → Txikitu/hazi esaldiaren eskuineko muturra karaktere batez (hautagai berriak)
+ui	       ↑ ↓ / Tab               候補の窓で前 / 次の候補（窓は変換の下、画面の下では上）	       ↑ ↓ / Tab Aurrekoa / hurrengo hautagaia laster-leihoan (testuaren azpian, behealdean goian)
+ui	       →→→ で Enter            すべての候補（2 列 x 8 個、← → で列とページ、Enter で決める）	       Enter →→→ Hautagai guztiak (2 x 8, ← → zutabea eta orrialdea, Enter aukeratzen du)
+ui	       Enter                   次の文節へ（最後の文節で全体を確定）	       Enter                   Sartu hurrengo klausula (azken klausulan osoa berresten du)
+ui	       Ctrl-U                  いまの語をユーザー辞書へ	       Ctrl-U                  Gehitu uneko hitza erabiltzailearen hiztegira
+ui	 Shift+F1 / F2 / F3 / F4       先頭 / 最後 / 挿入と上書き / ユーザー辞書へ	Shift+F1 / F2 / F3 / F4 Goia / amaiera / txertatu-gainidatzi / erabiltzailearen hiztegira
+ui	       BS / ESC                1 字戻す / 取り消し	       BS / ESC Karaktere bat atzera egin / Utzi
+ui	       , . - [ ] /             、 。 ー 「 」 ・	       , . - [ ] / 、 。 ー 「 」 ・
 ui	変更あり  Y: 保存して閉じる  N: 保存せず閉じる  ESC: 戻る	Aldatutako Y: gorde eta itxi N: itxi ESC gorde gabe: atzera
 ui	[予測] Tab/↑↓: 候補  Space: 変換  Esc: 取消	[Iragarpena] Tab/↑↓: hautagaia Zuriunea: bihurtu Esc: ezeztatu
-ui	[候補] ↑↓: 選ぶ  ←→: 列・ページ  Enter: 決める	[Hautagaiak] ↑↓: hautatu ←→: zutabea/orria Sartu: aukeratu
-ui	[変換] ↑↓候補 ←→文節 Shift+←→区切り Enter次へ	[Bihurtu] ↑↓cand ←→maius klausula+←→lotuta Sartu hurrengoa
-ui	[한국어] Tab/↑↓: 候補  Enter/Space: 確定	[한국어] Fitxa/↑↓: hautagaia Sartu/Zunea: berretsi
-ui	[English] Tab/↑↓: 候補  Enter: 確定	[Ingelesa] Fitxa/↑↓: hautagaia Sartu: berretsi
+ui	[候補] ↑↓: 選ぶ  ←→: 列・ページ  Enter: 決める	[Hautagaiak] ↑↓: hautatu ←→: zutabea/orria Enter: aukeratu
+ui	[変換] ↑↓候補 ←→文節 Shift+←→区切り Enter次へ	[Bihurtu] ↑↓cand ←→klausula Shift+←→lotuta Enter hurrengoa
+ui	[한국어] Tab/↑↓: 候補  Enter/Space: 確定	[한국어] Tab/↑↓: hautagaia Enter/Zunea: berretsi
+ui	[English] Tab/↑↓: 候補  Enter: 確定	[English] Tab/↑↓: hautagaia Enter: berretsi
 ui	2ボル式ハングル入力  Ctrl-Space: 英数	2 multzoko Hangul sarrera Ctrl-Space: alfanumerikoa
 ui	予測補完  Ctrl-Space: 直接入力	Osaketa prediktiboa Ctrl-Space: sarrera zuzena
 ui	辞書なし: ひらがな/カタカナ入力のみ  F6/F7	Hiztegirik ez: hiragana/katakana bakarrik F6/F7
@@ -269,8 +268,8 @@ ui	色分け: %s	Koloreztatzen: %s
 ui	読み込んでいます... (loading)	Kargatzen...
 ui	読み込めませんでした (could not read)	Ezin izan da fitxategia irakurri
 ui	%lu 行%s%s	%lu lerroak%s%s
-ui	  Shift_JIS を UTF-8 で開きました（保存は UTF-8）	Shift_JIS ireki zen UTF-8 gisa (UTF-8 gisa gordeta)
-ui	  読み出し専用	irakurtzeko soilik
+ui	  Shift_JIS を UTF-8 で開きました（保存は UTF-8）	  Shift_JIS ireki zen UTF-8 gisa (UTF-8 gisa gordeta)
+ui	  読み出し専用	  irakurtzeko soilik
 ui	保存しました (saved)	Gorde
 ui	保存できませんでした (write failed)	Ezin izan da gorde (huts egin du idazketak)
 ui	候補	Hautagaiak
@@ -283,7 +282,7 @@ ui	16 進  q ESC: 戻る  F1: ヘルプ	Hex q ESC: atzera F1: laguntza
 ui	テキスト  q ESC: 戻る  F1: ヘルプ	Testua q ESC: atzera F1: laguntza
 ui	ビュアーのキー（less 風。テキストと 16 進で共通）	Ikuslearen teklak (gutxiago bezala; berdina testua eta hex.)
 ui	1 行進む	Lerro bat behera
-ui	1 行戻る	Ilara bat
+ui	1 行戻る	Lerro bat gora
 ui	1 ページ進む	Orrialde bat behera
 ui	1 ページ戻る	Orrialde bat gora
 ui	半ページ進む / 戻る	Orri erdi bat behera / gora
@@ -309,18 +308,18 @@ ui	（止めています）	(gelditu)
 ui	 元: %s	Nork: %s
 ui	 先: %s	Nori: %s
 ui	 ファイル %u / %u 個  フォルダ %u 個  %s / %s  (%u%%)%s	Fitxategiak %u / %u karpetak %u %s / %s (%u%%)%s
-ui	  多すぎるので一部だけ	gehiegi: batzuk bakarrik
+ui	  多すぎるので一部だけ	  gehiegi: batzuk bakarrik
 ui	 要る大きさ %s、空き %s。続けますか？	Beharrak %s, doakoak %s. Jarraitu nahi duzu?
 ui	 Y: 続ける   N / ESC: やめる	Y: jarraitu N / ESC: ezeztatu
 ui	 何かキーを押すと閉じます	Sakatu edozein tekla ixteko
 ui	 ESC: 止める	ESC: gelditu
-ui	 %s: ←→ ドライブ  ↑↓ フォルダ  Space 開く・閉じる  Enter 決める  ESC やめる	%s: ←→ disko ↑↓ karpeta Espazioa ireki/itxi Sartu aukeratu ESC bertan behera
+ui	 %s: ←→ ドライブ  ↑↓ フォルダ  Space 開く・閉じる  Enter 決める  ESC やめる	 %s: ←→ unitatea  ↑↓ karpeta  Space ireki/itxi  Enter aukeratu  ESC utzi
 ui	 読めません: %s	Ezin da irakurri: %s
 ui	 フォルダを読んでいます...（ESC で止める）  %u 個	Karpetak irakurtzen... (ESC gelditzen da) %u
 ui	 フォルダ %u 個%s	%u karpetak%s
 ui	（多すぎるか深すぎるので、一部だけ）	(gehiegi edo sakonegia: batzuk bakarrik)
 ui	フォルダの展開を止めました	Karpeta irekitzeari utzi dio
-ui	Space で開き直せます。もう一度 ESC でやめます	Espazioak berriro irekitzen du. ESCk berriro ere bertan behera uzten du
+ui	Space で開き直せます。もう一度 ESC でやめます	Espazioak berriro irekitzen du. ESC-k berriro ere bertan behera uzten du
 ui	 SMF / SGT プレイヤー   %s	SMF / SGT erreproduzitzailea %s
 ui	 読み込んでいます... %lu / %lu バイト	Kargatzen... %lu / %lu byte
 ui	 %s / %s   %s   ポート %u	%s / %s %s atakak %u
@@ -328,12 +327,12 @@ ui	一時停止	Pausatuta
 ui	再生中	Jolasean
 ui	 Space: 一時停止  m: MIDI OUT  q / ESC: 止める	Espazioa: pausa m: MIDI OUT q / ESC: gelditu
 ui	 q / ESC: やめる	q / ESC: ezeztatu
-ui	フォント ROM のライセンスとクレジット\n\nROM: %s（版 %lu.%lu、%lu 文字、フラッシュの 0x%08lX から）\n\n	Font ROM lizentziak eta kredituak\n\nROM: %s (%lu.%lu bertsioa, %lu karaktereak, 0x%08lX flashean)
-ui	== 収めているフォント（ROM の出所の表）==\n	== Letra-tipoak ROMan (ROMaren jatorri-taula) ==
-ui	  （表が無い ROM）\n	(ROMak ez du taularik)
-ui	\n== ROM のクレジットの区画 ==\n\n	== ROMaren kredituen eremua ==
-ui	（区画が無い）\n	(halako eremurik ez)
-ui	\n== 組み込んだソフトウェアのライセンス ==\n	== Incorporatutako softwarearen lizentziak ==
+ui	フォント ROM のライセンスとクレジット\n\nROM: %s（版 %lu.%lu、%lu 文字、フラッシュの 0x%08lX から）\n\n	Font ROM lizentziak eta kredituak\n\nROM: %s (%lu.%lu bertsioa, %lu karaktereak, 0x%08lX flashean)\n\n
+ui	== 収めているフォント（ROM の出所の表）==\n	== Letra-tipoak ROMan (ROMaren jatorri-taula) ==\n
+ui	  （表が無い ROM）\n	  (ROMak ez du taularik)\n
+ui	\n== ROM のクレジットの区画 ==\n\n	\n== ROMaren kredituen eremua ==\n\n
+ui	（区画が無い）\n	(halako eremurik ez)\n
+ui	\n== 組み込んだソフトウェアのライセンス ==\n	\n== Incorporatutako softwarearen lizentziak ==\n
 ui	 %s を PNG で保存   %s	%s PNG gisa gordetzen %s
 ui	画面	Pantaila
 ui	 組み立てています... %lu / %lu 行	Eraikuntza... %lu / %lu errenkadak
@@ -346,6 +345,13 @@ ui	WAV 書き出し: %s 失敗（%s）	WAV esportazioa: %s huts egin du (%s)
 ui	WAV 書き出し: %s 合計 %s	WAV esportazioa: %s guztira %s
 ui	 WAV 書き出し（96kHz / 24bit）: %s	WAV esportazioa (96kHz / 24bit): %s
 ui	中止しました	Bertan behera utzita
+ui	準　備　中　．．．	Prestatzen...
+ui	 合計 %s   出力 %s	 Guztira %s   Irteera %s
+ui	 経過 %s	 Igarotakoa %s
+ui	 %u%%   経過 %s	 %u%%   Igarotakoa %s
+ui	   残り 約 %s	   Falta da ~%s
+ui	   出力 %s	   Irteera %s
+ui	 止めています...	 Gelditzen...
 ui	失敗しました	Huts egin du
 ui	 合計 %s	Guztira %s
 ui	 中止しました（%s。半端なファイルは消しました）	Bertan behera utzi da (%s; fitxategi partziala ezabatu da)
@@ -356,7 +362,7 @@ ui	 ESC: 止める（半端なファイルは消します）	ESC: gelditu (fitxa
 ui	書庫: %s	Artxiboa: %s
 ui	読み込み中…（ESC でやめる）	Irakurtzen... (ESC bertan behera uzteko)
 ui	 %u 項目%s  合計 %s バイト  展開先: %s	%u elementuk%s guztira %s byte ateratzeko hona: %s
-ui	 Enter 項目を展開  X 全部を展開  ↑↓ 動かす  ESC 閉じる	Idatzi ateratzeko elementua X atera dena ↑↓ mugitu ESC itxi
+ui	 Enter 項目を展開  X 全部を展開  ↑↓ 動かす  ESC 閉じる	Enter ateratzeko elementua X atera dena ↑↓ mugitu ESC itxi
 ui	圧縮	Konprimitu
 ui	一覧	Zerrenda
 ui	展開	Atera
@@ -1162,6 +1168,20 @@ ui	%s 秒	%s s
 ui	コンパイル %s  実行 %s	konpilazioa %s  exekuzioa %s
 ui	コンパイル %s	konpilazioa %s
 ui	実行 %s	exekuzioa %s
+ui	壁紙	Horma-papera
+ui	壁紙の輝度	Horma-paperaren distira
+ui	(なし)	(bat ere ez)
+ui	%u%% (100=原画 0=黒)	%u%% (100=jatorrizkoa 0=beltza)
+ui	Up / Down  Enter 決める  Left/Right 輝度  ESC やめる	Up / Down  Enter aukeratu  Left/Right distira  ESC utzi
+ui	現在	Unekoa
+ui	壁紙を解除 (黒地)	Kendu horma-papera (beltza)
+ui	壁紙を再読み込み	Birkargatu horma-papera
+ui	PNG ファイルで Menu キーから「壁紙に設定」できます	Sakatu Menu PNG fitxategian horma-paper gisa ezartzeko
+ui	壁紙の輝度 (%)	Horma-paperaren distira (%)
+ui	 (黒)	 (beltza)
+ui	 (既定)	 (lehenetsia)
+ui	 (原画そのまま)	 (jatorrizkoa)
+ui	壁紙に設定	Ezarri horma-paper gisa
 msg.phrase	1 Help	1 Lagun
 msg.phrase	3 Copy	3 Kopiat
 msg.phrase	4 Paste	4 Itsats

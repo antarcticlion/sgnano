@@ -106,12 +106,11 @@ ui	何かキーで閉じる	Çdo çelës mbyllet
 ui	設定	Cilësimet
 ui	表示の言語	Gjuha e shfaqjes
 ui	キーボードロケール	Vendndodhja e tastierës
-ui	Up / Down  Enter 決める  ESC やめる	Lart / Poshtë Shkruani zgjidhni ESC anuloni
 ui	表示の言語 (Language)	Gjuha e shfaqjes
-ui	Up / Down  Enter 決める  ESC 戻る	Lart / Poshtë Hyni: vendosni ESC: mbrapa
+ui	Up / Down  Enter 決める  ESC 戻る	Enter Lart / Poshtë Hyni: vendosni ESC: mbrapa
 ui	%c: をどの文字に固定しますか（A〜Z、S を除く。ESC でやめる）	Fix %c: si cila shkronjë? (A-Z përveç S. ESC anulon)
-ui	ドライブ  文字 / Enter 選ぶ  F2 文字を固定・解除  F3 文字を決めて固定  L / ESC やめる	Shkronja e diskut / Shkruani zgjidhni F2 rregulloni/zgjidhni shkronjën F3 rregulloni si... L / ESC anuloni
-ui	  区画 %u	ndarje %u
+ui	ドライブ  文字 / Enter 選ぶ  F2 文字を固定・解除  F3 文字を決めて固定  L / ESC やめる	Shkronja e diskut / Enter zgjidhni F2 rregulloni/zgjidhni shkronjën F3 rregulloni si... L / ESC anuloni
+ui	  区画 %u	  ndarje %u
 ui	%c:* （固定・つながっていません）%04X:%04X%s  %s	%c:* (i fiksuar, jo i lidhur) %04X:%04X%s %s
 ui	お知らせ	Njoftim
 ui	ドライブ %c:  %s	Ngasja %c: %s
@@ -219,40 +218,40 @@ ui	 %s  %s  行 %lu/%lu 桁 %u  %s  %s %s%s%s	%s %s Ln %lu/%lu Col %u %s %s %s%s
 ui	*変更	*mod
 ui	上書	OVR
 ui	挿入	INS
-ui	  読出専用	R/O
+ui	  読出専用	  R/O
 ui	 エディタ (sgnano edit)                      F1 / ESC で閉じる	Redaktori (sgnano edit) F1 / ESC mbyllet
-ui	 矢印 / Home End / PgUp PgDn   カーソルを動かす	Shigjetat / Fundi kryesor / PgUp PgDn lëvizin kursorin
+ui	 矢印 / Home End / PgUp PgDn   カーソルを動かす	Shigjetat / Home End / PgUp PgDn lëvizin kursorin
 ui	 Ctrl-T / Ctrl-B               ファイルの先頭 / 最後	Ctrl-T / Ctrl-B krye / fundi i skedarit
-ui	 BS / Del                      前の字 / カーソルの字を消す	BS / Fshij para / në kursor
-ui	 Enter                         改行（前の行の字下げを引き継ぐ）	Fut rreshtin e ri (mban dhëmbëzimin)
-ui	 Tab / Ins                     タブ / 挿入と上書きの切り替え	Skeda / Skeda Ins / fut ose mbishkruaj
+ui	 BS / Del                      前の字 / カーソルの字を消す	BS / Del para / në kursor
+ui	 Enter                         改行（前の行の字下げを引き継ぐ）	 Enter                         Fut rreshtin e ri (mban dhëmbëzimin)
+ui	 Tab / Ins                     タブ / 挿入と上書きの切り替え	 Tab / Ins                     tab / fut ose mbishkruaj
 ui	 F5                            色分け（拡張子から。C/C++・mruby・MicroPython・SG BASIC・なし）	Ngjyrosje F5 (nga zgjerimi; C/C++, mruby, MicroPython, SG BASIC, asnjë)
 ui	 F2  (Ctrl-S)                  保存（UTF-8、改行は元の形）	F2 (Ctrl-S) ruaj (UTF-8, fundet e rreshtit ruhen)
 ui	 F10 / ESC                     閉じる（変更があれば聞く）	F10 / ESC mbyllet (pyet nëse është ndryshuar)
 ui	 IME:  Ctrl-Space / F12        オン・オフ（あ / A）	IME: Ctrl-Space / F12 ndezur / fikur (あ / A)
-ui	       F9                      IME の言語（このエディタの間だけ。閉じると戻る）	Gjuha F9 IME (vetëm ky redaktues; restaurohet në mbyllje)
-ui	       F8                      日本語の予測変換 オン・オフ	F8 Konvertimi parashikues japonez aktiv/çaktiv
-ui	       日本語                  ローマ字 -> ひらがな（F6）・カタカナ（F7）	Romani japonez -> hiragana (F6) / katakana (F7)
-ui	                               半角ひらがな（Shift+F6）・半角カタカナ（Shift+F7）	Hiragana me gjysmë gjerësi (Shift+F6) / katakana gjysmë gjerësi (Shift+F7)
-ui	                               2 字以上で予測、Space で連文節変換	Parashikoni me 2 ose më shumë karaktere, konvertoni fjalinë e vazhdueshme me Hapësirë
-ui	       English                 2 字以上で予測補完	Anglisht Plotësimi parashikues me 2 ose më shumë karaktere
-ui	       한국어                  2 ボル式ハングル	한국어 2 Hangulli i stilit Bol
-ui	       Space / Enter           変換 / 確定	Hapësirë ​​/ Fut Konverto / Konfirmo
-ui	       ← →                    文節を選ぶ	← → Zgjidhni një frazë
-ui	       Shift+← →               文節の右端を 1 字 縮/拡（候補を出し直す）	Shift+← → Tkurre/rrite fundin e djathtë të klauzolës me një karakter (kandidatë të rinj)
-ui	       ↑ ↓ / Tab               候補の窓で前 / 次の候補（窓は変換の下、画面の下では上）	↑ ↓ / Skeda e mëparshme / kandidati tjetër në dritaren kërcyese (poshtë tekstit, sipër afër fundit)
-ui	       →→→ で Enter            すべての候補（2 列 x 8 個、← → で列とページ、Enter で決める）	Hyni në →→→ Të gjithë kandidatët (2 x 8, ← → kolona dhe faqja, Enter zgjedh)
-ui	       Enter                   次の文節へ（最後の文節で全体を確定）	Fut klauzolën tjetër (konfirmon të tërën në klauzolën e fundit)
-ui	       Ctrl-U                  いまの語をユーザー辞書へ	Ctrl-U Shtoni fjalën aktuale në fjalorin e përdoruesit
+ui	       F9                      IME の言語（このエディタの間だけ。閉じると戻る）	       Gjuha F9 IME (vetëm ky redaktues; restaurohet në mbyllje)
+ui	       F8                      日本語の予測変換 オン・オフ	       F8 Konvertimi parashikues japonez aktiv/çaktiv
+ui	       日本語                  ローマ字 -> ひらがな（F6）・カタカナ（F7）	       Romani japonez -> hiragana (F6) / katakana (F7)
+ui	                               半角ひらがな（Shift+F6）・半角カタカナ（Shift+F7）	                               Hiragana me gjysmë gjerësi (Shift+F6) / katakana gjysmë gjerësi (Shift+F7)
+ui	                               2 字以上で予測、Space で連文節変換	                               Parashikoni me 2 ose më shumë karaktere, konvertoni fjalinë e vazhdueshme me Hapësirë
+ui	       English                 2 字以上で予測補完	       Anglisht Plotësimi parashikues me 2 ose më shumë karaktere
+ui	       한국어                  2 ボル式ハングル	       한국어 2 Hangulli i stilit Bol
+ui	       Space / Enter           変換 / 確定	       Space / Enter           Konverto / Konfirmo
+ui	       ← →                    文節を選ぶ	       ← → Zgjidhni një frazë
+ui	       Shift+← →               文節の右端を 1 字 縮/拡（候補を出し直す）	       Shift+← → Tkurre/rrite fundin e djathtë të klauzolës me një karakter (kandidatë të rinj)
+ui	       ↑ ↓ / Tab               候補の窓で前 / 次の候補（窓は変換の下、画面の下では上）	       ↑ ↓ / Tab e mëparshme / kandidati tjetër në dritaren kërcyese (poshtë tekstit, sipër afër fundit)
+ui	       →→→ で Enter            すべての候補（2 列 x 8 個、← → で列とページ、Enter で決める）	       Hyni në →→→ Të gjithë kandidatët (2 x 8, ← → kolona dhe faqja, Enter zgjedh)
+ui	       Enter                   次の文節へ（最後の文節で全体を確定）	       Enter                   Fut klauzolën tjetër (konfirmon të tërën në klauzolën e fundit)
+ui	       Ctrl-U                  いまの語をユーザー辞書へ	       Ctrl-U Shtoni fjalën aktuale në fjalorin e përdoruesit
 ui	 Shift+F1 / F2 / F3 / F4       先頭 / 最後 / 挿入と上書き / ユーザー辞書へ	Shift+F1 / F2 / F3 / F4 Top / fund / fut-mbishkruaj / në fjalorin e përdoruesit
-ui	       BS / ESC                1 字戻す / 取り消し	BS / ESC Kthehu prapa një karakter / Anulo
-ui	       , . - [ ] /             、 。 ー 「 」 ・	, . - [ ] / 、 。 ー 「 」 ・
+ui	       BS / ESC                1 字戻す / 取り消し	       BS / ESC Kthehu prapa një karakter / Anulo
+ui	       , . - [ ] /             、 。 ー 「 」 ・	       , . - [ ] / 、 。 ー 「 」 ・
 ui	変更あり  Y: 保存して閉じる  N: 保存せず閉じる  ESC: 戻る	Modifikuar Y: ruaj dhe mbyll N: mbyll pa ruajtur ESC: mbrapa
 ui	[予測] Tab/↑↓: 候補  Space: 変換  Esc: 取消	[Parashikimi] Tab/↑↓: kandidat Hapësira: konverto Esc: anuloje
-ui	[候補] ↑↓: 選ぶ  ←→: 列・ページ  Enter: 決める	[Kandidatët] ↑↓: zgjidhni ←→: kolona/faqe Shkruani: zgjidhni
-ui	[変換] ↑↓候補 ←→文節 Shift+←→区切り Enter次へ	[Konverto] ↑↓kand ←→klauzola Shift+←→lidhur Shkruani tjetër
-ui	[한국어] Tab/↑↓: 候補  Enter/Space: 確定	[한국어] Skeda/↑↓: kandidati Hyni/Hapësira: konfirmoni
-ui	[English] Tab/↑↓: 候補  Enter: 確定	[Anglisht] Tab/↑↓: kandidati Shkruani: konfirmoni
+ui	[候補] ↑↓: 選ぶ  ←→: 列・ページ  Enter: 決める	[Kandidatët] ↑↓: zgjidhni ←→: kolona/faqe Enter: zgjidhni
+ui	[変換] ↑↓候補 ←→文節 Shift+←→区切り Enter次へ	[Konverto] ↑↓kand ←→klauzola Shift+←→lidhur Enter tjetër
+ui	[한국어] Tab/↑↓: 候補  Enter/Space: 確定	[한국어] Tab/↑↓: kandidati  Enter/Space: konfirmoni
+ui	[English] Tab/↑↓: 候補  Enter: 確定	[English] Tab/↑↓: kandidati Enter: konfirmoni
 ui	2ボル式ハングル入力  Ctrl-Space: 英数	Hyrja Hangul me 2 grupe Ctrl-Hapësirë: alfanumerik
 ui	予測補完  Ctrl-Space: 直接入力	Ctrl-Hapësira e përfundimit parashikues: hyrje e drejtpërdrejtë
 ui	辞書なし: ひらがな/カタカナ入力のみ  F6/F7	Nuk ka fjalor: vetëm hiragana/katakana F6/F7
@@ -269,8 +268,8 @@ ui	色分け: %s	Ngjyrosja: %s
 ui	読み込んでいます... (loading)	Po ngarkohet...
 ui	読み込めませんでした (could not read)	Skedari nuk mund të lexohej
 ui	%lu 行%s%s	%lu linjat%s%s
-ui	  Shift_JIS を UTF-8 で開きました（保存は UTF-8）	hapi Shift_JIS si UTF-8 (ruajtur si UTF-8)
-ui	  読み出し専用	vetëm për lexim
+ui	  Shift_JIS を UTF-8 で開きました（保存は UTF-8）	  hapi Shift_JIS si UTF-8 (ruajtur si UTF-8)
+ui	  読み出し専用	  vetëm për lexim
 ui	保存しました (saved)	U ruajt
 ui	保存できませんでした (write failed)	Nuk mundi të ruhej (shkrimi dështoi)
 ui	候補	Kandidatët
@@ -283,7 +282,7 @@ ui	16 進  q ESC: 戻る  F1: ヘルプ	Hex q ESC: prapa F1: ndihmë
 ui	テキスト  q ESC: 戻る  F1: ヘルプ	Teksti q ESC: mbrapa F1: ndihmë
 ui	ビュアーのキー（less 風。テキストと 16 進で共通）	Çelësat e shikuesit (si më pak; e njëjta gjë për tekstin dhe heksin)
 ui	1 行進む	Një rresht më poshtë
-ui	1 行戻る	Një rresht
+ui	1 行戻る	Një rresht lart
 ui	1 ページ進む	Një faqe më poshtë
 ui	1 ページ戻る	Një faqe më lart
 ui	半ページ進む / 戻る	Gjysmë faqe poshtë / lart
@@ -300,7 +299,7 @@ ui	このヘルプを閉じる	Mbylle këtë ndihmë
 ui	コピー	Kopjo
 ui	 %s: フォルダを読んでいます... %u 個	%s: leximi i dosjeve... %u
 ui	 %s: 行き先の空きを数えています...	%s: numërimi i hapësirës së lirë në destinacion...
-ui	 %s: 行き先の空きが足りません	%s: nuk ka hapësirë ​​të mjaftueshme të lirë në destinacion
+ui	 %s: 行き先の空きが足りません	%s: nuk ka hapësirë të mjaftueshme të lirë në destinacion
 ui	 移動: 元のフォルダを消しています	Zhvendos: heqja e dosjeve burimore
 ui	終了しました	U krye
 ui	止まりました	Ndaloi
@@ -309,12 +308,12 @@ ui	（止めています）	(duke ndaluar)
 ui	 元: %s	Nga: %s
 ui	 先: %s	Për: %s
 ui	 ファイル %u / %u 個  フォルダ %u 個  %s / %s  (%u%%)%s	Skedarët %u / %u dosjet %u %s / %s (%u%%)%s
-ui	  多すぎるので一部だけ	shumë: vetëm disa
+ui	  多すぎるので一部だけ	  shumë: vetëm disa
 ui	 要る大きさ %s、空き %s。続けますか？	Nevojë për %s, %s falas. Të vazhdohet?
 ui	 Y: 続ける   N / ESC: やめる	Y: vazhdoni N / ESC: anuloni
 ui	 何かキーを押すと閉じます	Shtypni çdo tast për ta mbyllur
 ui	 ESC: 止める	ESC: ndalo
-ui	 %s: ←→ ドライブ  ↑↓ フォルダ  Space 開く・閉じる  Enter 決める  ESC やめる	%s: ←→ disku ↑↓ dosja Hapësira hap/mbyll Fut zgjidh ESC anulo
+ui	 %s: ←→ ドライブ  ↑↓ フォルダ  Space 開く・閉じる  Enter 決める  ESC やめる	 %s: ←→ disku  ↑↓ dosja  Space hap/mbyll  Enter zgjidh  ESC anulo
 ui	 読めません: %s	Nuk mund të lexohet: %s
 ui	 フォルダを読んでいます...（ESC で止める）  %u 個	Leximi i dosjeve... (ESC ndalon) %u
 ui	 フォルダ %u 個%s	%u dosjet%s
@@ -328,12 +327,12 @@ ui	一時停止	Në pauzë
 ui	再生中	Duke luajtur
 ui	 Space: 一時停止  m: MIDI OUT  q / ESC: 止める	Hapësira: pauzë m: MIDI OUT q / ESC: ndalesë
 ui	 q / ESC: やめる	q / ESC: anuloni
-ui	フォント ROM のライセンスとクレジット\n\nROM: %s（版 %lu.%lu、%lu 文字、フラッシュの 0x%08lX から）\n\n	Licencat dhe kreditet ROM të shkronjave\n\nROM: %s (versioni %lu.%lu, %lu karaktere, nga 0x%08lX në blic)
-ui	== 収めているフォント（ROM の出所の表）==\n	== Fontet në ROM (tabela e origjinës së ROM) ==
-ui	  （表が無い ROM）\n	(ROM nuk ka tabelë)
-ui	\n== ROM のクレジットの区画 ==\n\n	== Zona e kreditit të ROM ==
-ui	（区画が無い）\n	(nuk ka një zonë të tillë)
-ui	\n== 組み込んだソフトウェアのライセンス ==\n	== Licencat e softuerit të integruar ==
+ui	フォント ROM のライセンスとクレジット\n\nROM: %s（版 %lu.%lu、%lu 文字、フラッシュの 0x%08lX から）\n\n	Licencat dhe kreditet ROM të shkronjave\n\nROM: %s (versioni %lu.%lu, %lu karaktere, nga 0x%08lX në blic)\n\n
+ui	== 収めているフォント（ROM の出所の表）==\n	== Fontet në ROM (tabela e origjinës së ROM) ==\n
+ui	  （表が無い ROM）\n	  (ROM nuk ka tabelë)\n
+ui	\n== ROM のクレジットの区画 ==\n\n	\n== Zona e kreditit të ROM ==\n\n
+ui	（区画が無い）\n	(nuk ka një zonë të tillë)\n
+ui	\n== 組み込んだソフトウェアのライセンス ==\n	\n== Licencat e softuerit të integruar ==\n
 ui	 %s を PNG で保存   %s	Ruajtja %s si PNG %s
 ui	画面	Ekrani
 ui	 組み立てています... %lu / %lu 行	Ndërtimi i... %lu / %lu rreshtave
@@ -346,6 +345,13 @@ ui	WAV 書き出し: %s 失敗（%s）	Eksportimi WAV: %s dështoi (%s)
 ui	WAV 書き出し: %s 合計 %s	Eksporti WAV: %s total %s
 ui	 WAV 書き出し（96kHz / 24bit）: %s	Eksporti WAV (96kHz / 24bit): %s
 ui	中止しました	Anuluar
+ui	準　備　中　．．．	Po përgatitet...
+ui	 合計 %s   出力 %s	 Gjithsej %s   Dalja %s
+ui	 経過 %s	 Kaloi %s
+ui	 %u%%   経過 %s	 %u%%   Kaloi %s
+ui	   残り 約 %s	   Mbetet ~%s
+ui	   出力 %s	   Dalja %s
+ui	 止めています...	 Po ndalet...
 ui	失敗しました	Dështoi
 ui	 合計 %s	Gjithsej %s
 ui	 中止しました（%s。半端なファイルは消しました）	U anulua (%s; skedari i pjesshëm u fshi)
@@ -356,7 +362,7 @@ ui	 ESC: 止める（半端なファイルは消します）	ESC: ndaloni (skeda
 ui	書庫: %s	Arkivi: %s
 ui	読み込み中…（ESC でやめる）	Duke lexuar... (ESC për të anuluar)
 ui	 %u 項目%s  合計 %s バイト  展開先: %s	%u artikujt%s %s bajt gjithsej ekstraktoni në: %s
-ui	 Enter 項目を展開  X 全部を展開  ↑↓ 動かす  ESC 閉じる	Fut artikullin ekstrakt X ekstrakt të gjitha ↑↓ zhvendos ESC afër
+ui	 Enter 項目を展開  X 全部を展開  ↑↓ 動かす  ESC 閉じる	Enter artikullin ekstrakt X ekstrakt të gjitha ↑↓ zhvendos ESC afër
 ui	圧縮	Kompresoni
 ui	一覧	Lista
 ui	展開	Ekstrakt
@@ -544,7 +550,7 @@ msg.phrase	Invalid path	Rrugë e pavlefshme
 msg.phrase	Out of memory	Pa memorie
 msg.phrase	No such drive	Nuk ka një makinë të tillë
 msg.phrase	stopped	u ndal
-msg.phrase	cancelled (not enough free space)	anuluar (nuk ka hapësirë ​​të mjaftueshme të lirë)
+msg.phrase	cancelled (not enough free space)	anuluar (nuk ka hapësirë të mjaftueshme të lirë)
 msg.phrase	could not count the free space	nuk mund të numëronte hapësirën e lirë
 msg.phrase	the receiver cancelled	marrësi u anulua
 msg.phrase	no receiver (run rz on the PC)	pa marrës (ekzekutoni rz në PC)
@@ -1162,6 +1168,20 @@ ui	%s 秒	%s s
 ui	コンパイル %s  実行 %s	përpilimi %s  ekzekutimi %s
 ui	コンパイル %s	përpilimi %s
 ui	実行 %s	ekzekutimi %s
+ui	壁紙	Sfondi
+ui	壁紙の輝度	Ndriçimi i sfondit
+ui	(なし)	(asnjë)
+ui	%u%% (100=原画 0=黒)	%u%% (100=origjinal 0=i zi)
+ui	Up / Down  Enter 決める  Left/Right 輝度  ESC やめる	Up / Down  Enter zgjidh  Left/Right ndriçimi  ESC anulo
+ui	現在	Aktual
+ui	壁紙を解除 (黒地)	Hiq sfondin (i zi)
+ui	壁紙を再読み込み	Ringarko sfondin
+ui	PNG ファイルで Menu キーから「壁紙に設定」できます	Shtypni Menu te një skedar PNG për ta vendosur si sfond
+ui	壁紙の輝度 (%)	Ndriçimi i sfondit (%)
+ui	 (黒)	 (i zi)
+ui	 (既定)	 (parazgjedhur)
+ui	 (原画そのまま)	 (origjinal)
+ui	壁紙に設定	Vendos si sfond
 msg.phrase	1 Help	1 Ndihmë
 msg.phrase	3 Copy	3 Kopjo
 msg.phrase	4 Paste	4 Ngjit

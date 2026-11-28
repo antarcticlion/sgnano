@@ -106,12 +106,11 @@ ui	何かキーで閉じる	Unrhyw allwedd yn cau
 ui	設定	Gosodiadau
 ui	表示の言語	Iaith arddangos
 ui	キーボードロケール	Lleoliad bysellfwrdd
-ui	Up / Down  Enter 決める  ESC やめる	Up / Down Enter dewiswch canslo ESC
 ui	表示の言語 (Language)	Iaith arddangos
 ui	Up / Down  Enter 決める  ESC 戻る	Up / Down Enter: gosod ESC: yn ôl
 ui	%c: をどの文字に固定しますか（A〜Z、S を除く。ESC でやめる）	Trwsio %c: fel pa lythyren? (A-Z ac eithrio S. ESC yn canslo)
 ui	ドライブ  文字 / Enter 選ぶ  F2 文字を固定・解除  F3 文字を決めて固定  L / ESC やめる	Llythyr gyrru / Enter dewiswch F2 trwsio / dad-ddwyso'r llythyren F3 atgyweiria fel... L / ESC canslo
-ui	  区画 %u	rhaniad %u
+ui	  区画 %u	  rhaniad %u
 ui	%c:* （固定・つながっていません）%04X:%04X%s  %s	%c:* (sefydlog, heb fod yn gysylltiedig) %04X:%04X%s %s
 ui	お知らせ	Hysbysiad
 ui	ドライブ %c:  %s	Gyrrwch %c: %s
@@ -219,40 +218,40 @@ ui	 %s  %s  行 %lu/%lu 桁 %u  %s  %s %s%s%s	%s %s Ln %lu/%lu Col %u %s %s %s%s
 ui	*変更	*mod
 ui	上書	OVR
 ui	挿入	INS
-ui	  読出専用	R/O
+ui	  読出専用	  R/O
 ui	 エディタ (sgnano edit)                      F1 / ESC で閉じる	Golygydd (golygu sgnano) F1 / ESC yn cau
-ui	 矢印 / Home End / PgUp PgDn   カーソルを動かす	Saethau / Diwedd Cartref / PgUp PgDn symudwch y cyrchwr
+ui	 矢印 / Home End / PgUp PgDn   カーソルを動かす	Saethau / Home End / PgUp PgDn symudwch y cyrchwr
 ui	 Ctrl-T / Ctrl-B               ファイルの先頭 / 最後	Ctrl-T / Ctrl-B uchaf / diwedd y ffeil
 ui	 BS / Del                      前の字 / カーソルの字を消す	BS / Del dileu cyn / wrth y cyrchwr
-ui	 Enter                         改行（前の行の字下げを引き継ぐ）	Rhowch linell newydd (yn cadw'r mewnoliad)
+ui	 Enter                         改行（前の行の字下げを引き継ぐ）	 Enter                         Rhowch linell newydd (yn cadw'r mewnoliad)
 ui	 Tab / Ins                     タブ / 挿入と上書きの切り替え	Tab / Ins tab / mewnosod neu trosysgrifo
 ui	 F5                            色分け（拡張子から。C/C++・mruby・MicroPython・SG BASIC・なし）	Lliwio F5 (o'r estyniad; C/C++, mruby, MicroPython, SG BASIC, dim)
 ui	 F2  (Ctrl-S)                  保存（UTF-8、改行は元の形）	Arbed F2 (Ctrl-S) (UTF-8, cedwir pennau llinellau)
 ui	 F10 / ESC                     閉じる（変更があれば聞く）	Cau F10 / ESC (yn gofyn a yw wedi newid)
 ui	 IME:  Ctrl-Space / F12        オン・オフ（あ / A）	IME: Ctrl-Space / F12 ymlaen / i ffwrdd (あ / A)
-ui	       F9                      IME の言語（このエディタの間だけ。閉じると戻る）	F9 Iaith IME (y golygydd hwn yn unig; adferwyd ar gau)
-ui	       F8                      日本語の予測変換 オン・オフ	F8 trosi rhagfynegol Japaneaidd ymlaen/i ffwrdd
-ui	       日本語                  ローマ字 -> ひらがな（F6）・カタカナ（F7）	romaji Japaneaidd -> hiragana (F6) / katakana (F7)
-ui	                               半角ひらがな（Shift+F6）・半角カタカナ（Shift+F7）	Hiragana hanner lled (Shift+F6) / katakana hanner lled (Shift+F7)
-ui	                               2 字以上で予測、Space で連文節変換	Rhagfynegi gyda 2 nod neu fwy, trosi cymal parhaus gyda Space
-ui	       English                 2 字以上で予測補完	Saesneg Cwblhad rhagfynegol gyda 2 nod neu fwy
-ui	       한국어                  2 ボル式ハングル	한국어 2 Bol-arddull Hangul
-ui	       Space / Enter           変換 / 確定	Gofod / Rhowch Trosi / Cadarnhau
-ui	       ← →                    文節を選ぶ	← → Dewiswch ymadrodd
-ui	       Shift+← →               文節の右端を 1 字 縮/拡（候補を出し直す）	Shift+← → Crebachu/tyfu pen dde'r cymal gan un nod (ymgeiswyr newydd)
-ui	       ↑ ↓ / Tab               候補の窓で前 / 次の候補（窓は変換の下、画面の下では上）	↑ ↓ / Tab Ymgeisydd blaenorol / nesaf yn y ffenestr naid (o dan y testun, uchod ger y gwaelod)
-ui	       →→→ で Enter            すべての候補（2 列 x 8 個、← → で列とページ、Enter で決める）	Rhowch ar →→→ Pob ymgeisydd (2 x 8, ← → colofn a thudalen, Enter sy'n dewis)
-ui	       Enter                   次の文節へ（最後の文節で全体を確定）	Rhowch y cymal nesaf (yn cadarnhau'r cyfan yn y cymal olaf)
-ui	       Ctrl-U                  いまの語をユーザー辞書へ	Ctrl-U Ychwanegu gair cyfredol i eiriadur defnyddiwr
+ui	       F9                      IME の言語（このエディタの間だけ。閉じると戻る）	       F9 Iaith IME (y golygydd hwn yn unig; adferwyd ar gau)
+ui	       F8                      日本語の予測変換 オン・オフ	       F8 trosi rhagfynegol Japaneaidd ymlaen/i ffwrdd
+ui	       日本語                  ローマ字 -> ひらがな（F6）・カタカナ（F7）	       romaji Japaneaidd -> hiragana (F6) / katakana (F7)
+ui	                               半角ひらがな（Shift+F6）・半角カタカナ（Shift+F7）	                               Hiragana hanner lled (Shift+F6) / katakana hanner lled (Shift+F7)
+ui	                               2 字以上で予測、Space で連文節変換	                               Rhagfynegi gyda 2 nod neu fwy, trosi cymal parhaus gyda Space
+ui	       English                 2 字以上で予測補完	       Saesneg Cwblhad rhagfynegol gyda 2 nod neu fwy
+ui	       한국어                  2 ボル式ハングル	       한국어 2 Bol-arddull Hangul
+ui	       Space / Enter           変換 / 確定	       Space / Enter           Trosi / Cadarnhau
+ui	       ← →                    文節を選ぶ	       ← → Dewiswch ymadrodd
+ui	       Shift+← →               文節の右端を 1 字 縮/拡（候補を出し直す）	       Shift+← → Crebachu/tyfu pen dde'r cymal gan un nod (ymgeiswyr newydd)
+ui	       ↑ ↓ / Tab               候補の窓で前 / 次の候補（窓は変換の下、画面の下では上）	       ↑ ↓ / Tab Ymgeisydd blaenorol / nesaf yn y ffenestr naid (o dan y testun, uchod ger y gwaelod)
+ui	       →→→ で Enter            すべての候補（2 列 x 8 個、← → で列とページ、Enter で決める）	       Rhowch ar →→→ Pob ymgeisydd (2 x 8, ← → colofn a thudalen, Enter sy'n dewis)
+ui	       Enter                   次の文節へ（最後の文節で全体を確定）	       Enter                   Rhowch y cymal nesaf (yn cadarnhau'r cyfan yn y cymal olaf)
+ui	       Ctrl-U                  いまの語をユーザー辞書へ	       Ctrl-U Ychwanegu gair cyfredol i eiriadur defnyddiwr
 ui	 Shift+F1 / F2 / F3 / F4       先頭 / 最後 / 挿入と上書き / ユーザー辞書へ	Shift+F1 / F2 / F3 / F4 Top / diwedd / mewnosod - trosysgrifo / i'r geiriadur defnyddiwr
-ui	       BS / ESC                1 字戻す / 取り消し	BS / ESC Mynd yn ôl un nod / Diddymu
-ui	       , . - [ ] /             、 。 ー 「 」 ・	, . - [ ] / 、 。 ー 「 」 ・
+ui	       BS / ESC                1 字戻す / 取り消し	       BS / ESC Mynd yn ôl un nod / Diddymu
+ui	       , . - [ ] /             、 。 ー 「 」 ・	       , . - [ ] / 、 。 ー 「 」 ・
 ui	変更あり  Y: 保存して閉じる  N: 保存せず閉じる  ESC: 戻る	Wedi'i addasu Y: arbed a chau N: cau heb arbed ESC: yn ôl
 ui	[予測] Tab/↑↓: 候補  Space: 変換  Esc: 取消	[Rhagfynegiad] Tab/↑↓: ymgeisydd Gofod: trosi Esc: canslo
-ui	[候補] ↑↓: 選ぶ  ←→: 列・ページ  Enter: 決める	[Ymgeiswyr] ↑↓: dewiswch ←→: colofn/tudalen Rhowch: dewiswch
+ui	[候補] ↑↓: 選ぶ  ←→: 列・ページ  Enter: 決める	[Ymgeiswyr] ↑↓: dewiswch ←→: colofn/tudalen Enter: dewiswch
 ui	[変換] ↑↓候補 ←→文節 Shift+←→区切り Enter次へ	[Trosi] ↑↓cand ←→ cymal Shift+←→ rhwym Enter nesaf
 ui	[한국어] Tab/↑↓: 候補  Enter/Space: 確定	[한국어] Tab/↑↓: ymgeisydd Enter/Gofod: cadarnhau
-ui	[English] Tab/↑↓: 候補  Enter: 確定	[Saesneg] Tab/↑↓: ymgeisydd Rhowch: cadarnhau
+ui	[English] Tab/↑↓: 候補  Enter: 確定	[English] Tab/↑↓: ymgeisydd Enter: cadarnhau
 ui	2ボル式ハングル入力  Ctrl-Space: 英数	Mewnbwn Hangul 2-set Ctrl-Space: alffaniwmerig
 ui	予測補完  Ctrl-Space: 直接入力	Cwblhad rhagfynegol Ctrl-Space: mewnbwn uniongyrchol
 ui	辞書なし: ひらがな/カタカナ入力のみ  F6/F7	Dim geiriadur: hiragana/katakana yn unig F6/F7
@@ -269,8 +268,8 @@ ui	色分け: %s	Lliwio: %s
 ui	読み込んでいます... (loading)	Wrthi'n llwytho...
 ui	読み込めませんでした (could not read)	Methu darllen y ffeil
 ui	%lu 行%s%s	%lu llinellau %s%s
-ui	  Shift_JIS を UTF-8 で開きました（保存は UTF-8）	agor Shift_JIS fel UTF-8 (wedi'i gadw fel UTF-8)
-ui	  読み出し専用	darllen-yn-unig
+ui	  Shift_JIS を UTF-8 で開きました（保存は UTF-8）	  agor Shift_JIS fel UTF-8 (wedi'i gadw fel UTF-8)
+ui	  読み出し専用	  darllen-yn-unig
 ui	保存しました (saved)	Cadwedig
 ui	保存できませんでした (write failed)	Methu cadw (ysgrifennu wedi methu)
 ui	候補	Ymgeiswyr
@@ -309,12 +308,12 @@ ui	（止めています）	(stopio)
 ui	 元: %s	Oddi wrth: %s
 ui	 先: %s	I: %s
 ui	 ファイル %u / %u 個  フォルダ %u 個  %s / %s  (%u%%)%s	Ffeiliau %u / %u ffolderi %u %s / %s (%u%%)%s
-ui	  多すぎるので一部だけ	gormod: dim ond rhai
+ui	  多すぎるので一部だけ	  gormod: dim ond rhai
 ui	 要る大きさ %s、空き %s。続けますか？	Angen %s, rhad ac am ddim %s. Parhau?
 ui	 Y: 続ける   N / ESC: やめる	Y: parhau N / ESC: canslo
 ui	 何かキーを押すと閉じます	Pwyswch unrhyw allwedd i gau
 ui	 ESC: 止める	ESC: stopiwch
-ui	 %s: ←→ ドライブ  ↑↓ フォルダ  Space 開く・閉じる  Enter 決める  ESC やめる	%s: ←→ gyriant ↑↓ ffolder Gofod ar agor/cau Rhowch dewis canslo ESC
+ui	 %s: ←→ ドライブ  ↑↓ フォルダ  Space 開く・閉じる  Enter 決める  ESC やめる	 %s: ←→ gyriant  ↑↓ ffolder  Space agor/cau  Enter dewis  ESC canslo
 ui	 読めません: %s	Methu darllen: %s
 ui	 フォルダを読んでいます...（ESC で止める）  %u 個	Darllen y ffolderi... (ESC yn stopio) %u
 ui	 フォルダ %u 個%s	%u ffolderi%s
@@ -328,12 +327,12 @@ ui	一時停止	Wedi seibio
 ui	再生中	Chwarae
 ui	 Space: 一時停止  m: MIDI OUT  q / ESC: 止める	Gofod: saib m: MIDI ALLAN q / ESC: stop
 ui	 q / ESC: やめる	q / ESC: canslo
-ui	フォント ROM のライセンスとクレジット\n\nROM: %s（版 %lu.%lu、%lu 文字、フラッシュの 0x%08lX から）\n\n	Ffont ROM trwyddedau a chredydau\n\nROM: %s (fersiwn %lu.%lu, %lu nod, o 0x%08lX yn y fflach)
-ui	== 収めているフォント（ROM の出所の表）==\n	== Ffontiau yn y ROM (tabl tarddiad y ROM) ==
-ui	  （表が無い ROM）\n	(nid oes bwrdd ar y ROM)
-ui	\n== ROM のクレジットの区画 ==\n\n	== Maes credydau'r ROM ==
-ui	（区画が無い）\n	(dim ardal o'r fath)
-ui	\n== 組み込んだソフトウェアのライセンス ==\n	== Trwyddedau'r meddalwedd adeiledig ==
+ui	フォント ROM のライセンスとクレジット\n\nROM: %s（版 %lu.%lu、%lu 文字、フラッシュの 0x%08lX から）\n\n	Ffont ROM trwyddedau a chredydau\n\nROM: %s (fersiwn %lu.%lu, %lu nod, o 0x%08lX yn y fflach)\n\n
+ui	== 収めているフォント（ROM の出所の表）==\n	== Ffontiau yn y ROM (tabl tarddiad y ROM) ==\n
+ui	  （表が無い ROM）\n	  (nid oes bwrdd ar y ROM)\n
+ui	\n== ROM のクレジットの区画 ==\n\n	\n== Maes credydau'r ROM ==\n\n
+ui	（区画が無い）\n	(dim ardal o'r fath)\n
+ui	\n== 組み込んだソフトウェアのライセンス ==\n	\n== Trwyddedau'r meddalwedd adeiledig ==\n
 ui	 %s を PNG で保存   %s	Arbed %s fel PNG %s
 ui	画面	Sgrin
 ui	 組み立てています... %lu / %lu 行	Adeiladu... %lu / %lu rhesi
@@ -346,6 +345,13 @@ ui	WAV 書き出し: %s 失敗（%s）	Allforio WAV: %s methu (%s)
 ui	WAV 書き出し: %s 合計 %s	Allforio WAV: %s cyfanswm %s
 ui	 WAV 書き出し（96kHz / 24bit）: %s	Allforio WAV (96kHz / 24bit): %s
 ui	中止しました	Wedi'i ganslo
+ui	準　備　中　．．．	Yn paratoi...
+ui	 合計 %s   出力 %s	 Cyfanswm %s   Allbwn %s
+ui	 経過 %s	 Wedi mynd %s
+ui	 %u%%   経過 %s	 %u%%   Wedi mynd %s
+ui	   残り 約 %s	   Ar ôl ~%s
+ui	   出力 %s	   Allbwn %s
+ui	 止めています...	 Yn stopio...
 ui	失敗しました	Wedi methu
 ui	 合計 %s	Cyfanswm %s
 ui	 中止しました（%s。半端なファイルは消しました）	Wedi'i ganslo (%s; cafodd y ffeil rannol ei dileu)
@@ -356,7 +362,7 @@ ui	 ESC: 止める（半端なファイルは消します）	ESC: stop (mae'r ff
 ui	書庫: %s	Archif: %s
 ui	読み込み中…（ESC でやめる）	Darllen... (ESC i ganslo)
 ui	 %u 項目%s  合計 %s バイト  展開先: %s	%u eitemau%s cyfanswm %s beit dyfyniad i: %s
-ui	 Enter 項目を展開  X 全部を展開  ↑↓ 動かす  ESC 閉じる	Rhowch eitem echdynnu X echdynnu holl ↑↓ symud ESC agos
+ui	 Enter 項目を展開  X 全部を展開  ↑↓ 動かす  ESC 閉じる	Enter eitem echdynnu X echdynnu holl ↑↓ symud ESC agos
 ui	圧縮	Cywasgu
 ui	一覧	Rhestr
 ui	展開	Dyfyniad
@@ -1162,6 +1168,20 @@ ui	%s 秒	%s s
 ui	コンパイル %s  実行 %s	crynhoi %s  rhedeg %s
 ui	コンパイル %s	crynhoi %s
 ui	実行 %s	rhedeg %s
+ui	壁紙	Papur wal
+ui	壁紙の輝度	Disgleirdeb papur wal
+ui	(なし)	(dim)
+ui	%u%% (100=原画 0=黒)	%u%% (100=gwreiddiol 0=du)
+ui	Up / Down  Enter 決める  Left/Right 輝度  ESC やめる	Up / Down  Enter dewis  Left/Right disgleirdeb  ESC canslo
+ui	現在	Cyfredol
+ui	壁紙を解除 (黒地)	Clirio papur wal (du)
+ui	壁紙を再読み込み	Ail-lwytho papur wal
+ui	PNG ファイルで Menu キーから「壁紙に設定」できます	Pwyswch Menu ar ffeil PNG i'w osod fel papur wal
+ui	壁紙の輝度 (%)	Disgleirdeb papur wal (%)
+ui	 (黒)	 (du)
+ui	 (既定)	 (rhagosodedig)
+ui	 (原画そのまま)	 (gwreiddiol)
+ui	壁紙に設定	Gosod fel papur wal
 msg.phrase	1 Help	1 Help
 msg.phrase	3 Copy	3 Copïo
 msg.phrase	4 Paste	4 Gludo

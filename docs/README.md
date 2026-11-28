@@ -33,6 +33,7 @@
 | `src/storage/` | システムドライブ S:（内蔵フラッシュの FAT12） | `storage/sysdisk.h` |
 | `src/mem/` | SRAM アリーナ・PSRAM アリーナ・コンパクション | `mem/vmem.h`、`mem/appmem.h` |
 | `src/rtos/` | M33BEATOS（core1 の RTOS） | `rtos/m33beatos.h` |
+| `src/core0/` | Core 0 サブタスク実行基盤（`c0task`、ABI 5.19） | `core0/c0task.h` |
 | `src/ruby/` | mruby の組み込み、ファイル API、Machine、端末、時計 | `ruby/rbrun.h` |
 | `src/python/` | MicroPython のポート、Machine、socket、FFT | `python/pyrun.h` |
 | `src/basic/` | SG BASIC（MIT、上流は `UPSTREAM.md`） | `basic/include/sgbasic/` |

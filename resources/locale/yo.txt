@@ -106,7 +106,6 @@ ui	何かキーで閉じる	Bọtìnì èyíkéyìí ń pa á
 ui	設定	Ètò
 ui	表示の言語	Èdè ìfihàn
 ui	キーボードロケール	Ìṣètò bọtìnì
-ui	Up / Down  Enter 決める  ESC やめる	Òkè / Ìsàlẹ  Enter yan  ESC fagilé
 ui	表示の言語 (Language)	Èdè ìfihàn
 ui	Up / Down  Enter 決める  ESC 戻る	Òkè / Ìsàlẹ  Enter: ṣètò  ESC: padà
 ui	%c: をどの文字に固定しますか（A〜Z、S を除く。ESC でやめる）	Fi %c: múlẹ bí lẹtà wo? (A-Z àyàfi S. ESC fagilé)
@@ -346,6 +345,13 @@ ui	WAV 書き出し: %s 失敗（%s）	Gbé WAV jáde: %s kùnà (%s)
 ui	WAV 書き出し: %s 合計 %s	Gbé WAV jáde: %s àpapọ %s
 ui	 WAV 書き出し（96kHz / 24bit）: %s	 Gbé WAV jáde (96kHz / 24bit): %s
 ui	中止しました	Ti fagilé
+ui	準　備　中　．．．	Ń múra sílẹ...
+ui	 合計 %s   出力 %s	 Àpapọ %s   Ìjáde %s
+ui	 経過 %s	 Ó ti kọjá %s
+ui	 %u%%   経過 %s	 %u%%   Ó ti kọjá %s
+ui	   残り 約 %s	   Ó kù ~%s
+ui	   出力 %s	   Ìjáde %s
+ui	 止めています...	 Ń dúró...
 ui	失敗しました	Kùnà
 ui	 合計 %s	 Àpapọ %s
 ui	 中止しました（%s。半端なファイルは消しました）	 Ti fagilé (%s; a pa fáìlì tí kò pé rẹ)
@@ -1041,6 +1047,20 @@ ui	%s 秒	%s s
 ui	コンパイル %s  実行 %s	compile %s  run %s
 ui	コンパイル %s	compile %s
 ui	実行 %s	run %s
+ui	壁紙	Aworan abele
+ui	壁紙の輝度	Imole aworan abele
+ui	(なし)	(ko si)
+ui	%u%% (100=原画 0=黒)	%u%% (100=atilẹba 0=dudu)
+ui	Up / Down  Enter 決める  Left/Right 輝度  ESC やめる	Up / Down  Enter yan  Left/Right imole  ESC fagilee
+ui	現在	Lowolowo
+ui	壁紙を解除 (黒地)	Yọ aworan abele kuro (dudu)
+ui	壁紙を再読み込み	Tun gbe aworan abele
+ui	PNG ファイルで Menu キーから「壁紙に設定」できます	Te Menu lori faili PNG lati fi ṣe aworan abele
+ui	壁紙の輝度 (%)	Imole aworan abele (%)
+ui	 (黒)	 (dudu)
+ui	 (既定)	 (aiyipada)
+ui	 (原画そのまま)	 (atilẹba)
+ui	壁紙に設定	Fi ṣe aworan abele
 msg.phrase	%s Sum %.7g N %ld%s	%s Àpapọ %.7g N %ld%s
 msg.phrase	EDIT  	ṢÀT.
 msg.phrase	GRAPH  %s  %s	ÀWÒRÁN  %s  %s

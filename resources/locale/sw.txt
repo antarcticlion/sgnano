@@ -106,7 +106,6 @@ ui	何かキーで閉じる	Kitufe chochote hufunga
 ui	設定	Mipangilio
 ui	表示の言語	Lugha ya kuonyesha
 ui	キーボードロケール	Mpangilio wa kibodi
-ui	Up / Down  Enter 決める  ESC やめる	Juu / Chini  Enter chagua  ESC ghairi
 ui	表示の言語 (Language)	Lugha ya kuonyesha
 ui	Up / Down  Enter 決める  ESC 戻る	Juu / Chini  Enter: weka  ESC: rudi
 ui	%c: をどの文字に固定しますか（A〜Z、S を除く。ESC でやめる）	Funga %c: kama herufi ipi? (A-Z isipokuwa S. ESC hughairi)
@@ -346,6 +345,13 @@ ui	WAV 書き出し: %s 失敗（%s）	Hamisha WAV: %s imeshindwa (%s)
 ui	WAV 書き出し: %s 合計 %s	Hamisha WAV: %s jumla %s
 ui	 WAV 書き出し（96kHz / 24bit）: %s	 Hamisha WAV (96kHz / 24bit): %s
 ui	中止しました	Imeghairiwa
+ui	準　備　中　．．．	Inaandaa...
+ui	 合計 %s   出力 %s	 Jumla %s   Matokeo %s
+ui	 経過 %s	 Imepita %s
+ui	 %u%%   経過 %s	 %u%%   Imepita %s
+ui	   残り 約 %s	   Imebaki ~%s
+ui	   出力 %s	   Matokeo %s
+ui	 止めています...	 Inasimamisha...
 ui	失敗しました	Imeshindwa
 ui	 合計 %s	 Jumla %s
 ui	 中止しました（%s。半端なファイルは消しました）	 Imeghairiwa (%s; faili isiyokamilika imefutwa)
@@ -1041,6 +1047,20 @@ ui	%s 秒	%s s
 ui	コンパイル %s  実行 %s	compile %s  run %s
 ui	コンパイル %s	compile %s
 ui	実行 %s	run %s
+ui	壁紙	Mandhari
+ui	壁紙の輝度	Mwangaza wa mandhari
+ui	(なし)	(hakuna)
+ui	%u%% (100=原画 0=黒)	%u%% (100=asili 0=nyeusi)
+ui	Up / Down  Enter 決める  Left/Right 輝度  ESC やめる	Up / Down  Enter chagua  Left/Right mwangaza  ESC ghairi
+ui	現在	Ya sasa
+ui	壁紙を解除 (黒地)	Ondoa mandhari (nyeusi)
+ui	壁紙を再読み込み	Pakia upya mandhari
+ui	PNG ファイルで Menu キーから「壁紙に設定」できます	Bonyeza Menu kwenye faili ya PNG kuweka kama mandhari
+ui	壁紙の輝度 (%)	Mwangaza wa mandhari (%)
+ui	 (黒)	 (nyeusi)
+ui	 (既定)	 (chaguomsingi)
+ui	 (原画そのまま)	 (asili)
+ui	壁紙に設定	Weka kama mandhari
 msg.phrase	%s Sum %.7g N %ld%s	%s Jumla %.7g N %ld%s
 msg.phrase	EDIT  	HARIR
 msg.phrase	GRAPH  %s  %s	GRAFU  %s  %s

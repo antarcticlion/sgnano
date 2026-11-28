@@ -106,7 +106,6 @@ ui	何かキーで閉じる	Fure kasta wuu xiraa
 ui	設定	Dejin
 ui	表示の言語	Luqadda muujinta
 ui	キーボードロケール	Qaabka kiiboodhka
-ui	Up / Down  Enter 決める  ESC やめる	Kor / Hoos  Enter dooro  ESC jooji
 ui	表示の言語 (Language)	Luqadda muujinta
 ui	Up / Down  Enter 決める  ESC 戻る	Kor / Hoos  Enter: deji  ESC: ku noqo
 ui	%c: をどの文字に固定しますか（A〜Z、S を除く。ESC でやめる）	%c: ku dhaji xaraf kee? (A-Z marka laga reebo S. ESC jooji)
@@ -346,6 +345,13 @@ ui	WAV 書き出し: %s 失敗（%s）	Dhoofinta WAV: %s way fashilantay (%s)
 ui	WAV 書き出し: %s 合計 %s	Dhoofinta WAV: %s wadar %s
 ui	 WAV 書き出し（96kHz / 24bit）: %s	 Dhoofinta WAV (96kHz / 24bit): %s
 ui	中止しました	Waa la joojiyay
+ui	準　備　中　．．．	Diyaarinaya...
+ui	 合計 %s   出力 %s	 Wadarta %s   Wax-soo-saar %s
+ui	 経過 %s	 La soo dhaafay %s
+ui	 %u%%   経過 %s	 %u%%   La soo dhaafay %s
+ui	   残り 約 %s	   Haray ~%s
+ui	   出力 %s	   Wax-soo-saar %s
+ui	 止めています...	 Waa la joojinayaa...
 ui	失敗しました	Way fashilantay
 ui	 合計 %s	 Wadar %s
 ui	 中止しました（%s。半端なファイルは消しました）	 Waa la joojiyay (%s; faylka aan dhammaystirnayn waa la tirtiray)
@@ -1041,6 +1047,20 @@ ui	%s 秒	%s s
 ui	コンパイル %s  実行 %s	compile %s  run %s
 ui	コンパイル %s	compile %s
 ui	実行 %s	run %s
+ui	壁紙	Sawirka gidaarka
+ui	壁紙の輝度	Iftiinka sawirka gidaarka
+ui	(なし)	(midna)
+ui	%u%% (100=原画 0=黒)	%u%% (100=asal 0=madow)
+ui	Up / Down  Enter 決める  Left/Right 輝度  ESC やめる	Up / Down  Enter dooro  Left/Right iftiin  ESC jooji
+ui	現在	Hadda
+ui	壁紙を解除 (黒地)	Ka saar sawirka gidaarka (madow)
+ui	壁紙を再読み込み	Dib u soo rar sawirka
+ui	PNG ファイルで Menu キーから「壁紙に設定」できます	Riix Menu faylka PNG si aad uga dhigto sawirka gidaarka
+ui	壁紙の輝度 (%)	Iftiinka sawirka gidaarka (%)
+ui	 (黒)	 (madow)
+ui	 (既定)	 (caadi)
+ui	 (原画そのまま)	 (asal)
+ui	壁紙に設定	Ka dhig sawirka gidaarka
 msg.phrase	%s Sum %.7g N %ld%s	%s Wadarta %.7g N %ld%s
 msg.phrase	EDIT  	TAF.
 msg.phrase	GRAPH  %s  %s	GARAAF  %s  %s

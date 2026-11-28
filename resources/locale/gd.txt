@@ -30,7 +30,7 @@ ui	ファイルの操作（FD と同じ。印・範囲・カーソルの順）	O
 ui	コピー: 行き先は木から選ぶ。ESC で止める	Dèan lethbhreac: tagh an ceann-uidhe bhon draibhear agus craobh pasgan. Tha ESC a’ stad
 ui	削除: y で確かめる。印・範囲をまとめて	Sguab às: dearbhaich le y. Comharran agus raointean aig an aon àm. Faidhlichean leis an t-susbaint aca
 ui	フォルダを削除（中身ごと）	Sguab às pasgan (leis na th' ann)
-ui	名前を変える（今の名前を直して Enter）	Ath-ainmich (deasaich an t-ainm, cuir a-steach)
+ui	名前を変える（今の名前を直して Enter）	Ath-ainmich (deasaich an t-ainm, Enter)
 ui	属性: R 読み出し専用・H 隠し・S システム・A アーカイブ	Feartan: R leughadh a-mhàin, H falaichte, siostam S, tasglann A
 ui	フォルダを作る	Pasgan ùr
 ui	新しいファイル（空）を作る	Faidhle ùr (falamh).
@@ -84,7 +84,7 @@ ui	シェル（csh の一部。exit / Ctrl-D で戻る、help で一覧）	Shell
 ui	一覧と移動	Dèan liosta agus gluasad
 ui	ファイルの操作	Obraichean faidhle
 ui	ビュアーとエディタ	Luchd-amhairc agus an neach-deasachaidh
-ui	ヘルプ  %u / %u  %s	Help  %u / %u  %s
+ui	ヘルプ  %u / %u  %s	Cobhair  %u / %u  %s
 ui	Left Right: ページを替える    F1 / ESC: 閉じる	Clì Deas: atharraich an duilleag F1 / ESC: dùin
 ui	sgnano を再起動しますか？	Ath-thòisich sgnano?
 ui	[ 再起動 ]	[ Ath-thòisich ]
@@ -106,17 +106,16 @@ ui	何かキーで閉じる	Bidh iuchair sam bith a’ dùnadh
 ui	設定	Suidhichidhean
 ui	表示の言語	Cànan taisbeanaidh
 ui	キーボードロケール	Ionad meur-chlàr
-ui	Up / Down  Enter 決める  ESC やめる	Suas / Sìos Enter tagh cuir dheth ESC
 ui	表示の言語 (Language)	Cànan taisbeanaidh
-ui	Up / Down  Enter 決める  ESC 戻る	Suas / sìos Cuir a-steach: suidhich ESC: air ais
+ui	Up / Down  Enter 決める  ESC 戻る	Enter Suas / sìos Cuir a-steach: suidhich ESC: air ais
 ui	%c: をどの文字に固定しますか（A〜Z、S を除く。ESC でやめる）	Ceartaich %c: dè an litir? (AZ ach a-mhàin S. ESC air a chuir dheth)
-ui	ドライブ  文字 / Enter 選ぶ  F2 文字を固定・解除  F3 文字を決めて固定  L / ESC やめる	Litir draibhidh / Cuir a-steach tagh F2 socraich / dì-stàlaich an litir F3 mar ... cuir dheth L / ESC
-ui	  区画 %u	sgaradh %u
+ui	ドライブ  文字 / Enter 選ぶ  F2 文字を固定・解除  F3 文字を決めて固定  L / ESC やめる	Litir draibhidh / Enter tagh F2 socraich / dì-stàlaich an litir F3 mar ... cuir dheth L / ESC
+ui	  区画 %u	  sgaradh %u
 ui	%c:* （固定・つながっていません）%04X:%04X%s  %s	%c:* (stèidhichte, gun cheangal) %04X:%04X%s %s
 ui	お知らせ	Sanas
-ui	ドライブ %c:  %s	Dràibheadh ​​%c: %s
+ui	ドライブ %c:  %s	Draibh %c:  %s
 ui	ドライブ  (なし)	Drive (chan eil gin)
-ui	音楽 CD  %u トラック	Audio CD  %u tracks
+ui	音楽 CD  %u トラック	CD Ciùil  %u slighean
 ui	フォルダ %u  ファイル %u  合計 %s	Faidhlichean %u fhaidhlichean %u iomlan %s
 ui	読んでいます...	A' leughadh...
 ui	* 印 %u 個  %s	* comharraichte %u %s
@@ -219,40 +218,40 @@ ui	 %s  %s  行 %lu/%lu 桁 %u  %s  %s %s%s%s	 %s  %s  Ln %lu/%lu Col %u  %s  %s
 ui	*変更	*modh
 ui	上書	OVR
 ui	挿入	INS
-ui	  読出専用	R/O
+ui	  読出専用	  R/O
 ui	 エディタ (sgnano edit)                      F1 / ESC で閉じる	Deasaiche (deasachadh sgnano) F1 / ESC a’ dùnadh
-ui	 矢印 / Home End / PgUp PgDn   カーソルを動かす	Saighdean / Deireadh Dachaigh / PgUp PgDn gluais an cursair
+ui	 矢印 / Home End / PgUp PgDn   カーソルを動かす	Saighdean / Home End / PgUp PgDn gluais an cursair
 ui	 Ctrl-T / Ctrl-B               ファイルの先頭 / 最後	Ctrl-T / Ctrl-B mullach / deireadh an fhaidhle
 ui	 BS / Del                      前の字 / カーソルの字を消す	BS / Del sguab às roimhe / aig a’ chursair
-ui	 Enter                         改行（前の行の字下げを引き継ぐ）	Cuir a-steach loidhne ùr (a’ cumail an indent)
+ui	 Enter                         改行（前の行の字下げを引き継ぐ）	 Enter                         Cuir a-steach loidhne ùr (a’ cumail an indent)
 ui	 Tab / Ins                     タブ / 挿入と上書きの切り替え	Tab / Ins tab / cuir a-steach no cuir thairis air
 ui	 F5                            色分け（拡張子から。C/C++・mruby・MicroPython・SG BASIC・なし）	Dathadh F5 (bhon leudachadh; C/C ++, mruby, MicroPython, SG BASIC, gin)
 ui	 F2  (Ctrl-S)                  保存（UTF-8、改行は元の形）	Sàbhail F2 (Ctrl-S) (UTF-8, cinn loidhne air an cumail)
 ui	 F10 / ESC                     閉じる（変更があれば聞く）	F10 / ESC dùin (a’ faighneachd an deach atharrachadh)
 ui	 IME:  Ctrl-Space / F12        オン・オフ（あ / A）	IME: Ctrl-Space / F12 air / dheth (あ / A)
-ui	       F9                      IME の言語（このエディタの間だけ。閉じると戻る）	Cànan F9 IME (an deasaiche seo a-mhàin; air ath-nuadhachadh faisg air làimh)
-ui	       F8                      日本語の予測変換 オン・オフ	F8 Tionndadh ro-innse Iapanach air / dheth
-ui	       日本語                  ローマ字 -> ひらがな（F6）・カタカナ（F7）	romaji Iapanach -> hiragana (F6) / katakana (F7)
-ui	                               半角ひらがな（Shift+F6）・半角カタカナ（Shift+F7）	Hiragana leth-leud (Shift+F6) / katakana leth-leud (Shift+F7)
-ui	                               2 字以上で予測、Space で連文節変換	Dèan ro-innse le 2 charactar no barrachd, tionndaidh clàs leantainneach le Space
-ui	       English                 2 字以上で予測補完	Beurla Crìochnachadh ro-innseach le 2 charactar no barrachd
-ui	       한국어                  2 ボル式ハングル	한국어 2 Hangul ann an stoidhle Bol
-ui	       Space / Enter           変換 / 確定	Àite / Cuir a-steach Tionndadh / Dearbhaich
-ui	       ← →                    文節を選ぶ	← → Tagh abairt
-ui	       Shift+← →               文節の右端を 1 字 縮/拡（候補を出し直す）	Shift+← → Lùghdaich/fas ceann deas a’ chlàs le aon charactar (tagraichean ùra)
-ui	       ↑ ↓ / Tab               候補の窓で前 / 次の候補（窓は変換の下、画面の下では上）	↑ ↓ / Tab Roimhe / an ath thagraiche anns a’ priob-uinneag (fon teacsa, gu h-àrd faisg air a’ bhonn)
-ui	       →→→ で Enter            すべての候補（2 列 x 8 個、← → で列とページ、Enter で決める）	Cuir a-steach air →→→ A h-uile tagraiche (2 x 8, ← → colbh agus duilleag, tha Enter a’ taghadh)
-ui	       Enter                   次の文節へ（最後の文節で全体を確定）	Cuir a-steach An ath chlàs (a’ dearbhadh an t-iomlan aig a’ chlàs mu dheireadh)
-ui	       Ctrl-U                  いまの語をユーザー辞書へ	Ctrl-U Cuir am facal gnàthach ri faclair luchd-cleachdaidh
+ui	       F9                      IME の言語（このエディタの間だけ。閉じると戻る）	       Cànan F9 IME (an deasaiche seo a-mhàin; air ath-nuadhachadh faisg air làimh)
+ui	       F8                      日本語の予測変換 オン・オフ	       F8 Tionndadh ro-innse Iapanach air / dheth
+ui	       日本語                  ローマ字 -> ひらがな（F6）・カタカナ（F7）	       romaji Iapanach -> hiragana (F6) / katakana (F7)
+ui	                               半角ひらがな（Shift+F6）・半角カタカナ（Shift+F7）	                               Hiragana leth-leud (Shift+F6) / katakana leth-leud (Shift+F7)
+ui	                               2 字以上で予測、Space で連文節変換	                               Dèan ro-innse le 2 charactar no barrachd, tionndaidh clàs leantainneach le Space
+ui	       English                 2 字以上で予測補完	       Beurla Crìochnachadh ro-innseach le 2 charactar no barrachd
+ui	       한국어                  2 ボル式ハングル	       한국어 2 Hangul ann an stoidhle Bol
+ui	       Space / Enter           変換 / 確定	       Space / Enter           Tionndaidh / Dearbhaich
+ui	       ← →                    文節を選ぶ	       ← → Tagh abairt
+ui	       Shift+← →               文節の右端を 1 字 縮/拡（候補を出し直す）	       Shift+← → Lùghdaich/fas ceann deas a’ chlàs le aon charactar (tagraichean ùra)
+ui	       ↑ ↓ / Tab               候補の窓で前 / 次の候補（窓は変換の下、画面の下では上）	       ↑ ↓ / Tab Roimhe / an ath thagraiche anns a’ priob-uinneag (fon teacsa, gu h-àrd faisg air a’ bhonn)
+ui	       →→→ で Enter            すべての候補（2 列 x 8 個、← → で列とページ、Enter で決める）	       Cuir a-steach air →→→ A h-uile tagraiche (2 x 8, ← → colbh agus duilleag, tha Enter a’ taghadh)
+ui	       Enter                   次の文節へ（最後の文節で全体を確定）	       Enter                   Cuir a-steach An ath chlàs (a’ dearbhadh an t-iomlan aig a’ chlàs mu dheireadh)
+ui	       Ctrl-U                  いまの語をユーザー辞書へ	       Ctrl-U Cuir am facal gnàthach ri faclair luchd-cleachdaidh
 ui	 Shift+F1 / F2 / F3 / F4       先頭 / 最後 / 挿入と上書き / ユーザー辞書へ	Shift + F1 / F2 / F3 / F4 Top / deireadh / cuir a-steach - ath-sgrìobhadh / gu faclair an neach-cleachdaidh
-ui	       BS / ESC                1 字戻す / 取り消し	BS / ESC Rach air ais aon charactar / Sguir dheth
-ui	       , . - [ ] /             、 。 ー 「 」 ・	, . - [ ] / 、 。 ー 「 」 ・
+ui	       BS / ESC                1 字戻す / 取り消し	       BS / ESC Rach air ais aon charactar / Sguir dheth
+ui	       , . - [ ] /             、 。 ー 「 」 ・	       , . - [ ] / 、 。 ー 「 」 ・
 ui	変更あり  Y: 保存して閉じる  N: 保存せず閉じる  ESC: 戻る	Atharraichte Y: sàbhail agus dùin N: dùin gun a bhith a’ sàbhaladh ESC: air ais
 ui	[予測] Tab/↑↓: 候補  Space: 変換  Esc: 取消	[Ro-innse] Tab/↑↓: tagraiche Àite: tionndaidh Esc: cuir dheth
-ui	[候補] ↑↓: 選ぶ  ←→: 列・ページ  Enter: 決める	[Tagraichean] ↑↓: tagh ←→: colbh/duilleag Cuir a-steach: tagh
-ui	[変換] ↑↓候補 ←→文節 Shift+←→区切り Enter次へ	[Tionndaidh] ↑↓cand ←→ clàs Shift+← → Ceangailte Cuir a-steach an ath rud
-ui	[한국어] Tab/↑↓: 候補  Enter/Space: 確定	[한국어] Tab/↑↓: tagraiche Cuir a-steach/Space: dearbhaich
-ui	[English] Tab/↑↓: 候補  Enter: 確定	[Beurla] Tab/↑↓: tagraiche Cuir a-steach: dearbhaich
+ui	[候補] ↑↓: 選ぶ  ←→: 列・ページ  Enter: 決める	[Tagraichean] ↑↓: tagh ←→: colbh/duilleag Enter: tagh
+ui	[変換] ↑↓候補 ←→文節 Shift+←→区切り Enter次へ	[Tionndaidh] ↑↓cand ←→ clàs Shift+← → Ceangailte Enter an ath rud
+ui	[한국어] Tab/↑↓: 候補  Enter/Space: 確定	[한국어] Tab/↑↓: tagraiche Enter/Space: dearbhaich
+ui	[English] Tab/↑↓: 候補  Enter: 確定	[English] Tab/↑↓: tagraiche Enter: dearbhaich
 ui	2ボル式ハングル入力  Ctrl-Space: 英数	Cuir a-steach Hangul 2-seata Ctrl-Space: alphanumeric
 ui	予測補完  Ctrl-Space: 直接入力	Crìochnachadh ro-innseach Ctrl-Space: cuir a-steach dìreach
 ui	辞書なし: ひらがな/カタカナ入力のみ  F6/F7	Gun fhaclair: hiragana/katakana a-mhàin F6/F7
@@ -269,8 +268,8 @@ ui	色分け: %s	Dathan: %s
 ui	読み込んでいます... (loading)	A' luchdachadh...
 ui	読み込めませんでした (could not read)	Cha b' urrainn dhuinn am faidhle a leughadh
 ui	%lu 行%s%s	%lu loidhnichean %s %s
-ui	  Shift_JIS を UTF-8 で開きました（保存は UTF-8）	fhosgladh Shift_JIS mar UTF-8 (sàbhail mar UTF-8)
-ui	  読み出し専用	leughadh a-mhàin
+ui	  Shift_JIS を UTF-8 で開きました（保存は UTF-8）	  fhosgladh Shift_JIS mar UTF-8 (sàbhail mar UTF-8)
+ui	  読み出し専用	  leughadh a-mhàin
 ui	保存しました (saved)	Air a shàbhaladh
 ui	保存できませんでした (write failed)	Cha b' urrainn dhuinn sàbhaladh (dh'fhàillig an sgrìobhadh)
 ui	候補	Tagraichean
@@ -309,12 +308,12 @@ ui	（止めています）	(stad)
 ui	 元: %s	bho: %s
 ui	 先: %s	Gu: %s
 ui	 ファイル %u / %u 個  フォルダ %u 個  %s / %s  (%u%%)%s	Faidhlichean %u / %u pasgain %u %s / %s (%u %%) %s
-ui	  多すぎるので一部だけ	cus: only some
+ui	  多すぎるので一部だけ	  cus: only some
 ui	 要る大きさ %s、空き %s。続けますか？	Feumaidh %s, saor %s. Lean air adhart?
 ui	 Y: 続ける   N / ESC: やめる	Y: lean air adhart N / ESC: cuir dheth
 ui	 何かキーを押すと閉じます	Brùth iuchair sam bith gus a dhùnadh
 ui	 ESC: 止める	ESC: stad
-ui	 %s: ←→ ドライブ  ↑↓ フォルダ  Space 開く・閉じる  Enter 決める  ESC やめる	%s: ←→ draibheadh ​​↑↓ pasgan Àite fosgailte/dùin Cuir a-steach tagh cuir dheth ESC
+ui	 %s: ←→ ドライブ  ↑↓ フォルダ  Space 開く・閉じる  Enter 決める  ESC やめる	 %s: ←→ draibh  ↑↓ pasgan  Space fosgail/dùin  Enter tagh  ESC sguir
 ui	 読めません: %s	Cha ghabh leughadh: %s
 ui	 フォルダを読んでいます...（ESC で止める）  %u 個	A' leughadh nam pasganan... (stad an ESC) %u
 ui	 フォルダ %u 個%s	%u pasgain %s
@@ -328,12 +327,12 @@ ui	一時停止	Stad
 ui	再生中	A' cluich
 ui	 Space: 一時停止  m: MIDI OUT  q / ESC: 止める	Àite: stad m: MIDI OUT q / ESC: stad
 ui	 q / ESC: やめる	q / ESC: cuir dheth
-ui	フォント ROM のライセンスとクレジット\n\nROM: %s（版 %lu.%lu、%lu 文字、フラッシュの 0x%08lX から）\n\n	Ceadan agus creideasan cruth ROM\n\nROM: %s (dreach %lu.%lu, %lu caractaran, o 0x%08lX san flash)
-ui	== 収めているフォント（ROM の出所の表）==\n	== Cruthan san ROM (clàr tùsail an ROM) ==
-ui	  （表が無い ROM）\n	(chan eil clàr aig an ROM)
-ui	\n== ROM のクレジットの区画 ==\n\n	== Raon creideasan an ROM ==
-ui	（区画が無い）\n	(chan eil sgìre mar sin)
-ui	\n== 組み込んだソフトウェアのライセンス ==\n	== Ceadan a' bhathar-bhog togte ==
+ui	フォント ROM のライセンスとクレジット\n\nROM: %s（版 %lu.%lu、%lu 文字、フラッシュの 0x%08lX から）\n\n	Ceadan agus creideasan cruth ROM\n\nROM: %s (dreach %lu.%lu, %lu caractaran, o 0x%08lX san flash)\n\n
+ui	== 収めているフォント（ROM の出所の表）==\n	== Cruthan san ROM (clàr tùsail an ROM) ==\n
+ui	  （表が無い ROM）\n	  (chan eil clàr aig an ROM)\n
+ui	\n== ROM のクレジットの区画 ==\n\n	\n== Raon creideasan an ROM ==\n\n
+ui	（区画が無い）\n	(chan eil sgìre mar sin)\n
+ui	\n== 組み込んだソフトウェアのライセンス ==\n	\n== Ceadan a' bhathar-bhog togte ==\n
 ui	 %s を PNG で保存   %s	A' sàbhaladh %s mar PNG %s
 ui	画面	Sgrion
 ui	 組み立てています... %lu / %lu 行	Togalach... %lu / %lu sreathan
@@ -346,6 +345,13 @@ ui	WAV 書き出し: %s 失敗（%s）	Às-mhalairt WAV: %s air fàilligeadh (%s
 ui	WAV 書き出し: %s 合計 %s	Às-mhalairt WAV: %s iomlan %s
 ui	 WAV 書き出し（96kHz / 24bit）: %s	Às-mhalairt WAV (96kHz / 24bit): %s
 ui	中止しました	Air a chur dheth
+ui	準　備　中　．．．	Ag ullachadh...
+ui	 合計 %s   出力 %s	 Iomlan %s   Às-chur %s
+ui	 経過 %s	 Seachad %s
+ui	 %u%%   経過 %s	 %u%%   Seachad %s
+ui	   残り 約 %s	   Air fhàgail ~%s
+ui	   出力 %s	   Às-chur %s
+ui	 止めています...	 A' stad...
 ui	失敗しました	Dh'fhàillig
 ui	 合計 %s	Iomlan %s
 ui	 中止しました（%s。半端なファイルは消しました）	Sguir dheth (%s; chaidh am faidhle pàirteach a sguabadh às)
@@ -356,7 +362,7 @@ ui	 ESC: 止める（半端なファイルは消します）	ESC: stad (tha am f
 ui	書庫: %s	Tasglann: %s
 ui	読み込み中…（ESC でやめる）	Leughadh... (ESC ri chur dheth)
 ui	 %u 項目%s  合計 %s バイト  展開先: %s	%u nithean %s iomlan %s bytes earrann gu: %s
-ui	 Enter 項目を展開  X 全部を展開  ↑↓ 動かす  ESC 閉じる	Cuir a-steach earrann earrann X thoir a-mach a h-uile ↑↓ gluais ESC dlùth
+ui	 Enter 項目を展開  X 全部を展開  ↑↓ 動かす  ESC 閉じる	Enter earrann earrann X thoir a-mach a h-uile ↑↓ gluais ESC dlùth
 ui	圧縮	Dùmhlachadh
 ui	一覧	Liosta
 ui	展開	Earrann
@@ -397,7 +403,7 @@ msg.phrase	choose files or folders (not "..")	tagh faidhlichean no pasganan (cha
 msg.phrase	stop the CD first	stad an CD an toiseach
 msg.phrase	the CD cannot be changed (copy instead)	chan urrainn an CD atharrachadh (lethbhreac na àite)
 msg.phrase	a system folder cannot be moved	chan urrainn pasgan siostam a ghluasad
-msg.phrase	no drive can be written (FAT / exFAT / NTFS only)	chan urrainnear draibheadh ​​​​sam bith a sgrìobhadh (FAT / exFAT / NTFS a-mhàin)
+msg.phrase	no drive can be written (FAT / exFAT / NTFS only)	chan urrainnear sgrìobhadh air draibh sam bith (FAT / exFAT / NTFS a-mhàin)
 msg.phrase	the drive is gone	tha an dràibhear air falbh
 msg.phrase	nothing chosen	ni sam bith air a thaghadh
 msg.phrase	nothing selected	chan eil dad air a thaghadh
@@ -1162,6 +1168,20 @@ ui	%s 秒	%s s
 ui	コンパイル %s  実行 %s	co-chruinneachadh %s  ruith %s
 ui	コンパイル %s	co-chruinneachadh %s
 ui	実行 %s	ruith %s
+ui	壁紙	Pàipear-balla
+ui	壁紙の輝度	Soilleireachd a' chùlaibh
+ui	(なし)	(gun gin)
+ui	%u%% (100=原画 0=黒)	%u%% (100=tùsail 0=dubh)
+ui	Up / Down  Enter 決める  Left/Right 輝度  ESC やめる	Up / Down  Enter tagh  Left/Right soilleireachd  ESC sguir
+ui	現在	Làithreach
+ui	壁紙を解除 (黒地)	Falamhaich an cùlaibh (dubh)
+ui	壁紙を再読み込み	Ath-luchdaich an cùlaibh
+ui	PNG ファイルで Menu キーから「壁紙に設定」できます	Brùth Menu air faidhle PNG gus a shuidheachadh mar chùlaibh
+ui	壁紙の輝度 (%)	Soilleireachd a' chùlaibh (%)
+ui	 (黒)	 (dubh)
+ui	 (既定)	 (bunaiteach)
+ui	 (原画そのまま)	 (tùsail)
+ui	壁紙に設定	Suidhich mar chùlaibh
 msg.phrase	1 Help	1 Cobhai
 msg.phrase	3 Copy	3 Lethbh
 msg.phrase	4 Paste	4 Cuir

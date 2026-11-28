@@ -63,8 +63,8 @@ ui	再起動（確かめの窓）。Ctrl+Alt+Del も同じ	Starta om (ett bekrä
 ui	ADC のステレオ入力（GP40 / 41）を鳴らす	Spela ADC stereoingång (GP40/41)
 ui	VGM/VGZ を 96kHz/24bit WAV に書き出す	Exportera VGM/VGZ till WAV 96 kHz / 24 bitar
 ui	テキスト・16 進のビュアー（less 風）	Text/Hex viewer (mindre stil)
-ui	1 行	One line
-ui	1 ページ	One page
+ui	1 行	En rad
+ui	1 ページ	En sida
 ui	半ページ	halv sida
 ui	探す（前へ・後ろへ）/ 次・前	Sök (föregående/bakåt)/nästa/föregående
 ui	一覧へ戻る（F1 はビュアーのヘルプ）	Återgå till listan (F1 är visningshjälp)
@@ -105,7 +105,6 @@ ui	何かキーで閉じる	stäng med valfri nyckel
 ui	設定	inställningar
 ui	表示の言語	Visningsspråk
 ui	キーボードロケール	tangentbordsspråk
-ui	Up / Down  Enter 決める  ESC やめる	Upp / Ner Enter Bestäm ESC-stopp
 ui	表示の言語 (Language)	Visningsspråk
 ui	Up / Down  Enter 決める  ESC 戻る	Upp / Ner Enter Bestäm ESC Tillbaka
 ui	%c: をどの文字に固定しますか（A〜Z、S を除く。ESC でやめる）	Lås %c: som vilken bokstav? (A-Z utom S. ESC avbryter)
@@ -223,7 +222,7 @@ ui	 エディタ (sgnano edit)                      F1 / ESC で閉じる	 Redak
 ui	 矢印 / Home End / PgUp PgDn   カーソルを動かす	 Pil / Home End / PgUp PgDn Flytta markören
 ui	 Ctrl-T / Ctrl-B               ファイルの先頭 / 最後	 Ctrl-T / Ctrl-B Start / Slut på fil
 ui	 BS / Del                      前の字 / カーソルの字を消す	 BS / Del Radera föregående tecken / tecken under markören
-ui	 Enter                         改行（前の行の字下げを引き継ぐ）	 Ange radbrytning (ärver indrag från föregående rad)
+ui	 Enter                         改行（前の行の字下げを引き継ぐ）	 Enter                          Ange radbrytning (ärver indrag från föregående rad)
 ui	 Tab / Ins                     タブ / 挿入と上書きの切り替え	 Tab / Ins Tab / Växla mellan infoga och skriv över
 ui	 F5                            色分け（拡張子から。C/C++・mruby・MicroPython・SG BASIC・なし）	 F5                            Färgning (efter filändelse; C/C++, mruby, MicroPython, SG BASIC, ingen)
 ui	 F2  (Ctrl-S)                  保存（UTF-8、改行は元の形）	 F2 (Ctrl-S) Spara (UTF-8, radbrytningar i originalform)
@@ -236,13 +235,13 @@ ui	                               半角ひらがな（Shift+F6）・半角カ�
 ui	                               2 字以上で予測、Space で連文節変換	                               Förutsäg med 2 eller fler tecken, konvertera kontinuerlig sats med mellanslag
 ui	       English                 2 字以上で予測補完	       Engelska Prediktiv komplettering med 2 eller fler tecken
 ui	       한국어                  2 ボル式ハングル	       한국어 2 Bol-style Hangul
-ui	       Space / Enter           変換 / 確定	       Space / Enter Convert / Confirm
+ui	       Space / Enter           変換 / 確定	       Space / Enter           Konvertera / Bekräfta
 ui	       ← →                    文節を選ぶ	       ← → Välj en fras
 ui	       Shift+← →               文節の右端を 1 字 縮/拡（候補を出し直す）	       Shift+← → Korta/förläng frasens högra kant med ett tecken (nya kandidater)
 ui	       ↑ ↓ / Tab               候補の窓で前 / 次の候補（窓は変換の下、画面の下では上）	       ↑ ↓ / Tab               Föregående / nästa kandidat i fönstret (under texten, ovanför nära botten)
 ui	       →→→ で Enter            すべての候補（2 列 x 8 個、← → で列とページ、Enter で決める）	       Enter på →→→            Alla kandidater (2 x 8, ← → kolumn och sida, Enter väljer)
 ui	       Enter                   次の文節へ（最後の文節で全体を確定）	       Enter                   Nästa fras (vid den sista bekräftas allt)
-ui	       Ctrl-U                  いまの語をユーザー辞書へ	Ctrl-U Add current word to user dictionary
+ui	       Ctrl-U                  いまの語をユーザー辞書へ	       Ctrl-U Add current word to user dictionary
 ui	 Shift+F1 / F2 / F3 / F4       先頭 / 最後 / 挿入と上書き / ユーザー辞書へ	 Shift+F1 / F2 / F3 / F4       Början / slut / infoga-ersätt / till användarordboken
 ui	       BS / ESC                1 字戻す / 取り消し	       BS / ESC Go back one character / Cancel
 ui	       , . - [ ] /             、 。 ー 「 」 ・	       , . - [ ] / , . - "" ・
@@ -313,7 +312,7 @@ ui	 要る大きさ %s、空き %s。続けますか？	 Obligatorisk storlek %s
 ui	 Y: 続ける   N / ESC: やめる	 Y: Fortsätt N / ESC: Stopp
 ui	 何かキーを押すと閉じます	 Tryck på valfri knapp för att stänga
 ui	 ESC: 止める	 ESC: Sluta
-ui	 %s: ←→ ドライブ  ↑↓ フォルダ  Space 開く・閉じる  Enter 決める  ESC やめる	 %s: ←→ Drive ↑↓ Mapputrymme Öppna/Stäng Enter Bestäm ESC Avsluta
+ui	 %s: ←→ ドライブ  ↑↓ フォルダ  Space 開く・閉じる  Enter 決める  ESC やめる	 %s: ←→ Enhet  ↑↓ Mapp  Space Öppna/stäng  Enter Välj  ESC Avbryt
 ui	 読めません: %s	Oläsbar: %s
 ui	 フォルダを読んでいます...（ESC で止める）  %u 個	 Läser mapp... (sluta med ESC) %u stycken
 ui	 フォルダ %u 個%s	 Mapp %u stycken%s
@@ -327,11 +326,11 @@ ui	一時停止	pausa
 ui	再生中	Spelar nu
 ui	 Space: 一時停止  m: MIDI OUT  q / ESC: 止める	 Mellanslag: paus  m: MIDI OUT  q / ESC: stoppa
 ui	 q / ESC: やめる	q / ESC: Avsluta
-ui	フォント ROM のライセンスとクレジット\n\nROM: %s（版 %lu.%lu、%lu 文字、フラッシュの 0x%08lX から）\n\n	Font ROM-licenser och krediter\n\nROM: %s (version %lu.%lu, %lu tecken, från 0x%08lX i flash)
-ui	== 収めているフォント（ROM の出所の表）==\n	== Inkluderade teckensnitt (ROM-källtabell) ==
-ui	  （表が無い ROM）\n	(ROM utan tabell)
-ui	\n== ROM のクレジットの区画 ==\n\n	== ROM-poängsektion ==
-ui	（区画が無い）\n	(Det finns ingen uppdelning)
+ui	フォント ROM のライセンスとクレジット\n\nROM: %s（版 %lu.%lu、%lu 文字、フラッシュの 0x%08lX から）\n\n	Font ROM-licenser och krediter\n\nROM: %s (version %lu.%lu, %lu tecken, från 0x%08lX i flash)\n\n
+ui	== 収めているフォント（ROM の出所の表）==\n	== Inkluderade teckensnitt (ROM-källtabell) ==\n
+ui	  （表が無い ROM）\n	  (ROM utan tabell)\n
+ui	\n== ROM のクレジットの区画 ==\n\n	\n== ROM-poängsektion ==\n\n
+ui	（区画が無い）\n	(Det finns ingen uppdelning)\n
 ui	\n== 組み込んだソフトウェアのライセンス ==\n	\n== Licenser för den inbyggda programvaran ==\n
 ui	 %s を PNG で保存   %s	Spara %s som PNG %s
 ui	画面	skärmen
@@ -345,6 +344,13 @@ ui	WAV 書き出し: %s 失敗（%s）	WAV-export: %s misslyckades (%s)
 ui	WAV 書き出し: %s 合計 %s	WAV-export: %s totalt %s
 ui	 WAV 書き出し（96kHz / 24bit）: %s	 WAV-export (96kHz / 24bit): %s
 ui	中止しました	Avbrutet
+ui	準　備　中　．．．	Förbereder...
+ui	 合計 %s   出力 %s	 Totalt %s   Utdata %s
+ui	 経過 %s	 Förflutet %s
+ui	 %u%%   経過 %s	 %u%%   Förflutet %s
+ui	   残り 約 %s	   Kvar ~%s
+ui	   出力 %s	   Utdata %s
+ui	 止めています...	 Stoppar...
 ui	失敗しました	Misslyckades
 ui	 合計 %s	 Totalt %s
 ui	 中止しました（%s。半端なファイルは消しました）	 Avbrutet (%s; den ofullständiga filen raderades)
@@ -1161,6 +1167,20 @@ ui	%s 秒	%s s
 ui	コンパイル %s  実行 %s	kompilering %s  körning %s
 ui	コンパイル %s	kompilering %s
 ui	実行 %s	körning %s
+ui	壁紙	Bakgrundsbild
+ui	壁紙の輝度	Bakgrundsljusstyrka
+ui	(なし)	(ingen)
+ui	%u%% (100=原画 0=黒)	%u%% (100=original 0=svart)
+ui	Up / Down  Enter 決める  Left/Right 輝度  ESC やめる	Up / Down  Enter välj  Left/Right ljusstyrka  ESC avbryt
+ui	現在	Nuvarande
+ui	壁紙を解除 (黒地)	Rensa bakgrund (svart)
+ui	壁紙を再読み込み	Ladda om bakgrund
+ui	PNG ファイルで Menu キーから「壁紙に設定」できます	Tryck på Menu på en PNG-fil för att ange bakgrund
+ui	壁紙の輝度 (%)	Bakgrundsljusstyrka (%)
+ui	 (黒)	 (svart)
+ui	 (既定)	 (standard)
+ui	 (原画そのまま)	 (original)
+ui	壁紙に設定	Ange som bakgrund
 msg.phrase	Version %s	Version %s
 msg.phrase	1 Help	1 Hjälp
 msg.phrase	3 Copy	3 Kopia

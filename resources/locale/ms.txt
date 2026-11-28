@@ -105,9 +105,8 @@ ui	何かキーで閉じる	tutup dengan mana-mana kunci
 ui	設定	tetapan
 ui	表示の言語	Bahasa paparan
 ui	キーボードロケール	papan kekunci setempat
-ui	Up / Down  Enter 決める  ESC やめる	Atas / Bawah Masukkan Tentukan Berhenti ESC
 ui	表示の言語 (Language)	Bahasa paparan
-ui	Up / Down  Enter 決める  ESC 戻る	Atas / Bawah Masukkan Tentukan ESC Kembali
+ui	Up / Down  Enter 決める  ESC 戻る	Enter Atas / Bawah Masukkan Tentukan ESC Kembali
 ui	%c: をどの文字に固定しますか（A〜Z、S を除く。ESC でやめる）	Kunci %c: sebagai huruf apa? (A-Z kecuali S. ESC batal)
 ui	ドライブ  文字 / Enter 選ぶ  F2 文字を固定・解除  F3 文字を決めて固定  L / ESC やめる	Pemacu  huruf / Enter pilih  F2 kunci/lepas huruf  F3 kunci sebagai...  L / ESC batal
 ui	  区画 %u	  petak %u
@@ -222,8 +221,8 @@ ui	  読出専用	  baca sahaja
 ui	 エディタ (sgnano edit)                      F1 / ESC で閉じる	 Editor (sgnano edit) Tutup dengan F1 / ESC
 ui	 矢印 / Home End / PgUp PgDn   カーソルを動かす	 Anak panah / Home End / PgUp PgDn Gerakkan kursor
 ui	 Ctrl-T / Ctrl-B               ファイルの先頭 / 最後	 Ctrl-T / Ctrl-B Mula / Tamat fail
-ui	 BS / Del                      前の字 / カーソルの字を消す	 BS / Padam aksara / aksara sebelumnya di bawah kursor
-ui	 Enter                         改行（前の行の字下げを引き継ぐ）	 Masukkan pemisah baris (mewarisi lekukan daripada baris sebelumnya)
+ui	 BS / Del                      前の字 / カーソルの字を消す	 BS / Del aksara / aksara sebelumnya di bawah kursor
+ui	 Enter                         改行（前の行の字下げを引き継ぐ）	 Enter                          Masukkan pemisah baris (mewarisi lekukan daripada baris sebelumnya)
 ui	 Tab / Ins                     タブ / 挿入と上書きの切り替え	 Tab / Tab Ins / Togol antara sisip dan tulis ganti
 ui	 F5                            色分け（拡張子から。C/C++・mruby・MicroPython・SG BASIC・なし）	 F5                            Pewarnaan (dari sambungan; C/C++, mruby, MicroPython, SG BASIC, tiada)
 ui	 F2  (Ctrl-S)                  保存（UTF-8、改行は元の形）	 F2 (Ctrl-S) Simpan (UTF-8, pemisah baris dalam bentuk asal)
@@ -236,13 +235,13 @@ ui	                               半角ひらがな（Shift+F6）・半角カ�
 ui	                               2 字以上で予測、Space で連文節変換	                               Ramal dengan 2 atau lebih aksara, tukar klausa berterusan dengan Ruang
 ui	       English                 2 字以上で予測補完	       Bahasa Inggeris Pelengkapan Ramalan dengan 2 atau lebih aksara
 ui	       한국어                  2 ボル式ハングル	       한국어 2 Hangul gaya Bol
-ui	       Space / Enter           変換 / 確定	       Ruang / Masukkan Tukar / Sahkan
+ui	       Space / Enter           変換 / 確定	       Space / Enter           Tukar / Sahkan
 ui	       ← →                    文節を選ぶ	       ← → Pilih frasa
 ui	       Shift+← →               文節の右端を 1 字 縮/拡（候補を出し直す）	       Shift+← → Pendekkan/panjangkan hujung kanan frasa satu aksara (calon baharu)
 ui	       ↑ ↓ / Tab               候補の窓で前 / 次の候補（窓は変換の下、画面の下では上）	       ↑ ↓ / Tab               Calon sebelum / seterusnya dalam tetingkap (di bawah teks, di atas jika dekat bawah)
 ui	       →→→ で Enter            すべての候補（2 列 x 8 個、← → で列とページ、Enter で決める）	       Enter pada →→→          Semua calon (2 x 8, ← → lajur dan halaman, Enter memilih)
 ui	       Enter                   次の文節へ（最後の文節で全体を確定）	       Enter                   Frasa seterusnya (pada yang terakhir mengesahkan semua)
-ui	       Ctrl-U                  いまの語をユーザー辞書へ	Ctrl-U Tambah perkataan semasa pada kamus pengguna
+ui	       Ctrl-U                  いまの語をユーザー辞書へ	       Ctrl-U Tambah perkataan semasa pada kamus pengguna
 ui	 Shift+F1 / F2 / F3 / F4       先頭 / 最後 / 挿入と上書き / ユーザー辞書へ	 Shift+F1 / F2 / F3 / F4       Atas / akhir / sisip-tindih / ke kamus pengguna
 ui	       BS / ESC                1 字戻す / 取り消し	       BS / ESC Kembali satu aksara / Batal
 ui	       , . - [ ] /             、 。 ー 「 」 ・	       , . - [ ] / , . - " " ・
@@ -313,7 +312,7 @@ ui	 要る大きさ %s、空き %s。続けますか？	 Saiz yang diperlukan %s
 ui	 Y: 続ける   N / ESC: やめる	 Y: Teruskan N / ESC: Berhenti
 ui	 何かキーを押すと閉じます	 Tekan sebarang kekunci untuk menutup
 ui	 ESC: 止める	 ESC: Berhenti
-ui	 %s: ←→ ドライブ  ↑↓ フォルダ  Space 開く・閉じる  Enter 決める  ESC やめる	 %s: ←→ Drive ↑↓ Ruang Folder Buka/Tutup Masukkan Putuskan Berhenti ESC
+ui	 %s: ←→ ドライブ  ↑↓ フォルダ  Space 開く・閉じる  Enter 決める  ESC やめる	 %s: ←→ Pemacu  ↑↓ Folder  Space Buka/Tutup  Enter Pilih  ESC Batal
 ui	 読めません: %s	Tidak boleh dibaca: %s
 ui	 フォルダを読んでいます...（ESC で止める）  %u 個	 Membaca folder... (berhenti dengan ESC) %u keping
 ui	 フォルダ %u 個%s	 Folder %u keping%s
@@ -327,11 +326,11 @@ ui	一時停止	jeda
 ui	再生中	Sekarang bermain
 ui	 Space: 一時停止  m: MIDI OUT  q / ESC: 止める	 Space: jeda  m: MIDI OUT  q / ESC: henti
 ui	 q / ESC: やめる	q / ESC: Berhenti
-ui	フォント ROM のライセンスとクレジット\n\nROM: %s（版 %lu.%lu、%lu 文字、フラッシュの 0x%08lX から）\n\n	Lesen dan kredit fon ROM\n\nROM: %s (versi %lu.%lu, aksara %lu, daripada 0x%08lX dalam denyar)
-ui	== 収めているフォント（ROM の出所の表）==\n	== Fon yang disertakan (jadual sumber ROM) ==
-ui	  （表が無い ROM）\n	(ROM tanpa jadual)
-ui	\n== ROM のクレジットの区画 ==\n\n	== Bahagian kredit ROM ==
-ui	（区画が無い）\n	(Tiada pembahagian)
+ui	フォント ROM のライセンスとクレジット\n\nROM: %s（版 %lu.%lu、%lu 文字、フラッシュの 0x%08lX から）\n\n	Lesen dan kredit fon ROM\n\nROM: %s (versi %lu.%lu, aksara %lu, daripada 0x%08lX dalam denyar)\n\n
+ui	== 収めているフォント（ROM の出所の表）==\n	== Fon yang disertakan (jadual sumber ROM) ==\n
+ui	  （表が無い ROM）\n	  (ROM tanpa jadual)\n
+ui	\n== ROM のクレジットの区画 ==\n\n	\n== Bahagian kredit ROM ==\n\n
+ui	（区画が無い）\n	(Tiada pembahagian)\n
 ui	\n== 組み込んだソフトウェアのライセンス ==\n	\n== Lesen perisian terbina dalam ==\n
 ui	 %s を PNG で保存   %s	Simpan %s sebagai PNG %s
 ui	画面	skrin
@@ -345,6 +344,13 @@ ui	WAV 書き出し: %s 失敗（%s）	Eksport WAV: %s gagal (%s)
 ui	WAV 書き出し: %s 合計 %s	Eksport WAV: %s jumlah %s
 ui	 WAV 書き出し（96kHz / 24bit）: %s	 Eksport WAV (96kHz / 24bit): %s
 ui	中止しました	Dibatalkan
+ui	準　備　中　．．．	Menyediakan...
+ui	 合計 %s   出力 %s	 Jumlah %s   Output %s
+ui	 経過 %s	 Berlalu %s
+ui	 %u%%   経過 %s	 %u%%   Berlalu %s
+ui	   残り 約 %s	   Baki ~%s
+ui	   出力 %s	   Output %s
+ui	 止めています...	 Menghentikan...
 ui	失敗しました	Gagal
 ui	 合計 %s	 Jumlah %s
 ui	 中止しました（%s。半端なファイルは消しました）	 Dibatalkan (%s; fail separuh siap dipadam)
@@ -1161,6 +1167,20 @@ ui	%s 秒	%s s
 ui	コンパイル %s  実行 %s	kompil %s  jalan %s
 ui	コンパイル %s	kompil %s
 ui	実行 %s	jalan %s
+ui	壁紙	Kertas dinding
+ui	壁紙の輝度	Kecerahan kertas dinding
+ui	(なし)	(tiada)
+ui	%u%% (100=原画 0=黒)	%u%% (100=asal 0=hitam)
+ui	Up / Down  Enter 決める  Left/Right 輝度  ESC やめる	Up / Down  Enter pilih  Left/Right kecerahan  ESC batal
+ui	現在	Semasa
+ui	壁紙を解除 (黒地)	Padam kertas dinding (hitam)
+ui	壁紙を再読み込み	Muat semula kertas dinding
+ui	PNG ファイルで Menu キーから「壁紙に設定」できます	Tekan Menu pada fail PNG untuk jadikan kertas dinding
+ui	壁紙の輝度 (%)	Kecerahan kertas dinding (%)
+ui	 (黒)	 (hitam)
+ui	 (既定)	 (lalai)
+ui	 (原画そのまま)	 (asal)
+ui	壁紙に設定	Jadikan kertas dinding
 msg.phrase	Version %s	Versi %s
 msg.phrase	1 Help	1 Bantu
 msg.phrase	3 Copy	3 Salin

@@ -30,7 +30,7 @@ ui	ファイルの操作（FD と同じ。印・範囲・カーソルの順）	F
 ui	コピー: 行き先は木から選ぶ。ESC で止める	Kopēt: izvēlieties galamērķi no diska un mapju koka. ESC apstājas
 ui	削除: y で確かめる。印・範囲をまとめて	Dzēst: apstipriniet ar y. Atzīmes un diapazoni uzreiz. Mapes ar to saturu
 ui	フォルダを削除（中身ごと）	Dzēst mapi (ar tās saturu)
-ui	名前を変える（今の名前を直して Enter）	Pārdēvēt (rediģēt nosaukumu, ievadiet)
+ui	名前を変える（今の名前を直して Enter）	Pārdēvēt (rediģēt nosaukumu, Enter)
 ui	属性: R 読み出し専用・H 隠し・S システム・A アーカイブ	Atribūti: R tikai lasāms, H paslēpts, S sistēma, A arhīvs
 ui	フォルダを作る	Jauna mape
 ui	新しいファイル（空）を作る	Jauns (tukšs) fails
@@ -106,12 +106,11 @@ ui	何かキーで閉じる	Jebkura atslēga aizveras
 ui	設定	Iestatījumi
 ui	表示の言語	Displeja valoda
 ui	キーボードロケール	Tastatūras lokalizācija
-ui	Up / Down  Enter 決める  ESC やめる	Uz augšu/Uz leju Ievadiet, izvēlieties ESC atcelt
 ui	表示の言語 (Language)	Displeja valoda
-ui	Up / Down  Enter 決める  ESC 戻る	Uz augšu / Uz leju Ievadiet: iestatiet ESC: atpakaļ
+ui	Up / Down  Enter 決める  ESC 戻る	Enter Uz augšu / Uz leju Ievadiet: iestatiet ESC: atpakaļ
 ui	%c: をどの文字に固定しますか（A〜Z、S を除く。ESC でやめる）	Labot %c: kā kurš burts? (A–Z, izņemot S. ESC atceļ)
 ui	ドライブ  文字 / Enter 選ぶ  F2 文字を固定・解除  F3 文字を決めて固定  L / ESC やめる	Diska burts / Enter atlasiet F2 labot/atcelt burtu F3 labot kā... L / ESC atcelt
-ui	  区画 %u	nodalījums %u
+ui	  区画 %u	  nodalījums %u
 ui	%c:* （固定・つながっていません）%04X:%04X%s  %s	%c:* (fiksēts, nav pievienots) %04X:%04X%s %s
 ui	お知らせ	Paziņojums
 ui	ドライブ %c:  %s	Braukt %c: %s
@@ -219,40 +218,40 @@ ui	 %s  %s  行 %lu/%lu 桁 %u  %s  %s %s%s%s	%s %s Ln %lu/%lu Col %u %s %s %s%s
 ui	*変更	*mod
 ui	上書	OVR
 ui	挿入	INS
-ui	  読出専用	R/O
+ui	  読出専用	  R/O
 ui	 エディタ (sgnano edit)                      F1 / ESC で閉じる	Redaktors (sgnano rediģēt) F1 / ESC tiek aizvērts
-ui	 矢印 / Home End / PgUp PgDn   カーソルを動かす	Bultiņas / Sākuma beigas / PgUp PgDn pārvietojiet kursoru
+ui	 矢印 / Home End / PgUp PgDn   カーソルを動かす	Bultiņas / Home End / PgUp PgDn pārvietojiet kursoru
 ui	 Ctrl-T / Ctrl-B               ファイルの先頭 / 最後	Ctrl-T / Ctrl-B faila augšdaļa / beigas
-ui	 BS / Del                      前の字 / カーソルの字を消す	BS / Dzēst dzēšanu pirms / kursora vietā
-ui	 Enter                         改行（前の行の字下げを引き継ぐ）	Ievadiet jaunu rindu (saglabā atkāpi)
+ui	 BS / Del                      前の字 / カーソルの字を消す	BS / Del dzēšanu pirms / kursora vietā
+ui	 Enter                         改行（前の行の字下げを引き継ぐ）	 Enter                         (saglabā atkāpi)
 ui	 Tab / Ins                     タブ / 挿入と上書きの切り替え	Tab / Ins cilne / ievietošana vai pārrakstīšana
 ui	 F5                            色分け（拡張子から。C/C++・mruby・MicroPython・SG BASIC・なし）	F5 krāsošana (no paplašinājuma; C/C++, mruby, MicroPython, SG BASIC, nav)
 ui	 F2  (Ctrl-S)                  保存（UTF-8、改行は元の形）	F2 (Ctrl-S) saglabāt (UTF-8, rindu beigas saglabātas)
 ui	 F10 / ESC                     閉じる（変更があれば聞く）	F10 / ESC aizvērt (jautā, vai mainīts)
 ui	 IME:  Ctrl-Space / F12        オン・オフ（あ / A）	IME: Ctrl-Space / F12 ieslēgts / izslēgts (あ / A)
-ui	       F9                      IME の言語（このエディタの間だけ。閉じると戻る）	F9 IME valoda (tikai šis redaktors; atjaunots aizverot)
-ui	       F8                      日本語の予測変換 オン・オフ	F8 japāņu jutīgā konvertēšana ieslēgta/izslēgta
-ui	       日本語                  ローマ字 -> ひらがな（F6）・カタカナ（F7）	Japāņu romaji -> hiragana (F6) / katakana (F7)
-ui	                               半角ひらがな（Shift+F6）・半角カタカナ（Shift+F7）	Pusplatuma hiragana (Shift+F6)/pusplatuma katakana (Shift+F7)
-ui	                               2 字以上で予測、Space で連文節変換	Paredzēt ar 2 vai vairāk rakstzīmēm, pārvērst nepārtrauktu klauzulu ar atstarpi
-ui	       English                 2 字以上で予測補完	Jutīgā pabeigšana angļu valodā ar 2 vai vairāk rakstzīmēm
-ui	       한국어                  2 ボル式ハングル	한국어 2 Bol stila hanguls
-ui	       Space / Enter           変換 / 確定	Atstarpe / Ievadiet Konvertēt / Apstiprināt
-ui	       ← →                    文節を選ぶ	← → Izvēlieties frāzi
-ui	       Shift+← →               文節の右端を 1 字 縮/拡（候補を出し直す）	Shift+← → Samaziniet/palieliniet klauzulas labo galu par vienu rakstzīmi (jauni kandidāti)
-ui	       ↑ ↓ / Tab               候補の窓で前 / 次の候補（窓は変換の下、画面の下では上）	↑ ↓ / Cilne Iepriekšējais / nākamais kandidāts uznirstošajā logā (zem teksta, augšā apakšā)
-ui	       →→→ で Enter            すべての候補（2 列 x 8 個、← → で列とページ、Enter で決める）	Ievadiet → → → Visi kandidāti (2 x 8, ← → kolonna un lapa, Enter izvēlas)
-ui	       Enter                   次の文節へ（最後の文節で全体を確定）	Ievadiet nākamo klauzulu (apstiprina visu pēdējo klauzulu)
-ui	       Ctrl-U                  いまの語をユーザー辞書へ	Ctrl-U Pievienot pašreizējo vārdu lietotāja vārdnīcai
+ui	       F9                      IME の言語（このエディタの間だけ。閉じると戻る）	       F9 IME valoda (tikai šis redaktors; atjaunots aizverot)
+ui	       F8                      日本語の予測変換 オン・オフ	       F8 japāņu jutīgā konvertēšana ieslēgta/izslēgta
+ui	       日本語                  ローマ字 -> ひらがな（F6）・カタカナ（F7）	       Japāņu romaji -> hiragana (F6) / katakana (F7)
+ui	                               半角ひらがな（Shift+F6）・半角カタカナ（Shift+F7）	                               Pusplatuma hiragana (Shift+F6)/pusplatuma katakana (Shift+F7)
+ui	                               2 字以上で予測、Space で連文節変換	                               Paredzēt ar 2 vai vairāk rakstzīmēm, pārvērst nepārtrauktu klauzulu ar atstarpi
+ui	       English                 2 字以上で予測補完	       Jutīgā pabeigšana angļu valodā ar 2 vai vairāk rakstzīmēm
+ui	       한국어                  2 ボル式ハングル	       한국어 2 Bol stila hanguls
+ui	       Space / Enter           変換 / 確定	       Space / Enter           Pārveidot / Apstiprināt
+ui	       ← →                    文節を選ぶ	       ← → Izvēlieties frāzi
+ui	       Shift+← →               文節の右端を 1 字 縮/拡（候補を出し直す）	       Shift+← → Samaziniet/palieliniet klauzulas labo galu par vienu rakstzīmi (jauni kandidāti)
+ui	       ↑ ↓ / Tab               候補の窓で前 / 次の候補（窓は変換の下、画面の下では上）	       ↑ ↓ / Tab  Cilne Iepriekšējais / nākamais kandidāts uznirstošajā logā (zem teksta, augšā apakšā)
+ui	       →→→ で Enter            すべての候補（2 列 x 8 個、← → で列とページ、Enter で決める）	       Ievadiet → → → Visi kandidāti (2 x 8, ← → kolonna un lapa, Enter izvēlas)
+ui	       Enter                   次の文節へ（最後の文節で全体を確定）	       Enter                   Ievadiet nākamo klauzulu (apstiprina visu pēdējo klauzulu)
+ui	       Ctrl-U                  いまの語をユーザー辞書へ	       Ctrl-U Pievienot pašreizējo vārdu lietotāja vārdnīcai
 ui	 Shift+F1 / F2 / F3 / F4       先頭 / 最後 / 挿入と上書き / ユーザー辞書へ	Shift+F1 / F2 / F3 / F4 Augšpusē / beigas / ievietot-pārrakstīt / lietotāja vārdnīcā
-ui	       BS / ESC                1 字戻す / 取り消し	BS / ESC Atgriezties par vienu rakstzīmi atpakaļ / Atcelt
-ui	       , . - [ ] /             、 。 ー 「 」 ・	, . - [ ] / 、 。 ー 「 」 ・
+ui	       BS / ESC                1 字戻す / 取り消し	       BS / ESC Atgriezties par vienu rakstzīmi atpakaļ / Atcelt
+ui	       , . - [ ] /             、 。 ー 「 」 ・	       , . - [ ] / 、 。 ー 「 」 ・
 ui	変更あり  Y: 保存して閉じる  N: 保存せず閉じる  ESC: 戻る	Modificēts Y: saglabāt un aizvērt N: aizvērt, nesaglabājot ESC: atpakaļ
 ui	[予測] Tab/↑↓: 候補  Space: 変換  Esc: 取消	[Paredzēšana] Tab/↑↓: kandidāts Atstarpe: konvertēt Esc: atcelt
-ui	[候補] ↑↓: 選ぶ  ←→: 列・ページ  Enter: 決める	[Kandidāti] ↑↓: atlasiet ←→: kolonna/lapa Ievadiet: izvēlieties
-ui	[変換] ↑↓候補 ←→文節 Shift+←→区切り Enter次へ	[Konvertēt] ↑↓cand ←→klauzula Shift+←→iesaistīta Ievadiet nākamo
+ui	[候補] ↑↓: 選ぶ  ←→: 列・ページ  Enter: 決める	[Kandidāti] ↑↓: atlasiet ←→: kolonna/lapa Enter: izvēlieties
+ui	[変換] ↑↓候補 ←→文節 Shift+←→区切り Enter次へ	[Konvertēt] ↑↓cand ←→klauzula Shift+←→iesaistīta Enter nākamo
 ui	[한국어] Tab/↑↓: 候補  Enter/Space: 確定	[한국어] Tab/↑↓: kandidāts Enter/Space: apstipriniet
-ui	[English] Tab/↑↓: 候補  Enter: 確定	[Latviski] Tab/↑↓: kandidāts Ievadiet: apstipriniet
+ui	[English] Tab/↑↓: 候補  Enter: 確定	[English] Tab/↑↓: kandidāts Enter: apstipriniet
 ui	2ボル式ハングル入力  Ctrl-Space: 英数	2 kopu Hangul ievade Ctrl-Space: burtciparu
 ui	予測補完  Ctrl-Space: 直接入力	Paredzamā pabeigšana Ctrl-Space: tiešā ievade
 ui	辞書なし: ひらがな/カタカナ入力のみ  F6/F7	Nav vārdnīcas: tikai hiragana/katakana F6/F7
@@ -269,8 +268,8 @@ ui	色分け: %s	Krāsošana: %s
 ui	読み込んでいます... (loading)	Notiek ielāde...
 ui	読み込めませんでした (could not read)	Nevarēja nolasīt failu
 ui	%lu 行%s%s	%lu līnijas%s%s
-ui	  Shift_JIS を UTF-8 で開きました（保存は UTF-8）	Shift_JIS tika atvērts kā UTF-8 (saglabāts kā UTF-8)
-ui	  読み出し専用	tikai lasāms
+ui	  Shift_JIS を UTF-8 で開きました（保存は UTF-8）	  Shift_JIS tika atvērts kā UTF-8 (saglabāts kā UTF-8)
+ui	  読み出し専用	  tikai lasāms
 ui	保存しました (saved)	Saglabāts
 ui	保存できませんでした (write failed)	Nevarēja saglabāt (rakstīšana neizdevās)
 ui	候補	Kandidāti
@@ -283,7 +282,7 @@ ui	16 進  q ESC: 戻る  F1: ヘルプ	Hex q ESC: atpakaļ F1: palīdzība
 ui	テキスト  q ESC: 戻る  F1: ヘルプ	Teksts q ESC: atpakaļ F1: palīdzība
 ui	ビュアーのキー（less 風。テキストと 16 進で共通）	Skatītāja taustiņi (piemēram, mazāk; tas pats tekstam un sešstūrainam)
 ui	1 行進む	Vienu rindiņu uz leju
-ui	1 行戻る	Viena rinda
+ui	1 行戻る	Vienu rindiņu uz augšu
 ui	1 ページ進む	Par vienu lapu uz leju
 ui	1 ページ戻る	Viena lapa uz augšu
 ui	半ページ進む / 戻る	Pusi lapas uz leju/uz augšu
@@ -309,12 +308,12 @@ ui	（止めています）	(apstājas)
 ui	 元: %s	No: %s
 ui	 先: %s	Kam: %s
 ui	 ファイル %u / %u 個  フォルダ %u 個  %s / %s  (%u%%)%s	Faili %u / %u mapes %u %s / %s (%u%%)%s
-ui	  多すぎるので一部だけ	pārāk daudz: tikai daži
+ui	  多すぎるので一部だけ	  pārāk daudz: tikai daži
 ui	 要る大きさ %s、空き %s。続けますか？	Nepieciešams %s, bezmaksas %s. Vai turpināt?
 ui	 Y: 続ける   N / ESC: やめる	Y: turpināt N / ESC: atcelt
 ui	 何かキーを押すと閉じます	Lai aizvērtu, nospiediet jebkuru taustiņu
 ui	 ESC: 止める	ESC: apstāties
-ui	 %s: ←→ ドライブ  ↑↓ フォルダ  Space 開く・閉じる  Enter 決める  ESC やめる	%s: ←→ disks ↑↓ mape Atstarpe atvērt/aizvērt Ievadiet izvēlēties ESC atcelt
+ui	 %s: ←→ ドライブ  ↑↓ フォルダ  Space 開く・閉じる  Enter 決める  ESC やめる	 %s: ←→ disks  ↑↓ mape  Space atvērt/aizvērt  Enter izvēlēties  ESC atcelt
 ui	 読めません: %s	Nevar lasīt: %s
 ui	 フォルダを読んでいます...（ESC で止める）  %u 個	Notiek mapju lasīšana... (ESC apstājas) %u
 ui	 フォルダ %u 個%s	%u mapes%s
@@ -328,12 +327,12 @@ ui	一時停止	Pauzēts
 ui	再生中	Spēlē
 ui	 Space: 一時停止  m: MIDI OUT  q / ESC: 止める	Atstarpe: pauze m: MIDI OUT q / ESC: stop
 ui	 q / ESC: やめる	q / ESC: atcelt
-ui	フォント ROM のライセンスとクレジット\n\nROM: %s（版 %lu.%lu、%lu 文字、フラッシュの 0x%08lX から）\n\n	Font ROM licences un kredīti\n\nROM: %s (versija %lu.%lu, %lu rakstzīmes, no 0x%08lX zibatmiņā)
-ui	== 収めているフォント（ROM の出所の表）==\n	== Fonti ROM (ROM izcelsmes tabula) ==
-ui	  （表が無い ROM）\n	(ROM nav tabulas)
-ui	\n== ROM のクレジットの区画 ==\n\n	== ROM kredītu apgabals ==
-ui	（区画が無い）\n	(nav tādas zonas)
-ui	\n== 組み込んだソフトウェアのライセンス ==\n	== Iebūvētās programmatūras licences ==
+ui	フォント ROM のライセンスとクレジット\n\nROM: %s（版 %lu.%lu、%lu 文字、フラッシュの 0x%08lX から）\n\n	Font ROM licences un kredīti\n\nROM: %s (versija %lu.%lu, %lu rakstzīmes, no 0x%08lX zibatmiņā)\n\n
+ui	== 収めているフォント（ROM の出所の表）==\n	== Fonti ROM (ROM izcelsmes tabula) ==\n
+ui	  （表が無い ROM）\n	  (ROM nav tabulas)\n
+ui	\n== ROM のクレジットの区画 ==\n\n	\n== ROM kredītu apgabals ==\n\n
+ui	（区画が無い）\n	(nav tādas zonas)\n
+ui	\n== 組み込んだソフトウェアのライセンス ==\n	\n== Iebūvētās programmatūras licences ==\n
 ui	 %s を PNG で保存   %s	Saglabā %s kā PNG %s
 ui	画面	Ekrāns
 ui	 組み立てています... %lu / %lu 行	Ēka... %lu / %lu rindas
@@ -346,6 +345,13 @@ ui	WAV 書き出し: %s 失敗（%s）	WAV eksportēšana: %s neizdevās (%s)
 ui	WAV 書き出し: %s 合計 %s	WAV eksports: %s kopā %s
 ui	 WAV 書き出し（96kHz / 24bit）: %s	WAV eksports (96 kHz / 24 biti): %s
 ui	中止しました	Atcelts
+ui	準　備　中　．．．	Sagatavo...
+ui	 合計 %s   出力 %s	 Kopā %s   Izvade %s
+ui	 経過 %s	 Pagājis %s
+ui	 %u%%   経過 %s	 %u%%   Pagājis %s
+ui	   残り 約 %s	   Atlicis ~%s
+ui	   出力 %s	   Izvade %s
+ui	 止めています...	 Aptur...
 ui	失敗しました	Neizdevās
 ui	 合計 %s	Kopā %s
 ui	 中止しました（%s。半端なファイルは消しました）	Atcelts (%s; daļējais fails tika izdzēsts)
@@ -356,7 +362,7 @@ ui	 ESC: 止める（半端なファイルは消します）	ESC: stop (daļēja
 ui	書庫: %s	Arhīvs: %s
 ui	読み込み中…（ESC でやめる）	Notiek lasīšana... (lai atceltu ESC)
 ui	 %u 項目%s  合計 %s バイト  展開先: %s	%u vienumi%s kopā %s baiti ekstrakts uz: %s
-ui	 Enter 項目を展開  X 全部を展開  ↑↓ 動かす  ESC 閉じる	Ievadiet izvilkt vienumu X izvilkt visu ↑↓ pārvietot ESC aizvērt
+ui	 Enter 項目を展開  X 全部を展開  ↑↓ 動かす  ESC 閉じる	Enter izvilkt vienumu X izvilkt visu ↑↓ pārvietot ESC aizvērt
 ui	圧縮	Saspiest
 ui	一覧	Saraksts
 ui	展開	Ekstrakts
@@ -1162,6 +1168,20 @@ ui	%s 秒	%s s
 ui	コンパイル %s  実行 %s	kompilēšana %s  izpilde %s
 ui	コンパイル %s	kompilēšana %s
 ui	実行 %s	izpilde %s
+ui	壁紙	Fona attēls
+ui	壁紙の輝度	Fona spilgtums
+ui	(なし)	(nav)
+ui	%u%% (100=原画 0=黒)	%u%% (100=oriģināls 0=melns)
+ui	Up / Down  Enter 決める  Left/Right 輝度  ESC やめる	Up / Down  Enter izvēlēties  Left/Right spilgtums  ESC atcelt
+ui	現在	Pašreizējais
+ui	壁紙を解除 (黒地)	Notīrīt fonu (melns)
+ui	壁紙を再読み込み	Pārlādēt fonu
+ui	PNG ファイルで Menu キーから「壁紙に設定」できます	Nospiediet Menu uz PNG faila, lai iestatītu fonu
+ui	壁紙の輝度 (%)	Fona spilgtums (%)
+ui	 (黒)	 (melns)
+ui	 (既定)	 (noklusēj.)
+ui	 (原画そのまま)	 (oriģināls)
+ui	壁紙に設定	Iestatīt kā fonu
 msg.phrase	1 Help	1 Palīdz
 msg.phrase	3 Copy	3 Kopēt
 msg.phrase	4 Paste	4 Ielīmē

@@ -13,7 +13,7 @@ ui	範囲を選ぶ（Space でその範囲に印）	Pumili ng saklaw (Space ang 
 ui	フォルダに入る・ファイルを開く（F2/X は実行）	Pumasok sa folder / buksan ang file (F2/X patakbuhin)
 ui	上のフォルダへ	Umakyat sa parent folder
 ui	ドライブを選ぶ（USB・フロッピー・CD・S: 内蔵）	Pumili ng drive (USB, floppy, CD, S: built-in)
-ui	コピー（Shift+C / Shift+F3 は行き先を木から）	Kopyahin (Shift+C / Shift+F3 pumili ng patutunguhan sa puno)
+ui	コピー（Shift+C / Shift+F3 は行き先を木から）	Kopyahin (Shift+C / Shift+F3 pumili ng patutunguhan sa folder tree)
 ui	移動	Ilipat
 ui	削除（Shift+D / Shift+F4 はフォルダ削除）	Burahin (Shift+D / Shift+F4 burahin ang folder)
 ui	名前を変える	Palitan ang pangalan
@@ -103,15 +103,14 @@ ui	検査・修復できませんでした（S: が使用中）。	Hindi masuri 
 ui	[ 修復する ]	[ Ayusin ]
 ui	[ やめる ]	[ Kanselahin ]
 ui	何かキーで閉じる	Anumang key para isara
-ui	設定	Mga setting
+ui	設定	Mga Setting
 ui	表示の言語	Wika ng display
 ui	キーボードロケール	Keyboard locale
-ui	Up / Down  Enter 決める  ESC やめる	Taas / Baba  Enter piliin  ESC kanselahin
 ui	表示の言語 (Language)	Wika ng display
 ui	Up / Down  Enter 決める  ESC 戻る	Taas / Baba  Enter: itakda  ESC: bumalik
 ui	%c: をどの文字に固定しますか（A〜Z、S を除く。ESC でやめる）	Ayusin ang %c: bilang aling titik? (A-Z maliban sa S. ESC kanselahin)
 ui	ドライブ  文字 / Enter 選ぶ  F2 文字を固定・解除  F3 文字を決めて固定  L / ESC やめる	Drive  titik / Enter piliin  F2 ayusin/alisin  F3 ayusin bilang...  L / ESC kanselahin
-ui	  区画 %u	  partition %u
+ui	  区画 %u	  partisyon %u
 ui	%c:* （固定・つながっていません）%04X:%04X%s  %s	%c:* (nakapirmi, hindi nakakonekta) %04X:%04X%s  %s
 ui	お知らせ	Paunawa
 ui	ドライブ %c:  %s	Drive %c:  %s
@@ -346,6 +345,13 @@ ui	WAV 書き出し: %s 失敗（%s）	I-export ang WAV: %s nabigo (%s)
 ui	WAV 書き出し: %s 合計 %s	I-export ang WAV: %s kabuuan %s
 ui	 WAV 書き出し（96kHz / 24bit）: %s	 I-export ang WAV (96kHz / 24bit): %s
 ui	中止しました	Kinansela
+ui	準　備　中　．．．	Inihahanda...
+ui	 合計 %s   出力 %s	 Kabuuan %s   Output %s
+ui	 経過 %s	 Lumipas %s
+ui	 %u%%   経過 %s	 %u%%   Lumipas %s
+ui	   残り 約 %s	   Natitira ~%s
+ui	   出力 %s	   Output %s
+ui	 止めています...	 Itinitigil...
 ui	失敗しました	Nabigo
 ui	 合計 %s	 Kabuuan %s
 ui	 中止しました（%s。半端なファイルは消しました）	 Kinansela (%s; binura ang kulang na file)
@@ -1041,6 +1047,20 @@ ui	%s 秒	%s s
 ui	コンパイル %s  実行 %s	compile %s  run %s
 ui	コンパイル %s	compile %s
 ui	実行 %s	run %s
+ui	壁紙	Wallpaper
+ui	壁紙の輝度	Liwanag ng wallpaper
+ui	(なし)	(wala)
+ui	%u%% (100=原画 0=黒)	%u%% (100=orihinal 0=itim)
+ui	Up / Down  Enter 決める  Left/Right 輝度  ESC やめる	Up / Down  Enter piliin  Left/Right liwanag  ESC kanselahin
+ui	現在	Kasalukuyan
+ui	壁紙を解除 (黒地)	Alisin ang wallpaper (itim)
+ui	壁紙を再読み込み	I-reload ang wallpaper
+ui	PNG ファイルで Menu キーから「壁紙に設定」できます	Pindutin ang Menu sa PNG file para gawing wallpaper
+ui	壁紙の輝度 (%)	Liwanag ng wallpaper (%)
+ui	 (黒)	 (itim)
+ui	 (既定)	 (default)
+ui	 (原画そのまま)	 (orihinal)
+ui	壁紙に設定	Gawing wallpaper
 msg.phrase	%s Sum %.7g N %ld%s	%s Kabuuan %.7g N %ld%s
 msg.phrase	EDIT  	EDIT
 msg.phrase	GRAPH  %s  %s	GRAPH  %s  %s

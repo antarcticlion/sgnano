@@ -8,17 +8,24 @@
 #include <stdint.h>
 #include "bench.h"
 
-double LP_FN(void *work, bench_clock_fn now, uint64_t *us) {
+double LP_FN_EX(void *work, bench_clock_fn now, uint64_t *us, const volatile bool *stop) {
     const int lda = BENCH_LP_LDA, n = BENCH_LP_N;
     REAL *a = (REAL *)work, *b = a + (long)lda * n, norma;
+    // cppcheck-suppress invalidPointerCast ; Linpack の元の作り（作業場の後ろに整数の並びを置く）。同じ CPU の中だけで使う（2026-11-28）
     int *ipvt = (int *)&b[n], info;
     const double ops = (2.0 * n * n * n) / 3.0 + 2.0 * n * n;
+    double done = 0.0;
     for (int roll = 1; roll >= 0; roll--) {
+        if (stop && *stop) break;
         matgen(a, lda, n, b, &norma);
         const uint64_t t0 = now();
         dgefa(a, lda, n, ipvt, &info, roll);
         dgesl(a, lda, n, ipvt, b, 0, roll);
         *us += now() - t0;
+        done += ops;
     }
-    return 2.0 * ops;
+    return done;
+}
+double LP_FN(void *work, bench_clock_fn now, uint64_t *us) {
+    return LP_FN_EX(work, now, us, NULL);
 }

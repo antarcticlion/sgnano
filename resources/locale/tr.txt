@@ -105,9 +105,8 @@ ui	何かキーで閉じる	herhangi bir tuşla kapat
 ui	設定	ayarlar
 ui	表示の言語	Ekran dili
 ui	キーボードロケール	klavye yerel ayarı
-ui	Up / Down  Enter 決める  ESC やめる	Yukarı / Aşağı Giriş Karar Ver ESC Durdur
 ui	表示の言語 (Language)	Ekran dili
-ui	Up / Down  Enter 決める  ESC 戻る	Yukarı / Aşağı Giriş Karar Ver ESC Geri
+ui	Up / Down  Enter 決める  ESC 戻る	Enter Yukarı / Aşağı Giriş Karar Ver ESC Geri
 ui	%c: をどの文字に固定しますか（A〜Z、S を除く。ESC でやめる）	%c: hangi harfe sabitlensin? (S hariç A-Z. ESC iptal eder)
 ui	ドライブ  文字 / Enter 選ぶ  F2 文字を固定・解除  F3 文字を決めて固定  L / ESC やめる	Sürücü  harf / Enter seç  F2 harfi sabitle/çöz  F3 şu harfe sabitle...  L / ESC iptal
 ui	  区画 %u	  bölüm %u
@@ -223,8 +222,8 @@ ui	 エディタ (sgnano edit)                      F1 / ESC で閉じる	 Düze
 ui	 矢印 / Home End / PgUp PgDn   カーソルを動かす	 Ok / Home End / PgUp PgDn İmleci hareket ettir
 ui	 Ctrl-T / Ctrl-B               ファイルの先頭 / 最後	 Ctrl-T / Ctrl-B Dosyanın başlangıcı / sonu
 ui	 BS / Del                      前の字 / カーソルの字を消す	 BS / Del İmlecin altındaki önceki karakteri / karakteri sil
-ui	 Enter                         改行（前の行の字下げを引き継ぐ）	 Satır sonunu girin (girintiyi önceki satırdan devralır)
-ui	 Tab / Ins                     タブ / 挿入と上書きの切り替え	 Sekme / Ins Sekmesi / Ekleme ve üzerine yazma arasında geçiş yap
+ui	 Enter                         改行（前の行の字下げを引き継ぐ）	 Enter                          Satır sonunu girin (girintiyi önceki satırdan devralır)
+ui	 Tab / Ins                     タブ / 挿入と上書きの切り替え	 Tab / Ins                     sekme / ekleme ve üzerine yazma arasında geçiş
 ui	 F5                            色分け（拡張子から。C/C++・mruby・MicroPython・SG BASIC・なし）	 F5                            Renklendirme (uzantıdan; C/C++, mruby, MicroPython, SG BASIC, yok)
 ui	 F2  (Ctrl-S)                  保存（UTF-8、改行は元の形）	 F2 (Ctrl-S) Kaydet (UTF-8, orijinal biçimde satır sonları)
 ui	 F10 / ESC                     閉じる（変更があれば聞く）	 F10 / ESC Kapat (değişiklikleri dinleyin)
@@ -242,7 +241,7 @@ ui	       Shift+← →               文節の右端を 1 字 縮/拡（候補�
 ui	       ↑ ↓ / Tab               候補の窓で前 / 次の候補（窓は変換の下、画面の下では上）	       ↑ ↓ / Tab               Penceredeki önceki / sonraki aday (metnin altında, alta yakınsa üstte)
 ui	       →→→ で Enter            すべての候補（2 列 x 8 個、← → で列とページ、Enter で決める）	       →→→ üzerinde Enter      Tüm adaylar (2 x 8, ← → sütun ve sayfa, Enter seçer)
 ui	       Enter                   次の文節へ（最後の文節で全体を確定）	       Enter                   Sonraki öbek (sonuncusunda hepsini onaylar)
-ui	       Ctrl-U                  いまの語をユーザー辞書へ	Ctrl-U Geçerli sözcüğü kullanıcı sözlüğüne ekle
+ui	       Ctrl-U                  いまの語をユーザー辞書へ	       Ctrl-U Geçerli sözcüğü kullanıcı sözlüğüne ekle
 ui	 Shift+F1 / F2 / F3 / F4       先頭 / 最後 / 挿入と上書き / ユーザー辞書へ	 Shift+F1 / F2 / F3 / F4       Baş / son / ekle-üzerine yaz / kullanıcı sözlüğüne
 ui	       BS / ESC                1 字戻す / 取り消し	       BS / ESC Bir karakter geri git / İptal et
 ui	       , . - [ ] /             、 。 ー 「 」 ・	       , . - [ ] / , . - " " ・
@@ -313,7 +312,7 @@ ui	 要る大きさ %s、空き %s。続けますか？	 Gerekli boyut %s, boş 
 ui	 Y: 続ける   N / ESC: やめる	 Y: Devam N / ESC: Durdur
 ui	 何かキーを押すと閉じます	 Kapatmak için herhangi bir tuşa basın
 ui	 ESC: 止める	 ESC: Durdur
-ui	 %s: ←→ ドライブ  ↑↓ フォルダ  Space 開く・閉じる  Enter 決める  ESC やめる	 %s: ←→ Sürücü ↑↓ Klasör Alanı Aç/Kapat Giriş Karar Ver ESC Çıkış
+ui	 %s: ←→ ドライブ  ↑↓ フォルダ  Space 開く・閉じる  Enter 決める  ESC やめる	 %s: ←→ Sürücü  ↑↓ Klasör  Space Aç/Kapat  Enter Seç  ESC İptal
 ui	 読めません: %s	Okunamıyor: %s
 ui	 フォルダを読んでいます...（ESC で止める）  %u 個	 Klasör okunuyor... (ESC ile durun) %u adet
 ui	 フォルダ %u 個%s	 %u parça%s klasörü
@@ -327,11 +326,11 @@ ui	一時停止	duraklatma
 ui	再生中	Şimdi oynatılıyor
 ui	 Space: 一時停止  m: MIDI OUT  q / ESC: 止める	 Boşluk: duraklat  m: MIDI OUT  q / ESC: durdur
 ui	 q / ESC: やめる	q / ESC: Çık
-ui	フォント ROM のライセンスとクレジット\n\nROM: %s（版 %lu.%lu、%lu 文字、フラッシュの 0x%08lX から）\n\n	Font ROM lisansları ve kredileri\n\nROM: %s (sürüm %lu.%lu, %lu karakter, flash'ta 0x%08lX'ten)
-ui	== 収めているフォント（ROM の出所の表）==\n	== Dahil edilen yazı tipleri (ROM kaynak tablosu) ==
-ui	  （表が無い ROM）\n	(tablosuz ROM)
-ui	\n== ROM のクレジットの区画 ==\n\n	== ROM kredileri bölümü ==
-ui	（区画が無い）\n	(Bölünme yoktur)
+ui	フォント ROM のライセンスとクレジット\n\nROM: %s（版 %lu.%lu、%lu 文字、フラッシュの 0x%08lX から）\n\n	Font ROM lisansları ve kredileri\n\nROM: %s (sürüm %lu.%lu, %lu karakter, flash'ta 0x%08lX'ten)\n\n
+ui	== 収めているフォント（ROM の出所の表）==\n	== Dahil edilen yazı tipleri (ROM kaynak tablosu) ==\n
+ui	  （表が無い ROM）\n	  (tablosuz ROM)\n
+ui	\n== ROM のクレジットの区画 ==\n\n	\n== ROM kredileri bölümü ==\n\n
+ui	（区画が無い）\n	(Bölünme yoktur)\n
 ui	\n== 組み込んだソフトウェアのライセンス ==\n	\n== Yerleşik yazılımın lisansları ==\n
 ui	 %s を PNG で保存   %s	%s'yi PNG %s olarak kaydet
 ui	画面	ekran
@@ -345,6 +344,13 @@ ui	WAV 書き出し: %s 失敗（%s）	WAV dışa aktarma: %s başarısız (%s)
 ui	WAV 書き出し: %s 合計 %s	WAV dışa aktarma: %s toplam %s
 ui	 WAV 書き出し（96kHz / 24bit）: %s	 WAV dışa aktarma (96kHz / 24bit): %s
 ui	中止しました	İptal edildi
+ui	準　備　中　．．．	Hazırlanıyor...
+ui	 合計 %s   出力 %s	 Toplam %s   Çıktı %s
+ui	 経過 %s	 Geçen %s
+ui	 %u%%   経過 %s	 %u%%   Geçen %s
+ui	   残り 約 %s	   Kalan ~%s
+ui	   出力 %s	   Çıktı %s
+ui	 止めています...	 Durduruluyor...
 ui	失敗しました	Başarısız
 ui	 合計 %s	 Toplam %s
 ui	 中止しました（%s。半端なファイルは消しました）	 İptal edildi (%s; yarım kalan dosya silindi)
@@ -584,7 +590,7 @@ msg.pattern	received 	alınan %s
 msg.pattern	sent 	gönderildi %s
 msg.pattern	saved 	kaydedildi %s
 msg.pattern	created 	yaratıldı %s
-msg.pattern	renamed to 	olarak yeniden adlandırıldı %s
+msg.pattern	renamed to 	%s olarak yeniden adlandırıldı
 msg.pattern	deleted 	silindi %s
 msg.pattern	changed 	değişti %s
 msg.pattern	joined 	katıldı %s
@@ -1161,6 +1167,20 @@ ui	%s 秒	%s sn
 ui	コンパイル %s  実行 %s	derleme %s  çalıştırma %s
 ui	コンパイル %s	derleme %s
 ui	実行 %s	çalıştırma %s
+ui	壁紙	Duvar kağıdı
+ui	壁紙の輝度	Duvar kağıdı parlaklığı
+ui	(なし)	(yok)
+ui	%u%% (100=原画 0=黒)	%u%% (100=orijinal 0=siyah)
+ui	Up / Down  Enter 決める  Left/Right 輝度  ESC やめる	Up / Down  Enter seç  Left/Right parlaklık  ESC iptal
+ui	現在	Mevcut
+ui	壁紙を解除 (黒地)	Duvar kağıdını kaldır (siyah)
+ui	壁紙を再読み込み	Duvar kağıdını yenile
+ui	PNG ファイルで Menu キーから「壁紙に設定」できます	Duvar kağıdı yapmak için PNG dosyasında Menu tuşuna basın
+ui	壁紙の輝度 (%)	Duvar kağıdı parlaklığı (%)
+ui	 (黒)	 (siyah)
+ui	 (既定)	 (varsayılan)
+ui	 (原画そのまま)	 (orijinal)
+ui	壁紙に設定	Duvar kağıdı yap
 msg.phrase	Version %s	Sürüm %s
 msg.phrase	1 Help	1 Yardım
 msg.phrase	3 Copy	3 Kopya

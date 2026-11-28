@@ -107,9 +107,21 @@ ui	何かキーで閉じる	何かキーで閉じる
 ui	設定	設定
 ui	表示の言語	表示の言語
 ui	キーボードロケール	キーボードロケール
-ui	Up / Down  Enter 決める  ESC やめる	Up / Down  Enter 決める  ESC やめる
-ui	表示の言語 (Language)	表示の言語 (Language)
+ui	壁紙	壁紙
+ui	壁紙の輝度	壁紙の輝度
+ui	(なし)	(なし)
+ui	%u%% (100=原画 0=黒)	%u%% (100=原画 0=黒)
+ui	Up / Down  Enter 決める  Left/Right 輝度  ESC やめる	Up / Down  Enter 決める  Left/Right 輝度  ESC やめる
+ui	現在	現在
+ui	壁紙を解除 (黒地)	壁紙を解除 (黒地)
+ui	壁紙を再読み込み	壁紙を再読み込み
+ui	PNG ファイルで Menu キーから「壁紙に設定」できます	PNG ファイルで Menu キーから「壁紙に設定」できます
+ui	壁紙の輝度 (%)	壁紙の輝度 (%)
+ui	 (黒)	 (黒)
+ui	 (既定)	 (既定)
+ui	 (原画そのまま)	 (原画そのまま)
 ui	Up / Down  Enter 決める  ESC 戻る	Up / Down  Enter 決める  ESC 戻る
+ui	表示の言語 (Language)	表示の言語 (Language)
 ui	読んでいます...	読んでいます...
 ui	%c: をどの文字に固定しますか（A〜Z、S を除く。ESC でやめる）	%c: をどの文字に固定しますか（A〜Z、S を除く。ESC でやめる）
 ui	ドライブ  文字 / Enter 選ぶ  F2 文字を固定・解除  F3 文字を決めて固定  L / ESC やめる	ドライブ  文字 / Enter 選ぶ  F2 文字を固定・解除  F3 文字を決めて固定  L / ESC やめる
@@ -201,6 +213,7 @@ ui	バイナリビュアー: ファイルを選んでください	バイナリ�
 ui	テキストビュアー: ファイルを選んでください	テキストビュアー: ファイルを選んでください
 ui	移動先	移動先
 ui	コピー先	コピー先
+ui	壁紙に設定	壁紙に設定
 ui	バッファがいっぱいです (buffer full)	バッファがいっぱいです (buffer full)
 ui	読み出し専用のドライブです (read-only)	読み出し専用のドライブです (read-only)
 ui	保存できません (no writer)	保存できません (no writer)
@@ -375,6 +388,13 @@ ui	%s 秒	%s 秒
 ui	コンパイル %s  実行 %s	コンパイル %s  実行 %s
 ui	コンパイル %s	コンパイル %s
 ui	実行 %s	実行 %s
+ui	 合計 %s   出力 %s	 合計 %s   出力 %s
+ui	準　備　中　．．．	準　備　中　．．．
+ui	 経過 %s	 経過 %s
+ui	 %u%%   経過 %s	 %u%%   経過 %s
+ui	   残り 約 %s	   残り 約 %s
+ui	   出力 %s	   出力 %s
+ui	 止めています...	 止めています...
 msg.phrase	the drive went away	ドライブが外れました
 msg.phrase	S: check: wait -- a file is being read or written	S: の検査: ファイルの読み書きが終わるまで待ってください
 msg.phrase	S: check: the drive is busy or not ready	S: の検査: S: が使用中か、準備ができていません
@@ -387,7 +407,7 @@ msg.phrase	could not read the directory	フォルダを読めません
 msg.phrase	reading the directory...	フォルダを読んでいます...
 msg.phrase	the drive did not answer -- reading the partitions again	ドライブが答えません。区画を読み直します
 msg.phrase	could not read the directory (not FAT12/16/32?)	フォルダを読めません（FAT12/16/32 でない？）
-msg.phrase	too many entries -- showing the first ones	項目が多すぎるので、初めのほうだけ出します
+msg.phrase	too many entries -- showing the first ones	項目が多すぎるので、初めのほうだけ表示します
 msg.phrase	no file system found on this partition	この区画にファイルシステムが見つかりません
 msg.phrase	the path is too long	パスが長すぎます
 msg.phrase	joining...	つないでいます...

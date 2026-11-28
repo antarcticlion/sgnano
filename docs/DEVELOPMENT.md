@@ -28,11 +28,13 @@
 
 ### 2.1 2 つのコア
 
-- **core0 = ベアメタル**。表示のライン割り込み、描画のループ、音の DMA を受け持つ。
+- **core0 = ベアメタル**。表示のライン割り込み、描画のループ、音の DMA を受け持つ。**アプリ時間の外の空きで Core 0 のサブタスクも走らせる**（`src/core0/c0task.c`、SGX ABI 5.19。Core 1 のプログラムが `task_create_core0` で起こす。描画を妨げない）。
 - **core1 = M33BEATOS**（自作の RTOS）。アプリ・USB・LAN・言語・SGX・シェルなどのタスクが動く。
 - 表示のための資源（パレット・ローレゾのレジスタ・テキスト面）を書き換えてよいのは
   **アプリ時間**（表示のブランキングの窓）だけ。31kHz で 1 フレームに約 1.47ms。
 - PSRAM への書き込みも、FB を表示しているときはアプリ時間だけ。書き込み量の目安は 1 フレーム約 60KB。
+- **モード 2 の FB は動的に取る**（ABI 5.18）。シェルへ入るときや `fb_release()` で PSRAM のアリーナへ返し、`fb_acquire()` で取り直す。
+- **言語は同じものを何本でも同時に走らせられる**（mruby 4・MicroPython 4・SG BASIC 8 の枠）。sgsh は `start` / `detach` / `fg` / `bg` / `suspend` / `ends` のジョブ制御を持つ（2026-11-24）。
 
 ### 2.2 表示
 
@@ -79,6 +81,13 @@
 | `src/storage/` | システムのドライブ S: |
 | `src/mem/` | SRAM / PSRAM のアリーナ、コンパクション |
 | `src/rtos/` | M33BEATOS |
+| `src/core0/` | Core 0 のサブタスク実行基盤（`c0task`、SGX ABI 5.19） |
+| `src/board/` | 基板の判別（P / C）とピンの割り当て |
+| `src/psram/` | PSRAM の初期化と読み書き |
+| `src/sgnanoime/` | IME（かな漢字変換・予測・韓国語。本体に取り込み） |
+| `src/sgnano-audio/` | MP3 / OGG の復号（本体に取り込み） |
+| `src/gfx/` | FB のプリミティブ描画（線・パス・画像・文字、SGX ABI 5.3） |
+| `src/archive/` | 圧縮と書庫（gzip / bzip2 / xz / 7z / zip / tar、SGX ABI 5.12） |
 | `src/ruby/` | mruby の組み込み、ファイル API、Machine、端末 |
 | `src/python/` | MicroPython のポート、Machine、socket、FFT |
 | `src/basic/` | SG BASIC |
@@ -114,7 +123,7 @@ python3 scripts/test_launch.py   # 実機の起動試験
 - pico-sdk 2.2.0、arm-none-eabi-gcc 10.3.1、CMake + Ninja。
 - mruby は `tools/mruby/build.sh` で取得・ビルドする（15〜20 分）。
 - 実機の書き込みは BOOTSEL の UF2 か SWD。SWD のときは両コアの C_DEBUGEN を下ろす。
-- ホスト試験は 44 本。実機の起動試験は 90/92（既知の失敗は `KNOWN_LIMITATIONS.md`）。
+- ホスト試験は 58 本（2026-11-28）。実機の起動試験は 90/92（既知の失敗は `KNOWN_LIMITATIONS.md`）。
 
 ## 6. 用語
 

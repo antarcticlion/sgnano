@@ -105,7 +105,6 @@ ui	何かキーで閉じる	Any key closes
 ui	設定	Settings
 ui	表示の言語	Display language
 ui	キーボードロケール	Keyboard locale
-ui	Up / Down  Enter 決める  ESC やめる	Up / Down  Enter choose  ESC cancel
 ui	表示の言語 (Language)	Display language
 ui	Up / Down  Enter 決める  ESC 戻る	Up / Down  Enter: set  ESC: back
 ui	%c: をどの文字に固定しますか（A〜Z、S を除く。ESC でやめる）	Fix %c: as which letter? (A-Z except S. ESC cancels)
@@ -345,6 +344,13 @@ ui	WAV 書き出し: %s 失敗（%s）	WAV export: %s failed (%s)
 ui	WAV 書き出し: %s 合計 %s	WAV export: %s total %s
 ui	 WAV 書き出し（96kHz / 24bit）: %s	 WAV export (96kHz / 24bit): %s
 ui	中止しました	Canceled
+ui	準　備　中　．．．	Preparing...
+ui	 合計 %s   出力 %s	 Total %s   Output %s
+ui	 経過 %s	 Elapsed %s
+ui	 %u%%   経過 %s	 %u%%   Elapsed %s
+ui	   残り 約 %s	   Left ~%s
+ui	   出力 %s	   Output %s
+ui	 止めています...	 Stopping...
 ui	失敗しました	Failed
 ui	 合計 %s	 Total %s
 ui	 中止しました（%s。半端なファイルは消しました）	 Canceled (%s; the partial file was deleted)
@@ -375,3 +381,17 @@ ui	%s 秒	%s s
 ui	コンパイル %s  実行 %s	compile %s  run %s
 ui	コンパイル %s	compile %s
 ui	実行 %s	run %s
+ui	壁紙	Wallpaper
+ui	壁紙の輝度	Wallpaper brightness
+ui	(なし)	(none)
+ui	%u%% (100=原画 0=黒)	%u%% (100=original 0=black)
+ui	Up / Down  Enter 決める  Left/Right 輝度  ESC やめる	Up / Down  Enter choose  Left/Right brightness  ESC cancel
+ui	現在	Current
+ui	壁紙を解除 (黒地)	Clear wallpaper (black)
+ui	壁紙を再読み込み	Reload wallpaper
+ui	PNG ファイルで Menu キーから「壁紙に設定」できます	Press Menu on a PNG file to set as wallpaper
+ui	壁紙の輝度 (%)	Wallpaper brightness (%)
+ui	 (黒)	 (black)
+ui	 (既定)	 (default)
+ui	 (原画そのまま)	 (original)
+ui	壁紙に設定	Set as wallpaper

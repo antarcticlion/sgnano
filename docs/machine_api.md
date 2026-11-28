@@ -43,6 +43,9 @@ Status column: ✓ = present. Anything missing is a bug — add it.
 | `key_down?(k)` | `key_down(k)` | `KeyDown(k)` | |
 | `key_name(k)` | `key_name(k)` | `KeyName(k)` | |
 | `video_info` | `video_info` | `VideoInfo(key)` | keys: timing mode_name fb line_hz frame_hz frames underrun fifo_stall recover late_start late_render pair_max (BASIC: pair_max0 / pair_max1) |
+| `core_stat` | `core_stat()` | `CoreStat(key)` | 2026-11-24 (ABI 5.17/5.19): Core 0 utilization & rendering stats. keys: `idle_pct` `busy_pct` `sub_pct` `idle_us` `busy_us` `sub_us` `pair_max` (`pair_max0`/`pair_max1`) `pairs` (`pairs0`/`pairs1`) `min_ready` |
+| `core_id` | `core_id()` | `CoreId` | 2026-11-24 (ABI 5.19): current CPU core (`0` = Core 0, `1` = Core 1). Scripts always run on Core 1 |
+| `tasks` | `tasks()` | `TaskCount` / `TaskInfo(i, key)` | 2026-11-24 (ABI 5.19): list of all RTOS + Core 0 tasks. keys: `name` `state` `core` (`0`/`1`) `prio` `base_prio` `current` `suspended` `qmi` `stack_size` `stack_unused` `run_us` `switches`. (`task_create` / `task_create_core0` are SGX ABI only) |
 | `sys_info` | `sys_info` | `SysInfo(key)` | keys: uptime mem_free mem_largest usb_devices hubs pads usb_reinit usb_wedged keyboard kbd_vid kbd_pid kbd_leds mouse |
 | `heap_reserve(n)` | `heap_reserve(n)` | `HeapReserve n` / `Machine.HeapReserve(n)` | raise the minimum heap (64KB default, 4MB max); returns the reserved total |
 | `heap_info` | `heap_info()` | `HeapInfo("key")` | keys: min total used free (BASIC: min total free peak) |

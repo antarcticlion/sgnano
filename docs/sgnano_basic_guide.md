@@ -1,6 +1,6 @@
 # sgnano BASIC プログラミング仕様書（SG BASIC R03 環境）
 
-版: 2026-11-17 ／ 対象: sgnano のファームウェア（RP2350B）に組み込んだ SG BASIC **Rev03.001**
+版: 2026-11-24 ／ 対象: sgnano のファームウェア（RP2350B）に組み込んだ SG BASIC **Rev03.001**
 
 この文書は、sgnano で動く BASIC のプログラムを**ほかの人や AI が書く**ための仕様書です。書いてある決まりは**実機とホストで確かめたもの**です。
 SG BASIC は Microsoft BASIC（6502 版）を C に移したもので、GW-BASIC に近い文と、VB 風の `Sub` / `Function` / `Type` / `Class` を持ちます。
@@ -8,6 +8,8 @@ SG BASIC は Microsoft BASIC（6502 版）を C に移したもので、GW-BASIC
 
 画面・音・パッドの口（`Machine`・`Sound`）は Ruby・Python と同じ名前・同じ働きにそろえてあります（対応表 `docs/machine_api.md`、
 細かい働きは `docs/sgnano_ruby_guide.md` の §7・§9）。
+
+【2026-11-24】**マルチタスク・ジョブ制御・CPU 状態 API**（ABI 5.17〜5.19）を反映した。シェル sgsh から **SG BASIC を最大 7 インスタンス同時に実行**でき、統合ジョブ制御（`&`・`start`・`detach`・`jobs`・`fg`・`bg`/`resume`・`suspend`/`stop`・`ends`・`wait`・`Ctrl-Z`）に対応した（§2.1）。また `Machine.CoreStat(key$)`・`Machine.CoreId`・`Machine.TaskCount`・`Machine.TaskInfo(i, key$)` を足した（§5）。
 
 【2026-11-17】**FB・ビットマップ・画像の描画**（線・図形・パス・文字・転送、§5）と**圧縮と書庫**（`Machine.Arc*`、§6）を足した（ABI 5.3・5.12）。
 
@@ -34,9 +36,9 @@ SG BASIC は Microsoft BASIC（6502 版）を C に移したもので、GW-BASIC
 - `.sgb` はその版の SG BASIC でしか読めない（R02 で作った `.sgb` は「bytecode revision mismatch」）。`.bas` を置けば足りる
 - 見本: `S:/sgbasic`（`mandel.bas` `hat.bas` `m640.bas` `machine.bas` `lowres.bas` `sound.bas` `socket.bas`）、**テスト用アプリの BASIC 版** `S:/sgbasic/testapp/mode0.bas`〜`mode7.bas`
 
-### 2.1 シェルから使う（2026-11-02）
+### 2.1 シェルから使う（2026-11-02、2026-11-24 改訂）
 
-ファイラーで **x** を押すとシェル **sgsh** が開く。SG BASIC のコマンドは mruby・MicroPython に寄せてある。
+ファイラーで **`H`**（または **`Shift+F6`**）を押すとシェル **sgsh** が開く。SG BASIC のコマンドは mruby・MicroPython に寄せてある。
 
 ```
 sgbasic [switches] [programfile] [arguments]
@@ -54,8 +56,12 @@ sgbasic file.sgb                       # バイトコードを走らせる
 - `basic` は `sgbasic` の別名（`alias` で上書きできる）
 - `file.bas` / `file.sgb` のように**拡張子だけで**走らせられる。`run file.bas a b` でも同じ
 - パイプ・リダイレクト・stdin がそのまま使える: `printf 'PRINT 42\n' | sgbasic`、`sgbasic file.bas > out.txt`
-- 出力はシェルの端末、`?SN ERROR` などは stderr（【訂正 2026-11-06】この記述より前の版では stdout に出ていた。SGX ABI 3.5 の `term_write_err` で直した）。`$status` は正常 0、誤り・Ctrl-C は 1、`SYSTEM n` は n
-- 実行中に **Ctrl-C**（または Shift+ESC）で子だけを止めてシェルへ戻る。画面モード 2〜7 を使った子は、終わりにモード 1 へ戻して描き直す
+- 出力はシェルの端末（タスクごとの出力 sink で分離）、`?SN ERROR` などは stderr（【訂正 2026-11-06】この記述より前の版では stdout に出ていた。SGX ABI 3.5 の `term_write_err` で直した）。`$status` は正常 0、誤り・Ctrl-C は 1、`SYSTEM n` は n
+- **複数インスタンス同時実行と統一ジョブ制御（2026-11-24）**: SG BASIC は SGX 枠上で動作し、シェルから**最大 7 インスタンス同時**に動かせる（SGX 最大 8 枠のうち `sgsh` が 1 枠を占有。シェル全体の統合ジョブ表は最大 8 本）
+  - 起動: `sgbasic a.bas &`、`start [/f|/b] [/s] sgbasic a.bas`、`detach sgbasic a.bas`
+  - 操作: `jobs`、`fg [id|%id]`、`bg` / `resume [id|%id]`、`suspend` / `stop [id|%id]`、`ends [-9|-f] id|%id`（終了要求／強制終了）、`wait [id|%id]`、`ps`（`C0`/`C1` 表示）
+  - キー操作: 実行中に **Ctrl-Z** で一時停止してシェルへ戻る（画面モード 2〜4 の FB 内容も保持し、`fg` で元の画面モードに復元）、**Ctrl-C**（または Shift+ESC）で前面ジョブだけを止めてシェルへ戻る
+- **ファイラー起動との違い**: シェル起動中は使わないモード 2 の FB（約 2.4MB）を自動で PSRAM へ解放して空きを広げる。終了時は「press any key」を待たず `$status` を設定して即座にプロンプトへ戻り、画面モード 2〜7 を使った子はモード 1 へ戻して描き直す。
 
 ## 3. 書き方の決まり（R03）
 
@@ -147,6 +153,9 @@ Ruby の書き込み（`x=`）は代入（`Machine.Mode = 3`）。Ruby の Hash 
 | `Machine.TAttr(fg [, bg [, flags]])` / `Machine.TextAttr = a` / `Machine.TextColor fg [, bg]` | 文字の属性 |
 | `Machine.Locate x, y` / `Machine.TextPut x, y, s$ [, attr]` / `Machine.TextAttrAt x, y, attr` / `Machine.TextGet(x, y)` / `Machine.TextClear [attr]` | 文字の位置・置き方 |
 | `Machine.VideoInfo(鍵)` `Machine.SysInfo(鍵)` `Machine.Mouse(鍵)` `Machine.Tablet(鍵)` `Machine.Pad(i, 鍵)` `Machine.Storage(i, 鍵)` | 機械の状態を 1 つずつ（鍵は Ruby の Hash と同じ名前の文字列。`Pad(i, "connected")`・軸は `"axis0"`〜`"axis5"`） |
+| `Machine.CoreStat(鍵)` | Core 0 の余裕度・描画負荷・サブタスク稼働率（ABI 5.17/5.19。鍵: `"idle_pct"` `"busy_pct"` `"sub_pct"` `"idle_us"` `"busy_us"` `"sub_us"` `"pair_max0"` `"pair_max1"` `"pairs0"` `"pairs1"` `"min_ready"`） |
+| `Machine.CoreId` | 実行中の CPU コア番号（`0` = Core 0、`1` = Core 1。BASIC スクリプトは常に `1`、ABI 5.19） |
+| `Machine.TaskCount` / `Machine.TaskInfo(i, 鍵)` | 全 RTOS・Core 0 タスクの総数と i 番目（0 始まり）の情報（ABI 5.19。鍵: `"name"` `"state"` `"core"` `"prio"` `"base_prio"` `"current"` `"suspended"` `"qmi"` `"stack_size"` `"stack_unused"` `"run_us"` `"switches"`）。`task_create` / `task_create_core0` は SGX 外部プログラム専用 |
 | `Machine.HeapReserve n` / `Machine.HeapInfo(鍵)` | ヒープの最小値を n バイトに（64KB〜4MB）。鍵は `"min"` `"total"` `"free"` `"peak"` |
 | `Machine.PadButton(i, n)` `Machine.PadPressed(i, n)` `Machine.PadReleased(i, n)` | パッドのボタン（`Machine.PAD_A` など） |
 | `Machine.PadDirX(i)` / `PadDirY(i)` / `PadStickX(i, "left")` / `PadStickY(i, "left")` / `PadAxis(i, a)` | 向き（-1/0/1）・スティック（-1.0〜1.0） |
@@ -320,7 +329,7 @@ WEND
 - **`\` `MOD` `AND` `OR` は 16 ビット整数**。ミリ秒などの大きな数は `INT(A / B)` で。先頭に `DEFDBL A-Z` を置く。文字列は 255 バイトまで
 - 画面は `Machine.Mode = 2` にしてから `Machine.PSet` `Machine.Line` `Machine.FillRect`（色は `Machine.RGB(r, g, b)`、640x480）。名前は Ruby の Machine から `_` と `?` を取る（`Machine.PadPressed(0, Machine.PAD_A)`）。ローレゾは `Machine.Lr…`、ビットマップは `Machine.Bm…`
 - 値を返すメソッドはかっこ付き（`K = Machine.Key`、無ければ -1）。メソッド名の直後を `(` で始めない
-- 状態は鍵で 1 つずつ（`Machine.VideoInfo("frames")`）
+- 状態は鍵で 1 つずつ（`Machine.VideoInfo("frames")`、`Machine.CoreStat("idle_pct")`、`Machine.CoreId`、`Machine.TaskCount` / `Machine.TaskInfo(i, "name")`）。シェル `sgsh`（ファイラーから `H` / `Shift+F6`）では最大 7 本同時実行やジョブ制御（`&`・`start`・`jobs`・`fg`・`bg`・`suspend`・`ends`・`Ctrl-Z`）が可能
 - 音は `Sound.NoteOn ch, note, vel`・`OK = Sound.Play("x.mid", -1)`
 - 経過時間は `Machine.Ms`、待ちは `Machine.VSync`、乱数は `RND(1)`
 

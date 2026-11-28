@@ -1,9 +1,11 @@
 # sgnano Ruby プログラミング仕様書（mruby 環境）
 
-版: 2026-11-17 ／ 対象: sgnano のファームウェア（RP2350B、mruby 4.0.0）
+版: 2026-11-24 ／ 対象: sgnano のファームウェア（RP2350B、mruby 4.0.0）
 
 この文書は、sgnano で動く Ruby のプログラムを**ほかの人や AI が書く**ための仕様書です。使える書き方・クラス・メソッドは、
 実機と同じ処理系をホストで動かして**一つずつ確かめたもの**です（推測ではありません）。ここに無いメソッドは「無い」と考えてください。
+
+【2026-11-24 の変更】**マルチタスク・ジョブ制御・CPU 状態 API**（ABI 5.17〜5.19）を反映した。シェル sgsh から **mruby を最大 4 インスタンス同時に実行**でき、統合ジョブ制御（`&`・`start`・`detach`・`jobs`・`fg`・`bg`/`resume`・`suspend`/`stop`・`ends`・`wait`・`Ctrl-Z`）に対応した（§2.1）。また `Machine.core_stat`（Core 0 余裕度・サブタスク稼働率）・`Machine.core_id`・`Machine.tasks`（全タスク一覧）を足した（§7）。
 
 【2026-11-17 の変更】**FB・ビットマップ・画像の描画**（線・図形・パス・文字・転送）と**圧縮と書庫**（`Machine::Archive`）を足した（§7・§6。ABI 5.3・5.12）。描画は `Machine.fb`・`Machine.bitmap`・`Machine::Image` が同じメソッドを持ち、状態と描画のメソッドは自分を返すので続けて書ける。
 
@@ -35,7 +37,7 @@ C で書くプログラム（外部実行ファイル `.sgx`）は別の文書 `
 |---|---|
 | 処理系 | mruby 4.0.0（組み込み向けの Ruby）。ソースは本体の中でコンパイルする |
 | 画面 | 640x480（31kHz）。重ねる面は 3 つ: **テキスト面**（80 桁 x 30 行。上 28 行がプログラムの出力の端末、最下行が状態の行）、**フレームバッファ（FB）**（640x480、形式は RGB555・CLUT8（256 色）・CLUT4（16 色）、4 ページ）、**ローレゾ面**（320x240、BG 2 面 + オブジェクト 128 個）。`Machine.mode` の**画面モード 0〜6** で組み合わせを選ぶ（0 なし / 1 テキスト / 2 + RGB555 / 3 + ローレゾ + CLUT8 / 4 + ローレゾ + CLUT4 / 5 テキスト + ローレゾ / 6 ローレゾだけ。§7）。始めはモード 1 |
-| メモリ | ヒープ 1MB（PSRAM）、スタック 32KB。ソースは 1MB まで |
+| メモリ | ヒープは初期 64KB から PSRAM へ自動拡張（最大 4MB、`Machine.heap_reserve` / `heap_info` 対応）、スタック 32KB。ソースは 1MB まで |
 | 整数 | 32 ビットの Fixnum（-2147483648〜2147483647）。あふれると **Bigint** に昇格する（`2 ** 100` も扱える） |
 | 浮動小数 | 倍精度（double）。`p` / `to_s` の表示は**有効 15 桁**（`1.0/3` は `0.333333333333333`、`1e20` は `1.0e+20`） |
 | 文字列 | UTF-8。`size` / `length` は文字数、`bytesize` はバイト数 |
@@ -55,9 +57,9 @@ C で書くプログラム（外部実行ファイル `.sgx`）は別の文書 `
 - **ソースは ASCII で書くのが安全**（コメントも英語に）。文字列の中の日本語は表示できるが、本体のエディタでは ASCII しか打てない。
   日本語の文字列は `"\u65E5\u672C"` のようにも書ける
 
-### 2.1 シェルから使う（2026-11-02）
+### 2.1 シェルから使う（2026-11-02、2026-11-24 改訂）
 
-ファイラーで **x** を押すとシェル **sgsh** が開く。mruby のコマンドは POSIX 版に寄せてある。
+ファイラーで **`H`**（または **`Shift+F6`**）を押すとシェル **sgsh** が開く。mruby のコマンドは POSIX 版に寄せてある。
 
 ```
 mruby [switches] [programfile] [arguments]
@@ -73,8 +75,12 @@ mruby file.mrb                      # バイトコードを走らせる
 - `ruby` は `mruby`、`irb` は `mirb` の別名（`alias` で上書きできる）
 - `file.rb` のように**拡張子だけで**走らせられる。`run file.rb a b` でも同じ
 - シェルのパイプ・リダイレクト・stdin がそのまま使える: `echo 'p 1+2' | mruby`、`mruby -e 'puts 1' > out.txt`
-- 出力はシェルの端末、`SyntaxError` や例外は stderr（`2>` で分けられる）。`$status` は正常 0、例外・誤り・Ctrl-C は 1
-- 実行中に **Ctrl-C**（または Shift+ESC）で子だけを止めてシェルへ戻る。子が画面モード 2〜7 を使ったら、終わりにモード 1 へ戻して描き直す
+- 出力はシェルの端末（タスクごとの出力 sink で分離）、`SyntaxError` や例外は stderr（`2>` で分けられる）。`$status` は正常 0、例外・誤り・Ctrl-C は 1
+- **複数インスタンス同時実行と統一ジョブ制御（2026-11-24）**: シェルから mruby を**最大 4 インスタンス同時**に動かせる（独立した `mrb_state`・ヒープ・32KB スタック。シェル全体の統合ジョブ表は最大 8 本）
+  - 起動: `mruby a.rb &`（背景実行）、`start [/f|/b] [/s] mruby a.rb`（OS/2 風の前面・背景・一時停止起動）、`detach mruby a.rb`（出力を捨てて背景実行）
+  - 操作: `jobs`（一覧）、`fg [id|%id]`（前面へ復帰）、`bg` / `resume [id|%id]`（背景で再開）、`suspend` / `stop [id|%id]`（一時停止）、`ends [-9|-f] id|%id`（終了要求／`-9`・`-f` で強制終了。穏当な表現および csh ブロック終端 `end` との衝突回避のため `ends` を用いる）、`wait [id|%id]`（終了待ち）、`ps`（全タスクの `C0`/`C1` 状態表示）
+  - キー操作: 実行中に **Ctrl-Z** で一時停止してシェルへ戻る（画面モード 2〜4 の FB 内容も保持し、`fg` で元の画面モードに復元）、**Ctrl-C**（または Shift+ESC）で前面ジョブだけを止めてシェルへ戻る
+- **ファイラー起動との違い**: シェル起動中は使わないモード 2 の FB（約 2.4MB）を自動で PSRAM へ解放して空きを広げる（必要なときだけ再確保）。終了時に「press any key」を待たず `$status` を設定して即座にプロンプトへ戻る。画面モード 2〜7 を使った子は、終わりにモード 1 へ戻して描き直す。
 
 ## 3. 言語として使える書き方
 
@@ -388,8 +394,12 @@ BG 2 面 + オブジェクト 128 個）、いちばん上にテキスト面が�
 | `Machine.mouse` | `:connected` `:buttons`（bit0 左・bit1 右・bit2 中）`:x` `:y` `:wheel`（起動からの累計） |
 | `Machine.pad(i)` | i = 0〜3。つながっていなければ nil。`:vid` `:pid` `:hat`（0〜7 = 上から時計回り、8 = 中立）`:buttons`（bit0 = 1 番）`:buttons_n` `:axes`（6 個、無い軸は nil） |
 | `Machine.storage(i)` | i = 0〜3（USB ストレージ）。nil か `:vendor` `:product` `:mb` |
+| `Machine.core_stat` | Core 0 の余裕度・描画負荷・サブタスク稼働率（2026-11-24、ABI 5.17/5.19）。`:idle_pct` `:busy_pct` `:sub_pct`（Float、%）、`:idle_us` `:busy_us` `:sub_us`（直近 1 秒の µs）、`:pair_max`（`[c0, c1]` µs）、`:pairs`（`[c0, c1]`）、`:min_ready` |
+| `Machine.core_id` | 実行中の CPU コア番号（`0` = Core 0、`1` = Core 1。Ruby スクリプトは常に `1`、2026-11-24、ABI 5.19） |
+| `Machine.tasks` | M33BEATOS および Core 0 サブタスクの一覧（Hash の Array。2026-11-24、ABI 5.19）。各要素は `:name` `:state`（`"RUN"`/`"RDY"`/`"SLP"`/`"SUS"` 等）`:core`（`0`/`1`）`:prio` `:base_prio` `:current` `:suspended` `:qmi` `:stack_size` `:stack_unused` `:run_us` `:switches` |
 
 - 作るたびに Hash ができる（ゴミになる）。1 フレームに 1 回くらいにする
+- Core 0 上で並列計算タスクを起動する API（`task_create` / `task_create_core0`）は **SGX 外部プログラム（C/C++）専用**。Ruby スクリプト本体は Core 1 で動作する
 
 ### ヒープ（2026-11-03）
 Ruby のヒープは 64KB から始まり、空きが 32KB を切ると 64KB ずつ増える。空きが 128KB 以上になると、
@@ -687,7 +697,7 @@ BASIC（`samples/basic/bench.bas`）でも同じ項目を測り、右に並べ�
 3. 入力は `gets`（行）と `Machine.key`（1 つずつ）。ESC はプログラムに届かない（実行を止める）。日本語の入力は無い
 4. 画面モードは 0〜7（3〜6 でローレゾ面、7 で 320x200x8 のビットマップ）。USB 機器を直接扱う口はまだ無い。モード 6 ではテキスト面が出ない
 5. 音はポート 4 つ。SGT（4 トラック）・ノイズ（`Sound::NOISE_MODE`）・SMF のチャンネル 10 のドラム・パン（CC10）・PCM（32 サンプル）が使える。ローレゾのオブジェクトは不透明のみ
-6. 1 つのプログラムが使えるメモリは 1MB。大きな配列（10 万要素など）は避ける。640x480 の画素を配列に持つと足りない
+6. ヒープは初期 64KB から PSRAM へ自動拡張し最大 4MB（`Machine.heap_reserve` で下限指定可）。ただし 640x480 の画素を配列に持つような巨大なオブジェクト群は避ける。Core 0 サブタスクの起動は SGX 外部プログラム（C/C++）専用で、Ruby 本体は Core 1 で動作する
 
 ## 12. ひな形
 
@@ -755,6 +765,7 @@ end
 - パッド: `Machine.vsync` のあと `Machine.pad_pressed?(0, Machine::PAD_A)`（押した瞬間）・`pad_button?`（押している）・`pad_dir(0)`（[dx, dy]、上が -1）・`pad_stick(0, :left)`（-1.0〜1.0）
 - 音: `Sound.note_on(ch, note, vel)` / `note_off(ch)` / `adsr(ch, a, d, s, r)`（各 0〜127、ch は 0〜3）、曲は `Sound.play("x.mid")`（SMF）や `Sound.play("x.sgt")`（SGT）・`Sound.playing?`・`Sound.stop`。ノイズは `Sound.set_mode(ch, Sound::NOISE_MODE)`、パンは `Sound.pan(ch, v)`、PCM は `Sound.pcm(ch, data)` + `Sound.set_mode(ch, Sound::PCM)`。SMF のチャンネル 10 のドラムも鳴る
 - 経過時間は `Machine.ms`、日時は `Time.now`、乱数は `rand` / `srand`、待ちは `Machine.vsync` / `sleep`
+- ヒープは初期 64KB から最大 4MB まで自動拡張（`Machine.heap_reserve(n)` / `Machine.heap_info`）。CPU・タスク監視は `Machine.core_id`（常に 1）・`Machine.core_stat`（`:idle_pct` / `:busy_pct` / `:sub_pct` 等）・`Machine.tasks`（全タスク一覧）。シェル `sgsh`（ファイラーから `H` / `Shift+F6`）では最大 4 本同時実行やジョブ制御（`&`・`start`・`jobs`・`fg`・`bg`・`suspend`・`ends`・`Ctrl-Z`）が可能
 - ソースは ASCII だけで書く（コメントも英語）
 - 実機は遅い（FB 表示中は空ループ 10 万回で約 0.36 秒、`pset` 1 回約 0.09ms、全面の `clear` 1 回 33ms）。画素ごとの処理は 640x480 全面で数十秒〜数分かかることを見込む
 

@@ -13,13 +13,13 @@ ui	範囲を選ぶ（Space でその範囲に印）	Vel eitt øki (Bús merkir �
 ui	フォルダに入る・ファイルを開く（F2/X は実行）	Skriva eina mappu / opna eina fílu (F2/X koyra)
 ui	上のフォルダへ	Upp í foreldramappuna
 ui	ドライブを選ぶ（USB・フロッピー・CD・S: 内蔵）	Vel eitt driv (USB, disketta, fløga, S: innbygt)
-ui	コピー（Shift+C / Shift+F3 は行き先を木から）	Avrita (Vift+C / Vaki+F3 velur ferðamálið úr trænum)
+ui	コピー（Shift+C / Shift+F3 は行き先を木から）	Avrita (Shift+C / Shift+F3 velur ferðamálið úr trænum)
 ui	移動	Rørsla
 ui	削除（Shift+D / Shift+F4 はフォルダ削除）	Strika (Skift+D / Skift+F4 strika eina mappu)
 ui	名前を変える	Umnevna
 ui	属性を変える	Broyt eginleikarnar
 ui	エディタで開く	Opna í ritstjóranum
-ui	テキスト表示（Shift+V / Ctrl+Alt+F7 は 16 進）	Vís sum tekstur (Skift+V / Stýr+Alt+F7 hex)
+ui	テキスト表示（Shift+V / Ctrl+Alt+F7 は 16 進）	Vís sum tekstur (Shift+V / Ctrl+Alt+F7 hex)
 ui	ドライブの情報	Koyriupplýsingar
 ui	フォルダを作る（Shift+F5） / 新しいファイル（Ctrl+F1）	Nýggj mappa (Shift+F5) / nýggj fíla (Ctrl+F1)
 ui	シェル sgsh / 媒体を取り出す	Skel sgsh / skúgva út miðil
@@ -30,11 +30,11 @@ ui	ファイルの操作（FD と同じ。印・範囲・カーソルの順）	F
 ui	コピー: 行き先は木から選ぶ。ESC で止める	Avrita: vel ferðamálið úr koyri- og mapputrænum. ESC steðgar
 ui	削除: y で確かめる。印・範囲をまとめて	Strika: vátta við y. Merki og rák í senn. Mappur við innihaldinum
 ui	フォルダを削除（中身ごと）	Strika eina mappu (við innihaldinum)
-ui	名前を変える（今の名前を直して Enter）	Umnevna (rætta navnið, Skriva inn)
+ui	名前を変える（今の名前を直して Enter）	Umnevna (rætta navnið, Enter inn)
 ui	属性: R 読み出し専用・H 隠し・S システム・A アーカイブ	Eginleikar: R bert lesandi, H dult, S skipan, A arkiv
 ui	フォルダを作る	Nýggj mappa
 ui	新しいファイル（空）を作る	Nýggj (tóm) fíla
-ui	テキストで表示（Shift+V / Ctrl+Alt+F7 は 16 進）	Vís sum tekstur (Skift+V / Stýr+Alt+F7 hex)
+ui	テキストで表示（Shift+V / Ctrl+Alt+F7 は 16 進）	Vís sum tekstur (Shift+V / Ctrl+Alt+F7 hex)
 ui	シェル sgsh（exit / Ctrl-D でファイラーへ）	Skel sgsh (far út / Ctrl-D aftur til fíluna)
 ui	選んでいるドライブの素性（INQUIRY・IDENTIFY）	Samleiki á koyringini (FYRISPYRINING, IDENTIFERING)
 ui	FDD・LS-120・CD の媒体を取り出す	Koyr FDD / LS-120 / fløgu miðil út
@@ -70,7 +70,7 @@ ui	半ページ	Hálva síðu
 ui	探す（前へ・後ろへ）/ 次・前	Leita (fram / aftur) / næsta / fyrra
 ui	一覧へ戻る（F1 はビュアーのヘルプ）	Aftur til listan (F1: hyggjarans hjálp)
 ui	画像のビュアー	Myndahyggjari
-ui	一覧へ戻る（F2 F3 F6 F7 Shift+F2 F3 は効く）	Aftur til listan (F2 F3 F6 F7 Vakt+F2 F3 arbeiði)
+ui	一覧へ戻る（F2 F3 F6 F7 Shift+F2 F3 は効く）	Aftur til listan (F2 F3 F6 F7 Shift+F2 F3 virka)
 ui	エディタ（E / Shift+F8）	Ritstjóri (E / Skift+F8)
 ui	保存する（UTF-8。改行と BOM は元のまま）	Goym (UTF-8; linjuendar og BOM varðveitt)
 ui	閉じる（変わっていれば Y / N / ESC）	Lat aftur (um broytt: Ja / Nei / ESC)
@@ -106,15 +106,14 @@ ui	何かキーで閉じる	Ein og hvør lykil letur aftur.
 ui	設定	Innstillingar
 ui	表示の言語	Vís mál
 ui	キーボードロケール	Lyklaborðsstaður
-ui	Up / Down  Enter 決める  ESC やめる	Upp / Niður Skriva vel ESC avlýs
 ui	表示の言語 (Language)	Vís mál
-ui	Up / Down  Enter 決める  ESC 戻る	Upp / Niður Skriva: set ESC: aftur
+ui	Up / Down  Enter 決める  ESC 戻る	Upp / Niður Skriva: Enter set ESC: aftur
 ui	%c: をどの文字に固定しますか（A〜Z、S を除く。ESC でやめる）	Fixa %c: sum hvønn bókstav? (A-Z undantikið S. ESC avlýsir)
-ui	ドライブ  文字 / Enter 選ぶ  F2 文字を固定・解除  F3 文字を決めて固定  L / ESC やめる	Koyr bókstav / Skriva vel F2 rætta/avrætta bókstavin F3 rætta sum... L / ESC avlýsa
-ui	  区画 %u	býti %u
+ui	ドライブ  文字 / Enter 選ぶ  F2 文字を固定・解除  F3 文字を決めて固定  L / ESC やめる	Koyr bókstav / Enter vel F2 rætta/avrætta bókstavin F3 rætta sum... L / ESC avlýsa
+ui	  区画 %u	  býti %u
 ui	%c:* （固定・つながっていません）%04X:%04X%s  %s	%c:* (fast, ikki tengt at) %04X:%04X%s %s
 ui	お知らせ	Leggja til merkis
-ui	ドライブ %c:  %s	Koyr %c: %s
+ui	ドライブ %c:  %s	Drív %c:  %s
 ui	ドライブ  (なし)	Koyr (eingin)
 ui	音楽 CD  %u トラック	Ljóðfløgu %u løg
 ui	フォルダ %u  ファイル %u  合計 %s	Mappur %u fílur %u tilsamans %s
@@ -219,45 +218,45 @@ ui	 %s  %s  行 %lu/%lu 桁 %u  %s  %s %s%s%s	%s %s Ln %lu/%lu Kol %u %s %s %s%s
 ui	*変更	*mod
 ui	上書	OVR
 ui	挿入	INS
-ui	  読出専用	R/O
+ui	  読出専用	  R/O
 ui	 エディタ (sgnano edit)                      F1 / ESC で閉じる	Ritstjóri (sgnano rætta) F1 / ESC letur aftur
-ui	 矢印 / Home End / PgUp PgDn   カーソルを動かす	Pílar / Heimaenda / PgUp PgDn flyta markørin
-ui	 Ctrl-T / Ctrl-B               ファイルの先頭 / 最後	Stríð-T / Stríð-B ovast / enda á fíluni
+ui	 矢印 / Home End / PgUp PgDn   カーソルを動かす	Pílar / Home End / PgUp PgDn flyta markørin
+ui	 Ctrl-T / Ctrl-B               ファイルの先頭 / 最後	 Ctrl-T / Ctrl-B               ovast / enda á fíluni
 ui	 BS / Del                      前の字 / カーソルの字を消す	BS / Del strika áðrenn / við markørinum
-ui	 Enter                         改行（前の行の字下げを引き継ぐ）	Skriva nýggja linju (heldur innskotið)
-ui	 Tab / Ins                     タブ / 挿入と上書きの切り替え	Flipa / Ins flipa / seta inn ella skriva yvir
+ui	 Enter                         改行（前の行の字下げを引き継ぐ）	 Enter                         Skriva nýggja linju (heldur innskotið)
+ui	 Tab / Ins                     タブ / 挿入と上書きの切り替え	 Tab / Ins                     tab / seta inn ella skriva yvir
 ui	 F5                            色分け（拡張子から。C/C++・mruby・MicroPython・SG BASIC・なし）	F5 Liting (frá útbyggingini; C/C++, mruby, Mikropyton, SG GRUNDLEIÐING, eingin)
-ui	 F2  (Ctrl-S)                  保存（UTF-8、改行は元の形）	F2 (Stýr-S) goyma (UTF-8, linjuendarnir haldast)
+ui	 F2  (Ctrl-S)                  保存（UTF-8、改行は元の形）	 F2  (Ctrl-S)                  goyma (UTF-8, linjuendarnir haldast)
 ui	 F10 / ESC                     閉じる（変更があれば聞く）	F10 / ESC lukka (spyr um broytt)
-ui	 IME:  Ctrl-Space / F12        オン・オフ（あ / A）	IME: Stýr-Bús / F12 tendrað / sløkt (あ / A)
-ui	       F9                      IME の言語（このエディタの間だけ。閉じると戻る）	F9 IME mál (bert hesin ritstjórin; endurnýggjaður við stongdum)
-ui	       F8                      日本語の予測変換 オン・オフ	F8 Japansk forsøgn umrokning á/sløkkja
-ui	       日本語                  ローマ字 -> ひらがな（F6）・カタカナ（F7）	Japansk romaji -> hiragana (F6) / katakana (F7)
-ui	                               半角ひらがな（Shift+F6）・半角カタカナ（Shift+F7）	Hiragana í hálvbreidd (skifti+F6) / katakana í hálvbreidd (skifti+F7)
-ui	                               2 字以上で予測、Space で連文節変換	Spáa við 2 ella fleiri stavum, umrokna samfeldan setning við Búsi
-ui	       English                 2 字以上で予測補完	Enskt Forsøgn liðugtgerð við 2 ella fleiri stavum
-ui	       한국어                  2 ボル式ハングル	한국어 2 Bol-stíl Hangul
-ui	       Space / Enter           変換 / 確定	Pláss / Skriva Umrokna / Staðfest
-ui	       ← →                    文節を選ぶ	← → Vel eitt orðatak
-ui	       Shift+← →               文節の右端を 1 字 縮/拡（候補を出し直す）	Shift+← → Minka/vaksa høgra enda av setninginum við einum stavi (nýggj valevni)
-ui	       ↑ ↓ / Tab               候補の窓で前 / 次の候補（窓は変換の下、画面の下では上）	↑ ↓ / Flikkan Fyrri / næsti valevni í popup-vindeyganum (undir tekstinum, omanfyri nærhendis botninum)
-ui	       →→→ で Enter            すべての候補（2 列 x 8 個、← → で列とページ、Enter で決める）	Skriva á →→→ Allir valevnini (2 x 8, ← → súla og síða, Skriva velur)
-ui	       Enter                   次の文節へ（最後の文節で全体を確定）	Skriva Næsta setning (staðfestir heildina við seinasta setning)
-ui	       Ctrl-U                  いまの語をユーザー辞書へ	Ctrl-U Legg núverandi orð til brúkaraorðabókina
+ui	 IME:  Ctrl-Space / F12        オン・オフ（あ / A）	 IME:  Ctrl-Space / F12        tendrað / sløkt (あ / A)
+ui	       F9                      IME の言語（このエディタの間だけ。閉じると戻る）	       F9 IME mál (bert hesin ritstjórin; endurnýggjaður við stongdum)
+ui	       F8                      日本語の予測変換 オン・オフ	       F8 Japansk forsøgn umrokning á/sløkkja
+ui	       日本語                  ローマ字 -> ひらがな（F6）・カタカナ（F7）	       Japansk romaji -> hiragana (F6) / katakana (F7)
+ui	                               半角ひらがな（Shift+F6）・半角カタカナ（Shift+F7）	                               Hiragana í hálvbreidd (Shift+F6) / katakana í hálvbreidd (Shift+F7)
+ui	                               2 字以上で予測、Space で連文節変換	                               Spáa við 2 ella fleiri stavum, umrokna samfeldan setning við Búsi
+ui	       English                 2 字以上で予測補完	       Enskt Forsøgn liðugtgerð við 2 ella fleiri stavum
+ui	       한국어                  2 ボル式ハングル	       한국어 2 Bol-stíl Hangul
+ui	       Space / Enter           変換 / 確定	       Space / Enter           Umseta / Vátta
+ui	       ← →                    文節を選ぶ	       ← → Vel eitt orðatak
+ui	       Shift+← →               文節の右端を 1 字 縮/拡（候補を出し直す）	       Shift+← → Minka/vaksa høgra enda av setninginum við einum stavi (nýggj valevni)
+ui	       ↑ ↓ / Tab               候補の窓で前 / 次の候補（窓は変換の下、画面の下では上）	       ↑ ↓ / Tab Fyrri / næsti valevni í popup-vindeyganum (undir tekstinum, omanfyri nærhendis botninum)
+ui	       →→→ で Enter            すべての候補（2 列 x 8 個、← → で列とページ、Enter で決める）	       Enter á →→→ Allir valevnini (2 x 8, ← → súla og síða, Enter velur)
+ui	       Enter                   次の文節へ（最後の文節で全体を確定）	       Enter                   Skriva Næsta setning (staðfestir heildina við seinasta setning)
+ui	       Ctrl-U                  いまの語をユーザー辞書へ	       Ctrl-U Legg núverandi orð til brúkaraorðabókina
 ui	 Shift+F1 / F2 / F3 / F4       先頭 / 最後 / 挿入と上書き / ユーザー辞書へ	Skift+F1 / F2 / F3 / F4 Ovast / enda / seta inn-yvirskriva / til brúkaraorðabókina
-ui	       BS / ESC                1 字戻す / 取り消し	BS / ESC Far aftur ein stavn / Avlýs
-ui	       , . - [ ] /             、 。 ー 「 」 ・	, . - [ ] / 、 。 ー 「 」 ・
+ui	       BS / ESC                1 字戻す / 取り消し	       BS / ESC Far aftur ein stavn / Avlýs
+ui	       , . - [ ] /             、 。 ー 「 」 ・	       , . - [ ] / 、 。 ー 「 」 ・
 ui	変更あり  Y: 保存して閉じる  N: 保存せず閉じる  ESC: 戻る	Broytt Y: goyma og lata aftur N: lata aftur uttan at goyma ESC: aftur
-ui	[予測] Tab/↑↓: 候補  Space: 変換  Esc: 取消	[Spá] Flipa/↑↓: valevni Pláss: umskipa Esc: avlýsa
-ui	[候補] ↑↓: 選ぶ  ←→: 列・ページ  Enter: 決める	[Próvtakarar] ↑↓: vel ←→: dálka/síða Skriva inn: vel
-ui	[変換] ↑↓候補 ←→文節 Shift+←→区切り Enter次へ	[Umrokna] ↑↓kand ←→setningur Skift+←→bundið Skriva næsta
-ui	[한국어] Tab/↑↓: 候補  Enter/Space: 確定	[한국어] Flipa/↑↓: valevni Skriva/Bláss: staðfest
-ui	[English] Tab/↑↓: 候補  Enter: 確定	[Føroyskt] Flipa/↑↓: valevni Skriva inn: vátta
+ui	[予測] Tab/↑↓: 候補  Space: 変換  Esc: 取消	[Spá] Tab/↑↓: valevni Pláss: umskipa Esc: avlýsa
+ui	[候補] ↑↓: 選ぶ  ←→: 列・ページ  Enter: 決める	[Próvtakarar] ↑↓: vel ←→: dálka/síða Enter inn: vel
+ui	[変換] ↑↓候補 ←→文節 Shift+←→区切り Enter次へ	[Umrokna] ↑↓kand ←→setningur Skift+←→bundið Enter næsta
+ui	[한국어] Tab/↑↓: 候補  Enter/Space: 確定	[한국어] Tab/↑↓: valevni Enter/Bláss: staðfest
+ui	[English] Tab/↑↓: 候補  Enter: 確定	[English] Tab/↑↓: valevni Enter inn: vátta
 ui	2ボル式ハングル入力  Ctrl-Space: 英数	2-sett Hangul inntøka Ctrl-Bús: bókstavtal
 ui	予測補完  Ctrl-Space: 直接入力	Forútsigulig liðugtgerð Ctrl-Búm: beinleiðis inntøka
 ui	辞書なし: ひらがな/カタカナ入力のみ  F6/F7	Eingin orðabók: hiragana/katakana bert F6/F7.
-ui	Space: 変換  F7: カタカナ  Ctrl-Space: 英数	Pláss: umrokna F7: katakana Stýr-Bláss: bókstavtal
-ui	Space: 変換  F6: ひらがな  Ctrl-Space: 英数	Pláss: umrokna F6: hiragana Stýr-Bláss: bókstavtal
+ui	Space: 変換  F7: カタカナ  Ctrl-Space: 英数	Space: umrokna  F7: katakana  Ctrl-Space: bókstavtal
+ui	Space: 変換  F6: ひらがな  Ctrl-Space: 英数	Space: umrokna  F6: hiragana  Ctrl-Space: bókstavtal
 ui	半角  F6: ひらがな  F7: カタカナ  Shift+F6/F7: 半角	Hálvbreidd F6: hiragana F7: katakana Skift+F6/F7: hálvt
 ui	IME オフ	IME av
 ui	 予測	spáa
@@ -269,8 +268,8 @@ ui	色分け: %s	Lit: %s
 ui	読み込んでいます... (loading)	Heinta...
 ui	読み込めませんでした (could not read)	Kundi ikki lesa fíluna
 ui	%lu 行%s%s	%lu linjur%s%s
-ui	  Shift_JIS を UTF-8 で開きました（保存は UTF-8）	opnað Shift_JIS sum UTF-8 (goymt sum UTF-8)
-ui	  読み出し専用	bert lesandi
+ui	  Shift_JIS を UTF-8 で開きました（保存は UTF-8）	  opnað Shift_JIS sum UTF-8 (goymt sum UTF-8)
+ui	  読み出し専用	  bert lesandi
 ui	保存しました (saved)	Goymt
 ui	保存できませんでした (write failed)	Kundi ikki goyma (skriva miseydnaðist)
 ui	候補	Valevni
@@ -283,7 +282,7 @@ ui	16 進  q ESC: 戻る  F1: ヘルプ	Hex q ESC: aftur F1: hjálp
 ui	テキスト  q ESC: 戻る  F1: ヘルプ	Tekstur q ESC: aftur F1: hjálp
 ui	ビュアーのキー（less 風。テキストと 16 進で共通）	Hyggjaralyklar (sum minni; tað sama fyri tekst og hex)
 ui	1 行進む	Ein lína niður
-ui	1 行戻る	Ein uppstilling
+ui	1 行戻る	Ein lína upp
 ui	1 ページ進む	Ein síða niður
 ui	1 ページ戻る	Ein síða upp
 ui	半ページ進む / 戻る	Hálva síðu niður / upp .
@@ -309,12 +308,12 @@ ui	（止めています）	(steðgar)
 ui	 元: %s	Frá: %s
 ui	 先: %s	Til: %s
 ui	 ファイル %u / %u 個  フォルダ %u 個  %s / %s  (%u%%)%s	Fílur %u / %u mappur %u %s / %s (%u%%)%s
-ui	  多すぎるので一部だけ	ov nógv: bert sum
+ui	  多すぎるので一部だけ	  ov nógv: bert sum
 ui	 要る大きさ %s、空き %s。続けますか？	Tørvar %s, ókeypis %s. Halda á fram?
 ui	 Y: 続ける   N / ESC: やめる	Y: halt fram N / ESC: avlýs
 ui	 何かキーを押すと閉じます	Trýst á ein og hvønn knøtt fyri at lata aftur
 ui	 ESC: 止める	ESC: steðga
-ui	 %s: ←→ ドライブ  ↑↓ フォルダ  Space 開く・閉じる  Enter 決める  ESC やめる	%s: ←→ koyra ↑↓ mappa Pláss opið/lukka Skriva vel ESC avlýs
+ui	 %s: ←→ ドライブ  ↑↓ フォルダ  Space 開く・閉じる  Enter 決める  ESC やめる	 %s: ←→ drív  ↑↓ mappa  Space opna/loka  Enter vel  ESC avlýs
 ui	 読めません: %s	Kann ikki lesa: %s
 ui	 フォルダを読んでいます...（ESC で止める）  %u 個	Lesa mappurnar... (ESC steðgar) %u
 ui	 フォルダ %u 個%s	%u mappur%s
@@ -328,12 +327,12 @@ ui	一時停止	Steðgur
 ui	再生中	Spælur
 ui	 Space: 一時停止  m: MIDI OUT  q / ESC: 止める	Pláss: steðgur m: MIDI ÚT q / ESC: steðgur
 ui	 q / ESC: やめる	q / ESC: avlýsa
-ui	フォント ROM のライセンスとクレジット\n\nROM: %s（版 %lu.%lu、%lu 文字、フラッシュの 0x%08lX から）\n\n	Skrift ROM loyvi og stig\n\nROM: %s (útgáva %lu.%lu, %lu stavir, frá 0x%08lX í blitsinum)
-ui	== 収めているフォント（ROM の出所の表）==\n	== Skrift í ROM (upprunatalvan hjá ROM) ==
-ui	  （表が無い ROM）\n	(ROM hevur onga borð)
-ui	\n== ROM のクレジットの区画 ==\n\n	== Eintøkuøkið í ROM ==
-ui	（区画が無い）\n	(einki slíkt øki)
-ui	\n== 組み込んだソフトウェアのライセンス ==\n	== Loyvi til innbygda forritið ==
+ui	フォント ROM のライセンスとクレジット\n\nROM: %s（版 %lu.%lu、%lu 文字、フラッシュの 0x%08lX から）\n\n	Skrift ROM loyvi og stig\n\nROM: %s (útgáva %lu.%lu, %lu stavir, frá 0x%08lX í blitsinum)\n\n
+ui	== 収めているフォント（ROM の出所の表）==\n	== Skrift í ROM (upprunatalvan hjá ROM) ==\n
+ui	  （表が無い ROM）\n	  (ROM hevur onga borð)\n
+ui	\n== ROM のクレジットの区画 ==\n\n	\n== Eintøkuøkið í ROM ==\n\n
+ui	（区画が無い）\n	(einki slíkt øki)\n
+ui	\n== 組み込んだソフトウェアのライセンス ==\n	\n== Loyvi til innbygda forritið ==\n
 ui	 %s を PNG で保存   %s	Goyma %s sum PNG %s
 ui	画面	Skýggi
 ui	 組み立てています... %lu / %lu 行	Bygging... %lu / %lu røðir
@@ -346,6 +345,13 @@ ui	WAV 書き出し: %s 失敗（%s）	WAV-útflutningur: %s miseydnaðist (%s)
 ui	WAV 書き出し: %s 合計 %s	WAV útflutningur: %s samlað %s
 ui	 WAV 書き出し（96kHz / 24bit）: %s	WAV-útflutningur (96kHz / 24bit): %s
 ui	中止しました	Avlýst
+ui	準　備　中　．．．	Fyrireikar...
+ui	 合計 %s   出力 %s	 Tilsamans %s   Úttak %s
+ui	 経過 %s	 Gingið %s
+ui	 %u%%   経過 %s	 %u%%   Gingið %s
+ui	   残り 約 %s	   Eftir ~%s
+ui	   出力 %s	   Úttak %s
+ui	 止めています...	 Steðgar...
 ui	失敗しました	Miseydnað
 ui	 合計 %s	Tilsamans %s
 ui	 中止しました（%s。半端なファイルは消しました）	Avlýst (%s; partvísa fílan varð strikað)
@@ -356,7 +362,7 @@ ui	 ESC: 止める（半端なファイルは消します）	ESC: steðga (partv
 ui	書庫: %s	Skjalasavn: %s
 ui	読み込み中…（ESC でやめる）	Lestur... (ESC at avlýsa)
 ui	 %u 項目%s  合計 %s バイト  展開先: %s	%u lutir%s tilsamans %s byte úrdráttur til: %s
-ui	 Enter 項目を展開  X 全部を展開  ↑↓ 動かす  ESC 閉じる	Skriva úrdráttur lutur X úrdráttur alt ↑↓ flyt ESC tætt
+ui	 Enter 項目を展開  X 全部を展開  ↑↓ 動かす  ESC 閉じる	 Enter pakka út lut  X pakka út alt  ↑↓ flyt  ESC lat aftur
 ui	圧縮	Komprimera
 ui	一覧	Listi
 ui	展開	Úrdráttur
@@ -1162,6 +1168,20 @@ ui	%s 秒	%s s
 ui	コンパイル %s  実行 %s	umseting %s  koyring %s
 ui	コンパイル %s	umseting %s
 ui	実行 %s	koyring %s
+ui	壁紙	Bakgrundsmynd
+ui	壁紙の輝度	Ljósstyrki á bakgrund
+ui	(なし)	(eingin)
+ui	%u%% (100=原画 0=黒)	%u%% (100=uppruna 0=svart)
+ui	Up / Down  Enter 決める  Left/Right 輝度  ESC やめる	Up / Down  Enter vel  Left/Right ljósstyrki  ESC avlýs
+ui	現在	Núverandi
+ui	壁紙を解除 (黒地)	Strika bakgrund (svart)
+ui	壁紙を再読み込み	Les bakgrund av nýggjum
+ui	PNG ファイルで Menu キーから「壁紙に設定」できます	Trýst á Menu á PNG-fílu fyri at seta sum bakgrund
+ui	壁紙の輝度 (%)	Ljósstyrki á bakgrund (%)
+ui	 (黒)	 (svart)
+ui	 (既定)	 (sjálvsett)
+ui	 (原画そのまま)	 (uppruna)
+ui	壁紙に設定	Set sum bakgrund
 msg.phrase	1 Help	1 Hjálp
 msg.phrase	3 Copy	3 Avrita
 msg.phrase	4 Paste	4 Lím

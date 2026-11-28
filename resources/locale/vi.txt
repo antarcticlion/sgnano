@@ -13,7 +13,7 @@ ui	範囲を選ぶ（Space でその範囲に印）	Chọn một vùng (Space đ
 ui	フォルダに入る・ファイルを開く（F2/X は実行）	Vào thư mục / mở tệp (F2/X chạy)
 ui	上のフォルダへ	Lên thư mục cha
 ui	ドライブを選ぶ（USB・フロッピー・CD・S: 内蔵）	Chọn ổ đĩa (USB, đĩa mềm, CD, S: tích hợp)
-ui	コピー（Shift+C / Shift+F3 は行き先を木から）	Sao chép (Shift+C / Shift+F3 chọn đích từ cây)
+ui	コピー（Shift+C / Shift+F3 は行き先を木から）	Sao chép (Shift+C / Shift+F3 chọn đích từ cây thư mục)
 ui	移動	Di chuyển
 ui	削除（Shift+D / Shift+F4 はフォルダ削除）	Xóa (Shift+D / Shift+F4 xóa thư mục)
 ui	名前を変える	Đổi tên
@@ -106,7 +106,6 @@ ui	何かキーで閉じる	Nhấn phím bất kỳ để đóng
 ui	設定	Cài đặt
 ui	表示の言語	Ngôn ngữ hiển thị
 ui	キーボードロケール	Bố cục bàn phím
-ui	Up / Down  Enter 決める  ESC やめる	Lên / Xuống  Enter chọn  ESC hủy
 ui	表示の言語 (Language)	Ngôn ngữ hiển thị
 ui	Up / Down  Enter 決める  ESC 戻る	Lên / Xuống  Enter: đặt  ESC: quay lại
 ui	%c: をどの文字に固定しますか（A〜Z、S を除く。ESC でやめる）	Cố định %c: thành chữ nào? (A-Z trừ S. ESC hủy)
@@ -346,6 +345,13 @@ ui	WAV 書き出し: %s 失敗（%s）	Xuất WAV: %s thất bại (%s)
 ui	WAV 書き出し: %s 合計 %s	Xuất WAV: %s tổng %s
 ui	 WAV 書き出し（96kHz / 24bit）: %s	 Xuất WAV (96kHz / 24bit): %s
 ui	中止しました	Đã hủy
+ui	準　備　中　．．．	Đang chuẩn bị...
+ui	 合計 %s   出力 %s	 Tổng %s   Đầu ra %s
+ui	 経過 %s	 Đã qua %s
+ui	 %u%%   経過 %s	 %u%%   Đã qua %s
+ui	   残り 約 %s	   Còn lại ~%s
+ui	   出力 %s	   Đầu ra %s
+ui	 止めています...	 Đang dừng...
 ui	失敗しました	Thất bại
 ui	 合計 %s	 Tổng %s
 ui	 中止しました（%s。半端なファイルは消しました）	 Đã hủy (%s; đã xóa tệp dở dang)
@@ -1041,6 +1047,20 @@ ui	%s 秒	%s giây
 ui	コンパイル %s  実行 %s	biên dịch %s  chạy %s
 ui	コンパイル %s	biên dịch %s
 ui	実行 %s	chạy %s
+ui	壁紙	Hình nền
+ui	壁紙の輝度	Độ sáng hình nền
+ui	(なし)	(không có)
+ui	%u%% (100=原画 0=黒)	%u%% (100=gốc 0=đen)
+ui	Up / Down  Enter 決める  Left/Right 輝度  ESC やめる	Up / Down  Enter chọn  Left/Right độ sáng  ESC hủy
+ui	現在	Hiện tại
+ui	壁紙を解除 (黒地)	Xóa hình nền (nền đen)
+ui	壁紙を再読み込み	Tải lại hình nền
+ui	PNG ファイルで Menu キーから「壁紙に設定」できます	Nhấn Menu trên tệp PNG để đặt làm hình nền
+ui	壁紙の輝度 (%)	Độ sáng hình nền (%)
+ui	 (黒)	 (đen)
+ui	 (既定)	 (mặc định)
+ui	 (原画そのまま)	 (gốc)
+ui	壁紙に設定	Đặt làm hình nền
 msg.phrase	%s Sum %.7g N %ld%s	%s Tổng %.7g N %ld%s
 msg.phrase	EDIT  	SỬA
 msg.phrase	GRAPH  %s  %s	BIỂU ĐỒ  %s  %s

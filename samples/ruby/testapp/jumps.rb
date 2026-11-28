@@ -1204,6 +1204,15 @@ def read_dir
   dx
 end
 
+def pad_jump?
+  return true if M.pad_pressed?(0, M::PAD_A)
+  if M.pad(0) != nil
+    pdir = M.pad_dir(0)
+    return true if pdir != nil && pdir.is_a?(Array) && pdir[1].is_a?(Integer) && pdir[1] < 0
+  end
+  false
+end
+
 def kb_jump?
   M.key_down?(M::KEY_SPACE) || M.key_down?(M::KEY_UP)
 end
@@ -1280,7 +1289,7 @@ loop do
         vx = 0.0
       end
 
-      jump = M.pad_pressed?(0, M::PAD_A) || kb_jump?
+      jump = pad_jump? || kb_jump?
       if jump && on_ground
         jump_dy = JUMP_DY
         jump_i = 0

@@ -105,7 +105,6 @@ ui	何かキーで閉じる	何かキーで閉じる
 ui	設定	設定
 ui	表示の言語	表示の言語
 ui	キーボードロケール	キーボードロケール
-ui	Up / Down  Enter 決める  ESC やめる	Up / Down  Enter 決める  ESC やめる
 ui	表示の言語 (Language)	表示の言語 (Language)
 ui	Up / Down  Enter 決める  ESC 戻る	Up / Down  Enter 決める  ESC 戻る
 ui	%c: をどの文字に固定しますか（A〜Z、S を除く。ESC でやめる）	%c: をどの文字に固定しますか（A〜Z、S を除く。ESC でやめる）
@@ -345,6 +344,13 @@ ui	WAV 書き出し: %s 失敗（%s）	WAV 書き出し: %s 失敗（%s）
 ui	WAV 書き出し: %s 合計 %s	WAV 書き出し: %s 合計 %s
 ui	 WAV 書き出し（96kHz / 24bit）: %s	 WAV 書き出し（96kHz / 24bit）: %s
 ui	中止しました	中止しました
+ui	準　備　中　．．．	準　備　中　．．．
+ui	 合計 %s   出力 %s	 合計 %s   出力 %s
+ui	 経過 %s	 経過 %s
+ui	 %u%%   経過 %s	 %u%%   経過 %s
+ui	   残り 約 %s	   残り 約 %s
+ui	   出力 %s	   出力 %s
+ui	 止めています...	 止めています...
 ui	失敗しました	失敗しました
 ui	 合計 %s	 合計 %s
 ui	 中止しました（%s。半端なファイルは消しました）	 中止しました（%s。半端なファイルは消しました）
@@ -379,7 +385,7 @@ msg.phrase	could not read the directory	フォルダを読めません
 msg.phrase	reading the directory...	フォルダを読んでいます...
 msg.phrase	the drive did not answer -- reading the partitions again	ドライブが答えません。区画を読み直します
 msg.phrase	could not read the directory (not FAT12/16/32?)	フォルダを読めません（FAT12/16/32 でない？）
-msg.phrase	too many entries -- showing the first ones	項目が多すぎるので、初めのほうだけ出します
+msg.phrase	too many entries -- showing the first ones	項目が多すぎるので、初めのほうだけ表示します
 msg.phrase	no file system found on this partition	この区画にファイルシステムが見つかりません
 msg.phrase	the path is too long	パスが長すぎます
 msg.phrase	joining...	つないでいます...
@@ -805,7 +811,6 @@ msg.phrase	order refers to a missing pattern	曲順が無いパターンを指�
 msg.phrase	A:/	A:/
 msg.phrase	(untitled)	（無題）
 msg.phrase	Ready. Press F1 for help.	待機中。F1 でヘルプ
-msg.phrase	stopped	止めました
 msg.phrase	Follow OFF	追従 オフ
 msg.phrase	Nothing to undo	元に戻すものがありません
 msg.phrase	Undo	元に戻しました
@@ -835,7 +840,6 @@ msg.phrase	Edit OFF	編集 オフ
 msg.phrase	Follow ON	追従 オン
 msg.phrase	Edit is OFF. Press F8 to edit.	編集がオフです。F8 で編集
 msg.phrase	I/O error	読み書きの誤り
-msg.phrase	is a directory	フォルダです
 msg.phrase	file is too large	ファイルが大きすぎます
 msg.phrase	truncated file	ファイルが途中で切れています
 msg.phrase	SINE PAD	SINE PAD
@@ -905,14 +909,9 @@ msg.phrase	A-	A-
 msg.phrase	A#	A#
 msg.phrase	B-	B-
 msg.phrase	A:/dir/name	A:/ディレクトリ/名前
-msg.phrase	not a standard MIDI file (no MThd)	スタンダード MIDI ファイルではありません（MThd が無い）
 msg.phrase	MThd	MThd
 msg.phrase	broken MThd	MThd が壊れています
-msg.phrase	SMF format 2 is not supported (0 and 1 only)	SMF のフォーマット 2 は扱えません（0 と 1 だけ）
-msg.phrase	SMPTE time division is not supported	SMPTE の時間の単位は扱えません
-msg.phrase	no tracks	トラックがありません
 msg.phrase	MIDI IMPORT	MIDI の読み込み
-msg.phrase	a track is broken (MTrk)	トラックが壊れています（MTrk）
 msg.phrase	MTrk	MTrk
 msg.phrase	broken delta time	デルタタイムが壊れています
 msg.phrase	broken running status	ランニングステータスが壊れています
@@ -1174,6 +1173,20 @@ ui	%s 秒	%s 秒
 ui	コンパイル %s  実行 %s	コンパイル %s  実行 %s
 ui	コンパイル %s	コンパイル %s
 ui	実行 %s	実行 %s
+ui	壁紙	壁紙
+ui	壁紙の輝度	壁紙の輝度
+ui	(なし)	(なし)
+ui	%u%% (100=原画 0=黒)	%u%% (100=原画 0=黒)
+ui	Up / Down  Enter 決める  Left/Right 輝度  ESC やめる	Up / Down  Enter 決める  Left/Right 輝度  ESC やめる
+ui	現在	現在
+ui	壁紙を解除 (黒地)	壁紙を解除 (黒地)
+ui	壁紙を再読み込み	壁紙を再読み込み
+ui	PNG ファイルで Menu キーから「壁紙に設定」できます	PNG ファイルで Menu キーから「壁紙に設定」できます
+ui	壁紙の輝度 (%)	壁紙の輝度 (%)
+ui	 (黒)	 (黒)
+ui	 (既定)	 (既定)
+ui	 (原画そのまま)	 (原画そのまま)
+ui	壁紙に設定	壁紙に設定
 msg.phrase	1 Help	1 ヘルプ
 msg.phrase	3 Copy	3 コピー
 msg.phrase	4 Paste	4 貼付

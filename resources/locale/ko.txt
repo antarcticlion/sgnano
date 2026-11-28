@@ -105,7 +105,6 @@ ui	何かキーで閉じる	아무 키로 닫기
 ui	設定	설정
 ui	表示の言語	표시 언어
 ui	キーボードロケール	키보드 로캘
-ui	Up / Down  Enter 決める  ESC やめる	Up / Down  Enter 결정  ESC 취소
 ui	表示の言語 (Language)	표시 언어 (Language)
 ui	Up / Down  Enter 決める  ESC 戻る	Up / Down  Enter: 결정  ESC: 돌아가기
 ui	%c: をどの文字に固定しますか（A〜Z、S を除く。ESC でやめる）	%c: 를 어느 문자로 고정할까요 (A~Z, S 제외. ESC로 취소)
@@ -225,7 +224,7 @@ ui	 Ctrl-T / Ctrl-B               ファイルの先頭 / 最後	 Ctrl-T / Ctrl-
 ui	 BS / Del                      前の字 / カーソルの字を消す	 BS / Del                      앞 글자 / 커서 글자 삭제
 ui	 Enter                         改行（前の行の字下げを引き継ぐ）	 Enter                         줄바꿈 (앞 줄의 들여쓰기 유지)
 ui	 Tab / Ins                     タブ / 挿入と上書きの切り替え	 Tab / Ins                     탭 / 삽입·덮어쓰기 전환
-ui	 F5                            色分け（拡張子から。C/C++・mruby・MicroPython・SG BASIC・なし）	 F5                            색 구분 (확장자로. C/C++・mruby・MicroPython・SG BASIC・없음)
+ui	 F5                            色分け（拡張子から。C/C++・mruby・MicroPython・SG BASIC・なし）	 F5                            색 구분 (확장자로. C/C++·mruby·MicroPython·SG BASIC·없음)
 ui	 F2  (Ctrl-S)                  保存（UTF-8、改行は元の形）	 F2  (Ctrl-S)                  저장 (UTF-8, 줄바꿈은 원래대로)
 ui	 F10 / ESC                     閉じる（変更があれば聞く）	 F10 / ESC                     닫기 (변경이 있으면 물음)
 ui	 IME:  Ctrl-Space / F12        オン・オフ（あ / A）	 IME:  Ctrl-Space / F12        켜기·끄기 (あ / A)
@@ -291,7 +290,7 @@ ui	下へ探す / 上へ探す（大文字小文字は区別しない）	아래�
 ui	次 / 前を探す	다음 / 이전 검색
 ui	16 進で表示する（いま見ている所のまま）	16진수로 표시 (보던 위치 그대로)
 ui	テキストで表示する（いま見ている所のまま）	텍스트로 표시 (보던 위치 그대로)
-ui	色分けを替える（C/C++・mruby・MicroPython・SG BASIC・なし）	색 구분 바꾸기 (C/C++・mruby・MicroPython・SG BASIC・없음)
+ui	色分けを替える（C/C++・mruby・MicroPython・SG BASIC・なし）	색 구분 바꾸기 (C/C++·mruby·MicroPython·SG BASIC·없음)
 ui	FB / テキスト面を出す・隠す	FB / 텍스트 면 표시·숨김
 ui	FB の表示ページ / 書き込みページ	FB 표시 페이지 / 쓰기 페이지
 ui	ファイラーへ戻る	파일러로 돌아가기
@@ -345,6 +344,13 @@ ui	WAV 書き出し: %s 失敗（%s）	WAV 내보내기: %s 실패 (%s)
 ui	WAV 書き出し: %s 合計 %s	WAV 내보내기: %s 합계 %s
 ui	 WAV 書き出し（96kHz / 24bit）: %s	 WAV 내보내기 (96kHz / 24bit): %s
 ui	中止しました	중지했습니다
+ui	準　備　中　．．．	준비 중...
+ui	 合計 %s   出力 %s	 합계 %s   출력 %s
+ui	 経過 %s	 경과 %s
+ui	 %u%%   経過 %s	 %u%%   경과 %s
+ui	   残り 約 %s	   남은 시간 약 %s
+ui	   出力 %s	   출력 %s
+ui	 止めています...	 중지하는 중...
 ui	失敗しました	실패했습니다
 ui	 合計 %s	 합계 %s
 ui	 中止しました（%s。半端なファイルは消しました）	 중지했습니다 (%s. 덜 된 파일은 지웠습니다)
@@ -1161,6 +1167,20 @@ ui	%s 秒	%s 초
 ui	コンパイル %s  実行 %s	컴파일 %s  실행 %s
 ui	コンパイル %s	컴파일 %s
 ui	実行 %s	실행 %s
+ui	壁紙	배경화면
+ui	壁紙の輝度	배경화면 밝기
+ui	(なし)	(없음)
+ui	%u%% (100=原画 0=黒)	%u%% (100=원본 0=검정)
+ui	Up / Down  Enter 決める  Left/Right 輝度  ESC やめる	Up / Down  Enter 선택  Left/Right 밝기  ESC 취소
+ui	現在	현재
+ui	壁紙を解除 (黒地)	배경화면 해제 (검정)
+ui	壁紙を再読み込み	배경화면 다시 읽기
+ui	PNG ファイルで Menu キーから「壁紙に設定」できます	PNG 파일에서 Menu 키로 배경화면으로 설정할 수 있습니다
+ui	壁紙の輝度 (%)	배경화면 밝기 (%)
+ui	 (黒)	 (검정)
+ui	 (既定)	 (기본)
+ui	 (原画そのまま)	 (원본)
+ui	壁紙に設定	배경화면으로 설정
 msg.phrase	Version %s	버전 %s
 msg.phrase	1 Help	1 도움말
 msg.phrase	3 Copy	3 복사

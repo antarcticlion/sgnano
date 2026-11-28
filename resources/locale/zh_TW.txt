@@ -11,7 +11,7 @@ ui	Shift+矢印	Shift+方向鍵
 ui	範囲を選ぶ（Space でその範囲に印）	選取範圍（Space 標記該範圍）
 ui	フォルダに入る・ファイルを開く（F2/X は実行）	進入資料夾 / 開啟檔案（F2/X 執行）
 ui	上のフォルダへ	回到上層資料夾
-ui	ドライブを選ぶ（USB・フロッピー・CD・S: 内蔵）	選擇磁碟機（USB・軟碟・CD・S: 內建）
+ui	ドライブを選ぶ（USB・フロッピー・CD・S: 内蔵）	選擇磁碟機（USB、軟碟、CD、S: 內建）
 ui	コピー（Shift+C / Shift+F3 は行き先を木から）	複製（Shift+C / Shift+F3 從樹狀圖選擇目的地）
 ui	移動	移動
 ui	削除（Shift+D / Shift+F4 はフォルダ削除）	刪除（Shift+D / Shift+F4 刪除資料夾）
@@ -35,7 +35,7 @@ ui	フォルダを作る	新資料夾
 ui	新しいファイル（空）を作る	新檔案（空）
 ui	テキストで表示（Shift+V / Ctrl+Alt+F7 は 16 進）	以文字檢視（Shift+V / Ctrl+Alt+F7 十六進位）
 ui	シェル sgsh（exit / Ctrl-D でファイラーへ）	Shell sgsh（exit / Ctrl-D 回到檔案管理員）
-ui	選んでいるドライブの素性（INQUIRY・IDENTIFY）	所選磁碟機的資訊（INQUIRY・IDENTIFY）
+ui	選んでいるドライブの素性（INQUIRY・IDENTIFY）	所選磁碟機的資訊（INQUIRY、IDENTIFY）
 ui	FDD・LS-120・CD の媒体を取り出す	退出 FDD / LS-120 / CD 媒體
 ui	一覧を読み直す（CD は TOC から）	重新讀取清單（CD：從 TOC）
 ui	ZMODEM で PC から受け取る（zm.sh put）	以 ZMODEM 從 PC 接收（zm.sh put）
@@ -46,7 +46,7 @@ ui	MicroPython の REPL	MicroPython REPL
 ui	4MB ずつ分割 / .001 から結合	分割成 4 MB / 從 .001 合併
 ui	分割 / 結合（Ctrl+F11 / F12 と同じ）	分割 / 合併（同 Ctrl+F11 / F12）
 ui	画面（Alt+F。FD の F キーとぶつからない）	畫面（Alt+F，不與 FD 的 F 鍵衝突）
-ui	FB（絵）/ テキスト面を出す・隠す	顯示・隱藏 FB（圖片）/ 文字
+ui	FB（絵）/ テキスト面を出す・隠す	顯示、隱藏 FB（圖片）/ 文字
 ui	FB の表示ページ（0〜3）	FB 顯示頁（0-3）
 ui	FB を 0 で消す / 明るさを 1/2 に（RGB555）	將 FB 清為 0 / 亮度減半（RGB555）
 ui	USB のエンドポイントと LAN（U: 10 秒に 1 度）	USB 端點與 LAN 狀態
@@ -62,11 +62,11 @@ ui	トラッカー（TRACKER）を開く	打開追蹤器
 ui	再起動（確かめの窓）。Ctrl+Alt+Del も同じ	重新開機（會先確認） = Ctrl+Alt+Del
 ui	ADC のステレオ入力（GP40 / 41）を鳴らす	播放 ADC 立體聲輸入（GP40 / 41）
 ui	VGM/VGZ を 96kHz/24bit WAV に書き出す	將 VGM/VGZ 匯出為 96 kHz / 24 位元 WAV
-ui	テキスト・16 進のビュアー（less 風）	文字・十六進位檢視器（類 less）
+ui	テキスト・16 進のビュアー（less 風）	文字、十六進位檢視器（類 less）
 ui	1 行	1 行
 ui	1 ページ	1 頁
 ui	半ページ	半頁
-ui	探す（前へ・後ろへ）/ 次・前	搜尋（向前・向後）/ 下一個・上一個
+ui	探す（前へ・後ろへ）/ 次・前	搜尋（向前、向後）/ 下一個、上一個
 ui	一覧へ戻る（F1 はビュアーのヘルプ）	返回清單（F1 為檢視器說明）
 ui	画像のビュアー	圖片檢視器
 ui	一覧へ戻る（F2 F3 F6 F7 Shift+F2 F3 は効く）	返回清單（F2 F3 F6 F7 Shift+F2 F3 有效）
@@ -105,9 +105,8 @@ ui	何かキーで閉じる	任意鍵關閉
 ui	設定	設定
 ui	表示の言語	顯示語言
 ui	キーボードロケール	鍵盤區域設定
-ui	Up / Down  Enter 決める  ESC やめる	Up / Down  Enter 決定  ESC 取消
 ui	表示の言語 (Language)	顯示語言 (Language)
-ui	Up / Down  Enter 決める  ESC 戻る	上/下輸入決定 ESC 返回
+ui	Up / Down  Enter 決める  ESC 戻る	Enter 上/下輸入決定 ESC 返回
 ui	%c: をどの文字に固定しますか（A〜Z、S を除く。ESC でやめる）	將 %c: 固定為哪個字母？（A-Z，S 除外。ESC 取消）
 ui	ドライブ  文字 / Enter 選ぶ  F2 文字を固定・解除  F3 文字を決めて固定  L / ESC やめる	磁碟  字母 / Enter 選擇  F2 固定/解除字母  F3 指定字母固定  L / ESC 取消
 ui	  区画 %u	  分割區 %u
@@ -228,7 +227,7 @@ ui	 Tab / Ins                     タブ / 挿入と上書きの切り替え	 Ta
 ui	 F5                            色分け（拡張子から。C/C++・mruby・MicroPython・SG BASIC・なし）	 F5                            著色（依副檔名；C/C++、mruby、MicroPython、SG BASIC、無）
 ui	 F2  (Ctrl-S)                  保存（UTF-8、改行は元の形）	 F2  (Ctrl-S)                  儲存（UTF-8，換行維持）
 ui	 F10 / ESC                     閉じる（変更があれば聞く）	 F10 / ESC                     關閉（有變更會詢問）
-ui	 IME:  Ctrl-Space / F12        オン・オフ（あ / A）	 IME:  Ctrl-Space / F12        開・關（あ / A）
+ui	 IME:  Ctrl-Space / F12        オン・オフ（あ / A）	 IME:  Ctrl-Space / F12        開、關（あ / A）
 ui	       F9                      IME の言語（このエディタの間だけ。閉じると戻る）	       F9 IME 語言（僅在此編輯器期間；關閉時返回）
 ui	       F8                      日本語の予測変換 オン・オフ	       F8 日文預測轉換開/關
 ui	       日本語                  ローマ字 -> ひらがな（F6）・カタカナ（F7）	       日文羅馬字 -> 平假名 (F6) / 片假名 (F7)
@@ -236,7 +235,7 @@ ui	                               半角ひらがな（Shift+F6）・半角カ�
 ui	                               2 字以上で予測、Space で連文節変換	                               用 2 個或更多字元預測，用空格轉換連續子句
 ui	       English                 2 字以上で予測補完	       英語 2 個或更多字元的預測完成
 ui	       한국어                  2 ボル式ハングル	       한국어 2 波爾式韓文
-ui	       Space / Enter           変換 / 確定	空格/輸入 轉換/確認
+ui	       Space / Enter           変換 / 確定	       Space / Enter           轉換 / 確認
 ui	       ← →                    文節を選ぶ	       ← → 選擇一個短語
 ui	       Shift+← →               文節の右端を 1 字 縮/拡（候補を出し直す）	       Shift+← → 將文節右端縮短/延長一個字（新的候選）
 ui	       ↑ ↓ / Tab               候補の窓で前 / 次の候補（窓は変換の下、画面の下では上）	       ↑ ↓ / Tab               視窗中的上一個 / 下一個候選（在文字下方，接近底部時在上方）
@@ -292,7 +291,7 @@ ui	次 / 前を探す	下一個 / 上一個
 ui	16 進で表示する（いま見ている所のまま）	以十六進位顯示（維持目前位置）
 ui	テキストで表示する（いま見ている所のまま）	以文字顯示（維持目前位置）
 ui	色分けを替える（C/C++・mruby・MicroPython・SG BASIC・なし）	變更著色（C/C++、mruby、MicroPython、SG BASIC、無）
-ui	FB / テキスト面を出す・隠す	顯示・隱藏 FB / 文字
+ui	FB / テキスト面を出す・隠す	顯示、隱藏 FB / 文字
 ui	FB の表示ページ / 書き込みページ	FB 顯示頁 / 寫入頁
 ui	ファイラーへ戻る	返回檔案管理
 ui	このヘルプを閉じる	關閉本說明
@@ -313,7 +312,7 @@ ui	 要る大きさ %s、空き %s。続けますか？	 需要 %s，可用 %s�
 ui	 Y: 続ける   N / ESC: やめる	 Y：繼續   N / ESC：取消
 ui	 何かキーを押すと閉じます	 按任意鍵關閉
 ui	 ESC: 止める	 ESC：停止
-ui	 %s: ←→ ドライブ  ↑↓ フォルダ  Space 開く・閉じる  Enter 決める  ESC やめる	 %s：←→ 磁碟機  ↑↓ 資料夾  Space 展開・收合  Enter 決定  ESC 取消
+ui	 %s: ←→ ドライブ  ↑↓ フォルダ  Space 開く・閉じる  Enter 決める  ESC やめる	 %s：←→ 磁碟機  ↑↓ 資料夾  Space 展開、收合  Enter 決定  ESC 取消
 ui	 読めません: %s	 無法讀取：%s
 ui	 フォルダを読んでいます...（ESC で止める）  %u 個	 讀取資料夾中...（ESC 停止）  %u 個
 ui	 フォルダ %u 個%s	 資料夾 %u 個%s
@@ -345,6 +344,13 @@ ui	WAV 書き出し: %s 失敗（%s）	WAV 匯出：%s 失敗（%s）
 ui	WAV 書き出し: %s 合計 %s	WAV 匯出：%s 總計 %s
 ui	 WAV 書き出し（96kHz / 24bit）: %s	 WAV 匯出（96kHz / 24bit）：%s
 ui	中止しました	已中止
+ui	準　備　中　．．．	準備中...
+ui	 合計 %s   出力 %s	 合計 %s   輸出 %s
+ui	 経過 %s	 已用 %s
+ui	 %u%%   経過 %s	 %u%%   已用 %s
+ui	   残り 約 %s	   剩餘約 %s
+ui	   出力 %s	   輸出 %s
+ui	 止めています...	 正在停止...
 ui	失敗しました	失敗
 ui	 合計 %s	 總計 %s
 ui	 中止しました（%s。半端なファイルは消しました）	 已中止（%s。已刪除未完成的檔案）
@@ -396,13 +402,13 @@ msg.phrase	choose files or folders (not "..")	請選擇檔案或資料夾（".."
 msg.phrase	stop the CD first	請先停止 CD
 msg.phrase	the CD cannot be changed (copy instead)	CD 無法變更（請改用複製）
 msg.phrase	a system folder cannot be moved	系統資料夾無法移動
-msg.phrase	no drive can be written (FAT / exFAT / NTFS only)	沒有可寫入的磁碟機（僅 FAT・exFAT・NTFS）
+msg.phrase	no drive can be written (FAT / exFAT / NTFS only)	沒有可寫入的磁碟機（僅 FAT、exFAT、NTFS）
 msg.phrase	the drive is gone	磁碟機不見了
 msg.phrase	nothing chosen	未選擇任何項目
 msg.phrase	nothing selected	未選擇任何項目
 msg.phrase	could not start	無法開始
 msg.phrase	could not open	無法開啟
-msg.phrase	only on a FAT / exFAT / NTFS drive	僅限 FAT・exFAT・NTFS 磁碟機
+msg.phrase	only on a FAT / exFAT / NTFS drive	僅限 FAT、exFAT、NTFS 磁碟機
 msg.phrase	no name	沒有名稱
 msg.phrase	that name already exists	名稱已存在
 msg.phrase	could not start (bad name or the drive is busy)	無法開始（名稱錯誤或磁碟機忙碌）
@@ -423,7 +429,7 @@ msg.phrase	put the IWAD in a DoomFiles or Doom2Files folder	請將 IWAD 放在 D
 msg.phrase	DoomFiles takes freedoom1 / doom / doomu / doom1.wad	DoomFiles 可放 freedoom1 / doom / doomu / doom1.wad
 msg.phrase	Doom2Files takes freedoom2 / doom2 / plutonia / tnt.wad	Doom2Files 可放 freedoom2 / doom2 / plutonia / tnt.wad
 msg.phrase	put the game files on external storage, not S:	遊戲檔案請放在外部儲存裝置，不要放在 S:
-msg.phrase	the IWAD must be on a FAT / exFAT / NTFS drive (not a CD)	IWAD 必須放在 FAT・exFAT・NTFS 磁碟機（不可為 CD）
+msg.phrase	the IWAD must be on a FAT / exFAT / NTFS drive (not a CD)	IWAD 必須放在 FAT、exFAT、NTFS 磁碟機（不可為 CD）
 msg.phrase	still working	仍在處理中
 msg.phrase	an image is loading	圖片讀取中
 msg.phrase	no framebuffer	沒有 FB
@@ -432,7 +438,7 @@ msg.phrase	clearing...	清除中...
 msg.phrase	halving the brightness...	亮度減半中...
 msg.phrase	that is a data track	這是資料軌
 msg.phrase	wait -- a file is being written	正在寫入檔案，請稍候
-msg.phrase	only floppy / LS-120 / CD drives	僅限軟碟・LS-120・CD 磁碟機
+msg.phrase	only floppy / LS-120 / CD drives	僅限軟碟、LS-120、CD 磁碟機
 msg.phrase	requested	已要求
 msg.phrase	reading the disc...	讀取光碟中...
 msg.phrase	stopping...	停止中...
@@ -614,7 +620,7 @@ msg.word	: cleared	：已清除
 msg.word	: brightness halved	：亮度已減半
 msg.word	% read	% 已讀
 msg.word	 rows	 行
-msg.word	 -- not supported yet (FAT / exFAT / NTFS only)	 尚未支援（僅 FAT・exFAT・NTFS）
+msg.word	 -- not supported yet (FAT / exFAT / NTFS only)	 尚未支援（僅 FAT、exFAT、NTFS）
 msg.word	 files	 個檔案
 msg.word	 (	（
 msg.phrase	Untitled	未命名
@@ -1161,6 +1167,20 @@ ui	%s 秒	%s 秒
 ui	コンパイル %s  実行 %s	編譯 %s  執行 %s
 ui	コンパイル %s	編譯 %s
 ui	実行 %s	執行 %s
+ui	壁紙	桌布
+ui	壁紙の輝度	桌布亮度
+ui	(なし)	(無)
+ui	%u%% (100=原画 0=黒)	%u%% (100=原圖 0=黑)
+ui	Up / Down  Enter 決める  Left/Right 輝度  ESC やめる	Up / Down  Enter 選擇  Left/Right 亮度  ESC 取消
+ui	現在	目前
+ui	壁紙を解除 (黒地)	清除桌布 (黑底)
+ui	壁紙を再読み込み	重新載入桌布
+ui	PNG ファイルで Menu キーから「壁紙に設定」できます	在 PNG 檔案上按 Menu 鍵可設為桌布
+ui	壁紙の輝度 (%)	桌布亮度 (%)
+ui	 (黒)	 (黑)
+ui	 (既定)	 (預設)
+ui	 (原画そのまま)	 (原圖)
+ui	壁紙に設定	設為桌布
 msg.phrase	Version %s	版本 %s
 msg.phrase	1 Help	1 說明
 msg.phrase	3 Copy	3 複製

@@ -106,7 +106,6 @@ ui	何かキーで閉じる	Noma iyiphi inkinobho iyavala
 ui	設定	Izilungiselelo
 ui	表示の言語	Ulimi lokubonisa
 ui	キーボードロケール	Ukuhlelwa kwekhibhodi
-ui	Up / Down  Enter 決める  ESC やめる	Phezulu / Phansi  Enter khetha  ESC khansela
 ui	表示の言語 (Language)	Ulimi lokubonisa
 ui	Up / Down  Enter 決める  ESC 戻る	Phezulu / Phansi  Enter: setha  ESC: buyela
 ui	%c: をどの文字に固定しますか（A〜Z、S を除く。ESC でやめる）	Mise i-%c: njengaluphi uhlamvu? (A-Z ngaphandle kwe-S. ESC khansela)
@@ -346,6 +345,13 @@ ui	WAV 書き出し: %s 失敗（%s）	Ukuthekelisa i-WAV: %s kuhlulekile (%s)
 ui	WAV 書き出し: %s 合計 %s	Ukuthekelisa i-WAV: %s isamba %s
 ui	 WAV 書き出し（96kHz / 24bit）: %s	 Ukuthekelisa i-WAV (96kHz / 24bit): %s
 ui	中止しました	Kukhanseliwe
+ui	準　備　中　．．．	Kuyalungiswa...
+ui	 合計 %s   出力 %s	 Isamba %s   Okuphumayo %s
+ui	 経過 %s	 Kudlule %s
+ui	 %u%%   経過 %s	 %u%%   Kudlule %s
+ui	   残り 約 %s	   Okusele ~%s
+ui	   出力 %s	   Okuphumayo %s
+ui	 止めています...	 Kuyamiswa...
 ui	失敗しました	Kuhlulekile
 ui	 合計 %s	 Isamba %s
 ui	 中止しました（%s。半端なファイルは消しました）	 Kukhanseliwe (%s; ifayela elingaphelele lisusiwe)
@@ -1041,6 +1047,20 @@ ui	%s 秒	%s s
 ui	コンパイル %s  実行 %s	compile %s  run %s
 ui	コンパイル %s	compile %s
 ui	実行 %s	run %s
+ui	壁紙	Isithombe sangemuva
+ui	壁紙の輝度	Ukukhanya kwesithombe
+ui	(なし)	(akukho)
+ui	%u%% (100=原画 0=黒)	%u%% (100=okoqobo 0=mnyama)
+ui	Up / Down  Enter 決める  Left/Right 輝度  ESC やめる	Up / Down  Enter khetha  Left/Right ukukhanya  ESC khansela
+ui	現在	Okwamanje
+ui	壁紙を解除 (黒地)	Susa isithombe sangemuva (mnyama)
+ui	壁紙を再読み込み	Layisha kabusha isithombe
+ui	PNG ファイルで Menu キーから「壁紙に設定」できます	Cindezela u-Menu kufayela le-PNG ukusetha isithombe sangemuva
+ui	壁紙の輝度 (%)	Ukukhanya kwesithombe (%)
+ui	 (黒)	 (mnyama)
+ui	 (既定)	 (okuzenzakalelayo)
+ui	 (原画そのまま)	 (okoqobo)
+ui	壁紙に設定	Setha njengesithombe sangemuva
 msg.phrase	1 Help	1 Usizo
 msg.phrase	3 Copy	3 Kopish
 msg.phrase	4 Paste	4 Namath

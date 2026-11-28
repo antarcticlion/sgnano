@@ -106,12 +106,11 @@ ui	何かキーで閉じる	Zatvara se bilo koji ključ
 ui	設定	postavke
 ui	表示の言語	Jezik prikaza
 ui	キーボードロケール	Jezik tipkovnice
-ui	Up / Down  Enter 決める  ESC やめる	Gore / Dolje Unesite odaberite ESC odustani
 ui	表示の言語 (Language)	Jezik prikaza
 ui	Up / Down  Enter 決める  ESC 戻る	Gore / Dolje Enter: postavljanje ESC: natrag
 ui	%c: をどの文字に固定しますか（A〜Z、S を除く。ESC でやめる）	Popravi %c: kao koje slovo? (A-Z osim S. ESC poništava)
-ui	ドライブ  文字 / Enter 選ぶ  F2 文字を固定・解除  F3 文字を決めて固定  L / ESC やめる	Slovo pogona / Unesite odaberite F2 popravi/poništi slovo F3 popravi kao... L / ESC poništi
-ui	  区画 %u	pregrada %u
+ui	ドライブ  文字 / Enter 選ぶ  F2 文字を固定・解除  F3 文字を決めて固定  L / ESC やめる	Slovo pogona / Enter odaberite F2 popravi/poništi slovo F3 popravi kao... L / ESC poništi
+ui	  区画 %u	  pregrada %u
 ui	%c:* （固定・つながっていません）%04X:%04X%s  %s	%c:* (fiksno, nije povezano) %04X:%04X%s %s
 ui	お知らせ	Obavijest
 ui	ドライブ %c:  %s	Voziti %c: %s
@@ -219,40 +218,40 @@ ui	 %s  %s  行 %lu/%lu 桁 %u  %s  %s %s%s%s	%s %s Ln %lu/%lu Col %u %s %s %s%s
 ui	*変更	*mod
 ui	上書	OVR
 ui	挿入	INS
-ui	  読出専用	R/O
+ui	  読出専用	  R/O
 ui	 エディタ (sgnano edit)                      F1 / ESC で閉じる	Editor (sgnano edit) F1 / ESC zatvara
 ui	 矢印 / Home End / PgUp PgDn   カーソルを動かす	Strelice / Home End / PgUp PgDn pomaknite kursor
 ui	 Ctrl-T / Ctrl-B               ファイルの先頭 / 最後	Ctrl-T / Ctrl-B vrh / kraj datoteke
 ui	 BS / Del                      前の字 / カーソルの字を消す	BS / Del brisanje ispred / kod kursora
-ui	 Enter                         改行（前の行の字下げを引き継ぐ）	Unesite novi red (zadržava uvlaku)
-ui	 Tab / Ins                     タブ / 挿入と上書きの切り替え	Kartica / Ins kartica / umetnite ili prebrišite
+ui	 Enter                         改行（前の行の字下げを引き継ぐ）	 Enter                         Unesite novi red (zadržava uvlaku)
+ui	 Tab / Ins                     タブ / 挿入と上書きの切り替え	 Tab / Ins                     tabulator / umetnite ili prebrišite
 ui	 F5                            色分け（拡張子から。C/C++・mruby・MicroPython・SG BASIC・なし）	F5 bojanje (iz proširenja; C/C++, mruby, MicroPython, SG BASIC, ništa)
 ui	 F2  (Ctrl-S)                  保存（UTF-8、改行は元の形）	F2 (Ctrl-S) spremi (UTF-8, krajevi retka zadržani)
 ui	 F10 / ESC                     閉じる（変更があれば聞く）	F10 / ESC zatvori (pita je li promijenjeno)
 ui	 IME:  Ctrl-Space / F12        オン・オフ（あ / A）	IME: Ctrl-razmaknica / F12 uključeno / isključeno (あ / A)
-ui	       F9                      IME の言語（このエディタの間だけ。閉じると戻る）	F9 IME jezik (samo ovaj uređivač; vraća se nakon zatvaranja)
-ui	       F8                      日本語の予測変換 オン・オフ	F8 Japanska prediktivna konverzija uključeno/isključeno
-ui	       日本語                  ローマ字 -> ひらがな（F6）・カタカナ（F7）	Japanski romaji -> hiragana (F6) / katakana (F7)
-ui	                               半角ひらがな（Shift+F6）・半角カタカナ（Shift+F7）	Hiragana polovične širine (Shift+F6) / katakana polovične širine (Shift+F7)
-ui	                               2 字以上で予測、Space で連文節変換	Predviđanje s 2 ili više znakova, pretvaranje kontinuirane klauzule s razmakom
-ui	       English                 2 字以上で予測補完	Engleski Prediktivni završetak s 2 ili više znakova
-ui	       한국어                  2 ボル式ハングル	한국어 2 hangul u bolskom stilu
-ui	       Space / Enter           変換 / 確定	Razmak / Enter Pretvori / Potvrdi
-ui	       ← →                    文節を選ぶ	← → Odaberite frazu
-ui	       Shift+← →               文節の右端を 1 字 縮/拡（候補を出し直す）	Shift+← → Smanji/povećaj desni kraj klauzule za jedan znak (novi kandidati)
-ui	       ↑ ↓ / Tab               候補の窓で前 / 次の候補（窓は変換の下、画面の下では上）	↑ ↓ / Kartica Prethodni / sljedeći kandidat u skočnom prozoru (ispod teksta, gore pri dnu)
-ui	       →→→ で Enter            すべての候補（2 列 x 8 個、← → で列とページ、Enter で決める）	Unesite →→→ Svi kandidati (2 x 8, ← → stupac i stranica, Enter bira)
-ui	       Enter                   次の文節へ（最後の文節で全体を確定）	Unesite sljedeću klauzulu (potvrđuje cijelu posljednju klauzulu)
-ui	       Ctrl-U                  いまの語をユーザー辞書へ	Ctrl-U Dodaj trenutnu riječ u korisnički rječnik
+ui	       F9                      IME の言語（このエディタの間だけ。閉じると戻る）	       F9 IME jezik (samo ovaj uređivač; vraća se nakon zatvaranja)
+ui	       F8                      日本語の予測変換 オン・オフ	       F8 Japanska prediktivna konverzija uključeno/isključeno
+ui	       日本語                  ローマ字 -> ひらがな（F6）・カタカナ（F7）	       Japanski romaji -> hiragana (F6) / katakana (F7)
+ui	                               半角ひらがな（Shift+F6）・半角カタカナ（Shift+F7）	                               Hiragana polovične širine (Shift+F6) / katakana polovične širine (Shift+F7)
+ui	                               2 字以上で予測、Space で連文節変換	                               Predviđanje s 2 ili više znakova, pretvaranje kontinuirane klauzule s razmakom
+ui	       English                 2 字以上で予測補完	       Engleski Prediktivni završetak s 2 ili više znakova
+ui	       한국어                  2 ボル式ハングル	       한국어 2 hangul u bolskom stilu
+ui	       Space / Enter           変換 / 確定	       Razmak / Enter Pretvori / Potvrdi
+ui	       ← →                    文節を選ぶ	       ← → Odaberite frazu
+ui	       Shift+← →               文節の右端を 1 字 縮/拡（候補を出し直す）	       Shift+← → Smanji/povećaj desni kraj klauzule za jedan znak (novi kandidati)
+ui	       ↑ ↓ / Tab               候補の窓で前 / 次の候補（窓は変換の下、画面の下では上）	       ↑ ↓ / Tab Prethodni / sljedeći kandidat u skočnom prozoru (ispod teksta, gore pri dnu)
+ui	       →→→ で Enter            すべての候補（2 列 x 8 個、← → で列とページ、Enter で決める）	       Unesite →→→ Svi kandidati (2 x 8, ← → stupac i stranica, Enter bira)
+ui	       Enter                   次の文節へ（最後の文節で全体を確定）	       Enter                   Unesite sljedeću klauzulu (potvrđuje cijelu posljednju klauzulu)
+ui	       Ctrl-U                  いまの語をユーザー辞書へ	       Ctrl-U Dodaj trenutnu riječ u korisnički rječnik
 ui	 Shift+F1 / F2 / F3 / F4       先頭 / 最後 / 挿入と上書き / ユーザー辞書へ	Shift+F1 / F2 / F3 / F4 Vrh / kraj / umetanje-prepisivanje / u korisnički rječnik
-ui	       BS / ESC                1 字戻す / 取り消し	BS / ESC Vrati se jedan znak unatrag / Odustani
-ui	       , . - [ ] /             、 。 ー 「 」 ・	, . - [ ] / 、 。 ー 「 」 ・
+ui	       BS / ESC                1 字戻す / 取り消し	       BS / ESC Vrati se jedan znak unatrag / Odustani
+ui	       , . - [ ] /             、 。 ー 「 」 ・	       , . - [ ] / 、 。 ー 「 」 ・
 ui	変更あり  Y: 保存して閉じる  N: 保存せず閉じる  ESC: 戻る	Izmijenjeno Y: spremiti i zatvoriti N: zatvoriti bez spremanja ESC: natrag
 ui	[予測] Tab/↑↓: 候補  Space: 変換  Esc: 取消	[Predviđanje] Tab/↑↓: kandidat Razmak: pretvori Esc: odustani
-ui	[候補] ↑↓: 選ぶ  ←→: 列・ページ  Enter: 決める	[Kandidati] ↑↓: odaberite ←→: stupac/stranica Unesite: odaberite
+ui	[候補] ↑↓: 選ぶ  ←→: 列・ページ  Enter: 決める	[Kandidati] ↑↓: odaberite ←→: stupac/stranica Enter: odaberite
 ui	[変換] ↑↓候補 ←→文節 Shift+←→区切り Enter次へ	[Pretvori] ↑↓cand ←→klauzula Shift+←→bound Enter next
 ui	[한국어] Tab/↑↓: 候補  Enter/Space: 確定	[한국어] Tab/↑↓: kandidat Enter/Razmaknica: potvrdi
-ui	[English] Tab/↑↓: 候補  Enter: 確定	[Engleski] Tab/↑↓: kandidat Enter: potvrditi
+ui	[English] Tab/↑↓: 候補  Enter: 確定	[English] Tab/↑↓: kandidat Enter: potvrditi
 ui	2ボル式ハングル入力  Ctrl-Space: 英数	2 skupa Hangul unosa Ctrl-razmaknica: alfanumerički
 ui	予測補完  Ctrl-Space: 直接入力	Prediktivni završetak Ctrl-razmaknica: izravan unos
 ui	辞書なし: ひらがな/カタカナ入力のみ  F6/F7	Nema rječnika: samo hiragana/katakana F6/F7
@@ -269,8 +268,8 @@ ui	色分け: %s	Boja: %s
 ui	読み込んでいます... (loading)	Učitavanje...
 ui	読み込めませんでした (could not read)	Nije moguće pročitati datoteku
 ui	%lu 行%s%s	%lu linije%s%s
-ui	  Shift_JIS を UTF-8 で開きました（保存は UTF-8）	otvorio Shift_JIS kao UTF-8 (spremljen kao UTF-8)
-ui	  読み出し専用	samo za čitanje
+ui	  Shift_JIS を UTF-8 で開きました（保存は UTF-8）	  otvorio Shift_JIS kao UTF-8 (spremljen kao UTF-8)
+ui	  読み出し専用	  samo za čitanje
 ui	保存しました (saved)	Spremljeno
 ui	保存できませんでした (write failed)	Nije moguće spremiti (pisanje nije uspjelo)
 ui	候補	Kandidati
@@ -309,7 +308,7 @@ ui	（止めています）	(zaustavljanje)
 ui	 元: %s	Od: %s
 ui	 先: %s	Za: %s
 ui	 ファイル %u / %u 個  フォルダ %u 個  %s / %s  (%u%%)%s	Datoteke %u / %u mape %u %s / %s (%u%%)%s
-ui	  多すぎるので一部だけ	previše: samo neki
+ui	  多すぎるので一部だけ	  previše: samo neki
 ui	 要る大きさ %s、空き %s。続けますか？	Potrebe %s, besplatno %s. Nastaviti?
 ui	 Y: 続ける   N / ESC: やめる	Y: nastavi N / ESC: odustani
 ui	 何かキーを押すと閉じます	Pritisnite bilo koju tipku za zatvaranje
@@ -328,12 +327,12 @@ ui	一時停止	Pauzirano
 ui	再生中	Igranje
 ui	 Space: 一時停止  m: MIDI OUT  q / ESC: 止める	Razmaknica: pauza m: MIDI OUT q / ESC: stop
 ui	 q / ESC: やめる	q / ESC: odustani
-ui	フォント ROM のライセンスとクレジット\n\nROM: %s（版 %lu.%lu、%lu 文字、フラッシュの 0x%08lX から）\n\n	Font ROM licence i krediti\n\nROM: %s (verzija %lu.%lu, %lu znakova, od 0x%08lX u flash)
-ui	== 収めているフォント（ROM の出所の表）==\n	== Fontovi u ROM-u (izvorna tablica ROM-a) ==
-ui	  （表が無い ROM）\n	(ROM nema tablicu)
-ui	\n== ROM のクレジットの区画 ==\n\n	== Područje kredita ROM-a ==
-ui	（区画が無い）\n	(nema takvog područja)
-ui	\n== 組み込んだソフトウェアのライセンス ==\n	== Licence ugrađenog softvera ==
+ui	フォント ROM のライセンスとクレジット\n\nROM: %s（版 %lu.%lu、%lu 文字、フラッシュの 0x%08lX から）\n\n	Font ROM licence i krediti\n\nROM: %s (verzija %lu.%lu, %lu znakova, od 0x%08lX u flash)\n\n
+ui	== 収めているフォント（ROM の出所の表）==\n	== Fontovi u ROM-u (izvorna tablica ROM-a) ==\n
+ui	  （表が無い ROM）\n	  (ROM nema tablicu)\n
+ui	\n== ROM のクレジットの区画 ==\n\n	\n== Područje kredita ROM-a ==\n\n
+ui	（区画が無い）\n	(nema takvog područja)\n
+ui	\n== 組み込んだソフトウェアのライセンス ==\n	\n== Licence ugrađenog softvera ==\n
 ui	 %s を PNG で保存   %s	Spremanje %s kao PNG %s
 ui	画面	Zaslon
 ui	 組み立てています... %lu / %lu 行	Zgrada... %lu / %lu redova
@@ -346,6 +345,13 @@ ui	WAV 書き出し: %s 失敗（%s）	WAV izvoz: %s nije uspio (%s)
 ui	WAV 書き出し: %s 合計 %s	WAV izvoz: %s ukupno %s
 ui	 WAV 書き出し（96kHz / 24bit）: %s	WAV izvoz (96kHz / 24bit): %s
 ui	中止しました	Otkazano
+ui	準　備　中　．．．	Priprema...
+ui	 合計 %s   出力 %s	 Ukupno %s   Izlaz %s
+ui	 経過 %s	 Proteklo %s
+ui	 %u%%   経過 %s	 %u%%   Proteklo %s
+ui	   残り 約 %s	   Preostalo ~%s
+ui	   出力 %s	   Izlaz %s
+ui	 止めています...	 Zaustavljanje...
 ui	失敗しました	neuspješno
 ui	 合計 %s	Ukupno %s
 ui	 中止しました（%s。半端なファイルは消しました）	Otkazano (%s; djelomična datoteka je izbrisana)
@@ -356,7 +362,7 @@ ui	 ESC: 止める（半端なファイルは消します）	ESC: stop (djelomi�
 ui	書庫: %s	Arhiva: %s
 ui	読み込み中…（ESC でやめる）	Čitanje... (ESC za odustajanje)
 ui	 %u 項目%s  合計 %s バイト  展開先: %s	%u stavke%s ukupno %s bajtova izdvojiti u: %s
-ui	 Enter 項目を展開  X 全部を展開  ↑↓ 動かす  ESC 閉じる	Unesite ekstrahiraj stavku X ekstrahiraj sve ↑↓ pomakni ESC zatvori
+ui	 Enter 項目を展開  X 全部を展開  ↑↓ 動かす  ESC 閉じる	Enter ekstrahiraj stavku X ekstrahiraj sve ↑↓ pomakni ESC zatvori
 ui	圧縮	Oblog
 ui	一覧	Popis
 ui	展開	Ekstrakt
@@ -1162,6 +1168,20 @@ ui	%s 秒	%s s
 ui	コンパイル %s  実行 %s	prevođenje %s  izvođenje %s
 ui	コンパイル %s	prevođenje %s
 ui	実行 %s	izvođenje %s
+ui	壁紙	Pozadina
+ui	壁紙の輝度	Svjetlina pozadine
+ui	(なし)	(nema)
+ui	%u%% (100=原画 0=黒)	%u%% (100=izvorno 0=crno)
+ui	Up / Down  Enter 決める  Left/Right 輝度  ESC やめる	Up / Down  Enter odaberi  Left/Right svjetlina  ESC odustani
+ui	現在	Trenutno
+ui	壁紙を解除 (黒地)	Ukloni pozadinu (crno)
+ui	壁紙を再読み込み	Ponovo učitaj pozadinu
+ui	PNG ファイルで Menu キーから「壁紙に設定」できます	Pritisnite Menu na PNG datoteci za postavljanje pozadine
+ui	壁紙の輝度 (%)	Svjetlina pozadine (%)
+ui	 (黒)	 (crno)
+ui	 (既定)	 (zadano)
+ui	 (原画そのまま)	 (izvorno)
+ui	壁紙に設定	Postavi kao pozadinu
 msg.phrase	1 Help	1 Pomoć
 msg.phrase	3 Copy	3 Kopir
 msg.phrase	4 Paste	4 Zalije

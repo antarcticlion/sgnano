@@ -106,12 +106,11 @@ ui	何かキーで閉じる	Ktorýkoľvek kľúč sa zatvorí
 ui	設定	Nastavenia
 ui	表示の言語	Jazyk zobrazenia
 ui	キーボードロケール	Miestne nastavenie klávesnice
-ui	Up / Down  Enter 決める  ESC やめる	Hore / Dole Enter vyberte ESC zrušiť
 ui	表示の言語 (Language)	Jazyk zobrazenia
 ui	Up / Down  Enter 決める  ESC 戻る	Hore / Dole Enter: nastavenie ESC: späť
 ui	%c: をどの文字に固定しますか（A〜Z、S を除く。ESC でやめる）	Oprava %c: ako ktoré písmeno? (A-Z okrem S. ESC sa ruší)
 ui	ドライブ  文字 / Enter 選ぶ  F2 文字を固定・解除  F3 文字を決めて固定  L / ESC やめる	Písmeno jednotky / Enter vybrať F2 opraviť/odfixovať písmeno F3 opraviť ako... L / ESC zrušiť
-ui	  区画 %u	oddiel %u
+ui	  区画 %u	  oddiel %u
 ui	%c:* （固定・つながっていません）%04X:%04X%s  %s	%c:* (pevné, nepripojené) %04X:%04X%s %s
 ui	お知らせ	Všimnite si
 ui	ドライブ %c:  %s	Pohon %c: %s
@@ -219,40 +218,40 @@ ui	 %s  %s  行 %lu/%lu 桁 %u  %s  %s %s%s%s	%s %s Ln %lu/%lu Col %u %s %s %s%s
 ui	*変更	*mod
 ui	上書	OVR
 ui	挿入	INS
-ui	  読出専用	R/O
+ui	  読出専用	  R/O
 ui	 エディタ (sgnano edit)                      F1 / ESC で閉じる	Editor (sgnano edit) F1 / ESC sa zatvorí
 ui	 矢印 / Home End / PgUp PgDn   カーソルを動かす	Šípky / Home End / PgUp PgDn pohyb kurzora
 ui	 Ctrl-T / Ctrl-B               ファイルの先頭 / 最後	Ctrl-T / Ctrl-B začiatok / koniec súboru
-ui	 BS / Del                      前の字 / カーソルの字を消す	BS / Vymazať pred / pri kurzore
-ui	 Enter                         改行（前の行の字下げを引き継ぐ）	Zadajte nový riadok (zachováva zarážku)
-ui	 Tab / Ins                     タブ / 挿入と上書きの切り替え	Karta / karta Ins / vložiť alebo prepísať
+ui	 BS / Del                      前の字 / カーソルの字を消す	BS / Del pred / pri kurzore
+ui	 Enter                         改行（前の行の字下げを引き継ぐ）	 Enter                         Zadajte nový riadok (zachováva zarážku)
+ui	 Tab / Ins                     タブ / 挿入と上書きの切り替え	 Tab / Ins                     tabulátor / vložiť alebo prepísať
 ui	 F5                            色分け（拡張子から。C/C++・mruby・MicroPython・SG BASIC・なし）	Farbenie F5 (z rozšírenia; C/C++, mruby, MicroPython, SG BASIC, žiadne)
 ui	 F2  (Ctrl-S)                  保存（UTF-8、改行は元の形）	F2 (Ctrl-S) uložiť (UTF-8, konce riadkov zachované)
 ui	 F10 / ESC                     閉じる（変更があれば聞く）	F10 / ESC zavrieť (opýta sa, či sa zmenilo)
 ui	 IME:  Ctrl-Space / F12        オン・オフ（あ / A）	IME: Ctrl-Medzerník / F12 zapnuté / vypnuté (あ / A)
-ui	       F9                      IME の言語（このエディタの間だけ。閉じると戻る）	Jazyk editora F9 (iba tento editor; obnovený po zatvorení)
-ui	       F8                      日本語の予測変換 オン・オフ	F8 Zapnutie/vypnutie japonskej prediktívnej konverzie
-ui	       日本語                  ローマ字 -> ひらがな（F6）・カタカナ（F7）	Japonské romaji -> hiragana (F6) / katakana (F7)
-ui	                               半角ひらがな（Shift+F6）・半角カタカナ（Shift+F7）	Hiragana polovičnej šírky (Shift+F6) / katakana polovičnej šírky (Shift+F7)
-ui	                               2 字以上で予測、Space で連文節変換	Predpovedajte s 2 alebo viacerými znakmi, konvertujte súvislú vetu na medzeru
-ui	       English                 2 字以上で予測補完	Anglické prediktívne dokončenie s 2 alebo viacerými znakmi
-ui	       한국어                  2 ボル式ハングル	한국어 2 Hangul v štýle Bol
-ui	       Space / Enter           変換 / 確定	Medzerník / Enter Konvertovať / Potvrdiť
-ui	       ← →                    文節を選ぶ	← → Vyberte frázu
-ui	       Shift+← →               文節の右端を 1 字 縮/拡（候補を出し直す）	Shift+← → Zmenšenie/zväčšenie pravého konca vety o jeden znak (noví kandidáti)
-ui	       ↑ ↓ / Tab               候補の窓で前 / 次の候補（窓は変換の下、画面の下では上）	↑ ↓ / Karta Predchádzajúci / ďalší kandidát vo vyskakovacom okne (pod textom, nad v dolnej časti)
-ui	       →→→ で Enter            すべての候補（2 列 x 8 個、← → で列とページ、Enter で決める）	Zadajte →→→ Všetci kandidáti (2 x 8, ← → stĺpec a strana, výber Enter)
-ui	       Enter                   次の文節へ（最後の文節で全体を確定）	Zadajte ďalšiu klauzulu (potvrdzuje celú klauzulu v poslednej vete)
-ui	       Ctrl-U                  いまの語をユーザー辞書へ	Ctrl-U Pridať aktuálne slovo do používateľského slovníka
+ui	       F9                      IME の言語（このエディタの間だけ。閉じると戻る）	       Jazyk editora F9 (iba tento editor; obnovený po zatvorení)
+ui	       F8                      日本語の予測変換 オン・オフ	       F8 Zapnutie/vypnutie japonskej prediktívnej konverzie
+ui	       日本語                  ローマ字 -> ひらがな（F6）・カタカナ（F7）	       Japonské romaji -> hiragana (F6) / katakana (F7)
+ui	                               半角ひらがな（Shift+F6）・半角カタカナ（Shift+F7）	                               Hiragana polovičnej šírky (Shift+F6) / katakana polovičnej šírky (Shift+F7)
+ui	                               2 字以上で予測、Space で連文節変換	                               Predpovedajte s 2 alebo viacerými znakmi, konvertujte súvislú vetu na medzeru
+ui	       English                 2 字以上で予測補完	       Anglické prediktívne dokončenie s 2 alebo viacerými znakmi
+ui	       한국어                  2 ボル式ハングル	       한국어 2 Hangul v štýle Bol
+ui	       Space / Enter           変換 / 確定	       Medzerník / Enter Konvertovať / Potvrdiť
+ui	       ← →                    文節を選ぶ	       ← → Vyberte frázu
+ui	       Shift+← →               文節の右端を 1 字 縮/拡（候補を出し直す）	       Shift+← → Zmenšenie/zväčšenie pravého konca vety o jeden znak (noví kandidáti)
+ui	       ↑ ↓ / Tab               候補の窓で前 / 次の候補（窓は変換の下、画面の下では上）	       ↑ ↓ / Tab Predchádzajúci / ďalší kandidát vo vyskakovacom okne (pod textom, nad v dolnej časti)
+ui	       →→→ で Enter            すべての候補（2 列 x 8 個、← → で列とページ、Enter で決める）	       Zadajte →→→ Všetci kandidáti (2 x 8, ← → stĺpec a strana, výber Enter)
+ui	       Enter                   次の文節へ（最後の文節で全体を確定）	       Enter                   Zadajte ďalšiu klauzulu (potvrdzuje celú klauzulu v poslednej vete)
+ui	       Ctrl-U                  いまの語をユーザー辞書へ	       Ctrl-U Pridať aktuálne slovo do používateľského slovníka
 ui	 Shift+F1 / F2 / F3 / F4       先頭 / 最後 / 挿入と上書き / ユーザー辞書へ	Shift+F1 / F2 / F3 / F4 Hore / Koniec / vložiť-prepísať / do používateľského slovníka
-ui	       BS / ESC                1 字戻す / 取り消し	BS / ESC Späť o jeden znak / Zrušiť
-ui	       , . - [ ] /             、 。 ー 「 」 ・	, . - [ ] / 、 。 ー 「 」 ・
+ui	       BS / ESC                1 字戻す / 取り消し	       BS / ESC Späť o jeden znak / Zrušiť
+ui	       , . - [ ] /             、 。 ー 「 」 ・	       , . - [ ] / 、 。 ー 「 」 ・
 ui	変更あり  Y: 保存して閉じる  N: 保存せず閉じる  ESC: 戻る	Upravené Y: uloženie a zatvorenie N: zatvorenie bez uloženia ESC: späť
 ui	[予測] Tab/↑↓: 候補  Space: 変換  Esc: 取消	[Predpoveď] Tab/↑↓: kandidát Medzera: konvertovať Esc: zrušiť
 ui	[候補] ↑↓: 選ぶ  ←→: 列・ページ  Enter: 決める	[Kandidáti] ↑↓: vybrať ←→: stĺpec/strana Enter: vybrať
 ui	[変換] ↑↓候補 ←→文節 Shift+←→区切り Enter次へ	[Konvertovať] ↑↓cand ←→klauzula Shift+←→viazané Enter ďalej
 ui	[한국어] Tab/↑↓: 候補  Enter/Space: 確定	[한국어] Tab/↑↓: kandidát Enter/medzerník: potvrdiť
-ui	[English] Tab/↑↓: 候補  Enter: 確定	[Angličtina] Tab/↑↓: kandidát Zadať: potvrdiť
+ui	[English] Tab/↑↓: 候補  Enter: 確定	[English] Tab/↑↓: kandidát Enter: potvrdiť
 ui	2ボル式ハングル入力  Ctrl-Space: 英数	2-sada Hangul vstup Ctrl-Space: alfanumerický
 ui	予測補完  Ctrl-Space: 直接入力	Prediktívne dokončenie Ctrl-Space: priamy vstup
 ui	辞書なし: ひらがな/カタカナ入力のみ  F6/F7	Žiadny slovník: hiragana/katakana iba F6/F7
@@ -269,8 +268,8 @@ ui	色分け: %s	Sfarbenie: %s
 ui	読み込んでいます... (loading)	Načítava sa...
 ui	読み込めませんでした (could not read)	Súbor sa nepodarilo prečítať
 ui	%lu 行%s%s	%lu čiar%s%s
-ui	  Shift_JIS を UTF-8 で開きました（保存は UTF-8）	otvorený Shift_JIS ako UTF-8 (uložený ako UTF-8)
-ui	  読み出し専用	len na čítanie
+ui	  Shift_JIS を UTF-8 で開きました（保存は UTF-8）	  otvorený Shift_JIS ako UTF-8 (uložený ako UTF-8)
+ui	  読み出し専用	  len na čítanie
 ui	保存しました (saved)	Uložené
 ui	保存できませんでした (write failed)	Nepodarilo sa uložiť (zápis zlyhal)
 ui	候補	Kandidáti
@@ -309,12 +308,12 @@ ui	（止めています）	(zastavenie)
 ui	 元: %s	Od: %s
 ui	 先: %s	Komu: %s
 ui	 ファイル %u / %u 個  フォルダ %u 個  %s / %s  (%u%%)%s	Súbory %u / %u priečinky %u %s / %s (%u%%)%s
-ui	  多すぎるので一部だけ	príliš veľa: iba niektoré
+ui	  多すぎるので一部だけ	  príliš veľa: iba niektoré
 ui	 要る大きさ %s、空き %s。続けますか？	Potreba %s, zadarmo %s. Pokračovať?
 ui	 Y: 続ける   N / ESC: やめる	Y: pokračovať N / ESC: zrušiť
 ui	 何かキーを押すと閉じます	Zatvorte stlačením ľubovoľného klávesu
 ui	 ESC: 止める	ESC: stop
-ui	 %s: ←→ ドライブ  ↑↓ フォルダ  Space 開く・閉じる  Enter 決める  ESC やめる	%s: ←→ jednotka ↑↓ priečinok Priestor otvoriť/zatvoriť Enter vyberte ESC zrušiť
+ui	 %s: ←→ ドライブ  ↑↓ フォルダ  Space 開く・閉じる  Enter 決める  ESC やめる	 %s: ←→ jednotka  ↑↓ priečinok  Space otvoriť/zavrieť  Enter vybrať  ESC zrušiť
 ui	 読めません: %s	Nedá sa prečítať: %s
 ui	 フォルダを読んでいます...（ESC で止める）  %u 個	Čítanie priečinkov... (ESC sa zastaví) %u
 ui	 フォルダ %u 個%s	%u priečinky%s
@@ -328,12 +327,12 @@ ui	一時停止	Pozastavené
 ui	再生中	Prehrávanie
 ui	 Space: 一時停止  m: MIDI OUT  q / ESC: 止める	Medzera: pauza m: MIDI OUT q / ESC: zastavenie
 ui	 q / ESC: やめる	q / ESC: zrušiť
-ui	フォント ROM のライセンスとクレジット\n\nROM: %s（版 %lu.%lu、%lu 文字、フラッシュの 0x%08lX から）\n\n	Licencie a kredity ROM pre písma\n\nROM: %s (verzia %lu.%lu, %lu znakov, z 0x%08lX vo flashi)
-ui	== 収めているフォント（ROM の出所の表）==\n	== Písma v ROM (tabuľka pôvodu ROM) ==
-ui	  （表が無い ROM）\n	(ROM nemá tabuľku)
-ui	\n== ROM のクレジットの区画 ==\n\n	== Oblasť kreditov ROM ==
-ui	（区画が無い）\n	(žiadna taká oblasť)
-ui	\n== 組み込んだソフトウェアのライセンス ==\n	== Licencie vstavaného softvéru ==
+ui	フォント ROM のライセンスとクレジット\n\nROM: %s（版 %lu.%lu、%lu 文字、フラッシュの 0x%08lX から）\n\n	Licencie a kredity ROM pre písma\n\nROM: %s (verzia %lu.%lu, %lu znakov, z 0x%08lX vo flashi)\n\n
+ui	== 収めているフォント（ROM の出所の表）==\n	== Písma v ROM (tabuľka pôvodu ROM) ==\n
+ui	  （表が無い ROM）\n	  (ROM nemá tabuľku)\n
+ui	\n== ROM のクレジットの区画 ==\n\n	\n== Oblasť kreditov ROM ==\n\n
+ui	（区画が無い）\n	(žiadna taká oblasť)\n
+ui	\n== 組み込んだソフトウェアのライセンス ==\n	\n== Licencie vstavaného softvéru ==\n
 ui	 %s を PNG で保存   %s	Ukladá sa %s ako PNG %s
 ui	画面	Obrazovka
 ui	 組み立てています... %lu / %lu 行	Budova... %lu / %lu riadkov
@@ -346,6 +345,13 @@ ui	WAV 書き出し: %s 失敗（%s）	Export WAV: %s zlyhal (%s)
 ui	WAV 書き出し: %s 合計 %s	Export WAV: %s celkom %s
 ui	 WAV 書き出し（96kHz / 24bit）: %s	Export do WAV (96kHz / 24bit): %s
 ui	中止しました	Zrušené
+ui	準　備　中　．．．	Príprava...
+ui	 合計 %s   出力 %s	 Spolu %s   Výstup %s
+ui	 経過 %s	 Uplynulo %s
+ui	 %u%%   経過 %s	 %u%%   Uplynulo %s
+ui	   残り 約 %s	   Zostáva ~%s
+ui	   出力 %s	   Výstup %s
+ui	 止めています...	 Zastavujem...
 ui	失敗しました	Nepodarilo sa
 ui	 合計 %s	Celkom %s
 ui	 中止しました（%s。半端なファイルは消しました）	Zrušené (%s; čiastočný súbor bol odstránený)
@@ -356,7 +362,7 @@ ui	 ESC: 止める（半端なファイルは消します）	ESC: stop (vymaže 
 ui	書庫: %s	Archív: %s
 ui	読み込み中…（ESC でやめる）	Čítam... (ESC na zrušenie)
 ui	 %u 項目%s  合計 %s バイト  展開先: %s	%u položiek%s celkom %s bajtov extrahovať do: %s
-ui	 Enter 項目を展開  X 全部を展開  ↑↓ 動かす  ESC 閉じる	Zadajte extrahovať položku X extrahovať všetko ↑↓ presunúť ESC zavrieť
+ui	 Enter 項目を展開  X 全部を展開  ↑↓ 動かす  ESC 閉じる	 Enter extrahovať položku  X extrahovať všetko  ↑↓ presunúť  ESC zavrieť
 ui	圧縮	Komprimovať
 ui	一覧	Zoznam
 ui	展開	Extrakt
@@ -491,7 +497,7 @@ msg.phrase	SMF format 2 is not supported (0 and 1 only)	Formát SMF 2 nie je pod
 msg.phrase	not a Bulk-Only drive	nie je to len hromadný disk
 msg.phrase	not an optical drive	nie optická mechanika
 msg.phrase	a system folder cannot be deleted or renamed	systémový priečinok nemožno odstrániť ani premenovať
-msg.phrase	no media in the drive	žiadne médium v ​​mechanike
+msg.phrase	no media in the drive	žiadne médium v mechanike
 msg.phrase	becoming ready	stať sa pripraveným
 msg.phrase	not ready	nie je pripravený
 msg.phrase	media changed	médiá sa zmenili
@@ -1162,6 +1168,20 @@ ui	%s 秒	%s s
 ui	コンパイル %s  実行 %s	kompilácia %s  beh %s
 ui	コンパイル %s	kompilácia %s
 ui	実行 %s	beh %s
+ui	壁紙	Tapeta
+ui	壁紙の輝度	Jas tapety
+ui	(なし)	(žiadna)
+ui	%u%% (100=原画 0=黒)	%u%% (100=originál 0=čierna)
+ui	Up / Down  Enter 決める  Left/Right 輝度  ESC やめる	Up / Down  Enter vybrať  Left/Right jas  ESC zrušiť
+ui	現在	Aktuálna
+ui	壁紙を解除 (黒地)	Zrušiť tapetu (čierna)
+ui	壁紙を再読み込み	Znova načítať tapetu
+ui	PNG ファイルで Menu キーから「壁紙に設定」できます	Stlačte Menu na súbore PNG pre nastavenie tapety
+ui	壁紙の輝度 (%)	Jas tapety (%)
+ui	 (黒)	 (čierna)
+ui	 (既定)	 (predvolené)
+ui	 (原画そのまま)	 (originál)
+ui	壁紙に設定	Nastaviť ako tapetu
 msg.phrase	1 Help	1 Pomoc
 msg.phrase	3 Copy	3 Kopír
 msg.phrase	4 Paste	4 Vložiť

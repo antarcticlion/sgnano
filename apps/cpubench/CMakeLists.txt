@@ -19,7 +19,10 @@ include("${SGNANO_SGX_SDK_DIR}/sgx.cmake")
 set(_d ${CMAKE_CURRENT_SOURCE_DIR})
 sgx_add_program(cpubench NAME "CPU BENCH" FLAGS 17
     SOURCES ${_d}/cpubench.c ${_d}/bench_dhry.c ${_d}/lp_sp.c ${_d}/lp_dp.c
-            ${_d}/third_party/dhrystone/dhry_1.c ${_d}/third_party/dhrystone/dhry_2.c)
+            ${_d}/third_party/dhrystone/dhry_1.c ${_d}/third_party/dhrystone/dhry_2.c
+            ${_d}/dhry0_1.c ${_d}/dhry0_2.c)
 set_source_files_properties(${_d}/third_party/dhrystone/dhry_1.c ${_d}/third_party/dhrystone/dhry_2.c PROPERTIES COMPILE_OPTIONS
     "-std=gnu89;-w;-DTIME;-Dmain=dhry_main;-Dscanf=dhry_scanf;-Dprintf=dhry_printf;-Dmalloc=dhry_malloc;-Dtime=dhry_time;-include;${_d}/dhry_shim.h")
+# Core 0 で 2 本目を走らせる Dhrystone（2026-11-24、SGX ABI 5.19。元の版を別の名前で取り込む: dhry0_shim.h）
+set_source_files_properties(${_d}/dhry0_1.c ${_d}/dhry0_2.c PROPERTIES COMPILE_OPTIONS "-std=gnu89;-w;-DTIME;-I${_d}/third_party/dhrystone")
 set_source_files_properties(${_d}/lp_sp.c ${_d}/lp_dp.c PROPERTIES COMPILE_OPTIONS "-w")

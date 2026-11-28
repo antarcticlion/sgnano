@@ -11,11 +11,11 @@ ui	Shift+矢印	Shift+方向键
 ui	範囲を選ぶ（Space でその範囲に印）	选择范围（Space 标记该范围）
 ui	フォルダに入る・ファイルを開く（F2/X は実行）	进入文件夹 / 打开文件（F2/X 运行）
 ui	上のフォルダへ	回到上层文件夹
-ui	ドライブを選ぶ（USB・フロッピー・CD・S: 内蔵）	选择驱动器（USB・软盘・CD・S: 内建）
+ui	ドライブを選ぶ（USB・フロッピー・CD・S: 内蔵）	选择驱动器（USB、软盘、CD、S: 内建）
 ui	コピー（Shift+C / Shift+F3 は行き先を木から）	复制（Shift+C / Shift+F3 从树中选择目标）
 ui	移動	移动
 ui	削除（Shift+D / Shift+F4 はフォルダ削除）	删除（Shift+D / Shift+F4 删除文件夹）
-ui	名前を変える	重新命名
+ui	名前を変える	重命名
 ui	属性を変える	更改属性
 ui	エディタで開く	以编辑器开启
 ui	テキスト表示（Shift+V / Ctrl+Alt+F7 は 16 進）	以文本查看（Shift+V / Ctrl+Alt+F7 十六进制）
@@ -29,13 +29,13 @@ ui	ファイルの操作（FD と同じ。印・範囲・カーソルの順）	�
 ui	コピー: 行き先は木から選ぶ。ESC で止める	复制：从驱动器和文件夹树中选择目标。ESC 停止
 ui	削除: y で確かめる。印・範囲をまとめて	删除：按 y 确认。标记和范围一起处理。文件夹连同内容
 ui	フォルダを削除（中身ごと）	删除文件夹（连同内容）
-ui	名前を変える（今の名前を直して Enter）	重新命名（修改名称后 Enter）
+ui	名前を変える（今の名前を直して Enter）	重命名（修改名称后 Enter）
 ui	属性: R 読み出し専用・H 隠し・S システム・A アーカイブ	属性：R 只读、H 隐藏、S 系统、A 存档
 ui	フォルダを作る	新文件夹
 ui	新しいファイル（空）を作る	新文件（空）
 ui	テキストで表示（Shift+V / Ctrl+Alt+F7 は 16 進）	以文本查看（Shift+V / Ctrl+Alt+F7 十六进制）
 ui	シェル sgsh（exit / Ctrl-D でファイラーへ）	Shell sgsh（exit / Ctrl-D 返回文件管理器）
-ui	選んでいるドライブの素性（INQUIRY・IDENTIFY）	所选驱动器的信息（INQUIRY・IDENTIFY）
+ui	選んでいるドライブの素性（INQUIRY・IDENTIFY）	所选驱动器的信息（INQUIRY、IDENTIFY）
 ui	FDD・LS-120・CD の媒体を取り出す	弹出 FDD / LS-120 / CD 介质
 ui	一覧を読み直す（CD は TOC から）	重新读取列表（CD：从 TOC）
 ui	ZMODEM で PC から受け取る（zm.sh put）	通过 ZMODEM 从 PC 接收（zm.sh put）
@@ -46,7 +46,7 @@ ui	MicroPython の REPL	MicroPython REPL
 ui	4MB ずつ分割 / .001 から結合	拆分为 4 MB / 从 .001 合并
 ui	分割 / 結合（Ctrl+F11 / F12 と同じ）	拆分 / 合并（同 Ctrl+F11 / F12）
 ui	画面（Alt+F。FD の F キーとぶつからない）	屏幕（Alt+F，不与 FD 的 F 键冲突）
-ui	FB（絵）/ テキスト面を出す・隠す	显示・隐藏 FB（图片）/ 文字
+ui	FB（絵）/ テキスト面を出す・隠す	显示、隐藏 FB（图片）/ 文字
 ui	FB の表示ページ（0〜3）	FB 显示页（0-3）
 ui	FB を 0 で消す / 明るさを 1/2 に（RGB555）	将 FB 清为 0 / 亮度减半（RGB555）
 ui	USB のエンドポイントと LAN（U: 10 秒に 1 度）	USB 端点与 LAN 状态
@@ -62,16 +62,16 @@ ui	トラッカー（TRACKER）を開く	打开追踪器
 ui	再起動（確かめの窓）。Ctrl+Alt+Del も同じ	重启（会先确认） = Ctrl+Alt+Del
 ui	ADC のステレオ入力（GP40 / 41）を鳴らす	播放 ADC 立体声输入（GP40 / 41）
 ui	VGM/VGZ を 96kHz/24bit WAV に書き出す	将 VGM/VGZ 导出为 96 kHz / 24 位 WAV
-ui	テキスト・16 進のビュアー（less 風）	文字・十六进制查看器（类 less）
+ui	テキスト・16 進のビュアー（less 風）	文字、十六进制查看器（类 less）
 ui	1 行	1 行
 ui	1 ページ	1 页
 ui	半ページ	半页
-ui	探す（前へ・後ろへ）/ 次・前	搜寻（向前・向后）/ 下一个・上一个
+ui	探す（前へ・後ろへ）/ 次・前	搜寻（向前、向后）/ 下一个、上一个
 ui	一覧へ戻る（F1 はビュアーのヘルプ）	返回列表（F1 为查看器帮助）
 ui	画像のビュアー	图片查看器
 ui	一覧へ戻る（F2 F3 F6 F7 Shift+F2 F3 は効く）	返回列表（F2 F3 F6 F7 Shift+F2 F3 有效）
 ui	エディタ（E / Shift+F8）	编辑器（E / Shift+F8）
-ui	保存する（UTF-8。改行と BOM は元のまま）	储存（UTF-8；换行与 BOM 保持原样）
+ui	保存する（UTF-8。改行と BOM は元のまま）	保存（UTF-8；换行与 BOM 保持原样）
 ui	閉じる（変わっていれば Y / N / ESC）	关闭（有变更时 Y / N / ESC）
 ui	挿入 / 上書き	插入 / 覆写
 ui	IME（日本語・英語・ハングル）の入・切	打开/关闭 IME（日语/英语/韩文）
@@ -105,9 +105,8 @@ ui	何かキーで閉じる	任意键关闭
 ui	設定	设置
 ui	表示の言語	显示语言
 ui	キーボードロケール	键盘区域设置
-ui	Up / Down  Enter 決める  ESC やめる	Up / Down  Enter 决定  ESC 取消
 ui	表示の言語 (Language)	显示语言 (Language)
-ui	Up / Down  Enter 決める  ESC 戻る	上/下输入决定 ESC 返回
+ui	Up / Down  Enter 決める  ESC 戻る	Enter 上/下输入决定 ESC 返回
 ui	%c: をどの文字に固定しますか（A〜Z、S を除く。ESC でやめる）	将 %c: 固定为哪个字母？（A-Z，S 除外。ESC 取消）
 ui	ドライブ  文字 / Enter 選ぶ  F2 文字を固定・解除  F3 文字を決めて固定  L / ESC やめる	驱动器  字母 / Enter 选择  F2 固定/解除字母  F3 指定字母固定  L / ESC 取消
 ui	  区画 %u	  分区 %u
@@ -199,9 +198,9 @@ ui	移動先	移动到
 ui	コピー先	复制到
 ui	バッファがいっぱいです (buffer full)	缓冲区已满
 ui	読み出し専用のドライブです (read-only)	只读驱动器
-ui	保存できません (no writer)	无法储存（no writer）
-ui	保存を始められません (the drive is busy?)	无法开始储存（驱动器忙碌？）
-ui	保存しています... (saving)	储存中...
+ui	保存できません (no writer)	无法保存（no writer）
+ui	保存を始められません (the drive is busy?)	无法开始保存（驱动器忙碌？）
+ui	保存しています... (saving)	保存中...
 ui	2 保存	2 保存
 ui	5 色分け	5 颜色
 ui	6 ﾞ	6 平假
@@ -226,9 +225,9 @@ ui	 BS / Del                      前の字 / カーソルの字を消す	 BS / 
 ui	 Enter                         改行（前の行の字下げを引き継ぐ）	 Enter                         换行（沿用上一行缩排）
 ui	 Tab / Ins                     タブ / 挿入と上書きの切り替え	 Tab / Ins                     定位 / 插入与覆写切换
 ui	 F5                            色分け（拡張子から。C/C++・mruby・MicroPython・SG BASIC・なし）	 F5                            着色（按扩展名；C/C++、mruby、MicroPython、SG BASIC、无）
-ui	 F2  (Ctrl-S)                  保存（UTF-8、改行は元の形）	 F2  (Ctrl-S)                  储存（UTF-8，换行维持）
+ui	 F2  (Ctrl-S)                  保存（UTF-8、改行は元の形）	 F2  (Ctrl-S)                  保存（UTF-8，换行维持）
 ui	 F10 / ESC                     閉じる（変更があれば聞く）	 F10 / ESC                     关闭（有变更会询问）
-ui	 IME:  Ctrl-Space / F12        オン・オフ（あ / A）	 IME:  Ctrl-Space / F12        开・关（あ / A）
+ui	 IME:  Ctrl-Space / F12        オン・オフ（あ / A）	 IME:  Ctrl-Space / F12        开、关（あ / A）
 ui	       F9                      IME の言語（このエディタの間だけ。閉じると戻る）	       F9 IME 语言（仅在此编辑器期间；关闭时返回）
 ui	       F8                      日本語の予測変換 オン・オフ	       F8 日语预测转换开/关
 ui	       日本語                  ローマ字 -> ひらがな（F6）・カタカナ（F7）	       日语罗马字 -> 平假名 (F6) / 片假名 (F7)
@@ -236,7 +235,7 @@ ui	                               半角ひらがな（Shift+F6）・半角カ�
 ui	                               2 字以上で予測、Space で連文節変換	                               用 2 个或更多字符预测，用空格转换连续子句
 ui	       English                 2 字以上で予測補完	       英语 2 个或更多字符的预测完成
 ui	       한국어                  2 ボル式ハングル	       한국어 2 波尔式韩文
-ui	       Space / Enter           変換 / 確定	空格/输入 转换/确认
+ui	       Space / Enter           変換 / 確定	       Space / Enter           转换 / 确认
 ui	       ← →                    文節を選ぶ	       ← → 选择一个短语
 ui	       Shift+← →               文節の右端を 1 字 縮/拡（候補を出し直す）	       Shift+← → 将文节右端缩短/延长一个字（新的候选）
 ui	       ↑ ↓ / Tab               候補の窓で前 / 次の候補（窓は変換の下、画面の下では上）	       ↑ ↓ / Tab               窗口中的上一个 / 下一个候选（在文字下方，靠近底部时在上方）
@@ -270,8 +269,8 @@ ui	読み込めませんでした (could not read)	无法读取
 ui	%lu 行%s%s	%lu 行%s%s
 ui	  Shift_JIS を UTF-8 で開きました（保存は UTF-8）	  已将 Shift_JIS 以 UTF-8 开启（存为 UTF-8）
 ui	  読み出し専用	  只读
-ui	保存しました (saved)	已储存
-ui	保存できませんでした (write failed)	无法储存（写入失败）
+ui	保存しました (saved)	已保存
+ui	保存できませんでした (write failed)	无法保存（写入失败）
 ui	候補	候选
 ui	7 書込頁	7 写入页
 ui	9 ﾃｷｽﾄ	9 文字
@@ -292,7 +291,7 @@ ui	次 / 前を探す	下一个 / 上一个
 ui	16 進で表示する（いま見ている所のまま）	以十六进制显示（维持目前位置）
 ui	テキストで表示する（いま見ている所のまま）	以文字显示（维持目前位置）
 ui	色分けを替える（C/C++・mruby・MicroPython・SG BASIC・なし）	更改着色（C/C++、mruby、MicroPython、SG BASIC、无）
-ui	FB / テキスト面を出す・隠す	显示・隐藏 FB / 文字
+ui	FB / テキスト面を出す・隠す	显示、隐藏 FB / 文字
 ui	FB の表示ページ / 書き込みページ	FB 显示页 / 写入页
 ui	ファイラーへ戻る	返回文件管理器
 ui	このヘルプを閉じる	关闭本帮助
@@ -313,7 +312,7 @@ ui	 要る大きさ %s、空き %s。続けますか？	 需要 %s，可用 %s�
 ui	 Y: 続ける   N / ESC: やめる	 Y：继续   N / ESC：取消
 ui	 何かキーを押すと閉じます	 按任意键关闭
 ui	 ESC: 止める	 ESC：停止
-ui	 %s: ←→ ドライブ  ↑↓ フォルダ  Space 開く・閉じる  Enter 決める  ESC やめる	 %s：←→ 驱动器  ↑↓ 文件夹  Space 展开・收合  Enter 决定  ESC 取消
+ui	 %s: ←→ ドライブ  ↑↓ フォルダ  Space 開く・閉じる  Enter 決める  ESC やめる	 %s：←→ 驱动器  ↑↓ 文件夹  Space 展开、收合  Enter 决定  ESC 取消
 ui	 読めません: %s	 无法读取：%s
 ui	 フォルダを読んでいます...（ESC で止める）  %u 個	 读取文件夹中...（ESC 停止）  %u 个
 ui	 フォルダ %u 個%s	 文件夹 %u 个%s
@@ -333,7 +332,7 @@ ui	  （表が無い ROM）\n	  （ROM 没有此表）\n
 ui	\n== ROM のクレジットの区画 ==\n\n	\n== ROM 的鸣谢区 ==\n\n
 ui	（区画が無い）\n	（没有此区）\n
 ui	\n== 組み込んだソフトウェアのライセンス ==\n	\n== 内置软件的许可证 ==\n
-ui	 %s を PNG で保存   %s	 以 PNG 储存 %s   %s
+ui	 %s を PNG で保存   %s	 以 PNG 保存 %s   %s
 ui	画面	画面
 ui	 組み立てています... %lu / %lu 行	 组合中... %lu / %lu 行
 ui	 書いています... %lu / %lu KB（FB は隠しています）	 写入中... %lu / %lu KB（FB 已隐藏）
@@ -345,6 +344,13 @@ ui	WAV 書き出し: %s 失敗（%s）	WAV 导出：%s 失败（%s）
 ui	WAV 書き出し: %s 合計 %s	WAV 导出：%s 合计 %s
 ui	 WAV 書き出し（96kHz / 24bit）: %s	 WAV 导出（96kHz / 24bit）：%s
 ui	中止しました	已中止
+ui	準　備　中　．．．	准备中...
+ui	 合計 %s   出力 %s	 合计 %s   输出 %s
+ui	 経過 %s	 已用 %s
+ui	 %u%%   経過 %s	 %u%%   已用 %s
+ui	   残り 約 %s	   剩余约 %s
+ui	   出力 %s	   输出 %s
+ui	 止めています...	 正在停止...
 ui	失敗しました	失败
 ui	 合計 %s	 合计 %s
 ui	 中止しました（%s。半端なファイルは消しました）	 已中止（%s。已删除未完成的文件）
@@ -384,7 +390,7 @@ msg.phrase	no file system found on this partition	此分区找不到文件系统
 msg.phrase	the path is too long	路径太长
 msg.phrase	joining...	合并中...
 msg.phrase	splitting...	分割中...
-msg.phrase	renaming...	重新命名中...
+msg.phrase	renaming...	重命名中...
 msg.phrase	creating the folder...	建立文件夹中...
 msg.phrase	creating the file...	建立文件中...
 msg.phrase	deleting...	删除中...
@@ -396,13 +402,13 @@ msg.phrase	choose files or folders (not "..")	请选择文件或文件夹（".."
 msg.phrase	stop the CD first	请先停止 CD
 msg.phrase	the CD cannot be changed (copy instead)	CD 无法变更（请改用复制）
 msg.phrase	a system folder cannot be moved	系统文件夹无法移动
-msg.phrase	no drive can be written (FAT / exFAT / NTFS only)	没有可写入的驱动器（仅 FAT・exFAT・NTFS）
+msg.phrase	no drive can be written (FAT / exFAT / NTFS only)	没有可写入的驱动器（仅 FAT、exFAT、NTFS）
 msg.phrase	the drive is gone	驱动器不见了
 msg.phrase	nothing chosen	未选择任何项目
 msg.phrase	nothing selected	未选择任何项目
 msg.phrase	could not start	无法开始
 msg.phrase	could not open	无法开启
-msg.phrase	only on a FAT / exFAT / NTFS drive	仅限 FAT・exFAT・NTFS 驱动器
+msg.phrase	only on a FAT / exFAT / NTFS drive	仅限 FAT、exFAT、NTFS 驱动器
 msg.phrase	no name	没有名称
 msg.phrase	that name already exists	名称已存在
 msg.phrase	could not start (bad name or the drive is busy)	无法开始（名称错误或驱动器忙碌）
@@ -422,8 +428,8 @@ msg.phrase	choose the .001 file	请选择 .001 文件
 msg.phrase	put the IWAD in a DoomFiles or Doom2Files folder	请将 IWAD 放在 DoomFiles 或 Doom2Files 文件夹
 msg.phrase	DoomFiles takes freedoom1 / doom / doomu / doom1.wad	DoomFiles 可放 freedoom1 / doom / doomu / doom1.wad
 msg.phrase	Doom2Files takes freedoom2 / doom2 / plutonia / tnt.wad	Doom2Files 可放 freedoom2 / doom2 / plutonia / tnt.wad
-msg.phrase	put the game files on external storage, not S:	游戏文件请放在外部储存装置，不要放在 S:
-msg.phrase	the IWAD must be on a FAT / exFAT / NTFS drive (not a CD)	IWAD 必须放在 FAT・exFAT・NTFS 驱动器（不可为 CD）
+msg.phrase	put the game files on external storage, not S:	游戏文件请放在外部保存装置，不要放在 S:
+msg.phrase	the IWAD must be on a FAT / exFAT / NTFS drive (not a CD)	IWAD 必须放在 FAT、exFAT、NTFS 驱动器（不可为 CD）
 msg.phrase	still working	仍在处理中
 msg.phrase	an image is loading	图片读取中
 msg.phrase	no framebuffer	没有 FB
@@ -432,7 +438,7 @@ msg.phrase	clearing...	清除中...
 msg.phrase	halving the brightness...	亮度減半中...
 msg.phrase	that is a data track	这是数据轨
 msg.phrase	wait -- a file is being written	正在写入文件，请稍候
-msg.phrase	only floppy / LS-120 / CD drives	仅限软盘・LS-120・CD 驱动器
+msg.phrase	only floppy / LS-120 / CD drives	仅限软盘、LS-120、CD 驱动器
 msg.phrase	requested	已要求
 msg.phrase	reading the disc...	读取光盘中...
 msg.phrase	stopping...	停止中...
@@ -441,7 +447,7 @@ msg.phrase	done	已完成
 msg.phrase	no memory	内存不足
 msg.phrase	already open	已开启
 msg.phrase	already running	已在执行
-msg.phrase	already saving	已在储存
+msg.phrase	already saving	已在保存
 msg.phrase	already playing	已在播放
 msg.phrase	no such drive	没有此驱动器
 msg.phrase	no PSRAM	PSRAM 不足
@@ -489,7 +495,7 @@ msg.phrase	SMPTE time division is not supported	不支持 SMPTE 时间单位
 msg.phrase	SMF format 2 is not supported (0 and 1 only)	不支持 SMF 格式 2（仅支持 0 和 1）
 msg.phrase	not a Bulk-Only drive	不是 Bulk-Only 驱动器
 msg.phrase	not an optical drive	不是光驱
-msg.phrase	a system folder cannot be deleted or renamed	系统文件夹无法删除或重新命名
+msg.phrase	a system folder cannot be deleted or renamed	系统文件夹无法删除或重命名
 msg.phrase	no media in the drive	没有放入媒体
 msg.phrase	becoming ready	准备中
 msg.phrase	not ready	尚未就绪
@@ -553,7 +559,7 @@ msg.phrase	the lines did not come (is the display running?)	没有收到扫描�
 msg.prefix	copy	复制
 msg.prefix	move	移动
 msg.prefix	delete	删除
-msg.prefix	rename	重新命名
+msg.prefix	rename	重命名
 msg.prefix	attributes	属性
 msg.prefix	new file	新文件
 msg.prefix	new folder	新文件夹
@@ -565,7 +571,7 @@ msg.prefix	edit	编辑器
 msg.prefix	IDENTIFY	信息
 msg.prefix	ZMODEM	ZMODEM
 msg.prefix	ZMODEM receive	ZMODEM 接收
-msg.prefix	ZMODEM send	ZMODEM 传送
+msg.prefix	ZMODEM send	ZMODEM 发送
 msg.prefix	split	分割
 msg.prefix	join	合并
 msg.prefix	Doom	Doom
@@ -578,20 +584,20 @@ msg.prefix	license	许可
 msg.prefix	clock	时钟
 msg.prefix	ADC in	ADC 输入
 msg.prefix	screen -> PNG	截图
-msg.prefix	FB -> PNG	FB 储存
+msg.prefix	FB -> PNG	FB 保存
 msg.prefix	could not open the volume	无法开启卷
 msg.pattern	received 	已接收：%s
-msg.pattern	sent 	已传送：%s
-msg.pattern	saved 	已储存：%s
+msg.pattern	sent 	已发送：%s
+msg.pattern	saved 	已保存：%s
 msg.pattern	created 	已建立：%s
-msg.pattern	renamed to 	已重新命名：%s
+msg.pattern	renamed to 	已重命名：%s
 msg.pattern	deleted 	已删除：%s
 msg.pattern	changed 	已变更：%s
 msg.pattern	joined 	已合并：%s
 msg.pattern	split 	已分割：%s
 msg.pattern	could not create 	无法建立：%s
 msg.pattern	could not delete 	无法删除：%s
-msg.pattern	could not rename to 	无法重新命名：%s
+msg.pattern	could not rename to 	无法重命名：%s
 msg.pattern	could not change 	无法变更：%s
 msg.pattern	could not read 	无法读取：%s
 msg.pattern	could not write 	无法写入：%s
@@ -600,7 +606,7 @@ msg.pattern	could not make 	无法建立：%s
 msg.pattern	could not remove the folder 	无法删除文件夹：%s
 msg.pattern	could not remove 	无法删除：%s
 msg.pattern	no memory for 	内存不足：%s
-msg.pattern	too many errors while sending 	错误太多无法传送：%s
+msg.pattern	too many errors while sending 	错误太多无法发送：%s
 msg.pattern	the receiver did not take 	接收端未接收：%s
 msg.pattern	the receiver skipped 	接收端略过：%s
 msg.pattern	FB page 	FB 页面 %s
@@ -614,7 +620,7 @@ msg.word	: cleared	：已清除
 msg.word	: brightness halved	：亮度已減半
 msg.word	% read	% 已读
 msg.word	 rows	 行
-msg.word	 -- not supported yet (FAT / exFAT / NTFS only)	 尚未支持（仅 FAT・exFAT・NTFS）
+msg.word	 -- not supported yet (FAT / exFAT / NTFS only)	 尚未支持（仅 FAT、exFAT、NTFS）
 msg.word	 files	 个文件
 msg.word	 (	（
 msg.phrase	Untitled	未命名
@@ -1161,6 +1167,20 @@ ui	%s 秒	%s 秒
 ui	コンパイル %s  実行 %s	编译 %s  运行 %s
 ui	コンパイル %s	编译 %s
 ui	実行 %s	运行 %s
+ui	壁紙	壁纸
+ui	壁紙の輝度	壁纸亮度
+ui	(なし)	(无)
+ui	%u%% (100=原画 0=黒)	%u%% (100=原图 0=黑)
+ui	Up / Down  Enter 決める  Left/Right 輝度  ESC やめる	Up / Down  Enter 选择  Left/Right 亮度  ESC 取消
+ui	現在	当前
+ui	壁紙を解除 (黒地)	清除壁纸 (黑底)
+ui	壁紙を再読み込み	重新加载壁纸
+ui	PNG ファイルで Menu キーから「壁紙に設定」できます	在 PNG 文件上按 Menu 键可设为壁纸
+ui	壁紙の輝度 (%)	壁纸亮度 (%)
+ui	 (黒)	 (黑)
+ui	 (既定)	 (默认)
+ui	 (原画そのまま)	 (原图)
+ui	壁紙に設定	设为壁纸
 msg.phrase	Version %s	版本 %s
 msg.phrase	1 Help	1 帮助
 msg.phrase	3 Copy	3 复制

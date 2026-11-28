@@ -3,12 +3,12 @@
 @lang et
 @name Eesti
 ui	一覧（ファイルとフォルダを 2 列 x 19 行に並べる）	Loend (failid ja kaustad 2 veergu x 19 rida)
-ui	カーソルを動かす（左右は隣の列へ）	Liigutage kursorit (vasakule / paremale: teine ​​veerg)
+ui	カーソルを動かす（左右は隣の列へ）	Liigutage kursorit (vasakule / paremale: teine veerg)
 ui	前のページ / 次のページ	Eelmine leht / järgmine leht
 ui	全部に印 / 印を反転（PC-98 FD と同じ）	Märgi kõik / pööra märgid ümber (nagu PC-98 FD puhul)
 ui	先頭 / 最後	Esimene / viimane
 ui	印を付けて次へ / 印だけ付ける	Märgi ja liigu edasi / märgi ainult
-ui	Shift+矢印	Tõstuklahv+nooled
+ui	Shift+矢印	Shift+nooled
 ui	範囲を選ぶ（Space でその範囲に印）	Valige vahemik (Tühik tähistab vahemikku)
 ui	フォルダに入る・ファイルを開く（F2/X は実行）	Sisestage kaust / avage fail (F2/X-käivitus)
 ui	上のフォルダへ	Kuni ülemkausta
@@ -19,7 +19,7 @@ ui	削除（Shift+D / Shift+F4 はフォルダ削除）	Kustuta (Tõstuklahv+D /
 ui	名前を変える	Nimeta ümber
 ui	属性を変える	Muutke atribuute
 ui	エディタで開く	Ava redaktoris
-ui	テキスト表示（Shift+V / Ctrl+Alt+F7 は 16 進）	Kuva tekstina (Tõstuklahv+V / Ctrl+Alt+F7 kuueteistkümnend)
+ui	テキスト表示（Shift+V / Ctrl+Alt+F7 は 16 進）	Kuva tekstina (Shift+V / Ctrl+Alt+F7 kuueteistkümnend)
 ui	ドライブの情報	Sõiduteave
 ui	フォルダを作る（Shift+F5） / 新しいファイル（Ctrl+F1）	Uus kaust (Shift+F5) / uus fail (Ctrl+F1)
 ui	シェル sgsh / 媒体を取り出す	Shell sgsh / väljuta andmekandja
@@ -30,11 +30,11 @@ ui	ファイルの操作（FD と同じ。印・範囲・カーソルの順）	F
 ui	コピー: 行き先は木から選ぶ。ESC で止める	Kopeeri: valige draivi- ja kaustapuust sihtkoht. ESC peatub
 ui	削除: y で確かめる。印・範囲をまとめて	Kustuta: kinnitage y-ga. Märgid ja vahemikud korraga. Kaustad koos nende sisuga
 ui	フォルダを削除（中身ごと）	Kustutage kaust (koos selle sisuga)
-ui	名前を変える（今の名前を直して Enter）	Nimeta ümber (muutke nime, sisestage)
+ui	名前を変える（今の名前を直して Enter）	Nimeta ümber (muutke nime, Enter)
 ui	属性: R 読み出し専用・H 隠し・S システム・A アーカイブ	Atribuudid: R-kirjutuskaitstud, H peidetud, S-süsteem, A-arhiiv
 ui	フォルダを作る	Uus kaust
 ui	新しいファイル（空）を作る	Uus (tühi) fail
-ui	テキストで表示（Shift+V / Ctrl+Alt+F7 は 16 進）	Kuva tekstina (Tõstuklahv+V / Ctrl+Alt+F7 kuueteistkümnend)
+ui	テキストで表示（Shift+V / Ctrl+Alt+F7 は 16 進）	Kuva tekstina (Shift+V / Ctrl+Alt+F7 kuueteistkümnend)
 ui	シェル sgsh（exit / Ctrl-D でファイラーへ）	Shell sgsh (välju / Ctrl-D tagasi failirisse)
 ui	選んでいるドライブの素性（INQUIRY・IDENTIFY）	Draivi identiteet (päring, IDENTIFITSEERIMINE)
 ui	FDD・LS-120・CD の媒体を取り出す	Väljutage FDD / LS-120 / CD kandja
@@ -71,7 +71,7 @@ ui	探す（前へ・後ろへ）/ 次・前	Otsi (edasi / tagasi) / järgmine /
 ui	一覧へ戻る（F1 はビュアーのヘルプ）	Tagasi loendisse (F1: vaataja abi)
 ui	画像のビュアー	Pildivaatur
 ui	一覧へ戻る（F2 F3 F6 F7 Shift+F2 F3 は効く）	Tagasi loendisse (F2 F3 F6 F7 Shift+F2 F3 töötab)
-ui	エディタ（E / Shift+F8）	Redaktor (E / tõstuklahv+F8)
+ui	エディタ（E / Shift+F8）	Redaktor (E / Shift+F8)
 ui	保存する（UTF-8。改行と BOM は元のまま）	Salvesta (UTF-8; realõpud ja BOM alles)
 ui	閉じる（変わっていれば Y / N / ESC）	Sule (kui muudetud: jah / ei / ESC)
 ui	挿入 / 上書き	Sisesta / kirjuta üle
@@ -106,12 +106,11 @@ ui	何かキーで閉じる	Iga võti sulgub
 ui	設定	Seaded
 ui	表示の言語	Kuvamise keel
 ui	キーボードロケール	Klaviatuuri lokaat
-ui	Up / Down  Enter 決める  ESC やめる	Üles/alla Sisestage vali ESC tühistamine
 ui	表示の言語 (Language)	Kuvamise keel
-ui	Up / Down  Enter 決める  ESC 戻る	Üles / Alla Sisesta: määra ESC: tagasi
+ui	Up / Down  Enter 決める  ESC 戻る	Enter Üles / Alla Sisesta: määra ESC: tagasi
 ui	%c: をどの文字に固定しますか（A〜Z、S を除く。ESC でやめる）	Parandus %c: mis tähena? (A–Z, välja arvatud S. ESC tühistab)
 ui	ドライブ  文字 / Enter 選ぶ  F2 文字を固定・解除  F3 文字を決めて固定  L / ESC やめる	Draivitäht / Enter valige F2 paranda/tühista täht F3 paranda kui... L / ESC tühista
-ui	  区画 %u	vahesein %u
+ui	  区画 %u	  vahesein %u
 ui	%c:* （固定・つながっていません）%04X:%04X%s  %s	%c:* (fikseeritud, ühendamata) %04X:%04X%s %s
 ui	お知らせ	Märka
 ui	ドライブ %c:  %s	Sõita %c: %s
@@ -219,40 +218,40 @@ ui	 %s  %s  行 %lu/%lu 桁 %u  %s  %s %s%s%s	%s %s Ln %lu/%lu veerg %u %s %s %s
 ui	*変更	*mod
 ui	上書	OVR
 ui	挿入	INS
-ui	  読出専用	R/O
+ui	  読出専用	  R/O
 ui	 エディタ (sgnano edit)                      F1 / ESC で閉じる	Redigeerija (sgnano edit) F1 / ESC sulgub
-ui	 矢印 / Home End / PgUp PgDn   カーソルを動かす	Nooled / Kodu lõpp / PgUp PgDn liigutage kursorit
+ui	 矢印 / Home End / PgUp PgDn   カーソルを動かす	Nooled / Home End / PgUp PgDn liigutage kursorit
 ui	 Ctrl-T / Ctrl-B               ファイルの先頭 / 最後	Ctrl-T / Ctrl-B faili ülemine / lõpp
-ui	 BS / Del                      前の字 / カーソルの字を消す	BS / Kustuta kursori ees / juurest kustutamine
-ui	 Enter                         改行（前の行の字下げを引き継ぐ）	Sisestage uus rida (jätab taande)
+ui	 BS / Del                      前の字 / カーソルの字を消す	BS / Del kursori ees / juurest kustutamine
+ui	 Enter                         改行（前の行の字下げを引き継ぐ）	 Enter                         Sisestage uus rida (jätab taande)
 ui	 Tab / Ins                     タブ / 挿入と上書きの切り替え	Tab / Ins sakk / sisestamine või ülekirjutamine
 ui	 F5                            色分け（拡張子から。C/C++・mruby・MicroPython・SG BASIC・なし）	F5 värvimine (laiendist; C/C++, mruby, MicroPython, SG BASIC, puudub)
 ui	 F2  (Ctrl-S)                  保存（UTF-8、改行は元の形）	F2 (Ctrl-S) salvesta (UTF-8, realõpud alles)
 ui	 F10 / ESC                     閉じる（変更があれば聞く）	F10 / ESC sulgemine (küsib, kui muudetud)
 ui	 IME:  Ctrl-Space / F12        オン・オフ（あ / A）	IME: Ctrl-Tühik / F12 sisse / välja (あ / A)
-ui	       F9                      IME の言語（このエディタの間だけ。閉じると戻る）	F9 IME keel (ainult see redaktor; sulgemisel taastatud)
-ui	       F8                      日本語の予測変換 オン・オフ	F8 Jaapani ennustav teisendus sisse/välja
-ui	       日本語                  ローマ字 -> ひらがな（F6）・カタカナ（F7）	Jaapani romaji -> hiragana (F6) / katakana (F7)
-ui	                               半角ひらがな（Shift+F6）・半角カタカナ（Shift+F7）	Poollaius hiragana (Shift+F6) / poollaius katakana (Shift+F7)
-ui	                               2 字以上で予測、Space で連文節変換	Ennustage 2 või enama tähemärgiga, teisendage pidev klausel tühikuga
-ui	       English                 2 字以上で予測補完	Ingliskeelne ennustav lõpetamine 2 või enama tähemärgiga
-ui	       한국어                  2 ボル式ハングル	한국어 2 Bol-stiilis hangul
-ui	       Space / Enter           変換 / 確定	Tühik / Sisesta Teisenda / Kinnita
-ui	       ← →                    文節を選ぶ	← → Valige fraas
-ui	       Shift+← →               文節の右端を 1 字 縮/拡（候補を出し直す）	Shift+← → Kahanda/suurenda klausli paremat otsa ühe märgi võrra (uued kandidaadid)
-ui	       ↑ ↓ / Tab               候補の窓で前 / 次の候補（窓は変換の下、画面の下では上）	↑ ↓ / Tab Eelmine / järgmine kandidaat hüpikaknas (teksti all, ülal all all)
-ui	       →→→ で Enter            すべての候補（2 列 x 8 個、← → で列とページ、Enter で決める）	Sisesta → → → Kõik kandidaadid (2 x 8, ← → veerg ja leht, Enter valib)
-ui	       Enter                   次の文節へ（最後の文節で全体を確定）	Sisesta Next klausel (kinnitab viimases lauses terviku)
-ui	       Ctrl-U                  いまの語をユーザー辞書へ	Ctrl-U Lisab praeguse sõna kasutaja sõnastikku
-ui	 Shift+F1 / F2 / F3 / F4       先頭 / 最後 / 挿入と上書き / ユーザー辞書へ	Tõstuklahv+F1 / F2 / F3 / F4 Ülemine / lõpp / sisestamine-ülekirjutamine / kasutaja sõnastikku
-ui	       BS / ESC                1 字戻す / 取り消し	BS / ESC Mine ühe tähemärgi võrra tagasi / Tühista
-ui	       , . - [ ] /             、 。 ー 「 」 ・	, . - [ ] / 、 。 ー 「 」 ・
+ui	       F9                      IME の言語（このエディタの間だけ。閉じると戻る）	       F9 IME keel (ainult see redaktor; sulgemisel taastatud)
+ui	       F8                      日本語の予測変換 オン・オフ	       F8 Jaapani ennustav teisendus sisse/välja
+ui	       日本語                  ローマ字 -> ひらがな（F6）・カタカナ（F7）	       Jaapani romaji -> hiragana (F6) / katakana (F7)
+ui	                               半角ひらがな（Shift+F6）・半角カタカナ（Shift+F7）	                               Poollaius hiragana (Shift+F6) / poollaius katakana (Shift+F7)
+ui	                               2 字以上で予測、Space で連文節変換	                               Ennustage 2 või enama tähemärgiga, teisendage pidev klausel tühikuga
+ui	       English                 2 字以上で予測補完	       Ingliskeelne ennustav lõpetamine 2 või enama tähemärgiga
+ui	       한국어                  2 ボル式ハングル	       한국어 2 Bol-stiilis hangul
+ui	       Space / Enter           変換 / 確定	       Space / Enter           Teisenda / Kinnita
+ui	       ← →                    文節を選ぶ	       ← → Valige fraas
+ui	       Shift+← →               文節の右端を 1 字 縮/拡（候補を出し直す）	       Shift+← → Kahanda/suurenda klausli paremat otsa ühe märgi võrra (uued kandidaadid)
+ui	       ↑ ↓ / Tab               候補の窓で前 / 次の候補（窓は変換の下、画面の下では上）	       ↑ ↓ / Tab Eelmine / järgmine kandidaat hüpikaknas (teksti all, ülal all all)
+ui	       →→→ で Enter            すべての候補（2 列 x 8 個、← → で列とページ、Enter で決める）	       Sisesta → → → Kõik kandidaadid (2 x 8, ← → veerg ja leht, Enter valib)
+ui	       Enter                   次の文節へ（最後の文節で全体を確定）	       Enter                   Sisesta Next klausel (kinnitab viimases lauses terviku)
+ui	       Ctrl-U                  いまの語をユーザー辞書へ	       Ctrl-U Lisab praeguse sõna kasutaja sõnastikku
+ui	 Shift+F1 / F2 / F3 / F4       先頭 / 最後 / 挿入と上書き / ユーザー辞書へ	Shift+F1 / F2 / F3 / F4 Ülemine / lõpp / sisestamine-ülekirjutamine / kasutaja sõnastikku
+ui	       BS / ESC                1 字戻す / 取り消し	       BS / ESC Mine ühe tähemärgi võrra tagasi / Tühista
+ui	       , . - [ ] /             、 。 ー 「 」 ・	       , . - [ ] / 、 。 ー 「 」 ・
 ui	変更あり  Y: 保存して閉じる  N: 保存せず閉じる  ESC: 戻る	Muudetud Y: salvesta ja sulge N: sulge ilma salvestamata ESC: tagasi
 ui	[予測] Tab/↑↓: 候補  Space: 変換  Esc: 取消	[Ennustus] Tab/↑↓: kandidaat Tühik: teisenda Esc: tühista
-ui	[候補] ↑↓: 選ぶ  ←→: 列・ページ  Enter: 決める	[Kandidaadid] ↑↓: vali ←→: veerg/leht Sisesta: vali
-ui	[変換] ↑↓候補 ←→文節 Shift+←→区切り Enter次へ	[Teisenda] ↑↓cand ←→klausel Shift+←→piiratud Sisesta järgmine
-ui	[한국어] Tab/↑↓: 候補  Enter/Space: 確定	[한국어] Tab/↑↓: kandidaat Sisesta/Tühik: kinnita
-ui	[English] Tab/↑↓: 候補  Enter: 確定	[Inglise] Tab/↑↓: kandidaat Sisesta: kinnita
+ui	[候補] ↑↓: 選ぶ  ←→: 列・ページ  Enter: 決める	[Kandidaadid] ↑↓: vali ←→: veerg/leht Enter: vali
+ui	[変換] ↑↓候補 ←→文節 Shift+←→区切り Enter次へ	[Teisenda] ↑↓cand ←→klausel Shift+←→piiratud Enter järgmine
+ui	[한국어] Tab/↑↓: 候補  Enter/Space: 確定	[한국어] Tab/↑↓: kandidaat Enter/Tühik: kinnita
+ui	[English] Tab/↑↓: 候補  Enter: 確定	[English] Tab/↑↓: kandidaat Enter: kinnita
 ui	2ボル式ハングル入力  Ctrl-Space: 英数	Kahe komplektiga hanguli sisend Ctrl-Tühik: tähtnumbriline
 ui	予測補完  Ctrl-Space: 直接入力	Ennustav lõpetamine Ctrl-Tühik: otsesisend
 ui	辞書なし: ひらがな/カタカナ入力のみ  F6/F7	Sõnastik puudub: ainult hiragana/katakana F6/F7
@@ -269,8 +268,8 @@ ui	色分け: %s	Värvimine: %s
 ui	読み込んでいます... (loading)	Laadimine...
 ui	読み込めませんでした (could not read)	Faili ei õnnestunud lugeda
 ui	%lu 行%s%s	%lu read%s%s
-ui	  Shift_JIS を UTF-8 で開きました（保存は UTF-8）	avas Shift_JIS kui UTF-8 (salvestatud kui UTF-8)
-ui	  読み出し専用	kirjutuskaitstud
+ui	  Shift_JIS を UTF-8 で開きました（保存は UTF-8）	  avas Shift_JIS kui UTF-8 (salvestatud kui UTF-8)
+ui	  読み出し専用	  kirjutuskaitstud
 ui	保存しました (saved)	Salvestatud
 ui	保存できませんでした (write failed)	Ei saanud salvestada (kirjutamine ebaõnnestus)
 ui	候補	Kandidaadid
@@ -309,12 +308,12 @@ ui	（止めています）	(peatus)
 ui	 元: %s	Saatja: %s
 ui	 先: %s	Saaja: %s
 ui	 ファイル %u / %u 個  フォルダ %u 個  %s / %s  (%u%%)%s	Failid %u / %u kaustad %u %s / %s (%u%%)%s
-ui	  多すぎるので一部だけ	liiga palju: ainult mõned
+ui	  多すぎるので一部だけ	  liiga palju: ainult mõned
 ui	 要る大きさ %s、空き %s。続けますか？	Vajab %s, tasuta %s. Kas jätkata?
 ui	 Y: 続ける   N / ESC: やめる	Y: jätka N / ESC: tühista
 ui	 何かキーを押すと閉じます	Sulgemiseks vajutage suvalist klahvi
 ui	 ESC: 止める	ESC: peatu
-ui	 %s: ←→ ドライブ  ↑↓ フォルダ  Space 開く・閉じる  Enter 決める  ESC やめる	%s: ←→ draiv ↑↓ kaust Tühik ava/sulge Sisesta vali ESC tühista
+ui	 %s: ←→ ドライブ  ↑↓ フォルダ  Space 開く・閉じる  Enter 決める  ESC やめる	 %s: ←→ ketas  ↑↓ kaust  Space ava/sulge  Enter vali  ESC tühista
 ui	 読めません: %s	Ei saa lugeda: %s
 ui	 フォルダを読んでいます...（ESC で止める）  %u 個	Kaustade lugemine... (ESC peatub) %u
 ui	 フォルダ %u 個%s	%u kaustad%s
@@ -328,12 +327,12 @@ ui	一時停止	Peatatud
 ui	再生中	Mängib
 ui	 Space: 一時停止  m: MIDI OUT  q / ESC: 止める	Tühik: paus m: MIDI OUT q / ESC: peatus
 ui	 q / ESC: やめる	q / ESC: tühistada
-ui	フォント ROM のライセンスとクレジット\n\nROM: %s（版 %lu.%lu、%lu 文字、フラッシュの 0x%08lX から）\n\n	Font ROM litsentsid ja krediit\n\nROM: %s (versioon %lu.%lu, %lu tähemärki, alates 0x%08lX flashis)
-ui	== 収めているフォント（ROM の出所の表）==\n	== ROM-i fondid (ROM-i päritolutabel) ==
-ui	  （表が無い ROM）\n	(ROM-il pole tabelit)
-ui	\n== ROM のクレジットの区画 ==\n\n	== ROM-i krediidiala ==
-ui	（区画が無い）\n	(sellist ala pole)
-ui	\n== 組み込んだソフトウェアのライセンス ==\n	== Sisseehitatud tarkvara litsentsid ==
+ui	フォント ROM のライセンスとクレジット\n\nROM: %s（版 %lu.%lu、%lu 文字、フラッシュの 0x%08lX から）\n\n	Font ROM litsentsid ja krediit\n\nROM: %s (versioon %lu.%lu, %lu tähemärki, alates 0x%08lX flashis)\n\n
+ui	== 収めているフォント（ROM の出所の表）==\n	== ROM-i fondid (ROM-i päritolutabel) ==\n
+ui	  （表が無い ROM）\n	  (ROM-il pole tabelit)\n
+ui	\n== ROM のクレジットの区画 ==\n\n	\n== ROM-i krediidiala ==\n\n
+ui	（区画が無い）\n	(sellist ala pole)\n
+ui	\n== 組み込んだソフトウェアのライセンス ==\n	\n== Sisseehitatud tarkvara litsentsid ==\n
 ui	 %s を PNG で保存   %s	%s salvestamine PNG-vormingus %s
 ui	画面	Ekraan
 ui	 組み立てています... %lu / %lu 行	Hoone... %lu / %lu rida
@@ -346,6 +345,13 @@ ui	WAV 書き出し: %s 失敗（%s）	WAV-i eksport: %s nurjus (%s)
 ui	WAV 書き出し: %s 合計 %s	WAV eksport: %s kokku %s
 ui	 WAV 書き出し（96kHz / 24bit）: %s	WAV-eksport (96kHz / 24bit): %s
 ui	中止しました	Tühistatud
+ui	準　備　中　．．．	Ettevalmistus...
+ui	 合計 %s   出力 %s	 Kokku %s   Väljund %s
+ui	 経過 %s	 Möödunud %s
+ui	 %u%%   経過 %s	 %u%%   Möödunud %s
+ui	   残り 約 %s	   Jäänud ~%s
+ui	   出力 %s	   Väljund %s
+ui	 止めています...	 Peatamine...
 ui	失敗しました	Ebaõnnestunud
 ui	 合計 %s	Kokku %s
 ui	 中止しました（%s。半端なファイルは消しました）	Tühistatud (%s; osaline fail kustutati)
@@ -356,7 +362,7 @@ ui	 ESC: 止める（半端なファイルは消します）	ESC: stop (osaline 
 ui	書庫: %s	Arhiiv: %s
 ui	読み込み中…（ESC でやめる）	Lugemine... (tühistamiseks ESC)
 ui	 %u 項目%s  合計 %s バイト  展開先: %s	%u üksused%s kokku %s baiti ekstraktida: %s
-ui	 Enter 項目を展開  X 全部を展開  ↑↓ 動かす  ESC 閉じる	Sisestage üksus ekstrakti X ekstrakt kõik ↑↓ liigutage ESC sule
+ui	 Enter 項目を展開  X 全部を展開  ↑↓ 動かす  ESC 閉じる	Enter üksus ekstrakti X ekstrakt kõik ↑↓ liigutage ESC sule
 ui	圧縮	Suru kokku
 ui	一覧	Nimekiri
 ui	展開	Väljavõte
@@ -468,7 +474,7 @@ msg.phrase	could not open the destination (no memory?)	sihtkohta ei saanud avada
 msg.phrase	could not read the root folder	ei saanud juurkausta lugeda
 msg.phrase	could not start the task	ei saanud ülesannet alustada
 msg.phrase	could not start writing (bad name or busy)	ei saanud kirjutama hakata (halb nimi või hõivatud)
-msg.phrase	another volume is open (busy)	teine ​​köide on avatud (hõivatud)
+msg.phrase	another volume is open (busy)	teine köide on avatud (hõivatud)
 msg.phrase	a copy is running	koopia töötab
 msg.phrase	a folder cannot go into itself	kaust ei saa minna iseendasse
 msg.phrase	that is the same folder	see on sama kaust
@@ -1162,6 +1168,20 @@ ui	%s 秒	%s s
 ui	コンパイル %s  実行 %s	kompileerimine %s  käivitus %s
 ui	コンパイル %s	kompileerimine %s
 ui	実行 %s	käivitus %s
+ui	壁紙	Taustapilt
+ui	壁紙の輝度	Taustapildi heledus
+ui	(なし)	(puudub)
+ui	%u%% (100=原画 0=黒)	%u%% (100=originaal 0=must)
+ui	Up / Down  Enter 決める  Left/Right 輝度  ESC やめる	Up / Down  Enter vali  Left/Right heledus  ESC tühista
+ui	現在	Praegune
+ui	壁紙を解除 (黒地)	Eemalda taustapilt (must)
+ui	壁紙を再読み込み	Laadi taustapilt uuesti
+ui	PNG ファイルで Menu キーから「壁紙に設定」できます	Taustapildiks määramiseks vajuta PNG-failil Menu
+ui	壁紙の輝度 (%)	Taustapildi heledus (%)
+ui	 (黒)	 (must)
+ui	 (既定)	 (vaikimisi)
+ui	 (原画そのまま)	 (originaal)
+ui	壁紙に設定	Määra taustapildiks
 msg.phrase	1 Help	1 Abi
 msg.phrase	3 Copy	3 Kopeer
 msg.phrase	4 Paste	4 Kleebi

@@ -106,12 +106,11 @@ ui	何かキーで閉じる	Orice cheie se închide
 ui	設定	Setări
 ui	表示の言語	Limba de afișare
 ui	キーボードロケール	Localizarea tastaturii
-ui	Up / Down  Enter 決める  ESC やめる	Sus / Jos Introducere alege ESC Anulare
 ui	表示の言語 (Language)	Limba de afișare
 ui	Up / Down  Enter 決める  ESC 戻る	Sus / Jos Enter: set ESC: back
 ui	%c: をどの文字に固定しますか（A〜Z、S を除く。ESC でやめる）	Fix %c: ca literă? (A-Z, cu excepția S. ESC anulează)
 ui	ドライブ  文字 / Enter 選ぶ  F2 文字を固定・解除  F3 文字を決めて固定  L / ESC やめる	Litera de unitate / Introduceți selectați F2 remediați/anulați litera F3 remediați ca... L / ESC anulați
-ui	  区画 %u	partiție %u
+ui	  区画 %u	  partiție %u
 ui	%c:* （固定・つながっていません）%04X:%04X%s  %s	%c:* (fix, neconectat) %04X:%04X%s %s
 ui	お知らせ	Observa
 ui	ドライブ %c:  %s	Conducere %c: %s
@@ -219,40 +218,40 @@ ui	 %s  %s  行 %lu/%lu 桁 %u  %s  %s %s%s%s	%s %s Ln %lu/%lu Col %u %s %s %s%s
 ui	*変更	*mod
 ui	上書	OVR
 ui	挿入	INS
-ui	  読出専用	R/O
+ui	  読出専用	  R/O
 ui	 エディタ (sgnano edit)                      F1 / ESC で閉じる	Editor (sgnano edit) F1 / ESC se închide
-ui	 矢印 / Home End / PgUp PgDn   カーソルを動かす	Săgeți / Acasă Sfârșit / PgUp PgDn mută cursorul
+ui	 矢印 / Home End / PgUp PgDn   カーソルを動かす	Săgeți / Home End / PgUp PgDn mută cursorul
 ui	 Ctrl-T / Ctrl-B               ファイルの先頭 / 最後	Ctrl-T / Ctrl-B sus / sfârșitul fișierului
-ui	 BS / Del                      前の字 / カーソルの字を消す	BS / Delter șterge înainte / la cursor
+ui	 BS / Del                      前の字 / カーソルの字を消す	 BS / Del                      șterge înainte / la cursor
 ui	 Enter                         改行（前の行の字下げを引き継ぐ）	Introduceți un rând nou (păstrează indentarea)
 ui	 Tab / Ins                     タブ / 挿入と上書きの切り替え	Tab / filă Ins / inserați sau suprascrieți
 ui	 F5                            色分け（拡張子から。C/C++・mruby・MicroPython・SG BASIC・なし）	F5 Colorare (din extensie; C/C++, mruby, MicroPython, SG BASIC, niciunul)
 ui	 F2  (Ctrl-S)                  保存（UTF-8、改行は元の形）	Salvare F2 (Ctrl-S) (UTF-8, capetele liniei păstrate)
 ui	 F10 / ESC                     閉じる（変更があれば聞く）	F10 / ESC închidere (întreabă dacă a fost schimbat)
 ui	 IME:  Ctrl-Space / F12        オン・オフ（あ / A）	IME: Ctrl-Space / F12 activat / dezactivat (あ / A)
-ui	       F9                      IME の言語（このエディタの間だけ。閉じると戻る）	F9 Limba IME (numai pentru acest editor; restaurat la închidere)
-ui	       F8                      日本語の予測変換 オン・オフ	F8 Conversie predictivă japoneză activată/dezactivată
-ui	       日本語                  ローマ字 -> ひらがな（F6）・カタカナ（F7）	romaji japonez -> hiragana (F6) / katakana (F7)
-ui	                               半角ひらがな（Shift+F6）・半角カタカナ（Shift+F7）	Hiragana la jumătate de lățime (Shift+F6) / Katakana la jumătate de lățime (Shift+F7)
-ui	                               2 字以上で予測、Space で連文節変換	Preziceți cu 2 sau mai multe caractere, convertiți clauza continuă cu spațiu
-ui	       English                 2 字以上で予測補完	Engleză Completare predictivă cu 2 sau mai multe caractere
-ui	       한국어                  2 ボル式ハングル	한국어 2 Hangul în stil Bol
-ui	       Space / Enter           変換 / 確定	Space / Enter Convert / Confirm
-ui	       ← →                    文節を選ぶ	← → Selectați o frază
-ui	       Shift+← →               文節の右端を 1 字 縮/拡（候補を出し直す）	Shift+← → Micșorați/creșteți capătul din dreapta al clauzei cu un caracter (candidați noi)
-ui	       ↑ ↓ / Tab               候補の窓で前 / 次の候補（窓は変換の下、画面の下では上）	↑ ↓ / Tab Candidatul anterior / următor în fereastra pop-up (sub text, deasupra în partea de jos)
-ui	       →→→ で Enter            すべての候補（2 列 x 8 個、← → で列とページ、Enter で決める）	Introduceți pe →→→ Toți candidații (2 x 8, ← → coloană și pagină, Enter alege)
-ui	       Enter                   次の文節へ（最後の文節で全体を確定）	Introduceți următoarea clauză (confirmă întregul la ultima clauză)
-ui	       Ctrl-U                  いまの語をユーザー辞書へ	Ctrl-U Adăugați cuvântul curent în dicționarul utilizatorului
+ui	       F9                      IME の言語（このエディタの間だけ。閉じると戻る）	       F9 Limba IME (numai pentru acest editor; restaurat la închidere)
+ui	       F8                      日本語の予測変換 オン・オフ	       F8 Conversie predictivă japoneză activată/dezactivată
+ui	       日本語                  ローマ字 -> ひらがな（F6）・カタカナ（F7）	       romaji japonez -> hiragana (F6) / katakana (F7)
+ui	                               半角ひらがな（Shift+F6）・半角カタカナ（Shift+F7）	                               Hiragana la jumătate de lățime (Shift+F6) / Katakana la jumătate de lățime (Shift+F7)
+ui	                               2 字以上で予測、Space で連文節変換	                               Preziceți cu 2 sau mai multe caractere, convertiți clauza continuă cu spațiu
+ui	       English                 2 字以上で予測補完	       Engleză Completare predictivă cu 2 sau mai multe caractere
+ui	       한국어                  2 ボル式ハングル	       한국어 2 Hangul în stil Bol
+ui	       Space / Enter           変換 / 確定	       Space / Enter Convert / Confirm
+ui	       ← →                    文節を選ぶ	       ← → Selectați o frază
+ui	       Shift+← →               文節の右端を 1 字 縮/拡（候補を出し直す）	       Shift+← → Micșorați/creșteți capătul din dreapta al clauzei cu un caracter (candidați noi)
+ui	       ↑ ↓ / Tab               候補の窓で前 / 次の候補（窓は変換の下、画面の下では上）	       ↑ ↓ / Tab Candidatul anterior / următor în fereastra pop-up (sub text, deasupra în partea de jos)
+ui	       →→→ で Enter            すべての候補（2 列 x 8 個、← → で列とページ、Enter で決める）	       Introduceți pe →→→ Toți candidații (2 x 8, ← → coloană și pagină, Enter alege)
+ui	       Enter                   次の文節へ（最後の文節で全体を確定）	       Introduceți următoarea clauză (confirmă întregul la ultima clauză)
+ui	       Ctrl-U                  いまの語をユーザー辞書へ	       Ctrl-U Adăugați cuvântul curent în dicționarul utilizatorului
 ui	 Shift+F1 / F2 / F3 / F4       先頭 / 最後 / 挿入と上書き / ユーザー辞書へ	Shift+F1 / F2 / F3 / F4 Sus / sfârșit / inserare-suprascrie / în dicționarul utilizatorului
-ui	       BS / ESC                1 字戻す / 取り消し	BS / ESC Înapoi un caracter / Anulare
-ui	       , . - [ ] /             、 。 ー 「 」 ・	, . - [ ] / 、 。 ー 「 」 ・
+ui	       BS / ESC                1 字戻す / 取り消し	       BS / ESC Înapoi un caracter / Anulare
+ui	       , . - [ ] /             、 。 ー 「 」 ・	       , . - [ ] / 、 。 ー 「 」 ・
 ui	変更あり  Y: 保存して閉じる  N: 保存せず閉じる  ESC: 戻る	Modificat Y: salvare și închidere N: închidere fără salvare ESC: înapoi
 ui	[予測] Tab/↑↓: 候補  Space: 変換  Esc: 取消	[Predicție] Tab/↑↓: candidat Spațiu: convertesc Esc: anulați
 ui	[候補] ↑↓: 選ぶ  ←→: 列・ページ  Enter: 決める	[Candidați] ↑↓: selectați ←→: coloana/pagina Enter: alegeți
 ui	[変換] ↑↓候補 ←→文節 Shift+←→区切り Enter次へ	[Convertire] ↑↓cand ←→clauza Shift+←→legat Introduceți următorul
 ui	[한국어] Tab/↑↓: 候補  Enter/Space: 確定	[한국어] Tab/↑↓: candidat Introducere/Spațiu: confirmare
-ui	[English] Tab/↑↓: 候補  Enter: 確定	[Engleză] Tab/↑↓: candidat Introduceți: confirmați
+ui	[English] Tab/↑↓: 候補  Enter: 確定	[English] Tab/↑↓: candidat Introduceți: confirmați
 ui	2ボル式ハングル入力  Ctrl-Space: 英数	Intrare Hangul cu 2 seturi Ctrl-Space: alfanumeric
 ui	予測補完  Ctrl-Space: 直接入力	Finalizare predictivă Ctrl-Space: introducere directă
 ui	辞書なし: ひらがな/カタカナ入力のみ  F6/F7	Fără dicționar: hiragana/katakana doar F6/F7
@@ -269,8 +268,8 @@ ui	色分け: %s	Colorare: %s
 ui	読み込んでいます... (loading)	Încărcare...
 ui	読み込めませんでした (could not read)	Nu s-a putut citi fișierul
 ui	%lu 行%s%s	%lu linii%s%s
-ui	  Shift_JIS を UTF-8 で開きました（保存は UTF-8）	a deschis Shift_JIS ca UTF-8 (salvat ca UTF-8)
-ui	  読み出し専用	numai pentru citire
+ui	  Shift_JIS を UTF-8 で開きました（保存は UTF-8）	  a deschis Shift_JIS ca UTF-8 (salvat ca UTF-8)
+ui	  読み出し専用	  numai pentru citire
 ui	保存しました (saved)	Salvat
 ui	保存できませんでした (write failed)	Nu s-a putut salva (scrierea eșuată)
 ui	候補	Candidații
@@ -309,7 +308,7 @@ ui	（止めています）	(oprire)
 ui	 元: %s	De la: %s
 ui	 先: %s	Către: %s
 ui	 ファイル %u / %u 個  フォルダ %u 個  %s / %s  (%u%%)%s	Fișiere %u / %u foldere %u %s / %s (%u%%)%s
-ui	  多すぎるので一部だけ	prea multe: doar unele
+ui	  多すぎるので一部だけ	  prea multe: doar unele
 ui	 要る大きさ %s、空き %s。続けますか？	Necesită %s, gratuit %s. Continua?
 ui	 Y: 続ける   N / ESC: やめる	Y: continua N / ESC: anulează
 ui	 何かキーを押すと閉じます	Apăsați orice tastă pentru a închide
@@ -328,12 +327,12 @@ ui	一時停止	Întrerupt
 ui	再生中	Joc
 ui	 Space: 一時停止  m: MIDI OUT  q / ESC: 止める	Spațiu: pauză m: MIDI OUT q / ESC: oprire
 ui	 q / ESC: やめる	q / ESC: anulare
-ui	フォント ROM のライセンスとクレジット\n\nROM: %s（版 %lu.%lu、%lu 文字、フラッシュの 0x%08lX から）\n\n	Licențe și credite pentru font ROM\n\nROM: %s (versiunea %lu.%lu, %lu caractere, de la 0x%08lX în flash)
-ui	== 収めているフォント（ROM の出所の表）==\n	== Fonturi în ROM (tabelul de origine al ROM) ==
-ui	  （表が無い ROM）\n	(ROM-ul nu are tabel)
-ui	\n== ROM のクレジットの区画 ==\n\n	== Zona de credite a ROM ==
-ui	（区画が無い）\n	(nu există o astfel de zonă)
-ui	\n== 組み込んだソフトウェアのライセンス ==\n	== Licențe ale software-ului încorporat ==
+ui	フォント ROM のライセンスとクレジット\n\nROM: %s（版 %lu.%lu、%lu 文字、フラッシュの 0x%08lX から）\n\n	Licențe și credite pentru font ROM\n\nROM: %s (versiunea %lu.%lu, %lu caractere, de la 0x%08lX în flash)\n\n
+ui	== 収めているフォント（ROM の出所の表）==\n	== Fonturi în ROM (tabelul de origine al ROM) ==\n
+ui	  （表が無い ROM）\n	  (ROM-ul nu are tabel)\n
+ui	\n== ROM のクレジットの区画 ==\n\n	\n== Zona de credite a ROM ==\n\n
+ui	（区画が無い）\n	(nu există o astfel de zonă)\n
+ui	\n== 組み込んだソフトウェアのライセンス ==\n	\n== Licențe ale software-ului încorporat ==\n
 ui	 %s を PNG で保存   %s	Se salvează %s ca PNG %s
 ui	画面	Ecran
 ui	 組み立てています... %lu / %lu 行	Construire... %lu / %lu rânduri
@@ -346,6 +345,13 @@ ui	WAV 書き出し: %s 失敗（%s）	Exportul WAV: %s a eșuat (%s)
 ui	WAV 書き出し: %s 合計 %s	Export WAV: %s total %s
 ui	 WAV 書き出し（96kHz / 24bit）: %s	Export WAV (96 kHz / 24 biți): %s
 ui	中止しました	Anulat
+ui	準　備　中　．．．	Se pregătește...
+ui	 合計 %s   出力 %s	 Total %s   Ieșire %s
+ui	 経過 %s	 Scurs %s
+ui	 %u%%   経過 %s	 %u%%   Scurs %s
+ui	   残り 約 %s	   Rămas ~%s
+ui	   出力 %s	   Ieșire %s
+ui	 止めています...	 Se oprește...
 ui	失敗しました	A eșuat
 ui	 合計 %s	Total %s
 ui	 中止しました（%s。半端なファイルは消しました）	Anulat (%s; fișierul parțial a fost șters)
@@ -1162,6 +1168,20 @@ ui	%s 秒	%s s
 ui	コンパイル %s  実行 %s	compilare %s  execuție %s
 ui	コンパイル %s	compilare %s
 ui	実行 %s	execuție %s
+ui	壁紙	Fundal
+ui	壁紙の輝度	Luminozitate fundal
+ui	(なし)	(niciunul)
+ui	%u%% (100=原画 0=黒)	%u%% (100=original 0=negru)
+ui	Up / Down  Enter 決める  Left/Right 輝度  ESC やめる	Up / Down  Enter alege  Left/Right luminozitate  ESC anulare
+ui	現在	Curent
+ui	壁紙を解除 (黒地)	Elimină fundalul (negru)
+ui	壁紙を再読み込み	Reîncarcă fundalul
+ui	PNG ファイルで Menu キーから「壁紙に設定」できます	Apăsați Menu pe un fișier PNG pentru a-l seta ca fundal
+ui	壁紙の輝度 (%)	Luminozitate fundal (%)
+ui	 (黒)	 (negru)
+ui	 (既定)	 (implicit)
+ui	 (原画そのまま)	 (original)
+ui	壁紙に設定	Setează ca fundal
 msg.phrase	Version %s	Versiunea %s
 msg.phrase	1 Help	1 Ajutor
 msg.phrase	3 Copy	3 Copier

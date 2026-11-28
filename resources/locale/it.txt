@@ -105,7 +105,6 @@ ui	何かキーで閉じる	Un tasto chiude
 ui	設定	Impostazioni
 ui	表示の言語	Lingua di visualizzazione
 ui	キーボードロケール	locale della tastiera
-ui	Up / Down  Enter 決める  ESC やめる	Su / Giù  Invio scegli  ESC annulla
 ui	表示の言語 (Language)	Lingua (Language)
 ui	Up / Down  Enter 決める  ESC 戻る	Su/Giù Invio Decidi ESC Indietro
 ui	%c: をどの文字に固定しますか（A〜Z、S を除く。ESC でやめる）	Fissare %c: su quale lettera? (A-Z tranne S. ESC annulla)
@@ -236,7 +235,7 @@ ui	                               半角ひらがな（Shift+F6）・半角カ�
 ui	                               2 字以上で予測、Space で連文節変換	                               Prevedi con 2 o più caratteri, converti la clausola continua con Spazio
 ui	       English                 2 字以上で予測補完	       Completamento predittivo inglese con 2 o più caratteri
 ui	       한국어                  2 ボル式ハングル	       한국어 2 Hangul in stile Bol
-ui	       Space / Enter           変換 / 確定	Spazio / Invio Converti / Conferma
+ui	       Space / Enter           変換 / 確定	       Spazio / Invio Converti / Conferma
 ui	       ← →                    文節を選ぶ	       ← → Seleziona una frase
 ui	       Shift+← →               文節の右端を 1 字 縮/拡（候補を出し直す）	       Maiusc+← → Accorcia/allunga di un carattere l'estremità destra della frase (nuovi candidati)
 ui	       ↑ ↓ / Tab               候補の窓で前 / 次の候補（窓は変換の下、画面の下では上）	       ↑ ↓ / Tab               Candidato precedente / successivo nella finestra (sotto il testo, sopra vicino al fondo)
@@ -345,6 +344,13 @@ ui	WAV 書き出し: %s 失敗（%s）	Esporta WAV: %s non riuscito (%s)
 ui	WAV 書き出し: %s 合計 %s	Esporta WAV: %s totale %s
 ui	 WAV 書き出し（96kHz / 24bit）: %s	 Esporta WAV (96kHz / 24bit): %s
 ui	中止しました	Annullato
+ui	準　備　中　．．．	Preparazione...
+ui	 合計 %s   出力 %s	 Totale %s   Uscita %s
+ui	 経過 %s	 Trascorso %s
+ui	 %u%%   経過 %s	 %u%%   Trascorso %s
+ui	   残り 約 %s	   Restano ~%s
+ui	   出力 %s	   Uscita %s
+ui	 止めています...	 Interruzione...
 ui	失敗しました	Non riuscito
 ui	 合計 %s	 Totale %s
 ui	 中止しました（%s。半端なファイルは消しました）	 Annullato (%s; il file parziale è stato eliminato)
@@ -1161,6 +1167,20 @@ ui	%s 秒	%s s
 ui	コンパイル %s  実行 %s	compilazione %s  esecuzione %s
 ui	コンパイル %s	compilazione %s
 ui	実行 %s	esecuzione %s
+ui	壁紙	Sfondo
+ui	壁紙の輝度	Luminosità sfondo
+ui	(なし)	(nessuno)
+ui	%u%% (100=原画 0=黒)	%u%% (100=originale 0=nero)
+ui	Up / Down  Enter 決める  Left/Right 輝度  ESC やめる	Up / Down  Invio scegli  Left/Right luminosità  ESC annulla
+ui	現在	Attuale
+ui	壁紙を解除 (黒地)	Rimuovi sfondo (nero)
+ui	壁紙を再読み込み	Ricarica sfondo
+ui	PNG ファイルで Menu キーから「壁紙に設定」できます	Premi Menu su un PNG per impostarlo come sfondo
+ui	壁紙の輝度 (%)	Luminosità sfondo (%)
+ui	 (黒)	 (nero)
+ui	 (既定)	 (predef.)
+ui	 (原画そのまま)	 (originale)
+ui	壁紙に設定	Imposta come sfondo
 msg.phrase	Version %s	Versione %s
 msg.phrase	1 Help	1 Aiuto
 msg.phrase	3 Copy	3 Copia

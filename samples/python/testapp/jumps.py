@@ -934,6 +934,16 @@ def read_dir():
         dx = 1
     return dx
 
+def pad_jump():
+    if M.pad_pressed(0, M.PAD_A):
+        return True
+    if M.pad(0) is not None:
+        pdir = M.pad_dir(0)
+        if pdir is not None and isinstance(pdir, (list, tuple)) and len(pdir) > 1 and isinstance(pdir[1], int):
+            if pdir[1] < 0:
+                return True
+    return False
+
 def kb_jump():
     return M.key_down(M.KEY_SPACE) or M.key_down(M.KEY_UP)
 
@@ -989,7 +999,7 @@ while True:
             dx = read_dir()
             vx = dx * MOVE_V if dx != 0 else 0.0
 
-            jump = M.pad_pressed(0, M.PAD_A) or kb_jump()
+            jump = pad_jump() or kb_jump()
             if jump and on_ground:
                 jump_dy = JUMP_DY
                 jump_i = 0
